@@ -1,0 +1,60 @@
+{
+  "_exampleOnly": "Reference config for the 'hotel review / loyalty-program' vertical. Copy to /site.config.json at repo root to instantiate a new site instance. Not wired into any build.",
+
+  "siteName": "Points & Pillows",
+  "siteTagline": "Hotel and loyalty-program guides for travelers who care about elite benefits",
+  "siteDomain": "example-hotels.com",
+  "verticalKey": "hotels",
+
+  "entityLabelSingular": "hotel",
+  "entityLabelPlural": "hotels",
+  "categoryLabel": "Loyalty Program",
+  "regionLabel": "City",
+  "regionGranularity": "city",
+
+  "schemaTypePrimary": "Hotel",
+
+  "monetizationModel": "affiliate",
+  "primaryCTAType": "booking_link",
+
+  "theme": {
+    "primaryColor": "#8a5a2b",
+    "light": { "bg": "#faf8f5", "surface": "#ffffff", "text": "#1c1712", "muted": "#736a5e", "border": "#e8e1d6" },
+    "dark":  { "bg": "#141210", "surface": "#1d1a16", "text": "#f2ede4", "muted": "#a89d8c", "border": "#2e2a23" }
+  },
+
+  "enabledFeatures": {
+    "listicles": true,
+    "reviewQueue": true,
+    "savedFilters": true,
+    "darkMode": true,
+    "faqSchema": true,
+    "itemListSchema": true,
+    "affiliateLinks": true
+  },
+
+  "contactEmail": "hello@example-hotels.com",
+
+  "aiPromptProfile": "hotels-research-v1",
+
+  "sourceConfig": {
+    "discoveryStrategy": "brand-directory-plus-review-aggregation",
+    "refreshIntervalDays": 14,
+    "requestDelayMs": 2000,
+    "respectRobotsTxt": true,
+    "userAgent": "programmatic-seo-engine/1.0 (+https://example-hotels.com/about)",
+    "sourcePriority": [
+      "official_brand_website",
+      "official_booking_page",
+      "loyalty_program_terms",
+      "trusted_aggregators",
+      "verified_guest_reviews"
+    ],
+    "trustedAggregators": ["loyaltylobby.com", "onemileatatime.com", "thepointsguy.com"]
+  },
+
+  "regionsSupported": ["Bangkok", "Singapore", "Kuala Lumpur", "Bali", "Tokyo"],
+  "categoriesSupported": ["Marriott Bonvoy", "World of Hyatt", "IHG One Rewards", "Hilton Honors"],
+
+  "notes": "core_facts for this vertical: address, brand, elite_benefits, breakfast, lounge, points_value_notes (see universal schema, Step 2)."
+}

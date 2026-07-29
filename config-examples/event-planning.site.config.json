@@ -1,0 +1,59 @@
+{
+  "_exampleOnly": "Reference config for the 'event planning vendors' vertical (party planners, entertainers, venues, caterers). Copy to /site.config.json at repo root to instantiate a new site instance. Not wired into any build.",
+
+  "siteName": "Our Kampung",
+  "siteTagline": "Vetted event vendors for parties and celebrations",
+  "siteDomain": "ourkampung.com",
+  "verticalKey": "event-planning",
+
+  "entityLabelSingular": "vendor",
+  "entityLabelPlural": "vendors",
+  "categoryLabel": "Vendor Type",
+  "regionLabel": "City",
+  "regionGranularity": "city",
+
+  "schemaTypePrimary": "Service",
+
+  "monetizationModel": "lead-gen",
+  "primaryCTAType": "enquiry_link",
+
+  "theme": {
+    "primaryColor": "#c14a5a",
+    "light": { "bg": "#fdf8f7", "surface": "#ffffff", "text": "#201414", "muted": "#725f5f", "border": "#ece0df" },
+    "dark":  { "bg": "#181111", "surface": "#221819", "text": "#f5eceb", "muted": "#ad9695", "border": "#332525" }
+  },
+
+  "enabledFeatures": {
+    "listicles": true,
+    "reviewQueue": true,
+    "savedFilters": true,
+    "darkMode": true,
+    "faqSchema": true,
+    "itemListSchema": true,
+    "affiliateLinks": false
+  },
+
+  "contactEmail": "hello@ourkampung.com",
+
+  "aiPromptProfile": "event-planning-research-v1",
+
+  "sourceConfig": {
+    "discoveryStrategy": "directory-plus-social-verification",
+    "refreshIntervalDays": 14,
+    "requestDelayMs": 2000,
+    "respectRobotsTxt": true,
+    "userAgent": "programmatic-seo-engine/1.0 (+https://ourkampung.com/about)",
+    "sourcePriority": [
+      "official_vendor_website",
+      "official_instagram_or_social",
+      "trusted_aggregators",
+      "verified_customer_reviews"
+    ],
+    "trustedAggregators": ["littlestepsasia.com", "honeykidsasia.com", "sassymamasg.com", "busykidd.com"]
+  },
+
+  "regionsSupported": ["Singapore"],
+  "categoriesSupported": ["Planner", "Entertainer", "Caterer", "Venue", "Photographer", "Decor"],
+
+  "notes": "core_facts for this vertical: capacity, pricing_tier, lead_time, style_tags, vendor_type (see universal schema, Step 2). ourkampung.com's existing vendors.json/suppliers.json/pricing.json are strong real seed data for this vertical's first migration."
+}

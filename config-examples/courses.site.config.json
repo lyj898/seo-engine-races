@@ -1,0 +1,60 @@
+{
+  "_exampleOnly": "Reference config for the 'online courses / bootcamps' vertical. Copy to /site.config.json at repo root to instantiate a new site instance. Not wired into any build.",
+
+  "siteName": "PathSwitch",
+  "siteTagline": "Courses and bootcamps for people changing careers",
+  "siteDomain": "example-courses.com",
+  "verticalKey": "courses",
+
+  "entityLabelSingular": "course",
+  "entityLabelPlural": "courses",
+  "categoryLabel": "Career Outcome",
+  "regionLabel": "Region",
+  "regionGranularity": "country-or-online",
+
+  "schemaTypePrimary": "Course",
+
+  "monetizationModel": "affiliate",
+  "primaryCTAType": "enrollment_link",
+
+  "theme": {
+    "primaryColor": "#5b3fa0",
+    "light": { "bg": "#f8f7fb", "surface": "#ffffff", "text": "#171420", "muted": "#65616f", "border": "#e3e0ea" },
+    "dark":  { "bg": "#121017", "surface": "#1a1721", "text": "#f0eef5", "muted": "#a49dae", "border": "#2a2733" }
+  },
+
+  "enabledFeatures": {
+    "listicles": true,
+    "reviewQueue": true,
+    "savedFilters": true,
+    "darkMode": true,
+    "faqSchema": true,
+    "itemListSchema": true,
+    "affiliateLinks": true
+  },
+
+  "contactEmail": "hello@example-courses.com",
+
+  "aiPromptProfile": "courses-research-v1",
+
+  "sourceConfig": {
+    "discoveryStrategy": "platform-catalog-plus-outcome-verification",
+    "refreshIntervalDays": 14,
+    "requestDelayMs": 1500,
+    "respectRobotsTxt": true,
+    "userAgent": "programmatic-seo-engine/1.0 (+https://example-courses.com/about)",
+    "sourcePriority": [
+      "official_course_page",
+      "official_platform_catalog",
+      "accreditation_body",
+      "trusted_aggregators",
+      "verified_alumni_reviews"
+    ],
+    "trustedAggregators": ["classcentral.com", "coursereport.com", "switchup.org"]
+  },
+
+  "regionsSupported": ["Online", "Singapore", "Philippines", "Vietnam"],
+  "categoriesSupported": ["Data Analytics", "Software Engineering", "UX Design", "Digital Marketing", "Cybersecurity"],
+
+  "notes": "core_facts for this vertical: duration, modality, price, certification, level (see universal schema, Step 2)."
+}

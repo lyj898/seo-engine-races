@@ -1,0 +1,60 @@
+{
+  "_exampleOnly": "Reference config for the 'local services' vertical (plumbers, electricians, cleaners, etc). Copy to /site.config.json at repo root to instantiate a new site instance. Not wired into any build.",
+
+  "siteName": "TrustLocal",
+  "siteTagline": "Vetted local service providers, ranked by response time and reliability",
+  "siteDomain": "example-localservices.com",
+  "verticalKey": "local-services",
+
+  "entityLabelSingular": "provider",
+  "entityLabelPlural": "providers",
+  "categoryLabel": "Service Type",
+  "regionLabel": "District",
+  "regionGranularity": "city+district",
+
+  "schemaTypePrimary": "LocalBusiness",
+
+  "monetizationModel": "lead-gen",
+  "primaryCTAType": "contact_request",
+
+  "theme": {
+    "primaryColor": "#1e5b8c",
+    "light": { "bg": "#f7f9fa", "surface": "#ffffff", "text": "#12181d", "muted": "#5c6b74", "border": "#dde4e8" },
+    "dark":  { "bg": "#0e1316", "surface": "#161c20", "text": "#eef2f4", "muted": "#8fa0aa", "border": "#232b30" }
+  },
+
+  "enabledFeatures": {
+    "listicles": true,
+    "reviewQueue": true,
+    "savedFilters": true,
+    "darkMode": true,
+    "faqSchema": true,
+    "itemListSchema": true,
+    "affiliateLinks": false
+  },
+
+  "contactEmail": "hello@example-localservices.com",
+
+  "aiPromptProfile": "local-services-research-v1",
+
+  "sourceConfig": {
+    "discoveryStrategy": "directory-plus-review-verification",
+    "refreshIntervalDays": 14,
+    "requestDelayMs": 2000,
+    "respectRobotsTxt": true,
+    "userAgent": "programmatic-seo-engine/1.0 (+https://example-localservices.com/about)",
+    "sourcePriority": [
+      "official_business_website",
+      "business_registry",
+      "verified_customer_reviews",
+      "trusted_aggregators",
+      "official_social"
+    ],
+    "trustedAggregators": ["google-business-profile", "yelp.com", "facebook.com/business"]
+  },
+
+  "regionsSupported": ["Singapore - Central", "Singapore - East", "Singapore - West", "Singapore - North"],
+  "categoriesSupported": ["Plumber", "Electrician", "Aircon Servicing", "Cleaning", "Pest Control"],
+
+  "notes": "core_facts for this vertical: service_area, response_time, price_range, emergency_availability (see universal schema, Step 2)."
+}
