@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.astro/
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+
+# Raw scraped source material must never be committed -- see data/_raw/README.md.
+# Only original summaries + structured facts + short attributed excerpts belong
+# in git (i.e. the files under /data/entities, /data/regions, etc).
+/data/_raw/*
+!/data/_raw/README.md

@@ -1,0 +1,110 @@
+{
+  "siteName": "Run SEA",
+  "siteTagline": "Find your next road race across Southeast Asia",
+  "heroHeadline": "Find your next road half & full marathon *race* across Southeast Asia",
+  "siteDomain": "runsea.run",
+  "verticalKey": "races",
+
+  "entityLabelSingular": "race",
+  "entityLabelPlural": "races",
+  "categoryLabel": "Distance Type",
+  "regionLabel": "Country",
+  "regionGranularity": "country+city",
+
+  "schemaTypePrimary": "SportsEvent",
+
+  "monetizationModel": "referral",
+  "primaryCTAType": "official_registration",
+
+  "theme": {
+    "_note": "Exact design tokens from runsea.run's live design system (see Races/design.html) -- kept 1:1 so this instance's visual identity doesn't change from the engine rebuild. Every other config-examples/*.json theme is intentionally different, proving the token *shape* (not these specific values) is what the engine depends on.",
+    "primaryColor": "#c8ff33",
+    "fonts": {
+      "display": "Archivo",
+      "displayFallback": "'Helvetica Neue', sans-serif",
+      "body": "General Sans",
+      "bodyFallback": "'Helvetica Neue', sans-serif"
+    },
+    "radius": { "sm": "0.375rem", "md": "0.625rem", "lg": "1rem", "xl": "1.5rem" },
+    "light": {
+      "bg": "#f5f5f2",
+      "surface": "#ffffff",
+      "surfaceOffset": "#eeeeea",
+      "divider": "#dedcd4",
+      "border": "#d8d6cc",
+      "text": "#15170f",
+      "muted": "#5c5f52",
+      "faint": "#9a9c8e",
+      "primaryInk": "#1c2010",
+      "primaryHighlight": "#eaffb0",
+      "primaryHover": "#b3e62b",
+      "success": "#2f7a3a",
+      "successHighlight": "#d7ecd0",
+      "warning": "#a15c00",
+      "warningHighlight": "#fdf0d8",
+      "error": "#b3261e"
+    },
+    "dark": {
+      "bg": "#12130f",
+      "surface": "#191a14",
+      "surfaceOffset": "#212217",
+      "divider": "#2c2d20",
+      "border": "#33341f",
+      "text": "#eceee2",
+      "muted": "#a2a493",
+      "faint": "#6d6f5f",
+      "primaryInk": "#15170f",
+      "primaryHighlight": "#2b3418",
+      "primaryHover": "#d6ff5c",
+      "success": "#7ec788",
+      "successHighlight": "#1e3122",
+      "warning": "#e0a752",
+      "warningHighlight": "#392c17",
+      "error": "#e0736c"
+    }
+  },
+
+  "enabledFeatures": {
+    "listicles": true,
+    "reviewQueue": true,
+    "savedFilters": true,
+    "darkMode": true,
+    "faqSchema": true,
+    "itemListSchema": true,
+    "affiliateLinks": false
+  },
+
+  "contactEmail": "hello@runsea.run",
+
+  "aiPromptProfile": "races-research-v1",
+
+  "sourceConfig": {
+    "discoveryStrategy": "aggregator-plus-official-verification",
+    "refreshIntervalDays": 7,
+    "requestDelayMs": 1500,
+    "respectRobotsTxt": true,
+    "userAgent": "programmatic-seo-engine/1.0 (+https://runsea.run/about)",
+    "sourcePriority": [
+      "official_event_website",
+      "official_registration_platform",
+      "aims_worldrunning_calendar",
+      "trusted_aggregators",
+      "official_social"
+    ],
+    "trustedAggregators": [
+      "jomrun.com",
+      "checkpointspot.asia",
+      "kalenderlari.com",
+      "racexasia.com",
+      "ahotu.com"
+    ]
+  },
+
+  "regionsSupported": [
+    "Singapore", "Malaysia", "Indonesia", "Thailand", "Vietnam",
+    "Philippines", "Cambodia", "Laos", "Myanmar", "Brunei", "Timor-Leste"
+  ],
+  "categoriesSupported": ["5K", "10K", "Half Marathon", "Full Marathon", "Ultra"],
+
+  "notes": "Vertical instance config for 'races' (runsea.run). This file is the ONLY place vertical labels/branding/behavior are read from by shared engine code -- no vertical-specific strings should ever be hardcoded into /src or /scripts. See /config-examples for how the other four verticals (hotels, local-services, courses, event-planning) instantiate the same schema. Do NOT point DNS/CNAME at runsea.run's live production traffic until this engine's races vertical has passed Step 5 review and a manual QA pass."
+}

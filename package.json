@@ -1,0 +1,27 @@
+{
+  "name": "programmatic-seo-engine",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "validate": "node scripts/validate-data.js",
+    "discover": "node scripts/discover-entities.js",
+    "refresh": "node scripts/refresh-entities.js",
+    "summaries": "node scripts/generate-summaries.js",
+    "refresh:all": "npm run validate && npm run discover && npm run refresh && npm run summaries && npm run validate"
+  },
+  "dependencies": {
+    "astro": "^4.16.0",
+    "@astrojs/tailwind": "^5.1.0",
+    "tailwindcss": "^3.4.0",
+    "@anthropic-ai/sdk": "^0.32.0",
+    "zod": "^3.23.0"
+  }
+}
