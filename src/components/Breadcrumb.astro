@@ -1,0 +1,27 @@
+---
+// items: [{ label, href }] -- the last item is treated as the current page
+// (rendered without a link) regardless of whether it has an href.
+//
+// This component is presentation-only. Step 6 adds a matching
+// buildBreadcrumbListSchema(items) helper in src/lib/schema-jsonld.js that
+// consumes the SAME items array to emit BreadcrumbList JSON-LD, so a page
+// never has to define its breadcrumb trail twice.
+const { items = [] } = Astro.props;
+---
+
+{items.length > 0 && (
+  <nav aria-label="Breadcrumb" class="text-sm text-brand-muted dark:text-brand-muted-dark">
+    <ol class="flex flex-wrap items-center gap-1.5">
+      {items.map((item, i) => (
+        <li class="flex items-center gap-1.5">
+          {i > 0 && <span aria-hidden="true">/</span>}
+          {i < items.length - 1 ? (
+            <a href={item.href} class="link-muted">{item.label}</a>
+          ) : (
+            <span aria-current="page" class="text-brand-text dark:text-brand-text-dark">{item.label}</span>
+          )}
+        </li>
+      ))}
+    </ol>
+  </nav>
+)}

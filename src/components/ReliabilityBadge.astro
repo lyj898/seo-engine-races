@@ -1,0 +1,13 @@
+---
+const { score } = Astro.props;
+const tier = score >= 85 ? 'high' : score >= 65 ? 'medium' : 'low';
+const styles = {
+  high: 'bg-brand-success-highlight text-brand-success dark:bg-brand-success-highlight-dark dark:text-brand-success-dark',
+  medium: 'bg-brand-warning-highlight text-brand-warning dark:bg-brand-warning-highlight-dark dark:text-brand-warning-dark',
+  low: 'bg-brand-error/10 text-brand-error dark:bg-brand-error-dark/10 dark:text-brand-error-dark',
+};
+---
+
+<span class={`inline-flex shrink-0 items-center rounded-full px-2 py-0.5 text-xs font-medium ${styles[tier]}`}>
+  {score}/100
+</span>

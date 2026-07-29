@@ -1,0 +1,29 @@
+---
+// quotes: [{ quote, attribution, source_url? }]. These are the ONLY
+// third-party-adjacent text this engine ever renders -- short, attributed,
+// and sourced. Never render raw scraped paragraphs here or anywhere else
+// (see /data/_raw/README.md and the root README's content-safety section).
+const { quotes = [] } = Astro.props;
+---
+
+{quotes.length > 0 && (
+  <ul class="space-y-4">
+    {quotes.map((q) => (
+      <li class="border-l-2 border-brand-primary pl-4">
+        <p class="text-sm italic">&ldquo;{q.quote}&rdquo;</p>
+        <p class="mt-1 text-xs text-brand-muted dark:text-brand-muted-dark">
+          — {q.attribution}
+          {q.source_url && (
+            <>
+              {' '}
+              ·{' '}
+              <a href={q.source_url} rel="nofollow noopener" target="_blank" class="link-accent">
+                source
+              </a>
+            </>
+          )}
+        </p>
+      </li>
+    ))}
+  </ul>
+)}

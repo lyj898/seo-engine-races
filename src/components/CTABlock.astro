@@ -1,0 +1,48 @@
+---
+import siteConfig from '../lib/config.js';
+
+// ctaLinks: [{ label, url, type }] -- first link is styled as primary.
+// affiliateLinks only render at all if site.config.json.enabledFeatures
+// .affiliateLinks is true for this vertical instance (races/local-services
+// have it off; hotels/courses have it on -- see /config-examples).
+const { ctaLinks = [], affiliateLinks = [], heading } = Astro.props;
+const showAffiliate = Boolean(siteConfig.enabledFeatures?.affiliateLinks) && affiliateLinks.length > 0;
+---
+
+{(ctaLinks.length > 0 || showAffiliate) && (
+  <div class="rounded-lg border border-brand-border bg-brand-surface p-6 dark:border-brand-border-dark dark:bg-brand-surface-dark">
+    {heading && <p class="mb-3 font-semibold">{heading}</p>}
+    <div class="flex flex-wrap gap-3">
+      {ctaLinks.map((cta, i) => (
+        <a
+          href={cta.url}
+          rel="noopener"
+          target="_blank"
+          class={
+            i === 0
+              ? 'inline-flex items-center rounded-md bg-brand-primary px-4 py-2.5 text-sm font-bold text-brand-primary-ink transition-colors duration-200 ease-interactive hover:bg-brand-primary-hover dark:text-brand-primary-ink-dark dark:hover:bg-brand-primary-hover-dark'
+              : 'inline-flex items-center rounded-md border border-brand-border px-4 py-2.5 text-sm font-medium transition-colors hover:bg-brand-surface-offset dark:border-brand-border-dark dark:hover:bg-brand-surface-offset-dark'
+          }
+        >
+          {cta.label}
+        </a>
+      ))}
+      {showAffiliate &&
+        affiliateLinks.map((link) => (
+          <a
+            href={link.url}
+            rel="sponsored noopener"
+            target="_blank"
+            class="inline-flex items-center rounded-md border border-brand-border px-4 py-2.5 text-sm font-medium transition-colors hover:bg-brand-surface-offset dark:border-brand-border-dark dark:hover:bg-brand-surface-offset-dark"
+          >
+            {link.label}
+          </a>
+        ))}
+    </div>
+    {showAffiliate && (
+      <p class="mt-3 text-xs text-brand-muted dark:text-brand-muted-dark">
+        Some links above are affiliate links; we may earn a commission at no extra cost to you.
+      </p>
+    )}
+  </div>
+)}

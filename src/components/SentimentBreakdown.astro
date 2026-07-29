@@ -1,0 +1,30 @@
+---
+// sentiment: { overall: number, breakdown: [{ label, score }] } -- see
+// sentimentScoresSchema in src/lib/schema/base.js. Breakdown labels are
+// entirely seed-data-driven, never hardcoded per vertical.
+const { sentiment } = Astro.props;
+---
+
+{sentiment && (
+  <div>
+    <div class="mb-3 flex items-baseline gap-2">
+      <span class="text-3xl font-semibold">{sentiment.overall}</span>
+      <span class="text-sm text-brand-muted dark:text-brand-muted-dark">/ 100 overall</span>
+    </div>
+    {sentiment.breakdown?.length > 0 && (
+      <ul class="space-y-2.5">
+        {sentiment.breakdown.map((item) => (
+          <li>
+            <div class="mb-1 flex justify-between text-xs">
+              <span>{item.label}</span>
+              <span class="text-brand-muted dark:text-brand-muted-dark">{item.score}</span>
+            </div>
+            <div class="h-1.5 overflow-hidden rounded-full bg-brand-border dark:bg-brand-border-dark">
+              <div class="h-full rounded-full bg-brand-primary" style={`width: ${item.score}%`}></div>
+            </div>
+          </li>
+        ))}
+      </ul>
+    )}
+  </div>
+)}

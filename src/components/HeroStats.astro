@@ -1,0 +1,17 @@
+---
+// stats: [{ value, label }] -- matches the reference design's hero stat
+// row (big Archivo-weight number + small uppercase caption), distinct from
+// StatsSummary.astro's card-grid treatment used lower down on hub pages.
+const { stats = [] } = Astro.props;
+---
+
+{stats.length > 0 && (
+  <div class="mb-8 flex flex-wrap gap-6 sm:gap-10">
+    {stats.map((s) => (
+      <div>
+        <b class="block font-serif text-xl font-black text-brand-text dark:text-brand-text-dark sm:text-2xl">{s.value}</b>
+        <span class="text-xs font-semibold uppercase tracking-wide text-brand-muted dark:text-brand-muted-dark">{s.label}</span>
+      </div>
+    ))}
+  </div>
+)}

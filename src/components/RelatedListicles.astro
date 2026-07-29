@@ -1,0 +1,20 @@
+---
+import { urls } from '../lib/urls.js';
+// listicles: [{ slug, title }]
+const { listicles = [], heading = 'Related guides' } = Astro.props;
+---
+
+{listicles.length > 0 && (
+  <section>
+    <h2 class="mb-4 text-xl font-semibold">{heading}</h2>
+    <ul class="space-y-2">
+      {listicles.map((l) => (
+        <li>
+          <a href={urls.listicle(l.slug)} class="font-medium link-accent">
+            {l.title}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </section>
+)}

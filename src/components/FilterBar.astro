@@ -1,0 +1,73 @@
+---
+// Client-side filter chips over already-rendered, already-crawlable cards
+// (it hides/shows, never removes from the DOM, so search/AI crawlers still
+// see every entity regardless of JS). Pairs with EntityCard's
+// data-filterable/data-tags attributes.
+//
+// options: [{ label, value }] -- value should match a tag that appears in
+// the rendered cards' data-tags. Persists the user's last choice to
+// localStorage when site.config.json.enabledFeatures.savedFilters is on
+// (checked by the page including this component, not here, so this stays
+// a dumb reusable component).
+const { options = [], targetSelector = '[data-filterable]', storageKey = 'filter' } = Astro.props;
+---
+
+{options.length > 0 && (
+  <div
+    class="filter-bar mb-6 inline-flex flex-wrap gap-0.5 rounded-full bg-brand-surface-offset p-[3px] dark:bg-brand-surface-offset-dark"
+    data-target={targetSelector}
+    data-storage-key={storageKey}
+  >
+    <button type="button" data-filter-value="" class="filter-chip is-active rounded-full px-3.5 py-2 text-sm font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">
+      All
+    </button>
+    {options.map((opt) => (
+      <button
+        type="button"
+        data-filter-value={opt.value}
+        class="filter-chip rounded-full px-3.5 py-2 text-sm font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark"
+      >
+        {opt.label}
+      </button>
+    ))}
+  </div>
+)}
+
+<script is:inline>
+  (function () {
+    document.querySelectorAll('.filter-bar').forEach(function (bar) {
+      var targetSelector = bar.dataset.target;
+      var storageKey = bar.dataset.storageKey;
+      var chips = bar.querySelectorAll('.filter-chip');
+
+      function applyFilter(value) {
+        document.querySelectorAll(targetSelector).forEach(function (el) {
+          var tags = (el.dataset.tags || '').split(',');
+          el.style.display = !value || tags.indexOf(value) !== -1 ? '' : 'none';
+        });
+        chips.forEach(function (chip) {
+          chip.classList.toggle('is-active', chip.dataset.filterValue === value);
+        });
+        try {
+          localStorage.setItem(storageKey, value);
+        } catch (e) {
+          /* ignore */
+        }
+      }
+
+      chips.forEach(function (chip) {
+        chip.addEventListener('click', function () {
+          applyFilter(chip.dataset.filterValue);
+        });
+      });
+
+      var saved = '';
+      try {
+        saved = localStorage.getItem(storageKey) || '';
+      } catch (e) {
+        /* ignore */
+      }
+      if (saved) applyFilter(saved);
+    });
+  })();
+</script>

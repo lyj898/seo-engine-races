@@ -1,0 +1,29 @@
+---
+// faqs: [{ question, answer }]. Native <details>/<summary> -- content is
+// in the DOM regardless of open/closed state, so it's fully crawlable with
+// zero JS. Step 6 adds a buildFaqPageSchema(faqs) helper that consumes this
+// SAME array to emit FAQPage JSON-LD, so a page never defines its FAQs twice.
+const { faqs = [], heading = 'Frequently asked questions' } = Astro.props;
+---
+
+{faqs.length > 0 && (
+  <section aria-labelledby="faq-heading">
+    <h2 id="faq-heading" class="mb-4 text-xl font-semibold">{heading}</h2>
+    <div class="divide-y divide-brand-border dark:divide-brand-border-dark">
+      {faqs.map((faq) => (
+        <details class="group py-4">
+          <summary class="flex cursor-pointer items-center justify-between gap-4 font-medium">
+            <span>{faq.question}</span>
+            <span
+              aria-hidden="true"
+              class="shrink-0 text-brand-muted transition-transform group-open:rotate-45 dark:text-brand-muted-dark"
+            >
+              +
+            </span>
+          </summary>
+          <p class="mt-2 text-sm text-brand-muted dark:text-brand-muted-dark">{faq.answer}</p>
+        </details>
+      ))}
+    </div>
+  </section>
+)}

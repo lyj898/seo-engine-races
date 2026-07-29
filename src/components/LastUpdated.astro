@@ -1,0 +1,8 @@
+---
+const { date } = Astro.props; // ISO date string, e.g. "2026-07-29"
+const formatted = date
+  ? new Date(date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })
+  : null;
+---
+
+{formatted && <p class="text-xs text-brand-muted dark:text-brand-muted-dark">Last updated {formatted}</p>}

@@ -1,0 +1,37 @@
+---
+import siteConfig from '../lib/config.js';
+import { urls } from '../lib/urls.js';
+const year = new Date().getFullYear();
+---
+
+<footer class="mt-16 border-t border-brand-divider dark:border-brand-divider-dark">
+  <div class="mx-auto grid max-w-6xl gap-8 px-4 py-10 text-sm sm:grid-cols-3 sm:px-6">
+    <div>
+      <p class="mb-2 font-semibold">{siteConfig.siteName}</p>
+      <p class="text-brand-muted dark:text-brand-muted-dark">{siteConfig.siteTagline}</p>
+    </div>
+    <div>
+      <p class="mb-2 font-semibold">Explore</p>
+      <ul class="space-y-1">
+        <li><a href={urls.categoriesIndex()} class="link-muted">Categories</a></li>
+        <li><a href={urls.regionsIndex()} class="link-muted">Regions</a></li>
+        {siteConfig.enabledFeatures?.listicles && (
+          <li><a href={urls.listiclesIndex()} class="link-muted">Best Of guides</a></li>
+        )}
+      </ul>
+    </div>
+    <div>
+      <p class="mb-2 font-semibold">About</p>
+      <ul class="space-y-1">
+        <li><a href={urls.about()} class="link-muted">About &amp; Methodology</a></li>
+        <li><a href={urls.privacy()} class="link-muted">Privacy</a></li>
+        <li><a href={urls.terms()} class="link-muted">Terms</a></li>
+        <li><a href={urls.contact()} class="link-muted">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="border-t border-brand-border py-4 text-center text-xs text-brand-muted dark:border-brand-border-dark dark:text-brand-muted-dark">
+    © {year} {siteConfig.siteName}. Data independently researched and verified -- see our
+    <a href={urls.about()} class="link-accent">methodology</a>.
+  </div>
+</footer>

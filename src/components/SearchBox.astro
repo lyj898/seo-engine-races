@@ -1,0 +1,51 @@
+---
+// Free-text client-side search, matching the reference design's hero
+// search box exactly (rounded input, left icon, focus ring). Filters by
+// hiding/showing -- never removing from the DOM -- the same way FilterBar
+// does, so crawlers still see every card regardless of JS.
+//
+// v1 scope note: this targets one section per page (e.g. the home page's
+// "Highest-verified" grid). Don't combine it with FilterBar targeting the
+// SAME elements on the same page -- both scripts independently set
+// `style.display`, and whichever runs last on a given interaction wins,
+// so a combined search+filter UI needs a merged script, not these two
+// components side by side.
+const { targetSelector = '[data-filterable]', placeholder = 'Search...' } = Astro.props;
+---
+
+<div class="search-box relative max-w-[540px]" data-target={targetSelector}>
+  <svg
+    class="pointer-events-none absolute left-[1.1rem] top-1/2 h-5 w-5 -translate-y-1/2 text-brand-faint dark:text-brand-faint-dark"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    aria-hidden="true"
+  >
+    <circle cx="11" cy="11" r="7" />
+    <path d="m21 21-4.35-4.35" />
+  </svg>
+  <input
+    type="text"
+    class="search-input w-full rounded-lg border-[1.5px] border-brand-border bg-brand-surface py-4 pl-[3.1rem] pr-5 text-base shadow-sm transition-shadow duration-200 ease-interactive placeholder:text-brand-faint focus:border-brand-primary focus:shadow-[0_0_0_4px_theme(colors.brand.primary-highlight)] focus:outline-none dark:border-brand-border-dark dark:bg-brand-surface-dark dark:placeholder:text-brand-faint-dark dark:focus:shadow-[0_0_0_4px_theme(colors.brand.primary-highlight-dark)]"
+    placeholder={placeholder}
+    aria-label={placeholder}
+  />
+</div>
+
+<script is:inline>
+  (function () {
+    document.querySelectorAll('.search-box').forEach(function (box) {
+      var input = box.querySelector('.search-input');
+      var targetSelector = box.dataset.target;
+      if (!input) return;
+      input.addEventListener('input', function () {
+        var q = input.value.trim().toLowerCase();
+        document.querySelectorAll(targetSelector).forEach(function (el) {
+          var haystack = el.dataset.search || '';
+          el.style.display = !q || haystack.indexOf(q) !== -1 ? '' : 'none';
+        });
+      });
+    });
+  })();
+</script>

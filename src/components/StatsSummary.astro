@@ -1,0 +1,17 @@
+---
+// stats: [{ label, value }] -- hub-page "summary stats" requirement.
+// Values are computed by the page (Step 4) from the actual data set, never
+// hardcoded, so they can't drift out of sync with what's really listed.
+const { stats = [] } = Astro.props;
+---
+
+{stats.length > 0 && (
+  <dl class="grid grid-cols-2 gap-4 sm:grid-cols-4">
+    {stats.map((s) => (
+      <div class="rounded-lg border border-brand-border p-4 dark:border-brand-border-dark">
+        <dt class="text-xs text-brand-muted dark:text-brand-muted-dark">{s.label}</dt>
+        <dd class="mt-1 text-2xl font-semibold">{s.value}</dd>
+      </div>
+    ))}
+  </dl>
+)}

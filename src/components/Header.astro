@@ -1,0 +1,26 @@
+---
+import siteConfig from '../lib/config.js';
+import { urls } from '../lib/urls.js';
+import Logo from './Logo.astro';
+import ThemeToggle from './ThemeToggle.astro';
+---
+
+<header
+  class="sticky top-0 z-40 border-b border-brand-divider bg-brand-bg/90 backdrop-blur-md dark:border-brand-divider-dark dark:bg-brand-bg-dark/90"
+>
+  <div class="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3.5 sm:px-6">
+    <a href={urls.home()} class="flex items-center gap-2.5 font-serif text-[1.15rem] font-extrabold tracking-tight">
+      <Logo size={30} />
+      {siteConfig.siteName}
+    </a>
+    <nav class="hidden items-center gap-6 text-sm font-medium md:flex" aria-label="Primary">
+      <a href={urls.categoriesIndex()} class="hover:underline underline-offset-2">Categories</a>
+      <a href={urls.regionsIndex()} class="hover:underline underline-offset-2">Regions</a>
+      {siteConfig.enabledFeatures?.listicles && (
+        <a href={urls.listiclesIndex()} class="hover:underline underline-offset-2">Best Of</a>
+      )}
+      <a href={urls.about()} class="hover:underline underline-offset-2">About</a>
+    </nav>
+    <ThemeToggle />
+  </div>
+</header>

@@ -1,0 +1,42 @@
+---
+// Renders any entity's core_facts object generically -- no vertical knows
+// its field names ahead of time, so keys are auto-titleized ("distance_km"
+// -> "Distance Km") unless a nicer label is supplied via the `labels` prop
+// (e.g. { distance_km: "Distance (km)" }). Empty/null/undefined values are
+// dropped rather than shown as blank rows.
+const { facts = {}, labels = {} } = Astro.props;
+
+function titleize(key) {
+  return key.replace(/_/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
+}
+
+function formatValue(value) {
+  if (value === null || value === undefined || value === '') return null;
+  if (Array.isArray(value)) return value.length ? value.join(', ') : null;
+  if (typeof value === 'boolean') return value ? 'Yes' : 'No';
+  return String(value);
+}
+
+const rows = Object.entries(facts)
+  .map(([key, value]) => ({ key, label: labels[key] ?? titleize(key), value: formatValue(value) }))
+  .filter((row) => row.value !== null);
+---
+
+{rows.length > 0 && (
+  <table class="w-full border-collapse text-sm">
+    <caption class="sr-only">Key facts</caption>
+    <tbody>
+      {rows.map((row) => (
+        <tr class="border-b border-brand-border last:border-0 dark:border-brand-border-dark">
+          <th
+            scope="row"
+            class="whitespace-nowrap py-2 pr-4 text-left align-top font-medium text-brand-muted dark:text-brand-muted-dark"
+          >
+            {row.label}
+          </th>
+          <td class="py-2 text-brand-text dark:text-brand-text-dark">{row.value}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+)}
