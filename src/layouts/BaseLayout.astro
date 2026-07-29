@@ -1,0 +1,96 @@
+---
+import siteConfig from '../lib/config.js';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/global.css';
+
+// Every page in every vertical instance renders through this one layout.
+// Nothing vertical-specific lives here -- title/description/schema all
+// come in as props from the page (Step 4).
+const {
+  title,
+  description,
+  canonicalPath = '/',
+  // Array of already-built schema.org objects (JSON-LD). Step 6 adds the
+  // builders that produce these; this layout just serializes whatever it's
+  // handed, so it never needs to change when Step 6 lands.
+  jsonLd = [],
+} = Astro.props;
+
+const canonicalUrl = new URL(canonicalPath, Astro.site).toString();
+const pageTitle = title ? `${title} | ${siteConfig.siteName}` : `${siteConfig.siteName} -- ${siteConfig.siteTagline}`;
+const metaDescription = description ?? siteConfig.siteTagline;
+---
+
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="canonical" href={canonicalUrl} />
+    <title>{pageTitle}</title>
+    <meta name="description" content={metaDescription} />
+
+    <meta property="og:site_name" content={siteConfig.siteName} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={metaDescription} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta name="twitter:card" content="summary" />
+
+    <!--
+      Font loading is the one place that isn't purely token-driven: which
+      CDN serves a given font family varies (Google Fonts vs Fontshare vs
+      self-hosted), so this instance's fonts.display/fonts.body values
+      (site.config.json.theme.fonts) are wired to Google Fonts + Fontshare
+      explicitly here. A future vertical instance picking different fonts
+      should update these two <link> tags to match.
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://api.fontshare.com" />
+    <link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500..900&display=swap" rel="stylesheet" />
+
+    <!--
+      Inline, dependency-free theme init. Must run synchronously in <head>,
+      before first paint, so there's no flash of the wrong theme -- this is
+      why it's a plain inline script and not something loaded from
+      ThemeToggle.astro (which only handles the *toggle click*, not this
+      initial read).
+    -->
+    <script is:inline>
+      (function () {
+        try {
+          var stored = localStorage.getItem('theme');
+          var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var theme = stored || (prefersDark ? 'dark' : 'light');
+          if (theme === 'dark') document.documentElement.classList.add('dark');
+        } catch (e) {
+          /* localStorage unavailable (privacy mode etc) -- fall back to light */
+        }
+      })();
+    </script>
+
+    {jsonLd.map((schema) => <script type="application/ld+json" set:html={JSON.stringify(schema)} />)}
+
+    <slot name="head" />
+  </head>
+  <body
+    class="flex min-h-screen flex-col bg-brand-bg font-sans text-brand-text antialiased dark:bg-brand-bg-dark dark:text-brand-text-dark"
+  >
+    <a
+      href="#main-content"
+      class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-lg focus:bg-brand-primary focus:px-4 focus:py-2 focus:text-white"
+    >
+      Skip to content
+    </a>
+    <Header />
+    <main id="main-content" class="w-full flex-1">
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>
