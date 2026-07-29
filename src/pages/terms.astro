@@ -1,0 +1,61 @@
+---
+import siteConfig from '../lib/config.js';
+import { urls } from '../lib/urls.js';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import { buildBreadcrumbListSchema } from '../lib/schema-jsonld.js';
+
+const breadcrumbItems = [
+  { label: siteConfig.siteName, href: urls.home() },
+  { label: 'Terms of Use', href: urls.terms() },
+];
+
+const jsonLd = [buildBreadcrumbListSchema(breadcrumbItems, Astro.site)].filter(Boolean);
+---
+
+<BaseLayout
+  title="Terms of Use"
+  description={`Terms of use for ${siteConfig.siteName}.`}
+  canonicalPath={urls.terms()}
+  jsonLd={jsonLd}
+>
+  <div class="mx-auto max-w-3xl px-4 py-10 sm:px-6">
+    <Breadcrumb items={breadcrumbItems} />
+    <h1 class="mt-4 font-serif text-3xl font-semibold sm:text-4xl">Terms of Use</h1>
+
+    <div class="prose-content mt-8 space-y-4">
+      <p class="rounded-lg border border-brand-border bg-brand-surface p-4 text-sm dark:border-brand-border-dark dark:bg-brand-surface-dark">
+        This is a starting-point template, not legal advice. Have this reviewed by a qualified professional for your
+        jurisdiction and business before relying on it.
+      </p>
+
+      <h2 class="text-xl font-semibold">Informational purpose</h2>
+      <p>
+        {siteConfig.siteName} provides independently researched, structured information about {siteConfig.entityLabelPlural}
+        for general informational purposes. We make reasonable efforts to keep listings accurate and current, but
+        details like pricing, availability, and dates can change without notice on the underlying source -- always
+        confirm directly with the official source before making a decision that depends on it.
+      </p>
+
+      <h2 class="text-xl font-semibold">No guarantee or endorsement</h2>
+      <p>
+        Inclusion of a listing is not an endorsement or guarantee of quality, safety, or suitability. Reliability
+        scores reflect source-verification confidence, not a recommendation.
+      </p>
+
+      <h2 class="text-xl font-semibold">Third-party links</h2>
+      <p>
+        This site links to official and third-party websites we do not control. We are not responsible for the
+        content, accuracy, or practices of those sites.
+      </p>
+
+      <h2 class="text-xl font-semibold">Changes</h2>
+      <p>These terms may be updated from time to time; continued use of the site after changes constitutes acceptance of the updated terms.</p>
+
+      <h2 class="text-xl font-semibold">Contact</h2>
+      <p>
+        Questions about these terms can be sent to <a href={`mailto:${siteConfig.contactEmail}`} class="link-accent">{siteConfig.contactEmail}</a>.
+      </p>
+    </div>
+  </div>
+</BaseLayout>

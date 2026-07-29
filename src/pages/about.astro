@@ -1,0 +1,82 @@
+---
+import siteConfig from '../lib/config.js';
+import { urls } from '../lib/urls.js';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import FAQSection from '../components/FAQSection.astro';
+import { buildFaqPageSchema, buildBreadcrumbListSchema } from '../lib/schema-jsonld.js';
+
+const breadcrumbItems = [
+  { label: siteConfig.siteName, href: urls.home() },
+  { label: 'About & Methodology', href: urls.about() },
+];
+
+const faqs = [
+  {
+    question: `What does a reliability score mean on ${siteConfig.siteName}?`,
+    answer: `A reliability score (0-100) reflects how thoroughly a listing's facts have been independently verified across multiple sources at the time it was last checked -- not a rating of quality, value, or recommendation strength. A lower score usually means fewer independent sources confirmed the details, not that the listing is worse.`,
+  },
+  {
+    question: 'Does AI write the content on this site?',
+    answer: `AI is used to summarize and organize facts that were already gathered from real sources -- it is never used to invent facts. Summaries, pros, cons, and FAQ answers are generated strictly from the structured facts and short source excerpts attached to each listing, and anything the pipeline can't validate is skipped rather than published.`,
+  },
+];
+
+const jsonLd = [
+  ...(siteConfig.enabledFeatures?.faqSchema ? [buildFaqPageSchema(faqs)] : []),
+  buildBreadcrumbListSchema(breadcrumbItems, Astro.site),
+].filter(Boolean);
+---
+
+<BaseLayout
+  title="About & Methodology"
+  description={`How ${siteConfig.siteName} researches, verifies, and updates every listing.`}
+  canonicalPath={urls.about()}
+  jsonLd={jsonLd}
+>
+  <div class="mx-auto max-w-3xl px-4 py-10 sm:px-6">
+    <Breadcrumb items={breadcrumbItems} />
+    <h1 class="mt-4 font-serif text-3xl font-semibold sm:text-4xl">About & Methodology</h1>
+
+    <div class="prose-content mt-8 space-y-4">
+      <p>
+        {siteConfig.siteName} is a directory of {siteConfig.entityLabelPlural}, organized by {siteConfig.categoryLabel.toLowerCase()}
+        {' '}and {siteConfig.regionLabel.toLowerCase()}. Every listing is built from structured facts and short,
+        attributed source excerpts -- never from raw copied content.
+      </p>
+      <h2 class="text-xl font-semibold">How we verify listings</h2>
+      <p>
+        Each {siteConfig.entityLabelSingular} is checked against multiple independent sources -- official websites and,
+        where available, official registration or booking platforms, industry aggregators, and other public records.
+        Listings are re-verified on a rolling basis, roughly every {siteConfig.sourceConfig?.refreshIntervalDays ?? 7} days,
+        and every page shows the date it was last checked.
+      </p>
+      <h2 class="text-xl font-semibold">What "reliability score" means</h2>
+      <p>
+        The reliability score on each listing reflects how many independent sources corroborated its details the last
+        time it was checked, not a judgment of quality. A new or lightly-sourced listing can still be entirely accurate
+        -- it simply hasn't accumulated as much independent confirmation yet.
+      </p>
+      <h2 class="text-xl font-semibold">How AI is used</h2>
+      <p>
+        AI-generated summaries, pros/cons, and FAQ answers are produced strictly from the structured facts and source
+        excerpts already attached to a listing. The generation process is instructed to never introduce a fact that
+        wasn't present in that input, and any response that fails validation is discarded rather than published.
+      </p>
+      {siteConfig.monetizationModel !== 'none' && (
+        <>
+          <h2 class="text-xl font-semibold">How this site makes money</h2>
+          <p>
+            Some listings include affiliate or referral links, clearly marked where they appear. This never affects
+            which listings are included or how they're scored -- inclusion and scoring are both based solely on the
+            verification process described above.
+          </p>
+        </>
+      )}
+    </div>
+
+    <section class="mt-14">
+      <FAQSection faqs={faqs} />
+    </section>
+  </div>
+</BaseLayout>

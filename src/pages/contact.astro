@@ -1,0 +1,37 @@
+---
+import siteConfig from '../lib/config.js';
+import { urls } from '../lib/urls.js';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import { buildBreadcrumbListSchema } from '../lib/schema-jsonld.js';
+
+const breadcrumbItems = [
+  { label: siteConfig.siteName, href: urls.home() },
+  { label: 'Contact', href: urls.contact() },
+];
+
+const jsonLd = [buildBreadcrumbListSchema(breadcrumbItems, Astro.site)].filter(Boolean);
+---
+
+<BaseLayout
+  title="Contact"
+  description={`Get in touch with ${siteConfig.siteName}.`}
+  canonicalPath={urls.contact()}
+  jsonLd={jsonLd}
+>
+  <div class="mx-auto max-w-3xl px-4 py-10 sm:px-6">
+    <Breadcrumb items={breadcrumbItems} />
+    <h1 class="mt-4 font-serif text-3xl font-semibold sm:text-4xl">Contact</h1>
+
+    <div class="prose-content mt-8 space-y-4">
+      <p>
+        Spotted something out of date, or run a {siteConfig.entityLabelSingular} you'd like listed? Send details and
+        we'll verify them against our standard sourcing process before publishing.
+      </p>
+      <p>
+        Email us at
+        {' '}<a href={`mailto:${siteConfig.contactEmail}`} class="link-accent">{siteConfig.contactEmail}</a>.
+      </p>
+    </div>
+  </div>
+</BaseLayout>
