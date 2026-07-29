@@ -1,0 +1,12 @@
+{
+  "region_id": "cambodia",
+  "slug": "cambodia",
+  "label": "Cambodia",
+  "granularity": "country",
+  "parent_region_id": null,
+  "short_description": "Road races across Cambodia, including the well-known Angkor Wat International Half Marathon.",
+  "intro": "Cambodia's race calendar includes internationally known events like the Angkor Wat International Half Marathon, alongside smaller city and regional races. Many events combine road running with visits to the country's historic temple sites.",
+  "faqs": [],
+  "last_updated": "2026-07-29",
+  "status": "active"
+}

@@ -1,0 +1,17 @@
+{
+  "region_id": "vietnam",
+  "slug": "vietnam",
+  "label": "Vietnam",
+  "granularity": "country",
+  "parent_region_id": null,
+  "short_description": "Road races across Vietnam, from coastal city marathons to major urban 10K/5K events.",
+  "intro": "Vietnam's race calendar spans coastal cities like Nha Trang and Da Nang through to Hanoi and Ho Chi Minh City, with large-scale marathon weekends organized by domestic media and sponsor groups drawing both local and international fields.",
+  "faqs": [
+    {
+      "question": "What's the best time of year to run a race in Vietnam?",
+      "answer": "Most large Vietnamese marathons are scheduled outside the hottest, wettest months, commonly clustering in spring and autumn. Coastal-city races like Nha Trang and central-region events can still be humid year-round, so always check the specific race's historical weather conditions before committing to travel and training plans."
+    }
+  ],
+  "last_updated": "2026-07-29",
+  "status": "active"
+}

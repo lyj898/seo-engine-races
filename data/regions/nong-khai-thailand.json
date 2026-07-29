@@ -1,0 +1,12 @@
+{
+  "region_id": "nong-khai-thailand",
+  "slug": "nong-khai-thailand",
+  "label": "Nong Khai",
+  "granularity": "city",
+  "parent_region_id": "thailand",
+  "short_description": "A northeastern Thai province on the Mekong River, home to the Nong Khai Running Festival.",
+  "intro": "Nong Khai is a riverside province in northeastern Thailand, bordering Laos across the Mekong River. It hosts the Nong Khai Running Festival, a multi-distance road race starting near Wat Champa Thong, drawing both domestic runners and travelers combining the race with a visit to the region's temples and river views.",
+  "faqs": [],
+  "last_updated": "2026-07-29",
+  "status": "active"
+}

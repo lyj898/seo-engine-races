@@ -1,0 +1,12 @@
+{
+  "region_id": "singapore",
+  "slug": "singapore",
+  "label": "Singapore",
+  "granularity": "country",
+  "parent_region_id": null,
+  "short_description": "Road races in Singapore, from the National Stadium precinct to community running events.",
+  "intro": "Singapore hosts a dense calendar of organized road races, many starting at or near the National Stadium and Kallang precinct, ranging from large sponsor-backed events with multiple distance categories to smaller community and charity runs.",
+  "faqs": [],
+  "last_updated": "2026-07-29",
+  "status": "active"
+}

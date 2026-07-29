@@ -1,0 +1,12 @@
+{
+  "region_id": "philippines",
+  "slug": "philippines",
+  "label": "Philippines",
+  "granularity": "country",
+  "parent_region_id": null,
+  "short_description": "Road races across the Philippines, from major city marathons to regional community runs.",
+  "intro": "The Philippines has one of the most active race calendars in Southeast Asia, with frequent city marathons, half marathons, and community fun runs across Luzon, Visayas, and Mindanao. Distances range from short 5K community events up to major international marathons.",
+  "faqs": [],
+  "last_updated": "2026-07-29",
+  "status": "active"
+}

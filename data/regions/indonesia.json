@@ -1,0 +1,17 @@
+{
+  "region_id": "indonesia",
+  "slug": "indonesia",
+  "label": "Indonesia",
+  "granularity": "country",
+  "parent_region_id": null,
+  "short_description": "Road races across Indonesia, including landmark-course marathons like Borobudur.",
+  "intro": "Indonesia's race calendar includes some of Southeast Asia's most distinctive courses, including marathons routed through UNESCO World Heritage sites, alongside city-based events across Java and beyond.",
+  "faqs": [
+    {
+      "question": "What's the best time of year to run a race in Indonesia?",
+      "answer": "Indonesia's dry season, roughly May through September, is generally preferred for road races since it reduces the chance of heavy rain disrupting a course. Humidity remains high year-round regardless of season, so hydration planning matters for any race in Indonesia no matter which month it falls in."
+    }
+  ],
+  "last_updated": "2026-07-29",
+  "status": "active"
+}

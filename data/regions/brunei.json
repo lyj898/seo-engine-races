@@ -1,0 +1,12 @@
+{
+  "region_id": "brunei",
+  "slug": "brunei",
+  "label": "Brunei",
+  "granularity": "country",
+  "parent_region_id": null,
+  "short_description": "Road races in Brunei, centered on Bandar Seri Begawan.",
+  "intro": "Brunei's race calendar is smaller than its neighbors' but includes an annual half marathon in the capital, Bandar Seri Begawan, typically routed across the city's landmark bridge.",
+  "faqs": [],
+  "last_updated": "2026-07-29",
+  "status": "active"
+}

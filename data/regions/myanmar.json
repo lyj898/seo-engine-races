@@ -1,0 +1,12 @@
+{
+  "region_id": "myanmar",
+  "slug": "myanmar",
+  "label": "Myanmar",
+  "granularity": "country",
+  "parent_region_id": null,
+  "short_description": "Road races across Myanmar, including marathons in Mandalay and Yangon.",
+  "intro": "Myanmar's road race calendar includes international marathons in major cities like Mandalay and Yangon, often featuring routes past historic temples and cultural landmarks.",
+  "faqs": [],
+  "last_updated": "2026-07-29",
+  "status": "active"
+}

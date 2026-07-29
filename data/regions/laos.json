@@ -1,0 +1,12 @@
+{
+  "region_id": "laos",
+  "slug": "laos",
+  "label": "Laos",
+  "granularity": "country",
+  "parent_region_id": null,
+  "short_description": "Road races in Laos, including the charity-organized Luang Prabang Half Marathon.",
+  "intro": "Laos's race calendar is anchored by events in Luang Prabang, a UNESCO World Heritage town, where charity-organized runs route along the Mekong and Nam Khan rivers through the historic old town.",
+  "faqs": [],
+  "last_updated": "2026-07-29",
+  "status": "active"
+}

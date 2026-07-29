@@ -1,0 +1,17 @@
+{
+  "region_id": "thailand",
+  "slug": "thailand",
+  "label": "Thailand",
+  "granularity": "country",
+  "parent_region_id": null,
+  "short_description": "Road races across Thailand, from major city marathons to regional festivals like Nong Khai.",
+  "intro": "Thailand hosts road races year-round, spanning major-city events with international fields down to smaller regional festivals in provinces like Nong Khai. Distances on offer range from 10K community runs up to full marathons and multi-day ultras, with race dates concentrated in the cooler months to avoid the peak heat and humidity of the wet season.",
+  "faqs": [
+    {
+      "question": "What time of year has the most road races in Thailand?",
+      "answer": "Most road races in Thailand cluster in the cooler, drier months from roughly November through February, when temperatures and humidity are lower and more manageable for distance running. Some regional races still run outside this window, so always confirm the exact date and expected conditions on the specific event's official page before booking travel."
+    }
+  ],
+  "last_updated": "2026-07-29",
+  "status": "active"
+}

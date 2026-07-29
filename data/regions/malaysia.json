@@ -1,0 +1,17 @@
+{
+  "region_id": "malaysia",
+  "slug": "malaysia",
+  "label": "Malaysia",
+  "granularity": "country",
+  "parent_region_id": null,
+  "short_description": "Road races across Peninsular and East Malaysia, from highway challenges to state-sponsored marathons.",
+  "intro": "Malaysia's race calendar ranges from corporate-sponsored highway and city runs in the Klang Valley to larger state-backed marathons in East Malaysia such as Sarawak, drawing both domestic runners and regional visitors.",
+  "faqs": [
+    {
+      "question": "What's the best time of year to run a race in Malaysia?",
+      "answer": "Malaysia's climate is tropical and fairly consistent year-round, so race scheduling is driven more by event logistics than seasonal weather. Early-morning start times are standard to avoid the heat of the day regardless of month, so check each race's start time and expected temperature rather than relying on the calendar month alone."
+    }
+  ],
+  "last_updated": "2026-07-29",
+  "status": "active"
+}

@@ -1,0 +1,12 @@
+{
+  "region_id": "timor-leste",
+  "slug": "timor-leste",
+  "label": "Timor-Leste",
+  "granularity": "country",
+  "parent_region_id": null,
+  "short_description": "Road races in Timor-Leste, headlined by the Dili International Marathon.",
+  "intro": "Timor-Leste's race calendar is centered on the capital, Dili, where the national athletics federation organizes an annual international marathon weekend spanning full marathon, half marathon, and shorter fun-run distances.",
+  "faqs": [],
+  "last_updated": "2026-07-29",
+  "status": "active"
+}
