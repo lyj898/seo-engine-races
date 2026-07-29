@@ -1,0 +1,16 @@
+{
+  "category_id": "full-marathon",
+  "slug": "full-marathon",
+  "label": "Full Marathon",
+  "short_description": "Road races offering the standard 42.195km full marathon distance across Southeast Asia.",
+  "intro": "The full marathon is the classic 42.195km road-race distance. Southeast Asia's full marathon calendar spans major international city races down to smaller regional festivals that add a full-marathon option alongside shorter distances, giving runners a wide mix of course profiles, climates, and field sizes to choose from.",
+  "related_category_ids": ["half-marathon"],
+  "faqs": [
+    {
+      "question": "How long is a full marathon?",
+      "answer": "A full marathon is a standardized distance of 42.195 kilometers (26.2 miles), the same length used at every internationally certified marathon worldwide. Course routes and elevation vary by event, but the total distance runners must cover to officially finish a full marathon does not change from race to race."
+    }
+  ],
+  "last_updated": "2026-07-29",
+  "status": "active"
+}

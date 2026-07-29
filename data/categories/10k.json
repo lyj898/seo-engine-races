@@ -1,0 +1,16 @@
+{
+  "category_id": "10k",
+  "slug": "10k",
+  "label": "10K",
+  "short_description": "Road races offering the 10-kilometer distance across Southeast Asia.",
+  "intro": "The 10K is a popular entry-to-intermediate road race distance, often run as one option alongside half or full marathon distances at the same event. It's a common choice for runners building up to longer distances or looking for a faster-paced race day.",
+  "related_category_ids": ["half-marathon"],
+  "faqs": [
+    {
+      "question": "How long is a 10K race?",
+      "answer": "A 10K race is 10 kilometers (about 6.2 miles) long, a standardized distance used consistently across road races worldwide. It's commonly offered alongside half and full marathon distances at the same event, giving runners a shorter option on the same course."
+    }
+  ],
+  "last_updated": "2026-07-29",
+  "status": "active"
+}

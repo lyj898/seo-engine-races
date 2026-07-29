@@ -1,0 +1,16 @@
+{
+  "category_id": "half-marathon",
+  "slug": "half-marathon",
+  "label": "Half Marathon",
+  "short_description": "Road races offering the 21.1km half marathon distance across Southeast Asia.",
+  "intro": "The half marathon, at 21.1 kilometers, is one of the most popular race distances for runners moving up from 10K events or building toward a first full marathon. Southeast Asia's calendar includes half marathons as standalone events and as one of several distances offered at larger multi-race festivals.",
+  "related_category_ids": ["full-marathon"],
+  "faqs": [
+    {
+      "question": "How long is a half marathon?",
+      "answer": "A half marathon covers 21.1 kilometers (13.1 miles), exactly half the distance of a full marathon. It's a common step-up distance for runners who have completed 10K races and want a longer challenge without yet committing to the training volume a full marathon typically requires."
+    }
+  ],
+  "last_updated": "2026-07-29",
+  "status": "active"
+}
