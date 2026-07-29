@@ -1,0 +1,61 @@
+name: Deploy to GitHub Pages
+
+# Builds the Astro site and publishes it to GitHub Pages on every push to
+# main, plus lets you trigger a manual rebuild/redeploy from the Actions tab
+# without needing a new commit (useful right after changing a GitHub secret,
+# or after the weekly-refresh workflow commits new data).
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+# Allow one concurrent deployment; if a new push lands while a build is
+# still running, cancel the in-progress one rather than queueing (we always
+# want the latest commit live, not every intermediate one).
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          # No package-lock.json is committed yet (this repo has never had
+          # `npm install` run against a real registry -- see README's "Known
+          # decisions" section), so there's nothing for actions/setup-node's
+          # npm cache to key off. Once a lockfile exists, add
+          # `cache: npm` back here for faster builds.
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build
+        run: npm run build
+
+      - name: Upload build output
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

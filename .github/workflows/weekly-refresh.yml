@@ -1,0 +1,107 @@
+name: Weekly data refresh
+
+# Runs the discover -> refresh -> summaries pipeline on a schedule (matching
+# site.config.json's sourceConfig.refreshIntervalDays: 7), plus supports a
+# manual on-demand run from the Actions tab.
+#
+# Safety valve (see README "Known decisions"): this workflow never pushes
+# straight to `main`. AI-generated/refreshed content is not something we
+# trust blindly -- factual errors, hallucinated core_facts, or a source
+# site's structure changing underneath discover-entities.js could all
+# produce bad data that LOOKS structurally valid (passes schema validation)
+# but is substantively wrong. So the pipeline's output always lands in a
+# pull request for a human to actually read and merge, never an automatic
+# commit to the live branch. Only a merged PR (a real push to main) triggers
+# deploy.yml and goes live.
+on:
+  schedule:
+    - cron: '0 3 * * 1' # every Monday, 03:00 UTC
+  workflow_dispatch: {}
+
+concurrency:
+  group: weekly-refresh
+  cancel-in-progress: false # never cancel a run that's mid-way through writing data files
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          # See deploy.yml for why this isn't `cache: npm` yet (no lockfile
+          # committed until a real `npm install` has been run once).
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Validate data (pre-flight)
+        run: npm run validate
+        # If data/ is already broken before this run even starts, stop here
+        # rather than layering AI-generated changes on top of a known-bad
+        # state. Fix the underlying data and re-run manually.
+
+      - name: Discover new entities
+        run: npm run discover
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      - name: Refresh existing entities
+        run: npm run refresh
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      - name: Generate AI summaries
+        run: npm run summaries
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      - name: Validate data (post-run)
+        run: npm run validate
+        # If discover/refresh/summaries produced anything schema-invalid,
+        # duplicate, or cross-reference-broken, fail the whole job here.
+        # No PR gets opened from a run that ends in known-bad data -- you'll
+        # see a red X in Actions instead, which is the correct failure mode.
+
+      - name: Check for changes
+        id: diff
+        run: |
+          if [ -n "$(git status --porcelain data/)" ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Open pull request with the refreshed data
+        if: steps.diff.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: 'chore(data): weekly refresh (discover + refresh + summaries)'
+          branch: weekly-refresh/${{ github.run_number }}
+          title: 'Weekly data refresh -- ${{ github.run_id }}'
+          body: |
+            Automated run of `npm run discover`, `npm run refresh`, and
+            `npm run summaries` (see `.github/workflows/weekly-refresh.yml`).
+
+            Both pre- and post-run `npm run validate` passed, so every
+            changed file is at least schema-valid and cross-reference-clean.
+            That does **not** mean the content is factually correct --
+            please actually read the diff before merging, especially any
+            new or changed `core_facts`, `ai_summary`, and `faqs` fields.
+
+            Merging this PR is what deploys it: merging triggers a push to
+            `main`, which is what `deploy.yml` watches.
+          labels: automated-refresh
+          add-paths: data/
+
+      - name: No changes this run
+        if: steps.diff.outputs.changed == 'false'
+        run: echo "Pipeline ran; nothing changed in data/, no PR opened."
