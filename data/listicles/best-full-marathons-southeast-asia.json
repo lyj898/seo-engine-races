@@ -1,0 +1,22 @@
+{
+  "listicle_id": "best-full-marathons-southeast-asia",
+  "slug": "best-full-marathons-southeast-asia",
+  "title": "Best Full Marathons in Southeast Asia",
+  "intro": "From a temple-park course in Indonesia to a coastal city marathon in Vietnam, this list pulls every verified race tagged to the Full Marathon category across Southeast Asia, ranked by reliability score, with no single country filter applied.",
+  "filters": {
+    "category_id": "full-marathon",
+    "sort_by": "reliability_score",
+    "sort_direction": "desc",
+    "limit": 10
+  },
+  "manual_entity_ids": [],
+  "editorial_notes": "Region-spanning counterpart to best-full-marathons-thailand.json -- same category filter, no region_id, so it surfaces the full regional field rather than one country.",
+  "faqs": [
+    {
+      "question": "How does this list differ from the Thailand-only full marathon guide?",
+      "answer": "This guide applies only a category filter (Full Marathon) with no region restriction, so it ranks verified full marathons from every covered country together. The Thailand-specific guide applies an additional region filter, narrowing the same category down to races within Thailand alone."
+    }
+  ],
+  "last_updated": "2026-07-29",
+  "status": "active"
+}

@@ -1,0 +1,22 @@
+{
+  "listicle_id": "best-half-marathons-southeast-asia",
+  "slug": "best-half-marathons-southeast-asia",
+  "title": "Best Half Marathons in Southeast Asia",
+  "intro": "From a highway closure in Malaysia to a UNESCO old-town loop in Laos, Southeast Asia's half marathon calendar covers very different course styles. This list pulls every verified race tagged to the Half Marathon category across the region, ranked by reliability score, with no single country filter applied.",
+  "filters": {
+    "category_id": "half-marathon",
+    "sort_by": "reliability_score",
+    "sort_direction": "desc",
+    "limit": 10
+  },
+  "manual_entity_ids": [],
+  "editorial_notes": "Region-spanning listicle: no filters.region_id set, so this pulls half-marathon-category entities from every region in /data/regions, demonstrating the filter engine works with or without a region scope.",
+  "faqs": [
+    {
+      "question": "Why isn't this list limited to one country?",
+      "answer": "This guide is built from a category filter only (Half Marathon), with no region restriction, so it surfaces the highest-reliability half marathons across all of Southeast Asia rather than one country at a time. For a single-country view, use that country's region hub page instead, which lists only races verified within its borders."
+    }
+  ],
+  "last_updated": "2026-07-29",
+  "status": "active"
+}

@@ -1,0 +1,23 @@
+{
+  "listicle_id": "best-full-marathons-thailand",
+  "slug": "best-full-marathons-thailand",
+  "title": "Best Full Marathons in Thailand",
+  "intro": "Thailand's full marathon calendar ranges from major city races to regional festivals that pair a 42.195km option with shorter distances at the same event. This list is built from verified races tagged to the Full Marathon category anywhere in Thailand, ranked by reliability score, so it updates automatically as new races are added or re-verified.",
+  "filters": {
+    "region_id": "thailand",
+    "category_id": "full-marathon",
+    "sort_by": "reliability_score",
+    "sort_direction": "desc",
+    "limit": 10
+  },
+  "manual_entity_ids": [],
+  "editorial_notes": "Auto-generated from filters. region_id matches the region itself OR any descendant region via parent_region_id (see buildRegionAncestryMap in src/lib/data.js), so city-level races within Thailand -- like Nong Khai -- are included under the country-level filter without listing every city individually.",
+  "faqs": [
+    {
+      "question": "How is this list of best full marathons in Thailand ranked?",
+      "answer": "Races are ranked by reliability score, which reflects how thoroughly each event's date, distances, and official sourcing have been independently verified across multiple sources. It is not a measure of course quality or difficulty -- it is a measure of how confident we are that the listed details are accurate and current."
+    }
+  ],
+  "last_updated": "2026-07-29",
+  "status": "active"
+}
