@@ -16,18 +16,27 @@ import siteConfig from './config.js';
  */
 const entitySegment = siteConfig.entityLabelPlural;
 
+// Astro's import.meta.env.BASE_URL mirrors astro.config.mjs's `base` option
+// (always normalized to end with a trailing slash -- '/' when base is unset,
+// e.g. '/seo-engine-races/' when it's set for a project-pages preview). Every
+// path below is written as an absolute '/foo/' string for readability, then
+// run through withBase() so it still resolves correctly if this instance is
+// ever deployed under a base path instead of its own custom domain -- e.g.
+// the temporary lyj898.github.io/seo-engine-races/ preview (see astro.config.mjs).
+const withBase = (path) => import.meta.env.BASE_URL + path.replace(/^\//, '');
+
 export const urls = {
-  home: () => '/',
-  categoriesIndex: () => '/categories/',
-  category: (slug) => `/categories/${slug}/`,
-  regionsIndex: () => '/regions/',
-  region: (slug) => `/regions/${slug}/`,
-  entitiesIndex: () => `/${entitySegment}/`,
-  entity: (slug) => `/${entitySegment}/${slug}/`,
-  listiclesIndex: () => '/best/',
-  listicle: (slug) => `/best/${slug}/`,
-  about: () => '/about/',
-  privacy: () => '/privacy/',
-  terms: () => '/terms/',
-  contact: () => '/contact/',
+  home: () => withBase('/'),
+  categoriesIndex: () => withBase('/categories/'),
+  category: (slug) => withBase(`/categories/${slug}/`),
+  regionsIndex: () => withBase('/regions/'),
+  region: (slug) => withBase(`/regions/${slug}/`),
+  entitiesIndex: () => withBase(`/${entitySegment}/`),
+  entity: (slug) => withBase(`/${entitySegment}/${slug}/`),
+  listiclesIndex: () => withBase('/best/'),
+  listicle: (slug) => withBase(`/best/${slug}/`),
+  about: () => withBase('/about/'),
+  privacy: () => withBase('/privacy/'),
+  terms: () => withBase('/terms/'),
+  contact: () => withBase('/contact/'),
 };
