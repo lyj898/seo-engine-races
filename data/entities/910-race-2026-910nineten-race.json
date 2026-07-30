@@ -1,0 +1,59 @@
+{
+  "entity_id": "910-race-2026-910nineten-race",
+  "slug": "910-race-2026-910nineten-race",
+  "name": "910 Race 2026 (910Nineten Race)",
+  "category_id": "half-marathon",
+  "region_id": "indonesia",
+  "short_description": "910 Race 2026 (910Nineten Race) takes place October 11, 2026 in Tangerang, Banten, Indonesia.",
+  "ai_summary": "910 Race 2026 (910Nineten Race) is a road running event in Tangerang, Banten, Indonesia, featuring Half Marathon (21.195K); 10K; 5K. The race takes place on October 11, 2026, starting from ICE BSD (Indonesia Convention Exhibition), BSD City. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-10-11",
+    "distance_km": [
+      21.1,
+      10.0,
+      5.0
+    ],
+    "primary_distance_km": 21.1,
+    "registration_status": "Open",
+    "country": "Indonesia",
+    "venue": "ICE BSD (Indonesia Convention Exhibition), BSD City",
+    "city": "Tangerang, Banten",
+    "organizer": "910 Nineten (Indonesian running-shoe brand)",
+    "price_range": "IDR HM 679,000 / 10K 479,000 / 5K 379,000 (regular)"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 80,
+  "tags": [
+    "half-marathon",
+    "indonesia",
+    "verified"
+  ],
+  "source_mix": [
+    {
+      "url": "https://910.id",
+      "label": "Official race website",
+      "type": "official",
+      "last_checked": "2026-07-20"
+    },
+    {
+      "url": "https://lariku.info",
+      "label": "lariku.info",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://910.id",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-20",
+  "status": "active"
+}

@@ -1,0 +1,57 @@
+{
+  "entity_id": "bagan-marathon-bagan-temple-marathon-2026",
+  "slug": "bagan-marathon-bagan-temple-marathon-2026",
+  "name": "Bagan Marathon (Bagan Temple Marathon)",
+  "category_id": "full-marathon",
+  "region_id": "myanmar",
+  "short_description": "Bagan Marathon (Bagan Temple Marathon) takes place November 8, 2026 in Nyaung-U / Old Bagan, Myanmar.",
+  "ai_summary": "Bagan Marathon (Bagan Temple Marathon) is a road running event in Nyaung-U / Old Bagan, Myanmar, featuring Full Marathon, Half Marathon, 10KM. The race takes place on November 8, 2026, starting from Old Bagan, Myanmar. Registration is Open (via Google Form/Facebook) as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-11-08",
+    "distance_km": [
+      42.195,
+      21.1,
+      10.0
+    ],
+    "primary_distance_km": 42.195,
+    "registration_status": "Open (via Google Form/Facebook)",
+    "country": "Myanmar",
+    "venue": "Old Bagan, Myanmar",
+    "city": "Nyaung-U / Old Bagan",
+    "organizer": "RUNderful Myanmar"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 68,
+  "tags": [
+    "full-marathon",
+    "myanmar"
+  ],
+  "source_mix": [
+    {
+      "url": "https://worldsmarathons.com",
+      "label": "worldsmarathons.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    },
+    {
+      "url": "https://Facebook (Triathlon Myanmar",
+      "label": "Facebook (Triathlon Myanmar",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    },
+    {
+      "url": "https://'Save the date 8 Nov 2026 Bagan Marathon')",
+      "label": "'Save the date 8 Nov 2026 Bagan Marathon')",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-20",
+  "status": "active"
+}

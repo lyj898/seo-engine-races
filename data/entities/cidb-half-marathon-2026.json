@@ -1,0 +1,64 @@
+{
+  "entity_id": "cidb-half-marathon-2026",
+  "slug": "cidb-half-marathon-2026",
+  "name": "CIDB Half Marathon 2026",
+  "category_id": "half-marathon",
+  "region_id": "malaysia",
+  "short_description": "CIDB Half Marathon 2026 takes place December 13, 2026 in Putrajaya, Malaysia.",
+  "ai_summary": "CIDB Half Marathon 2026 is a road running event in Putrajaya, Malaysia, featuring 21KM Half Marathon; 10KM; 5KM; 3KM Brisk Walk (2025 categories; 2026 not independently re-confirmed). The race takes place on December 13, 2026, starting from Dataran Putrajaya, Putrajaya. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-12-13",
+    "distance_km": [
+      21.0,
+      10.0,
+      5.0,
+      3.0
+    ],
+    "primary_distance_km": 21.1,
+    "registration_status": "Open",
+    "country": "Malaysia",
+    "venue": "Dataran Putrajaya, Putrajaya",
+    "city": "Putrajaya",
+    "organizer": "Kelab CIDB WP Kuala Lumpur (\"CIDB Run\")"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 55,
+  "tags": [
+    "half-marathon",
+    "malaysia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://checkpointspot.asia/event/cidb-half-marathon-2026",
+      "label": "checkpointspot.asia",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    },
+    {
+      "url": "https://www.racexasia.com",
+      "label": "racexasia.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    },
+    {
+      "url": "https://raceroster.com",
+      "label": "raceroster.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Register",
+      "url": "https://checkpointspot.asia/event/cidb-half-marathon-2026",
+      "type": "official_registration"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-20",
+  "status": "active"
+}

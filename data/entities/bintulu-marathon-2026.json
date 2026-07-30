@@ -1,0 +1,56 @@
+{
+  "entity_id": "bintulu-marathon-2026",
+  "slug": "bintulu-marathon-2026",
+  "name": "Bintulu Marathon 2026",
+  "category_id": "full-marathon",
+  "region_id": "malaysia",
+  "short_description": "Bintulu Marathon 2026 takes place August 2, 2026 in Bintulu, Sarawak, Malaysia.",
+  "ai_summary": "Bintulu Marathon 2026 is a road running event in Bintulu, Sarawak, Malaysia, featuring Full Marathon; Half Marathon. The race takes place on August 2, 2026, starting from Bintulu, Sarawak. Registration is Closed as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-08-02",
+    "distance_km": [
+      42.195,
+      21.1
+    ],
+    "primary_distance_km": 42.195,
+    "registration_status": "Closed",
+    "country": "Malaysia",
+    "venue": "Bintulu, Sarawak",
+    "city": "Bintulu, Sarawak"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 82,
+  "tags": [
+    "full-marathon",
+    "malaysia",
+    "verified"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.bda.gov.my/web/subpage/event_view",
+      "label": "Official race website",
+      "type": "official",
+      "last_checked": "2026-07-13"
+    },
+    {
+      "url": "https://checkpointspot.asia/events",
+      "label": "checkpointspot.asia",
+      "type": "aggregator",
+      "last_checked": "2026-07-13"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://www.bda.gov.my/web/subpage/event_view",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-13",
+  "status": "active"
+}

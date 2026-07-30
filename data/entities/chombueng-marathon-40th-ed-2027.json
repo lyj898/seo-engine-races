@@ -1,0 +1,56 @@
+{
+  "entity_id": "chombueng-marathon-40th-ed-2027",
+  "slug": "chombueng-marathon-40th-ed-2027",
+  "name": "Chombueng Marathon (40th ed.)",
+  "category_id": "full-marathon",
+  "region_id": "thailand",
+  "short_description": "Chombueng Marathon (40th ed.) takes place January 31, 2027 in Chom Bueng, Ratchaburi, Thailand.",
+  "ai_summary": "Chombueng Marathon (40th ed.) is a road running event in Chom Bueng, Ratchaburi, Thailand, featuring Mini Marathon; Half Marathon (21.1K); Full Marathon (42.2K). The race takes place on January 31, 2027, starting from Ratchaburi Rajabhat University, Chom Bueng. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2027-01-31",
+    "distance_km": [
+      21.1,
+      42.195
+    ],
+    "primary_distance_km": 42.195,
+    "registration_status": "not_yet_announced",
+    "country": "Thailand",
+    "venue": "Ratchaburi Rajabhat University, Chom Bueng",
+    "city": "Chom Bueng, Ratchaburi",
+    "organizer": "Chombueng Marathon organizing committee"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 68,
+  "tags": [
+    "full-marathon",
+    "thailand"
+  ],
+  "source_mix": [
+    {
+      "url": "https://runningconnect.com",
+      "label": "runningconnect.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-27"
+    },
+    {
+      "url": "https://timingconnect.com",
+      "label": "timingconnect.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-27"
+    },
+    {
+      "url": "https://aims-worldrunning.org/calendar.html",
+      "label": "aims-worldrunning.org",
+      "type": "aggregator",
+      "last_checked": "2026-07-27"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-27",
+  "status": "active"
+}

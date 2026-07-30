@@ -1,0 +1,95 @@
+{
+  "entity_id": "dili-international-marathon-2026-love-our-forests-and-wildlife",
+  "slug": "dili-international-marathon-2026-love-our-forests-and-wildlife",
+  "name": "Dili International Marathon 2026",
+  "category_id": "full-marathon",
+  "region_id": "timor-leste",
+  "short_description": "Dili International Marathon 2026 is a verified Full/Half/10K/5K event in Dili, Timor-Leste, confirmed for 8 August 2026 with open registration.",
+  "ai_summary": "Dili International Marathon 2026, themed \"Love Our Forests and Wildlife,\" is organized by the Federacao de Timor-Leste de Atletismo and confirmed for 8 August 2026 in Dili. The event offers a Full Marathon, Half Marathon, Para 10K, and 5K Fun Run, with registration open via the official site. Pricing is differentiated: international entrants pay $45 (Half) or $90 (Full) in USD, while Timorese nationals run free. Verified against the official race website as of 20 July 2026 with a confidence score of 90.",
+  "core_facts": {
+    "date": "2026-08-08",
+    "distance_km": [
+      5,
+      10,
+      21.1,
+      42.195
+    ],
+    "primary_distance_km": 42.195,
+    "registration_status": "open",
+    "price_range": "USD 45 (Half, international) / USD 90 (Full, international) / free for Timorese nationals",
+    "venue": "Dili",
+    "city": "Dili",
+    "country": "Timor-Leste"
+  },
+  "pros": [
+    "Registration is confirmed open with transparent, published pricing for both Half and Full distances",
+    "Differential pricing makes the race free for Timorese nationals while still funding the event through international entry fees"
+  ],
+  "cons": [
+    "No specific registration deadline has been published as of the last verification",
+    "Verification relies on a single official source domain rather than multiple independent aggregators"
+  ],
+  "sentiment_scores": {
+    "overall": 82,
+    "breakdown": [
+      {
+        "label": "Source verification confidence",
+        "score": 90
+      },
+      {
+        "label": "Information completeness",
+        "score": 78
+      }
+    ]
+  },
+  "excerpt_quotes": [],
+  "faqs": [
+    {
+      "question": "When is the Dili International Marathon 2026?",
+      "answer": "The Dili International Marathon 2026 is confirmed for 8 August 2026 in Dili, Timor-Leste. Organized by the Federacao de Timor-Leste de Atletismo, it was verified against the official race website as of 20 July 2026 with a confidence score of 90, one of the more strongly confirmed events in this directory."
+    },
+    {
+      "question": "How much does it cost to enter the Dili International Marathon?",
+      "answer": "International runners pay USD 45 for the Half Marathon or USD 90 for the Full Marathon. Timorese nationals can enter either distance for free. Registration is open now through the event's official website, though no specific registration deadline has been published yet."
+    },
+    {
+      "question": "What distances are offered at the Dili International Marathon?",
+      "answer": "The event offers four distances: a Full Marathon (42.195km), a Half Marathon (21.1km), a Para 10K category, and a 5K Fun Run. This range makes the event accessible to competitive marathoners, first-time half-marathon runners, para-athletes, and casual participants at the same race weekend."
+    }
+  ],
+  "reliability_score": 90,
+  "tags": [
+    "full-marathon",
+    "half-marathon",
+    "timor-leste",
+    "verified-2026",
+    "charity-pricing"
+  ],
+  "source_mix": [
+    {
+      "url": "https://dilimarathon.tl",
+      "label": "Official race website",
+      "type": "official",
+      "last_checked": "2026-07-20"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Register for the Dili International Marathon",
+      "url": "https://www.dilimarathon.tl/register",
+      "type": "official_registration"
+    },
+    {
+      "label": "Visit official race website",
+      "url": "https://dilimarathon.tl",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [
+    "nong-khai-running-festival-2026",
+    "bank-jateng-borobudur-marathon-2026"
+  ],
+  "last_updated": "2026-07-20",
+  "status": "active"
+}

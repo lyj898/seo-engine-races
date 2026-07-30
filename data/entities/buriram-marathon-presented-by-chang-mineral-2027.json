@@ -1,0 +1,56 @@
+{
+  "entity_id": "buriram-marathon-presented-by-chang-mineral-2027",
+  "slug": "buriram-marathon-presented-by-chang-mineral-2027",
+  "name": "Buriram Marathon Presented by Chang Mineral",
+  "category_id": "full-marathon",
+  "region_id": "thailand",
+  "short_description": "Buriram Marathon Presented by Chang Mineral takes place January 23, 2027 in Buriram, Thailand.",
+  "ai_summary": "Buriram Marathon Presented by Chang Mineral is a road running event in Buriram, Thailand, featuring Full Marathon; Half Marathon. The race takes place on January 23, 2027, starting from Chang International Circuit, Buriram. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2027-01-23",
+    "distance_km": [
+      42.195,
+      21.1
+    ],
+    "primary_distance_km": 42.195,
+    "registration_status": "not_yet_announced",
+    "country": "Thailand",
+    "venue": "Chang International Circuit, Buriram",
+    "city": "Buriram"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 78,
+  "tags": [
+    "full-marathon",
+    "thailand",
+    "verified"
+  ],
+  "source_mix": [
+    {
+      "url": "https://burirammarathon.com",
+      "label": "Official race website",
+      "type": "official",
+      "last_checked": "2026-07-16"
+    },
+    {
+      "url": "https://aims-worldrunning.org/calendar.html",
+      "label": "aims-worldrunning.org",
+      "type": "aggregator",
+      "last_checked": "2026-07-16"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://burirammarathon.com",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-16",
+  "status": "active"
+}

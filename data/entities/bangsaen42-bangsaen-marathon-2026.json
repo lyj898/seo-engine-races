@@ -1,0 +1,58 @@
+{
+  "entity_id": "bangsaen42-bangsaen-marathon-2026",
+  "slug": "bangsaen42-bangsaen-marathon-2026",
+  "name": "Bangsaen42 (Bangsaen Marathon)",
+  "category_id": "full-marathon",
+  "region_id": "thailand",
+  "short_description": "Bangsaen42 (Bangsaen Marathon) takes place November 15, 2026 in Bang Saen, Chonburi, Thailand.",
+  "ai_summary": "Bangsaen42 (Bangsaen Marathon) is a road running event in Bang Saen, Chonburi, Thailand, featuring Full Marathon; Half Marathon; 10km. The race takes place on November 15, 2026, starting from Bang Saen Beach. Registration is Not Yet Announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-11-15",
+    "distance_km": [
+      42.195,
+      21.1,
+      10.0
+    ],
+    "primary_distance_km": 42.195,
+    "registration_status": "Not Yet Announced",
+    "country": "Thailand",
+    "venue": "Bang Saen Beach",
+    "city": "Bang Saen, Chonburi",
+    "organizer": "Not confirmed this pass"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 82,
+  "tags": [
+    "full-marathon",
+    "thailand",
+    "verified"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.bangsaen42.com",
+      "label": "Official race website",
+      "type": "official",
+      "last_checked": "2026-07-20"
+    },
+    {
+      "url": "https://www.bangsaen42.com/",
+      "label": "bangsaen42.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://www.bangsaen42.com",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-20",
+  "status": "active"
+}

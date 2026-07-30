@@ -1,0 +1,63 @@
+{
+  "entity_id": "garmin-run-asia-series-2026-indonesia",
+  "slug": "garmin-run-asia-series-2026-indonesia",
+  "name": "Garmin Run Asia Series 2026 – Indonesia",
+  "category_id": "half-marathon",
+  "region_id": "indonesia",
+  "short_description": "Garmin Run Asia Series 2026 – Indonesia takes place September 20, 2026 in BSD City, Indonesia.",
+  "ai_summary": "Garmin Run Asia Series 2026 – Indonesia is a road running event in BSD City, Indonesia, featuring Half Marathon; 10km; 5km. The race takes place on September 20, 2026, starting from Indonesia Convention Exhibition (ICE), BSD City. Registration is Not Yet Announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-09-20",
+    "distance_km": [
+      21.1,
+      10.0,
+      5.0
+    ],
+    "primary_distance_km": 21.1,
+    "registration_status": "Not Yet Announced",
+    "country": "Indonesia",
+    "venue": "Indonesia Convention Exhibition (ICE), BSD City",
+    "city": "BSD City"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 82,
+  "tags": [
+    "half-marathon",
+    "indonesia",
+    "verified"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.garmin.co.id/minisite/garmin-run/",
+      "label": "Official race website",
+      "type": "official",
+      "last_checked": "2026-07-13"
+    },
+    {
+      "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
+      "label": "kalenderlari.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-13"
+    },
+    {
+      "url": "https://kalenderlari.com/events/garmin-run-asia-series-2026---indonesia/",
+      "label": "kalenderlari.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-13"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://www.garmin.co.id/minisite/garmin-run/",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-13",
+  "status": "active"
+}

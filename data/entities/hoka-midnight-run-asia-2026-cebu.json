@@ -1,0 +1,58 @@
+{
+  "entity_id": "hoka-midnight-run-asia-2026-cebu",
+  "slug": "hoka-midnight-run-asia-2026-cebu",
+  "name": "HOKA Midnight Run Asia 2026 – Cebu",
+  "category_id": "half-marathon",
+  "region_id": "philippines",
+  "short_description": "HOKA Midnight Run Asia 2026 – Cebu takes place October 11, 2026 in Cebu City, Philippines.",
+  "ai_summary": "HOKA Midnight Run Asia 2026 – Cebu is a road running event in Cebu City, Philippines, featuring Half Marathon (21KM), 10KM, 5KM. The race takes place on October 11, 2026, starting from Cebu City. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-10-11",
+    "distance_km": [
+      21.0,
+      10.0,
+      5.0
+    ],
+    "primary_distance_km": 21.1,
+    "registration_status": "not_yet_announced",
+    "country": "Philippines",
+    "venue": "Cebu City",
+    "city": "Cebu City",
+    "organizer": "Runrio (brand: HOKA Midnight Run Asia)"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 80,
+  "tags": [
+    "half-marathon",
+    "philippines",
+    "verified"
+  ],
+  "source_mix": [
+    {
+      "url": "https://runrio.com",
+      "label": "Official race website",
+      "type": "official",
+      "last_checked": "2026-07-20"
+    },
+    {
+      "url": "https://runrio.com/race-calendar",
+      "label": "runrio.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://runrio.com",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-20",
+  "status": "active"
+}

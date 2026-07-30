@@ -1,0 +1,107 @@
+{
+  "entity_id": "bank-jateng-borobudur-marathon-2026",
+  "slug": "bank-jateng-borobudur-marathon-2026",
+  "name": "Bank Jateng Borobudur Marathon",
+  "category_id": "full-marathon",
+  "region_id": "indonesia",
+  "short_description": "Bank Jateng Borobudur Marathon is a verified Full/Half/10K marathon routed through Borobudur Temple Park, Indonesia, confirmed for 15 November 2026.",
+  "ai_summary": "Bank Jateng Borobudur Marathon is a Full Marathon, Half Marathon, and 10km event routed through Borobudur Temple Park, a UNESCO World Heritage site in Magelang, Indonesia, confirmed for 15 November 2026. Organized by Yayasan Borobudur Marathon and presented by Bank Jateng, entry is ballot-based via the \"My Borobudur Marathon\" app, opening soon at time of verification. Pricing is IDR 950,000 (Full), 850,000 (Half), and 650,000 (10km). Verified across the official website, a regional race calendar, and the AIMS global calendar as of 20 July 2026, with a confidence score of 92.",
+  "core_facts": {
+    "date": "2026-11-15",
+    "distance_km": [
+      10,
+      21.1,
+      42.195
+    ],
+    "primary_distance_km": 42.195,
+    "registration_status": "ballot_opening_soon",
+    "price_range": "IDR 650,000 (10K) / 850,000 (Half) / 950,000 (Full)",
+    "venue": "Borobudur Temple Park",
+    "city": "Magelang",
+    "country": "Indonesia"
+  },
+  "pros": [
+    "Routes through Borobudur Temple Park, a UNESCO World Heritage Site -- a genuinely distinctive course landmark",
+    "High confidence score (92) backed by three independent sources including the official site and the AIMS global calendar",
+    "Clear, published pricing across all three distances"
+  ],
+  "cons": [
+    "Entry is ballot-based rather than guaranteed first-come registration",
+    "Registration opens via a dedicated mobile app rather than a plain webpage, an extra step for international entrants"
+  ],
+  "sentiment_scores": {
+    "overall": 87,
+    "breakdown": [
+      {
+        "label": "Source verification confidence",
+        "score": 92
+      },
+      {
+        "label": "Information completeness",
+        "score": 82
+      }
+    ]
+  },
+  "excerpt_quotes": [],
+  "faqs": [
+    {
+      "question": "How do I register for the Bank Jateng Borobudur Marathon?",
+      "answer": "Entry is ballot-based rather than first-come, first-served, and opens through the dedicated \"My Borobudur Marathon\" mobile app rather than a standard web form. As of the last verification on 20 July 2026, the ballot was described as opening soon -- check the official website for the exact date it goes live."
+    },
+    {
+      "question": "How much does the Bank Jateng Borobudur Marathon cost?",
+      "answer": "Published pricing is IDR 950,000 for the Full Marathon, IDR 850,000 for the Half Marathon, and IDR 650,000 for the 10km category. These figures come directly from the official race website as verified on 20 July 2026, though ballot-based entry means paying doesn't guarantee a race slot."
+    },
+    {
+      "question": "What makes the Bank Jateng Borobudur Marathon course distinctive?",
+      "answer": "The race routes through Borobudur Temple Park, home to the world's largest Buddhist temple and a UNESCO World Heritage Site, in Magelang, Indonesia. This landmark setting is one of the more distinctive marathon courses verified in this directory, combining a competitive road race with a culturally significant location."
+    }
+  ],
+  "reliability_score": 92,
+  "tags": [
+    "full-marathon",
+    "half-marathon",
+    "indonesia",
+    "verified-2026",
+    "landmark-course"
+  ],
+  "source_mix": [
+    {
+      "url": "https://borobudurmarathon.com/",
+      "label": "Official race website",
+      "type": "official",
+      "last_checked": "2026-07-20"
+    },
+    {
+      "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
+      "label": "Kalender Lari Indonesia race calendar",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    },
+    {
+      "url": "https://aims-worldrunning.org/calendar.html",
+      "label": "AIMS World Running calendar",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Register via My Borobudur Marathon app",
+      "url": "https://my.borobudurmarathon.com",
+      "type": "official_registration"
+    },
+    {
+      "label": "Visit official race website",
+      "url": "https://borobudurmarathon.com",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [
+    "dili-international-marathon-2026-love-our-forests-and-wildlife",
+    "vnexpress-marathon-nha-trang-2026"
+  ],
+  "last_updated": "2026-07-20",
+  "status": "active"
+}

@@ -1,0 +1,63 @@
+{
+  "entity_id": "amartha-10x-run-2026",
+  "slug": "amartha-10x-run-2026",
+  "name": "Amartha 10X Run",
+  "category_id": "half-marathon",
+  "region_id": "indonesia",
+  "short_description": "Amartha 10X Run takes place September 6, 2026 in Senayan, Jakarta, Indonesia.",
+  "ai_summary": "Amartha 10X Run is a road running event in Senayan, Jakarta, Indonesia, featuring Half Marathon; 10km. The race takes place on September 6, 2026, starting from Plaza Parkir Timur GBK, Senayan. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-09-06",
+    "distance_km": [
+      21.1,
+      10.0
+    ],
+    "primary_distance_km": 21.1,
+    "registration_status": "Open",
+    "country": "Indonesia",
+    "venue": "Plaza Parkir Timur GBK, Senayan",
+    "city": "Senayan, Jakarta",
+    "price_range": "IDR From 450,000"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 82,
+  "tags": [
+    "half-marathon",
+    "indonesia",
+    "verified"
+  ],
+  "source_mix": [
+    {
+      "url": "https://amartha10xrun.com",
+      "label": "Official race website",
+      "type": "official",
+      "last_checked": "2026-07-20"
+    },
+    {
+      "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
+      "label": "kalenderlari.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    },
+    {
+      "url": "https://kalenderlari.com/events/amartha-10x-run/",
+      "label": "kalenderlari.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://amartha10xrun.com",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-20",
+  "status": "active"
+}

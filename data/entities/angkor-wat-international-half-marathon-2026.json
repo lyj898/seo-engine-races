@@ -1,0 +1,59 @@
+{
+  "entity_id": "angkor-wat-international-half-marathon-2026",
+  "slug": "angkor-wat-international-half-marathon-2026",
+  "name": "Angkor Wat International Half Marathon",
+  "category_id": "half-marathon",
+  "region_id": "cambodia",
+  "short_description": "Angkor Wat International Half Marathon takes place December 6, 2026 in Siem Reap, Cambodia.",
+  "ai_summary": "Angkor Wat International Half Marathon is a road running event in Siem Reap, Cambodia, featuring Half Marathon; 10km; 5km; 3km. The race takes place on December 6, 2026, starting from Angkor Wat temple complex, Angkor Archaeological Park. Registration is Not Yet Announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-12-06",
+    "distance_km": [
+      21.1,
+      10.0,
+      5.0,
+      3.0
+    ],
+    "primary_distance_km": 21.1,
+    "registration_status": "Not Yet Announced",
+    "country": "Cambodia",
+    "venue": "Angkor Wat temple complex, Angkor Archaeological Park",
+    "city": "Siem Reap",
+    "organizer": "National Olympic Committee of Cambodia, with the Athletics Federation of Cambodia"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 88,
+  "tags": [
+    "half-marathon",
+    "cambodia",
+    "verified"
+  ],
+  "source_mix": [
+    {
+      "url": "https://angkorhospital.org/angkor-wat-international-half-marathon-2026/",
+      "label": "Official race website",
+      "type": "official",
+      "last_checked": "2026-07-20"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Angkor_Wat_International_Half_Marathon",
+      "label": "en.wikipedia.org",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://angkorhospital.org/angkor-wat-international-half-marathon-2026/",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-20",
+  "status": "active"
+}

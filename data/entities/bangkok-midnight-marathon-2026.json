@@ -1,0 +1,74 @@
+{
+  "entity_id": "bangkok-midnight-marathon-2026",
+  "slug": "bangkok-midnight-marathon-2026",
+  "name": "Bangkok Midnight Marathon 2026",
+  "category_id": "half-marathon",
+  "region_id": "thailand",
+  "short_description": "Bangkok Midnight Marathon 2026 takes place December 20, 2026 in Bangkok, Thailand.",
+  "ai_summary": "Bangkok Midnight Marathon 2026 is a road running event in Bangkok, Thailand, featuring Half Marathon (21.0975KM); 10K. The race takes place on December 20, 2026, starting from Rama VIII Bridge / Sanam Luang area, Bangkok. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-12-20",
+    "distance_km": [
+      21.098,
+      10.0
+    ],
+    "primary_distance_km": 21.1,
+    "registration_status": "not_yet_announced",
+    "country": "Thailand",
+    "venue": "Rama VIII Bridge / Sanam Luang area, Bangkok",
+    "city": "Bangkok",
+    "organizer": "Taozing Running Club"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 72,
+  "tags": [
+    "half-marathon",
+    "thailand"
+  ],
+  "source_mix": [
+    {
+      "url": "https://aims-worldrunning.org/calendar.html",
+      "label": "aims-worldrunning.org",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    },
+    {
+      "url": "https://ahotu.com",
+      "label": "ahotu.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    },
+    {
+      "url": "https://worldsmarathons.com",
+      "label": "worldsmarathons.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    },
+    {
+      "url": "https://allevents.in",
+      "label": "allevents.in",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    },
+    {
+      "url": "https://pacebuilder.run",
+      "label": "pacebuilder.run",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Register",
+      "url": "https://raceroster.com",
+      "type": "official_registration"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-20",
+  "status": "active"
+}

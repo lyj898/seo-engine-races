@@ -1,0 +1,45 @@
+{
+  "entity_id": "garmin-run-singapore-2026",
+  "slug": "garmin-run-singapore-2026",
+  "name": "Garmin Run Singapore 2026",
+  "category_id": "half-marathon",
+  "region_id": "singapore",
+  "short_description": "Garmin Run Singapore 2026 takes place October 25, 2026 in Singapore, Singapore.",
+  "ai_summary": "Garmin Run Singapore 2026 is a road running event in Singapore, Singapore, featuring 21.1KM Half Marathon; 10KM. The race takes place on October 25, 2026, starting from Marina Barrage. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-10-25",
+    "distance_km": [
+      21.1,
+      10.0
+    ],
+    "primary_distance_km": 21.1,
+    "registration_status": "not_yet_announced",
+    "country": "Singapore",
+    "venue": "Marina Barrage",
+    "city": "Singapore",
+    "organizer": "Garmin",
+    "price_range": "SGD 21K SGD 125 / 10K SGD 105"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 55,
+  "tags": [
+    "half-marathon",
+    "singapore"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.justrunlah.com/race/garmin-run-singapore-2026/",
+      "label": "justrunlah.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-20",
+  "status": "active"
+}

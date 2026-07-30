@@ -1,0 +1,59 @@
+{
+  "entity_id": "aia-rock-n-roll-running-series-manila-2026",
+  "slug": "aia-rock-n-roll-running-series-manila-2026",
+  "name": "AIA Rock 'n' Roll Running Series Manila 2026",
+  "category_id": "full-marathon",
+  "region_id": "philippines",
+  "short_description": "AIA Rock 'n' Roll Running Series Manila 2026 takes place November 29, 2026 in Manila, Philippines.",
+  "ai_summary": "AIA Rock 'n' Roll Running Series Manila 2026 is a road running event in Manila, Philippines, featuring Full Marathon (42K); Half Marathon (21K); 10K; 5K; Kids. The race takes place on November 29, 2026, starting from Luneta / Rizal Park (night run; course past National Museum, Fort Santiago, Binondo, Manila Bay). Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-11-29",
+    "distance_km": [
+      42.195,
+      21.1,
+      10.0,
+      5.0
+    ],
+    "primary_distance_km": 42.195,
+    "registration_status": "Open",
+    "country": "Philippines",
+    "venue": "Luneta / Rizal Park (night run; course past National Museum, Fort Santiago, Binondo, Manila Bay)",
+    "city": "Manila",
+    "organizer": "Sunrise Events (IRONMAN Group); title sponsor AIA Philippines"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 85,
+  "tags": [
+    "full-marathon",
+    "philippines",
+    "verified"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.runrocknroll.com/events/manila",
+      "label": "Official race website",
+      "type": "official",
+      "last_checked": "2026-07-20"
+    },
+    {
+      "url": "https://www.pinoyfitness.com/list-of-events/",
+      "label": "pinoyfitness.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://www.runrocknroll.com/events/manila",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-20",
+  "status": "active"
+}

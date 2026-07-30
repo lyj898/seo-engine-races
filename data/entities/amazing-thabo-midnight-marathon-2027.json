@@ -1,0 +1,64 @@
+{
+  "entity_id": "amazing-thabo-midnight-marathon-2027",
+  "slug": "amazing-thabo-midnight-marathon-2027",
+  "name": "Amazing Thabo Midnight Marathon",
+  "category_id": "full-marathon",
+  "region_id": "thailand",
+  "short_description": "Amazing Thabo Midnight Marathon takes place May 1, 2027 in Tha Bo, Nong Khai, Thailand.",
+  "ai_summary": "Amazing Thabo Midnight Marathon is a road running event in Tha Bo, Nong Khai, Thailand, featuring Full Marathon (42.195K); Half Marathon (21.1K); 10K; 5K. The race takes place on May 1, 2027, starting from Tha Bo, Nong Khai. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2027-05-01",
+    "distance_km": [
+      42.195,
+      21.1,
+      10.0,
+      5.0
+    ],
+    "primary_distance_km": 42.195,
+    "registration_status": "not_yet_announced",
+    "country": "Thailand",
+    "venue": "Tha Bo, Nong Khai",
+    "city": "Tha Bo, Nong Khai",
+    "organizer": "Thabo Marathon"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 45,
+  "tags": [
+    "full-marathon",
+    "thailand"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.thabomarathon.com",
+      "label": "Official race website",
+      "type": "official",
+      "last_checked": "2026-07-20"
+    },
+    {
+      "url": "https://aims-worldrunning.org/calendar.html",
+      "label": "aims-worldrunning.org",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    },
+    {
+      "url": "https://race-result.asia",
+      "label": "race-result.asia",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://www.thabomarathon.com",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-20",
+  "status": "active"
+}

@@ -1,0 +1,56 @@
+{
+  "entity_id": "2026-garmin-run-marathon-series-malaysia",
+  "slug": "2026-garmin-run-marathon-series-malaysia",
+  "name": "2026 Garmin Run Marathon Series – Malaysia",
+  "category_id": "half-marathon",
+  "region_id": "malaysia",
+  "short_description": "2026 Garmin Run Marathon Series – Malaysia takes place November 1, 2026 in Putrajaya, Malaysia.",
+  "ai_summary": "2026 Garmin Run Marathon Series – Malaysia is a road running event in Putrajaya, Malaysia, featuring 21KM Half Marathon; 10KM. The race takes place on November 1, 2026, starting from In front of Mahkamah Syariah WP Putrajaya. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-11-01",
+    "distance_km": [
+      21.0,
+      10.0
+    ],
+    "primary_distance_km": 21.1,
+    "registration_status": "Open",
+    "country": "Malaysia",
+    "venue": "In front of Mahkamah Syariah WP Putrajaya",
+    "city": "Putrajaya",
+    "organizer": "Garmin Malaysia (technical partner: SCORE Experience)"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 65,
+  "tags": [
+    "half-marathon",
+    "malaysia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://raceroster.com/events/2026/129858/2026-garmin-run-marathon-series-malaysia",
+      "label": "raceroster.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    },
+    {
+      "url": "https://www.sportsworldmalaysia.com",
+      "label": "sportsworldmalaysia.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Register",
+      "url": "https://raceroster.com/events/2026/129858/2026-garmin-run-marathon-series-malaysia",
+      "type": "official_registration"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-20",
+  "status": "active"
+}

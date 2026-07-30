@@ -1,0 +1,84 @@
+{
+  "entity_id": "brunei-half-marathon",
+  "slug": "brunei-half-marathon",
+  "name": "The Brunei Half Marathon 2026",
+  "category_id": "half-marathon",
+  "region_id": "brunei",
+  "short_description": "The Brunei Half Marathon 2026 is a verified Half/10K/5K race crossing Bandar Seri Begawan's SHOAS Bridge, confirmed for 21 November 2026 with open registration.",
+  "ai_summary": "The Brunei Half Marathon 2026 crosses the Sultan Haji Omar 'Ali Saifuddien (SHOAS) Bridge in Bandar Seri Begawan, Brunei, confirmed for 21 November 2026. It offers Half Marathon, 10km, and 5km distances, with registration open directly via the official website. The organizing body is not named on the site. Verified as of 20 July 2026 with a confidence score of 85.",
+  "core_facts": {
+    "date": "2026-11-21",
+    "distance_km": [
+      5,
+      10,
+      21
+    ],
+    "primary_distance_km": 21,
+    "registration_status": "open",
+    "venue": "Sultan Haji Omar 'Ali Saifuddien (SHOAS) Bridge, Bandar Seri Begawan",
+    "city": "Bandar Seri Begawan",
+    "country": "Brunei"
+  },
+  "pros": [
+    "Routes across the Sultan Haji Omar 'Ali Saifuddien Bridge, a recognizable Bandar Seri Begawan landmark",
+    "Registration is already open directly through the official website"
+  ],
+  "cons": [
+    "Race organizer is not named on the official site, making accountability and contact details less transparent",
+    "Only one source (the official website) is cited for verification"
+  ],
+  "sentiment_scores": {
+    "overall": 78,
+    "breakdown": [
+      {
+        "label": "Source verification confidence",
+        "score": 85
+      },
+      {
+        "label": "Information completeness",
+        "score": 70
+      }
+    ]
+  },
+  "excerpt_quotes": [],
+  "faqs": [
+    {
+      "question": "When is the Brunei Half Marathon 2026?",
+      "answer": "The race is confirmed for 21 November 2026 in Bandar Seri Begawan, Brunei, crossing the Sultan Haji Omar 'Ali Saifuddien (SHOAS) Bridge. It was verified directly against the official event website as of 20 July 2026, with a confidence score of 85."
+    },
+    {
+      "question": "What distances are offered at the Brunei Half Marathon?",
+      "answer": "Three distances are available: a 21km Half Marathon, a 10km, and a 5km. All three start and route through Bandar Seri Begawan, including a crossing of the city's landmark SHOAS Bridge, making it accessible to a range of runner levels at one event."
+    },
+    {
+      "question": "Is registration open for the Brunei Half Marathon 2026?",
+      "answer": "Yes -- registration is open now directly through the event's official website, with no third-party platform required. No named race organizer is disclosed on the site, so entrants relying on organizer-specific contact details should reach out via the official website's own contact channels instead of a named body."
+    }
+  ],
+  "reliability_score": 85,
+  "tags": [
+    "half-marathon",
+    "brunei",
+    "verified-2026",
+    "landmark-course"
+  ],
+  "source_mix": [
+    {
+      "url": "https://thebruneihalfmarathon.com",
+      "label": "Official race website",
+      "type": "official",
+      "last_checked": "2026-07-20"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Register for The Brunei Half Marathon",
+      "url": "https://thebruneihalfmarathon.com",
+      "type": "official_registration"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-20",
+  "status": "archived"
+}

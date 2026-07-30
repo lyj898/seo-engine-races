@@ -1,0 +1,76 @@
+{
+  "entity_id": "bmw-brunei-international-half-marathon-bihm-2026",
+  "slug": "bmw-brunei-international-half-marathon-bihm-2026",
+  "name": "BMW Brunei International Half Marathon (BIHM) 2026",
+  "category_id": "half-marathon",
+  "region_id": "brunei",
+  "short_description": "BMW Brunei International Half Marathon (BIHM) 2026 takes place December 6, 2026 in Bandar Seri Begawan, Brunei.",
+  "ai_summary": "BMW Brunei International Half Marathon (BIHM) 2026 is a road running event in Bandar Seri Begawan, Brunei, featuring Half Marathon (21.0975km); 10km. The race takes place on December 6, 2026, starting from Berakas, Bandar Seri Begawan. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-12-06",
+    "distance_km": [
+      21.098,
+      10.0
+    ],
+    "primary_distance_km": 21.1,
+    "registration_status": "Open",
+    "country": "Brunei",
+    "venue": "Berakas, Bandar Seri Begawan",
+    "city": "Bandar Seri Begawan",
+    "organizer": "AKIF Media Marketing & Event",
+    "price_range": "BND ~$60-70 (per endorphinsrunning.com)"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 82,
+  "tags": [
+    "half-marathon",
+    "brunei",
+    "verified"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.bruneimarathon.com",
+      "label": "Official race website",
+      "type": "official",
+      "last_checked": "2026-07-16"
+    },
+    {
+      "url": "https://aims-worldrunning.org/calendar.html",
+      "label": "aims-worldrunning.org",
+      "type": "aggregator",
+      "last_checked": "2026-07-16"
+    },
+    {
+      "url": "https://endorphinsrunning.com",
+      "label": "endorphinsrunning.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-16"
+    },
+    {
+      "url": "https://hashirun.com",
+      "label": "hashirun.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-16"
+    },
+    {
+      "url": "https://Instagram (@gomamam.bn)",
+      "label": "Instagram (@gomamam.bn)",
+      "type": "aggregator",
+      "last_checked": "2026-07-16"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://www.bruneimarathon.com",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-16",
+  "status": "active"
+}

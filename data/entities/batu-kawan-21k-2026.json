@@ -1,0 +1,48 @@
+{
+  "entity_id": "batu-kawan-21k-2026",
+  "slug": "batu-kawan-21k-2026",
+  "name": "Batu Kawan 21K 2026",
+  "category_id": "half-marathon",
+  "region_id": "malaysia",
+  "short_description": "Batu Kawan 21K 2026 takes place September 13, 2026 in Batu Kawan, Penang, Malaysia.",
+  "ai_summary": "Batu Kawan 21K 2026 is a road running event in Batu Kawan, Penang, Malaysia, featuring Half Marathon. The race takes place on September 13, 2026, starting from Decathlon KLIPPA, Batu Kawan, Pulau Pinang. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-09-13",
+    "distance_km": [
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "registration_status": "Open",
+    "country": "Malaysia",
+    "venue": "Decathlon KLIPPA, Batu Kawan, Pulau Pinang",
+    "city": "Batu Kawan, Penang"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 55,
+  "tags": [
+    "half-marathon",
+    "malaysia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://checkpointspot.asia/events",
+      "label": "checkpointspot.asia",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Register",
+      "url": "https://howei.com/registration/2341/token/ARES",
+      "type": "official_registration"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-20",
+  "status": "active"
+}

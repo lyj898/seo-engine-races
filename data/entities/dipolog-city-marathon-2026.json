@@ -1,0 +1,46 @@
+{
+  "entity_id": "dipolog-city-marathon-2026",
+  "slug": "dipolog-city-marathon-2026",
+  "name": "Dipolog City Marathon 2026",
+  "category_id": "full-marathon",
+  "region_id": "philippines",
+  "short_description": "Dipolog City Marathon 2026 takes place October 4, 2026 in Dipolog City, Zamboanga del Norte, Philippines.",
+  "ai_summary": "Dipolog City Marathon 2026 is a road running event in Dipolog City, Zamboanga del Norte, Philippines, featuring Full Marathon (42K); Half Marathon (21K); 10K; 5K. The race takes place on October 4, 2026, starting from Sunset Boulevard, Dipolog City. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-10-04",
+    "distance_km": [
+      42.195,
+      21.1,
+      10.0,
+      5.0
+    ],
+    "primary_distance_km": 42.195,
+    "registration_status": "not_yet_announced",
+    "country": "Philippines",
+    "venue": "Sunset Boulevard, Dipolog City",
+    "city": "Dipolog City, Zamboanga del Norte",
+    "organizer": "Dipolog City LGU"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 40,
+  "tags": [
+    "full-marathon",
+    "philippines"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.pinoyfitness.com/list-of-events/",
+      "label": "pinoyfitness.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-20",
+  "status": "active"
+}

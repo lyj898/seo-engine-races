@@ -1,0 +1,63 @@
+{
+  "entity_id": "blue-ocean-minang-run-2026",
+  "slug": "blue-ocean-minang-run-2026",
+  "name": "Blue Ocean Minang Run 2026",
+  "category_id": "half-marathon",
+  "region_id": "indonesia",
+  "short_description": "Blue Ocean Minang Run 2026 takes place August 9, 2026 in Padang, Sumatera Barat, Indonesia.",
+  "ai_summary": "Blue Ocean Minang Run 2026 is a road running event in Padang, Sumatera Barat, Indonesia, featuring Half Marathon; 10km; 5km. The race takes place on August 9, 2026, starting from Kota Padang, Sumatera Barat. Registration is Not Yet Announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-08-09",
+    "distance_km": [
+      21.1,
+      10.0,
+      5.0
+    ],
+    "primary_distance_km": 21.1,
+    "registration_status": "Not Yet Announced",
+    "country": "Indonesia",
+    "venue": "Kota Padang, Sumatera Barat",
+    "city": "Padang, Sumatera Barat"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 82,
+  "tags": [
+    "half-marathon",
+    "indonesia",
+    "verified"
+  ],
+  "source_mix": [
+    {
+      "url": "https://bomrun.id",
+      "label": "Official race website",
+      "type": "official",
+      "last_checked": "2026-07-14"
+    },
+    {
+      "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
+      "label": "kalenderlari.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-14"
+    },
+    {
+      "url": "https://kalenderlari.com/events/blue-ocean-minang-run-2026/",
+      "label": "kalenderlari.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-14"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://bomrun.id",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-14",
+  "status": "active"
+}

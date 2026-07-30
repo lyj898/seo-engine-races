@@ -1,0 +1,46 @@
+{
+  "entity_id": "colorfest-electric-night-run-2026",
+  "slug": "colorfest-electric-night-run-2026",
+  "name": "Colorfest Electric Night Run 2026",
+  "category_id": "half-marathon",
+  "region_id": "philippines",
+  "short_description": "Colorfest Electric Night Run 2026 takes place August 1, 2026 in Pasay, Philippines.",
+  "ai_summary": "Colorfest Electric Night Run 2026 is a road running event in Pasay, Philippines, featuring Half Marathon (21K); 10K; 5K; 3K. The race takes place on August 1, 2026, starting from SM Mall of Asia. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-08-01",
+    "distance_km": [
+      21.1,
+      10.0,
+      5.0,
+      3.0
+    ],
+    "primary_distance_km": 21.1,
+    "registration_status": "not_yet_announced",
+    "country": "Philippines",
+    "venue": "SM Mall of Asia",
+    "city": "Pasay",
+    "organizer": "HyveSports"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 40,
+  "tags": [
+    "half-marathon",
+    "philippines"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.pinoyfitness.com/list-of-events/",
+      "label": "pinoyfitness.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-20",
+  "status": "active"
+}

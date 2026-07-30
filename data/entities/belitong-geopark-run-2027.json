@@ -1,0 +1,57 @@
+{
+  "entity_id": "belitong-geopark-run-2027",
+  "slug": "belitong-geopark-run-2027",
+  "name": "Belitong Geopark Run 2027",
+  "category_id": "half-marathon",
+  "region_id": "indonesia",
+  "short_description": "Belitong Geopark Run 2027 takes place April 18, 2027 in Pulau Belitung (Belitong), Indonesia.",
+  "ai_summary": "Belitong Geopark Run 2027 is a road running event in Pulau Belitung (Belitong), Indonesia, featuring 5K; 10K; 21K Half Marathon (per homepage; unconfirmed in detail). The race takes place on April 18, 2027, starting from TBA, Kepulauan Bangka Belitung. Registration is Not yet open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2027-04-18",
+    "distance_km": [
+      5.0,
+      10.0,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "registration_status": "Not yet open",
+    "country": "Indonesia",
+    "venue": "TBA, Kepulauan Bangka Belitung",
+    "city": "Pulau Belitung (Belitong)",
+    "organizer": "Geopark Run Series"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 58,
+  "tags": [
+    "half-marathon",
+    "indonesia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://geoparkrun.com",
+      "label": "Official race website",
+      "type": "official",
+      "last_checked": "2026-07-20"
+    },
+    {
+      "url": "https://geoparkrun.com/explore-the-series",
+      "label": "geoparkrun.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://geoparkrun.com",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-20",
+  "status": "active"
+}

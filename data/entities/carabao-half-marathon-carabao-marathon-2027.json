@@ -1,0 +1,58 @@
+{
+  "entity_id": "carabao-half-marathon-carabao-marathon-2027",
+  "slug": "carabao-half-marathon-carabao-marathon-2027",
+  "name": "Carabao Half Marathon (Carabao Marathon)",
+  "category_id": "half-marathon",
+  "region_id": "indonesia",
+  "short_description": "Carabao Half Marathon (Carabao Marathon) takes place March 28, 2027 in Kota Batu, Jawa Timur, Indonesia.",
+  "ai_summary": "Carabao Half Marathon (Carabao Marathon) is a road running event in Kota Batu, Jawa Timur, Indonesia, featuring Half Marathon; 10km; 5km. The race takes place on March 28, 2027, starting from Kota Batu, Jawa Timur. Registration is Closed (pending rescheduled date; existing tickets carried over) as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2027-03-28",
+    "distance_km": [
+      21.1,
+      10.0,
+      5.0
+    ],
+    "primary_distance_km": 21.1,
+    "registration_status": "Closed (pending rescheduled date; existing tickets carried over)",
+    "country": "Indonesia",
+    "venue": "Kota Batu, Jawa Timur",
+    "city": "Kota Batu, Jawa Timur",
+    "organizer": "Carabao (energy drink brand) / Carabao Hydration"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 80,
+  "tags": [
+    "half-marathon",
+    "indonesia",
+    "verified"
+  ],
+  "source_mix": [
+    {
+      "url": "https://carabaomarathon.com",
+      "label": "Official race website",
+      "type": "official",
+      "last_checked": "2026-07-20"
+    },
+    {
+      "url": "https://Instagram (@carabao.marathon)",
+      "label": "Instagram (@carabao.marathon)",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://carabaomarathon.com",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-20",
+  "status": "active"
+}

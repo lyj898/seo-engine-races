@@ -1,0 +1,63 @@
+{
+  "entity_id": "ciletuh-geopark-run-2027",
+  "slug": "ciletuh-geopark-run-2027",
+  "name": "Ciletuh Geopark Run 2027",
+  "category_id": "half-marathon",
+  "region_id": "indonesia",
+  "short_description": "Ciletuh Geopark Run 2027 takes place January 17, 2027 in Sukabumi, Jawa Barat, Indonesia.",
+  "ai_summary": "Ciletuh Geopark Run 2027 is a road running event in Sukabumi, Jawa Barat, Indonesia, featuring Half Marathon; 10km; 5km. The race takes place on January 17, 2027, starting from Pantai Palangpang, Sukabumi, Jawa Barat. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2027-01-17",
+    "distance_km": [
+      21.1,
+      10.0,
+      5.0
+    ],
+    "primary_distance_km": 21.1,
+    "registration_status": "not_yet_announced",
+    "country": "Indonesia",
+    "venue": "Pantai Palangpang, Sukabumi, Jawa Barat",
+    "city": "Sukabumi, Jawa Barat",
+    "organizer": "Kementerian Pariwisata (Ministry of Tourism) — 'Geopark Run Series'"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 62,
+  "tags": [
+    "half-marathon",
+    "indonesia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://geoparkrun.com",
+      "label": "Official race website",
+      "type": "official",
+      "last_checked": "2026-07-20"
+    },
+    {
+      "url": "https://jatim.antaranews.com",
+      "label": "jatim.antaranews.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    },
+    {
+      "url": "https://www.indonesia.travel/geopark-run-series",
+      "label": "indonesia.travel",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://geoparkrun.com",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-20",
+  "status": "active"
+}

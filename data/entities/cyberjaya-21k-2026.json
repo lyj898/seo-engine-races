@@ -1,0 +1,50 @@
+{
+  "entity_id": "cyberjaya-21k-2026",
+  "slug": "cyberjaya-21k-2026",
+  "name": "Cyberjaya 21K 2026",
+  "category_id": "half-marathon",
+  "region_id": "malaysia",
+  "short_description": "Cyberjaya 21K 2026 takes place August 2, 2026 in Cyberjaya, Selangor, Malaysia.",
+  "ai_summary": "Cyberjaya 21K 2026 is a road running event in Cyberjaya, Selangor, Malaysia, featuring Half Marathon. The race takes place on August 2, 2026, starting from Rekascape, Persiaran APEC, Cyberjaya, Selangor. Registration is Closed as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-08-02",
+    "distance_km": [
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "registration_status": "Closed",
+    "country": "Malaysia",
+    "venue": "Rekascape, Persiaran APEC, Cyberjaya, Selangor",
+    "city": "Cyberjaya, Selangor",
+    "organizer": "Tetrad Event Empire",
+    "price_range": "MYR 60"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 50,
+  "tags": [
+    "half-marathon",
+    "malaysia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://checkpointspot.asia/events",
+      "label": "checkpointspot.asia",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Register",
+      "url": "https://checkpointspot.asia/events",
+      "type": "official_registration"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-20",
+  "status": "active"
+}

@@ -1,0 +1,70 @@
+{
+  "entity_id": "bromo-marathon-2026",
+  "slug": "bromo-marathon-2026",
+  "name": "Bromo Marathon 2026",
+  "category_id": "full-marathon",
+  "region_id": "indonesia",
+  "short_description": "Bromo Marathon 2026 takes place September 6, 2026 in Bromo, Jawa Timur, Indonesia.",
+  "ai_summary": "Bromo Marathon 2026 is a road running event in Bromo, Jawa Timur, Indonesia, featuring Full Marathon; Half Marathon; 10km; 5km; 2.5km. The race takes place on September 6, 2026, starting from Plataran Bromo, Jawa Timur. Registration is Not Yet Announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-09-06",
+    "distance_km": [
+      42.195,
+      21.1,
+      10.0,
+      5.0,
+      2.5
+    ],
+    "primary_distance_km": 42.195,
+    "registration_status": "Not Yet Announced",
+    "country": "Indonesia",
+    "venue": "Plataran Bromo, Jawa Timur",
+    "city": "Bromo, Jawa Timur"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 55,
+  "tags": [
+    "full-marathon",
+    "indonesia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.bromomarathon.com",
+      "label": "Official race website",
+      "type": "official",
+      "last_checked": "2026-07-23"
+    },
+    {
+      "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
+      "label": "kalenderlari.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-23"
+    },
+    {
+      "url": "https://kalenderlari.com/events/bromo-marathon-2026/",
+      "label": "kalenderlari.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-23"
+    },
+    {
+      "url": "https://tracedetrail.fr",
+      "label": "tracedetrail.fr",
+      "type": "aggregator",
+      "last_checked": "2026-07-23"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://www.bromomarathon.com",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-23",
+  "status": "active"
+}
