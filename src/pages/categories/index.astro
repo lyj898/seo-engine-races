@@ -1,0 +1,49 @@
+---
+import siteConfig from '../../lib/config.js';
+import { urls } from '../../lib/urls.js';
+import { loadEntities, loadCategories, stripMeta } from '../../lib/data.js';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import HubCard from '../../components/HubCard.astro';
+import { buildBreadcrumbListSchema } from '../../lib/schema-jsonld.js';
+
+const categories = loadCategories().map(stripMeta).filter((c) => c.status === 'active');
+const entities = loadEntities().map(stripMeta).filter((e) => e.status === 'active');
+
+const breadcrumbItems = [
+  { label: siteConfig.siteName, href: urls.home() },
+  { label: `All ${siteConfig.categoryLabel}s`, href: urls.categoriesIndex() },
+];
+
+const jsonLd = [buildBreadcrumbListSchema(breadcrumbItems, Astro.site)].filter(Boolean);
+---
+
+<BaseLayout
+  title={`All ${siteConfig.categoryLabel}s`}
+  description={`Every ${siteConfig.categoryLabel.toLowerCase()} covered by ${siteConfig.siteName}.`}
+  canonicalPath={urls.categoriesIndex()}
+  jsonLd={jsonLd}
+>
+  <div class="mx-auto max-w-6xl px-4 py-10 sm:px-6">
+    <Breadcrumb items={breadcrumbItems} />
+    <h1 class="mt-4 font-serif text-3xl font-semibold sm:text-4xl">All {siteConfig.categoryLabel}s</h1>
+    <p class="mt-3 max-w-2xl text-brand-muted dark:text-brand-muted-dark">
+      Browse every {siteConfig.entityLabelSingular} on {siteConfig.siteName} grouped by {siteConfig.categoryLabel.toLowerCase()}.
+    </p>
+
+    {categories.length > 0 ? (
+      <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {categories.map((category) => (
+          <HubCard
+            href={urls.category(category.slug)}
+            label={category.label}
+            description={category.short_description}
+            count={entities.filter((e) => e.category_id === category.category_id).length}
+          />
+        ))}
+      </div>
+    ) : (
+      <p class="mt-8 text-brand-muted dark:text-brand-muted-dark">No categories published yet.</p>
+    )}
+  </div>
+</BaseLayout>

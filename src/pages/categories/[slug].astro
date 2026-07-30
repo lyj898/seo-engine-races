@@ -1,0 +1,107 @@
+---
+import siteConfig from '../../lib/config.js';
+import { urls } from '../../lib/urls.js';
+import { loadEntities, loadCategories, loadRegions, stripMeta } from '../../lib/data.js';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import StatsSummary from '../../components/StatsSummary.astro';
+import FilterBar from '../../components/FilterBar.astro';
+import EntityCard from '../../components/EntityCard.astro';
+import HubCard from '../../components/HubCard.astro';
+import FAQSection from '../../components/FAQSection.astro';
+import { buildItemListSchema, buildFaqPageSchema, buildBreadcrumbListSchema } from '../../lib/schema-jsonld.js';
+
+export function getStaticPaths() {
+  const categories = loadCategories().map(stripMeta);
+  return categories.map((category) => ({
+    params: { slug: category.slug },
+    props: { category },
+  }));
+}
+
+const { category } = Astro.props;
+const allEntities = loadEntities().map(stripMeta).filter((e) => e.status === 'active');
+const allCategories = loadCategories().map(stripMeta);
+const allRegions = loadRegions().map(stripMeta);
+
+const entities = allEntities.filter((e) => e.category_id === category.category_id);
+
+const avgReliability = entities.length
+  ? Math.round(entities.reduce((sum, e) => sum + e.reliability_score, 0) / entities.length)
+  : 0;
+
+const stats = [
+  { label: `${siteConfig.entityLabelPlural}`, value: entities.length },
+  { label: `${siteConfig.regionLabel}s represented`, value: new Set(entities.map((e) => e.region_id)).size },
+  { label: 'Avg. reliability', value: entities.length ? `${avgReliability}/100` : '—' },
+];
+
+// Sideways links: this category's related_category_ids.
+const relatedCategories = allCategories.filter((c) => category.related_category_ids?.includes(c.category_id));
+
+// Filter chips: regions actually represented among this category's entities.
+const regionFilterOptions = allRegions
+  .filter((r) => entities.some((e) => e.region_id === r.region_id))
+  .map((r) => ({ label: r.label, value: r.region_id }));
+
+const breadcrumbItems = [
+  { label: siteConfig.siteName, href: urls.home() },
+  { label: `All ${siteConfig.categoryLabel}s`, href: urls.categoriesIndex() },
+  { label: category.label, href: urls.category(category.slug) },
+];
+
+const jsonLd = [
+  ...(siteConfig.enabledFeatures?.itemListSchema
+    ? [buildItemListSchema(entities, Astro.site, (e) => urls.entity(e.slug), (e) => e.name)]
+    : []),
+  ...(siteConfig.enabledFeatures?.faqSchema ? [buildFaqPageSchema(category.faqs)] : []),
+  buildBreadcrumbListSchema(breadcrumbItems, Astro.site),
+].filter(Boolean);
+---
+
+<BaseLayout
+  title={category.label}
+  description={category.short_description}
+  canonicalPath={urls.category(category.slug)}
+  jsonLd={jsonLd}
+>
+  <div class="mx-auto max-w-6xl px-4 py-10 sm:px-6">
+    <Breadcrumb items={breadcrumbItems} />
+    <h1 class="mt-4 font-serif text-3xl font-semibold sm:text-4xl">{category.label}</h1>
+    <div class="prose-content mt-4 max-w-2xl">
+      <p>{category.intro ?? category.short_description}</p>
+    </div>
+
+    <div class="mt-8">
+      <StatsSummary stats={stats} />
+    </div>
+
+    {entities.length > 0 ? (
+      <div class="mt-10">
+        {regionFilterOptions.length > 1 && <FilterBar options={regionFilterOptions} storageKey={`filter-category-${category.slug}`} />}
+        <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {entities.map((entity) => <EntityCard entity={entity} />)}
+        </div>
+      </div>
+    ) : (
+      <p class="mt-10 text-brand-muted dark:text-brand-muted-dark">
+        No {siteConfig.entityLabelPlural} published in this category yet -- check back soon.
+      </p>
+    )}
+
+    {relatedCategories.length > 0 && (
+      <section class="mt-14">
+        <h2 class="mb-4 text-xl font-semibold">Related {siteConfig.categoryLabel.toLowerCase()}s</h2>
+        <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {relatedCategories.map((c) => (
+            <HubCard href={urls.category(c.slug)} label={c.label} description={c.short_description} />
+          ))}
+        </div>
+      </section>
+    )}
+
+    <section class="mt-14">
+      <FAQSection faqs={category.faqs} heading={`${category.label} FAQs`} />
+    </section>
+  </div>
+</BaseLayout>
