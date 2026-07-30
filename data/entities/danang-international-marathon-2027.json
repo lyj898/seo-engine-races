@@ -9,9 +9,9 @@
   "core_facts": {
     "date": "2027-03-21",
     "distance_km": [
-      42.0,
-      21.0,
-      10.0
+      42,
+      21,
+      10
     ],
     "primary_distance_km": 42.195,
     "registration_status": "Opens 8 Jul 2026",
@@ -34,12 +34,6 @@
       "url": "https://rundanang.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-14"
-    },
-    {
-      "url": "https://AIMS World Running official calendar",
-      "label": "AIMS World Running official calendar",
-      "type": "aggregator",
       "last_checked": "2026-07-14"
     }
   ],

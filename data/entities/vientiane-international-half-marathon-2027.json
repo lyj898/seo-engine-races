@@ -9,7 +9,7 @@
   "core_facts": {
     "date": "2027-03-07",
     "distance_km": [
-      21.0
+      21
     ],
     "primary_distance_km": 21.1,
     "registration_status": "not_yet_announced",
@@ -33,12 +33,6 @@
       "url": "https://efglaos.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-16"
-    },
-    {
-      "url": "https://AIMS World Running calendar",
-      "label": "AIMS World Running calendar",
-      "type": "aggregator",
       "last_checked": "2026-07-16"
     },
     {

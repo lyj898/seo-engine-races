@@ -11,9 +11,9 @@
     "distance_km": [
       42.195,
       21.098,
-      10.0,
-      5.0,
-      2.0
+      10,
+      5,
+      2
     ],
     "primary_distance_km": 42.195,
     "registration_status": "Priority registration open for 2026 finishers",
@@ -36,12 +36,6 @@
       "url": "https://phuketmarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-14"
-    },
-    {
-      "url": "https://official Instagram ('Save the Date — 12 & 13 June 2027')",
-      "label": "official Instagram ('Save the Date — 12 & 13 June 2027')",
-      "type": "aggregator",
       "last_checked": "2026-07-14"
     }
   ],

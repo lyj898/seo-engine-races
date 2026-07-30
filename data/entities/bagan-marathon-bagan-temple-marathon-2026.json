@@ -11,7 +11,7 @@
     "distance_km": [
       42.195,
       21.1,
-      10.0
+      10
     ],
     "primary_distance_km": 42.195,
     "registration_status": "Open (via Google Form/Facebook)",
@@ -33,18 +33,6 @@
     {
       "url": "https://worldsmarathons.com",
       "label": "worldsmarathons.com",
-      "type": "aggregator",
-      "last_checked": "2026-07-20"
-    },
-    {
-      "url": "https://Facebook (Triathlon Myanmar",
-      "label": "Facebook (Triathlon Myanmar",
-      "type": "aggregator",
-      "last_checked": "2026-07-20"
-    },
-    {
-      "url": "https://'Save the date 8 Nov 2026 Bagan Marathon')",
-      "label": "'Save the date 8 Nov 2026 Bagan Marathon')",
       "type": "aggregator",
       "last_checked": "2026-07-20"
     }

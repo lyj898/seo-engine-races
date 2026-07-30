@@ -9,9 +9,9 @@
   "core_facts": {
     "date": "2026-12-06",
     "distance_km": [
-      21.0,
-      10.0,
-      5.0
+      21,
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
     "registration_status": "not_yet_announced",
@@ -34,12 +34,6 @@
       "url": "https://yomayangonmarathon.com/mandalay",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-23"
-    },
-    {
-      "url": "https://Facebook (2027 announcement video)",
-      "label": "Facebook (2027 announcement video)",
-      "type": "aggregator",
       "last_checked": "2026-07-23"
     }
   ],

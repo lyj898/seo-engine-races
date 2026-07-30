@@ -11,8 +11,8 @@
     "distance_km": [
       21.1,
       10.5,
-      5.0,
-      3.0
+      5,
+      3
     ],
     "primary_distance_km": 21.1,
     "registration_status": "not_yet_announced",
@@ -53,12 +53,6 @@
     {
       "url": "https://ahotu.com",
       "label": "ahotu.com",
-      "type": "aggregator",
-      "last_checked": "2026-07-16"
-    },
-    {
-      "url": "https://Facebook (Sihanoukville International Half Marathon page)",
-      "label": "Facebook (Sihanoukville International Half Marathon page)",
       "type": "aggregator",
       "last_checked": "2026-07-16"
     }

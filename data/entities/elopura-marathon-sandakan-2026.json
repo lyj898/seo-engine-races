@@ -11,7 +11,7 @@
     "distance_km": [
       42.195,
       21.1,
-      10.0
+      10
     ],
     "primary_distance_km": 42.195,
     "registration_status": "not_yet_announced",
@@ -45,20 +45,8 @@
       "last_checked": "2026-07-16"
     },
     {
-      "url": "https://Hello Sabah",
-      "label": "Hello Sabah",
-      "type": "aggregator",
-      "last_checked": "2026-07-16"
-    },
-    {
       "url": "https://ahotu.com",
       "label": "ahotu.com",
-      "type": "aggregator",
-      "last_checked": "2026-07-16"
-    },
-    {
-      "url": "https://Facebook (6.8K followers)",
-      "label": "Facebook (6.8K followers)",
       "type": "aggregator",
       "last_checked": "2026-07-16"
     }

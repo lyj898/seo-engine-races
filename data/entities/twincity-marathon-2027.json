@@ -11,8 +11,8 @@
     "distance_km": [
       42.195,
       21.098,
-      12.0,
-      5.0
+      12,
+      5
     ],
     "primary_distance_km": 42.195,
     "registration_status": "not_yet_announced",
@@ -33,12 +33,6 @@
     {
       "url": "https://aims-worldrunning.org/calendar.html",
       "label": "aims-worldrunning.org",
-      "type": "aggregator",
-      "last_checked": "2026-07-20"
-    },
-    {
-      "url": "https://Facebook (35.3K followers)",
-      "label": "Facebook (35.3K followers)",
       "type": "aggregator",
       "last_checked": "2026-07-20"
     },

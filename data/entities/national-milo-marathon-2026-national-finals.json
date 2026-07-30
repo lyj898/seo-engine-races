@@ -34,12 +34,6 @@
       "label": "Official race website",
       "type": "official",
       "last_checked": "2026-07-20"
-    },
-    {
-      "url": "https://raceroster.com (official Rules & Regs document)",
-      "label": "raceroster.com (official Rules & Regs document)",
-      "type": "aggregator",
-      "last_checked": "2026-07-20"
     }
   ],
   "affiliate_links": [],

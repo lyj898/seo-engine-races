@@ -11,8 +11,8 @@
     "distance_km": [
       42.195,
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 42.195,
     "registration_status": "not_yet_announced",
@@ -35,12 +35,6 @@
       "url": "https://photak42.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-16"
-    },
-    {
-      "url": "https://Facebook (organizer post)",
-      "label": "Facebook (organizer post)",
-      "type": "aggregator",
       "last_checked": "2026-07-16"
     }
   ],

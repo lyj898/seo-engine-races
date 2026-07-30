@@ -9,10 +9,10 @@
   "core_facts": {
     "date": "2026-12-06",
     "distance_km": [
-      42.0,
-      21.0,
-      10.0,
-      5.0
+      42,
+      21,
+      10,
+      5
     ],
     "primary_distance_km": 42.195,
     "registration_status": "not_yet_announced",
@@ -39,12 +39,6 @@
     {
       "url": "https://ahotu.com",
       "label": "ahotu.com",
-      "type": "aggregator",
-      "last_checked": "2026-07-20"
-    },
-    {
-      "url": "https://Facebook ('Vientiane International Marathon')",
-      "label": "Facebook ('Vientiane International Marathon')",
       "type": "aggregator",
       "last_checked": "2026-07-20"
     }

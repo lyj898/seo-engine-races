@@ -11,8 +11,8 @@
     "distance_km": [
       42.195,
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 42.195,
     "registration_status": "not_yet_announced",
@@ -53,12 +53,6 @@
     {
       "url": "https://worldsmarathons.com",
       "label": "worldsmarathons.com",
-      "type": "aggregator",
-      "last_checked": "2026-07-16"
-    },
-    {
-      "url": "https://Facebook (42.8K followers)",
-      "label": "Facebook (42.8K followers)",
       "type": "aggregator",
       "last_checked": "2026-07-16"
     }

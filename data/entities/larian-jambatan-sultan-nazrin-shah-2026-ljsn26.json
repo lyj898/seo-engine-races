@@ -9,9 +9,9 @@
   "core_facts": {
     "date": "2026-10-25",
     "distance_km": [
-      21.0,
-      10.0,
-      5.0
+      21,
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
     "registration_status": "not_yet_announced",
@@ -33,12 +33,6 @@
     {
       "url": "https://www.racexasia.com",
       "label": "racexasia.com",
-      "type": "aggregator",
-      "last_checked": "2026-07-16"
-    },
-    {
-      "url": "https://Race Roster",
-      "label": "Race Roster",
       "type": "aggregator",
       "last_checked": "2026-07-16"
     },
