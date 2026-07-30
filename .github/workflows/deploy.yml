@@ -42,7 +42,16 @@ jobs:
         run: npm install
 
       - name: Build
+        # PREVIEW_BASE_PATH: this instance is still being previewed at
+        # lyj898.github.io/seo-engine-races/ (runsea.run's DNS/CNAME hasn't
+        # been cut over yet -- see README). Astro needs the /seo-engine-races/
+        # prefix on every link/asset path or the preview 404s past the
+        # homepage. DELETE this env line (and astro.config.mjs's matching
+        # previewBase branch) once the domain is live, so production goes
+        # back to using no base path.
         run: npm run build
+        env:
+          PREVIEW_BASE_PATH: /seo-engine-races
 
       - name: Upload build output
         uses: actions/upload-pages-artifact@v3
