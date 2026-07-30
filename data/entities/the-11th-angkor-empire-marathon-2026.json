@@ -1,0 +1,55 @@
+{
+  "entity_id": "the-11th-angkor-empire-marathon-2026",
+  "slug": "the-11th-angkor-empire-marathon-2026",
+  "name": "The 11th Angkor Empire Marathon 2026",
+  "category_id": "full-marathon",
+  "region_id": "cambodia",
+  "short_description": "The 11th Angkor Empire Marathon 2026 takes place August 2, 2026 in Siem Reap, Cambodia.",
+  "ai_summary": "The 11th Angkor Empire Marathon 2026 is a road running event in Siem Reap, Cambodia, featuring Full Marathon. The race takes place on August 2, 2026, starting from In front of Angkor Wat Temple, Siem Reap. Registration is Not Yet Announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-08-02",
+    "distance_km": [
+      42.195
+    ],
+    "primary_distance_km": 42.195,
+    "registration_status": "Not Yet Announced",
+    "country": "Cambodia",
+    "venue": "In front of Angkor Wat Temple, Siem Reap",
+    "city": "Siem Reap"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 82,
+  "tags": [
+    "full-marathon",
+    "cambodia",
+    "verified"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.cambodia-events.org/kh/blog/angkor-empire-marathon",
+      "label": "Official race website",
+      "type": "official",
+      "last_checked": "2026-07-13"
+    },
+    {
+      "url": "https://checkpointspot.asia/events",
+      "label": "checkpointspot.asia",
+      "type": "aggregator",
+      "last_checked": "2026-07-13"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://www.cambodia-events.org/kh/blog/angkor-empire-marathon",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-13",
+  "status": "active"
+}

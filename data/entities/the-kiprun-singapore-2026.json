@@ -1,0 +1,57 @@
+{
+  "entity_id": "the-kiprun-singapore-2026",
+  "slug": "the-kiprun-singapore-2026",
+  "name": "The Kiprun Singapore 2026",
+  "category_id": "half-marathon",
+  "region_id": "singapore",
+  "short_description": "The Kiprun Singapore 2026 takes place September 27, 2026 in Singapore, Singapore.",
+  "ai_summary": "The Kiprun Singapore 2026 is a road running event in Singapore, Singapore, featuring 21.1KM Half Marathon; 10KM; 5KM; 670M Kids Dash. The race takes place on September 27, 2026, starting from Decathlon Singapore Lab, Kallang. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-09-27",
+    "distance_km": [
+      21.1,
+      10.0,
+      5.0
+    ],
+    "primary_distance_km": 21.1,
+    "registration_status": "Open",
+    "country": "Singapore",
+    "venue": "Decathlon Singapore Lab, Kallang",
+    "city": "Singapore",
+    "organizer": "MetaSport (presented by Decathlon Singapore)"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 65,
+  "tags": [
+    "half-marathon",
+    "singapore"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.justrunlah.com/race/the-kiprun-singapore-2026/",
+      "label": "justrunlah.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    },
+    {
+      "url": "https://in.metasport-events.com/the-kiprun-singapore-2026",
+      "label": "in.metasport-events.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Register",
+      "url": "https://in.metasport-events.com/the-kiprun-singapore-2026",
+      "type": "official_registration"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-20",
+  "status": "active"
+}

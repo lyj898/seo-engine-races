@@ -1,0 +1,52 @@
+{
+  "entity_id": "techcombank-hanoi-international-marathon-5th-ed-2026",
+  "slug": "techcombank-hanoi-international-marathon-5th-ed-2026",
+  "name": "Techcombank Hanoi International Marathon (5th ed.)",
+  "category_id": "full-marathon",
+  "region_id": "vietnam",
+  "short_description": "Techcombank Hanoi International Marathon (5th ed.) takes place October 4, 2026 in Hanoi, Vietnam.",
+  "ai_summary": "Techcombank Hanoi International Marathon (5th ed.) is a road running event in Hanoi, Vietnam, featuring Full Marathon; Half Marathon; 10km; 5km. The race takes place on October 4, 2026, starting from Hanoi (exact start point not stated). Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-10-04",
+    "distance_km": [
+      42.195,
+      21.1,
+      10.0,
+      5.0
+    ],
+    "primary_distance_km": 42.195,
+    "registration_status": "not_yet_announced",
+    "country": "Vietnam",
+    "venue": "Hanoi (exact start point not stated)",
+    "city": "Hanoi"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 85,
+  "tags": [
+    "full-marathon",
+    "vietnam",
+    "verified"
+  ],
+  "source_mix": [
+    {
+      "url": "https://marathonhn.com",
+      "label": "Official race website",
+      "type": "official",
+      "last_checked": "2026-07-16"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://marathonhn.com",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-16",
+  "status": "active"
+}

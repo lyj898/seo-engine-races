@@ -1,0 +1,58 @@
+{
+  "entity_id": "puma-philippine-half-marathon-series-2026-cebu",
+  "slug": "puma-philippine-half-marathon-series-2026-cebu",
+  "name": "PUMA Philippine Half Marathon Series 2026 - Cebu",
+  "category_id": "half-marathon",
+  "region_id": "philippines",
+  "short_description": "PUMA Philippine Half Marathon Series 2026 - Cebu takes place August 2, 2026 in Mandaue, Philippines.",
+  "ai_summary": "PUMA Philippine Half Marathon Series 2026 - Cebu is a road running event in Mandaue, Philippines, featuring Half Marathon (21KM), 10KM, 5KM. The race takes place on August 2, 2026, starting from Ayala Malls Gatewalk, Mandaue. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-08-02",
+    "distance_km": [
+      21.0,
+      10.0,
+      5.0
+    ],
+    "primary_distance_km": 21.1,
+    "registration_status": "not_yet_announced",
+    "country": "Philippines",
+    "venue": "Ayala Malls Gatewalk, Mandaue",
+    "city": "Mandaue",
+    "organizer": "Runrio (brand: PUMA Philippine Half Marathon Series)"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 80,
+  "tags": [
+    "half-marathon",
+    "philippines",
+    "verified"
+  ],
+  "source_mix": [
+    {
+      "url": "https://runrio.com",
+      "label": "Official race website",
+      "type": "official",
+      "last_checked": "2026-07-20"
+    },
+    {
+      "url": "https://runrio.com/race-calendar",
+      "label": "runrio.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://runrio.com",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-20",
+  "status": "active"
+}

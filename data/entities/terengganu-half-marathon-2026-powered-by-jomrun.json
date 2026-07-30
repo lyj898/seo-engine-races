@@ -1,0 +1,51 @@
+{
+  "entity_id": "terengganu-half-marathon-2026-powered-by-jomrun",
+  "slug": "terengganu-half-marathon-2026-powered-by-jomrun",
+  "name": "Terengganu Half Marathon 2026 Powered by JomRun®",
+  "category_id": "10k",
+  "region_id": "malaysia",
+  "short_description": "Terengganu Half Marathon 2026 Powered by JomRun® takes place October 31, 2026 in Kuala Terengganu, Malaysia.",
+  "ai_summary": "Terengganu Half Marathon 2026 Powered by JomRun® is a road running event in Kuala Terengganu, Malaysia, featuring 21.1KM Competitive Run; 10KM Fun Run; 5KM Fun Run. The race takes place on October 31, 2026, starting from Drawbridge, Kuala Terengganu. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-10-31",
+    "distance_km": [
+      21.1,
+      10.0,
+      5.0
+    ],
+    "primary_distance_km": 21.1,
+    "registration_status": "Open",
+    "country": "Malaysia",
+    "venue": "Drawbridge, Kuala Terengganu",
+    "city": "Kuala Terengganu",
+    "organizer": "JomRun"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 45,
+  "tags": [
+    "10k",
+    "malaysia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.jomrun.com/event/Terengganu-Half-Marathon-2026-powered-by-JomRun",
+      "label": "jomrun.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Register",
+      "url": "https://tinyurl.com/TerengganuHalfMarathon2026",
+      "type": "official_registration"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-20",
+  "status": "active"
+}

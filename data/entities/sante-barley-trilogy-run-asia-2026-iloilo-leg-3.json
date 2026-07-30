@@ -1,0 +1,59 @@
+{
+  "entity_id": "sante-barley-trilogy-run-asia-2026-iloilo-leg-3",
+  "slug": "sante-barley-trilogy-run-asia-2026-iloilo-leg-3",
+  "name": "Sante Barley Trilogy Run Asia 2026 – Iloilo Leg 3",
+  "category_id": "half-marathon",
+  "region_id": "philippines",
+  "short_description": "Sante Barley Trilogy Run Asia 2026 – Iloilo Leg 3 takes place August 23, 2026 in Iloilo City, Philippines.",
+  "ai_summary": "Sante Barley Trilogy Run Asia 2026 – Iloilo Leg 3 is a road running event in Iloilo City, Philippines, featuring 32KM, Half Marathon (21KM), 10KM, 5KM. The race takes place on August 23, 2026, starting from Atria Park District, Iloilo. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-08-23",
+    "distance_km": [
+      32.0,
+      21.0,
+      10.0,
+      5.0
+    ],
+    "primary_distance_km": 21.1,
+    "registration_status": "not_yet_announced",
+    "country": "Philippines",
+    "venue": "Atria Park District, Iloilo",
+    "city": "Iloilo City",
+    "organizer": "Runrio (brand: Sante Barley Trilogy Run Asia)"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 80,
+  "tags": [
+    "half-marathon",
+    "philippines",
+    "verified"
+  ],
+  "source_mix": [
+    {
+      "url": "https://runrio.com",
+      "label": "Official race website",
+      "type": "official",
+      "last_checked": "2026-07-20"
+    },
+    {
+      "url": "https://runrio.com/race-calendar",
+      "label": "runrio.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://runrio.com",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-20",
+  "status": "active"
+}

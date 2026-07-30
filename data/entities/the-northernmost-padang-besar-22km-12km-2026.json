@@ -1,0 +1,55 @@
+{
+  "entity_id": "the-northernmost-padang-besar-22km-12km-2026",
+  "slug": "the-northernmost-padang-besar-22km-12km-2026",
+  "name": "The Northernmost Padang Besar 22KM & 12KM 2026",
+  "category_id": "half-marathon",
+  "region_id": "malaysia",
+  "short_description": "The Northernmost Padang Besar 22KM & 12KM 2026 takes place August 8, 2026 in Padang Besar, Perlis, Malaysia.",
+  "ai_summary": "The Northernmost Padang Besar 22KM & 12KM 2026 is a road running event in Padang Besar, Perlis, Malaysia, featuring Half Marathon; 12km. The race takes place on August 8, 2026, starting from Padang Besar, Perlis. Registration is Closed as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-08-08",
+    "distance_km": [
+      21.1,
+      12.0
+    ],
+    "primary_distance_km": 21.1,
+    "registration_status": "Closed",
+    "country": "Malaysia",
+    "venue": "Padang Besar, Perlis",
+    "city": "Padang Besar, Perlis"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 52,
+  "tags": [
+    "half-marathon",
+    "malaysia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://checkpointspot.asia/events",
+      "label": "checkpointspot.asia",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    },
+    {
+      "url": "https://mep21-online.com",
+      "label": "mep21-online.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Register",
+      "url": "https://checkpointspot.asia/events",
+      "type": "official_registration"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-20",
+  "status": "active"
+}

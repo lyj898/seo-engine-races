@@ -1,0 +1,77 @@
+{
+  "entity_id": "sihanoukville-international-half-marathon-12th-edition-2027",
+  "slug": "sihanoukville-international-half-marathon-12th-edition-2027",
+  "name": "Sihanoukville International Half Marathon (12th edition)",
+  "category_id": "half-marathon",
+  "region_id": "cambodia",
+  "short_description": "Sihanoukville International Half Marathon (12th edition) takes place March 28, 2027 in Sihanoukville, Cambodia.",
+  "ai_summary": "Sihanoukville International Half Marathon (12th edition) is a road running event in Sihanoukville, Cambodia, featuring Half Marathon (21.1km); 10.5km; 5km; 3km. The race takes place on March 28, 2027, starting from Ochheuteal Beach, Sihanoukville. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2027-03-28",
+    "distance_km": [
+      21.1,
+      10.5,
+      5.0,
+      3.0
+    ],
+    "primary_distance_km": 21.1,
+    "registration_status": "not_yet_announced",
+    "country": "Cambodia",
+    "venue": "Ochheuteal Beach, Sihanoukville",
+    "city": "Sihanoukville",
+    "organizer": "Cambodia Events (same organizer as E19/E68/E91)"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 82,
+  "tags": [
+    "half-marathon",
+    "cambodia",
+    "verified"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.cambodia-events.org",
+      "label": "Official race website",
+      "type": "official",
+      "last_checked": "2026-07-16"
+    },
+    {
+      "url": "https://aims-worldrunning.org/calendar.html",
+      "label": "aims-worldrunning.org",
+      "type": "aggregator",
+      "last_checked": "2026-07-16"
+    },
+    {
+      "url": "https://worldsmarathons.com",
+      "label": "worldsmarathons.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-16"
+    },
+    {
+      "url": "https://ahotu.com",
+      "label": "ahotu.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-16"
+    },
+    {
+      "url": "https://Facebook (Sihanoukville International Half Marathon page)",
+      "label": "Facebook (Sihanoukville International Half Marathon page)",
+      "type": "aggregator",
+      "last_checked": "2026-07-16"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://www.cambodia-events.org",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-16",
+  "status": "active"
+}

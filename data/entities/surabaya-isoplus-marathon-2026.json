@@ -1,0 +1,64 @@
+{
+  "entity_id": "surabaya-isoplus-marathon-2026",
+  "slug": "surabaya-isoplus-marathon-2026",
+  "name": "Surabaya ISOPLUS Marathon 2026",
+  "category_id": "full-marathon",
+  "region_id": "indonesia",
+  "short_description": "Surabaya ISOPLUS Marathon 2026 takes place October 4, 2026 in Surabaya, Indonesia.",
+  "ai_summary": "Surabaya ISOPLUS Marathon 2026 is a road running event in Surabaya, Indonesia, featuring Full Marathon; Half Marathon; 10km; 5km. The race takes place on October 4, 2026, starting from Surabaya (exact venue not stated). Registration is Not Yet Announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-10-04",
+    "distance_km": [
+      42.195,
+      21.1,
+      10.0,
+      5.0
+    ],
+    "primary_distance_km": 42.195,
+    "registration_status": "Not Yet Announced",
+    "country": "Indonesia",
+    "venue": "Surabaya (exact venue not stated)",
+    "city": "Surabaya"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 82,
+  "tags": [
+    "full-marathon",
+    "indonesia",
+    "verified"
+  ],
+  "source_mix": [
+    {
+      "url": "https://isoplusrun.com",
+      "label": "Official race website",
+      "type": "official",
+      "last_checked": "2026-07-13"
+    },
+    {
+      "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
+      "label": "kalenderlari.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-13"
+    },
+    {
+      "url": "https://kalenderlari.com/events/surabaya-isoplus-marathon-2026/",
+      "label": "kalenderlari.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-13"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://isoplusrun.com",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-13",
+  "status": "active"
+}

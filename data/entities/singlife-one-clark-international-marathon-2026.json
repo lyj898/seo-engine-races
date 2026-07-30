@@ -1,0 +1,59 @@
+{
+  "entity_id": "singlife-one-clark-international-marathon-2026",
+  "slug": "singlife-one-clark-international-marathon-2026",
+  "name": "Singlife One Clark International Marathon",
+  "category_id": "full-marathon",
+  "region_id": "philippines",
+  "short_description": "Singlife One Clark International Marathon takes place September 20, 2026 in Clark Freeport, Pampanga, Philippines.",
+  "ai_summary": "Singlife One Clark International Marathon is a road running event in Clark Freeport, Pampanga, Philippines, featuring Full Marathon; Half Marathon; 10km; 5km. The race takes place on September 20, 2026, starting from Clark Parade Grounds. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-09-20",
+    "distance_km": [
+      42.195,
+      21.1,
+      10.0,
+      5.0
+    ],
+    "primary_distance_km": 42.195,
+    "registration_status": "Open",
+    "country": "Philippines",
+    "venue": "Clark Parade Grounds",
+    "city": "Clark Freeport, Pampanga",
+    "organizer": "RUNRIO Inc."
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 88,
+  "tags": [
+    "full-marathon",
+    "philippines",
+    "verified"
+  ],
+  "source_mix": [
+    {
+      "url": "https://runrio.com",
+      "label": "Official race website",
+      "type": "official",
+      "last_checked": "2026-07-13"
+    },
+    {
+      "url": "https://runrio.com/race-calendar/",
+      "label": "runrio.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-13"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://runrio.com",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-13",
+  "status": "active"
+}

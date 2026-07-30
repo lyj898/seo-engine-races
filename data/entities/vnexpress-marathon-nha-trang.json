@@ -1,0 +1,92 @@
+{
+  "entity_id": "vnexpress-marathon-nha-trang",
+  "slug": "vnexpress-marathon-nha-trang",
+  "name": "VnExpress Marathon Nha Trang",
+  "category_id": "full-marathon",
+  "region_id": "vietnam",
+  "short_description": "VnExpress Marathon Nha Trang is a verified Full/Half/10K/5K coastal marathon in Nha Trang, Vietnam, confirmed for 9 August 2026 with the highest confidence score in this directory.",
+  "ai_summary": "VnExpress Marathon Nha Trang 2026 is a coastal marathon in Nha Trang, Khanh Hoa, organized by VnExpress and FPT Online, confirmed for 9 August 2026. It offers Full Marathon, Half Marathon, 10km, and 5km distances, with registration open at 440,000 VND and a stated deadline of 30 July 2026. It carries the highest confidence score (93) of any race in this directory, verified directly against the official event website as of 13 July 2026.",
+  "core_facts": {
+    "date": "2026-08-09",
+    "distance_km": [
+      5,
+      10,
+      21.1,
+      42.195
+    ],
+    "primary_distance_km": 42.195,
+    "registration_status": "open",
+    "price_range": "VND 440,000",
+    "venue": "Nha Trang, Khanh Hoa",
+    "city": "Nha Trang",
+    "country": "Vietnam"
+  },
+  "pros": [
+    "Highest confidence score (93) of any race currently verified in this directory",
+    "Clear, published registration deadline gives entrants a concrete planning date rather than an open-ended window"
+  ],
+  "cons": [
+    "Stated registration deadline (30 July 2026) is close relative to this listing's verification date, so it may have already passed depending on when you're reading this",
+    "Verification relies on a single official source domain rather than multiple independent aggregators"
+  ],
+  "sentiment_scores": {
+    "overall": 88,
+    "breakdown": [
+      {
+        "label": "Source verification confidence",
+        "score": 93
+      },
+      {
+        "label": "Information completeness",
+        "score": 84
+      }
+    ]
+  },
+  "excerpt_quotes": [],
+  "faqs": [
+    {
+      "question": "When is the VnExpress Marathon Nha Trang, and when does registration close?",
+      "answer": "The race is confirmed for 9 August 2026 in Nha Trang, Khanh Hoa. Registration is open now at 440,000 VND per the official site, with a stated deadline of 30 July 2026 -- check the organizer's page directly if you're reading this after that date, since deadlines can be extended or entries can sell out."
+    },
+    {
+      "question": "Who organizes the VnExpress Marathon Nha Trang?",
+      "answer": "The race is organized by VnExpress, a major Vietnamese news outlet, together with FPT Online. This gives the event stronger operational backing than many independently-run races, reflected in its confidence score of 93, the highest of any race currently verified in this directory."
+    },
+    {
+      "question": "What distances does the VnExpress Marathon Nha Trang offer?",
+      "answer": "Four distances are available: a Full Marathon, a Half Marathon, a 10km, and a 5km, all starting in the coastal city of Nha Trang. This spread lets everything from first-time 5km runners to full-marathon veterans take part in the same race weekend."
+    }
+  ],
+  "reliability_score": 93,
+  "tags": [
+    "full-marathon",
+    "half-marathon",
+    "vietnam",
+    "verified-2026",
+    "coastal-course"
+  ],
+  "source_mix": [
+    {
+      "url": "https://vm.vnexpress.net/nha-trang-2026",
+      "label": "Official race website",
+      "type": "official",
+      "last_checked": "2026-07-13"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Register for VnExpress Marathon Nha Trang",
+      "url": "https://vm.vnexpress.net/nha-trang-2026/dang-ky-ca-nhan",
+      "type": "official_registration"
+    },
+    {
+      "label": "Visit official race website",
+      "url": "https://vm.vnexpress.net/nha-trang-2026",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-13",
+  "status": "archived"
+}

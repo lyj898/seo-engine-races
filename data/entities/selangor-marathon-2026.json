@@ -1,0 +1,50 @@
+{
+  "entity_id": "selangor-marathon-2026",
+  "slug": "selangor-marathon-2026",
+  "name": "Selangor Marathon 2026",
+  "category_id": "full-marathon",
+  "region_id": "malaysia",
+  "short_description": "Selangor Marathon 2026 takes place November 1, 2026 in Cyberjaya, Selangor, Malaysia.",
+  "ai_summary": "Selangor Marathon 2026 is a road running event in Cyberjaya, Selangor, Malaysia, featuring Full Marathon; Half Marathon. The race takes place on November 1, 2026, starting from Persiaran Flora, Cyberjaya, Selangor. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-11-01",
+    "distance_km": [
+      42.195,
+      21.1
+    ],
+    "primary_distance_km": 42.195,
+    "registration_status": "Open",
+    "country": "Malaysia",
+    "venue": "Persiaran Flora, Cyberjaya, Selangor",
+    "city": "Cyberjaya, Selangor",
+    "organizer": "Tourism Selangor (SELMAR 2026)"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 55,
+  "tags": [
+    "full-marathon",
+    "malaysia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://checkpointspot.asia/events",
+      "label": "checkpointspot.asia",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Register",
+      "url": "https://howei.com/event_details/selangormarathon2026",
+      "type": "official_registration"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-20",
+  "status": "active"
+}

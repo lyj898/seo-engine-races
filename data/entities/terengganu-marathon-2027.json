@@ -1,0 +1,56 @@
+{
+  "entity_id": "terengganu-marathon-2027",
+  "slug": "terengganu-marathon-2027",
+  "name": "Terengganu Marathon 2027",
+  "category_id": "full-marathon",
+  "region_id": "malaysia",
+  "short_description": "Terengganu Marathon 2027 takes place April 30, 2027 in Kuala Nerus, Terengganu, Malaysia.",
+  "ai_summary": "Terengganu Marathon 2027 is a road running event in Kuala Nerus, Terengganu, Malaysia, featuring Full Marathon; Half Marathon. The race takes place on April 30, 2027, starting from Kompleks Sukan Negeri Terengganu Gong Badak, Kuala Nerus, Terengganu. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2027-04-30",
+    "distance_km": [
+      42.195,
+      21.1
+    ],
+    "primary_distance_km": 42.195,
+    "registration_status": "Open",
+    "country": "Malaysia",
+    "venue": "Kompleks Sukan Negeri Terengganu Gong Badak, Kuala Nerus, Terengganu",
+    "city": "Kuala Nerus, Terengganu"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 82,
+  "tags": [
+    "full-marathon",
+    "malaysia",
+    "verified"
+  ],
+  "source_mix": [
+    {
+      "url": "https://terengganumarathon.com",
+      "label": "Official race website",
+      "type": "official",
+      "last_checked": "2026-07-13"
+    },
+    {
+      "url": "https://checkpointspot.asia/events",
+      "label": "checkpointspot.asia",
+      "type": "aggregator",
+      "last_checked": "2026-07-13"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://terengganumarathon.com",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-13",
+  "status": "active"
+}

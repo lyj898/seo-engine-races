@@ -1,0 +1,46 @@
+{
+  "entity_id": "vnexpress-marathon-hanoi-midnight-2026",
+  "slug": "vnexpress-marathon-hanoi-midnight-2026",
+  "name": "VnExpress Marathon Hanoi Midnight 2026",
+  "category_id": "full-marathon",
+  "region_id": "vietnam",
+  "short_description": "VnExpress Marathon Hanoi Midnight 2026 takes place November 29, 2026 in Hanoi, Vietnam.",
+  "ai_summary": "VnExpress Marathon Hanoi Midnight 2026 is a road running event in Hanoi, Vietnam, featuring Full Marathon (42K); Half Marathon (21K); 10K; 5K. The race takes place on November 29, 2026, starting from Tran Nhan Tong walking street area. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-11-29",
+    "distance_km": [
+      42.195,
+      21.1,
+      10.0,
+      5.0
+    ],
+    "primary_distance_km": 42.195,
+    "registration_status": "not_yet_announced",
+    "country": "Vietnam",
+    "venue": "Tran Nhan Tong walking street area",
+    "city": "Hanoi",
+    "organizer": "VnExpress / FPT Online"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 55,
+  "tags": [
+    "full-marathon",
+    "vietnam"
+  ],
+  "source_mix": [
+    {
+      "url": "https://e.vnexpress.net",
+      "label": "e.vnexpress.net",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-20",
+  "status": "active"
+}

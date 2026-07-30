@@ -1,0 +1,69 @@
+{
+  "entity_id": "twincity-marathon-2027",
+  "slug": "twincity-marathon-2027",
+  "name": "Twincity Marathon 2027",
+  "category_id": "full-marathon",
+  "region_id": "malaysia",
+  "short_description": "Twincity Marathon 2027 takes place January 24, 2027 in Cyberjaya, Sepang, Selangor, Malaysia.",
+  "ai_summary": "Twincity Marathon 2027 is a road running event in Cyberjaya, Sepang, Selangor, Malaysia, featuring Full Marathon (42.195km); Half Marathon (21.0975km); 12km; 5km. The race takes place on January 24, 2027, starting from Cyberjaya, Sepang, Selangor. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2027-01-24",
+    "distance_km": [
+      42.195,
+      21.098,
+      12.0,
+      5.0
+    ],
+    "primary_distance_km": 42.195,
+    "registration_status": "not_yet_announced",
+    "country": "Malaysia",
+    "venue": "Cyberjaya, Sepang, Selangor",
+    "city": "Cyberjaya, Sepang, Selangor"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 75,
+  "tags": [
+    "full-marathon",
+    "malaysia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://aims-worldrunning.org/calendar.html",
+      "label": "aims-worldrunning.org",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    },
+    {
+      "url": "https://Facebook (35.3K followers)",
+      "label": "Facebook (35.3K followers)",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    },
+    {
+      "url": "https://Finishers.com",
+      "label": "Finishers.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    },
+    {
+      "url": "https://running.coach",
+      "label": "running.coach",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    },
+    {
+      "url": "https://sub3-marathon.com",
+      "label": "sub3-marathon.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-20",
+  "status": "active"
+}

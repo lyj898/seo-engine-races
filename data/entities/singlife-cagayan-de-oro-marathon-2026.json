@@ -1,0 +1,59 @@
+{
+  "entity_id": "singlife-cagayan-de-oro-marathon-2026",
+  "slug": "singlife-cagayan-de-oro-marathon-2026",
+  "name": "Singlife Cagayan de Oro Marathon",
+  "category_id": "full-marathon",
+  "region_id": "philippines",
+  "short_description": "Singlife Cagayan de Oro Marathon takes place December 13, 2026 in Cagayan de Oro City, Philippines.",
+  "ai_summary": "Singlife Cagayan de Oro Marathon is a road running event in Cagayan de Oro City, Philippines, featuring Full Marathon; Half Marathon; 10km; 5km. The race takes place on December 13, 2026, starting from SM City CDO Uptown. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-12-13",
+    "distance_km": [
+      42.195,
+      21.1,
+      10.0,
+      5.0
+    ],
+    "primary_distance_km": 42.195,
+    "registration_status": "Open",
+    "country": "Philippines",
+    "venue": "SM City CDO Uptown",
+    "city": "Cagayan de Oro City",
+    "organizer": "RUNRIO Inc."
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 88,
+  "tags": [
+    "full-marathon",
+    "philippines",
+    "verified"
+  ],
+  "source_mix": [
+    {
+      "url": "https://runrio.com",
+      "label": "Official race website",
+      "type": "official",
+      "last_checked": "2026-07-13"
+    },
+    {
+      "url": "https://runrio.com/race-calendar/",
+      "label": "runrio.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-13"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://runrio.com",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-13",
+  "status": "active"
+}

@@ -1,0 +1,58 @@
+{
+  "entity_id": "puma-philippine-half-marathon-series-manila-leg-2026",
+  "slug": "puma-philippine-half-marathon-series-manila-leg-2026",
+  "name": "PUMA Philippine Half Marathon Series — Manila Leg",
+  "category_id": "half-marathon",
+  "region_id": "philippines",
+  "short_description": "PUMA Philippine Half Marathon Series — Manila Leg takes place October 11, 2026 in Pasay City, Philippines.",
+  "ai_summary": "PUMA Philippine Half Marathon Series — Manila Leg is a road running event in Pasay City, Philippines, featuring Half Marathon; 10km; 5km. The race takes place on October 11, 2026, starting from SM Mall of Asia Complex. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-10-11",
+    "distance_km": [
+      21.1,
+      10.0,
+      5.0
+    ],
+    "primary_distance_km": 21.1,
+    "registration_status": "Open",
+    "country": "Philippines",
+    "venue": "SM Mall of Asia Complex",
+    "city": "Pasay City",
+    "organizer": "RUNRIO Inc."
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 85,
+  "tags": [
+    "half-marathon",
+    "philippines",
+    "verified"
+  ],
+  "source_mix": [
+    {
+      "url": "https://runrio.com",
+      "label": "Official race website",
+      "type": "official",
+      "last_checked": "2026-07-13"
+    },
+    {
+      "url": "https://runrio.com/race-calendar/",
+      "label": "runrio.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-13"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://runrio.com",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-13",
+  "status": "active"
+}

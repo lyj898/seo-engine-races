@@ -1,0 +1,65 @@
+{
+  "entity_id": "run-for-freedom-bitcoin-thailand-half-marathon-2026",
+  "slug": "run-for-freedom-bitcoin-thailand-half-marathon-2026",
+  "name": "RUN FOR FREEDOM – Bitcoin Thailand Half Marathon",
+  "category_id": "half-marathon",
+  "region_id": "thailand",
+  "short_description": "RUN FOR FREEDOM – Bitcoin Thailand Half Marathon takes place November 22, 2026 in Chiang Mai, Thailand.",
+  "ai_summary": "RUN FOR FREEDOM – Bitcoin Thailand Half Marathon is a road running event in Chiang Mai, Thailand, featuring Half Marathon; 10km; 5km. The race takes place on November 22, 2026, starting from Rot Fai Park. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-11-22",
+    "distance_km": [
+      21.1,
+      10.0,
+      5.0
+    ],
+    "primary_distance_km": 21.1,
+    "registration_status": "Open",
+    "country": "Thailand",
+    "venue": "Rot Fai Park",
+    "city": "Chiang Mai",
+    "organizer": "Jog & Joy Co., Ltd.",
+    "price_range": "USD 15"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 80,
+  "tags": [
+    "half-marathon",
+    "thailand",
+    "verified"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.jogandjoy.com/en/runforfreedom-bitcoin-halfmarathon-2026-en",
+      "label": "Official race website",
+      "type": "official",
+      "last_checked": "2026-07-14"
+    },
+    {
+      "url": "https://www.chiangmaimarathon.com/",
+      "label": "chiangmaimarathon.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-14"
+    },
+    {
+      "url": "https://www.ahotu.com",
+      "label": "ahotu.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-14"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://www.jogandjoy.com/en/runforfreedom-bitcoin-halfmarathon-2026-en",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-14",
+  "status": "active"
+}

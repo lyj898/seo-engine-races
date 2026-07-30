@@ -1,0 +1,68 @@
+{
+  "entity_id": "thai-sikh-run-31st-ed-2027",
+  "slug": "thai-sikh-run-31st-ed-2027",
+  "name": "Thai Sikh Run (31st ed.)",
+  "category_id": "half-marathon",
+  "region_id": "thailand",
+  "short_description": "Thai Sikh Run (31st ed.) takes place January 31, 2027 in Bangkok, Thailand.",
+  "ai_summary": "Thai Sikh Run (31st ed.) is a road running event in Bangkok, Thailand, featuring Half Marathon (21.0975KM); 10K; Kids Run. The race takes place on January 31, 2027, starting from Old Siam Plaza area, Bangkok. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2027-01-31",
+    "distance_km": [
+      21.098,
+      10.0
+    ],
+    "primary_distance_km": 21.1,
+    "registration_status": "not_yet_announced",
+    "country": "Thailand",
+    "venue": "Old Siam Plaza area, Bangkok",
+    "city": "Bangkok",
+    "organizer": "Thai Sikh community organizing committee"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 70,
+  "tags": [
+    "half-marathon",
+    "thailand"
+  ],
+  "source_mix": [
+    {
+      "url": "https://aims-worldrunning.org/calendar.html",
+      "label": "aims-worldrunning.org",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    },
+    {
+      "url": "https://bangkokpost.com",
+      "label": "bangkokpost.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    },
+    {
+      "url": "https://sportplan.es",
+      "label": "sportplan.es",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    },
+    {
+      "url": "https://pacebuilder.run",
+      "label": "pacebuilder.run",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    },
+    {
+      "url": "https://runlah.com",
+      "label": "runlah.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-20",
+  "status": "active"
+}
