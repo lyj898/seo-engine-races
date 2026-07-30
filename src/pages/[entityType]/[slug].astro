@@ -1,0 +1,158 @@
+---
+// This route's own folder name, "[entityType]", is a dynamic Astro route
+// param, not a literal word -- getStaticPaths below is the ONLY place that
+// decides its actual value, and it always uses
+// site.config.json.entityLabelPlural (e.g. "races", "hotels"). This is how
+// entity URLs like /races/some-slug/ exist without this file (or any other
+// shared file) ever containing the literal word "race".
+import siteConfig from '../../lib/config.js';
+import { urls } from '../../lib/urls.js';
+import {
+  loadEntities,
+  loadCategories,
+  loadRegions,
+  loadListicles,
+  stripMeta,
+} from '../../lib/data.js';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import FactsTable from '../../components/FactsTable.astro';
+import ProsCons from '../../components/ProsCons.astro';
+import SentimentBreakdown from '../../components/SentimentBreakdown.astro';
+import ExcerptQuotes from '../../components/ExcerptQuotes.astro';
+import FAQSection from '../../components/FAQSection.astro';
+import CTABlock from '../../components/CTABlock.astro';
+import RelatedEntities from '../../components/RelatedEntities.astro';
+import RelatedListicles from '../../components/RelatedListicles.astro';
+import LastUpdated from '../../components/LastUpdated.astro';
+import Pill from '../../components/Pill.astro';
+import { buildEntitySchema, buildFaqPageSchema, buildBreadcrumbListSchema } from '../../lib/schema-jsonld.js';
+
+export function getStaticPaths() {
+  const entities = loadEntities().map(stripMeta);
+  return entities.map((entity) => ({
+    params: { entityType: siteConfig.entityLabelPlural, slug: entity.slug },
+    props: { entity },
+  }));
+}
+
+const { entity } = Astro.props;
+const categories = loadCategories().map(stripMeta);
+const regions = loadRegions().map(stripMeta);
+const allEntities = loadEntities().map(stripMeta).filter((e) => e.status === 'active');
+const listicles = loadListicles().map(stripMeta).filter((l) => l.status === 'active');
+
+const category = categories.find((c) => c.category_id === entity.category_id);
+const region = regions.find((r) => r.region_id === entity.region_id);
+
+const relatedEntities = allEntities.filter(
+  (e) => entity.related_entity_ids?.includes(e.entity_id) && e.entity_id !== entity.entity_id
+);
+
+// A listicle is "related" if it's explicitly pinned to this entity, or its
+// filter targets this entity's category -- covers both editorial pins and
+// filter-driven matches without hand-maintaining a link list per entity.
+const relatedListicles = listicles.filter(
+  (l) => l.manual_entity_ids?.includes(entity.entity_id) || l.filters?.category_id === entity.category_id
+);
+
+const breadcrumbItems = [
+  { label: siteConfig.siteName, href: urls.home() },
+  ...(region ? [{ label: region.label, href: urls.region(region.slug) }] : []),
+  { label: entity.name, href: urls.entity(entity.slug) },
+];
+
+const canonicalUrl = new URL(urls.entity(entity.slug), Astro.site).toString();
+
+// Built from the exact same `entity` / `breadcrumbItems` data already on
+// this page -- nothing gets defined twice for display vs. schema. Each
+// piece is gated by its own enabledFeatures flag so a vertical instance
+// can turn schema types on/off without touching this file.
+const jsonLd = [
+  buildEntitySchema(entity, siteConfig, canonicalUrl),
+  ...(siteConfig.enabledFeatures?.faqSchema ? [buildFaqPageSchema(entity.faqs)] : []),
+  buildBreadcrumbListSchema(breadcrumbItems, Astro.site),
+].filter(Boolean);
+---
+
+<BaseLayout
+  title={entity.name}
+  description={entity.short_description}
+  canonicalPath={urls.entity(entity.slug)}
+  jsonLd={jsonLd}
+>
+  <div class="mx-auto max-w-3xl px-4 py-10 sm:px-6">
+    <Breadcrumb items={breadcrumbItems} />
+
+    <h1 class="mt-4 font-serif text-3xl font-semibold sm:text-4xl">{entity.name}</h1>
+    <p class="mt-3 text-lg text-brand-muted dark:text-brand-muted-dark">{entity.short_description}</p>
+    <div class="mt-2">
+      <LastUpdated date={entity.last_updated} />
+    </div>
+
+    <div class="prose-content mt-8">
+      <p>{entity.ai_summary}</p>
+    </div>
+
+    <div class="mt-8">
+      <FactsTable facts={entity.core_facts} />
+    </div>
+
+    <div class="mt-8">
+      <ProsCons pros={entity.pros} cons={entity.cons} />
+    </div>
+
+    {entity.sentiment_scores && (
+      <section class="mt-8">
+        <h2 class="mb-4 text-xl font-semibold">Sentiment breakdown</h2>
+        <SentimentBreakdown sentiment={entity.sentiment_scores} />
+      </section>
+    )}
+
+    {entity.excerpt_quotes?.length > 0 && (
+      <section class="mt-8">
+        <h2 class="mb-4 text-xl font-semibold">What sources say</h2>
+        <ExcerptQuotes quotes={entity.excerpt_quotes} />
+      </section>
+    )}
+
+    {entity.tags?.length > 0 && (
+      <div class="mt-8 flex flex-wrap gap-1.5">
+        {entity.tags.map((tag) => <Pill>{tag}</Pill>)}
+      </div>
+    )}
+
+    <div class="mt-8">
+      <CTABlock
+        ctaLinks={entity.cta_links}
+        affiliateLinks={entity.affiliate_links}
+        heading={`Find out more about ${entity.name}`}
+      />
+    </div>
+
+    <div class="mt-10">
+      <FAQSection faqs={entity.faqs} />
+    </div>
+
+    <div class="mt-10">
+      <RelatedEntities entities={relatedEntities} heading={`Related ${siteConfig.entityLabelPlural}`} />
+    </div>
+
+    <div class="mt-10">
+      <RelatedListicles listicles={relatedListicles} />
+    </div>
+
+    <div class="mt-10 flex flex-wrap gap-4 text-sm">
+      {category && (
+        <a href={urls.category(category.slug)} class="link-accent">
+          More {category.label} {siteConfig.entityLabelPlural} →
+        </a>
+      )}
+      {region && (
+        <a href={urls.region(region.slug)} class="link-accent">
+          More {siteConfig.entityLabelPlural} in {region.label} →
+        </a>
+      )}
+    </div>
+  </div>
+</BaseLayout>
