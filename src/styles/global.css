@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Base font comes from the `font-sans` utility (config-driven via
+     tailwind.config.mjs -> site.config.json.theme.fonts.body) applied on
+     <body> in BaseLayout.astro -- not hardcoded here. */
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: theme('fontFamily.serif');
+    line-height: 1.05;
+    letter-spacing: -0.01em;
+    text-wrap: balance;
+  }
+  :focus-visible {
+    outline: 2px solid theme('colors.brand.primary');
+    outline-offset: 3px;
+    border-radius: theme('borderRadius.sm');
+  }
+  ::selection {
+    background: theme('colors.brand.primary');
+    color: theme('colors.brand.primary-ink');
+  }
+  /* Native <details> marker is replaced by FAQSection's own +/rotate indicator */
+  summary {
+    list-style: none;
+  }
+  summary::-webkit-details-marker {
+    display: none;
+  }
+}
+
+@layer components {
+  /* Toggled by FilterBar.astro's inline script -- matches the reference
+     design's segmented "chip-toggle" active state: filled primary bg with
+     ink text (never plain-colored primary text -- a bright/lime primary
+     reads poorly as text-on-background, so it's reserved for
+     backgrounds/accents, per the reference design system). */
+  .filter-chip.is-active {
+    @apply bg-brand-primary text-brand-primary-ink dark:text-brand-primary-ink-dark;
+  }
+  /* Standard "accent" link style used for CTA-ish inline links: full-
+     strength text color with a primary-colored underline, rather than
+     primary-colored text. */
+  .link-accent {
+    @apply font-semibold text-brand-text underline decoration-brand-primary decoration-2 underline-offset-2 transition-colors dark:text-brand-text-dark;
+  }
+  .link-accent:hover {
+    @apply decoration-brand-primary-hover dark:decoration-brand-primary-hover-dark;
+  }
+  /* Muted nav-style link: matches the reference's footer/index link
+     convention (muted by default, full text color + underline on hover). */
+  .link-muted {
+    @apply text-brand-muted transition-colors hover:text-brand-text hover:underline dark:text-brand-muted-dark dark:hover:text-brand-text-dark;
+  }
+  /* Long-form generated text (ai_summary, hub intros) */
+  .prose-content {
+    @apply max-w-none leading-relaxed text-brand-text dark:text-brand-text-dark;
+  }
+  .prose-content p + p {
+    @apply mt-4;
+  }
+}
