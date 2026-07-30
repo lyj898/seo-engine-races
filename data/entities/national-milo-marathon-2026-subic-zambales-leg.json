@@ -4,28 +4,52 @@
   "name": "National MILO Marathon 2026 – Subic (Zambales) Leg",
   "category_id": "half-marathon",
   "region_id": "philippines",
-  "short_description": "National MILO Marathon 2026 – Subic (Zambales) Leg takes place October 18, 2026 in Subic, Zambales, Philippines.",
-  "ai_summary": "National MILO Marathon 2026 – Subic (Zambales) Leg is a road running event in Subic, Zambales, Philippines, featuring 21K Half Marathon (provincial qualifier); 10K; 5K; 3K. The race takes place on October 18, 2026, starting from Subic, Zambales. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half-marathon event in Subic, Zambales, Philippines, held on October 18, 2026, with 21.1km, 10km, 5km, and 3km distance options.",
+  "ai_summary": "The National MILO Marathon 2026 – Subic (Zambales) Leg is a half-marathon event scheduled for October 18, 2026, in Subic, Zambales, Philippines. Organized by RUNRIO Inc., part of the long-running MILO Marathon series, the race offers four distance options: 21.1km, 10km, 5km, and 3km. Registration is currently open for participants interested in joining any of these distances.",
   "core_facts": {
     "date": "2026-10-18",
     "distance_km": [
       21.1,
-      10.0,
-      5.0,
-      3.0
+      10,
+      5,
+      3
     ],
     "primary_distance_km": 21.1,
+    "organizer": "RUNRIO Inc. (MILO Marathon)",
     "registration_status": "Open",
-    "country": "Philippines",
     "venue": "Subic, Zambales",
     "city": "Subic, Zambales",
-    "organizer": "RUNRIO Inc. (MILO Marathon)"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km, 3km) accommodate different fitness levels",
+    "Organized by RUNRIO Inc., known for the established MILO Marathon series",
+    "Registration is currently open, giving ample time to plan and sign up",
+    "Scenic Subic, Zambales location offers a distinct race venue"
+  ],
+  "cons": [
+    "No information provided on race fees, cut-off times, or course details"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 62,
+  "faqs": [
+    {
+      "question": "What distances can participants choose from?",
+      "answer": "Participants in the National MILO Marathon 2026 – Subic (Zambales) Leg can choose from four distance categories: a 21.1km half-marathon, a 10km run, a 5km run, and a shorter 3km run, catering to a range of runner experience levels and fitness goals."
+    },
+    {
+      "question": "Is registration currently open for this race?",
+      "answer": "Yes, registration for the National MILO Marathon 2026 – Subic (Zambales) Leg is currently open. Interested runners can sign up ahead of the event date of October 18, 2026, to secure their spot in one of the four available distance categories."
+    },
+    {
+      "question": "Who organizes this race?",
+      "answer": "This race is organized by RUNRIO Inc., the group behind the MILO Marathon series, a well-known nationwide running event in the Philippines. RUNRIO Inc. manages the logistics and coordination for this particular Subic, Zambales leg of the marathon series."
+    },
+    {
+      "question": "Where and when will the race take place?",
+      "answer": "The National MILO Marathon 2026 – Subic (Zambales) Leg will take place in Subic, Zambales, Philippines, on October 18, 2026. This venue serves as the host location for the various distance categories offered during this leg of the marathon series."
+    }
+  ],
+  "reliability_score": 57,
   "tags": [
     "half-marathon",
     "philippines"
@@ -35,7 +59,7 @@
       "url": "https://www.milo.com.ph/national-milo-marathon",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://pinoyfitness.com/2026/01/milo-marathon-2026-full-race-schedule-and-locations-unveiled",
@@ -65,6 +89,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

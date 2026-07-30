@@ -4,28 +4,51 @@
   "name": "Subic Bay Freeport Zone 32KM Challenge 2026",
   "category_id": "half-marathon",
   "region_id": "philippines",
-  "short_description": "Subic Bay Freeport Zone 32KM Challenge 2026 takes place August 16, 2026 in Subic Bay Freeport Zone / Olongapo, Philippines.",
-  "ai_summary": "Subic Bay Freeport Zone 32KM Challenge 2026 is a road running event in Subic Bay Freeport Zone / Olongapo, Philippines, featuring 32K; Half Marathon (21K); 10K; 5K. The race takes place on August 16, 2026, starting from Boardwalk, Subic. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A multi-distance road race in Subic Bay Freeport Zone, Philippines, featuring 32KM, 21.1KM, 10KM, and 5KM options on August 16, 2026.",
+  "ai_summary": "The Subic Bay Freeport Zone 32KM Challenge 2026 is a multi-distance road race organized by JCIR Events, scheduled for August 16, 2026. Runners can choose from 32KM, 21.1KM (half-marathon), 10KM, or 5KM distances, with the primary distance being the half-marathon. The race is based at the Boardwalk in Subic, within the Subic Bay Freeport Zone / Olongapo area of the Philippines. Registration details have not yet been announced.",
   "core_facts": {
     "date": "2026-08-16",
     "distance_km": [
-      32.0,
+      32,
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
+    "organizer": "JCIR Events",
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "Boardwalk, Subic",
     "city": "Subic Bay Freeport Zone / Olongapo",
-    "organizer": "JCIR Events"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (32KM, 21.1KM, 10KM, 5KM) suit a range of runner abilities",
+    "Scenic Boardwalk venue in Subic Bay Freeport Zone",
+    "Organized by an established event organizer, JCIR Events"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 40,
+  "faqs": [
+    {
+      "question": "When is the Subic Bay Freeport Zone 32KM Challenge 2026 taking place?",
+      "answer": "The race is scheduled for August 16, 2026. It is organized by JCIR Events and will be held at the Boardwalk in Subic, located within the Subic Bay Freeport Zone / Olongapo area of the Philippines, offering runners a full day of racing across multiple distances."
+    },
+    {
+      "question": "What distances are offered at this race?",
+      "answer": "The event offers four distance options for participants to choose from: 32KM, 21.1KM (half-marathon), 10KM, and 5KM. The 21.1KM half-marathon is considered the primary distance of the event, though runners of varying experience levels can select whichever distance best suits their goals."
+    },
+    {
+      "question": "Where does the race start and finish?",
+      "answer": "The race is based at the Boardwalk in Subic, situated within the Subic Bay Freeport Zone / Olongapo area of the Philippines. This venue serves as the central hub for the event across all four available distances offered on race day."
+    },
+    {
+      "question": "Is registration open for this race?",
+      "answer": "As of now, the registration status for the Subic Bay Freeport Zone 32KM Challenge 2026 has not yet been announced. Interested runners should keep checking for updates from the organizer, JCIR Events, regarding when sign-ups will open ahead of the August 16, 2026 race date."
+    }
+  ],
+  "reliability_score": 43,
   "tags": [
     "half-marathon",
     "philippines"
@@ -35,12 +58,12 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

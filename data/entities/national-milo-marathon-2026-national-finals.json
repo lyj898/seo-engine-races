@@ -4,8 +4,8 @@
   "name": "National MILO Marathon 2026 – National Finals",
   "category_id": "full-marathon",
   "region_id": "philippines",
-  "short_description": "National MILO Marathon 2026 – National Finals takes place December 6, 2026 in Clark City, Pampanga, Philippines.",
-  "ai_summary": "National MILO Marathon 2026 – National Finals is a road running event in Clark City, Pampanga, Philippines, featuring 21K Half Marathon; 42.195K Full Marathon. The race takes place on December 6, 2026, starting from Clark City, Pampanga. Registration is Not yet confirmed open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The National MILO Marathon 2026 – National Finals takes place on December 6, 2026 in Clark City, Pampanga, Philippines, featuring half and full marathon distances.",
+  "ai_summary": "The National MILO Marathon 2026 – National Finals is scheduled for December 6, 2026 in Clark City, Pampanga, Philippines. Organized by RUNRIO Inc. under the MILO Marathon banner, the event offers both a half marathon (21.1km) and a full marathon (42.195km), with the full marathon serving as the primary distance. Registration status for this edition has not yet been confirmed as open, so prospective participants should watch for further announcements.",
   "core_facts": {
     "date": "2026-12-06",
     "distance_km": [
@@ -13,17 +13,41 @@
       42.195
     ],
     "primary_distance_km": 42.195,
+    "organizer": "RUNRIO Inc. (MILO Marathon)",
     "registration_status": "Not yet confirmed open",
-    "country": "Philippines",
     "venue": "Clark City, Pampanga",
     "city": "Clark City, Pampanga",
-    "organizer": "RUNRIO Inc. (MILO Marathon)"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Offers a full marathon distance (42.195km) for serious distance runners",
+    "Also includes a half marathon (21.1km) option for those seeking a shorter race",
+    "Organized by RUNRIO Inc., the established organizer behind the long-running MILO Marathon series",
+    "Held at a dedicated venue in Clark City, Pampanga, a notable event location in the Philippines"
+  ],
+  "cons": [
+    "Registration status is not yet confirmed as open, so sign-up details are unavailable at this time"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 65,
+  "faqs": [
+    {
+      "question": "When is the National MILO Marathon 2026 – National Finals taking place?",
+      "answer": "The National MILO Marathon 2026 – National Finals is scheduled to take place on December 6, 2026. The event will be held in Clark City, Pampanga, in the Philippines, as the national finals stage of the MILO Marathon series organized by RUNRIO Inc."
+    },
+    {
+      "question": "What distances are offered at this race?",
+      "answer": "This race offers two distances for participants to choose from: a half marathon of 21.1 kilometers and a full marathon of 42.195 kilometers. The full marathon distance of 42.195 kilometers is considered the primary distance for this particular event edition."
+    },
+    {
+      "question": "Who organizes the National MILO Marathon 2026 – National Finals?",
+      "answer": "The National MILO Marathon 2026 – National Finals is organized by RUNRIO Inc., the organization behind the long-standing MILO Marathon series held across the Philippines. This particular edition represents the national finals stage, hosted in Clark City, Pampanga."
+    },
+    {
+      "question": "Is registration currently open for this race?",
+      "answer": "As of now, registration for the National MILO Marathon 2026 – National Finals has not yet been confirmed as open. Interested runners should check back for updates regarding when sign-ups will begin for this event in Clark City, Pampanga."
+    }
+  ],
+  "reliability_score": 60,
   "tags": [
     "full-marathon",
     "philippines"
@@ -33,7 +57,7 @@
       "url": "https://www.milo.com.ph/national-milo-marathon",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     }
   ],
   "affiliate_links": [],
@@ -45,6 +69,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

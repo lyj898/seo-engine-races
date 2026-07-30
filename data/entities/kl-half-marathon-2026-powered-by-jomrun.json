@@ -4,27 +4,51 @@
   "name": "KL Half Marathon 2026 Powered By JomRun®",
   "category_id": "10k",
   "region_id": "malaysia",
-  "short_description": "KL Half Marathon 2026 Powered By JomRun® takes place August 16, 2026 in Kuala Lumpur, Malaysia.",
-  "ai_summary": "KL Half Marathon 2026 Powered By JomRun® is a road running event in Kuala Lumpur, Malaysia, featuring 21.1KM Competitive & Non-Competitive Run (RFID-timed); 10KM Fun Run; 5KM Fun Run. The race takes place on August 16, 2026, starting from Padang Merbok, Kuala Lumpur (flag-off 03:30 AM). Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A Kuala Lumpur race organized by JomRun on August 16, 2026, offering 21.1km, 10km, and 5km distances starting at Padang Merbok.",
+  "ai_summary": "The KL Half Marathon 2026 Powered By JomRun® is set for August 16, 2026, at Padang Merbok, Kuala Lumpur, with a flag-off at 3:30 AM. Organized by JomRun, the event offers three distance options: 21.1km, 10km, and 5km, giving participants of varying experience levels a chance to take part. Registration for this Kuala Lumpur race is currently open.",
   "core_facts": {
     "date": "2026-08-16",
     "distance_km": [
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
+    "organizer": "JomRun",
     "registration_status": "Open",
-    "country": "Malaysia",
     "venue": "Padang Merbok, Kuala Lumpur (flag-off 03:30 AM)",
     "city": "Kuala Lumpur",
-    "organizer": "JomRun"
+    "country": "Malaysia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km) suit different fitness levels",
+    "Early flag-off time of 03:30 AM helps runners avoid daytime heat",
+    "Central Kuala Lumpur venue at Padang Merbok is an accessible location",
+    "Registration is currently open, giving ample time to prepare"
+  ],
+  "cons": [
+    "Very early 03:30 AM start time may be inconvenient for some participants"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 48,
+  "faqs": [
+    {
+      "question": "When is the KL Half Marathon 2026 Powered By JomRun® taking place?",
+      "answer": "The race is scheduled for August 16, 2026, and will be held at Padang Merbok in Kuala Lumpur, Malaysia. Participants should note the flag-off time is set for early morning at 03:30 AM, so plan travel and arrival accordingly to ensure a smooth start."
+    },
+    {
+      "question": "What distances can participants choose from at this event?",
+      "answer": "Runners can select from three distance categories at this event: a 21.1km half marathon, a 10km race, and a 5km race. This range of options, organized by JomRun, allows both seasoned distance runners and newer participants to find a suitable challenge on race day."
+    },
+    {
+      "question": "Where exactly is the race held and what time does it start?",
+      "answer": "The event takes place at Padang Merbok in Kuala Lumpur, Malaysia. The flag-off is scheduled for 03:30 AM, meaning participants will begin the race very early in the morning before sunrise, which is typical for road races in warmer climates."
+    },
+    {
+      "question": "Is registration open for the KL Half Marathon 2026?",
+      "answer": "Yes, registration for the KL Half Marathon 2026 Powered By JomRun® is currently open. Interested runners across the 21.1km, 10km, and 5km categories can sign up ahead of the August 16, 2026 event date at Padang Merbok, Kuala Lumpur."
+    }
+  ],
+  "reliability_score": 51,
   "tags": [
     "10k",
     "malaysia"
@@ -34,7 +58,7 @@
       "url": "https://www.jomrun.com/event/KL-Half-Marathon-2026-Powered-By-JomRun",
       "label": "jomrun.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://www.jomrun.com/event/Malaysia-Negaraku-Run-powered-by-JomRun-Kuala-Lumpur",
@@ -52,6 +76,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

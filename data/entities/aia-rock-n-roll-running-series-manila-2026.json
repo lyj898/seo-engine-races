@@ -4,28 +4,50 @@
   "name": "AIA Rock 'n' Roll Running Series Manila 2026",
   "category_id": "full-marathon",
   "region_id": "philippines",
-  "short_description": "AIA Rock 'n' Roll Running Series Manila 2026 takes place November 29, 2026 in Manila, Philippines.",
-  "ai_summary": "AIA Rock 'n' Roll Running Series Manila 2026 is a road running event in Manila, Philippines, featuring Full Marathon (42K); Half Marathon (21K); 10K; 5K; Kids. The race takes place on November 29, 2026, starting from Luneta / Rizal Park (night run; course past National Museum, Fort Santiago, Binondo, Manila Bay). Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A night-run event in Manila, Philippines on November 29, 2026, offering full marathon, half marathon, 10km, and 5km distances.",
+  "ai_summary": "The AIA Rock 'n' Roll Running Series Manila 2026 is a night marathon event held on November 29, 2026, in Manila, Philippines. Organized by Sunrise Events (part of the IRONMAN Group) with AIA Philippines as title sponsor, the race offers four distances: full marathon (42.195km), half marathon (21.1km), 10km, and 5km. The course starts at Luneta/Rizal Park and passes landmarks including the National Museum, Fort Santiago, Binondo, and Manila Bay. Registration is currently open.",
   "core_facts": {
     "date": "2026-11-29",
     "distance_km": [
       42.195,
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 42.195,
+    "organizer": "Sunrise Events (IRONMAN Group); title sponsor AIA Philippines",
     "registration_status": "Open",
-    "country": "Philippines",
     "venue": "Luneta / Rizal Park (night run; course past National Museum, Fort Santiago, Binondo, Manila Bay)",
     "city": "Manila",
-    "organizer": "Sunrise Events (IRONMAN Group); title sponsor AIA Philippines"
+    "country": "Philippines"
   },
-  "pros": [],
+  "pros": [
+    "Multiple distance options (42.195km, 21.1km, 10km, 5km) suit a range of runner levels",
+    "Night run format through scenic Manila landmarks including Fort Santiago and Manila Bay",
+    "Organized by Sunrise Events under the established IRONMAN Group banner",
+    "Registration is currently open"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 85,
+  "faqs": [
+    {
+      "question": "When does the AIA Rock 'n' Roll Running Series Manila 2026 take place?",
+      "answer": "The AIA Rock 'n' Roll Running Series Manila 2026 is scheduled for November 29, 2026. It is held as a night run, taking participants through central Manila starting from Luneta/Rizal Park. Registration for the event is currently open for those interested in participating in any of the offered distances."
+    },
+    {
+      "question": "What distances are offered at this event?",
+      "answer": "The event offers four distance options to accommodate different runner abilities: a full marathon of 42.195km, a half marathon of 21.1km, a 10km race, and a 5km race. This range allows both competitive marathoners and casual runners or first-timers to participate in the same event."
+    },
+    {
+      "question": "Who organizes the AIA Rock 'n' Roll Running Series Manila 2026?",
+      "answer": "The race is organized by Sunrise Events, which operates under the IRONMAN Group, a recognized name in endurance sports event management. AIA Philippines serves as the title sponsor of the race, lending its name to the event as part of the broader Rock 'n' Roll Running Series."
+    },
+    {
+      "question": "Where does the race course run through?",
+      "answer": "The course begins at Luneta/Rizal Park in Manila and takes runners past several notable landmarks, including the National Museum, Fort Santiago, and the Binondo district, before reaching Manila Bay. Since it is a night run, participants will experience these historic sites illuminated after dark."
+    }
+  ],
+  "reliability_score": 88,
   "tags": [
     "full-marathon",
     "philippines",
@@ -36,7 +58,7 @@
       "url": "https://www.runrocknroll.com/events/manila",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://www.pinoyfitness.com/list-of-events/",
@@ -54,6 +76,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

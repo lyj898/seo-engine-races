@@ -4,28 +4,51 @@
   "name": "Clark Phil-Kor Half Marathon 2026",
   "category_id": "half-marathon",
   "region_id": "philippines",
-  "short_description": "Clark Phil-Kor Half Marathon 2026 takes place November 22, 2026 in Angeles City / Clark, Pampanga, Philippines.",
-  "ai_summary": "Clark Phil-Kor Half Marathon 2026 is a road running event in Angeles City / Clark, Pampanga, Philippines, featuring Half Marathon (21K); 10K; 5K; 3K. The race takes place on November 22, 2026, starting from Clark Parade Grounds. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The Clark Phil-Kor Half Marathon 2026 is a multi-distance road race held November 22, 2026 at Clark Parade Grounds, Pampanga, Philippines.",
+  "ai_summary": "The Clark Phil-Kor Half Marathon 2026 is set for November 22, 2026, at the Clark Parade Grounds in Angeles City/Clark, Pampanga, Philippines. Organized by SMOKE10 Events, the race offers four distance options: 21.1km, 10km, 5km, and 3km, allowing participants of varying experience levels to take part. Registration for this event is currently open, giving prospective runners time to plan their training and travel accordingly.",
   "core_facts": {
     "date": "2026-11-22",
     "distance_km": [
       21.1,
-      10.0,
-      5.0,
-      3.0
+      10,
+      5,
+      3
     ],
     "primary_distance_km": 21.1,
+    "organizer": "SMOKE10 Events",
     "registration_status": "Open",
-    "country": "Philippines",
     "venue": "Clark Parade Grounds",
     "city": "Angeles City / Clark, Pampanga",
-    "organizer": "SMOKE10 Events"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km, 3km) suit a range of runner abilities",
+    "Registration is currently open, giving ample time to plan and train",
+    "Held at Clark Parade Grounds, a notable venue in Angeles City/Clark, Pampanga"
+  ],
+  "cons": [
+    "No information is available about race-day logistics, pricing, or amenities"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 55,
+  "faqs": [
+    {
+      "question": "When is the Clark Phil-Kor Half Marathon 2026?",
+      "answer": "The Clark Phil-Kor Half Marathon 2026 is scheduled to take place on November 22, 2026. The event will be held at the Clark Parade Grounds, located in Angeles City/Clark, Pampanga, Philippines, making it accessible for both local and traveling participants planning ahead for race day."
+    },
+    {
+      "question": "What distances are offered at this event?",
+      "answer": "This event offers four distance categories for runners to choose from: 21.1km (half marathon), 10km, 5km, and 3km. The primary distance for the race is the 21.1km half marathon, while the shorter distances provide options for participants of different fitness levels and experience."
+    },
+    {
+      "question": "Who organizes the Clark Phil-Kor Half Marathon 2026?",
+      "answer": "The Clark Phil-Kor Half Marathon 2026 is organized by SMOKE10 Events. The race takes place at the Clark Parade Grounds in Angeles City/Clark, Pampanga, Philippines, on November 22, 2026, featuring multiple distance categories for participants."
+    },
+    {
+      "question": "Is registration currently open for this race?",
+      "answer": "Yes, registration for the Clark Phil-Kor Half Marathon 2026 is currently open. Interested runners can sign up for one of the four available distances—21.1km, 10km, 5km, or 3km—ahead of the race date of November 22, 2026."
+    }
+  ],
+  "reliability_score": 50,
   "tags": [
     "half-marathon",
     "philippines"
@@ -35,7 +58,7 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     }
   ],
   "affiliate_links": [],
@@ -47,6 +70,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

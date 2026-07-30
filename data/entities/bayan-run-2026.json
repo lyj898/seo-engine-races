@@ -4,25 +4,50 @@
   "name": "Bayan Run 2026",
   "category_id": "half-marathon",
   "region_id": "indonesia",
-  "short_description": "Bayan Run 2026 takes place October 11, 2026 in Balikpapan, Kalimantan Timur, Indonesia.",
-  "ai_summary": "Bayan Run 2026 is a road running event in Balikpapan, Kalimantan Timur, Indonesia, featuring Half Marathon; 10km; 5km. The race takes place on October 11, 2026, starting from Lapangan Merdeka 3, Balikpapan, Kalimantan Timur. Registration is Not Yet Announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "Bayan Run 2026 is a half-marathon and multi-distance race held on October 11, 2026, in Balikpapan, Indonesia.",
+  "ai_summary": "Bayan Run 2026 is a half-marathon event scheduled for October 11, 2026, in Balikpapan, Kalimantan Timur, Indonesia. Runners can choose from five distances: 21.1km, 10km, 5km, 2.5km, and 0.8km. The event takes place across two venues, Lapangan Merdeka 3 and BSCC Dome, both in Balikpapan. Registration has not yet been announced.",
   "core_facts": {
     "date": "2026-10-11",
     "distance_km": [
       21.1,
-      10.0,
-      5.0
+      10,
+      5,
+      2.5,
+      0.8
     ],
     "primary_distance_km": 21.1,
     "registration_status": "Not Yet Announced",
-    "country": "Indonesia",
-    "venue": "Lapangan Merdeka 3, Balikpapan, Kalimantan Timur",
-    "city": "Balikpapan, Kalimantan Timur"
+    "venue": "Lapangan Merdeka 3, Balikpapan | BSCC Dome, Balikpapan",
+    "city": "Balikpapan, Kalimantan Timur",
+    "country": "Indonesia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Offers five distance options (21.1km, 10km, 5km, 2.5km, 0.8km) suitable for a range of runners",
+    "Held across two named venues in Balikpapan, Kalimantan Timur",
+    "Clear, confirmed event date of October 11, 2026"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so entry details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is Bayan Run 2026 taking place?",
+      "answer": "Bayan Run 2026 is scheduled to take place on October 11, 2026. The event will be held in Balikpapan, located in Kalimantan Timur, Indonesia, across two venues: Lapangan Merdeka 3 and the BSCC Dome, both within the city."
+    },
+    {
+      "question": "What distances are offered at Bayan Run 2026?",
+      "answer": "Bayan Run 2026 offers five distance categories for participants to choose from: a 21.1km half-marathon, a 10km race, a 5km race, a shorter 2.5km option, and a 0.8km distance, catering to a variety of runner experience levels and preferences."
+    },
+    {
+      "question": "Can I register for Bayan Run 2026 now?",
+      "answer": "According to the available information, the registration status for Bayan Run 2026 is currently listed as 'Not Yet Announced.' This means specific registration dates, fees, and sign-up procedures have not been released yet for prospective participants."
+    },
+    {
+      "question": "Where is Bayan Run 2026 held?",
+      "answer": "Bayan Run 2026 is held in the city of Balikpapan, located in the Kalimantan Timur province of Indonesia. The event uses two venues specifically, Lapangan Merdeka 3 and the BSCC Dome, both situated within Balikpapan."
+    }
+  ],
   "reliability_score": 82,
   "tags": [
     "half-marathon",
@@ -34,7 +59,7 @@
       "url": "https://bayanrun.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-13"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
@@ -58,6 +83,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-13",
-  "status": "active"
+  "last_updated": "2026-07-30",
+  "status": "needs_review"
 }

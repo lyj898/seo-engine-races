@@ -4,8 +4,8 @@
   "name": "Pahang Marathon 2026",
   "category_id": "full-marathon",
   "region_id": "malaysia",
-  "short_description": "Pahang Marathon 2026 takes place September 6, 2026 in Kuantan, Pahang, Malaysia.",
-  "ai_summary": "Pahang Marathon 2026 is a road running event in Kuantan, Pahang, Malaysia, featuring Full Marathon; Half Marathon. The race takes place on September 6, 2026, starting from Dataran Sayangi Kuantan, Pahang. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "Pahang Marathon 2026 is a full and half marathon taking place on September 6, 2026, in Kuantan, Pahang, Malaysia.",
+  "ai_summary": "Pahang Marathon 2026 is a full marathon and half marathon event scheduled for September 6, 2026, in Kuantan, Pahang, Malaysia. It will be held at Dataran Sayangi Kuantan and is organized by Persatuan Orang Muda Pahang KL (POMPKL) and Kita Pelari Malaysia, together with Pure Events. Registration is currently open for runners interested in the 42.195km or 21.1km distances.",
   "core_facts": {
     "date": "2026-09-06",
     "distance_km": [
@@ -13,17 +13,39 @@
       21.1
     ],
     "primary_distance_km": 42.195,
+    "organizer": "Persatuan Orang Muda Pahang KL (POMPKL) & Kita Pelari Malaysia, with Pure Events",
     "registration_status": "Open",
-    "country": "Malaysia",
     "venue": "Dataran Sayangi Kuantan, Pahang",
     "city": "Kuantan, Pahang",
-    "organizer": "Persatuan Orang Muda Pahang KL (POMPKL) & Kita Pelari Malaysia, with Pure Events"
+    "country": "Malaysia"
   },
-  "pros": [],
+  "pros": [
+    "Offers both full marathon (42.195km) and half marathon (21.1km) distance options",
+    "Registration is currently open, giving runners time to plan and prepare",
+    "Takes place at a named, central venue, Dataran Sayangi Kuantan",
+    "Backed by multiple organizing bodies, including POMPKL, Kita Pelari Malaysia, and Pure Events"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 55,
+  "faqs": [
+    {
+      "question": "When is the Pahang Marathon 2026?",
+      "answer": "The Pahang Marathon 2026 is scheduled to take place on September 6, 2026. The event will be held in Kuantan, Pahang, Malaysia, at the Dataran Sayangi Kuantan venue, giving runners a specific date to plan their travel and race preparation around well in advance."
+    },
+    {
+      "question": "What distances are offered at Pahang Marathon 2026?",
+      "answer": "Pahang Marathon 2026 offers two distance options for participants: a full marathon of 42.195km and a half marathon of 21.1km. The full marathon is listed as the primary distance of the event, giving runners a choice depending on their experience and training level."
+    },
+    {
+      "question": "Who organizes the Pahang Marathon 2026?",
+      "answer": "The Pahang Marathon 2026 is organized by Persatuan Orang Muda Pahang KL (POMPKL) and Kita Pelari Malaysia, working together with Pure Events. This combination of organizing groups is responsible for coordinating the event, which will be staged at Dataran Sayangi Kuantan in Pahang, Malaysia."
+    },
+    {
+      "question": "Is registration open for Pahang Marathon 2026?",
+      "answer": "Yes, registration for Pahang Marathon 2026 is currently open. Runners interested in either the full marathon (42.195km) or half marathon (21.1km) distances can sign up now ahead of the race day on September 6, 2026, at Dataran Sayangi Kuantan, Pahang, Malaysia."
+    }
+  ],
+  "reliability_score": 40,
   "tags": [
     "full-marathon",
     "malaysia"
@@ -45,6 +67,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
-  "status": "active"
+  "last_updated": "2026-07-30",
+  "status": "needs_review"
 }

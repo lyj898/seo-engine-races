@@ -4,26 +4,49 @@
   "name": "BMW Brunei International Half Marathon (BIHM) 2026",
   "category_id": "half-marathon",
   "region_id": "brunei",
-  "short_description": "BMW Brunei International Half Marathon (BIHM) 2026 takes place December 6, 2026 in Bandar Seri Begawan, Brunei.",
-  "ai_summary": "BMW Brunei International Half Marathon (BIHM) 2026 is a road running event in Bandar Seri Begawan, Brunei, featuring Half Marathon (21.0975km); 10km. The race takes place on December 6, 2026, starting from Berakas, Bandar Seri Begawan. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The BMW Brunei International Half Marathon (BIHM) 2026 is a half marathon and 10km race held on December 6, 2026, in Bandar Seri Begawan, Brunei.",
+  "ai_summary": "The BMW Brunei International Half Marathon (BIHM) 2026 is a road race set for December 6, 2026, in Berakas, Bandar Seri Begawan, Brunei. Runners can choose between a 21.1km half marathon or a 10km distance. Organized by AKIF Media Marketing & Event, registration is currently open with prices reportedly ranging from BND ~$60-70.",
   "core_facts": {
     "date": "2026-12-06",
     "distance_km": [
       21.098,
-      10.0
+      10
     ],
     "primary_distance_km": 21.1,
+    "organizer": "AKIF Media Marketing & Event",
     "registration_status": "Open",
-    "country": "Brunei",
+    "price_range": "BND ~$60-70 (per endorphinsrunning.com)",
     "venue": "Berakas, Bandar Seri Begawan",
     "city": "Bandar Seri Begawan",
-    "organizer": "AKIF Media Marketing & Event",
-    "price_range": "BND ~$60-70 (per endorphinsrunning.com)"
+    "country": "Brunei"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Offers a choice of two distances: 21.1km half marathon and 10km",
+    "Registration is currently open",
+    "Held in a notable urban venue, Berakas, Bandar Seri Begawan"
+  ],
+  "cons": [
+    "Pricing information is based on a third-party source (endorphinsrunning.com) rather than official confirmation"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the BMW Brunei International Half Marathon (BIHM) 2026 taking place?",
+      "answer": "The BMW Brunei International Half Marathon (BIHM) 2026 is scheduled to take place on December 6, 2026. The event will be held in Berakas, located in Bandar Seri Begawan, Brunei, and is organized by AKIF Media Marketing & Event, with registration currently open for participants."
+    },
+    {
+      "question": "What distances can I run in this race?",
+      "answer": "Participants in the BMW Brunei International Half Marathon (BIHM) 2026 can choose between two distances: a 21.1km half marathon, which is the primary distance for the event, or a shorter 10km race, giving runners of different experience levels an option to participate."
+    },
+    {
+      "question": "Who organizes the BMW Brunei International Half Marathon?",
+      "answer": "The BMW Brunei International Half Marathon (BIHM) 2026 is organized by AKIF Media Marketing & Event. The race takes place in Berakas, Bandar Seri Begawan, Brunei, and registration for the 2026 edition, scheduled for December 6, is currently open to interested runners."
+    },
+    {
+      "question": "How much does it cost to register?",
+      "answer": "According to endorphinsrunning.com, registration for the BMW Brunei International Half Marathon (BIHM) 2026 is priced in the range of approximately BND $60-70. This pricing information comes from a third-party source rather than an official race listing, so it should be treated as an estimate."
+    }
+  ],
   "reliability_score": 82,
   "tags": [
     "half-marathon",
@@ -35,7 +58,7 @@
       "url": "https://www.bruneimarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-16"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://aims-worldrunning.org/calendar.html",
@@ -71,6 +94,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-16",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

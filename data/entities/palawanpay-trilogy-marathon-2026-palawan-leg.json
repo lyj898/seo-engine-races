@@ -4,29 +4,52 @@
   "name": "PalawanPay Trilogy Marathon 2026 – Palawan Leg",
   "category_id": "full-marathon",
   "region_id": "philippines",
-  "short_description": "PalawanPay Trilogy Marathon 2026 – Palawan Leg takes place October 18, 2026 in Puerto Princesa City, Palawan, Philippines.",
-  "ai_summary": "PalawanPay Trilogy Marathon 2026 – Palawan Leg is a road running event in Puerto Princesa City, Palawan, Philippines, featuring Full Marathon (42K); Half Marathon (21K); 16K; 10K; 5K. The race takes place on October 18, 2026, starting from Puerto Princesa City. Registration is Not yet confirmed open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A full-marathon event in Puerto Princesa City, Palawan, Philippines, held on October 18, 2026, offering five distance categories.",
+  "ai_summary": "The PalawanPay Trilogy Marathon 2026 – Palawan Leg is a full-marathon event scheduled for October 18, 2026, in Puerto Princesa City, Palawan, Philippines. Organized by RUNRIO Inc. with PalawanPay as title sponsor, the race offers five distance options: 42.195 km, 21.1 km, 16 km, 10 km, and 5 km. Registration has not yet been confirmed as open, so prospective participants should check back for updates before making travel plans.",
   "core_facts": {
     "date": "2026-10-18",
     "distance_km": [
       42.195,
       21.1,
-      16.0,
-      10.0,
-      5.0
+      16,
+      10,
+      5
     ],
     "primary_distance_km": 42.195,
+    "organizer": "RUNRIO Inc. (title sponsor: PalawanPay)",
     "registration_status": "Not yet confirmed open",
-    "country": "Philippines",
     "venue": "Puerto Princesa City",
     "city": "Puerto Princesa City, Palawan",
-    "organizer": "RUNRIO Inc. (title sponsor: PalawanPay)"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Offers a full range of distances (42.195 km, 21.1 km, 16 km, 10 km, and 5 km) to suit different runner levels",
+    "Backed by an established organizer, RUNRIO Inc., with PalawanPay as title sponsor",
+    "Set in the scenic destination of Puerto Princesa City, Palawan, Philippines"
+  ],
+  "cons": [
+    "Registration status is not yet confirmed as open, so sign-up details are unavailable at this time"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 55,
+  "faqs": [
+    {
+      "question": "When is the PalawanPay Trilogy Marathon 2026 – Palawan Leg taking place?",
+      "answer": "The race is scheduled for October 18, 2026. It will be held in Puerto Princesa City, located in Palawan, Philippines. This date marks the Palawan Leg of the broader PalawanPay Trilogy Marathon series organized by RUNRIO Inc. with PalawanPay as the title sponsor."
+    },
+    {
+      "question": "What distances are offered at this race?",
+      "answer": "Participants can choose from five distance categories: a full marathon of 42.195 km, a half marathon of 21.1 km, plus 16 km, 10 km, and 5 km options. This range allows runners of varying experience and fitness levels to select a distance suited to their goals at this single event."
+    },
+    {
+      "question": "Who organizes the PalawanPay Trilogy Marathon?",
+      "answer": "The event is organized by RUNRIO Inc., a running event organizer, with PalawanPay serving as the title sponsor for this leg of the Trilogy Marathon series. The race takes place in Puerto Princesa City, Palawan, Philippines, as part of this sponsored multi-distance running event."
+    },
+    {
+      "question": "Is registration open for the PalawanPay Trilogy Marathon 2026 – Palawan Leg?",
+      "answer": "As of the latest available information, registration status for this race has not yet been confirmed as open. Interested runners planning to participate in the full marathon, half marathon, or other distance categories should watch for further updates regarding sign-up details before finalizing travel arrangements."
+    }
+  ],
+  "reliability_score": 50,
   "tags": [
     "full-marathon",
     "philippines"
@@ -36,7 +59,7 @@
       "url": "https://www.takbo.ph",
       "label": "takbo.ph",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://www.pinoyfitness.com/list-of-events/",
@@ -48,6 +71,6 @@
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

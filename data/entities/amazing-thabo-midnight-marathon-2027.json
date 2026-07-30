@@ -4,27 +4,48 @@
   "name": "Amazing Thabo Midnight Marathon",
   "category_id": "full-marathon",
   "region_id": "thailand",
-  "short_description": "Amazing Thabo Midnight Marathon takes place May 1, 2027 in Tha Bo, Nong Khai, Thailand.",
-  "ai_summary": "Amazing Thabo Midnight Marathon is a road running event in Tha Bo, Nong Khai, Thailand, featuring Full Marathon (42.195K); Half Marathon (21.1K); 10K; 5K. The race takes place on May 1, 2027, starting from Tha Bo, Nong Khai. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A full marathon and multi-distance race held in Tha Bo, Nong Khai, Thailand on May 1, 2027.",
+  "ai_summary": "The Amazing Thabo Midnight Marathon takes place on May 1, 2027 in Tha Bo, Nong Khai, Thailand. Organized by Thabo Marathon, the event offers four distance options: 42.195km, 21.1km, 10km, and 5km, allowing participants of varying experience levels to take part. Registration is currently open for those interested in joining this Thailand-based race.",
   "core_facts": {
     "date": "2027-05-01",
     "distance_km": [
       42.195,
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 42.195,
-    "registration_status": "not_yet_announced",
-    "country": "Thailand",
+    "organizer": "Thabo Marathon",
+    "registration_status": "open",
     "venue": "Tha Bo, Nong Khai",
     "city": "Tha Bo, Nong Khai",
-    "organizer": "Thabo Marathon"
+    "country": "Thailand"
   },
-  "pros": [],
+  "pros": [
+    "Multiple distance options (42.195km, 21.1km, 10km, and 5km) accommodate different fitness levels",
+    "Registration is currently open",
+    "Located in a distinct Thailand destination, Tha Bo, Nong Khai"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Amazing Thabo Midnight Marathon held?",
+      "answer": "The Amazing Thabo Midnight Marathon is scheduled to take place on May 1, 2027. The race is held in Tha Bo, Nong Khai, Thailand, and is organized by Thabo Marathon. Registration for the event is currently open for interested participants."
+    },
+    {
+      "question": "What distances are offered at this race?",
+      "answer": "The race offers four distance options for participants to choose from: a full marathon distance of 42.195km, a half marathon distance of 21.1km, a 10km race, and a shorter 5km race, catering to a range of runner preferences and experience levels."
+    },
+    {
+      "question": "Is registration currently open?",
+      "answer": "Yes, registration for the Amazing Thabo Midnight Marathon is currently open. Interested participants can sign up for one of the four available distances: 42.195km, 21.1km, 10km, or 5km, ahead of the race date of May 1, 2027."
+    },
+    {
+      "question": "Who organizes this race?",
+      "answer": "This race is organized by Thabo Marathon. The event takes place in Tha Bo, Nong Khai, Thailand, and features multiple distance categories including a full marathon, half marathon, 10km, and 5km, scheduled to be held on May 1, 2027."
+    }
+  ],
   "reliability_score": 45,
   "tags": [
     "full-marathon",
@@ -35,7 +56,7 @@
       "url": "https://www.thabomarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://aims-worldrunning.org/calendar.html",
@@ -59,6 +80,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
-  "status": "active"
+  "last_updated": "2026-07-30",
+  "status": "needs_review"
 }

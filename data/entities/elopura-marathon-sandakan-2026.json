@@ -4,8 +4,8 @@
   "name": "Elopura Marathon Sandakan 2026",
   "category_id": "full-marathon",
   "region_id": "malaysia",
-  "short_description": "Elopura Marathon Sandakan 2026 takes place November 22, 2026 in Sandakan, Sabah, Malaysia.",
-  "ai_summary": "Elopura Marathon Sandakan 2026 is a road running event in Sandakan, Sabah, Malaysia, featuring Full Marathon; Half Marathon; 10km. The race takes place on November 22, 2026, starting from Sandakan, Sabah. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A full marathon event in Sandakan, Sabah, Malaysia, taking place on November 22, 2026, with 10km, half marathon, and full marathon distance options.",
+  "ai_summary": "The Elopura Marathon Sandakan 2026 is a full marathon event scheduled for November 22, 2026, in Sandakan, Sabah, Malaysia. Organized by Persatuan Ortopedik Sandakan, it offers three distance options: a 10km, a half marathon (21.1km), and a full marathon (42.195km). Pricing is listed as MYR RM140 for the half marathon and RM170 for the full marathon, per elopuramarathon.com. Registration has not yet been announced.",
   "core_facts": {
     "date": "2026-11-22",
     "distance_km": [
@@ -14,18 +14,43 @@
       10
     ],
     "primary_distance_km": 42.195,
+    "organizer": "Persatuan Ortopedik Sandakan",
     "registration_status": "not_yet_announced",
-    "country": "Malaysia",
+    "price_range": "MYR HM RM140 / FM RM170 (per elopuramarathon.com)",
     "venue": "Sandakan, Sabah",
     "city": "Sandakan, Sabah",
-    "organizer": "Persatuan Ortopedik Sandakan",
-    "price_range": "MYR HM RM140 / FM RM170 (per elopuramarathon.com)"
+    "country": "Malaysia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (10km, half marathon, full marathon) suit a range of runner abilities",
+    "Set in Sandakan, Sabah, offering a Malaysian race destination",
+    "Organized by an established local body, Persatuan Ortopedik Sandakan",
+    "Pricing is clearly listed for the half and full marathon distances"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so entry details are unavailable",
+    "Pricing information is only listed for the half and full marathon, not the 10km"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 85,
+  "faqs": [
+    {
+      "question": "When is the Elopura Marathon Sandakan 2026 taking place?",
+      "answer": "The Elopura Marathon Sandakan 2026 is scheduled to take place on November 22, 2026. The event will be held in Sandakan, Sabah, Malaysia, and is organized by Persatuan Ortopedik Sandakan. No further scheduling details, such as start times, have been provided in the available source material."
+    },
+    {
+      "question": "What distances are offered at this race?",
+      "answer": "The Elopura Marathon Sandakan 2026 offers three distance categories: a 10km race, a half marathon at 21.1km, and a full marathon at 42.195km. The full marathon appears to be the primary distance of the event, which is held in Sandakan, Sabah, Malaysia."
+    },
+    {
+      "question": "How much does it cost to enter?",
+      "answer": "According to elopuramarathon.com, entry pricing is listed as RM140 for the half marathon and RM170 for the full marathon, in Malaysian Ringgit. No specific price is listed for the 10km distance in the available source material, so that information cannot be confirmed."
+    },
+    {
+      "question": "Is registration open yet?",
+      "answer": "Registration for the Elopura Marathon Sandakan 2026 has not yet been announced, based on the available information. Prospective participants will need to watch for further updates regarding sign-up details, as no registration opening date or process has been specified at this time."
+    }
+  ],
+  "reliability_score": 88,
   "tags": [
     "full-marathon",
     "malaysia",
@@ -36,7 +61,7 @@
       "url": "https://elopuramarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-16"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://aims-worldrunning.org/calendar.html",
@@ -60,6 +85,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-16",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

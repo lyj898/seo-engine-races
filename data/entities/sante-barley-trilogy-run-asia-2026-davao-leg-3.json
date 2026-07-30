@@ -4,28 +4,51 @@
   "name": "Sante Barley Trilogy Run Asia 2026 – Davao Leg 3",
   "category_id": "half-marathon",
   "region_id": "philippines",
-  "short_description": "Sante Barley Trilogy Run Asia 2026 – Davao Leg 3 takes place September 27, 2026 in Davao City, Philippines.",
-  "ai_summary": "Sante Barley Trilogy Run Asia 2026 – Davao Leg 3 is a road running event in Davao City, Philippines, featuring 32KM, Half Marathon (21KM), 10KM, 5KM. The race takes place on September 27, 2026, starting from Azuela Cove, Davao. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A multi-distance race series stop set for September 27, 2026, at Azuela Cove, Davao City, Philippines, featuring a half-marathon as its primary distance.",
+  "ai_summary": "Sante Barley Trilogy Run Asia 2026 – Davao Leg 3 is scheduled for September 27, 2026, at Azuela Cove in Davao City, Philippines. Organized by Runrio under the Sante Barley Trilogy Run Asia brand, the event offers distance options of 32km, 21.1km (half-marathon, the primary distance), 10km, and 5km. Registration details have not yet been announced.",
   "core_facts": {
     "date": "2026-09-27",
     "distance_km": [
-      32.0,
-      21.0,
-      10.0,
-      5.0
+      32,
+      21,
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Runrio (brand: Sante Barley Trilogy Run Asia)",
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "Azuela Cove, Davao",
     "city": "Davao City",
-    "organizer": "Runrio (brand: Sante Barley Trilogy Run Asia)"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (32km, 21.1km, 10km, 5km) to suit different runner levels",
+    "Held at Azuela Cove, a specific and scenic venue in Davao City",
+    "Organized by Runrio, an established name behind the Sante Barley Trilogy Run Asia series"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 80,
+  "faqs": [
+    {
+      "question": "When is the Sante Barley Trilogy Run Asia 2026 – Davao Leg 3?",
+      "answer": "The race is scheduled for September 27, 2026. It will take place at Azuela Cove in Davao City, Philippines, as part of the Sante Barley Trilogy Run Asia series organized by Runrio. No additional scheduling details beyond this date have been provided at this time."
+    },
+    {
+      "question": "What distances are offered at this race?",
+      "answer": "Runners can choose from four distance options: 32km, 21.1km, 10km, and 5km. The 21.1km half-marathon is listed as the primary distance for this event. This range allows participants of varying experience and fitness levels to select a distance that suits their training and goals."
+    },
+    {
+      "question": "Who organizes this race?",
+      "answer": "The race is organized by Runrio, operating under the brand name Sante Barley Trilogy Run Asia. This Davao Leg 3 event is one installment within that broader race series, held at Azuela Cove in Davao City, Philippines, on September 27, 2026."
+    },
+    {
+      "question": "Is registration open yet?",
+      "answer": "Registration status for this race has not yet been announced. Details on how and when to sign up are currently unavailable. Prospective participants should check back for updates as the organizer, Runrio, releases further information closer to the September 27, 2026 event date."
+    }
+  ],
+  "reliability_score": 75,
   "tags": [
     "half-marathon",
     "philippines",
@@ -36,7 +59,7 @@
       "url": "https://runrio.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://runrio.com/race-calendar",
@@ -54,6 +77,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

@@ -4,28 +4,50 @@
   "name": "JPARK Mactan International Marathon 2026",
   "category_id": "full-marathon",
   "region_id": "philippines",
-  "short_description": "JPARK Mactan International Marathon 2026 takes place October 11, 2026 in Lapu-Lapu City, Cebu, Philippines.",
-  "ai_summary": "JPARK Mactan International Marathon 2026 is a road running event in Lapu-Lapu City, Cebu, Philippines, featuring Full Marathon (42K); Half Marathon (21K); 10K; 5K. The race takes place on October 11, 2026, starting from Mactan Island, Lapu-Lapu City. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A multi-distance road race held on Mactan Island, Lapu-Lapu City, Philippines, on October 11, 2026, with registration currently open.",
+  "ai_summary": "The JPARK Mactan International Marathon 2026 is a road race scheduled for October 11, 2026, on Mactan Island in Lapu-Lapu City, Cebu, Philippines. Organized by the Bohol International Marathon organization in partnership with Jpark Island Resort, it offers four distance options: 42.195km, 21.1km, 10km, and 5km. Registration is currently open for runners interested in taking part in this Philippine race.",
   "core_facts": {
     "date": "2026-10-11",
     "distance_km": [
       42.195,
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 42.195,
+    "organizer": "Bohol International Marathon org. with Jpark Island Resort",
     "registration_status": "Open",
-    "country": "Philippines",
     "venue": "Mactan Island, Lapu-Lapu City",
     "city": "Lapu-Lapu City, Cebu",
-    "organizer": "Bohol International Marathon org. with Jpark Island Resort"
+    "country": "Philippines"
   },
-  "pros": [],
+  "pros": [
+    "Multiple distance options (42.195km, 21.1km, 10km, 5km) suit different runner levels",
+    "Organized by an established team, the Bohol International Marathon organization, with Jpark Island Resort",
+    "Registration is currently open",
+    "Held on Mactan Island, a notable Philippine location"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 62,
+  "faqs": [
+    {
+      "question": "Where is the race held?",
+      "answer": "The race takes place on Mactan Island in Lapu-Lapu City, Cebu, Philippines. This location serves as the venue for all distance categories offered during the event, making it a central hub for participants traveling to take part in the marathon weekend."
+    },
+    {
+      "question": "Is registration currently open?",
+      "answer": "Yes, registration for the JPARK Mactan International Marathon 2026 is currently open. Prospective participants looking to secure a spot in any of the four available distance categories can register now ahead of the event date of October 11, 2026."
+    },
+    {
+      "question": "What distances are offered at this event?",
+      "answer": "The event offers four distance options: a full marathon of 42.195km, a half marathon of 21.1km, a 10km race, and a 5km race, allowing runners of varying experience levels and goals to participate in the same event weekend."
+    },
+    {
+      "question": "Who organizes the JPARK Mactan International Marathon?",
+      "answer": "The race is organized by the Bohol International Marathon organization in partnership with Jpark Island Resort. This collaboration brings together race organizing experience with the resort's local presence on Mactan Island, Lapu-Lapu City, Cebu, Philippines."
+    }
+  ],
+  "reliability_score": 57,
   "tags": [
     "full-marathon",
     "philippines"
@@ -35,7 +57,7 @@
       "url": "https://mytv.ph",
       "label": "mytv.ph",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://www.takbo.ph",
@@ -47,6 +69,6 @@
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

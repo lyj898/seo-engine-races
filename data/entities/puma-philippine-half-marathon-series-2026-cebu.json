@@ -4,26 +4,49 @@
   "name": "PUMA Philippine Half Marathon Series 2026 - Cebu",
   "category_id": "half-marathon",
   "region_id": "philippines",
-  "short_description": "PUMA Philippine Half Marathon Series 2026 - Cebu takes place August 2, 2026 in Mandaue, Philippines.",
-  "ai_summary": "PUMA Philippine Half Marathon Series 2026 - Cebu is a road running event in Mandaue, Philippines, featuring Half Marathon (21KM), 10KM, 5KM. The race takes place on August 2, 2026, starting from Ayala Malls Gatewalk, Mandaue. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half marathon series event in Mandaue, Cebu on August 2, 2026, featuring 21.1km, 10km, and 5km distances.",
+  "ai_summary": "The PUMA Philippine Half Marathon Series 2026 - Cebu is set for August 2, 2026, at Ayala Malls Gatewalk in Mandaue, Cebu, Philippines. Organized by Runrio under the PUMA Philippine Half Marathon Series brand, the event offers three distance options: a 21.1-kilometer half marathon as the primary race, plus 10-kilometer and 5-kilometer distances. Registration details have not yet been announced, so interested runners should watch for updates as the date approaches.",
   "core_facts": {
     "date": "2026-08-02",
     "distance_km": [
-      21.0,
-      10.0,
-      5.0
+      21,
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Runrio (brand: PUMA Philippine Half Marathon Series)",
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "Ayala Malls Gatewalk, Mandaue",
     "city": "Mandaue",
-    "organizer": "Runrio (brand: PUMA Philippine Half Marathon Series)"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km) accommodate different runner levels",
+    "Organized by Runrio, an established race organizer in the Philippines",
+    "Convenient venue at Ayala Malls Gatewalk in Mandaue, Cebu"
+  ],
+  "cons": [
+    "Registration status has not yet been announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the PUMA Philippine Half Marathon Series 2026 - Cebu taking place?",
+      "answer": "The PUMA Philippine Half Marathon Series 2026 - Cebu is scheduled to take place on August 2, 2026. The event will be held at Ayala Malls Gatewalk in Mandaue, Cebu, Philippines, offering participants a chance to race through the local area on this specific date next year."
+    },
+    {
+      "question": "What distances are offered at this race?",
+      "answer": "This race offers three distance options for participants to choose from: a 21.1-kilometer half marathon, which serves as the primary distance, along with a 10-kilometer race and a shorter 5-kilometer race, allowing runners of different experience levels to participate at Ayala Malls Gatewalk in Mandaue."
+    },
+    {
+      "question": "Who organizes the PUMA Philippine Half Marathon Series 2026 - Cebu?",
+      "answer": "The event is organized by Runrio, operating under the brand name PUMA Philippine Half Marathon Series. Runrio is responsible for organizing this half marathon series event, which will be held in Mandaue, Cebu, Philippines, at the Ayala Malls Gatewalk venue on August 2, 2026, as part of its 2026 series."
+    },
+    {
+      "question": "Is registration open for this race?",
+      "answer": "As of now, registration for the PUMA Philippine Half Marathon Series 2026 - Cebu has not yet been announced. Prospective participants interested in the 21.1-kilometer, 10-kilometer, or 5-kilometer races should keep checking for updates regarding when sign-ups will open ahead of the event date of August 2, 2026."
+    }
+  ],
   "reliability_score": 80,
   "tags": [
     "half-marathon",
@@ -35,7 +58,7 @@
       "url": "https://runrio.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://runrio.com/race-calendar",
@@ -53,6 +76,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

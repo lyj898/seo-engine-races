@@ -4,27 +4,51 @@
   "name": "Siquijor Island Marathon 2026",
   "category_id": "full-marathon",
   "region_id": "philippines",
-  "short_description": "Siquijor Island Marathon 2026 takes place September 26, 2026 in Siquijor, Philippines.",
-  "ai_summary": "Siquijor Island Marathon 2026 is a road running event in Siquijor, Philippines, featuring Full Marathon (42K); Half Marathon (21K); 10K; 5K. The race takes place on September 26, 2026, starting from Siquijor. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A full marathon on Siquijor Island, Philippines, taking place September 26, 2026, with 42.195 km, 21.1 km, 10 km, and 5 km distance options.",
+  "ai_summary": "The Siquijor Island Marathon 2026 is a full-marathon event scheduled for September 26, 2026, on Siquijor Island in the Philippines. Runners can choose from four distances: 42.195 km, 21.1 km, 10 km, and 5 km, making it accessible to a range of ability levels. Registration has not yet been announced. As of now, further details such as pricing and course specifics have not been released.",
   "core_facts": {
     "date": "2026-09-26",
     "distance_km": [
       42.195,
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 42.195,
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "Siquijor",
-    "city": "Siquijor"
+    "city": "Siquijor",
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (42.195 km, 21.1 km, 10 km, 5 km) suit different fitness levels",
+    "Takes place on Siquijor Island, a distinct island setting in the Philippines",
+    "Full marathon distance available for experienced runners"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so entry details are unavailable",
+    "No information on pricing, course route, or logistics is currently provided"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 40,
+  "faqs": [
+    {
+      "question": "When is the Siquijor Island Marathon 2026?",
+      "answer": "The Siquijor Island Marathon 2026 is scheduled to take place on September 26, 2026. It will be held on Siquijor Island in the Philippines. No further scheduling details, such as start times for individual distance categories, have been provided in the available information at this time."
+    },
+    {
+      "question": "What distances are offered at the Siquijor Island Marathon 2026?",
+      "answer": "The event offers four distance categories: a full marathon of 42.195 km, a half marathon of 21.1 km, a 10 km race, and a 5 km race. This range allows participants of varying experience and fitness levels to choose an appropriate distance for the September 2026 event."
+    },
+    {
+      "question": "Where is the Siquijor Island Marathon 2026 held?",
+      "answer": "The race is held on Siquijor Island, located in the Philippines, with the city listed as Siquijor. This island setting serves as the venue for all four distance categories offered at the event, scheduled for September 26, 2026, though further venue specifics are not yet available."
+    },
+    {
+      "question": "Is registration open for the Siquijor Island Marathon 2026?",
+      "answer": "Registration for the Siquijor Island Marathon 2026 has not yet been announced. Prospective participants interested in the full marathon, half marathon, 10 km, or 5 km distances will need to wait for official registration details to be released before they can sign up for the September 2026 event."
+    }
+  ],
+  "reliability_score": 35,
   "tags": [
     "full-marathon",
     "philippines"
@@ -34,12 +58,12 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

@@ -4,8 +4,8 @@
   "name": "22nd Dynasty Charity Half Marathon",
   "category_id": "half-marathon",
   "region_id": "malaysia",
-  "short_description": "22nd Dynasty Charity Half Marathon takes place October 25, 2026 in Miri, Sarawak, Malaysia.",
-  "ai_summary": "22nd Dynasty Charity Half Marathon is a road running event in Miri, Sarawak, Malaysia, featuring Half Marathon. The race takes place on October 25, 2026, starting from Dynasty Hotel Miri. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A 21.1km charity half marathon held on 25 October 2026 at Dynasty Hotel Miri in Miri, Sarawak, Malaysia.",
+  "ai_summary": "The 22nd Dynasty Charity Half Marathon is a 21.1km road race taking place on 25 October 2026 at Dynasty Hotel Miri, in Miri, Sarawak, Malaysia. Registration for this charity-focused event is currently open, giving runners in the region a scheduled half-marathon distance to train toward. The race is hosted at a single, clearly defined venue in Miri.",
   "core_facts": {
     "date": "2026-10-25",
     "distance_km": [
@@ -13,15 +13,42 @@
     ],
     "primary_distance_km": 21.1,
     "registration_status": "Open",
-    "country": "Malaysia",
     "venue": "Dynasty Hotel Miri",
-    "city": "Miri, Sarawak"
+    "city": "Miri, Sarawak",
+    "country": "Malaysia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Registration is currently open",
+    "Standard 21.1km half-marathon distance",
+    "Fixed, confirmed date of 25 October 2026",
+    "Convenient single venue at Dynasty Hotel Miri",
+    "Supports a charitable cause"
+  ],
+  "cons": [
+    "No information available on entry fees or pricing",
+    "No details provided on course route or elevation",
+    "No information on race-day amenities or facilities"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 45,
+  "faqs": [
+    {
+      "question": "When is the 22nd Dynasty Charity Half Marathon?",
+      "answer": "The 22nd Dynasty Charity Half Marathon is scheduled to take place on 25 October 2026. The event will be held at Dynasty Hotel Miri in Miri, Sarawak, Malaysia. Runners interested in this half-marathon should mark this specific date on their calendars and register while entries remain open."
+    },
+    {
+      "question": "Where does the race take place?",
+      "answer": "This half marathon takes place at Dynasty Hotel Miri, located in Miri, Sarawak, Malaysia. The venue serves as the base for the event, making it a convenient reference point for participants traveling to Miri specifically to take part in this charity road race."
+    },
+    {
+      "question": "What distance is the race?",
+      "answer": "The 22nd Dynasty Charity Half Marathon covers the standard half-marathon distance of 21.1 kilometers. This distance is the primary and only race distance listed for the event, making it suitable for runners specifically training for or experienced with half-marathon length races."
+    },
+    {
+      "question": "Is registration currently open for this race?",
+      "answer": "Yes, registration for the 22nd Dynasty Charity Half Marathon is currently listed as open. Prospective participants can sign up for the event ahead of its 25 October 2026 date at Dynasty Hotel Miri in Miri, Sarawak, Malaysia."
+    }
+  ],
+  "reliability_score": 48,
   "tags": [
     "half-marathon",
     "malaysia"
@@ -31,7 +58,7 @@
       "url": "https://www.jomrun.com/event/dynasty-run2026",
       "label": "jomrun.com",
       "type": "aggregator",
-      "last_checked": "2026-07-13"
+      "last_checked": "2026-07-30"
     }
   ],
   "affiliate_links": [],
@@ -43,6 +70,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-13",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

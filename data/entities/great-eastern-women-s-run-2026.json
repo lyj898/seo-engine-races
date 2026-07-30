@@ -57,7 +57,7 @@
       "answer": "Five categories are offered: a 21.1km women-only Half Marathon, a 10km, a 5km, a 2km \"Mummy+Me\" run, and a 100m \"Princess Dash\" for children. This spread makes the event suitable for competitive runners, casual participants, and families attending together at the same race morning."
     }
   ],
-  "reliability_score": 85,
+  "reliability_score": 80,
   "tags": [
     "half-marathon",
     "singapore",
@@ -70,7 +70,7 @@
       "url": "https://greateasternwomensrun.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://www.justrunlah.com/calendar-of-running-events-singapore/",
@@ -91,6 +91,6 @@
     "luang-prabang-half-marathon-run-for-children-2026",
     "ijm-allianz-duo-highway-challenge-2026"
   ],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

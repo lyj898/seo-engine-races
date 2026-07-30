@@ -4,26 +4,51 @@
   "name": "Merumatta Half Marathon 2026",
   "category_id": "half-marathon",
   "region_id": "indonesia",
-  "short_description": "Merumatta Half Marathon 2026 takes place October 18, 2026 in Senggigi, Lombok Barat, NTB, Indonesia.",
-  "ai_summary": "Merumatta Half Marathon 2026 is a road running event in Senggigi, Lombok Barat, NTB, Indonesia, featuring Half Marathon; 10km; 5km; 2.5km. The race takes place on October 18, 2026, starting from Merumatta Hotel, Senggigi, Lombok Barat, NTB. Registration is Not Yet Announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The Merumatta Half Marathon 2026 is a half-marathon race held October 18, 2026, in Senggigi, Lombok Barat, NTB, Indonesia, with registration currently open.",
+  "ai_summary": "The Merumatta Half Marathon 2026 takes place on October 18, 2026, in Senggigi, Lombok Barat, NTB, Indonesia, starting at the Merumatta Hotel. Organized by Merumatta Coast Trail, the event offers four distance options: 21.1km, 10km, 5km, and 2.5km, with the half marathon featuring 390m of elevation gain. Registration is currently open for runners interested in taking on this Lombok coastal race.",
   "core_facts": {
     "date": "2026-10-18",
     "distance_km": [
       21.1,
-      10.0,
-      5.0,
+      10,
+      5,
       2.5
     ],
     "primary_distance_km": 21.1,
-    "registration_status": "Not Yet Announced",
-    "country": "Indonesia",
+    "elevation_gain_m": 390,
+    "organizer": "Merumatta Coast Trail",
+    "registration_status": "Open",
     "venue": "Merumatta Hotel, Senggigi, Lombok Barat, NTB",
-    "city": "Senggigi, Lombok Barat, NTB"
+    "city": "Senggigi, Lombok Barat, NTB",
+    "country": "Indonesia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km, 2.5km) suit a range of runner abilities",
+    "Registration is currently open, giving ample time to prepare",
+    "Scenic venue at Merumatta Hotel in Senggigi, Lombok Barat, NTB"
+  ],
+  "cons": [
+    "The half marathon includes 390m of elevation gain, which may be demanding for those seeking a flat course"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Merumatta Half Marathon 2026?",
+      "answer": "The Merumatta Half Marathon 2026 is scheduled for October 18, 2026. It takes place at the Merumatta Hotel in Senggigi, Lombok Barat, NTB, Indonesia, and is organized by Merumatta Coast Trail. Registration for the event is currently open, so runners planning to participate can sign up ahead of the race date."
+    },
+    {
+      "question": "What distances are offered at this race?",
+      "answer": "The event offers four distance categories: a 21.1km half marathon, a 10km race, a 5km race, and a shorter 2.5km option. This range allows participants of different fitness levels and experience, from casual runners to those training for a full half marathon, to choose a suitable distance for the Merumatta event."
+    },
+    {
+      "question": "How much elevation gain is there in the half marathon?",
+      "answer": "The 21.1km half marathon distance at the Merumatta Half Marathon 2026 includes a total elevation gain of 390 meters. This suggests the course is not entirely flat, so runners should prepare for some climbing along the route through the Senggigi, Lombok Barat, NTB area."
+    },
+    {
+      "question": "Where does the race start?",
+      "answer": "The race starts at the Merumatta Hotel, located in Senggigi, Lombok Barat, NTB, Indonesia. This venue serves as the base for the event, which is organized by Merumatta Coast Trail and includes the 21.1km, 10km, 5km, and 2.5km distance categories."
+    }
+  ],
   "reliability_score": 82,
   "tags": [
     "half-marathon",
@@ -35,7 +60,7 @@
       "url": "https://merumatta-halfmarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-13"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
@@ -59,6 +84,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-13",
-  "status": "active"
+  "last_updated": "2026-07-30",
+  "status": "needs_review"
 }

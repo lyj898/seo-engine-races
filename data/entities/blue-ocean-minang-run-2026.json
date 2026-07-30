@@ -4,25 +4,46 @@
   "name": "Blue Ocean Minang Run 2026",
   "category_id": "half-marathon",
   "region_id": "indonesia",
-  "short_description": "Blue Ocean Minang Run 2026 takes place August 9, 2026 in Padang, Sumatera Barat, Indonesia.",
-  "ai_summary": "Blue Ocean Minang Run 2026 is a road running event in Padang, Sumatera Barat, Indonesia, featuring Half Marathon; 10km; 5km. The race takes place on August 9, 2026, starting from Kota Padang, Sumatera Barat. Registration is Not Yet Announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half-marathon event in Kota Padang, Sumatera Barat, Indonesia, held on August 9, 2026, with distances from 1 km to 21.1 km.",
+  "ai_summary": "Blue Ocean Minang Run 2026 is a half-marathon event scheduled for August 9, 2026, in Kota Padang, Sumatera Barat, Indonesia. The race offers five distance categories -- 21.1 km, 10 km, 5 km, 2 km, and 1 km -- allowing a range of runners and participants to take part. Registration for this event is currently listed as Closed/Sold Out.",
   "core_facts": {
     "date": "2026-08-09",
     "distance_km": [
       21.1,
-      10.0,
-      5.0
+      10,
+      5,
+      2,
+      1
     ],
     "primary_distance_km": 21.1,
-    "registration_status": "Not Yet Announced",
-    "country": "Indonesia",
+    "registration_status": "Closed/Sold Out",
     "venue": "Kota Padang, Sumatera Barat",
-    "city": "Padang, Sumatera Barat"
+    "city": "Padang, Sumatera Barat",
+    "country": "Indonesia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1 km, 10 km, 5 km, 2 km, 1 km) suit a wide range of runners",
+    "Located in a notable Indonesian city, Padang, Sumatera Barat",
+    "Half-marathon distance available for serious runners"
+  ],
+  "cons": [
+    "Registration is currently Closed/Sold Out, so new participants cannot sign up"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Can I still register for this race?",
+      "answer": "Registration for the Blue Ocean Minang Run 2026 is currently listed as Closed/Sold Out, meaning new sign-ups are not being accepted at this time. Prospective participants should watch for future updates or subsequent editions of the event, as this specific run's registration window has already ended based on the information available."
+    },
+    {
+      "question": "What distances are offered at this event?",
+      "answer": "The Blue Ocean Minang Run 2026 offers five distance options for participants to choose from: a 21.1 km half-marathon, a 10 km race, a 5 km race, a 2 km race, and a 1 km race, catering to a range of runners from serious athletes to casual participants and families."
+    },
+    {
+      "question": "Where exactly is the race held?",
+      "answer": "This race takes place in Kota Padang, located in the province of Sumatera Barat (West Sumatra), Indonesia. The city of Padang serves as both the venue and host city for the Blue Ocean Minang Run 2026, making it the central hub for all race-day activities and distance categories offered."
+    }
+  ],
   "reliability_score": 82,
   "tags": [
     "half-marathon",
@@ -34,7 +55,7 @@
       "url": "https://bomrun.id",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-14"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
@@ -58,6 +79,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-14",
-  "status": "active"
+  "last_updated": "2026-07-30",
+  "status": "needs_review"
 }

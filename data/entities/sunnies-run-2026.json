@@ -4,28 +4,51 @@
   "name": "Sunnies Run 2026",
   "category_id": "half-marathon",
   "region_id": "philippines",
-  "short_description": "Sunnies Run 2026 takes place October 4, 2026 in Makati, Philippines.",
-  "ai_summary": "Sunnies Run 2026 is a road running event in Makati, Philippines, featuring Half Marathon (21K); 10K; 5K; 1K. The race takes place on October 4, 2026, starting from Ayala Triangle, Makati. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "Sunnies Run 2026 is a half-marathon and multi-distance race held on October 4, 2026, at Ayala Triangle, Makati, Philippines.",
+  "ai_summary": "Sunnies Run 2026 is a half-marathon event scheduled for October 4, 2026, at Ayala Triangle in Makati, Philippines. Organized by RUNRIO Inc., the race offers multiple distance options including 21.1km, 10km, 5km, and 1km categories. This makes it accessible to a range of runners, from serious half-marathoners to casual participants. Registration details have not yet been announced.",
   "core_facts": {
     "date": "2026-10-04",
     "distance_km": [
       21.1,
-      10.0,
-      5.0,
-      1.0
+      10,
+      5,
+      1
     ],
     "primary_distance_km": 21.1,
+    "organizer": "RUNRIO Inc.",
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "Ayala Triangle, Makati",
     "city": "Makati",
-    "organizer": "RUNRIO Inc."
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km, 1km) suit different fitness levels",
+    "Held at a well-known central location, Ayala Triangle in Makati",
+    "Organized by RUNRIO Inc., an established race organizer"
+  ],
+  "cons": [
+    "Registration status has not yet been announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 40,
+  "faqs": [
+    {
+      "question": "When is Sunnies Run 2026?",
+      "answer": "Sunnies Run 2026 is scheduled to take place on October 4, 2026. The event will be held in Makati, Philippines, at the Ayala Triangle venue. This date marks the race day for all distance categories offered as part of this event."
+    },
+    {
+      "question": "Where does Sunnies Run 2026 take place?",
+      "answer": "The race takes place at Ayala Triangle, located in Makati, Philippines. This central venue serves as the starting point for all distance categories offered during the event, including the half-marathon and shorter distance options."
+    },
+    {
+      "question": "What distances are offered at Sunnies Run 2026?",
+      "answer": "Sunnies Run 2026 offers four distance categories: a 21.1km half-marathon, a 10km race, a 5km race, and a 1km race. This range of options allows participants of varying experience and fitness levels to choose a distance suited to their goals."
+    },
+    {
+      "question": "Is registration open for Sunnies Run 2026?",
+      "answer": "As of the latest information available, the registration status for Sunnies Run 2026 has not yet been announced. Prospective participants should check back for updates from the organizer, RUNRIO Inc., regarding when sign-ups will become available."
+    }
+  ],
+  "reliability_score": 35,
   "tags": [
     "half-marathon",
     "philippines"
@@ -35,12 +58,12 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

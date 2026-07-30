@@ -4,23 +4,49 @@
   "name": "The 11th Angkor Empire Marathon 2026",
   "category_id": "full-marathon",
   "region_id": "cambodia",
-  "short_description": "The 11th Angkor Empire Marathon 2026 takes place August 2, 2026 in Siem Reap, Cambodia.",
-  "ai_summary": "The 11th Angkor Empire Marathon 2026 is a road running event in Siem Reap, Cambodia, featuring Full Marathon. The race takes place on August 2, 2026, starting from In front of Angkor Wat Temple, Siem Reap. Registration is Not Yet Announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The 11th Angkor Empire Marathon 2026 takes place August 2, 2026 in Siem Reap, Cambodia, starting at Angkor Wat Temple.",
+  "ai_summary": "The 11th Angkor Empire Marathon 2026 will take place on August 2, 2026, in Siem Reap, Cambodia, starting in front of the historic Angkor Wat Temple. Organized by the Cambodian Events Organizer, the event offers four distance options: a full marathon (42.195km), half marathon (21km), 10km, and 3km races. Registration is currently open, making it accessible for runners of different experience levels who want to race at one of the world's most iconic landmarks.",
   "core_facts": {
     "date": "2026-08-02",
     "distance_km": [
-      42.195
+      42.195,
+      21,
+      10,
+      3
     ],
     "primary_distance_km": 42.195,
-    "registration_status": "Not Yet Announced",
-    "country": "Cambodia",
+    "organizer": "Cambodian Events Organizer",
+    "registration_status": "Open",
     "venue": "In front of Angkor Wat Temple, Siem Reap",
-    "city": "Siem Reap"
+    "city": "Siem Reap",
+    "country": "Cambodia"
   },
-  "pros": [],
+  "pros": [
+    "Iconic start location in front of Angkor Wat Temple",
+    "Multiple distance options (42.195km, 21km, 10km, 3km) suit various runner levels",
+    "Registration is currently open",
+    "Established event now in its 11th edition"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Angkor Empire Marathon 2026 taking place?",
+      "answer": "The 11th Angkor Empire Marathon 2026 is scheduled to take place on August 2, 2026, in Siem Reap, Cambodia. The event is organized by the Cambodian Events Organizer and will start in front of the iconic Angkor Wat Temple, drawing runners to this historic and scenic location in Siem Reap."
+    },
+    {
+      "question": "What distances can participants choose from?",
+      "answer": "Participants can choose from four distance options at the 2026 Angkor Empire Marathon: a full marathon of 42.195 kilometers, a half marathon of 21 kilometers, a 10-kilometer race, and a shorter 3-kilometer race, allowing runners of varying experience levels and fitness to participate in this Siem Reap event."
+    },
+    {
+      "question": "Where does the race start?",
+      "answer": "The race starts and is held in front of the Angkor Wat Temple in Siem Reap, Cambodia, a globally recognized historic landmark. This iconic starting point offers participants a unique and memorable backdrop as they begin their run through the Siem Reap area during the 2026 Angkor Empire Marathon event."
+    },
+    {
+      "question": "Is registration currently open for this event?",
+      "answer": "Registration for the 11th Angkor Empire Marathon 2026 is currently open, according to the event organizer, Cambodian Events Organizer. Prospective participants interested in joining any of the four available distances—42.195km, 21km, 10km, or 3km—can sign up now ahead of the race date of August 2, 2026 in Siem Reap."
+    }
+  ],
   "reliability_score": 82,
   "tags": [
     "full-marathon",
@@ -32,7 +58,7 @@
       "url": "https://www.cambodia-events.org/kh/blog/angkor-empire-marathon",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-13"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://checkpointspot.asia/events",
@@ -50,6 +76,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-13",
-  "status": "active"
+  "last_updated": "2026-07-30",
+  "status": "needs_review"
 }

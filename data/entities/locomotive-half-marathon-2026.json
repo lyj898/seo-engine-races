@@ -4,27 +4,50 @@
   "name": "Locomotive Half Marathon 2026",
   "category_id": "half-marathon",
   "region_id": "indonesia",
-  "short_description": "Locomotive Half Marathon 2026 takes place September 20, 2026 in Bandar Lampung, Lampung, Indonesia.",
-  "ai_summary": "Locomotive Half Marathon 2026 is a road running event in Bandar Lampung, Lampung, Indonesia, featuring Half Marathon (21K); 10K; 5K. The race takes place on September 20, 2026, starting from Bandar Lampung (exact start point not yet announced). Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half marathon in Bandar Lampung, Indonesia, held on September 20, 2026, with 21.1 km, 10 km, and 5 km distance options.",
+  "ai_summary": "The Locomotive Half Marathon 2026 is scheduled for September 20, 2026 in Bandar Lampung, Lampung, Indonesia. Organized by PT Kereta Api Indonesia (KAI) and executed by RAW Organizer / Runaway Lampung, the event offers three distance options: 21.1 km, 10 km, and 5 km. Registration is currently open, though the exact start point within Bandar Lampung has not yet been announced.",
   "core_facts": {
     "date": "2026-09-20",
     "distance_km": [
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
+    "organizer": "PT Kereta Api Indonesia (KAI), executed by RAW Organizer / Runaway Lampung",
     "registration_status": "Open",
-    "country": "Indonesia",
     "venue": "Bandar Lampung (exact start point not yet announced)",
     "city": "Bandar Lampung, Lampung",
-    "organizer": "PT Kereta Api Indonesia (KAI), executed by RAW Organizer / Runaway Lampung"
+    "country": "Indonesia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1 km, 10 km, 5 km) suit different runner levels",
+    "Backed by PT Kereta Api Indonesia (KAI), a major national organization",
+    "Registration is currently open, giving runners time to prepare and sign up"
+  ],
+  "cons": [
+    "Exact start point in Bandar Lampung has not yet been announced"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 62,
+  "faqs": [
+    {
+      "question": "What distances are offered at this event?",
+      "answer": "The Locomotive Half Marathon 2026 offers three distance categories for participants to choose from: a 21.1 km half marathon, a 10 km race, and a shorter 5 km race, allowing runners of varying experience and fitness levels to take part in the event."
+    },
+    {
+      "question": "Who organizes the Locomotive Half Marathon 2026?",
+      "answer": "The event is organized by PT Kereta Api Indonesia (KAI), the national railway company, with on-the-ground execution handled by RAW Organizer, operating locally as Runaway Lampung, in Bandar Lampung, Lampung, Indonesia, on September 20, 2026."
+    },
+    {
+      "question": "Is registration open for this race?",
+      "answer": "Yes, registration for the Locomotive Half Marathon 2026 is currently open. Interested runners can sign up ahead of the race date of September 20, 2026, though the exact start location within Bandar Lampung has not yet been officially announced by organizers."
+    },
+    {
+      "question": "Where and when will the race take place?",
+      "answer": "The Locomotive Half Marathon 2026 will take place in Bandar Lampung, in the Lampung province of Indonesia, on September 20, 2026. While the city hosting the event is confirmed, the precise start point within Bandar Lampung has not yet been announced."
+    }
+  ],
+  "reliability_score": 57,
   "tags": [
     "half-marathon",
     "indonesia"
@@ -34,7 +57,7 @@
       "url": "https://tiptip.id/event/4bc2013e-5ac3-4c05-9049-13fb758ce766",
       "label": "tiptip.id",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     }
   ],
   "affiliate_links": [],
@@ -46,6 +69,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

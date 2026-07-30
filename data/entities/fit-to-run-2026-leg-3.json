@@ -4,28 +4,53 @@
   "name": "FIT TO RUN 2026 – Leg 3",
   "category_id": "full-marathon",
   "region_id": "philippines",
-  "short_description": "FIT TO RUN 2026 – Leg 3 takes place November 8, 2026 in Angeles City, Pampanga, Philippines.",
-  "ai_summary": "FIT TO RUN 2026 – Leg 3 is a road running event in Angeles City, Pampanga, Philippines, featuring Full Marathon (42K); Half Marathon (21K); 10K; 5K. The race takes place on November 8, 2026, starting from Clark Parade Grounds. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "FIT TO RUN 2026 – Leg 3 is a full marathon and multi-distance race held on November 8, 2026, at Clark Parade Grounds, Angeles City, Pampanga, Philippines.",
+  "ai_summary": "FIT TO RUN 2026 – Leg 3 is a multi-distance running event scheduled for November 8, 2026, at the Clark Parade Grounds in Angeles City, Pampanga, Philippines. Organized by SMOKE10 Events, the race offers a full marathon (42.195 km) as its primary distance, along with half marathon, 10K, and 5K options. Registration details have not yet been announced.",
   "core_facts": {
     "date": "2026-11-08",
     "distance_km": [
       42.195,
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 42.195,
+    "organizer": "SMOKE10 Events",
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "Clark Parade Grounds",
     "city": "Angeles City, Pampanga",
-    "organizer": "SMOKE10 Events"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Offers multiple distance options (42.195 km, 21.1 km, 10 km, and 5 km) to suit different runner levels",
+    "Includes a full marathon distance for serious long-distance runners",
+    "Held at Clark Parade Grounds, a spacious venue in Angeles City, Pampanga",
+    "Organized by SMOKE10 Events, a dedicated race organizer"
+  ],
+  "cons": [
+    "Registration status has not yet been announced, so sign-up details are unavailable",
+    "No additional details such as pricing, route maps, or cut-off times are currently provided"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 40,
+  "faqs": [
+    {
+      "question": "When is FIT TO RUN 2026 – Leg 3 taking place?",
+      "answer": "FIT TO RUN 2026 – Leg 3 is scheduled to take place on November 8, 2026. The event will be held at the Clark Parade Grounds in Angeles City, Pampanga, Philippines, and is organized by SMOKE10 Events, offering runners a full day of racing across several distance categories."
+    },
+    {
+      "question": "What distances are offered at this event?",
+      "answer": "This event offers four distance categories for participants to choose from: a full marathon at 42.195 km, a half marathon at 21.1 km, a 10 km race, and a 5 km race. The 42.195 km marathon serves as the primary distance for FIT TO RUN 2026 – Leg 3."
+    },
+    {
+      "question": "Who organizes FIT TO RUN 2026 – Leg 3?",
+      "answer": "FIT TO RUN 2026 – Leg 3 is organized by SMOKE10 Events. The organizer is responsible for coordinating the race, which will take place at the Clark Parade Grounds in Angeles City, Pampanga, Philippines, on November 8, 2026, across multiple running distances."
+    },
+    {
+      "question": "Is registration open for this race?",
+      "answer": "Registration status for FIT TO RUN 2026 – Leg 3 has not yet been announced. Interested runners will need to wait for further updates from SMOKE10 Events regarding sign-up details, fees, and deadlines ahead of the race date on November 8, 2026."
+    }
+  ],
+  "reliability_score": 35,
   "tags": [
     "full-marathon",
     "philippines"
@@ -35,12 +60,12 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

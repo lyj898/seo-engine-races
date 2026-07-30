@@ -4,8 +4,8 @@
   "name": "Alor Setar Marathon 2026",
   "category_id": "full-marathon",
   "region_id": "malaysia",
-  "short_description": "Alor Setar Marathon 2026 takes place August 14, 2026 in Alor Setar, Kedah, Malaysia.",
-  "ai_summary": "Alor Setar Marathon 2026 is a road running event in Alor Setar, Kedah, Malaysia, featuring Full Marathon; Half Marathon. The race takes place on August 14, 2026, starting from Alor Setar, Kedah. Registration is Closed as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The Alor Setar Marathon 2026 is a full and half marathon event held in Alor Setar, Kedah, Malaysia on August 14, 2026.",
+  "ai_summary": "The Alor Setar Marathon 2026 is a full marathon event scheduled for August 14, 2026, in Alor Setar, Kedah, Malaysia. Participants can choose between two distances: a full marathon of 42.195 km and a half marathon of 21.1 km. Registration for this race is currently closed.",
   "core_facts": {
     "date": "2026-08-14",
     "distance_km": [
@@ -14,15 +14,37 @@
     ],
     "primary_distance_km": 42.195,
     "registration_status": "Closed",
-    "country": "Malaysia",
     "venue": "Alor Setar, Kedah",
-    "city": "Alor Setar, Kedah"
+    "city": "Alor Setar, Kedah",
+    "country": "Malaysia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Offers a choice of two distances: full marathon (42.195 km) and half marathon (21.1 km)",
+    "Set in Alor Setar, Kedah, giving runners a distinct Malaysian city race experience"
+  ],
+  "cons": [
+    "Registration status is listed as Closed, so new entrants cannot currently sign up"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 55,
+  "faqs": [
+    {
+      "question": "When is the Alor Setar Marathon 2026 taking place?",
+      "answer": "The Alor Setar Marathon 2026 is scheduled to take place on August 14, 2026. The event is held in Alor Setar, Kedah, Malaysia, and includes both full marathon and half marathon distance options for participants who plan to take part on that date."
+    },
+    {
+      "question": "What distances are offered at the Alor Setar Marathon 2026?",
+      "answer": "The Alor Setar Marathon 2026 offers two race distances: a full marathon of 42.195 km, which is the primary distance for the event, and a half marathon option of 21.1 km, giving runners a choice depending on their preferred challenge."
+    },
+    {
+      "question": "Can I still register for the Alor Setar Marathon 2026?",
+      "answer": "According to the available information, registration for the Alor Setar Marathon 2026 is currently listed as Closed. This means that at this time, participants are not able to sign up for either the full marathon or half marathon distance for this event."
+    },
+    {
+      "question": "Where is the Alor Setar Marathon 2026 held?",
+      "answer": "The Alor Setar Marathon 2026 is held in Alor Setar, which is located in the state of Kedah, Malaysia. This city serves as both the venue and host location for the full marathon and half marathon distances offered at this event."
+    }
+  ],
+  "reliability_score": 40,
   "tags": [
     "full-marathon",
     "malaysia"
@@ -44,6 +66,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
-  "status": "active"
+  "last_updated": "2026-07-30",
+  "status": "needs_review"
 }

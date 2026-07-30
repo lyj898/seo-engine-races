@@ -4,28 +4,51 @@
   "name": "National MILO Marathon 2026 – General Santos City Leg",
   "category_id": "half-marathon",
   "region_id": "philippines",
-  "short_description": "National MILO Marathon 2026 – General Santos City Leg takes place August 9, 2026 in General Santos City, Philippines.",
-  "ai_summary": "National MILO Marathon 2026 – General Santos City Leg is a road running event in General Santos City, Philippines, featuring 21K Half Marathon (provincial qualifier); 10K; 5K; 3K. The race takes place on August 9, 2026, starting from General Santos City. Registration is Not yet confirmed open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half-marathon leg of the National MILO Marathon 2026, held in General Santos City, Philippines on August 9, 2026.",
+  "ai_summary": "The National MILO Marathon 2026 – General Santos City Leg is a half-marathon event scheduled for August 9, 2026, in General Santos City, Philippines. Organized by RUNRIO Inc. under the long-running MILO Marathon banner, the race offers four distance options: 21.1km, 10km, 5km, and 3km. Registration has not yet been confirmed as open, so prospective participants should check back for updates.",
   "core_facts": {
     "date": "2026-08-09",
     "distance_km": [
       21.1,
-      10.0,
-      5.0,
-      3.0
+      10,
+      5,
+      3
     ],
     "primary_distance_km": 21.1,
+    "organizer": "RUNRIO Inc. (MILO Marathon)",
     "registration_status": "Not yet confirmed open",
-    "country": "Philippines",
     "venue": "General Santos City",
     "city": "General Santos City",
-    "organizer": "RUNRIO Inc. (MILO Marathon)"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km, 3km) to suit different runner levels",
+    "Organized by RUNRIO Inc., the established organizer behind the MILO Marathon series",
+    "Set in General Santos City, giving local and visiting runners a chance to race there"
+  ],
+  "cons": [
+    "Registration status is not yet confirmed open, so details for signing up are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 65,
+  "faqs": [
+    {
+      "question": "When is the National MILO Marathon 2026 – General Santos City Leg?",
+      "answer": "The event is scheduled to take place on August 9, 2026, in General Santos City, Philippines. This date is set for the General Santos City leg specifically, as the National MILO Marathon typically runs across multiple city legs throughout the year in the Philippines."
+    },
+    {
+      "question": "What distances are offered at this race?",
+      "answer": "Participants can choose from four distance categories: a 21.1km half-marathon, a 10km run, a 5km run, and a 3km run. The 21.1km half-marathon is the primary distance for this leg, giving runners of varying experience levels and goals a suitable option to enter."
+    },
+    {
+      "question": "Who organizes the National MILO Marathon 2026 – General Santos City Leg?",
+      "answer": "This race is organized by RUNRIO Inc., which runs the broader MILO Marathon series across the Philippines. RUNRIO Inc. handles the organization and coordination of this General Santos City leg as part of the larger National MILO Marathon event calendar for 2026."
+    },
+    {
+      "question": "Is registration currently open for this race?",
+      "answer": "As of now, registration status for the National MILO Marathon 2026 – General Santos City Leg has not yet been confirmed as open. Prospective participants interested in joining the 21.1km, 10km, 5km, or 3km races should watch for official updates regarding when sign-ups will begin."
+    }
+  ],
+  "reliability_score": 60,
   "tags": [
     "half-marathon",
     "philippines"
@@ -35,7 +58,7 @@
       "url": "https://www.milo.com.ph/national-milo-marathon",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://www.milo.com.ph/sites/default/files/2026-01/2026_nmm_race_calendar.jpg",
@@ -59,6 +82,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

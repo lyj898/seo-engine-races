@@ -4,26 +4,49 @@
   "name": "Khao Yai Marathon (B-Quik Khao Yai Marathon 2027)",
   "category_id": "full-marathon",
   "region_id": "thailand",
-  "short_description": "Khao Yai Marathon (B-Quik Khao Yai Marathon 2027) takes place January 10, 2027 in Pak Chong, Nakhon Ratchasima, Thailand.",
-  "ai_summary": "Khao Yai Marathon (B-Quik Khao Yai Marathon 2027) is a road running event in Pak Chong, Nakhon Ratchasima, Thailand, featuring Full Marathon; Half Marathon; 10km. The race takes place on January 10, 2027, starting from Pak Chong, Nakhon Ratchasima. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A full marathon held on January 10, 2027, in Pak Chong, Nakhon Ratchasima, Thailand, offering 42.195km, 21.1km, and 10km distances.",
+  "ai_summary": "The B-Quik Khao Yai Marathon 2027 is a full marathon event scheduled for January 10, 2027, in Pak Chong, Nakhon Ratchasima, Thailand. Runners can choose from three distances: 42.195km, 21.1km, and 10km. Registration has not yet been announced. This event suits those looking to combine a marathon challenge with the scenic Khao Yai region of Thailand.",
   "core_facts": {
     "date": "2027-01-10",
     "distance_km": [
       42.195,
       21.1,
-      10.0
+      10
     ],
     "primary_distance_km": 42.195,
     "registration_status": "not_yet_announced",
-    "country": "Thailand",
     "venue": "Pak Chong, Nakhon Ratchasima",
-    "city": "Pak Chong, Nakhon Ratchasima"
+    "city": "Pak Chong, Nakhon Ratchasima",
+    "country": "Thailand"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (42.195km, 21.1km, 10km) to suit different runner levels",
+    "Located in the scenic Khao Yai area of Thailand",
+    "Confirmed event date of January 10, 2027"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 80,
+  "faqs": [
+    {
+      "question": "When is the Khao Yai Marathon 2027 taking place?",
+      "answer": "The B-Quik Khao Yai Marathon 2027 is scheduled to take place on January 10, 2027. The event will be held in Pak Chong, Nakhon Ratchasima, Thailand, and will include multiple race distances for participants to choose from, including a full marathon option."
+    },
+    {
+      "question": "What distances are offered at the Khao Yai Marathon?",
+      "answer": "The Khao Yai Marathon offers three distance options for participants: a full marathon at 42.195km, a half marathon at 21.1km, and a shorter 10km race. This range allows runners of different experience levels and goals to participate in the same event."
+    },
+    {
+      "question": "Where is the Khao Yai Marathon held?",
+      "answer": "The Khao Yai Marathon is held in Pak Chong, located in Nakhon Ratchasima, Thailand. This location places the race within the broader Khao Yai region, a well-known area in the country, and serves as the host venue for the 2027 edition of the event."
+    },
+    {
+      "question": "Is registration open for the Khao Yai Marathon 2027?",
+      "answer": "As of now, registration for the Khao Yai Marathon 2027 has not yet been announced. Prospective participants interested in the 42.195km, 21.1km, or 10km distances will need to wait for further details before they are able to sign up for the event."
+    }
+  ],
+  "reliability_score": 83,
   "tags": [
     "full-marathon",
     "thailand",
@@ -34,7 +57,7 @@
       "url": "https://khaoyaimarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-16"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://aims-worldrunning.org/calendar.html",
@@ -52,6 +75,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-16",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

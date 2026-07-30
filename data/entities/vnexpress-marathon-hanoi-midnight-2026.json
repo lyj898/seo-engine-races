@@ -4,28 +4,51 @@
   "name": "VnExpress Marathon Hanoi Midnight 2026",
   "category_id": "full-marathon",
   "region_id": "vietnam",
-  "short_description": "VnExpress Marathon Hanoi Midnight 2026 takes place November 29, 2026 in Hanoi, Vietnam.",
-  "ai_summary": "VnExpress Marathon Hanoi Midnight 2026 is a road running event in Hanoi, Vietnam, featuring Full Marathon (42K); Half Marathon (21K); 10K; 5K. The race takes place on November 29, 2026, starting from Tran Nhan Tong walking street area. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A full-marathon event in Hanoi, Vietnam on November 29, 2026, offering 42.195 km, 21.1 km, 10 km, and 5 km distances.",
+  "ai_summary": "The VnExpress Marathon Hanoi Midnight 2026 is a full-marathon event scheduled for November 29, 2026, in Hanoi, Vietnam, organized by VnExpress and FPT Online. Set around the Tran Nhan Tong walking street area, the race offers four distance options: 42.195 km, 21.1 km, 10 km, and 5 km. Registration details have not yet been announced, so prospective participants should watch for official updates as the event date approaches.",
   "core_facts": {
     "date": "2026-11-29",
     "distance_km": [
       42.195,
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 42.195,
+    "organizer": "VnExpress / FPT Online",
     "registration_status": "not_yet_announced",
-    "country": "Vietnam",
     "venue": "Tran Nhan Tong walking street area",
     "city": "Hanoi",
-    "organizer": "VnExpress / FPT Online"
+    "country": "Vietnam"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (42.195 km, 21.1 km, 10 km, 5 km) suit different runner levels",
+    "Held in a notable urban location around the Tran Nhan Tong walking street area",
+    "Organized by established media/tech entities VnExpress and FPT Online"
+  ],
+  "cons": [
+    "Registration status has not yet been announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 55,
+  "faqs": [
+    {
+      "question": "When does the VnExpress Marathon Hanoi Midnight 2026 take place?",
+      "answer": "The VnExpress Marathon Hanoi Midnight 2026 is scheduled for November 29, 2026, in Hanoi, Vietnam. The event is organized by VnExpress and FPT Online and will take place around the Tran Nhan Tong walking street area, offering runners multiple distance options to choose from on race day."
+    },
+    {
+      "question": "Is registration open for this race?",
+      "answer": "As of now, registration for the VnExpress Marathon Hanoi Midnight 2026 has not yet been announced by the organizers, VnExpress and FPT Online. Prospective participants should watch for official updates regarding sign-up dates, fees, and any qualifying requirements as the November 29, 2026 event approaches in Hanoi, Vietnam."
+    },
+    {
+      "question": "Where is the race held?",
+      "answer": "The race takes place in Hanoi, Vietnam, centered around the Tran Nhan Tong walking street area. This location serves as the venue for the VnExpress Marathon Hanoi Midnight 2026, hosted by VnExpress and FPT Online, and will accommodate multiple race distances scheduled for November 29, 2026."
+    },
+    {
+      "question": "What distances are offered at this event?",
+      "answer": "The VnExpress Marathon Hanoi Midnight 2026 offers four distance options: a full marathon of 42.195 km, a half marathon of 21.1 km, a 10 km race, and a 5 km race, allowing runners of varying experience levels to participate in Hanoi, Vietnam."
+    }
+  ],
+  "reliability_score": 50,
   "tags": [
     "full-marathon",
     "vietnam"
@@ -35,12 +58,12 @@
       "url": "https://e.vnexpress.net",
       "label": "e.vnexpress.net",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

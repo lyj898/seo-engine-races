@@ -4,8 +4,8 @@
   "name": "Indonesia Women Half Marathon",
   "category_id": "half-marathon",
   "region_id": "indonesia",
-  "short_description": "Indonesia Women Half Marathon takes place May 16, 2027 in Indonesia, Indonesia.",
-  "ai_summary": "Indonesia Women Half Marathon is a road running event in Indonesia, featuring Half Marathon (21.1KM). The race takes place on May 16, 2027. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A 21.1km half marathon in Indonesia scheduled for May 16, 2027, with registration not yet announced.",
+  "ai_summary": "The Indonesia Women Half Marathon is scheduled for May 16, 2027, in Indonesia. The race covers a distance of 21.1 kilometers, the standard half marathon length. Registration for this event has not yet been announced, so prospective participants will need to wait for further details before they can sign up.",
   "core_facts": {
     "date": "2027-05-16",
     "distance_km": [
@@ -15,11 +15,29 @@
     "registration_status": "not_yet_announced",
     "country": "Indonesia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Standard half marathon distance of 21.1km, suitable for runners familiar with the format",
+    "Takes place in Indonesia, offering a race option in that country"
+  ],
+  "cons": [
+    "Registration has not yet been announced, so entry details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 50,
+  "faqs": [
+    {
+      "question": "When is the Indonesia Women Half Marathon taking place?",
+      "answer": "The Indonesia Women Half Marathon is scheduled to take place on May 16, 2027. This date marks the event within Indonesia, and it is currently the only confirmed date information available for this race. No further scheduling details, such as start times, have been announced yet."
+    },
+    {
+      "question": "What distance is the Indonesia Women Half Marathon?",
+      "answer": "The Indonesia Women Half Marathon covers a distance of 21.1 kilometers, which is the standard length for a half marathon race. This is listed as the primary distance for the event, and no other distance options are mentioned in the available facts."
+    },
+    {
+      "question": "How can I register for the Indonesia Women Half Marathon?",
+      "answer": "Registration for the Indonesia Women Half Marathon has not yet been announced. There is currently no information available about sign-up dates, entry fees, or registration platforms. Prospective participants will need to check back later for updates once registration details become available for this Indonesia-based race."
+    }
+  ],
+  "reliability_score": 45,
   "tags": [
     "half-marathon",
     "indonesia"
@@ -29,12 +47,12 @@
       "url": "https://aims-worldrunning.org/calendar.html",
       "label": "aims-worldrunning.org",
       "type": "aggregator",
-      "last_checked": "2026-07-23"
+      "last_checked": "2026-07-30"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-07-23",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

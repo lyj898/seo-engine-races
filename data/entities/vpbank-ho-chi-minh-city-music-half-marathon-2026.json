@@ -4,28 +4,50 @@
   "name": "VPBank Ho Chi Minh City Music Half Marathon 2026",
   "category_id": "half-marathon",
   "region_id": "vietnam",
-  "short_description": "VPBank Ho Chi Minh City Music Half Marathon 2026 takes place August 2, 2026 in Ho Chi Minh City, Vietnam.",
-  "ai_summary": "VPBank Ho Chi Minh City Music Half Marathon 2026 is a road running event in Ho Chi Minh City, Vietnam, featuring Half Marathon (21K); 10K; 5K. The race takes place on August 2, 2026, starting from Công viên Sáng tạo (Innovation Park), An Khánh ward, Thu Thiem. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half marathon in Ho Chi Minh City, Vietnam on August 2, 2026, offering 21.1km, 10km, and 5km distances.",
+  "ai_summary": "The VPBank Ho Chi Minh City Music Half Marathon 2026 takes place on August 2, 2026, at Innovation Park in An Khanh ward, Thu Thiem, Ho Chi Minh City, Vietnam. Runners can choose from three distances: 21.1km, 10km, and 5km. The event is organized by Nexus Sport Events together with VPBank, and registration is currently open.",
   "core_facts": {
     "date": "2026-08-02",
     "distance_km": [
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Nexus Sport Events + VPBank",
     "registration_status": "Open",
-    "country": "Vietnam",
+    "price_range": "VND 21K 1,350,000 / 10K 1,050,000 / 5K 850,000",
     "venue": "Công viên Sáng tạo (Innovation Park), An Khánh ward, Thu Thiem",
     "city": "Ho Chi Minh City",
-    "organizer": "Nexus Sport Events + VPBank",
-    "price_range": "VND 21K 1,350,000 / 10K 1,050,000 / 5K 850,000"
+    "country": "Vietnam"
   },
-  "pros": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km) suit different fitness levels",
+    "Registration is currently open",
+    "Held at Innovation Park in Thu Thiem, a notable venue in Ho Chi Minh City",
+    "Organized by an established partnership between Nexus Sport Events and VPBank"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 70,
+  "faqs": [
+    {
+      "question": "What distances are offered at this race?",
+      "answer": "The VPBank Ho Chi Minh City Music Half Marathon 2026 offers three distance options for participants to choose from: a 21.1km half marathon, a 10km race, and a shorter 5km race, making it accessible to runners with varying levels of experience and fitness."
+    },
+    {
+      "question": "How much does it cost to register?",
+      "answer": "Registration pricing is tiered by distance in Vietnamese dong: the 21.1km half marathon costs 1,350,000 VND, the 10km race costs 1,050,000 VND, and the 5km race costs 850,000 VND. Prices vary depending on which distance a participant chooses to enter."
+    },
+    {
+      "question": "Who is organizing the event?",
+      "answer": "The event is jointly organized by Nexus Sport Events and VPBank, a partnership between an event management company and a banking sponsor. This collaboration brings together race organization expertise and corporate backing for the VPBank Ho Chi Minh City Music Half Marathon 2026."
+    },
+    {
+      "question": "Where and when does the race take place?",
+      "answer": "The race is scheduled for August 2, 2026, and will be held at Công viên Sáng tạo (Innovation Park) in An Khánh ward, Thu Thiem, within Ho Chi Minh City, Vietnam. Registration for the event is currently open to interested runners."
+    }
+  ],
+  "reliability_score": 65,
   "tags": [
     "half-marathon",
     "vietnam"
@@ -35,7 +57,7 @@
       "url": "https://ticket.irace.vn",
       "label": "ticket.irace.vn",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://www.vpbank.com.vn",
@@ -53,6 +75,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

@@ -4,28 +4,51 @@
   "name": "Decathlon Half Marathon 2026 (Cebu)",
   "category_id": "half-marathon",
   "region_id": "philippines",
-  "short_description": "Decathlon Half Marathon 2026 (Cebu) takes place September 26, 2026 in Cebu City, Philippines.",
-  "ai_summary": "Decathlon Half Marathon 2026 (Cebu) is a road running event in Cebu City, Philippines, featuring Half Marathon (21K); 15K; 10K; 5K. The race takes place on September 26, 2026, starting from SM City Cebu. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The Decathlon Half Marathon 2026 is a multi-distance race (21.1km, 15km, 10km, 5km) held on September 26, 2026, at SM City Cebu, Cebu City, Philippines.",
+  "ai_summary": "The Decathlon Half Marathon 2026 is set for September 26, 2026, in Cebu City, Philippines, organized by Decathlon. The event will take place at SM City Cebu and offers four distance options: 21.1km, 15km, 10km, and 5km, catering to a range of runners from beginners to seasoned half marathoners. Registration details have not yet been announced.",
   "core_facts": {
     "date": "2026-09-26",
     "distance_km": [
       21.1,
-      15.0,
-      10.0,
-      5.0
+      15,
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Decathlon",
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "SM City Cebu",
     "city": "Cebu City",
-    "organizer": "Decathlon"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 15km, 10km, 5km) suit different fitness levels",
+    "Convenient, well-known venue at SM City Cebu",
+    "Organized by Decathlon, a recognized international sports brand"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 40,
+  "faqs": [
+    {
+      "question": "When is the Decathlon Half Marathon 2026 in Cebu?",
+      "answer": "The Decathlon Half Marathon 2026 is scheduled to take place on September 26, 2026. The race will be held in Cebu City, Philippines, at the SM City Cebu venue, drawing runners from various distance categories to participate in this organized event."
+    },
+    {
+      "question": "What distance options are available for this race?",
+      "answer": "Participants can choose from four distance categories: a 21.1km half marathon, a 15km race, a 10km race, and a 5km race. This range of options allows both competitive runners and casual participants to select a distance that matches their fitness level and goals."
+    },
+    {
+      "question": "Where exactly is the race held?",
+      "answer": "The Decathlon Half Marathon 2026 will be held at SM City Cebu, located in Cebu City, Philippines. This venue serves as the central hub for the event, hosting all four distance categories: 21.1km, 15km, 10km, and 5km."
+    },
+    {
+      "question": "Is registration currently open for this event?",
+      "answer": "As of now, the registration status for the Decathlon Half Marathon 2026 has not yet been announced. Prospective participants will need to wait for further updates from the organizer, Decathlon, regarding sign-up details, fees, and deadlines closer to the event date."
+    }
+  ],
+  "reliability_score": 35,
   "tags": [
     "half-marathon",
     "philippines"
@@ -35,12 +58,12 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

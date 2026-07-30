@@ -4,8 +4,8 @@
   "name": "RSAWIT International Marathon 2026",
   "category_id": "full-marathon",
   "region_id": "malaysia",
-  "short_description": "RSAWIT International Marathon 2026 takes place November 22, 2026 in Sibu, Sarawak, Malaysia.",
-  "ai_summary": "RSAWIT International Marathon 2026 is a road running event in Sibu, Sarawak, Malaysia, featuring Full Marathon; Half Marathon. The race takes place on November 22, 2026, starting from Dataran Tun Tuanku Bujang Phase 1 & 2 (Sibu Town Square), Sarawak. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A full marathon and half marathon held on November 22, 2026, at Sibu Town Square in Sarawak, Malaysia, with registration currently open.",
+  "ai_summary": "The RSAWIT International Marathon 2026 is a full marathon and half marathon event scheduled for November 22, 2026, in Sibu, Sarawak, Malaysia. The race is centered at Dataran Tun Tuanku Bujang Phase 1 & 2, also known as Sibu Town Square, and offers runners a choice between the 42.195km marathon and the 21.1km half marathon distance. Registration for this event is currently open for interested participants.",
   "core_facts": {
     "date": "2026-11-22",
     "distance_km": [
@@ -14,15 +14,36 @@
     ],
     "primary_distance_km": 42.195,
     "registration_status": "Open",
-    "country": "Malaysia",
     "venue": "Dataran Tun Tuanku Bujang Phase 1 & 2 (Sibu Town Square), Sarawak",
-    "city": "Sibu, Sarawak"
+    "city": "Sibu, Sarawak",
+    "country": "Malaysia"
   },
-  "pros": [],
+  "pros": [
+    "Multiple distance options available: full marathon (42.195km) and half marathon (21.1km)",
+    "Registration is currently open, giving runners ample time to plan and sign up",
+    "Centrally located venue at Dataran Tun Tuanku Bujang (Sibu Town Square), a notable landmark in Sibu"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 45,
+  "faqs": [
+    {
+      "question": "When is the RSAWIT International Marathon 2026?",
+      "answer": "The RSAWIT International Marathon 2026 takes place on November 22, 2026. It is held in Sibu, Sarawak, Malaysia, at the Dataran Tun Tuanku Bujang venue. Runners planning to participate should mark this date, as it is the confirmed schedule for both the full marathon and half marathon distances offered at this event."
+    },
+    {
+      "question": "What distances are offered at this race?",
+      "answer": "This race offers two distance options for participants: a full marathon of 42.195km and a half marathon of 21.1km. The full marathon serves as the primary distance for the event, while the half marathon provides a shorter alternative for runners who prefer that distance in Sibu, Sarawak."
+    },
+    {
+      "question": "Where does the race start and finish?",
+      "answer": "The race is centered at Dataran Tun Tuanku Bujang Phase 1 & 2, also known as Sibu Town Square, located in Sibu, Sarawak, Malaysia. This venue serves as the core location for the RSAWIT International Marathon 2026, hosting both the full marathon and half marathon distances."
+    },
+    {
+      "question": "Is registration still open for this race?",
+      "answer": "Yes, registration for the RSAWIT International Marathon 2026 is currently open. Prospective participants in either the full marathon or half marathon distances can register now ahead of the event date of November 22, 2026, at the Sibu Town Square venue in Sarawak, Malaysia."
+    }
+  ],
+  "reliability_score": 30,
   "tags": [
     "full-marathon",
     "malaysia"
@@ -44,6 +65,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-13",
-  "status": "active"
+  "last_updated": "2026-07-30",
+  "status": "needs_review"
 }

@@ -4,8 +4,8 @@
   "name": "Bintulu Marathon 2026",
   "category_id": "full-marathon",
   "region_id": "malaysia",
-  "short_description": "Bintulu Marathon 2026 takes place August 2, 2026 in Bintulu, Sarawak, Malaysia.",
-  "ai_summary": "Bintulu Marathon 2026 is a road running event in Bintulu, Sarawak, Malaysia, featuring Full Marathon; Half Marathon. The race takes place on August 2, 2026, starting from Bintulu, Sarawak. Registration is Closed as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "Bintulu Marathon 2026 is a full and half marathon event held on August 2, 2026, in Bintulu, Sarawak, Malaysia.",
+  "ai_summary": "Bintulu Marathon 2026 is a full marathon event scheduled for August 2, 2026, in Bintulu, Sarawak, Malaysia. The race offers two distance options, a full marathon of 42.195 km and a half marathon of 21.1 km, giving runners a choice based on their fitness level. Registration for this event is currently closed, so prospective participants cannot sign up at this time.",
   "core_facts": {
     "date": "2026-08-02",
     "distance_km": [
@@ -14,15 +14,38 @@
     ],
     "primary_distance_km": 42.195,
     "registration_status": "Closed",
-    "country": "Malaysia",
     "venue": "Bintulu, Sarawak",
-    "city": "Bintulu, Sarawak"
+    "city": "Bintulu, Sarawak",
+    "country": "Malaysia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Offers two distance options: a full marathon (42.195 km) and a half marathon (21.1 km)",
+    "Takes place in the coastal city of Bintulu, Sarawak, Malaysia",
+    "Has a confirmed, specific event date of August 2, 2026"
+  ],
+  "cons": [
+    "Registration status is listed as Closed, so new entries may not be possible"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 82,
+  "faqs": [
+    {
+      "question": "When is the Bintulu Marathon 2026 held?",
+      "answer": "The Bintulu Marathon 2026 is scheduled to take place on August 2, 2026. This date marks the running of both the full marathon and half marathon distances offered as part of the event, held in Bintulu, Sarawak, Malaysia."
+    },
+    {
+      "question": "What distances are offered at the Bintulu Marathon 2026?",
+      "answer": "The Bintulu Marathon 2026 offers two race distances for participants to choose from: a full marathon of 42.195 km and a half marathon of 21.1 km. The full marathon is listed as the event's primary distance among the two options."
+    },
+    {
+      "question": "Can I still register for the Bintulu Marathon 2026?",
+      "answer": "According to the available information, registration for the Bintulu Marathon 2026 is currently listed as Closed. This means that, based on the provided facts, prospective participants are not able to sign up for the event at this time."
+    },
+    {
+      "question": "Where does the Bintulu Marathon 2026 take place?",
+      "answer": "The Bintulu Marathon 2026 takes place in Bintulu, located in the state of Sarawak, Malaysia. This city serves as the venue for both the full marathon and half marathon distances offered during the event on its scheduled date."
+    }
+  ],
+  "reliability_score": 77,
   "tags": [
     "full-marathon",
     "malaysia",
@@ -33,7 +56,7 @@
       "url": "https://www.bda.gov.my/web/subpage/event_view",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-13"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://checkpointspot.asia/events",
@@ -51,6 +74,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-13",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

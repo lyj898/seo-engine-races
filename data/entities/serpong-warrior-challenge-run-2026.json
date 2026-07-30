@@ -4,26 +4,50 @@
   "name": "Serpong Warrior Challenge Run 2026",
   "category_id": "half-marathon",
   "region_id": "indonesia",
-  "short_description": "Serpong Warrior Challenge Run 2026 takes place September 27, 2026 in Tangerang Selatan, Banten, Indonesia.",
-  "ai_summary": "Serpong Warrior Challenge Run 2026 is a road running event in Tangerang Selatan, Banten, Indonesia, featuring Half Marathon; 12km; 7km; 5km. The race takes place on September 27, 2026, starting from Summarecon Mall Serpong, Tangerang Selatan, Banten. Registration is Not Yet Announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half-marathon event on September 27, 2026 at Summarecon Mall Serpong, Tangerang Selatan, Banten, Indonesia, with 21.1km, 12km, 7km, and 5km distance options.",
+  "ai_summary": "Serpong Warrior Challenge Run 2026 is a half-marathon event taking place on September 27, 2026, at Summarecon Mall Serpong in Tangerang Selatan, Banten, Indonesia. The race offers four distance options: 21.1km, 12km, 7km, and 5km, catering to a range of runner abilities. Registration is currently open for those interested in participating.",
   "core_facts": {
     "date": "2026-09-27",
     "distance_km": [
       21.1,
-      12.0,
-      7.0,
-      5.0
+      12,
+      7,
+      5
     ],
     "primary_distance_km": 21.1,
-    "registration_status": "Not Yet Announced",
-    "country": "Indonesia",
+    "registration_status": "Open",
     "venue": "Summarecon Mall Serpong, Tangerang Selatan, Banten",
-    "city": "Tangerang Selatan, Banten"
+    "city": "Tangerang Selatan, Banten",
+    "country": "Indonesia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 12km, 7km, 5km) suit different runner levels",
+    "Half-marathon (21.1km) is the primary distance for those seeking a bigger challenge",
+    "Registration is currently open",
+    "Convenient venue at Summarecon Mall Serpong, an accessible location in Tangerang Selatan"
+  ],
+  "cons": [
+    "Limited additional details available beyond core race facts"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Serpong Warrior Challenge Run 2026?",
+      "answer": "The race is scheduled for September 27, 2026. It will be held at Summarecon Mall Serpong in Tangerang Selatan, Banten, Indonesia. Registration for the event is currently open for interested participants."
+    },
+    {
+      "question": "What distances are offered at this race?",
+      "answer": "The event offers four distance categories: 21.1km (half-marathon), 12km, 7km, and 5km. This gives participants a range of options depending on their fitness level and racing goals, with the half-marathon being the primary distance."
+    },
+    {
+      "question": "Where does the race take place?",
+      "answer": "The Serpong Warrior Challenge Run 2026 takes place at Summarecon Mall Serpong, located in Tangerang Selatan, Banten, Indonesia. This venue serves as the starting point for all four distance categories offered at the event."
+    },
+    {
+      "question": "Is registration currently available?",
+      "answer": "Yes, registration for the Serpong Warrior Challenge Run 2026 is currently open. Interested runners can sign up ahead of the September 27, 2026 race date to secure their spot in one of the four available distance categories."
+    }
+  ],
   "reliability_score": 82,
   "tags": [
     "half-marathon",
@@ -35,7 +59,7 @@
       "url": "https://warriorchallenge.id",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-13"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
@@ -59,6 +83,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-13",
-  "status": "active"
+  "last_updated": "2026-07-30",
+  "status": "needs_review"
 }

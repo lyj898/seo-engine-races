@@ -4,24 +4,45 @@
   "name": "Setiawangsa Half Marathon 2026",
   "category_id": "half-marathon",
   "region_id": "malaysia",
-  "short_description": "Setiawangsa Half Marathon 2026 takes place October 18, 2026 in Kuala Lumpur, Malaysia.",
-  "ai_summary": "Setiawangsa Half Marathon 2026 is a road running event in Kuala Lumpur, Malaysia, featuring Half Marathon (21KM). The race takes place on October 18, 2026, starting from AEON Mall AU2 Setiawangsa, Kuala Lumpur. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The Setiawangsa Half Marathon 2026 is a 21.1 km half-marathon held on October 18, 2026, at AEON Mall AU2 Setiawangsa in Kuala Lumpur, Malaysia.",
+  "ai_summary": "The Setiawangsa Half Marathon 2026 is a half-marathon event scheduled for October 18, 2026, in Kuala Lumpur, Malaysia. The race starts at AEON Mall AU2 Setiawangsa and covers a primary distance of 21.1 km, matching the standard half-marathon distance of 21 km. Registration for the event is currently open, allowing runners to sign up ahead of race day.",
   "core_facts": {
     "date": "2026-10-18",
     "distance_km": [
-      21.0
+      21
     ],
     "primary_distance_km": 21.1,
     "registration_status": "Open",
-    "country": "Malaysia",
     "venue": "AEON Mall AU2 Setiawangsa, Kuala Lumpur",
-    "city": "Kuala Lumpur"
+    "city": "Kuala Lumpur",
+    "country": "Malaysia"
   },
-  "pros": [],
+  "pros": [
+    "Registration is currently open, giving runners ample time to plan and sign up",
+    "Convenient venue at AEON Mall AU2 Setiawangsa, a well-known location in Kuala Lumpur",
+    "Standard half-marathon distance of 21.1 km suitable for runners training for this classic race length"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 45,
+  "faqs": [
+    {
+      "question": "When is the Setiawangsa Half Marathon 2026?",
+      "answer": "The Setiawangsa Half Marathon 2026 is scheduled to take place on October 18, 2026. The event will be held in Kuala Lumpur, Malaysia, giving participants a full year in advance to prepare and register for this half-marathon distance race."
+    },
+    {
+      "question": "What distance does the race cover?",
+      "answer": "The Setiawangsa Half Marathon 2026 covers a primary distance of 21.1 kilometers, which is the standard half-marathon distance. This 21 km race format is designed for runners seeking a challenging but manageable long-distance running event in Kuala Lumpur."
+    },
+    {
+      "question": "Where does the race take place?",
+      "answer": "The race takes place at AEON Mall AU2 Setiawangsa, located in Kuala Lumpur, Malaysia. This venue serves as the central point for the event, making it accessible for participants traveling within the city and surrounding areas of Kuala Lumpur."
+    },
+    {
+      "question": "Is registration open for this race?",
+      "answer": "Yes, registration for the Setiawangsa Half Marathon 2026 is currently open. Interested runners can sign up ahead of the October 18, 2026 race date, allowing plenty of time to complete registration and prepare for the 21.1 km half-marathon event."
+    }
+  ],
+  "reliability_score": 30,
   "tags": [
     "half-marathon",
     "malaysia"
@@ -49,6 +70,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-23",
-  "status": "active"
+  "last_updated": "2026-07-30",
+  "status": "needs_review"
 }

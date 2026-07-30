@@ -1,0 +1,65 @@
+{
+  "entity_id": "angkor-wat-international-half-marathon",
+  "slug": "angkor-wat-international-half-marathon",
+  "name": "Angkor Wat International Half Marathon",
+  "category_id": "half-marathon",
+  "region_id": "cambodia",
+  "short_description": "The Angkor Wat International Half Marathon is a 21.1km race held in Krong Siem Reap, Cambodia on 06 Dec, 2026.",
+  "ai_summary": "The Angkor Wat International Half Marathon is a 21.1km road race scheduled for 06 Dec, 2026 (Sunday) in Krong Siem Reap, Cambodia. Entry starts from 35 USD, making it an accessible option for runners looking to combine an international half marathon with a visit to the Angkor Wat region. The race offers a single half marathon distance for participants.",
+  "core_facts": {
+    "date": "06 Dec, 2026 (Sun)",
+    "distance_km": [
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "price_range": "From 35 USD",
+    "city": "Krong Siem Reap",
+    "country": "Cambodia"
+  },
+  "pros": [
+    "Takes place in the historic Angkor Wat region of Siem Reap, Cambodia",
+    "Affordable entry starting from 35 USD",
+    "Clear, single half marathon distance of 21.1km"
+  ],
+  "cons": [
+    "Only one distance option (21.1km) is available, limiting choice for runners seeking shorter or longer races"
+  ],
+  "excerpt_quotes": [],
+  "faqs": [
+    {
+      "question": "When is the Angkor Wat International Half Marathon held?",
+      "answer": "The race is scheduled for 06 Dec, 2026, which falls on a Sunday. This date places the event in early December, and it is held annually in Krong Siem Reap, Cambodia, giving international runners a set date to plan their travel and training around this half marathon."
+    },
+    {
+      "question": "How much does it cost to enter?",
+      "answer": "Entry pricing for the Angkor Wat International Half Marathon starts from 35 USD. This starting price point makes the race an accessible option for both local and international participants who want to take part in this half marathon event in Cambodia without a high upfront registration cost."
+    },
+    {
+      "question": "What distance is the race?",
+      "answer": "The Angkor Wat International Half Marathon offers a single distance of 21.1 kilometers, the standard half marathon length. This is the only distance option listed for the event, so all participants registering for this race will be covering the same 21.1km course on race day."
+    },
+    {
+      "question": "Where does the race take place?",
+      "answer": "The race takes place in Krong Siem Reap, Cambodia, a city known for its proximity to the Angkor Wat temple complex. This location makes the half marathon appealing to international runners who may want to combine race participation with a visit to the surrounding Angkor Wat area."
+    }
+  ],
+  "reliability_score": 40,
+  "tags": [
+    "half marathon",
+    "international",
+    "temple"
+  ],
+  "source_mix": [
+    {
+      "url": "https://ahotu.com",
+      "label": "ahotu.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-30"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-30",
+  "status": "needs_review"
+}

@@ -4,23 +4,46 @@
   "name": "Kulai Half Marathon 2026 Powered by JomRun®",
   "category_id": "half-marathon",
   "region_id": "malaysia",
-  "short_description": "Kulai Half Marathon 2026 Powered by JomRun® takes place November 15, 2026 in Kulai, Johor, Malaysia.",
-  "ai_summary": "Kulai Half Marathon 2026 Powered by JomRun® is a road running event in Kulai, Johor, Malaysia, featuring Half Marathon. The race takes place on November 15, 2026, starting from AEON Mall Kulaijaya. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The Kulai Half Marathon 2026 is a half marathon event on 15 November 2026 at AEON Mall Kulaijaya, Kulai, Johor, Malaysia.",
+  "ai_summary": "The Kulai Half Marathon 2026 Powered by JomRun® is a road race scheduled for 15 November 2026 at AEON Mall Kulaijaya in Kulai, Johor, Malaysia. Runners can choose from three distances: 5km, 10km, and the primary 21.1km half marathon. Registration for the event is currently open.",
   "core_facts": {
     "date": "2026-11-15",
     "distance_km": [
+      5,
+      10,
       21.1
     ],
     "primary_distance_km": 21.1,
     "registration_status": "Open",
-    "country": "Malaysia",
     "venue": "AEON Mall Kulaijaya",
-    "city": "Kulai, Johor"
+    "city": "Kulai, Johor",
+    "country": "Malaysia"
   },
-  "pros": [],
+  "pros": [
+    "Multiple distance options (5km, 10km, 21.1km) suit different runner levels",
+    "Registration is currently open",
+    "Convenient venue at AEON Mall Kulaijaya"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Kulai Half Marathon 2026 taking place?",
+      "answer": "The Kulai Half Marathon 2026 Powered by JomRun® is scheduled to take place on 15 November 2026. The event will be held at AEON Mall Kulaijaya, located in Kulai, Johor, Malaysia, offering runners a full day of racing across several distance categories."
+    },
+    {
+      "question": "What distances can I run at this event?",
+      "answer": "Participants in the Kulai Half Marathon 2026 can choose from three distance options: 5km, 10km, and 21.1km. The 21.1km half marathon serves as the primary distance for the event, while the 5km and 10km options cater to other runners."
+    },
+    {
+      "question": "Is registration currently open for this race?",
+      "answer": "Yes, registration for the Kulai Half Marathon 2026 Powered by JomRun® is currently listed as open. Prospective participants interested in taking part in the 5km, 10km, or 21.1km categories can sign up for the race while registration remains available."
+    },
+    {
+      "question": "Where is the race located?",
+      "answer": "The Kulai Half Marathon 2026 will be held at AEON Mall Kulaijaya, situated in Kulai, Johor, Malaysia. This venue serves as the starting point for the race, which includes 5km, 10km, and 21.1km distance categories for participants."
+    }
+  ],
   "reliability_score": 45,
   "tags": [
     "half-marathon",
@@ -31,7 +54,7 @@
       "url": "https://www.jomrun.com/event/Kulai-Half-Marathon-2026-Powered-by-JomRun",
       "label": "jomrun.com",
       "type": "aggregator",
-      "last_checked": "2026-07-13"
+      "last_checked": "2026-07-30"
     }
   ],
   "affiliate_links": [],
@@ -43,6 +66,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-13",
-  "status": "active"
+  "last_updated": "2026-07-30",
+  "status": "needs_review"
 }

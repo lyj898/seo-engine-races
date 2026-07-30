@@ -4,27 +4,50 @@
   "name": "Mae Moh Half Marathon",
   "category_id": "half-marathon",
   "region_id": "thailand",
-  "short_description": "Mae Moh Half Marathon takes place October 25, 2026 in Mae Moh, Lampang, Thailand.",
-  "ai_summary": "Mae Moh Half Marathon is a road running event in Mae Moh, Lampang, Thailand, featuring Half Marathon (21.1km); 10km; 5km. The race takes place on October 25, 2026, starting from Mae Moh, Lampang. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The Mae Moh Half Marathon is a 21.1 km, 10 km, and 5 km event held in Mae Moh, Lampang, Thailand on October 25, 2026.",
+  "ai_summary": "The Mae Moh Half Marathon is a race organized by the Electricity Generating Authority of Thailand (EGAT), scheduled for October 25, 2026, in Mae Moh, Lampang, Thailand. It offers three distance options: a half marathon of 21.1 km, a 10 km run, and a 5 km run. Registration details have not yet been announced.",
   "core_facts": {
     "date": "2026-10-25",
     "distance_km": [
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Electricity Generating Authority of Thailand (EGAT)",
     "registration_status": "not_yet_announced",
-    "country": "Thailand",
     "venue": "Mae Moh, Lampang",
     "city": "Mae Moh, Lampang",
-    "organizer": "Electricity Generating Authority of Thailand (EGAT)"
+    "country": "Thailand"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1 km, 10 km, 5 km) to suit different runner levels",
+    "Organized by a well-established body, the Electricity Generating Authority of Thailand (EGAT)",
+    "Set date confirmed for October 25, 2026, allowing early planning"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 82,
+  "faqs": [
+    {
+      "question": "What distances are offered at the Mae Moh Half Marathon?",
+      "answer": "The Mae Moh Half Marathon offers three distance options for participants: a 21.1 km half marathon, a 10 km race, and a 5 km race. This range allows runners of different experience levels and fitness goals to choose a distance that suits them, from casual 5 km participants to competitive half marathoners."
+    },
+    {
+      "question": "Where does the Mae Moh Half Marathon take place?",
+      "answer": "The race is held in Mae Moh, Lampang, Thailand. This location serves as the venue for all three distance events—21.1 km, 10 km, and 5 km—organized by the Electricity Generating Authority of Thailand (EGAT) on October 25, 2026."
+    },
+    {
+      "question": "Who organizes the Mae Moh Half Marathon?",
+      "answer": "The Mae Moh Half Marathon is organized by the Electricity Generating Authority of Thailand (EGAT). EGAT oversees the event's planning and execution, which takes place in Mae Moh, Lampang, Thailand, and includes three race distances: 21.1 km, 10 km, and 5 km."
+    },
+    {
+      "question": "Is registration open for the Mae Moh Half Marathon?",
+      "answer": "As of now, registration for the Mae Moh Half Marathon has not yet been announced. Prospective participants will need to wait for official updates from the Electricity Generating Authority of Thailand (EGAT) regarding sign-up dates and procedures for the October 25, 2026 event."
+    }
+  ],
+  "reliability_score": 77,
   "tags": [
     "half-marathon",
     "thailand",
@@ -35,7 +58,7 @@
       "url": "https://www.egat.co.th",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://aims-worldrunning.org/calendar.html",
@@ -59,6 +82,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

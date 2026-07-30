@@ -4,28 +4,51 @@
   "name": "Sante Barley Trilogy Run Asia 2026 – CDO Leg 3",
   "category_id": "half-marathon",
   "region_id": "philippines",
-  "short_description": "Sante Barley Trilogy Run Asia 2026 – CDO Leg 3 takes place September 20, 2026 in Cagayan de Oro, Philippines.",
-  "ai_summary": "Sante Barley Trilogy Run Asia 2026 – CDO Leg 3 is a road running event in Cagayan de Oro, Philippines, featuring 32KM, Half Marathon (21KM), 10KM, 5KM. The race takes place on September 20, 2026, starting from SM City CDO Uptown. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A multi-distance race event, including a half-marathon, set for September 20, 2026 at SM City CDO Uptown in Cagayan de Oro, Philippines.",
+  "ai_summary": "Sante Barley Trilogy Run Asia 2026 – CDO Leg 3 is a half-marathon-anchored race scheduled for September 20, 2026, in Cagayan de Oro, Philippines. Organized by Runrio under the Sante Barley Trilogy Run Asia brand, the event will be based at SM City CDO Uptown and offers multiple distance options: 32km, 21.1km (the primary distance), 10km, and 5km. Registration details have not yet been announced.",
   "core_facts": {
     "date": "2026-09-20",
     "distance_km": [
-      32.0,
-      21.0,
-      10.0,
-      5.0
+      32,
+      21,
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Runrio (brand: Sante Barley Trilogy Run Asia)",
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "SM City CDO Uptown",
     "city": "Cagayan de Oro",
-    "organizer": "Runrio (brand: Sante Barley Trilogy Run Asia)"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (32km, 21.1km, 10km, 5km) cater to a range of runner abilities",
+    "Organized by Runrio, an established name behind the Sante Barley Trilogy Run Asia series",
+    "Centrally located venue at SM City CDO Uptown"
+  ],
+  "cons": [
+    "Registration status has not yet been announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 80,
+  "faqs": [
+    {
+      "question": "When is the Sante Barley Trilogy Run Asia 2026 – CDO Leg 3?",
+      "answer": "This race is scheduled to take place on September 20, 2026. It will be held at SM City CDO Uptown in Cagayan de Oro, Philippines, as part of the Sante Barley Trilogy Run Asia series organized by Runrio, covering multiple race distances on that date."
+    },
+    {
+      "question": "What distances are offered in this race?",
+      "answer": "The event offers four distance options: 32km, 21.1km, 10km, and 5km. The 21.1km half-marathon distance is designated as the primary distance for this leg, though runners can choose whichever distance best suits their fitness level and racing goals among those available."
+    },
+    {
+      "question": "Who organizes this race?",
+      "answer": "The race is organized by Runrio, operating under the brand name Sante Barley Trilogy Run Asia. This CDO Leg 3 event is part of that broader race series, taking place in Cagayan de Oro, Philippines, at the SM City CDO Uptown venue."
+    },
+    {
+      "question": "Is registration open yet for this race?",
+      "answer": "No, registration for this race has not yet been announced. Details on how and when to sign up, along with pricing and category information, have not been released yet, so prospective participants will need to watch for further updates from the organizer."
+    }
+  ],
+  "reliability_score": 75,
   "tags": [
     "half-marathon",
     "philippines",
@@ -36,7 +59,7 @@
       "url": "https://runrio.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://runrio.com/race-calendar",
@@ -54,6 +77,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

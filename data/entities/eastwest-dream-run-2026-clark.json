@@ -4,29 +4,52 @@
   "name": "EastWest Dream Run 2026 - Clark",
   "category_id": "half-marathon",
   "region_id": "philippines",
-  "short_description": "EastWest Dream Run 2026 - Clark takes place August 30, 2026 in Clark, Philippines.",
-  "ai_summary": "EastWest Dream Run 2026 - Clark is a road running event in Clark, Philippines, featuring Half Marathon (21KM), 10KM, 5KM, 3KM, 1KM. The race takes place on August 30, 2026, starting from Filinvest Mimosa, Clark. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half-marathon and multi-distance run held on August 30, 2026, at Filinvest Mimosa, Clark, Philippines.",
+  "ai_summary": "The EastWest Dream Run 2026 - Clark is a half-marathon event scheduled for August 30, 2026, at Filinvest Mimosa in Clark, Philippines. Organized by Runrio under the EastWest Dream Run brand, it offers multiple distance options including 21, 10, 5, 3, and 1 kilometers, with the half-marathon (21.1km) as the primary distance. Registration details have not yet been announced.",
   "core_facts": {
     "date": "2026-08-30",
     "distance_km": [
-      21.0,
-      10.0,
-      5.0,
-      3.0,
-      1.0
+      21,
+      10,
+      5,
+      3,
+      1
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Runrio (brand: EastWest Dream Run)",
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "Filinvest Mimosa, Clark",
     "city": "Clark",
-    "organizer": "Runrio (brand: EastWest Dream Run)"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21, 10, 5, 3, and 1 km) suit different runner levels",
+    "Organized by Runrio, an established race organizer under the EastWest Dream Run brand",
+    "Held at Filinvest Mimosa, a dedicated venue in Clark"
+  ],
+  "cons": [
+    "Registration status has not yet been announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 80,
+  "faqs": [
+    {
+      "question": "When is the EastWest Dream Run 2026 - Clark taking place?",
+      "answer": "The EastWest Dream Run 2026 - Clark is scheduled to take place on August 30, 2026. The event will be held at Filinvest Mimosa in Clark, Philippines, offering runners several distance categories to choose from on that date."
+    },
+    {
+      "question": "What distances are offered at this race?",
+      "answer": "This race offers five distance options for participants: 21 kilometers (the primary half-marathon distance), along with 10 kilometers, 5 kilometers, 3 kilometers, and 1 kilometer, allowing runners of varying experience levels and goals to take part."
+    },
+    {
+      "question": "Who organizes the EastWest Dream Run 2026 - Clark?",
+      "answer": "The event is organized by Runrio, operating under the EastWest Dream Run brand. Runrio is responsible for coordinating the race, which will be held at the Filinvest Mimosa venue in Clark, Philippines, on August 30, 2026."
+    },
+    {
+      "question": "Is registration open for this race?",
+      "answer": "As of now, the registration status for the EastWest Dream Run 2026 - Clark has not yet been announced. Prospective participants should check back for updates regarding sign-up details, fees, and availability closer to the event date."
+    }
+  ],
+  "reliability_score": 75,
   "tags": [
     "half-marathon",
     "philippines",
@@ -37,7 +60,7 @@
       "url": "https://runrio.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://runrio.com/race-calendar",
@@ -55,6 +78,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

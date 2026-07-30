@@ -4,26 +4,49 @@
   "name": "PUMA Philippine Half Marathon Series 2026 - CDO",
   "category_id": "half-marathon",
   "region_id": "philippines",
-  "short_description": "PUMA Philippine Half Marathon Series 2026 - CDO takes place September 6, 2026 in Cagayan de Oro, Philippines.",
-  "ai_summary": "PUMA Philippine Half Marathon Series 2026 - CDO is a road running event in Cagayan de Oro, Philippines, featuring Half Marathon (21KM), 10KM, 5KM. The race takes place on September 6, 2026, starting from Centrio Mall, Cagayan de Oro. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half marathon event in Cagayan de Oro, Philippines, taking place on September 6, 2026, with 21.1km, 10km, and 5km distance options.",
+  "ai_summary": "The PUMA Philippine Half Marathon Series 2026 - CDO is scheduled for September 6, 2026, at Centrio Mall in Cagayan de Oro, Philippines. Organized by Runrio under the PUMA Philippine Half Marathon Series brand, the event offers three distance options: 21.1km, 10km, and 5km, with the half marathon as the primary distance. Registration details have not yet been announced.",
   "core_facts": {
     "date": "2026-09-06",
     "distance_km": [
-      21.0,
-      10.0,
-      5.0
+      21,
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Runrio (brand: PUMA Philippine Half Marathon Series)",
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "Centrio Mall, Cagayan de Oro",
     "city": "Cagayan de Oro",
-    "organizer": "Runrio (brand: PUMA Philippine Half Marathon Series)"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km) cater to different runner levels",
+    "Organized by Runrio, an established name behind the PUMA Philippine Half Marathon Series",
+    "Centrally located at Centrio Mall in Cagayan de Oro, a well-known venue"
+  ],
+  "cons": [
+    "Registration status has not yet been announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the PUMA Philippine Half Marathon Series 2026 - CDO taking place?",
+      "answer": "The race is scheduled to take place on September 6, 2026. It will be held at Centrio Mall in Cagayan de Oro, Philippines, as part of the PUMA Philippine Half Marathon Series organized by Runrio for that year's calendar."
+    },
+    {
+      "question": "What distances are offered at this race?",
+      "answer": "Participants can choose from three distance options at this event: a 21.1km half marathon, a 10km race, and a 5km race. The 21.1km half marathon is considered the primary distance for the PUMA Philippine Half Marathon Series 2026 - CDO event."
+    },
+    {
+      "question": "Who is organizing this race?",
+      "answer": "The race is organized by Runrio, operating under the PUMA Philippine Half Marathon Series brand. Runrio is responsible for coordinating this event, which takes place in Cagayan de Oro, Philippines, as part of its 2026 half marathon series lineup."
+    },
+    {
+      "question": "Is registration open for this race?",
+      "answer": "As of now, registration for the PUMA Philippine Half Marathon Series 2026 - CDO has not yet been announced. Prospective participants should check back for updates on when sign-ups will open ahead of the September 6, 2026 event date."
+    }
+  ],
   "reliability_score": 80,
   "tags": [
     "half-marathon",
@@ -35,7 +58,7 @@
       "url": "https://runrio.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://runrio.com/race-calendar",
@@ -53,6 +76,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

@@ -4,26 +4,49 @@
   "name": "Surabaya Marathon 2026",
   "category_id": "full-marathon",
   "region_id": "indonesia",
-  "short_description": "Surabaya Marathon 2026 takes place August 2, 2026 in Surabaya, Indonesia.",
-  "ai_summary": "Surabaya Marathon 2026 is a road running event in Surabaya, Indonesia, featuring Full Marathon; Half Marathon; 10km; 5km. The race takes place on August 2, 2026, starting from Parkir Timur Plaza Surabaya. Registration is Not Yet Announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "Surabaya Marathon 2026 is a full-marathon event held on 2 August 2026 in Surabaya, Indonesia, with 42.195 km, 21.1 km, 10 km, and 5 km distance options.",
+  "ai_summary": "Surabaya Marathon 2026 is a full-marathon event taking place on 2 August 2026 at Parkir Timur Plaza Surabaya in Surabaya, Indonesia. The race offers four distance options: 42.195 km, 21.1 km, 10 km, and 5 km, catering to runners of different experience levels. Registration is scheduled to open on Thursday, 26 March 2026 at 12:00.",
   "core_facts": {
     "date": "2026-08-02",
     "distance_km": [
       42.195,
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 42.195,
-    "registration_status": "Not Yet Announced",
-    "country": "Indonesia",
+    "registration_status": "Opens Thursday, 26 March 2026 12:00",
     "venue": "Parkir Timur Plaza Surabaya",
-    "city": "Surabaya"
+    "city": "Surabaya",
+    "country": "Indonesia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (42.195 km, 21.1 km, 10 km, 5 km) suit various runner levels",
+    "Central venue at Parkir Timur Plaza Surabaya in the city of Surabaya",
+    "Clear registration opening date and time provided in advance"
+  ],
+  "cons": [
+    "Limited details available beyond date, distances, venue, and registration timing"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Surabaya Marathon 2026?",
+      "answer": "The Surabaya Marathon 2026 is scheduled to take place on 2 August 2026. The event will be held at Parkir Timur Plaza Surabaya in the city of Surabaya, Indonesia, offering runners several distance categories including the full marathon, half marathon, 10 km, and 5 km races."
+    },
+    {
+      "question": "When does registration open for the Surabaya Marathon 2026?",
+      "answer": "Registration for the Surabaya Marathon 2026 opens on Thursday, 26 March 2026, at 12:00. This gives prospective participants a specific date and time to plan for signing up ahead of the race day scheduled for 2 August 2026 in Surabaya, Indonesia."
+    },
+    {
+      "question": "Where is the Surabaya Marathon 2026 held?",
+      "answer": "The Surabaya Marathon 2026 is held at Parkir Timur Plaza Surabaya, located in the city of Surabaya, Indonesia. This venue serves as the starting point for the event's multiple race distances, including the 42.195 km full marathon, 21.1 km half marathon, 10 km, and 5 km races."
+    },
+    {
+      "question": "What distance options are available at the Surabaya Marathon 2026?",
+      "answer": "The Surabaya Marathon 2026 offers four distance categories: a full marathon of 42.195 km, a half marathon of 21.1 km, a 10 km race, and a 5 km race. This range allows both experienced marathoners and casual runners to participate in the event held in Surabaya, Indonesia."
+    }
+  ],
   "reliability_score": 82,
   "tags": [
     "full-marathon",
@@ -35,7 +58,7 @@
       "url": "https://surabayamarathon.id",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-13"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
@@ -59,6 +82,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-13",
-  "status": "active"
+  "last_updated": "2026-07-30",
+  "status": "needs_review"
 }

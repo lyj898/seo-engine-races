@@ -4,25 +4,48 @@
   "name": "Sorsogon Kasanggayahan Marathon 2026",
   "category_id": "full-marathon",
   "region_id": "philippines",
-  "short_description": "Sorsogon Kasanggayahan Marathon 2026 takes place October 18, 2026 in Sorsogon City, Philippines.",
-  "ai_summary": "Sorsogon Kasanggayahan Marathon 2026 is a road running event in Sorsogon City, Philippines, featuring Full Marathon (42K). The race takes place on October 18, 2026, starting from Sorsogon Sports Arena, Sorsogon City. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A 42.195 km full marathon set for October 18, 2026 at the Sorsogon Sports Arena in Sorsogon City, Philippines.",
+  "ai_summary": "The Sorsogon Kasanggayahan Marathon 2026 is a full marathon covering 42.195 km, scheduled for October 18, 2026. It will take place at the Sorsogon Sports Arena in Sorsogon City, Philippines, and is organized by Off Ground Events. Registration details have not yet been announced, so prospective runners should check back for updates on how to sign up.",
   "core_facts": {
     "date": "2026-10-18",
     "distance_km": [
       42.195
     ],
     "primary_distance_km": 42.195,
+    "organizer": "Off Ground Events",
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "Sorsogon Sports Arena, Sorsogon City",
     "city": "Sorsogon City",
-    "organizer": "Off Ground Events"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Full marathon distance (42.195 km) for serious distance runners",
+    "Set at a dedicated venue, the Sorsogon Sports Arena in Sorsogon City",
+    "Organized by an established event organizer, Off Ground Events"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 40,
+  "faqs": [
+    {
+      "question": "When is the Sorsogon Kasanggayahan Marathon 2026?",
+      "answer": "The Sorsogon Kasanggayahan Marathon 2026 is scheduled to take place on October 18, 2026. This date marks the full marathon event organized by Off Ground Events at the Sorsogon Sports Arena in Sorsogon City, Philippines. No further scheduling details, such as start times, have been provided yet."
+    },
+    {
+      "question": "What distance is the Sorsogon Kasanggayahan Marathon?",
+      "answer": "The Sorsogon Kasanggayahan Marathon 2026 is a full marathon covering a distance of 42.195 kilometers. This is the primary and only listed distance for the event, making it suitable for runners specifically training for and seeking a complete marathon race experience."
+    },
+    {
+      "question": "Where is the race held?",
+      "answer": "The race is held at the Sorsogon Sports Arena, located in Sorsogon City, Philippines. This venue serves as the site for the full marathon event organized by Off Ground Events, scheduled to take place on October 18, 2026."
+    },
+    {
+      "question": "Can I register for the race now?",
+      "answer": "Registration for the Sorsogon Kasanggayahan Marathon 2026 has not yet been announced. Details on how and when to sign up are currently unavailable, so interested runners should watch for future updates regarding the official registration process and any associated requirements."
+    }
+  ],
+  "reliability_score": 35,
   "tags": [
     "full-marathon",
     "philippines"
@@ -32,12 +55,12 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

@@ -4,29 +4,52 @@
   "name": "National MILO Marathon 2026 – Cebu Leg",
   "category_id": "half-marathon",
   "region_id": "philippines",
-  "short_description": "National MILO Marathon 2026 – Cebu Leg takes place September 6, 2026 in Cebu City, Philippines.",
-  "ai_summary": "National MILO Marathon 2026 – Cebu Leg is a road running event in Cebu City, Philippines, featuring 1K; 3K; 5K; 10K; 21K Half Marathon (42K category not independently confirmed for this leg). The race takes place on September 6, 2026, starting from Cebu City. Registration is Not yet confirmed open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The National MILO Marathon 2026 – Cebu Leg is a half-marathon-anchored race set for September 6, 2026 in Cebu City, Philippines.",
+  "ai_summary": "The National MILO Marathon 2026 – Cebu Leg is scheduled for September 6, 2026, in Cebu City, Philippines. Organized by RUNRIO Inc. under the long-running MILO Marathon banner, the event offers multiple distance options including 1km, 3km, 5km, 10km, and a half marathon of 21.1km as the primary distance. Registration has not yet been confirmed as open.",
   "core_facts": {
     "date": "2026-09-06",
     "distance_km": [
-      1.0,
-      3.0,
-      5.0,
-      10.0,
+      1,
+      3,
+      5,
+      10,
       21.1
     ],
     "primary_distance_km": 21.1,
+    "organizer": "RUNRIO Inc. (MILO Marathon)",
     "registration_status": "Not yet confirmed open",
-    "country": "Philippines",
     "venue": "Cebu City",
     "city": "Cebu City",
-    "organizer": "RUNRIO Inc. (MILO Marathon)"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (1km, 3km, 5km, 10km, 21.1km) suit a range of runner abilities",
+    "Organized by RUNRIO Inc., the established organizer behind the nationally recognized MILO Marathon series",
+    "Takes place in Cebu City, a well-known Philippine destination"
+  ],
+  "cons": [
+    "Registration status is not yet confirmed as open, so participants cannot sign up yet"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 60,
+  "faqs": [
+    {
+      "question": "When is the National MILO Marathon 2026 – Cebu Leg?",
+      "answer": "The race is scheduled to take place on September 6, 2026. It will be held in Cebu City, Philippines. This date marks the Cebu leg of the broader National MILO Marathon series organized by RUNRIO Inc. for that year."
+    },
+    {
+      "question": "What distances are offered at this race?",
+      "answer": "The event offers five distance categories: 1km, 3km, 5km, 10km, and 21.1km. The 21.1km half marathon is listed as the primary distance for this race, giving participants a range of options depending on their fitness level and experience."
+    },
+    {
+      "question": "Is registration open for this event?",
+      "answer": "As of the available information, registration for the National MILO Marathon 2026 – Cebu Leg has not yet been confirmed as open. Prospective participants should check back for updates on when sign-ups will officially begin for this Cebu City race."
+    },
+    {
+      "question": "Who organizes this race?",
+      "answer": "The National MILO Marathon 2026 – Cebu Leg is organized by RUNRIO Inc., the group behind the long-running MILO Marathon event series in the Philippines. This Cebu leg is part of the broader national marathon program held across multiple cities."
+    }
+  ],
+  "reliability_score": 55,
   "tags": [
     "half-marathon",
     "philippines"
@@ -36,7 +59,7 @@
       "url": "https://www.milo.com.ph/national-milo-marathon",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://pinoyfitness.com/2026/01/milo-marathon-2026-full-race-schedule-and-locations-unveiled",
@@ -54,6 +77,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

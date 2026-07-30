@@ -4,28 +4,52 @@
   "name": "Sante Barley Trilogy Run Asia 2026 – Cebu Leg 3",
   "category_id": "half-marathon",
   "region_id": "philippines",
-  "short_description": "Sante Barley Trilogy Run Asia 2026 – Cebu Leg 3 takes place September 13, 2026 in Cebu City, Philippines.",
-  "ai_summary": "Sante Barley Trilogy Run Asia 2026 – Cebu Leg 3 is a road running event in Cebu City, Philippines, featuring 32KM, Half Marathon (21KM), 10KM, 5KM. The race takes place on September 13, 2026, starting from SM Seaside, Cebu. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A multi-distance running event, including a half-marathon, set for September 13, 2026 at SM Seaside, Cebu City, Philippines.",
+  "ai_summary": "Sante Barley Trilogy Run Asia 2026 – Cebu Leg 3 is a half-marathon-anchored race event scheduled for September 13, 2026, at SM Seaside in Cebu City, Philippines. Organized by Runrio under the Sante Barley Trilogy Run Asia brand, the event offers multiple distance options of 32km, 21.1km, 10km, and 5km, with the 21.1km half-marathon serving as the primary distance. Registration details have not yet been announced.",
   "core_facts": {
     "date": "2026-09-13",
     "distance_km": [
-      32.0,
-      21.0,
-      10.0,
-      5.0
+      32,
+      21,
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Runrio (brand: Sante Barley Trilogy Run Asia)",
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "SM Seaside, Cebu",
     "city": "Cebu City",
-    "organizer": "Runrio (brand: Sante Barley Trilogy Run Asia)"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (32km, 21.1km, 10km, 5km) accommodate different runner levels",
+    "Organized by Runrio, an established race organizer running the Sante Barley Trilogy Run Asia brand",
+    "Convenient venue at SM Seaside, a well-known location in Cebu City",
+    "Listed as a verified event on the directory"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 80,
+  "faqs": [
+    {
+      "question": "When is the Sante Barley Trilogy Run Asia 2026 – Cebu Leg 3 taking place?",
+      "answer": "This race is scheduled to take place on September 13, 2026. It will be held at SM Seaside in Cebu City, Philippines, as part of the Sante Barley Trilogy Run Asia event series organized by Runrio, covering multiple distance categories for participants."
+    },
+    {
+      "question": "What distances are offered at this race?",
+      "answer": "The event offers four distance options for participants to choose from: 32km, 21.1km, 10km, and 5km. The 21.1km distance, which is a half-marathon, is designated as the primary distance for this leg of the Sante Barley Trilogy Run Asia series."
+    },
+    {
+      "question": "Can I register for this race yet?",
+      "answer": "Registration for the Sante Barley Trilogy Run Asia 2026 – Cebu Leg 3 has not yet been announced. Details on how and when to sign up for the race, including pricing and available distance categories, have not been released at this time."
+    },
+    {
+      "question": "Who organizes this race?",
+      "answer": "This race is organized by Runrio, operating under the Sante Barley Trilogy Run Asia brand. Runrio is responsible for coordinating this leg of the event series, which is being held at SM Seaside in Cebu City, Philippines, on September 13, 2026."
+    }
+  ],
+  "reliability_score": 75,
   "tags": [
     "half-marathon",
     "philippines",
@@ -36,7 +60,7 @@
       "url": "https://runrio.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://runrio.com/race-calendar",
@@ -54,6 +78,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

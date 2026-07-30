@@ -4,8 +4,8 @@
   "name": "SHARP HSNKL Half Marathon 2026",
   "category_id": "half-marathon",
   "region_id": "malaysia",
-  "short_description": "SHARP HSNKL Half Marathon 2026 takes place October 25, 2026 in Kuala Lumpur, Malaysia.",
-  "ai_summary": "SHARP HSNKL Half Marathon 2026 is a road running event in Kuala Lumpur, Malaysia, featuring Half Marathon. The race takes place on October 25, 2026, starting from Dataran Merdeka, Kuala Lumpur. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A 21.1km half marathon held on October 25, 2026 at Dataran Merdeka, Kuala Lumpur, Malaysia.",
+  "ai_summary": "The SHARP HSNKL Half Marathon 2026 is a half-marathon event scheduled for October 25, 2026, in Kuala Lumpur, Malaysia. The race covers a distance of 21.1 kilometers and starts at Dataran Merdeka, a well-known landmark in the city center. Registration for this race is currently open, allowing runners to sign up ahead of the event date.",
   "core_facts": {
     "date": "2026-10-25",
     "distance_km": [
@@ -13,15 +13,36 @@
     ],
     "primary_distance_km": 21.1,
     "registration_status": "Open",
-    "country": "Malaysia",
     "venue": "Dataran Merdeka, Kuala Lumpur",
-    "city": "Kuala Lumpur"
+    "city": "Kuala Lumpur",
+    "country": "Malaysia"
   },
-  "pros": [],
+  "pros": [
+    "Starts at Dataran Merdeka, a central and iconic Kuala Lumpur venue",
+    "Standard half-marathon distance of 21.1km",
+    "Registration is currently open, giving runners time to prepare"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 45,
+  "faqs": [
+    {
+      "question": "When is the SHARP HSNKL Half Marathon 2026?",
+      "answer": "The SHARP HSNKL Half Marathon 2026 is scheduled to take place on October 25, 2026. The event is held in Kuala Lumpur, Malaysia, starting from Dataran Merdeka. Runners planning to participate should note this date, as it marks the official day for the half marathon distance of 21.1 kilometers."
+    },
+    {
+      "question": "What distance is the SHARP HSNKL Half Marathon 2026?",
+      "answer": "The SHARP HSNKL Half Marathon 2026 covers a distance of 21.1 kilometers, which is the standard half-marathon distance. This single distance option is offered as part of the race, taking place in Kuala Lumpur, Malaysia, with the starting point located at Dataran Merdeka on October 25, 2026."
+    },
+    {
+      "question": "Where does the race start?",
+      "answer": "The race starts at Dataran Merdeka, a well-known and central location in Kuala Lumpur, Malaysia. This venue serves as the starting point for the SHARP HSNKL Half Marathon 2026, which will take place on October 25, 2026, covering a distance of 21.1 kilometers for participants."
+    },
+    {
+      "question": "Is registration open for this race?",
+      "answer": "Yes, registration for the SHARP HSNKL Half Marathon 2026 is currently open. Interested runners can sign up ahead of the event, which is scheduled for October 25, 2026 in Kuala Lumpur, Malaysia, starting at Dataran Merdeka, giving participants time to prepare for the 21.1 kilometer distance."
+    }
+  ],
+  "reliability_score": 30,
   "tags": [
     "half-marathon",
     "malaysia"
@@ -43,6 +64,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-13",
-  "status": "active"
+  "last_updated": "2026-07-30",
+  "status": "needs_review"
 }

@@ -4,24 +4,48 @@
   "name": "Khon Kaen International Marathon (22nd ed.)",
   "category_id": "full-marathon",
   "region_id": "thailand",
-  "short_description": "Khon Kaen International Marathon (22nd ed.) takes place January 10, 2027 in Khon Kaen, Thailand.",
-  "ai_summary": "Khon Kaen International Marathon (22nd ed.) is a road running event in Khon Kaen, Thailand, featuring Full Marathon; Half Marathon; Mini Marathon; Fun Walk. The race takes place on January 10, 2027, starting from Khon Kaen. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The 22nd Khon Kaen International Marathon takes place on January 10, 2027, in Khon Kaen, Thailand.",
+  "ai_summary": "The Khon Kaen International Marathon is a full-marathon event scheduled for January 10, 2027, in Khon Kaen, Thailand. Now in its 22nd edition, the race offers three distance options: a marathon (42.195km), a half marathon (21.1km), and an 11.55km race. Registration details have not yet been announced.",
   "core_facts": {
     "date": "2027-01-10",
     "distance_km": [
       42.195,
-      21.1
+      21.1,
+      11.55
     ],
     "primary_distance_km": 42.195,
     "registration_status": "not_yet_announced",
-    "country": "Thailand",
     "venue": "Khon Kaen",
-    "city": "Khon Kaen"
+    "city": "Khon Kaen",
+    "country": "Thailand"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Long-running event now in its 22nd edition",
+    "Multiple distance options (42.195km, 21.1km, 11.55km) to suit different runners",
+    "Full marathon distance available for serious distance runners"
+  ],
+  "cons": [
+    "Registration status not yet announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Khon Kaen International Marathon?",
+      "answer": "The Khon Kaen International Marathon, now in its 22nd edition, is scheduled to take place on January 10, 2027. The event will be held in Khon Kaen, Thailand, offering runners multiple distance options to choose from on race day."
+    },
+    {
+      "question": "What distances are offered at the Khon Kaen International Marathon?",
+      "answer": "The race offers three distance options for participants: a full marathon of 42.195km, which is the primary distance, a half marathon of 21.1km, and a shorter 11.55km race, providing choices for runners of different experience levels."
+    },
+    {
+      "question": "Is registration open for the Khon Kaen International Marathon?",
+      "answer": "Based on the currently available information, the registration status for the 22nd Khon Kaen International Marathon has not yet been announced. Prospective participants should check back later for updates on when sign-ups will become available."
+    },
+    {
+      "question": "Where does the Khon Kaen International Marathon take place?",
+      "answer": "The Khon Kaen International Marathon is held in the city of Khon Kaen, located in Thailand. This venue serves as the host location for all three race distances offered during this 22nd edition of the event."
+    }
+  ],
   "reliability_score": 80,
   "tags": [
     "full-marathon",
@@ -33,7 +57,7 @@
       "url": "https://khonkaenmarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-16"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://aims-worldrunning.org/calendar.html",
@@ -51,6 +75,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-16",
-  "status": "active"
+  "last_updated": "2026-07-30",
+  "status": "needs_review"
 }

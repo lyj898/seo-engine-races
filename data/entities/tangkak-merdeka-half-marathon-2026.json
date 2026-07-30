@@ -4,8 +4,8 @@
   "name": "Tangkak Merdeka Half Marathon 2026",
   "category_id": "half-marathon",
   "region_id": "malaysia",
-  "short_description": "Tangkak Merdeka Half Marathon 2026 takes place August 16, 2026 in Tangkak, Johor, Malaysia.",
-  "ai_summary": "Tangkak Merdeka Half Marathon 2026 is a road running event in Tangkak, Johor, Malaysia, featuring Half Marathon. The race takes place on August 16, 2026, starting from Dataran Tangkak, Johor. Registration is Closed as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A 21.1km half marathon held on August 16, 2026 at Dataran Tangkak, Tangkak, Johor, Malaysia.",
+  "ai_summary": "The Tangkak Merdeka Half Marathon 2026 is a half-marathon event scheduled for August 16, 2026, held at Dataran Tangkak in Tangkak, Johor, Malaysia. The race offers a single distance of 21.1 kilometres. Registration for this event is currently listed as closed.",
   "core_facts": {
     "date": "2026-08-16",
     "distance_km": [
@@ -13,15 +13,38 @@
     ],
     "primary_distance_km": 21.1,
     "registration_status": "Closed",
-    "country": "Malaysia",
     "venue": "Dataran Tangkak, Johor",
-    "city": "Tangkak, Johor"
+    "city": "Tangkak, Johor",
+    "country": "Malaysia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Clear single-distance format focused on the half marathon (21.1km)",
+    "Centrally located at Dataran Tangkak, a defined public venue in Tangkak, Johor",
+    "Takes place in Malaysia, accessible to local and regional runners"
+  ],
+  "cons": [
+    "Registration status is listed as closed, limiting entry for new participants"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 38,
+  "faqs": [
+    {
+      "question": "When is the Tangkak Merdeka Half Marathon 2026 taking place?",
+      "answer": "The Tangkak Merdeka Half Marathon 2026 is scheduled to take place on August 16, 2026. The event is held in Tangkak, Johor, Malaysia, at Dataran Tangkak. Runners planning to attend should note this specific date, as it is the confirmed race day according to the available event details for this half-marathon."
+    },
+    {
+      "question": "What distance is offered at this race?",
+      "answer": "This event offers a single race distance of 21.1 kilometres, making it a half marathon. There is no indication of additional distance categories such as a full marathon, 10K, or shorter fun run being offered alongside the half marathon at the Tangkak Merdeka Half Marathon 2026."
+    },
+    {
+      "question": "Can I still register for this race?",
+      "answer": "According to the available information, the registration status for the Tangkak Merdeka Half Marathon 2026 is listed as closed. This means entries are not currently being accepted for this event, so prospective participants should check directly with race organizers for any updates on availability."
+    },
+    {
+      "question": "Where is the race held?",
+      "answer": "The Tangkak Merdeka Half Marathon 2026 is held at Dataran Tangkak, located in Tangkak, Johor, Malaysia. This venue serves as the base for the event, which features a 21.1km half-marathon distance, taking place within the Tangkak area of Johor state in Malaysia."
+    }
+  ],
+  "reliability_score": 23,
   "tags": [
     "half-marathon",
     "malaysia"
@@ -43,6 +66,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
-  "status": "active"
+  "last_updated": "2026-07-30",
+  "status": "needs_review"
 }

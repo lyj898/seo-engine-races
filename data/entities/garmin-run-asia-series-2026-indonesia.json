@@ -4,26 +4,48 @@
   "name": "Garmin Run Asia Series 2026 – Indonesia",
   "category_id": "half-marathon",
   "region_id": "indonesia",
-  "short_description": "Garmin Run Asia Series 2026 – Indonesia takes place September 20, 2026 in BSD City, Indonesia.",
-  "ai_summary": "Garmin Run Asia Series 2026 – Indonesia is a road running event in BSD City, Indonesia, featuring Half Marathon; 10km; 5km. The race takes place on September 20, 2026, starting from Indonesia Convention Exhibition (ICE), BSD City. Registration is Not Yet Announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half-marathon event in BSD City, Indonesia, taking place on September 20, 2026, offering 21.1km, 10km, and 5km distance options.",
+  "ai_summary": "Garmin Run Asia Series 2026 – Indonesia is a half-marathon event scheduled for September 20, 2026, held at the Indonesia Convention Exhibition (ICE) in BSD City, Indonesia. Runners can choose between three distances: 21.1km, 10km, and 5km. Registration for the event has not yet been announced.",
   "core_facts": {
     "date": "2026-09-20",
     "distance_km": [
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
     "registration_status": "Not Yet Announced",
-    "country": "Indonesia",
     "venue": "Indonesia Convention Exhibition (ICE), BSD City",
-    "city": "BSD City"
+    "city": "BSD City",
+    "country": "Indonesia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km) to suit different runner levels",
+    "Held at a well-known venue, the Indonesia Convention Exhibition (ICE) in BSD City"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 82,
+  "faqs": [
+    {
+      "question": "When is the Garmin Run Asia Series 2026 – Indonesia taking place?",
+      "answer": "The Garmin Run Asia Series 2026 – Indonesia is scheduled to take place on September 20, 2026. This date marks the event day for all participants across the different distance categories offered, including the 21.1km half-marathon, the 10km race, and the 5km race, all held at the same venue."
+    },
+    {
+      "question": "What distances can participants run?",
+      "answer": "Participants in the Garmin Run Asia Series 2026 – Indonesia can choose from three distance options: a 21.1km half-marathon, a 10km race, and a 5km race. This variety allows runners of different experience levels and fitness goals to select the distance that best suits them."
+    },
+    {
+      "question": "Is registration open for this race?",
+      "answer": "As of now, the registration status for the Garmin Run Asia Series 2026 – Indonesia has not yet been announced. Interested runners will need to wait for further details from the organizers regarding when and how registration will open for the various distance categories."
+    },
+    {
+      "question": "Where exactly is the race held?",
+      "answer": "The race takes place at the Indonesia Convention Exhibition (ICE), located in BSD City, Indonesia. This venue serves as the host location for all three distance events offered in the Garmin Run Asia Series 2026 – Indonesia, including the half-marathon, 10km, and 5km races."
+    }
+  ],
+  "reliability_score": 77,
   "tags": [
     "half-marathon",
     "indonesia",
@@ -34,7 +56,7 @@
       "url": "https://www.garmin.co.id/minisite/garmin-run/",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-13"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
@@ -58,6 +80,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-13",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

@@ -4,28 +4,51 @@
   "name": "Bicolandia Marathon 2026",
   "category_id": "full-marathon",
   "region_id": "philippines",
-  "short_description": "Bicolandia Marathon 2026 takes place September 27, 2026 in Sorsogon City, Philippines.",
-  "ai_summary": "Bicolandia Marathon 2026 is a road running event in Sorsogon City, Philippines, featuring Full Marathon (42K); Half Marathon (21K); 10K; 5K. The race takes place on September 27, 2026, starting from Sorsogon City. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "Bicolandia Marathon 2026 is a full-marathon race held on September 27, 2026, in Sorsogon City, Philippines.",
+  "ai_summary": "Bicolandia Marathon 2026 is a full-marathon event scheduled for September 27, 2026, in Sorsogon City, Philippines. Organized by RYLMNL, the race offers four distance options: 42.195 km, 21.1 km, 10 km, and 5 km, giving participants of varying experience levels a chance to take part. Registration details have not yet been announced.",
   "core_facts": {
     "date": "2026-09-27",
     "distance_km": [
       42.195,
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 42.195,
+    "organizer": "RYLMNL",
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "Sorsogon City",
     "city": "Sorsogon City",
-    "organizer": "RYLMNL"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (42.195 km, 21.1 km, 10 km, 5 km) suit a range of runner abilities",
+    "Takes place in Sorsogon City, a specific and identifiable Philippine venue",
+    "Organized by RYLMNL, giving the event a named organizing body"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 40,
+  "faqs": [
+    {
+      "question": "When is the Bicolandia Marathon 2026?",
+      "answer": "The Bicolandia Marathon 2026 is scheduled to take place on September 27, 2026. The event will be held in Sorsogon City, Philippines, and is organized by RYLMNL. As of now, no further scheduling details beyond this date have been provided in the available information."
+    },
+    {
+      "question": "What distances are offered at the Bicolandia Marathon 2026?",
+      "answer": "The Bicolandia Marathon 2026 offers four distance categories for participants to choose from: a full marathon of 42.195 km, a half marathon of 21.1 km, a 10 km race, and a shorter 5 km race, accommodating a wide range of runner experience levels."
+    },
+    {
+      "question": "Who organizes the Bicolandia Marathon 2026?",
+      "answer": "The Bicolandia Marathon 2026 is organized by RYLMNL. The event is set to take place in Sorsogon City, Philippines, on September 27, 2026, and includes multiple distance categories, though no additional organizer details are currently available in the provided information."
+    },
+    {
+      "question": "Is registration open for the Bicolandia Marathon 2026?",
+      "answer": "Registration for the Bicolandia Marathon 2026 has not yet been announced. Prospective participants interested in the full marathon, half marathon, 10 km, or 5 km distances will need to wait for further updates from the organizer, RYLMNL, regarding sign-up details and availability."
+    }
+  ],
+  "reliability_score": 35,
   "tags": [
     "full-marathon",
     "philippines"
@@ -35,12 +58,12 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

@@ -4,27 +4,51 @@
   "name": "Sante Barley Trilogy Run Asia 2026 – Iloilo Leg 3",
   "category_id": "half-marathon",
   "region_id": "philippines",
-  "short_description": "Sante Barley Trilogy Run Asia 2026 – Iloilo Leg 3 takes place August 23, 2026 in Iloilo City, Philippines.",
-  "ai_summary": "Sante Barley Trilogy Run Asia 2026 – Iloilo Leg 3 is a road running event in Iloilo City, Philippines, featuring 32KM, Half Marathon (21KM), 10KM, 5KM. The race takes place on August 23, 2026, starting from Atria Park District, Iloilo. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A Runrio-organized race in Iloilo City, Philippines on August 23, 2026, featuring half-marathon and other distance options with registration currently open.",
+  "ai_summary": "Sante Barley Trilogy Run Asia 2026 – Iloilo Leg 3 is a running event scheduled for August 23, 2026, at Atria Park District in Iloilo City, Philippines. Organized by Runrio under the Sante Barley Trilogy Run Asia brand, it offers distance options of 32km, 21.1km (half-marathon, the primary distance), 10km, and 5km. Registration for this event is currently open.",
   "core_facts": {
     "date": "2026-08-23",
     "distance_km": [
-      32.0,
-      21.0,
-      10.0,
-      5.0
+      32,
+      21,
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
-    "registration_status": "not_yet_announced",
-    "country": "Philippines",
+    "organizer": "Runrio (brand: Sante Barley Trilogy Run Asia)",
+    "registration_status": "open",
     "venue": "Atria Park District, Iloilo",
     "city": "Iloilo City",
-    "organizer": "Runrio (brand: Sante Barley Trilogy Run Asia)"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (32km, 21.1km, 10km, 5km) to suit different runner levels",
+    "Organized by Runrio, an established race organizer under the Sante Barley Trilogy Run Asia brand",
+    "Registration is currently open",
+    "Held at a defined venue, Atria Park District, in Iloilo City"
+  ],
+  "cons": [
+    "No source excerpt or quotes available to verify additional race details or participant experiences"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "What distances are offered at this race?",
+      "answer": "The race offers four distance options: 32km, 21.1km (half-marathon, the primary distance), 10km, and 5km. This range allows participants of different experience levels and training goals to choose a distance that suits them, from shorter fun-run distances up to the longer 32km option."
+    },
+    {
+      "question": "When and where is the Iloilo Leg 3 race held?",
+      "answer": "This race takes place on August 23, 2026, at Atria Park District in Iloilo City, Philippines. It is the Iloilo leg of the Sante Barley Trilogy Run Asia 2026 series, organized by Runrio."
+    },
+    {
+      "question": "Who organizes this race?",
+      "answer": "The race is organized by Runrio, operating under the Sante Barley Trilogy Run Asia brand. Runrio manages this event as part of the broader Trilogy Run Asia 2026 series, with this particular leg held in Iloilo City, Philippines."
+    },
+    {
+      "question": "Is registration currently open for this race?",
+      "answer": "Yes, registration status for Sante Barley Trilogy Run Asia 2026 – Iloilo Leg 3 is currently listed as open, meaning prospective participants can sign up for one of the available distances ahead of the August 23, 2026 event date."
+    }
+  ],
   "reliability_score": 80,
   "tags": [
     "half-marathon",
@@ -36,7 +60,7 @@
       "url": "https://runrio.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://runrio.com/race-calendar",
@@ -54,6 +78,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
-  "status": "active"
+  "last_updated": "2026-07-30",
+  "status": "needs_review"
 }

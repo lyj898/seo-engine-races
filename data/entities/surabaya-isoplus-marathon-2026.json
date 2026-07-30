@@ -4,26 +4,49 @@
   "name": "Surabaya ISOPLUS Marathon 2026",
   "category_id": "full-marathon",
   "region_id": "indonesia",
-  "short_description": "Surabaya ISOPLUS Marathon 2026 takes place October 4, 2026 in Surabaya, Indonesia.",
-  "ai_summary": "Surabaya ISOPLUS Marathon 2026 is a road running event in Surabaya, Indonesia, featuring Full Marathon; Half Marathon; 10km; 5km. The race takes place on October 4, 2026, starting from Surabaya (exact venue not stated). Registration is Not Yet Announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The Surabaya ISOPLUS Marathon 2026 is a full-marathon event in Surabaya, Indonesia on October 4, 2026, with distances from 5km to 42.195km, and registration is currently open.",
+  "ai_summary": "The Surabaya ISOPLUS Marathon 2026 is a full-marathon event scheduled for October 4, 2026, in Surabaya, Indonesia. Runners can choose from four distances: 42.195km, 21.1km, 10km, and 5km, making it accessible to both serious marathoners and casual participants. Registration is currently open. The exact venue within Surabaya has not yet been specified.",
   "core_facts": {
     "date": "2026-10-04",
     "distance_km": [
       42.195,
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 42.195,
-    "registration_status": "Not Yet Announced",
-    "country": "Indonesia",
+    "registration_status": "Open",
     "venue": "Surabaya (exact venue not stated)",
-    "city": "Surabaya"
+    "city": "Surabaya",
+    "country": "Indonesia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (42.195km, 21.1km, 10km, 5km) suit a range of runners",
+    "Registration is currently open",
+    "Located in Surabaya, Indonesia, a major city"
+  ],
+  "cons": [
+    "Exact venue within Surabaya has not been specified"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Surabaya ISOPLUS Marathon 2026?",
+      "answer": "The Surabaya ISOPLUS Marathon 2026 is scheduled to take place on October 4, 2026. The event is held in Surabaya, Indonesia, though the specific venue within the city has not yet been announced. Runners planning to attend should mark this date and watch for further venue details as they become available."
+    },
+    {
+      "question": "What distances can I run at this event?",
+      "answer": "The Surabaya ISOPLUS Marathon 2026 offers four distance options for participants: a full marathon of 42.195km, a half marathon of 21.1km, a 10km race, and a 5km race. This range allows both experienced marathon runners and newer or casual runners to select a distance suited to their fitness level."
+    },
+    {
+      "question": "Is registration open for this race?",
+      "answer": "Yes, registration for the Surabaya ISOPLUS Marathon 2026 is currently open. Prospective participants can sign up for any of the four available distances: the full marathon, half marathon, 10km, or 5km. No additional details about registration deadlines or fees have been provided at this time."
+    },
+    {
+      "question": "Where exactly is the race held?",
+      "answer": "The race takes place in Surabaya, Indonesia, but the exact venue has not been stated in the available information. Participants know the city hosting the event, though specific start and finish locations or route details within Surabaya have not yet been disclosed by organizers."
+    }
+  ],
   "reliability_score": 82,
   "tags": [
     "full-marathon",
@@ -35,7 +58,7 @@
       "url": "https://isoplusrun.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-13"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
@@ -59,6 +82,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-13",
-  "status": "active"
+  "last_updated": "2026-07-30",
+  "status": "needs_review"
 }

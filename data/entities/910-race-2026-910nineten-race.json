@@ -10,16 +10,16 @@
     "date": "2026-10-11",
     "distance_km": [
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
+    "organizer": "910 Nineten (Indonesian running-shoe brand)",
     "registration_status": "Open",
-    "country": "Indonesia",
+    "price_range": "IDR HM 679,000 / 10K 479,000 / 5K 379,000 (regular)",
     "venue": "ICE BSD (Indonesia Convention Exhibition), BSD City",
     "city": "Tangerang, Banten",
-    "organizer": "910 Nineten (Indonesian running-shoe brand)",
-    "price_range": "IDR HM 679,000 / 10K 479,000 / 5K 379,000 (regular)"
+    "country": "Indonesia"
   },
   "pros": [],
   "cons": [],
@@ -36,7 +36,7 @@
       "url": "https://910.id",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://lariku.info",
@@ -54,6 +54,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

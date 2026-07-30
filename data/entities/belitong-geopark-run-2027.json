@@ -4,27 +4,51 @@
   "name": "Belitong Geopark Run 2027",
   "category_id": "half-marathon",
   "region_id": "indonesia",
-  "short_description": "Belitong Geopark Run 2027 takes place April 18, 2027 in Pulau Belitung (Belitong), Indonesia.",
-  "ai_summary": "Belitong Geopark Run 2027 is a road running event in Pulau Belitung (Belitong), Indonesia, featuring 5K; 10K; 21K Half Marathon (per homepage; unconfirmed in detail). The race takes place on April 18, 2027, starting from TBA, Kepulauan Bangka Belitung. Registration is Not yet open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The Belitong Geopark Run 2027 is a half-marathon (with 5km and 10km options) held on Pulau Belitung, Indonesia on April 18, 2027.",
+  "ai_summary": "The Belitong Geopark Run 2027 is a half-marathon event scheduled for April 18, 2027, on Pulau Belitung (Belitong) in Kepulauan Bangka Belitung, Indonesia. Organized by the Geopark Run Series, the race offers three distance options: 5km, 10km, and 21.1km, with the 21.1km half-marathon serving as the primary distance. The exact venue is still to be announced, and registration has not yet opened.",
   "core_facts": {
     "date": "2027-04-18",
     "distance_km": [
-      5.0,
-      10.0,
+      5,
+      10,
       21.1
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Geopark Run Series",
     "registration_status": "Not yet open",
-    "country": "Indonesia",
     "venue": "TBA, Kepulauan Bangka Belitung",
     "city": "Pulau Belitung (Belitong)",
-    "organizer": "Geopark Run Series"
+    "country": "Indonesia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (5km, 10km, 21.1km) suit different runner levels",
+    "Takes place in the scenic Belitong (Belitung) geopark region of Indonesia",
+    "Organized by the established Geopark Run Series"
+  ],
+  "cons": [
+    "Exact venue is still TBA, so specific race-day logistics are unknown",
+    "Registration is not yet open, so entry details and pricing are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 58,
+  "faqs": [
+    {
+      "question": "When is the Belitong Geopark Run 2027?",
+      "answer": "The Belitong Geopark Run 2027 is scheduled to take place on April 18, 2027. This date has been confirmed by the organizer, the Geopark Run Series, though further details such as the exact venue and schedule of events have not yet been released to the public."
+    },
+    {
+      "question": "What distances are offered at this race?",
+      "answer": "Runners can choose between three distances at the Belitong Geopark Run 2027: 5km, 10km, and 21.1km. The 21.1km half-marathon is considered the primary distance for the event, making it suitable for both casual participants and more experienced half-marathon runners."
+    },
+    {
+      "question": "Is registration open for this race?",
+      "answer": "As of now, registration for the Belitong Geopark Run 2027 has not yet opened. Prospective participants will need to wait for the Geopark Run Series to release further information about sign-up dates, entry fees, and any other registration requirements before they can secure a spot."
+    },
+    {
+      "question": "Where exactly will the race be held?",
+      "answer": "The race will take place on Pulau Belitung (Belitong) in Kepulauan Bangka Belitung, Indonesia. However, the specific venue within this location is still to be announced (TBA), so exact start and finish points, as well as course details, have not yet been confirmed."
+    }
+  ],
+  "reliability_score": 61,
   "tags": [
     "half-marathon",
     "indonesia"
@@ -34,7 +58,7 @@
       "url": "https://geoparkrun.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://geoparkrun.com/explore-the-series",
@@ -52,6 +76,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

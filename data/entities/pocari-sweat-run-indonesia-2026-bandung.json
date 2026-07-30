@@ -4,25 +4,48 @@
   "name": "Pocari Sweat Run Indonesia 2026 – Bandung",
   "category_id": "half-marathon",
   "region_id": "indonesia",
-  "short_description": "Pocari Sweat Run Indonesia 2026 – Bandung takes place September 19, 2026 in Bandung, Indonesia.",
-  "ai_summary": "Pocari Sweat Run Indonesia 2026 – Bandung is a road running event in Bandung, Indonesia, featuring Half Marathon; 10km. The race takes place on September 19, 2026, starting from Bandung (exact venue not stated). Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "Pocari Sweat Run Indonesia 2026 – Bandung is a half-marathon and 10km race taking place on September 19, 2026, in Bandung, Indonesia.",
+  "ai_summary": "Pocari Sweat Run Indonesia 2026 – Bandung is a half-marathon event scheduled for September 19, 2026, in Bandung, Indonesia. Participants can choose between a 21.1km half-marathon or a 10km distance. Registration for the event is currently open, though the exact venue within Bandung has not yet been specified.",
   "core_facts": {
     "date": "2026-09-19",
     "distance_km": [
       21.1,
-      10.0
+      10
     ],
     "primary_distance_km": 21.1,
     "registration_status": "Open",
-    "country": "Indonesia",
     "venue": "Bandung (exact venue not stated)",
-    "city": "Bandung"
+    "city": "Bandung",
+    "country": "Indonesia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Offers two distance options (21.1km and 10km) to suit different runner levels",
+    "Registration is currently open, giving participants time to prepare",
+    "Located in Bandung, Indonesia, a well-known city destination"
+  ],
+  "cons": [
+    "Exact venue within Bandung has not been specified"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 65,
+  "faqs": [
+    {
+      "question": "When is the Pocari Sweat Run Indonesia 2026 – Bandung taking place?",
+      "answer": "The race is scheduled to take place on September 19, 2026. It will be held in the city of Bandung, Indonesia. No further date details, such as start times, have been specified in the available information about this event."
+    },
+    {
+      "question": "What distances can participants choose from at this race?",
+      "answer": "Runners can choose between two distance options at this event: a 21.1km half-marathon, which is the primary distance, and a shorter 10km race. This allows participants of different experience levels and fitness goals to take part in the same event."
+    },
+    {
+      "question": "Is registration currently open for this race?",
+      "answer": "Yes, registration for the Pocari Sweat Run Indonesia 2026 – Bandung is currently open. Interested participants can sign up for either the 21.1km half-marathon or the 10km distance, though no additional registration details are available at this time."
+    },
+    {
+      "question": "Where exactly in Bandung will the race be held?",
+      "answer": "The race will take place in Bandung, Indonesia, but the exact venue has not yet been stated. Prospective participants may need to check for future updates regarding the specific location where the half-marathon and 10km race will be held."
+    }
+  ],
+  "reliability_score": 60,
   "tags": [
     "half-marathon",
     "indonesia"
@@ -32,7 +55,7 @@
       "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
       "label": "kalenderlari.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://kalenderlari.com/events/pocari-sweat-run-indonesia-2026---bandung/",
@@ -50,6 +73,6 @@
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

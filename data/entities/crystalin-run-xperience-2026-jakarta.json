@@ -4,27 +4,50 @@
   "name": "Crystalin Run Xperience 2026 – Jakarta",
   "category_id": "half-marathon",
   "region_id": "indonesia",
-  "short_description": "Crystalin Run Xperience 2026 – Jakarta takes place October 4, 2026 in Jakarta, Indonesia.",
-  "ai_summary": "Crystalin Run Xperience 2026 – Jakarta is a road running event in Jakarta, Indonesia, featuring Half Marathon; 10km; 5km; 2.5km. The race takes place on October 4, 2026, starting from Jakarta (exact venue not stated). Registration is Not Yet Announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half-marathon event in Jakarta, Indonesia, taking place on October 4, 2026, with distance options of 21.1km, 10km, 5km, and 2.5km.",
+  "ai_summary": "Crystalin Run Xperience 2026 is a half-marathon event scheduled for October 4, 2026 in Jakarta, Indonesia. The race offers four distance options: 21.1km, 10km, 5km, and 2.5km, catering to a range of runners from casual participants to half-marathon competitors. The exact venue within Jakarta has not yet been specified. Registration status is currently listed as not yet announced.",
   "core_facts": {
     "date": "2026-10-04",
     "distance_km": [
       21.1,
-      10.0,
-      5.0,
+      10,
+      5,
       2.5
     ],
     "primary_distance_km": 21.1,
     "registration_status": "Not Yet Announced",
-    "country": "Indonesia",
     "venue": "Jakarta (exact venue not stated)",
-    "city": "Jakarta"
+    "city": "Jakarta",
+    "country": "Indonesia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km, 2.5km) suit different runner levels",
+    "Takes place in Jakarta, a major Indonesian city"
+  ],
+  "cons": [
+    "Exact venue within Jakarta has not been stated",
+    "Registration status is not yet announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 82,
+  "faqs": [
+    {
+      "question": "When is the Crystalin Run Xperience 2026 taking place?",
+      "answer": "The Crystalin Run Xperience 2026 is scheduled to take place on October 4, 2026. The event will be held in Jakarta, Indonesia, though the exact venue within the city has not yet been specified in available information."
+    },
+    {
+      "question": "What distances are offered at this race?",
+      "answer": "The race offers four distance categories for participants to choose from: a 21.1km half-marathon, a 10km race, a 5km race, and a shorter 2.5km option, allowing runners of varying experience levels and fitness goals to take part."
+    },
+    {
+      "question": "Where exactly is the race held?",
+      "answer": "The Crystalin Run Xperience 2026 is held in Jakarta, Indonesia. However, the specific venue or exact location within the city has not been stated in the available source material, so precise venue details are currently unknown."
+    },
+    {
+      "question": "Is registration open for this race?",
+      "answer": "As of now, the registration status for the Crystalin Run Xperience 2026 is listed as not yet announced. This means prospective participants should check back for updates regarding sign-up dates, fees, and registration procedures closer to the event."
+    }
+  ],
+  "reliability_score": 77,
   "tags": [
     "half-marathon",
     "indonesia",
@@ -35,7 +58,7 @@
       "url": "https://crystalinrunxperience.id",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-13"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
@@ -59,6 +82,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-13",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

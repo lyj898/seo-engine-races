@@ -4,29 +4,51 @@
   "name": "VPBank Hanoi International Marathon 2026",
   "category_id": "full-marathon",
   "region_id": "vietnam",
-  "short_description": "VPBank Hanoi International Marathon 2026 takes place October 18, 2026 in Hanoi, Vietnam.",
-  "ai_summary": "VPBank Hanoi International Marathon 2026 is a road running event in Hanoi, Vietnam, featuring Full Marathon (42K); Half Marathon (21K); 10K; 5K. The race takes place on October 18, 2026, starting from Start Hoan Kiem Lake, finish Tran Nhan Tong walking street. Registration is Open (Early Bird) as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A full marathon, half marathon, 10K, and 5K race in Hanoi, Vietnam on October 18, 2026, organized by VPBank.",
+  "ai_summary": "The VPBank Hanoi International Marathon 2026 takes place on October 18, 2026, in Hanoi, Vietnam, organized by VPBank. Runners can choose from four distances: full marathon (42.195km), half marathon (21.1km), 10K, and 5K. The race starts at Hoan Kiem Lake and finishes on Tran Nhan Tong walking street. Registration is currently open at Early Bird pricing.",
   "core_facts": {
     "date": "2026-10-18",
     "distance_km": [
       42.195,
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 42.195,
+    "organizer": "VPBank",
     "registration_status": "Open (Early Bird)",
-    "country": "Vietnam",
+    "price_range": "VND 42K 999,000 / 21K 899,000 / 10K 699,000 / 5K 599,000 (Early Bird)",
     "venue": "Start Hoan Kiem Lake, finish Tran Nhan Tong walking street",
     "city": "Hanoi",
-    "organizer": "VPBank",
-    "price_range": "VND 42K 999,000 / 21K 899,000 / 10K 699,000 / 5K 599,000 (Early Bird)"
+    "country": "Vietnam"
   },
-  "pros": [],
+  "pros": [
+    "Multiple distance options (5K, 10K, half marathon, full marathon) suit different runner levels",
+    "Scenic start and finish at Hoan Kiem Lake and Tran Nhan Tong walking street",
+    "Early Bird registration pricing currently available",
+    "Organized by VPBank, a known national organizer"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 75,
+  "faqs": [
+    {
+      "question": "When is the VPBank Hanoi International Marathon 2026?",
+      "answer": "The VPBank Hanoi International Marathon 2026 is scheduled to take place on October 18, 2026. The event will be held in Hanoi, Vietnam, starting at Hoan Kiem Lake and finishing on Tran Nhan Tong walking street, with registration currently open at Early Bird rates."
+    },
+    {
+      "question": "What distances are offered at this race?",
+      "answer": "The race offers four distance options for participants: a full marathon of 42.195km, a half marathon of 21.1km, a 10K race, and a 5K race. This range allows runners of varying experience and fitness levels to select a distance that suits them."
+    },
+    {
+      "question": "How much does registration cost?",
+      "answer": "Early Bird registration pricing is currently VND 999,000 for the full marathon (42K), VND 899,000 for the half marathon (21K), VND 699,000 for the 10K, and VND 599,000 for the 5K. These prices reflect the current Early Bird registration period."
+    },
+    {
+      "question": "Who organizes the VPBank Hanoi International Marathon 2026?",
+      "answer": "The VPBank Hanoi International Marathon 2026 is organized by VPBank. The race is held in Hanoi, Vietnam, starting at Hoan Kiem Lake and finishing at Tran Nhan Tong walking street, and registration is currently open under Early Bird pricing."
+    }
+  ],
+  "reliability_score": 78,
   "tags": [
     "full-marathon",
     "vietnam"
@@ -36,7 +58,7 @@
       "url": "https://vpbankmarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://www.worldsmarathons.com",
@@ -54,6 +76,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

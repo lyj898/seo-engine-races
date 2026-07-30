@@ -4,28 +4,53 @@
   "name": "Amazing Thailand Marathon Bangkok (ATMB)",
   "category_id": "full-marathon",
   "region_id": "thailand",
-  "short_description": "Amazing Thailand Marathon Bangkok (ATMB) takes place November 28, 2026 in Bangkok, Thailand.",
-  "ai_summary": "Amazing Thailand Marathon Bangkok (ATMB) is a road running event in Bangkok, Thailand, featuring Full Marathon; Half Marathon; 10km. The race takes place on November 28, 2026, starting from Not confirmed this pass. Registration is Not Yet Announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A full marathon, half marathon, and 10 km race set for November 28, 2026, in Bangkok, Thailand, with registration not yet open.",
+  "ai_summary": "The Amazing Thailand Marathon Bangkok (ATMB) is a full marathon event scheduled for November 28, 2026, in Bangkok, Thailand. It offers three distance options: a marathon (42.195 km), a half marathon (21.1 km), and a 10 km race. Pricing starts around USD 23, though registration has not yet opened and organizer and venue details remain unconfirmed.",
   "core_facts": {
     "date": "2026-11-28",
     "distance_km": [
       42.195,
       21.1,
-      10.0
+      10
     ],
     "primary_distance_km": 42.195,
+    "organizer": "Not confirmed this pass",
     "registration_status": "Not Yet Announced",
-    "country": "Thailand",
+    "price_range": "USD 23",
     "venue": "Not confirmed this pass",
     "city": "Bangkok",
-    "organizer": "Not confirmed this pass",
-    "price_range": "USD 23"
+    "country": "Thailand"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (marathon, half marathon, 10 km) to suit different runner levels",
+    "Affordable entry starting around USD 23",
+    "Takes place in the popular destination city of Bangkok, Thailand"
+  ],
+  "cons": [
+    "Organizer has not been confirmed this pass",
+    "Venue details have not been confirmed this pass",
+    "Registration status is not yet announced, so entry details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 82,
+  "faqs": [
+    {
+      "question": "When is the Amazing Thailand Marathon Bangkok (ATMB) taking place?",
+      "answer": "The Amazing Thailand Marathon Bangkok is scheduled to take place on November 28, 2026. The event will be held in Bangkok, Thailand. Beyond the date and city, specific venue details for the race have not been confirmed as of this pass, so runners should check back for updates closer to race day."
+    },
+    {
+      "question": "What distances are offered at ATMB?",
+      "answer": "ATMB offers three race distances for participants to choose from: a full marathon at 42.195 km, a half marathon at 21.1 km, and a shorter 10 km race. The full marathon is listed as the primary distance for this event, making it the main draw for competitive and recreational marathon runners alike."
+    },
+    {
+      "question": "How much does it cost to enter?",
+      "answer": "Pricing information available for this event indicates a starting cost of around USD 23. However, further details about tiered pricing for the different distances, early-bird discounts, or additional fees have not been confirmed for this pass, so interested runners should verify the full price range before registering."
+    },
+    {
+      "question": "Is registration open for ATMB?",
+      "answer": "Registration for the Amazing Thailand Marathon Bangkok has not yet been announced. Prospective participants will need to wait for an official announcement regarding when sign-ups begin, as no confirmed registration window or process has been provided as part of the currently available race information for this event."
+    }
+  ],
+  "reliability_score": 67,
   "tags": [
     "full-marathon",
     "thailand",
@@ -54,6 +79,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
-  "status": "active"
+  "last_updated": "2026-07-30",
+  "status": "needs_review"
 }

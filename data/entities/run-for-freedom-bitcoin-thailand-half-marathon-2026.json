@@ -4,27 +4,49 @@
   "name": "RUN FOR FREEDOM – Bitcoin Thailand Half Marathon",
   "category_id": "half-marathon",
   "region_id": "thailand",
-  "short_description": "RUN FOR FREEDOM – Bitcoin Thailand Half Marathon takes place November 22, 2026 in Chiang Mai, Thailand.",
-  "ai_summary": "RUN FOR FREEDOM – Bitcoin Thailand Half Marathon is a road running event in Chiang Mai, Thailand, featuring Half Marathon; 10km; 5km. The race takes place on November 22, 2026, starting from Rot Fai Park. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half marathon, 10km, and 5km race held on November 22, 2026 at Rot Fai Park in Chiang Mai, Thailand.",
+  "ai_summary": "RUN FOR FREEDOM – Bitcoin Thailand Half Marathon is a race organized by Jog & Joy Co., Ltd., taking place on November 22, 2026 at Rot Fai Park in Chiang Mai, Thailand. Runners can choose from half marathon (21.1km), 10km, or 5km distances. Registration is currently open, with prices ranging from THB 400 to 1,000.",
   "core_facts": {
     "date": "2026-11-22",
     "distance_km": [
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Jog & Joy Co., Ltd.",
     "registration_status": "Open",
-    "country": "Thailand",
+    "price_range": "THB 400-1,000",
     "venue": "Rot Fai Park",
     "city": "Chiang Mai",
-    "organizer": "Jog & Joy Co., Ltd.",
-    "price_range": "USD 15"
+    "country": "Thailand"
   },
-  "pros": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km) suit different fitness levels",
+    "Affordable registration pricing between THB 400 and 1,000",
+    "Registration is currently open, giving ample time to plan",
+    "Held at Rot Fai Park, a named venue in Chiang Mai"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the RUN FOR FREEDOM – Bitcoin Thailand Half Marathon?",
+      "answer": "The race is scheduled for November 22, 2026. It takes place at Rot Fai Park in Chiang Mai, Thailand, and is organized by Jog & Joy Co., Ltd. Registration for this event is currently open, so participants have time to prepare and secure their spot before the race date arrives."
+    },
+    {
+      "question": "What distance options are available at this event?",
+      "answer": "Participants can choose from three distances: a 21.1km half marathon, a 10km race, and a 5km race. This range of options allows runners of different experience levels and training goals to select the distance that best matches their fitness and desired level of challenge."
+    },
+    {
+      "question": "How much does registration cost?",
+      "answer": "Registration prices range from THB 400 to THB 1,000, depending on the distance and registration category chosen. This pricing structure makes the event accessible to a range of participants, from those doing the shorter 5km race to those tackling the full half marathon distance."
+    },
+    {
+      "question": "Where is the race held and who organizes it?",
+      "answer": "The race takes place at Rot Fai Park in Chiang Mai, Thailand. It is organized by Jog & Joy Co., Ltd., who manages the event details including registration, pricing, and the three available distances of 21.1km, 10km, and 5km."
+    }
+  ],
   "reliability_score": 80,
   "tags": [
     "half-marathon",
@@ -36,7 +58,7 @@
       "url": "https://www.jogandjoy.com/en/runforfreedom-bitcoin-halfmarathon-2026-en",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-14"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://www.chiangmaimarathon.com/",
@@ -60,6 +82,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-14",
-  "status": "active"
+  "last_updated": "2026-07-30",
+  "status": "needs_review"
 }

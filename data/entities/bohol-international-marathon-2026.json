@@ -4,28 +4,49 @@
   "name": "Bohol International Marathon 2026",
   "category_id": "full-marathon",
   "region_id": "philippines",
-  "short_description": "Bohol International Marathon 2026 takes place August 30, 2026 in Panglao, Bohol, Philippines.",
-  "ai_summary": "Bohol International Marathon 2026 is a road running event in Panglao, Bohol, Philippines, featuring Full Marathon (42K); Half Marathon (21K); 10K; 5K. The race takes place on August 30, 2026, starting from Panglao, Bohol. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The Bohol International Marathon 2026 is a full marathon in Panglao, Bohol, Philippines, held on August 30, 2026, with registration currently open.",
+  "ai_summary": "The Bohol International Marathon 2026 is a full marathon event scheduled for August 30, 2026, in Panglao, Bohol, Philippines. Organized by the Bohol International Marathon, it offers four distance options: 42.195km, 21.1km, 10km, and 5km, catering to a range of runner abilities. Registration for the event is currently open. This variety of distances makes it accessible to first-time racers as well as experienced marathoners.",
   "core_facts": {
     "date": "2026-08-30",
     "distance_km": [
       42.195,
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 42.195,
+    "organizer": "Bohol International Marathon",
     "registration_status": "Open",
-    "country": "Philippines",
     "venue": "Panglao, Bohol",
     "city": "Panglao, Bohol",
-    "organizer": "Bohol International Marathon"
+    "country": "Philippines"
   },
-  "pros": [],
+  "pros": [
+    "Multiple distance options (42.195km, 21.1km, 10km, 5km) suit different fitness levels",
+    "Registration is currently open, giving ample time to plan and train",
+    "Scenic venue location in Panglao, Bohol, Philippines"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 55,
+  "faqs": [
+    {
+      "question": "When is the Bohol International Marathon 2026?",
+      "answer": "The Bohol International Marathon 2026 is scheduled to take place on August 30, 2026. This date marks the day when all four race distances—the full marathon, half marathon, 10km, and 5km—will be held simultaneously in Panglao, Bohol, Philippines, organized by the Bohol International Marathon."
+    },
+    {
+      "question": "Where is the Bohol International Marathon 2026 held?",
+      "answer": "The event takes place in Panglao, Bohol, in the Philippines. This location serves as both the venue and host city for all four race distances offered, including the full marathon, half marathon, 10km, and 5km races organized by the Bohol International Marathon."
+    },
+    {
+      "question": "Is registration open for the Bohol International Marathon 2026?",
+      "answer": "Yes, registration for the Bohol International Marathon 2026 is currently open. Prospective participants can sign up ahead of the August 30, 2026 race date to secure their spot in one of the four available distances: the full marathon, half marathon, 10km, or 5km."
+    },
+    {
+      "question": "What distance options are available at the Bohol International Marathon 2026?",
+      "answer": "The Bohol International Marathon 2026 offers four distance categories: a full marathon of 42.195km, a half marathon of 21.1km, a 10km race, and a 5km race. This range allows runners of varying experience and fitness levels to participate in the event in Panglao, Bohol."
+    }
+  ],
+  "reliability_score": 50,
   "tags": [
     "full-marathon",
     "philippines"
@@ -35,7 +56,7 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     }
   ],
   "affiliate_links": [],
@@ -47,6 +68,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

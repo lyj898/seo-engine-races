@@ -4,26 +4,48 @@
   "name": "Carabao Half Marathon (Carabao Marathon)",
   "category_id": "half-marathon",
   "region_id": "indonesia",
-  "short_description": "Carabao Half Marathon (Carabao Marathon) takes place March 28, 2027 in Kota Batu, Jawa Timur, Indonesia.",
-  "ai_summary": "Carabao Half Marathon (Carabao Marathon) is a road running event in Kota Batu, Jawa Timur, Indonesia, featuring Half Marathon; 10km; 5km. The race takes place on March 28, 2027, starting from Kota Batu, Jawa Timur. Registration is Closed (pending rescheduled date; existing tickets carried over) as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half marathon event in Kota Batu, Jawa Timur, Indonesia, held on March 28, 2027, offering 21.1km, 10km, and 5km distances.",
+  "ai_summary": "The Carabao Half Marathon, also known as the Carabao Marathon, is scheduled for March 28, 2027 in Kota Batu, Jawa Timur, Indonesia. Organized by the Carabao energy drink brand under Carabao Hydration, the event offers three distance options: 21.1km, 10km, and 5km. Registration is currently open for runners interested in participating.",
   "core_facts": {
     "date": "2027-03-28",
     "distance_km": [
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
-    "registration_status": "Closed (pending rescheduled date; existing tickets carried over)",
-    "country": "Indonesia",
+    "organizer": "Carabao (energy drink brand) / Carabao Hydration",
+    "registration_status": "Open (Pendaftaran Dibuka)",
     "venue": "Kota Batu, Jawa Timur",
     "city": "Kota Batu, Jawa Timur",
-    "organizer": "Carabao (energy drink brand) / Carabao Hydration"
+    "country": "Indonesia"
   },
-  "pros": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km) accommodate different runner levels",
+    "Registration is currently open, giving ample time to prepare",
+    "Backed by an established brand, Carabao, through its Hydration division",
+    "Set in Kota Batu, Jawa Timur, a specific and identifiable venue"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Carabao Half Marathon held?",
+      "answer": "The Carabao Half Marathon, also called the Carabao Marathon, is scheduled to take place on March 28, 2027. The event will be held in Kota Batu, Jawa Timur, Indonesia, and registration is currently open for interested participants ahead of this date."
+    },
+    {
+      "question": "What distances can I run at the Carabao Marathon?",
+      "answer": "Participants can choose from three distance categories at the Carabao Marathon: a 21.1km half marathon, a 10km race, and a 5km race. This range of options allows runners of varying experience levels and fitness goals to take part in the event."
+    },
+    {
+      "question": "Who organizes the Carabao Half Marathon?",
+      "answer": "The Carabao Half Marathon is organized by Carabao, the energy drink brand, through its Carabao Hydration division. This brand-backed organization oversees the event, which takes place in Kota Batu, Jawa Timur, Indonesia, on March 28, 2027."
+    },
+    {
+      "question": "Is registration currently available for this race?",
+      "answer": "Yes, registration for the Carabao Half Marathon is currently open, as indicated by its status of 'Pendaftaran Dibuka.' Prospective participants can sign up ahead of the race date of March 28, 2027, held in Kota Batu, Jawa Timur, Indonesia."
+    }
+  ],
   "reliability_score": 80,
   "tags": [
     "half-marathon",
@@ -35,7 +57,7 @@
       "url": "https://carabaomarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://Instagram (@carabao.marathon)",
@@ -53,6 +75,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
-  "status": "active"
+  "last_updated": "2026-07-30",
+  "status": "needs_review"
 }

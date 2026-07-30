@@ -4,27 +4,51 @@
   "name": "Ijen Geopark Run 2026",
   "category_id": "half-marathon",
   "region_id": "indonesia",
-  "short_description": "Ijen Geopark Run 2026 takes place August 23, 2026 in Banyuwangi, Jawa Timur, Indonesia.",
-  "ai_summary": "Ijen Geopark Run 2026 is a road running event in Banyuwangi, Jawa Timur, Indonesia, featuring 5K; 10K; 21K Half Marathon. The race takes place on August 23, 2026, starting from Paltuding Camp, Kawasan Ijen Geopark, Banyuwangi. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The Ijen Geopark Run 2026 is a 5km, 10km, and 21.1km half-marathon event held August 23, 2026 at Paltuding Camp in Banyuwangi, Indonesia.",
+  "ai_summary": "The Ijen Geopark Run 2026 is a half-marathon event scheduled for August 23, 2026, taking place at Paltuding Camp within the Kawasan Ijen Geopark in Banyuwangi, Jawa Timur, Indonesia. Organized by the Geopark Run Series, the event offers three distance options: 5km, 10km, and the primary 21.1km half-marathon distance. Registration for this race is currently open, allowing runners to sign up ahead of the event date.",
   "core_facts": {
     "date": "2026-08-23",
     "distance_km": [
-      5.0,
-      10.0,
+      5,
+      10,
       21.1
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Geopark Run Series",
     "registration_status": "Open",
-    "country": "Indonesia",
     "venue": "Paltuding Camp, Kawasan Ijen Geopark, Banyuwangi",
     "city": "Banyuwangi, Jawa Timur",
-    "organizer": "Geopark Run Series"
+    "country": "Indonesia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (5km, 10km, and 21.1km) cater to different runner levels",
+    "Scenic and unique venue at Paltuding Camp within the Kawasan Ijen Geopark",
+    "Registration is currently open, giving participants ample time to prepare and sign up",
+    "Organized by the established Geopark Run Series"
+  ],
+  "cons": [
+    "No pricing, course elevation, or terrain details are provided in the available information"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 78,
+  "faqs": [
+    {
+      "question": "When is the Ijen Geopark Run 2026 taking place?",
+      "answer": "The Ijen Geopark Run 2026 is scheduled to take place on August 23, 2026. The event will be held at Paltuding Camp, located within the Kawasan Ijen Geopark in Banyuwangi, Jawa Timur, Indonesia, and registration for participants is currently open ahead of that date."
+    },
+    {
+      "question": "What distances can I run in the Ijen Geopark Run 2026?",
+      "answer": "Participants in the Ijen Geopark Run 2026 can choose from three distance options: 5km, 10km, and 21.1km. The 21.1km half-marathon distance serves as the primary event distance, while the shorter 5km and 10km options provide alternatives for other runners."
+    },
+    {
+      "question": "Who organizes the Ijen Geopark Run 2026?",
+      "answer": "The Ijen Geopark Run 2026 is organized by the Geopark Run Series. This organization is responsible for coordinating the event, which is set to take place at Paltuding Camp in the Kawasan Ijen Geopark, Banyuwangi, Jawa Timur, Indonesia, on August 23, 2026."
+    },
+    {
+      "question": "Where exactly is the race held?",
+      "answer": "The race is held at Paltuding Camp, which is situated within the Kawasan Ijen Geopark in Banyuwangi, Jawa Timur, Indonesia. This venue serves as the starting point for all three distance categories offered at the Ijen Geopark Run 2026 event."
+    }
+  ],
+  "reliability_score": 81,
   "tags": [
     "half-marathon",
     "indonesia",
@@ -35,7 +59,7 @@
       "url": "https://geoparkrun.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://geoparkrun.com/faq",
@@ -71,6 +95,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

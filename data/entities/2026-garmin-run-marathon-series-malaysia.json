@@ -4,25 +4,49 @@
   "name": "2026 Garmin Run Marathon Series – Malaysia",
   "category_id": "half-marathon",
   "region_id": "malaysia",
-  "short_description": "2026 Garmin Run Marathon Series – Malaysia takes place November 1, 2026 in Putrajaya, Malaysia.",
-  "ai_summary": "2026 Garmin Run Marathon Series – Malaysia is a road running event in Putrajaya, Malaysia, featuring 21KM Half Marathon; 10KM. The race takes place on November 1, 2026, starting from In front of Mahkamah Syariah WP Putrajaya. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half-marathon and 10km race held in Putrajaya, Malaysia on November 1, 2026, organized by Garmin Malaysia; registration is sold out.",
+  "ai_summary": "The 2026 Garmin Run Marathon Series – Malaysia is a half-marathon event scheduled for November 1, 2026, in Putrajaya, Malaysia. Organized by Garmin Malaysia with SCORE Experience as technical partner, the race offers 21.1km and 10km distance options starting near Mahkamah Syariah WP Putrajaya. Registration for this edition is currently sold out, indicating strong demand from runners.",
   "core_facts": {
     "date": "2026-11-01",
     "distance_km": [
-      21.0,
-      10.0
+      21,
+      10
     ],
     "primary_distance_km": 21.1,
-    "registration_status": "Open",
-    "country": "Malaysia",
+    "organizer": "Garmin Malaysia (technical partner: SCORE Experience)",
+    "registration_status": "Sold out / Event is full",
     "venue": "In front of Mahkamah Syariah WP Putrajaya",
     "city": "Putrajaya",
-    "organizer": "Garmin Malaysia (technical partner: SCORE Experience)"
+    "country": "Malaysia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Offers two distance options (21.1km and 10km) to suit different runner levels",
+    "Organized by Garmin Malaysia with SCORE Experience as technical partner, suggesting professional event management",
+    "Strong demand shown by the event already being sold out",
+    "Set in Putrajaya, a notable Malaysian city location"
+  ],
+  "cons": [
+    "Registration is closed as the event is sold out, so new participants cannot sign up"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the 2026 Garmin Run Marathon Series – Malaysia taking place?",
+      "answer": "This race is scheduled to take place on November 1, 2026. It will be held in Putrajaya, Malaysia, starting in front of Mahkamah Syariah WP Putrajaya, and is organized by Garmin Malaysia together with technical partner SCORE Experience for participants across the region."
+    },
+    {
+      "question": "What distances are offered at this race?",
+      "answer": "The event features two distance categories: a 21.1km half-marathon, which serves as the primary distance, and a shorter 10km race. Both distances start from the same venue in front of Mahkamah Syariah WP Putrajaya in Putrajaya, Malaysia, giving runners flexibility depending on their fitness and goals."
+    },
+    {
+      "question": "Can I still register for this race?",
+      "answer": "No, registration for the 2026 Garmin Run Marathon Series – Malaysia is currently sold out. The event is full, meaning no new sign-ups are being accepted at this time. Interested runners may need to watch for future editions or check for potential availability updates."
+    },
+    {
+      "question": "Who organizes this race?",
+      "answer": "The race is organized by Garmin Malaysia, with SCORE Experience serving as the technical partner responsible for event execution. Together they run this half-marathon series held in Putrajaya, Malaysia, which begins near Mahkamah Syariah WP Putrajaya and has proven popular enough to sell out registration."
+    }
+  ],
   "reliability_score": 65,
   "tags": [
     "half-marathon",
@@ -33,7 +57,7 @@
       "url": "https://raceroster.com/events/2026/129858/2026-garmin-run-marathon-series-malaysia",
       "label": "raceroster.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://www.sportsworldmalaysia.com",
@@ -51,6 +75,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
-  "status": "active"
+  "last_updated": "2026-07-30",
+  "status": "needs_review"
 }

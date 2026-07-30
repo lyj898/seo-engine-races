@@ -4,26 +4,49 @@
   "name": "Kota Kinabalu Half Marathon",
   "category_id": "half-marathon",
   "region_id": "malaysia",
-  "short_description": "Kota Kinabalu Half Marathon takes place August 16, 2026 in Kota Kinabalu, Malaysia.",
-  "ai_summary": "Kota Kinabalu Half Marathon is a road running event in Kota Kinabalu, Malaysia, featuring Half Marathon; 10km; 5km. The race takes place on August 16, 2026, starting from Karamunsing. Registration is Not Yet Announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The Kota Kinabalu Half Marathon is a 21.1km, 10km, and 5km race held in Kota Kinabalu, Malaysia on August 16, 2026.",
+  "ai_summary": "The Kota Kinabalu Half Marathon is scheduled for August 16, 2026, taking place in Kota Kinabalu, Malaysia, with Karamunsing serving as the venue. Runners can choose from three distances: 21.1km, 10km, and 5km, making it accessible to a range of participants from casual runners to those seeking a half-marathon challenge. Registration for the event has not yet been announced.",
   "core_facts": {
     "date": "2026-08-16",
     "distance_km": [
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
     "registration_status": "Not Yet Announced",
-    "country": "Malaysia",
     "venue": "Karamunsing",
-    "city": "Kota Kinabalu"
+    "city": "Kota Kinabalu",
+    "country": "Malaysia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km) suit different fitness levels",
+    "Set in Kota Kinabalu, Malaysia, an established city venue",
+    "Clear event date already confirmed for August 16, 2026"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so entry details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 48,
+  "faqs": [
+    {
+      "question": "When is the Kota Kinabalu Half Marathon held?",
+      "answer": "The Kota Kinabalu Half Marathon is scheduled to take place on August 16, 2026. The event is set in Kota Kinabalu, Malaysia, with Karamunsing serving as the venue. This date has been confirmed, giving participants time to plan their travel and training ahead of race day."
+    },
+    {
+      "question": "What distances are offered at the Kota Kinabalu Half Marathon?",
+      "answer": "The event offers three distance options: a 21.1km half marathon, a 10km race, and a 5km race. This range allows participants of varying fitness levels and experience to choose a distance that suits them, from casual runners looking for a shorter course to those aiming for the full half-marathon distance."
+    },
+    {
+      "question": "Where does the Kota Kinabalu Half Marathon start?",
+      "answer": "The race takes place at Karamunsing, located in Kota Kinabalu, Malaysia. This venue serves as the base for the event, which includes the 21.1km, 10km, and 5km distances held on the same day, August 16, 2026."
+    },
+    {
+      "question": "Is registration open for the Kota Kinabalu Half Marathon?",
+      "answer": "Registration for the Kota Kinabalu Half Marathon has not yet been announced. Prospective participants interested in the 21.1km, 10km, or 5km distances will need to wait for further details regarding sign-up, as no registration information is currently available for this August 16, 2026 event."
+    }
+  ],
+  "reliability_score": 33,
   "tags": [
     "half-marathon",
     "malaysia"
@@ -45,6 +68,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
-  "status": "active"
+  "last_updated": "2026-07-30",
+  "status": "needs_review"
 }

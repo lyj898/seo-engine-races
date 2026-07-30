@@ -4,25 +4,47 @@
   "name": "Maybank Marathon 2026",
   "category_id": "full-marathon",
   "region_id": "indonesia",
-  "short_description": "Maybank Marathon 2026 takes place August 23, 2026 in Bali, Indonesia.",
-  "ai_summary": "Maybank Marathon 2026 is a road running event in Bali, Indonesia, featuring Full Marathon; Half Marathon; 10km. The race takes place on August 23, 2026, starting from Bali United Training Center, Bali. Registration is Not Yet Announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The Maybank Marathon 2026 is a full marathon held on August 23, 2026, in Gianyar, Bali, Indonesia.",
+  "ai_summary": "The Maybank Marathon 2026 is a full-marathon event scheduled for August 23, 2026, at the Bali United Training Center in Gianyar, Bali, Indonesia. Runners can choose from three distances: 42.195km, 21.1km, and 10km. Registration has not yet been announced, so prospective participants will need to check back for further details.",
   "core_facts": {
     "date": "2026-08-23",
     "distance_km": [
       42.195,
       21.1,
-      10.0
+      10
     ],
     "primary_distance_km": 42.195,
     "registration_status": "Not Yet Announced",
-    "country": "Indonesia",
-    "venue": "Bali United Training Center, Bali",
-    "city": "Bali"
+    "venue": "Bali United Training Center, Gianyar Bali",
+    "city": "Bali",
+    "country": "Indonesia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Offers multiple distance options (42.195km, 21.1km, and 10km) to suit different runner levels",
+    "Set at the Bali United Training Center in Gianyar, Bali, a scenic Indonesian location"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Maybank Marathon 2026 taking place?",
+      "answer": "The Maybank Marathon 2026 is scheduled to take place on August 23, 2026. This date marks the full event, which will be held at the Bali United Training Center in Gianyar, Bali, Indonesia. Runners planning to attend should mark this date on their calendars in advance."
+    },
+    {
+      "question": "What distances are offered at the Maybank Marathon 2026?",
+      "answer": "The Maybank Marathon 2026 offers three distance categories for participants to choose from: a full marathon of 42.195km, a half marathon of 21.1km, and a shorter 10km race. This range allows runners of varying experience levels and fitness goals to take part in the event."
+    },
+    {
+      "question": "Is registration open for the Maybank Marathon 2026?",
+      "answer": "As of now, registration for the Maybank Marathon 2026 has not yet been announced. Prospective participants will need to keep checking for updates regarding when sign-ups will open, as no specific registration details or timelines have been provided at this time."
+    },
+    {
+      "question": "Where is the Maybank Marathon 2026 held?",
+      "answer": "The Maybank Marathon 2026 will be held at the Bali United Training Center, located in Gianyar, Bali, Indonesia. This venue provides the setting for all three race distances offered at the event, making it a central hub for the marathon's activities."
+    }
+  ],
   "reliability_score": 82,
   "tags": [
     "full-marathon",
@@ -34,7 +56,7 @@
       "url": "https://www.maybank.co.id/en/maybank-marathon",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-16"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
@@ -64,6 +86,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-16",
-  "status": "active"
+  "last_updated": "2026-07-30",
+  "status": "needs_review"
 }

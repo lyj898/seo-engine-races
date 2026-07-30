@@ -4,27 +4,50 @@
   "name": "Decathlon Run 2026",
   "category_id": "half-marathon",
   "region_id": "philippines",
-  "short_description": "Decathlon Run 2026 takes place August 30, 2026 in Pasay, Philippines.",
-  "ai_summary": "Decathlon Run 2026 is a road running event in Pasay, Philippines, featuring Half Marathon (21KM), 10KM, 5KM. The race takes place on August 30, 2026, starting from SM Mall of Asia, Pasay. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "Decathlon Run 2026 is a half-marathon event on August 30, 2026, at SM Mall of Asia, Pasay, Philippines.",
+  "ai_summary": "Decathlon Run 2026 is a half-marathon event scheduled for August 30, 2026, in Pasay, Philippines, starting at SM Mall of Asia. Organized by Runrio under the Decathlon Run brand, the event offers three distance options: 21.1km, 10km, and 5km. Registration details have not yet been announced for this race.",
   "core_facts": {
     "date": "2026-08-30",
     "distance_km": [
-      21.0,
-      10.0,
-      5.0
+      21,
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Runrio (brand: Decathlon Run)",
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "SM Mall of Asia, Pasay",
     "city": "Pasay",
-    "organizer": "Runrio (brand: Decathlon Run)"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km) to suit different runner levels",
+    "Convenient, well-known venue at SM Mall of Asia, Pasay",
+    "Organized by Runrio, an established race organizer in the Philippines"
+  ],
+  "cons": [
+    "Registration status has not yet been announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 80,
+  "faqs": [
+    {
+      "question": "What distances are offered at Decathlon Run 2026?",
+      "answer": "Decathlon Run 2026 offers three distance categories for participants to choose from: a 21.1km half-marathon, a 10km race, and a shorter 5km race. This range of options allows runners of different experience levels and fitness goals to take part in the same event on the same day."
+    },
+    {
+      "question": "Who organizes Decathlon Run 2026?",
+      "answer": "Decathlon Run 2026 is organized by Runrio, operating under the Decathlon Run brand name. Runrio is responsible for coordinating the event, which will take place at SM Mall of Asia in Pasay, Philippines, on August 30, 2026, featuring three distance categories for participants."
+    },
+    {
+      "question": "Is registration open for Decathlon Run 2026?",
+      "answer": "As of now, the registration status for Decathlon Run 2026 has not yet been announced. Prospective participants interested in the 21.1km, 10km, or 5km distances should watch for further updates from the organizer, Runrio, regarding when sign-ups will become available."
+    },
+    {
+      "question": "Where and when does Decathlon Run 2026 take place?",
+      "answer": "Decathlon Run 2026 will be held on August 30, 2026, at SM Mall of Asia in Pasay, in the Philippines. The venue serves as the starting point for the event's three distance categories: the 21.1km half-marathon, the 10km race, and the 5km race."
+    }
+  ],
+  "reliability_score": 75,
   "tags": [
     "half-marathon",
     "philippines",
@@ -35,7 +58,7 @@
       "url": "https://runrio.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://runrio.com/race-calendar",
@@ -53,6 +76,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

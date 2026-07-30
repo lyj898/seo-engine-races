@@ -4,27 +4,51 @@
   "name": "Pos Malaysia Run 2026",
   "category_id": "half-marathon",
   "region_id": "malaysia",
-  "short_description": "Pos Malaysia Run 2026 takes place November 29, 2026 in Kuala Lumpur, Malaysia.",
-  "ai_summary": "Pos Malaysia Run 2026 is a road running event in Kuala Lumpur, Malaysia, featuring 21KM Half Marathon (Open/Veteran); 10KM; 5.5KM Fun Run. The race takes place on November 29, 2026, starting from Dataran Merdeka, Kuala Lumpur. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half-marathon event in Kuala Lumpur on November 29, 2026, offering 21 km, 10 km, and 5.5 km distances, organized by Pos Malaysia Berhad.",
+  "ai_summary": "Pos Malaysia Run 2026 is a half-marathon event organized by Pos Malaysia Berhad, taking place on November 29, 2026 at Dataran Merdeka in Kuala Lumpur, Malaysia. Runners can choose from three distances: 21 km, 10 km, and 5.5 km. Registration is currently open, with prices ranging from MYR 68 to MYR 138 depending on the distance and category chosen.",
   "core_facts": {
     "date": "2026-11-29",
     "distance_km": [
-      21.0,
-      10.0,
+      21,
+      10,
       5.5
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Pos Malaysia Berhad",
     "registration_status": "Open",
-    "country": "Malaysia",
+    "price_range": "MYR 21K RM118-138 / 10K RM88-108 / 5.5K RM68-88",
     "venue": "Dataran Merdeka, Kuala Lumpur",
     "city": "Kuala Lumpur",
-    "organizer": "Pos Malaysia",
-    "price_range": "MYR 21K RM118-138 / 10K RM88-108 / 5.5K RM68-88"
+    "country": "Malaysia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21 km, 10 km, 5.5 km) suit a range of runner abilities",
+    "Iconic Dataran Merdeka venue in the heart of Kuala Lumpur",
+    "Registration is currently open, giving ample time to plan and train",
+    "Organized by a well-established national organization, Pos Malaysia Berhad"
+  ],
+  "cons": [
+    "Price varies significantly by distance and registration tier, which may require careful checking to find the best rate"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Pos Malaysia Run 2026 taking place?",
+      "answer": "The Pos Malaysia Run 2026 is scheduled to take place on November 29, 2026. It will be held at Dataran Merdeka in Kuala Lumpur, Malaysia. Runners interested in participating should note this date and register in advance, as registration is currently open for those wishing to join this event."
+    },
+    {
+      "question": "What distance options are available at this race?",
+      "answer": "Participants can choose from three distance categories at the Pos Malaysia Run 2026: a 21 km half-marathon, a 10 km race, and a 5.5 km option. This range of distances allows both experienced runners and those seeking a shorter course to find a suitable event to join."
+    },
+    {
+      "question": "How much does it cost to register for the race?",
+      "answer": "Registration pricing depends on the distance chosen. The 21 km category ranges from MYR 118 to 138, the 10 km category from MYR 88 to 108, and the 5.5 km category from MYR 68 to 88, reflecting different registration tiers or timing of sign-up."
+    },
+    {
+      "question": "Where is the race held and who organizes it?",
+      "answer": "The Pos Malaysia Run 2026 is held at Dataran Merdeka, a well-known public square in Kuala Lumpur, Malaysia. The event is organized by Pos Malaysia Berhad, the country's national postal service provider, which oversees registration and event logistics for participants across all distance categories."
+    }
+  ],
   "reliability_score": 62,
   "tags": [
     "half-marathon",
@@ -35,7 +59,7 @@
       "url": "https://www.racexasia.com/event/pos-malaysia-run-2026-posm26",
       "label": "racexasia.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     }
   ],
   "affiliate_links": [],
@@ -47,6 +71,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
-  "status": "active"
+  "last_updated": "2026-07-30",
+  "status": "needs_review"
 }

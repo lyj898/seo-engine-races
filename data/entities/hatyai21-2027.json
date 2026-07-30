@@ -4,25 +4,47 @@
   "name": "HATYAi21",
   "category_id": "half-marathon",
   "region_id": "thailand",
-  "short_description": "HATYAi21 takes place May 9, 2027 in Hat Yai, Songkhla, Thailand.",
-  "ai_summary": "HATYAi21 is a road running event in Hat Yai, Songkhla, Thailand, featuring Half Marathon (21.0975K). The race takes place on May 9, 2027, starting from Hat Yai, Songkhla. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "HATYAi21 is a half-marathon (21.1 km) taking place on May 9, 2027, in Hat Yai, Songkhla, Thailand.",
+  "ai_summary": "HATYAi21 is a half-marathon race scheduled for May 9, 2027, in Hat Yai, Songkhla, Thailand. The event covers a distance of 21.1 kilometers, the standard half-marathon distance. It is organized by HATYAi21. Registration for this race has not yet been announced, so prospective participants will need to check back for further details on how to sign up.",
   "core_facts": {
     "date": "2027-05-09",
     "distance_km": [
       21.1
     ],
     "primary_distance_km": 21.1,
+    "organizer": "HATYAi21",
     "registration_status": "not_yet_announced",
-    "country": "Thailand",
     "venue": "Hat Yai, Songkhla",
     "city": "Hat Yai, Songkhla",
-    "organizer": "HATYAi21"
+    "country": "Thailand"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Standard half-marathon distance of 21.1 km, ideal for that specific race category",
+    "Takes place in Hat Yai, Songkhla, a specific and identifiable location in Thailand"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so no sign-up details are currently available"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 45,
+  "faqs": [
+    {
+      "question": "When is HATYAi21 taking place?",
+      "answer": "HATYAi21 is scheduled to take place on May 9, 2027. This date has been set for the race, which will be held in Hat Yai, Songkhla, Thailand. No further scheduling details beyond this date are currently available in the provided information."
+    },
+    {
+      "question": "What distance is the HATYAi21 race?",
+      "answer": "HATYAi21 covers a distance of 21.1 kilometers, which is the standard distance for a half-marathon. This is listed as the primary distance for the event, and no other distance options are mentioned in the available facts."
+    },
+    {
+      "question": "Where is HATYAi21 held?",
+      "answer": "The race is held in Hat Yai, Songkhla, which is also listed as the city for the event. Hat Yai, Songkhla, Thailand serves as both the venue and the city location for HATYAi21 according to the provided facts."
+    },
+    {
+      "question": "Can I register for HATYAi21 now?",
+      "answer": "Based on the available information, registration for HATYAi21 has not yet been announced. This means there is currently no confirmed process or timeline for signing up, and interested participants should look for updates on when registration will open."
+    }
+  ],
+  "reliability_score": 40,
   "tags": [
     "half-marathon",
     "thailand"
@@ -32,7 +54,7 @@
       "url": "https://www.hatyai21.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://ahotu.com",
@@ -56,6 +78,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

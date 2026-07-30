@@ -4,29 +4,51 @@
   "name": "BTN UI Green Marathon 2026",
   "category_id": "full-marathon",
   "region_id": "indonesia",
-  "short_description": "BTN UI Green Marathon 2026 takes place August 9, 2026 in Depok, Jawa Barat, Indonesia.",
-  "ai_summary": "BTN UI Green Marathon 2026 is a road running event in Depok, Jawa Barat, Indonesia, featuring Full Marathon; Half Marathon; 10km; 5km. The race takes place on August 9, 2026, starting from Universitas Indonesia campus, Depok. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "BTN UI Green Marathon 2026 is a full-marathon event on August 9, 2026 at Universitas Indonesia campus in Depok, Indonesia.",
+  "ai_summary": "BTN UI Green Marathon 2026 is a full-marathon event scheduled for August 9, 2026, held on the Universitas Indonesia campus in Depok, Jawa Barat. Organized by IM Road Runner in partnership with Universitas Indonesia and Bank BTN, the race offers four distance options: 42.195km, 21.1km, 10km, and 5km. Registration is currently open, with prices starting from IDR 350,000.",
   "core_facts": {
     "date": "2026-08-09",
     "distance_km": [
       42.195,
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 42.195,
+    "organizer": "IM Road Runner (with Universitas Indonesia & Bank BTN)",
     "registration_status": "Open",
-    "country": "Indonesia",
+    "price_range": "IDR From 350,000",
     "venue": "Universitas Indonesia campus, Depok",
     "city": "Depok, Jawa Barat",
-    "organizer": "IM Road Runner (with Universitas Indonesia & Bank BTN)",
-    "price_range": "IDR From 350,000"
+    "country": "Indonesia"
   },
-  "pros": [],
+  "pros": [
+    "Multiple distance options (42.195km, 21.1km, 10km, 5km) suit a range of runner abilities",
+    "Backed by a reputable partnership between IM Road Runner, Universitas Indonesia, and Bank BTN",
+    "Registration is currently open with an accessible starting price of IDR 350,000",
+    "Scenic university campus setting in Depok, Jawa Barat"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 68,
+  "faqs": [
+    {
+      "question": "When is the BTN UI Green Marathon 2026?",
+      "answer": "The BTN UI Green Marathon 2026 is scheduled to take place on August 9, 2026. The event will be held on the campus of Universitas Indonesia, located in Depok, Jawa Barat, Indonesia, offering runners a distinctive university setting for race day."
+    },
+    {
+      "question": "Who organizes the BTN UI Green Marathon?",
+      "answer": "The race is organized by IM Road Runner, working in partnership with Universitas Indonesia and Bank BTN. This collaboration between an event organizer, an academic institution, and a banking sponsor brings together the resources needed to host the multi-distance marathon event in Depok."
+    },
+    {
+      "question": "How much does it cost to register?",
+      "answer": "Registration prices for the BTN UI Green Marathon 2026 start from IDR 350,000. Exact pricing may vary depending on which distance category a participant chooses to enter, whether the full marathon, half marathon, 10km, or 5km option. Registration is currently open."
+    },
+    {
+      "question": "What distance options are available at this race?",
+      "answer": "The BTN UI Green Marathon 2026 offers four distance categories for participants to choose from: a full marathon of 42.195km, a half marathon of 21.1km, a 10km race, and a shorter 5km race, catering to runners of varying experience levels."
+    }
+  ],
+  "reliability_score": 63,
   "tags": [
     "full-marathon",
     "indonesia"
@@ -36,7 +58,7 @@
       "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
       "label": "kalenderlari.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://kalenderlari.com/events/btn-ui-green-marathon-2026/",
@@ -66,6 +88,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

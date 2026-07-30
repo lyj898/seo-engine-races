@@ -57,7 +57,7 @@
       "answer": "Four distances are available: a Full Marathon, a Half Marathon, a 10km, and a 5km, all starting in the coastal city of Nha Trang. This spread lets everything from first-time 5km runners to full-marathon veterans take part in the same race weekend."
     }
   ],
-  "reliability_score": 93,
+  "reliability_score": 96,
   "tags": [
     "full-marathon",
     "half-marathon",
@@ -70,7 +70,7 @@
       "url": "https://vm.vnexpress.net/nha-trang-2026",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-13"
+      "last_checked": "2026-07-30"
     }
   ],
   "affiliate_links": [],
@@ -90,6 +90,6 @@
     "bank-jateng-borobudur-marathon-2026",
     "nong-khai-running-festival-2026"
   ],
-  "last_updated": "2026-07-13",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

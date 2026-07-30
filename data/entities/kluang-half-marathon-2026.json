@@ -4,8 +4,8 @@
   "name": "Kluang Half Marathon 2026",
   "category_id": "half-marathon",
   "region_id": "malaysia",
-  "short_description": "Kluang Half Marathon 2026 takes place September 20, 2026 in Kluang, Johor, Malaysia.",
-  "ai_summary": "Kluang Half Marathon 2026 is a road running event in Kluang, Johor, Malaysia, featuring Half Marathon. The race takes place on September 20, 2026, starting from Kluang Stadium, Johor. Registration is Closed as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The Kluang Half Marathon 2026 is a 21.1 km half-marathon held at Kluang Stadium, Johor, Malaysia on September 20, 2026, with registration currently closed.",
+  "ai_summary": "The Kluang Half Marathon 2026 is a half-marathon event scheduled for September 20, 2026, based at Kluang Stadium in Kluang, Johor, Malaysia. The race offers a single distance of 21.1 km. Registration for this event is currently closed, so prospective participants cannot sign up at this time.",
   "core_facts": {
     "date": "2026-09-20",
     "distance_km": [
@@ -13,15 +13,38 @@
     ],
     "primary_distance_km": 21.1,
     "registration_status": "Closed",
-    "country": "Malaysia",
     "venue": "Kluang Stadium, Johor",
-    "city": "Kluang, Johor"
+    "city": "Kluang, Johor",
+    "country": "Malaysia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Offers a standard 21.1 km half-marathon distance",
+    "Held at a dedicated venue, Kluang Stadium, in Johor, Malaysia",
+    "Has a clearly confirmed date of September 20, 2026"
+  ],
+  "cons": [
+    "Registration is currently closed, limiting the ability of new participants to join"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 30,
+  "faqs": [
+    {
+      "question": "When is the Kluang Half Marathon 2026?",
+      "answer": "The Kluang Half Marathon 2026 is scheduled to take place on September 20, 2026. This date marks the running of the event at its venue in Kluang, Johor, Malaysia. Runners planning around this race should note this specific date as the confirmed day for the half-marathon."
+    },
+    {
+      "question": "What distance is offered at the Kluang Half Marathon 2026?",
+      "answer": "The Kluang Half Marathon 2026 offers a single distance option of 21.1 km, which is the standard half-marathon length. This is the primary and only distance listed for this particular race, making it a straightforward event for those seeking a half-marathon distance."
+    },
+    {
+      "question": "Can I still register for the Kluang Half Marathon 2026?",
+      "answer": "No, registration for the Kluang Half Marathon 2026 is currently listed as closed. This means that new sign-ups are not being accepted at this time. Anyone interested in participating would need to look for updates on whether registration reopens or check for alternative ways to join."
+    },
+    {
+      "question": "Where is the Kluang Half Marathon 2026 held?",
+      "answer": "The Kluang Half Marathon 2026 is held at Kluang Stadium, located in Kluang, Johor, Malaysia. This venue serves as the base for the race, situated within Johor, Malaysia, making it accessible to participants traveling to this specific city for the event."
+    }
+  ],
+  "reliability_score": 15,
   "tags": [
     "half-marathon",
     "malaysia"
@@ -49,6 +72,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
-  "status": "active"
+  "last_updated": "2026-07-30",
+  "status": "needs_review"
 }

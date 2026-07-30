@@ -4,28 +4,51 @@
   "name": "CIDB Half Marathon 2026",
   "category_id": "half-marathon",
   "region_id": "malaysia",
-  "short_description": "CIDB Half Marathon 2026 takes place December 13, 2026 in Putrajaya, Malaysia.",
-  "ai_summary": "CIDB Half Marathon 2026 is a road running event in Putrajaya, Malaysia, featuring 21KM Half Marathon; 10KM; 5KM; 3KM Brisk Walk (2025 categories; 2026 not independently re-confirmed). The race takes place on December 13, 2026, starting from Dataran Putrajaya, Putrajaya. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The CIDB Half Marathon 2026 is a 21.1km half marathon (with 10km, 5km, and 3km options) held December 13, 2026, at Dataran Putrajaya, Malaysia.",
+  "ai_summary": "The CIDB Half Marathon 2026 is a road running event organized by Kelab CIDB WP Kuala Lumpur, known as \"CIDB Run,\" set to take place on December 13, 2026, at Dataran Putrajaya in Putrajaya, Malaysia. The event offers four distance categories -- 21.1km, 10km, 5km, and 3km -- catering to a range of runners from competitive half-marathoners to casual participants. Registration is currently open for those interested in taking part.",
   "core_facts": {
     "date": "2026-12-13",
     "distance_km": [
-      21.0,
-      10.0,
-      5.0,
-      3.0
+      21,
+      10,
+      5,
+      3
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Kelab CIDB WP Kuala Lumpur (\"CIDB Run\")",
     "registration_status": "Open",
-    "country": "Malaysia",
     "venue": "Dataran Putrajaya, Putrajaya",
     "city": "Putrajaya",
-    "organizer": "Kelab CIDB WP Kuala Lumpur (\"CIDB Run\")"
+    "country": "Malaysia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km, 3km) suit various fitness levels and experience",
+    "Registration is currently open, giving participants time to plan and train",
+    "Held at the notable Dataran Putrajaya venue in Putrajaya"
+  ],
+  "cons": [
+    "Specific details such as entry fees, route maps, and cutoff times are not provided in the available information"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 55,
+  "faqs": [
+    {
+      "question": "When is the CIDB Half Marathon 2026?",
+      "answer": "The CIDB Half Marathon 2026 is scheduled for December 13, 2026. It will be held at Dataran Putrajaya in Putrajaya, Malaysia. Registration for the event is currently open for interested participants."
+    },
+    {
+      "question": "What distance options are available?",
+      "answer": "The event offers four distance categories: 21.1km (half marathon), 10km, 5km, and 3km. This allows runners of different abilities and goals to choose a distance that suits them, from serious half-marathoners to casual participants or families."
+    },
+    {
+      "question": "Who organizes the CIDB Half Marathon?",
+      "answer": "The race is organized by Kelab CIDB WP Kuala Lumpur, running the event under the name \"CIDB Run.\" It takes place at Dataran Putrajaya, a well-known public square in Putrajaya, Malaysia."
+    },
+    {
+      "question": "Is registration currently open?",
+      "answer": "Yes, registration for the CIDB Half Marathon 2026 is currently open. Interested runners can sign up ahead of the event date of December 13, 2026, at Dataran Putrajaya, Putrajaya, Malaysia."
+    }
+  ],
+  "reliability_score": 40,
   "tags": [
     "half-marathon",
     "malaysia"
@@ -59,6 +82,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
-  "status": "active"
+  "last_updated": "2026-07-30",
+  "status": "needs_review"
 }

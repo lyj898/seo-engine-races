@@ -4,26 +4,51 @@
   "name": "Larian Kita Jubli Perak",
   "category_id": "half-marathon",
   "region_id": "malaysia",
-  "short_description": "Larian Kita Jubli Perak takes place October 10, 2026 in Klang, Selangor, Malaysia.",
-  "ai_summary": "Larian Kita Jubli Perak is a road running event in Klang, Selangor, Malaysia, featuring 21KM Half Marathon (Open/Veteran); 10KM; 3KM Fun Run. The race takes place on October 10, 2026, starting from Stadium Sultan Suleiman, Klang. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "Larian Kita Jubli Perak is a half-marathon held on 10 October 2026 at Stadium Sultan Suleiman, Klang, Selangor, Malaysia, offering 21km, 10km, and 3km distances.",
+  "ai_summary": "Larian Kita Jubli Perak is a half-marathon event taking place on 10 October 2026 at Stadium Sultan Suleiman in Klang, Selangor, Malaysia. Runners can choose from three distances: 21km, 10km, and 3km, with the 21.1km half-marathon as the primary race. Registration is currently open, organized by Eventique Management Sdn Bhd, with entry fees ranging from RM39 for the 3km to RM99 for the 21km category, plus an admin fee.",
   "core_facts": {
     "date": "2026-10-10",
     "distance_km": [
-      21.0,
-      10.0,
-      3.0
+      21,
+      10,
+      3
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Eventique Management Sdn Bhd",
     "registration_status": "Open",
-    "country": "Malaysia",
+    "price_range": "MYR 21K RM99 / 10K RM79 / 3K RM39 (+admin fee)",
     "venue": "Stadium Sultan Suleiman, Klang",
     "city": "Klang, Selangor",
-    "price_range": "MYR 21K RM99 / 10K RM79 / 3K RM39 (+admin fee)"
+    "country": "Malaysia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21km, 10km, 3km) suit a range of runner abilities",
+    "Registration is currently open, giving ample time to plan and train",
+    "Affordable entry fees starting from RM39 for the shortest distance",
+    "Clear, single venue location at Stadium Sultan Suleiman simplifies logistics for participants"
+  ],
+  "cons": [
+    "An additional admin fee applies on top of the listed registration prices"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When and where is Larian Kita Jubli Perak held?",
+      "answer": "Larian Kita Jubli Perak takes place on 10 October 2026 at Stadium Sultan Suleiman, located in Klang, Selangor, Malaysia. This venue serves as the central starting and finishing point for all distance categories offered during the event, making it a straightforward location for participants to plan their race day around."
+    },
+    {
+      "question": "What distance options are available?",
+      "answer": "The event offers three distance categories for participants to choose from: 21km, 10km, and 3km. The primary distance is the 21.1km half-marathon, which serves as the flagship race, while the 10km and 3km options cater to runners seeking shorter or more accessible distances at the same event."
+    },
+    {
+      "question": "How much does registration cost?",
+      "answer": "Registration pricing is tiered by distance: the 21km category costs RM99, the 10km category costs RM79, and the 3km category costs RM39. Note that all these prices are subject to an additional admin fee, so participants should factor that into their total registration cost when signing up."
+    },
+    {
+      "question": "Who organizes this race, and is registration still open?",
+      "answer": "Larian Kita Jubli Perak is organized by Eventique Management Sdn Bhd. As of now, registration status for the event is listed as open, meaning interested runners can still sign up for any of the three available distance categories ahead of the race date on 10 October 2026."
+    }
+  ],
   "reliability_score": 38,
   "tags": [
     "half-marathon",
@@ -34,7 +59,7 @@
       "url": "https://www.racexasia.com/event/larian-kita-jubli-perak-lkjp26",
       "label": "racexasia.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     }
   ],
   "affiliate_links": [],
@@ -46,6 +71,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
-  "status": "active"
+  "last_updated": "2026-07-30",
+  "status": "needs_review"
 }

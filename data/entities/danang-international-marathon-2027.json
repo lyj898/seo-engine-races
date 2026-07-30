@@ -4,8 +4,8 @@
   "name": "Danang International Marathon 2027",
   "category_id": "full-marathon",
   "region_id": "vietnam",
-  "short_description": "Danang International Marathon 2027 takes place March 21, 2027 in Da Nang, Vietnam.",
-  "ai_summary": "Danang International Marathon 2027 is a road running event in Da Nang, Vietnam, featuring Full Marathon (42KM), Half Marathon (21KM), 10KM. The race takes place on March 21, 2027, starting from Da Nang, Vietnam. Registration is Opens 8 Jul 2026 as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The Danang International Marathon 2027 is a full marathon held in Da Nang, Vietnam on March 21, 2027, with 42.195 km, 21 km, and 10 km distance options.",
+  "ai_summary": "The Danang International Marathon 2027 is a full-marathon event scheduled for March 21, 2027, held in Da Nang, Vietnam. Runners can choose from three distances: a full marathon of 42.195 km, a half marathon of 21 km, and a shorter 10 km race, making it accessible to a range of experience levels. Registration for the event opens on July 8, 2026, giving participants ample time to plan and prepare. The race is verified and set in the coastal city of Da Nang, offering an international marathon experience in Vietnam.",
   "core_facts": {
     "date": "2027-03-21",
     "distance_km": [
@@ -15,15 +15,40 @@
     ],
     "primary_distance_km": 42.195,
     "registration_status": "Opens 8 Jul 2026",
-    "country": "Vietnam",
     "venue": "Da Nang, Vietnam",
-    "city": "Da Nang"
+    "city": "Da Nang",
+    "country": "Vietnam"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (42.195 km, 21 km, 10 km) suit different runner levels",
+    "Set in Da Nang, a notable city in Vietnam",
+    "Registration opens well in advance, allowing time to prepare",
+    "Listed as a verified event on the directory"
+  ],
+  "cons": [
+    "Registration is not yet open, so entry details and pricing are unavailable",
+    "No course, weather, or logistical information is provided"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 90,
+  "faqs": [
+    {
+      "question": "When is the Danang International Marathon 2027?",
+      "answer": "The Danang International Marathon 2027 is scheduled to take place on March 21, 2027. It is held in Da Nang, Vietnam, and is organized as a full-marathon event. Runners planning to attend should mark this date, as it determines the timing of all associated race distances and activities for the event."
+    },
+    {
+      "question": "What distances can I run?",
+      "answer": "Participants in the Danang International Marathon 2027 can choose from three distances: a full marathon of 42.195 km, a half marathon of 21 km, and a shorter 10 km race. This range allows both experienced marathoners and newer runners to select a distance that matches their fitness level and goals."
+    },
+    {
+      "question": "When does registration open?",
+      "answer": "Registration for the Danang International Marathon 2027 opens on July 8, 2026. This gives prospective participants roughly eight months of lead time before the race date of March 21, 2027, to sign up, arrange travel, and prepare for whichever distance they choose to run."
+    },
+    {
+      "question": "Where does the race take place?",
+      "answer": "The Danang International Marathon 2027 takes place in Da Nang, Vietnam. The city serves as both the venue and host location for the event, which includes full marathon, half marathon, and 10 km distance options for runners traveling to or living in the area."
+    }
+  ],
+  "reliability_score": 85,
   "tags": [
     "full-marathon",
     "vietnam",
@@ -34,7 +59,7 @@
       "url": "https://rundanang.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-14"
+      "last_checked": "2026-07-30"
     }
   ],
   "affiliate_links": [],
@@ -46,6 +71,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-14",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

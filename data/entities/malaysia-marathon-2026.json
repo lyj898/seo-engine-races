@@ -4,27 +4,49 @@
   "name": "Malaysia Marathon 2026",
   "category_id": "full-marathon",
   "region_id": "malaysia",
-  "short_description": "Malaysia Marathon 2026 takes place August 30, 2026 in Kuala Lumpur, Malaysia.",
-  "ai_summary": "Malaysia Marathon 2026 is a road running event in Kuala Lumpur, Malaysia, featuring Full Marathon (42KM); Half Marathon (21KM); 10KM; 5KM. The race takes place on August 30, 2026, starting from Start Pavilion Bukit Bintang, finish KLCC. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The Malaysia Marathon 2026 is a full-marathon event held on August 30, 2026 in Kuala Lumpur, starting at Pavilion Bukit Bintang and finishing at KLCC.",
+  "ai_summary": "The Malaysia Marathon 2026 is a full-marathon event taking place on August 30, 2026 in Kuala Lumpur, Malaysia. Organized by Malaysia Marathon in partnership with SCORE Experience, it offers four distance options: 42.195km, 21km, 10km, and 5km. The race starts at Pavilion Bukit Bintang and finishes at KLCC, and registration is currently open.",
   "core_facts": {
     "date": "2026-08-30",
     "distance_km": [
-      42.0,
-      21.0,
-      10.0,
-      5.0
+      42,
+      21,
+      10,
+      5
     ],
     "primary_distance_km": 42.195,
+    "organizer": "Malaysia Marathon (with SCORE Experience)",
     "registration_status": "Open",
-    "country": "Malaysia",
     "venue": "Start Pavilion Bukit Bintang, finish KLCC",
     "city": "Kuala Lumpur",
-    "organizer": "Malaysia Marathon (with SCORE Experience)"
+    "country": "Malaysia"
   },
-  "pros": [],
+  "pros": [
+    "Multiple distance options (42.195km, 21km, 10km, 5km) suit a range of runners",
+    "Iconic start and finish points at Pavilion Bukit Bintang and KLCC in Kuala Lumpur",
+    "Registration is currently open, giving runners time to plan and train",
+    "Organized in partnership with SCORE Experience"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Malaysia Marathon 2026?",
+      "answer": "The Malaysia Marathon 2026 is scheduled to take place on August 30, 2026. The event is held in Kuala Lumpur, Malaysia, and is organized by Malaysia Marathon in partnership with SCORE Experience. Runners interested in participating should note this date when planning their training and travel arrangements ahead of race day."
+    },
+    {
+      "question": "Where does the Malaysia Marathon 2026 start and finish?",
+      "answer": "The race starts at Pavilion Bukit Bintang and finishes at KLCC, both located in Kuala Lumpur, Malaysia. This route takes runners through notable areas of the city, beginning and ending at two well-known landmarks, making it a distinctive course for participants of the Malaysia Marathon 2026."
+    },
+    {
+      "question": "Is registration open for the Malaysia Marathon 2026?",
+      "answer": "Yes, registration for the Malaysia Marathon 2026 is currently open. Prospective participants can sign up for one of the available distances, including the full marathon of 42.195km, as well as 21km, 10km, and 5km options, ahead of the race date on August 30, 2026."
+    },
+    {
+      "question": "What distance options are available at the Malaysia Marathon 2026?",
+      "answer": "The Malaysia Marathon 2026 offers four distance categories: a full marathon of 42.195km, a half marathon of 21km, a 10km race, and a 5km race. This range of distances allows runners of different experience levels and goals to participate in the event held in Kuala Lumpur."
+    }
+  ],
   "reliability_score": 85,
   "tags": [
     "full-marathon",
@@ -36,7 +58,7 @@
       "url": "https://malaysiamarathonofficial.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://www.heyjom.com/event/malaysia-marathon-2026",
@@ -54,6 +76,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

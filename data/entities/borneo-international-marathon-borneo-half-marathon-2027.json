@@ -4,8 +4,8 @@
   "name": "Borneo International Marathon / Borneo Half Marathon 2027",
   "category_id": "full-marathon",
   "region_id": "malaysia",
-  "short_description": "Borneo International Marathon / Borneo Half Marathon 2027 takes place May 9, 2027 in Kota Kinabalu, Sabah, Malaysia.",
-  "ai_summary": "Borneo International Marathon / Borneo Half Marathon 2027 is a road running event in Kota Kinabalu, Sabah, Malaysia, featuring Full Marathon; Half Marathon. The race takes place on May 9, 2027, starting from Likas Stadium area, Kota Kinabalu, Sabah. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A full marathon and half marathon event held on 9 May 2027 in Kota Kinabalu, Sabah, Malaysia, organized by the Kinabalu Running Club.",
+  "ai_summary": "The Borneo International Marathon / Borneo Half Marathon 2027 is set for 9 May 2027 in Kota Kinabalu, Sabah, Malaysia, organized by the Kinabalu Running Club. Runners can choose between a full marathon (42.195 km) and a half marathon (21.1 km), with the race centered around the Likas Stadium area. Registration for this edition is already sold out.",
   "core_facts": {
     "date": "2027-05-09",
     "distance_km": [
@@ -13,16 +13,40 @@
       21.1
     ],
     "primary_distance_km": 42.195,
-    "registration_status": "not_yet_announced",
-    "country": "Malaysia",
+    "organizer": "Kinabalu Running Club",
+    "registration_status": "sold_out",
     "venue": "Likas Stadium area, Kota Kinabalu, Sabah",
     "city": "Kota Kinabalu, Sabah",
-    "organizer": "Kinabalu Running Club"
+    "country": "Malaysia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Offers two distance options: full marathon (42.195 km) and half marathon (21.1 km)",
+    "Organized by an established local body, the Kinabalu Running Club",
+    "Set in a notable location, the Likas Stadium area of Kota Kinabalu, Sabah",
+    "Strong demand is evident, as registration has already sold out"
+  ],
+  "cons": [
+    "Registration is sold out, so new participants cannot currently sign up for the 2027 race"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When does the Borneo International Marathon / Borneo Half Marathon 2027 take place?",
+      "answer": "The event is scheduled to take place on 9 May 2027. It is held in Kota Kinabalu, Sabah, Malaysia, and is organized by the Kinabalu Running Club, offering both a full marathon and a half marathon distance for participants on that single race day."
+    },
+    {
+      "question": "What distances are offered at this event?",
+      "answer": "Participants can choose between two distances: a full marathon covering 42.195 kilometers, which serves as the primary distance, and a half marathon covering 21.1 kilometers. Both races are part of the same event weekend organized by the Kinabalu Running Club in Kota Kinabalu, Sabah, Malaysia."
+    },
+    {
+      "question": "Can I still register for the 2027 race?",
+      "answer": "No, registration for the Borneo International Marathon / Borneo Half Marathon 2027 is currently listed as sold out. This means all available spots for both the full marathon and half marathon distances have already been claimed ahead of the 9 May 2027 event date."
+    },
+    {
+      "question": "Where is the race held?",
+      "answer": "The race takes place in the Likas Stadium area of Kota Kinabalu, in the state of Sabah, Malaysia. This venue serves as the base for both the full marathon and half marathon distances organized by the Kinabalu Running Club for the 2027 edition."
+    }
+  ],
   "reliability_score": 68,
   "tags": [
     "full-marathon",
@@ -33,7 +57,7 @@
       "url": "https://borneomarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-16"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://aims-worldrunning.org/calendar.html",
@@ -57,6 +81,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-16",
-  "status": "active"
+  "last_updated": "2026-07-30",
+  "status": "needs_review"
 }

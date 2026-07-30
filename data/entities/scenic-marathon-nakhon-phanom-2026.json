@@ -4,8 +4,8 @@
   "name": "Scenic Marathon Nakhon Phanom",
   "category_id": "full-marathon",
   "region_id": "thailand",
-  "short_description": "Scenic Marathon Nakhon Phanom takes place December 13, 2026 in Nakhon Phanom, Thailand.",
-  "ai_summary": "Scenic Marathon Nakhon Phanom is a road running event in Nakhon Phanom, Thailand, featuring Full Marathon (42.195km); Half Marathon (21.1km). The race takes place on December 13, 2026, starting from Nakhon Phanom. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A full and half marathon event set for December 13, 2026 in Nakhon Phanom, Thailand.",
+  "ai_summary": "Scenic Marathon Nakhon Phanom is a full-marathon event scheduled for December 13, 2026, taking place in Nakhon Phanom, Thailand. The race offers two distance options: a full marathon of 42.195 km and a half marathon of 21.1 km, giving runners a choice based on their preferred challenge. Registration details have not yet been announced, so prospective participants should check back for updates. The event is verified and set in the city of Nakhon Phanom.",
   "core_facts": {
     "date": "2026-12-13",
     "distance_km": [
@@ -14,14 +14,37 @@
     ],
     "primary_distance_km": 42.195,
     "registration_status": "not_yet_announced",
-    "country": "Thailand",
     "venue": "Nakhon Phanom",
-    "city": "Nakhon Phanom"
+    "city": "Nakhon Phanom",
+    "country": "Thailand"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Offers both full marathon (42.195 km) and half marathon (21.1 km) distance options",
+    "Takes place in the scenic city of Nakhon Phanom, Thailand",
+    "Listed as a verified race event"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Scenic Marathon Nakhon Phanom held?",
+      "answer": "The Scenic Marathon Nakhon Phanom is scheduled to take place on December 13, 2026. This date marks the event as a full-marathon race held in Nakhon Phanom, Thailand, giving runners plenty of advance notice to plan their travel and training leading up to race day."
+    },
+    {
+      "question": "What distances are offered at this race?",
+      "answer": "Runners can choose between two distances at this event: a full marathon of 42.195 km and a half marathon of 21.1 km. The full marathon is listed as the primary distance, giving participants flexibility to select the challenge that best suits their fitness level and goals."
+    },
+    {
+      "question": "Where is the race located?",
+      "answer": "The race is held in Nakhon Phanom, Thailand, with the venue itself also listed as Nakhon Phanom. This location places the event within the city, making it a notable destination race for both local Thai runners and international participants seeking a scenic marathon experience."
+    },
+    {
+      "question": "Is registration open for this race?",
+      "answer": "As of now, the registration status for the Scenic Marathon Nakhon Phanom has not yet been announced. Prospective participants interested in the full marathon or half marathon distances should check back later for updates on when sign-ups will officially open for this event."
+    }
+  ],
   "reliability_score": 85,
   "tags": [
     "full-marathon",
@@ -33,7 +56,7 @@
       "url": "https://scenicmarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://aims-worldrunning.org/calendar.html",
@@ -51,6 +74,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

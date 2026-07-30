@@ -4,25 +4,51 @@
   "name": "Surabaya Orthopedic Half Marathon (SOHM) 2026",
   "category_id": "half-marathon",
   "region_id": "indonesia",
-  "short_description": "Surabaya Orthopedic Half Marathon (SOHM) 2026 takes place September 13, 2026 in Surabaya, Indonesia.",
-  "ai_summary": "Surabaya Orthopedic Half Marathon (SOHM) 2026 is a road running event in Surabaya, Indonesia, featuring Half Marathon; 10km; 5km. The race takes place on September 13, 2026, starting from The Caribbean Grande Pakuwon City, Surabaya. Registration is Not Yet Announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "SOHM 2026 is a half marathon event held on September 13, 2026 in Surabaya, Indonesia, offering 21.1km, 10km, and 5km distances.",
+  "ai_summary": "The Surabaya Orthopedic Half Marathon (SOHM) 2026 is scheduled for September 13, 2026, at The Caribbean Grande Pakuwon City in Surabaya, Indonesia. Runners can choose from three distances: 21.1km, 10km, and 5km. Registration is currently open, with prices ranging from Rp 137.500 to Rp 450.000 depending on the chosen distance and category.",
   "core_facts": {
     "date": "2026-09-13",
     "distance_km": [
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
-    "registration_status": "Not Yet Announced",
-    "country": "Indonesia",
+    "registration_status": "Open",
+    "price_range": "Rp 137.500 - Rp 450.000",
     "venue": "The Caribbean Grande Pakuwon City, Surabaya",
-    "city": "Surabaya"
+    "city": "Surabaya",
+    "country": "Indonesia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km) suit different runner levels",
+    "Registration is currently open, giving ample time to plan and train",
+    "Held at a defined venue, The Caribbean Grande Pakuwon City, Surabaya",
+    "Wide price range allows flexibility depending on distance and category chosen"
+  ],
+  "cons": [
+    "No information available on course terrain, elevation, or scenic features",
+    "No details provided on race-day logistics such as start times or amenities"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Surabaya Orthopedic Half Marathon (SOHM) 2026 taking place?",
+      "answer": "The Surabaya Orthopedic Half Marathon (SOHM) 2026 is scheduled to take place on September 13, 2026. The event will be held at The Caribbean Grande Pakuwon City in Surabaya, Indonesia, giving participants a clear date to prepare and register for one of the available race distances."
+    },
+    {
+      "question": "What distances are offered at SOHM 2026?",
+      "answer": "SOHM 2026 offers three race distances for participants to choose from: a 21.1km half marathon, a 10km race, and a 5km race. This range allows runners of different experience levels and fitness goals to select the distance that best suits their training and personal objectives."
+    },
+    {
+      "question": "How much does it cost to register for SOHM 2026?",
+      "answer": "Registration prices for SOHM 2026 range from Rp 137.500 to Rp 450.000. The exact cost depends on which race distance and category a participant selects, with the 21.1km, 10km, and 5km options likely priced differently within this stated range."
+    },
+    {
+      "question": "Is registration currently open for SOHM 2026?",
+      "answer": "Yes, registration for the Surabaya Orthopedic Half Marathon (SOHM) 2026 is currently open. Interested runners can sign up now for any of the three available distances—21.1km, 10km, or 5km—ahead of the race date on September 13, 2026 in Surabaya, Indonesia."
+    }
+  ],
   "reliability_score": 82,
   "tags": [
     "half-marathon",
@@ -34,7 +60,7 @@
       "url": "https://www.orthopedicrun.id",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-13"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
@@ -58,6 +84,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-13",
-  "status": "active"
+  "last_updated": "2026-07-30",
+  "status": "needs_review"
 }

@@ -4,28 +4,52 @@
   "name": "Leon Kilat Half Marathon 2026",
   "category_id": "half-marathon",
   "region_id": "philippines",
-  "short_description": "Leon Kilat Half Marathon 2026 takes place August 23, 2026 in Bacong, Negros Oriental, Philippines.",
-  "ai_summary": "Leon Kilat Half Marathon 2026 is a road running event in Bacong, Negros Oriental, Philippines, featuring Half Marathon (21K); 10K; 5K; 1K. The race takes place on August 23, 2026, starting from Leon Kilat Mall, Bacong. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The Leon Kilat Half Marathon 2026 is a multi-distance race (21.1km, 10km, 5km, 1km) held on August 23, 2026 in Bacong, Negros Oriental, Philippines.",
+  "ai_summary": "The Leon Kilat Half Marathon 2026 is scheduled for August 23, 2026, in Bacong, Negros Oriental, Philippines, with the starting venue at Leon Kilat Mall. Organized by SMOKE10 Events, the race offers multiple distance options including a 21.1km half marathon, along with 10km, 5km, and 1km races, making it accessible to a range of runners. Registration details have not yet been announced.",
   "core_facts": {
     "date": "2026-08-23",
     "distance_km": [
       21.1,
-      10.0,
-      5.0,
-      1.0
+      10,
+      5,
+      1
     ],
     "primary_distance_km": 21.1,
+    "organizer": "SMOKE10 Events",
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "Leon Kilat Mall, Bacong",
     "city": "Bacong, Negros Oriental",
-    "organizer": "SMOKE10 Events"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km, 1km) suit different runner levels",
+    "Set in Bacong, Negros Oriental, offering a distinct Philippine race location",
+    "Organized by SMOKE10 Events, a named event organizer"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so sign-up details are unavailable",
+    "No information yet provided on race-day logistics or course specifics"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 40,
+  "faqs": [
+    {
+      "question": "When is the Leon Kilat Half Marathon 2026?",
+      "answer": "The Leon Kilat Half Marathon 2026 is scheduled to take place on August 23, 2026. The race will be held in Bacong, Negros Oriental, Philippines, with the starting point at Leon Kilat Mall. No further scheduling details, such as start times for individual distances, have been announced yet."
+    },
+    {
+      "question": "What distances are offered at this race?",
+      "answer": "This event offers four distance options for participants: a 21.1km half marathon, which is the primary distance, along with 10km, 5km, and 1km races. This range allows runners of varying experience levels and fitness goals to take part in the Leon Kilat Half Marathon 2026."
+    },
+    {
+      "question": "Who is organizing the Leon Kilat Half Marathon 2026?",
+      "answer": "The Leon Kilat Half Marathon 2026 is organized by SMOKE10 Events. The race will take place at Leon Kilat Mall in Bacong, Negros Oriental, Philippines, on August 23, 2026, though further organizational or logistical details have not yet been made public."
+    },
+    {
+      "question": "Is registration open for this race?",
+      "answer": "As of now, registration for the Leon Kilat Half Marathon 2026 has not yet been announced. Prospective participants interested in the 21.1km, 10km, 5km, or 1km distances will need to wait for further updates from the organizer, SMOKE10 Events, regarding sign-up availability and details."
+    }
+  ],
+  "reliability_score": 43,
   "tags": [
     "half-marathon",
     "philippines"
@@ -35,12 +59,12 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

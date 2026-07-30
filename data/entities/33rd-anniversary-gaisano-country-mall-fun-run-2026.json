@@ -4,28 +4,52 @@
   "name": "33rd Anniversary Gaisano Country Mall Fun Run 2026",
   "category_id": "half-marathon",
   "region_id": "philippines",
-  "short_description": "33rd Anniversary Gaisano Country Mall Fun Run 2026 takes place October 18, 2026 in Cebu City, Philippines.",
-  "ai_summary": "33rd Anniversary Gaisano Country Mall Fun Run 2026 is a road running event in Cebu City, Philippines, featuring Half Marathon (21K); 12K; 6K. The race takes place on October 18, 2026, starting from Banilad Road, Cebu City. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half-marathon fun run held on October 18, 2026 along Banilad Road, Cebu City, Philippines, offering 21.1km, 12km, and 6km distances.",
+  "ai_summary": "The 33rd Anniversary Gaisano Country Mall Fun Run 2026 is a half-marathon event taking place on October 18, 2026 in Cebu City, Philippines. Runners can choose from three distances: 21.1km, 12km, and 6km, with the race starting and finishing along Banilad Road. The event is organized by Gaisano Country Mall and supports the charity SOS Children's Village. Registration is currently open, with pricing noted as PHP 1,500 for the 21K distance and PHP 1,200 for the 12K distance.",
   "core_facts": {
     "date": "2026-10-18",
     "distance_km": [
       21.1,
-      12.0,
-      6.0
+      12,
+      6
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Gaisano Country Mall (charity: SOS Children's Village)",
     "registration_status": "Open",
-    "country": "Philippines",
+    "price_range": "PHP 21K 1,500 / 12K 1,200",
     "venue": "Banilad Road, Cebu City",
     "city": "Cebu City",
-    "organizer": "Gaisano Country Mall (charity: SOS Children's Village)",
-    "price_range": "PHP 21K 1,500 / 12K 1,200"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 12km, 6km) to suit different runner levels",
+    "Supports a charitable cause, SOS Children's Village",
+    "Long-running event with a 33-year history, suggesting established organization",
+    "Registration is currently open"
+  ],
+  "cons": [
+    "Pricing details are only partially clear, listing costs for two of the three distances"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 58,
+  "faqs": [
+    {
+      "question": "What distances are offered in this race?",
+      "answer": "The event offers three distance options for participants to choose from: a 21.1km half-marathon, a 12km run, and a 6km run. The 21.1km distance is listed as the primary distance for the event, giving runners of varying experience levels a suitable option to participate in the 33rd Anniversary Gaisano Country Mall Fun Run 2026."
+    },
+    {
+      "question": "How much does registration cost?",
+      "answer": "Registration pricing is listed as PHP 1,500 for the 21K distance and PHP 1,200 for the 12K distance. Pricing for the 6km distance is not specified in the available information. Prospective participants should confirm final costs and any additional fees directly with the organizer, Gaisano Country Mall, before registering for the event."
+    },
+    {
+      "question": "Is registration currently open?",
+      "answer": "Yes, registration for the 33rd Anniversary Gaisano Country Mall Fun Run 2026 is currently open. Interested runners can sign up ahead of the event date, which is scheduled for October 18, 2026, at Banilad Road in Cebu City, Philippines, organized by Gaisano Country Mall."
+    },
+    {
+      "question": "Where and when does the race take place?",
+      "answer": "The race is scheduled for October 18, 2026, and will be held along Banilad Road in Cebu City, Philippines. This location serves as the venue for all three distance categories offered at the event, organized by Gaisano Country Mall in support of SOS Children's Village."
+    }
+  ],
+  "reliability_score": 53,
   "tags": [
     "half-marathon",
     "philippines"
@@ -35,12 +59,12 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

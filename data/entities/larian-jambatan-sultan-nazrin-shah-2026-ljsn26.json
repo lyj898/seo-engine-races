@@ -4,8 +4,8 @@
   "name": "Larian Jambatan Sultan Nazrin Shah 2026 (LJSN26)",
   "category_id": "half-marathon",
   "region_id": "malaysia",
-  "short_description": "Larian Jambatan Sultan Nazrin Shah 2026 (LJSN26) takes place October 25, 2026 in Bagan Datuk, Perak, Malaysia.",
-  "ai_summary": "Larian Jambatan Sultan Nazrin Shah 2026 (LJSN26) is a road running event in Bagan Datuk, Perak, Malaysia, featuring Half Marathon (21km); 10km; 5km. The race takes place on October 25, 2026, starting from Tapak Pasar Malam, Bagan Datuk, Perak. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "LJSN26 is a half-marathon (with 10km and 5km options) held October 25, 2026, in Bagan Datuk, Perak, Malaysia.",
+  "ai_summary": "Larian Jambatan Sultan Nazrin Shah 2026 (LJSN26) is a half-marathon event scheduled for October 25, 2026, in Bagan Datuk, Perak, Malaysia. Organized by Majlis Perbandaran Teluk Intan (MPTI), the race offers three distance options: 21.1km, 10km, and 5km, with the half-marathon as the primary distance. The event will be held at Tapak Pasar Malam, Bagan Datuk. Registration details have not yet been announced.",
   "core_facts": {
     "date": "2026-10-25",
     "distance_km": [
@@ -14,17 +14,41 @@
       5
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Majlis Perbandaran Teluk Intan (MPTI)",
     "registration_status": "not_yet_announced",
-    "country": "Malaysia",
     "venue": "Tapak Pasar Malam, Bagan Datuk, Perak",
     "city": "Bagan Datuk, Perak",
-    "organizer": "Majlis Perbandaran Teluk Intan (MPTI)"
+    "country": "Malaysia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km) cater to different fitness levels and goals",
+    "Organized by a municipal authority (MPTI), suggesting official local government backing and support",
+    "Clear, confirmed race date of October 25, 2026 allows for advance planning"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so entry details, fees, and sign-up dates remain unavailable",
+    "Limited information available about the race beyond basic date, distance, and venue facts"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 58,
+  "faqs": [
+    {
+      "question": "When is LJSN26 taking place?",
+      "answer": "Larian Jambatan Sultan Nazrin Shah 2026 (LJSN26) is scheduled to take place on October 25, 2026. The race will be held at Tapak Pasar Malam in Bagan Datuk, Perak, Malaysia. Runners planning to participate should mark this date, though further event-day details have not yet been released by the organizer."
+    },
+    {
+      "question": "What distances are offered at LJSN26?",
+      "answer": "LJSN26 offers three distance categories: a half-marathon at 21.1km (the primary distance), as well as 10km and 5km options. This range allows participants of varying experience levels and fitness goals to choose a distance suited to them, from competitive half-marathon runners to those seeking a shorter, more casual race."
+    },
+    {
+      "question": "Who organizes LJSN26?",
+      "answer": "LJSN26 is organized by Majlis Perbandaran Teluk Intan (MPTI), a municipal council in Perak, Malaysia. As the organizing body, MPTI oversees the planning and execution of the race, which is held in Bagan Datuk, Perak. No additional organizing partners or sponsors have been specified in the available information."
+    },
+    {
+      "question": "Can I register for LJSN26 now?",
+      "answer": "Registration for LJSN26 has not yet been announced. Prospective participants currently do not have access to sign-up details, entry fees, or registration deadlines. Anyone interested in joining the race should watch for updates from the organizer, Majlis Perbandaran Teluk Intan (MPTI), regarding when registration will officially open."
+    }
+  ],
+  "reliability_score": 53,
   "tags": [
     "half-marathon",
     "malaysia"
@@ -34,7 +58,7 @@
       "url": "https://www.racexasia.com",
       "label": "racexasia.com",
       "type": "aggregator",
-      "last_checked": "2026-07-16"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://Howei.com",
@@ -52,6 +76,6 @@
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-07-16",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

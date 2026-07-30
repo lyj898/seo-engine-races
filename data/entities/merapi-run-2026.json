@@ -4,26 +4,52 @@
   "name": "Merapi Run 2026",
   "category_id": "half-marathon",
   "region_id": "indonesia",
-  "short_description": "Merapi Run 2026 takes place August 9, 2026 in Kaliurang, Yogyakarta, Indonesia.",
-  "ai_summary": "Merapi Run 2026 is a road running event in Kaliurang, Yogyakarta, Indonesia, featuring Half Marathon; 10km; 5km; 3km. The race takes place on August 9, 2026, starting from Griya Persada Hotel, Kaliurang, Yogyakarta. Registration is Not Yet Announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half-marathon and multi-distance race held on 9 August 2026 in Kaliurang, Yogyakarta, Indonesia, featuring 493m of elevation gain on the 21.1km course.",
+  "ai_summary": "Merapi Run 2026 is a half-marathon event taking place on 9 August 2026 at Griya Persada Convention Hotel & Resort in Kaliurang, Yogyakarta, Indonesia. Runners can choose from four distances: 21.1km, 10km, 5km, or 3km, with the half-marathon course featuring 493m of elevation gain. Registration opens on 6 May 2026, with prices ranging from Rp 200.000 to Rp 500.000 depending on the distance chosen.",
   "core_facts": {
     "date": "2026-08-09",
     "distance_km": [
       21.1,
-      10.0,
-      5.0,
-      3.0
+      10,
+      5,
+      3
     ],
     "primary_distance_km": 21.1,
-    "registration_status": "Not Yet Announced",
-    "country": "Indonesia",
-    "venue": "Griya Persada Hotel, Kaliurang, Yogyakarta",
-    "city": "Kaliurang, Yogyakarta"
+    "elevation_gain_m": 493,
+    "registration_status": "Opens 6 May 2026",
+    "price_range": "Rp 200.000 - Rp 500.000",
+    "venue": "Griya Persada Convention Hotel & Resort, Kaliurang, Yogyakarta",
+    "city": "Kaliurang, Yogyakarta",
+    "country": "Indonesia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km, 3km) to suit different runner levels",
+    "Scenic venue at Griya Persada Convention Hotel & Resort in Kaliurang, Yogyakarta",
+    "Affordable registration pricing between Rp 200.000 and Rp 500.000"
+  ],
+  "cons": [
+    "Half-marathon course includes significant elevation gain of 493m, which may be challenging for flat-course runners",
+    "Registration does not open until 6 May 2026, requiring advance planning"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Merapi Run 2026?",
+      "answer": "The Merapi Run 2026 is scheduled to take place on 9 August 2026. The event will be held at Griya Persada Convention Hotel & Resort in Kaliurang, Yogyakarta, Indonesia, offering runners a mid-year race option with multiple distance categories to choose from."
+    },
+    {
+      "question": "What distances are offered at Merapi Run 2026?",
+      "answer": "Merapi Run 2026 offers four distance options for participants: a 21.1km half-marathon, a 10km race, a 5km race, and a shorter 3km race. This variety allows runners of different experience levels and fitness goals to participate in the event."
+    },
+    {
+      "question": "How much elevation gain is there in the half-marathon?",
+      "answer": "The half-marathon distance (21.1km) at Merapi Run 2026 includes a total elevation gain of 493 meters. This makes the course notably hilly compared to flat road races, so runners should prepare for climbing sections throughout the route in Kaliurang."
+    },
+    {
+      "question": "When does registration open and what does it cost?",
+      "answer": "Registration for Merapi Run 2026 opens on 6 May 2026. Entry fees range from Rp 200.000 to Rp 500.000, with the exact price depending on which of the four distance categories a participant chooses to enter."
+    }
+  ],
   "reliability_score": 82,
   "tags": [
     "half-marathon",
@@ -35,7 +61,7 @@
       "url": "https://merapirun.space-z.ai",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-13"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
@@ -59,6 +85,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-13",
-  "status": "active"
+  "last_updated": "2026-07-30",
+  "status": "needs_review"
 }

@@ -4,8 +4,8 @@
   "name": "Bagan Marathon (Bagan Temple Marathon)",
   "category_id": "full-marathon",
   "region_id": "myanmar",
-  "short_description": "Bagan Marathon (Bagan Temple Marathon) takes place November 8, 2026 in Nyaung-U / Old Bagan, Myanmar.",
-  "ai_summary": "Bagan Marathon (Bagan Temple Marathon) is a road running event in Nyaung-U / Old Bagan, Myanmar, featuring Full Marathon, Half Marathon, 10KM. The race takes place on November 8, 2026, starting from Old Bagan, Myanmar. Registration is Open (via Google Form/Facebook) as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The Bagan Marathon is a full marathon, half marathon, and 10K race held on November 8, 2026 in Old Bagan, Myanmar.",
+  "ai_summary": "The Bagan Marathon, organized by RUNderful Myanmar, takes place on November 8, 2026 in Old Bagan, near Nyaung-U, Myanmar. Runners can choose from three distances: a full marathon of 42.195 km, a half marathon of 21.1 km, or a 10 km race. Registration is currently open via Google Form or the event's Facebook page. The race offers participants the opportunity to run through the historic temple landscape of Bagan.",
   "core_facts": {
     "date": "2026-11-08",
     "distance_km": [
@@ -14,17 +14,39 @@
       10
     ],
     "primary_distance_km": 42.195,
+    "organizer": "RUNderful Myanmar",
     "registration_status": "Open (via Google Form/Facebook)",
-    "country": "Myanmar",
     "venue": "Old Bagan, Myanmar",
     "city": "Nyaung-U / Old Bagan",
-    "organizer": "RUNderful Myanmar"
+    "country": "Myanmar"
   },
-  "pros": [],
+  "pros": [
+    "Multiple distance options (42.195 km, 21.1 km, 10 km) suit a range of runners",
+    "Scenic and historic setting in Old Bagan, Myanmar",
+    "Registration is currently open and accessible via Google Form or Facebook",
+    "Organized by a dedicated running event company, RUNderful Myanmar"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 68,
+  "faqs": [
+    {
+      "question": "When is the Bagan Marathon taking place?",
+      "answer": "The Bagan Marathon is scheduled to take place on November 8, 2026. The event will be held in Old Bagan, Myanmar, near Nyaung-U, giving runners the chance to race amid the historic temple landscape of the region on this specific date."
+    },
+    {
+      "question": "What distances can runners choose from?",
+      "answer": "The Bagan Marathon offers three distance options: a full marathon of 42.195 kilometers, a half marathon of 21.1 kilometers, and a shorter 10-kilometer race. This range allows both experienced marathoners and newer runners to participate in an event set in Old Bagan, Myanmar."
+    },
+    {
+      "question": "Who organizes the Bagan Marathon?",
+      "answer": "The Bagan Marathon is organized by RUNderful Myanmar, a running event organizer based in Myanmar. They are responsible for coordinating the race logistics, distances, and registration process for participants who wish to run through Old Bagan on the scheduled November 2026 date."
+    },
+    {
+      "question": "How can I register for the Bagan Marathon?",
+      "answer": "Registration for the Bagan Marathon is currently open and can be completed via a Google Form or through the event's Facebook page. Interested runners should check these official channels for the latest updates on registration deadlines, fees, and any additional requirements before the November 8, 2026 race date."
+    }
+  ],
+  "reliability_score": 63,
   "tags": [
     "full-marathon",
     "myanmar"
@@ -34,12 +56,12 @@
       "url": "https://worldsmarathons.com",
       "label": "worldsmarathons.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

@@ -4,26 +4,47 @@
   "name": "Bekasi Marathon 2026",
   "category_id": "full-marathon",
   "region_id": "indonesia",
-  "short_description": "Bekasi Marathon 2026 takes place August 9, 2026 in Bekasi, Jawa Barat, Indonesia.",
-  "ai_summary": "Bekasi Marathon 2026 is a road running event in Bekasi, Jawa Barat, Indonesia, featuring Full Marathon; Half Marathon; 10km; 5km. The race takes place on August 9, 2026, starting from Kota Harapan Indah, Bekasi, Jawa Barat. Registration is Not Yet Announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A full marathon and multi-distance road race held on August 9, 2026 in Kota Harapan Indah, Bekasi, Jawa Barat, Indonesia.",
+  "ai_summary": "Bekasi Marathon 2026 is a road race scheduled for August 9, 2026, in Kota Harapan Indah, Bekasi, Jawa Barat, Indonesia. The event offers four distance options: full marathon (42.195km), half marathon (21.1km), 10km, and 5km. Registration is scheduled to open with an Early Bird period from April 29 to May 5, 2026, followed by Normal Price registration from May 6 to June 5, 2026.",
   "core_facts": {
     "date": "2026-08-09",
     "distance_km": [
       42.195,
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 42.195,
-    "registration_status": "Not Yet Announced",
-    "country": "Indonesia",
+    "registration_status": "Scheduled with Early Bird 29 April - 5 Mei 2026 and Normal Price 6 Mei - 5 Juni 2026",
     "venue": "Kota Harapan Indah, Bekasi, Jawa Barat",
-    "city": "Bekasi, Jawa Barat"
+    "city": "Bekasi, Jawa Barat",
+    "country": "Indonesia"
   },
-  "pros": [],
+  "pros": [
+    "Multiple distance options (42.195km, 21.1km, 10km, and 5km) accommodate different runner levels",
+    "Early Bird registration pricing is available for those who register early",
+    "Clear registration timeline with defined Early Bird and Normal Price periods"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Bekasi Marathon 2026?",
+      "answer": "The Bekasi Marathon 2026 is scheduled to take place on August 9, 2026. The race will be held in Kota Harapan Indah, located in Bekasi, Jawa Barat, Indonesia, offering runners several distance categories to choose from on race day."
+    },
+    {
+      "question": "What distances are offered at the Bekasi Marathon 2026?",
+      "answer": "The Bekasi Marathon 2026 offers four distance categories for participants: a full marathon of 42.195km, a half marathon of 21.1km, a 10km race, and a shorter 5km race, allowing runners of varying experience levels to take part."
+    },
+    {
+      "question": "When does registration open for the Bekasi Marathon 2026?",
+      "answer": "Registration for the Bekasi Marathon 2026 is scheduled in two phases: an Early Bird period from April 29 to May 5, 2026, followed by a Normal Price period running from May 6 through June 5, 2026, for those registering later."
+    },
+    {
+      "question": "Where is the Bekasi Marathon 2026 held?",
+      "answer": "The Bekasi Marathon 2026 is held at Kota Harapan Indah in Bekasi, Jawa Barat, Indonesia. This venue serves as the location for the full marathon, half marathon, 10km, and 5km races that make up the event."
+    }
+  ],
   "reliability_score": 82,
   "tags": [
     "full-marathon",
@@ -35,7 +56,7 @@
       "url": "https://bekasimarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-13"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
@@ -59,6 +80,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-13",
-  "status": "active"
+  "last_updated": "2026-07-30",
+  "status": "needs_review"
 }

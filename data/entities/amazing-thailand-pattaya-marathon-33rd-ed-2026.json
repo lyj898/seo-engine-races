@@ -4,25 +4,48 @@
   "name": "Amazing Thailand Pattaya Marathon (33rd ed.)",
   "category_id": "full-marathon",
   "region_id": "thailand",
-  "short_description": "Amazing Thailand Pattaya Marathon (33rd ed.) takes place September 26, 2026 in Pattaya, Chonburi, Thailand.",
-  "ai_summary": "Amazing Thailand Pattaya Marathon (33rd ed.) is a road running event in Pattaya, Chonburi, Thailand, featuring Full Marathon; Half Marathon; 10km. The race takes place on September 26, 2026, starting from Pattaya, Chonburi. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The 33rd Amazing Thailand Pattaya Marathon takes place on September 27, 2026, in Pattaya, Chonburi, Thailand, with registration currently open.",
+  "ai_summary": "The Amazing Thailand Pattaya Marathon is the 33rd edition of this annual race, scheduled for September 27, 2026, in Pattaya, Chonburi, Thailand. It offers four distance options: a full marathon (42.195 km), a half marathon (21.1 km), a 10 km race, and a 4.5 km race. Registration is currently open for runners interested in participating in any of these distances.",
   "core_facts": {
-    "date": "2026-09-26",
+    "date": "2026-09-27",
     "distance_km": [
       42.195,
       21.1,
-      10.0
+      10,
+      4.5
     ],
     "primary_distance_km": 42.195,
-    "registration_status": "not_yet_announced",
-    "country": "Thailand",
+    "registration_status": "open",
     "venue": "Pattaya, Chonburi",
-    "city": "Pattaya, Chonburi"
+    "city": "Pattaya, Chonburi",
+    "country": "Thailand"
   },
-  "pros": [],
+  "pros": [
+    "Multiple distance options (42.195 km, 21.1 km, 10 km, 4.5 km) suit a range of runner abilities",
+    "Long-running event history, now in its 33rd edition",
+    "Registration is currently open, giving prospective participants time to plan",
+    "Located in Pattaya, Chonburi, a well-known Thailand destination"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Amazing Thailand Pattaya Marathon held?",
+      "answer": "The Amazing Thailand Pattaya Marathon, now in its 33rd edition, is scheduled to take place on September 27, 2026. It is held in Pattaya, Chonburi, Thailand, and registration for this upcoming edition is currently open for interested runners to sign up ahead of race day."
+    },
+    {
+      "question": "What distances are offered at this race?",
+      "answer": "This race offers four distance options for participants to choose from: a full marathon of 42.195 km, a half marathon of 21.1 km, a 10 km race, and a shorter 4.5 km race. This range allows runners of different experience levels and goals to take part in the event."
+    },
+    {
+      "question": "Is registration currently open for the race?",
+      "answer": "Yes, registration for the 33rd Amazing Thailand Pattaya Marathon is currently open. Prospective participants can sign up now for any of the four available distances ahead of the race date of September 27, 2026, in Pattaya, Chonburi, Thailand."
+    },
+    {
+      "question": "Where does the marathon take place?",
+      "answer": "The marathon takes place in Pattaya, located in Chonburi province, Thailand. This venue hosts all four race distances offered at the event: the full marathon, half marathon, 10 km, and 4.5 km races, as part of the 33rd edition of this annual race."
+    }
+  ],
   "reliability_score": 88,
   "tags": [
     "full-marathon",
@@ -34,7 +57,7 @@
       "url": "https://www.pattayamarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://aims-worldrunning.org/calendar.html",
@@ -76,6 +99,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
-  "status": "active"
+  "last_updated": "2026-07-30",
+  "status": "needs_review"
 }

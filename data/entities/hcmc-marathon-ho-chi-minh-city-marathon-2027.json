@@ -4,26 +4,48 @@
   "name": "HCMC Marathon (Ho Chi Minh City Marathon)",
   "category_id": "full-marathon",
   "region_id": "vietnam",
-  "short_description": "HCMC Marathon (Ho Chi Minh City Marathon) takes place January 17, 2027 in Ho Chi Minh City, Vietnam.",
-  "ai_summary": "HCMC Marathon (Ho Chi Minh City Marathon) is a road running event in Ho Chi Minh City, Vietnam, featuring Full Marathon; Half Marathon; 10km. The race takes place on January 17, 2027, starting from 30/4 Park, Le Duan Street. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The HCMC Marathon is a full-marathon race in Ho Chi Minh City, Vietnam, taking place on January 17, 2027, with registration currently open.",
+  "ai_summary": "The HCMC Marathon is a full-marathon event held in Ho Chi Minh City, Vietnam, organized by Pulse Active. Scheduled for January 17, 2027, it offers three distance options: 42.195 km, 21.1 km, and 10 km, starting from 30/4 Park on Le Duan Street. Registration is currently open for runners interested in participating in any of these distances.",
   "core_facts": {
     "date": "2027-01-17",
     "distance_km": [
       42.195,
       21.1,
-      10.0
+      10
     ],
     "primary_distance_km": 42.195,
+    "organizer": "Pulse Active",
     "registration_status": "Open",
-    "country": "Vietnam",
     "venue": "30/4 Park, Le Duan Street",
     "city": "Ho Chi Minh City",
-    "organizer": "Pulse Active"
+    "country": "Vietnam"
   },
-  "pros": [],
+  "pros": [
+    "Multiple distance options (42.195 km, 21.1 km, 10 km) suit a range of runner abilities",
+    "Registration is currently open, allowing ample time to prepare",
+    "Central, accessible venue at 30/4 Park on Le Duan Street",
+    "Organized by an established event organizer, Pulse Active"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the HCMC Marathon held?",
+      "answer": "The HCMC Marathon is scheduled to take place on January 17, 2027, in Ho Chi Minh City, Vietnam. The event is organized by Pulse Active, and runners can currently register ahead of this date to secure their place in one of the available race distances."
+    },
+    {
+      "question": "What distances can I run at the HCMC Marathon?",
+      "answer": "Participants can choose from three distances at the HCMC Marathon: a full marathon of 42.195 km, a half marathon of 21.1 km, or a 10 km race. This range allows runners of different experience levels and training backgrounds to take part in the event."
+    },
+    {
+      "question": "Where does the HCMC Marathon start?",
+      "answer": "The HCMC Marathon starts at 30/4 Park, located on Le Duan Street in Ho Chi Minh City, Vietnam. This central venue serves as the starting point for all three race distances offered at the event, making it easy for participants to access on race day."
+    },
+    {
+      "question": "Is registration open for the HCMC Marathon?",
+      "answer": "Yes, registration for the HCMC Marathon is currently open. Runners interested in participating in the 42.195 km, 21.1 km, or 10 km distances can sign up now through the organizer, Pulse Active, ahead of the race date on January 17, 2027."
+    }
+  ],
   "reliability_score": 90,
   "tags": [
     "full-marathon",
@@ -35,7 +57,7 @@
       "url": "https://hcmcmarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-13"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://hcmcmarathon.com/",
@@ -65,6 +87,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-13",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

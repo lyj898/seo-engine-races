@@ -4,27 +4,49 @@
   "name": "Banka Run Fest 2027",
   "category_id": "half-marathon",
   "region_id": "indonesia",
-  "short_description": "Banka Run Fest 2027 takes place January 17, 2027 in Belitung, Kepulauan Bangka Belitung, Indonesia.",
-  "ai_summary": "Banka Run Fest 2027 is a road running event in Belitung, Kepulauan Bangka Belitung, Indonesia, featuring Half Marathon (21km); 10km; 5km; Family Run 2.5km. The race takes place on January 17, 2027, starting from Belitung, Kepulauan Bangka Belitung. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "Banka Run Fest 2027 is a half-marathon held on January 17, 2027, in Belitung, Kepulauan Bangka Belitung, Indonesia, with distances from 2.5km to 21.1km.",
+  "ai_summary": "Banka Run Fest 2027 is a half-marathon event scheduled for January 17, 2027, in Belitung, Kepulauan Bangka Belitung, Indonesia. The race offers four distance options: 21.1km, 10km, 5km, and 2.5km, making it accessible to a range of runners from casual participants to those seeking a full half-marathon challenge. Registration details have not yet been announced.",
   "core_facts": {
     "date": "2027-01-17",
     "distance_km": [
-      21.0,
-      10.0,
-      5.0,
+      21,
+      10,
+      5,
       2.5
     ],
     "primary_distance_km": 21.1,
     "registration_status": "not_yet_announced",
-    "country": "Indonesia",
     "venue": "Belitung, Kepulauan Bangka Belitung",
-    "city": "Belitung, Kepulauan Bangka Belitung"
+    "city": "Belitung, Kepulauan Bangka Belitung",
+    "country": "Indonesia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km, 2.5km) suit different fitness levels",
+    "Set in Belitung, Kepulauan Bangka Belitung, an Indonesian island destination"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 48,
+  "faqs": [
+    {
+      "question": "When is Banka Run Fest 2027 taking place?",
+      "answer": "Banka Run Fest 2027 is scheduled to take place on January 17, 2027. This date has been set for the event, which will be held in Belitung, part of Kepulauan Bangka Belitung, Indonesia, though no further scheduling details beyond this date are currently available."
+    },
+    {
+      "question": "What distances can I run at Banka Run Fest 2027?",
+      "answer": "Participants at Banka Run Fest 2027 can choose from four distance options: 21.1km (the primary half-marathon distance), 10km, 5km, and 2.5km. This range allows both experienced half-marathon runners and those looking for shorter, more casual distances to take part in the event."
+    },
+    {
+      "question": "Where is Banka Run Fest 2027 located?",
+      "answer": "The race is held in Belitung, located within Kepulauan Bangka Belitung, Indonesia. This venue serves as both the city and location for all distance categories offered at Banka Run Fest 2027, from the 2.5km event up to the full 21.1km half-marathon."
+    },
+    {
+      "question": "Is registration open for Banka Run Fest 2027?",
+      "answer": "Registration for Banka Run Fest 2027 has not yet been announced. Prospective participants interested in the 21.1km, 10km, 5km, or 2.5km distances should check back for updates, as no sign-up details, fees, or opening dates have been made available at this time."
+    }
+  ],
+  "reliability_score": 33,
   "tags": [
     "half-marathon",
     "indonesia"
@@ -46,6 +68,6 @@
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
-  "status": "active"
+  "last_updated": "2026-07-30",
+  "status": "needs_review"
 }

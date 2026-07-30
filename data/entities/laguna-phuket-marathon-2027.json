@@ -4,8 +4,8 @@
   "name": "Laguna Phuket Marathon 2027",
   "category_id": "full-marathon",
   "region_id": "thailand",
-  "short_description": "Laguna Phuket Marathon 2027 takes place June 12, 2027 in Ban Bang Thao, Phuket, Thailand.",
-  "ai_summary": "Laguna Phuket Marathon 2027 is a road running event in Ban Bang Thao, Phuket, Thailand, featuring Full Marathon (42.195KM), Half Marathon (21.0975KM), 10KM, 5KM, 2KM Junior. The race takes place on June 12, 2027, starting from Laguna Phuket, Ban Bang Thao. Registration is Priority registration open for 2026 finishers as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A full-marathon event held at Laguna Phuket, Ban Bang Thao, Thailand on June 12, 2027, with distances from 2 km to 42.195 km.",
+  "ai_summary": "The Laguna Phuket Marathon 2027 is a full-marathon event set for June 12, 2027, at Laguna Phuket in Ban Bang Thao, Phuket, Thailand. It offers five distance options ranging from 2 km to the full 42.195 km marathon distance, catering to a variety of runners. The event's registration status is listed as finished, meaning entry is no longer available for this edition.",
   "core_facts": {
     "date": "2027-06-12",
     "distance_km": [
@@ -16,15 +16,33 @@
       2
     ],
     "primary_distance_km": 42.195,
-    "registration_status": "Priority registration open for 2026 finishers",
-    "country": "Thailand",
+    "registration_status": "Event Finished",
     "venue": "Laguna Phuket, Ban Bang Thao",
-    "city": "Ban Bang Thao, Phuket"
+    "city": "Ban Bang Thao, Phuket",
+    "country": "Thailand"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (42.195 km, 21.098 km, 10 km, 5 km, 2 km) suit a range of runner abilities",
+    "Scenic venue at Laguna Phuket in Ban Bang Thao, Phuket, Thailand"
+  ],
+  "cons": [
+    "Registration status shows the event has already finished, so entry is no longer possible"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Where and when is the Laguna Phuket Marathon 2027 held?",
+      "answer": "The Laguna Phuket Marathon 2027 takes place on June 12, 2027, at the Laguna Phuket venue located in Ban Bang Thao, Phuket, Thailand. This scenic coastal setting hosts all five race distances, offering participants a unique tropical backdrop for their run throughout the event weekend in Thailand."
+    },
+    {
+      "question": "What distance options are available at this race?",
+      "answer": "Runners can choose from five distances at the Laguna Phuket Marathon 2027: the full marathon at 42.195 km, a half marathon at 21.098 km, a 10 km race, a 5 km race, and a shorter 2 km option, accommodating a wide range of fitness levels and goals."
+    },
+    {
+      "question": "Can I still register for the Laguna Phuket Marathon 2027?",
+      "answer": "No, registration for the Laguna Phuket Marathon 2027 is not currently open, as the event's status is listed as finished. This indicates the race has already taken place and new sign-ups are no longer being accepted for this particular edition of the event."
+    }
+  ],
   "reliability_score": 78,
   "tags": [
     "full-marathon",
@@ -36,7 +54,7 @@
       "url": "https://phuketmarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-14"
+      "last_checked": "2026-07-30"
     }
   ],
   "affiliate_links": [],
@@ -48,6 +66,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-14",
-  "status": "active"
+  "last_updated": "2026-07-30",
+  "status": "needs_review"
 }

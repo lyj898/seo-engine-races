@@ -4,8 +4,8 @@
   "name": "KCC GenSan Marathon 2026",
   "category_id": "full-marathon",
   "region_id": "philippines",
-  "short_description": "KCC GenSan Marathon 2026 takes place November 14, 2026 in General Santos City, Philippines.",
-  "ai_summary": "KCC GenSan Marathon 2026 is a road running event in General Santos City, Philippines, featuring Full Marathon (42K). The race takes place on November 14, 2026, starting from Veranza Mall Alfresco, General Santos City. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The KCC GenSan Marathon 2026 is a 42.195km full marathon held on November 14, 2026, in General Santos City, Philippines.",
+  "ai_summary": "The KCC GenSan Marathon 2026 is a full marathon scheduled for November 14, 2026, in General Santos City, Philippines. The race covers the standard marathon distance of 42.195 kilometers and is based at Veranza Mall Alfresco. Registration details have not yet been announced, so prospective participants should check back for updates on sign-up information.",
   "core_facts": {
     "date": "2026-11-14",
     "distance_km": [
@@ -13,15 +13,38 @@
     ],
     "primary_distance_km": 42.195,
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "Veranza Mall Alfresco, General Santos City",
-    "city": "General Santos City"
+    "city": "General Santos City",
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Offers a full marathon distance of 42.195 kilometers for serious distance runners",
+    "Set in General Santos City, giving runners a chance to experience this Philippine city",
+    "Based at a clear, named venue, Veranza Mall Alfresco, for easy reference"
+  ],
+  "cons": [
+    "Registration status has not yet been announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 40,
+  "faqs": [
+    {
+      "question": "When is the KCC GenSan Marathon 2026?",
+      "answer": "The KCC GenSan Marathon 2026 is scheduled to take place on November 14, 2026. It is held in General Santos City, Philippines, and is organized as a full marathon event. Runners planning to attend should mark this date, though further details such as registration timing have not yet been announced."
+    },
+    {
+      "question": "What distance is offered at the KCC GenSan Marathon 2026?",
+      "answer": "The KCC GenSan Marathon 2026 offers a full marathon distance of 42.195 kilometers, which is the standard internationally recognized marathon distance. This is listed as the primary and only distance for this event, making it suited to runners specifically training for or experienced with full marathon races."
+    },
+    {
+      "question": "Where does the race start or take place?",
+      "answer": "The race is based at Veranza Mall Alfresco in General Santos City, Philippines. This venue serves as the core location for the event within the city. No additional route or start-line details beyond this venue location have been provided for the KCC GenSan Marathon 2026 at this time."
+    },
+    {
+      "question": "Is registration open for the KCC GenSan Marathon 2026?",
+      "answer": "Registration for the KCC GenSan Marathon 2026 has not yet been announced. Prospective participants interested in the full marathon distance in General Santos City should check back for updates, as no sign-up dates, fees, or entry details are currently available based on the information provided."
+    }
+  ],
+  "reliability_score": 35,
   "tags": [
     "full-marathon",
     "philippines"
@@ -31,12 +54,12 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

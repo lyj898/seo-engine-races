@@ -4,28 +4,51 @@
   "name": "Franklin Baker Run for Coconut Farmers 2026 – Davao",
   "category_id": "half-marathon",
   "region_id": "philippines",
-  "short_description": "Franklin Baker Run for Coconut Farmers 2026 – Davao takes place September 20, 2026 in Davao City, Philippines.",
-  "ai_summary": "Franklin Baker Run for Coconut Farmers 2026 – Davao is a road running event in Davao City, Philippines, featuring Half Marathon (21K); 10K; 5K; 3K. The race takes place on September 20, 2026, starting from Franklin Baker Daron Plant, Davao City. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half-marathon and multi-distance race organized by Franklin Baker, taking place September 20, 2026, in Davao City, Philippines.",
+  "ai_summary": "The Franklin Baker Run for Coconut Farmers 2026 is a half-marathon event set for September 20, 2026, in Davao City, Philippines. Organized by Franklin Baker, the race will be held at the Franklin Baker Daron Plant and offers four distance options: 21.1 km, 10 km, 5 km, and 3 km. Registration details have not yet been announced.",
   "core_facts": {
     "date": "2026-09-20",
     "distance_km": [
       21.1,
-      10.0,
-      5.0,
-      3.0
+      10,
+      5,
+      3
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Franklin Baker",
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "Franklin Baker Daron Plant, Davao City",
     "city": "Davao City",
-    "organizer": "Franklin Baker"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1 km, 10 km, 5 km, 3 km) to suit different fitness levels",
+    "Hosted at a notable venue, the Franklin Baker Daron Plant in Davao City",
+    "Organized by an established company, Franklin Baker"
+  ],
+  "cons": [
+    "Registration status has not yet been announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 40,
+  "faqs": [
+    {
+      "question": "When is the Franklin Baker Run for Coconut Farmers 2026 taking place?",
+      "answer": "The event is scheduled to take place on September 20, 2026. It will be held in Davao City, Philippines, at the Franklin Baker Daron Plant. This date marks the race as part of the 2026 racing calendar for participants interested in half-marathon and shorter distance events."
+    },
+    {
+      "question": "What distances can participants choose from?",
+      "answer": "Participants can choose from four distance options: a 21.1 km half-marathon, a 10 km race, a 5 km race, and a 3 km race. This range allows both experienced long-distance runners and those seeking shorter runs to take part in the event."
+    },
+    {
+      "question": "How can I register for this race?",
+      "answer": "As of now, registration details for the Franklin Baker Run for Coconut Farmers 2026 have not yet been announced. Interested participants should watch for updates from the organizer, Franklin Baker, regarding sign-up procedures, fees, and deadlines closer to the event date."
+    },
+    {
+      "question": "Where is the race held?",
+      "answer": "The race is held at the Franklin Baker Daron Plant, located in Davao City, Philippines. This venue serves as the starting point for all distance categories offered, including the 21.1 km, 10 km, 5 km, and 3 km races."
+    }
+  ],
+  "reliability_score": 35,
   "tags": [
     "half-marathon",
     "philippines"
@@ -35,12 +58,12 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

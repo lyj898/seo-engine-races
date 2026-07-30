@@ -4,8 +4,8 @@
   "name": "Vientiane International Marathon",
   "category_id": "full-marathon",
   "region_id": "laos",
-  "short_description": "Vientiane International Marathon takes place December 6, 2026 in Vientiane, Laos.",
-  "ai_summary": "Vientiane International Marathon is a road running event in Vientiane, Laos, featuring Full Marathon (42KM), Half Marathon (21KM), 10KM, 5KM. The race takes place on December 6, 2026, starting from Saphangmo, Vientiane. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A full marathon in Vientiane, Laos, held at Saphangmo on December 6, 2026, with 42.195km, 21km, 10km, and 5km distance options.",
+  "ai_summary": "The Vientiane International Marathon is a full-marathon event scheduled for December 6, 2026, in Vientiane, Laos. It takes place at Saphangmo and offers multiple distance options: 42.195km, 21km, 10km, and 5km, catering to runners of varying experience levels. Registration details have not yet been announced.",
   "core_facts": {
     "date": "2026-12-06",
     "distance_km": [
@@ -16,15 +16,38 @@
     ],
     "primary_distance_km": 42.195,
     "registration_status": "not_yet_announced",
-    "country": "Laos",
     "venue": "Saphangmo, Vientiane",
-    "city": "Vientiane"
+    "city": "Vientiane",
+    "country": "Laos"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Offers four distance options (42.195km, 21km, 10km, 5km) to suit different runner levels",
+    "Takes place in Vientiane, Laos, a distinct international destination for race travel",
+    "Full marathon distance is officially confirmed as the primary event"
+  ],
+  "cons": [
+    "Registration status has not yet been announced, so entry details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 65,
+  "faqs": [
+    {
+      "question": "When is the Vientiane International Marathon held?",
+      "answer": "The Vientiane International Marathon is scheduled to take place on December 6, 2026. The event is held in Vientiane, Laos, at the Saphangmo venue. This date applies to the full marathon as well as the accompanying shorter distance races offered on the same day."
+    },
+    {
+      "question": "Where is the Vientiane International Marathon held?",
+      "answer": "The race takes place at Saphangmo in Vientiane, the capital city of Laos. This venue serves as the location for all distance categories offered during the event, including the full marathon, half marathon, and shorter 10km and 5km races held on December 6, 2026."
+    },
+    {
+      "question": "What distances can I run at the Vientiane International Marathon?",
+      "answer": "Participants can choose from four distances at this event: a full marathon of 42.195km, a half marathon of 21km, a 10km race, and a 5km race. This range allows runners of different experience levels and fitness goals to take part in the same event."
+    },
+    {
+      "question": "Is registration open for the Vientiane International Marathon?",
+      "answer": "Registration for the Vientiane International Marathon has not yet been announced. No further details about sign-up dates, fees, or process are currently available. Prospective participants should check back for updates as the event date of December 6, 2026 approaches for official registration information."
+    }
+  ],
+  "reliability_score": 50,
   "tags": [
     "full-marathon",
     "laos"
@@ -52,6 +75,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
-  "status": "active"
+  "last_updated": "2026-07-30",
+  "status": "needs_review"
 }

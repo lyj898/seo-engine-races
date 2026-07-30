@@ -4,28 +4,51 @@
   "name": "Franklin Baker Run for Coconut Farmers 2026 – San Pablo",
   "category_id": "half-marathon",
   "region_id": "philippines",
-  "short_description": "Franklin Baker Run for Coconut Farmers 2026 – San Pablo takes place September 13, 2026 in San Pablo City, Laguna, Philippines.",
-  "ai_summary": "Franklin Baker Run for Coconut Farmers 2026 – San Pablo is a road running event in San Pablo City, Laguna, Philippines, featuring Half Marathon (21K); 10K; 5K; 3K. The race takes place on September 13, 2026, starting from Sampaloc Lake Boardwalk, San Pablo City. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half-marathon event on September 13, 2026, at Sampaloc Lake Boardwalk in San Pablo City, Laguna, Philippines, organized by Franklin Baker.",
+  "ai_summary": "The Franklin Baker Run for Coconut Farmers 2026 is a half-marathon event scheduled for September 13, 2026, at Sampaloc Lake Boardwalk in San Pablo City, Laguna, Philippines. Organized by Franklin Baker, the race offers multiple distance options: 21.1km, 10km, 5km, and 3km, catering to a range of runner abilities. Registration details have not yet been announced.",
   "core_facts": {
     "date": "2026-09-13",
     "distance_km": [
       21.1,
-      10.0,
-      5.0,
-      3.0
+      10,
+      5,
+      3
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Franklin Baker",
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "Sampaloc Lake Boardwalk, San Pablo City",
     "city": "San Pablo City, Laguna",
-    "organizer": "Franklin Baker"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km, 3km) accommodate different runner levels",
+    "Scenic venue at Sampaloc Lake Boardwalk in San Pablo City",
+    "Organized by an established company, Franklin Baker"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 40,
+  "faqs": [
+    {
+      "question": "When is the Franklin Baker Run for Coconut Farmers 2026?",
+      "answer": "The Franklin Baker Run for Coconut Farmers 2026 is scheduled to take place on September 13, 2026. This date has been set for the event held in San Pablo City, Laguna, Philippines, though further details about the schedule may be announced closer to the event."
+    },
+    {
+      "question": "What distances are offered at this race?",
+      "answer": "The race offers four distance categories for participants to choose from: 21.1km (half-marathon), 10km, 5km, and 3km. This range allows both experienced runners and casual participants to find a suitable distance for their fitness level and running goals."
+    },
+    {
+      "question": "Where is the race held?",
+      "answer": "The Franklin Baker Run for Coconut Farmers 2026 takes place at the Sampaloc Lake Boardwalk, located in San Pablo City, Laguna, Philippines. This scenic lakeside venue serves as the starting and possibly finishing point for all distance categories offered during the event."
+    },
+    {
+      "question": "Is registration open for this race?",
+      "answer": "As of now, the registration status for the Franklin Baker Run for Coconut Farmers 2026 has not yet been announced. Prospective participants should keep checking official channels for updates regarding registration opening dates, fees, and procedures as the event approaches."
+    }
+  ],
+  "reliability_score": 35,
   "tags": [
     "half-marathon",
     "philippines"
@@ -35,12 +58,12 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

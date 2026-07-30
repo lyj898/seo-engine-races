@@ -4,27 +4,50 @@
   "name": "Mandiri Jogja Marathon 2027",
   "category_id": "full-marathon",
   "region_id": "indonesia",
-  "short_description": "Mandiri Jogja Marathon 2027 takes place June 20, 2027 in Yogyakarta, Indonesia.",
-  "ai_summary": "Mandiri Jogja Marathon 2027 is a road running event in Yogyakarta, Indonesia, featuring Full Marathon; Half Marathon; 10km; 5km. The race takes place on June 20, 2027, starting from Kawasan Candi Prambanan, Yogyakarta. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A full marathon and multi-distance race held at Candi Prambanan, Yogyakarta, Indonesia on June 20, 2027.",
+  "ai_summary": "The Mandiri Jogja Marathon 2027 is a full marathon event scheduled for June 20, 2027, at Kawasan Candi Prambanan in Yogyakarta, Indonesia. Organized by Bank Mandiri, the race offers four distance options: 42.195km, 21.1km, 10km, and 5km, catering to runners of varying experience levels. Registration for the event has not yet been announced.",
   "core_facts": {
     "date": "2027-06-20",
     "distance_km": [
       42.195,
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 42.195,
+    "organizer": "Bank Mandiri",
     "registration_status": "not_yet_announced",
-    "country": "Indonesia",
     "venue": "Kawasan Candi Prambanan, Yogyakarta",
     "city": "Yogyakarta",
-    "organizer": "Bank Mandiri"
+    "country": "Indonesia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (42.195km, 21.1km, 10km, 5km) suit a range of runner abilities",
+    "Scenic and culturally significant venue at Kawasan Candi Prambanan",
+    "Backed by a major organizer, Bank Mandiri"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so details on entry are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Mandiri Jogja Marathon 2027 taking place?",
+      "answer": "The Mandiri Jogja Marathon 2027 is scheduled to take place on June 20, 2027. The event will be held in Yogyakarta, Indonesia, at the Kawasan Candi Prambanan venue, offering runners a full marathon along with shorter distance options on this single race day."
+    },
+    {
+      "question": "What distances are offered at this race?",
+      "answer": "The Mandiri Jogja Marathon 2027 offers four distance categories for participants to choose from: a full marathon at 42.195km, a half marathon at 21.1km, a 10km race, and a shorter 5km race, accommodating both experienced marathoners and newer runners."
+    },
+    {
+      "question": "Who organizes the Mandiri Jogja Marathon?",
+      "answer": "The Mandiri Jogja Marathon 2027 is organized by Bank Mandiri, a major organization backing this multi-distance running event. The race takes place in Yogyakarta, Indonesia, at the historic Kawasan Candi Prambanan venue on June 20, 2027."
+    },
+    {
+      "question": "Is registration open for the Mandiri Jogja Marathon 2027?",
+      "answer": "As of now, registration for the Mandiri Jogja Marathon 2027 has not yet been announced. Prospective participants interested in the full marathon, half marathon, 10km, or 5km distances should watch for further updates from the organizer, Bank Mandiri, regarding sign-up details."
+    }
+  ],
   "reliability_score": 75,
   "tags": [
     "full-marathon",
@@ -35,7 +58,7 @@
       "url": "https://mandirimarathon.co.id",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://aims-worldrunning.org/calendar.html",
@@ -53,6 +76,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

@@ -4,8 +4,8 @@
   "name": "Chombueng Marathon (40th ed.)",
   "category_id": "full-marathon",
   "region_id": "thailand",
-  "short_description": "Chombueng Marathon (40th ed.) takes place January 31, 2027 in Chom Bueng, Ratchaburi, Thailand.",
-  "ai_summary": "Chombueng Marathon (40th ed.) is a road running event in Chom Bueng, Ratchaburi, Thailand, featuring Mini Marathon; Half Marathon (21.1K); Full Marathon (42.2K). The race takes place on January 31, 2027, starting from Ratchaburi Rajabhat University, Chom Bueng. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The 40th Chombueng Marathon takes place January 31, 2027 in Chom Bueng, Ratchaburi, Thailand, offering half and full marathon distances.",
+  "ai_summary": "The Chombueng Marathon is a full marathon event marking its 40th edition, scheduled for January 31, 2027, in Chom Bueng, Ratchaburi, Thailand. Organized by the Chombueng Marathon organizing committee, the event is hosted at Ratchaburi Rajabhat University and offers both half marathon (21.1km) and full marathon (42.195km) distance options. Registration details have not yet been announced.",
   "core_facts": {
     "date": "2027-01-31",
     "distance_km": [
@@ -13,17 +13,40 @@
       42.195
     ],
     "primary_distance_km": 42.195,
+    "organizer": "Chombueng Marathon organizing committee",
     "registration_status": "not_yet_announced",
-    "country": "Thailand",
     "venue": "Ratchaburi Rajabhat University, Chom Bueng",
     "city": "Chom Bueng, Ratchaburi",
-    "organizer": "Chombueng Marathon organizing committee"
+    "country": "Thailand"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Long-standing event now in its 40th edition, indicating a well-established race history",
+    "Offers both half marathon (21.1km) and full marathon (42.195km) distance options for runners",
+    "Hosted at a fixed, identifiable venue: Ratchaburi Rajabhat University in Chom Bueng"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so sign-up details are currently unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 68,
+  "faqs": [
+    {
+      "question": "When is the Chombueng Marathon held?",
+      "answer": "The Chombueng Marathon, now in its 40th edition, is scheduled to take place on January 31, 2027. This date marks the event as an annual fixture on the Thailand running calendar, hosted in Chom Bueng, Ratchaburi, at Ratchaburi Rajabhat University."
+    },
+    {
+      "question": "What distances are offered at the Chombueng Marathon?",
+      "answer": "The Chombueng Marathon offers two distance options for participants: a half marathon of 21.1 kilometers and a full marathon of 42.195 kilometers, with the full marathon serving as the event's primary distance. This gives runners a choice based on their experience level."
+    },
+    {
+      "question": "Is registration open for the Chombueng Marathon?",
+      "answer": "As of now, the registration status for the Chombueng Marathon has not yet been announced. Prospective participants will need to watch for updates from the Chombueng Marathon organizing committee regarding when sign-ups will officially open ahead of the January 2027 event."
+    },
+    {
+      "question": "Where is the Chombueng Marathon held?",
+      "answer": "The Chombueng Marathon takes place at Ratchaburi Rajabhat University, located in Chom Bueng, Ratchaburi, Thailand. This venue serves as the host site for the event, which is organized by the Chombueng Marathon organizing committee for its 40th edition."
+    }
+  ],
+  "reliability_score": 63,
   "tags": [
     "full-marathon",
     "thailand"
@@ -33,7 +56,7 @@
       "url": "https://runningconnect.com",
       "label": "runningconnect.com",
       "type": "aggregator",
-      "last_checked": "2026-07-27"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://timingconnect.com",
@@ -51,6 +74,6 @@
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-07-27",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

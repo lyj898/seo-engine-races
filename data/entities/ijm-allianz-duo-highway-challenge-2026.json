@@ -55,7 +55,7 @@
       "answer": "As of the last verification on 16 July 2026, no registration link or entry pricing had been published for this race. Runners interested in taking part should monitor the official website directly for registration announcements closer to the 2 August 2026 event date."
     }
   ],
-  "reliability_score": 85,
+  "reliability_score": 88,
   "tags": [
     "half-marathon",
     "malaysia",
@@ -67,7 +67,7 @@
       "url": "https://ijmhighwayrun.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-16"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://www.racexasia.com",
@@ -88,6 +88,6 @@
     "the-brunei-half-marathon-2026",
     "great-eastern-women-s-run-2026"
   ],
-  "last_updated": "2026-07-16",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

@@ -4,23 +4,51 @@
   "name": "Jitra Half Marathon 2026",
   "category_id": "half-marathon",
   "region_id": "malaysia",
-  "short_description": "Jitra Half Marathon 2026 takes place September 19, 2026 in Jitra, Kedah, Malaysia.",
-  "ai_summary": "Jitra Half Marathon 2026 is a road running event in Jitra, Kedah, Malaysia, featuring Half Marathon. The race takes place on September 19, 2026, starting from Darulaman Park, Jitra, Kedah. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The Jitra Half Marathon 2026 is a 21.1km, 10km, and 5km race held on September 19, 2026, at Darulaman Park, Jitra, Kedah, Malaysia.",
+  "ai_summary": "The Jitra Half Marathon 2026 takes place on September 19, 2026, at Darulaman Park in Jitra, Kedah, Malaysia. Organized by Bina Darulaman Berhad (BDB), the event offers three distance options: 21.1km, 10km, and 5km. Registration is currently open, with prices ranging from RM50 to RM95 depending on category and whether entrants register early bird or standard.",
   "core_facts": {
     "date": "2026-09-19",
     "distance_km": [
-      21.1
+      21.1,
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Bina Darulaman Berhad (BDB)",
     "registration_status": "Open",
-    "country": "Malaysia",
+    "price_range": "RM50-RM95 (early bird RM50-RM80, standard RM65-RM95, varies by category)",
     "venue": "Darulaman Park, Jitra, Kedah",
-    "city": "Jitra, Kedah"
+    "city": "Jitra, Kedah",
+    "country": "Malaysia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km) suit a range of runner abilities",
+    "Registration is currently open, giving ample time to plan and train",
+    "Early bird pricing (RM50-RM80) offers savings compared to standard rates (RM65-RM95)",
+    "Organized by an established organizer, Bina Darulaman Berhad (BDB)"
+  ],
+  "cons": [
+    "Pricing varies by category, which may require checking details carefully to confirm the exact fee for a chosen distance"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Jitra Half Marathon 2026 taking place?",
+      "answer": "The Jitra Half Marathon 2026 is scheduled for September 19, 2026. The event will be held at Darulaman Park in Jitra, Kedah, Malaysia. Registration for this race is currently open, so participants planning to take part have time to sign up and prepare ahead of the September date."
+    },
+    {
+      "question": "What distance options are available at the Jitra Half Marathon 2026?",
+      "answer": "Runners can choose from three distance categories at this event: a 21.1km half marathon, which is the primary distance, along with a 10km race and a 5km race. This range of options makes the event accessible to both experienced runners and those seeking a shorter distance challenge."
+    },
+    {
+      "question": "How much does it cost to register for the Jitra Half Marathon 2026?",
+      "answer": "Registration prices range from RM50 to RM95 depending on the category chosen. Early bird pricing is available from RM50 to RM80, while standard pricing ranges from RM65 to RM95. The exact fee depends on which distance category a participant selects and when they register."
+    },
+    {
+      "question": "Who organizes the Jitra Half Marathon 2026?",
+      "answer": "The Jitra Half Marathon 2026 is organized by Bina Darulaman Berhad, commonly known as BDB. The event takes place at Darulaman Park in Jitra, Kedah, Malaysia, and is currently open for registration across its three distance categories of 21.1km, 10km, and 5km."
+    }
+  ],
   "reliability_score": 82,
   "tags": [
     "half-marathon",
@@ -32,7 +60,7 @@
       "url": "https://bdb.com.my/jitra-half-marathon-kembali-september-tahun-ini",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-13"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://checkpointspot.asia/events",
@@ -50,6 +78,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-13",
-  "status": "active"
+  "last_updated": "2026-07-30",
+  "status": "needs_review"
 }

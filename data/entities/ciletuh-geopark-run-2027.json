@@ -4,27 +4,50 @@
   "name": "Ciletuh Geopark Run 2027",
   "category_id": "half-marathon",
   "region_id": "indonesia",
-  "short_description": "Ciletuh Geopark Run 2027 takes place January 17, 2027 in Sukabumi, Jawa Barat, Indonesia.",
-  "ai_summary": "Ciletuh Geopark Run 2027 is a road running event in Sukabumi, Jawa Barat, Indonesia, featuring Half Marathon; 10km; 5km. The race takes place on January 17, 2027, starting from Pantai Palangpang, Sukabumi, Jawa Barat. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half-marathon held at Pantai Palangpang, Sukabumi, Indonesia on January 17, 2027, offering 21.1 km, 10 km, and 5 km distances.",
+  "ai_summary": "The Ciletuh Geopark Run 2027 is a half-marathon event scheduled for January 17, 2027, in Sukabumi, Jawa Barat, Indonesia. Organized by Indonesia's Ministry of Tourism as part of the 'Geopark Run Series,' the race takes place at Pantai Palangpang and offers three distance options: 21.1 km, 10 km, and 5 km. Registration details have not yet been announced.",
   "core_facts": {
     "date": "2027-01-17",
     "distance_km": [
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Kementerian Pariwisata (Ministry of Tourism) — 'Geopark Run Series'",
     "registration_status": "not_yet_announced",
-    "country": "Indonesia",
     "venue": "Pantai Palangpang, Sukabumi, Jawa Barat",
     "city": "Sukabumi, Jawa Barat",
-    "organizer": "Kementerian Pariwisata (Ministry of Tourism) — 'Geopark Run Series'"
+    "country": "Indonesia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1 km, 10 km, 5 km) suit different runner levels",
+    "Scenic venue at Pantai Palangpang within the Ciletuh Geopark area",
+    "Organized by Indonesia's Ministry of Tourism as part of an official 'Geopark Run Series'"
+  ],
+  "cons": [
+    "Registration status has not yet been announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 62,
+  "faqs": [
+    {
+      "question": "What distances are offered at the Ciletuh Geopark Run 2027?",
+      "answer": "The Ciletuh Geopark Run 2027 offers three distance categories for participants to choose from: a 21.1 km half-marathon as the primary distance, along with shorter 10 km and 5 km options, catering to a range of runner abilities and experience levels."
+    },
+    {
+      "question": "Where is the Ciletuh Geopark Run 2027 held?",
+      "answer": "This race takes place at Pantai Palangpang, located in Sukabumi, Jawa Barat, Indonesia. The venue sits within the Ciletuh Geopark region, and the event is organized by Indonesia's Ministry of Tourism as part of its ongoing 'Geopark Run Series' of races."
+    },
+    {
+      "question": "Is registration open for the Ciletuh Geopark Run 2027?",
+      "answer": "As of now, registration for the Ciletuh Geopark Run 2027 has not yet been announced. Prospective participants will need to wait for further details from the organizer, the Ministry of Tourism, regarding sign-up dates, fees, and procedures for this event."
+    },
+    {
+      "question": "When is the Ciletuh Geopark Run 2027 taking place?",
+      "answer": "The Ciletuh Geopark Run 2027 is scheduled to take place on January 17, 2027. It will be held at Pantai Palangpang in Sukabumi, Jawa Barat, Indonesia, as part of the Ministry of Tourism's 'Geopark Run Series' of running events."
+    }
+  ],
+  "reliability_score": 65,
   "tags": [
     "half-marathon",
     "indonesia"
@@ -34,7 +57,7 @@
       "url": "https://geoparkrun.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://jatim.antaranews.com",
@@ -58,6 +81,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

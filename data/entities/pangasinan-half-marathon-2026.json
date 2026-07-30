@@ -4,27 +4,49 @@
   "name": "Pangasinan Half Marathon 2026",
   "category_id": "half-marathon",
   "region_id": "philippines",
-  "short_description": "Pangasinan Half Marathon 2026 takes place September 5, 2026 in Lingayen, Pangasinan, Philippines.",
-  "ai_summary": "Pangasinan Half Marathon 2026 is a road running event in Lingayen, Pangasinan, Philippines, featuring Half Marathon (21K); 10K; 5K. The race takes place on September 5, 2026, starting from Capitol Compound, Lingayen. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half marathon event in Lingayen, Pangasinan, Philippines, held on September 5, 2026, with 21.1km, 10km, and 5km distance options.",
+  "ai_summary": "The Pangasinan Half Marathon 2026 is scheduled for September 5, 2026, at the Capitol Compound in Lingayen, Pangasinan, Philippines. Organized by UR Events, the race offers three distance options: 21.1km, 10km, and 5km, making it accessible to a range of runners. Registration status has not yet been announced.",
   "core_facts": {
     "date": "2026-09-05",
     "distance_km": [
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
+    "organizer": "UR Events",
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "Capitol Compound, Lingayen",
     "city": "Lingayen, Pangasinan",
-    "organizer": "UR Events"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km) allow runners of different levels to participate",
+    "Set at a defined venue, the Capitol Compound in Lingayen, Pangasinan"
+  ],
+  "cons": [
+    "Registration status has not yet been announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 40,
+  "faqs": [
+    {
+      "question": "When is the Pangasinan Half Marathon 2026 taking place?",
+      "answer": "The Pangasinan Half Marathon 2026 is scheduled to take place on September 5, 2026. The event will be held at the Capitol Compound in Lingayen, Pangasinan, Philippines, giving participants a clear date to plan their travel and training around ahead of race day."
+    },
+    {
+      "question": "What distances are offered at this race?",
+      "answer": "The Pangasinan Half Marathon 2026 offers three distance categories for participants to choose from: a 21.1km half marathon, a 10km race, and a 5km race. This range allows both experienced distance runners and those seeking a shorter challenge to take part in the event."
+    },
+    {
+      "question": "Who is organizing the Pangasinan Half Marathon 2026?",
+      "answer": "The Pangasinan Half Marathon 2026 is organized by UR Events. The race will take place at the Capitol Compound in Lingayen, Pangasinan, Philippines, on September 5, 2026, with UR Events overseeing the planning and execution of the three distance categories offered."
+    },
+    {
+      "question": "Is registration open for this race?",
+      "answer": "As of now, the registration status for the Pangasinan Half Marathon 2026 has not yet been announced. Prospective participants interested in the 21.1km, 10km, or 5km distances should watch for further updates from the organizer, UR Events, regarding sign-up details and timing."
+    }
+  ],
+  "reliability_score": 35,
   "tags": [
     "half-marathon",
     "philippines"
@@ -34,12 +56,12 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

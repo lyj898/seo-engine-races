@@ -4,8 +4,8 @@
   "name": "PJ Half Marathon 2026",
   "category_id": "half-marathon",
   "region_id": "malaysia",
-  "short_description": "PJ Half Marathon 2026 takes place September 6, 2026 in Petaling Jaya, Selangor, Malaysia.",
-  "ai_summary": "PJ Half Marathon 2026 is a road running event in Petaling Jaya, Selangor, Malaysia, featuring Half Marathon. The race takes place on September 6, 2026, starting from Laman MBPJ, Petaling Jaya. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The PJ Half Marathon 2026 is a 21.1 km half-marathon held on September 6, 2026, at Laman MBPJ, Petaling Jaya, Malaysia.",
+  "ai_summary": "The PJ Half Marathon 2026 is a half-marathon race scheduled for September 6, 2026, in Petaling Jaya, Selangor, Malaysia. The race starts at Laman MBPJ and offers a 21.1 km distance for participants. Registration for this event is currently open, giving runners in Malaysia the opportunity to sign up ahead of the race date.",
   "core_facts": {
     "date": "2026-09-06",
     "distance_km": [
@@ -13,14 +13,35 @@
     ],
     "primary_distance_km": 21.1,
     "registration_status": "Open",
-    "country": "Malaysia",
     "venue": "Laman MBPJ, Petaling Jaya",
-    "city": "Petaling Jaya, Selangor"
+    "city": "Petaling Jaya, Selangor",
+    "country": "Malaysia"
   },
-  "pros": [],
+  "pros": [
+    "Registration is currently open, so runners can secure their spot ahead of time",
+    "Located at Laman MBPJ, a named and specific venue in Petaling Jaya",
+    "Standard 21.1 km half-marathon distance offered"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the PJ Half Marathon 2026?",
+      "answer": "The PJ Half Marathon 2026 is scheduled to take place on September 6, 2026. The event is held in Petaling Jaya, Selangor, Malaysia, at the Laman MBPJ venue. Runners planning to take part should note this date, as registration for the race is currently open ahead of the event."
+    },
+    {
+      "question": "What distance is offered at the PJ Half Marathon 2026?",
+      "answer": "The PJ Half Marathon 2026 offers a single race distance of 21.1 km, which is the standard half-marathon distance. This is the primary and only distance listed for the event, taking place at Laman MBPJ in Petaling Jaya, Selangor, Malaysia, on September 6, 2026."
+    },
+    {
+      "question": "Where does the PJ Half Marathon 2026 start?",
+      "answer": "The race starts at Laman MBPJ, located in Petaling Jaya, Selangor, Malaysia. This venue serves as the base for the 21.1 km half-marathon event, which is scheduled to take place on September 6, 2026, according to the currently available race information."
+    },
+    {
+      "question": "Is registration open for the PJ Half Marathon 2026?",
+      "answer": "Yes, registration for the PJ Half Marathon 2026 is currently open. Interested runners can sign up ahead of the race, which will take place on September 6, 2026, at Laman MBPJ in Petaling Jaya, Selangor, Malaysia, covering a 21.1 km half-marathon distance."
+    }
+  ],
   "reliability_score": 40,
   "tags": [
     "half-marathon",
@@ -31,12 +52,12 @@
       "url": "https://www.racexasia.com/events",
       "label": "racexasia.com",
       "type": "aggregator",
-      "last_checked": "2026-07-14"
+      "last_checked": "2026-07-30"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-07-14",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

@@ -4,27 +4,51 @@
   "name": "Scenic Half Marathon Pranburi",
   "category_id": "half-marathon",
   "region_id": "thailand",
-  "short_description": "Scenic Half Marathon Pranburi takes place February 14, 2027 in Prachuap Khiri Khan, Thailand.",
-  "ai_summary": "Scenic Half Marathon Pranburi is a road running event in Prachuap Khiri Khan, Thailand, featuring 21K Half Marathon; 10K; 5K; 3K. The race takes place on February 14, 2027, starting from Paknam Pran Beach Park, Pranburi. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A coastal race series event in Pranburi, Thailand, offering 21.1 km, 10 km, 5 km, and 3 km distances on February 15, 2026.",
+  "ai_summary": "The Scenic Half Marathon Pranburi takes place on February 15, 2026, at Paknam Pran Beach Park in Pranburi, Prachuap Khiri Khan, Thailand. Organized by the Scenic Marathon Series, the event offers four distance options: 21.1 km, 10 km, 5 km, and 3 km, catering to a range of runners. Registration status has not yet been announced, so interested participants should watch for future updates.",
   "core_facts": {
-    "date": "2027-02-14",
+    "date": "2026-02-15",
     "distance_km": [
       21.1,
-      10.0,
-      5.0,
-      3.0
+      10,
+      5,
+      3
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Scenic Marathon Series",
     "registration_status": "not_yet_announced",
-    "country": "Thailand",
     "venue": "Paknam Pran Beach Park, Pranburi",
     "city": "Prachuap Khiri Khan",
-    "organizer": "Scenic Marathon Series"
+    "country": "Thailand"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1 km, 10 km, 5 km, 3 km) suit different runner levels",
+    "Scenic beachfront venue at Paknam Pran Beach Park",
+    "Organized by an established series, the Scenic Marathon Series",
+    "Clear event date set for February 15, 2026"
+  ],
+  "cons": [
+    "Registration status has not yet been announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Scenic Half Marathon Pranburi held?",
+      "answer": "The Scenic Half Marathon Pranburi is scheduled to take place on February 15, 2026. The race will be held at Paknam Pran Beach Park in Pranburi, located in Prachuap Khiri Khan, Thailand. Runners planning to attend should mark this date on their calendars as details continue to develop ahead of the event."
+    },
+    {
+      "question": "What distances are offered at this event?",
+      "answer": "The event offers four distance options for participants to choose from: 21.1 kilometers (half marathon), 10 kilometers, 5 kilometers, and 3 kilometers. This range allows runners of varying experience levels and fitness goals to participate, from casual walkers to dedicated half marathon competitors, all at the same scenic venue in Pranburi."
+    },
+    {
+      "question": "Who organizes this race?",
+      "answer": "The Scenic Half Marathon Pranburi is organized by the Scenic Marathon Series, a race organizer that hosts this event as part of its broader lineup of scenic running events. The race takes place at Paknam Pran Beach Park in Pranburi, Prachuap Khiri Khan, Thailand, offering a picturesque coastal setting for participants."
+    },
+    {
+      "question": "Is registration open for this race?",
+      "answer": "Registration status for the Scenic Half Marathon Pranburi has not yet been announced. Prospective participants interested in the 21.1 km, 10 km, 5 km, or 3 km distances should check back for updates from the Scenic Marathon Series regarding sign-up details, pricing, and availability as the February 15, 2026 date approaches."
+    }
+  ],
   "reliability_score": 40,
   "tags": [
     "half-marathon",
@@ -35,7 +59,7 @@
       "url": "https://scenicmarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     }
   ],
   "affiliate_links": [],
@@ -47,6 +71,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
-  "status": "active"
+  "last_updated": "2026-07-30",
+  "status": "needs_review"
 }

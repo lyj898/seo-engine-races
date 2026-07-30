@@ -4,29 +4,52 @@
   "name": "National MILO Marathon 2026 – Urdaneta Leg",
   "category_id": "half-marathon",
   "region_id": "philippines",
-  "short_description": "National MILO Marathon 2026 – Urdaneta Leg takes place November 8, 2026 in Urdaneta City, Philippines.",
-  "ai_summary": "National MILO Marathon 2026 – Urdaneta Leg is a road running event in Urdaneta City, Philippines, featuring 1K; 3K; 5K; 10K; 21K Half Marathon (42K category not independently confirmed for this leg). The race takes place on November 8, 2026, starting from Urdaneta City. Registration is Not yet confirmed open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half-marathon-anchored leg of the National MILO Marathon 2026, taking place in Urdaneta City, Philippines on November 8, 2026.",
+  "ai_summary": "The National MILO Marathon 2026 – Urdaneta Leg is scheduled for November 8, 2026, in Urdaneta City, Philippines. Organized by RUNRIO Inc. as part of the long-running MILO Marathon series, the event offers multiple distances including 1km, 3km, 5km, 10km, and a 21.1km half marathon as the primary distance. Registration status for this leg has not yet been confirmed as open.",
   "core_facts": {
     "date": "2026-11-08",
     "distance_km": [
-      1.0,
-      3.0,
-      5.0,
-      10.0,
+      1,
+      3,
+      5,
+      10,
       21.1
     ],
     "primary_distance_km": 21.1,
+    "organizer": "RUNRIO Inc. (MILO Marathon)",
     "registration_status": "Not yet confirmed open",
-    "country": "Philippines",
     "venue": "Urdaneta City",
     "city": "Urdaneta City",
-    "organizer": "RUNRIO Inc. (MILO Marathon)"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (1km, 3km, 5km, 10km, 21.1km) suit a range of runner abilities",
+    "Organized by RUNRIO Inc., the established organizer behind the National MILO Marathon series",
+    "Half marathon (21.1km) is offered as the primary distance for more competitive runners"
+  ],
+  "cons": [
+    "Registration status is not yet confirmed as open, so participants cannot yet sign up"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 55,
+  "faqs": [
+    {
+      "question": "When is the National MILO Marathon 2026 – Urdaneta Leg taking place?",
+      "answer": "This leg of the National MILO Marathon 2026 is scheduled to take place on November 8, 2026. The event will be held in Urdaneta City, Philippines, as one of the various regional legs organized under the broader National MILO Marathon series for that year."
+    },
+    {
+      "question": "What distances are offered at the Urdaneta Leg?",
+      "answer": "The Urdaneta Leg offers a range of distances to accommodate different runners, including 1km, 3km, 5km, 10km, and 21.1km. The 21.1km half marathon is listed as the primary distance for this particular leg of the National MILO Marathon 2026."
+    },
+    {
+      "question": "Who organizes the National MILO Marathon 2026 – Urdaneta Leg?",
+      "answer": "This race is organized by RUNRIO Inc., which runs the National MILO Marathon series across the Philippines. The Urdaneta Leg is held in Urdaneta City as part of this organization's broader marathon program for 2026."
+    },
+    {
+      "question": "Is registration currently open for this race?",
+      "answer": "As of now, registration status for the National MILO Marathon 2026 – Urdaneta Leg has not yet been confirmed as open. Prospective participants should check back for updates on when sign-ups will officially begin ahead of the November 8, 2026 event date."
+    }
+  ],
+  "reliability_score": 50,
   "tags": [
     "half-marathon",
     "philippines"
@@ -36,7 +59,7 @@
       "url": "https://www.milo.com.ph/national-milo-marathon",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://pinoyfitness.com/2026/01/milo-marathon-2026-full-race-schedule-and-locations-unveiled",
@@ -54,6 +77,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

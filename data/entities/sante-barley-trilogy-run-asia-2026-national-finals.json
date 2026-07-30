@@ -4,28 +4,53 @@
   "name": "Sante Barley Trilogy Run Asia 2026 – National Finals",
   "category_id": "full-marathon",
   "region_id": "philippines",
-  "short_description": "Sante Barley Trilogy Run Asia 2026 – National Finals takes place November 11, 2026 in Pasay, Philippines.",
-  "ai_summary": "Sante Barley Trilogy Run Asia 2026 – National Finals is a road running event in Pasay, Philippines, featuring Full Marathon (42KM), Half Marathon (21KM), 10KM, 5KM. The race takes place on November 11, 2026, starting from SM Mall of Asia, Pasay. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A multi-distance race (5km to full marathon) held November 11, 2026 at SM Mall of Asia, Pasay, Philippines.",
+  "ai_summary": "The Sante Barley Trilogy Run Asia 2026 – National Finals is a road race scheduled for November 11, 2026, at SM Mall of Asia in Pasay, Philippines. Organized by Runrio under the Sante Barley Trilogy Run Asia brand, the event offers four distance options: 42.195km (marathon), 21km, 10km, and 5km. Registration details have not yet been announced.",
   "core_facts": {
     "date": "2026-11-11",
     "distance_km": [
-      42.0,
-      21.0,
-      10.0,
-      5.0
+      42,
+      21,
+      10,
+      5
     ],
     "primary_distance_km": 42.195,
+    "organizer": "Runrio (brand: Sante Barley Trilogy Run Asia)",
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "SM Mall of Asia, Pasay",
     "city": "Pasay",
-    "organizer": "Runrio (brand: Sante Barley Trilogy Run Asia)"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Full marathon distance (42.195km) available alongside shorter options (21km, 10km, 5km)",
+    "Held at a well-known venue, SM Mall of Asia in Pasay",
+    "Organized by Runrio, an established race organizer in the Philippines",
+    "Multiple distance categories cater to different runner levels"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so sign-up details are unavailable",
+    "Limited source information is currently available about the event"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 80,
+  "faqs": [
+    {
+      "question": "When is the Sante Barley Trilogy Run Asia 2026 – National Finals?",
+      "answer": "The race is scheduled for November 11, 2026. It will take place at SM Mall of Asia in Pasay, Philippines, and is organized by Runrio under the Sante Barley Trilogy Run Asia brand."
+    },
+    {
+      "question": "What distances are offered at this race?",
+      "answer": "The event offers four distance categories: a full marathon at 42.195km, a 21km half marathon, a 10km run, and a 5km run, allowing participants of varying experience levels to take part."
+    },
+    {
+      "question": "Where is the race held?",
+      "answer": "The race takes place at SM Mall of Asia, located in Pasay, Philippines, serving as the venue for the National Finals of the Sante Barley Trilogy Run Asia 2026 event."
+    },
+    {
+      "question": "Is registration open for this race?",
+      "answer": "As of the available information, registration status for the Sante Barley Trilogy Run Asia 2026 – National Finals has not yet been announced. Prospective participants should check back for updates on sign-up details."
+    }
+  ],
+  "reliability_score": 75,
   "tags": [
     "full-marathon",
     "philippines",
@@ -36,7 +61,7 @@
       "url": "https://runrio.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://runrio.com/race-calendar",
@@ -54,6 +79,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

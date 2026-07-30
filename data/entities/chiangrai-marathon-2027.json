@@ -4,8 +4,8 @@
   "name": "Chiangrai Marathon",
   "category_id": "full-marathon",
   "region_id": "thailand",
-  "short_description": "Chiangrai Marathon takes place January 31, 2027 in Chiang Rai, Thailand.",
-  "ai_summary": "Chiangrai Marathon is a road running event in Chiang Rai, Thailand, featuring Full Marathon; Half Marathon. The race takes place on January 31, 2027, starting from Not confirmed this pass. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A full marathon and half marathon event held in Chiang Rai, Thailand on January 31, 2027, with registration currently open.",
+  "ai_summary": "The Chiangrai Marathon is a full-marathon event scheduled for January 31, 2027, in Chiang Rai, Thailand. Runners can choose between a 42.195 km full marathon and a 21.1 km half marathon distance. Registration is currently open, though the specific venue for this edition has not yet been confirmed.",
   "core_facts": {
     "date": "2027-01-31",
     "distance_km": [
@@ -14,15 +14,38 @@
     ],
     "primary_distance_km": 42.195,
     "registration_status": "Open",
-    "country": "Thailand",
     "venue": "Not confirmed this pass",
-    "city": "Chiang Rai"
+    "city": "Chiang Rai",
+    "country": "Thailand"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Registration is currently open",
+    "Offers both a full marathon (42.195 km) and half marathon (21.1 km) distance option",
+    "Set in Chiang Rai, Thailand, a specific and known host city"
+  ],
+  "cons": [
+    "The venue for this edition has not been confirmed yet"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 75,
+  "faqs": [
+    {
+      "question": "When is the Chiangrai Marathon held?",
+      "answer": "The Chiangrai Marathon is scheduled to take place on January 31, 2027. This date applies to the event overall, which includes both the full marathon and half marathon distance options available to participants in Chiang Rai, Thailand."
+    },
+    {
+      "question": "What distances are offered at the Chiangrai Marathon?",
+      "answer": "The Chiangrai Marathon offers two distance options for participants: a full marathon distance of 42.195 km and a half marathon distance of 21.1 km. The full marathon is listed as the primary distance for this event."
+    },
+    {
+      "question": "Is the venue for the Chiangrai Marathon confirmed?",
+      "answer": "No, according to the available information, the venue for this edition of the Chiangrai Marathon has not been confirmed yet. The event is set to take place in Chiang Rai, Thailand, but a specific venue location is not yet finalized."
+    },
+    {
+      "question": "Is registration open for the Chiangrai Marathon?",
+      "answer": "Yes, registration for the Chiangrai Marathon is currently listed as open. Prospective participants interested in either the full marathon or half marathon distance can register for the event, which is scheduled for January 31, 2027, in Chiang Rai, Thailand."
+    }
+  ],
+  "reliability_score": 70,
   "tags": [
     "full-marathon",
     "thailand"
@@ -32,7 +55,7 @@
       "url": "https://www.ahotu.com/event/chiangrai-marathon",
       "label": "ahotu.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     }
   ],
   "affiliate_links": [],
@@ -44,6 +67,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

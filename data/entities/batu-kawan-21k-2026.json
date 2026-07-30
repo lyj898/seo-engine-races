@@ -4,8 +4,8 @@
   "name": "Batu Kawan 21K 2026",
   "category_id": "half-marathon",
   "region_id": "malaysia",
-  "short_description": "Batu Kawan 21K 2026 takes place September 13, 2026 in Batu Kawan, Penang, Malaysia.",
-  "ai_summary": "Batu Kawan 21K 2026 is a road running event in Batu Kawan, Penang, Malaysia, featuring Half Marathon. The race takes place on September 13, 2026, starting from Decathlon KLIPPA, Batu Kawan, Pulau Pinang. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A 21.1km half-marathon held on September 13, 2026 at Decathlon KLIPPA, Batu Kawan, Penang, Malaysia.",
+  "ai_summary": "Batu Kawan 21K 2026 is a half-marathon scheduled for September 13, 2026, based at Decathlon KLIPPA in Batu Kawan, Pulau Pinang, Malaysia. The race offers a 21.1km distance, and registration is currently open for runners interested in taking part in this Penang-area event.",
   "core_facts": {
     "date": "2026-09-13",
     "distance_km": [
@@ -13,15 +13,36 @@
     ],
     "primary_distance_km": 21.1,
     "registration_status": "Open",
-    "country": "Malaysia",
     "venue": "Decathlon KLIPPA, Batu Kawan, Pulau Pinang",
-    "city": "Batu Kawan, Penang"
+    "city": "Batu Kawan, Penang",
+    "country": "Malaysia"
   },
-  "pros": [],
+  "pros": [
+    "Registration is currently open",
+    "Clear single distance option (21.1km) simplifies planning",
+    "Convenient venue at Decathlon KLIPPA in Batu Kawan, Penang"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 55,
+  "faqs": [
+    {
+      "question": "When is Batu Kawan 21K 2026 taking place?",
+      "answer": "Batu Kawan 21K 2026 is scheduled to take place on September 13, 2026. This date is confirmed as part of the official race details, giving participants a clear timeframe to plan their travel, accommodation, and training leading up to the event in Penang, Malaysia."
+    },
+    {
+      "question": "Where does the race start?",
+      "answer": "The race is based at Decathlon KLIPPA in Batu Kawan, Pulau Pinang, Malaysia. This venue serves as the location for the event, situated in the Batu Kawan area of Penang, making it accessible for both local and traveling participants."
+    },
+    {
+      "question": "What distance is offered at this event?",
+      "answer": "Batu Kawan 21K 2026 offers a single distance option of 21.1 kilometers, which is the standard half-marathon distance. This is the primary and only distance listed for the event, making it straightforward for runners deciding whether to sign up."
+    },
+    {
+      "question": "Is registration currently open for this race?",
+      "answer": "Yes, registration for Batu Kawan 21K 2026 is currently open according to the available race information. Prospective participants interested in the 21.1km half-marathon in Batu Kawan, Penang, can proceed with signing up while spots remain available."
+    }
+  ],
+  "reliability_score": 40,
   "tags": [
     "half-marathon",
     "malaysia"
@@ -43,6 +64,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
-  "status": "active"
+  "last_updated": "2026-07-30",
+  "status": "needs_review"
 }

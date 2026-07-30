@@ -4,25 +4,49 @@
   "name": "UI Half Marathon 2026",
   "category_id": "half-marathon",
   "region_id": "indonesia",
-  "short_description": "UI Half Marathon 2026 takes place October 11, 2026 in Depok, Jawa Barat, Indonesia.",
-  "ai_summary": "UI Half Marathon 2026 is a road running event in Depok, Jawa Barat, Indonesia, featuring Half Marathon; 10km; 5km. The race takes place on October 11, 2026, starting from Universitas Indonesia campus, Depok. Registration is Not Yet Announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The UI Half Marathon 2026 is a 21.1km, 10km, and 5km race held on October 11, 2026 at Universitas Indonesia campus, Depok, Indonesia.",
+  "ai_summary": "The UI Half Marathon 2026 is a running event scheduled for October 11, 2026, hosted at the Universitas Indonesia campus in Depok, Jawa Barat, Indonesia. Organized by ILUNI UI, the event offers three distance options: 21.1km, 10km, and 5km, with the half marathon serving as the primary distance. Registration status for the event has not yet been announced.",
   "core_facts": {
     "date": "2026-10-11",
     "distance_km": [
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
+    "organizer": "ILUNI UI",
     "registration_status": "Not Yet Announced",
-    "country": "Indonesia",
     "venue": "Universitas Indonesia campus, Depok",
-    "city": "Depok, Jawa Barat"
+    "city": "Depok, Jawa Barat",
+    "country": "Indonesia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km) allow runners of different levels to participate",
+    "Held at a notable location, the Universitas Indonesia campus in Depok",
+    "Organized by ILUNI UI, an established alumni organization"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so details on how to sign up are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the UI Half Marathon 2026?",
+      "answer": "The UI Half Marathon 2026 is scheduled to take place on October 11, 2026. The event will be held at the Universitas Indonesia campus in Depok, Jawa Barat, Indonesia, offering runners a chance to participate in this organized race on that specific date."
+    },
+    {
+      "question": "What distances are offered at the UI Half Marathon 2026?",
+      "answer": "The UI Half Marathon 2026 offers three distance categories for participants to choose from: a 21.1km half marathon, which serves as the primary distance, a 10km race, and a shorter 5km race, catering to a range of runner preferences and experience levels."
+    },
+    {
+      "question": "Who organizes the UI Half Marathon 2026?",
+      "answer": "The UI Half Marathon 2026 is organized by ILUNI UI, which serves as the official organizer responsible for coordinating the event at the Universitas Indonesia campus in Depok, Jawa Barat, Indonesia, scheduled for October 11, 2026."
+    },
+    {
+      "question": "Is registration open for the UI Half Marathon 2026?",
+      "answer": "As of now, the registration status for the UI Half Marathon 2026 has been noted as not yet announced. This means that specific details regarding sign-up dates, fees, or procedures for participants are currently unavailable and have not yet been released by the organizer."
+    }
+  ],
   "reliability_score": 82,
   "tags": [
     "half-marathon",
@@ -34,7 +58,7 @@
       "url": "https://www.uihalfmarathon.id",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-13"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
@@ -58,6 +82,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-13",
-  "status": "active"
+  "last_updated": "2026-07-30",
+  "status": "needs_review"
 }

@@ -4,27 +4,50 @@
   "name": "Kamuy-an Half Marathon 2026",
   "category_id": "half-marathon",
   "region_id": "philippines",
-  "short_description": "Kamuy-an Half Marathon 2026 takes place August 2, 2026 in Baao, Camarines Sur, Philippines.",
-  "ai_summary": "Kamuy-an Half Marathon 2026 is a road running event in Baao, Camarines Sur, Philippines, featuring Half Marathon (21K); 10K; 5K. The race takes place on August 2, 2026, starting from Baao, Camarines Sur. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The Kamuy-an Half Marathon 2026 is a half marathon event held in Baao, Camarines Sur, Philippines on August 2, 2026.",
+  "ai_summary": "The Kamuy-an Half Marathon 2026 is a road race scheduled for August 2, 2026 in Baao, Camarines Sur, Philippines. Organized by Conquer Sports Management, the event offers three distance options: a 21.1km half marathon, a 10km race, and a 5km race. Registration details have not yet been announced.",
   "core_facts": {
     "date": "2026-08-02",
     "distance_km": [
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Conquer Sports Management",
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "Baao, Camarines Sur",
     "city": "Baao, Camarines Sur",
-    "organizer": "Conquer Sports Management"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km) to suit different runner levels",
+    "Organized by an established event management group, Conquer Sports Management",
+    "Takes place in Baao, Camarines Sur, offering a race location outside major metro areas"
+  ],
+  "cons": [
+    "Registration status has not yet been announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 40,
+  "faqs": [
+    {
+      "question": "When is the Kamuy-an Half Marathon 2026?",
+      "answer": "The Kamuy-an Half Marathon 2026 is scheduled to take place on August 2, 2026. It will be held in Baao, Camarines Sur, in the Philippines. Runners interested in participating should mark this date, as it is the confirmed event date according to the available race information."
+    },
+    {
+      "question": "What distances are offered at the Kamuy-an Half Marathon 2026?",
+      "answer": "The Kamuy-an Half Marathon 2026 offers three distance categories for participants to choose from: a 21.1km half marathon, which is the primary distance, along with shorter 10km and 5km races. This range allows runners of varying experience and fitness levels to take part in the event."
+    },
+    {
+      "question": "How can I register for the Kamuy-an Half Marathon 2026?",
+      "answer": "Registration for the Kamuy-an Half Marathon 2026 has not yet been announced. Details on how to sign up, associated fees, or registration deadlines are currently unavailable. Prospective participants should watch for updates from the organizer, Conquer Sports Management, as more information becomes available closer to the event date."
+    },
+    {
+      "question": "Who organizes the Kamuy-an Half Marathon 2026?",
+      "answer": "The Kamuy-an Half Marathon 2026 is organized by Conquer Sports Management. The event will be held in Baao, Camarines Sur, Philippines, and features three race distances: 21.1km, 10km, and 5km, scheduled to take place on August 2, 2026."
+    }
+  ],
+  "reliability_score": 43,
   "tags": [
     "half-marathon",
     "philippines"
@@ -34,12 +57,12 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

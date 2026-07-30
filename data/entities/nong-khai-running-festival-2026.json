@@ -9,13 +9,13 @@
   "core_facts": {
     "date": "2026-08-01",
     "distance_km": [
+      6.7,
       16.09,
-      21.1,
       42.195,
       100
     ],
     "primary_distance_km": 42.195,
-    "registration_status": "not_yet_announced",
+    "registration_status": "opens April 9, 2026",
     "venue": "Wat Champa Thong, Nong Khai",
     "city": "Nong Khai",
     "country": "Thailand"
@@ -75,7 +75,7 @@
       "url": "https://nongkhaimarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://aims-worldrunning.org/calendar.html",
@@ -102,6 +102,6 @@
     "dili-international-marathon-2026-love-our-forests-and-wildlife",
     "vnexpress-marathon-nha-trang-2026"
   ],
-  "last_updated": "2026-07-20",
-  "status": "active"
+  "last_updated": "2026-07-30",
+  "status": "needs_review"
 }

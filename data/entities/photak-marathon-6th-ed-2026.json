@@ -4,8 +4,8 @@
   "name": "Photak Marathon (6th ed.)",
   "category_id": "full-marathon",
   "region_id": "thailand",
-  "short_description": "Photak Marathon (6th ed.) takes place December 13, 2026 in Nong Khai, Thailand.",
-  "ai_summary": "Photak Marathon (6th ed.) is a road running event in Nong Khai, Thailand, featuring Full Marathon; Half Marathon; 10km; 5km. The race takes place on December 13, 2026, starting from Pho Tak, Nong Khai. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A full marathon in Pho Tak, Nong Khai, Thailand, taking place on December 13, 2026, with registration currently open.",
+  "ai_summary": "Photak Marathon (6th ed.) is a full marathon event held in Pho Tak, Nong Khai, Thailand, scheduled for December 13, 2026. Runners can choose from four distances: 42.195km, 21.1km, 10km, and 5km. Registration is currently open, with prices ranging from 350 to 1,000 THB depending on the chosen distance.",
   "core_facts": {
     "date": "2026-12-13",
     "distance_km": [
@@ -15,15 +15,40 @@
       5
     ],
     "primary_distance_km": 42.195,
-    "registration_status": "not_yet_announced",
-    "country": "Thailand",
+    "registration_status": "open",
+    "price_range": "350–1,000 THB",
     "venue": "Pho Tak, Nong Khai",
-    "city": "Nong Khai"
+    "city": "Nong Khai",
+    "country": "Thailand"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (42.195km, 21.1km, 10km, 5km) suit a range of runner abilities",
+    "Affordable registration pricing between 350–1,000 THB",
+    "Registration is currently open, giving ample lead time before the December 2026 event"
+  ],
+  "cons": [
+    "No information available on course terrain, elevation, or scenery",
+    "No details provided on amenities, medals, or race-day logistics"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Photak Marathon (6th ed.) taking place?",
+      "answer": "The Photak Marathon (6th ed.) is scheduled to take place on December 13, 2026. The event will be held at Pho Tak in Nong Khai, Thailand, and registration for this edition is currently open for interested participants to sign up ahead of race day."
+    },
+    {
+      "question": "What distance options are available for this race?",
+      "answer": "Participants can choose from four distance categories at this event: a full marathon of 42.195km, a half marathon of 21.1km, a 10km race, and a shorter 5km option, allowing runners of varying experience and fitness levels to take part."
+    },
+    {
+      "question": "How much does it cost to register for the Photak Marathon?",
+      "answer": "Registration pricing for the Photak Marathon (6th ed.) ranges from 350 to 1,000 THB, with the exact cost likely depending on which of the four available distances a participant chooses to enter, from the 5km up to the full 42.195km marathon."
+    },
+    {
+      "question": "Is registration currently open for this race?",
+      "answer": "Yes, registration for the Photak Marathon (6th ed.) is currently open. Prospective participants can sign up now for the event taking place on December 13, 2026, in Pho Tak, Nong Khai, Thailand, choosing from the available distance categories offered."
+    }
+  ],
   "reliability_score": 78,
   "tags": [
     "full-marathon",
@@ -35,7 +60,7 @@
       "url": "https://photak42.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-16"
+      "last_checked": "2026-07-30"
     }
   ],
   "affiliate_links": [],
@@ -47,6 +72,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-16",
-  "status": "active"
+  "last_updated": "2026-07-30",
+  "status": "needs_review"
 }

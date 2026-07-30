@@ -57,7 +57,7 @@
       "answer": "The race routes through Borobudur Temple Park, home to the world's largest Buddhist temple and a UNESCO World Heritage Site, in Magelang, Indonesia. This landmark setting is one of the more distinctive marathon courses verified in this directory, combining a competitive road race with a culturally significant location."
     }
   ],
-  "reliability_score": 92,
+  "reliability_score": 87,
   "tags": [
     "full-marathon",
     "half-marathon",
@@ -70,7 +70,7 @@
       "url": "https://borobudurmarathon.com/",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
@@ -102,6 +102,6 @@
     "dili-international-marathon-2026-love-our-forests-and-wildlife",
     "vnexpress-marathon-nha-trang-2026"
   ],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

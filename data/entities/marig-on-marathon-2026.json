@@ -4,28 +4,51 @@
   "name": "Marig-on Marathon 2026",
   "category_id": "full-marathon",
   "region_id": "philippines",
-  "short_description": "Marig-on Marathon 2026 takes place September 20, 2026 in Catarman, Northern Samar, Philippines.",
-  "ai_summary": "Marig-on Marathon 2026 is a road running event in Catarman, Northern Samar, Philippines, featuring Full Marathon (42K); Half Marathon (21K); 10K; 5K. The race takes place on September 20, 2026, starting from Catarman, Northern Samar. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The Marig-on Marathon 2026 is a full-marathon race held on September 20, 2026, in Catarman, Northern Samar, Philippines.",
+  "ai_summary": "The Marig-on Marathon 2026 is a full-marathon event scheduled for September 20, 2026, in Catarman, Northern Samar, Philippines. Organized by the Marig-on Norte Samarnon Eagles Club, the race offers four distance options: 42.195km, 21.1km, 10km, and 5km, catering to a range of runner abilities. Registration details have not yet been announced.",
   "core_facts": {
     "date": "2026-09-20",
     "distance_km": [
       42.195,
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 42.195,
+    "organizer": "Marig-on Norte Samarnon Eagles Club",
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "Catarman, Northern Samar",
     "city": "Catarman, Northern Samar",
-    "organizer": "Marig-on Norte Samarnon Eagles Club"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (42.195km, 21.1km, 10km, 5km) accommodate different runner levels",
+    "Takes place in Catarman, Northern Samar, offering a distinct regional race location in the Philippines",
+    "Organized by a dedicated local running club, the Marig-on Norte Samarnon Eagles Club"
+  ],
+  "cons": [
+    "Registration status has not yet been announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 40,
+  "faqs": [
+    {
+      "question": "When is the Marig-on Marathon 2026?",
+      "answer": "The Marig-on Marathon 2026 is scheduled to take place on September 20, 2026. It will be held in Catarman, Northern Samar, in the Philippines. This date marks the full event, which includes the primary marathon distance along with several shorter race options for participants of varying fitness levels."
+    },
+    {
+      "question": "What distances are offered at the Marig-on Marathon 2026?",
+      "answer": "The Marig-on Marathon 2026 offers four distance categories for participants to choose from: a full marathon of 42.195km, a half marathon of 21.1km, a 10km race, and a 5km race. This range allows runners of different experience levels and training backgrounds to take part in the event."
+    },
+    {
+      "question": "Who organizes the Marig-on Marathon 2026?",
+      "answer": "The Marig-on Marathon 2026 is organized by the Marig-on Norte Samarnon Eagles Club. This local club is responsible for planning and hosting the event, which takes place in Catarman, Northern Samar, Philippines, and features multiple race distances for a variety of participants."
+    },
+    {
+      "question": "Is registration open for the Marig-on Marathon 2026?",
+      "answer": "As of now, registration for the Marig-on Marathon 2026 has not yet been announced. Prospective participants will need to watch for updates from the organizing club, the Marig-on Norte Samarnon Eagles Club, regarding when sign-ups will become available for this Catarman, Northern Samar event."
+    }
+  ],
+  "reliability_score": 35,
   "tags": [
     "full-marathon",
     "philippines"
@@ -35,12 +58,12 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

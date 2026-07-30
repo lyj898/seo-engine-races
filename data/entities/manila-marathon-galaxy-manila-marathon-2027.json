@@ -4,24 +4,49 @@
   "name": "Manila Marathon (Galaxy Manila Marathon)",
   "category_id": "full-marathon",
   "region_id": "philippines",
-  "short_description": "Manila Marathon (Galaxy Manila Marathon) takes place June 12, 2027 in Pasay, Philippines.",
-  "ai_summary": "Manila Marathon (Galaxy Manila Marathon) is a road running event in Pasay, Philippines, featuring Full Marathon, Half Marathon. The race takes place on June 12, 2027, starting from SM Mall of Asia Complex, Pasay. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The Manila Marathon is a full-marathon event held at SM Mall of Asia Complex, Pasay, Philippines, on June 12, 2026.",
+  "ai_summary": "The Manila Marathon, also known as the Galaxy Manila Marathon, is a full-marathon event scheduled for June 12, 2026, based at the SM Mall of Asia Complex in Pasay, Philippines. Registration is currently open, with runners able to choose from four distances: 42.195km, 21.1km, 10km, and 5km. Prices range from PHP 1,600 to PHP 3,400 depending on the chosen distance and registration category.",
   "core_facts": {
-    "date": "2027-06-12",
+    "date": "2026-06-12",
     "distance_km": [
       42.195,
-      21.1
+      21.1,
+      10,
+      5
     ],
     "primary_distance_km": 42.195,
-    "registration_status": "not_yet_announced",
-    "country": "Philippines",
+    "registration_status": "open",
+    "price_range": "PHP 1,600 - 3,400",
     "venue": "SM Mall of Asia Complex, Pasay",
-    "city": "Pasay"
+    "city": "Pasay",
+    "country": "Philippines"
   },
-  "pros": [],
+  "pros": [
+    "Multiple distance options (42.195km, 21.1km, 10km, 5km) suit a range of runner abilities",
+    "Registration is currently open",
+    "Centrally located venue at SM Mall of Asia Complex, Pasay",
+    "Affordable price range from PHP 1,600 to 3,400"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Manila Marathon taking place?",
+      "answer": "The Manila Marathon, also called the Galaxy Manila Marathon, is scheduled to take place on June 12, 2026. The event is based at the SM Mall of Asia Complex in Pasay, Philippines, and registration for participants is currently open ahead of race day."
+    },
+    {
+      "question": "How much does it cost to register for the Manila Marathon?",
+      "answer": "Registration prices for the Manila Marathon range from PHP 1,600 to PHP 3,400. The exact cost depends on which distance category a participant chooses, with options including the full marathon, half marathon, 10km, and 5km races available for sign-up."
+    },
+    {
+      "question": "Where is the Manila Marathon held?",
+      "answer": "The Manila Marathon is held at the SM Mall of Asia Complex, located in Pasay, Philippines. This venue serves as the base for the event, which offers multiple race distances for participants of varying experience levels and fitness goals."
+    },
+    {
+      "question": "What distance options are available at the Manila Marathon?",
+      "answer": "Participants can choose from four distance options at the Manila Marathon: a full marathon of 42.195km, a half marathon of 21.1km, a 10km race, and a 5km race, allowing runners of different experience levels to take part."
+    }
+  ],
   "reliability_score": 40,
   "tags": [
     "full-marathon",
@@ -32,7 +57,7 @@
       "url": "https://manilamarathon.ph",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://www.marathonguide.com",
@@ -50,6 +75,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
-  "status": "active"
+  "last_updated": "2026-07-30",
+  "status": "needs_review"
 }

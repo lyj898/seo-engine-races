@@ -4,25 +4,46 @@
   "name": "Merdeka Half Marathon 2026",
   "category_id": "half-marathon",
   "region_id": "malaysia",
-  "short_description": "Merdeka Half Marathon 2026 takes place August 23, 2026 in Kuala Lumpur, Malaysia.",
-  "ai_summary": "Merdeka Half Marathon 2026 is a road running event in Kuala Lumpur, Malaysia, featuring Half Marathon. The race takes place on August 23, 2026, starting from Dataran Merdeka, Kuala Lumpur. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A 21.1km half marathon held at Dataran Merdeka, Kuala Lumpur, Malaysia on August 23, 2026.",
+  "ai_summary": "The Merdeka Half Marathon 2026 is a half marathon race scheduled for August 23, 2026, starting at Dataran Merdeka in Kuala Lumpur, Malaysia. Organized by JBSKL x KPM, the event covers a distance of 21.1 kilometers. Registration for this race is currently open, giving prospective participants the opportunity to sign up ahead of the event date.",
   "core_facts": {
     "date": "2026-08-23",
     "distance_km": [
       21.1
     ],
     "primary_distance_km": 21.1,
+    "organizer": "JBSKL x KPM",
     "registration_status": "Open",
-    "country": "Malaysia",
     "venue": "Dataran Merdeka, Kuala Lumpur",
     "city": "Kuala Lumpur",
-    "organizer": "JBSKL x KPM"
+    "country": "Malaysia"
   },
-  "pros": [],
+  "pros": [
+    "Registration is currently open, allowing early sign-up",
+    "Iconic venue at Dataran Merdeka, Kuala Lumpur",
+    "Clear single race distance of 21.1km removes ambiguity about event type"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 60,
+  "faqs": [
+    {
+      "question": "What distance is offered at the Merdeka Half Marathon 2026?",
+      "answer": "The Merdeka Half Marathon 2026 offers a single race distance of 21.1 kilometers, making it a standard half marathon event. This is the primary and only distance listed for the race, so participants should be prepared to run the full 21.1km course starting from Dataran Merdeka in Kuala Lumpur."
+    },
+    {
+      "question": "Who is organizing the Merdeka Half Marathon 2026?",
+      "answer": "The Merdeka Half Marathon 2026 is organized by JBSKL x KPM. They are responsible for coordinating the event, which takes place at Dataran Merdeka in Kuala Lumpur, Malaysia, on August 23, 2026, with registration currently open for interested runners."
+    },
+    {
+      "question": "Where does the Merdeka Half Marathon 2026 start?",
+      "answer": "The Merdeka Half Marathon 2026 starts at Dataran Merdeka, a well-known landmark location in Kuala Lumpur, Malaysia. This venue serves as the starting point for the 21.1km race, which is scheduled to take place on August 23, 2026."
+    },
+    {
+      "question": "When is the Merdeka Half Marathon 2026 taking place?",
+      "answer": "The Merdeka Half Marathon 2026 is scheduled to take place on August 23, 2026. The race will be held at Dataran Merdeka in Kuala Lumpur, Malaysia, and registration for participants is currently open ahead of this date."
+    }
+  ],
+  "reliability_score": 45,
   "tags": [
     "half-marathon",
     "malaysia"
@@ -44,6 +65,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
-  "status": "active"
+  "last_updated": "2026-07-30",
+  "status": "needs_review"
 }

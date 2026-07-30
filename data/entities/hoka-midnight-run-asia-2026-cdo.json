@@ -4,27 +4,51 @@
   "name": "HOKA Midnight Run Asia 2026 - CDO",
   "category_id": "half-marathon",
   "region_id": "philippines",
-  "short_description": "HOKA Midnight Run Asia 2026 - CDO takes place August 2, 2026 in Cagayan de Oro, Philippines.",
-  "ai_summary": "HOKA Midnight Run Asia 2026 - CDO is a road running event in Cagayan de Oro, Philippines, featuring Half Marathon (21KM), 10KM, 5KM. The race takes place on August 2, 2026, starting from Cagayan de Oro. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half-marathon event in Cagayan de Oro, Philippines, held on August 2, 2026, offering 21.1km, 10km, and 5km distance options.",
+  "ai_summary": "HOKA Midnight Run Asia 2026 - CDO is a half-marathon event scheduled for August 2, 2026, in Cagayan de Oro, Philippines. Organized by Runrio under the HOKA Midnight Run Asia brand, the race offers three distance options: 21.1km, 10km, and 5km, with the 21.1km half-marathon serving as the primary distance. Registration details have not yet been announced.",
   "core_facts": {
     "date": "2026-08-02",
     "distance_km": [
-      21.0,
-      10.0,
-      5.0
+      21,
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Runrio (brand: HOKA Midnight Run Asia)",
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "Cagayan de Oro",
     "city": "Cagayan de Oro",
-    "organizer": "Runrio (brand: HOKA Midnight Run Asia)"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km) accommodate different runner levels",
+    "Organized by Runrio, an established race organizer in the Philippines",
+    "Held in Cagayan de Oro, providing a distinct regional race location"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so signup details are unavailable",
+    "No pricing, route, or logistical information has been provided yet"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 80,
+  "faqs": [
+    {
+      "question": "When is the HOKA Midnight Run Asia 2026 - CDO taking place?",
+      "answer": "The race is scheduled to take place on August 2, 2026. It will be held in Cagayan de Oro, Philippines. This date applies to all distance categories offered at the event, including the 21.1km, 10km, and 5km races organized under the HOKA Midnight Run Asia brand by Runrio."
+    },
+    {
+      "question": "What distance options are available?",
+      "answer": "Participants can choose from three distance options: a 21.1km half-marathon, a 10km race, and a 5km race. The 21.1km half-marathon serves as the primary distance for this event, though all three distances are part of the HOKA Midnight Run Asia 2026 - CDO event in Cagayan de Oro, Philippines."
+    },
+    {
+      "question": "Who organizes this race?",
+      "answer": "The race is organized by Runrio, operating under the brand name HOKA Midnight Run Asia. Runrio is responsible for coordinating the event held in Cagayan de Oro, Philippines, which includes the 21.1km, 10km, and 5km distance categories scheduled for August 2, 2026."
+    },
+    {
+      "question": "Is registration open yet?",
+      "answer": "As of now, the registration status for this race has not yet been announced. Prospective participants interested in the 21.1km, 10km, or 5km distances at HOKA Midnight Run Asia 2026 - CDO should check back for updates on when signup details will become available."
+    }
+  ],
+  "reliability_score": 75,
   "tags": [
     "half-marathon",
     "philippines",
@@ -35,7 +59,7 @@
       "url": "https://runrio.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://runrio.com/race-calendar",
@@ -53,6 +77,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

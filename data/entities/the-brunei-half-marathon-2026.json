@@ -7,7 +7,7 @@
   "short_description": "The Brunei Half Marathon 2026 is a verified Half/10K/5K race crossing Bandar Seri Begawan's SHOAS Bridge, confirmed for 21 November 2026 with open registration.",
   "ai_summary": "The Brunei Half Marathon 2026 crosses the Sultan Haji Omar 'Ali Saifuddien (SHOAS) Bridge in Bandar Seri Begawan, Brunei, confirmed for 21 November 2026. It offers Half Marathon, 10km, and 5km distances, with registration open directly via the official website. The organizing body is not named on the site. Verified as of 20 July 2026 with a confidence score of 85.",
   "core_facts": {
-    "date": "2026-11-21",
+    "date": "2026-11-21 to 2026-11-22",
     "distance_km": [
       5,
       10,
@@ -67,7 +67,7 @@
       "url": "https://thebruneihalfmarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     }
   ],
   "affiliate_links": [],
@@ -82,6 +82,6 @@
     "luang-prabang-half-marathon-run-for-children-2026",
     "ijm-allianz-duo-highway-challenge-2026"
   ],
-  "last_updated": "2026-07-20",
-  "status": "active"
+  "last_updated": "2026-07-30",
+  "status": "needs_review"
 }

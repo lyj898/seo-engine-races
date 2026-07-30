@@ -4,27 +4,51 @@
   "name": "Garmin Run Singapore 2026",
   "category_id": "half-marathon",
   "region_id": "singapore",
-  "short_description": "Garmin Run Singapore 2026 takes place October 25, 2026 in Singapore, Singapore.",
-  "ai_summary": "Garmin Run Singapore 2026 is a road running event in Singapore, Singapore, featuring 21.1KM Half Marathon; 10KM. The race takes place on October 25, 2026, starting from Marina Barrage. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "Garmin Run Singapore 2026 is a half-marathon and 10km race held at Marina Barrage, Singapore on October 25, 2026.",
+  "ai_summary": "Garmin Run Singapore 2026 is a half-marathon event organized by Garmin, scheduled for October 25, 2026, at Marina Barrage in Singapore. Participants can choose between a 21.1km half-marathon or a 10km race, with the half-marathon serving as the primary distance. Pricing is set at SGD 125 for the 21K and SGD 105 for the 10K. Registration has not yet been announced.",
   "core_facts": {
     "date": "2026-10-25",
     "distance_km": [
       21.1,
-      10.0
+      10
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Garmin",
     "registration_status": "not_yet_announced",
-    "country": "Singapore",
+    "price_range": "SGD 21K SGD 125 / 10K SGD 105",
     "venue": "Marina Barrage",
     "city": "Singapore",
-    "organizer": "Garmin",
-    "price_range": "SGD 21K SGD 125 / 10K SGD 105"
+    "country": "Singapore"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Offers two distance options: 21.1km half-marathon and 10km, catering to different runner levels",
+    "Hosted at Marina Barrage, a scenic and well-known Singapore landmark",
+    "Organized by Garmin, a globally recognized brand in sports technology and events"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so sign-up details and dates remain unavailable",
+    "No information provided about race amenities, course details, or additional event offerings"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 55,
+  "faqs": [
+    {
+      "question": "When is Garmin Run Singapore 2026 taking place?",
+      "answer": "Garmin Run Singapore 2026 is scheduled to take place on October 25, 2026. The event will be held at Marina Barrage in Singapore, offering runners a well-known and scenic setting for both the half-marathon and 10km race distances on this date."
+    },
+    {
+      "question": "What distances are offered at Garmin Run Singapore 2026?",
+      "answer": "Garmin Run Singapore 2026 offers two race distances: a 21.1km half-marathon, which serves as the primary distance for the event, and a shorter 10km race. This gives participants the flexibility to choose an option that best suits their training level and running goals."
+    },
+    {
+      "question": "How much does it cost to register for Garmin Run Singapore 2026?",
+      "answer": "Registration pricing for Garmin Run Singapore 2026 is set at SGD 125 for the 21.1km half-marathon distance and SGD 105 for the 10km race. These prices reflect the current stated cost, though additional fees or changes could apply once registration officially opens."
+    },
+    {
+      "question": "Is registration open for Garmin Run Singapore 2026?",
+      "answer": "As of now, registration for Garmin Run Singapore 2026 has not yet been announced. Prospective participants will need to wait for further updates from the organizer, Garmin, regarding when sign-ups will begin and how to secure a place in either race distance."
+    }
+  ],
+  "reliability_score": 58,
   "tags": [
     "half-marathon",
     "singapore"
@@ -34,12 +58,12 @@
       "url": "https://www.justrunlah.com/race/garmin-run-singapore-2026/",
       "label": "justrunlah.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

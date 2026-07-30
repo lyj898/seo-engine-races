@@ -4,8 +4,8 @@
   "name": "Bangsaen21",
   "category_id": "half-marathon",
   "region_id": "thailand",
-  "short_description": "Bangsaen21 takes place December 20, 2026 in Bangsaen, Chonburi, Thailand.",
-  "ai_summary": "Bangsaen21 is a road running event in Bangsaen, Chonburi, Thailand, featuring Half Marathon (21.0975km). The race takes place on December 20, 2026, starting from Bang Saen Beach. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "Bangsaen21 is a half-marathon (21.1 km) held at Bang Saen Beach, Chonburi, Thailand, on December 20, 2026.",
+  "ai_summary": "Bangsaen21 is a half-marathon scheduled for December 20, 2026, at Bang Saen Beach in Bangsaen, Chonburi, Thailand. The event covers the standard half-marathon distance of 21.1 km. Registration details have not yet been announced, so prospective participants should check back for updates on how to sign up.",
   "core_facts": {
     "date": "2026-12-20",
     "distance_km": [
@@ -13,15 +13,38 @@
     ],
     "primary_distance_km": 21.1,
     "registration_status": "not_yet_announced",
-    "country": "Thailand",
     "venue": "Bang Saen Beach",
-    "city": "Bangsaen, Chonburi"
+    "city": "Bangsaen, Chonburi",
+    "country": "Thailand"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Scenic beachfront venue at Bang Saen Beach",
+    "Standard half-marathon distance of 21.1 km",
+    "Clear, confirmed race date of December 20, 2026"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 80,
+  "faqs": [
+    {
+      "question": "What distance is the Bangsaen21 race?",
+      "answer": "Bangsaen21 is a half-marathon covering the standard distance of 21.1 kilometers, listed in the source facts as 21.098 km. This is the primary distance for the event, held at Bang Saen Beach in Bangsaen, Chonburi, Thailand, on December 20, 2026."
+    },
+    {
+      "question": "When is the Bangsaen21 race taking place?",
+      "answer": "The Bangsaen21 race is scheduled to take place on December 20, 2026. It will be held at Bang Saen Beach, located in Bangsaen, Chonburi, Thailand, and the primary event distance is a 21.1 kilometer half-marathon."
+    },
+    {
+      "question": "Can I register for Bangsaen21 now?",
+      "answer": "According to the available facts, the registration status for Bangsaen21 is listed as 'not yet announced.' This means there is currently no confirmed information on when or how participants can sign up for this half-marathon in Bangsaen, Chonburi, Thailand."
+    },
+    {
+      "question": "Where is the Bangsaen21 race held?",
+      "answer": "Bangsaen21 is held at Bang Saen Beach, located in the city of Bangsaen, in Chonburi province, Thailand. The race is a 21.1 kilometer half-marathon scheduled to take place on December 20, 2026 at this beachfront venue."
+    }
+  ],
+  "reliability_score": 75,
   "tags": [
     "half-marathon",
     "thailand",
@@ -32,7 +55,7 @@
       "url": "https://bangsaen21.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-16"
+      "last_checked": "2026-07-30"
     }
   ],
   "affiliate_links": [],
@@ -44,6 +67,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-16",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

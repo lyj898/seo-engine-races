@@ -4,29 +4,51 @@
   "name": "National MILO Marathon 2026 – Cagayan de Oro Leg",
   "category_id": "half-marathon",
   "region_id": "philippines",
-  "short_description": "National MILO Marathon 2026 – Cagayan de Oro Leg takes place August 23, 2026 in Cagayan de Oro City, Philippines.",
-  "ai_summary": "National MILO Marathon 2026 – Cagayan de Oro Leg is a road running event in Cagayan de Oro City, Philippines, featuring 1K; 3K; 5K; 10K; 21K Half Marathon (42K category not independently confirmed for this leg). The race takes place on August 23, 2026, starting from Centrio Mall, Corrales Avenue, Cagayan de Oro. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A Cagayan de Oro half-marathon leg of the National MILO Marathon 2026, held August 23, 2026 at Centrio Mall.",
+  "ai_summary": "The National MILO Marathon 2026 – Cagayan de Oro Leg is scheduled for August 23, 2026, starting and finishing near Centrio Mall on Corrales Avenue in Cagayan de Oro City, Philippines. Organized by RUNRIO Inc., the event offers five distance options: 1km, 3km, 5km, 10km, and a 21.1km half marathon as the primary distance. Registration for this leg is currently open to interested runners.",
   "core_facts": {
     "date": "2026-08-23",
     "distance_km": [
-      1.0,
-      3.0,
-      5.0,
-      10.0,
+      1,
+      3,
+      5,
+      10,
       21.1
     ],
     "primary_distance_km": 21.1,
+    "organizer": "RUNRIO Inc. (MILO Marathon)",
     "registration_status": "Open",
-    "country": "Philippines",
     "venue": "Centrio Mall, Corrales Avenue, Cagayan de Oro",
     "city": "Cagayan de Oro City",
-    "organizer": "RUNRIO Inc. (MILO Marathon)"
+    "country": "Philippines"
   },
-  "pros": [],
+  "pros": [
+    "Multiple distance options (1km, 3km, 5km, 10km, 21.1km) suit different runner levels",
+    "Organized by RUNRIO Inc., the established organizer behind the MILO Marathon series",
+    "Registration is currently open",
+    "Centrally located venue at Centrio Mall, Corrales Avenue, Cagayan de Oro"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 75,
+  "faqs": [
+    {
+      "question": "When is the National MILO Marathon 2026 – Cagayan de Oro Leg?",
+      "answer": "This race is scheduled to take place on August 23, 2026. It will be held in Cagayan de Oro City, Philippines, with the venue set at Centrio Mall along Corrales Avenue, serving as the starting point for the various distance categories offered."
+    },
+    {
+      "question": "What distances are offered?",
+      "answer": "The event offers five distance categories for participants to choose from: 1km, 3km, 5km, 10km, and 21.1km. The 21.1km half marathon is listed as the primary distance for this Cagayan de Oro leg of the National MILO Marathon 2026."
+    },
+    {
+      "question": "Who organizes this race?",
+      "answer": "This race is organized by RUNRIO Inc., which runs the National MILO Marathon series. As the organizer, RUNRIO Inc. is responsible for coordinating this Cagayan de Oro leg, including the venue, distance categories, and registration process for the 2026 event."
+    },
+    {
+      "question": "Is registration open for this race?",
+      "answer": "Yes, registration status for the National MILO Marathon 2026 – Cagayan de Oro Leg is currently listed as open. Interested runners can sign up ahead of the race date of August 23, 2026, at the Centrio Mall venue in Cagayan de Oro City."
+    }
+  ],
+  "reliability_score": 70,
   "tags": [
     "half-marathon",
     "philippines"
@@ -36,7 +58,7 @@
       "url": "https://www.milo.com.ph/national-milo-marathon",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://pinoyfitness.com/2026/01/milo-marathon-2026-full-race-schedule-and-locations-unveiled",
@@ -54,6 +76,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

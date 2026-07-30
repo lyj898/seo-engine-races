@@ -4,27 +4,50 @@
   "name": "Rawang Half Marathon 2026 Powered By JomRun®",
   "category_id": "10k",
   "region_id": "malaysia",
-  "short_description": "Rawang Half Marathon 2026 Powered By JomRun® takes place September 13, 2026 in Rawang, Selangor, Malaysia.",
-  "ai_summary": "Rawang Half Marathon 2026 Powered By JomRun® is a road running event in Rawang, Selangor, Malaysia, featuring 21.1KM Competitive Run; 10KM Fun Run; 5KM Fun Run. The race takes place on September 13, 2026, starting from Aeon Mall Rawang, Rawang. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The Rawang Half Marathon 2026 Powered By JomRun® is a 21.1km, 10km, and 5km road race held on September 13, 2026, in Rawang, Selangor, Malaysia.",
+  "ai_summary": "The Rawang Half Marathon 2026 Powered By JomRun® is scheduled for September 13, 2026, in Rawang, Selangor, Malaysia. Organized by JomRun, the event starts and finishes at Aeon Mall Rawang and offers three distance options: 21.1km, 10km, and 5km. Registration is currently open for runners interested in taking part in this Malaysian road race.",
   "core_facts": {
     "date": "2026-09-13",
     "distance_km": [
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
+    "organizer": "JomRun",
     "registration_status": "Open",
-    "country": "Malaysia",
     "venue": "Aeon Mall Rawang, Rawang",
     "city": "Rawang, Selangor",
-    "organizer": "JomRun"
+    "country": "Malaysia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km) suit a range of runner abilities",
+    "Convenient venue at Aeon Mall Rawang, likely offering amenities and accessibility",
+    "Registration is currently open, giving runners ample time to prepare and sign up"
+  ],
+  "cons": [
+    "Limited source information available beyond basic event logistics"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 45,
+  "faqs": [
+    {
+      "question": "When is the Rawang Half Marathon 2026 taking place?",
+      "answer": "The Rawang Half Marathon 2026 Powered By JomRun® is scheduled to take place on September 13, 2026. This date has been confirmed as part of the official event details for this Malaysian road race, organized by JomRun and held in Rawang, Selangor."
+    },
+    {
+      "question": "What distance options are available for participants?",
+      "answer": "Participants in the Rawang Half Marathon 2026 can choose from three distance categories: a 21.1km half marathon, a 10km race, and a 5km race. This range of options allows runners of different experience levels and fitness goals to take part in the event."
+    },
+    {
+      "question": "Where is the race held?",
+      "answer": "The race is held at Aeon Mall Rawang, located in Rawang, Selangor, Malaysia. This venue serves as the central location for the event, which is organized by JomRun as part of its Rawang Half Marathon 2026 series of races."
+    },
+    {
+      "question": "Is registration currently open for this event?",
+      "answer": "Yes, registration for the Rawang Half Marathon 2026 Powered By JomRun® is currently open. Prospective participants interested in the 21.1km, 10km, or 5km distances can sign up now ahead of the event date of September 13, 2026."
+    }
+  ],
+  "reliability_score": 48,
   "tags": [
     "10k",
     "malaysia"
@@ -34,7 +57,7 @@
       "url": "https://www.jomrun.com/event/Rawang-Half-Marathon-2026-Powered-By-JomRun",
       "label": "jomrun.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     }
   ],
   "affiliate_links": [],
@@ -46,6 +69,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

@@ -4,27 +4,50 @@
   "name": "Scenic Half Marathon Chanthaburi",
   "category_id": "half-marathon",
   "region_id": "thailand",
-  "short_description": "Scenic Half Marathon Chanthaburi takes place June 6, 2027 in Chanthaburi, Thailand.",
-  "ai_summary": "Scenic Half Marathon Chanthaburi is a road running event in Chanthaburi, Thailand, featuring 21K Half Marathon; 10K; 5K; 3K. The race takes place on June 6, 2027, starting from Kung Wiman Beach, Chanthaburi. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half marathon and multi-distance race held at Kung Wiman Beach, Chanthaburi, Thailand on June 7, 2026.",
+  "ai_summary": "The Scenic Half Marathon Chanthaburi is a road race scheduled for June 7, 2026, taking place at Kung Wiman Beach in Chanthaburi, Thailand. Organized by the Scenic Marathon Series, the event offers four distance options: 21.1km, 10km, 5km, and 3km, catering to a range of runners from casual participants to half marathon finishers. Registration details have not yet been announced.",
   "core_facts": {
-    "date": "2027-06-06",
+    "date": "2026-06-07",
     "distance_km": [
       21.1,
-      10.0,
-      5.0,
-      3.0
+      10,
+      5,
+      3
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Scenic Marathon Series",
     "registration_status": "not_yet_announced",
-    "country": "Thailand",
     "venue": "Kung Wiman Beach, Chanthaburi",
     "city": "Chanthaburi",
-    "organizer": "Scenic Marathon Series"
+    "country": "Thailand"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km, 3km) suit different fitness levels",
+    "Scenic beachside venue at Kung Wiman Beach, Chanthaburi",
+    "Organized by an established event series, the Scenic Marathon Series"
+  ],
+  "cons": [
+    "Registration status has not yet been announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Scenic Half Marathon Chanthaburi held?",
+      "answer": "The Scenic Half Marathon Chanthaburi is scheduled to take place on June 7, 2026. It is organized by the Scenic Marathon Series and will be held at Kung Wiman Beach in Chanthaburi, Thailand. No further scheduling details, such as start times, have been announced yet."
+    },
+    {
+      "question": "What distances are offered at this race?",
+      "answer": "The event offers four distance categories for participants to choose from: a 21.1km half marathon, a 10km race, a 5km race, and a shorter 3km option. This range allows both serious distance runners and casual participants or families to take part in the event."
+    },
+    {
+      "question": "Where does the race take place?",
+      "answer": "The race is held at Kung Wiman Beach, located in Chanthaburi, Thailand. This coastal venue serves as the starting and event location for all four distance categories offered, from the 3km fun run up to the full 21.1km half marathon distance."
+    },
+    {
+      "question": "Is registration open for this race?",
+      "answer": "Registration status for the Scenic Half Marathon Chanthaburi has not yet been announced. Prospective participants will need to check back for updates on when sign-ups open, as no dates, fees, or registration procedures have been made available at this time."
+    }
+  ],
   "reliability_score": 42,
   "tags": [
     "half-marathon",
@@ -35,7 +58,7 @@
       "url": "https://scenicmarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     }
   ],
   "affiliate_links": [],
@@ -47,6 +70,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
-  "status": "active"
+  "last_updated": "2026-07-30",
+  "status": "needs_review"
 }

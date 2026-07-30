@@ -4,8 +4,8 @@
   "name": "Sihanoukville International Half Marathon (12th edition)",
   "category_id": "half-marathon",
   "region_id": "cambodia",
-  "short_description": "Sihanoukville International Half Marathon (12th edition) takes place March 28, 2027 in Sihanoukville, Cambodia.",
-  "ai_summary": "Sihanoukville International Half Marathon (12th edition) is a road running event in Sihanoukville, Cambodia, featuring Half Marathon (21.1km); 10.5km; 5km; 3km. The race takes place on March 28, 2027, starting from Ochheuteal Beach, Sihanoukville. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The Sihanoukville International Half Marathon (12th edition) takes place March 28, 2027 at Ochheuteal Beach, Sihanoukville, Cambodia, with distances from 3km to 21.1km.",
+  "ai_summary": "The Sihanoukville International Half Marathon returns for its 12th edition on March 28, 2027, based at Ochheuteal Beach in Sihanoukville, Cambodia. Organized by Cambodia Events, the same organizer behind E19, E68, and E91, the event offers four distance options: 21.1km, 10.5km, 5km, and 3km. Registration has not yet been announced.",
   "core_facts": {
     "date": "2027-03-28",
     "distance_km": [
@@ -15,16 +15,40 @@
       3
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Cambodia Events (same organizer as E19/E68/E91)",
     "registration_status": "not_yet_announced",
-    "country": "Cambodia",
     "venue": "Ochheuteal Beach, Sihanoukville",
     "city": "Sihanoukville",
-    "organizer": "Cambodia Events (same organizer as E19/E68/E91)"
+    "country": "Cambodia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10.5km, 5km, 3km) suit a range of runner abilities",
+    "Beachfront venue at Ochheuteal Beach, Sihanoukville",
+    "Run by an established organizer with experience across multiple events (E19/E68/E91)",
+    "Long-running event now in its 12th edition, indicating a track record"
+  ],
+  "cons": [
+    "Registration status has not yet been announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Sihanoukville International Half Marathon taking place?",
+      "answer": "The Sihanoukville International Half Marathon, now in its 12th edition, is scheduled for March 28, 2027. The race takes place at Ochheuteal Beach in Sihanoukville, Cambodia. It is organized by Cambodia Events, the same group behind the E19, E68, and E91 events."
+    },
+    {
+      "question": "What distance options are available at this race?",
+      "answer": "Runners can choose from four distances at this event: a 21.1km half marathon, a 10.5km option, a 5km race, and a shorter 3km course. The 21.1km half marathon serves as the primary distance for the event, held at Ochheuteal Beach, Sihanoukville."
+    },
+    {
+      "question": "Where is the race held?",
+      "answer": "The race is held at Ochheuteal Beach, located in Sihanoukville, Cambodia. This beachfront venue hosts all four distance categories offered at the event, including the 21.1km, 10.5km, 5km, and 3km races, organized by Cambodia Events."
+    },
+    {
+      "question": "Is registration currently open for this event?",
+      "answer": "As of now, the registration status for the Sihanoukville International Half Marathon has not yet been announced. Prospective participants will need to check back for updates from the organizer, Cambodia Events, regarding when sign-ups will become available for the 2027 race."
+    }
+  ],
   "reliability_score": 82,
   "tags": [
     "half-marathon",
@@ -36,7 +60,7 @@
       "url": "https://www.cambodia-events.org",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-16"
+      "last_checked": "2026-07-30"
     },
     {
       "url": "https://aims-worldrunning.org/calendar.html",
@@ -66,6 +90,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-16",
+  "last_updated": "2026-07-30",
   "status": "active"
 }

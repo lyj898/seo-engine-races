@@ -4,27 +4,50 @@
   "name": "Tayug Family Hospital Run 2026",
   "category_id": "half-marathon",
   "region_id": "philippines",
-  "short_description": "Tayug Family Hospital Run 2026 takes place December 6, 2026 in Tayug, Pangasinan, Philippines.",
-  "ai_summary": "Tayug Family Hospital Run 2026 is a road running event in Tayug, Pangasinan, Philippines, featuring Half Marathon (21K); 10K; 5K. The race takes place on December 6, 2026, starting from Tayug, Pangasinan. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The Tayug Family Hospital Run 2026 is a half-marathon, 10km, and 5km race in Tayug, Pangasinan, Philippines, set for December 6, 2026.",
+  "ai_summary": "The Tayug Family Hospital Run 2026 is a road race scheduled for December 6, 2026 in Tayug, Pangasinan, Philippines. Organized by JCIR Events, it offers three distance options: a 21.1km half-marathon, a 10km run, and a 5km run. Registration details have not yet been announced. The event provides distance choices suited to both serious runners and casual participants.",
   "core_facts": {
     "date": "2026-12-06",
     "distance_km": [
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
+    "organizer": "JCIR Events",
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "Tayug, Pangasinan",
     "city": "Tayug, Pangasinan",
-    "organizer": "JCIR Events"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km) suit different fitness levels",
+    "Half-marathon distance offers a serious challenge for experienced runners",
+    "Takes place in Tayug, Pangasinan, a specific and clearly identified venue"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so sign-up details are currently unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 40,
+  "faqs": [
+    {
+      "question": "When is the Tayug Family Hospital Run 2026?",
+      "answer": "The Tayug Family Hospital Run 2026 is scheduled to take place on December 6, 2026. It will be held in Tayug, Pangasinan, in the Philippines. This date marks the confirmed day for all race distances offered as part of this event, according to the organizer's current information."
+    },
+    {
+      "question": "What distances are offered in this race?",
+      "answer": "This race offers three distance categories for participants to choose from: a 21.1km half-marathon, a 10km run, and a 5km run. The 21.1km half-marathon is listed as the primary distance for the event, giving runners a range of options based on their experience level."
+    },
+    {
+      "question": "Who is organizing the event?",
+      "answer": "The Tayug Family Hospital Run 2026 is organized by JCIR Events. The organizer is responsible for coordinating the race, which will take place in Tayug, Pangasinan, Philippines, on December 6, 2026, and includes the 21.1km, 10km, and 5km distance categories."
+    },
+    {
+      "question": "Is registration open for this race?",
+      "answer": "Registration for the Tayug Family Hospital Run 2026 has not yet been announced by the organizer, JCIR Events. Prospective participants should check back for updates, as specific sign-up dates, fees, and procedures are not currently available based on the information provided."
+    }
+  ],
+  "reliability_score": 35,
   "tags": [
     "half-marathon",
     "philippines"
@@ -34,12 +57,12 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-30"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-30",
   "status": "active"
 }
