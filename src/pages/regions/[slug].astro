@@ -1,0 +1,116 @@
+---
+import siteConfig from '../../lib/config.js';
+import { urls } from '../../lib/urls.js';
+import { loadEntities, loadRegions, loadCategories, stripMeta, buildRegionAncestryMap } from '../../lib/data.js';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import StatsSummary from '../../components/StatsSummary.astro';
+import FilterBar from '../../components/FilterBar.astro';
+import EntityCard from '../../components/EntityCard.astro';
+import HubCard from '../../components/HubCard.astro';
+import FAQSection from '../../components/FAQSection.astro';
+import { buildItemListSchema, buildFaqPageSchema, buildBreadcrumbListSchema } from '../../lib/schema-jsonld.js';
+
+export function getStaticPaths() {
+  const regions = loadRegions().map(stripMeta);
+  return regions.map((region) => ({
+    params: { slug: region.slug },
+    props: { region },
+  }));
+}
+
+const { region } = Astro.props;
+const allEntities = loadEntities().map(stripMeta).filter((e) => e.status === 'active');
+const allRegions = loadRegions().map(stripMeta);
+const allCategories = loadCategories().map(stripMeta);
+const ancestryMap = buildRegionAncestryMap(allRegions);
+
+// Matches this region OR any descendant (e.g. the "Thailand" hub also
+// includes "Nong Khai" entities) -- no vertical-specific geography logic,
+// just parent_region_id chains built once in buildRegionAncestryMap.
+const entities = allEntities.filter((e) => (ancestryMap.get(e.region_id) ?? [e.region_id]).includes(region.region_id));
+
+const childRegions = allRegions.filter((r) => r.parent_region_id === region.region_id);
+const parentRegion = allRegions.find((r) => r.region_id === region.parent_region_id);
+
+const avgReliability = entities.length
+  ? Math.round(entities.reduce((sum, e) => sum + e.reliability_score, 0) / entities.length)
+  : 0;
+
+const stats = [
+  { label: `${siteConfig.entityLabelPlural}`, value: entities.length },
+  { label: `${siteConfig.categoryLabel}s represented`, value: new Set(entities.map((e) => e.category_id)).size },
+  { label: 'Avg. reliability', value: entities.length ? `${avgReliability}/100` : '—' },
+];
+
+const categoryFilterOptions = allCategories
+  .filter((c) => entities.some((e) => e.category_id === c.category_id))
+  .map((c) => ({ label: c.label, value: c.category_id }));
+
+const breadcrumbItems = [
+  { label: siteConfig.siteName, href: urls.home() },
+  { label: `All ${siteConfig.regionLabel}s`, href: urls.regionsIndex() },
+  ...(parentRegion ? [{ label: parentRegion.label, href: urls.region(parentRegion.slug) }] : []),
+  { label: region.label, href: urls.region(region.slug) },
+];
+
+const jsonLd = [
+  ...(siteConfig.enabledFeatures?.itemListSchema
+    ? [buildItemListSchema(entities, Astro.site, (e) => urls.entity(e.slug), (e) => e.name)]
+    : []),
+  ...(siteConfig.enabledFeatures?.faqSchema ? [buildFaqPageSchema(region.faqs)] : []),
+  buildBreadcrumbListSchema(breadcrumbItems, Astro.site),
+].filter(Boolean);
+---
+
+<BaseLayout
+  title={region.label}
+  description={region.short_description}
+  canonicalPath={urls.region(region.slug)}
+  jsonLd={jsonLd}
+>
+  <div class="mx-auto max-w-6xl px-4 py-10 sm:px-6">
+    <Breadcrumb items={breadcrumbItems} />
+    <h1 class="mt-4 font-serif text-3xl font-semibold sm:text-4xl">{region.label}</h1>
+    <div class="prose-content mt-4 max-w-2xl">
+      <p>{region.intro ?? region.short_description}</p>
+    </div>
+
+    <div class="mt-8">
+      <StatsSummary stats={stats} />
+    </div>
+
+    {childRegions.length > 0 && (
+      <section class="mt-10">
+        <h2 class="mb-4 text-xl font-semibold">Explore by {siteConfig.regionLabel.toLowerCase()}</h2>
+        <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {childRegions.map((child) => (
+            <HubCard
+              href={urls.region(child.slug)}
+              label={child.label}
+              description={child.short_description}
+              count={allEntities.filter((e) => (ancestryMap.get(e.region_id) ?? [e.region_id]).includes(child.region_id)).length}
+            />
+          ))}
+        </div>
+      </section>
+    )}
+
+    {entities.length > 0 ? (
+      <div class="mt-10">
+        {categoryFilterOptions.length > 1 && <FilterBar options={categoryFilterOptions} storageKey={`filter-region-${region.slug}`} />}
+        <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {entities.map((entity) => <EntityCard entity={entity} />)}
+        </div>
+      </div>
+    ) : (
+      <p class="mt-10 text-brand-muted dark:text-brand-muted-dark">
+        No {siteConfig.entityLabelPlural} published in {region.label} yet -- check back soon.
+      </p>
+    )}
+
+    <section class="mt-14">
+      <FAQSection faqs={region.faqs} heading={`${region.label} FAQs`} />
+    </section>
+  </div>
+</BaseLayout>
