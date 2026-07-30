@@ -51,7 +51,7 @@ jobs:
         # back to using no base path.
         run: npm run build
         env:
-          PREVIEW_BASE_PATH: /seo-engine-races
+          PREVIEW_BASE_PATH: /seo-engine-races/
 
       - name: Upload build output
         uses: actions/upload-pages-artifact@v3
