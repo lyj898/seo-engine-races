@@ -1,0 +1,83 @@
+{
+  "entity_id": "luang-prabang-half-marathon-run-for-children-2026",
+  "slug": "luang-prabang-half-marathon-run-for-children-2026",
+  "name": "Luang Prabang Half Marathon",
+  "category_id": "half-marathon",
+  "region_id": "laos",
+  "short_description": "Luang Prabang Half Marathon (\"Run for Children\") is a verified charity half marathon through Laos's UNESCO-listed old town, confirmed for 24 October 2026.",
+  "ai_summary": "Luang Prabang Half Marathon (\"Run for Children\") is a single-distance, 21.1km charity race looping through Luang Prabang's UNESCO-listed old town along the Mekong and Nam Khan rivers in Laos, confirmed for 24 October 2026. It's organized by and benefits the Lao Friends Hospital for Children, with registration open via the event's website. Verified as of 20 July 2026 with a confidence score of 88.",
+  "core_facts": {
+    "date": "2026-10-24",
+    "distance_km": [
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "registration_status": "open",
+    "organizer": "Lao Friends Hospital for Children",
+    "venue": "UNESCO old town loop along the Mekong / Nam Khan rivers",
+    "city": "Luang Prabang",
+    "country": "Laos"
+  },
+  "pros": [
+    "Proceeds benefit Lao Friends Hospital for Children, a named charitable cause tied directly to the race's organizing body",
+    "Scenic, largely car-free course looping through Luang Prabang's UNESCO-listed old town along the Mekong and Nam Khan rivers"
+  ],
+  "cons": [
+    "Only offers a single distance (Half Marathon), with no shorter or longer option at the same event",
+    "No direct registration link published, only the general event website"
+  ],
+  "sentiment_scores": {
+    "overall": 82,
+    "breakdown": [
+      {
+        "label": "Source verification confidence",
+        "score": 88
+      },
+      {
+        "label": "Information completeness",
+        "score": 74
+      }
+    ]
+  },
+  "excerpt_quotes": [],
+  "faqs": [
+    {
+      "question": "What is the Luang Prabang Half Marathon, and what cause does it support?",
+      "answer": "It's a 21.1km charity half marathon in Luang Prabang, Laos, organized by and benefiting the Lao Friends Hospital for Children. Branded \"Run for Children,\" it's confirmed for 24 October 2026 and routes through the town's UNESCO-listed old town along the Mekong and Nam Khan rivers."
+    },
+    {
+      "question": "Does the Luang Prabang Half Marathon offer any distance besides the half marathon?",
+      "answer": "No -- as of the last verification on 20 July 2026, this event offers only the 21.1km Half Marathon distance, with no shorter or longer category available. Runners looking for a 10km or full marathon option at the same event weekend should look elsewhere in the region."
+    }
+  ],
+  "reliability_score": 88,
+  "tags": [
+    "half-marathon",
+    "laos",
+    "verified-2026",
+    "charity-race",
+    "unesco-course"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.luangprabanghalfmarathon.com/",
+      "label": "Official race website",
+      "type": "official",
+      "last_checked": "2026-07-20"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official race website",
+      "url": "https://luangprabangmarathon.com",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [
+    "the-brunei-half-marathon-2026",
+    "great-eastern-women-s-run-2026"
+  ],
+  "last_updated": "2026-07-20",
+  "status": "active"
+}

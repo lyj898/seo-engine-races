@@ -1,0 +1,48 @@
+{
+  "entity_id": "mpaj-ampang-jaya-half-marathon-powered-by-jomrun-2026",
+  "slug": "mpaj-ampang-jaya-half-marathon-powered-by-jomrun-2026",
+  "name": "MPAJ Ampang Jaya Half Marathon Powered by JomRun®",
+  "category_id": "half-marathon",
+  "region_id": "malaysia",
+  "short_description": "MPAJ Ampang Jaya Half Marathon Powered by JomRun® takes place September 20, 2026 in Ampang Jaya, Selangor, Malaysia.",
+  "ai_summary": "MPAJ Ampang Jaya Half Marathon Powered by JomRun® is a road running event in Ampang Jaya, Selangor, Malaysia, featuring Half Marathon. The race takes place on September 20, 2026, starting from Taman Melawati. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-09-20",
+    "distance_km": [
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "registration_status": "Open",
+    "country": "Malaysia",
+    "venue": "Taman Melawati",
+    "city": "Ampang Jaya, Selangor"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 45,
+  "tags": [
+    "half-marathon",
+    "malaysia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.jomrun.com/event/MPAJ-Ampang-Jaya-Half-Marathon-Powered-by-JomRun",
+      "label": "jomrun.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-13"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Register",
+      "url": "https://www.jomrun.com/event/MPAJ-Ampang-Jaya-Half-Marathon-Powered-by-JomRun",
+      "type": "official_registration"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-13",
+  "status": "active"
+}

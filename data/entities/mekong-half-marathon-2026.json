@@ -1,0 +1,69 @@
+{
+  "entity_id": "mekong-half-marathon-2026",
+  "slug": "mekong-half-marathon-2026",
+  "name": "Mekong Half Marathon",
+  "category_id": "half-marathon",
+  "region_id": "laos",
+  "short_description": "Mekong Half Marathon takes place September 27, 2026 in Vientiane, Laos.",
+  "ai_summary": "Mekong Half Marathon is a road running event in Vientiane, Laos, featuring Half Marathon (21KM), 10KM, 5KM. The race takes place on September 27, 2026, starting from Xaysetha Economic Zone, Vientiane. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-09-27",
+    "distance_km": [
+      21.0,
+      10.0,
+      5.0
+    ],
+    "primary_distance_km": 21.1,
+    "registration_status": "Open",
+    "country": "Laos",
+    "venue": "Xaysetha Economic Zone, Vientiane",
+    "city": "Vientiane",
+    "organizer": "Green Step"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 66,
+  "tags": [
+    "half-marathon",
+    "laos"
+  ],
+  "source_mix": [
+    {
+      "url": "https://Facebook",
+      "label": "Facebook",
+      "type": "aggregator",
+      "last_checked": "2026-07-23"
+    },
+    {
+      "url": "https://www.patrunning.com",
+      "label": "patrunning.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-23"
+    },
+    {
+      "url": "https://www.worldsmarathons.com",
+      "label": "worldsmarathons.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-23"
+    },
+    {
+      "url": "https://ahotu.com",
+      "label": "ahotu.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-23"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Register",
+      "url": "https://runlaos.com",
+      "type": "official_registration"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-23",
+  "status": "active"
+}

@@ -1,0 +1,54 @@
+{
+  "entity_id": "nilai-21k-2026",
+  "slug": "nilai-21k-2026",
+  "name": "Nilai 21K 2026",
+  "category_id": "half-marathon",
+  "region_id": "malaysia",
+  "short_description": "Nilai 21K 2026 takes place October 11, 2026 in Nilai, Malaysia.",
+  "ai_summary": "Nilai 21K 2026 is a road running event in Nilai, Malaysia, featuring 21KM (Half Marathon). The race takes place on October 11, 2026, starting from AEON Mall Nilai, Negeri Sembilan. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-10-11",
+    "distance_km": [
+      21.0
+    ],
+    "primary_distance_km": 21.1,
+    "registration_status": "Open",
+    "country": "Malaysia",
+    "venue": "AEON Mall Nilai, Negeri Sembilan",
+    "city": "Nilai"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 45,
+  "tags": [
+    "half-marathon",
+    "malaysia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://checkpointspot.asia/events",
+      "label": "checkpointspot.asia",
+      "type": "aggregator",
+      "last_checked": "2026-07-23"
+    },
+    {
+      "url": "https://checkpointspot.asia/event/nilai-21k-2026",
+      "label": "checkpointspot.asia",
+      "type": "aggregator",
+      "last_checked": "2026-07-23"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Register",
+      "url": "https://checkpointspot.asia/event/nilai-21k-2026",
+      "type": "official_registration"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-23",
+  "status": "active"
+}

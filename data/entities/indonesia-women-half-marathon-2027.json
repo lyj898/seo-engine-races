@@ -1,0 +1,40 @@
+{
+  "entity_id": "indonesia-women-half-marathon-2027",
+  "slug": "indonesia-women-half-marathon-2027",
+  "name": "Indonesia Women Half Marathon",
+  "category_id": "half-marathon",
+  "region_id": "indonesia",
+  "short_description": "Indonesia Women Half Marathon takes place May 16, 2027 in Indonesia, Indonesia.",
+  "ai_summary": "Indonesia Women Half Marathon is a road running event in Indonesia, featuring Half Marathon (21.1KM). The race takes place on May 16, 2027. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2027-05-16",
+    "distance_km": [
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "registration_status": "not_yet_announced",
+    "country": "Indonesia"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 50,
+  "tags": [
+    "half-marathon",
+    "indonesia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://aims-worldrunning.org/calendar.html",
+      "label": "aims-worldrunning.org",
+      "type": "aggregator",
+      "last_checked": "2026-07-23"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-23",
+  "status": "active"
+}

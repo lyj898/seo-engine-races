@@ -1,0 +1,59 @@
+{
+  "entity_id": "malaysia-marathon-2026",
+  "slug": "malaysia-marathon-2026",
+  "name": "Malaysia Marathon 2026",
+  "category_id": "full-marathon",
+  "region_id": "malaysia",
+  "short_description": "Malaysia Marathon 2026 takes place August 30, 2026 in Kuala Lumpur, Malaysia.",
+  "ai_summary": "Malaysia Marathon 2026 is a road running event in Kuala Lumpur, Malaysia, featuring Full Marathon (42KM); Half Marathon (21KM); 10KM; 5KM. The race takes place on August 30, 2026, starting from Start Pavilion Bukit Bintang, finish KLCC. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-08-30",
+    "distance_km": [
+      42.0,
+      21.0,
+      10.0,
+      5.0
+    ],
+    "primary_distance_km": 42.195,
+    "registration_status": "Open",
+    "country": "Malaysia",
+    "venue": "Start Pavilion Bukit Bintang, finish KLCC",
+    "city": "Kuala Lumpur",
+    "organizer": "Malaysia Marathon (with SCORE Experience)"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 85,
+  "tags": [
+    "full-marathon",
+    "malaysia",
+    "verified"
+  ],
+  "source_mix": [
+    {
+      "url": "https://malaysiamarathonofficial.com",
+      "label": "Official race website",
+      "type": "official",
+      "last_checked": "2026-07-20"
+    },
+    {
+      "url": "https://www.heyjom.com/event/malaysia-marathon-2026",
+      "label": "heyjom.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://malaysiamarathonofficial.com",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-20",
+  "status": "active"
+}

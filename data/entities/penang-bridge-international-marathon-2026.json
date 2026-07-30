@@ -1,0 +1,64 @@
+{
+  "entity_id": "penang-bridge-international-marathon-2026",
+  "slug": "penang-bridge-international-marathon-2026",
+  "name": "Penang Bridge International Marathon",
+  "category_id": "full-marathon",
+  "region_id": "malaysia",
+  "short_description": "Penang Bridge International Marathon takes place December 13, 2026 in George Town, Malaysia.",
+  "ai_summary": "Penang Bridge International Marathon is a road running event in George Town, Malaysia, featuring Full Marathon; Half Marathon; 10km. The race takes place on December 13, 2026, starting from Penang Bridge. Registration is Not Yet Announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-12-13",
+    "distance_km": [
+      42.195,
+      21.1,
+      10.0
+    ],
+    "primary_distance_km": 42.195,
+    "registration_status": "Not Yet Announced",
+    "country": "Malaysia",
+    "venue": "Penang Bridge",
+    "city": "George Town",
+    "organizer": "Penang Bridge Marathon Organizing Committee"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 82,
+  "tags": [
+    "full-marathon",
+    "malaysia",
+    "verified"
+  ],
+  "source_mix": [
+    {
+      "url": "https://penangmarathon.gov.my",
+      "label": "Official race website",
+      "type": "official",
+      "last_checked": "2026-07-16"
+    },
+    {
+      "url": "https://www.ahotu.com/en/event/penang-bridge-international-marathon",
+      "label": "ahotu.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-16"
+    },
+    {
+      "url": "https://aims-worldrunning.org/calendar.html",
+      "label": "aims-worldrunning.org",
+      "type": "aggregator",
+      "last_checked": "2026-07-16"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://penangmarathon.gov.my",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-16",
+  "status": "active"
+}

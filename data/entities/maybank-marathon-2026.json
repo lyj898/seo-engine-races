@@ -1,0 +1,69 @@
+{
+  "entity_id": "maybank-marathon-2026",
+  "slug": "maybank-marathon-2026",
+  "name": "Maybank Marathon 2026",
+  "category_id": "full-marathon",
+  "region_id": "indonesia",
+  "short_description": "Maybank Marathon 2026 takes place August 23, 2026 in Bali, Indonesia.",
+  "ai_summary": "Maybank Marathon 2026 is a road running event in Bali, Indonesia, featuring Full Marathon; Half Marathon; 10km. The race takes place on August 23, 2026, starting from Bali United Training Center, Bali. Registration is Not Yet Announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-08-23",
+    "distance_km": [
+      42.195,
+      21.1,
+      10.0
+    ],
+    "primary_distance_km": 42.195,
+    "registration_status": "Not Yet Announced",
+    "country": "Indonesia",
+    "venue": "Bali United Training Center, Bali",
+    "city": "Bali"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 82,
+  "tags": [
+    "full-marathon",
+    "indonesia",
+    "verified"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.maybank.co.id/en/maybank-marathon",
+      "label": "Official race website",
+      "type": "official",
+      "last_checked": "2026-07-16"
+    },
+    {
+      "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
+      "label": "kalenderlari.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-16"
+    },
+    {
+      "url": "https://kalenderlari.com/events/maybank-marathon-2026/",
+      "label": "kalenderlari.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-16"
+    },
+    {
+      "url": "https://aims-worldrunning.org/calendar.html",
+      "label": "aims-worldrunning.org",
+      "type": "aggregator",
+      "last_checked": "2026-07-16"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://www.maybank.co.id/en/maybank-marathon",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-16",
+  "status": "active"
+}

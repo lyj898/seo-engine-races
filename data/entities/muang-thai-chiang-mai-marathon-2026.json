@@ -1,0 +1,65 @@
+{
+  "entity_id": "muang-thai-chiang-mai-marathon-2026",
+  "slug": "muang-thai-chiang-mai-marathon-2026",
+  "name": "Muang Thai Chiang Mai Marathon",
+  "category_id": "full-marathon",
+  "region_id": "thailand",
+  "short_description": "Muang Thai Chiang Mai Marathon takes place December 20, 2026 in Chiang Mai, Thailand.",
+  "ai_summary": "Muang Thai Chiang Mai Marathon is a road running event in Chiang Mai, Thailand, featuring Full Marathon; Half Marathon; 10km. The race takes place on December 20, 2026, starting from Tha Phae Gate (start); King Naresuan the Great Monument, Mae Rim (finish). Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-12-20",
+    "distance_km": [
+      42.195,
+      21.1,
+      10.0
+    ],
+    "primary_distance_km": 42.195,
+    "registration_status": "Open",
+    "country": "Thailand",
+    "venue": "Tha Phae Gate (start); King Naresuan the Great Monument, Mae Rim (finish)",
+    "city": "Chiang Mai",
+    "organizer": "Jog & Joy Co., Ltd. (presented by Muang Thai)",
+    "price_range": "THB 1500"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 95,
+  "tags": [
+    "full-marathon",
+    "thailand",
+    "verified"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.chiangmaimarathon.com",
+      "label": "Official race website",
+      "type": "official",
+      "last_checked": "2026-07-13"
+    },
+    {
+      "url": "https://www.chiangmaimarathon.com/",
+      "label": "chiangmaimarathon.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-13"
+    },
+    {
+      "url": "https://www.jogandjoy.run/",
+      "label": "jogandjoy.run",
+      "type": "aggregator",
+      "last_checked": "2026-07-13"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://www.chiangmaimarathon.com",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-13",
+  "status": "active"
+}

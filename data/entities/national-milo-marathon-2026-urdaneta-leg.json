@@ -1,0 +1,59 @@
+{
+  "entity_id": "national-milo-marathon-2026-urdaneta-leg",
+  "slug": "national-milo-marathon-2026-urdaneta-leg",
+  "name": "National MILO Marathon 2026 – Urdaneta Leg",
+  "category_id": "half-marathon",
+  "region_id": "philippines",
+  "short_description": "National MILO Marathon 2026 – Urdaneta Leg takes place November 8, 2026 in Urdaneta City, Philippines.",
+  "ai_summary": "National MILO Marathon 2026 – Urdaneta Leg is a road running event in Urdaneta City, Philippines, featuring 1K; 3K; 5K; 10K; 21K Half Marathon (42K category not independently confirmed for this leg). The race takes place on November 8, 2026, starting from Urdaneta City. Registration is Not yet confirmed open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-11-08",
+    "distance_km": [
+      1.0,
+      3.0,
+      5.0,
+      10.0,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "registration_status": "Not yet confirmed open",
+    "country": "Philippines",
+    "venue": "Urdaneta City",
+    "city": "Urdaneta City",
+    "organizer": "RUNRIO Inc. (MILO Marathon)"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 55,
+  "tags": [
+    "half-marathon",
+    "philippines"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.milo.com.ph/national-milo-marathon",
+      "label": "Official race website",
+      "type": "official",
+      "last_checked": "2026-07-20"
+    },
+    {
+      "url": "https://pinoyfitness.com/2026/01/milo-marathon-2026-full-race-schedule-and-locations-unveiled",
+      "label": "pinoyfitness.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://www.milo.com.ph/national-milo-marathon",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-20",
+  "status": "active"
+}

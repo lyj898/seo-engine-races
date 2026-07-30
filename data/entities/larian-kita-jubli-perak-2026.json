@@ -1,0 +1,51 @@
+{
+  "entity_id": "larian-kita-jubli-perak-2026",
+  "slug": "larian-kita-jubli-perak-2026",
+  "name": "Larian Kita Jubli Perak",
+  "category_id": "half-marathon",
+  "region_id": "malaysia",
+  "short_description": "Larian Kita Jubli Perak takes place October 10, 2026 in Klang, Selangor, Malaysia.",
+  "ai_summary": "Larian Kita Jubli Perak is a road running event in Klang, Selangor, Malaysia, featuring 21KM Half Marathon (Open/Veteran); 10KM; 3KM Fun Run. The race takes place on October 10, 2026, starting from Stadium Sultan Suleiman, Klang. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-10-10",
+    "distance_km": [
+      21.0,
+      10.0,
+      3.0
+    ],
+    "primary_distance_km": 21.1,
+    "registration_status": "Open",
+    "country": "Malaysia",
+    "venue": "Stadium Sultan Suleiman, Klang",
+    "city": "Klang, Selangor",
+    "price_range": "MYR 21K RM99 / 10K RM79 / 3K RM39 (+admin fee)"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 38,
+  "tags": [
+    "half-marathon",
+    "malaysia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.racexasia.com/event/larian-kita-jubli-perak-lkjp26",
+      "label": "racexasia.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Register",
+      "url": "https://www.racexasia.com/event/larian-kita-jubli-perak-lkjp26",
+      "type": "official_registration"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-20",
+  "status": "active"
+}

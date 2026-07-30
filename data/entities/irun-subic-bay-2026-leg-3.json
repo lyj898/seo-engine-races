@@ -1,0 +1,43 @@
+{
+  "entity_id": "irun-subic-bay-2026-leg-3",
+  "slug": "irun-subic-bay-2026-leg-3",
+  "name": "iRun Subic Bay 2026 – Leg 3",
+  "category_id": "full-marathon",
+  "region_id": "philippines",
+  "short_description": "iRun Subic Bay 2026 – Leg 3 takes place November 29, 2026 in Subic, Zambales, Philippines.",
+  "ai_summary": "iRun Subic Bay 2026 – Leg 3 is a road running event in Subic, Zambales, Philippines, featuring Full Marathon (42K). The race takes place on November 29, 2026, starting from Remy Field, Subic. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-11-29",
+    "distance_km": [
+      42.195
+    ],
+    "primary_distance_km": 42.195,
+    "registration_status": "not_yet_announced",
+    "country": "Philippines",
+    "venue": "Remy Field, Subic",
+    "city": "Subic, Zambales",
+    "organizer": "SMOKE10 Events"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 40,
+  "tags": [
+    "full-marathon",
+    "philippines"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.pinoyfitness.com/list-of-events/",
+      "label": "pinoyfitness.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-20",
+  "status": "active"
+}

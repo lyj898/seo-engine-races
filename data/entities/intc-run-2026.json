@@ -1,0 +1,46 @@
+{
+  "entity_id": "intc-run-2026",
+  "slug": "intc-run-2026",
+  "name": "INTC Run 2026",
+  "category_id": "half-marathon",
+  "region_id": "philippines",
+  "short_description": "INTC Run 2026 takes place August 23, 2026 in Laoag, Ilocos Norte, Philippines.",
+  "ai_summary": "INTC Run 2026 is a road running event in Laoag, Ilocos Norte, Philippines, featuring Half Marathon (21K); 10K; 5K; 3K. The race takes place on August 23, 2026, starting from SM City Laoag. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-08-23",
+    "distance_km": [
+      21.1,
+      10.0,
+      5.0,
+      3.0
+    ],
+    "primary_distance_km": 21.1,
+    "registration_status": "not_yet_announced",
+    "country": "Philippines",
+    "venue": "SM City Laoag",
+    "city": "Laoag, Ilocos Norte",
+    "organizer": "INTC"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 40,
+  "tags": [
+    "half-marathon",
+    "philippines"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.pinoyfitness.com/list-of-events/",
+      "label": "pinoyfitness.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-20",
+  "status": "active"
+}

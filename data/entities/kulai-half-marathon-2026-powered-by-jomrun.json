@@ -1,0 +1,48 @@
+{
+  "entity_id": "kulai-half-marathon-2026-powered-by-jomrun",
+  "slug": "kulai-half-marathon-2026-powered-by-jomrun",
+  "name": "Kulai Half Marathon 2026 Powered by JomRun®",
+  "category_id": "half-marathon",
+  "region_id": "malaysia",
+  "short_description": "Kulai Half Marathon 2026 Powered by JomRun® takes place November 15, 2026 in Kulai, Johor, Malaysia.",
+  "ai_summary": "Kulai Half Marathon 2026 Powered by JomRun® is a road running event in Kulai, Johor, Malaysia, featuring Half Marathon. The race takes place on November 15, 2026, starting from AEON Mall Kulaijaya. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-11-15",
+    "distance_km": [
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "registration_status": "Open",
+    "country": "Malaysia",
+    "venue": "AEON Mall Kulaijaya",
+    "city": "Kulai, Johor"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 45,
+  "tags": [
+    "half-marathon",
+    "malaysia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.jomrun.com/event/Kulai-Half-Marathon-2026-Powered-by-JomRun",
+      "label": "jomrun.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-13"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Register",
+      "url": "https://www.jomrun.com/event/Kulai-Half-Marathon-2026-Powered-by-JomRun",
+      "type": "official_registration"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-13",
+  "status": "active"
+}

@@ -1,0 +1,59 @@
+{
+  "entity_id": "laguna-phuket-marathon-2027",
+  "slug": "laguna-phuket-marathon-2027",
+  "name": "Laguna Phuket Marathon 2027",
+  "category_id": "full-marathon",
+  "region_id": "thailand",
+  "short_description": "Laguna Phuket Marathon 2027 takes place June 12, 2027 in Ban Bang Thao, Phuket, Thailand.",
+  "ai_summary": "Laguna Phuket Marathon 2027 is a road running event in Ban Bang Thao, Phuket, Thailand, featuring Full Marathon (42.195KM), Half Marathon (21.0975KM), 10KM, 5KM, 2KM Junior. The race takes place on June 12, 2027, starting from Laguna Phuket, Ban Bang Thao. Registration is Priority registration open for 2026 finishers as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2027-06-12",
+    "distance_km": [
+      42.195,
+      21.098,
+      10.0,
+      5.0,
+      2.0
+    ],
+    "primary_distance_km": 42.195,
+    "registration_status": "Priority registration open for 2026 finishers",
+    "country": "Thailand",
+    "venue": "Laguna Phuket, Ban Bang Thao",
+    "city": "Ban Bang Thao, Phuket"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 78,
+  "tags": [
+    "full-marathon",
+    "thailand",
+    "verified"
+  ],
+  "source_mix": [
+    {
+      "url": "https://phuketmarathon.com",
+      "label": "Official race website",
+      "type": "official",
+      "last_checked": "2026-07-14"
+    },
+    {
+      "url": "https://official Instagram ('Save the Date — 12 & 13 June 2027')",
+      "label": "official Instagram ('Save the Date — 12 & 13 June 2027')",
+      "type": "aggregator",
+      "last_checked": "2026-07-14"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://phuketmarathon.com",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-14",
+  "status": "active"
+}

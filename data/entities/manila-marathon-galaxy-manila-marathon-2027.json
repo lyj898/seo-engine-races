@@ -1,0 +1,55 @@
+{
+  "entity_id": "manila-marathon-galaxy-manila-marathon-2027",
+  "slug": "manila-marathon-galaxy-manila-marathon-2027",
+  "name": "Manila Marathon (Galaxy Manila Marathon)",
+  "category_id": "full-marathon",
+  "region_id": "philippines",
+  "short_description": "Manila Marathon (Galaxy Manila Marathon) takes place June 12, 2027 in Pasay, Philippines.",
+  "ai_summary": "Manila Marathon (Galaxy Manila Marathon) is a road running event in Pasay, Philippines, featuring Full Marathon, Half Marathon. The race takes place on June 12, 2027, starting from SM Mall of Asia Complex, Pasay. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2027-06-12",
+    "distance_km": [
+      42.195,
+      21.1
+    ],
+    "primary_distance_km": 42.195,
+    "registration_status": "not_yet_announced",
+    "country": "Philippines",
+    "venue": "SM Mall of Asia Complex, Pasay",
+    "city": "Pasay"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 40,
+  "tags": [
+    "full-marathon",
+    "philippines"
+  ],
+  "source_mix": [
+    {
+      "url": "https://manilamarathon.ph",
+      "label": "Official race website",
+      "type": "official",
+      "last_checked": "2026-07-20"
+    },
+    {
+      "url": "https://www.marathonguide.com",
+      "label": "marathonguide.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://manilamarathon.ph",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-20",
+  "status": "active"
+}

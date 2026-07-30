@@ -1,0 +1,42 @@
+{
+  "entity_id": "pj-half-marathon-2026",
+  "slug": "pj-half-marathon-2026",
+  "name": "PJ Half Marathon 2026",
+  "category_id": "half-marathon",
+  "region_id": "malaysia",
+  "short_description": "PJ Half Marathon 2026 takes place September 6, 2026 in Petaling Jaya, Selangor, Malaysia.",
+  "ai_summary": "PJ Half Marathon 2026 is a road running event in Petaling Jaya, Selangor, Malaysia, featuring Half Marathon. The race takes place on September 6, 2026, starting from Laman MBPJ, Petaling Jaya. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-09-06",
+    "distance_km": [
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "registration_status": "Open",
+    "country": "Malaysia",
+    "venue": "Laman MBPJ, Petaling Jaya",
+    "city": "Petaling Jaya, Selangor"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 40,
+  "tags": [
+    "half-marathon",
+    "malaysia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.racexasia.com/events",
+      "label": "racexasia.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-14"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-14",
+  "status": "active"
+}

@@ -1,0 +1,55 @@
+{
+  "entity_id": "jitra-half-marathon-2026",
+  "slug": "jitra-half-marathon-2026",
+  "name": "Jitra Half Marathon 2026",
+  "category_id": "half-marathon",
+  "region_id": "malaysia",
+  "short_description": "Jitra Half Marathon 2026 takes place September 19, 2026 in Jitra, Kedah, Malaysia.",
+  "ai_summary": "Jitra Half Marathon 2026 is a road running event in Jitra, Kedah, Malaysia, featuring Half Marathon. The race takes place on September 19, 2026, starting from Darulaman Park, Jitra, Kedah. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-09-19",
+    "distance_km": [
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "registration_status": "Open",
+    "country": "Malaysia",
+    "venue": "Darulaman Park, Jitra, Kedah",
+    "city": "Jitra, Kedah"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 82,
+  "tags": [
+    "half-marathon",
+    "malaysia",
+    "verified"
+  ],
+  "source_mix": [
+    {
+      "url": "https://bdb.com.my/jitra-half-marathon-kembali-september-tahun-ini",
+      "label": "Official race website",
+      "type": "official",
+      "last_checked": "2026-07-13"
+    },
+    {
+      "url": "https://checkpointspot.asia/events",
+      "label": "checkpointspot.asia",
+      "type": "aggregator",
+      "last_checked": "2026-07-13"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://bdb.com.my/jitra-half-marathon-kembali-september-tahun-ini",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-13",
+  "status": "active"
+}

@@ -1,0 +1,64 @@
+{
+  "entity_id": "merumatta-half-marathon-2026",
+  "slug": "merumatta-half-marathon-2026",
+  "name": "Merumatta Half Marathon 2026",
+  "category_id": "half-marathon",
+  "region_id": "indonesia",
+  "short_description": "Merumatta Half Marathon 2026 takes place October 18, 2026 in Senggigi, Lombok Barat, NTB, Indonesia.",
+  "ai_summary": "Merumatta Half Marathon 2026 is a road running event in Senggigi, Lombok Barat, NTB, Indonesia, featuring Half Marathon; 10km; 5km; 2.5km. The race takes place on October 18, 2026, starting from Merumatta Hotel, Senggigi, Lombok Barat, NTB. Registration is Not Yet Announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-10-18",
+    "distance_km": [
+      21.1,
+      10.0,
+      5.0,
+      2.5
+    ],
+    "primary_distance_km": 21.1,
+    "registration_status": "Not Yet Announced",
+    "country": "Indonesia",
+    "venue": "Merumatta Hotel, Senggigi, Lombok Barat, NTB",
+    "city": "Senggigi, Lombok Barat, NTB"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 82,
+  "tags": [
+    "half-marathon",
+    "indonesia",
+    "verified"
+  ],
+  "source_mix": [
+    {
+      "url": "https://merumatta-halfmarathon.com",
+      "label": "Official race website",
+      "type": "official",
+      "last_checked": "2026-07-13"
+    },
+    {
+      "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
+      "label": "kalenderlari.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-13"
+    },
+    {
+      "url": "https://kalenderlari.com/events/merumatta-half-marathon-2026/",
+      "label": "kalenderlari.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-13"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://merumatta-halfmarathon.com",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-13",
+  "status": "active"
+}

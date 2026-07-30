@@ -1,0 +1,50 @@
+{
+  "entity_id": "pahang-marathon-2026",
+  "slug": "pahang-marathon-2026",
+  "name": "Pahang Marathon 2026",
+  "category_id": "full-marathon",
+  "region_id": "malaysia",
+  "short_description": "Pahang Marathon 2026 takes place September 6, 2026 in Kuantan, Pahang, Malaysia.",
+  "ai_summary": "Pahang Marathon 2026 is a road running event in Kuantan, Pahang, Malaysia, featuring Full Marathon; Half Marathon. The race takes place on September 6, 2026, starting from Dataran Sayangi Kuantan, Pahang. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-09-06",
+    "distance_km": [
+      42.195,
+      21.1
+    ],
+    "primary_distance_km": 42.195,
+    "registration_status": "Open",
+    "country": "Malaysia",
+    "venue": "Dataran Sayangi Kuantan, Pahang",
+    "city": "Kuantan, Pahang",
+    "organizer": "Persatuan Orang Muda Pahang KL (POMPKL) & Kita Pelari Malaysia, with Pure Events"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 55,
+  "tags": [
+    "full-marathon",
+    "malaysia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://checkpointspot.asia/events",
+      "label": "checkpointspot.asia",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Register",
+      "url": "https://checkpointspot.asia/events",
+      "type": "official_registration"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-20",
+  "status": "active"
+}

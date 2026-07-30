@@ -1,0 +1,51 @@
+{
+  "entity_id": "locomotive-half-marathon-2026",
+  "slug": "locomotive-half-marathon-2026",
+  "name": "Locomotive Half Marathon 2026",
+  "category_id": "half-marathon",
+  "region_id": "indonesia",
+  "short_description": "Locomotive Half Marathon 2026 takes place September 20, 2026 in Bandar Lampung, Lampung, Indonesia.",
+  "ai_summary": "Locomotive Half Marathon 2026 is a road running event in Bandar Lampung, Lampung, Indonesia, featuring Half Marathon (21K); 10K; 5K. The race takes place on September 20, 2026, starting from Bandar Lampung (exact start point not yet announced). Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-09-20",
+    "distance_km": [
+      21.1,
+      10.0,
+      5.0
+    ],
+    "primary_distance_km": 21.1,
+    "registration_status": "Open",
+    "country": "Indonesia",
+    "venue": "Bandar Lampung (exact start point not yet announced)",
+    "city": "Bandar Lampung, Lampung",
+    "organizer": "PT Kereta Api Indonesia (KAI), executed by RAW Organizer / Runaway Lampung"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 62,
+  "tags": [
+    "half-marathon",
+    "indonesia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://tiptip.id/event/4bc2013e-5ac3-4c05-9049-13fb758ce766",
+      "label": "tiptip.id",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Register",
+      "url": "https://tiptip.id/event/4bc2013e-5ac3-4c05-9049-13fb758ce766",
+      "type": "official_registration"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-20",
+  "status": "active"
+}

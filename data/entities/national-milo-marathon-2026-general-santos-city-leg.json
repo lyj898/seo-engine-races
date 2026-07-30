@@ -1,0 +1,64 @@
+{
+  "entity_id": "national-milo-marathon-2026-general-santos-city-leg",
+  "slug": "national-milo-marathon-2026-general-santos-city-leg",
+  "name": "National MILO Marathon 2026 – General Santos City Leg",
+  "category_id": "half-marathon",
+  "region_id": "philippines",
+  "short_description": "National MILO Marathon 2026 – General Santos City Leg takes place August 9, 2026 in General Santos City, Philippines.",
+  "ai_summary": "National MILO Marathon 2026 – General Santos City Leg is a road running event in General Santos City, Philippines, featuring 21K Half Marathon (provincial qualifier); 10K; 5K; 3K. The race takes place on August 9, 2026, starting from General Santos City. Registration is Not yet confirmed open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-08-09",
+    "distance_km": [
+      21.1,
+      10.0,
+      5.0,
+      3.0
+    ],
+    "primary_distance_km": 21.1,
+    "registration_status": "Not yet confirmed open",
+    "country": "Philippines",
+    "venue": "General Santos City",
+    "city": "General Santos City",
+    "organizer": "RUNRIO Inc. (MILO Marathon)"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 65,
+  "tags": [
+    "half-marathon",
+    "philippines"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.milo.com.ph/national-milo-marathon",
+      "label": "Official race website",
+      "type": "official",
+      "last_checked": "2026-07-20"
+    },
+    {
+      "url": "https://www.milo.com.ph/sites/default/files/2026-01/2026_nmm_race_calendar.jpg",
+      "label": "milo.com.ph",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    },
+    {
+      "url": "https://www.pinoyfitness.com/list-of-events/",
+      "label": "pinoyfitness.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://www.milo.com.ph/national-milo-marathon",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-20",
+  "status": "active"
+}

@@ -1,0 +1,52 @@
+{
+  "entity_id": "pos-malaysia-run-2026",
+  "slug": "pos-malaysia-run-2026",
+  "name": "Pos Malaysia Run 2026",
+  "category_id": "half-marathon",
+  "region_id": "malaysia",
+  "short_description": "Pos Malaysia Run 2026 takes place November 29, 2026 in Kuala Lumpur, Malaysia.",
+  "ai_summary": "Pos Malaysia Run 2026 is a road running event in Kuala Lumpur, Malaysia, featuring 21KM Half Marathon (Open/Veteran); 10KM; 5.5KM Fun Run. The race takes place on November 29, 2026, starting from Dataran Merdeka, Kuala Lumpur. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-11-29",
+    "distance_km": [
+      21.0,
+      10.0,
+      5.5
+    ],
+    "primary_distance_km": 21.1,
+    "registration_status": "Open",
+    "country": "Malaysia",
+    "venue": "Dataran Merdeka, Kuala Lumpur",
+    "city": "Kuala Lumpur",
+    "organizer": "Pos Malaysia",
+    "price_range": "MYR 21K RM118-138 / 10K RM88-108 / 5.5K RM68-88"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 62,
+  "tags": [
+    "half-marathon",
+    "malaysia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.racexasia.com/event/pos-malaysia-run-2026-posm26",
+      "label": "racexasia.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Register",
+      "url": "https://www.racexasia.com/event/pos-malaysia-run-2026-posm26",
+      "type": "official_registration"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-20",
+  "status": "active"
+}

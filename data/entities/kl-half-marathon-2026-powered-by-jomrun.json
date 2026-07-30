@@ -1,0 +1,57 @@
+{
+  "entity_id": "kl-half-marathon-2026-powered-by-jomrun",
+  "slug": "kl-half-marathon-2026-powered-by-jomrun",
+  "name": "KL Half Marathon 2026 Powered By JomRun®",
+  "category_id": "10k",
+  "region_id": "malaysia",
+  "short_description": "KL Half Marathon 2026 Powered By JomRun® takes place August 16, 2026 in Kuala Lumpur, Malaysia.",
+  "ai_summary": "KL Half Marathon 2026 Powered By JomRun® is a road running event in Kuala Lumpur, Malaysia, featuring 21.1KM Competitive & Non-Competitive Run (RFID-timed); 10KM Fun Run; 5KM Fun Run. The race takes place on August 16, 2026, starting from Padang Merbok, Kuala Lumpur (flag-off 03:30 AM). Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-08-16",
+    "distance_km": [
+      21.1,
+      10.0,
+      5.0
+    ],
+    "primary_distance_km": 21.1,
+    "registration_status": "Open",
+    "country": "Malaysia",
+    "venue": "Padang Merbok, Kuala Lumpur (flag-off 03:30 AM)",
+    "city": "Kuala Lumpur",
+    "organizer": "JomRun"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 48,
+  "tags": [
+    "10k",
+    "malaysia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.jomrun.com/event/KL-Half-Marathon-2026-Powered-By-JomRun",
+      "label": "jomrun.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    },
+    {
+      "url": "https://www.jomrun.com/event/Malaysia-Negaraku-Run-powered-by-JomRun-Kuala-Lumpur",
+      "label": "jomrun.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Register",
+      "url": "https://www.jomrun.com/event/KL-Half-Marathon-2026-Powered-By-JomRun",
+      "type": "official_registration"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-20",
+  "status": "active"
+}

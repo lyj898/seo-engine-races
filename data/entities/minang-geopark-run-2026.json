@@ -1,0 +1,76 @@
+{
+  "entity_id": "minang-geopark-run-2026",
+  "slug": "minang-geopark-run-2026",
+  "name": "Minang Geopark Run 2026",
+  "category_id": "half-marathon",
+  "region_id": "indonesia",
+  "short_description": "Minang Geopark Run 2026 takes place November 1, 2026 in Bukittinggi, Sumatera Barat, Indonesia.",
+  "ai_summary": "Minang Geopark Run 2026 is a road running event in Bukittinggi, Sumatera Barat, Indonesia, featuring 5K; 10K; 21K Half Marathon. The race takes place on November 1, 2026, starting from Jam Gadang / Ngarai Sianok area, Bukittinggi. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2026-11-01",
+    "distance_km": [
+      5.0,
+      10.0,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "registration_status": "Open",
+    "country": "Indonesia",
+    "venue": "Jam Gadang / Ngarai Sianok area, Bukittinggi",
+    "city": "Bukittinggi, Sumatera Barat",
+    "organizer": "Geopark Run Series"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 78,
+  "tags": [
+    "half-marathon",
+    "indonesia",
+    "verified"
+  ],
+  "source_mix": [
+    {
+      "url": "https://geoparkrun.com",
+      "label": "Official race website",
+      "type": "official",
+      "last_checked": "2026-07-20"
+    },
+    {
+      "url": "https://geoparkrun.com/faq",
+      "label": "geoparkrun.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    },
+    {
+      "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
+      "label": "kalenderlari.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    },
+    {
+      "url": "https://www.suara.com",
+      "label": "suara.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    },
+    {
+      "url": "https://mediaindonesia.com",
+      "label": "mediaindonesia.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-20"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://geoparkrun.com",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-20",
+  "status": "active"
+}

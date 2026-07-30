@@ -1,0 +1,68 @@
+{
+  "entity_id": "miri-marathon-2027",
+  "slug": "miri-marathon-2027",
+  "name": "Miri Marathon 2027",
+  "category_id": "full-marathon",
+  "region_id": "malaysia",
+  "short_description": "Miri Marathon 2027 takes place April 11, 2027 in Miri, Sarawak, Malaysia.",
+  "ai_summary": "Miri Marathon 2027 is a road running event in Miri, Sarawak, Malaysia, featuring Full Marathon; Half Marathon; 10km. The race takes place on April 11, 2027, starting from Miri, Sarawak. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2027-04-11",
+    "distance_km": [
+      42.195,
+      21.1,
+      10.0
+    ],
+    "primary_distance_km": 42.195,
+    "registration_status": "not_yet_announced",
+    "country": "Malaysia",
+    "venue": "Miri, Sarawak",
+    "city": "Miri, Sarawak"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 65,
+  "tags": [
+    "full-marathon",
+    "malaysia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://marathonmiri.com",
+      "label": "Official race website",
+      "type": "official",
+      "last_checked": "2026-07-16"
+    },
+    {
+      "url": "https://aims-worldrunning.org/calendar.html",
+      "label": "aims-worldrunning.org",
+      "type": "aggregator",
+      "last_checked": "2026-07-16"
+    },
+    {
+      "url": "https://running.coach",
+      "label": "running.coach",
+      "type": "aggregator",
+      "last_checked": "2026-07-16"
+    },
+    {
+      "url": "https://statathon.com",
+      "label": "statathon.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-16"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://marathonmiri.com",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-16",
+  "status": "active"
+}

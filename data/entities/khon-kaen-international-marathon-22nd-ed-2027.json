@@ -1,0 +1,56 @@
+{
+  "entity_id": "khon-kaen-international-marathon-22nd-ed-2027",
+  "slug": "khon-kaen-international-marathon-22nd-ed-2027",
+  "name": "Khon Kaen International Marathon (22nd ed.)",
+  "category_id": "full-marathon",
+  "region_id": "thailand",
+  "short_description": "Khon Kaen International Marathon (22nd ed.) takes place January 10, 2027 in Khon Kaen, Thailand.",
+  "ai_summary": "Khon Kaen International Marathon (22nd ed.) is a road running event in Khon Kaen, Thailand, featuring Full Marathon; Half Marathon; Mini Marathon; Fun Walk. The race takes place on January 10, 2027, starting from Khon Kaen. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "core_facts": {
+    "date": "2027-01-10",
+    "distance_km": [
+      42.195,
+      21.1
+    ],
+    "primary_distance_km": 42.195,
+    "registration_status": "not_yet_announced",
+    "country": "Thailand",
+    "venue": "Khon Kaen",
+    "city": "Khon Kaen"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "faqs": [],
+  "reliability_score": 80,
+  "tags": [
+    "full-marathon",
+    "thailand",
+    "verified"
+  ],
+  "source_mix": [
+    {
+      "url": "https://khonkaenmarathon.com",
+      "label": "Official race website",
+      "type": "official",
+      "last_checked": "2026-07-16"
+    },
+    {
+      "url": "https://aims-worldrunning.org/calendar.html",
+      "label": "aims-worldrunning.org",
+      "type": "aggregator",
+      "last_checked": "2026-07-16"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://khonkaenmarathon.com",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-16",
+  "status": "active"
+}
