@@ -33,12 +33,19 @@ const subject = `New message from ${siteConfig.siteName}${siteConfig.siteDomain 
 
     <div
       id="contact-overlay"
-      class="fixed inset-0 z-50 hidden items-center justify-center bg-black/55 p-4 backdrop-blur-sm"
+      class="fixed inset-0 z-50 hidden items-start justify-center overflow-y-auto bg-black/55 p-4 backdrop-blur-sm"
       role="dialog"
       aria-modal="true"
       aria-labelledby="contact-heading"
     >
-      <div class="w-full max-w-[480px] overflow-hidden rounded-xl bg-brand-surface shadow-2xl dark:bg-brand-surface-dark">
+      <!--
+        `my-auto` + the overlay's `items-start overflow-y-auto` centers the
+        panel when it fits and lets it scroll from the top when it doesn't.
+        Plain `items-center` would overflow equally in both directions on a
+        short viewport, pushing the heading and close button off-screen
+        where they can't be scrolled back into reach.
+      -->
+      <div class="my-auto w-full max-w-[480px] overflow-hidden rounded-xl bg-brand-surface shadow-2xl dark:bg-brand-surface-dark">
         <div class="relative bg-brand-text px-6 py-5 text-brand-bg dark:bg-brand-surface-offset-dark dark:text-brand-text-dark">
           <h2 id="contact-heading" class="font-serif text-xl font-bold">Get in touch</h2>
           <p class="mt-1 text-sm opacity-80">
@@ -113,6 +120,7 @@ const subject = `New message from ${siteConfig.siteName}${siteConfig.siteDomain 
     function open() {
       overlay.classList.remove('hidden');
       overlay.classList.add('flex');
+      document.documentElement.style.overflow = 'hidden';
       var first = document.getElementById('contact-name');
       if (first) first.focus();
     }
@@ -120,6 +128,7 @@ const subject = `New message from ${siteConfig.siteName}${siteConfig.siteDomain 
     function close() {
       overlay.classList.add('hidden');
       overlay.classList.remove('flex');
+      document.documentElement.style.overflow = '';
     }
 
     function setStatus(message, ok) {
