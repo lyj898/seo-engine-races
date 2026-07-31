@@ -1,14 +1,14 @@
 ---
 import siteConfig from '../../lib/config.js';
 import { urls } from '../../lib/urls.js';
-import { loadEntities, loadRegions, stripMeta, buildRegionAncestryMap } from '../../lib/data.js';
+import { loadEntities, loadRegions, stripMeta, buildRegionAncestryMap, isPublished } from '../../lib/data.js';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import HubCard from '../../components/HubCard.astro';
 import { buildBreadcrumbListSchema } from '../../lib/schema-jsonld.js';
 
-const regions = loadRegions().map(stripMeta).filter((r) => r.status === 'active');
-const entities = loadEntities().map(stripMeta).filter((e) => e.status === 'active');
+const regions = loadRegions().map(stripMeta).filter(isPublished);
+const entities = loadEntities().map(stripMeta).filter(isPublished);
 const ancestryMap = buildRegionAncestryMap(regions);
 
 // Only top-level regions here -- child regions are reached by drilling down

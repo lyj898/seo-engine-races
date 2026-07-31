@@ -1,7 +1,7 @@
 ---
 import siteConfig from '../../lib/config.js';
 import { urls } from '../../lib/urls.js';
-import { loadEntities, loadRegions, loadCategories, stripMeta, buildRegionAncestryMap } from '../../lib/data.js';
+import { loadEntities, loadRegions, loadCategories, stripMeta, buildRegionAncestryMap, isPublished } from '../../lib/data.js';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import StatsSummary from '../../components/StatsSummary.astro';
@@ -20,7 +20,7 @@ export function getStaticPaths() {
 }
 
 const { region } = Astro.props;
-const allEntities = loadEntities().map(stripMeta).filter((e) => e.status === 'active');
+const allEntities = loadEntities().map(stripMeta).filter(isPublished);
 const allRegions = loadRegions().map(stripMeta);
 const allCategories = loadCategories().map(stripMeta);
 const ancestryMap = buildRegionAncestryMap(allRegions);
