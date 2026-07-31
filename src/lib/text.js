@@ -74,6 +74,26 @@ export function humanizeStatus(status) {
 }
 
 /**
+ * Is a free-text status value actually a "we don't know" placeholder rather
+ * than real information? Seed/migration passes commonly fill an unknown
+ * status field with a stand-in like "not_yet_announced", "TBA" or "unknown"
+ * instead of leaving it empty -- rendering those verbatim tells a visitor
+ * nothing and actively misleads (an event happening this weekend showing
+ * "Not Yet Announced" reads as a data error, because it is one).
+ *
+ * Deliberately anchored (^...$) so it only catches a status that is *only*
+ * the placeholder: a genuinely informative status that happens to contain
+ * one of these phrases -- "Not yet confirmed open", "Opens 8 Jul 2026" --
+ * is real information and still displays.
+ */
+const UNKNOWN_STATUS_RE = /^(not[\s_-]*yet[\s_-]*announced|to[\s_-]*be[\s_-]*announced|tba|tbc|tbd|unknown|unconfirmed|none|n\/?a)$/i;
+
+export function isUnknownStatus(status) {
+  if (typeof status !== 'string') return true;
+  return !status.trim() || UNKNOWN_STATUS_RE.test(status.trim());
+}
+
+/**
  * Heuristic: does a free-text registration_status string suggest
  * registration is currently open? Used only by the optional "open for
  * registration" filter -- a false negative just leaves a race out of a
