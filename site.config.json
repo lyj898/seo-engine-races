@@ -68,10 +68,10 @@
     }
   },
 
-  "_listicleConfig_note": "minEntities is the floor below which a category x country guide isn't worth a page -- a three-item 'best of' reads as thin and drags on the domain rather than helping it. perRunLimit spreads guide creation over several weeks instead of publishing dozens at once.",
+  "_listicleConfig_note": "minEntities is the floor below which a category x country guide isn't worth a page -- a three-item 'best of' reads as thin and drags on the domain rather than helping it. perRunLimit deliberately drips: ~27 combinations currently qualify, and publishing them in one week looks like a content dump to search engines and is more than anyone will actually proofread. 5/week clears the backlog over about five weeks while staying reviewable.",
   "listicleConfig": {
     "minEntities": 4,
-    "perRunLimit": 10
+    "perRunLimit": 5
   },
 
   "enabledFeatures": {
@@ -126,7 +126,13 @@
       "https://www.finishers.com/en/destinations/asia/philippines",
       "https://www.finishers.com/en/destinations/asia/malaysia",
       "https://www.finishers.com/en/destinations/asia/singapore",
-      "https://www.finishers.com/en/destinations/asia/cambodia"
+      "https://www.finishers.com/en/destinations/asia/cambodia",
+      "https://www.justrunlah.com/calendar-of-running-events-singapore/",
+      "https://www.justrunlah.com/running-events-calendar-malaysia/",
+      "https://www.justrunlah.com/running-events-calendar-philippines/",
+      "https://www.justrunlah.com/running-events-calendar-thailand/",
+      "https://www.justrunlah.com/running-events-calendar-indonesia/",
+      "https://www.justrunlah.com/running-events-calendar-vietnam/"
     ]
   },
 
