@@ -59,10 +59,30 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
+      - name: Research entities on the web
+        run: npm run research
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        # Gathers first-hand commentary (quotes, highlights, caveats,
+        # sentiment) that the aggregator sources don't carry, so the summary
+        # step below has something to write from beyond date/distance/venue.
+        # Rate-limited by sourceConfig.researchPerRunLimit and only re-runs
+        # an entity after researchIntervalDays, so weekly cost stays flat
+        # rather than scaling with the size of the directory.
+
       - name: Generate AI summaries
         run: npm run summaries
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      - name: Generate Best Of guides
+        run: npm run listicles
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        # Creates a guide for any category x country combination that has
+        # crossed the minimum-entries threshold since last week. New guides
+        # land as status: draft, so they appear in the PR for a read-through
+        # before they can go live. Existing guides are never overwritten.
 
       - name: Validate data (post-run)
         run: npm run validate
