@@ -7,6 +7,8 @@
 
   "entityLabelSingular": "race",
   "entityLabelPlural": "races",
+  "_entityUrlSegment_note": "Kept as the singular 'race' to match the URL shape of the previous runsea.run site (/race/<slug>/), which Google has already indexed. Changing it to 'races' would 404 every indexed result.",
+  "entityUrlSegment": "race",
   "categoryLabel": "Distance Type",
   "categoryLabelPlural": "Distance Types",
   "regionLabel": "Country",
