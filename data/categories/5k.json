@@ -11,6 +11,8 @@
       "answer": "A 5K race is 5 kilometers (about 3.1 miles) long, a standardized distance used consistently across road races worldwide. It's often the shortest distance offered at multi-distance race festivals, making it a popular choice for beginners or those wanting a shorter race day."
     }
   ],
+  "matchRange": [0, 7],
+  "badgeVariant": "neutral",
   "last_updated": "2026-07-29",
   "status": "active"
 }

@@ -11,6 +11,8 @@
       "answer": "A 10K race is 10 kilometers (about 6.2 miles) long, a standardized distance used consistently across road races worldwide. It's commonly offered alongside half and full marathon distances at the same event, giving runners a shorter option on the same course."
     }
   ],
+  "matchRange": [7, 15],
+  "badgeVariant": "neutral",
   "last_updated": "2026-07-29",
   "status": "active"
 }
