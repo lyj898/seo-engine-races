@@ -121,8 +121,13 @@ const subject = `New message from ${siteConfig.siteName}${siteConfig.siteDomain 
       overlay.classList.remove('hidden');
       overlay.classList.add('flex');
       document.documentElement.style.overflow = 'hidden';
+      overlay.scrollTop = 0;
+      // preventScroll matters here: the overlay is itself a scroll container
+      // (so a tall form stays reachable), and a plain .focus() makes the
+      // browser scroll that container to reveal the field -- which pushes
+      // the modal's heading and close button up out of view.
       var first = document.getElementById('contact-name');
-      if (first) first.focus();
+      if (first) first.focus({ preventScroll: true });
     }
 
     function close() {
