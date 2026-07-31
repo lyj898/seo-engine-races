@@ -1,0 +1,181 @@
+---
+import siteConfig from '../lib/config.js';
+
+// Header "get in touch" affordance: a mail icon that opens a small modal
+// contact form. Posts to FormSubmit's AJAX endpoint, which turns a plain
+// static site into one that can receive mail without any backend, secret or
+// build-time key -- the only configuration is the destination address.
+//
+// site.config.json.contactFormEmail is the FormSubmit-activated inbox that
+// actually receives submissions; it falls back to contactEmail so a vertical
+// instance that uses one address for both doesn't need the extra key. If
+// neither is set the whole component renders nothing, so an instance without
+// a contact inbox simply doesn't show the button.
+const contactEmail = siteConfig.contactFormEmail ?? siteConfig.contactEmail ?? '';
+const endpoint = contactEmail ? `https://formsubmit.co/ajax/${contactEmail}` : '';
+const subject = `New message from ${siteConfig.siteName}${siteConfig.siteDomain ? ` (${siteConfig.siteDomain})` : ''}`;
+---
+
+{contactEmail && (
+  <>
+    <button
+      id="contact-toggle"
+      type="button"
+      aria-label="Contact us / send feedback"
+      aria-haspopup="dialog"
+      class="flex h-[38px] w-[38px] items-center justify-center rounded-full border border-brand-border transition-colors duration-200 ease-interactive hover:bg-brand-surface-offset dark:border-brand-border-dark dark:hover:bg-brand-surface-offset-dark"
+    >
+      <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <rect x="2" y="4" width="20" height="16" rx="2" />
+        <path d="m22 6-10 7L2 6" />
+      </svg>
+    </button>
+
+    <div
+      id="contact-overlay"
+      class="fixed inset-0 z-50 hidden items-center justify-center bg-black/55 p-4 backdrop-blur-sm"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="contact-heading"
+    >
+      <div class="w-full max-w-[480px] overflow-hidden rounded-xl bg-brand-surface shadow-2xl dark:bg-brand-surface-dark">
+        <div class="relative bg-brand-text px-6 py-5 text-brand-bg dark:bg-brand-surface-offset-dark dark:text-brand-text-dark">
+          <h2 id="contact-heading" class="font-serif text-xl font-bold">Get in touch</h2>
+          <p class="mt-1 text-sm opacity-80">
+            Spotted an error, missing {siteConfig.entityLabelSingular}, or have a question? Send us a note.
+          </p>
+          <button
+            type="button"
+            id="contact-close"
+            aria-label="Close"
+            class="absolute right-4 top-4 flex h-8 w-8 items-center justify-center rounded-full bg-white/15 text-lg leading-none transition-colors hover:bg-white/25"
+          >
+            &times;
+          </button>
+        </div>
+
+        <form id="contact-form" class="space-y-4 p-6" data-endpoint={endpoint} data-subject={subject}>
+          <div>
+            <label for="contact-name" class="mb-1.5 block text-sm font-semibold">Name</label>
+            <input
+              type="text"
+              id="contact-name"
+              name="name"
+              required
+              class="w-full rounded-lg border-[1.5px] border-brand-border bg-brand-bg px-3.5 py-2.5 text-sm focus:border-brand-primary focus:outline-none dark:border-brand-border-dark dark:bg-brand-bg-dark"
+            />
+          </div>
+          <div>
+            <label for="contact-email" class="mb-1.5 block text-sm font-semibold">Your email</label>
+            <input
+              type="email"
+              id="contact-email"
+              name="email"
+              required
+              class="w-full rounded-lg border-[1.5px] border-brand-border bg-brand-bg px-3.5 py-2.5 text-sm focus:border-brand-primary focus:outline-none dark:border-brand-border-dark dark:bg-brand-bg-dark"
+            />
+          </div>
+          <div>
+            <label for="contact-message" class="mb-1.5 block text-sm font-semibold">Message</label>
+            <textarea
+              id="contact-message"
+              name="message"
+              rows="4"
+              required
+              class="w-full resize-y rounded-lg border-[1.5px] border-brand-border bg-brand-bg px-3.5 py-2.5 text-sm focus:border-brand-primary focus:outline-none dark:border-brand-border-dark dark:bg-brand-bg-dark"
+            ></textarea>
+          </div>
+          <p id="contact-status" class="hidden text-sm font-semibold"></p>
+          <button
+            type="submit"
+            id="contact-submit"
+            class="w-full rounded-lg bg-brand-primary px-4 py-3 font-bold text-brand-primary-ink transition-colors hover:bg-brand-primary-hover disabled:opacity-60 dark:text-brand-primary-ink-dark"
+          >
+            Send message
+          </button>
+        </form>
+      </div>
+    </div>
+  </>
+)}
+
+<script is:inline>
+  (function () {
+    var toggle = document.getElementById('contact-toggle');
+    var overlay = document.getElementById('contact-overlay');
+    var form = document.getElementById('contact-form');
+    if (!toggle || !overlay || !form) return;
+
+    var closeBtn = document.getElementById('contact-close');
+    var statusEl = document.getElementById('contact-status');
+    var submitBtn = document.getElementById('contact-submit');
+
+    function open() {
+      overlay.classList.remove('hidden');
+      overlay.classList.add('flex');
+      var first = document.getElementById('contact-name');
+      if (first) first.focus();
+    }
+
+    function close() {
+      overlay.classList.add('hidden');
+      overlay.classList.remove('flex');
+    }
+
+    function setStatus(message, ok) {
+      if (!statusEl) return;
+      statusEl.textContent = message;
+      statusEl.classList.toggle('hidden', !message);
+      statusEl.classList.toggle('text-brand-success', !!ok);
+      statusEl.classList.toggle('text-brand-error', !ok);
+    }
+
+    toggle.addEventListener('click', open);
+    if (closeBtn) closeBtn.addEventListener('click', close);
+    // Click the dimmed backdrop (but not the panel itself) to dismiss.
+    overlay.addEventListener('click', function (event) {
+      if (event.target === overlay) close();
+    });
+    document.addEventListener('keydown', function (event) {
+      if (event.key === 'Escape' && !overlay.classList.contains('hidden')) close();
+    });
+
+    form.addEventListener('submit', function (event) {
+      event.preventDefault();
+      var endpoint = form.dataset.endpoint;
+      if (!endpoint) return;
+
+      setStatus('', true);
+      if (submitBtn) {
+        submitBtn.disabled = true;
+        submitBtn.textContent = 'Sending...';
+      }
+
+      fetch(endpoint, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify({
+          name: document.getElementById('contact-name').value,
+          email: document.getElementById('contact-email').value,
+          message: document.getElementById('contact-message').value,
+          _subject: form.dataset.subject,
+          _template: 'table',
+        }),
+      })
+        .then(function (res) {
+          if (!res.ok) throw new Error('Request failed');
+          form.reset();
+          setStatus('Thanks -- your message is on its way.', true);
+        })
+        .catch(function () {
+          setStatus('Something went wrong. Please try again in a moment.', false);
+        })
+        .finally(function () {
+          if (submitBtn) {
+            submitBtn.disabled = false;
+            submitBtn.textContent = 'Send message';
+          }
+        });
+    });
+  })();
+</script>

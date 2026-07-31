@@ -2,6 +2,7 @@
 import siteConfig from '../lib/config.js';
 import { urls } from '../lib/urls.js';
 import Logo from './Logo.astro';
+import ContactButton from './ContactButton.astro';
 import ThemeToggle from './ThemeToggle.astro';
 ---
 
@@ -21,6 +22,9 @@ import ThemeToggle from './ThemeToggle.astro';
       )}
       <a href={urls.about()} class="hover:underline underline-offset-2">About</a>
     </nav>
-    <ThemeToggle />
+    <div class="flex items-center gap-2">
+      <ContactButton />
+      <ThemeToggle />
+    </div>
   </div>
 </header>

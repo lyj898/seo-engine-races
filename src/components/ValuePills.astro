@@ -10,22 +10,48 @@ import { matchCategoryByValue } from '../lib/categoryMatch.js';
 // vertical with a numeric core_facts array bucketed by category (races'
 // distance_km today; a duration or price-tier array for another vertical
 // tomorrow) -- no vertical vocabulary lives here.
-const { values = [], categories = [], unit = '', maxDecimals = 1, class: className = '' } = Astro.props;
+// `sort`: 'desc' (default) | 'asc' | 'none'. Source data arrays arrive in
+// whatever order the original page listed them, which is inconsistent
+// entity-to-entity; sorting at render time gives every card the same
+// reading order without mutating the data. 'desc' puts the headline value
+// first (for races: the marathon before the 5K).
+const {
+  values = [],
+  categories = [],
+  unit = '',
+  maxDecimals = 1,
+  sort = 'desc',
+  class: className = '',
+} = Astro.props;
+
+const orderedValues =
+  sort === 'none' ? values : [...values].sort((a, b) => (sort === 'asc' ? a - b : b - a));
 
 function formatValue(v) {
   const factor = 10 ** maxDecimals;
   return String(Math.round(v * factor) / factor);
 }
+
+// "5K (5km)" is noise -- the label already states the number. So the value
+// is only appended when the label doesn't already contain it ("Half
+// Marathon" says nothing about 21.1, so that one keeps its parenthetical).
+// Comparing digits-only makes this independent of how a label punctuates
+// them ("5K", "5 km", "5-K" all match the value 5).
+function labelStatesValue(label, formatted) {
+  return String(label).replace(/[^\d.]/g, '').includes(formatted);
+}
 ---
 
-{values.length > 0 && (
+{orderedValues.length > 0 && (
   <div class:list={['flex flex-wrap gap-1.5', className]}>
-    {values.map((v) => {
+    {orderedValues.map((v) => {
+      const formatted = formatValue(v);
       const match = matchCategoryByValue(v, categories);
-      return match ? (
-        <Pill variant={match.badgeVariant}>{match.label} ({formatValue(v)}{unit})</Pill>
-      ) : (
-        <Pill variant="neutral">{formatValue(v)}{unit}</Pill>
+      if (!match) return <Pill variant="neutral">{formatted}{unit}</Pill>;
+      return (
+        <Pill variant={match.badgeVariant}>
+          {labelStatesValue(match.label, formatted) ? match.label : `${match.label} (${formatted}${unit})`}
+        </Pill>
       );
     })}
   </div>

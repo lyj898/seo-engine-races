@@ -4,6 +4,8 @@
 // -> "Distance Km") unless a nicer label is supplied via the `labels` prop
 // (e.g. { distance_km: "Distance (km)" }). Empty/null/undefined values are
 // dropped rather than shown as blank rows.
+import { humanizeStatus, isUnknownStatus } from '../lib/text.js';
+
 const { facts = {}, labels = {} } = Astro.props;
 
 function titleize(key) {
@@ -12,8 +14,22 @@ function titleize(key) {
 
 function formatValue(value) {
   if (value === null || value === undefined || value === '') return null;
-  if (Array.isArray(value)) return value.length ? value.join(', ') : null;
+  if (Array.isArray(value)) {
+    if (!value.length) return null;
+    // Numeric arrays (races' distance_km, any vertical's numeric core fact)
+    // arrive in whatever order the source listed them; show them largest
+    // first so every row reads consistently.
+    const ordered = value.every((v) => typeof v === 'number') ? [...value].sort((a, b) => b - a) : value;
+    return ordered.join(', ');
+  }
   if (typeof value === 'boolean') return value ? 'Yes' : 'No';
+  if (typeof value === 'string') {
+    // A placeholder like "not_yet_announced" is the absence of a fact, not a
+    // fact -- drop the row entirely rather than print a non-answer. Real
+    // values get the snake_case -> "Sentence Case" tidy-up.
+    if (isUnknownStatus(value)) return null;
+    return humanizeStatus(value);
+  }
   return String(value);
 }
 
