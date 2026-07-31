@@ -1,14 +1,14 @@
 ---
 import siteConfig from '../../lib/config.js';
 import { urls } from '../../lib/urls.js';
-import { loadEntities, loadCategories, stripMeta } from '../../lib/data.js';
+import { loadEntities, loadCategories, stripMeta, isPublished } from '../../lib/data.js';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import HubCard from '../../components/HubCard.astro';
 import { buildBreadcrumbListSchema } from '../../lib/schema-jsonld.js';
 
-const categories = loadCategories().map(stripMeta).filter((c) => c.status === 'active');
-const entities = loadEntities().map(stripMeta).filter((e) => e.status === 'active');
+const categories = loadCategories().map(stripMeta).filter(isPublished);
+const entities = loadEntities().map(stripMeta).filter(isPublished);
 
 const breadcrumbItems = [
   { label: siteConfig.siteName, href: urls.home() },
