@@ -14,7 +14,7 @@
       5.5
     ],
     "primary_distance_km": 21.1,
-    "organizer": "Pos Malaysia",
+    "organizer": "Pos Malaysia Berhad",
     "registration_status": "Open",
     "price_range": "MYR 21K RM118-138 / 10K RM88-108 / 5.5K RM68-88",
     "venue": "Dataran Merdeka, Kuala Lumpur",
@@ -72,5 +72,5 @@
   ],
   "related_entity_ids": [],
   "last_updated": "2026-07-31",
-  "status": "active"
+  "status": "needs_review"
 }

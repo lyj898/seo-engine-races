@@ -15,7 +15,7 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "Yoma",
-    "registration_status": "not_yet_announced",
+    "registration_status": "open",
     "venue": "Mandalay (exact start point not yet published)",
     "city": "Mandalay",
     "country": "Myanmar"
@@ -71,5 +71,5 @@
   ],
   "related_entity_ids": [],
   "last_updated": "2026-07-31",
-  "status": "active"
+  "status": "needs_review"
 }

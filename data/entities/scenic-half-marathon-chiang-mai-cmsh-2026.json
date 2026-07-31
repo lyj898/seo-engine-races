@@ -15,7 +15,7 @@
       3
     ],
     "primary_distance_km": 21.1,
-    "organizer": "Scenic Marathon Series",
+    "organizer": "RACEUP WORK CO., LTD.",
     "registration_status": "Open",
     "venue": "Royal Park Rajapruek, Chiang Mai",
     "city": "Chiang Mai",
@@ -70,5 +70,5 @@
   ],
   "related_entity_ids": [],
   "last_updated": "2026-07-31",
-  "status": "active"
+  "status": "needs_review"
 }
