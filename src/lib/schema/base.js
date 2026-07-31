@@ -84,6 +84,22 @@ export const baseEntitySchema = z.object({
   cons: z.array(z.string().min(1)).default([]),
   sentiment_scores: sentimentScoresSchema.optional(),
   excerpt_quotes: z.array(excerptQuoteSchema).default([]),
+
+  // Output of the web-research stage (scripts/research-entities.js), kept
+  // deliberately separate from core_facts. core_facts is what a named
+  // source page states and is re-verified weekly; these are what the wider
+  // web says about the entity -- useful, but opinion rather than record.
+  // Mixing the two would let commentary quietly acquire the authority of a
+  // verified fact.
+  //
+  // zod strips undeclared keys on parse, so a stage that wants to persist
+  // something new must declare it here first or the write silently drops it.
+  research_highlights: z.array(z.string().min(1)).default([]),
+  research_watchouts: z.array(z.string().min(1)).default([]),
+  research_confidence: z.enum(['high', 'medium', 'low']).optional(),
+  // ISO date of the last web-research pass. Drives the re-research
+  // interval, and is separate from last_updated (which any stage bumps).
+  research_last_updated: z.string().min(1).optional(),
   faqs: z.array(faqSchema).default([]),
   reliability_score: z.number().min(0).max(100),
   tags: z.array(z.string().min(1)).default([]),
