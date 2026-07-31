@@ -22,10 +22,18 @@ const NO_INVENTION_RULE =
 export function buildDiscoveryPrompt({ siteConfig, coreFactsDescription, availableCategories, availableRegions, sourceUrl, sourceText }) {
   const { entityLabelSingular, entityLabelPlural } = siteConfig;
 
+  // Optional free-form scope restriction a vertical instance can set via
+  // site.config.json's sourceConfig.discoveryConstraints (e.g. races
+  // restricting discovery to road races, excluding trail/multisport
+  // events). Purely a config value the engine passes through -- this file
+  // stays vertical-agnostic since it never itself states what a "valid"
+  // candidate looks like beyond what config supplies.
+  const constraints = siteConfig.sourceConfig?.discoveryConstraints;
+
   const system =
     `You are a careful research assistant extracting structured directory listings for a "${entityLabelPlural}" ` +
-    `directory website. ${NO_INVENTION_RULE} Respond with ONLY valid JSON -- no markdown code fences, no ` +
-    'commentary before or after it.';
+    `directory website. ${NO_INVENTION_RULE}${constraints ? ` Scope restriction: ${constraints}` : ''} Respond ` +
+    'with ONLY valid JSON -- no markdown code fences, no commentary before or after it.';
 
   const categoryList = availableCategories.map((c) => `"${c.label}"`).join(', ') || '(none configured)';
   const regionList = availableRegions.map((r) => `"${r.label}"`).join(', ') || '(none configured)';
