@@ -1,4 +1,5 @@
 import { buildRegionAncestryMap, isPublished } from './data.js';
+import { entityMatchesCategory } from './categoryMatch.js';
 
 /**
  * Resolves a listicle's `filters` + `manual_entity_ids` into an actual
@@ -7,7 +8,7 @@ import { buildRegionAncestryMap, isPublished } from './data.js';
  * scratch" requirement -- editors add a filter (and optionally pin/exclude
  * specific entities); they never hand-maintain the list itself.
  */
-export function resolveListicleEntities(listicle, entities, regions) {
+export function resolveListicleEntities(listicle, entities, regions, categories = []) {
   const ancestryMap = buildRegionAncestryMap(regions);
   const filters = listicle.filters ?? {};
   const manualIds = listicle.manual_entity_ids ?? [];
@@ -17,7 +18,14 @@ export function resolveListicleEntities(listicle, entities, regions) {
       const chain = ancestryMap.get(entity.region_id) ?? [entity.region_id];
       if (!chain.includes(filters.region_id)) return false;
     }
-    if (filters.category_id && entity.category_id !== filters.category_id) return false;
+    if (filters.category_id) {
+      // Same membership rule as the category hub pages: an entity counts if
+      // the category is its marquee one OR one of its numeric facts falls in
+      // that category's range. Otherwise a "Best 5K" guide would be empty
+      // while the 5K hub listed 144 entries.
+      const target = categories.find((c) => c.category_id === filters.category_id);
+      if (target ? !entityMatchesCategory(entity, target, categories) : entity.category_id !== filters.category_id) return false;
+    }
     if (filters.tags_any?.length) {
       const hasTag = filters.tags_any.some((tag) => entity.tags?.includes(tag));
       if (!hasTag) return false;
