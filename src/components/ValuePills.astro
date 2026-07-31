@@ -15,17 +15,28 @@ import { matchCategoryByValue } from '../lib/categoryMatch.js';
 // entity-to-entity; sorting at render time gives every card the same
 // reading order without mutating the data. 'desc' puts the headline value
 // first (for races: the marathon before the 5K).
+// `matchedOnly`: drop values that don't land in any category's range instead
+// of showing them as bare neutral pills. A directory's categories define what
+// it is *about* -- for races, the four distances people search for -- so a
+// stray 1km kids' dash or 3km fun run bundled into the same event is noise
+// on a card, not a reason to browse. Off by default so a vertical that wants
+// every value shown keeps getting it.
 const {
   values = [],
   categories = [],
   unit = '',
   maxDecimals = 1,
   sort = 'desc',
+  matchedOnly = false,
   class: className = '',
 } = Astro.props;
 
+const visibleValues = matchedOnly
+  ? values.filter((v) => matchCategoryByValue(v, categories))
+  : values;
+
 const orderedValues =
-  sort === 'none' ? values : [...values].sort((a, b) => (sort === 'asc' ? a - b : b - a));
+  sort === 'none' ? visibleValues : [...visibleValues].sort((a, b) => (sort === 'asc' ? a - b : b - a));
 
 function formatValue(v) {
   const factor = 10 ** maxDecimals;

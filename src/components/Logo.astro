@@ -1,20 +1,33 @@
 ---
-// Inline brand mark: a ring in the current text color + a lime "pulse
-// line" always in the brand primary color, exactly matching the reference
-// design system (Races/design.html / logo-mark-*.svg). Scales to any size
-// via the `size` prop; inherits `currentColor` for the ring so it adapts
-// to light/dark automatically without a separate light/dark asset.
+// Inline brand mark: a solid disc in the current text color carrying a
+// "pulse line" in the brand primary. Solid rather than the outlined ring it
+// replaced -- a 2px stroke on a 30px mark reads as thin and washed out
+// against a light background, and the lime line had almost no contrast
+// floating on the page's own background. Filling the disc gives the lime
+// something dark to sit on, so the mark holds up at favicon size and in
+// both themes without needing separate light/dark art.
+//
+// Uses currentColor for the disc so it inherits the header's text color,
+// and the brand primary for the line, keeping the whole mark config-driven.
 const { size = 30, class: className = '' } = Astro.props;
 ---
 
-<svg viewBox="0 0 32 32" width={size} height={size} fill="none" aria-hidden="true" class={className}>
-  <circle cx="16" cy="16" r="15" stroke="currentColor" stroke-width="2" />
+<svg
+  viewBox="0 0 32 32"
+  width={size}
+  height={size}
+  fill="none"
+  aria-hidden="true"
+  class={className}
+>
+  <circle cx="16" cy="16" r="16" fill="currentColor" />
   <path
-    d="M9 21 L14 13 L18 17 L23 9"
+    d="M7.5 21.5 L13 12.5 L17.5 17 L24.5 8"
     class="stroke-brand-primary"
-    stroke-width="3"
+    stroke-width="3.25"
     stroke-linecap="round"
     stroke-linejoin="round"
     fill="none"
   />
+  <circle cx="24.5" cy="8" r="2.75" class="fill-brand-primary" />
 </svg>
