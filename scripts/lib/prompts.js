@@ -156,34 +156,58 @@ export function buildListicleCopyPrompt({ siteConfig, category, region, matched 
   const where = region ? region.label : 'Southeast Asia';
 
   const system =
-    `You are writing the introduction to a curated guide on ${siteName}, a directory of ${entityLabelPlural}. ` +
-    `${NO_INVENTION_RULE} Write for a reader choosing between these options.\n\n` +
-    'Style rules: do not describe how the list was assembled, ranked, verified or generated -- no mention of ' +
-    'scores, sources, filters, automation or update schedules. Do not claim the list is exhaustive or ' +
-    '"the best" in any objective sense. Be specific to the entries given: name real places, spans of the ' +
-    'calendar, and distinguishing features. Respond with ONLY valid JSON -- no markdown code fences, no commentary.';
+    `You are an editor writing a guide for ${siteName}, a directory of ${entityLabelPlural}. ` +
+    `${NO_INVENTION_RULE} Write for someone choosing between these options who has never seen them before.\n\n` +
+    'Style rules:\n' +
+    '- Never describe how the list was assembled, ranked, verified, filtered or generated. No mention of ' +
+    'scores, sources, automation or update schedules. The reader came for the subject, not the machinery.\n' +
+    '- Never open with the guide\'s own title restated as a sentence, and never open with "Whether you\'re...". ' +
+    'Open on something concrete from the entries themselves.\n' +
+    '- Be specific where a generic guide would be vague: name actual places, months, and the things that ' +
+    'genuinely differ between these entries. A sentence that would read identically for a different country ' +
+    'or distance is a wasted sentence.\n' +
+    '- Do not claim the list is complete, definitive or objectively "best".\n' +
+    'Respond with ONLY valid JSON -- no markdown code fences, no commentary.';
 
-  const sample = matched.slice(0, 12).map((e) => {
+  // Give the model the real spread it's describing. Without the month
+  // distribution it writes "races run throughout the year" for every guide;
+  // with it, it can say something true and specific about this one.
+  const months = {};
+  matched.forEach((e) => {
+    const d = e.core_facts?.date;
+    if (typeof d === 'string') months[d.slice(0, 7)] = (months[d.slice(0, 7)] || 0) + 1;
+  });
+  const monthSpread = Object.entries(months).sort().map(([m, n]) => `${m}: ${n}`).join(', ') || '(no dates)';
+
+  const cities = [...new Set(matched.map((e) => e.core_facts?.city).filter(Boolean))];
+
+  const sample = matched.slice(0, 14).map((e) => {
     const f = e.core_facts ?? {};
     const loc = [f.city, f.country].filter(Boolean).join(', ');
-    return `- ${e.name}${loc ? ` (${loc}` : ''}${f.date ? `${loc ? ', ' : ' ('}${f.date}` : ''}${loc || f.date ? ')' : ''}`;
+    const dist = Array.isArray(f.distance_km) ? [...f.distance_km].sort((a, b) => b - a).join('/') + 'km' : '';
+    return `- ${e.name}${loc ? ` — ${loc}` : ''}${f.date ? `, ${f.date}` : ''}${dist ? `, ${dist}` : ''}`;
   }).join('\n');
 
   const prompt = `Guide subject: ${category.label} ${entityLabelPlural} in ${where}
 Total matching ${entityLabelPlural}: ${matched.length}
+Spread across the calendar: ${monthSpread}
+Locations represented (${cities.length}): ${cities.slice(0, 20).join(', ')}
 
-The ${entityLabelPlural} this guide will list:
+Sample of the ${entityLabelPlural} this guide will list:
 ${sample}
 
 Produce a JSON object with:
 
-- title (string, under 70 characters): a natural page title someone might search for. Plain and descriptive.
-- intro (string, 2-3 sentences, 50-90 words): what someone considering these ${entityLabelPlural} should know ` +
-    `about this group specifically -- the spread across the year, the range of locations, what varies between ` +
-    `them. Ground it in the entries listed above.
-- faqs (array of exactly 2 objects, each {"question": string, "answer": string}): questions a reader ` +
-    `comparing these ${entityLabelPlural} would actually search for, each answered in a direct 40-60 words ` +
-    `using only what the entries above support. Avoid questions about how the guide is compiled.
+- title (string, under 70 characters): a natural page title someone would actually search for.
+- intro (string, 3-4 sentences, 80-130 words): open with what is distinctive about this particular set -- ` +
+    `a season that dominates the calendar, a city that anchors it, how much the entries vary in scale or ` +
+    `setting. Then give the reader the practical shape of it: when the busy months fall, what the range of ` +
+    `options looks like, what they'd be choosing between. Ground every claim in the data above.
+- editorial_notes is NOT needed.
+- faqs (array of exactly 3 objects, each {"question": string, "answer": string}): questions someone ` +
+    `comparing these ${entityLabelPlural} would genuinely type into a search box -- about timing, ` +
+    `conditions, choosing between options, what to expect. Answer each in a direct 45-70 words using only ` +
+    `what the data above supports. No questions about how the guide is compiled.
 
 Output ONLY the JSON object.`;
 
