@@ -33,14 +33,9 @@ const entities = allEntities.filter((e) => (ancestryMap.get(e.region_id) ?? [e.r
 const childRegions = allRegions.filter((r) => r.parent_region_id === region.region_id);
 const parentRegion = allRegions.find((r) => r.region_id === region.parent_region_id);
 
-const avgReliability = entities.length
-  ? Math.round(entities.reduce((sum, e) => sum + e.reliability_score, 0) / entities.length)
-  : 0;
-
 const stats = [
   { label: `${siteConfig.entityLabelPlural}`, value: entities.length },
   { label: `${siteConfig.categoryLabel}s represented`, value: new Set(entities.map((e) => e.category_id)).size },
-  { label: 'Avg. reliability', value: entities.length ? `${avgReliability}/100` : '—' },
 ];
 
 const categoryFilterOptions = allCategories
