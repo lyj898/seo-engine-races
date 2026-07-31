@@ -117,6 +117,14 @@ const subject = `New message from ${siteConfig.siteName}${siteConfig.siteDomain 
     var statusEl = document.getElementById('contact-status');
     var submitBtn = document.getElementById('contact-submit');
 
+    // Reparent the overlay to <body>. This component renders inside the
+    // sticky header, and the header uses backdrop-blur -- any ancestor with
+    // a backdrop-filter becomes the containing block for position:fixed
+    // descendants, so `fixed inset-0` would size this overlay to the
+    // header's ~66px box instead of the viewport. Moving it out is the
+    // reliable fix and keeps the header free to use blur.
+    if (overlay.parentElement !== document.body) document.body.appendChild(overlay);
+
     function open() {
       overlay.classList.remove('hidden');
       overlay.classList.add('flex');
