@@ -1,7 +1,7 @@
 {
   "siteName": "Run SEA",
   "siteTagline": "Find your next road race across Southeast Asia",
-  "heroHeadline": "Find your next road half & full marathon *race* across Southeast Asia",
+  "heroHeadline": "Find your next road *race* across Southeast Asia",
   "siteDomain": "runsea.run",
   "verticalKey": "races",
 
@@ -86,6 +86,7 @@
     "requestDelayMs": 1500,
     "respectRobotsTxt": true,
     "userAgent": "programmatic-seo-engine/1.0 (+https://runsea.run/about)",
+    "discoveryConstraints": "Only include road races run primarily on paved or tarmac surfaces (5K/10K/half marathon/full marathon distances). Do not include trail running events, off-road ultra-trail races, obstacle course races, or duathlons/triathlons -- if a source page mixes road races with trail or multisport events, extract only the road running ones.",
     "sourcePriority": [
       "official_event_website",
       "official_registration_platform",
@@ -106,7 +107,7 @@
     "Singapore", "Malaysia", "Indonesia", "Thailand", "Vietnam",
     "Philippines", "Cambodia", "Laos", "Myanmar", "Brunei", "Timor-Leste"
   ],
-  "categoriesSupported": ["5K", "10K", "Half Marathon", "Full Marathon", "Ultra"],
+  "categoriesSupported": ["5K", "10K", "Half Marathon", "Full Marathon"],
 
   "notes": "Vertical instance config for 'races' (runsea.run). This file is the ONLY place vertical labels/branding/behavior are read from by shared engine code -- no vertical-specific strings should ever be hardcoded into /src or /scripts. See /config-examples for how the other four verticals (hotels, local-services, courses, event-planning) instantiate the same schema. Do NOT point DNS/CNAME at runsea.run's live production traffic until this engine's races vertical has passed Step 5 review and a manual QA pass."
 }
