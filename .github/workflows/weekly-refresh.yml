@@ -1,18 +1,26 @@
 name: Weekly data refresh
 
-# Runs the discover -> refresh -> summaries pipeline on a schedule (matching
-# site.config.json's sourceConfig.refreshIntervalDays: 7), plus supports a
-# manual on-demand run from the Actions tab.
+# Runs the discover -> refresh -> research -> summaries -> guides pipeline on
+# a schedule (matching site.config.json's sourceConfig.refreshIntervalDays),
+# plus supports a manual on-demand run from the Actions tab.
 #
-# Safety valve (see README "Known decisions"): this workflow never pushes
-# straight to `main`. AI-generated/refreshed content is not something we
-# trust blindly -- factual errors, hallucinated core_facts, or a source
-# site's structure changing underneath discover-entities.js could all
-# produce bad data that LOOKS structurally valid (passes schema validation)
-# but is substantively wrong. So the pipeline's output always lands in a
-# pull request for a human to actually read and merge, never an automatic
-# commit to the live branch. Only a merged PR (a real push to main) triggers
-# deploy.yml and goes live.
+# This workflow commits straight to `main`, which deploys. That is a
+# deliberate choice and the guard rails moved rather than disappeared:
+#
+#   - `npm run validate` runs both before and after the pipeline. A run that
+#     ends in schema-invalid, duplicate or cross-reference-broken data fails
+#     here and commits nothing at all.
+#   - refresh-entities.js can only ever flag a listing `needs_review`; it has
+#     no path to deleting or silently rewriting one, and only a genuinely
+#     lapsed date auto-archives.
+#   - Every run opens a GitHub issue naming exactly what was added, archived
+#     and published. Review happens after the fact, on a readable summary,
+#     instead of on a 200-file diff nobody would actually read.
+#
+# The thing to watch is that this trades "nothing goes live unreviewed" for
+# "everything goes live and you get told about it". If a source site changes
+# shape and starts yielding plausible-but-wrong data, it will be live for as
+# long as it takes to read the notification.
 on:
   schedule:
     - cron: '0 3 * * 1' # every Monday, 03:00 UTC
@@ -24,7 +32,7 @@ concurrency:
 
 permissions:
   contents: write
-  pull-requests: write
+  issues: write # the run summary is delivered as an issue (see below)
 
 jobs:
   refresh:
@@ -80,48 +88,60 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         # Creates a guide for any category x country combination that has
-        # crossed the minimum-entries threshold since last week. New guides
-        # land as status: draft, so they appear in the PR for a read-through
-        # before they can go live. Existing guides are never overwritten.
+        # crossed the minimum-entries threshold since last week, capped at
+        # listicleConfig.perRunLimit so they drip out rather than landing as
+        # one bulk publish. Existing guides are never overwritten, so hand
+        # edits to a title or intro survive every future run.
 
       - name: Validate data (post-run)
         run: npm run validate
-        # If discover/refresh/summaries produced anything schema-invalid,
-        # duplicate, or cross-reference-broken, fail the whole job here.
-        # No PR gets opened from a run that ends in known-bad data -- you'll
-        # see a red X in Actions instead, which is the correct failure mode.
+        # If any stage produced schema-invalid, duplicate or
+        # cross-reference-broken data, fail here. This is the gate that
+        # replaced the pull request: nothing is committed from a run that
+        # ends in known-bad data -- you get a red X in Actions instead,
+        # which is the correct failure mode.
 
-      - name: Check for changes
-        id: diff
+      - name: Summarise what changed
+        id: summary
         run: |
+          HEADLINE=$(node scripts/summarize-changes.js --out refresh-summary.md)
+          echo "headline=$HEADLINE" >> "$GITHUB_OUTPUT"
           if [ -n "$(git status --porcelain data/)" ]; then
             echo "changed=true" >> "$GITHUB_OUTPUT"
           else
             echo "changed=false" >> "$GITHUB_OUTPUT"
           fi
+        # Must run BEFORE the commit: it diffs the working tree against HEAD
+        # to work out which files are new and which changed status.
 
-      - name: Open pull request with the refreshed data
-        if: steps.diff.outputs.changed == 'true'
-        uses: peter-evans/create-pull-request@v6
-        with:
-          commit-message: 'chore(data): weekly refresh (discover + refresh + summaries)'
-          branch: weekly-refresh/${{ github.run_number }}
-          title: 'Weekly data refresh -- ${{ github.run_id }}'
-          body: |
-            Automated run of `npm run discover`, `npm run refresh`, and
-            `npm run summaries` (see `.github/workflows/weekly-refresh.yml`).
+      - name: Commit and push to main
+        if: steps.summary.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git commit -m "chore(data): ${{ steps.summary.outputs.headline }}"
+          # Rebase rather than merge: a hand edit pushed to main while this
+          # hour-long run was in flight should stay on top, not be clobbered
+          # by a stale checkout.
+          git pull --rebase --autostash origin main
+          git push origin HEAD:main
 
-            Both pre- and post-run `npm run validate` passed, so every
-            changed file is at least schema-valid and cross-reference-clean.
-            That does **not** mean the content is factually correct --
-            please actually read the diff before merging, especially any
-            new or changed `core_facts`, `ai_summary`, and `faqs` fields.
-
-            Merging this PR is what deploys it: merging triggers a push to
-            `main`, which is what `deploy.yml` watches.
-          labels: automated-refresh
-          add-paths: data/
+      - name: Notify by email (via a GitHub issue)
+        if: steps.summary.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create \
+            --title "${{ steps.summary.outputs.headline }}" \
+            --body-file refresh-summary.md \
+            --label automated-refresh \
+            --assignee "${{ github.repository_owner }}"
+        # Delivered as an issue rather than SMTP on purpose: GitHub emails the
+        # assignee automatically, so this needs no mail server, no app
+        # password and no secret to rotate. The summary is also permanently
+        # searchable in the repo, which a mailbox thread is not.
 
       - name: No changes this run
-        if: steps.diff.outputs.changed == 'false'
-        run: echo "Pipeline ran; nothing changed in data/, no PR opened."
+        if: steps.summary.outputs.changed == 'false'
+        run: echo "Pipeline ran; nothing changed in data/, nothing committed."
