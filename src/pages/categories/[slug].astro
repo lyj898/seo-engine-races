@@ -2,6 +2,8 @@
 import siteConfig from '../../lib/config.js';
 import { urls } from '../../lib/urls.js';
 import { loadEntities, loadCategories, loadRegions, stripMeta, isPublished } from '../../lib/data.js';
+import { entityMatchesCategory } from '../../lib/categoryMatch.js';
+import { byUpcomingDate } from '../../lib/sort.js';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import StatsSummary from '../../components/StatsSummary.astro';
@@ -24,7 +26,9 @@ const allEntities = loadEntities().map(stripMeta).filter(isPublished);
 const allCategories = loadCategories().map(stripMeta);
 const allRegions = loadRegions().map(stripMeta);
 
-const entities = allEntities.filter((e) => e.category_id === category.category_id);
+const entities = allEntities
+  .filter((e) => entityMatchesCategory(e, category, allCategories))
+  .sort(byUpcomingDate);
 
 const stats = [
   { label: `${siteConfig.entityLabelPlural}`, value: entities.length },

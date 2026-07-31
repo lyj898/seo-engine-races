@@ -2,6 +2,7 @@
 import siteConfig from '../../lib/config.js';
 import { urls } from '../../lib/urls.js';
 import { loadEntities, loadCategories, stripMeta, isPublished } from '../../lib/data.js';
+import { entityMatchesCategory } from '../../lib/categoryMatch.js';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import HubCard from '../../components/HubCard.astro';
@@ -38,7 +39,7 @@ const jsonLd = [buildBreadcrumbListSchema(breadcrumbItems, Astro.site)].filter(B
             href={urls.category(category.slug)}
             label={category.label}
             description={category.short_description}
-            count={entities.filter((e) => e.category_id === category.category_id).length}
+            count={entities.filter((e) => entityMatchesCategory(e, category, categories)).length}
           />
         ))}
       </div>
