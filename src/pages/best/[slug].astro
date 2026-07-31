@@ -23,7 +23,7 @@ const allEntities = loadEntities().map(stripMeta).filter(isPublished);
 const allCategories = loadCategories().map(stripMeta);
 const allRegions = loadRegions().map(stripMeta);
 
-const rankedEntities = resolveListicleEntities(listicle, allEntities, allRegions);
+const rankedEntities = resolveListicleEntities(listicle, allEntities, allRegions, allCategories);
 
 const breadcrumbItems = [
   { label: siteConfig.siteName, href: urls.home() },
