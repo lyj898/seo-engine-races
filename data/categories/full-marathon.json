@@ -4,8 +4,13 @@
   "label": "Full Marathon",
   "short_description": "Road races offering the standard 42.195km full marathon distance across Southeast Asia.",
   "intro": "The full marathon is the classic 42.195km road-race distance. Southeast Asia's full marathon calendar spans major international city races down to smaller regional festivals that add a full-marathon option alongside shorter distances, giving runners a wide mix of course profiles, climates, and field sizes to choose from.",
-  "related_category_ids": ["half-marathon"],
-  "matchRange": [40.5, 44],
+  "related_category_ids": [
+    "half-marathon"
+  ],
+  "matchRange": [
+    41,
+    43
+  ],
   "badgeVariant": "success",
   "faqs": [
     {

@@ -4,8 +4,13 @@
   "label": "Half Marathon",
   "short_description": "Road races offering the 21.1km half marathon distance across Southeast Asia.",
   "intro": "The half marathon, at 21.1 kilometers, is one of the most popular race distances for runners moving up from 10K events or building toward a first full marathon. Southeast Asia's calendar includes half marathons as standalone events and as one of several distances offered at larger multi-race festivals.",
-  "related_category_ids": ["full-marathon"],
-  "matchRange": [19.5, 23],
+  "related_category_ids": [
+    "full-marathon"
+  ],
+  "matchRange": [
+    20,
+    22.5
+  ],
   "badgeVariant": "warning",
   "faqs": [
     {
