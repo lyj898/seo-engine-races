@@ -33,6 +33,18 @@ const metaDescription = description ?? siteConfig.siteTagline;
     <title>{pageTitle}</title>
     <meta name="description" content={metaDescription} />
 
+    {siteConfig.googleAnalyticsId && (
+      <>
+        <script async src={`https://www.googletagmanager.com/gtag/js?id=${siteConfig.googleAnalyticsId}`}></script>
+        <script is:inline define:vars={{ gaId: siteConfig.googleAnalyticsId }}>
+          window.dataLayer = window.dataLayer || [];
+          function gtag() { dataLayer.push(arguments); }
+          gtag('js', new Date());
+          gtag('config', gaId);
+        </script>
+      </>
+    )}
+
     <meta property="og:site_name" content={siteConfig.siteName} />
     <meta property="og:title" content={pageTitle} />
     <meta property="og:description" content={metaDescription} />
