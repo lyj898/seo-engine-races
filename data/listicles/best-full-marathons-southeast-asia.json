@@ -2,21 +2,25 @@
   "listicle_id": "best-full-marathons-southeast-asia",
   "slug": "best-full-marathons-southeast-asia",
   "title": "Best Full Marathons in Southeast Asia",
-  "intro": "From a temple-park course in Indonesia to a coastal city marathon in Vietnam, this list pulls every verified race tagged to the Full Marathon category across Southeast Asia, ranked by reliability score, with no single country filter applied.",
+  "intro": "Southeast Asia's marathon season clusters hard into the cooler months: the calendar thins through the middle of the year, then fills sharply from August onward as organisers move away from the worst of the heat. What you're choosing between spans city centre races through Manila, Bangkok and Kuala Lumpur, island courses in Bohol and Phuket, and provincial events that draw a few hundred runners. Most pair the 42.195km distance with shorter legs at the same start line, so a marathon weekend is usually a full-distance event rather than a single race.",
   "filters": {
     "category_id": "full-marathon",
-    "sort_by": "reliability_score",
-    "sort_direction": "desc",
+    "sort_by": "date",
+    "sort_direction": "asc",
     "limit": 10
   },
   "manual_entity_ids": [],
-  "editorial_notes": "Region-spanning counterpart to best-full-marathons-thailand.json -- same category filter, no region_id, so it surfaces the full regional field rather than one country.",
+  "editorial_notes": "Entity list resolves from the filters at build time, so it stays current without edits. Sorted soonest-first to match the rest of the site.",
   "faqs": [
     {
-      "question": "How does this list differ from the Thailand-only full marathon guide?",
-      "answer": "This guide applies only a category filter (Full Marathon) with no region restriction, so it ranks verified full marathons from every covered country together. The Thailand-specific guide applies an additional region filter, narrowing the same category down to races within Thailand alone."
+      "question": "When is the best time of year to run a marathon in Southeast Asia?",
+      "answer": "The season concentrates between August and February, when humidity eases and organisers can schedule safer conditions. Many events still flag off between 3am and 5am to finish before the heat builds. March through July is much quieter across the region, so a mid-year trip offers far fewer options."
+    },
+    {
+      "question": "How hot are marathons in Southeast Asia?",
+      "answer": "Expect heat and humidity well above what most temperate-climate runners train in, even at dawn. Start times of 4am are common precisely because of this. Plan for a slower target than your home-course pace, and treat hydration and salt as part of the race strategy rather than an afterthought."
     }
   ],
-  "last_updated": "2026-07-29",
+  "last_updated": "2026-07-31",
   "status": "active"
 }

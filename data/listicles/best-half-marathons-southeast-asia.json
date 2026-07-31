@@ -2,21 +2,25 @@
   "listicle_id": "best-half-marathons-southeast-asia",
   "slug": "best-half-marathons-southeast-asia",
   "title": "Best Half Marathons in Southeast Asia",
-  "intro": "From a highway closure in Malaysia to a UNESCO old-town loop in Laos, Southeast Asia's half marathon calendar covers very different course styles. This list pulls every verified race tagged to the Half Marathon category across the region, ranked by reliability score, with no single country filter applied.",
+  "intro": "The half marathon is the region's default distance, and the range reflects that: everything from major-city races with tens of thousands of entrants to small municipal runs where the 21.1km is the longest thing on offer. Coverage is heaviest in the Philippines and Malaysia, with strong showings in Indonesia and Thailand. Because most events stack 21.1km alongside 10K and 5K legs at the same venue, a half marathon here is usually one option within a larger race day rather than a standalone event.",
   "filters": {
     "category_id": "half-marathon",
-    "sort_by": "reliability_score",
-    "sort_direction": "desc",
+    "sort_by": "date",
+    "sort_direction": "asc",
     "limit": 10
   },
   "manual_entity_ids": [],
-  "editorial_notes": "Region-spanning listicle: no filters.region_id set, so this pulls half-marathon-category entities from every region in /data/regions, demonstrating the filter engine works with or without a region scope.",
+  "editorial_notes": "Entity list resolves from the filters at build time, so it stays current without edits. Sorted soonest-first to match the rest of the site.",
   "faqs": [
     {
-      "question": "Why isn't this list limited to one country?",
-      "answer": "This guide is built from a category filter only (Half Marathon), with no region restriction, so it surfaces the highest-reliability half marathons across all of Southeast Asia rather than one country at a time. For a single-country view, use that country's region hub page instead, which lists only races verified within its borders."
+      "question": "Do I need to travel far to find a half marathon in Southeast Asia?",
+      "answer": "Rarely. The distance appears on race calendars across all the major countries in the region almost every weekend of the season, and most capital cities host several a year. The harder question is usually which one to pick rather than whether one exists near your dates."
+    },
+    {
+      "question": "What start times should I expect for a Southeast Asian half marathon?",
+      "answer": "Very early. Flag-offs between 4am and 6am are standard across the region because daytime heat and humidity make later starts unsafe. Factor this into accommodation: staying near the start line matters more here than it would for an equivalent race in a temperate climate."
     }
   ],
-  "last_updated": "2026-07-29",
+  "last_updated": "2026-07-31",
   "status": "active"
 }

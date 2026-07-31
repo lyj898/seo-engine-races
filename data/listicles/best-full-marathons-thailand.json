@@ -2,22 +2,26 @@
   "listicle_id": "best-full-marathons-thailand",
   "slug": "best-full-marathons-thailand",
   "title": "Best Full Marathons in Thailand",
-  "intro": "Thailand's full marathon calendar ranges from major city races to regional festivals that pair a 42.195km option with shorter distances at the same event. This list is built from verified races tagged to the Full Marathon category anywhere in Thailand, ranked by reliability score, so it updates automatically as new races are added or re-verified.",
+  "intro": "Thailand's full marathons run from big-city road races in Bangkok and Chiang Mai out to provincial events in Nakhon Ratchasima, Khon Kaen and Songkhla that most visitors never hear about. The calendar leans heavily on the November-to-February window, when the northeast monsoon has passed and mornings are genuinely cool by regional standards. Fields vary enormously in size, and several of these are AIMS-certified courses, which matters if you're chasing a qualifying time rather than a weekend away.",
   "filters": {
     "region_id": "thailand",
     "category_id": "full-marathon",
-    "sort_by": "reliability_score",
-    "sort_direction": "desc",
+    "sort_by": "date",
+    "sort_direction": "asc",
     "limit": 10
   },
   "manual_entity_ids": [],
-  "editorial_notes": "Auto-generated from filters. region_id matches the region itself OR any descendant region via parent_region_id (see buildRegionAncestryMap in src/lib/data.js), so city-level races within Thailand -- like Nong Khai -- are included under the country-level filter without listing every city individually.",
+  "editorial_notes": "Entity list resolves from the filters at build time, so it stays current without edits. Sorted soonest-first to match the rest of the site.",
   "faqs": [
     {
-      "question": "How is this list of best full marathons in Thailand ranked?",
-      "answer": "Races are ranked by reliability score, which reflects how thoroughly each event's date, distances, and official sourcing have been independently verified across multiple sources. It is not a measure of course quality or difficulty -- it is a measure of how confident we are that the listed details are accurate and current."
+      "question": "When is marathon season in Thailand?",
+      "answer": "The bulk of Thai marathons fall between November and February. That window sits after the rainy season and delivers the coolest mornings of the year, particularly in the north and northeast. Races outside it are far fewer and typically start earlier in the morning to compensate for heat."
+    },
+    {
+      "question": "Are Thai marathons suitable for a first-time marathoner?",
+      "answer": "Many are, though heat is the deciding factor rather than terrain. Northern and northeastern courses in the cool season are the most forgiving. Check the flag-off time: a 4am start is common and changes how you would plan sleep, travel and the night before entirely."
     }
   ],
-  "last_updated": "2026-07-29",
+  "last_updated": "2026-07-31",
   "status": "active"
 }
