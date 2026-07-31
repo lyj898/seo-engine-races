@@ -4,27 +4,50 @@
   "name": "Franklin Baker Run for Coconut Farmers 2026 – San Pablo",
   "category_id": "half-marathon",
   "region_id": "philippines",
-  "short_description": "Franklin Baker Run for Coconut Farmers 2026 – San Pablo takes place September 13, 2026 in San Pablo City, Laguna, Philippines.",
-  "ai_summary": "Franklin Baker Run for Coconut Farmers 2026 – San Pablo is a road running event in San Pablo City, Laguna, Philippines, featuring Half Marathon (21K); 10K; 5K; 3K. The race takes place on September 13, 2026, starting from Sampaloc Lake Boardwalk, San Pablo City. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half-marathon and multi-distance run held at Sampaloc Lake Boardwalk, San Pablo City, Laguna, Philippines on September 13, 2026.",
+  "ai_summary": "The Franklin Baker Run for Coconut Farmers 2026 is a half-marathon event scheduled for September 13, 2026, in San Pablo City, Laguna, Philippines. Organized by Franklin Baker, the race takes place at Sampaloc Lake Boardwalk and offers four distance options: 21.1km, 10km, 5km, and 3km. Registration details have not yet been announced.",
   "core_facts": {
     "date": "2026-09-13",
     "distance_km": [
       21.1,
-      10.0,
-      5.0,
-      3.0
+      10,
+      5,
+      3
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Franklin Baker",
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "Sampaloc Lake Boardwalk, San Pablo City",
     "city": "San Pablo City, Laguna",
-    "organizer": "Franklin Baker"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km, 3km) suit a range of runner abilities",
+    "Scenic venue at Sampaloc Lake Boardwalk, San Pablo City",
+    "Organized by an established organizer, Franklin Baker"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so entry details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Franklin Baker Run for Coconut Farmers 2026 taking place?",
+      "answer": "The race is scheduled to take place on September 13, 2026. It will be held in San Pablo City, Laguna, in the Philippines, at the Sampaloc Lake Boardwalk venue, organized by Franklin Baker as part of its run series for coconut farmers."
+    },
+    {
+      "question": "What distances are offered at this race?",
+      "answer": "Participants can choose from four distance options at this event: a 21.1km half-marathon, a 10km run, a 5km run, and a 3km run. The 21.1km half-marathon is listed as the primary distance for the Franklin Baker Run for Coconut Farmers 2026."
+    },
+    {
+      "question": "Where is the race held?",
+      "answer": "The event is held at Sampaloc Lake Boardwalk, located in San Pablo City, Laguna, Philippines. This venue serves as the starting and central location for all four distance categories offered during the Franklin Baker Run for Coconut Farmers 2026."
+    },
+    {
+      "question": "Can I register for the race now?",
+      "answer": "According to available information, the registration status for this race has not yet been announced. Interested runners will need to wait for further details from the organizer, Franklin Baker, regarding when and how registration will open for the 2026 event."
+    }
+  ],
   "reliability_score": 40,
   "tags": [
     "half-marathon",

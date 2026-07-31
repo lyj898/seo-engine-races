@@ -4,28 +4,49 @@
   "name": "National MILO Marathon 2026 – Subic (Zambales) Leg",
   "category_id": "half-marathon",
   "region_id": "philippines",
-  "short_description": "National MILO Marathon 2026 – Subic (Zambales) Leg takes place October 18, 2026 in Subic, Zambales, Philippines.",
-  "ai_summary": "National MILO Marathon 2026 – Subic (Zambales) Leg is a road running event in Subic, Zambales, Philippines, featuring 21K Half Marathon (provincial qualifier); 10K; 5K; 3K. The race takes place on October 18, 2026, starting from Subic, Zambales. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half-marathon leg of the National MILO Marathon 2026 held in Subic, Zambales, Philippines on October 18, 2026.",
+  "ai_summary": "The National MILO Marathon 2026 – Subic (Zambales) Leg is a half-marathon event scheduled for October 18, 2026, in Subic, Zambales, Philippines. Organized by RUNRIO Inc. under the long-running MILO Marathon banner, the race offers four distance options: 21.1km, 10km, 5km, and 3km. Registration for this leg is currently open to interested runners.",
   "core_facts": {
     "date": "2026-10-18",
     "distance_km": [
       21.1,
-      10.0,
-      5.0,
-      3.0
+      10,
+      5,
+      3
     ],
     "primary_distance_km": 21.1,
+    "organizer": "RUNRIO Inc. (MILO Marathon)",
     "registration_status": "Open",
-    "country": "Philippines",
     "venue": "Subic, Zambales",
     "city": "Subic, Zambales",
-    "organizer": "RUNRIO Inc. (MILO Marathon)"
+    "country": "Philippines"
   },
-  "pros": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km, 3km) suit different runner levels",
+    "Organized by RUNRIO Inc., part of the established MILO Marathon series",
+    "Registration is currently open"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 62,
+  "faqs": [
+    {
+      "question": "When is the National MILO Marathon 2026 – Subic (Zambales) Leg?",
+      "answer": "This race leg is scheduled to take place on October 18, 2026. It will be held in Subic, Zambales, in the Philippines. Runners interested in participating should note this date when planning their travel and training schedule ahead of the event."
+    },
+    {
+      "question": "What distances are offered at this race?",
+      "answer": "The event offers four distance categories for participants to choose from: a 21.1km half-marathon, a 10km run, a 5km run, and a shorter 3km run. This range allows both competitive runners and casual participants to find a suitable distance for their fitness level."
+    },
+    {
+      "question": "Who organizes this race?",
+      "answer": "This race is organized by RUNRIO Inc., the organization behind the National MILO Marathon series held across the Philippines. The Subic, Zambales leg forms part of the broader 2026 edition of the National MILO Marathon, coordinated under the same organizing body."
+    },
+    {
+      "question": "Is registration open for this event?",
+      "answer": "Yes, registration for the National MILO Marathon 2026 – Subic (Zambales) Leg is currently listed as open. Prospective participants can register ahead of the October 18, 2026 race date to secure their spot in one of the four available distance categories."
+    }
+  ],
+  "reliability_score": 57,
   "tags": [
     "half-marathon",
     "philippines"
@@ -35,7 +56,7 @@
       "url": "https://www.milo.com.ph/national-milo-marathon",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://pinoyfitness.com/2026/01/milo-marathon-2026-full-race-schedule-and-locations-unveiled",
@@ -65,6 +86,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-31",
   "status": "active"
 }

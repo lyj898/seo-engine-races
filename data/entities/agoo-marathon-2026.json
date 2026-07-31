@@ -4,26 +4,49 @@
   "name": "Agoo Marathon 2026",
   "category_id": "full-marathon",
   "region_id": "philippines",
-  "short_description": "Agoo Marathon 2026 takes place August 2, 2026 in Agoo, La Union, Philippines.",
-  "ai_summary": "Agoo Marathon 2026 is a road running event in Agoo, La Union, Philippines, featuring Full Marathon (42K); Half Marathon (21K); 10K. The race takes place on August 2, 2026, starting from Agoo Eco Park. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The Agoo Marathon 2026 is a full marathon taking place on August 2, 2026, at Agoo Eco Park in La Union, Philippines.",
+  "ai_summary": "The Agoo Marathon 2026 is a full marathon event scheduled for August 2, 2026, held at Agoo Eco Park in Agoo, La Union, Philippines. Organized by Slowfootrunner Events, the race offers three distance options: 42.195 km, 21.1 km, and 10 km. Registration details have not yet been announced.",
   "core_facts": {
     "date": "2026-08-02",
     "distance_km": [
       42.195,
       21.1,
-      10.0
+      10
     ],
     "primary_distance_km": 42.195,
+    "organizer": "Slowfootrunner Events",
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "Agoo Eco Park",
     "city": "Agoo, La Union",
-    "organizer": "Slowfootrunner Events"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (42.195 km, 21.1 km, 10 km) to suit different runner levels",
+    "Scenic venue at Agoo Eco Park in La Union",
+    "Organized by an established event organizer, Slowfootrunner Events"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Agoo Marathon 2026?",
+      "answer": "The Agoo Marathon 2026 is scheduled to take place on August 2, 2026. It will be held at Agoo Eco Park, located in Agoo, La Union, Philippines. This date marks the full event, which includes the marathon distance along with shorter race options for other participants."
+    },
+    {
+      "question": "What distances are offered at the Agoo Marathon 2026?",
+      "answer": "The Agoo Marathon 2026 offers three distance categories for participants to choose from: a full marathon of 42.195 km, a half marathon of 21.1 km, and a shorter 10 km race. This allows runners of varying experience levels and fitness goals to take part in the event."
+    },
+    {
+      "question": "Who is organizing the Agoo Marathon 2026?",
+      "answer": "The Agoo Marathon 2026 is organized by Slowfootrunner Events. The race will take place at Agoo Eco Park in Agoo, La Union, Philippines, on August 2, 2026, featuring multiple distance categories including a full marathon, half marathon, and 10 km race for participants."
+    },
+    {
+      "question": "Is registration open for the Agoo Marathon 2026?",
+      "answer": "As of now, the registration status for the Agoo Marathon 2026 has not yet been announced. Prospective participants should watch for updates from the organizer, Slowfootrunner Events, regarding when sign-ups will open for the full marathon, half marathon, and 10 km distances."
+    }
+  ],
   "reliability_score": 40,
   "tags": [
     "full-marathon",

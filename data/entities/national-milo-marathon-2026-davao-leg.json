@@ -4,30 +4,52 @@
   "name": "National MILO Marathon 2026 – Davao Leg",
   "category_id": "full-marathon",
   "region_id": "philippines",
-  "short_description": "National MILO Marathon 2026 – Davao Leg takes place August 2, 2026 in Davao City, Philippines.",
-  "ai_summary": "National MILO Marathon 2026 – Davao Leg is a road running event in Davao City, Philippines, featuring 1K; 3K; 5K; 10K; 21K Half Marathon; 42K Full Marathon. The race takes place on August 2, 2026, starting from Davao Global Township, Mercedes Benz St., Talomo, Davao City. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A full-marathon event in Davao City, Philippines, held on August 2, 2026, with distances ranging from 1km to 42.195km, and registration currently open.",
+  "ai_summary": "The National MILO Marathon 2026 – Davao Leg takes place on August 2, 2026, at Davao Global Township, Mercedes Benz St., Talomo, Davao City, Philippines. Organized by RUNRIO Inc., the race offers multiple distances of 1km, 3km, 5km, 10km, 21.1km, and a full 42.195km marathon. Registration for the event is currently open.",
   "core_facts": {
     "date": "2026-08-02",
     "distance_km": [
-      1.0,
-      3.0,
-      5.0,
-      10.0,
+      1,
+      3,
+      5,
+      10,
       21.1,
       42.195
     ],
     "primary_distance_km": 42.195,
+    "organizer": "RUNRIO Inc. (MILO Marathon)",
     "registration_status": "Open",
-    "country": "Philippines",
     "venue": "Davao Global Township, Mercedes Benz St., Talomo, Davao City",
     "city": "Davao City",
-    "organizer": "RUNRIO Inc. (MILO Marathon)"
+    "country": "Philippines"
   },
-  "pros": [],
+  "pros": [
+    "Multiple distance options (1km, 3km, 5km, 10km, 21.1km, 42.195km) suit various runner levels",
+    "Organized by RUNRIO Inc., known for the MILO Marathon series",
+    "Registration is currently open",
+    "Located at a defined venue, Davao Global Township, Talomo, Davao City"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 82,
+  "faqs": [
+    {
+      "question": "When is the National MILO Marathon 2026 Davao Leg?",
+      "answer": "The National MILO Marathon 2026 – Davao Leg is scheduled to take place on August 2, 2026. The event will be held at the Davao Global Township, located on Mercedes Benz St., Talomo, Davao City, Philippines, as part of the broader MILO Marathon series organized nationwide."
+    },
+    {
+      "question": "What distances are offered at this race?",
+      "answer": "This race offers a range of distances to accommodate different runners, including 1km, 3km, 5km, 10km, 21.1km (half marathon), and the primary distance of 42.195km (full marathon), giving participants flexible options based on their fitness level and experience."
+    },
+    {
+      "question": "Who organizes the MILO Marathon Davao Leg?",
+      "answer": "The National MILO Marathon 2026 – Davao Leg is organized by RUNRIO Inc., the official organizer behind the MILO Marathon series. RUNRIO Inc. oversees logistics and coordination for this Davao City event, part of the larger MILO Marathon national circuit held across the Philippines."
+    },
+    {
+      "question": "Is registration open for this race?",
+      "answer": "Yes, registration for the National MILO Marathon 2026 – Davao Leg is currently open. Prospective participants interested in joining any of the offered distances—from the 1km fun run up to the full 42.195km marathon—can sign up now ahead of the August 2, 2026 event date."
+    }
+  ],
+  "reliability_score": 77,
   "tags": [
     "full-marathon",
     "philippines",
@@ -38,7 +60,7 @@
       "url": "https://www.milo.com.ph/national-milo-marathon",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://pinoyfitness.com/2026/01/milo-marathon-2026-full-race-schedule-and-locations-unveiled",
@@ -62,6 +84,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-31",
   "status": "active"
 }

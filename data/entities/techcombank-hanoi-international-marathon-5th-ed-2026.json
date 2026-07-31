@@ -4,26 +4,53 @@
   "name": "Techcombank Hanoi International Marathon (5th ed.)",
   "category_id": "full-marathon",
   "region_id": "vietnam",
-  "short_description": "Techcombank Hanoi International Marathon (5th ed.) takes place October 4, 2026 in Hanoi, Vietnam.",
-  "ai_summary": "Techcombank Hanoi International Marathon (5th ed.) is a road running event in Hanoi, Vietnam, featuring Full Marathon; Half Marathon; 10km; 5km. The race takes place on October 4, 2026, starting from Hanoi (exact start point not stated). Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A multi-distance road race in Hanoi, Vietnam, featuring a full marathon among six distance options, scheduled for October 4, 2026.",
+  "ai_summary": "The Techcombank Hanoi International Marathon returns for its 5th edition on October 4, 2026, in Hanoi, Vietnam. The event offers six distance options, from a full marathon (42.195km) down to a short 1.5km fun run, catering to a wide range of participants. The exact start venue within Hanoi has not yet been specified, and registration has not yet opened.",
   "core_facts": {
     "date": "2026-10-04",
     "distance_km": [
       42.195,
       21.1,
-      10.0,
-      5.0
+      10,
+      5,
+      3,
+      1.5
     ],
     "primary_distance_km": 42.195,
     "registration_status": "not_yet_announced",
-    "country": "Vietnam",
     "venue": "Hanoi (exact start point not stated)",
-    "city": "Hanoi"
+    "city": "Hanoi",
+    "country": "Vietnam"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (42.195km, 21.1km, 10km, 5km, 3km, 1.5km) suit runners of varying abilities",
+    "Full marathon distance available as the primary event for serious runners",
+    "Takes place in Hanoi, a major international city in Vietnam",
+    "Now in its 5th edition, suggesting an established, recurring event"
+  ],
+  "cons": [
+    "Exact start venue within Hanoi has not been specified",
+    "Registration status is not yet announced, so entry details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Techcombank Hanoi International Marathon taking place?",
+      "answer": "The 5th edition of the Techcombank Hanoi International Marathon is scheduled to take place on October 4, 2026. This date has been confirmed for the event, which is held in Hanoi, Vietnam, though further specific venue details have not yet been provided."
+    },
+    {
+      "question": "What distance options are available at this marathon?",
+      "answer": "The race offers six distance options to accommodate different runner levels: a full marathon of 42.195km, a half marathon of 21.1km, plus 10km, 5km, 3km, and 1.5km races. The 42.195km full marathon serves as the primary featured distance of the event."
+    },
+    {
+      "question": "Is registration open for the Techcombank Hanoi International Marathon?",
+      "answer": "Registration status for this event has not yet been announced. At this time, there is no confirmed information available regarding when registration will open, associated costs, or how participants can sign up for any of the six available distances."
+    },
+    {
+      "question": "Where exactly does the race start in Hanoi?",
+      "answer": "The race takes place in Hanoi, Vietnam, but the exact start point within the city has not been stated in available information. Further details about the specific venue or starting location are expected to be announced closer to the event date."
+    }
+  ],
   "reliability_score": 85,
   "tags": [
     "full-marathon",
@@ -35,7 +62,7 @@
       "url": "https://marathonhn.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-16"
+      "last_checked": "2026-07-31"
     }
   ],
   "affiliate_links": [],
@@ -47,6 +74,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-16",
-  "status": "active"
+  "last_updated": "2026-07-31",
+  "status": "needs_review"
 }

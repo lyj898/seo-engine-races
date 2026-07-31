@@ -4,8 +4,8 @@
   "name": "Larian Jambatan Sultan Nazrin Shah 2026 (LJSN26)",
   "category_id": "half-marathon",
   "region_id": "malaysia",
-  "short_description": "Larian Jambatan Sultan Nazrin Shah 2026 (LJSN26) takes place October 25, 2026 in Bagan Datuk, Perak, Malaysia.",
-  "ai_summary": "Larian Jambatan Sultan Nazrin Shah 2026 (LJSN26) is a road running event in Bagan Datuk, Perak, Malaysia, featuring Half Marathon (21km); 10km; 5km. The race takes place on October 25, 2026, starting from Tapak Pasar Malam, Bagan Datuk, Perak. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "LJSN26 is a half-marathon held on 25 October 2026 in Bagan Datuk, Perak, Malaysia, offering 21.1km, 10km, and 5km distances.",
+  "ai_summary": "Larian Jambatan Sultan Nazrin Shah 2026 (LJSN26) is a half-marathon event scheduled for 25 October 2026 in Bagan Datuk, Perak, Malaysia. Organized by Majlis Perbandaran Teluk Intan (MPTI), the race offers three distance categories: 21.1km, 10km, and 5km, starting from Tapak Pasar Malam, Bagan Datuk. Registration details have not yet been announced.",
   "core_facts": {
     "date": "2026-10-25",
     "distance_km": [
@@ -14,17 +14,41 @@
       5
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Majlis Perbandaran Teluk Intan (MPTI)",
     "registration_status": "not_yet_announced",
-    "country": "Malaysia",
     "venue": "Tapak Pasar Malam, Bagan Datuk, Perak",
     "city": "Bagan Datuk, Perak",
-    "organizer": "Majlis Perbandaran Teluk Intan (MPTI)"
+    "country": "Malaysia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km) suit a range of runner abilities",
+    "Organized by a municipal council (MPTI), suggesting official local government backing",
+    "Set in Bagan Datuk, Perak, offering a race location outside major city crowds"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so entry details remain unavailable",
+    "No pricing, route map, or logistical information has been released yet"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 58,
+  "faqs": [
+    {
+      "question": "When is Larian Jambatan Sultan Nazrin Shah 2026 taking place?",
+      "answer": "Larian Jambatan Sultan Nazrin Shah 2026, also known as LJSN26, is scheduled to take place on 25 October 2026. The event will be held at Tapak Pasar Malam in Bagan Datuk, Perak, Malaysia, as organized by the Majlis Perbandaran Teluk Intan."
+    },
+    {
+      "question": "What distance options are available at LJSN26?",
+      "answer": "LJSN26 offers three distance categories for participants to choose from: a 21.1km half-marathon, a 10km run, and a 5km run. This range allows both serious distance runners and casual participants to take part in the event according to their fitness level."
+    },
+    {
+      "question": "Who organizes this race?",
+      "answer": "The race is organized by Majlis Perbandaran Teluk Intan (MPTI), a municipal council in Perak, Malaysia. MPTI oversees the planning and execution of Larian Jambatan Sultan Nazrin Shah 2026, which is set to take place in Bagan Datuk, Perak."
+    },
+    {
+      "question": "Is registration open for LJSN26?",
+      "answer": "As of now, the registration status for LJSN26 has not yet been announced by the organizer, Majlis Perbandaran Teluk Intan (MPTI). Prospective participants should watch for further updates regarding sign-up details, fees, and deadlines ahead of the 25 October 2026 event date."
+    }
+  ],
+  "reliability_score": 53,
   "tags": [
     "half-marathon",
     "malaysia"
@@ -34,7 +58,7 @@
       "url": "https://www.racexasia.com",
       "label": "racexasia.com",
       "type": "aggregator",
-      "last_checked": "2026-07-16"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://Howei.com",
@@ -52,6 +76,6 @@
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-07-16",
+  "last_updated": "2026-07-31",
   "status": "active"
 }

@@ -4,23 +4,48 @@
   "name": "Travis Hegel Marathon du Trans Penang 2026",
   "category_id": "full-marathon",
   "region_id": "malaysia",
-  "short_description": "Travis Hegel Marathon du Trans Penang 2026 takes place August 30, 2026 in Gertak Sanggul, Penang, Malaysia.",
-  "ai_summary": "Travis Hegel Marathon du Trans Penang 2026 is a road running event in Gertak Sanggul, Penang, Malaysia, featuring Full Marathon. The race takes place on August 30, 2026, starting from Gertak Sanggul, Pulau Pinang. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A full marathon of 41.76 km with 1,632 m elevation gain, held on 30 August 2026 in Gertak Sanggul, Penang, Malaysia.",
+  "ai_summary": "The Travis Hegel Marathon du Trans Penang 2026 is a full marathon covering 41.76 km, set to take place on 30 August 2026 in Gertak Sanggul, Penang, Malaysia. The course includes a notable elevation gain of 1,632 meters, making it a challenging route for participants. Registration is currently open for runners interested in taking part in this Malaysian marathon event.",
   "core_facts": {
     "date": "2026-08-30",
     "distance_km": [
-      42.195
+      41.76
     ],
-    "primary_distance_km": 42.195,
+    "primary_distance_km": 41.76,
+    "elevation_gain_m": 1632,
     "registration_status": "Open",
-    "country": "Malaysia",
     "venue": "Gertak Sanggul, Pulau Pinang",
-    "city": "Gertak Sanggul, Penang"
+    "city": "Gertak Sanggul, Penang",
+    "country": "Malaysia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Registration is currently open, giving runners time to plan and prepare",
+    "Set in Gertak Sanggul, Penang, offering a distinctive Malaysian coastal race location",
+    "Standard full-marathon distance of 41.76 km for those training for that specific distance",
+    "Significant elevation gain of 1,632 m offers a challenging course for runners seeking a tougher test"
+  ],
+  "cons": [
+    "The 1,632 m elevation gain may make this course difficult for runners seeking a flat marathon"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Travis Hegel Marathon du Trans Penang 2026 taking place?",
+      "answer": "The race is scheduled for 30 August 2026. It will be held in Gertak Sanggul, Penang, Malaysia. Registration for this event is currently open, so interested runners can sign up ahead of the race date to secure their place in this full marathon."
+    },
+    {
+      "question": "How long is the race course?",
+      "answer": "The primary distance for this event is 41.76 km, which is classified as a full marathon. This is the standard distance offered for the Travis Hegel Marathon du Trans Penang 2026, held in Gertak Sanggul, Penang, Malaysia, on 30 August 2026."
+    },
+    {
+      "question": "Is the course hilly or flat?",
+      "answer": "The course includes a total elevation gain of 1,632 meters over the 41.76 km distance. This suggests a fairly challenging route with notable climbs, rather than a flat course, so runners should prepare accordingly for the terrain in Gertak Sanggul, Penang."
+    },
+    {
+      "question": "Can I still register for this race?",
+      "answer": "Yes, registration for the Travis Hegel Marathon du Trans Penang 2026 is currently listed as open. Runners interested in participating in this full marathon in Gertak Sanggul, Penang, Malaysia, on 30 August 2026 can sign up while registration remains available."
+    }
+  ],
   "reliability_score": 82,
   "tags": [
     "full-marathon",
@@ -32,7 +57,7 @@
       "url": "https://www.endurancenature.com.my/race_travis_hegel_marathon_du_trans_penang.cfm",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-13"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://checkpointspot.asia/events",
@@ -50,6 +75,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-13",
-  "status": "active"
+  "last_updated": "2026-07-31",
+  "status": "needs_review"
 }

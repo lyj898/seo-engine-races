@@ -4,26 +4,47 @@
   "name": "Scenic Half Marathon Rayong (RSMH)",
   "category_id": "half-marathon",
   "region_id": "thailand",
-  "short_description": "Scenic Half Marathon Rayong (RSMH) takes place August 2, 2026 in Rayong, Thailand.",
-  "ai_summary": "Scenic Half Marathon Rayong (RSMH) is a road running event in Rayong, Thailand, featuring 21K Half Marathon; 10K. The race takes place on August 2, 2026, starting from Laem Charoen Public Park, Rayong. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half-marathon and 10km race held at Laem Charoen Public Park in Rayong, Thailand on August 2, 2026.",
+  "ai_summary": "The Scenic Half Marathon Rayong (RSMH) is a half-marathon event organized by Scenic Marathon Series, scheduled for August 2, 2026, at Laem Charoen Public Park in Rayong, Thailand. Runners can choose between a 21.1km half marathon or a 10km distance. Registration is currently open for those interested in participating.",
   "core_facts": {
     "date": "2026-08-02",
     "distance_km": [
       21.1,
-      10.0
+      10
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Scenic Marathon Series",
     "registration_status": "Open",
-    "country": "Thailand",
     "venue": "Laem Charoen Public Park, Rayong",
     "city": "Rayong",
-    "organizer": "Scenic Marathon Series"
+    "country": "Thailand"
   },
-  "pros": [],
+  "pros": [
+    "Offers a choice between 21.1km and 10km distances",
+    "Registration is currently open",
+    "Held at a public park venue in Rayong, Thailand"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 80,
+  "faqs": [
+    {
+      "question": "When is the Scenic Half Marathon Rayong taking place?",
+      "answer": "The Scenic Half Marathon Rayong, also known as RSMH, is scheduled to take place on August 2, 2026. The race is held at Laem Charoen Public Park in Rayong, Thailand, and is organized by the Scenic Marathon Series. Registration for this event is currently open."
+    },
+    {
+      "question": "What distances are offered at this event?",
+      "answer": "The Scenic Half Marathon Rayong offers two distance options for participants: a 21.1km half marathon, which serves as the primary distance for the event, and a shorter 10km race. Both distances take place at Laem Charoen Public Park in Rayong, Thailand, on the same event day."
+    },
+    {
+      "question": "Who organizes the Scenic Half Marathon Rayong?",
+      "answer": "This race is organized by the Scenic Marathon Series, which is responsible for coordinating the event held at Laem Charoen Public Park in Rayong, Thailand. The organizer oversees both the 21.1km half marathon and 10km distance options offered as part of this scheduled 2026 event."
+    },
+    {
+      "question": "Where is the race located?",
+      "answer": "The Scenic Half Marathon Rayong is located at Laem Charoen Public Park in Rayong, Thailand. This venue hosts both the 21.1km half marathon and the 10km race distances offered by the event, which is organized by the Scenic Marathon Series and scheduled for August 2, 2026."
+    }
+  ],
+  "reliability_score": 83,
   "tags": [
     "half-marathon",
     "thailand",
@@ -34,7 +55,7 @@
       "url": "https://scenicmarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://worldsmarathons.com",
@@ -64,6 +85,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-31",
   "status": "active"
 }

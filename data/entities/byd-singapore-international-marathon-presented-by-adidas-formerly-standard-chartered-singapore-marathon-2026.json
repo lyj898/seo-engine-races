@@ -4,27 +4,52 @@
   "name": "BYD Singapore International Marathon presented by adidas (formerly Standard Chartered Singapore Marathon)",
   "category_id": "full-marathon",
   "region_id": "singapore",
-  "short_description": "BYD Singapore International Marathon presented by adidas (formerly Standard Chartered Singapore Marathon) takes place December 6, 2026 in Singapore, Singapore.",
-  "ai_summary": "BYD Singapore International Marathon presented by adidas (formerly Standard Chartered Singapore Marathon) is a road running event in Singapore, Singapore, featuring Full Marathon; Half Marathon; 10km; 5km. The race takes place on December 6, 2026, starting from The Padang (finish); route through the Marina Bay area. Registration is Not Yet Announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A full marathon and multi-distance race held in Singapore on December 6, 2025, finishing at The Padang.",
+  "ai_summary": "The BYD Singapore International Marathon presented by adidas, formerly known as the Standard Chartered Singapore Marathon, is a full-marathon event scheduled for December 6, 2025, in Singapore. Organized by the IRONMAN Group, it offers four distances: 42.195km, 21.1km, 10km, and 5km, with the route passing through the Marina Bay area and finishing at The Padang. Registration status has not yet been announced.",
   "core_facts": {
-    "date": "2026-12-06",
+    "date": "2025-12-06",
     "distance_km": [
       42.195,
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 42.195,
+    "organizer": "IRONMAN Group",
     "registration_status": "Not Yet Announced",
-    "country": "Singapore",
     "venue": "The Padang (finish); route through the Marina Bay area",
     "city": "Singapore",
-    "organizer": "IRONMAN Group"
+    "country": "Singapore"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (marathon, half marathon, 10km, and 5km) suit a range of runners",
+    "Scenic route through the Marina Bay area of Singapore",
+    "Iconic finish line at The Padang",
+    "Organized by the experienced IRONMAN Group"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so sign-up details are unavailable",
+    "No pricing, course map, or start-time information provided yet"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the BYD Singapore International Marathon held?",
+      "answer": "The event is scheduled to take place on December 6, 2025, in Singapore. This date applies to all the race distances offered, including the full marathon, half marathon, 10km, and 5km events, all organized under the same race weekend by the IRONMAN Group."
+    },
+    {
+      "question": "What distances can I run at this event?",
+      "answer": "Participants can choose from four distances: a full marathon of 42.195km, a half marathon of 21.1km, a 10km race, and a 5km race. This range allows runners of different experience levels and goals to take part in the same event weekend in Singapore."
+    },
+    {
+      "question": "Where does the race finish and what route does it follow?",
+      "answer": "The race finishes at The Padang, a well-known open field in Singapore. The route takes runners through the Marina Bay area before reaching this finish line, offering a course that passes through central parts of the city."
+    },
+    {
+      "question": "Is registration currently open for the marathon?",
+      "answer": "According to available information, the registration status for this event is listed as 'Not Yet Announced.' This means specific sign-up dates, fees, or procedures have not been released yet, so prospective participants should check back for updates closer to the event."
+    }
+  ],
   "reliability_score": 80,
   "tags": [
     "full-marathon",
@@ -36,7 +61,7 @@
       "url": "https://www.singaporemarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-14"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://www.singaporemarathon.com/",
@@ -66,6 +91,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-14",
-  "status": "active"
+  "last_updated": "2026-07-31",
+  "status": "needs_review"
 }

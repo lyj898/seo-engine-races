@@ -4,26 +4,50 @@
   "name": "Guinobatan Half Marathon 2026",
   "category_id": "half-marathon",
   "region_id": "philippines",
-  "short_description": "Guinobatan Half Marathon 2026 takes place August 9, 2026 in Guinobatan, Albay, Philippines.",
-  "ai_summary": "Guinobatan Half Marathon 2026 is a road running event in Guinobatan, Albay, Philippines, featuring Half Marathon (21K); 10K; 5K. The race takes place on August 9, 2026, starting from Guinobatan, Albay. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The Guinobatan Half Marathon 2026 takes place on August 9, 2026, in Guinobatan, Albay, Philippines, offering 21.1km, 10km, and 5km distances.",
+  "ai_summary": "The Guinobatan Half Marathon 2026 is scheduled for August 9, 2026, in Guinobatan, Albay, Philippines. Organized by the Guinobatan Runners Club, the event offers three distance options: 21.1km, 10km, and 5km, catering to a range of runner experience levels. Registration details have not yet been announced.",
   "core_facts": {
     "date": "2026-08-09",
     "distance_km": [
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Guinobatan Runners Club",
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "Guinobatan, Albay",
     "city": "Guinobatan, Albay",
-    "organizer": "Guinobatan Runners Club"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km) to suit different runner levels",
+    "Takes place in Guinobatan, Albay, a specific and localized race venue",
+    "Organized by a dedicated local group, the Guinobatan Runners Club"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so sign-up details are unavailable",
+    "No pricing, route, or logistical information currently provided"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Guinobatan Half Marathon 2026?",
+      "answer": "The Guinobatan Half Marathon 2026 is scheduled to take place on August 9, 2026. It will be held in Guinobatan, Albay, in the Philippines. This date marks the event as an upcoming race for runners interested in participating in one of its available distances."
+    },
+    {
+      "question": "What distances are offered at the Guinobatan Half Marathon 2026?",
+      "answer": "The Guinobatan Half Marathon 2026 offers three distance categories for participants to choose from: a 21.1km half marathon, a 10km race, and a 5km race. This range allows runners of different fitness levels and experience to find a suitable distance for the event."
+    },
+    {
+      "question": "Who organizes the Guinobatan Half Marathon 2026?",
+      "answer": "The Guinobatan Half Marathon 2026 is organized by the Guinobatan Runners Club. This local running organization is responsible for coordinating the event, which will take place in Guinobatan, Albay, Philippines, on August 9, 2026, featuring three different race distances."
+    },
+    {
+      "question": "Is registration open for the Guinobatan Half Marathon 2026?",
+      "answer": "As of now, the registration status for the Guinobatan Half Marathon 2026 has not yet been announced. Prospective participants should check back for updates from the organizer, the Guinobatan Runners Club, regarding sign-up details, fees, and deadlines closer to the event date."
+    }
+  ],
   "reliability_score": 40,
   "tags": [
     "half-marathon",

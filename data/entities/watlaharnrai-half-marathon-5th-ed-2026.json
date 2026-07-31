@@ -4,8 +4,8 @@
   "name": "Watlaharnrai Half Marathon (5th ed.)",
   "category_id": "half-marathon",
   "region_id": "thailand",
-  "short_description": "Watlaharnrai Half Marathon (5th ed.) takes place September 6, 2026 in Ban Khai, Rayong, Thailand.",
-  "ai_summary": "Watlaharnrai Half Marathon (5th ed.) is a road running event in Ban Khai, Rayong, Thailand, featuring Half Marathon. The race takes place on September 6, 2026, starting from Wat La Harn Rai, Ban Khai, Rayong. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The Watlaharnrai Half Marathon is a 21.1km race held at Wat La Harn Rai in Ban Khai, Rayong, Thailand on September 6, 2026.",
+  "ai_summary": "The Watlaharnrai Half Marathon is a 21.1km road race set to take place on September 6, 2026, at Wat La Harn Rai in Ban Khai, Rayong, Thailand. This will be the event's 5th edition. Registration details have not yet been announced, so prospective participants will need to check back for further updates before signing up.",
   "core_facts": {
     "date": "2026-09-06",
     "distance_km": [
@@ -13,15 +13,38 @@
     ],
     "primary_distance_km": 21.1,
     "registration_status": "not_yet_announced",
-    "country": "Thailand",
     "venue": "Wat La Harn Rai, Ban Khai, Rayong",
-    "city": "Ban Khai, Rayong"
+    "city": "Ban Khai, Rayong",
+    "country": "Thailand"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Established event now in its 5th edition",
+    "Single clear distance option (21.1km) makes planning straightforward",
+    "Set at a distinctive temple venue in Rayong, Thailand"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 65,
+  "faqs": [
+    {
+      "question": "When is the Watlaharnrai Half Marathon taking place?",
+      "answer": "The Watlaharnrai Half Marathon is scheduled for September 6, 2026. This edition marks the 5th running of the event, which takes place at Wat La Harn Rai in Ban Khai, Rayong, Thailand. No further scheduling details beyond the date have been provided at this time."
+    },
+    {
+      "question": "What distance can I run at this race?",
+      "answer": "The Watlaharnrai Half Marathon offers a single distance of 21.1 kilometers, the standard half marathon distance. This is listed as the primary and only distance option for the event, so participants should plan and train accordingly for a half marathon course."
+    },
+    {
+      "question": "Is registration open for the Watlaharnrai Half Marathon?",
+      "answer": "Registration for the Watlaharnrai Half Marathon has not yet been announced. Details on how and when to sign up are currently unavailable, so interested runners should keep checking for updates as more information about entry becomes available closer to the event date."
+    },
+    {
+      "question": "Where is the Watlaharnrai Half Marathon held?",
+      "answer": "The race takes place at Wat La Harn Rai, located in Ban Khai, Rayong, Thailand. This temple venue serves as the host site for the event, which is in Ban Khai, Rayong, and is now reaching its 5th edition in 2026."
+    }
+  ],
+  "reliability_score": 68,
   "tags": [
     "half-marathon",
     "thailand"
@@ -31,7 +54,7 @@
       "url": "https://aims-worldrunning.org/calendar.html",
       "label": "aims-worldrunning.org",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://RUNLAH",
@@ -49,6 +72,6 @@
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-31",
   "status": "active"
 }

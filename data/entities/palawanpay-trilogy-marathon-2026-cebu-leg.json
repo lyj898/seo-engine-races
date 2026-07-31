@@ -4,28 +4,52 @@
   "name": "PalawanPay Trilogy Marathon 2026 – Cebu Leg",
   "category_id": "half-marathon",
   "region_id": "philippines",
-  "short_description": "PalawanPay Trilogy Marathon 2026 – Cebu Leg takes place September 27, 2026 in Mandaue City, Cebu, Philippines.",
-  "ai_summary": "PalawanPay Trilogy Marathon 2026 – Cebu Leg is a road running event in Mandaue City, Cebu, Philippines, featuring Half Marathon (21K); 16K; 10K; 5K. The race takes place on September 27, 2026, starting from Mandaue City (gun start 3:00 AM). Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half-marathon event in Mandaue City, Cebu, Philippines, held on September 27, 2026, with distance options of 21.1km, 16km, 10km, and 5km.",
+  "ai_summary": "The PalawanPay Trilogy Marathon 2026 – Cebu Leg is a half-marathon event held in Mandaue City, Cebu, Philippines, taking place on September 27, 2026. Organized by RUNRIO Inc. with PalawanPay as title sponsor, the race offers four distance options: 21.1km, 16km, 10km, and 5km. The event features an early gun start at 3:00 AM, and registration is currently open.",
   "core_facts": {
     "date": "2026-09-27",
     "distance_km": [
       21.1,
-      16.0,
-      10.0,
-      5.0
+      16,
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
+    "organizer": "RUNRIO Inc. (title sponsor: PalawanPay)",
     "registration_status": "Open",
-    "country": "Philippines",
     "venue": "Mandaue City (gun start 3:00 AM)",
     "city": "Mandaue City, Cebu",
-    "organizer": "RUNRIO Inc. (title sponsor: PalawanPay)"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 16km, 10km, 5km) accommodate different runner levels",
+    "Early 3:00 AM gun start helps runners avoid daytime heat",
+    "Organized by RUNRIO Inc., an established race organizer",
+    "Registration is currently open"
+  ],
+  "cons": [
+    "Very early 3:00 AM start time may be inconvenient for some participants"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 68,
+  "faqs": [
+    {
+      "question": "When is the PalawanPay Trilogy Marathon 2026 – Cebu Leg?",
+      "answer": "The PalawanPay Trilogy Marathon 2026 – Cebu Leg is scheduled for September 27, 2026. The race takes place in Mandaue City, Cebu, Philippines, and features a gun start at 3:00 AM, allowing runners to begin before the heat of the day sets in."
+    },
+    {
+      "question": "What distance options are available?",
+      "answer": "Participants can choose from four distance categories at this event: a 21.1km half-marathon, a 16km race, a 10km race, and a 5km race. This range of options makes the event accessible to runners with varying levels of experience and fitness goals."
+    },
+    {
+      "question": "Who organizes this race?",
+      "answer": "The race is organized by RUNRIO Inc., with PalawanPay serving as the title sponsor. RUNRIO Inc. is responsible for managing the event, which takes place in Mandaue City, Cebu, Philippines, as part of the broader PalawanPay Trilogy Marathon 2026 series."
+    },
+    {
+      "question": "Is registration currently open?",
+      "answer": "Yes, registration for the PalawanPay Trilogy Marathon 2026 – Cebu Leg is currently open. Interested runners can sign up ahead of the September 27, 2026 race date to secure a spot in one of the four available distance categories."
+    }
+  ],
+  "reliability_score": 71,
   "tags": [
     "half-marathon",
     "philippines"
@@ -35,7 +59,7 @@
       "url": "https://raceroster.com/events/2026/129711/palawanpay-trilogy-marathon-cebu-2026",
       "label": "raceroster.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-31"
     }
   ],
   "affiliate_links": [],
@@ -47,6 +71,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-31",
   "status": "active"
 }

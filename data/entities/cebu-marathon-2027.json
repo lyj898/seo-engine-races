@@ -4,28 +4,51 @@
   "name": "Cebu Marathon 2027",
   "category_id": "full-marathon",
   "region_id": "philippines",
-  "short_description": "Cebu Marathon 2027 takes place January 10, 2027 in Cebu City, Philippines.",
-  "ai_summary": "Cebu Marathon 2027 is a road running event in Cebu City, Philippines, featuring Full Marathon (42K); Half Marathon (21K); 10K; 5K. The race takes place on January 10, 2027, starting from Cebu City. Registration is Not yet confirmed open (2027) as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The Cebu Marathon 2027 is a full marathon (plus half, 10K, and 5K options) held in Cebu City, Philippines on January 10, 2027.",
+  "ai_summary": "The Cebu Marathon 2027 is scheduled for January 10, 2027, in Cebu City, Philippines, organized by Cebu Marathon. The event offers four distance options: a full marathon of 42.195 km, a half marathon of 21.1 km, a 10 km race, and a 5 km race, catering to a range of runner abilities. As of now, registration for the 2027 edition has not yet been confirmed as open. Runners interested in participating should watch for official updates regarding sign-up details.",
   "core_facts": {
     "date": "2027-01-10",
     "distance_km": [
       42.195,
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 42.195,
+    "organizer": "Cebu Marathon",
     "registration_status": "Not yet confirmed open (2027)",
-    "country": "Philippines",
     "venue": "Cebu City",
     "city": "Cebu City",
-    "organizer": "Cebu Marathon"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (42.195 km, 21.1 km, 10 km, 5 km) suit various runner levels",
+    "Takes place in Cebu City, a well-known Philippine destination",
+    "Organized by a dedicated event body, Cebu Marathon"
+  ],
+  "cons": [
+    "Registration status for 2027 is not yet confirmed as open, so details are pending"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 80,
+  "faqs": [
+    {
+      "question": "When is the Cebu Marathon 2027?",
+      "answer": "The Cebu Marathon 2027 is scheduled to take place on January 10, 2027. The race will be held in Cebu City, Philippines, and is organized by Cebu Marathon. This date marks the specific day when all four distance events—marathon, half marathon, 10K, and 5K—will be run."
+    },
+    {
+      "question": "What distances are offered at Cebu Marathon 2027?",
+      "answer": "Cebu Marathon 2027 offers four distance categories: a full marathon of 42.195 km, a half marathon of 21.1 km, a 10 km race, and a 5 km race. This range allows participants of different experience levels and training goals to select an event that suits them, all held on the same event day in Cebu City."
+    },
+    {
+      "question": "Is registration open for Cebu Marathon 2027?",
+      "answer": "As of the latest information, registration for the Cebu Marathon 2027 has not yet been confirmed as open. Prospective participants should check back for official announcements from the organizer, Cebu Marathon, regarding when sign-ups will begin and what the registration process will involve for this Cebu City event."
+    },
+    {
+      "question": "Who organizes the Cebu Marathon 2027?",
+      "answer": "The Cebu Marathon 2027 is organized by Cebu Marathon, the group responsible for coordinating the event's logistics, including the marathon, half marathon, 10K, and 5K races. The event is set to take place in Cebu City, Philippines, on January 10, 2027, under this organizer's direction."
+    }
+  ],
+  "reliability_score": 65,
   "tags": [
     "full-marathon",
     "philippines",
@@ -54,6 +77,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
-  "status": "active"
+  "last_updated": "2026-07-31",
+  "status": "needs_review"
 }

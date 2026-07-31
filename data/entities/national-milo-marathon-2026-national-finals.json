@@ -4,8 +4,8 @@
   "name": "National MILO Marathon 2026 – National Finals",
   "category_id": "full-marathon",
   "region_id": "philippines",
-  "short_description": "National MILO Marathon 2026 – National Finals takes place December 6, 2026 in Clark City, Pampanga, Philippines.",
-  "ai_summary": "National MILO Marathon 2026 – National Finals is a road running event in Clark City, Pampanga, Philippines, featuring 21K Half Marathon; 42.195K Full Marathon. The race takes place on December 6, 2026, starting from Clark City, Pampanga. Registration is Not yet confirmed open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The National MILO Marathon 2026 National Finals is a full marathon event set for December 6, 2026, in Clark City, Pampanga, Philippines.",
+  "ai_summary": "The National MILO Marathon 2026 National Finals is a full marathon event scheduled for December 6, 2026, in Clark City, Pampanga, Philippines. Organized by RUNRIO Inc., the race offers both a 21.1km half marathon and a 42.195km full marathon distance. Registration status has not yet been confirmed as open.",
   "core_facts": {
     "date": "2026-12-06",
     "distance_km": [
@@ -13,17 +13,40 @@
       42.195
     ],
     "primary_distance_km": 42.195,
+    "organizer": "RUNRIO Inc. (MILO Marathon)",
     "registration_status": "Not yet confirmed open",
-    "country": "Philippines",
     "venue": "Clark City, Pampanga",
     "city": "Clark City, Pampanga",
-    "organizer": "RUNRIO Inc. (MILO Marathon)"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Offers multiple distance options (21.1km and 42.195km)",
+    "Organized by RUNRIO Inc., an established marathon organizer",
+    "Serves as a national finals event"
+  ],
+  "cons": [
+    "Registration status is not yet confirmed as open"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 65,
+  "faqs": [
+    {
+      "question": "Where is the race held?",
+      "answer": "The National MILO Marathon 2026 National Finals takes place in Clark City, Pampanga, Philippines. This location serves as the venue for the event, which is organized by RUNRIO Inc. and includes both half marathon and full marathon distance categories for participants."
+    },
+    {
+      "question": "When is the race date?",
+      "answer": "The race is scheduled for December 6, 2026. This date marks the National Finals of the MILO Marathon series, held in Clark City, Pampanga, Philippines, and organized by RUNRIO Inc., featuring both 21.1km and 42.195km distance options."
+    },
+    {
+      "question": "What distances are offered?",
+      "answer": "Participants can choose between two distances: a 21.1km half marathon and a 42.195km full marathon. The full marathon distance of 42.195km is listed as the primary distance for this event, which is part of the National MILO Marathon 2026 National Finals."
+    },
+    {
+      "question": "Is registration currently open?",
+      "answer": "As of the available information, the registration status for the National MILO Marathon 2026 National Finals has not yet been confirmed as open. Prospective participants should check back for updates regarding when registration will become available for this event."
+    }
+  ],
+  "reliability_score": 60,
   "tags": [
     "full-marathon",
     "philippines"
@@ -33,7 +56,7 @@
       "url": "https://www.milo.com.ph/national-milo-marathon",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-31"
     }
   ],
   "affiliate_links": [],
@@ -45,6 +68,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-31",
   "status": "active"
 }

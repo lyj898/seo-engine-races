@@ -4,26 +4,47 @@
   "name": "Korat Marathon",
   "category_id": "full-marathon",
   "region_id": "thailand",
-  "short_description": "Korat Marathon takes place November 8, 2026 in Nakhon Ratchasima, Thailand.",
-  "ai_summary": "Korat Marathon is a road running event in Nakhon Ratchasima, Thailand, featuring Full Marathon (42.195km); Half Marathon (21.1km); 10km; 5km. The race takes place on November 8, 2026, starting from Nakhon Ratchasima. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A full-marathon race held in Nakhon Ratchasima, Thailand, with distance options of 42.195km, 21.1km, 10km, and 5km.",
+  "ai_summary": "The Korat Marathon is a full-marathon event scheduled for November 8, 2026, in Nakhon Ratchasima, Thailand. The race offers four distance options: 42.195km, 21.1km, 10km, and 5km, catering to a range of runners from marathoners to casual participants. Registration for the event is currently open.",
   "core_facts": {
     "date": "2026-11-08",
     "distance_km": [
       42.195,
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 42.195,
-    "registration_status": "not_yet_announced",
-    "country": "Thailand",
+    "registration_status": "open",
     "venue": "Nakhon Ratchasima",
-    "city": "Nakhon Ratchasima"
+    "city": "Nakhon Ratchasima",
+    "country": "Thailand"
   },
-  "pros": [],
+  "pros": [
+    "Multiple distance options (42.195km, 21.1km, 10km, 5km) suit a range of runner abilities",
+    "Registration is currently open, allowing ample time to plan and prepare",
+    "Located in Nakhon Ratchasima, Thailand, offering an accessible international race destination"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Korat Marathon held?",
+      "answer": "The Korat Marathon is scheduled to take place on November 8, 2026. It is held in Nakhon Ratchasima, Thailand, and offers several distance categories including the full marathon of 42.195km, a half marathon of 21.1km, a 10km race, and a 5km race for participants of varying experience levels."
+    },
+    {
+      "question": "Is registration open for the Korat Marathon?",
+      "answer": "Yes, registration for the Korat Marathon is currently open. Runners interested in participating in any of the available distances -- 42.195km, 21.1km, 10km, or 5km -- can sign up now ahead of the race date on November 8, 2026, in Nakhon Ratchasima, Thailand."
+    },
+    {
+      "question": "Where does the Korat Marathon take place?",
+      "answer": "The Korat Marathon takes place in Nakhon Ratchasima, Thailand, which serves as both the host city and venue for the event. Runners from around the world can register for the race, which includes distance options of 42.195km, 21.1km, 10km, and 5km, scheduled for November 8, 2026."
+    },
+    {
+      "question": "What distances can I run at the Korat Marathon?",
+      "answer": "The Korat Marathon offers four distance options to accommodate different runners: a full marathon of 42.195km, a half marathon of 21.1km, a 10km race, and a 5km race. The event is held in Nakhon Ratchasima, Thailand, on November 8, 2026, with registration currently open."
+    }
+  ],
   "reliability_score": 80,
   "tags": [
     "full-marathon",
@@ -35,7 +56,7 @@
       "url": "https://koratmarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-16"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://aims-worldrunning.org/calendar.html",
@@ -53,6 +74,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-16",
-  "status": "active"
+  "last_updated": "2026-07-31",
+  "status": "needs_review"
 }

@@ -4,28 +4,49 @@
   "name": "Scenic Half Marathon Chiang Mai (CMSH)",
   "category_id": "half-marathon",
   "region_id": "thailand",
-  "short_description": "Scenic Half Marathon Chiang Mai (CMSH) takes place November 1, 2026 in Chiang Mai, Thailand.",
-  "ai_summary": "Scenic Half Marathon Chiang Mai (CMSH) is a road running event in Chiang Mai, Thailand, featuring 21K Half Marathon; 10K; 5K; 3K. The race takes place on November 1, 2026, starting from Royal Park Rajapruek, Chiang Mai. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half-marathon event held on November 1, 2026, at Royal Park Rajapruek in Chiang Mai, Thailand, with registration currently open.",
+  "ai_summary": "The Scenic Half Marathon Chiang Mai (CMSH) is organized by the Scenic Marathon Series and takes place on November 1, 2026, at Royal Park Rajapruek in Chiang Mai, Thailand. The event offers four distance options: 21.1km, 10km, 5km, and 3km, catering to a range of runners from casual participants to half-marathon competitors. Registration is currently open for those interested in taking part.",
   "core_facts": {
     "date": "2026-11-01",
     "distance_km": [
       21.1,
-      10.0,
-      5.0,
-      3.0
+      10,
+      5,
+      3
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Scenic Marathon Series",
     "registration_status": "Open",
-    "country": "Thailand",
     "venue": "Royal Park Rajapruek, Chiang Mai",
     "city": "Chiang Mai",
-    "organizer": "Scenic Marathon Series"
+    "country": "Thailand"
   },
-  "pros": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km, 3km) suit different runner levels",
+    "Held at Royal Park Rajapruek, a notable venue in Chiang Mai",
+    "Registration is currently open, allowing ample time to plan and sign up"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 80,
+  "faqs": [
+    {
+      "question": "When is the Scenic Half Marathon Chiang Mai taking place?",
+      "answer": "The Scenic Half Marathon Chiang Mai, organized by the Scenic Marathon Series, is scheduled to take place on November 1, 2026. The event will be held at Royal Park Rajapruek in Chiang Mai, Thailand, offering participants a full day of racing across several distance categories."
+    },
+    {
+      "question": "What distances are offered at this event?",
+      "answer": "The event offers four distance categories for participants to choose from: a 21.1km half marathon, which is the primary distance, along with 10km, 5km, and 3km options, allowing runners of varying experience levels and fitness goals to participate in the race."
+    },
+    {
+      "question": "Where is the race held?",
+      "answer": "The Scenic Half Marathon Chiang Mai takes place at Royal Park Rajapruek, a well-known venue located in Chiang Mai, Thailand. This location serves as the central hub for the race, hosting all four distance events organized under the Scenic Marathon Series banner."
+    },
+    {
+      "question": "Is registration currently open for this race?",
+      "answer": "Yes, registration for the Scenic Half Marathon Chiang Mai is currently open. Prospective participants interested in any of the four distance options—21.1km, 10km, 5km, or 3km—can sign up now ahead of the race date of November 1, 2026."
+    }
+  ],
+  "reliability_score": 83,
   "tags": [
     "half-marathon",
     "thailand",
@@ -36,7 +57,7 @@
       "url": "https://scenicmarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-31"
     }
   ],
   "affiliate_links": [],
@@ -48,6 +69,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-31",
   "status": "active"
 }

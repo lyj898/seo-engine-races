@@ -4,8 +4,8 @@
   "name": "Laguna Phuket Marathon 2027",
   "category_id": "full-marathon",
   "region_id": "thailand",
-  "short_description": "Laguna Phuket Marathon 2027 takes place June 12, 2027 in Ban Bang Thao, Phuket, Thailand.",
-  "ai_summary": "Laguna Phuket Marathon 2027 is a road running event in Ban Bang Thao, Phuket, Thailand, featuring Full Marathon (42.195KM), Half Marathon (21.0975KM), 10KM, 5KM, 2KM Junior. The race takes place on June 12, 2027, starting from Laguna Phuket, Ban Bang Thao. Registration is Priority registration open for 2026 finishers as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The Laguna Phuket Marathon 2027 takes place on June 12, 2027, in Ban Bang Thao, Phuket, Thailand, offering five race distances.",
+  "ai_summary": "The Laguna Phuket Marathon 2027 is scheduled for June 12, 2027, at Laguna Phuket in Ban Bang Thao, Phuket, Thailand. The event offers five distance options: a full marathon (42.195km), half marathon (21.098km), 10km, 5km, and 2km, catering to a range of runners from elite marathoners to casual participants. Priority registration is currently open for those who finished the 2026 edition, giving returning runners an early opportunity to secure their spot in this Thailand-based race.",
   "core_facts": {
     "date": "2027-06-12",
     "distance_km": [
@@ -17,15 +17,38 @@
     ],
     "primary_distance_km": 42.195,
     "registration_status": "Priority registration open for 2026 finishers",
-    "country": "Thailand",
     "venue": "Laguna Phuket, Ban Bang Thao",
-    "city": "Ban Bang Thao, Phuket"
+    "city": "Ban Bang Thao, Phuket",
+    "country": "Thailand"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (42.195km, 21.098km, 10km, 5km, 2km) suit a wide range of runners",
+    "Scenic venue at Laguna Phuket, a well-known resort destination in Ban Bang Thao, Phuket",
+    "Priority registration available for 2026 finishers, rewarding returning participants"
+  ],
+  "cons": [
+    "Priority registration is currently limited to 2026 finishers, which may delay general entry for new participants"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 78,
+  "faqs": [
+    {
+      "question": "When is the Laguna Phuket Marathon 2027 taking place?",
+      "answer": "The Laguna Phuket Marathon 2027 is scheduled to take place on June 12, 2027. The race will be held at the Laguna Phuket venue in Ban Bang Thao, Phuket, Thailand, drawing runners from around the world to participate in this multi-distance running event set against the backdrop of this popular resort area."
+    },
+    {
+      "question": "What distance options are available at this race?",
+      "answer": "The Laguna Phuket Marathon 2027 offers five distance options for participants to choose from: a full marathon at 42.195km, a half marathon at 21.098km, a 10km race, a 5km race, and a shorter 2km distance, making it accessible to runners of varying experience levels and fitness goals."
+    },
+    {
+      "question": "How do I register for the 2027 race?",
+      "answer": "Registration for the Laguna Phuket Marathon 2027 currently offers priority access to runners who completed the 2026 edition of the race. This priority registration period is open now, giving previous finishers an early chance to secure their entry before general registration details become available to the wider public."
+    },
+    {
+      "question": "Where exactly is the race held?",
+      "answer": "The race is held at Laguna Phuket, located in Ban Bang Thao, in the city of Phuket, Thailand. This venue serves as the host location for all distance events, including the full marathon, half marathon, 10km, 5km, and 2km races that make up the Laguna Phuket Marathon 2027."
+    }
+  ],
+  "reliability_score": 73,
   "tags": [
     "full-marathon",
     "thailand",
@@ -36,7 +59,7 @@
       "url": "https://phuketmarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-14"
+      "last_checked": "2026-07-31"
     }
   ],
   "affiliate_links": [],
@@ -48,6 +71,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-14",
+  "last_updated": "2026-07-31",
   "status": "active"
 }

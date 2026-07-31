@@ -4,27 +4,50 @@
   "name": "Scenic Half Marathon Pranburi",
   "category_id": "half-marathon",
   "region_id": "thailand",
-  "short_description": "Scenic Half Marathon Pranburi takes place February 14, 2027 in Prachuap Khiri Khan, Thailand.",
-  "ai_summary": "Scenic Half Marathon Pranburi is a road running event in Prachuap Khiri Khan, Thailand, featuring 21K Half Marathon; 10K; 5K; 3K. The race takes place on February 14, 2027, starting from Paknam Pran Beach Park, Pranburi. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half-marathon and multi-distance running event held at Paknam Pran Beach Park in Pranburi, Thailand on February 15, 2026.",
+  "ai_summary": "The Scenic Half Marathon Pranburi is scheduled for February 15, 2026, at Paknam Pran Beach Park in Pranburi, Prachuap Khiri Khan, Thailand. Organized by the Scenic Marathon Series, the event offers four distance options: 21.1km, 10km, 5km, and 3km, catering to a range of runners from casual participants to half-marathon competitors. Registration details have not yet been announced.",
   "core_facts": {
-    "date": "2027-02-14",
+    "date": "2026-02-15",
     "distance_km": [
       21.1,
-      10.0,
-      5.0,
-      3.0
+      10,
+      5,
+      3
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Scenic Marathon Series",
     "registration_status": "not_yet_announced",
-    "country": "Thailand",
     "venue": "Paknam Pran Beach Park, Pranburi",
     "city": "Prachuap Khiri Khan",
-    "organizer": "Scenic Marathon Series"
+    "country": "Thailand"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km, 3km) suit different fitness levels",
+    "Scenic beach park venue in Pranburi",
+    "Organized by an established event series, the Scenic Marathon Series"
+  ],
+  "cons": [
+    "Registration status has not yet been announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Scenic Half Marathon Pranburi taking place?",
+      "answer": "The Scenic Half Marathon Pranburi is scheduled to take place on February 15, 2026. The event will be held at Paknam Pran Beach Park in Pranburi, located in Prachuap Khiri Khan, Thailand, as organized by the Scenic Marathon Series."
+    },
+    {
+      "question": "What distances can I run at this event?",
+      "answer": "Participants can choose from four distance options at this event: a 21.1km half marathon, a 10km race, a 5km race, and a 3km race. This range allows runners of varying experience levels and fitness goals to take part in the event."
+    },
+    {
+      "question": "Where is the race held?",
+      "answer": "The race is held at Paknam Pran Beach Park, located in Pranburi, within Prachuap Khiri Khan province, Thailand. This coastal venue serves as the setting for all distance categories offered by the Scenic Marathon Series at this event."
+    },
+    {
+      "question": "Is registration open for this race?",
+      "answer": "As of now, registration status for the Scenic Half Marathon Pranburi has not yet been announced. Prospective participants should check back for updates from the Scenic Marathon Series regarding when sign-ups will become available for this event."
+    }
+  ],
   "reliability_score": 40,
   "tags": [
     "half-marathon",
@@ -35,7 +58,7 @@
       "url": "https://scenicmarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-31"
     }
   ],
   "affiliate_links": [],
@@ -47,6 +70,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
-  "status": "active"
+  "last_updated": "2026-07-31",
+  "status": "needs_review"
 }

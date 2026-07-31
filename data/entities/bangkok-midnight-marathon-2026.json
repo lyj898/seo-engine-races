@@ -4,26 +4,50 @@
   "name": "Bangkok Midnight Marathon 2026",
   "category_id": "half-marathon",
   "region_id": "thailand",
-  "short_description": "Bangkok Midnight Marathon 2026 takes place December 20, 2026 in Bangkok, Thailand.",
-  "ai_summary": "Bangkok Midnight Marathon 2026 is a road running event in Bangkok, Thailand, featuring Half Marathon (21.0975KM); 10K. The race takes place on December 20, 2026, starting from Rama VIII Bridge / Sanam Luang area, Bangkok. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half-marathon and 10 km event held in Bangkok, Thailand on December 20, 2026, organized by Taozing Running Club.",
+  "ai_summary": "The Bangkok Midnight Marathon 2026 is a half-marathon event scheduled for December 20, 2026, organized by Taozing Running Club. Held around the Rama VIII Bridge and Sanam Luang area in Bangkok, Thailand, the race offers two distance options: a 21.098 km half-marathon and a 10 km run. Registration details have not yet been announced.",
   "core_facts": {
     "date": "2026-12-20",
     "distance_km": [
       21.098,
-      10.0
+      10
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Taozing Running Club",
     "registration_status": "not_yet_announced",
-    "country": "Thailand",
     "venue": "Rama VIII Bridge / Sanam Luang area, Bangkok",
     "city": "Bangkok",
-    "organizer": "Taozing Running Club"
+    "country": "Thailand"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1 km and 10 km) suit different runner levels",
+    "Scenic urban route through Bangkok's Rama VIII Bridge and Sanam Luang area",
+    "Organized by an established running club, Taozing Running Club"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so entry details are unavailable",
+    "No pricing, course map, or start-time information currently provided"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 72,
+  "faqs": [
+    {
+      "question": "When is the Bangkok Midnight Marathon 2026 taking place?",
+      "answer": "The Bangkok Midnight Marathon 2026 is scheduled to take place on December 20, 2026. The event will be held in Bangkok, Thailand, specifically around the Rama VIII Bridge and Sanam Luang area, though further schedule details such as start times have not yet been announced."
+    },
+    {
+      "question": "What distances are offered at this event?",
+      "answer": "The Bangkok Midnight Marathon 2026 offers two race distances: a half-marathon of 21.098 km, which serves as the primary distance, and a shorter 10 km option. This allows participants to choose an event suited to their fitness level and experience."
+    },
+    {
+      "question": "Where does the race take place?",
+      "answer": "The race takes place in Bangkok, Thailand, centered around the Rama VIII Bridge and Sanam Luang area. This central Bangkok location provides participants with a route through notable landmarks in the city, though a full course map has not been detailed yet."
+    },
+    {
+      "question": "Who organizes the Bangkok Midnight Marathon 2026?",
+      "answer": "The Bangkok Midnight Marathon 2026 is organized by Taozing Running Club. The event is held in Bangkok, Thailand, though details regarding registration and further event logistics have not yet been announced by the organizer."
+    }
+  ],
+  "reliability_score": 67,
   "tags": [
     "half-marathon",
     "thailand"
@@ -33,7 +57,7 @@
       "url": "https://aims-worldrunning.org/calendar.html",
       "label": "aims-worldrunning.org",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://ahotu.com",
@@ -69,6 +93,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-31",
   "status": "active"
 }

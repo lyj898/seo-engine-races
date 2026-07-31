@@ -4,26 +4,50 @@
   "name": "Thai Sikh Run (31st ed.)",
   "category_id": "half-marathon",
   "region_id": "thailand",
-  "short_description": "Thai Sikh Run (31st ed.) takes place January 31, 2027 in Bangkok, Thailand.",
-  "ai_summary": "Thai Sikh Run (31st ed.) is a road running event in Bangkok, Thailand, featuring Half Marathon (21.0975KM); 10K; Kids Run. The race takes place on January 31, 2027, starting from Old Siam Plaza area, Bangkok. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The Thai Sikh Run is a 31st-edition half-marathon and 10km race held in Bangkok, Thailand, on January 31, 2027.",
+  "ai_summary": "The Thai Sikh Run is set for January 31, 2027, in Bangkok, Thailand, starting near the Old Siam Plaza area. Now in its 31st edition, the event is organized by the Thai Sikh community organizing committee and offers two distance options: a 21.098km half marathon and a 10km race. Registration details for this edition have not yet been announced.",
   "core_facts": {
     "date": "2027-01-31",
     "distance_km": [
       21.098,
-      10.0
+      10
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Thai Sikh community organizing committee",
     "registration_status": "not_yet_announced",
-    "country": "Thailand",
     "venue": "Old Siam Plaza area, Bangkok",
     "city": "Bangkok",
-    "organizer": "Thai Sikh community organizing committee"
+    "country": "Thailand"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Long-running event now in its 31st edition, suggesting an established tradition",
+    "Offers two distance choices, a 21.098km half marathon and a 10km race, to suit different runners",
+    "Central Bangkok location at the Old Siam Plaza area makes it accessible for city visitors",
+    "Organized by the Thai Sikh community organizing committee, giving it a distinct cultural identity"
+  ],
+  "cons": [
+    "Registration status has not yet been announced, so entry details and pricing are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 70,
+  "faqs": [
+    {
+      "question": "When is the Thai Sikh Run taking place?",
+      "answer": "The Thai Sikh Run is scheduled to take place on January 31, 2027. This will be the 31st edition of the event, which is held in Bangkok, Thailand, starting from the Old Siam Plaza area. No further scheduling details have been provided beyond this date."
+    },
+    {
+      "question": "What distances are offered at the Thai Sikh Run?",
+      "answer": "The Thai Sikh Run offers two race distances for participants to choose from: a 21.098km half marathon, which serves as the primary distance for the event, and a shorter 10km race. Both distances are part of the same event held in Bangkok, Thailand."
+    },
+    {
+      "question": "Who organizes the Thai Sikh Run?",
+      "answer": "The Thai Sikh Run is organized by the Thai Sikh community organizing committee. This group has run the event for over three decades, with the upcoming edition marking the 31st time the race has been held in Bangkok, Thailand."
+    },
+    {
+      "question": "Is registration open for the 2027 Thai Sikh Run?",
+      "answer": "As of now, registration for the 2027 edition of the Thai Sikh Run has not yet been announced. Prospective participants will need to wait for further updates from the organizing committee regarding sign-up dates, fees, and other entry requirements before they can register."
+    }
+  ],
+  "reliability_score": 65,
   "tags": [
     "half-marathon",
     "thailand"
@@ -33,7 +57,7 @@
       "url": "https://aims-worldrunning.org/calendar.html",
       "label": "aims-worldrunning.org",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://bangkokpost.com",
@@ -63,6 +87,6 @@
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-31",
   "status": "active"
 }

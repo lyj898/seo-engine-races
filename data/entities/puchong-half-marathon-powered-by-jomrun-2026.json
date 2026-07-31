@@ -4,23 +4,46 @@
   "name": "Puchong Half Marathon Powered by JomRun®",
   "category_id": "half-marathon",
   "region_id": "malaysia",
-  "short_description": "Puchong Half Marathon Powered by JomRun® takes place October 25, 2026 in Puchong, Selangor, Malaysia.",
-  "ai_summary": "Puchong Half Marathon Powered by JomRun® is a road running event in Puchong, Selangor, Malaysia, featuring Half Marathon. The race takes place on October 25, 2026, starting from AEON BiG Puchong Utama. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half marathon event in Puchong, Selangor, Malaysia on October 25, 2026, offering 5km, 10km, and 21.1km distances, with registration currently open.",
+  "ai_summary": "The Puchong Half Marathon Powered by JomRun® is a road race scheduled for October 25, 2026, based at AEON BiG Puchong Utama in Puchong, Selangor, Malaysia. Runners can choose from 5km, 10km, or the primary 21.1km half marathon distance. Registration for the event is currently open, giving participants time to plan and sign up ahead of race day.",
   "core_facts": {
     "date": "2026-10-25",
     "distance_km": [
+      5,
+      10,
       21.1
     ],
     "primary_distance_km": 21.1,
     "registration_status": "Open",
-    "country": "Malaysia",
     "venue": "AEON BiG Puchong Utama",
-    "city": "Puchong, Selangor"
+    "city": "Puchong, Selangor",
+    "country": "Malaysia"
   },
-  "pros": [],
+  "pros": [
+    "Multiple distance options (5km, 10km, 21.1km) suit different fitness levels",
+    "Registration is currently open, allowing ample time to prepare",
+    "Convenient, accessible venue at AEON BiG Puchong Utama"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Puchong Half Marathon Powered by JomRun® taking place?",
+      "answer": "The Puchong Half Marathon Powered by JomRun® is scheduled to take place on October 25, 2026. This date has been confirmed for the event, giving participants a clear timeframe to prepare their training schedules and make necessary travel or accommodation arrangements ahead of race day in Puchong, Selangor, Malaysia."
+    },
+    {
+      "question": "What distances can I run in this event?",
+      "answer": "Participants can choose from three distance options at this event: 5km, 10km, and the primary 21.1km half marathon distance. This range allows runners of varying experience and fitness levels to select a distance that best matches their personal running goals and training background."
+    },
+    {
+      "question": "Where is the race held?",
+      "answer": "The race is held at AEON BiG Puchong Utama, located in Puchong, Selangor, Malaysia. This venue serves as the base for the event, making it a central point for runners to gather, start, and finish their respective 5km, 10km, or 21.1km races."
+    },
+    {
+      "question": "Is registration still open for this race?",
+      "answer": "Yes, registration for the Puchong Half Marathon Powered by JomRun® is currently open. Interested runners can sign up now to secure their spot in the 5km, 10km, or 21.1km half marathon category ahead of the October 25, 2026 race date."
+    }
+  ],
   "reliability_score": 45,
   "tags": [
     "half-marathon",
@@ -31,7 +54,7 @@
       "url": "https://www.jomrun.com/event/Puchong-Half-Marathon-Powered-by-JomRun",
       "label": "jomrun.com",
       "type": "aggregator",
-      "last_checked": "2026-07-13"
+      "last_checked": "2026-07-31"
     }
   ],
   "affiliate_links": [],
@@ -43,6 +66,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-13",
-  "status": "active"
+  "last_updated": "2026-07-31",
+  "status": "needs_review"
 }

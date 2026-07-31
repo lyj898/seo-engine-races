@@ -4,26 +4,50 @@
   "name": "Cyberjaya 21K 2026",
   "category_id": "half-marathon",
   "region_id": "malaysia",
-  "short_description": "Cyberjaya 21K 2026 takes place August 2, 2026 in Cyberjaya, Selangor, Malaysia.",
-  "ai_summary": "Cyberjaya 21K 2026 is a road running event in Cyberjaya, Selangor, Malaysia, featuring Half Marathon. The race takes place on August 2, 2026, starting from Rekascape, Persiaran APEC, Cyberjaya, Selangor. Registration is Closed as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "Cyberjaya 21K 2026 is a 21.1 km half-marathon in Cyberjaya, Selangor, Malaysia, held on August 2, 2026, with registration now closed.",
+  "ai_summary": "Cyberjaya 21K 2026 is a half-marathon organized by Tetrad Event Empire, scheduled for August 2, 2026, in Cyberjaya, Selangor, Malaysia. The race covers a primary distance of 21.1 km and starts at Rekascape, Persiaran APEC. Entry was priced at MYR 60, but registration is currently closed.",
   "core_facts": {
     "date": "2026-08-02",
     "distance_km": [
       21.1
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Tetrad Event Empire",
     "registration_status": "Closed",
-    "country": "Malaysia",
+    "price_range": "MYR 60",
     "venue": "Rekascape, Persiaran APEC, Cyberjaya, Selangor",
     "city": "Cyberjaya, Selangor",
-    "organizer": "Tetrad Event Empire",
-    "price_range": "MYR 60"
+    "country": "Malaysia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Affordable entry fee of MYR 60",
+    "Single clear half-marathon distance of 21.1 km",
+    "Organized by an established event organizer, Tetrad Event Empire",
+    "Convenient venue at Rekascape, Persiaran APEC, Cyberjaya"
+  ],
+  "cons": [
+    "Registration status is listed as Closed, so new sign-ups are not currently possible"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 50,
+  "faqs": [
+    {
+      "question": "When is the Cyberjaya 21K 2026 taking place?",
+      "answer": "The Cyberjaya 21K 2026 is scheduled to take place on August 2, 2026. The race is held in Cyberjaya, Selangor, Malaysia, starting from Rekascape, Persiaran APEC, and is organized by Tetrad Event Empire, offering a 21.1 km half-marathon distance for participants."
+    },
+    {
+      "question": "What distance is offered at Cyberjaya 21K 2026?",
+      "answer": "Cyberjaya 21K 2026 offers a single race distance of 21.1 km, making it a half-marathon event. This is the primary and only listed distance for the race, held on August 2, 2026 at Rekascape, Persiaran APEC, Cyberjaya, Selangor, Malaysia."
+    },
+    {
+      "question": "Can I still register for Cyberjaya 21K 2026?",
+      "answer": "No, registration for Cyberjaya 21K 2026 is currently listed as Closed. When registration was open, the entry price was MYR 60. The race is organized by Tetrad Event Empire and takes place on August 2, 2026 in Cyberjaya, Selangor, Malaysia."
+    },
+    {
+      "question": "How much does it cost to enter Cyberjaya 21K 2026?",
+      "answer": "The entry price for Cyberjaya 21K 2026 was set at MYR 60 for the 21.1 km half-marathon distance. This pricing applied while registration was open; however, registration for the event organized by Tetrad Event Empire is now marked as Closed."
+    }
+  ],
+  "reliability_score": 35,
   "tags": [
     "half-marathon",
     "malaysia"
@@ -45,6 +69,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
-  "status": "active"
+  "last_updated": "2026-07-31",
+  "status": "needs_review"
 }

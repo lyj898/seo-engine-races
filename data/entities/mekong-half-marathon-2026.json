@@ -4,27 +4,48 @@
   "name": "Mekong Half Marathon",
   "category_id": "half-marathon",
   "region_id": "laos",
-  "short_description": "Mekong Half Marathon takes place September 27, 2026 in Vientiane, Laos.",
-  "ai_summary": "Mekong Half Marathon is a road running event in Vientiane, Laos, featuring Half Marathon (21KM), 10KM, 5KM. The race takes place on September 27, 2026, starting from Xaysetha Economic Zone, Vientiane. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The Mekong Half Marathon is a 21.1km race held in Vientiane, Laos, with registration currently open.",
+  "ai_summary": "The Mekong Half Marathon is a road running event scheduled for September 27, 2026, in Vientiane, Laos. Organized by Green Step, it takes place at the Xaysetha Economic Zone and offers three distance options: 21.1km, 10km, and 5km. Registration for the event is currently open to interested runners.",
   "core_facts": {
     "date": "2026-09-27",
     "distance_km": [
-      21.0,
-      10.0,
-      5.0
+      21,
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Green Step",
     "registration_status": "Open",
-    "country": "Laos",
     "venue": "Xaysetha Economic Zone, Vientiane",
     "city": "Vientiane",
-    "organizer": "Green Step"
+    "country": "Laos"
   },
-  "pros": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km) suit a range of runner abilities",
+    "Registration is currently open, giving runners time to plan and prepare",
+    "Organized event with a defined venue at Xaysetha Economic Zone, Vientiane"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 66,
+  "faqs": [
+    {
+      "question": "When is the Mekong Half Marathon taking place?",
+      "answer": "The Mekong Half Marathon is scheduled to take place on September 27, 2026. It is organized by Green Step and held in Vientiane, Laos. Runners interested in participating should note that registration for this event is currently open, so early planning is recommended."
+    },
+    {
+      "question": "What distances can I run at the Mekong Half Marathon?",
+      "answer": "The Mekong Half Marathon offers three distance options for participants to choose from: 21.1km, 10km, and 5km. The primary distance for the event is the 21.1km half marathon, though runners can select the shorter 10km or 5km distances if preferred."
+    },
+    {
+      "question": "Where is the Mekong Half Marathon held?",
+      "answer": "The Mekong Half Marathon is held at the Xaysetha Economic Zone in Vientiane, Laos. This venue serves as the location for the race, which is organized by Green Step and includes distance options of 21.1km, 10km, and 5km for participants."
+    },
+    {
+      "question": "Is registration currently open for the Mekong Half Marathon?",
+      "answer": "Yes, registration for the Mekong Half Marathon is currently open. Interested runners can sign up ahead of the race date of September 27, 2026, which will be held at the Xaysetha Economic Zone in Vientiane, Laos, organized by Green Step."
+    }
+  ],
+  "reliability_score": 51,
   "tags": [
     "half-marathon",
     "laos"
@@ -64,6 +85,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-23",
-  "status": "active"
+  "last_updated": "2026-07-31",
+  "status": "needs_review"
 }

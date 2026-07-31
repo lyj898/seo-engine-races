@@ -4,27 +4,50 @@
   "name": "The Final Trace: A Strong Race for a Cause",
   "category_id": "half-marathon",
   "region_id": "philippines",
-  "short_description": "The Final Trace: A Strong Race for a Cause takes place August 22, 2026 in Angeles City / Clark, Pampanga, Philippines.",
-  "ai_summary": "The Final Trace: A Strong Race for a Cause is a road running event in Angeles City / Clark, Pampanga, Philippines, featuring Half Marathon (21K); 10K; 5K; 3K. The race takes place on August 22, 2026, starting from CDC Clark Parade Grounds. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The Final Trace: A Strong Race for a Cause is a half-marathon event on August 22, 2026, at CDC Clark Parade Grounds in Pampanga, Philippines.",
+  "ai_summary": "The Final Trace: A Strong Race for a Cause is a half-marathon event scheduled for August 22, 2026, at the CDC Clark Parade Grounds in Angeles City/Clark, Pampanga, Philippines. Organized by SMOKE10 Events, the race offers multiple distance options including 21.1km, 10km, 5km, and 3km, catering to a range of runner abilities. Registration details have not yet been announced.",
   "core_facts": {
     "date": "2026-08-22",
     "distance_km": [
       21.1,
-      10.0,
-      5.0,
-      3.0
+      10,
+      5,
+      3
     ],
     "primary_distance_km": 21.1,
+    "organizer": "SMOKE10 Events",
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "CDC Clark Parade Grounds",
     "city": "Angeles City / Clark, Pampanga",
-    "organizer": "SMOKE10 Events"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km, 3km) accommodate different fitness levels",
+    "Held at a dedicated venue, CDC Clark Parade Grounds, in Angeles City/Clark, Pampanga",
+    "Organized by SMOKE10 Events, a named event organizer"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is The Final Trace: A Strong Race for a Cause taking place?",
+      "answer": "The Final Trace: A Strong Race for a Cause is scheduled to take place on August 22, 2026. The event will be held at the CDC Clark Parade Grounds, located in Angeles City/Clark, Pampanga, Philippines, and is organized by SMOKE10 Events."
+    },
+    {
+      "question": "What distances are offered at this race?",
+      "answer": "This event offers four distance options for participants: a 21.1km half-marathon as the primary distance, along with 10km, 5km, and 3km races. This range allows runners of varying experience and fitness levels to participate in the event."
+    },
+    {
+      "question": "Is registration open yet for this race?",
+      "answer": "As of now, the registration status for The Final Trace: A Strong Race for a Cause has not yet been announced. Prospective participants should check back for updates on when registration will open ahead of the August 22, 2026 event date."
+    },
+    {
+      "question": "Who organizes The Final Trace: A Strong Race for a Cause?",
+      "answer": "The Final Trace: A Strong Race for a Cause is organized by SMOKE10 Events. The race will be held at the CDC Clark Parade Grounds in Angeles City/Clark, Pampanga, Philippines, on August 22, 2026, featuring multiple race distances."
+    }
+  ],
   "reliability_score": 40,
   "tags": [
     "half-marathon",

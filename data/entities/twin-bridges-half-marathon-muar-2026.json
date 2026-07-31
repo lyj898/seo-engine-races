@@ -4,8 +4,8 @@
   "name": "Twin Bridges Half Marathon Muar 2026",
   "category_id": "half-marathon",
   "region_id": "malaysia",
-  "short_description": "Twin Bridges Half Marathon Muar 2026 takes place October 25, 2026 in Muar, Johor, Malaysia.",
-  "ai_summary": "Twin Bridges Half Marathon Muar 2026 is a road running event in Muar, Johor, Malaysia, featuring Half Marathon. The race takes place on October 25, 2026, starting from Dataran Tanjung Emas, Muar, Johor. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A 21.1km half marathon held on October 25, 2026, at Dataran Tanjung Emas in Muar, Johor, Malaysia.",
+  "ai_summary": "The Twin Bridges Half Marathon Muar 2026 is a half marathon event scheduled for October 25, 2026, in Muar, Johor, Malaysia. The race covers a distance of 21.1 kilometers and starts at Dataran Tanjung Emas. Registration is currently open for runners interested in participating in this Malaysian road race.",
   "core_facts": {
     "date": "2026-10-25",
     "distance_km": [
@@ -13,15 +13,36 @@
     ],
     "primary_distance_km": 21.1,
     "registration_status": "Open",
-    "country": "Malaysia",
     "venue": "Dataran Tanjung Emas, Muar, Johor",
-    "city": "Muar, Johor"
+    "city": "Muar, Johor",
+    "country": "Malaysia"
   },
-  "pros": [],
+  "pros": [
+    "Registration is currently open, allowing runners time to plan and sign up",
+    "Single half-marathon distance of 21.1km keeps the event focused",
+    "Centrally located at Dataran Tanjung Emas in Muar, Johor"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 45,
+  "faqs": [
+    {
+      "question": "When is the Twin Bridges Half Marathon Muar 2026?",
+      "answer": "The Twin Bridges Half Marathon Muar 2026 is scheduled to take place on October 25, 2026. The event will be held in Muar, Johor, Malaysia, giving participants a specific date to prepare their training schedules and travel arrangements ahead of race day."
+    },
+    {
+      "question": "What distance is offered at this race?",
+      "answer": "This race offers a half marathon distance of 21.1 kilometers, which is the primary and only distance listed for the Twin Bridges Half Marathon Muar 2026. Runners looking specifically for a half marathon challenge in Malaysia can register for this distance."
+    },
+    {
+      "question": "Where does the race start?",
+      "answer": "The race starts at Dataran Tanjung Emas, located in Muar, Johor, Malaysia. This venue serves as the central point for the Twin Bridges Half Marathon Muar 2026, and participants should plan to arrive at this location on the day of the event."
+    },
+    {
+      "question": "Is registration open for this race?",
+      "answer": "Yes, registration for the Twin Bridges Half Marathon Muar 2026 is currently open. Interested runners can sign up now to secure their spot in the 21.1km half marathon taking place in Muar, Johor, on October 25, 2026."
+    }
+  ],
+  "reliability_score": 30,
   "tags": [
     "half-marathon",
     "malaysia"
@@ -43,6 +64,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-13",
-  "status": "active"
+  "last_updated": "2026-07-31",
+  "status": "needs_review"
 }

@@ -4,29 +4,52 @@
   "name": "National MILO Marathon 2026 – Vermosa Leg",
   "category_id": "half-marathon",
   "region_id": "philippines",
-  "short_description": "National MILO Marathon 2026 – Vermosa Leg takes place October 11, 2026 in Vermosa, Imus/Dasmariñas, Cavite, Philippines.",
-  "ai_summary": "National MILO Marathon 2026 – Vermosa Leg is a road running event in Vermosa, Imus/Dasmariñas, Cavite, Philippines, featuring 1K; 3K; 5K; 10K; 21K Half Marathon (42K category not independently confirmed for this leg). The race takes place on October 11, 2026, starting from Vermosa, Imus/Dasmariñas, Cavite. Registration is Not yet confirmed open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half-marathon leg of the National MILO Marathon 2026 taking place October 11, 2026 in Vermosa, Cavite, Philippines.",
+  "ai_summary": "The National MILO Marathon 2026 – Vermosa Leg is a half-marathon event scheduled for October 11, 2026, held in Vermosa, spanning Imus and Dasmariñas, Cavite, Philippines. Organized by RUNRIO Inc. under the long-running MILO Marathon banner, it offers multiple distance options including 1km, 3km, 5km, 10km, and the primary 21.1km half-marathon. Registration status has not yet been confirmed as open.",
   "core_facts": {
     "date": "2026-10-11",
     "distance_km": [
-      1.0,
-      3.0,
-      5.0,
-      10.0,
+      1,
+      3,
+      5,
+      10,
       21.1
     ],
     "primary_distance_km": 21.1,
+    "organizer": "RUNRIO Inc. (MILO Marathon)",
     "registration_status": "Not yet confirmed open",
-    "country": "Philippines",
     "venue": "Vermosa, Imus/Dasmariñas, Cavite",
     "city": "Vermosa, Imus/Dasmariñas, Cavite",
-    "organizer": "RUNRIO Inc. (MILO Marathon)"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (1km, 3km, 5km, 10km, 21.1km) suit different runner levels",
+    "Organized by RUNRIO Inc., part of the established MILO Marathon series",
+    "Set in Vermosa, a defined venue across Imus/Dasmariñas, Cavite"
+  ],
+  "cons": [
+    "Registration status is not yet confirmed as open, so details on signing up are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 60,
+  "faqs": [
+    {
+      "question": "When is the National MILO Marathon 2026 – Vermosa Leg?",
+      "answer": "This race is scheduled to take place on October 11, 2026. It is held at Vermosa, a venue located across Imus and Dasmariñas in Cavite, Philippines, as part of the broader National MILO Marathon 2026 series of events."
+    },
+    {
+      "question": "What distances are offered at this race?",
+      "answer": "The event offers five distance categories: 1km, 3km, 5km, 10km, and 21.1km. The 21.1km half-marathon is the primary distance for this leg, giving participants a range of options from short fun runs to a full half-marathon challenge."
+    },
+    {
+      "question": "Who organizes this race?",
+      "answer": "The National MILO Marathon 2026 – Vermosa Leg is organized by RUNRIO Inc., which manages events under the long-standing MILO Marathon banner. This organizer is responsible for coordinating the race across its various legs, including the Vermosa location in Cavite."
+    },
+    {
+      "question": "Is registration open yet?",
+      "answer": "As of the latest available information, registration for this race has not yet been confirmed as open. Prospective participants should check back for updates regarding sign-up details, since no confirmed registration window or process has been established at this time."
+    }
+  ],
+  "reliability_score": 55,
   "tags": [
     "half-marathon",
     "philippines"
@@ -36,7 +59,7 @@
       "url": "https://www.milo.com.ph/national-milo-marathon",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://pinoyfitness.com/2026/01/milo-marathon-2026-full-race-schedule-and-locations-unveiled",
@@ -54,6 +77,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-31",
   "status": "active"
 }

@@ -4,29 +4,52 @@
   "name": "EastWest Dream Run 2026 - Iloilo",
   "category_id": "half-marathon",
   "region_id": "philippines",
-  "short_description": "EastWest Dream Run 2026 - Iloilo takes place September 20, 2026 in Iloilo City, Philippines.",
-  "ai_summary": "EastWest Dream Run 2026 - Iloilo is a road running event in Iloilo City, Philippines, featuring Half Marathon (21KM), 10KM, 5KM, 3KM, 1KM. The race takes place on September 20, 2026, starting from Iloilo City. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half-marathon event set for September 20, 2026 in Iloilo City, Philippines, organized by Runrio under the EastWest Dream Run brand.",
+  "ai_summary": "The EastWest Dream Run 2026 - Iloilo is a half-marathon event scheduled for September 20, 2026, in Iloilo City, Philippines. Organized by Runrio under the EastWest Dream Run brand, the race offers multiple distance options including 21.1km, 10km, 5km, 3km, and 1km. Registration details have not yet been announced.",
   "core_facts": {
     "date": "2026-09-20",
     "distance_km": [
-      21.0,
-      10.0,
-      5.0,
-      3.0,
-      1.0
+      21,
+      10,
+      5,
+      3,
+      1
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Runrio (brand: EastWest Dream Run)",
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "Iloilo City",
     "city": "Iloilo City",
-    "organizer": "Runrio (brand: EastWest Dream Run)"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km, 3km, 1km) suit a range of runner abilities",
+    "Organized by Runrio, an established organizer of the EastWest Dream Run series",
+    "Takes place in Iloilo City, offering a specific and identifiable race location"
+  ],
+  "cons": [
+    "Registration status has not yet been announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 80,
+  "faqs": [
+    {
+      "question": "When is the EastWest Dream Run 2026 - Iloilo taking place?",
+      "answer": "The EastWest Dream Run 2026 - Iloilo is scheduled to take place on September 20, 2026. The event will be held in Iloilo City, Philippines, and is organized under the EastWest Dream Run brand by Runrio, a known organizer of running events in the country."
+    },
+    {
+      "question": "What distances are offered at this race?",
+      "answer": "This race offers a range of distance options for participants to choose from, including 21.1km, 10km, 5km, 3km, and 1km. The primary distance for the event is the 21.1km half-marathon, making it suitable for both competitive and casual runners of varying fitness levels."
+    },
+    {
+      "question": "Who organizes the EastWest Dream Run 2026 - Iloilo?",
+      "answer": "The EastWest Dream Run 2026 - Iloilo is organized by Runrio, operating under the EastWest Dream Run brand name. Runrio is responsible for coordinating the event details, including the race distances, venue, and scheduling for this Iloilo City edition of the run."
+    },
+    {
+      "question": "Is registration open for this race?",
+      "answer": "As of the latest available information, registration for the EastWest Dream Run 2026 - Iloilo has not yet been announced. Prospective participants should watch for updates from the organizer, Runrio, regarding when and how to sign up for this half-marathon event."
+    }
+  ],
+  "reliability_score": 75,
   "tags": [
     "half-marathon",
     "philippines",
@@ -37,7 +60,7 @@
       "url": "https://runrio.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://runrio.com/race-calendar",
@@ -55,6 +78,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-31",
   "status": "active"
 }

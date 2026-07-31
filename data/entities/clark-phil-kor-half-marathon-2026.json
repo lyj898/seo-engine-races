@@ -4,27 +4,48 @@
   "name": "Clark Phil-Kor Half Marathon 2026",
   "category_id": "half-marathon",
   "region_id": "philippines",
-  "short_description": "Clark Phil-Kor Half Marathon 2026 takes place November 22, 2026 in Angeles City / Clark, Pampanga, Philippines.",
-  "ai_summary": "Clark Phil-Kor Half Marathon 2026 is a road running event in Angeles City / Clark, Pampanga, Philippines, featuring Half Marathon (21K); 10K; 5K; 3K. The race takes place on November 22, 2026, starting from Clark Parade Grounds. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half-marathon and multi-distance race held November 22, 2026 at Clark Parade Grounds in Angeles City / Clark, Pampanga, Philippines.",
+  "ai_summary": "The Clark Phil-Kor Half Marathon 2026 is scheduled for November 22, 2026 at the Clark Parade Grounds in Angeles City / Clark, Pampanga, Philippines. Organized by SMOKE10 Events, the race offers four distance options: 21.1km, 10km, 5km, and 3km, catering to a range of runners from beginners to seasoned half-marathoners. Registration for the event is currently open.",
   "core_facts": {
     "date": "2026-11-22",
     "distance_km": [
       21.1,
-      10.0,
-      5.0,
-      3.0
+      10,
+      5,
+      3
     ],
     "primary_distance_km": 21.1,
+    "organizer": "SMOKE10 Events",
     "registration_status": "Open",
-    "country": "Philippines",
     "venue": "Clark Parade Grounds",
     "city": "Angeles City / Clark, Pampanga",
-    "organizer": "SMOKE10 Events"
+    "country": "Philippines"
   },
-  "pros": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km, 3km) suit different runner levels",
+    "Registration is currently open",
+    "Held at a notable venue, Clark Parade Grounds, in Pampanga"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Clark Phil-Kor Half Marathon 2026?",
+      "answer": "The Clark Phil-Kor Half Marathon 2026 is scheduled to take place on November 22, 2026. The event will be held at the Clark Parade Grounds in Angeles City / Clark, Pampanga, Philippines, and is organized by SMOKE10 Events, offering multiple distance categories for participants."
+    },
+    {
+      "question": "Is registration open for this race?",
+      "answer": "Yes, registration for the Clark Phil-Kor Half Marathon 2026 is currently open. Prospective participants can sign up ahead of the race date of November 22, 2026, choosing from the available distance options of 21.1km, 10km, 5km, or 3km."
+    },
+    {
+      "question": "Where is the race held?",
+      "answer": "The race takes place at the Clark Parade Grounds, located in Angeles City / Clark, Pampanga, in the Philippines. This venue serves as the host site for all distance categories offered during the Clark Phil-Kor Half Marathon 2026 event."
+    },
+    {
+      "question": "What distance options are available at this event?",
+      "answer": "The Clark Phil-Kor Half Marathon 2026 offers four distance categories for participants to choose from: a 21.1km half marathon, a 10km race, a 5km race, and a 3km race, accommodating runners of varying experience levels and goals."
+    }
+  ],
   "reliability_score": 55,
   "tags": [
     "half-marathon",

@@ -4,27 +4,51 @@
   "name": "Trailblaze Nueva Ecija Marathon 2026",
   "category_id": "full-marathon",
   "region_id": "philippines",
-  "short_description": "Trailblaze Nueva Ecija Marathon 2026 takes place August 30, 2026 in Palayan City, Nueva Ecija, Philippines.",
-  "ai_summary": "Trailblaze Nueva Ecija Marathon 2026 is a road running event in Palayan City, Nueva Ecija, Philippines, featuring Full Marathon (42K); Half Marathon (21K); 10K; 5K. The race takes place on August 30, 2026, starting from Palayan City. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The Trailblaze Nueva Ecija Marathon 2026 is a full marathon held in Palayan City, Nueva Ecija, Philippines on August 30, 2026.",
+  "ai_summary": "The Trailblaze Nueva Ecija Marathon 2026 is a full marathon event scheduled for August 30, 2026, in Palayan City, Nueva Ecija, Philippines. Organized by TNER, the race offers four distance options: 42.195km, 21.1km, 10km, and 5km, catering to a range of runners from casual participants to marathon competitors. Registration details have not yet been announced. The event provides a chance to race across a full marathon distance in a Philippine provincial setting.",
   "core_facts": {
     "date": "2026-08-30",
     "distance_km": [
       42.195,
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 42.195,
+    "organizer": "TNER",
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "Palayan City",
     "city": "Palayan City, Nueva Ecija",
-    "organizer": "TNER"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (42.195km, 21.1km, 10km, 5km) suit different runner levels",
+    "Full marathon distance available for serious distance runners",
+    "Located in Palayan City, Nueva Ecija, offering a provincial Philippine race setting",
+    "Organized by a dedicated organizer, TNER"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so entry details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Trailblaze Nueva Ecija Marathon 2026 taking place?",
+      "answer": "The Trailblaze Nueva Ecija Marathon 2026 is scheduled for August 30, 2026. It takes place in Palayan City, Nueva Ecija, Philippines, and is organized by TNER. The event features multiple distance categories, including the full marathon distance of 42.195km, alongside shorter race options."
+    },
+    {
+      "question": "What distance options are available at this race?",
+      "answer": "The Trailblaze Nueva Ecija Marathon 2026 offers four distance categories: a full marathon of 42.195km, a half marathon of 21.1km, a 10km race, and a 5km race. This range allows participants of varying experience levels and goals to take part in the event."
+    },
+    {
+      "question": "Where is the Trailblaze Nueva Ecija Marathon 2026 held?",
+      "answer": "This race is held in Palayan City, located in Nueva Ecija, Philippines. Palayan City serves as the venue for the event, which is organized by TNER and scheduled for August 30, 2026, offering runners a provincial setting within the Philippines for their marathon experience."
+    },
+    {
+      "question": "Is registration open for the Trailblaze Nueva Ecija Marathon 2026?",
+      "answer": "According to available information, the registration status for the Trailblaze Nueva Ecija Marathon 2026 has not yet been announced. Prospective participants should watch for further updates from the organizer, TNER, regarding when registration will open and what the entry process will involve."
+    }
+  ],
   "reliability_score": 40,
   "tags": [
     "full-marathon",

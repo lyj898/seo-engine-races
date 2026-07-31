@@ -4,23 +4,49 @@
   "name": "Jitra Half Marathon 2026",
   "category_id": "half-marathon",
   "region_id": "malaysia",
-  "short_description": "Jitra Half Marathon 2026 takes place September 19, 2026 in Jitra, Kedah, Malaysia.",
-  "ai_summary": "Jitra Half Marathon 2026 is a road running event in Jitra, Kedah, Malaysia, featuring Half Marathon. The race takes place on September 19, 2026, starting from Darulaman Park, Jitra, Kedah. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The Jitra Half Marathon 2026 is a 21.1km/10km/5km race on 19 September 2026 at Darulaman Park, Jitra, Kedah, Malaysia.",
+  "ai_summary": "The Jitra Half Marathon 2026 takes place on 19 September 2026 at Darulaman Park in Jitra, Kedah, Malaysia. Runners can choose from three distances: 21.1km, 10km, and 5km. Registration is currently open, with early bird pricing of RM80/65/50 available until 31 May 2026, rising to RM95/85/65 from 1 June to 31 July 2026.",
   "core_facts": {
     "date": "2026-09-19",
     "distance_km": [
-      21.1
+      21.1,
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
     "registration_status": "Open",
-    "country": "Malaysia",
+    "price_range": "RM80/65/50 (Early Bird until 31 May 2026), RM95/85/65 (1 Jun-31 Jul 2026) for 21km/10km/5km",
     "venue": "Darulaman Park, Jitra, Kedah",
-    "city": "Jitra, Kedah"
+    "city": "Jitra, Kedah",
+    "country": "Malaysia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km) suit different runner levels",
+    "Early bird pricing available until 31 May 2026 offers savings",
+    "Registration is currently open, giving ample time to prepare"
+  ],
+  "cons": [
+    "Price increases after the early bird period ends on 31 May 2026"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Where is the race held?",
+      "answer": "The Jitra Half Marathon 2026 is held at Darulaman Park in Jitra, Kedah, Malaysia. This venue serves as the base for all three race distances offered—21.1km, 10km, and 5km—taking place on 19 September 2026."
+    },
+    {
+      "question": "What distances can I run?",
+      "answer": "Participants can choose between three distances: a 21.1km half marathon, a 10km run, or a 5km run. All distances take place at the same event on 19 September 2026 at Darulaman Park, Jitra, Kedah."
+    },
+    {
+      "question": "How much does registration cost?",
+      "answer": "Early bird pricing, available until 31 May 2026, is RM80 for 21km, RM65 for 10km, and RM50 for 5km. From 1 June to 31 July 2026, prices rise to RM95, RM85, and RM65 respectively for the same distances."
+    },
+    {
+      "question": "Is registration currently open?",
+      "answer": "Yes, registration for the Jitra Half Marathon 2026 is currently open. Runners can sign up for the 21.1km, 10km, or 5km distances now, with early bird pricing available until 31 May 2026 before rates increase."
+    }
+  ],
   "reliability_score": 82,
   "tags": [
     "half-marathon",
@@ -32,7 +58,7 @@
       "url": "https://bdb.com.my/jitra-half-marathon-kembali-september-tahun-ini",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-13"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://checkpointspot.asia/events",
@@ -50,6 +76,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-13",
-  "status": "active"
+  "last_updated": "2026-07-31",
+  "status": "needs_review"
 }

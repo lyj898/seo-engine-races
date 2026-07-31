@@ -4,27 +4,50 @@
   "name": "Muang Thai Chiang Mai Marathon",
   "category_id": "full-marathon",
   "region_id": "thailand",
-  "short_description": "Muang Thai Chiang Mai Marathon takes place December 20, 2026 in Chiang Mai, Thailand.",
-  "ai_summary": "Muang Thai Chiang Mai Marathon is a road running event in Chiang Mai, Thailand, featuring Full Marathon; Half Marathon; 10km. The race takes place on December 20, 2026, starting from Tha Phae Gate (start); King Naresuan the Great Monument, Mae Rim (finish). Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A full marathon and multi-distance race held in Chiang Mai, Thailand on December 20, 2026, starting at Tha Phae Gate.",
+  "ai_summary": "The Muang Thai Chiang Mai Marathon takes place on December 20, 2026 in Chiang Mai, Thailand, organized by Jog & Joy Co., Ltd. and presented by Muang Thai. The event offers four distances -- a full marathon (42.195km), half marathon (21.1km), 10km, and 3km -- starting at Tha Phae Gate and finishing at the King Naresuan the Great Monument in Mae Rim. Registration is currently open, with prices starting at THB 1500.",
   "core_facts": {
     "date": "2026-12-20",
     "distance_km": [
       42.195,
       21.1,
-      10.0
+      10,
+      3
     ],
     "primary_distance_km": 42.195,
+    "organizer": "Jog & Joy Co., Ltd. (presented by Muang Thai)",
     "registration_status": "Open",
-    "country": "Thailand",
+    "price_range": "THB 1500",
     "venue": "Tha Phae Gate (start); King Naresuan the Great Monument, Mae Rim (finish)",
     "city": "Chiang Mai",
-    "organizer": "Jog & Joy Co., Ltd. (presented by Muang Thai)",
-    "price_range": "THB 1500"
+    "country": "Thailand"
   },
-  "pros": [],
+  "pros": [
+    "Multiple distance options (42.195km, 21.1km, 10km, and 3km) suit a range of runner abilities",
+    "Registration is currently open",
+    "Scenic route starting at the historic Tha Phae Gate and finishing at the King Naresuan the Great Monument",
+    "Affordable entry starting at THB 1500"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Muang Thai Chiang Mai Marathon held?",
+      "answer": "The Muang Thai Chiang Mai Marathon is scheduled for December 20, 2026. It takes place in Chiang Mai, Thailand, and is organized by Jog & Joy Co., Ltd., presented by Muang Thai. Registration for the event is currently open for interested runners planning to take part."
+    },
+    {
+      "question": "What distances can I run at this event?",
+      "answer": "Runners can choose from four distance options at the Muang Thai Chiang Mai Marathon: a full marathon of 42.195km, a half marathon of 21.1km, a 10km race, and a shorter 3km race, allowing participants of different experience levels to take part."
+    },
+    {
+      "question": "How much does it cost to register?",
+      "answer": "Registration for the Muang Thai Chiang Mai Marathon starts at THB 1500. This pricing applies to the event's available distances, and registration is currently open, so interested runners can sign up now to secure their spot at this listed starting price."
+    },
+    {
+      "question": "Where does the race start and finish?",
+      "answer": "The race starts at Tha Phae Gate, a well-known landmark in Chiang Mai, and finishes at the King Naresuan the Great Monument in Mae Rim. This route takes participants from the historic city center out toward the Mae Rim area for the finish."
+    }
+  ],
   "reliability_score": 95,
   "tags": [
     "full-marathon",
@@ -36,7 +59,7 @@
       "url": "https://www.chiangmaimarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-13"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://www.chiangmaimarathon.com/",
@@ -60,6 +83,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-13",
-  "status": "active"
+  "last_updated": "2026-07-31",
+  "status": "needs_review"
 }

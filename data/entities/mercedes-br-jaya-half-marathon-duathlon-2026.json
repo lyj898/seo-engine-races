@@ -4,26 +4,47 @@
   "name": "Mercedes BR Jaya Half Marathon & Duathlon",
   "category_id": "half-marathon",
   "region_id": "malaysia",
-  "short_description": "Mercedes BR Jaya Half Marathon & Duathlon takes place November 15, 2026 in Kulai, Malaysia.",
-  "ai_summary": "Mercedes BR Jaya Half Marathon & Duathlon is a road running event in Kulai, Malaysia, featuring Half Marathon (21.1KM); 10KM Fun Run; 5KM Fun Run. The race takes place on November 15, 2026, starting from AEON Mall Kulai Jaya, Johor. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half marathon and duathlon event held on November 15, 2026 at AEON Mall Kulai Jaya, Johor, Malaysia, with 21.1km, 10km, and 5km distance options.",
+  "ai_summary": "The Mercedes BR Jaya Half Marathon & Duathlon is scheduled for November 15, 2026, at AEON Mall Kulai Jaya in Johor, Malaysia. It offers three distance options: 21.1km, 10km, and 5km, catering to a range of runners from beginners to more experienced participants. Registration for the event is currently open. The race takes place in the city of Kulai, Malaysia.",
   "core_facts": {
     "date": "2026-11-15",
     "distance_km": [
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
     "registration_status": "Open",
-    "country": "Malaysia",
     "venue": "AEON Mall Kulai Jaya, Johor",
-    "city": "Kulai"
+    "city": "Kulai",
+    "country": "Malaysia"
   },
-  "pros": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km) to suit different ability levels",
+    "Registration is currently open, giving participants time to prepare",
+    "Convenient venue at AEON Mall Kulai Jaya, Johor"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 45,
+  "faqs": [
+    {
+      "question": "When is the Mercedes BR Jaya Half Marathon & Duathlon held?",
+      "answer": "The event is scheduled to take place on November 15, 2026. It is held at AEON Mall Kulai Jaya in Johor, Malaysia, and offers runners a chance to participate in either the half marathon or shorter distance options on that date. Registration for the race is currently open for interested participants."
+    },
+    {
+      "question": "What distances are offered at this race?",
+      "answer": "Participants can choose from three distance options: a 21.1km half marathon, a 10km race, and a 5km race. This range allows both experienced runners and beginners, or those looking for a shorter challenge, to take part in the Mercedes BR Jaya Half Marathon & Duathlon event."
+    },
+    {
+      "question": "Where is the race located?",
+      "answer": "The race is held at AEON Mall Kulai Jaya, located in Johor, Malaysia. The event takes place in the city of Kulai, making it accessible for local participants as well as those traveling from other parts of Malaysia to join the half marathon and duathlon distances."
+    },
+    {
+      "question": "Is registration currently open for this event?",
+      "answer": "Yes, registration for the Mercedes BR Jaya Half Marathon & Duathlon is currently open. Interested participants can sign up ahead of the November 15, 2026 event date to secure their spot in one of the three available distances: 21.1km, 10km, or 5km."
+    }
+  ],
+  "reliability_score": 48,
   "tags": [
     "half-marathon",
     "malaysia"
@@ -33,7 +54,7 @@
       "url": "https://www.jomrun.com/event/Mercedes-BR-Jaya-Half-Marathon-Duathlon",
       "label": "jomrun.com",
       "type": "aggregator",
-      "last_checked": "2026-07-27"
+      "last_checked": "2026-07-31"
     }
   ],
   "affiliate_links": [],
@@ -45,6 +66,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-27",
+  "last_updated": "2026-07-31",
   "status": "active"
 }

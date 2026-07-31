@@ -4,27 +4,48 @@
   "name": "Tebrau City Half Marathon 2026 Powered by JomRun® (aka BMW Millennium Welt Johor Half Marathon)",
   "category_id": "10k",
   "region_id": "malaysia",
-  "short_description": "Tebrau City Half Marathon 2026 Powered by JomRun® (aka BMW Millennium Welt Johor Half Marathon) takes place September 20, 2026 in Johor Bahru, Johor, Malaysia.",
-  "ai_summary": "Tebrau City Half Marathon 2026 Powered by JomRun® (aka BMW Millennium Welt Johor Half Marathon) is a road running event in Johor Bahru, Johor, Malaysia, featuring 21.1KM Competitive Run, 10KM Fun Run, 5KM Fun Run. The race takes place on September 20, 2026, starting from Toppen Shopping Centre, Johor Bahru. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half marathon event in Johor Bahru, Malaysia, held on 20 September 2026 with 21.1km, 10km, and 5km distance options.",
+  "ai_summary": "The Tebrau City Half Marathon 2026 Powered by JomRun®, also known as the BMW Millennium Welt Johor Half Marathon, takes place on 20 September 2026 in Johor Bahru, Malaysia. Organized by Ultron, the race starts and centers around Toppen Shopping Centre and offers three distance options: 21.1km, 10km, and 5km. Registration is currently open for participants interested in joining this event in Johor.",
   "core_facts": {
     "date": "2026-09-20",
     "distance_km": [
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Ultron",
     "registration_status": "Open",
-    "country": "Malaysia",
     "venue": "Toppen Shopping Centre, Johor Bahru",
     "city": "Johor Bahru, Johor",
-    "organizer": "Ultron"
+    "country": "Malaysia"
   },
-  "pros": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km) suit a range of runner abilities",
+    "Centrally located at Toppen Shopping Centre in Johor Bahru for easy access",
+    "Registration is currently open, giving ample time to plan and sign up"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 45,
+  "faqs": [
+    {
+      "question": "When is the Tebrau City Half Marathon 2026 taking place?",
+      "answer": "The Tebrau City Half Marathon 2026 Powered by JomRun® is scheduled to take place on 20 September 2026. The event will be held in Johor Bahru, Johor, Malaysia, with Toppen Shopping Centre serving as the venue for this race weekend."
+    },
+    {
+      "question": "What distances can I run in this event?",
+      "answer": "Participants in this event can choose from three distance options: 21.1km, which is the primary half marathon distance, 10km, and 5km. This range of distances allows runners of different experience levels and fitness goals to take part."
+    },
+    {
+      "question": "Who organizes the Tebrau City Half Marathon 2026?",
+      "answer": "This race, also known as the BMW Millennium Welt Johor Half Marathon, is organized by Ultron. The event takes place in Johor Bahru, Johor, Malaysia, and is centered at the Toppen Shopping Centre venue."
+    },
+    {
+      "question": "Is registration currently open for this race?",
+      "answer": "Yes, registration for the Tebrau City Half Marathon 2026 Powered by JomRun® is currently open. Interested runners can sign up ahead of the race date on 20 September 2026 to secure their spot in the 21.1km, 10km, or 5km categories."
+    }
+  ],
+  "reliability_score": 48,
   "tags": [
     "10k",
     "malaysia"
@@ -34,7 +55,7 @@
       "url": "https://www.jomrun.com/event/Tebrau-City-Half-Marathon-2026-powered-by-JomRun",
       "label": "jomrun.com",
       "type": "aggregator",
-      "last_checked": "2026-07-14"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://www.jomrun.com/event/BMW-Millennium-Welt-Johor-Half-Marathon",
@@ -52,6 +73,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-14",
+  "last_updated": "2026-07-31",
   "status": "active"
 }

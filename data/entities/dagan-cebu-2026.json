@@ -4,27 +4,50 @@
   "name": "Dagan Cebu 2026",
   "category_id": "half-marathon",
   "region_id": "philippines",
-  "short_description": "Dagan Cebu 2026 takes place November 29, 2026 in Mandaue City, Cebu, Philippines.",
-  "ai_summary": "Dagan Cebu 2026 is a road running event in Mandaue City, Cebu, Philippines, featuring Half Marathon (21K); 16K; 12K; 6K. The race takes place on November 29, 2026, starting from Gatewalk, Mandaue City. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "Dagan Cebu 2026 is a half-marathon event held on November 29, 2026, at Gatewalk, Mandaue City, Cebu, Philippines.",
+  "ai_summary": "Dagan Cebu 2026 is a half-marathon event scheduled for November 29, 2026, in Mandaue City, Cebu, Philippines. Organized by KNC, the race starts at Gatewalk, Mandaue City, and offers four distance options: 21.1km, 16km, 12km, and 6km, catering to runners of varying experience levels. Registration details have not yet been announced.",
   "core_facts": {
     "date": "2026-11-29",
     "distance_km": [
       21.1,
-      16.0,
-      12.0,
-      6.0
+      16,
+      12,
+      6
     ],
     "primary_distance_km": 21.1,
+    "organizer": "KNC",
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "Gatewalk, Mandaue City",
     "city": "Mandaue City, Cebu",
-    "organizer": "KNC"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 16km, 12km, 6km) suit different runner levels",
+    "Held at a specific, named venue: Gatewalk, Mandaue City",
+    "Organized by KNC, providing a clear point of accountability"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is Dagan Cebu 2026 taking place?",
+      "answer": "Dagan Cebu 2026 is scheduled to take place on November 29, 2026. The event will be held in Mandaue City, Cebu, Philippines, at the Gatewalk venue. This date marks the full lineup of distance categories offered as part of the race."
+    },
+    {
+      "question": "What distances are offered at Dagan Cebu 2026?",
+      "answer": "Dagan Cebu 2026 offers four distance categories for participants to choose from: 21.1km, 16km, 12km, and 6km. The primary distance for the event is the 21.1km half-marathon, while the shorter options provide alternatives for runners seeking less intense race lengths."
+    },
+    {
+      "question": "Where does the race start?",
+      "answer": "The race starts at Gatewalk, located in Mandaue City, Cebu, Philippines. This venue serves as the starting point for all distance categories offered at Dagan Cebu 2026, including the 21.1km, 16km, 12km, and 6km races."
+    },
+    {
+      "question": "Is registration open for Dagan Cebu 2026?",
+      "answer": "As of now, the registration status for Dagan Cebu 2026 has not yet been announced. Prospective participants will need to wait for further updates from the organizer, KNC, regarding when and how registration will become available for this event."
+    }
+  ],
   "reliability_score": 40,
   "tags": [
     "half-marathon",

@@ -4,26 +4,51 @@
   "name": "Larian Kita Jubli Perak",
   "category_id": "half-marathon",
   "region_id": "malaysia",
-  "short_description": "Larian Kita Jubli Perak takes place October 10, 2026 in Klang, Selangor, Malaysia.",
-  "ai_summary": "Larian Kita Jubli Perak is a road running event in Klang, Selangor, Malaysia, featuring 21KM Half Marathon (Open/Veteran); 10KM; 3KM Fun Run. The race takes place on October 10, 2026, starting from Stadium Sultan Suleiman, Klang. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "Larian Kita Jubli Perak is a half-marathon held on October 10, 2026, at Stadium Sultan Suleiman, Klang, Malaysia, with 21km, 10km, and 3km categories.",
+  "ai_summary": "Larian Kita Jubli Perak is a half-marathon event scheduled for October 10, 2026, in Klang, Selangor, Malaysia. Organized by Eventique Management Sdn Bhd, it offers three distance categories: 21.1km, 10km, and 3km, starting and finishing at Stadium Sultan Suleiman, Klang. Registration is currently open, with pricing ranging from RM39 for the 3km to RM99 for the 21km category, plus an admin fee.",
   "core_facts": {
     "date": "2026-10-10",
     "distance_km": [
-      21.0,
-      10.0,
-      3.0
+      21,
+      10,
+      3
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Eventique Management Sdn Bhd",
     "registration_status": "Open",
-    "country": "Malaysia",
+    "price_range": "MYR 21K RM99 / 10K RM79 / 3K RM39 (+admin fee)",
     "venue": "Stadium Sultan Suleiman, Klang",
     "city": "Klang, Selangor",
-    "price_range": "MYR 21K RM99 / 10K RM79 / 3K RM39 (+admin fee)"
+    "country": "Malaysia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21km, 10km, 3km) cater to different runner levels",
+    "Affordable pricing starting at RM39 for the 3km category",
+    "Registration is currently open, giving participants time to plan and prepare",
+    "Held at a defined venue, Stadium Sultan Suleiman, Klang, making logistics clear"
+  ],
+  "cons": [
+    "Pricing includes an additional admin fee not included in the base price"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is Larian Kita Jubli Perak taking place?",
+      "answer": "Larian Kita Jubli Perak is scheduled to take place on October 10, 2026. The event will be held at Stadium Sultan Suleiman in Klang, Selangor, Malaysia, serving as the venue for the start and finish of all distance categories offered during the race."
+    },
+    {
+      "question": "What distance options are available?",
+      "answer": "Runners can choose from three distance categories at Larian Kita Jubli Perak: a 21.1km half-marathon, a 10km race, and a shorter 3km option. This range allows participants of varying experience levels and fitness goals to select a distance that suits them."
+    },
+    {
+      "question": "How much does registration cost?",
+      "answer": "Registration pricing is tiered by distance: the 21km category costs RM99, the 10km category costs RM79, and the 3km category costs RM39. An additional admin fee applies on top of these base prices, so participants should account for that when registering."
+    },
+    {
+      "question": "Who organizes this race?",
+      "answer": "Larian Kita Jubli Perak is organized by Eventique Management Sdn Bhd. As the organizing body, they are responsible for coordinating the event logistics, registration process, and overall management of the race held at Stadium Sultan Suleiman in Klang, Selangor."
+    }
+  ],
   "reliability_score": 38,
   "tags": [
     "half-marathon",
@@ -34,7 +59,7 @@
       "url": "https://www.racexasia.com/event/larian-kita-jubli-perak-lkjp26",
       "label": "racexasia.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-31"
     }
   ],
   "affiliate_links": [],
@@ -46,6 +71,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
-  "status": "active"
+  "last_updated": "2026-07-31",
+  "status": "needs_review"
 }

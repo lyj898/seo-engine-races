@@ -4,8 +4,8 @@
   "name": "Chombueng Marathon (40th ed.)",
   "category_id": "full-marathon",
   "region_id": "thailand",
-  "short_description": "Chombueng Marathon (40th ed.) takes place January 31, 2027 in Chom Bueng, Ratchaburi, Thailand.",
-  "ai_summary": "Chombueng Marathon (40th ed.) is a road running event in Chom Bueng, Ratchaburi, Thailand, featuring Mini Marathon; Half Marathon (21.1K); Full Marathon (42.2K). The race takes place on January 31, 2027, starting from Ratchaburi Rajabhat University, Chom Bueng. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The 40th Chombueng Marathon is a full and half marathon event held on January 31, 2027, at Ratchaburi Rajabhat University in Chom Bueng, Thailand.",
+  "ai_summary": "The Chombueng Marathon (40th edition) is a full marathon event scheduled for January 31, 2027, in Chom Bueng, Ratchaburi, Thailand. Organized by the Chombueng Marathon organizing committee, it offers both a half marathon (21.1 km) and a full marathon (42.195 km) distance, with the venue based at Ratchaburi Rajabhat University. Registration details have not yet been announced.",
   "core_facts": {
     "date": "2027-01-31",
     "distance_km": [
@@ -13,17 +13,40 @@
       42.195
     ],
     "primary_distance_km": 42.195,
+    "organizer": "Chombueng Marathon organizing committee",
     "registration_status": "not_yet_announced",
-    "country": "Thailand",
     "venue": "Ratchaburi Rajabhat University, Chom Bueng",
     "city": "Chom Bueng, Ratchaburi",
-    "organizer": "Chombueng Marathon organizing committee"
+    "country": "Thailand"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Long-running event now in its 40th edition, suggesting an established history",
+    "Offers both half marathon (21.1 km) and full marathon (42.195 km) distance options",
+    "Hosted at a defined venue, Ratchaburi Rajabhat University, in Chom Bueng, Ratchaburi"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so entry details are currently unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 68,
+  "faqs": [
+    {
+      "question": "When is the Chombueng Marathon (40th ed.) held?",
+      "answer": "The Chombueng Marathon, now in its 40th edition, is scheduled to take place on January 31, 2027. It is organized by the Chombueng Marathon organizing committee and will be based at Ratchaburi Rajabhat University in Chom Bueng, Ratchaburi, Thailand, according to the currently available event details."
+    },
+    {
+      "question": "What distances are offered at this race?",
+      "answer": "The Chombueng Marathon offers two race distances: a half marathon of 21.1 km and a full marathon of 42.195 km, with the full marathon serving as the primary distance for this 40th edition event held in Chom Bueng, Ratchaburi, Thailand."
+    },
+    {
+      "question": "Where does the Chombueng Marathon take place?",
+      "answer": "The race takes place at Ratchaburi Rajabhat University, located in Chom Bueng, Ratchaburi, Thailand. This venue serves as the base for the 40th edition of the Chombueng Marathon, which is organized by the Chombueng Marathon organizing committee and includes both half and full marathon distances."
+    },
+    {
+      "question": "Is registration open for the Chombueng Marathon (40th ed.)?",
+      "answer": "According to available information, registration for the Chombueng Marathon has not yet been announced. Prospective participants interested in the half marathon or full marathon distances at this Chom Bueng, Ratchaburi event should check back later for updates on sign-up details and timing."
+    }
+  ],
+  "reliability_score": 63,
   "tags": [
     "full-marathon",
     "thailand"
@@ -33,7 +56,7 @@
       "url": "https://runningconnect.com",
       "label": "runningconnect.com",
       "type": "aggregator",
-      "last_checked": "2026-07-27"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://timingconnect.com",
@@ -51,6 +74,6 @@
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-07-27",
+  "last_updated": "2026-07-31",
   "status": "active"
 }

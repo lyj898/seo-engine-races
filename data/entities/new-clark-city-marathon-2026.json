@@ -4,27 +4,51 @@
   "name": "New Clark City Marathon 2026",
   "category_id": "full-marathon",
   "region_id": "philippines",
-  "short_description": "New Clark City Marathon 2026 takes place August 16, 2026 in Capas, Tarlac, Philippines.",
-  "ai_summary": "New Clark City Marathon 2026 is a road running event in Capas, Tarlac, Philippines, featuring Full Marathon (42K); Half Marathon (21K); 10K; 5K. The race takes place on August 16, 2026, starting from New Clark City. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The New Clark City Marathon 2026 is a full-marathon race held on August 16, 2026, in Capas, Tarlac, Philippines.",
+  "ai_summary": "The New Clark City Marathon 2026 is a full-marathon event scheduled for August 16, 2026, in New Clark City, Capas, Tarlac, Philippines. Organized by Run The North, the race offers four distance options: 42.195km, 21.1km, 10km, and 5km, catering to a range of runners from beginners to marathoners. Registration has not yet been announced, so prospective participants should watch for updates from the organizer.",
   "core_facts": {
     "date": "2026-08-16",
     "distance_km": [
       42.195,
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 42.195,
+    "organizer": "Run The North",
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "New Clark City",
     "city": "Capas, Tarlac",
-    "organizer": "Run The North"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Offers four distance options (42.195km, 21.1km, 10km, 5km) suitable for different runner levels",
+    "Held at the purpose-built New Clark City venue in the Philippines",
+    "Organized by Run The North"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so sign-up details are unavailable",
+    "No additional course, elevation, or logistics information is currently provided"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the New Clark City Marathon 2026?",
+      "answer": "The New Clark City Marathon 2026 is scheduled to take place on August 16, 2026. The event will be held at New Clark City in Capas, Tarlac, Philippines, and is organized by Run The North, offering multiple distance categories for participants on that date."
+    },
+    {
+      "question": "What distances are offered at the New Clark City Marathon 2026?",
+      "answer": "The New Clark City Marathon 2026 offers four distance categories for participants to choose from: a full marathon of 42.195km, a half marathon of 21.1km, a 10km race, and a 5km race, making it accessible to runners of varying experience levels and fitness."
+    },
+    {
+      "question": "Who organizes the New Clark City Marathon 2026?",
+      "answer": "The New Clark City Marathon 2026 is organized by Run The North. The event takes place at the New Clark City venue in Capas, Tarlac, Philippines, and includes multiple race distances, from a 5km fun run up to the full 42.195km marathon distance."
+    },
+    {
+      "question": "Is registration open for the New Clark City Marathon 2026?",
+      "answer": "As of now, registration for the New Clark City Marathon 2026 has not yet been announced. Prospective participants interested in the marathon, half marathon, 10km, or 5km races should check back for updates from organizer Run The North regarding sign-up details and timing."
+    }
+  ],
   "reliability_score": 40,
   "tags": [
     "full-marathon",

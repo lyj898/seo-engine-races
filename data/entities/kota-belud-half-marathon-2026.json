@@ -4,8 +4,8 @@
   "name": "Kota Belud Half Marathon 2026",
   "category_id": "half-marathon",
   "region_id": "malaysia",
-  "short_description": "Kota Belud Half Marathon 2026 takes place November 8, 2026 in Kota Belud, Sabah, Malaysia.",
-  "ai_summary": "Kota Belud Half Marathon 2026 is a road running event in Kota Belud, Sabah, Malaysia, featuring Half Marathon. The race takes place on November 8, 2026, starting from Kota Belud, Sabah. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A 21.1km half-marathon taking place in Kota Belud, Sabah, Malaysia on November 8, 2026.",
+  "ai_summary": "The Kota Belud Half Marathon 2026 is a half-marathon race scheduled for November 8, 2026, in Kota Belud, Sabah, Malaysia. The event features a primary distance of 21.1 kilometers. Registration for this race is currently open, giving runners the opportunity to sign up ahead of the event date.",
   "core_facts": {
     "date": "2026-11-08",
     "distance_km": [
@@ -13,15 +13,36 @@
     ],
     "primary_distance_km": 21.1,
     "registration_status": "Open",
-    "country": "Malaysia",
     "venue": "Kota Belud, Sabah",
-    "city": "Kota Belud, Sabah"
+    "city": "Kota Belud, Sabah",
+    "country": "Malaysia"
   },
-  "pros": [],
+  "pros": [
+    "Registration is currently open, allowing runners time to plan ahead",
+    "Standard half-marathon distance of 21.1km",
+    "Takes place in Kota Belud, Sabah, a specific and identifiable venue in Malaysia"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 45,
+  "faqs": [
+    {
+      "question": "When is the Kota Belud Half Marathon 2026?",
+      "answer": "The Kota Belud Half Marathon 2026 is scheduled to take place on November 8, 2026. This date has been confirmed for the event, which is held in Kota Belud, Sabah, Malaysia. Runners planning to participate should mark this date on their calendars as the official race day."
+    },
+    {
+      "question": "What distance is the Kota Belud Half Marathon?",
+      "answer": "The Kota Belud Half Marathon 2026 offers a primary race distance of 21.1 kilometers, which is the standard distance for a half-marathon event. This 21.1km distance is the only distance listed for this particular race in Kota Belud, Sabah, Malaysia."
+    },
+    {
+      "question": "Is registration open for the Kota Belud Half Marathon 2026?",
+      "answer": "Yes, registration for the Kota Belud Half Marathon 2026 is currently listed as open. This means prospective participants are able to sign up for the race ahead of its scheduled date of November 8, 2026, in Kota Belud, Sabah, Malaysia."
+    },
+    {
+      "question": "Where is the Kota Belud Half Marathon 2026 held?",
+      "answer": "The Kota Belud Half Marathon 2026 is held in Kota Belud, located in the state of Sabah, Malaysia. Kota Belud serves as both the venue and the city for this half-marathon event, which is scheduled to take place on November 8, 2026."
+    }
+  ],
+  "reliability_score": 30,
   "tags": [
     "half-marathon",
     "malaysia"
@@ -43,6 +64,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-13",
-  "status": "active"
+  "last_updated": "2026-07-31",
+  "status": "needs_review"
 }

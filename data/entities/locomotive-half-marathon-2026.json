@@ -4,27 +4,51 @@
   "name": "Locomotive Half Marathon 2026",
   "category_id": "half-marathon",
   "region_id": "indonesia",
-  "short_description": "Locomotive Half Marathon 2026 takes place September 20, 2026 in Bandar Lampung, Lampung, Indonesia.",
-  "ai_summary": "Locomotive Half Marathon 2026 is a road running event in Bandar Lampung, Lampung, Indonesia, featuring Half Marathon (21K); 10K; 5K. The race takes place on September 20, 2026, starting from Bandar Lampung (exact start point not yet announced). Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half marathon (21.1km, plus 10km and 5km options) held in Bandar Lampung, Indonesia on September 20, 2026.",
+  "ai_summary": "The Locomotive Half Marathon 2026 is set for September 20, 2026 in Bandar Lampung, Lampung, Indonesia, offering three distance options: 5km, 10km, and a 21.1km half marathon as the primary event. It is organized by PT Kereta Api Indonesia (KAI), with execution handled by RAW Organizer and Runaway Lampung. Registration is currently open, though the exact start point for the race has not yet been announced.",
   "core_facts": {
     "date": "2026-09-20",
     "distance_km": [
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
+    "organizer": "PT Kereta Api Indonesia (KAI), executed by RAW Organizer / Runaway Lampung",
     "registration_status": "Open",
-    "country": "Indonesia",
     "venue": "Bandar Lampung (exact start point not yet announced)",
     "city": "Bandar Lampung, Lampung",
-    "organizer": "PT Kereta Api Indonesia (KAI), executed by RAW Organizer / Runaway Lampung"
+    "country": "Indonesia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (5km, 10km, 21.1km) suit different runner levels",
+    "Registration is currently open",
+    "Backed by PT Kereta Api Indonesia (KAI), a major national organization",
+    "Organized locally by RAW Organizer / Runaway Lampung"
+  ],
+  "cons": [
+    "Exact start point in Bandar Lampung has not yet been announced"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 62,
+  "faqs": [
+    {
+      "question": "When is the Locomotive Half Marathon 2026 taking place?",
+      "answer": "The Locomotive Half Marathon 2026 is scheduled for September 20, 2026. It will take place in Bandar Lampung, Lampung, Indonesia. Registration is currently open for runners interested in taking part, giving participants time to prepare and secure their spot before the race weekend arrives."
+    },
+    {
+      "question": "What distance options are available at this race?",
+      "answer": "The event offers three distance options: a 5km, a 10km, and a 21.1km half marathon, which serves as the primary distance. This range allows both casual participants and more experienced runners to choose a distance that matches their fitness level and racing goals for the day."
+    },
+    {
+      "question": "Who organizes the Locomotive Half Marathon 2026?",
+      "answer": "The Locomotive Half Marathon 2026 is organized by PT Kereta Api Indonesia (KAI), the national railway company, with event execution handled by RAW Organizer together with Runaway Lampung. This partnership brings together a major national organization and local race organizers to deliver the event in Bandar Lampung."
+    },
+    {
+      "question": "Where exactly does the race start?",
+      "answer": "The race will be held in Bandar Lampung, Lampung, Indonesia, though the exact start point has not yet been announced by the organizers. Runners planning to participate should keep checking official updates from PT Kereta Api Indonesia (KAI) and RAW Organizer / Runaway Lampung for further venue details."
+    }
+  ],
+  "reliability_score": 57,
   "tags": [
     "half-marathon",
     "indonesia"
@@ -34,7 +58,7 @@
       "url": "https://tiptip.id/event/4bc2013e-5ac3-4c05-9049-13fb758ce766",
       "label": "tiptip.id",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-31"
     }
   ],
   "affiliate_links": [],
@@ -46,6 +70,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-31",
   "status": "active"
 }

@@ -4,8 +4,8 @@
   "name": "Kuching Marathon 2026 (KM2026)",
   "category_id": "full-marathon",
   "region_id": "malaysia",
-  "short_description": "Kuching Marathon 2026 (KM2026) takes place September 27, 2026 in Kuching, Sarawak, Malaysia.",
-  "ai_summary": "Kuching Marathon 2026 (KM2026) is a road running event in Kuching, Sarawak, Malaysia, featuring Full Marathon; Half Marathon; 10km; 5km. The race takes place on September 27, 2026, starting from Padang Merdeka, Kuching, Sarawak. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "KM2026 is a full marathon and multi-distance race held September 27, 2026 at Padang Merdeka, Kuching, Sarawak, Malaysia.",
+  "ai_summary": "Kuching Marathon 2026 (KM2026) is a full-marathon event scheduled for September 27, 2026, at Padang Merdeka in Kuching, Sarawak, Malaysia. Organized by the Kuching Marathon Association, the race offers four distance options: 42.195km, 21.1km, 10km, and 5km, with entry fees ranging from RM60 to RM160. Registration has not yet been announced.",
   "core_facts": {
     "date": "2026-09-27",
     "distance_km": [
@@ -15,16 +15,41 @@
       5
     ],
     "primary_distance_km": 42.195,
+    "organizer": "Kuching Marathon Association",
     "registration_status": "not_yet_announced",
-    "country": "Malaysia",
+    "price_range": "RM60-RM160",
     "venue": "Padang Merdeka, Kuching, Sarawak",
     "city": "Kuching, Sarawak",
-    "organizer": "Kuching Marathon Association"
+    "country": "Malaysia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (42.195km, 21.1km, 10km, 5km) suit a range of runner abilities",
+    "Affordable entry fees ranging from RM60 to RM160",
+    "Organized by an established body, the Kuching Marathon Association",
+    "Scenic and central venue at Padang Merdeka, Kuching, Sarawak"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Kuching Marathon 2026 taking place?",
+      "answer": "The Kuching Marathon 2026, also known as KM2026, is scheduled to take place on September 27, 2026. The event will be held at Padang Merdeka in Kuching, Sarawak, Malaysia, and is organized by the Kuching Marathon Association for runners across various distance categories."
+    },
+    {
+      "question": "What distances can I run at KM2026?",
+      "answer": "KM2026 offers four distance categories for participants to choose from: a full marathon of 42.195km, a half marathon of 21.1km, a 10km run, and a shorter 5km run. This range allows both experienced marathoners and casual runners to take part in the event."
+    },
+    {
+      "question": "How much does it cost to register for KM2026?",
+      "answer": "Registration fees for the Kuching Marathon 2026 range from RM60 to RM160, depending on the distance category chosen. Exact pricing per category and registration opening dates have not yet been announced by the organizer, the Kuching Marathon Association."
+    },
+    {
+      "question": "Who organizes the Kuching Marathon?",
+      "answer": "The Kuching Marathon 2026 is organized by the Kuching Marathon Association, based in Kuching, Sarawak, Malaysia. The association oversees the event, which takes place at Padang Merdeka and includes full marathon, half marathon, 10km, and 5km distance options for participants."
+    }
+  ],
   "reliability_score": 88,
   "tags": [
     "full-marathon",
@@ -36,7 +61,7 @@
       "url": "https://marathonkuching.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-16"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://aims-worldrunning.org/calendar.html",
@@ -66,6 +91,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-16",
-  "status": "active"
+  "last_updated": "2026-07-31",
+  "status": "needs_review"
 }

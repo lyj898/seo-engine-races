@@ -4,27 +4,51 @@
   "name": "Discovery Marathon 2026",
   "category_id": "full-marathon",
   "region_id": "philippines",
-  "short_description": "Discovery Marathon 2026 takes place September 20, 2026 in Cebu City, Philippines.",
-  "ai_summary": "Discovery Marathon 2026 is a road running event in Cebu City, Philippines, featuring Full Marathon (42K); Half Marathon (21K); 12K; 6K. The race takes place on September 20, 2026, starting from City Di Mare, South Road Properties, Cebu City. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "Discovery Marathon 2026 is a full marathon and multi-distance race set for September 20, 2026, at City Di Mare, Cebu City, Philippines.",
+  "ai_summary": "Discovery Marathon 2026 is a road race scheduled for September 20, 2026, in Cebu City, Philippines, based at City Di Mare, South Road Properties. Organized by KNC, the event offers four distance options: 42.195 km (full marathon), 21.1 km, 12 km, and 6 km. Registration has not yet been announced.",
   "core_facts": {
     "date": "2026-09-20",
     "distance_km": [
       42.195,
       21.1,
-      12.0,
-      6.0
+      12,
+      6
     ],
     "primary_distance_km": 42.195,
+    "organizer": "KNC",
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "City Di Mare, South Road Properties, Cebu City",
     "city": "Cebu City",
-    "organizer": "KNC"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (42.195 km, 21.1 km, 12 km, 6 km) suit a range of runner levels",
+    "Held at a scenic South Road Properties venue in Cebu City",
+    "Organized by KNC, giving the event a clear organizing body"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so sign-up details are unavailable",
+    "No pricing, route, or logistical information has been released yet"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Discovery Marathon 2026?",
+      "answer": "The Discovery Marathon 2026 is scheduled to take place on September 20, 2026. This date applies to the full event, which includes the full marathon distance as well as the shorter companion distances offered on race day in Cebu City, Philippines."
+    },
+    {
+      "question": "Where is the Discovery Marathon 2026 held?",
+      "answer": "The race takes place at City Di Mare, located within South Road Properties in Cebu City, Philippines. This venue serves as the base for the event, which is organized by KNC and offers several distance categories for participants."
+    },
+    {
+      "question": "What distances are offered at the Discovery Marathon 2026?",
+      "answer": "Runners can choose from four distances: a full marathon of 42.195 km, a half marathon of 21.1 km, a 12 km race, and a 6 km race. This range allows participants of varying experience levels to take part in the event."
+    },
+    {
+      "question": "Is registration open for the Discovery Marathon 2026?",
+      "answer": "Registration for the Discovery Marathon 2026 has not yet been announced. Details on sign-up dates, fees, and procedures are not currently available, so prospective participants should check back later for updates from the organizer, KNC."
+    }
+  ],
   "reliability_score": 40,
   "tags": [
     "full-marathon",

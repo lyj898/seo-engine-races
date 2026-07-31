@@ -4,8 +4,8 @@
   "name": "Bentong Monsoon Marathon 2026",
   "category_id": "full-marathon",
   "region_id": "malaysia",
-  "short_description": "Bentong Monsoon Marathon 2026 takes place November 28, 2026 in Bentong, Pahang, Malaysia.",
-  "ai_summary": "Bentong Monsoon Marathon 2026 is a road running event in Bentong, Pahang, Malaysia, featuring Full Marathon; Half Marathon. The race takes place on November 28, 2026, starting from Janda Baik, Bentong, Pahang. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The Bentong Monsoon Marathon 2026 is a full and half marathon race held on November 28, 2026 in Janda Baik, Bentong, Pahang, Malaysia.",
+  "ai_summary": "The Bentong Monsoon Marathon 2026 is a full marathon event scheduled for November 28, 2026, held in Janda Baik, Bentong, Pahang, Malaysia. Runners can choose between a full marathon distance of 42.195 km or a half marathon distance of 21.1 km. Registration for the event is currently open. This makes it a relevant option for marathon and half-marathon runners in Malaysia.",
   "core_facts": {
     "date": "2026-11-28",
     "distance_km": [
@@ -14,15 +14,36 @@
     ],
     "primary_distance_km": 42.195,
     "registration_status": "Open",
-    "country": "Malaysia",
     "venue": "Janda Baik, Bentong, Pahang",
-    "city": "Bentong, Pahang"
+    "city": "Bentong, Pahang",
+    "country": "Malaysia"
   },
-  "pros": [],
+  "pros": [
+    "Offers a choice of two distances: full marathon (42.195 km) and half marathon (21.1 km)",
+    "Registration is currently open, giving runners time to plan and sign up",
+    "Located in Janda Baik, Bentong, Pahang, a specific and identifiable venue in Malaysia"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 55,
+  "faqs": [
+    {
+      "question": "When is the Bentong Monsoon Marathon 2026?",
+      "answer": "The Bentong Monsoon Marathon 2026 is scheduled to take place on November 28, 2026. The event is held in Janda Baik, Bentong, Pahang, Malaysia, and offers both full marathon and half marathon distances for participants planning to take part in this Malaysian race."
+    },
+    {
+      "question": "What distances are offered at the Bentong Monsoon Marathon 2026?",
+      "answer": "The Bentong Monsoon Marathon 2026 offers two race distances: a full marathon of 42.195 km, which is the primary distance, and a half marathon of 21.1 km. Both distances are held on the same day, November 28, 2026, at the Janda Baik venue in Bentong, Pahang."
+    },
+    {
+      "question": "Is registration open for the Bentong Monsoon Marathon 2026?",
+      "answer": "Yes, registration for the Bentong Monsoon Marathon 2026 is currently open. Runners interested in either the full marathon or half marathon distance can sign up ahead of the race date of November 28, 2026, which will be held in Janda Baik, Bentong, Pahang, Malaysia."
+    },
+    {
+      "question": "Where is the Bentong Monsoon Marathon 2026 held?",
+      "answer": "The Bentong Monsoon Marathon 2026 is held in Janda Baik, located in Bentong, Pahang, Malaysia. This venue hosts both the full marathon and half marathon distances on November 28, 2026, making it the central location for all race-day activities and participant logistics."
+    }
+  ],
+  "reliability_score": 40,
   "tags": [
     "full-marathon",
     "malaysia"
@@ -44,6 +65,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-13",
-  "status": "active"
+  "last_updated": "2026-07-31",
+  "status": "needs_review"
 }

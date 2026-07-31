@@ -4,8 +4,8 @@
   "name": "Terengganu Marathon 2027",
   "category_id": "full-marathon",
   "region_id": "malaysia",
-  "short_description": "Terengganu Marathon 2027 takes place April 30, 2027 in Kuala Nerus, Terengganu, Malaysia.",
-  "ai_summary": "Terengganu Marathon 2027 is a road running event in Kuala Nerus, Terengganu, Malaysia, featuring Full Marathon; Half Marathon. The race takes place on April 30, 2027, starting from Kompleks Sukan Negeri Terengganu Gong Badak, Kuala Nerus, Terengganu. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A full and half marathon event taking place on April 30, 2027, in Kuala Terengganu, Terengganu, Malaysia.",
+  "ai_summary": "The Terengganu Marathon 2027 is a full marathon event scheduled for April 30, 2027, in Kuala Terengganu, Terengganu, Malaysia. Runners can choose between a full marathon of 42.195 km or a half marathon of 21.1 km, both starting at the Dataran parking area of Stadium Sultan Mizan Zainal Abidin. Registration for the event has not yet opened.",
   "core_facts": {
     "date": "2027-04-30",
     "distance_km": [
@@ -13,15 +13,38 @@
       21.1
     ],
     "primary_distance_km": 42.195,
-    "registration_status": "Open",
-    "country": "Malaysia",
-    "venue": "Kompleks Sukan Negeri Terengganu Gong Badak, Kuala Nerus, Terengganu",
-    "city": "Kuala Nerus, Terengganu"
+    "registration_status": "Not yet open",
+    "venue": "Dataran parking Stadium Sultan Mizan Zainal Abidin, Kuala Terengganu, Terengganu, Malaysia",
+    "city": "Kuala Terengganu, Terengganu",
+    "country": "Malaysia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Offers both a full marathon (42.195 km) and a half marathon (21.1 km) distance option",
+    "Located at a well-defined venue, the Dataran parking area of Stadium Sultan Mizan Zainal Abidin",
+    "Set in Kuala Terengganu, a specific and identifiable Malaysian city"
+  ],
+  "cons": [
+    "Registration is not yet open, so entry details are not currently available"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Terengganu Marathon 2027?",
+      "answer": "The Terengganu Marathon 2027 is scheduled to take place on April 30, 2027. The event will be held in Kuala Terengganu, Terengganu, Malaysia, at the Dataran parking area of Stadium Sultan Mizan Zainal Abidin. Further scheduling details beyond the date have not been provided in the available information."
+    },
+    {
+      "question": "What distances are offered at the Terengganu Marathon 2027?",
+      "answer": "The Terengganu Marathon 2027 offers two distance options: a full marathon of 42.195 km and a half marathon of 21.1 km. The full marathon is listed as the primary distance for this event, which takes place in Kuala Terengganu, Terengganu, Malaysia, on April 30, 2027."
+    },
+    {
+      "question": "Where is the race held?",
+      "answer": "The race is held at the Dataran parking area of Stadium Sultan Mizan Zainal Abidin, located in Kuala Terengganu, Terengganu, Malaysia. This venue serves as the starting point for both the full marathon and half marathon distances offered during the Terengganu Marathon 2027 event."
+    },
+    {
+      "question": "Can I register for the Terengganu Marathon 2027 now?",
+      "answer": "No, registration for the Terengganu Marathon 2027 is not yet open according to the available information. Prospective participants will need to wait for registration to open before they can sign up for either the full marathon or half marathon distance at this Kuala Terengganu event."
+    }
+  ],
   "reliability_score": 82,
   "tags": [
     "full-marathon",
@@ -33,7 +56,7 @@
       "url": "https://terengganumarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-13"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://checkpointspot.asia/events",
@@ -51,6 +74,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-13",
-  "status": "active"
+  "last_updated": "2026-07-31",
+  "status": "needs_review"
 }

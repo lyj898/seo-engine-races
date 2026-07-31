@@ -4,26 +4,49 @@
   "name": "Khao Yai Marathon (B-Quik Khao Yai Marathon 2027)",
   "category_id": "full-marathon",
   "region_id": "thailand",
-  "short_description": "Khao Yai Marathon (B-Quik Khao Yai Marathon 2027) takes place January 10, 2027 in Pak Chong, Nakhon Ratchasima, Thailand.",
-  "ai_summary": "Khao Yai Marathon (B-Quik Khao Yai Marathon 2027) is a road running event in Pak Chong, Nakhon Ratchasima, Thailand, featuring Full Marathon; Half Marathon; 10km. The race takes place on January 10, 2027, starting from Pak Chong, Nakhon Ratchasima. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A full marathon in Pak Chong, Nakhon Ratchasima, Thailand, taking place on January 10, 2027, with 42.195km, 21.1km, and 10km distance options.",
+  "ai_summary": "The B-Quik Khao Yai Marathon 2027 is a full-marathon event scheduled for January 10, 2027, in Pak Chong, Nakhon Ratchasima, Thailand. Runners can choose from three distances: 42.195km, 21.1km, and 10km. Registration status for this race has not yet been announced, so prospective participants should check back for updates.",
   "core_facts": {
     "date": "2027-01-10",
     "distance_km": [
       42.195,
       21.1,
-      10.0
+      10
     ],
     "primary_distance_km": 42.195,
     "registration_status": "not_yet_announced",
-    "country": "Thailand",
     "venue": "Pak Chong, Nakhon Ratchasima",
-    "city": "Pak Chong, Nakhon Ratchasima"
+    "city": "Pak Chong, Nakhon Ratchasima",
+    "country": "Thailand"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (42.195km, 21.1km, 10km) to suit different runner levels",
+    "Set in Pak Chong, Nakhon Ratchasima, a specific and identifiable Thailand location",
+    "Clear, confirmed date already set for January 10, 2027"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so sign-up details are unavailable at this time"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 80,
+  "faqs": [
+    {
+      "question": "When is the Khao Yai Marathon 2027 taking place?",
+      "answer": "The B-Quik Khao Yai Marathon 2027 is scheduled to take place on January 10, 2027. The event will be held in Pak Chong, Nakhon Ratchasima, Thailand. No further scheduling details, such as start times or multi-day activities, have been specified in the available information."
+    },
+    {
+      "question": "What distances are offered at this race?",
+      "answer": "This race offers three distance options for participants to choose from: a full marathon distance of 42.195km, a half marathon distance of 21.1km, and a shorter 10km race. This range allows runners of different experience levels and goals to select the option that best suits them."
+    },
+    {
+      "question": "Where is the race held?",
+      "answer": "The Khao Yai Marathon 2027 is held in Pak Chong, Nakhon Ratchasima, which is located in Thailand. This venue serves as the setting for all three race distances offered at the event, including the full marathon, half marathon, and 10km race."
+    },
+    {
+      "question": "Is registration open for the Khao Yai Marathon 2027?",
+      "answer": "According to the available information, the registration status for the Khao Yai Marathon 2027 has not yet been announced. Prospective participants interested in joining the full marathon, half marathon, or 10km race should watch for future updates regarding sign-up details and availability."
+    }
+  ],
+  "reliability_score": 83,
   "tags": [
     "full-marathon",
     "thailand",
@@ -34,7 +57,7 @@
       "url": "https://khaoyaimarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-16"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://aims-worldrunning.org/calendar.html",
@@ -52,6 +75,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-16",
+  "last_updated": "2026-07-31",
   "status": "active"
 }

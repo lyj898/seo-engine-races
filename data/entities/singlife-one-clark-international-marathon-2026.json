@@ -4,28 +4,50 @@
   "name": "Singlife One Clark International Marathon",
   "category_id": "full-marathon",
   "region_id": "philippines",
-  "short_description": "Singlife One Clark International Marathon takes place September 20, 2026 in Clark Freeport, Pampanga, Philippines.",
-  "ai_summary": "Singlife One Clark International Marathon is a road running event in Clark Freeport, Pampanga, Philippines, featuring Full Marathon; Half Marathon; 10km; 5km. The race takes place on September 20, 2026, starting from Clark Parade Grounds. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The Singlife One Clark International Marathon is a full-marathon event in Clark Freeport, Pampanga, Philippines, scheduled for September 20, 2026.",
+  "ai_summary": "The Singlife One Clark International Marathon is a full-marathon event organized by RUNRIO Inc., scheduled for September 20, 2026, at the Clark Parade Grounds in Clark Freeport, Pampanga, Philippines. The event offers multiple distance options, including 42.195km, 21.1km, 10km, and 5km races, catering to a range of runners from beginners to seasoned marathoners. Registration for the event is currently open, allowing participants ample time to prepare and sign up.",
   "core_facts": {
     "date": "2026-09-20",
     "distance_km": [
       42.195,
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 42.195,
+    "organizer": "RUNRIO Inc.",
     "registration_status": "Open",
-    "country": "Philippines",
     "venue": "Clark Parade Grounds",
     "city": "Clark Freeport, Pampanga",
-    "organizer": "RUNRIO Inc."
+    "country": "Philippines"
   },
-  "pros": [],
+  "pros": [
+    "Multiple distance options (42.195km, 21.1km, 10km, 5km) cater to different runner levels",
+    "Organized by RUNRIO Inc., a known name in race organization",
+    "Registration is currently open, giving ample preparation time",
+    "Located in Clark Freeport, Pampanga, offering a unique racing environment"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 88,
+  "faqs": [
+    {
+      "question": "When is the Singlife One Clark International Marathon?",
+      "answer": "The Singlife One Clark International Marathon is scheduled to take place on September 20, 2026. This date allows participants to plan their training and travel accordingly, ensuring they are well-prepared for the race day. Mark your calendars for this exciting event in the racing calendar."
+    },
+    {
+      "question": "Where is the race held?",
+      "answer": "The race is held at the Clark Parade Grounds, located in Clark Freeport, Pampanga, Philippines. This venue provides a specific and accessible location for participants, offering a distinct backdrop for the marathon and its accompanying races."
+    },
+    {
+      "question": "Is registration currently open?",
+      "answer": "Yes, registration for the Singlife One Clark International Marathon is currently open. This allows interested runners to sign up early, secure their spot in the race, and begin their preparation for the various distance categories offered, from the full marathon to the 5km race."
+    },
+    {
+      "question": "What distances are available for participants?",
+      "answer": "Participants can choose from several distances: a full marathon of 42.195km, a half marathon of 21.1km, a 10km race, and a 5km race. This variety accommodates a wide range of running abilities and preferences, making the event accessible to both novice and experienced runners."
+    }
+  ],
+  "reliability_score": 83,
   "tags": [
     "full-marathon",
     "philippines",
@@ -36,7 +58,7 @@
       "url": "https://runrio.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-13"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://runrio.com/race-calendar/",
@@ -54,6 +76,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-13",
+  "last_updated": "2026-07-31",
   "status": "active"
 }

@@ -4,26 +4,49 @@
   "name": "Sagisag Half Marathon 2026 (Manila)",
   "category_id": "half-marathon",
   "region_id": "philippines",
-  "short_description": "Sagisag Half Marathon 2026 (Manila) takes place September 19, 2026 in Pasay, Philippines.",
-  "ai_summary": "Sagisag Half Marathon 2026 (Manila) is a road running event in Pasay, Philippines, featuring Half Marathon (21K); 10K; 5K. The race takes place on September 19, 2026, starting from SM Mall of Asia. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half marathon event held at SM Mall of Asia in Pasay, Philippines on September 19, 2026, offering 21.1km, 10km, and 5km distances.",
+  "ai_summary": "The Sagisag Half Marathon 2026 is scheduled for September 19, 2026, in Pasay, Philippines, with SM Mall of Asia serving as the venue. Organized by RSRJ Events, the race offers three distance options: 21.1km, 10km, and 5km, with the half marathon as the primary distance. Registration details have not yet been announced.",
   "core_facts": {
     "date": "2026-09-19",
     "distance_km": [
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
+    "organizer": "RSRJ Events",
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "SM Mall of Asia",
     "city": "Pasay",
-    "organizer": "RSRJ Events"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km) to suit different runner levels",
+    "Convenient, well-known venue at SM Mall of Asia in Pasay",
+    "Organized by RSRJ Events"
+  ],
+  "cons": [
+    "Registration status has not yet been announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Sagisag Half Marathon 2026 taking place?",
+      "answer": "The Sagisag Half Marathon 2026 is scheduled to take place on September 19, 2026. The event will be held in Pasay, Philippines, at the SM Mall of Asia venue, giving runners a fixed date to plan their training and travel around ahead of race day."
+    },
+    {
+      "question": "What distance options are available at this race?",
+      "answer": "Runners can choose from three distance options at the Sagisag Half Marathon 2026: a 21.1km half marathon, a 10km race, and a 5km race. The 21.1km half marathon is the primary distance for the event, catering to a range of runner abilities and goals."
+    },
+    {
+      "question": "Is registration open for the Sagisag Half Marathon 2026?",
+      "answer": "As of now, the registration status for the Sagisag Half Marathon 2026 has not yet been announced. Prospective participants will need to watch for further updates from the organizer, RSRJ Events, regarding when and how to sign up for the race."
+    },
+    {
+      "question": "Who organizes the Sagisag Half Marathon 2026 and where is it held?",
+      "answer": "The Sagisag Half Marathon 2026 is organized by RSRJ Events. It takes place in Pasay, Philippines, with SM Mall of Asia serving as the official venue, providing a central and accessible location for participants traveling to the race on September 19, 2026."
+    }
+  ],
   "reliability_score": 40,
   "tags": [
     "half-marathon",

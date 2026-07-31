@@ -4,25 +4,47 @@
   "name": "The Northernmost Padang Besar 22KM & 12KM 2026",
   "category_id": "half-marathon",
   "region_id": "malaysia",
-  "short_description": "The Northernmost Padang Besar 22KM & 12KM 2026 takes place August 8, 2026 in Padang Besar, Perlis, Malaysia.",
-  "ai_summary": "The Northernmost Padang Besar 22KM & 12KM 2026 is a road running event in Padang Besar, Perlis, Malaysia, featuring Half Marathon; 12km. The race takes place on August 8, 2026, starting from Padang Besar, Perlis. Registration is Closed as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half-marathon and 12KM race held in Padang Besar, Perlis, Malaysia on 8 August 2026, with registration currently closed.",
+  "ai_summary": "The Northernmost Padang Besar 22KM & 12KM 2026 is a half-marathon-distance race set to take place on 8 August 2026 in Padang Besar, Perlis, Malaysia. The event offers two distance options, 21.1KM and 12KM, giving participants a choice based on their fitness level. Registration for this race is currently closed, so new sign-ups are not being accepted at this time.",
   "core_facts": {
     "date": "2026-08-08",
     "distance_km": [
       21.1,
-      12.0
+      12
     ],
     "primary_distance_km": 21.1,
     "registration_status": "Closed",
-    "country": "Malaysia",
     "venue": "Padang Besar, Perlis",
-    "city": "Padang Besar, Perlis"
+    "city": "Padang Besar, Perlis",
+    "country": "Malaysia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Offers two distance options: 21.1KM and 12KM",
+    "Takes place in Padang Besar, Perlis, a notable location in Malaysia's northernmost region"
+  ],
+  "cons": [
+    "Registration is currently closed, so new entrants cannot sign up"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 52,
+  "faqs": [
+    {
+      "question": "When is the Northernmost Padang Besar 22KM & 12KM 2026 taking place?",
+      "answer": "The race is scheduled to take place on 8 August 2026. It is held in Padang Besar, Perlis, Malaysia, and offers runners a choice between a 21.1KM half-marathon distance and a shorter 12KM distance option on the same day."
+    },
+    {
+      "question": "What distances are offered at this race?",
+      "answer": "Participants can choose between two distances: a 21.1KM half-marathon and a 12KM race. This gives runners of different experience levels and fitness goals the flexibility to select the option that best suits their training and racing ambitions."
+    },
+    {
+      "question": "Can I still register for this race?",
+      "answer": "No, registration for the Northernmost Padang Besar 22KM & 12KM 2026 is currently listed as closed. Prospective participants are unable to sign up for either the 21.1KM or 12KM distance at this time based on the available information."
+    },
+    {
+      "question": "Where is the race held?",
+      "answer": "The race takes place in Padang Besar, located in the state of Perlis, Malaysia. This location is highlighted as the northernmost point associated with the event, making it a distinctive setting for both the 21.1KM and 12KM race distances."
+    }
+  ],
+  "reliability_score": 37,
   "tags": [
     "half-marathon",
     "malaysia"
@@ -50,6 +72,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
-  "status": "active"
+  "last_updated": "2026-07-31",
+  "status": "needs_review"
 }

@@ -4,23 +4,45 @@
   "name": "Scenic Half Marathon Krabi 2026",
   "category_id": "half-marathon",
   "region_id": "thailand",
-  "short_description": "Scenic Half Marathon Krabi 2026 takes place September 12, 2026 in Ao Nang, Krabi, Thailand.",
-  "ai_summary": "Scenic Half Marathon Krabi 2026 is a road running event in Ao Nang, Krabi, Thailand, featuring Half Marathon. The race takes place on September 12, 2026, starting from Noppharatthara Beach, Ao Nang, Krabi. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A 21.1 km half-marathon held on September 13, 2026, at Noppharatthara Beach, Ao Nang, Krabi, Thailand, with registration currently open.",
+  "ai_summary": "The Scenic Half Marathon Krabi 2026 is a half-marathon event scheduled for September 13, 2026, at Noppharatthara Beach in Ao Nang, Krabi, Thailand. The race covers a primary distance of 21.1 km. Registration is currently open for runners interested in participating in this Thailand-based race.",
   "core_facts": {
-    "date": "2026-09-12",
+    "date": "2026-09-13",
     "distance_km": [
       21.1
     ],
     "primary_distance_km": 21.1,
     "registration_status": "Open",
-    "country": "Thailand",
     "venue": "Noppharatthara Beach, Ao Nang, Krabi",
-    "city": "Ao Nang, Krabi"
+    "city": "Ao Nang, Krabi",
+    "country": "Thailand"
   },
-  "pros": [],
+  "pros": [
+    "Scenic beachfront venue at Noppharatthara Beach, Ao Nang, Krabi",
+    "Registration is currently open",
+    "Clear standard half-marathon distance of 21.1 km",
+    "Located in a well-known Thailand destination"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Scenic Half Marathon Krabi 2026 taking place?",
+      "answer": "The Scenic Half Marathon Krabi 2026 is scheduled to take place on September 13, 2026. This date has been confirmed for the event, which will be held at Noppharatthara Beach in Ao Nang, Krabi, Thailand. Runners planning to participate should mark this date on their calendars."
+    },
+    {
+      "question": "Where is the race held?",
+      "answer": "The race takes place at Noppharatthara Beach in Ao Nang, Krabi, Thailand. This scenic beachfront location serves as the venue for the entire event. Ao Nang is the city associated with the race, situated within Krabi province in Thailand."
+    },
+    {
+      "question": "What distance options are available for this race?",
+      "answer": "The Scenic Half Marathon Krabi 2026 offers a primary distance of 21.1 km, the standard half-marathon distance. This is the only distance listed for the event, making it a straightforward option for runners specifically seeking a half-marathon race in Thailand."
+    },
+    {
+      "question": "Is registration currently open for this event?",
+      "answer": "Yes, registration for the Scenic Half Marathon Krabi 2026 is currently open. Prospective participants can sign up now to secure their place in the race, which is set to take place on September 13, 2026 at Noppharatthara Beach, Ao Nang, Krabi."
+    }
+  ],
   "reliability_score": 82,
   "tags": [
     "half-marathon",
@@ -32,7 +54,7 @@
       "url": "https://scenicmarathon.com/event.html?event=KSMH",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-13"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://checkpointspot.asia/events",
@@ -50,6 +72,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-13",
-  "status": "active"
+  "last_updated": "2026-07-31",
+  "status": "needs_review"
 }

@@ -4,27 +4,50 @@
   "name": "Pampanga Marathon 2026",
   "category_id": "full-marathon",
   "region_id": "philippines",
-  "short_description": "Pampanga Marathon 2026 takes place September 13, 2026 in Angeles City / Clark, Pampanga, Philippines.",
-  "ai_summary": "Pampanga Marathon 2026 is a road running event in Angeles City / Clark, Pampanga, Philippines, featuring Full Marathon (42K); Half Marathon (21K); 10K; 5K. The race takes place on September 13, 2026, starting from CDC Clark Parade Grounds. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "Pampanga Marathon 2026 is a full-marathon event held on September 13, 2026 at CDC Clark Parade Grounds, Angeles City / Clark, Pampanga, Philippines.",
+  "ai_summary": "The Pampanga Marathon 2026 is a full-marathon event scheduled for September 13, 2026, at the CDC Clark Parade Grounds in Angeles City / Clark, Pampanga, Philippines. Organized by SMOKE10 Events, it offers multiple distance options including 42.195km, 21.1km, 10km, and 5km. Registration details have not yet been announced.",
   "core_facts": {
     "date": "2026-09-13",
     "distance_km": [
       42.195,
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 42.195,
+    "organizer": "SMOKE10 Events",
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "CDC Clark Parade Grounds",
     "city": "Angeles City / Clark, Pampanga",
-    "organizer": "SMOKE10 Events"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options available: 42.195km, 21.1km, 10km, and 5km",
+    "Held at a notable venue, CDC Clark Parade Grounds, in Pampanga",
+    "Organized by an established events company, SMOKE10 Events"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Where is the Pampanga Marathon 2026 held?",
+      "answer": "The Pampanga Marathon 2026 takes place at the CDC Clark Parade Grounds, located in Angeles City / Clark, Pampanga, Philippines. This venue serves as the central location for the race, hosting all participants across the different distance categories offered during the event on September 13, 2026."
+    },
+    {
+      "question": "How can I register for the Pampanga Marathon 2026?",
+      "answer": "As of now, the registration status for the Pampanga Marathon 2026 has not yet been announced. Interested participants should stay tuned for updates from the organizer, SMOKE10 Events, regarding when and how registration will open for this event scheduled for September 13, 2026."
+    },
+    {
+      "question": "What distances are offered at the Pampanga Marathon 2026?",
+      "answer": "The Pampanga Marathon 2026 offers four distance options for participants: a full marathon at 42.195km, a half marathon at 21.1km, a 10km race, and a 5km race. This variety allows runners of different experience levels to participate in the event."
+    },
+    {
+      "question": "Who organizes the Pampanga Marathon 2026?",
+      "answer": "The Pampanga Marathon 2026 is organized by SMOKE10 Events, a company responsible for coordinating the race set to take place on September 13, 2026, at the CDC Clark Parade Grounds in Angeles City / Clark, Pampanga, Philippines."
+    }
+  ],
   "reliability_score": 40,
   "tags": [
     "full-marathon",

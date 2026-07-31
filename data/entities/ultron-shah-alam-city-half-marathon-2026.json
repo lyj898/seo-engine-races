@@ -4,23 +4,46 @@
   "name": "Ultron Shah Alam City Half Marathon 2026",
   "category_id": "half-marathon",
   "region_id": "malaysia",
-  "short_description": "Ultron Shah Alam City Half Marathon 2026 takes place August 9, 2026 in Shah Alam, Selangor, Malaysia.",
-  "ai_summary": "Ultron Shah Alam City Half Marathon 2026 is a road running event in Shah Alam, Selangor, Malaysia, featuring Half Marathon. The race takes place on August 9, 2026, starting from AEON MALL Shah Alam. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The Ultron Shah Alam City Half Marathon 2026 is a 5km, 10km, and 21.1km road race held on August 9, 2026 in Shah Alam, Selangor, Malaysia.",
+  "ai_summary": "The Ultron Shah Alam City Half Marathon 2026 is a road race scheduled for August 9, 2026, based at AEON MALL Shah Alam in Shah Alam, Selangor, Malaysia. Runners can choose from 5km, 10km, or 21.1km distances, with the half marathon serving as the primary event. Registration for the race is currently open.",
   "core_facts": {
     "date": "2026-08-09",
     "distance_km": [
+      5,
+      10,
       21.1
     ],
     "primary_distance_km": 21.1,
     "registration_status": "Open",
-    "country": "Malaysia",
     "venue": "AEON MALL Shah Alam",
-    "city": "Shah Alam, Selangor"
+    "city": "Shah Alam, Selangor",
+    "country": "Malaysia"
   },
-  "pros": [],
+  "pros": [
+    "Multiple distance options (5km, 10km, and 21.1km) to suit different runner levels",
+    "Registration is currently open, giving participants time to plan and prepare",
+    "Convenient venue at AEON MALL Shah Alam, a well-known location in the city"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Ultron Shah Alam City Half Marathon 2026 taking place?",
+      "answer": "The Ultron Shah Alam City Half Marathon 2026 is scheduled to take place on August 9, 2026. The event will be held in Shah Alam, Selangor, Malaysia, with the venue set at AEON MALL Shah Alam for participants to gather and start their race."
+    },
+    {
+      "question": "What distance options are available at this race?",
+      "answer": "Participants in the Ultron Shah Alam City Half Marathon 2026 can choose from three distances: 5km, 10km, and 21.1km. The 21.1km half marathon is the primary distance for this event, offering options for both casual and competitive runners."
+    },
+    {
+      "question": "Is registration currently open for this event?",
+      "answer": "Yes, registration for the Ultron Shah Alam City Half Marathon 2026 is currently open. Interested runners can sign up ahead of the race date of August 9, 2026, to secure their spot in one of the available distance categories."
+    },
+    {
+      "question": "Where is the race held?",
+      "answer": "The race takes place in Shah Alam, Selangor, Malaysia, with AEON MALL Shah Alam serving as the venue. This central location provides a clear starting point for participants across all three distance categories offered at the event."
+    }
+  ],
   "reliability_score": 45,
   "tags": [
     "half-marathon",
@@ -31,7 +54,7 @@
       "url": "https://www.jomrun.com/event/Ultron-Shah-Alam-City-Half-Marathon-2026",
       "label": "jomrun.com",
       "type": "aggregator",
-      "last_checked": "2026-07-13"
+      "last_checked": "2026-07-31"
     }
   ],
   "affiliate_links": [],
@@ -43,6 +66,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-13",
-  "status": "active"
+  "last_updated": "2026-07-31",
+  "status": "needs_review"
 }

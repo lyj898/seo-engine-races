@@ -4,29 +4,50 @@
   "name": "HSN Putrajaya 2026",
   "category_id": "half-marathon",
   "region_id": "malaysia",
-  "short_description": "HSN Putrajaya 2026 takes place October 10, 2026 in Putrajaya, Malaysia.",
-  "ai_summary": "HSN Putrajaya 2026 is a road running event in Putrajaya, Malaysia, featuring Half Marathon (21KM), 30KM, 10KM, 5KM, 3KM. The race takes place on October 10, 2026, starting from Dataran Putrajaya, Putrajaya. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "HSN Putrajaya 2026 is a half-marathon held on October 10, 2026, at Dataran Putrajaya, Putrajaya, Malaysia, with registration currently open.",
+  "ai_summary": "HSN Putrajaya 2026 is a half-marathon event scheduled for October 10, 2026, at Dataran Putrajaya in Putrajaya, Malaysia. The race offers multiple distance options including 21.1km, 30km, 10km, 5km, and 3km, catering to a range of runner abilities. It is organized by POWP x JBSWPKL x KPM, and registration is currently open for participants interested in joining.",
   "core_facts": {
     "date": "2026-10-10",
     "distance_km": [
-      21.0,
-      30.0,
-      10.0,
-      5.0,
-      3.0
+      21,
+      30,
+      10,
+      5,
+      3
     ],
     "primary_distance_km": 21.1,
+    "organizer": "POWP x JBSWPKL x KPM",
     "registration_status": "Open",
-    "country": "Malaysia",
     "venue": "Dataran Putrajaya, Putrajaya",
     "city": "Putrajaya",
-    "organizer": "POWP x JBSWPKL x KPM"
+    "country": "Malaysia"
   },
-  "pros": [],
+  "pros": [
+    "Multiple distance options (21.1km, 30km, 10km, 5km, 3km) suit different runner levels",
+    "Registration is currently open, allowing ample time to plan and prepare",
+    "Centrally located at Dataran Putrajaya, a well-known public venue in Putrajaya"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 52,
+  "faqs": [
+    {
+      "question": "When is HSN Putrajaya 2026 taking place?",
+      "answer": "HSN Putrajaya 2026 is scheduled to take place on October 10, 2026. The event will be held at Dataran Putrajaya, located in the city of Putrajaya, Malaysia, giving participants a specific date to plan their travel, training, and race-day logistics well in advance."
+    },
+    {
+      "question": "What distances can I run at HSN Putrajaya 2026?",
+      "answer": "Participants at HSN Putrajaya 2026 can choose from several distance categories: 21.1km (the primary half-marathon distance), as well as 30km, 10km, 5km, and 3km options. This range allows both experienced long-distance runners and beginners or casual participants to find a suitable race distance."
+    },
+    {
+      "question": "Is registration open for HSN Putrajaya 2026?",
+      "answer": "Yes, registration for HSN Putrajaya 2026 is currently open. Interested runners can sign up ahead of the race date of October 10, 2026, to secure their spot in one of the available distance categories at Dataran Putrajaya in Putrajaya, Malaysia."
+    },
+    {
+      "question": "Who organizes HSN Putrajaya 2026?",
+      "answer": "HSN Putrajaya 2026 is organized by a collaboration between POWP, JBSWPKL, and KPM. Together, these organizing bodies are responsible for coordinating the event, which will take place at Dataran Putrajaya in Putrajaya, Malaysia, on October 10, 2026."
+    }
+  ],
+  "reliability_score": 37,
   "tags": [
     "half-marathon",
     "malaysia"
@@ -48,6 +69,6 @@
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-07-14",
-  "status": "active"
+  "last_updated": "2026-07-31",
+  "status": "needs_review"
 }
