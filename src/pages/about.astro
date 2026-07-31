@@ -13,8 +13,8 @@ const breadcrumbItems = [
 
 const faqs = [
   {
-    question: `What does a reliability score mean on ${siteConfig.siteName}?`,
-    answer: `A reliability score (0-100) reflects how thoroughly a listing's facts have been independently verified across multiple sources at the time it was last checked -- not a rating of quality, value, or recommendation strength. A lower score usually means fewer independent sources confirmed the details, not that the listing is worse.`,
+    question: `How accurate is the information on ${siteConfig.siteName}?`,
+    answer: `Every listing is compiled and cross-checked against official sources and aggregators on a best-effort basis, not guaranteed. Details like dates, distances, and registration status can change on the underlying source faster than a listing is re-checked, so always confirm directly with the official source before booking travel or registering.`,
   },
   {
     question: 'Does AI write the content on this site?',
@@ -51,11 +51,12 @@ const jsonLd = [
         Listings are re-verified on a rolling basis, roughly every {siteConfig.sourceConfig?.refreshIntervalDays ?? 7} days,
         and every page shows the date it was last checked.
       </p>
-      <h2 class="text-xl font-semibold">What "reliability score" means</h2>
+      <h2 class="text-xl font-semibold">Best-effort, not guaranteed</h2>
       <p>
-        The reliability score on each listing reflects how many independent sources corroborated its details the last
-        time it was checked, not a judgment of quality. A new or lightly-sourced listing can still be entirely accurate
-        -- it simply hasn't accumulated as much independent confirmation yet.
+        This is a best-effort directory, not an authoritative source. Listings are compiled and cross-checked against
+        official sources where possible, but we don't score or rate listings against each other -- always confirm
+        exact dates, distances, and registration details directly with the race's own official page before making
+        a decision that depends on them.
       </p>
       <h2 class="text-xl font-semibold">How AI is used</h2>
       <p>
@@ -68,8 +69,7 @@ const jsonLd = [
           <h2 class="text-xl font-semibold">How this site makes money</h2>
           <p>
             Some listings include affiliate or referral links, clearly marked where they appear. This never affects
-            which listings are included or how they're scored -- inclusion and scoring are both based solely on the
-            verification process described above.
+            which listings are included -- inclusion is based solely on the verification process described above.
           </p>
         </>
       )}

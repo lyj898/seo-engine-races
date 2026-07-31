@@ -38,15 +38,10 @@ function topLevelCountryId(regionId) {
   return current?.region_id ?? regionId;
 }
 
-const avgReliability = entities.length
-  ? Math.round(entities.reduce((sum, e) => sum + e.reliability_score, 0) / entities.length)
-  : 0;
-
 const stats = [
   { label: `Verified ${siteConfig.entityLabelPlural}`, value: entities.length },
   { label: siteConfig.categoryLabelPlural ?? siteConfig.categoryLabel + 's', value: categories.length },
   { label: siteConfig.regionLabelPlural ?? siteConfig.regionLabel + 's', value: topLevelRegions.length },
-  { label: 'Avg. reliability', value: `${avgReliability}/100` },
 ];
 
 // A vertical is "date-driven" when every active entity carries a
@@ -103,11 +98,11 @@ const heroStats = [
 const faqs = [
   {
     question: `How do you verify each ${siteConfig.entityLabelSingular}?`,
-    answer: `Every ${siteConfig.entityLabelSingular} listed here is cross-checked against multiple independent sources -- official websites, aggregators, and other public records -- before it's published. Each entry carries a reliability score reflecting how thoroughly its details have been verified, and a last-updated date showing when that check last happened.`,
+    answer: `Every ${siteConfig.entityLabelSingular} listed here is cross-checked against multiple independent sources -- official websites, aggregators, and other public records -- on a best-effort basis before it's published, and each entry shows the date it was last checked.`,
   },
   {
     question: 'How often is this data refreshed?',
-    answer: `Listings are re-checked on a regular schedule (roughly every ${siteConfig.sourceConfig?.refreshIntervalDays ?? 7} days) against their original sources, and updated automatically when something changes. If a fact can no longer be verified, its reliability score drops rather than the old information being kept silently.`,
+    answer: `Listings are re-checked on a regular schedule (roughly every ${siteConfig.sourceConfig?.refreshIntervalDays ?? 7} days) against their original sources, and updated automatically when something changes. If a fact can no longer be verified, the listing is flagged for review rather than silently keeping stale information.`,
   },
 ];
 
