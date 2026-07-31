@@ -1,13 +1,13 @@
 ---
 import siteConfig from '../../lib/config.js';
 import { urls } from '../../lib/urls.js';
-import { loadListicles, stripMeta } from '../../lib/data.js';
+import { loadListicles, stripMeta, isPublished } from '../../lib/data.js';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import HubCard from '../../components/HubCard.astro';
 import { buildBreadcrumbListSchema } from '../../lib/schema-jsonld.js';
 
-const listicles = loadListicles().map(stripMeta).filter((l) => l.status === 'active');
+const listicles = loadListicles().map(stripMeta).filter(isPublished);
 
 const breadcrumbItems = [
   { label: siteConfig.siteName, href: urls.home() },
