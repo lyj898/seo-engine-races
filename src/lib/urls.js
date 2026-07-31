@@ -6,15 +6,29 @@ import siteConfig from './config.js';
  * ever needs to change in one place (here) rather than across every
  * component and page.
  *
- * The entity segment uses site.config.json's `entityLabelPlural` (e.g.
- * "races", "hotels", "courses") so entity URLs read naturally per vertical
- * -- runsea.run/races/nong-khai-running-festival/ -- without this file (or
+ * The entity segment defaults to site.config.json's `entityLabelPlural`
+ * (e.g. "races", "hotels", "courses") so entity URLs read naturally per
+ * vertical -- /races/nong-khai-running-festival/ -- without this file (or
  * any component) containing a single vertical-specific word itself.
+ *
+ * `entityUrlSegment` overrides that default. It exists for one reason: a
+ * URL that is already indexed is worth more than a tidier one. When an
+ * instance replaces an existing site on the same domain, the old path
+ * shape has accumulated real search equity, and renaming it silently 404s
+ * every result Google is already showing. Setting this key pins the new
+ * build to the old path instead of asking search engines (and anyone
+ * holding a link) to rediscover the whole directory.
  *
  * `categories`, `regions`, and `best` are structural site-section names,
  * not vertical words, so they stay generic across every instance.
  */
-const entitySegment = siteConfig.entityLabelPlural;
+const entitySegment = siteConfig.entityUrlSegment ?? siteConfig.entityLabelPlural;
+
+// Re-exported so the dynamic [entityType] route resolves its param from the
+// exact same value these link builders use. If the route derived it
+// independently the two could disagree, and every entity link would point at
+// a path that was never generated.
+export const entityUrlSegment = entitySegment;
 
 // Astro's import.meta.env.BASE_URL mirrors astro.config.mjs's `base` option
 // (always normalized to end with a trailing slash -- '/' when base is unset,
