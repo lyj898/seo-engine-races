@@ -8,7 +8,9 @@
   "entityLabelSingular": "race",
   "entityLabelPlural": "races",
   "categoryLabel": "Distance Type",
+  "categoryLabelPlural": "Distance Types",
   "regionLabel": "Country",
+  "regionLabelPlural": "Countries",
   "regionGranularity": "country+city",
 
   "schemaTypePrimary": "SportsEvent",
