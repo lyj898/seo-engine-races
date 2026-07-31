@@ -109,7 +109,11 @@ const jsonLd = [
 
     {entity.excerpt_quotes?.length > 0 && (
       <section class="mt-8">
-        <h2 class="mb-4 text-xl font-semibold">What sources say</h2>
+        {/* "What people say", not "What sources say": these are now
+            first-hand participant quotes gathered by the research stage, and
+            framing them as sourcing evidence undersells them as well as
+            reminding the reader they're reading a compiled page. */}
+        <h2 class="mb-4 text-xl font-semibold">What people say</h2>
         <ExcerptQuotes quotes={entity.excerpt_quotes} />
       </section>
     )}
@@ -133,7 +137,7 @@ const jsonLd = [
     </div>
 
     <div class="mt-10">
-      <RelatedEntities entities={relatedEntities} heading={`Related ${siteConfig.entityLabelPlural}`} />
+      <RelatedEntities entities={relatedEntities} categories={categories} heading={`Related ${siteConfig.entityLabelPlural}`} />
     </div>
 
     <div class="mt-10">
