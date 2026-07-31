@@ -93,8 +93,18 @@ async function run() {
   const stats = { sourcesChecked: 0, sourcesSkipped: 0, candidatesFound: 0, written: 0, skipped: 0 };
   const skipReasons = [];
 
-  for (const domain of aggregators) {
-    const sourceUrl = `https://${domain}`;
+  for (const source of aggregators) {
+    // An entry may be a bare domain ("example.com") or a full URL pointing
+    // at a specific listing page ("https://example.com/calendar/vietnam").
+    //
+    // Bare domains were the original behaviour and it quietly capped what
+    // discovery could ever find: a site's homepage is a marketing page with
+    // a handful of featured entries, while the actual calendar -- hundreds
+    // of rows, filtered by country -- lives a click away and was never
+    // fetched. Allowing a deep link means each entry can point at the page
+    // that genuinely lists what we're looking for.
+    const sourceUrl = /^https?:\/\//i.test(source) ? source : `https://${source}`;
+    const domain = new URL(sourceUrl).hostname;
     stats.sourcesChecked++;
 
     let allowed;
