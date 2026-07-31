@@ -109,3 +109,28 @@ export function isLikelyRegistrationOpen(status) {
   if (/not yet|not_yet|tba|to be announced|closed|pending/.test(s)) return false;
   return /\bopen\b/.test(s);
 }
+
+/**
+ * Collapses a free-text availability status to one of three states:
+ * 'open', 'closed', or null (meaning "we don't know -- say nothing").
+ *
+ * Source pages write this field in dozens of shapes: "Open (Early Bird)",
+ * "Pendaftaran Dibuka (Registration Open)", "Sold Out", "Opens 8 Jul 2026",
+ * "Not yet confirmed open (2027)". Printing those verbatim turns a listing
+ * card into a wall of inconsistent micro-copy, and the date-bearing ones go
+ * stale the moment the date passes -- a card still promising "Opens 6 May
+ * 2026" in August is worse than saying nothing at all.
+ *
+ * So only the two states a visitor can act on survive. A promised future
+ * opening date is deliberately *not* one of them: it's a claim that decays,
+ * and we can't re-verify it between refreshes. Returning null lets the
+ * caller omit the line entirely rather than print a non-answer.
+ */
+export function simplifyAvailabilityStatus(status) {
+  if (typeof status !== 'string' || isUnknownStatus(status)) return null;
+  const s = status.toLowerCase();
+  // Closed wins over open: "Closed (pending rescheduled date)" and "Sold Out"
+  // both describe a door that is shut, however they phrase it.
+  if (/closed|sold out|fully booked|ended|full house/.test(s)) return 'closed';
+  return isLikelyRegistrationOpen(status) ? 'open' : null;
+}
