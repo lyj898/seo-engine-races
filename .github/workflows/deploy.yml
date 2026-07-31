@@ -1,13 +1,24 @@
 name: Deploy to GitHub Pages
 
-# Builds the Astro site and publishes it to GitHub Pages on every push to
-# main, plus lets you trigger a manual rebuild/redeploy from the Actions tab
-# without needing a new commit (useful right after changing a GitHub secret,
-# or after the weekly-refresh workflow commits new data).
+# Builds the Astro site and publishes it to GitHub Pages.
+#
+# Three ways in:
+#   push          - a human (or the web UI) pushing to main
+#   workflow_dispatch - manual rebuild from the Actions tab, no commit needed
+#   workflow_call - invoked as a job by another workflow
+#
+# workflow_call exists because of a GitHub rule that is easy to get caught
+# by: a push made with the built-in GITHUB_TOKEN does NOT trigger further
+# workflow runs. That guard prevents infinite loops, but it also meant
+# weekly-refresh could commit new data to main and no deploy would ever
+# fire -- the data sat on main, correct and invisible, until someone
+# noticed. Calling this workflow as a job sidesteps the rule entirely,
+# because it is no longer an *event* doing the triggering.
 on:
   push:
     branches: [main]
   workflow_dispatch: {}
+  workflow_call: {}
 
 # Allow one concurrent deployment; if a new push lands while a build is
 # still running, cancel the in-progress one rather than queueing (we always

@@ -37,6 +37,10 @@ permissions:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    outputs:
+      # Consumed by the deploy job below, so a run that changed nothing
+      # doesn't spend a build.
+      changed: ${{ steps.summary.outputs.changed }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -145,3 +149,18 @@ jobs:
       - name: No changes this run
         if: steps.summary.outputs.changed == 'false'
         run: echo "Pipeline ran; nothing changed in data/, nothing committed."
+
+  # Deploying has to be an explicit job rather than something we leave to
+  # deploy.yml's `on: push`. The commit above is made with GITHUB_TOKEN, and
+  # GitHub deliberately does not let token-authored pushes trigger workflows
+  # -- so the push event never fires and the site would silently keep serving
+  # the previous build. Calling the workflow directly is not an event, so the
+  # restriction doesn't apply.
+  deploy:
+    needs: refresh
+    if: needs.refresh.outputs.changed == 'true'
+    uses: ./.github/workflows/deploy.yml
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
