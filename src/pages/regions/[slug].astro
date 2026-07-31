@@ -2,6 +2,7 @@
 import siteConfig from '../../lib/config.js';
 import { urls } from '../../lib/urls.js';
 import { loadEntities, loadRegions, loadCategories, stripMeta, buildRegionAncestryMap, isPublished } from '../../lib/data.js';
+import { byUpcomingDate } from '../../lib/sort.js';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import StatsSummary from '../../components/StatsSummary.astro';
@@ -28,7 +29,9 @@ const ancestryMap = buildRegionAncestryMap(allRegions);
 // Matches this region OR any descendant (e.g. the "Thailand" hub also
 // includes "Nong Khai" entities) -- no vertical-specific geography logic,
 // just parent_region_id chains built once in buildRegionAncestryMap.
-const entities = allEntities.filter((e) => (ancestryMap.get(e.region_id) ?? [e.region_id]).includes(region.region_id));
+const entities = allEntities
+  .filter((e) => (ancestryMap.get(e.region_id) ?? [e.region_id]).includes(region.region_id))
+  .sort(byUpcomingDate);
 
 const childRegions = allRegions.filter((r) => r.parent_region_id === region.region_id);
 const parentRegion = allRegions.find((r) => r.region_id === region.parent_region_id);
