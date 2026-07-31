@@ -26,14 +26,9 @@ const allRegions = loadRegions().map(stripMeta);
 
 const entities = allEntities.filter((e) => e.category_id === category.category_id);
 
-const avgReliability = entities.length
-  ? Math.round(entities.reduce((sum, e) => sum + e.reliability_score, 0) / entities.length)
-  : 0;
-
 const stats = [
   { label: `${siteConfig.entityLabelPlural}`, value: entities.length },
   { label: `${siteConfig.regionLabel}s represented`, value: new Set(entities.map((e) => e.region_id)).size },
-  { label: 'Avg. reliability', value: entities.length ? `${avgReliability}/100` : '—' },
 ];
 
 // Sideways links: this category's related_category_ids.
