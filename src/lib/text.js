@@ -15,3 +15,77 @@ export function splitAccentWord(text) {
   const [, before, accent, after] = match;
   return { before, accent, after };
 }
+
+const MONTH_NAMES = [
+  'January', 'February', 'March', 'April', 'May', 'June',
+  'July', 'August', 'September', 'October', 'November', 'December',
+];
+
+/**
+ * Splits an ISO "YYYY-MM-DD" date string into a { day, month } pair for a
+ * calendar-style date badge (e.g. "1" / "AUG"). Generic to any
+ * date-carrying vertical's core_facts, not races-specific -- events,
+ * courses, anything with a date field can use this. Returns null if the
+ * string isn't a parseable ISO date, so a caller can fall back gracefully.
+ */
+export function formatDayMonth(isoDate) {
+  if (typeof isoDate !== 'string') return null;
+  const match = /^(\d{4})-(\d{2})-(\d{2})/.exec(isoDate);
+  if (!match) return null;
+  const [, , monthNum, dayNum] = match;
+  const monthIndex = Number(monthNum) - 1;
+  if (monthIndex < 0 || monthIndex > 11) return null;
+  return { day: String(Number(dayNum)), month: MONTH_NAMES[monthIndex].slice(0, 3).toUpperCase() };
+}
+
+/** "2026-08-01" -> "August 2026". Used to group entities by month. Returns null if unparseable. */
+export function formatMonthLabel(isoDate) {
+  if (typeof isoDate !== 'string') return null;
+  const match = /^(\d{4})-(\d{2})/.exec(isoDate);
+  if (!match) return null;
+  const [, year, monthNum] = match;
+  const monthIndex = Number(monthNum) - 1;
+  if (monthIndex < 0 || monthIndex > 11) return null;
+  return `${MONTH_NAMES[monthIndex]} ${year}`;
+}
+
+/** "2026-08" sort/filter key for a date string, or null if unparseable. */
+export function monthKey(isoDate) {
+  if (typeof isoDate !== 'string') return null;
+  const match = /^(\d{4}-\d{2})/.exec(isoDate);
+  return match ? match[1] : null;
+}
+
+/**
+ * Free-text status fields in seed data show up two ways: a snake_case
+ * placeholder (e.g. "not_yet_announced") or an already-human sentence (e.g.
+ * "Open (via Google Form/Facebook)"). This humanizes only the former,
+ * leaving anything with a space alone -- so a full free-text status isn't
+ * mangled by a title-casing pass meant only for the placeholder format.
+ */
+export function humanizeStatus(status) {
+  if (typeof status !== 'string' || !status.trim()) return '';
+  if (status.includes(' ')) return status;
+  return status
+    .split('_')
+    .filter(Boolean)
+    .map((word) => word[0].toUpperCase() + word.slice(1))
+    .join(' ');
+}
+
+/**
+ * Heuristic: does a free-text registration_status string suggest
+ * registration is currently open? Used only by the optional "open for
+ * registration" filter -- a false negative just leaves a race out of a
+ * narrowed filter view, never hides it from the full unfiltered listing.
+ */
+export function isLikelyRegistrationOpen(status) {
+  if (typeof status !== 'string') return false;
+  const s = status.toLowerCase();
+  // Exclusions first: "not yet open"/"opening soon"/"opens <date>" all
+  // contain the substring "open" but mean the opposite of open, so this
+  // checks for "open" as its own whole word (\bopen\b -- excludes "opens",
+  // "opening") only after ruling out the not-yet-open phrasings.
+  if (/not yet|not_yet|tba|to be announced|closed|pending/.test(s)) return false;
+  return /\bopen\b/.test(s);
+}
