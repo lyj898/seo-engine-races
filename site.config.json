@@ -68,6 +68,12 @@
     }
   },
 
+  "_listicleConfig_note": "minEntities is the floor below which a category x country guide isn't worth a page -- a three-item 'best of' reads as thin and drags on the domain rather than helping it. perRunLimit spreads guide creation over several weeks instead of publishing dozens at once.",
+  "listicleConfig": {
+    "minEntities": 4,
+    "perRunLimit": 10
+  },
+
   "enabledFeatures": {
     "listicles": true,
     "reviewQueue": true,
@@ -88,6 +94,11 @@
   "sourceConfig": {
     "discoveryStrategy": "aggregator-plus-official-verification",
     "refreshIntervalDays": 7,
+    "_discoveryWindowMonths_note": "Rolling coverage window measured from the day each run executes, not a fixed end date -- so the directory keeps reaching a full year ahead every week instead of slowly running out of future.",
+    "discoveryWindowMonths": 12,
+    "_research_note": "Web-research stage budget. researchPerRunLimit caps entities per weekly run so cost stays flat as the directory grows; researchIntervalDays is how long before an entity is looked at again (what people say about an event barely changes week to week). Soonest-dated entities are researched first.",
+    "researchPerRunLimit": 25,
+    "researchIntervalDays": 90,
     "requestDelayMs": 1500,
     "respectRobotsTxt": true,
     "userAgent": "programmatic-seo-engine/1.0 (+https://runsea.run/about)",
