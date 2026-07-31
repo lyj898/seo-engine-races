@@ -1,0 +1,32 @@
+---
+import Pill from './Pill.astro';
+import { matchCategoryByValue } from '../lib/categoryMatch.js';
+
+// Renders one pill per number in `values`, matched against `categories`'
+// matchRange (schema/base.js) for a colored, labeled pill (e.g. "Full
+// Marathon (42.2km)"), falling back to a plain neutral "<value><unit>" pill
+// when no category's range contains it -- an unmatched value is shown
+// honestly rather than force-fit to the nearest label. Generic to any
+// vertical with a numeric core_facts array bucketed by category (races'
+// distance_km today; a duration or price-tier array for another vertical
+// tomorrow) -- no vertical vocabulary lives here.
+const { values = [], categories = [], unit = '', maxDecimals = 1, class: className = '' } = Astro.props;
+
+function formatValue(v) {
+  const factor = 10 ** maxDecimals;
+  return String(Math.round(v * factor) / factor);
+}
+---
+
+{values.length > 0 && (
+  <div class:list={['flex flex-wrap gap-1.5', className]}>
+    {values.map((v) => {
+      const match = matchCategoryByValue(v, categories);
+      return match ? (
+        <Pill variant={match.badgeVariant}>{match.label} ({formatValue(v)}{unit})</Pill>
+      ) : (
+        <Pill variant="neutral">{formatValue(v)}{unit}</Pill>
+      );
+    })}
+  </div>
+)}

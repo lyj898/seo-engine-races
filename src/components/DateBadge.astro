@@ -1,0 +1,17 @@
+---
+import { formatDayMonth } from '../lib/text.js';
+
+// Calendar-style day/month badge (e.g. "1" / "AUG") for any entity carrying
+// an ISO date in core_facts -- generic to any date-driven vertical (races,
+// events, courses with a start date), not races-specific. Renders nothing
+// if the date doesn't parse, so a caller can lay it out unconditionally.
+const { date } = Astro.props;
+const parsed = formatDayMonth(date);
+---
+
+{parsed && (
+  <div class="flex w-14 shrink-0 flex-col items-center justify-center rounded-lg bg-brand-primary-highlight px-2 py-2.5 text-center dark:bg-brand-primary-highlight-dark">
+    <span class="text-lg font-black leading-none text-brand-text dark:text-brand-text-dark">{parsed.day}</span>
+    <span class="mt-0.5 text-[0.65rem] font-bold uppercase tracking-wide text-brand-muted dark:text-brand-muted-dark">{parsed.month}</span>
+  </div>
+)}

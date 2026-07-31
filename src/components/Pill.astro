@@ -1,10 +1,22 @@
 ---
+import { BADGE_VARIANT_CLASSES } from '../lib/categoryMatch.js';
+
 // Generic small chip -- reused for tags, distance labels, whatever a
 // vertical's seed data throws at it. Content comes entirely from the slot.
+//
+// variant: 'success' | 'warning' | 'neutral' (default) -- matches a
+// category's badgeVariant (schema/base.js) so a category-derived pill can
+// carry that category's visual-emphasis hint. Callers that don't pass a
+// variant get the original plain-gray look unchanged.
+const { variant = 'neutral' } = Astro.props;
+const variantClass = BADGE_VARIANT_CLASSES[variant] ?? BADGE_VARIANT_CLASSES.neutral;
 ---
 
 <span
-  class="inline-flex max-w-full items-center overflow-hidden text-ellipsis whitespace-nowrap rounded-full bg-brand-surface-offset px-2.5 py-1 text-[0.6875rem] font-bold text-brand-muted dark:bg-brand-surface-offset-dark dark:text-brand-muted-dark"
+  class:list={[
+    'inline-flex max-w-full items-center overflow-hidden text-ellipsis whitespace-nowrap rounded-full px-2.5 py-1 text-[0.6875rem] font-bold',
+    variantClass,
+  ]}
 >
   <slot />
 </span>
