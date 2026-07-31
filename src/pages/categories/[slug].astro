@@ -75,7 +75,7 @@ const jsonLd = [
       <div class="mt-10">
         {regionFilterOptions.length > 1 && <FilterBar options={regionFilterOptions} storageKey={`filter-category-${category.slug}`} />}
         <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {entities.map((entity) => <EntityCard entity={entity} />)}
+          {entities.map((entity) => <EntityCard entity={entity} categories={allCategories} />)}
         </div>
       </div>
     ) : (
