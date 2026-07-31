@@ -4,23 +4,46 @@
   "name": "Sabah Half Marathon Powered by JomRun®",
   "category_id": "half-marathon",
   "region_id": "malaysia",
-  "short_description": "Sabah Half Marathon Powered by JomRun® takes place December 13, 2026 in Kota Kinabalu, Sabah, Malaysia.",
-  "ai_summary": "Sabah Half Marathon Powered by JomRun® is a road running event in Kota Kinabalu, Sabah, Malaysia, featuring Half Marathon. The race takes place on December 13, 2026, starting from Likas Stadium, Kota Kinabalu. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The Sabah Half Marathon Powered by JomRun® takes place on December 13, 2026, at Likas Stadium, Kota Kinabalu, Sabah, Malaysia.",
+  "ai_summary": "The Sabah Half Marathon Powered by JomRun® is scheduled for December 13, 2026, at Likas Stadium in Kota Kinabalu, Sabah, Malaysia. Runners can choose from three distances: 5km, 10km, and the primary 21.1km half marathon. Registration is currently open for participants interested in joining this event.",
   "core_facts": {
     "date": "2026-12-13",
     "distance_km": [
+      5,
+      10,
       21.1
     ],
     "primary_distance_km": 21.1,
     "registration_status": "Open",
-    "country": "Malaysia",
     "venue": "Likas Stadium, Kota Kinabalu",
-    "city": "Kota Kinabalu, Sabah"
+    "city": "Kota Kinabalu, Sabah",
+    "country": "Malaysia"
   },
-  "pros": [],
+  "pros": [
+    "Multiple distance options (5km, 10km, 21.1km) suit a range of runner abilities",
+    "Registration is currently open, giving ample time to prepare",
+    "Held at Likas Stadium, a defined venue in Kota Kinabalu, Sabah"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Where is the Sabah Half Marathon held?",
+      "answer": "The Sabah Half Marathon Powered by JomRun® is held at Likas Stadium in Kota Kinabalu, Sabah, Malaysia. This venue serves as the starting point for the event, which takes place in the city of Kota Kinabalu within the Malaysian state of Sabah."
+    },
+    {
+      "question": "What distances can I run?",
+      "answer": "Participants can choose from three distance options at this event: 5km, 10km, or the primary distance of 21.1km, which is the half marathon distance. This range allows runners of different experience levels and fitness goals to select a suitable race option."
+    },
+    {
+      "question": "When does the race take place?",
+      "answer": "The Sabah Half Marathon Powered by JomRun® is scheduled to take place on December 13, 2026. The event will be held at Likas Stadium in Kota Kinabalu, Sabah, Malaysia, offering runners multiple distance choices on that date."
+    },
+    {
+      "question": "Is registration currently open?",
+      "answer": "Yes, registration for the Sabah Half Marathon Powered by JomRun® is currently open. Interested runners can sign up now for one of the available distances -- 5km, 10km, or 21.1km -- ahead of the December 13, 2026 race date in Kota Kinabalu."
+    }
+  ],
   "reliability_score": 45,
   "tags": [
     "half-marathon",
@@ -31,7 +54,7 @@
       "url": "https://www.jomrun.com/event/Sabah-Half-Marathon-Powered-by-JomRun",
       "label": "jomrun.com",
       "type": "aggregator",
-      "last_checked": "2026-07-13"
+      "last_checked": "2026-07-31"
     }
   ],
   "affiliate_links": [],
@@ -43,6 +66,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-13",
-  "status": "active"
+  "last_updated": "2026-07-31",
+  "status": "needs_review"
 }

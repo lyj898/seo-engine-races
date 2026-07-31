@@ -4,26 +4,49 @@
   "name": "Carabao Half Marathon (Carabao Marathon)",
   "category_id": "half-marathon",
   "region_id": "indonesia",
-  "short_description": "Carabao Half Marathon (Carabao Marathon) takes place March 28, 2027 in Kota Batu, Jawa Timur, Indonesia.",
-  "ai_summary": "Carabao Half Marathon (Carabao Marathon) is a road running event in Kota Batu, Jawa Timur, Indonesia, featuring Half Marathon; 10km; 5km. The race takes place on March 28, 2027, starting from Kota Batu, Jawa Timur. Registration is Closed (pending rescheduled date; existing tickets carried over) as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The Carabao Half Marathon is a multi-distance running event held in Kota Batu, Jawa Timur, Indonesia, on March 28, 2027, with registration currently open.",
+  "ai_summary": "The Carabao Half Marathon is a running event scheduled for March 28, 2027, in Kota Batu, Jawa Timur, Indonesia. Organized by the Carabao energy drink brand under Carabao Hydration, it offers multiple distance options including 5km, 10km, 21.1km (half marathon), and 42km (marathon). Registration for the event is currently open, giving runners of varying experience levels a chance to participate in the scenic Kota Batu location.",
   "core_facts": {
     "date": "2027-03-28",
     "distance_km": [
       21.1,
-      10.0,
-      5.0
+      10,
+      5,
+      42
     ],
     "primary_distance_km": 21.1,
-    "registration_status": "Closed (pending rescheduled date; existing tickets carried over)",
-    "country": "Indonesia",
+    "organizer": "Carabao (energy drink brand) / Carabao Hydration",
+    "registration_status": "Pendaftaran Dibuka (Registration Open)",
     "venue": "Kota Batu, Jawa Timur",
     "city": "Kota Batu, Jawa Timur",
-    "organizer": "Carabao (energy drink brand) / Carabao Hydration"
+    "country": "Indonesia"
   },
-  "pros": [],
+  "pros": [
+    "Multiple distance options (5km, 10km, 21.1km, 42km) cater to different runner levels",
+    "Registration is currently open, allowing ample time to plan and sign up",
+    "Backed by an established brand, Carabao, through its Carabao Hydration division",
+    "Takes place in Kota Batu, Jawa Timur, a notable Indonesian location"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Who organizes the Carabao Half Marathon?",
+      "answer": "The Carabao Half Marathon is organized by Carabao, an energy drink brand, through its Carabao Hydration division. This corporate backing supports the event's logistics and branding as it prepares to host runners across multiple distance categories in Kota Batu, Jawa Timur, Indonesia."
+    },
+    {
+      "question": "Is registration currently open for this race?",
+      "answer": "Yes, registration for the Carabao Half Marathon is currently open, as indicated by its status of 'Pendaftaran Dibuka' which translates to 'Registration Open.' Interested runners can sign up ahead of the event date of March 28, 2027."
+    },
+    {
+      "question": "What distances can participants choose from in this race?",
+      "answer": "Participants in the Carabao Half Marathon can choose from four distance options: 5km, 10km, 21.1km (the primary half marathon distance), and 42km (a full marathon). This variety allows runners of different skill levels and goals to take part in the event."
+    },
+    {
+      "question": "Where and when will the Carabao Half Marathon take place?",
+      "answer": "The Carabao Half Marathon will take place on March 28, 2027, in Kota Batu, located in Jawa Timur, Indonesia. This scheduled date and venue provide runners with a clear timeline and location to prepare for their participation in the event."
+    }
+  ],
   "reliability_score": 80,
   "tags": [
     "half-marathon",
@@ -35,7 +58,7 @@
       "url": "https://carabaomarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://Instagram (@carabao.marathon)",
@@ -53,6 +76,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
-  "status": "active"
+  "last_updated": "2026-07-31",
+  "status": "needs_review"
 }

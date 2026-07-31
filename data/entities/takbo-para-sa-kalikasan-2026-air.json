@@ -4,26 +4,49 @@
   "name": "Takbo Para sa Kalikasan 2026 (Air)",
   "category_id": "half-marathon",
   "region_id": "philippines",
-  "short_description": "Takbo Para sa Kalikasan 2026 (Air) takes place September 20, 2026 in Manila, Philippines.",
-  "ai_summary": "Takbo Para sa Kalikasan 2026 (Air) is a road running event in Manila, Philippines, featuring Half Marathon (21K); 10K; 5K. The race takes place on September 20, 2026, starting from Ermita, Manila. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half-marathon event in Ermita, Manila, Philippines, offering 21.1km, 10km, and 5km distances on September 20, 2026.",
+  "ai_summary": "Takbo Para sa Kalikasan 2026 is a half-marathon event scheduled for September 20, 2026, in Ermita, Manila, Philippines. Organized by Green Media Events, the race offers three distance options: 21.1km, 10km, and 5km, allowing participants of varying fitness levels to take part. Registration details have not yet been announced for this race.",
   "core_facts": {
     "date": "2026-09-20",
     "distance_km": [
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Green Media Events",
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "Ermita, Manila",
     "city": "Manila",
-    "organizer": "Green Media Events"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km) accommodate different runner levels",
+    "Convenient Manila location in Ermita",
+    "Organized by an established events organizer, Green Media Events"
+  ],
+  "cons": [
+    "Registration status has not yet been announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is Takbo Para sa Kalikasan 2026 taking place?",
+      "answer": "Takbo Para sa Kalikasan 2026 is scheduled to take place on September 20, 2026. The event will be held in Ermita, Manila, in the Philippines, giving runners in the region a chance to participate in this half-marathon race on that specific date."
+    },
+    {
+      "question": "What distances can I run in this race?",
+      "answer": "Participants in Takbo Para sa Kalikasan 2026 can choose from three distance options: a 21.1km half-marathon, a 10km race, or a 5km race. This range of distances allows both experienced runners and beginners to find a suitable challenge for their fitness level."
+    },
+    {
+      "question": "How do I register for this race?",
+      "answer": "As of now, the registration status for Takbo Para sa Kalikasan 2026 has not yet been announced. Prospective participants will need to wait for further updates from the organizer, Green Media Events, regarding when and how registration will open for this race."
+    },
+    {
+      "question": "Who organizes Takbo Para sa Kalikasan 2026?",
+      "answer": "Takbo Para sa Kalikasan 2026 is organized by Green Media Events. The race takes place in Ermita, Manila, Philippines, and is set for September 20, 2026, featuring 21.1km, 10km, and 5km distance categories for participants to choose from."
+    }
+  ],
   "reliability_score": 40,
   "tags": [
     "half-marathon",

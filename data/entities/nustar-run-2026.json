@@ -4,24 +4,47 @@
   "name": "NUSTAR Run 2026",
   "category_id": "half-marathon",
   "region_id": "philippines",
-  "short_description": "NUSTAR Run 2026 takes place August 23, 2026 in Cebu City, Philippines.",
-  "ai_summary": "NUSTAR Run 2026 is a road running event in Cebu City, Philippines, featuring Half Marathon (21K). The race takes place on August 23, 2026, starting from NUSTAR Resort, Cebu City. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "NUSTAR Run 2026 is a 21.1 km half-marathon held on August 23, 2026 at NUSTAR Resort, Cebu City, Philippines.",
+  "ai_summary": "NUSTAR Run 2026 is a half-marathon event scheduled for August 23, 2026, held in Cebu City, Philippines. The race is organized by NUSTAR Resort and starts at NUSTAR Resort, Cebu City. The event offers a 21.1 km distance for participants. Registration details have not yet been announced, so prospective runners should watch for updates.",
   "core_facts": {
     "date": "2026-08-23",
     "distance_km": [
       21.1
     ],
     "primary_distance_km": 21.1,
+    "organizer": "NUSTAR Resort",
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "NUSTAR Resort, Cebu City",
     "city": "Cebu City",
-    "organizer": "NUSTAR Resort"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Hosted at the well-known NUSTAR Resort in Cebu City",
+    "Organized directly by NUSTAR Resort, ensuring a dedicated event host",
+    "Offers a standard half-marathon distance of 21.1 km"
+  ],
+  "cons": [
+    "Registration status has not yet been announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is NUSTAR Run 2026 taking place?",
+      "answer": "NUSTAR Run 2026 is scheduled to take place on August 23, 2026. The event will be held in Cebu City, Philippines, at the NUSTAR Resort venue. No further schedule details, such as start times, have been announced yet, so participants should check back for updates closer to the date."
+    },
+    {
+      "question": "What distance is offered at NUSTAR Run 2026?",
+      "answer": "NUSTAR Run 2026 features a half-marathon distance of 21.1 kilometers. This is the primary and only distance listed for the event so far. Runners looking for a full marathon or shorter race options are not catered to based on the currently available information."
+    },
+    {
+      "question": "Where does the race start?",
+      "answer": "The race is held at NUSTAR Resort in Cebu City, Philippines. NUSTAR Resort also serves as the event's organizer, hosting the run at its own venue. No additional route or starting line details beyond the venue location have been provided at this time."
+    },
+    {
+      "question": "Is registration open for NUSTAR Run 2026?",
+      "answer": "Registration status for NUSTAR Run 2026 has not yet been announced. Prospective participants currently have no confirmed way to sign up, and details such as fees, opening dates, or registration platforms have not been disclosed. Interested runners should check for future announcements regarding registration."
+    }
+  ],
   "reliability_score": 40,
   "tags": [
     "half-marathon",

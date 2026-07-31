@@ -4,27 +4,51 @@
   "name": "33rd Anniversary Gaisano Country Mall Fun Run 2026",
   "category_id": "half-marathon",
   "region_id": "philippines",
-  "short_description": "33rd Anniversary Gaisano Country Mall Fun Run 2026 takes place October 18, 2026 in Cebu City, Philippines.",
-  "ai_summary": "33rd Anniversary Gaisano Country Mall Fun Run 2026 is a road running event in Cebu City, Philippines, featuring Half Marathon (21K); 12K; 6K. The race takes place on October 18, 2026, starting from Banilad Road, Cebu City. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A charity fun run in Cebu City on October 18, 2026, offering 21.1km, 12km, and 6km distances to benefit SOS Children's Village.",
+  "ai_summary": "The 33rd Anniversary Gaisano Country Mall Fun Run 2026 is a charity race set for October 18, 2026, along Banilad Road in Cebu City, Philippines. Runners can choose between 21.1km, 12km, and 6km distances, with the half-marathon serving as the primary event category. Organized by Gaisano Country Mall, proceeds support SOS Children's Village. Registration is currently open, with entry fees of PHP 1,500 for the 21km race and PHP 1,200 for the 12km race.",
   "core_facts": {
     "date": "2026-10-18",
     "distance_km": [
       21.1,
-      12.0,
-      6.0
+      12,
+      6
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Gaisano Country Mall (charity: SOS Children's Village)",
     "registration_status": "Open",
-    "country": "Philippines",
+    "price_range": "PHP 21K 1,500 / 12K 1,200",
     "venue": "Banilad Road, Cebu City",
     "city": "Cebu City",
-    "organizer": "Gaisano Country Mall (charity: SOS Children's Village)",
-    "price_range": "PHP 21K 1,500 / 12K 1,200"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 12km, 6km) suit different fitness levels",
+    "Proceeds support a charitable cause, SOS Children's Village",
+    "Registration is currently open ahead of the race date",
+    "Long-running event with a 33-year history"
+  ],
+  "cons": [
+    "Pricing information is only listed for the 21km and 12km categories, not the 6km race"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the 33rd Anniversary Gaisano Country Mall Fun Run 2026 taking place?",
+      "answer": "The 33rd Anniversary Gaisano Country Mall Fun Run 2026 is scheduled for October 18, 2026, and will be held along Banilad Road in Cebu City, Philippines. Registration for this event is currently open, so participants who wish to join the half-marathon or shorter distance categories should sign up ahead of the race date."
+    },
+    {
+      "question": "What distances can I run in this race?",
+      "answer": "Runners can choose from three distance options at this event: a 21.1-kilometer half-marathon, a 12-kilometer race, and a 6-kilometer race. The 21.1-kilometer distance serves as the primary event category, while the 12-kilometer and 6-kilometer distances offer options for participants seeking a shorter course through Cebu City's Banilad Road area."
+    },
+    {
+      "question": "Who organizes this race and who benefits from it?",
+      "answer": "This race is organized by Gaisano Country Mall and held annually to support charity, with proceeds this year benefiting SOS Children's Village. The event takes place on Banilad Road in Cebu City, Philippines, giving runners in the 21.1km, 12km, and 6km categories a chance to combine fitness with a charitable cause."
+    },
+    {
+      "question": "How much does it cost to register?",
+      "answer": "Registration pricing varies by distance category: the 21-kilometer race costs PHP 1,500, while the 12-kilometer race is priced at PHP 1,200. These fees allow participants to join Gaisano Country Mall's charity fun run supporting SOS Children's Village, held on Banilad Road, Cebu City on October 18, 2026."
+    }
+  ],
   "reliability_score": 58,
   "tags": [
     "half-marathon",

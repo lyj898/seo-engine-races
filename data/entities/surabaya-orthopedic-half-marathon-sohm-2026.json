@@ -4,25 +4,48 @@
   "name": "Surabaya Orthopedic Half Marathon (SOHM) 2026",
   "category_id": "half-marathon",
   "region_id": "indonesia",
-  "short_description": "Surabaya Orthopedic Half Marathon (SOHM) 2026 takes place September 13, 2026 in Surabaya, Indonesia.",
-  "ai_summary": "Surabaya Orthopedic Half Marathon (SOHM) 2026 is a road running event in Surabaya, Indonesia, featuring Half Marathon; 10km; 5km. The race takes place on September 13, 2026, starting from The Caribbean Grande Pakuwon City, Surabaya. Registration is Not Yet Announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "SOHM 2026 is a half marathon event in Surabaya, Indonesia, held on September 13, 2026, with 21.1km, 10km, and 5km distance options.",
+  "ai_summary": "The Surabaya Orthopedic Half Marathon (SOHM) 2026 takes place on September 13, 2026, at The Caribbean Grande Pakuwon City in Surabaya, Indonesia. Runners can choose from three distances: 21.1km, 10km, and 5km. Registration is currently open, with prices ranging from Rp 137.500 to Rp 450.000 depending on the chosen distance and category.",
   "core_facts": {
     "date": "2026-09-13",
     "distance_km": [
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
-    "registration_status": "Not Yet Announced",
-    "country": "Indonesia",
+    "registration_status": "Open",
+    "price_range": "Rp 137.500 - Rp 450.000",
     "venue": "The Caribbean Grande Pakuwon City, Surabaya",
-    "city": "Surabaya"
+    "city": "Surabaya",
+    "country": "Indonesia"
   },
-  "pros": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km) accommodate different runner levels",
+    "Registration is currently open, giving ample time to prepare",
+    "Held at a named, specific venue (The Caribbean Grande Pakuwon City, Surabaya)",
+    "Price range offers flexibility depending on distance and budget"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Surabaya Orthopedic Half Marathon (SOHM) 2026?",
+      "answer": "The Surabaya Orthopedic Half Marathon (SOHM) 2026 is scheduled to take place on September 13, 2026. The event will be held in Surabaya, Indonesia, at The Caribbean Grande Pakuwon City venue, giving participants a specific date to plan their travel and training around."
+    },
+    {
+      "question": "What distances are offered at SOHM 2026?",
+      "answer": "SOHM 2026 offers three distance categories for participants to choose from: a 21.1km half marathon, a 10km race, and a shorter 5km race. This range allows runners of different experience levels and fitness goals to find a suitable distance to participate in."
+    },
+    {
+      "question": "Where is SOHM 2026 held?",
+      "answer": "The race is held at The Caribbean Grande Pakuwon City, located in Surabaya, Indonesia. This venue serves as the central location for the event on September 13, 2026, hosting all three distance categories: the 21.1km, 10km, and 5km races."
+    },
+    {
+      "question": "How much does it cost to register for SOHM 2026?",
+      "answer": "Registration prices for SOHM 2026 range from Rp 137.500 to Rp 450.000, depending on the distance category and registration package selected. Registration is currently open, so interested runners can sign up now within this stated price range for their preferred race distance."
+    }
+  ],
   "reliability_score": 82,
   "tags": [
     "half-marathon",
@@ -34,7 +57,7 @@
       "url": "https://www.orthopedicrun.id",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-13"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
@@ -58,6 +81,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-13",
-  "status": "active"
+  "last_updated": "2026-07-31",
+  "status": "needs_review"
 }

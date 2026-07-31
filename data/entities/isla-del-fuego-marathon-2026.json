@@ -4,27 +4,50 @@
   "name": "Isla Del Fuego Marathon 2026",
   "category_id": "full-marathon",
   "region_id": "philippines",
-  "short_description": "Isla Del Fuego Marathon 2026 takes place September 6, 2026 in Siquijor, Philippines.",
-  "ai_summary": "Isla Del Fuego Marathon 2026 is a road running event in Siquijor, Philippines, featuring Full Marathon (42K); Half Marathon (21K); 10K; 5K. The race takes place on September 6, 2026, starting from Siquijor Blvd, Siquijor. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A full marathon and multi-distance race set for September 6, 2026, in Siquijor, Philippines, organized by SMOKE10 Events.",
+  "ai_summary": "The Isla Del Fuego Marathon 2026 is a full marathon scheduled for September 6, 2026, in Siquijor, Philippines. Organized by SMOKE10 Events, the race takes place along Siquijor Blvd and offers multiple distance options: 42.195km, 21.1km, 10km, and 5km. Registration details have not yet been announced.",
   "core_facts": {
     "date": "2026-09-06",
     "distance_km": [
       42.195,
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 42.195,
+    "organizer": "SMOKE10 Events",
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "Siquijor Blvd, Siquijor",
     "city": "Siquijor",
-    "organizer": "SMOKE10 Events"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (42.195km, 21.1km, 10km, 5km) to suit different runners",
+    "Scenic race location along Siquijor Blvd in Siquijor, Philippines",
+    "Organized by an established events company, SMOKE10 Events"
+  ],
+  "cons": [
+    "Registration status has not yet been announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Isla Del Fuego Marathon 2026?",
+      "answer": "The Isla Del Fuego Marathon 2026 is scheduled to take place on September 6, 2026. The race will be held in Siquijor, Philippines, along Siquijor Blvd, and includes distance options of 42.195km, 21.1km, 10km, and 5km for participants to choose from."
+    },
+    {
+      "question": "Can I register for the Isla Del Fuego Marathon 2026 now?",
+      "answer": "As of now, the registration status for the Isla Del Fuego Marathon 2026 has not yet been announced. Prospective participants will need to wait for further details from the organizer, SMOKE10 Events, regarding when and how registration will open for this race."
+    },
+    {
+      "question": "Where is the race held?",
+      "answer": "The Isla Del Fuego Marathon 2026 is held in Siquijor, Philippines, specifically along Siquijor Blvd. This location serves as the venue for all the race distances offered, including the full marathon, half marathon, 10km, and 5km options for participants."
+    },
+    {
+      "question": "What distances are offered at this race?",
+      "answer": "The Isla Del Fuego Marathon 2026 offers four distance options for participants: a full marathon of 42.195km, a half marathon of 21.1km, a 10km race, and a 5km race, allowing runners of varying experience levels to participate."
+    }
+  ],
   "reliability_score": 40,
   "tags": [
     "full-marathon",

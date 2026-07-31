@@ -4,23 +4,51 @@
   "name": "Kota Bharu Half Marathon 2026",
   "category_id": "half-marathon",
   "region_id": "malaysia",
-  "short_description": "Kota Bharu Half Marathon 2026 takes place September 5, 2026 in Kota Bharu, Kelantan, Malaysia.",
-  "ai_summary": "Kota Bharu Half Marathon 2026 is a road running event in Kota Bharu, Kelantan, Malaysia, featuring Half Marathon. The race takes place on September 5, 2026, starting from Dewan Jubli Perak, Kota Bharu, Kelantan. Registration is Closed as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The Kota Bharu Half Marathon 2026 is a 21.1km, 10km, and 5km road race held on September 5, 2026, in Kota Bharu, Kelantan, Malaysia.",
+  "ai_summary": "The Kota Bharu Half Marathon 2026 is a road race scheduled for September 5, 2026, in Kota Bharu, Kelantan, Malaysia. Organized by Yayasan KB Care and the Kerajaan Negeri Kelantan, the event offers three distance options: 21.1km, 10km, and 5km, based at Dewan Jubli Perak. Registration is currently open, with prices ranging from MYR 50 to MYR 110.",
   "core_facts": {
     "date": "2026-09-05",
     "distance_km": [
-      21.1
+      21.1,
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
-    "registration_status": "Closed",
-    "country": "Malaysia",
+    "organizer": "Yayasan KB Care & Kerajaan Negeri Kelantan",
+    "registration_status": "Open",
+    "price_range": "MYR 50–110",
     "venue": "Dewan Jubli Perak, Kota Bharu, Kelantan",
-    "city": "Kota Bharu, Kelantan"
+    "city": "Kota Bharu, Kelantan",
+    "country": "Malaysia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km) suit different fitness levels",
+    "Registration is currently open",
+    "Backed by a government body and a foundation, suggesting organizational support",
+    "Affordable price range from MYR 50 to MYR 110"
+  ],
+  "cons": [
+    "Limited information available beyond basic event logistics"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Kota Bharu Half Marathon 2026 taking place?",
+      "answer": "The Kota Bharu Half Marathon 2026 is scheduled to take place on September 5, 2026. The event will be held in Kota Bharu, Kelantan, Malaysia, with Dewan Jubli Perak serving as the venue. Registration for the race is currently open for interested participants."
+    },
+    {
+      "question": "What distances are offered at this race?",
+      "answer": "The Kota Bharu Half Marathon 2026 offers three distance categories for participants to choose from: a 21.1km half marathon, a 10km race, and a shorter 5km option. This range allows runners of varying experience and fitness levels to select a distance that suits them."
+    },
+    {
+      "question": "How much does it cost to register?",
+      "answer": "Registration fees for the Kota Bharu Half Marathon 2026 range from MYR 50 to MYR 110, depending on the chosen distance category and possibly other factors. Registration is currently open, so interested runners can sign up for the 21.1km, 10km, or 5km race options."
+    },
+    {
+      "question": "Who organizes the Kota Bharu Half Marathon?",
+      "answer": "The Kota Bharu Half Marathon 2026 is jointly organized by Yayasan KB Care, a foundation, and the Kerajaan Negeri Kelantan, which is the Kelantan state government. This partnership suggests a combination of community and governmental support behind the planning and execution of the event."
+    }
+  ],
   "reliability_score": 82,
   "tags": [
     "half-marathon",
@@ -32,7 +60,7 @@
       "url": "https://kbhalf.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-13"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://checkpointspot.asia/events",
@@ -50,6 +78,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-13",
-  "status": "active"
+  "last_updated": "2026-07-31",
+  "status": "needs_review"
 }

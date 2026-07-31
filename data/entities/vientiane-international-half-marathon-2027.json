@@ -4,25 +4,49 @@
   "name": "Vientiane International Half Marathon",
   "category_id": "half-marathon",
   "region_id": "laos",
-  "short_description": "Vientiane International Half Marathon takes place March 7, 2027 in Vientiane, Laos.",
-  "ai_summary": "Vientiane International Half Marathon is a road running event in Vientiane, Laos, featuring Half Marathon (21KM). The race takes place on March 7, 2027, starting from Nakham, Vientiane. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half marathon (21.1 km) held in Nakham, Vientiane, Laos, scheduled for March 7, 2027.",
+  "ai_summary": "The Vientiane International Half Marathon is scheduled for March 7, 2027, in Nakham, Vientiane, Laos. Organized by Events for Good Laos, the event centers on a 21.1 km half marathon distance. Registration details have not yet been announced, so prospective participants should check back for updates on how to sign up.",
   "core_facts": {
     "date": "2027-03-07",
     "distance_km": [
       21
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Events for Good Laos",
     "registration_status": "not_yet_announced",
-    "country": "Laos",
     "venue": "Nakham, Vientiane",
     "city": "Vientiane",
-    "organizer": "Events for Good Laos"
+    "country": "Laos"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Clear race date set for March 7, 2027",
+    "Standard half marathon distance of 21.1 km",
+    "Organized by a named organizer, Events for Good Laos",
+    "Located in Vientiane, Laos, a specific and identifiable venue"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so signup details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 80,
+  "faqs": [
+    {
+      "question": "When is the Vientiane International Half Marathon?",
+      "answer": "The Vientiane International Half Marathon is scheduled to take place on March 7, 2027. It will be held in Nakham, Vientiane, Laos. No further scheduling details beyond this date have been provided, so participants should watch for additional updates from the organizer, Events for Good Laos, closer to the event."
+    },
+    {
+      "question": "How long is the race?",
+      "answer": "The race covers a half marathon distance, with the primary distance listed as 21.1 kilometers. This is the standard half marathon length, consistent with the event's name. No other distance options are mentioned in the available facts about this particular race in Vientiane, Laos."
+    },
+    {
+      "question": "Who organizes the Vientiane International Half Marathon?",
+      "answer": "The Vientiane International Half Marathon is organized by Events for Good Laos. The event takes place in Nakham, Vientiane, within the country of Laos. No additional details about the organizer's background or other events they run are included in the current facts provided."
+    },
+    {
+      "question": "Is registration open yet?",
+      "answer": "According to the available information, the registration status for the Vientiane International Half Marathon is listed as not yet announced. This means prospective runners cannot currently sign up, and further details about registration timing or process have not been shared yet by the organizer."
+    }
+  ],
+  "reliability_score": 75,
   "tags": [
     "half-marathon",
     "laos",
@@ -33,7 +57,7 @@
       "url": "https://efglaos.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-16"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://aims-worldrunning.org/calendar.html",
@@ -51,6 +75,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-16",
+  "last_updated": "2026-07-31",
   "status": "active"
 }

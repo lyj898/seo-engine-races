@@ -4,27 +4,50 @@
   "name": "Bromo Marathon 2026",
   "category_id": "full-marathon",
   "region_id": "indonesia",
-  "short_description": "Bromo Marathon 2026 takes place September 6, 2026 in Bromo, Jawa Timur, Indonesia.",
-  "ai_summary": "Bromo Marathon 2026 is a road running event in Bromo, Jawa Timur, Indonesia, featuring Full Marathon; Half Marathon; 10km; 5km; 2.5km. The race takes place on September 6, 2026, starting from Plataran Bromo, Jawa Timur. Registration is Not Yet Announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "Bromo Marathon 2026 is a full-marathon race held on September 6, 2026, at Plataran Bromo in Tosari, East Java, Indonesia.",
+  "ai_summary": "Bromo Marathon 2026 is a full-marathon event scheduled for September 6, 2026, at Plataran Bromo in Tosari, East Java, Indonesia. Runners can choose from five distances: 42.195km, 21.1km, 10km, 5km, and 2.5km, catering to a range of experience levels. Registration for the event has not yet been announced.",
   "core_facts": {
     "date": "2026-09-06",
     "distance_km": [
       42.195,
       21.1,
-      10.0,
-      5.0,
+      10,
+      5,
       2.5
     ],
     "primary_distance_km": 42.195,
     "registration_status": "Not Yet Announced",
-    "country": "Indonesia",
     "venue": "Plataran Bromo, Jawa Timur",
-    "city": "Bromo, Jawa Timur"
+    "city": "Tosari, East Java",
+    "country": "Indonesia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (42.195km, 21.1km, 10km, 5km, 2.5km) suit a wide range of runners",
+    "Scenic venue at Plataran Bromo in East Java",
+    "Clear event date set for September 6, 2026"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Bromo Marathon 2026?",
+      "answer": "The Bromo Marathon 2026 is scheduled to take place on September 6, 2026. This date applies to the full event, which includes the primary marathon distance of 42.195km as well as several shorter distance options held at the same venue in East Java, Indonesia."
+    },
+    {
+      "question": "Where is the Bromo Marathon 2026 held?",
+      "answer": "The race takes place at Plataran Bromo, located in Tosari, East Java, Indonesia. This venue serves as the central location for all five distance categories offered during the event, making it the starting point for runners participating in the 2026 edition."
+    },
+    {
+      "question": "What distances are offered at the Bromo Marathon 2026?",
+      "answer": "The event offers five distance options: a full marathon of 42.195km, a half marathon of 21.1km, plus 10km, 5km, and 2.5km races. The 42.195km full marathon is the primary distance, allowing participants to choose a distance that matches their fitness and experience."
+    },
+    {
+      "question": "Is registration open for the Bromo Marathon 2026?",
+      "answer": "As of now, the registration status for the Bromo Marathon 2026 is listed as 'Not Yet Announced.' This means specific sign-up dates, fees, and procedures have not been released yet, so prospective participants should check back later for updates on how to register."
+    }
+  ],
   "reliability_score": 55,
   "tags": [
     "full-marathon",
@@ -35,7 +58,7 @@
       "url": "https://www.bromomarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-23"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
@@ -65,6 +88,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-23",
-  "status": "active"
+  "last_updated": "2026-07-31",
+  "status": "needs_review"
 }

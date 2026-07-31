@@ -4,27 +4,49 @@
   "name": "Minang Geopark Run 2026",
   "category_id": "half-marathon",
   "region_id": "indonesia",
-  "short_description": "Minang Geopark Run 2026 takes place November 1, 2026 in Bukittinggi, Sumatera Barat, Indonesia.",
-  "ai_summary": "Minang Geopark Run 2026 is a road running event in Bukittinggi, Sumatera Barat, Indonesia, featuring 5K; 10K; 21K Half Marathon. The race takes place on November 1, 2026, starting from Jam Gadang / Ngarai Sianok area, Bukittinggi. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "Minang Geopark Run 2026 is a half-marathon held on November 1, 2026, in Bukittinggi, Sumatera Barat, Indonesia.",
+  "ai_summary": "Minang Geopark Run 2026 is a half-marathon event scheduled for November 1, 2026, in Bukittinggi, Sumatera Barat, Indonesia. Organized by the Geopark Run Series, it takes place around the Jam Gadang and Ngarai Sianok area, offering three distance options: 5km, 10km, and 21.1km. Registration for the event is currently open to participants.",
   "core_facts": {
     "date": "2026-11-01",
     "distance_km": [
-      5.0,
-      10.0,
+      5,
+      10,
       21.1
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Geopark Run Series",
     "registration_status": "Open",
-    "country": "Indonesia",
     "venue": "Jam Gadang / Ngarai Sianok area, Bukittinggi",
     "city": "Bukittinggi, Sumatera Barat",
-    "organizer": "Geopark Run Series"
+    "country": "Indonesia"
   },
-  "pros": [],
+  "pros": [
+    "Multiple distance options (5km, 10km, 21.1km) suit different runner levels",
+    "Scenic venue around Jam Gadang and Ngarai Sianok landmarks",
+    "Registration is currently open",
+    "Organized by an established event series, Geopark Run Series"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 78,
+  "faqs": [
+    {
+      "question": "What distances are offered at the Minang Geopark Run 2026?",
+      "answer": "The Minang Geopark Run 2026 offers three distance categories for participants to choose from: a 5km run, a 10km run, and a 21.1km half-marathon, which is the event's primary distance. This range allows both casual runners and more experienced half-marathoners to take part in the race."
+    },
+    {
+      "question": "When and where does the Minang Geopark Run 2026 take place?",
+      "answer": "The Minang Geopark Run 2026 is scheduled to take place on November 1, 2026. The event will be held in the Jam Gadang and Ngarai Sianok area of Bukittinggi, located in Sumatera Barat, Indonesia, offering runners a scenic backdrop for the race."
+    },
+    {
+      "question": "Who organizes the Minang Geopark Run 2026?",
+      "answer": "The Minang Geopark Run 2026 is organized by the Geopark Run Series, which oversees the planning and hosting of this half-marathon event in Bukittinggi, Sumatera Barat, Indonesia, featuring courses that pass through notable local landmarks such as Jam Gadang and Ngarai Sianok."
+    },
+    {
+      "question": "Is registration open for the Minang Geopark Run 2026?",
+      "answer": "Yes, registration for the Minang Geopark Run 2026 is currently open. Interested participants can sign up for any of the three available distances -- 5km, 10km, or the 21.1km half-marathon -- ahead of the event taking place on November 1, 2026, in Bukittinggi, Indonesia."
+    }
+  ],
+  "reliability_score": 81,
   "tags": [
     "half-marathon",
     "indonesia",
@@ -35,7 +57,7 @@
       "url": "https://geoparkrun.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://geoparkrun.com/faq",
@@ -71,6 +93,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-31",
   "status": "active"
 }

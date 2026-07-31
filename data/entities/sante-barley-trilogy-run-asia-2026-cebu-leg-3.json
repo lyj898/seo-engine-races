@@ -4,28 +4,52 @@
   "name": "Sante Barley Trilogy Run Asia 2026 – Cebu Leg 3",
   "category_id": "half-marathon",
   "region_id": "philippines",
-  "short_description": "Sante Barley Trilogy Run Asia 2026 – Cebu Leg 3 takes place September 13, 2026 in Cebu City, Philippines.",
-  "ai_summary": "Sante Barley Trilogy Run Asia 2026 – Cebu Leg 3 is a road running event in Cebu City, Philippines, featuring 32KM, Half Marathon (21KM), 10KM, 5KM. The race takes place on September 13, 2026, starting from SM Seaside, Cebu. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A multi-distance running event held on September 13, 2026, at SM Seaside, Cebu City, Philippines, organized by Runrio under the Sante Barley Trilogy Run Asia brand.",
+  "ai_summary": "Sante Barley Trilogy Run Asia 2026 – Cebu Leg 3 is a running event scheduled for September 13, 2026, at SM Seaside in Cebu City, Philippines. Organized by Runrio under the Sante Barley Trilogy Run Asia brand, the event offers multiple distance options of 32km, 21.1km (the primary half-marathon distance), 10km, and 5km. Registration details have not yet been announced.",
   "core_facts": {
     "date": "2026-09-13",
     "distance_km": [
-      32.0,
-      21.0,
-      10.0,
-      5.0
+      32,
+      21,
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Runrio (brand: Sante Barley Trilogy Run Asia)",
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "SM Seaside, Cebu",
     "city": "Cebu City",
-    "organizer": "Runrio (brand: Sante Barley Trilogy Run Asia)"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (32km, 21.1km, 10km, 5km) suit a range of runner abilities",
+    "Held at SM Seaside, a notable venue in Cebu City",
+    "Organized by Runrio, an established name behind the Sante Barley Trilogy Run Asia brand"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so sign-up details are unavailable",
+    "No pricing, cut-off times, or route information provided in available source material"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 80,
+  "faqs": [
+    {
+      "question": "When is the Sante Barley Trilogy Run Asia 2026 – Cebu Leg 3 taking place?",
+      "answer": "The race is scheduled to take place on September 13, 2026. It will be held at SM Seaside in Cebu City, Philippines. This is part of the Sante Barley Trilogy Run Asia series, organized by Runrio, and marks the third leg of the Cebu edition."
+    },
+    {
+      "question": "What distances can participants run?",
+      "answer": "Participants can choose from four distance categories: 32km, 21.1km, 10km, and 5km. The 21.1km half-marathon distance is listed as the primary distance for this event, giving runners of varying experience levels several options to select from when registering."
+    },
+    {
+      "question": "Who organizes this race?",
+      "answer": "The event is organized by Runrio, operating under the Sante Barley Trilogy Run Asia brand. Runrio manages this race as part of the broader Trilogy Run Asia series, with this specific edition being held in Cebu City, Philippines, as the third leg of that series."
+    },
+    {
+      "question": "Is registration open yet?",
+      "answer": "According to available information, registration for this race has not yet been announced. Interested participants will need to wait for further details from the organizer, Runrio, regarding sign-up dates, fees, and procedures for the Sante Barley Trilogy Run Asia 2026 Cebu Leg 3."
+    }
+  ],
+  "reliability_score": 75,
   "tags": [
     "half-marathon",
     "philippines",
@@ -36,7 +60,7 @@
       "url": "https://runrio.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://runrio.com/race-calendar",
@@ -54,6 +78,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-31",
   "status": "active"
 }

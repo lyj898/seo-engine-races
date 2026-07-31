@@ -4,25 +4,49 @@
   "name": "2026 Garmin Run Marathon Series – Malaysia",
   "category_id": "half-marathon",
   "region_id": "malaysia",
-  "short_description": "2026 Garmin Run Marathon Series – Malaysia takes place November 1, 2026 in Putrajaya, Malaysia.",
-  "ai_summary": "2026 Garmin Run Marathon Series – Malaysia is a road running event in Putrajaya, Malaysia, featuring 21KM Half Marathon; 10KM. The race takes place on November 1, 2026, starting from In front of Mahkamah Syariah WP Putrajaya. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half-marathon event held in Putrajaya, Malaysia on November 1, 2026, offering 21km and 10km distances, with registration currently sold out.",
+  "ai_summary": "The 2026 Garmin Run Marathon Series – Malaysia is a half-marathon event scheduled for November 1, 2026, in Putrajaya, Malaysia. Organized by Garmin Malaysia with technical partner SCORE Experience, the race offers 21km and 10km distance options, with the 21.1km half-marathon as the primary distance. The event starts in front of Mahkamah Syariah WP Putrajaya, and registration is currently sold out.",
   "core_facts": {
     "date": "2026-11-01",
     "distance_km": [
-      21.0,
-      10.0
+      21,
+      10
     ],
     "primary_distance_km": 21.1,
-    "registration_status": "Open",
-    "country": "Malaysia",
+    "organizer": "Garmin Malaysia (technical partner: SCORE Experience)",
+    "registration_status": "Sold Out",
     "venue": "In front of Mahkamah Syariah WP Putrajaya",
     "city": "Putrajaya",
-    "organizer": "Garmin Malaysia (technical partner: SCORE Experience)"
+    "country": "Malaysia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Offers both a half-marathon (21km) and a 10km distance option",
+    "Organized by Garmin Malaysia with technical partner SCORE Experience",
+    "Central, notable venue in front of Mahkamah Syariah WP Putrajaya",
+    "Strong demand shown by sold-out registration status"
+  ],
+  "cons": [
+    "Registration is sold out, so new participants cannot currently sign up"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the 2026 Garmin Run Marathon Series – Malaysia taking place?",
+      "answer": "This race is scheduled to take place on November 1, 2026. It will be held in Putrajaya, Malaysia, starting in front of Mahkamah Syariah WP Putrajaya, and is organized by Garmin Malaysia in partnership with SCORE Experience as the technical partner for the event."
+    },
+    {
+      "question": "Can I still register for this race?",
+      "answer": "No, registration for the 2026 Garmin Run Marathon Series – Malaysia is currently listed as sold out. This means all available race entries have already been claimed, and prospective participants would need to check back for future updates or upcoming editions of the series."
+    },
+    {
+      "question": "What distances are offered at this event?",
+      "answer": "The event offers two distances: a 21km half-marathon, which is the primary distance for this race, and a shorter 10km option. This gives participants a choice between two race lengths depending on their preferred level of challenge and training."
+    },
+    {
+      "question": "Who organizes this race?",
+      "answer": "The race is organized by Garmin Malaysia, with SCORE Experience serving as the technical partner responsible for supporting the event's execution. Together, they oversee the 2026 Garmin Run Marathon Series – Malaysia, which is held in Putrajaya as part of the broader race series."
+    }
+  ],
   "reliability_score": 65,
   "tags": [
     "half-marathon",
@@ -33,7 +57,7 @@
       "url": "https://raceroster.com/events/2026/129858/2026-garmin-run-marathon-series-malaysia",
       "label": "raceroster.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://www.sportsworldmalaysia.com",
@@ -51,6 +75,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
-  "status": "active"
+  "last_updated": "2026-07-31",
+  "status": "needs_review"
 }

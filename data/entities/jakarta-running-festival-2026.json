@@ -4,26 +4,50 @@
   "name": "Jakarta Running Festival 2026",
   "category_id": "full-marathon",
   "region_id": "indonesia",
-  "short_description": "Jakarta Running Festival 2026 takes place October 22, 2026 in Jakarta, Indonesia.",
-  "ai_summary": "Jakarta Running Festival 2026 is a road running event in Jakarta, Indonesia, featuring Full Marathon; Half Marathon; 10km; 5km. The race takes place on October 22, 2026, starting from Jakarta (exact venue not stated). Registration is Not Yet Announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "Jakarta Running Festival 2026 is a full marathon, half marathon, 10km, and 5km event held in Jakarta, Indonesia from October 22-25, 2026.",
+  "ai_summary": "Jakarta Running Festival 2026 is a multi-distance road race held in Jakarta, Indonesia, from October 22 to 25, 2026. Runners can choose between a full marathon (42.195km), half marathon (21.1km), 10km, or 5km distance. Registration is currently open under the Late Bird pricing tier. The exact venue within Jakarta has not yet been specified.",
   "core_facts": {
-    "date": "2026-10-22",
+    "date": "2026-10-22 to 2026-10-25",
     "distance_km": [
       42.195,
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 42.195,
-    "registration_status": "Not Yet Announced",
-    "country": "Indonesia",
+    "registration_status": "Open (Late Bird registration)",
     "venue": "Jakarta (exact venue not stated)",
-    "city": "Jakarta"
+    "city": "Jakarta",
+    "country": "Indonesia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (5km, 10km, half marathon, full marathon) suit different runner levels",
+    "Registration is currently open, giving runners time to plan and train",
+    "Takes place in Jakarta, a major Indonesian city"
+  ],
+  "cons": [
+    "Exact venue within Jakarta is not yet stated",
+    "Registration is already in the 'Late Bird' stage, suggesting earlier pricing tiers have passed"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When does the Jakarta Running Festival 2026 take place?",
+      "answer": "The Jakarta Running Festival 2026 runs across a four-day period, from October 22 to October 25, 2026, in Jakarta, Indonesia. This span likely accommodates the different race distances offered, including the 5km, 10km, half marathon, and full marathon events, though specific day-by-day scheduling has not been detailed."
+    },
+    {
+      "question": "Is registration still open for this race?",
+      "answer": "Yes, registration is currently open for the Jakarta Running Festival 2026. The event is in its 'Late Bird' registration phase, which typically follows earlier discounted pricing tiers, so interested runners should register soon before this phase closes or pricing changes further."
+    },
+    {
+      "question": "What race distances are available at this event?",
+      "answer": "The Jakarta Running Festival 2026 offers four distance options for participants: a full marathon of 42.195km, a half marathon of 21.1km, a 10km race, and a 5km race. This range allows both competitive marathoners and casual runners to take part."
+    },
+    {
+      "question": "Where exactly in Jakarta is the race held?",
+      "answer": "The race takes place in Jakarta, Indonesia, but the exact venue or starting location within the city has not been specified in the available information. Runners planning to attend may need to check for further venue details closer to the event date."
+    }
+  ],
   "reliability_score": 82,
   "tags": [
     "full-marathon",
@@ -35,7 +59,7 @@
       "url": "https://jakartarunningfestival.id",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-13"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
@@ -59,6 +83,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-13",
-  "status": "active"
+  "last_updated": "2026-07-31",
+  "status": "needs_review"
 }

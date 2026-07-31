@@ -4,26 +4,49 @@
   "name": "The Kiprun Singapore 2026",
   "category_id": "half-marathon",
   "region_id": "singapore",
-  "short_description": "The Kiprun Singapore 2026 takes place September 27, 2026 in Singapore, Singapore.",
-  "ai_summary": "The Kiprun Singapore 2026 is a road running event in Singapore, Singapore, featuring 21.1KM Half Marathon; 10KM; 5KM; 670M Kids Dash. The race takes place on September 27, 2026, starting from Decathlon Singapore Lab, Kallang. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The Kiprun Singapore 2026 is a half-marathon event on September 27, 2026, in Kallang, Singapore, with registration currently open.",
+  "ai_summary": "The Kiprun Singapore 2026 is a half-marathon event scheduled for September 27, 2026, in Kallang, Singapore. Organized by MetaSport and presented by Decathlon Singapore, the race offers four distance options: 21.1km, 10km, 5km, and a 0.67km event, based at the Decathlon Singapore Lab. Registration is currently open for participants interested in joining any of these distances.",
   "core_facts": {
     "date": "2026-09-27",
     "distance_km": [
       21.1,
-      10.0,
-      5.0
+      10,
+      5,
+      0.67
     ],
     "primary_distance_km": 21.1,
+    "organizer": "MetaSport (presented by Decathlon Singapore)",
     "registration_status": "Open",
-    "country": "Singapore",
     "venue": "Decathlon Singapore Lab, Kallang",
     "city": "Singapore",
-    "organizer": "MetaSport (presented by Decathlon Singapore)"
+    "country": "Singapore"
   },
-  "pros": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km, 0.67km) to suit different runner levels",
+    "Registration is currently open, allowing ample time to prepare",
+    "Organized by MetaSport and presented by Decathlon Singapore, a known sporting goods brand",
+    "Centrally located venue at Decathlon Singapore Lab, Kallang"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is The Kiprun Singapore 2026 taking place?",
+      "answer": "The Kiprun Singapore 2026 is scheduled to take place on September 27, 2026. The event will be held in Kallang, Singapore, at the Decathlon Singapore Lab venue, and is organized by MetaSport in partnership with Decathlon Singapore for participants of various running distances."
+    },
+    {
+      "question": "What distances are offered at this event?",
+      "answer": "The Kiprun Singapore 2026 offers four distance categories for participants to choose from: a 21.1km half-marathon as the primary distance, along with 10km, 5km, and a shorter 0.67km event, catering to a range of runner experience levels and fitness goals."
+    },
+    {
+      "question": "Where is the race held?",
+      "answer": "The race takes place at the Decathlon Singapore Lab, located in Kallang, Singapore. This venue serves as the central hub for The Kiprun Singapore 2026, hosting all distance categories including the 21.1km half-marathon, 10km, 5km, and the 0.67km event for participants."
+    },
+    {
+      "question": "Who organizes The Kiprun Singapore 2026?",
+      "answer": "The Kiprun Singapore 2026 is organized by MetaSport, presented by Decathlon Singapore. This partnership brings together event management expertise and a well-known sporting goods retailer to deliver the race, which includes multiple distances held at the Decathlon Singapore Lab in Kallang."
+    }
+  ],
   "reliability_score": 65,
   "tags": [
     "half-marathon",
@@ -34,7 +57,7 @@
       "url": "https://www.justrunlah.com/race/the-kiprun-singapore-2026/",
       "label": "justrunlah.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://in.metasport-events.com/the-kiprun-singapore-2026",
@@ -52,6 +75,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
-  "status": "active"
+  "last_updated": "2026-07-31",
+  "status": "needs_review"
 }

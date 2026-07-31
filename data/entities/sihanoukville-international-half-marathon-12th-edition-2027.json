@@ -4,8 +4,8 @@
   "name": "Sihanoukville International Half Marathon (12th edition)",
   "category_id": "half-marathon",
   "region_id": "cambodia",
-  "short_description": "Sihanoukville International Half Marathon (12th edition) takes place March 28, 2027 in Sihanoukville, Cambodia.",
-  "ai_summary": "Sihanoukville International Half Marathon (12th edition) is a road running event in Sihanoukville, Cambodia, featuring Half Marathon (21.1km); 10.5km; 5km; 3km. The race takes place on March 28, 2027, starting from Ochheuteal Beach, Sihanoukville. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A 12th-edition half marathon in Sihanoukville, Cambodia, taking place March 28, 2027 at Ochheuteal Beach with 21.1 km, 10.5 km, 5 km, and 3 km distance options.",
+  "ai_summary": "The Sihanoukville International Half Marathon is a 12th-edition road race scheduled for March 28, 2027, held at Ochheuteal Beach in Sihanoukville, Cambodia. It offers four distance options: 21.1 km, 10.5 km, 5 km, and 3 km, catering to a range of runner abilities. The event is organized by Cambodia Events, the same organizer behind other races (E19/E68/E91). Registration details have not yet been announced.",
   "core_facts": {
     "date": "2027-03-28",
     "distance_km": [
@@ -15,17 +15,41 @@
       3
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Cambodia Events (same organizer as E19/E68/E91)",
     "registration_status": "not_yet_announced",
-    "country": "Cambodia",
     "venue": "Ochheuteal Beach, Sihanoukville",
     "city": "Sihanoukville",
-    "organizer": "Cambodia Events (same organizer as E19/E68/E91)"
+    "country": "Cambodia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1 km, 10.5 km, 5 km, 3 km) suit different fitness levels",
+    "Scenic beachfront venue at Ochheuteal Beach, Sihanoukville",
+    "Long-running event now in its 12th edition, suggesting established organization",
+    "Organized by Cambodia Events, which also runs other races (E19/E68/E91)"
+  ],
+  "cons": [
+    "Registration status has not yet been announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 82,
+  "faqs": [
+    {
+      "question": "When is the Sihanoukville International Half Marathon?",
+      "answer": "The Sihanoukville International Half Marathon, now in its 12th edition, is scheduled to take place on March 28, 2027. The event will be held at Ochheuteal Beach in Sihanoukville, Cambodia, offering runners a beachfront setting for the race."
+    },
+    {
+      "question": "What distances are offered at this race?",
+      "answer": "The race offers four distance options for participants: a 21.1 km half marathon as the primary distance, along with 10.5 km, 5 km, and 3 km races. This range allows runners of different experience levels and fitness goals to take part in the event."
+    },
+    {
+      "question": "Who organizes the Sihanoukville International Half Marathon?",
+      "answer": "The event is organized by Cambodia Events, the same organizer responsible for other races referred to as E19, E68, and E91. This organizer has a track record of running multiple events, and this half marathon is now in its 12th edition."
+    },
+    {
+      "question": "Is registration open for the 2027 race?",
+      "answer": "As of now, the registration status for the 2027 Sihanoukville International Half Marathon has not yet been announced. Prospective participants will need to watch for further updates from the organizer, Cambodia Events, regarding when and how to sign up."
+    }
+  ],
+  "reliability_score": 67,
   "tags": [
     "half-marathon",
     "cambodia",
@@ -66,6 +90,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-16",
-  "status": "active"
+  "last_updated": "2026-07-31",
+  "status": "needs_review"
 }

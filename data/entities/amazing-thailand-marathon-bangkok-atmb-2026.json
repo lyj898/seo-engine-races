@@ -4,27 +4,52 @@
   "name": "Amazing Thailand Marathon Bangkok (ATMB)",
   "category_id": "full-marathon",
   "region_id": "thailand",
-  "short_description": "Amazing Thailand Marathon Bangkok (ATMB) takes place November 28, 2026 in Bangkok, Thailand.",
-  "ai_summary": "Amazing Thailand Marathon Bangkok (ATMB) is a road running event in Bangkok, Thailand, featuring Full Marathon; Half Marathon; 10km. The race takes place on November 28, 2026, starting from Not confirmed this pass. Registration is Not Yet Announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A multi-distance road race (42.195km, 21.1km, 10km, 4.5km) held 28 November 2026 at the Royal Grand Palace / Sanam Luang in Bangkok, Thailand.",
+  "ai_summary": "The Amazing Thailand Marathon Bangkok (ATMB) takes place on 28 November 2026 at the Royal Grand Palace / Sanam Luang in Bangkok, Thailand. Organized by the Royal Thai Government alongside the Bangkok Metropolitan Administration, Royal Thai Police, World Athletics, and Thailand Tri-League, and presented by TOYOTA, it offers full marathon, half marathon, 10km, and 4.5km distances. Registration is open, with a Public window from 3 July to 31 October 2026 and a Fast Runner window from 1 July to 30 September 2026, priced at USD 23.",
   "core_facts": {
     "date": "2026-11-28",
     "distance_km": [
       42.195,
       21.1,
-      10.0
+      10,
+      4.5
     ],
     "primary_distance_km": 42.195,
-    "registration_status": "Not Yet Announced",
-    "country": "Thailand",
-    "venue": "Not confirmed this pass",
+    "organizer": "Royal Thai Government (Ministry of Tourism and Sports, Sports Authority of Thailand, Tourism Authority of Thailand), Bangkok Metropolitan Administration, Royal Thai Police, Metropolitan Police Bureau, World Athletics, Thailand Tri-League; presented by TOYOTA",
+    "registration_status": "Open (Public: 3 Jul - 31 Oct 2026; Fast Runner: 1 Jul - 30 Sep 2026)",
+    "price_range": "USD 23",
+    "venue": "Royal Grand Palace / Sanam Luang, Ratchadamnoen Nai Road, Bangkok",
     "city": "Bangkok",
-    "organizer": "Not confirmed this pass",
-    "price_range": "USD 23"
+    "country": "Thailand"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Backed by major organizers including the Royal Thai Government, Bangkok Metropolitan Administration, and World Athletics",
+    "Iconic venue at the Royal Grand Palace / Sanam Luang in Bangkok",
+    "Multiple distance options (42.195km, 21.1km, 10km, 4.5km) suit different runner levels",
+    "Affordable entry priced at USD 23"
+  ],
+  "cons": [
+    "Registration windows differ between Public and Fast Runner categories, which could confuse entrants"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Amazing Thailand Marathon Bangkok (ATMB) held?",
+      "answer": "The Amazing Thailand Marathon Bangkok (ATMB) is scheduled for 28 November 2026. It takes place in Bangkok, Thailand, at the Royal Grand Palace / Sanam Luang along Ratchadamnoen Nai Road, and is organized by the Royal Thai Government together with several official sporting and tourism bodies."
+    },
+    {
+      "question": "What distances are offered at the Amazing Thailand Marathon Bangkok?",
+      "answer": "The event offers four distance options: a full marathon of 42.195km, a half marathon of 21.1km, a 10km race, and a shorter 4.5km race. This range allows both competitive marathoners and casual participants to take part in the same event."
+    },
+    {
+      "question": "How much does it cost to register, and when does registration open?",
+      "answer": "Registration costs USD 23. The Public registration period runs from 3 July to 31 October 2026, while a separate Fast Runner registration window is open from 1 July to 30 September 2026, and registration is currently open for entrants."
+    },
+    {
+      "question": "Who organizes the Amazing Thailand Marathon Bangkok?",
+      "answer": "The race is organized by the Royal Thai Government through the Ministry of Tourism and Sports, Sports Authority of Thailand, and Tourism Authority of Thailand, alongside the Bangkok Metropolitan Administration, Royal Thai Police, Metropolitan Police Bureau, World Athletics, and Thailand Tri-League, and is presented by TOYOTA."
+    }
+  ],
   "reliability_score": 82,
   "tags": [
     "full-marathon",
@@ -36,7 +61,7 @@
       "url": "https://amazingthailandmarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://www.ahotu.com/event/amazing-thailand-marathon-bangkok",
@@ -54,6 +79,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
-  "status": "active"
+  "last_updated": "2026-07-31",
+  "status": "needs_review"
 }

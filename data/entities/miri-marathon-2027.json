@@ -4,25 +4,49 @@
   "name": "Miri Marathon 2027",
   "category_id": "full-marathon",
   "region_id": "malaysia",
-  "short_description": "Miri Marathon 2027 takes place April 11, 2027 in Miri, Sarawak, Malaysia.",
-  "ai_summary": "Miri Marathon 2027 is a road running event in Miri, Sarawak, Malaysia, featuring Full Marathon; Half Marathon; 10km. The race takes place on April 11, 2027, starting from Miri, Sarawak. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "Miri Marathon 2027 is a full-marathon race set for April 12, 2026, in Miri, Sarawak, Malaysia.",
+  "ai_summary": "Miri Marathon 2027 is a full-marathon event scheduled for April 12, 2026, in Miri, Sarawak, Malaysia. The race is based at Jalan Merpati and offers multiple distance options: 42.195 km, 21.1 km, 10 km, and 5 km. Registration details have not yet been announced.",
   "core_facts": {
-    "date": "2027-04-11",
+    "date": "2026-04-12",
     "distance_km": [
       42.195,
       21.1,
-      10.0
+      10,
+      5
     ],
     "primary_distance_km": 42.195,
     "registration_status": "not_yet_announced",
-    "country": "Malaysia",
-    "venue": "Miri, Sarawak",
-    "city": "Miri, Sarawak"
+    "venue": "Jalan Merpati, Miri",
+    "city": "Miri, Sarawak",
+    "country": "Malaysia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Offers four distance categories (42.195 km, 21.1 km, 10 km, 5 km) to suit different runner levels",
+    "Held in Miri, Sarawak, a specific and clearly identified location",
+    "Marathon distance is confirmed as the primary event"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Where is Miri Marathon 2027 held?",
+      "answer": "Miri Marathon 2027 takes place at Jalan Merpati in Miri, Sarawak, Malaysia. This location serves as the race venue for the event, which includes multiple distance categories for participants of varying fitness and experience levels, from the full marathon down to the shorter 5 km option."
+    },
+    {
+      "question": "When is Miri Marathon 2027 scheduled?",
+      "answer": "The event is scheduled to take place on April 12, 2026. This date applies to the full race weekend, which includes the marathon, half marathon, 10 km, and 5 km distance categories held at the Jalan Merpati venue in Miri, Sarawak."
+    },
+    {
+      "question": "Is registration open for Miri Marathon 2027?",
+      "answer": "Registration status for Miri Marathon 2027 has not yet been announced. Prospective participants should check back for updates on when sign-ups will open, as no confirmed registration details, fees, or deadlines have been released for this event at this time."
+    },
+    {
+      "question": "What distance options are available at Miri Marathon 2027?",
+      "answer": "Miri Marathon 2027 offers four distance categories: a full marathon of 42.195 km, a half marathon of 21.1 km, a 10 km race, and a 5 km race. This range allows runners of different experience levels to choose a suitable distance."
+    }
+  ],
   "reliability_score": 65,
   "tags": [
     "full-marathon",
@@ -33,7 +57,7 @@
       "url": "https://marathonmiri.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-16"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://aims-worldrunning.org/calendar.html",
@@ -63,6 +87,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-16",
-  "status": "active"
+  "last_updated": "2026-07-31",
+  "status": "needs_review"
 }

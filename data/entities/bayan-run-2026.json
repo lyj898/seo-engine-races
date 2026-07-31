@@ -4,25 +4,51 @@
   "name": "Bayan Run 2026",
   "category_id": "half-marathon",
   "region_id": "indonesia",
-  "short_description": "Bayan Run 2026 takes place October 11, 2026 in Balikpapan, Kalimantan Timur, Indonesia.",
-  "ai_summary": "Bayan Run 2026 is a road running event in Balikpapan, Kalimantan Timur, Indonesia, featuring Half Marathon; 10km; 5km. The race takes place on October 11, 2026, starting from Lapangan Merdeka 3, Balikpapan, Kalimantan Timur. Registration is Not Yet Announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "Bayan Run 2026 is a multi-distance road race, headlined by a half marathon, held October 11, 2026 in Balikpapan, Indonesia.",
+  "ai_summary": "Bayan Run 2026 is a road race scheduled for October 11, 2026, in Balikpapan, Kalimantan Timur, Indonesia. The event offers multiple distance options, including a half marathon of 21.1 km, as well as 10 km, 5 km, 2.5 km, and 0.8 km races. It will be based at Lapangan Merdeka 3 and BSCC Dome. Registration has not yet been announced.",
   "core_facts": {
     "date": "2026-10-11",
     "distance_km": [
-      21.1,
-      10.0,
-      5.0
+      21,
+      10,
+      5,
+      2.5,
+      0.8
     ],
     "primary_distance_km": 21.1,
     "registration_status": "Not Yet Announced",
-    "country": "Indonesia",
-    "venue": "Lapangan Merdeka 3, Balikpapan, Kalimantan Timur",
-    "city": "Balikpapan, Kalimantan Timur"
+    "venue": "Lapangan Merdeka 3, Balikpapan | BSCC Dome, Balikpapan",
+    "city": "Balikpapan, Kalimantan Timur",
+    "country": "Indonesia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21, 10, 5, 2.5, and 0.8 km) suit a range of runner abilities",
+    "Includes a half-marathon primary distance for more serious runners",
+    "Set in Balikpapan, Kalimantan Timur, offering a race venue in Indonesia"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so entry details are unavailable",
+    "No pricing, course, or logistical information provided yet"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is Bayan Run 2026 taking place?",
+      "answer": "Bayan Run 2026 is scheduled to take place on October 11, 2026. This date applies to the full event, which includes the half marathon along with the other distance categories offered at the race, all held on the same day in Balikpapan, Kalimantan Timur, Indonesia."
+    },
+    {
+      "question": "What distances are offered at Bayan Run 2026?",
+      "answer": "Bayan Run 2026 offers five distance options: 21 km (the half marathon, listed as the primary distance at 21.1 km), 10 km, 5 km, 2.5 km, and 0.8 km. This range allows participants of varying experience levels and fitness to choose a suitable distance."
+    },
+    {
+      "question": "Where is the race held?",
+      "answer": "The race is held in Balikpapan, Kalimantan Timur, Indonesia, with venues listed as Lapangan Merdeka 3 and the BSCC Dome, both in Balikpapan. These locations serve as the event's key sites for the various distance categories on race day."
+    },
+    {
+      "question": "Is registration open for Bayan Run 2026?",
+      "answer": "As of the information available, registration for Bayan Run 2026 has not yet been announced. Prospective participants will need to wait for further updates regarding sign-up dates, fees, and entry procedures before they can register for any of the offered distances."
+    }
+  ],
   "reliability_score": 82,
   "tags": [
     "half-marathon",
@@ -34,7 +60,7 @@
       "url": "https://bayanrun.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-13"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
@@ -58,6 +84,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-13",
-  "status": "active"
+  "last_updated": "2026-07-31",
+  "status": "needs_review"
 }

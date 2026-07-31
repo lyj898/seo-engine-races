@@ -4,26 +4,48 @@
   "name": "Penang Bridge International Marathon",
   "category_id": "full-marathon",
   "region_id": "malaysia",
-  "short_description": "Penang Bridge International Marathon takes place December 13, 2026 in George Town, Malaysia.",
-  "ai_summary": "Penang Bridge International Marathon is a road running event in George Town, Malaysia, featuring Full Marathon; Half Marathon; 10km. The race takes place on December 13, 2026, starting from Penang Bridge. Registration is Not Yet Announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The Penang Bridge International Marathon is a full marathon, half marathon, and 10 km race held on Penang Bridge, George Town, Malaysia on December 13, 2026.",
+  "ai_summary": "The Penang Bridge International Marathon is a road race scheduled for December 13, 2026, held on Penang Bridge in George Town, Malaysia. It offers three distance options: a full marathon (42.195 km), a half marathon (21.1 km), and a 10 km run. The event is organized by the Penang State Tourism Development office with support from PETACE, and registration is currently open.",
   "core_facts": {
     "date": "2026-12-13",
     "distance_km": [
       42.195,
       21.1,
-      10.0
+      10
     ],
     "primary_distance_km": 42.195,
-    "registration_status": "Not Yet Announced",
-    "country": "Malaysia",
+    "organizer": "Penang State Tourism Development office (supported by Penang State EXCO for Tourism and Creative Economy - PETACE)",
+    "registration_status": "Open",
     "venue": "Penang Bridge",
     "city": "George Town",
-    "organizer": "Penang Bridge Marathon Organizing Committee"
+    "country": "Malaysia"
   },
-  "pros": [],
+  "pros": [
+    "Multiple distance options (42.195 km, 21.1 km, and 10 km) to suit different runner levels",
+    "Unique route on Penang Bridge, a notable landmark setting",
+    "Backed by official state organizations (Penang State Tourism Development office and PETACE)",
+    "Registration is currently open"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Penang Bridge International Marathon held?",
+      "answer": "The race is scheduled for December 13, 2026. It takes place on Penang Bridge in George Town, Malaysia, and includes full marathon, half marathon, and 10 km distance options for participants."
+    },
+    {
+      "question": "What distances can I run in this race?",
+      "answer": "Participants can choose from three distances: a full marathon of 42.195 km, a half marathon of 21.1 km, or a 10 km run, all held on the Penang Bridge course in George Town, Malaysia."
+    },
+    {
+      "question": "Who organizes the Penang Bridge International Marathon?",
+      "answer": "The event is organized by the Penang State Tourism Development office, with support from the Penang State EXCO for Tourism and Creative Economy (PETACE), reflecting official state involvement in Malaysia."
+    },
+    {
+      "question": "Is registration currently open for this race?",
+      "answer": "Yes, registration status for the Penang Bridge International Marathon is currently listed as open, allowing interested runners to sign up for the full marathon, half marathon, or 10 km event."
+    }
+  ],
   "reliability_score": 82,
   "tags": [
     "full-marathon",
@@ -35,7 +57,7 @@
       "url": "https://penangmarathon.gov.my",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-16"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://www.ahotu.com/en/event/penang-bridge-international-marathon",
@@ -59,6 +81,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-16",
-  "status": "active"
+  "last_updated": "2026-07-31",
+  "status": "needs_review"
 }

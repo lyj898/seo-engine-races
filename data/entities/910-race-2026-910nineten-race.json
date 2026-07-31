@@ -4,28 +4,50 @@
   "name": "910 Race 2026 (910Nineten Race)",
   "category_id": "half-marathon",
   "region_id": "indonesia",
-  "short_description": "910 Race 2026 (910Nineten Race) takes place October 11, 2026 in Tangerang, Banten, Indonesia.",
-  "ai_summary": "910 Race 2026 (910Nineten Race) is a road running event in Tangerang, Banten, Indonesia, featuring Half Marathon (21.195K); 10K; 5K. The race takes place on October 11, 2026, starting from ICE BSD (Indonesia Convention Exhibition), BSD City. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The 910 Race 2026 is a half-marathon, 10K, and 5K event held October 11, 2026 at ICE BSD, Tangerang, Indonesia.",
+  "ai_summary": "The 910 Race 2026 is a half-marathon event organized by Indonesian running-shoe brand 910 Nineten, scheduled for October 11, 2026 at ICE BSD in BSD City, Tangerang, Banten, Indonesia. Runners can choose from three distances: 21.1km, 10km, and 5km. Registration is currently open, with regular pricing set at IDR 679,000 for the half-marathon, IDR 479,000 for the 10K, and IDR 379,000 for the 5K.",
   "core_facts": {
     "date": "2026-10-11",
     "distance_km": [
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
+    "organizer": "910 Nineten (Indonesian running-shoe brand)",
     "registration_status": "Open",
-    "country": "Indonesia",
+    "price_range": "IDR HM 679,000 / 10K 479,000 / 5K 379,000 (regular)",
     "venue": "ICE BSD (Indonesia Convention Exhibition), BSD City",
     "city": "Tangerang, Banten",
-    "organizer": "910 Nineten (Indonesian running-shoe brand)",
-    "price_range": "IDR HM 679,000 / 10K 479,000 / 5K 379,000 (regular)"
+    "country": "Indonesia"
   },
-  "pros": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km) accommodate different runner levels",
+    "Held at a well-known convention venue, ICE BSD in BSD City",
+    "Organized by an established Indonesian running-shoe brand, 910 Nineten",
+    "Registration is currently open, giving runners time to plan and train"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 80,
+  "faqs": [
+    {
+      "question": "When is the 910 Race 2026 taking place?",
+      "answer": "The 910 Race 2026 is scheduled to take place on October 11, 2026. The event will be held at ICE BSD, which is the Indonesia Convention Exhibition center located in BSD City, within Tangerang, Banten, Indonesia."
+    },
+    {
+      "question": "What distances are offered at the 910 Race 2026?",
+      "answer": "The 910 Race 2026 offers three distance options for participants to choose from: a 21.1km half-marathon, a 10km race, and a shorter 5km race, allowing runners of varying experience levels to take part in the event."
+    },
+    {
+      "question": "How much does registration cost?",
+      "answer": "Regular registration pricing for the 910 Race 2026 is set at IDR 679,000 for the half-marathon distance, IDR 479,000 for the 10K race, and IDR 379,000 for the 5K race, according to the provided pricing information."
+    },
+    {
+      "question": "Who organizes the 910 Race 2026?",
+      "answer": "The 910 Race 2026 is organized by 910 Nineten, which is an Indonesian running-shoe brand. The event takes place at ICE BSD in BSD City, located in Tangerang, Banten, Indonesia, with registration currently open for interested runners."
+    }
+  ],
+  "reliability_score": 83,
   "tags": [
     "half-marathon",
     "indonesia",
@@ -36,7 +58,7 @@
       "url": "https://910.id",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://lariku.info",
@@ -54,6 +76,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-31",
   "status": "active"
 }

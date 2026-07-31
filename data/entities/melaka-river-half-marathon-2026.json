@@ -4,8 +4,8 @@
   "name": "Melaka River Half Marathon 2026",
   "category_id": "half-marathon",
   "region_id": "malaysia",
-  "short_description": "Melaka River Half Marathon 2026 takes place August 16, 2026 in Melaka, Malaysia.",
-  "ai_summary": "Melaka River Half Marathon 2026 is a road running event in Melaka, Malaysia, featuring Half Marathon. The race takes place on August 16, 2026, starting from Dataran Pengkalan Rama, Melaka. Registration is Closed as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A 21.1 km half-marathon held on August 16, 2026, at Dataran Pengkalan Rama, Melaka, Malaysia; registration is currently closed.",
+  "ai_summary": "The Melaka River Half Marathon 2026 is a half-marathon event scheduled for August 16, 2026, in Melaka, Malaysia. The race starts and finishes at Dataran Pengkalan Rama, Melaka, and covers a distance of 21.1 km. Registration for this event is currently closed, so prospective runners should look out for future editions or updates.",
   "core_facts": {
     "date": "2026-08-16",
     "distance_km": [
@@ -13,15 +13,38 @@
     ],
     "primary_distance_km": 21.1,
     "registration_status": "Closed",
-    "country": "Malaysia",
     "venue": "Dataran Pengkalan Rama, Melaka",
-    "city": "Melaka"
+    "city": "Melaka",
+    "country": "Malaysia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Takes place at a scenic riverside venue, Dataran Pengkalan Rama, Melaka",
+    "Offers a standard half-marathon distance of 21.1 km for runners seeking that race length",
+    "Located in Melaka, Malaysia, a well-known destination for travelers"
+  ],
+  "cons": [
+    "Registration status is currently closed, meaning new sign-ups cannot be made at this time"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 48,
+  "faqs": [
+    {
+      "question": "When is the Melaka River Half Marathon 2026?",
+      "answer": "The Melaka River Half Marathon 2026 is scheduled to take place on August 16, 2026. This date marks the single day on which the race will be held in Melaka, Malaysia, according to the available event details provided for this listing."
+    },
+    {
+      "question": "Where does the race start and finish?",
+      "answer": "The race is based at Dataran Pengkalan Rama, located in Melaka, Malaysia. This venue serves as the central point for the event, and according to the provided details, it is the designated location associated with the Melaka River Half Marathon 2026."
+    },
+    {
+      "question": "What distance can I run?",
+      "answer": "The Melaka River Half Marathon 2026 offers a single distance option of 21.1 km, which is the standard half-marathon length. This is listed as the primary and only distance available for participants in this particular race edition."
+    },
+    {
+      "question": "Can I still register for this race?",
+      "answer": "According to the available information, registration for the Melaka River Half Marathon 2026 is currently marked as closed. This means new entries are not being accepted at this time, so interested runners should check back for updates on future availability."
+    }
+  ],
+  "reliability_score": 33,
   "tags": [
     "half-marathon",
     "malaysia"
@@ -43,6 +66,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-14",
-  "status": "active"
+  "last_updated": "2026-07-31",
+  "status": "needs_review"
 }

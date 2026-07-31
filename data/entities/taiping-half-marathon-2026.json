@@ -4,23 +4,46 @@
   "name": "Taiping Half Marathon 2026",
   "category_id": "half-marathon",
   "region_id": "malaysia",
-  "short_description": "Taiping Half Marathon 2026 takes place August 9, 2026 in Taiping, Perak, Malaysia.",
-  "ai_summary": "Taiping Half Marathon 2026 is a road running event in Taiping, Perak, Malaysia, featuring Half Marathon. The race takes place on August 9, 2026, starting from Dataran Warisan, Perak. Registration is Closed as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The Taiping Half Marathon 2026 is a 21.1km half marathon held on August 9, 2026 at Dataran Warisan, Taiping, Perak, Malaysia.",
+  "ai_summary": "The Taiping Half Marathon 2026 takes place on August 9, 2026, at Dataran Warisan in Taiping, Perak, Malaysia. Runners can choose between 5km, 10km, and 21.1km distances, with the 21.1km half marathon serving as the event's primary race. Registration is currently open for participants interested in joining this Perak-based race.",
   "core_facts": {
     "date": "2026-08-09",
     "distance_km": [
+      5,
+      10,
       21.1
     ],
     "primary_distance_km": 21.1,
-    "registration_status": "Closed",
-    "country": "Malaysia",
+    "registration_status": "Open",
     "venue": "Dataran Warisan, Perak",
-    "city": "Taiping, Perak"
+    "city": "Taiping, Perak",
+    "country": "Malaysia"
   },
-  "pros": [],
+  "pros": [
+    "Multiple distance options (5km, 10km, and 21.1km) accommodate different runner levels",
+    "Registration is currently open, giving participants time to prepare",
+    "Set in Dataran Warisan, a notable landmark venue in Taiping, Perak"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Taiping Half Marathon 2026?",
+      "answer": "The Taiping Half Marathon 2026 is scheduled to take place on August 9, 2026. It will be held at Dataran Warisan in Taiping, Perak, Malaysia. Interested participants should note this date when planning their travel and registration, as it marks the official day for all race distances offered at this event."
+    },
+    {
+      "question": "What distances are offered at the Taiping Half Marathon 2026?",
+      "answer": "The Taiping Half Marathon 2026 offers three distance categories: 5km, 10km, and 21.1km. The 21.1km half marathon serves as the event's primary distance, making it the featured race, while the shorter 5km and 10km options allow runners of varying experience levels to participate in the event as well."
+    },
+    {
+      "question": "Where is the Taiping Half Marathon 2026 held?",
+      "answer": "This race is held at Dataran Warisan, located in Taiping, Perak, Malaysia. The venue serves as the central location for the event, hosting the 5km, 10km, and 21.1km distance categories. Its location in Perak makes it accessible for both local runners and visitors traveling to Taiping for the race."
+    },
+    {
+      "question": "Is registration open for the Taiping Half Marathon 2026?",
+      "answer": "Yes, registration for the Taiping Half Marathon 2026 is currently open. Prospective participants interested in the 5km, 10km, or 21.1km distances can sign up now ahead of the race date on August 9, 2026, at Dataran Warisan in Taiping, Perak, Malaysia."
+    }
+  ],
   "reliability_score": 82,
   "tags": [
     "half-marathon",
@@ -32,7 +55,7 @@
       "url": "https://www.taipinghalfmarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-13"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://checkpointspot.asia/events",
@@ -50,6 +73,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-13",
-  "status": "active"
+  "last_updated": "2026-07-31",
+  "status": "needs_review"
 }

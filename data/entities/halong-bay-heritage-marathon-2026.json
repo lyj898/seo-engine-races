@@ -4,8 +4,8 @@
   "name": "Halong Bay Heritage Marathon",
   "category_id": "full-marathon",
   "region_id": "vietnam",
-  "short_description": "Halong Bay Heritage Marathon takes place November 22, 2026 in Ha Long, Quang Ninh, Vietnam.",
-  "ai_summary": "Halong Bay Heritage Marathon is a road running event in Ha Long, Quang Ninh, Vietnam, featuring Full Marathon; Half Marathon. The race takes place on November 22, 2026, starting from Ha Long, Quang Ninh. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A full marathon (42.195 km) and half marathon (21.1 km) taking place on November 22, 2026, in Ha Long, Quang Ninh, Vietnam.",
+  "ai_summary": "The Halong Bay Heritage Marathon is a full marathon and half marathon event scheduled for November 22, 2026, in Ha Long, Quang Ninh, Vietnam. Runners can choose between the 42.195 km marathon distance or the 21.1 km half marathon option. Registration for the event is currently listed as coming soon, meaning sign-ups have not yet opened. The race is set against the backdrop of Ha Long Bay in Quang Ninh province.",
   "core_facts": {
     "date": "2026-11-22",
     "distance_km": [
@@ -13,15 +13,39 @@
       21.1
     ],
     "primary_distance_km": 42.195,
-    "registration_status": "Open",
-    "country": "Vietnam",
+    "registration_status": "Coming soon",
     "venue": "Ha Long, Quang Ninh",
-    "city": "Ha Long, Quang Ninh"
+    "city": "Ha Long, Quang Ninh",
+    "country": "Vietnam"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Offers two distance options: full marathon (42.195 km) and half marathon (21.1 km)",
+    "Held in the scenic setting of Ha Long, Quang Ninh, Vietnam",
+    "Clear future date already set (November 22, 2026), allowing runners to plan ahead"
+  ],
+  "cons": [
+    "Registration is not yet open, so entry details and fees are unavailable",
+    "Limited information is currently available beyond date, distances, and location"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Halong Bay Heritage Marathon?",
+      "answer": "The Halong Bay Heritage Marathon is scheduled to take place on November 22, 2026. It will be held in Ha Long, Quang Ninh, Vietnam. This date applies to both the full marathon and half marathon distances offered as part of the event, giving runners a clear target date to prepare for."
+    },
+    {
+      "question": "What distances are offered at the Halong Bay Heritage Marathon?",
+      "answer": "The Halong Bay Heritage Marathon offers two distance options for participants: a full marathon of 42.195 km, which is the primary distance for the event, and a half marathon of 21.1 km. Both distances will be run on the same date, November 22, 2026, in Ha Long, Quang Ninh, Vietnam."
+    },
+    {
+      "question": "Is registration open for the Halong Bay Heritage Marathon?",
+      "answer": "Registration for the Halong Bay Heritage Marathon is currently listed as coming soon, meaning it has not yet opened to the public. Prospective runners interested in either the 42.195 km marathon or the 21.1 km half marathon should check back for updates on when sign-ups will become available."
+    },
+    {
+      "question": "Where is the Halong Bay Heritage Marathon held?",
+      "answer": "The Halong Bay Heritage Marathon takes place in Ha Long, Quang Ninh, Vietnam. This venue serves as the location for both the full marathon (42.195 km) and half marathon (21.1 km) distances, with the event scheduled to occur on November 22, 2026 in this Vietnamese city."
+    }
+  ],
   "reliability_score": 82,
   "tags": [
     "full-marathon",
@@ -33,7 +57,7 @@
       "url": "https://halongmarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-16"
+      "last_checked": "2026-07-31"
     }
   ],
   "affiliate_links": [],
@@ -45,6 +69,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-16",
-  "status": "active"
+  "last_updated": "2026-07-31",
+  "status": "needs_review"
 }

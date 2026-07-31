@@ -4,8 +4,8 @@
   "name": "KCC GenSan Marathon 2026",
   "category_id": "full-marathon",
   "region_id": "philippines",
-  "short_description": "KCC GenSan Marathon 2026 takes place November 14, 2026 in General Santos City, Philippines.",
-  "ai_summary": "KCC GenSan Marathon 2026 is a road running event in General Santos City, Philippines, featuring Full Marathon (42K). The race takes place on November 14, 2026, starting from Veranza Mall Alfresco, General Santos City. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A full marathon (42.195 km) taking place November 14, 2026 in General Santos City, Philippines.",
+  "ai_summary": "The KCC GenSan Marathon 2026 is a full marathon scheduled for November 14, 2026, in General Santos City, Philippines. The race is set to start at Veranza Mall Alfresco and covers the standard marathon distance of 42.195 kilometers. Registration details have not yet been announced, so prospective participants will need to check back for updates on sign-up procedures.",
   "core_facts": {
     "date": "2026-11-14",
     "distance_km": [
@@ -13,14 +13,37 @@
     ],
     "primary_distance_km": 42.195,
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "Veranza Mall Alfresco, General Santos City",
-    "city": "General Santos City"
+    "city": "General Santos City",
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Standard full marathon distance of 42.195 km, appealing to marathon runners",
+    "Takes place at a notable local venue, Veranza Mall Alfresco",
+    "Located in General Santos City, offering a Philippine race destination"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the KCC GenSan Marathon 2026?",
+      "answer": "The KCC GenSan Marathon 2026 is scheduled to take place on November 14, 2026. This date marks the full marathon event in General Santos City, Philippines, and is the only date currently confirmed for the race based on available information."
+    },
+    {
+      "question": "Where does the race take place?",
+      "answer": "The race is held in General Santos City, Philippines, with the venue set at Veranza Mall Alfresco. This location serves as the starting point for the KCC GenSan Marathon 2026, a full marathon event scheduled for November 14, 2026."
+    },
+    {
+      "question": "What distance is offered at this race?",
+      "answer": "The KCC GenSan Marathon 2026 offers a full marathon distance of 42.195 kilometers, which is the primary and only distance listed for this event. Runners participating in this race will cover the standard internationally recognized marathon length."
+    },
+    {
+      "question": "Is registration open for the KCC GenSan Marathon 2026?",
+      "answer": "Registration for the KCC GenSan Marathon 2026 has not yet been announced. Interested participants should check back for updates, as no details regarding sign-up dates, fees, or procedures are currently available for this General Santos City marathon event."
+    }
+  ],
   "reliability_score": 40,
   "tags": [
     "full-marathon",

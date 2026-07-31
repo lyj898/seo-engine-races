@@ -4,28 +4,51 @@
   "name": "Angkor Wat International Half Marathon",
   "category_id": "half-marathon",
   "region_id": "cambodia",
-  "short_description": "Angkor Wat International Half Marathon takes place December 6, 2026 in Siem Reap, Cambodia.",
-  "ai_summary": "Angkor Wat International Half Marathon is a road running event in Siem Reap, Cambodia, featuring Half Marathon; 10km; 5km; 3km. The race takes place on December 6, 2026, starting from Angkor Wat temple complex, Angkor Archaeological Park. Registration is Not Yet Announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half marathon and multi-distance road race held at the Angkor Wat temple complex in Siem Reap, Cambodia, scheduled for December 6, 2026.",
+  "ai_summary": "The Angkor Wat International Half Marathon is set to take place on December 6, 2026, at the Angkor Wat temple complex within Angkor Archaeological Park in Siem Reap, Cambodia. Organized by the National Olympic Committee of Cambodia together with the Athletics Federation of Cambodia, the event offers four distance options: 21.1km, 10km, 5km, and 3km. Registration for the race has not yet been announced.",
   "core_facts": {
     "date": "2026-12-06",
     "distance_km": [
       21.1,
-      10.0,
-      5.0,
-      3.0
+      10,
+      5,
+      3
     ],
     "primary_distance_km": 21.1,
+    "organizer": "National Olympic Committee of Cambodia, with the Athletics Federation of Cambodia",
     "registration_status": "Not Yet Announced",
-    "country": "Cambodia",
     "venue": "Angkor Wat temple complex, Angkor Archaeological Park",
     "city": "Siem Reap",
-    "organizer": "National Olympic Committee of Cambodia, with the Athletics Federation of Cambodia"
+    "country": "Cambodia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Runs through the iconic Angkor Wat temple complex within Angkor Archaeological Park",
+    "Multiple distance options (21.1km, 10km, 5km, 3km) suit a range of runners",
+    "Organized by the National Olympic Committee of Cambodia and the Athletics Federation of Cambodia, lending it official backing"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so details on entry are currently unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 88,
+  "faqs": [
+    {
+      "question": "When is the Angkor Wat International Half Marathon?",
+      "answer": "The Angkor Wat International Half Marathon is scheduled to take place on December 6, 2026. The race is held at the Angkor Wat temple complex, located within Angkor Archaeological Park in Siem Reap, Cambodia, giving participants a unique setting for the event."
+    },
+    {
+      "question": "What distances are offered at this race?",
+      "answer": "The event offers four distance categories for participants to choose from: a 21.1km half marathon, which is the primary distance, along with 10km, 5km, and 3km options, making the race accessible to runners of varying experience levels and fitness."
+    },
+    {
+      "question": "Who organizes the Angkor Wat International Half Marathon?",
+      "answer": "The race is organized jointly by the National Olympic Committee of Cambodia and the Athletics Federation of Cambodia. These organizations oversee the planning and execution of the event, which takes place at the historic Angkor Wat temple complex in Siem Reap, Cambodia."
+    },
+    {
+      "question": "Is registration currently open for this race?",
+      "answer": "Registration for the Angkor Wat International Half Marathon has not yet been announced. Prospective participants interested in the 21.1km, 10km, 5km, or 3km distances will need to wait for further details on how and when to sign up for the event."
+    }
+  ],
+  "reliability_score": 91,
   "tags": [
     "half-marathon",
     "cambodia",
@@ -36,7 +59,7 @@
       "url": "https://angkorhospital.org/angkor-wat-international-half-marathon-2026/",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Angkor_Wat_International_Half_Marathon",
@@ -54,6 +77,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-31",
   "status": "active"
 }

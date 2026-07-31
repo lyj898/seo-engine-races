@@ -4,8 +4,8 @@
   "name": "Twincity Marathon 2027",
   "category_id": "full-marathon",
   "region_id": "malaysia",
-  "short_description": "Twincity Marathon 2027 takes place January 24, 2027 in Cyberjaya, Sepang, Selangor, Malaysia.",
-  "ai_summary": "Twincity Marathon 2027 is a road running event in Cyberjaya, Sepang, Selangor, Malaysia, featuring Full Marathon (42.195km); Half Marathon (21.0975km); 12km; 5km. The race takes place on January 24, 2027, starting from Cyberjaya, Sepang, Selangor. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "Twincity Marathon 2027 is a full-marathon event held in Cyberjaya, Sepang, Selangor, Malaysia on January 24, 2027.",
+  "ai_summary": "Twincity Marathon 2027 is a full-marathon event scheduled for January 24, 2027, in Cyberjaya, Sepang, Selangor, Malaysia. The race offers four distance options: 42.195km, 21.098km, 12km, and 5km, catering to a range of runners from beginners to marathon veterans. Registration details have not yet been announced. The event is set within the planned city of Cyberjaya, in Selangor state.",
   "core_facts": {
     "date": "2027-01-24",
     "distance_km": [
@@ -16,15 +16,37 @@
     ],
     "primary_distance_km": 42.195,
     "registration_status": "not_yet_announced",
-    "country": "Malaysia",
     "venue": "Cyberjaya, Sepang, Selangor",
-    "city": "Cyberjaya, Sepang, Selangor"
+    "city": "Cyberjaya, Sepang, Selangor",
+    "country": "Malaysia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (42.195km, 21.098km, 12km, 5km) suit a range of runner abilities",
+    "Held in Cyberjaya, a purpose-built city location within Selangor, Malaysia"
+  ],
+  "cons": [
+    "Registration status has not yet been announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 75,
+  "faqs": [
+    {
+      "question": "When does the Twincity Marathon 2027 take place?",
+      "answer": "The Twincity Marathon 2027 is scheduled to take place on January 24, 2027. The event will be held in Cyberjaya, Sepang, Selangor, Malaysia, offering runners a full range of distance options to choose from on that specific date."
+    },
+    {
+      "question": "What distances are offered at the Twincity Marathon 2027?",
+      "answer": "The Twincity Marathon 2027 offers four distance categories for participants: a full marathon of 42.195km, a half marathon of 21.098km, a 12km run, and a shorter 5km option, catering to varying levels of runner experience and fitness."
+    },
+    {
+      "question": "Where is the Twincity Marathon 2027 held?",
+      "answer": "The Twincity Marathon 2027 is held in Cyberjaya, located in Sepang, Selangor, Malaysia. Cyberjaya serves as the venue and city for this event, providing the setting for all four race distances offered to participants during the 2027 edition."
+    },
+    {
+      "question": "Is registration open for the Twincity Marathon 2027?",
+      "answer": "As of the latest available information, the registration status for the Twincity Marathon 2027 has not yet been announced. Prospective participants should check back for updates regarding sign-up details, fees, and availability closer to the event date in January 2027."
+    }
+  ],
+  "reliability_score": 70,
   "tags": [
     "full-marathon",
     "malaysia"
@@ -34,7 +56,7 @@
       "url": "https://aims-worldrunning.org/calendar.html",
       "label": "aims-worldrunning.org",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://Finishers.com",
@@ -58,6 +80,6 @@
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-31",
   "status": "active"
 }

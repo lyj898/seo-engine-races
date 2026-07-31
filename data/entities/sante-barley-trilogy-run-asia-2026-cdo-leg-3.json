@@ -4,28 +4,51 @@
   "name": "Sante Barley Trilogy Run Asia 2026 – CDO Leg 3",
   "category_id": "half-marathon",
   "region_id": "philippines",
-  "short_description": "Sante Barley Trilogy Run Asia 2026 – CDO Leg 3 takes place September 20, 2026 in Cagayan de Oro, Philippines.",
-  "ai_summary": "Sante Barley Trilogy Run Asia 2026 – CDO Leg 3 is a road running event in Cagayan de Oro, Philippines, featuring 32KM, Half Marathon (21KM), 10KM, 5KM. The race takes place on September 20, 2026, starting from SM City CDO Uptown. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A multi-distance run (5km to 32km) organized by Runrio, set for September 20, 2026 at SM City CDO Uptown in Cagayan de Oro, Philippines.",
+  "ai_summary": "Sante Barley Trilogy Run Asia 2026 – CDO Leg 3 is a running event scheduled for September 20, 2026, at SM City CDO Uptown in Cagayan de Oro, Philippines. Organized by Runrio under the Sante Barley Trilogy Run Asia brand, it offers multiple distance options of 32km, 21.1km (half-marathon, the primary distance), 10km, and 5km. Registration details have not yet been announced.",
   "core_facts": {
     "date": "2026-09-20",
     "distance_km": [
-      32.0,
-      21.0,
-      10.0,
-      5.0
+      32,
+      21,
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Runrio (brand: Sante Barley Trilogy Run Asia)",
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "SM City CDO Uptown",
     "city": "Cagayan de Oro",
-    "organizer": "Runrio (brand: Sante Barley Trilogy Run Asia)"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (5km, 10km, 21.1km, 32km) to suit different runner levels",
+    "Organized by Runrio, an established name behind the Sante Barley Trilogy Run Asia series",
+    "Centrally located at SM City CDO Uptown, a well-known venue in Cagayan de Oro"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so sign-up details and pricing are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 80,
+  "faqs": [
+    {
+      "question": "When is the Sante Barley Trilogy Run Asia 2026 – CDO Leg 3 taking place?",
+      "answer": "This race is scheduled to take place on September 20, 2026. It will be held at SM City CDO Uptown in Cagayan de Oro, Philippines, as part of the Sante Barley Trilogy Run Asia series organized by Runrio."
+    },
+    {
+      "question": "What distances can participants run?",
+      "answer": "Participants can choose from four distance options: 5km, 10km, 21.1km (half-marathon), and 32km. The 21.1km half-marathon is listed as the primary distance for this leg of the Sante Barley Trilogy Run Asia series."
+    },
+    {
+      "question": "Who organizes this race?",
+      "answer": "The race is organized by Runrio, operating under the Sante Barley Trilogy Run Asia brand. This CDO Leg 3 event is part of a broader series held across different locations under the same organizing brand."
+    },
+    {
+      "question": "Is registration open yet?",
+      "answer": "Registration status for this race has not yet been announced. No further details on sign-up dates, fees, or process are currently available based on the information provided, so interested runners should check back later."
+    }
+  ],
+  "reliability_score": 75,
   "tags": [
     "half-marathon",
     "philippines",
@@ -36,7 +59,7 @@
       "url": "https://runrio.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://runrio.com/race-calendar",
@@ -54,6 +77,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-31",
   "status": "active"
 }

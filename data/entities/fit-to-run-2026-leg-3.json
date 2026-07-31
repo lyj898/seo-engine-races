@@ -4,27 +4,50 @@
   "name": "FIT TO RUN 2026 – Leg 3",
   "category_id": "full-marathon",
   "region_id": "philippines",
-  "short_description": "FIT TO RUN 2026 – Leg 3 takes place November 8, 2026 in Angeles City, Pampanga, Philippines.",
-  "ai_summary": "FIT TO RUN 2026 – Leg 3 is a road running event in Angeles City, Pampanga, Philippines, featuring Full Marathon (42K); Half Marathon (21K); 10K; 5K. The race takes place on November 8, 2026, starting from Clark Parade Grounds. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A full marathon and multi-distance race set for November 8, 2026, at Clark Parade Grounds in Angeles City, Pampanga, Philippines.",
+  "ai_summary": "FIT TO RUN 2026 – Leg 3 is a full marathon event scheduled for November 8, 2026, at the Clark Parade Grounds in Angeles City, Pampanga, Philippines. The race offers four distance options: 42.195 km, 21.1 km, 10 km, and 5 km, catering to a range of runner abilities. It is organized by SMOKE10 Events, though registration details have not yet been announced.",
   "core_facts": {
     "date": "2026-11-08",
     "distance_km": [
       42.195,
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 42.195,
+    "organizer": "SMOKE10 Events",
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "Clark Parade Grounds",
     "city": "Angeles City, Pampanga",
-    "organizer": "SMOKE10 Events"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (42.195 km, 21.1 km, 10 km, 5 km) suit different runner levels",
+    "Held at a dedicated venue, Clark Parade Grounds, in Angeles City, Pampanga",
+    "Organized by an established event organizer, SMOKE10 Events"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so sign-up details are currently unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is FIT TO RUN 2026 – Leg 3 taking place?",
+      "answer": "FIT TO RUN 2026 – Leg 3 is scheduled to take place on November 8, 2026. The event will be held at the Clark Parade Grounds located in Angeles City, Pampanga, in the Philippines, offering runners a full day of races across several distance categories."
+    },
+    {
+      "question": "What distances are offered at this race?",
+      "answer": "This race offers four distance categories for participants to choose from: a full marathon distance of 42.195 km, a half marathon distance of 21.1 km, a 10 km race, and a shorter 5 km race, accommodating a variety of runner experience levels."
+    },
+    {
+      "question": "Is registration open for FIT TO RUN 2026 – Leg 3?",
+      "answer": "According to the available information, the registration status for FIT TO RUN 2026 – Leg 3 has not yet been announced. Prospective participants should check back for updates regarding sign-up procedures, fees, and deadlines as the event date approaches."
+    },
+    {
+      "question": "Who is organizing FIT TO RUN 2026 – Leg 3?",
+      "answer": "FIT TO RUN 2026 – Leg 3 is organized by SMOKE10 Events. The event is being held in Angeles City, Pampanga, Philippines, at the Clark Parade Grounds, and includes multiple race distances scheduled for November 8, 2026."
+    }
+  ],
   "reliability_score": 40,
   "tags": [
     "full-marathon",

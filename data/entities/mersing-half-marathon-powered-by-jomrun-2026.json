@@ -4,23 +4,46 @@
   "name": "Mersing Half Marathon Powered by JomRun®",
   "category_id": "half-marathon",
   "region_id": "malaysia",
-  "short_description": "Mersing Half Marathon Powered by JomRun® takes place October 18, 2026 in Mersing, Johor, Malaysia.",
-  "ai_summary": "Mersing Half Marathon Powered by JomRun® is a road running event in Mersing, Johor, Malaysia, featuring Half Marathon. The race takes place on October 18, 2026, starting from Dataran Air Papan. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half marathon event held on October 18, 2026 at Dataran Air Papan in Mersing, Johor, Malaysia, offering 5km, 10km, and 21.1km distances.",
+  "ai_summary": "The Mersing Half Marathon Powered by JomRun® is scheduled for October 18, 2026, at Dataran Air Papan in Mersing, Johor, Malaysia. Runners can choose from three distances: 5km, 10km, and the primary 21.1km half marathon. Registration is currently open for participants interested in joining this event on the Malaysian racing calendar.",
   "core_facts": {
     "date": "2026-10-18",
     "distance_km": [
+      5,
+      10,
       21.1
     ],
     "primary_distance_km": 21.1,
     "registration_status": "Open",
-    "country": "Malaysia",
     "venue": "Dataran Air Papan",
-    "city": "Mersing, Johor"
+    "city": "Mersing, Johor",
+    "country": "Malaysia"
   },
-  "pros": [],
+  "pros": [
+    "Multiple distance options (5km, 10km, 21.1km) suit different fitness levels",
+    "Registration is currently open",
+    "Scenic venue at Dataran Air Papan in Mersing, Johor"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Mersing Half Marathon Powered by JomRun® held?",
+      "answer": "The Mersing Half Marathon Powered by JomRun® is scheduled to take place on October 18, 2026. The event will be held at Dataran Air Papan, located in Mersing, Johor, Malaysia, giving runners a specific date to plan their travel and training around this upcoming race."
+    },
+    {
+      "question": "What distances are offered at this race?",
+      "answer": "The race offers three distance options for participants to choose from: 5km, 10km, and 21.1km. The 21.1km half marathon serves as the primary distance for the event, while the shorter 5km and 10km options provide alternatives for runners seeking less demanding distances."
+    },
+    {
+      "question": "Is registration currently open for this race?",
+      "answer": "Yes, registration for the Mersing Half Marathon Powered by JomRun® is currently open. Prospective participants interested in joining any of the three available distances—5km, 10km, or the 21.1km half marathon—can register now ahead of the October 18, 2026 event date."
+    },
+    {
+      "question": "Where is the race venue located?",
+      "answer": "The race takes place at Dataran Air Papan, which is situated in Mersing, a town in the state of Johor, Malaysia. This venue serves as the starting point for all three distance categories offered at this event: the 5km, 10km, and 21.1km half marathon."
+    }
+  ],
   "reliability_score": 45,
   "tags": [
     "half-marathon",
@@ -31,7 +54,7 @@
       "url": "https://www.jomrun.com/event/Mersing-Half-Marathon-Powered-by-JomRun",
       "label": "jomrun.com",
       "type": "aggregator",
-      "last_checked": "2026-07-13"
+      "last_checked": "2026-07-31"
     }
   ],
   "affiliate_links": [],
@@ -43,6 +66,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-13",
-  "status": "active"
+  "last_updated": "2026-07-31",
+  "status": "needs_review"
 }

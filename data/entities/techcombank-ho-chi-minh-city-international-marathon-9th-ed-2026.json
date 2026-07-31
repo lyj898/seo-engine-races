@@ -4,26 +4,49 @@
   "name": "Techcombank Ho Chi Minh City International Marathon (9th ed.)",
   "category_id": "full-marathon",
   "region_id": "vietnam",
-  "short_description": "Techcombank Ho Chi Minh City International Marathon (9th ed.) takes place December 6, 2026 in Ho Chi Minh City, Vietnam.",
-  "ai_summary": "Techcombank Ho Chi Minh City International Marathon (9th ed.) is a road running event in Ho Chi Minh City, Vietnam, featuring Full Marathon; Half Marathon; 10km; 5km. The race takes place on December 6, 2026, starting from Ho Chi Minh City. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The Techcombank Ho Chi Minh City International Marathon is a full-marathon event held in Ho Chi Minh City, Vietnam on December 6, 2026, with registration currently open.",
+  "ai_summary": "The Techcombank Ho Chi Minh City International Marathon is the 9th edition of this full-marathon event, scheduled for December 6, 2026 in Ho Chi Minh City, Vietnam. It offers multiple distance options including 42.195km, 21.1km, 10km, 5km, 3km, and 1.5km, catering to a range of runner abilities. Registration is currently open for those interested in participating.",
   "core_facts": {
     "date": "2026-12-06",
     "distance_km": [
       42.195,
       21.1,
-      10.0,
-      5.0
+      10,
+      5,
+      3,
+      1.5
     ],
     "primary_distance_km": 42.195,
-    "registration_status": "not_yet_announced",
-    "country": "Vietnam",
+    "registration_status": "open",
     "venue": "Ho Chi Minh City",
-    "city": "Ho Chi Minh City"
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam"
   },
-  "pros": [],
+  "pros": [
+    "Multiple distance options (42.195km, 21.1km, 10km, 5km, 3km, 1.5km) accommodate various runner levels",
+    "Registration is currently open, allowing ample time to plan and prepare",
+    "Established event now in its 9th edition, held in a major international city"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Techcombank Ho Chi Minh City International Marathon taking place?",
+      "answer": "The Techcombank Ho Chi Minh City International Marathon is scheduled to take place on December 6, 2026. This date marks the 9th edition of the race, which is held annually in Ho Chi Minh City, Vietnam, drawing runners from various distance categories to participate in this international event."
+    },
+    {
+      "question": "What distances are offered at this event?",
+      "answer": "This event offers six distance options for participants to choose from: a full marathon of 42.195km, a half marathon of 21.1km, as well as shorter distances of 10km, 5km, 3km, and 1.5km, accommodating a wide range of runner experience levels and fitness goals."
+    },
+    {
+      "question": "Is registration open for this race?",
+      "answer": "Yes, registration for the Techcombank Ho Chi Minh City International Marathon is currently open. Interested participants can register ahead of the December 6, 2026 event date, allowing sufficient time to prepare for their chosen distance, whether it be the full marathon or one of the shorter race options."
+    },
+    {
+      "question": "Where is the marathon held?",
+      "answer": "The marathon is held in Ho Chi Minh City, Vietnam, which serves as both the venue and host city for this international running event. As the 9th edition of the race, it continues to bring together runners from multiple distance categories in this major Vietnamese city."
+    }
+  ],
   "reliability_score": 85,
   "tags": [
     "full-marathon",
@@ -35,7 +58,7 @@
       "url": "https://marathonhcmc.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-16"
+      "last_checked": "2026-07-31"
     }
   ],
   "affiliate_links": [],
@@ -47,6 +70,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-16",
-  "status": "active"
+  "last_updated": "2026-07-31",
+  "status": "needs_review"
 }

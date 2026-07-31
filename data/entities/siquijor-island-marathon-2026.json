@@ -4,26 +4,49 @@
   "name": "Siquijor Island Marathon 2026",
   "category_id": "full-marathon",
   "region_id": "philippines",
-  "short_description": "Siquijor Island Marathon 2026 takes place September 26, 2026 in Siquijor, Philippines.",
-  "ai_summary": "Siquijor Island Marathon 2026 is a road running event in Siquijor, Philippines, featuring Full Marathon (42K); Half Marathon (21K); 10K; 5K. The race takes place on September 26, 2026, starting from Siquijor. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The Siquijor Island Marathon 2026 is a full-marathon event held in Siquijor, Philippines on September 26, 2026, with distances from 5 km to 42.195 km.",
+  "ai_summary": "The Siquijor Island Marathon 2026 is a full-marathon event scheduled for September 26, 2026, on the island of Siquijor, Philippines. Runners can choose from four distances: 42.195 km, 21.1 km, 10 km, and 5 km, making it accessible to a range of fitness levels. Registration details have not yet been announced. The race offers a scenic island setting in Siquijor for those seeking a Philippine race destination.",
   "core_facts": {
     "date": "2026-09-26",
     "distance_km": [
       42.195,
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 42.195,
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "Siquijor",
-    "city": "Siquijor"
+    "city": "Siquijor",
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (42.195 km, 21.1 km, 10 km, 5 km) suit different runner levels",
+    "Held in the scenic island location of Siquijor, Philippines",
+    "Clear event date already set for September 26, 2026"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Siquijor Island Marathon 2026?",
+      "answer": "The Siquijor Island Marathon 2026 is scheduled to take place on September 26, 2026. This date has been confirmed for the event, which will be held on the island of Siquijor in the Philippines, though further scheduling details beyond the date have not yet been provided."
+    },
+    {
+      "question": "What distances are offered at the Siquijor Island Marathon 2026?",
+      "answer": "The event offers four distance options for participants: a full marathon of 42.195 km, a half marathon of 21.1 km, a 10 km race, and a shorter 5 km race, allowing runners of varying experience and fitness levels to choose a suitable challenge."
+    },
+    {
+      "question": "Is registration open for the Siquijor Island Marathon 2026?",
+      "answer": "Registration for the Siquijor Island Marathon 2026 has not yet been announced. Prospective participants will need to wait for further updates regarding sign-up dates, fees, and process details, as this information is not currently available based on the facts provided."
+    },
+    {
+      "question": "Where is the Siquijor Island Marathon 2026 held?",
+      "answer": "The Siquijor Island Marathon 2026 takes place on the island of Siquijor, located in the Philippines. The event's venue and city are both listed simply as Siquijor, making it a location-specific race for those looking to experience running on this particular Philippine island."
+    }
+  ],
   "reliability_score": 40,
   "tags": [
     "full-marathon",

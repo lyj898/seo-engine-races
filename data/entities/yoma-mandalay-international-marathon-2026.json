@@ -4,8 +4,8 @@
   "name": "Yoma Mandalay International Marathon",
   "category_id": "half-marathon",
   "region_id": "myanmar",
-  "short_description": "Yoma Mandalay International Marathon takes place December 6, 2026 in Mandalay, Myanmar.",
-  "ai_summary": "Yoma Mandalay International Marathon is a road running event in Mandalay, Myanmar, featuring Half Marathon (21KM), 10KM, 5KM. The race takes place on December 6, 2026, starting from Mandalay (exact start point not yet published). Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half-marathon event in Mandalay, Myanmar, scheduled for December 6, 2026, offering 21.1km, 10km, and 5km distances.",
+  "ai_summary": "The Yoma Mandalay International Marathon is a half-marathon event scheduled for December 6, 2026, organized by Yoma in Mandalay, Myanmar. Runners can choose from three distances: 21.1km, 10km, and 5km, with the 21.1km half-marathon serving as the primary distance. The exact starting venue within Mandalay has not yet been published, and registration details have not yet been announced.",
   "core_facts": {
     "date": "2026-12-06",
     "distance_km": [
@@ -14,16 +14,40 @@
       5
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Yoma",
     "registration_status": "not_yet_announced",
-    "country": "Myanmar",
     "venue": "Mandalay (exact start point not yet published)",
     "city": "Mandalay",
-    "organizer": "Yoma"
+    "country": "Myanmar"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km) to suit different runner levels",
+    "Takes place in the historic city of Mandalay, Myanmar",
+    "Organized by Yoma, providing a structured event framework"
+  ],
+  "cons": [
+    "Exact start venue within Mandalay has not yet been published",
+    "Registration status is not yet announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Yoma Mandalay International Marathon?",
+      "answer": "The Yoma Mandalay International Marathon is scheduled to take place on December 6, 2026. This date has been confirmed for the event, which will be held in Mandalay, Myanmar. Further details about the exact schedule and start times have not yet been released by the organizers."
+    },
+    {
+      "question": "What distances are offered?",
+      "answer": "The event offers three distance options for participants: a 21.1km half-marathon, which is the primary distance, along with 10km and 5km races. This range allows runners of varying experience levels and fitness goals to select the distance that best suits them."
+    },
+    {
+      "question": "How do I register for the race?",
+      "answer": "Registration details for the Yoma Mandalay International Marathon have not yet been announced by the organizers. As of now, the registration status is listed as not yet announced, so prospective participants will need to wait for further updates before signing up for the event."
+    },
+    {
+      "question": "Where does the race take place?",
+      "answer": "The race takes place in Mandalay, Myanmar, though the exact starting venue within the city has not yet been published by the organizers. Once further details are released, runners will have more specific information about the precise location and route of the event."
+    }
+  ],
   "reliability_score": 58,
   "tags": [
     "half-marathon",
@@ -34,7 +58,7 @@
       "url": "https://yomayangonmarathon.com/mandalay",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-23"
+      "last_checked": "2026-07-31"
     }
   ],
   "affiliate_links": [],
@@ -46,6 +70,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-23",
+  "last_updated": "2026-07-31",
   "status": "active"
 }

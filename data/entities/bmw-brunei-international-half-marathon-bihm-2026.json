@@ -4,26 +4,49 @@
   "name": "BMW Brunei International Half Marathon (BIHM) 2026",
   "category_id": "half-marathon",
   "region_id": "brunei",
-  "short_description": "BMW Brunei International Half Marathon (BIHM) 2026 takes place December 6, 2026 in Bandar Seri Begawan, Brunei.",
-  "ai_summary": "BMW Brunei International Half Marathon (BIHM) 2026 is a road running event in Bandar Seri Begawan, Brunei, featuring Half Marathon (21.0975km); 10km. The race takes place on December 6, 2026, starting from Berakas, Bandar Seri Begawan. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half marathon and 10km race held in Berakas, Bandar Seri Begawan, Brunei on December 6, 2026.",
+  "ai_summary": "The BMW Brunei International Half Marathon (BIHM) 2026 is scheduled for December 6, 2026, in Berakas, Bandar Seri Begawan, Brunei. Organized by AKIF Media Marketing & Event, the race offers both a 21.1km half marathon and a 10km distance. Registration is currently open, with prices reportedly ranging from around BND $60 to $70.",
   "core_facts": {
     "date": "2026-12-06",
     "distance_km": [
       21.098,
-      10.0
+      10
     ],
     "primary_distance_km": 21.1,
+    "organizer": "AKIF Media Marketing & Event",
     "registration_status": "Open",
-    "country": "Brunei",
+    "price_range": "BND ~$60-70 (per endorphinsrunning.com)",
     "venue": "Berakas, Bandar Seri Begawan",
     "city": "Bandar Seri Begawan",
-    "organizer": "AKIF Media Marketing & Event",
-    "price_range": "BND ~$60-70 (per endorphinsrunning.com)"
+    "country": "Brunei"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Offers two distance options (21.1km and 10km) to suit different runner levels",
+    "Registration is currently open ahead of the December 2026 date",
+    "Held in a notable venue, Berakas, in Bandar Seri Begawan"
+  ],
+  "cons": [
+    "Pricing information is only approximate, sourced from a third party (endorphinsrunning.com)"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the BMW Brunei International Half Marathon (BIHM) 2026 taking place?",
+      "answer": "The race is scheduled to take place on December 6, 2026. It will be held in Berakas, located in Bandar Seri Begawan, Brunei. Registration for the event is currently open for those interested in participating in either of the available race distances."
+    },
+    {
+      "question": "What distances can participants choose from?",
+      "answer": "Participants can choose between two distances at this event: a 21.1km half marathon, which is the primary distance, and a shorter 10km race option. This allows runners of different experience levels and fitness goals to select the distance that best suits them."
+    },
+    {
+      "question": "How much does it cost to register?",
+      "answer": "According to endorphinsrunning.com, registration prices are approximately in the range of BND $60 to $70. This is a reported estimate rather than an official confirmed price, so exact costs may vary depending on the distance chosen and registration timing."
+    },
+    {
+      "question": "Who organizes this event?",
+      "answer": "The BMW Brunei International Half Marathon (BIHM) 2026 is organized by AKIF Media Marketing & Event. The race takes place in Berakas, Bandar Seri Begawan, Brunei, and registration is currently open for runners interested in the 21.1km or 10km distances."
+    }
+  ],
   "reliability_score": 82,
   "tags": [
     "half-marathon",
@@ -35,7 +58,7 @@
       "url": "https://www.bruneimarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-16"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://aims-worldrunning.org/calendar.html",
@@ -71,6 +94,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-16",
+  "last_updated": "2026-07-31",
   "status": "active"
 }

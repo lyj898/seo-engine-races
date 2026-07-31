@@ -4,27 +4,50 @@
   "name": "Subic Bay Freeport Zone 32KM Challenge 2026",
   "category_id": "half-marathon",
   "region_id": "philippines",
-  "short_description": "Subic Bay Freeport Zone 32KM Challenge 2026 takes place August 16, 2026 in Subic Bay Freeport Zone / Olongapo, Philippines.",
-  "ai_summary": "Subic Bay Freeport Zone 32KM Challenge 2026 is a road running event in Subic Bay Freeport Zone / Olongapo, Philippines, featuring 32K; Half Marathon (21K); 10K; 5K. The race takes place on August 16, 2026, starting from Boardwalk, Subic. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A multi-distance race in Subic Bay Freeport Zone, Philippines, held on August 16, 2026, featuring 32KM, 21.1KM, 10KM, and 5KM options.",
+  "ai_summary": "The Subic Bay Freeport Zone 32KM Challenge 2026 is scheduled for August 16, 2026, taking place along the Boardwalk in Subic, within the Subic Bay Freeport Zone / Olongapo area in the Philippines. The event, organized by JCIR Events, offers multiple distance options including 32KM, 21.1KM, 10KM, and 5KM, with the half-marathon serving as the primary distance. Registration details have not yet been announced.",
   "core_facts": {
     "date": "2026-08-16",
     "distance_km": [
-      32.0,
+      32,
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
+    "organizer": "JCIR Events",
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "Boardwalk, Subic",
     "city": "Subic Bay Freeport Zone / Olongapo",
-    "organizer": "JCIR Events"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (32KM, 21.1KM, 10KM, 5KM) suit a range of runner abilities",
+    "Scenic venue along the Boardwalk in Subic",
+    "Organized by an established events organizer, JCIR Events"
+  ],
+  "cons": [
+    "Registration status has not yet been announced, so entry details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Subic Bay Freeport Zone 32KM Challenge 2026?",
+      "answer": "The race is set to take place on August 16, 2026. It will be held at the Boardwalk in Subic, located within the Subic Bay Freeport Zone / Olongapo area in the Philippines. This date applies to all distance categories offered as part of the event."
+    },
+    {
+      "question": "What distances are offered in this race?",
+      "answer": "The event offers four distance options for participants to choose from: 32KM, 21.1KM (half-marathon), 10KM, and 5KM. The 21.1KM half-marathon is listed as the primary distance for this race, though runners can select whichever category best suits their fitness level."
+    },
+    {
+      "question": "Who organizes this event?",
+      "answer": "The Subic Bay Freeport Zone 32KM Challenge 2026 is organized by JCIR Events. The race will be held in the Subic Bay Freeport Zone / Olongapo area of the Philippines, specifically along the Boardwalk in Subic, on August 16, 2026."
+    },
+    {
+      "question": "Is registration open yet?",
+      "answer": "As of now, the registration status for this race has not yet been announced. Prospective participants interested in the 32KM, 21.1KM, 10KM, or 5KM distances should watch for further updates from the organizer, JCIR Events, regarding when sign-ups will become available."
+    }
+  ],
   "reliability_score": 40,
   "tags": [
     "half-marathon",

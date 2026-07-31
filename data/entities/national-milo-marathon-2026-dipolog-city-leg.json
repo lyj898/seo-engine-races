@@ -4,28 +4,51 @@
   "name": "National MILO Marathon 2026 – Dipolog City Leg",
   "category_id": "half-marathon",
   "region_id": "philippines",
-  "short_description": "National MILO Marathon 2026 – Dipolog City Leg takes place August 16, 2026 in Dipolog City, Zamboanga del Norte, Philippines.",
-  "ai_summary": "National MILO Marathon 2026 – Dipolog City Leg is a road running event in Dipolog City, Zamboanga del Norte, Philippines, featuring 21K Half Marathon (provincial qualifier); 10K; 5K; 3K. The race takes place on August 16, 2026, starting from Dipolog City. Registration is Not yet confirmed open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half-marathon event of the National MILO Marathon series taking place in Dipolog City, Philippines on August 16, 2026.",
+  "ai_summary": "The National MILO Marathon 2026 – Dipolog City Leg is a half-marathon event scheduled for August 16, 2026, in Dipolog City, Zamboanga del Norte, Philippines. Organized by RUNRIO Inc., the race is part of the long-running MILO Marathon series and offers multiple distance options: 21.1km, 10km, 5km, and 3km. Registration status for this leg has not yet been confirmed as open.",
   "core_facts": {
     "date": "2026-08-16",
     "distance_km": [
       21.1,
-      10.0,
-      5.0,
-      3.0
+      10,
+      5,
+      3
     ],
     "primary_distance_km": 21.1,
+    "organizer": "RUNRIO Inc. (MILO Marathon)",
     "registration_status": "Not yet confirmed open",
-    "country": "Philippines",
     "venue": "Dipolog City",
     "city": "Dipolog City, Zamboanga del Norte",
-    "organizer": "RUNRIO Inc. (MILO Marathon)"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km, 3km) suit a range of runner abilities",
+    "Organized by RUNRIO Inc., the established organizer behind the long-running MILO Marathon series",
+    "Takes place in Dipolog City, offering a race destination beyond typical major-city events"
+  ],
+  "cons": [
+    "Registration status is not yet confirmed as open, so runners cannot sign up yet"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 65,
+  "faqs": [
+    {
+      "question": "When is the National MILO Marathon 2026 – Dipolog City Leg?",
+      "answer": "This event is scheduled to take place on August 16, 2026. It will be held in Dipolog City, located in Zamboanga del Norte province, Philippines. No additional scheduling details, such as start times for specific distance categories, have been confirmed yet."
+    },
+    {
+      "question": "What distances are offered at this race?",
+      "answer": "The race offers four distance categories for participants to choose from: a 21.1km half-marathon, a 10km run, a 5km run, and a 3km run. The 21.1km half-marathon is considered the primary distance for this particular leg of the MILO Marathon series."
+    },
+    {
+      "question": "Who organizes this race?",
+      "answer": "This race is organized by RUNRIO Inc., which runs the broader National MILO Marathon series across various cities in the Philippines. The Dipolog City Leg is one part of this larger nationwide series of races held under the MILO Marathon banner."
+    },
+    {
+      "question": "Is registration open for this race?",
+      "answer": "As of now, registration for the National MILO Marathon 2026 – Dipolog City Leg has not yet been confirmed as open. Prospective participants should check back for updates regarding registration details, including sign-up dates, fees, and any other requirements once they become available."
+    }
+  ],
+  "reliability_score": 60,
   "tags": [
     "half-marathon",
     "philippines"
@@ -35,7 +58,7 @@
       "url": "https://www.milo.com.ph/national-milo-marathon",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://www.milo.com.ph/sites/default/files/2026-01/2026_nmm_race_calendar.jpg",
@@ -59,6 +82,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-31",
   "status": "active"
 }

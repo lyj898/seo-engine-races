@@ -4,27 +4,52 @@
   "name": "Malaysia Marathon 2026",
   "category_id": "full-marathon",
   "region_id": "malaysia",
-  "short_description": "Malaysia Marathon 2026 takes place August 30, 2026 in Kuala Lumpur, Malaysia.",
-  "ai_summary": "Malaysia Marathon 2026 is a road running event in Kuala Lumpur, Malaysia, featuring Full Marathon (42KM); Half Marathon (21KM); 10KM; 5KM. The race takes place on August 30, 2026, starting from Start Pavilion Bukit Bintang, finish KLCC. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A full marathon and multi-distance race event held 30 August 2026 in Kuala Lumpur, Malaysia, starting at Pavilion Bukit Bintang and finishing at KLCC.",
+  "ai_summary": "Malaysia Marathon 2026 takes place on 30 August 2026 in Kuala Lumpur, organized by Malaysia Marathon in partnership with SCORE Experience. Runners can choose from four distances: 42.195km, 21km, 10km, and 5km, starting at Pavilion Bukit Bintang and finishing at KLCC. Registration opens 5 May 2026 at 10:00 AM MYT, with Malaysian Open/Veteran pricing ranging from RM65 to RM120.",
   "core_facts": {
     "date": "2026-08-30",
     "distance_km": [
-      42.0,
-      21.0,
-      10.0,
-      5.0
+      42,
+      21,
+      10,
+      5
     ],
     "primary_distance_km": 42.195,
-    "registration_status": "Open",
-    "country": "Malaysia",
+    "organizer": "Malaysia Marathon (with SCORE Experience)",
+    "registration_status": "Registration opens 5 May 2026, 10:00 AM (MYT)",
+    "price_range": "RM65–RM120 (Malaysian Open/Veteran rates)",
     "venue": "Start Pavilion Bukit Bintang, finish KLCC",
     "city": "Kuala Lumpur",
-    "organizer": "Malaysia Marathon (with SCORE Experience)"
+    "country": "Malaysia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (42km, 21km, 10km, 5km) suit a range of runner abilities",
+    "Iconic route starting at Pavilion Bukit Bintang and finishing at KLCC",
+    "Affordable Malaysian Open/Veteran pricing between RM65–RM120",
+    "Organized by an established team with the SCORE Experience partnership"
+  ],
+  "cons": [
+    "Registration does not open until 5 May 2026, requiring runners to wait to secure a spot"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "What distances are offered at the Malaysia Marathon 2026?",
+      "answer": "The Malaysia Marathon 2026 offers four distance categories for participants to choose from: a full marathon of 42.195km, a half marathon of 21km, a 10km race, and a shorter 5km race, catering to both competitive runners and casual participants seeking a shorter distance."
+    },
+    {
+      "question": "How much does it cost to register?",
+      "answer": "Registration pricing for the Malaysia Marathon 2026 falls within the Malaysian Open/Veteran rate range of RM65 to RM120, depending on the distance category selected. Registration officially opens on 5 May 2026 at 10:00 AM Malaysian time, so interested runners should plan to sign up promptly."
+    },
+    {
+      "question": "Where does the race start and finish?",
+      "answer": "The Malaysia Marathon 2026 begins at Pavilion Bukit Bintang and concludes at KLCC, two well-known landmarks in Kuala Lumpur, Malaysia. This start-to-finish route takes runners through the heart of the city, offering a scenic and centrally located course for all distance categories."
+    },
+    {
+      "question": "When does registration open for the Malaysia Marathon 2026?",
+      "answer": "Registration for the Malaysia Marathon 2026 opens on 5 May 2026 at 10:00 AM Malaysian Standard Time (MYT). Runners interested in securing a place in the full marathon, half marathon, 10km, or 5km races should be ready to register at that specific date and time."
+    }
+  ],
   "reliability_score": 85,
   "tags": [
     "full-marathon",
@@ -36,7 +61,7 @@
       "url": "https://malaysiamarathonofficial.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://www.heyjom.com/event/malaysia-marathon-2026",
@@ -54,6 +79,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
-  "status": "active"
+  "last_updated": "2026-07-31",
+  "status": "needs_review"
 }

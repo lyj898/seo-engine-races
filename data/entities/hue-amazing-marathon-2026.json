@@ -4,29 +4,54 @@
   "name": "Huế Amazing Marathon 2026",
   "category_id": "full-marathon",
   "region_id": "vietnam",
-  "short_description": "Huế Amazing Marathon 2026 takes place August 30, 2026 in Huế, Vietnam.",
-  "ai_summary": "Huế Amazing Marathon 2026 is a road running event in Huế, Vietnam, featuring Full Marathon (42K); Half Marathon (21K); 10K; 5K. The race takes place on August 30, 2026, starting from Huế (race weekend 29-30 Aug). Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The Huế Amazing Marathon 2026 is a full marathon event in Huế, Vietnam on 30 August 2026, with 21.1km, 10km, and 5km options also available.",
+  "ai_summary": "The Huế Amazing Marathon 2026 is a road running event taking place in Huế, Vietnam, over race weekend 29-30 August 2026, with the main marathon day on 30 August. Organized by BOLT EVENT as part of the 'Amazing Marathon Vietnam Series,' it offers four distances: 42.195km, 21.1km, 10km, and 5km. Registration is currently open, with promotional pricing available from 13-19 July.",
   "core_facts": {
     "date": "2026-08-30",
     "distance_km": [
       42.195,
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 42.195,
+    "organizer": "BOLT EVENT ('Amazing Marathon Vietnam Series')",
     "registration_status": "Open",
-    "country": "Vietnam",
+    "price_range": "VND 42K 559,000 / 21K 489,000 / 5-10K 379,000 (13-19 Jul promo)",
     "venue": "Huế (race weekend 29-30 Aug)",
     "city": "Huế",
-    "organizer": "BOLT EVENT ('Amazing Marathon Vietnam Series')",
-    "price_range": "VND 42K 559,000 / 21K 489,000 / 5-10K 379,000 (13-19 Jul promo)"
+    "country": "Vietnam"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (42.195km, 21.1km, 10km, 5km) suit a range of runner abilities",
+    "Registration is currently open, giving ample time to plan and train",
+    "Promotional pricing available during the 13-19 July window makes early entry more affordable",
+    "Part of an established series, the 'Amazing Marathon Vietnam Series' run by BOLT EVENT"
+  ],
+  "cons": [
+    "Full pricing details outside the promotional window are not specified",
+    "Limited additional event information available beyond dates, distances, and pricing"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 68,
+  "faqs": [
+    {
+      "question": "When is the Huế Amazing Marathon 2026 held?",
+      "answer": "The Huế Amazing Marathon 2026 takes place during race weekend 29-30 August 2026 in Huế, Vietnam, with the primary marathon distance event scheduled for 30 August 2026. Runners planning to attend should mark this weekend on their calendars accordingly, as the event spans two days in the city of Huế."
+    },
+    {
+      "question": "What distances are offered at this event?",
+      "answer": "The Huế Amazing Marathon 2026 offers four distance options for participants: a full marathon at 42.195km, a half marathon at 21.1km, a 10km race, and a shorter 5km race. This range allows runners of different experience levels and fitness goals to select a distance that suits them."
+    },
+    {
+      "question": "How much does registration cost?",
+      "answer": "Pricing during the 13-19 July promotional period is VND 559,000 for the 42km marathon, VND 489,000 for the 21km half marathon, and VND 379,000 for the 5km or 10km distances. Prices outside this specific promotional window are not detailed in the available information."
+    },
+    {
+      "question": "Who organizes the Huế Amazing Marathon 2026?",
+      "answer": "The event is organized by BOLT EVENT, which runs it as part of their broader 'Amazing Marathon Vietnam Series.' This series appears to host similar marathon events across different Vietnamese cities, with the Huế edition being one instance scheduled for the 2026 race calendar."
+    }
+  ],
+  "reliability_score": 63,
   "tags": [
     "full-marathon",
     "vietnam"
@@ -36,7 +61,7 @@
       "url": "https://www.worldsmarathons.com",
       "label": "worldsmarathons.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://actiup.net",
@@ -60,6 +85,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-31",
   "status": "active"
 }

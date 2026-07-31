@@ -4,28 +4,52 @@
   "name": "Pos Malaysia Run 2026",
   "category_id": "half-marathon",
   "region_id": "malaysia",
-  "short_description": "Pos Malaysia Run 2026 takes place November 29, 2026 in Kuala Lumpur, Malaysia.",
-  "ai_summary": "Pos Malaysia Run 2026 is a road running event in Kuala Lumpur, Malaysia, featuring 21KM Half Marathon (Open/Veteran); 10KM; 5.5KM Fun Run. The race takes place on November 29, 2026, starting from Dataran Merdeka, Kuala Lumpur. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "Pos Malaysia Run 2026 is a half-marathon held on November 29, 2026, at Dataran Merdeka, Kuala Lumpur, Malaysia.",
+  "ai_summary": "Pos Malaysia Run 2026 is a half-marathon event taking place on November 29, 2026, at Dataran Merdeka in Kuala Lumpur, Malaysia. Organized by Pos Malaysia, the race offers three distance options: 21.1km, 10km, and 5.5km. Registration is currently open, with entry fees ranging from MYR 68 to MYR 138 depending on the distance chosen.",
   "core_facts": {
     "date": "2026-11-29",
     "distance_km": [
-      21.0,
-      10.0,
+      21,
+      10,
       5.5
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Pos Malaysia",
     "registration_status": "Open",
-    "country": "Malaysia",
+    "price_range": "MYR 21K RM118-138 / 10K RM88-108 / 5.5K RM68-88",
     "venue": "Dataran Merdeka, Kuala Lumpur",
     "city": "Kuala Lumpur",
-    "organizer": "Pos Malaysia",
-    "price_range": "MYR 21K RM118-138 / 10K RM88-108 / 5.5K RM68-88"
+    "country": "Malaysia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5.5km) suit a range of runner abilities",
+    "Held at the iconic Dataran Merdeka in central Kuala Lumpur",
+    "Registration is currently open, giving runners time to plan and train",
+    "Organized by a well-established national organization, Pos Malaysia"
+  ],
+  "cons": [
+    "Pricing varies by distance and tier, so runners need to check which fee applies to their category"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 62,
+  "faqs": [
+    {
+      "question": "What distance options are available at Pos Malaysia Run 2026?",
+      "answer": "Pos Malaysia Run 2026 offers three distance categories for participants to choose from: a 21.1km half-marathon, a 10km run, and a shorter 5.5km run. This range allows both experienced runners and beginners or casual participants to find a distance suited to their fitness level and goals."
+    },
+    {
+      "question": "How much does it cost to register for Pos Malaysia Run 2026?",
+      "answer": "Registration fees depend on the distance selected. The 21.1km half-marathon costs between MYR 118 and 138, the 10km run costs MYR 88 to 108, and the 5.5km run costs MYR 68 to 88. Prices vary within each category depending on registration timing or tier."
+    },
+    {
+      "question": "Who organizes Pos Malaysia Run 2026?",
+      "answer": "Pos Malaysia Run 2026 is organized by Pos Malaysia. The event takes place on November 29, 2026, at Dataran Merdeka in Kuala Lumpur, Malaysia, and features multiple race distances for participants of varying experience levels."
+    },
+    {
+      "question": "Where and when is Pos Malaysia Run 2026 taking place?",
+      "answer": "The race is scheduled for November 29, 2026, and will be held at Dataran Merdeka, a well-known landmark in Kuala Lumpur, Malaysia. Runners can choose from 21.1km, 10km, or 5.5km distances at this central city-based venue."
+    }
+  ],
+  "reliability_score": 65,
   "tags": [
     "half-marathon",
     "malaysia"
@@ -35,7 +59,7 @@
       "url": "https://www.racexasia.com/event/pos-malaysia-run-2026-posm26",
       "label": "racexasia.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-31"
     }
   ],
   "affiliate_links": [],
@@ -47,6 +71,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-31",
   "status": "active"
 }

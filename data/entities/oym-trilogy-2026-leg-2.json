@@ -4,27 +4,50 @@
   "name": "OYM Trilogy 2026 – Leg 2",
   "category_id": "half-marathon",
   "region_id": "philippines",
-  "short_description": "OYM Trilogy 2026 – Leg 2 takes place September 27, 2026 in Makati, Philippines.",
-  "ai_summary": "OYM Trilogy 2026 – Leg 2 is a road running event in Makati, Philippines, featuring Half Marathon (21K); 16K; 10K; 5K. The race takes place on September 27, 2026, starting from Ayala Triangle Gardens, Makati. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "OYM Trilogy 2026 – Leg 2 is a half-marathon race set for September 27, 2026 at Ayala Triangle Gardens, Makati, Philippines.",
+  "ai_summary": "OYM Trilogy 2026 – Leg 2 is a half-marathon event scheduled for September 27, 2026, at Ayala Triangle Gardens in Makati, Philippines. Organized by OYM, the race offers four distance options: 21.1km, 16km, 10km, and 5km, catering to a range of runners from casual participants to those seeking a longer challenge. Registration for this event has not yet been announced.",
   "core_facts": {
     "date": "2026-09-27",
     "distance_km": [
       21.1,
-      16.0,
-      10.0,
-      5.0
+      16,
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
+    "organizer": "OYM",
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "Ayala Triangle Gardens, Makati",
     "city": "Makati",
-    "organizer": "OYM"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 16km, 10km, 5km) suit different runner levels",
+    "Central, accessible venue at Ayala Triangle Gardens in Makati",
+    "Organized event as part of a known series, OYM Trilogy"
+  ],
+  "cons": [
+    "Registration status has not yet been announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is OYM Trilogy 2026 – Leg 2 taking place?",
+      "answer": "OYM Trilogy 2026 – Leg 2 is scheduled to take place on September 27, 2026. The race will be held at Ayala Triangle Gardens in Makati, Philippines, offering participants a chance to run in a central urban location within the country's capital region."
+    },
+    {
+      "question": "What distances are offered at this event?",
+      "answer": "The event offers four distance categories for participants to choose from: a 21.1km half-marathon, a 16km race, a 10km race, and a 5km race. This range allows runners of varying experience levels and fitness goals to select the distance that best suits them."
+    },
+    {
+      "question": "Is registration open for this race?",
+      "answer": "As of now, the registration status for OYM Trilogy 2026 – Leg 2 has not yet been announced. Prospective participants interested in joining should watch for further updates from the organizer, OYM, regarding when sign-ups will become available."
+    },
+    {
+      "question": "Who is organizing OYM Trilogy 2026 – Leg 2?",
+      "answer": "OYM Trilogy 2026 – Leg 2 is organized by OYM. The race is set to take place in Makati, Philippines, at Ayala Triangle Gardens, and forms part of the broader OYM Trilogy race series held within the country."
+    }
+  ],
   "reliability_score": 40,
   "tags": [
     "half-marathon",

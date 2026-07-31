@@ -4,27 +4,50 @@
   "name": "PMC Kabayanihan Run 2026",
   "category_id": "full-marathon",
   "region_id": "philippines",
-  "short_description": "PMC Kabayanihan Run 2026 takes place August 30, 2026 in Taguig, Philippines.",
-  "ai_summary": "PMC Kabayanihan Run 2026 is a road running event in Taguig, Philippines, featuring Full Marathon (42K); Half Marathon (21K); 10K; 5K; 3.2K. The race takes place on August 30, 2026, starting from BNS Grandstand, Taguig. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The PMC Kabayanihan Run 2026 is a full marathon and multi-distance race held on August 30, 2026 at BNS Grandstand, Taguig, Philippines.",
+  "ai_summary": "The PMC Kabayanihan Run 2026 is a multi-distance road race organized by the Philippine Marine Corps, scheduled for August 30, 2026 at the BNS Grandstand in Taguig, Philippines. Runners can choose from a full marathon (42.195km), half marathon (21.1km), 10km, or 5km distance. Registration details have not yet been announced.",
   "core_facts": {
     "date": "2026-08-30",
     "distance_km": [
       42.195,
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 42.195,
+    "organizer": "Philippine Marine Corps",
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "BNS Grandstand, Taguig",
     "city": "Taguig",
-    "organizer": "Philippine Marine Corps"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Offers four distance options (5km, 10km, half marathon, full marathon) for different runner levels",
+    "Organized by the Philippine Marine Corps, giving it a distinct military heritage theme",
+    "Held at a fixed, accessible venue in Taguig, Philippines"
+  ],
+  "cons": [
+    "Registration status has not yet been announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the PMC Kabayanihan Run 2026?",
+      "answer": "The PMC Kabayanihan Run 2026 is scheduled to take place on August 30, 2026. The event will be held at the BNS Grandstand in Taguig, Philippines, and is organized by the Philippine Marine Corps as part of its race offerings for that year."
+    },
+    {
+      "question": "What distances are offered at the PMC Kabayanihan Run 2026?",
+      "answer": "The race offers four distance categories: a full marathon at 42.195km, a half marathon at 21.1km, a 10km run, and a 5km run. This range allows both competitive marathoners and casual participants to take part in the same event at BNS Grandstand, Taguig."
+    },
+    {
+      "question": "Who organizes the PMC Kabayanihan Run 2026?",
+      "answer": "The PMC Kabayanihan Run 2026 is organized by the Philippine Marine Corps. The event takes place at the BNS Grandstand in Taguig, Philippines, and features multiple race distances, including a full marathon, half marathon, 10km, and 5km, scheduled for August 30, 2026."
+    },
+    {
+      "question": "Is registration open for the PMC Kabayanihan Run 2026?",
+      "answer": "As of now, the registration status for the PMC Kabayanihan Run 2026 has not yet been announced. Interested runners should watch for updates from the organizer, the Philippine Marine Corps, regarding sign-up details ahead of the August 30, 2026 event in Taguig, Philippines."
+    }
+  ],
   "reliability_score": 40,
   "tags": [
     "full-marathon",

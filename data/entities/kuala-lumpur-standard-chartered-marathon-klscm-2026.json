@@ -4,29 +4,53 @@
   "name": "Kuala Lumpur Standard Chartered Marathon (KLSCM)",
   "category_id": "full-marathon",
   "region_id": "malaysia",
-  "short_description": "Kuala Lumpur Standard Chartered Marathon (KLSCM) takes place October 4, 2026 in Kuala Lumpur, Malaysia.",
-  "ai_summary": "Kuala Lumpur Standard Chartered Marathon (KLSCM) is a road running event in Kuala Lumpur, Malaysia, featuring Full Marathon; Half Marathon; 10km; 5km. The race takes place on October 4, 2026, starting from Dataran Merdeka. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "KLSCM is a full-marathon event held on 4 October 2026 at Dataran Merdeka, Kuala Lumpur, Malaysia, with registration open now.",
+  "ai_summary": "The Kuala Lumpur Standard Chartered Marathon (KLSCM) is a full-marathon event taking place on 4 October 2026 at Dataran Merdeka in Kuala Lumpur, Malaysia. Organized by Dirigo Events Sdn Bhd, it offers four distance options: 42.195km, 21.1km, 10km, and 5km. Registration is currently open, with pricing starting at MYR 150.",
   "core_facts": {
     "date": "2026-10-04",
     "distance_km": [
       42.195,
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 42.195,
+    "organizer": "Dirigo Events Sdn Bhd",
     "registration_status": "Open",
-    "country": "Malaysia",
+    "price_range": "MYR 150",
     "venue": "Dataran Merdeka",
     "city": "Kuala Lumpur",
-    "organizer": "Dirigo Events Sdn Bhd",
-    "price_range": "MYR 150"
+    "country": "Malaysia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (42.195km, 21.1km, 10km, 5km) allow runners of different levels to participate",
+    "Iconic starting venue at Dataran Merdeka, a well-known landmark in Kuala Lumpur",
+    "Registration is currently open, giving runners time to prepare and secure a spot",
+    "Affordable entry price starting at MYR 150"
+  ],
+  "cons": [
+    "Only limited pricing information is available (starting price only, no full breakdown by distance)"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 92,
+  "faqs": [
+    {
+      "question": "When is the Kuala Lumpur Standard Chartered Marathon (KLSCM) taking place?",
+      "answer": "The Kuala Lumpur Standard Chartered Marathon is scheduled to take place on 4 October 2026. The event will be held at Dataran Merdeka in Kuala Lumpur, Malaysia, and is organized by Dirigo Events Sdn Bhd. Registration for the race is currently open for interested runners."
+    },
+    {
+      "question": "What distances can I run at KLSCM?",
+      "answer": "KLSCM offers four distance categories for participants to choose from: a full marathon of 42.195km, a half marathon of 21.1km, a 10km race, and a shorter 5km race. This range allows both experienced marathoners and casual runners to take part in the event."
+    },
+    {
+      "question": "How much does it cost to register for KLSCM?",
+      "answer": "Registration pricing for the Kuala Lumpur Standard Chartered Marathon starts at MYR 150. This price range applies to the event overall, though specific costs may vary depending on which distance category, such as the marathon, half marathon, 10km, or 5km, a runner chooses to enter."
+    },
+    {
+      "question": "Is registration currently open for KLSCM?",
+      "answer": "Yes, registration for the Kuala Lumpur Standard Chartered Marathon is currently open. Runners interested in participating in any of the four distance categories, including the full marathon, half marathon, 10km, or 5km, can sign up now ahead of the event on 4 October 2026."
+    }
+  ],
+  "reliability_score": 95,
   "tags": [
     "full-marathon",
     "malaysia",
@@ -37,7 +61,7 @@
       "url": "https://www.kl-marathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-13"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://www.kl-marathon.com/",
@@ -67,6 +91,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-13",
+  "last_updated": "2026-07-31",
   "status": "active"
 }

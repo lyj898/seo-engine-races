@@ -4,27 +4,50 @@
   "name": "HOKA Midnight Run Asia 2026 – Iloilo",
   "category_id": "half-marathon",
   "region_id": "philippines",
-  "short_description": "HOKA Midnight Run Asia 2026 – Iloilo takes place October 25, 2026 in Iloilo City, Philippines.",
-  "ai_summary": "HOKA Midnight Run Asia 2026 – Iloilo is a road running event in Iloilo City, Philippines, featuring Half Marathon (21KM), 10KM, 5KM. The race takes place on October 25, 2026, starting from Iloilo City. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "HOKA Midnight Run Asia 2026 – Iloilo is a half-marathon event in Iloilo City, Philippines, held on October 25, 2026, with 21.1km, 10km, and 5km distance options.",
+  "ai_summary": "HOKA Midnight Run Asia 2026 – Iloilo is a half-marathon event scheduled for October 25, 2026, in Iloilo City, Philippines. Organized by Runrio under the HOKA Midnight Run Asia brand, the race offers three distance options: 21.1km, 10km, and 5km, with the half-marathon serving as the primary distance. Registration details have not yet been announced.",
   "core_facts": {
     "date": "2026-10-25",
     "distance_km": [
-      21.0,
-      10.0,
-      5.0
+      21,
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Runrio (brand: HOKA Midnight Run Asia)",
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "Iloilo City",
     "city": "Iloilo City",
-    "organizer": "Runrio (brand: HOKA Midnight Run Asia)"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km) allow runners of different levels to participate",
+    "Held in Iloilo City, offering a race location in the Philippines",
+    "Organized by Runrio under the established HOKA Midnight Run Asia brand"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so entry details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 80,
+  "faqs": [
+    {
+      "question": "When is the HOKA Midnight Run Asia 2026 – Iloilo taking place?",
+      "answer": "The HOKA Midnight Run Asia 2026 – Iloilo is scheduled to take place on October 25, 2026. The event will be held in Iloilo City, located in the Philippines. This date marks the confirmed timing for the race as provided in the available event details."
+    },
+    {
+      "question": "What distances are offered at this race?",
+      "answer": "The race offers three distance options for participants: 21.1km, 10km, and 5km. The primary distance for the event is the 21.1km half-marathon, making it the featured race category, while the 10km and 5km options provide alternatives for other runners."
+    },
+    {
+      "question": "Who organizes the HOKA Midnight Run Asia 2026 – Iloilo?",
+      "answer": "The event is organized by Runrio, which operates the race under the HOKA Midnight Run Asia brand. This means Runrio is responsible for planning and managing the event, which takes place in Iloilo City, Philippines, on October 25, 2026."
+    },
+    {
+      "question": "Is registration open for this race?",
+      "answer": "Registration for the HOKA Midnight Run Asia 2026 – Iloilo has not yet been announced. Details regarding sign-up dates, fees, or procedures are currently unavailable, so prospective participants will need to wait for further updates from the organizer, Runrio, regarding registration."
+    }
+  ],
+  "reliability_score": 75,
   "tags": [
     "half-marathon",
     "philippines",
@@ -35,7 +58,7 @@
       "url": "https://runrio.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://runrio.com/race-calendar",
@@ -53,6 +76,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-31",
   "status": "active"
 }

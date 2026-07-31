@@ -4,26 +4,50 @@
   "name": "HGMA Run",
   "category_id": "half-marathon",
   "region_id": "indonesia",
-  "short_description": "HGMA Run takes place October 11, 2026 in Surabaya, Jawa Timur, Indonesia.",
-  "ai_summary": "HGMA Run is a road running event in Surabaya, Jawa Timur, Indonesia, featuring Half Marathon; 10km; 5km. The race takes place on October 11, 2026, starting from Stadion Brawijaya, Surabaya, Jawa Timur. Registration is Not Yet Announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "HGMA Run is a half-marathon, 10K, and 5K event held on October 11, 2026 at Stadion Brawijaya in Surabaya, Jawa Timur, Indonesia.",
+  "ai_summary": "HGMA Run is a road race scheduled for October 11, 2026, based at Stadion Brawijaya in Surabaya, Jawa Timur, Indonesia. Participants can choose from three distances: a half-marathon of 21.1 km, a 10 km run, or a 5 km run. Registration for the event has not yet been announced. The race offers options suited to both serious runners and casual participants.",
   "core_facts": {
     "date": "2026-10-11",
     "distance_km": [
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
     "registration_status": "Not Yet Announced",
-    "country": "Indonesia",
     "venue": "Stadion Brawijaya, Surabaya, Jawa Timur",
-    "city": "Surabaya, Jawa Timur"
+    "city": "Surabaya, Jawa Timur",
+    "country": "Indonesia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1 km, 10 km, 5 km) suit a range of runner abilities",
+    "Centralized venue at Stadion Brawijaya in Surabaya makes logistics straightforward",
+    "Clear future date set, allowing runners to plan well in advance"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so sign-up details are unavailable",
+    "Limited additional details currently available about the event beyond date, distances, and venue"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 68,
+  "faqs": [
+    {
+      "question": "When is the HGMA Run taking place?",
+      "answer": "The HGMA Run is scheduled to take place on October 11, 2026. This date has been set for the event, which will be held at Stadion Brawijaya in Surabaya, Jawa Timur, Indonesia. Runners planning to participate can mark this date on their calendars well ahead of time."
+    },
+    {
+      "question": "What distances are offered at the HGMA Run?",
+      "answer": "The HGMA Run offers three distance options for participants: a half-marathon distance of 21.1 km, a 10 km run, and a shorter 5 km run. This range allows both experienced long-distance runners and those seeking a shorter race to find a suitable option at the event."
+    },
+    {
+      "question": "Where is the HGMA Run held?",
+      "answer": "The HGMA Run is held at Stadion Brawijaya, located in Surabaya, Jawa Timur, Indonesia. This venue serves as the base for the race, hosting the half-marathon, 10 km, and 5 km distances offered as part of the event on race day."
+    },
+    {
+      "question": "Is registration open for the HGMA Run?",
+      "answer": "Registration for the HGMA Run has not yet been announced. At this time, no sign-up details, opening dates, or entry information have been provided for the event. Interested runners will need to wait for further announcements regarding when and how registration will become available."
+    }
+  ],
+  "reliability_score": 63,
   "tags": [
     "half-marathon",
     "indonesia"
@@ -33,7 +57,7 @@
       "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
       "label": "kalenderlari.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://kalenderlari.com/events/hgma-run/",
@@ -57,6 +81,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-31",
   "status": "active"
 }

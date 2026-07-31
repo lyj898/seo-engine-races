@@ -4,27 +4,50 @@
   "name": "Masskara Marathon 2026",
   "category_id": "full-marathon",
   "region_id": "philippines",
-  "short_description": "Masskara Marathon 2026 takes place September 27, 2026 in Bacolod City, Philippines.",
-  "ai_summary": "Masskara Marathon 2026 is a road running event in Bacolod City, Philippines, featuring Full Marathon (42K); Half Marathon (21K); 10K; 5K. The race takes place on September 27, 2026, starting from Bacolod City. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A multi-distance road race in Bacolod City, Philippines, taking place on September 27, 2026.",
+  "ai_summary": "The Masskara Marathon 2026 is scheduled for September 27, 2026, in Bacolod City, Philippines, organized by SMOKE10 Events. The event offers four distance options: a full marathon of 42.195 km, a half marathon of 21.1 km, a 10 km race, and a 5 km race. Registration details have not yet been announced.",
   "core_facts": {
     "date": "2026-09-27",
     "distance_km": [
       42.195,
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 42.195,
+    "organizer": "SMOKE10 Events",
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "Bacolod City",
     "city": "Bacolod City",
-    "organizer": "SMOKE10 Events"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (5K, 10K, half marathon, full marathon) to suit different runner levels",
+    "Hosted in Bacolod City, a well-known Philippine destination",
+    "Organized by an established events company, SMOKE10 Events"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Masskara Marathon 2026?",
+      "answer": "The Masskara Marathon 2026 is set to take place on September 27, 2026. This date has been confirmed for the event, which will be held in Bacolod City, Philippines, and organized by SMOKE10 Events, though further schedule details have not yet been released."
+    },
+    {
+      "question": "Where is the Masskara Marathon 2026 held?",
+      "answer": "The Masskara Marathon 2026 will be held in Bacolod City, located in the Philippines. Bacolod City serves as both the city and venue for this race, which is organized by SMOKE10 Events and offers multiple distance categories for participants."
+    },
+    {
+      "question": "Is registration open for the Masskara Marathon 2026?",
+      "answer": "As of now, the registration status for the Masskara Marathon 2026 has not yet been announced. Prospective participants will need to watch for future updates from the organizer, SMOKE10 Events, regarding when sign-ups will officially open."
+    },
+    {
+      "question": "What distances can I run at the Masskara Marathon 2026?",
+      "answer": "The Masskara Marathon 2026 offers four distance options for participants: a full marathon of 42.195 km, a half marathon of 21.1 km, a 10 km race, and a 5 km race, allowing runners of varying experience levels to take part."
+    }
+  ],
   "reliability_score": 40,
   "tags": [
     "full-marathon",

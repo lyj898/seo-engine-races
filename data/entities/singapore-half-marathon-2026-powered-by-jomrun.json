@@ -4,24 +4,49 @@
   "name": "Singapore Half Marathon 2026 Powered By JomRun®",
   "category_id": "half-marathon",
   "region_id": "singapore",
-  "short_description": "Singapore Half Marathon 2026 Powered By JomRun® takes place October 11, 2026 in Singapore, Singapore.",
-  "ai_summary": "Singapore Half Marathon 2026 Powered By JomRun® is a road running event in Singapore, Singapore, featuring Half Marathon. The race takes place on October 11, 2026, starting from Marina Barrage, Singapore. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half marathon held on 11 October 2026 at Marina Barrage, Singapore, with 5km, 10km, and 21.1km distance options.",
+  "ai_summary": "The Singapore Half Marathon 2026 Powered By JomRun® takes place on 11 October 2026 at Marina Barrage, Singapore. Organized by JomRun Pte Ltd, the event offers three distance options: 5km, 10km, and a 21.1km half marathon as the primary race. Registration is currently open at a price of SGD 88.88.",
   "core_facts": {
     "date": "2026-10-11",
     "distance_km": [
+      5,
+      10,
       21.1
     ],
     "primary_distance_km": 21.1,
+    "organizer": "JomRun Pte Ltd",
     "registration_status": "Open",
-    "country": "Singapore",
+    "price_range": "SGD 88.88",
     "venue": "Marina Barrage, Singapore",
     "city": "Singapore",
-    "price_range": "SGD 88.88"
+    "country": "Singapore"
   },
-  "pros": [],
+  "pros": [
+    "Multiple distance options (5km, 10km, 21.1km) suit different fitness levels",
+    "Scenic Marina Barrage venue in Singapore",
+    "Registration is currently open",
+    "Clear, single-tier pricing at SGD 88.88"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Singapore Half Marathon 2026 Powered By JomRun® taking place?",
+      "answer": "The Singapore Half Marathon 2026 Powered By JomRun® is scheduled to take place on 11 October 2026. The event is organized by JomRun Pte Ltd and will be held at the Marina Barrage venue in Singapore, with registration currently open for interested participants ahead of race day."
+    },
+    {
+      "question": "What distances can I run in this event?",
+      "answer": "Participants can choose from three distance options at this event: 5km, 10km, and 21.1km. The 21.1km half marathon distance is the primary race offered, giving runners of varying experience and fitness levels the flexibility to select the distance that best suits their goals."
+    },
+    {
+      "question": "How much does it cost to register?",
+      "answer": "Registration for the Singapore Half Marathon 2026 Powered By JomRun® is priced at SGD 88.88. This is the stated price range for the event, and registration is currently open, allowing runners to sign up for the 5km, 10km, or 21.1km distance options."
+    },
+    {
+      "question": "Where is the race held?",
+      "answer": "The race is held at Marina Barrage, a venue located in Singapore. This location serves as the setting for all distance categories offered at the event, including the 5km, 10km, and the primary 21.1km half marathon distance, on the scheduled race date of 11 October 2026."
+    }
+  ],
   "reliability_score": 68,
   "tags": [
     "half-marathon",
@@ -32,7 +57,7 @@
       "url": "https://www.jomrun.com/event/Singapore-Half-Marathon-2026-Powered-By-JomRun",
       "label": "jomrun.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-31"
     }
   ],
   "affiliate_links": [],
@@ -44,6 +69,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
-  "status": "active"
+  "last_updated": "2026-07-31",
+  "status": "needs_review"
 }

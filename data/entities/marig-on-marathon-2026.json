@@ -4,27 +4,51 @@
   "name": "Marig-on Marathon 2026",
   "category_id": "full-marathon",
   "region_id": "philippines",
-  "short_description": "Marig-on Marathon 2026 takes place September 20, 2026 in Catarman, Northern Samar, Philippines.",
-  "ai_summary": "Marig-on Marathon 2026 is a road running event in Catarman, Northern Samar, Philippines, featuring Full Marathon (42K); Half Marathon (21K); 10K; 5K. The race takes place on September 20, 2026, starting from Catarman, Northern Samar. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A full marathon and multi-distance race set for September 20, 2026 in Catarman, Northern Samar, Philippines.",
+  "ai_summary": "The Marig-on Marathon 2026 is a full marathon event scheduled for September 20, 2026, in Catarman, Northern Samar, Philippines. Organized by the Marig-on Norte Samarnon Eagles Club, the event offers four distance options: 42.195 km, 21.1 km, 10 km, and 5 km. Registration details have not yet been announced.",
   "core_facts": {
     "date": "2026-09-20",
     "distance_km": [
       42.195,
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 42.195,
+    "organizer": "Marig-on Norte Samarnon Eagles Club",
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "Catarman, Northern Samar",
     "city": "Catarman, Northern Samar",
-    "organizer": "Marig-on Norte Samarnon Eagles Club"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (42.195 km, 21.1 km, 10 km, and 5 km) allow runners of different experience levels to participate",
+    "Organized by a dedicated local group, the Marig-on Norte Samarnon Eagles Club",
+    "Takes place in Catarman, Northern Samar, offering a race destination in the Philippines"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so sign-up details are unavailable",
+    "No source information is available regarding entry fees, course details, or amenities"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Marig-on Marathon 2026?",
+      "answer": "The Marig-on Marathon 2026 is scheduled to take place on September 20, 2026. This date has been set by the organizer, the Marig-on Norte Samarnon Eagles Club, for the event held in Catarman, Northern Samar, Philippines, though further scheduling details have not yet been provided."
+    },
+    {
+      "question": "What distances are offered at the Marig-on Marathon 2026?",
+      "answer": "The Marig-on Marathon 2026 offers four distance categories for participants to choose from: a full marathon of 42.195 km, a half marathon of 21.1 km, a 10 km race, and a 5 km race, catering to a range of runner abilities and preferences."
+    },
+    {
+      "question": "Where is the Marig-on Marathon 2026 held?",
+      "answer": "The Marig-on Marathon 2026 will be held in Catarman, Northern Samar, in the Philippines. This location serves as both the venue and city for the event, which is organized by the Marig-on Norte Samarnon Eagles Club as part of the local race calendar."
+    },
+    {
+      "question": "Is registration open for the Marig-on Marathon 2026?",
+      "answer": "Registration for the Marig-on Marathon 2026 has not yet been announced. Prospective participants interested in the full marathon, half marathon, 10 km, or 5 km distances will need to wait for further updates from the organizer, the Marig-on Norte Samarnon Eagles Club, regarding sign-up details."
+    }
+  ],
   "reliability_score": 40,
   "tags": [
     "full-marathon",

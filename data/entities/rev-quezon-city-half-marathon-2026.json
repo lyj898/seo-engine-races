@@ -4,26 +4,49 @@
   "name": "REV Quezon City Half-Marathon 2026",
   "category_id": "half-marathon",
   "region_id": "philippines",
-  "short_description": "REV Quezon City Half-Marathon 2026 takes place December 13, 2026 in Quezon City, Philippines.",
-  "ai_summary": "REV Quezon City Half-Marathon 2026 is a road running event in Quezon City, Philippines, featuring Half Marathon (21K); 10K; 5K. The race takes place on December 13, 2026, starting from Quezon City. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The REV Quezon City Half-Marathon 2026 is a 21.1km, 10km, and 5km road race held on December 13, 2026, in Quezon City, Philippines.",
+  "ai_summary": "The REV Quezon City Half-Marathon 2026 is a road race scheduled for December 13, 2026, in Quezon City, Philippines, organized by RUNRIO Inc. The event offers three distance options: a 21.1km half-marathon, a 10km race, and a 5km race, with the half-marathon serving as the primary distance. Registration details have not yet been announced.",
   "core_facts": {
     "date": "2026-12-13",
     "distance_km": [
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
+    "organizer": "RUNRIO Inc.",
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "Quezon City",
     "city": "Quezon City",
-    "organizer": "RUNRIO Inc."
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km) accommodate different runner levels",
+    "Organized by RUNRIO Inc., an established race organizer",
+    "Held in Quezon City, a central and accessible Philippine location"
+  ],
+  "cons": [
+    "Registration status has not yet been announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the REV Quezon City Half-Marathon 2026?",
+      "answer": "The REV Quezon City Half-Marathon 2026 is scheduled to take place on December 13, 2026. The event will be held in Quezon City, Philippines, and is organized by RUNRIO Inc. This date applies to all distance categories offered as part of the race weekend."
+    },
+    {
+      "question": "What distances are offered at this event?",
+      "answer": "The REV Quezon City Half-Marathon 2026 offers three distance categories for participants to choose from: a 21.1km half-marathon, which is the primary distance, along with shorter 10km and 5km race options. This allows runners of varying experience levels to participate."
+    },
+    {
+      "question": "Who organizes the REV Quezon City Half-Marathon?",
+      "answer": "The REV Quezon City Half-Marathon 2026 is organized by RUNRIO Inc. The race takes place in Quezon City, located in the Philippines, and includes 21.1km, 10km, and 5km distance categories scheduled for December 13, 2026."
+    },
+    {
+      "question": "Is registration open for this race?",
+      "answer": "According to available information, the registration status for the REV Quezon City Half-Marathon 2026 has not yet been announced. Prospective participants interested in the 21.1km, 10km, or 5km distances will need to watch for further updates regarding sign-up details."
+    }
+  ],
   "reliability_score": 40,
   "tags": [
     "half-marathon",

@@ -4,27 +4,49 @@
   "name": "Ijen Geopark Run 2026",
   "category_id": "half-marathon",
   "region_id": "indonesia",
-  "short_description": "Ijen Geopark Run 2026 takes place August 23, 2026 in Banyuwangi, Jawa Timur, Indonesia.",
-  "ai_summary": "Ijen Geopark Run 2026 is a road running event in Banyuwangi, Jawa Timur, Indonesia, featuring 5K; 10K; 21K Half Marathon. The race takes place on August 23, 2026, starting from Paltuding Camp, Kawasan Ijen Geopark, Banyuwangi. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half-marathon event on August 23, 2026, at Paltuding Camp in the Kawasan Ijen Geopark, Banyuwangi, Indonesia, with registration currently open.",
+  "ai_summary": "The Ijen Geopark Run 2026 is a half-marathon event scheduled for August 23, 2026, held at Paltuding Camp within the Kawasan Ijen Geopark in Banyuwangi, Jawa Timur, Indonesia. Organized by the Geopark Run Series, the race offers three distance options: 5km, 10km, and 21.1km, with the half-marathon serving as the primary distance. Registration is currently open for participants interested in joining this Indonesian race set within a geopark landscape.",
   "core_facts": {
     "date": "2026-08-23",
     "distance_km": [
-      5.0,
-      10.0,
+      5,
+      10,
       21.1
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Geopark Run Series",
     "registration_status": "Open",
-    "country": "Indonesia",
     "venue": "Paltuding Camp, Kawasan Ijen Geopark, Banyuwangi",
     "city": "Banyuwangi, Jawa Timur",
-    "organizer": "Geopark Run Series"
+    "country": "Indonesia"
   },
-  "pros": [],
+  "pros": [
+    "Multiple distance options (5km, 10km, and 21.1km) to suit different runner levels",
+    "Held in a distinctive geopark setting at Paltuding Camp, Kawasan Ijen Geopark",
+    "Registration is currently open, giving prospective participants time to plan and sign up",
+    "Organized by the established Geopark Run Series"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 78,
+  "faqs": [
+    {
+      "question": "When is the Ijen Geopark Run 2026 taking place?",
+      "answer": "The Ijen Geopark Run 2026 is scheduled to take place on August 23, 2026. The event will be held at Paltuding Camp, located within the Kawasan Ijen Geopark in Banyuwangi, Jawa Timur, Indonesia, offering runners a distinctive geopark setting for the race."
+    },
+    {
+      "question": "What distances can I run at this event?",
+      "answer": "Participants can choose from three distance options at the Ijen Geopark Run 2026: 5km, 10km, or 21.1km. The 21.1km half-marathon serves as the primary distance for the event, though shorter options are available for those seeking a less demanding race."
+    },
+    {
+      "question": "Who organizes the Ijen Geopark Run 2026?",
+      "answer": "The Ijen Geopark Run 2026 is organized by the Geopark Run Series. The race takes place at Paltuding Camp within the Kawasan Ijen Geopark in Banyuwangi, Jawa Timur, Indonesia, as part of the organizer's broader series of geopark-based running events."
+    },
+    {
+      "question": "Is registration currently open for this race?",
+      "answer": "Yes, registration for the Ijen Geopark Run 2026 is currently open. Prospective participants interested in the 5km, 10km, or 21.1km half-marathon distances can register ahead of the event date of August 23, 2026, at Paltuding Camp in Banyuwangi."
+    }
+  ],
+  "reliability_score": 81,
   "tags": [
     "half-marathon",
     "indonesia",
@@ -35,7 +57,7 @@
       "url": "https://geoparkrun.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://geoparkrun.com/faq",
@@ -71,6 +93,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-31",
   "status": "active"
 }

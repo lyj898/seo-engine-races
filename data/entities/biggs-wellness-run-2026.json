@@ -4,27 +4,50 @@
   "name": "BIGGS Wellness Run 2026",
   "category_id": "full-marathon",
   "region_id": "philippines",
-  "short_description": "BIGGS Wellness Run 2026 takes place August 16, 2026 in Legazpi City, Albay, Philippines.",
-  "ai_summary": "BIGGS Wellness Run 2026 is a road running event in Legazpi City, Albay, Philippines, featuring Full Marathon (42K); Half Marathon (21K); 10K; 5K. The race takes place on August 16, 2026, starting from Penaranda Park, Legazpi City. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The BIGGS Wellness Run 2026 is a full marathon event held on August 16, 2026, at Penaranda Park, Legazpi City, Albay, Philippines.",
+  "ai_summary": "The BIGGS Wellness Run 2026 is a full marathon event scheduled for August 16, 2026, in Legazpi City, Albay, Philippines. Organized by BIGGS Inc., the race takes place at Penaranda Park and offers four distance options: 42.195km, 21.1km, 10km, and 5km. Registration details have not yet been announced.",
   "core_facts": {
     "date": "2026-08-16",
     "distance_km": [
       42.195,
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 42.195,
+    "organizer": "BIGGS Inc.",
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "Penaranda Park, Legazpi City",
     "city": "Legazpi City, Albay",
-    "organizer": "BIGGS Inc."
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (42.195km, 21.1km, 10km, 5km) accommodate runners of different experience levels",
+    "Held at Penaranda Park, a dedicated venue in Legazpi City",
+    "Organized by an established organizer, BIGGS Inc."
+  ],
+  "cons": [
+    "Registration status is not yet announced, so signup details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the BIGGS Wellness Run 2026?",
+      "answer": "The BIGGS Wellness Run 2026 is scheduled to take place on August 16, 2026. The event will be held in Legazpi City, Albay, Philippines, at Penaranda Park, and is organized by BIGGS Inc. as part of its wellness-focused race offerings for that year."
+    },
+    {
+      "question": "What distances are offered at the BIGGS Wellness Run 2026?",
+      "answer": "The BIGGS Wellness Run 2026 offers four distance categories for participants to choose from: a full marathon at 42.195km, a half marathon at 21.1km, a 10km race, and a shorter 5km race, allowing runners of varying abilities to take part."
+    },
+    {
+      "question": "Where does the BIGGS Wellness Run 2026 take place?",
+      "answer": "The BIGGS Wellness Run 2026 takes place at Penaranda Park in Legazpi City, Albay, Philippines. This venue serves as the host location for all four race distances offered during the event, which is organized by BIGGS Inc."
+    },
+    {
+      "question": "Is registration open for the BIGGS Wellness Run 2026?",
+      "answer": "As of now, the registration status for the BIGGS Wellness Run 2026 has not yet been announced. Interested runners will need to watch for updates from the organizer, BIGGS Inc., regarding when and how to sign up for the event."
+    }
+  ],
   "reliability_score": 40,
   "tags": [
     "full-marathon",

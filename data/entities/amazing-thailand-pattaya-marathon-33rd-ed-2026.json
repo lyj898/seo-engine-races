@@ -4,25 +4,48 @@
   "name": "Amazing Thailand Pattaya Marathon (33rd ed.)",
   "category_id": "full-marathon",
   "region_id": "thailand",
-  "short_description": "Amazing Thailand Pattaya Marathon (33rd ed.) takes place September 26, 2026 in Pattaya, Chonburi, Thailand.",
-  "ai_summary": "Amazing Thailand Pattaya Marathon (33rd ed.) is a road running event in Pattaya, Chonburi, Thailand, featuring Full Marathon; Half Marathon; 10km. The race takes place on September 26, 2026, starting from Pattaya, Chonburi. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A 33rd-edition marathon event in Pattaya, Chonburi, Thailand, held September 27, 2026, offering full marathon, half marathon, 10km, and 4.5km distances.",
+  "ai_summary": "The Amazing Thailand Pattaya Marathon returns for its 33rd edition on September 27, 2026, in Pattaya, Chonburi, Thailand. Runners can choose from four distances: a full marathon (42.195km), a half marathon (21.1km), a 10km race, and a 4.5km fun run. Registration for the event is currently open, making it accessible to a wide range of participants from elite marathoners to casual runners.",
   "core_facts": {
-    "date": "2026-09-26",
+    "date": "2026-09-27",
     "distance_km": [
       42.195,
       21.1,
-      10.0
+      10,
+      4.5
     ],
     "primary_distance_km": 42.195,
-    "registration_status": "not_yet_announced",
-    "country": "Thailand",
+    "registration_status": "open",
     "venue": "Pattaya, Chonburi",
-    "city": "Pattaya, Chonburi"
+    "city": "Pattaya, Chonburi",
+    "country": "Thailand"
   },
-  "pros": [],
+  "pros": [
+    "Multiple distance options (42.195km, 21.1km, 10km, 4.5km) suit varying fitness levels",
+    "Long-running event history as the 33rd edition suggests established organization",
+    "Registration is currently open, allowing ample time to plan and prepare",
+    "Located in Pattaya, a well-known Thailand destination"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Amazing Thailand Pattaya Marathon held?",
+      "answer": "The Amazing Thailand Pattaya Marathon, now in its 33rd edition, is scheduled to take place on September 27, 2026. It will be held in Pattaya, Chonburi, Thailand, giving participants a full year in advance to prepare their training schedules and travel arrangements for this established annual running event."
+    },
+    {
+      "question": "What distances can I run at this event?",
+      "answer": "Participants can choose from four distance options at the Amazing Thailand Pattaya Marathon: a full marathon of 42.195km, a half marathon of 21.1km, a 10km race, and a shorter 4.5km fun run, making the event accessible to runners of many different experience and fitness levels."
+    },
+    {
+      "question": "Is registration open for the Pattaya Marathon?",
+      "answer": "Yes, registration for the Amazing Thailand Pattaya Marathon is currently open. Interested runners can sign up now for their preferred distance, whether it's the full marathon, half marathon, 10km, or 4.5km option, ahead of the race date on September 27, 2026, in Pattaya, Chonburi, Thailand."
+    },
+    {
+      "question": "Where does the race take place?",
+      "answer": "The Amazing Thailand Pattaya Marathon takes place in Pattaya, located in Chonburi, Thailand. This coastal city serves as the venue for all four race distances offered at this event, including the full marathon, half marathon, 10km, and 4.5km races, as part of the marathon's 33rd edition."
+    }
+  ],
   "reliability_score": 88,
   "tags": [
     "full-marathon",
@@ -34,7 +57,7 @@
       "url": "https://www.pattayamarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://aims-worldrunning.org/calendar.html",
@@ -76,6 +99,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
-  "status": "active"
+  "last_updated": "2026-07-31",
+  "status": "needs_review"
 }

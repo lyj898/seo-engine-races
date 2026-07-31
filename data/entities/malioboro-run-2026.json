@@ -4,25 +4,50 @@
   "name": "Malioboro Run 2026",
   "category_id": "half-marathon",
   "region_id": "indonesia",
-  "short_description": "Malioboro Run 2026 takes place October 4, 2026 in Yogyakarta, Indonesia.",
-  "ai_summary": "Malioboro Run 2026 is a road running event in Yogyakarta, Indonesia, featuring Half Marathon; 10km; 5km. The race takes place on October 4, 2026, starting from Malioboro, Yogyakarta. Registration is Not Yet Announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "Malioboro Run 2026 is a half-marathon held on October 4, 2026, in Yogyakarta, Indonesia, with 21.1km, 10km, and 5km distance options.",
+  "ai_summary": "Malioboro Run 2026 is a half-marathon event held on October 4, 2026, along Malioboro in Yogyakarta, Indonesia. Organized by Bank BPD DIY, the race offers three distance options: 21.1km, 10km, and 5km. Registration for this event is currently marked as Sold Out, meaning spots are no longer available for new entrants.",
   "core_facts": {
     "date": "2026-10-04",
     "distance_km": [
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
-    "registration_status": "Not Yet Announced",
-    "country": "Indonesia",
+    "organizer": "Bank BPD DIY",
+    "registration_status": "Sold Out",
     "venue": "Malioboro, Yogyakarta",
-    "city": "Yogyakarta"
+    "city": "Yogyakarta",
+    "country": "Indonesia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km) accommodate different runner levels",
+    "Iconic Malioboro location in Yogyakarta offers a notable race setting",
+    "Backed by an established organizer, Bank BPD DIY",
+    "High demand demonstrated by sold-out registration status"
+  ],
+  "cons": [
+    "Registration is currently Sold Out, so new participants cannot sign up"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is Malioboro Run 2026 taking place?",
+      "answer": "Malioboro Run 2026 is scheduled to take place on October 4, 2026. The event will be held in Yogyakarta, Indonesia, specifically along the well-known Malioboro area. This date marks the running of the race across its available distance categories for participants who have already secured registration."
+    },
+    {
+      "question": "What distances are offered at Malioboro Run 2026?",
+      "answer": "Malioboro Run 2026 offers three distance categories for participants to choose from: a half-marathon distance of 21.1km, a 10km race, and a shorter 5km race. This range of distances allows different types of runners, from casual participants to more experienced racers, to take part in the event."
+    },
+    {
+      "question": "Can I still register for Malioboro Run 2026?",
+      "answer": "No, registration for Malioboro Run 2026 is currently listed as Sold Out. This means that all available spots for the race have already been claimed, and new sign-ups are not being accepted at this time for any of the three distance categories offered."
+    },
+    {
+      "question": "Who organizes Malioboro Run 2026?",
+      "answer": "Malioboro Run 2026 is organized by Bank BPD DIY. The organization is responsible for coordinating the event, which takes place in Yogyakarta, Indonesia, along the Malioboro area, and includes multiple distance categories for participants who registered before the event sold out."
+    }
+  ],
   "reliability_score": 82,
   "tags": [
     "half-marathon",
@@ -34,7 +59,7 @@
       "url": "https://maliobororun.id",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-13"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
@@ -58,6 +83,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-13",
-  "status": "active"
+  "last_updated": "2026-07-31",
+  "status": "needs_review"
 }

@@ -4,28 +4,50 @@
   "name": "Singlife Davao Marathon",
   "category_id": "full-marathon",
   "region_id": "philippines",
-  "short_description": "Singlife Davao Marathon takes place August 15, 2026 in Davao City, Philippines.",
-  "ai_summary": "Singlife Davao Marathon is a road running event in Davao City, Philippines, featuring Full Marathon; Half Marathon; 10km; 5km. The race takes place on August 15, 2026, starting from SM City Lanang. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The Singlife Davao Marathon is a full-marathon event taking place on August 15, 2026 in Davao City, Philippines, organized by RUNRIO Inc.",
+  "ai_summary": "The Singlife Davao Marathon is a full-marathon event scheduled for August 15, 2026, in Davao City, Philippines. Organized by RUNRIO Inc., the race is based at SM City Lanang and offers four distance options: 42.195km, 21.1km, 10km, and 5km. Registration for the event is currently open, giving runners of varying experience levels a chance to participate.",
   "core_facts": {
     "date": "2026-08-15",
     "distance_km": [
       42.195,
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 42.195,
+    "organizer": "RUNRIO Inc.",
     "registration_status": "Open",
-    "country": "Philippines",
     "venue": "SM City Lanang",
     "city": "Davao City",
-    "organizer": "RUNRIO Inc."
+    "country": "Philippines"
   },
-  "pros": [],
+  "pros": [
+    "Multiple distance options (42.195km, 21.1km, 10km, 5km) accommodate different runner levels",
+    "Organized by RUNRIO Inc., an established race organizer",
+    "Registration is currently open",
+    "Convenient venue at SM City Lanang in Davao City"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 88,
+  "faqs": [
+    {
+      "question": "When is the Singlife Davao Marathon held?",
+      "answer": "The Singlife Davao Marathon is scheduled to take place on August 15, 2026. It is held in Davao City, Philippines, with SM City Lanang serving as the event venue. Registration for this race is currently open for interested participants who wish to take part in one of its available distance categories."
+    },
+    {
+      "question": "What distances are offered at the Singlife Davao Marathon?",
+      "answer": "The Singlife Davao Marathon offers four distance categories for participants to choose from: a full marathon of 42.195km, a half marathon of 21.1km, a 10km race, and a shorter 5km race. This range allows runners of different experience levels and training backgrounds to participate in the event."
+    },
+    {
+      "question": "Where does the race start or take place?",
+      "answer": "The Singlife Davao Marathon takes place at SM City Lanang, located in Davao City, Philippines. This venue serves as the base for the event, which includes multiple race distances. The race is part of the broader lineup of marathon events happening in the Philippines in 2026."
+    },
+    {
+      "question": "Who organizes the Singlife Davao Marathon?",
+      "answer": "The Singlife Davao Marathon is organized by RUNRIO Inc., a race organizing company responsible for coordinating the event's logistics, including registration and venue arrangements. The race is set to take place at SM City Lanang in Davao City, Philippines, on August 15, 2026, with registration currently open."
+    }
+  ],
+  "reliability_score": 91,
   "tags": [
     "full-marathon",
     "philippines",
@@ -36,7 +58,7 @@
       "url": "https://runrio.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-13"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://runrio.com/race-calendar/",
@@ -54,6 +76,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-13",
+  "last_updated": "2026-07-31",
   "status": "active"
 }

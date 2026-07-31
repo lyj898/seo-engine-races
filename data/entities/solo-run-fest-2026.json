@@ -4,25 +4,49 @@
   "name": "Solo Run Fest 2026",
   "category_id": "half-marathon",
   "region_id": "indonesia",
-  "short_description": "Solo Run Fest 2026 takes place September 27, 2026 in Surakarta, Jawa Tengah, Indonesia.",
-  "ai_summary": "Solo Run Fest 2026 is a road running event in Surakarta, Jawa Tengah, Indonesia, featuring Half Marathon; 10km; 5km. The race takes place on September 27, 2026, starting from Surakarta, Jawa Tengah. Registration is Not Yet Announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "Solo Run Fest 2026 is a half-marathon held on September 27, 2026 in Surakarta, Jawa Tengah, Indonesia, with 21.1km, 10km, and 5km distance options.",
+  "ai_summary": "Solo Run Fest 2026 is a half-marathon event taking place on September 27, 2026 in Surakarta, Jawa Tengah, Indonesia. Runners can choose from three distances: 21.1km, 10km, and 5km. Registration is currently open, with prices ranging from Rp 200,000 to Rp 650,000 depending on the category chosen.",
   "core_facts": {
     "date": "2026-09-27",
     "distance_km": [
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
-    "registration_status": "Not Yet Announced",
-    "country": "Indonesia",
+    "registration_status": "Open",
+    "price_range": "Rp 200,000 - Rp 650,000",
     "venue": "Surakarta, Jawa Tengah",
-    "city": "Surakarta, Jawa Tengah"
+    "city": "Surakarta, Jawa Tengah",
+    "country": "Indonesia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km) to suit different runner levels",
+    "Registration is currently open",
+    "Wide price range allows flexibility depending on chosen distance"
+  ],
+  "cons": [
+    "Price range is fairly wide, so exact cost depends on category chosen"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is Solo Run Fest 2026 taking place?",
+      "answer": "Solo Run Fest 2026 is scheduled to take place on September 27, 2026. The event is held in Surakarta, Jawa Tengah, Indonesia. Registration for this race is currently open for those interested in participating in any of the available distance categories."
+    },
+    {
+      "question": "What distances are offered at Solo Run Fest 2026?",
+      "answer": "Solo Run Fest 2026 offers three distance options for participants to choose from: a half-marathon distance of 21.1km, a 10km race, and a shorter 5km race. This gives runners of different experience levels and goals a suitable category to register for."
+    },
+    {
+      "question": "Is registration currently open for Solo Run Fest 2026?",
+      "answer": "Yes, registration for Solo Run Fest 2026 is currently open. Interested participants can sign up for any of the three available distances: 21.1km, 10km, or 5km. Prices range from Rp 200,000 to Rp 650,000 depending on the chosen category."
+    },
+    {
+      "question": "Where is Solo Run Fest 2026 held?",
+      "answer": "Solo Run Fest 2026 is held in Surakarta, Jawa Tengah, Indonesia. The event takes place on September 27, 2026, and offers runners a choice of three distances: 21.1km, 10km, and 5km, with registration currently open."
+    }
+  ],
   "reliability_score": 82,
   "tags": [
     "half-marathon",
@@ -34,7 +58,7 @@
       "url": "https://solorunfest.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-13"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
@@ -58,6 +82,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-13",
-  "status": "active"
+  "last_updated": "2026-07-31",
+  "status": "needs_review"
 }

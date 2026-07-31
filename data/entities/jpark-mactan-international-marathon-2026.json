@@ -4,28 +4,50 @@
   "name": "JPARK Mactan International Marathon 2026",
   "category_id": "full-marathon",
   "region_id": "philippines",
-  "short_description": "JPARK Mactan International Marathon 2026 takes place October 11, 2026 in Lapu-Lapu City, Cebu, Philippines.",
-  "ai_summary": "JPARK Mactan International Marathon 2026 is a road running event in Lapu-Lapu City, Cebu, Philippines, featuring Full Marathon (42K); Half Marathon (21K); 10K; 5K. The race takes place on October 11, 2026, starting from Mactan Island, Lapu-Lapu City. Registration is Open as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A multi-distance marathon event on Mactan Island, Lapu-Lapu City, Philippines, held October 11, 2026, with registration currently open.",
+  "ai_summary": "The JPARK Mactan International Marathon 2026 takes place on October 11, 2026, on Mactan Island in Lapu-Lapu City, Cebu, Philippines. Organized by the Bohol International Marathon organization in partnership with Jpark Island Resort, the event offers four distance options: full marathon (42.195km), half marathon (21.1km), 10km, and 5km. Registration is currently open for runners interested in participating.",
   "core_facts": {
     "date": "2026-10-11",
     "distance_km": [
       42.195,
       21.1,
-      10.0,
-      5.0
+      10,
+      5
     ],
     "primary_distance_km": 42.195,
+    "organizer": "Bohol International Marathon org. with Jpark Island Resort",
     "registration_status": "Open",
-    "country": "Philippines",
     "venue": "Mactan Island, Lapu-Lapu City",
     "city": "Lapu-Lapu City, Cebu",
-    "organizer": "Bohol International Marathon org. with Jpark Island Resort"
+    "country": "Philippines"
   },
-  "pros": [],
+  "pros": [
+    "Multiple distance options available: full marathon, half marathon, 10km, and 5km",
+    "Registration is currently open",
+    "Scenic venue on Mactan Island, Lapu-Lapu City",
+    "Backed by an experienced organizing body (Bohol International Marathon org.) with resort partnership"
+  ],
   "cons": [],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 62,
+  "faqs": [
+    {
+      "question": "When is the JPARK Mactan International Marathon 2026 taking place?",
+      "answer": "The event is scheduled for October 11, 2026. It will be held on Mactan Island, in Lapu-Lapu City, Cebu, Philippines. Runners interested in participating can register now, as registration for this event is currently open according to the available details."
+    },
+    {
+      "question": "What distance options are available at this race?",
+      "answer": "Participants can choose from four distances: a full marathon of 42.195km, a half marathon of 21.1km, a 10km race, or a 5km race. This range of options makes the event accessible to a variety of runners, from beginners to experienced marathoners."
+    },
+    {
+      "question": "Who organizes the JPARK Mactan International Marathon?",
+      "answer": "The marathon is organized by the Bohol International Marathon organization in collaboration with Jpark Island Resort. This partnership brings together race-organizing expertise and a resort venue setting, contributing to the event held on Mactan Island in Lapu-Lapu City, Cebu, Philippines."
+    },
+    {
+      "question": "Where does the marathon take place?",
+      "answer": "The race is held on Mactan Island, located in Lapu-Lapu City, within Cebu province, Philippines. This coastal island setting serves as the venue for all four race distances offered at this event, from the 5km up to the full marathon."
+    }
+  ],
+  "reliability_score": 57,
   "tags": [
     "full-marathon",
     "philippines"
@@ -35,7 +57,7 @@
       "url": "https://mytv.ph",
       "label": "mytv.ph",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://www.takbo.ph",
@@ -47,6 +69,6 @@
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-31",
   "status": "active"
 }

@@ -4,27 +4,50 @@
   "name": "HOKA Midnight Run Asia 2026 – Clark",
   "category_id": "half-marathon",
   "region_id": "philippines",
-  "short_description": "HOKA Midnight Run Asia 2026 – Clark takes place November 15, 2026 in Clark, Philippines.",
-  "ai_summary": "HOKA Midnight Run Asia 2026 – Clark is a road running event in Clark, Philippines, featuring Half Marathon (21KM), 10KM, 5KM. The race takes place on November 15, 2026, starting from Clark City. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "HOKA Midnight Run Asia 2026 – Clark is a half-marathon event held on November 15, 2026 in Clark City, Philippines.",
+  "ai_summary": "HOKA Midnight Run Asia 2026 – Clark is a half-marathon event scheduled for November 15, 2026, in Clark City, Philippines. Organized by Runrio under the HOKA Midnight Run Asia brand, the race offers three distance options: 21.1km, 10km, and 5km. Registration details have not yet been announced, so prospective participants should check back for updates on how to sign up.",
   "core_facts": {
     "date": "2026-11-15",
     "distance_km": [
-      21.0,
-      10.0,
-      5.0
+      21,
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Runrio (brand: HOKA Midnight Run Asia)",
     "registration_status": "not_yet_announced",
-    "country": "Philippines",
     "venue": "Clark City",
     "city": "Clark",
-    "organizer": "Runrio (brand: HOKA Midnight Run Asia)"
+    "country": "Philippines"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km) suit a range of runner abilities",
+    "Organized by Runrio, an established race organizer in the Philippines",
+    "Set in Clark City, a dedicated race venue"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 80,
+  "faqs": [
+    {
+      "question": "When is the HOKA Midnight Run Asia 2026 – Clark race?",
+      "answer": "The race is scheduled to take place on November 15, 2026. It will be held in Clark City, located in the Philippines. This date applies to all distance categories offered as part of the event, including the half-marathon, 10km, and 5km races."
+    },
+    {
+      "question": "What distances are offered at this race?",
+      "answer": "Participants can choose from three distance options at this event: a 21.1km half-marathon, which serves as the primary distance, a 10km race, and a 5km race. This range allows runners of different experience levels and training backgrounds to take part."
+    },
+    {
+      "question": "Who organizes this race?",
+      "answer": "The event is organized by Runrio, operating under the brand name HOKA Midnight Run Asia. Runrio is responsible for coordinating the race in Clark City, Philippines, as part of the broader HOKA Midnight Run Asia series scheduled for 2026."
+    },
+    {
+      "question": "Is registration open yet for this race?",
+      "answer": "Registration status for this race is currently listed as not yet announced. This means specific details about how, when, or where to sign up have not been released. Prospective participants should check for future updates regarding the registration process for this event."
+    }
+  ],
+  "reliability_score": 75,
   "tags": [
     "half-marathon",
     "philippines",
@@ -35,7 +58,7 @@
       "url": "https://runrio.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://runrio.com/race-calendar",
@@ -53,6 +76,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-31",
   "status": "active"
 }

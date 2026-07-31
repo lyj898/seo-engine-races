@@ -4,27 +4,51 @@
   "name": "Crystalin Run Xperience 2026 – Jakarta",
   "category_id": "half-marathon",
   "region_id": "indonesia",
-  "short_description": "Crystalin Run Xperience 2026 – Jakarta takes place October 4, 2026 in Jakarta, Indonesia.",
-  "ai_summary": "Crystalin Run Xperience 2026 – Jakarta is a road running event in Jakarta, Indonesia, featuring Half Marathon; 10km; 5km; 2.5km. The race takes place on October 4, 2026, starting from Jakarta (exact venue not stated). Registration is Not Yet Announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "A half-marathon event in Jakarta, Indonesia, scheduled for October 4, 2026, offering 21.1 km, 10 km, 5 km, and 2.5 km distance options.",
+  "ai_summary": "The Crystalin Run Xperience 2026 is a half-marathon event set to take place in Jakarta, Indonesia, on October 4, 2026. Runners can choose from four distance categories: 21.1 km, 10 km, 5 km, and 2.5 km. The exact venue within Jakarta has not yet been disclosed, and registration details remain unannounced at this time.",
   "core_facts": {
     "date": "2026-10-04",
     "distance_km": [
       21.1,
-      10.0,
-      5.0,
+      10,
+      5,
       2.5
     ],
     "primary_distance_km": 21.1,
     "registration_status": "Not Yet Announced",
-    "country": "Indonesia",
     "venue": "Jakarta (exact venue not stated)",
-    "city": "Jakarta"
+    "city": "Jakarta",
+    "country": "Indonesia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1 km, 10 km, 5 km, 2.5 km) suit a range of runner abilities",
+    "Includes a full half-marathon distance for more serious runners",
+    "Takes place in a major city, Jakarta, Indonesia"
+  ],
+  "cons": [
+    "Exact venue within Jakarta has not been stated",
+    "Registration status is not yet announced, so sign-up details are unavailable"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 82,
+  "faqs": [
+    {
+      "question": "When is the Crystalin Run Xperience 2026 taking place?",
+      "answer": "The Crystalin Run Xperience 2026 is scheduled for October 4, 2026, in Jakarta, Indonesia. This half-marathon event offers multiple distance options for participants, though further details such as the exact venue and starting times have not yet been announced by organizers ahead of the race date."
+    },
+    {
+      "question": "What distance options are available?",
+      "answer": "The event offers four distance categories for runners to choose from: a half-marathon distance of 21.1 kilometers, a 10 kilometer race, a 5 kilometer race, and a shorter 2.5 kilometer option, making it suitable for a range of runners with different experience levels and goals."
+    },
+    {
+      "question": "Where exactly is the race held?",
+      "answer": "The race takes place in Jakarta, Indonesia, though the exact venue within the city has not been specified in available information. Participants planning to attend should watch for further announcements from organizers, which are expected to provide precise location details closer to the October 2026 event date."
+    },
+    {
+      "question": "Is registration open for this race?",
+      "answer": "As of now, registration status for the Crystalin Run Xperience 2026 is listed as 'Not Yet Announced.' Prospective participants interested in joining this Jakarta half-marathon event should check back for updates, as organizers have not yet released details on sign-up dates, fees, or the registration process."
+    }
+  ],
+  "reliability_score": 77,
   "tags": [
     "half-marathon",
     "indonesia",
@@ -35,7 +59,7 @@
       "url": "https://crystalinrunxperience.id",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-13"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
@@ -59,6 +83,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-13",
+  "last_updated": "2026-07-31",
   "status": "active"
 }

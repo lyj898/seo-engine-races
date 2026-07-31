@@ -4,27 +4,51 @@
   "name": "Garmin Run Singapore 2026",
   "category_id": "half-marathon",
   "region_id": "singapore",
-  "short_description": "Garmin Run Singapore 2026 takes place October 25, 2026 in Singapore, Singapore.",
-  "ai_summary": "Garmin Run Singapore 2026 is a road running event in Singapore, Singapore, featuring 21.1KM Half Marathon; 10KM. The race takes place on October 25, 2026, starting from Marina Barrage. Registration is not yet announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "Garmin Run Singapore 2026 is a half-marathon and 10km race held on October 25, 2026 at Marina Barrage, Singapore.",
+  "ai_summary": "Garmin Run Singapore 2026 is a half-marathon event organized by Garmin, taking place on October 25, 2026 at Marina Barrage in Singapore. The race offers two distance options: a 21.1km half-marathon and a 10km run, priced at SGD 125 and SGD 105 respectively. Registration has not yet been announced, so prospective participants will need to watch for further updates.",
   "core_facts": {
     "date": "2026-10-25",
     "distance_km": [
       21.1,
-      10.0
+      10
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Garmin",
     "registration_status": "not_yet_announced",
-    "country": "Singapore",
+    "price_range": "SGD 21K SGD 125 / 10K SGD 105",
     "venue": "Marina Barrage",
     "city": "Singapore",
-    "organizer": "Garmin",
-    "price_range": "SGD 21K SGD 125 / 10K SGD 105"
+    "country": "Singapore"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Choice of two distances (21.1km and 10km) to suit different runner levels",
+    "Scenic venue at Marina Barrage in Singapore",
+    "Organized by Garmin, a well-known name in sports technology"
+  ],
+  "cons": [
+    "Registration status is not yet announced, so sign-up details are unavailable",
+    "Pricing is on the higher end at SGD 125 for the half-marathon and SGD 105 for the 10km"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
-  "reliability_score": 55,
+  "faqs": [
+    {
+      "question": "When is Garmin Run Singapore 2026?",
+      "answer": "Garmin Run Singapore 2026 is scheduled to take place on October 25, 2026. The event will be held at Marina Barrage in Singapore. This date allows participants to plan their training and travel arrangements well in advance of race day."
+    },
+    {
+      "question": "What distances are offered at Garmin Run Singapore 2026?",
+      "answer": "The race offers two distance categories for participants to choose from: a 21.1km half-marathon, which is the primary distance, and a shorter 10km run. This allows both experienced half-marathon runners and those seeking a shorter challenge to take part in the same event."
+    },
+    {
+      "question": "How much does it cost to register for Garmin Run Singapore 2026?",
+      "answer": "Registration pricing is set at SGD 125 for the 21.1km half-marathon distance and SGD 105 for the 10km distance. These prices reflect the cost structure for the two distance options offered at this Garmin-organized event in Singapore."
+    },
+    {
+      "question": "Is registration open for Garmin Run Singapore 2026?",
+      "answer": "As of now, registration for Garmin Run Singapore 2026 has not yet been announced. Interested runners will need to keep checking for updates regarding when sign-ups will officially open ahead of the October 25, 2026 race date."
+    }
+  ],
+  "reliability_score": 58,
   "tags": [
     "half-marathon",
     "singapore"
@@ -34,12 +58,12 @@
       "url": "https://www.justrunlah.com/race/garmin-run-singapore-2026/",
       "label": "justrunlah.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-07-31"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-31",
   "status": "active"
 }

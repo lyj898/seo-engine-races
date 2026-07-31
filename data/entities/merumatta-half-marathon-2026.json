@@ -4,26 +4,50 @@
   "name": "Merumatta Half Marathon 2026",
   "category_id": "half-marathon",
   "region_id": "indonesia",
-  "short_description": "Merumatta Half Marathon 2026 takes place October 18, 2026 in Senggigi, Lombok Barat, NTB, Indonesia.",
-  "ai_summary": "Merumatta Half Marathon 2026 is a road running event in Senggigi, Lombok Barat, NTB, Indonesia, featuring Half Marathon; 10km; 5km; 2.5km. The race takes place on October 18, 2026, starting from Merumatta Hotel, Senggigi, Lombok Barat, NTB. Registration is Not Yet Announced as of the last check. This listing is compiled from official race sources and aggregators and is refreshed regularly.",
+  "short_description": "The Merumatta Half Marathon 2026 is a multi-distance road race held October 18, 2026, in Senggigi, Lombok Barat, Indonesia.",
+  "ai_summary": "The Merumatta Half Marathon 2026 takes place on October 18, 2026, at Merumatta Hotel in Senggigi, Lombok Barat, NTB, Indonesia. Runners can choose from four distances: 21.1km, 10km, 5km, and 2.5km, with the half marathon featuring 390m of elevation gain. Registration is currently open for those interested in participating.",
   "core_facts": {
     "date": "2026-10-18",
     "distance_km": [
       21.1,
-      10.0,
-      5.0,
+      10,
+      5,
       2.5
     ],
     "primary_distance_km": 21.1,
-    "registration_status": "Not Yet Announced",
-    "country": "Indonesia",
+    "elevation_gain_m": 390,
+    "registration_status": "Open",
     "venue": "Merumatta Hotel, Senggigi, Lombok Barat, NTB",
-    "city": "Senggigi, Lombok Barat, NTB"
+    "city": "Senggigi, Lombok Barat, NTB",
+    "country": "Indonesia"
   },
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Multiple distance options (21.1km, 10km, 5km, 2.5km) suit a range of runner abilities",
+    "Scenic venue at Merumatta Hotel in Senggigi, Lombok Barat, NTB",
+    "Registration is currently open, giving ample time to prepare"
+  ],
+  "cons": [
+    "Half marathon course includes 390m of elevation gain, which may be challenging for some runners"
+  ],
   "excerpt_quotes": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "When is the Merumatta Half Marathon 2026?",
+      "answer": "The Merumatta Half Marathon 2026 is scheduled to take place on October 18, 2026. The event will be held at Merumatta Hotel in Senggigi, Lombok Barat, NTB, Indonesia, offering runners multiple distance options to choose from on race day."
+    },
+    {
+      "question": "What distances are offered at this race?",
+      "answer": "The race offers four distance options for participants: a 21.1km half marathon, a 10km race, a 5km race, and a shorter 2.5km distance. This range allows runners of different experience levels and fitness goals to take part in the event."
+    },
+    {
+      "question": "How much elevation gain is there on the half marathon course?",
+      "answer": "The half marathon (21.1km) course at the Merumatta Half Marathon 2026 includes a total elevation gain of 390 meters. This is a factor runners may want to consider when preparing and training for the race."
+    },
+    {
+      "question": "Is registration still open for this race?",
+      "answer": "Yes, registration for the Merumatta Half Marathon 2026 is currently open. Interested runners can sign up ahead of the race date, October 18, 2026, to secure their spot in one of the four available distance categories."
+    }
+  ],
   "reliability_score": 82,
   "tags": [
     "half-marathon",
@@ -35,7 +59,7 @@
       "url": "https://merumatta-halfmarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-13"
+      "last_checked": "2026-07-31"
     },
     {
       "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
@@ -59,6 +83,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-13",
-  "status": "active"
+  "last_updated": "2026-07-31",
+  "status": "needs_review"
 }
