@@ -1,6 +1,6 @@
 import siteConfig from '../lib/config.js';
 import { urls } from '../lib/urls.js';
-import { loadEntities, loadCategories, loadRegions, loadListicles, stripMeta } from '../lib/data.js';
+import { loadEntities, loadCategories, loadRegions, loadListicles, stripMeta, isPublished } from '../lib/data.js';
 
 /**
  * Build-time-generated sitemap, enumerating every real route this engine
@@ -9,10 +9,10 @@ import { loadEntities, loadCategories, loadRegions, loadListicles, stripMeta } f
  * uses, so the sitemap can never drift out of sync with actual routes.
  */
 export async function GET({ site }) {
-  const entities = loadEntities().map(stripMeta).filter((e) => e.status === 'active');
-  const categories = loadCategories().map(stripMeta).filter((c) => c.status === 'active');
-  const regions = loadRegions().map(stripMeta).filter((r) => r.status === 'active');
-  const listicles = loadListicles().map(stripMeta).filter((l) => l.status === 'active');
+  const entities = loadEntities().map(stripMeta).filter(isPublished);
+  const categories = loadCategories().map(stripMeta).filter(isPublished);
+  const regions = loadRegions().map(stripMeta).filter(isPublished);
+  const listicles = loadListicles().map(stripMeta).filter(isPublished);
 
   const staticPaths = [
     urls.home(),

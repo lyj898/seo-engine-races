@@ -9,7 +9,7 @@ import {
   isUnknownStatus,
   isLikelyRegistrationOpen,
 } from '../lib/text.js';
-import { loadEntities, loadCategories, loadRegions, loadListicles, stripMeta } from '../lib/data.js';
+import { loadEntities, loadCategories, loadRegions, loadListicles, stripMeta, isPublished } from '../lib/data.js';
 import { matchCategoryByValue } from '../lib/categoryMatch.js';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import HubCard from '../components/HubCard.astro';
@@ -22,10 +22,10 @@ import DateBadge from '../components/DateBadge.astro';
 import ValuePills from '../components/ValuePills.astro';
 import { buildWebsiteSchema, buildFaqPageSchema } from '../lib/schema-jsonld.js';
 
-const entities = loadEntities().map(stripMeta).filter((e) => e.status === 'active');
-const categories = loadCategories().map(stripMeta).filter((c) => c.status === 'active');
-const regions = loadRegions().map(stripMeta).filter((r) => r.status === 'active');
-const listicles = loadListicles().map(stripMeta).filter((l) => l.status === 'active');
+const entities = loadEntities().map(stripMeta).filter(isPublished);
+const categories = loadCategories().map(stripMeta).filter(isPublished);
+const regions = loadRegions().map(stripMeta).filter(isPublished);
+const listicles = loadListicles().map(stripMeta).filter(isPublished);
 
 // Only top-level regions on the homepage (e.g. "Thailand", not "Nong Khai")
 // -- child regions are reached by drilling down from their parent's hub.
@@ -139,13 +139,20 @@ const jsonLd = [
       </div>
 
       {isDateDriven ? (
-        <div class="relative max-w-[540px]">
+        /*
+          Full-width pill rather than the old 540px-capped rounded rect: under
+          a headline this large a short left-aligned box read as an orphan,
+          and on a phone the capped width bought nothing. rounded-full echoes
+          the filter chips below it, and the ring-based focus state replaces a
+          box-shadow one so the highlight can't be clipped by an ancestor.
+        */
+        <div class="group relative">
           <svg
-            class="pointer-events-none absolute left-[1.1rem] top-1/2 h-5 w-5 -translate-y-1/2 text-brand-faint dark:text-brand-faint-dark"
+            class="pointer-events-none absolute left-5 top-1/2 h-5 w-5 -translate-y-1/2 text-brand-faint transition-colors group-focus-within:text-brand-text dark:text-brand-faint-dark dark:group-focus-within:text-brand-text-dark"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
-            stroke-width="2"
+            stroke-width="2.25"
             aria-hidden="true"
           >
             <circle cx="11" cy="11" r="7" />
@@ -154,9 +161,9 @@ const jsonLd = [
           <input
             type="text"
             id="race-search-input"
-            class="w-full rounded-lg border-[1.5px] border-brand-border bg-brand-surface py-4 pl-[3.1rem] pr-5 text-base shadow-sm transition-shadow duration-200 ease-interactive placeholder:text-brand-faint focus:border-brand-primary focus:shadow-[0_0_0_4px_theme(colors.brand.primary-highlight)] focus:outline-none dark:border-brand-border-dark dark:bg-brand-surface-dark dark:placeholder:text-brand-faint-dark dark:focus:shadow-[0_0_0_4px_theme(colors.brand.primary-highlight-dark)]"
-            placeholder={`Search by ${siteConfig.entityLabelSingular} name or city...`}
-            aria-label={`Search by ${siteConfig.entityLabelSingular} name or city...`}
+            class="w-full rounded-full border-[1.5px] border-brand-border bg-brand-surface py-3.5 pl-[3.25rem] pr-5 text-base shadow-sm transition-all duration-200 ease-interactive placeholder:text-brand-faint focus:border-brand-primary focus:outline-none focus:ring-4 focus:ring-brand-primary-highlight sm:py-4 dark:border-brand-border-dark dark:bg-brand-surface-dark dark:placeholder:text-brand-faint-dark dark:focus:ring-brand-primary-highlight-dark"
+            placeholder={`Search ${siteConfig.entityLabelPlural} or cities...`}
+            aria-label={`Search ${siteConfig.entityLabelPlural} by name or city`}
           />
         </div>
       ) : (
@@ -188,23 +195,33 @@ const jsonLd = [
             {monthOptions.map((m) => <option value={m.value}>{m.label}</option>)}
           </select>
 
-          <div class="inline-flex flex-wrap gap-0.5 rounded-full bg-brand-surface-offset p-[3px] dark:bg-brand-surface-offset-dark">
-            <button type="button" data-distance-value="" class="distance-chip is-active rounded-full px-3.5 py-2 text-sm font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">
-              All distances
-            </button>
-            {quickDistanceCategories.map((c) => (
-              <button type="button" data-distance-value={c.category_id} class="distance-chip rounded-full px-3.5 py-2 text-sm font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">
-                {c.label}
+          <!--
+            flex-nowrap inside its own scroll container: as a wrapping flex
+            row the segmented pill broke into two stacked rows that still
+            carried one rounded-full outline, which looked like a rendering
+            bug on narrow screens. Keeping the segments on one line and
+            letting the group scroll sideways preserves the pill shape at
+            any width.
+          -->
+          <div class="-mx-4 max-w-full overflow-x-auto px-4 [scrollbar-width:none] sm:mx-0 sm:px-0 [&::-webkit-scrollbar]:hidden">
+            <div class="inline-flex w-max flex-nowrap gap-0.5 rounded-full bg-brand-surface-offset p-[3px] dark:bg-brand-surface-offset-dark">
+              <button type="button" data-distance-value="" class="distance-chip is-active shrink-0 whitespace-nowrap rounded-full px-3.5 py-2 text-sm font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">
+                All distances
               </button>
-            ))}
+              {quickDistanceCategories.map((c) => (
+                <button type="button" data-distance-value={c.category_id} class="distance-chip shrink-0 whitespace-nowrap rounded-full px-3.5 py-2 text-sm font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">
+                  {c.label}
+                </button>
+              ))}
+            </div>
           </div>
 
-          <label class="inline-flex cursor-pointer items-center gap-2 rounded-full border border-brand-border px-3.5 py-2 text-sm font-semibold dark:border-brand-border-dark">
+          <label class="inline-flex cursor-pointer items-center gap-2 whitespace-nowrap rounded-full border border-brand-border px-3.5 py-2 text-sm font-semibold dark:border-brand-border-dark">
             <input type="checkbox" id="filter-open-only" class="h-4 w-4 rounded border-brand-border accent-brand-primary dark:border-brand-border-dark" />
             Open for registration
           </label>
 
-          <button type="button" id="filter-reset" class="ml-auto text-sm font-bold underline-offset-2 hover:underline">
+          <button type="button" id="filter-reset" class="ml-auto shrink-0 text-sm font-bold underline-offset-2 hover:underline">
             Reset
           </button>
         </div>
@@ -255,6 +272,7 @@ const jsonLd = [
                         values={entity.core_facts.distance_km ?? []}
                         categories={categories}
                         unit="km"
+                        matchedOnly
                       />
 
                       <div class="mt-3 flex items-center justify-between gap-3">
