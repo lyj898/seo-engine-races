@@ -15,7 +15,7 @@
       5
     ],
     "primary_distance_km": 42.195,
-    "registration_status": "Not Yet Announced",
+    "registration_status": "Open (Early Bird)",
     "venue": "Surabaya (exact venue not stated)",
     "city": "Surabaya",
     "country": "Indonesia"
@@ -30,6 +30,8 @@
     "Registration status is not yet announced, so sign-up details are unavailable"
   ],
   "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
   "faqs": [
     {
       "question": "When is the Surabaya ISOPLUS Marathon 2026?",
@@ -84,5 +86,5 @@
   ],
   "related_entity_ids": [],
   "last_updated": "2026-07-31",
-  "status": "active"
+  "status": "needs_review"
 }

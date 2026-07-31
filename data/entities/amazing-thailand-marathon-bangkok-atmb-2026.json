@@ -7,7 +7,7 @@
   "short_description": "A multi-distance road race (42.195km, 21.1km, 10km, 4.5km) held 28 November 2026 at the Royal Grand Palace / Sanam Luang in Bangkok, Thailand.",
   "ai_summary": "The Amazing Thailand Marathon Bangkok (ATMB) takes place on 28 November 2026 at the Royal Grand Palace / Sanam Luang in Bangkok, Thailand. Organized by the Royal Thai Government alongside the Bangkok Metropolitan Administration, Royal Thai Police, World Athletics, and Thailand Tri-League, and presented by TOYOTA, it offers full marathon, half marathon, 10km, and 4.5km distances. Registration is open, with a Public window from 3 July to 31 October 2026 and a Fast Runner window from 1 July to 30 September 2026, priced at USD 23.",
   "core_facts": {
-    "date": "2026-11-28",
+    "date": "2026-11-28 to 2026-11-29",
     "distance_km": [
       42.195,
       21.1,
@@ -32,6 +32,8 @@
     "Registration windows differ between Public and Fast Runner categories, which could confuse entrants"
   ],
   "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
   "faqs": [
     {
       "question": "When is the Amazing Thailand Marathon Bangkok (ATMB) held?",

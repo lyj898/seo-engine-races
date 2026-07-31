@@ -26,7 +26,63 @@
   "cons": [
     "Registration status is listed as Closed, meaning new sign-ups are not currently possible"
   ],
-  "excerpt_quotes": [],
+  "sentiment_scores": {
+    "overall": 76,
+    "breakdown": [
+      {
+        "label": "Course scenery & atmosphere",
+        "score": 85
+      },
+      {
+        "label": "Organisation/logistics",
+        "score": 75
+      },
+      {
+        "label": "Crowd/community support",
+        "score": 80
+      },
+      {
+        "label": "Post-race waste management",
+        "score": 50
+      }
+    ]
+  },
+  "excerpt_quotes": [
+    {
+      "quote": "It offered breathtaking views of Sungai Kuala Kemena and the town, creating a memorable experience, especially for international runners",
+      "attribution": "Bintulu Development Authority GM Muhamad Yakup Kari, quoted in Borneo Post coverage of Bintulu Marathon 2025",
+      "source_url": "https://www.theborneopost.com/2025/08/03/bintulu-marathon-2025-draws-record-8951-runners-from-21-countries/"
+    },
+    {
+      "quote": "the event was lauded for its excellent turnout and smooth execution, it was marred by a disappointing aftermath",
+      "attribution": "Borneo Post news report on litter after Bintulu Marathon 2025",
+      "source_url": "https://www.theborneopost.com/2025/08/08/local-runners-step-up-to-clean-litter-after-bintulu-marathon/"
+    },
+    {
+      "quote": "If you're not near a bin, hold onto your trash until you find one.",
+      "attribution": "Local runner Morrison, quoted in Borneo Post article on post-race litter",
+      "source_url": "https://www.theborneopost.com/2025/08/08/local-runners-step-up-to-clean-litter-after-bintulu-marathon/"
+    },
+    {
+      "quote": "Rasa tidak keseorangan sepanjang larian serta interaksi dengan pelari lain meningkatkan motivasi",
+      "attribution": "First-time half marathon runner's race report on Lemon8",
+      "source_url": "https://www.lemon8-app.com/@juzcallmekb/7535403784974008840?region=my"
+    }
+  ],
+  "research_highlights": [
+    "The 2025/2026 route crosses the newly-built Tun Taib Mahmud Bridge, offering views of Sungai Kuala Kemena and the town, and organisers had a kompang group performing on the bridge for atmosphere.",
+    "Race categories are Full Marathon (42km, 7-hour cut-off), Half Marathon (21.1km, 4-hour cut-off), 10km (2h15m cut-off) and 6km Fun Run (1h30m cut-off) as run in the 2025 edition.",
+    "Race Entry Pack Collection (REPC) for the 2026 edition runs 30 July–1 August 2026 at Boulevard Shopping Mall, Bintulu.",
+    "The event has grown rapidly: from 3,535 finishers in the 2023 inaugural edition, to 5,800 in 2024, to a record 8,951 from 21 countries in 2025, with organisers targeting 10,000 for 2026.",
+    "For 2026, the full and half marathon routes have received AIMS/World Athletics international certification, and the event starts/finishes at the Old Bintulu Airport site."
+  ],
+  "research_watchouts": [
+    "After the 2025 race, litter including used energy gel packets and disposable cups was left scattered along the roadside and bridge despite bins being provided at every water station.",
+    "One runner's account of the 2025 half marathon described having to cope with rain during the race ('cabaran larian dalam hujan'), suggesting wet-weather conditions are possible on race day.",
+    "The Tun Taib Mahmud Bridge section, while scenic, was described by local press as a 'challenging' part of the 2025 route."
+  ],
+  "research_confidence": "medium",
+  "research_last_updated": "2026-07-31",
   "faqs": [
     {
       "question": "When is the Bintulu Marathon 2026 taking place?",
@@ -45,7 +101,7 @@
       "answer": "The Bintulu Marathon 2026 offers two distance options for participants: a full marathon distance of 42.195 km and a half marathon distance of 21.1 km. This allows runners to choose the option that best suits their experience and training level."
     }
   ],
-  "reliability_score": 77,
+  "reliability_score": 72,
   "tags": [
     "full-marathon",
     "malaysia",

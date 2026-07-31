@@ -16,6 +16,7 @@
     ],
     "primary_distance_km": 42.195,
     "registration_status": "open",
+    "price_range": "350–1,000 THB",
     "venue": "Pho Tak, Nong Khai",
     "city": "Nong Khai",
     "country": "Thailand"
@@ -28,6 +29,8 @@
   ],
   "cons": [],
   "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
   "faqs": [
     {
       "question": "When is the Photak Marathon held?",

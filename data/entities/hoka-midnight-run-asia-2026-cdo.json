@@ -28,7 +28,37 @@
   "cons": [
     "Registration status is not yet announced, so sign-up details are unavailable"
   ],
-  "excerpt_quotes": [],
+  "excerpt_quotes": [
+    {
+      "quote": "almost 15,000 runners gathered at the SM Mall of Asia Complex for the second leg of HOKA Midnight Run Asia presented by GOMO – MANILA, following the successful opening leg in Davao last May 31",
+      "attribution": "Philstar.com news coverage of the HOKA Midnight Run Asia series (Manila leg)",
+      "source_url": "https://www.philstar.com/sports/2026/07/22/2543914/heres-everything-happened-hoka-midnight-run-asia-presented-gomo"
+    },
+    {
+      "quote": "The DJs warmed up the strip, and a sea of bibs gathered shoulder to shoulder.",
+      "attribution": "Philstar.com reporter describing the Manila leg atmosphere",
+      "source_url": "https://www.philstar.com/sports/2025/09/08/2471366/nightlife-night-laps-manilas-midnight-run"
+    },
+    {
+      "quote": "HOKA Midnight Run Asia has always been about creating a unique race experience where running, energy, and community come together",
+      "attribution": "RUNRIO president Rio de la Cruz, quoted in MaharlikaNews",
+      "source_url": "https://www.maharlikanews.com/hoka-midnight-run-asia-2026-bound-for-six-cities/"
+    }
+  ],
+  "research_highlights": [
+    "First gunstart for all distances (5K/10K/21K) is at 12:00 AM midnight, so runners need to arrive well before then for check-in and assembly.",
+    "Being held in August (rainy season in Cagayan de Oro), nighttime conditions are described as warm and humid, roughly 24–27°C, with possible passing showers.",
+    "The CDO course is described as running along wide city roads and river-adjacent sections, laid out for steady pacing rather than technical terrain.",
+    "CDO is a new addition to the HOKA Midnight Run Asia calendar for 2026, alongside Iloilo and Clark, as the series expands from its original Manila/Davao/Cebu legs.",
+    "Sibling legs of the same series have drawn large crowds — the 2026 Manila leg alone gathered close to 15,000 runners, following an earlier Davao opening leg."
+  ],
+  "research_watchouts": [
+    "No refund or transfer of entry fee is given if the race is cancelled due to rain, storm, or other weather-related force majeure — a real risk given the rainy-season timing.",
+    "As a brand-new venue for the series, no participant reviews for the CDO leg specifically were found yet (aggregator pages like Worlds Marathons show 'No reviews yet' for this race).",
+    "Race bibs are non-transferable, so plans need to be firm once registered."
+  ],
+  "research_confidence": "low",
+  "research_last_updated": "2026-07-31",
   "faqs": [
     {
       "question": "When is the HOKA Midnight Run Asia 2026 - CDO taking place?",
@@ -47,7 +77,7 @@
       "answer": "Registration for the HOKA Midnight Run Asia 2026 - CDO has not yet been announced. Prospective participants will need to wait for further updates from the organizer, Runrio, regarding sign-up details, deadlines, and any related registration information for this event."
     }
   ],
-  "reliability_score": 75,
+  "reliability_score": 70,
   "tags": [
     "half-marathon",
     "philippines",

@@ -42,7 +42,37 @@
       }
     ]
   },
-  "excerpt_quotes": [],
+  "excerpt_quotes": [
+    {
+      "quote": "There is no more significant event in Timor-Leste... Everyone gets involved, through participating, cheering runners on, or coming out from the districts.",
+      "attribution": "Manuel da Costa Lake, Timor-Leste national running team's coach and mentor, quoted by UNFPA Timor-Leste",
+      "source_url": "https://timor-leste.unfpa.org/en/news/dili-marathon-and-run-peace"
+    },
+    {
+      "quote": "It's a shame",
+      "attribution": "Captain Shane Granger of the humanitarian vessel The Vega, describing plastic bottle litter after the 2010 race, quoted in Gaia Discovery",
+      "source_url": "https://www.gaiadiscovery.com/arts-music-festivals/timor-leste-marathon-a-leap-for-communities-peace-hope.html"
+    },
+    {
+      "quote": "The 2025 Dili International Marathon is one of the greatest we have organized, with a fair displaying food from different ASEAN countries, including Timor-Leste.",
+      "attribution": "President José Ramos-Horta, closing remarks reported by TATOLI",
+      "source_url": "https://en.tatoli.tl/2025/10/11/2025-dili-international-marathon-unites-thousands-of-runners-in-run-for-palestine/11/"
+    }
+  ],
+  "research_highlights": [
+    "Established in 2010 as part of the 'Dili City of Peace' campaign, making it one of Timor-Leste's longest-running international sporting events, per official presidential press releases.",
+    "The 2026 edition (the 10th) is fixed for 8 August 2026 and includes a Full Marathon (42.195km), Half Marathon (21.1km), 10km Para-Athletics race, and 5km Fun Run.",
+    "All races start and finish at the Nicolau Lobato Presidential Palace on Dili's waterfront, per TATOLI coverage of the 2025 edition.",
+    "Organisers have moved to a fixed annual date (second week of August) starting in 2026, aiming to end previous scheduling uncertainty, according to a presidential press release.",
+    "The event has historically drawn thousands of runners and community participants, with the 2012 edition reporting almost 8,000 people across the marathon, half marathon, and 'Run for Peace' events."
+  ],
+  "research_watchouts": [
+    "An independent report on the inaugural 2010 race documented significant litter problems: plastic water bottles, cans, and Styrofoam packaging were left behind with no recycling bins available, and a nearby boat captain described waking up to bottles floating in the harbor the next day.",
+    "The same report noted Timor-Leste had no waste treatment plant or recycling facilities at the time, a broader infrastructure gap flagged as a concern for large events like the marathon.",
+    "Recent editions are largely covered through official government/presidential press releases and sponsor announcements rather than independent participant race reports, so first-hand accounts of course conditions, aid stations, or heat management for the 2024-2026 editions are scarce in public sources."
+  ],
+  "research_confidence": "low",
+  "research_last_updated": "2026-07-31",
   "faqs": [
     {
       "question": "When is the Dili International Marathon 2026?",
@@ -57,7 +87,7 @@
       "answer": "The event offers four distances: a Full Marathon (42.195km), a Half Marathon (21.1km), a Para 10K category, and a 5K Fun Run. This range makes the event accessible to competitive marathoners, first-time half-marathon runners, para-athletes, and casual participants at the same race weekend."
     }
   ],
-  "reliability_score": 75,
+  "reliability_score": 60,
   "tags": [
     "full-marathon",
     "half-marathon",

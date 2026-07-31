@@ -1,0 +1,69 @@
+{
+  "entity_id": "byd-singapore-international-marathon-by-adidas",
+  "slug": "byd-singapore-international-marathon-by-adidas",
+  "name": "BYD Singapore International Marathon by Adidas",
+  "category_id": "full-marathon",
+  "region_id": "singapore",
+  "short_description": "A Gold Label road marathon in Singapore offering 42.195km, 21.0975km, 10K, and 5K distances, with Boston qualifying status.",
+  "ai_summary": "The BYD Singapore International Marathon by Adidas is a road race held in Singapore, offering a full marathon along with half marathon, 10K, and 5K distances. It carries World Athletics Gold Label and World Athletics Label status, and is recognized as both a World Marathon Majors qualifier and a Boston Qualifying race. The 2026 edition takes place on December 6.",
+  "core_facts": {
+    "date": "2026-12-06",
+    "distance_km": [
+      5,
+      10,
+      21.0975,
+      42.195
+    ],
+    "primary_distance_km": 42.195,
+    "city": "Singapore",
+    "country": "Singapore"
+  },
+  "pros": [
+    "Offers a full range of distances from 5K to full marathon",
+    "Counts as a Boston Qualifying race",
+    "Holds World Athletics Gold Label status, reflecting a high-caliber event"
+  ],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "Can this race be used to qualify for the Boston Marathon?",
+      "answer": "Yes, the BYD Singapore International Marathon by Adidas is designated as a Boston Qualifying race, meaning runners who meet the required time standards for their age and gender in the marathon distance can use their finishing time to apply for entry into the Boston Marathon."
+    },
+    {
+      "question": "What distances are offered at this event?",
+      "answer": "The event includes four distances: a 5K, a 10K, a half marathon of 21.0975 kilometers, and a full marathon of 42.195 kilometers. This range allows participants of different experience levels and goals to take part in the same overall race weekend."
+    },
+    {
+      "question": "Is this a World Athletics Gold Label race?",
+      "answer": "Yes, the race holds World Athletics Gold Label status, which is one of the highest classifications World Athletics gives to road races. It also carries the broader World Athletics Label designation, alongside recognition as a World Marathon Majors qualifying event."
+    },
+    {
+      "question": "When and where does the race take place?",
+      "answer": "The BYD Singapore International Marathon by Adidas is scheduled for December 6, 2026, and takes place in Singapore. The race is part of the Road Running category and includes multiple distance options for participants attending the event that day."
+    }
+  ],
+  "reliability_score": 40,
+  "tags": [
+    "Road Running",
+    "World Marathon Majors Qualifiers",
+    "Boston Qualifying Races",
+    "World Athletics Gold Label",
+    "World Athletics Label"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.finishers.com/en/destinations/asia/singapore",
+      "label": "www.finishers.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-31"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-31",
+  "status": "needs_review"
+}

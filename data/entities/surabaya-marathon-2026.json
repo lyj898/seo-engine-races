@@ -29,7 +29,27 @@
     "Registration does not open until March 2026, months before the race, so early sign-up isn't possible",
     "No information provided on pricing, course route, or amenities"
   ],
-  "excerpt_quotes": [],
+  "excerpt_quotes": [
+    {
+      "quote": "Saya baru pertama berkunjung ke Surabaya dan baru pertama mengikuti Surabaya Marathon ini. Saya sangat senang dan bangga",
+      "attribution": "Bernard Mwendia Muthoni, 2018 men's open marathon winner, quoted in ANTARA News Jawa Timur",
+      "source_url": "https://jatim.antaranews.com/berita/261246/juara-surabaya-marathon-2018-didominasi-pelari-asal-kenya"
+    }
+  ],
+  "research_highlights": [
+    "The event traces back to 2017 and was held in 2017, 2018 and 2019 before pausing during the pandemic; 2026 marks its comeback under new organisers with Le Minerale as title sponsor.",
+    "2026 edition offers four distances — 5K, 10K, Half Marathon (21K) and Full Marathon (42K) — starting/finishing at Parkir Timur Plaza Surabaya on Jl. Pemuda.",
+    "Official cut-off times are 1h30 for 5K, 2h for 10K, 3h30 for the half marathon, and 7h for the full marathon.",
+    "Past editions grew quickly in size: participation rose from roughly 3,000 runners in the first year to 4,400 in year two and over 6,000 by the 2019 edition, with heavy police traffic support (532 officers deployed in 2019).",
+    "Course design is a 'City Run' concept looping through central Surabaya past historic landmarks, with the 2019 full marathon route passing main roads including Jalan Ahmad Yani, Indragiri, Darmo and the HR Muhammad underpass."
+  ],
+  "research_watchouts": [
+    "The full marathon in past editions started very early (around 4:40am) due to Surabaya's heat, so runners should expect an early wake-up and check current-year start times.",
+    "As a large city-street event, expect road closures and heavy traffic management (hundreds of police personnel deployed in past editions), so plan arrival and logistics accordingly.",
+    "Genuine participant race reports (independent of official/organiser or news-agency coverage) for the Surabaya Marathon brand specifically are scarce online, so course-condition and crowd-support details beyond official/press descriptions are limited."
+  ],
+  "research_confidence": "low",
+  "research_last_updated": "2026-07-31",
   "faqs": [
     {
       "question": "When does registration open for the Surabaya Marathon 2026?",
@@ -48,7 +68,7 @@
       "answer": "The Surabaya Marathon 2026 is scheduled to take place on 2 August 2026 in Surabaya, Indonesia. Runners across all four distance categories will start from the same venue, Parkir Timur Plaza Surabaya, on this date."
     }
   ],
-  "reliability_score": 82,
+  "reliability_score": 85,
   "tags": [
     "full-marathon",
     "indonesia",

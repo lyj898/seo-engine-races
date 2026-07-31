@@ -11,7 +11,9 @@
     "distance_km": [
       42.195,
       21.1,
-      10
+      10,
+      5,
+      2
     ],
     "primary_distance_km": 42.195,
     "registration_status": "not_yet_announced",
@@ -28,6 +30,8 @@
     "Registration status is not yet announced, so sign-up details are unavailable at this time"
   ],
   "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
   "faqs": [
     {
       "question": "When is the Khao Yai Marathon 2027 taking place?",
@@ -76,5 +80,5 @@
   ],
   "related_entity_ids": [],
   "last_updated": "2026-07-31",
-  "status": "active"
+  "status": "needs_review"
 }

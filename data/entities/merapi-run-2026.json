@@ -31,7 +31,32 @@
     "The 21.1km course includes 493m of elevation gain, which may be demanding for some runners",
     "Registration does not open until 6 May 2026, requiring advance planning"
   ],
-  "excerpt_quotes": [],
+  "excerpt_quotes": [
+    {
+      "quote": "Saya sendiri sungguh merasa sangat lega setelah kurang lebih 6 KM dihajar dengan tanjakan-tanjakan yang tidak ada habisnya.",
+      "attribution": "Participant race review (10K), Jarwadi's blog",
+      "source_url": "https://jarwadi.me/2022/04/04/race-review-menikmati-lari-di-merapi-run-2022/"
+    },
+    {
+      "quote": "2 KM turunan merupakan berkah bagi siapapun, termasuk kami, yang ingin tampil manis di garis finish.",
+      "attribution": "Participant race review (10K), Jarwadi's blog",
+      "source_url": "https://jarwadi.me/2022/04/04/race-review-menikmati-lari-di-merapi-run-2022/"
+    }
+  ],
+  "research_highlights": [
+    "A first-hand 2022 10K race report describes roughly the first ~6 km as continuous uphill climbing on the Merapi-slope course, before easing into about 2 km of downhill near the finish, with a timing checkpoint at the well-known Telogo Putri spot in Kaliurang.",
+    "Organizer FAQ states the route is 100% asphalt, so road shoes rather than trail shoes are recommended despite the mountain setting.",
+    "For the 2026 edition, flag-off times are staggered early in the morning: 21K at 05:00, 10K at 05:30, 5K at 05:45, and 3K Fun Run at 06:00 WIB, with cut-off times of 4h/3h/2h/1.5h respectively.",
+    "Race pack collection for 2026 is scheduled for 7–8 August (Fri–Sat) 10:00–18:00 WIB at Griya Persada Convention Hotel & Resort in Kaliurang, the same venue as start/finish.",
+    "Griya Persada's event FAQ notes a drop-bag baggage service is available at the Race Village, and a mosque/mushola is available near the start (about 300m north of the hotel)."
+  ],
+  "research_watchouts": [
+    "One participant's account of the 10K route described being hit with near-continuous uphill sections for about 6 km before any relief, so the course profile is genuinely hilly rather than a flat scenic jog.",
+    "It's a road race, not a trail race, despite the mountain/forest imagery in promotion -- organizers explicitly advise road shoes over trail shoes.",
+    "Registration terms note that participants take on responsibility for risks related to weather, terrain, and course conditions themselves, and entry fees are non-refundable."
+  ],
+  "research_confidence": "medium",
+  "research_last_updated": "2026-07-31",
   "faqs": [
     {
       "question": "Where is Merapi Run 2026 held?",
@@ -50,7 +75,7 @@
       "answer": "Registration for Merapi Run 2026 opens on 6 May 2026. Interested runners should mark this date to ensure timely sign-up, as prices range from Rp 200.000 to Rp 500.000 depending on the chosen distance among the four options offered."
     }
   ],
-  "reliability_score": 82,
+  "reliability_score": 85,
   "tags": [
     "half-marathon",
     "indonesia",

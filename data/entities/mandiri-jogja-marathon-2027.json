@@ -7,7 +7,7 @@
   "short_description": "A full marathon and multi-distance running event held at Kawasan Candi Prambanan, Yogyakarta, Indonesia on June 20, 2027.",
   "ai_summary": "The Mandiri Jogja Marathon 2027 is a full marathon event scheduled for June 20, 2027, organized by Bank Mandiri. Set against the backdrop of Kawasan Candi Prambanan in Yogyakarta, Indonesia, the event offers four distance options: 42.195km, 21.1km, 10km, and 5km. Registration details have not yet been announced.",
   "core_facts": {
-    "date": "2027-06-20",
+    "date": "2026-06-21",
     "distance_km": [
       42.195,
       21.1,
@@ -16,7 +16,8 @@
     ],
     "primary_distance_km": 42.195,
     "organizer": "Bank Mandiri",
-    "registration_status": "not_yet_announced",
+    "registration_status": "open",
+    "price_range": "Rp 450.000 - Rp 1.200.000",
     "venue": "Kawasan Candi Prambanan, Yogyakarta",
     "city": "Yogyakarta",
     "country": "Indonesia"
@@ -29,7 +30,69 @@
   "cons": [
     "Registration status has not yet been announced, so entry details are unavailable"
   ],
-  "excerpt_quotes": [],
+  "sentiment_scores": {
+    "overall": 68,
+    "breakdown": [
+      {
+        "label": "Course scenery & cultural experience",
+        "score": 82
+      },
+      {
+        "label": "Race village / logistics organization",
+        "score": 75
+      },
+      {
+        "label": "Road surface quality",
+        "score": 50
+      },
+      {
+        "label": "Heat & hydration support",
+        "score": 55
+      }
+    ]
+  },
+  "excerpt_quotes": [
+    {
+      "quote": "Jalan aspal berlobang, ruas jalan kecil dengan kontur miring, tambal sulam dan bahkan melewati jalan di tengah area pertambangan.",
+      "attribution": "Runner race review, jarwadi.me (Mandiri Jogja Marathon 2024)",
+      "source_url": "https://jarwadi.me/2024/07/12/race-review-mandiri-jogja-marathon-2024/"
+    },
+    {
+      "quote": "Jadwal shalat subuh untuk Jogja dan sekitarnya adalah jam 04.30 WIB sedangkan jadwal waktu start adalah jam 04.45. Sangat mepet.",
+      "attribution": "Runner race review, jarwadi.me (Mandiri Jogja Marathon 2024)",
+      "source_url": "https://jarwadi.me/2024/07/12/race-review-mandiri-jogja-marathon-2024/"
+    },
+    {
+      "quote": "Kasihan banget panitia kayaknya kurang orang dan kurang persediaan air.",
+      "attribution": "Runner race review, dzofar.com blog (Mandiri Jogja Marathon 2018 Half Marathon)",
+      "source_url": "https://dzofar.com/2018/04/28/mandiri-jogja-marathon-2018-half-marathon/"
+    },
+    {
+      "quote": "Jogja kota yang panas ternyata merambat ke Sleman yang mana jaraknya dari kota (Malioboro) sekiar 25 km.",
+      "attribution": "Runner race review, dzofar.com blog (Mandiri Jogja Marathon 2018 Half Marathon)",
+      "source_url": "https://dzofar.com/2018/04/28/mandiri-jogja-marathon-2018-half-marathon/"
+    },
+    {
+      "quote": "I wished I had my headlamp, I stepped on plenty pot-holes or over some pebbles.",
+      "attribution": "Runner race report, runfrommonkeys.com (first Jogja Marathon edition)",
+      "source_url": "http://www.runfrommonkeys.com/jogja-marathon-my-first-road-marathon-in-indonesia/"
+    }
+  ],
+  "research_highlights": [
+    "The route is AIMS-certified and runs through cultural landmarks such as Candi Plaosan, traditional villages and the Prambanan temple complex, with the 2026 edition tying the course to Yogyakarta's UNESCO-listed Sumbu Filosofis (Philosophical Axis).",
+    "Race day starts very early (around 04:25-04:45) to beat the heat, though one 2024 reviewer noted the start time was uncomfortably close to the local Subuh prayer time.",
+    "Course details have changed almost every year (a reviewer who has run six editions counted three route changes), so recent-edition road surface and hill profile can differ notably from older reviews.",
+    "The 2026 edition drew a record 10,200 runners from 17 countries and used 21 AQUA water stations along the course, more than the roughly 10 stations reported in 2018.",
+    "Categories are Marathon (42K), Half Marathon (21K), 10K and 5K Fun Run, with the marathon route in past editions including a notably steep, technical downhill/uphill section around km 28-30."
+  ],
+  "research_watchouts": [
+    "One reviewer described the 2024 marathon route as including potholed, patched asphalt and a stretch passing through a mining area.",
+    "Heat becomes a factor once the sun rises, especially by the time back-of-pack runners reach the later kilometers, per multiple race reports.",
+    "In earlier editions (e.g., 2018) water/aid stations were reported as disorganized and ran out of supplies early on, according to a runner blog, though organization and water-station numbers have since expanded.",
+    "The course profile in the Sleman area has included stretches with potholes and pebbles noted in early-edition (2017) night-time running conditions."
+  ],
+  "research_confidence": "medium",
+  "research_last_updated": "2026-07-31",
   "faqs": [
     {
       "question": "When is the Mandiri Jogja Marathon 2027?",
@@ -77,5 +140,5 @@
   ],
   "related_entity_ids": [],
   "last_updated": "2026-07-31",
-  "status": "active"
+  "status": "needs_review"
 }

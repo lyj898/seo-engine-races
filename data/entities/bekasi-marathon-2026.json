@@ -28,7 +28,59 @@
   "cons": [
     "Registration status is only 'Announced', so full registration details are not yet available"
   ],
-  "excerpt_quotes": [],
+  "sentiment_scores": {
+    "overall": 68,
+    "breakdown": [
+      {
+        "label": "Course & organisation",
+        "score": 75
+      },
+      {
+        "label": "Transport/logistics access",
+        "score": 45
+      },
+      {
+        "label": "Weather conditions",
+        "score": 50
+      }
+    ]
+  },
+  "excerpt_quotes": [
+    {
+      "quote": "Jalanan cukup steril dibatesin cone, banyak pepohonan pinggir jalan, muter2in perumahan, ruko dan kawasan sekitaran Harapan Indah.",
+      "attribution": "Runner reply on Threads thread asking for Bekasi Marathon reviews",
+      "source_url": "https://www.threads.com/@jetssmala/post/DXjXnK8j6z5/info-review-bekasi-marathon-dong-guys-yang-sudah-pernah-worth-it-kah-eventnya"
+    },
+    {
+      "quote": "WS aman banget per 2.5km. Minesnya agak jauh dr transum.",
+      "attribution": "Runner reply on Threads thread asking for Bekasi Marathon reviews",
+      "source_url": "https://www.threads.com/@jetssmala/post/DXjXnK8j6z5/info-review-bekasi-marathon-dong-guys-yang-sudah-pernah-worth-it-kah-eventnya"
+    },
+    {
+      "quote": "Tahun lalu race februari diguyur hujan wkwkwk. Tapi emang kalo Agustus biasanya panas bekasi pada umumnya",
+      "attribution": "Runner reply on Threads thread asking for Bekasi Marathon reviews",
+      "source_url": "https://www.threads.com/@jetssmala/post/DXjXnK8j6z5/info-review-bekasi-marathon-dong-guys-yang-sudah-pernah-worth-it-kah-eventnya"
+    },
+    {
+      "quote": "Meski dikenal dengan cuaca yang panas, rute Full Marathon (FM) di Bekasi Marathon 2025 menawarkan jalur yang cukup flat dan dipenuhi pepohonan rindang.",
+      "attribution": "Race recap article on ceritapelari.com",
+      "source_url": "https://ceritapelari.com/bekasi-marathon-2025-sukses-digelar-hadirkan-2025-peserta/"
+    }
+  ],
+  "research_highlights": [
+    "Course loops through the Kota Harapan Indah residential/shophouse area, with cone-separated roads and tree-lined streets, compared by one runner to the feel of races in BSD.",
+    "Water stations are placed roughly every 2.5km along the route, according to a participant review.",
+    "Cut-off times are strict: Full Marathon 6 hours (flag off 04:00 WIB), Half Marathon 3h30m (05:00 WIB), 10K 2 hours (05:45 WIB), 5K 1h30m (06:00 WIB).",
+    "The venue is far from public transport — the nearest train station (Kranji) is about 9km away, and a TransJakarta route to the area only runs for the return trip, not the outbound journey, per a runner's account.",
+    "The 2025 edition (held in February, with 2,025 participants) was hit by rain at the start, whereas the August date typically brings hot weather to Bekasi according to runner comments."
+  ],
+  "research_watchouts": [
+    "August races in Bekasi are reported as typically hot, which can be tough on a mostly flat, exposed course.",
+    "Getting to the venue without a car or motorbike is inconvenient; public transit options near Kota Harapan Indah are limited and the nearest station is roughly 9km away.",
+    "Cut-off times are described as strict, particularly for the Full Marathon, and were highlighted as the main challenge in the 2025 edition."
+  ],
+  "research_confidence": "medium",
+  "research_last_updated": "2026-07-31",
   "faqs": [
     {
       "question": "When is the Bekasi Marathon 2026 taking place?",
@@ -47,7 +99,7 @@
       "answer": "As of the latest information, the registration status for the Bekasi Marathon 2026 is listed as 'Announced'. This indicates the event has been confirmed, though specific registration opening dates and details have not yet been provided."
     }
   ],
-  "reliability_score": 82,
+  "reliability_score": 85,
   "tags": [
     "full-marathon",
     "indonesia",

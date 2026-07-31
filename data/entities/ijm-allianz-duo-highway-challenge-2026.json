@@ -40,7 +40,37 @@
       }
     ]
   },
-  "excerpt_quotes": [],
+  "excerpt_quotes": [
+    {
+      "quote": "What a beautiful experience - running past 2 toll plazas without having to pay tolls! No cars, only human traffic and no tolls!",
+      "attribution": "Runner race report on Vincent Khor's blog (Full Marathon No. 39: Duo Highway Challenge 2025)",
+      "source_url": "http://vincentkhor.blogspot.com/2025/08/full-marathon-no-39-duo-highway.html"
+    },
+    {
+      "quote": "REPC was held at 3 Damansara. The whole process was fast.",
+      "attribution": "Runner race report on Vincent Khor's blog",
+      "source_url": "http://vincentkhor.blogspot.com/2025/08/full-marathon-no-39-duo-highway.html"
+    },
+    {
+      "quote": "Entry pack was awesome - high quality vest, towel and eco bag.",
+      "attribution": "Runner race report on Vincent Khor's blog",
+      "source_url": "http://vincentkhor.blogspot.com/2025/08/full-marathon-no-39-duo-highway.html"
+    }
+  ],
+  "research_highlights": [
+    "2026 edition (8th edition) is a World Athletics/AIMS-certified course run across two fully closed highways: New Pantai Expressway (NPE/E10) and Besraya (E9), starting/finishing at Sunway Pyramid.",
+    "Four distances offered: 5KM, 10KM, 21KM (Half Marathon) and 42.195KM (Full Marathon), with organizers targeting around 15,000 participants for 2026.",
+    "Full marathon flag-off is very early (around 3am) with half marathon runners required at the start line before 5:30am and 10K starting an hour later, reflecting the pre-dawn timing typical of highway closures in Malaysia.",
+    "Race pack collection for the 2026 edition is at Sunway Pyramid Convention Centre (Level CP3), held on the Friday and Saturday before race day.",
+    "The NPE and Besraya highways are fully closed to vehicle traffic overnight and into race morning (from 11pm the night before until around 10am on race day), and the Sunway area gets congested with runners' parked cars on race morning."
+  ],
+  "research_watchouts": [
+    "The very early flag-off times (3am for the full marathon) mean runners need to plan travel/sleep and parking well in advance.",
+    "Parking around Sunway Pyramid is reported to get congested on race morning due to the volume of runners' cars in the area.",
+    "One returning runner's account is largely about logistics and organisation rather than course scenery or crowd support, so first-hand accounts of on-course atmosphere or spectator crowds are limited in what's publicly available."
+  ],
+  "research_confidence": "medium",
+  "research_last_updated": "2026-07-31",
   "faqs": [
     {
       "question": "When is the IJM Allianz Duo Highway Challenge 2026?",
@@ -55,7 +85,7 @@
       "answer": "As of the last verification on 16 July 2026, no registration link or entry pricing had been published for this race. Runners interested in taking part should monitor the official website directly for registration announcements closer to the 2 August 2026 event date."
     }
   ],
-  "reliability_score": 85,
+  "reliability_score": 88,
   "tags": [
     "half-marathon",
     "malaysia",

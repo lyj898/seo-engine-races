@@ -29,7 +29,64 @@
     "Held at Filinvest Alabang, a defined and accessible venue in Muntinlupa"
   ],
   "cons": [],
-  "excerpt_quotes": [],
+  "sentiment_scores": {
+    "overall": 72,
+    "breakdown": [
+      {
+        "label": "Atmosphere/community feel",
+        "score": 82
+      },
+      {
+        "label": "Course conditions (Alabang course)",
+        "score": 78
+      },
+      {
+        "label": "Logistics (parking/registration)",
+        "score": 55
+      },
+      {
+        "label": "Heat/weather",
+        "score": 50
+      }
+    ]
+  },
+  "excerpt_quotes": [
+    {
+      "quote": "despite a little challenge with parking—we arrived early only to find the designated areas still closed—we were fortunate to find a spot at Crimson Hotel, just in time",
+      "attribution": "Participant race report (Mommy Levy blog) on the 2025 Alabang/Manila leg",
+      "source_url": "https://mommylevy.com/2025/06/together-we-run-eastwest-ends-anniversary-celebration-with-a-colorful-dream-run-finale-in-alabang.html"
+    },
+    {
+      "quote": "It was refreshing and fun—a nice reward after completing 5KM under the sun.",
+      "attribution": "Participant race report (Mommy Levy blog) on the 2025 Alabang/Manila leg",
+      "source_url": "https://mommylevy.com/2025/06/together-we-run-eastwest-ends-anniversary-celebration-with-a-colorful-dream-run-finale-in-alabang.html"
+    },
+    {
+      "quote": "There's a genuine sense of heart behind the Dream Run. It's designed with thought, it's inclusive, and you can feel how personal the experience is for many runners",
+      "attribution": "Rio de la Cruz, RUNRIO founder and CEO, quoted in Philstar.com",
+      "source_url": "https://www.philstar.com/sports/2025/05/17/2443775/eastwest-dream-run-seeks-end-bang-alabang"
+    },
+    {
+      "quote": "a course that regulars already love for its tree cover and walkable, traffic-light stretches, which for once means a race morning that doesn't feel like dodging jeepneys mid-stride",
+      "attribution": "Local running/fitness blog (#FitnessPH, ohohleo.ph) commentary on the Alabang course",
+      "source_url": "https://www.ohohleo.ph/2026/07/EastWestDreamRun.html"
+    }
+  ],
+  "research_highlights": [
+    "The Manila leg is held in Filinvest City, Alabang (Muntinlupa), a course described by a local blog as tree-lined and walkable with traffic-light-controlled stretches rather than open traffic.",
+    "Categories on offer are 1K Dog Run, 3K, 5K, 10K, and 21K, so the event is designed to accommodate everyone from first-timers and pet owners to more serious 21K runners.",
+    "The first edition (2025, held across Davao, Cebu and Manila/Alabang) drew a large turnout — around 14,000 runners overall, with over 6,000 at the Davao and Cebu legs combined and a strong crowd again at the Alabang finale.",
+    "After finishing, there is a race village/post-race area with live music, food (free taho and sorbetes were given out in 2025), booths, and activities like Zumba, extending the event beyond just the run.",
+    "Race organizer is RUNRIO, an established Philippine race management outfit, running courses measured to RUNRIO standards with marshaled/barricaded routes."
+  ],
+  "research_watchouts": [
+    "Parking near the venue can be tight even for early arrivals — one 2025 participant found designated race parking still closed on arrival and had to park at a nearby hotel instead.",
+    "Race takes place in the heat of the Philippine morning sun; a 2025 participant specifically noted finishing 'under the sun' as a physical challenge.",
+    "Course/route safety rules are strict: participants who fail to keep pace are picked up by an ambulance from around 7:00am and are automatically disqualified if not finished by then.",
+    "No wheelchairs, bikes, skates, or strollers are permitted on the race route, which may affect participants planning to bring family with those items."
+  ],
+  "research_confidence": "low",
+  "research_last_updated": "2026-07-31",
   "faqs": [
     {
       "question": "When is the EastWest Dream Run 2026 - Manila?",
@@ -48,7 +105,7 @@
       "answer": "The EastWest Dream Run is organized by Runrio, which operates the event under the EastWest Dream Run brand name. Runrio manages the race details, including registration, venue coordination at Filinvest Alabang, and the multiple distance categories offered to participants."
     }
   ],
-  "reliability_score": 80,
+  "reliability_score": 83,
   "tags": [
     "half-marathon",
     "philippines",

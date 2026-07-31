@@ -1,0 +1,68 @@
+{
+  "entity_id": "angkor-empire-marathon",
+  "slug": "angkor-empire-marathon",
+  "name": "Angkor Empire Marathon",
+  "category_id": "full-marathon",
+  "region_id": "cambodia",
+  "short_description": "A marathon (plus shorter distance options) run through Siem Reap, Cambodia, near the Angkor temples, offering a Boston Qualifying marathon distance.",
+  "ai_summary": "The Angkor Empire Marathon takes place in Siem Reap, Cambodia, home to the Angkor temple complex, on August 2, 2026. Runners can choose between a 3km, 10km, half marathon, or full marathon distance, making it accessible to a range of abilities and travel plans. The event is also listed as a Boston Qualifying race, giving the marathon distance added significance for competitive runners. Its setting places the race firmly in the realm of culture-and-history-themed running events.",
+  "core_facts": {
+    "date": "2026-08-02",
+    "distance_km": [
+      3,
+      10,
+      21.0975,
+      42.195
+    ],
+    "primary_distance_km": 42.195,
+    "city": "Siem Reap",
+    "country": "Cambodia"
+  },
+  "pros": [
+    "Multiple distance options (3km, 10km, half marathon, marathon) suit different fitness levels",
+    "Marathon distance qualifies as a Boston Qualifying race",
+    "Set in Siem Reap, Cambodia, near the Angkor temple complex, appealing to culture-focused travelers"
+  ],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "Where does the Angkor Empire Marathon take place?",
+      "answer": "The race is held in Siem Reap, Cambodia, a city known for its proximity to the Angkor temple complex. This location gives the event a strong cultural and historical backdrop, making it appealing to runners who want to combine racing with sightseeing in a historically significant area."
+    },
+    {
+      "question": "What distances can I run?",
+      "answer": "The event offers four distance options: a 3km, a 10km, a half marathon (21.0975km), and a full marathon (42.195km). This range allows casual participants, families, and serious competitive runners to all take part in the same event on the same day."
+    },
+    {
+      "question": "Is this race a Boston Qualifier?",
+      "answer": "Yes, the Angkor Empire Marathon is listed among Boston Qualifying Races. This means runners completing the full marathon distance here may be able to use their finishing time toward Boston Marathon qualification standards, adding extra motivation for competitive entrants."
+    },
+    {
+      "question": "When is the Angkor Empire Marathon held?",
+      "answer": "The race is scheduled for August 2, 2026, in Siem Reap, Cambodia. Runners planning to participate should account for this date well in advance, especially if traveling internationally to combine the race with time exploring the surrounding Angkor region."
+    }
+  ],
+  "reliability_score": 40,
+  "tags": [
+    "Road Running",
+    "Exceptional monuments",
+    "Culture & Histoire",
+    "Boston Qualifying Races"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.finishers.com/en/destinations/asia/cambodia",
+      "label": "www.finishers.com",
+      "type": "aggregator",
+      "last_checked": "2026-07-31"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-07-31",
+  "status": "needs_review"
+}

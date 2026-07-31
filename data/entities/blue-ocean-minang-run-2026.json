@@ -11,7 +11,9 @@
     "distance_km": [
       21.1,
       10,
-      5
+      5,
+      2,
+      1
     ],
     "primary_distance_km": 21.1,
     "registration_status": "Sold Out",
@@ -28,6 +30,16 @@
     "Registration status is Sold Out, meaning new participants cannot currently sign up"
   ],
   "excerpt_quotes": [],
+  "research_highlights": [
+    "The 2026 edition runs Sunday, 9 August 2026, starting 05:00 WIB, based along Pantai Padang (Danau Cimpago area), with distance categories of 1K, 2K, 5K, 10K and 21K.",
+    "The half-marathon (21K/UMUM) is described by organizers as the most demanding category, crossing hills and an iconic bridge: \"Rute yang paling menantang dan menguji stamina pelari melalui tanjakan dan ikon wilayah Kota Padang.\"",
+    "Cut-off times listed by organizers: 2K Kids 1 hour, 1K Lansia (single/double) 30 minutes, 5K Enjoy 1.5 hours, and 10K Eksotis 2.5 hours.",
+    "In the 2025 edition, the route went from Pantai Purus through the old town (Kota Tua) and Gunung Padang before finishing back at Pantai Purus.",
+    "Ahead of the 2025 race, the Padang public works department carried out drainage and road-patching work on flood-prone stretches (e.g. near Rusunawa and Hotel Mercure) specifically to smooth the route for runners."
+  ],
+  "research_watchouts": [],
+  "research_confidence": "low",
+  "research_last_updated": "2026-07-31",
   "faqs": [
     {
       "question": "When is the Blue Ocean Minang Run 2026 taking place?",

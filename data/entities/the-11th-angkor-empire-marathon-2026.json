@@ -25,7 +25,59 @@
   "cons": [
     "Registration status is not yet announced, so entry details are currently unavailable"
   ],
-  "excerpt_quotes": [],
+  "sentiment_scores": {
+    "overall": 68,
+    "breakdown": [
+      {
+        "label": "Course scenery/uniqueness",
+        "score": 85
+      },
+      {
+        "label": "Heat and humidity conditions",
+        "score": 40
+      },
+      {
+        "label": "Crowd support/atmosphere",
+        "score": 55
+      },
+      {
+        "label": "Early start logistics",
+        "score": 45
+      }
+    ]
+  },
+  "excerpt_quotes": [
+    {
+      "quote": "This is a small marathon run through Siem Reap and Ankor Wat. The course is flat and easy but the humidity ate me up along with a 4am arrival to start at 4:30 am. The start was really dark for the first few miles..",
+      "attribution": "Runner review on RaceRaves",
+      "source_url": "https://raceraves.com/races/angkor-empire-full-half-marathon/"
+    },
+    {
+      "quote": "Not many spectators but the local kids will break your heart as they are so excited to see the runners and try to run with you for a short distance..",
+      "attribution": "Runner review on RaceRaves",
+      "source_url": "https://raceraves.com/races/angkor-empire-full-half-marathon/"
+    },
+    {
+      "quote": "The scenic route of the Angkor Empire Marathon is proving a big drawcard for serious runners and tourists from far and wide",
+      "attribution": "South China Morning Post feature on Cambodia's Angkor marathons",
+      "source_url": "https://www.scmp.com/postmag/native/topics/marathon-wins-cambodia-tourism/article/3355833/why-cambodias-angkor-marathons-are-big-winner-runners-around-world"
+    }
+  ],
+  "research_highlights": [
+    "Course is flat and mostly paved, running through Angkor Archaeological Park past nearly 40 ancient temples including Bayon and the South Gate of Angkor Thom",
+    "Race starts at 4:30 AM in front of Angkor Wat, so the first stretch of the course is run in darkness",
+    "August timing means heat and especially humidity are a major factor; the 2025 edition drew over 4,000 runners from 51 countries and 2026 organisers expect around 4,500",
+    "Four distance options (3km, 10km, half marathon, marathon), with the full and half marathon AIMS-recognised/certified courses",
+    "Local children along the route are reported as an enthusiastic, memorable part of the atmosphere even where formal spectator crowds are thin"
+  ],
+  "research_watchouts": [
+    "Humidity is repeatedly flagged by runners as the toughest element of the race, even though the course itself is flat and easy",
+    "Very early 4:30 AM start means a pre-3 AM wake-up and a dark first few kilometres with limited visibility",
+    "Outside the main Angkor Wat start/finish area, spectator support along the course is reportedly sparse",
+    "Runners caution against booking temple tours or heavy sightseeing for the afternoon immediately after the race due to fatigue"
+  ],
+  "research_confidence": "medium",
+  "research_last_updated": "2026-07-31",
   "faqs": [
     {
       "question": "What distance is the Angkor Empire Marathon?",
@@ -44,7 +96,7 @@
       "answer": "The 11th Angkor Empire Marathon is scheduled for August 2, 2026. It will be held in Siem Reap, Cambodia, with the course centered in front of the Angkor Wat Temple, marking the eleventh edition of this full-marathon event at this location."
     }
   ],
-  "reliability_score": 67,
+  "reliability_score": 52,
   "tags": [
     "full-marathon",
     "cambodia",

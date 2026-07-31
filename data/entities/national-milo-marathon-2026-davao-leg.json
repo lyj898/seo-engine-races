@@ -30,7 +30,42 @@
     "Located at a defined venue, Davao Global Township, Talomo, Davao City"
   ],
   "cons": [],
-  "excerpt_quotes": [],
+  "excerpt_quotes": [
+    {
+      "quote": "Gusto gyud ko pirmi makauli'g Davao para makadula, labaw na kay sa Milo pa gyud na. Dugay na ko wala kadagan sa Milo Davao leg",
+      "attribution": "SEA Games medalist Sonny Wagdos, quoted in SunStar Davao",
+      "source_url": "https://www.sunstar.com.ph/davao/national-milo-marathon-davao-leg-returns-after-a-five-year-hiatus"
+    },
+    {
+      "quote": "I'm tired of driving a motorcycle from Butuan here",
+      "attribution": "Winner Sonny Wagdos, quoted on Facebook via Philboxing.com",
+      "source_url": "https://m.philboxing.com/news/story-172318.html"
+    },
+    {
+      "quote": "Lipay kaayo ko ug proud kay nakaya ug nakuha nako akong best performance po",
+      "attribution": "Women's 21K champion Lyka Catubig, in SunStar Davao",
+      "source_url": "https://www.sunstar.com.ph/davao/wagdos-catubig-dominate-national-milo-marathon-2024-davao-leg"
+    },
+    {
+      "quote": "Positive ang reception sa mga runners sa pagbalik sa Davao leg. Actually gipa miss sa Davao, once nawala sya, pangitaon gyud",
+      "attribution": "Milo regional sports coordinator Kirk Mojica, SunStar Davao (on the 2019 revival)",
+      "source_url": "https://www.sunstar.com.ph/more-articles/national-milo-marathon-davao-leg-is-back"
+    }
+  ],
+  "research_highlights": [
+    "The Davao leg has historically used an out-and-back course starting and finishing at SM Lanang Premier, as confirmed for the 2024 edition.",
+    "The event includes multiple distance categories: recent editions added 1K (12-and-under) and 3K divisions alongside the standard 5K, 10K, and 21K races.",
+    "Early-morning start times are staggered by distance -- in 2024 these were 4:30 a.m. for the 21K, 5:00 a.m. for 10K, 5:30 a.m. for 3K, 5:35 a.m. for 5K, and 5:45 a.m. for the 1K -- likely a similar structure for 2026.",
+    "The race draws large local turnout: the 2024 Davao leg drew over 12,000 runners, and a similar scale (10,000+) is expected historically.",
+    "RUNRIO Inc. manages the National Milo Marathon series logistics, including the Davao leg."
+  ],
+  "research_watchouts": [
+    "The Davao leg's calendar has been inconsistent historically -- it was scrapped for a year before its 2019 comeback, then went on a five-year hiatus before returning in 2024, so participants should confirm the race is proceeding as scheduled.",
+    "As an out-and-back course from a shopping mall car park (SM Lanang), the route in past editions has not featured much scenic variety.",
+    "This directory listing shows the 2026 date (Aug. 2) is earlier in the year than the 2024 edition's November date, meaning heat conditions during the run could differ from prior editions -- no specific heat or humidity feedback from participants was found for this leg."
+  ],
+  "research_confidence": "medium",
+  "research_last_updated": "2026-07-31",
   "faqs": [
     {
       "question": "When is the National MILO Marathon 2026 Davao Leg?",
@@ -49,7 +84,7 @@
       "answer": "Yes, registration for the National MILO Marathon 2026 – Davao Leg is currently open. Prospective participants interested in joining any of the offered distances—from the 1km fun run up to the full 42.195km marathon—can sign up now ahead of the August 2, 2026 event date."
     }
   ],
-  "reliability_score": 77,
+  "reliability_score": 72,
   "tags": [
     "full-marathon",
     "philippines",
