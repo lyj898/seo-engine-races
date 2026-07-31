@@ -39,7 +39,8 @@
      ink text (never plain-colored primary text -- a bright/lime primary
      reads poorly as text-on-background, so it's reserved for
      backgrounds/accents, per the reference design system). */
-  .filter-chip.is-active {
+  .filter-chip.is-active,
+  .distance-chip.is-active {
     @apply bg-brand-primary text-brand-primary-ink dark:text-brand-primary-ink-dark;
   }
   /* Standard "accent" link style used for CTA-ish inline links: full-
