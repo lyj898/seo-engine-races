@@ -388,7 +388,12 @@ const jsonLd = [
       });
 
       if (countEl) {
-        var label = countEl.textContent.replace(/^[\d,]+/, '').trim();
+        // .trim() first: Astro's JSX-style {expr} interpolation preserves
+        // the source's surrounding whitespace/newlines as literal text
+        // nodes, so textContent can start with "\n  " before the digits --
+        // an untrimmed ^[\d,]+ regex would silently fail to match that and
+        // leave the old number in place, prepending instead of replacing.
+        var label = countEl.textContent.trim().replace(/^[\d,]+/, '').trim();
         countEl.textContent = visibleCount + ' ' + label;
       }
       if (emptyStateEl) emptyStateEl.classList.toggle('hidden', visibleCount !== 0);
