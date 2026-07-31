@@ -73,6 +73,18 @@ async function run() {
   const entitySchema = getEntitySchema(verticalKey);
   const coreFactsDescription = describeSchemaShape(coreFactsSchema);
 
+  // Rolling window bounds, resolved once per run so every candidate in the
+  // run is judged against the same "today".
+  const windowMonths = sourceConfig?.discoveryWindowMonths;
+  let windowBounds = null;
+  if (Number.isFinite(windowMonths) && windowMonths > 0) {
+    const from = new Date();
+    const to = new Date(from);
+    to.setMonth(to.getMonth() + windowMonths);
+    windowBounds = { months: windowMonths, from: from.toISOString().slice(0, 10), to: to.toISOString().slice(0, 10) };
+    console.log(`[discover-entities] date window: ${windowBounds.from} to ${windowBounds.to} (${windowMonths} months).`);
+  }
+
   const existingEntities = loadEntities().map(stripMeta);
   const existingSlugs = new Set(existingEntities.map((e) => e.slug));
   const categories = loadCategories().map(stripMeta);
@@ -170,6 +182,24 @@ async function run() {
             .join('; ')}`
         );
         continue;
+      }
+
+      // Enforce the rolling date window in code as well as in the prompt.
+      // The prompt states the bounds, but a model asked to extract "every
+      // entry on this page" will still hand back last year's edition or one
+      // three years out often enough to matter, and a stale entry that
+      // slips through here has to be found and archived by hand later.
+      // Generic: only applies when the vertical's core_facts actually has a
+      // `date`, so a dateless vertical is unaffected.
+      const candidateDate = coreFactsResult.data.date;
+      if (windowBounds && typeof candidateDate === 'string') {
+        if (candidateDate < windowBounds.from || candidateDate > windowBounds.to) {
+          stats.skipped++;
+          skipReasons.push(
+            `${domain}: "${candidate.name}" -- date ${candidateDate} is outside the ${windowBounds.months}-month window (${windowBounds.from} to ${windowBounds.to}) -- skipped`
+          );
+          continue;
+        }
       }
 
       const entity = {
