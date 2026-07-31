@@ -1,7 +1,7 @@
 ---
 import siteConfig from '../../lib/config.js';
 import { urls } from '../../lib/urls.js';
-import { loadEntities, loadRegions, loadListicles, stripMeta, isPublished } from '../../lib/data.js';
+import { loadEntities, loadCategories, loadRegions, loadListicles, stripMeta, isPublished } from '../../lib/data.js';
 import { resolveListicleEntities } from '../../lib/listicles.js';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
@@ -20,6 +20,7 @@ export function getStaticPaths() {
 
 const { listicle } = Astro.props;
 const allEntities = loadEntities().map(stripMeta).filter(isPublished);
+const allCategories = loadCategories().map(stripMeta);
 const allRegions = loadRegions().map(stripMeta);
 
 const rankedEntities = resolveListicleEntities(listicle, allEntities, allRegions);
@@ -66,7 +67,7 @@ const jsonLd = [
               {i + 1}
             </span>
             <div class="flex-1">
-              <EntityCard entity={entity} />
+              <EntityCard entity={entity} categories={allCategories} />
             </div>
           </li>
         ))}
