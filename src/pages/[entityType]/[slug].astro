@@ -6,7 +6,7 @@
 // entity URLs like /races/some-slug/ exist without this file (or any other
 // shared file) ever containing the literal word "race".
 import siteConfig from '../../lib/config.js';
-import { urls } from '../../lib/urls.js';
+import { urls, entityUrlSegment } from '../../lib/urls.js';
 import { loadEntities, loadCategories, loadRegions, loadListicles, stripMeta, isPublished } from '../../lib/data.js';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
@@ -29,7 +29,7 @@ export function getStaticPaths() {
   // a retired record doesn't leave a stale page behind.
   const entities = loadEntities().map(stripMeta).filter(isPublished);
   return entities.map((entity) => ({
-    params: { entityType: siteConfig.entityLabelPlural, slug: entity.slug },
+    params: { entityType: entityUrlSegment, slug: entity.slug },
     props: { entity },
   }));
 }
