@@ -1,12 +1,7 @@
 ---
 import siteConfig from '../lib/config.js';
 import { urls } from '../lib/urls.js';
-import {
-  splitAccentWord,
-  formatMonthLabel,
-  monthKey,
-  simplifyAvailabilityStatus,
-} from '../lib/text.js';
+import { splitAccentWord, formatMonthLabel, monthKey } from '../lib/text.js';
 import { loadEntities, loadCategories, loadRegions, loadListicles, stripMeta, isPublished } from '../lib/data.js';
 import { matchCategoryByValue } from '../lib/categoryMatch.js';
 import BaseLayout from '../layouts/BaseLayout.astro';
@@ -16,8 +11,6 @@ import StatsSummary from '../components/StatsSummary.astro';
 import HeroStats from '../components/HeroStats.astro';
 import SearchBox from '../components/SearchBox.astro';
 import FAQSection from '../components/FAQSection.astro';
-import DateBadge from '../components/DateBadge.astro';
-import ValuePills from '../components/ValuePills.astro';
 import { buildWebsiteSchema, buildFaqPageSchema } from '../lib/schema-jsonld.js';
 
 const entities = loadEntities().map(stripMeta).filter(isPublished);
@@ -111,9 +104,17 @@ const { before: headlineBefore, accent: headlineAccent, after: headlineAfter } =
 const heroStats = [
   { value: entities.length, label: `${siteConfig.entityLabelPlural} tracked` },
   { value: topLevelRegions.length, label: siteConfig.regionLabelPlural ?? `${siteConfig.regionLabel}s` },
-  // "months ahead" counts only the upcoming groups -- counting a stale
-  // back-dated month here would inflate the number the label promises.
-  { value: (isDateDriven ? upcomingGroups.length : 0) || categories.length, label: isDateDriven ? 'months ahead' : `${siteConfig.categoryLabel}s` },
+  // The coverage window the discovery pipeline is configured to keep filled
+  // (sourceConfig.discoveryWindowMonths), not a count of whatever months
+  // happen to have entries today. Those two drift apart constantly -- a
+  // sparse month 9 months out would make the site look like it only knows
+  // about the near future, when the pipeline is in fact searching the full
+  // window every week. Stating the window is both steadier and the actual
+  // promise being made to a visitor.
+  {
+    value: isDateDriven ? (siteConfig.sourceConfig?.discoveryWindowMonths ?? upcomingGroups.length) : categories.length,
+    label: isDateDriven ? 'months ahead' : `${siteConfig.categoryLabel}s`,
+  },
 ];
 
 const faqs = [
@@ -252,45 +253,16 @@ const jsonLd = [
                     ]
                   ),
                 ];
-                const countryId = topLevelCountryId(entity.region_id);
-                const availability = simplifyAvailabilityStatus(entity.core_facts.registration_status);
-                const locationLine = [entity.core_facts.city, entity.core_facts.country].filter(Boolean).join(', ');
-                const searchText = `${entity.name} ${locationLine}`.toLowerCase();
-
                 return (
-                  <div
-                    data-filterable
-                    data-search={searchText}
-                    data-country={countryId}
-                    data-month={group.key}
-                    data-distances={matchedCategoryIds.join(',')}
-                    class="flex gap-4 rounded-lg border border-brand-border bg-brand-surface p-4 shadow-sm dark:border-brand-border-dark dark:bg-brand-surface-dark"
-                  >
-                    <DateBadge date={entity.core_facts.date} />
-                    <div class="min-w-0 flex-1">
-                      <div class="flex items-start justify-between gap-2">
-                        <a href={urls.entity(entity.slug)} class="font-semibold hover:underline">{entity.name}</a>
-                      </div>
-                      {locationLine && <p class="mt-0.5 text-sm text-brand-muted dark:text-brand-muted-dark">{locationLine}</p>}
-
-                      <ValuePills
-                        class="mt-3"
-                        values={entity.core_facts.distance_km ?? []}
-                        categories={categories}
-                        unit="km"
-                        matchedOnly
-                      />
-
-                      <div class="mt-3 flex items-center justify-between gap-3">
-                        {availability && (
-                          <span class="text-xs font-semibold uppercase tracking-wide text-brand-muted dark:text-brand-muted-dark">
-                            {availability === 'open' ? 'Open' : 'Closed'}
-                          </span>
-                        )}
-                        <a href={urls.entity(entity.slug)} class="ml-auto shrink-0 text-sm font-bold link-accent">Details &rarr;</a>
-                      </div>
-                    </div>
-                  </div>
+                  <EntityCard
+                    entity={entity}
+                    categories={categories}
+                    extraAttrs={{
+                      'data-country': topLevelCountryId(entity.region_id),
+                      'data-month': group.key,
+                      'data-distances': matchedCategoryIds.join(','),
+                    }}
+                  />
                 );
               })}
             </div>
@@ -306,7 +278,7 @@ const jsonLd = [
         <section class="mt-10">
           <h2 class="mb-4 text-xl font-semibold">Highest-verified {siteConfig.entityLabelPlural}</h2>
           <div id="featured-grid" class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {featured.map((entity) => <EntityCard entity={entity} />)}
+            {featured.map((entity) => <EntityCard entity={entity} categories={categories} />)}
           </div>
         </section>
       )
