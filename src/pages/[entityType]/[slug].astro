@@ -7,13 +7,7 @@
 // shared file) ever containing the literal word "race".
 import siteConfig from '../../lib/config.js';
 import { urls } from '../../lib/urls.js';
-import {
-  loadEntities,
-  loadCategories,
-  loadRegions,
-  loadListicles,
-  stripMeta,
-} from '../../lib/data.js';
+import { loadEntities, loadCategories, loadRegions, loadListicles, stripMeta, isPublished } from '../../lib/data.js';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import FactsTable from '../../components/FactsTable.astro';
@@ -26,10 +20,14 @@ import RelatedEntities from '../../components/RelatedEntities.astro';
 import RelatedListicles from '../../components/RelatedListicles.astro';
 import LastUpdated from '../../components/LastUpdated.astro';
 import Pill from '../../components/Pill.astro';
+import { narrowFactsToCategories } from '../../lib/categoryMatch.js';
 import { buildEntitySchema, buildFaqPageSchema, buildBreadcrumbListSchema } from '../../lib/schema-jsonld.js';
 
 export function getStaticPaths() {
-  const entities = loadEntities().map(stripMeta);
+  // Same publish rule as every hub and the sitemap: a detail page exists
+  // for exactly the records that are linked to, so nothing is orphaned and
+  // a retired record doesn't leave a stale page behind.
+  const entities = loadEntities().map(stripMeta).filter(isPublished);
   return entities.map((entity) => ({
     params: { entityType: siteConfig.entityLabelPlural, slug: entity.slug },
     props: { entity },
@@ -39,8 +37,8 @@ export function getStaticPaths() {
 const { entity } = Astro.props;
 const categories = loadCategories().map(stripMeta);
 const regions = loadRegions().map(stripMeta);
-const allEntities = loadEntities().map(stripMeta).filter((e) => e.status === 'active');
-const listicles = loadListicles().map(stripMeta).filter((l) => l.status === 'active');
+const allEntities = loadEntities().map(stripMeta).filter(isPublished);
+const listicles = loadListicles().map(stripMeta).filter(isPublished);
 
 const category = categories.find((c) => c.category_id === entity.category_id);
 const region = regions.find((r) => r.region_id === entity.region_id);
@@ -95,7 +93,7 @@ const jsonLd = [
     </div>
 
     <div class="mt-8">
-      <FactsTable facts={entity.core_facts} />
+      <FactsTable facts={narrowFactsToCategories(entity.core_facts, categories)} />
     </div>
 
     <div class="mt-8">
