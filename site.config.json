@@ -110,12 +110,23 @@
       "trusted_aggregators",
       "official_social"
     ],
+    "_trustedAggregators_note": "Each entry is fetched verbatim, so prefer a deep link to an actual country/calendar listing over a bare domain -- a homepage shows a few featured events, the calendar page shows the whole year. Country-specific entries exist because the original five sources skew heavily to Malaysia/Indonesia, leaving Vietnam, Thailand and the smaller markets underrepresented. worldathletics.org is deliberately absent: its calendar is client-rendered, so a plain fetch returns navigation and zero events, and its label road races already appear via AIMS.",
     "trustedAggregators": [
       "jomrun.com",
       "checkpointspot.asia",
       "kalenderlari.com",
       "racexasia.com",
-      "ahotu.com"
+      "https://www.ahotu.com/calendar/running/thailand",
+      "https://www.ahotu.com/calendar/running/vietnam",
+      "https://www.ahotu.com/calendar/running/philippines",
+      "https://aims-worldrunning.org/calendar.html",
+      "https://www.finishers.com/en/destinations/asia/vietnam",
+      "https://www.finishers.com/en/destinations/asia/thailand",
+      "https://www.finishers.com/en/destinations/asia/indonesia",
+      "https://www.finishers.com/en/destinations/asia/philippines",
+      "https://www.finishers.com/en/destinations/asia/malaysia",
+      "https://www.finishers.com/en/destinations/asia/singapore",
+      "https://www.finishers.com/en/destinations/asia/cambodia"
     ]
   },
 
