@@ -1,4 +1,4 @@
-import { buildRegionAncestryMap } from './data.js';
+import { buildRegionAncestryMap, isPublished } from './data.js';
 
 /**
  * Resolves a listicle's `filters` + `manual_entity_ids` into an actual
@@ -26,7 +26,7 @@ export function resolveListicleEntities(listicle, entities, regions) {
       const allMatch = filters.core_facts_filters.every((cond) => matchesCoreFactsFilter(entity.core_facts, cond));
       if (!allMatch) return false;
     }
-    return entity.status === 'active';
+    return isPublished(entity);
   });
 
   // Editorial pins: include manually-listed entities even if they don't

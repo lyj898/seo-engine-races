@@ -24,6 +24,32 @@ export function matchCategoryByValue(value, categories) {
   return null;
 }
 
+/**
+ * Returns a copy of `facts` with every all-numeric array narrowed to the
+ * values that fall inside some category's matchRange, sorted largest-first.
+ *
+ * Source listings routinely bundle extras a directory doesn't cover -- a
+ * race event advertising 42.195/21.1/10/3/1 km when the site is about the
+ * four standard road distances. Showing the strays makes a listing look
+ * like it's about something else. An array whose values match *nothing* is
+ * left untouched rather than emptied, so a vertical that hasn't defined
+ * matchRanges (or a field that simply isn't category-bucketed) keeps
+ * displaying normally instead of silently losing its data.
+ */
+export function narrowFactsToCategories(facts, categories) {
+  if (!facts || typeof facts !== 'object') return facts;
+  const out = {};
+  for (const [key, value] of Object.entries(facts)) {
+    if (Array.isArray(value) && value.length > 0 && value.every((v) => typeof v === 'number')) {
+      const matched = value.filter((v) => matchCategoryByValue(v, categories));
+      out[key] = (matched.length ? matched : value).slice().sort((a, b) => b - a);
+    } else {
+      out[key] = value;
+    }
+  }
+  return out;
+}
+
 // Tailwind class pairs for each badgeVariant, shared by every component that
 // renders a category-derived pill/badge so the success/warning/neutral
 // mapping only needs to be defined once.

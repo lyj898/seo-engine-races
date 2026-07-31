@@ -52,6 +52,31 @@ export function stripMeta(item) {
 }
 
 /**
+ * Should this record appear on the public site?
+ *
+ * The four statuses (schema/base.js) split into two very different groups:
+ *
+ *   - "draft" and "archived" are editorial decisions -- not ready yet, or
+ *     deliberately retired. Those stay off the site.
+ *   - "active" and "needs_review" are both *published*. "needs_review" only
+ *     means the refresh pipeline noticed something worth a human glance
+ *     (a fact changed, a source didn't respond); it is a note to the
+ *     operator, not a verdict on the listing.
+ *
+ * Treating "needs_review" as unpublished is a trap: refresh-entities.js
+ * flags a record for review on any core-fact change, so a routine refresh
+ * can silently delete a large slice of the directory from the live site --
+ * exactly the failure mode that made a full listing collapse to a partial
+ * one here. Publishing decisions belong in one place, so every page and the
+ * sitemap call this instead of comparing status inline.
+ */
+const PUBLISHED_STATUSES = new Set(['active', 'needs_review']);
+
+export function isPublished(item) {
+  return PUBLISHED_STATUSES.has(item?.status);
+}
+
+/**
  * Builds a region_id -> [region_id, ...all ancestor region_ids] map, so a
  * "Thailand" (country) listicle/hub filter can match races whose region_id
  * is the more specific "Nong Khai" (city, parent_region_id: "thailand")
