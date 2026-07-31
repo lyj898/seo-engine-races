@@ -8,9 +8,14 @@
  * Does not invent or add new entities -- that's discover-entities.js.
  *
  * Status changes are deliberately conservative -- this script can FLAG an
- * entity for human review, but it never promotes anything to "active" and
- * never sets "archived" itself. Those remain human decisions
- * (site.config.json's enabledFeatures.reviewQueue exists for exactly this).
+ * entity for human review, but it never promotes anything to "active".
+ * Those remain human decisions (site.config.json's enabledFeatures.reviewQueue
+ * exists for exactly this). The one exception is lapsing: an entity whose
+ * core_facts.date has already passed is auto-archived below, before any
+ * fetch/Claude call -- a race that already happened isn't an editorial
+ * judgment call the way "source says cancelled" is, so it doesn't need a
+ * human in the loop, and skipping the fetch/Claude step for it also saves
+ * an API call on every entity that's aged out.
  *
  * Legal/safety reminders (do not remove):
  *   - Respects robots.txt and sourceConfig.requestDelayMs for every fetch.
@@ -55,11 +60,24 @@ async function run() {
   const rawEntities = loadEntities();
   const targets = rawEntities.filter((e) => ['active', 'needs_review'].includes(stripMeta(e).status));
 
-  const stats = { checked: 0, noSource: 0, fetchFailed: 0, unchanged: 0, changed: 0, flagged: 0, invalidSkipped: 0 };
+  const stats = { checked: 0, lapsed: 0, noSource: 0, fetchFailed: 0, unchanged: 0, changed: 0, flagged: 0, invalidSkipped: 0 };
+  const todayStr = today();
 
   for (const raw of targets) {
     const entity = stripMeta(raw);
     stats.checked++;
+
+    // Lapsed check first, before any fetch/Claude call: a race whose date
+    // has already passed is done, full stop -- no source can "un-happen"
+    // it, so there's nothing to verify. Dates are ISO "YYYY-MM-DD", so a
+    // plain string comparison is correct here.
+    if (entity.core_facts?.date && entity.core_facts.date < todayStr) {
+      const updated = { ...entity, status: 'archived', last_updated: todayStr };
+      const wrote = writeIfValid(raw.__file, updated, entitySchema);
+      if (wrote) stats.lapsed++;
+      else stats.invalidSkipped++;
+      continue;
+    }
 
     const source = pickSourceToCheck(entity.source_mix);
     if (!source) {
@@ -175,7 +193,8 @@ async function run() {
   }
 
   console.log(
-    `\n[refresh-entities] done. Checked: ${stats.checked}, no source: ${stats.noSource}, fetch failed: ${stats.fetchFailed}, ` +
+    `\n[refresh-entities] done. Checked: ${stats.checked}, lapsed (auto-archived): ${stats.lapsed}, ` +
+      `no source: ${stats.noSource}, fetch failed: ${stats.fetchFailed}, ` +
       `facts changed: ${stats.changed}, flagged for review: ${stats.flagged}, unchanged (re-verified): ${stats.unchanged}, ` +
       `invalid after merge (skipped write): ${stats.invalidSkipped}.`
   );
