@@ -62,18 +62,30 @@ const sortedByDate = isDateDriven
   ? [...entities].sort((a, b) => (a.core_facts.date < b.core_facts.date ? -1 : a.core_facts.date > b.core_facts.date ? 1 : 0))
   : [];
 
-const monthGroups = [];
+const chronologicalGroups = [];
 for (const entity of sortedByDate) {
   const key = monthKey(entity.core_facts.date);
-  let group = monthGroups.find((g) => g.key === key);
+  let group = chronologicalGroups.find((g) => g.key === key);
   if (!group) {
     group = { key, label: formatMonthLabel(entity.core_facts.date), entities: [] };
-    monthGroups.push(group);
+    chronologicalGroups.push(group);
   }
   group.entities.push(entity);
 }
 
-// Distinct months present, in chronological order, for the month filter.
+// Upcoming months lead, already-past months trail -- both still rendered, so
+// nothing disappears from the directory. A handful of records inevitably
+// carry a mis-parsed date from a source page (a "Dec 2025" that should read
+// Dec 2026); left in pure chronological order a single one of those puts a
+// stale month heading at the very top of the page, which reads as a broken
+// calendar. Sorting them to the back keeps every listing reachable while the
+// page opens on what's actually ahead.
+const currentMonthKey = monthKey(new Date().toISOString().slice(0, 10));
+const upcomingGroups = chronologicalGroups.filter((g) => g.key >= currentMonthKey);
+const pastGroups = chronologicalGroups.filter((g) => g.key < currentMonthKey);
+const monthGroups = [...upcomingGroups, ...pastGroups];
+
+// Distinct months present, for the month filter -- same order as the calendar.
 const monthOptions = monthGroups.map((g) => ({ value: g.key, label: g.label }));
 
 // Country filter options, alphabetical for a predictable dropdown.
@@ -101,7 +113,9 @@ const { before: headlineBefore, accent: headlineAccent, after: headlineAfter } =
 const heroStats = [
   { value: entities.length, label: `${siteConfig.entityLabelPlural} tracked` },
   { value: topLevelRegions.length, label: siteConfig.regionLabelPlural ?? `${siteConfig.regionLabel}s` },
-  { value: monthOptions.length || categories.length, label: isDateDriven ? 'months ahead' : `${siteConfig.categoryLabel}s` },
+  // "months ahead" counts only the upcoming groups -- counting a stale
+  // back-dated month here would inflate the number the label promises.
+  { value: (isDateDriven ? upcomingGroups.length : 0) || categories.length, label: isDateDriven ? 'months ahead' : `${siteConfig.categoryLabel}s` },
 ];
 
 const faqs = [
