@@ -162,9 +162,13 @@ async function run() {
             .map((f) => ({ question: f.question.trim(), answer: f.answer.trim() }))
         : [],
       last_updated: today(),
-      // Created as draft: a generated page should be read once before it
-      // goes live, and the pull request is where that happens.
-      status: 'draft',
+      // Created active, not draft. The pipeline commits straight to main, so
+      // there is no pull-request stage where a human would promote a draft --
+      // anything left as draft would simply never appear, and the weekly
+      // notification would report guides that don't exist. Review happens
+      // after the fact instead: the run summary lists every new guide, and
+      // any that reads badly can be edited or deleted from the live site.
+      status: 'active',
     };
 
     const validation = listicleSchema.safeParse(listicle);
