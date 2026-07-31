@@ -5,9 +5,7 @@ import {
   splitAccentWord,
   formatMonthLabel,
   monthKey,
-  humanizeStatus,
-  isUnknownStatus,
-  isLikelyRegistrationOpen,
+  simplifyAvailabilityStatus,
 } from '../lib/text.js';
 import { loadEntities, loadCategories, loadRegions, loadListicles, stripMeta, isPublished } from '../lib/data.js';
 import { matchCategoryByValue } from '../lib/categoryMatch.js';
@@ -91,14 +89,14 @@ const monthOptions = monthGroups.map((g) => ({ value: g.key, label: g.label }));
 // Country filter options, alphabetical for a predictable dropdown.
 const countryOptions = [...topLevelRegions].sort((a, b) => a.label.localeCompare(b.label));
 
-// Quick-toggle chips: every category that defines a matchRange gets one, in
-// ascending range order, so the chip row reads naturally along the vertical's
-// numeric axis (for races: 5K -> 10K -> Half -> Full) rather than in file
-// order. A category without a matchRange isn't a point on that axis, so it's
-// reachable via the hub pages instead of the calendar's quick filter.
+// Quick-toggle chips: every category that defines a matchRange gets one,
+// ordered largest range first (for races: Full -> Half -> 10K -> 5K), which
+// puts the marquee distance where the eye lands and matches the order the
+// distances are listed on each card. A category without a matchRange isn't a
+// point on that axis, so it's reachable via the hub pages instead.
 const quickDistanceCategories = categories
   .filter((c) => Array.isArray(c.matchRange))
-  .sort((a, b) => a.matchRange[0] - b.matchRange[0]);
+  .sort((a, b) => b.matchRange[0] - a.matchRange[0]);
 
 const featured = [...entities].sort((a, b) => b.reliability_score - a.reliability_score).slice(0, 6);
 
@@ -230,11 +228,6 @@ const jsonLd = [
             </div>
           </div>
 
-          <label class="inline-flex cursor-pointer items-center gap-2 whitespace-nowrap rounded-full border border-brand-border px-3.5 py-2 text-sm font-semibold dark:border-brand-border-dark">
-            <input type="checkbox" id="filter-open-only" class="h-4 w-4 rounded border-brand-border accent-brand-primary dark:border-brand-border-dark" />
-            Open for registration
-          </label>
-
           <button type="button" id="filter-reset" class="ml-auto shrink-0 text-sm font-bold underline-offset-2 hover:underline">
             Reset
           </button>
@@ -260,7 +253,7 @@ const jsonLd = [
                   ),
                 ];
                 const countryId = topLevelCountryId(entity.region_id);
-                const regOpen = isLikelyRegistrationOpen(entity.core_facts.registration_status);
+                const availability = simplifyAvailabilityStatus(entity.core_facts.registration_status);
                 const locationLine = [entity.core_facts.city, entity.core_facts.country].filter(Boolean).join(', ');
                 const searchText = `${entity.name} ${locationLine}`.toLowerCase();
 
@@ -271,7 +264,6 @@ const jsonLd = [
                     data-country={countryId}
                     data-month={group.key}
                     data-distances={matchedCategoryIds.join(',')}
-                    data-reg-open={String(regOpen)}
                     class="flex gap-4 rounded-lg border border-brand-border bg-brand-surface p-4 shadow-sm dark:border-brand-border-dark dark:bg-brand-surface-dark"
                   >
                     <DateBadge date={entity.core_facts.date} />
@@ -290,9 +282,9 @@ const jsonLd = [
                       />
 
                       <div class="mt-3 flex items-center justify-between gap-3">
-                        {!isUnknownStatus(entity.core_facts.registration_status) && (
-                          <span class="text-xs text-brand-muted dark:text-brand-muted-dark">
-                            &bull; {humanizeStatus(entity.core_facts.registration_status)}
+                        {availability && (
+                          <span class="text-xs font-semibold uppercase tracking-wide text-brand-muted dark:text-brand-muted-dark">
+                            {availability === 'open' ? 'Open' : 'Closed'}
                           </span>
                         )}
                         <a href={urls.entity(entity.slug)} class="ml-auto shrink-0 text-sm font-bold link-accent">Details &rarr;</a>
@@ -390,7 +382,6 @@ const jsonLd = [
     var searchInput = document.getElementById('race-search-input');
     var countrySelect = document.getElementById('filter-country');
     var monthSelect = document.getElementById('filter-month');
-    var openOnlyCheckbox = document.getElementById('filter-open-only');
     var resetButton = document.getElementById('filter-reset');
     var countEl = document.getElementById('race-count');
     var emptyStateEl = document.getElementById('race-empty-state');
@@ -401,7 +392,6 @@ const jsonLd = [
       var query = (searchInput && searchInput.value.trim().toLowerCase()) || '';
       var country = (countrySelect && countrySelect.value) || '';
       var month = (monthSelect && monthSelect.value) || '';
-      var openOnly = !!(openOnlyCheckbox && openOnlyCheckbox.checked);
 
       var visibleCount = 0;
       var cards = root.querySelectorAll('[data-filterable]');
@@ -410,8 +400,7 @@ const jsonLd = [
         var matchesCountry = !country || card.dataset.country === country;
         var matchesMonth = !month || card.dataset.month === month;
         var matchesDistance = !activeDistance || (card.dataset.distances || '').split(',').indexOf(activeDistance) !== -1;
-        var matchesOpen = !openOnly || card.dataset.regOpen === 'true';
-        var show = matchesSearch && matchesCountry && matchesMonth && matchesDistance && matchesOpen;
+        var show = matchesSearch && matchesCountry && matchesMonth && matchesDistance;
         card.style.display = show ? '' : 'none';
         if (show) visibleCount++;
       });
@@ -438,7 +427,6 @@ const jsonLd = [
     if (searchInput) searchInput.addEventListener('input', apply);
     if (countrySelect) countrySelect.addEventListener('change', apply);
     if (monthSelect) monthSelect.addEventListener('change', apply);
-    if (openOnlyCheckbox) openOnlyCheckbox.addEventListener('change', apply);
 
     distanceChips.forEach(function (chip) {
       chip.addEventListener('click', function () {
@@ -455,7 +443,6 @@ const jsonLd = [
         if (searchInput) searchInput.value = '';
         if (countrySelect) countrySelect.value = '';
         if (monthSelect) monthSelect.value = '';
-        if (openOnlyCheckbox) openOnlyCheckbox.checked = false;
         activeDistance = '';
         distanceChips.forEach(function (c, i) {
           c.classList.toggle('is-active', i === 0);
