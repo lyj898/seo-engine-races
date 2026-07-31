@@ -103,6 +103,19 @@ export const categorySchema = z.object({
   intro: z.string().min(1).optional(), // longer unique hub-page intro paragraph
   related_category_ids: z.array(z.string()).default([]),
   faqs: z.array(faqSchema).default([]),
+  // Optional numeric range [min, max|null] this category corresponds to on
+  // whatever scale a vertical's core_facts uses a number for (e.g. race
+  // distance in km, hotel star rating, course duration in hours). null max
+  // means unbounded above. Lets a page classify a raw core_facts number
+  // (e.g. one entry of races' distance_km array) against the nearest
+  // matching category without any vertical-specific logic living in /src --
+  // see src/lib/categoryMatch.js. Omit entirely for verticals/categories
+  // that don't bucket entities along a numeric axis.
+  matchRange: z.tuple([z.number(), z.number().nullable()]).optional(),
+  // Optional visual-emphasis hint a vertical can set per category (e.g. the
+  // marquee/most-searched option), used by pill/badge rendering wherever a
+  // category label is shown as a chip. Purely presentational.
+  badgeVariant: z.enum(['success', 'warning', 'neutral']).default('neutral'),
   last_updated: z.string().min(1),
   status: z.enum(STATUS_VALUES),
 });
