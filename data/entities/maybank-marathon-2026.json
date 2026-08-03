@@ -27,9 +27,73 @@
   "cons": [
     "Registration status is not yet announced, so sign-up details are unavailable"
   ],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "sentiment_scores": {
+    "overall": 82,
+    "breakdown": [
+      {
+        "label": "Course scenery & cultural atmosphere",
+        "score": 90
+      },
+      {
+        "label": "Organisation (water stations, medical, road closures)",
+        "score": 80
+      },
+      {
+        "label": "Heat/humidity conditions",
+        "score": 65
+      },
+      {
+        "label": "Course difficulty (hills)",
+        "score": 60
+      },
+      {
+        "label": "Overall runner satisfaction",
+        "score": 85
+      }
+    ]
+  },
+  "excerpt_quotes": [
+    {
+      "quote": "I have run over 30 marathons and this ranks as one of the best.",
+      "attribution": "Runner review on MarathonGuide.com",
+      "source_url": "https://www.marathonguide.com/races/racedetails.cfm?MIDD=4386170827"
+    },
+    {
+      "quote": "The support from enthusiastic schoolchildren and cheering villagers was amazing, with gamelan orchestras playing and even girls scattering flower petals",
+      "attribution": "Runner review on MarathonGuide.com",
+      "source_url": "https://www.marathonguide.com/races/racedetails.cfm?MIDD=4386170827"
+    },
+    {
+      "quote": "The sun can be scorching but the wind was cool.",
+      "attribution": "Race recap on Takbo.ph (2017 edition)",
+      "source_url": "http://www.takbo.ph/2017/09/maybank-bali-marathon-race-review/"
+    },
+    {
+      "quote": "Overall, I would give the Bii-Maybank Bali Marathon a 4.6 out of 5.",
+      "attribution": "Race review blog, Fast Feet Scatterbrain (2014 edition)",
+      "source_url": "https://fastfeetscatterbrain.wordpress.com/2014/09/28/race-review-bii-maybank-bali-marathon-2014/"
+    },
+    {
+      "quote": "The Maybank Marathon route, as always, was both breathtaking and challenging.",
+      "attribution": "Personal runner blog recap, 2025 edition",
+      "source_url": "https://blog.anggriawan.com/2025/08/maybank-bali-marathon-2025.html"
+    }
+  ],
+  "research_highlights": [
+    "Marathon start is around 4:30 AM to let runners catch the sunrise and avoid the worst of the day's heat before humidity sets in.",
+    "Course winds through Balinese villages, rice paddies and rural roads in Gianyar Regency, with earlier full-marathon editions starting near Bali Safari Park before the first 10km along a dual carriageway toward Sanur.",
+    "It is Indonesia's only World Athletics 'Elite Label' road race and has been in the Boston Marathon qualifying directory since 2013, so timing/certification is taken seriously.",
+    "Route support includes marshals in traditional Balinese dress, gamelan orchestras and cultural performances along the way, a signature feature reviewers repeatedly mention.",
+    "August in Gianyar typically runs 22-29°C with moderate humidity and minimal rainfall, per race-guide temperature data for the event."
+  ],
+  "research_watchouts": [
+    "Some editions have introduced tougher, hillier reroutes where 'there were plenty of instances where runners would rather walk than run the uphill portion' according to a 2017 participant recap.",
+    "Despite the early start, humidity builds quickly after sunrise — organisers themselves have publicly acknowledged Bali's hot, humid conditions when discussing race planning.",
+    "Slots reportedly sell out fast each year, so late registration can mean missing your preferred distance category.",
+    "Logistics for race-pack collection and transfers to the start (particularly for the full marathon) require planning, as some editions have used shuttle buses from a separate start point."
+  ],
+  "research_confidence": "medium",
+  "research_last_updated": "2026-08-03",
   "faqs": [
     {
       "question": "When is the Maybank Marathon 2026?",
@@ -59,7 +123,7 @@
       "url": "https://www.maybank.co.id/en/maybank-marathon",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-31"
+      "last_checked": "2026-08-03"
     },
     {
       "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
@@ -89,6 +153,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-03",
   "status": "needs_review"
 }

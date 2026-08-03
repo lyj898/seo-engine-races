@@ -48,7 +48,7 @@
       "answer": "Yes, registration for the CIDB Half Marathon 2026 is currently open. Prospective participants can sign up ahead of the race date of December 13, 2026, for any of the four available distances: 21.1km, 10km, 5km, or 3km."
     }
   ],
-  "reliability_score": 25,
+  "reliability_score": 10,
   "tags": [
     "half-marathon",
     "malaysia"
@@ -82,6 +82,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-03",
   "status": "needs_review"
 }

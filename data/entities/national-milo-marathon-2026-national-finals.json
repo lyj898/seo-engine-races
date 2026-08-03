@@ -14,7 +14,7 @@
     ],
     "primary_distance_km": 42.195,
     "organizer": "RUNRIO Inc. (MILO Marathon)",
-    "registration_status": "Not yet confirmed open",
+    "registration_status": "Open (Register Here link active)",
     "venue": "Clark City, Pampanga",
     "city": "Clark City, Pampanga",
     "country": "Philippines"
@@ -58,7 +58,7 @@
       "url": "https://www.milo.com.ph/national-milo-marathon",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-31"
+      "last_checked": "2026-08-03"
     }
   ],
   "affiliate_links": [],
@@ -70,6 +70,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-31",
-  "status": "active"
+  "last_updated": "2026-08-03",
+  "status": "needs_review"
 }

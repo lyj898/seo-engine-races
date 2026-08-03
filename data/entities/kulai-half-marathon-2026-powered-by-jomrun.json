@@ -46,7 +46,7 @@
       "answer": "Yes, registration for the Kulai Half Marathon 2026 Powered by JomRun® is currently open. Prospective participants can sign up now to secure their spot in one of the available distance categories ahead of the race day scheduled for November 15, 2026."
     }
   ],
-  "reliability_score": 48,
+  "reliability_score": 51,
   "tags": [
     "half-marathon",
     "malaysia"
@@ -56,7 +56,7 @@
       "url": "https://www.jomrun.com/event/Kulai-Half-Marathon-2026-Powered-by-JomRun",
       "label": "jomrun.com",
       "type": "aggregator",
-      "last_checked": "2026-07-31"
+      "last_checked": "2026-08-03"
     }
   ],
   "affiliate_links": [],
@@ -68,6 +68,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-03",
   "status": "needs_review"
 }

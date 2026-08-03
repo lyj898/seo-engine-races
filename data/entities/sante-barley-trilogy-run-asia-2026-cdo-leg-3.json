@@ -50,7 +50,7 @@
       "answer": "Registration status for this race has not yet been announced. No further details on sign-up dates, fees, or process are currently available based on the information provided, so interested runners should check back later."
     }
   ],
-  "reliability_score": 75,
+  "reliability_score": 70,
   "tags": [
     "half-marathon",
     "philippines",
@@ -61,7 +61,7 @@
       "url": "https://runrio.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-31"
+      "last_checked": "2026-08-03"
     },
     {
       "url": "https://runrio.com/race-calendar",
@@ -79,6 +79,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-03",
   "status": "active"
 }

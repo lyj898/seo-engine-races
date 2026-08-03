@@ -47,7 +47,7 @@
       "answer": "Yes, registration for Selangor Marathon 2026 is currently open. Runners interested in participating in either the full marathon (42.195 km) or half marathon (21.1 km) distance at the Cyberjaya, Selangor venue can sign up now through the event organizer, Tourism Selangor."
     }
   ],
-  "reliability_score": 25,
+  "reliability_score": 10,
   "tags": [
     "full-marathon",
     "malaysia"
@@ -69,6 +69,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-03",
   "status": "needs_review"
 }

@@ -27,6 +27,16 @@
     "Registration status has not yet been announced, so sign-up details are unavailable"
   ],
   "excerpt_quotes": [],
+  "research_highlights": [
+    "This is the first-ever edition of NUSTAR Run, scheduled for August 23, 2026, so there is no prior-year participant feedback to draw on.",
+    "Race distances offered are 21KM, 16KM, 10KM, 6KM, 3KM, and 1KM, starting at NUSTAR, South Road Properties (SRP), Cebu City.",
+    "The race is led by Janice Pasculado, described as Cebu's first female race director, and benefits the Kapwa Ko Mahal Ko Foundation.",
+    "Registration is handled online via myruntime.com/events, with an early-bird pricing period.",
+    "The run is part of NUSTAR Resort's month-long 'In Full Balance' Wellness Month 2026 campaign, which also includes yoga and sound healing sessions at the resort."
+  ],
+  "research_watchouts": [],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-03",
   "faqs": [
     {
       "question": "When is NUSTAR Run 2026 taking place?",
@@ -55,12 +65,12 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-08-03"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-08-03",
   "status": "active"
 }

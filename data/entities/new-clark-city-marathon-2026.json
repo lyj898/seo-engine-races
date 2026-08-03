@@ -31,6 +31,20 @@
     "No additional course, elevation, or logistics information is currently provided"
   ],
   "excerpt_quotes": [],
+  "research_highlights": [
+    "Course runs through the Sacobia Bridge and the Airport to NCC Access Road (ANAR), described by organizers as the longest bike lane in the country, finishing in front of the NCC Athletics Stadium.",
+    "The marathon route is promoted as including 'four heartbreak hills,' suggesting a rolling/hilly full marathon course rather than a flat one.",
+    "Race offers 5K, 10K, 21K and 42K distances, with the 2026 marathon (42.195K) as the culminating 'Leg' of a multi-race New Clark City series that also includes a 10-Miler and Half Marathon earlier in the year.",
+    "Hydration stations along the route provide water and sports drinks in paper cups, and km course markers are placed at every kilometer (per the prior RUNRIO-organized 2024 edition).",
+    "The race is held in Capas, Tarlac inside the New Clark City government/sports hub complex, a purpose-built area outside Metro Manila's urban core."
+  ],
+  "research_watchouts": [
+    "No independently published participant race reports, reviews, or community discussion (e.g. Reddit, running forums, blogs) about this event were found — available material is limited to organizer/marketing pages from Run The North, RUNRIO (prior edition), Takbo.ph, Pinoy Fitness, and event registration sites.",
+    "The 2026 edition is organized by 'Run The North,' a different organizer than the RUNRIO team that ran the 2024 edition, so past participant feedback about the 2024 race may not directly reflect what to expect logistically in 2026.",
+    "Course promotional material explicitly warns of hilly sections ('four heartbreak hills' / 'up-hells'), which prospective marathoners should be prepared for rather than assuming a flat course."
+  ],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-03",
   "faqs": [
     {
       "question": "When is the New Clark City Marathon 2026?",
@@ -49,7 +63,7 @@
       "answer": "As of now, registration for the New Clark City Marathon 2026 has not yet been announced. Prospective participants interested in the marathon, half marathon, 10km, or 5km races should check back for updates from organizer Run The North regarding sign-up details and timing."
     }
   ],
-  "reliability_score": 40,
+  "reliability_score": 43,
   "tags": [
     "full-marathon",
     "philippines"
@@ -59,12 +73,12 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-08-03"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-08-03",
   "status": "active"
 }

@@ -50,7 +50,7 @@
       "answer": "The race starts at Tha Phae Gate, a well-known landmark in Chiang Mai, and finishes at the King Naresuan the Great Monument in Mae Rim. This route takes participants from the historic city center out toward the Mae Rim area for the finish."
     }
   ],
-  "reliability_score": 98,
+  "reliability_score": 100,
   "tags": [
     "full-marathon",
     "thailand",
@@ -61,7 +61,7 @@
       "url": "https://www.chiangmaimarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-31"
+      "last_checked": "2026-08-03"
     },
     {
       "url": "https://www.chiangmaimarathon.com/",
@@ -85,6 +85,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-03",
   "status": "needs_review"
 }

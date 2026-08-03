@@ -48,7 +48,7 @@
       "answer": "Registration prices for SOHM 2026 range from Rp 137.500 to Rp 450.000, depending on the distance category and registration package selected. Registration is currently open, so interested runners can sign up now within this stated price range for their preferred race distance."
     }
   ],
-  "reliability_score": 85,
+  "reliability_score": 88,
   "tags": [
     "half-marathon",
     "indonesia",
@@ -59,7 +59,7 @@
       "url": "https://www.orthopedicrun.id",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-31"
+      "last_checked": "2026-08-03"
     },
     {
       "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
@@ -83,6 +83,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-03",
   "status": "needs_review"
 }

@@ -28,6 +28,8 @@
     "No pricing, route, or field-size information has been provided yet"
   ],
   "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
   "faqs": [
     {
       "question": "When is the Sorsogon Kasanggayahan Marathon 2026?",
@@ -46,7 +48,7 @@
       "answer": "Registration for the Sorsogon Kasanggayahan Marathon 2026 has not yet been announced. No details are currently available regarding sign-up dates, fees, or the registration process. Interested runners will need to wait for further updates from the organizer, Off Ground Events, before they can register."
     }
   ],
-  "reliability_score": 40,
+  "reliability_score": 35,
   "tags": [
     "full-marathon",
     "philippines"
@@ -56,12 +58,12 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-08-03"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-08-03",
   "status": "active"
 }

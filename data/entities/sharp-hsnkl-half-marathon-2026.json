@@ -44,7 +44,7 @@
       "answer": "Yes, registration for the SHARP HSNKL Half Marathon 2026 is currently open. Runners interested in participating in this 21.1km half marathon event in Kuala Lumpur, Malaysia, on October 25, 2026, can register now to secure their place in the race."
     }
   ],
-  "reliability_score": 15,
+  "reliability_score": 0,
   "tags": [
     "half-marathon",
     "malaysia"
@@ -66,6 +66,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-03",
   "status": "needs_review"
 }

@@ -50,7 +50,7 @@
       "answer": "The Belitong Geopark Run 2027 will be held on Pulau Belitung, also known as Belitong, located within the Kepulauan Bangka Belitung province of Indonesia. However, the exact venue for the race has not yet been finalized and remains to be announced by the organizer."
     }
   ],
-  "reliability_score": 64,
+  "reliability_score": 67,
   "tags": [
     "half-marathon",
     "indonesia"
@@ -60,7 +60,7 @@
       "url": "https://geoparkrun.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-31"
+      "last_checked": "2026-08-03"
     },
     {
       "url": "https://geoparkrun.com/explore-the-series",
@@ -78,6 +78,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-03",
   "status": "active"
 }

@@ -30,6 +30,8 @@
     "Registration status has not yet been announced, so sign-up details are unavailable"
   ],
   "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
   "faqs": [
     {
       "question": "When is the PMC Kabayanihan Run 2026?",
@@ -48,7 +50,7 @@
       "answer": "As of now, the registration status for the PMC Kabayanihan Run 2026 has not yet been announced. Interested runners should watch for updates from the organizer, the Philippine Marine Corps, regarding sign-up details ahead of the August 30, 2026 event in Taguig, Philippines."
     }
   ],
-  "reliability_score": 40,
+  "reliability_score": 35,
   "tags": [
     "full-marathon",
     "philippines"
@@ -58,12 +60,12 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-08-03"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-08-03",
   "status": "active"
 }

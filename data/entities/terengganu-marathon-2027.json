@@ -10,7 +10,9 @@
     "date": "2027-04-30",
     "distance_km": [
       42.195,
-      21.1
+      21.1,
+      10,
+      5
     ],
     "primary_distance_km": 42.195,
     "registration_status": "Not yet open",
@@ -58,7 +60,7 @@
       "url": "https://terengganumarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-31"
+      "last_checked": "2026-08-03"
     },
     {
       "url": "https://checkpointspot.asia/events",
@@ -76,6 +78,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-03",
   "status": "needs_review"
 }

@@ -30,8 +30,21 @@
     "No pricing, course, or amenity details are available in the provided facts"
   ],
   "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "research_highlights": [
+    "The Clark leg takes place at Filinvest Mimosa+ in Clark Freeport Zone, Angeles, Pampanga, with 21K, 10K, and 5K distance options offered at every city stop in the series.",
+    "All registered participants receive official PUMA race singlets and city-specific finisher medals, with an additional 'All-City Finisher Legacy Medal' for those who complete all six legs of the series (Iloilo, Davao, Cebu, Clark, Cagayan de Oro, Manila).",
+    "Only water is confirmed at hydration stations along the route; no mention of on-course gels/electrolytes was found.",
+    "Walkers are permitted but are asked to keep to the right so faster runners can pass; wheelchairs, bikes, skates, and strollers are not allowed on course.",
+    "The awarding ceremony is held on race day at Filinvest Mimosa immediately after the race, per the organizer's FAQ."
+  ],
+  "research_watchouts": [
+    "Registration is explicitly non-transferable and non-refundable, and organizers state that changes in event category or leg/city are not allowed after signing up.",
+    "Parking availability at the Clark venue is listed as 'TBA' in the official FAQ, so attendees are advised to check official announcements closer to race day rather than assume on-site parking.",
+    "Runners who do not start within 15 minutes of their assigned flag-off time are disqualified and may not be allowed to start, per the race mechanics document.",
+    "As this is only the second running of the Clark leg (first held December 2025) and the search turned up no independent participant race reports or reviews, there is little first-hand feedback yet on actual course/heat/crowd conditions for this specific leg."
+  ],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-03",
   "faqs": [
     {
       "question": "When is the PUMA Philippine Half Marathon Series 2026 - Clark taking place?",
@@ -50,7 +63,7 @@
       "answer": "The event is organized by Runrio, operating under the PUMA Philippine Half Marathon Series brand. Runrio is responsible for coordinating this race as part of the broader series, which is being held at Filinvest Mimosa in Clark, Philippines."
     }
   ],
-  "reliability_score": 83,
+  "reliability_score": 86,
   "tags": [
     "half-marathon",
     "philippines",
@@ -61,7 +74,7 @@
       "url": "https://runrio.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-31"
+      "last_checked": "2026-08-03"
     },
     {
       "url": "https://runrio.com/race-calendar",
@@ -79,6 +92,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-03",
   "status": "needs_review"
 }

@@ -26,9 +26,68 @@
     "Set in Dataran Warisan, a notable landmark venue in Taiping, Perak"
   ],
   "cons": [],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "sentiment_scores": {
+    "overall": 78,
+    "breakdown": [
+      {
+        "label": "Course scenery/heritage route",
+        "score": 88
+      },
+      {
+        "label": "Organisation/logistics",
+        "score": 82
+      },
+      {
+        "label": "Heat and difficulty",
+        "score": 55
+      },
+      {
+        "label": "Atmosphere/community",
+        "score": 85
+      }
+    ]
+  },
+  "excerpt_quotes": [
+    {
+      "quote": "This was my first half-marathon in such intense heat and humidity, so I started conservatively. It's not a personal best, but it's definitely a strong performance under these conditions",
+      "attribution": "Vivien Ng (2025 women's 21km runner-up), quoted in ToughASIA race report",
+      "source_url": "https://toughasia.com/jin-kuang-and-vivien-reign-supreme-at-taiping-half-marathon-2025/"
+    },
+    {
+      "quote": "This race is AIMS-certified, which was a big reason I decided to take part",
+      "attribution": "Runner quoted in ToughASIA coverage of the 2025 edition",
+      "source_url": "https://toughasia.com/jin-kuang-and-vivien-reign-supreme-at-taiping-half-marathon-2025/"
+    },
+    {
+      "quote": "Organising a race like this is always a team effort, and I'm proud of how the entire Taiping community came together to deliver such a seamless experience for our runners",
+      "attribution": "Race director Ahmad Azri, quoted in ToughASIA",
+      "source_url": "https://toughasia.com/jin-kuang-and-vivien-reign-supreme-at-taiping-half-marathon-2025/"
+    },
+    {
+      "quote": "The flag-off was perfectly on time. No pushing, no chaos.",
+      "attribution": "Runner race report on chrisywong.com blog",
+      "source_url": "https://chrisywong.com/2025/07/29/taiping-half-marathon-21km-race-review-a-journey-of-heart-and-endurance/"
+    },
+    {
+      "quote": "One hell of a painful lesson but we go again.",
+      "attribution": "Runner post on Threads recapping the 2025 race",
+      "source_url": "https://www.threads.com/tag/taiping-half-marathon"
+    }
+  ],
+  "research_highlights": [
+    "The 21km flags off very early (4:30am in the 2025/2026 editions) with 10km at 6:30am and 5km at 7am, largely to get runners through before the day heats up.",
+    "The half-marathon route passes through Taiping Lake Gardens and the colonial-era Jalan Taming Sari before looping through Kamunting and Bukit Jana, per race-day coverage of the 2025 edition.",
+    "2025's 21km course had a total elevation gain of about 89 metres, with climbs noted particularly around Tekah and Kamunting before a flat finish back to the town centre.",
+    "The race is AIMS-certified, which some competitive runners cited as a reason for choosing it.",
+    "Cut-off times for the 2026 edition are listed as 4:50 hrs for the 21km, 2:50 hrs for the 10km, and 2 hrs for the 5km."
+  ],
+  "research_watchouts": [
+    "Multiple runners in 2025 described heat and humidity as a real challenge on course, even prompting a conservative pacing strategy from a sub-elite finisher.",
+    "At least one participant reported an unexpectedly hard day out, finishing well off their normal pace and describing the race as a 'painful lesson', with legs still sore days later.",
+    "One social post noted a 4:30-pace pacer group was seen walking rather than running during the race, suggesting pacing group execution wasn't always consistent."
+  ],
+  "research_confidence": "medium",
+  "research_last_updated": "2026-08-03",
   "faqs": [
     {
       "question": "When is the Taiping Half Marathon 2026?",
@@ -47,7 +106,7 @@
       "answer": "Yes, registration for the Taiping Half Marathon 2026 is currently open. Prospective participants interested in the 5km, 10km, or 21.1km distances can sign up now ahead of the race date on August 9, 2026, at Dataran Warisan in Taiping, Perak, Malaysia."
     }
   ],
-  "reliability_score": 82,
+  "reliability_score": 85,
   "tags": [
     "half-marathon",
     "malaysia",
@@ -58,7 +117,7 @@
       "url": "https://www.taipinghalfmarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-31"
+      "last_checked": "2026-08-03"
     },
     {
       "url": "https://checkpointspot.asia/events",
@@ -76,6 +135,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-03",
   "status": "needs_review"
 }

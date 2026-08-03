@@ -50,7 +50,7 @@
       "answer": "As of now, the registration status for the Bromo Marathon 2026 is listed as 'Not Yet Announced.' This means specific sign-up dates, fees, and procedures have not been released yet, so prospective participants should check back later for updates on how to register."
     }
   ],
-  "reliability_score": 55,
+  "reliability_score": 58,
   "tags": [
     "full-marathon",
     "indonesia"
@@ -60,7 +60,7 @@
       "url": "https://www.bromomarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-31"
+      "last_checked": "2026-08-03"
     },
     {
       "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
@@ -90,6 +90,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-03",
   "status": "needs_review"
 }

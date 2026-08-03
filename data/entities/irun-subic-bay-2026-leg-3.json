@@ -27,6 +27,8 @@
     "Registration status is not yet announced, so sign-up details are unavailable"
   ],
   "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
   "faqs": [
     {
       "question": "When is iRun Subic Bay 2026 – Leg 3 taking place?",
@@ -45,7 +47,7 @@
       "answer": "iRun Subic Bay 2026 – Leg 3 is organized by SMOKE10 Events. The race is held in Subic, Zambales, Philippines, at Remy Field. Beyond the organizer's name, no additional details about SMOKE10 Events are included in the available source material."
     }
   ],
-  "reliability_score": 40,
+  "reliability_score": 35,
   "tags": [
     "full-marathon",
     "philippines"
@@ -55,12 +57,12 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-08-03"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-08-03",
   "status": "active"
 }

@@ -31,6 +31,8 @@
     "Registration status is not yet announced, so entry details are unavailable"
   ],
   "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
   "faqs": [
     {
       "question": "When is the Trailblaze Nueva Ecija Marathon 2026 taking place?",
@@ -49,7 +51,7 @@
       "answer": "According to available information, the registration status for the Trailblaze Nueva Ecija Marathon 2026 has not yet been announced. Prospective participants should watch for further updates from the organizer, TNER, regarding when registration will open and what the entry process will involve."
     }
   ],
-  "reliability_score": 40,
+  "reliability_score": 35,
   "tags": [
     "full-marathon",
     "philippines"
@@ -59,12 +61,12 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-08-03"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-08-03",
   "status": "active"
 }

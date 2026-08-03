@@ -30,6 +30,8 @@
     "Registration status is not yet announced, so entry details are unavailable"
   ],
   "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
   "faqs": [
     {
       "question": "When is the Franklin Baker Run for Coconut Farmers 2026 taking place?",
@@ -48,7 +50,7 @@
       "answer": "According to available information, the registration status for this race has not yet been announced. Interested runners will need to wait for further details from the organizer, Franklin Baker, regarding when and how registration will open for the 2026 event."
     }
   ],
-  "reliability_score": 40,
+  "reliability_score": 35,
   "tags": [
     "half-marathon",
     "philippines"
@@ -58,12 +60,12 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-08-03"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-08-03",
   "status": "active"
 }

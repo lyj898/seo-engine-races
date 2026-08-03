@@ -52,7 +52,7 @@
       "answer": "No -- as of the last verification on 20 July 2026, this event offers only the 21.1km Half Marathon distance, with no shorter or longer category available. Runners looking for a 10km or full marathon option at the same event weekend should look elsewhere in the region."
     }
   ],
-  "reliability_score": 68,
+  "reliability_score": 63,
   "tags": [
     "half-marathon",
     "laos",
@@ -65,7 +65,7 @@
       "url": "https://www.luangprabanghalfmarathon.com/",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-31"
+      "last_checked": "2026-08-03"
     }
   ],
   "affiliate_links": [],
@@ -80,6 +80,6 @@
     "the-brunei-half-marathon-2026",
     "great-eastern-women-s-run-2026"
   ],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-03",
   "status": "needs_review"
 }

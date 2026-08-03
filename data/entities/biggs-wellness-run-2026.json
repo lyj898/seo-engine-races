@@ -30,6 +30,14 @@
     "Registration status is not yet announced, so signup details are unavailable"
   ],
   "excerpt_quotes": [],
+  "research_highlights": [
+    "Race distances offered are 5KM, 10KM, 21KM, and 42KM according to event listings on Takbo.ph and RaceYa",
+    "Venue is Peñaranda Park in Legazpi City, Albay, with the race held on August 16, 2026",
+    "This appears to be a newer edition of a BIGGS-organized wellness run series; a related 'Go Bigg Wellness Run' was previously held (with a 2025 edition referenced on Facebook), though it's unclear if that was the same Legazpi event or a Naga City edition"
+  ],
+  "research_watchouts": [],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-03",
   "faqs": [
     {
       "question": "When is the BIGGS Wellness Run 2026?",
@@ -48,7 +56,7 @@
       "answer": "As of now, the registration status for the BIGGS Wellness Run 2026 has not yet been announced. Interested runners will need to watch for updates from the organizer, BIGGS Inc., regarding when and how to sign up for the event."
     }
   ],
-  "reliability_score": 40,
+  "reliability_score": 43,
   "tags": [
     "full-marathon",
     "philippines"
@@ -58,12 +66,12 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-08-03"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-08-03",
   "status": "active"
 }

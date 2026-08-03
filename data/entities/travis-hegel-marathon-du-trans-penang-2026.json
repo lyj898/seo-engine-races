@@ -48,7 +48,7 @@
       "answer": "Yes, registration for the Travis Hegel Marathon du Trans Penang 2026 is currently listed as open. Runners interested in participating in this full marathon in Gertak Sanggul, Penang, Malaysia, on 30 August 2026 can sign up while registration remains available."
     }
   ],
-  "reliability_score": 85,
+  "reliability_score": 88,
   "tags": [
     "full-marathon",
     "malaysia",
@@ -59,7 +59,7 @@
       "url": "https://www.endurancenature.com.my/race_travis_hegel_marathon_du_trans_penang.cfm",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-31"
+      "last_checked": "2026-08-03"
     },
     {
       "url": "https://checkpointspot.asia/events",
@@ -77,6 +77,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-03",
   "status": "needs_review"
 }

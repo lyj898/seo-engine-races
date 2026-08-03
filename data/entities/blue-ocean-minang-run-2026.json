@@ -58,7 +58,7 @@
       "answer": "The Blue Ocean Minang Run 2026 is held in Kota Padang, Sumatera Barat, which is located in Indonesia. This city serves as the venue for the race, hosting runners across the 21.1km, 10km, and 5km distance categories."
     }
   ],
-  "reliability_score": 82,
+  "reliability_score": 85,
   "tags": [
     "half-marathon",
     "indonesia",
@@ -69,7 +69,7 @@
       "url": "https://bomrun.id",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-31"
+      "last_checked": "2026-08-03"
     },
     {
       "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
@@ -93,6 +93,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-03",
   "status": "needs_review"
 }

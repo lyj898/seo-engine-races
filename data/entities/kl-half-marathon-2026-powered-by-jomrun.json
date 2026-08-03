@@ -28,8 +28,16 @@
   ],
   "cons": [],
   "excerpt_quotes": [],
-  "research_highlights": [],
+  "research_highlights": [
+    "The event offers three distances: 5KM Fun Run, 10KM Fun Run, and 21.1KM (with both Competitive and Non-Competitive/Leisure options).",
+    "For the 21.1KM category, only runners registered under '21.1KM SPEED' are eligible for podium prizes, with results based on gun time — those registered as '21.1KM Leisure' are not entitled to podium placement.",
+    "Only the 21.1KM finishers receive a race bib with a TrackAsia RFID timing chip and an exclusive finisher jersey; 5KM and 10KM runners get a bib without a timing chip.",
+    "In the previous KL Half Marathon (2025) edition, race kit collection was held at Decathlon @ NU Sentral over two days before the event.",
+    "As of the most recent listing, the exact date, time, and venue for the 2026 edition were still marked 'To Be Confirmed' by the organizer."
+  ],
   "research_watchouts": [],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-03",
   "faqs": [
     {
       "question": "When is the KL Half Marathon 2026 Powered By JomRun® taking place?",
@@ -48,7 +56,7 @@
       "answer": "The race starts at Padang Merbok in Kuala Lumpur, Malaysia, with a flag-off time of 3:30 AM. This central venue serves as the starting point for all three distance categories offered at the KL Half Marathon 2026 Powered By JomRun®."
     }
   ],
-  "reliability_score": 54,
+  "reliability_score": 57,
   "tags": [
     "10k",
     "malaysia"
@@ -58,7 +66,7 @@
       "url": "https://www.jomrun.com/event/KL-Half-Marathon-2026-Powered-By-JomRun",
       "label": "jomrun.com",
       "type": "aggregator",
-      "last_checked": "2026-07-31"
+      "last_checked": "2026-08-03"
     },
     {
       "url": "https://www.jomrun.com/event/Malaysia-Negaraku-Run-powered-by-JomRun-Kuala-Lumpur",
@@ -76,6 +84,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-03",
   "status": "active"
 }

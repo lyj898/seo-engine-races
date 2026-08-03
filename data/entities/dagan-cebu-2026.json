@@ -30,6 +30,8 @@
     "Registration status is not yet announced, so sign-up details are unavailable"
   ],
   "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
   "faqs": [
     {
       "question": "When is Dagan Cebu 2026 taking place?",
@@ -48,7 +50,7 @@
       "answer": "As of now, the registration status for Dagan Cebu 2026 has not yet been announced. Prospective participants will need to wait for further updates from the organizer, KNC, regarding when and how registration will become available for this event."
     }
   ],
-  "reliability_score": 40,
+  "reliability_score": 35,
   "tags": [
     "half-marathon",
     "philippines"
@@ -58,12 +60,12 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-08-03"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-08-03",
   "status": "active"
 }

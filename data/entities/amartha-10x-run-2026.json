@@ -50,7 +50,7 @@
       "answer": "Registration prices for the Amartha 10X Run start from IDR 450,000. This is listed as the starting price point, though exact pricing may vary depending on the distance selected or registration category. Registration for the event is currently open."
     }
   ],
-  "reliability_score": 85,
+  "reliability_score": 88,
   "tags": [
     "half-marathon",
     "indonesia",
@@ -61,7 +61,7 @@
       "url": "https://amartha10xrun.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-31"
+      "last_checked": "2026-08-03"
     },
     {
       "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
@@ -85,6 +85,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-03",
   "status": "active"
 }

@@ -44,7 +44,7 @@
       "answer": "The Kota Belud Half Marathon 2026 is held in Kota Belud, located in the state of Sabah, Malaysia. Kota Belud serves as both the venue and the city for this half-marathon event, which is scheduled to take place on November 8, 2026."
     }
   ],
-  "reliability_score": 15,
+  "reliability_score": 0,
   "tags": [
     "half-marathon",
     "malaysia"
@@ -66,6 +66,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-03",
   "status": "needs_review"
 }

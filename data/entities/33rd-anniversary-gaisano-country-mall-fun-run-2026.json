@@ -31,6 +31,8 @@
     "Pricing information is only listed for the 21km and 12km categories, not the 6km race"
   ],
   "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
   "faqs": [
     {
       "question": "When is the 33rd Anniversary Gaisano Country Mall Fun Run 2026 taking place?",
@@ -49,7 +51,7 @@
       "answer": "Registration pricing varies by distance category: the 21-kilometer race costs PHP 1,500, while the 12-kilometer race is priced at PHP 1,200. These fees allow participants to join Gaisano Country Mall's charity fun run supporting SOS Children's Village, held on Banilad Road, Cebu City on October 18, 2026."
     }
   ],
-  "reliability_score": 58,
+  "reliability_score": 53,
   "tags": [
     "half-marathon",
     "philippines"
@@ -59,12 +61,12 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-08-03"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-08-03",
   "status": "active"
 }

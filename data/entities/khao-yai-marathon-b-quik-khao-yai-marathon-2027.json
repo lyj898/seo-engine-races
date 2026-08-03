@@ -16,6 +16,7 @@
       2
     ],
     "primary_distance_km": 42.195,
+    "organizer": "Race Up Work Co., Ltd.",
     "registration_status": "not_yet_announced",
     "venue": "Pak Chong, Nakhon Ratchasima",
     "city": "Pak Chong, Nakhon Ratchasima",
@@ -61,7 +62,7 @@
       "url": "https://khaoyaimarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-31"
+      "last_checked": "2026-08-03"
     },
     {
       "url": "https://aims-worldrunning.org/calendar.html",
@@ -79,6 +80,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-03",
   "status": "needs_review"
 }

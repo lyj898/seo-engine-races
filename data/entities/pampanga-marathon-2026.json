@@ -30,6 +30,8 @@
     "Registration status is not yet announced, so sign-up details are unavailable"
   ],
   "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
   "faqs": [
     {
       "question": "Where is the Pampanga Marathon 2026 held?",
@@ -48,7 +50,7 @@
       "answer": "The Pampanga Marathon 2026 is organized by SMOKE10 Events, a company responsible for coordinating the race set to take place on September 13, 2026, at the CDC Clark Parade Grounds in Angeles City / Clark, Pampanga, Philippines."
     }
   ],
-  "reliability_score": 40,
+  "reliability_score": 35,
   "tags": [
     "full-marathon",
     "philippines"
@@ -58,12 +60,12 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-08-03"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-08-03",
   "status": "active"
 }

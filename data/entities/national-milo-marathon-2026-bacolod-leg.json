@@ -51,7 +51,7 @@
       "answer": "The National MILO Marathon 2026 – Bacolod Leg is organized by RUNRIO Inc., which runs the MILO Marathon series. RUNRIO Inc. is responsible for organizing this event as part of the broader national MILO Marathon program held across the Philippines."
     }
   ],
-  "reliability_score": 50,
+  "reliability_score": 45,
   "tags": [
     "half-marathon",
     "philippines"
@@ -61,7 +61,7 @@
       "url": "https://www.milo.com.ph/national-milo-marathon",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-31"
+      "last_checked": "2026-08-03"
     },
     {
       "url": "https://pinoyfitness.com/2026/01/milo-marathon-2026-full-race-schedule-and-locations-unveiled",
@@ -79,6 +79,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-03",
   "status": "active"
 }

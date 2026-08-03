@@ -52,7 +52,7 @@
       "answer": "Registration for the Malaysia Marathon 2026 opens on 5 May 2026 at 10:00 AM Malaysian Standard Time (MYT). Runners interested in securing a place in the full marathon, half marathon, 10km, or 5km races should be ready to register at that specific date and time."
     }
   ],
-  "reliability_score": 88,
+  "reliability_score": 91,
   "tags": [
     "full-marathon",
     "malaysia",
@@ -63,7 +63,7 @@
       "url": "https://malaysiamarathonofficial.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-31"
+      "last_checked": "2026-08-03"
     },
     {
       "url": "https://www.heyjom.com/event/malaysia-marathon-2026",
@@ -81,6 +81,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-03",
   "status": "needs_review"
 }

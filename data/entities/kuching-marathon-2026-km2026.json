@@ -52,7 +52,7 @@
       "answer": "The Kuching Marathon 2026 is organized by the Kuching Marathon Association, based in Kuching, Sarawak, Malaysia. The association oversees the event, which takes place at Padang Merdeka and includes full marathon, half marathon, 10km, and 5km distance options for participants."
     }
   ],
-  "reliability_score": 91,
+  "reliability_score": 94,
   "tags": [
     "full-marathon",
     "malaysia",
@@ -63,7 +63,7 @@
       "url": "https://marathonkuching.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-31"
+      "last_checked": "2026-08-03"
     },
     {
       "url": "https://aims-worldrunning.org/calendar.html",
@@ -93,6 +93,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-03",
   "status": "needs_review"
 }

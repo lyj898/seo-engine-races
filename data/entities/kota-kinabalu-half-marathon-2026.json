@@ -28,8 +28,16 @@
     "Registration status is not yet announced, so sign-up details are unavailable"
   ],
   "excerpt_quotes": [],
-  "research_highlights": [],
+  "research_highlights": [
+    "The 2026 edition (16 August 2026, Sunday) is organised by JomRun and offers three distances: 5KM, 10KM and 21.1KM, with the course finishing at Likas Stadium in Kota Kinabalu.",
+    "This JomRun-branded 'Kota Kinabalu City Half Marathon' is part of the 'JomRun Half Marathon Series – Borneo', linking it with sister races in Kuching, Bintulu and Miri (finishers of all four can earn an exclusive series medal).",
+    "Runner entitlements listed by the organiser include an Ultron® event jersey, a finisher medal, an e-certificate and (for 21.1KM finishers) a separate Ultron® finisher jersey, with the 21.1KM bib carrying a TrackAsia RFID timing chip.",
+    "Race-day expo/bib collection for the 2025 edition ran over three days (14–16 August 2025) at Tapak Dataran Kompleks Sukan Likas, suggesting a similar multi-day pre-race pack pickup is likely for 2026.",
+    "Note: Kota Kinabalu also hosts a separate, older 'Borneo Half Marathon' (run every February with Kinabalu Running Club and Kota Kinabalu City Hall) and the 'Borneo International Marathon' (every May) — these are distinct events from this JomRun August half marathon, so reviews of those races should not be assumed to apply here."
+  ],
   "research_watchouts": [],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-03",
   "faqs": [
     {
       "question": "When is the Kota Kinabalu Half Marathon?",
@@ -48,7 +56,7 @@
       "answer": "The race takes place in Kota Kinabalu, Malaysia, with the venue located at Karamunsing. This location serves as the base for the event, which includes the 21.1km half marathon along with the shorter 10km and 5km races."
     }
   ],
-  "reliability_score": 18,
+  "reliability_score": 3,
   "tags": [
     "half-marathon",
     "malaysia"
@@ -70,6 +78,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-03",
   "status": "needs_review"
 }

@@ -87,7 +87,7 @@
       "answer": "The event offers four distances: a Full Marathon (42.195km), a Half Marathon (21.1km), a Para 10K category, and a 5K Fun Run. This range makes the event accessible to competitive marathoners, first-time half-marathon runners, para-athletes, and casual participants at the same race weekend."
     }
   ],
-  "reliability_score": 60,
+  "reliability_score": 45,
   "tags": [
     "full-marathon",
     "half-marathon",
@@ -120,6 +120,6 @@
     "nong-khai-running-festival-2026",
     "bank-jateng-borobudur-marathon-2026"
   ],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-03",
   "status": "needs_review"
 }

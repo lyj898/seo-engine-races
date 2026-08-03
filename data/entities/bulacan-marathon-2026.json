@@ -18,7 +18,7 @@
     "organizer": "Team Malofit x Pairfect Fit",
     "registration_status": "Open",
     "venue": "SM Center Pulilan",
-    "city": "Pulilan, Bulacan",
+    "city": "Plaridel, Bulacan",
     "country": "Philippines"
   },
   "pros": [
@@ -66,7 +66,7 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-08-03"
     }
   ],
   "affiliate_links": [],
@@ -78,6 +78,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-31",
-  "status": "active"
+  "last_updated": "2026-08-03",
+  "status": "needs_review"
 }

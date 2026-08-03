@@ -46,7 +46,7 @@
       "answer": "The race takes place at Dataran Air Papan, which is situated in Mersing, a town in the state of Johor, Malaysia. This venue serves as the starting point for all three distance categories offered at this event: the 5km, 10km, and 21.1km half marathon."
     }
   ],
-  "reliability_score": 48,
+  "reliability_score": 51,
   "tags": [
     "half-marathon",
     "malaysia"
@@ -56,7 +56,7 @@
       "url": "https://www.jomrun.com/event/Mersing-Half-Marathon-Powered-by-JomRun",
       "label": "jomrun.com",
       "type": "aggregator",
-      "last_checked": "2026-07-31"
+      "last_checked": "2026-08-03"
     }
   ],
   "affiliate_links": [],
@@ -68,6 +68,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-03",
   "status": "needs_review"
 }

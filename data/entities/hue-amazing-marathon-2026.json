@@ -53,7 +53,7 @@
       "answer": "The event is organized by BOLT EVENT, which runs it as part of their broader 'Amazing Marathon Vietnam Series.' This series appears to host similar marathon events across different Vietnamese cities, with the Huế edition being one instance scheduled for the 2026 race calendar."
     }
   ],
-  "reliability_score": 58,
+  "reliability_score": 53,
   "tags": [
     "full-marathon",
     "vietnam"
@@ -63,7 +63,7 @@
       "url": "https://www.worldsmarathons.com",
       "label": "worldsmarathons.com",
       "type": "aggregator",
-      "last_checked": "2026-07-31"
+      "last_checked": "2026-08-03"
     },
     {
       "url": "https://actiup.net",
@@ -87,6 +87,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-03",
   "status": "active"
 }

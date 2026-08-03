@@ -28,6 +28,8 @@
   ],
   "cons": [],
   "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
   "faqs": [
     {
       "question": "When is the Bohol International Marathon 2026 taking place?",
@@ -46,7 +48,7 @@
       "answer": "Participants in the Bohol International Marathon 2026 can choose from four distances: a full marathon of 42.195km, a half marathon of 21.1km, a 10km race, and a 5km race, allowing runners of varying experience levels to take part."
     }
   ],
-  "reliability_score": 55,
+  "reliability_score": 58,
   "tags": [
     "full-marathon",
     "philippines"
@@ -56,7 +58,7 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-08-03"
     }
   ],
   "affiliate_links": [],
@@ -68,6 +70,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-08-03",
   "status": "active"
 }

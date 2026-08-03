@@ -46,7 +46,7 @@
       "answer": "Yes, registration for the Sabah Half Marathon Powered by JomRun® is currently open. Interested runners can sign up now for one of the available distances -- 5km, 10km, or 21.1km -- ahead of the December 13, 2026 race date in Kota Kinabalu."
     }
   ],
-  "reliability_score": 48,
+  "reliability_score": 51,
   "tags": [
     "half-marathon",
     "malaysia"
@@ -56,7 +56,7 @@
       "url": "https://www.jomrun.com/event/Sabah-Half-Marathon-Powered-by-JomRun",
       "label": "jomrun.com",
       "type": "aggregator",
-      "last_checked": "2026-07-31"
+      "last_checked": "2026-08-03"
     }
   ],
   "affiliate_links": [],
@@ -68,6 +68,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-03",
   "status": "needs_review"
 }

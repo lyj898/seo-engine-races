@@ -30,8 +30,15 @@
     "Registration status is not yet confirmed as open, so runners cannot sign up yet"
   ],
   "excerpt_quotes": [],
-  "research_highlights": [],
+  "research_highlights": [
+    "The Dipolog City leg offers four distance categories: 3K, 5K, 10K, and 21K.",
+    "This 2026 edition falls within the MILO Marathon's 50th anniversary 'Golden Run' series, which spans 15 city legs nationwide before the National Finals in Clark City, Pampanga.",
+    "Dipolog City has hosted MILO Marathon qualifying legs before — the city first joined the series' Western Mindanao expansion back in 2006 during the marathon's 30th anniversary season.",
+    "The race is organized by RUNRIO Inc. in partnership with Nestlé Philippines, the Department of Education, Philippine Sports Commission, and Philippine Olympic Committee, with roughly 70% of the expected 300,000 nationwide participants being students."
+  ],
   "research_watchouts": [],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-03",
   "faqs": [
     {
       "question": "When is the National MILO Marathon 2026 – Dipolog City Leg?",
@@ -50,7 +57,7 @@
       "answer": "As of now, registration for the National MILO Marathon 2026 – Dipolog City Leg has not yet been confirmed as open. Prospective participants should check back for updates regarding registration details, including sign-up dates, fees, and any other requirements once they become available."
     }
   ],
-  "reliability_score": 55,
+  "reliability_score": 50,
   "tags": [
     "half-marathon",
     "philippines"
@@ -60,7 +67,7 @@
       "url": "https://www.milo.com.ph/national-milo-marathon",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-31"
+      "last_checked": "2026-08-03"
     },
     {
       "url": "https://www.milo.com.ph/sites/default/files/2026-01/2026_nmm_race_calendar.jpg",
@@ -84,6 +91,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-03",
   "status": "active"
 }

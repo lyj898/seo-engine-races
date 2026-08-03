@@ -30,21 +30,68 @@
     "Verification relies on a single official source domain rather than multiple independent aggregators"
   ],
   "sentiment_scores": {
-    "overall": 88,
+    "overall": 78,
     "breakdown": [
       {
-        "label": "Source verification confidence",
-        "score": 93
+        "label": "Course scenery/coastal route",
+        "score": 90
       },
       {
-        "label": "Information completeness",
-        "score": 84
+        "label": "Organization/logistics (aid stations, expo, medical support)",
+        "score": 82
+      },
+      {
+        "label": "Heat/weather conditions",
+        "score": 55
+      },
+      {
+        "label": "Luong Son Pass climb difficulty",
+        "score": 60
       }
     ]
   },
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "excerpt_quotes": [
+    {
+      "quote": "Đây cũng là một trong những sự kiện được tổ chức tốt nhất mà tôi từng tham gia.",
+      "attribution": "Runner Mauritz, quoted on Playnutrition.vn",
+      "source_url": "https://playnutrition.vn/runner-nuoc-ngoai-chinh-phuc-duong-chay-vm-nha-trang/"
+    },
+    {
+      "quote": "Đường chạy có đoạn hơi dốc, nhưng nhìn chung mọi thứ rất tốt.",
+      "attribution": "Runner Alex (UK, expat in Vietnam), quoted on Playnutrition.vn",
+      "source_url": "https://playnutrition.vn/runner-nuoc-ngoai-chinh-phuc-duong-chay-vm-nha-trang/"
+    },
+    {
+      "quote": "Đường đua tại đây bằng phẳng, rộng, có chất lượng hoàn thiện tốt.",
+      "attribution": "Race coverage, Tiền Phong newspaper",
+      "source_url": "https://tienphong.vn/runner-vnexpress-marathon-khuay-dong-do-thi-bien-libera-nha-trang-post1775113.tpo"
+    },
+    {
+      "quote": "Địa hình ở Nha Trang khá đa dạng với điểm nhấn là đoạn đường dốc trên đèo.",
+      "attribution": "Elite runner comment, VnExpress Thể thao",
+      "source_url": "https://vnexpress.net/elite-runner-khong-ngai-duong-doc-tai-vm-nha-trang-4504630.html"
+    },
+    {
+      "quote": "Nhiều runner \"sụp hố\" ở km 25-30 không phải vì thiếu thể lực, mà do không điều chỉnh chiến thuật theo điều kiện thời tiết ngay từ đầu.",
+      "attribution": "VnExpress Marathon Nha Trang 2026 topic page, VnExpress",
+      "source_url": "https://vnexpress.net/topic/vnexpress-marathon-nha-trang-2026-28965"
+    }
+  ],
+  "research_highlights": [
+    "Course runs along Nha Trang's iconic Tran Phu and Pham Van Dong coastal roads with sunrise starts (full marathon typically starts around 3am), plus a climb over Luong Son Pass (roughly up to 60m elevation) that is the main challenge for the 21km and 42km distances.",
+    "For 2025 the route was shortened on the pass section (about a 7km climb instead of ~10km previously) and the half marathon no longer includes the pass, with a finish near Quang Truong 2/4 square.",
+    "The event has grown steadily — from about 8,500 runners at its 2022 debut to roughly 13,000 in 2025 — and is run as a multi-day 'race-cation' weekend with an expo, race-kit pickup and side events.",
+    "Race-day weather is described as generally hot for Vietnam summer (organizers and past coverage cite temperatures commonly in the high-20s to low-30s °C around race time, though some editions reported cooler, even rainy conditions).",
+    "Aid stations, medical points and toilets are placed at regular intervals along the course, with extra lighting installed on newer sections (e.g., through the Libera Nha Trang urban area) for nighttime running."
+  ],
+  "research_watchouts": [
+    "Heat and humidity are a recurring theme — organizer and news coverage repeatedly warn that many runners lose pace or drop out around km 25-30 due to heat-related fatigue rather than lack of fitness.",
+    "The Luong Son Pass climb is consistently flagged by runners and elites as the toughest technical/physical section, requiring extra hydration/electrolyte planning and shoe choice with more cushioning and grip for the descent.",
+    "Course details change from year to year (route length on the pass, finish area, start location), so runners should check the current year's official map rather than assume it matches a prior edition.",
+    "BIBs are not sent in advance for the 2026 edition — runners must collect their bib number in person at race-kit pickup rather than receiving it by email beforehand."
+  ],
+  "research_confidence": "medium",
+  "research_last_updated": "2026-08-03",
   "faqs": [
     {
       "question": "When is the VnExpress Marathon Nha Trang, and when does registration close?",
@@ -59,7 +106,7 @@
       "answer": "Four distances are available: a Full Marathon, a Half Marathon, a 10km, and a 5km, all starting in the coastal city of Nha Trang. This spread lets everything from first-time 5km runners to full-marathon veterans take part in the same race weekend."
     }
   ],
-  "reliability_score": 96,
+  "reliability_score": 99,
   "tags": [
     "full-marathon",
     "half-marathon",
@@ -72,7 +119,7 @@
       "url": "https://vm.vnexpress.net/nha-trang-2026",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-31"
+      "last_checked": "2026-08-03"
     }
   ],
   "affiliate_links": [],
@@ -92,6 +139,6 @@
     "bank-jateng-borobudur-marathon-2026",
     "nong-khai-running-festival-2026"
   ],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-03",
   "status": "needs_review"
 }

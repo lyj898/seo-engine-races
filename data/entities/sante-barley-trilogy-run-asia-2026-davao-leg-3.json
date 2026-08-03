@@ -50,7 +50,7 @@
       "answer": "As of now, the registration status for this race has not yet been announced. Interested participants will need to watch for further updates from the organizer, Runrio, regarding when and how to sign up for the Davao Leg 3 event."
     }
   ],
-  "reliability_score": 70,
+  "reliability_score": 65,
   "tags": [
     "half-marathon",
     "philippines",
@@ -61,7 +61,7 @@
       "url": "https://runrio.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-31"
+      "last_checked": "2026-08-03"
     },
     {
       "url": "https://runrio.com/race-calendar",
@@ -79,6 +79,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-03",
   "status": "active"
 }

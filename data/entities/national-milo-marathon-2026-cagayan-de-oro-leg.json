@@ -29,9 +29,27 @@
     "Centrally located venue at Centrio Mall, Corrales Avenue, in Cagayan de Oro City"
   ],
   "cons": [],
-  "excerpt_quotes": [],
-  "research_highlights": [],
+  "excerpt_quotes": [
+    {
+      "quote": "Capping off 2023 with 5 legs with the last one here in CDO as the city's biggest race and the first marathon to run in the newly opened boulevard which makes this leg more special for the Kagay-anons",
+      "attribution": "Milo Sports head Carlo Sampan, quoted in Sunstar Cagayan de Oro",
+      "source_url": "https://www.sunstar.com.ph/cagayan-de-oro/over-9300-runners-join-oro-leg-of-milo-marathon"
+    },
+    {
+      "quote": "This win is not just for me, but for everyone who believes in the power of hard work and perseverance",
+      "attribution": "Christine Hallasgo, 2024 Milo Marathon Queen, quoted in Sports Bytes Philippines",
+      "source_url": "https://sportsbytes.com.ph/2024/12/05/salano-hallasgo-milo-marathon-champions/"
+    }
+  ],
+  "research_highlights": [
+    "The 2023 Cagayan de Oro leg drew over 9,300 runners across 21K, 10K, 5K and 3K categories, and was notable as the first marathon to run along the city's newly opened boulevard.",
+    "In 2024, Cagayan de Oro hosted the National Finals for the first time ever in Mindanao, with over 12,600 participants and, for the first time, a 42K category in the city, with the course running from Velez Street to Tagoloan town in Misamis Oriental.",
+    "The race is organized by RUNRIO Inc. with local partners, and has historically included pre-race community events such as a City Hall-hosted carbo-loading dinner for qualifiers.",
+    "The event has previously been livestreamed on MILO social media platforms, drawing large national viewership when Cagayan de Oro hosted the Finals."
+  ],
   "research_watchouts": [],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-03",
   "faqs": [
     {
       "question": "When is the National MILO Marathon 2026 – Cagayan de Oro Leg taking place?",
@@ -50,7 +68,7 @@
       "answer": "Yes, registration for the National MILO Marathon 2026 – Cagayan de Oro Leg is currently open. Interested participants can sign up ahead of the August 23, 2026 race date to secure their spot in one of the available distance categories."
     }
   ],
-  "reliability_score": 65,
+  "reliability_score": 60,
   "tags": [
     "half-marathon",
     "philippines"
@@ -60,7 +78,7 @@
       "url": "https://www.milo.com.ph/national-milo-marathon",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-31"
+      "last_checked": "2026-08-03"
     },
     {
       "url": "https://pinoyfitness.com/2026/01/milo-marathon-2026-full-race-schedule-and-locations-unveiled",
@@ -78,6 +96,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-03",
   "status": "active"
 }

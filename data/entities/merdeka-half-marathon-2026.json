@@ -25,8 +25,16 @@
   ],
   "cons": [],
   "excerpt_quotes": [],
-  "research_highlights": [],
+  "research_highlights": [
+    "The race starts and finishes at Dataran Merdeka in Kuala Lumpur City Centre, an iconic downtown square.",
+    "The event is co-organised by Jabatan Belia dan Sukan WPKL and Kita Pelari Malaysia, with Pure Events and Persatuan Olahraga WP as technical organiser, supported by DBKL.",
+    "Race kit (bib, T-shirt, etc.) must be collected during a designated pick-up period before race day; kits will not be issued after that window closes.",
+    "The event is open to Malaysian residents and non-Malaysians with valid residency, age 5 and above, per official rules.",
+    "Race date is August 23, 2026 (Sunday), during Malaysia's Merdeka (independence) season, a period known for warm, humid conditions typical of KL in August."
+  ],
   "research_watchouts": [],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-03",
   "faqs": [
     {
       "question": "When is the Merdeka Half Marathon 2026?",
@@ -45,7 +53,7 @@
       "answer": "The Merdeka Half Marathon 2026 is organized by JBSKL x KPM. The event will be held on August 23, 2026, at Dataran Merdeka in Kuala Lumpur, Malaysia, featuring a 21.1 km half-marathon distance, with registration currently open for interested runners."
     }
   ],
-  "reliability_score": 30,
+  "reliability_score": 15,
   "tags": [
     "half-marathon",
     "malaysia"
@@ -67,6 +75,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-03",
   "status": "needs_review"
 }

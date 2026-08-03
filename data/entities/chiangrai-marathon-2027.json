@@ -47,7 +47,7 @@
       "answer": "The Chiangrai Marathon will be held in the city of Chiang Rai, located in Thailand. However, the specific venue details for this edition of the race have not yet been confirmed this pass, so runners should check back for further updates on the exact location."
     }
   ],
-  "reliability_score": 65,
+  "reliability_score": 60,
   "tags": [
     "full-marathon",
     "thailand"
@@ -57,7 +57,7 @@
       "url": "https://www.ahotu.com/event/chiangrai-marathon",
       "label": "ahotu.com",
       "type": "aggregator",
-      "last_checked": "2026-07-31"
+      "last_checked": "2026-08-03"
     }
   ],
   "affiliate_links": [],
@@ -69,6 +69,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-03",
   "status": "active"
 }

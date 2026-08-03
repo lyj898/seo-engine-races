@@ -51,7 +51,7 @@
       "answer": "The race is scheduled for November 29, 2026, and will be held at Dataran Merdeka, a well-known landmark in Kuala Lumpur, Malaysia. Runners can choose from 21.1km, 10km, or 5.5km distances at this central city-based venue."
     }
   ],
-  "reliability_score": 65,
+  "reliability_score": 68,
   "tags": [
     "half-marathon",
     "malaysia"
@@ -61,7 +61,7 @@
       "url": "https://www.racexasia.com/event/pos-malaysia-run-2026-posm26",
       "label": "racexasia.com",
       "type": "aggregator",
-      "last_checked": "2026-07-31"
+      "last_checked": "2026-08-03"
     }
   ],
   "affiliate_links": [],
@@ -73,6 +73,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-03",
   "status": "needs_review"
 }

@@ -54,7 +54,7 @@
       "answer": "The race is organized by DHA Vietnam, with Standard Chartered serving as the title sponsor. This partnership is reflected in the event's name, the Standard Chartered Hanoi Marathon Heritage Race, scheduled to take place on November 8, 2026."
     }
   ],
-  "reliability_score": 73,
+  "reliability_score": 76,
   "tags": [
     "full-marathon",
     "vietnam",
@@ -65,7 +65,7 @@
       "url": "https://hanoi-marathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-31"
+      "last_checked": "2026-08-03"
     },
     {
       "url": "https://hanoi-marathon.com/",
@@ -89,6 +89,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-03",
   "status": "needs_review"
 }

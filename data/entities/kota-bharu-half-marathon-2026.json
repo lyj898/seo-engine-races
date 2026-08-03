@@ -51,7 +51,7 @@
       "answer": "The Kota Bharu Half Marathon 2026 is jointly organized by Yayasan KB Care, a foundation, and the Kerajaan Negeri Kelantan, which is the Kelantan state government. This partnership suggests a combination of community and governmental support behind the planning and execution of the event."
     }
   ],
-  "reliability_score": 85,
+  "reliability_score": 88,
   "tags": [
     "half-marathon",
     "malaysia",
@@ -62,7 +62,7 @@
       "url": "https://kbhalf.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-31"
+      "last_checked": "2026-08-03"
     },
     {
       "url": "https://checkpointspot.asia/events",
@@ -80,6 +80,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-03",
   "status": "needs_review"
 }

@@ -30,6 +30,9 @@
     "Registration status has not yet been announced, so entry details are unavailable"
   ],
   "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "research_last_updated": "2026-08-03",
   "faqs": [
     {
       "question": "When is the Subic Bay Freeport Zone 32KM Challenge 2026?",
@@ -48,7 +51,7 @@
       "answer": "As of now, the registration status for this race has not yet been announced. Prospective participants interested in the 32KM, 21.1KM, 10KM, or 5KM distances should watch for further updates from the organizer, JCIR Events, regarding when sign-ups will become available."
     }
   ],
-  "reliability_score": 40,
+  "reliability_score": 43,
   "tags": [
     "half-marathon",
     "philippines"
@@ -58,12 +61,12 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-08-03"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-08-03",
   "status": "active"
 }

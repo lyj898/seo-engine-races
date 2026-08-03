@@ -29,9 +29,23 @@
   "cons": [
     "Registration status is not yet confirmed as open, so details for signing up are unavailable"
   ],
-  "excerpt_quotes": [],
-  "research_highlights": [],
+  "excerpt_quotes": [
+    {
+      "quote": "I am very pleased with my win. The route was good. I set my pace with the male runners during the entire race",
+      "attribution": "Liza Ambasa (21K winner), quoted in MILO Marathon news release, Kalongkong Hiker",
+      "source_url": "https://kalongkong.wordpress.com/2014/11/18/milo-news-release-general-santos-city-leg-of-the-38th-national-milo-marathon/"
+    }
+  ],
+  "research_highlights": [
+    "The General Santos leg is part of the 2026 National MILO Marathon's 50th anniversary ('The Golden Run') calendar, one of 15 legs nationwide with the National Finals in Clark City, Pampanga on December 6.",
+    "Distances offered at the GenSan leg are 3K, 5K, 10K and 21K, with a listed evening flag-off around 6:05pm.",
+    "Per official 2024 race mechanics from RUNRIO, category cut-off times are 6 hours for the 42.195K, 2.5 hours for the 21K and 1.5 hours for the 10K, counted from each category's own start.",
+    "Runners must secure a signed 'Fit-To-Run' medical certificate within two months of race day to join the 21K/42K categories, per the official rules.",
+    "The GenSan leg has historically been one of the larger provincial legs — the 2014 edition drew over 9,300 runners, described at the time as the biggest race in General Santos City to date."
+  ],
   "research_watchouts": [],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-03",
   "faqs": [
     {
       "question": "When is the National MILO Marathon 2026 – General Santos City Leg scheduled?",
@@ -50,7 +64,7 @@
       "answer": "Registration for the National MILO Marathon 2026 – General Santos City Leg is not yet confirmed as open. Prospective participants should check back for updates, as no official registration opening date or process has been announced at this time."
     }
   ],
-  "reliability_score": 55,
+  "reliability_score": 50,
   "tags": [
     "half-marathon",
     "philippines"
@@ -60,7 +74,7 @@
       "url": "https://www.milo.com.ph/national-milo-marathon",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-31"
+      "last_checked": "2026-08-03"
     },
     {
       "url": "https://www.milo.com.ph/sites/default/files/2026-01/2026_nmm_race_calendar.jpg",
@@ -84,6 +98,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-03",
   "status": "active"
 }

@@ -48,7 +48,7 @@
       "answer": "The race is held in Da Nang, a city in Vietnam, and this location serves as the venue for the event. Da Nang hosts all three distance categories of the race, the full marathon, half marathon, and 10 km, making it the central hub for participants traveling to the event."
     }
   ],
-  "reliability_score": 80,
+  "reliability_score": 75,
   "tags": [
     "full-marathon",
     "vietnam",
@@ -59,7 +59,7 @@
       "url": "https://rundanang.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-31"
+      "last_checked": "2026-08-03"
     }
   ],
   "affiliate_links": [],
@@ -71,6 +71,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-03",
   "status": "active"
 }

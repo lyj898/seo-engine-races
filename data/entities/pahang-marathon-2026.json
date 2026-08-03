@@ -47,7 +47,7 @@
       "answer": "The Pahang Marathon 2026 is organized by Persatuan Orang Muda Pahang KL (POMPKL) and Kita Pelari Malaysia, working in partnership with Pure Events. Together, these organizations are responsible for coordinating the race, which is set to be held in Kuantan, Pahang, Malaysia."
     }
   ],
-  "reliability_score": 25,
+  "reliability_score": 10,
   "tags": [
     "full-marathon",
     "malaysia"
@@ -69,6 +69,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-03",
   "status": "needs_review"
 }

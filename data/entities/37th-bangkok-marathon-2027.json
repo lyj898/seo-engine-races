@@ -48,7 +48,7 @@
       "answer": "Registration for the 37th Bangkok Marathon has not yet opened. According to the available information, nationwide registration is set to begin on July 1, 2026, so prospective participants will need to wait until that date to sign up."
     }
   ],
-  "reliability_score": 70,
+  "reliability_score": 65,
   "tags": [
     "full-marathon",
     "thailand",
@@ -59,7 +59,7 @@
       "url": "https://bkkmarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-31"
+      "last_checked": "2026-08-03"
     },
     {
       "url": "https://race.thai.run/bangkokmarathon2026foreigner",
@@ -77,6 +77,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-03",
   "status": "active"
 }

@@ -30,8 +30,16 @@
   ],
   "cons": [],
   "excerpt_quotes": [],
-  "research_highlights": [],
+  "research_highlights": [
+    "The 2026 edition is an 11-race-history event (rebranded from the Sarawak Energy Isthmus Run, first held in 2013), with four categories: 42km full marathon, 21km half marathon, 10km competitive run and 5km fun run.",
+    "Full marathon flag-off is scheduled for 1am from Sarawak Energy Menara, likely to avoid Kuching's daytime heat and humidity.",
+    "The route passes major Kuching landmarks including the Darul Hana Bridge, Sarawak Legislative Assembly Building, Borneo Cultures Museum, the Kuching cat statue, Kuching Waterfront, Juma'ani Bridge and Satria Pertiwi Complex.",
+    "All routes are AIMS-certified (Association of International Marathons and Distance Races), a new international accreditation added for the 2025/2026 editions.",
+    "Registration fees are reported as among the lowest for a full marathon in the region (RM90 full marathon, RM70 half marathon, RM60 10km, RM40 5km), with 100% of proceeds going to charity."
+  ],
   "research_watchouts": [],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-03",
   "faqs": [
     {
       "question": "When is the Sarawak Energy Marathon 2026 held?",
@@ -50,7 +58,7 @@
       "answer": "The Sarawak Energy Marathon 2026 is organized by Sarawak Energy Berhad. The race is based at Menara Sarawak Energy in Kuching, Sarawak, Malaysia, serving as both the venue and the host city for this multi-distance running event."
     }
   ],
-  "reliability_score": 91,
+  "reliability_score": 94,
   "tags": [
     "full-marathon",
     "malaysia",
@@ -61,7 +69,7 @@
       "url": "https://sarawakenergymarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-31"
+      "last_checked": "2026-08-03"
     },
     {
       "url": "https://sarawakenergy.com",
@@ -91,6 +99,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-03",
   "status": "needs_review"
 }

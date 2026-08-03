@@ -52,7 +52,7 @@
       "answer": "As of the information available, registration for Bayan Run 2026 has not yet been announced. Prospective participants will need to wait for further updates regarding sign-up dates, fees, and entry procedures before they can register for any of the offered distances."
     }
   ],
-  "reliability_score": 82,
+  "reliability_score": 85,
   "tags": [
     "half-marathon",
     "indonesia",
@@ -63,7 +63,7 @@
       "url": "https://bayanrun.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-31"
+      "last_checked": "2026-08-03"
     },
     {
       "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
@@ -87,6 +87,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-03",
   "status": "needs_review"
 }

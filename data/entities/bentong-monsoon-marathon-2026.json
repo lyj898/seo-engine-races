@@ -45,7 +45,7 @@
       "answer": "The Bentong Monsoon Marathon 2026 is held in Janda Baik, located in Bentong, Pahang, Malaysia. This venue hosts both the full marathon and half marathon distances on November 28, 2026, making it the central location for all race-day activities and participant logistics."
     }
   ],
-  "reliability_score": 25,
+  "reliability_score": 10,
   "tags": [
     "full-marathon",
     "malaysia"
@@ -67,6 +67,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-03",
   "status": "needs_review"
 }

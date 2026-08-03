@@ -48,7 +48,7 @@
       "answer": "Yes, registration for the PUMA Philippine Half Marathon Series — Manila Leg is currently open. Interested runners can sign up to participate in one of the three available distances: the 21.1km half marathon, the 10km race, or the 5km race at SM Mall of Asia Complex."
     }
   ],
-  "reliability_score": 80,
+  "reliability_score": 75,
   "tags": [
     "half-marathon",
     "philippines",
@@ -59,7 +59,7 @@
       "url": "https://runrio.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-31"
+      "last_checked": "2026-08-03"
     },
     {
       "url": "https://runrio.com/race-calendar/",
@@ -77,6 +77,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-03",
   "status": "active"
 }

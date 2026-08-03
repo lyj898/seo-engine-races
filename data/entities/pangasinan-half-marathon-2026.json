@@ -29,6 +29,8 @@
     "Registration status is not yet announced, so entry details are unavailable"
   ],
   "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
   "faqs": [
     {
       "question": "When is the Pangasinan Half Marathon 2026?",
@@ -47,7 +49,7 @@
       "answer": "As of now, registration for the Pangasinan Half Marathon 2026 has not yet been announced. Prospective participants should watch for updates from the organizer, UR Events, regarding when registration will open and how to sign up for the race."
     }
   ],
-  "reliability_score": 40,
+  "reliability_score": 35,
   "tags": [
     "half-marathon",
     "philippines"
@@ -57,12 +59,12 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-08-03"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-08-03",
   "status": "active"
 }

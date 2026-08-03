@@ -29,8 +29,19 @@
   ],
   "cons": [],
   "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "research_highlights": [
+    "Inaugural edition: the race debuts in Davao on August 15, 2026, as the fifth leg of the Singlife Philippine Marathon Majors series, so no past-edition course conditions or crowd-support reports exist yet.",
+    "Course starts and finishes at SM City Lanang / SM Lanang Premier on J.P. Laurel Avenue, Agdao, Davao City, with four distance options: 42K, 21K, 10K and 5K.",
+    "Race weekend is deliberately timed the day before the opening of Kadayawan Festival, so runners can join Davao's biggest cultural celebration right after finishing.",
+    "Organizers (RunRio, Singlife, Kinetix Sports, SM Supermalls) are targeting 4,000–6,000 local and international participants for this debut leg, with roughly ₱1.2 million in cash prizes and a BYD Seagull raffle vehicle.",
+    "Davao City is described as well connected with direct domestic flights and international links via Manila, making travel relatively straightforward for visiting runners."
+  ],
+  "research_watchouts": [
+    "As a brand-new event, there are no participant race reports, reviews, or community discussions yet about actual course conditions, heat, water stations, or organization on race day — all available coverage is pre-race promotional/news material.",
+    "Ahotu's event listing for this race explicitly notes 'No reviews yet,' confirming the lack of first-hand participant feedback at this time."
+  ],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-03",
   "faqs": [
     {
       "question": "When is the Singlife Davao Marathon held?",
@@ -49,7 +60,7 @@
       "answer": "The Singlife Davao Marathon is organized by RUNRIO Inc., a race organizing company responsible for coordinating the event's logistics, including registration and venue arrangements. The race is set to take place at SM City Lanang in Davao City, Philippines, on August 15, 2026, with registration currently open."
     }
   ],
-  "reliability_score": 94,
+  "reliability_score": 97,
   "tags": [
     "full-marathon",
     "philippines",
@@ -60,7 +71,7 @@
       "url": "https://runrio.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-31"
+      "last_checked": "2026-08-03"
     },
     {
       "url": "https://runrio.com/race-calendar/",
@@ -78,6 +89,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-03",
   "status": "active"
 }
