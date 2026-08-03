@@ -2,7 +2,7 @@
 import siteConfig from '../../lib/config.js';
 import { urls } from '../../lib/urls.js';
 import { loadEntities, loadRegions, loadCategories, stripMeta, buildRegionAncestryMap, isPublished } from '../../lib/data.js';
-import { byUpcomingDate } from '../../lib/sort.js';
+import { byUpcomingDate, byDistanceDesc } from '../../lib/sort.js';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import StatsSummary from '../../components/StatsSummary.astro';
@@ -43,11 +43,12 @@ const stats = [
 
 const categoryFilterOptions = allCategories
   .filter((c) => entities.some((e) => e.category_id === c.category_id))
+  .sort(byDistanceDesc)
   .map((c) => ({ label: c.label, value: c.category_id }));
 
 const breadcrumbItems = [
   { label: siteConfig.siteName, href: urls.home() },
-  { label: `All ${siteConfig.regionLabel}s`, href: urls.regionsIndex() },
+  { label: `All ${siteConfig.regionLabelPlural ?? `${siteConfig.regionLabel}s`}`, href: urls.regionsIndex() },
   ...(parentRegion ? [{ label: parentRegion.label, href: urls.region(parentRegion.slug) }] : []),
   { label: region.label, href: urls.region(region.slug) },
 ];

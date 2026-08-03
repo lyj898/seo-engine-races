@@ -19,23 +19,25 @@ function entityCountIncludingDescendants(region) {
   return entities.filter((e) => (ancestryMap.get(e.region_id) ?? [e.region_id]).includes(region.region_id)).length;
 }
 
+const regionLabelPlural = siteConfig.regionLabelPlural ?? `${siteConfig.regionLabel}s`;
+
 const breadcrumbItems = [
   { label: siteConfig.siteName, href: urls.home() },
-  { label: `All ${siteConfig.regionLabel}s`, href: urls.regionsIndex() },
+  { label: `All ${regionLabelPlural}`, href: urls.regionsIndex() },
 ];
 
 const jsonLd = [buildBreadcrumbListSchema(breadcrumbItems, Astro.site)].filter(Boolean);
 ---
 
 <BaseLayout
-  title={`All ${siteConfig.regionLabel}s`}
+  title={`All ${regionLabelPlural}`}
   description={`Every ${siteConfig.regionLabel.toLowerCase()} covered by ${siteConfig.siteName}.`}
   canonicalPath={urls.regionsIndex()}
   jsonLd={jsonLd}
 >
   <div class="mx-auto max-w-6xl px-4 py-10 sm:px-6">
     <Breadcrumb items={breadcrumbItems} />
-    <h1 class="mt-4 font-serif text-3xl font-semibold sm:text-4xl">All {siteConfig.regionLabel}s</h1>
+    <h1 class="mt-4 font-serif text-3xl font-semibold sm:text-4xl">All {regionLabelPlural}</h1>
     <p class="mt-3 max-w-2xl text-brand-muted dark:text-brand-muted-dark">
       Browse every {siteConfig.entityLabelSingular} on {siteConfig.siteName} grouped by {siteConfig.regionLabel.toLowerCase()}.
     </p>

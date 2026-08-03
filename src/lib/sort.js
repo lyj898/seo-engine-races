@@ -32,3 +32,17 @@ export function byUpcomingDate(a, b, today = todayIso()) {
   if (da === db) return String(a?.name ?? '').localeCompare(String(b?.name ?? ''));
   return ra === 1 ? (da < db ? 1 : -1) : da < db ? -1 : 1;
 }
+
+/**
+ * Ordering for distance-type categories: longest distance first, so races
+ * read Full -> Half -> 10K -> 5K (the marquee distance where the eye lands,
+ * matching the quick-toggle chips on the home page). Sorts by the lower bound
+ * of matchRange descending; a category without a matchRange isn't a point on
+ * that axis, so it sorts last, then alphabetically for a stable order.
+ */
+export function byDistanceDesc(a, b) {
+  const ra = Array.isArray(a?.matchRange) ? a.matchRange[0] : -Infinity;
+  const rb = Array.isArray(b?.matchRange) ? b.matchRange[0] : -Infinity;
+  if (ra !== rb) return rb - ra;
+  return String(a?.label ?? '').localeCompare(String(b?.label ?? ''));
+}

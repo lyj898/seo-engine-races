@@ -32,7 +32,7 @@ const entities = allEntities
 
 const stats = [
   { label: `${siteConfig.entityLabelPlural}`, value: entities.length },
-  { label: `${siteConfig.regionLabel}s represented`, value: new Set(entities.map((e) => e.region_id)).size },
+  { label: `${siteConfig.regionLabelPlural ?? `${siteConfig.regionLabel}s`} represented`, value: new Set(entities.map((e) => e.region_id)).size },
 ];
 
 // Sideways links: this category's related_category_ids.
