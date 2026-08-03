@@ -25,7 +25,7 @@
  */
 import siteConfig from '../src/lib/config.js';
 import { reviewSchema } from '../src/lib/schema/index.js';
-import { loadEntities, loadReviews, stripMeta, isPublished } from '../src/lib/data.js';
+import { loadEntities, loadReviews, loadRegions, stripMeta, isPublished, buildRegionAncestryMap } from '../src/lib/data.js';
 import { writeIfValid } from './lib/write-entity.js';
 import { callClaudeWithWebSearchForJson } from './lib/anthropic-client.js';
 import { buildReviewArticlePrompt } from './lib/prompts.js';
@@ -37,6 +37,13 @@ function argValue(name, fallback) {
   if (i === -1 || i === process.argv.length - 1) return fallback;
   const parsed = Number(process.argv[i + 1]);
   return Number.isFinite(parsed) ? parsed : fallback;
+}
+
+/** Reads a `--flag value` string arg (for slugs/region targeting). */
+function argString(name, fallback = '') {
+  const i = process.argv.indexOf(`--${name}`);
+  if (i === -1 || i === process.argv.length - 1) return fallback;
+  return String(process.argv[i + 1]);
 }
 
 const SOURCE_TYPES = new Set(['official', 'registration_platform', 'aggregator', 'review', 'social', 'news', 'other']);
@@ -143,26 +150,53 @@ function citationsResolve(review) {
 
 async function run() {
   const limit = argValue('limit', siteConfig.sourceConfig?.reviewPerRunLimit ?? 1);
+  const explicitSlugs = argString('slugs').split(',').map((s) => s.trim()).filter(Boolean);
+  const regionArg = argString('region').trim();
 
   const entities = loadEntities().map(stripMeta).filter(isPublished);
   const reviewedEntityIds = new Set(loadReviews().map(stripMeta).map((r) => r.entity_id));
 
+  // Never re-review; a hand-edited article must survive every run.
   const missing = entities.filter((e) => !reviewedEntityIds.has(e.entity_id));
-  // Prefer entities we already have material on -- a review needs substance.
-  const withMaterial = missing.filter((e) => materialScore(e) >= 2);
-  const pool = withMaterial.length > 0 ? withMaterial : missing;
 
-  const t = today();
-  const upcoming = pool
-    .filter((e) => typeof e.core_facts?.date === 'string' && e.core_facts.date >= t)
-    .sort((a, b) => a.core_facts.date.localeCompare(b.core_facts.date));
-  const rest = pool.filter((e) => !(typeof e.core_facts?.date === 'string' && e.core_facts.date >= t));
-  const queue = [...upcoming, ...rest].slice(0, limit);
+  let queue;
+  if (explicitSlugs.length > 0) {
+    // Targeted mode: review exactly these entities, in the order given.
+    // Slugs that don't exist, aren't published, or already have a review are
+    // skipped with a note rather than failing the run.
+    const bySlug = new Map(missing.map((e) => [e.slug, e]));
+    queue = [];
+    for (const slug of explicitSlugs) {
+      const entity = bySlug.get(slug);
+      if (entity) queue.push(entity);
+      else console.log(`[generate-reviews] target "${slug}" skipped (unknown, unpublished, or already reviewed).`);
+    }
+    console.log(`[generate-reviews] targeted mode: ${queue.length} of ${explicitSlugs.length} requested slug(s) eligible.`);
+  } else {
+    // Auto mode: prefer entities we already hold material on (a review needs
+    // substance), optionally scoped to one region (+ its child regions), then
+    // soonest-upcoming first, capped at limit.
+    let pool = missing;
+    if (regionArg) {
+      const ancestry = buildRegionAncestryMap(loadRegions().map(stripMeta));
+      pool = pool.filter((e) => (ancestry.get(e.region_id) ?? [e.region_id]).includes(regionArg));
+    }
+    const withMaterial = pool.filter((e) => materialScore(e) >= 2);
+    pool = withMaterial.length > 0 ? withMaterial : pool;
 
-  console.log(
-    `[generate-reviews] ${entities.length} published, ${reviewedEntityIds.size} already reviewed, ` +
-      `${missing.length} without a review. Writing up to ${limit} this run.`
-  );
+    const t = today();
+    const upcoming = pool
+      .filter((e) => typeof e.core_facts?.date === 'string' && e.core_facts.date >= t)
+      .sort((a, b) => a.core_facts.date.localeCompare(b.core_facts.date));
+    const rest = pool.filter((e) => !(typeof e.core_facts?.date === 'string' && e.core_facts.date >= t));
+    queue = [...upcoming, ...rest].slice(0, limit);
+
+    console.log(
+      `[generate-reviews] ${entities.length} published, ${reviewedEntityIds.size} already reviewed, ` +
+        `${missing.length} without a review${regionArg ? ` (${pool.length} in region "${regionArg}")` : ''}. ` +
+        `Writing up to ${limit} this run.`
+    );
+  }
 
   const stats = { written: 0, skippedInvalid: 0, skippedUncited: 0, failed: 0, noSubstance: 0 };
 

@@ -19,7 +19,20 @@ on:
   schedule:
     - cron: '17 2 * * *' # daily at 02:17 UTC (off the hour -- GitHub delays
       # scheduled runs most at the top of the hour). ~10:17am Singapore.
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      slugs:
+        description: 'Comma-separated entity slugs to review (in order). Overrides auto-select.'
+        required: false
+        default: ''
+      region:
+        description: 'Restrict auto-select to this region id (e.g. indonesia). Used with limit.'
+        required: false
+        default: ''
+      limit:
+        description: 'Max reviews to write this run (auto mode). Blank = 1.'
+        required: false
+        default: ''
 
 concurrency:
   group: daily-review
@@ -48,10 +61,19 @@ jobs:
       - name: Validate data (pre-flight)
         run: npm run validate
 
-      - name: Generate one review article
-        run: npm run reviews
+      - name: Generate review article(s)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SLUGS: ${{ github.event.inputs.slugs }}
+          REGION: ${{ github.event.inputs.region }}
+          LIMIT: ${{ github.event.inputs.limit }}
+        run: |
+          ARGS=""
+          [ -n "$SLUGS" ]  && ARGS="$ARGS --slugs $SLUGS"
+          [ -n "$REGION" ] && ARGS="$ARGS --region $REGION"
+          [ -n "$LIMIT" ]  && ARGS="$ARGS --limit $LIMIT"
+          echo "npm run reviews -- $ARGS"
+          npm run reviews -- $ARGS
 
       - name: Validate data (post-run)
         run: npm run validate

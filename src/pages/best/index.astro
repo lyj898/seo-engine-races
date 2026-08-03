@@ -7,6 +7,12 @@ import Breadcrumb from '../../components/Breadcrumb.astro';
 import HubCard from '../../components/HubCard.astro';
 import { buildBreadcrumbListSchema } from '../../lib/schema-jsonld.js';
 
+// Section is feature-flagged off for now -- send the index home rather than
+// serve an empty guides page. Flip enabledFeatures.listicles to restore it.
+if (!siteConfig.enabledFeatures?.listicles) {
+  return Astro.redirect(urls.home());
+}
+
 const listicles = loadListicles().map(stripMeta).filter(isPublished);
 
 const breadcrumbItems = [

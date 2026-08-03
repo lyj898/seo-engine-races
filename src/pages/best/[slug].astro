@@ -11,6 +11,10 @@ import LastUpdated from '../../components/LastUpdated.astro';
 import { buildItemListSchema, buildFaqPageSchema, buildBreadcrumbListSchema } from '../../lib/schema-jsonld.js';
 
 export function getStaticPaths() {
+  // Section is feature-flagged: with listicles disabled, build no guide pages
+  // at all (rather than leaving orphaned URLs live). The data/listicles files
+  // stay on disk, so flipping the flag back restores every guide as-is.
+  if (!siteConfig.enabledFeatures?.listicles) return [];
   const listicles = loadListicles().map(stripMeta);
   return listicles.map((listicle) => ({
     params: { slug: listicle.slug },

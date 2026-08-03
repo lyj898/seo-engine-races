@@ -75,7 +75,7 @@
   },
 
   "enabledFeatures": {
-    "listicles": true,
+    "listicles": false,
     "reviews": true,
     "reviewQueue": true,
     "savedFilters": true,

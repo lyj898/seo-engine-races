@@ -57,9 +57,11 @@ const relatedEntities = allEntities.filter(
 // A listicle is "related" if it's explicitly pinned to this entity, or its
 // filter targets this entity's category -- covers both editorial pins and
 // filter-driven matches without hand-maintaining a link list per entity.
-const relatedListicles = listicles.filter(
-  (l) => l.manual_entity_ids?.includes(entity.entity_id) || l.filters?.category_id === entity.category_id
-);
+const relatedListicles = siteConfig.enabledFeatures?.listicles
+  ? listicles.filter(
+      (l) => l.manual_entity_ids?.includes(entity.entity_id) || l.filters?.category_id === entity.category_id
+    )
+  : [];
 
 const breadcrumbItems = [
   { label: siteConfig.siteName, href: urls.home() },
