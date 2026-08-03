@@ -17,10 +17,13 @@ name: Daily review article
 #     run just pushed rather than the stale SHA the run was triggered at.
 on:
   schedule:
-    # Every 12 hours at 09:00 and 21:00 UTC = 5:00pm and 5:00am Singapore
-    # (SGT = UTC+8). GitHub's scheduled triggers are best-effort and can be
-    # delayed a few minutes, especially at the top of the hour.
-    - cron: '0 9,21 * * *'
+    # Self-healing cadence: GitHub's scheduled triggers are best-effort (often
+    # delayed at the top of the hour, occasionally dropped), so instead of two
+    # exact ticks a day we tick hourly and let the generator decide. It only
+    # writes an article when it's been >= sourceConfig.reviewMinIntervalHours
+    # (11h) since the last published review, so the result is a reliable ~2/day
+    # even if several hourly ticks are delayed or skipped.
+    - cron: '0 * * * *'
   workflow_dispatch:
     inputs:
       slugs:

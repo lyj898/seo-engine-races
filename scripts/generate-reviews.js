@@ -170,9 +170,12 @@ async function run() {
   const limit = argValue('limit', siteConfig.sourceConfig?.reviewPerRunLimit ?? 1);
   const explicitSlugs = argString('slugs').split(',').map((s) => s.trim()).filter(Boolean);
   const regionArg = argString('region').trim();
+  const force = process.argv.includes('--force');
+  const minIntervalHours = siteConfig.sourceConfig?.reviewMinIntervalHours ?? 11;
 
   const entities = loadEntities().map(stripMeta).filter(isPublished);
-  const reviewedEntityIds = new Set(loadReviews().map(stripMeta).map((r) => r.entity_id));
+  const existingReviews = loadReviews().map(stripMeta);
+  const reviewedEntityIds = new Set(existingReviews.map((r) => r.entity_id));
 
   // Never re-review; a hand-edited article must survive every run.
   const missing = entities.filter((e) => !reviewedEntityIds.has(e.entity_id));
@@ -191,6 +194,28 @@ async function run() {
     }
     console.log(`[generate-reviews] targeted mode: ${queue.length} of ${explicitSlugs.length} requested slug(s) eligible.`);
   } else {
+    // Self-healing pacing: the workflow ticks hourly (GitHub drops/delays
+    // scheduled runs, so frequent ticks + this guard beat a twice-a-day cron).
+    // Only actually generate when it's been >= reviewMinIntervalHours since the
+    // most recent published review, which yields ~2/day regardless of which
+    // ticks fire. A manual `--force` or a `--slugs` target bypasses this.
+    if (!force) {
+      const lastTs = existingReviews
+        .map((r) => Date.parse(r.published_at ?? ''))
+        .filter((t) => Number.isFinite(t))
+        .sort((a, b) => b - a)[0];
+      if (lastTs) {
+        const hoursSince = (Date.now() - lastTs) / 3_600_000;
+        if (hoursSince < minIntervalHours) {
+          console.log(
+            `[generate-reviews] last review published ${hoursSince.toFixed(1)}h ago ` +
+              `(< ${minIntervalHours}h min interval); nothing to do this run.`
+          );
+          return;
+        }
+      }
+    }
+
     // Auto mode: prefer entities we already hold material on (a review needs
     // substance), optionally scoped to one region (+ its child regions), then
     // soonest-upcoming first, capped at limit.
