@@ -8,6 +8,48 @@
  * Split into its own dependency-free module (no @anthropic-ai/sdk import)
  * so this parsing logic can be unit-tested without the SDK installed.
  */
+/**
+ * Escape control characters (U+0000–U+001F) that appear INSIDE string
+ * literals, which is the one thing models reliably get wrong: a literal
+ * newline or tab pasted into a string value is invalid JSON ("Bad control
+ * character in string literal") even though the braces balance perfectly.
+ * Whitespace between tokens (outside strings) is left untouched, so this is
+ * a no-op on already-valid JSON.
+ */
+function escapeControlCharsInStrings(s) {
+  let out = '';
+  let inString = false;
+  let escapeNext = false;
+  for (let i = 0; i < s.length; i++) {
+    const ch = s[i];
+    const code = s.charCodeAt(i);
+    if (escapeNext) {
+      out += ch;
+      escapeNext = false;
+      continue;
+    }
+    if (ch === '\\') {
+      out += ch;
+      escapeNext = true;
+      continue;
+    }
+    if (ch === '"') {
+      inString = !inString;
+      out += ch;
+      continue;
+    }
+    if (inString && code < 0x20) {
+      if (ch === '\n') out += '\\n';
+      else if (ch === '\r') out += '\\r';
+      else if (ch === '\t') out += '\\t';
+      else out += '\\u' + code.toString(16).padStart(4, '0');
+      continue;
+    }
+    out += ch;
+  }
+  return out;
+}
+
 export function extractJson(text) {
   const fenced = text.match(/```(?:json)?\s*([\s\S]*?)```/i);
   const candidate = fenced ? fenced[1] : text;
@@ -55,6 +97,12 @@ export function extractJson(text) {
   try {
     return JSON.parse(jsonSlice);
   } catch (err) {
-    throw new Error(`Failed to parse extracted JSON: ${err.message}\nExtracted: ${jsonSlice.slice(0, 300)}`);
+    // One rescue attempt: escape stray control characters inside strings,
+    // the most common way an otherwise-well-formed response fails to parse.
+    try {
+      return JSON.parse(escapeControlCharsInStrings(jsonSlice));
+    } catch {
+      throw new Error(`Failed to parse extracted JSON: ${err.message}\nExtracted: ${jsonSlice.slice(0, 300)}`);
+    }
   }
 }
