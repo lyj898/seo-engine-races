@@ -23,10 +23,15 @@ name: Weekly data refresh
 # long as it takes to read the notification.
 on:
   schedule:
-    - cron: '7 3 * * 1' # every Monday, 03:07 UTC (off the hour -- GitHub's
-      # scheduled triggers are most likely to be delayed or dropped right at
-      # the top of the hour, the peak-load moment across all of Actions)
-  workflow_dispatch: {}
+    # Self-healing weekly cadence. GitHub's scheduled triggers are best-effort
+    # (delayed at the top of the hour, occasionally dropped), and a single
+    # weekly tick that gets dropped means the site goes a whole extra week
+    # without new races. So we tick DAILY and let the `gate` job decide: it
+    # only runs the heavy pipeline when it's been >= MIN_DAYS since the last
+    # recorded run. Net effect: a reliable ~weekly refresh that never silently
+    # misses a week, at ~weekly cost.
+    - cron: '7 3 * * *' # daily 03:07 UTC; the gate decides whether to proceed
+  workflow_dispatch: {} # manual runs always proceed (they bypass the gate)
 
 concurrency:
   group: weekly-refresh
@@ -37,7 +42,40 @@ permissions:
   issues: write # the run summary is delivered as an issue (see below)
 
 jobs:
+  # Turns a daily tick into a reliable ~weekly cadence: a manual dispatch
+  # always runs; a scheduled tick runs only if >= MIN_DAYS have passed since
+  # the last recorded run (marker at .github/state/last-refresh). This is what
+  # makes a dropped/delayed GitHub tick harmless -- the next day's tick covers.
+  gate:
+    runs-on: ubuntu-latest
+    outputs:
+      run: ${{ steps.check.outputs.run }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Decide whether to run
+        id: check
+        env:
+          MIN_DAYS: '6'
+        run: |
+          if [ "${{ github.event_name }}" != "schedule" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"; echo "Manual dispatch -> running (gate bypassed)."; exit 0
+          fi
+          LAST=$(cat .github/state/last-refresh 2>/dev/null || echo "")
+          if [ -z "$LAST" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"; echo "No marker -> running."; exit 0
+          fi
+          LAST_S=$(date -u -d "$LAST" +%s 2>/dev/null || echo 0)
+          DAYS=$(( ( $(date -u +%s) - LAST_S ) / 86400 ))
+          if [ "$DAYS" -ge "$MIN_DAYS" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"; echo "Last refresh $DAYS day(s) ago (>= $MIN_DAYS) -> running."
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"; echo "Last refresh $DAYS day(s) ago (< $MIN_DAYS) -> skipping this tick."
+          fi
+
   refresh:
+    needs: gate
+    if: needs.gate.outputs.run == 'true'
     runs-on: ubuntu-latest
     outputs:
       # Consumed by the deploy job below, so a run that changed nothing
@@ -151,6 +189,22 @@ jobs:
       - name: No changes this run
         if: steps.summary.outputs.changed == 'false'
         run: echo "Pipeline ran; nothing changed in data/, nothing committed."
+
+      - name: Record run timestamp
+        run: |
+          mkdir -p .github/state
+          date -u +%Y-%m-%d > .github/state/last-refresh
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .github/state/last-refresh
+          git diff --cached --quiet || git commit -m "chore(ci): record weekly-refresh run $(date -u +%Y-%m-%d)"
+          git pull --rebase --autostash origin main
+          git push origin HEAD:main
+        # Stamps today's date so the gate can enforce the ~weekly interval
+        # across daily ticks. Kept OUT of data/ so it never trips the
+        # data-changed deploy gate. No `if:`, so it runs only when every prior
+        # stage succeeded -- a failed pipeline leaves the marker stale and is
+        # retried on the next daily tick rather than being suppressed for a week.
 
   # Deploying has to be an explicit job rather than something we leave to
   # deploy.yml's `on: push`. The commit above is made with GITHUB_TOKEN, and
