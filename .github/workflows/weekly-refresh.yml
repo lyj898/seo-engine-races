@@ -23,7 +23,9 @@ name: Weekly data refresh
 # long as it takes to read the notification.
 on:
   schedule:
-    - cron: '0 3 * * 1' # every Monday, 03:00 UTC
+    - cron: '7 3 * * 1' # every Monday, 03:07 UTC (off the hour -- GitHub's
+      # scheduled triggers are most likely to be delayed or dropped right at
+      # the top of the hour, the peak-load moment across all of Actions)
   workflow_dispatch: {}
 
 concurrency:
