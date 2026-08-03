@@ -162,6 +162,12 @@ jobs:
     needs: refresh
     if: needs.refresh.outputs.changed == 'true'
     uses: ./.github/workflows/deploy.yml
+    with:
+      # Build the commit the refresh job just pushed, NOT the SHA this run was
+      # triggered at. Without this the deploy checks out github.sha (the tip of
+      # main *before* the refresh committed), so the site publishes successfully
+      # but one commit stale -- the pipeline's whole point silently lost.
+      ref: main
     permissions:
       contents: read
       pages: write

@@ -18,7 +18,17 @@ on:
   push:
     branches: [main]
   workflow_dispatch: {}
-  workflow_call: {}
+  workflow_call:
+    inputs:
+      ref:
+        description: >-
+          Git ref to build. Leave empty for push/manual runs (checkout then
+          defaults to the SHA that triggered the run). weekly-refresh passes
+          'main' so the build picks up the commit it just pushed, rather than
+          the stale SHA the run was triggered at.
+        type: string
+        required: false
+        default: ''
 
 # Allow one concurrent deployment; if a new push lands while a build is
 # still running, cancel the in-progress one rather than queueing (we always
@@ -38,6 +48,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          # Empty on push/manual runs -> checkout uses its default (the
+          # triggering SHA). weekly-refresh passes 'main' so we build the tip
+          # it just committed to, not the pre-refresh SHA the run started at.
+          ref: ${{ inputs.ref }}
 
       - name: Install Node
         uses: actions/setup-node@v4
