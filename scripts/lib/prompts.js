@@ -252,6 +252,85 @@ Output ONLY the JSON object.`;
   return { system, prompt };
 }
 
+/**
+ * Writes a full long-form REVIEW ARTICLE (data/reviews/*.json) for one
+ * entity. Unlike buildSummaryPrompt (which produces the short listing copy),
+ * this asks for a structured, cited, magazine-style review the reader lands
+ * on directly -- the readable counterpart to the facts page.
+ *
+ * Two hard constraints make it safe to publish automatically:
+ *   1. Copyright: the prose must be original synthesis. Third-party wording
+ *      appears ONLY as short (<= ~18 word) attributed pull_quotes, each with
+ *      a real source_url. No copying sentences out of a source into the body.
+ *   2. Attribution: every factual/opinion claim in the body carries a [n]
+ *      citation that maps to a numbered `sources` entry. generate-reviews.js
+ *      drops the article if any [n] fails to resolve, so an uncited draft is
+ *      never written -- the model is told this up front.
+ *
+ * The entity's existing research (quotes/highlights/watchouts/sentiment) is
+ * handed over as seed material, and the model is also given web search to
+ * corroborate and deepen it, so a review is grounded in real reporting
+ * rather than the model's priors.
+ */
+export function buildReviewArticlePrompt({ siteConfig, entity }) {
+  const { entityLabelSingular, siteName } = siteConfig;
+  const facts = entity.core_facts ?? {};
+  const location = [facts.city, facts.country].filter(Boolean).join(', ');
+
+  const seedQuotes =
+    entity.excerpt_quotes?.length > 0
+      ? entity.excerpt_quotes.map((q) => `- "${q.quote}" — ${q.attribution} (${q.source_url})`).join('\n')
+      : '(none on file)';
+  const seedHighlights = entity.research_highlights?.length > 0 ? entity.research_highlights.map((h) => `- ${h}`).join('\n') : '(none on file)';
+  const seedWatchouts = entity.research_watchouts?.length > 0 ? entity.research_watchouts.map((w) => `- ${w}`).join('\n') : '(none on file)';
+
+  const system =
+    `You are a running writer producing an independent review article for ${siteName}, a ${entityLabelSingular} ` +
+    `directory. Write the way a knowledgeable enthusiast magazine would: specific, honest, useful to someone ` +
+    `deciding whether to enter. ${NO_INVENTION_RULE}\n\n` +
+    'COPYRIGHT AND ATTRIBUTION -- non-negotiable:\n' +
+    '- All body prose must be YOUR OWN original synthesis. Never copy or lightly reword a sentence from a source ' +
+    'into the article body.\n' +
+    '- The ONLY verbatim third-party text allowed is inside pull_quotes: each must be a short excerpt (18 words ' +
+    'or fewer), genuinely found at a real URL, with attribution and that source_url. Omit any quote you cannot ' +
+    'attribute to a real page. Never fabricate or paraphrase-into-quotation-marks.\n' +
+    '- Every factual or opinion claim in a paragraph must end with a citation marker like [1] or [2] that refers ' +
+    'to a numbered entry in your `sources` array. Do not make a claim you cannot cite. Use the official site for ' +
+    'dates/prices and reviews/reports for experience.\n' +
+    '- Do not describe how this article was assembled, researched, generated or scored.\n' +
+    'Respond with ONLY valid JSON -- no markdown code fences, no commentary.';
+
+  const prompt = `Write a review article about this ${entityLabelSingular}.
+
+${entityLabelSingular}: ${entity.name}
+${location ? `Location: ${location}\n` : ''}${facts.date ? `Date: ${facts.date}\n` : ''}Known facts (core_facts, treat as authoritative for dates/distances/prices): ${JSON.stringify(facts)}
+
+Seed material already gathered (verify and build on it; search the web for more recent race reports, reviews and news about this event and prior editions):
+Quotes on file:
+${seedQuotes}
+Highlights on file:
+${seedHighlights}
+Watchouts on file:
+${seedWatchouts}
+
+Produce a JSON object with EXACTLY these fields:
+
+- title (string, <= 90 chars): an engaging on-page headline for the review.
+- seo_title (string, <= 60 chars): a focused search title, WITHOUT the site name. Include the ${entityLabelSingular} name and the word "review".
+- meta_description (string, <= 155 chars): a compelling search-result summary.
+- dek (string, 1-2 sentences): a standfirst under the headline.
+- verdict (string, 60-110 words): the bottom-line take -- what this ${entityLabelSingular} is like and who it suits.
+- rating (object {"overall": 0-100, "breakdown": [{"label","score"}]}) : 3-5 breakdown rows reflecting what people actually comment on (course, organisation, atmosphere, difficulty). Base it on the sentiment in the material; do not invent precision.
+- sections (array of 4-6 objects {"heading", "paragraphs": [string,...]}): the body. Each paragraph is plain prose containing inline [n] citation markers. Cover the course/terrain, conditions, organisation/logistics, competitiveness or atmosphere, and a "should you run it" close. Keep paragraphs tight (2-4 sentences).
+- pull_quotes (array of 0-3 objects {"quote","attribution","source_url"}): short, attributed, real. 18 words max each.
+- sources (array of 2-6 objects {"n": integer, "label", "publisher", "url", "type": one of official|registration_platform|aggregator|review|social|news|other}): every [n] used in the body MUST appear here. Include the official site as one source.
+- faqs (array of 3-4 objects {"question","answer"}): real search questions; each answer a direct 40-60 words grounded in the material.
+
+Every [n] in the body must have a matching sources entry, and every source should be cited at least once. Output ONLY the JSON object.`;
+
+  return { system, prompt };
+}
+
 export function buildSummaryPrompt({ siteConfig, entity }) {
   const { entityLabelSingular } = siteConfig;
 

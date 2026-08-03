@@ -100,6 +100,8 @@
     "_research_note": "Web-research stage budget. researchPerRunLimit caps entities per weekly run so cost stays flat as the directory grows; researchIntervalDays is how long before an entity is looked at again (what people say about an event barely changes week to week). Soonest-dated entities are researched first.",
     "researchPerRunLimit": 25,
     "researchIntervalDays": 90,
+    "_review_note": "Daily review-article stage (scripts/generate-reviews.js). reviewPerRunLimit caps how many long-form review articles are written per daily run; entities with research material on file and the soonest upcoming date are chosen first, and existing reviews are never overwritten.",
+    "reviewPerRunLimit": 1,
     "requestDelayMs": 1500,
     "respectRobotsTxt": true,
     "userAgent": "programmatic-seo-engine/1.0 (+https://runsea.run/about)",

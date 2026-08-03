@@ -1,0 +1,96 @@
+name: Daily review article
+
+# Writes ONE long-form review article per day (scripts/generate-reviews.js)
+# for a race that doesn't have one yet, then deploys. Same guard rails as the
+# weekly refresh:
+#
+#   - `npm run validate` runs before and after. The post-run pass is the gate
+#     that catches a schema-invalid, duplicate, or -- specifically for reviews
+#     -- an unresolvable [n] citation, and fails the build rather than
+#     shipping it. (generate-reviews.js also refuses to write such a draft, so
+#     this is belt and braces.)
+#   - The generator never overwrites an existing review, so a hand-edited
+#     article is safe from every future run.
+#   - Like the weekly refresh, this commits with GITHUB_TOKEN, whose pushes
+#     do NOT trigger deploy.yml's `on: push`. So deploying is an explicit
+#     job that calls deploy.yml with `ref: main`, building the commit this
+#     run just pushed rather than the stale SHA the run was triggered at.
+on:
+  schedule:
+    - cron: '17 2 * * *' # daily at 02:17 UTC (off the hour -- GitHub delays
+      # scheduled runs most at the top of the hour). ~10:17am Singapore.
+  workflow_dispatch: {}
+
+concurrency:
+  group: daily-review
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.diff.outputs.changed }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Validate data (pre-flight)
+        run: npm run validate
+
+      - name: Generate one review article
+        run: npm run reviews
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      - name: Validate data (post-run)
+        run: npm run validate
+        # The gate: a review with an unresolvable citation, a duplicate slug,
+        # or any schema violation fails here and nothing is committed.
+
+      - name: Detect changes
+        id: diff
+        run: |
+          if [ -n "$(git status --porcelain data/reviews/)" ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit and push to main
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          ADDED=$(git status --porcelain data/reviews/ | grep -c '^??' || true)
+          git add data/reviews/
+          git commit -m "chore(reviews): daily review article ($ADDED new)"
+          git pull --rebase --autostash origin main
+          git push origin HEAD:main
+
+      - name: No new review this run
+        if: steps.diff.outputs.changed == 'false'
+        run: echo "generate-reviews produced nothing to commit (e.g. every eligible race already has a review, or the draft was skipped)."
+
+  # See deploy.yml / weekly-refresh.yml: a GITHUB_TOKEN push can't trigger the
+  # deploy on its own, so we call it directly, building main's fresh tip.
+  deploy:
+    needs: review
+    if: needs.review.outputs.changed == 'true'
+    uses: ./.github/workflows/deploy.yml
+    with:
+      ref: main
+    permissions:
+      contents: read
+      pages: write
+      id-token: write

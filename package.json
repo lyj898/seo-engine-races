@@ -17,6 +17,7 @@
     "research": "node scripts/research-entities.js",
     "listicles": "node scripts/generate-listicles.js",
     "summaries": "node scripts/generate-summaries.js",
+    "reviews": "node scripts/generate-reviews.js",
     "refresh:all": "npm run validate && npm run discover && npm run refresh && npm run research && npm run summaries && npm run listicles && npm run validate"
   },
   "dependencies": {
