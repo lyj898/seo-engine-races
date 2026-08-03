@@ -205,11 +205,13 @@ async function run() {
 
     let result;
     try {
-      // Generous ceiling: a full article (verdict + 4-6 sections + FAQs +
-      // sources) plus the model's web-search tool turns overran 5000 and
-      // truncated the JSON mid-object, which then fails to parse and skips
-      // the entity. 8000 leaves comfortable headroom.
-      result = await callClaudeWithWebSearchForJson({ system, prompt, maxTokens: 8000, maxSearches: 6 });
+      // Generous ceiling. The model's web-search tool turns are themselves
+      // output tokens, so a less-covered race that triggers many searches can
+      // exhaust the budget before it finishes writing the JSON (seen at 8000
+      // on an obscure event: truncated at meta_description). max_tokens is a
+      // cap, not a spend, so we set it high enough that the JSON always fits
+      // after the searches.
+      result = await callClaudeWithWebSearchForJson({ system, prompt, maxTokens: 16000, maxSearches: 6 });
     } catch (err) {
       console.warn(`[generate-reviews] ${entity.slug}: model call failed: ${err.message} -- skipping.`);
       stats.failed++;
