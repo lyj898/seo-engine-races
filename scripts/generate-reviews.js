@@ -68,14 +68,28 @@ function materialScore(entity) {
   );
 }
 
+// Strip web-search citation artifacts the model sometimes leaks into prose:
+// <cite> wrapper tags and compound/hyphenated refs like [16-8] that point at
+// internal retrieval chunks instead of our sources[]. validate-data also
+// rejects these, but scrubbing here keeps a single leak from failing a whole
+// run's post-validate.
+const stripLeakedArtifacts = (s) =>
+  s
+    .replace(/<\/?cite[^>]*>/gi, '')
+    .replace(/\[\d+-[^\]]*\]/g, '') // hyphenated chunk refs only; [n] and [n,m] are valid
+    .replace(/\s{2,}/g, ' ')
+    .trim();
+
+const wordCount = (s) => s.trim().split(/\s+/).filter(Boolean).length;
+
 /** Shape the model's raw JSON into a review record with fields we control. */
 function normalizeReview(entity, result) {
   const sections = Array.isArray(result?.sections)
     ? result.sections
         .filter((s) => s && isNonEmptyString(s.heading) && Array.isArray(s.paragraphs))
         .map((s) => ({
-          heading: s.heading.trim(),
-          paragraphs: s.paragraphs.filter(isNonEmptyString).map((p) => p.trim()),
+          heading: stripLeakedArtifacts(s.heading),
+          paragraphs: s.paragraphs.filter(isNonEmptyString).map((p) => stripLeakedArtifacts(p)).filter((p) => p.length > 0),
         }))
         .filter((s) => s.paragraphs.length > 0)
     : [];
@@ -95,6 +109,9 @@ function normalizeReview(entity, result) {
   const pull_quotes = Array.isArray(result?.pull_quotes)
     ? result.pull_quotes
         .filter((q) => q && isNonEmptyString(q.quote) && isNonEmptyString(q.attribution) && validUrl(q.source_url))
+        // Drop over-long verbatim quotes: a "pull quote" past ~28 words is a
+        // copied passage, not a short attributed excerpt (fair-use / length).
+        .filter((q) => wordCount(q.quote) <= 28)
         .slice(0, 3)
         .map((q) => ({ quote: q.quote.trim().slice(0, 400), attribution: q.attribution.trim(), source_url: q.source_url }))
     : [];
@@ -123,7 +140,7 @@ function normalizeReview(entity, result) {
     ...(isNonEmptyString(result?.seo_title) ? { seo_title: result.seo_title.trim().slice(0, 70) } : {}),
     ...(isNonEmptyString(result?.meta_description) ? { meta_description: result.meta_description.trim().slice(0, 200) } : {}),
     dek: isNonEmptyString(result?.dek) ? result.dek.trim() : entity.short_description,
-    verdict: isNonEmptyString(result?.verdict) ? result.verdict.trim() : '',
+    verdict: isNonEmptyString(result?.verdict) ? stripLeakedArtifacts(result.verdict) : '',
     ...(rating ? { rating } : {}),
     sections,
     pull_quotes,

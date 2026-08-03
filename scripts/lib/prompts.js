@@ -294,9 +294,15 @@ export function buildReviewArticlePrompt({ siteConfig, entity }) {
     '- The ONLY verbatim third-party text allowed is inside pull_quotes: each must be a short excerpt (18 words ' +
     'or fewer), genuinely found at a real URL, with attribution and that source_url. Omit any quote you cannot ' +
     'attribute to a real page. Never fabricate or paraphrase-into-quotation-marks.\n' +
-    '- Every factual or opinion claim in a paragraph must end with a citation marker like [1] or [2] that refers ' +
-    'to a numbered entry in your `sources` array. Do not make a claim you cannot cite. Use the official site for ' +
-    'dates/prices and reviews/reports for experience.\n' +
+    '- Every factual or opinion claim in a paragraph must end with a citation marker: [n], where n is the 1-based ' +
+    'position of an entry in your own `sources` array (a comma list like [1,2] is allowed when two sources back ' +
+    'the same claim). NEVER output <cite> tags, and NEVER use hyphenated markers like [16-8] or [11-3] -- those ' +
+    'are internal search artifacts and are forbidden. Only cite a source you actually list, and only attach a ' +
+    'citation to a claim that source genuinely states. Use the official site for dates/prices and reviews/reports ' +
+    'for experience.\n' +
+    '- State the event\'s date (given in core_facts) explicitly somewhere in the article.\n' +
+    '- Never paste raw lists of tags, facets or filter labels (e.g. words separated by " · ") as prose -- write ' +
+    'sentences. Keep numbers internally consistent (e.g. the 1st-place prize must be the largest).\n' +
     '- Do not describe how this article was assembled, researched, generated or scored.\n' +
     'Respond with ONLY valid JSON -- no markdown code fences, no commentary.';
 

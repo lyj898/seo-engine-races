@@ -20,17 +20,31 @@ const escapeHtml = (s) =>
 
 const byNumber = new Map(sources.map((s) => [s.n, s]));
 
-// Escape, then replace [n] with a superscript link to that reference. An
-// [n] with no matching source is left as escaped literal text (validate-data
-// fails the build on that case, so it never reaches production).
+// Defensively strip artifacts a web-search-backed model can leak: <cite>
+// wrapper tags and compound/hyphenated citation refs like [16-8] or
+// [11-3,11-4] that point at internal retrieval chunks rather than our
+// sources[]. validate-data rejects these at build time, but stripping them
+// here too means a bad record can never render raw markup to a reader.
+function cleanArtifacts(text) {
+  return text
+    .replace(/<\/?cite[^>]*>/gi, '')
+    .replace(/\[\d+-[^\]]*\]/g, ''); // drop hyphenated chunk refs like [16-8]; keep [n] and [n,m]
+}
+
+// Escape, then turn a citation marker into superscript link(s). Supports a
+// single [n] and a comma list [n,m] (both sources back the claim). A number
+// with no matching source is left as literal text (validate-data fails the
+// build on that, so it never reaches production).
 function renderParagraph(text) {
-  return escapeHtml(text).replace(/\[(\d+)\]/g, (whole, digits) => {
-    const n = Number(digits);
-    if (!byNumber.has(n)) return whole;
-    return (
-      `<sup class="citation"><a href="#ref-${n}" ` +
-      `class="link-accent" aria-label="Reference ${n}">[${n}]</a></sup>`
-    );
+  return escapeHtml(cleanArtifacts(text)).replace(/\[(\d+(?:\s*,\s*\d+)*)\]/g, (whole, group) => {
+    const nums = group.split(',').map((x) => Number(x.trim())).filter((n) => byNumber.has(n));
+    if (nums.length === 0) return whole;
+    return nums
+      .map(
+        (n) =>
+          `<sup class="citation"><a href="#ref-${n}" class="link-accent" aria-label="Reference ${n}">[${n}]</a></sup>`
+      )
+      .join('');
   });
 }
 ---

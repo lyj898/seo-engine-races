@@ -127,22 +127,54 @@ for (const item of rawListicles) {
 // [n] citation must resolve to a declared source -- an unresolvable
 // citation would render as a dead link and undercuts the whole
 // "everything is attributed" guarantee, so it fails the build.
+const entityByIdForReviews = new Map(rawEntities.map((e) => [stripMeta(e).entity_id, stripMeta(e)]));
 for (const item of rawReviews) {
   const data = stripMeta(item);
+  const reviewedEntity = entityByIdForReviews.get(data.entity_id);
   if (!entityIds.has(data.entity_id)) {
     reportError(item.__file, `entity_id "${data.entity_id}" has no matching file in data/entities`);
   }
   const sourceNumbers = new Set((data.sources ?? []).map((s) => s.n));
   const citationsUsed = new Set();
+  const allProse = [];
   for (const section of data.sections ?? []) {
     for (const para of section.paragraphs ?? []) {
-      for (const match of para.matchAll(/\[(\d+)\]/g)) {
-        const n = Number(match[1]);
-        citationsUsed.add(n);
-        if (!sourceNumbers.has(n)) {
-          reportError(item.__file, `paragraph cites [${n}] but sources has no entry with n=${n}`);
+      allProse.push(para);
+      // Reject web-search citation artifacts that leak internal retrieval
+      // chunks instead of our sources[]: raw <cite> tags and compound/
+      // hyphenated refs like [16-8] or [11-3,11-4]. These rendered as visible
+      // broken markup on the live site before this gate existed.
+      if (/<\/?cite/i.test(para)) {
+        reportError(item.__file, `paragraph contains a raw <cite> tag (leaked web-search markup): "${para.slice(0, 60)}..."`);
+      }
+      // Hyphenated refs like [16-8] are internal retrieval-chunk indices, not
+      // real citations. A comma list like [1,2] is a legitimate multi-source
+      // citation and is allowed.
+      if (/\[\d+-[^\]]*\]/.test(para)) {
+        reportError(item.__file, `paragraph has a hyphenated chunk citation like [16-8] (use [n] or [n,m]): "${para.slice(0, 60)}..."`);
+      }
+      // A run of " · "-separated fragments is almost always a scraped
+      // tag/facet list pasted in as prose rather than written text.
+      if ((para.match(/ · /g) ?? []).length >= 3) {
+        reportWarning(item.__file, `paragraph looks like a scraped tag/facet dump (multiple " · " separators): "${para.slice(0, 60)}..."`);
+      }
+      for (const match of para.matchAll(/\[(\d+(?:\s*,\s*\d+)*)\]/g)) {
+        for (const numStr of match[1].split(',')) {
+          const n = Number(numStr.trim());
+          citationsUsed.add(n);
+          if (!sourceNumbers.has(n)) {
+            reportError(item.__file, `paragraph cites [${n}] but sources has no entry with n=${n}`);
+          }
         }
       }
+    }
+  }
+  // A dated event's review should actually state the year somewhere.
+  const eventYear = String(reviewedEntity?.core_facts?.date ?? '').slice(0, 4);
+  if (/^\d{4}$/.test(eventYear)) {
+    const haystack = [...allProse, data.verdict ?? '', ...(data.faqs ?? []).map((f) => f.answer)].join(' ');
+    if (!haystack.includes(eventYear)) {
+      reportWarning(item.__file, `review never states the event year (${eventYear}) in its prose/verdict/FAQs`);
     }
   }
   for (const s of data.sources ?? []) {

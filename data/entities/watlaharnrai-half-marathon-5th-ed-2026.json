@@ -9,10 +9,12 @@
   "core_facts": {
     "date": "2026-09-06",
     "distance_km": [
-      21.1
+      21.4,
+      10,
+      5
     ],
-    "primary_distance_km": 21.1,
-    "registration_status": "not_yet_announced",
+    "primary_distance_km": 21.4,
+    "registration_status": "Open",
     "venue": "Wat La Harn Rai, Ban Khai, Rayong",
     "city": "Ban Khai, Rayong",
     "country": "Thailand"
