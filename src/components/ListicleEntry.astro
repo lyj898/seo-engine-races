@@ -30,7 +30,10 @@ const overall = entity.sentiment_scores?.overall;
 // races ("multiple distance options", "registration is open") which would
 // otherwise make every entry read identically. Fall back to the summary's
 // first sentence, then the short description.
-const FILLER = /multiple distance options|registration is (currently )?open|time to prepare|accommodate|suit different|various distance/i;
+// Skip both interchangeable boilerplate AND machinery-exposing pros: a blurb
+// like "highest confidence score verified in this directory" breaks the
+// reader illusion the rest of the site is careful to keep.
+const FILLER = /multiple distance options|registration is (currently )?open|time to prepare|accommodate|suit different|various distance|confidence score|verified|reliabilit|this directory/i;
 const firstSentence = (s) => (typeof s === 'string' && s.trim() ? s.match(/^[^.]*\.?/)[0].trim() : '');
 const pros = Array.isArray(entity.pros) ? entity.pros : [];
 const why = pros.find((p) => !FILLER.test(p)) || firstSentence(entity.ai_summary) || entity.short_description || pros[0] || '';
