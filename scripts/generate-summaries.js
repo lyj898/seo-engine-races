@@ -142,11 +142,18 @@ async function run() {
       pros: result.pros.map((p) => String(p).trim()).filter(Boolean),
       cons: (result.cons ?? []).map((c) => String(c).trim()).filter(Boolean),
       faqs: result.faqs.map((f) => ({ question: String(f.question).trim(), answer: String(f.answer).trim() })),
-      // status was "draft" (freshly discovered, no summary yet) -- now it has
-      // real content, so it graduates to "needs_review" for a human to
-      // promote to "active". If it was already further along
-      // (needs_review/active/archived), leave status exactly as-is.
-      status: entity.status === 'draft' ? 'needs_review' : entity.status,
+      // A freshly-discovered "draft" now has real content, so it graduates.
+      // With enabledFeatures.autoPromoteDiscovered on, it goes straight to
+      // "active" (auto-published); otherwise to "needs_review" for a human to
+      // promote. Anything already further along (needs_review/active/archived)
+      // is left exactly as-is, so refresh's needs_review flags on EXISTING
+      // races are never cleared here -- only brand-new drafts are promoted.
+      status:
+        entity.status === 'draft'
+          ? siteConfig.enabledFeatures?.autoPromoteDiscovered
+            ? 'active'
+            : 'needs_review'
+          : entity.status,
     };
     if (result.sentiment_scores && typeof result.sentiment_scores === 'object') {
       updated.sentiment_scores = result.sentiment_scores;
