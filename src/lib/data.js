@@ -44,6 +44,9 @@ export function loadRegions() {
 export function loadListicles() {
   return readJsonDir('listicles');
 }
+export function loadReviews() {
+  return readJsonDir('reviews');
+}
 
 /** Strips the __file debug field before handing data to a schema or a page. */
 export function stripMeta(item) {

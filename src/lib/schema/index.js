@@ -3,6 +3,7 @@ import {
   categorySchema,
   regionSchema,
   listicleSchema,
+  reviewSchema,
 } from './base.js';
 import { getCoreFactsSchema } from './core-facts/index.js';
 
@@ -22,4 +23,4 @@ export function getEntitySchema(verticalKey) {
   });
 }
 
-export { baseEntitySchema, categorySchema, regionSchema, listicleSchema };
+export { baseEntitySchema, categorySchema, regionSchema, listicleSchema, reviewSchema };

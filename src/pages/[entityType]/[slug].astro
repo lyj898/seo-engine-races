@@ -7,7 +7,7 @@
 // shared file) ever containing the literal word "race".
 import siteConfig from '../../lib/config.js';
 import { urls, entityUrlSegment } from '../../lib/urls.js';
-import { loadEntities, loadCategories, loadRegions, loadListicles, stripMeta, isPublished } from '../../lib/data.js';
+import { loadEntities, loadCategories, loadRegions, loadListicles, loadReviews, stripMeta, isPublished } from '../../lib/data.js';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import FactsTable from '../../components/FactsTable.astro';
@@ -42,6 +42,13 @@ const listicles = loadListicles().map(stripMeta).filter(isPublished);
 
 const category = categories.find((c) => c.category_id === entity.category_id);
 const region = regions.find((r) => r.region_id === entity.region_id);
+
+// If a published review article exists for this entity, surface it near the
+// top -- the long-form review is the more engaging read; the listing is the
+// facts sheet it links back to.
+const review = siteConfig.enabledFeatures?.reviews
+  ? loadReviews().map(stripMeta).filter(isPublished).find((r) => r.entity_id === entity.entity_id)
+  : undefined;
 
 const relatedEntities = allEntities.filter(
   (e) => entity.related_entity_ids?.includes(e.entity_id) && e.entity_id !== entity.entity_id
@@ -91,6 +98,19 @@ const jsonLd = [
     <div class="prose-content mt-8">
       <p>{entity.ai_summary}</p>
     </div>
+
+    {review && (
+      <a
+        href={urls.review(review.slug)}
+        class="mt-6 flex items-center justify-between gap-4 rounded-xl border border-brand-primary/40 bg-brand-surface-offset p-4 transition-colors hover:border-brand-primary dark:bg-brand-surface-offset-dark"
+      >
+        <span>
+          <span class="text-xs font-semibold uppercase tracking-wide text-brand-muted dark:text-brand-muted-dark">In-depth review</span>
+          <span class="mt-0.5 block text-sm font-medium">{review.title}</span>
+        </span>
+        <span aria-hidden="true" class="shrink-0 text-brand-text dark:text-brand-text-dark">→</span>
+      </a>
+    )}
 
     <div class="mt-8">
       <FactsTable facts={narrowFactsToCategories(entity.core_facts, categories)} />

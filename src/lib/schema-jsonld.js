@@ -112,6 +112,64 @@ export function buildEntitySchema(entity, siteConfig, url) {
   return schema;
 }
 
+/**
+ * Review schema for a single review article. Emits schema.org Review with an
+ * itemReviewed of the vertical's primary type (SportsEvent for races), an
+ * organisation author/publisher (the site, not a fabricated person), and --
+ * only when the article carries a rating -- a reviewRating on a 0-100 scale.
+ *
+ * This is a genuine editorial review with a byline of the site itself, so
+ * Review/reviewRating is the honest structured-data type (unlike
+ * reliability_score, which buildEntitySchema deliberately does NOT expose as
+ * a rating). entityUrl points back at the reviewed listing so the two nodes
+ * are linked for search engines.
+ */
+export function buildReviewSchema({ review, entity, siteConfig, url, entityUrl, site }) {
+  const facts = entity.core_facts ?? {};
+  const schema = {
+    '@context': 'https://schema.org',
+    '@type': 'Review',
+    url,
+    name: review.seo_title || `${entity.name} review`,
+    headline: review.title,
+    datePublished: review.last_updated,
+    dateModified: review.last_updated,
+    author: { '@type': 'Organization', name: siteConfig.siteName, url: site?.toString?.() ?? site },
+    publisher: { '@type': 'Organization', name: siteConfig.siteName },
+    reviewBody: review.verdict,
+    itemReviewed: {
+      '@type': siteConfig.schemaTypePrimary,
+      name: entity.name,
+      ...(entityUrl ? { url: entityUrl } : {}),
+      ...(facts.date ? { startDate: facts.date } : {}),
+      ...(facts.venue || facts.city || facts.country
+        ? {
+            location: {
+              '@type': 'Place',
+              name: facts.venue || [facts.city, facts.country].filter(Boolean).join(', '),
+              address: {
+                '@type': 'PostalAddress',
+                ...(facts.city ? { addressLocality: facts.city } : {}),
+                ...(facts.country ? { addressCountry: facts.country } : {}),
+              },
+            },
+          }
+        : {}),
+    },
+  };
+
+  if (review.rating && typeof review.rating.overall === 'number') {
+    schema.reviewRating = {
+      '@type': 'Rating',
+      ratingValue: review.rating.overall,
+      bestRating: 100,
+      worstRating: 0,
+    };
+  }
+
+  return schema;
+}
+
 export function buildWebsiteSchema(siteConfig, site) {
   return {
     '@context': 'https://schema.org',

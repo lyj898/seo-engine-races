@@ -14,8 +14,8 @@
  * error so CI fails loudly instead of shipping bad data.
  */
 import siteConfig from '../src/lib/config.js';
-import { getEntitySchema, categorySchema, regionSchema, listicleSchema } from '../src/lib/schema/index.js';
-import { loadEntities, loadCategories, loadRegions, loadListicles, stripMeta } from '../src/lib/data.js';
+import { getEntitySchema, categorySchema, regionSchema, listicleSchema, reviewSchema } from '../src/lib/schema/index.js';
+import { loadEntities, loadCategories, loadRegions, loadListicles, loadReviews, stripMeta } from '../src/lib/data.js';
 
 let errorCount = 0;
 let warningCount = 0;
@@ -68,10 +68,12 @@ const rawEntities = loadEntities();
 const rawCategories = loadCategories();
 const rawRegions = loadRegions();
 const rawListicles = loadListicles();
+const rawReviews = loadReviews();
 
 const categoryIds = validateList(rawCategories, categorySchema, 'category_id', 'categories');
 const regionIds = validateList(rawRegions, regionSchema, 'region_id', 'regions');
 validateList(rawListicles, listicleSchema, 'listicle_id', 'listicles');
+validateList(rawReviews, reviewSchema, 'review_id', 'reviews');
 const entityIds = validateList(rawEntities, entitySchema, 'entity_id', 'entities');
 
 // Cross-reference checks: catch orphan pages / broken internal links before
@@ -121,8 +123,43 @@ for (const item of rawListicles) {
   }
 }
 
+// Review articles: the entity they review must exist, and every inline
+// [n] citation must resolve to a declared source -- an unresolvable
+// citation would render as a dead link and undercuts the whole
+// "everything is attributed" guarantee, so it fails the build.
+for (const item of rawReviews) {
+  const data = stripMeta(item);
+  if (!entityIds.has(data.entity_id)) {
+    reportError(item.__file, `entity_id "${data.entity_id}" has no matching file in data/entities`);
+  }
+  const sourceNumbers = new Set((data.sources ?? []).map((s) => s.n));
+  const citationsUsed = new Set();
+  for (const section of data.sections ?? []) {
+    for (const para of section.paragraphs ?? []) {
+      for (const match of para.matchAll(/\[(\d+)\]/g)) {
+        const n = Number(match[1]);
+        citationsUsed.add(n);
+        if (!sourceNumbers.has(n)) {
+          reportError(item.__file, `paragraph cites [${n}] but sources has no entry with n=${n}`);
+        }
+      }
+    }
+  }
+  for (const s of data.sources ?? []) {
+    if (!citationsUsed.has(s.n)) {
+      reportWarning(item.__file, `source n=${s.n} (${s.label}) is declared but never cited with [${s.n}]`);
+    }
+  }
+  for (const faq of data.faqs ?? []) {
+    const wordCount = faq.answer.trim().split(/\s+/).filter(Boolean).length;
+    if (wordCount < 30 || wordCount > 80) {
+      reportWarning(item.__file, `FAQ answer is ${wordCount} words (target: a direct 40-60 word answer): "${faq.question}"`);
+    }
+  }
+}
+
 console.log(
-  `\n${rawEntities.length} entities, ${rawCategories.length} categories, ${rawRegions.length} regions, ${rawListicles.length} listicles checked.`
+  `\n${rawEntities.length} entities, ${rawCategories.length} categories, ${rawRegions.length} regions, ${rawListicles.length} listicles, ${rawReviews.length} reviews checked.`
 );
 console.log(`${errorCount} error(s), ${warningCount} warning(s).`);
 

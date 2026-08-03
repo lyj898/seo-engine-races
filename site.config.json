@@ -76,6 +76,7 @@
 
   "enabledFeatures": {
     "listicles": true,
+    "reviews": true,
     "reviewQueue": true,
     "savedFilters": true,
     "darkMode": true,

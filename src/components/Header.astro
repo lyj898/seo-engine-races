@@ -11,6 +11,7 @@ const navLinks = [
   { href: urls.categoriesIndex(), label: siteConfig.categoryLabelPlural ?? `${siteConfig.categoryLabel}s` },
   { href: urls.regionsIndex(), label: siteConfig.regionLabelPlural ?? `${siteConfig.regionLabel}s` },
   ...(siteConfig.enabledFeatures?.listicles ? [{ href: urls.listiclesIndex(), label: 'Best Of' }] : []),
+  ...(siteConfig.enabledFeatures?.reviews ? [{ href: urls.reviewsIndex(), label: 'Reviews' }] : []),
   { href: urls.about(), label: 'About' },
 ];
 ---

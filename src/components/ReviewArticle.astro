@@ -1,0 +1,75 @@
+---
+// Renders a review article's body: prose sections whose inline [n] markers
+// are turned into links to a numbered references list at the end.
+//
+// SAFETY: stored paragraph text is treated as plain text. We HTML-escape it
+// first, then the ONLY markup we add is our own <sup><a> citation links and
+// the reference anchors. Data can never inject arbitrary HTML this way, which
+// is the same guard ExcerptQuotes relies on -- no raw scraped markup renders.
+//
+// Props:
+//   sections: [{ heading, paragraphs: [string with optional [n] markers] }]
+//   sources:  [{ n, label, publisher?, url, type? }]
+const { sections = [], sources = [] } = Astro.props;
+
+const escapeHtml = (s) =>
+  s
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+
+const byNumber = new Map(sources.map((s) => [s.n, s]));
+
+// Escape, then replace [n] with a superscript link to that reference. An
+// [n] with no matching source is left as escaped literal text (validate-data
+// fails the build on that case, so it never reaches production).
+function renderParagraph(text) {
+  return escapeHtml(text).replace(/\[(\d+)\]/g, (whole, digits) => {
+    const n = Number(digits);
+    if (!byNumber.has(n)) return whole;
+    return (
+      `<sup class="citation"><a href="#ref-${n}" ` +
+      `class="link-accent" aria-label="Reference ${n}">[${n}]</a></sup>`
+    );
+  });
+}
+---
+
+<article class="prose-content">
+  {sections.map((section) => (
+    <section class="mt-8">
+      <h2 class="mb-3 text-xl font-semibold">{section.heading}</h2>
+      {section.paragraphs.map((p) => (
+        <p set:html={renderParagraph(p)} />
+      ))}
+    </section>
+  ))}
+</article>
+
+{sources.length > 0 && (
+  <section class="mt-12 border-t border-brand-border pt-6 dark:border-brand-border-dark" aria-labelledby="references-heading">
+    <h2 id="references-heading" class="mb-4 text-lg font-semibold">References &amp; sources</h2>
+    <ol class="space-y-2 text-sm">
+      {sources
+        .slice()
+        .sort((a, b) => a.n - b.n)
+        .map((s) => (
+          <li id={`ref-${s.n}`} class="flex gap-2 scroll-mt-24">
+            <span class="shrink-0 tabular-nums text-brand-muted dark:text-brand-muted-dark">{s.n}.</span>
+            <span>
+              <a href={s.url} rel="nofollow noopener" target="_blank" class="link-accent">
+                {s.label}
+              </a>
+              {s.publisher && (
+                <span class="text-brand-muted dark:text-brand-muted-dark"> — {s.publisher}</span>
+              )}
+            </span>
+          </li>
+        ))}
+    </ol>
+    <p class="mt-4 text-xs text-brand-muted dark:text-brand-muted-dark">
+      Quotes are short excerpts reproduced under fair use and attributed to their original authors; follow the
+      links above for the full context. This article is an independent summary and is not affiliated with the event.
+    </p>
+  </section>
+)}

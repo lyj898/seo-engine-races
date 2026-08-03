@@ -1,0 +1,61 @@
+---
+import siteConfig from '../../lib/config.js';
+import { urls } from '../../lib/urls.js';
+import { loadReviews, loadEntities, stripMeta, isPublished } from '../../lib/data.js';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import { buildBreadcrumbListSchema } from '../../lib/schema-jsonld.js';
+
+const entities = loadEntities().map(stripMeta).filter(isPublished);
+const entityById = new Map(entities.map((e) => [e.entity_id, e]));
+
+const reviews = loadReviews()
+  .map(stripMeta)
+  .filter(isPublished)
+  .filter((r) => entityById.has(r.entity_id))
+  .sort((a, b) => String(b.last_updated ?? '').localeCompare(String(a.last_updated ?? '')));
+
+const breadcrumbItems = [
+  { label: siteConfig.siteName, href: urls.home() },
+  { label: 'Reviews', href: urls.reviewsIndex() },
+];
+
+const jsonLd = [buildBreadcrumbListSchema(breadcrumbItems, Astro.site)];
+---
+
+<BaseLayout
+  title="Race reviews"
+  description={`In-depth, independent reviews of ${siteConfig.entityLabelPlural} drawn from real participant reports.`}
+  canonicalPath={urls.reviewsIndex()}
+  jsonLd={jsonLd}
+>
+  <div class="mx-auto max-w-3xl px-4 py-10 sm:px-6">
+    <Breadcrumb items={breadcrumbItems} />
+    <h1 class="mt-4 font-serif text-3xl font-semibold sm:text-4xl">Race reviews</h1>
+    <p class="mt-3 text-lg text-brand-muted dark:text-brand-muted-dark">
+      In-depth reviews built from real participant race reports and coverage — what a race is actually like to run,
+      with every claim linked back to its source.
+    </p>
+
+    {reviews.length === 0 ? (
+      <p class="mt-10 text-brand-muted dark:text-brand-muted-dark">No reviews published yet — check back soon.</p>
+    ) : (
+      <ul class="mt-8 divide-y divide-brand-border dark:divide-brand-border-dark">
+        {reviews.map((review) => {
+          const entity = entityById.get(review.entity_id);
+          const facts = entity.core_facts ?? {};
+          const loc = [facts.city, facts.country].filter(Boolean).join(', ');
+          return (
+            <li class="py-5">
+              <a href={urls.review(review.slug)} class="group block">
+                <h2 class="text-xl font-semibold group-hover:text-brand-primary">{review.title}</h2>
+                <p class="mt-1.5 text-sm text-brand-muted dark:text-brand-muted-dark">{review.dek}</p>
+                {loc && <p class="mt-1.5 text-xs text-brand-muted dark:text-brand-muted-dark">{loc}</p>}
+              </a>
+            </li>
+          );
+        })}
+      </ul>
+    )}
+  </div>
+</BaseLayout>

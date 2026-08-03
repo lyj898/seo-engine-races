@@ -1,0 +1,149 @@
+---
+import siteConfig from '../../lib/config.js';
+import { urls } from '../../lib/urls.js';
+import { loadReviews, loadEntities, loadRegions, stripMeta, isPublished } from '../../lib/data.js';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import LastUpdated from '../../components/LastUpdated.astro';
+import SentimentBreakdown from '../../components/SentimentBreakdown.astro';
+import ExcerptQuotes from '../../components/ExcerptQuotes.astro';
+import ReviewArticle from '../../components/ReviewArticle.astro';
+import FAQSection from '../../components/FAQSection.astro';
+import { isLapsed, findSuccessorEntity } from '../../lib/succession.js';
+import { buildFaqPageSchema, buildBreadcrumbListSchema, buildReviewSchema } from '../../lib/schema-jsonld.js';
+
+export function getStaticPaths() {
+  // A review page exists only for a published review whose reviewed entity
+  // is itself published -- so we never link to a review of a retired race.
+  const entities = loadEntities().map(stripMeta).filter(isPublished);
+  const entityById = new Map(entities.map((e) => [e.entity_id, e]));
+  const reviews = loadReviews().map(stripMeta).filter(isPublished);
+
+  return reviews
+    .filter((r) => entityById.has(r.entity_id))
+    .map((review) => ({
+      params: { slug: review.slug },
+      props: { review, entity: entityById.get(review.entity_id) },
+    }));
+}
+
+const { review, entity } = Astro.props;
+const regions = loadRegions().map(stripMeta);
+const region = regions.find((r) => r.region_id === entity.region_id);
+
+const facts = entity.core_facts ?? {};
+const dateline = [facts.city, facts.country].filter(Boolean).join(', ');
+
+// If the reviewed edition has already taken place, point readers forward to
+// the next edition (found from the data, never hand-linked) so a lapsed race
+// review is still a useful landing page rather than a dead end.
+const lapsed = isLapsed(entity);
+const successor = lapsed
+  ? findSuccessorEntity(entity, loadEntities().map(stripMeta).filter(isPublished))
+  : null;
+
+const breadcrumbItems = [
+  { label: siteConfig.siteName, href: urls.home() },
+  { label: 'Reviews', href: urls.reviewsIndex() },
+  { label: entity.name, href: urls.review(review.slug) },
+];
+
+const canonicalUrl = new URL(urls.review(review.slug), Astro.site).toString();
+const entityUrl = new URL(urls.entity(entity.slug), Astro.site).toString();
+
+const pageTitle = review.seo_title || `${entity.name} review`;
+const metaDescription = review.meta_description || review.dek;
+
+const jsonLd = [
+  buildReviewSchema({ review, entity, siteConfig, url: canonicalUrl, entityUrl, site: Astro.site }),
+  ...(siteConfig.enabledFeatures?.faqSchema && review.faqs?.length ? [buildFaqPageSchema(review.faqs)] : []),
+  buildBreadcrumbListSchema(breadcrumbItems, Astro.site),
+].filter(Boolean);
+---
+
+<BaseLayout title={pageTitle} description={metaDescription} canonicalPath={urls.review(review.slug)} jsonLd={jsonLd}>
+  <div class="mx-auto max-w-3xl px-4 py-10 sm:px-6">
+    <Breadcrumb items={breadcrumbItems} />
+
+    <p class="mt-4 inline-block rounded-full bg-brand-primary px-2.5 py-1 text-xs font-semibold uppercase tracking-wide text-brand-primary-ink dark:text-brand-primary-ink-dark">Race review</p>
+    <h1 class="mt-2 font-serif text-3xl font-semibold sm:text-4xl">{review.title}</h1>
+    <p class="mt-3 text-lg text-brand-muted dark:text-brand-muted-dark">{review.dek}</p>
+
+    <div class="mt-3 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-brand-muted dark:text-brand-muted-dark">
+      {dateline && <span>{dateline}</span>}
+      {dateline && <span aria-hidden="true">·</span>}
+      <LastUpdated date={review.last_updated} />
+    </div>
+
+    {lapsed && (
+      <div class="mt-6 rounded-xl border border-brand-primary/40 bg-brand-primary-highlight p-4 text-sm dark:bg-brand-primary-highlight-dark">
+        {successor ? (
+          <p>
+            This edition has already taken place. Looking ahead? See the
+            {' '}
+            <a href={urls.entity(successor.slug)} class="link-accent">{successor.name}</a>.
+          </p>
+        ) : (
+          <p>
+            This edition has already taken place — check the
+            {' '}
+            <a href={urls.entity(entity.slug)} class="link-accent">race listing</a>
+            {' '}
+            for future dates.
+          </p>
+        )}
+      </div>
+    )}
+
+    {/* The bottom line, up top: readers deciding whether to enter want the
+        verdict before the detail, not after it. */}
+    <div class="mt-8 rounded-xl border border-brand-border bg-brand-surface-offset p-5 dark:border-brand-border-dark dark:bg-brand-surface-offset-dark">
+      <h2 class="mb-2 text-sm font-semibold uppercase tracking-wide text-brand-muted dark:text-brand-muted-dark">
+        The bottom line
+      </h2>
+      <p class="text-base leading-relaxed">{review.verdict}</p>
+    </div>
+
+    {review.rating && (
+      <section class="mt-8">
+        <h2 class="mb-4 text-xl font-semibold">How runners rate it</h2>
+        <SentimentBreakdown sentiment={review.rating} />
+        <p class="mt-3 text-xs text-brand-muted dark:text-brand-muted-dark">
+          Scores summarise sentiment from the participant reviews cited below, not an official rating.
+        </p>
+      </section>
+    )}
+
+    <ReviewArticle sections={review.sections} sources={review.sources} />
+
+    {review.pull_quotes?.length > 0 && (
+      <section class="mt-10">
+        <h2 class="mb-4 text-xl font-semibold">In their words</h2>
+        <ExcerptQuotes quotes={review.pull_quotes} />
+      </section>
+    )}
+
+    {review.faqs?.length > 0 && (
+      <div class="mt-12">
+        <FAQSection faqs={review.faqs} />
+      </div>
+    )}
+
+    <div class="mt-12 rounded-xl border border-brand-border p-5 dark:border-brand-border-dark">
+      <p class="text-sm text-brand-muted dark:text-brand-muted-dark">
+        Planning to enter? See the full facts — dates, distances, pricing and registration — on the
+        {' '}
+        <a href={urls.entity(entity.slug)} class="link-accent">{entity.name} listing</a>.
+      </p>
+    </div>
+
+    <div class="mt-10 flex flex-wrap gap-4 text-sm">
+      <a href={urls.reviewsIndex()} class="link-accent">← All race reviews</a>
+      {region && (
+        <a href={urls.region(region.slug)} class="link-accent">
+          More {siteConfig.entityLabelPlural} in {region.label} →
+        </a>
+      )}
+    </div>
+  </div>
+</BaseLayout>

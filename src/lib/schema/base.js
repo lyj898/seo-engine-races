@@ -192,3 +192,67 @@ export const listicleSchema = z.object({
   last_updated: z.string().min(1),
   status: z.enum(STATUS_VALUES),
 });
+
+/**
+ * Review articles (data/reviews/*.json).
+ *
+ * A long-form, review-led article about ONE entity -- the readable
+ * counterpart to the entity page's structured facts. It synthesises the
+ * same web-research material (quotes, sentiment, watchouts) into narrative
+ * prose, and it is copyright-safe by construction:
+ *
+ *   - Body prose is original synthesis, never scraped paragraphs.
+ *   - Any third-party wording appears only as a short, attributed
+ *     `pull_quote` carrying a real source_url (same rule as excerpt_quotes).
+ *   - Every factual claim is backed by a numbered `[n]` citation that maps
+ *     to an entry in `sources`; the renderer turns each `[n]` into a link to
+ *     the references list. validate-data.js checks every `[n]` resolves.
+ *
+ * One review references one entity via `entity_id` (cross-checked in
+ * validate-data.js) so the article can pull live facts/breadcrumbs from the
+ * entity instead of duplicating them.
+ */
+export const reviewSourceSchema = z.object({
+  // Citation number referenced by `[n]` markers in section paragraphs.
+  n: z.number().int().positive(),
+  label: z.string().min(1), // e.g. "Race report" / "Runner race blog"
+  publisher: z.string().min(1).optional(), // e.g. "ToughASIA"
+  url: z.string().url(),
+  type: z
+    .enum(['official', 'registration_platform', 'aggregator', 'review', 'social', 'news', 'other'])
+    .optional(),
+});
+
+export const reviewSectionSchema = z.object({
+  heading: z.string().min(1),
+  // Plain-text paragraphs. May contain inline `[n]` citation markers that
+  // reference sources[].n -- the renderer linkifies them; nothing else in a
+  // paragraph is ever treated as markup, so stored prose can't inject HTML.
+  paragraphs: z.array(z.string().min(1)).min(1),
+});
+
+export const reviewSchema = z.object({
+  review_id: z.string().min(1),
+  slug: slugSchema,
+  // The entity this article reviews. Cross-referenced in validate-data.js.
+  entity_id: z.string().min(1),
+  title: z.string().min(1), // on-page H1 (can be long/editorial)
+  // SEO <title> (without the " | siteName" suffix the layout appends) and
+  // meta description. Optional -- the page falls back to a derived title and
+  // the dek. Kept short so the built <title>/description don't get truncated
+  // in search results.
+  seo_title: z.string().min(1).max(70).optional(),
+  meta_description: z.string().min(1).max(200).optional(),
+  dek: z.string().min(1), // standfirst / subtitle under the headline
+  verdict: z.string().min(1), // the up-top "bottom line" paragraph
+  // Optional at-a-glance scores, same shape as sentiment_scores -- typically
+  // carried over from the entity's research so the two never disagree.
+  rating: sentimentScoresSchema.optional(),
+  sections: z.array(reviewSectionSchema).min(1),
+  pull_quotes: z.array(excerptQuoteSchema).default([]),
+  sources: z.array(reviewSourceSchema).min(1),
+  faqs: z.array(faqSchema).default([]),
+  editorial_notes: z.string().optional(),
+  last_updated: z.string().min(1),
+  status: z.enum(STATUS_VALUES),
+});
