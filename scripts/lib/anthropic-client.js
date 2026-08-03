@@ -17,7 +17,10 @@ function getClient() {
         'ANTHROPIC_API_KEY is not set. Locally: export it in your shell. In GitHub Actions: add it as a repository secret (Settings -> Secrets and variables -> Actions) -- see README\'s "Weekly refresh workflow" section.'
       );
     }
-    client = new Anthropic({ apiKey });
+    // Bump retries above the SDK default (2): these pipeline runs are
+    // unattended and batchy, so a transient 429/500/529 ("Overloaded") should
+    // be ridden out with backoff rather than skipping an entity for the run.
+    client = new Anthropic({ apiKey, maxRetries: 6 });
   }
   return client;
 }
