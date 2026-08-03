@@ -253,6 +253,11 @@ export const reviewSchema = z.object({
   sources: z.array(reviewSourceSchema).min(1),
   faqs: z.array(faqSchema).default([]),
   editorial_notes: z.string().optional(),
+  // Full ISO timestamp of when the article was generated, so the index can
+  // sort strictly newest-first even when several publish on the same date
+  // (last_updated is date-only). Optional: pre-timestamp reviews fall back to
+  // last_updated for ordering.
+  published_at: z.string().optional(),
   last_updated: z.string().min(1),
   status: z.enum(STATUS_VALUES),
 });

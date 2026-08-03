@@ -9,11 +9,31 @@ import { buildBreadcrumbListSchema } from '../../lib/schema-jsonld.js';
 const entities = loadEntities().map(stripMeta).filter(isPublished);
 const entityById = new Map(entities.map((e) => [e.entity_id, e]));
 
+// Order strictly newest-first by publish timestamp (falling back to the
+// date-only last_updated for older pre-timestamp reviews). An ISO datetime
+// sorts after a bare same-day date, so freshly-stamped articles rise above
+// same-date older ones -- which is exactly what we want.
+const orderKey = (r) => String(r.published_at ?? r.last_updated ?? '');
 const reviews = loadReviews()
   .map(stripMeta)
   .filter(isPublished)
   .filter((r) => entityById.has(r.entity_id))
-  .sort((a, b) => String(b.last_updated ?? '').localeCompare(String(a.last_updated ?? '')));
+  .sort((a, b) => orderKey(b).localeCompare(orderKey(a)));
+
+// Flag the just-published articles so the two-a-day cadence is easy to spot.
+// Only timestamped reviews within the last 26h qualify (comfortably spans the
+// two 12h-apart runs of a day; older/pre-timestamp reviews never show "New").
+const now = Date.now();
+const isNew = (r) => {
+  const t = Date.parse(r.published_at ?? '');
+  return Number.isFinite(t) && now - t < 26 * 60 * 60 * 1000;
+};
+const fmtDate = (r) => {
+  const t = Date.parse(r.published_at ?? r.last_updated ?? '');
+  return Number.isFinite(t)
+    ? new Date(t).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })
+    : null;
+};
 
 const breadcrumbItems = [
   { label: siteConfig.siteName, href: urls.home() },
@@ -48,7 +68,17 @@ const jsonLd = [buildBreadcrumbListSchema(breadcrumbItems, Astro.site)];
           return (
             <li class="py-5">
               <a href={urls.review(review.slug)} class="group block">
-                <h2 class="text-xl font-semibold group-hover:text-brand-primary">{review.title}</h2>
+                <div class="flex items-center gap-2">
+                  {isNew(review) && (
+                    <span class="rounded-full bg-brand-primary px-2 py-0.5 text-[0.65rem] font-bold uppercase tracking-wide text-brand-primary-ink dark:text-brand-primary-ink-dark">
+                      New
+                    </span>
+                  )}
+                  {fmtDate(review) && (
+                    <span class="text-xs text-brand-muted dark:text-brand-muted-dark">{fmtDate(review)}</span>
+                  )}
+                </div>
+                <h2 class="mt-1 text-xl font-semibold group-hover:text-brand-primary">{review.title}</h2>
                 <p class="mt-1.5 text-sm text-brand-muted dark:text-brand-muted-dark">{review.dek}</p>
                 {loc && <p class="mt-1.5 text-xs text-brand-muted dark:text-brand-muted-dark">{loc}</p>}
               </a>
