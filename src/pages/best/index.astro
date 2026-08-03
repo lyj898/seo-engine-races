@@ -27,8 +27,8 @@ const jsonLd = [buildBreadcrumbListSchema(breadcrumbItems, Astro.site)].filter(B
     <Breadcrumb items={breadcrumbItems} />
     <h1 class="mt-4 font-serif text-3xl font-semibold sm:text-4xl">Best Of guides</h1>
     <p class="mt-3 max-w-2xl text-brand-muted dark:text-brand-muted-dark">
-      Curated shortlists built from verified {siteConfig.entityLabelPlural}, filtered and ranked by structured criteria
-      rather than written from scratch.
+      Shortlists of the {siteConfig.entityLabelPlural} worth knowing about, grouped by distance and country —
+      what's on the calendar, what each one is like, and where to start.
     </p>
 
     {listicles.length > 0 ? (

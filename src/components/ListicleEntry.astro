@@ -1,0 +1,84 @@
+---
+import { urls } from '../lib/urls.js';
+import { simplifyAvailabilityStatus } from '../lib/text.js';
+import DateBadge from './DateBadge.astro';
+import ValuePills from './ValuePills.astro';
+
+// A rich entry for "Best Of" guide pages -- the editorial counterpart to the
+// bare EntityCard. Where EntityCard answers "what is this", this answers
+// "why is it on the list": it leads with a concrete reason drawn from the
+// entity's own research (a standout pro, or the summary), shows the runner
+// sentiment score when we have one, and links straight to the full review
+// when one exists. Everything is pulled from data already on the entity, so a
+// guide's entries stay current with the directory and never need hand-editing.
+//
+// Props:
+//   entity     - the entity to render
+//   categories - for ValuePills labelling (optional)
+//   hasReview  - true if a published review exists at /reviews/<slug>
+//   rank       - 1-based position, shown as an index (not a quality ranking)
+const { entity, categories = [], hasReview = false, rank } = Astro.props;
+
+const facts = entity.core_facts ?? {};
+const hasDate = typeof facts.date === 'string';
+const locationLine = [facts.city, facts.country].filter(Boolean).join(', ');
+const availability = simplifyAvailabilityStatus(facts.registration_status);
+const overall = entity.sentiment_scores?.overall;
+
+// The one-line "why it's here". Prefer a concrete positive surfaced by the
+// research stage; fall back to the first sentence of the summary, then the
+// short description -- so an entry always leads with something specific.
+const firstSentence = (s) => (typeof s === 'string' && s.trim() ? s.match(/^[^.]*\.?/)[0].trim() : '');
+const why = (entity.pros && entity.pros[0]) || firstSentence(entity.ai_summary) || entity.short_description || '';
+---
+
+<div class="rounded-xl border border-brand-border bg-brand-surface p-5 shadow-sm transition-colors duration-200 ease-interactive hover:border-brand-faint dark:border-brand-border-dark dark:bg-brand-surface-dark dark:hover:border-brand-faint-dark">
+  <div class="flex gap-4">
+    {hasDate && <DateBadge date={facts.date} />}
+
+    <div class="min-w-0 flex-1">
+      <div class="flex items-start justify-between gap-3">
+        <div class="min-w-0">
+          {typeof rank === 'number' && (
+            <span class="mr-1.5 text-sm font-bold text-brand-faint dark:text-brand-faint-dark">{rank}.</span>
+          )}
+          <a href={urls.entity(entity.slug)} class="font-serif text-lg font-semibold leading-tight hover:underline">
+            {entity.name}
+          </a>
+          {locationLine && <p class="mt-0.5 text-sm text-brand-muted dark:text-brand-muted-dark">{locationLine}</p>}
+        </div>
+        {typeof overall === 'number' && (
+          <span
+            class="flex shrink-0 items-baseline gap-1 rounded-full bg-brand-primary px-2.5 py-1 text-brand-primary-ink dark:text-brand-primary-ink-dark"
+            title="Runner sentiment score, from reviews we found"
+          >
+            <span class="text-sm font-extrabold tabular-nums">{overall}</span>
+            <span class="text-[0.65rem] font-semibold uppercase tracking-wide opacity-80">score</span>
+          </span>
+        )}
+      </div>
+
+      {why && <p class="mt-2.5 text-sm leading-relaxed">{why}</p>}
+
+      {facts.distance_km?.length > 0 && (
+        <ValuePills class="mt-3" values={facts.distance_km} categories={categories} unit="km" matchedOnly />
+      )}
+
+      <div class="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-brand-muted dark:text-brand-muted-dark">
+        {facts.price_range && <span>{facts.price_range}</span>}
+        {availability && (
+          <span class="font-semibold uppercase tracking-wide">
+            {availability === 'open' ? 'Registration open' : 'Registration closed'}
+          </span>
+        )}
+      </div>
+
+      <div class="mt-4 flex flex-wrap gap-x-5 gap-y-2 text-sm">
+        {hasReview && (
+          <a href={urls.review(entity.slug)} class="font-bold link-accent">Read the full review →</a>
+        )}
+        <a href={urls.entity(entity.slug)} class="link-accent">Details &amp; registration →</a>
+      </div>
+    </div>
+  </div>
+</div>

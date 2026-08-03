@@ -1,11 +1,11 @@
 ---
 import siteConfig from '../../lib/config.js';
 import { urls } from '../../lib/urls.js';
-import { loadEntities, loadCategories, loadRegions, loadListicles, stripMeta, isPublished } from '../../lib/data.js';
+import { loadEntities, loadCategories, loadRegions, loadListicles, loadReviews, stripMeta, isPublished } from '../../lib/data.js';
 import { resolveListicleEntities } from '../../lib/listicles.js';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
-import EntityCard from '../../components/EntityCard.astro';
+import ListicleEntry from '../../components/ListicleEntry.astro';
 import FAQSection from '../../components/FAQSection.astro';
 import LastUpdated from '../../components/LastUpdated.astro';
 import { buildItemListSchema, buildFaqPageSchema, buildBreadcrumbListSchema } from '../../lib/schema-jsonld.js';
@@ -24,6 +24,28 @@ const allCategories = loadCategories().map(stripMeta);
 const allRegions = loadRegions().map(stripMeta);
 
 const rankedEntities = resolveListicleEntities(listicle, allEntities, allRegions, allCategories);
+
+// Which of these races have a published, in-depth review to link to.
+const reviewSlugs = new Set(
+  (siteConfig.enabledFeatures?.reviews ? loadReviews().map(stripMeta).filter(isPublished) : []).map((r) => r.slug)
+);
+const withReviews = rankedEntities.filter((e) => reviewSlugs.has(e.slug)).length;
+
+// An at-a-glance line computed from the resolved set, so the guide opens with
+// something concrete (span of dates, distances on offer) rather than only the
+// intro paragraph.
+const fmtMonth = (iso) => new Date(iso).toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
+const datesSorted = rankedEntities
+  .map((e) => e.core_facts?.date)
+  .filter((d) => typeof d === 'string' && d.length >= 7)
+  .sort();
+const dateRange = datesSorted.length
+  ? fmtMonth(datesSorted[0]) === fmtMonth(datesSorted[datesSorted.length - 1])
+    ? fmtMonth(datesSorted[0])
+    : `${fmtMonth(datesSorted[0])} – ${fmtMonth(datesSorted[datesSorted.length - 1])}`
+  : null;
+const distanceSet = [...new Set(rankedEntities.flatMap((e) => e.core_facts?.distance_km ?? []))].sort((a, b) => a - b);
+const distanceLabel = distanceSet.length ? `${distanceSet.join(' / ')} km` : null;
 
 const breadcrumbItems = [
   { label: siteConfig.siteName, href: urls.home() },
@@ -56,22 +78,35 @@ const jsonLd = [
       <p>{listicle.intro}</p>
     </div>
 
+    {rankedEntities.length > 0 && (
+      <div class="mt-6 flex flex-wrap items-center gap-x-6 gap-y-2 rounded-xl border border-brand-border bg-brand-surface-offset px-5 py-3.5 text-sm dark:border-brand-border-dark dark:bg-brand-surface-offset-dark">
+        <span><span class="font-semibold">{rankedEntities.length}</span> {siteConfig.entityLabelPlural}</span>
+        {dateRange && <span>{dateRange}</span>}
+        {distanceLabel && <span>{distanceLabel}</span>}
+        {withReviews > 0 && (
+          <span>{withReviews} with in-depth {withReviews === 1 ? 'review' : 'reviews'}</span>
+        )}
+      </div>
+    )}
+
     {rankedEntities.length > 0 ? (
-      <ol class="mt-10 space-y-4">
-        {rankedEntities.map((entity, i) => (
-          <li class="flex gap-4">
-            <span
-              class="mt-1 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-brand-primary text-sm font-bold text-brand-primary-ink dark:text-brand-primary-ink-dark"
-              aria-hidden="true"
-            >
-              {i + 1}
-            </span>
-            <div class="flex-1">
-              <EntityCard entity={entity} categories={allCategories} />
-            </div>
-          </li>
-        ))}
-      </ol>
+      <>
+        <p class="mt-8 text-xs font-semibold uppercase tracking-wide text-brand-muted dark:text-brand-muted-dark">
+          In date order — soonest first
+        </p>
+        <ol class="mt-3 space-y-4">
+          {rankedEntities.map((entity, i) => (
+            <li>
+              <ListicleEntry
+                entity={entity}
+                categories={allCategories}
+                hasReview={reviewSlugs.has(entity.slug)}
+                rank={i + 1}
+              />
+            </li>
+          ))}
+        </ol>
+      </>
     ) : (
       <p class="mt-10 text-brand-muted dark:text-brand-muted-dark">
         No {siteConfig.entityLabelPlural} currently match this guide's criteria -- check back soon.
