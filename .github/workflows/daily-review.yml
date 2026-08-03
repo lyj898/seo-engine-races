@@ -17,8 +17,10 @@ name: Daily review article
 #     run just pushed rather than the stale SHA the run was triggered at.
 on:
   schedule:
-    - cron: '17 2 * * *' # daily at 02:17 UTC (off the hour -- GitHub delays
-      # scheduled runs most at the top of the hour). ~10:17am Singapore.
+    # Every 12 hours at 09:00 and 21:00 UTC = 5:00pm and 5:00am Singapore
+    # (SGT = UTC+8). GitHub's scheduled triggers are best-effort and can be
+    # delayed a few minutes, especially at the top of the hour.
+    - cron: '0 9,21 * * *'
   workflow_dispatch:
     inputs:
       slugs:
