@@ -44,9 +44,6 @@ const dateRange = datesSorted.length
     ? fmtMonth(datesSorted[0])
     : `${fmtMonth(datesSorted[0])} – ${fmtMonth(datesSorted[datesSorted.length - 1])}`
   : null;
-const distanceSet = [...new Set(rankedEntities.flatMap((e) => e.core_facts?.distance_km ?? []))].sort((a, b) => a - b);
-const distanceLabel = distanceSet.length ? `${distanceSet.join(' / ')} km` : null;
-
 const breadcrumbItems = [
   { label: siteConfig.siteName, href: urls.home() },
   { label: 'Best Of guides', href: urls.listiclesIndex() },
@@ -82,7 +79,6 @@ const jsonLd = [
       <div class="mt-6 flex flex-wrap items-center gap-x-6 gap-y-2 rounded-xl border border-brand-border bg-brand-surface-offset px-5 py-3.5 text-sm dark:border-brand-border-dark dark:bg-brand-surface-offset-dark">
         <span><span class="font-semibold">{rankedEntities.length}</span> {siteConfig.entityLabelPlural}</span>
         {dateRange && <span>{dateRange}</span>}
-        {distanceLabel && <span>{distanceLabel}</span>}
         {withReviews > 0 && (
           <span>{withReviews} with in-depth {withReviews === 1 ? 'review' : 'reviews'}</span>
         )}

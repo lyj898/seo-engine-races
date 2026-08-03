@@ -25,11 +25,15 @@ const locationLine = [facts.city, facts.country].filter(Boolean).join(', ');
 const availability = simplifyAvailabilityStatus(facts.registration_status);
 const overall = entity.sentiment_scores?.overall;
 
-// The one-line "why it's here". Prefer a concrete positive surfaced by the
-// research stage; fall back to the first sentence of the summary, then the
-// short description -- so an entry always leads with something specific.
+// The one-line "why it's here". Prefer a pro that actually says something
+// distinctive -- skip the boilerplate the summaries stage repeats across most
+// races ("multiple distance options", "registration is open") which would
+// otherwise make every entry read identically. Fall back to the summary's
+// first sentence, then the short description.
+const FILLER = /multiple distance options|registration is (currently )?open|time to prepare|accommodate|suit different|various distance/i;
 const firstSentence = (s) => (typeof s === 'string' && s.trim() ? s.match(/^[^.]*\.?/)[0].trim() : '');
-const why = (entity.pros && entity.pros[0]) || firstSentence(entity.ai_summary) || entity.short_description || '';
+const pros = Array.isArray(entity.pros) ? entity.pros : [];
+const why = pros.find((p) => !FILLER.test(p)) || firstSentence(entity.ai_summary) || entity.short_description || pros[0] || '';
 ---
 
 <div class="rounded-xl border border-brand-border bg-brand-surface p-5 shadow-sm transition-colors duration-200 ease-interactive hover:border-brand-faint dark:border-brand-border-dark dark:bg-brand-surface-dark dark:hover:border-brand-faint-dark">
