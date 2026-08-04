@@ -50,9 +50,33 @@ const review = siteConfig.enabledFeatures?.reviews
   ? loadReviews().map(stripMeta).filter(isPublished).find((r) => r.entity_id === entity.entity_id)
   : undefined;
 
-const relatedEntities = allEntities.filter(
-  (e) => entity.related_entity_ids?.includes(e.entity_id) && e.entity_id !== entity.entity_id
+// Internal-linking mesh: start from any editorially-picked related IDs, then
+// backfill with same-region / same-category siblings so every entity page
+// links to its neighbours. A dense internal mesh (vs. each page being reachable
+// only from its two hubs) materially improves crawlability and indexation of
+// the long tail. Vertical-agnostic: only uses category_id / region_id, never a
+// vertical-specific word.
+const RELATED_TARGET = 6;
+const isSelf = (e) => e.entity_id === entity.entity_id;
+const curated = allEntities.filter(
+  (e) => entity.related_entity_ids?.includes(e.entity_id) && !isSelf(e)
 );
+const relatedEntities = [...curated];
+const picked = new Set([entity.entity_id, ...curated.map((e) => e.entity_id)]);
+const byReliability = (a, b) => (b.reliability_score ?? 0) - (a.reliability_score ?? 0);
+const pool = allEntities.filter((e) => !isSelf(e)).sort(byReliability);
+const backfillFrom = (candidates) => {
+  for (const e of candidates) {
+    if (relatedEntities.length >= RELATED_TARGET) break;
+    if (picked.has(e.entity_id)) continue;
+    picked.add(e.entity_id);
+    relatedEntities.push(e);
+  }
+};
+// Priority: same category AND region (most relevant) -> same category -> same region.
+backfillFrom(pool.filter((e) => e.category_id === entity.category_id && e.region_id === entity.region_id));
+backfillFrom(pool.filter((e) => e.category_id === entity.category_id));
+backfillFrom(pool.filter((e) => e.region_id === entity.region_id));
 
 // A listicle is "related" if it's explicitly pinned to this entity, or its
 // filter targets this entity's category -- covers both editorial pins and
