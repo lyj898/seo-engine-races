@@ -1,7 +1,7 @@
 ---
 import siteConfig from '../../lib/config.js';
 import { urls } from '../../lib/urls.js';
-import { loadReviews, loadEntities, loadRegions, stripMeta, isPublished } from '../../lib/data.js';
+import { loadReviews, loadEntities, loadRegions, loadCategories, stripMeta, isPublished } from '../../lib/data.js';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import LastUpdated from '../../components/LastUpdated.astro';
@@ -9,7 +9,9 @@ import SentimentBreakdown from '../../components/SentimentBreakdown.astro';
 import ExcerptQuotes from '../../components/ExcerptQuotes.astro';
 import ReviewArticle from '../../components/ReviewArticle.astro';
 import FAQSection from '../../components/FAQSection.astro';
+import RelatedEntities from '../../components/RelatedEntities.astro';
 import { isLapsed, findSuccessorEntity } from '../../lib/succession.js';
+import { pickRelatedEntities, pickRelatedReviews } from '../../lib/related.js';
 import { buildFaqPageSchema, buildBreadcrumbListSchema, buildReviewSchema } from '../../lib/schema-jsonld.js';
 
 export function getStaticPaths() {
@@ -30,6 +32,17 @@ export function getStaticPaths() {
 const { review, entity } = Astro.props;
 const regions = loadRegions().map(stripMeta);
 const region = regions.find((r) => r.region_id === entity.region_id);
+
+// Same internal-linking mesh as entity pages, via the shared helper: this
+// review links out to the reviewed race's siblings (helping those listings get
+// crawled) and to other reviews in the same category/region (interlinking the
+// review cluster). Applies automatically to any review the pipeline adds later.
+const categories = loadCategories().map(stripMeta);
+const allEntities = loadEntities().map(stripMeta).filter(isPublished);
+const publishedReviews = loadReviews().map(stripMeta).filter(isPublished);
+const entityById = new Map(allEntities.map((e) => [e.entity_id, e]));
+const relatedEntities = pickRelatedEntities(entity, allEntities);
+const relatedReviews = pickRelatedReviews(entity, publishedReviews, entityById);
 
 const facts = entity.core_facts ?? {};
 const dateline = [facts.city, facts.country].filter(Boolean).join(', ');
@@ -136,6 +149,25 @@ const jsonLd = [
         <a href={urls.entity(entity.slug)} class="link-accent">{entity.name} listing</a>.
       </p>
     </div>
+
+    {relatedReviews.length > 0 && (
+      <section class="mt-12">
+        <h2 class="mb-4 text-xl font-semibold">More reviews</h2>
+        <ul class="space-y-2">
+          {relatedReviews.map(({ review: r, entity: e }) => (
+            <li>
+              <a href={urls.review(r.slug)} class="link-accent">{e.name} review</a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {relatedEntities.length > 0 && (
+      <div class="mt-12">
+        <RelatedEntities entities={relatedEntities} categories={categories} heading={`Related ${siteConfig.entityLabelPlural}`} />
+      </div>
+    )}
 
     <div class="mt-10 flex flex-wrap gap-4 text-sm">
       <a href={urls.reviewsIndex()} class="link-accent">← All race reviews</a>
