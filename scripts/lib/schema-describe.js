@@ -72,7 +72,19 @@ export function describeSchemaShape(zodObjectSchema) {
   for (const [field, zodType] of Object.entries(shape)) {
     try {
       const { base, required } = unwrap(zodType);
-      lines.push(`- ${field} (${describeBase(base)}, ${required ? 'required' : 'optional'})`);
+      // A bare "(string, optional)" tells the model nothing about what shape
+      // the string must take, which is fine for free text and actively bad
+      // for a constrained field -- registration_deadline is regex-checked as
+      // an ISO date, so a model writing "30 June 2026" fails the write with
+      // no hint as to why. zod's .describe() carries that guidance, and
+      // surfacing it here keeps prompts.js vertical-agnostic: any vertical
+      // that describes a field gets the description in its prompt for free.
+      //
+      // Checked on both the wrapper and the unwrapped base, since .describe()
+      // may sit either side of .optional() depending on call order.
+      const description = zodType?._def?.description ?? base?._def?.description;
+      const suffix = description ? ` -- ${description}` : '';
+      lines.push(`- ${field} (${describeBase(base)}, ${required ? 'required' : 'optional'})${suffix}`);
     } catch {
       lines.push(`- ${field} (value)`);
     }

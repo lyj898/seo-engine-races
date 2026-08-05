@@ -21,6 +21,7 @@ import RelatedListicles from '../../components/RelatedListicles.astro';
 import LastUpdated from '../../components/LastUpdated.astro';
 import Pill from '../../components/Pill.astro';
 import { narrowFactsToCategories } from '../../lib/categoryMatch.js';
+import { withResolvedRegistration } from '../../lib/text.js';
 import { pickRelatedEntities } from '../../lib/related.js';
 import { buildEntitySchema, buildFaqPageSchema, buildBreadcrumbListSchema } from '../../lib/schema-jsonld.js';
 
@@ -119,7 +120,7 @@ const jsonLd = [
     )}
 
     <div class="mt-8">
-      <FactsTable facts={narrowFactsToCategories(entity.core_facts, categories)} />
+      <FactsTable facts={withResolvedRegistration(narrowFactsToCategories(entity.core_facts, categories))} />
     </div>
 
     <div class="mt-8">

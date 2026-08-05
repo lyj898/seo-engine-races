@@ -16,6 +16,10 @@
 import siteConfig from '../src/lib/config.js';
 import { getEntitySchema, categorySchema, regionSchema, listicleSchema, reviewSchema } from '../src/lib/schema/index.js';
 import { loadEntities, loadCategories, loadRegions, loadListicles, loadReviews, stripMeta } from '../src/lib/data.js';
+import { simplifyAvailabilityStatus } from '../src/lib/text.js';
+
+const TODAY = new Date().toISOString().slice(0, 10);
+const isIsoDate = (v) => typeof v === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(v);
 
 let errorCount = 0;
 let warningCount = 0;
@@ -91,6 +95,42 @@ for (const item of rawEntities) {
       reportWarning(item.__file, `related_entity_ids references unknown entity "${relatedId}"`);
     }
   }
+  // Registration status is the field most likely to be quietly wrong: it is
+  // a snapshot with no expiry, and refresh only re-verifies ~25 entities a
+  // week against a directory of 200+. The renderers now age it out at
+  // display time (resolveRegistrationState), but that hides the bad data
+  // rather than fixing it -- these warnings surface the entities whose
+  // stored facts actually need correcting.
+  //
+  // Warnings, not errors, on purpose: dozens of entities are affected right
+  // now, and failing the build would block every unrelated change until the
+  // whole backlog is cleared.
+  const facts = data.core_facts ?? {};
+  const claimedOpen = simplifyAvailabilityStatus(facts.registration_status) === 'open';
+  if (isIsoDate(facts.registration_deadline)) {
+    if (claimedOpen && facts.registration_deadline < TODAY) {
+      reportWarning(
+        item.__file,
+        `registration_status reads "${facts.registration_status}" but registration_deadline ` +
+          `(${facts.registration_deadline}) has passed -- correct the stored status`
+      );
+    }
+    if (isIsoDate(facts.date) && facts.registration_deadline > facts.date) {
+      reportWarning(
+        item.__file,
+        `registration_deadline (${facts.registration_deadline}) is after the race date ` +
+          `(${facts.date}) -- one of the two is wrong`
+      );
+    }
+  } else if (claimedOpen && isIsoDate(facts.date) && facts.date < TODAY) {
+    // No deadline stored, and the race itself is in the past. Unambiguous.
+    reportWarning(
+      item.__file,
+      `registration_status reads "${facts.registration_status}" but the race date (${facts.date}) ` +
+        `has passed -- correct the stored status`
+    );
+  }
+
   // Atomic-answer SEO requirement: every FAQ should open with a direct
   // 40-60 word answer. Warn (don't fail the build) outside that range.
   for (const faq of data.faqs ?? []) {

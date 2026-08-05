@@ -1,6 +1,6 @@
 ---
 import { urls } from '../lib/urls.js';
-import { simplifyAvailabilityStatus } from '../lib/text.js';
+import { resolveRegistrationState } from '../lib/text.js';
 import DateBadge from './DateBadge.astro';
 import ValuePills from './ValuePills.astro';
 
@@ -22,7 +22,8 @@ const { entity, categories = [], hasReview = false, rank } = Astro.props;
 const facts = entity.core_facts ?? {};
 const hasDate = typeof facts.date === 'string';
 const locationLine = [facts.city, facts.country].filter(Boolean).join(', ');
-const availability = simplifyAvailabilityStatus(facts.registration_status);
+// See EntityCard: deadline- and date-aware, not a bare status string read.
+const availability = resolveRegistrationState(facts);
 const overall = entity.sentiment_scores?.overall;
 
 // The one-line "why it's here". Prefer a pro that actually says something

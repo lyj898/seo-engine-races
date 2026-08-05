@@ -134,3 +134,72 @@ export function simplifyAvailabilityStatus(status) {
   if (/closed|sold out|fully booked|ended|full house/.test(s)) return 'closed';
   return isLikelyRegistrationOpen(status) ? 'open' : null;
 }
+
+const ISO_DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
+const isIsoDate = (v) => typeof v === 'string' && ISO_DATE_RE.test(v);
+
+/**
+ * Registration state for a race, with the passage of time taken into account.
+ *
+ * simplifyAvailabilityStatus() above reads only the free-text status string,
+ * and that string is a snapshot with no expiry. An entity stamped "open" in
+ * June still reports "open" in August, however long ago entries actually
+ * shut -- which is precisely how the live site spent five weeks inviting
+ * readers to enter the Sarawak Energy Marathon after its 30 June deadline.
+ * The refresh pipeline can't be relied on to catch it either: it re-verifies
+ * 25 entities a week against a directory of 200+.
+ *
+ * So the two dates we can check independently override the string:
+ *
+ *   registration_deadline in the past -> closed, whatever the status says
+ *   race date in the past             -> closed (you cannot enter a race
+ *                                        that has already been run)
+ *
+ * A missing deadline is not evidence of anything, so where there is none the
+ * status string still decides -- but a stale "open" is now bounded by race
+ * day instead of persisting indefinitely.
+ *
+ * ISO date strings compare correctly with `<`, so no Date parsing is needed
+ * and no timezone can shift the answer by a day.
+ *
+ * @param {object} facts  an entity's core_facts
+ * @param {string} [today] ISO date; injectable so tests aren't clock-dependent
+ * @returns {'open'|'closed'|null} null means "we don't know -- say nothing"
+ */
+export function resolveRegistrationState(facts, today = new Date().toISOString().slice(0, 10)) {
+  if (!facts || typeof facts !== 'object') return null;
+  if (isIsoDate(facts.registration_deadline) && facts.registration_deadline < today) return 'closed';
+  if (isIsoDate(facts.date) && facts.date < today) return 'closed';
+  return simplifyAvailabilityStatus(facts.registration_status);
+}
+
+/**
+ * core_facts with registration_status reconciled against the clock, for
+ * generic renderers that print the raw string.
+ *
+ * FactsTable knows nothing about any vertical's field names -- it prints
+ * every core fact it is handed. That is the right design, but it means the
+ * entity detail page renders registration_status verbatim and so bypasses
+ * every expiry rule the cards apply. The result was two different answers
+ * for the same race on the same site: a card correctly saying nothing, and
+ * a detail table still announcing "Opens 8 Jul 2026" in August.
+ *
+ * isUnknownStatus() doesn't catch those, and deliberately so -- it draws the
+ * line at placeholder-vs-information, which is a different question from
+ * whether the information has expired. This draws the second line:
+ *
+ *   closed -> "Closed", replacing whatever phrasing the source used
+ *   open   -> the original string, so useful nuance ("Open (Early Bird)",
+ *             "Open (Public: 3 Jul - 31 Oct 2026)") survives
+ *   null   -> drop the field, so the row disappears instead of printing a
+ *             claim we can no longer stand behind
+ */
+export function withResolvedRegistration(facts, today = new Date().toISOString().slice(0, 10)) {
+  if (!facts || typeof facts !== 'object') return facts;
+  const state = resolveRegistrationState(facts, today);
+  if (state === null) {
+    const { registration_status, ...rest } = facts;
+    return rest;
+  }
+  return state === 'closed' ? { ...facts, registration_status: 'Closed' } : facts;
+}

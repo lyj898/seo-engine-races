@@ -1,6 +1,6 @@
 ---
 import { urls } from '../lib/urls.js';
-import { simplifyAvailabilityStatus } from '../lib/text.js';
+import { resolveRegistrationState } from '../lib/text.js';
 import DateBadge from './DateBadge.astro';
 import ValuePills from './ValuePills.astro';
 import Pill from './Pill.astro';
@@ -28,7 +28,9 @@ const { entity, categories = [], extraAttrs = {} } = Astro.props;
 const facts = entity.core_facts ?? {};
 const hasDate = typeof facts.date === 'string';
 const locationLine = [facts.city, facts.country].filter(Boolean).join(', ');
-const availability = simplifyAvailabilityStatus(facts.registration_status);
+// Reads the deadline and race date, not just the status string -- a race
+// whose entries shut in June must not still show "Open" in August.
+const availability = resolveRegistrationState(facts);
 
 // FilterBar filters on this attribute. Deliberately includes category_id
 // and region_id alongside content tags, so a hub page can filter by
