@@ -17,20 +17,36 @@
       1.5
     ],
     "primary_distance_km": 42.195,
-    "registration_status": "open",
-    "venue": "Ho Chi Minh City",
+    "registration_status": "Open",
+    "registration_deadline": "2026-11-06",
+    "venue": "Le Duan - Nguyen Binh Khiem, Ho Chi Minh City",
     "city": "Ho Chi Minh City",
     "country": "Vietnam"
   },
   "pros": [
     "Multiple distance options (42.195km, 21.1km, 10km, 5km, 3km, 1.5km) accommodate various runner levels",
-    "Registration is currently open, allowing ample time to plan and prepare",
-    "Established event now in its 9th edition, held in a major international city"
+    "Registration is open until 6 November 2026, a month before race day",
+    "Carries a World Athletics label and full AIMS membership, so the course is properly measured",
+    "Central course past Notre-Dame Cathedral, Independence Palace, Ben Thanh Market and the Saigon River"
   ],
-  "cons": [],
+  "cons": [
+    "Pre-dawn start to manage heat and humidity, so most of the marathon is run in darkness",
+    "Field size approaching 18,000 makes for congested early kilometres in the shorter distances"
+  ],
   "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "research_highlights": [
+    "Vietnam's largest and most established marathon, now in its 9th edition, organised by Sunrise Events.",
+    "The 7th edition drew a record field of nearly 18,000 runners from 64 countries and territories.",
+    "Listed as a full member of AIMS with M/H/R designation, and carries a World Athletics road race label.",
+    "The course is a road loop starting at Le Duan - Nguyen Binh Khiem, passing Notre-Dame Cathedral, Independence Palace, Ben Thanh Market and running along the Saigon River.",
+    "Registration for the 9th edition closes on 6 November 2026, a month ahead of the 6 December race date."
+  ],
+  "research_watchouts": [
+    "Entry fees are tiered by registration phase and were not retrievable from the official fee page at the time of writing -- check marathonhcmc.com for the current tier before budgeting.",
+    "The official race website blocks automated access, so aggregator listings for this event cannot be cross-checked against it programmatically and may lag."
+  ],
+  "research_confidence": "medium",
+  "research_last_updated": "2026-08-05",
   "faqs": [
     {
       "question": "When is the Techcombank Ho Chi Minh City International Marathon taking place?",
