@@ -67,6 +67,18 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Validate data
+        run: npm run validate
+        # The last unguarded path to production. weekly-refresh.yml and
+        # daily-review.yml both validate before AND after their pipelines, so
+        # nothing they generate reaches main unchecked -- but a direct `git
+        # push` to main (a hand edit, or a data fix applied locally) triggers
+        # this workflow's `on: push` and previously went straight to build with
+        # no schema, duplicate or cross-reference check at all. A hand-written
+        # review with an unresolvable [n] citation would have deployed cleanly.
+        # Validating here costs seconds and means every route to the live site
+        # passes the same gate.
+
       - name: Build
         # Builds at the domain root -- public/CNAME points GitHub Pages at
         # runsea.run, so no base-path prefix is needed. (The temporary
