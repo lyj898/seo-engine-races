@@ -48,6 +48,12 @@ function argString(name, fallback = '') {
 
 const SOURCE_TYPES = new Set(['official', 'registration_platform', 'aggregator', 'review', 'social', 'news', 'other']);
 
+// Extra candidates queued past `limit` in auto mode, so a rejected draft costs
+// one retry inside the run instead of the run's whole output. Bounded because
+// each attempt is a real web-search model call (~90s); an unbounded retry on a
+// systematically broken prompt would spin through the entire backlog.
+const RETRY_DEPTH = 3;
+
 const isNonEmptyString = (v) => typeof v === 'string' && v.trim().length > 0;
 const validUrl = (v) => {
   if (typeof v !== 'string') return false;
@@ -218,7 +224,8 @@ async function run() {
 
     // Auto mode: prefer entities we already hold material on (a review needs
     // substance), optionally scoped to one region (+ its child regions), then
-    // soonest-upcoming first, capped at limit.
+    // soonest-upcoming first. Capped at limit + RETRY_DEPTH; see below for why
+    // the queue is deliberately longer than the number we intend to publish.
     let pool = missing;
     if (regionArg) {
       const ancestry = buildRegionAncestryMap(loadRegions().map(stripMeta));
@@ -232,18 +239,32 @@ async function run() {
       .filter((e) => typeof e.core_facts?.date === 'string' && e.core_facts.date >= t)
       .sort((a, b) => a.core_facts.date.localeCompare(b.core_facts.date));
     const rest = pool.filter((e) => !(typeof e.core_facts?.date === 'string' && e.core_facts.date >= t));
-    queue = [...upcoming, ...rest].slice(0, limit);
+    // Queue MORE candidates than we intend to write. A draft rejected by the
+    // pre-write gates below (unresolvable [n], too thin, schema-invalid) used
+    // to cost the entire run's article -- with limit=1 and one bad draft, a
+    // whole day published nothing and the log said only "No new review this
+    // run", indistinguishable from the interval gate blocking. Now a rejection
+    // just falls through to the next candidate; the loop stops as soon as
+    // `limit` articles are actually written, so the common case still makes
+    // exactly one model call.
+    queue = [...upcoming, ...rest].slice(0, limit + RETRY_DEPTH);
 
     console.log(
       `[generate-reviews] ${entities.length} published, ${reviewedEntityIds.size} already reviewed, ` +
         `${missing.length} without a review${regionArg ? ` (${pool.length} in region "${regionArg}")` : ''}. ` +
-        `Writing up to ${limit} this run.`
+        `Writing up to ${limit} this run (${queue.length} candidate(s) queued for retry headroom).`
     );
   }
 
   const stats = { written: 0, skippedInvalid: 0, skippedUncited: 0, failed: 0, noSubstance: 0 };
 
+  // Targeted mode writes every slug it was handed -- the caller named them, so
+  // `limit` doesn't apply. Auto mode stops at `limit` successful writes, which
+  // is what makes the retry headroom above cost nothing on a clean run.
+  const writeTarget = explicitSlugs.length > 0 ? Infinity : limit;
+
   for (const entity of queue) {
+    if (stats.written >= writeTarget) break;
     const { system, prompt } = buildReviewArticlePrompt({ siteConfig, entity });
 
     let result;
@@ -289,6 +310,17 @@ async function run() {
     `\n[generate-reviews] done. Written: ${stats.written}, skipped (schema): ${stats.skippedInvalid}, ` +
       `skipped (uncited): ${stats.skippedUncited}, skipped (thin): ${stats.noSubstance}, failed: ${stats.failed}.`
   );
+
+  // Say so loudly when candidates were attempted and every one was rejected.
+  // The workflow's only other signal is "No new review this run", which reads
+  // identically to the interval gate declining to run at all -- that ambiguity
+  // hid a real quality problem for a full day on 2026-08-05.
+  if (stats.written === 0 && queue.length > 0) {
+    console.warn(
+      `[generate-reviews] WARNING: attempted ${queue.length} candidate(s) and published none. ` +
+        `This is a generation-quality failure, not an idle run -- check the per-entity reasons above.`
+    );
+  }
 }
 
 run().catch((err) => {
