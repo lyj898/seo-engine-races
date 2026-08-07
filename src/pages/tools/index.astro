@@ -46,7 +46,9 @@ const trainingZones = [
 const tools = [
   { key: 'pace', label: 'Pace & Finish Time' },
   { key: 'predictor', label: 'Race Time Predictor' },
+  { key: 'splits', label: 'Race Splits' },
   { key: 'countdown', label: 'Race Countdown' },
+  { key: 'calories', label: 'Calories Burned' },
 ];
 ---
 
@@ -268,6 +270,106 @@ const tools = [
       </div>
     </section>
 
+    <!-- ================= Race Splits ================= -->
+    <section data-tool-panel="splits" class="tool-panel mt-6 hidden">
+      <div class={cardClass}>
+        <p class="mb-5 text-sm text-brand-muted dark:text-brand-muted-dark">
+          Build a printable split table from a goal finish time.
+        </p>
+
+        <div class="space-y-5">
+          <div>
+            <label class={labelClass} for="splits-distance">Distance</label>
+            <select id="splits-distance" class={`w-full ${selectClass}`}>
+              {predictDistances.map((d) => (
+                <option value={d.m} selected={d.key === 'full'}>{d.label}</option>
+              ))}
+              <option value="custom">Custom distance</option>
+            </select>
+          </div>
+
+          <div id="splits-custom-group" class="hidden">
+            <label class={labelClass} for="splits-custom-value">Custom distance</label>
+            <div class="flex gap-2">
+              <input id="splits-custom-value" type="number" min="0" step="0.01" inputmode="decimal" placeholder="10" class={numFieldClass} />
+              <select id="splits-custom-unit" class={`w-24 shrink-0 ${selectClass}`}>
+                <option value="km">km</option>
+                <option value="mi">mi</option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <label class={labelClass}>Goal finish time</label>
+            <div class="grid grid-cols-3 gap-2">
+              <div>
+                <input id="splits-time-h" type="number" min="0" inputmode="numeric" placeholder="3" class={numFieldClass} />
+                <p class={subLabelClass}>hours</p>
+              </div>
+              <div>
+                <input id="splits-time-m" type="number" min="0" max="59" inputmode="numeric" placeholder="45" class={numFieldClass} />
+                <p class={subLabelClass}>min</p>
+              </div>
+              <div>
+                <input id="splits-time-s" type="number" min="0" max="59" inputmode="numeric" placeholder="00" class={numFieldClass} />
+                <p class={subLabelClass}>sec</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid gap-5 sm:grid-cols-2">
+            <div>
+              <p class={labelClass}>Split every</p>
+              <div class="inline-flex gap-0.5 rounded-full bg-brand-surface-offset p-[3px] dark:bg-brand-surface-offset-dark">
+                <button type="button" data-splits-every="1" class="splits-every-chip filter-chip is-active rounded-full px-3.5 py-2 text-sm font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">1</button>
+                <button type="button" data-splits-every="2" class="splits-every-chip filter-chip rounded-full px-3.5 py-2 text-sm font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">2</button>
+                <button type="button" data-splits-every="5" class="splits-every-chip filter-chip rounded-full px-3.5 py-2 text-sm font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">5</button>
+              </div>
+            </div>
+            <div>
+              <p class={labelClass}>Split unit</p>
+              <div class="inline-flex gap-0.5 rounded-full bg-brand-surface-offset p-[3px] dark:bg-brand-surface-offset-dark">
+                <button type="button" data-splits-unit="km" class="splits-unit-chip filter-chip is-active rounded-full px-3.5 py-2 text-sm font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">km</button>
+                <button type="button" data-splits-unit="mi" class="splits-unit-chip filter-chip rounded-full px-3.5 py-2 text-sm font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">mi</button>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <p class={labelClass}>Pacing strategy</p>
+            <div class="inline-flex flex-wrap gap-0.5 rounded-full bg-brand-surface-offset p-[3px] dark:bg-brand-surface-offset-dark">
+              <button type="button" data-splits-strategy="even" class="splits-strategy-chip filter-chip is-active rounded-full px-4 py-2 text-sm font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">Even</button>
+              <button type="button" data-splits-strategy="negative" class="splits-strategy-chip filter-chip rounded-full px-4 py-2 text-sm font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">Negative split</button>
+            </div>
+          </div>
+        </div>
+
+        <p id="splits-hint" class="mt-5 text-sm text-brand-muted dark:text-brand-muted-dark">
+          Enter a goal finish time to build your splits.
+        </p>
+
+        <div id="splits-results" class="mt-6 hidden">
+          <div class="overflow-x-auto">
+            <table class="w-full min-w-[420px] border-collapse text-sm">
+              <thead>
+                <tr class="border-b border-brand-border dark:border-brand-border-dark">
+                  <th class="py-2 pr-3 text-left font-medium text-brand-muted dark:text-brand-muted-dark">At</th>
+                  <th class="py-2 pr-3 text-left font-medium text-brand-muted dark:text-brand-muted-dark">Split</th>
+                  <th class="py-2 pr-3 text-left font-medium text-brand-muted dark:text-brand-muted-dark">Cumulative</th>
+                  <th class="py-2 text-left font-medium text-brand-muted dark:text-brand-muted-dark">Avg pace</th>
+                </tr>
+              </thead>
+              <tbody id="splits-body"></tbody>
+            </table>
+          </div>
+          <p class="mt-4 text-xs text-brand-muted dark:text-brand-muted-dark">
+            Even splits hold goal pace throughout. Negative split runs the first half about 4% slower than goal pace
+            and the second half about 4% faster, averaging out to the same finish time.
+          </p>
+        </div>
+      </div>
+    </section>
+
     <!-- ================= Race Countdown ================= -->
     <section data-tool-panel="countdown" class="tool-panel mt-6 hidden">
       <div class={cardClass}>
@@ -308,6 +410,53 @@ const tools = [
         </div>
       </div>
     </section>
+
+    <!-- ================= Calories Burned ================= -->
+    <section data-tool-panel="calories" class="tool-panel mt-6 hidden">
+      <div class={cardClass}>
+        <p class="mb-5 text-sm text-brand-muted dark:text-brand-muted-dark">
+          A rough estimate -- actual burn varies with pace, terrain, and fitness.
+        </p>
+
+        <div class="space-y-5">
+          <div>
+            <label class={labelClass} for="cal-weight">Body weight</label>
+            <div class="flex gap-2">
+              <input id="cal-weight" type="number" min="0" step="0.1" inputmode="decimal" placeholder="65" class={numFieldClass} />
+              <select id="cal-weight-unit" class={`w-24 shrink-0 ${selectClass}`}>
+                <option value="kg">kg</option>
+                <option value="lb">lb</option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <label class={labelClass} for="cal-distance">Distance</label>
+            <div class="flex gap-2">
+              <input id="cal-distance" type="number" min="0" step="0.01" inputmode="decimal" placeholder="10" class={numFieldClass} />
+              <select id="cal-distance-unit" class={`w-24 shrink-0 ${selectClass}`}>
+                <option value="km">km</option>
+                <option value="mi">mi</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <p id="cal-hint" class="mt-5 text-sm text-brand-muted dark:text-brand-muted-dark">
+          Enter your weight and distance.
+        </p>
+
+        <div id="cal-result" class="mt-6 hidden">
+          <p id="cal-value" class="font-serif text-4xl font-bold sm:text-5xl"></p>
+          <p class="text-sm text-brand-muted dark:text-brand-muted-dark">estimated calories burned</p>
+          <p class="mt-4 text-xs text-brand-muted dark:text-brand-muted-dark">
+            Based on the widely-used running-economy estimate of roughly 1 kcal per kg of body weight per km --
+            approximately pace-independent at typical training paces. Individual burn varies with fitness, terrain,
+            and conditions.
+          </p>
+        </div>
+      </div>
+    </section>
   </div>
 </BaseLayout>
 
@@ -328,7 +477,7 @@ const tools = [
     });
 
     var initialTool = (location.hash || '').replace('#', '');
-    if (['pace', 'predictor', 'countdown'].indexOf(initialTool) !== -1) activateTool(initialTool, false);
+    if (['pace', 'predictor', 'splits', 'countdown', 'calories'].indexOf(initialTool) !== -1) activateTool(initialTool, false);
 
     // ---------- Shared helpers ----------
     function num(el) {
@@ -595,6 +744,150 @@ const tools = [
       recompute();
     })();
 
+    // ================= Race Splits =================
+    // Splits are allocated by a weighted share of the goal time rather than
+    // sliced independently, so the sum of every row's split time always
+    // equals the goal time exactly (to the second) regardless of strategy
+    // or how many rows there are -- weights only redistribute *within* the
+    // fixed total. Even splitting weighs every row equally (weight 1);
+    // negative-split biases weight 1+skew at the start fading linearly to
+    // 1-skew at the finish (skew = 0.04 -- a ~4% pace swing pole-to-pole),
+    // so early splits get a larger time share (slower) and late ones a
+    // smaller share (faster) while the race still finishes on goal time.
+    (function () {
+      var root = document.querySelector('[data-tool-panel="splits"]');
+      if (!root) return;
+
+      var distanceSelect = document.getElementById('splits-distance');
+      var customGroup = document.getElementById('splits-custom-group');
+      var customValue = document.getElementById('splits-custom-value');
+      var customUnit = document.getElementById('splits-custom-unit');
+      var timeH = document.getElementById('splits-time-h');
+      var timeM = document.getElementById('splits-time-m');
+      var timeS = document.getElementById('splits-time-s');
+      var everyChips = root.querySelectorAll('.splits-every-chip');
+      var unitChips = root.querySelectorAll('.splits-unit-chip');
+      var strategyChips = root.querySelectorAll('.splits-strategy-chip');
+      var hint = document.getElementById('splits-hint');
+      var results = document.getElementById('splits-results');
+      var tbody = document.getElementById('splits-body');
+
+      var every = 1;
+      var unit = 'km';
+      var strategy = 'even';
+      var MAX_ROWS = 120; // sane cap for an oddball custom distance + 1-unit interval
+
+      function getDistanceMeters() {
+        if (distanceSelect.value === 'custom') {
+          var v = num(customValue);
+          if (!v) return 0;
+          return customUnit.value === 'mi' ? v * 1609.34 : v * 1000;
+        }
+        return parseFloat(distanceSelect.value) || 0;
+      }
+
+      function getTimeSeconds() {
+        return num(timeH) * 3600 + num(timeM) * 60 + num(timeS);
+      }
+
+      function buildSplits(totalM, totalSeconds, everyM, strategyKey) {
+        var marks = [];
+        var cum = 0;
+        while (cum < totalM - 1e-6) {
+          var next = Math.min(cum + everyM, totalM);
+          marks.push({ start: cum, end: next });
+          cum = next;
+          if (marks.length > MAX_ROWS) return null;
+        }
+        var skew = strategyKey === 'negative' ? 0.04 : 0;
+        var weights = marks.map(function (m) {
+          var mid = (m.start + m.end) / 2 / totalM;
+          return 1 + skew * (1 - 2 * mid);
+        });
+        var weightedTotal = marks.reduce(function (sum, m, i) { return sum + (m.end - m.start) * weights[i]; }, 0);
+        var cumSeconds = 0;
+        return marks.map(function (m, i) {
+          var splitSeconds = ((m.end - m.start) * weights[i] / weightedTotal) * totalSeconds;
+          cumSeconds += splitSeconds;
+          return { markM: m.end, segmentM: m.end - m.start, splitSeconds: splitSeconds, cumSeconds: cumSeconds };
+        });
+      }
+
+      function recompute() {
+        customGroup.classList.toggle('hidden', distanceSelect.value !== 'custom');
+
+        var d1 = getDistanceMeters();
+        var t1 = getTimeSeconds();
+
+        if (!d1 || !t1) {
+          results.classList.add('hidden');
+          hint.classList.remove('hidden');
+          hint.textContent = 'Enter a goal finish time to build your splits.';
+          return;
+        }
+
+        var everyM = unit === 'mi' ? every * 1609.34 : every * 1000;
+        var rows = buildSplits(d1, t1, everyM, strategy);
+
+        if (!rows) {
+          results.classList.add('hidden');
+          hint.classList.remove('hidden');
+          hint.textContent = 'That’s a lot of splits for this distance -- try a longer interval.';
+          return;
+        }
+
+        hint.classList.add('hidden');
+        results.classList.remove('hidden');
+
+        tbody.textContent = '';
+        rows.forEach(function (row) {
+          var tr = document.createElement('tr');
+          tr.className = 'border-b border-brand-border last:border-0 dark:border-brand-border-dark';
+          var markLabel = (unit === 'mi' ? row.markM / 1609.34 : row.markM / 1000).toFixed(2) + ' ' + unit;
+          var segmentUnitLength = unit === 'mi' ? row.segmentM / 1609.34 : row.segmentM / 1000;
+          var avgPaceSeconds = row.splitSeconds / segmentUnitLength;
+          var cells = [markLabel, formatClock(row.splitSeconds) || '--', formatClock(row.cumSeconds) || '--', (formatPace(avgPaceSeconds) || '--') + ' /' + unit];
+          var isLast = cells.length - 1;
+          cells.forEach(function (text, i) {
+            var td = document.createElement('td');
+            var base = i === isLast ? 'py-2' : 'py-2 pr-3';
+            td.className = i === 0 ? base + ' font-medium tabular-nums' : base + ' tabular-nums';
+            td.textContent = text;
+            tr.appendChild(td);
+          });
+          tbody.appendChild(tr);
+        });
+      }
+
+      everyChips.forEach(function (chip) {
+        chip.addEventListener('click', function () {
+          every = parseFloat(chip.dataset.splitsEvery);
+          everyChips.forEach(function (c) { c.classList.toggle('is-active', c === chip); });
+          recompute();
+        });
+      });
+
+      unitChips.forEach(function (chip) {
+        chip.addEventListener('click', function () {
+          unit = chip.dataset.splitsUnit;
+          unitChips.forEach(function (c) { c.classList.toggle('is-active', c === chip); });
+          recompute();
+        });
+      });
+
+      strategyChips.forEach(function (chip) {
+        chip.addEventListener('click', function () {
+          strategy = chip.dataset.splitsStrategy;
+          strategyChips.forEach(function (c) { c.classList.toggle('is-active', c === chip); });
+          recompute();
+        });
+      });
+
+      distanceSelect.addEventListener('change', recompute);
+      root.addEventListener('input', recompute);
+      recompute();
+    })();
+
     // ================= Race Countdown =================
     (function () {
       var root = document.querySelector('[data-tool-panel="countdown"]');
@@ -670,6 +963,42 @@ const tools = [
       });
 
       dateInput.addEventListener('input', recompute);
+      recompute();
+    })();
+
+    // ================= Calories Burned =================
+    // Rough estimate only: ~1 kcal per kg of body weight per km, the
+    // commonly-cited running energy-cost approximation that holds roughly
+    // pace-independent across typical training paces.
+    (function () {
+      var root = document.querySelector('[data-tool-panel="calories"]');
+      if (!root) return;
+
+      var weightInput = document.getElementById('cal-weight');
+      var weightUnit = document.getElementById('cal-weight-unit');
+      var distanceInput = document.getElementById('cal-distance');
+      var distanceUnit = document.getElementById('cal-distance-unit');
+      var hint = document.getElementById('cal-hint');
+      var result = document.getElementById('cal-result');
+      var valueEl = document.getElementById('cal-value');
+
+      function recompute() {
+        var weightKg = num(weightInput) * (weightUnit.value === 'lb' ? 0.453592 : 1);
+        var distanceKm = num(distanceInput) * (distanceUnit.value === 'mi' ? 1.60934 : 1);
+
+        if (!weightKg || !distanceKm) {
+          result.classList.add('hidden');
+          hint.classList.remove('hidden');
+          hint.textContent = 'Enter your weight and distance.';
+          return;
+        }
+
+        hint.classList.add('hidden');
+        result.classList.remove('hidden');
+        valueEl.textContent = Math.round(weightKg * distanceKm).toLocaleString();
+      }
+
+      root.addEventListener('input', recompute);
       recompute();
     })();
   })();
