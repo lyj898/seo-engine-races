@@ -3,45 +3,674 @@ import siteConfig from '../../lib/config.js';
 import { urls } from '../../lib/urls.js';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
-import HubCard from '../../components/HubCard.astro';
 import { buildBreadcrumbListSchema } from '../../lib/schema-jsonld.js';
 
-// First entry in what's meant to grow into a small set of runner tools.
-// Each tool is its own static page under /tools/<slug>/ -- add a card here
-// and a page there to add the next one.
-const tools = [
-  {
-    slug: 'pace-calculator',
-    label: 'Pace & Finish Time Calculator',
-    description: 'Enter any two of distance, time and pace to solve for the third -- plan a goal pace or check a finish time.',
-  },
-];
-
+// Every tool lives on this one page as a JS-toggled panel (see the script
+// below) rather than its own route -- one shared shell, one URL, no
+// duplicated header/nav chrome per tool, and switching tools never
+// reloads or leaves the page. Panels stay in the DOM (just hidden) so
+// crawlers still see every tool's content regardless of JS.
 const breadcrumbItems = [
   { label: siteConfig.siteName, href: urls.home() },
   { label: 'Pace Lab', href: urls.toolsIndex() },
 ];
 
 const jsonLd = [buildBreadcrumbListSchema(breadcrumbItems, Astro.site)].filter(Boolean);
+
+const fieldClass =
+  'w-full rounded-lg border-[1.5px] border-brand-border bg-brand-bg px-3 py-2.5 text-sm tabular-nums focus:border-brand-primary focus:outline-none disabled:cursor-not-allowed disabled:border-brand-primary disabled:bg-brand-primary-highlight disabled:font-bold disabled:text-brand-primary-ink dark:border-brand-border-dark dark:bg-brand-bg-dark dark:disabled:border-brand-primary-hover dark:disabled:bg-brand-primary-highlight-dark dark:disabled:text-brand-primary-ink-dark';
+const numFieldClass = `text-center ${fieldClass}`;
+const selectClass =
+  'rounded-lg border-[1.5px] border-brand-border bg-brand-bg px-2 py-2.5 text-sm focus:border-brand-primary focus:outline-none dark:border-brand-border-dark dark:bg-brand-bg-dark';
+const labelClass = 'mb-1.5 block text-sm font-semibold';
+const subLabelClass = 'mt-1 text-center text-[11px] text-brand-muted dark:text-brand-muted-dark';
+const cardClass =
+  'rounded-xl border border-brand-border bg-brand-surface p-5 sm:p-6 dark:border-brand-border-dark dark:bg-brand-surface-dark';
+
+const predictDistances = [
+  { key: '5k', label: '5K', m: 5000 },
+  { key: '10k', label: '10K', m: 10000 },
+  { key: '15k', label: '15K', m: 15000 },
+  { key: '10mi', label: '10 Mile', m: 16093.4 },
+  { key: 'half', label: 'Half Marathon', m: 21097.5 },
+  { key: 'full', label: 'Marathon', m: 42195 },
+];
+
+const trainingZones = [
+  { key: 'easy', label: 'Easy' },
+  { key: 'marathon', label: 'Marathon' },
+  { key: 'threshold', label: 'Threshold' },
+  { key: 'interval', label: 'Interval' },
+];
+
+const tools = [
+  { key: 'pace', label: 'Pace & Finish Time' },
+  { key: 'predictor', label: 'Race Time Predictor' },
+  { key: 'countdown', label: 'Race Countdown' },
+];
 ---
 
 <BaseLayout
   title="Pace Lab"
-  description={`Free running calculators from ${siteConfig.siteName} -- work out pace, finish time, and more.`}
+  description={`Free running calculators from ${siteConfig.siteName}: pace and finish-time math, a race time predictor with training paces, and a race-day countdown.`}
   canonicalPath={urls.toolsIndex()}
   jsonLd={jsonLd}
 >
-  <div class="mx-auto max-w-6xl px-4 py-10 sm:px-6">
+  <div class="mx-auto max-w-3xl px-4 py-10 sm:px-6">
     <Breadcrumb items={breadcrumbItems} />
     <h1 class="mt-4 font-serif text-3xl font-semibold sm:text-4xl">Pace Lab</h1>
     <p class="mt-3 max-w-2xl text-brand-muted dark:text-brand-muted-dark">
-      Small, fast calculators for race day math -- no sign-up, nothing saved. Starting with pace, growing from here.
+      Small, fast running calculators -- no sign-up, nothing saved. Pick a tool below.
     </p>
 
-    <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-      {tools.map((tool) => (
-        <HubCard href={urls.tool(tool.slug)} label={tool.label} description={tool.description} />
+    <!-- Tool switch -->
+    <div class="mt-6 inline-flex flex-wrap gap-0.5 rounded-full bg-brand-surface-offset p-[3px] dark:bg-brand-surface-offset-dark" role="tablist" aria-label="Choose a calculator">
+      {tools.map((tool, i) => (
+        <button
+          type="button"
+          role="tab"
+          data-tool={tool.key}
+          class={`tool-tab filter-chip ${i === 0 ? 'is-active' : ''} rounded-full px-4 py-2 text-sm font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark`}
+        >
+          {tool.label}
+        </button>
       ))}
     </div>
+
+    <!-- ================= Pace & Finish Time ================= -->
+    <section data-tool-panel="pace" class="tool-panel mt-6">
+      <div class={cardClass}>
+        <p class="mb-5 text-sm text-brand-muted dark:text-brand-muted-dark">
+          Fill in the two fields you know. The highlighted field fills itself in.
+        </p>
+
+        <div class="mb-6">
+          <p class={`${labelClass} mb-2`}>Solve for</p>
+          <div class="inline-flex flex-wrap gap-0.5 rounded-full bg-brand-surface-offset p-[3px] dark:bg-brand-surface-offset-dark">
+            <button type="button" data-mode="pace" class="mode-chip filter-chip is-active rounded-full px-4 py-2 text-sm font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">Pace</button>
+            <button type="button" data-mode="time" class="mode-chip filter-chip rounded-full px-4 py-2 text-sm font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">Finish time</button>
+            <button type="button" data-mode="distance" class="mode-chip filter-chip rounded-full px-4 py-2 text-sm font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">Distance</button>
+          </div>
+        </div>
+
+        <div class="mb-6 flex flex-wrap gap-2">
+          {predictDistances.filter((d) => ['5k', '10k', 'half', 'full'].includes(d.key)).map((preset) => (
+            <button
+              type="button"
+              class="preset-btn rounded-full border border-brand-border px-3 py-1 text-xs font-semibold text-brand-muted transition-colors hover:border-brand-faint hover:text-brand-text dark:border-brand-border-dark dark:text-brand-muted-dark dark:hover:text-brand-text-dark"
+              data-km={preset.m / 1000}
+            >
+              {preset.label}
+            </button>
+          ))}
+        </div>
+
+        <div class="space-y-5">
+          <div id="group-distance">
+            <label class={labelClass} for="dist-value">Distance</label>
+            <div class="flex gap-2">
+              <input id="dist-value" type="number" min="0" step="0.001" inputmode="decimal" placeholder="10" class={numFieldClass} />
+              <select id="dist-unit" class={`w-24 shrink-0 ${selectClass}`}>
+                <option value="km">km</option>
+                <option value="mi">mi</option>
+              </select>
+            </div>
+          </div>
+
+          <div id="group-time">
+            <label class={labelClass}>Finish time</label>
+            <div class="grid grid-cols-3 gap-2">
+              <div>
+                <input id="time-h" type="number" min="0" inputmode="numeric" placeholder="0" class={numFieldClass} />
+                <p class={subLabelClass}>hours</p>
+              </div>
+              <div>
+                <input id="time-m" type="number" min="0" max="59" inputmode="numeric" placeholder="50" class={numFieldClass} />
+                <p class={subLabelClass}>min</p>
+              </div>
+              <div>
+                <input id="time-s" type="number" min="0" max="59" inputmode="numeric" placeholder="00" class={numFieldClass} />
+                <p class={subLabelClass}>sec</p>
+              </div>
+            </div>
+          </div>
+
+          <div id="group-pace">
+            <label class={labelClass}>Pace <span id="pace-unit-label" class="font-normal text-brand-muted dark:text-brand-muted-dark">(per km)</span></label>
+            <div class="grid grid-cols-2 gap-2">
+              <div>
+                <input id="pace-m" type="number" min="0" inputmode="numeric" placeholder="5" class={numFieldClass} />
+                <p class={subLabelClass}>min</p>
+              </div>
+              <div>
+                <input id="pace-s" type="number" min="0" max="59" inputmode="numeric" placeholder="00" class={numFieldClass} />
+                <p class={subLabelClass}>sec</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p id="pace-calc-hint" class="mt-5 text-sm text-brand-muted dark:text-brand-muted-dark">
+          Enter a distance and finish time to see your pace.
+        </p>
+      </div>
+    </section>
+
+    <!-- ================= Race Time Predictor ================= -->
+    <section data-tool-panel="predictor" class="tool-panel mt-6 hidden">
+      <div class={cardClass}>
+        <p class="mb-5 text-sm text-brand-muted dark:text-brand-muted-dark">
+          Enter one recent race result to estimate your times at other distances and your training paces.
+        </p>
+
+        <div class="space-y-5">
+          <div>
+            <label class={labelClass} for="pred-distance">Recent result -- distance</label>
+            <select id="pred-distance" class={`w-full ${selectClass}`}>
+              {predictDistances.map((d) => (
+                <option value={d.m} selected={d.key === 'half'}>{d.label}</option>
+              ))}
+              <option value="custom">Custom distance</option>
+            </select>
+          </div>
+
+          <div id="pred-custom-group" class="hidden">
+            <label class={labelClass} for="pred-custom-value">Custom distance</label>
+            <div class="flex gap-2">
+              <input id="pred-custom-value" type="number" min="0" step="0.01" inputmode="decimal" placeholder="10" class={numFieldClass} />
+              <select id="pred-custom-unit" class={`w-24 shrink-0 ${selectClass}`}>
+                <option value="km">km</option>
+                <option value="mi">mi</option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <label class={labelClass}>Recent result -- finish time</label>
+            <div class="grid grid-cols-3 gap-2">
+              <div>
+                <input id="pred-time-h" type="number" min="0" inputmode="numeric" placeholder="1" class={numFieldClass} />
+                <p class={subLabelClass}>hours</p>
+              </div>
+              <div>
+                <input id="pred-time-m" type="number" min="0" max="59" inputmode="numeric" placeholder="45" class={numFieldClass} />
+                <p class={subLabelClass}>min</p>
+              </div>
+              <div>
+                <input id="pred-time-s" type="number" min="0" max="59" inputmode="numeric" placeholder="00" class={numFieldClass} />
+                <p class={subLabelClass}>sec</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p id="pred-hint" class="mt-5 text-sm text-brand-muted dark:text-brand-muted-dark">
+          Enter a recent finish time to see predictions.
+        </p>
+
+        <div id="pred-results" class="mt-6 hidden">
+          <h2 class="text-sm font-semibold">Predicted race times</h2>
+          <div class="mt-3 overflow-x-auto">
+            <table class="w-full min-w-[380px] border-collapse text-sm">
+              <thead>
+                <tr class="border-b border-brand-border dark:border-brand-border-dark">
+                  <th class="py-2 pr-3 text-left font-medium text-brand-muted dark:text-brand-muted-dark">Distance</th>
+                  <th class="py-2 pr-3 text-left font-medium text-brand-muted dark:text-brand-muted-dark">Riegel</th>
+                  <th class="py-2 text-left font-medium text-brand-muted dark:text-brand-muted-dark">Daniels (VDOT)</th>
+                </tr>
+              </thead>
+              <tbody>
+                {predictDistances.map((d) => (
+                  <tr class="border-b border-brand-border last:border-0 dark:border-brand-border-dark" data-distance-row={d.key}>
+                    <td class="py-2 pr-3 font-medium">{d.label}</td>
+                    <td class="py-2 pr-3 tabular-nums" id={`pred-riegel-${d.key}`}>--</td>
+                    <td class="py-2 tabular-nums" id={`pred-daniels-${d.key}`}>--</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          <div class="mt-8 flex flex-wrap items-center justify-between gap-3">
+            <h2 class="text-sm font-semibold">
+              Estimated training paces <span id="pred-vdot" class="font-normal text-brand-muted dark:text-brand-muted-dark"></span>
+            </h2>
+            <div class="inline-flex gap-0.5 rounded-full bg-brand-surface-offset p-[3px] dark:bg-brand-surface-offset-dark">
+              <button type="button" data-pace-unit="km" class="pace-unit-chip filter-chip is-active rounded-full px-3 py-1.5 text-xs font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">per km</button>
+              <button type="button" data-pace-unit="mi" class="pace-unit-chip filter-chip rounded-full px-3 py-1.5 text-xs font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">per mi</button>
+            </div>
+          </div>
+          <div class="mt-3 overflow-x-auto">
+            <table class="w-full min-w-[260px] border-collapse text-sm">
+              <thead>
+                <tr class="border-b border-brand-border dark:border-brand-border-dark">
+                  <th class="py-2 pr-3 text-left font-medium text-brand-muted dark:text-brand-muted-dark">Zone</th>
+                  <th class="py-2 text-left font-medium text-brand-muted dark:text-brand-muted-dark">Pace</th>
+                </tr>
+              </thead>
+              <tbody>
+                {trainingZones.map((z) => (
+                  <tr class="border-b border-brand-border last:border-0 dark:border-brand-border-dark">
+                    <td class="py-2 pr-3 font-medium">{z.label}</td>
+                    <td class="py-2 tabular-nums" id={`pace-${z.key}`}>--</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          <p class="mt-4 text-xs text-brand-muted dark:text-brand-muted-dark">
+            Estimates from two published formulas (Riegel's exponent model; Daniels &amp; Gilbert's VDOT), assuming
+            similar training and conditions across distances. Treat as a guide, not a guarantee -- see our
+            <a href={urls.about()} class="link-accent">methodology</a>.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= Race Countdown ================= -->
+    <section data-tool-panel="countdown" class="tool-panel mt-6 hidden">
+      <div class={cardClass}>
+        <p class="mb-5 text-sm text-brand-muted dark:text-brand-muted-dark">
+          Pick your race date to see the countdown and a general taper guide.
+        </p>
+
+        <div class="space-y-5">
+          <div>
+            <label class={labelClass} for="cd-date">Race date</label>
+            <input id="cd-date" type="date" class={fieldClass} />
+          </div>
+
+          <div>
+            <p class={labelClass}>Distance</p>
+            <div class="inline-flex flex-wrap gap-0.5 rounded-full bg-brand-surface-offset p-[3px] dark:bg-brand-surface-offset-dark">
+              <button type="button" data-cd-distance="short" class="cd-distance-chip filter-chip is-active rounded-full px-4 py-2 text-sm font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">5K / 10K</button>
+              <button type="button" data-cd-distance="half" class="cd-distance-chip filter-chip rounded-full px-4 py-2 text-sm font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">Half Marathon</button>
+              <button type="button" data-cd-distance="full" class="cd-distance-chip filter-chip rounded-full px-4 py-2 text-sm font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">Marathon</button>
+            </div>
+          </div>
+        </div>
+
+        <p id="cd-hint" class="mt-6 text-sm text-brand-muted dark:text-brand-muted-dark">
+          Pick a race date above to get started.
+        </p>
+
+        <div id="cd-result" class="mt-6 hidden">
+          <p id="cd-days" class="font-serif text-4xl font-bold sm:text-5xl"></p>
+          <p id="cd-days-label" class="text-sm text-brand-muted dark:text-brand-muted-dark"></p>
+
+          <div class="mt-5 rounded-lg bg-brand-surface-offset p-4 text-sm dark:bg-brand-surface-offset-dark">
+            <p id="cd-taper-text"></p>
+          </div>
+          <p class="mt-4 text-xs text-brand-muted dark:text-brand-muted-dark">
+            General guidance, not a training plan -- everyone tapers a little differently.
+          </p>
+        </div>
+      </div>
+    </section>
   </div>
 </BaseLayout>
+
+<script is:inline define:vars={{ predictDistances }}>
+  (function () {
+    // ---------- Tab switching ----------
+    var tabs = document.querySelectorAll('.tool-tab');
+    var panels = document.querySelectorAll('.tool-panel');
+
+    function activateTool(key, updateHash) {
+      tabs.forEach(function (t) { t.classList.toggle('is-active', t.dataset.tool === key); });
+      panels.forEach(function (p) { p.classList.toggle('hidden', p.dataset.toolPanel !== key); });
+      if (updateHash && history.replaceState) history.replaceState(null, '', '#' + key);
+    }
+
+    tabs.forEach(function (tab) {
+      tab.addEventListener('click', function () { activateTool(tab.dataset.tool, true); });
+    });
+
+    var initialTool = (location.hash || '').replace('#', '');
+    if (['pace', 'predictor', 'countdown'].indexOf(initialTool) !== -1) activateTool(initialTool, false);
+
+    // ---------- Shared helpers ----------
+    function num(el) {
+      var v = parseFloat(el.value);
+      return isNaN(v) || v < 0 ? 0 : v;
+    }
+
+    function formatPace(totalSeconds) {
+      if (!isFinite(totalSeconds) || totalSeconds <= 0) return null;
+      var m = Math.floor(totalSeconds / 60);
+      var s = Math.round(totalSeconds % 60);
+      if (s === 60) { m += 1; s = 0; }
+      return m + ':' + String(s).padStart(2, '0');
+    }
+
+    function formatClock(totalSeconds) {
+      if (!isFinite(totalSeconds) || totalSeconds <= 0) return null;
+      var h = Math.floor(totalSeconds / 3600);
+      var m = Math.floor((totalSeconds % 3600) / 60);
+      var s = Math.round(totalSeconds % 60);
+      if (s === 60) { s = 0; m += 1; }
+      if (m === 60) { m = 0; h += 1; }
+      if (h > 0) return h + ':' + String(m).padStart(2, '0') + ':' + String(s).padStart(2, '0');
+      return m + ':' + String(s).padStart(2, '0');
+    }
+
+    // ================= Pace & Finish Time =================
+    (function () {
+      var root = document.querySelector('[data-tool-panel="pace"]');
+      if (!root) return;
+
+      var modeChips = root.querySelectorAll('.mode-chip');
+      var distValue = document.getElementById('dist-value');
+      var distUnit = document.getElementById('dist-unit');
+      var timeH = document.getElementById('time-h');
+      var timeM = document.getElementById('time-m');
+      var timeS = document.getElementById('time-s');
+      var paceM = document.getElementById('pace-m');
+      var paceS = document.getElementById('pace-s');
+      var paceUnitLabel = document.getElementById('pace-unit-label');
+      var hint = document.getElementById('pace-calc-hint');
+      var presetBtns = root.querySelectorAll('.preset-btn');
+
+      var groups = { distance: [distValue], time: [timeH, timeM, timeS], pace: [paceM, paceS] };
+      var mode = 'pace';
+
+      function setGroupDisabled(name, disabled) {
+        groups[name].forEach(function (el) { el.disabled = disabled; });
+      }
+
+      function applyMode() {
+        modeChips.forEach(function (chip) { chip.classList.toggle('is-active', chip.dataset.mode === mode); });
+        Object.keys(groups).forEach(function (name) { setGroupDisabled(name, name === mode); });
+        recompute();
+      }
+
+      function recompute() {
+        paceUnitLabel.textContent = '(per ' + distUnit.value + ')';
+
+        var distanceVal = num(distValue);
+        var timeSeconds = num(timeH) * 3600 + num(timeM) * 60 + num(timeS);
+        var paceSeconds = num(paceM) * 60 + num(paceS);
+
+        if (mode === 'pace') {
+          if (distanceVal > 0 && timeSeconds > 0) {
+            var p = formatPace(timeSeconds / distanceVal);
+            if (p) {
+              var parts = p.split(':');
+              paceM.value = parts[0];
+              paceS.value = parts[1];
+              hint.textContent = 'That’s a pace of ' + p + ' per ' + distUnit.value + '.';
+              return;
+            }
+          }
+          paceM.value = '';
+          paceS.value = '';
+          hint.textContent = 'Enter a distance and finish time to see your pace.';
+        } else if (mode === 'time') {
+          if (distanceVal > 0 && paceSeconds > 0) {
+            var t = formatClock(paceSeconds * distanceVal);
+            if (t) {
+              var tp = t.split(':');
+              if (tp.length === 2) tp.unshift('0');
+              timeH.value = tp[0];
+              timeM.value = tp[1];
+              timeS.value = tp[2];
+              hint.textContent = 'Estimated finish time: ' + tp[0] + ':' + tp[1] + ':' + tp[2] + '.';
+              return;
+            }
+          }
+          timeH.value = '';
+          timeM.value = '';
+          timeS.value = '';
+          hint.textContent = 'Enter a distance and pace to see your finish time.';
+        } else if (mode === 'distance') {
+          if (timeSeconds > 0 && paceSeconds > 0) {
+            var d = Math.round((timeSeconds / paceSeconds) * 1000) / 1000;
+            distValue.value = d;
+            hint.textContent = 'That covers ' + d + ' ' + distUnit.value + '.';
+            return;
+          }
+          distValue.value = '';
+          hint.textContent = 'Enter a finish time and pace to see the distance.';
+        }
+      }
+
+      modeChips.forEach(function (chip) {
+        chip.addEventListener('click', function () { mode = chip.dataset.mode; applyMode(); });
+      });
+
+      presetBtns.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          distUnit.value = 'km';
+          distValue.value = btn.dataset.km;
+          if (mode === 'distance') { mode = 'pace'; applyMode(); } else { recompute(); }
+        });
+      });
+
+      root.addEventListener('input', recompute);
+      distUnit.addEventListener('change', recompute);
+      applyMode();
+    })();
+
+    // ================= Race Time Predictor + Training Paces =================
+    // Formulas:
+    //  - Riegel: T2 = T1 * (D2/D1)^1.06 -- the standard fatigue-exponent model.
+    //  - Daniels & Gilbert (1979) VDOT: VO2 (ml/kg/min) at velocity v (m/min)
+    //    is -4.60 + 0.182258v + 0.000104v^2; %VO2max sustainable for t minutes
+    //    is 0.8 + 0.1894393*e^(-0.012778t) + 0.2989558*e^(-0.1932605t). VDOT is
+    //    solved from a known performance, then re-solved (via bisection, since
+    //    %max itself depends on the unknown time) for the time at each other
+    //    distance. Training paces reuse the same VO2-velocity relationship at
+    //    fixed %VDOT bands Daniels publishes per zone (midpoints used here).
+    (function () {
+      var root = document.querySelector('[data-tool-panel="predictor"]');
+      if (!root) return;
+
+      var distanceSelect = document.getElementById('pred-distance');
+      var customGroup = document.getElementById('pred-custom-group');
+      var customValue = document.getElementById('pred-custom-value');
+      var customUnit = document.getElementById('pred-custom-unit');
+      var timeH = document.getElementById('pred-time-h');
+      var timeM = document.getElementById('pred-time-m');
+      var timeS = document.getElementById('pred-time-s');
+      var hint = document.getElementById('pred-hint');
+      var results = document.getElementById('pred-results');
+      var vdotLabel = document.getElementById('pred-vdot');
+      var paceUnitChips = root.querySelectorAll('.pace-unit-chip');
+
+      var paceUnit = 'km';
+
+      var ZONES = [
+        { key: 'easy', pct: 0.665 },
+        { key: 'marathon', pct: 0.795 },
+        { key: 'threshold', pct: 0.855 },
+        { key: 'interval', pct: 0.975 },
+      ];
+
+      function vo2FromVelocity(v) {
+        return -4.6 + 0.182258 * v + 0.000104 * v * v;
+      }
+
+      function pctVO2max(tMin) {
+        return 0.8 + 0.1894393 * Math.exp(-0.012778 * tMin) + 0.2989558 * Math.exp(-0.1932605 * tMin);
+      }
+
+      function velocityFromVO2(vo2) {
+        var a = 0.000104, b = 0.182258, c = -(vo2 + 4.6);
+        return (-b + Math.sqrt(b * b - 4 * a * c)) / (2 * a);
+      }
+
+      function vdotFromPerformance(distanceM, timeSeconds) {
+        var tMin = timeSeconds / 60;
+        var v = distanceM / tMin;
+        return vo2FromVelocity(v) / pctVO2max(tMin);
+      }
+
+      function timeForDistanceGivenVDOT(vdot, distanceM) {
+        function f(tMin) {
+          var v = distanceM / tMin;
+          return vo2FromVelocity(v) - vdot * pctVO2max(tMin);
+        }
+        var lo = 1, hi = 600;
+        var flo = f(lo), fhi = f(hi);
+        if (!isFinite(flo) || !isFinite(fhi) || flo * fhi > 0) return null;
+        for (var i = 0; i < 60; i++) {
+          var mid = (lo + hi) / 2;
+          var fmid = f(mid);
+          if ((fmid > 0) === (flo > 0)) { lo = mid; flo = fmid; } else { hi = mid; }
+        }
+        return ((lo + hi) / 2) * 60;
+      }
+
+      function riegelTime(t1, d1, d2) {
+        return t1 * Math.pow(d2 / d1, 1.06);
+      }
+
+      function getDistanceMeters() {
+        if (distanceSelect.value === 'custom') {
+          var v = num(customValue);
+          if (!v) return 0;
+          return customUnit.value === 'mi' ? v * 1609.34 : v * 1000;
+        }
+        return parseFloat(distanceSelect.value) || 0;
+      }
+
+      function getTimeSeconds() {
+        return num(timeH) * 3600 + num(timeM) * 60 + num(timeS);
+      }
+
+      function recompute() {
+        customGroup.classList.toggle('hidden', distanceSelect.value !== 'custom');
+
+        var d1 = getDistanceMeters();
+        var t1 = getTimeSeconds();
+
+        if (!d1 || !t1) {
+          results.classList.add('hidden');
+          hint.classList.remove('hidden');
+          hint.textContent = 'Enter a recent finish time to see predictions.';
+          return;
+        }
+
+        var vdot = vdotFromPerformance(d1, t1);
+        if (!isFinite(vdot) || vdot <= 0) {
+          results.classList.add('hidden');
+          hint.classList.remove('hidden');
+          hint.textContent = 'That combination doesn’t compute -- double check the distance and time.';
+          return;
+        }
+
+        hint.classList.add('hidden');
+        results.classList.remove('hidden');
+        vdotLabel.textContent = '(VDOT ' + vdot.toFixed(1) + ')';
+
+        predictDistances.forEach(function (d) {
+          var riegelSec = riegelTime(t1, d1, d.m);
+          var danielsSec = timeForDistanceGivenVDOT(vdot, d.m);
+          var riegelEl = document.getElementById('pred-riegel-' + d.key);
+          var danielsEl = document.getElementById('pred-daniels-' + d.key);
+          if (riegelEl) riegelEl.textContent = formatClock(riegelSec) || '--';
+          if (danielsEl) danielsEl.textContent = danielsSec ? formatClock(danielsSec) || '--' : '--';
+        });
+
+        ZONES.forEach(function (zone) {
+          var v = velocityFromVO2(vdot * zone.pct); // m/min
+          var paceSeconds = paceUnit === 'mi' ? (60 * 1609.34) / v : 60000 / v;
+          var el = document.getElementById('pace-' + zone.key);
+          if (el) el.textContent = (formatPace(paceSeconds) || '--') + ' /' + paceUnit;
+        });
+      }
+
+      distanceSelect.addEventListener('change', recompute);
+      root.addEventListener('input', recompute);
+
+      paceUnitChips.forEach(function (chip) {
+        chip.addEventListener('click', function () {
+          paceUnit = chip.dataset.paceUnit;
+          paceUnitChips.forEach(function (c) { c.classList.toggle('is-active', c === chip); });
+          recompute();
+        });
+      });
+
+      recompute();
+    })();
+
+    // ================= Race Countdown =================
+    (function () {
+      var root = document.querySelector('[data-tool-panel="countdown"]');
+      if (!root) return;
+
+      var dateInput = document.getElementById('cd-date');
+      var distanceChips = root.querySelectorAll('.cd-distance-chip');
+      var hint = document.getElementById('cd-hint');
+      var result = document.getElementById('cd-result');
+      var daysEl = document.getElementById('cd-days');
+      var daysLabelEl = document.getElementById('cd-days-label');
+      var taperTextEl = document.getElementById('cd-taper-text');
+
+      var distanceKey = 'short';
+      // [minWeeks, maxWeeks] -- generic, widely-cited taper windows.
+      var TAPER = {
+        short: { label: '5K/10K', weeks: [0.5, 1] },
+        half: { label: 'a half marathon', weeks: [1, 2] },
+        full: { label: 'a marathon', weeks: [2, 3] },
+      };
+
+      function formatDate(d) {
+        return d.toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' });
+      }
+
+      function recompute() {
+        if (!dateInput.value) {
+          result.classList.add('hidden');
+          hint.classList.remove('hidden');
+          hint.textContent = 'Pick a race date above to get started.';
+          return;
+        }
+
+        var raceDate = new Date(dateInput.value + 'T00:00:00');
+        var today = new Date();
+        var todayMidnight = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+        var days = Math.round((raceDate - todayMidnight) / 86400000);
+
+        hint.classList.add('hidden');
+        result.classList.remove('hidden');
+
+        if (days > 0) {
+          daysEl.textContent = days;
+          daysLabelEl.textContent = days === 1 ? 'day to go' : 'days to go';
+        } else if (days === 0) {
+          daysEl.textContent = 'Today';
+          daysLabelEl.textContent = 'race day!';
+        } else {
+          daysEl.textContent = Math.abs(days);
+          daysLabelEl.textContent = Math.abs(days) === 1 ? 'day since race day' : 'days since race day';
+        }
+
+        var taper = TAPER[distanceKey];
+        if (days > taper.weeks[0] * 7) {
+          var startEarly = new Date(raceDate.getTime() - taper.weeks[1] * 7 * 86400000);
+          var startLate = new Date(raceDate.getTime() - taper.weeks[0] * 7 * 86400000);
+          taperTextEl.textContent =
+            'For ' + taper.label + ', tapering typically starts about ' + taper.weeks[0] + '–' + taper.weeks[1] +
+            ' weeks out -- roughly ' + formatDate(startEarly) + ' to ' + formatDate(startLate) + '.';
+        } else if (days > 0) {
+          taperTextEl.textContent = 'Your race is inside the usual taper window for ' + taper.label + ' -- this is a good time to be easing off volume, not adding to it.';
+        } else {
+          taperTextEl.textContent = 'Hope it went well!';
+        }
+      }
+
+      distanceChips.forEach(function (chip) {
+        chip.addEventListener('click', function () {
+          distanceKey = chip.dataset.cdDistance;
+          distanceChips.forEach(function (c) { c.classList.toggle('is-active', c === chip); });
+          recompute();
+        });
+      });
+
+      dateInput.addEventListener('input', recompute);
+      recompute();
+    })();
+  })();
+</script>

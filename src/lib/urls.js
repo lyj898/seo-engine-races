@@ -52,7 +52,6 @@ export const urls = {
   reviewsIndex: () => withBase('/reviews/'),
   review: (slug) => withBase(`/reviews/${slug}/`),
   toolsIndex: () => withBase('/tools/'),
-  tool: (slug) => withBase(`/tools/${slug}/`),
   about: () => withBase('/about/'),
   privacy: () => withBase('/privacy/'),
   terms: () => withBase('/terms/'),

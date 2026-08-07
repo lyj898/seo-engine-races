@@ -18,4 +18,10 @@ export default defineConfig({
   site: `https://${siteConfig.siteDomain}`,
   output: 'static',
   integrations: [tailwind()],
+  // Pace Lab's first calculator briefly lived at its own URL before every
+  // tool was folded onto one page (/tools/) -- redirect rather than 404 the
+  // handful of people who may have already bookmarked or shared it.
+  redirects: {
+    '/tools/pace-calculator': '/tools/',
+  },
 });
