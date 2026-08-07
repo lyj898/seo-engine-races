@@ -231,9 +231,11 @@ const tools = [
           <div class="flex flex-wrap items-center justify-between gap-3">
             <h2 class="text-sm font-semibold">Predicted race times</h2>
             <div class="inline-flex gap-0.5 rounded-full bg-brand-surface-offset p-[3px] dark:bg-brand-surface-offset-dark">
-              <button type="button" data-method="both" class="method-chip filter-chip is-active rounded-full px-3 py-1.5 text-xs font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">Both</button>
+              <button type="button" data-method="all" class="method-chip filter-chip is-active rounded-full px-3 py-1.5 text-xs font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">All</button>
               <button type="button" data-method="riegel" class="method-chip filter-chip rounded-full px-3 py-1.5 text-xs font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">Riegel</button>
               <button type="button" data-method="daniels" class="method-chip filter-chip rounded-full px-3 py-1.5 text-xs font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">Daniels</button>
+              <button type="button" data-method="linear" class="method-chip filter-chip rounded-full px-3 py-1.5 text-xs font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">Linear</button>
+              <button type="button" data-method="purdy" class="method-chip filter-chip rounded-full px-3 py-1.5 text-xs font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">Purdy</button>
             </div>
           </div>
           <div class="mt-3 overflow-x-auto">
@@ -242,7 +244,9 @@ const tools = [
                 <tr class="border-b border-brand-border dark:border-brand-border-dark">
                   <th class="py-2 pr-3 text-left font-medium text-brand-muted dark:text-brand-muted-dark">Distance</th>
                   <th data-method-col="riegel" class="py-2 pr-3 text-left font-medium text-brand-muted dark:text-brand-muted-dark">Riegel</th>
-                  <th data-method-col="daniels" class="py-2 text-left font-medium text-brand-muted dark:text-brand-muted-dark">Daniels (VDOT)</th>
+                  <th data-method-col="daniels" class="py-2 pr-3 text-left font-medium text-brand-muted dark:text-brand-muted-dark">Daniels</th>
+                  <th data-method-col="linear" class="py-2 pr-3 text-left font-medium text-brand-muted dark:text-brand-muted-dark">Linear</th>
+                  <th data-method-col="purdy" class="py-2 text-left font-medium text-brand-muted dark:text-brand-muted-dark">Purdy</th>
                 </tr>
               </thead>
               <tbody>
@@ -250,7 +254,9 @@ const tools = [
                   <tr class="border-b border-brand-border last:border-0 dark:border-brand-border-dark" data-distance-row={d.key}>
                     <td class="py-2 pr-3 font-medium">{d.label}</td>
                     <td data-method-col="riegel" class="py-2 pr-3 whitespace-nowrap tabular-nums" id={`pred-riegel-${d.key}`}>--</td>
-                    <td data-method-col="daniels" class="py-2 whitespace-nowrap tabular-nums" id={`pred-daniels-${d.key}`}>--</td>
+                    <td data-method-col="daniels" class="py-2 pr-3 whitespace-nowrap tabular-nums" id={`pred-daniels-${d.key}`}>--</td>
+                    <td data-method-col="linear" class="py-2 pr-3 whitespace-nowrap tabular-nums" id={`pred-linear-${d.key}`}>--</td>
+                    <td data-method-col="purdy" class="py-2 whitespace-nowrap tabular-nums" id={`pred-purdy-${d.key}`}>--</td>
                   </tr>
                 ))}
               </tbody>
@@ -286,8 +292,10 @@ const tools = [
           </div>
 
           <p class="mt-4 text-xs text-brand-muted dark:text-brand-muted-dark">
-            Estimates from two published formulas (Riegel's exponent model; Daniels &amp; Gilbert's VDOT), assuming
-            similar training and conditions across distances. Treat as a guide, not a guarantee -- see our
+            Estimates from four published formulas: Riegel's exponent model, Daniels &amp; Gilbert's VDOT,
+            a simple same-pace linear extrapolation, and Purdy's world-record-percentage method —
+            all assuming similar training and conditions across distances.
+            Treat as a guide, not a guarantee — see our
             <a href={urls.about()} class="link-accent">methodology</a>.
           </p>
         </div>
@@ -654,11 +662,11 @@ const tools = [
       var methodCols = root.querySelectorAll('[data-method-col]');
 
       var paceUnit = 'km';
-      var method = 'both';
+      var method = 'all';
 
       function applyMethodVisibility() {
         methodCols.forEach(function (el) {
-          el.classList.toggle('hidden', method !== 'both' && el.dataset.methodCol !== method);
+          el.classList.toggle('hidden', method !== 'all' && el.dataset.methodCol !== method);
         });
       }
 
@@ -708,6 +716,49 @@ const tools = [
         return t1 * Math.pow(d2 / d1, 1.06);
       }
 
+      function linearTime(t1, d1, d2) {
+        return t1 * (d2 / d1);
+      }
+
+      // World best times (seconds) — approximate men's world records used as
+      // reference points for the Purdy percentage method.
+      var WORLD_BEST = {};
+      WORLD_BEST[5000] = 755.36;
+      WORLD_BEST[10000] = 1571.00;
+      WORLD_BEST[15000] = 2465.00;
+      WORLD_BEST[16093.4] = 2644.00;
+      WORLD_BEST[21097.5] = 3451.00;
+      WORLD_BEST[42195] = 7235.00;
+
+      function worldBestForDistance(distanceM) {
+        var exact = WORLD_BEST[distanceM];
+        if (exact) return exact;
+        var keys = Object.keys(WORLD_BEST).map(Number).sort(function (a, b) { return a - b; });
+        if (distanceM <= keys[0]) {
+          return WORLD_BEST[5000] * Math.pow(distanceM / 5000, 1.06);
+        }
+        if (distanceM >= keys[keys.length - 1]) {
+          return WORLD_BEST[42195] * Math.pow(distanceM / 42195, 1.06);
+        }
+        for (var i = 0; i < keys.length - 1; i++) {
+          if (distanceM >= keys[i] && distanceM <= keys[i + 1]) {
+            var logDist = Math.log(distanceM);
+            var logD1 = Math.log(keys[i]), logD2 = Math.log(keys[i + 1]);
+            var logWB1 = Math.log(WORLD_BEST[keys[i]]), logWB2 = Math.log(WORLD_BEST[keys[i + 1]]);
+            var t = (logDist - logD1) / (logD2 - logD1);
+            return Math.exp(logWB1 + t * (logWB2 - logWB1));
+          }
+        }
+        return null;
+      }
+
+      function purdyTime(t1, d1, d2) {
+        var wbInput = worldBestForDistance(d1);
+        var wbTarget = worldBestForDistance(d2);
+        if (!wbInput || !wbTarget) return null;
+        return t1 * (wbTarget / wbInput);
+      }
+
       function getDistanceMeters() {
         if (distanceSelect.value === 'custom') {
           var v = num(customValue);
@@ -749,10 +800,16 @@ const tools = [
         predictDistances.forEach(function (d) {
           var riegelSec = riegelTime(t1, d1, d.m);
           var danielsSec = timeForDistanceGivenVDOT(vdot, d.m);
+          var linearSec = linearTime(t1, d1, d.m);
+          var purdySec = purdyTime(t1, d1, d.m);
           var riegelEl = document.getElementById('pred-riegel-' + d.key);
           var danielsEl = document.getElementById('pred-daniels-' + d.key);
+          var linearEl = document.getElementById('pred-linear-' + d.key);
+          var purdyEl = document.getElementById('pred-purdy-' + d.key);
           if (riegelEl) riegelEl.textContent = formatClock(riegelSec) || '--';
           if (danielsEl) danielsEl.textContent = danielsSec ? formatClock(danielsSec) || '--' : '--';
+          if (linearEl) linearEl.textContent = formatClock(linearSec) || '--';
+          if (purdyEl) purdyEl.textContent = purdySec ? formatClock(purdySec) || '--' : '--';
         });
 
         ZONES.forEach(function (zone) {
