@@ -65,18 +65,35 @@ const tools = [
       Small, fast running calculators -- no sign-up, nothing saved. Pick a tool below.
     </p>
 
-    <!-- Tool switch -->
-    <div class="mt-6 inline-flex flex-wrap gap-0.5 rounded-full bg-brand-surface-offset p-[3px] dark:bg-brand-surface-offset-dark" role="tablist" aria-label="Choose a calculator">
-      {tools.map((tool, i) => (
-        <button
-          type="button"
-          role="tab"
-          data-tool={tool.key}
-          class={`tool-tab filter-chip ${i === 0 ? 'is-active' : ''} rounded-full px-4 py-2 text-sm font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark`}
-        >
-          {tool.label}
-        </button>
-      ))}
+    <!--
+      Tool switch. 5 labels never fit one row under ~700px, so this scrolls
+      horizontally rather than wrapping to 2-3 rows of chips (which reads as
+      a chip pile, not a tab bar). The fade hints "more tabs -- scroll" the
+      same way the header's mobile nav does; `sm:hidden` on it because at
+      >=640px every tab already fits without scrolling.
+    -->
+    <div class="relative mt-6">
+      <div
+        class="flex gap-0.5 overflow-x-auto rounded-full bg-brand-surface-offset p-[3px] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden dark:bg-brand-surface-offset-dark"
+        role="tablist"
+        aria-label="Choose a calculator"
+      >
+        {tools.map((tool, i) => (
+          <button
+            type="button"
+            role="tab"
+            data-tool={tool.key}
+            class={`tool-tab filter-chip ${i === 0 ? 'is-active' : ''} shrink-0 whitespace-nowrap rounded-full px-4 py-2 text-sm font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark`}
+          >
+            {tool.label}
+          </button>
+        ))}
+      </div>
+      <div
+        class="pointer-events-none absolute inset-y-0 right-0 w-10 rounded-r-full bg-gradient-to-l from-brand-surface-offset to-transparent dark:from-brand-surface-offset-dark sm:hidden"
+        aria-hidden="true"
+      >
+      </div>
     </div>
 
     <!-- ================= Pace & Finish Time ================= -->
@@ -211,22 +228,29 @@ const tools = [
         </p>
 
         <div id="pred-results" class="mt-6 hidden">
-          <h2 class="text-sm font-semibold">Predicted race times</h2>
+          <div class="flex flex-wrap items-center justify-between gap-3">
+            <h2 class="text-sm font-semibold">Predicted race times</h2>
+            <div class="inline-flex gap-0.5 rounded-full bg-brand-surface-offset p-[3px] dark:bg-brand-surface-offset-dark">
+              <button type="button" data-method="both" class="method-chip filter-chip is-active rounded-full px-3 py-1.5 text-xs font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">Both</button>
+              <button type="button" data-method="riegel" class="method-chip filter-chip rounded-full px-3 py-1.5 text-xs font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">Riegel</button>
+              <button type="button" data-method="daniels" class="method-chip filter-chip rounded-full px-3 py-1.5 text-xs font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">Daniels</button>
+            </div>
+          </div>
           <div class="mt-3 overflow-x-auto">
-            <table class="w-full min-w-[380px] border-collapse text-sm">
+            <table class="w-full border-collapse text-sm">
               <thead>
                 <tr class="border-b border-brand-border dark:border-brand-border-dark">
                   <th class="py-2 pr-3 text-left font-medium text-brand-muted dark:text-brand-muted-dark">Distance</th>
-                  <th class="py-2 pr-3 text-left font-medium text-brand-muted dark:text-brand-muted-dark">Riegel</th>
-                  <th class="py-2 text-left font-medium text-brand-muted dark:text-brand-muted-dark">Daniels (VDOT)</th>
+                  <th data-method-col="riegel" class="py-2 pr-3 text-left font-medium text-brand-muted dark:text-brand-muted-dark">Riegel</th>
+                  <th data-method-col="daniels" class="py-2 text-left font-medium text-brand-muted dark:text-brand-muted-dark">Daniels (VDOT)</th>
                 </tr>
               </thead>
               <tbody>
                 {predictDistances.map((d) => (
                   <tr class="border-b border-brand-border last:border-0 dark:border-brand-border-dark" data-distance-row={d.key}>
                     <td class="py-2 pr-3 font-medium">{d.label}</td>
-                    <td class="py-2 pr-3 tabular-nums" id={`pred-riegel-${d.key}`}>--</td>
-                    <td class="py-2 tabular-nums" id={`pred-daniels-${d.key}`}>--</td>
+                    <td data-method-col="riegel" class="py-2 pr-3 whitespace-nowrap tabular-nums" id={`pred-riegel-${d.key}`}>--</td>
+                    <td data-method-col="daniels" class="py-2 whitespace-nowrap tabular-nums" id={`pred-daniels-${d.key}`}>--</td>
                   </tr>
                 ))}
               </tbody>
@@ -243,7 +267,7 @@ const tools = [
             </div>
           </div>
           <div class="mt-3 overflow-x-auto">
-            <table class="w-full min-w-[260px] border-collapse text-sm">
+            <table class="w-full border-collapse text-sm">
               <thead>
                 <tr class="border-b border-brand-border dark:border-brand-border-dark">
                   <th class="py-2 pr-3 text-left font-medium text-brand-muted dark:text-brand-muted-dark">Zone</th>
@@ -254,7 +278,7 @@ const tools = [
                 {trainingZones.map((z) => (
                   <tr class="border-b border-brand-border last:border-0 dark:border-brand-border-dark">
                     <td class="py-2 pr-3 font-medium">{z.label}</td>
-                    <td class="py-2 tabular-nums" id={`pace-${z.key}`}>--</td>
+                    <td class="py-2 whitespace-nowrap tabular-nums" id={`pace-${z.key}`}>--</td>
                   </tr>
                 ))}
               </tbody>
@@ -350,13 +374,13 @@ const tools = [
 
         <div id="splits-results" class="mt-6 hidden">
           <div class="overflow-x-auto">
-            <table class="w-full min-w-[420px] border-collapse text-sm">
+            <table class="w-full border-collapse text-sm">
               <thead>
                 <tr class="border-b border-brand-border dark:border-brand-border-dark">
-                  <th class="py-2 pr-3 text-left font-medium text-brand-muted dark:text-brand-muted-dark">At</th>
-                  <th class="py-2 pr-3 text-left font-medium text-brand-muted dark:text-brand-muted-dark">Split</th>
-                  <th class="py-2 pr-3 text-left font-medium text-brand-muted dark:text-brand-muted-dark">Cumulative</th>
-                  <th class="py-2 text-left font-medium text-brand-muted dark:text-brand-muted-dark">Avg pace</th>
+                  <th class="whitespace-nowrap py-2 pr-3 text-left font-medium text-brand-muted dark:text-brand-muted-dark">At</th>
+                  <th class="whitespace-nowrap py-2 pr-3 text-left font-medium text-brand-muted dark:text-brand-muted-dark">Split</th>
+                  <th class="whitespace-nowrap py-2 pr-3 text-left font-medium text-brand-muted dark:text-brand-muted-dark">Cumulative</th>
+                  <th class="whitespace-nowrap py-2 text-left font-medium text-brand-muted dark:text-brand-muted-dark">Avg pace</th>
                 </tr>
               </thead>
               <tbody id="splits-body"></tbody>
@@ -626,8 +650,17 @@ const tools = [
       var results = document.getElementById('pred-results');
       var vdotLabel = document.getElementById('pred-vdot');
       var paceUnitChips = root.querySelectorAll('.pace-unit-chip');
+      var methodChips = root.querySelectorAll('.method-chip');
+      var methodCols = root.querySelectorAll('[data-method-col]');
 
       var paceUnit = 'km';
+      var method = 'both';
+
+      function applyMethodVisibility() {
+        methodCols.forEach(function (el) {
+          el.classList.toggle('hidden', method !== 'both' && el.dataset.methodCol !== method);
+        });
+      }
 
       var ZONES = [
         { key: 'easy', pct: 0.665 },
@@ -741,6 +774,15 @@ const tools = [
         });
       });
 
+      methodChips.forEach(function (chip) {
+        chip.addEventListener('click', function () {
+          method = chip.dataset.method;
+          methodChips.forEach(function (c) { c.classList.toggle('is-active', c === chip); });
+          applyMethodVisibility();
+        });
+      });
+
+      applyMethodVisibility();
       recompute();
     })();
 
@@ -851,7 +893,7 @@ const tools = [
           cells.forEach(function (text, i) {
             var td = document.createElement('td');
             var base = i === isLast ? 'py-2' : 'py-2 pr-3';
-            td.className = i === 0 ? base + ' font-medium tabular-nums' : base + ' tabular-nums';
+            td.className = (i === 0 ? base + ' font-medium tabular-nums' : base + ' tabular-nums') + ' whitespace-nowrap';
             td.textContent = text;
             tr.appendChild(td);
           });

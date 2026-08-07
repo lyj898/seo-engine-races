@@ -47,18 +47,30 @@ const navLinks = [
     all. This second row carries the same links below the md breakpoint as a
     horizontally scrollable strip -- no hamburger, no JS, and the links stay
     in the markup for crawlers on every page.
+
+    The links overflow the viewport by design (5-6 labels never fit on a
+    phone), so a right-edge fade signals "there's more -- scroll" instead of
+    the row just looking cut off. `pr-8` keeps the last link from sitting
+    under the fade at full scroll.
   -->
-  <nav
-    class="-mt-px flex gap-1 overflow-x-auto border-t border-brand-divider px-4 py-2 text-sm font-semibold [scrollbar-width:none] [&::-webkit-scrollbar]:hidden dark:border-brand-divider-dark md:hidden"
-    aria-label="Primary (mobile)"
-  >
-    {navLinks.map((link) => (
-      <a
-        href={link.href}
-        class="shrink-0 whitespace-nowrap rounded-full px-3 py-1.5 text-brand-muted transition-colors hover:bg-brand-surface-offset hover:text-brand-text dark:text-brand-muted-dark dark:hover:bg-brand-surface-offset-dark dark:hover:text-brand-text-dark"
-      >
-        {link.label}
-      </a>
-    ))}
-  </nav>
+  <div class="relative md:hidden">
+    <nav
+      class="-mt-px flex gap-1 overflow-x-auto border-t border-brand-divider py-2 pl-4 pr-8 text-sm font-semibold [scrollbar-width:none] [&::-webkit-scrollbar]:hidden dark:border-brand-divider-dark"
+      aria-label="Primary (mobile)"
+    >
+      {navLinks.map((link) => (
+        <a
+          href={link.href}
+          class="shrink-0 whitespace-nowrap rounded-full px-3 py-1.5 text-brand-muted transition-colors hover:bg-brand-surface-offset hover:text-brand-text dark:text-brand-muted-dark dark:hover:bg-brand-surface-offset-dark dark:hover:text-brand-text-dark"
+        >
+          {link.label}
+        </a>
+      ))}
+    </nav>
+    <div
+      class="pointer-events-none absolute inset-y-0 right-0 w-10 bg-gradient-to-l from-brand-bg to-transparent dark:from-brand-bg-dark"
+      aria-hidden="true"
+    >
+    </div>
+  </div>
 </header>
