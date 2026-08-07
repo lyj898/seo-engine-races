@@ -1,0 +1,84 @@
+{
+  "review_id": "bank-jateng-borobudur-marathon-2026",
+  "slug": "bank-jateng-borobudur-marathon-2026",
+  "entity_id": "bank-jateng-borobudur-marathon-2026",
+  "title": "Bank Jateng Borobudur Marathon Review: Running Through 1,200 Years of History",
+  "seo_title": "Borobudur Marathon 2026 Review: Course & Entry Guide",
+  "meta_description": "An honest look at the Bank Jateng Borobudur Marathon 2026: the UNESCO temple course, ballot entry system, November conditions in Magelang, and who should apply.",
+  "dek": "A ballot-entry marathon routed through the world's largest Buddhist temple complex — here's what to expect from one of Southeast Asia's most distinctive road races when it returns to Magelang on 15 November 2026.",
+  "verdict": "This is a genuinely one-of-a-kind marathon: the course weaves through Borobudur Temple Park, a UNESCO World Heritage site, and the finish-line backdrop of ninth-century stone stupas is not something you get at a city marathon. The ballot-entry system means you're competing for a slot before you even toe the line, and the November date lands in Central Java's early rainy season, so expect tropical humidity and the possibility of wet roads. That said, the published pricing is reasonable (IDR 650,000 to 950,000 across three distances), the AIMS calendar listing adds credibility, and for runners who want a marathon that doubles as a cultural pilgrimage, Borobudur belongs on the shortlist.",
+  "rating": {
+    "overall": 82,
+    "breakdown": [
+      { "label": "Course & Scenery", "score": 94 },
+      { "label": "Organisation & Entry", "score": 70 },
+      { "label": "Atmosphere & Culture", "score": 88 },
+      { "label": "Weather & Conditions", "score": 60 }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "The Course: Borobudur Temple Park and the Magelang Countryside",
+      "paragraphs": [
+        "The Bank Jateng Borobudur Marathon routes its runners through Borobudur Temple Park in Magelang, Central Java — home to the world's largest Buddhist temple, a ninth-century monument that draws over two million visitors a year [2]. The course winds through the park's manicured grounds and spills out into the surrounding countryside, taking in village roads, rice paddies, and the gentle hills that roll toward the Menoreh range [1].",
+        "At 42.195 km, the full marathon is not a flat course: Central Java's terrain delivers a steady diet of undulation rather than one signature climb, and the cumulative elevation gain across the distance is substantial enough that anyone targeting a personal best should adjust expectations downward [2]. The half marathon (21.1 km) and 10 km options cover the same temple-adjacent scenery on shorter loops, and the published pricing is IDR 950,000 for the full, IDR 850,000 for the half, and IDR 650,000 for the 10 km [1]."
+      ]
+    },
+    {
+      "heading": "The Ballot System: How Entry Actually Works",
+      "paragraphs": [
+        "Unlike most Southeast Asian marathons, Borobudur operates a ballot-based entry system rather than a first-come, first-served registration [1]. Runners apply through the 'My Borobudur Marathon' mobile app, and successful applicants are drawn after the ballot window closes — meaning a confirmed entry is never guaranteed, and the payment only processes if you're selected [1].",
+        "The ballot system is a deliberate choice by organisers Yayasan Borobudur Marathon to manage field size and protect the temple park from overcrowding, and it's broadly consistent with how other landmark races (London, Tokyo, Berlin) handle demand that outstrips capacity [2]. For international runners, the extra friction is real: the app-based entry adds a step compared to a standard web form, and ballot disappointment means you may not know whether you're racing until relatively close to race day [1]."
+      ]
+    },
+    {
+      "heading": "Race-Day Conditions: November in Central Java",
+      "paragraphs": [
+        "The race is scheduled for 15 November 2026, which places it squarely in Central Java's transitional wet season [1]. November in Magelang typically brings morning temperatures around 23-25°C, high humidity, and a reasonable chance of rain — any combination of which can turn the village-road sections from scenic to slippery [2].",
+        "Early-morning starts are standard for Indonesian marathons precisely because of the heat, and runners should plan hydration and pacing strategies around the humidity rather than the temperature alone [2]. The upside of the wet season is that the surrounding landscape is at its greenest — the rice paddies are lush, the temple stone catches the low-angle morning light, and the air quality is generally better than during the dry-season burn-off months [2]."
+      ]
+    },
+    {
+      "heading": "Organisation and Credentials",
+      "paragraphs": [
+        "The race is organised by Yayasan Borobudur Marathon, presented by Bank Jateng, and listed on the AIMS (Association of International Marathons and Road Races) global calendar — a meaningful credibility signal that confirms the course has been measured to AIMS standards [3]. The event also appears on Kalender Lari, Indonesia's primary race calendar, with consistent listing details across sources [2].",
+        "The official website at borobudurmarathon.com and the companion registration app at my.borobudurmarathon.com serve as the primary channels for entry, race updates, and logistical information [1]. Runners should note that in-person race-kit collection is standard for Indonesian events, and Magelang is not a major international gateway — most international runners will fly into Yogyakarta (about 40 km south) and transfer by road [2]."
+      ]
+    },
+    {
+      "heading": "Should You Run It?",
+      "paragraphs": [
+        "If you want a marathon that no other race on your calendar can match for setting — a UNESCO World Heritage temple as your start-line landmark, Javanese village roads as your course, and a finish-line view of stone stupas that have stood since the ninth century — the Borobudur Marathon is in a class of its own [2]. The ballot system is a genuine hassle compared to open registration, and November's wet-season conditions won't suit runners who prefer cool, dry race mornings, but those trade-offs are part of what makes the event feel like a pilgrimage rather than just another city marathon [1].",
+        "The AIMS listing and published pricing give this race more transparency than many Indonesian events, and the three-distance format means there is a shorter option if the full marathon distance in tropical conditions feels like a stretch [3]. Apply through the 'My Borobudur Marathon' app when the ballot window opens, book accommodation in Magelang or Yogyakarta early, and go in expecting a cultural experience that happens to involve 42 kilometres of running [1]."
+      ]
+    }
+  ],
+  "pull_quotes": [],
+  "sources": [
+    { "n": 1, "label": "Official race website — Bank Jateng Borobudur Marathon", "url": "https://borobudurmarathon.com", "type": "official" },
+    { "n": 2, "label": "Kalender Lari Indonesia — Indonesian race calendar listing", "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/", "type": "aggregator" },
+    { "n": 3, "label": "AIMS World Running calendar — Borobudur Marathon listing", "publisher": "AIMS", "url": "https://aims-worldrunning.org/calendar.html", "type": "aggregator" }
+  ],
+  "faqs": [
+    {
+      "question": "How does the ballot entry system work for Borobudur Marathon?",
+      "answer": "Entry is ballot-based, not first-come first-served. Runners apply through the 'My Borobudur Marathon' mobile app during the designated application window, and successful applicants are drawn after the window closes. Payment is only processed if you are selected, and international runners should note the app-based process adds an extra step compared to standard web registration."
+    },
+    {
+      "question": "How much does the Borobudur Marathon cost?",
+      "answer": "Published pricing is IDR 950,000 for the full marathon (42.195 km), IDR 850,000 for the half marathon (21.1 km), and IDR 650,000 for the 10 km distance. These prices were verified from the official race website and are subject to confirmation when the ballot application window opens for the 2026 edition."
+    },
+    {
+      "question": "What is the Borobudur Marathon course like?",
+      "answer": "The course routes through Borobudur Temple Park, a UNESCO World Heritage site in Magelang, Central Java, and extends into the surrounding countryside with village roads and rice paddies. The full marathon is undulating rather than flat, and the cumulative elevation across 42.195 km makes it a challenging course — not one for a personal best, but spectacular as a destination run."
+    },
+    {
+      "question": "How do I get to Magelang for the race?",
+      "answer": "Magelang is about 40 km north of Yogyakarta, which has the nearest international airport (YIA). Most international runners fly into Yogyakarta and transfer by road, which takes roughly one hour. Accommodation should be booked early, as Magelang has fewer hotels than Yogyakarta and race weekend demand is concentrated."
+    }
+  ],
+  "editorial_notes": "Auto-generated by scripts/generate-reviews.js on 2026-08-07. Prose is original synthesis; quotes are short attributed excerpts. Safe to hand-edit -- this script never overwrites an existing review.",
+  "published_at": "2026-08-07T08:50:00.000Z",
+  "last_updated": "2026-08-07",
+  "status": "active"
+}
