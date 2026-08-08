@@ -1,0 +1,280 @@
+---
+import siteConfig from '../../lib/config.js';
+import { urls } from '../../lib/urls.js';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import FAQSection from '../../components/FAQSection.astro';
+import ToolsCrossLinks from '../../components/ToolsCrossLinks.astro';
+import { buildBreadcrumbListSchema, buildFaqPageSchema, buildWebApplicationSchema } from '../../lib/schema-jsonld.js';
+import { numFieldClass, selectClass, labelClass, subLabelClass, cardClass } from '../../lib/tool-styles.js';
+
+const pageUrl = new URL(urls.tool('race-fueling-calculator'), Astro.site).toString();
+
+const distances = [
+  { key: '10k', label: '10K', m: 10000 },
+  { key: '15k', label: '15K', m: 15000 },
+  { key: 'half', label: 'Half Marathon', m: 21097.5 },
+  { key: 'full', label: 'Marathon', m: 42195 },
+];
+
+const faqs = [
+  {
+    question: 'How many carbs do I need per hour when running?',
+    answer:
+      'Commonly cited sports-nutrition guidance is roughly 30-60g of carbohydrate per hour for efforts over an hour, rising toward 60-90g per hour for longer efforts (2.5h+) using multiple carb sources (e.g. glucose + fructose blends), which the gut absorbs faster than one sugar type alone.',
+  },
+  {
+    question: 'How many gels should I bring for a marathon?',
+    answer:
+      "It depends on your goal time and each gel's carb content, but a runner targeting ~60g of carbs per hour over a 4-hour marathon needs roughly 240g total -- about 9-10 standard 25g gels, or fewer if some comes from sports drink instead.",
+  },
+  {
+    question: 'Do I need more fluids and sodium in hot, humid conditions?',
+    answer:
+      "Yes, meaningfully more -- sweat rate climbs with heat and humidity, so both fluid and sodium losses increase. This matters especially across Southeast Asia, where race-day heat and humidity are routinely higher than the conditions most generic fueling guidance assumes.",
+  },
+  {
+    question: 'Should I try new nutrition on race day?',
+    answer:
+      "No -- test your fueling plan (gel brand, timing, sports drink) in training first. Race day is the wrong time to discover a gel upsets your stomach at pace; by then you either abandon the plan or run the risk of a GI problem mid-race.",
+  },
+];
+
+const breadcrumbItems = [
+  { label: siteConfig.siteName, href: urls.home() },
+  { label: 'Pace Lab', href: urls.toolsIndex() },
+  { label: 'Race Fueling Calculator' },
+];
+
+const jsonLd = [
+  buildBreadcrumbListSchema(breadcrumbItems, Astro.site),
+  buildWebApplicationSchema({
+    name: 'Race Fueling Calculator',
+    description: 'Estimate carbohydrate, fluid, and sodium needs per hour for a race, and how many gels to carry, based on distance, goal time, and conditions.',
+    url: pageUrl,
+  }),
+  ...(siteConfig.enabledFeatures?.faqSchema ? [buildFaqPageSchema(faqs)] : []),
+].filter(Boolean);
+---
+
+<BaseLayout
+  title="Race Fueling & Gel Calculator"
+  description="Free race fueling calculator -- estimate carbs, fluids, and sodium per hour and how many gels to carry, for 10K to marathon, adjusted for hot and humid conditions."
+  canonicalPath={urls.tool('race-fueling-calculator')}
+  jsonLd={jsonLd}
+>
+  <div class="mx-auto max-w-3xl px-4 py-10 sm:px-6">
+    <Breadcrumb items={breadcrumbItems} />
+    <h1 class="mt-4 font-serif text-3xl font-semibold sm:text-4xl">Race Fueling Calculator</h1>
+    <p class="mt-3 max-w-2xl text-brand-muted dark:text-brand-muted-dark">
+      Enter your distance, goal finish time, and expected conditions to estimate how many carbs, how much fluid,
+      and how much sodium you need per hour -- plus roughly how many gels that works out to. Built with Southeast
+      Asia's heat and humidity in mind, where fueling needs typically run higher than generic guidance assumes.
+    </p>
+
+    <div id="fuel-tool" class={`mt-6 ${cardClass}`}>
+      <p class="mb-5 text-sm text-brand-muted dark:text-brand-muted-dark">
+        Runs under an hour generally don't need in-race fueling -- this is built for 10K and up.
+      </p>
+
+      <div class="space-y-5">
+        <div>
+          <label class={labelClass} for="fuel-distance">Distance</label>
+          <select id="fuel-distance" class={`w-full ${selectClass}`}>
+            {distances.map((d) => (
+              <option value={d.m} selected={d.key === 'full'}>{d.label}</option>
+            ))}
+            <option value="custom">Custom distance</option>
+          </select>
+        </div>
+
+        <div id="fuel-custom-group" class="hidden">
+          <label class={labelClass} for="fuel-custom-value">Custom distance</label>
+          <div class="flex gap-2">
+            <input id="fuel-custom-value" type="number" min="0" step="0.01" inputmode="decimal" placeholder="10" class={numFieldClass} />
+            <select id="fuel-custom-unit" class={`w-24 shrink-0 ${selectClass}`}>
+              <option value="km">km</option>
+              <option value="mi">mi</option>
+            </select>
+          </div>
+        </div>
+
+        <div>
+          <label class={labelClass}>Goal finish time</label>
+          <div class="grid grid-cols-3 gap-2">
+            <div>
+              <input id="fuel-time-h" type="number" min="0" inputmode="numeric" placeholder="4" class={numFieldClass} />
+              <p class={subLabelClass}>hours</p>
+            </div>
+            <div>
+              <input id="fuel-time-m" type="number" min="0" max="59" inputmode="numeric" placeholder="00" class={numFieldClass} />
+              <p class={subLabelClass}>min</p>
+            </div>
+            <div>
+              <input id="fuel-time-s" type="number" min="0" max="59" inputmode="numeric" placeholder="00" class={numFieldClass} />
+              <p class={subLabelClass}>sec</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <p class={labelClass}>Conditions</p>
+          <div class="inline-flex flex-wrap gap-0.5 rounded-full bg-brand-surface-offset p-[3px] dark:bg-brand-surface-offset-dark">
+            <button type="button" data-conditions="cool" class="conditions-chip filter-chip rounded-full px-4 py-2 text-sm font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">Cool</button>
+            <button type="button" data-conditions="warm" class="conditions-chip filter-chip is-active rounded-full px-4 py-2 text-sm font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">Warm</button>
+            <button type="button" data-conditions="hot" class="conditions-chip filter-chip rounded-full px-4 py-2 text-sm font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">Hot &amp; Humid</button>
+          </div>
+        </div>
+
+        <div>
+          <label class={labelClass} for="fuel-gel-size">Carbs per gel</label>
+          <div class="flex items-center gap-2">
+            <input id="fuel-gel-size" type="number" min="1" inputmode="numeric" placeholder="25" class={numFieldClass} />
+            <span class="text-sm text-brand-muted dark:text-brand-muted-dark">g carbs</span>
+          </div>
+        </div>
+      </div>
+
+      <p id="fuel-hint" class="mt-5 text-sm text-brand-muted dark:text-brand-muted-dark">
+        Enter a distance and goal finish time to see your fueling plan.
+      </p>
+
+      <div id="fuel-result" class="mt-6 hidden">
+        <div class="grid gap-4 sm:grid-cols-3">
+          <div>
+            <p class="text-xs font-semibold uppercase tracking-wide text-brand-muted dark:text-brand-muted-dark">Carbs / hour</p>
+            <p id="fuel-carbs-per-hour" class="mt-1 font-serif text-2xl font-bold"></p>
+          </div>
+          <div>
+            <p class="text-xs font-semibold uppercase tracking-wide text-brand-muted dark:text-brand-muted-dark">Fluid / hour</p>
+            <p id="fuel-fluid-per-hour" class="mt-1 font-serif text-2xl font-bold"></p>
+          </div>
+          <div>
+            <p class="text-xs font-semibold uppercase tracking-wide text-brand-muted dark:text-brand-muted-dark">Sodium / hour</p>
+            <p id="fuel-sodium-per-hour" class="mt-1 font-serif text-2xl font-bold"></p>
+          </div>
+        </div>
+
+        <div class="mt-5 rounded-lg bg-brand-surface-offset p-4 text-sm dark:bg-brand-surface-offset-dark">
+          <p>Total carbs for the race: <span id="fuel-total-carbs" class="font-semibold tabular-nums"></span></p>
+          <p class="mt-1">Roughly <span id="fuel-gel-count" class="font-semibold tabular-nums"></span> gels' worth (some can come from sports drink or real food instead)</p>
+        </div>
+
+        <p class="mt-4 text-xs text-brand-muted dark:text-brand-muted-dark">
+          General sports-nutrition ranges, not individual prescriptions -- body size, sweat rate, gut tolerance, and
+          pace all shift real needs. Practice your fueling plan in training; never try something new on race day.
+        </p>
+      </div>
+    </div>
+
+    <p class="mt-6 text-sm text-brand-muted dark:text-brand-muted-dark">
+      Racing somewhere hot? Check the
+      {' '}<a href={urls.tool('heat-humidity-pace-calculator')} class="link-accent">heat &amp; humidity pace adjuster</a> too, and browse
+      {' '}<a href={urls.entitiesIndex()} class="link-accent">{siteConfig.entityLabelPlural} across Southeast Asia</a>.
+    </p>
+
+    <div class="mt-10">
+      <FAQSection faqs={faqs} />
+    </div>
+
+    <ToolsCrossLinks currentSlug="race-fueling-calculator" />
+  </div>
+</BaseLayout>
+
+<script is:inline>
+  (function () {
+    function num(el) {
+      var v = parseFloat(el.value);
+      return isNaN(v) || v < 0 ? 0 : v;
+    }
+
+    // Commonly cited sports-nutrition ranges (ISSN/ACSM-style guidance),
+    // not individual prescriptions -- ranges widen for longer efforts and
+    // hotter/more humid conditions.
+    function carbRangePerHour(durationHours) {
+      if (durationHours < 1) return [0, 0];
+      if (durationHours <= 2.5) return [30, 60];
+      return [60, 90];
+    }
+
+    var FLUID_RANGE = { cool: [400, 600], warm: [500, 700], hot: [600, 900] };
+    var SODIUM_RANGE = { cool: [300, 500], warm: [400, 600], hot: [500, 700] };
+
+    var root = document.getElementById('fuel-tool');
+    var distanceSelect = document.getElementById('fuel-distance');
+    var customGroup = document.getElementById('fuel-custom-group');
+    var customValue = document.getElementById('fuel-custom-value');
+    var customUnit = document.getElementById('fuel-custom-unit');
+    var timeH = document.getElementById('fuel-time-h');
+    var timeM = document.getElementById('fuel-time-m');
+    var timeS = document.getElementById('fuel-time-s');
+    var conditionsChips = root.querySelectorAll('.conditions-chip');
+    var gelSizeInput = document.getElementById('fuel-gel-size');
+    var hint = document.getElementById('fuel-hint');
+    var result = document.getElementById('fuel-result');
+    var carbsPerHourEl = document.getElementById('fuel-carbs-per-hour');
+    var fluidPerHourEl = document.getElementById('fuel-fluid-per-hour');
+    var sodiumPerHourEl = document.getElementById('fuel-sodium-per-hour');
+    var totalCarbsEl = document.getElementById('fuel-total-carbs');
+    var gelCountEl = document.getElementById('fuel-gel-count');
+
+    var conditions = 'warm';
+
+    function getDistanceMeters() {
+      if (distanceSelect.value === 'custom') {
+        var v = num(customValue);
+        if (!v) return 0;
+        return customUnit.value === 'mi' ? v * 1609.34 : v * 1000;
+      }
+      return parseFloat(distanceSelect.value) || 0;
+    }
+
+    function fmtRange(range, unit) {
+      return range[0] + '-' + range[1] + unit;
+    }
+
+    function recompute() {
+      customGroup.classList.toggle('hidden', distanceSelect.value !== 'custom');
+
+      var distanceM = getDistanceMeters();
+      var timeSeconds = num(timeH) * 3600 + num(timeM) * 60 + num(timeS);
+
+      if (!distanceM || !timeSeconds) {
+        result.classList.add('hidden');
+        hint.classList.remove('hidden');
+        hint.textContent = 'Enter a distance and goal finish time to see your fueling plan.';
+        return;
+      }
+
+      var durationHours = timeSeconds / 3600;
+      var carbRange = carbRangePerHour(durationHours);
+      var fluidRange = FLUID_RANGE[conditions];
+      var sodiumRange = SODIUM_RANGE[conditions];
+      var gelSize = num(gelSizeInput) || 25;
+
+      hint.classList.add('hidden');
+      result.classList.remove('hidden');
+
+      carbsPerHourEl.textContent = carbRange[1] === 0 ? 'not needed' : fmtRange(carbRange, 'g');
+      fluidPerHourEl.textContent = fmtRange(fluidRange, 'ml');
+      sodiumPerHourEl.textContent = fmtRange(sodiumRange, 'mg');
+
+      var carbMid = (carbRange[0] + carbRange[1]) / 2;
+      var totalCarbs = Math.round(carbMid * durationHours);
+      totalCarbsEl.textContent = totalCarbs + 'g';
+      gelCountEl.textContent = totalCarbs > 0 ? Math.round((totalCarbs / gelSize) * 10) / 10 : '0';
+    }
+
+    conditionsChips.forEach(function (chip) {
+      chip.addEventListener('click', function () {
+        conditions = chip.dataset.conditions;
+        conditionsChips.forEach(function (c) { c.classList.toggle('is-active', c === chip); });
+        recompute();
+      });
+    });
+
+    distanceSelect.addEventListener('change', recompute);
+    root.addEventListener('input', recompute);
+    recompute();
+  })();
+</script>
