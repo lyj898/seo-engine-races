@@ -11,3 +11,5 @@ export const labelClass = 'mb-1.5 block text-sm font-semibold';
 export const subLabelClass = 'mt-1 text-center text-[11px] text-brand-muted dark:text-brand-muted-dark';
 export const cardClass =
   'rounded-xl border border-brand-border bg-brand-surface p-5 sm:p-6 dark:border-brand-border-dark dark:bg-brand-surface-dark';
+export const calculateButtonClass =
+  'mt-5 inline-flex w-full items-center justify-center rounded-md bg-brand-primary px-4 py-2.5 text-sm font-bold text-brand-primary-ink transition-colors duration-200 ease-interactive hover:bg-brand-primary-hover dark:text-brand-primary-ink-dark dark:hover:bg-brand-primary-hover-dark sm:w-auto';

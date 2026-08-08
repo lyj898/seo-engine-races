@@ -6,7 +6,7 @@ import Breadcrumb from '../../components/Breadcrumb.astro';
 import FAQSection from '../../components/FAQSection.astro';
 import ToolsCrossLinks from '../../components/ToolsCrossLinks.astro';
 import { buildBreadcrumbListSchema, buildFaqPageSchema, buildWebApplicationSchema } from '../../lib/schema-jsonld.js';
-import { fieldClass, numFieldClass, selectClass, labelClass, subLabelClass, cardClass } from '../../lib/tool-styles.js';
+import { fieldClass, numFieldClass, selectClass, labelClass, subLabelClass, cardClass, calculateButtonClass } from '../../lib/tool-styles.js';
 
 const pageUrl = new URL(urls.tool('pace-calculator'), Astro.site).toString();
 
@@ -50,7 +50,7 @@ const jsonLd = [
   buildBreadcrumbListSchema(breadcrumbItems, Astro.site),
   buildWebApplicationSchema({
     name: 'Running Pace Calculator',
-    description: 'Solve for running pace, finish time, or distance -- enter any two and the third fills in instantly.',
+    description: 'Solve for running pace, finish time, or distance -- enter any two and calculate the third.',
     url: pageUrl,
   }),
   ...(siteConfig.enabledFeatures?.faqSchema ? [buildFaqPageSchema(faqs)] : []),
@@ -59,7 +59,7 @@ const jsonLd = [
 
 <BaseLayout
   title="Running Pace Calculator"
-  description="Free running pace calculator -- solve for pace, finish time, or distance for any race from 5K to marathon. No sign-up, results update instantly."
+  description="Free running pace calculator -- solve for pace, finish time, or distance for any race from 5K to marathon. No sign-up required."
   canonicalPath={urls.tool('pace-calculator')}
   jsonLd={jsonLd}
 >
@@ -143,8 +143,10 @@ const jsonLd = [
         </div>
       </div>
 
+      <button type="button" id="pace-calculate-btn" class={calculateButtonClass}>Calculate</button>
+
       <p id="pace-calc-hint" class="mt-5 text-sm text-brand-muted dark:text-brand-muted-dark">
-        Enter a distance and finish time to see your pace.
+        Enter a distance and finish time, then tap Calculate to see your pace.
       </p>
     </div>
 
@@ -199,23 +201,31 @@ const jsonLd = [
     var paceUnitLabel = document.getElementById('pace-unit-label');
     var hint = document.getElementById('pace-calc-hint');
     var presetBtns = root.querySelectorAll('.preset-btn');
+    var calculateBtn = document.getElementById('pace-calculate-btn');
 
     var groups = { distance: [distValue], time: [timeH, timeM, timeS], pace: [paceM, paceS] };
     var mode = 'pace';
+
+    var PROMPTS = {
+      pace: 'Enter a distance and finish time, then tap Calculate to see your pace.',
+      time: 'Enter a distance and pace, then tap Calculate to see your finish time.',
+      distance: 'Enter a finish time and pace, then tap Calculate to see the distance.',
+    };
 
     function setGroupDisabled(name, disabled) {
       groups[name].forEach(function (el) { el.disabled = disabled; });
     }
 
-    function applyMode() {
+    // UI sync only -- runs on every interaction, never computes a result.
+    function syncUI() {
       modeChips.forEach(function (chip) { chip.classList.toggle('is-active', chip.dataset.mode === mode); });
       Object.keys(groups).forEach(function (name) { setGroupDisabled(name, name === mode); });
-      recompute();
+      paceUnitLabel.textContent = '(per ' + distUnit.value + ')';
+      hint.textContent = PROMPTS[mode];
     }
 
-    function recompute() {
-      paceUnitLabel.textContent = '(per ' + distUnit.value + ')';
-
+    // The actual computation -- only runs when Calculate is clicked.
+    function calculate() {
       var distanceVal = num(distValue);
       var timeSeconds = num(timeH) * 3600 + num(timeM) * 60 + num(timeS);
       var paceSeconds = num(paceM) * 60 + num(paceS);
@@ -231,9 +241,7 @@ const jsonLd = [
             return;
           }
         }
-        paceM.value = '';
-        paceS.value = '';
-        hint.textContent = 'Enter a distance and finish time to see your pace.';
+        hint.textContent = PROMPTS.pace;
       } else if (mode === 'time') {
         if (distanceVal > 0 && paceSeconds > 0) {
           var t = formatClock(paceSeconds * distanceVal);
@@ -247,10 +255,7 @@ const jsonLd = [
             return;
           }
         }
-        timeH.value = '';
-        timeM.value = '';
-        timeS.value = '';
-        hint.textContent = 'Enter a distance and pace to see your finish time.';
+        hint.textContent = PROMPTS.time;
       } else if (mode === 'distance') {
         if (timeSeconds > 0 && paceSeconds > 0) {
           var d = Math.round((timeSeconds / paceSeconds) * 1000) / 1000;
@@ -258,25 +263,25 @@ const jsonLd = [
           hint.textContent = 'That covers ' + d + ' ' + distUnit.value + '.';
           return;
         }
-        distValue.value = '';
-        hint.textContent = 'Enter a finish time and pace to see the distance.';
+        hint.textContent = PROMPTS.distance;
       }
     }
 
     modeChips.forEach(function (chip) {
-      chip.addEventListener('click', function () { mode = chip.dataset.mode; applyMode(); });
+      chip.addEventListener('click', function () { mode = chip.dataset.mode; syncUI(); });
     });
 
     presetBtns.forEach(function (btn) {
       btn.addEventListener('click', function () {
         distUnit.value = 'km';
         distValue.value = btn.dataset.km;
-        if (mode === 'distance') { mode = 'pace'; applyMode(); } else { recompute(); }
+        if (mode === 'distance') mode = 'pace';
+        syncUI();
       });
     });
 
-    root.addEventListener('input', recompute);
-    distUnit.addEventListener('change', recompute);
-    applyMode();
+    distUnit.addEventListener('change', syncUI);
+    calculateBtn.addEventListener('click', calculate);
+    syncUI();
   })();
 </script>

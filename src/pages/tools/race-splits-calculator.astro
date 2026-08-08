@@ -6,7 +6,7 @@ import Breadcrumb from '../../components/Breadcrumb.astro';
 import FAQSection from '../../components/FAQSection.astro';
 import ToolsCrossLinks from '../../components/ToolsCrossLinks.astro';
 import { buildBreadcrumbListSchema, buildFaqPageSchema, buildWebApplicationSchema } from '../../lib/schema-jsonld.js';
-import { numFieldClass, selectClass, labelClass, subLabelClass, cardClass } from '../../lib/tool-styles.js';
+import { numFieldClass, selectClass, labelClass, subLabelClass, cardClass, calculateButtonClass } from '../../lib/tool-styles.js';
 
 const pageUrl = new URL(urls.tool('race-splits-calculator'), Astro.site).toString();
 
@@ -147,8 +147,10 @@ const jsonLd = [
         </div>
       </div>
 
+      <button type="button" id="splits-calculate-btn" class={calculateButtonClass}>Calculate</button>
+
       <p id="splits-hint" class="mt-5 text-sm text-brand-muted dark:text-brand-muted-dark">
-        Enter a goal finish time to build your splits.
+        Enter a goal finish time, then tap Calculate to build your splits.
       </p>
 
       <div id="splits-results" class="mt-6 hidden">
@@ -235,6 +237,7 @@ const jsonLd = [
     var hint = document.getElementById('splits-hint');
     var results = document.getElementById('splits-results');
     var tbody = document.getElementById('splits-body');
+    var calculateBtn = document.getElementById('splits-calculate-btn');
 
     var every = 1;
     var unit = 'km';
@@ -277,16 +280,18 @@ const jsonLd = [
       });
     }
 
-    function recompute() {
+    function syncCustomGroup() {
       customGroup.classList.toggle('hidden', distanceSelect.value !== 'custom');
+    }
 
+    function calculate() {
       var d1 = getDistanceMeters();
       var t1 = getTimeSeconds();
 
       if (!d1 || !t1) {
         results.classList.add('hidden');
         hint.classList.remove('hidden');
-        hint.textContent = 'Enter a goal finish time to build your splits.';
+        hint.textContent = 'Enter a goal finish time, then tap Calculate to build your splits.';
         return;
       }
 
@@ -327,7 +332,6 @@ const jsonLd = [
       chip.addEventListener('click', function () {
         every = parseFloat(chip.dataset.splitsEvery);
         everyChips.forEach(function (c) { c.classList.toggle('is-active', c === chip); });
-        recompute();
       });
     });
 
@@ -335,7 +339,6 @@ const jsonLd = [
       chip.addEventListener('click', function () {
         unit = chip.dataset.splitsUnit;
         unitChips.forEach(function (c) { c.classList.toggle('is-active', c === chip); });
-        recompute();
       });
     });
 
@@ -343,12 +346,11 @@ const jsonLd = [
       chip.addEventListener('click', function () {
         strategy = chip.dataset.splitsStrategy;
         strategyChips.forEach(function (c) { c.classList.toggle('is-active', c === chip); });
-        recompute();
       });
     });
 
-    distanceSelect.addEventListener('change', recompute);
-    root.addEventListener('input', recompute);
-    recompute();
+    distanceSelect.addEventListener('change', syncCustomGroup);
+    calculateBtn.addEventListener('click', calculate);
+    syncCustomGroup();
   })();
 </script>

@@ -6,7 +6,7 @@ import Breadcrumb from '../../components/Breadcrumb.astro';
 import FAQSection from '../../components/FAQSection.astro';
 import ToolsCrossLinks from '../../components/ToolsCrossLinks.astro';
 import { buildBreadcrumbListSchema, buildFaqPageSchema, buildWebApplicationSchema } from '../../lib/schema-jsonld.js';
-import { fieldClass, numFieldClass, selectClass, labelClass, subLabelClass, cardClass } from '../../lib/tool-styles.js';
+import { fieldClass, numFieldClass, selectClass, labelClass, subLabelClass, cardClass, calculateButtonClass } from '../../lib/tool-styles.js';
 
 const pageUrl = new URL(urls.tool('race-time-predictor'), Astro.site).toString();
 
@@ -129,8 +129,10 @@ const jsonLd = [
         </div>
       </div>
 
+      <button type="button" id="pred-calculate-btn" class={calculateButtonClass}>Calculate</button>
+
       <p id="pred-hint" class="mt-5 text-sm text-brand-muted dark:text-brand-muted-dark">
-        Enter a recent finish time to see predictions.
+        Enter a recent finish time, then tap Calculate to see predictions.
       </p>
 
       <div id="pred-results" class="mt-6 hidden">
@@ -271,6 +273,7 @@ const jsonLd = [
     var paceUnitChips = root.querySelectorAll('.pace-unit-chip');
     var methodChips = root.querySelectorAll('.method-chip');
     var methodCols = root.querySelectorAll('[data-method-col]');
+    var calculateBtn = document.getElementById('pred-calculate-btn');
 
     var paceUnit = 'km';
     var method = 'all';
@@ -383,16 +386,18 @@ const jsonLd = [
       return num(timeH) * 3600 + num(timeM) * 60 + num(timeS);
     }
 
-    function recompute() {
+    function syncCustomGroup() {
       customGroup.classList.toggle('hidden', distanceSelect.value !== 'custom');
+    }
 
+    function calculate() {
       var d1 = getDistanceMeters();
       var t1 = getTimeSeconds();
 
       if (!d1 || !t1) {
         results.classList.add('hidden');
         hint.classList.remove('hidden');
-        hint.textContent = 'Enter a recent finish time to see predictions.';
+        hint.textContent = 'Enter a recent finish time, then tap Calculate to see predictions.';
         return;
       }
 
@@ -431,14 +436,13 @@ const jsonLd = [
       });
     }
 
-    distanceSelect.addEventListener('change', recompute);
-    root.addEventListener('input', recompute);
+    distanceSelect.addEventListener('change', syncCustomGroup);
+    calculateBtn.addEventListener('click', calculate);
 
     paceUnitChips.forEach(function (chip) {
       chip.addEventListener('click', function () {
         paceUnit = chip.dataset.paceUnit;
         paceUnitChips.forEach(function (c) { c.classList.toggle('is-active', c === chip); });
-        recompute();
       });
     });
 
@@ -450,7 +454,7 @@ const jsonLd = [
       });
     });
 
+    syncCustomGroup();
     applyMethodVisibility();
-    recompute();
   })();
 </script>
