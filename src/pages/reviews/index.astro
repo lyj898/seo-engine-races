@@ -1,12 +1,18 @@
 ---
 import siteConfig from '../../lib/config.js';
 import { urls } from '../../lib/urls.js';
-import { loadReviews, loadEntities, stripMeta, isPublished } from '../../lib/data.js';
+import { loadReviews, loadEntities, loadCategories, stripMeta, isPublished, isReviewableEntity } from '../../lib/data.js';
+import { byDistanceDesc } from '../../lib/sort.js';
+import { isLapsed } from '../../lib/succession.js';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import { buildBreadcrumbListSchema } from '../../lib/schema-jsonld.js';
 
-const entities = loadEntities().map(stripMeta).filter(isPublished);
+// Broadened on purpose: a review stays a legitimate page long after its
+// race has happened (see isReviewableEntity's doc comment), so this list
+// includes reviews of archived entities too -- flagged "Concluded" below
+// rather than dropped.
+const entities = loadEntities().map(stripMeta).filter(isReviewableEntity);
 const entityById = new Map(entities.map((e) => [e.entity_id, e]));
 
 // Order strictly newest-first by publish timestamp (falling back to the
@@ -35,6 +41,12 @@ const fmtDate = (r) => {
     : null;
 };
 
+const categories = loadCategories().map(stripMeta);
+const categoryFilterOptions = categories
+  .filter((c) => reviews.some((r) => entityById.get(r.entity_id)?.category_id === c.category_id))
+  .sort(byDistanceDesc)
+  .map((c) => ({ label: c.label, value: c.category_id }));
+
 const breadcrumbItems = [
   { label: siteConfig.siteName, href: urls.home() },
   { label: 'Reviews', href: urls.reviewsIndex() },
@@ -60,32 +72,282 @@ const jsonLd = [buildBreadcrumbListSchema(breadcrumbItems, Astro.site)];
     {reviews.length === 0 ? (
       <p class="mt-10 text-brand-muted dark:text-brand-muted-dark">No reviews published yet — check back soon.</p>
     ) : (
-      <ul class="mt-8 divide-y divide-brand-border dark:divide-brand-border-dark">
-        {reviews.map((review) => {
-          const entity = entityById.get(review.entity_id);
-          const facts = entity.core_facts ?? {};
-          const loc = [facts.city, facts.country].filter(Boolean).join(', ');
-          return (
-            <li class="py-5">
-              <a href={urls.review(review.slug)} class="group block">
-                <div class="flex items-center gap-2">
-                  {isNew(review) && (
-                    <span class="rounded-full bg-brand-primary px-2 py-0.5 text-[0.65rem] font-bold uppercase tracking-wide text-brand-primary-ink dark:text-brand-primary-ink-dark">
-                      New
-                    </span>
-                  )}
-                  {fmtDate(review) && (
-                    <span class="text-xs text-brand-muted dark:text-brand-muted-dark">{fmtDate(review)}</span>
-                  )}
-                </div>
-                <h2 class="mt-1 text-xl font-semibold group-hover:text-brand-primary">{review.title}</h2>
-                <p class="mt-1.5 text-sm text-brand-muted dark:text-brand-muted-dark">{review.dek}</p>
-                {loc && <p class="mt-1.5 text-xs text-brand-muted dark:text-brand-muted-dark">{loc}</p>}
-              </a>
-            </li>
-          );
-        })}
-      </ul>
+      <div id="reviews-app" class="mt-8">
+        <div class="flex flex-col gap-3">
+          {categoryFilterOptions.length > 0 && (
+            <div
+              id="reviews-category-filter"
+              class="inline-flex flex-wrap gap-0.5 self-start rounded-full bg-brand-surface-offset p-[3px] dark:bg-brand-surface-offset-dark"
+            >
+              <button
+                type="button"
+                data-filter-value=""
+                class="filter-chip is-active rounded-full px-3.5 py-2 text-sm font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark"
+              >
+                All
+              </button>
+              {categoryFilterOptions.map((opt) => (
+                <button
+                  type="button"
+                  data-filter-value={opt.value}
+                  class="filter-chip rounded-full px-3.5 py-2 text-sm font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark"
+                >
+                  {opt.label}
+                </button>
+              ))}
+            </div>
+          )}
+
+          <div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+            <div class="relative max-w-[420px] flex-1">
+              <svg
+                class="pointer-events-none absolute left-3.5 top-1/2 h-4 w-4 -translate-y-1/2 text-brand-faint dark:text-brand-faint-dark"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                aria-hidden="true"
+              >
+                <circle cx="11" cy="11" r="7" />
+                <path d="m21 21-4.35-4.35" />
+              </svg>
+              <input
+                id="reviews-search"
+                type="text"
+                class="w-full rounded-lg border-[1.5px] border-brand-border bg-brand-surface py-2.5 pl-10 pr-4 text-sm shadow-sm transition-shadow duration-200 ease-interactive placeholder:text-brand-faint focus:border-brand-primary focus:shadow-[0_0_0_4px_theme(colors.brand.primary-highlight)] focus:outline-none dark:border-brand-border-dark dark:bg-brand-surface-dark dark:placeholder:text-brand-faint-dark dark:focus:shadow-[0_0_0_4px_theme(colors.brand.primary-highlight-dark)]"
+                placeholder="Search reviews..."
+                aria-label="Search reviews"
+              />
+            </div>
+            <label class="flex shrink-0 items-center gap-2 text-sm text-brand-muted dark:text-brand-muted-dark">
+              <input id="reviews-hide-concluded" type="checkbox" class="h-4 w-4 rounded border-brand-border accent-brand-primary dark:border-brand-border-dark" />
+              Hide concluded races
+            </label>
+          </div>
+
+          <p id="reviews-count" class="text-sm text-brand-muted dark:text-brand-muted-dark" aria-live="polite"></p>
+        </div>
+
+        <ul id="reviews-list" class="mt-4 divide-y divide-brand-border dark:divide-brand-border-dark">
+          {reviews.map((review) => {
+            const entity = entityById.get(review.entity_id);
+            const facts = entity.core_facts ?? {};
+            const loc = [facts.city, facts.country].filter(Boolean).join(', ');
+            const concluded = isLapsed(entity);
+            const searchHaystack = [review.title, review.dek, loc].filter(Boolean).join(' ').toLowerCase();
+            return (
+              <li
+                data-review-item
+                data-category={entity.category_id ?? ''}
+                data-lapsed={concluded ? 'true' : 'false'}
+                data-search={searchHaystack}
+                class="py-5"
+              >
+                <a href={urls.review(review.slug)} class="group block">
+                  <div class="flex flex-wrap items-center gap-2">
+                    {isNew(review) && (
+                      <span class="rounded-full bg-brand-primary px-2 py-0.5 text-[0.65rem] font-bold uppercase tracking-wide text-brand-primary-ink dark:text-brand-primary-ink-dark">
+                        New
+                      </span>
+                    )}
+                    {concluded && (
+                      <span class="rounded-full bg-brand-surface-offset px-2 py-0.5 text-[0.65rem] font-bold uppercase tracking-wide text-brand-muted dark:bg-brand-surface-offset-dark dark:text-brand-muted-dark">
+                        Concluded
+                      </span>
+                    )}
+                    {fmtDate(review) && (
+                      <span class="text-xs text-brand-muted dark:text-brand-muted-dark">{fmtDate(review)}</span>
+                    )}
+                  </div>
+                  <h2 class="mt-1 text-xl font-semibold group-hover:text-brand-primary">{review.title}</h2>
+                  <p class="mt-1.5 text-sm text-brand-muted dark:text-brand-muted-dark">{review.dek}</p>
+                  {loc && <p class="mt-1.5 text-xs text-brand-muted dark:text-brand-muted-dark">{loc}</p>}
+                </a>
+              </li>
+            );
+          })}
+        </ul>
+
+        <p id="reviews-empty" class="mt-8 hidden text-brand-muted dark:text-brand-muted-dark">
+          No reviews match your filters.
+        </p>
+
+        <nav id="reviews-pagination" class="mt-8 hidden items-center justify-center gap-1.5" aria-label="Reviews pagination"></nav>
+      </div>
     )}
   </div>
 </BaseLayout>
+
+<script is:inline>
+  (function () {
+    var app = document.getElementById('reviews-app');
+    if (!app) return;
+
+    var items = Array.prototype.slice.call(app.querySelectorAll('[data-review-item]'));
+    var categoryBar = document.getElementById('reviews-category-filter');
+    var searchInput = document.getElementById('reviews-search');
+    var hideConcludedInput = document.getElementById('reviews-hide-concluded');
+    var countEl = document.getElementById('reviews-count');
+    var emptyEl = document.getElementById('reviews-empty');
+    var listEl = document.getElementById('reviews-list');
+    var paginationEl = document.getElementById('reviews-pagination');
+
+    var PAGE_SIZE = 24;
+    var state = { category: '', query: '', hideConcluded: false, page: 1 };
+
+    function load(key, fallback) {
+      try {
+        var v = localStorage.getItem(key);
+        return v === null ? fallback : v;
+      } catch (e) {
+        return fallback;
+      }
+    }
+    function save(key, value) {
+      try {
+        localStorage.setItem(key, value);
+      } catch (e) {
+        /* ignore */
+      }
+    }
+
+    function matches(item) {
+      if (state.category && item.dataset.category !== state.category) return false;
+      if (state.hideConcluded && item.dataset.lapsed === 'true') return false;
+      if (state.query && item.dataset.search.indexOf(state.query) === -1) return false;
+      return true;
+    }
+
+    function pageButtons(current, total) {
+      var pages = [];
+      if (total <= 7) {
+        for (var i = 1; i <= total; i++) pages.push(i);
+        return pages;
+      }
+      pages.push(1);
+      if (current > 3) pages.push('...');
+      for (var p = Math.max(2, current - 1); p <= Math.min(total - 1, current + 1); p++) pages.push(p);
+      if (current < total - 2) pages.push('...');
+      pages.push(total);
+      return pages;
+    }
+
+    function renderPagination(total) {
+      paginationEl.innerHTML = '';
+      if (total <= 1) {
+        paginationEl.classList.add('hidden');
+        return;
+      }
+      paginationEl.classList.remove('hidden');
+      paginationEl.classList.add('flex');
+
+      function makeBtn(label, page, opts) {
+        opts = opts || {};
+        var btn = document.createElement('button');
+        btn.type = 'button';
+        btn.textContent = label;
+        var base = 'min-w-[2.25rem] rounded-md px-2.5 py-1.5 text-sm font-medium transition-colors';
+        if (opts.active) {
+          btn.className = base + ' bg-brand-primary text-brand-primary-ink dark:text-brand-primary-ink-dark';
+        } else if (opts.disabled) {
+          btn.className = base + ' text-brand-faint dark:text-brand-faint-dark cursor-not-allowed';
+          btn.disabled = true;
+        } else {
+          btn.className = base + ' text-brand-muted hover:bg-brand-surface-offset dark:text-brand-muted-dark dark:hover:bg-brand-surface-offset-dark';
+          btn.addEventListener('click', function () {
+            state.page = page;
+            render();
+            listEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          });
+        }
+        return btn;
+      }
+
+      paginationEl.appendChild(makeBtn('Prev', state.page - 1, { disabled: state.page <= 1 }));
+      pageButtons(state.page, total).forEach(function (p) {
+        if (p === '...') {
+          var span = document.createElement('span');
+          span.textContent = '...';
+          span.className = 'px-1.5 text-sm text-brand-faint dark:text-brand-faint-dark';
+          paginationEl.appendChild(span);
+        } else {
+          paginationEl.appendChild(makeBtn(String(p), p, { active: p === state.page }));
+        }
+      });
+      paginationEl.appendChild(makeBtn('Next', state.page + 1, { disabled: state.page >= total }));
+    }
+
+    function render() {
+      var matched = items.filter(matches);
+      var total = matched.length;
+      var totalPages = Math.max(1, Math.ceil(total / PAGE_SIZE));
+      if (state.page > totalPages) state.page = totalPages;
+      if (state.page < 1) state.page = 1;
+
+      var start = (state.page - 1) * PAGE_SIZE;
+      var end = start + PAGE_SIZE;
+      var visibleSet = matched.slice(start, end);
+
+      items.forEach(function (item) {
+        item.style.display = visibleSet.indexOf(item) !== -1 ? '' : 'none';
+      });
+
+      emptyEl.classList.toggle('hidden', total !== 0);
+      countEl.textContent = total === 0
+        ? ''
+        : total <= PAGE_SIZE
+        ? total + (total === 1 ? ' review' : ' reviews')
+        : 'Showing ' + (start + 1) + '-' + Math.min(end, total) + ' of ' + total + ' reviews';
+
+      renderPagination(totalPages);
+    }
+
+    if (categoryBar) {
+      var chips = categoryBar.querySelectorAll('.filter-chip');
+      chips.forEach(function (chip) {
+        chip.addEventListener('click', function () {
+          state.category = chip.dataset.filterValue;
+          state.page = 1;
+          chips.forEach(function (c) {
+            c.classList.toggle('is-active', c === chip);
+          });
+          save('reviews-category-filter', state.category);
+          render();
+        });
+      });
+    }
+
+    if (searchInput) {
+      searchInput.addEventListener('input', function () {
+        state.query = searchInput.value.trim().toLowerCase();
+        state.page = 1;
+        render();
+      });
+    }
+
+    if (hideConcludedInput) {
+      hideConcludedInput.addEventListener('change', function () {
+        state.hideConcluded = hideConcludedInput.checked;
+        state.page = 1;
+        save('reviews-hide-concluded', state.hideConcluded ? '1' : '');
+        render();
+      });
+    }
+
+    // Restore persisted preferences before first render.
+    var savedCategory = load('reviews-category-filter', '');
+    if (savedCategory && categoryBar) {
+      state.category = savedCategory;
+      categoryBar.querySelectorAll('.filter-chip').forEach(function (c) {
+        c.classList.toggle('is-active', c.dataset.filterValue === savedCategory);
+      });
+    }
+    var savedHideConcluded = load('reviews-hide-concluded', '');
+    if (savedHideConcluded && hideConcludedInput) {
+      state.hideConcluded = true;
+      hideConcludedInput.checked = true;
+    }
+
+    render();
+  })();
+</script>

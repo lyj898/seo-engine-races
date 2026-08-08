@@ -10,10 +10,22 @@
   "rating": {
     "overall": 52,
     "breakdown": [
-      { "label": "Concept / market significance", "score": 75 },
-      { "label": "Venue & course potential", "score": 50 },
-      { "label": "Information maturity", "score": 30 },
-      { "label": "Accessibility for regional runners", "score": 55 }
+      {
+        "label": "Concept / market significance",
+        "score": 75
+      },
+      {
+        "label": "Venue & course potential",
+        "score": 50
+      },
+      {
+        "label": "Information maturity",
+        "score": 30
+      },
+      {
+        "label": "Accessibility for regional runners",
+        "score": 55
+      }
     ]
   },
   "sections": [
@@ -63,7 +75,7 @@
     },
     {
       "question": "What distance is the Indonesia Women Half Marathon?",
-      "answer": "The event is a half marathon covering the standard 21.1km distance. It is listed as a women's-only race on the AIMS calendar. [1]"
+      "answer": "The event is a half marathon covering the standard 21.1km distance. It is listed as a women's-only race on the AIMS calendar. Registration is listed as not yet announced. [1]"
     },
     {
       "question": "Where in Indonesia is the race held?",
@@ -71,7 +83,7 @@
     },
     {
       "question": "Is registration open for the Indonesia Women Half Marathon?",
-      "answer": "Registration details have not been announced as of August 2026. No registration page, fees, or sign-up process is currently available. [1]"
+      "answer": "Registration details have not been announced as of August 2026. No registration page, fees, or sign-up process is currently available. It offers 21.1K. Sign-up typically runs through the organiser's official registration channel. [1]"
     }
   ],
   "editorial_notes": "Auto-generated review synthesised from available entity data. Prose is original; information gaps are noted honestly. Safe to hand-edit — the generate-reviews script never overwrites an existing review.",

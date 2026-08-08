@@ -80,6 +80,27 @@ export function isPublished(item) {
 }
 
 /**
+ * Should a review of this entity stay linkable, even after the entity
+ * itself is archived?
+ *
+ * refresh-entities.js archives an entity the instant its race date passes
+ * (see its "lapsed" branch) -- that's the right call for hub/category/
+ * region listings, which exist to help someone find a race to enter, not
+ * one that already happened. But a *review* is evergreen editorial content:
+ * once written, it stays a legitimate answer to "what was this race like"
+ * long after race day, and reviews/[slug].astro already renders a "this
+ * edition has already taken place" banner (via isLapsed) for exactly this
+ * case. Excluding it here would silently 404 every review the day after
+ * its race, no matter how good the writing is.
+ *
+ * "draft" is the one status that means genuinely not ready -- that stays
+ * excluded, same as isPublished.
+ */
+export function isReviewableEntity(entity) {
+  return entity?.status !== 'draft';
+}
+
+/**
  * Builds a region_id -> [region_id, ...all ancestor region_ids] map, so a
  * "Thailand" (country) listicle/hub filter can match races whose region_id
  * is the more specific "Nong Khai" (city, parent_region_id: "thailand")

@@ -10,10 +10,22 @@
   "rating": {
     "overall": 64,
     "breakdown": [
-      { "label": "Organiser track record", "score": 78 },
-      { "label": "Venue & setting", "score": 72 },
-      { "label": "Course potential", "score": 65 },
-      { "label": "Information maturity", "score": 42 }
+      {
+        "label": "Organiser track record",
+        "score": 78
+      },
+      {
+        "label": "Venue & setting",
+        "score": 72
+      },
+      {
+        "label": "Course potential",
+        "score": 65
+      },
+      {
+        "label": "Information maturity",
+        "score": 42
+      }
     ]
   },
   "sections": [
@@ -67,7 +79,7 @@
   "faqs": [
     {
       "question": "When is the Phnom Penh International Half Marathon?",
-      "answer": "The race is scheduled for 13 June 2027 at Botumvatey Pagoda Park in Phnom Penh, Cambodia. [1]"
+      "answer": "The race is scheduled for 13 June 2027 at Botumvatey Pagoda Park in Phnom Penh, Cambodia. It offers 21K, 10K, and 5K. Registration is listed as not yet announced. Not stated (same organizer as E19/E68) organises the event. [1]"
     },
     {
       "question": "What distances are available?",

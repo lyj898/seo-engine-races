@@ -10,10 +10,22 @@
   "rating": {
     "overall": 70,
     "breakdown": [
-      { "label": "Venue & logistics clarity", "score": 80 },
-      { "label": "Distance range", "score": 78 },
-      { "label": "East-coast destination appeal", "score": 75 },
-      { "label": "Information maturity", "score": 48 }
+      {
+        "label": "Venue & logistics clarity",
+        "score": 80
+      },
+      {
+        "label": "Distance range",
+        "score": 78
+      },
+      {
+        "label": "East-coast destination appeal",
+        "score": 75
+      },
+      {
+        "label": "Information maturity",
+        "score": 48
+      }
     ]
   },
   "sections": [
@@ -66,11 +78,11 @@
   "faqs": [
     {
       "question": "When is the Terengganu Marathon 2027?",
-      "answer": "The race is scheduled for 30 April 2027 at the Dataran parking area of Stadium Sultan Mizan Zainal Abidin in Kuala Terengganu, Terengganu, Malaysia. [1]"
+      "answer": "The race is scheduled for 30 April 2027 at the Dataran parking area of Stadium Sultan Mizan Zainal Abidin in Kuala Terengganu, Terengganu, Malaysia. It offers 42.2K, 21.1K, 10K, and 5K. Registration is listed as not yet open. [1]"
     },
     {
       "question": "What distances are offered?",
-      "answer": "Four distances are available: a full marathon (42.195km), half marathon (21.1km), 10km, and 5km. The full marathon is the headline distance. [1]"
+      "answer": "Four distances are available: a full marathon (42.195km), half marathon (21.1km), 10km, and 5km. The full marathon is the headline distance. It's held at Dataran parking Stadium Sultan Mizan Zainal Abidin, Kuala Terengganu, Terengganu, Malaysia. [1]"
     },
     {
       "question": "Is registration open?",

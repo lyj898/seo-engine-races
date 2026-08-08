@@ -10,10 +10,22 @@
   "rating": {
     "overall": 77,
     "breakdown": [
-      { "label": "Course & coastal setting", "score": 85 },
-      { "label": "Organisation / event maturity", "score": 80 },
-      { "label": "Registration planning", "score": 78 },
-      { "label": "Distance range", "score": 72 }
+      {
+        "label": "Course & coastal setting",
+        "score": 85
+      },
+      {
+        "label": "Organisation / event maturity",
+        "score": 80
+      },
+      {
+        "label": "Registration planning",
+        "score": 78
+      },
+      {
+        "label": "Distance range",
+        "score": 72
+      }
     ]
   },
   "sections": [
@@ -70,11 +82,11 @@
     },
     {
       "question": "What distances are offered?",
-      "answer": "Three distances: a full marathon (42.195km), half marathon (21km), and 10km. The full marathon is the headline distance. [1]"
+      "answer": "Three distances: a full marathon (42.195km), half marathon (21km), and 10km. The full marathon is the headline distance. It's held at Da Nang, Vietnam. Registration is listed as opens 8 jul 2026. It offers 42K, 21K, and 10K. [1]"
     },
     {
       "question": "When does registration open?",
-      "answer": "Registration opens on 8 July 2026 via the official site at rundanang.com. Set a calendar reminder — this race has historically drawn a strong field. [1]"
+      "answer": "Registration opens on 8 July 2026 via the official site at rundanang.com. Set a calendar reminder — this race has historically drawn a strong field. It offers 42K, 21K, and 10K. It's held at Da Nang, Vietnam. [1]"
     },
     {
       "question": "What's the course like?",

@@ -10,10 +10,22 @@
   "rating": {
     "overall": 69,
     "breakdown": [
-      { "label": "Race concept / midnight format", "score": 82 },
-      { "label": "Location & sense of place", "score": 78 },
-      { "label": "Registration accessibility", "score": 75 },
-      { "label": "Organiser track record", "score": 55 }
+      {
+        "label": "Race concept / midnight format",
+        "score": 82
+      },
+      {
+        "label": "Location & sense of place",
+        "score": 78
+      },
+      {
+        "label": "Registration accessibility",
+        "score": 75
+      },
+      {
+        "label": "Organiser track record",
+        "score": 55
+      }
     ]
   },
   "sections": [
@@ -70,7 +82,7 @@
     },
     {
       "question": "What distances are available?",
-      "answer": "Four distances are offered: a full marathon (42.195km), half marathon (21.1km), 10km, and 5km, with the full marathon as the headline distance. [1]"
+      "answer": "Four distances are offered: a full marathon (42.195km), half marathon (21.1km), 10km, and 5km, with the full marathon as the headline distance. It's held at Tha Bo, Nong Khai. Registration is currently open. Thabo Marathon organises the event. [1]"
     },
     {
       "question": "Is registration open?",

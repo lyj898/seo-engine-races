@@ -10,10 +10,22 @@
   "rating": {
     "overall": 73,
     "breakdown": [
-      { "label": "Venue & resort setting", "score": 85 },
-      { "label": "Distance range / inclusivity", "score": 82 },
-      { "label": "Organisation track record", "score": 75 },
-      { "label": "June heat factor", "score": 50 }
+      {
+        "label": "Venue & resort setting",
+        "score": 85
+      },
+      {
+        "label": "Distance range / inclusivity",
+        "score": 82
+      },
+      {
+        "label": "Organisation track record",
+        "score": 75
+      },
+      {
+        "label": "June heat factor",
+        "score": 50
+      }
     ]
   },
   "sections": [
@@ -66,7 +78,7 @@
   "faqs": [
     {
       "question": "When is the Laguna Phuket Marathon 2027?",
-      "answer": "The race is scheduled for 12 June 2027 at Laguna Phuket in Ban Bang Thao, Phuket, Thailand. [1]"
+      "answer": "The race is scheduled for 12 June 2027 at Laguna Phuket in Ban Bang Thao, Phuket, Thailand. It offers 42.2K, 21.098K, 10K, 5K, and 2K. Registration is currently open. It's held at Laguna Phuket, Ban Bang Thao. [1]"
     },
     {
       "question": "What distances does the Laguna Phuket Marathon offer?",

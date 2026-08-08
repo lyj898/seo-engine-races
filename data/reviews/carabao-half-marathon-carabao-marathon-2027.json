@@ -10,10 +10,22 @@
   "rating": {
     "overall": 72,
     "breakdown": [
-      { "label": "Registration accessibility", "score": 88 },
-      { "label": "Distance range / inclusivity", "score": 82 },
-      { "label": "Location & climate", "score": 80 },
-      { "label": "Organiser track record", "score": 55 }
+      {
+        "label": "Registration accessibility",
+        "score": 88
+      },
+      {
+        "label": "Distance range / inclusivity",
+        "score": 82
+      },
+      {
+        "label": "Location & climate",
+        "score": 80
+      },
+      {
+        "label": "Organiser track record",
+        "score": 55
+      }
     ]
   },
   "sections": [
@@ -66,15 +78,15 @@
   "faqs": [
     {
       "question": "When is the Carabao Half Marathon 2027?",
-      "answer": "The race is scheduled for 28 March 2027 in Kota Batu, Jawa Timur (East Java), Indonesia. [1]"
+      "answer": "The race is scheduled for 28 March 2027 in Kota Batu, Jawa Timur (East Java), Indonesia. It offers 21.1K, 10K, 5K, and 42K. Registration is currently open. Carabao (energy drink brand) / Carabao Hydration organises the event. [1]"
     },
     {
       "question": "What distances are available?",
-      "answer": "Four distances are offered: a full marathon (42km), half marathon (21.1km), 10km, and 5km. The half marathon is the primary distance. [1]"
+      "answer": "Four distances are offered: a full marathon (42km), half marathon (21.1km), 10km, and 5km. The half marathon is the primary distance. It's held at Kota Batu, Jawa Timur. Registration is currently open. Carabao (energy drink brand) / Carabao Hydration organises the event. [1]"
     },
     {
       "question": "Is registration open?",
-      "answer": "Yes, registration is currently open via carabaomarathon.com. The race also maintains an Instagram presence at @carabao.marathon. [1]"
+      "answer": "Yes, registration is currently open via carabaomarathon.com. The race also maintains an Instagram presence at @carabao.marathon. It offers 21.1K, 10K, 5K, and 42K. It's held at Kota Batu, Jawa Timur. Carabao (energy drink brand) / Carabao Hydration organises the event. [1]"
     },
     {
       "question": "Where is Kota Batu and what's the climate like?",

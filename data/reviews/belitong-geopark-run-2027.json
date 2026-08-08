@@ -10,10 +10,22 @@
   "rating": {
     "overall": 66,
     "breakdown": [
-      { "label": "Location & scenery", "score": 88 },
-      { "label": "Series pedigree", "score": 70 },
-      { "label": "Distance accessibility", "score": 72 },
-      { "label": "Information maturity", "score": 40 }
+      {
+        "label": "Location & scenery",
+        "score": 88
+      },
+      {
+        "label": "Series pedigree",
+        "score": 70
+      },
+      {
+        "label": "Distance accessibility",
+        "score": 72
+      },
+      {
+        "label": "Information maturity",
+        "score": 40
+      }
     ]
   },
   "sections": [
@@ -58,19 +70,19 @@
   "faqs": [
     {
       "question": "When is the Belitong Geopark Run 2027?",
-      "answer": "The race is scheduled for 18 April 2027 on Pulau Belitung (Belitong), Kepulauan Bangka Belitung, Indonesia. [1]"
+      "answer": "The race is scheduled for 18 April 2027 on Pulau Belitung (Belitong), Kepulauan Bangka Belitung, Indonesia. It offers 5K, 10K, and 21.1K. Registration is listed as not yet open. Geopark Run Series organises the event. [1]"
     },
     {
       "question": "What distances are available?",
-      "answer": "Three distances are offered: a 21.1km half marathon (primary distance), 10km, and 5km. [1]"
+      "answer": "Three distances are offered: a 21.1km half marathon (primary distance), 10km, and 5km. It's held at Pulau Belitung (Belitong). Registration is listed as not yet open. Geopark Run Series organises the event. It offers 5K, 10K, and 21.1K. [1]"
     },
     {
       "question": "What is the Geopark Run Series?",
-      "answer": "The Geopark Run Series organises road races inside UNESCO Global Geoparks across Indonesia, including Belitung, Ciletuh, and Ijen. Each race uses the geopark landscape as its defining feature. [1]"
+      "answer": "The Geopark Run Series organises road races inside UNESCO Global Geoparks across Indonesia, including Belitung, Ciletuh, and Ijen. Each race uses the geopark landscape as its defining feature. It's held at Pulau Belitung (Belitong). [1]"
     },
     {
       "question": "Is registration open?",
-      "answer": "Registration has not yet opened as of August 2026. The specific venue within Belitung is also still TBA. Check geoparkrun.com for updates. [1]"
+      "answer": "Registration has not yet opened as of August 2026. The specific venue within Belitung is also still TBA. Check geoparkrun.com for updates. It offers 5K, 10K, and 21.1K. It's held at Pulau Belitung (Belitong). [1]"
     }
   ],
   "editorial_notes": "Auto-generated review synthesised from entity data and series context. Prose is original. Safe to hand-edit.",
