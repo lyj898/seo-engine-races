@@ -10,10 +10,22 @@
   "rating": {
     "overall": 65,
     "breakdown": [
-      { "label": "Organiser credibility", "score": 75 },
-      { "label": "Destination rarity", "score": 82 },
-      { "label": "Season & climate", "score": 80 },
-      { "label": "Information maturity", "score": 38 }
+      {
+        "label": "Organiser credibility",
+        "score": 75
+      },
+      {
+        "label": "Destination rarity",
+        "score": 82
+      },
+      {
+        "label": "Season & climate",
+        "score": 80
+      },
+      {
+        "label": "Information maturity",
+        "score": 38
+      }
     ]
   },
   "sections": [
@@ -65,19 +77,19 @@
   "faqs": [
     {
       "question": "When is the Yoma Yangon International Marathon 2027?",
-      "answer": "The race is scheduled for 21 February 2027 in Yangon, Myanmar. The date sits in Myanmar's cool, dry season — the best running window in the country. [1]"
+      "answer": "The race is scheduled for 21 February 2027 in Yangon, Myanmar. The date sits in Myanmar's cool, dry season — the best running window in the country. It offers 21K, 10K, and 5K. Registration is listed as not yet announced. [1]"
     },
     {
       "question": "What distances are offered?",
-      "answer": "Three distances: a half marathon (21.1km), 10km, and 5km. The half marathon is the primary distance. [1]"
+      "answer": "Three distances: a half marathon (21.1km), 10km, and 5km. The half marathon is the primary distance. It's held at Yangon (exact start point not yet published). Yoma organises the event. Registration is listed as not yet announced. [1]"
     },
     {
       "question": "Who organises the race?",
-      "answer": "The race is organised by the Yoma group, one of Myanmar's largest conglomerates, which also runs the Yoma Mandalay International Marathon. [1]"
+      "answer": "The race is organised by the Yoma group, one of Myanmar's largest conglomerates, which also runs the Yoma Mandalay International Marathon. It's held at Yangon (exact start point not yet published). It offers 21K, 10K, and 5K. [1]"
     },
     {
       "question": "Is registration open?",
-      "answer": "Registration has not yet been announced as of August 2026. Check yomayangonmarathon.com for updates. [1]"
+      "answer": "Registration has not yet been announced as of August 2026. Check yomayangonmarathon.com for updates. It offers 21K, 10K, and 5K. It's held at Yangon (exact start point not yet published). [1]"
     }
   ],
   "editorial_notes": "Auto-generated review synthesised from entity data and Yoma group context. Prose is original. Safe to hand-edit.",

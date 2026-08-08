@@ -10,10 +10,22 @@
   "rating": {
     "overall": 67,
     "breakdown": [
-      { "label": "Season & climate", "score": 88 },
-      { "label": "Registration accessibility", "score": 82 },
-      { "label": "Location appeal", "score": 75 },
-      { "label": "Venue clarity", "score": 35 }
+      {
+        "label": "Season & climate",
+        "score": 88
+      },
+      {
+        "label": "Registration accessibility",
+        "score": 82
+      },
+      {
+        "label": "Location appeal",
+        "score": 75
+      },
+      {
+        "label": "Venue clarity",
+        "score": 35
+      }
     ]
   },
   "sections": [
@@ -62,11 +74,11 @@
     },
     {
       "question": "What distances are offered?",
-      "answer": "Two distances: a full marathon (42.195km) and a half marathon (21.1km). The full marathon is the primary distance. [1]"
+      "answer": "Two distances: a full marathon (42.195km) and a half marathon (21.1km). The full marathon is the primary distance. It's held at Not confirmed this pass, Chiang Rai. Registration is currently open. It offers 42.2K and 21.1K. [1]"
     },
     {
       "question": "Is registration open?",
-      "answer": "Yes, registration is currently open via the Regis.run platform. Check the Ahotu listing page for the registration link. [1]"
+      "answer": "Yes, registration is currently open via the Regis.run platform. Check the Ahotu listing page for the registration link. It offers 42.2K and 21.1K. It's held at Not confirmed this pass, Chiang Rai. [1]"
     },
     {
       "question": "Where in Chiang Rai is the race held?",

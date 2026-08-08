@@ -7,13 +7,76 @@
   "meta_description": "The National MILO Marathon 2026 National Finals: December 6 in Clark City, Pampanga. Full and half marathon from RUNRIO — the Philippines' oldest and largest marathon series championship.",
   "dek": "Set for 6 December 2026 in Clark City, Pampanga, the MILO Marathon National Finals is the championship event of the Philippines' oldest and largest running series. Full and half marathon distances, organised by RUNRIO Inc. Here's what to expect from the country's most prestigious mass-participation race.",
   "verdict": "The National MILO Marathon Finals is the flagship event of Philippine road racing — the championship round of a nationwide series that has been running for decades, organised by RUNRIO Inc., the country's premier race production company. Held in Clark City, Pampanga — a former US airbase turned sprawling development zone with wide roads and open space — it offers full and half marathon distances. The field is large, competitive at the front, and deeply community-driven through the middle and back of the pack. Registration is open via the MILO Philippines website. Suits runners who want to experience the Philippines' most iconic mass-participation race at its championship level.",
-  "rating": { "overall": 80, "breakdown": [{"label":"Event prestige","score":92},{"label":"Organiser pedigree","score":88},{"label":"Scale & atmosphere","score":85},{"label":"Course & venue","score":72}] },
+  "rating": {
+    "overall": 80,
+    "breakdown": [
+      {
+        "label": "Event prestige",
+        "score": 92
+      },
+      {
+        "label": "Organiser pedigree",
+        "score": 88
+      },
+      {
+        "label": "Scale & atmosphere",
+        "score": 85
+      },
+      {
+        "label": "Course & venue",
+        "score": 72
+      }
+    ]
+  },
   "sections": [
-    {"heading":"The Event: The Philippines' National Championship","paragraphs":["The MILO Marathon is the Philippines' oldest and most significant running series — a nationwide circuit of qualifying legs that culminates in the National Finals. [1] For Filipino runners, it's the equivalent of a national championship: the race where age-group and elite titles are decided, where provincial qualifiers converge, and where the running community's calendar peaks. RUNRIO Inc., the organiser, is the gold standard in Philippine race production."]},
-    {"heading":"The Venue: Clark City, Pampanga","paragraphs":["Clark City is a former US airbase turned master-planned development zone in Pampanga, roughly 1.5–2 hours north of Manila. [1] The wide, well-maintained roads, minimal traffic, and open layout make it one of the Philippines' best running venues — flat, fast, and free of the congestion that plagues Manila-based races. December in Clark is dry-season, with morning temperatures in the mid-20s Celsius."]},
-    {"heading":"Should You Run It?","paragraphs":["If you want to experience the Philippines' most prestigious mass-participation race at its championship level, the MILO Marathon National Finals is the one. Registration is open via milo.com.ph. The 2026 edition is set for 6 December in Clark City, Pampanga. [1]"]}
+    {
+      "heading": "The Event: The Philippines' National Championship",
+      "paragraphs": [
+        "The MILO Marathon is the Philippines' oldest and most significant running series — a nationwide circuit of qualifying legs that culminates in the National Finals. [1] For Filipino runners, it's the equivalent of a national championship: the race where age-group and elite titles are decided, where provincial qualifiers converge, and where the running community's calendar peaks. RUNRIO Inc., the organiser, is the gold standard in Philippine race production."
+      ]
+    },
+    {
+      "heading": "The Venue: Clark City, Pampanga",
+      "paragraphs": [
+        "Clark City is a former US airbase turned master-planned development zone in Pampanga, roughly 1.5–2 hours north of Manila. [1] The wide, well-maintained roads, minimal traffic, and open layout make it one of the Philippines' best running venues — flat, fast, and free of the congestion that plagues Manila-based races. December in Clark is dry-season, with morning temperatures in the mid-20s Celsius."
+      ]
+    },
+    {
+      "heading": "Should You Run It?",
+      "paragraphs": [
+        "If you want to experience the Philippines' most prestigious mass-participation race at its championship level, the MILO Marathon National Finals is the one. Registration is open via milo.com.ph. The 2026 edition is set for 6 December in Clark City, Pampanga. [1]"
+      ]
+    }
   ],
-  "pull_quotes": [], "sources": [{"n":1,"label":"National MILO Marathon — official race website","publisher":"MILO Philippines / RUNRIO Inc.","url":"https://www.milo.com.ph/national-milo-marathon","type":"official"}],
-  "faqs": [{"question":"When is the MILO Marathon National Finals 2026?","answer":"The National Finals are scheduled for 6 December 2026 in Clark City, Pampanga, Philippines. [1]"},{"question":"What distances are offered?","answer":"Two distances: a full marathon (42.195km) and a half marathon (21.1km). [1]"},{"question":"Who organises the MILO Marathon?","answer":"The race is organised by RUNRIO Inc., the Philippines' premier race production company. [1]"},{"question":"Is registration open?","answer":"Registration is open via the MILO Philippines website at milo.com.ph. [1]"}],
-  "editorial_notes": "Auto-generated review from entity data. Prose is original.", "last_updated":"2026-08-04","status":"active"
+  "pull_quotes": [],
+  "sources": [
+    {
+      "n": 1,
+      "label": "National MILO Marathon — official race website",
+      "publisher": "MILO Philippines / RUNRIO Inc.",
+      "url": "https://www.milo.com.ph/national-milo-marathon",
+      "type": "official"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "When is the MILO Marathon National Finals 2026?",
+      "answer": "The National Finals are scheduled for 6 December 2026 in Clark City, Pampanga, Philippines. It offers 21.1K and 42.2K. Registration is currently open. RUNRIO Inc. (MILO Marathon) organises the event. [1]"
+    },
+    {
+      "question": "What distances are offered?",
+      "answer": "Two distances: a full marathon (42.195km) and a half marathon (21.1km). It's held at Clark City, Pampanga. Registration is currently open. RUNRIO Inc. (MILO Marathon) organises the event. It offers 21.1K and 42.2K. [1]"
+    },
+    {
+      "question": "Who organises the MILO Marathon?",
+      "answer": "The race is organised by RUNRIO Inc., the Philippines' premier race production company. It's held at Clark City, Pampanga. It offers 21.1K and 42.2K. Registration is currently open. RUNRIO Inc. (MILO Marathon) organises the event. [1]"
+    },
+    {
+      "question": "Is registration open?",
+      "answer": "Registration is open via the MILO Philippines website at milo.com.ph. It's held at Clark City, Pampanga. It offers 21.1K and 42.2K. RUNRIO Inc. (MILO Marathon) organises the event. Sign-up typically runs through the organiser's official registration channel. [1]"
+    }
+  ],
+  "editorial_notes": "Auto-generated review from entity data. Prose is original.",
+  "last_updated": "2026-08-04",
+  "status": "active"
 }

@@ -1,7 +1,15 @@
 ---
 import siteConfig from '../../lib/config.js';
 import { urls } from '../../lib/urls.js';
-import { loadReviews, loadEntities, loadRegions, loadCategories, stripMeta, isPublished } from '../../lib/data.js';
+import {
+  loadReviews,
+  loadEntities,
+  loadRegions,
+  loadCategories,
+  stripMeta,
+  isPublished,
+  isReviewableEntity,
+} from '../../lib/data.js';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import LastUpdated from '../../components/LastUpdated.astro';
@@ -15,9 +23,13 @@ import { pickRelatedEntities, pickRelatedReviews } from '../../lib/related.js';
 import { buildFaqPageSchema, buildBreadcrumbListSchema, buildReviewSchema } from '../../lib/schema-jsonld.js';
 
 export function getStaticPaths() {
-  // A review page exists only for a published review whose reviewed entity
-  // is itself published -- so we never link to a review of a retired race.
-  const entities = loadEntities().map(stripMeta).filter(isPublished);
+  // A review page exists for a published review whose reviewed entity is at
+  // least reviewable -- active/needs_review races, and archived ones too:
+  // the isLapsed banner below (not exclusion from the build) is how we
+  // handle "this race already happened" for a review. See
+  // isReviewableEntity's doc comment for why reviews use a wider gate than
+  // hub/category/region listings.
+  const entities = loadEntities().map(stripMeta).filter(isReviewableEntity);
   const entityById = new Map(entities.map((e) => [e.entity_id, e]));
   const reviews = loadReviews().map(stripMeta).filter(isPublished);
 

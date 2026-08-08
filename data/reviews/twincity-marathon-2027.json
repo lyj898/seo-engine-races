@@ -10,10 +10,22 @@
   "rating": {
     "overall": 69,
     "breakdown": [
-      { "label": "Venue uniqueness", "score": 78 },
-      { "label": "Distance range", "score": 82 },
-      { "label": "Course potential", "score": 75 },
-      { "label": "Information maturity", "score": 42 }
+      {
+        "label": "Venue uniqueness",
+        "score": 78
+      },
+      {
+        "label": "Distance range",
+        "score": 82
+      },
+      {
+        "label": "Course potential",
+        "score": 75
+      },
+      {
+        "label": "Information maturity",
+        "score": 42
+      }
     ]
   },
   "sections": [
@@ -59,11 +71,11 @@
   "faqs": [
     {
       "question": "When is the Twincity Marathon 2027?",
-      "answer": "The race is scheduled for 24 January 2027 in Cyberjaya, Sepang, Selangor, Malaysia. [1]"
+      "answer": "The race is scheduled for 24 January 2027 in Cyberjaya, Sepang, Selangor, Malaysia. It offers 42.2K, 21.098K, 12K, and 5K. Registration is listed as not yet announced. Mark it on your calendar if you're planning your racing year around it. [1]"
     },
     {
       "question": "What distances are offered?",
-      "answer": "Four distances: a full marathon (42.195km), half marathon (21.098km), 12km, and 5km. The 12km is an unusual middle distance that provides a stepping-stone option. [1]"
+      "answer": "Four distances: a full marathon (42.195km), half marathon (21.098km), 12km, and 5km. The 12km is an unusual middle distance that provides a stepping-stone option. It's held at Cyberjaya, Sepang, Selangor. Registration is listed as not yet announced. [1]"
     },
     {
       "question": "Where is Cyberjaya and how do I get there?",
@@ -71,7 +83,7 @@
     },
     {
       "question": "Is registration open?",
-      "answer": "Registration has not yet been announced as of August 2026. Check the AIMS calendar and Finishers.com for updates. [1]"
+      "answer": "Registration has not yet been announced as of August 2026. Check the AIMS calendar and Finishers.com for updates. It offers 42.2K, 21.098K, 12K, and 5K. It's held at Cyberjaya, Sepang, Selangor. [1]"
     }
   ],
   "editorial_notes": "Auto-generated review synthesised from entity data. Prose is original. Safe to hand-edit.",

@@ -1,1 +1,64 @@
-{"review_id":"ui-half-marathon-2026","slug":"ui-half-marathon-2026","entity_id":"ui-half-marathon-2026","title":"UI Half Marathon 2026 Review: Universitas Indonesia's Campus 21K","seo_title":"UI Half Marathon 2026 Review | Universitas Indonesia Depok Race","meta_description":"The UI Half Marathon 2026: October 11 at Universitas Indonesia campus, Depok. 21K, 10K, 5K from ILUNI UI — one of Indonesia's most iconic campus races reviewed.","dek":"Set for 11 October 2026 on the Universitas Indonesia campus in Depok, this ILUNI UI-organised half marathon is one of Indonesia's most iconic campus road races. Three distances. A leafy, car-free university-grounds 21K.","verdict":"The UI Half Marathon is one of Indonesia's most distinctive road races by venue alone: the Universitas Indonesia campus in Depok — a sprawling, forested university grounds with wide roads, dedicated jogging paths, and the iconic UI library as backdrop. Organised by ILUNI UI (the university's alumni association), it carries genuine institutional roots. Three distances (21K, 10K, 5K). October in Depok is the transition from dry to wet season — expect warm, humid conditions. For runners wanting a campus-based Indonesian half marathon with a uniquely leafy, car-free environment, this is a standout.","rating":{"overall":74,"breakdown":[{"label":"Venue (UI campus)","score":88},{"label":"Institutional roots","score":82},{"label":"Distance range","score":72},{"label":"Registration","score":40}]},"sections":[{"heading":"UI Campus: Indonesia's Green Running Grounds","paragraphs":["The Universitas Indonesia campus is one of the country's best running environments — a forested university grounds with wide roads, dedicated pedestrian paths, and the distinctive UI library building. [1] ILUNI UI (alumni association) organisation gives the race institutional depth and community character. October in Depok is warm and humid."]},{"heading":"Should You Run It?","paragraphs":["A uniquely scenic Indonesian campus half marathon with alumni-association roots. Track for registration. 11 October 2026 at UI Depok. [1]"]}],"pull_quotes":[],"sources":[{"n":1,"label":"UI Half Marathon — official website","publisher":"ILUNI UI","url":"https://www.uihalfmarathon.id","type":"official"}],"faqs":[{"question":"When is the UI Half Marathon 2026?","answer":"11 October 2026 at Universitas Indonesia campus, Depok. [1]"}],"editorial_notes":"Auto-generated review.","last_updated":"2026-08-04","status":"active"}
+{
+  "review_id": "ui-half-marathon-2026",
+  "slug": "ui-half-marathon-2026",
+  "entity_id": "ui-half-marathon-2026",
+  "title": "UI Half Marathon 2026 Review: Universitas Indonesia's Campus 21K",
+  "seo_title": "UI Half Marathon 2026 Review | Universitas Indonesia Depok Race",
+  "meta_description": "The UI Half Marathon 2026: October 11 at Universitas Indonesia campus, Depok. 21K, 10K, 5K from ILUNI UI — one of Indonesia's most iconic campus races reviewed.",
+  "dek": "Set for 11 October 2026 on the Universitas Indonesia campus in Depok, this ILUNI UI-organised half marathon is one of Indonesia's most iconic campus road races. Three distances. A leafy, car-free university-grounds 21K.",
+  "verdict": "The UI Half Marathon is one of Indonesia's most distinctive road races by venue alone: the Universitas Indonesia campus in Depok — a sprawling, forested university grounds with wide roads, dedicated jogging paths, and the iconic UI library as backdrop. Organised by ILUNI UI (the university's alumni association), it carries genuine institutional roots. Three distances (21K, 10K, 5K). October in Depok is the transition from dry to wet season — expect warm, humid conditions. For runners wanting a campus-based Indonesian half marathon with a uniquely leafy, car-free environment, this is a standout.",
+  "rating": {
+    "overall": 74,
+    "breakdown": [
+      {
+        "label": "Venue (UI campus)",
+        "score": 88
+      },
+      {
+        "label": "Institutional roots",
+        "score": 82
+      },
+      {
+        "label": "Distance range",
+        "score": 72
+      },
+      {
+        "label": "Registration",
+        "score": 40
+      }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "UI Campus: Indonesia's Green Running Grounds",
+      "paragraphs": [
+        "The Universitas Indonesia campus is one of the country's best running environments — a forested university grounds with wide roads, dedicated pedestrian paths, and the distinctive UI library building. [1] ILUNI UI (alumni association) organisation gives the race institutional depth and community character. October in Depok is warm and humid."
+      ]
+    },
+    {
+      "heading": "Should You Run It?",
+      "paragraphs": [
+        "A uniquely scenic Indonesian campus half marathon with alumni-association roots. Track for registration. 11 October 2026 at UI Depok. [1]"
+      ]
+    }
+  ],
+  "pull_quotes": [],
+  "sources": [
+    {
+      "n": 1,
+      "label": "UI Half Marathon — official website",
+      "publisher": "ILUNI UI",
+      "url": "https://www.uihalfmarathon.id",
+      "type": "official"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "When is the UI Half Marathon 2026?",
+      "answer": "11 October 2026 at Universitas Indonesia campus, Depok. It offers 21.1K, 10K, and 5K. ILUNI UI organises the event. Mark it on your calendar if you're planning your racing year around it. [1]"
+    }
+  ],
+  "editorial_notes": "Auto-generated review.",
+  "last_updated": "2026-08-04",
+  "status": "active"
+}

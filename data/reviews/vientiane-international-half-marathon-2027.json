@@ -10,10 +10,22 @@
   "rating": {
     "overall": 68,
     "breakdown": [
-      { "label": "Destination appeal / rarity", "score": 85 },
-      { "label": "Organiser credibility", "score": 68 },
-      { "label": "Season / climate", "score": 78 },
-      { "label": "Information maturity", "score": 42 }
+      {
+        "label": "Destination appeal / rarity",
+        "score": 85
+      },
+      {
+        "label": "Organiser credibility",
+        "score": 68
+      },
+      {
+        "label": "Season / climate",
+        "score": 78
+      },
+      {
+        "label": "Information maturity",
+        "score": 42
+      }
     ]
   },
   "sections": [
@@ -65,19 +77,19 @@
   "faqs": [
     {
       "question": "When is the Vientiane International Half Marathon 2027?",
-      "answer": "The race is scheduled for 7 March 2027 in Nakham, Vientiane, Laos. March falls within Laos's dry, cooler season — morning conditions are typically comfortable for running. [1]"
+      "answer": "The race is scheduled for 7 March 2027 in Nakham, Vientiane, Laos. March falls within Laos's dry, cooler season — morning conditions are typically comfortable for running. It offers 21K. Registration is listed as not yet announced. [1]"
     },
     {
       "question": "What distance is the race?",
-      "answer": "The event is a half marathon covering the standard 21.1km distance. Companion distances have not been confirmed — it may be a single-distance event. [1]"
+      "answer": "The event is a half marathon covering the standard 21.1km distance. Companion distances have not been confirmed — it may be a single-distance event. It's held at Nakham, Vientiane. Events for Good Laos organises the event. [1]"
     },
     {
       "question": "Who organises the Vientiane International Half Marathon?",
-      "answer": "The race is organised by Events for Good Laos, a local event organiser with a presence at efglaos.com. [1]"
+      "answer": "The race is organised by Events for Good Laos, a local event organiser with a presence at efglaos.com. It's held at Nakham, Vientiane. It offers 21K. Registration is listed as not yet announced. [1]"
     },
     {
       "question": "Is registration open?",
-      "answer": "Registration has not yet been announced as of August 2026. Check efglaos.com for updates — the registration window is likely to open in late 2026. [1]"
+      "answer": "Registration has not yet been announced as of August 2026. Check efglaos.com for updates — the registration window is likely to open in late 2026. Events for Good Laos organises the event. It offers 21K. [1]"
     }
   ],
   "editorial_notes": "Auto-generated review synthesised from entity data. Prose is original. Safe to hand-edit.",

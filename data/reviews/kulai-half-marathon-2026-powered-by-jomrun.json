@@ -1,1 +1,64 @@
-{"review_id":"kulai-half-marathon-2026-powered-by-jomrun","slug":"kulai-half-marathon-2026-powered-by-jomrun","entity_id":"kulai-half-marathon-2026-powered-by-jomrun","title":"Kulai Half Marathon 2026 Review: JomRun's Johor Mall-Anchored 21K","seo_title":"Kulai Half Marathon 2026 Review | Johor Malaysia JomRun Race","meta_description":"The Kulai Half Marathon 2026 Powered by JomRun: November 15 at AEON Mall Kulaijaya, Johor. 21K, 10K, and 5K with registration open.","dek":"Set for 15 November 2026 at AEON Mall Kulaijaya in Johor, this JomRun-powered half marathon offers three distances with registration open. A mall-anchored Malaysian race near the Singapore border.","verdict":"The Kulai Half Marathon Powered by JomRun is a convenient, accessible Malaysian road race anchored at AEON Mall Kulaijaya in Johor — a location with ample parking, facilities, and a familiar race-hub setup. Three distances (21K, 10K, 5K) with registration open via JomRun. Kulai is roughly an hour north of the Singapore border, making this one of the more accessible Malaysian races for Singapore-based runners. A solid, no-fuss half marathon option.","rating":{"overall":64,"breakdown":[{"label":"Registration","score":82},{"label":"Accessibility","score":78},{"label":"JomRun platform","score":72},{"label":"Course uniqueness","score":45}]},"sections":[{"heading":"AEON Mall: A Convenient Race Hub","paragraphs":["Mall-anchored races in Malaysia offer practical advantages: ample parking, air-conditioned pre-race shelter, and post-race food options built in. [1] AEON Mall Kulaijaya provides a low-friction race-day experience — arrive, park, race, recover, eat — without the logistical complexity of a city-centre start line."]},{"heading":"Should You Run It?","paragraphs":["A convenient Johor half marathon with open registration, ideal for Singapore-based runners looking for a cross-border race. 15 November 2026 at AEON Mall Kulaijaya. [1]"]}],"pull_quotes":[],"sources":[{"n":1,"label":"Kulai Half Marathon — JomRun event page","publisher":"JomRun","url":"https://www.jomrun.com/event/Kulai-Half-Marathon-2026-Powered-by-JomRun","type":"registration_platform"}],"faqs":[{"question":"When is the Kulai Half Marathon 2026?","answer":"15 November 2026 at AEON Mall Kulaijaya, Kulai, Johor, Malaysia. [1]"}],"editorial_notes":"Auto-generated review.","last_updated":"2026-08-04","status":"active"}
+{
+  "review_id": "kulai-half-marathon-2026-powered-by-jomrun",
+  "slug": "kulai-half-marathon-2026-powered-by-jomrun",
+  "entity_id": "kulai-half-marathon-2026-powered-by-jomrun",
+  "title": "Kulai Half Marathon 2026 Review: JomRun's Johor Mall-Anchored 21K",
+  "seo_title": "Kulai Half Marathon 2026 Review | Johor Malaysia JomRun Race",
+  "meta_description": "The Kulai Half Marathon 2026 Powered by JomRun: November 15 at AEON Mall Kulaijaya, Johor. 21K, 10K, and 5K with registration open.",
+  "dek": "Set for 15 November 2026 at AEON Mall Kulaijaya in Johor, this JomRun-powered half marathon offers three distances with registration open. A mall-anchored Malaysian race near the Singapore border.",
+  "verdict": "The Kulai Half Marathon Powered by JomRun is a convenient, accessible Malaysian road race anchored at AEON Mall Kulaijaya in Johor — a location with ample parking, facilities, and a familiar race-hub setup. Three distances (21K, 10K, 5K) with registration open via JomRun. Kulai is roughly an hour north of the Singapore border, making this one of the more accessible Malaysian races for Singapore-based runners. A solid, no-fuss half marathon option.",
+  "rating": {
+    "overall": 64,
+    "breakdown": [
+      {
+        "label": "Registration",
+        "score": 82
+      },
+      {
+        "label": "Accessibility",
+        "score": 78
+      },
+      {
+        "label": "JomRun platform",
+        "score": 72
+      },
+      {
+        "label": "Course uniqueness",
+        "score": 45
+      }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "AEON Mall: A Convenient Race Hub",
+      "paragraphs": [
+        "Mall-anchored races in Malaysia offer practical advantages: ample parking, air-conditioned pre-race shelter, and post-race food options built in. [1] AEON Mall Kulaijaya provides a low-friction race-day experience — arrive, park, race, recover, eat — without the logistical complexity of a city-centre start line."
+      ]
+    },
+    {
+      "heading": "Should You Run It?",
+      "paragraphs": [
+        "A convenient Johor half marathon with open registration, ideal for Singapore-based runners looking for a cross-border race. 15 November 2026 at AEON Mall Kulaijaya. [1]"
+      ]
+    }
+  ],
+  "pull_quotes": [],
+  "sources": [
+    {
+      "n": 1,
+      "label": "Kulai Half Marathon — JomRun event page",
+      "publisher": "JomRun",
+      "url": "https://www.jomrun.com/event/Kulai-Half-Marathon-2026-Powered-by-JomRun",
+      "type": "registration_platform"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "When is the Kulai Half Marathon 2026?",
+      "answer": "15 November 2026 at AEON Mall Kulaijaya, Kulai, Johor, Malaysia. It offers 5K, 10K, and 21.1K. Registration is currently open. Mark it on your calendar if you're planning your racing year around it. [1]"
+    }
+  ],
+  "editorial_notes": "Auto-generated review.",
+  "last_updated": "2026-08-04",
+  "status": "active"
+}

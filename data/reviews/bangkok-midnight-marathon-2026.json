@@ -7,13 +7,76 @@
   "meta_description": "The Bangkok Midnight Marathon 2026: December 20 at the Rama VIII Bridge, Bangkok. Half marathon and 10K organised by Taozing Running Club — a midnight-start urban race reviewed.",
   "dek": "Set for 20 December 2026 at Bangkok's iconic Rama VIII Bridge and the Sanam Luang area, this Taozing Running Club-organised midnight race offers half marathon and 10K distances. Registration isn't open yet, but the organiser and venue are locked in.",
   "verdict": "The Bangkok Midnight Marathon 2026 is a niche but appealing entry on the Thai calendar: a midnight-start half marathon in central Bangkok, organised by Taozing Running Club, anchored around the Rama VIII Bridge and Sanam Luang — two of the capital's most photogenic running landmarks. Two distances (21.1K and 10K) keep it focused, and the December date is Bangkok's coolest month, which makes the midnight format more comfortable than it sounds. Registration isn't open yet, but the organiser has a presence on Race Roster, which suggests a credible registration partner. Suits Bangkok-based runners who want an unusual nighttime race and visitors looking for a capital-city half with a distinctive format.",
-  "rating": { "overall": 66, "breakdown": [{"label":"Race concept / format","score":80},{"label":"Venue & route","score":78},{"label":"Organiser visibility","score":60},{"label":"Registration readiness","score":35}] },
+  "rating": {
+    "overall": 66,
+    "breakdown": [
+      {
+        "label": "Race concept / format",
+        "score": 80
+      },
+      {
+        "label": "Venue & route",
+        "score": 78
+      },
+      {
+        "label": "Organiser visibility",
+        "score": 60
+      },
+      {
+        "label": "Registration readiness",
+        "score": 35
+      }
+    ]
+  },
   "sections": [
-    {"heading":"The Format: Midnight in Bangkok","paragraphs":["A midnight-start race in Bangkok's cool December is a fundamentally different experience from a dawn-start marathon in the same city. [1] The roads are emptier, the temperatures are lower, and the city's illuminated bridges and temples create a backdrop that daytime races can't match. The half marathon distance (21.098km) is the primary event, with a 10K companion distance."]},
-    {"heading":"The Route: Rama VIII Bridge and Sanam Luang","paragraphs":["The race is anchored around the Rama VIII Bridge — one of Bangkok's most distinctive cable-stayed bridges — and the Sanam Luang area near the Grand Palace. [1] That corridor along the Chao Phraya River offers wide roads, river views, and some of the city's most recognisable landmarks lit up at night. The organiser, Taozing Running Club, is a named Bangkok-based running group, which suggests a community-flavoured event rather than a corporate production."]},
-    {"heading":"Should You Run It?","paragraphs":["If you're in Bangkok in late December and want a half marathon with a midnight-start format, an iconic bridge backdrop, and a community-run atmosphere, the Bangkok Midnight Marathon is worth watching. Registration details are pending — check Race Roster and the AIMS calendar for updates. The 2026 edition is set for 20 December. [1]"]}
+    {
+      "heading": "The Format: Midnight in Bangkok",
+      "paragraphs": [
+        "A midnight-start race in Bangkok's cool December is a fundamentally different experience from a dawn-start marathon in the same city. [1] The roads are emptier, the temperatures are lower, and the city's illuminated bridges and temples create a backdrop that daytime races can't match. The half marathon distance (21.098km) is the primary event, with a 10K companion distance."
+      ]
+    },
+    {
+      "heading": "The Route: Rama VIII Bridge and Sanam Luang",
+      "paragraphs": [
+        "The race is anchored around the Rama VIII Bridge — one of Bangkok's most distinctive cable-stayed bridges — and the Sanam Luang area near the Grand Palace. [1] That corridor along the Chao Phraya River offers wide roads, river views, and some of the city's most recognisable landmarks lit up at night. The organiser, Taozing Running Club, is a named Bangkok-based running group, which suggests a community-flavoured event rather than a corporate production."
+      ]
+    },
+    {
+      "heading": "Should You Run It?",
+      "paragraphs": [
+        "If you're in Bangkok in late December and want a half marathon with a midnight-start format, an iconic bridge backdrop, and a community-run atmosphere, the Bangkok Midnight Marathon is worth watching. Registration details are pending — check Race Roster and the AIMS calendar for updates. The 2026 edition is set for 20 December. [1]"
+      ]
+    }
   ],
-  "pull_quotes": [], "sources": [{"n":1,"label":"Bangkok Midnight Marathon — event listings across race calendars","publisher":"Taozing Running Club / AIMS / Race Roster","url":"https://raceroster.com","type":"registration_platform"}],
-  "faqs": [{"question":"When is the Bangkok Midnight Marathon 2026?","answer":"The race is scheduled for 20 December 2026, starting at midnight in Bangkok, Thailand. December is Bangkok's coolest month. [1]"},{"question":"What distances are offered?","answer":"Two distances: a half marathon (21.098km) and a 10K. [1]"},{"question":"Who organises the race?","answer":"The race is organised by Taozing Running Club, a Bangkok-based running group. [1]"},{"question":"Is registration open?","answer":"Registration has not yet been announced. Check Race Roster and the AIMS calendar for updates. [1]"}],
-  "editorial_notes": "Auto-generated review synthesised from entity data. Prose is original. Safe to hand-edit.", "last_updated":"2026-08-04","status":"active"
+  "pull_quotes": [],
+  "sources": [
+    {
+      "n": 1,
+      "label": "Bangkok Midnight Marathon — event listings across race calendars",
+      "publisher": "Taozing Running Club / AIMS / Race Roster",
+      "url": "https://raceroster.com",
+      "type": "registration_platform"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "When is the Bangkok Midnight Marathon 2026?",
+      "answer": "The race is scheduled for 20 December 2026, starting at midnight in Bangkok, Thailand. December is Bangkok's coolest month. It offers 21.098K and 10K. Registration is listed as not yet announced. Taozing Running Club organises the event. [1]"
+    },
+    {
+      "question": "What distances are offered?",
+      "answer": "Two distances: a half marathon (21.098km) and a 10K. It's held at Rama VIII Bridge / Sanam Luang area, Bangkok. Registration is listed as not yet announced. Taozing Running Club organises the event. It offers 21.098K and 10K. [1]"
+    },
+    {
+      "question": "Who organises the race?",
+      "answer": "The race is organised by Taozing Running Club, a Bangkok-based running group. It's held at Rama VIII Bridge / Sanam Luang area, Bangkok. It offers 21.098K and 10K. Registration is listed as not yet announced. [1]"
+    },
+    {
+      "question": "Is registration open?",
+      "answer": "Registration has not yet been announced. Check Race Roster and the AIMS calendar for updates. It's held at Rama VIII Bridge / Sanam Luang area, Bangkok. Taozing Running Club organises the event. It offers 21.098K and 10K. [1]"
+    }
+  ],
+  "editorial_notes": "Auto-generated review synthesised from entity data. Prose is original. Safe to hand-edit.",
+  "last_updated": "2026-08-04",
+  "status": "active"
 }

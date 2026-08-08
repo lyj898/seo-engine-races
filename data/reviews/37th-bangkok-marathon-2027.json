@@ -7,14 +7,82 @@
   "meta_description": "The 37th Bangkok Marathon takes place January 10, 2027 starting on Sanam Chai Road beside the Grand Palace. Full, half, and 10K — registration opens July 2026. Thailand's capital classic reviewed.",
   "dek": "The 37th edition of the Bangkok Marathon is set for 10 January 2027, starting on Sanam Chai Road beside the Grand Palace — one of the most iconic start lines in road racing. Three distances (42K, 21K, 10K) with registration opening nationwide on 1 July 2026. Here's what to expect from Thailand's longest-running capital-city marathon.",
   "verdict": "The Bangkok Marathon — not to be confused with the numerous other Bangkok-branded races — is the city's longest-running marathon, now entering its 37th edition. The start line on Sanam Chai Road, beside the Grand Palace and Wat Pho in the historic Rattanakosin Island, is one of the most photogenic in road racing, and the January date catches Bangkok's cool, dry season. Three distances keep it accessible, and while the course must contend with Bangkok's infamous traffic, the pre-dawn flag-off mitigates much of it. Registration opens on 1 July 2026. Suits runners who want an iconic-start-line Bangkok marathon with decades of history.",
-  "rating": { "overall": 73, "breakdown": [{"label":"Start-line setting","score":95},{"label":"Event heritage","score":85},{"label":"Season & climate","score":82},{"label":"Registration readiness","score":40}] },
+  "rating": {
+    "overall": 73,
+    "breakdown": [
+      {
+        "label": "Start-line setting",
+        "score": 95
+      },
+      {
+        "label": "Event heritage",
+        "score": 85
+      },
+      {
+        "label": "Season & climate",
+        "score": 82
+      },
+      {
+        "label": "Registration readiness",
+        "score": 40
+      }
+    ]
+  },
   "sections": [
-    {"heading":"The Start Line: Grand Palace and Sanam Chai Road","paragraphs":["Few road races anywhere start beside a royal palace. The Bangkok Marathon's flag-off on Sanam Chai Road places runners in the shadow of the Grand Palace, Wat Pho (the Reclining Buddha), and the Sanam Luang royal field — the historic and spiritual heart of the Thai capital. [1] It's a start line that justifies the entry fee on its own, especially in the pre-dawn dark with the palace spires illuminated."]},
-    {"heading":"37 Editions: Bangkok's Original Marathon","paragraphs":["The Bangkok Marathon has been running since the 1980s, predating the city's running boom by decades. [1] In a city now crowded with marathon brands — Bangkok Midnight Marathon, Amazing Thailand Marathon Bangkok, and multiple others — the original Bangkok Marathon remains the heritage pick. The 37th edition carries the weight of institutional memory, even if the race-day execution has historically been more functional than slick."]},
-    {"heading":"The Date and Distances","paragraphs":["10 January is mid-cool-season in Bangkok. Morning temperatures in the low 20s Celsius and low humidity make this one of the more forgiving times to run 42km in the capital. [1] Three distances are offered: full marathon (42.195km), half marathon (21.1km), and 10km. Registration opens nationwide on 1 July 2026 via bkkmarathon.com — set a calendar reminder."]},
-    {"heading":"Should You Run It?","paragraphs":["If you want a Bangkok marathon with an extraordinary start line, 37 editions of history, and cool-season conditions, this is the one. Registration opens 1 July 2026 — don't miss the window. The 37th edition is set for 10 January 2027, starting on Sanam Chai Road beside the Grand Palace. [1]"]}
+    {
+      "heading": "The Start Line: Grand Palace and Sanam Chai Road",
+      "paragraphs": [
+        "Few road races anywhere start beside a royal palace. The Bangkok Marathon's flag-off on Sanam Chai Road places runners in the shadow of the Grand Palace, Wat Pho (the Reclining Buddha), and the Sanam Luang royal field — the historic and spiritual heart of the Thai capital. [1] It's a start line that justifies the entry fee on its own, especially in the pre-dawn dark with the palace spires illuminated."
+      ]
+    },
+    {
+      "heading": "37 Editions: Bangkok's Original Marathon",
+      "paragraphs": [
+        "The Bangkok Marathon has been running since the 1980s, predating the city's running boom by decades. [1] In a city now crowded with marathon brands — Bangkok Midnight Marathon, Amazing Thailand Marathon Bangkok, and multiple others — the original Bangkok Marathon remains the heritage pick. The 37th edition carries the weight of institutional memory, even if the race-day execution has historically been more functional than slick."
+      ]
+    },
+    {
+      "heading": "The Date and Distances",
+      "paragraphs": [
+        "10 January is mid-cool-season in Bangkok. Morning temperatures in the low 20s Celsius and low humidity make this one of the more forgiving times to run 42km in the capital. [1] Three distances are offered: full marathon (42.195km), half marathon (21.1km), and 10km. Registration opens nationwide on 1 July 2026 via bkkmarathon.com — set a calendar reminder."
+      ]
+    },
+    {
+      "heading": "Should You Run It?",
+      "paragraphs": [
+        "If you want a Bangkok marathon with an extraordinary start line, 37 editions of history, and cool-season conditions, this is the one. Registration opens 1 July 2026 — don't miss the window. The 37th edition is set for 10 January 2027, starting on Sanam Chai Road beside the Grand Palace. [1]"
+      ]
+    }
   ],
-  "pull_quotes": [], "sources": [{"n":1,"label":"Bangkok Marathon — official race website","publisher":"Bangkok Marathon","url":"https://bkkmarathon.com","type":"official"}],
-  "faqs": [{"question":"When is the 37th Bangkok Marathon?","answer":"The race is scheduled for 10 January 2027, starting on Sanam Chai Road beside the Grand Palace in Bangkok, Thailand. January is Bangkok's cool, dry season. [1]"},{"question":"What distances are offered?","answer":"Three distances: a full marathon (42.195km), half marathon (21.1km), and 10km. [1]"},{"question":"When does registration open?","answer":"Registration opens nationwide on 1 July 2026 via bkkmarathon.com. [1]"},{"question":"Where is the start line?","answer":"The race starts on Sanam Chai Road, directly beside the Grand Palace and Wat Pho in Bangkok's historic Rattanakosin Island district. [1]"}],
-  "editorial_notes": "Auto-generated review synthesised from entity data. Prose is original. Safe to hand-edit.", "last_updated":"2026-08-04","status":"active"
+  "pull_quotes": [],
+  "sources": [
+    {
+      "n": 1,
+      "label": "Bangkok Marathon — official race website",
+      "publisher": "Bangkok Marathon",
+      "url": "https://bkkmarathon.com",
+      "type": "official"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "When is the 37th Bangkok Marathon?",
+      "answer": "The race is scheduled for 10 January 2027, starting on Sanam Chai Road beside the Grand Palace in Bangkok, Thailand. January is Bangkok's cool, dry season. It offers 42.2K, 21.1K, and 10K. Registration is listed as not yet open (opens nationwide 1 jul 2026). [1]"
+    },
+    {
+      "question": "What distances are offered?",
+      "answer": "Three distances: a full marathon (42.195km), half marathon (21.1km), and 10km. It's held at Sanam Chai Road, beside the Grand Palace, Bangkok. Registration is listed as not yet open (opens nationwide 1 jul 2026). [1]"
+    },
+    {
+      "question": "When does registration open?",
+      "answer": "Registration opens nationwide on 1 July 2026 via bkkmarathon.com. It offers 42.2K, 21.1K, and 10K. It's held at Sanam Chai Road, beside the Grand Palace, Bangkok. Mark it on your calendar if you're planning your racing year around it. [1]"
+    },
+    {
+      "question": "Where is the start line?",
+      "answer": "The race starts on Sanam Chai Road, directly beside the Grand Palace and Wat Pho in Bangkok's historic Rattanakosin Island district. It offers 42.2K, 21.1K, and 10K. Registration is listed as not yet open (opens nationwide 1 jul 2026). [1]"
+    }
+  ],
+  "editorial_notes": "Auto-generated review synthesised from entity data. Prose is original. Safe to hand-edit.",
+  "last_updated": "2026-08-04",
+  "status": "active"
 }

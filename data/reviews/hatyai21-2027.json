@@ -10,10 +10,22 @@
   "rating": {
     "overall": 58,
     "breakdown": [
-      { "label": "Concept clarity / focus", "score": 78 },
-      { "label": "Location & accessibility", "score": 72 },
-      { "label": "Organiser track record", "score": 45 },
-      { "label": "Information maturity", "score": 38 }
+      {
+        "label": "Concept clarity / focus",
+        "score": 78
+      },
+      {
+        "label": "Location & accessibility",
+        "score": 72
+      },
+      {
+        "label": "Organiser track record",
+        "score": 45
+      },
+      {
+        "label": "Information maturity",
+        "score": 38
+      }
     ]
   },
   "sections": [
@@ -59,11 +71,11 @@
   "faqs": [
     {
       "question": "When is HATYAi21?",
-      "answer": "HATYAi21 is scheduled for 9 May 2027 in Hat Yai, Songkhla, Thailand. [1]"
+      "answer": "HATYAi21 is scheduled for 9 May 2027 in Hat Yai, Songkhla, Thailand. It offers 21.1K. Registration is listed as not yet announced. Mark it on your calendar if you're planning your racing year around it. [1]"
     },
     {
       "question": "What distance is HATYAi21?",
-      "answer": "The race is a single-distance event: a half marathon of 21.1km. There are no companion distances — it's a focused, one-distance race day. [1]"
+      "answer": "The race is a single-distance event: a half marathon of 21.1km. There are no companion distances — it's a focused, one-distance race day. It's held at Hat Yai, Songkhla. HATYAi21 organises the event. Registration is listed as not yet announced. [1]"
     },
     {
       "question": "Where is Hat Yai and how do I get there?",

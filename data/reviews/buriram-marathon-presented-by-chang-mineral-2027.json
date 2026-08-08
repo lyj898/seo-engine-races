@@ -10,10 +10,22 @@
   "rating": {
     "overall": 78,
     "breakdown": [
-      { "label": "Venue uniqueness", "score": 95 },
-      { "label": "Course speed / PB potential", "score": 90 },
-      { "label": "Registration accessibility", "score": 82 },
-      { "label": "Destination appeal beyond race", "score": 60 }
+      {
+        "label": "Venue uniqueness",
+        "score": 95
+      },
+      {
+        "label": "Course speed / PB potential",
+        "score": 90
+      },
+      {
+        "label": "Registration accessibility",
+        "score": 82
+      },
+      {
+        "label": "Destination appeal beyond race",
+        "score": 60
+      }
     ]
   },
   "sections": [
@@ -74,11 +86,11 @@
     },
     {
       "question": "What distances are offered?",
-      "answer": "Two distances: a full marathon (42.195km) and a half marathon (21.1km). The full marathon is the primary distance. [1]"
+      "answer": "Two distances: a full marathon (42.195km) and a half marathon (21.1km). The full marathon is the primary distance. It's held at Chang International Circuit, Buriram. Registration is currently open. It offers 42.2K and 21.1K. [1]"
     },
     {
       "question": "Is registration open?",
-      "answer": "Yes, registration is currently open via burirammarathon.com. The race is sponsored by Chang Mineral, one of Thailand's biggest brands. [1]"
+      "answer": "Yes, registration is currently open via burirammarathon.com. The race is sponsored by Chang Mineral, one of Thailand's biggest brands. It offers 42.2K and 21.1K. It's held at Chang International Circuit, Buriram. [1]"
     }
   ],
   "editorial_notes": "Auto-generated review synthesised from entity data. Prose is original. Safe to hand-edit.",
