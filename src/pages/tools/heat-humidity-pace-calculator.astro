@@ -6,7 +6,7 @@ import Breadcrumb from '../../components/Breadcrumb.astro';
 import FAQSection from '../../components/FAQSection.astro';
 import ToolsCrossLinks from '../../components/ToolsCrossLinks.astro';
 import { buildBreadcrumbListSchema, buildFaqPageSchema, buildWebApplicationSchema } from '../../lib/schema-jsonld.js';
-import { numFieldClass, selectClass, labelClass, subLabelClass, cardClass } from '../../lib/tool-styles.js';
+import { numFieldClass, selectClass, labelClass, subLabelClass, cardClass, calculateButtonClass } from '../../lib/tool-styles.js';
 
 const pageUrl = new URL(urls.tool('heat-humidity-pace-calculator'), Astro.site).toString();
 
@@ -130,8 +130,10 @@ const jsonLd = [
         </div>
       </div>
 
+      <button type="button" id="heat-calculate-btn" class={calculateButtonClass}>Calculate</button>
+
       <p id="heat-hint" class="mt-5 text-sm text-brand-muted dark:text-brand-muted-dark">
-        Enter a goal pace, temperature, and humidity to see your heat-adjusted pace.
+        Enter a goal pace, temperature, and humidity, then tap Calculate.
       </p>
 
       <div id="heat-result" class="mt-6 hidden">
@@ -223,7 +225,6 @@ const jsonLd = [
       return 'Extreme heat and/or humidity -- prioritize finishing safely and staying cool over chasing a time.';
     }
 
-    var root = document.getElementById('heat-tool');
     var paceM = document.getElementById('heat-pace-m');
     var paceS = document.getElementById('heat-pace-s');
     var paceUnit = document.getElementById('heat-pace-unit');
@@ -240,10 +241,13 @@ const jsonLd = [
     var distanceResult = document.getElementById('heat-distance-result');
     var goalTimeEl = document.getElementById('heat-goal-time');
     var adjustedTimeEl = document.getElementById('heat-adjusted-time');
+    var calculateBtn = document.getElementById('heat-calculate-btn');
 
-    function recompute() {
+    function syncUI() {
       paceUnitLabel.textContent = '(per ' + paceUnit.value + ')';
+    }
 
+    function calculate() {
       var basePaceSeconds = (num(paceM) || 0) * 60 + (num(paceS) || 0);
       var tempC = num(tempInput) === null ? null : toCelsius(num(tempInput), tempUnit.value);
       var rh = num(humidityInput);
@@ -251,7 +255,7 @@ const jsonLd = [
       if (!basePaceSeconds || tempC === null || rh === null) {
         result.classList.add('hidden');
         hint.classList.remove('hidden');
-        hint.textContent = 'Enter a goal pace, temperature, and humidity to see your heat-adjusted pace.';
+        hint.textContent = 'Enter a goal pace, temperature, and humidity, then tap Calculate.';
         return;
       }
 
@@ -277,8 +281,8 @@ const jsonLd = [
       }
     }
 
-    root.addEventListener('input', recompute);
-    root.addEventListener('change', recompute);
-    recompute();
+    paceUnit.addEventListener('change', syncUI);
+    calculateBtn.addEventListener('click', calculate);
+    syncUI();
   })();
 </script>

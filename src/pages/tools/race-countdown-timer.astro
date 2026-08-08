@@ -6,7 +6,7 @@ import Breadcrumb from '../../components/Breadcrumb.astro';
 import FAQSection from '../../components/FAQSection.astro';
 import ToolsCrossLinks from '../../components/ToolsCrossLinks.astro';
 import { buildBreadcrumbListSchema, buildFaqPageSchema, buildWebApplicationSchema } from '../../lib/schema-jsonld.js';
-import { fieldClass, labelClass, cardClass } from '../../lib/tool-styles.js';
+import { fieldClass, labelClass, cardClass, calculateButtonClass } from '../../lib/tool-styles.js';
 
 const pageUrl = new URL(urls.tool('race-countdown-timer'), Astro.site).toString();
 
@@ -85,8 +85,10 @@ const jsonLd = [
         </div>
       </div>
 
+      <button type="button" id="cd-calculate-btn" class={calculateButtonClass}>Calculate</button>
+
       <p id="cd-hint" class="mt-6 text-sm text-brand-muted dark:text-brand-muted-dark">
-        Pick a race date above to get started.
+        Pick a race date, then tap Calculate to see your countdown.
       </p>
 
       <div id="cd-result" class="mt-6 hidden">
@@ -126,6 +128,7 @@ const jsonLd = [
     var daysEl = document.getElementById('cd-days');
     var daysLabelEl = document.getElementById('cd-days-label');
     var taperTextEl = document.getElementById('cd-taper-text');
+    var calculateBtn = document.getElementById('cd-calculate-btn');
 
     var distanceKey = 'short';
     // [minWeeks, maxWeeks] -- generic, widely-cited taper windows.
@@ -139,11 +142,11 @@ const jsonLd = [
       return d.toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' });
     }
 
-    function recompute() {
+    function calculate() {
       if (!dateInput.value) {
         result.classList.add('hidden');
         hint.classList.remove('hidden');
-        hint.textContent = 'Pick a race date above to get started.';
+        hint.textContent = 'Pick a race date, then tap Calculate to see your countdown.';
         return;
       }
 
@@ -184,11 +187,9 @@ const jsonLd = [
       chip.addEventListener('click', function () {
         distanceKey = chip.dataset.cdDistance;
         distanceChips.forEach(function (c) { c.classList.toggle('is-active', c === chip); });
-        recompute();
       });
     });
 
-    dateInput.addEventListener('input', recompute);
-    recompute();
+    calculateBtn.addEventListener('click', calculate);
   })();
 </script>

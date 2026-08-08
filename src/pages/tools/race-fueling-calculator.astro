@@ -6,7 +6,7 @@ import Breadcrumb from '../../components/Breadcrumb.astro';
 import FAQSection from '../../components/FAQSection.astro';
 import ToolsCrossLinks from '../../components/ToolsCrossLinks.astro';
 import { buildBreadcrumbListSchema, buildFaqPageSchema, buildWebApplicationSchema } from '../../lib/schema-jsonld.js';
-import { numFieldClass, selectClass, labelClass, subLabelClass, cardClass } from '../../lib/tool-styles.js';
+import { numFieldClass, selectClass, labelClass, subLabelClass, cardClass, calculateButtonClass } from '../../lib/tool-styles.js';
 
 const pageUrl = new URL(urls.tool('race-fueling-calculator'), Astro.site).toString();
 
@@ -135,8 +135,10 @@ const jsonLd = [
         </div>
       </div>
 
+      <button type="button" id="fuel-calculate-btn" class={calculateButtonClass}>Calculate</button>
+
       <p id="fuel-hint" class="mt-5 text-sm text-brand-muted dark:text-brand-muted-dark">
-        Enter a distance and goal finish time to see your fueling plan.
+        Enter a distance and goal finish time, then tap Calculate.
       </p>
 
       <div id="fuel-result" class="mt-6 hidden">
@@ -217,6 +219,7 @@ const jsonLd = [
     var sodiumPerHourEl = document.getElementById('fuel-sodium-per-hour');
     var totalCarbsEl = document.getElementById('fuel-total-carbs');
     var gelCountEl = document.getElementById('fuel-gel-count');
+    var calculateBtn = document.getElementById('fuel-calculate-btn');
 
     var conditions = 'warm';
 
@@ -233,16 +236,18 @@ const jsonLd = [
       return range[0] + '-' + range[1] + unit;
     }
 
-    function recompute() {
+    function syncCustomGroup() {
       customGroup.classList.toggle('hidden', distanceSelect.value !== 'custom');
+    }
 
+    function calculate() {
       var distanceM = getDistanceMeters();
       var timeSeconds = num(timeH) * 3600 + num(timeM) * 60 + num(timeS);
 
       if (!distanceM || !timeSeconds) {
         result.classList.add('hidden');
         hint.classList.remove('hidden');
-        hint.textContent = 'Enter a distance and goal finish time to see your fueling plan.';
+        hint.textContent = 'Enter a distance and goal finish time, then tap Calculate.';
         return;
       }
 
@@ -269,12 +274,11 @@ const jsonLd = [
       chip.addEventListener('click', function () {
         conditions = chip.dataset.conditions;
         conditionsChips.forEach(function (c) { c.classList.toggle('is-active', c === chip); });
-        recompute();
       });
     });
 
-    distanceSelect.addEventListener('change', recompute);
-    root.addEventListener('input', recompute);
-    recompute();
+    distanceSelect.addEventListener('change', syncCustomGroup);
+    calculateBtn.addEventListener('click', calculate);
+    syncCustomGroup();
   })();
 </script>

@@ -6,7 +6,7 @@ import Breadcrumb from '../../components/Breadcrumb.astro';
 import FAQSection from '../../components/FAQSection.astro';
 import ToolsCrossLinks from '../../components/ToolsCrossLinks.astro';
 import { buildBreadcrumbListSchema, buildFaqPageSchema, buildWebApplicationSchema } from '../../lib/schema-jsonld.js';
-import { numFieldClass, selectClass, labelClass, cardClass } from '../../lib/tool-styles.js';
+import { numFieldClass, selectClass, labelClass, cardClass, calculateButtonClass } from '../../lib/tool-styles.js';
 
 const pageUrl = new URL(urls.tool('calories-burned-calculator'), Astro.site).toString();
 
@@ -52,7 +52,7 @@ const jsonLd = [
 
 <BaseLayout
   title="Calories Burned Running Calculator"
-  description="Free calculator for calories burned running -- enter your body weight and distance for an instant estimate, based on the standard running-economy formula."
+  description="Free calculator for calories burned running -- enter your body weight and distance for an estimate, based on the standard running-economy formula."
   canonicalPath={urls.tool('calories-burned-calculator')}
   jsonLd={jsonLd}
 >
@@ -94,8 +94,10 @@ const jsonLd = [
         </div>
       </div>
 
+      <button type="button" id="cal-calculate-btn" class={calculateButtonClass}>Calculate</button>
+
       <p id="cal-hint" class="mt-5 text-sm text-brand-muted dark:text-brand-muted-dark">
-        Enter your weight and distance.
+        Enter your weight and distance, then tap Calculate.
       </p>
 
       <div id="cal-result" class="mt-6 hidden">
@@ -136,16 +138,16 @@ const jsonLd = [
     var hint = document.getElementById('cal-hint');
     var result = document.getElementById('cal-result');
     var valueEl = document.getElementById('cal-value');
-    var root = document.getElementById('calories-tool');
+    var calculateBtn = document.getElementById('cal-calculate-btn');
 
-    function recompute() {
+    function calculate() {
       var weightKg = num(weightInput) * (weightUnit.value === 'lb' ? 0.453592 : 1);
       var distanceKm = num(distanceInput) * (distanceUnit.value === 'mi' ? 1.60934 : 1);
 
       if (!weightKg || !distanceKm) {
         result.classList.add('hidden');
         hint.classList.remove('hidden');
-        hint.textContent = 'Enter your weight and distance.';
+        hint.textContent = 'Enter your weight and distance, then tap Calculate.';
         return;
       }
 
@@ -154,7 +156,6 @@ const jsonLd = [
       valueEl.textContent = Math.round(weightKg * distanceKm).toLocaleString();
     }
 
-    root.addEventListener('input', recompute);
-    recompute();
+    calculateBtn.addEventListener('click', calculate);
   })();
 </script>

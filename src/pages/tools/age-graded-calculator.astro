@@ -6,7 +6,7 @@ import Breadcrumb from '../../components/Breadcrumb.astro';
 import FAQSection from '../../components/FAQSection.astro';
 import ToolsCrossLinks from '../../components/ToolsCrossLinks.astro';
 import { buildBreadcrumbListSchema, buildFaqPageSchema, buildWebApplicationSchema } from '../../lib/schema-jsonld.js';
-import { numFieldClass, selectClass, labelClass, subLabelClass, cardClass } from '../../lib/tool-styles.js';
+import { numFieldClass, selectClass, labelClass, subLabelClass, cardClass, calculateButtonClass } from '../../lib/tool-styles.js';
 
 const pageUrl = new URL(urls.tool('age-graded-calculator'), Astro.site).toString();
 
@@ -134,8 +134,10 @@ const jsonLd = [
         </div>
       </div>
 
+      <button type="button" id="age-calculate-btn" class={calculateButtonClass}>Calculate</button>
+
       <p id="age-hint" class="mt-5 text-sm text-brand-muted dark:text-brand-muted-dark">
-        Enter your age, distance, and finish time to see your age-graded percentage.
+        Enter your age, distance, and finish time, then tap Calculate.
       </p>
 
       <div id="age-result" class="mt-6 hidden">
@@ -258,6 +260,7 @@ const jsonLd = [
     var percentEl = document.getElementById('age-percent');
     var equivalentTimeEl = document.getElementById('age-equivalent-time');
     var tierTextEl = document.getElementById('age-tier-text');
+    var calculateBtn = document.getElementById('age-calculate-btn');
 
     var gender = 'men';
 
@@ -270,9 +273,11 @@ const jsonLd = [
       return parseFloat(distanceSelect.value) || 0;
     }
 
-    function recompute() {
+    function syncCustomGroup() {
       customGroup.classList.toggle('hidden', distanceSelect.value !== 'custom');
+    }
 
+    function calculate() {
       var age = num(ageInput);
       var distanceM = getDistanceMeters();
       var timeSeconds = num(timeH) * 3600 + num(timeM) * 60 + num(timeS);
@@ -280,7 +285,7 @@ const jsonLd = [
       if (!age || !distanceM || !timeSeconds) {
         result.classList.add('hidden');
         hint.classList.remove('hidden');
-        hint.textContent = 'Enter your age, distance, and finish time to see your age-graded percentage.';
+        hint.textContent = 'Enter your age, distance, and finish time, then tap Calculate.';
         return;
       }
 
@@ -301,12 +306,11 @@ const jsonLd = [
       chip.addEventListener('click', function () {
         gender = chip.dataset.gender;
         genderChips.forEach(function (c) { c.classList.toggle('is-active', c === chip); });
-        recompute();
       });
     });
 
-    distanceSelect.addEventListener('change', recompute);
-    root.addEventListener('input', recompute);
-    recompute();
+    distanceSelect.addEventListener('change', syncCustomGroup);
+    calculateBtn.addEventListener('click', calculate);
+    syncCustomGroup();
   })();
 </script>
