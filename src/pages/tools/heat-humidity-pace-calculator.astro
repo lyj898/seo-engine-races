@@ -1,0 +1,284 @@
+---
+import siteConfig from '../../lib/config.js';
+import { urls } from '../../lib/urls.js';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import FAQSection from '../../components/FAQSection.astro';
+import ToolsCrossLinks from '../../components/ToolsCrossLinks.astro';
+import { buildBreadcrumbListSchema, buildFaqPageSchema, buildWebApplicationSchema } from '../../lib/schema-jsonld.js';
+import { numFieldClass, selectClass, labelClass, subLabelClass, cardClass } from '../../lib/tool-styles.js';
+
+const pageUrl = new URL(urls.tool('heat-humidity-pace-calculator'), Astro.site).toString();
+
+const distances = [
+  { key: '5k', label: '5K', m: 5000 },
+  { key: '10k', label: '10K', m: 10000 },
+  { key: 'half', label: 'Half Marathon', m: 21097.5 },
+  { key: 'full', label: 'Marathon', m: 42195 },
+];
+
+const faqs = [
+  {
+    question: 'Does heat really slow down running pace?',
+    answer:
+      'Yes -- your body diverts blood flow to the skin to cool itself, leaving less for working muscles, and heart rate climbs at the same effort. Above roughly 12-15°C (54-59°F), most runners lose measurable pace as temperature and humidity rise, even at an easy effort.',
+  },
+  {
+    question: 'What temperature is ideal for marathon racing?',
+    answer:
+      "Most elite marathon course records are set around 10-12°C (50-54°F) with low humidity. That's the reference point this calculator adjusts from -- warmer or more humid than that, and pace typically has to give a little to hold the same effort.",
+  },
+  {
+    question: 'Does humidity matter more than temperature?',
+    answer:
+      "Above about 20°C (68°F), yes, disproportionately -- high humidity blocks sweat evaporation, your body's main cooling method, so a hot, humid day punishes pace far more than an equally hot, dry one. This is exactly the combination common across much of Southeast Asia.",
+  },
+  {
+    question: 'How should I adjust my race-day goal for hot weather?',
+    answer:
+      'Treat your heat-adjusted pace as the more realistic target, not your cool-weather PB pace. Start conservatively, lean on effort and heart rate over GPS pace, and prioritize hydration and finishing well over chasing a time that was set for different conditions.',
+  },
+];
+
+const breadcrumbItems = [
+  { label: siteConfig.siteName, href: urls.home() },
+  { label: 'Pace Lab', href: urls.toolsIndex() },
+  { label: 'Heat & Humidity Pace Adjuster' },
+];
+
+const jsonLd = [
+  buildBreadcrumbListSchema(breadcrumbItems, Astro.site),
+  buildWebApplicationSchema({
+    name: 'Heat & Humidity Pace Adjuster',
+    description: 'Adjust a goal running pace for race-day temperature and humidity, using a general heat-stress pace model.',
+    url: pageUrl,
+  }),
+  ...(siteConfig.enabledFeatures?.faqSchema ? [buildFaqPageSchema(faqs)] : []),
+].filter(Boolean);
+---
+
+<BaseLayout
+  title="Heat & Humidity Pace Calculator"
+  description="Free heat and humidity pace calculator for runners -- see how much temperature and humidity slow your goal pace, built for hot, humid Southeast Asia race conditions."
+  canonicalPath={urls.tool('heat-humidity-pace-calculator')}
+  jsonLd={jsonLd}
+>
+  <div class="mx-auto max-w-3xl px-4 py-10 sm:px-6">
+    <Breadcrumb items={breadcrumbItems} />
+    <h1 class="mt-4 font-serif text-3xl font-semibold sm:text-4xl">Heat &amp; Humidity Pace Adjuster</h1>
+    <p class="mt-3 max-w-2xl text-brand-muted dark:text-brand-muted-dark">
+      Enter your goal pace plus expected race-day temperature and humidity to see a more realistic, heat-adjusted
+      pace. Most published marathon course records are set around 10-12°C (50-54°F) with low humidity -- warmer or
+      muggier than that, and effort-matched pace typically slows. Southeast Asia's races routinely start well above
+      that baseline, so this exists to set an honest goal instead of a cool-weather one.
+    </p>
+
+    <div id="heat-tool" class={`mt-6 ${cardClass}`}>
+      <p class="mb-5 text-sm text-brand-muted dark:text-brand-muted-dark">
+        Enter your goal pace, then the conditions you expect on race day.
+      </p>
+
+      <div class="space-y-5">
+        <div>
+          <label class={labelClass}>Goal pace <span id="heat-pace-unit-label" class="font-normal text-brand-muted dark:text-brand-muted-dark">(per km)</span></label>
+          <div class="flex gap-2">
+            <div class="grid flex-1 grid-cols-2 gap-2">
+              <div>
+                <input id="heat-pace-m" type="number" min="0" inputmode="numeric" placeholder="5" class={numFieldClass} />
+                <p class={subLabelClass}>min</p>
+              </div>
+              <div>
+                <input id="heat-pace-s" type="number" min="0" max="59" inputmode="numeric" placeholder="30" class={numFieldClass} />
+                <p class={subLabelClass}>sec</p>
+              </div>
+            </div>
+            <select id="heat-pace-unit" class={`w-24 shrink-0 self-start ${selectClass}`}>
+              <option value="km">per km</option>
+              <option value="mi">per mi</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="grid gap-5 sm:grid-cols-2">
+          <div>
+            <label class={labelClass}>Temperature</label>
+            <div class="flex gap-2">
+              <input id="heat-temp" type="number" inputmode="numeric" placeholder="30" class={numFieldClass} />
+              <select id="heat-temp-unit" class={`w-20 shrink-0 ${selectClass}`}>
+                <option value="c">°C</option>
+                <option value="f">°F</option>
+              </select>
+            </div>
+          </div>
+          <div>
+            <label class={labelClass} for="heat-humidity">Humidity</label>
+            <div class="flex items-center gap-2">
+              <input id="heat-humidity" type="number" min="0" max="100" inputmode="numeric" placeholder="80" class={numFieldClass} />
+              <span class="text-sm text-brand-muted dark:text-brand-muted-dark">%</span>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <label class={labelClass} for="heat-distance">Race distance (optional)</label>
+          <select id="heat-distance" class={`w-full ${selectClass}`}>
+            <option value="">-- pace only --</option>
+            {distances.map((d) => (
+              <option value={d.m}>{d.label}</option>
+            ))}
+          </select>
+        </div>
+      </div>
+
+      <p id="heat-hint" class="mt-5 text-sm text-brand-muted dark:text-brand-muted-dark">
+        Enter a goal pace, temperature, and humidity to see your heat-adjusted pace.
+      </p>
+
+      <div id="heat-result" class="mt-6 hidden">
+        <p id="heat-adjusted-pace" class="font-serif text-4xl font-bold sm:text-5xl"></p>
+        <p id="heat-adjusted-label" class="text-sm text-brand-muted dark:text-brand-muted-dark"></p>
+
+        <div class="mt-5 rounded-lg bg-brand-surface-offset p-4 text-sm dark:bg-brand-surface-offset-dark">
+          <p id="heat-note-text"></p>
+        </div>
+
+        <div id="heat-distance-result" class="mt-4 hidden text-sm">
+          <p>Goal time: <span id="heat-goal-time" class="font-semibold tabular-nums"></span></p>
+          <p>Heat-adjusted time: <span id="heat-adjusted-time" class="font-semibold tabular-nums"></span></p>
+        </div>
+
+        <p class="mt-4 text-xs text-brand-muted dark:text-brand-muted-dark">
+          A general heat-stress pace model, not a physiological measurement -- individual heat tolerance,
+          acclimatization, fitness, and body size all shift the real number. Treat this as a starting point for a
+          more realistic goal, not a guarantee.
+        </p>
+      </div>
+    </div>
+
+    <p class="mt-6 text-sm text-brand-muted dark:text-brand-muted-dark">
+      Racing somewhere hot and humid? Pair this with the
+      {' '}<a href={urls.tool('race-fueling-calculator')} class="link-accent">race fueling calculator</a> to plan hydration and sodium too, and browse
+      {' '}<a href={urls.entitiesIndex()} class="link-accent">{siteConfig.entityLabelPlural} across Southeast Asia</a>.
+    </p>
+
+    <div class="mt-10">
+      <FAQSection faqs={faqs} />
+    </div>
+
+    <ToolsCrossLinks currentSlug="heat-humidity-pace-calculator" />
+  </div>
+</BaseLayout>
+
+<script is:inline>
+  (function () {
+    function num(el) {
+      var v = parseFloat(el.value);
+      return isNaN(v) ? null : v;
+    }
+
+    function formatPace(totalSeconds) {
+      if (!isFinite(totalSeconds) || totalSeconds <= 0) return null;
+      var m = Math.floor(totalSeconds / 60);
+      var s = Math.round(totalSeconds % 60);
+      if (s === 60) { m += 1; s = 0; }
+      return m + ':' + String(s).padStart(2, '0');
+    }
+
+    function formatClock(totalSeconds) {
+      if (!isFinite(totalSeconds) || totalSeconds <= 0) return null;
+      var h = Math.floor(totalSeconds / 3600);
+      var m = Math.floor((totalSeconds % 3600) / 60);
+      var s = Math.round(totalSeconds % 60);
+      if (s === 60) { s = 0; m += 1; }
+      if (m === 60) { m = 0; h += 1; }
+      if (h > 0) return h + ':' + String(m).padStart(2, '0') + ':' + String(s).padStart(2, '0');
+      return m + ':' + String(s).padStart(2, '0');
+    }
+
+    // General heat-stress pace model, not a lab measurement: humidity only
+    // meaningfully compounds heat stress once it's actually warm (>20°C),
+    // so the humidity term is zeroed out below that. The ~0.5%/°C-above-
+    // ideal slowdown rate approximates the commonly cited "1-3% slower per
+    // 5°F above 60°F" guidance runners are given, capped at 25% so extreme
+    // inputs don't produce an absurd number.
+    var IDEAL_C = 12;
+
+    function toCelsius(temp, unit) {
+      return unit === 'f' ? (temp - 32) * 5 / 9 : temp;
+    }
+
+    function heatSlowdownPct(tempC, rh) {
+      if (tempC === null || rh === null) return null;
+      var humidityBoost = tempC > 20 ? Math.max(0, rh - 40) / 100 * (tempC - 20) * 0.4 : 0;
+      var feelsLikeC = tempC + humidityBoost;
+      var excess = Math.max(0, feelsLikeC - IDEAL_C);
+      return Math.min(excess * 0.5, 25);
+    }
+
+    function noteForPct(pct) {
+      if (pct <= 0.5) return 'Close to ideal racing conditions -- little to no adjustment needed.';
+      if (pct <= 3) return 'Mild heat effect -- a small pace pullback is sensible.';
+      if (pct <= 8) return 'Moderate heat stress -- expect a noticeable pace impact, especially late in the race.';
+      if (pct <= 15) return 'Significant heat stress -- plan a real pace pullback and lean on effort/heart rate over GPS pace.';
+      return 'Extreme heat and/or humidity -- prioritize finishing safely and staying cool over chasing a time.';
+    }
+
+    var root = document.getElementById('heat-tool');
+    var paceM = document.getElementById('heat-pace-m');
+    var paceS = document.getElementById('heat-pace-s');
+    var paceUnit = document.getElementById('heat-pace-unit');
+    var paceUnitLabel = document.getElementById('heat-pace-unit-label');
+    var tempInput = document.getElementById('heat-temp');
+    var tempUnit = document.getElementById('heat-temp-unit');
+    var humidityInput = document.getElementById('heat-humidity');
+    var distanceSelect = document.getElementById('heat-distance');
+    var hint = document.getElementById('heat-hint');
+    var result = document.getElementById('heat-result');
+    var adjustedPaceEl = document.getElementById('heat-adjusted-pace');
+    var adjustedLabelEl = document.getElementById('heat-adjusted-label');
+    var noteEl = document.getElementById('heat-note-text');
+    var distanceResult = document.getElementById('heat-distance-result');
+    var goalTimeEl = document.getElementById('heat-goal-time');
+    var adjustedTimeEl = document.getElementById('heat-adjusted-time');
+
+    function recompute() {
+      paceUnitLabel.textContent = '(per ' + paceUnit.value + ')';
+
+      var basePaceSeconds = (num(paceM) || 0) * 60 + (num(paceS) || 0);
+      var tempC = num(tempInput) === null ? null : toCelsius(num(tempInput), tempUnit.value);
+      var rh = num(humidityInput);
+
+      if (!basePaceSeconds || tempC === null || rh === null) {
+        result.classList.add('hidden');
+        hint.classList.remove('hidden');
+        hint.textContent = 'Enter a goal pace, temperature, and humidity to see your heat-adjusted pace.';
+        return;
+      }
+
+      var pct = heatSlowdownPct(tempC, rh);
+      var adjustedPaceSeconds = basePaceSeconds * (1 + pct / 100);
+
+      hint.classList.add('hidden');
+      result.classList.remove('hidden');
+      adjustedPaceEl.textContent = (formatPace(adjustedPaceSeconds) || '--') + ' /' + paceUnit.value;
+      adjustedLabelEl.textContent = 'heat-adjusted pace (+' + pct.toFixed(1) + '% vs. ' + (formatPace(basePaceSeconds) || '--') + ' goal)';
+      noteEl.textContent = noteForPct(pct);
+
+      if (distanceSelect.value) {
+        var distanceM = parseFloat(distanceSelect.value);
+        var distanceUnitLength = paceUnit.value === 'mi' ? distanceM / 1609.34 : distanceM / 1000;
+        var goalSeconds = basePaceSeconds * distanceUnitLength;
+        var adjustedSeconds = adjustedPaceSeconds * distanceUnitLength;
+        distanceResult.classList.remove('hidden');
+        goalTimeEl.textContent = formatClock(goalSeconds) || '--';
+        adjustedTimeEl.textContent = formatClock(adjustedSeconds) || '--';
+      } else {
+        distanceResult.classList.add('hidden');
+      }
+    }
+
+    root.addEventListener('input', recompute);
+    root.addEventListener('change', recompute);
+    recompute();
+  })();
+</script>

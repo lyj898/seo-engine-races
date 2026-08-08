@@ -37,4 +37,19 @@ export const TOOLS = [
     navLabel: 'Calories Burned Calculator',
     hubDescription: 'Estimate calories burned for a run from your body weight and distance.',
   },
+  {
+    slug: 'heat-humidity-pace-calculator',
+    navLabel: 'Heat & Humidity Pace Adjuster',
+    hubDescription: 'Adjust your goal pace for hot, humid race-day conditions -- built for Southeast Asia racing.',
+  },
+  {
+    slug: 'age-graded-calculator',
+    navLabel: 'Age-Graded Calculator',
+    hubDescription: 'See your age-graded percentage and open-class-equivalent time for any race result.',
+  },
+  {
+    slug: 'race-fueling-calculator',
+    navLabel: 'Race Fueling Calculator',
+    hubDescription: 'Estimate the carbs, fluids, and sodium you need per hour, and how many gels to carry.',
+  },
 ];

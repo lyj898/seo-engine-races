@@ -1,0 +1,312 @@
+---
+import siteConfig from '../../lib/config.js';
+import { urls } from '../../lib/urls.js';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import FAQSection from '../../components/FAQSection.astro';
+import ToolsCrossLinks from '../../components/ToolsCrossLinks.astro';
+import { buildBreadcrumbListSchema, buildFaqPageSchema, buildWebApplicationSchema } from '../../lib/schema-jsonld.js';
+import { numFieldClass, selectClass, labelClass, subLabelClass, cardClass } from '../../lib/tool-styles.js';
+
+const pageUrl = new URL(urls.tool('age-graded-calculator'), Astro.site).toString();
+
+const distances = [
+  { key: '5k', label: '5K', m: 5000 },
+  { key: '10k', label: '10K', m: 10000 },
+  { key: '15k', label: '15K', m: 15000 },
+  { key: '10mi', label: '10 Mile', m: 16093.4 },
+  { key: 'half', label: 'Half Marathon', m: 21097.5 },
+  { key: 'full', label: 'Marathon', m: 42195 },
+];
+
+const faqs = [
+  {
+    question: 'What is age grading in running?',
+    answer:
+      'Age grading converts a finish time into a percentage of the open-class, elite-level standard for that distance and gender, adjusted for the runner’s age. It lets a 60-year-old’s time be compared fairly against a 30-year-old’s, rather than compared directly.',
+  },
+  {
+    question: 'How is age-graded percentage calculated?',
+    answer:
+      'Broadly: your finish time is adjusted by an age factor reflecting typical age-related performance decline, then compared to an elite reference time for that distance and gender. The result is expressed as a percentage -- higher is closer to elite, age-adjusted performance.',
+  },
+  {
+    question: 'What is a good age-graded percentage?',
+    answer:
+      'Rough bands widely used by age-grading calculators: 50-60% is a solid recreational effort, 60-70% is competitive local/regional class, 70-80% is national class, and 80%+ starts to approach world class for that age group.',
+  },
+  {
+    question: 'Does this use the official WMA age-grading tables?',
+    answer:
+      'No -- this uses an approximate, general age-decline model and approximate elite reference times, not the official World Masters Athletics tables. For certified age-grading (e.g. for masters records or rankings), use WMA’s published factors directly.',
+  },
+];
+
+const breadcrumbItems = [
+  { label: siteConfig.siteName, href: urls.home() },
+  { label: 'Pace Lab', href: urls.toolsIndex() },
+  { label: 'Age-Graded Calculator' },
+];
+
+const jsonLd = [
+  buildBreadcrumbListSchema(breadcrumbItems, Astro.site),
+  buildWebApplicationSchema({
+    name: 'Age-Graded Running Calculator',
+    description: 'Estimate an age-graded percentage and open-class-equivalent time for a race result, by age, gender, and distance.',
+    url: pageUrl,
+  }),
+  ...(siteConfig.enabledFeatures?.faqSchema ? [buildFaqPageSchema(faqs)] : []),
+].filter(Boolean);
+---
+
+<BaseLayout
+  title="Age-Graded Running Calculator"
+  description="Free age-graded running calculator -- enter your age, gender, distance, and finish time to estimate your age-graded percentage and open-class-equivalent time."
+  canonicalPath={urls.tool('age-graded-calculator')}
+  jsonLd={jsonLd}
+>
+  <div class="mx-auto max-w-3xl px-4 py-10 sm:px-6">
+    <Breadcrumb items={breadcrumbItems} />
+    <h1 class="mt-4 font-serif text-3xl font-semibold sm:text-4xl">Age-Graded Running Calculator</h1>
+    <p class="mt-3 max-w-2xl text-brand-muted dark:text-brand-muted-dark">
+      Enter your age, gender, distance, and finish time to estimate your age-graded percentage -- how your result
+      compares to elite, open-class performance once typical age-related decline is accounted for -- plus what that
+      performance would be worth at open-class age.
+    </p>
+
+    <div id="age-tool" class={`mt-6 ${cardClass}`}>
+      <p class="mb-5 text-sm text-brand-muted dark:text-brand-muted-dark">
+        Enter your result to see your age-graded percentage.
+      </p>
+
+      <div class="space-y-5">
+        <div class="grid gap-5 sm:grid-cols-2">
+          <div>
+            <label class={labelClass} for="age-input">Age on race day</label>
+            <input id="age-input" type="number" min="5" max="100" inputmode="numeric" placeholder="42" class={numFieldClass} />
+          </div>
+          <div>
+            <p class={labelClass}>Gender</p>
+            <div class="inline-flex gap-0.5 rounded-full bg-brand-surface-offset p-[3px] dark:bg-brand-surface-offset-dark">
+              <button type="button" data-gender="women" class="gender-chip filter-chip rounded-full px-4 py-2 text-sm font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">Women</button>
+              <button type="button" data-gender="men" class="gender-chip filter-chip is-active rounded-full px-4 py-2 text-sm font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">Men</button>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <label class={labelClass} for="age-distance">Distance</label>
+          <select id="age-distance" class={`w-full ${selectClass}`}>
+            {distances.map((d) => (
+              <option value={d.m} selected={d.key === 'half'}>{d.label}</option>
+            ))}
+            <option value="custom">Custom distance</option>
+          </select>
+        </div>
+
+        <div id="age-custom-group" class="hidden">
+          <label class={labelClass} for="age-custom-value">Custom distance</label>
+          <div class="flex gap-2">
+            <input id="age-custom-value" type="number" min="0" step="0.01" inputmode="decimal" placeholder="10" class={numFieldClass} />
+            <select id="age-custom-unit" class={`w-24 shrink-0 ${selectClass}`}>
+              <option value="km">km</option>
+              <option value="mi">mi</option>
+            </select>
+          </div>
+        </div>
+
+        <div>
+          <label class={labelClass}>Finish time</label>
+          <div class="grid grid-cols-3 gap-2">
+            <div>
+              <input id="age-time-h" type="number" min="0" inputmode="numeric" placeholder="1" class={numFieldClass} />
+              <p class={subLabelClass}>hours</p>
+            </div>
+            <div>
+              <input id="age-time-m" type="number" min="0" max="59" inputmode="numeric" placeholder="45" class={numFieldClass} />
+              <p class={subLabelClass}>min</p>
+            </div>
+            <div>
+              <input id="age-time-s" type="number" min="0" max="59" inputmode="numeric" placeholder="00" class={numFieldClass} />
+              <p class={subLabelClass}>sec</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p id="age-hint" class="mt-5 text-sm text-brand-muted dark:text-brand-muted-dark">
+        Enter your age, distance, and finish time to see your age-graded percentage.
+      </p>
+
+      <div id="age-result" class="mt-6 hidden">
+        <p id="age-percent" class="font-serif text-4xl font-bold sm:text-5xl"></p>
+        <p class="text-sm text-brand-muted dark:text-brand-muted-dark">age-graded percentage</p>
+
+        <div class="mt-5 rounded-lg bg-brand-surface-offset p-4 text-sm dark:bg-brand-surface-offset-dark">
+          <p>Open-class-equivalent time: <span id="age-equivalent-time" class="font-semibold tabular-nums"></span></p>
+          <p id="age-tier-text" class="mt-1"></p>
+        </div>
+
+        <p class="mt-4 text-xs text-brand-muted dark:text-brand-muted-dark">
+          Uses an approximate, general age-decline model and approximate elite reference times per distance and
+          gender -- not the official WMA age-grading tables. Treat as a general estimate, not a certified score.
+        </p>
+      </div>
+    </div>
+
+    <p class="mt-6 text-sm text-brand-muted dark:text-brand-muted-dark">
+      Curious what that result predicts elsewhere? Try the
+      {' '}<a href={urls.tool('race-time-predictor')} class="link-accent">race time predictor</a>, or browse
+      {' '}<a href={urls.entitiesIndex()} class="link-accent">{siteConfig.entityLabelPlural} across Southeast Asia</a> for your next result.
+    </p>
+
+    <div class="mt-10">
+      <FAQSection faqs={faqs} />
+    </div>
+
+    <ToolsCrossLinks currentSlug="age-graded-calculator" />
+  </div>
+</BaseLayout>
+
+<script is:inline>
+  (function () {
+    function num(el) {
+      var v = parseFloat(el.value);
+      return isNaN(v) || v < 0 ? 0 : v;
+    }
+
+    function formatClock(totalSeconds) {
+      if (!isFinite(totalSeconds) || totalSeconds <= 0) return null;
+      var h = Math.floor(totalSeconds / 3600);
+      var m = Math.floor((totalSeconds % 3600) / 60);
+      var s = Math.round(totalSeconds % 60);
+      if (s === 60) { s = 0; m += 1; }
+      if (m === 60) { m = 0; h += 1; }
+      if (h > 0) return h + ':' + String(m).padStart(2, '0') + ':' + String(s).padStart(2, '0');
+      return m + ':' + String(s).padStart(2, '0');
+    }
+
+    // Approximate elite (open-class) reference times in seconds, by gender.
+    // Used only as a fixed comparison point to compute a relative
+    // percentage -- not maintained as a live world-records tracker.
+    var MEN_BEST = { 5000: 755.36, 10000: 1571.0, 15000: 2465.0, 16093.4: 2644.0, 21097.5: 3451.0, 42195: 7235.0 };
+    var WOMEN_BEST = { 5000: 846.0, 10000: 1741.0, 15000: 2820.0, 16093.4: 3030.0, 21097.5: 3772.0, 42195: 7796.0 };
+
+    function bestForDistance(table, distanceM) {
+      var exact = table[distanceM];
+      if (exact) return exact;
+      var keys = Object.keys(table).map(Number).sort(function (a, b) { return a - b; });
+      if (distanceM <= keys[0]) return table[keys[0]] * Math.pow(distanceM / keys[0], 1.06);
+      if (distanceM >= keys[keys.length - 1]) return table[keys[keys.length - 1]] * Math.pow(distanceM / keys[keys.length - 1], 1.06);
+      for (var i = 0; i < keys.length - 1; i++) {
+        if (distanceM >= keys[i] && distanceM <= keys[i + 1]) {
+          var logDist = Math.log(distanceM);
+          var logD1 = Math.log(keys[i]), logD2 = Math.log(keys[i + 1]);
+          var logB1 = Math.log(table[keys[i]]), logB2 = Math.log(table[keys[i + 1]]);
+          var t = (logDist - logD1) / (logD2 - logD1);
+          return Math.exp(logB1 + t * (logB2 - logB1));
+        }
+      }
+      return null;
+    }
+
+    // General age-decline curve, not the official WMA age-factor tables --
+    // flat through the typical endurance peak (25-35), then increasingly
+    // steep decline with age, mirroring the shape (not exact values) of
+    // published masters age-grading research.
+    function ageFactor(age) {
+      if (age >= 25 && age <= 35) return 1;
+      if (age > 35) {
+        var f = 1;
+        var bands = [[35, 50, 0.006], [50, 60, 0.009], [60, 70, 0.013], [70, 80, 0.018], [80, 120, 0.023]];
+        for (var i = 0; i < bands.length; i++) {
+          var lo = bands[i][0], hi = bands[i][1], rate = bands[i][2];
+          if (age > lo) {
+            var years = Math.min(age, hi) - lo;
+            f -= years * rate;
+          }
+        }
+        return Math.max(f, 0.15);
+      }
+      // Under 25: gentle discount down to 18, steeper below that.
+      var g = 1;
+      if (age < 25) g -= Math.min(25 - age, 7) * 0.003;
+      if (age < 18) g -= (18 - age) * 0.01;
+      return Math.max(g, 0.1);
+    }
+
+    function tierForPercent(pct) {
+      if (pct >= 80) return 'Approaching world class for this age group.';
+      if (pct >= 70) return 'National class.';
+      if (pct >= 60) return 'Regional / competitive local class.';
+      if (pct >= 50) return 'Solid recreational effort.';
+      return 'Recreational / developing.';
+    }
+
+    var root = document.getElementById('age-tool');
+    var ageInput = document.getElementById('age-input');
+    var genderChips = root.querySelectorAll('.gender-chip');
+    var distanceSelect = document.getElementById('age-distance');
+    var customGroup = document.getElementById('age-custom-group');
+    var customValue = document.getElementById('age-custom-value');
+    var customUnit = document.getElementById('age-custom-unit');
+    var timeH = document.getElementById('age-time-h');
+    var timeM = document.getElementById('age-time-m');
+    var timeS = document.getElementById('age-time-s');
+    var hint = document.getElementById('age-hint');
+    var result = document.getElementById('age-result');
+    var percentEl = document.getElementById('age-percent');
+    var equivalentTimeEl = document.getElementById('age-equivalent-time');
+    var tierTextEl = document.getElementById('age-tier-text');
+
+    var gender = 'men';
+
+    function getDistanceMeters() {
+      if (distanceSelect.value === 'custom') {
+        var v = num(customValue);
+        if (!v) return 0;
+        return customUnit.value === 'mi' ? v * 1609.34 : v * 1000;
+      }
+      return parseFloat(distanceSelect.value) || 0;
+    }
+
+    function recompute() {
+      customGroup.classList.toggle('hidden', distanceSelect.value !== 'custom');
+
+      var age = num(ageInput);
+      var distanceM = getDistanceMeters();
+      var timeSeconds = num(timeH) * 3600 + num(timeM) * 60 + num(timeS);
+
+      if (!age || !distanceM || !timeSeconds) {
+        result.classList.add('hidden');
+        hint.classList.remove('hidden');
+        hint.textContent = 'Enter your age, distance, and finish time to see your age-graded percentage.';
+        return;
+      }
+
+      var table = gender === 'women' ? WOMEN_BEST : MEN_BEST;
+      var standard = bestForDistance(table, distanceM);
+      var factor = ageFactor(age);
+      var ageGradedSeconds = timeSeconds * factor;
+      var pct = (standard / ageGradedSeconds) * 100;
+
+      hint.classList.add('hidden');
+      result.classList.remove('hidden');
+      percentEl.textContent = pct.toFixed(1) + '%';
+      equivalentTimeEl.textContent = formatClock(ageGradedSeconds) || '--';
+      tierTextEl.textContent = tierForPercent(pct);
+    }
+
+    genderChips.forEach(function (chip) {
+      chip.addEventListener('click', function () {
+        gender = chip.dataset.gender;
+        genderChips.forEach(function (c) { c.classList.toggle('is-active', c === chip); });
+        recompute();
+      });
+    });
+
+    distanceSelect.addEventListener('change', recompute);
+    root.addEventListener('input', recompute);
+    recompute();
+  })();
+</script>
