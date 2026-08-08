@@ -1,0 +1,282 @@
+---
+import siteConfig from '../../lib/config.js';
+import { urls } from '../../lib/urls.js';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import FAQSection from '../../components/FAQSection.astro';
+import ToolsCrossLinks from '../../components/ToolsCrossLinks.astro';
+import { buildBreadcrumbListSchema, buildFaqPageSchema, buildWebApplicationSchema } from '../../lib/schema-jsonld.js';
+import { fieldClass, numFieldClass, selectClass, labelClass, subLabelClass, cardClass } from '../../lib/tool-styles.js';
+
+const pageUrl = new URL(urls.tool('pace-calculator'), Astro.site).toString();
+
+const presets = [
+  { key: '5k', label: '5K', m: 5000 },
+  { key: '10k', label: '10K', m: 10000 },
+  { key: 'half', label: 'Half Marathon', m: 21097.5 },
+  { key: 'full', label: 'Marathon', m: 42195 },
+];
+
+const faqs = [
+  {
+    question: 'How do I calculate my running pace?',
+    answer:
+      'Divide your total time by your distance. This calculator does the division for you -- enter your distance and finish time, and your pace fills in automatically, in minutes and seconds per kilometer or mile.',
+  },
+  {
+    question: "What's a good pace for a beginner runner?",
+    answer:
+      'Most beginners run somewhere between 6:30 and 8:00 per kilometer (about 10:30-13:00 per mile). Pace depends far more on fitness, terrain, and heat than on any fixed standard, so track your own trend over time rather than comparing to others.',
+  },
+  {
+    question: 'How do I convert pace between km and miles?',
+    answer:
+      'Multiply a per-km pace by 1.60934 to get per-mile pace, or divide a per-mile pace by the same number to go the other way. This calculator converts automatically when you switch the distance unit.',
+  },
+  {
+    question: 'Is pace the same as speed?',
+    answer:
+      "They describe the same thing two ways. Pace is time per unit distance (minutes per km); speed is distance per unit time (km per hour). Runners use pace because it's the more intuitive way to plan race splits.",
+  },
+];
+
+const breadcrumbItems = [
+  { label: siteConfig.siteName, href: urls.home() },
+  { label: 'Pace Lab', href: urls.toolsIndex() },
+  { label: 'Pace Calculator' },
+];
+
+const jsonLd = [
+  buildBreadcrumbListSchema(breadcrumbItems, Astro.site),
+  buildWebApplicationSchema({
+    name: 'Running Pace Calculator',
+    description: 'Solve for running pace, finish time, or distance -- enter any two and the third fills in instantly.',
+    url: pageUrl,
+  }),
+  ...(siteConfig.enabledFeatures?.faqSchema ? [buildFaqPageSchema(faqs)] : []),
+].filter(Boolean);
+---
+
+<BaseLayout
+  title="Running Pace Calculator"
+  description="Free running pace calculator -- solve for pace, finish time, or distance for any race from 5K to marathon. No sign-up, results update instantly."
+  canonicalPath={urls.tool('pace-calculator')}
+  jsonLd={jsonLd}
+>
+  <div class="mx-auto max-w-3xl px-4 py-10 sm:px-6">
+    <Breadcrumb items={breadcrumbItems} />
+    <h1 class="mt-4 font-serif text-3xl font-semibold sm:text-4xl">Running Pace Calculator</h1>
+    <p class="mt-3 max-w-2xl text-brand-muted dark:text-brand-muted-dark">
+      Enter any two of distance, finish time, and pace, and this calculator solves for the third instantly. Useful
+      for working out what pace you need to hit a goal finish time, what time a given pace produces over a race
+      distance, or how far you actually covered on a run. Switch between kilometers and miles at any point.
+    </p>
+
+    <div id="pace-tool" class={`mt-6 ${cardClass}`}>
+      <p class="mb-5 text-sm text-brand-muted dark:text-brand-muted-dark">
+        Fill in the two fields you know. The highlighted field fills itself in.
+      </p>
+
+      <div class="mb-6">
+        <p class={`${labelClass} mb-2`}>Solve for</p>
+        <div class="inline-flex flex-wrap gap-0.5 rounded-full bg-brand-surface-offset p-[3px] dark:bg-brand-surface-offset-dark">
+          <button type="button" data-mode="pace" class="mode-chip filter-chip is-active rounded-full px-4 py-2 text-sm font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">Pace</button>
+          <button type="button" data-mode="time" class="mode-chip filter-chip rounded-full px-4 py-2 text-sm font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">Finish time</button>
+          <button type="button" data-mode="distance" class="mode-chip filter-chip rounded-full px-4 py-2 text-sm font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">Distance</button>
+        </div>
+      </div>
+
+      <div class="mb-6 flex flex-wrap gap-2">
+        {presets.map((preset) => (
+          <button
+            type="button"
+            class="preset-btn rounded-full border border-brand-border px-3 py-1 text-xs font-semibold text-brand-muted transition-colors hover:border-brand-faint hover:text-brand-text dark:border-brand-border-dark dark:text-brand-muted-dark dark:hover:text-brand-text-dark"
+            data-km={preset.m / 1000}
+          >
+            {preset.label}
+          </button>
+        ))}
+      </div>
+
+      <div class="space-y-5">
+        <div id="group-distance">
+          <label class={labelClass} for="dist-value">Distance</label>
+          <div class="flex gap-2">
+            <input id="dist-value" type="number" min="0" step="0.001" inputmode="decimal" placeholder="10" class={numFieldClass} />
+            <select id="dist-unit" class={`w-24 shrink-0 ${selectClass}`}>
+              <option value="km">km</option>
+              <option value="mi">mi</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="group-time">
+          <label class={labelClass}>Finish time</label>
+          <div class="grid grid-cols-3 gap-2">
+            <div>
+              <input id="time-h" type="number" min="0" inputmode="numeric" placeholder="0" class={numFieldClass} />
+              <p class={subLabelClass}>hours</p>
+            </div>
+            <div>
+              <input id="time-m" type="number" min="0" max="59" inputmode="numeric" placeholder="50" class={numFieldClass} />
+              <p class={subLabelClass}>min</p>
+            </div>
+            <div>
+              <input id="time-s" type="number" min="0" max="59" inputmode="numeric" placeholder="00" class={numFieldClass} />
+              <p class={subLabelClass}>sec</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="group-pace">
+          <label class={labelClass}>Pace <span id="pace-unit-label" class="font-normal text-brand-muted dark:text-brand-muted-dark">(per km)</span></label>
+          <div class="grid grid-cols-2 gap-2">
+            <div>
+              <input id="pace-m" type="number" min="0" inputmode="numeric" placeholder="5" class={numFieldClass} />
+              <p class={subLabelClass}>min</p>
+            </div>
+            <div>
+              <input id="pace-s" type="number" min="0" max="59" inputmode="numeric" placeholder="00" class={numFieldClass} />
+              <p class={subLabelClass}>sec</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p id="pace-calc-hint" class="mt-5 text-sm text-brand-muted dark:text-brand-muted-dark">
+        Enter a distance and finish time to see your pace.
+      </p>
+    </div>
+
+    <p class="mt-6 text-sm text-brand-muted dark:text-brand-muted-dark">
+      Training or racing a specific distance? Browse
+      {' '}<a href={urls.entitiesIndex()} class="link-accent">upcoming {siteConfig.entityLabelPlural} across Southeast Asia</a>.
+    </p>
+
+    <div class="mt-10">
+      <FAQSection faqs={faqs} />
+    </div>
+
+    <ToolsCrossLinks currentSlug="pace-calculator" />
+  </div>
+</BaseLayout>
+
+<script is:inline>
+  (function () {
+    function num(el) {
+      var v = parseFloat(el.value);
+      return isNaN(v) || v < 0 ? 0 : v;
+    }
+
+    function formatPace(totalSeconds) {
+      if (!isFinite(totalSeconds) || totalSeconds <= 0) return null;
+      var m = Math.floor(totalSeconds / 60);
+      var s = Math.round(totalSeconds % 60);
+      if (s === 60) { m += 1; s = 0; }
+      return m + ':' + String(s).padStart(2, '0');
+    }
+
+    function formatClock(totalSeconds) {
+      if (!isFinite(totalSeconds) || totalSeconds <= 0) return null;
+      var h = Math.floor(totalSeconds / 3600);
+      var m = Math.floor((totalSeconds % 3600) / 60);
+      var s = Math.round(totalSeconds % 60);
+      if (s === 60) { s = 0; m += 1; }
+      if (m === 60) { m = 0; h += 1; }
+      if (h > 0) return h + ':' + String(m).padStart(2, '0') + ':' + String(s).padStart(2, '0');
+      return m + ':' + String(s).padStart(2, '0');
+    }
+
+    var root = document.getElementById('pace-tool');
+    var modeChips = root.querySelectorAll('.mode-chip');
+    var distValue = document.getElementById('dist-value');
+    var distUnit = document.getElementById('dist-unit');
+    var timeH = document.getElementById('time-h');
+    var timeM = document.getElementById('time-m');
+    var timeS = document.getElementById('time-s');
+    var paceM = document.getElementById('pace-m');
+    var paceS = document.getElementById('pace-s');
+    var paceUnitLabel = document.getElementById('pace-unit-label');
+    var hint = document.getElementById('pace-calc-hint');
+    var presetBtns = root.querySelectorAll('.preset-btn');
+
+    var groups = { distance: [distValue], time: [timeH, timeM, timeS], pace: [paceM, paceS] };
+    var mode = 'pace';
+
+    function setGroupDisabled(name, disabled) {
+      groups[name].forEach(function (el) { el.disabled = disabled; });
+    }
+
+    function applyMode() {
+      modeChips.forEach(function (chip) { chip.classList.toggle('is-active', chip.dataset.mode === mode); });
+      Object.keys(groups).forEach(function (name) { setGroupDisabled(name, name === mode); });
+      recompute();
+    }
+
+    function recompute() {
+      paceUnitLabel.textContent = '(per ' + distUnit.value + ')';
+
+      var distanceVal = num(distValue);
+      var timeSeconds = num(timeH) * 3600 + num(timeM) * 60 + num(timeS);
+      var paceSeconds = num(paceM) * 60 + num(paceS);
+
+      if (mode === 'pace') {
+        if (distanceVal > 0 && timeSeconds > 0) {
+          var p = formatPace(timeSeconds / distanceVal);
+          if (p) {
+            var parts = p.split(':');
+            paceM.value = parts[0];
+            paceS.value = parts[1];
+            hint.textContent = 'That’s a pace of ' + p + ' per ' + distUnit.value + '.';
+            return;
+          }
+        }
+        paceM.value = '';
+        paceS.value = '';
+        hint.textContent = 'Enter a distance and finish time to see your pace.';
+      } else if (mode === 'time') {
+        if (distanceVal > 0 && paceSeconds > 0) {
+          var t = formatClock(paceSeconds * distanceVal);
+          if (t) {
+            var tp = t.split(':');
+            if (tp.length === 2) tp.unshift('0');
+            timeH.value = tp[0];
+            timeM.value = tp[1];
+            timeS.value = tp[2];
+            hint.textContent = 'Estimated finish time: ' + tp[0] + ':' + tp[1] + ':' + tp[2] + '.';
+            return;
+          }
+        }
+        timeH.value = '';
+        timeM.value = '';
+        timeS.value = '';
+        hint.textContent = 'Enter a distance and pace to see your finish time.';
+      } else if (mode === 'distance') {
+        if (timeSeconds > 0 && paceSeconds > 0) {
+          var d = Math.round((timeSeconds / paceSeconds) * 1000) / 1000;
+          distValue.value = d;
+          hint.textContent = 'That covers ' + d + ' ' + distUnit.value + '.';
+          return;
+        }
+        distValue.value = '';
+        hint.textContent = 'Enter a finish time and pace to see the distance.';
+      }
+    }
+
+    modeChips.forEach(function (chip) {
+      chip.addEventListener('click', function () { mode = chip.dataset.mode; applyMode(); });
+    });
+
+    presetBtns.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        distUnit.value = 'km';
+        distValue.value = btn.dataset.km;
+        if (mode === 'distance') { mode = 'pace'; applyMode(); } else { recompute(); }
+      });
+    });
+
+    root.addEventListener('input', recompute);
+    distUnit.addEventListener('change', recompute);
+    applyMode();
+  })();
+</script>

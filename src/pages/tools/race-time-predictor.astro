@@ -1,0 +1,456 @@
+---
+import siteConfig from '../../lib/config.js';
+import { urls } from '../../lib/urls.js';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import FAQSection from '../../components/FAQSection.astro';
+import ToolsCrossLinks from '../../components/ToolsCrossLinks.astro';
+import { buildBreadcrumbListSchema, buildFaqPageSchema, buildWebApplicationSchema } from '../../lib/schema-jsonld.js';
+import { fieldClass, numFieldClass, selectClass, labelClass, subLabelClass, cardClass } from '../../lib/tool-styles.js';
+
+const pageUrl = new URL(urls.tool('race-time-predictor'), Astro.site).toString();
+
+const predictDistances = [
+  { key: '5k', label: '5K', m: 5000 },
+  { key: '10k', label: '10K', m: 10000 },
+  { key: '15k', label: '15K', m: 15000 },
+  { key: '10mi', label: '10 Mile', m: 16093.4 },
+  { key: 'half', label: 'Half Marathon', m: 21097.5 },
+  { key: 'full', label: 'Marathon', m: 42195 },
+];
+
+const trainingZones = [
+  { key: 'easy', label: 'Easy' },
+  { key: 'marathon', label: 'Marathon' },
+  { key: 'threshold', label: 'Threshold' },
+  { key: 'interval', label: 'Interval' },
+];
+
+const faqs = [
+  {
+    question: 'How accurate are race time predictors?',
+    answer:
+      "They're a solid starting estimate, not a guarantee. Predictions assume similar training and conditions across distances -- a strong 10K result predicts a marathon less reliably than it predicts a 5K, since endurance and fueling matter more the longer the race gets.",
+  },
+  {
+    question: 'What is VDOT?',
+    answer:
+      "VDOT is Jack Daniels' measure of running fitness, derived from a recent race result's pace and duration. It's used to predict equivalent performances at other distances and to set training paces for easy, marathon, threshold, and interval runs.",
+  },
+  {
+    question: 'Can I predict a marathon time from a 10K result?',
+    answer:
+      'Yes, though accuracy drops the bigger the gap between the reference and target distance. A recent half marathon predicts a marathon more reliably than a 10K does, since it better reflects your endurance at marathon-relevant durations.',
+  },
+  {
+    question: 'Which prediction method should I trust -- Riegel, Daniels, linear, or Purdy?',
+    answer:
+      'None is definitively "best" -- they’re four different published models, and where they agree is generally more trustworthy than where they diverge. Riegel and Daniels are the two most widely used for age-group runners.',
+  },
+];
+
+const breadcrumbItems = [
+  { label: siteConfig.siteName, href: urls.home() },
+  { label: 'Pace Lab', href: urls.toolsIndex() },
+  { label: 'Race Time Predictor' },
+];
+
+const jsonLd = [
+  buildBreadcrumbListSchema(breadcrumbItems, Astro.site),
+  buildWebApplicationSchema({
+    name: 'Race Time Predictor',
+    description:
+      'Predict race finish times at other distances and estimate training paces from one recent race result, using four published formulas.',
+    url: pageUrl,
+  }),
+  ...(siteConfig.enabledFeatures?.faqSchema ? [buildFaqPageSchema(faqs)] : []),
+].filter(Boolean);
+---
+
+<BaseLayout
+  title="Race Time Predictor"
+  description="Predict your marathon, half marathon, 10K, or 5K finish time from one recent race result -- plus estimated training paces. Four published prediction formulas, free."
+  canonicalPath={urls.tool('race-time-predictor')}
+  jsonLd={jsonLd}
+>
+  <div class="mx-auto max-w-3xl px-4 py-10 sm:px-6">
+    <Breadcrumb items={breadcrumbItems} />
+    <h1 class="mt-4 font-serif text-3xl font-semibold sm:text-4xl">Race Time Predictor</h1>
+    <p class="mt-3 max-w-2xl text-brand-muted dark:text-brand-muted-dark">
+      Enter one recent race result and this tool estimates your finish time at five other distances -- from 5K up
+      to marathon -- along with training paces for easy, marathon, threshold, and interval effort. Estimates come
+      from four independently published formulas (Riegel, Daniels &amp; Gilbert's VDOT, a simple linear
+      extrapolation, and Purdy's world-record-percentage method), so you can compare where they agree.
+    </p>
+
+    <div id="predictor-tool" class={`mt-6 ${cardClass}`}>
+      <p class="mb-5 text-sm text-brand-muted dark:text-brand-muted-dark">
+        Enter one recent race result to estimate your times at other distances and your training paces.
+      </p>
+
+      <div class="space-y-5">
+        <div>
+          <label class={labelClass} for="pred-distance">Recent result -- distance</label>
+          <select id="pred-distance" class={`w-full ${selectClass}`}>
+            {predictDistances.map((d) => (
+              <option value={d.m} selected={d.key === 'half'}>{d.label}</option>
+            ))}
+            <option value="custom">Custom distance</option>
+          </select>
+        </div>
+
+        <div id="pred-custom-group" class="hidden">
+          <label class={labelClass} for="pred-custom-value">Custom distance</label>
+          <div class="flex gap-2">
+            <input id="pred-custom-value" type="number" min="0" step="0.01" inputmode="decimal" placeholder="10" class={numFieldClass} />
+            <select id="pred-custom-unit" class={`w-24 shrink-0 ${selectClass}`}>
+              <option value="km">km</option>
+              <option value="mi">mi</option>
+            </select>
+          </div>
+        </div>
+
+        <div>
+          <label class={labelClass}>Recent result -- finish time</label>
+          <div class="grid grid-cols-3 gap-2">
+            <div>
+              <input id="pred-time-h" type="number" min="0" inputmode="numeric" placeholder="1" class={numFieldClass} />
+              <p class={subLabelClass}>hours</p>
+            </div>
+            <div>
+              <input id="pred-time-m" type="number" min="0" max="59" inputmode="numeric" placeholder="45" class={numFieldClass} />
+              <p class={subLabelClass}>min</p>
+            </div>
+            <div>
+              <input id="pred-time-s" type="number" min="0" max="59" inputmode="numeric" placeholder="00" class={numFieldClass} />
+              <p class={subLabelClass}>sec</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p id="pred-hint" class="mt-5 text-sm text-brand-muted dark:text-brand-muted-dark">
+        Enter a recent finish time to see predictions.
+      </p>
+
+      <div id="pred-results" class="mt-6 hidden">
+        <div class="flex flex-wrap items-center justify-between gap-3">
+          <h2 class="text-sm font-semibold">Predicted race times</h2>
+          <div class="inline-flex gap-0.5 rounded-full bg-brand-surface-offset p-[3px] dark:bg-brand-surface-offset-dark">
+            <button type="button" data-method="all" class="method-chip filter-chip is-active rounded-full px-3 py-1.5 text-xs font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">All</button>
+            <button type="button" data-method="riegel" class="method-chip filter-chip rounded-full px-3 py-1.5 text-xs font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">Riegel</button>
+            <button type="button" data-method="daniels" class="method-chip filter-chip rounded-full px-3 py-1.5 text-xs font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">Daniels</button>
+            <button type="button" data-method="linear" class="method-chip filter-chip rounded-full px-3 py-1.5 text-xs font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">Linear</button>
+            <button type="button" data-method="purdy" class="method-chip filter-chip rounded-full px-3 py-1.5 text-xs font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">Purdy</button>
+          </div>
+        </div>
+        <div class="mt-3 overflow-x-auto">
+          <table class="w-full border-collapse text-sm">
+            <thead>
+              <tr class="border-b border-brand-border dark:border-brand-border-dark">
+                <th class="py-2 pr-3 text-left font-medium text-brand-muted dark:text-brand-muted-dark">Distance</th>
+                <th data-method-col="riegel" class="py-2 pr-3 text-left font-medium text-brand-muted dark:text-brand-muted-dark">Riegel</th>
+                <th data-method-col="daniels" class="py-2 pr-3 text-left font-medium text-brand-muted dark:text-brand-muted-dark">Daniels</th>
+                <th data-method-col="linear" class="py-2 pr-3 text-left font-medium text-brand-muted dark:text-brand-muted-dark">Linear</th>
+                <th data-method-col="purdy" class="py-2 text-left font-medium text-brand-muted dark:text-brand-muted-dark">Purdy</th>
+              </tr>
+            </thead>
+            <tbody>
+              {predictDistances.map((d) => (
+                <tr class="border-b border-brand-border last:border-0 dark:border-brand-border-dark" data-distance-row={d.key}>
+                  <td class="py-2 pr-3 font-medium">{d.label}</td>
+                  <td data-method-col="riegel" class="py-2 pr-3 whitespace-nowrap tabular-nums" id={`pred-riegel-${d.key}`}>--</td>
+                  <td data-method-col="daniels" class="py-2 pr-3 whitespace-nowrap tabular-nums" id={`pred-daniels-${d.key}`}>--</td>
+                  <td data-method-col="linear" class="py-2 pr-3 whitespace-nowrap tabular-nums" id={`pred-linear-${d.key}`}>--</td>
+                  <td data-method-col="purdy" class="py-2 whitespace-nowrap tabular-nums" id={`pred-purdy-${d.key}`}>--</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+
+        <div class="mt-8 flex flex-wrap items-center justify-between gap-3">
+          <h2 class="text-sm font-semibold">
+            Estimated training paces <span id="pred-vdot" class="font-normal text-brand-muted dark:text-brand-muted-dark"></span>
+          </h2>
+          <div class="inline-flex gap-0.5 rounded-full bg-brand-surface-offset p-[3px] dark:bg-brand-surface-offset-dark">
+            <button type="button" data-pace-unit="km" class="pace-unit-chip filter-chip is-active rounded-full px-3 py-1.5 text-xs font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">per km</button>
+            <button type="button" data-pace-unit="mi" class="pace-unit-chip filter-chip rounded-full px-3 py-1.5 text-xs font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">per mi</button>
+          </div>
+        </div>
+        <div class="mt-3 overflow-x-auto">
+          <table class="w-full border-collapse text-sm">
+            <thead>
+              <tr class="border-b border-brand-border dark:border-brand-border-dark">
+                <th class="py-2 pr-3 text-left font-medium text-brand-muted dark:text-brand-muted-dark">Zone</th>
+                <th class="py-2 text-left font-medium text-brand-muted dark:text-brand-muted-dark">Pace</th>
+              </tr>
+            </thead>
+            <tbody>
+              {trainingZones.map((z) => (
+                <tr class="border-b border-brand-border last:border-0 dark:border-brand-border-dark">
+                  <td class="py-2 pr-3 font-medium">{z.label}</td>
+                  <td class="py-2 whitespace-nowrap tabular-nums" id={`pace-${z.key}`}>--</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+
+        <p class="mt-4 text-xs text-brand-muted dark:text-brand-muted-dark">
+          Estimates from four published formulas: Riegel's exponent model, Daniels &amp; Gilbert's VDOT,
+          a simple same-pace linear extrapolation, and Purdy's world-record-percentage method —
+          all assuming similar training and conditions across distances.
+          Treat as a guide, not a guarantee — see our
+          <a href={urls.about()} class="link-accent">methodology</a>.
+        </p>
+      </div>
+    </div>
+
+    <p class="mt-6 text-sm text-brand-muted dark:text-brand-muted-dark">
+      Ready to put a prediction to the test? Browse
+      {' '}<a href={urls.category('full-marathon')} class="link-accent">full marathons</a> and
+      {' '}<a href={urls.category('half-marathon')} class="link-accent">half marathons</a> across Southeast Asia.
+    </p>
+
+    <div class="mt-10">
+      <FAQSection faqs={faqs} />
+    </div>
+
+    <ToolsCrossLinks currentSlug="race-time-predictor" />
+  </div>
+</BaseLayout>
+
+<script is:inline define:vars={{ predictDistances }}>
+  (function () {
+    function num(el) {
+      var v = parseFloat(el.value);
+      return isNaN(v) || v < 0 ? 0 : v;
+    }
+
+    function formatPace(totalSeconds) {
+      if (!isFinite(totalSeconds) || totalSeconds <= 0) return null;
+      var m = Math.floor(totalSeconds / 60);
+      var s = Math.round(totalSeconds % 60);
+      if (s === 60) { m += 1; s = 0; }
+      return m + ':' + String(s).padStart(2, '0');
+    }
+
+    function formatClock(totalSeconds) {
+      if (!isFinite(totalSeconds) || totalSeconds <= 0) return null;
+      var h = Math.floor(totalSeconds / 3600);
+      var m = Math.floor((totalSeconds % 3600) / 60);
+      var s = Math.round(totalSeconds % 60);
+      if (s === 60) { s = 0; m += 1; }
+      if (m === 60) { m = 0; h += 1; }
+      if (h > 0) return h + ':' + String(m).padStart(2, '0') + ':' + String(s).padStart(2, '0');
+      return m + ':' + String(s).padStart(2, '0');
+    }
+
+    // Formulas:
+    //  - Riegel: T2 = T1 * (D2/D1)^1.06 -- the standard fatigue-exponent model.
+    //  - Daniels & Gilbert (1979) VDOT: VO2 (ml/kg/min) at velocity v (m/min)
+    //    is -4.60 + 0.182258v + 0.000104v^2; %VO2max sustainable for t minutes
+    //    is 0.8 + 0.1894393*e^(-0.012778t) + 0.2989558*e^(-0.1932605t). VDOT is
+    //    solved from a known performance, then re-solved (via bisection, since
+    //    %max itself depends on the unknown time) for the time at each other
+    //    distance. Training paces reuse the same VO2-velocity relationship at
+    //    fixed %VDOT bands Daniels publishes per zone (midpoints used here).
+    var root = document.getElementById('predictor-tool');
+
+    var distanceSelect = document.getElementById('pred-distance');
+    var customGroup = document.getElementById('pred-custom-group');
+    var customValue = document.getElementById('pred-custom-value');
+    var customUnit = document.getElementById('pred-custom-unit');
+    var timeH = document.getElementById('pred-time-h');
+    var timeM = document.getElementById('pred-time-m');
+    var timeS = document.getElementById('pred-time-s');
+    var hint = document.getElementById('pred-hint');
+    var results = document.getElementById('pred-results');
+    var vdotLabel = document.getElementById('pred-vdot');
+    var paceUnitChips = root.querySelectorAll('.pace-unit-chip');
+    var methodChips = root.querySelectorAll('.method-chip');
+    var methodCols = root.querySelectorAll('[data-method-col]');
+
+    var paceUnit = 'km';
+    var method = 'all';
+
+    function applyMethodVisibility() {
+      methodCols.forEach(function (el) {
+        el.classList.toggle('hidden', method !== 'all' && el.dataset.methodCol !== method);
+      });
+    }
+
+    var ZONES = [
+      { key: 'easy', pct: 0.665 },
+      { key: 'marathon', pct: 0.795 },
+      { key: 'threshold', pct: 0.855 },
+      { key: 'interval', pct: 0.975 },
+    ];
+
+    function vo2FromVelocity(v) {
+      return -4.6 + 0.182258 * v + 0.000104 * v * v;
+    }
+
+    function pctVO2max(tMin) {
+      return 0.8 + 0.1894393 * Math.exp(-0.012778 * tMin) + 0.2989558 * Math.exp(-0.1932605 * tMin);
+    }
+
+    function velocityFromVO2(vo2) {
+      var a = 0.000104, b = 0.182258, c = -(vo2 + 4.6);
+      return (-b + Math.sqrt(b * b - 4 * a * c)) / (2 * a);
+    }
+
+    function vdotFromPerformance(distanceM, timeSeconds) {
+      var tMin = timeSeconds / 60;
+      var v = distanceM / tMin;
+      return vo2FromVelocity(v) / pctVO2max(tMin);
+    }
+
+    function timeForDistanceGivenVDOT(vdot, distanceM) {
+      function f(tMin) {
+        var v = distanceM / tMin;
+        return vo2FromVelocity(v) - vdot * pctVO2max(tMin);
+      }
+      var lo = 1, hi = 600;
+      var flo = f(lo), fhi = f(hi);
+      if (!isFinite(flo) || !isFinite(fhi) || flo * fhi > 0) return null;
+      for (var i = 0; i < 60; i++) {
+        var mid = (lo + hi) / 2;
+        var fmid = f(mid);
+        if ((fmid > 0) === (flo > 0)) { lo = mid; flo = fmid; } else { hi = mid; }
+      }
+      return ((lo + hi) / 2) * 60;
+    }
+
+    function riegelTime(t1, d1, d2) {
+      return t1 * Math.pow(d2 / d1, 1.06);
+    }
+
+    function linearTime(t1, d1, d2) {
+      return t1 * (d2 / d1);
+    }
+
+    // World best times (seconds) — approximate men's world records used as
+    // reference points for the Purdy percentage method.
+    var WORLD_BEST = {};
+    WORLD_BEST[5000] = 755.36;
+    WORLD_BEST[10000] = 1571.00;
+    WORLD_BEST[15000] = 2465.00;
+    WORLD_BEST[16093.4] = 2644.00;
+    WORLD_BEST[21097.5] = 3451.00;
+    WORLD_BEST[42195] = 7235.00;
+
+    function worldBestForDistance(distanceM) {
+      var exact = WORLD_BEST[distanceM];
+      if (exact) return exact;
+      var keys = Object.keys(WORLD_BEST).map(Number).sort(function (a, b) { return a - b; });
+      if (distanceM <= keys[0]) {
+        return WORLD_BEST[5000] * Math.pow(distanceM / 5000, 1.06);
+      }
+      if (distanceM >= keys[keys.length - 1]) {
+        return WORLD_BEST[42195] * Math.pow(distanceM / 42195, 1.06);
+      }
+      for (var i = 0; i < keys.length - 1; i++) {
+        if (distanceM >= keys[i] && distanceM <= keys[i + 1]) {
+          var logDist = Math.log(distanceM);
+          var logD1 = Math.log(keys[i]), logD2 = Math.log(keys[i + 1]);
+          var logWB1 = Math.log(WORLD_BEST[keys[i]]), logWB2 = Math.log(WORLD_BEST[keys[i + 1]]);
+          var t = (logDist - logD1) / (logD2 - logD1);
+          return Math.exp(logWB1 + t * (logWB2 - logWB1));
+        }
+      }
+      return null;
+    }
+
+    function purdyTime(t1, d1, d2) {
+      var wbInput = worldBestForDistance(d1);
+      var wbTarget = worldBestForDistance(d2);
+      if (!wbInput || !wbTarget) return null;
+      return t1 * (wbTarget / wbInput);
+    }
+
+    function getDistanceMeters() {
+      if (distanceSelect.value === 'custom') {
+        var v = num(customValue);
+        if (!v) return 0;
+        return customUnit.value === 'mi' ? v * 1609.34 : v * 1000;
+      }
+      return parseFloat(distanceSelect.value) || 0;
+    }
+
+    function getTimeSeconds() {
+      return num(timeH) * 3600 + num(timeM) * 60 + num(timeS);
+    }
+
+    function recompute() {
+      customGroup.classList.toggle('hidden', distanceSelect.value !== 'custom');
+
+      var d1 = getDistanceMeters();
+      var t1 = getTimeSeconds();
+
+      if (!d1 || !t1) {
+        results.classList.add('hidden');
+        hint.classList.remove('hidden');
+        hint.textContent = 'Enter a recent finish time to see predictions.';
+        return;
+      }
+
+      var vdot = vdotFromPerformance(d1, t1);
+      if (!isFinite(vdot) || vdot <= 0) {
+        results.classList.add('hidden');
+        hint.classList.remove('hidden');
+        hint.textContent = 'That combination doesn’t compute -- double check the distance and time.';
+        return;
+      }
+
+      hint.classList.add('hidden');
+      results.classList.remove('hidden');
+      vdotLabel.textContent = '(VDOT ' + vdot.toFixed(1) + ')';
+
+      predictDistances.forEach(function (d) {
+        var riegelSec = riegelTime(t1, d1, d.m);
+        var danielsSec = timeForDistanceGivenVDOT(vdot, d.m);
+        var linearSec = linearTime(t1, d1, d.m);
+        var purdySec = purdyTime(t1, d1, d.m);
+        var riegelEl = document.getElementById('pred-riegel-' + d.key);
+        var danielsEl = document.getElementById('pred-daniels-' + d.key);
+        var linearEl = document.getElementById('pred-linear-' + d.key);
+        var purdyEl = document.getElementById('pred-purdy-' + d.key);
+        if (riegelEl) riegelEl.textContent = formatClock(riegelSec) || '--';
+        if (danielsEl) danielsEl.textContent = danielsSec ? formatClock(danielsSec) || '--' : '--';
+        if (linearEl) linearEl.textContent = formatClock(linearSec) || '--';
+        if (purdyEl) purdyEl.textContent = purdySec ? formatClock(purdySec) || '--' : '--';
+      });
+
+      ZONES.forEach(function (zone) {
+        var v = velocityFromVO2(vdot * zone.pct); // m/min
+        var paceSeconds = paceUnit === 'mi' ? (60 * 1609.34) / v : 60000 / v;
+        var el = document.getElementById('pace-' + zone.key);
+        if (el) el.textContent = (formatPace(paceSeconds) || '--') + ' /' + paceUnit;
+      });
+    }
+
+    distanceSelect.addEventListener('change', recompute);
+    root.addEventListener('input', recompute);
+
+    paceUnitChips.forEach(function (chip) {
+      chip.addEventListener('click', function () {
+        paceUnit = chip.dataset.paceUnit;
+        paceUnitChips.forEach(function (c) { c.classList.toggle('is-active', c === chip); });
+        recompute();
+      });
+    });
+
+    methodChips.forEach(function (chip) {
+      chip.addEventListener('click', function () {
+        method = chip.dataset.method;
+        methodChips.forEach(function (c) { c.classList.toggle('is-active', c === chip); });
+        applyMethodVisibility();
+      });
+    });
+
+    applyMethodVisibility();
+    recompute();
+  })();
+</script>

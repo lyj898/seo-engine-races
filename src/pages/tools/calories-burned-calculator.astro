@@ -1,0 +1,160 @@
+---
+import siteConfig from '../../lib/config.js';
+import { urls } from '../../lib/urls.js';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import FAQSection from '../../components/FAQSection.astro';
+import ToolsCrossLinks from '../../components/ToolsCrossLinks.astro';
+import { buildBreadcrumbListSchema, buildFaqPageSchema, buildWebApplicationSchema } from '../../lib/schema-jsonld.js';
+import { numFieldClass, selectClass, labelClass, cardClass } from '../../lib/tool-styles.js';
+
+const pageUrl = new URL(urls.tool('calories-burned-calculator'), Astro.site).toString();
+
+const faqs = [
+  {
+    question: 'How many calories does running burn per km?',
+    answer:
+      'Roughly 1 kcal per kilogram of body weight per km -- so a 65kg runner burns about 65 kcal per km, or around 650 kcal over a 10K. This running-economy estimate is widely used because it holds fairly steady across typical training paces.',
+  },
+  {
+    question: 'Does running pace affect calories burned?',
+    answer:
+      'Less than most people expect. Total calories burned depends mainly on distance and body weight, not pace, because running the same distance slower just takes longer at a proportionally lower calorie-per-minute rate. Terrain, wind, and fitness cause more variation than pace alone.',
+  },
+  {
+    question: 'Is the 1 kcal per kg per km rule accurate?',
+    answer:
+      "It's a well-established approximation, not a lab-precise measurement. Individual metabolism, running economy, terrain, and heat all shift the real number up or down -- treat the result as a reasonable estimate rather than an exact count.",
+  },
+  {
+    question: 'Does running in heat and humidity burn more calories?',
+    answer:
+      "Marginally, since your body spends more energy on cooling -- but the effect is small compared to distance and body weight. Southeast Asia's heat and humidity affect pace and hydration needs far more than calorie burn.",
+  },
+];
+
+const breadcrumbItems = [
+  { label: siteConfig.siteName, href: urls.home() },
+  { label: 'Pace Lab', href: urls.toolsIndex() },
+  { label: 'Calories Burned Calculator' },
+];
+
+const jsonLd = [
+  buildBreadcrumbListSchema(breadcrumbItems, Astro.site),
+  buildWebApplicationSchema({
+    name: 'Running Calories Burned Calculator',
+    description: 'Estimate calories burned for a run from body weight and distance, using the standard ~1 kcal/kg/km running-economy approximation.',
+    url: pageUrl,
+  }),
+  ...(siteConfig.enabledFeatures?.faqSchema ? [buildFaqPageSchema(faqs)] : []),
+].filter(Boolean);
+---
+
+<BaseLayout
+  title="Calories Burned Running Calculator"
+  description="Free calculator for calories burned running -- enter your body weight and distance for an instant estimate, based on the standard running-economy formula."
+  canonicalPath={urls.tool('calories-burned-calculator')}
+  jsonLd={jsonLd}
+>
+  <div class="mx-auto max-w-3xl px-4 py-10 sm:px-6">
+    <Breadcrumb items={breadcrumbItems} />
+    <h1 class="mt-4 font-serif text-3xl font-semibold sm:text-4xl">Calories Burned Running Calculator</h1>
+    <p class="mt-3 max-w-2xl text-brand-muted dark:text-brand-muted-dark">
+      Enter your body weight and how far you ran (or plan to run) for an instant estimate of calories burned. The
+      estimate uses the widely-cited running-economy approximation of roughly 1 kcal per kilogram of body weight
+      per kilometer -- a rule of thumb that holds fairly steady across typical training and race paces.
+    </p>
+
+    <div id="calories-tool" class={`mt-6 ${cardClass}`}>
+      <p class="mb-5 text-sm text-brand-muted dark:text-brand-muted-dark">
+        A rough estimate -- actual burn varies with pace, terrain, and fitness.
+      </p>
+
+      <div class="space-y-5">
+        <div>
+          <label class={labelClass} for="cal-weight">Body weight</label>
+          <div class="flex gap-2">
+            <input id="cal-weight" type="number" min="0" step="0.1" inputmode="decimal" placeholder="65" class={numFieldClass} />
+            <select id="cal-weight-unit" class={`w-24 shrink-0 ${selectClass}`}>
+              <option value="kg">kg</option>
+              <option value="lb">lb</option>
+            </select>
+          </div>
+        </div>
+
+        <div>
+          <label class={labelClass} for="cal-distance">Distance</label>
+          <div class="flex gap-2">
+            <input id="cal-distance" type="number" min="0" step="0.01" inputmode="decimal" placeholder="10" class={numFieldClass} />
+            <select id="cal-distance-unit" class={`w-24 shrink-0 ${selectClass}`}>
+              <option value="km">km</option>
+              <option value="mi">mi</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <p id="cal-hint" class="mt-5 text-sm text-brand-muted dark:text-brand-muted-dark">
+        Enter your weight and distance.
+      </p>
+
+      <div id="cal-result" class="mt-6 hidden">
+        <p id="cal-value" class="font-serif text-4xl font-bold sm:text-5xl"></p>
+        <p class="text-sm text-brand-muted dark:text-brand-muted-dark">estimated calories burned</p>
+        <p class="mt-4 text-xs text-brand-muted dark:text-brand-muted-dark">
+          Based on the widely-used running-economy estimate of roughly 1 kcal per kg of body weight per km --
+          approximately pace-independent at typical training paces. Individual burn varies with fitness, terrain,
+          and conditions.
+        </p>
+      </div>
+    </div>
+
+    <p class="mt-6 text-sm text-brand-muted dark:text-brand-muted-dark">
+      Fueling a longer effort? Browse
+      {' '}<a href={urls.category('full-marathon')} class="link-accent">full marathons</a> across Southeast Asia and plan your training around race day.
+    </p>
+
+    <div class="mt-10">
+      <FAQSection faqs={faqs} />
+    </div>
+
+    <ToolsCrossLinks currentSlug="calories-burned-calculator" />
+  </div>
+</BaseLayout>
+
+<script is:inline>
+  (function () {
+    function num(el) {
+      var v = parseFloat(el.value);
+      return isNaN(v) || v < 0 ? 0 : v;
+    }
+
+    var weightInput = document.getElementById('cal-weight');
+    var weightUnit = document.getElementById('cal-weight-unit');
+    var distanceInput = document.getElementById('cal-distance');
+    var distanceUnit = document.getElementById('cal-distance-unit');
+    var hint = document.getElementById('cal-hint');
+    var result = document.getElementById('cal-result');
+    var valueEl = document.getElementById('cal-value');
+    var root = document.getElementById('calories-tool');
+
+    function recompute() {
+      var weightKg = num(weightInput) * (weightUnit.value === 'lb' ? 0.453592 : 1);
+      var distanceKm = num(distanceInput) * (distanceUnit.value === 'mi' ? 1.60934 : 1);
+
+      if (!weightKg || !distanceKm) {
+        result.classList.add('hidden');
+        hint.classList.remove('hidden');
+        hint.textContent = 'Enter your weight and distance.';
+        return;
+      }
+
+      hint.classList.add('hidden');
+      result.classList.remove('hidden');
+      valueEl.textContent = Math.round(weightKg * distanceKm).toLocaleString();
+    }
+
+    root.addEventListener('input', recompute);
+    recompute();
+  })();
+</script>

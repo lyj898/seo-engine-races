@@ -1,0 +1,354 @@
+---
+import siteConfig from '../../lib/config.js';
+import { urls } from '../../lib/urls.js';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import FAQSection from '../../components/FAQSection.astro';
+import ToolsCrossLinks from '../../components/ToolsCrossLinks.astro';
+import { buildBreadcrumbListSchema, buildFaqPageSchema, buildWebApplicationSchema } from '../../lib/schema-jsonld.js';
+import { numFieldClass, selectClass, labelClass, subLabelClass, cardClass } from '../../lib/tool-styles.js';
+
+const pageUrl = new URL(urls.tool('race-splits-calculator'), Astro.site).toString();
+
+const predictDistances = [
+  { key: '5k', label: '5K', m: 5000 },
+  { key: '10k', label: '10K', m: 10000 },
+  { key: '15k', label: '15K', m: 15000 },
+  { key: '10mi', label: '10 Mile', m: 16093.4 },
+  { key: 'half', label: 'Half Marathon', m: 21097.5 },
+  { key: 'full', label: 'Marathon', m: 42195 },
+];
+
+const faqs = [
+  {
+    question: 'What is a negative split?',
+    answer:
+      'A negative split means running the second half of a race faster than the first -- typically a few percent slower than goal pace early, then faster than goal pace late, while still finishing on your overall goal time.',
+  },
+  {
+    question: 'How do I use a pace band?',
+    answer:
+      'A pace band lists your target cumulative time at each split point (each km or mile) for a goal finish time. Print or photograph this table and check it against your watch at each marker to see if you’re on pace.',
+  },
+  {
+    question: 'Should I run even splits or negative splits?',
+    answer:
+      "Both are proven race-day strategies. Even splits are simpler to execute and pace by feel; negative splits guard against going out too fast, which is the more common way marathons and half marathons go wrong.",
+  },
+  {
+    question: 'What split interval should I use for a marathon?',
+    answer:
+      'Every 5km or every 5 miles is easiest to track on a watch without constant checking. Every 1km/1mi gives finer-grained pacing feedback but produces a longer table -- useful once printed as a pace band, less useful glanced at mid-stride.',
+  },
+];
+
+const breadcrumbItems = [
+  { label: siteConfig.siteName, href: urls.home() },
+  { label: 'Pace Lab', href: urls.toolsIndex() },
+  { label: 'Race Splits Calculator' },
+];
+
+const jsonLd = [
+  buildBreadcrumbListSchema(breadcrumbItems, Astro.site),
+  buildWebApplicationSchema({
+    name: 'Race Splits Calculator',
+    description: 'Build a printable km or mile split chart from a goal finish time, with even or negative-split pacing.',
+    url: pageUrl,
+  }),
+  ...(siteConfig.enabledFeatures?.faqSchema ? [buildFaqPageSchema(faqs)] : []),
+].filter(Boolean);
+---
+
+<BaseLayout
+  title="Race Splits Calculator"
+  description="Free race split calculator -- build a printable km or mile pace band from your goal finish time, with even or negative-split pacing, for 5K to marathon."
+  canonicalPath={urls.tool('race-splits-calculator')}
+  jsonLd={jsonLd}
+>
+  <div class="mx-auto max-w-3xl px-4 py-10 sm:px-6">
+    <Breadcrumb items={breadcrumbItems} />
+    <h1 class="mt-4 font-serif text-3xl font-semibold sm:text-4xl">Race Splits Calculator</h1>
+    <p class="mt-3 max-w-2xl text-brand-muted dark:text-brand-muted-dark">
+      Turn a goal finish time into a full split chart -- the cumulative time and average pace at every km or mile
+      marker along the course. Choose even splits (hold goal pace throughout) or a negative split (run the first
+      half a little slower, the second half a little faster), then use the table as a printable pace band for race
+      day.
+    </p>
+
+    <div id="splits-tool" class={`mt-6 ${cardClass}`}>
+      <p class="mb-5 text-sm text-brand-muted dark:text-brand-muted-dark">
+        Build a printable split table from a goal finish time.
+      </p>
+
+      <div class="space-y-5">
+        <div>
+          <label class={labelClass} for="splits-distance">Distance</label>
+          <select id="splits-distance" class={`w-full ${selectClass}`}>
+            {predictDistances.map((d) => (
+              <option value={d.m} selected={d.key === 'full'}>{d.label}</option>
+            ))}
+            <option value="custom">Custom distance</option>
+          </select>
+        </div>
+
+        <div id="splits-custom-group" class="hidden">
+          <label class={labelClass} for="splits-custom-value">Custom distance</label>
+          <div class="flex gap-2">
+            <input id="splits-custom-value" type="number" min="0" step="0.01" inputmode="decimal" placeholder="10" class={numFieldClass} />
+            <select id="splits-custom-unit" class={`w-24 shrink-0 ${selectClass}`}>
+              <option value="km">km</option>
+              <option value="mi">mi</option>
+            </select>
+          </div>
+        </div>
+
+        <div>
+          <label class={labelClass}>Goal finish time</label>
+          <div class="grid grid-cols-3 gap-2">
+            <div>
+              <input id="splits-time-h" type="number" min="0" inputmode="numeric" placeholder="3" class={numFieldClass} />
+              <p class={subLabelClass}>hours</p>
+            </div>
+            <div>
+              <input id="splits-time-m" type="number" min="0" max="59" inputmode="numeric" placeholder="45" class={numFieldClass} />
+              <p class={subLabelClass}>min</p>
+            </div>
+            <div>
+              <input id="splits-time-s" type="number" min="0" max="59" inputmode="numeric" placeholder="00" class={numFieldClass} />
+              <p class={subLabelClass}>sec</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid gap-5 sm:grid-cols-2">
+          <div>
+            <p class={labelClass}>Split every</p>
+            <div class="inline-flex gap-0.5 rounded-full bg-brand-surface-offset p-[3px] dark:bg-brand-surface-offset-dark">
+              <button type="button" data-splits-every="1" class="splits-every-chip filter-chip is-active rounded-full px-3.5 py-2 text-sm font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">1</button>
+              <button type="button" data-splits-every="2" class="splits-every-chip filter-chip rounded-full px-3.5 py-2 text-sm font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">2</button>
+              <button type="button" data-splits-every="5" class="splits-every-chip filter-chip rounded-full px-3.5 py-2 text-sm font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">5</button>
+            </div>
+          </div>
+          <div>
+            <p class={labelClass}>Split unit</p>
+            <div class="inline-flex gap-0.5 rounded-full bg-brand-surface-offset p-[3px] dark:bg-brand-surface-offset-dark">
+              <button type="button" data-splits-unit="km" class="splits-unit-chip filter-chip is-active rounded-full px-3.5 py-2 text-sm font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">km</button>
+              <button type="button" data-splits-unit="mi" class="splits-unit-chip filter-chip rounded-full px-3.5 py-2 text-sm font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">mi</button>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <p class={labelClass}>Pacing strategy</p>
+          <div class="inline-flex flex-wrap gap-0.5 rounded-full bg-brand-surface-offset p-[3px] dark:bg-brand-surface-offset-dark">
+            <button type="button" data-splits-strategy="even" class="splits-strategy-chip filter-chip is-active rounded-full px-4 py-2 text-sm font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">Even</button>
+            <button type="button" data-splits-strategy="negative" class="splits-strategy-chip filter-chip rounded-full px-4 py-2 text-sm font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">Negative split</button>
+          </div>
+        </div>
+      </div>
+
+      <p id="splits-hint" class="mt-5 text-sm text-brand-muted dark:text-brand-muted-dark">
+        Enter a goal finish time to build your splits.
+      </p>
+
+      <div id="splits-results" class="mt-6 hidden">
+        <div class="overflow-x-auto">
+          <table class="w-full border-collapse text-sm">
+            <thead>
+              <tr class="border-b border-brand-border dark:border-brand-border-dark">
+                <th class="whitespace-nowrap py-2 pr-3 text-left font-medium text-brand-muted dark:text-brand-muted-dark">At</th>
+                <th class="whitespace-nowrap py-2 pr-3 text-left font-medium text-brand-muted dark:text-brand-muted-dark">Split</th>
+                <th class="whitespace-nowrap py-2 pr-3 text-left font-medium text-brand-muted dark:text-brand-muted-dark">Cumulative</th>
+                <th class="whitespace-nowrap py-2 text-left font-medium text-brand-muted dark:text-brand-muted-dark">Avg pace</th>
+              </tr>
+            </thead>
+            <tbody id="splits-body"></tbody>
+          </table>
+        </div>
+        <p class="mt-4 text-xs text-brand-muted dark:text-brand-muted-dark">
+          Even splits hold goal pace throughout. Negative split runs the first half about 4% slower than goal pace
+          and the second half about 4% faster, averaging out to the same finish time.
+        </p>
+      </div>
+    </div>
+
+    <p class="mt-6 text-sm text-brand-muted dark:text-brand-muted-dark">
+      Pacing for a specific course? Check the elevation and course notes on
+      {' '}<a href={urls.entitiesIndex()} class="link-accent">{siteConfig.entityLabelPlural} across Southeast Asia</a> before you lock in a strategy.
+    </p>
+
+    <div class="mt-10">
+      <FAQSection faqs={faqs} />
+    </div>
+
+    <ToolsCrossLinks currentSlug="race-splits-calculator" />
+  </div>
+</BaseLayout>
+
+<script is:inline>
+  (function () {
+    function num(el) {
+      var v = parseFloat(el.value);
+      return isNaN(v) || v < 0 ? 0 : v;
+    }
+
+    function formatPace(totalSeconds) {
+      if (!isFinite(totalSeconds) || totalSeconds <= 0) return null;
+      var m = Math.floor(totalSeconds / 60);
+      var s = Math.round(totalSeconds % 60);
+      if (s === 60) { m += 1; s = 0; }
+      return m + ':' + String(s).padStart(2, '0');
+    }
+
+    function formatClock(totalSeconds) {
+      if (!isFinite(totalSeconds) || totalSeconds <= 0) return null;
+      var h = Math.floor(totalSeconds / 3600);
+      var m = Math.floor((totalSeconds % 3600) / 60);
+      var s = Math.round(totalSeconds % 60);
+      if (s === 60) { s = 0; m += 1; }
+      if (m === 60) { m = 0; h += 1; }
+      if (h > 0) return h + ':' + String(m).padStart(2, '0') + ':' + String(s).padStart(2, '0');
+      return m + ':' + String(s).padStart(2, '0');
+    }
+
+    // Splits are allocated by a weighted share of the goal time rather than
+    // sliced independently, so the sum of every row's split time always
+    // equals the goal time exactly (to the second) regardless of strategy
+    // or how many rows there are -- weights only redistribute *within* the
+    // fixed total. Even splitting weighs every row equally (weight 1);
+    // negative-split biases weight 1+skew at the start fading linearly to
+    // 1-skew at the finish (skew = 0.04 -- a ~4% pace swing pole-to-pole),
+    // so early splits get a larger time share (slower) and late ones a
+    // smaller share (faster) while the race still finishes on goal time.
+    var root = document.getElementById('splits-tool');
+
+    var distanceSelect = document.getElementById('splits-distance');
+    var customGroup = document.getElementById('splits-custom-group');
+    var customValue = document.getElementById('splits-custom-value');
+    var customUnit = document.getElementById('splits-custom-unit');
+    var timeH = document.getElementById('splits-time-h');
+    var timeM = document.getElementById('splits-time-m');
+    var timeS = document.getElementById('splits-time-s');
+    var everyChips = root.querySelectorAll('.splits-every-chip');
+    var unitChips = root.querySelectorAll('.splits-unit-chip');
+    var strategyChips = root.querySelectorAll('.splits-strategy-chip');
+    var hint = document.getElementById('splits-hint');
+    var results = document.getElementById('splits-results');
+    var tbody = document.getElementById('splits-body');
+
+    var every = 1;
+    var unit = 'km';
+    var strategy = 'even';
+    var MAX_ROWS = 120; // sane cap for an oddball custom distance + 1-unit interval
+
+    function getDistanceMeters() {
+      if (distanceSelect.value === 'custom') {
+        var v = num(customValue);
+        if (!v) return 0;
+        return customUnit.value === 'mi' ? v * 1609.34 : v * 1000;
+      }
+      return parseFloat(distanceSelect.value) || 0;
+    }
+
+    function getTimeSeconds() {
+      return num(timeH) * 3600 + num(timeM) * 60 + num(timeS);
+    }
+
+    function buildSplits(totalM, totalSeconds, everyM, strategyKey) {
+      var marks = [];
+      var cum = 0;
+      while (cum < totalM - 1e-6) {
+        var next = Math.min(cum + everyM, totalM);
+        marks.push({ start: cum, end: next });
+        cum = next;
+        if (marks.length > MAX_ROWS) return null;
+      }
+      var skew = strategyKey === 'negative' ? 0.04 : 0;
+      var weights = marks.map(function (m) {
+        var mid = (m.start + m.end) / 2 / totalM;
+        return 1 + skew * (1 - 2 * mid);
+      });
+      var weightedTotal = marks.reduce(function (sum, m, i) { return sum + (m.end - m.start) * weights[i]; }, 0);
+      var cumSeconds = 0;
+      return marks.map(function (m, i) {
+        var splitSeconds = ((m.end - m.start) * weights[i] / weightedTotal) * totalSeconds;
+        cumSeconds += splitSeconds;
+        return { markM: m.end, segmentM: m.end - m.start, splitSeconds: splitSeconds, cumSeconds: cumSeconds };
+      });
+    }
+
+    function recompute() {
+      customGroup.classList.toggle('hidden', distanceSelect.value !== 'custom');
+
+      var d1 = getDistanceMeters();
+      var t1 = getTimeSeconds();
+
+      if (!d1 || !t1) {
+        results.classList.add('hidden');
+        hint.classList.remove('hidden');
+        hint.textContent = 'Enter a goal finish time to build your splits.';
+        return;
+      }
+
+      var everyM = unit === 'mi' ? every * 1609.34 : every * 1000;
+      var rows = buildSplits(d1, t1, everyM, strategy);
+
+      if (!rows) {
+        results.classList.add('hidden');
+        hint.classList.remove('hidden');
+        hint.textContent = 'That’s a lot of splits for this distance -- try a longer interval.';
+        return;
+      }
+
+      hint.classList.add('hidden');
+      results.classList.remove('hidden');
+
+      tbody.textContent = '';
+      rows.forEach(function (row) {
+        var tr = document.createElement('tr');
+        tr.className = 'border-b border-brand-border last:border-0 dark:border-brand-border-dark';
+        var markLabel = (unit === 'mi' ? row.markM / 1609.34 : row.markM / 1000).toFixed(2) + ' ' + unit;
+        var segmentUnitLength = unit === 'mi' ? row.segmentM / 1609.34 : row.segmentM / 1000;
+        var avgPaceSeconds = row.splitSeconds / segmentUnitLength;
+        var cells = [markLabel, formatClock(row.splitSeconds) || '--', formatClock(row.cumSeconds) || '--', (formatPace(avgPaceSeconds) || '--') + ' /' + unit];
+        var isLast = cells.length - 1;
+        cells.forEach(function (text, i) {
+          var td = document.createElement('td');
+          var base = i === isLast ? 'py-2' : 'py-2 pr-3';
+          td.className = (i === 0 ? base + ' font-medium tabular-nums' : base + ' tabular-nums') + ' whitespace-nowrap';
+          td.textContent = text;
+          tr.appendChild(td);
+        });
+        tbody.appendChild(tr);
+      });
+    }
+
+    everyChips.forEach(function (chip) {
+      chip.addEventListener('click', function () {
+        every = parseFloat(chip.dataset.splitsEvery);
+        everyChips.forEach(function (c) { c.classList.toggle('is-active', c === chip); });
+        recompute();
+      });
+    });
+
+    unitChips.forEach(function (chip) {
+      chip.addEventListener('click', function () {
+        unit = chip.dataset.splitsUnit;
+        unitChips.forEach(function (c) { c.classList.toggle('is-active', c === chip); });
+        recompute();
+      });
+    });
+
+    strategyChips.forEach(function (chip) {
+      chip.addEventListener('click', function () {
+        strategy = chip.dataset.splitsStrategy;
+        strategyChips.forEach(function (c) { c.classList.toggle('is-active', c === chip); });
+        recompute();
+      });
+    });
+
+    distanceSelect.addEventListener('change', recompute);
+    root.addEventListener('input', recompute);
+    recompute();
+  })();
+</script>

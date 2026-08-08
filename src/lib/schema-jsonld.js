@@ -41,6 +41,30 @@ export function buildFaqPageSchema(faqs) {
 }
 
 /**
+ * Free browser-based calculator/tool pages (Pace Lab). Deliberately minimal
+ * -- no aggregateRating/review property, since none of these tools collect
+ * real ratings and fabricating one would be misleading structured data,
+ * same principle buildEntitySchema follows for reliability_score.
+ */
+export function buildWebApplicationSchema({ name, description, url }) {
+  if (!name || !url) return null;
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'WebApplication',
+    name,
+    description,
+    url,
+    applicationCategory: 'HealthApplication',
+    operatingSystem: 'Any',
+    offers: {
+      '@type': 'Offer',
+      price: '0',
+      priceCurrency: 'USD',
+    },
+  };
+}
+
+/**
  * Generic ranked-list schema for hub pages and listicles.
  * items: any array; toUrl(item) and toName(item) extract what's needed --
  * keeps this usable for entities, categories, regions, or listicles alike.

@@ -1,5 +1,6 @@
 import siteConfig from '../lib/config.js';
 import { urls } from '../lib/urls.js';
+import { TOOLS } from '../lib/tools.js';
 import { loadEntities, loadCategories, loadRegions, loadListicles, loadReviews, stripMeta, isPublished } from '../lib/data.js';
 
 /**
@@ -24,6 +25,8 @@ export async function GET({ site }) {
     urls.regionsIndex(),
     ...(siteConfig.enabledFeatures?.listicles ? [urls.listiclesIndex()] : []),
     ...(siteConfig.enabledFeatures?.reviews ? [urls.reviewsIndex()] : []),
+    urls.toolsIndex(),
+    ...TOOLS.map((t) => urls.tool(t.slug)),
     urls.about(),
     urls.privacy(),
     urls.terms(),

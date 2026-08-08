@@ -1,0 +1,194 @@
+---
+import siteConfig from '../../lib/config.js';
+import { urls } from '../../lib/urls.js';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import FAQSection from '../../components/FAQSection.astro';
+import ToolsCrossLinks from '../../components/ToolsCrossLinks.astro';
+import { buildBreadcrumbListSchema, buildFaqPageSchema, buildWebApplicationSchema } from '../../lib/schema-jsonld.js';
+import { fieldClass, labelClass, cardClass } from '../../lib/tool-styles.js';
+
+const pageUrl = new URL(urls.tool('race-countdown-timer'), Astro.site).toString();
+
+const faqs = [
+  {
+    question: 'How long should I taper before a marathon?',
+    answer:
+      'Most marathon plans taper for 2-3 weeks, gradually cutting weekly mileage while keeping some intensity. Longer tapers suit higher-mileage runners; 2 weeks is often enough for lower-mileage or time-crunched training blocks.',
+  },
+  {
+    question: 'When should I start tapering for a half marathon?',
+    answer:
+      'About 1-2 weeks out is typical for a half marathon -- enough to arrive fresh without losing fitness. Cut volume more than intensity, and keep a few short efforts at goal pace in the final week.',
+  },
+  {
+    question: 'Do I need to taper for a 5K or 10K?',
+    answer:
+      'A short taper still helps -- roughly 3-7 days of reduced volume with legs kept sharp via a couple of short, faster efforts. Shorter races need less recovery buffer than a marathon, so the taper window is much smaller.',
+  },
+  {
+    question: 'What should I do in race week?',
+    answer:
+      'Reduce training volume, prioritize sleep, keep meals familiar (nothing new the night before), lay out race-day gear early, and review the course and start logistics so race morning has one less thing to think about.',
+  },
+];
+
+const breadcrumbItems = [
+  { label: siteConfig.siteName, href: urls.home() },
+  { label: 'Pace Lab', href: urls.toolsIndex() },
+  { label: 'Race Countdown Timer' },
+];
+
+const jsonLd = [
+  buildBreadcrumbListSchema(breadcrumbItems, Astro.site),
+  buildWebApplicationSchema({
+    name: 'Race Countdown Timer',
+    description: 'Count down the days to race day and see a general taper window for 5K, 10K, half marathon, and marathon distances.',
+    url: pageUrl,
+  }),
+  ...(siteConfig.enabledFeatures?.faqSchema ? [buildFaqPageSchema(faqs)] : []),
+].filter(Boolean);
+---
+
+<BaseLayout
+  title="Race Countdown Timer"
+  description="Free race countdown timer -- see exactly how many days until race day, plus a general taper guide for 5K, 10K, half marathon, and marathon distances."
+  canonicalPath={urls.tool('race-countdown-timer')}
+  jsonLd={jsonLd}
+>
+  <div class="mx-auto max-w-3xl px-4 py-10 sm:px-6">
+    <Breadcrumb items={breadcrumbItems} />
+    <h1 class="mt-4 font-serif text-3xl font-semibold sm:text-4xl">Race Countdown Timer</h1>
+    <p class="mt-3 max-w-2xl text-brand-muted dark:text-brand-muted-dark">
+      Pick your race date to see exactly how many days are left, plus a general taper window for your distance --
+      when training typically starts winding down so you arrive at the start line fresh instead of fatigued.
+    </p>
+
+    <div id="countdown-tool" class={`mt-6 ${cardClass}`}>
+      <p class="mb-5 text-sm text-brand-muted dark:text-brand-muted-dark">
+        Pick your race date to see the countdown and a general taper guide.
+      </p>
+
+      <div class="space-y-5">
+        <div>
+          <label class={labelClass} for="cd-date">Race date</label>
+          <input id="cd-date" type="date" class={fieldClass} />
+        </div>
+
+        <div>
+          <p class={labelClass}>Distance</p>
+          <div class="inline-flex flex-wrap gap-0.5 rounded-full bg-brand-surface-offset p-[3px] dark:bg-brand-surface-offset-dark">
+            <button type="button" data-cd-distance="short" class="cd-distance-chip filter-chip is-active rounded-full px-4 py-2 text-sm font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">5K / 10K</button>
+            <button type="button" data-cd-distance="half" class="cd-distance-chip filter-chip rounded-full px-4 py-2 text-sm font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">Half Marathon</button>
+            <button type="button" data-cd-distance="full" class="cd-distance-chip filter-chip rounded-full px-4 py-2 text-sm font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark">Marathon</button>
+          </div>
+        </div>
+      </div>
+
+      <p id="cd-hint" class="mt-6 text-sm text-brand-muted dark:text-brand-muted-dark">
+        Pick a race date above to get started.
+      </p>
+
+      <div id="cd-result" class="mt-6 hidden">
+        <p id="cd-days" class="font-serif text-4xl font-bold sm:text-5xl"></p>
+        <p id="cd-days-label" class="text-sm text-brand-muted dark:text-brand-muted-dark"></p>
+
+        <div class="mt-5 rounded-lg bg-brand-surface-offset p-4 text-sm dark:bg-brand-surface-offset-dark">
+          <p id="cd-taper-text"></p>
+        </div>
+        <p class="mt-4 text-xs text-brand-muted dark:text-brand-muted-dark">
+          General guidance, not a training plan -- everyone tapers a little differently.
+        </p>
+      </div>
+    </div>
+
+    <p class="mt-6 text-sm text-brand-muted dark:text-brand-muted-dark">
+      Still picking a race? Browse
+      {' '}<a href={urls.entitiesIndex()} class="link-accent">upcoming {siteConfig.entityLabelPlural} across Southeast Asia</a> to find your next start line.
+    </p>
+
+    <div class="mt-10">
+      <FAQSection faqs={faqs} />
+    </div>
+
+    <ToolsCrossLinks currentSlug="race-countdown-timer" />
+  </div>
+</BaseLayout>
+
+<script is:inline>
+  (function () {
+    var root = document.getElementById('countdown-tool');
+
+    var dateInput = document.getElementById('cd-date');
+    var distanceChips = root.querySelectorAll('.cd-distance-chip');
+    var hint = document.getElementById('cd-hint');
+    var result = document.getElementById('cd-result');
+    var daysEl = document.getElementById('cd-days');
+    var daysLabelEl = document.getElementById('cd-days-label');
+    var taperTextEl = document.getElementById('cd-taper-text');
+
+    var distanceKey = 'short';
+    // [minWeeks, maxWeeks] -- generic, widely-cited taper windows.
+    var TAPER = {
+      short: { label: '5K/10K', weeks: [0.5, 1] },
+      half: { label: 'a half marathon', weeks: [1, 2] },
+      full: { label: 'a marathon', weeks: [2, 3] },
+    };
+
+    function formatDate(d) {
+      return d.toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' });
+    }
+
+    function recompute() {
+      if (!dateInput.value) {
+        result.classList.add('hidden');
+        hint.classList.remove('hidden');
+        hint.textContent = 'Pick a race date above to get started.';
+        return;
+      }
+
+      var raceDate = new Date(dateInput.value + 'T00:00:00');
+      var today = new Date();
+      var todayMidnight = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+      var days = Math.round((raceDate - todayMidnight) / 86400000);
+
+      hint.classList.add('hidden');
+      result.classList.remove('hidden');
+
+      if (days > 0) {
+        daysEl.textContent = days;
+        daysLabelEl.textContent = days === 1 ? 'day to go' : 'days to go';
+      } else if (days === 0) {
+        daysEl.textContent = 'Today';
+        daysLabelEl.textContent = 'race day!';
+      } else {
+        daysEl.textContent = Math.abs(days);
+        daysLabelEl.textContent = Math.abs(days) === 1 ? 'day since race day' : 'days since race day';
+      }
+
+      var taper = TAPER[distanceKey];
+      if (days > taper.weeks[0] * 7) {
+        var startEarly = new Date(raceDate.getTime() - taper.weeks[1] * 7 * 86400000);
+        var startLate = new Date(raceDate.getTime() - taper.weeks[0] * 7 * 86400000);
+        taperTextEl.textContent =
+          'For ' + taper.label + ', tapering typically starts about ' + taper.weeks[0] + '–' + taper.weeks[1] +
+          ' weeks out -- roughly ' + formatDate(startEarly) + ' to ' + formatDate(startLate) + '.';
+      } else if (days > 0) {
+        taperTextEl.textContent = 'Your race is inside the usual taper window for ' + taper.label + ' -- this is a good time to be easing off volume, not adding to it.';
+      } else {
+        taperTextEl.textContent = 'Hope it went well!';
+      }
+    }
+
+    distanceChips.forEach(function (chip) {
+      chip.addEventListener('click', function () {
+        distanceKey = chip.dataset.cdDistance;
+        distanceChips.forEach(function (c) { c.classList.toggle('is-active', c === chip); });
+        recompute();
+      });
+    });
+
+    dateInput.addEventListener('input', recompute);
+    recompute();
+  })();
+</script>
