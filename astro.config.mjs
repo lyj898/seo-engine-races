@@ -18,10 +18,12 @@ export default defineConfig({
   site: `https://${siteConfig.siteDomain}`,
   output: 'static',
   integrations: [tailwind()],
-  // Pace Lab's first calculator briefly lived at its own URL before every
-  // tool was folded onto one page (/tools/) -- redirect rather than 404 the
-  // handful of people who may have already bookmarked or shared it.
-  redirects: {
-    '/tools/pace-calculator': '/tools/',
-  },
+  // Pace Lab's calculators previously lived at individual URLs, then got
+  // folded onto one JS-tabbed /tools/ page (see the now-removed redirect
+  // that used to live here), which turned out to be an SEO regression: one
+  // URL/H1/meta description can't rank for five different high-intent
+  // searches ("marathon pace calculator", "race time predictor", etc). Each
+  // calculator is back on its own real, indexable page under /tools/ --
+  // /tools/ itself is now a hub linking to all of them, so no redirect is
+  // needed this time.
 });
