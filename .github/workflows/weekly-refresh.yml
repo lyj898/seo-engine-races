@@ -52,7 +52,7 @@ jobs:
       run: ${{ steps.check.outputs.run }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Decide whether to run
         id: check
         env:
@@ -83,10 +83,10 @@ jobs:
       changed: ${{ steps.summary.outputs.changed }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Install Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: 22
           # See deploy.yml for why this isn't `cache: npm` yet (no lockfile
