@@ -10,11 +10,26 @@
   "rating": {
     "overall": 61,
     "breakdown": [
-      { "label": "Destination rarity", "score": 82 },
-      { "label": "Community character", "score": 72 },
-      { "label": "Distance offering", "score": 70 },
-      { "label": "Organiser transparency", "score": 35 },
-      { "label": "Weather risk", "score": 30 }
+      {
+        "label": "Destination rarity",
+        "score": 82
+      },
+      {
+        "label": "Community character",
+        "score": 72
+      },
+      {
+        "label": "Distance offering",
+        "score": 70
+      },
+      {
+        "label": "Organiser transparency",
+        "score": 35
+      },
+      {
+        "label": "Weather risk",
+        "score": 30
+      }
     ]
   },
   "sections": [
@@ -102,7 +117,7 @@
     },
     {
       "question": "Who organises the Marig-on Marathon, and what kind of race experience should I expect?",
-      "answer": "The Marig-on Norte Samarnon Eagles Club — a local chapter of the Fraternal Order of Eagles, a nationwide Philippine civic organisation — organises the event. Expect a grassroots, community-flavoured race rather than a professionally managed corporate event. Course maps, aid-station details, and race-day logistics are unlikely to match the polish of a major-city marathon, and runners should come self-sufficient with hydration and nutrition, flexible about start times and course markings, and prepared for the informal charm of a civic-club race in provincial Philippines. [1]"
+      "answer": "The Marig-on Norte Samarnon Eagles Club — a local chapter of the Fraternal Order of Eagles, a nationwide Philippine civic organisation — organises the event. Expect a grassroots, community-flavoured race rather than a polished corporate one: come self-sufficient with hydration, stay flexible about timing, and enjoy the informal charm of a provincial civic-club race. [1]"
     }
   ],
   "editorial_notes": "Hand-revised from auto-generated stub on 2026-08-08. Expanded from 2 sections/1 FAQ/1 source to 5 sections/5 FAQs/3 sources. Prose is original synthesis.",
