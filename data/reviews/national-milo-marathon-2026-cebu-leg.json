@@ -2,63 +2,103 @@
   "review_id": "national-milo-marathon-2026-cebu-leg",
   "slug": "national-milo-marathon-2026-cebu-leg",
   "entity_id": "national-milo-marathon-2026-cebu-leg",
-  "title": "MILO Marathon Cebu Leg 2026 Review: Queen City Qualifier",
-  "seo_title": "MILO Marathon Cebu Leg 2026 Review | Philippines Race",
-  "meta_description": "National MILO Marathon 2026 Cebu Leg: September 6. RUNRIO's premier series qualifier in the Queen City of the South.",
-  "dek": "Set for 6 September 2026 in Cebu City, this RUNRIO-produced MILO Marathon qualifying leg brings the series to the Philippines' oldest city.",
-  "verdict": "The MILO Marathon Cebu Leg is a RUNRIO-produced MILO series qualifier in Cebu City — the Philippines' oldest urban centre and the 'Queen City of the South.' Five distances from 1K to 21K. RUNRIO's production ensures professional standards. September in Cebu is the transition into the northeast monsoon. Cebu's mix of urban infrastructure and heritage landmarks makes for a distinctive race setting. A key MILO series qualifier in one of the country's most vibrant cities.",
+  "title": "MILO Marathon 2026 Cebu Leg Review: One of the Series' Biggest Regional Fields",
+  "seo_title": "MILO Marathon Cebu Leg 2026 Review | Philippines",
+  "meta_description": "MILO Marathon 2026 Cebu Leg review: September 6 -- historically one of the largest legs in the series, with a record 24,000+ runners in 2019.",
+  "dek": "Set for 6 September 2026 somewhere in Metro Cebu, this leg has drawn some of the biggest fields in the entire MILO Marathon series -- over 24,000 runners in 2019 -- though the exact host city within Cebu has changed nearly every year recently.",
+  "verdict": "The Cebu leg is one of the heavyweight stops on the MILO Marathon calendar: a record field of over 24,000 runners in 2019 and still over 16,000 in 2024, backed by Cebuano Olympian and six-time series champion Mary Joy Tabal's involvement in local organising. Early gun starts (4:30am for the 21K) manage the heat, and past organisers have reported clean, well-run editions. The genuine wrinkle is venue instability -- the host location within Metro Cebu has shifted almost every year recently, from Cebu City Sports Center to Mandaue to Lapu-Lapu -- so specific 2026 logistics need confirming closer to race day.",
   "rating": {
-    "overall": 70,
+    "overall": 76,
     "breakdown": [
       {
-        "label": "Organiser (RUNRIO)",
-        "score": 92
+        "label": "Field size & series prestige",
+        "score": 90
       },
       {
-        "label": "Cebu destination",
-        "score": 82
+        "label": "Local organising talent (Mary Joy Tabal)",
+        "score": 78
       },
       {
-        "label": "Series (MILO)",
-        "score": 85
+        "label": "Heat management (early starts)",
+        "score": 72
       },
       {
-        "label": "Registration",
-        "score": 35
+        "label": "Venue consistency",
+        "score": 42
       }
     ]
   },
   "sections": [
     {
-      "heading": "MILO in the Queen City",
+      "heading": "One of the Series' Biggest Regional Legs",
       "paragraphs": [
-        "Cebu City is the Philippines' oldest urban centre and second-largest metropolitan area — a destination with heritage landmarks, a vibrant food scene, and easy access to beaches. [1] The MILO series in Cebu is one of the circuit's most competitive qualifying legs."
+        "The Cebu leg has historically been one of the largest regional legs in the entire MILO Marathon series, with a record field of over 24,000 runners in 2019 and over 16,000 in 2024. [1] Categories in recent Cebu-area editions have included 21K, 10K, 5K and 3K, with the 5K typically drawing the largest number of entrants -- a genuinely mass-participation event by Philippine standards."
+      ]
+    },
+    {
+      "heading": "Early Starts to Beat the Heat",
+      "paragraphs": [
+        "Recent editions used early gun starts to manage conditions: the 21K starts at 4:30am with a 2h30m cutoff, the 10K at 5:00am with a 1h30m cutoff, and the 5K/3K/1K starting between 5:30-5:45am. [1] Cebu leg organiser Ricky Ballesteros, reflecting on a past edition, said: \"Everything went on smoothly. No untoward incident. The weather cooperated although it was a little bit hot, but thank God it didn't rain.\" [2] An elite runner quoted in the same report added: \"I love it here. I like Cebu. It was a well-organized race.\" [2]"
+      ]
+    },
+    {
+      "heading": "Mary Joy Tabal's Local Involvement",
+      "paragraphs": [
+        "Local organising has often involved Cebuano Olympian and six-time MILO Marathon champion Mary Joy Tabal, who has helped run the leg with RUNRIO and local city governments. [1] That local elite-athlete connection gives the Cebu leg a degree of homegrown credibility beyond its scale alone."
+      ]
+    },
+    {
+      "heading": "The Host Venue Keeps Moving",
+      "paragraphs": [
+        "The exact host venue within Metro Cebu has shifted in recent years -- Cebu City Sports Center (2019 and earlier), Mandaue City (2024), and Lapu-Lapu City (2025) -- so participants should confirm the specific start/finish location for the 2026 edition well in advance. [1] Packet pick-up and start-line logistics are consequently not consistent year to year, which is worth planning around if you're travelling from outside Cebu."
       ]
     },
     {
       "heading": "Should You Run It?",
       "paragraphs": [
-        "A RUNRIO MILO qualifier in Cebu. 6 September 2026. [1]"
+        "If you want to be part of one of the MILO Marathon series' largest and most established regional legs, with genuine local elite-athlete involvement, the Cebu leg on 6 September 2026 delivers scale and history. Just confirm the exact 2026 host venue directly with organisers before finalising travel, since it's changed almost every year recently."
       ]
     }
   ],
-  "pull_quotes": [],
+  "pull_quotes": [
+    {
+      "quote": "I love it here. I like Cebu. It was a well-organized race.",
+      "attribution": "Elite runner, quoted in Philstar.com Cebu leg report",
+      "source_url": "http://www.philstar.com/cebu-sports/733100/over-19000-runners-join-cebu-leg-milo-marathon-ethiopians-kenyans-rule"
+    }
+  ],
   "sources": [
     {
       "n": 1,
-      "label": "MILO Marathon — official site",
-      "publisher": "MILO / RUNRIO",
-      "url": "https://www.milo.com.ph",
+      "label": "National MILO Marathon — official site",
+      "publisher": "MILO Philippines",
+      "url": "https://www.milo.com.ph/national-milo-marathon",
       "type": "official"
+    },
+    {
+      "n": 2,
+      "label": "Over 19,000 runners join Cebu leg of Milo Marathon — Philstar.com",
+      "publisher": "Philstar.com",
+      "url": "http://www.philstar.com/cebu-sports/733100/over-19000-runners-join-cebu-leg-milo-marathon-ethiopians-kenyans-rule",
+      "type": "news"
     }
   ],
   "faqs": [
     {
-      "question": "When is MILO Marathon Cebu 2026?",
-      "answer": "6 September 2026 in Cebu City. It offers 1K, 3K, 5K, 10K, and 21.1K. Registration is listed as not yet confirmed open. RUNRIO Inc. (MILO Marathon) organises the event. [1]"
+      "question": "How big is the MILO Marathon Cebu Leg?",
+      "answer": "It's historically one of the largest legs in the series -- a record 24,000+ runners in 2019 and still over 16,000 in 2024. Categories typically include 21K, 10K, 5K and 3K, with the 5K drawing the biggest crowds. [1]"
+    },
+    {
+      "question": "Where exactly is the Cebu leg held?",
+      "answer": "That's changed almost every year: Cebu City Sports Center through 2019, Mandaue City in 2024, and Lapu-Lapu City in 2025. Confirm the specific 2026 host venue and packet pick-up location directly with organisers before travelling. [1]"
+    },
+    {
+      "question": "Is the race well-organised?",
+      "answer": "Past organiser and elite-runner accounts describe it favourably -- one leg organiser called a past edition smooth with no incidents, and an elite runner praised it as well-organized. Early gun starts (4:30am for the 21K) help manage Cebu's heat. [1][2]"
     }
   ],
-  "editorial_notes": "Auto-generated review.",
+  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and already-researched entity material (research_highlights/watchouts), plus supplementary background sources. Prose is original synthesis. Safe to hand-edit.",
+  "published_at": "2026-08-09T07:00:00.000Z",
   "last_updated": "2026-08-09",
   "status": "active"
 }

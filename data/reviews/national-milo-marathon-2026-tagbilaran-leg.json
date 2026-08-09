@@ -2,43 +2,61 @@
   "review_id": "national-milo-marathon-2026-tagbilaran-leg",
   "slug": "national-milo-marathon-2026-tagbilaran-leg",
   "entity_id": "national-milo-marathon-2026-tagbilaran-leg",
-  "title": "MILO Marathon Tagbilaran Leg 2026 Review: Bohol Qualifier",
-  "seo_title": "MILO Marathon Tagbilaran 2026 Review | Bohol Philippines",
-  "meta_description": "National MILO Marathon 2026 Tagbilaran Leg: September 13. RUNRIO's series qualifier in Bohol — Chocolate Hills province.",
-  "dek": "Set for 13 September 2026 in Tagbilaran City, Bohol, this RUNRIO-produced MILO Marathon qualifying leg brings the series to the Chocolate Hills province.",
-  "verdict": "The MILO Marathon Tagbilaran Leg is a RUNRIO-produced MILO series qualifier in Tagbilaran City — the capital of Bohol, home to the Chocolate Hills, tarsier sanctuaries, and the Loboc River. Five distances from 1K to 21K. RUNRIO's production ensures professional standards. September in Bohol is the transition season. A MILO series qualifier in one of the Philippines' most celebrated tourist destinations.",
+  "title": "MILO Marathon 2026 Tagbilaran Leg Review: An Evening Race in Bohol's Capital",
+  "seo_title": "MILO Marathon Tagbilaran Leg 2026 Review | Bohol",
+  "meta_description": "MILO Marathon 2026 Tagbilaran Leg review: September 13, an unusual 6:05pm start, part of the 50th-anniversary Golden Run series in Bohol's capital city.",
+  "dek": "Set for 13 September 2026 with an unusual 6:05pm timeslot, this Tagbilaran leg is one of 15 stops on the MILO Marathon's 50th-anniversary Golden Run series, held in Bohol's small, walkable provincial capital.",
+  "verdict": "The Tagbilaran leg stands out within the MILO Marathon's 2026 Golden Run series for one specific reason: it's listed with a 6:05pm timeslot, unusual for a series that typically runs early-morning legs to beat the heat. Four distances (3K/5K/10K/21K) keep it accessible, and past editions have offered a full entitlement structure -- singlets and bibs for all, finisher shirts and medals for 10K/21K/42K finishers. Tagbilaran itself is Bohol's compact, walkable provincial capital, small enough (just 36.5 sq km, roughly 105,000 people) that logistics are simple compared to sprawling Metro Manila legs.",
   "rating": {
-    "overall": 70,
+    "overall": 67,
     "breakdown": [
       {
-        "label": "Organiser (RUNRIO)",
-        "score": 92
-      },
-      {
-        "label": "Bohol destination",
-        "score": 88
-      },
-      {
-        "label": "Series (MILO)",
+        "label": "Series heritage (50th-anniversary Golden Run)",
         "score": 85
       },
       {
-        "label": "Registration",
-        "score": 35
+        "label": "Compact, walkable destination",
+        "score": 72
+      },
+      {
+        "label": "Distance accessibility",
+        "score": 74
+      },
+      {
+        "label": "Unusual evening timeslot -- unclear conditions",
+        "score": 45
       }
     ]
   },
   "sections": [
     {
-      "heading": "MILO in Bohol",
+      "heading": "An Unusual Evening Timeslot",
       "paragraphs": [
-        "Bohol is one of the Philippines' top destinations — Chocolate Hills, tarsiers, and the Loboc River cruise. [1] Tagbilaran City is the provincial capital and transport hub. The MILO series brings RUNRIO's gold-standard production to this world-class destination."
+        "The 2026 Tagbilaran Leg offers 3K, 5K, 10K, and 21K distances, with the event listed for a 6:05pm timeslot on 13 September 2026. [1] That's a genuine departure from the pre-dawn starts typical of most MILO Marathon legs and most Philippine road races generally -- worth double-checking with organisers, since an evening start changes heat exposure, lighting needs, and post-race logistics considerably."
+      ]
+    },
+    {
+      "heading": "One of 15 Legs in the Golden Run",
+      "paragraphs": [
+        "This leg is one of 15 regional races in the 2026 MILO Marathon series, which marks the 50th anniversary of the country's longest-running grassroots race, with the National Finals held 8 December in Clark City, Pampanga. [1] That anniversary framing gives every 2026 leg, including Tagbilaran's, a bit more institutional weight than an ordinary annual stop."
+      ]
+    },
+    {
+      "heading": "Entitlements: What Past Editions Offered",
+      "paragraphs": [
+        "Past Tagbilaran editions (2024) offered a singlet and race bib for all entrants, with finisher shirts and lootbags reserved for 21K/42K finishers and finisher medals for 10K/21K/42K finishers. [1] Registration and event logistics are handled online via Race Roster, with RUNRIO Inc. as the event organizer of record."
+      ]
+    },
+    {
+      "heading": "Tagbilaran: A Compact Provincial Capital",
+      "paragraphs": [
+        "Tagbilaran is the capital of Bohol province, a compact city of just 36.5 square kilometres with a 2020 census population of roughly 105,000, nicknamed the 'City of Peace and Friendship.' [2] That small footprint makes a race in Tagbilaran genuinely walkable compared to sprawling Metro Manila legs -- kit collection, hotel, and start line are all likely to be within easy reach of each other."
       ]
     },
     {
       "heading": "Should You Run It?",
       "paragraphs": [
-        "A RUNRIO MILO qualifier in Bohol. 13 September 2026 in Tagbilaran City. [1]"
+        "If a MILO Marathon leg in a small, easy-to-navigate provincial capital appeals, and the unusual evening start time doesn't put you off, the Tagbilaran leg on 13 September 2026 is a reasonable choice within the 50th-anniversary Golden Run series. Confirm the 6:05pm timeslot and lighting/safety arrangements directly with organisers before committing, since it's an atypical format for this series."
       ]
     }
   ],
@@ -46,19 +64,35 @@
   "sources": [
     {
       "n": 1,
-      "label": "MILO Marathon — official site",
-      "publisher": "MILO / RUNRIO",
-      "url": "https://www.milo.com.ph",
+      "label": "National MILO Marathon — official site",
+      "publisher": "MILO Philippines",
+      "url": "https://www.milo.com.ph/national-milo-marathon",
       "type": "official"
+    },
+    {
+      "n": 2,
+      "label": "Tagbilaran City, Bohol Profile — PhilAtlas",
+      "publisher": "PhilAtlas",
+      "url": "https://www.philatlas.com/visayas/r07/bohol/tagbilaran.html",
+      "type": "other"
     }
   ],
   "faqs": [
     {
-      "question": "When is MILO Marathon Tagbilaran 2026?",
-      "answer": "13 September 2026 in Tagbilaran City, Bohol. It offers 1K, 3K, 5K, 10K, and 21.1K. Registration is listed as not yet confirmed open. RUNRIO Inc. (MILO Marathon) organises the event. [1]"
+      "question": "When does the Tagbilaran leg start?",
+      "answer": "It's listed for a 6:05pm timeslot on 13 September 2026 -- an unusual evening start compared to most MILO Marathon legs, which typically begin before dawn. Confirm current details with organisers, since this is an atypical format for the series. [1]"
+    },
+    {
+      "question": "What distances are offered?",
+      "answer": "Four: 3K, 5K, 10K, and 21K. This is one of 15 legs in the MILO Marathon's 50th-anniversary Golden Run series, ahead of the National Finals on 8 December in Clark City, Pampanga. [1]"
+    },
+    {
+      "question": "What do finishers receive?",
+      "answer": "Based on the 2024 edition, all entrants get a singlet and race bib, 21K/42K finishers receive finisher shirts and lootbags, and 10K/21K/42K finishers receive medals. Registration is handled online via Race Roster. [1]"
     }
   ],
-  "editorial_notes": "Auto-generated review.",
+  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and already-researched entity material (research_highlights/watchouts), plus supplementary background sources. Prose is original synthesis. Safe to hand-edit.",
+  "published_at": "2026-08-09T07:00:00.000Z",
   "last_updated": "2026-08-09",
   "status": "active"
 }

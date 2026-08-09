@@ -2,43 +2,67 @@
   "review_id": "pahang-marathon-2026",
   "slug": "pahang-marathon-2026",
   "entity_id": "pahang-marathon-2026",
-  "title": "Pahang Marathon 2026 Review: Kuantan's East-Coast Full Marathon",
-  "seo_title": "Pahang Marathon 2026 Review | Kuantan Malaysia Race",
-  "meta_description": "The Pahang Marathon 2026: September 6 at Dataran Sayangi Kuantan. Full and half marathon with registration open — Malaysia's east-coast state marathon.",
-  "dek": "Set for 6 September 2026 at Dataran Sayangi Kuantan in Pahang, this community-organised marathon offers full and half distances with registration open. An east-coast Malaysian road race with genuine grassroots support.",
-  "verdict": "The Pahang Marathon brings a full 42.195km to Kuantan — Pahang's state capital on Malaysia's east coast. Organised by POMPKL and Kita Pelari Malaysia with Pure Events, it's a community-driven race with genuine grassroots backing. Two distances (42K, 21K) with registration open. Kuantan is known for its beaches (Teluk Cempedak), its satay, and its laid-back east-coast character. September is the tail of the southwest monsoon — warm but generally drier than the November-March northeast monsoon. A solid east-coast Malaysian marathon with open registration.",
+  "title": "Pahang Marathon 2026 Review: An Inaugural Debut in Malaysia's East Coast Capital",
+  "seo_title": "Pahang Marathon 2026 Review | Kuantan Malaysia",
+  "meta_description": "Pahang Marathon 2026 review: September 6 at Dataran Sayangi Kuantan -- the inaugural edition of a new full and half marathon in Pahang's state capital.",
+  "dek": "Set for 6 September 2026 at Dataran Sayangi Kuantan, this is the debut edition of the Pahang Marathon -- full and half marathon distances with veteran divisions, co-organised by youth and running community groups with city council backing.",
+  "verdict": "The Pahang Marathon is a brand-new event, explicitly billed as its debut in Kuantan -- Malaysia's East Coast capital and 12th-largest city -- with no prior edition to draw on for feedback. Two distances (42K full, 21K half), each split into open and veteran divisions, keep the format straightforward, and the event carries genuine official backing: co-organised by POMPKL and Kita Pelari Malaysia, with Pure Events and Persatuan Olahraga Pahang as technical organisers, supported by Kuantan City Council. A related same-organiser debut event in 2025 also launched without generating public feedback, so this is one to treat as an unknown quantity operationally, even with solid institutional support on paper.",
   "rating": {
-    "overall": 66,
+    "overall": 60,
     "breakdown": [
       {
-        "label": "Community backing",
-        "score": 75
+        "label": "Official backing & organisation",
+        "score": 76
       },
       {
-        "label": "Registration",
-        "score": 82
+        "label": "Destination (Kuantan, state capital)",
+        "score": 70
       },
       {
-        "label": "East-coast setting",
+        "label": "Eligibility & accessibility",
         "score": 68
       },
       {
-        "label": "Distance range",
-        "score": 60
+        "label": "Debut event, no track record",
+        "score": 25
       }
     ]
   },
   "sections": [
     {
-      "heading": "Kuantan: Pahang's Coastal Capital",
+      "heading": "A Genuine First for Kuantan",
       "paragraphs": [
-        "Kuantan is Pahang's state capital — an east-coast city with a relaxed character, known for Teluk Cempedak beach and its distinctive satay. [1] The community-organiser partnership (POMPKL + Kita Pelari Malaysia + Pure Events) gives the race genuine grassroots support. Registration is open."
+        "This is the inaugural edition of the Pahang Marathon, explicitly billed by organisers as the event's debut in Kuantan on 6 September 2026. [1] Kuantan is the state capital of Pahang and the largest city on Peninsular Malaysia's East Coast, with a population of roughly 548,000 -- the state administration relocated there from Kuala Lipis back in 1955. [2] It's a genuinely significant regional city to host a first-year marathon."
+      ]
+    },
+    {
+      "heading": "Two Distances, Veteran Divisions",
+      "paragraphs": [
+        "Race categories include the 42KM Full Marathon and 21KM Half Marathon, each split into Men's and Women's Veteran (40 years and above, Malaysian) divisions, based on Race Roster registration listings. [1] The event is open to all Malaysian residents and permitted non-Malaysian residents aged 5 and above, per the official rules."
+      ]
+    },
+    {
+      "heading": "Real Institutional Backing",
+      "paragraphs": [
+        "The event is co-organised by Persatuan Orang Muda Pahang KL (POMPKL) and Kita Pelari Malaysia, with Pure Events and Persatuan Olahraga Pahang as Technical Organisers, and support from Majlis Bandaraya Kuantan (the city council). [1] That's a genuinely credible organisational structure for a debut event, even without a track record to point to."
+      ]
+    },
+    {
+      "heading": "No Track Record Yet",
+      "paragraphs": [
+        "As a brand-new debut event with no prior edition, there are no participant race reports, reviews, or community discussion available yet to assess course conditions, crowd support, or organisation quality. [1] A related same-organiser event, the Pahang Half Marathon 2025, was also marketed as a 'first ever' debut in Kuantan, but no post-race participant feedback from that edition turned up in research either -- worth noting as a pattern rather than a one-off gap."
+      ]
+    },
+    {
+      "heading": "Kit Collection Rules",
+      "paragraphs": [
+        "Race kit collection requires participants to bring a confirmation slip or NRIC/Passport for verification, and kits will not be issued after the designated collection period -- a firm policy worth planning around if you're travelling into Kuantan for race weekend."
       ]
     },
     {
       "heading": "Should You Run It?",
       "paragraphs": [
-        "An east-coast Malaysian full marathon with community backing and open registration. 6 September 2026 at Dataran Sayangi Kuantan. [1]"
+        "If a genuinely new marathon in Malaysia's East Coast capital, backed by credible local organisers and the city council, appeals more than a proven course, the Pahang Marathon on 6 September 2026 is worth an early sign-up. Treat it as an operational unknown given the total absence of participant feedback for this organiser's debut events so far."
       ]
     }
   ],
@@ -46,19 +70,35 @@
   "sources": [
     {
       "n": 1,
-      "label": "Pahang Marathon — event listing",
-      "publisher": "POMPKL / Kita Pelari Malaysia",
+      "label": "Pahang Marathon 2026 — event listing",
+      "publisher": "checkpointspot.asia",
       "url": "https://checkpointspot.asia/events",
-      "type": "registration_platform"
+      "type": "aggregator"
+    },
+    {
+      "n": 2,
+      "label": "Kuantan — Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kuantan",
+      "type": "other"
     }
   ],
   "faqs": [
     {
-      "question": "When is the Pahang Marathon 2026?",
-      "answer": "6 September 2026 at Dataran Sayangi Kuantan, Pahang, Malaysia. Registration open. It offers 42.2K and 21.1K. Persatuan Orang Muda Pahang KL (POMPKL) & Kita Pelari Malaysia, with Pure Events organises the event. [1]"
+      "question": "Has the Pahang Marathon run before?",
+      "answer": "No -- the 6 September 2026 edition is explicitly billed as the race's debut in Kuantan, Pahang's state capital. There are no participant race reports or reviews yet, though a related debut event by the same organiser ran in 2025 without generating public feedback either. [1]"
+    },
+    {
+      "question": "What distances and divisions are offered?",
+      "answer": "A 42KM Full Marathon and 21KM Half Marathon, each with Men's and Women's Veteran (40 years and above, Malaysian) divisions. The event is open to Malaysian residents and permitted non-Malaysian residents aged 5 and above. [1]"
+    },
+    {
+      "question": "Who is organising the race?",
+      "answer": "Persatuan Orang Muda Pahang KL (POMPKL) and Kita Pelari Malaysia co-organise, with Pure Events and Persatuan Olahraga Pahang as Technical Organisers, supported by Kuantan City Council (Majlis Bandaraya Kuantan). [1]"
     }
   ],
-  "editorial_notes": "Auto-generated review.",
+  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and already-researched entity material (research_highlights/watchouts), plus supplementary background sources. Prose is original synthesis. Safe to hand-edit.",
+  "published_at": "2026-08-09T07:00:00.000Z",
   "last_updated": "2026-08-09",
   "status": "active"
 }
