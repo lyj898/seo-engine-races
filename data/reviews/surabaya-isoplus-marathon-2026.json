@@ -2,43 +2,61 @@
   "review_id": "surabaya-isoplus-marathon-2026",
   "slug": "surabaya-isoplus-marathon-2026",
   "entity_id": "surabaya-isoplus-marathon-2026",
-  "title": "Surabaya ISOPLUS Marathon 2026 Review: East Java's Full Marathon with Open Registration",
-  "seo_title": "Surabaya ISOPLUS Marathon 2026 Review | East Java Indonesia",
-  "meta_description": "The Surabaya ISOPLUS Marathon 2026: October 4 in Surabaya. 42K, 21K, 10K, 5K with early-bird registration open — Indonesia's second-city full marathon reviewed.",
-  "dek": "Set for 4 October 2026 in Surabaya, East Java, this ISOPLUS-branded marathon offers four distances with early-bird registration open. A full marathon in Indonesia's second-largest city.",
-  "verdict": "The Surabaya ISOPLUS Marathon brings a full 42.195km to Surabaya — Indonesia's City of Heroes and the country's second-largest metropolitan area. Four distances (42K, 21K, 10K, 5K) with early-bird registration open. Surabaya is a major running hub with a passionate local community, and the ISOPLUS isotonic-drink brand backing ensures well-stocked hydration stations. October in Surabaya is the dry-season tail — warm but manageable with an early-morning start. For runners wanting a full marathon in Indonesia's great second city, this is the pick.",
+  "title": "Surabaya Isoplus Marathon 2026 Review: An Isotonic-Drink Brand's Full Marathon",
+  "seo_title": "Surabaya Isoplus Marathon 2026 Review | East Java",
+  "meta_description": "Surabaya Isoplus Marathon 2026 review: October 4 -- an isotonic sports-drink-branded full marathon in Indonesia's second-largest city, early-bird open.",
+  "dek": "Set for 4 October 2026 in Surabaya, this full marathon carries the branding of Isoplus, an Indonesian isotonic sports drink, with early-bird registration already open, though the exact start venue hasn't been confirmed.",
+  "verdict": "The Surabaya Isoplus Marathon follows a similar hydration-brand playbook to the Pocari Sweat Run covered elsewhere in this research batch -- Isoplus is an Indonesian isotonic sports drink, and races carrying its name typically emphasize on-course hydration support. Four distances (5K to the full 42.195K) give it the broadest range among the Surabaya races in this research. Surabaya itself is Indonesia's second-largest city with major port and transport infrastructure, a genuinely easier logistics base than many smaller destinations covered elsewhere in this batch. The exact start venue within the city hasn't been confirmed yet.",
   "rating": {
-    "overall": 73,
+    "overall": 69,
     "breakdown": [
       {
-        "label": "Surabaya location",
-        "score": 80
+        "label": "Brand hydration focus (Isoplus)",
+        "score": 74
       },
       {
-        "label": "Brand (ISOPLUS)",
-        "score": 75
-      },
-      {
-        "label": "Registration",
+        "label": "City infrastructure (Surabaya)",
         "score": 82
       },
       {
-        "label": "Distance range",
+        "label": "Distance range (5K to full marathon)",
         "score": 78
+      },
+      {
+        "label": "Venue clarity",
+        "score": 40
       }
     ]
   },
   "sections": [
     {
-      "heading": "Surabaya: Indonesia's City of Heroes",
+      "heading": "An Isotonic Drink Brand's Full Marathon",
       "paragraphs": [
-        "Surabaya is Indonesia's second city — a major port and commercial hub with a passionate running community and wide city roads that support a full marathon course. [1] The ISOPLUS brand — Indonesia's popular isotonic drink — means hydration stations are likely to be a highlight. Early-bird registration is open."
+        "The Surabaya Isoplus Marathon offers four distances: 5K, 10K, 21.1K and the 42.195K full marathon. [1] Isoplus is an Indonesian isotonic sports drink brand, and the race's name signals a similar hydration-focused sponsorship approach to the Pocari Sweat Run's Bandung leg covered elsewhere in this research -- expect on-course hydration stations to be a specific point of emphasis given the sponsor's core product."
+      ]
+    },
+    {
+      "heading": "Surabaya: Indonesia's Second City",
+      "paragraphs": [
+        "Surabaya is Indonesia's second-largest city and the capital of East Java province, sitting at the mouth of the Mas River on Java's northern shore, with a population of around three million in the city proper and at least five million across the metro area. [2] That's genuinely major-city infrastructure, making travel, accommodation and race-day logistics considerably more straightforward than at several smaller destinations in this research batch."
+      ]
+    },
+    {
+      "heading": "Early Bird Registration Open",
+      "paragraphs": [
+        "Registration is currently open in an Early Bird phase, though the exact start venue within Surabaya hasn't been stated in available material -- only the host city is confirmed. [1] Given that this is a full-marathon event (a step up from the half-marathon-focused Surabaya Orthopedic Half Marathon covered elsewhere in this batch), it's worth confirming the venue before committing to travel plans."
+      ]
+    },
+    {
+      "heading": "A Second Surabaya Race in the Same Window",
+      "paragraphs": [
+        "Notably, this marathon shares its 4 October 2026 date with several other races researched in this batch, and Surabaya itself hosts multiple distinct running events (this marathon and the separately organised Orthopedic Half Marathon) -- runners should confirm they're registering for the correct event given the overlapping branding and geography."
       ]
     },
     {
       "heading": "Should You Run It?",
       "paragraphs": [
-        "A full marathon in Indonesia's second city with open early-bird registration. 4 October 2026 in Surabaya. [1]"
+        "If you want a full-marathon option in one of Indonesia's most infrastructure-rich cities, with hydration-focused brand backing, the Surabaya Isoplus Marathon on 4 October 2026 is a solid pick -- register during the current Early Bird window for the best pricing. Confirm the exact start venue before finalising travel."
       ]
     }
   ],
@@ -46,19 +64,35 @@
   "sources": [
     {
       "n": 1,
-      "label": "Surabaya ISOPLUS Marathon — official website",
-      "publisher": "ISOPLUS",
+      "label": "Surabaya Isoplus Marathon 2026 — official site",
+      "publisher": "isoplusrun.com",
       "url": "https://isoplusrun.com",
       "type": "official"
+    },
+    {
+      "n": 2,
+      "label": "Surabaya — Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portal:Indonesia/ST_List/SA_Surabaya",
+      "type": "other"
     }
   ],
   "faqs": [
     {
-      "question": "When is the Surabaya ISOPLUS Marathon 2026?",
-      "answer": "4 October 2026 in Surabaya, East Java, Indonesia. It offers 42.2K, 21.1K, 10K, and 5K. Registration is currently open. It's held at Surabaya (exact venue not stated). Mark it on your calendar if you're planning your racing year around it. [1]"
+      "question": "When is the Surabaya Isoplus Marathon 2026?",
+      "answer": "4 October 2026, offering four distances: 5K, 10K, 21.1K and the 42.195K full marathon. Registration is currently open in an Early Bird phase, though the exact start venue within Surabaya hasn't been confirmed yet. [1]"
+    },
+    {
+      "question": "What is Isoplus?",
+      "answer": "An Indonesian isotonic sports drink brand serving as the race's namesake sponsor, similar in concept to the Pocari Sweat Run covered elsewhere in this research -- expect a hydration-focused race-day emphasis given the sponsor's core product. [1]"
+    },
+    {
+      "question": "How easy is it to get to Surabaya?",
+      "answer": "Very -- Surabaya is Indonesia's second-largest city, with a metro population of at least five million and major port and transport infrastructure, making travel and accommodation considerably easier than at smaller race destinations. [2]"
     }
   ],
-  "editorial_notes": "Auto-generated review.",
-  "last_updated": "2026-08-04",
+  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "published_at": "2026-08-09T07:45:00.000Z",
+  "last_updated": "2026-08-09",
   "status": "active"
 }
