@@ -2,49 +2,61 @@
   "review_id": "vnexpress-marathon-hai-phong-2026",
   "slug": "vnexpress-marathon-hai-phong-2026",
   "entity_id": "vnexpress-marathon-hai-phong-2026",
-  "title": "VnExpress Marathon Hai Phong 2026 Review: Vietnam's Coastal Marathon in Do Son",
-  "seo_title": "VnExpress Marathon Hai Phong 2026 Review | Do Son Vietnam Race",
-  "meta_description": "The VnExpress Marathon Hai Phong 2026: December 13 in Do Son, Hai Phong, Vietnam. Full marathon, half, 10K, and 5K from Vietnam's premier race series — a coastal race reviewed.",
-  "dek": "Set for 13 December 2026 in Do Son, Hai Phong, this VnExpress Marathon brings Vietnam's premier race series to the northern coast. Four distances from 5K to full marathon. Registration isn't open yet, but the organiser pedigree is among the strongest in the country.",
-  "verdict": "The VnExpress Marathon Hai Phong 2026 brings Vietnam's most established race series to Do Son — a coastal peninsula in Hai Phong, northern Vietnam's port city — for a four-distance event (42K, 21K, 10K, 5K). VnExpress, in partnership with FPT Online, runs the country's largest marathon series, and their events are among the most professionally produced in Vietnam: chip timing, well-stocked aid stations, entertainment zones, and medal design that incorporates local heritage. The December date in northern Vietnam is cool and dry — markedly different from the tropical conditions of the southern races. Registration isn't open yet, but for a VnExpress race, the operational template is proven.",
+  "title": "VnExpress Marathon Hai Phong 2026 Review: Racing on a French Colonial Beach Peninsula",
+  "seo_title": "VnExpress Marathon Hai Phong 2026 Review | Do Son",
+  "meta_description": "VnExpress Marathon Hai Phong 2026 review: December 13 at Do Son -- a former French colonial resort peninsula, from Vietnam's largest digital newspaper.",
+  "dek": "Set for 13 December 2026 at Do Son, this VnExpress-organised marathon runs on a peninsula the French turned into a summer resort for their colonial expatriate community.",
+  "verdict": "The VnExpress Marathon Hai Phong extends the same major-newspaper organisational model covered at VnExpress's Hanoi Midnight race elsewhere in this research batch to Do Son -- a genuinely scenic peninsula 5 kilometres long, formed by the Dragon Mountain Range, that the French colonial administration turned into a summer resort for their expatriate community and the Vietnamese upper class. Four distances from 5K to the full marathon give it broad accessibility. Registration status wasn't yet announced at the time of this research, and no independent participant reviews were found.",
   "rating": {
     "overall": 74,
     "breakdown": [
       {
-        "label": "Organiser pedigree",
-        "score": 88
-      },
-      {
-        "label": "Coastal setting",
-        "score": 78
-      },
-      {
-        "label": "Season & climate",
+        "label": "Organiser reach (major digital newspaper)",
         "score": 82
       },
       {
-        "label": "Registration readiness",
-        "score": 38
+        "label": "Venue scenery (Do Son peninsula)",
+        "score": 82
+      },
+      {
+        "label": "Distance range",
+        "score": 76
+      },
+      {
+        "label": "Registration clarity",
+        "score": 32
       }
     ]
   },
   "sections": [
     {
-      "heading": "The Series: VnExpress Marathon",
+      "heading": "The Same Newspaper, a Different City",
       "paragraphs": [
-        "VnExpress Marathon is Vietnam's largest and most professionally-run race series, with events in Nha Trang, Hanoi, Da Nang, Hai Phong, and Ho Chi Minh City. [1] A VnExpress race comes with certain expectations: chip timing, well-spaced aid stations, entertainment zones along the route, and medals that incorporate local cultural landmarks. The Hai Phong edition brings that production quality to Vietnam's northern coast."
+        "The race offers four distances -- 5K, 10K, 21.1K and the 42.195K full marathon -- at Do Son, Hai Phong. [1] Like the VnExpress Marathon Hanoi Midnight covered elsewhere in this research batch, this event is organised by VnExpress, Vietnam's largest online newspaper, and FPT Online -- giving it the same broad media promotional reach applied to a different Vietnamese city."
       ]
     },
     {
-      "heading": "The Venue: Do Son, Hai Phong",
+      "heading": "A Former French Colonial Resort",
       "paragraphs": [
-        "Do Son is a coastal peninsula and beach resort area roughly 20km southeast of Hai Phong city centre, known for its pine-covered hills, sandy beaches, and views over the Gulf of Tonkin. [1] The coastal roads provide a scenic, relatively flat course with sea breezes, and the December date in northern Vietnam delivers cool, dry conditions — morning temperatures in the mid-teens to low 20s Celsius, among the best running weather in the country."
+        "Do Son is a district about 20km southeast of Hai Phong's city centre, formed by a peninsula extending 5km into the sea, created by the Dragon Mountain Range. [2] Upon establishing their presence in Hai Phong, the French turned Do Son into a summer resort for their colonial expatriate community and the Vietnamese upper class -- giving the area genuine historical depth alongside its natural coastal scenery."
+      ]
+    },
+    {
+      "heading": "Distinct Beach Zones and a Historic Tower",
+      "paragraphs": [
+        "The peninsula's beach area splits into three zones, with Zone II offering the main recreational swimming beach; Zone I has no beach but features rougher waves and rocky terrain. [2] The peninsula's highest point, Tuong Long Tower on Long Son Mountain (95.2m elevation), is a reconstruction of an original tower dating to the Ly Dynasty -- a genuine historical landmark for race weekend sightseeing."
+      ]
+    },
+    {
+      "heading": "Registration Not Yet Announced",
+      "paragraphs": [
+        "As of this writing, registration status has not been announced. [1] No independent participant reviews were found in research, though VnExpress's massive media reach (demonstrated at its Hanoi event) suggests demand could move quickly once sign-ups open."
       ]
     },
     {
       "heading": "Should You Run It?",
       "paragraphs": [
-        "If you want a VnExpress-quality marathon in northern Vietnam with coastal scenery and cool December conditions, Hai Phong is worth tracking. Watch bestmarathon.vn for registration updates. The 2026 edition is set for 13 December in Do Son, Hai Phong. [1]"
+        "If a marathon on a genuinely scenic former-colonial-resort peninsula, backed by one of Vietnam's most-read media outlets, appeals, the VnExpress Marathon Hai Phong on 13 December 2026 is a strong pick. Watch official VnExpress channels for registration to open."
       ]
     }
   ],
@@ -52,31 +64,35 @@
   "sources": [
     {
       "n": 1,
-      "label": "VnExpress Marathon Hai Phong 2026 — race info and listing",
-      "publisher": "Best Marathon Vietnam / VnExpress",
+      "label": "VnExpress Marathon Hai Phong 2026 — event listing",
+      "publisher": "bestmarathon.vn",
       "url": "https://bestmarathon.vn/race-info/vnexpress-marathon-hai-phong-2026",
       "type": "aggregator"
+    },
+    {
+      "n": 2,
+      "label": "Do Son Beach — background guide",
+      "publisher": "VinWonders",
+      "url": "https://vinwonders.com/en/wonderpedia/news/do-son-beach-hai-phong/",
+      "type": "other"
     }
   ],
   "faqs": [
     {
-      "question": "When is the VnExpress Marathon Hai Phong 2026?",
-      "answer": "The race is scheduled for 13 December 2026 in Do Son, Hai Phong, Vietnam. December in northern Vietnam is cool and dry. It offers 42.2K, 21.1K, 10K, and 5K. Registration is listed as not yet announced. [1]"
+      "question": "Who organises the VnExpress Marathon Hai Phong?",
+      "answer": "VnExpress, Vietnam's largest online newspaper, and FPT Online -- the same organisers behind the VnExpress Marathon Hanoi Midnight covered elsewhere in this research, applying the same media reach to a different city. [1]"
     },
     {
-      "question": "What distances are offered?",
-      "answer": "Four distances: a full marathon (42.195km), half marathon (21.1km), 10K, and 5K. It's held at Đồ Sơn, Hải Phòng. VnExpress / FPT Online organises the event. Registration is listed as not yet announced. It offers 42.2K, 21.1K, 10K, and 5K. [1]"
-    },
-    {
-      "question": "Who organises the race?",
-      "answer": "The race is part of the VnExpress Marathon series, organised by VnExpress in partnership with FPT Online — Vietnam's premier race series. It's held at Đồ Sơn, Hải Phòng. VnExpress / FPT Online organises the event. [1]"
+      "question": "What makes Do Son a scenic race venue?",
+      "answer": "It's a peninsula about 20km from Hai Phong's centre, formed by the Dragon Mountain Range and developed by the French colonial administration into a summer resort. It features distinct beach zones and the historic Tuong Long Tower. [2]"
     },
     {
       "question": "Is registration open?",
-      "answer": "Registration has not yet been announced. Check bestmarathon.vn for updates. It offers 42.2K, 21.1K, 10K, and 5K. It's held at Đồ Sơn, Hải Phòng. VnExpress / FPT Online organises the event. [1]"
+      "answer": "Not yet announced as of this writing. No independent reviews were found for this specific race, though VnExpress's large media reach suggests demand could move quickly once registration eventually opens. [1]"
     }
   ],
-  "editorial_notes": "Auto-generated review from entity data. Prose is original.",
-  "last_updated": "2026-08-04",
+  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "published_at": "2026-08-09T09:15:00.000Z",
+  "last_updated": "2026-08-09",
   "status": "active"
 }
