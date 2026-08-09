@@ -1,4 +1,4 @@
-// Shared Tailwind class strings for Pace Lab's calculator form controls.
+// Shared Tailwind class strings for Lab's calculator form controls.
 // Every tool page under src/pages/tools/ imports from here instead of each
 // repeating identical class strings, so the form look only needs to change
 // in one place.

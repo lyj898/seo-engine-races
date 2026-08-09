@@ -1,0 +1,97 @@
+---
+import siteConfig from '../../lib/config.js';
+import { urls } from '../../lib/urls.js';
+import { loadGear, stripMeta, isPublished } from '../../lib/data.js';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import LastUpdated from '../../components/LastUpdated.astro';
+import ReviewArticle from '../../components/ReviewArticle.astro';
+import ProductCard from '../../components/ProductCard.astro';
+import FAQSection from '../../components/FAQSection.astro';
+import { buildFaqPageSchema, buildBreadcrumbListSchema, buildArticleSchema } from '../../lib/schema-jsonld.js';
+
+export function getStaticPaths() {
+  const articles = loadGear().map(stripMeta).filter(isPublished);
+  return articles.map((article) => ({
+    params: { slug: article.slug },
+    props: { article },
+  }));
+}
+
+const { article } = Astro.props;
+
+const otherArticles = loadGear()
+  .map(stripMeta)
+  .filter(isPublished)
+  .filter((a) => a.slug !== article.slug);
+
+const breadcrumbItems = [
+  { label: siteConfig.siteName, href: urls.home() },
+  { label: 'Gear', href: urls.gearIndex() },
+  { label: article.title, href: urls.gear(article.slug) },
+];
+
+const canonicalUrl = new URL(urls.gear(article.slug), Astro.site).toString();
+
+const pageTitle = article.seo_title || article.title;
+const metaDescription = article.meta_description || article.dek;
+
+const showAffiliate = Boolean(siteConfig.enabledFeatures?.affiliateLinks) && article.products?.length > 0;
+
+const jsonLd = [
+  buildArticleSchema({ article, siteConfig, url: canonicalUrl, site: Astro.site }),
+  ...(siteConfig.enabledFeatures?.faqSchema && article.faqs?.length ? [buildFaqPageSchema(article.faqs)] : []),
+  buildBreadcrumbListSchema(breadcrumbItems, Astro.site),
+].filter(Boolean);
+---
+
+<BaseLayout title={pageTitle} description={metaDescription} canonicalPath={urls.gear(article.slug)} jsonLd={jsonLd}>
+  <div class="mx-auto max-w-3xl px-4 py-10 sm:px-6">
+    <Breadcrumb items={breadcrumbItems} />
+
+    <p class="mt-4 inline-block rounded-full bg-brand-primary px-2.5 py-1 text-xs font-semibold uppercase tracking-wide text-brand-primary-ink dark:text-brand-primary-ink-dark">Gear guide</p>
+    <h1 class="mt-2 font-serif text-3xl font-semibold sm:text-4xl">{article.title}</h1>
+    <p class="mt-3 text-lg text-brand-muted dark:text-brand-muted-dark">{article.dek}</p>
+
+    <div class="mt-3">
+      <LastUpdated date={article.last_updated} />
+    </div>
+
+    {showAffiliate && (
+      <p class="mt-4 rounded-lg border border-brand-border bg-brand-surface-offset p-3 text-xs text-brand-muted dark:border-brand-border-dark dark:bg-brand-surface-offset-dark dark:text-brand-muted-dark">
+        Disclosure: this guide contains affiliate links. We may earn a commission if you buy through them, at no extra cost to you -- it doesn't affect what we recommend.
+      </p>
+    )}
+
+    <ReviewArticle sections={article.sections} sources={article.sources} />
+
+    {article.products?.length > 0 && (
+      <div class="mt-10">
+        <ProductCard products={article.products} />
+      </div>
+    )}
+
+    {article.faqs?.length > 0 && (
+      <div class="mt-12">
+        <FAQSection faqs={article.faqs} />
+      </div>
+    )}
+
+    {otherArticles.length > 0 && (
+      <section class="mt-12">
+        <h2 class="mb-4 text-xl font-semibold">More gear guides</h2>
+        <ul class="space-y-2">
+          {otherArticles.map((a) => (
+            <li>
+              <a href={urls.gear(a.slug)} class="link-accent">{a.title}</a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    <div class="mt-10">
+      <a href={urls.gearIndex()} class="link-accent">← All gear guides</a>
+    </div>
+  </div>
+</BaseLayout>

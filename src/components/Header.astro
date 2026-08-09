@@ -8,11 +8,11 @@ import ThemeToggle from './ThemeToggle.astro';
 // One nav definition, rendered twice (desktop inline row, mobile scroll
 // row) so the two can never drift apart.
 const navLinks = [
-  { href: urls.categoriesIndex(), label: siteConfig.categoryLabelPlural ?? `${siteConfig.categoryLabel}s` },
   { href: urls.regionsIndex(), label: siteConfig.regionLabelPlural ?? `${siteConfig.regionLabel}s` },
   ...(siteConfig.enabledFeatures?.listicles ? [{ href: urls.listiclesIndex(), label: 'Best Of' }] : []),
   ...(siteConfig.enabledFeatures?.reviews ? [{ href: urls.reviewsIndex(), label: 'Reviews' }] : []),
-  { href: urls.toolsIndex(), label: 'Pace Lab' },
+  ...(siteConfig.enabledFeatures?.gear ? [{ href: urls.gearIndex(), label: 'Gear' }] : []),
+  { href: urls.toolsIndex(), label: 'Lab' },
   { href: urls.about(), label: 'About' },
 ];
 ---

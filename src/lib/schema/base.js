@@ -261,3 +261,46 @@ export const reviewSchema = z.object({
   last_updated: z.string().min(1),
   status: z.enum(STATUS_VALUES),
 });
+
+/**
+ * Gear articles (data/gear/*.json).
+ *
+ * Editorial buying-guide/advice content, independent of any single entity --
+ * "what to bring", not "should you run this race". Reuses reviewSectionSchema
+ * for body prose (same [n]-citation mechanics, so ReviewArticle.astro can
+ * render a gear article's body with zero changes) and affiliateLinkSchema
+ * for each recommended product's outbound link, so a product recommendation
+ * is never a bare, undisclosed URL -- ProductCard.astro renders the same
+ * "may earn a commission" disclosure CTABlock.astro already uses for
+ * entity-level affiliate links, gated by the same
+ * site.config.json.enabledFeatures.affiliateLinks flag.
+ *
+ * `sources` is optional (default []) unlike reviewSchema's required array:
+ * a buying guide is allowed to be pure original advice with no external
+ * citations, but if it does cite something, the same [n] rule and
+ * validate-data.js resolution check apply.
+ */
+export const gearProductSchema = z.object({
+  name: z.string().min(1), // product name, e.g. "Salomon ADV Skin 5 Hydration Vest"
+  category: z.string().min(1), // e.g. "Hydration", "Lighting", "Apparel"
+  why: z.string().min(1), // 1-3 sentence recommendation blurb
+  price_range: z.string().min(1).optional(), // free-form, e.g. "$60-90"
+  affiliate_link: affiliateLinkSchema,
+});
+
+export const gearArticleSchema = z.object({
+  article_id: z.string().min(1),
+  slug: slugSchema,
+  title: z.string().min(1),
+  seo_title: z.string().min(1).max(70).optional(),
+  meta_description: z.string().min(1).max(200).optional(),
+  dek: z.string().min(1),
+  sections: z.array(reviewSectionSchema).min(1),
+  products: z.array(gearProductSchema).default([]),
+  sources: z.array(reviewSourceSchema).default([]),
+  faqs: z.array(faqSchema).default([]),
+  editorial_notes: z.string().optional(),
+  published_at: z.string().optional(),
+  last_updated: z.string().min(1),
+  status: z.enum(STATUS_VALUES),
+});

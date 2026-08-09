@@ -13,12 +13,14 @@ const year = new Date().getFullYear();
     <div>
       <p class="mb-2 font-semibold">Explore</p>
       <ul class="space-y-1">
-        <li><a href={urls.categoriesIndex()} class="link-muted">Categories</a></li>
         <li><a href={urls.regionsIndex()} class="link-muted">Regions</a></li>
         {siteConfig.enabledFeatures?.listicles && (
           <li><a href={urls.listiclesIndex()} class="link-muted">Best Of guides</a></li>
         )}
-        <li><a href={urls.toolsIndex()} class="link-muted">Pace Lab</a></li>
+        {siteConfig.enabledFeatures?.gear && (
+          <li><a href={urls.gearIndex()} class="link-muted">Gear</a></li>
+        )}
+        <li><a href={urls.toolsIndex()} class="link-muted">Lab</a></li>
       </ul>
     </div>
     <div>
