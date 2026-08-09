@@ -2,43 +2,61 @@
   "review_id": "jitra-half-marathon-2026",
   "slug": "jitra-half-marathon-2026",
   "entity_id": "jitra-half-marathon-2026",
-  "title": "Jitra Half Marathon 2026 Review: Kedah's Darulaman Park 21K",
-  "seo_title": "Jitra Half Marathon 2026 Review | Kedah Malaysia Race",
-  "meta_description": "The Jitra Half Marathon 2026: September 19 at Darulaman Park, Jitra, Kedah. 21K, 10K, 5K from BDB Leisure with registration open — northern Malaysia's park-based race.",
-  "dek": "Set for 19 September 2026 at Darulaman Park in Jitra, Kedah, this BDB Leisure-organised half marathon offers three distances with registration open. A northern Malaysian race with state-government backing.",
-  "verdict": "The Jitra Half Marathon is a state-government-backed Kedah road race, organised by BDB Leisure (a subsidiary of Bina Darulaman Berhad, Kedah's state development corporation). Three distances (21K, 10K, 5K) with registration open. Darulaman Park provides a contained, park-based race precinct with dedicated roads and facilities. Jitra is a town in northern Kedah, roughly 30 minutes from Alor Setar and close to the Thai border. For runners wanting a northern Malaysian half marathon with government backing and open registration, this is a solid pick.",
+  "title": "Jitra Half Marathon 2026 Review: A Return to Kedah's WWII Frontline Town",
+  "seo_title": "Jitra Half Marathon 2026 Review | Kedah, Malaysia",
+  "meta_description": "Jitra Half Marathon 2026 review: September 19 at Darulaman Park -- a returning race in Kedah's fourth-largest town, developer-backed with tiered pricing.",
+  "dek": "Set for 19 September 2026 at Darulaman Park in Jitra, Kedah, this developer-backed race markets itself as returning for another September edition -- three distances with early-bird pricing tiers running through July.",
+  "verdict": "The Jitra Half Marathon is organised by BDB Leisure, part of the Bina Darulaman Berhad property group, and its own marketing explicitly frames the 2026 edition as the race 'returning' in September -- implying at least one prior edition, though specific past-year details weren't found in research. Three distances (21K/10K/5K) with tiered early-bird pricing (RM50-95 depending on distance and registration window) keep it accessible. Jitra itself is Kedah's fourth-largest town and a site of real historical significance -- one of the fiercest battles of the WWII Malayan campaign was fought there in 1941 -- giving the race a backdrop with more depth than its modest scale might suggest.",
   "rating": {
-    "overall": 66,
+    "overall": 65,
     "breakdown": [
       {
-        "label": "Government backing",
-        "score": 78
+        "label": "Developer backing & venue (Darulaman Park)",
+        "score": 74
       },
       {
-        "label": "Registration",
-        "score": 82
+        "label": "Returning event, some continuity",
+        "score": 68
       },
       {
-        "label": "Park venue",
-        "score": 72
+        "label": "Pricing accessibility",
+        "score": 76
       },
       {
-        "label": "Northern Malaysia appeal",
-        "score": 62
+        "label": "Historical/destination appeal",
+        "score": 55
       }
     ]
   },
   "sections": [
     {
-      "heading": "Kedah: Malaysia's Rice Bowl",
+      "heading": "A Developer-Backed Race Returning to Jitra",
       "paragraphs": [
-        "Jitra is a town in northern Kedah — Malaysia's 'Rice Bowl' state, known for its paddy fields, its laid-back atmosphere, and its proximity to the Thai border. [1] BDB Leisure's state-government connection gives the race institutional backing. Darulaman Park is a landscaped recreational area with dedicated roads."
+        "The race is organised by BDB Leisure Sdn. Bhd., part of the Bina Darulaman Berhad property group, and its official marketing explicitly bills the 2026 edition as the Jitra Half Marathon 'returning' ('kembali') in September. [1] That phrasing implies a prior edition, though specific details from earlier years weren't found in available research -- worth treating as a race with some history rather than a pure debut."
+      ]
+    },
+    {
+      "heading": "Three Distances, Tiered Pricing",
+      "paragraphs": [
+        "Distances offered are 21.1K, 10K and 5K, starting at Darulaman Park in Jitra. [1] Pricing runs RM80/65/50 for the 21km/10km/5km respectively during the Early Bird period (through 31 May 2026), rising to RM95/85/65 for registrations between 1 June and 31 July 2026 -- a straightforward tiered structure that rewards early sign-up."
+      ]
+    },
+    {
+      "heading": "Jitra: Kedah's Fourth-Largest Town, WWII History",
+      "paragraphs": [
+        "Jitra is the seat of Kubang Pasu District in northern Kedah, the fourth-largest town in the state after Alor Setar, Sungai Petani and Kulim, with a 2020 population of just under 95,000. [2] It carries genuine historical weight: during World War II, when Japan invaded Malaya, Jitra sat on one of the main British defence lines, and one of the fiercest battles of the entire Malayan campaign was fought there in December 1941."
+      ]
+    },
+    {
+      "heading": "A Purpose-Built Park Venue",
+      "paragraphs": [
+        "Darulaman Park sits within Bandar Darulaman, a planned township development associated with the same Bina Darulaman Berhad group organising the race -- giving the event a venue built with road infrastructure and green space specifically in mind, rather than an improvised city-street course."
       ]
     },
     {
       "heading": "Should You Run It?",
       "paragraphs": [
-        "A government-backed northern Malaysian half marathon with open registration. 19 September 2026 at Darulaman Park, Jitra. [1]"
+        "If a straightforward, reasonably priced half marathon in a historically significant northern Malaysian town appeals, and you register early to lock in the lower pricing tier, the Jitra Half Marathon on 19 September 2026 is a solid regional pick. It's a smaller-scale event than the big-city races in this batch, but the developer backing and returning-event framing suggest more operational continuity than a first-year debut."
       ]
     }
   ],
@@ -46,19 +64,35 @@
   "sources": [
     {
       "n": 1,
-      "label": "Jitra Half Marathon — BDB Leisure",
+      "label": "Jitra Half Marathon kembali September tahun ini — BDB official site",
       "publisher": "Bina Darulaman Berhad",
       "url": "https://bdb.com.my/jitra-half-marathon-kembali-september-tahun-ini",
       "type": "official"
+    },
+    {
+      "n": 2,
+      "label": "Jitra — Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jitra",
+      "type": "other"
     }
   ],
   "faqs": [
     {
-      "question": "When is the Jitra Half Marathon 2026?",
-      "answer": "19 September 2026 at Darulaman Park, Jitra, Kedah, Malaysia. It offers 21.1K, 10K, and 5K. Registration is currently open. BDB Leisure Sdn. Bhd. (anjuran Bina Darulaman Berhad) organises the event. Entry costs RM80/65/50 (Early Bird until 31 May 2026), RM95/85/65 (1 Jun-31 Jul 2026) for 21km/10km/5km. [1]"
+      "question": "When and where is the Jitra Half Marathon 2026?",
+      "answer": "19 September 2026 at Darulaman Park, Jitra, Kedah. Three distances are offered -- 21.1K, 10K and 5K -- organised by BDB Leisure, part of the Bina Darulaman Berhad property group. [1]"
+    },
+    {
+      "question": "How much does it cost?",
+      "answer": "Early Bird pricing (through 31 May 2026) is RM80/65/50 for the 21km/10km/5km respectively, rising to RM95/85/65 for registrations between 1 June and 31 July 2026. Register early to secure the lower tier. [1]"
+    },
+    {
+      "question": "Has this race run before?",
+      "answer": "Organiser marketing explicitly bills the 2026 edition as 'returning' in September, implying at least one prior edition, though specific past-year results weren't found in research. Jitra itself is Kedah's fourth-largest town, with real WWII historical significance. [1][2]"
     }
   ],
-  "editorial_notes": "Auto-generated review.",
-  "last_updated": "2026-08-04",
+  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "published_at": "2026-08-09T07:15:00.000Z",
+  "last_updated": "2026-08-09",
   "status": "active"
 }

@@ -2,43 +2,61 @@
   "review_id": "locomotive-half-marathon-2026",
   "slug": "locomotive-half-marathon-2026",
   "entity_id": "locomotive-half-marathon-2026",
-  "title": "Locomotive Half Marathon 2026 Review: Indonesia's Railway-Backed 21K in Lampung",
-  "seo_title": "Locomotive Half Marathon 2026 Review | Bandar Lampung Indonesia",
-  "meta_description": "The Locomotive Half Marathon 2026: September 20 in Bandar Lampung. 21K, 10K, 5K from PT Kereta Api Indonesia — one of the most unusual race organisers in Southeast Asia.",
-  "dek": "Set for 20 September 2026 in Bandar Lampung, Sumatra, this half marathon is organised by PT Kereta Api Indonesia (Indonesian Railways) — possibly the most unusual race organiser in the region. Registration open.",
-  "verdict": "The Locomotive Half Marathon has perhaps the most distinctive organiser in Southeast Asian road racing: PT Kereta Api Indonesia (KAI), the country's national railway company, partnering with RAW Organizer / Runaway Lampung. Three distances (21K, 10K, 5K) with registration open via TipTip. Bandar Lampung is Sumatra's southern gateway, a port city with views across the Sunda Strait to Java. The railway-branded concept gives this race genuine novelty — train-themed medals, anyone? For runners wanting an Indonesian half marathon with a story unlike anything else on the calendar, this is a standout.",
+  "title": "Locomotive Half Marathon 2026 Review: Indonesia's State Railway Sponsors a Sumatra Race",
+  "seo_title": "Locomotive Half Marathon 2026 Review | Bandar Lampung",
+  "meta_description": "Locomotive Half Marathon 2026 review: September 20 in Bandar Lampung -- a railway-themed race backed by state operator KAI, exact start point pending.",
+  "dek": "Set for 20 September 2026 in Bandar Lampung, southern Sumatra, this railway-themed half marathon is backed by PT Kereta Api Indonesia (KAI), the national state railway operator, though the exact start point hasn't been announced yet.",
+  "verdict": "The Locomotive Half Marathon is a genuinely distinctive event: it's backed by PT Kereta Api Indonesia (KAI), the national state railway company, and executed by local organiser RAW Organizer / Runaway Lampung -- a corporate sponsorship angle unlike any other race in this research batch. Three distances (21.1K/10K/5K) in Bandar Lampung, the capital of Lampung province and Sumatra's southern gateway city with over 1.1 million people, give it real urban scale to work with. The exact start point within the city hasn't been confirmed yet, and no independent participant reviews were found -- reasonable gaps for what reads as a newer addition to the regional race calendar.",
   "rating": {
-    "overall": 67,
+    "overall": 62,
     "breakdown": [
       {
-        "label": "Organiser uniqueness",
-        "score": 92
+        "label": "Distinctive sponsor (state railway)",
+        "score": 70
       },
       {
-        "label": "Registration",
-        "score": 80
-      },
-      {
-        "label": "Lampung destination",
-        "score": 62
+        "label": "City scale (Bandar Lampung)",
+        "score": 72
       },
       {
         "label": "Distance range",
-        "score": 65
+        "score": 68
+      },
+      {
+        "label": "Venue clarity & track record",
+        "score": 32
       }
     ]
   },
   "sections": [
     {
-      "heading": "PT KAI: The Railway Runs",
+      "heading": "A Race Sponsored by the National Railway",
       "paragraphs": [
-        "PT Kereta Api Indonesia is the national railway company — a state-owned enterprise that operates Java and Sumatra's rail networks. [1] A railway-branded road race is genuinely unique, and the 'Locomotive' theme gives the event instant character. Bandar Lampung is Sumatra's southernmost city, accessible by flight from Jakarta or ferry from Java across the Sunda Strait."
+        "The race is organised by PT Kereta Api Indonesia (KAI), the state railway operator, and executed on the ground by RAW Organizer / Runaway Lampung. [1] That's a genuinely unusual sponsorship pairing among the races in this research batch -- a national transport utility backing a community road race rather than a sportswear or beverage brand -- and the 'Locomotive' name leans directly into that railway identity."
+      ]
+    },
+    {
+      "heading": "Three Distances in Sumatra's Southern Gateway",
+      "paragraphs": [
+        "Distances offered are 21.1K, 10K and 5K, held in Bandar Lampung. [1] Bandar Lampung is the capital and largest city of Lampung province, sitting at the southern tip of Sumatra at the head of Lampung Bay, with a 2020 census population of just over 1.16 million. [2] As the chief port and transport hub for a major agricultural export region (rubber, tea, coffee, pepper), it's a city with real logistical infrastructure behind it, even if it's less internationally known than Jakarta or Surabaya."
+      ]
+    },
+    {
+      "heading": "Exact Start Point Not Yet Announced",
+      "paragraphs": [
+        "As of this writing, the exact start point within Bandar Lampung has not been announced -- only the host city is confirmed. [1] Given the railway sponsorship, it wouldn't be surprising if the course incorporates a station or rail-adjacent landmark, but that's speculation rather than confirmed detail; watch official channels for the venue announcement."
+      ]
+    },
+    {
+      "heading": "No Independent Reviews Yet",
+      "paragraphs": [
+        "No independent participant race reports or reviews turned up in research for this event -- available material is limited to a single event-listing aggregator. [1] That, combined with the unannounced venue, suggests this is a newer or lower-profile addition to the regional race calendar rather than an established fixture."
       ]
     },
     {
       "heading": "Should You Run It?",
       "paragraphs": [
-        "A railway-branded half marathon in Sumatra — one of the most distinctive race concepts in Indonesia. Registration open. 20 September 2026 in Bandar Lampung. [1]"
+        "If a genuinely distinctive, railway-sponsored race in one of Sumatra's major port cities appeals, the Locomotive Half Marathon on 20 September 2026 is worth watching -- but wait for the exact start-point announcement before booking travel, and treat it as an unproven event given the lack of independent feedback."
       ]
     }
   ],
@@ -46,19 +64,35 @@
   "sources": [
     {
       "n": 1,
-      "label": "Locomotive Half Marathon — TipTip registration",
-      "publisher": "PT KAI / RAW Organizer",
+      "label": "Locomotive Half Marathon 2026 — event listing",
+      "publisher": "tiptip.id",
       "url": "https://tiptip.id/event/4bc2013e-5ac3-4c05-9049-13fb758ce766",
-      "type": "registration_platform"
+      "type": "aggregator"
+    },
+    {
+      "n": 2,
+      "label": "Bandar Lampung — Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bandar_Lampung",
+      "type": "other"
     }
   ],
   "faqs": [
     {
-      "question": "When is the Locomotive Half Marathon 2026?",
-      "answer": "20 September 2026 in Bandar Lampung, Sumatra. Organised by PT Kereta Api Indonesia. It offers 21.1K, 10K, and 5K. Registration is currently open. PT Kereta Api Indonesia (KAI), executed by RAW Organizer / Runaway Lampung organises the event. [1]"
+      "question": "Who organises the Locomotive Half Marathon?",
+      "answer": "PT Kereta Api Indonesia (KAI), the national state railway operator, backs the event, which is executed on the ground by RAW Organizer / Runaway Lampung. It's a distinctive sponsorship pairing among Southeast Asian community races. [1]"
+    },
+    {
+      "question": "Where exactly does the race take place?",
+      "answer": "In Bandar Lampung, the capital of Lampung province at the southern tip of Sumatra -- but the exact start point within the city hasn't been announced yet as of this writing. Watch official channels for the venue confirmation. [1]"
+    },
+    {
+      "question": "What distances are offered?",
+      "answer": "Three: 21.1K, 10K and 5K. Registration is currently open. Bandar Lampung is a major port and transport hub with over 1.1 million residents, giving the race a genuinely large urban base to draw on. [1][2]"
     }
   ],
-  "editorial_notes": "Auto-generated review.",
-  "last_updated": "2026-08-04",
+  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "published_at": "2026-08-09T07:15:00.000Z",
+  "last_updated": "2026-08-09",
   "status": "active"
 }
