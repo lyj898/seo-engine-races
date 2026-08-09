@@ -1,0 +1,68 @@
+{
+  "entity_id": "jakarta-running-festival-half-marathon",
+  "slug": "jakarta-running-festival-half-marathon",
+  "name": "Jakarta Running Festival Half Marathon",
+  "category_id": "half-marathon",
+  "region_id": "indonesia",
+  "short_description": "A World Athletics Gold Label half marathon (21.0975 km) run through the streets of Jakarta, Indonesia, on October 24, 2026.",
+  "ai_summary": "The Jakarta Running Festival Half Marathon takes place on October 24, 2026, in Jakarta, Indonesia, as part of an event that also offers 5K, 10K, and full marathon distances. It holds World Athletics Gold Label status and runs through the city, giving participants a course set among the capital's urban landmarks. The half marathon covers the standard 21.0975 km distance.",
+  "core_facts": {
+    "date": "2026-10-24",
+    "distance_km": [
+      5,
+      10,
+      21.0975,
+      42.195
+    ],
+    "primary_distance_km": 21.0975,
+    "city": "Jakarta",
+    "country": "Indonesia"
+  },
+  "pros": [
+    "World Athletics Gold Label certification adds international credibility",
+    "Multiple distance options (5K, 10K, half marathon, full marathon) let runners of different levels take part on the same day",
+    "Course runs through Jakarta, a major capital city"
+  ],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "When is the Jakarta Running Festival Half Marathon held?",
+      "answer": "The Jakarta Running Festival Half Marathon is scheduled for October 24, 2026. It takes place in Jakarta, Indonesia, alongside other distance options offered as part of the same running festival on that date."
+    },
+    {
+      "question": "What distance is the half marathon at this event?",
+      "answer": "The half marathon distance is the standard 21.0975 km. The broader Jakarta Running Festival also includes 5K and 10K races as well as a full marathon at 42.195 km, held on the same day."
+    },
+    {
+      "question": "Is the Jakarta Running Festival Half Marathon an officially certified race?",
+      "answer": "Yes, the event carries World Athletics Gold Label status, which is the organization's top certification tier for road races. This designation applies to the overall Jakarta Running Festival, held in Jakarta, Indonesia."
+    },
+    {
+      "question": "Where does the Jakarta Running Festival Half Marathon take place?",
+      "answer": "The race takes place in Jakarta, Indonesia, running through the city itself. Jakarta is the country's capital, and the event is categorized as an in-city race held within a major capital city setting."
+    }
+  ],
+  "reliability_score": 40,
+  "tags": [
+    "World Athletics Label",
+    "World Athletics Gold Label",
+    "In the city",
+    "Capitals / Major cities"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.finishers.com/en/destinations/asia/indonesia",
+      "label": "www.finishers.com",
+      "type": "aggregator",
+      "last_checked": "2026-08-09"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-08-09",
+  "status": "active"
+}

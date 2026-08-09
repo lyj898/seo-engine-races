@@ -16,6 +16,7 @@
     "primary_distance_km": 21.1,
     "organizer": "JomRun",
     "registration_status": "Open",
+    "registration_deadline": "2026-09-12",
     "venue": "Aeon Mall Rawang, Rawang",
     "city": "Rawang, Selangor",
     "country": "Malaysia"
@@ -27,9 +28,30 @@
     "Organized by JomRun, an established race organizer"
   ],
   "cons": [],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "excerpt_quotes": [
+    {
+      "quote": "Anak jati rawang.. pun menyumpah2 sepanjang route 😂",
+      "attribution": "Local Rawang runner's comment on a Threads post discussing the Rawang Half Marathon (2025)",
+      "source_url": "https://www.threads.com/@infolarianmalaysia/post/DRGpfnyk4RS/komen-yang-join-rawang-half-marathon?hl=en"
+    },
+    {
+      "quote": "bukit dia memang mencabar minda",
+      "attribution": "Runner comment (pacing a first-timer) on Threads discussion of the Rawang Half Marathon (2025)",
+      "source_url": "https://www.threads.com/@infolarianmalaysia/post/DRGpfnyk4RS/komen-yang-join-rawang-half-marathon?hl=en"
+    }
+  ],
+  "research_highlights": [
+    "The 2025 edition of this race was held at Aeon Mall Rawang, Selangor, with categories of 5KM, 10KM and 21.1KM — the same format planned for the 2026 edition.",
+    "Only the 21.1KM competitive category gets a race bib with an RFID timing chip; the 5KM and 10KM Fun Run categories use a bib without a timing chip, per JomRun's official event listing.",
+    "At the 2025 edition, a hospital sponsor (Selgate Specialist Hospital Rawang) provided on-site free health screenings, physiotherapy/sports massage, and standby ambulance support for runners.",
+    "Runner discussion on the local running community forum (Threads) flagged the route as including hilly sections in Rawang."
+  ],
+  "research_watchouts": [
+    "Multiple participant comments in a Malaysian running-community thread described the Rawang route's hills as mentally tough, with one calling them 'mencabar minda' (challenging to the mind), and even a local resident said they were cursing throughout the route.",
+    "For the Fun Run categories (5KM/10KM), race bibs do not include a timing chip, so casual runners won't get an official chip-timed result — only the 21.1KM category is chip-timed."
+  ],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-09",
   "faqs": [
     {
       "question": "When is the Rawang Half Marathon 2026?",
@@ -58,7 +80,7 @@
       "url": "https://www.jomrun.com/event/Rawang-Half-Marathon-2026-Powered-By-JomRun",
       "label": "jomrun.com",
       "type": "aggregator",
-      "last_checked": "2026-08-03"
+      "last_checked": "2026-08-09"
     }
   ],
   "affiliate_links": [],
@@ -70,6 +92,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-03",
-  "status": "active"
+  "last_updated": "2026-08-09",
+  "status": "needs_review"
 }

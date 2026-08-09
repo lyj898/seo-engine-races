@@ -14,8 +14,8 @@
       5
     ],
     "primary_distance_km": 21.1,
-    "organizer": "Not stated (same organizer as E19/E68)",
-    "registration_status": "not_yet_announced",
+    "organizer": "Cambodia Events",
+    "registration_status": "open",
     "venue": "Botumvatey Pagoda Park, Phnom Penh",
     "city": "Phnom Penh",
     "country": "Cambodia"
@@ -61,7 +61,7 @@
       "url": "https://www.cambodia-events.org",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-07-14"
+      "last_checked": "2026-08-09"
     }
   ],
   "affiliate_links": [],
@@ -73,6 +73,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-03",
+  "last_updated": "2026-08-09",
   "status": "needs_review"
 }

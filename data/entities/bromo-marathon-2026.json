@@ -29,9 +29,28 @@
   "cons": [
     "Registration status is not yet announced, so sign-up details are unavailable"
   ],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "excerpt_quotes": [
+    {
+      "quote": "Stayed here to participate the Bromo Marathon; one hour away if you go across the sands to the start line in Wonokitri.",
+      "attribution": "Runner review on Tripadvisor (Jiwa Jawa Resort Bromo, Sukapura)",
+      "source_url": "https://www.tripadvisor.com/ShowUserReviews-g3199127-d1147335-r261176105-Jiwa_Jawa_Bromo-Sukapura_East_Java_Java.html"
+    }
+  ],
+  "research_highlights": [
+    "The full marathon starts at 1,840m altitude and includes a demanding climb to around 2,469–2,491m near the 30km mark, making the middle section a significant uphill test.",
+    "The 21K half marathon has a reported elevation gain of 977 meters, described by organisers as one of Southeast Asia's most challenging half marathons.",
+    "Terrain is mixed: volcanic sand, rocky paths, forest trail, and paved roads, so trail running shoes are strongly recommended and sandals/barefoot running are banned.",
+    "Cut-off times are 10 hours for the 42K, 7 hours for the 21K, 4 hours for the 10K, and 3 hours for the 5K.",
+    "BIB collection and mandatory race briefing (for 42K/21K) happen the day before race day (Saturday) at Plataran Bromo — no same-day race packet pickup is permitted."
+  ],
+  "research_watchouts": [
+    "Guest house and accommodation capacity in Tosari is limited during race weekend; the 2024 edition closed registration early partly due to lodging shortages, with some runners housed as far as Probolinggo.",
+    "Parking near the start/finish is limited and fills up quickly, so organisers strongly recommend using the official shuttle instead of driving.",
+    "Mandatory gear (hydration pack, rain jacket, emergency blanket, whistle, headlamp for 42K, etc.) is checked at BIB collection and may be spot-checked on course, with missing gear resulting in disqualification.",
+    "Road running shoes may lack sufficient grip on the volcanic sand and rocky sections of the course."
+  ],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-09",
   "faqs": [
     {
       "question": "When is the Bromo Marathon 2026?",
@@ -50,7 +69,7 @@
       "answer": "As of now, the registration status for the Bromo Marathon 2026 is listed as 'Not Yet Announced.' This means specific sign-up dates, fees, and procedures have not been released yet, so prospective participants should check back later for updates on how to register."
     }
   ],
-  "reliability_score": 58,
+  "reliability_score": 61,
   "tags": [
     "full-marathon",
     "indonesia"
@@ -60,7 +79,7 @@
       "url": "https://www.bromomarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-03"
+      "last_checked": "2026-08-09"
     },
     {
       "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
@@ -90,6 +109,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-03",
+  "last_updated": "2026-08-09",
   "status": "needs_review"
 }

@@ -30,8 +30,15 @@
     "Registration status has not yet been announced, so sign-up details are unavailable"
   ],
   "excerpt_quotes": [],
-  "research_highlights": [],
+  "research_highlights": [
+    "Race distances offered are 5K, 10K, 21K, 42K, and 50K, with entry fees ranging from PhP 1,285 (5K) to PhP 2,985 (50K)",
+    "The event takes place at BNS Grandstand and Parade Ground, MBRB, Fort Bonifacio, Taguig City on August 30, 2026, timed to coincide with National Heroes' Day",
+    "The race is organized by the Philippine Marine Corps as a fundraising/tribute initiative honoring national heroes, Marines, and modern-day heroes such as OFWs, healthcare workers, and teachers",
+    "On-site registration is available at Office MC7, MBRB, Fort Bonifacio, Taguig City, in addition to online registration via the Philippine Marine Corps Marathon Facebook page"
+  ],
   "research_watchouts": [],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-09",
   "faqs": [
     {
       "question": "When is the PMC Kabayanihan Run 2026?",
@@ -50,7 +57,7 @@
       "answer": "As of now, the registration status for the PMC Kabayanihan Run 2026 has not yet been announced. Interested runners should watch for updates from the organizer, the Philippine Marine Corps, regarding sign-up details ahead of the August 30, 2026 event in Taguig, Philippines."
     }
   ],
-  "reliability_score": 35,
+  "reliability_score": 30,
   "tags": [
     "full-marathon",
     "philippines"
@@ -60,12 +67,12 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-08-03"
+      "last_checked": "2026-08-09"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-08-03",
+  "last_updated": "2026-08-09",
   "status": "active"
 }

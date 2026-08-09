@@ -30,9 +30,31 @@
   "cons": [
     "Registration status is not yet confirmed as open, so runners cannot yet sign up"
   ],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "excerpt_quotes": [
+    {
+      "quote": "Everything went on smoothly. No untoward incident.The weather cooperated although it was a little bit hot, but thank God it didn't rain",
+      "attribution": "Cebu leg organizer Ricky Ballesteros, quoted in Philstar.com race recap",
+      "source_url": "http://www.philstar.com/cebu-sports/733100/over-19000-runners-join-cebu-leg-milo-marathon-ethiopians-kenyans-rule"
+    },
+    {
+      "quote": "I love it here. I like Cebu.It was a well-organized race",
+      "attribution": "Elite runner quoted in Philstar.com Cebu leg report",
+      "source_url": "http://www.philstar.com/cebu-sports/733100/over-19000-runners-join-cebu-leg-milo-marathon-ethiopians-kenyans-rule"
+    }
+  ],
+  "research_highlights": [
+    "The Cebu leg has historically been one of the largest regional legs in the whole Milo Marathon series, with a record field of over 24,000 runners in 2019 and over 16,000 in 2024",
+    "Recent editions used early gun starts to beat the heat: 21K starts at 4:30 a.m. (2h30m cut-off), 10K at 5:00 a.m. (1h30m cut-off), with 5K/3K/1K starting 5:30-5:45 a.m.",
+    "The exact host venue within Metro Cebu has moved in recent years — Cebu City Sports Center (2019 and earlier), Mandaue City (2024), and Lapu-Lapu City (2025) — so participants should confirm the specific start/finish location for the 2026 edition in advance",
+    "Local organizing has often involved Cebuano Olympian and six-time Milo Marathon champion Mary Joy Tabal, who has helped run the leg with RUNRIO and local city governments",
+    "Categories in recent Cebu-area editions have included 21K, 10K, 5K and 3K, with the 5K typically drawing the largest number of entrants"
+  ],
+  "research_watchouts": [
+    "Heat has been noted as a factor by organizers even with early morning start times ('a little bit hot')",
+    "The host city/venue for the Cebu leg has changed almost every year recently (Cebu City, Mandaue, Lapu-Lapu), so logistics like packet pick-up and start-line location are not consistent from year to year and should be double-checked close to race day"
+  ],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-09",
   "faqs": [
     {
       "question": "When is the National MILO Marathon 2026 – Cebu Leg taking place?",
@@ -51,7 +73,7 @@
       "answer": "This race is organized by RUNRIO Inc., the organization behind the MILO Marathon series. The event takes place in Cebu City, Cebu, within the Philippines, as one leg of the broader national MILO Marathon circuit."
     }
   ],
-  "reliability_score": 45,
+  "reliability_score": 40,
   "tags": [
     "half-marathon",
     "philippines"
@@ -61,7 +83,7 @@
       "url": "https://www.milo.com.ph/national-milo-marathon",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-03"
+      "last_checked": "2026-08-09"
     },
     {
       "url": "https://pinoyfitness.com/2026/01/milo-marathon-2026-full-race-schedule-and-locations-unveiled",
@@ -79,6 +101,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-03",
+  "last_updated": "2026-08-09",
   "status": "active"
 }

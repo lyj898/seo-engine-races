@@ -23,9 +23,69 @@
     "Offers a standard, well-recognized half-marathon distance of 21.1 km"
   ],
   "cons": [],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "sentiment_scores": {
+    "overall": 68,
+    "breakdown": [
+      {
+        "label": "Course/terrain",
+        "score": 60
+      },
+      {
+        "label": "Hydration & aid stations",
+        "score": 70
+      },
+      {
+        "label": "Weather/heat",
+        "score": 45
+      },
+      {
+        "label": "Organisation & legacy",
+        "score": 78
+      }
+    ]
+  },
+  "excerpt_quotes": [
+    {
+      "quote": "The hydration was sufficient and the route was pretty manageable despite the slopes.",
+      "attribution": "Runner race report on Healthobeing (PJ Half Marathon 2025)",
+      "source_url": "https://www.healthobeing.com/pj-half-marathon-2025/"
+    },
+    {
+      "quote": "The only thing is the route is hilly and turning around the whole town.",
+      "attribution": "Runner race report on Healthobeing (PJ Half Marathon 2025)",
+      "source_url": "https://www.healthobeing.com/pj-half-marathon-2025/"
+    },
+    {
+      "quote": "The weather was humid and hot, I was all sweaty with my tortoise running shirt",
+      "attribution": "Runner review on JustRunLah (PJ Half Marathon 2018)",
+      "source_url": "https://www.justrunlah.com/2018/08/13/review-pj-half-marathon-2018-by-healthobeing/"
+    },
+    {
+      "quote": "The water points are well stocked, towards the end there were gels available too.",
+      "attribution": "Runner review on JustRunLah (PJ Half Marathon 2018)",
+      "source_url": "https://www.justrunlah.com/2018/08/13/review-pj-half-marathon-2018-by-healthobeing/"
+    },
+    {
+      "quote": "Better support station",
+      "attribution": "David Ong, comment on PJ Half Marathon Facebook page",
+      "source_url": "https://www.facebook.com/pjhmarathon/"
+    }
+  ],
+  "research_highlights": [
+    "One of Malaysia's oldest half marathons (35th edition held in 2025, 36th edition scheduled for 2026), organised by Petaling Jaya City Council (MBPJ) and Puncak Ventures",
+    "Course is undulating/hilly, circulating through PJ town; one runner logged about 222m of elevation gain over the 30km route",
+    "Categories include 30km, 21km (half marathon), 10km, 5km fun run and a 1km costume-themed fun run, starting from Laman MBPJ",
+    "Very early flag-off times to beat the heat: 30km at 3:30am, 21km at 3:45am, 10km at 7:00am, 5km at 7:15am, with cut-offs of 5hrs/4hrs/2hrs/1hr respectively",
+    "Multiple race reports describe hot, humid conditions typical of a Malaysian morning road race, with runners splashing water on themselves to cool down"
+  ],
+  "research_watchouts": [
+    "Hot and humid weather is repeatedly mentioned by participants, even with pre-dawn starts",
+    "The route is hilly/undulating with slopes throughout, described by one runner as manageable but still hilly",
+    "Course can get crowded around the halfway point where the 10km category and other runners merge in",
+    "At least one recent participant publicly requested improvements to on-course support/hydration stations"
+  ],
+  "research_confidence": "medium",
+  "research_last_updated": "2026-08-09",
   "faqs": [
     {
       "question": "When is the PJ Half Marathon 2026?",
@@ -44,7 +104,7 @@
       "answer": "Yes, registration for the PJ Half Marathon 2026 is currently open. Interested runners can sign up to participate in the 21.1 km half-marathon, which will be held on September 6, 2026, starting at Laman MBPJ in Petaling Jaya, Selangor, Malaysia."
     }
   ],
-  "reliability_score": 30,
+  "reliability_score": 25,
   "tags": [
     "half-marathon",
     "malaysia"
@@ -54,12 +114,12 @@
       "url": "https://www.racexasia.com/events",
       "label": "racexasia.com",
       "type": "aggregator",
-      "last_checked": "2026-08-03"
+      "last_checked": "2026-08-09"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-08-03",
+  "last_updated": "2026-08-09",
   "status": "active"
 }

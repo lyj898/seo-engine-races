@@ -26,9 +26,54 @@
   "cons": [
     "Registration is currently closed, so new sign-ups are not possible"
   ],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "sentiment_scores": {
+    "overall": 62,
+    "breakdown": [
+      {
+        "label": "Course scenery",
+        "score": 75
+      },
+      {
+        "label": "Organisation",
+        "score": 65
+      },
+      {
+        "label": "Heat/conditions",
+        "score": 40
+      }
+    ]
+  },
+  "excerpt_quotes": [
+    {
+      "quote": "The organisation was good but very laid-back, onlookers were friendly (but not huge numbers)and plenty of impromtu refreshment stations at residents' gates.",
+      "attribution": "John Millar, runner review titled 'Hot, but worth making an effort for' on MarathonGuide.com",
+      "source_url": "https://www.marathonguide.com/races/racedetails.cfm?MIDD=1702070805"
+    },
+    {
+      "quote": "It was very hot (36 C) and I suffered badly from the heat for weeks afterwards.",
+      "attribution": "John Millar, runner review on MarathonGuide.com",
+      "source_url": "https://www.marathonguide.com/races/racedetails.cfm?MIDD=1702070805"
+    },
+    {
+      "quote": "I felt what I had never felt in my running life; that is why I want to repeat this race to confirm whether I was sick or the race is one of a kind.",
+      "attribution": "Elkana Ruto, runner review (finished 4th) on MarathonGuide.com",
+      "source_url": "https://www.marathonguide.com/races/racedetails.cfm?MIDD=1702070805"
+    }
+  ],
+  "research_highlights": [
+    "Course starts and finishes at Tinsulanonda Stadium with views of the Gulf of Thailand and Songkhla Lake.",
+    "The race gained World Athletics Road Race Label certification in 2023, marking it as an internationally recognised course.",
+    "Distances offered are 5K, 10K, half marathon (21K) and full marathon (42K), with the marathon starting as early as 3:00am to beat the heat.",
+    "Songkhla's August climate is hot and humid, with a mean daily maximum around 33°C (92°F), consistent with a runner's account of suffering heat effects after a 36°C race.",
+    "One long-time runner described the route as scenic and point-to-point, passing fishing boats, palm trees and a long low bridge, with organisers setting up impromptu refreshment stops at residents' gates."
+  ],
+  "research_watchouts": [
+    "Heat is a serious factor — one participant reported the race was very hot (36°C) and that he 'suffered badly from the heat for weeks afterwards.'",
+    "Organisation has historically been described as 'good but very laid-back' with crowd support present but not large in numbers, based on an older edition review.",
+    "Available first-hand participant reviews are sparse and mostly from much earlier editions (2000s), so recent-edition specifics (2023 World Athletics label era) are not yet documented by runner reviews."
+  ],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-09",
   "faqs": [
     {
       "question": "When is the 27th Songkhla Marathon 2026 taking place?",
@@ -58,7 +103,7 @@
       "url": "https://songkhlamarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-03"
+      "last_checked": "2026-08-09"
     },
     {
       "url": "https://checkpointspot.asia/events",
@@ -76,6 +121,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-03",
+  "last_updated": "2026-08-09",
   "status": "needs_review"
 }

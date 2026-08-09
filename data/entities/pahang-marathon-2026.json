@@ -27,8 +27,19 @@
   ],
   "cons": [],
   "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "research_highlights": [
+    "This is the inaugural edition of the Pahang Marathon, explicitly billed by organizers as the event's debut in Kuantan on September 6, 2026",
+    "Race categories include 42KM Full Marathon and 21KM Half Marathon, each split into Men's and Women's Veteran (40yrs & above Malaysian) divisions, based on Race Roster registration listings",
+    "The event is co-organised by Persatuan Orang Muda Pahang KL (POMPKL) and Kita Pelari Malaysia, with Pure Events and Persatuan Olahraga Pahang as Technical Organisers, supported by Majlis Bandaraya Kuantan (MBK)",
+    "Event is open to all Malaysian residents and permitted non-Malaysian residents aged 5 and above, per the official rules and regulations",
+    "Race kit collection requires participants to bring a confirmation slip or NRIC/Passport for verification, and kits will not be issued after the designated collection period"
+  ],
+  "research_watchouts": [
+    "As a brand-new debut event with no prior edition, there are no participant race reports, reviews, or community discussion available yet to assess course conditions, crowd support, or organisation quality",
+    "A related same-organiser event, the Pahang Half Marathon 2025, was also marketed as a 'first ever' debut in Kuantan, but no post-race participant feedback from that edition was found in available sources"
+  ],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-09",
   "faqs": [
     {
       "question": "When is the Pahang Marathon 2026?",
@@ -47,7 +58,7 @@
       "answer": "The Pahang Marathon 2026 is organized by Persatuan Orang Muda Pahang KL (POMPKL) and Kita Pelari Malaysia, working in partnership with Pure Events. Together, these organizations are responsible for coordinating the race, which is set to be held in Kuantan, Pahang, Malaysia."
     }
   ],
-  "reliability_score": 10,
+  "reliability_score": 0,
   "tags": [
     "full-marathon",
     "malaysia"
@@ -69,6 +80,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-03",
+  "last_updated": "2026-08-09",
   "status": "needs_review"
 }

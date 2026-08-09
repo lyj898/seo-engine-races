@@ -29,9 +29,31 @@
   "cons": [
     "Registration status has not yet been announced, so sign-up details are unavailable"
   ],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "excerpt_quotes": [
+    {
+      "quote": "It was my first official race, my longest run ever—and the most proud I had ever been of my body.",
+      "attribution": "Runner reflecting on the 21K at Isla del Fuego Marathon 2024 (Nov. 17, 2024), Dumaguete MetroPost",
+      "source_url": "https://metropost-online.com/how-i-ran-103k-within-10-months/"
+    },
+    {
+      "quote": "Crossing that 21K finish line in Siquijor actually made me feel like a genuine athlete for the first time in years.",
+      "attribution": "Runner reflecting on the 21K at Isla del Fuego Marathon 2024, Dumaguete MetroPost",
+      "source_url": "https://metropost-online.com/how-i-ran-103k-within-10-months/"
+    }
+  ],
+  "research_highlights": [
+    "Event offers 5K, 10K, 21K and 42K distances, starting on Siquijor Blvd / the Siquijor circumferential road",
+    "Very early gun starts to beat the heat: 5:00 AM for the 5K, 4:30 AM for the 10K, and 3:00 AM for the 21K",
+    "Race is organized by SMOKE10 Events, an operation tied to an NGO (Heartbeat Mission Foundation) rather than a purely commercial promoter",
+    "At least one past finisher described the 21K here as their first official race and a proud personal milestone",
+    "The event has shifted dates across years (e.g., a November 2024 edition, a planned September 2025 edition), so always confirm the current year's exact date"
+  ],
+  "research_watchouts": [
+    "Very limited independent participant reviews are publicly available online — the event's own Facebook page shows 'Not yet rated (1 Review)', suggesting a small track record of public feedback",
+    "Past editions have moved between different months (March in 2019, November in 2024/2025 announcements, September in other years), so schedule details have changed edition to edition"
+  ],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-09",
   "faqs": [
     {
       "question": "When is the Isla Del Fuego Marathon 2026?",
@@ -50,7 +72,7 @@
       "answer": "The Isla Del Fuego Marathon 2026 offers four distance options for participants: a full marathon of 42.195km, a half marathon of 21.1km, a 10km race, and a 5km race, allowing runners of varying experience levels to participate."
     }
   ],
-  "reliability_score": 35,
+  "reliability_score": 30,
   "tags": [
     "full-marathon",
     "philippines"
@@ -60,12 +82,12 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-08-03"
+      "last_checked": "2026-08-09"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-08-03",
+  "last_updated": "2026-08-09",
   "status": "active"
 }

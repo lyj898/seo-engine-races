@@ -71,7 +71,7 @@
       "answer": "Yes, registration for the Ijen Geopark Run 2026 is currently open. Prospective participants interested in the 5km, 10km, or 21.1km half-marathon distances can register ahead of the event date of August 23, 2026, at Paltuding Camp in Banyuwangi."
     }
   ],
-  "reliability_score": 87,
+  "reliability_score": 90,
   "tags": [
     "half-marathon",
     "indonesia",
@@ -82,7 +82,7 @@
       "url": "https://geoparkrun.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-03"
+      "last_checked": "2026-08-09"
     },
     {
       "url": "https://geoparkrun.com/faq",
@@ -118,6 +118,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-03",
+  "last_updated": "2026-08-09",
   "status": "active"
 }

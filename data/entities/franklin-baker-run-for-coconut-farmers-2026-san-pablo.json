@@ -30,8 +30,16 @@
     "Registration status is not yet announced, so entry details are unavailable"
   ],
   "excerpt_quotes": [],
-  "research_highlights": [],
+  "research_highlights": [
+    "The San Pablo leg of the 2026 event is set for September 13, 2026 at Sampaloc Lake Boardwalk, San Pablo City, Laguna, with a separate Davao leg on September 20, 2026 at the Franklin Baker Darong Plant.",
+    "Event distances are 3K, 5K, 10K, and 21K, with registration fees of P750, P850, P1000, and P1200 respectively.",
+    "The race is organized by Franklin Baker as part of its coconut farmer sustainability program, tying into National Coconut Month.",
+    "Previous editions (2022, 2023) were also held at the same Sampaloc Lake Boardwalk venue, suggesting this is an established annual course/location.",
+    "Registration is handled online via a dedicated Google Sites page, with contact person Claire Amante for inquiries."
+  ],
   "research_watchouts": [],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-09",
   "faqs": [
     {
       "question": "When is the Franklin Baker Run for Coconut Farmers 2026 taking place?",
@@ -50,7 +58,7 @@
       "answer": "According to available information, the registration status for this race has not yet been announced. Interested runners will need to wait for further details from the organizer, Franklin Baker, regarding when and how registration will open for the 2026 event."
     }
   ],
-  "reliability_score": 35,
+  "reliability_score": 30,
   "tags": [
     "half-marathon",
     "philippines"
@@ -60,12 +68,12 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-08-03"
+      "last_checked": "2026-08-09"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-08-03",
+  "last_updated": "2026-08-09",
   "status": "active"
 }

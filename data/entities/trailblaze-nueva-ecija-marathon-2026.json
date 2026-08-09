@@ -31,8 +31,14 @@
     "Registration status is not yet announced, so entry details are unavailable"
   ],
   "excerpt_quotes": [],
-  "research_highlights": [],
+  "research_highlights": [
+    "The 2026 edition offers four distances: 42K, 21K, 10K, and 5K, based in Palayan City, Nueva Ecija.",
+    "The event is organized by Team Nueva Ecija Runners, and the race name pays tribute to the area's early inhabitants rather than being a trail race in the technical sense.",
+    "The race is a continuation of the 'Trailblaze' event series, which previously ran as the Trailblaze 2025 Half Marathon on September 7, 2025 at Palayan City Park."
+  ],
   "research_watchouts": [],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-09",
   "faqs": [
     {
       "question": "When is the Trailblaze Nueva Ecija Marathon 2026 taking place?",
@@ -51,7 +57,7 @@
       "answer": "According to available information, the registration status for the Trailblaze Nueva Ecija Marathon 2026 has not yet been announced. Prospective participants should watch for further updates from the organizer, TNER, regarding when registration will open and what the entry process will involve."
     }
   ],
-  "reliability_score": 35,
+  "reliability_score": 30,
   "tags": [
     "full-marathon",
     "philippines"
@@ -61,12 +67,12 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-08-03"
+      "last_checked": "2026-08-09"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-08-03",
+  "last_updated": "2026-08-09",
   "status": "active"
 }

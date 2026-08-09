@@ -27,9 +27,64 @@
     "Held in Panglao, Bohol, a notable Philippine destination"
   ],
   "cons": [],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "sentiment_scores": {
+    "overall": 65,
+    "breakdown": [
+      {
+        "label": "Course & scenery",
+        "score": 78
+      },
+      {
+        "label": "Organization/logistics",
+        "score": 55
+      },
+      {
+        "label": "Atmosphere & local support",
+        "score": 75
+      }
+    ]
+  },
+  "excerpt_quotes": [
+    {
+      "quote": "There was no label on which tent to claim the finisher entitlements.",
+      "attribution": "Runner race recap on Takbo.ph (2018 edition)",
+      "source_url": "https://www.takbo.ph/2018/08/bohol-international-marathon-2018-race-recap/"
+    },
+    {
+      "quote": "While the race was not perfect, the event has a lot of potential to create an even better running experience for the participants.",
+      "attribution": "Runner race recap on Takbo.ph (2018 edition)",
+      "source_url": "https://www.takbo.ph/2018/08/bohol-international-marathon-2018-race-recap/"
+    },
+    {
+      "quote": "However, this year's Bohol International Marathon wasn't the run in paradise as I expected it to be.",
+      "attribution": "Runner race recap on Takbo.ph (2018 edition)",
+      "source_url": "https://www.takbo.ph/2018/08/bohol-international-marathon-2018-race-recap/"
+    },
+    {
+      "quote": "The roads were all well paved. No potholes.",
+      "attribution": "Runner race recap on Takbo.ph (2018 edition)",
+      "source_url": "https://www.takbo.ph/2018/08/bohol-international-marathon-2018-race-recap/"
+    },
+    {
+      "quote": "The stations provided ample supply of water and energy drinks.",
+      "attribution": "Finisher blog post on Running Diva PH (2013 half marathon)",
+      "source_url": "https://runningdiva.ph/2013/09/10/bohol-sandugo-panglao-half-marathon-finisher/"
+    }
+  ],
+  "research_highlights": [
+    "The course runs mainly along Panglao and Dauis roads and has been described by a 2018 finisher as well-paved with no potholes, appearing largely flat especially in the dark early hours.",
+    "The race starts before dawn (historically) to beat the heat; for 2026 a travel-agency preview notes the marathon starts shortly after midnight and that about 80% of the course is lit, with headlamps recommended.",
+    "Aid stations have featured local delicacies like lechon baka and lechon baboy alongside standard hydration, a distinctive Bohol/Sandugo Festival touch noted in 2024 coverage.",
+    "The 2025 edition (3rd installment) drew around 4,300 runners and used the TRACX live-tracking app so family/friends could follow progress via GPS.",
+    "Start/finish for recent editions has been at BE Grand Resort Bohol in Panglao, with race-kit collection typically held in the days just before the event."
+  ],
+  "research_watchouts": [
+    "A 2018 participant reported minor logistics gaps, such as unclear signage for where finishers should collect their post-race entitlements.",
+    "One veteran finisher noted that despite high expectations, the event 'wasn't the run in paradise' as expected that year, suggesting organization/experience can vary by edition.",
+    "Much of the available online commentary is promotional event-preview content rather than independent runner reviews, so on-the-ground detail (heat, crowd support, cutoffs) is thin for the most recent 2024-2025 editions."
+  ],
+  "research_confidence": "medium",
+  "research_last_updated": "2026-08-09",
   "faqs": [
     {
       "question": "When is the Bohol International Marathon 2026 taking place?",
@@ -48,7 +103,7 @@
       "answer": "Participants in the Bohol International Marathon 2026 can choose from four distances: a full marathon of 42.195km, a half marathon of 21.1km, a 10km race, and a 5km race, allowing runners of varying experience levels to take part."
     }
   ],
-  "reliability_score": 58,
+  "reliability_score": 61,
   "tags": [
     "full-marathon",
     "philippines"
@@ -58,7 +113,7 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-08-03"
+      "last_checked": "2026-08-09"
     }
   ],
   "affiliate_links": [],
@@ -70,6 +125,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-03",
+  "last_updated": "2026-08-09",
   "status": "active"
 }

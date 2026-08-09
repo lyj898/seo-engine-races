@@ -30,9 +30,33 @@
   "cons": [
     "Limited information available beyond basic event logistics"
   ],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "excerpt_quotes": [
+    {
+      "quote": "The race went well, but after KM16 the tank started to feel empty. My pace slowed down — I knew I hadn't hit the wall yet, but there was nothing left in the tank.",
+      "attribution": "Participant race report (2025 edition) on Threads",
+      "source_url": "https://www.threads.com/@ik.mal__/post/DOsW9jDk0UT/kota-bharu-half-marathon-2025-this-was-the-race-i-circled-on-my-calendar-from-da"
+    },
+    {
+      "quote": "trek larian yang bermula dan berakhir di Dewan Jubli Perak, Jalan Padang Perdana akan melalui laluan sekitar bandar Kota Bharu yang rata dan selesa",
+      "attribution": "Race Program Director Zat Asyraff Takiyuddin, quoted in HarakahDaily news coverage",
+      "source_url": "https://harakahdaily.net/2025/09/10/kota-bharu-half-marathon-2025-catat-3000-peserta/"
+    }
+  ],
+  "research_highlights": [
+    "Course is flat and described by organizers as comfortable ('rata dan selesa'), starting and finishing at Dewan Jubli Perak on Jalan Padang Perdana, and is World Athletics certified.",
+    "Race distances are 21km Half Marathon, 10km Time Trial and 5km Fun Run, with very early starts (around 3am for the 21km category in the 2025 edition, 4am for 10km, 7:30am for 5km) likely to avoid daytime heat.",
+    "Growth trend: the inaugural 2024 edition drew over 2,000 runners (66% from outside Kelantan), rising to over 3,000 runners in 2025, making it one of the largest races on Malaysia's East Coast.",
+    "For the 2026 edition there is no race-day bib collection — runners must collect their race kit the day before (Friday, 04 September 2026).",
+    "Official cut-off times listed for 2026: 21km cut-off is 4 hours (7:00 AM), 10km cut-off is 2 hours (6:00 AM), and 5km cut-off is 1 hour (8:30 AM)."
+  ],
+  "research_watchouts": [
+    "One finisher's account notes the race gets tough in the back half, with energy fading noticeably after around the 16km mark.",
+    "Runners are not permitted to receive personal support from crew members along the course — water and refreshments may only be taken from official water stations.",
+    "Runners who miss checkpoint cut-off times will be pulled from the race and transported back to the finish area.",
+    "Participants must carry their IC/Passport during the race for identification if required by officials."
+  ],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-09",
   "faqs": [
     {
       "question": "When is the Kota Bharu Half Marathon 2026 taking place?",
@@ -51,7 +75,7 @@
       "answer": "The Kota Bharu Half Marathon 2026 is jointly organized by Yayasan KB Care, a foundation, and the Kerajaan Negeri Kelantan, which is the Kelantan state government. This partnership suggests a combination of community and governmental support behind the planning and execution of the event."
     }
   ],
-  "reliability_score": 88,
+  "reliability_score": 91,
   "tags": [
     "half-marathon",
     "malaysia",
@@ -62,7 +86,7 @@
       "url": "https://kbhalf.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-03"
+      "last_checked": "2026-08-09"
     },
     {
       "url": "https://checkpointspot.asia/events",
@@ -80,6 +104,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-03",
+  "last_updated": "2026-08-09",
   "status": "needs_review"
 }

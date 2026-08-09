@@ -68,7 +68,7 @@
       "answer": "Yes, registration for the National MILO Marathon 2026 – Cagayan de Oro Leg is currently open. Interested participants can sign up ahead of the August 23, 2026 race date to secure their spot in one of the available distance categories."
     }
   ],
-  "reliability_score": 60,
+  "reliability_score": 55,
   "tags": [
     "half-marathon",
     "philippines"
@@ -78,7 +78,7 @@
       "url": "https://www.milo.com.ph/national-milo-marathon",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-03"
+      "last_checked": "2026-08-09"
     },
     {
       "url": "https://pinoyfitness.com/2026/01/milo-marathon-2026-full-race-schedule-and-locations-unveiled",
@@ -96,6 +96,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-03",
+  "last_updated": "2026-08-09",
   "status": "active"
 }

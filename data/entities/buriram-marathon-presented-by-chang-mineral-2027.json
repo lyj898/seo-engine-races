@@ -45,7 +45,7 @@
       "answer": "Yes, registration for the Buriram Marathon Presented by Chang Mineral is currently listed as open. Interested runners looking to take part in either the full marathon or half marathon distances at the Chang International Circuit in Buriram can proceed with signing up at this time."
     }
   ],
-  "reliability_score": 78,
+  "reliability_score": 73,
   "tags": [
     "full-marathon",
     "thailand",
@@ -56,7 +56,7 @@
       "url": "https://burirammarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-03"
+      "last_checked": "2026-08-09"
     },
     {
       "url": "https://aims-worldrunning.org/calendar.html",
@@ -74,6 +74,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-03",
+  "last_updated": "2026-08-09",
   "status": "needs_review"
 }

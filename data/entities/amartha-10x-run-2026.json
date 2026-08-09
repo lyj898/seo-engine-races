@@ -30,8 +30,19 @@
     "Pricing is listed only as a starting point, with no full breakdown of registration tiers"
   ],
   "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "research_highlights": [
+    "The 2026 edition (3rd edition) takes place Sunday, September 6, 2026, starting and finishing at Plaza Timur/Plaza Barat Gelora Bung Karno (GBK), Senayan, with categories 10K and Half Marathon.",
+    "Cut-off times are set at 2 hours for the 10K and 4 hours for the Half Marathon.",
+    "The half marathon route extends beyond Sudirman/Bundaran HI into Senopati, Prapanca, and Blok M before returning to the finish, while the 10K stays within the GBK–Sudirman–Bundaran HI corridor.",
+    "Water stations for half marathon runners are placed every 2 kilometers, and the race area is kept separate from the regular Car Free Day activity in the GBK area.",
+    "Start time for the 2026 race is 05:00 WIB, and the event includes a themed 'Race Village' with rural-market/UMKM booths, traditional games, and local produce for participants to explore post-race."
+  ],
+  "research_watchouts": [
+    "Available research consists almost entirely of official press releases and organizer/sponsor statements (Amartha, race director Satrio Guardian, SVP Sheldon Chuan) rather than independent participant race reports, so on-the-ground runner feedback (heat, crowding, logistics complaints) could not be verified.",
+    "No participant reviews, forum discussions, or Strava/community race reports discussing course conditions, heat, or organizational issues were found for this event at the time of research."
+  ],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-09",
   "faqs": [
     {
       "question": "When is the Amartha 10X Run taking place?",
@@ -50,7 +61,7 @@
       "answer": "Registration prices for the Amartha 10X Run start from IDR 450,000. This is listed as the starting price point, though exact pricing may vary depending on the distance selected or registration category. Registration for the event is currently open."
     }
   ],
-  "reliability_score": 88,
+  "reliability_score": 91,
   "tags": [
     "half-marathon",
     "indonesia",
@@ -61,7 +72,7 @@
       "url": "https://amartha10xrun.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-03"
+      "last_checked": "2026-08-09"
     },
     {
       "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
@@ -85,6 +96,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-03",
+  "last_updated": "2026-08-09",
   "status": "active"
 }

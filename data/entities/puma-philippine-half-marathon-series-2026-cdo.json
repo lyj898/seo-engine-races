@@ -29,8 +29,19 @@
     "Registration status has not yet been announced, so sign-up details are unavailable"
   ],
   "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "research_highlights": [
+    "The race starts and finishes at Ayala Centrio Mall on Corrales Avenue in Cagayan de Oro City, with the 2026 CDO leg scheduled for September 6, 2026.",
+    "The event offers three distance categories — 5K, 10K, and 21K — as part of the six-city PUMA Philippine Half Marathon Series.",
+    "For the 2025 edition of the CDO race, there was a course cutoff of 7:00 AM, after which an ambulance would sweep the course and pick up remaining participants, who would be disqualified from official results.",
+    "Hydration stations with water are placed along the route, and the official course includes medical aid points and portable toilets per RUNRIO's standard race mechanics.",
+    "The course is marked with barriers, cones and delineation, and runners who leave the designated course boundary risk disqualification and cannot rejoin to collect finisher freebies."
+  ],
+  "research_watchouts": [
+    "Organizer materials mention a specific early morning cutoff (7:00 AM in the 2025 edition) after which non-finishers are swept by ambulance and disqualified from results — worth checking the confirmed cutoff for the 2026 date.",
+    "As with other RUNRIO city-center races, roads are closed and reopened on a fixed schedule, so runners are required to stay within course boundaries or risk disqualification."
+  ],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-09",
   "faqs": [
     {
       "question": "What distances are offered at this race?",
@@ -49,7 +60,7 @@
       "answer": "The PUMA Philippine Half Marathon Series 2026 - CDO is organized by Runrio, the organization behind the broader PUMA Philippine Half Marathon Series brand. Runrio manages this event as part of its series held across different locations, with this particular edition taking place in Cagayan de Oro."
     }
   ],
-  "reliability_score": 70,
+  "reliability_score": 65,
   "tags": [
     "half-marathon",
     "philippines",
@@ -60,7 +71,7 @@
       "url": "https://runrio.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-03"
+      "last_checked": "2026-08-09"
     },
     {
       "url": "https://runrio.com/race-calendar",
@@ -78,6 +89,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-03",
+  "last_updated": "2026-08-09",
   "status": "active"
 }

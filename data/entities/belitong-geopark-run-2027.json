@@ -15,7 +15,7 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "Geopark Run Series",
-    "registration_status": "Not yet open",
+    "registration_status": "Coming Soon",
     "venue": "TBA, Kepulauan Bangka Belitung",
     "city": "Pulau Belitung (Belitong)",
     "country": "Indonesia"
@@ -60,7 +60,7 @@
       "url": "https://geoparkrun.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-03"
+      "last_checked": "2026-08-09"
     },
     {
       "url": "https://geoparkrun.com/explore-the-series",
@@ -78,6 +78,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-03",
-  "status": "active"
+  "last_updated": "2026-08-09",
+  "status": "needs_review"
 }

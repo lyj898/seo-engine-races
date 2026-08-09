@@ -1,0 +1,63 @@
+{
+  "entity_id": "pertamina-eco-runfest",
+  "slug": "pertamina-eco-runfest",
+  "name": "Pertamina ECO Runfest",
+  "category_id": "half-marathon",
+  "region_id": "indonesia",
+  "short_description": "A World Athletics Label race through Jakarta, Indonesia, offering distances from 1.5km to a half marathon.",
+  "ai_summary": "Pertamina ECO Runfest is a World Athletics Label event held in Jakarta, Indonesia, taking place on November 22, 2026. It offers a range of distances from a 1.5km fun run up to a half marathon (21.0975km), making it accessible to both casual participants and competitive runners. As a city-based race in a major capital, it runs through Jakarta's urban streets.",
+  "core_facts": {
+    "date": "2026-11-22",
+    "distance_km": [
+      1.5,
+      5,
+      10,
+      21.0975
+    ],
+    "primary_distance_km": 21.0975,
+    "city": "Jakarta",
+    "country": "Indonesia"
+  },
+  "pros": [
+    "Multiple distance options suit a range of runners, from beginners to half marathoners",
+    "World Athletics Label status signals an internationally recognized standard of organization",
+    "Takes place in a major capital city, offering an urban race experience"
+  ],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "Where and when does the Pertamina ECO Runfest take place?",
+      "answer": "The Pertamina ECO Runfest is held in Jakarta, Indonesia, with the event scheduled for November 22, 2026. As a city-based race, the course runs through the streets of Jakarta, one of the region's major capital cities, giving participants an urban running experience."
+    },
+    {
+      "question": "Is the Pertamina ECO Runfest an internationally recognized race?",
+      "answer": "Yes, it carries a World Athletics Label, which is an official designation given to races that meet certain organizational and competitive standards set by the sport's global governing body. This makes it a notable event for runners seeking a certified international race."
+    },
+    {
+      "question": "What distances can I run at the Pertamina ECO Runfest?",
+      "answer": "The event offers four distance options: a 1.5km fun run, a 5km, a 10km, and a half marathon at 21.0975km. This range allows casual participants, families, and more serious competitive runners to all take part in the same event on the same day."
+    }
+  ],
+  "reliability_score": 40,
+  "tags": [
+    "World Athletics Label",
+    "In the city",
+    "Capitals / Major cities"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.finishers.com/en/destinations/asia/indonesia",
+      "label": "www.finishers.com",
+      "type": "aggregator",
+      "last_checked": "2026-08-09"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-08-09",
+  "status": "active"
+}

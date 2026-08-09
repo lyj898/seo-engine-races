@@ -114,7 +114,7 @@
       "answer": "The Maybank Marathon 2026 offers three distance categories: a full marathon of 42.195km, a half marathon of 21.1km, and a shorter 10km race. This range allows both experienced marathoners and newer runners to participate in the event."
     }
   ],
-  "reliability_score": 85,
+  "reliability_score": 88,
   "tags": [
     "full-marathon",
     "indonesia",
@@ -125,7 +125,7 @@
       "url": "https://www.maybank.co.id/en/maybank-marathon",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-03"
+      "last_checked": "2026-08-09"
     },
     {
       "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
@@ -155,6 +155,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-03",
+  "last_updated": "2026-08-09",
   "status": "needs_review"
 }

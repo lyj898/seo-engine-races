@@ -24,8 +24,15 @@
   ],
   "cons": [],
   "excerpt_quotes": [],
-  "research_highlights": [],
+  "research_highlights": [
+    "The Batu Kawan 21K 2026 event offers three race categories: 5KM, 10KM, and the 21.1KM competitive run.",
+    "Registration for the Batu Kawan 21K 2026 (13 September 2026) closes on 9 August 2026 or once slots are filled, according to the Howei event listing.",
+    "Past editions of the related 'Batu Kawan Half Marathon Powered By JomRun' series (June 2026 and December 2025) used TrackAsia RFID timing chips for the 21.1KM category and offered finisher medals/jerseys strictly to finishers.",
+    "Note: Batu Kawan is also home to the much larger Aspen-Klippa Penang Bridge International Marathon (PBIM), a separate, AIMS-certified event held in December that draws around 23,000 runners across full marathon, half marathon and 10km categories — don't confuse the two events when researching."
+  ],
   "research_watchouts": [],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-09",
   "faqs": [
     {
       "question": "When is Batu Kawan 21K 2026 taking place?",
@@ -44,7 +51,7 @@
       "answer": "The race venue for Batu Kawan 21K 2026 is Decathlon KLIPPA, located in Batu Kawan, Pulau Pinang, Malaysia. This puts the event in the city of Batu Kawan, Penang, making it accessible to runners based in or traveling to the Penang region of Malaysia."
     }
   ],
-  "reliability_score": 10,
+  "reliability_score": 0,
   "tags": [
     "half-marathon",
     "malaysia"
@@ -66,6 +73,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-03",
+  "last_updated": "2026-08-09",
   "status": "needs_review"
 }
