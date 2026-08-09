@@ -2,43 +2,61 @@
   "review_id": "puma-philippine-half-marathon-series-2026-clark",
   "slug": "puma-philippine-half-marathon-series-2026-clark",
   "entity_id": "puma-philippine-half-marathon-series-2026-clark",
-  "title": "PUMA Half Marathon Series Clark 2026 Review: Freeport Big-Cat Race",
-  "seo_title": "PUMA Half Marathon Clark 2026 Review | Philippines Race",
-  "meta_description": "PUMA Philippine Half Marathon Series 2026 Clark. RUNRIO-produced, PUMA-branded race on Clark's famously fast roads.",
-  "dek": "The Clark leg of the RUNRIO-produced, PUMA-branded Philippine Half Marathon Series. On the freeport's famously fast roads.",
-  "verdict": "The PUMA Philippine Half Marathon Series Clark brings the RUNRIO-PUMA collaboration to Clark Freeport — one of the Philippines' best running venues with wide, flat, traffic-free roads. RUNRIO's gold-standard production + PUMA's global sportswear branding = a premium, PB-friendly race experience. Clark's roads are a genuine speed advantage. Registration isn't open yet. For runners wanting a PUMA-branded, professionally-produced race on a fast course, this is a priority track.",
+  "title": "PUMA Philippine Half Marathon Series 2026 Clark Leg Review",
+  "seo_title": "PUMA PH Half Marathon Clark 2026 Review | Angeles",
+  "meta_description": "PUMA Philippine Half Marathon Series 2026 Clark leg review: August 23 at Filinvest Mimosa, second running of a six-city RunRio series with a legacy medal.",
+  "dek": "Set for 23 August 2026 at Filinvest Mimosa in Clark Freeport Zone, this is the second running of the Clark leg in RunRio's six-city PUMA Philippine Half Marathon Series -- finish all six and earn an All-City Finisher Legacy Medal.",
+  "verdict": "The PUMA Philippine Half Marathon Series' Clark leg is part of a structured six-city circuit -- Iloilo, Davao, Cebu, Clark, Cagayan de Oro, Manila -- each stop offering 21K, 10K and 5K distances, with an extra 'All-City Finisher Legacy Medal' for runners who complete every leg. Filinvest Mimosa in the Clark Freeport Zone is a purpose-built commercial/leisure venue with room for a race village and awarding ceremony on site. This is only the second running of the Clark leg specifically (the first was December 2025), so there's no independent participant feedback yet, and parking is still listed as 'TBA' by organisers.",
   "rating": {
-    "overall": 72,
+    "overall": 68,
     "breakdown": [
       {
-        "label": "Organiser (RUNRIO)",
-        "score": 92
+        "label": "Series structure & legacy medal",
+        "score": 80
       },
       {
-        "label": "Brand (PUMA)",
-        "score": 85
+        "label": "Venue (Filinvest Mimosa, Clark)",
+        "score": 74
       },
       {
-        "label": "Clark fast roads",
-        "score": 85
+        "label": "Race-day organisation (RunRio)",
+        "score": 70
       },
       {
-        "label": "Registration",
-        "score": 35
+        "label": "Track record at this specific leg",
+        "score": 40
       }
     ]
   },
   "sections": [
     {
-      "heading": "PUMA + RUNRIO at Clark",
+      "heading": "One Leg of a Six-City PUMA Series",
       "paragraphs": [
-        "The RUNRIO-PUMA combination on Clark's wide, traffic-free roads = a premium, PB-friendly half marathon experience. [1] Clark Freeport's airbase-legacy boulevards are one of the Philippines' fastest running surfaces."
+        "The Clark leg takes place at Filinvest Mimosa+ in the Clark Freeport Zone, Angeles, Pampanga, offering 21K, 10K and 5K distances -- the same three distances offered at every stop of the six-city series (Iloilo, Davao, Cebu, Clark, Cagayan de Oro, Manila). [1] All registered participants receive official PUMA race singlets and city-specific finisher medals, with an additional 'All-City Finisher Legacy Medal' reserved for runners who complete all six legs -- a genuine incentive for repeat participation across the circuit."
+      ]
+    },
+    {
+      "heading": "A Purpose-Built Freeport Venue",
+      "paragraphs": [
+        "Clark Freeport and Special Economic Zone occupies the former Clark Air Base in Central Luzon, now redeveloped as a hub for business, aviation, and leisure -- Filinvest Mimosa is one of its commercial/entertainment developments. [2] The awarding ceremony is held on-site at Filinvest Mimosa immediately after the race, according to the organiser's FAQ, keeping logistics contained to a single venue."
+      ]
+    },
+    {
+      "heading": "Race-Day Rules Worth Knowing",
+      "paragraphs": [
+        "Only water is confirmed at hydration stations along the route, with no mention of on-course gels or electrolytes. [1] Walkers are permitted but asked to keep right so faster runners can pass; wheelchairs, bikes, skates and strollers are not allowed on course. Runners who don't start within 15 minutes of their assigned flag-off time face disqualification, per the race mechanics document."
+      ]
+    },
+    {
+      "heading": "Second Running, No Reviews Yet",
+      "paragraphs": [
+        "This is only the second time the Clark leg has been held -- the first was in December 2025 -- and no independent participant race reports or reviews turned up in research for this specific leg. [1] Registration is also explicitly non-transferable and non-refundable, with no changes to event category or leg/city allowed after signing up, so commit carefully."
       ]
     },
     {
       "heading": "Should You Run It?",
       "paragraphs": [
-        "A PUMA-RUNRIO branded race on Clark's fast roads. Track for registration. [1]"
+        "If you're chasing the All-City Finisher Legacy Medal or simply want a well-organised RunRio-produced half marathon in a purpose-built Freeport Zone venue, the Clark leg on 23 August 2026 fits the bill. As a second-year leg with no participant reviews yet and parking still 'TBA,' it's worth checking official channels for logistics updates closer to race day."
       ]
     }
   ],
@@ -46,19 +64,35 @@
   "sources": [
     {
       "n": 1,
-      "label": "PUMA Half Marathon Series — Runrio",
-      "publisher": "RUNRIO / PUMA",
-      "url": "https://runrio.com",
+      "label": "RunRio — PUMA Philippine Half Marathon Series race calendar",
+      "publisher": "RunRio",
+      "url": "https://runrio.com/race-calendar",
       "type": "official"
+    },
+    {
+      "n": 2,
+      "label": "Clark Freeport and Special Economic Zone — Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Clark_Freeport_and_Special_Economic_Zone",
+      "type": "other"
     }
   ],
   "faqs": [
     {
-      "question": "When is PUMA Half Marathon Clark 2026?",
-      "answer": "23 August 2026 at Filinvest Mimosa, Clark. It's the Clark leg of the PUMA Philippine Half Marathon Series, offering 21K, 10K, and 5K. Registration is pending; Runrio organises the event. [1]"
+      "question": "When and where is the PUMA Philippine Half Marathon Series Clark leg?",
+      "answer": "23 August 2026 at Filinvest Mimosa in the Clark Freeport Zone, Angeles, Pampanga. It's one of six city legs in the 2026 series (Iloilo, Davao, Cebu, Clark, Cagayan de Oro, Manila), each offering 21K, 10K and 5K distances. [1]"
+    },
+    {
+      "question": "What is the All-City Finisher Legacy Medal?",
+      "answer": "A bonus medal awarded to runners who complete all six legs of the 2026 PUMA Philippine Half Marathon Series, on top of the city-specific finisher medal earned at each individual leg. All participants also receive official PUMA race singlets. [1]"
+    },
+    {
+      "question": "Has the Clark leg run before?",
+      "answer": "Yes, once -- the first Clark leg was held in December 2025, making the 23 August 2026 edition only its second running. No independent participant race reports have been published yet for this specific leg. [1]"
     }
   ],
-  "editorial_notes": "Auto-generated review.",
+  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and already-researched entity material (research_highlights/watchouts), plus supplementary background sources. Prose is original synthesis. Safe to hand-edit.",
+  "published_at": "2026-08-09T06:45:00.000Z",
   "last_updated": "2026-08-09",
   "status": "active"
 }

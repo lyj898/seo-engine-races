@@ -2,43 +2,61 @@
   "review_id": "sante-barley-trilogy-run-asia-2026-iloilo-leg-3",
   "slug": "sante-barley-trilogy-run-asia-2026-iloilo-leg-3",
   "entity_id": "sante-barley-trilogy-run-asia-2026-iloilo-leg-3",
-  "title": "Sante Barley Trilogy Run Iloilo Leg 3 Review: 32K in the City of Love",
-  "seo_title": "Sante Barley Run Iloilo Leg 3 2026 Review | Philippines Race",
-  "meta_description": "Sante Barley Trilogy Run Asia 2026 Iloilo Leg 3: August 23. 32K, 21K, 10K, 5K from Runrio.",
-  "dek": "Set for 23 August 2026 in Iloilo City, this Runrio-produced Sante Barley series leg features the rare 32K distance in the 'City of Love.'",
-  "verdict": "The Sante Barley Trilogy Run Iloilo Leg 3 brings the rare 32K distance to Iloilo City — one of the Philippines' most charming destinations with its heritage houses, river esplanade, and exceptional food scene. Produced by Runrio, it also offers standard 21K, 10K, and 5K distances. Iloilo's flat terrain makes for a fast course. August in Iloilo is the wet season. A distinctive Runrio-produced Visayas series leg with the unusual 32K option.",
+  "title": "Sante Barley Trilogy Run Asia 2026 Iloilo Leg 3 Review: The 32K Afroman Finale",
+  "seo_title": "Trilogy Run Asia Iloilo Leg 3 2026 Review | Philippines",
+  "meta_description": "Sante Barley Trilogy Run Asia 2026 Iloilo Leg 3 review: August 23 at Atria Park District -- the series finale with the signature 32K Afroman distance.",
+  "dek": "Set for 23 August 2026 at Atria Park District, Iloilo City, this is the culminating third leg of the Sante Barley Trilogy Run Asia series -- complete the 16K, 21K and 32K across all three legs to qualify for the 42K National Finals in Manila.",
+  "verdict": "Iloilo Leg 3 closes out RunRio's three-leg Sante Barley Trilogy Run Asia series with the signature 32K 'Afroman' distance -- the longest of the trilogy -- alongside standard 5K, 10K and 21K options. The series structure is the real draw here: finishing the 16K in Leg 1, the 21K in Leg 2, and the 32K in Leg 3, in any host city, qualifies a runner for the 42K category at the National Finals in Manila, giving the whole series a progressive, goal-oriented arc rather than three disconnected races. Iloilo's race hub has moved to Atria Park District for this edition, a change worth noting for runners who ran prior legs at the old venue.",
   "rating": {
-    "overall": 69,
+    "overall": 70,
     "breakdown": [
       {
-        "label": "32K distance",
-        "score": 88
+        "label": "Series progression to National Finals",
+        "score": 85
       },
       {
-        "label": "Organiser (Runrio)",
-        "score": 88
-      },
-      {
-        "label": "Iloilo destination",
+        "label": "Signature 32K Afroman distance",
         "score": 75
       },
       {
-        "label": "Registration",
+        "label": "Venue & city (Atria Park District, Iloilo)",
+        "score": 68
+      },
+      {
+        "label": "Independent race reports",
         "score": 35
       }
     ]
   },
   "sections": [
     {
-      "heading": "32K in Iloilo",
+      "heading": "The Finale of a Three-Leg Series",
       "paragraphs": [
-        "Iloilo is one of the Philippines' most charming cities — heritage architecture, the river esplanade, and exceptional food. [1] The 32K distance provides a unique marathon-readiness challenge. Runrio's production ensures professional standards."
+        "Iloilo Leg 3 is the culminating race of the three-leg Sante Barley Trilogy Run Asia series, featuring the signature 32K 'Afroman' distance alongside 5K, 10K and 21K options. [1] Completing the 16K in Leg 1, the 21K in Leg 2, and the 32K in Leg 3 -- in any host city -- qualifies a runner for the 42K category at the National Finals in Manila, giving the series a clear progression rather than three standalone events."
+      ]
+    },
+    {
+      "heading": "A New Venue: Atria Park District",
+      "paragraphs": [
+        "This edition is staged at Atria Park District, Iloilo City, a shift from previous Iloilo legs (2025), which were held at Casa De Emperador in Mandurriao. [1] Iloilo City itself -- the regional capital of Western Visayas and known historically as the 'Queen City of the South' -- is one of the Philippines' older cities, with a compact urban core well suited to a race hub. [2]"
+      ]
+    },
+    {
+      "heading": "Awards and Race Rules",
+      "paragraphs": [
+        "All finishers within the cut-off time receive a finisher's medal, with age-group and gender awards for the top 3 in the 32K category specifically for Leg 3. [1] Race rules prohibit skates, strollers or animals on course, require runners to stay within marked course boundaries, and impose a non-refundable ₱5,000 fee for formal result protests -- fairly standard RunRio-series terms."
+      ]
+    },
+    {
+      "heading": "No Independent Reviews Yet",
+      "paragraphs": [
+        "Available research material for this leg is limited to RunRio's own official site and race calendar -- no independent participant race reports specific to this 2026 Iloilo Leg 3 were found. [1] That's not unusual for a series this structured, but runners chasing detailed course/heat feedback should treat this as an organiser-only information base for now."
       ]
     },
     {
       "heading": "Should You Run It?",
       "paragraphs": [
-        "A Runrio series race with 32K option in Iloilo. 23 August 2026. [1]"
+        "If you're working toward the 42K National Finals qualification and want to close out the Trilogy series with its longest distance, Iloilo Leg 3 on 23 August 2026 is the obvious pick. Runners new to the series should note the venue change to Atria Park District and register early given the ₱5,000 protest fee and strict no-refund policy typical of RunRio events."
       ]
     }
   ],
@@ -46,19 +64,35 @@
   "sources": [
     {
       "n": 1,
-      "label": "Sante Barley Trilogy Run — Runrio",
-      "publisher": "Runrio / Sante Barley",
-      "url": "https://runrio.com",
+      "label": "RunRio — Sante Barley Trilogy Run Asia race calendar",
+      "publisher": "RunRio",
+      "url": "https://runrio.com/race-calendar",
       "type": "official"
+    },
+    {
+      "n": 2,
+      "label": "Iloilo City — Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Iloilo_City_Proper",
+      "type": "other"
     }
   ],
   "faqs": [
     {
-      "question": "When is Sante Barley Iloilo Leg 3 2026?",
-      "answer": "23 August 2026 in Iloilo City. Features 32K distance. It offers 32K, 21K, 10K, and 5K. Registration is currently open. Runrio (brand: Sante Barley Trilogy Run Asia) organises the event. It's held at Atria Park District, Iloilo, Iloilo City. [1]"
+      "question": "When and where is Sante Barley Trilogy Run Asia Iloilo Leg 3?",
+      "answer": "23 August 2026 at Atria Park District, Iloilo City -- a change from the Casa De Emperador venue used for prior Iloilo legs. It's the culminating third leg of the series, featuring the signature 32K 'Afroman' distance alongside 5K, 10K and 21K. [1]"
+    },
+    {
+      "question": "How do I qualify for the 42K National Finals?",
+      "answer": "By completing the 16K in Leg 1, the 21K in Leg 2, and the 32K in Leg 3, in any host city across the series. Finishing that full progression qualifies a runner for the 42K category at the National Finals in Manila. [1]"
+    },
+    {
+      "question": "What are the race rules and fees?",
+      "answer": "Skates, strollers and animals are prohibited on course, and runners must stay within marked boundaries. Formal result protests require a non-refundable ₱5,000 fee. All finishers within the cut-off receive a medal, with top-3 age-group awards in the 32K category for Leg 3. [1]"
     }
   ],
-  "editorial_notes": "Auto-generated review.",
+  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and already-researched entity material (research_highlights/watchouts), plus supplementary background sources. Prose is original synthesis. Safe to hand-edit.",
+  "published_at": "2026-08-09T06:45:00.000Z",
   "last_updated": "2026-08-09",
   "status": "active"
 }

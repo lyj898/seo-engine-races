@@ -2,43 +2,67 @@
   "review_id": "malaysia-marathon-2026",
   "slug": "malaysia-marathon-2026",
   "entity_id": "malaysia-marathon-2026",
-  "title": "Malaysia Marathon 2026 Review: Bukit Bintang to KLCC",
-  "seo_title": "Malaysia Marathon 2026 Review | KL City-Centre Race",
-  "meta_description": "Malaysia Marathon 2026: August 30 from Pavilion Bukit Bintang to KLCC. Full and half marathon through Kuala Lumpur's golden triangle — registration open.",
-  "dek": "Set for 30 August 2026, starting at Pavilion Bukit Bintang and finishing at KLCC, this SCORE Experience-produced marathon runs through KL's golden triangle. Registration open.",
-  "verdict": "The Malaysia Marathon runs a point-to-point course through Kuala Lumpur's most iconic corridor: start at Pavilion Bukit Bintang in the shopping district, finish at the Petronas Twin Towers at KLCC. Produced by SCORE Experience (the team behind Garmin Run Malaysia), it offers full and half marathon distances. The point-to-point format gives the course genuine narrative — from retail heart to national icon. Registration is open. For runners wanting a KL marathon with a landmark-to-landmark route and proven production, this is a strong pick.",
+  "title": "Malaysia Marathon 2026 Review: Pavilion-to-KLCC Route for Independence Day Weekend",
+  "seo_title": "Malaysia Marathon 2026 Review | Kuala Lumpur Race",
+  "meta_description": "Malaysia Marathon 2026 review: August 30, starting at Pavilion Bukit Bintang and finishing at KLCC, with a 69th Independence Day-themed finisher medal.",
+  "dek": "Set for Sunday 30 August 2026, this multi-distance race starts at Pavilion Bukit Bintang and finishes at KLCC, passing Dataran Merdeka en route -- registration closed back in May, and the finisher medal is themed around Malaysia's 69th Independence Day.",
+  "verdict": "The Malaysia Marathon runs a genuinely landmark-heavy route through central Kuala Lumpur -- starting at Pavilion Bukit Bintang, finishing at the Petronas Towers precinct (KLCC), with the 10K passing Dataran Merdeka, the square where Malaysian independence was declared in 1957. Four distances plus a themed 'Sarong Music Run' broaden the appeal, and the finisher medal's 69th Independence Day design -- Tunku Abdul Rahman emblem, 330 grams of recycled zinc -- shows real production investment. The catch: registration for 2026 closed on 15 May, well before the race date, so this is one to watch rather than enter unless you already signed up.",
   "rating": {
-    "overall": 72,
+    "overall": 74,
     "breakdown": [
       {
-        "label": "Point-to-point route",
-        "score": 88
+        "label": "Route & landmark density",
+        "score": 85
       },
       {
-        "label": "KLCC finish",
-        "score": 90
+        "label": "Finisher medal & production value",
+        "score": 80
       },
       {
-        "label": "Organiser pedigree",
-        "score": 75
+        "label": "Distance range",
+        "score": 76
       },
       {
-        "label": "Registration",
-        "score": 82
+        "label": "Registration timing (closed early)",
+        "score": 42
       }
     ]
   },
   "sections": [
     {
-      "heading": "Bukit Bintang to KLCC",
+      "heading": "Pavilion to KLCC, via Dataran Merdeka",
       "paragraphs": [
-        "A point-to-point marathon from Pavilion Bukit Bintang (KL's shopping heart) to KLCC (the Petronas Twin Towers) is one of Malaysia's most iconic race routes. [1] SCORE Experience brings proven race-production credentials from the Garmin Run Malaysia series. Registration is open."
+        "The 2026 edition is a multi-distance event (5K, 10K, 21K, 42K) plus a 'Malaysia Sarong Music Run,' starting at Pavilion KL and finishing at KLCC, scheduled for Sunday 30 August 2026. [1] The 10KM route starts at Pavilion and finishes at KLCC, passing Dataran Merdeka and other city landmarks along the way, while the 5KM loops around the KLCC precinct itself, per the organiser's official course description."
+      ]
+    },
+    {
+      "heading": "Running Past Malaysia's Independence Square",
+      "paragraphs": [
+        "Dataran Merdeka -- the roughly 1,000,000 sq m square where the Union Jack came down and the Malayan flag went up at midnight on 31 August 1957 -- sits directly on the 10KM route. [2] That places this race's course through the same symbolically loaded ground as the standalone Merdeka Half Marathon, reinforcing how central the square is to Kuala Lumpur's race geography."
+      ]
+    },
+    {
+      "heading": "A Medal Built for the Anniversary",
+      "paragraphs": [
+        "The event's 2026 finisher medal is themed around Malaysia's 69th Independence Day, features the emblem of Tunku Abdul Rahman, and weighs 330 grams, made from recycled zinc, per the organiser. [1] That's a notably specific level of production detail for a community road race, suggesting a well-resourced organising operation."
+      ]
+    },
+    {
+      "heading": "Registration Already Closed",
+      "paragraphs": [
+        "Registration for the 2026 edition was set to close on 15 May 2026, handled via the HeyJom app -- well ahead of the 30 August race date. [1] As of this writing, that window has already passed, so this year's race is effectively locked for new entrants; it's worth checking the organiser's site for any late-add or on-site registration exceptions closer to race day."
+      ]
+    },
+    {
+      "heading": "Heat Is a Real Factor",
+      "paragraphs": [
+        "Kuala Lumpur races run in a hot, humid tropical climate, which other Klang Valley marathon guides consistently flag as a genuine physical test requiring heat preparation, regardless of how well the route itself is organised. Runners tackling the 42K in particular should plan hydration and pacing around that reality."
       ]
     },
     {
       "heading": "Should You Run It?",
       "paragraphs": [
-        "An iconic point-to-point KL marathon with open registration. 30 August 2026 from Bukit Bintang to KLCC. [1]"
+        "If you're already registered, the Malaysia Marathon's landmark-dense Pavilion-to-KLCC route and Independence Day-themed medal make for a genuinely memorable 30 August 2026 race weekend. For anyone not yet signed up, registration closed in May -- worth watching for next year's window opening earlier rather than expecting late entry this time around."
       ]
     }
   ],
@@ -46,19 +70,35 @@
   "sources": [
     {
       "n": 1,
-      "label": "Malaysia Marathon — event info",
-      "publisher": "SCORE Experience",
-      "url": "https://malaysiamarathon.com",
+      "label": "Malaysia Marathon 2026 — official site",
+      "publisher": "Malaysia Marathon",
+      "url": "https://malaysiamarathonofficial.com",
       "type": "official"
+    },
+    {
+      "n": 2,
+      "label": "Merdeka Square — Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Merdeka_Square",
+      "type": "other"
     }
   ],
   "faqs": [
     {
-      "question": "When is the Malaysia Marathon 2026?",
-      "answer": "30 August 2026 — starting at Pavilion Bukit Bintang, finishing at KLCC. It offers 42K, 21K, 10K, and 5K. Registration is listed as registration opens 5 may 2026, 10:00 am (myt). Malaysia Marathon (with SCORE Experience) organises the event. [1]"
+      "question": "When and where is the Malaysia Marathon 2026?",
+      "answer": "Sunday 30 August 2026, starting at Pavilion Bukit Bintang and finishing at KLCC in Kuala Lumpur. Distances include 5K, 10K, 21K and 42K, plus a themed Malaysia Sarong Music Run; the 10K route passes Dataran Merdeka. [1]"
+    },
+    {
+      "question": "Can I still register?",
+      "answer": "Registration for the 2026 edition closed on 15 May 2026 via the HeyJom app, well ahead of the 30 August race date. As of this writing that window has passed -- check the organiser's official site for any late-entry exceptions closer to race day. [1]"
+    },
+    {
+      "question": "What does the finisher medal look like?",
+      "answer": "It's themed around Malaysia's 69th Independence Day, featuring the emblem of Tunku Abdul Rahman and weighing 330 grams, made from recycled zinc -- a notably detailed production for a community road race. [1]"
     }
   ],
-  "editorial_notes": "Auto-generated review.",
+  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and already-researched entity material (research_highlights/watchouts), plus supplementary background sources. Prose is original synthesis. Safe to hand-edit.",
+  "published_at": "2026-08-09T06:45:00.000Z",
   "last_updated": "2026-08-09",
   "status": "active"
 }
