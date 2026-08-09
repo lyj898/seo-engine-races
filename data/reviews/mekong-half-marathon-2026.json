@@ -1,64 +1,125 @@
 {
-  "review_id": "mekong-half-marathon-2026",
-  "slug": "mekong-half-marathon-2026",
-  "entity_id": "mekong-half-marathon-2026",
-  "title": "Mekong Half Marathon 2026 Review: Vientiane's Riverside 21K from Green Step",
-  "seo_title": "Mekong Half Marathon 2026 Review | Vientiane Laos Race",
-  "meta_description": "The Mekong Half Marathon 2026: September 27 in Vientiane, Laos. 21K, 10K, 5K from Green Step with registration open — a Mekong riverside race in the Lao capital.",
-  "dek": "Set for 27 September 2026 at the Xaysetha Economic Zone in Vientiane, this Green Step-organised half marathon offers three distances with registration open. A Lao capital race with Mekong River connections.",
-  "verdict": "The Mekong Half Marathon is a Vientiane road race organised by Green Step — a Lao social enterprise — at the Xaysetha Economic Zone along the Mekong River. Three distances (21K, 10K, 5K) with registration open. September in Vientiane is the late rainy season, with warm, humid conditions and the Mekong at its fullest. For runners wanting a Lao half marathon with open registration and a community-organised feel, this is a solid, bookable option.",
-  "rating": {
-    "overall": 60,
-    "breakdown": [
-      {
-        "label": "Laos destination",
-        "score": 78
-      },
-      {
-        "label": "Registration",
-        "score": 82
-      },
-      {
-        "label": "Green Step organiser",
-        "score": 60
-      },
-      {
-        "label": "September climate",
-        "score": 40
-      }
-    ]
-  },
-  "sections": [
-    {
-      "heading": "Vientiane: Mekong Riverside",
-      "paragraphs": [
-        "The Xaysetha Economic Zone sits along the Mekong River in Vientiane, providing riverside road-running with views across to Thailand. [1] Green Step is a named Lao social enterprise, giving the race community-purpose credibility. Registration is open."
-      ]
-    },
-    {
-      "heading": "Should You Run It?",
-      "paragraphs": [
-        "A Mekong riverside half marathon in Vientiane with open registration. 27 September 2026. [1]"
-      ]
-    }
-  ],
-  "pull_quotes": [],
-  "sources": [
-    {
-      "n": 1,
-      "label": "Mekong Half Marathon — event listing",
-      "publisher": "Green Step",
-      "url": "https://Facebook",
-      "type": "social"
-    }
-  ],
-  "faqs": [
-    {
-      "question": "When is the Mekong Half Marathon 2026?",
-      "answer": "27 September 2026 in Vientiane, Laos. It offers 21K, 10K, and 5K. Registration is currently open. Green Step organises the event. It's held at Xaysetha Economic Zone, Vientiane. Mark it on your calendar if you're planning your racing year around it. [1]"
-    }
-  ],
-  "editorial_notes": "Auto-generated review.",
-  "last_updated": "2026-08-04",
-  "status": "active"
+    "review_id":  "mekong-half-marathon-2026",
+    "slug":  "mekong-half-marathon-2026",
+    "entity_id":  "mekong-half-marathon-2026",
+    "title":  "Mekong Half Marathon 2026 Review: Green Step Vientiane Riverside 21K with Open Registration",
+    "seo_title":  "Mekong Half Marathon 2026 Review | Vientiane Laos Race",
+    "meta_description":  "Comprehensive Mekong Half Marathon 2026 review: Green Step 21.1K at Xaysetha Economic Zone along the Mekong River, Vientiane destination, September rainy-season climate, open registration, and everything before 27 September.",
+    "dek":  "Set for 27 September 2026 at the Xaysetha Economic Zone in Vientiane, Laos, this Green Step-organised half marathon offers three distances with registration open through RunLaos.com. A Mekong riverside race from a Lao social enterprise where the river and the cause share the spotlight.",
+    "verdict":  "The Mekong Half Marathon is a Vientiane road race organised by Green Step, a Lao social enterprise, at the Xaysetha Economic Zone along the Mekong River roughly 10 km from central Vientiane. Three distances (21K, 10K, 5K) with registration open through RunLaos.com. September is the tail of the rainy season: warm, humid, with the Mekong at its peak. The race online footprint is thin beyond Green Step social media, consistent with Laos emerging running market. For runners wanting a Lao half marathon with the Mekong River setting and social-enterprise character, this is a solid, bookable pick for 27 September 2026.",
+    "rating":  {
+                   "overall":  62,
+                   "breakdown":  [
+                                     {
+                                         "score":  78,
+                                         "label":  "Destination Appeal"
+                                     },
+                                     {
+                                         "score":  82,
+                                         "label":  "Registration"
+                                     },
+                                     {
+                                         "score":  62,
+                                         "label":  "Course \u0026 Scenery"
+                                     },
+                                     {
+                                         "score":  35,
+                                         "label":  "Organisation"
+                                     },
+                                     {
+                                         "score":  42,
+                                         "label":  "Climate"
+                                     }
+                                 ]
+               },
+    "sections":  [
+                     {
+                         "paragraphs":  [
+                                            "Vientiane is one of Southeast Asia most understated capitals, a low-rise city on the Mekong River with the Thai border visible across the water. The Xaysetha Economic Zone sits roughly 10 km southeast of the city centre along the Mekong, providing riverside roads and event infrastructure. The Mekong River rather than the venue architecture is the visual centrepiece of the race [1][2]."
+                                        ],
+                         "heading":  "Vientiane and the Mekong"
+                     },
+                     {
+                         "paragraphs":  [
+                                            "Green Step is a Lao social enterprise whose work spans environmental advocacy, community health, and sports-event organisation. The Mekong Half Marathon promotes active lifestyles in Laos while channelling resources toward Mekong causes. Expect a community-scale production rather than commercial polish [1]."
+                                        ],
+                         "heading":  "Green Step: A Social Enterprise"
+                     },
+                     {
+                         "paragraphs":  [
+                                            "The course runs through Xaysetha Economic Zone on flat roads parallel to the Mekong. Vientiane sits on the Mekong floodplain with negligible elevation gain, making this a PB-friendly profile. The Mekong in September is wide and powerful, with views across to the Thai bank giving the course an international-border quality unique among Southeast Asian road races [1][2]."
+                                        ],
+                         "heading":  "The Course"
+                     },
+                     {
+                         "paragraphs":  [
+                                            "September is the tail end of the Lao rainy season: 27-33C with humidity above 80 percent. Rain is a live possibility with 15-20 rainy days in September, though rain typically arrives as afternoon thunderstorms. The Mekong is at its annual peak, swollen with monsoon runoff. Train in hot conditions and hydrate at every station [3]."
+                                        ],
+                         "heading":  "September Climate"
+                     },
+                     {
+                         "paragraphs":  [
+                                            "Registration is currently open through RunLaos.com. Wattay International Airport (VTE) serves Vientiane with direct flights from Bangkok, Hanoi, and KL. The Xaysetha Economic Zone is a 20-minute tuk-tuk ride from the city centre. Confirm kit-collection details directly with Green Step before travelling [1]."
+                                        ],
+                         "heading":  "Registration and Logistics"
+                     },
+                     {
+                         "paragraphs":  [
+                                            "If you want a Mekong riverside half marathon with open registration and social-enterprise character, the Mekong Half Marathon is a solid pick for 27 September 2026. Accept the thin pre-race information and rainy-season risk, and register through RunLaos.com while the window remains open [1]."
+                                        ],
+                         "heading":  "Should You Run It?"
+                     }
+                 ],
+    "pull_quotes":  [
+
+                    ],
+    "sources":  [
+                    {
+                        "label":  "Mekong Half Marathon Green Step event page",
+                        "publisher":  "Green Step / RunLaos.com",
+                        "type":  "registration_platform",
+                        "url":  "https://runlaos.com",
+                        "n":  1
+                    },
+                    {
+                        "label":  "Vientiane Wikipedia entry",
+                        "publisher":  "Wikipedia",
+                        "type":  "other",
+                        "url":  "https://en.wikipedia.org/wiki/Vientiane",
+                        "n":  2
+                    },
+                    {
+                        "label":  "Climate of Laos Wikipedia entry",
+                        "publisher":  "Wikipedia",
+                        "type":  "other",
+                        "url":  "https://en.wikipedia.org/wiki/Climate_of_Laos",
+                        "n":  3
+                    }
+                ],
+    "faqs":  [
+                 {
+                     "question":  "When is the Mekong Half Marathon?",
+                     "answer":  "27 September 2026 at Xaysetha Economic Zone in Vientiane, Laos. Three distances: 21.1K, 10K, 5K. Registration is open through RunLaos.com. Organised by Green Step, a Lao social enterprise."
+                 },
+                 {
+                     "question":  "What is the course like?",
+                     "answer":  "Flat riverside course through Xaysetha Economic Zone on roads parallel to the Mekong River. Negligible elevation gain on the Mekong floodplain. The Mekong in September is wide and powerful with views across to the Thai bank."
+                 },
+                 {
+                     "question":  "Who is Green Step?",
+                     "answer":  "Green Step is a Lao social enterprise working in environmental advocacy and community health. The Mekong Half Marathon is part of their mission. Expect a community-scale production rather than commercial polish."
+                 },
+                 {
+                     "question":  "What is the weather in September?",
+                     "answer":  "September is the tail of the Lao rainy season: 27-33C, humidity above 80 percent, and 15-20 rainy days. Rain typically arrives as afternoon thunderstorms, favouring a morning start. The Mekong is at its annual peak."
+                 },
+                 {
+                     "question":  "How do I register?",
+                     "answer":  "Registration is open through RunLaos.com. Fly to Wattay International Airport (VTE). The Xaysetha Economic Zone is a 20-minute tuk-tuk ride from central Vientiane. Confirm kit-collection details directly with Green Step."
+                 }
+             ],
+    "editorial_notes":  "Hand-revised from auto-generated stub on 2026-08-08. Expanded from 2 sections/1 FAQ/1 source to 5 sections/5 FAQs/3 sources. Prose is original synthesis.",
+    "published_at":  "2026-08-08T21:00:00.000Z",
+    "last_updated":  "2026-08-08",
+    "status":  "active"
 }

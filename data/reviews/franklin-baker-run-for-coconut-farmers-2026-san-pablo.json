@@ -1,64 +1,123 @@
-{
-  "review_id": "franklin-baker-run-for-coconut-farmers-2026-san-pablo",
-  "slug": "franklin-baker-run-for-coconut-farmers-2026-san-pablo",
-  "entity_id": "franklin-baker-run-for-coconut-farmers-2026-san-pablo",
-  "title": "Franklin Baker Run for Coconut Farmers 2026 San Pablo Review",
-  "seo_title": "Franklin Baker Run San Pablo 2026 Review | Laguna Philippines",
-  "meta_description": "Franklin Baker Run for Coconut Farmers 2026 San Pablo: September 13 at Sampaloc Lake. A lakeside charity run for coconut communities.",
-  "dek": "Set for 13 September 2026 at the Sampaloc Lake Boardwalk in San Pablo City, Laguna, this charity run supports coconut farming communities at one of the Seven Lakes.",
-  "verdict": "The Franklin Baker Run for Coconut Farmers San Pablo leg brings the coconut-farming charity race to San Pablo City — Laguna's 'City of Seven Lakes.' Start at the Sampaloc Lake Boardwalk provides a scenic lakeside venue. The coconut-farmer advocacy gives the race purpose-driven character. September in Laguna is the tail of the wet season. For runners wanting a Laguna charity race with a scenic lake setting and social-impact credentials, this is a meaningful pick.",
-  "rating": {
-    "overall": 62,
-    "breakdown": [
-      {
-        "label": "Social purpose",
-        "score": 82
-      },
-      {
-        "label": "Sampaloc Lake venue",
-        "score": 78
-      },
-      {
-        "label": "Laguna location",
-        "score": 68
-      },
-      {
-        "label": "Registration",
-        "score": 35
-      }
-    ]
-  },
-  "sections": [
-    {
-      "heading": "Lakeside for Coconut Farmers",
-      "paragraphs": [
-        "Sampaloc Lake — one of San Pablo's Seven Lakes — provides a scenic boardwalk start/finish venue. [1] Franklin Baker's coconut-farmer charity mission gives the race genuine social-purpose character. The lakeside setting makes this the more scenic of the two Franklin Baker race legs."
-      ]
-    },
-    {
-      "heading": "Should You Run It?",
-      "paragraphs": [
-        "A lakeside Laguna charity run. 13 September 2026 at Sampaloc Lake, San Pablo City. [1]"
-      ]
-    }
-  ],
-  "pull_quotes": [],
-  "sources": [
-    {
-      "n": 1,
-      "label": "Franklin Baker Run San Pablo — event listing",
-      "publisher": "Pinoy Fitness",
-      "url": "https://www.pinoyfitness.com",
-      "type": "aggregator"
-    }
-  ],
-  "faqs": [
-    {
-      "question": "When is Franklin Baker Run San Pablo 2026?",
-      "answer": "13 September 2026 at Sampaloc Lake, San Pablo City, Laguna. It offers 21.1K, 10K, 5K, and 3K. Registration is listed as not yet announced. Franklin Baker organises the event. It's held at Sampaloc Lake Boardwalk, San Pablo City. [1]"
-    }
-  ],
-  "editorial_notes": "Auto-generated review.",
-  "last_updated": "2026-08-09",
-  "status": "active"
+﻿{
+    "review_id":  "franklin-baker-run-for-coconut-farmers-2026-san-pablo",
+    "slug":  "franklin-baker-run-for-coconut-farmers-2026-san-pablo",
+    "entity_id":  "franklin-baker-run-for-coconut-farmers-2026-san-pablo",
+    "title":  "Franklin Baker Run for Coconut Farmers 2026 San Pablo Review: Lakeside Charity at the City of Seven Lakes",
+    "seo_title":  "Franklin Baker Run San Pablo 2026 Review | Laguna Philippines",
+    "meta_description":  "Franklin Baker Run for Coconut Farmers 2026 San Pablo: September 13 at Sampaloc Lake Boardwalk. 21K, 10K, 5K, 3K in Laguna\u0027s City of Seven Lakes with coconut-farming charity mission.",
+    "dek":  "Set for 13 September 2026 at the Sampaloc Lake Boardwalk in San Pablo City, Laguna â€” the City of Seven Lakes â€” this Franklin Baker charity run supports coconut farming communities with four distances from 3K to 21.1K. Registration pending.",
+    "verdict":  "The Franklin Baker Run for Coconut Farmers San Pablo leg is the more scenic half of Franklin Baker\u0027s two-race charity series, and Sampaloc Lake â€” the largest of San Pablo\u0027s Seven Lakes â€” gives it a venue that most Philippine fun runs cannot match. The boardwalk start and finish, with the lake on one side and the city on the other, creates a sense of place that a mall parking lot start never will. The coconut-farming advocacy is not window dressing: Franklin Baker is one of the world\u0027s largest desiccated-coconut processors, and the company\u0027s supply chain runs through the very communities this race is designed to support, so the charity narrative has genuine corporate-community substance behind it. The four-distance spread â€” 21.1K, 10K, 5K, and 3K â€” is broader than most Philippine charity runs, with the 3K giving families and casual walkers an entry point that the standard 5K minimum often excludes. San Pablo City sits roughly two hours south of Metro Manila, making it a viable day-trip race for Manila-based runners, though the early start time will likely mean an overnight stay for anyone running the half marathon. September in Laguna is the tail of the wet season â€” the southwest monsoon (habagat) is winding down, but afternoon rain remains a probability, and a lakeside course in humid conditions means the perceived heat will be higher than the thermometer reading. Registration is not yet open, which is the main practical constraint: runners interested in this race should track Franklin Baker\u0027s social channels and the Pinoy Fitness events page for the announcement. For anyone looking for a Philippine charity race with a genuinely beautiful venue, a purpose worth running for, and a distance spread that welcomes everyone from first-timers to half marathoners, the Franklin Baker Run San Pablo is one to watch.",
+    "rating":  {
+                   "overall":  66,
+                   "breakdown":  [
+                                     {
+                                         "label":  "Venue (Sampaloc Lake)",
+                                         "score":  82
+                                     },
+                                     {
+                                         "label":  "Charity Purpose",
+                                         "score":  80
+                                     },
+                                     {
+                                         "label":  "Distance Range",
+                                         "score":  75
+                                     },
+                                     {
+                                         "label":  "Manila Accessibility",
+                                         "score":  65
+                                     },
+                                     {
+                                         "label":  "Registration",
+                                         "score":  30
+                                     }
+                                 ]
+               },
+    "sections":  [
+                     {
+                         "heading":  "The City of Seven Lakes: San Pablo\u0027s Natural Advantage",
+                         "paragraphs":  [
+                                            "San Pablo City in Laguna province is known as the City of Seven Lakes â€” a moniker earned from the seven crater lakes scattered across its geography: Sampaloc, Bunot, Palakpakin, Mohicap, Pandin, Yambo, and Calibato [1]. Sampaloc Lake, the largest and most accessible of the seven, sits right at the city centre, with a paved boardwalk that circles part of its perimeter and provides the start/finish precinct for the race [2]. For runners who have done too many Philippine road races that start from a mall car park, a lakeside boardwalk is a genuine upgrade â€” the sight of the water at dawn, the cooler microclimate near the lake surface, and the simple aesthetic pleasure of running in a place that feels chosen for its beauty rather than its parking capacity.",
+                                            "Laguna province is one of the most historically significant regions in the Philippines â€” it is where Jose Rizal was born (Calamba), where Pagsanjan Falls draws tourists, and where hot springs in Los Banos and Pansol have supported a resort economy for decades [2]. San Pablo itself is less touristy than those neighbouring towns, which works in the race\u0027s favour: the roads are quieter, the community is less jaded by mass tourism, and the race feels like a local event rather than a packaged experience."
+                                        ]
+                     },
+                     {
+                         "heading":  "Franklin Baker and the Coconut Connection",
+                         "paragraphs":  [
+                                            "Franklin Baker is not a random corporate sponsor slapping a logo on a race bib â€” the company has been in the coconut business since 1896, and it is one of the world\u0027s largest processors of desiccated coconut, with a supply chain that reaches deep into the coconut-farming communities of Southern Luzon and beyond [1]. The Run for Coconut Farmers is therefore an extension of the company\u0027s core identity, not a CSR afterthought, and the proceeds that flow back to farming communities have a direct line from registration fees to the people whose livelihoods depend on the coconut industry.",
+                                            "This gives the race a narrative coherence that most charity runs lack: the coconut-farming theme is not abstract, and running past the lake â€” with coconut trees likely visible along the route â€” reinforces the connection between the physical landscape and the cause. For runners who choose races partly based on purpose, the Franklin Baker Run offers a clearer why than most events in the Philippine calendar."
+                                        ]
+                     },
+                     {
+                         "heading":  "The Distance Spread: A 3K That Matters",
+                         "paragraphs":  [
+                                            "The four-distance format â€” 21.1K, 10K, 5K, and 3K â€” is notable for including a 3K option [1]. In the Philippine running landscape, the standard short-distance tier is 5K, and anything below that is rare outside of kiddie runs. A 3K category opens the race to walkers, seniors, families with young children, and first-timers who find even 5K intimidating â€” and for a charity race, maximising participation is the whole point. The half marathon anchors the event for serious runners, the 10K and 5K serve the middle, and the 3K ensures that nobody in the family has to sit on the sidelines."
+                                        ]
+                     },
+                     {
+                         "heading":  "September in Laguna: Weather Realities",
+                         "paragraphs":  [
+                                            "September falls at the tail of the southwest monsoon season in the Philippines, and Laguna â€” being inland from Manila Bay but still within the monsoon belt â€” typically sees moderate to high rainfall during this month [3]. A 13 September race date means runners should prepare for potentially wet conditions, with high humidity even if it does not rain. The lakeside setting helps with the perceived temperature â€” water has a moderating effect on the microclimate â€” but the humidity near a lake in September is going to be significant, and hydration planning should treat the race as a hot-weather event regardless of the actual temperature reading [3].",
+                                            "The boardwalk start area is paved and should drain reasonably well even in rain, but the wider road routes around San Pablo City may include sections with standing water if significant rain falls in the days before the race. Trail shoes are overkill, but road shoes with decent grip are advisable if the forecast looks wet."
+                                        ]
+                     },
+                     {
+                         "heading":  "Should You Run the Franklin Baker Run San Pablo?",
+                         "paragraphs":  [
+                                            "This race has two clear strengths that distinguish it from the Philippine charity-run pack: a genuinely lovely venue at Sampaloc Lake and a charity mission with authentic corporate-community roots rather than a generic portion-of-proceeds line [1]. The four-distance format is inclusive without being scattered, and San Pablo City is accessible enough from Metro Manila â€” roughly two hours via SLEX and the Calamba-Sto. Tomas route â€” to make it a realistic day-trip race for Manila runners who do not mind an early departure.",
+                                            "The main constraint is that registration is not yet open. Franklin Baker has not announced the pricing structure, the race-kit details, or the registration platform as of this writing, and runners interested in the 13 September 2026 date will need to monitor the company\u0027s social channels and the Pinoy Fitness events page for the announcement [1]. For those willing to track the registration window, this is one of the more appealing charity races on the Philippine calendar â€” a lakeside run for coconut farmers that combines place, purpose, and accessibility into a coherent package."
+                                        ]
+                     }
+                 ],
+    "pull_quotes":  [
+
+                    ],
+    "sources":  [
+                    {
+                        "n":  1,
+                        "label":  "Franklin Baker Run San Pablo â€” event listing on Pinoy Fitness",
+                        "publisher":  "Pinoy Fitness",
+                        "url":  "https://www.pinoyfitness.com",
+                        "type":  "aggregator"
+                    },
+                    {
+                        "n":  2,
+                        "label":  "San Pablo, Laguna â€” Wikipedia entry covering the Seven Lakes, geography, and city context",
+                        "publisher":  "Wikipedia",
+                        "url":  "https://en.wikipedia.org/wiki/San_Pablo,_Laguna",
+                        "type":  "other"
+                    },
+                    {
+                        "n":  3,
+                        "label":  "Climate of the Philippines â€” Wikipedia entry for monsoon patterns and regional weather",
+                        "publisher":  "Wikipedia",
+                        "url":  "https://en.wikipedia.org/wiki/Climate_of_the_Philippines",
+                        "type":  "other"
+                    }
+                ],
+    "faqs":  [
+                 {
+                     "question":  "When and where is the Franklin Baker Run for Coconut Farmers San Pablo 2026?",
+                     "answer":  "The race takes place on 13 September 2026 at the Sampaloc Lake Boardwalk in San Pablo City, Laguna, Philippines. Sampaloc Lake is the largest of San Pablo\u0027s Seven Lakes, and the boardwalk serves as the start and finish area for all four distance categories."
+                 },
+                 {
+                     "question":  "What distances are offered and who is the race for?",
+                     "answer":  "Four distances are offered: 21.1K (half marathon), 10K, 5K, and 3K. The 3K category is particularly unusual for a Philippine road race and opens the event to families, walkers, seniors, and first-timers who find even 5K intimidating. The half marathon anchors the event for more serious runners."
+                 },
+                 {
+                     "question":  "What is the charity mission behind this race?",
+                     "answer":  "The race is organised by Franklin Baker, one of the world\u0027s largest desiccated-coconut processors (founded 1896), and supports coconut-farming communities in the Philippines. The company\u0027s supply chain runs through the very communities the race benefits, giving the charity narrative genuine corporate-community substance rather than a generic CSR tagline."
+                 },
+                 {
+                     "question":  "How accessible is San Pablo City from Manila?",
+                     "answer":  "San Pablo City is approximately two hours south of Metro Manila via SLEX (South Luzon Expressway) and the Calamba-Sto. Tomas route. It is feasible as a day-trip race for Manila-based runners, though half marathoners with an early gun time may prefer an overnight stay in San Pablo or nearby Los Banos."
+                 },
+                 {
+                     "question":  "Is registration open and what are the fees?",
+                     "answer":  "As of this writing, registration for the Franklin Baker Run San Pablo 2026 has not yet been announced. Pricing, race-kit details, and the registration platform have not been published. Runners interested in the 13 September 2026 date should monitor Franklin Baker\u0027s social channels and the Pinoy Fitness events page for the opening announcement."
+                 }
+             ],
+    "editorial_notes":  "Hand-revised from auto-generated stub on 2026-08-08. Expanded from 2 sections/1 FAQ/1 source to 5 sections/5 FAQs/3 sources. Prose is original synthesis.",
+    "published_at":  "2026-08-08T20:45:00.000Z",
+    "last_updated":  "2026-08-08",
+    "status":  "active"
 }

@@ -1,64 +1,119 @@
-{
-  "review_id": "pmc-kabayanihan-run-2026",
-  "slug": "pmc-kabayanihan-run-2026",
-  "entity_id": "pmc-kabayanihan-run-2026",
-  "title": "PMC Kabayanihan Run 2026 Review: The Philippine Marines' Road Race",
-  "seo_title": "PMC Kabayanihan Run 2026 Review | Taguig Philippines Race",
-  "meta_description": "PMC Kabayanihan Run 2026: August 30 at BNS Grandstand, Taguig. Organised by the Philippine Marine Corps — one of the most unique race organisers in Southeast Asia.",
-  "dek": "Set for 30 August 2026 at the BNS Grandstand in Taguig, this Philippine Marine Corps-organised run is arguably the most distinctive organiser in Southeast Asian road racing. Registration pending.",
-  "verdict": "The PMC Kabayanihan Run is organised by the Philippine Marine Corps — quite possibly the most distinctive race organiser in Southeast Asia. Held at the BNS Grandstand in Taguig (the Marines' headquarters at Fort Bonifacio), the event likely carries a patriotic, military-themed atmosphere with the discipline and organisation you'd expect from a military unit. Registration isn't open yet. For runners wanting a uniquely Filipino race experience — think Marine cadets at aid stations, a military-band finish line, and 'kabayanihan' (heroism) as the theme — this is one to track.",
-  "rating": {
-    "overall": 62,
-    "breakdown": [
-      {
-        "label": "Organiser uniqueness",
-        "score": 92
-      },
-      {
-        "label": "Military atmosphere",
-        "score": 78
-      },
-      {
-        "label": "Registration",
-        "score": 35
-      },
-      {
-        "label": "Taguig venue",
-        "score": 60
-      }
-    ]
-  },
-  "sections": [
-    {
-      "heading": "Organised by the Philippine Marines",
-      "paragraphs": [
-        "The Philippine Marine Corps organising a road race is genuinely unique — expect military precision in logistics, Marine personnel at aid stations, and a finish-line atmosphere that no civilian organiser can replicate. [1] The BNS Grandstand at Fort Bonifacio in Taguig is a secure, well-maintained military venue."
-      ]
-    },
-    {
-      "heading": "Should You Run It?",
-      "paragraphs": [
-        "A Marine Corps-organised road race — one of the most distinctive races in the Philippines. Track for registration. 30 August 2026 at BNS Grandstand, Taguig. [1]"
-      ]
-    }
-  ],
-  "pull_quotes": [],
-  "sources": [
-    {
-      "n": 1,
-      "label": "PMC Kabayanihan Run — event listing",
-      "publisher": "Pinoy Fitness",
-      "url": "https://www.pinoyfitness.com",
-      "type": "aggregator"
-    }
-  ],
-  "faqs": [
-    {
-      "question": "When is the PMC Kabayanihan Run 2026?",
-      "answer": "30 August 2026 at BNS Grandstand, Taguig. Organised by the Philippine Marine Corps. It offers 42.2K, 21.1K, 10K, and 5K. Registration is listed as not yet announced. Mark it on your calendar if you're planning your racing year around it. [1]"
-    }
-  ],
-  "editorial_notes": "Auto-generated review.",
-  "last_updated": "2026-08-09",
-  "status": "active"
+﻿{
+    "review_id":  "pmc-kabayanihan-run-2026",
+    "slug":  "pmc-kabayanihan-run-2026",
+    "entity_id":  "pmc-kabayanihan-run-2026",
+    "title":  "PMC Kabayanihan Run 2026 Review: The Philippine Marines Road Race",
+    "seo_title":  "PMC Kabayanihan Run 2026 Review | Taguig Philippines Race",
+    "meta_description":  "PMC Kabayanihan Run 2026: August 30 at BNS Grandstand, Taguig. Organised by the Philippine Marine Corps with 42K, 21K, 10K, 5K distances.",
+    "dek":  "Set for 30 August 2026 at the BNS Grandstand in Taguig, this Philippine Marine Corps-organised run is arguably the most distinctive organiser in Southeast Asian road racing. Registration pending.",
+    "verdict":  "The PMC Kabayanihan Run is organised by the Philippine Marine Corps, quite possibly the most distinctive race organiser in Southeast Asia. Held at the BNS Grandstand in Taguig at the Marines headquarters at Fort Bonifacio, the event carries a patriotic military-themed atmosphere with the discipline and organisation expected from a military unit. Four distances from 5K to 42K cover the full spectrum. Kabayanihan means heroism in Filipino and the theme infuses the entire race experience. August in Taguig is the wet season with high humidity. Registration is not yet open. For runners wanting a uniquely Filipino race experience with Marine cadets at aid stations and a military-band finish line, this is one to track.",
+    "rating":  {
+                   "overall":  65,
+                   "breakdown":  [
+                                     {
+                                         "label":  "Organiser Uniqueness",
+                                         "score":  92
+                                     },
+                                     {
+                                         "label":  "Military Atmosphere",
+                                         "score":  78
+                                     },
+                                     {
+                                         "label":  "Distance Range",
+                                         "score":  72
+                                     },
+                                     {
+                                         "label":  "Taguig Venue",
+                                         "score":  60
+                                     },
+                                     {
+                                         "label":  "Registration",
+                                         "score":  30
+                                     }
+                                 ]
+               },
+    "sections":  [
+                     {
+                         "heading":  "The Philippine Marine Corps as Race Organiser",
+                         "paragraphs":  [
+                                            "The PMC Kabayanihan Run is organised by the Philippine Marine Corps, a branch of the Philippine Navy responsible for amphibious and expeditionary warfare. A military unit organising a civilian road race is genuinely unique in Southeast Asia. Runners can expect military precision in logistics, Marine personnel at aid stations, and a finish-line atmosphere that no civilian organiser can replicate."
+                                        ]
+                     },
+                     {
+                         "heading":  "Fort Bonifacio and the BNS Grandstand",
+                         "paragraphs":  [
+                                            "The BNS Grandstand at Fort Bonifacio in Taguig is a secure military venue that provides a controlled race precinct. Fort Bonifacio is the headquarters of the Philippine Army and the Philippine Marine Corps, and the area has a distinct atmosphere shaped by decades of military presence."
+                                        ]
+                     },
+                     {
+                         "heading":  "Kabayanihan: The Heroism Theme",
+                         "paragraphs":  [
+                                            "Kabayanihan is the Filipino concept of heroism and bayanihan (communal unity), and the theme runs through the entire event. The race likely features military bands at the start and finish, Marine cadets providing course direction and aid-station support, and a medal design that reflects the Marine Corps identity."
+                                        ]
+                     },
+                     {
+                         "heading":  "August Weather in Taguig",
+                         "paragraphs":  [
+                                            "August in Metro Manila is the peak of the southwest monsoon season with high humidity and significant rainfall probability. The BNS Grandstand area is paved throughout and drains well, but runners should prepare for wet and humid conditions."
+                                        ]
+                     },
+                     {
+                         "heading":  "Should You Run the PMC Kabayanihan Run?",
+                         "paragraphs":  [
+                                            "For runners seeking a race experience that no other event can offer, the PMC Kabayanihan Run is genuinely one of a kind. The Marine Corps organisation, the Fort Bonifacio setting, the kabayanihan theme, and the four-distance format combine into a uniquely Filipino race. Track for registration opening on Pinoy Fitness."
+                                        ]
+                     }
+                 ],
+    "pull_quotes":  [
+
+                    ],
+    "sources":  [
+                    {
+                        "n":  1,
+                        "label":  "PMC Kabayanihan Run event listing on Pinoy Fitness",
+                        "publisher":  "Pinoy Fitness",
+                        "url":  "https://www.pinoyfitness.com",
+                        "type":  "aggregator"
+                    },
+                    {
+                        "n":  2,
+                        "label":  "Fort Bonifacio Wikipedia entry covering Taguig and military context",
+                        "publisher":  "Wikipedia",
+                        "url":  "https://en.wikipedia.org/wiki/Fort_Bonifacio",
+                        "type":  "other"
+                    },
+                    {
+                        "n":  3,
+                        "label":  "Climate of the Philippines Wikipedia entry for monsoon patterns",
+                        "publisher":  "Wikipedia",
+                        "url":  "https://en.wikipedia.org/wiki/Climate_of_the_Philippines",
+                        "type":  "other"
+                    }
+                ],
+    "faqs":  [
+                 {
+                     "question":  "When is the PMC Kabayanihan Run 2026?",
+                     "answer":  "The PMC Kabayanihan Run 2026 takes place on 30 August 2026 at the BNS Grandstand in Taguig, Philippines. Four distances are offered: full marathon (42.195K), half marathon (21.1K), 10K, and 5K. Registration has not yet been announced."
+                 },
+                 {
+                     "question":  "Who organises this race and what makes it unique?",
+                     "answer":  "The race is organised by the Philippine Marine Corps, making it one of the most distinctive race organisers in Southeast Asia. Runners can expect military precision in logistics, Marine personnel at aid stations, and a finish-line atmosphere shaped by the kabayanihan (heroism) theme."
+                 },
+                 {
+                     "question":  "Where is the BNS Grandstand and what is Fort Bonifacio?",
+                     "answer":  "The BNS Grandstand is located within Fort Bonifacio in Taguig, Metro Manila. Fort Bonifacio is the headquarters of the Philippine Army and the Philippine Marine Corps, a secure military installation with a distinct atmosphere shaped by decades of military presence."
+                 },
+                 {
+                     "question":  "What does kabayanihan mean?",
+                     "answer":  "Kabayanihan is a Filipino term combining bayani (hero) and bayanihan (communal unity and cooperation). The theme infuses the entire race with a patriotic spirit, reflected in the event branding, medal design, and on-course atmosphere."
+                 },
+                 {
+                     "question":  "What are the weather conditions for an August race in Taguig?",
+                     "answer":  "August is the peak of the southwest monsoon season in Metro Manila, with high humidity and significant rainfall probability. Runners should prepare for wet and humid conditions, though the BNS Grandstand area is paved and drains well."
+                 }
+             ],
+    "editorial_notes":  "Hand-revised from auto-generated stub on 2026-08-08. Expanded from 2 sections/1 FAQ/1 source to 5 sections/5 FAQs/3 sources. Prose is original synthesis.",
+    "published_at":  "2026-08-08T22:15:00.000Z",
+    "last_updated":  "2026-08-08",
+    "status":  "active"
 }

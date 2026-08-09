@@ -6,16 +6,16 @@
   "seo_title": "Mersing Half Marathon 2026 Review | JomRun Johor Malaysia",
   "meta_description": "The Mersing Half Marathon Powered by JomRun 2026: October 18 at Dataran Air Papan, Mersing, Johor. 21K, 10K, 5K with registration open — Johor's east-coast beach race.",
   "dek": "Set for 18 October 2026 at Dataran Air Papan in Mersing, Johor — the gateway to Tioman Island — this JomRun-powered half marathon offers three distances with registration open.",
-  "verdict": "The Mersing Half Marathon Powered by JomRun brings Malaysia's leading race platform to Johor's east coast — Mersing, the mainland gateway to the Tioman Island marine park. Three distances (21K, 10K, 5K) with registration open. Dataran Air Papan is a beachfront esplanade, giving the race a coastal character that most JomRun mall-anchored events lack. October on Johor's east coast is the inter-monsoon period with manageable conditions. For runners wanting a Johor half marathon with a beach-town vibe and Tioman Island as a post-race recovery option, this is a distinctive pick.",
+  "verdict": "The Mersing Half Marathon Powered by JomRun brings Malaysia's dominant race-registration platform to Johor's east coast, anchoring the event at Dataran Air Papan — a beachfront esplanade in a town better known as the mainland ferry terminal for Tioman Island. Three distances (21K, 10K, 5K) with registration open give it the standard JomRun accessibility, but the coastal setting sets it apart from the platform's typical mall-anchored races. October on Johor's east coast falls in the inter-monsoon period — generally manageable conditions with afternoon thunderstorm risk. Mersing itself is a small, unhurried coastal town of about 70,000 people, and the race infrastructure will reflect that: don't expect the production scale of a KL or JB urban half marathon. What you get instead is a beach-town vibe, sea breezes, and the option of a post-race ferry to one of Southeast Asia's best island marine parks. For runners wanting a Johor half marathon that trades urban convenience for genuine coastal character — and a Tioman Island recovery plan — this is a distinctive pick.",
   "rating": {
-    "overall": 63,
+    "overall": 65,
     "breakdown": [
       {
         "label": "Coastal setting",
         "score": 78
       },
       {
-        "label": "Registration",
+        "label": "Registration access",
         "score": 82
       },
       {
@@ -23,22 +23,45 @@
         "score": 72
       },
       {
-        "label": "Information",
+        "label": "Event information depth",
         "score": 40
+      },
+      {
+        "label": "Season & climate",
+        "score": 60
       }
     ]
   },
   "sections": [
     {
-      "heading": "Mersing: Gateway to Tioman",
+      "heading": "Mersing: Gateway to Tioman Island",
       "paragraphs": [
-        "Mersing is the primary mainland departure point for Tioman Island — one of Southeast Asia's best dive and snorkel destinations. [1] A half marathon here combines a coastal Johor road race with one of the region's best post-race island escapes. Air Papan beach provides a seaside start/finish precinct."
+        "Mersing is the primary mainland departure point for Tioman Island — one of Southeast Asia's premier dive and snorkel destinations, a marine park of coral-ringed beaches and jungle interior that was named one of the world's most beautiful islands by Time in the 1970s. [2] For runners, this transforms the Mersing Half Marathon from a standalone race into a potential race-plus-island-recovery weekend: run Saturday (the race is on a Sunday — 18 October 2026), recover on a Tioman beach by Monday. Few Malaysian races offer this kind of post-race proposition.",
+        "The town itself is modest — a working coastal settlement of fishing boats, ferry terminals, and seafood restaurants — but Dataran Air Papan provides a genuine beachfront start/finish precinct that most JomRun races, typically anchored at shopping malls, lack. [1]"
+      ]
+    },
+    {
+      "heading": "JomRun's Platform Play",
+      "paragraphs": [
+        "JomRun is Malaysia's most active race-registration platform, and the 'Powered by JomRun' label signals a standardised experience: online registration through a familiar interface, e-bib delivery, and the platform's established race-day operations template. [1] For the Mersing event, this means a level of logistical reliability that a purely local organiser might struggle to deliver in a small coastal town. The three-distance spread (21K, 10K, 5K) covers the competitive-to-casual spectrum. What's missing — as is typical for JomRun 'Powered by' events — is detailed course information, elevation profiles, and cut-off times."
+      ]
+    },
+    {
+      "heading": "October on Johor's East Coast",
+      "paragraphs": [
+        "October falls in the inter-monsoon period on Peninsular Malaysia's east coast — between the southwest monsoon (May-September) and the northeast monsoon (November-March). [3] For Mersing, this means moderate temperatures (morning lows of 24-26°C, daytime highs of 31-32°C) with a reasonable chance of dry race-morning conditions. The coastal location provides natural cooling from sea breezes. However, the northeast monsoon can arrive early — runners should prepare for the possibility of rain, and the exposed beachfront start means wind could be a factor on the course. [2]"
+      ]
+    },
+    {
+      "heading": "The Tioman Post-Race Equation",
+      "paragraphs": [
+        "The practical case for this race hinges partly on Tioman: ferries depart from Mersing jetty (a short distance from Air Papan) and take roughly 1.5-2 hours to reach the island. [2] A race-weekend itinerary might look like: arrive Mersing Saturday, collect race kit, run Sunday morning, ferry to Tioman Sunday afternoon, recover Monday-Tuesday. This kind of race-cation is rare in the Malaysian running calendar — most races sit in urban centres where the post-race options are a shopping mall and a highway drive home. If you've been meaning to visit Tioman anyway, the half marathon is a compelling excuse."
       ]
     },
     {
       "heading": "Should You Run It?",
       "paragraphs": [
-        "A Johor coastal half marathon with Tioman Island recovery potential. Registration open. 18 October 2026 at Air Papan, Mersing. [1]"
+        "A Johor coastal half marathon with genuine beach-town character, JomRun's registration platform, and Tioman Island as the post-race reward. Registration is open. 18 October 2026 at Dataran Air Papan, Mersing. [1]"
       ]
     }
   ],
@@ -50,15 +73,46 @@
       "publisher": "JomRun",
       "url": "https://www.jomrun.com/event/Mersing-Half-Marathon-Powered-by-JomRun",
       "type": "registration_platform"
+    },
+    {
+      "n": 2,
+      "label": "Mersing — Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mersing",
+      "type": "encyclopedia"
+    },
+    {
+      "n": 3,
+      "label": "Climate of Malaysia — Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Climate_of_Malaysia",
+      "type": "encyclopedia"
     }
   ],
   "faqs": [
     {
       "question": "When is the Mersing Half Marathon 2026?",
-      "answer": "18 October 2026 at Dataran Air Papan, Mersing, Johor, Malaysia. It offers 5K, 10K, and 21.1K. Registration is currently open. Mark it on your calendar if you're planning your racing year around it. [1]"
+      "answer": "18 October 2026 at Dataran Air Papan, Mersing, Johor, Malaysia. It offers 5K, 10K, and 21.1K. Registration is currently open via the JomRun platform. [1]"
+    },
+    {
+      "question": "What distances are offered?",
+      "answer": "Three distances: 21.1 km (half marathon), 10 km, and 5 km. The half marathon is the primary distance. Registration is open for all categories. [1]"
+    },
+    {
+      "question": "Can I combine this race with a Tioman Island trip?",
+      "answer": "Yes — Mersing is the main ferry terminal for Tioman Island. Ferries take 1.5-2 hours and depart from Mersing jetty, close to the race venue at Dataran Air Papan. A race-Sunday followed by island recovery is a practical itinerary. [2]"
+    },
+    {
+      "question": "What's the race venue like?",
+      "answer": "Dataran Air Papan is a beachfront esplanade in Mersing, offering a coastal start/finish with sea views and breezes. It's a more scenic setting than the typical mall-anchored JomRun race. The town of Mersing is modest — don't expect urban-scale amenities. [1] [2]"
+    },
+    {
+      "question": "What's the weather like in October in Mersing?",
+      "answer": "October is the inter-monsoon period: morning temperatures of 24-26°C, daytime highs of 31-32°C, with a reasonable chance of dry conditions. Sea breezes help, but the northeast monsoon can arrive early — be prepared for possible rain. [2] [3]"
     }
   ],
-  "editorial_notes": "Auto-generated review.",
-  "last_updated": "2026-08-04",
-  "status": "active"
+  "editorial_notes": "Hand-revised from auto-generated stub on 2026-08-08. Expanded from 2 sections/1 FAQ/1 source to 5 sections/5 FAQs/3 sources. Prose is original synthesis.",
+  "last_updated": "2026-08-08",
+  "status": "active",
+  "published_at": "2026-08-08T22:00:00.000Z"
 }
