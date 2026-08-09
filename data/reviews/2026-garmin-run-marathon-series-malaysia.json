@@ -2,43 +2,61 @@
   "review_id": "2026-garmin-run-marathon-series-malaysia",
   "slug": "2026-garmin-run-marathon-series-malaysia",
   "entity_id": "2026-garmin-run-marathon-series-malaysia",
-  "title": "Garmin Run Marathon Series Malaysia 2026 Review: Putrajaya's Sold-Out Tech-Brand Race",
-  "seo_title": "Garmin Run Marathon Series Malaysia 2026 Review | Putrajaya",
-  "meta_description": "The 2026 Garmin Run Marathon Series Malaysia: November 1 at Putrajaya. 21K and 10K — now sold out. Garmin's Malaysian marathon-series entry reviewed.",
-  "dek": "Set for 1 November 2026 at Putrajaya, this Garmin-branded marathon series event offers 21K and 10K distances — and it's already sold out. A tech-brand Malaysian race at the country's most photogenic government precinct.",
-  "verdict": "The 2026 Garmin Run Marathon Series Malaysia is notable for what it says about demand: it's sold out. A Garmin-branded half marathon and 10K in Putrajaya — Malaysia's grand administrative capital with its pink mosque, wide ceremonial boulevards, and lakeside setting — this is part of Garmin's growing Asia run-series portfolio. SCORE Experience handles the production. If you didn't get in, watch for cancellations or target the 2027 edition. For those who did secure a spot: expect Garmin's signature tech touches (GPS-art finisher data, likely), premium race merchandise, and a well-produced event at one of Malaysia's most photogenic venues.",
+  "title": "Garmin Run Marathon Series Malaysia 2026 Review: Sold Out at Putrajaya",
+  "seo_title": "Garmin Run Malaysia 2026 Review | Putrajaya, Sold Out",
+  "meta_description": "Garmin Run Marathon Series Malaysia 2026 review: November 1 at Putrajaya -- already sold out, a strong demand signal for this GPS brand's race.",
+  "dek": "Set for 1 November 2026 in front of the Mahkamah Syariah in Putrajaya, this Garmin-brand race has already sold out -- the third Malaysian race in this research batch to reach capacity ahead of race day.",
+  "verdict": "The Garmin Run Marathon Series' Malaysia leg is already sold out -- a genuinely strong demand signal for a race in Putrajaya, Malaysia's purpose-built administrative capital, which also hosts HSN Putrajaya covered elsewhere in this research. Two distances (21K/10K) with clear MYR pricing (105-125) kept this a well-defined event before capacity filled. That it sold out alongside the Malioboro Run and Techcombank Hanoi Marathon (partially, via early bird pricing pressure) suggests genuine regional appetite for well-organised, brand-backed races this cycle.",
   "rating": {
-    "overall": 74,
+    "overall": 76,
     "breakdown": [
       {
-        "label": "Brand (Garmin)",
-        "score": 88
+        "label": "Demand signal (sold out)",
+        "score": 90
       },
       {
-        "label": "Putrajaya venue",
-        "score": 85
+        "label": "Brand appeal (Garmin)",
+        "score": 78
       },
       {
-        "label": "Demand (sold out)",
-        "score": 85
+        "label": "Venue (Putrajaya government district)",
+        "score": 76
       },
       {
-        "label": "Distance range",
-        "score": 55
+        "label": "Availability",
+        "score": 20
       }
     ]
   },
   "sections": [
     {
-      "heading": "Sold Out: A Sign of Demand",
+      "heading": "Already Sold Out",
       "paragraphs": [
-        "The fact that this race is already sold out — for a November 2026 date — speaks to Garmin's pull in the Malaysian running community. [1] Putrajaya's wide, flat boulevards and iconic architecture (Putra Mosque, Perdana Putra, the lakefront) provide a world-class running backdrop."
+        "Registration for the Garmin Run Marathon Series Malaysia is listed as sold out, well ahead of the 1 November 2026 race date. [1] For a race carrying Garmin's premium GPS-watch brand identity, that's a genuinely strong demand signal -- similar to the sold-out status seen at the Malioboro Run in Yogyakarta covered elsewhere in this research batch."
+      ]
+    },
+    {
+      "heading": "Starting in Putrajaya's Government District",
+      "paragraphs": [
+        "The race starts in front of the Mahkamah Syariah (Sharia Court) in WP Putrajaya, offering two distances: 21K and 10K, with pricing of MYR 105-125. [1] Putrajaya is Malaysia's purpose-built federal administrative capital -- the same city hosting HSN Putrajaya covered elsewhere in this research -- established when the government moved from Kuala Lumpur in 1999, giving this route wide, modern government-district boulevards. [2]"
+      ]
+    },
+    {
+      "heading": "A Familiar Garmin Race Formula",
+      "paragraphs": [
+        "As with the Indonesia, Philippine and Singapore legs of the Garmin brand's regional running series covered elsewhere in this research batch, expect device demos, data-driven pacing features, and a tech-savvy crowd. [1] The consistent sold-out pattern across some of these Garmin-branded events suggests the brand's race format resonates strongly with its existing customer base."
+      ]
+    },
+    {
+      "heading": "Technical Partnership With SCORE Experience",
+      "paragraphs": [
+        "Garmin Malaysia partners with SCORE Experience as technical organiser, a structure that typically pairs a brand's marketing reach with an experienced local event-production team. [1] That combination likely contributed to the race selling out."
       ]
     },
     {
       "heading": "Should You Run It?",
       "paragraphs": [
-        "It's sold out for 2026. Watch for cancellations or target the 2027 edition. 1 November 2026 at Putrajaya. [1]"
+        "If you missed registration, the sold-out status of the Garmin Run Marathon Series Malaysia is itself a strong endorsement of the race's appeal. Watch for waitlist openings, or plan to register early for future editions given this level of demand."
       ]
     }
   ],
@@ -46,23 +64,35 @@
   "sources": [
     {
       "n": 1,
-      "label": "Garmin Run Marathon Series Malaysia",
-      "publisher": "Garmin Malaysia / SCORE Experience",
-      "url": "https://raceroster.com",
+      "label": "2026 Garmin Run Marathon Series Malaysia — registration",
+      "publisher": "Race Roster",
+      "url": "https://raceroster.com/events/2026/129858/2026-garmin-run-marathon-series-malaysia",
       "type": "registration_platform"
+    },
+    {
+      "n": 2,
+      "label": "Putrajaya — Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Putrajaya",
+      "type": "other"
     }
   ],
   "faqs": [
     {
-      "question": "When is the Garmin Run Malaysia 2026?",
-      "answer": "1 November 2026 at Putrajaya, Malaysia. It offers 21K and 10K. Registration has closed. Garmin Malaysia (technical partner: SCORE Experience) organises the event. It's held at In front of Mahkamah Syariah WP Putrajaya. [1]"
+      "question": "Is registration still open for Garmin Run Malaysia 2026?",
+      "answer": "No -- it's listed as sold out ahead of the 1 November 2026 race date, a strong demand signal for this Garmin-branded event. It's organised by Garmin Malaysia with SCORE Experience as technical partner. [1]"
     },
     {
-      "question": "Is registration still open?",
-      "answer": "No — the event is sold out. It offers 21K and 10K. It's held at In front of Mahkamah Syariah WP Putrajaya. Garmin Malaysia (technical partner: SCORE Experience) organises the event. Registration has closed. [1]"
+      "question": "Where does the race start?",
+      "answer": "In front of the Mahkamah Syariah in WP Putrajaya, Malaysia's purpose-built administrative capital. Two distances were offered: 21K and 10K, priced MYR 105-125 before the race reached full capacity and sold out. [1][2]"
+    },
+    {
+      "question": "What makes Putrajaya a distinctive race location?",
+      "answer": "It's Malaysia's federal administrative capital, established in 1999 when government functions moved from Kuala Lumpur -- offering wide, modern government-district boulevards distinct from older, organically developed city streets, similar to the setting used for HSN Putrajaya elsewhere in this research. [2]"
     }
   ],
-  "editorial_notes": "Auto-generated review.",
-  "last_updated": "2026-08-04",
+  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "published_at": "2026-08-09T08:30:00.000Z",
+  "last_updated": "2026-08-09",
   "status": "active"
 }

@@ -2,43 +2,61 @@
   "review_id": "selangor-marathon-2026",
   "slug": "selangor-marathon-2026",
   "entity_id": "selangor-marathon-2026",
-  "title": "Selangor Marathon 2026 Review: Tourism Selangor's Full Marathon in Cyberjaya",
-  "seo_title": "Selangor Marathon 2026 Review | SELMAR Cyberjaya Malaysia",
-  "meta_description": "The Selangor Marathon 2026 (SELMAR): November 1 at Persiaran Flora, Cyberjaya. Full and half marathon from Tourism Selangor with registration open.",
-  "dek": "Set for 1 November 2026 at Persiaran Flora in Cyberjaya, this Tourism Selangor-organised marathon offers full and half distances with registration open. Malaysia's state-tourism-backed road race in the country's tech-city corridor.",
-  "verdict": "The Selangor Marathon (SELMAR 2026) is a Tourism Selangor-backed full marathon in Cyberjaya — Malaysia's purpose-built tech city with wide roads and modern infrastructure. Two distances (42K, 21K) with registration open. Cyberjaya's wide boulevards and minimal density make for a fast, traffic-free course, and the November date in Selangor catches the inter-monsoon period with reasonable running conditions. A solid, state-government-backed Malaysian marathon with open registration.",
+  "title": "Selangor Marathon 2026 (SELMAR) Review: A Tourism Board's Race in Malaysia's Tech Hub",
+  "seo_title": "Selangor Marathon 2026 (SELMAR) Review | Cyberjaya",
+  "meta_description": "Selangor Marathon 2026 review: November 1 at Persiaran Flora, Cyberjaya -- Tourism Selangor's marathon in Malaysia's Silicon Valley-styled tech city.",
+  "dek": "Set for 1 November 2026 at Persiaran Flora, this state tourism board-backed marathon runs through Cyberjaya, a planned technology city adjacent to Putrajaya, aspiring to be Malaysia's Silicon Valley.",
+  "verdict": "The Selangor Marathon (SELMAR) is organised directly by Tourism Selangor, giving it genuine state-level institutional backing rather than a purely commercial promoter -- a similar model to Bandar Lampung's railway-backed race, but here from a tourism authority rather than a transport utility. The route runs through Cyberjaya, Malaysia's purpose-built technology city established in 1997 as part of the Multimedia Super Corridor initiative, adjacent to and developed alongside Putrajaya. Two distances (42K/21K) keep it focused on serious distance runners rather than a broad family field.",
   "rating": {
-    "overall": 68,
+    "overall": 74,
     "breakdown": [
       {
-        "label": "Government backing",
-        "score": 78
-      },
-      {
-        "label": "Cyberjaya roads",
-        "score": 80
-      },
-      {
-        "label": "Registration",
+        "label": "Institutional backing (Tourism Selangor)",
         "score": 82
       },
       {
-        "label": "Information maturity",
-        "score": 30
+        "label": "Venue distinctiveness (planned tech city)",
+        "score": 78
+      },
+      {
+        "label": "Distance focus (marathon/half only)",
+        "score": 68
+      },
+      {
+        "label": "Independent reviews",
+        "score": 42
       }
     ]
   },
   "sections": [
     {
-      "heading": "Cyberjaya: Malaysia's Wide-Road Tech City",
+      "heading": "A State Tourism Board's Marathon",
       "paragraphs": [
-        "Cyberjaya's wide, well-maintained boulevards — designed for a planned tech city — provide an excellent marathon surface with minimal traffic. [1] Tourism Selangor's involvement gives the event state-government backing and institutional credibility. Persiaran Flora provides a central, accessible start/finish precinct."
+        "The Selangor Marathon (SELMAR 2026) is organised directly by Tourism Selangor, offering two distances: the 42.195K full marathon and 21.1K half marathon, starting at Persiaran Flora, Cyberjaya. [1] That state-tourism-authority organisational model gives the event genuine institutional backing, distinct from the sportswear, beverage, fintech and bank sponsors covered elsewhere in this research."
+      ]
+    },
+    {
+      "heading": "Cyberjaya: Malaysia's Aspiring Silicon Valley",
+      "paragraphs": [
+        "Cyberjaya is a planned city in Sepang District, Selangor, established on 17 May 1997 as part of Malaysia's Multimedia Super Corridor (MSC) initiative -- the country's first 'intelligent city,' designed to serve as its technology and innovation hub. [2] The name is a portmanteau of 'cyber' and 'Putrajaya,' reflecting its adjacency to and shared development history with Malaysia's administrative capital. With a 2020 population of just under 50,000 across 28.94 sq km, it hosts numerous multinational companies and data centres."
+      ]
+    },
+    {
+      "heading": "Marathon and Half Only",
+      "paragraphs": [
+        "Unlike most races in this research batch, which offer a broad spread from 5K to full marathon, SELMAR sticks to just two serious distances: the full 42K and the 21K half. [1] That focus signals a race aimed squarely at committed distance runners rather than casual or family participants."
+      ]
+    },
+    {
+      "heading": "Wide, Modern Roads for Racing",
+      "paragraphs": [
+        "As a purpose-built planned city adjacent to Putrajaya, Cyberjaya offers wide, modern boulevards well suited to marathon-distance racing -- similar in spirit to the purpose-built infrastructure seen at HSN Putrajaya and Garmin Run Malaysia's Putrajaya venue, both covered elsewhere in this research batch."
       ]
     },
     {
       "heading": "Should You Run It?",
       "paragraphs": [
-        "A state-government-backed Malaysian marathon with open registration. 1 November 2026 at Persiaran Flora, Cyberjaya, Selangor. [1]"
+        "If a state-backed marathon through Malaysia's purpose-built tech hub appeals -- especially if you want a focused full or half marathon distance without a crowded field of shorter fun-run categories -- the Selangor Marathon on 1 November 2026 is a solid, institutionally credible pick. Registration is currently open."
       ]
     }
   ],
@@ -46,23 +64,35 @@
   "sources": [
     {
       "n": 1,
-      "label": "Selangor Marathon — event listing",
-      "publisher": "Checkpoint Spot Asia",
+      "label": "Selangor Marathon 2026 (SELMAR) — event listing",
+      "publisher": "checkpointspot.asia",
       "url": "https://checkpointspot.asia/events",
-      "type": "registration_platform"
+      "type": "aggregator"
+    },
+    {
+      "n": 2,
+      "label": "Cyberjaya — Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cyberjaya",
+      "type": "other"
     }
   ],
   "faqs": [
     {
-      "question": "When is the Selangor Marathon 2026?",
-      "answer": "1 November 2026 at Persiaran Flora, Cyberjaya, Selangor, Malaysia. It offers 42.2K and 21.1K. Registration is currently open. Tourism Selangor (SELMAR 2026) organises the event. Mark it on your calendar if you're planning your racing year around it. [1]"
+      "question": "Who organises the Selangor Marathon?",
+      "answer": "Tourism Selangor, the state tourism board -- giving the race genuine institutional backing rather than a purely commercial promoter. It's held at Persiaran Flora, Cyberjaya, on 1 November 2026. [1]"
     },
     {
-      "question": "Is registration open?",
-      "answer": "Yes. It's held at Persiaran Flora, Cyberjaya, Selangor. It offers 42.2K and 21.1K. Tourism Selangor (SELMAR 2026) organises the event. Registration is currently open. Sign-up typically runs through the organiser's official registration channel. [1]"
+      "question": "What distances are offered?",
+      "answer": "Just two: the 42.195K full marathon and 21.1K half marathon -- a narrower focus than most races in this research batch, aimed at committed distance runners rather than a broad family field. Registration is currently open. [1]"
+    },
+    {
+      "question": "What is Cyberjaya?",
+      "answer": "Malaysia's purpose-built technology city, established in 1997 as part of the Multimedia Super Corridor initiative and aspiring to be the country's Silicon Valley. It's adjacent to Putrajaya, sharing development history and infrastructure with the administrative capital. [2]"
     }
   ],
-  "editorial_notes": "Auto-generated review.",
-  "last_updated": "2026-08-04",
+  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "published_at": "2026-08-09T08:30:00.000Z",
+  "last_updated": "2026-08-09",
   "status": "active"
 }

@@ -2,43 +2,61 @@
   "review_id": "minang-geopark-run-2026",
   "slug": "minang-geopark-run-2026",
   "entity_id": "minang-geopark-run-2026",
-  "title": "Minang Geopark Run 2026 Review: A Half Marathon at Bukittinggi's Jam Gadang",
-  "seo_title": "Minang Geopark Run 2026 Review | Bukittinggi Sumatra Indonesia",
-  "meta_description": "The Minang Geopark Run 2026: November 1 at Jam Gadang, Bukittinggi, West Sumatra. 21K, 10K, 5K from Geopark Run Series with registration open — a highland Sumatra race reviewed.",
-  "dek": "Set for 1 November 2026 at the iconic Jam Gadang clock tower in Bukittinggi, West Sumatra, this Geopark Run Series event offers three distances with registration open. A highland Minangkabau cultural heartland race.",
-  "verdict": "The Minang Geopark Run brings the Geopark Run Series — Indonesia's Ministry of Tourism-backed circuit — to Bukittinggi, the cultural heart of the Minangkabau highlands in West Sumatra. The race starts at Jam Gadang, the city's iconic clock tower, and routes through the Ngarai Sianok canyon area — one of Indonesia's most dramatic landscapes. Three distances (21K, 10K, 5K) with registration open. Bukittinggi's elevation (roughly 900m) means cool highland conditions, a world apart from Indonesia's coastal races. For runners wanting a scenic, culturally rich Indonesian half marathon with government backing and open registration, this is a standout pick.",
+  "title": "Minang Geopark Run 2026 Review: Racing Past Sumatra's Iconic Clock Tower",
+  "seo_title": "Minang Geopark Run 2026 Review | Bukittinggi, Sumatra",
+  "meta_description": "Minang Geopark Run 2026 review: November 1 near Jam Gadang and Ngarai Sianok canyon -- the second leg of the Geopark Run Series in West Sumatra.",
+  "dek": "Set for 1 November 2026 around Jam Gadang and the Ngarai Sianok canyon in Bukittinggi, this is the second leg of the Geopark Run Series, following the Ijen Geopark Run's debut earlier in the calendar.",
+  "verdict": "The Minang Geopark Run puts runners next to two of West Sumatra's most iconic landmarks: Jam Gadang, a 26-metre clock tower built in 1926 as a gift from Queen Wilhelmina, and Ngarai Sianok, a roughly 100-metre deep, 15-kilometre-long canyon home to rare rafflesia and medicinal plants. As the second leg of the Geopark Run Series (following the Ijen Geopark Run covered elsewhere in this research), it carries the series' established branding into a completely different, canyon-and-colonial-landmark landscape. Three distances (5K/10K/21.1K) with open registration make this an accessible pick for runners who want genuinely dramatic Sumatran scenery.",
   "rating": {
-    "overall": 76,
+    "overall": 79,
     "breakdown": [
       {
-        "label": "Scenery & setting",
+        "label": "Landmark scenery (Jam Gadang, Ngarai Sianok)",
         "score": 92
       },
       {
-        "label": "Cultural location",
-        "score": 88
+        "label": "Series continuity (2nd Geopark Run leg)",
+        "score": 76
       },
       {
-        "label": "Registration",
-        "score": 82
+        "label": "Distance accessibility",
+        "score": 74
       },
       {
-        "label": "Organiser (Govt-backed)",
-        "score": 78
+        "label": "Track record (young series)",
+        "score": 45
       }
     ]
   },
   "sections": [
     {
-      "heading": "Bukittinggi: The Minangkabau Highlands",
+      "heading": "The Series' Second Leg",
       "paragraphs": [
-        "Bukittinggi sits at roughly 900m in the Minangkabau highlands of West Sumatra, surrounded by volcanoes, rice terraces, and the Ngarai Sianok canyon. [1] The Jam Gadang clock tower — the race start — is one of Indonesia's most recognisable landmarks. The cool highland air makes November running conditions substantially more comfortable than coastal Indonesia."
+        "Minang Geopark Run offers 5K, 10K and 21.1K distances around the Jam Gadang / Ngarai Sianok area of Bukittinggi, West Sumatra. [1] It's the second leg of the Geopark Run Series, following the inaugural Ijen Geopark Run covered elsewhere in this research batch -- giving this event the benefit of a proven organisational template even though Bukittinggi's landscape is entirely different from Ijen's volcanic highlands."
+      ]
+    },
+    {
+      "heading": "Racing Past a Colonial-Era Clock Tower",
+      "paragraphs": [
+        "Jam Gadang -- Minangkabau for 'Big Clock' -- is a 26-metre clock tower and Bukittinggi's most recognisable landmark, built in 1926 during the Dutch colonial era as a gift from Queen Wilhelmina to the city's controleur. [2] Running past a structure this historically loaded gives the course genuine local character beyond a generic city-street race."
+      ]
+    },
+    {
+      "heading": "Alongside a Dramatic Canyon",
+      "paragraphs": [
+        "Ngarai Sianok is a steep valley roughly 100 metres deep and 15 kilometres long, running from south of Koto Gadang to Sianok Anam Suku village. [3] The canyon is home to rare rafflesia and medicinal plants along its edges, and can be navigated by canoe or kayak via the Batang Sianok river running through it -- a genuinely dramatic natural backdrop for a road race."
+      ]
+    },
+    {
+      "heading": "A Young Series With Real Ambition",
+      "paragraphs": [
+        "As only the second leg of a multi-year Geopark Run Series, there's limited independent track record yet, similar to the situation with the Ijen leg covered elsewhere in this research. [1] But the series' consistent branding and organisational approach across genuinely different Indonesian landscapes (volcanic highlands, then canyon country) suggests real ambition to establish a recognisable regional race brand."
       ]
     },
     {
       "heading": "Should You Run It?",
       "paragraphs": [
-        "A government-backed geopark half marathon in one of Indonesia's most beautiful highland settings. Registration open. 1 November 2026 at Jam Gadang, Bukittinggi. [1]"
+        "If you want a race through some of West Sumatra's most photogenic landmarks -- a colonial clock tower and a dramatic canyon -- the Minang Geopark Run on 1 November 2026 is a genuinely scenic pick. Registration is open now across all three distances."
       ]
     }
   ],
@@ -46,23 +64,42 @@
   "sources": [
     {
       "n": 1,
-      "label": "Minang Geopark Run — Geopark Run Series",
+      "label": "Geopark Run Series — official site",
       "publisher": "Geopark Run Series",
       "url": "https://geoparkrun.com",
       "type": "official"
+    },
+    {
+      "n": 2,
+      "label": "Jam Gadang — Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jam_Gadang",
+      "type": "other"
+    },
+    {
+      "n": 3,
+      "label": "Ngarai Sianok — Wikipedia bahasa Indonesia",
+      "publisher": "Wikipedia",
+      "url": "https://id.wikipedia.org/wiki/Ngarai_Sianok",
+      "type": "other"
     }
   ],
   "faqs": [
     {
-      "question": "When is the Minang Geopark Run 2026?",
-      "answer": "1 November 2026 at Jam Gadang, Bukittinggi, West Sumatra, Indonesia. It offers 5K, 10K, and 21.1K. Registration is currently open. Geopark Run Series organises the event. It's held at Jam Gadang / Ngarai Sianok area, Bukittinggi. [1]"
+      "question": "When and where is the Minang Geopark Run 2026?",
+      "answer": "1 November 2026, around the Jam Gadang / Ngarai Sianok area of Bukittinggi, West Sumatra. Three distances are offered: 5K, 10K and 21.1K. Registration is currently open through the official Geopark Run Series website. [1]"
     },
     {
-      "question": "Is registration open?",
-      "answer": "Yes, via geoparkrun.com. It offers 5K, 10K, and 21.1K. It's held at Jam Gadang / Ngarai Sianok area, Bukittinggi. Geopark Run Series organises the event. Registration is currently open. [1]"
+      "question": "What is Jam Gadang?",
+      "answer": "A 26-metre clock tower and Bukittinggi's most iconic landmark, built in 1926 during the Dutch colonial era as a gift from Queen Wilhelmina. The race route passes near this and the Ngarai Sianok canyon. [2]"
+    },
+    {
+      "question": "Is this related to the Ijen Geopark Run?",
+      "answer": "Yes -- Minang Geopark Run is the second leg of the same Geopark Run Series that launched with the Ijen Geopark Run, carrying the series' branding into a completely different Sumatran canyon landscape. [1]"
     }
   ],
-  "editorial_notes": "Auto-generated review.",
-  "last_updated": "2026-08-04",
+  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "published_at": "2026-08-09T08:30:00.000Z",
+  "last_updated": "2026-08-09",
   "status": "active"
 }
