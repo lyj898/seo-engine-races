@@ -2,43 +2,61 @@
   "review_id": "victoria-run-2026",
   "slug": "victoria-run-2026",
   "entity_id": "victoria-run-2026",
-  "title": "Victoria Run 2026 Review: A GBK Senayan Half Marathon in Jakarta",
-  "seo_title": "Victoria Run 2026 Review | GBK Senayan Jakarta Indonesia",
-  "meta_description": "Victoria Run 2026: October 11 at GBK Senayan, Jakarta. 21K, 10K, 5K — a central-Jakarta half marathon at Indonesia's premier sports complex.",
-  "dek": "Set for 11 October 2026 at GBK Senayan in Jakarta — Indonesia's premier sports complex — this half marathon offers three distances. Registration isn't open yet. A central-Jakarta race at the country's most iconic sporting venue.",
-  "verdict": "Victoria Run 2026 is anchored at GBK (Gelora Bung Karno) Senayan — Indonesia's national sports complex and the heart of Jakarta's running community. Three distances (21K, 10K, 5K) in the precinct that hosts Indonesia's largest stadium and the city's most popular running loop. The GBK location gives the race a built-in running-community audience and excellent transport links. Registration isn't open yet, but for Jakarta-based runners, a GBK-anchored half marathon is one of the most convenient and community-connected race experiences in the capital.",
+  "title": "Victoria Run 2026 Review: Racing Through Indonesia's Largest Sports Complex",
+  "seo_title": "Victoria Run 2026 Review | GBK Senayan, Jakarta",
+  "meta_description": "Victoria Run 2026 review: October 11 at GBK Senayan -- a race through Indonesia's largest sports complex, home to an 88,000-seat national stadium.",
+  "dek": "Set for 11 October 2026 at Gelora Bung Karno (GBK) Senayan, this race runs through the largest sports complex in Indonesia, built around a stadium named for the country's first president.",
+  "verdict": "Victoria Run's real draw is its venue: Gelora Bung Karno Sports Complex, the largest sports complex in Indonesia, spanning 279 hectares in Central Jakarta and named after Sukarno, the country's first president. The complex's Main Stadium seats over 88,000, and the grounds include an indoor arena, an aquatic stadium, and a secondary stadium -- genuinely purpose-built athletic infrastructure rather than a repurposed mall or civic plaza. Three distances (21.1K/10K/5K) keep the format standard, though registration status wasn't yet announced at the time of this research.",
   "rating": {
-    "overall": 65,
+    "overall": 75,
     "breakdown": [
       {
-        "label": "Venue (GBK)",
-        "score": 88
+        "label": "Venue significance (Indonesia's largest sports complex)",
+        "score": 90
       },
       {
-        "label": "Jakarta access",
-        "score": 82
+        "label": "Purpose-built athletic infrastructure",
+        "score": 84
       },
       {
         "label": "Distance range",
-        "score": 70
+        "score": 72
       },
       {
-        "label": "Registration",
-        "score": 35
+        "label": "Registration clarity",
+        "score": 32
       }
     ]
   },
   "sections": [
     {
-      "heading": "GBK: Jakarta's Running Heart",
+      "heading": "Racing Through Indonesia's Largest Sports Complex",
       "paragraphs": [
-        "Gelora Bung Karno is Indonesia's premier sports complex — home to the national stadium, multiple running tracks, and the weekend running community that congregates at GBK's car-free mornings. [1] A half marathon anchored here taps into Jakarta's most concentrated running audience. October is the tail of the dry season in Jakarta."
+        "Victoria Run starts at GBK Senayan, offering 21.1K, 10K and 5K distances. [1] Gelora Bung Karno, built over 279 hectares in Gelora, Central Jakarta, is the largest sports complex in Indonesia -- formerly known as the Asian Games Complex and later the Senayan Sports Complex until 2001. [2] That scale and purpose-built athletic design make it a genuinely fitting venue for a road race, distinct from the malls and civic plazas hosting most other events in this research batch."
+      ]
+    },
+    {
+      "heading": "Named for Indonesia's First President",
+      "paragraphs": [
+        "The complex's centrepiece, the Gelora Bung Karno Main Stadium, is named after Sukarno and seats over 88,083 spectators, primarily used for football matches. [2] Beyond the main stadium, the complex includes Istora Gelora Bung Karno (an indoor arena seating 7,166), the Aquatic Stadium, and the Madya Stadium (9,170 seats) -- a genuinely comprehensive sports campus."
+      ]
+    },
+    {
+      "heading": "A Historically Significant Venue",
+      "paragraphs": [
+        "GBK's history as the site of the 1962 Asian Games gives it national symbolic weight beyond its scale alone -- it's one of Jakarta's most recognisable landmarks, regularly hosting major sporting and cultural events. [2] Running through grounds this historically significant is a genuinely different experience from a typical mall-anchored community race."
+      ]
+    },
+    {
+      "heading": "Registration Not Yet Announced",
+      "paragraphs": [
+        "As of this writing, registration status has not been announced. [1] Given the venue's central Jakarta location and national profile, this is worth watching closely for the official sign-up announcement."
       ]
     },
     {
       "heading": "Should You Run It?",
       "paragraphs": [
-        "A GBK-anchored Jakarta half marathon at the city's running epicentre. Track for registration. 11 October 2026. [1]"
+        "If running through Indonesia's largest and most historically significant sports complex appeals, Victoria Run on 11 October 2026 offers a genuinely fitting venue for a race -- purpose-built athletic infrastructure at national scale. Registration hasn't opened yet, so watch official channels for updates."
       ]
     }
   ],
@@ -46,19 +64,35 @@
   "sources": [
     {
       "n": 1,
-      "label": "Victoria Run — official website",
-      "publisher": "Victoria Run",
+      "label": "Victoria Run 2026 — official site",
+      "publisher": "victoriarun.id",
       "url": "https://www.victoriarun.id",
       "type": "official"
+    },
+    {
+      "n": 2,
+      "label": "Gelora Bung Karno Sports Complex — Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gelora_Bung_Karno_Sports_Complex",
+      "type": "other"
     }
   ],
   "faqs": [
     {
-      "question": "When is Victoria Run 2026?",
-      "answer": "11 October 2026 at GBK Senayan, Jakarta. It offers 21.1K, 10K, and 5K. Mark it on your calendar if you're planning your racing year around it. The date comes from the organiser's official listing. [1]"
+      "question": "When and where is Victoria Run 2026?",
+      "answer": "11 October 2026 at Gelora Bung Karno (GBK) Senayan in Central Jakarta -- the largest sports complex in Indonesia, spanning 279 hectares. Three distances are offered: 21.1K, 10K and 5K. [1]"
+    },
+    {
+      "question": "What makes GBK a significant race venue?",
+      "answer": "It's named after Sukarno, Indonesia's first president, and its Main Stadium seats over 88,000. The complex also includes an indoor arena, aquatic stadium, and secondary stadium -- purpose-built athletic infrastructure at national scale. [2]"
+    },
+    {
+      "question": "Is registration open?",
+      "answer": "Not yet announced as of this writing. Given the venue's central Jakarta location and national profile, watch the official Victoria Run site closely for the sign-up announcement before planning travel around the 11 October 2026 race date. [1]"
     }
   ],
-  "editorial_notes": "Auto-generated review.",
-  "last_updated": "2026-08-04",
+  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "published_at": "2026-08-09T08:00:00.000Z",
+  "last_updated": "2026-08-09",
   "status": "active"
 }
