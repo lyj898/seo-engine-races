@@ -2,43 +2,61 @@
   "review_id": "hsn-putrajaya-2026",
   "slug": "hsn-putrajaya-2026",
   "entity_id": "hsn-putrajaya-2026",
-  "title": "HSN Putrajaya 2026 Review: Malaysia's National Sports Day Race with a 30K Option",
-  "seo_title": "HSN Putrajaya 2026 Review | Hari Sukan Negara Malaysia Race",
-  "meta_description": "HSN Putrajaya 2026: October 10 at Dataran Putrajaya. 21K, 30K, 10K, 5K, 3K for Hari Sukan Negara with registration open — Malaysia's National Sports Day race reviewed.",
-  "dek": "Set for 10 October 2026 at Dataran Putrajaya, this Hari Sukan Negara (National Sports Day) race offers five distances including an unusual 30K option. Registration open. A government-backed Malaysian event at the country's most photogenic venue.",
-  "verdict": "HSN Putrajaya is Malaysia's Hari Sukan Negara (National Sports Day) signature event, held at Dataran Putrajaya — the country's grand administrative square with the pink Putra Mosque as backdrop. Five distances including an unusual 30K option (between the half and full marathon) make the distance spread genuinely distinctive. Organised by a consortium of government and community bodies (POWP, JBSWPKL, KPM), registration is open. For runners wanting a national-level Malaysian race at a world-class venue with unique distance options, this is a strong pick.",
+  "title": "HSN Putrajaya 2026 Review: Racing Through Malaysia's Planned Federal Capital",
+  "seo_title": "HSN Putrajaya 2026 Review | Malaysia Administrative City",
+  "meta_description": "HSN Putrajaya 2026 review: October 10 at Dataran Putrajaya -- five distances through Malaysia's purpose-built federal administrative capital.",
+  "dek": "Set for 10 October 2026 at Dataran Putrajaya, this race runs through Malaysia's planned federal administrative capital, purpose-built since 1999 and envisioned as a 'laboratory' for electronic government.",
+  "verdict": "HSN Putrajaya runs through one of the world's more unusual race settings: Putrajaya, Malaysia's purpose-built administrative capital, established in 1999 when the federal government moved from an overcrowded Kuala Lumpur. Five distances -- including an unusual 30K alongside the standard 21K/10K/5K/3K spread -- give this genuinely varied options. The city's planned-community design means wide, modern boulevards and landscaped grounds (including the Putrajaya Botanical Garden and Wetlands Park) purpose-built with infrastructure in mind, distinct from the older, organically grown cities hosting most other races in this research batch.",
   "rating": {
-    "overall": 68,
+    "overall": 72,
     "breakdown": [
       {
-        "label": "Venue (Putrajaya)",
-        "score": 88
+        "label": "Course novelty (purpose-built capital)",
+        "score": 84
       },
       {
-        "label": "National event status",
-        "score": 78
+        "label": "Distance range (incl. unusual 30K)",
+        "score": 76
       },
       {
-        "label": "30K distance option",
-        "score": 80
+        "label": "Organiser backing (multi-body co-organisers)",
+        "score": 70
       },
       {
-        "label": "Registration",
-        "score": 82
+        "label": "Independent reviews",
+        "score": 42
       }
     ]
   },
   "sections": [
     {
-      "heading": "Hari Sukan Negara at Putrajaya",
+      "heading": "Racing Through a Purpose-Built Capital",
       "paragraphs": [
-        "Malaysia's National Sports Day is a country-wide celebration, and the HSN Putrajaya race is the marquee running event. [1] Dataran Putrajaya — with the Putra Mosque, the Prime Minister's Office, and Putrajaya Lake — provides a world-class start/finish backdrop. The 30K distance is a distinctive stepping-stone option for runners building toward a full marathon."
+        "The race starts at Dataran Putrajaya, offering five distances: 21K, 30K, 10K, 5K and 3K. [1] Putrajaya is the administrative centre of Malaysia -- the federal government moved there from Kuala Lumpur in 1999 due to overcrowding and congestion, with the judiciary following in 2003. [2] Kuala Lumpur remains Malaysia's constitutional capital and commercial centre, but Putrajaya is where the actual government machinery operates, giving this race a course through wide, purpose-designed administrative boulevards rather than organic old-city streets."
+      ]
+    },
+    {
+      "heading": "An 'Electronic Government Laboratory' by Design",
+      "paragraphs": [
+        "Putrajaya's establishment was the idea of then-Prime Minister Mahathir Mohamad and Kuala Lumpur mayor Elyas Omar, first conceived in the 1990s and envisioned as 'a laboratory for a new form of electronic government' emphasizing internet and digital communications investment. [2] That planned-city origin gives the whole area a genuinely distinct, modern master-planned character -- landscaped grounds, purpose-built infrastructure -- compared to the organically developed cities hosting most other races in this research batch."
+      ]
+    },
+    {
+      "heading": "An Unusual 30K Distance",
+      "paragraphs": [
+        "Alongside the standard 21K/10K/5K/3K spread, this race includes an uncommon 30K category. [1] That's a genuinely unusual distance choice among the races in this research batch, most of which stick to the standard 5K/10K/21K/42K increments -- worth noting for runners specifically seeking that in-between distance."
+      ]
+    },
+    {
+      "heading": "Multiple Co-Organisers",
+      "paragraphs": [
+        "The event is organised jointly by POWP, JBSWPKL and KPM -- a multi-body structure similar to the co-organised model seen at the Merdeka Half Marathon and Pahang Marathon covered elsewhere in this research batch. [1] That kind of institutional co-sponsorship typically signals genuine local government and community-running-group backing rather than a purely commercial operation."
       ]
     },
     {
       "heading": "Should You Run It?",
       "paragraphs": [
-        "A National Sports Day race at Putrajaya with a unique 30K option and open registration. 10 October 2026. [1]"
+        "If you want a genuinely distinctive race through a purpose-built administrative city, with an uncommon 30K distance option, HSN Putrajaya on 10 October 2026 offers something different from the region's more typical race destinations. Registration is currently open across all five distance categories."
       ]
     }
   ],
@@ -46,19 +64,35 @@
   "sources": [
     {
       "n": 1,
-      "label": "HSN Putrajaya — event registration",
-      "publisher": "Checkpoint Spot Asia",
+      "label": "HSN Putrajaya 2026 — event listing",
+      "publisher": "checkpointspot.asia",
       "url": "https://checkpointspot.asia/event/hsn-putrajaya-2026",
-      "type": "registration_platform"
+      "type": "aggregator"
+    },
+    {
+      "n": 2,
+      "label": "Putrajaya — Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Putrajaya",
+      "type": "other"
     }
   ],
   "faqs": [
     {
-      "question": "When is HSN Putrajaya 2026?",
-      "answer": "10 October 2026 at Dataran Putrajaya, Malaysia. It offers 21K, 30K, 10K, 5K, and 3K. Registration is currently open. POWP x JBSWPKL x KPM organises the event. It's held at Dataran Putrajaya, Putrajaya. [1]"
+      "question": "When and where is HSN Putrajaya 2026?",
+      "answer": "10 October 2026, starting at Dataran Putrajaya, Malaysia's purpose-built federal administrative capital. Five distances are offered, including an unusual 30K alongside the standard 21K, 10K, 5K and 3K categories. Registration is currently open. [1]"
+    },
+    {
+      "question": "What makes Putrajaya distinctive as a race city?",
+      "answer": "It's Malaysia's purpose-built administrative capital, established when the federal government moved from Kuala Lumpur in 1999. It was envisioned as a 'laboratory for electronic government,' giving it wide, modern, planned-community infrastructure rather than organic old-city streets. [2]"
+    },
+    {
+      "question": "Who organises this race?",
+      "answer": "A multi-body structure -- POWP, JBSWPKL and KPM co-organise the event, similar to the co-organised model used for the Merdeka Half Marathon and Pahang Marathon covered elsewhere in this research, typically signalling local government and community-running-group backing. [1]"
     }
   ],
-  "editorial_notes": "Auto-generated review.",
-  "last_updated": "2026-08-04",
+  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "published_at": "2026-08-09T07:45:00.000Z",
+  "last_updated": "2026-08-09",
   "status": "active"
 }

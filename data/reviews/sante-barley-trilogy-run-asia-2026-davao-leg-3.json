@@ -2,43 +2,61 @@
   "review_id": "sante-barley-trilogy-run-asia-2026-davao-leg-3",
   "slug": "sante-barley-trilogy-run-asia-2026-davao-leg-3",
   "entity_id": "sante-barley-trilogy-run-asia-2026-davao-leg-3",
-  "title": "Sante Barley Trilogy Run Davao Leg 3 Review: A Unique 32K Distance in Mindanao",
-  "seo_title": "Sante Barley Run Davao Leg 3 2026 Review | Philippines Race",
-  "meta_description": "Sante Barley Trilogy Run Asia 2026 Davao Leg 3: September 27 at Azuela Cove. 32K, 21K, 10K, 5K from Runrio — featuring one of the rarest distances in Philippine racing.",
-  "dek": "Set for 27 September 2026 at Azuela Cove in Davao City, this Runrio-produced Sante Barley series leg features a rare 32K distance alongside the standard 21K, 10K, and 5K.",
-  "verdict": "The Sante Barley Trilogy Run Davao Leg 3 is notable for one thing above all: a 32K distance — roughly three-quarters of a marathon — that almost no other Philippine race offers. Produced by Runrio at Azuela Cove, Davao's premier waterfront development, the event also offers standard 21K, 10K, and 5K distances. The 32K is a genuine stepping-stone for marathon aspirants and a distinctive challenge for experienced runners. Registration isn't open yet, but for the 32K alone, this is worth tracking.",
+  "title": "Sante Barley Trilogy Run Asia 2026 Davao Leg 3 Review: Racing at Azuela Cove",
+  "seo_title": "Trilogy Run Asia Davao Leg 3 2026 Review | Philippines",
+  "meta_description": "Sante Barley Trilogy Run Asia 2026 Davao Leg 3 review: September 27 at Azuela Cove -- the Davao finale with the signature 32K distance.",
+  "dek": "Set for 27 September 2026 at Azuela Cove, this is the culminating third leg of the Davao series within Sante Barley Trilogy Run Asia, held at one of the city's newest waterfront developments.",
+  "verdict": "Davao Leg 3 closes out the local Trilogy Run Asia progression at Azuela Cove -- a 25-hectare mixed-use waterfront development by Ayala Land and The Alcantara Group, launched in 2017 and facing Samal Island across Davao Gulf. That's a genuinely modern, purpose-built venue with a seaside promenade and walkable high street, distinct from the mall-anchored venues used at most other legs in this series. Distances run 5K/10K/21K up to the signature 32K, following the same progressive structure seen at the Iloilo, Manila, Cebu and CDO legs. Registration status wasn't yet announced at the time of this research.",
   "rating": {
-    "overall": 70,
+    "overall": 68,
     "breakdown": [
       {
-        "label": "32K distance option",
-        "score": 90
+        "label": "Venue distinctiveness (Azuela Cove waterfront)",
+        "score": 82
       },
       {
-        "label": "Organiser (Runrio)",
-        "score": 88
+        "label": "Series structure & progression",
+        "score": 76
       },
       {
-        "label": "Davao destination",
+        "label": "Organiser track record (RunRio)",
         "score": 72
       },
       {
-        "label": "Registration",
-        "score": 35
+        "label": "Registration clarity",
+        "score": 32
       }
     ]
   },
   "sections": [
     {
-      "heading": "The 32K: A Rare Stepping Stone",
+      "heading": "The Davao Finale at a Waterfront Development",
       "paragraphs": [
-        "The 32K distance sits in the gap between the half marathon and the full — a distance that tests marathon-readiness without the full 42K commitment. [1] Azuela Cove is Davao's premier waterfront estate, providing a scenic, flat course with views over the Davao Gulf. Runrio's production ensures professional standards."
+        "Davao Leg 3 offers 5K, 10K, 21K and the series' signature 32K distance, held at Azuela Cove, Davao City. [1] Like the Iloilo, Manila, Cebu and CDO legs covered elsewhere in this research, the Trilogy series builds progressively across the calendar year, with completion of earlier legs' shorter distances feeding toward a 42K National Finals qualification."
+      ]
+    },
+    {
+      "heading": "Azuela Cove: A Newer Waterfront District",
+      "paragraphs": [
+        "Azuela Cove is a 25-hectare mixed-use, master-planned development by Ayala Land and The Alcantara Group at the intersection of J.P. Laurel Avenue and R. Castillo Street, facing Samal Island and Davao Gulf. [2] Launched in 2017, it's become one of Davao's most dynamic waterfront communities, with 40% of the estate dedicated to green space, a Central Park connecting to a seaside Esplanade, and Azuela High Street -- a walkable dining and shopping strip. That gives Leg 3 a genuinely scenic, modern venue distinct from the mall-anchored starts used elsewhere in this series."
+      ]
+    },
+    {
+      "heading": "Same City, Different Series",
+      "paragraphs": [
+        "Davao also hosts the Singlife Davao Marathon (covered elsewhere on this site) at SM City Lanang -- a separate RunRio-adjacent event using a different, mall-anchored venue. [1] Worth noting the distinction if you're researching Davao races generally: this Trilogy leg and the Singlife marathon are not the same event, despite both being in Davao City."
+      ]
+    },
+    {
+      "heading": "Registration Not Yet Announced",
+      "paragraphs": [
+        "As of this writing, registration status for Davao Leg 3 has not been announced. [1] Consistent with several other newer legs in this 2026 series researched in this batch, it's worth checking RunRio's official race calendar directly for updates rather than assuming an open registration window."
       ]
     },
     {
       "heading": "Should You Run It?",
       "paragraphs": [
-        "A rare 32K distance from Runrio in Davao. Track for registration. 27 September 2026 at Azuela Cove. [1]"
+        "If you want a scenic, waterfront-venue race as part of the Trilogy series' progression toward National Finals qualification, Davao Leg 3 on 27 September 2026 is an appealing pick -- Azuela Cove is a genuinely more distinctive setting than the mall-anchored venues used at several other legs. Watch official channels for registration details, since they weren't yet confirmed at the time of this research."
       ]
     }
   ],
@@ -46,19 +64,35 @@
   "sources": [
     {
       "n": 1,
-      "label": "Sante Barley Trilogy Run — Runrio",
-      "publisher": "Runrio",
-      "url": "https://runrio.com",
+      "label": "RunRio — Sante Barley Trilogy Run Asia race calendar",
+      "publisher": "RunRio",
+      "url": "https://runrio.com/race-calendar",
+      "type": "official"
+    },
+    {
+      "n": 2,
+      "label": "Azuela Cove — official development site",
+      "publisher": "Ayala Land",
+      "url": "https://www.azuelacove.ph/about-us/",
       "type": "official"
     }
   ],
   "faqs": [
     {
-      "question": "When is the Sante Barley Run Davao 2026?",
-      "answer": "27 September 2026 at Azuela Cove, Davao City. Features a rare 32K distance. It offers 32K, 21K, 10K, and 5K. Registration is listed as not yet announced. Runrio (brand: Sante Barley Trilogy Run Asia) organises the event. [1]"
+      "question": "When and where is Sante Barley Trilogy Run Asia Davao Leg 3?",
+      "answer": "27 September 2026 at Azuela Cove, Davao City -- a 25-hectare waterfront development facing Samal Island. It's the culminating third leg of the local series, offering 5K, 10K, 21K and the signature 32K distance. [1][2]"
+    },
+    {
+      "question": "What is Azuela Cove?",
+      "answer": "A mixed-use, master-planned waterfront development by Ayala Land and The Alcantara Group, launched in 2017 at the intersection of J.P. Laurel Avenue and R. Castillo Street. It includes a seaside promenade, Central Park, and a walkable high street district. [2]"
+    },
+    {
+      "question": "Is registration open?",
+      "answer": "Not yet confirmed as of this writing -- registration status for Davao Leg 3 specifically had not been announced at the time of research. Check RunRio's official race calendar for updates before planning travel. [1]"
     }
   ],
-  "editorial_notes": "Auto-generated review.",
-  "last_updated": "2026-08-04",
+  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "published_at": "2026-08-09T07:45:00.000Z",
+  "last_updated": "2026-08-09",
   "status": "active"
 }

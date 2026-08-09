@@ -2,43 +2,61 @@
   "review_id": "national-milo-marathon-2026-bacolod-leg",
   "slug": "national-milo-marathon-2026-bacolod-leg",
   "entity_id": "national-milo-marathon-2026-bacolod-leg",
-  "title": "MILO Marathon Bacolod Leg 2026 Review: The City of Smiles Qualifier",
-  "seo_title": "MILO Marathon Bacolod Leg 2026 Review | Philippines Race",
-  "meta_description": "National MILO Marathon 2026 Bacolod Leg: October 4. RUNRIO's premier series qualifier in the City of Smiles.",
-  "dek": "Set for 4 October 2026 in Bacolod City, this RUNRIO-produced MILO Marathon qualifying leg brings the Philippines' premier running series to the 'City of Smiles.'",
-  "verdict": "The MILO Marathon Bacolod Leg is a RUNRIO-produced qualifying round of the Philippines' premier running series in Bacolod City — the capital of Negros Occidental, known for its MassKara Festival, its chicken inasal, and its gentle, smiling culture. Five distances from 1K to 21K make it accessible across ages. RUNRIO's production ensures professional standards. October in Bacolod is the transition into the northeast monsoon. A solid MILO series qualifier in one of the country's most charming cities.",
+  "title": "MILO Marathon 2026 Bacolod Leg Review: Racing in the Visayas' Second City",
+  "seo_title": "MILO Marathon Bacolod Leg 2026 Review | Negros Occ.",
+  "meta_description": "MILO Marathon 2026 Bacolod Leg review: October 4 -- part of the 50th-anniversary Golden Run series in the Visayas' second most populous city.",
+  "dek": "Set for 4 October 2026, this Bacolod leg is one of 15 stops on the MILO Marathon's 50th-anniversary Golden Run series, held in Negros Occidental's capital -- the second most populous city in the entire Visayas after Cebu City.",
+  "verdict": "The Bacolod leg brings the MILO Marathon's Golden Run series to a genuinely major regional city -- capital of Negros Occidental, and with over 600,000 residents, the second most populous city in the entire Visayas after Cebu City. That scale gives Bacolod real capacity to host a large-field regional leg, even without the extreme historical turnout numbers seen at Cebu specifically. Five distances from 1K to 21K keep it broadly accessible, and the leg carries the same 50th-anniversary institutional weight as every other 2026 stop in the series. Registration status wasn't yet confirmed open at the time of this research.",
   "rating": {
-    "overall": 68,
+    "overall": 71,
     "breakdown": [
       {
-        "label": "Organiser (RUNRIO)",
-        "score": 92
+        "label": "City scale (2nd-largest Visayas city)",
+        "score": 84
       },
       {
-        "label": "Bacolod destination",
-        "score": 78
-      },
-      {
-        "label": "Series (MILO)",
+        "label": "Series heritage (50th-anniversary)",
         "score": 85
       },
       {
-        "label": "Registration",
-        "score": 35
+        "label": "Distance accessibility",
+        "score": 76
+      },
+      {
+        "label": "Registration clarity",
+        "score": 40
       }
     ]
   },
   "sections": [
     {
-      "heading": "MILO Series in Bacolod",
+      "heading": "One of 15 Legs in the Golden Run",
       "paragraphs": [
-        "The MILO Marathon is the Philippines' most significant running circuit. [1] Bacolod — the 'City of Smiles' — is known for its MassKara Festival and culinary scene. RUNRIO's gold-standard production ensures professional race-day operations."
+        "The Bacolod leg offers 1K, 3K, 5K, 10K and 21.1K distances, part of the MILO Marathon's 50th-anniversary 'Golden Run' series -- 15 regional legs nationwide ahead of the National Finals in Clark City, Pampanga. [1] That anniversary framing gives every 2026 leg, including Bacolod's, more institutional significance than a routine annual stop."
+      ]
+    },
+    {
+      "heading": "Bacolod: The Visayas' Second City",
+      "paragraphs": [
+        "Bacolod is a highly urbanized city and the capital of Negros Occidental, with 600,783 residents as of the 2020 census -- the most populous city in the Negros Island Region and the second most populous city in the entire Visayas after Cebu City. [2] Covering roughly 160.71 square kilometres, it's a genuinely major regional hub, giving this leg real capacity for a large field without the logistics squeeze of a small provincial town."
+      ]
+    },
+    {
+      "heading": "Comparable Scale to Other Major Legs",
+      "paragraphs": [
+        "Bacolod's population puts it in a similar tier to Dumaguete and other regional capitals covered elsewhere in this research batch, though with meaningfully more residents than most -- a genuine mid-sized city with established infrastructure (SM City Bacolod, Bacolod City College, and other landmarks) to support race-day logistics. [2]"
+      ]
+    },
+    {
+      "heading": "Registration Not Yet Confirmed",
+      "paragraphs": [
+        "As of this writing, registration status for the Bacolod leg has not been confirmed open. [1] Given the city's scale, demand could be significant once registration opens -- worth checking the official MILO site directly rather than waiting for a general announcement."
       ]
     },
     {
       "heading": "Should You Run It?",
       "paragraphs": [
-        "A RUNRIO MILO qualifier in Bacolod. 4 October 2026. [1]"
+        "If a MILO Marathon leg in a genuinely major regional city -- with the infrastructure and scale to match -- appeals, the Bacolod leg on 4 October 2026 is a strong pick within the 50th-anniversary Golden Run series. Confirm registration status with organisers before booking travel, since it wasn't yet open at the time of this research."
       ]
     }
   ],
@@ -47,18 +65,34 @@
     {
       "n": 1,
       "label": "National MILO Marathon — official site",
-      "publisher": "MILO / RUNRIO",
-      "url": "https://www.milo.com.ph",
+      "publisher": "MILO Philippines",
+      "url": "https://www.milo.com.ph/national-milo-marathon",
       "type": "official"
+    },
+    {
+      "n": 2,
+      "label": "Bacolod — Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bacolod%20City?redirect=no",
+      "type": "other"
     }
   ],
   "faqs": [
     {
-      "question": "When is MILO Marathon Bacolod 2026?",
-      "answer": "4 October 2026 in Bacolod City, Philippines. It offers 1K, 3K, 5K, 10K, and 21.1K. Registration is listed as not yet confirmed open. RUNRIO Inc. (MILO Marathon) organises the event. [1]"
+      "question": "When is the MILO Marathon 2026 Bacolod Leg?",
+      "answer": "4 October 2026, offering five distances: 1K, 3K, 5K, 10K and 21.1K. It's one of 15 legs in the MILO Marathon's 50th-anniversary Golden Run series, ahead of the National Finals in Clark City, Pampanga. [1]"
+    },
+    {
+      "question": "How big is Bacolod as a race destination?",
+      "answer": "Substantial -- with 600,783 residents as of the 2020 census, Bacolod is the second most populous city in the entire Visayas after Cebu City, and capital of Negros Occidental. That gives this leg real capacity for a large field. [2]"
+    },
+    {
+      "question": "Is registration open?",
+      "answer": "Not yet confirmed as of this writing. Prospective participants should check the official MILO Marathon site directly for updates before booking travel around the 4 October 2026 race date. [1]"
     }
   ],
-  "editorial_notes": "Auto-generated review.",
+  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "published_at": "2026-08-09T07:45:00.000Z",
   "last_updated": "2026-08-09",
   "status": "active"
 }
