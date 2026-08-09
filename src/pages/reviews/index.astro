@@ -1,7 +1,15 @@
 ---
 import siteConfig from '../../lib/config.js';
 import { urls } from '../../lib/urls.js';
-import { loadReviews, loadEntities, loadRegions, stripMeta, isPublished, isReviewableEntity } from '../../lib/data.js';
+import {
+  loadReviews,
+  loadEntities,
+  loadRegions,
+  stripMeta,
+  isPublished,
+  isReviewableEntity,
+  buildRegionAncestryMap,
+} from '../../lib/data.js';
 import { isLapsed } from '../../lib/succession.js';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
@@ -29,14 +37,23 @@ const fmtDate = (r) => {
     : null;
 };
 
-// Build country filter: only granularity=country regions that have at least one review
+// Country filter. An entity's region_id can be a sub-region (e.g. "Nong
+// Khai" under "Thailand"), so walk each entity's ancestry chain to find its
+// country-granularity ancestor rather than assuming region_id already is
+// one -- otherwise a sub-region entity would show a chip for its country
+// (via the ancestry match below) that its own data-country attribute could
+// never actually match, silently hiding it under every filter.
 const regions = loadRegions().map(stripMeta);
+const regionById = new Map(regions.map((r) => [r.region_id, r]));
+const ancestryMap = buildRegionAncestryMap(regions);
+const countryIdForEntity = (entity) => {
+  const chain = ancestryMap.get(entity.region_id) ?? [entity.region_id];
+  return chain.find((id) => regionById.get(id)?.granularity === 'country') ?? null;
+};
+
 const countryRegions = regions
   .filter((r) => r.granularity === 'country')
-  .filter((r) => reviews.some((rv) => {
-    const e = entityById.get(rv.entity_id);
-    return e && (e.region_id === r.region_id || (e.core_facts && e.core_facts.country && r.label && e.core_facts.country.includes(r.label)));
-  }))
+  .filter((r) => reviews.some((rv) => countryIdForEntity(entityById.get(rv.entity_id)) === r.region_id))
   .sort((a, b) => a.label.localeCompare(b.label))
   .map((r) => ({ label: r.label, value: r.region_id }));
 
@@ -139,7 +156,7 @@ const jsonLd = [buildBreadcrumbListSchema(breadcrumbItems, Astro.site)];
             return (
               <li
                 data-review-item
-                data-country={entity.region_id ?? ''}
+                data-country={countryIdForEntity(entity) ?? ''}
                 data-rating={ratingOverall}
                 data-lapsed={concluded ? 'true' : 'false'}
                 data-search={searchHaystack}
