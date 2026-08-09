@@ -77,20 +77,6 @@
       "publisher": "JomRun",
       "url": "https://www.jomrun.com/event/KL-Half-Marathon-2026-Powered-By-JomRun",
       "type": "registration_platform"
-    },
-    {
-      "n": 2,
-      "label": "Kuala Lumpur — Wikipedia",
-      "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Kuala_Lumpur",
-      "type": "encyclopedia"
-    },
-    {
-      "n": 3,
-      "label": "Climate of Malaysia — Wikipedia",
-      "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Climate_of_Malaysia",
-      "type": "encyclopedia"
     }
   ],
   "faqs": [

@@ -88,14 +88,14 @@
       "label": "Ilocos Norte — Wikipedia",
       "publisher": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Ilocos_Norte",
-      "type": "encyclopedic"
+      "type": "other"
     },
     {
       "n": 3,
       "label": "Climate of the Philippines — PAGASA",
       "publisher": "Philippine Atmospheric, Geophysical and Astronomical Services Administration",
       "url": "https://www.pagasa.dost.gov.ph/climate/climate-of-the-philippines",
-      "type": "government"
+      "type": "other"
     }
   ],
   "faqs": [

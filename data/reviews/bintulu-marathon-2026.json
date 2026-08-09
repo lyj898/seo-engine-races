@@ -10,11 +10,26 @@
   "rating": {
     "overall": 66,
     "breakdown": [
-      { "label": "Course & Scenery", "score": 75 },
-      { "label": "Organisation & Growth", "score": 72 },
-      { "label": "Credentials (AIMS)", "score": 78 },
-      { "label": "Atmosphere & Community", "score": 70 },
-      { "label": "Waste Management", "score": 38 }
+      {
+        "label": "Course & Scenery",
+        "score": 75
+      },
+      {
+        "label": "Organisation & Growth",
+        "score": 72
+      },
+      {
+        "label": "Credentials (AIMS)",
+        "score": 78
+      },
+      {
+        "label": "Atmosphere & Community",
+        "score": 70
+      },
+      {
+        "label": "Waste Management",
+        "score": 38
+      }
     ]
   },
   "sections": [
@@ -62,20 +77,6 @@
       "publisher": "Bintulu Development Authority",
       "url": "https://www.bda.gov.my/web/subpage/event_view",
       "type": "official"
-    },
-    {
-      "n": 2,
-      "label": "Bintulu — Wikipedia entry covering geography and Sarawak context",
-      "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Bintulu",
-      "type": "other"
-    },
-    {
-      "n": 3,
-      "label": "Climate of Malaysia — Wikipedia entry for regional weather patterns",
-      "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Climate_of_Malaysia",
-      "type": "other"
     }
   ],
   "faqs": [

@@ -10,11 +10,26 @@
   "rating": {
     "overall": 62,
     "breakdown": [
-      { "label": "Provincial location appeal", "score": 70 },
-      { "label": "Course profile (flat)", "score": 78 },
-      { "label": "Distance range", "score": 68 },
-      { "label": "Organiser track record", "score": 48 },
-      { "label": "Registration maturity", "score": 35 }
+      {
+        "label": "Provincial location appeal",
+        "score": 70
+      },
+      {
+        "label": "Course profile (flat)",
+        "score": 78
+      },
+      {
+        "label": "Distance range",
+        "score": 68
+      },
+      {
+        "label": "Organiser track record",
+        "score": 48
+      },
+      {
+        "label": "Registration maturity",
+        "score": 35
+      }
     ]
   },
   "sections": [
@@ -97,7 +112,7 @@
     },
     {
       "question": "Is Lingayen worth the trip for out-of-town runners?",
-      "answer": "Lingayen is roughly four to five hours by bus from Metro Manila, making it an overnight trip for runners travelling from the capital. The Hundred Islands National Park — roughly an hour away in Alaminos — makes a strong case for a race-cation, and the flat course is a legitimate draw for those chasing a fast half marathon. But until registration opens and a detailed race guide is published, out-of-town runners should treat this as a provisional plan rather than a confirmed trip. [1][2]"
+      "answer": "Lingayen is roughly four to five hours by bus from Metro Manila, making it an overnight trip. The Hundred Islands National Park, about an hour away in Alaminos, makes a strong case for a race-cation, and the flat course suits runners chasing a fast time. Treat it as provisional until registration opens. [1][2]"
     }
   ],
   "editorial_notes": "Hand-revised from auto-generated stub on 2026-08-08. Expanded from 2 sections/1 FAQ/1 source to 5 sections/5 FAQs/3 sources. Prose is original synthesis.",

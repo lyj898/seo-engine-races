@@ -79,18 +79,11 @@
       "type": "official"
     },
     {
-      "n": 2,
-      "label": "South Tangerang — Wikipedia",
-      "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/South_Tangerang",
-      "type": "encyclopedia"
-    },
-    {
       "n": 3,
       "label": "Climate of Indonesia — Wikipedia",
       "publisher": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Climate_of_Indonesia",
-      "type": "encyclopedia"
+      "type": "other"
     }
   ],
   "faqs": [
