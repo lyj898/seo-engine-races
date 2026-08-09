@@ -2,43 +2,61 @@
   "review_id": "garmin-run-asia-series-2026-indonesia",
   "slug": "garmin-run-asia-series-2026-indonesia",
   "entity_id": "garmin-run-asia-series-2026-indonesia",
-  "title": "Garmin Run Asia Series Indonesia 2026 Review: ICE BSD Tech-Brand 21K",
-  "seo_title": "Garmin Run Asia Indonesia 2026 Review | ICE BSD Race",
-  "meta_description": "The Garmin Run Asia Series 2026 Indonesia: September 20 at ICE BSD. 21K, 10K, 5K from Garmin. Registration pending.",
-  "dek": "Set for 20 September 2026 at ICE BSD in BSD City, this Garmin-branded run offers three distances. A tech-brand Indonesian race at the country's premier exhibition venue.",
-  "verdict": "Garmin Run Asia Series Indonesia brings the global GPS-watch brand's running series to ICE BSD — Indonesia's largest exhibition centre in the planned BSD City satellite town. Three distances (21K, 10K, 5K). Garmin's brand presence typically means tech-enhanced race features and premium merchandise. Registration isn't open yet, but for Indonesian runners wanting a Garmin-branded race at a modern, well-venued location, this is worth tracking.",
+  "title": "Garmin Run Asia Series 2026 Indonesia Review: A Tech-Brand Race at BSD City",
+  "seo_title": "Garmin Run Asia Series 2026 Indonesia Review | BSD",
+  "meta_description": "Garmin Run Asia Series 2026 Indonesia review: September 20 at ICE BSD City -- a GPS-watch brand's race in Greater Jakarta's planned satellite township.",
+  "dek": "Set for 20 September 2026 at Indonesia Convention Exhibition, BSD City, this leg of Garmin's regional running series brings GPS-watch brand backing to one of Greater Jakarta's largest planned communities.",
+  "verdict": "The Garmin Run Asia Series' Indonesia leg carries an obvious appeal for tech-minded runners: Garmin is one of the best-known GPS running-watch brands, and a race under its name typically means data tracking, device demos, and a tech-savvy crowd. Three distances (21.1K/10K/5K) at the Indonesia Convention Exhibition center keep it broadly accessible. BSD City itself is a genuinely major planned township within Greater Jakarta, spanning some 6,000 hectares with roughly 500,000 residents -- purpose-built infrastructure that suits a large-scale branded event. Registration status isn't yet announced, so this is one to watch rather than book immediately.",
   "rating": {
     "overall": 66,
     "breakdown": [
       {
-        "label": "Brand (Garmin)",
-        "score": 85
+        "label": "Brand appeal (Garmin, tech-focused)",
+        "score": 74
       },
       {
-        "label": "ICE BSD venue",
-        "score": 72
+        "label": "Venue scale (ICE BSD City)",
+        "score": 78
       },
       {
         "label": "Distance range",
-        "score": 65
+        "score": 70
       },
       {
-        "label": "Registration",
-        "score": 35
+        "label": "Registration clarity",
+        "score": 30
       }
     ]
   },
   "sections": [
     {
-      "heading": "Garmin at ICE BSD",
+      "heading": "A GPS-Watch Brand's Signature Race",
       "paragraphs": [
-        "ICE BSD is Indonesia's premier exhibition venue in BSD City, southwest of Jakarta. [1] Garmin's brand presence brings the GPS-watch company's data-enhanced race experience — expect detailed race results and quality-branded merchandise. BSD City's wide, planned roads support a fast course."
+        "The Indonesia leg of the Garmin Run Asia Series offers 21.1K, 10K and 5K distances at the Indonesia Convention Exhibition (ICE) in BSD City. [1] Garmin is one of the most recognised GPS sports-watch brands globally, and races bearing its name typically lean into that identity -- expect device demos, data-driven pacing features, and a crowd that skews toward gear-conscious runners."
+      ]
+    },
+    {
+      "heading": "BSD City: A Major Planned Township",
+      "paragraphs": [
+        "BSD City -- formerly Bumi Serpong Damai -- is a planned community within Greater Jakarta, initiated in 1984 and developed primarily by Sinar Mas Land. [2] It spans roughly 6,000 hectares and is home to approximately 500,000 people, blending residential, commercial and recreational areas in what was originally rubber-plantation land in South Tangerang. That scale gives the race a purpose-built venue with modern road infrastructure, parking, and exhibition-centre facilities."
+      ]
+    },
+    {
+      "heading": "ICE as an Event Hub",
+      "paragraphs": [
+        "The Indonesia Convention Exhibition center at BSD City is one of Greater Jakarta's largest MICE (meetings, incentives, conferences, exhibitions) venues, regularly hosting large-scale expos and events. [1] Using it as a race hub gives organisers ready-made staging, registration, and post-race amenity space -- a practical choice for a brand activation event of this kind."
+      ]
+    },
+    {
+      "heading": "Registration Not Yet Announced",
+      "paragraphs": [
+        "As of this writing, registration status for this event has not been announced. [1] Given Garmin's brand reach, demand could move quickly once sign-ups open, so it's worth watching official channels closely rather than waiting for a general announcement."
       ]
     },
     {
       "heading": "Should You Run It?",
       "paragraphs": [
-        "A Garmin-branded Indonesian race at ICE BSD. Track for registration. 20 September 2026. [1]"
+        "If a tech-brand-backed race with strong venue infrastructure in one of Greater Jakarta's major planned communities appeals -- especially if you're already invested in Garmin's running ecosystem -- the Indonesia leg on 20 September 2026 is worth tracking closely. Registration hasn't opened yet, so there's nothing to sign up for immediately."
       ]
     }
   ],
@@ -46,19 +64,35 @@
   "sources": [
     {
       "n": 1,
-      "label": "Garmin Run Asia Series Indonesia",
+      "label": "Garmin Run Asia Series 2026 Indonesia — official minisite",
       "publisher": "Garmin Indonesia",
       "url": "https://www.garmin.co.id/minisite/garmin-run/",
       "type": "official"
+    },
+    {
+      "n": 2,
+      "label": "BSD City — Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/BSD_City",
+      "type": "other"
     }
   ],
   "faqs": [
     {
-      "question": "When is Garmin Run Indonesia 2026?",
-      "answer": "20 September 2026 at ICE BSD, BSD City, Indonesia. It offers 21.1K, 10K, and 5K. It's held at Indonesia Convention Exhibition (ICE), BSD City. Mark it on your calendar if you're planning your racing year around it. [1]"
+      "question": "When and where is the Garmin Run Asia Series 2026 Indonesia leg?",
+      "answer": "20 September 2026 at the Indonesia Convention Exhibition (ICE) in BSD City, Greater Jakarta. Three distances are offered: 21.1K, 10K and 5K. Registration status has not yet been announced. [1]"
+    },
+    {
+      "question": "What makes this race different from others in the region?",
+      "answer": "Its brand identity -- Garmin is a leading GPS sports-watch maker, so races under its name typically emphasize data tracking and device demos, appealing especially to tech-focused runners already using Garmin gear. [1]"
+    },
+    {
+      "question": "What is BSD City?",
+      "answer": "A major planned township within Greater Jakarta, spanning roughly 6,000 hectares with about 500,000 residents, developed primarily by Sinar Mas Land. It gives the race purpose-built infrastructure and a large exhibition-centre venue. [2]"
     }
   ],
-  "editorial_notes": "Auto-generated review.",
-  "last_updated": "2026-08-04",
+  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "published_at": "2026-08-09T07:15:00.000Z",
+  "last_updated": "2026-08-09",
   "status": "active"
 }

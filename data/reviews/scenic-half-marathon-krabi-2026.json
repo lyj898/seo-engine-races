@@ -2,43 +2,61 @@
   "review_id": "scenic-half-marathon-krabi-2026",
   "slug": "scenic-half-marathon-krabi-2026",
   "entity_id": "scenic-half-marathon-krabi-2026",
-  "title": "Scenic Half Marathon Krabi 2026 Review: Ao Nang's Beachfront 21K",
-  "seo_title": "Scenic Half Marathon Krabi 2026 Review | Ao Nang Thailand",
-  "meta_description": "The Scenic Half Marathon Krabi 2026: September 13 at Noppharatthara Beach, Ao Nang. A single-distance 21.1K on one of Thailand's most beautiful coastlines — registration open.",
-  "dek": "Set for 13 September 2026 at Noppharatthara Beach in Ao Nang, Krabi, this single-distance half marathon is part of the Scenic Marathon Series. Registration open. A beachfront 21K on one of Thailand's most celebrated coastlines.",
-  "verdict": "The Scenic Half Marathon Krabi lives up to its name: a single-distance 21.1K starting at Noppharatthara Beach in Ao Nang — the gateway to the limestone karst islands of the Andaman Sea. Part of the Scenic Marathon Series (which also includes Chiang Mai and Nakhon Phanom), this is a focused, single-distance event with registration open. September in Krabi is the late rainy season — expect humid conditions and possible showers, but also lush green landscapes and fewer tourists. For runners wanting a beachfront Thai half marathon with genuine Andaman Sea scenery, this is a standout.",
+  "title": "Scenic Half Marathon Krabi 2026 Review: A Beachfront Run in Ao Nang",
+  "seo_title": "Scenic Half Marathon Krabi 2026 Review | Ao Nang",
+  "meta_description": "Scenic Half Marathon Krabi 2026 review: September 13 at Noppharatthara Beach, Ao Nang -- a single-distance half marathon in Krabi's busiest resort area.",
+  "dek": "Set for 13 September 2026 at Noppharatthara Beach in Ao Nang, this single-distance half marathon runs through Krabi's most tourist-developed coastal town, right at the edge of the region's rainy low season.",
+  "verdict": "The Scenic Half Marathon Krabi is a single-distance (21.1K) event set at Noppharatthara Beach in Ao Nang -- Krabi's most Westernized and tourist-developed resort town, a former backpacker hotspot that's moved increasingly upmarket thanks to its proximity to Krabi Airport. That gives the race genuinely strong tourism infrastructure around it: hotels, restaurants and transport are all well-developed for international visitors. The one real timing consideration is that September sits just outside Ao Nang's peak season (November-April), meaning fewer crowds but a real chance of rain given Krabi's monsoon patterns.",
   "rating": {
-    "overall": 74,
+    "overall": 69,
     "breakdown": [
       {
-        "label": "Scenery (Ao Nang coast)",
-        "score": 92
-      },
-      {
-        "label": "Single-distance focus",
-        "score": 78
-      },
-      {
-        "label": "Registration",
+        "label": "Beachfront setting (Noppharatthara)",
         "score": 82
       },
       {
-        "label": "September climate",
-        "score": 50
+        "label": "Tourist infrastructure (Ao Nang)",
+        "score": 84
+      },
+      {
+        "label": "Single-distance simplicity",
+        "score": 62
+      },
+      {
+        "label": "Off-peak weather risk",
+        "score": 48
       }
     ]
   },
   "sections": [
     {
-      "heading": "Ao Nang: Krabi's Beachfront Gateway",
+      "heading": "A Single Half Marathon at Noppharatthara Beach",
       "paragraphs": [
-        "Noppharatthara Beach in Ao Nang is the main departure point for Krabi's famous four-island tours — a beachfront strip with limestone karsts rising from the Andaman Sea. [1] A half marathon here combines road racing with one of Thailand's most celebrated coastal landscapes. The Scenic Marathon Series' production template — proven at Chiang Mai and Nakhon Phanom — ensures a well-run event."
+        "The race is a single-distance 21.1K half marathon, starting at Noppharatthara Beach in Ao Nang, Krabi. [1] Unlike most races in this research batch, there's no shorter 5K/10K option here -- it's purely a half-marathon event, which suits committed runners rather than families or first-timers looking for a shorter category."
+      ]
+    },
+    {
+      "heading": "Ao Nang: Krabi's Busiest, Most Developed Beach Town",
+      "paragraphs": [
+        "Ao Nang -- formally Ao Phra Nang, 'Princess Bay' -- is a resort town about 15km from Krabi Town, with a population of roughly 14,435 as of 2020. [2] It's the most Westernized and tourist-oriented beach destination in Krabi province; originally a backpacker hotspot, the area has moved upmarket thanks to its proximity to Krabi Airport, and during high season it's one of the most expensive places in Thailand outside Bangkok."
+      ]
+    },
+    {
+      "heading": "Running Outside Peak Season",
+      "paragraphs": [
+        "Ao Nang's high season runs roughly 1 November to 30 April, meaning a 13 September 2026 race date falls squarely in the region's quieter, wetter low season. [2] That has real trade-offs: fewer tourist crowds and likely lower accommodation prices, but a genuinely higher chance of rain given Krabi's monsoon climate patterns during this period."
+      ]
+    },
+    {
+      "heading": "Registration and Logistics",
+      "paragraphs": [
+        "Registration is currently open via the official Scenic Marathon event page. [1] Given Ao Nang's well-established tourism infrastructure, getting to and from the race and finding accommodation should be straightforward compared to some of the smaller, less-developed venues in this research batch."
       ]
     },
     {
       "heading": "Should You Run It?",
       "paragraphs": [
-        "A beachfront Krabi half marathon with open registration. 13 September 2026 at Noppharatthara Beach, Ao Nang. [1]"
+        "If a beachfront half marathon in one of Thailand's most tourist-friendly resort towns appeals, and you don't mind a real chance of rain in exchange for smaller crowds and better prices, the Scenic Half Marathon Krabi on 13 September 2026 is a solid pick. Just pack for possible wet weather, since race day falls outside Ao Nang's dry high season."
       ]
     }
   ],
@@ -46,19 +64,35 @@
   "sources": [
     {
       "n": 1,
-      "label": "Scenic Half Marathon Krabi — official site",
-      "publisher": "Scenic Marathon Series",
+      "label": "Scenic Half Marathon Krabi — official event page",
+      "publisher": "Scenic Marathon",
       "url": "https://scenicmarathon.com/event.html?event=KSMH",
       "type": "official"
+    },
+    {
+      "n": 2,
+      "label": "Ao Nang — Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ao_Nang",
+      "type": "other"
     }
   ],
   "faqs": [
     {
-      "question": "When is the Scenic Half Marathon Krabi 2026?",
-      "answer": "13 September 2026 at Noppharatthara Beach, Ao Nang, Krabi, Thailand. It offers 21.1K. Registration is currently open. Mark it on your calendar if you're planning your racing year around it. [1]"
+      "question": "What distance is offered at the Scenic Half Marathon Krabi?",
+      "answer": "Just one: the 21.1K half marathon, starting at Noppharatthara Beach in Ao Nang. Unlike many races in the region, there's no shorter 5K or 10K category -- this is purely a half-marathon event. Registration is currently open. [1]"
+    },
+    {
+      "question": "What is Ao Nang like as a race destination?",
+      "answer": "It's Krabi's busiest, most tourist-developed resort town, formally called Ao Phra Nang. Originally a backpacker hotspot, it has moved upmarket thanks to its proximity to Krabi Airport, giving the race strong hotel, dining and transport infrastructure. [2]"
+    },
+    {
+      "question": "What's the weather like in September?",
+      "answer": "Ao Nang's high season runs roughly November to April, so a September race date sits in the region's quieter, wetter low season -- expect fewer crowds and lower prices, but a real chance of rain given Krabi's monsoon patterns during this period. [2]"
     }
   ],
-  "editorial_notes": "Auto-generated review.",
-  "last_updated": "2026-08-04",
+  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "published_at": "2026-08-09T07:15:00.000Z",
+  "last_updated": "2026-08-09",
   "status": "active"
 }
