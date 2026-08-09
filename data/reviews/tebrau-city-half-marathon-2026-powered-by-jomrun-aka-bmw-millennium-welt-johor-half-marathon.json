@@ -2,43 +2,61 @@
   "review_id": "tebrau-city-half-marathon-2026-powered-by-jomrun-aka-bmw-millennium-welt-johor-half-marathon",
   "slug": "tebrau-city-half-marathon-2026-powered-by-jomrun-aka-bmw-millennium-welt-johor-half-marathon",
   "entity_id": "tebrau-city-half-marathon-2026-powered-by-jomrun-aka-bmw-millennium-welt-johor-half-marathon",
-  "title": "Tebrau City Half Marathon 2026 Review: BMW-Branded Johor 21K at Toppen",
-  "seo_title": "Tebrau City Half Marathon 2026 Review | BMW Johor Malaysia",
-  "meta_description": "The Tebrau City Half Marathon 2026 (BMW Millennium Welt Johor Half Marathon): September 20 at Toppen Shopping Centre, JB. 21K, 10K, 5K with registration open.",
-  "dek": "Set for 20 September 2026 at Toppen Shopping Centre in Johor Bahru, this dual-branded (BMW Millennium Welt / Tebrau City) half marathon offers three distances with registration open. A premium automotive-branded Malaysian race.",
-  "verdict": "The Tebrau City Half Marathon — also branded as the BMW Millennium Welt Johor Half Marathon — brings premium automotive branding to Johor Bahru. Organised by Ultron and powered by JomRun, it offers three distances (21K, 10K, 5K) with registration open. Toppen Shopping Centre is one of JB's newest lifestyle malls, providing a modern race-hub venue. The BMW association suggests above-average production values and quality race merchandise. For runners wanting a brand-backed Johor half marathon with Singapore proximity, this is a strong, bookable pick.",
+  "title": "Tebrau City Half Marathon 2026 Review: A Rebranded Race in Malaysia's Second City",
+  "seo_title": "Tebrau City Half Marathon 2026 Review | Johor Bahru",
+  "meta_description": "Tebrau City Half Marathon 2026 review: September 20 at Toppen Shopping Centre, Johor Bahru -- a mall-anchored race also known as BMW Millennium Welt.",
+  "dek": "Set for 20 September 2026 at Toppen Shopping Centre, this Johor Bahru half marathon carries two names -- Tebrau City Half Marathon and BMW Millennium Welt Johor Half Marathon -- reflecting a rebrand in Malaysia's second-largest city by economic output.",
+  "verdict": "The Tebrau City Half Marathon (also listed as the BMW Millennium Welt Johor Half Marathon) is a mall-anchored race at Toppen Shopping Centre in Johor Bahru -- Malaysia's second most economically competitive city and the country's largest state capital by population, right at the Singapore border. The dual naming suggests a rebrand or renamed continuation of a prior event, though specific history wasn't confirmed in research. Three distances (21.1K/10K/5K) and a registration deadline set for the day before race day keep the format straightforward, if the deadline itself is unusually tight.",
   "rating": {
     "overall": 66,
     "breakdown": [
       {
-        "label": "Brand (BMW)",
+        "label": "Venue accessibility (Toppen Shopping Centre)",
+        "score": 76
+      },
+      {
+        "label": "City infrastructure (Johor Bahru)",
         "score": 82
       },
       {
-        "label": "Registration",
-        "score": 80
+        "label": "Distance range",
+        "score": 72
       },
       {
-        "label": "JB accessibility",
-        "score": 78
-      },
-      {
-        "label": "Venue",
-        "score": 62
+        "label": "Registration lead time & naming clarity",
+        "score": 42
       }
     ]
   },
   "sections": [
     {
-      "heading": "BMW + Ultron at Toppen JB",
+      "heading": "Two Names, One Race",
       "paragraphs": [
-        "The BMW Millennium Welt branding adds premium automotive cachet to a JomRun-powered Johor race. [1] Toppen Shopping Centre is a modern lifestyle mall in JB's Tebrau corridor. Ultron handles organisation — a known Malaysian race operator. Johor Bahru's proximity to Singapore (causeway crossing) makes this one of the most accessible Malaysian races for Singapore-based runners."
+        "This event carries two listed names -- Tebrau City Half Marathon, powered by JomRun, and BMW Millennium Welt Johor Half Marathon -- suggesting a rebrand or renamed continuation of a prior edition. [1] Both listings point to the same 20 September 2026 date and Toppen Shopping Centre venue, so treat them as the same race under evolving branding rather than two separate events."
+      ]
+    },
+    {
+      "heading": "Johor Bahru: Malaysia's Southern Gateway",
+      "paragraphs": [
+        "Johor Bahru is the capital of Johor state, covering 373 sq km with a 2020 population of 858,118 -- Malaysia's largest state capital by population. [2] It sits at the southern tip of the Malay Peninsula bordering Singapore, ranks as Malaysia's second best-performing city economically behind only Kuala Lumpur, and hosts the world's busiest land border crossing via the Johor-Singapore Causeway. That gives race weekend genuine cross-border accessibility for Singapore-based runners."
+      ]
+    },
+    {
+      "heading": "Three Distances, Mall-Anchored",
+      "paragraphs": [
+        "Distances offered are 21.1K, 10K and 5K, starting at Toppen Shopping Centre. [1] A mall-anchored venue means built-in parking and amenities, similar to the pattern seen at several other races in this research batch -- practical for a city with heavy cross-border weekend traffic."
+      ]
+    },
+    {
+      "heading": "A Tight Registration Deadline",
+      "paragraphs": [
+        "Registration is open but closes 19 September 2026 -- the day before race day itself. [1] That's an unusually tight window, echoing a similar pattern seen at the KL Half Marathon (also JomRun-organised) covered elsewhere in this research, so late sign-ups shouldn't be assumed to be possible."
       ]
     },
     {
       "heading": "Should You Run It?",
       "paragraphs": [
-        "A BMW-branded Johor half marathon with open registration. 20 September 2026 at Toppen Shopping Centre, JB. [1]"
+        "If a well-located, mall-anchored half marathon in Malaysia's economically vibrant southern gateway city appeals -- and it's genuinely convenient for Singapore-based runners given the border crossing -- the Tebrau City Half Marathon on 20 September 2026 is a solid pick. Register early given the tight deadline, and don't be confused by the event's dual BMW Millennium Welt branding."
       ]
     }
   ],
@@ -46,19 +64,35 @@
   "sources": [
     {
       "n": 1,
-      "label": "Tebrau City Half Marathon — JomRun",
-      "publisher": "Ultron / JomRun",
+      "label": "Tebrau City Half Marathon 2026, powered by JomRun — event page",
+      "publisher": "JomRun",
       "url": "https://www.jomrun.com/event/Tebrau-City-Half-Marathon-2026-powered-by-JomRun",
       "type": "registration_platform"
+    },
+    {
+      "n": 2,
+      "label": "Johor Bahru — Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Johor_Bahru",
+      "type": "other"
     }
   ],
   "faqs": [
     {
-      "question": "When is the Tebrau City Half Marathon 2026?",
-      "answer": "20 September 2026 at Toppen Shopping Centre, Johor Bahru. It offers 21.1K, 10K, and 5K. Registration is currently open. Ultron organises the event. Mark it on your calendar if you're planning your racing year around it. [1]"
+      "question": "Is this the same race as the BMW Millennium Welt Johor Half Marathon?",
+      "answer": "Yes -- both names point to the same 20 September 2026 date and Toppen Shopping Centre venue in Johor Bahru, suggesting a rebrand or renamed continuation rather than two separate events. [1]"
+    },
+    {
+      "question": "What distances are offered?",
+      "answer": "Three: 21.1K, 10K and 5K, all starting at Toppen Shopping Centre. Registration is open now but closes 19 September 2026 -- the day before race day, so register early. [1]"
+    },
+    {
+      "question": "Is Johor Bahru easy to reach?",
+      "answer": "Very -- it's Malaysia's largest state capital by population and its second best-performing city economically, sitting right at the Singapore border with the world's busiest land border crossing. That makes it especially convenient for Singapore-based runners. [2]"
     }
   ],
-  "editorial_notes": "Auto-generated review.",
-  "last_updated": "2026-08-04",
+  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "published_at": "2026-08-09T07:30:00.000Z",
+  "last_updated": "2026-08-09",
   "status": "active"
 }

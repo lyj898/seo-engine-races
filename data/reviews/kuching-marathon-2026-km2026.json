@@ -2,43 +2,61 @@
   "review_id": "kuching-marathon-2026-km2026",
   "slug": "kuching-marathon-2026-km2026",
   "entity_id": "kuching-marathon-2026-km2026",
-  "title": "Kuching Marathon 2026 Review: Sarawak's Premier Full Marathon at Padang Merdeka",
-  "seo_title": "Kuching Marathon 2026 Review | KM2026 Sarawak Borneo Race",
-  "meta_description": "The Kuching Marathon 2026 (KM2026): September 27 at Padang Merdeka, Kuching, Sarawak. 42K, 21K, 10K, 5K from the Kuching Marathon Association — Borneo's premier marathon reviewed.",
-  "dek": "Set for 27 September 2026 at Padang Merdeka in Kuching, Sarawak — the 'City of Cats' — this Kuching Marathon Association-organised race offers four distances. One of Malaysian Borneo's anchor marathons with strong institutional backing.",
-  "verdict": "The Kuching Marathon (KM2026) is Sarawak's premier marathon — a Kuching Marathon Association-organised race at Padang Merdeka (Independence Square) in the heart of Borneo's most charming city. Four distances (42K, 21K, 10K, 5K) with high data confidence (reliability 94). Kuching is a genuine destination: the Sarawak River waterfront, the Semenggoh orangutans, and Bako National Park provide world-class pre- and post-race experiences. September in Kuching is the tail of the southwest monsoon — warm and humid but generally drier than the November–February landas season. A must-track for Borneo marathon enthusiasts.",
+  "title": "Kuching Marathon 2026 Review: Borneo Racing on the Cat City's Riverfront",
+  "seo_title": "Kuching Marathon 2026 (KM2026) Review | Sarawak",
+  "meta_description": "Kuching Marathon 2026 review: September 27 at Padang Merdeka -- a Borneo marathon through Sarawak's riverfront capital, from RM60.",
+  "dek": "Set for 27 September 2026 at Padang Merdeka, this marathon runs through Kuching, Sarawak's riverfront capital on Borneo -- founded in 1839 by James Brooke, with four distances and budget-friendly pricing from RM60.",
+  "verdict": "The Kuching Marathon brings road racing to one of Malaysia's most distinctive cities: founded in 1839 by James Brooke on the banks of the Sarawak River, Kuching is East Malaysia's largest city and Sarawak's capital, with a genuinely different cultural and geographic character from Peninsular Malaysia races -- Borneo jungle proximity, a mixed Chinese-Malay-Bidayuh-Iban population, and river-city scenery. Four distances (5K to the full marathon) and accessible pricing (RM60-160) make it broadly approachable, organised by the dedicated Kuching Marathon Association. Registration status wasn't yet announced at the time of this research.",
   "rating": {
-    "overall": 77,
+    "overall": 68,
     "breakdown": [
       {
-        "label": "Kuching destination",
-        "score": 88
+        "label": "Destination distinctiveness (Borneo, riverfront)",
+        "score": 86
       },
       {
-        "label": "Association backing",
-        "score": 82
+        "label": "Organiser (dedicated Marathon Association)",
+        "score": 74
       },
       {
-        "label": "Data confidence",
-        "score": 94
+        "label": "Pricing accessibility",
+        "score": 78
       },
       {
-        "label": "September climate",
-        "score": 55
+        "label": "Registration clarity",
+        "score": 38
       }
     ]
   },
   "sections": [
     {
-      "heading": "Kuching: Borneo's City of Cats",
+      "heading": "A Borneo Race in a Historic River City",
       "paragraphs": [
-        "Kuching is one of Southeast Asia's most underrated cities — a clean, green waterfront city with colonial architecture, world-class food (Sarawak laksa, kolo mee), and easy access to orangutans, national parks, and the Sarawak Cultural Village. [1] Padang Merdeka provides a historic, central start/finish precinct."
+        "The race starts at Padang Merdeka in Kuching, Sarawak, offering 5K, 10K, 21.1K and the 42.195K full marathon. [1] Kuching was founded in 1839 by Sir James Brooke, who went on to found the Brooke Raj and rule Sarawak -- the city sits on the jungled southern bank of the Sarawak River, about 24km from the South China Sea. [2] That founding-era history and riverfront geography give the course a genuinely distinctive Borneo character, unlike anything else in this research batch."
+      ]
+    },
+    {
+      "heading": "A City Named for a Cat",
+      "paragraphs": [
+        "Kuching -- from the Malay 'kucing,' meaning cat -- is populated mainly by Chinese residents, with Malay, Bidayuh and Iban communities on its outskirts, and is East Malaysia's largest city and Sarawak's chief port, exporting rubber, pepper and sago flour. [2] The city's well-known Cat Museum reflects that etymology directly, giving race weekend a distinctive cultural hook beyond the run itself."
+      ]
+    },
+    {
+      "heading": "Run by a Dedicated Marathon Association",
+      "paragraphs": [
+        "The event is organised by the Kuching Marathon Association, a dedicated body rather than a general events promoter or corporate brand -- suggesting a race built specifically around this recurring event rather than one leg of a broader commercial series. [1] Pricing runs RM60-RM160 depending on distance and registration tier, a genuinely accessible range."
+      ]
+    },
+    {
+      "heading": "Wide Aggregator Coverage",
+      "paragraphs": [
+        "The race appears across multiple international listing sites -- AIMS World Running, Ahotu, and World's Marathons -- alongside its own official site. [1] That breadth of aggregator coverage suggests reasonable visibility to international runners considering a Borneo racing trip, even without individually quoted participant reviews on file."
       ]
     },
     {
       "heading": "Should You Run It?",
       "paragraphs": [
-        "Sarawak's premier marathon with strong institutional backing. Track for registration. 27 September 2026 at Padang Merdeka, Kuching. [1]"
+        "If a genuinely distinctive Borneo race through a historic riverfront city appeals -- and you want something culturally and geographically different from Peninsular Malaysia's more common race destinations -- the Kuching Marathon on 27 September 2026 is a strong pick. Registration status wasn't yet announced at the time of this research, so check the official site before finalising travel."
       ]
     }
   ],
@@ -46,19 +64,35 @@
   "sources": [
     {
       "n": 1,
-      "label": "Kuching Marathon — official website",
+      "label": "Kuching Marathon 2026 (KM2026) — official site",
       "publisher": "Kuching Marathon Association",
       "url": "https://marathonkuching.com",
       "type": "official"
+    },
+    {
+      "n": 2,
+      "label": "Kuching — Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kuching",
+      "type": "other"
     }
   ],
   "faqs": [
     {
-      "question": "When is the Kuching Marathon 2026?",
-      "answer": "27 September 2026 at Padang Merdeka, Kuching, Sarawak, Malaysia. It offers 42.2K, 21.1K, 10K, and 5K. Registration is listed as not yet announced. Kuching Marathon Association organises the event. Entry costs RM60-RM160. [1]"
+      "question": "When and where is the Kuching Marathon 2026?",
+      "answer": "27 September 2026, starting at Padang Merdeka in Kuching, Sarawak's riverfront capital on the island of Borneo. Four distances are offered: 5K, 10K, 21.1K, and the 42.195K full marathon, with pricing running RM60-RM160 depending on category. [1]"
+    },
+    {
+      "question": "What makes Kuching a distinctive race destination?",
+      "answer": "It's East Malaysia's largest city, founded in 1839 by James Brooke on the banks of the Sarawak River, with a mixed Chinese-Malay-Bidayuh-Iban population and a genuinely different Borneo character from Peninsular Malaysia race destinations. [2]"
+    },
+    {
+      "question": "Is registration open?",
+      "answer": "Not yet announced as of this writing. The race is organised by the dedicated Kuching Marathon Association and is listed across multiple international race aggregators, including AIMS World Running and World's Marathons. [1]"
     }
   ],
-  "editorial_notes": "Auto-generated review.",
-  "last_updated": "2026-08-04",
+  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "published_at": "2026-08-09T07:30:00.000Z",
+  "last_updated": "2026-08-09",
   "status": "active"
 }
