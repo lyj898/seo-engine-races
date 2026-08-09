@@ -1,8 +1,10 @@
 name: Weekly data refresh
 
-# Runs the discover -> refresh -> research -> summaries -> guides pipeline on
-# a schedule (matching site.config.json's sourceConfig.refreshIntervalDays),
-# plus supports a manual on-demand run from the Actions tab.
+# Runs the discover -> refresh -> research -> summaries pipeline on a
+# schedule (matching site.config.json's sourceConfig.refreshIntervalDays),
+# plus supports a manual on-demand run from the Actions tab. (The listicle
+# generation stage that used to run last was removed -- Best Of guides
+# aren't being maintained for now.)
 #
 # This workflow commits straight to `main`, which deploys. That is a
 # deliberate choice and the guard rails moved rather than disappeared:
@@ -125,16 +127,6 @@ jobs:
         run: npm run summaries
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-
-      - name: Generate Best Of guides
-        run: npm run listicles
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        # Creates a guide for any category x country combination that has
-        # crossed the minimum-entries threshold since last week, capped at
-        # listicleConfig.perRunLimit so they drip out rather than landing as
-        # one bulk publish. Existing guides are never overwritten, so hand
-        # edits to a title or intro survive every future run.
 
       - name: Validate data (post-run)
         run: npm run validate

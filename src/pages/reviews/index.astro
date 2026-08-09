@@ -84,30 +84,6 @@ const jsonLd = [buildBreadcrumbListSchema(breadcrumbItems, Astro.site)];
     ) : (
       <div id="reviews-app" class="mt-8">
         <div class="flex flex-col gap-3">
-          {countryRegions.length > 0 && (
-            <div
-              id="reviews-country-filter"
-              class="inline-flex flex-wrap gap-0.5 self-start rounded-full bg-brand-surface-offset p-[3px] dark:bg-brand-surface-offset-dark"
-            >
-              <button
-                type="button"
-                data-filter-value=""
-                class="filter-chip is-active rounded-full px-3.5 py-2 text-sm font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark"
-              >
-                All countries
-              </button>
-              {countryRegions.map((r) => (
-                <button
-                  type="button"
-                  data-filter-value={r.value}
-                  class="filter-chip rounded-full px-3.5 py-2 text-sm font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark"
-                >
-                  {r.label}
-                </button>
-              ))}
-            </div>
-          )}
-
           <div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
             <div class="relative max-w-[420px] flex-1">
               <svg
@@ -129,16 +105,32 @@ const jsonLd = [buildBreadcrumbListSchema(breadcrumbItems, Astro.site)];
                 aria-label="Search reviews"
               />
             </div>
-            <div class="flex items-center gap-2">
-              <label for="reviews-sort" class="text-sm text-brand-muted dark:text-brand-muted-dark">Sort by</label>
-              <select
-                id="reviews-sort"
-                class="rounded-lg border-[1.5px] border-brand-border bg-brand-surface px-3 py-2.5 text-sm shadow-sm transition-shadow duration-200 ease-interactive focus:border-brand-primary focus:shadow-[0_0_0_4px_theme(colors.brand.primary-highlight)] focus:outline-none dark:border-brand-border-dark dark:bg-brand-surface-dark"
-              >
-                <option value="newest">Newest first</option>
-                <option value="rating-desc">Highest rated</option>
-                <option value="rating-asc">Lowest rated</option>
-              </select>
+            <div class="flex flex-wrap items-center gap-3">
+              {countryRegions.length > 0 && (
+                <div class="flex items-center gap-2">
+                  <label for="reviews-country" class="text-sm text-brand-muted dark:text-brand-muted-dark">Country</label>
+                  <select
+                    id="reviews-country"
+                    class="rounded-lg border-[1.5px] border-brand-border bg-brand-surface px-3 py-2.5 text-sm shadow-sm transition-shadow duration-200 ease-interactive focus:border-brand-primary focus:shadow-[0_0_0_4px_theme(colors.brand.primary-highlight)] focus:outline-none dark:border-brand-border-dark dark:bg-brand-surface-dark"
+                  >
+                    <option value="">All countries</option>
+                    {countryRegions.map((r) => (
+                      <option value={r.value}>{r.label}</option>
+                    ))}
+                  </select>
+                </div>
+              )}
+              <div class="flex items-center gap-2">
+                <label for="reviews-sort" class="text-sm text-brand-muted dark:text-brand-muted-dark">Sort by</label>
+                <select
+                  id="reviews-sort"
+                  class="rounded-lg border-[1.5px] border-brand-border bg-brand-surface px-3 py-2.5 text-sm shadow-sm transition-shadow duration-200 ease-interactive focus:border-brand-primary focus:shadow-[0_0_0_4px_theme(colors.brand.primary-highlight)] focus:outline-none dark:border-brand-border-dark dark:bg-brand-surface-dark"
+                >
+                  <option value="newest">Newest first</option>
+                  <option value="rating-desc">Highest rated</option>
+                  <option value="rating-asc">Lowest rated</option>
+                </select>
+              </div>
             </div>
           </div>
 
@@ -206,7 +198,7 @@ const jsonLd = [buildBreadcrumbListSchema(breadcrumbItems, Astro.site)];
     if (!app) return;
 
     var items = Array.prototype.slice.call(app.querySelectorAll('[data-review-item]'));
-    var countryBar = document.getElementById('reviews-country-filter');
+    var countrySelect = document.getElementById('reviews-country');
     var searchInput = document.getElementById('reviews-search');
     var sortSelect = document.getElementById('reviews-sort');
     var countEl = document.getElementById('reviews-count');
@@ -335,18 +327,12 @@ const jsonLd = [buildBreadcrumbListSchema(breadcrumbItems, Astro.site)];
       renderPagination(totalPages);
     }
 
-    if (countryBar) {
-      var chips = countryBar.querySelectorAll('.filter-chip');
-      chips.forEach(function (chip) {
-        chip.addEventListener('click', function () {
-          state.country = chip.dataset.filterValue;
-          state.page = 1;
-          chips.forEach(function (c) {
-            c.classList.toggle('is-active', c === chip);
-          });
-          save('reviews-country-filter', state.country);
-          render();
-        });
+    if (countrySelect) {
+      countrySelect.addEventListener('change', function () {
+        state.country = countrySelect.value;
+        state.page = 1;
+        save('reviews-country-filter', state.country);
+        render();
       });
     }
 
@@ -369,11 +355,9 @@ const jsonLd = [buildBreadcrumbListSchema(breadcrumbItems, Astro.site)];
 
     // Restore persisted preferences before first render.
     var savedCountry = load('reviews-country-filter', '');
-    if (savedCountry && countryBar) {
+    if (savedCountry && countrySelect) {
       state.country = savedCountry;
-      countryBar.querySelectorAll('.filter-chip').forEach(function (c) {
-        c.classList.toggle('is-active', c.dataset.filterValue === savedCountry);
-      });
+      countrySelect.value = savedCountry;
     }
     var savedSort = load('reviews-sort', 'newest');
     if (savedSort && sortSelect) {
