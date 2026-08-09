@@ -2,43 +2,61 @@
   "review_id": "palawanpay-trilogy-marathon-2026-palawan-leg",
   "slug": "palawanpay-trilogy-marathon-2026-palawan-leg",
   "entity_id": "palawanpay-trilogy-marathon-2026-palawan-leg",
-  "title": "PalawanPay Trilogy Marathon 2026 Palawan Leg Review: RUNRIO's Island Marathon",
-  "seo_title": "PalawanPay Marathon Palawan 2026 Review | Puerto Princesa Race",
-  "meta_description": "The PalawanPay Trilogy Marathon 2026 Palawan Leg: October 18 in Puerto Princesa. Full marathon to 5K from RUNRIO — an island marathon in one of the world's best destinations.",
-  "dek": "Set for 18 October 2026 in Puerto Princesa City, Palawan, this RUNRIO-produced marathon is part of the PalawanPay Trilogy. Five distances from 5K to full 42K. Registration isn't confirmed yet.",
-  "verdict": "The PalawanPay Trilogy Marathon Palawan Leg combines three premium elements: RUNRIO's gold-standard race production, PalawanPay's fintech sponsorship, and Puerto Princesa — the gateway to the UNESCO-listed Underground River and one of the world's most celebrated island destinations. Five distances (42K, 21K, 16K, 10K, 5K) with the unusual 16K mid-distance option. Palawan in October is the tail of the wet season, but the destination appeal is strong enough to justify the weather risk. For runners wanting a RUNRIO-produced marathon on one of the Philippines' most beautiful islands, this is a priority track.",
+  "title": "PalawanPay Trilogy Marathon 2026 Palawan Leg Review: Racing to the UNESCO River",
+  "seo_title": "PalawanPay Trilogy Marathon Palawan 2026 Review",
+  "meta_description": "PalawanPay Trilogy Marathon 2026 Palawan Leg review: October 18 in Puerto Princesa -- five distances near a UNESCO World Heritage subterranean river.",
+  "dek": "Set for 18 October 2026 in Puerto Princesa, this Palawan leg of the PalawanPay Trilogy Marathon runs in the same province as the Puerto Princesa Subterranean River -- a UNESCO World Heritage Site and New7Wonders of Nature.",
+  "verdict": "The PalawanPay Trilogy Marathon's Palawan leg has an obvious geographic tie-in: the title sponsor is named for the province hosting a UNESCO World Heritage Site and New7Wonders of Nature finalist -- the Puerto Princesa Subterranean River. Five distances, including an unusual 16K alongside the standard spread up to the full 42.195K, give it real range. Puerto Princesa itself has been a settlement since Spanish colonists founded it in 1872, with its own airport making the province genuinely accessible despite its island-frontier reputation. Registration status wasn't yet confirmed open at the time of this research.",
   "rating": {
-    "overall": 75,
+    "overall": 76,
     "breakdown": [
       {
-        "label": "Destination (Palawan)",
-        "score": 95
+        "label": "Destination prestige (UNESCO site nearby)",
+        "score": 90
       },
       {
-        "label": "Organiser (RUNRIO)",
-        "score": 92
+        "label": "Distance range (incl. 16K, full marathon)",
+        "score": 76
       },
       {
-        "label": "Distance range",
-        "score": 78
+        "label": "Organiser experience (RunRio)",
+        "score": 74
       },
       {
-        "label": "Registration",
+        "label": "Registration clarity",
         "score": 35
       }
     ]
   },
   "sections": [
     {
-      "heading": "Palawan: The World's Best Island",
+      "heading": "A Race Named for Its Province",
       "paragraphs": [
-        "Palawan consistently ranks among the world's best islands — Puerto Princesa is the gateway to the Underground River (a UNESCO World Heritage site and New 7 Wonders of Nature), Honda Bay's island-hopping, and some of the clearest water in the Philippines. [1] A RUNRIO-produced marathon here combines world-class race production with world-class post-race recovery."
+        "The Palawan leg is organised by RUNRIO Inc. with title sponsor PalawanPay, offering five distances: 5K, 10K, 16K, 21.1K and the 42.195K full marathon. [1] The sponsor's name is a direct reference to Palawan province itself, and this leg puts the race squarely in the province's capital, Puerto Princesa."
+      ]
+    },
+    {
+      "heading": "Home to a UNESCO World Heritage Site",
+      "paragraphs": [
+        "Puerto Princesa is the capital of Palawan province, founded by Spanish colonists on 4 March 1872, situated between the Sulu Sea to the east and the South China Sea to the west, with its own airport. [2] It's best known for the Puerto Princesa Subterranean River National Park -- a UNESCO World Heritage Site since 1999 and voted one of the New7Wonders of Nature in 2012. Running a marathon in the same province as one of the world's most celebrated natural landmarks gives this leg genuine destination cachet beyond the race itself."
+      ]
+    },
+    {
+      "heading": "An Unusual 16K Distance",
+      "paragraphs": [
+        "Alongside the standard 5K, 10K, 21.1K and 42K categories, this leg includes a 16K option -- an uncommon distance choice, similar to the 16K seen at the PalawanPay Trilogy's Cebu leg covered elsewhere in this research, likely tied to the broader Trilogy format's progressive qualifying structure."
+      ]
+    },
+    {
+      "heading": "Registration Not Yet Confirmed",
+      "paragraphs": [
+        "As of this writing, registration status for the Palawan leg has not been confirmed open. [1] Given Palawan's popularity as a tourist destination generally, demand could be significant once registration opens -- worth watching official channels closely."
       ]
     },
     {
       "heading": "Should You Run It?",
       "paragraphs": [
-        "A RUNRIO-produced marathon in Palawan — one of the best destination-race combinations in the Philippines. Track for registration. 18 October 2026. [1]"
+        "If you want to pair a marathon with a trip to one of the world's most celebrated natural wonders, the PalawanPay Trilogy Marathon's Palawan leg on 18 October 2026 offers genuine destination value beyond the race itself. Watch for registration to open before finalising travel plans."
       ]
     }
   ],
@@ -46,19 +64,35 @@
   "sources": [
     {
       "n": 1,
-      "label": "PalawanPay Trilogy Marathon — event listing",
+      "label": "PalawanPay Trilogy Marathon Palawan Leg 2026 — event coverage",
       "publisher": "Takbo.ph",
       "url": "https://www.takbo.ph",
       "type": "aggregator"
+    },
+    {
+      "n": 2,
+      "label": "Puerto Princesa — Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://www.wikidata.org/wiki/Q111739",
+      "type": "other"
     }
   ],
   "faqs": [
     {
-      "question": "When is the PalawanPay Marathon Palawan 2026?",
-      "answer": "18 October 2026 in Puerto Princesa City, Palawan, Philippines. It offers 42.2K, 21.1K, 16K, 10K, and 5K. Registration is listed as not yet confirmed open. RUNRIO Inc. (title sponsor: PalawanPay) organises the event. [1]"
+      "question": "When and where is the PalawanPay Trilogy Marathon Palawan Leg?",
+      "answer": "18 October 2026 in Puerto Princesa City, Palawan. Five distances are offered: 5K, 10K, 16K, 21.1K and the 42.195K full marathon, organised by RUNRIO Inc. with title sponsor PalawanPay. [1]"
+    },
+    {
+      "question": "What makes Palawan a notable race destination?",
+      "answer": "It's home to the Puerto Princesa Subterranean River National Park, a UNESCO World Heritage Site since 1999 and voted one of the New7Wonders of Nature in 2012 -- a genuine world-class natural landmark within the same province. [2]"
+    },
+    {
+      "question": "Is registration open?",
+      "answer": "Not yet confirmed as of this writing. Given Palawan's popularity as a tourist destination generally, demand could be significant once sign-ups open -- check official channels for updates before planning travel. [1]"
     }
   ],
-  "editorial_notes": "Auto-generated review.",
-  "last_updated": "2026-08-04",
+  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "published_at": "2026-08-09T08:15:00.000Z",
+  "last_updated": "2026-08-09",
   "status": "active"
 }

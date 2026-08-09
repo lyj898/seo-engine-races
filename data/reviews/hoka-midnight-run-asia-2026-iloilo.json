@@ -2,43 +2,61 @@
   "review_id": "hoka-midnight-run-asia-2026-iloilo",
   "slug": "hoka-midnight-run-asia-2026-iloilo",
   "entity_id": "hoka-midnight-run-asia-2026-iloilo",
-  "title": "HOKA Midnight Run Asia 2026 Iloilo Review: Runrio's Night Race in the City of Love",
-  "seo_title": "HOKA Midnight Run Iloilo 2026 Review | Philippines Night Race",
-  "meta_description": "HOKA Midnight Run Asia 2026 Iloilo: October 25 in Iloilo City. 21K, 10K, 5K from Runrio — a HOKA night race in the Philippines' City of Love.",
-  "dek": "Set for 25 October 2026 in Iloilo City, this HOKA-branded midnight run is produced by Runrio. Three distances. A brand-backed night race in one of the Philippines' most liveable cities.",
-  "verdict": "HOKA Midnight Run Asia brings the global performance-running brand's night-race concept to Iloilo City — the Philippines' 'City of Love,' known for its Dinagyang festival, heritage houses, and la paz batchoy. Produced by Runrio (the gold standard in Philippine race production), the event offers three distances (21K, 10K, 5K). Registration isn't open yet, but for a Runrio-HOKA collaboration in one of the country's most charming cities, this is a priority track. Iloilo's flat terrain and wide esplanade along the Iloilo River make for a fast, scenic night-race course.",
+  "title": "HOKA Midnight Run Asia 2026 Iloilo Review: A Nighttime Race in the City of Love",
+  "seo_title": "HOKA Midnight Run Asia Iloilo 2026 Review | RunRio",
+  "meta_description": "HOKA Midnight Run Asia 2026 Iloilo review: October 25 -- a premium shoe brand's nighttime race format comes to historic Iloilo City.",
+  "dek": "Set for 25 October 2026, this Iloilo leg brings HOKA's Midnight Run Asia nighttime race format to one of the Philippines' oldest cities, previously the country's second most important after Manila.",
+  "verdict": "HOKA Midnight Run Asia's Iloilo leg pairs a premium performance-shoe brand with one of the Philippines' most historically significant cities -- Iloilo was granted the honorific 'La Muy Leal y Noble Ciudad' in 1889 and had become the country's second most important city after Manila by the late 19th century. The 'Midnight Run' nighttime format, seen also at the Cebu leg covered elsewhere in this research, is a genuine departure from the pre-dawn starts typical of most Philippine road races. Three distances (21K/10K/5K) keep it standard, though registration status wasn't yet announced at the time of this research.",
   "rating": {
-    "overall": 72,
+    "overall": 68,
     "breakdown": [
       {
-        "label": "Organiser (Runrio)",
-        "score": 92
+        "label": "Brand prestige (HOKA)",
+        "score": 82
       },
       {
-        "label": "Brand (HOKA)",
-        "score": 85
+        "label": "Format novelty (nighttime race)",
+        "score": 76
       },
       {
-        "label": "Iloilo destination",
+        "label": "Destination (historic Iloilo City)",
         "score": 78
       },
       {
-        "label": "Registration",
-        "score": 35
+        "label": "Registration clarity & reviews",
+        "score": 32
       }
     ]
   },
   "sections": [
     {
-      "heading": "Iloilo: The City of Love",
+      "heading": "A Premium Brand's Nighttime Race in a Historic City",
       "paragraphs": [
-        "Iloilo is one of the Philippines' most underrated destinations — a city of heritage houses, the Iloilo River Esplanade (one of the country's best running paths), and a food scene that rivals anywhere in the country. [1] A Runrio-HOKA night race through the city's flat, well-lit streets is a premium racing experience in a city that rewards a weekend stay."
+        "The Iloilo leg of HOKA Midnight Run Asia offers 21K, 10K and 5K distances, organised by RunRio under the HOKA brand. [1] HOKA has built a genuinely strong reputation among serious distance runners for its cushioned-shoe technology -- a distinct brand tier from most other sponsors covered in this research batch."
+      ]
+    },
+    {
+      "heading": "Iloilo City: Once the Philippines' Second City",
+      "paragraphs": [
+        "Iloilo City is the regional centre of Western Visayas and one of the oldest cities in the Philippines, granted city status by royal decree in 1889 with the honorific title 'La Muy Leal y Noble Ciudad.' [2] By the late 19th century, it had become the second most important city in the Philippines after Manila -- a level of historical significance that gives race weekend genuine cultural depth."
+      ]
+    },
+    {
+      "heading": "The Midnight Format",
+      "paragraphs": [
+        "As with the Cebu leg of this same series covered elsewhere in this research, the 'Midnight Run' name signals a nighttime race format, distinct from the pre-dawn (3am-5am) starts typical of most Philippine road races. [1] That could mean cooler temperatures and a genuinely different race-day atmosphere, though exact start-time details weren't available."
+      ]
+    },
+    {
+      "heading": "Registration Not Yet Announced",
+      "paragraphs": [
+        "As of this writing, registration status has not been announced. [1] No independent participant reviews were found for this specific leg, consistent with it likely being a newer addition to RunRio's calendar of branded events."
       ]
     },
     {
       "heading": "Should You Run It?",
       "paragraphs": [
-        "A Runrio-HOKA night race in one of the Philippines' most charming cities. Watch runrio.com. 25 October 2026. [1]"
+        "If a HOKA-brand nighttime race format in one of the Philippines' most historically significant cities appeals, the Iloilo leg on 25 October 2026 offers something genuinely different from the region's typical pre-dawn race format. Watch official channels closely for registration to open."
       ]
     }
   ],
@@ -46,19 +64,35 @@
   "sources": [
     {
       "n": 1,
-      "label": "HOKA Midnight Run Asia Iloilo — Runrio",
-      "publisher": "Runrio",
-      "url": "https://runrio.com",
+      "label": "RunRio — race calendar",
+      "publisher": "RunRio",
+      "url": "https://runrio.com/race-calendar",
       "type": "official"
+    },
+    {
+      "n": 2,
+      "label": "Iloilo City — Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Iloilo_City_Proper",
+      "type": "other"
     }
   ],
   "faqs": [
     {
-      "question": "When is HOKA Midnight Run Iloilo 2026?",
-      "answer": "25 October 2026 in Iloilo City, Philippines. It offers 21K, 10K, and 5K. Registration is listed as not yet announced. Runrio (brand: HOKA Midnight Run Asia) organises the event. [1]"
+      "question": "When and where is HOKA Midnight Run Asia Iloilo 2026?",
+      "answer": "25 October 2026 in Iloilo City. Three distances are offered: 21K, 10K and 5K, organised by RunRio under the HOKA brand. Registration status has not yet been announced as of this writing. [1]"
+    },
+    {
+      "question": "What makes this race distinctive?",
+      "answer": "Its 'Midnight Run' name signals a nighttime race format, and it's held in Iloilo City -- once the Philippines' second most important city after Manila, granted royal city status in 1889. [1][2]"
+    },
+    {
+      "question": "Is there participant feedback available?",
+      "answer": "No independent reviews were found for this specific leg. It's likely a newer addition to RunRio's calendar of HOKA-branded events, similar to the Cebu leg of the same series covered elsewhere in this research. [1]"
     }
   ],
-  "editorial_notes": "Auto-generated review.",
-  "last_updated": "2026-08-04",
+  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "published_at": "2026-08-09T08:15:00.000Z",
+  "last_updated": "2026-08-09",
   "status": "active"
 }

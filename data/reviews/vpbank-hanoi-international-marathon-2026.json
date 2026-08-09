@@ -2,43 +2,61 @@
   "review_id": "vpbank-hanoi-international-marathon-2026",
   "slug": "vpbank-hanoi-international-marathon-2026",
   "entity_id": "vpbank-hanoi-international-marathon-2026",
-  "title": "VPBank Hanoi International Marathon 2026 Review: Hoan Kiem Lake to Walking Street",
-  "seo_title": "VPBank Hanoi Marathon 2026 Review | Hoan Kiem Lake Race",
-  "meta_description": "The VPBank Hanoi International Marathon 2026: October 18 from Hoan Kiem Lake. 42K to 5K with early-bird registration from VND 599K — Vietnam's lake-start marathon reviewed.",
-  "dek": "Set for 18 October 2026, starting at Hanoi's iconic Hoan Kiem Lake and finishing at Tran Nhan Tong walking street, this VPBank title-sponsored marathon offers four distances with early-bird registration from VND 599K. A bank-backed Vietnamese marathon with a world-class start line.",
-  "verdict": "The VPBank Hanoi International Marathon has one of the best start lines in Vietnam: Hoan Kiem Lake, the spiritual heart of Hanoi, with the red Huc Bridge and Ngoc Son Temple as your pre-dawn backdrop. Four distances (42K, 21K, 10K, 5K) with early-bird pricing from VND 599K (5K) to 999K (42K) — roughly USD 24-40 — making it one of the better-value bank-backed marathons in the region. VPBank's title sponsorship and the October date (Hanoi's cool, dry season onset) make this a strong pick in the Vietnamese calendar.",
+  "title": "VPBank Hanoi International Marathon 2026 Review: From Sword Lake to Walking Street",
+  "seo_title": "VPBank Hanoi Marathon 2026 Review | Hoan Kiem Lake",
+  "meta_description": "VPBank Hanoi International Marathon 2026 review: October 18, starting at Hoan Kiem Lake -- Hanoi's legendary Lake of the Returned Sword.",
+  "dek": "Set for 18 October 2026, this bank-backed marathon starts at Hoan Kiem Lake -- Hanoi's legendary 'Lake of the Returned Sword' -- and finishes at Tran Nhan Tong walking street, with Early Bird registration open.",
+  "verdict": "The VPBank Hanoi International Marathon starts at one of Vietnam's most storied landmarks: Hoan Kiem Lake, a freshwater lake at the historic centre of Hanoi tied to a 15th-century legend about a magical sword and a Golden Turtle. That's a genuinely evocative starting point, distinct from the mall- and stadium-anchored venues dominating most of this research batch. Backed by VPBank, a major Vietnamese bank, the race offers four distances from 5K to the full 42.195K, with Early Bird registration currently open. Finishing at Tran Nhan Tong walking street keeps the course within Hanoi's historic urban core.",
   "rating": {
-    "overall": 78,
+    "overall": 80,
     "breakdown": [
       {
-        "label": "Start line (Hoan Kiem)",
+        "label": "Course significance (Hoan Kiem Lake start)",
         "score": 92
       },
       {
-        "label": "Value (pricing)",
-        "score": 85
+        "label": "Bank backing & production",
+        "score": 78
       },
       {
-        "label": "Sponsor (VPBank)",
-        "score": 80
+        "label": "Distance range",
+        "score": 76
       },
       {
-        "label": "Registration",
-        "score": 82
+        "label": "Independent reviews for this specific race",
+        "score": 45
       }
     ]
   },
   "sections": [
     {
-      "heading": "Hoan Kiem Lake: Hanoi's Spiritual Centre",
+      "heading": "Starting at the Lake of the Returned Sword",
       "paragraphs": [
-        "Starting at Hoan Kiem Lake — the heart of Hanoi's old quarter, with the red Huc Bridge, Ngoc Son Temple, and Turtle Tower — gives this race a start-line experience comparable to the Bangkok Marathon's Grand Palace start. [1] The point-to-point course finishes at Tran Nhan Tong walking street, threading through Hanoi's French Quarter and lakeside boulevards. October is the onset of Hanoi's cool, dry season."
+        "The race starts at Hoan Kiem Lake and finishes at Tran Nhan Tong walking street, offering four distances: 5K, 10K, 21.1K and the 42.195K full marathon. [1] Hoan Kiem Lake -- meaning 'Lake of the Returned Sword' -- is a 12-hectare freshwater lake at the historic centre of Hanoi, roughly 700m long and 250m wide. [2]"
+      ]
+    },
+    {
+      "heading": "A 15th-Century Legend Behind the Name",
+      "paragraphs": [
+        "The lake's name comes from a legend in which King Le Loi received a magical sword from the Dragon King to defeat Chinese invaders; after his victory, a Golden Turtle surfaced while he was boating on the lake and requested the sword back, which he returned -- giving the lake its name. [2] The lake is now surrounded by the Ngoc Son Temple complex, The Huc Bridge, and Turtle Tower, landmarks that give this marathon's starting point genuine cultural and legendary weight beyond a typical urban plaza."
+      ]
+    },
+    {
+      "heading": "Bank-Backed With Early Bird Pricing",
+      "paragraphs": [
+        "VPBank, one of Vietnam's major private banks, backs the race with Early Bird pricing currently available: VND 999,000 for the 42K, 899,000 for the 21K, 699,000 for the 10K, and 599,000 for the 5K. [1] That kind of institutional financial backing suggests a well-resourced production, similar to the Techcombank Hanoi Marathon covered elsewhere in this research."
+      ]
+    },
+    {
+      "heading": "Two Hanoi Marathons to Distinguish",
+      "paragraphs": [
+        "Notably, this is a separate event from the Techcombank Hanoi International Marathon (5th edition) covered elsewhere in this batch -- both are bank-backed Hanoi marathons but with different sponsors, start points and dates. Runners researching Hanoi marathons should confirm which specific race and sponsor they're registering for."
       ]
     },
     {
       "heading": "Should You Run It?",
       "paragraphs": [
-        "A VPBank-backed Hanoi marathon with a Hoan Kiem Lake start and early-bird pricing. Registration open. 18 October 2026. [1]"
+        "If starting a marathon at one of Vietnam's most legendarily significant landmarks appeals, the VPBank Hanoi International Marathon on 18 October 2026 offers genuine cultural weight alongside solid bank-backed production. Early Bird registration is open now -- worth locking in before standard pricing kicks in."
       ]
     }
   ],
@@ -46,23 +64,35 @@
   "sources": [
     {
       "n": 1,
-      "label": "VPBank Hanoi International Marathon — official website",
+      "label": "VPBank Hanoi International Marathon — official site",
       "publisher": "VPBank",
       "url": "https://vpbankmarathon.com",
       "type": "official"
+    },
+    {
+      "n": 2,
+      "label": "Hoàn Kiếm Lake — Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ho%C3%A0n_Ki%E1%BA%BFm_Lake",
+      "type": "other"
     }
   ],
   "faqs": [
     {
-      "question": "When is the VPBank Hanoi Marathon 2026?",
-      "answer": "18 October 2026 — starting at Hoan Kiem Lake, finishing at Tran Nhan Tong walking street, Hanoi. It offers 42.2K, 21.1K, 10K, and 5K. Registration is currently open. VPBank organises the event. It's held at Start Hoan Kiem Lake, finish Tran Nhan Tong walking street, Hanoi. [1]"
+      "question": "Where does the VPBank Hanoi International Marathon start?",
+      "answer": "At Hoan Kiem Lake, a historic 12-hectare freshwater lake at Hanoi's centre tied to a 15th-century legend of a magical sword. The race finishes at Tran Nhan Tong walking street, on 18 October 2026, with four distances from 5K to the full marathon. [1][2]"
     },
     {
-      "question": "What does it cost?",
-      "answer": "Early-bird: 5K VND 599K, 10K 699K, 21K 899K, 42K 999K (approx USD 24-40). Entry costs VND 42K 999,000 / 21K 899,000 / 10K 699,000 / 5K 599,000 (Early Bird). It offers 42.2K, 21.1K, 10K, and 5K. [1]"
+      "question": "Is this the same race as the Techcombank Hanoi Marathon?",
+      "answer": "No -- they're separate bank-backed marathons in Hanoi, with different sponsors (VPBank vs. Techcombank), start points and dates. Confirm which specific event you're registering for when researching Hanoi marathons. [1]"
+    },
+    {
+      "question": "What does registration cost?",
+      "answer": "Early Bird pricing is currently VND 999,000 for the 42K, 899,000 for the 21K, 699,000 for the 10K, and 599,000 for the 5K -- worth registering now before standard pricing takes effect. [1]"
     }
   ],
-  "editorial_notes": "Auto-generated review.",
-  "last_updated": "2026-08-04",
+  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "published_at": "2026-08-09T08:15:00.000Z",
+  "last_updated": "2026-08-09",
   "status": "active"
 }
