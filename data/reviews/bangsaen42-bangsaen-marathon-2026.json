@@ -2,43 +2,61 @@
   "review_id": "bangsaen42-bangsaen-marathon-2026",
   "slug": "bangsaen42-bangsaen-marathon-2026",
   "entity_id": "bangsaen42-bangsaen-marathon-2026",
-  "title": "Bangsaen42 Marathon 2026 Review: Thailand's Beachside Full Marathon at Bang Saen",
-  "seo_title": "Bangsaen42 Marathon 2026 Review | Bang Saen Chonburi Thailand",
-  "meta_description": "Bangsaen42 (Bangsaen Marathon) 2026: November 15 at Bang Saen Beach, Chonburi. 42K, 21K, and 10K — the full marathon companion to Bangsaen21 reviewed.",
-  "dek": "Set for 15 November 2026 at Bang Saen Beach, this is the full marathon companion to the popular Bangsaen21 half. Three distances (42K, 21K, 10K). Registration isn't open yet, but the Bang Saen beachfront setting is the proven draw.",
-  "verdict": "Bangsaen42 is the full marathon extension of the Bangsaen21 concept: a beachfront road race on the Bang Saen coastal strip, roughly an hour from Bangkok. Three distances (42K, 21K, 10K) with the full marathon as the headliner. The November date offers cooling Gulf-of-Thailand conditions, and the flat coastal road is a genuine PB opportunity. Registration isn't open yet, but for runners who want the Bang Saen beach-race experience at the full marathon distance, this is the one to track.",
+  "title": "Bangsaen42 Marathon 2026 Review: Racing at Thailand's First Beach Resort",
+  "seo_title": "Bangsaen42 Marathon 2026 Review | Chonburi, Thailand",
+  "meta_description": "Bangsaen42 Marathon 2026 review: November 15 at Bang Saen Beach -- Thailand's first government-built holiday resort, dating to 1943.",
+  "dek": "Set for 15 November 2026 at Bang Saen Beach, this marathon runs along Thailand's oldest purpose-built holiday resort, established in 1943 and steeped in local folklore about two star-crossed lovers.",
+  "verdict": "The Bangsaen42 Marathon runs along one of Thailand's most historically significant beach resorts -- Bang Saen, where the government built the country's first holiday resort in 1943. The beach's name itself carries genuine local folklore weight, tied to a tragic love story about two young Chonburi lovers whose names became attached to several nearby landmarks. Three distances (10K/21.1K/42.195K) put this squarely in serious-runner territory, without a shorter fun-run category. Organiser details weren't confirmed in research, and registration status is not yet announced.",
   "rating": {
-    "overall": 72,
+    "overall": 68,
     "breakdown": [
       {
-        "label": "Beachfront course",
-        "score": 85
-      },
-      {
-        "label": "Accessibility from BKK",
+        "label": "Historical significance (Thailand's first resort)",
         "score": 82
       },
       {
-        "label": "Distance range",
-        "score": 72
+        "label": "Beach setting & proximity to Bangkok/Pattaya",
+        "score": 78
       },
       {
-        "label": "Registration",
-        "score": 38
+        "label": "Distance focus (no shorter fun-run)",
+        "score": 62
+      },
+      {
+        "label": "Organiser clarity",
+        "score": 35
       }
     ]
   },
   "sections": [
     {
-      "heading": "Bang Saen: Bangkok's Closest Beach",
+      "heading": "Racing at Thailand's First Purpose-Built Resort",
       "paragraphs": [
-        "Bang Saen is roughly 80km from Bangkok, making it the most accessible beach destination for the capital's running community. [1] The coastal road is flat, wide, and palm-lined — a fast marathon course with sea views. November brings cool-season conditions to the Gulf coast."
+        "The Bangsaen42 Marathon offers three distances: 10K, 21.1K and the 42.195K full marathon, at Bang Saen Beach in Chonburi. [1] Bang Saen is genuinely historically significant: in 1943, the Thai government built the country's first purpose-built holiday resort there. [2] The beach itself stretches roughly 2.5km and sits about 108km east of Bangkok, close to both the capital and the larger resort city of Pattaya."
+      ]
+    },
+    {
+      "heading": "A Beach Named for a Tragic Love Story",
+      "paragraphs": [
+        "The name Bang Saen comes from local folklore about two young Chonburi lovers, Saen and Sam Muk, whose unrequited love led them to throw themselves off a cliff together. [2] Their names became attached to several nearby Chonburi landmarks, including Khao Sam Muk, a low hill near the beach -- giving the race route genuine cultural texture beyond a generic coastal course."
+      ]
+    },
+    {
+      "heading": "Serious Distances Only",
+      "paragraphs": [
+        "Unlike most races in this research batch, Bangsaen42 offers no category shorter than 10K -- the field spans 10K, 21.1K and the full marathon. [1] That focus signals an event aimed at committed distance runners rather than casual or family participants, similar to the Selangor Marathon's marathon-and-half-only format covered elsewhere in this research."
+      ]
+    },
+    {
+      "heading": "Organiser and Registration Details Thin",
+      "paragraphs": [
+        "Available research material didn't confirm a specific organiser for this edition, and registration status has not yet been announced. [1] Prospective participants should check the official Bangsaen42 site directly for updates closer to the 15 November 2026 race date."
       ]
     },
     {
       "heading": "Should You Run It?",
       "paragraphs": [
-        "If you want a beachside full marathon within an hour of Bangkok, track Bangsaen42. 15 November 2026 at Bang Saen Beach, Chonburi. [1]"
+        "If you want a serious-distance marathon at one of Thailand's most historically resonant beach resorts -- with genuine folklore woven into the local geography -- Bangsaen42 on 15 November 2026 is a strong pick for committed distance runners. Watch official channels for registration to open."
       ]
     }
   ],
@@ -46,19 +64,35 @@
   "sources": [
     {
       "n": 1,
-      "label": "Bangsaen42 — official website",
-      "publisher": "Bangsaen42",
+      "label": "Bangsaen42 Marathon 2026 — official site",
+      "publisher": "bangsaen42.com",
       "url": "https://www.bangsaen42.com",
       "type": "official"
+    },
+    {
+      "n": 2,
+      "label": "Bang Saen Beach — Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bang_Saen_Beach",
+      "type": "other"
     }
   ],
   "faqs": [
     {
-      "question": "When is Bangsaen42 2026?",
-      "answer": "15 November 2026 at Bang Saen Beach, Chonburi, Thailand. It offers 42.2K, 21.1K, and 10K. Not confirmed this pass organises the event. Mark it on your calendar if you're planning your racing year around it. [1]"
+      "question": "What distances are offered at Bangsaen42?",
+      "answer": "Three: 10K, 21.1K and the 42.195K full marathon -- no shorter fun-run category, signalling a race focused on committed distance runners. It's held at Bang Saen Beach on 15 November 2026. [1]"
+    },
+    {
+      "question": "Why is Bang Saen a historically significant venue?",
+      "answer": "The Thai government built the country's first purpose-built holiday resort there in 1943. The beach's name also comes from local folklore about two tragic young lovers, whose names are attached to several nearby Chonburi landmarks. [2]"
+    },
+    {
+      "question": "Is registration open?",
+      "answer": "Not yet announced as of this writing, and a specific organiser for this edition wasn't confirmed in research. Check the official Bangsaen42 site directly for updates before planning travel. [1]"
     }
   ],
-  "editorial_notes": "Auto-generated review.",
-  "last_updated": "2026-08-04",
+  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "published_at": "2026-08-09T08:45:00.000Z",
+  "last_updated": "2026-08-09",
   "status": "active"
 }

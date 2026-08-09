@@ -2,43 +2,61 @@
   "review_id": "sante-barley-trilogy-run-asia-2026-national-finals",
   "slug": "sante-barley-trilogy-run-asia-2026-national-finals",
   "entity_id": "sante-barley-trilogy-run-asia-2026-national-finals",
-  "title": "Sante Barley Trilogy Run Asia 2026 National Finals Review: Runrio's Championship at SM MOA",
-  "seo_title": "Sante Barley Trilogy Run Asia Finals 2026 Review | Philippines",
-  "meta_description": "The Sante Barley Trilogy Run Asia 2026 National Finals: November 11 at SM Mall of Asia, Pasay. Full marathon to 5K from Runrio — the Philippines' trilogy-series championship reviewed.",
-  "dek": "Set for 11 November 2026 at SM Mall of Asia in Pasay, this Runrio-produced National Finals is the championship round of the Sante Barley Trilogy Run Asia series. Four distances from 5K to full marathon.",
-  "verdict": "The Sante Barley Trilogy Run Asia National Finals is a major Philippine road race: the championship round of a multi-leg series produced by Runrio, held at SM Mall of Asia — Manila Bay's iconic waterfront retail complex. Four distances (42K, 21K, 10K, 5K) and Runrio's gold-standard production values make this one of the more significant events on the Philippine calendar. Registration isn't open yet, but for a Runrio championship event, the operational template is proven and the scale is substantial.",
+  "title": "Sante Barley Trilogy Run Asia 2026 National Finals Review: The 42K Payoff",
+  "seo_title": "Trilogy Run Asia National Finals 2026 Review | Manila",
+  "meta_description": "Sante Barley Trilogy Run Asia 2026 National Finals review: November 11 at SM Mall of Asia -- the full-marathon culmination of the year-long Trilogy series.",
+  "dek": "Set for 11 November 2026 at SM Mall of Asia, this is the culminating National Finals of the year-long Sante Barley Trilogy Run Asia series -- the event runners across Iloilo, Manila, Cebu, CDO and Davao have been building toward all year.",
+  "verdict": "The National Finals is the payoff for the entire Sante Barley Trilogy Run Asia structure covered across this research batch: complete the progressive distances at Iloilo Leg 3 (32K), Manila Leg 3 (32K), Cebu Leg 3 (32K), CDO Leg 3 (32K) or Davao Leg 3 (32K), and you qualify for the 42K category here. Four distances from 5K to the full marathon, at SM Mall of Asia -- the series' most-used venue -- make this the natural culmination point of the whole regional circuit. Registration status wasn't yet announced at the time of this research, likely because most entrants qualify through their regional leg rather than signing up independently.",
   "rating": {
     "overall": 78,
     "breakdown": [
       {
-        "label": "Organiser (Runrio)",
-        "score": 92
+        "label": "Series culmination & qualification structure",
+        "score": 90
       },
       {
-        "label": "Event significance",
-        "score": 85
+        "label": "Venue (SM Mall of Asia, series' hub)",
+        "score": 84
       },
       {
-        "label": "Venue (SM MOA)",
-        "score": 78
+        "label": "Distance range",
+        "score": 76
       },
       {
-        "label": "Registration",
-        "score": 35
+        "label": "Registration clarity",
+        "score": 42
       }
     ]
   },
   "sections": [
     {
-      "heading": "The Series: Trilogy Run Asia",
+      "heading": "The Culmination of a Year-Long Series",
       "paragraphs": [
-        "The Sante Barley Trilogy Run Asia is a nationwide Philippine series with multiple qualifying legs culminating in the National Finals. [1] Runrio's production — chip timing, entertainment zones, finisher medals, and a professional race-day operation — sets the standard for Philippine road racing."
+        "The National Finals offers four distances: 5K, 10K, 21K and the 42.195K full marathon, at SM Mall of Asia, Pasay. [1] This is the event that the entire Trilogy Run Asia progressive structure -- covered at its Iloilo, Manila, Cebu, CDO and Davao legs elsewhere in this research batch -- builds toward across the calendar year."
+      ]
+    },
+    {
+      "heading": "How Runners Qualify for the 42K",
+      "paragraphs": [
+        "Completing the 16K in each city's Leg 1, the 21K in Leg 2, and the 32K in Leg 3 -- in any host city -- qualifies a runner for the 42K category at the National Finals. [1] That structure rewards sustained participation across the year rather than a single race-day effort, giving the National Finals genuine narrative weight for anyone who's followed the series through its regional legs."
+      ]
+    },
+    {
+      "heading": "The Series' Most-Used Venue",
+      "paragraphs": [
+        "SM Mall of Asia hosts the National Finals, just as it hosts Manila Leg 3 and several other RunRio-organised races covered elsewhere in this research batch (Decathlon Run, Sunnies Run, Garmin's Philippine leg). [2] That familiarity and repeat use suggests genuinely tested large-scale event logistics for the series' biggest single day."
+      ]
+    },
+    {
+      "heading": "Registration Likely Tied to Series Qualification",
+      "paragraphs": [
+        "As of this writing, registration status has not been announced. [1] Given that the 42K category is specifically gated behind completing the regional legs' progressive distances, it's plausible that open registration (for the shorter, non-qualifying distances) opens later or separately from qualification-based 42K entry."
       ]
     },
     {
       "heading": "Should You Run It?",
       "paragraphs": [
-        "A Runrio championship event at SM MOA is one of the Philippines' premier race-day experiences. Watch runrio.com for registration. 11 November 2026. [1]"
+        "If you've completed the Trilogy Run Asia series' regional legs this year, the National Finals on 11 November 2026 is the natural, earned culmination of that journey. For runners new to the series, the shorter 5K/10K/21K categories still offer entry into one of the Philippines' largest single race-day events."
       ]
     }
   ],
@@ -46,19 +64,35 @@
   "sources": [
     {
       "n": 1,
-      "label": "Sante Barley Trilogy Run Asia — Runrio",
-      "publisher": "Runrio",
+      "label": "RunRio — Sante Barley Trilogy Run Asia race calendar",
+      "publisher": "RunRio",
+      "url": "https://runrio.com/race-calendar",
+      "type": "official"
+    },
+    {
+      "n": 2,
+      "label": "RunRio — official site",
+      "publisher": "RunRio",
       "url": "https://runrio.com",
       "type": "official"
     }
   ],
   "faqs": [
     {
-      "question": "When is the Sante Barley National Finals 2026?",
-      "answer": "11 November 2026 at SM Mall of Asia, Pasay, Philippines. It offers 42K, 21K, 10K, and 5K. Registration is listed as not yet announced. Runrio (brand: Sante Barley Trilogy Run Asia) organises the event. [1]"
+      "question": "How do I qualify for the 42K at the National Finals?",
+      "answer": "By completing the 16K in Leg 1, 21K in Leg 2, and 32K in Leg 3 of the Trilogy Run Asia series, in any host city (Iloilo, Manila, Cebu, CDO, Davao). That progressive completion earns entry into the full marathon category here. [1]"
+    },
+    {
+      "question": "When and where is the National Finals?",
+      "answer": "11 November 2026 at SM Mall of Asia, Pasay -- the venue also used for the series' Manila Leg 3 and several other RunRio-organised races. Four distances are offered: 5K, 10K, 21K and the 42.195K full marathon. [1]"
+    },
+    {
+      "question": "Can I enter without completing the regional legs?",
+      "answer": "The shorter distances (5K, 10K, 21K) are likely open to general entry, but the 42K full marathon is specifically gated behind completing the progressive regional-leg distances across the year. Registration status has not yet been announced. [1]"
     }
   ],
-  "editorial_notes": "Auto-generated review.",
-  "last_updated": "2026-08-04",
+  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "published_at": "2026-08-09T08:45:00.000Z",
+  "last_updated": "2026-08-09",
   "status": "active"
 }
