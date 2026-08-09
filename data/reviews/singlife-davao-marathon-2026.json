@@ -2,43 +2,67 @@
   "review_id": "singlife-davao-marathon-2026",
   "slug": "singlife-davao-marathon-2026",
   "entity_id": "singlife-davao-marathon-2026",
-  "title": "Singlife Davao Marathon 2026 Review: RUNRIO's Mindanao Flagship",
-  "seo_title": "Singlife Davao Marathon 2026 Review | Mindanao Philippines",
-  "meta_description": "Singlife Davao Marathon 2026: August 15 at SM City Lanang, Davao. RUNRIO-produced, Singlife-backed — Mindanao's premier marathon reviewed.",
-  "dek": "Set for 15 August 2026 at SM City Lanang in Davao City, this RUNRIO-produced, Singlife-backed marathon is Mindanao's flagship road race. Four distances.",
-  "verdict": "The Singlife Davao Marathon is Mindanao's premier marathon — a RUNRIO-produced, Singlife insurance-backed race at SM City Lanang in Davao City, the 'Durian Capital' of the Philippines. RUNRIO's gold-standard production ensures professional timing and race-day operations. Davao is Mindanao's largest city and a major destination in its own right — Mount Apo, the Philippine Eagle Centre, and some of the best fruit in the country. August in Davao is relatively dry. A top-tier Philippine marathon on the country's southern island.",
+  "title": "Singlife Davao Marathon 2026 Review: RunRio's Kadayawan-Weekend Debut",
+  "seo_title": "Singlife Davao Marathon 2026 Review | Philippines Race",
+  "meta_description": "Singlife Davao Marathon 2026 review: August 15 at SM City Lanang, the fifth Marathon Majors leg, timed right before Kadayawan Festival opens.",
+  "dek": "Set for 15 August 2026 at SM City Lanang, this inaugural Davao leg of the Singlife Philippine Marathon Majors series lands the day before Kadayawan Festival opens -- four distances and RunRio production, with no track record yet.",
+  "verdict": "The Singlife Davao Marathon is a first-year race riding RunRio's established production model into a city that hasn't hosted a Marathon Majors leg before. Four distances from 5K to the full marathon, a mall-anchored start/finish at SM City Lanang, and deliberate timing the day before Kadayawan Festival opens give it a strong structural case -- Davao's biggest cultural celebration is right there waiting for finishers. The catch is that it's genuinely untested: no past edition, no participant reports, nothing beyond organiser marketing. Suits runners comfortable betting on RunRio's track record elsewhere; not for those who want proof before they commit.",
   "rating": {
-    "overall": 76,
+    "overall": 62,
     "breakdown": [
       {
-        "label": "Organiser (RUNRIO)",
-        "score": 92
-      },
-      {
-        "label": "Davao destination",
-        "score": 80
-      },
-      {
-        "label": "Brand (Singlife)",
+        "label": "RunRio production pedigree",
         "score": 78
       },
       {
-        "label": "Registration",
-        "score": 70
+        "label": "Kadayawan timing bonus",
+        "score": 82
+      },
+      {
+        "label": "Venue & logistics",
+        "score": 66
+      },
+      {
+        "label": "Track record (debut race)",
+        "score": 20
       }
     ]
   },
   "sections": [
     {
-      "heading": "RUNRIO Brings Gold Standard to Davao",
+      "heading": "SM City Lanang and the Fifth Marathon Majors Leg",
       "paragraphs": [
-        "RUNRIO's production at SM City Lanang — Davao's premier shopping complex — means professional timing, well-stocked aid stations, and a proven race-day template. [1] Singlife's insurance branding adds commercial credibility. Davao in August is relatively dry by Mindanao standards."
+        "The race starts and finishes at SM City Lanang (SM Lanang Premier) on J.P. Laurel Avenue in Agdao, Davao City -- the fifth leg of the Singlife Philippine Marathon Majors series, jointly run by RunRio, Singlife, Kinetix Sports and SM Supermalls. [1] A mall-anchored venue means parking, shelter and post-race food are already built in, which matters for a debut event still finding its operational footing."
+      ]
+    },
+    {
+      "heading": "Timed for Kadayawan: Race Weekend Into Festival",
+      "paragraphs": [
+        "Race day falls the day before Kadayawan Festival opens -- Davao's biggest annual cultural celebration, with street parades, floral floats and indigenous tribal showcases. [1] Finishing a marathon and walking straight into festival weekend is a genuine scheduling win, not an afterthought; it's the kind of detail that turns a race trip into a proper visit."
+      ]
+    },
+    {
+      "heading": "Distances and the Debut Field",
+      "paragraphs": [
+        "Four distances are on offer -- 42.195K, 21.1K, 10K and 5K -- with organisers targeting 4,000 to 6,000 local and international participants for this first Davao edition. [1] Roughly ₱1.2 million in cash prizes is on the table, plus a BYD Seagull raffle vehicle, a sizeable incentive package for a race with no prior edition to point to."
+      ]
+    },
+    {
+      "heading": "Getting to Davao City",
+      "paragraphs": [
+        "Davao City is Mindanao's largest city and a major southern Philippine air hub, with direct domestic flights and international connections routed mainly through Manila. [2] That connectivity makes the trip straightforward for runners based elsewhere in the country, even for a first-year, unproven event."
+      ]
+    },
+    {
+      "heading": "What We Don't Know Yet",
+      "paragraphs": [
+        "As a brand-new event, there's no first-hand participant feedback on course conditions, water stations, or how race-day organisation actually holds up -- everything on file so far is pre-race promotional material. [1] Ahotu's event listing for the race explicitly notes \"no reviews yet,\" which is simply the honest state of a debut leg."
       ]
     },
     {
       "heading": "Should You Run It?",
       "paragraphs": [
-        "RUNRIO's Mindanao flagship marathon. 15 August 2026 at SM City Lanang, Davao. [1]"
+        "If you trust RunRio's production track record from its other Marathon Majors legs and want a race weekend that rolls straight into Kadayawan Festival, the Singlife Davao Marathon is a reasonable bet for 15 August 2026. If you'd rather wait for a first-edition report before committing travel and entry fees, this is one to watch rather than book immediately."
       ]
     }
   ],
@@ -46,19 +70,35 @@
   "sources": [
     {
       "n": 1,
-      "label": "Singlife Davao Marathon — event info",
-      "publisher": "RUNRIO / Singlife",
+      "label": "Singlife Davao Marathon — official race site",
+      "publisher": "RunRio",
       "url": "https://runrio.com",
       "type": "official"
+    },
+    {
+      "n": 2,
+      "label": "Davao City — Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Davao_City",
+      "type": "other"
     }
   ],
   "faqs": [
     {
-      "question": "When is Singlife Davao Marathon 2026?",
-      "answer": "15 August 2026 at SM City Lanang, Davao City. It offers 42.2K, 21.1K, 10K, and 5K. Registration is currently open. RUNRIO Inc. organises the event. Mark it on your calendar if you're planning your racing year around it. [1]"
+      "question": "When is the Singlife Davao Marathon 2026?",
+      "answer": "15 August 2026 at SM City Lanang, Davao City, Philippines -- the day before Kadayawan Festival opens. It's the fifth leg of the Singlife Philippine Marathon Majors series, organised by RunRio with Kinetix Sports and SM Supermalls. Registration is currently open. [1]"
+    },
+    {
+      "question": "What distances are offered?",
+      "answer": "Four distances: the 42.195K full marathon, 21.1K half marathon, 10K, and 5K, all starting and finishing at SM City Lanang. Organisers are targeting 4,000-6,000 participants for this debut Davao edition, with roughly ₱1.2 million in cash prizes on offer. [1]"
+    },
+    {
+      "question": "Is this race worth booking sight unseen?",
+      "answer": "That depends on your risk tolerance. It's RunRio's first Davao leg, so there's no participant track record -- Ahotu's listing explicitly says \"no reviews yet.\" The venue, timing and prize pool are solid on paper, but everything is pre-race promotional material for now. [1]"
     }
   ],
-  "editorial_notes": "Auto-generated review.",
+  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and already-researched entity material (research_highlights/watchouts), plus one supplementary background source. Prose is original synthesis. Safe to hand-edit.",
+  "published_at": "2026-08-09T06:30:00.000Z",
   "last_updated": "2026-08-09",
   "status": "active"
 }

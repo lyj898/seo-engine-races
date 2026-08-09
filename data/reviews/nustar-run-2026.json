@@ -2,43 +2,67 @@
   "review_id": "nustar-run-2026",
   "slug": "nustar-run-2026",
   "entity_id": "nustar-run-2026",
-  "title": "NUSTAR Run 2026 Review: Cebu's Luxury Resort Road Race",
-  "seo_title": "NUSTAR Run 2026 Review | Cebu Philippines Resort Race",
-  "meta_description": "NUSTAR Run 2026: August 23 at NUSTAR Resort, Cebu City. A luxury resort-anchored road race in the Queen City of the South.",
-  "dek": "Set for 23 August 2026 at NUSTAR Resort in Cebu City, this resort-organised race brings road racing to Cebu's premier luxury integrated resort complex.",
-  "verdict": "The NUSTAR Run is a resort-organised road race at NUSTAR Resort — Cebu's premier luxury integrated resort complex with a casino, hotels, and waterfront dining. A resort-anchored race means quality amenities, convenient logistics (stay where you race), and a polished finish-line experience. August in Cebu is the transition into the northeast monsoon — warm and humid. For runners wanting a Cebu race with resort-level production values and a luxury backdrop, this is a distinctive pick.",
+  "title": "NUSTAR Run 2026 Review: Cebu Resort Debut Led by a First Female Race Director",
+  "seo_title": "NUSTAR Run 2026 Review | Cebu City Race, Philippines",
+  "meta_description": "NUSTAR Run 2026 review: August 23 at NUSTAR Resort, Cebu City -- a debut race with six distances, led by Cebu's first female race director.",
+  "dek": "Set for 23 August 2026 at NUSTAR Resort on Cebu's South Road Properties, this inaugural race spans six distances from 1KM to 21KM, led by Janice Pasculado -- Cebu's first female race director -- and folded into the resort's month-long wellness campaign.",
+  "verdict": "The NUSTAR Run is a first-year event with an unusually wide distance spread -- six categories from a 1KM fun run up to a 21KM half marathon -- anchored at a resort venue on Cebu's reclaimed South Road Properties. The notable hook is Janice Pasculado, described as Cebu's first female race director, and the race's tie to the Kapwa Ko Mahal Ko Foundation gives it a charitable throughline. As a debut event folded into the resort's 'In Full Balance' Wellness Month campaign, it reads more like a resort-branded community run than a serious performance race -- fine for casual and family entries, less so for runners chasing certified times, and there's no participant history yet to judge it by.",
   "rating": {
-    "overall": 67,
+    "overall": 58,
     "breakdown": [
       {
-        "label": "Resort venue",
-        "score": 85
+        "label": "Distance range & accessibility",
+        "score": 80
       },
       {
-        "label": "Cebu destination",
-        "score": 78
+        "label": "Resort venue & amenities",
+        "score": 68
       },
       {
-        "label": "Production values",
-        "score": 72
+        "label": "Community/charity angle",
+        "score": 70
       },
       {
-        "label": "Registration",
-        "score": 35
+        "label": "Debut event, unclear registration",
+        "score": 28
       }
     ]
   },
   "sections": [
     {
-      "heading": "NUSTAR: Cebu's Luxury Resort",
+      "heading": "A Resort Debut on Cebu's South Road Properties",
       "paragraphs": [
-        "NUSTAR is Cebu's premier integrated resort — a waterfront complex with luxury hotels, dining, and a casino. [1] A race anchored here benefits from resort-level amenities and a polished event experience. Cebu City's flat roads and August conditions round out a solid race package."
+        "This is the first-ever edition of NUSTAR Run, scheduled for 23 August 2026 and starting at NUSTAR Resort on Cebu City's South Road Properties (SRP). [1] As a debut event, there's no prior-year participant feedback to draw on -- everything currently available is organiser and event-listing material."
+      ]
+    },
+    {
+      "heading": "Six Distances, an Unusually Wide Spread",
+      "paragraphs": [
+        "Race distances span 21KM, 16KM, 10KM, 6KM, 3KM and 1KM, all starting from the NUSTAR venue. [1] Note that the entity's core facts list only the 21.1K half marathon as the confirmed primary distance -- the fuller six-category spread comes from organiser event listings and hasn't been independently verified beyond that, so treat the shorter/odd distances (16K, 6K) as provisional until official race-day categories are confirmed."
+      ]
+    },
+    {
+      "heading": "Cebu's First Female Race Director",
+      "paragraphs": [
+        "The race is led by Janice Pasculado, described in organiser materials as Cebu's first female race director -- a genuine point of distinction in Philippine race organising. [1] Proceeds benefit the Kapwa Ko Mahal Ko Foundation, giving the event a charitable component beyond the resort branding."
+      ]
+    },
+    {
+      "heading": "Part of a Resort Wellness Campaign",
+      "paragraphs": [
+        "NUSTAR Run sits inside NUSTAR Resort's month-long 'In Full Balance' Wellness Month 2026 campaign, which also includes yoga and sound healing sessions at the resort. [1] That framing suggests the race is designed as much as a resort-brand activation and community event as a standalone competitive race -- worth knowing if you're expecting a serious, certified course."
+      ]
+    },
+    {
+      "heading": "Registration Not Yet Announced",
+      "paragraphs": [
+        "As of this writing, registration status for NUSTAR Run 2026 has not been formally announced, though organiser material points to sign-up via myruntime.com/register/nustar-run-2026 with an early-bird pricing period. [1] Worth checking that link directly closer to race day rather than assuming entries are already open."
       ]
     },
     {
       "heading": "Should You Run It?",
       "paragraphs": [
-        "A luxury resort-anchored Cebu race. Track for details. 23 August 2026 at NUSTAR Resort, Cebu. [1]"
+        "If a resort-anchored, family-friendly race in Cebu City with a charitable angle and a notable first-time female race director appeals, NUSTAR Run on 23 August 2026 is a reasonable pick, especially at the shorter distances. Runners chasing a certified, competitive half marathon time should treat this as an unproven debut event and confirm the actual distance categories before entering."
       ]
     }
   ],
@@ -46,19 +70,28 @@
   "sources": [
     {
       "n": 1,
-      "label": "NUSTAR Run — event listing",
-      "publisher": "Pinoy Fitness",
-      "url": "https://www.pinoyfitness.com",
-      "type": "aggregator"
+      "label": "NUSTAR Run 2026 — registration & event details",
+      "publisher": "myruntime.com",
+      "url": "https://myruntime.com/register/nustar-run-2026",
+      "type": "registration_platform"
     }
   ],
   "faqs": [
     {
-      "question": "When is NUSTAR Run 2026?",
-      "answer": "23 August 2026 at NUSTAR Resort, Cebu City. It offers 21.1K. Registration is listed as not yet announced. Mark it on your calendar if you're planning your racing year around it. [1]"
+      "question": "When and where is NUSTAR Run 2026?",
+      "answer": "23 August 2026 at NUSTAR Resort on Cebu City's South Road Properties (SRP). It's the first-ever edition of the event, led by Janice Pasculado, described as Cebu's first female race director. [1]"
+    },
+    {
+      "question": "What distances are offered?",
+      "answer": "Organiser listings mention six categories -- 21KM, 16KM, 10KM, 6KM, 3KM and 1KM -- though only the 21.1K half marathon is currently confirmed as the primary distance. Confirm the full category list via myruntime.com closer to race day. [1]"
+    },
+    {
+      "question": "Does this race support a cause?",
+      "answer": "Yes -- NUSTAR Run benefits the Kapwa Ko Mahal Ko Foundation and is part of NUSTAR Resort's 'In Full Balance' Wellness Month 2026 campaign, which also includes yoga and sound healing sessions at the resort. [1]"
     }
   ],
-  "editorial_notes": "Auto-generated review.",
+  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and already-researched entity material (research_highlights/watchouts), plus supplementary background sources. Prose is original synthesis. Safe to hand-edit.",
+  "published_at": "2026-08-09T06:30:00.000Z",
   "last_updated": "2026-08-09",
   "status": "active"
 }
