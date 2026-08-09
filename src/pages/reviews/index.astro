@@ -1,24 +1,15 @@
 ---
 import siteConfig from '../../lib/config.js';
 import { urls } from '../../lib/urls.js';
-import { loadReviews, loadEntities, loadCategories, stripMeta, isPublished, isReviewableEntity } from '../../lib/data.js';
-import { byDistanceDesc } from '../../lib/sort.js';
+import { loadReviews, loadEntities, loadRegions, stripMeta, isPublished, isReviewableEntity } from '../../lib/data.js';
 import { isLapsed } from '../../lib/succession.js';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import { buildBreadcrumbListSchema } from '../../lib/schema-jsonld.js';
 
-// Broadened on purpose: a review stays a legitimate page long after its
-// race has happened (see isReviewableEntity's doc comment), so this list
-// includes reviews of archived entities too -- flagged "Concluded" below
-// rather than dropped.
 const entities = loadEntities().map(stripMeta).filter(isReviewableEntity);
 const entityById = new Map(entities.map((e) => [e.entity_id, e]));
 
-// Order strictly newest-first by publish timestamp (falling back to the
-// date-only last_updated for older pre-timestamp reviews). An ISO datetime
-// sorts after a bare same-day date, so freshly-stamped articles rise above
-// same-date older ones -- which is exactly what we want.
 const orderKey = (r) => String(r.published_at ?? r.last_updated ?? '');
 const reviews = loadReviews()
   .map(stripMeta)
@@ -26,9 +17,6 @@ const reviews = loadReviews()
   .filter((r) => entityById.has(r.entity_id))
   .sort((a, b) => orderKey(b).localeCompare(orderKey(a)));
 
-// Flag the just-published articles so the two-a-day cadence is easy to spot.
-// Only timestamped reviews within the last 26h qualify (comfortably spans the
-// two 12h-apart runs of a day; older/pre-timestamp reviews never show "New").
 const now = Date.now();
 const isNew = (r) => {
   const t = Date.parse(r.published_at ?? '');
@@ -41,11 +29,16 @@ const fmtDate = (r) => {
     : null;
 };
 
-const categories = loadCategories().map(stripMeta);
-const categoryFilterOptions = categories
-  .filter((c) => reviews.some((r) => entityById.get(r.entity_id)?.category_id === c.category_id))
-  .sort(byDistanceDesc)
-  .map((c) => ({ label: c.label, value: c.category_id }));
+// Build country filter: only granularity=country regions that have at least one review
+const regions = loadRegions().map(stripMeta);
+const countryRegions = regions
+  .filter((r) => r.granularity === 'country')
+  .filter((r) => reviews.some((rv) => {
+    const e = entityById.get(rv.entity_id);
+    return e && (e.region_id === r.region_id || (e.core_facts && e.core_facts.country && r.label && e.core_facts.country.includes(r.label)));
+  }))
+  .sort((a, b) => a.label.localeCompare(b.label))
+  .map((r) => ({ label: r.label, value: r.region_id }));
 
 const breadcrumbItems = [
   { label: siteConfig.siteName, href: urls.home() },
@@ -74,9 +67,9 @@ const jsonLd = [buildBreadcrumbListSchema(breadcrumbItems, Astro.site)];
     ) : (
       <div id="reviews-app" class="mt-8">
         <div class="flex flex-col gap-3">
-          {categoryFilterOptions.length > 0 && (
+          {countryRegions.length > 0 && (
             <div
-              id="reviews-category-filter"
+              id="reviews-country-filter"
               class="inline-flex flex-wrap gap-0.5 self-start rounded-full bg-brand-surface-offset p-[3px] dark:bg-brand-surface-offset-dark"
             >
               <button
@@ -84,15 +77,15 @@ const jsonLd = [buildBreadcrumbListSchema(breadcrumbItems, Astro.site)];
                 data-filter-value=""
                 class="filter-chip is-active rounded-full px-3.5 py-2 text-sm font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark"
               >
-                All
+                All countries
               </button>
-              {categoryFilterOptions.map((opt) => (
+              {countryRegions.map((r) => (
                 <button
                   type="button"
-                  data-filter-value={opt.value}
+                  data-filter-value={r.value}
                   class="filter-chip rounded-full px-3.5 py-2 text-sm font-semibold text-brand-muted transition-colors dark:text-brand-muted-dark"
                 >
-                  {opt.label}
+                  {r.label}
                 </button>
               ))}
             </div>
@@ -119,10 +112,17 @@ const jsonLd = [buildBreadcrumbListSchema(breadcrumbItems, Astro.site)];
                 aria-label="Search reviews"
               />
             </div>
-            <label class="flex shrink-0 items-center gap-2 text-sm text-brand-muted dark:text-brand-muted-dark">
-              <input id="reviews-hide-concluded" type="checkbox" class="h-4 w-4 rounded border-brand-border accent-brand-primary dark:border-brand-border-dark" />
-              Hide concluded races
-            </label>
+            <div class="flex items-center gap-2">
+              <label for="reviews-sort" class="text-sm text-brand-muted dark:text-brand-muted-dark">Sort by</label>
+              <select
+                id="reviews-sort"
+                class="rounded-lg border-[1.5px] border-brand-border bg-brand-surface px-3 py-2.5 text-sm shadow-sm transition-shadow duration-200 ease-interactive focus:border-brand-primary focus:shadow-[0_0_0_4px_theme(colors.brand.primary-highlight)] focus:outline-none dark:border-brand-border-dark dark:bg-brand-surface-dark"
+              >
+                <option value="newest">Newest first</option>
+                <option value="rating-desc">Highest rated</option>
+                <option value="rating-asc">Lowest rated</option>
+              </select>
+            </div>
           </div>
 
           <p id="reviews-count" class="text-sm text-brand-muted dark:text-brand-muted-dark" aria-live="polite"></p>
@@ -134,11 +134,13 @@ const jsonLd = [buildBreadcrumbListSchema(breadcrumbItems, Astro.site)];
             const facts = entity.core_facts ?? {};
             const loc = [facts.city, facts.country].filter(Boolean).join(', ');
             const concluded = isLapsed(entity);
+            const ratingOverall = review.rating?.overall ?? 0;
             const searchHaystack = [review.title, review.dek, loc].filter(Boolean).join(' ').toLowerCase();
             return (
               <li
                 data-review-item
-                data-category={entity.category_id ?? ''}
+                data-country={entity.region_id ?? ''}
+                data-rating={ratingOverall}
                 data-lapsed={concluded ? 'true' : 'false'}
                 data-search={searchHaystack}
                 class="py-5"
@@ -154,6 +156,9 @@ const jsonLd = [buildBreadcrumbListSchema(breadcrumbItems, Astro.site)];
                       <span class="rounded-full bg-brand-surface-offset px-2 py-0.5 text-[0.65rem] font-bold uppercase tracking-wide text-brand-muted dark:bg-brand-surface-offset-dark dark:text-brand-muted-dark">
                         Concluded
                       </span>
+                    )}
+                    {ratingOverall > 0 && (
+                      <span class="rounded-full bg-brand-primary/10 px-2 py-0.5 text-[0.65rem] font-bold uppercase tracking-wide text-brand-primary dark:text-brand-primary-dark">{ratingOverall}/100</span>
                     )}
                     {fmtDate(review) && (
                       <span class="text-xs text-brand-muted dark:text-brand-muted-dark">{fmtDate(review)}</span>
@@ -184,16 +189,16 @@ const jsonLd = [buildBreadcrumbListSchema(breadcrumbItems, Astro.site)];
     if (!app) return;
 
     var items = Array.prototype.slice.call(app.querySelectorAll('[data-review-item]'));
-    var categoryBar = document.getElementById('reviews-category-filter');
+    var countryBar = document.getElementById('reviews-country-filter');
     var searchInput = document.getElementById('reviews-search');
-    var hideConcludedInput = document.getElementById('reviews-hide-concluded');
+    var sortSelect = document.getElementById('reviews-sort');
     var countEl = document.getElementById('reviews-count');
     var emptyEl = document.getElementById('reviews-empty');
     var listEl = document.getElementById('reviews-list');
     var paginationEl = document.getElementById('reviews-pagination');
 
     var PAGE_SIZE = 24;
-    var state = { category: '', query: '', hideConcluded: false, page: 1 };
+    var state = { country: '', query: '', sort: 'newest', page: 1 };
 
     function load(key, fallback) {
       try {
@@ -212,10 +217,20 @@ const jsonLd = [buildBreadcrumbListSchema(breadcrumbItems, Astro.site)];
     }
 
     function matches(item) {
-      if (state.category && item.dataset.category !== state.category) return false;
-      if (state.hideConcluded && item.dataset.lapsed === 'true') return false;
+      if (state.country && item.dataset.country !== state.country) return false;
       if (state.query && item.dataset.search.indexOf(state.query) === -1) return false;
       return true;
+    }
+
+    function sortItems(list) {
+      if (state.sort === 'rating-desc') {
+        return list.sort(function (a, b) { return (parseInt(b.dataset.rating) || 0) - (parseInt(a.dataset.rating) || 0); });
+      }
+      if (state.sort === 'rating-asc') {
+        return list.sort(function (a, b) { return (parseInt(a.dataset.rating) || 0) - (parseInt(b.dataset.rating) || 0); });
+      }
+      // 'newest' — preserve original order (already sorted server-side)
+      return list;
     }
 
     function pageButtons(current, total) {
@@ -279,6 +294,7 @@ const jsonLd = [buildBreadcrumbListSchema(breadcrumbItems, Astro.site)];
 
     function render() {
       var matched = items.filter(matches);
+      matched = sortItems(matched);
       var total = matched.length;
       var totalPages = Math.max(1, Math.ceil(total / PAGE_SIZE));
       if (state.page > totalPages) state.page = totalPages;
@@ -302,16 +318,16 @@ const jsonLd = [buildBreadcrumbListSchema(breadcrumbItems, Astro.site)];
       renderPagination(totalPages);
     }
 
-    if (categoryBar) {
-      var chips = categoryBar.querySelectorAll('.filter-chip');
+    if (countryBar) {
+      var chips = countryBar.querySelectorAll('.filter-chip');
       chips.forEach(function (chip) {
         chip.addEventListener('click', function () {
-          state.category = chip.dataset.filterValue;
+          state.country = chip.dataset.filterValue;
           state.page = 1;
           chips.forEach(function (c) {
             c.classList.toggle('is-active', c === chip);
           });
-          save('reviews-category-filter', state.category);
+          save('reviews-country-filter', state.country);
           render();
         });
       });
@@ -325,27 +341,27 @@ const jsonLd = [buildBreadcrumbListSchema(breadcrumbItems, Astro.site)];
       });
     }
 
-    if (hideConcludedInput) {
-      hideConcludedInput.addEventListener('change', function () {
-        state.hideConcluded = hideConcludedInput.checked;
+    if (sortSelect) {
+      sortSelect.addEventListener('change', function () {
+        state.sort = sortSelect.value;
         state.page = 1;
-        save('reviews-hide-concluded', state.hideConcluded ? '1' : '');
+        save('reviews-sort', state.sort);
         render();
       });
     }
 
     // Restore persisted preferences before first render.
-    var savedCategory = load('reviews-category-filter', '');
-    if (savedCategory && categoryBar) {
-      state.category = savedCategory;
-      categoryBar.querySelectorAll('.filter-chip').forEach(function (c) {
-        c.classList.toggle('is-active', c.dataset.filterValue === savedCategory);
+    var savedCountry = load('reviews-country-filter', '');
+    if (savedCountry && countryBar) {
+      state.country = savedCountry;
+      countryBar.querySelectorAll('.filter-chip').forEach(function (c) {
+        c.classList.toggle('is-active', c.dataset.filterValue === savedCountry);
       });
     }
-    var savedHideConcluded = load('reviews-hide-concluded', '');
-    if (savedHideConcluded && hideConcludedInput) {
-      state.hideConcluded = true;
-      hideConcludedInput.checked = true;
+    var savedSort = load('reviews-sort', 'newest');
+    if (savedSort && sortSelect) {
+      state.sort = savedSort;
+      sortSelect.value = savedSort;
     }
 
     render();
