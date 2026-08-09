@@ -2,43 +2,61 @@
   "review_id": "mae-moh-half-marathon-2026",
   "slug": "mae-moh-half-marathon-2026",
   "entity_id": "mae-moh-half-marathon-2026",
-  "title": "Mae Moh Half Marathon 2026 Review: Thailand's Power-Plant 21K in Lampang",
-  "seo_title": "Mae Moh Half Marathon 2026 Review | Lampang Thailand Race",
-  "meta_description": "The Mae Moh Half Marathon 2026: October 25 in Mae Moh, Lampang, Thailand. 21K, 10K, 5K organised by EGAT — a power-utility road race in northern Thailand.",
-  "dek": "Set for 25 October 2026 in Mae Moh, Lampang, this EGAT-organised half marathon offers three distances. A power-utility-backed community race in northern Thailand's coal-mining-and-energy district.",
-  "verdict": "The Mae Moh Half Marathon is one of Thailand's more unusual organiser stories: it's run by EGAT (the Electricity Generating Authority of Thailand), which operates the Mae Moh coal mine and power plant in Lampang province. The race is part of EGAT's community-engagement portfolio, giving it institutional backing and a distinctive industrial-heritage setting. Three distances (21K, 10K, 5K). October in Lampang is the tail of the rainy season, with cooling temperatures as the cool season approaches. A distinctive northern Thai half marathon with a story unlike any other race on the calendar.",
+  "title": "Mae Moh Half Marathon 2026 Review: A Utility Company's Race Near Its Own Mine",
+  "seo_title": "Mae Moh Half Marathon 2026 Review | Lampang, Thailand",
+  "meta_description": "Mae Moh Half Marathon 2026 review: October 25, organised by Thailand's EGAT power utility near the largest lignite mine in Southeast Asia.",
+  "dek": "Set for 25 October 2026 in Mae Moh, Lampang, this race is organised by the Electricity Generating Authority of Thailand -- the same utility that runs the massive Mae Moh coal power plant and lignite mine nearby.",
+  "verdict": "The Mae Moh Half Marathon has an unusual organisational identity: it's run directly by EGAT, the Electricity Generating Authority of Thailand -- the state utility that operates the 2,625MW Mae Moh Power Plant and the adjacent Mae Moh lignite mine, the largest coal mine in Thailand and the largest lignite mine in Southeast Asia. That's a genuinely distinctive sponsor profile, similar in spirit to the railway-backed Locomotive Half Marathon covered elsewhere in this research -- a national utility running a community race near its own major infrastructure, rather than a sportswear or beverage brand.",
   "rating": {
-    "overall": 65,
+    "overall": 62,
     "breakdown": [
       {
-        "label": "Unique organiser (EGAT)",
-        "score": 82
-      },
-      {
-        "label": "Northern Thailand",
-        "score": 72
-      },
-      {
-        "label": "Community purpose",
+        "label": "Distinctive organiser (national utility)",
         "score": 70
       },
       {
-        "label": "Registration",
-        "score": 35
+        "label": "Institutional backing & credibility",
+        "score": 72
+      },
+      {
+        "label": "Distance range",
+        "score": 70
+      },
+      {
+        "label": "Registration clarity & reviews",
+        "score": 30
       }
     ]
   },
   "sections": [
     {
-      "heading": "EGAT: Thailand's Power-Plant Race",
+      "heading": "Organised by a National Power Utility",
       "paragraphs": [
-        "The Electricity Generating Authority of Thailand is not a typical race organiser — it runs the Mae Moh mine and power plant, the largest coal-fired facility in northern Thailand. [1] The half marathon is part of EGAT's CSR and community-outreach programme, giving the race a genuinely distinctive institutional identity. Lampang is Thailand's third-largest northern city, known for its horse-drawn carriages and Lanna architecture."
+        "The race is organised by the Electricity Generating Authority of Thailand (EGAT), offering three distances: 21.1K, 10K and 5K in Mae Moh, Lampang. [1] EGAT is Thailand's state power utility -- and notably, it operates the Mae Moh Power Plant directly adjacent to the race venue, giving the event a genuinely unusual industrial-utility sponsorship model rather than a typical consumer brand."
+      ]
+    },
+    {
+      "heading": "Next to Southeast Asia's Largest Lignite Mine",
+      "paragraphs": [
+        "Mae Moh Power Plant is a 2,625MW coal-fired facility that began operation in 1978, with its opening ceremony performed by King Bhumibol Adulyadej in 1985. [2] Fuel comes from the adjacent Mae Moh lignite mine, which is the largest coal mine in Thailand and the largest lignite mine in all of Southeast Asia. Running a half marathon in this immediate vicinity gives the race a genuinely industrial backdrop unlike any other event in this research batch."
+      ]
+    },
+    {
+      "heading": "A Real Point of Institutional Credibility",
+      "paragraphs": [
+        "EGAT's direct organisational role suggests genuine logistical and financial resources behind the event, similar to how bank-backed races (VPBank, Techcombank, Malioboro Run's Bank BPD DIY) covered elsewhere in this research carry institutional weight beyond a typical commercial promoter. [1]"
+      ]
+    },
+    {
+      "heading": "Registration Not Yet Announced",
+      "paragraphs": [
+        "As of this writing, registration status has not been announced. [1] No independent participant reviews were found for this event, though it's listed across multiple aggregators including AIMS World Running and Thai.run."
       ]
     },
     {
       "heading": "Should You Run It?",
       "paragraphs": [
-        "A distinctive EGAT-organised northern Thai half marathon with a unique backstory. Track for registration. 25 October 2026 in Mae Moh, Lampang. [1]"
+        "If a genuinely unusual, utility-backed race near one of Southeast Asia's largest coal mining operations appeals -- and you're comfortable with an industrial rather than scenic backdrop -- the Mae Moh Half Marathon on 25 October 2026 offers something distinct from the region's more typical race destinations. Watch for registration to open before finalising travel."
       ]
     }
   ],
@@ -46,19 +64,35 @@
   "sources": [
     {
       "n": 1,
-      "label": "Mae Moh Half Marathon — EGAT event",
-      "publisher": "EGAT",
+      "label": "Mae Moh Half Marathon — official site",
+      "publisher": "Electricity Generating Authority of Thailand (EGAT)",
       "url": "https://www.egat.co.th",
+      "type": "official"
+    },
+    {
+      "n": 2,
+      "label": "Mae Moh Power Plant (Background) — EGAT",
+      "publisher": "Electricity Generating Authority of Thailand",
+      "url": "https://www.egat.co.th/home/en/maemoh-pp-about/",
       "type": "official"
     }
   ],
   "faqs": [
     {
-      "question": "When is the Mae Moh Half Marathon 2026?",
-      "answer": "25 October 2026 in Mae Moh, Lampang, Thailand. Organised by EGAT. It offers 21.1K, 10K, and 5K. Registration is listed as not yet announced. Electricity Generating Authority of Thailand (EGAT) organises the event. [1]"
+      "question": "Who organises the Mae Moh Half Marathon?",
+      "answer": "The Electricity Generating Authority of Thailand (EGAT), the state power utility that also operates the adjacent Mae Moh Power Plant -- a genuinely unusual industrial-utility sponsorship model for a community road race. [1]"
+    },
+    {
+      "question": "What is near the race venue?",
+      "answer": "The Mae Moh Power Plant, a 2,625MW coal-fired facility operating since 1978, and the adjacent Mae Moh lignite mine -- the largest coal mine in Thailand and the largest lignite mine in Southeast Asia. [2]"
+    },
+    {
+      "question": "Is registration open?",
+      "answer": "Not yet announced as of this writing. The race is listed across multiple international aggregators including AIMS World Running and Thai.run, but no independent participant reviews have been published yet. [1]"
     }
   ],
-  "editorial_notes": "Auto-generated review.",
-  "last_updated": "2026-08-04",
+  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "published_at": "2026-08-09T08:15:00.000Z",
+  "last_updated": "2026-08-09",
   "status": "active"
 }

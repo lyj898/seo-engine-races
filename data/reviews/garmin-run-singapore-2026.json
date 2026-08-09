@@ -2,43 +2,61 @@
   "review_id": "garmin-run-singapore-2026",
   "slug": "garmin-run-singapore-2026",
   "entity_id": "garmin-run-singapore-2026",
-  "title": "Garmin Run Singapore 2026 Review: Marina Barrage's Tech-Brand Half Marathon",
-  "seo_title": "Garmin Run Singapore 2026 Review | Marina Barrage Race",
-  "meta_description": "Garmin Run Singapore 2026: October 25 at Marina Barrage. 21K and 10K from Garmin. Registration pending — Singapore's GPS-brand run reviewed.",
-  "dek": "Set for 25 October 2026 at Marina Barrage — Singapore's iconic reservoir-and-skyline venue — this Garmin-branded run offers 21K and 10K distances. Registration isn't open yet. A tech-brand Singapore race at one of the city's most photogenic locations.",
-  "verdict": "Garmin Run Singapore brings the global GPS-watch brand's running series to Marina Barrage — Singapore's dam-and-reservoir park with panoramic views of the Marina Bay skyline. Two distances (21K, 10K) keep it focused. Garmin's brand presence typically means tech-enhanced race features and premium merchandise. Registration isn't open yet, but for a tech-brand Singapore half marathon at one of the city's most photogenic venues, this is worth tracking.",
+  "title": "Garmin Run Singapore 2026 Review: Racing at the Marina Barrage",
+  "seo_title": "Garmin Run Singapore 2026 Review | Marina Barrage",
+  "meta_description": "Garmin Run Singapore 2026 review: October 25 at Marina Barrage -- a GPS-brand race at Singapore's landmark water-management barrage and reservoir.",
+  "dek": "Set for 25 October 2026 at Marina Barrage, this Singapore leg of Garmin's running series starts at a landmark tidal barrage that transformed the previously salt-water Marina Bay into a freshwater reservoir.",
+  "verdict": "Garmin Run Singapore starts at the Marina Barrage -- a genuinely significant piece of Singapore infrastructure, first conceptualised by Lee Kuan Yew in 1987 and completed in 2008 to convert Marina Bay into the country's fifteenth reservoir. That gives the race a distinctive, engineering-forward starting point, distinct from the malls, stadiums and heritage streets hosting most other races in this research batch. Two distances (21.1K/10K) with clear SGD pricing (S$125/S$105) make it straightforward to plan around, though registration status wasn't yet announced at the time of this research.",
   "rating": {
-    "overall": 70,
+    "overall": 73,
     "breakdown": [
       {
-        "label": "Brand (Garmin)",
-        "score": 85
+        "label": "Venue significance (Marina Barrage)",
+        "score": 84
       },
       {
-        "label": "Marina Barrage venue",
-        "score": 82
+        "label": "Brand appeal (Garmin)",
+        "score": 78
       },
       {
-        "label": "Singapore accessibility",
-        "score": 80
+        "label": "Pricing clarity",
+        "score": 76
       },
       {
-        "label": "Registration",
-        "score": 35
+        "label": "Registration clarity",
+        "score": 32
       }
     ]
   },
   "sections": [
     {
-      "heading": "Marina Barrage: Singapore's Skyline Venue",
+      "heading": "Starting at a Landmark Water-Management Site",
       "paragraphs": [
-        "Marina Barrage is one of Singapore's most distinctive event venues — a reservoir-side park with sweeping views of the Marina Bay Sands, the Singapore Flyer, and the city skyline. [1] A Garmin-branded race here delivers the brand's signature data-enhanced race experience in a world-class urban setting."
+        "The race starts at Marina Barrage, offering two distances: 21.1K and 10K. [1] Marina Barrage is a tidal barrage built at the confluence of five rivers, across the Marina Channel between Marina East and Marina South. [2] It was first conceptualised in 1987 by then-Prime Minister Lee Kuan Yew to boost Singapore's water self-sufficiency, with construction beginning in 2005 and the barrage officially opening on 31 October 2008 as the country's fifteenth reservoir."
+      ]
+    },
+    {
+      "heading": "A Feat of Engineering as a Race Backdrop",
+      "paragraphs": [
+        "The barrage is 350 metres long, creating a reservoir with a 240-hectare surface area and a 10,000-hectare catchment area, and won a Superior Achievement Award from the American Academy of Environmental Engineers in 2009. [2] It also converted the previously salt-water Marina Bay into fresh water -- a genuinely significant piece of Singapore's water infrastructure, and a distinctive starting point compared to the shopping malls and city plazas hosting most other Garmin-brand races in this research."
+      ]
+    },
+    {
+      "heading": "Clear, Transparent Pricing",
+      "paragraphs": [
+        "Pricing is SGD 125 for the 21K and SGD 105 for the 10K. [1] That's a clearly stated, straightforward fee structure compared to several other races in this research batch where pricing details weren't specified."
+      ]
+    },
+    {
+      "heading": "Registration Not Yet Announced",
+      "paragraphs": [
+        "As of this writing, registration status for Garmin Run Singapore has not been announced. [1] Given Singapore's dense running community and Garmin's brand appeal, demand could move quickly once sign-ups open."
       ]
     },
     {
       "heading": "Should You Run It?",
       "paragraphs": [
-        "A Garmin-branded Singapore half marathon at Marina Barrage. Watch for registration. 25 October 2026. [1]"
+        "If starting a race at one of Singapore's most significant pieces of modern infrastructure appeals -- and you're interested in the Garmin brand's typical data-driven race features -- Garmin Run Singapore on 25 October 2026 is a strong pick once registration opens. Pricing is already clear, so there's nothing to guess about the cost."
       ]
     }
   ],
@@ -46,19 +64,35 @@
   "sources": [
     {
       "n": 1,
-      "label": "Garmin Run Singapore — event listing",
-      "publisher": "JustRunLah",
+      "label": "Garmin Run Singapore 2026 — event listing",
+      "publisher": "justrunlah.com",
       "url": "https://www.justrunlah.com/race/garmin-run-singapore-2026/",
       "type": "aggregator"
+    },
+    {
+      "n": 2,
+      "label": "Marina Barrage — Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Marina_Barrage",
+      "type": "other"
     }
   ],
   "faqs": [
     {
-      "question": "When is Garmin Run Singapore 2026?",
-      "answer": "25 October 2026 at Marina Barrage, Singapore. It offers 21.1K and 10K. Registration is listed as not yet announced. Garmin organises the event. Entry costs SGD 21K SGD 125 / 10K SGD 105. [1]"
+      "question": "Where does Garmin Run Singapore 2026 start?",
+      "answer": "At Marina Barrage, a tidal barrage that converted Marina Bay into Singapore's fifteenth reservoir when it opened in 2008. Two distances are offered: 21.1K and 10K, on 25 October 2026. [1][2]"
+    },
+    {
+      "question": "How much does it cost?",
+      "answer": "SGD 125 for the 21K half marathon and SGD 105 for the 10K -- a clearly stated fee structure. Registration status has not yet been announced as of this writing. [1]"
+    },
+    {
+      "question": "Why is Marina Barrage a notable venue?",
+      "answer": "It's a major piece of Singapore water infrastructure, first proposed by Lee Kuan Yew in 1987 and completed in 2008, converting the previously salt-water Marina Bay into fresh water and winning an environmental engineering achievement award in 2009. [2]"
     }
   ],
-  "editorial_notes": "Auto-generated review.",
-  "last_updated": "2026-08-04",
+  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "published_at": "2026-08-09T08:15:00.000Z",
+  "last_updated": "2026-08-09",
   "status": "active"
 }
