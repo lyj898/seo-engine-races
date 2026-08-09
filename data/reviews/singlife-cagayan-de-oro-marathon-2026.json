@@ -2,49 +2,61 @@
   "review_id": "singlife-cagayan-de-oro-marathon-2026",
   "slug": "singlife-cagayan-de-oro-marathon-2026",
   "entity_id": "singlife-cagayan-de-oro-marathon-2026",
-  "title": "Singlife Cagayan de Oro Marathon 2026 Review: Mindanao's Insurer-Backed Road Race",
-  "seo_title": "Singlife CDO Marathon 2026 Review | Cagayan de Oro Philippines",
-  "meta_description": "The Singlife Cagayan de Oro Marathon 2026: December 13 in CDO, Philippines. Full marathon and half marathon with registration open — Mindanao's flagship road race reviewed.",
-  "dek": "Set for 13 December 2026 in Cagayan de Oro — Mindanao's 'City of Golden Friendship' — this Singlife-backed marathon offers full and half distances with registration already open. Here's what to expect from one of the Philippines' key regional marathons.",
-  "verdict": "The Singlife Cagayan de Oro Marathon brings a major insurance-brand sponsorship to one of Mindanao's most important running events. Full and half marathon distances keep it focused, and the December date in CDO offers dry-season conditions in a city known for its adventure-tourism infrastructure — white-water rafting, zip-lining, and the gateway to northern Mindanao's highlands. Registration is open, and the Singlife backing gives the event commercial credibility. Suits runners who want a Philippine marathon beyond the Manila–Cebu corridor with brand-backed production values.",
+  "title": "Singlife Cagayan de Oro Marathon 2026 Review: A Marathon Majors Leg at SM Uptown",
+  "seo_title": "Singlife Cagayan de Oro Marathon 2026 Review | PH",
+  "meta_description": "Singlife Cagayan de Oro Marathon 2026 review: December 13 at SM City CDO Uptown -- the Singlife series' Mindanao leg, in a city with proven race capacity.",
+  "dek": "Set for 13 December 2026 at SM City CDO Uptown, this is the Mindanao leg of RunRio's Singlife Marathon Majors series -- the same brand family as the Singlife Davao Marathon covered elsewhere in this research.",
+  "verdict": "The Singlife Cagayan de Oro Marathon extends the Singlife Philippine Marathon Majors series -- covered at its Davao leg elsewhere in this research -- to CDO, a city with genuinely proven capacity for large-scale races, having hosted the MILO Marathon's Mindanao-first National Finals in 2024 with over 12,600 participants. Four distances (5K to full marathon), registration already open, and a modern SM Uptown venue give this leg real operational strength. As part of a multi-city series, it likely carries similar production values to Davao's debut edition.",
   "rating": {
-    "overall": 71,
+    "overall": 78,
     "breakdown": [
       {
-        "label": "Brand backing",
-        "score": 78
-      },
-      {
-        "label": "Destination appeal",
-        "score": 75
-      },
-      {
-        "label": "Registration accessibility",
+        "label": "Series continuity (Singlife Marathon Majors)",
         "score": 82
       },
       {
-        "label": "Course information",
-        "score": 48
+        "label": "City capacity (CDO hosted 2024 MILO Finals)",
+        "score": 86
+      },
+      {
+        "label": "Distance range",
+        "score": 76
+      },
+      {
+        "label": "Registration clarity (already open)",
+        "score": 80
       }
     ]
   },
   "sections": [
     {
-      "heading": "The Destination: Cagayan de Oro",
+      "heading": "Part of the Singlife Marathon Majors Series",
       "paragraphs": [
-        "CDO is northern Mindanao's largest city and a hub for adventure tourism — white-water rafting on the Cagayan River, zip-lines, and the cool highlands of Bukidnon a short drive away. [1] December is dry-season in the region, with manageable temperatures and lower humidity than the mid-year months. For runners, CDO offers a combination of urban infrastructure and outdoor-recovery options that few other Philippine cities match."
+        "This race offers four distances -- 5K, 10K, 21.1K and the 42.195K full marathon -- at SM City CDO Uptown, organised by RUNRIO Inc. [1] It joins the Singlife Davao Marathon covered elsewhere in this research batch as another leg of the same Singlife Philippine Marathon Majors series, jointly run with Kinetix Sports and SM Supermalls."
       ]
     },
     {
-      "heading": "The Race: Singlife-Backed",
+      "heading": "A City With Proven Race Capacity",
       "paragraphs": [
-        "Singlife's sponsorship gives the event a level of commercial backing that regional Philippine races rarely enjoy — expect quality medals, branded race tees, and well-stocked aid stations. [1] Two distances (full marathon 42.195km and half marathon 21.1km) keep it focused on distance running. Registration is open, making this a bookable option for December 2026."
+        "Cagayan de Oro has demonstrated genuine capacity for large-field races -- in 2024, the city hosted the MILO Marathon's National Finals for the first time ever in Mindanao, drawing over 12,600 participants, covered elsewhere in this research batch. [1] That track record gives real confidence in CDO's ability to handle another major marathon-distance event."
+      ]
+    },
+    {
+      "heading": "A Modern Mall-Anchored Venue",
+      "paragraphs": [
+        "SM City CDO Uptown is a newer, modern mall development also used by the Sante Barley Trilogy Run Asia's CDO Leg 3 covered elsewhere in this research, giving the race village built-in parking, shelter and amenities. [2] That repeat use suggests a genuinely tested venue for the city's growing race calendar."
+      ]
+    },
+    {
+      "heading": "Registration Already Open",
+      "paragraphs": [
+        "Unlike several other RunRio-organised races in this research batch still awaiting registration confirmation, the Singlife Cagayan de Oro Marathon is already open for sign-up. [1] That's a meaningful advantage for runners wanting to plan travel now rather than wait."
       ]
     },
     {
       "heading": "Should You Run It?",
       "paragraphs": [
-        "If you want a Philippine marathon in a genuine adventure destination with brand-backed production and open registration, the Singlife CDO Marathon is worth booking. The 2026 edition is set for 13 December in Cagayan de Oro. [1]"
+        "If you want to run a Marathon Majors-series race in a Mindanao city with genuinely proven capacity for large events, the Singlife Cagayan de Oro Marathon on 13 December 2026 is a strong, low-risk pick. Registration is already open across all four distances."
       ]
     }
   ],
@@ -52,27 +64,35 @@
   "sources": [
     {
       "n": 1,
-      "label": "Singlife Cagayan de Oro Marathon — event listing",
-      "publisher": "Singlife / CDO Marathon",
-      "url": "https://aims-worldrunning.org/calendar.html",
-      "type": "aggregator"
+      "label": "RunRio — Singlife Marathon race calendar",
+      "publisher": "RunRio",
+      "url": "https://runrio.com/race-calendar/",
+      "type": "official"
+    },
+    {
+      "n": 2,
+      "label": "RunRio — official site",
+      "publisher": "RunRio",
+      "url": "https://runrio.com",
+      "type": "official"
     }
   ],
   "faqs": [
     {
-      "question": "When is the Singlife Cagayan de Oro Marathon 2026?",
-      "answer": "The race is scheduled for 13 December 2026 in Cagayan de Oro, Philippines. December is dry-season in northern Mindanao. It offers 42.2K, 21.1K, 10K, and 5K. Registration is currently open. RUNRIO Inc. organises the event. [1]"
+      "question": "Is this related to the Singlife Davao Marathon?",
+      "answer": "Yes -- both are legs of the same Singlife Philippine Marathon Majors series, run by RunRio with Kinetix Sports and SM Supermalls. This CDO leg is held 13 December 2026 at SM City CDO Uptown, offering 5K, 10K, 21.1K and the full marathon. [1]"
     },
     {
-      "question": "What distances are offered?",
-      "answer": "Two distances: a full marathon (42.195km) and a half marathon (21.1km). It's held at SM City CDO Uptown, Cagayan de Oro City. Registration is currently open. RUNRIO Inc. organises the event. It offers 42.2K, 21.1K, 10K, and 5K. [1]"
+      "question": "Can Cagayan de Oro handle a race of this scale?",
+      "answer": "Yes -- the city hosted the MILO Marathon's National Finals for the first time ever in Mindanao in 2024, drawing over 12,600 participants, demonstrating genuine capacity for large-field events. [1]"
     },
     {
       "question": "Is registration open?",
-      "answer": "Yes, registration is currently open. It's held at SM City CDO Uptown, Cagayan de Oro City. It offers 42.2K, 21.1K, 10K, and 5K. RUNRIO Inc. organises the event. Sign-up typically runs through the organiser's official registration channel. [1]"
+      "answer": "Yes -- unlike several other RunRio-organised races still awaiting confirmation, registration for the Singlife Cagayan de Oro Marathon is already open, giving runners a clear path to plan travel now. [1]"
     }
   ],
-  "editorial_notes": "Auto-generated review from entity data.",
-  "last_updated": "2026-08-04",
+  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "published_at": "2026-08-09T09:15:00.000Z",
+  "last_updated": "2026-08-09",
   "status": "active"
 }
