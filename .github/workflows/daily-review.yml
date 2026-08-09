@@ -9,8 +9,14 @@ name: Daily review article
 #     -- an unresolvable [n] citation, and fails the build rather than
 #     shipping it. (generate-reviews.js also refuses to write such a draft, so
 #     this is belt and braces.)
-#   - The generator never overwrites an existing review, so a hand-edited
-#     article is safe from every future run.
+#   - The generator never overwrites an existing review on the scheduled/
+#     auto-select path, so a hand-edited article is safe from every future
+#     run -- unless this run is manually dispatched with `revise: true`,
+#     which deliberately targets thin existing reviews and regenerates them
+#     in place through this same validated pipeline (see generate-reviews.js's
+#     --revise doc comment for why: hand-expanding stubs outside this
+#     pipeline is what caused every content error this repo's Actions logs
+#     caught on 2026-08-09).
 #   - Like the weekly refresh, this commits with GITHUB_TOKEN, whose pushes
 #     do NOT trigger deploy.yml's `on: push`. So deploying is an explicit
 #     job that calls deploy.yml with `ref: main`, building the commit this
@@ -38,6 +44,15 @@ on:
         description: 'Max reviews to write this run (auto mode). Blank = 1.'
         required: false
         default: ''
+      revise:
+        description: >-
+          Regenerate thin existing reviews (<=2 sections, <=1 FAQ, or <=1
+          source) instead of writing missing ones. Ignores the min-interval
+          pacing gate; still respects slugs/region/limit above. See
+          generate-reviews.js's --revise doc comment.
+        required: false
+        type: boolean
+        default: false
 
 concurrency:
   group: daily-review
@@ -73,11 +88,13 @@ jobs:
           SLUGS: ${{ github.event.inputs.slugs }}
           REGION: ${{ github.event.inputs.region }}
           LIMIT: ${{ github.event.inputs.limit }}
+          REVISE: ${{ github.event.inputs.revise }}
         run: |
           ARGS=""
           [ -n "$SLUGS" ]  && ARGS="$ARGS --slugs $SLUGS"
           [ -n "$REGION" ] && ARGS="$ARGS --region $REGION"
           [ -n "$LIMIT" ]  && ARGS="$ARGS --limit $LIMIT"
+          [ "$REVISE" = "true" ] && ARGS="$ARGS --revise"
           echo "npm run reviews -- $ARGS"
           npm run reviews -- $ARGS
 
@@ -101,8 +118,14 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           ADDED=$(git status --porcelain data/reviews/ | grep -c '^??' || true)
+          REVISED=$(git status --porcelain data/reviews/ | grep -c '^ M' || true)
+          if [ "$REVISED" != "0" ]; then
+            MSG="chore(reviews): daily review article ($ADDED new, $REVISED revised)"
+          else
+            MSG="chore(reviews): daily review article ($ADDED new)"
+          fi
           git add data/reviews/
-          git commit -m "chore(reviews): daily review article ($ADDED new)"
+          git commit -m "$MSG"
           git pull --rebase --autostash origin main
           git push origin HEAD:main
 
