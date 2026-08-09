@@ -2,43 +2,61 @@
   "review_id": "korat-marathon-2026",
   "slug": "korat-marathon-2026",
   "entity_id": "korat-marathon-2026",
-  "title": "Korat Marathon 2026 Review: Nakhon Ratchasima's Full Marathon with Open Registration",
-  "seo_title": "Korat Marathon 2026 Review | Nakhon Ratchasima Thailand Race",
-  "meta_description": "The Korat Marathon 2026: November 8 in Nakhon Ratchasima, Thailand. Full marathon, half, 10K, and 5K with registration open — Isan's gateway-city marathon reviewed.",
-  "dek": "Set for 8 November 2026 in Nakhon Ratchasima (Korat) — the gateway to Isan — this marathon offers four distances with registration open. A high-confidence northeast Thailand road race.",
-  "verdict": "The Korat Marathon brings a four-distance format to Nakhon Ratchasima — Thailand's second-largest province and the gateway to the Isan region — with registration open and a high reliability score of 86. Korat's flat terrain, its role as a transport hub (direct trains and buses from Bangkok), and November's cooling temperatures make this an accessible, bookable northeast Thailand marathon. A solid regional pick for runners who want an authentic Isan race experience with open registration.",
+  "title": "Korat Marathon 2026 Review: Racing in Thailand's Isaan Gateway City",
+  "seo_title": "Korat Marathon 2026 Review | Nakhon Ratchasima, Thailand",
+  "meta_description": "Korat Marathon 2026 review: November 8 in Nakhon Ratchasima -- the third-largest city in Thailand and gateway to the Isaan region.",
+  "dek": "Set for 8 November 2026, this marathon runs through Nakhon Ratchasima -- commonly called Korat -- Thailand's third-largest city and the historic gateway between Siam and Laos.",
+  "verdict": "The Korat Marathon runs through Nakhon Ratchasima, Thailand's third-largest city and the largest in the entire Northeastern (Isaan) region, with a population of over 466,000. That's genuinely substantial city infrastructure to support a large-field race, positioned at the western edge of the Korat Plateau and serving as the transportation, commercial and governmental centre for northeastern Thailand. Four distances from 5K to the full marathon give it broad accessibility, and it's listed with AIMS World Running -- a mark of international race-calendar recognition.",
   "rating": {
-    "overall": 71,
+    "overall": 77,
     "breakdown": [
       {
-        "label": "Registration",
-        "score": 85
-      },
-      {
-        "label": "Data confidence",
+        "label": "City scale & infrastructure (3rd-largest in Thailand)",
         "score": 86
       },
       {
-        "label": "Isan destination",
-        "score": 70
+        "label": "Regional significance (Isaan gateway)",
+        "score": 78
       },
       {
         "label": "Distance range",
-        "score": 72
+        "score": 76
+      },
+      {
+        "label": "Independent reviews",
+        "score": 45
       }
     ]
   },
   "sections": [
     {
-      "heading": "Korat: Isan's Gateway",
+      "heading": "Thailand's Third-Largest City",
       "paragraphs": [
-        "Nakhon Ratchasima (Korat) is the largest province in Thailand and the historic gateway to the Isan region, roughly 3 hours from Bangkok. [1] The city is flat, spread across the Khorat Plateau, with wide roads that support a fast marathon course. November is the onset of the cool season — morning temperatures dropping into the low 20s."
+        "The Korat Marathon offers four distances: 5K, 10K, 21.1K and the 42.195K full marathon in Nakhon Ratchasima. [1] Nakhon Ratchasima, commonly known as Korat, is the capital of its province and the third-largest city in all of Thailand, with a population of 466,098 as of 2021. [2] That scale gives the race genuinely substantial infrastructure -- hotels, transport, road networks -- well beyond what most smaller-town races in this research batch can offer."
+      ]
+    },
+    {
+      "heading": "The Gateway to Isaan",
+      "paragraphs": [
+        "Korat sits 250km northeast of Bangkok at the western edge of the Korat Plateau, historically marking the boundary between Lao and Siamese territory and serving today as the gateway to Thailand's Lao-speaking northeast (Isaan) region. [2] As the largest city in Northeastern Thailand and the region's transportation, commercial, financial and governmental centre, it's a genuinely significant urban hub rather than a secondary provincial stop."
+      ]
+    },
+    {
+      "heading": "International Race-Calendar Recognition",
+      "paragraphs": [
+        "The race is listed with AIMS World Running (the Association of International Marathons and Distance Races), alongside its own official site. [1] That kind of international calendar listing -- shared with the Maybank Marathon in Bali covered elsewhere in this research -- is a meaningful signal of organisational standards and certification."
+      ]
+    },
+    {
+      "heading": "Registration Open, No Independent Reviews Yet",
+      "paragraphs": [
+        "Registration is currently open. No independent participant reviews were found in research for this specific event, though the city's scale and AIMS listing suggest a reasonably mature operation rather than a speculative first-year event."
       ]
     },
     {
       "heading": "Should You Run It?",
       "paragraphs": [
-        "A well-structured Isan marathon with open registration. 8 November 2026 in Nakhon Ratchasima. Register via koratmarathon.com. [1]"
+        "If you want a marathon in a genuinely major regional Thai city with real infrastructure and international race-calendar recognition, the Korat Marathon on 8 November 2026 is a solid, credible pick. Registration is open now across all four distances."
       ]
     }
   ],
@@ -46,23 +64,35 @@
   "sources": [
     {
       "n": 1,
-      "label": "Korat Marathon — official website",
-      "publisher": "Korat Marathon",
+      "label": "Korat Marathon 2026 — official site",
+      "publisher": "koratmarathon.com",
       "url": "https://koratmarathon.com",
       "type": "official"
+    },
+    {
+      "n": 2,
+      "label": "Nakhon Ratchasima — Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nakhon_Ratchasima",
+      "type": "other"
     }
   ],
   "faqs": [
     {
-      "question": "When is the Korat Marathon 2026?",
-      "answer": "8 November 2026 in Nakhon Ratchasima, Thailand. It offers 42.2K, 21.1K, 10K, and 5K. Registration is currently open. Mark it on your calendar if you're planning your racing year around it. [1]"
+      "question": "When and where is the Korat Marathon 2026?",
+      "answer": "8 November 2026 in Nakhon Ratchasima (Korat), Thailand's third-largest city. Four distances are offered: 5K, 10K, 21.1K and the 42.195K full marathon. Registration is currently open via the official race website. [1]"
     },
     {
-      "question": "Is registration open?",
-      "answer": "Yes, via koratmarathon.com. It's held at Nakhon Ratchasima. It offers 42.2K, 21.1K, 10K, and 5K. Registration is currently open. Sign-up typically runs through the organiser's official registration channel. Entry numbers can be capped, so earlier sign-up is generally safer. [1]"
+      "question": "Why is Korat a significant race destination?",
+      "answer": "It's the largest city in Northeastern Thailand, serving as the region's transportation, commercial and governmental centre, with a population of over 466,000 as of 2021 -- genuinely substantial infrastructure for a large-field race. [2]"
+    },
+    {
+      "question": "Is this race internationally recognised?",
+      "answer": "Yes -- it's listed with AIMS World Running, the Association of International Marathons and Distance Races, a meaningful signal of organisational standards alongside its own official race site and growing local reputation. [1]"
     }
   ],
-  "editorial_notes": "Auto-generated review.",
-  "last_updated": "2026-08-04",
+  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "published_at": "2026-08-09T08:30:00.000Z",
+  "last_updated": "2026-08-09",
   "status": "active"
 }
