@@ -2,63 +2,110 @@
   "review_id": "hue-amazing-marathon-2026",
   "slug": "hue-amazing-marathon-2026",
   "entity_id": "hue-amazing-marathon-2026",
-  "title": "Hue Amazing Marathon 2026 Review: Vietnam's Imperial-City 42K",
-  "seo_title": "Hue Amazing Marathon 2026 Review | Vietnam Imperial City Race",
-  "meta_description": "The Hue Amazing Marathon 2026: August 29-30 weekend in Hue, Vietnam. Full marathon from BOLT EVENT's Amazing Marathon Vietnam Series — registration open.",
-  "dek": "Set for the 29-30 August 2026 weekend in Hue — Vietnam's ancient imperial capital — this BOLT EVENT production is part of the Amazing Marathon Vietnam Series. Four distances with registration open.",
-  "verdict": "The Hue Amazing Marathon brings a full marathon to Vietnam's most culturally significant city — the former imperial capital with its UNESCO-listed Citadel, the Perfume River, and the royal tombs of the Nguyen Dynasty. Produced by BOLT EVENT as part of the Amazing Marathon Vietnam Series, it offers a race-weekend format across two days. August in Hue is the tail of the summer season — warm but the city's tree-lined boulevards provide some shade. For runners wanting a Vietnamese marathon with genuine cultural depth beyond the big-city races, this is a standout.",
+  "title": "Hue Amazing Marathon 2026 Review: Imperial City Debut From a Proven Vietnam Series",
+  "seo_title": "Hue Amazing Marathon 2026 Review | Vietnam Race",
+  "meta_description": "Hue Amazing Marathon 2026 review: August 30 in Hue, Vietnam -- four distances from a Bolt Event series praised at its sister race in Quang Tri.",
+  "dek": "Set for 29-30 August 2026 (race day the 30th) in Vietnam's former imperial capital, this debut Hue leg of Bolt Event's Amazing Marathon Vietnam Series follows a sister race in Quang Tri that drew praise for its organisation and scenery.",
+  "verdict": "The Hue Amazing Marathon is a new addition to Bolt Event's Amazing Marathon Vietnam Series, run by the same organiser behind the Aqua Warriors Vietnam Series and the Quang Tri Amazing Marathon since 2024. Four distances from 5km to the full 42km give it broad appeal, set against Hue's backdrop as Vietnam's former imperial capital under the Nguyen dynasty. There's no participant feedback for Hue specifically since the race hasn't happened yet, but the sister Quang Tri event earlier in the same 2026 series drew genuine runner praise for its organisation, route safety support and scenery -- a reasonable proxy for what to expect operationally, even if the Hue course itself is unproven.",
   "rating": {
-    "overall": 73,
+    "overall": 66,
     "breakdown": [
       {
-        "label": "Hue cultural setting",
-        "score": 92
+        "label": "Series track record (via sister event)",
+        "score": 76
       },
       {
-        "label": "Series pedigree",
-        "score": 75
+        "label": "Destination appeal (Imperial City of Hue)",
+        "score": 82
       },
       {
-        "label": "Registration",
-        "score": 80
+        "label": "Distance range",
+        "score": 74
       },
       {
-        "label": "August climate",
-        "score": 55
+        "label": "Hue-specific course, unproven",
+        "score": 35
       }
     ]
   },
   "sections": [
     {
-      "heading": "Hue: Vietnam's Imperial Capital",
+      "heading": "A New Leg in a Growing Vietnam Series",
       "paragraphs": [
-        "Hue is Vietnam's former imperial capital — a UNESCO World Heritage site with the Citadel, the Perfume River, and the royal tombs scattered along its banks. [1] A marathon here offers cultural immersion that no other Vietnamese race can match. BOLT EVENT's Amazing Marathon Vietnam Series provides professional race production."
+        "Hue Amazing Marathon 2026 is scheduled for 29-30 August 2026, with race day on the 30th, offering four distances: 5km, 10km, 21km and 42km. [1] The event is part of Bolt Event's 'Amazing Marathon Vietnam Series,' the same organiser that also runs the Aqua Warriors Vietnam Series (Ha Long, Van Don, Quang Tri, Hue) since 2024 and the Quang Tri Amazing Marathon."
+      ]
+    },
+    {
+      "heading": "What the Sister Race Tells Us",
+      "paragraphs": [
+        "There's no participant feedback specific to the Hue race since it hasn't taken place yet, but the Quang Tri Amazing Marathon 2026 -- held earlier in the same series, same organiser -- drew genuine praise. One runner quoted in Tien Phong's coverage said of the event: \"Chay giai nay vua chill vua suong, canh dep qua, binh minh tren bien dep qua\" (roughly: this race is both relaxing and satisfying, the scenery and sea sunrise are beautiful). [2] That's a reasonable signal for organisational and scenic standards across the series, even if it doesn't confirm Hue's specific course."
+      ]
+    },
+    {
+      "heading": "Hue: Vietnam's Former Imperial Capital",
+      "paragraphs": [
+        "Hue served as the capital of Vietnam under the Nguyen dynasty from 1802 to 1945 and later as the administrative capital of the French protectorate of Annam, with a population of roughly 653,000 as of 2020. [3] The city's Imperial City -- walled courtyards, gardens, pavilions and palaces -- gives race weekend a genuine cultural draw well beyond the course itself."
+      ]
+    },
+    {
+      "heading": "Cut-Offs and Pricing",
+      "paragraphs": [
+        "Group-registration cut-off times are listed as 1h15 for 5km, 2h for 10km, 3h30 for 21km, and 6h30 for 42km. [1] Early-bird pricing (13-19 July window) was listed at roughly VND 559,000 for the 42km, VND 489,000 for the 21km, and VND 379,000 for the 5-10km categories."
       ]
     },
     {
       "heading": "Should You Run It?",
       "paragraphs": [
-        "A full marathon in Vietnam's imperial capital with open registration. 29-30 August 2026 weekend in Hue. [1]"
+        "If you're drawn to running through Vietnam's former imperial capital and trust an organiser with a track record of well-received races elsewhere in the same series, the Hue Amazing Marathon on 30 August 2026 is a reasonable bet. Just know that no Hue-specific reviews exist yet -- the praise on file so far comes from the sister Quang Tri race, not this course."
       ]
     }
   ],
-  "pull_quotes": [],
+  "pull_quotes": [
+    {
+      "quote": "Chay giai nay vua chill vua suong, canh dep qua, binh minh tren bien dep qua",
+      "attribution": "Runner comment at the sister Quang Tri Amazing Marathon 2026, via Tien Phong",
+      "source_url": "https://tienphong.vn/quang-tri-amazing-marathon-2026-camel-cup-hon-3500-vdv-chinh-phuc-duong-chay-post1864645.tpo"
+    }
+  ],
   "sources": [
     {
       "n": 1,
-      "label": "Hue Amazing Marathon — event info",
-      "publisher": "BOLT EVENT",
-      "url": "https://amazingmarathon.vn",
-      "type": "official"
+      "label": "Hue Amazing Marathon 2026 — event listing",
+      "publisher": "World's Marathons",
+      "url": "https://www.worldsmarathons.com",
+      "type": "aggregator"
+    },
+    {
+      "n": 2,
+      "label": "Quang Tri Amazing Marathon 2026 coverage — Tien Phong",
+      "publisher": "Tien Phong",
+      "url": "https://tienphong.vn/quang-tri-amazing-marathon-2026-camel-cup-hon-3500-vdv-chinh-phuc-duong-chay-post1864645.tpo",
+      "type": "news"
+    },
+    {
+      "n": 3,
+      "label": "Hue (provincial city) — Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hu%E1%BA%BF_(provincial_city)",
+      "type": "other"
     }
   ],
   "faqs": [
     {
-      "question": "When is the Hue Amazing Marathon 2026?",
-      "answer": "Race weekend 29-30 August 2026 in Hue, Vietnam. Registration open. It offers 42.2K, 21.1K, 10K, and 5K. BOLT EVENT ('Amazing Marathon Vietnam Series') organises the event. It's held at Huế (race weekend 29-30 Aug). [1]"
+      "question": "When and where is the Hue Amazing Marathon 2026?",
+      "answer": "Race weekend is 29-30 August 2026, with race day on the 30th, in Hue, Vietnam's former imperial capital. Four distances are offered: 5km, 10km, 21km and 42km, organised by Bolt Event as part of the Amazing Marathon Vietnam Series. [1]"
+    },
+    {
+      "question": "Is there any feedback on this race?",
+      "answer": "Not for Hue specifically, since the event hasn't taken place yet. But the sister Quang Tri Amazing Marathon 2026, run by the same organiser earlier in the series, drew genuine praise from runners for its scenery and organisation. [2]"
+    },
+    {
+      "question": "What are the cut-off times?",
+      "answer": "Group-registration cut-offs are listed as 1h15 for the 5km, 2h for the 10km, 3h30 for the 21km, and 6h30 for the 42km full marathon -- fairly generous windows that should suit most recreational finishers rather than only fast, competitive runners. [1]"
     }
   ],
-  "editorial_notes": "Auto-generated review.",
+  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and already-researched entity material (research_highlights/watchouts), plus supplementary background sources. Prose is original synthesis. Safe to hand-edit.",
+  "published_at": "2026-08-09T06:45:00.000Z",
   "last_updated": "2026-08-09",
   "status": "active"
 }
