@@ -2,43 +2,61 @@
   "review_id": "national-milo-marathon-2026-vermosa-leg",
   "slug": "national-milo-marathon-2026-vermosa-leg",
   "entity_id": "national-milo-marathon-2026-vermosa-leg",
-  "title": "MILO Marathon Vermosa Leg 2026 Review: RUNRIO's Cavite Qualifier",
-  "seo_title": "MILO Marathon Vermosa Leg 2026 Review | Cavite Philippines",
-  "meta_description": "The National MILO Marathon 2026 Vermosa Leg: October 11 in Vermosa, Cavite. 21K to 1K from RUNRIO — the Philippines' premier series heads to the Vermosa estate.",
-  "dek": "Set for 11 October 2026 at the Vermosa estate in Imus/Dasmariñas, Cavite, this RUNRIO-produced MILO Marathon qualifying leg offers five distances. Registration isn't confirmed yet.",
-  "verdict": "The MILO Marathon Vermosa Leg brings RUNRIO's gold-standard production to Vermosa — a master-planned estate in Cavite that's become a running and cycling hub south of Manila. Five distances (21K, 10K, 5K, 3K, 1K) make it accessible across ages. Vermosa's wide, well-planned roads and its purpose-built sports facilities (including an athletics track) make it one of the better running venues in the Cavite-Laguna corridor. Registration isn't confirmed yet, but for a MILO qualifier, RUNRIO's template is proven.",
+  "title": "MILO Marathon 2026 Vermosa Leg Review: A Wellness Township Debut",
+  "seo_title": "MILO Marathon Vermosa Leg 2026 Review | Cavite, PH",
+  "meta_description": "MILO Marathon 2026 Vermosa Leg review: October 11 at Ayala's active-living township in Cavite -- part of the 50th-anniversary Golden Run series.",
+  "dek": "Set for 11 October 2026 at Vermosa, a 770-hectare wellness-focused township straddling Imus and Dasmariñas, this leg brings the MILO Marathon's Golden Run series to the Philippines' first dedicated active-living community.",
+  "verdict": "The Vermosa leg gives the MILO Marathon's 50th-anniversary Golden Run series a genuinely purpose-built venue: Vermosa is a 770-hectare Ayala Land township in Cavite, established in 2015 as the Philippines' first development explicitly built around active lifestyles and wellness, anchored by the Ayala Vermosa Sports Hub (opened 2018). That's a meaningfully different setting than most MILO legs, which typically use city plazas or malls not specifically designed for athletic events. Five distances from 1K to 21K keep it accessible. Registration status wasn't yet confirmed open at the time of this research.",
   "rating": {
-    "overall": 68,
+    "overall": 73,
     "breakdown": [
       {
-        "label": "Organiser (RUNRIO)",
-        "score": 92
+        "label": "Venue purpose-fit (wellness township)",
+        "score": 86
       },
       {
-        "label": "Venue (Vermosa)",
-        "score": 78
-      },
-      {
-        "label": "Series (MILO)",
+        "label": "Series heritage (50th-anniversary)",
         "score": 85
       },
       {
-        "label": "Registration",
-        "score": 35
+        "label": "Distance accessibility",
+        "score": 76
+      },
+      {
+        "label": "Registration clarity",
+        "score": 38
       }
     ]
   },
   "sections": [
     {
-      "heading": "Vermosa: Cavite's Sports Hub",
+      "heading": "One of 15 Legs, at a Purpose-Built Sports Venue",
       "paragraphs": [
-        "Vermosa is a master-planned estate in the Imus-Dasmariñas corridor with wide roads, an athletics track, and a growing reputation as a running and cycling destination. [1] The MILO series qualifier format — with age-group categories and a path to the National Finals — adds competitive structure."
+        "The Vermosa leg offers 1K, 3K, 5K, 10K and 21.1K distances, part of the MILO Marathon's 50th-anniversary 'Golden Run' series -- 15 regional legs nationwide ahead of the National Finals in Clark City, Pampanga. [1] Unlike most legs in this series, which run through city streets or mall-adjacent plazas, Vermosa is a venue explicitly designed with athletic activity in mind."
+      ]
+    },
+    {
+      "heading": "The Philippines' First Active-Living Township",
+      "paragraphs": [
+        "Vermosa is a 770-hectare mixed-use estate established by Ayala Land in 2015, straddling the cities of Imus and Dasmariñas in Cavite -- the first development of its kind in the Philippines built specifically to highlight active lifestyles and wellness. [2] Its centrepiece, the Ayala Vermosa Sports Hub, opened to the public in March 2018 and combines residential, retail, office and institutional spaces with dedicated sports and fitness amenities."
+      ]
+    },
+    {
+      "heading": "A Genuine Fit for a Running Event",
+      "paragraphs": [
+        "That wellness-focused design makes Vermosa a genuinely fitting host for a marathon leg, in contrast to venues repurposed from commercial or civic use. Purpose-built sports infrastructure typically means better road surfaces, clearer course marking, and amenities (medical stations, cooling zones) designed with athletic events specifically in mind."
+      ]
+    },
+    {
+      "heading": "Registration Not Yet Confirmed",
+      "paragraphs": [
+        "As of this writing, registration status for the Vermosa leg has not been confirmed open. [1] Given the venue's growing profile as an active-lifestyle destination, demand could be notable once registration opens -- worth checking the official MILO site directly for updates."
       ]
     },
     {
       "heading": "Should You Run It?",
       "paragraphs": [
-        "A RUNRIO MILO qualifier at Cavite's premier sports estate. Track for registration. 11 October 2026. [1]"
+        "If a MILO Marathon leg at a venue specifically built for athletic and wellness activities appeals -- rather than a repurposed city plaza -- the Vermosa leg on 11 October 2026 is a genuinely fitting choice within the 50th-anniversary Golden Run series. Confirm registration status with organisers before booking travel."
       ]
     }
   ],
@@ -46,19 +64,35 @@
   "sources": [
     {
       "n": 1,
-      "label": "National MILO Marathon — official website",
-      "publisher": "MILO / RUNRIO",
+      "label": "National MILO Marathon — official site",
+      "publisher": "MILO Philippines",
       "url": "https://www.milo.com.ph/national-milo-marathon",
       "type": "official"
+    },
+    {
+      "n": 2,
+      "label": "Ayala Vermosa Sports Hub — Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ayala_Vermosa_Sports_Hub",
+      "type": "other"
     }
   ],
   "faqs": [
     {
-      "question": "When is the MILO Marathon Vermosa Leg 2026?",
-      "answer": "11 October 2026 at Vermosa, Cavite, Philippines. It offers 1K, 3K, 5K, 10K, and 21.1K. Registration is listed as not yet confirmed open. RUNRIO Inc. (MILO Marathon) organises the event. It's held at Vermosa, Imus/Dasmariñas, Cavite. [1]"
+      "question": "When is the MILO Marathon 2026 Vermosa Leg?",
+      "answer": "11 October 2026, offering five distances: 1K, 3K, 5K, 10K and 21.1K. It's one of 15 legs in the MILO Marathon's 50th-anniversary Golden Run series, ahead of the National Finals in Clark City, Pampanga. [1]"
+    },
+    {
+      "question": "What makes Vermosa a distinctive venue?",
+      "answer": "It's the Philippines' first development explicitly built for active lifestyles and wellness -- a 770-hectare Ayala Land township in Cavite established in 2015, anchored by the Ayala Vermosa Sports Hub, which opened in March 2018. [2]"
+    },
+    {
+      "question": "Is registration open?",
+      "answer": "Not yet confirmed as of this writing. Prospective participants should check the official MILO Marathon site directly for updates before booking travel around the 11 October 2026 race date. [1]"
     }
   ],
-  "editorial_notes": "Auto-generated review.",
-  "last_updated": "2026-08-04",
+  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "published_at": "2026-08-09T08:00:00.000Z",
+  "last_updated": "2026-08-09",
   "status": "active"
 }

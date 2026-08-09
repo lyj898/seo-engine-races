@@ -2,43 +2,61 @@
   "review_id": "merumatta-half-marathon-2026",
   "slug": "merumatta-half-marathon-2026",
   "entity_id": "merumatta-half-marathon-2026",
-  "title": "Merumatta Half Marathon 2026 Review: Lombok's Coastal Hill-Route 21K",
-  "seo_title": "Merumatta Half Marathon 2026 Review | Lombok Senggigi Indonesia",
-  "meta_description": "The Merumatta Half Marathon 2026: October 18 at Merumatta Hotel, Senggigi, Lombok. 21K with 390m elevation — a coastal hill-route Indonesian half marathon with registration open.",
-  "dek": "Set for 18 October 2026 at Merumatta Hotel in Senggigi, Lombok, this half marathon packs 390m of elevation into its 21.1K course. Four distances with registration open. A coastal hill-route race on one of Indonesia's most beautiful islands.",
-  "verdict": "The Merumatta Half Marathon is a Lombok road race with teeth: 390m of elevation gain across its 21.1K course, starting and finishing at the Merumatta Hotel on Senggigi's coastal strip. That elevation — roughly double what most 'flat' half marathons accumulate — makes this a genuine hill workout with Lombok's volcanic landscape providing the backdrop. Four distances (21K, 10K, 5K, 2.5K) with registration open. October in Lombok is the tail of the dry season, with warm but manageable conditions. For runners wanting an Indonesian half marathon with real terrain in a stunning island setting, this is a standout.",
+  "title": "Merumatta Half Marathon 2026 Review: A Hotel-Backed Coastal Race in Lombok",
+  "seo_title": "Merumatta Half Marathon 2026 Review | Senggigi, Lombok",
+  "meta_description": "Merumatta Half Marathon 2026 review: October 18 at Merumatta Hotel, Senggigi -- a 390m-elevation coastal race in Lombok's original tourist strip.",
+  "dek": "Set for 18 October 2026 at Merumatta Hotel in Senggigi, this hotel-backed race carries a genuine 390-metre elevation gain along Lombok's original tourist beachfront strip, north of the capital Mataram.",
+  "verdict": "The Merumatta Half Marathon is hotel-backed -- organised by Merumatta Coast Trail, tied to the Merumatta Hotel in Senggigi -- and carries a real physical challenge: 390 metres of elevation gain on the half marathon distance, a genuinely hilly course by regional standards. Four distances (21.1K down to 2.5K) give it broader accessibility despite the terrain. Senggigi itself has a distinctive history: once hyped as 'the next Bali' in the late 1990s, it was set back by the 2000 communal violence and 2002 Bali bombing, and has since fallen behind newer Lombok destinations -- giving the area a quieter, less-crowded beachfront character today.",
   "rating": {
-    "overall": 74,
+    "overall": 72,
     "breakdown": [
       {
-        "label": "Scenery (Lombok coast)",
-        "score": 88
-      },
-      {
-        "label": "Course challenge (390m)",
-        "score": 82
-      },
-      {
-        "label": "Registration",
+        "label": "Course challenge (390m elevation)",
         "score": 80
       },
       {
-        "label": "Distance range",
-        "score": 72
+        "label": "Coastal setting (Senggigi)",
+        "score": 78
+      },
+      {
+        "label": "Hotel backing & amenities",
+        "score": 74
+      },
+      {
+        "label": "Independent reviews",
+        "score": 40
       }
     ]
   },
   "sections": [
     {
-      "heading": "Lombok: Bali's Wilder Neighbour",
+      "heading": "A Hotel-Backed Race With Real Elevation",
       "paragraphs": [
-        "Senggigi is Lombok's original resort strip — a coastal road with views across the Lombok Strait to Bali's Mount Agung. [1] The 390m elevation gain across 21.1K means this is a runners' half marathon, not a sightseeing jog. Merumatta Hotel provides a resort-based race hub with beachfront recovery options."
+        "The race is organised by Merumatta Coast Trail at Merumatta Hotel, Senggigi, Lombok Barat, offering four distances: 21.1K, 10K, 5K and 2.5K, with 390 metres of elevation gain on the half marathon. [1] That's a genuinely hilly course by the standards of most races in this research batch -- runners chasing a flat PR should look elsewhere, but those wanting a scenic, challenging coastal route will find real terrain here."
+      ]
+    },
+    {
+      "heading": "Senggigi: Lombok's Original Tourist Strip",
+      "paragraphs": [
+        "Senggigi was once Lombok's main tourist strip, stretching along several kilometres of beachfront just north of the capital, Mataram, and saw a building boom in the late 1990s when the island was hyped as 'the next Bali.' [2] The communal violence of 2000 and the 2002 Bali bombing dealt the area a severe blow, with tourist numbers declining sharply and many construction projects halted. Senggigi has since fallen behind Kuta Lombok in the south and the Gili Islands in the northwest in terms of popularity and development."
+      ]
+    },
+    {
+      "heading": "A Quieter Coastal Destination Today",
+      "paragraphs": [
+        "That history means Senggigi today offers a genuinely quieter, less-crowded beachfront experience than Lombok's newer, more heavily developed tourist zones -- notable attractions include Pura Batu Bolong, a Hindu temple built into a beachside rock formation. [2] For runners who prefer a coastal race destination without the intensity of a peak tourist hub, that's a real advantage."
+      ]
+    },
+    {
+      "heading": "Registration and Distance Range",
+      "paragraphs": [
+        "Registration is currently open across all four distances. [1] The 2.5K category in particular makes this accessible to families or casual participants who want to be part of race weekend without tackling the hillier longer distances."
       ]
     },
     {
       "heading": "Should You Run It?",
       "paragraphs": [
-        "A scenic Lombok half marathon with real elevation — for runners who want terrain with their tropical views. Registration open. 18 October 2026 at Senggigi, Lombok. [1]"
+        "If a genuinely challenging, hotel-backed coastal race in a quieter corner of Lombok appeals -- especially if you want real elevation rather than a flat course -- the Merumatta Half Marathon on 18 October 2026 is a strong pick. Registration is open now across four accessible distances."
       ]
     }
   ],
@@ -46,19 +64,35 @@
   "sources": [
     {
       "n": 1,
-      "label": "Merumatta Half Marathon — official website",
+      "label": "Merumatta Half Marathon 2026 — official site",
       "publisher": "Merumatta Coast Trail",
       "url": "https://merumatta-halfmarathon.com",
       "type": "official"
+    },
+    {
+      "n": 2,
+      "label": "Senggigi — Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Senggigi",
+      "type": "other"
     }
   ],
   "faqs": [
     {
-      "question": "When is the Merumatta Half Marathon 2026?",
-      "answer": "18 October 2026 at Merumatta Hotel, Senggigi, Lombok, Indonesia. It offers 21.1K, 10K, 5K, and 2.5K. Registration is currently open. Merumatta Coast Trail organises the event. It's held at Merumatta Hotel, Senggigi, Lombok Barat, NTB. [1]"
+      "question": "How hilly is the Merumatta Half Marathon course?",
+      "answer": "Genuinely hilly -- the half marathon distance carries 390 metres of elevation gain, a real physical challenge compared to most races in this region. Four distances are offered in total: 21.1K, 10K, 5K and 2.5K. [1]"
+    },
+    {
+      "question": "What is Senggigi like as a destination?",
+      "answer": "Once hyped as 'the next Bali' in the late 1990s, Senggigi was set back by the 2000 communal violence and 2002 Bali bombing, and has since fallen behind newer Lombok hotspots -- leaving it a quieter, less-crowded beachfront area today. [2]"
+    },
+    {
+      "question": "Who organises the race?",
+      "answer": "Merumatta Coast Trail, tied to the Merumatta Hotel in Senggigi, which hosts the start/finish for the 18 October 2026 race. Registration is currently open across all four distances, from the 2.5K up to the 21.1K half marathon. [1]"
     }
   ],
-  "editorial_notes": "Auto-generated review.",
-  "last_updated": "2026-08-04",
+  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "published_at": "2026-08-09T08:00:00.000Z",
+  "last_updated": "2026-08-09",
   "status": "active"
 }
