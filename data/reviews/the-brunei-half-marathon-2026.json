@@ -2,43 +2,61 @@
   "review_id": "the-brunei-half-marathon-2026",
   "slug": "the-brunei-half-marathon-2026",
   "entity_id": "the-brunei-half-marathon-2026",
-  "title": "The Brunei Half Marathon 2026 Review: A 21K Across the SHOAS Bridge",
-  "seo_title": "Brunei Half Marathon 2026 Review | Bandar Seri Begawan Race",
-  "meta_description": "The Brunei Half Marathon 2026: November 21 at SHOAS Bridge, Bandar Seri Begawan. 21K, 10K, and 5K with registration open — one of Southeast Asia's rarest country ticks reviewed.",
-  "dek": "Set for 21 November 2026 at the SHOAS Bridge in Bandar Seri Begawan, this half marathon offers three distances with registration open. A rare opportunity to race in the Sultanate with a bridge-crossing course.",
-  "verdict": "The Brunei Half Marathon 2026 is one of only a handful of road races in Brunei — and with registration open across three distances (21K, 10K, 5K), it's actually bookable. The SHOAS Bridge venue in Bandar Seri Begawan provides a landmark course feature, and the November date catches the tail of the inter-monsoon period. For country-tick collectors and runners wanting a half marathon in one of Southeast Asia's most under-visited nations, this is a compelling — and rare — option.",
+  "title": "The Brunei Half Marathon 2026 Review: Crossing a Bridge Named for a Sultan",
+  "seo_title": "The Brunei Half Marathon 2026 Review | Bandar Seri Begawan",
+  "meta_description": "The Brunei Half Marathon 2026 review: November 21 at the Sultan Haji Omar Ali Saifuddien Bridge -- Southeast Asia's longest bridge, opened 2020.",
+  "dek": "Set for 21 November 2026 at the Sultan Haji Omar 'Ali Saifuddien Bridge, this race starts near Southeast Asia's longest bridge -- a 30-kilometre span connecting Brunei's mainland to its Temburong exclave, opened in 2020.",
+  "verdict": "The Brunei Half Marathon starts near a genuinely remarkable piece of infrastructure: the Sultan Haji Omar 'Ali Saifuddien Bridge, a 30-kilometre dual-carriageway span across Brunei Bay -- the longest bridge in Southeast Asia, completed in 2019 at a cost of B$1.6 billion and opened in March 2020. That's a genuine engineering landmark to anchor a race around, distinct from anything else covered in this research batch. Three distances (5K/10K/21K) with open registration make this a straightforward pick for runners interested in Brunei -- a country rarely covered by races in this dataset.",
   "rating": {
-    "overall": 71,
+    "overall": 76,
     "breakdown": [
       {
-        "label": "Destination rarity",
-        "score": 92
+        "label": "Landmark significance (longest bridge in SE Asia)",
+        "score": 90
       },
       {
-        "label": "Registration",
-        "score": 85
-      },
-      {
-        "label": "Bridge course",
-        "score": 78
+        "label": "Destination novelty (Brunei)",
+        "score": 82
       },
       {
         "label": "Distance range",
-        "score": 60
+        "score": 72
+      },
+      {
+        "label": "Independent reviews",
+        "score": 40
       }
     ]
   },
   "sections": [
     {
-      "heading": "Brunei: The Rarest Country Tick",
+      "heading": "Racing Near Southeast Asia's Longest Bridge",
       "paragraphs": [
-        "Brunei has one of Southeast Asia's smallest running calendars. [1] A half marathon here with open registration is a genuinely rare opportunity. The SHOAS Bridge — one of Bandar Seri Begawan's landmark structures — provides a distinctive course feature over the Brunei River."
+        "The race is held at the Sultan Haji Omar 'Ali Saifuddien (SHOAS) Bridge in Bandar Seri Begawan, offering 5K, 10K and 21K distances. [1] The bridge itself spans Brunei Bay, connecting the Bruneian mainland to its semi-exclave of Temburong District -- at 30 kilometres, it's the longest bridge in all of Southeast Asia. [2]"
+      ]
+    },
+    {
+      "heading": "A Recent Engineering Achievement",
+      "paragraphs": [
+        "Construction began in mid-2014 and finished in 2019 at a cost of B$1.6 billion, with the bridge officially opening on 17 March 2020. [2] It's the first road bridge to directly link Brunei's mainland with the Temburong exclave, letting commuters skip the four immigration checkpoints previously required via the route through Malaysia. The bridge's design incorporates star and crescent symbols at its highest points, reflecting Brunei's identity as a Muslim state."
+      ]
+    },
+    {
+      "heading": "A Rarely Covered Race Destination",
+      "paragraphs": [
+        "Brunei appears far less frequently on Southeast Asian race calendars than the Philippines, Indonesia, Malaysia or Thailand -- making this one of the more geographically distinctive destinations in this entire research batch. [1] Bandar Seri Begawan, the capital, offers a genuinely different national and cultural context from the region's more heavily raced countries."
+      ]
+    },
+    {
+      "heading": "Three Distances, Open Registration",
+      "paragraphs": [
+        "Registration is currently open across 5K, 10K and 21K distances. [1] No independent participant reviews were found in research, likely reflecting Brunei's smaller running-event footprint generally rather than any specific concern about this race."
       ]
     },
     {
       "heading": "Should You Run It?",
       "paragraphs": [
-        "For rare-country collectors, this is one of the best opportunities to race in Brunei. Registration open. 21 November 2026 at SHOAS Bridge, BSB. [1]"
+        "If you want to run in a country rarely covered by regional race calendars, near one of Southeast Asia's most remarkable pieces of modern infrastructure, The Brunei Half Marathon on 21 November 2026 is a genuinely distinctive pick. Registration is open now across all three distances."
       ]
     }
   ],
@@ -46,23 +64,35 @@
   "sources": [
     {
       "n": 1,
-      "label": "The Brunei Half Marathon — official website",
-      "publisher": "Brunei Half Marathon",
+      "label": "The Brunei Half Marathon — official site",
+      "publisher": "thebruneihalfmarathon.com",
       "url": "https://thebruneihalfmarathon.com",
       "type": "official"
+    },
+    {
+      "n": 2,
+      "label": "Sultan Haji Omar Ali Saifuddien Bridge — Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sultan_Haji_Omar_Ali_Saifuddien_Bridge",
+      "type": "other"
     }
   ],
   "faqs": [
     {
-      "question": "When is The Brunei Half Marathon 2026?",
-      "answer": "21 November 2026 at SHOAS Bridge, Bandar Seri Begawan, Brunei. It offers 5K, 10K, and 21K. Registration is currently open. It's held at Sultan Haji Omar 'Ali Saifuddien (SHOAS) Bridge, Bandar Seri Begawan. [1]"
+      "question": "What is significant about the SHOAS Bridge?",
+      "answer": "It's the longest bridge in Southeast Asia at 30 kilometres, connecting Brunei's mainland to its Temburong exclave. Completed in 2019 for B$1.6 billion, it opened in March 2020 and lets commuters skip four immigration checkpoints previously required. [2]"
     },
     {
-      "question": "Is registration open?",
-      "answer": "Yes. It offers 5K, 10K, and 21K. It's held at Sultan Haji Omar 'Ali Saifuddien (SHOAS) Bridge, Bandar Seri Begawan. Registration is currently open. Sign-up typically runs through the organiser's official registration channel. [1]"
+      "question": "What distances are offered?",
+      "answer": "Three: 5K, 10K and 21K, held near the Sultan Haji Omar 'Ali Saifuddien Bridge in Bandar Seri Begawan on 21 November 2026. Registration is currently open via the official race website, thebruneihalfmarathon.com. [1]"
+    },
+    {
+      "question": "Is Brunei a common race destination?",
+      "answer": "No -- it appears far less frequently on Southeast Asian race calendars than the Philippines, Indonesia, Malaysia or Thailand, making this one of the more geographically distinctive races covered in this research. [1]"
     }
   ],
-  "editorial_notes": "Auto-generated review.",
-  "last_updated": "2026-08-04",
+  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "published_at": "2026-08-09T08:45:00.000Z",
+  "last_updated": "2026-08-09",
   "status": "active"
 }
