@@ -58,14 +58,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          # No package-lock.json is committed yet (this repo has never had
-          # `npm install` run against a real registry -- see README's "Known
-          # decisions" section), so there's nothing for actions/setup-node's
-          # npm cache to key off. Once a lockfile exists, add
-          # `cache: npm` back here for faster builds.
+          cache: npm
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Validate data
         run: npm run validate

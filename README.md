@@ -32,8 +32,7 @@ package.json
 astro.config.mjs        <- reads `site` from site.config.json
 /config-examples         <- reference configs for the other 4 verticals (inert)
 /public
-  robots.txt              <- placeholder; Step 6 makes it build-time + config-driven
-  CNAME                   <- runsea.run -- see caution below
+  CNAME                   <- runsea.run (live)
 /src
   /layouts                <- shared page shells (Step 3)
   /components             <- facts table, pros/cons, FAQ, CTA, breadcrumb, etc.
@@ -422,13 +421,9 @@ is ever hardcoded. `src/pages/sitemap.xml.js` enumerates every real route
 same `urls.js` helpers every component uses, so it can't drift from actual
 routes.
 
-**Known limitation, not fixed:** the old static `public/robots.txt` file
-could not be deleted from this build environment (see "Known decisions"
-below) -- it's now overwritten with a note explaining it's dead weight,
-since Astro's build writes `dist/robots.txt` from the new endpoint over
-whatever got copied from `public/`, so production behavior is correct even
-though the stale source file is still sitting there. Delete it yourself
-once you have normal file access; it's safe to remove.
+The old static `public/robots.txt` placeholder (couldn't be deleted from
+the build environment this repo was originally scaffolded in) has since
+been removed -- `src/pages/robots.txt.js` is the only source now.
 
 **Verified:** `robots.txt.js` and `sitemap.xml.js` export plain `GET`
 functions with no Astro-specific runtime dependency, so both were executed
@@ -451,21 +446,12 @@ property when the fact exists" rule actually holds, not just in theory).
 changing a repo secret, or after Step 8's weekly-refresh workflow commits
 new data and you want to redeploy immediately rather than wait).
 
-Two jobs: `build` checks out the repo, installs Node 20, runs `npm install`
-(see note below on why not `npm ci`), runs `npm run build`, and uploads
-`dist/` as a Pages artifact. `deploy` (depends on `build`) publishes that
-artifact via `actions/deploy-pages@v4`. `concurrency: { group: pages,
-cancel-in-progress: true }` means if two pushes land close together, the
-newer one wins rather than both queuing.
-
-**`npm install`, not `npm ci`:** this repo has no `package-lock.json`
-committed (nothing in this build environment has ever run a real `npm
-install` against the public registry -- see "Known decisions" above), and
-`npm ci` requires an existing lockfile. Once you run `npm install` for real
-anywhere (locally, or let this first Actions run generate one you then
-commit), commit the resulting `package-lock.json` and switch this workflow
-to `npm ci` + restore `cache: npm` on the `setup-node` step -- both are
-faster and more reproducible than what's here now.
+Two jobs: `build` checks out the repo, installs Node 20 (with `cache: npm`,
+keyed off the committed `package-lock.json`), runs `npm ci`, runs `npm run
+build`, and uploads `dist/` as a Pages artifact. `deploy` (depends on
+`build`) publishes that artifact via `actions/deploy-pages@v4`.
+`concurrency: { group: pages, cancel-in-progress: true }` means if two
+pushes land close together, the newer one wins rather than both queuing.
 
 **One-time manual step required (not doable from here):** in the GitHub
 repo's Settings -> Pages, set "Source" to "GitHub Actions" (not "Deploy
@@ -678,12 +664,8 @@ it from build code and found none; it exists only for a human to read.
 **Cleanup:** found one leftover dev-only artifact, `preview-home.html`
 (repo root) -- a hand-built static HTML preview created earlier in this
 build to sanity-check the visual design before a real `npm install` was
-possible in this environment. It's not part of the Astro build (nothing
-references it), so it's harmless, but it's dead weight now that Steps 7-9
-are done and a real build is possible. Attempted to delete it; hit the same
-file-deletion limitation documented for `public/robots.txt` (see "Known
-decisions" below) -- left in place, documented, safe to delete whenever you
-have normal file access to this folder.
+possible in this environment. It was never part of the Astro build
+(nothing referenced it) and has since been deleted.
 
 No code changes were needed as a result of this audit -- the engine was
 already clean. That's the payoff of having threaded `siteConfig` and the
@@ -700,18 +682,8 @@ than writing races-specific code first and generalizing it at the end.
 - **robots.txt and sitemap.xml are build-time-generated** endpoints (Step
   6, `src/pages/robots.txt.js` / `sitemap.xml.js`), reading
   `site.config.json.siteDomain` -- no vertical instance ever hand-edits a
-  hardcoded domain. The old static `public/robots.txt` is superseded and
-  couldn't be deleted from this build environment (see Step 6's section
-  above); it's overwritten with a deprecation notice and is safe to delete
-  once you have normal file access.
-- **`preview-home.html` (repo root) is a leftover, dev-only artifact** --
-  a hand-built static HTML file (Tailwind CDN, no Astro) created mid-build
-  so the visual design could be sanity-checked before a real `npm install`
-  was possible in this environment. It is NOT part of the Astro build
-  (nothing in `src/`, `astro.config.mjs`, or any workflow references it),
-  so leaving it in place is harmless, but it's dead weight once you've run
-  `npm run dev` for real. Same file-deletion limitation as `public/robots.txt`
-  applies here -- delete it yourself whenever convenient.
+  hardcoded domain. The old static `public/robots.txt` placeholder has
+  since been deleted.
 - **Weekly-refresh safety valve -- decided in Step 8:** the workflow opens a
   PR with each run's diff rather than pushing straight to `main`. Revisit
   once the AI pipeline (Step 9) has a track record and the PR-per-week
@@ -720,10 +692,8 @@ than writing races-specific code first and generalizing it at the end.
   course-platform data, and local-service directory data each carry
   different scraping/ToS sensitivity than race calendars -- the races
   vertical's `sourceConfig` approach must not be assumed to transfer as-is.
-- **Do not point DNS/CNAME at runsea.run's live production traffic** until
-  the races vertical has passed Step 5 review and manual QA. `public/CNAME`
-  currently contains `runsea.run` as the target domain for this instance,
-  matching `site.config.json`, but that's a config value, not a live cutover.
+- **`runsea.run` is live.** `public/CNAME` points GitHub Pages at it, and
+  the races vertical has been deploying to production since Step 7 landed.
 
 ## Content safety (applies to every script under /scripts)
 
