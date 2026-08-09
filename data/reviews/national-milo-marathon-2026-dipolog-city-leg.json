@@ -2,43 +2,67 @@
   "review_id": "national-milo-marathon-2026-dipolog-city-leg",
   "slug": "national-milo-marathon-2026-dipolog-city-leg",
   "entity_id": "national-milo-marathon-2026-dipolog-city-leg",
-  "title": "MILO Marathon Dipolog Leg 2026 Review: Zamboanga Qualifier",
-  "seo_title": "MILO Marathon Dipolog Leg 2026 Review | Philippines Race",
-  "meta_description": "National MILO Marathon 2026 Dipolog City Leg: August 16. RUNRIO's series qualifier in Zamboanga del Norte.",
-  "dek": "Set for 16 August 2026 in Dipolog City, this RUNRIO-produced MILO Marathon qualifying leg brings the series to the Zamboanga peninsula.",
-  "verdict": "The MILO Marathon Dipolog Leg is a RUNRIO-produced MILO series qualifier in Dipolog City — the capital of Zamboanga del Norte on Mindanao's northwestern coast. Five distances from 1K to 21K. Dipolog is known for its Sunset Boulevard and its sardine industry. RUNRIO's production ensures professional standards. August in Zamboanga is relatively dry. A MILO series qualifier in one of Mindanao's less-travelled provinces.",
+  "title": "MILO Marathon 2026 Dipolog City Leg Review: Golden Run in the Orchid City",
+  "seo_title": "MILO Marathon Dipolog 2026 Review | Zamboanga Philippines",
+  "meta_description": "MILO Marathon 2026 Dipolog City Leg review: August 16, four distances, part of MILO's 50th-anniversary Golden Run series in the Orchid City.",
+  "dek": "Set for 16 August 2026, this Dipolog City leg is one of 15 stops on the MILO Marathon's 50th-anniversary Golden Run series -- four distances, a schools-heavy field, and a return to the city two decades after it first joined the series.",
+  "verdict": "The Dipolog City leg is one of 15 stops on the MILO Marathon's 50th-anniversary 'Golden Run' series, a schools-heavy grassroots circuit running since 1976 that returns to Dipolog two decades after the city first joined its Western Mindanao expansion. Four distances keep it accessible to the roughly 300,000 nationwide entrants, about seven in ten of them students. Dipolog itself -- the fishing-port 'Orchid City' and provincial capital -- is a genuine change of scenery from Manila-centric racing. Registration status is still unconfirmed, so there's a real gap between wanting to run this and actually being able to sign up.",
   "rating": {
-    "overall": 65,
+    "overall": 60,
     "breakdown": [
       {
-        "label": "Organiser (RUNRIO)",
-        "score": 92
-      },
-      {
-        "label": "Series (MILO)",
+        "label": "Series heritage & scale",
         "score": 85
       },
       {
-        "label": "Dipolog setting",
-        "score": 60
+        "label": "Distance accessibility",
+        "score": 78
       },
       {
-        "label": "Registration",
-        "score": 35
+        "label": "Destination appeal",
+        "score": 62
+      },
+      {
+        "label": "Registration clarity",
+        "score": 25
       }
     ]
   },
   "sections": [
     {
-      "heading": "MILO in Zamboanga",
+      "heading": "MILO's Golden Run: 50 Years, 15 Legs",
       "paragraphs": [
-        "Dipolog City is the capital of Zamboanga del Norte — a coastal city on Mindanao's northwestern tip. [1] The MILO series brings RUNRIO's gold-standard production to one of the country's more remote provinces."
+        "2026 marks the MILO Marathon's 50th anniversary, branded the 'Golden Run,' spanning 15 city legs nationwide before the National Finals in Clark City, Pampanga. [1] Dipolog isn't a new addition -- the city first joined the series' Western Mindanao expansion back in 2006, during the marathon's 30th-anniversary season, so this leg has real local history behind it."
+      ]
+    },
+    {
+      "heading": "Four Distances, Mostly Students",
+      "paragraphs": [
+        "The Dipolog leg offers four categories: 21.1K, 10K, 5K and 3K. [1] The race is organised by RunRio Inc. in partnership with Nestlé Philippines, the Department of Education, the Philippine Sports Commission and the Philippine Olympic Committee -- and roughly 70% of the roughly 300,000 participants expected across all 2026 legs nationwide are students, which shapes the field's character more than any single city's course does."
+      ]
+    },
+    {
+      "heading": "Dipolog: The Orchid City of the Philippines",
+      "paragraphs": [
+        "Dipolog is the capital of Zamboanga del Norte, a fishing and interisland shipping port with its own commercial airport, and home to just over 136,000 people as of the 2024 census. [2] Its nicknames -- Queen City of Western Mindanao, Orchid City of the Philippines, Bottled Sardines Capital of the Philippines -- give a sense of a city that's proud of a distinct regional identity, not just another provincial stopover."
+      ]
+    },
+    {
+      "heading": "August Conditions in Zamboanga del Norte",
+      "paragraphs": [
+        "Western Mindanao in August sits within the Philippines' southwest monsoon season, with warm, humid conditions typical of the country's tropical climate and a real chance of afternoon rain. [3] Community races like this one typically start early to get runners through before the heat of the day builds."
+      ]
+    },
+    {
+      "heading": "Registration: Still Unconfirmed",
+      "paragraphs": [
+        "As of this writing, registration status for the Dipolog leg has not been confirmed open. [1] That's a real gap for anyone planning a trip around race day -- worth checking the official MILO site directly before booking travel."
       ]
     },
     {
       "heading": "Should You Run It?",
       "paragraphs": [
-        "A RUNRIO MILO qualifier in Dipolog. 16 August 2026. [1]"
+        "If you want a MILO Marathon leg with genuine local heritage in a part of the Philippines most runners never visit, Dipolog on 16 August 2026 is worth tracking. Just confirm registration is actually open before you commit to travel -- that's the one piece still missing."
       ]
     }
   ],
@@ -46,19 +70,42 @@
   "sources": [
     {
       "n": 1,
-      "label": "MILO Marathon — official site",
-      "publisher": "MILO / RUNRIO",
-      "url": "https://www.milo.com.ph",
+      "label": "National MILO Marathon — official site",
+      "publisher": "MILO Philippines",
+      "url": "https://www.milo.com.ph/national-milo-marathon",
       "type": "official"
+    },
+    {
+      "n": 2,
+      "label": "Dipolog — Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dipolog",
+      "type": "other"
+    },
+    {
+      "n": 3,
+      "label": "Climate of the Philippines — Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Climate_of_the_Philippines",
+      "type": "other"
     }
   ],
   "faqs": [
     {
-      "question": "When is MILO Marathon Dipolog 2026?",
-      "answer": "16 August 2026 in Dipolog City, Zamboanga del Norte. It offers 21.1K, 10K, 5K, and 3K. Registration is listed as not yet confirmed open. RUNRIO Inc. (MILO Marathon) organises the event. [1]"
+      "question": "When is the MILO Marathon 2026 Dipolog City Leg?",
+      "answer": "16 August 2026 in Dipolog City, Zamboanga del Norte. It's one of 15 legs in the MILO Marathon's 50th-anniversary 'Golden Run' series, run by RunRio Inc. with Nestlé Philippines, DepEd, and the Philippine Sports Commission ahead of the National Finals in Clark City. [1]"
+    },
+    {
+      "question": "What distances are offered?",
+      "answer": "Four distances: 21.1K half marathon, 10K, 5K, and 3K. The field is dominated by students, who make up roughly 70% of the ~300,000 runners expected across all 2026 MILO Marathon legs nationwide. [1]"
+    },
+    {
+      "question": "Is registration open?",
+      "answer": "Not yet confirmed as of this writing. Prospective participants should check the official MILO Marathon site directly for updates before making travel plans around the 16 August 2026 race date. [1]"
     }
   ],
-  "editorial_notes": "Auto-generated review.",
+  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and already-researched entity material (research_highlights/watchouts), plus supplementary background sources. Prose is original synthesis. Safe to hand-edit.",
+  "published_at": "2026-08-09T06:30:00.000Z",
   "last_updated": "2026-08-09",
   "status": "active"
 }

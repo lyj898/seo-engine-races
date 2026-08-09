@@ -2,43 +2,73 @@
   "review_id": "new-clark-city-marathon-2026",
   "slug": "new-clark-city-marathon-2026",
   "entity_id": "new-clark-city-marathon-2026",
-  "title": "New Clark City Marathon 2026 Review: Tarlac's Purpose-Built Sports Hub 42K",
-  "seo_title": "New Clark City Marathon 2026 Review | Tarlac Philippines",
-  "meta_description": "New Clark City Marathon 2026: August 16 at New Clark City, Tarlac. Full marathon from Run The North at the Philippines' newest sports complex.",
-  "dek": "Set for 16 August 2026 at New Clark City in Capas, Tarlac, this Run The North marathon brings a full 42K to the Philippines' newest purpose-built sports hub.",
-  "verdict": "The New Clark City Marathon brings a full marathon to the Philippines' newest purpose-built sports complex — a government-developed hub in Capas, Tarlac with world-class athletics facilities, wide roads, and a master-planned layout designed for major events. Organised by Run The North, it offers a flat, fast course with modern infrastructure. August in Tarlac is the wet season — expect warm, humid conditions. For runners wanting a marathon at the country's most modern sports venue, this is worth tracking.",
+  "title": "New Clark City Marathon 2026 Review: Four Heartbreak Hills North of Manila",
+  "seo_title": "New Clark City Marathon 2026 Review | Tarlac Race",
+  "meta_description": "New Clark City Marathon 2026 review: August 16 in Capas, Tarlac, a hilly 42K finishing at NCC Athletics Stadium, now run by Run The North.",
+  "dek": "Set for 16 August 2026 in the purpose-built New Clark City sports hub, this marathon closes out a multi-race series with a course organisers openly warn includes four hill climbs -- a change of operator from the 2024 edition adds a note of uncertainty.",
+  "verdict": "The New Clark City Marathon takes runners out of Metro Manila's traffic and into a purpose-built government sports complex in Capas, Tarlac, finishing in front of the NCC Athletics Stadium after a route that organisers themselves brand as having 'four heartbreak hills' -- worth taking at face value rather than assuming a flat course. Four distances from 5K to the full marathon, with the marathon as the culminating leg of a broader 2026 New Clark City race series. The wrinkle is that 2026 is organised by Run The North, a different operator than the RUNRIO team that ran the well-regarded 2024 edition, so past participant experience may not fully carry over. No independent race reports exist yet for this new organiser.",
   "rating": {
-    "overall": 66,
+    "overall": 63,
     "breakdown": [
       {
-        "label": "Venue (sports hub)",
-        "score": 82
+        "label": "Course & venue novelty",
+        "score": 74
       },
       {
-        "label": "Modern infrastructure",
-        "score": 78
+        "label": "Distance range",
+        "score": 72
       },
       {
-        "label": "Organiser",
-        "score": 60
+        "label": "Hilly course, honestly disclosed",
+        "score": 55
       },
       {
-        "label": "August climate",
-        "score": 50
+        "label": "New organiser, no track record",
+        "score": 40
       }
     ]
   },
   "sections": [
     {
-      "heading": "New Clark City: The Future of PH Sport",
+      "heading": "A Purpose-Built Sports Hub North of Manila",
       "paragraphs": [
-        "New Clark City is the Philippines' flagship sports development — a purpose-built complex with an athletics stadium, aquatics centre, and wide master-planned roads. [1] Run The North brings regional race-production experience. A flat, modern course with minimal traffic."
+        "The race is held entirely within New Clark City, a purpose-built government and sports complex in Capas, Tarlac, well outside Metro Manila's urban core. [1] The course runs through the Sacobia Bridge and along the Airport to NCC Access Road (ANAR) -- promoted by organisers as the longest bike lane in the country -- before finishing in front of the NCC Athletics Stadium, giving the marathon a stadium-finish feel that few Philippine road races can match."
+      ]
+    },
+    {
+      "heading": "Four Heartbreak Hills: Read the Course Notes",
+      "paragraphs": [
+        "Organisers market the marathon route as including 'four heartbreak hills,' which is a fairly direct signal that this is a rolling or hilly full marathon rather than a flat PR course. [1] Runners chasing a fast time should read the course profile carefully before entering; those looking for a scenic, challenging change of pace from flat coastal courses will find exactly that."
+      ]
+    },
+    {
+      "heading": "Four Distances, One Series Finale",
+      "paragraphs": [
+        "The 2026 marathon (42.195K) is the culminating leg of a broader New Clark City race series that also included a 10-Miler and Half Marathon earlier in the year, alongside standalone 5K, 10K and 21K categories on race day itself. [1] Hydration stations along the route provide water and sports drinks in paper cups, with kilometre markers at every km, based on how the prior RUNRIO-organised 2024 edition was run."
+      ]
+    },
+    {
+      "heading": "New Organiser for 2026",
+      "paragraphs": [
+        "The 2026 edition is organised by Run The North, a different operator than RUNRIO, which ran the 2024 race. [1] That matters because participant feedback and logistics from the 2024 edition -- water station placement, shuttle arrangements, race-pack collection -- were built around RUNRIO's operation and may not transfer directly to how Run The North executes race day."
+      ]
+    },
+    {
+      "heading": "No Independent Reviews Yet",
+      "paragraphs": [
+        "As of this writing, there are no independently published participant race reports, reviews, or forum discussions about this specific event -- available material is limited to organiser and marketing pages from Run The North, Takbo.ph, Pinoy Fitness and registration sites. [1] Registration status has not yet been announced, so there's nothing to sign up for immediately."
+      ]
+    },
+    {
+      "heading": "Getting to Capas, Tarlac",
+      "paragraphs": [
+        "New Clark City sits in Capas, Tarlac, roughly two hours north of Metro Manila by road via the North Luzon Expressway and Tarlac-Pangasinan-La Union Expressway. [2] It's a manageable day trip or overnight stay for Manila-based runners, though the venue itself is a self-contained government complex rather than a city with its own tourism draw."
       ]
     },
     {
       "heading": "Should You Run It?",
       "paragraphs": [
-        "A marathon at the Philippines' newest sports complex. 16 August 2026 at New Clark City, Tarlac. [1]"
+        "If a hilly, stadium-finish marathon in a purpose-built sports complex appeals and you're comfortable with a first-year-under-new-management race, the New Clark City Marathon on 16 August 2026 is worth watching once registration opens. Runners who want a known quantity should wait for post-race reports under the new organiser before committing."
       ]
     }
   ],
@@ -46,19 +76,35 @@
   "sources": [
     {
       "n": 1,
-      "label": "New Clark City Marathon — event listing",
-      "publisher": "Pinoy Fitness",
-      "url": "https://www.pinoyfitness.com",
-      "type": "aggregator"
+      "label": "Run The North — New Clark City Marathon",
+      "publisher": "Run The North",
+      "url": "https://runthenorth.ph",
+      "type": "official"
+    },
+    {
+      "n": 2,
+      "label": "New Clark City — Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/New_Clark_City",
+      "type": "other"
     }
   ],
   "faqs": [
     {
-      "question": "When is New Clark City Marathon 2026?",
-      "answer": "16 August 2026 at New Clark City, Capas, Tarlac. It offers 42.2K, 21.1K, 10K, and 5K. Registration is listed as not yet announced. Run The North organises the event. [1]"
+      "question": "When and where is the New Clark City Marathon 2026?",
+      "answer": "16 August 2026, held entirely within the New Clark City sports complex in Capas, Tarlac, roughly two hours north of Metro Manila. The course finishes in front of the NCC Athletics Stadium after crossing the Sacobia Bridge and the Airport to NCC Access Road. [1]"
+    },
+    {
+      "question": "Is the course flat?",
+      "answer": "No -- organisers explicitly promote the marathon route as including 'four heartbreak hills,' so it's best approached as a rolling, challenging course rather than a flat PR attempt. Four distances are offered: 5K, 10K, 21K and the 42.195K full marathon. [1]"
+    },
+    {
+      "question": "Is this the same organiser as the 2024 race?",
+      "answer": "No. The 2026 edition is run by Run The North, while the well-received 2024 edition was organised by RUNRIO. Past participant feedback about course logistics may not directly reflect what to expect under the new operator, since no independent reports exist yet for 2026. [1]"
     }
   ],
-  "editorial_notes": "Auto-generated review.",
+  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and already-researched entity material (research_highlights/watchouts), plus supplementary background sources. Prose is original synthesis. Safe to hand-edit.",
+  "published_at": "2026-08-09T06:30:00.000Z",
   "last_updated": "2026-08-09",
   "status": "active"
 }

@@ -2,43 +2,67 @@
   "review_id": "merdeka-half-marathon-2026",
   "slug": "merdeka-half-marathon-2026",
   "entity_id": "merdeka-half-marathon-2026",
-  "title": "Merdeka Half Marathon 2026 Review: KL's Independence-Day 21K",
-  "seo_title": "Merdeka Half Marathon 2026 Review | Dataran Merdeka KL Race",
-  "meta_description": "Merdeka Half Marathon 2026: August 23 at Dataran Merdeka, Kuala Lumpur. An Independence-Day themed 21K at Malaysia's most historic square.",
-  "dek": "Set for 23 August 2026 at Dataran Merdeka in Kuala Lumpur, this Merdeka-themed half marathon celebrates Malaysia's Independence Day at the country's most historic square.",
-  "verdict": "The Merdeka Half Marathon is a Malaysian Independence Day race at Dataran Merdeka — the square where Malaysian independence was declared in 1957. Organised by JBSKL x KPM, it carries genuine patriotic resonance. The Merdeka theme typically means special-edition medals, national-colour race tees, and a finish-line atmosphere that's more celebratory than a standard commercial race. Registration details are pending. For runners wanting a KL half marathon with historical significance at the country's most iconic square, this is a meaningful pick.",
+  "title": "Merdeka Half Marathon 2026 Review: Independence-Season Race at Dataran Merdeka",
+  "seo_title": "Merdeka Half Marathon 2026 Review | Kuala Lumpur Race",
+  "meta_description": "Merdeka Half Marathon 2026 review: August 23 starting and finishing at Dataran Merdeka, KL's historic independence square, run by JBSKL and Kita Pelari.",
+  "dek": "Set for 23 August 2026, this half marathon starts and finishes at Dataran Merdeka -- the square where Malaysia's independence was declared in 1957 -- timed for the Merdeka season and co-organised by the WPKL youth and sports department with Kita Pelari Malaysia.",
+  "verdict": "The Merdeka Half Marathon's main draw is its start/finish line: Dataran Merdeka, the roughly 1,000,000 square-metre square in downtown Kuala Lumpur where the Union Jack came down and the Malayan flag went up at midnight on 31 August 1957. Running through Malaysia's most symbolically loaded public space, timed for the Merdeka independence season, gives an otherwise single-distance community race real character. It's official-backed -- co-organised by the WPKL youth and sports department and Kita Pelari Malaysia with DBKL support -- and open to non-Malaysian residents, but there's no independent participant feedback yet and the course itself, beyond the iconic start point, isn't well documented.",
   "rating": {
-    "overall": 67,
+    "overall": 66,
     "breakdown": [
       {
-        "label": "Venue (Dataran Merdeka)",
-        "score": 90
+        "label": "Start/finish venue significance",
+        "score": 88
       },
       {
-        "label": "Merdeka theme",
-        "score": 82
+        "label": "Official backing & organisation",
+        "score": 74
       },
       {
-        "label": "Patriotic atmosphere",
-        "score": 78
+        "label": "Accessibility (open to residents)",
+        "score": 68
       },
       {
-        "label": "Registration",
+        "label": "Course detail & track record",
         "score": 35
       }
     ]
   },
   "sections": [
     {
-      "heading": "Merdeka at Dataran Merdeka",
+      "heading": "Starting at Malaysia's Independence Square",
       "paragraphs": [
-        "Running on or around Merdeka (Independence) Day at Dataran Merdeka — where Malaysian independence was declared — gives this race a significance no other KL event can match. [1] Expect national-colour themes, special-edition medals, and a celebratory finish-line atmosphere."
+        "The race starts and finishes at Dataran Merdeka in Kuala Lumpur City Centre. [1] The square covers roughly 1,000,000 square metres and is where, at midnight on 31 August 1957, the Union Jack was lowered and the Malayan flag raised for the first time -- the literal birthplace of Malaysian independence. [2] It's surrounded by the Sultan Abdul Samad Building, the Gothic-spired St Mary's Cathedral, and a 95-metre flagpole marking the exact spot of the flag-raising, giving runners one of the most historically dense start lines in Southeast Asian racing."
+      ]
+    },
+    {
+      "heading": "Timed for the Merdeka Season",
+      "paragraphs": [
+        "Race date is 23 August 2026, positioned within Malaysia's broader Merdeka (independence) season leading up to National Day on 31 August. [1] That timing is clearly deliberate -- pairing a half marathon through the country's independence landmark with the weeks when the whole city is in a patriotic, festive mood."
+      ]
+    },
+    {
+      "heading": "Who's Organising It",
+      "paragraphs": [
+        "The event is co-organised by Jabatan Belia dan Sukan WPKL (the Kuala Lumpur Federal Territory youth and sports department) and Kita Pelari Malaysia, with Pure Events and Persatuan Olahraga WP as technical organiser and support from DBKL, the Kuala Lumpur city council. [1] That's a genuinely official backing structure, not an independent promoter running solo -- which typically means road closures and permits are handled at the city level."
+      ]
+    },
+    {
+      "heading": "Eligibility and Race Kit",
+      "paragraphs": [
+        "The event is open to Malaysian residents and to non-Malaysians holding valid residency, with a minimum age of 5. [1] Race kits (bib, T-shirt, etc.) must be collected during a designated pick-up window before race day -- organisers are explicit that kits will not be issued after that window closes, so travelling runners need to plan their KL arrival accordingly."
+      ]
+    },
+    {
+      "heading": "What's Not Yet Documented",
+      "paragraphs": [
+        "Beyond the start/finish venue, the actual half-marathon route through the city isn't well documented in available material, and there's no independent participant feedback yet for this specific event. August in Kuala Lumpur is typically warm and humid, consistent with the city's equatorial climate, so heat management is worth planning for regardless of the exact route."
       ]
     },
     {
       "heading": "Should You Run It?",
       "paragraphs": [
-        "A patriotic KL half marathon at Malaysia's most historic square. 23 August 2026 at Dataran Merdeka. [1]"
+        "If running through the exact spot where Malaysia declared independence, during the country's independence season, appeals more than course novelty or a big-brand production, the Merdeka Half Marathon on 23 August 2026 is a solid pick -- and it's genuinely open to non-Malaysian residents. Runners who want detailed course maps or past-participant reviews before committing will find less to go on here than with longer-established races."
       ]
     }
   ],
@@ -46,19 +70,35 @@
   "sources": [
     {
       "n": 1,
-      "label": "Merdeka Half Marathon — event listing",
-      "publisher": "JBSKL / KPM",
+      "label": "Checkpoint Spot — Merdeka Half Marathon event listing",
+      "publisher": "checkpointspot.asia",
       "url": "https://checkpointspot.asia/events",
       "type": "aggregator"
+    },
+    {
+      "n": 2,
+      "label": "Merdeka Square — Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Merdeka_Square",
+      "type": "other"
     }
   ],
   "faqs": [
     {
-      "question": "When is the Merdeka Half Marathon 2026?",
-      "answer": "23 August 2026 — Merdeka season at Dataran Merdeka, KL. It offers 21.1K. Registration is currently open. JBSKL x KPM organises the event. It's held at Dataran Merdeka, Kuala Lumpur. [1]"
+      "question": "Where does the Merdeka Half Marathon 2026 start and finish?",
+      "answer": "At Dataran Merdeka in downtown Kuala Lumpur -- the square where Malaysia's independence was declared in 1957. The roughly 1,000,000 sq m square is surrounded by landmarks including the Sultan Abdul Samad Building and a 95-metre independence flagpole. [1][2]"
+    },
+    {
+      "question": "Can non-Malaysians run this race?",
+      "answer": "Yes. The event is open to Malaysian residents and to non-Malaysians with valid residency status, with a minimum age of 5. It's co-organised by the WPKL youth and sports department and Kita Pelari Malaysia, with support from Kuala Lumpur city council (DBKL). [1]"
+    },
+    {
+      "question": "When is race day and race-kit collection?",
+      "answer": "Race day is 23 August 2026. Race kits (bib, T-shirt) must be picked up during a designated window before race day -- organisers state kits will not be issued once that window closes, so plan your travel to Kuala Lumpur accordingly. [1]"
     }
   ],
-  "editorial_notes": "Auto-generated review.",
+  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and already-researched entity material (research_highlights/watchouts), plus supplementary background sources. Prose is original synthesis. Safe to hand-edit.",
+  "published_at": "2026-08-09T06:30:00.000Z",
   "last_updated": "2026-08-09",
   "status": "active"
 }
