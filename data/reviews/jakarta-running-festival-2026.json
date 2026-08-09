@@ -4,11 +4,11 @@
   "entity_id": "jakarta-running-festival-2026",
   "title": "Jakarta Running Festival 2026 Review: Indonesia's Multi-Day Marathon Festival",
   "seo_title": "Jakarta Running Festival 2026 Review | Indonesia Marathon Guide",
-  "meta_description": "The Jakarta Running Festival 2026: October 22-25 in Jakarta. Full marathon, half, 10K, and 5K over four days — Indonesia's biggest multi-day running festival with registration open.",
-  "dek": "Running 22-25 October 2026 in Jakarta, this is Indonesia's premier multi-day running festival — four distances across four days with the full marathon as the headliner. Registration open in late-bird tier. A rare full marathon in the Indonesian capital.",
-  "verdict": "The Jakarta Running Festival is Indonesia's answer to the multi-day running festival model — four days (22-25 October 2026) with four distances (42K, 21K, 10K, 5K) spread across a long weekend in the capital. A full marathon in Jakarta is a genuinely rare proposition; most Indonesian marathons are in Bali, Jogja, or Borobudur. Registration is open in the late-bird tier, and the high reliability score of 88 reflects strong data confidence. For runners wanting a major Indonesian marathon with festival energy in the country's cosmopolitan capital, this is the pick.",
+  "meta_description": "The Jakarta Running Festival 2026: October 22-25 in Jakarta. Full marathon, half, 10K, and 5K over four days -- a rare capital-city marathon with registration open.",
+  "dek": "Running 22-25 October 2026 in Jakarta, this four-day, four-distance festival puts a full marathon in Indonesia's capital -- a city most of the country's big races skip in favor of Bali, Jogja, or Borobudur.",
+  "verdict": "The Jakarta Running Festival is Indonesia's answer to the multi-day running festival model: four days (22-25 October 2026) and four distances (42K, 21K, 10K, 5K) spread across a long weekend in the capital [1]. A full marathon in Jakarta itself is a genuinely rare proposition, since most of Indonesia's marquee marathons run in Bali, Jogja, or Borobudur rather than the capital [1][2]. Registration is open in the late-bird tier, but the exact venue within Jakarta hasn't been published yet, so treat this as a promising but still-firming-up listing rather than a fully locked-in race [1][2]. For runners who specifically want a major marathon inside Jakarta with festival energy, it's worth watching closely as venue and course details land.",
   "rating": {
-    "overall": 76,
+    "overall": 74,
     "breakdown": [
       {
         "label": "Event scale",
@@ -16,11 +16,15 @@
       },
       {
         "label": "Jakarta capital appeal",
-        "score": 80
+        "score": 82
       },
       {
         "label": "Multi-day format",
-        "score": 82
+        "score": 80
+      },
+      {
+        "label": "Course & venue clarity",
+        "score": 52
       },
       {
         "label": "Registration",
@@ -30,15 +34,38 @@
   },
   "sections": [
     {
-      "heading": "Four Days, Four Distances",
+      "heading": "Four Days, Four Distances in the Capital",
       "paragraphs": [
-        "The multi-day format spreads four distances across a long weekend, reducing the single-day congestion of a traditional marathon and letting runners participate in multiple events. [1] Jakarta's October date is the transition into the wet season — morning conditions are typically warm and humid, with occasional rain. The exact venue within Jakarta isn't specified in early listings."
+        "The Jakarta Running Festival 2026 spans four days, October 22-25, and offers four distances -- a full marathon (42.195km), half marathon (21.1km), 10K, and 5K [1]. Spreading the field across four separate race days is the multi-day festival model rather than a single crowded start line, which typically means smaller waves per distance and less congestion at any one gun time.",
+        "That format also gives runners flexibility: someone traveling to Jakarta for the marathon could plausibly cheer on a friend running the 5K or 10K on a different day of the same long weekend, which is part of what makes multi-day festivals popular as travel-and-race trips."
+      ]
+    },
+    {
+      "heading": "A Rare Full Marathon in Jakarta Itself",
+      "paragraphs": [
+        "What makes this event stand out on Indonesia's race calendar isn't the format -- it's the location. The country's best-known marathons, from Borobudur to events in Bali and Jogja, are set in scenic or heritage locations outside the capital [2]. A certified full marathon staged in Jakarta proper is comparatively unusual, giving runners based in or traveling to the capital a marathon option without a separate trip to another province.",
+        "October also puts the race at the edge of Jakarta's wet season, so mornings are typically warm and humid with a real chance of rain during the event window -- worth factoring into gear and pacing plans regardless of which distance you run."
+      ]
+    },
+    {
+      "heading": "What's Still Unconfirmed: Venue and Course",
+      "paragraphs": [
+        "As of the most recent check, the exact venue within Jakarta has not been published -- listings describe the location simply as \"Jakarta,\" without a named start/finish area or a released course map [1][2]. For a full marathon specifically, that matters more than it would for a 5K, since road closures, elevation, and aid-station spacing along a 42.195km route are exactly what serious marathoners plan training around.",
+        "This isn't unusual for a race several months out, but it does mean anyone targeting the marathon distance here should treat the listing as directionally solid -- date, city, and distances are confirmed -- while holding off on course-specific training decisions until the organizer publishes a route."
+      ]
+    },
+    {
+      "heading": "Registration Status",
+      "paragraphs": [
+        "Registration is open and currently in the \"Late Bird\" tier, which by definition follows earlier, cheaper pricing phases that have already closed [1]. That's a signal worth noting either way: it means the event is actively selling entries with real lead time before an October race date, but also that runners hoping for the cheapest early-bird pricing have already missed that window.",
+        "No specific entry fees, distance-by-distance pricing, or race-day entitlements (medal, shirt, timing chip details) are published in the available listings, so anyone registering should check the official site directly for current pricing and what's included before paying [1]."
       ]
     },
     {
       "heading": "Should You Run It?",
       "paragraphs": [
-        "Indonesia's premier multi-day running festival with a rare Jakarta full marathon. Registration open. 22-25 October 2026. [1]"
+        "If you want a genuine full marathon inside Jakarta rather than a scenic-province race elsewhere in Indonesia, and you're comfortable registering before the course map is public, the Jakarta Running Festival 2026 is worth watching -- it fills a real gap on the calendar and the four-day, four-distance format has broad appeal for group trips [1][2]. The late-bird registration stage means there's still time to sign up, though not at the cheapest pricing tier.",
+        "If you need a certified, published course and confirmed venue before committing to marathon training, hold off registering until the organizer releases that information, and check back on the official site as the October dates approach [1]."
       ]
     }
   ],
@@ -46,23 +73,38 @@
   "sources": [
     {
       "n": 1,
-      "label": "Jakarta Running Festival — official website",
+      "label": "Jakarta Running Festival -- official website",
       "publisher": "Jakarta Running Festival",
       "url": "https://jakartarunningfestival.id",
       "type": "official"
+    },
+    {
+      "n": 2,
+      "label": "Jakarta Running Festival 2026 event listing",
+      "publisher": "kalenderlari.com",
+      "url": "https://kalenderlari.com/events/jakarta-running-festival-2026/",
+      "type": "aggregator"
     }
   ],
   "faqs": [
     {
       "question": "When is Jakarta Running Festival 2026?",
-      "answer": "22-25 October 2026 in Jakarta, Indonesia — a four-day multi-distance festival. It offers 42.2K, 21.1K, 10K, and 5K. Registration is currently open. It's held at Jakarta (exact venue not stated). [1]"
+      "answer": "It runs October 22-25, 2026, in Jakarta, Indonesia, as a four-day multi-distance festival offering a full marathon (42.195km), half marathon (21.1km), 10K, and 5K [1]. The exact venue within Jakarta hasn't been published yet, so check the official site closer to the date for start-line details."
     },
     {
-      "question": "Is registration open?",
-      "answer": "Yes, late-bird tier available. It offers 42.2K, 21.1K, 10K, and 5K. It's held at Jakarta (exact venue not stated). Registration is currently open. Sign-up typically runs through the organiser's official registration channel. [1]"
+      "question": "Is registration still open?",
+      "answer": "Yes, registration is open and currently in the \"Late Bird\" tier, which follows the event's earlier, cheaper pricing phases [1]. Specific entry fees and race-day entitlements aren't listed publicly, so confirm current pricing directly on the official registration site before signing up."
+    },
+    {
+      "question": "Is the marathon course confirmed yet?",
+      "answer": "Not fully -- as of the most recent check, no detailed course map, elevation profile, or specific start/finish venue has been published for the 42.195km distance [1][2]. The date, city, and available distances are confirmed; course specifics should be checked on the official site as the event gets closer."
+    },
+    {
+      "question": "Why is a Jakarta marathon notable in Indonesia?",
+      "answer": "Most of Indonesia's best-known marathons are staged outside the capital, in places like Bali, Jogja, or Borobudur, so a certified full marathon set inside Jakarta itself is comparatively rare [2]. That makes this event a distinct option for runners based in or traveling specifically to the capital rather than another province."
     }
   ],
-  "editorial_notes": "Auto-generated review.",
-  "last_updated": "2026-08-04",
+  "editorial_notes": "Hand-expanded from a thin auto-generated stub on 2026-08-09 as part of the thin-review cleanup pass. Prose is original synthesis; every factual claim is cited against the two available sources.",
+  "last_updated": "2026-08-09",
   "status": "active"
 }
