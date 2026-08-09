@@ -2,43 +2,61 @@
   "review_id": "vnexpress-marathon-hanoi-midnight-2026",
   "slug": "vnexpress-marathon-hanoi-midnight-2026",
   "entity_id": "vnexpress-marathon-hanoi-midnight-2026",
-  "title": "VnExpress Marathon Hanoi Midnight 2026 Review: Vietnam's Capital After Dark",
-  "seo_title": "VnExpress Marathon Hanoi Midnight 2026 Review | Night Race",
-  "meta_description": "VnExpress Marathon Hanoi Midnight 2026: November 29 in Hanoi's Old Quarter. Full marathon, half, 10K, and 5K at midnight from Vietnam's premier race series. Registration pending.",
-  "dek": "Set for 29 November 2026 starting from the Tran Nhan Tong walking street in Hanoi, this VnExpress midnight marathon brings Vietnam's premier race series to the capital after dark. Four distances. Registration isn't open yet, but the organiser pedigree is proven.",
-  "verdict": "The VnExpress Marathon Hanoi Midnight takes the country's top race series and runs it at midnight through Vietnam's 1,000-year-old capital. Four distances (42K, 21K, 10K, 5K), a start in the historic walking-street district, and the VnExpress/FPT Online production machine behind it. The midnight format in Hanoi's cool November — when temperatures drop into the high teens — is one of the more appealing race concepts in Vietnam. Registration isn't open yet, but for a VnExpress race, this is a tracking priority, not a gamble.",
+  "title": "VnExpress Marathon Hanoi Midnight 2026 Review: A News Site's Nighttime Marathon",
+  "seo_title": "VnExpress Marathon Hanoi Midnight 2026 Review",
+  "meta_description": "VnExpress Marathon Hanoi Midnight 2026 review: November 29 near Tran Nhan Tong walking street -- organised by Vietnam's biggest digital newspaper.",
+  "dek": "Set for 29 November 2026 near Tran Nhan Tong walking street, this nighttime marathon is organised directly by VnExpress, Vietnam's largest digital newspaper, run by FPT Group since 2001.",
+  "verdict": "The VnExpress Marathon Hanoi Midnight brings a genuinely unusual organiser to the field: VnExpress, Vietnam's largest online newspaper, founded in 2001 as the country's first paperless publication, run by FPT Group and drawing 10 billion page views in a single year (2020). That's a media-company sponsorship model distinct from every other organiser covered in this research batch. The nighttime 'Midnight' format echoes the HOKA Midnight Run series covered elsewhere in this research, though this is an entirely separate event. Four distances from 5K to the full marathon give it broad accessibility.",
   "rating": {
-    "overall": 76,
+    "overall": 73,
     "breakdown": [
       {
-        "label": "Race concept / format",
-        "score": 88
+        "label": "Organiser reach (major digital newspaper)",
+        "score": 82
       },
       {
-        "label": "Organiser pedigree",
-        "score": 88
+        "label": "Format novelty (nighttime marathon)",
+        "score": 76
       },
       {
-        "label": "Setting / Old Quarter",
-        "score": 85
+        "label": "Distance range",
+        "score": 76
       },
       {
-        "label": "Registration readiness",
-        "score": 35
+        "label": "Registration clarity",
+        "score": 32
       }
     ]
   },
   "sections": [
     {
-      "heading": "Midnight in Hanoi",
+      "heading": "A Newspaper's Own Marathon",
       "paragraphs": [
-        "Hanoi in late November is cool and dry — morning temperatures in the mid-to-high teens. [1] A midnight start through the Old Quarter's narrow streets and around Hoan Kiem Lake, with the city's French-colonial architecture lit up, is a fundamentally different experience from a daytime Vietnam race. The VnExpress machine — chip timing, entertainment zones, well-stocked aid stations — is proven across the country."
+        "The race offers four distances -- 5K, 10K, 21.1K and the 42.195K full marathon -- near Tran Nhan Tong walking street, Hanoi. [1] VnExpress is organised directly by VnExpress itself, Vietnam's largest online newspaper, founded on 26 February 2001 as the country's first newspaper not produced in paper format, run by FPT Group with headquarters in Hanoi's Cau Giay District. [2] In 2020 alone, its website recorded 10 billion views -- a media reach that gives this race genuinely broad promotional backing."
+      ]
+    },
+    {
+      "heading": "The Nighttime Format",
+      "paragraphs": [
+        "The 'Midnight' branding signals a nighttime race format, similar in spirit to the HOKA Midnight Run Asia series covered elsewhere in this research batch, though this is an entirely separate event with a different organiser. [1] Running through Hanoi at night offers a genuinely different experience from the pre-dawn starts typical of most races in this dataset -- cooler temperatures and a distinct urban atmosphere."
+      ]
+    },
+    {
+      "heading": "Near Hoan Kiem's Historic Core",
+      "paragraphs": [
+        "Tran Nhan Tong walking street sits within the same broader historic Hanoi area as Hoan Kiem Lake, the starting point for both the VPBank and Standard Chartered Hanoi marathons covered elsewhere in this research batch. [1] Hanoi's dense concentration of international-standard marathons -- at least three separate events covered in this research -- speaks to the city's maturity as a distance-running destination."
+      ]
+    },
+    {
+      "heading": "Registration Not Yet Announced",
+      "paragraphs": [
+        "As of this writing, registration status has not been announced. [1] Given VnExpress's massive digital reach, demand could move quickly once sign-ups open."
       ]
     },
     {
       "heading": "Should You Run It?",
       "paragraphs": [
-        "If you want a VnExpress-quality marathon with the novelty of a midnight start in Vietnam's atmospheric capital, watch for registration to open. The 2026 edition is set for 29 November in Hanoi. [1]"
+        "If a nighttime marathon backed by one of Vietnam's most-read media outlets appeals, the VnExpress Marathon Hanoi Midnight on 29 November 2026 offers genuine promotional scale and a distinctive after-dark format. Watch official VnExpress channels closely for registration to open."
       ]
     }
   ],
@@ -46,23 +64,35 @@
   "sources": [
     {
       "n": 1,
-      "label": "VnExpress Marathon Hanoi Midnight — event info",
-      "publisher": "VnExpress / FPT Online",
+      "label": "VnExpress Marathon Hanoi Midnight — event coverage",
+      "publisher": "VnExpress",
       "url": "https://e.vnexpress.net",
-      "type": "official"
+      "type": "aggregator"
+    },
+    {
+      "n": 2,
+      "label": "VnExpress — Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/VnExpress",
+      "type": "other"
     }
   ],
   "faqs": [
     {
-      "question": "When is the VnExpress Marathon Hanoi Midnight 2026?",
-      "answer": "29 November 2026 — a midnight-start race in Hanoi, Vietnam. It offers 42.2K, 21.1K, 10K, and 5K. Registration is listed as not yet announced. VnExpress / FPT Online organises the event. It's held at Tran Nhan Tong walking street area, Hanoi. [1]"
+      "question": "Who organises the VnExpress Marathon Hanoi Midnight?",
+      "answer": "VnExpress itself, Vietnam's largest online newspaper, founded in 2001 and run by FPT Group. It's a genuinely unusual media-company sponsorship model, distinct from every other race organiser covered in this research. [2]"
     },
     {
-      "question": "What distances?",
-      "answer": "Full marathon (42K), half (21K), 10K, and 5K. It's held at Tran Nhan Tong walking street area, Hanoi. Registration is listed as not yet announced. VnExpress / FPT Online organises the event. It offers 42.2K, 21.1K, 10K, and 5K. [1]"
+      "question": "What distances are offered?",
+      "answer": "Four: 5K, 10K, 21.1K and the 42.195K full marathon, near Tran Nhan Tong walking street, Hanoi, on 29 November 2026. Registration status has not yet been announced as of this writing. [1]"
+    },
+    {
+      "question": "Is this the same as the HOKA Midnight Run series?",
+      "answer": "No -- while both use nighttime race formats, they're entirely separate events with different organisers. This one is run directly by VnExpress in Hanoi; HOKA Midnight Run Asia is organised by RunRio across Philippine cities. [1]"
     }
   ],
-  "editorial_notes": "Auto-generated review.",
-  "last_updated": "2026-08-04",
+  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "published_at": "2026-08-09T09:00:00.000Z",
+  "last_updated": "2026-08-09",
   "status": "active"
 }

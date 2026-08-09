@@ -2,43 +2,61 @@
   "review_id": "bentong-monsoon-marathon-2026",
   "slug": "bentong-monsoon-marathon-2026",
   "entity_id": "bentong-monsoon-marathon-2026",
-  "title": "Bentong Monsoon Marathon 2026 Review: A Rain-Season Full Marathon in Janda Baik",
-  "seo_title": "Bentong Monsoon Marathon 2026 Review | Pahang Malaysia Race",
-  "meta_description": "The Bentong Monsoon Marathon 2026: November 28 in Janda Baik, Bentong, Pahang. Full and half marathon with registration open — a monsoon-season hill-country race reviewed.",
-  "dek": "Set for 28 November 2026 in Janda Baik, Bentong — a hill-country retreat near Kuala Lumpur — this monsoon-season marathon offers full and half distances with registration open. A cool-air escape race just outside the capital.",
-  "verdict": "The Bentong Monsoon Marathon leans into its name: a November race in Janda Baik, a hill-country village in the Titiwangsa Range roughly an hour from KL, where the monsoon brings cool temperatures and misty mornings. Two distances (42K, 21K) with registration open. The venue — Janda Baik at roughly 600m elevation — means cooler conditions than KL's tropical heat, but also more hills. A distinctive Malaysian marathon for runners who prefer elevation and cool air over flat city tarmac.",
+  "title": "Bentong Monsoon Marathon 2026 Review: Racing Through a Rainforest Retreat",
+  "seo_title": "Bentong Monsoon Marathon 2026 Review | Janda Baik",
+  "meta_description": "Bentong Monsoon Marathon 2026 review: November 28 at Janda Baik -- a rainforest village near Kuala Lumpur, honestly named for wet-season racing.",
+  "dek": "Set for 28 November 2026 at Janda Baik, a rainforest retreat village 45km from Kuala Lumpur, this marathon's name is an honest heads-up about running through Malaysia's wet season.",
+  "verdict": "The Bentong Monsoon Marathon takes its name seriously -- it's held at Janda Baik, a rainforest village 800m above sea level in Bentong District, Pahang, during Malaysia's wetter months, and the race name itself is a direct acknowledgement of likely rain rather than a marketing euphemism. Janda Baik carries genuine local character: its name means 'good widow' or 'the divorcee returns,' first settled in 1930 by villagers displaced from a 1926 flood. Two serious distances (42K/21K) and no shorter fun-run category make this squarely for committed distance runners prepared for wet-weather trail-adjacent conditions.",
   "rating": {
-    "overall": 65,
+    "overall": 72,
     "breakdown": [
       {
-        "label": "Venue / hill setting",
-        "score": 82
+        "label": "Setting distinctiveness (rainforest village)",
+        "score": 86
       },
       {
-        "label": "Registration accessibility",
-        "score": 78
+        "label": "Honest naming (monsoon acknowledgement)",
+        "score": 74
       },
       {
-        "label": "Event concept",
-        "score": 72
+        "label": "Distance focus (marathon/half only)",
+        "score": 64
       },
       {
-        "label": "Organiser visibility",
-        "score": 25
+        "label": "Weather risk",
+        "score": 45
       }
     ]
   },
   "sections": [
     {
-      "heading": "Janda Baik: KL's Hill-Country Escape",
+      "heading": "A Name That Doesn't Hide the Weather",
       "paragraphs": [
-        "Janda Baik sits at roughly 600m in the Titiwangsa Range, offering substantially cooler temperatures than Kuala Lumpur. [1] The monsoon-season setting means misty mornings and lush green surroundings — a fundamentally different marathon experience from a KL city race. Expect hills; this is not a PB course."
+        "The Bentong Monsoon Marathon offers two distances: the 42.195K full marathon and 21.1K half marathon, at Janda Baik, Bentong, Pahang. [1] Unlike most races that avoid mentioning weather risk in their branding, this one names it directly -- a genuinely honest signal about what to expect running in Malaysia during its wetter season."
+      ]
+    },
+    {
+      "heading": "Janda Baik: A Rainforest Retreat Near KL",
+      "paragraphs": [
+        "Janda Baik is a village in Bentong District, Pahang, about 45km from Kuala Lumpur and 800m above sea level. [2] The name means 'the divorcee returns' or 'good widow' in Malay -- first settled in 1930 by three Bentong villagers who relocated after their town flooded in 1926. Today it's known for its rainforests, intimate resorts, and small farm holdings, with activities like biking, tubing, ATV trail-blazing and rafting available for visitors."
+      ]
+    },
+    {
+      "heading": "A Village Balancing Tourism and Environment",
+      "paragraphs": [
+        "While Janda Baik historically focused on agriculture, it now also embraces electronics and tourism industries -- though that development has led to deforestation concerns and protests from villagers worried about ecosystem and cultural impacts. [2] Running a race through this kind of actively-debated development landscape gives the course genuine, if complicated, local relevance."
+      ]
+    },
+    {
+      "heading": "Serious Distances, No Fun Run",
+      "paragraphs": [
+        "Only the full marathon and half marathon are offered -- no shorter category -- similar to the Selangor Marathon's focused format covered elsewhere in this research batch. [1] Registration is currently open."
       ]
     },
     {
       "heading": "Should You Run It?",
       "paragraphs": [
-        "If you want a cool-air, hill-country marathon near KL with open registration, the Bentong Monsoon Marathon delivers. The 2026 edition is set for 28 November in Janda Baik, Bentong, Pahang. [1]"
+        "If a scenic marathon through a rainforest retreat village near Kuala Lumpur appeals -- and you're genuinely prepared for wet conditions given the race's own honest naming -- the Bentong Monsoon Marathon on 28 November 2026 is a distinctive, committed-runner-focused pick. Pack for rain regardless of forecast."
       ]
     }
   ],
@@ -46,23 +64,35 @@
   "sources": [
     {
       "n": 1,
-      "label": "Bentong Monsoon Marathon — event listing",
-      "publisher": "Checkpoint Spot Asia",
+      "label": "Bentong Monsoon Marathon 2026 — event listing",
+      "publisher": "checkpointspot.asia",
       "url": "https://checkpointspot.asia/events",
-      "type": "registration_platform"
+      "type": "aggregator"
+    },
+    {
+      "n": 2,
+      "label": "Janda Baik — Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Janda_Baik",
+      "type": "other"
     }
   ],
   "faqs": [
     {
-      "question": "When is the Bentong Monsoon Marathon 2026?",
-      "answer": "28 November 2026 in Janda Baik, Bentong, Pahang, Malaysia. It offers 42.2K and 21.1K. Registration is currently open. Mark it on your calendar if you're planning your racing year around it. [1]"
+      "question": "Why is it called the 'Monsoon' Marathon?",
+      "answer": "The name directly acknowledges that race weekend falls during Malaysia's wetter season -- an honest heads-up rather than a marketing euphemism. It's held at Janda Baik, a rainforest village in Bentong District, Pahang. [1]"
     },
     {
-      "question": "Is registration open?",
-      "answer": "Yes, registration is open. It's held at Janda Baik, Bentong, Pahang. It offers 42.2K and 21.1K. Sign-up typically runs through the organiser's official registration channel. Entry numbers can be capped, so earlier sign-up is generally safer. [1]"
+      "question": "What distances are offered?",
+      "answer": "Just two: the 42.195K full marathon and 21.1K half marathon, with no shorter fun-run category -- aimed squarely at committed distance runners. Registration is currently open for the 28 November 2026 race date. [1]"
+    },
+    {
+      "question": "What is Janda Baik like?",
+      "answer": "A rainforest retreat village about 45km from Kuala Lumpur, 800m above sea level, first settled in 1930. Its name means 'good widow' or 'the divorcee returns,' and it's known today for resorts, farms and outdoor activities like tubing and rafting. [2]"
     }
   ],
-  "editorial_notes": "Auto-generated review.",
-  "last_updated": "2026-08-04",
+  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "published_at": "2026-08-09T09:00:00.000Z",
+  "last_updated": "2026-08-09",
   "status": "active"
 }

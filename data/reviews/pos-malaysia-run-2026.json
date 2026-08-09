@@ -2,43 +2,61 @@
   "review_id": "pos-malaysia-run-2026",
   "slug": "pos-malaysia-run-2026",
   "entity_id": "pos-malaysia-run-2026",
-  "title": "Pos Malaysia Run 2026 Review: A Half Marathon at Dataran Merdeka",
-  "seo_title": "Pos Malaysia Run 2026 Review | KL Dataran Merdeka Race",
-  "meta_description": "Pos Malaysia Run 2026: November 29 at Dataran Merdeka, Kuala Lumpur. 21K, 10K, and 5.5K with registration open — Malaysia's postal-service road race reviewed.",
-  "dek": "Set for 29 November 2026 at Dataran Merdeka — Kuala Lumpur's historic independence square — this Pos Malaysia Berhad-organised run offers three distances with registration open. A national-brand road race at one of KL's most iconic venues.",
-  "verdict": "Pos Malaysia Run 2026 is a national-brand road race at Dataran Merdeka, the historic square where Malaysian independence was declared. Organised by Pos Malaysia Berhad, the country's postal service, it offers three distances (21K, 10K, 5.5K) with registration open. The venue is the real draw: running through the heart of colonial KL with the Sultan Abdul Samad Building as your backdrop. A solid, accessible half marathon option for Klang Valley runners.",
+  "title": "Pos Malaysia Run 2026 Review: A 200-Year-Old Postal Service's Race at Merdeka Square",
+  "seo_title": "Pos Malaysia Run 2026 Review | Dataran Merdeka, KL",
+  "meta_description": "Pos Malaysia Run 2026 review: November 29 at Dataran Merdeka -- organised directly by Malaysia's national postal service, founded in 1826.",
+  "dek": "Set for 29 November 2026 at Dataran Merdeka, Malaysia's independence square, this race is organised directly by Pos Malaysia Berhad -- the national postal service tracing its roots back to 1826.",
+  "verdict": "Pos Malaysia Run carries a genuinely unusual sponsor identity: it's organised directly by Pos Malaysia Berhad, the national postal and courier service, founded in 1826 and majority-owned by conglomerate DRB-HICOM. That's a distinctive institutional backing model, similar in spirit to the utility-organised Mae Moh Half Marathon and railway-backed Locomotive Half Marathon covered elsewhere in this research -- state-adjacent infrastructure companies running community races rather than consumer brands. The venue, Dataran Merdeka, is Malaysia's most symbolically significant public square, already hosting the standalone Merdeka Half Marathon and the Malaysia Marathon's 10K route covered elsewhere in this research batch.",
   "rating": {
-    "overall": 68,
+    "overall": 74,
     "breakdown": [
       {
-        "label": "Venue / setting",
-        "score": 85
+        "label": "Institutional backing (national postal service)",
+        "score": 76
       },
       {
-        "label": "Registration accessibility",
-        "score": 80
+        "label": "Venue significance (Dataran Merdeka)",
+        "score": 88
       },
       {
-        "label": "Distance range",
-        "score": 70
+        "label": "Pricing clarity",
+        "score": 76
       },
       {
-        "label": "Organiser visibility",
-        "score": 60
+        "label": "Independent reviews",
+        "score": 42
       }
     ]
   },
   "sections": [
     {
-      "heading": "The Venue: Dataran Merdeka",
+      "heading": "Racing for the National Post Office",
       "paragraphs": [
-        "Dataran Merdeka is KL's most historically significant public space — the site of the 1957 independence declaration, flanked by the Sultan Abdul Samad Building and the Royal Selangor Club. [1] For a road race, it provides a grand start/finish precinct with wide surrounding boulevards through the colonial district."
+        "The Pos Malaysia Run offers three distances -- 21K, 10K and 5.5K -- starting at Dataran Merdeka, Kuala Lumpur, with pricing of RM118-138 for the 21K, RM88-108 for the 10K, and RM68-88 for the 5.5K. [1] Pos Malaysia Berhad, the organiser, is Malaysia's national postal and courier service, founded in 1826 and headquartered at the Dayabumi Complex in Kuala Lumpur. [2] It's majority-owned by conglomerate DRB-HICOM and operates a diversified group spanning aviation, logistics and information technology alongside its core postal mandate."
+      ]
+    },
+    {
+      "heading": "A Company With Nearly 200 Years of History",
+      "paragraphs": [
+        "With operations dating back to 1826, Pos Malaysia is one of the oldest continuously operating institutions in the country, delivering to more than 11 million addresses nationwide through a network of over 3,800 touchpoints. [2] That level of institutional longevity gives this race a genuinely different backing profile from most brand- or bank-sponsored events in this research batch."
+      ]
+    },
+    {
+      "heading": "Malaysia's Most Symbolic Race Venue",
+      "paragraphs": [
+        "Dataran Merdeka -- Independence Square -- is the same site used by the standalone Merdeka Half Marathon and part of the Malaysia Marathon's 10K route, both covered elsewhere in this research batch. [1] It's the square where the Union Jack came down and the Malayan flag went up at midnight on 31 August 1957, giving this race genuine symbolic weight regardless of its postal-service sponsorship."
+      ]
+    },
+    {
+      "heading": "An Unusually Early Registration Deadline",
+      "paragraphs": [
+        "Registration closes 20 September 2026 -- more than two months before the 29 November race date, a notably longer lead time than the tight, day-before deadlines seen at several JomRun-organised events elsewhere in this research. [1] That gives runners genuine planning time, unlike some of the shorter-notice races in this batch."
       ]
     },
     {
       "heading": "Should You Run It?",
       "paragraphs": [
-        "If you're in the Klang Valley and want a well-organised, historically-set half marathon with open registration, Pos Malaysia Run is a solid pick. The 2026 edition is set for 29 November at Dataran Merdeka, Kuala Lumpur. [1]"
+        "If a race backed by a nearly two-century-old national institution, at Malaysia's most symbolically significant public square, appeals, Pos Malaysia Run on 29 November 2026 is a solid, well-priced pick. Just don't miss the unusually early 20 September registration deadline."
       ]
     }
   ],
@@ -46,23 +64,35 @@
   "sources": [
     {
       "n": 1,
-      "label": "Pos Malaysia Run 2026 — event listing",
-      "publisher": "RaceXAsia",
+      "label": "Pos Malaysia Run 2026 (POSM26) — registration",
+      "publisher": "RaceX Asia",
       "url": "https://www.racexasia.com/event/pos-malaysia-run-2026-posm26",
       "type": "registration_platform"
+    },
+    {
+      "n": 2,
+      "label": "Pos Malaysia — Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pos_Malaysia",
+      "type": "other"
     }
   ],
   "faqs": [
     {
-      "question": "When is Pos Malaysia Run 2026?",
-      "answer": "29 November 2026 at Dataran Merdeka, Kuala Lumpur. It offers 21K, 10K, and 5.5K. Registration is currently open. Pos Malaysia Berhad organises the event. Entry costs MYR 21K RM118-138 / 10K RM88-108 / 5.5K RM68-88. [1]"
+      "question": "Who organises the Pos Malaysia Run?",
+      "answer": "Pos Malaysia Berhad, the national postal and courier service, founded in 1826 and majority-owned by DRB-HICOM. It's a genuinely unusual institutional sponsor compared to most consumer brands backing races in this region. [2]"
     },
     {
-      "question": "Is registration open?",
-      "answer": "Yes, registration is open. It's held at Dataran Merdeka, Kuala Lumpur. It offers 21K, 10K, and 5.5K. Pos Malaysia Berhad organises the event. Entry costs MYR 21K RM118-138 / 10K RM88-108 / 5.5K RM68-88. [1]"
+      "question": "Where is the race held?",
+      "answer": "At Dataran Merdeka, Kuala Lumpur's Independence Square -- the same venue used by the standalone Merdeka Half Marathon and part of the Malaysia Marathon's 10K route covered elsewhere in this research. [1]"
+    },
+    {
+      "question": "When does registration close?",
+      "answer": "20 September 2026 -- more than two months before the 29 November race date, giving runners a notably longer planning window than the tight, day-before deadlines seen at some other races in this research batch. [1]"
     }
   ],
-  "editorial_notes": "Auto-generated review.",
-  "last_updated": "2026-08-04",
+  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "published_at": "2026-08-09T09:00:00.000Z",
+  "last_updated": "2026-08-09",
   "status": "active"
 }

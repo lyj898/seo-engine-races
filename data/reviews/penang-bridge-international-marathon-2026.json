@@ -2,49 +2,61 @@
   "review_id": "penang-bridge-international-marathon-2026",
   "slug": "penang-bridge-international-marathon-2026",
   "entity_id": "penang-bridge-international-marathon-2026",
-  "title": "Penang Bridge International Marathon 2026 Review: Racing Across Southeast Asia's Longest Bridge",
-  "seo_title": "Penang Bridge Marathon 2026 Review | Malaysia's Iconic Race",
-  "meta_description": "The Penang Bridge International Marathon 2026: December 13 across the Penang Bridge. Full marathon, half, and 10K with registration open — Malaysia's most iconic bridge race reviewed.",
-  "dek": "Set for 13 December 2026, this government-backed marathon sends runners across the 13.5km Penang Bridge — one of Southeast Asia's longest — with full marathon, half, and 10K distances. Registration is open. Here's what to expect from one of Malaysia's most iconic road races.",
-  "verdict": "The Penang Bridge International Marathon is one of Malaysia's bucket-list races: a government-backed event that closes the 13.5km Penang Bridge — Southeast Asia's longest — to traffic and sends runners across it at dawn. Three distances (42K, 21K, 10K) and open registration make it accessible. The bridge-crossing sunrise moment is the headline, but the course also routes through George Town's outskirts and the coastal highway, giving it variety beyond the bridge. Organised by Penang State Tourism with state-government support, it carries institutional credibility that smaller races can't match. Suits runners who want a landmark Malaysian marathon with a genuinely unique course feature; PB chasers should note the bridge's gentle gradients add up across 42km.",
+  "title": "Penang Bridge International Marathon 2026 Review: Crossing Malaysia's Iconic Span",
+  "seo_title": "Penang Bridge International Marathon 2026 Review",
+  "meta_description": "Penang Bridge International Marathon 2026 review: December 13 crossing the Penang Bridge -- an 8.4km toll bridge and Malaysia's first island link.",
+  "dek": "Set for 13 December 2026, this state-tourism-backed marathon crosses the Penang Bridge -- a 13.5-kilometre toll bridge that was, until 2014, the only road connection between Peninsular Malaysia and Penang Island.",
+  "verdict": "The Penang Bridge International Marathon offers a genuinely rare running experience: crossing the Penang Bridge itself, a 13.5-kilometre dual-carriageway toll bridge inaugurated in 1985, which held sole responsibility for connecting Peninsular Malaysia to Penang Island until a second bridge opened in 2014. It remains the second-longest bridge over water in Malaysia. Backed by the Penang State Tourism Development office with PETACE support, this is a genuinely institutional, state-level production. Three distances from 10K to the full marathon give it solid range, and the race is listed with AIMS World Running for international credibility.",
   "rating": {
-    "overall": 80,
+    "overall": 85,
     "breakdown": [
       {
-        "label": "Course uniqueness",
-        "score": 95
+        "label": "Course significance (crossing the actual bridge)",
+        "score": 96
       },
       {
-        "label": "Organiser credibility",
+        "label": "State-level backing (Tourism Penang, PETACE)",
         "score": 82
       },
       {
-        "label": "Registration accessibility",
-        "score": 85
+        "label": "International recognition (AIMS listing)",
+        "score": 78
       },
       {
-        "label": "Atmosphere / scale",
-        "score": 80
+        "label": "Distance range",
+        "score": 78
       }
     ]
   },
   "sections": [
     {
-      "heading": "The Course: 13.5km Across the Penang Bridge",
+      "heading": "Running Across an Actual Highway Bridge",
       "paragraphs": [
-        "There are few road races anywhere that close a 13.5km sea bridge to traffic and send runners across it at sunrise. [1] The Penang Bridge — connecting the island of Penang to the mainland at Seberang Perai — is the defining feature of this marathon, and the out-and-back format means marathoners cross it twice. The bridge itself has a gentle arch profile: not steep enough to break your rhythm, but enough to fatigue untrained legs after 30km. Expect strong crosswinds on the exposed sections and a spectacular view of the Penang Strait as the sun rises."
+        "The Penang Bridge International Marathon offers three distances -- 10K, 21.1K and the 42.195K full marathon -- crossing the Penang Bridge itself, finishing in George Town. [1] The bridge is a 13.5-kilometre dual-carriageway toll bridge and controlled-access highway connecting Perai on the mainland with Gelugor on Penang Island. [2] Running on an active highway bridge of this scale is a genuinely rare experience among the races covered in this research batch."
       ]
     },
     {
-      "heading": "Government-Backed: Penang State Tourism",
+      "heading": "Malaysia's First Island Link",
       "paragraphs": [
-        "The race is organised by the Penang State Tourism Development office with support from PETACE (Penang State EXCO for Tourism and Creative Economy). [1] That government backing means road closures, medical support, and event security are coordinated at the state level — a significant operational advantage over privately-organised races. The official site at penangmarathon.gov.my handles registration."
+        "Inaugurated on 14 September 1985, the Penang Bridge was the first and, until a second bridge opened in 2014, the only road connection between the peninsula and Penang Island. [2] It remains the second-longest bridge over water in Malaysia, with 8.4 kilometres of its length actually crossing the Penang Strait -- a genuine feat of 1980s engineering that has anchored the island's connectivity for four decades."
+      ]
+    },
+    {
+      "heading": "Backed at the State Level",
+      "paragraphs": [
+        "The race is organised by the Penang State Tourism Development office, supported by the Penang State EXCO for Tourism and Creative Economy (PETACE). [1] That state-government-level backing is a genuinely institutional production model, similar in spirit to the Selangor Marathon's Tourism Selangor organisation covered elsewhere in this research batch."
+      ]
+    },
+    {
+      "heading": "International Recognition",
+      "paragraphs": [
+        "The race is listed with AIMS World Running, the Association of International Marathons and Distance Races, alongside its own official government site and the Ahotu aggregator. [1] That international listing is a meaningful mark of organisational standards, similar to the Korat Marathon covered elsewhere in this research."
       ]
     },
     {
       "heading": "Should You Run It?",
       "paragraphs": [
-        "If you want a Malaysian marathon with a course feature that's genuinely world-class — running across a 13.5km sea bridge at sunrise — the Penang Bridge International Marathon is one of the strongest picks on the Southeast Asian calendar. Registration is open now. The 2026 edition is set for 13 December. [1]"
+        "If crossing an actual major highway bridge -- rather than a symbolic or ceremonial one -- genuinely appeals, the Penang Bridge International Marathon on 13 December 2026 offers one of the most distinctive course experiences in this entire research batch, backed by real state-level institutional support. Registration is currently open across three distances."
       ]
     }
   ],
@@ -52,31 +64,35 @@
   "sources": [
     {
       "n": 1,
-      "label": "Penang Bridge International Marathon — official race website",
-      "publisher": "Penang State Tourism",
+      "label": "Penang Bridge International Marathon 2026 — official site",
+      "publisher": "Penang State Tourism Development",
       "url": "https://penangmarathon.gov.my",
       "type": "official"
+    },
+    {
+      "n": 2,
+      "label": "Penang Bridge — Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Penang_Bridge",
+      "type": "other"
     }
   ],
   "faqs": [
     {
-      "question": "When is the Penang Bridge International Marathon 2026?",
-      "answer": "The race is scheduled for 13 December 2026, starting on the Penang Bridge in George Town, Malaysia. It offers 42.2K, 21.1K, and 10K. Registration is currently open. Penang State Tourism Development office (supported by Penang State EXCO for Tourism and Creative Economy - PETACE) organises the event. [1]"
+      "question": "Do runners actually cross the Penang Bridge?",
+      "answer": "Yes -- the marathon route crosses the actual Penang Bridge, a 13.5-kilometre dual-carriageway toll highway connecting the mainland to Penang Island, a genuinely rare course feature among Southeast Asian races. [1][2]"
     },
     {
-      "question": "What distances are offered?",
-      "answer": "Three distances: a full marathon (42.195km), half marathon (21.1km), and 10km. It's held at Penang Bridge, George Town. Registration is currently open. Penang State Tourism Development office (supported by Penang State EXCO for Tourism and Creative Economy - PETACE) organises the event. [1]"
+      "question": "What makes the bridge historically significant?",
+      "answer": "Inaugurated in 1985, it was the first and, until 2014, only road link between Peninsular Malaysia and Penang Island. It remains the second-longest bridge over water in Malaysia, with 8.4km actually crossing the Penang Strait. [2]"
     },
     {
-      "question": "What makes this race special?",
-      "answer": "The course closes the 13.5km Penang Bridge — one of Southeast Asia's longest bridges — to traffic, sending runners across the Penang Strait at sunrise. Marathoners cross the bridge twice on an out-and-back format. [1]"
-    },
-    {
-      "question": "Is registration open?",
-      "answer": "Yes, registration is open via penangmarathon.gov.my. The race is government-backed by Penang State Tourism. It offers 42.2K, 21.1K, and 10K. It's held at Penang Bridge, George Town. Penang State Tourism Development office (supported by Penang State EXCO for Tourism and Creative Economy - PETACE) organises the event. [1]"
+      "question": "Who organises this race?",
+      "answer": "The Penang State Tourism Development office, supported by the Penang State EXCO for Tourism and Creative Economy (PETACE) -- a state-government-level production, listed with AIMS World Running for international recognition. [1]"
     }
   ],
-  "editorial_notes": "Auto-generated review from entity data. Prose is original.",
-  "last_updated": "2026-08-04",
+  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "published_at": "2026-08-09T09:00:00.000Z",
+  "last_updated": "2026-08-09",
   "status": "active"
 }

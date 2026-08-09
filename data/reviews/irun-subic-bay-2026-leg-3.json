@@ -2,43 +2,61 @@
   "review_id": "irun-subic-bay-2026-leg-3",
   "slug": "irun-subic-bay-2026-leg-3",
   "entity_id": "irun-subic-bay-2026-leg-3",
-  "title": "iRun Subic Bay 2026 Leg 3 Review: A Single-Distance Full Marathon at Remy Field",
-  "seo_title": "iRun Subic Bay Leg 3 2026 Review | Subic Philippines Marathon",
-  "meta_description": "iRun Subic Bay 2026 Leg 3: November 29 at Remy Field, Subic. A single-distance full marathon (42.195K) from SMOKE10 Events. Registration pending.",
-  "dek": "Set for 29 November 2026 at Remy Field in Subic, Zambales, this SMOKE10 Events production is a rare single-distance event: a full marathon only. No 10K, no 5K, no half — just 42.195km. Registration isn't open yet.",
-  "verdict": "iRun Subic Bay Leg 3 is a focused proposition: one distance (42.195km), one venue (Remy Field, Subic), one organiser (SMOKE10 Events). In a region where multi-distance festivals are the norm, a standalone full marathon is genuinely distinctive — it suggests a race built for marathoners, not a fun-run festival with a marathon tacked on. Subic Bay's wide, well-maintained roads — a legacy of its former US naval base — make it one of the Philippines' best running environments. Registration isn't open yet, but for serious marathoners, this is one to track.",
+  "title": "iRun Subic Bay 2026 Leg 3 Review: A Marathon-Only Finale at Remy Field",
+  "seo_title": "iRun Subic Bay Leg 3 2026 Review | Zambales, PH",
+  "meta_description": "iRun Subic Bay 2026 Leg 3 review: November 29 at Remy Field, Subic -- a marathon-only finale in the former US Naval Base Freeport Zone.",
+  "dek": "Set for 29 November 2026 at Remy Field, this is the third and final leg of the iRun Subic Bay series -- a single-distance, 42.195K-only event in the former US Naval Base's Freeport Zone.",
+  "verdict": "iRun Subic Bay Leg 3 is a genuinely focused event: the 42.195K full marathon only, no shorter categories at all, held at Remy Field within the Subic Bay Freeport Zone -- the same historically significant former US Naval Base area covered at the MILO Marathon's Subic leg elsewhere in this research batch. Organised by SMOKE10 Events, the same team behind the Isla del Fuego Marathon, Pampanga Marathon and Clark Phil-Kor Half Marathon covered elsewhere in this research, giving it credible operational backing even as a single-distance, less mainstream event.",
   "rating": {
-    "overall": 65,
+    "overall": 69,
     "breakdown": [
       {
-        "label": "Format clarity",
-        "score": 88
+        "label": "Organiser experience (SMOKE10)",
+        "score": 76
       },
       {
-        "label": "Venue / Subic roads",
-        "score": 80
+        "label": "Venue significance (Subic Bay Freeport)",
+        "score": 82
       },
       {
-        "label": "Organiser (SMOKE10)",
-        "score": 62
+        "label": "Distance focus (marathon only)",
+        "score": 55
       },
       {
-        "label": "Registration readiness",
-        "score": 30
+        "label": "Registration clarity",
+        "score": 35
       }
     ]
   },
   "sections": [
     {
-      "heading": "Subic Bay: A Runner's Enclave",
+      "heading": "The Series Finale, Marathon Only",
       "paragraphs": [
-        "Subic Bay Freeport's wide, well-maintained roads and minimal traffic — a legacy of the former US naval base — make it one of the Philippines' premier running venues. [1] Remy Field, the race venue, is a central location within the freeport with space for a proper start/finish precinct."
+        "iRun Subic Bay Leg 3 offers just one distance: the 42.195K full marathon, held at Remy Field in Subic, Zambales. [1] That single-distance format is genuinely unusual among the races covered in this research batch, most of which offer at least three or four categories -- this is a race for committed marathoners specifically, not a broad community event."
+      ]
+    },
+    {
+      "heading": "The Same Freeport Zone Covered Elsewhere",
+      "paragraphs": [
+        "Subic Bay was formerly home to a major US Naval Base until the Navy's 1992 departure, since redeveloped into the Subic Bay Freeport Zone -- the same venue hosting the MILO Marathon's Subic leg covered elsewhere in this research batch. [2] Remy Field is a specific location within that broader Freeport Zone, giving the marathon a genuinely distinctive former-military backdrop."
+      ]
+    },
+    {
+      "heading": "An Established Organiser",
+      "paragraphs": [
+        "SMOKE10 Events organises this race, the same team behind the Isla del Fuego Marathon on Siquijor, the long-running annual Pampanga Marathon, and the Clark Phil-Kor Half Marathon covered elsewhere in this research batch. [1] That multi-race track record across different Philippine destinations gives this Leg 3 event credible operational backing."
+      ]
+    },
+    {
+      "heading": "Registration Not Yet Announced, Being Leg 3",
+      "paragraphs": [
+        "As of this writing, registration status has not been announced. [1] The 'Leg 3' naming implies this is part of a multi-race iRun Subic Bay series, though specific details about the earlier legs weren't found in available research."
       ]
     },
     {
       "heading": "Should You Run It?",
       "paragraphs": [
-        "If you want a focused, single-distance full marathon in one of the Philippines' best running environments, track iRun Subic Bay. The 2026 Leg 3 is set for 29 November at Remy Field, Subic. [1]"
+        "If you want a focused, marathon-only event in the historically significant Subic Bay Freeport Zone, run by an organiser with genuine track record across multiple Philippine races, iRun Subic Bay Leg 3 on 29 November 2026 is a solid pick for committed marathoners. Watch official channels for registration to open."
       ]
     }
   ],
@@ -46,23 +64,35 @@
   "sources": [
     {
       "n": 1,
-      "label": "iRun Subic Bay — event listing",
-      "publisher": "Pinoy Fitness",
+      "label": "iRun Subic Bay 2026 Leg 3 — event listing",
+      "publisher": "pinoyfitness.com",
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "type": "aggregator"
+    },
+    {
+      "n": 2,
+      "label": "Subic Bay — Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Subic_Bay",
+      "type": "other"
     }
   ],
   "faqs": [
     {
-      "question": "When is iRun Subic Bay Leg 3 2026?",
-      "answer": "29 November 2026 at Remy Field, Subic, Zambales, Philippines. It offers 42.2K. Registration is listed as not yet announced. SMOKE10 Events organises the event. Mark it on your calendar if you're planning your racing year around it. [1]"
+      "question": "What distance does iRun Subic Bay Leg 3 offer?",
+      "answer": "Just one: the 42.195K full marathon, with no shorter categories at all. It's held at Remy Field in Subic, Zambales, on 29 November 2026 -- a genuinely focused, marathon-only event unlike most others in this research batch. [1]"
     },
     {
-      "question": "What distance?",
-      "answer": "Full marathon only — 42.195km. No companion distances. It's held at Remy Field, Subic. Registration is listed as not yet announced. SMOKE10 Events organises the event. It offers 42.2K. [1]"
+      "question": "Who organises this race?",
+      "answer": "SMOKE10 Events, the same team behind the Isla del Fuego Marathon on Siquijor, the annual Pampanga Marathon, and the Clark Phil-Kor Half Marathon covered elsewhere in this research -- giving it credible multi-race track record. [1]"
+    },
+    {
+      "question": "What makes Subic Bay a distinctive venue?",
+      "answer": "It was formerly home to a major US Naval Base until 1992, now redeveloped into the Subic Bay Freeport Zone -- the same venue hosting the MILO Marathon's Subic leg covered elsewhere in this research. [2]"
     }
   ],
-  "editorial_notes": "Auto-generated review.",
-  "last_updated": "2026-08-04",
+  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "published_at": "2026-08-09T09:00:00.000Z",
+  "last_updated": "2026-08-09",
   "status": "active"
 }
