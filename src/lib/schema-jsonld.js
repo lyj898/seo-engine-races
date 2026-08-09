@@ -41,7 +41,7 @@ export function buildFaqPageSchema(faqs) {
 }
 
 /**
- * Free browser-based calculator/tool pages (Pace Lab). Deliberately minimal
+ * Free browser-based calculator/tool pages (Lab). Deliberately minimal
  * -- no aggregateRating/review property, since none of these tools collect
  * real ratings and fabricating one would be misleading structured data,
  * same principle buildEntitySchema follows for reliability_score.
@@ -192,6 +192,29 @@ export function buildReviewSchema({ review, entity, siteConfig, url, entityUrl, 
   }
 
   return schema;
+}
+
+/**
+ * Article schema for Gear buying-guide pages (data/gear/*.json). These
+ * aren't reviews of one entity (buildReviewSchema) or the primary vertical
+ * type (buildEntitySchema) -- they're independent editorial advice content,
+ * so plain schema.org Article with an Organization author/publisher (same
+ * "the site itself is the byline" principle buildReviewSchema follows) is
+ * the honest structured-data type.
+ */
+export function buildArticleSchema({ article, siteConfig, url, site }) {
+  if (!article || !url) return null;
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    url,
+    headline: article.title,
+    description: article.meta_description || article.dek,
+    datePublished: article.published_at || article.last_updated,
+    dateModified: article.last_updated,
+    author: { '@type': 'Organization', name: siteConfig.siteName, url: site?.toString?.() ?? site },
+    publisher: { '@type': 'Organization', name: siteConfig.siteName },
+  };
 }
 
 export function buildWebsiteSchema(siteConfig, site) {

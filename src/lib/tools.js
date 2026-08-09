@@ -1,4 +1,4 @@
-// Single source of truth for Pace Lab's calculators. The hub page
+// Single source of truth for Lab's calculators. The hub page
 // (src/pages/tools/index.astro), the cross-link component, and the
 // sitemap all read this list rather than each repeating slugs/labels
 // independently -- adding a 6th tool is one entry here plus one new page.

@@ -1,0 +1,51 @@
+---
+// Renders a grid of recommended-gear cards for a Gear article
+// (data/gear/*.json `products`). Affiliate CTAs only render at all if
+// site.config.json.enabledFeatures.affiliateLinks is true for this vertical
+// instance -- same gate CTABlock.astro uses for entity-level affiliate
+// links, so there's exactly one flag that turns affiliate monetization on
+// or off across the whole site.
+//
+// products: [{ name, category, why, price_range?, affiliate_link: { label, url, network?, disclosure? } }]
+import siteConfig from '../lib/config.js';
+
+const { products = [] } = Astro.props;
+const showAffiliate = Boolean(siteConfig.enabledFeatures?.affiliateLinks);
+---
+
+{products.length > 0 && (
+  <section aria-labelledby="gear-products-heading">
+    <h2 id="gear-products-heading" class="mb-1 text-xl font-semibold">Recommended gear</h2>
+    {showAffiliate && (
+      <p class="mb-4 text-xs text-brand-muted dark:text-brand-muted-dark">
+        Some links below are affiliate links; if you buy through one, we may earn a commission at no extra cost to you.
+      </p>
+    )}
+    <div class="mt-4 grid gap-4 sm:grid-cols-2">
+      {products.map((product) => (
+        <div class="flex flex-col rounded-lg border border-brand-border bg-brand-surface p-5 dark:border-brand-border-dark dark:bg-brand-surface-dark">
+          <span class="mb-2 inline-block w-fit rounded-full bg-brand-surface-offset px-2.5 py-0.5 text-xs font-semibold uppercase tracking-wide text-brand-muted dark:bg-brand-surface-offset-dark dark:text-brand-muted-dark">
+            {product.category}
+          </span>
+          <h3 class="font-semibold">{product.name}</h3>
+          <p class="mt-1.5 flex-1 text-sm text-brand-muted dark:text-brand-muted-dark">{product.why}</p>
+          <div class="mt-3 flex items-center justify-between gap-3">
+            {product.price_range && (
+              <span class="text-sm font-medium tabular-nums">{product.price_range}</span>
+            )}
+            {showAffiliate && product.affiliate_link && (
+              <a
+                href={product.affiliate_link.url}
+                rel="sponsored noopener"
+                target="_blank"
+                class="ml-auto inline-flex shrink-0 items-center rounded-md bg-brand-primary px-3.5 py-2 text-sm font-bold text-brand-primary-ink transition-colors duration-200 ease-interactive hover:bg-brand-primary-hover dark:text-brand-primary-ink-dark dark:hover:bg-brand-primary-hover-dark"
+              >
+                {product.affiliate_link.label}
+              </a>
+            )}
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+)}

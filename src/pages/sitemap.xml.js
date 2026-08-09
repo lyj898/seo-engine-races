@@ -1,7 +1,7 @@
 import siteConfig from '../lib/config.js';
 import { urls } from '../lib/urls.js';
 import { TOOLS } from '../lib/tools.js';
-import { loadEntities, loadCategories, loadRegions, loadListicles, loadReviews, stripMeta, isPublished } from '../lib/data.js';
+import { loadEntities, loadCategories, loadRegions, loadListicles, loadReviews, loadGear, stripMeta, isPublished } from '../lib/data.js';
 
 /**
  * Build-time-generated sitemap, enumerating every real route this engine
@@ -18,6 +18,7 @@ export async function GET({ site }) {
   const reviews = siteConfig.enabledFeatures?.reviews
     ? loadReviews().map(stripMeta).filter(isPublished).filter((r) => entityIds.has(r.entity_id))
     : [];
+  const gearArticles = siteConfig.enabledFeatures?.gear ? loadGear().map(stripMeta).filter(isPublished) : [];
 
   const staticPaths = [
     urls.home(),
@@ -25,6 +26,7 @@ export async function GET({ site }) {
     urls.regionsIndex(),
     ...(siteConfig.enabledFeatures?.listicles ? [urls.listiclesIndex()] : []),
     ...(siteConfig.enabledFeatures?.reviews ? [urls.reviewsIndex()] : []),
+    ...(siteConfig.enabledFeatures?.gear ? [urls.gearIndex()] : []),
     urls.toolsIndex(),
     ...TOOLS.map((t) => urls.tool(t.slug)),
     urls.about(),
@@ -39,6 +41,7 @@ export async function GET({ site }) {
     ...entities.map((e) => urls.entity(e.slug)),
     ...(siteConfig.enabledFeatures?.listicles ? listicles.map((l) => urls.listicle(l.slug)) : []),
     ...reviews.map((r) => urls.review(r.slug)),
+    ...gearArticles.map((a) => urls.gear(a.slug)),
   ];
 
   const urlEntries = [...staticPaths, ...dynamicPaths]

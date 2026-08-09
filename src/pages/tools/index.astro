@@ -14,7 +14,7 @@ import { TOOLS } from '../../lib/tools.js';
 // bare directory listing.
 const breadcrumbItems = [
   { label: siteConfig.siteName, href: urls.home() },
-  { label: 'Pace Lab' },
+  { label: 'Lab' },
 ];
 
 const jsonLd = [
@@ -24,14 +24,14 @@ const jsonLd = [
 ---
 
 <BaseLayout
-  title="Pace Lab -- Free Running Calculators"
+  title="Lab -- Free Running Calculators"
   description={`Free running calculators from ${siteConfig.siteName}: pace, race time predictor, split charts, race countdown, and calories burned. No sign-up, nothing saved.`}
   canonicalPath={urls.toolsIndex()}
   jsonLd={jsonLd}
 >
   <div class="mx-auto max-w-3xl px-4 py-10 sm:px-6">
     <Breadcrumb items={breadcrumbItems} />
-    <h1 class="mt-4 font-serif text-3xl font-semibold sm:text-4xl">Pace Lab</h1>
+    <h1 class="mt-4 font-serif text-3xl font-semibold sm:text-4xl">Lab</h1>
     <p class="mt-3 max-w-2xl text-brand-muted dark:text-brand-muted-dark">
       Small, fast running calculators -- no sign-up, nothing saved. Pick a tool below.
     </p>

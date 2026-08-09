@@ -84,7 +84,8 @@
     "darkMode": true,
     "faqSchema": true,
     "itemListSchema": true,
-    "affiliateLinks": false
+    "affiliateLinks": true,
+    "gear": true
   },
 
   "contactEmail": "hello@runsea.run",

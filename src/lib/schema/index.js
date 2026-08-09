@@ -4,6 +4,7 @@ import {
   regionSchema,
   listicleSchema,
   reviewSchema,
+  gearArticleSchema,
 } from './base.js';
 import { getCoreFactsSchema } from './core-facts/index.js';
 
@@ -23,4 +24,4 @@ export function getEntitySchema(verticalKey) {
   });
 }
 
-export { baseEntitySchema, categorySchema, regionSchema, listicleSchema, reviewSchema };
+export { baseEntitySchema, categorySchema, regionSchema, listicleSchema, reviewSchema, gearArticleSchema };
