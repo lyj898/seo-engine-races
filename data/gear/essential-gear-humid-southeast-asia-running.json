@@ -17,7 +17,7 @@
       "heading": "Hydration You Can Sip Constantly",
       "paragraphs": [
         "In humid heat, sweat rates climb well past what a single handheld bottle covers on anything longer than an easy 5K. A vest-style hydration pack lets you take small, frequent sips instead of gulping at aid stations 5-10km apart, which keeps your stomach more comfortable and your hydration curve flatter.",
-        "The Salomon ADV Skin 5 below is built for exactly this -- soft flasks worn close to the chest so they don't bounce, sized for anything from a long training run up to a full marathon without needing a bigger pack."
+        "The Kiprun vest below is built for exactly this -- soft flasks worn close to the chest so they don't bounce, sized for anything from a long training run up to a full marathon without needing a bigger pack."
       ]
     },
     {
@@ -37,63 +37,63 @@
   ],
   "products": [
     {
-      "name": "Salomon ADV Skin 5 Hydration Vest",
+      "name": "Kiprun 900 Race Trail Running Vest 5L",
       "category": "Hydration",
-      "why": "Soft flasks worn close to the chest so you can sip constantly instead of gulping at aid stations -- built for the higher sweat rates humid long runs produce.",
-      "price_range": "$150-180",
+      "why": "Soft flask-ready and sized for anything from a long training run up to a full marathon, so you can sip constantly instead of gulping at aid stations -- sold in-store and online across Decathlon's Southeast Asia network.",
+      "price_range": "S$69.90",
       "affiliate_link": {
-        "label": "View on Salomon",
-        "url": "https://www.salomon.com/en-us/product/adv-skin-5-lc13270"
+        "label": "Shop on Decathlon SG",
+        "url": "https://www.decathlon.sg/p/kiprun-900-race-unisex-trail-running-competition-water-bottle-holder-vest-5l-kiprun-8786242.html"
       }
     },
     {
-      "name": "SaltStick FastChews",
+      "name": "Decathlon Electrolytes Tablets",
       "category": "Electrolytes",
-      "why": "Chewable electrolytes that start working in under a minute, so you can replace the sodium a humid run strips out without stopping to mix a drink.",
-      "price_range": "$10-15 per pack",
+      "why": "A low-cost, widely-stocked electrolyte tablet you can restock at any Decathlon store across the region, so you can replace the sodium a humid run strips out without stopping to mix a drink.",
+      "price_range": "S$4.90 per tube",
       "affiliate_link": {
-        "label": "Shop SaltStick",
-        "url": "https://saltstick.shop/"
+        "label": "Shop on Decathlon SG",
+        "url": "https://www.decathlon.sg/p/electrolytes-tablet-peach-decathlon-8495370.html"
       }
     },
     {
       "name": "Body Glide Original Anti-Chafe Balm",
       "category": "Skin protection",
       "why": "A thin layer on friction points before you start prevents the chafing that damp, humid-soaked clothing causes on anything over 90 minutes.",
-      "price_range": "$10-14",
+      "price_range": "S$15-20",
       "affiliate_link": {
-        "label": "Shop Body Glide",
-        "url": "https://bodyglide.com/product/body/"
+        "label": "Shop on Amazon.sg",
+        "url": "https://www.amazon.sg/Body-Glide-Original-Anti-Chafe-Balm/dp/B09WV1K4TX"
       }
     },
     {
-      "name": "Balega Hidden Comfort Socks",
+      "name": "Kiprun Running Socks, Thin Under-Calf",
       "category": "Footwear",
       "why": "Moisture-wicking construction and cushioned seams matter more here, where feet stay wet from sweat or sudden tropical rain far longer than in a drier climate.",
-      "price_range": "$15-18",
+      "price_range": "S$9.90",
       "affiliate_link": {
-        "label": "Shop Balega",
-        "url": "https://balega.com/collections/balega-hidden-comfort"
+        "label": "Shop on Decathlon SG",
+        "url": "https://www.decathlon.sg/p/unisex-running-socks-thin-under-calf-black-kiprun-8588653.html"
       }
     },
     {
       "name": "Buff CoolNet UV+",
       "category": "Sun and heat management",
       "why": "A UPF-rated neck gaiter you can dunk at aid stations for evaporative cooling, doubling as sun protection once the equatorial sun is fully up.",
-      "price_range": "$20-25",
+      "price_range": "S$28-35",
       "affiliate_link": {
-        "label": "Shop Buff",
-        "url": "https://www.buff.com/safety/product-family/coolnet-uv/"
+        "label": "Shop on Outdoor Life SG",
+        "url": "https://www.outdoorlife.com.sg/buff-coolnet-uv-127095206.html"
       }
     },
     {
       "name": "goodr Running Sunglasses",
       "category": "Sun protection",
-      "why": "No-slip, polarized sunglasses stay put through the extra sweat humid conditions produce, and cut glare off wet roads after a regional downpour.",
-      "price_range": "$25-35",
+      "why": "No-slip, polarized sunglasses stay put through the extra sweat humid conditions produce, and cut glare off wet roads after a regional downpour -- goodr's Asia storefront ships within Singapore.",
+      "price_range": "S$45-55",
       "affiliate_link": {
-        "label": "Shop goodr",
-        "url": "https://goodr.com/collections/running-sunglasses"
+        "label": "Shop on goodr Asia",
+        "url": "https://goodr.asia/collections/running-sunglasses"
       }
     }
   ],
