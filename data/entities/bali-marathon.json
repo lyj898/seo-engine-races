@@ -4,7 +4,7 @@
   "name": "Bali Marathon",
   "category_id": "full-marathon",
   "region_id": "indonesia",
-  "short_description": "A marathon on the island of Bali, Indonesia, with full, half, and 10km distance options.",
+  "short_description": "Duplicate of maybank-marathon-2026 (same race, same date, sponsor-branded name) -- archived rather than kept as a second listing.",
   "ai_summary": "The Bali Marathon is a full marathon held on Bali island in Indonesia, with the 2026 edition scheduled for August 23. Alongside the 42.195km marathon, the event offers 21.0975km and 10km distance options, giving runners of different experience levels a way to take part in a seaside island race setting.",
   "core_facts": {
     "date": "2026-08-23",
@@ -60,7 +60,7 @@
   ],
   "affiliate_links": [],
   "cta_links": [],
-  "related_entity_ids": [],
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "related_entity_ids": ["maybank-marathon-2026"],
+  "last_updated": "2026-08-10",
+  "status": "archived"
 }
