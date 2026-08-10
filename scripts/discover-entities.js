@@ -58,6 +58,22 @@ function findByLabel(items, label) {
   return items.find((i) => i.label.trim().toLowerCase() === target);
 }
 
+// Generic ISO-date-or-range parsing -- "YYYY-MM-DD" or "YYYY-MM-DD to
+// YYYY-MM-DD" -- used only by the multi-day duplicate check below. Not
+// races-specific: any vertical whose `date` core_fact can span multiple days
+// (a multi-day conference, a hotel's promotional window) benefits from the
+// same overlap logic.
+function parseDateRange(dateStr) {
+  if (typeof dateStr !== 'string') return null;
+  const m = dateStr.match(/^(\d{4}-\d{2}-\d{2})(?:\s+to\s+(\d{4}-\d{2}-\d{2}))?$/);
+  if (!m) return null;
+  return [m[1], m[2] || m[1]];
+}
+
+function rangesOverlap(a, b) {
+  return a[0] <= b[1] && b[0] <= a[1];
+}
+
 async function run() {
   const { verticalKey, entityLabelSingular, sourceConfig } = siteConfig;
   const userAgent = sourceConfig?.userAgent ?? `programmatic-seo-engine/1.0 (+https://${siteConfig.siteDomain})`;
@@ -213,25 +229,60 @@ async function run() {
       }
 
       // The slug check above only catches the same event discovered under
-      // (near-)identical names. It misses the case that actually happened in
-      // practice: one aggregator lists a race by its generic name ("Bali
-      // Marathon") while another lists the same race by its sponsor-branded
-      // name ("Maybank Marathon") -- different slugs, same real-world event,
-      // and two entity files get written for one race. Same category + same
-      // region + same date is a strong signal of that, since a dated event
-      // (unlike a hotel or an ongoing service) has essentially one calendar
-      // slot. Guarded on `date` existing, same as the window check above, so
-      // a dateless vertical is unaffected.
+      // (near-)identical names. Two real cases slipped through it in
+      // practice, both now checked below, in order from most to least
+      // specific:
+      //
+      // 1. Same distance/category, different name -- one aggregator lists a
+      //    race by its generic name ("Bali Marathon") while another lists
+      //    the same race by its sponsor-branded name ("Maybank Marathon").
+      //    Same category + same region + same date is a strong signal, since
+      //    a dated event has essentially one calendar slot.
+      //
+      // 2. Same multi-day festival, split into one entity per distance --
+      //    an existing entity already models a multi-day event across all
+      //    its distances (e.g. "Jakarta Running Festival 2026", date
+      //    "2026-10-22 to 2026-10-25", category "full-marathon"), and a
+      //    different source lists just its half-marathon leg as its own
+      //    candidate (date "2026-10-24", category "half-marathon"). Exact
+      //    category+date matching misses this entirely, so when either side
+      //    of the comparison is a genuine multi-day range, same region +
+      //    overlapping dates is checked instead, without requiring category
+      //    to match. (Not widened to same-region + overlapping dates for
+      //    two single-day candidates -- that's common enough on a busy
+      //    country-level calendar to risk false-positiving two genuinely
+      //    unrelated same-day races.)
+      //
+      // Both are guarded on `date` existing, same as the window check above,
+      // so a dateless vertical is unaffected. Either match is logged with
+      // the specific existing entity it matched, so a false positive is easy
+      // to spot and add manually.
       if (typeof candidateDate === 'string') {
-        const possibleDuplicate = existingEntities.find(
+        const exactMatch = existingEntities.find(
           (e) => e.region_id === region.region_id && e.category_id === category.category_id && e.core_facts?.date === candidateDate
         );
+
+        const candidateRange = parseDateRange(candidateDate);
+        const overlapMatch =
+          !exactMatch &&
+          candidateRange &&
+          existingEntities.find((e) => {
+            const existingRange = parseDateRange(e.core_facts?.date);
+            if (!existingRange || e.region_id !== region.region_id) return false;
+            const eitherIsMultiDay = candidateRange[0] !== candidateRange[1] || existingRange[0] !== existingRange[1];
+            return eitherIsMultiDay && rangesOverlap(candidateRange, existingRange);
+          });
+
+        const possibleDuplicate = exactMatch || overlapMatch;
         if (possibleDuplicate) {
+          const reason = exactMatch
+            ? `same category (${category.label}), region (${region.label}) and date (${candidateDate})`
+            : `region (${region.label}) with overlapping dates (${candidateDate} vs existing ${possibleDuplicate.core_facts?.date})`;
           stats.skipped++;
           skipReasons.push(
-            `${domain}: "${candidate.name}" -- same category (${category.label}), region (${region.label}) and date ` +
-              `(${candidateDate}) as existing "${possibleDuplicate.name}" (${possibleDuplicate.slug}) -- likely the same ` +
-              `event under a different name, skipped. If this is genuinely a different race, add it manually.`
+            `${domain}: "${candidate.name}" -- ${reason} as existing "${possibleDuplicate.name}" (${possibleDuplicate.slug}) -- ` +
+              `likely the same event (possibly one distance of a multi-distance festival), skipped. If this is genuinely a ` +
+              `different event, add it manually.`
           );
           continue;
         }
