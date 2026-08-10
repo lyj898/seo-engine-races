@@ -212,6 +212,31 @@ async function run() {
         }
       }
 
+      // The slug check above only catches the same event discovered under
+      // (near-)identical names. It misses the case that actually happened in
+      // practice: one aggregator lists a race by its generic name ("Bali
+      // Marathon") while another lists the same race by its sponsor-branded
+      // name ("Maybank Marathon") -- different slugs, same real-world event,
+      // and two entity files get written for one race. Same category + same
+      // region + same date is a strong signal of that, since a dated event
+      // (unlike a hotel or an ongoing service) has essentially one calendar
+      // slot. Guarded on `date` existing, same as the window check above, so
+      // a dateless vertical is unaffected.
+      if (typeof candidateDate === 'string') {
+        const possibleDuplicate = existingEntities.find(
+          (e) => e.region_id === region.region_id && e.category_id === category.category_id && e.core_facts?.date === candidateDate
+        );
+        if (possibleDuplicate) {
+          stats.skipped++;
+          skipReasons.push(
+            `${domain}: "${candidate.name}" -- same category (${category.label}), region (${region.label}) and date ` +
+              `(${candidateDate}) as existing "${possibleDuplicate.name}" (${possibleDuplicate.slug}) -- likely the same ` +
+              `event under a different name, skipped. If this is genuinely a different race, add it manually.`
+          );
+          continue;
+        }
+      }
+
       const entity = {
         entity_id: slug,
         slug,
