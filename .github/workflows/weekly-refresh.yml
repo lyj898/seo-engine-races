@@ -25,18 +25,16 @@ name: Weekly data refresh
 # long as it takes to read the notification.
 on:
   schedule:
-    # Fires weekly, every Tuesday at 02:00 Singapore time (SGT is UTC+8
-    # year-round, no DST observed) -- Monday 18:00 UTC.
-    #
-    # Note: GitHub's scheduled triggers are best-effort (delayed at the top
-    # of the hour, occasionally dropped entirely). This single weekly tick
-    # replaced an earlier daily-tick-plus-gate design that self-healed
-    # around dropped ticks; with only one tick a week, a dropped one now
-    # means the site can go ~2 weeks without a refresh instead of always
-    # catching up within a day. The `gate` job below is a harmless leftover
-    # safety check -- on this schedule a fired run is always >= MIN_DAYS
-    # since the last one, so it's not doing the load-bearing work it used to.
-    - cron: '0 18 * * 1' # Monday 18:00 UTC = Tuesday 02:00 SGT
+    # Self-healing weekly cadence, anchored at 14:00 Singapore time (SGT is
+    # UTC+8 year-round, no DST observed) -- 06:00 UTC. GitHub's scheduled
+    # triggers are best-effort (delayed at the top of the hour, occasionally
+    # dropped), and a single weekly tick that gets dropped means the site
+    # goes a whole extra week without new races. So we tick DAILY at this
+    # time and let the `gate` job decide: it only runs the heavy pipeline
+    # when it's been >= MIN_DAYS since the last recorded run. Net effect: a
+    # reliable ~weekly refresh, landing around 2pm SGT, that never silently
+    # misses a week.
+    - cron: '0 6 * * *' # daily 06:00 UTC (14:00 SGT); the gate decides whether to proceed
   workflow_dispatch: {} # manual runs always proceed (they bypass the gate)
 
 concurrency:
