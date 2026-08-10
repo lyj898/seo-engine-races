@@ -37,53 +37,53 @@
   ],
   "products": [
     {
-      "name": "Black Diamond Spot 400 Headlamp",
+      "name": "Forclaz Rechargeable Headlamp, 150 Lumens",
       "category": "Lighting",
-      "why": "400 lumens is enough to navigate an unfamiliar start venue, find your gear check bag, and warm up properly before sunrise without tripping over curbs or crowds.",
-      "price_range": "$40-50",
+      "why": "150 lumens and USB-C rechargeable is enough to navigate an unfamiliar start venue, find your gear check bag, and warm up properly before sunrise without tripping over curbs or crowds.",
+      "price_range": "S$25-32",
       "affiliate_link": {
-        "label": "View on Black Diamond",
-        "url": "https://blackdiamondequipment.com/products/spot-400-headlamp"
+        "label": "Shop on Decathlon SG",
+        "url": "https://www.decathlon.sg/p/rechargeable-headlamp-150-lumens-ul500-usb-c-grey-forclaz-8787357.html"
       }
     },
     {
-      "name": "Nathan StrobeLight 2.0 Safety LED Light Clip",
+      "name": "Kiprun Kinetic Motion Running LED Flash Light",
       "category": "Visibility",
-      "why": "A clip-on strobe keeps you visible to course marshals, volunteers, and early traffic during the walk to the corral and the first dark kilometers of the race.",
-      "price_range": "$12-16",
+      "why": "A stride-powered clip light that needs no batteries -- keeps you visible to course marshals, volunteers, and early traffic during the walk to the corral and the first dark kilometers of the race.",
+      "price_range": "S$12.90",
       "affiliate_link": {
-        "label": "Shop Nathan Sports",
-        "url": "https://nathansports.com/products/strobelight-2-0-safety-led-light-clip"
+        "label": "Shop on Decathlon SG",
+        "url": "https://www.decathlon.sg/p/kinetic-motion-running-led-flash-light-kiprun-8394633.html"
       }
     },
     {
-      "name": "Amphipod Full-Visibility Reflective Vest",
+      "name": "High-Visibility Safety Vest",
       "category": "Visibility",
-      "why": "360-degree reflective coverage for the pre-dawn walk to the start line and gear check, when you're mixing with vehicles and volunteers in low light.",
-      "price_range": "$25-30",
+      "why": "Full reflective coverage for the pre-dawn walk to the start line and gear check, when you're mixing with vehicles and volunteers in low light.",
+      "price_range": "S$12-18",
       "affiliate_link": {
-        "label": "Shop Amphipod",
-        "url": "https://amphipod.com/full-visibility-vest/"
+        "label": "Shop on Decathlon SG",
+        "url": "https://www.decathlon.sg/p/adult-high-visibility-cycling-safety-vest-neon-yellow-btwin-8749912.html"
       }
     },
     {
-      "name": "Stanley Adventure Quencher Travel Tumbler (40oz)",
+      "name": "Stanley Adventure Quencher H2.0 Tumbler (40oz)",
       "category": "Pre-race routine",
       "why": "Keeps a pre-race coffee or tea hot through a 2:30am wake-up and the trip to the start line, which helps close the gap between waking up and being race-ready.",
-      "price_range": "$40-50",
+      "price_range": "S$65-79",
       "affiliate_link": {
-        "label": "Shop Stanley 1913",
-        "url": "https://www.stanley1913.com/products/adventure-quencher-travel-tumbler-40-oz"
+        "label": "Shop on Running Lab SG",
+        "url": "https://runninglab.com/products/stanley-the-adventure-quencher-h2-0-tumbler-40oz-frost"
       }
     },
     {
-      "name": "Under Armour UA Storm Packable Jacket",
+      "name": "UA Storm Forefront Rain Jacket",
       "category": "Apparel",
-      "why": "Pre-dawn temperatures are noticeably cooler than mid-morning; a packable layer covers the cold start without overdressing for the run once the sun comes up.",
-      "price_range": "$70-90",
+      "why": "Pre-dawn temperatures are noticeably cooler than mid-morning; a packable, waterproof layer covers the cold start without overdressing for the run once the sun comes up.",
+      "price_range": "S$150-190",
       "affiliate_link": {
-        "label": "Shop Under Armour",
-        "url": "https://www.underarmour.com/en-us/c/technology/storm/jackets/"
+        "label": "Shop on Under Armour SG",
+        "url": "https://www.underarmour.com.sg/en-sg/p/men-clothing-outerwear/mens_ua_storm_forefront_rain_jacket/1321439.html"
       }
     }
   ],
