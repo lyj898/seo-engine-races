@@ -4,7 +4,7 @@
   "name": "Jakarta Running Festival Half Marathon",
   "category_id": "half-marathon",
   "region_id": "indonesia",
-  "short_description": "A World Athletics Gold Label half marathon (21.0975 km) run through the streets of Jakarta, Indonesia, on October 24, 2026.",
+  "short_description": "Duplicate of jakarta-running-festival-2026 (the half-marathon distance of the same multi-day festival) -- archived rather than kept as a second listing.",
   "ai_summary": "The Jakarta Running Festival Half Marathon takes place on October 24, 2026, in Jakarta, Indonesia, as part of an event that also offers 5K, 10K, and full marathon distances. It holds World Athletics Gold Label status and runs through the city, giving participants a course set among the capital's urban landmarks. The half marathon covers the standard 21.0975 km distance.",
   "core_facts": {
     "date": "2026-10-24",
@@ -62,7 +62,7 @@
   ],
   "affiliate_links": [],
   "cta_links": [],
-  "related_entity_ids": [],
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "related_entity_ids": ["jakarta-running-festival-2026"],
+  "last_updated": "2026-08-10",
+  "status": "archived"
 }
