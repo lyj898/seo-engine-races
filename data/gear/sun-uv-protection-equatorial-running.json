@@ -1,0 +1,89 @@
+{
+  "article_id": "sun-uv-protection-equatorial-running",
+  "slug": "sun-uv-protection-equatorial-running",
+  "title": "Sun and UV Protection for Running Near the Equator",
+  "seo_title": "Sun and UV Protection for Equatorial Running",
+  "meta_description": "The UV index across Singapore, Malaysia, Indonesia, and the Philippines routinely hits extreme levels. What actually protects you on a long outdoor run.",
+  "dek": "Southeast Asia's UV index regularly reaches 11+ (\"extreme\") near midday, year-round, not just in summer. Here's what protects skin and eyes on a long run without adding to the heat problem.",
+  "sections": [
+    {
+      "heading": "Why the Equator Changes the UV Math",
+      "paragraphs": [
+        "The UV index scale most runners are used to treats anything above 8 as \"very high\" and reserves \"extreme\" (11+) for rare summer peaks. Near the equator, that extreme rating is closer to a routine midday reading for much of the year -- the sun sits more directly overhead, and there's no winter season to bring the average down the way there is in temperate climates. A run that starts at dawn to dodge the heat can still finish under UV levels that would be considered severe almost anywhere else.",
+        "The practical effect is that sun protection here isn't a seasonal add-on the way it is elsewhere -- it's a year-round default for any run that extends past early morning, regardless of how hot or cool the day feels."
+      ]
+    },
+    {
+      "heading": "Sunscreen That Survives Actual Sweat",
+      "paragraphs": [
+        "Most sunscreens are formulated and tested for general daily wear, not for an hour or more of heavy sweating -- reapplication after heavy perspiration is the standard guidance on the label for a reason. A lightweight, water-resistant formula that doesn't feel heavy or greasy is more likely to actually get worn consistently on a run, which matters more than a marginally higher SPF number that sits unused in a drawer.",
+        "Sport-specific sunscreen sticks or roll-ons are worth considering for high-friction areas like the back of the neck and hairline, where a runner's own hands are less likely to reach evenly with a lotion mid-run."
+      ]
+    },
+    {
+      "heading": "Covering Skin Without Adding to the Heat Problem",
+      "paragraphs": [
+        "The instinct to cover up more skin against UV directly conflicts with the region's other big constraint: heat and humidity, where more fabric usually means more trapped heat. UV-rated arm sleeves solve this reasonably well -- lightweight, breathable fabric that blocks UV specifically, removable the moment you're in shade or done with the exposed stretch of a route, rather than a long-sleeve shirt worn the whole run.",
+        "The same logic applies to hats and caps: a UPF-rated cap protects the scalp and face without the heat retention of a full-coverage hood, and it's the more practical choice for anyone running through the middle of the day rather than sticking to dawn and dusk."
+      ]
+    },
+    {
+      "heading": "Eyes Matter as Much as Skin",
+      "paragraphs": [
+        "UV exposure to the eyes gets less attention than skin protection but matters just as much at these latitudes -- polarized sunglasses cut glare off wet or light-colored roads (a genuine hazard after one of the region's frequent downpours) in addition to blocking UV. No-slip construction matters more here than in a drier climate, since sunglasses that work fine on a dry temperate run tend to slide on a face that's sweating heavily for an hour or more.",
+        "Skipping sunglasses because a run starts before sunrise isn't a safe shortcut either -- by mid-run on many routes, the sun is high enough that the exposure adds up well before the finish."
+      ]
+    }
+  ],
+  "products": [
+    {
+      "name": "Biore UV Aqua Rich Watery Essence SPF50+ PA++++",
+      "category": "Sunscreen",
+      "why": "A lightweight, non-sticky, water-resistant formula built for repeated daily reapplication rather than one thick coat -- the practical priority for something you'll actually wear through a sweaty run.",
+      "price_range": "Varies by retailer",
+      "affiliate_link": {
+        "label": "Shop on Watsons SG",
+        "url": "https://www.watsons.com.sg/biore-uv-aqua-rich-watery-essence-spf50-pa-sunscreen-micro-defense-uv-protection-suitable-for-face-body-70g/p/BP_62933"
+      }
+    },
+    {
+      "name": "Kiprun UV Arm and Hand Cover",
+      "category": "Sun protection apparel",
+      "why": "Lightweight, breathable UV-blocking fabric that covers exposed skin without the heat retention of a long-sleeve shirt, and comes off in seconds once you're in shade.",
+      "price_range": "S$3.90-12.90",
+      "affiliate_link": {
+        "label": "Shop on Decathlon SG",
+        "url": "https://www.decathlon.sg/p/uv-arm-and-hand-cover-running-grey-kiprun-8600765.html"
+      }
+    },
+    {
+      "name": "goodr Running Sunglasses",
+      "category": "Eye protection",
+      "why": "No-slip, polarized construction that stays put through heavy sweat and cuts glare off wet roads, on top of the UV protection every serious pair of sunglasses should provide.",
+      "price_range": "S$45-55",
+      "affiliate_link": {
+        "label": "Shop on goodr Asia",
+        "url": "https://goodr.asia/collections/running-sunglasses"
+      }
+    }
+  ],
+  "sources": [],
+  "faqs": [
+    {
+      "question": "Why does sun protection matter more in Southeast Asia than in temperate climates?",
+      "answer": "The UV index near the equator routinely reaches 11+ (\"extreme\") around midday for much of the year, since the sun sits more directly overhead and there's no winter to bring the yearly average down. That makes sun protection a year-round default for any daytime run, not the seasonal concern it is farther from the equator."
+    },
+    {
+      "question": "Should I wear long sleeves instead of sunscreen for UV protection?",
+      "answer": "Either works, but full-length sleeves add more trapped heat than the region's humidity already makes tolerable. Lightweight, UV-rated arm sleeves you can remove once you're in shade strike a better balance than a long-sleeve shirt worn for the whole run."
+    },
+    {
+      "question": "Do I still need sunglasses if I run before sunrise?",
+      "answer": "Yes -- on most routes the sun is high enough well before the finish that UV exposure adds up regardless of a pre-dawn start. Polarized sunglasses also cut glare off wet or light-colored roads, which is a common hazard given the region's frequent rain."
+    }
+  ],
+  "editorial_notes": "Original buying-guide content for the Gear section. Product URLs verified live at time of writing; affiliate_link.url currently points to untracked official/retailer product pages pending real affiliate program enrollment.",
+  "published_at": "2026-08-10T02:05:00.000Z",
+  "last_updated": "2026-08-10",
+  "status": "active"
+}

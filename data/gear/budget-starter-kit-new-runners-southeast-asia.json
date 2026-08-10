@@ -1,0 +1,99 @@
+{
+  "article_id": "budget-starter-kit-new-runners-southeast-asia",
+  "slug": "budget-starter-kit-new-runners-southeast-asia",
+  "title": "Budget Starter Kit for New Runners in Southeast Asia",
+  "seo_title": "Budget Running Starter Kit for Southeast Asia",
+  "meta_description": "You don't need premium gear to start running in Southeast Asia's heat. A genuinely budget-friendly starter kit, all sourced from real regional retailers.",
+  "dek": "Starting to run doesn't require an expensive kit -- it requires the right handful of cheap items. Here's a starter list that costs a fraction of what most 'running gear guide' articles assume.",
+  "sections": [
+    {
+      "heading": "You Don't Need Much to Start",
+      "paragraphs": [
+        "A lot of running-gear content assumes a budget that doesn't match most new runners' actual starting point -- premium shoes, a GPS watch, a hydration vest, before someone has even confirmed they enjoy running three times a week. The honest starter list is much shorter: proper running shoes, moisture-wicking apparel, and a way to carry water. Everything else is worth adding only once a habit is established.",
+        "This matters more in Southeast Asia specifically, where heat and humidity punish the wrong gear choices faster than they would elsewhere -- cotton apparel and shoes without breathable mesh turn an easy run into a miserable one within a few kilometers, regardless of price."
+      ]
+    },
+    {
+      "heading": "The One Item Worth Getting Right: Shoes",
+      "paragraphs": [
+        "Proper running shoes are the one place a genuine beginner shouldn't cut corners entirely, since running in the wrong footwear is the most common cause of early injuries that end a new habit before it starts. That doesn't mean expensive, though -- an entry-level running shoe built for the distance a new runner is actually covering (a handful of kilometers a week) does the job without paying for performance features a beginner won't use yet.",
+        "Decathlon's in-house Kalenji line is built specifically around this: a real running shoe, not a general athletic sneaker repurposed for running, priced well below most dedicated running-shoe brands."
+      ]
+    },
+    {
+      "heading": "Apparel: Wicking Fabric, Not Cotton",
+      "paragraphs": [
+        "A cotton t-shirt absorbs sweat and stays wet, which in Southeast Asia's humidity means chafing and discomfort well before the shoes become the limiting factor. A basic technical tank top or tee, built from moisture-wicking synthetic fabric, solves this at a price close to what a cotton shirt costs anyway -- this is genuinely one of the cheapest upgrades in the whole kit relative to how much it improves comfort.",
+        "Socks matter more than most beginners expect too: a proper running sock reduces blisters in a way a regular cotton sock doesn't, and it's a small enough cost that there's little reason to skip it."
+      ]
+    },
+    {
+      "heading": "Carrying Water Without a Hydration Vest",
+      "paragraphs": [
+        "A hydration vest is genuinely useful for long runs, but a new runner doing 2-5km a few times a week doesn't need one yet -- a simple, cheap soft water bottle that fits in a hand or a small bag covers the early stage of training just fine. Save the vest purchase for when training volume actually justifies it.",
+        "The overall philosophy for this stage: buy the minimum that removes real friction (bad shoes, chafing fabric, no way to carry water), and let actual training habits -- not marketing -- decide what gets added next."
+      ]
+    }
+  ],
+  "products": [
+    {
+      "name": "Kalenji Run 100 Running Shoes",
+      "category": "Footwear",
+      "why": "A genuine entry-level running shoe, not a repurposed sneaker, priced well below most dedicated running-shoe brands -- the right level of investment for someone just starting out.",
+      "price_range": "Varies by size/color",
+      "affiliate_link": {
+        "label": "Shop on Decathlon SG",
+        "url": "https://www.decathlon.sg/p/kalenji-run-100-men-s-running-shoes-grey-kalenji-8351755.html"
+      }
+    },
+    {
+      "name": "Kalenji Basic Running Tank Top",
+      "category": "Apparel",
+      "why": "Moisture-wicking technical fabric at close to cotton-tee pricing -- one of the cheapest upgrades in the whole kit relative to how much it improves comfort in the region's humidity.",
+      "price_range": "Varies by size/color",
+      "affiliate_link": {
+        "label": "Shop on Decathlon SG",
+        "url": "https://www.decathlon.sg/p/men-s-basic-running-tank-top-black-kalenji-8488395.html"
+      }
+    },
+    {
+      "name": "Kiprun 500ml Soft Water Bottle",
+      "category": "Hydration",
+      "why": "A cheap, simple way to carry water for short runs, without the cost or bulk of a full hydration vest a beginner doesn't need yet.",
+      "price_range": "Varies by retailer",
+      "affiliate_link": {
+        "label": "Shop on Decathlon SG",
+        "url": "https://www.decathlon.sg/p/500ml-soft-water-bottle-kiprun-8605419.html"
+      }
+    },
+    {
+      "name": "Kiprun Running Socks, Thin Under-Calf",
+      "category": "Footwear",
+      "why": "A proper running sock reduces blisters in a way a regular cotton sock doesn't, at a low enough cost that there's little reason to skip it.",
+      "price_range": "S$9.90",
+      "affiliate_link": {
+        "label": "Shop on Decathlon SG",
+        "url": "https://www.decathlon.sg/p/unisex-running-socks-thin-under-calf-black-kiprun-8588653.html"
+      }
+    }
+  ],
+  "sources": [],
+  "faqs": [
+    {
+      "question": "What's the one thing a new runner in Southeast Asia shouldn't skimp on?",
+      "answer": "Proper running shoes -- running in the wrong footwear is the most common cause of early injuries that end a new habit before it starts. That doesn't require an expensive shoe, just a genuine entry-level running shoe rather than a general athletic sneaker repurposed for running."
+    },
+    {
+      "question": "Why does cotton clothing matter more in Southeast Asia than elsewhere?",
+      "answer": "Cotton absorbs sweat and stays wet, which in the region's humidity causes chafing and discomfort well before shoes or fitness become the limiting factor. A basic moisture-wicking technical tee or tank top solves this at close to the same price as a cotton shirt."
+    },
+    {
+      "question": "Do I need a hydration vest to start running?",
+      "answer": "Not for the distances most beginners start with -- a simple, cheap soft water bottle covers a few kilometers of running comfortably. A hydration vest is worth the extra cost once training volume actually justifies carrying more water than a bottle can hold."
+    }
+  ],
+  "editorial_notes": "Original buying-guide content for the Gear section. Product URLs verified live at time of writing; affiliate_link.url currently points to untracked official/retailer product pages pending real affiliate program enrollment.",
+  "published_at": "2026-08-10T02:15:00.000Z",
+  "last_updated": "2026-08-10",
+  "status": "active"
+}
