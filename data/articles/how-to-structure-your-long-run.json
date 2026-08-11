@@ -1,0 +1,66 @@
+{
+  "article_id": "how-to-structure-your-long-run",
+  "slug": "how-to-structure-your-long-run",
+  "title": "How to Structure Your Long Run",
+  "seo_title": "How to Structure Your Long Run for Marathon or Half Training",
+  "meta_description": "Why the long run matters most in marathon and half-marathon prep, how to build it up safely, what pace to run it, and how heat changes the plan.",
+  "topic": "Training & Racing",
+  "dek": "The long run is the single session most likely to resemble race day -- which is exactly why getting its structure right matters more than any other run in the week.",
+  "sections": [
+    {
+      "heading": "Why the Long Run Matters",
+      "paragraphs": [
+        "For marathon and half-marathon training, the long run is the closest a single session comes to simulating race day: it's the run that trains the body to keep going after fatigue sets in, teaches fueling and hydration strategy under real time-on-feet conditions, and builds the durability that shorter runs simply can't replicate no matter how many of them are stacked together in a week. A runner can be fit by every other measure and still struggle badly late in a marathon if the long run hasn't prepared the body for that specific demand.",
+        "It's also, for most runners, the mentally hardest run of the week -- the one most likely to involve doubt, boredom, or the temptation to cut it short. Treating it as the week's centerpiece, and planning the rest of the week's training and recovery around it, is standard practice for a reason: a poorly recovered long run undermines the whole week that follows it."
+      ]
+    },
+    {
+      "heading": "Building the Long Run Over a Training Block",
+      "paragraphs": [
+        "The long run should grow gradually across a training block rather than jumping straight to its peak distance -- a pattern of progressive weekly increases with periodic step-back weeks, where the distance drops back down every three to four weeks, tends to let fitness accumulate while giving the body recovery windows before the next push. A systematic review of running-injury research found the evidence for any single fixed weekly-increase formula to be mixed, but flagged a more specific and consistent risk factor: a single long run that jumps sharply past a runner's recent longest distance, rather than gradual week-to-week growth, is one of the more consistently observed predictors of overuse injury[1].",
+        "The practical takeaway is less about hitting an exact percentage and more about avoiding sudden jumps -- building toward peak long-run distance in stages, giving the body several weeks at each new distance before pushing further, and treating any week that feels unusually fatigued as a signal to hold rather than increase."
+      ]
+    },
+    {
+      "heading": "What Pace Should the Long Run Be?",
+      "paragraphs": [
+        "For most of a training block, the long run should be run noticeably slower than goal race pace -- often by a wide margin early on, when the primary purpose is building time-on-feet durability rather than practicing race speed. Running it too close to race pace defeats much of its purpose: it adds fatigue without adding the specific aerobic-endurance benefit the run is meant to deliver, and it can compromise recovery for the harder sessions later in the week.",
+        "Later in a training block, some long runs are commonly structured to include shorter segments at or near goal race pace within an otherwise easy long run -- a way of rehearsing race pace under accumulated fatigue without turning the entire run into a hard effort. These race-pace-inclusive long runs are typically reserved for the more advanced weeks of a plan, after the aerobic base from consistently easy long runs has already been built."
+      ]
+    },
+    {
+      "heading": "Long Runs in Southeast Asia's Heat and Humidity",
+      "paragraphs": [
+        "Heat and humidity change what an appropriate long-run pace looks like more than almost any other training variable. At the same effort level, heart rate and perceived exertion both climb in hot, humid conditions, which means holding a fixed pace target on a long run in Southeast Asian heat often means running at a meaningfully harder effort than the same pace would represent in cooler weather -- this site's own guide, \"How to Train for a Marathon in Southeast Asia's Heat and Humidity,\" covers the physiology behind that shift in more detail.",
+        "The practical adjustment is to let effort and heart rate govern the long run rather than a fixed pace target, to start long runs as early as conditions allow, and to plan more frequent fueling and hydration stops than a cooler-climate long run of the same distance would need. A long run that ends up several minutes slower than planned because of heat isn't a failed session -- it's often the correctly paced one."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "label": "The Association Between Running Injuries and Training Parameters: A Systematic Review",
+      "publisher": "PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9528699/",
+      "type": "other"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How much should I increase my long run each week?",
+      "answer": "Research doesn't support a single fixed weekly-increase formula, but sudden jumps in a single long run's distance are consistently linked to higher injury risk. Build gradually in stages, hold at each new distance for a few weeks, and include periodic step-back weeks before pushing further."
+    },
+    {
+      "question": "What pace should my long run be?",
+      "answer": "Noticeably slower than goal race pace for most of a training block, since the long run's main job early on is building time-on-feet durability rather than practicing speed. Some long runs later in a block include shorter segments closer to race pace."
+    },
+    {
+      "question": "Should I slow down my long run in hot, humid weather?",
+      "answer": "Yes -- heart rate and perceived effort both rise at a given pace in heat and humidity, so holding a fixed pace target usually means running harder than intended. Let effort and heart rate guide the pace instead, and expect long runs to be slower on hot, humid days."
+    }
+  ],
+  "editorial_notes": "Original editorial content for the Articles section. Cited claim verified against a live source URL at time of writing.",
+  "published_at": "2026-08-11T05:10:00.000Z",
+  "last_updated": "2026-08-11",
+  "status": "active"
+}

@@ -1,0 +1,73 @@
+{
+  "article_id": "strength-training-for-runners-what-helps",
+  "slug": "strength-training-for-runners-what-helps",
+  "title": "Strength Training for Runners: What Actually Helps",
+  "seo_title": "Strength Training for Runners: What Actually Helps",
+  "meta_description": "What research says about strength training, injury risk, and running economy for distance runners, and how to fit it around marathon training.",
+  "topic": "Training & Racing",
+  "dek": "Strength training for runners isn't a bodybuilding program in disguise -- the evidence points to a small, specific set of movements that reduce injury risk and make running itself more efficient.",
+  "sections": [
+    {
+      "heading": "What the Evidence Actually Says",
+      "paragraphs": [
+        "The strongest evidence for runner strength training is on injury prevention. A widely cited meta-analysis of randomized controlled trials covering more than 26,000 athletes and thousands of injuries found that strength training reduced sports injuries to less than a third of their baseline rate, with overuse injuries specifically reduced by almost half -- a larger protective effect than stretching or proprioception training showed in the same analysis[1]. For a training block built around steadily accumulating running volume, that's a direct answer to the injury risk that volume itself creates.",
+        "The evidence on performance is more specific but still real: a systematic review and meta-analysis of strength training studies in middle- and long-distance runners found that high-load resistance training and combined training methods produced measurable improvements in running economy -- how much energy a runner burns to hold a given pace -- while plyometric training improved economy specifically at slower running speeds; lighter, submaximal-load training showed no meaningful benefit[2]. The takeaway isn't that any strength work helps -- it's that the type of strength work matters."
+      ]
+    },
+    {
+      "heading": "The Movement Patterns That Matter Most",
+      "paragraphs": [
+        "For runners, a handful of movement patterns do most of the useful work: squats and step-ups build the hip and quad strength that absorbs impact on every stride, single-leg exercises like split squats and single-leg deadlifts address the fact that running is fundamentally a one-leg-at-a-time activity that two-legged lifts don't fully train, and hip and glute work targets the stabilizing muscles that keep the pelvis level and prevent the kind of side-to-side wobble that wastes energy and stresses joints over long distances.",
+        "Calf raises and short plyometric drills -- low hops, bounds, skips -- round out a runner-specific program: they build the lower-leg and tendon resilience that absorbs repeated ground-contact forces, and the research above specifically linked plyometric-style training to running-economy gains. None of this requires a full bodybuilding split with isolated arm or chest work -- a runner's strength program can be short and still cover what actually transfers to running."
+      ]
+    },
+    {
+      "heading": "Fitting Two Sessions a Week Around Marathon Training",
+      "paragraphs": [
+        "Two sessions a week is enough to capture most of the benefit shown in the research above, and it's a volume that fits realistically around a marathon training schedule without adding excessive fatigue. The best placement is usually on or right after an easy running day, or immediately following a hard running session rather than the day before one -- lifting heavy the day before a key workout or long run risks showing up to that run with tired, less responsive legs.",
+        "As marathon-specific training builds toward its heaviest weeks, most runners are better served scaling strength sessions down -- fewer sets, lighter loads, shorter sessions -- rather than dropping them entirely, since the injury-protective effect depends on staying consistent through the block, not on lifting maximally close to race day."
+      ]
+    },
+    {
+      "heading": "What to Skip",
+      "paragraphs": [
+        "A running-focused strength program doesn't need high-volume hypertrophy work, isolated single-muscle machines, or a bodybuilding-style split across different muscle groups on different days -- none of that reflects what the research above actually tested, and extra volume for its own sake adds fatigue without a matching return for a runner's specific goals.",
+        "It's also worth avoiding true one-rep-max attempts and scheduling strength sessions too close to hard running workouts -- a session that leaves legs deeply sore going into a key interval session or long run undermines the very running training the strength work is supposed to be supporting."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "label": "The Effectiveness of Exercise Interventions to Prevent Sports Injuries: A Systematic Review and Meta-Analysis of Randomised Controlled Trials",
+      "publisher": "British Journal of Sports Medicine (via NCBI Bookshelf, DARE)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK169555/",
+      "type": "other"
+    },
+    {
+      "n": 2,
+      "label": "Effect of Strength Training Programs in Middle- and Long-Distance Runners' Economy at Different Running Speeds: A Systematic Review with Meta-analysis",
+      "publisher": "Sports Medicine (PMC)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11052887/",
+      "type": "other"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does strength training actually reduce running injuries?",
+      "answer": "Yes -- a large meta-analysis of randomized controlled trials found strength training reduced sports injuries to less than a third of baseline rates, with overuse injuries reduced by almost half. It showed a larger protective effect than stretching or proprioception training in the same analysis."
+    },
+    {
+      "question": "What strength exercises actually help running performance?",
+      "answer": "High-load resistance exercises like squats and step-ups, single-leg work, and plyometric drills such as hops and bounds have the strongest research support for improving running economy. Lighter, submaximal-load strength training showed no meaningful running-economy benefit in the same research."
+    },
+    {
+      "question": "How often should runners strength train during marathon training?",
+      "answer": "Twice a week is generally enough to capture most of the documented benefit without adding excessive fatigue. It's best scheduled on easy days or right after hard running sessions, and scaled down -- not dropped -- during a plan's heaviest training weeks."
+    }
+  ],
+  "editorial_notes": "Original editorial content for the Articles section. Cited claims verified against live source URLs at time of writing.",
+  "published_at": "2026-08-11T05:15:00.000Z",
+  "last_updated": "2026-08-11",
+  "status": "active"
+}

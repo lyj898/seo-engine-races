@@ -1,0 +1,73 @@
+{
+  "article_id": "post-marathon-recovery-timeline-what-happens-to-your-body",
+  "slug": "post-marathon-recovery-timeline-what-happens-to-your-body",
+  "title": "What Actually Happens to Your Body After a Marathon: A Post-Race Recovery Timeline",
+  "seo_title": "What Happens to Your Body After a Marathon: Recovery Guide",
+  "meta_description": "The soreness, stairs pain, and fatigue after a marathon aren't random -- they follow a fairly predictable physiological timeline. What's actually happening, and how long it takes.",
+  "topic": "Running Culture & Travel",
+  "dek": "The soreness that shows up a day after a marathon, and the fatigue that lingers for weeks, aren't random -- they follow a fairly well-understood physiological timeline. Here's what's actually happening to your body, and roughly how long each stage takes.",
+  "sections": [
+    {
+      "heading": "The First 24-72 Hours: Muscle Damage and Inflammation",
+      "paragraphs": [
+        "Running 42.195km, especially the repeated pounding of the marathon's final miles, causes genuine microscopic damage to muscle fibers -- tiny tears that trigger an inflammatory response as the body begins repairing them. This kind of soreness is known as delayed onset muscle soreness, and it's called 'delayed' for a reason: it typically doesn't peak during or immediately after the race, but develops gradually and usually starts one to three days afterward, meaning a runner can feel deceptively fine crossing the finish line and considerably worse two mornings later[1].",
+        "For most runners, this soreness follows a fairly predictable arc -- building over the first day or two, then fading gradually, and rarely lasting more than about five days for a well-conditioned runner, though the exact duration varies with how hard the race was run and how well-prepared the runner's legs were for it[1]. The inflammation itself isn't a malfunction; it's the visible sign of the repair process that ultimately makes the muscle stronger, the same underlying mechanism behind ordinary training adaptation, just compressed into a much larger single dose."
+      ]
+    },
+    {
+      "heading": "Why Walking Downstairs Hurts More Than Walking Down the Finish Chute",
+      "paragraphs": [
+        "One of the more confusing parts of marathon recovery is that stairs, especially going down, often hurt noticeably more the day after a race than actually finishing the race did. The explanation is the type of muscle contraction involved: eccentric contractions, where a muscle lengthens while still under tension, cause more of this microscopic fiber damage than concentric contractions, where the muscle simply shortens[1]. Walking downstairs asks the quadriceps to lengthen under load to control the descent -- a classic eccentric action -- while walking upstairs asks the same muscles to shorten and contract normally, which is far less damaging.",
+        "A marathon involves a huge amount of eccentric loading throughout, every footstrike's braking phase works the quadriceps eccentrically, and downhill sections do so even more, so by the time a runner is navigating stairs the next day, those same muscle fibers are already carrying fresh microscopic damage from race day. That's why the discomfort of descending a staircase can genuinely exceed the discomfort felt crossing the finish line itself, even though the finish line is, in an obvious sense, the harder physical effort."
+      ]
+    },
+    {
+      "heading": "The Less Visible Cost: A Temporarily Weaker Immune System",
+      "paragraphs": [
+        "Muscle soreness is the recovery symptom every runner notices, but it isn't the only one. Sports medicine research has found that an athlete's immune system is measurably depressed for up to four weeks after a marathon or similarly intense endurance event, which translates into a genuinely higher risk of catching a respiratory infection in the weeks immediately following a race[2]. This is one of the less intuitive parts of marathon recovery -- the body can feel largely fine by the second week, well past the worst of the muscle soreness, while still running a meaningfully elevated risk of getting sick.",
+        "Practically, this argues for treating the weeks right after a marathon as a period worth protecting more broadly than just resting the legs -- getting adequate sleep, eating well, and being realistic about exposure to crowds or illness during a trip's post-race days, since the immune dip doesn't necessarily track with how recovered the legs themselves feel."
+      ]
+    },
+    {
+      "heading": "The Weeks-Long Road Back to Hard Training",
+      "paragraphs": [
+        "Sports medicine guidance generally recommends a one- to two-week break from running immediately after a marathon, using lower-impact activity like walking, cycling, or swimming to stay active without adding further impact stress while the legs recover[2]. From there, the recommended approach is a gradual return -- lower mileage and an easier pace initially, continuing to mix in low-impact cross-training for at least the first month back, rather than resuming a normal training load all at once[2].",
+        "This gradual timeline can feel overly conservative to a runner who feels physically fine within a week or two, but it reflects that muscle soreness resolving is not the same as full recovery -- the immune dip, along with more subtle connective-tissue and neuromuscular recovery, continues well past the point where legs stop feeling sore, which is the core reason sports medicine guidance treats the first month after a marathon as a genuine recovery window rather than just a soreness window."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "label": "Delayed Onset Muscle Soreness (DOMS)",
+      "publisher": "Cleveland Clinic",
+      "url": "https://my.clevelandclinic.org/health/diseases/delayed-onset-muscle-soreness",
+      "type": "other"
+    },
+    {
+      "n": 2,
+      "label": "Tips for marathon recovery -- and starting a plan for the next one",
+      "publisher": "Mayo Clinic Sports Medicine",
+      "url": "https://sportsmedicine.mayoclinic.org/news/tips-for-marathon-recovery-and-starting-a-plan-for-the-next-one/",
+      "type": "other"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Why does soreness after a marathon peak a day or two later instead of right away?",
+      "answer": "This is delayed onset muscle soreness, caused by microscopic muscle fiber tears and the inflammatory repair process that follows. It's called delayed because it typically starts one to three days after the race rather than during or immediately after it, per Cleveland Clinic."
+    },
+    {
+      "question": "Why do stairs hurt more than the finish line did the next day?",
+      "answer": "Walking downstairs works the quadriceps eccentrically, lengthening the muscle under load, which causes more microscopic fiber damage than the concentric contractions of walking upstairs. A marathon's repeated footstrike braking loads muscles eccentrically throughout, leaving them primed to feel this more the next day."
+    },
+    {
+      "question": "How long until I can return to hard training after a marathon?",
+      "answer": "Sports medicine guidance generally recommends a one- to two-week break from running, followed by a gradual return with lower mileage for at least the first month. This is partly because immune function can stay depressed for up to four weeks, longer than muscle soreness itself typically lasts."
+    }
+  ],
+  "editorial_notes": "Original editorial content for the Articles section. Cited physiological and recovery-timeline claims verified against live Cleveland Clinic and Mayo Clinic Sports Medicine source URLs at time of writing.",
+  "published_at": "2026-08-11T07:15:00.000Z",
+  "last_updated": "2026-08-11",
+  "status": "active"
+}
