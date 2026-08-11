@@ -1,0 +1,73 @@
+{
+  "article_id": "negative-split-pacing-strategy-guide",
+  "slug": "negative-split-pacing-strategy-guide",
+  "title": "How to Run a Negative Split (Instead of Fading in the Second Half)",
+  "seo_title": "How to Run a Negative Split Instead of Fading Late",
+  "meta_description": "A negative split means running the second half of a race faster than the first. Why coaches favor it over even or positive splits, and how to plan one.",
+  "topic": "Training & Racing",
+  "dek": "Most runners who fade in the second half didn't run out of fitness -- they ran out of a plan. A negative split, run deliberately conservative early, is the pacing strategy coaches keep coming back to.",
+  "sections": [
+    {
+      "heading": "What a Negative Split Actually Is",
+      "paragraphs": [
+        "A negative split simply means the second half of a race is run faster than the first half. It sits alongside two other patterns runners commonly fall into: an even split, where pace stays roughly constant throughout, and a positive split, where the second half is slower than the first -- the pattern behind almost every story of a runner who felt great at 10km and was walking by 35km. Of the three, positive splitting is by far the most common outcome among recreational finishers, not because those runners lack fitness, but because race-morning adrenaline, a taper-fresh body, and a crowd of runners pulling ahead all push pace faster than plan in the opening kilometers.",
+        "The distinction matters because it isn't just a matter of style -- it's a measurable predictor of outcome. A large-scale analysis of marathon split-time data found that runners who paced evenly finished dramatically faster on average than runners who slowed sharply in the second half, and that even pacing became far more common the faster the finishing time got: elite finishers under three hours paced evenly at a much higher rate than recreational finishers over four and a half hours, while sharp positive splitting -- and the associated experience of \"hitting the wall\" -- was overwhelmingly concentrated among slower, less disciplined-paced finishers[1]. Positive splitting isn't a minor pacing quirk; it's strongly linked to the exact mid-race collapse most runners are trying to avoid."
+      ]
+    },
+    {
+      "heading": "Why Starting Conservative Works Better Than It Feels Like It Should",
+      "paragraphs": [
+        "The physiological case for starting slower comes down to what the body is burning and how it's cooling itself. Running the opening kilometers at a lower intensity shifts a larger share of energy production toward fat oxidation rather than glycogen, which preserves the limited glycogen stores that become critical in the race's final third -- exactly where a runner who went out too hard has nothing left to draw on[2]. A more controlled early pace also produces heat more gradually, which matters more than most runners assume in Southeast Asia's heat and humidity: a slower rate of heat production early on delays the point where rising core temperature itself starts limiting pace, and it reduces \"cardiovascular drift,\" the gradual rise in heart rate and fall in stroke volume that otherwise compounds fatigue over a long effort[2].",
+        "None of this is exotic advice -- it's closer to spending a limited resource wisely rather than all at once. A runner who starts 5-10 seconds per kilometer slower than goal pace isn't sacrificing much time early, because that margin is small relative to a full marathon or half marathon. A runner who starts even a little too fast, by contrast, is spending glycogen and thermoregulatory capacity at a rate the second half of the race can't sustain, and the deficit shows up as exactly the kind of late-race slowdown that erases far more time than the fast start ever gained."
+      ]
+    },
+    {
+      "heading": "Why It Feels Wrong on the Start Line",
+      "paragraphs": [
+        "If the physiology is this favorable, why do so few recreational runners actually negative split? Because holding back at the start doesn't feel like good training -- it feels like underperforming, in front of a crowd, at the exact moment adrenaline and fresh legs make a faster pace feel easy. Research on negative-split pacing describes this directly as a psychological cost as much as a physical one: executing the strategy well requires confidence, patience, and a tolerance for feeling like the pace is too slow in the early miles, even when it's exactly on plan[2].",
+        "That discomfort is precisely why a negative split needs to be decided before race morning, not improvised on the day. A runner who hasn't committed to a specific early pace in advance will almost always drift faster once the gun goes off and the field starts to spread out, simply because holding a deliberately unhurried pace while other runners stream past takes more discipline than most people expect until they're actually standing at the start line trying to do it."
+      ]
+    },
+    {
+      "heading": "A Practical Way to Plan One",
+      "paragraphs": [
+        "The simplest way to build a negative split into a race plan is to target the first half at roughly 2-3% slower than goal pace, then aim to run the second half at goal pace or slightly faster. For a runner with a 4:00:00 marathon goal (roughly 5:41/km average), that means treating the first half's target as closer to 5:50-5:55/km rather than 5:41/km -- a small, deliberately unhurried adjustment that's easy to undershoot by accident if it isn't written down and checked against a watch every few kilometers early on.",
+        "This is worth rehearsing in training, not just planning on paper. Long runs with a genuinely easy first two-thirds and a deliberately faster final third build both the physical capacity to finish strong and the practiced discipline to hold back early, so that on race day the conservative start feels like a familiar, well-drilled pattern rather than a fight against instinct. Runners training through Southeast Asia's heat should also build in a margin for conditions -- a negative split target set for a cool-weather pace will be harder to hold in mid-morning humidity, so it's worth planning the early kilometers around effort and heart rate as much as a fixed pace on the watch."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "label": "Pacing strategy patterns and performance outcomes in marathon running: A large-scale analysis of split time data",
+      "publisher": "PLOS One",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0352808",
+      "type": "other"
+    },
+    {
+      "n": 2,
+      "label": "The physiology and psychology of negative splits: insights into optimal marathon pacing strategies",
+      "publisher": "Frontiers in Physiology (PMC)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12307312/",
+      "type": "other"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is a negative split?",
+      "answer": "A negative split means running the second half of a race faster than the first half, the opposite of the common pattern of starting fast and fading. It sits opposite a positive split (slower second half) and alongside an even split (constant pace throughout)."
+    },
+    {
+      "question": "Why does starting slower work better than it feels like it should?",
+      "answer": "A conservative start spares glycogen for later, produces heat more gradually, and reduces cardiovascular drift -- the rising heart rate and falling stroke volume that compound fatigue over distance. Those advantages only pay off in the second half, which is why starting slow feels like wasted time even though it isn't."
+    },
+    {
+      "question": "How much slower should the first half of a negative split be?",
+      "answer": "A reasonable default is roughly 2-3% slower than goal pace for the first half, then goal pace or slightly faster for the second. That's a small early adjustment -- around 9-17 seconds per kilometer at typical marathon paces -- that's easy to overshoot without checking a watch regularly."
+    }
+  ],
+  "editorial_notes": "Original editorial content for the Articles section. Cited claims verified against live source URLs at time of writing.",
+  "published_at": "2026-08-11T09:00:00.000Z",
+  "last_updated": "2026-08-11",
+  "status": "active"
+}

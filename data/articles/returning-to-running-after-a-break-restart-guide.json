@@ -1,0 +1,66 @@
+{
+  "article_id": "returning-to-running-after-a-break-restart-guide",
+  "slug": "returning-to-running-after-a-break-restart-guide",
+  "title": "Returning to Running After a Break: A Practical Restart Guide",
+  "seo_title": "Returning to Running After a Break: A Restart Guide",
+  "meta_description": "What actually happens to your fitness during weeks off running, and a conservative way to rebuild mileage after illness, travel, or a motivation lull.",
+  "topic": "Running Health & Recovery",
+  "dek": "A break from running costs less fitness than it feels like it does -- but rebuilding it wrong, by picking up where you left off, is what actually causes the injury or burnout that turns a short break into a much longer one.",
+  "sections": [
+    {
+      "heading": "What Actually Happens to Fitness During Time Off",
+      "paragraphs": [
+        "The fear that drives most restart decisions -- that a few weeks off has erased months of training -- is largely overstated for short breaks. A systematic review and meta-analysis of detraining studies in trained athletes found that VO2 max, the standard measure of aerobic fitness, declines by an average of roughly 4% over detraining periods of 30 days or less, a decline the researchers characterized as a comparatively small effect. Longer breaks cost meaningfully more -- average declines nearly doubled, to around 9%, for detraining periods beyond 30 days -- but even that larger loss was found to plateau rather than keep compounding: there was no significant difference in VO2 max decline between 30-90 days off and periods longer than 90 days[1].",
+        "The mechanism behind this pattern matters for how a runner should think about a break. Early decline is driven mostly by reduced blood and plasma volume and the loss of hemodynamic adaptations -- things like stroke volume -- rather than a fundamental loss of the muscular and mitochondrial adaptations built over months of training, which is part of why fitness returns faster after a short break than it was lost. A runner who has trained consistently for a year and then takes two to three weeks off is not starting over; the aerobic base built over that year does not vanish nearly as fast as the fear of losing it suggests."
+      ]
+    },
+    {
+      "heading": "Why 'Picking Up Where You Left Off' Backfires",
+      "paragraphs": [
+        "The actual risk in a restart isn't the fitness lost during the break -- it's the mismatch between how quickly cardiovascular fitness partially returns and how much more slowly connective tissue (tendons, ligaments, the smaller stabilizing structures around joints) re-adapts to load. A runner whose lungs and heart feel ready to resume a pre-break pace within a week or two can still be running on tendons and joints that haven't been asked to absorb that volume in weeks, which is a common setup for the overuse injuries -- shin pain, Achilles irritation, knee pain -- that show up two or three weeks into a restart, not on day one.",
+        "This is also where the psychological pull of a break works against a sensible restart. Runners who feel fit relative to how they remember feeling before the break -- because the break wasn't that long, or because base fitness genuinely didn't collapse -- are the ones most likely to resume at or near pre-break volume immediately, precisely because it feels achievable. The result is a restart that looks fine for a week or two and then breaks down, turning what should have been a short interruption into a much longer one spent rehabbing an overuse injury."
+      ]
+    },
+    {
+      "heading": "A Sensible Way to Restart Mileage",
+      "paragraphs": [
+        "A conservative rebuild starts from a fraction of pre-break volume rather than the pre-break number itself -- a common, sensible approach is resuming at somewhere around half of pre-break weekly mileage for the first one to two weeks, entirely at easy effort, before building back up gradually. The exact fraction matters less than the principle: the first week or two back should feel noticeably easier than what the runner remembers being capable of, specifically because tissue tolerance, not cardiovascular fitness, is the actual limiting factor early in a restart.",
+        "From that reduced starting point, building weekly mileage back up by roughly 10% a week -- the same conservative progression used for any new training block -- gives connective tissue time to catch up to the fitness that returns faster. Intensity should come back later than volume: a runner is generally better off restoring easy mileage first and reintroducing tempo runs, intervals, or hard long runs only once a few weeks of easy running have passed without pain, rather than trying to resume speed work and volume in the same week."
+      ]
+    },
+    {
+      "heading": "Restarting After Southeast Asia-Specific Disruptions",
+      "paragraphs": [
+        "The most common break in the region isn't a planned taper or an injury layoff -- it's illness (dengue, food poisoning, a bad bout of flu), travel that disrupts a routine for a week or two, or simply a motivation lull during the hottest, most humid stretch of the year when training feels punishing regardless of fitness. Each of these deserves a slightly different restart, but the same conservative-rebuild principle applies to all of them: a runner recovering from dengue or a significant fever needs medical clearance and an even more conservative restart than a simple mileage break, since illness can affect cardiac and muscular recovery beyond what ordinary detraining involves, while a runner back from a work trip with disrupted sleep is dealing mostly with fatigue rather than lost fitness and can usually rebuild faster.",
+        "A heat-driven motivation lull is its own case, because it often overlaps with a loss of heat acclimatization on top of any fitness lost -- heat adaptation itself starts to fade within one to two weeks of reduced heat exposure, similar in timeline to the early cardiovascular declines described above. A runner restarting after a haze-season or peak-heat lull should expect early runs to feel harder for the same easy pace than they remember, not because fitness collapsed, but because both general detraining and heat re-acclimatization are happening at once -- another reason to restart by effort and heart rate rather than by the pace a watch says should feel easy."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "label": "Effects of Short- and Long-Term Detraining on Maximal Oxygen Uptake in Athletes: A Systematic Review and Meta-Analysis",
+      "publisher": "PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9398774/",
+      "type": "other"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How much fitness do you actually lose after 2-4 weeks off running?",
+      "answer": "Research on trained athletes found VO2 max -- the standard aerobic fitness measure -- declines by roughly 4% on average over detraining periods of 30 days or less, a comparatively small effect. Longer breaks cost more, but even a few weeks off does not erase months of built-up aerobic fitness."
+    },
+    {
+      "question": "Why does restarting at pre-break mileage often lead to injury?",
+      "answer": "Cardiovascular fitness partly returns faster than connective tissue re-adapts to load, so a runner can feel cardio-ready for old mileage while tendons and joints haven't caught up. That mismatch is a common setup for overuse injuries appearing two to three weeks into a restart."
+    },
+    {
+      "question": "How should I rebuild mileage after a break?",
+      "answer": "Start around half of pre-break weekly mileage at easy effort for one to two weeks, then rebuild by roughly 10% a week, the same conservative progression used for any new training block. Bring intensity back later than volume, once a few pain-free weeks of easy running have passed."
+    }
+  ],
+  "editorial_notes": "Original editorial content for the Articles section. Cited claims verified against live source URLs at time of writing.",
+  "published_at": "2026-08-11T09:05:00.000Z",
+  "last_updated": "2026-08-11",
+  "status": "active"
+}
