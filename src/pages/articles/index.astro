@@ -1,0 +1,98 @@
+---
+import siteConfig from '../../lib/config.js';
+import { urls } from '../../lib/urls.js';
+import { loadArticles, stripMeta, isPublished } from '../../lib/data.js';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import HubCard from '../../components/HubCard.astro';
+import { buildBreadcrumbListSchema, buildItemListSchema } from '../../lib/schema-jsonld.js';
+
+// Local, page-scoped kebab-case slug for topic anchor ids -- deliberately not
+// scripts/lib/slugify.js, which is for the data pipeline (/scripts), not
+// page rendering (/src). This never needs to satisfy slugSchema, just be a
+// valid, stable URL fragment.
+const slugifyTopic = (topic) =>
+  topic
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+
+const articles = loadArticles()
+  .map(stripMeta)
+  .filter(isPublished)
+  .sort((a, b) => (b.published_at ?? b.last_updated).localeCompare(a.published_at ?? a.last_updated));
+
+// Grouped by topic (falling back to a single "More Articles" bucket for any
+// article without one, so a missing topic never silently drops an article
+// from the index) so a growing library of articles stays scannable instead
+// of becoming one long undifferentiated grid. Topic order follows the order
+// topics first appear in the newest-first sort above, which keeps the page
+// self-maintaining -- no hardcoded topic list to update by hand as new
+// topics are added.
+const UNTITLED_TOPIC = 'More Articles';
+const topicOrder = [];
+const articlesByTopic = new Map();
+for (const article of articles) {
+  const topic = article.topic || UNTITLED_TOPIC;
+  if (!articlesByTopic.has(topic)) {
+    topicOrder.push(topic);
+    articlesByTopic.set(topic, []);
+  }
+  articlesByTopic.get(topic).push(article);
+}
+const sections = topicOrder.map((topic) => ({ topic, articles: articlesByTopic.get(topic) }));
+
+const breadcrumbItems = [
+  { label: siteConfig.siteName, href: urls.home() },
+  { label: 'Articles' },
+];
+
+const jsonLd = [
+  buildBreadcrumbListSchema(breadcrumbItems, Astro.site),
+  buildItemListSchema(articles, Astro.site, (a) => urls.article(a.slug), (a) => a.title),
+].filter(Boolean);
+---
+
+<BaseLayout
+  title="Articles -- Running & Racing Guides for Southeast Asia"
+  description={`In-depth guides and articles on training, racing, and running culture across Southeast Asia, from ${siteConfig.siteName}.`}
+  canonicalPath={urls.articlesIndex()}
+  jsonLd={jsonLd}
+>
+  <div class="mx-auto max-w-3xl px-4 py-10 sm:px-6">
+    <Breadcrumb items={breadcrumbItems} />
+    <h1 class="mt-4 font-serif text-3xl font-semibold sm:text-4xl">Articles</h1>
+    <p class="mt-3 max-w-2xl text-brand-muted dark:text-brand-muted-dark">
+      In-depth guides and articles on training, racing, and running culture across Southeast Asia --
+      from race-day fundamentals to the region's running scene.
+    </p>
+
+    {sections.length > 1 && (
+      <nav aria-label="Jump to an article topic" class="mt-6 flex flex-wrap gap-2">
+        {sections.map(({ topic }) => (
+          <a
+            href={`#${slugifyTopic(topic)}`}
+            class="rounded-full border border-brand-border px-3 py-1 text-sm text-brand-muted transition-colors duration-200 ease-interactive hover:border-brand-primary hover:text-brand-text dark:border-brand-border-dark dark:text-brand-muted-dark dark:hover:text-brand-text-dark"
+          >
+            {topic}
+          </a>
+        ))}
+      </nav>
+    )}
+
+    {sections.map(({ topic, articles: topicArticles }) => (
+      <section id={slugifyTopic(topic)} class="mt-10 scroll-mt-20">
+        <h2 class="text-xl font-semibold">{topic}</h2>
+        <div class="mt-4 grid gap-4 sm:grid-cols-2">
+          {topicArticles.map((article) => (
+            <HubCard href={urls.article(article.slug)} label={article.title} description={article.dek} />
+          ))}
+        </div>
+      </section>
+    ))}
+
+    {articles.length === 0 && (
+      <p class="mt-8 text-brand-muted dark:text-brand-muted-dark">No articles published yet -- check back soon.</p>
+    )}
+  </div>
+</BaseLayout>

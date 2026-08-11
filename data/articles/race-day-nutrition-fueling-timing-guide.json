@@ -1,0 +1,73 @@
+{
+  "article_id": "race-day-nutrition-fueling-timing-guide",
+  "slug": "race-day-nutrition-fueling-timing-guide",
+  "title": "Race-Day Nutrition Timing: When and How Much to Fuel a Long Run or Race",
+  "seo_title": "Race-Day Fueling Timing: A Practical Nutrition Guide",
+  "meta_description": "It's not just what you eat during a marathon -- it's when. A practical guide to fueling timing for long runs and races over 90 minutes, tuned for hot climates.",
+  "topic": "Training & Racing",
+  "dek": "Most fueling advice focuses on what to eat -- gels versus chews versus real food. The bigger lever most runners get wrong is timing: waiting too long to start, or spacing intake too far apart, undoes the benefit of even the right fuel.",
+  "sections": [
+    {
+      "heading": "Why Timing Matters More Than the Specific Product",
+      "paragraphs": [
+        "Carbohydrate fuel taken during a long effort works by keeping blood glucose available as the body's stored glycogen depletes -- but that only works if intake starts before glycogen runs genuinely low, not after. Waiting until a runner already feels the early signs of bonking means fuel is arriving after the deficit has already started, and it takes time to be digested and absorbed even once it's in.",
+        "This is why the same gel or chew can work well for one runner and seem to 'do nothing' for another -- the difference is very often when it was taken relative to effort and duration, not the product itself."
+      ]
+    },
+    {
+      "heading": "The Actual Numbers: How Much and How Often",
+      "paragraphs": [
+        "Mayo Clinic Health System's guidance is direct on this: \"During a long run or race -- generally more than 90 minutes -- aim to consume 30 to 60 grams of carbohydrates every hour\"[1]. The International Society of Sports Nutrition's position stand on nutrient timing supports the same range for carbohydrate intake during endurance exercise[2].",
+        "In practice, that usually means starting intake around 30-45 minutes into a long run or race, before any real depletion has set in, and then repeating roughly every 30-45 minutes rather than waiting for a single large dose partway through. A standard energy gel carries roughly 20-25g of carbohydrate, so one gel every 30-40 minutes lands comfortably inside the 30-60g/hour range for most runners."
+      ]
+    },
+    {
+      "heading": "Practicing the Timing Before Race Day",
+      "paragraphs": [
+        "Race day is the wrong place to test a fueling schedule for the first time -- both the specific product and the timing should be rehearsed on long training runs first, since gut tolerance for a given gel or drink at a given interval varies enormously between runners and only shows up under real duration and effort.",
+        "A simple way to build this habit: set a recurring phone or watch alarm at a fixed interval (every 30 or 40 minutes) on long runs during training, and take fuel every time it goes off regardless of how hungry or full you feel in the moment. This turns fueling from a reactive decision made mid-run into a scheduled habit that's already automatic by race day."
+      ]
+    },
+    {
+      "heading": "Adjusting for Southeast Asia's Heat and Aid-Station Spacing",
+      "paragraphs": [
+        "Heat increases fluid loss and can blunt appetite mid-race, which makes some runners under-fuel exactly when they need the carbohydrate most -- carrying at least a small personal supply rather than relying entirely on aid-station gels is worth it on races where stations are spaced more than 5km apart, which is common outside the largest city marathons in the region.",
+        "Pairing carbohydrate intake with fluid rather than taking it dry also matters more here than in cooler climates: a gel taken with water is absorbed faster and sits easier on a stomach that's already working harder to manage heat stress, so timing fuel to line up with water stations rather than treating them as separate decisions is a small adjustment that pays off over a full marathon distance."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "label": "Fueling Your Run With Good Nutrition",
+      "publisher": "Mayo Clinic Health System",
+      "url": "https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/fueling-your-run-with-good-nutrition",
+      "type": "other"
+    },
+    {
+      "n": 2,
+      "label": "ISSN Position Stand: Nutrient Timing",
+      "publisher": "International Society of Sports Nutrition (PMC)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2575187/",
+      "type": "other"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How many carbohydrates should I eat per hour during a marathon?",
+      "answer": "Sports nutrition guidance from Mayo Clinic Health System and the International Society of Sports Nutrition both point to roughly 30-60 grams of carbohydrate per hour for efforts lasting more than 90 minutes. A standard energy gel carries about 20-25g, so one gel every 30-40 minutes lands comfortably inside that range for most runners."
+    },
+    {
+      "question": "When should I start eating during a long run or race?",
+      "answer": "Around 30-45 minutes in, before glycogen depletion has actually set in -- waiting until you feel the early signs of bonking means fuel arrives after the deficit has started and takes further time to digest. Starting early and repeating on a schedule works better than waiting until you feel like you need it."
+    },
+    {
+      "question": "Should I test my race-day fueling plan before the actual race?",
+      "answer": "Yes -- both the specific product and the timing interval should be rehearsed on long training runs, since gut tolerance for a given gel or drink varies enormously between runners and only shows up under real duration and effort. Race day is the wrong place to discover that a product or timing doesn't agree with you."
+    }
+  ],
+  "editorial_notes": "Original editorial content for the Articles section. Cited claims verified against live source URLs at time of writing.",
+  "published_at": "2026-08-11T02:05:00.000Z",
+  "last_updated": "2026-08-11",
+  "status": "active"
+}

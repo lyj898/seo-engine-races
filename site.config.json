@@ -85,7 +85,8 @@
     "faqSchema": true,
     "itemListSchema": true,
     "affiliateLinks": true,
-    "gear": true
+    "gear": true,
+    "articles": true
   },
 
   "contactEmail": "hello@runsea.run",

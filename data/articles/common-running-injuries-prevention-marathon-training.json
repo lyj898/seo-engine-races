@@ -1,0 +1,66 @@
+{
+  "article_id": "common-running-injuries-prevention-marathon-training",
+  "slug": "common-running-injuries-prevention-marathon-training",
+  "title": "Common Running Injuries During Marathon Training, and How to Actually Prevent Them",
+  "seo_title": "Marathon Training Injuries: Causes and Prevention Guide",
+  "meta_description": "Running injuries are common, but the mechanism behind most of them is the same and largely preventable. What the research says about injury risk and how to train around it.",
+  "topic": "Training & Racing",
+  "dek": "Running injuries are common enough that most marathon training plans mention them, but rarely explain why. The mechanism behind the majority of them is the same, and it's largely a training-load problem, not a bad-luck one.",
+  "sections": [
+    {
+      "heading": "How Common Running Injuries Actually Are",
+      "paragraphs": [
+        "A widely-cited systematic review published in the British Journal of Sports Medicine looked across multiple studies and found lower-extremity running injury incidence ranging from 19.4% to 79.3%, depending heavily on how each study defined and tracked injury[1]. That's a wide range specifically because injury definitions vary a lot between studies -- some count anything that alters training, others only count injuries serious enough to require medical care -- but even at the low end, running injury is common enough that most marathon training blocks will encounter it in some form, for the runner or someone training alongside them.",
+        "The wide range is also a useful reminder that 'injury' during marathon training exists on a spectrum -- from a nagging ache that responds to a few easy days, to something that ends a training block entirely. Most fall much closer to the manageable end if caught early."
+      ]
+    },
+    {
+      "heading": "The Mechanism Behind Most of Them: Too Much, Too Soon",
+      "paragraphs": [
+        "The same research links running injury risk to increases in training distance and load, which is the basis for the common 'too much, too soon' framing -- tissue (tendons, ligaments, bone) adapts to training stress more slowly than cardiovascular fitness does, so a training plan that ramps mileage faster than tissue can adapt creates injury risk even while fitness is visibly improving week to week.",
+        "This is why a runner can feel stronger and faster in the weeks right before an injury shows up -- the cardiovascular and muscular systems were keeping pace with the increased load, but a tendon or bone stress point wasn't, and the mismatch only becomes visible once it fails."
+      ]
+    },
+    {
+      "heading": "The Most Common Injury Sites and Why",
+      "paragraphs": [
+        "Runner's knee, shin splints, Achilles tendon irritation, and plantar fasciitis are the injuries that show up most often across marathon training blocks, and all four share the same underlying pattern: repetitive load on a specific structure that hasn't been given enough time to adapt to a new volume or intensity. A sudden jump in weekly mileage, a new pair of shoes with a different drop or cushioning, or adding speed work too aggressively are the three most common triggers.",
+        "Humid heat adds an indirect risk factor specific to this region: fatigue accumulates faster in heat, which can subtly change running form (shorter stride, altered footstrike) in the later stages of a long run -- and altered form under fatigue is when a lot of overuse injuries actually originate, even though the heat itself isn't the direct cause."
+      ]
+    },
+    {
+      "heading": "Building a Training Plan That Protects Against It",
+      "paragraphs": [
+        "The most reliable protection is a conservative, gradual mileage ramp -- increasing weekly volume by roughly 10% or less week to week, with a lighter 'down week' scheduled every third or fourth week to let tissue catch up with the cardiovascular fitness gains. This single habit addresses the exact mismatch the research points to as the core injury mechanism.",
+        "Beyond mileage progression, treating the first sign of a nagging ache as information rather than something to run through is the second biggest lever: two or three easy or rest days at the first hint of a specific, localized pain (as opposed to normal, symmetric training soreness) very often prevents a minor irritation from becoming a training-block-ending injury."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "label": "Incidence and determinants of lower extremity running injuries in long distance runners: a systematic review",
+      "publisher": "British Journal of Sports Medicine (PubMed)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17473005/",
+      "type": "other"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How common are running injuries during marathon training?",
+      "answer": "A systematic review in the British Journal of Sports Medicine found lower-extremity running injury incidence ranging from 19.4% to 79.3% across studies, depending on how each study defined injury. Even at the low end, injury of some kind is common enough that most marathon training blocks encounter it."
+    },
+    {
+      "question": "What causes most running injuries during marathon training?",
+      "answer": "Research links injury risk closely to increases in training distance and load -- the 'too much, too soon' pattern, where tissue like tendons and bone adapts more slowly than cardiovascular fitness. A training plan that ramps mileage faster than tissue can adapt creates injury risk even while fitness is visibly improving."
+    },
+    {
+      "question": "How much should I increase my weekly mileage to avoid injury?",
+      "answer": "A commonly used guideline is roughly 10% or less per week, with a lighter down week scheduled every third or fourth week to let tissue catch up with cardiovascular fitness gains. This directly addresses the training-load mismatch that research identifies as the core injury mechanism."
+    }
+  ],
+  "editorial_notes": "Original editorial content for the Articles section. Cited claims verified against live source URLs at time of writing.",
+  "published_at": "2026-08-11T02:20:00.000Z",
+  "last_updated": "2026-08-11",
+  "status": "active"
+}

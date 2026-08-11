@@ -50,6 +50,9 @@ export function loadReviews() {
 export function loadGear() {
   return readJsonDir('gear');
 }
+export function loadArticles() {
+  return readJsonDir('articles');
+}
 
 /** Strips the __file debug field before handing data to a schema or a page. */
 export function stripMeta(item) {
