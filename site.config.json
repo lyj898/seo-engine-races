@@ -86,7 +86,8 @@
     "itemListSchema": true,
     "affiliateLinks": true,
     "gear": true,
-    "articles": true
+    "articles": true,
+    "travelAgencies": true
   },
 
   "contactEmail": "hello@runsea.run",

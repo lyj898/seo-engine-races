@@ -53,6 +53,9 @@ export function loadGear() {
 export function loadArticles() {
   return readJsonDir('articles');
 }
+export function loadTravelAgencies() {
+  return readJsonDir('travel-agencies');
+}
 
 /** Strips the __file debug field before handing data to a schema or a page. */
 export function stripMeta(item) {

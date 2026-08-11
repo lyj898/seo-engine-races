@@ -1,0 +1,124 @@
+---
+import siteConfig from '../../lib/config.js';
+import { urls } from '../../lib/urls.js';
+import { loadTravelAgencies, stripMeta, isPublished } from '../../lib/data.js';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import { buildBreadcrumbListSchema } from '../../lib/schema-jsonld.js';
+
+// Local, page-scoped kebab-case slug for country anchor ids -- same pattern
+// as gear/index.astro and articles/index.astro's topic anchors, just keyed
+// on `country` instead of `topic`.
+const slugifyCountry = (country) =>
+  country
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+
+const agencies = loadTravelAgencies()
+  .map(stripMeta)
+  .filter(isPublished)
+  .sort((a, b) => a.name.localeCompare(b.name));
+
+// Grouped by country so the directory reads as "who's certified where"
+// rather than one flat list -- mirrors the Gear/Articles topic-grouping
+// pattern. Countries are ordered by how site.config.json lists them
+// (regionsSupported), with any country not in that list falling back to
+// alphabetical at the end, so the section order stays stable and doesn't
+// depend on data insertion order.
+const countryOrder = siteConfig.regionsSupported ?? [];
+const agenciesByCountry = new Map();
+for (const agency of agencies) {
+  if (!agenciesByCountry.has(agency.country)) {
+    agenciesByCountry.set(agency.country, []);
+  }
+  agenciesByCountry.get(agency.country).push(agency);
+}
+const presentCountries = [...agenciesByCountry.keys()];
+const orderedCountries = [
+  ...countryOrder.filter((c) => agenciesByCountry.has(c)),
+  ...presentCountries.filter((c) => !countryOrder.includes(c)).sort(),
+];
+const sections = orderedCountries.map((country) => ({ country, agencies: agenciesByCountry.get(country) }));
+
+const breadcrumbItems = [
+  { label: siteConfig.siteName, href: urls.home() },
+  { label: 'Travel' },
+];
+
+const jsonLd = [buildBreadcrumbListSchema(breadcrumbItems, Astro.site)].filter(Boolean);
+---
+
+<BaseLayout
+  title="Travel -- Certified Marathon Tour Operators in Southeast Asia"
+  description="Southeast Asia-based travel agencies that major marathons (Boston, London, Berlin, and others) have themselves listed as official tour operators -- with a link to the proof for each one."
+  canonicalPath={urls.travelIndex()}
+  jsonLd={jsonLd}
+>
+  <div class="mx-auto max-w-3xl px-4 py-10 sm:px-6">
+    <Breadcrumb items={breadcrumbItems} />
+    <h1 class="mt-4 font-serif text-3xl font-semibold sm:text-4xl">Travel</h1>
+    <p class="mt-3 max-w-2xl text-brand-muted dark:text-brand-muted-dark">
+      Guaranteed entry to a major marathon like Boston, London, or Berlin usually runs through an official tour
+      operator, not the general public lottery. These are Southeast Asia-based agencies that the races themselves
+      -- not just the agencies -- list as certified partners. Every listing links directly to where we verified it.
+    </p>
+    <p class="mt-3 max-w-2xl rounded-lg border border-brand-border bg-brand-surface-offset p-3 text-xs text-brand-muted dark:border-brand-border-dark dark:bg-brand-surface-offset-dark dark:text-brand-muted-dark">
+      This is an informational directory, not an affiliate listing -- we don't currently have referral
+      relationships with any agency below, and a listing here isn't a booking recommendation. Verify current
+      details directly with the agency before paying for a package.
+    </p>
+
+    {sections.length > 1 && (
+      <nav aria-label="Jump to a country" class="mt-6 flex flex-wrap gap-2">
+        {sections.map(({ country }) => (
+          <a
+            href={`#${slugifyCountry(country)}`}
+            class="rounded-full border border-brand-border px-3 py-1 text-sm text-brand-muted transition-colors duration-200 ease-interactive hover:border-brand-primary hover:text-brand-text dark:border-brand-border-dark dark:text-brand-muted-dark dark:hover:text-brand-text-dark"
+          >
+            {country}
+          </a>
+        ))}
+      </nav>
+    )}
+
+    {sections.map(({ country, agencies: countryAgencies }) => (
+      <section id={slugifyCountry(country)} class="mt-10 scroll-mt-20">
+        <h2 class="text-xl font-semibold">{country}</h2>
+        <div class="mt-4 space-y-4">
+          {countryAgencies.map((agency) => (
+            <div class="rounded-lg border border-brand-border bg-brand-surface p-5 shadow-sm dark:border-brand-border-dark dark:bg-brand-surface-dark">
+              <div class="flex flex-wrap items-baseline justify-between gap-2">
+                <h3 class="font-semibold">{agency.name}</h3>
+                <a href={agency.website} rel="nofollow noopener" target="_blank" class="link-accent text-sm">
+                  Visit website ↗
+                </a>
+              </div>
+              <p class="mt-2 text-sm text-brand-muted dark:text-brand-muted-dark">{agency.description}</p>
+              <div class="mt-3">
+                <p class="text-xs font-semibold uppercase tracking-wide text-brand-muted dark:text-brand-muted-dark">
+                  Certified for
+                </p>
+                <ul class="mt-2 space-y-1.5">
+                  {agency.certifications.map((cert) => (
+                    <li class="text-sm">
+                      <span class="font-medium">{cert.race_name}</span>
+                      <span class="text-brand-muted dark:text-brand-muted-dark"> -- {cert.evidence} </span>
+                      <a href={cert.source_url} rel="nofollow noopener" target="_blank" class="link-accent text-xs">
+                        (verify)
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+    ))}
+
+    {agencies.length === 0 && (
+      <p class="mt-8 text-brand-muted dark:text-brand-muted-dark">No certified travel agencies listed yet -- check back soon.</p>
+    )}
+  </div>
+</BaseLayout>

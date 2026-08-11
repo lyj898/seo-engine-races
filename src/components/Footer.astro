@@ -23,6 +23,9 @@ const year = new Date().getFullYear();
         {siteConfig.enabledFeatures?.articles && (
           <li><a href={urls.articlesIndex()} class="link-muted">Articles</a></li>
         )}
+        {siteConfig.enabledFeatures?.travelAgencies && (
+          <li><a href={urls.travelIndex()} class="link-muted">Travel</a></li>
+        )}
         <li><a href={urls.toolsIndex()} class="link-muted">Lab</a></li>
       </ul>
     </div>

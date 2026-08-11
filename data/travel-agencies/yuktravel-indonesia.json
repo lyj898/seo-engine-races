@@ -1,0 +1,19 @@
+{
+  "agency_id": "yuktravel-indonesia",
+  "slug": "yuktravel-indonesia",
+  "name": "Yuktravel",
+  "country": "Indonesia",
+  "website": "https://www.yuktravel.com/",
+  "description": "An Indonesian travel agency running a dedicated \"Yuktravel Active\" sports-travel arm, an official International Tour Operator for the Gold Coast Marathon for over a decade and a stated supporter of Abbott World Marathon Majors travel including Sydney, Chicago, and New York.",
+  "certifications": [
+    {
+      "race_name": "TCS London Marathon",
+      "evidence": "Listed as \"Yuk Travel\" under Indonesia on London Marathon Events' own official tour operators page.",
+      "source_label": "London Marathon Events -- International Participants",
+      "source_url": "https://www.londonmarathonevents.co.uk/london-marathon/international-participants"
+    }
+  ],
+  "editorial_notes": "Verified directly against London Marathon Events' own official tour-operator listing (as \"Yuk Travel\") on 2026-08-11. The agency's own site additionally describes a decade-long official ITO relationship with the Gold Coast Marathon and support for Sydney/Chicago/New York Abbott World Marathon Majors travel, which we have not independently verified against each of those races' own organizer pages.",
+  "last_updated": "2026-08-11",
+  "status": "active"
+}

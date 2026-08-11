@@ -1,0 +1,19 @@
+{
+  "agency_id": "cerita-lari-indonesia",
+  "slug": "cerita-lari-indonesia",
+  "name": "Cerita Lari",
+  "country": "Indonesia",
+  "website": "https://ceritalari.com/",
+  "description": "An Indonesian marathon-tour specialist, founded in 2017, describing itself as the official travel partner for four World Marathon Majors (Tokyo, London, Berlin, and New York) and recently appointed an official International Travel Agency for the TCS Sydney Marathon.",
+  "certifications": [
+    {
+      "race_name": "TCS London Marathon",
+      "evidence": "Listed as \"Cerita Lari\" under Indonesia on London Marathon Events' own official tour operators page.",
+      "source_label": "London Marathon Events -- International Participants",
+      "source_url": "https://www.londonmarathonevents.co.uk/london-marathon/international-participants"
+    }
+  ],
+  "editorial_notes": "Verified directly against London Marathon Events' own official tour-operator listing on 2026-08-11. The agency's own site additionally claims official partner status for Tokyo, Berlin, and New York, which we have not independently verified against each of those races' own organizer pages.",
+  "last_updated": "2026-08-11",
+  "status": "active"
+}

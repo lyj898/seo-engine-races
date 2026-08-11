@@ -1,0 +1,19 @@
+{
+  "agency_id": "ars-dream-corporation-philippines",
+  "slug": "ars-dream-corporation-philippines",
+  "name": "ARS Dream Corporation",
+  "country": "Philippines",
+  "website": "https://www.arsdreamph.com/",
+  "description": "A Manila-based travel agency (a division of ARS Dream Co. Ltd., a subsidiary of Japan's Kamome Tours Corporation) that has specialized in marathon travel for Filipino runners since 2016, and describes itself as the only International Travel Partner in the Philippines for the World Marathon Majors.",
+  "certifications": [
+    {
+      "race_name": "TCS London Marathon",
+      "evidence": "Listed as \"ARS Dream Corporation\" under Philippines on London Marathon Events' own official tour operators page.",
+      "source_label": "London Marathon Events -- International Participants",
+      "source_url": "https://www.londonmarathonevents.co.uk/london-marathon/international-participants"
+    }
+  ],
+  "editorial_notes": "Verified directly against London Marathon Events' own official tour-operator listing on 2026-08-11. The agency's own site additionally claims sole-ITP status in the Philippines across the full World Marathon Majors, which we have not independently verified against every individual race's own organizer page.",
+  "last_updated": "2026-08-11",
+  "status": "active"
+}

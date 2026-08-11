@@ -1,0 +1,25 @@
+{
+  "agency_id": "athletes-journey-singapore",
+  "slug": "athletes-journey-singapore",
+  "name": "Athletes' Journey",
+  "country": "Singapore",
+  "website": "https://www.athletesjourney.sg/",
+  "description": "A Singapore-based marathon tour operator (Athletes' Journey Pte Ltd / LLP) organizing race-and-travel packages to World Marathon Majors and other major international races, serving runners across Singapore, Malaysia, Thailand, Indonesia, and the Philippines.",
+  "certifications": [
+    {
+      "race_name": "Boston Marathon",
+      "evidence": "Listed as \"Athletes' Journey LLP -- Singapore\" under the Asia section of the Boston Athletic Association's own International Tour Operators page.",
+      "source_label": "Boston Athletic Association -- International Tour Operators",
+      "source_url": "https://www.baa.org/races/boston-marathon/info-for-athletes-international-tour-operators/"
+    },
+    {
+      "race_name": "TCS London Marathon",
+      "evidence": "Listed as \"Athletes' Journey Pte Ltd\" under Singapore on London Marathon Events' own official tour operators page.",
+      "source_label": "London Marathon Events -- International Participants",
+      "source_url": "https://www.londonmarathonevents.co.uk/london-marathon/international-participants"
+    }
+  ],
+  "editorial_notes": "Verified directly against the Boston Athletic Association's and London Marathon Events' own official tour-operator listings on 2026-08-11.",
+  "last_updated": "2026-08-11",
+  "status": "active"
+}

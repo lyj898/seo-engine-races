@@ -55,6 +55,7 @@ export const urls = {
   gear: (slug) => withBase(`/gear/${slug}/`),
   articlesIndex: () => withBase('/articles/'),
   article: (slug) => withBase(`/articles/${slug}/`),
+  travelIndex: () => withBase('/travel/'),
   toolsIndex: () => withBase('/tools/'),
   tool: (slug) => withBase(`/tools/${slug}/`),
   about: () => withBase('/about/'),
