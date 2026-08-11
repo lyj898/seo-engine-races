@@ -31,9 +31,69 @@
   "cons": [
     "Registration status is not yet announced, so sign-up details are unavailable"
   ],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "sentiment_scores": {
+    "overall": 62,
+    "breakdown": [
+      {
+        "label": "Course & Local Atmosphere",
+        "score": 78
+      },
+      {
+        "label": "Race-Day Organization/Aid Stations",
+        "score": 48
+      },
+      {
+        "label": "Weather/Conditions",
+        "score": 50
+      },
+      {
+        "label": "Finisher Swag (medal/tee)",
+        "score": 72
+      }
+    ]
+  },
+  "excerpt_quotes": [
+    {
+      "quote": "There has, rightly, been much made of the disaster that was supposed to be the water supply, many of the water stations had problems with water and isotonic supplies.",
+      "attribution": "Runner race report, 'Race Review Kuching Marathon' (2016 edition)",
+      "source_url": "https://runningonoldlegs.wixsite.com/2016-to-the-box/single-post/2016/08/18/race-review-kuching-marathon"
+    },
+    {
+      "quote": "It started with everything smooth but when come to 21km, it started to rain, there's rain water everywhere on the road.",
+      "attribution": "Runner review on World's Marathons",
+      "source_url": "https://worldsmarathons.com/marathon/kuching-marathon"
+    },
+    {
+      "quote": "The route is quite flat but you get to enjoy views such as Malay villages, Historical buildings along the way and fresh air too.",
+      "attribution": "Runner review on World's Marathons",
+      "source_url": "https://worldsmarathons.com/marathon/kuching-marathon"
+    },
+    {
+      "quote": "Love the medal very much as it's cute and the finisher tee is very nice as well",
+      "attribution": "Lingderella, race review on JustRunLah! (2019 half marathon)",
+      "source_url": "https://www.justrunlah.com/2019/08/22/review-kuching-marathon-2019-by-lingderella/"
+    },
+    {
+      "quote": "You can see that no other marathon event in Borneo has managed to attract up to 14,000 participants as we did last year",
+      "attribution": "Sarawak Minister of Tourism, quoted in DayakDaily press conference coverage",
+      "source_url": "https://dayakdaily.com/kuching-marathon-2026-builds-momentum-with-8000-sign-ups-aims-for-record-participation/"
+    }
+  ],
+  "research_highlights": [
+    "Course is described by runners as generally flat, running through Malay kampung villages, historical/colonial-era buildings, and along Kuching's Waterfront, passing landmarks like the Fort, Astana, cat statues and the DUN building.",
+    "Race starts and finishes at Padang Merdeka in the heart of Kuching city.",
+    "It is AIMS (Association of International Marathons and Distance Races) certified and is described as the first road race in Sarawak to receive international certification, and organizers call it the largest mass-participation marathon in Borneo (around 14,000 participants in the 2025 edition).",
+    "Distances offered are 5km, 10km, half marathon (21km) and full marathon (42.195km).",
+    "Local community support along the course includes villagers turning out with traditional kompang drumming to cheer runners on."
+  ],
+  "research_watchouts": [
+    "A past edition (2016) had significant water-station failures, with a runner reporting problems with water and isotonic supply at multiple stations along the course.",
+    "At least one edition brought sudden heavy rain and wind starting around the halfway point, leaving standing rainwater on the road that runners found challenging.",
+    "One runner reported gastrointestinal issues during the race and noted that DNS (did not start) and DNF (did not finish) were common that year, suggesting the course/conditions can be tough on some participants.",
+    "Kuching's tropical climate means heat/humidity should be planned for even with an early race start."
+  ],
+  "research_confidence": "medium",
+  "research_last_updated": "2026-08-11",
   "faqs": [
     {
       "question": "When is the Kuching Marathon 2026 taking place?",
@@ -52,7 +112,7 @@
       "answer": "The Kuching Marathon 2026 is organized by the Kuching Marathon Association, based in Kuching, Sarawak, Malaysia. The association oversees the event, which takes place at Padang Merdeka and includes full marathon, half marathon, 10km, and 5km distance options for participants."
     }
   ],
-  "reliability_score": 97,
+  "reliability_score": 100,
   "tags": [
     "full-marathon",
     "malaysia",
@@ -63,7 +123,7 @@
       "url": "https://marathonkuching.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-09"
+      "last_checked": "2026-08-11"
     },
     {
       "url": "https://aims-worldrunning.org/calendar.html",
@@ -93,6 +153,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-09",
+  "last_updated": "2026-08-11",
   "status": "needs_review"
 }

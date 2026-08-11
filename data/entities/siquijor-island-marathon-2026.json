@@ -29,8 +29,19 @@
     "Registration status is not yet announced, so sign-up details are unavailable"
   ],
   "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "research_highlights": [
+    "This is the inaugural edition of the Siquijor Island Marathon, described by organizers as part of a 'Run for Community & Education' initiative with no prior editions to draw participant history from.",
+    "Distances offered are 5K, 10K, 21K, and 42K.",
+    "Promotional material describes the course finishing near Cambugahay Falls, a waterfall spot on the island, positioned as a post-race cool-off attraction.",
+    "Race proceeds are directed toward supporting Siquijor's public school students with learning materials and classroom supplies, per the organizers.",
+    "Siquijor also hosts a separate, longer-running event on the island (Isla Del Fuego Marathon, held in early September in past years), so prospective travelers should confirm which specific race and date they are registering for, as listings for the Siquijor Island Marathon itself show some date inconsistencies (late June, and September 24-26 variously reported)."
+  ],
+  "research_watchouts": [
+    "As a first-time/inaugural event, there are no participant race reports, reviews, or running-community discussions available yet to verify course conditions, organization quality, heat management, or crowd support.",
+    "Listed event dates for this race vary across sources (June 6, September 24, and September 25, 2026 have all appeared in different listings), so registrants should verify the exact date directly with organizers before booking travel."
+  ],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-11",
   "faqs": [
     {
       "question": "When is the Siquijor Island Marathon 2026?",
@@ -49,7 +60,7 @@
       "answer": "The Siquijor Island Marathon 2026 takes place on the island of Siquijor, located in the Philippines. The event's venue and city are both listed simply as Siquijor, making it a location-specific race for those looking to experience running on this particular Philippine island."
     }
   ],
-  "reliability_score": 30,
+  "reliability_score": 25,
   "tags": [
     "full-marathon",
     "philippines"
@@ -59,12 +70,12 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-08-09"
+      "last_checked": "2026-08-11"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-08-09",
+  "last_updated": "2026-08-11",
   "status": "active"
 }

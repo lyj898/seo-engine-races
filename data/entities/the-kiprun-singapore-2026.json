@@ -49,7 +49,7 @@
       "answer": "The Kiprun Singapore 2026 is organized by MetaSport, presented by Decathlon Singapore. This partnership brings together event management expertise and a well-known sporting goods retailer to deliver the race, which includes multiple distances held at the Decathlon Singapore Lab in Kallang."
     }
   ],
-  "reliability_score": 65,
+  "reliability_score": 68,
   "tags": [
     "half-marathon",
     "singapore"
@@ -59,7 +59,7 @@
       "url": "https://www.justrunlah.com/race/the-kiprun-singapore-2026/",
       "label": "justrunlah.com",
       "type": "aggregator",
-      "last_checked": "2026-08-09"
+      "last_checked": "2026-08-11"
     },
     {
       "url": "https://in.metasport-events.com/the-kiprun-singapore-2026",
@@ -77,6 +77,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-09",
+  "last_updated": "2026-08-11",
   "status": "needs_review"
 }

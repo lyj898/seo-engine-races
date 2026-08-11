@@ -27,9 +27,31 @@
     "Price range offers flexibility depending on distance and budget"
   ],
   "cons": [],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "excerpt_quotes": [
+    {
+      "quote": "Karena kami harus jadi contoh pertama bagi pasien untuk punya pola hidup sehat",
+      "attribution": "Dr Rosyad Khadafi, SpOT (2nd place doctor category, HM), quoted in Jawa Pos coverage of SOHM 2025",
+      "source_url": "https://www.jawapos.com/sports/016292828/2990-pelari-ikuti-surabaya-orthopedic-half-marathon-2025-peserta-ada-penyintas-ortopedi-dan-lanjut-usia"
+    },
+    {
+      "quote": "Pemilihan rute di Pakuwon City yang mayoritas datar, jadi ajang seru kebut-kebutan untuk memperoleh personal best para runner.",
+      "attribution": "Race listing/review on Kalender Lari Indonesia",
+      "source_url": "https://kalenderlari.com/events/surabaya-orthopedic-half-marathon-sohm-2026/"
+    }
+  ],
+  "research_highlights": [
+    "The 2025 edition drew about 2,990 runners, including 30 participants who were orthopedic-surgery survivors, at Caribbean Grande Pakuwon City, Surabaya.",
+    "The course at Pakuwon City is described by a race calendar site as mostly flat, making it a popular spot for chasing personal bests.",
+    "In the run-up to the 2025 race, organizer PABOI held three consecutive days of 'health talk' sessions on safe, ergonomic running before race day.",
+    "The event has distinct categories beyond standard age-groups: a 10K category specifically for survivors of lower-limb bone/joint surgery, and a doctors-only competitive category within the Half Marathon.",
+    "Race pack pickup in the 2025 edition was held on the Friday and Saturday before race day (10:00–20:00 WIB), and baggage drop-off on race morning opened at 04:00 and closed at 09:30 WIB."
+  ],
+  "research_watchouts": [
+    "Organizers explicitly state they do not accept liability for valuables left at the participant baggage check, and any loss is the participant's own responsibility.",
+    "Bib numbers cannot be transferred or resold to another runner; doing so can result in disqualification."
+  ],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-11",
   "faqs": [
     {
       "question": "When is the Surabaya Orthopedic Half Marathon (SOHM) 2026?",
@@ -48,7 +70,7 @@
       "answer": "Registration prices for SOHM 2026 range from Rp 137.500 to Rp 450.000, depending on the distance category and registration package selected. Registration is currently open, so interested runners can sign up now within this stated price range for their preferred race distance."
     }
   ],
-  "reliability_score": 91,
+  "reliability_score": 94,
   "tags": [
     "half-marathon",
     "indonesia",
@@ -59,7 +81,7 @@
       "url": "https://www.orthopedicrun.id",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-09"
+      "last_checked": "2026-08-11"
     },
     {
       "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
@@ -83,6 +105,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-09",
+  "last_updated": "2026-08-11",
   "status": "needs_review"
 }

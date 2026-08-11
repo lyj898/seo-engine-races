@@ -59,7 +59,7 @@
       "answer": "The race takes place at Wat La Harn Rai, located in Ban Khai, Rayong, Thailand. This temple venue serves as the host site for the event, which is in Ban Khai, Rayong, and is now reaching its 5th edition in 2026."
     }
   ],
-  "reliability_score": 74,
+  "reliability_score": 77,
   "tags": [
     "half-marathon",
     "thailand"
@@ -69,7 +69,7 @@
       "url": "https://aims-worldrunning.org/calendar.html",
       "label": "aims-worldrunning.org",
       "type": "aggregator",
-      "last_checked": "2026-08-09"
+      "last_checked": "2026-08-11"
     },
     {
       "url": "https://RUNLAH",
@@ -87,6 +87,6 @@
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-08-09",
+  "last_updated": "2026-08-11",
   "status": "active"
 }

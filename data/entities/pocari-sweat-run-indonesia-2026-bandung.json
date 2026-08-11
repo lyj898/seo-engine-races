@@ -47,7 +47,7 @@
       "answer": "The race takes place in Bandung, Indonesia, though the exact venue within the city has not been specified in the available information. Runners interested in participating should watch for further venue details as the September 19, 2026 event date approaches."
     }
   ],
-  "reliability_score": 45,
+  "reliability_score": 40,
   "tags": [
     "half-marathon",
     "indonesia"
@@ -57,7 +57,7 @@
       "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
       "label": "kalenderlari.com",
       "type": "aggregator",
-      "last_checked": "2026-08-09"
+      "last_checked": "2026-08-11"
     },
     {
       "url": "https://kalenderlari.com/events/pocari-sweat-run-indonesia-2026---bandung/",
@@ -75,6 +75,6 @@
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-08-09",
+  "last_updated": "2026-08-11",
   "status": "active"
 }

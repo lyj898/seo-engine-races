@@ -30,8 +30,16 @@
     "Price increases after the early bird period ends on 31 May 2026"
   ],
   "excerpt_quotes": [],
-  "research_highlights": [],
+  "research_highlights": [
+    "The 2026 edition is the 4th edition of the Jitra Half Marathon, organized by BDB Leisure Sdn. Bhd. (a subsidiary of Bina Darulaman Berhad), with the 2024 edition cancelled due to major flooding in Kedah state.",
+    "Race is held at Darulaman Park, Jitra, Kedah, with three main categories: 21km, 10km, and 5km, and the 2026 organizers are targeting 2,200 total participants including international entrants.",
+    "In the most recent edition held (2 December 2023), flag-off for the 21km and 10km categories started very early at 3:30am, with the 5km Fun Run starting later at 7:30am, and the event window ran from 3:30am to 10:30am.",
+    "The 2023 edition drew 610 finishers in the 21km category and 222 in the 10km category, out of about 1,600 total participants across all categories, with total cash prizes of RM13,000.",
+    "The 21km course has been mapped as roughly 21.4km, routed near Bandar Darul Aman around Darulaman Park."
+  ],
   "research_watchouts": [],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-11",
   "faqs": [
     {
       "question": "Where is the race held?",
@@ -50,7 +58,7 @@
       "answer": "Yes, registration for the Jitra Half Marathon 2026 is currently open. Runners can sign up for the 21.1km, 10km, or 5km distances now, with early bird pricing available until 31 May 2026 before rates increase."
     }
   ],
-  "reliability_score": 88,
+  "reliability_score": 91,
   "tags": [
     "half-marathon",
     "malaysia",
@@ -61,7 +69,7 @@
       "url": "https://bdb.com.my/jitra-half-marathon-kembali-september-tahun-ini",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-09"
+      "last_checked": "2026-08-11"
     },
     {
       "url": "https://checkpointspot.asia/events",
@@ -79,6 +87,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-09",
+  "last_updated": "2026-08-11",
   "status": "needs_review"
 }

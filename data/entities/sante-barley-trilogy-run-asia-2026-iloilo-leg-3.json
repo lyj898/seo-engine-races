@@ -56,7 +56,7 @@
       "answer": "Yes, registration for the Sante Barley Trilogy Run Asia 2026 – Iloilo Leg 3 is currently open. Interested participants can sign up for one of the available distance categories ahead of the event date on August 23, 2026."
     }
   ],
-  "reliability_score": 89,
+  "reliability_score": 92,
   "tags": [
     "half-marathon",
     "philippines",
@@ -67,7 +67,7 @@
       "url": "https://runrio.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-09"
+      "last_checked": "2026-08-11"
     },
     {
       "url": "https://runrio.com/race-calendar",
@@ -85,6 +85,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-09",
+  "last_updated": "2026-08-11",
   "status": "needs_review"
 }

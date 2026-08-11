@@ -29,9 +29,31 @@
   "cons": [
     "Registration status is not yet announced, so sign-up details are unavailable"
   ],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "excerpt_quotes": [
+    {
+      "quote": "They served chicken, piaya, some fruits and candies at the turn around point but I would love it more if they have ice-cold water and energy drink along the route.",
+      "attribution": "Runner (Que Sullano-Gavan) race recap on Takbo.ph, Masskara Half Marathon",
+      "source_url": "http://www.takbo.ph/2018/10/masskara-half-marathon-2018-race-recap/"
+    },
+    {
+      "quote": "It was so hot but I had a great time running.",
+      "attribution": "Runner (Que Sullano-Gavan) race recap on Takbo.ph, Masskara Half Marathon",
+      "source_url": "http://www.takbo.ph/2018/10/masskara-half-marathon-2018-race-recap/"
+    }
+  ],
+  "research_highlights": [
+    "Masskara Marathon 2026 offers four distances: 42KM Full Marathon, 21KM Half Marathon, 10KM, and 5KM, starting/organized around the New Government Center in Bacolod.",
+    "The race is timed to coincide with Bacolod's MassKara Festival season, giving it a festival-like atmosphere with color and community energy.",
+    "Race is organized annually by SMOKE10 Events Management, with past editions (2023, 2024) also held in late September/early October at the Bacolod City Government Center.",
+    "On-site registration in past editions has been available at stores like Toby's Sports (SM City Bacolod) and Adidas outlets, alongside online registration.",
+    "A runner recap from an earlier Masskara Half Marathon edition described the race as very hot, indicating warm race-day conditions typical for Bacolod in this season."
+  ],
+  "research_watchouts": [
+    "One participant reported that hydration along the course was limited to fruits, candies and food at the turnaround point, wishing for ice-cold water and energy drinks along the route rather than just at aid stops.",
+    "A runner explicitly noted the heat during the race, suggesting participants should prepare for hot conditions typical of a Bacolod-area race."
+  ],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-11",
   "faqs": [
     {
       "question": "When is the Masskara Marathon 2026?",
@@ -50,7 +72,7 @@
       "answer": "The Masskara Marathon 2026 offers four distance options for participants: a full marathon of 42.195 km, a half marathon of 21.1 km, a 10 km race, and a 5 km race, allowing runners of varying experience levels to take part."
     }
   ],
-  "reliability_score": 30,
+  "reliability_score": 25,
   "tags": [
     "full-marathon",
     "philippines"
@@ -60,12 +82,12 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-08-09"
+      "last_checked": "2026-08-11"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-08-09",
+  "last_updated": "2026-08-11",
   "status": "active"
 }

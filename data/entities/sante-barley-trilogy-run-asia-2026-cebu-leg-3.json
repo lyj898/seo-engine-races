@@ -30,9 +30,23 @@
     "Registration status is not yet announced, so sign-up details are unavailable",
     "No pricing, cut-off times, or route information provided in available source material"
   ],
-  "excerpt_quotes": [],
-  "research_highlights": [],
+  "excerpt_quotes": [
+    {
+      "quote": "Unique sa atin yung Afroman kasi for runners, when you reach 32K yun yung tinatawag natin na 'the wall.'",
+      "attribution": "RUNRIO president Rio de la Cruz, quoted in Philstar.com",
+      "source_url": "https://www.philstar.com/campus/sports/2026/01/21/2502489/sante-barley-trilogy-run-asia-bares-optimism-2026-races"
+    }
+  ],
+  "research_highlights": [
+    "Cebu Leg 3 (Sept 13, 2026) offers 5K, 10K, 21K and 32K distances, with the 32K required to complete the official Trilogy progression that qualifies runners for the National Finals marathon category.",
+    "The 32K distance in Leg 3 is branded the 'Afroman' distance, described by organizers as the point where runners hit 'the wall' before the final push toward marathon distance.",
+    "The event is organized by RUNRIO in partnership with Santé International as part of a five-city nationwide series (Manila, Cebu, Davao, Iloilo, Cagayan de Oro) culminating in a National Finals at SM Mall of Asia on November 8, 2026.",
+    "Registration fees vary by early vs. late registration periods, and Race Roster registration includes additional processing, web, and delivery charges on top of published fees.",
+    "Runners can mix-and-match legs across different host cities to complete the Trilogy progression, though bundle registration discounts are restricted to a single city."
+  ],
   "research_watchouts": [],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-11",
   "faqs": [
     {
       "question": "When is the Sante Barley Trilogy Run Asia 2026 – Cebu Leg 3 taking place?",
@@ -62,7 +76,7 @@
       "url": "https://runrio.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-09"
+      "last_checked": "2026-08-11"
     },
     {
       "url": "https://runrio.com/race-calendar",
@@ -80,6 +94,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-09",
+  "last_updated": "2026-08-11",
   "status": "active"
 }

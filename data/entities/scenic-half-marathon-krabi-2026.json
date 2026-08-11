@@ -24,9 +24,59 @@
     "Located in a well-known Thailand destination"
   ],
   "cons": [],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "sentiment_scores": {
+    "overall": 70,
+    "breakdown": [
+      {
+        "label": "Scenery / course beauty",
+        "score": 90
+      },
+      {
+        "label": "Organization",
+        "score": 80
+      },
+      {
+        "label": "Heat/weather conditions",
+        "score": 40
+      }
+    ]
+  },
+  "excerpt_quotes": [
+    {
+      "quote": "A very well organized race with option to run 3, 5, 10 or 21K.",
+      "attribution": "Runner race report, Runwaytoadventures blog (2024 edition)",
+      "source_url": "https://runwaytoadventures.com/2024/09/15/krabi-scenic-runs/"
+    },
+    {
+      "quote": "With over 80% humidity and the heath near to 30 degrees it is difficult to run if you are not used to it.",
+      "attribution": "Runner race report, Runwaytoadventures blog (2024 edition)",
+      "source_url": "https://runwaytoadventures.com/2024/09/15/krabi-scenic-runs/"
+    },
+    {
+      "quote": "It was crazy hot. And humid. Same for everyone though.",
+      "attribution": "Runner race report, Runwaytoadventures blog (2024 edition)",
+      "source_url": "https://runwaytoadventures.com/2024/09/15/krabi-scenic-runs/"
+    },
+    {
+      "quote": "Was absolutely not feeling for eating this time but had to force myself.",
+      "attribution": "Runner race report describing pre-race nutrition before the 4:30am half marathon start, Runwaytoadventures blog",
+      "source_url": "https://runwaytoadventures.com/2024/09/15/krabi-scenic-runs/"
+    }
+  ],
+  "research_highlights": [
+    "The half marathon (21.1km) and 10km 'Road Run' start very early, around 04:30, at Krabi Provincial Stadium in Ao Nang, finishing at Noppharat Thara Beach National Park — likely to beat the heat.",
+    "A separate late-afternoon 'Beach Run' (5km/3km) is held the evening before along the coastal road at Noppharat Thara Beach.",
+    "September in Krabi means high heat and humidity; one participant described conditions as 'crazy hot' with humidity over 80% and temperatures near 30°C.",
+    "The course runs along Ao Nang's coastline with views of limestone cliffs and the Andaman Sea, and the event draws a notable international crowd (runners from the UK, Russia, and New Zealand have been reported).",
+    "The 2026 edition is being promoted as the first World Athletics Road Race Label-certified race in Southern Thailand, as part of the wider Scenic Marathon Series."
+  ],
+  "research_watchouts": [
+    "Heat and humidity are a significant challenge even with the pre-dawn start — one runner called it 'crazy hot' and said the tropical humidity made eating and pacing difficult.",
+    "Runners not acclimatized to tropical heat may need to adjust pace expectations and take walk breaks at water stations, as one participant did every two kilometers.",
+    "Very early wake-up times (start around 4:30am) require logistics planning, such as booking accommodation with race-day shuttle access."
+  ],
+  "research_confidence": "medium",
+  "research_last_updated": "2026-08-11",
   "faqs": [
     {
       "question": "When is the Scenic Half Marathon Krabi 2026 taking place?",
@@ -56,7 +106,7 @@
       "url": "https://scenicmarathon.com/event.html?event=KSMH",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-09"
+      "last_checked": "2026-08-11"
     },
     {
       "url": "https://checkpointspot.asia/events",
@@ -74,6 +124,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-09",
+  "last_updated": "2026-08-11",
   "status": "needs_review"
 }

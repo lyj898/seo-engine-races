@@ -49,7 +49,7 @@
       "answer": "Registration for the UI Half Marathon 2026 has not yet been announced. Interested participants should check back for updates regarding sign-up details, as the event organizer, ILUNI UI, has not yet released information on when registration will open for this race."
     }
   ],
-  "reliability_score": 91,
+  "reliability_score": 94,
   "tags": [
     "half-marathon",
     "indonesia",
@@ -60,7 +60,7 @@
       "url": "https://www.uihalfmarathon.id",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-09"
+      "last_checked": "2026-08-11"
     },
     {
       "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
@@ -84,6 +84,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-09",
+  "last_updated": "2026-08-11",
   "status": "needs_review"
 }

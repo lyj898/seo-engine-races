@@ -28,9 +28,69 @@
     "Located in Pattaya, a well-known Thailand destination"
   ],
   "cons": [],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "sentiment_scores": {
+    "overall": 68,
+    "breakdown": [
+      {
+        "label": "Organization & logistics",
+        "score": 80
+      },
+      {
+        "label": "Course conditions/heat",
+        "score": 45
+      },
+      {
+        "label": "Atmosphere & crowd support",
+        "score": 80
+      },
+      {
+        "label": "Course profile/PB potential",
+        "score": 40
+      }
+    ]
+  },
+  "excerpt_quotes": [
+    {
+      "quote": "32C so hot and humid! It is a small event with 400 runners. Water each 2K so very well catered given the heat.",
+      "attribution": "Runner review on TripAdvisor",
+      "source_url": "https://www.tripadvisor.com/Attraction_Review-g293919-d10020569-Reviews-Pattaya_Marathon-Pattaya_Chonburi_Province.html"
+    },
+    {
+      "quote": "Not the best route but mostly flat and crowds at the start and finish. Good food choice at the end too.",
+      "attribution": "Runner review on TripAdvisor",
+      "source_url": "https://www.tripadvisor.com/Attraction_Review-g293919-d10020569-Reviews-Pattaya_Marathon-Pattaya_Chonburi_Province.html"
+    },
+    {
+      "quote": "Unfortunately for the worst. In 90s the course was pretty much flat. Now lots of up grades and especially at end a hill of 20% grade. No PR will be made here.",
+      "attribution": "Runner review on TripAdvisor",
+      "source_url": "https://www.tripadvisor.com/Attraction_Review-g293919-d10020569-Reviews-Pattaya_Marathon-Pattaya_Chonburi_Province.html"
+    },
+    {
+      "quote": "With heat &humidity it's probably the most difficult Marathon or half marathon to run.",
+      "attribution": "Runner review on TripAdvisor",
+      "source_url": "https://www.tripadvisor.com/Attraction_Review-g293919-d10020569-Reviews-Pattaya_Marathon-Pattaya_Chonburi_Province.html"
+    },
+    {
+      "quote": "The weather was extremely hot. Even with wind from the beach, it was still very humid",
+      "attribution": "Lodkeo Inthakoumman, half-marathon winner, quoted in Laotian Times",
+      "source_url": "https://laotiantimes.com/2025/07/22/lao-runner-lodkeo-dominates-pattaya-marathon/"
+    }
+  ],
+  "research_highlights": [
+    "Race is held in July with a very early start (around 3:30 AM for the full marathon) to beat the heat, though temperatures still reach around 32°C (84°F) with 90% humidity",
+    "Course starts and finishes at Terminal 21 Pattaya, running through Jomtien Beach Road, Sukhumvit highway, and Pattaya Beach Front Road with a mix of flat and rolling terrain",
+    "One reviewer noted the full marathon has a hill of roughly 20% grade near the end that has slowed even professional runners by 25-35 minutes compared to earlier flatter editions",
+    "Aid stations are frequent (roughly every 2km) with water and some fruit, which reviewers described as well catered for the heat",
+    "The event has grown substantially, with 2025 edition drawing a reported 20,250 entrants across all categories including full marathon, half marathon, 10K, wheelchair 4.5km and family run"
+  ],
+  "research_watchouts": [
+    "Heat and humidity are consistently cited as the toughest part of the race, with one runner reporting conditions around 32°C and high humidity even along the beach breeze",
+    "The course has become hillier over the years according to a long-time participant, making it unsuitable for chasing a personal record",
+    "A disrupted sleep schedule and unpredictable weather were noted challenges by a competitive finisher due to the pre-dawn start time",
+    "Registration can close quickly - one reviewer noted 2025 entries closed within two days of opening"
+  ],
+  "research_confidence": "medium",
+  "research_last_updated": "2026-08-11",
   "faqs": [
     {
       "question": "When is the Amazing Thailand Pattaya Marathon held?",
@@ -49,7 +109,7 @@
       "answer": "The Amazing Thailand Pattaya Marathon takes place in Pattaya, located in Chonburi, Thailand. This coastal city serves as the venue for all four race distances offered at this event, including the full marathon, half marathon, 10km, and 4.5km races, as part of the marathon's 33rd edition."
     }
   ],
-  "reliability_score": 94,
+  "reliability_score": 97,
   "tags": [
     "full-marathon",
     "thailand",
@@ -60,7 +120,7 @@
       "url": "https://www.pattayamarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-09"
+      "last_checked": "2026-08-11"
     },
     {
       "url": "https://aims-worldrunning.org/calendar.html",
@@ -102,6 +162,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-09",
+  "last_updated": "2026-08-11",
   "status": "needs_review"
 }

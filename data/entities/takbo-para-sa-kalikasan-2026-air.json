@@ -29,8 +29,16 @@
     "Registration status has not yet been announced, so sign-up details are unavailable"
   ],
   "excerpt_quotes": [],
-  "research_highlights": [],
+  "research_highlights": [
+    "The Air Run leg of Takbo Para sa Kalikasan is the 3rd of a four-part 'element series' (Fire, Water, Air, Earth) organized by Green Media Events, with past Air Run editions held at the SM Mall of Asia Concert Grounds in Pasay offering 5K, 10K, and 21K distance options.",
+    "The Air Run's environmental theme centers on bird diversity and conservation, with proceeds benefiting the Haribon Foundation's restoration projects.",
+    "The most recent Air Run 2025 edition drew a large turnout, reported as more than 6,000 runners.",
+    "Race kits for the Air Run distances have included an event singlet, race bib (with RFID timing for 10K/21K), finisher shirt, and an eco-friendly basswood finisher medal.",
+    "Past editions have had sponsor-run hydration/nutrition support on course (e.g., Herbalife shakes and hydration stations at the 2025 Air Run)."
+  ],
   "research_watchouts": [],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-11",
   "faqs": [
     {
       "question": "When is Takbo Para sa Kalikasan 2026 taking place?",
@@ -49,7 +57,7 @@
       "answer": "Takbo Para sa Kalikasan 2026 is organized by Green Media Events. The race takes place in Ermita, Manila, Philippines, and is set for September 20, 2026, featuring 21.1km, 10km, and 5km distance categories for participants to choose from."
     }
   ],
-  "reliability_score": 30,
+  "reliability_score": 25,
   "tags": [
     "half-marathon",
     "philippines"
@@ -59,12 +67,12 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-08-09"
+      "last_checked": "2026-08-11"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-08-09",
+  "last_updated": "2026-08-11",
   "status": "active"
 }

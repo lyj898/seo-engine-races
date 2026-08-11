@@ -29,9 +29,26 @@
   "cons": [
     "Exact start point in Bandar Lampung has not yet been announced"
   ],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "excerpt_quotes": [
+    {
+      "quote": "Kita mengerahkan 42 personel yang tersebar di pusat lokasi maupun ruas jalan yang nantinya dilintasi para peserta run",
+      "attribution": "AKP Agustina Nilawati (Bandar Lampung Police PR) on the 2025 Locomotive Run, Tribratanews Polda Lampung",
+      "source_url": "https://tribratanews.lampung.polri.go.id/detail-post/puluhan-polisi-amankan-locomotive-run-2025-di-bandar-lampung"
+    }
+  ],
+  "research_highlights": [
+    "The 2026 edition adds a 21K half-marathon distance alongside 5K and 10K categories, per event listing on schedules.run.",
+    "The race is scheduled for Sunday, September 20, 2026 in Bandar Lampung, organized by Raw Organizer / Runaway Lampung.",
+    "Previous 'Locomotive Run' editions (April 2025) started and finished at Tanjungkarang railway station, routing past city landmarks ('Icon Kota Bandar Lampung') before returning to the station.",
+    "Past editions drew over 2,000 participants including KAI employees, running communities, the general public, and a disability category from Yayasan Harapan Masa Depan Lampung.",
+    "Along the route in prior editions, organizers provided music entertainment, water stations, and cheer zones ('zona cheer up') to support runners."
+  ],
+  "research_watchouts": [
+    "No first-hand participant race reports or reviews for the half-marathon (21K) distance were found, since prior 'Locomotive Run' editions only offered 5K/10K/3K categories — this appears to be the event's first year including a half-marathon.",
+    "Local police mobilized traffic control personnel along the route for the 2025 edition, indicating runners and spectators should expect road closures/traffic management around the Tanjungkarang station area."
+  ],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-11",
   "faqs": [
     {
       "question": "When is the Locomotive Half Marathon 2026 taking place?",
@@ -50,7 +67,7 @@
       "answer": "The race will be held in Bandar Lampung, Lampung, Indonesia, though the exact start point has not yet been announced by the organizers. Runners planning to participate should keep checking official updates from PT Kereta Api Indonesia (KAI) and RAW Organizer / Runaway Lampung for further venue details."
     }
   ],
-  "reliability_score": 42,
+  "reliability_score": 37,
   "tags": [
     "half-marathon",
     "indonesia"
@@ -60,7 +77,7 @@
       "url": "https://tiptip.id/event/4bc2013e-5ac3-4c05-9049-13fb758ce766",
       "label": "tiptip.id",
       "type": "aggregator",
-      "last_checked": "2026-08-09"
+      "last_checked": "2026-08-11"
     }
   ],
   "affiliate_links": [],
@@ -72,6 +89,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-09",
+  "last_updated": "2026-08-11",
   "status": "active"
 }

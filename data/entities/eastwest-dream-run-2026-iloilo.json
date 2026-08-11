@@ -30,9 +30,32 @@
   "cons": [
     "Registration status has not yet been announced, so sign-up details are unavailable"
   ],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "excerpt_quotes": [
+    {
+      "quote": "Once the run began, the atmosphere changed almost instantly.",
+      "attribution": "Blogger/participant race recap of the Manila leg (same EastWest Dream Run 2026 series), LionhearTV",
+      "source_url": "https://www.lionheartv.net/2026/08/eastwest-dream-run-2026/"
+    },
+    {
+      "quote": "The conversations and preparations gave way to footsteps, cheers, encouragement from fellow runners, and the steady rhythm of people making their way through the course.",
+      "attribution": "Participant account of the Manila leg, LionhearTV",
+      "source_url": "https://www.lionheartv.net/2026/08/eastwest-dream-run-2026/"
+    }
+  ],
+  "research_highlights": [
+    "This is the first time the EastWest Dream Run has been held in Iloilo City — the 2026 series expanded from three cities in 2025 (Manila, Cebu, Davao) to four cities in 2026 by adding Clark, Iloilo, and Cagayan de Oro, so there is no prior Iloilo-specific edition to reference.",
+    "Distance options are 1K (Dog Run), 3K, 5K, 10K, and 21K, organized by RUNRIO.",
+    "Race entitlements reported for the series include a race bib, race singlet, dog bandana, finisher's towel, a 21K finisher's shirt, loot bag, and finisher's medal.",
+    "The event pairs the run with a race village featuring interactive booths, sponsor activities, and recovery lounges, based on descriptions of other 2026 legs.",
+    "At the Manila leg (first stop of the same 2026 series), the 21K and 5K categories sold out ahead of race day and the event drew nearly 7,000 runners, suggesting strong demand across the series."
+  ],
+  "research_watchouts": [
+    "No participant race reports or reviews specific to the Iloilo leg exist yet since the race has not taken place (scheduled September 20, 2026); available commentary is either promotional or about other cities in the same 2026 series.",
+    "The organizer rescheduled the Clark leg of the same 2026 series (from an earlier May date to August 30) citing 'participants' well-being and overall event experience,' indicating schedule changes have occurred within this event series and registrants should watch for official updates.",
+    "Coverage found so far is largely press-release style content from EastWest Bank and syndicated blog posts, with limited independent or critical runner commentary."
+  ],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-11",
   "faqs": [
     {
       "question": "When is the EastWest Dream Run 2026 - Iloilo taking place?",
@@ -51,7 +74,7 @@
       "answer": "As of the latest available information, registration for the EastWest Dream Run 2026 - Iloilo has not yet been announced. Prospective participants should watch for updates from the organizer, Runrio, regarding when and how to sign up for this half-marathon event."
     }
   ],
-  "reliability_score": 65,
+  "reliability_score": 60,
   "tags": [
     "half-marathon",
     "philippines",
@@ -62,7 +85,7 @@
       "url": "https://runrio.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-09"
+      "last_checked": "2026-08-11"
     },
     {
       "url": "https://runrio.com/race-calendar",
@@ -80,6 +103,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-09",
+  "last_updated": "2026-08-11",
   "status": "active"
 }

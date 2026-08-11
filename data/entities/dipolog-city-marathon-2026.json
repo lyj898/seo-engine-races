@@ -50,7 +50,7 @@
       "answer": "The Dipolog City Marathon 2026 is organized by the Dipolog City LGU, the local government unit of Dipolog City. The event will be held at Sunset Boulevard, within Dipolog City, Zamboanga del Norte, in the Philippines."
     }
   ],
-  "reliability_score": 40,
+  "reliability_score": 35,
   "tags": [
     "full-marathon",
     "philippines"
@@ -60,12 +60,12 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-08-09"
+      "last_checked": "2026-08-11"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-08-09",
+  "last_updated": "2026-08-11",
   "status": "active"
 }

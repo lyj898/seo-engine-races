@@ -31,8 +31,14 @@
     "No pricing, route, or logistical information has been released yet"
   ],
   "excerpt_quotes": [],
-  "research_highlights": [],
+  "research_highlights": [
+    "Discovery Marathon 2026 will be held on September 20, 2026 at City di Mare, SRP, Cebu City, with 6KM, 12KM, 21KM and 42KM categories.",
+    "The event is organized by KNC Entertainment Production, with online registration handled via their myruntime.com platform.",
+    "Race inclusions for the 2025 edition (same organizer/venue) included an event shirt, finisher's medal, finisher's jacket towel for the full marathon, hydration stations, post-race meals and raffle entries — likely to carry over to 2026."
+  ],
   "research_watchouts": [],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-11",
   "faqs": [
     {
       "question": "When is the Discovery Marathon 2026?",
@@ -51,7 +57,7 @@
       "answer": "Registration for the Discovery Marathon 2026 has not yet been announced. Details on sign-up dates, fees, and procedures are not currently available, so prospective participants should check back later for updates from the organizer, KNC."
     }
   ],
-  "reliability_score": 30,
+  "reliability_score": 25,
   "tags": [
     "full-marathon",
     "philippines"
@@ -61,12 +67,12 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-08-09"
+      "last_checked": "2026-08-11"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-08-09",
+  "last_updated": "2026-08-11",
   "status": "active"
 }

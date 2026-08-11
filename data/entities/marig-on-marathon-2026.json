@@ -31,8 +31,16 @@
     "No source information is available regarding entry fees, course details, or amenities"
   ],
   "excerpt_quotes": [],
-  "research_highlights": [],
+  "research_highlights": [
+    "This is the first-ever marathon held in Catarman, Northern Samar, organized by the Marig-on Norte Samarnon Eagles Club.",
+    "Race takes place at Provincial Capitol Grounds, Brgy. Dalakit, Catarman, Northern Samar on September 20, 2026.",
+    "The 42K Marathon has an assembly at 11PM, gun start at 12AM (midnight), and an 8-hour cutoff.",
+    "The 21K Half Marathon has an assembly at 2AM, gun start at 3AM, and a 4-hour cutoff.",
+    "Race inclusions listed for both distances include race singlet, RFID-chip racebib, finisher medal, finisher shirt, trucker cap, meal, and aid stations."
+  ],
   "research_watchouts": [],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-11",
   "faqs": [
     {
       "question": "When is the Marig-on Marathon 2026?",
@@ -51,7 +59,7 @@
       "answer": "Registration for the Marig-on Marathon 2026 has not yet been announced. Prospective participants interested in the full marathon, half marathon, 10 km, or 5 km distances will need to wait for further updates from the organizer, the Marig-on Norte Samarnon Eagles Club, regarding sign-up details."
     }
   ],
-  "reliability_score": 30,
+  "reliability_score": 25,
   "tags": [
     "full-marathon",
     "philippines"
@@ -61,12 +69,12 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-08-09"
+      "last_checked": "2026-08-11"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-08-09",
+  "last_updated": "2026-08-11",
   "status": "active"
 }
