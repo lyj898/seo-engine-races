@@ -1,16 +1,30 @@
 ---
 // Renders a review article's body: prose sections whose inline [n] markers
-// are turned into links to a numbered references list at the end.
+// are turned into links to a numbered references list at the end, and whose
+// first mention of a race with its own review page is turned into a link to
+// that review.
 //
 // SAFETY: stored paragraph text is treated as plain text. We HTML-escape it
-// first, then the ONLY markup we add is our own <sup><a> citation links and
-// the reference anchors. Data can never inject arbitrary HTML this way, which
-// is the same guard ExcerptQuotes relies on -- no raw scraped markup renders.
+// first, then the ONLY markup we add is our own <sup><a> citation links, the
+// reference anchors, and (see raceLinks below) plain <a> race-name links --
+// all built from data this component controls, never from raw paragraph
+// text. Data can never inject arbitrary HTML this way, which is the same
+// guard ExcerptQuotes relies on -- no raw scraped markup renders.
 //
 // Props:
-//   sections: [{ heading, paragraphs: [string with optional [n] markers] }]
-//   sources:  [{ n, label, publisher?, url, type? }]
-const { sections = [], sources = [] } = Astro.props;
+//   sections:   [{ heading, paragraphs: [string with optional [n] markers] }]
+//   sources:    [{ n, label, publisher?, url, type? }]
+//   raceLinks:  [{ name, reviewSlug }] -- from src/lib/data.js's
+//               buildRaceLinkTargets(). Each distinct name is linked at most
+//               once across the whole article (its first mention only) so a
+//               race repeated through the piece doesn't turn into a wall of
+//               identical links.
+//   urls:       the site's urls helper (passed in rather than imported, so
+//               this component doesn't need to know the review path shape).
+//   currentReviewSlug: when this article IS a review, its own slug -- pass
+//               this so a review never links its own race name back to
+//               itself.
+const { sections = [], sources = [], raceLinks = [], urls, currentReviewSlug = null } = Astro.props;
 
 const escapeHtml = (s) =>
   s
@@ -19,6 +33,23 @@ const escapeHtml = (s) =>
     .replace(/>/g, '&gt;');
 
 const byNumber = new Map(sources.map((s) => [s.n, s]));
+
+// Longest name first, so a more specific mention (e.g. the full race name)
+// is matched before a shorter alias that might also be a substring of it.
+// Deduped by name -- the same race can legitimately appear more than once
+// in raceLinks (a name plus its bracketed short code, say), and we only
+// want one linkable target per distinct string.
+const sortedRaceLinks = [...new Map(
+  raceLinks
+    .filter((r) => r.reviewSlug !== currentReviewSlug)
+    .map((r) => [r.name, { name: r.name, url: urls.review(r.reviewSlug) }])
+).values()].sort((a, b) => b.name.length - a.name.length);
+
+// Which race names have already been linked once across this whole article
+// render. Declared outside renderParagraph so it persists across every
+// paragraph in every section -- state a plain function expression can hold
+// onto between calls within the same component render.
+const alreadyLinkedRaceNames = new Set();
 
 // Defensively strip artifacts a web-search-backed model can leak: <cite>
 // wrapper tags and compound/hyphenated citation refs like [16-8] or
@@ -31,12 +62,37 @@ function cleanArtifacts(text) {
     .replace(/\[\d+-[^\]]*\]/g, ''); // drop hyphenated chunk refs like [16-8]; keep [n] and [n,m]
 }
 
-// Escape, then turn a citation marker into superscript link(s). Supports a
-// single [n] and a comma list [n,m] (both sources back the claim). A number
-// with no matching source is left as literal text (validate-data fails the
-// build on that, so it never reaches production).
+// Wraps the first unlinked occurrence of each race name in an <a> to that
+// race's review. Runs on already-escaped text, and only ever inserts a link
+// built from raceLinks (never from the paragraph itself), so this can't
+// become an HTML-injection path the way rendering raw paragraph markup
+// would be.
+function autolinkRaceNames(escapedText) {
+  let result = escapedText;
+  for (const { name, url } of sortedRaceLinks) {
+    if (alreadyLinkedRaceNames.has(name)) continue;
+    const escapedName = escapeHtml(name);
+    const idx = result.indexOf(escapedName);
+    if (idx === -1) continue;
+    result =
+      result.slice(0, idx) +
+      `<a href="${url}" class="link-accent">${escapedName}</a>` +
+      result.slice(idx + escapedName.length);
+    alreadyLinkedRaceNames.add(name);
+  }
+  return result;
+}
+
+// Escape, autolink race names, then turn a citation marker into superscript
+// link(s). Citations run last since [n] never appears inside a race name or
+// the anchor tags autolinking just inserted, so the two passes can't
+// collide. Citations support a single [n] and a comma list [n,m] (both
+// sources back the claim); a number with no matching source is left as
+// literal text (validate-data fails the build on that, so it never reaches
+// production).
 function renderParagraph(text) {
-  return escapeHtml(cleanArtifacts(text)).replace(/\[(\d+(?:\s*,\s*\d+)*)\]/g, (whole, group) => {
+  const linked = autolinkRaceNames(escapeHtml(cleanArtifacts(text)));
+  return linked.replace(/\[(\d+(?:\s*,\s*\d+)*)\]/g, (whole, group) => {
     const nums = group.split(',').map((x) => Number(x.trim())).filter((n) => byNumber.has(n));
     if (nums.length === 0) return whole;
     return nums

@@ -11,9 +11,27 @@
       "evidence": "Listed as \"Cerita Lari\" under Indonesia on London Marathon Events' own official tour operators page.",
       "source_label": "London Marathon Events -- International Participants",
       "source_url": "https://www.londonmarathonevents.co.uk/london-marathon/international-participants"
+    },
+    {
+      "race_name": "BMW Berlin Marathon",
+      "evidence": "Cerita Lari's own official event page states \"For the 7th time, Cerita Lari has been appointed as International Travel Partner\" for BMW Berlin Marathon 2026 -- a specific, repeated-appointment claim, though we could not independently confirm it on the Berlin Marathon's own tour-operator page (it loads its list dynamically and wasn't extractable).",
+      "source_label": "Cerita Lari -- BMW Berlin Marathon 2026",
+      "source_url": "https://ceritalari.com/marathon/bmw-berlin-marathon"
+    },
+    {
+      "race_name": "Bank of America Chicago Marathon",
+      "evidence": "Cerita Lari's own official event page states \"For the 4th time, Cerita Lari was appointed as official International Travel Partner\" for the Chicago Marathon 2026 -- a specific, repeated-appointment claim, though we could not independently confirm it on the Chicago Marathon's own gated tour-operator index.",
+      "source_label": "Cerita Lari -- Bank of America Chicago Marathon 2026",
+      "source_url": "https://ceritalari.com/marathon/chicago-marathon"
+    },
+    {
+      "race_name": "TCS New York City Marathon",
+      "evidence": "Cerita Lari's own official event page states \"we have been elected to become official International Tour Operator for TCS New York City Marathon 2026\", though we could not independently confirm it on NYRR's own tour-operator page (it sits behind a Cloudflare waiting-room queue we couldn't get past).",
+      "source_label": "Cerita Lari -- TCS New York City Marathon 2026",
+      "source_url": "https://ceritalari.com/marathon/tcs-new-york-city-marathon"
     }
   ],
-  "editorial_notes": "Verified directly against London Marathon Events' own official tour-operator listing on 2026-08-11. The agency's own site additionally claims official partner status for Tokyo, Berlin, and New York, which we have not independently verified against each of those races' own organizer pages.",
+  "editorial_notes": "London Marathon certification verified directly against London Marathon Events' own official tour-operator listing on 2026-08-11. Berlin, Chicago, and New York City certifications are sourced from Cerita Lari's own event-specific pages, which make specific dated/repeated-appointment claims rather than generic marketing copy -- but these are the agency's own claims, not confirmed against the three races' own official operator pages (each uses a dynamic map, a gated PDF, or a queue system we could not get past). Cerita Lari's own site separately claims Tokyo Marathon involvement, but its Tokyo page clarifies it sells packages through Kintetsu International (KNT), the actual official Tokyo Marathon travel partner, rather than holding certification itself -- so Tokyo is deliberately excluded here.",
   "last_updated": "2026-08-11",
   "status": "active"
 }
