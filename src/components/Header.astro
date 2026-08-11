@@ -13,6 +13,7 @@ const navLinks = [
   ...(siteConfig.enabledFeatures?.reviews ? [{ href: urls.reviewsIndex(), label: 'Reviews' }] : []),
   ...(siteConfig.enabledFeatures?.gear ? [{ href: urls.gearIndex(), label: 'Gear' }] : []),
   ...(siteConfig.enabledFeatures?.articles ? [{ href: urls.articlesIndex(), label: 'Articles' }] : []),
+  ...(siteConfig.enabledFeatures?.travelAgencies ? [{ href: urls.travelIndex(), label: 'Travel' }] : []),
   { href: urls.toolsIndex(), label: 'Lab' },
   { href: urls.about(), label: 'About' },
 ];

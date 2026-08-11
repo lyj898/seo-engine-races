@@ -29,6 +29,7 @@ export async function GET({ site }) {
     ...(siteConfig.enabledFeatures?.reviews ? [urls.reviewsIndex()] : []),
     ...(siteConfig.enabledFeatures?.gear ? [urls.gearIndex()] : []),
     ...(siteConfig.enabledFeatures?.articles ? [urls.articlesIndex()] : []),
+    ...(siteConfig.enabledFeatures?.travelAgencies ? [urls.travelIndex()] : []),
     urls.toolsIndex(),
     ...TOOLS.map((t) => urls.tool(t.slug)),
     urls.about(),

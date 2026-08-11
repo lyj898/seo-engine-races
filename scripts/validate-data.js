@@ -14,8 +14,8 @@
  * error so CI fails loudly instead of shipping bad data.
  */
 import siteConfig from '../src/lib/config.js';
-import { getEntitySchema, categorySchema, regionSchema, listicleSchema, reviewSchema, gearArticleSchema, articleSchema } from '../src/lib/schema/index.js';
-import { loadEntities, loadCategories, loadRegions, loadListicles, loadReviews, loadGear, loadArticles, stripMeta } from '../src/lib/data.js';
+import { getEntitySchema, categorySchema, regionSchema, listicleSchema, reviewSchema, gearArticleSchema, articleSchema, travelAgencySchema } from '../src/lib/schema/index.js';
+import { loadEntities, loadCategories, loadRegions, loadListicles, loadReviews, loadGear, loadArticles, loadTravelAgencies, stripMeta } from '../src/lib/data.js';
 import { simplifyAvailabilityStatus } from '../src/lib/text.js';
 
 const TODAY = new Date().toISOString().slice(0, 10);
@@ -75,6 +75,7 @@ const rawListicles = loadListicles();
 const rawReviews = loadReviews();
 const rawGear = loadGear();
 const rawArticles = loadArticles();
+const rawTravelAgencies = loadTravelAgencies();
 
 const categoryIds = validateList(rawCategories, categorySchema, 'category_id', 'categories');
 const regionIds = validateList(rawRegions, regionSchema, 'region_id', 'regions');
@@ -82,6 +83,7 @@ validateList(rawListicles, listicleSchema, 'listicle_id', 'listicles');
 validateList(rawReviews, reviewSchema, 'review_id', 'reviews');
 validateList(rawGear, gearArticleSchema, 'article_id', 'gear articles');
 validateList(rawArticles, articleSchema, 'article_id', 'articles');
+validateList(rawTravelAgencies, travelAgencySchema, 'agency_id', 'travel agencies');
 const entityIds = validateList(rawEntities, entitySchema, 'entity_id', 'entities');
 
 // Cross-reference checks: catch orphan pages / broken internal links before
@@ -312,8 +314,25 @@ for (const item of rawArticles) {
   }
 }
 
+// Travel agencies: this whole content type exists to make a single, narrow
+// claim -- "a named major race's own organizer lists this agency as an
+// official/authorized partner" -- so every certification must carry a real
+// source_url (enforced by the schema) and that url must actually be
+// reachable-looking (not a bare domain masquerading as a specific page).
+// This can't verify the URL still says what it said when it was checked
+// (that would require a live fetch on every CI run), but it catches the
+// cheapest failure mode: a certification with no real evidence trail at all.
+for (const item of rawTravelAgencies) {
+  const data = stripMeta(item);
+  for (const cert of data.certifications ?? []) {
+    if (!/^https?:\/\/.+\..+/.test(cert.source_url)) {
+      reportError(item.__file, `certification for "${cert.race_name}" has a source_url that doesn't look like a real page: "${cert.source_url}"`);
+    }
+  }
+}
+
 console.log(
-  `\n${rawEntities.length} entities, ${rawCategories.length} categories, ${rawRegions.length} regions, ${rawListicles.length} listicles, ${rawReviews.length} reviews, ${rawGear.length} gear articles, ${rawArticles.length} articles checked.`
+  `\n${rawEntities.length} entities, ${rawCategories.length} categories, ${rawRegions.length} regions, ${rawListicles.length} listicles, ${rawReviews.length} reviews, ${rawGear.length} gear articles, ${rawArticles.length} articles, ${rawTravelAgencies.length} travel agencies checked.`
 );
 console.log(`${errorCount} error(s), ${warningCount} warning(s).`);
 

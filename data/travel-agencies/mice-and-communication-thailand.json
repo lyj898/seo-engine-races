@@ -1,0 +1,19 @@
+{
+  "agency_id": "mice-and-communication-thailand",
+  "slug": "mice-and-communication-thailand",
+  "name": "MICE & Communication",
+  "country": "Thailand",
+  "website": "https://www.mice.co.th/",
+  "description": "A Bangkok-based event and sports management company, founded in 2003, that organizes Thailand's own IAAF/World Athletics-labelled Bangsaen races (Bangsaen21, Bangsaen42) and runs international marathon tour packages.",
+  "certifications": [
+    {
+      "race_name": "TCS London Marathon",
+      "evidence": "Listed as \"MICE & Communication\" under Thailand on London Marathon Events' own official tour operators page.",
+      "source_label": "London Marathon Events -- International Participants",
+      "source_url": "https://www.londonmarathonevents.co.uk/london-marathon/international-participants"
+    }
+  ],
+  "editorial_notes": "Verified directly against London Marathon Events' own official tour-operator listing on 2026-08-11.",
+  "last_updated": "2026-08-11",
+  "status": "active"
+}

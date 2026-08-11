@@ -6,6 +6,7 @@ import {
   reviewSchema,
   gearArticleSchema,
   articleSchema,
+  travelAgencySchema,
 } from './base.js';
 import { getCoreFactsSchema } from './core-facts/index.js';
 
@@ -25,4 +26,4 @@ export function getEntitySchema(verticalKey) {
   });
 }
 
-export { baseEntitySchema, categorySchema, regionSchema, listicleSchema, reviewSchema, gearArticleSchema, articleSchema };
+export { baseEntitySchema, categorySchema, regionSchema, listicleSchema, reviewSchema, gearArticleSchema, articleSchema, travelAgencySchema };

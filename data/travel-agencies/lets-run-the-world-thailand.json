@@ -1,0 +1,25 @@
+{
+  "agency_id": "lets-run-the-world-thailand",
+  "slug": "lets-run-the-world-thailand",
+  "name": "Let's Run The World",
+  "country": "Thailand",
+  "website": "https://letsruntheworld.com/",
+  "description": "A Bangkok-based marathon tour operator describing itself as Thailand's leading marathon tour operator, organizing guaranteed-entry travel packages for Thai runners to major international marathons including Boston, London, Berlin, Chicago, and Tokyo.",
+  "certifications": [
+    {
+      "race_name": "Boston Marathon",
+      "evidence": "Listed as \"Let's Run The World -- Thailand\" under the Asia section of the Boston Athletic Association's own International Tour Operators page.",
+      "source_label": "Boston Athletic Association -- International Tour Operators",
+      "source_url": "https://www.baa.org/races/boston-marathon/info-for-athletes-international-tour-operators/"
+    },
+    {
+      "race_name": "TCS London Marathon",
+      "evidence": "Listed as \"Let's Run The World\" under Thailand on London Marathon Events' own official tour operators page.",
+      "source_label": "London Marathon Events -- International Participants",
+      "source_url": "https://www.londonmarathonevents.co.uk/london-marathon/international-participants"
+    }
+  ],
+  "editorial_notes": "Verified directly against the Boston Athletic Association's and London Marathon Events' own official tour-operator listings on 2026-08-11. The agency's own site additionally claims past packages for Berlin, Chicago, and Tokyo, which we have not independently verified against those races' own organizer pages.",
+  "last_updated": "2026-08-11",
+  "status": "active"
+}

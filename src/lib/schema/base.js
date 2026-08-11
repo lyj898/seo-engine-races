@@ -344,3 +344,40 @@ export const articleSchema = z.object({
   last_updated: z.string().min(1),
   status: z.enum(STATUS_VALUES),
 });
+
+/**
+ * Travel agencies (data/travel-agencies/*.json) -- a directory, not
+ * editorial content, so it deliberately does NOT reuse reviewSectionSchema/
+ * ReviewArticle.astro the way gearArticleSchema and articleSchema do. Every
+ * record here is a factual claim about a real third-party business, so the
+ * schema is built around one hard rule: "certified" means a named major
+ * race's own website (or the race organizer directly) actually lists this
+ * agency as an official/authorized partner -- not that the agency merely
+ * claims it. `certifications` is therefore required (min 1) and each entry
+ * must carry the verifying source_url, mirroring reviewSourceSchema's
+ * citation discipline but scoped per-claim rather than via [n] markers,
+ * since this content has no body prose to cite into.
+ *
+ * `country` groups the directory the same way gearArticleSchema's/
+ * articleSchema's `topic` groups their indexes.
+ */
+export const travelAgencyCertificationSchema = z.object({
+  race_name: z.string().min(1), // e.g. "Boston Marathon"
+  evidence: z.string().min(1), // e.g. "Listed as an official International Tour Operator on the Boston Athletic Association's own website"
+  source_label: z.string().min(1), // e.g. "Boston Athletic Association -- International Tour Operators"
+  source_url: z.string().url(),
+});
+
+export const travelAgencySchema = z.object({
+  agency_id: z.string().min(1),
+  slug: slugSchema,
+  name: z.string().min(1),
+  country: z.string().min(1),
+  website: z.string().url(),
+  description: z.string().min(1),
+  certifications: z.array(travelAgencyCertificationSchema).min(1),
+  contact_email: z.string().email().optional(),
+  editorial_notes: z.string().optional(),
+  last_updated: z.string().min(1),
+  status: z.enum(STATUS_VALUES),
+});
