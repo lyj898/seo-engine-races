@@ -38,6 +38,12 @@ const breadcrumbItems = [
   { label: article.title, href: urls.gear(article.slug) },
 ];
 
+// Shared across the guide body and its FAQ answers so the same race is
+// linked at most once on this page, wherever its first mention actually
+// falls -- see ReviewArticle.astro and FAQSection.astro's autolink props.
+const linkedRaceUrls = new Set();
+const raceLinks = buildRaceLinkTargets();
+
 const canonicalUrl = new URL(urls.gear(article.slug), Astro.site).toString();
 
 const pageTitle = article.seo_title || article.title;
@@ -70,7 +76,13 @@ const jsonLd = [
       </p>
     )}
 
-    <ReviewArticle sections={article.sections} sources={article.sources} raceLinks={buildRaceLinkTargets()} urls={urls} />
+    <ReviewArticle
+      sections={article.sections}
+      sources={article.sources}
+      raceLinks={raceLinks}
+      urls={urls}
+      alreadyLinkedUrls={linkedRaceUrls}
+    />
 
     {article.products?.length > 0 && (
       <div class="mt-10">
@@ -80,7 +92,7 @@ const jsonLd = [
 
     {article.faqs?.length > 0 && (
       <div class="mt-12">
-        <FAQSection faqs={article.faqs} />
+        <FAQSection faqs={article.faqs} raceLinks={raceLinks} urls={urls} alreadyLinkedUrls={linkedRaceUrls} />
       </div>
     )}
 
