@@ -1,0 +1,80 @@
+{
+  "article_id": "should-you-run-in-the-haze-decision-guide",
+  "slug": "should-you-run-in-the-haze-decision-guide",
+  "title": "Should You Run When the Haze Rolls In? A Decision Guide",
+  "seo_title": "Should You Run in the Haze? A Decision Guide",
+  "meta_description": "Real AQI and PSI thresholds from health authorities, turned into a practical run-outside, modify, or skip decision framework for Southeast Asia's haze season.",
+  "topic": "Southeast Asia Running Life",
+  "dek": "Dry-season haze from agricultural burning is a well-documented, recurring feature of Southeast Asian air quality. Here's how to turn official AQI and PSI guidance into an actual go, modify, or skip decision before you head out the door.",
+  "sections": [
+    {
+      "heading": "Two Different Scales, One Recurring Problem",
+      "paragraphs": [
+        "Depending on where you're training, you'll likely see one of two numbers on your weather app during haze season: the AQI (Air Quality Index), the scale most global apps and monitoring services use, built around bands like Good, Moderate, and Unhealthy; or the PSI (Pollutant Standards Index), the scale Singapore and Malaysia adopted after the severe regional haze of the 1990s and still use as their official measure. Both are built on similar underlying pollutant readings -- PM2.5 chief among them during haze -- but the numbers aren't directly interchangeable, so it's worth knowing which one your local authority actually publishes and plans around, rather than assuming the two scales read the same at a given number.",
+        "This region's dry-season haze, driven largely by agricultural land-clearing fires, is real and seasonal rather than a rare event -- mainland Southeast Asia's burning season typically runs roughly February through April, with other parts of the region affected on their own separate patterns depending on local burning practices and wind direction. This site's Gear section already has a guide to haze-season running gear -- masks, what actually filters PM2.5, what doesn't. This article is about the decision that comes before gear: whether to run outside at all."
+      ]
+    },
+    {
+      "heading": "The Numbers That Actually Matter for a Run",
+      "paragraphs": [
+        "On the AQI scale, 0-50 is Good with no real restriction, and 51-100 is Moderate, where the general advice is that healthy people can carry on as normal but sensitive individuals should ease off prolonged or intense effort. The next band, 101-150, is officially labeled Unhealthy for Sensitive Groups -- at this point sensitive groups are advised to avoid long or intense outdoor activity and consider moving it indoors, while healthy adults are generally still considered fine for moderate activity[1].",
+        "Singapore's official PSI guidance, published through its Ministry of Health and National Environment Agency, draws its lines a little differently: 0-100 is treated as normal for both healthy people and vulnerable groups, 101-200 calls for healthy people to reduce prolonged or strenuous outdoor exertion (and for vulnerable groups to minimize it), 201-300 tells healthy people to avoid prolonged or strenuous outdoor exertion entirely (with vulnerable groups avoiding outdoor activity altogether), and above 300 the advice is to minimize outdoor activity across the board[2]."
+      ]
+    },
+    {
+      "heading": "A Practical Go / Modify / No-Go Framework",
+      "paragraphs": [
+        "Translated into an actual training decision: at AQI 0-100 or PSI 0-100, run as planned -- this covers the great majority of non-haze days and most mild haze days too. At AQI 101-150 or PSI 101-200, modify rather than cancel -- shorten the run, drop the intensity (no intervals or tempo work), and if you're in a sensitive group, take it indoors instead. This is also the range where 'I feel fine' is a genuinely unreliable guide, since particulate exposure accumulates over the duration of a run in a way perceived effort doesn't capture[1][3].",
+        "At AQI 151+ or PSI 201+, treat it as a no-go for outdoor training regardless of fitness level or how the air looks -- move the session to a treadmill, indoor track, or gym, or take it as a rest day. At AQI 300+ or PSI 300+, the guidance is unambiguous: minimize outdoor exposure altogether, healthy or not, and even a short outdoor errand is treated differently than normal daily activity[1][2]."
+      ]
+    },
+    {
+      "heading": "Building the Habit of Checking Before You Head Out",
+      "paragraphs": [
+        "The biggest practical mistake during haze season isn't ignoring bad air quality -- it's not checking at all, because at moderate-to-unhealthy-for-sensitive-groups levels, haze often isn't obvious just by looking outside. A hazy skyline is a clear signal, but a moderately elevated PM2.5 reading frequently isn't visually dramatic, which is exactly the range where runners most often talk themselves into a session they'd have skipped if they'd looked at a number first.",
+        "Haze also doesn't follow the same daily pattern as heat, where an early start reliably buys cooler conditions -- particulate levels during burning season can build, shift, or clear depending on wind direction and burning activity hundreds of kilometers away, so an early-morning reading isn't automatically better than a midday one the way temperature is. Checking a live reading immediately before each outdoor session, not just once in the morning, is the habit that actually protects a training block through haze season."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "label": "AQI Basics",
+      "publisher": "AirNow.gov (U.S. EPA)",
+      "url": "https://www.airnow.gov/aqi/aqi-basics/",
+      "type": "official"
+    },
+    {
+      "n": 2,
+      "label": "How to Protect Yourself Against the Haze",
+      "publisher": "HealthHub (Singapore Ministry of Health)",
+      "url": "https://www.healthhub.sg/highlights-and-insights/health-safety-advisory/how-to-protect-yourself-against-haze",
+      "type": "official"
+    },
+    {
+      "n": 3,
+      "label": "Should You Exercise Outside in Air Pollution?",
+      "publisher": "U.S. Environmental Protection Agency",
+      "url": "https://www.epa.gov/sciencematters/should-you-exercise-outside-air-pollution",
+      "type": "official"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What AQI or PSI level is still safe to run outdoors at?",
+      "answer": "AQI 0-100 or PSI 0-100 is generally fine for a normal outdoor run. Above that -- AQI 101-150 or PSI 101-200 -- healthy runners should shorten and ease off intensity, while sensitive groups should move indoors. Above AQI 150 or PSI 200, treat it as a no-go regardless of fitness level."
+    },
+    {
+      "question": "Should I still run outside if air quality is 'Unhealthy for Sensitive Groups'?",
+      "answer": "If you're healthy, official guidance generally still permits moderate activity at this level, but long or intense outdoor sessions aren't advised. If you're in a sensitive group -- pregnant, elderly, or have a respiratory or heart condition -- authorities recommend moving the workout indoors instead."
+    },
+    {
+      "question": "How do I know if it's hazy enough to matter if it doesn't look that bad outside?",
+      "answer": "Visual haze isn't a reliable indicator at moderate pollution levels -- the sky can look nearly normal while PM2.5 readings are already elevated. Checking a live AQI or PSI reading right before heading out, rather than judging by eye, is the only way to catch this range reliably."
+    }
+  ],
+  "editorial_notes": "Original editorial content for the Articles section. Cited claims verified against live source URLs at time of writing.",
+  "published_at": "2026-08-11T08:05:00.000Z",
+  "last_updated": "2026-08-11",
+  "status": "active"
+}
