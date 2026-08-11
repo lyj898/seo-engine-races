@@ -9,6 +9,7 @@ import {
   stripMeta,
   isPublished,
   isReviewableEntity,
+  buildRaceLinkTargets,
 } from '../../lib/data.js';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
@@ -139,7 +140,13 @@ const jsonLd = [
       </section>
     )}
 
-    <ReviewArticle sections={review.sections} sources={review.sources} />
+    <ReviewArticle
+      sections={review.sections}
+      sources={review.sources}
+      raceLinks={buildRaceLinkTargets()}
+      urls={urls}
+      currentReviewSlug={review.slug}
+    />
 
     {review.pull_quotes?.length > 0 && (
       <section class="mt-10">

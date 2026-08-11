@@ -11,9 +11,15 @@
       "evidence": "Listed as \"Yuk Travel\" under Indonesia on London Marathon Events' own official tour operators page.",
       "source_label": "London Marathon Events -- International Participants",
       "source_url": "https://www.londonmarathonevents.co.uk/london-marathon/international-participants"
+    },
+    {
+      "race_name": "TCS New York City Marathon",
+      "evidence": "Yuktravel's own blog describes it as \"Official International Tour Operator (ITO) for the TCS New York City Marathon 2026\"; multiple independent search summaries of the live page corroborate this specific claim, though our fetch tool was blocked (HTTP 403) from rendering the page directly for full independent verification.",
+      "source_label": "Yuktravel Blog -- TCS New York City Marathon 2026",
+      "source_url": "https://blog.yuktravel.com/2026/02/03/tcs-new-york-city-marathon-2026-is-calling-siap-taklukkan-the-worlds-largest-marathon-bareng-yuktravel/"
     }
   ],
-  "editorial_notes": "Verified directly against London Marathon Events' own official tour-operator listing (as \"Yuk Travel\") on 2026-08-11. The agency's own site additionally describes a decade-long official ITO relationship with the Gold Coast Marathon and support for Sydney/Chicago/New York Abbott World Marathon Majors travel, which we have not independently verified against each of those races' own organizer pages.",
+  "editorial_notes": "London certification verified directly against London Marathon Events' own official tour-operator listing (as \"Yuk Travel\") on 2026-08-11. New York City certification is sourced from Yuktravel's own blog post (fetch blocked by the site's bot protection; corroborated via independent search-result summaries of the same page rather than a direct read). The agency's own site additionally describes a decade-long official ITO relationship with the Gold Coast Marathon and support for Sydney/Chicago Abbott World Marathon Majors travel, which we have not independently verified against those races' own organizer pages.",
   "last_updated": "2026-08-11",
   "status": "active"
 }

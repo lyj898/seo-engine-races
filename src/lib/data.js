@@ -57,6 +57,61 @@ export function loadTravelAgencies() {
   return readJsonDir('travel-agencies');
 }
 
+/**
+ * Builds { name, reviewSlug } pairs for every race that has a live review
+ * page -- one entry for the entity's full name, plus a couple of common
+ * variants (a bracketed short code like "(KLSCM)", and the name with a
+ * trailing "(9th ed.)"-style edition annotation or bracket stripped) --
+ * since prose mentioning a race by name doesn't always match the stored
+ * entity.name character-for-character.
+ *
+ * Consumed by gear/[slug].astro, articles/[slug].astro, and
+ * reviews/[slug].astro to auto-link the first mention of a race in body
+ * prose back to that race's own review, without any content author having
+ * to hand-write the link. See ReviewArticle.astro's raceLinks prop.
+ *
+ * Deliberately returns review slugs, not built urls.review() calls -- this
+ * file stays Astro-free (see the module doc comment above), so turning a
+ * slug into a path is left to the page importing it.
+ */
+export function buildRaceLinkTargets() {
+  const entities = loadEntities().map(stripMeta).filter(isReviewableEntity);
+  const entityById = new Map(entities.map((e) => [e.entity_id, e]));
+  const reviews = loadReviews().map(stripMeta).filter(isPublished);
+
+  const targets = [];
+  for (const review of reviews) {
+    const entity = entityById.get(review.entity_id);
+    if (!entity) continue;
+
+    const aliases = new Set([entity.name]);
+
+    // Only treat a bracketed parenthetical as a genuine short-code alias
+    // (e.g. "(KLSCM)", "(SOHM)") when it's written in caps the way real
+    // abbreviations are -- a name like "Sagisag Half Marathon (Manila)" or
+    // "Takbo Para sa Kalikasan (Air)" uses the same parens for a city/venue
+    // qualifier, and linking every mention of the word "Manila" or "Air"
+    // across the site to one specific race would be a false-positive trap.
+    const bracketMatch = entity.name.match(/\(([A-Z0-9]{2,12})\)/);
+    if (bracketMatch) aliases.add(bracketMatch[1]);
+
+    const withoutEdition = entity.name
+      .replace(/\s*\(\d+(?:st|nd|rd|th)\s+ed\.?\)\s*/i, ' ')
+      .replace(/\s{2,}/g, ' ')
+      .trim();
+    if (withoutEdition && withoutEdition !== entity.name) aliases.add(withoutEdition);
+
+    const withoutBracket = entity.name.replace(/\s*\([^)]*\)\s*$/, '').trim();
+    if (withoutBracket && withoutBracket !== entity.name) aliases.add(withoutBracket);
+
+    for (const name of aliases) {
+      if (name.length < 3) continue; // guards against a stray short bracket match becoming a link target
+      targets.push({ name, reviewSlug: review.slug });
+    }
+  }
+  return targets;
+}
+
 /** Strips the __file debug field before handing data to a schema or a page. */
 export function stripMeta(item) {
   const { __file, ...rest } = item;

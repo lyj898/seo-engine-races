@@ -1,7 +1,7 @@
 ---
 import siteConfig from '../../lib/config.js';
 import { urls } from '../../lib/urls.js';
-import { loadArticles, stripMeta, isPublished } from '../../lib/data.js';
+import { loadArticles, stripMeta, isPublished, buildRaceLinkTargets } from '../../lib/data.js';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import LastUpdated from '../../components/LastUpdated.astro';
@@ -61,7 +61,7 @@ const jsonLd = [
       <LastUpdated date={article.last_updated} />
     </div>
 
-    <ReviewArticle sections={article.sections} sources={article.sources} />
+    <ReviewArticle sections={article.sections} sources={article.sources} raceLinks={buildRaceLinkTargets()} urls={urls} />
 
     {article.faqs?.length > 0 && (
       <div class="mt-12">
