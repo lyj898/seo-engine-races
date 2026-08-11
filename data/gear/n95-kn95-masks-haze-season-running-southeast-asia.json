@@ -1,0 +1,90 @@
+{
+  "article_id": "n95-kn95-masks-haze-season-running-southeast-asia",
+  "slug": "n95-kn95-masks-haze-season-running-southeast-asia",
+  "title": "N95 and Air-Quality Masks for Running During Haze Season",
+  "seo_title": "N95 and KN95 Masks for Haze Season Running",
+  "meta_description": "A cloth mask does almost nothing against PM2.5. What N95 and KN95 masks actually filter, and the real breathability trade-off of wearing one for hard running.",
+  "topic": "Rain & Haze",
+  "dek": "This site's broader haze-season gear guide covers the whole picture -- monitors, indoor backup plans, general precautions. This one goes deep on just the mask: which ratings actually matter, and what wearing one costs you at a hard training pace.",
+  "sections": [
+    {
+      "heading": "Why the Mask Itself Deserves Its Own Guide",
+      "paragraphs": [
+        "Most haze-season advice treats the mask as one line item among several -- check the PSI, maybe wear a mask, move indoors if it's bad. That undersells how much the specific mask matters: a cloth covering or a loose surgical mask does very little against PM2.5, the fine particulate that makes haze genuinely harmful to breathe, because the fibers simply aren't dense enough to catch particles that small. The rating printed on the mask, not the general category of 'mask,' is what determines whether it's doing anything useful.",
+        "That distinction matters more for runners than for someone wearing a mask on a commute, because running dramatically increases both breathing rate and the volume of air pulled past whatever's covering your face. A rating that's adequate for walking to the MRT doesn't automatically hold up the same way once heart rate and respiration climb during a run, which is the specific problem this guide is built around."
+      ]
+    },
+    {
+      "heading": "N95, KN95, N99: What the Numbers Actually Mean",
+      "paragraphs": [
+        "N95 and KN95 are both rated to filter at least 95% of particles down to 0.3 microns, which comfortably covers PM2.5 -- the main practical difference is the certifying standard (N95 is the US NIOSH standard, KN95 is China's equivalent) and fit style, with N95 typically using a headband and KN95 more often using ear loops. N99-rated masks, a step up, filter at least 99% of particles at the same size threshold; Cambridge Mask Co's Pro range and some reusable cloth-and-filter designs advertise filtration in this range using multi-layer construction rather than the pressed-fiber design of a disposable N95.",
+        "For haze specifically, N95/KN95 is already well past the point of diminishing returns for most runners -- the extra filtration percentage of an N99 mask matters more for occupational exposure to fine dust than for a haze reading that, even on a bad day, is a fraction of what an N99-rated industrial respirator is designed against. Fit matters more than the rating difference between N95 and N99: a well-sealed N95 outperforms a loosely worn N99 every time."
+      ]
+    },
+    {
+      "heading": "The Honest Trade-Off: Protection vs. Being Able to Breathe",
+      "paragraphs": [
+        "A properly fitted N95 or KN95 mask creates real airflow resistance, which is the entire point -- it's forcing air through a dense filtration layer rather than letting it pass freely. At a walking pace that resistance is a minor inconvenience. At a hard running effort, where breathing rate and depth both increase substantially, that same resistance becomes a genuine limiter: most runners physically cannot sustain tempo or interval pace wearing a sealed N95, because the mask restricts airflow faster than a hard-working respiratory system can work around it.",
+        "This isn't a flaw in the mask -- it's the mechanism by which the mask filters air, and it applies to every respirator-rated mask, not just cheaper ones. Masks with an exhalation valve (letting warm, moist exhaled air escape without passing back through the filter) reduce fogging and CO2 buildup somewhat, which helps comfort on a slow effort, but they don't meaningfully change the inhale-side resistance that limits hard-effort breathing."
+      ]
+    },
+    {
+      "heading": "Where a Mask Actually Fits Into a Haze-Season Run",
+      "paragraphs": [
+        "Given that trade-off, the realistic use case for a running-grade mask during haze season isn't the run itself -- it's the walk to and from a run, standing around at an outdoor event's start or finish corral, or a genuinely easy, conversational-pace effort where the mask's airflow resistance isn't the pace-limiting factor. For the actual hard training session, the honest options are moving it indoors or accepting the exposure at a distance and duration you've judged acceptable against that day's reading.",
+        "A reusable mask with replaceable filters, like Cambridge Mask Co's Pro line or Totobobo's custom-cut design, is worth the higher upfront cost over disposables specifically because haze season in most of the region runs for weeks at a stretch most years -- a mask you're reaching for daily for a month adds up fast in disposable-pack costs, and a properly fitted reusable one also seals better over repeated use than a one-size disposable typically does."
+      ]
+    }
+  ],
+  "products": [
+    {
+      "name": "3M Aura 9210+ Particulate Respirator, N95",
+      "category": "Respiratory protection",
+      "why": "A NIOSH-certified N95 with a low-profile, three-panel flat-fold design built to reduce eyewear fogging -- the practical baseline rating for filtering PM2.5, sold through 3M's own authorized Singapore distributor.",
+      "price_range": "Varies by pack size",
+      "affiliate_link": {
+        "label": "Shop on Mass Technologies SG (3M Authorized Distributor)",
+        "url": "https://www.masstech.com.sg/product/3m-aura-particulate-respirator-9210-n95/"
+      }
+    },
+    {
+      "name": "Cambridge Mask Co The Admiral -- Pro Mask",
+      "category": "Respiratory protection",
+      "why": "A reusable mask using British military filtration technology rated to filter 99%+ of particles at 0.3 microns, with a valve to help manage CO2 buildup -- the reusable-filter alternative to restocking disposables through a multi-week haze stretch.",
+      "price_range": "Varies by design",
+      "affiliate_link": {
+        "label": "Shop on Cambridge Mask Co (Official)",
+        "url": "https://cambridgemask.com/collections/pro-mask/products/the-admiral-pro-face-mask"
+      }
+    },
+    {
+      "name": "Totobobo Reusable Respiratory Mask",
+      "category": "Respiratory protection",
+      "why": "A Singapore-designed reusable mask that's heat-moulded to an individual's face for a tighter seal than a one-size disposable, with a Cyclist filter option built around higher airflow during exercise.",
+      "price_range": "Varies by set",
+      "affiliate_link": {
+        "label": "Shop on Totobobo (Official)",
+        "url": "https://totobobo.com/buy.html"
+      }
+    }
+  ],
+  "sources": [],
+  "faqs": [
+    {
+      "question": "Is there a real difference between N95 and KN95 masks for haze protection?",
+      "answer": "Both are rated to filter at least 95% of particles down to 0.3 microns, which fully covers PM2.5 -- the difference is mainly the certifying standard and fit style, with N95 typically using a headband and KN95 more often using ear loops. Filtration performance against haze particulate is essentially equivalent between the two."
+    },
+    {
+      "question": "Can I actually run hard while wearing an N95 or KN95 mask?",
+      "answer": "Not comfortably -- a properly sealed mask creates real airflow resistance that most runners can't sustain at tempo or interval effort, because the mask restricts air faster than a hard-working respiratory system can compensate. It's realistic for the walk to a run, an easy conversational pace, or standing around an event, not a genuinely hard session."
+    },
+    {
+      "question": "Is a reusable mask worth it over disposables for haze season?",
+      "answer": "Often yes, since haze season in the region typically runs for weeks at a stretch most years, and daily disposable use adds up quickly in cost. A reusable mask with replaceable filters, properly fitted, also tends to seal better over repeated wear than a one-size disposable does."
+    }
+  ],
+  "editorial_notes": "Original buying-guide content for the Gear section. Product URLs verified live at time of writing; affiliate_link.url currently points to untracked official/retailer product pages pending real affiliate program enrollment.",
+  "published_at": "2026-08-11T16:30:00.000Z",
+  "last_updated": "2026-08-11",
+  "status": "active"
+}
