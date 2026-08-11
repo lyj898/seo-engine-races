@@ -7,7 +7,7 @@
 // shared file) ever containing the literal word "race".
 import siteConfig from '../../lib/config.js';
 import { urls, entityUrlSegment } from '../../lib/urls.js';
-import { loadEntities, loadCategories, loadRegions, loadListicles, loadReviews, stripMeta, isPublished } from '../../lib/data.js';
+import { loadEntities, loadCategories, loadRegions, loadListicles, loadReviews, stripMeta, isPublished, buildRaceLinkTargets } from '../../lib/data.js';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import FactsTable from '../../components/FactsTable.astro';
@@ -58,6 +58,15 @@ const review = siteConfig.enabledFeatures?.reviews
 // siblings, so every entity page links to its neighbours instead of being
 // reachable only from its two hubs.
 const relatedEntities = pickRelatedEntities(entity, allEntities);
+
+// FAQ answers on an entity page often name other races by way of comparison
+// ("how does it compare to X") -- autolink those the same way review/article
+// body prose already does. currentReviewSlug excludes this race's own
+// review as a link target: the "In-depth review" card above already covers
+// that, so an FAQ mentioning this exact race by name shouldn't link to
+// itself a second time.
+const raceLinks = buildRaceLinkTargets();
+const linkedRaceUrls = new Set();
 
 // A listicle is "related" if it's explicitly pinned to this entity, or its
 // filter targets this entity's category -- covers both editorial pins and
@@ -160,7 +169,13 @@ const jsonLd = [
     </div>
 
     <div class="mt-10">
-      <FAQSection faqs={entity.faqs} />
+      <FAQSection
+        faqs={entity.faqs}
+        raceLinks={raceLinks}
+        urls={urls}
+        currentReviewSlug={review?.slug ?? null}
+        alreadyLinkedUrls={linkedRaceUrls}
+      />
     </div>
 
     <div class="mt-10">

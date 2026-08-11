@@ -1,8 +1,9 @@
 ---
 import siteConfig from '../../lib/config.js';
 import { urls } from '../../lib/urls.js';
-import { loadEntities, loadCategories, loadRegions, loadListicles, loadReviews, stripMeta, isPublished } from '../../lib/data.js';
+import { loadEntities, loadCategories, loadRegions, loadListicles, loadReviews, stripMeta, isPublished, buildRaceLinkTargets } from '../../lib/data.js';
 import { resolveListicleEntities } from '../../lib/listicles.js';
+import { escapeHtml, cleanArtifacts, prepareRaceLinks, autolinkText } from '../../lib/autolink.js';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import ListicleEntry from '../../components/ListicleEntry.astro';
@@ -28,6 +29,17 @@ const allCategories = loadCategories().map(stripMeta);
 const allRegions = loadRegions().map(stripMeta);
 
 const rankedEntities = resolveListicleEntities(listicle, allEntities, allRegions, allCategories);
+
+// The intro paragraph and FAQ answers often name specific races by way of
+// example -- autolink those the same way review/article body prose does,
+// sharing one Set so a race named in the intro isn't linked again in an FAQ
+// answer below it.
+const raceLinks = buildRaceLinkTargets();
+const linkedRaceUrls = new Set();
+const sortedRaceLinks = prepareRaceLinks(raceLinks, urls);
+const introHtml = listicle.intro
+  ? autolinkText(escapeHtml(cleanArtifacts(listicle.intro)), sortedRaceLinks, linkedRaceUrls)
+  : null;
 
 // Which of these races have a published, in-depth review to link to.
 const reviewSlugs = new Set(
@@ -76,7 +88,7 @@ const jsonLd = [
       <LastUpdated date={listicle.last_updated} />
     </div>
     <div class="prose-content mt-4">
-      <p>{listicle.intro}</p>
+      {introHtml !== null ? <p set:html={introHtml} /> : <p>{listicle.intro}</p>}
     </div>
 
     {rankedEntities.length > 0 && (
@@ -114,7 +126,7 @@ const jsonLd = [
     )}
 
     <section class="mt-14">
-      <FAQSection faqs={listicle.faqs} />
+      <FAQSection faqs={listicle.faqs} raceLinks={raceLinks} urls={urls} alreadyLinkedUrls={linkedRaceUrls} />
     </section>
   </div>
 </BaseLayout>

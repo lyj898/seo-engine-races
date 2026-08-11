@@ -1,29 +1,61 @@
 ---
+import { escapeHtml, cleanArtifacts, prepareRaceLinks, autolinkText } from '../lib/autolink.js';
+
 // faqs: [{ question, answer }]. Native <details>/<summary> -- content is
 // in the DOM regardless of open/closed state, so it's fully crawlable with
 // zero JS. Step 6 adds a buildFaqPageSchema(faqs) helper that consumes this
 // SAME array to emit FAQPage JSON-LD, so a page never defines its FAQs twice.
-const { faqs = [], heading = 'Frequently asked questions' } = Astro.props;
+//
+// raceLinks/urls/currentReviewSlug/alreadyLinkedUrls: same autolinking
+// contract as ReviewArticle.astro's body prose (see src/lib/autolink.js) --
+// an FAQ answer mentioning another race by name gets that first mention
+// linked to its review, same as it would in an article's body paragraphs.
+// Optional and off by default: pages with no race-related FAQs (tools,
+// about, index) just omit raceLinks and get the old plain-text rendering,
+// unchanged. Pass the SAME alreadyLinkedUrls Set used elsewhere on the page
+// so a race already linked in body prose isn't linked again here.
+const {
+  faqs = [],
+  heading = 'Frequently asked questions',
+  raceLinks = [],
+  urls = null,
+  currentReviewSlug = null,
+  alreadyLinkedUrls = new Set(),
+} = Astro.props;
+
+const sortedRaceLinks = raceLinks.length && urls ? prepareRaceLinks(raceLinks, urls, currentReviewSlug) : [];
+
+function renderAnswer(text) {
+  if (sortedRaceLinks.length === 0) return null;
+  return autolinkText(escapeHtml(cleanArtifacts(text)), sortedRaceLinks, alreadyLinkedUrls);
+}
 ---
 
 {faqs.length > 0 && (
   <section aria-labelledby="faq-heading">
     <h2 id="faq-heading" class="mb-4 text-xl font-semibold">{heading}</h2>
     <div class="divide-y divide-brand-border dark:divide-brand-border-dark">
-      {faqs.map((faq) => (
-        <details class="group py-4">
-          <summary class="flex cursor-pointer items-center justify-between gap-4 font-medium">
-            <span>{faq.question}</span>
-            <span
-              aria-hidden="true"
-              class="shrink-0 text-brand-muted transition-transform group-open:rotate-45 dark:text-brand-muted-dark"
-            >
-              +
-            </span>
-          </summary>
-          <p class="mt-2 text-sm text-brand-muted dark:text-brand-muted-dark">{faq.answer}</p>
-        </details>
-      ))}
+      {faqs.map((faq) => {
+        const linkedAnswer = renderAnswer(faq.answer);
+        return (
+          <details class="group py-4">
+            <summary class="flex cursor-pointer items-center justify-between gap-4 font-medium">
+              <span>{faq.question}</span>
+              <span
+                aria-hidden="true"
+                class="shrink-0 text-brand-muted transition-transform group-open:rotate-45 dark:text-brand-muted-dark"
+              >
+                +
+              </span>
+            </summary>
+            {linkedAnswer !== null ? (
+              <p class="mt-2 text-sm text-brand-muted dark:text-brand-muted-dark" set:html={linkedAnswer} />
+            ) : (
+              <p class="mt-2 text-sm text-brand-muted dark:text-brand-muted-dark">{faq.answer}</p>
+            )}
+          </details>
+        );
+      })}
     </div>
   </section>
 )}

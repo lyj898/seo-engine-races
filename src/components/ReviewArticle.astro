@@ -1,4 +1,6 @@
 ---
+import { escapeHtml, cleanArtifacts, prepareRaceLinks, autolinkText } from '../lib/autolink.js';
+
 // Renders a review article's body: prose sections whose inline [n] markers
 // are turned into links to a numbered references list at the end, and whose
 // first mention of a race with its own review page is turned into a link to
@@ -16,79 +18,34 @@
 //   sources:    [{ n, label, publisher?, url, type? }]
 //   raceLinks:  [{ name, reviewSlug }] -- from src/lib/data.js's
 //               buildRaceLinkTargets(). Each distinct name is linked at most
-//               once across the whole article (its first mention only) so a
-//               race repeated through the piece doesn't turn into a wall of
-//               identical links.
+//               once across the whole page (its first mention only, see
+//               alreadyLinkedUrls below) so a race repeated through the
+//               piece doesn't turn into a wall of identical links.
 //   urls:       the site's urls helper (passed in rather than imported, so
 //               this component doesn't need to know the review path shape).
 //   currentReviewSlug: when this article IS a review, its own slug -- pass
 //               this so a review never links its own race name back to
 //               itself.
-const { sections = [], sources = [], raceLinks = [], urls, currentReviewSlug = null } = Astro.props;
-
-const escapeHtml = (s) =>
-  s
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;');
+//   alreadyLinkedUrls: optional Set, shared with other autolinked content on
+//               the same page (e.g. FAQSection's raceLinks prop) so a race
+//               already linked in one block -- body prose or FAQ answer,
+//               whichever comes first -- isn't linked again in the other.
+//               Defaults to a fresh Set for callers that don't share one.
+const {
+  sections = [],
+  sources = [],
+  raceLinks = [],
+  urls,
+  currentReviewSlug = null,
+  alreadyLinkedUrls = new Set(),
+} = Astro.props;
 
 const byNumber = new Map(sources.map((s) => [s.n, s]));
 
 // Longest name first, so a more specific mention (e.g. the full race name)
 // is matched before a shorter alias that might also be a substring of it --
 // e.g. "Amazing Thailand Marathon Bangkok (ATMB)" before "ATMB" alone.
-// Deduped by name -- the same race can legitimately appear more than once
-// in raceLinks (a name plus its bracketed short code, say), and we only
-// want one linkable target per distinct string.
-const sortedRaceLinks = [...new Map(
-  raceLinks
-    .filter((r) => r.reviewSlug !== currentReviewSlug)
-    .map((r) => [r.name, { name: r.name, url: urls.review(r.reviewSlug) }])
-).values()].sort((a, b) => b.name.length - a.name.length);
-
-// Which review URLs have already been linked once across this whole
-// article render. Tracked by URL, not by name: buildRaceLinkTargets()
-// deliberately gives one race several aliases (its full name, a bracketed
-// short code, the name with that bracket stripped), and those aliases are
-// often substrings of each other. Tracking "already linked" per-name let a
-// longer alias get wrapped in a link and then a shorter alias matching text
-// *inside that already-inserted anchor* get wrapped again -- a real bug
-// (nested <a> tags) caught after shipping. Tracking per-URL instead means
-// once any one alias for a race has been linked, every other alias for that
-// same race is skipped for the rest of the article, however it's spelled.
-const alreadyLinkedUrls = new Set();
-
-// Defensively strip artifacts a web-search-backed model can leak: <cite>
-// wrapper tags and compound/hyphenated citation refs like [16-8] or
-// [11-3,11-4] that point at internal retrieval chunks rather than our
-// sources[]. validate-data rejects these at build time, but stripping them
-// here too means a bad record can never render raw markup to a reader.
-function cleanArtifacts(text) {
-  return text
-    .replace(/<\/?cite[^>]*>/gi, '')
-    .replace(/\[\d+-[^\]]*\]/g, ''); // drop hyphenated chunk refs like [16-8]; keep [n] and [n,m]
-}
-
-// Wraps the first unlinked occurrence of each race name in an <a> to that
-// race's review. Runs on already-escaped text, and only ever inserts a link
-// built from raceLinks (never from the paragraph itself), so this can't
-// become an HTML-injection path the way rendering raw paragraph markup
-// would be.
-function autolinkRaceNames(escapedText) {
-  let result = escapedText;
-  for (const { name, url } of sortedRaceLinks) {
-    if (alreadyLinkedUrls.has(url)) continue;
-    const escapedName = escapeHtml(name);
-    const idx = result.indexOf(escapedName);
-    if (idx === -1) continue;
-    result =
-      result.slice(0, idx) +
-      `<a href="${url}" class="link-accent">${escapedName}</a>` +
-      result.slice(idx + escapedName.length);
-    alreadyLinkedUrls.add(url);
-  }
-  return result;
-}
+const sortedRaceLinks = prepareRaceLinks(raceLinks, urls, currentReviewSlug);
 
 // Escape, autolink race names, then turn a citation marker into superscript
 // link(s). Citations run last since [n] never appears inside a race name or
@@ -98,7 +55,7 @@ function autolinkRaceNames(escapedText) {
 // literal text (validate-data fails the build on that, so it never reaches
 // production).
 function renderParagraph(text) {
-  const linked = autolinkRaceNames(escapeHtml(cleanArtifacts(text)));
+  const linked = autolinkText(escapeHtml(cleanArtifacts(text)), sortedRaceLinks, alreadyLinkedUrls);
   return linked.replace(/\[(\d+(?:\s*,\s*\d+)*)\]/g, (whole, group) => {
     const nums = group.split(',').map((x) => Number(x.trim())).filter((n) => byNumber.has(n));
     if (nums.length === 0) return whole;

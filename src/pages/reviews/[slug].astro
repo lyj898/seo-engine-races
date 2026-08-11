@@ -74,6 +74,12 @@ const breadcrumbItems = [
   { label: entity.name, href: urls.review(review.slug) },
 ];
 
+// Shared across the review body and its FAQ answers so the same race is
+// linked at most once on this page, wherever its first mention actually
+// falls -- see ReviewArticle.astro and FAQSection.astro's autolink props.
+const linkedRaceUrls = new Set();
+const raceLinks = buildRaceLinkTargets();
+
 const canonicalUrl = new URL(urls.review(review.slug), Astro.site).toString();
 const entityUrl = new URL(urls.entity(entity.slug), Astro.site).toString();
 
@@ -143,9 +149,10 @@ const jsonLd = [
     <ReviewArticle
       sections={review.sections}
       sources={review.sources}
-      raceLinks={buildRaceLinkTargets()}
+      raceLinks={raceLinks}
       urls={urls}
       currentReviewSlug={review.slug}
+      alreadyLinkedUrls={linkedRaceUrls}
     />
 
     {review.pull_quotes?.length > 0 && (
@@ -157,7 +164,13 @@ const jsonLd = [
 
     {review.faqs?.length > 0 && (
       <div class="mt-12">
-        <FAQSection faqs={review.faqs} />
+        <FAQSection
+          faqs={review.faqs}
+          raceLinks={raceLinks}
+          urls={urls}
+          currentReviewSlug={review.slug}
+          alreadyLinkedUrls={linkedRaceUrls}
+        />
       </div>
     )}
 
