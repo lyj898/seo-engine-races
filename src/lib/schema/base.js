@@ -312,3 +312,35 @@ export const gearArticleSchema = z.object({
   last_updated: z.string().min(1),
   status: z.enum(STATUS_VALUES),
 });
+
+/**
+ * General-purpose editorial articles (data/articles/*.json) -- "how to train
+ * for a hot-weather marathon", "why Southeast Asian races start before
+ * dawn", not a review of one entity (reviewSchema) or a product buying guide
+ * (gearArticleSchema, which this otherwise mirrors minus `products`). Reuses
+ * the same reviewSectionSchema/[n]-citation body-prose mechanics and
+ * faqSchema as both of those, so ReviewArticle.astro renders this content
+ * type with zero changes and validate-data.js's citation-resolution and FAQ-
+ * length checks apply identically.
+ *
+ * `topic` groups articles into sections the same way gearArticleSchema's
+ * `topic` does on the Gear index -- kept as a separate field here rather
+ * than shared logic, since an articles-index page grouping by topic is a
+ * page-layout concern, not a schema-sharing one.
+ */
+export const articleSchema = z.object({
+  article_id: z.string().min(1),
+  slug: slugSchema,
+  title: z.string().min(1),
+  seo_title: z.string().min(1).max(70).optional(),
+  meta_description: z.string().min(1).max(200).optional(),
+  topic: z.string().min(1),
+  dek: z.string().min(1),
+  sections: z.array(reviewSectionSchema).min(1),
+  sources: z.array(reviewSourceSchema).default([]),
+  faqs: z.array(faqSchema).default([]),
+  editorial_notes: z.string().optional(),
+  published_at: z.string().optional(),
+  last_updated: z.string().min(1),
+  status: z.enum(STATUS_VALUES),
+});

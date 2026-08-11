@@ -1,0 +1,73 @@
+{
+  "article_id": "marathon-tapering-final-weeks-guide",
+  "slug": "marathon-tapering-final-weeks-guide",
+  "title": "Marathon Tapering: What to Actually Do in the Final Two to Three Weeks",
+  "seo_title": "Marathon Taper Guide: The Final 2-3 Weeks Explained",
+  "meta_description": "Cutting volume without losing fitness -- what the research says about how long to taper before a marathon, how much to cut, and what to keep.",
+  "topic": "Training & Racing",
+  "dek": "Tapering feels wrong to most runners -- cutting volume right when race day is closest reads as losing fitness, not gaining freshness. The research says the opposite, and it's specific about how long and how much.",
+  "sections": [
+    {
+      "heading": "What a Taper Is Actually Doing",
+      "paragraphs": [
+        "A taper isn't rest -- it's a deliberate reduction in training volume while intensity is mostly preserved, designed to let the body clear accumulated fatigue from months of build-up training without losing the fitness adaptations that build-up produced. Fitness and fatigue are both real and both temporary; a taper is timed to let fatigue fade faster than fitness does.",
+        "This is why a well-run taper leaves most runners feeling both undertrained and strangely fresh in the final week -- both sensations are accurate at once, and neither one means the taper is wrong."
+      ]
+    },
+    {
+      "heading": "How Long, and How Much to Cut",
+      "paragraphs": [
+        "A 2023 systematic review and meta-analysis in PLOS ONE concluded that a \"≤21-day taper, in which training volume is progressively reduced by 41-60% without changing training intensity or frequency, is an effective tapering strategy\"[1]. Mayo Clinic Health System's guidance draws on the same underlying research (a 27-study meta-analysis by Bosquet and colleagues) and recommends marathoners taper for roughly 19-22 days -- about two to three weeks[2].",
+        "In practical terms for a typical marathon block: if peak weekly volume was around 80km, a taper following this research would bring that down to roughly 32-47km by race week, cut gradually across the final two to three weeks rather than dropped all at once."
+      ]
+    },
+    {
+      "heading": "What to Keep: Intensity Over Volume",
+      "paragraphs": [
+        "Both sources are specific that intensity and frequency should stay largely intact even as volume drops -- this is the detail most runners get backwards, cutting hard efforts first because they feel like the riskiest sessions to keep. Short, race-pace or slightly-faster efforts within an otherwise easy week are what keep neuromuscular sharpness and running economy from fading during the taper.",
+        "A practical taper structure: keep the same number of weekly runs and roughly the same intensity distribution, but shorten each run's distance -- a hard interval session becomes fewer reps at the same pace, not the same reps at an easier pace."
+      ]
+    },
+    {
+      "heading": "Common Taper Mistakes",
+      "paragraphs": [
+        "The most common mistake is treating the taper as full rest rather than reduced training -- stopping running almost entirely in the final two weeks removes the intensity stimulus the research says should stay, and can leave legs feeling flat and unresponsive on race morning rather than sharp.",
+        "The second most common mistake runs the other way: getting nervous about lost fitness and squeezing in one more long run or hard workout inside the taper window. Race-week panic training doesn't add meaningful fitness this close to race day -- the adaptations from a session run 10 days before a marathon haven't had time to be absorbed -- but it does add fatigue the taper was specifically designed to clear."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "label": "Effect of taper on repeated sprint and endurance performance: A systematic review and meta-analysis",
+      "publisher": "PLOS ONE",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0282838",
+      "type": "other"
+    },
+    {
+      "n": 2,
+      "label": "Designing Your Taper to Maximize Your Potential on Race Day",
+      "publisher": "Mayo Clinic Health System",
+      "url": "https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/designing-your-taper-to-maximize-your-potential-on-race-day",
+      "type": "other"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How long should a marathon taper last?",
+      "answer": "Research points to roughly two to three weeks -- a 2023 PLOS ONE meta-analysis found a taper of 21 days or less to be effective, and Mayo Clinic Health System's guidance recommends about 19-22 days specifically for marathoners, drawing on the same underlying research."
+    },
+    {
+      "question": "How much should I cut my training volume during a taper?",
+      "answer": "The research supports cutting weekly training volume by roughly 41-60% by race week, reduced gradually across the taper rather than all at once. Intensity and training frequency should stay largely unchanged even as total volume drops."
+    },
+    {
+      "question": "Should I stop doing hard workouts completely during my taper?",
+      "answer": "No -- research specifically recommends keeping training intensity and frequency largely intact during a taper, only reducing volume. Cutting a hard session's distance while keeping its pace (fewer reps at the same speed, not the same reps slower) is what keeps sharpness through race week."
+    }
+  ],
+  "editorial_notes": "Original editorial content for the Articles section. Cited claims verified against live source URLs at time of writing.",
+  "published_at": "2026-08-11T02:10:00.000Z",
+  "last_updated": "2026-08-11",
+  "status": "active"
+}

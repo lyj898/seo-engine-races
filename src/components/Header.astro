@@ -12,6 +12,7 @@ const navLinks = [
   ...(siteConfig.enabledFeatures?.listicles ? [{ href: urls.listiclesIndex(), label: 'Best Of' }] : []),
   ...(siteConfig.enabledFeatures?.reviews ? [{ href: urls.reviewsIndex(), label: 'Reviews' }] : []),
   ...(siteConfig.enabledFeatures?.gear ? [{ href: urls.gearIndex(), label: 'Gear' }] : []),
+  ...(siteConfig.enabledFeatures?.articles ? [{ href: urls.articlesIndex(), label: 'Articles' }] : []),
   { href: urls.toolsIndex(), label: 'Lab' },
   { href: urls.about(), label: 'About' },
 ];

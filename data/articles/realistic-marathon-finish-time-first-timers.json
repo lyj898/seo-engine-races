@@ -1,0 +1,66 @@
+{
+  "article_id": "realistic-marathon-finish-time-first-timers",
+  "slug": "realistic-marathon-finish-time-first-timers",
+  "title": "What's a Realistic Marathon Finish Time for a First-Timer?",
+  "seo_title": "Realistic First Marathon Finish Time: What the Data Shows",
+  "meta_description": "Movie-marathon finish times set unrealistic expectations. Here's what actual race-result data shows about average finish times, and how heat and humidity change the target.",
+  "topic": "Training & Racing",
+  "dek": "Sub-4-hour marathons get talked about online far more often than they actually happen. Here's what large-scale race-result data says a realistic finish time actually looks like -- and why that number should shift further for a first marathon run in Southeast Asia's heat.",
+  "sections": [
+    {
+      "heading": "Why Finish-Time Expectations Get Set Too High",
+      "paragraphs": [
+        "Marathon culture online skews heavily toward faster, more experienced runners -- training accounts, race-recap posts, and PR celebrations are disproportionately from people already well under the average, which quietly resets what 'normal' looks like for someone about to run their first one. A first-timer comparing themselves to that visible slice of the sport is comparing themselves to a skewed sample, not the actual field.",
+        "This gap between perceived-normal and actual-normal is where a lot of unnecessary race-day disappointment comes from -- not from running a bad race, but from measuring a solid first marathon against a number that was never realistic to begin with."
+      ]
+    },
+    {
+      "heading": "What the Data Actually Shows",
+      "paragraphs": [
+        "RunRepeat's \"State of US Marathons 2025\" analysis, built on over 10 million race results spanning 1984-2025, put the 2024 average marathon finish time at 4 hours 34 minutes overall, breaking down to roughly 4:24 for men and 4:51 for women[1]. That's an average across the entire field -- experienced and first-time runners alike -- not a first-timer-specific benchmark, and it sits well outside the sub-4-hour mark that's often treated online as a baseline expectation.",
+        "The practical read: finishing anywhere close to that average time, or even comfortably above it, is a genuinely solid result for a first marathon, not a disappointing one. A first-timer targeting 4:30-5:30 depending on their training background is targeting a realistic, well-supported range, not a modest one."
+      ]
+    },
+    {
+      "heading": "Setting a Goal Based on Training, Not Aspiration",
+      "paragraphs": [
+        "A more reliable way to set a first-marathon target than picking a round number is to base it on recent long-run pace: take the pace held comfortably on a 25-30km training run and add a realistic buffer for the final 10-12km, where even well-trained first-timers typically slow down. That buffer is worth building into the goal explicitly rather than treating it as a failure if it happens.",
+        "A negative-split or even-effort strategy -- running the first half slightly conservative relative to goal pace -- tends to produce a better result and a better experience for first-timers than an ambitious even-pace target that requires everything to go right from the start."
+      ]
+    },
+    {
+      "heading": "Why the Target Should Shift Further for a Race in Southeast Asia",
+      "paragraphs": [
+        "The RunRepeat data reflects a global (mostly temperate-climate) dataset, not races run in tropical heat and humidity -- heat measurably slows marathon finish times across the field, not just for underprepared runners, because the cardiovascular system has to divert effort to managing heat load that would otherwise go toward pace. A first marathon run in Southeast Asia's typical race-morning conditions should reasonably target a slower time than the same runner might expect from an equivalent temperate-climate race.",
+        "This isn't a fitness problem to train away entirely -- heat acclimatization (see this site's guide on training for heat and humidity) narrows the gap but doesn't erase it. Building a heat-adjusted buffer into a first-marathon goal, rather than importing a target from cooler-climate race data, sets an expectation that matches the actual conditions on the day."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "label": "The State of US Marathons 2025",
+      "publisher": "RunRepeat",
+      "url": "https://runrepeat.com/the-state-of-us-marathons-2025",
+      "type": "other"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is a realistic finish time for a first marathon?",
+      "answer": "Large-scale race-result data (RunRepeat's analysis of over 10 million results) puts the overall average marathon finish time at 4:34, roughly 4:24 for men and 4:51 for women. A first-timer finishing anywhere near that range, or comfortably above it, is achieving a genuinely solid result -- not an underwhelming one."
+    },
+    {
+      "question": "Is sub-4-hours a normal marathon finish time?",
+      "answer": "No -- it sits well above the actual field average of around 4:34, even though it's frequently treated online as a baseline expectation. That perception comes from marathon social media skewing toward faster, more experienced runners, not from what most finishers actually run."
+    },
+    {
+      "question": "Should I expect to run slower in a Southeast Asia marathon than elsewhere?",
+      "answer": "Yes -- heat measurably slows marathon finish times across the whole field, not just for underprepared runners, because the body has to divert effort to managing heat load. A first marathon run in the region's typical race-morning heat and humidity should reasonably target a slower time than the same runner might expect in a cooler climate."
+    }
+  ],
+  "editorial_notes": "Original editorial content for the Articles section. Cited claims verified against live source URLs at time of writing.",
+  "published_at": "2026-08-11T02:15:00.000Z",
+  "last_updated": "2026-08-11",
+  "status": "active"
+}

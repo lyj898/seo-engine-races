@@ -20,6 +20,9 @@ const year = new Date().getFullYear();
         {siteConfig.enabledFeatures?.gear && (
           <li><a href={urls.gearIndex()} class="link-muted">Gear</a></li>
         )}
+        {siteConfig.enabledFeatures?.articles && (
+          <li><a href={urls.articlesIndex()} class="link-muted">Articles</a></li>
+        )}
         <li><a href={urls.toolsIndex()} class="link-muted">Lab</a></li>
       </ul>
     </div>

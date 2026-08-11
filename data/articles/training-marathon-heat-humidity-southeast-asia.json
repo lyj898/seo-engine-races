@@ -1,0 +1,73 @@
+{
+  "article_id": "training-marathon-heat-humidity-southeast-asia",
+  "slug": "training-marathon-heat-humidity-southeast-asia",
+  "title": "How to Train for a Marathon in Southeast Asia's Heat and Humidity",
+  "seo_title": "Marathon Training in Heat and Humidity: A SEA Guide",
+  "meta_description": "Most marathon plans are written for temperate climates. Here's how heat acclimatization actually works, and how to build it into a training block in Southeast Asia.",
+  "topic": "Training & Racing",
+  "dek": "Most marathon training plans are written by and for runners in temperate climates -- they assume you can hold marathon pace on a cool morning without your body fighting the air itself. Training in Southeast Asia means building heat tolerance on purpose, not hoping it shows up on race day.",
+  "sections": [
+    {
+      "heading": "Why Heat Acclimatization Matters More Than Most Plans Admit",
+      "paragraphs": [
+        "A body that has never trained in heat responds to it the same way it responds to any other unfamiliar stress: heart rate climbs faster than the pace justifies, sweat comes late and unevenly, and perceived effort spikes well before the legs are actually tired. None of that is a fitness problem -- it's an adaptation problem, and adaptation only happens with repeated, deliberate exposure.",
+        "This is the gap that catches visiting runners and even long-time residents who train mostly indoors: a marathon plan built around a target pace from a cooler climate, run without any heat-specific preparation, tends to fall apart in the second half of a hot race even when the runner's fitness on paper says otherwise."
+      ]
+    },
+    {
+      "heading": "How Long Real Heat Adaptation Takes",
+      "paragraphs": [
+        "The Gatorade Sports Science Institute's review of heat acclimatization research describes the adaptation as \"generally complete by 10-14 days\" of consistent heat exposure, with the body responding by sweating earlier and more efficiently, expanding blood plasma volume, and running at a lower core temperature and heart rate for the same effort[1]. The CDC's occupational heat-safety guidance for workers describes a similar window, recommending a gradual 7-14 day heat-exposure schedule that builds up duration and intensity rather than jumping straight into a hard effort[2].",
+        "The practical takeaway is the same from both: heat tolerance is trainable on a fairly short and predictable timeline, but it has to be built specifically, not assumed to come along for free with general marathon fitness."
+      ]
+    },
+    {
+      "heading": "Building a Heat Block Into an Existing Training Plan",
+      "paragraphs": [
+        "For runners already based in Southeast Asia, the acclimatization mostly happens by default -- but only if easy runs and long runs are actually run outdoors in the heat rather than on an indoor treadmill in air conditioning, which removes the exact stimulus the body needs to adapt. Two to three outdoor sessions a week, even at an easy, conversational pace, is enough to maintain heat tolerance once it's built.",
+        "For runners traveling in from a cooler climate for a race, the same 10-14 day window applies as a rough minimum arrival buffer: landing three or four days before race day gives almost no time to adapt and usually means racing in a body that's still fighting the heat rather than working with it. Arriving one to two weeks early, and getting outdoor runs in immediately rather than resting jet lag away indoors, makes far better use of that window."
+      ]
+    },
+    {
+      "heading": "Signs You're Adapting -- and Signs You're Not",
+      "paragraphs": [
+        "Early signs of adaptation are consistent across both sources: sweating that starts sooner into a run, a heart rate that settles faster at an easy pace, and a session that used to feel brutal starting to feel merely uncomfortable. These usually show up within the first week of consistent outdoor training.",
+        "The absence of those signs after a week or two of genuine outdoor exposure -- heart rate still spiking early, sweat still arriving late, every run still feeling like the first one -- is worth treating as a signal to dial back intensity rather than push through, since heat illness risk climbs faster than fitness does when adaptation isn't keeping pace with training load."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "label": "Heat Acclimatization to Improve Athletic Performance in Warm/Hot Environments",
+      "publisher": "Gatorade Sports Science Institute",
+      "url": "https://www.gssiweb.org/sports-science-exchange/article/sse-153-heat-acclimatization-to-improve-athletic-performance-in-warm-hot-environments",
+      "type": "other"
+    },
+    {
+      "n": 2,
+      "label": "Acclimatization Recommendations",
+      "publisher": "CDC / NIOSH",
+      "url": "https://www.cdc.gov/niosh/heat-stress/recommendations/acclimatization.html",
+      "type": "official"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How many days does it take to acclimatize to heat before a race in Southeast Asia?",
+      "answer": "Sports science research puts full heat acclimatization at roughly 10-14 days of consistent exposure, with the body sweating earlier, expanding blood plasma volume, and running at a lower heart rate for the same effort by the end of that window. Visiting runners should treat arriving less than a week before race day as a real handicap, not a minor inconvenience."
+    },
+    {
+      "question": "Can I train indoors in air conditioning and still race well in Southeast Asia's heat?",
+      "answer": "Air-conditioned indoor training removes the exact stimulus your body needs to adapt to heat, so it will not build heat tolerance no matter how fit it makes you otherwise. At least two to three outdoor sessions a week, even easy ones, are needed to build and then maintain real heat acclimatization ahead of a hot race."
+    },
+    {
+      "question": "What are the first signs that my body is adapting to hot-weather training?",
+      "answer": "The earliest signs are sweating that starts sooner into a run, a heart rate that settles faster at an easy pace, and sessions that used to feel brutal starting to feel merely uncomfortable. These typically appear within the first week of consistent outdoor training and build further over the following one to two weeks."
+    }
+  ],
+  "editorial_notes": "Original editorial content for the Articles section. Cited claims verified against live source URLs at time of writing.",
+  "published_at": "2026-08-11T02:00:00.000Z",
+  "last_updated": "2026-08-11",
+  "status": "active"
+}
