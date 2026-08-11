@@ -35,7 +35,8 @@ const escapeHtml = (s) =>
 const byNumber = new Map(sources.map((s) => [s.n, s]));
 
 // Longest name first, so a more specific mention (e.g. the full race name)
-// is matched before a shorter alias that might also be a substring of it.
+// is matched before a shorter alias that might also be a substring of it --
+// e.g. "Amazing Thailand Marathon Bangkok (ATMB)" before "ATMB" alone.
 // Deduped by name -- the same race can legitimately appear more than once
 // in raceLinks (a name plus its bracketed short code, say), and we only
 // want one linkable target per distinct string.
@@ -45,11 +46,17 @@ const sortedRaceLinks = [...new Map(
     .map((r) => [r.name, { name: r.name, url: urls.review(r.reviewSlug) }])
 ).values()].sort((a, b) => b.name.length - a.name.length);
 
-// Which race names have already been linked once across this whole article
-// render. Declared outside renderParagraph so it persists across every
-// paragraph in every section -- state a plain function expression can hold
-// onto between calls within the same component render.
-const alreadyLinkedRaceNames = new Set();
+// Which review URLs have already been linked once across this whole
+// article render. Tracked by URL, not by name: buildRaceLinkTargets()
+// deliberately gives one race several aliases (its full name, a bracketed
+// short code, the name with that bracket stripped), and those aliases are
+// often substrings of each other. Tracking "already linked" per-name let a
+// longer alias get wrapped in a link and then a shorter alias matching text
+// *inside that already-inserted anchor* get wrapped again -- a real bug
+// (nested <a> tags) caught after shipping. Tracking per-URL instead means
+// once any one alias for a race has been linked, every other alias for that
+// same race is skipped for the rest of the article, however it's spelled.
+const alreadyLinkedUrls = new Set();
 
 // Defensively strip artifacts a web-search-backed model can leak: <cite>
 // wrapper tags and compound/hyphenated citation refs like [16-8] or
@@ -70,7 +77,7 @@ function cleanArtifacts(text) {
 function autolinkRaceNames(escapedText) {
   let result = escapedText;
   for (const { name, url } of sortedRaceLinks) {
-    if (alreadyLinkedRaceNames.has(name)) continue;
+    if (alreadyLinkedUrls.has(url)) continue;
     const escapedName = escapeHtml(name);
     const idx = result.indexOf(escapedName);
     if (idx === -1) continue;
@@ -78,7 +85,7 @@ function autolinkRaceNames(escapedText) {
       result.slice(0, idx) +
       `<a href="${url}" class="link-accent">${escapedName}</a>` +
       result.slice(idx + escapedName.length);
-    alreadyLinkedRaceNames.add(name);
+    alreadyLinkedUrls.add(url);
   }
   return result;
 }
