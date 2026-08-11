@@ -1,0 +1,73 @@
+{
+  "article_id": "recovery-days-why-rest-is-part-of-training",
+  "slug": "recovery-days-why-rest-is-part-of-training",
+  "title": "Recovery Days: Why Rest Is Part of Training",
+  "seo_title": "Recovery Days: Why Rest Is Part of Marathon Training",
+  "meta_description": "The physiological case for scheduled recovery days, warning signs you need more rest than your plan allows, and why Southeast Asia's heat raises the recovery bar.",
+  "topic": "Running Health & Recovery",
+  "dek": "Fitness isn't built during the workout -- it's built during the recovery that follows it. Here's the physiology behind that idea, how to tell when you need more rest than your plan calls for, and why the SEA heat changes the math.",
+  "sections": [
+    {
+      "heading": "The Physiology of Adaptation: Why Rest Isn't a Pause in Training",
+      "paragraphs": [
+        "The training-and-recovery model that underlies most structured plans -- often called supercompensation -- describes a predictable sequence: a training session applies a stress that the body isn't yet fully adapted to, performance capacity dips as fatigue accumulates, and then, given enough recovery time, the body doesn't just return to its prior baseline but rebuilds slightly past it, in anticipation of facing that stress again[1]. The workout is the stimulus; the adaptation -- the actual fitness gain -- happens afterward, during the recovery window, not during the run itself.",
+        "That sequencing detail matters more than it sounds like it should. A runner who stacks hard session on hard session without letting that rebuild phase complete isn't accumulating fitness faster -- they're interrupting the process each time, so each new stress lands on a body that's still in the fatigue trough from the last one rather than the rebuilt peak above it. Enough of that pattern is the mechanism behind what's usually described as overreaching sliding into overtraining[1]."
+      ]
+    },
+    {
+      "heading": "Signs You Need More Recovery Than Your Plan Calls For",
+      "paragraphs": [
+        "A written training plan is a reasonable default, not a guarantee that it matches any individual week's actual recovery need -- sleep quality, work stress, illness, heat exposure, and travel all change how much recovery a given training load requires, and a plan can't see any of that. The clearest signals that the plan is currently asking for more than the body can currently supply are a resting heart rate that's noticeably elevated for several mornings running, soreness that isn't easing with an easy day the way it normally does, a performance plateau or regression despite consistent training, and sleep that's become harder to fall into or stay in.",
+        "None of these signs individually mean a training block is failing -- some fatigue is the point of training. The distinction worth acting on is between soreness and tiredness that responds to a single easy day (normal) and a pattern that persists across several easy days in a row (a sign the plan's built-in recovery isn't currently enough). Treating the second pattern as information and adding an extra easy or rest day is far cheaper than training through it and losing a much larger chunk of a block to illness or injury later."
+      ]
+    },
+    {
+      "heading": "Southeast Asia's Heat Raises the Recovery Bar",
+      "paragraphs": [
+        "Training in heat produces its own physiological adaptations over time -- better sweating and skin blood flow responses, expanded plasma volume, improved cardiovascular stability -- but getting there isn't free. Consensus guidance on training and competing in heat describes measurably higher cardiovascular and thermoregulatory strain during hot-weather sessions, plus greater fluid and electrolyte loss, compared with the same session done in cooler conditions[2]. The training stress of a given run is simply higher in Bangkok or Manila humidity than the identical pace and distance would be in a temperate climate.",
+        "The practical consequence is that a training plan built around generic recovery guidelines -- often written with cooler-climate conditions as the unstated default -- may understate how much recovery a Southeast Asian runner actually needs for the same weekly mileage. Two runners logging identical numbers on paper, one training through equatorial humidity and one in a mild autumn, are not applying the same training stress, and treating their recovery needs as equivalent is a common way heat-related fatigue gets misread as a lack of fitness."
+      ]
+    },
+    {
+      "heading": "Building Real Recovery Into a SEA Training Block",
+      "paragraphs": [
+        "The most reliable structural fix is the same one that addresses the supercompensation mismatch directly: build training in cycles of roughly three to four weeks of progressive load followed by a deliberately lighter down week, rather than ramping continuously until something breaks. In hot-climate training specifically, it's worth treating 'easy' days as genuinely easy -- slower than feels necessary, not just slower than the hard days -- since heat alone adds cardiovascular strain even at a conversational pace.",
+        "Recovery isn't only about days off the schedule; sleep, hydration, and post-run cooling all shape how quickly a given session's fatigue clears. Runners training through Southeast Asia's heat get more mileage out of protecting those daily habits -- consistent sleep, replacing fluid and sodium lost to heavy sweating, and getting out of hot kit and into shade or air conditioning promptly after a session -- than out of simply adding more scheduled rest days on top of a plan that doesn't otherwise account for the climate."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "label": "Overtraining and recovery. A conceptual model",
+      "publisher": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9739537/",
+      "type": "other"
+    },
+    {
+      "n": 2,
+      "label": "Consensus Recommendations on Training and Competing in the Heat",
+      "publisher": "PMC (National Institutes of Health)",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4473280/",
+      "type": "other"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Why do rest days actually matter for marathon training?",
+      "answer": "Fitness gains happen during recovery, not during the workout itself. Training stress causes temporary fatigue and a performance dip; given enough recovery time, the body rebuilds slightly past its previous baseline. Skipping that recovery window before it completes interrupts the adaptation rather than speeding it up."
+    },
+    {
+      "question": "How do I know if I need more recovery than my plan calls for?",
+      "answer": "Watch for soreness or elevated resting heart rate that persists across several easy days rather than clearing after one, a performance plateau despite consistent training, and increasingly disrupted sleep. Isolated fatigue is normal training; a multi-day pattern that isn't clearing is the signal to add extra rest."
+    },
+    {
+      "question": "Does training in Southeast Asia's heat require more recovery than training in a cooler climate?",
+      "answer": "Yes -- heat adds measurable cardiovascular and thermoregulatory strain plus greater fluid and electrolyte loss on top of a run's normal training stress. The same pace and mileage logged in equatorial humidity represents a heavier load than in a temperate climate, so recovery needs are correspondingly higher."
+    }
+  ],
+  "editorial_notes": "Original editorial content for the Articles section. Cited claims verified against live source URLs at time of writing.",
+  "published_at": "2026-08-11T05:30:00.000Z",
+  "last_updated": "2026-08-11",
+  "status": "active"
+}

@@ -1,0 +1,73 @@
+{
+  "article_id": "dealing-with-side-stitches-and-cramps-mid-run",
+  "slug": "dealing-with-side-stitches-and-cramps-mid-run",
+  "title": "Dealing With Side Stitches and Cramps Mid-Run",
+  "seo_title": "Dealing With Side Stitches and Cramps Mid-Run",
+  "meta_description": "What actually causes a side stitch, practical in-run fixes, and how cramps differ from stitches -- including why the electrolyte-deficiency theory of cramping is contested.",
+  "topic": "Running Health & Recovery",
+  "dek": "A side stitch and a muscle cramp mid-run can feel like variations on the same problem, but they're physiologically distinct, and the research behind each has moved in different directions than most runners assume.",
+  "sections": [
+    {
+      "heading": "What Actually Causes a Side Stitch",
+      "paragraphs": [
+        "The medical term for a side stitch is exercise-related transient abdominal pain, or ETAP, and it's more common than its casual, joking treatment in running culture suggests -- and honestly, not fully understood at the mechanism level. Several competing theories have been proposed over the years, including diaphragmatic ischemia (blood being shunted away from the diaphragm toward working leg muscles) and stress on the ligaments connecting internal organs to the diaphragm, but a review of the literature found the strongest current support for a third explanation: irritation of the parietal peritoneum, the thin tissue lining the abdominal wall and connecting to the underside of the diaphragm[1].",
+        "None of the competing theories are fully settled, and the review is explicit that further investigation is still needed[1] -- which is a more honest answer than the confident single-cause explanations that circulate informally. What is reasonably well established is the pattern of triggers: eating or drinking a large volume close to running, running soon after a large meal, and shallow, high, chest-dominant breathing under effort all correlate with a higher likelihood of getting one."
+      ]
+    },
+    {
+      "heading": "In-Run Fixes for a Side Stitch",
+      "paragraphs": [
+        "The most consistently reported in-run fix is a change in breathing pattern -- deep, deliberate belly breathing rather than shallow chest breathing, sometimes paired with exhaling on the opposite foot strike from whatever side the stitch is on (so if it's on the right, exhaling as the left foot lands). Slowing the pace for a minute or two, and gently pressing a hand or fingers into the area while bending slightly forward at the point of exhale, also reliably eases the acute pain for most runners even if the exact mechanism behind why it helps isn't fully pinned down.",
+        "For prevention on future runs, the practical levers are the same ones the trigger pattern points to: leave more time between a large meal or big fluid volume and the start of a run, and build in some conscious deep-breathing practice during easy runs so it becomes the default under effort rather than something to remember mid-stitch. Runners who get frequent stitches often find the pattern fades noticeably once meal timing and breathing habit are both addressed together."
+      ]
+    },
+    {
+      "heading": "How Cramps Are a Different Problem Than Stitches",
+      "paragraphs": [
+        "A muscle cramp -- typically in the calves, hamstrings, or quads, usually in the later stages of a hard or long effort -- is a different phenomenon from a stitch entirely: it's an involuntary, painful muscle contraction rather than abdominal discomfort, and it happens in the working muscle itself rather than the trunk. For a long time the default explanation was straightforward dehydration and electrolyte loss, and that's still the version most runners hear.",
+        "More recent research has substantially complicated that story. A review in the journal Sports Medicine describes the electrolyte/dehydration theory as resting mainly on observational studies that can't establish cause and effect, and notes that cramping has been documented to occur without measurable electrolyte depletion or dehydration -- while controlled studies that kept athletes fully hydrated found it didn't prevent experimentally induced cramps either[2]. The evidence instead points toward altered neuromuscular control -- an imbalance between the nerve signals that drive a muscle to contract and the signals that should inhibit it, worsened by localized muscle fatigue -- as the better-supported explanation, at least for cramps during exercise specifically[2]."
+      ]
+    },
+    {
+      "heading": "What Actually Helps With Cramps",
+      "paragraphs": [
+        "Given that shift in the evidence, gulping an electrolyte drink the moment a cramp hits isn't a reliable fix for the cramp already happening, even though staying reasonably hydrated over the course of a long, hot run is still good general practice for other reasons covered elsewhere on this site. What does reliably help in the moment is slowing down or stopping briefly, and actively stretching or applying gentle pressure to the cramping muscle -- both act directly on the neuromuscular mechanism the newer research points to, rather than trying to correct an electrolyte balance that may not be the actual problem.",
+        "Some runners find fast-acting relief from a small amount of a strongly flavored substance like pickle juice or mustard, and the leading explanation for why isn't that it rapidly replaces electrolytes (there isn't time for that) but that the strong taste appears to trigger a reflex through nerve receptors in the mouth and throat that can interrupt the cramp signal, independent of what's actually absorbed. For genuine prevention rather than in-run rescue, the more useful long-term lever is training the specific muscles and paces that tend to produce cramps, since localized fatigue -- not electrolyte status -- is the factor the current evidence points to most consistently[2]."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "label": "Exercise-Related Transient Abdominal Pain (ETAP)",
+      "publisher": "PMC (National Institutes of Health)",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4281377/",
+      "type": "other"
+    },
+    {
+      "n": 2,
+      "label": "Muscle Cramping During Exercise: Causes, Solutions, and Questions Remaining",
+      "publisher": "Sports Medicine (Springer)",
+      "url": "https://link.springer.com/article/10.1007/s40279-019-01162-1",
+      "type": "other"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What actually causes a side stitch?",
+      "answer": "It's medically termed exercise-related transient abdominal pain, and the exact mechanism isn't fully settled. Current research leans toward irritation of the parietal peritoneum, the tissue lining the abdominal wall, over older theories like diaphragm blood-flow shunting, though investigation is ongoing."
+    },
+    {
+      "question": "What's the fastest way to get rid of a side stitch mid-run?",
+      "answer": "Switch to deep belly breathing rather than shallow chest breathing, try exhaling on the foot strike opposite the stitch, and slow your pace briefly while pressing into the area. Most runners find the pain eases within a minute or two using this combination."
+    },
+    {
+      "question": "Do electrolytes actually stop a muscle cramp once it starts?",
+      "answer": "Not reliably. Research now points to altered neuromuscular control and localized muscle fatigue as the better-supported cause of exercise cramps, not dehydration or electrolyte loss alone. Slowing down and stretching the cramping muscle directly is more consistently effective than drinking electrolytes in the moment."
+    }
+  ],
+  "editorial_notes": "Original editorial content for the Articles section. Cited claims verified against live source URLs at time of writing.",
+  "published_at": "2026-08-11T05:45:00.000Z",
+  "last_updated": "2026-08-11",
+  "status": "active"
+}

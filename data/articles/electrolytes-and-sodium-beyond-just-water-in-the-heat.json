@@ -1,0 +1,73 @@
+{
+  "article_id": "electrolytes-and-sodium-beyond-just-water-in-the-heat",
+  "slug": "electrolytes-and-sodium-beyond-just-water-in-the-heat",
+  "title": "Electrolytes and Sodium: Beyond Just Water in the Heat",
+  "seo_title": "Electrolytes and Sodium: Beyond Just Water in the Heat",
+  "meta_description": "Why water alone isn't enough for long, hot efforts, the overhydration and hyponatremia risk, and practical guidance on when electrolyte replacement matters.",
+  "topic": "Running Health & Recovery",
+  "dek": "On a long, hot run, plain water solves only half the fluid-balance problem -- and past a certain point, drinking more of it can create a different problem entirely. Here's what sweat actually takes with it, and when to replace it.",
+  "sections": [
+    {
+      "heading": "Why Water Alone Isn't Enough on Long, Hot Efforts",
+      "paragraphs": [
+        "Sweat isn't pure water -- it carries dissolved sodium out with it, and the hotter and more humid the conditions, the more a runner sweats to manage the same core temperature, which means more sodium lost alongside the fluid. In Southeast Asia's heat and humidity, sweat rates during a long run or race can run well above what most runners would produce for the same effort in a temperate climate, and replacing only the fluid half of that loss with plain water leaves the sodium side of the ledger increasingly out of balance as the run goes on.",
+        "That imbalance doesn't announce itself the way dehydration does. A runner who feels thirsty and simply drinks more water to match is addressing fluid volume, not sodium concentration -- and on a long enough effort, that combination is exactly the setup for the more serious problem covered below, rather than a fix for it."
+      ]
+    },
+    {
+      "heading": "The Overhydration Risk: Hyponatremia",
+      "paragraphs": [
+        "Exercise-associated hyponatremia is a drop in blood sodium concentration that can occur during or after prolonged exercise, and updated guidelines from the Wilderness Medical Society identify its main driver as overdrinking -- specifically, taking in more hypotonic fluid (plain water or standard sports drink) than the body is losing through sweat, urine, and other routes, which dilutes existing sodium levels rather than the more intuitive-sounding cause of simply losing too much sodium[1]. It's a genuinely serious condition in its more severe form, and the risk rises specifically with exercise duration beyond roughly two hours, hot conditions, and a tendency to drink more than thirst calls for.",
+        "This is worth stating plainly because it cuts against the instinct many runners have in the heat: more water is not automatically the safer choice on a long, hot effort. The Wilderness Medical Society guidance is explicit that inadequate sodium intake before or during an event isn't itself well-supported as a cause of hyponatremia -- the core issue is fluid volume outpacing what the body needs, not a sodium deficit on its own[1]. Drinking to thirst, rather than to a fixed volume target or out of heat-driven anxiety, is the more defensible default for most runners on most long runs."
+      ]
+    },
+    {
+      "heading": "When Electrolyte Replacement Actually Matters",
+      "paragraphs": [
+        "For runs under roughly 60-90 minutes, plain water is generally sufficient regardless of conditions -- sweat sodium losses over that timeframe are rarely large enough to matter, and there's little practical benefit to electrolyte replacement on a short easy run. Past that duration, a carbohydrate-electrolyte beverage becomes more useful, and sodium specifically becomes a relevant variable once an effort passes about two hours, or any time sweat rate is unusually high due to heat, intensity, or simply being a naturally salty sweater (visible white residue on dried kit is a reasonably reliable sign of the latter)[2].",
+        "In practice, that means a 45-minute recovery jog and a four-hour long run in Southeast Asian heat call for genuinely different fueling plans, not the same bottle scaled up. The four-hour effort is squarely in the window where sodium replacement -- via electrolyte tablets, capsules, or a sports drink taken alongside plain water rather than instead of it -- has a real physiological rationale behind it; the 45-minute jog mostly doesn't."
+      ]
+    },
+    {
+      "heading": "How This Connects to (and Differs From) Race-Day Fueling Timing",
+      "paragraphs": [
+        "This site's race-day nutrition and fueling timing guide covers when and how much carbohydrate to take in during a long run or race -- a separate question from the one this article covers, even though the two plans often execute through the same bottles and gels on race day. Carbohydrate timing is about sustaining energy availability and blood glucose; electrolyte and sodium planning is about fluid and mineral balance. They interact (some electrolyte products also carry carbohydrate, and dehydration can worsen how a stomach tolerates carb intake) but solving one doesn't automatically solve the other.",
+        "The practical takeaway is to build both plans, not just one and assume it covers the other -- know your carbohydrate-per-hour target from the fueling article, and separately know your approximate sweat rate and sodium needs from this one, then test the combined plan in training rather than improvising it for the first time on race morning. Long, hot Southeast Asian courses are exactly the conditions where getting either half wrong shows up fastest."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "label": "Exercise-Associated Hyponatremia: Updated Guidelines from the Wilderness Medical Society",
+      "publisher": "American Academy of Family Physicians (AAFP)",
+      "url": "https://www.aafp.org/pubs/afp/issues/2021/0215/p252.html",
+      "type": "other"
+    },
+    {
+      "n": 2,
+      "label": "Water and electrolyte requirements for exercise",
+      "publisher": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10410838/",
+      "type": "other"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is plain water enough on a long, hot run?",
+      "answer": "Not for efforts beyond roughly 60-90 minutes. Sweat carries sodium out along with fluid, and replacing only the fluid with plain water leaves sodium increasingly out of balance as a long, hot run continues, which is a different and separate problem from simple dehydration."
+    },
+    {
+      "question": "Can drinking too much water on a run actually be dangerous?",
+      "answer": "Yes -- exercise-associated hyponatremia, a drop in blood sodium, is driven mainly by overdrinking hypotonic fluid relative to what's being lost, per Wilderness Medical Society guidelines, not primarily by inadequate sodium intake. Risk rises with efforts beyond about two hours and drinking beyond thirst."
+    },
+    {
+      "question": "When do I actually need electrolytes instead of just water?",
+      "answer": "Water alone is generally sufficient under 60-90 minutes. Past that, a carbohydrate-electrolyte drink helps, and sodium specifically matters once an effort passes about two hours or sweat rate is unusually high from heat, intensity, or being a naturally salty sweater."
+    }
+  ],
+  "editorial_notes": "Original editorial content for the Articles section. Cited claims verified against live source URLs at time of writing.",
+  "published_at": "2026-08-11T05:40:00.000Z",
+  "last_updated": "2026-08-11",
+  "status": "active"
+}

@@ -1,0 +1,87 @@
+{
+  "article_id": "local-fruits-foods-actually-work-recovery",
+  "slug": "local-fruits-foods-actually-work-recovery",
+  "title": "Local Fruits and Foods That Actually Work for Recovery",
+  "seo_title": "Local SEA Foods That Actually Work for Race Recovery",
+  "meta_description": "Coconut water, bananas, dragon fruit, watermelon -- Southeast Asia's local foods can genuinely help recovery. What the research says works, and where they fall short.",
+  "topic": "Southeast Asia Running Life",
+  "dek": "Coconut water stalls and banana tables show up at nearly every Southeast Asian race finish line. Here's what the actual research says about whether they replace commercial sports nutrition, and where they genuinely don't.",
+  "sections": [
+    {
+      "heading": "Coconut Water: A Genuine Electrolyte Source, With One Real Limitation",
+      "paragraphs": [
+        "Coconut water is one of the few 'natural sports drink' claims that holds up reasonably well under research. A controlled study comparing coconut water against a standard carbohydrate-electrolyte sports drink in exercise-trained men found that cyclists who drank coconut water during exercise maintained hydration and electrolyte levels comparable to those drinking the commercial sports drink[1]. That's a genuinely useful finding for anyone standing at a race-village coconut stall wondering if it's more than a novelty.",
+        "The real caveat is sodium. Coconut water naturally carries meaningfully less sodium than most commercial sports drinks are formulated to deliver, while being comparatively rich in potassium[2]. For a short or moderate effort, that composition is close to fine. For a long, hot marathon effort with heavy sweat losses -- exactly the conditions this region specializes in -- sodium is the electrolyte lost in the largest quantity, and coconut water alone is unlikely to fully replace it."
+      ]
+    },
+    {
+      "heading": "Bananas: The Convenience Food That's Also a Real Recovery Food",
+      "paragraphs": [
+        "Bananas are sold at nearly every finish line and race-village table across the region, and they're not just there because they're cheap and portable -- a medium banana carries roughly 400-450mg of potassium along with easily digestible carbohydrate[3], both genuinely useful after a long effort that's depleted glycogen and potassium through sweat. Unlike a lot of race-expo nutrition products, a banana doesn't need a marketing claim to justify itself.",
+        "The same sodium gap that applies to coconut water applies here: bananas are a potassium food, not a sodium food. After a hot, heavy-sweat race, pairing a banana with something salty -- a packet of crackers, an electrolyte tablet, even the sachet of salt some race organizers hand out -- covers the part of recovery a banana alone doesn't."
+      ]
+    },
+    {
+      "heading": "Dragon Fruit, Watermelon, and the Hydration Half of Recovery",
+      "paragraphs": [
+        "Watermelon is roughly 92% water[4], and dragon fruit sits close behind at around 87-88% water while carrying a reasonable amount of potassium of its own. Both are common as pre-cut race-day fruit at Southeast Asian aid stations and finish areas, and both do real work restoring fluid volume after a race -- which matters for how recovered a runner actually feels, independent of electrolyte balance specifically.",
+        "What they don't do is replace a full recovery meal. Rehydrating fruit is genuinely useful, but muscle repair and glycogen replenishment still depend on getting real protein and carbohydrate in afterward -- watermelon and dragon fruit are a good early step at the finish line, not a substitute for what comes an hour or two later."
+      ]
+    },
+    {
+      "heading": "When Local Food Is Enough, and When It Isn't",
+      "paragraphs": [
+        "For most runners doing 5Ks through half marathons, or racing during the region's characteristically cool pre-dawn start windows, local whole foods genuinely cover recovery needs on their own -- there's no real advantage to an imported gel or electrolyte drink over a banana, some coconut water, and a proper meal afterward.",
+        "For marathon-distance and longer efforts run deep into the day's heat, especially for runners who sweat heavily, the honest answer is to treat coconut water and bananas as the tasty, genuinely useful backbone of recovery -- and add a small, deliberate sodium source on top for what they consistently fall short on. That combination, rather than picking one side of 'local food vs. commercial product,' is what the research actually supports."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "n": 1,
+      "label": "Comparison of coconut water and a carbohydrate-electrolyte sport drink on measures of hydration and physical performance in exercise-trained men",
+      "publisher": "Journal of the International Society of Sports Nutrition (PMC)",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3293068/",
+      "type": "other"
+    },
+    {
+      "n": 2,
+      "label": "Coconut water: Is it super hydrating?",
+      "publisher": "Mayo Clinic",
+      "url": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-answers/coconut-water/faq-20207812",
+      "type": "other"
+    },
+    {
+      "n": 3,
+      "label": "Banana Nutrition Facts and Possible Health Benefits",
+      "publisher": "Healthline",
+      "url": "https://www.healthline.com/health/nutrition/bananas",
+      "type": "other"
+    },
+    {
+      "n": 4,
+      "label": "Why Watermelon Should Be Part of Your Diet",
+      "publisher": "Cleveland Clinic",
+      "url": "https://health.clevelandclinic.org/benefits-of-watermelon",
+      "type": "other"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is coconut water a good substitute for sports drinks after a hot race?",
+      "answer": "Coconut water genuinely replaces fluid and potassium, and a controlled study found it performs comparably to sports drinks for hydration. It's naturally lower in sodium than commercial drinks though, so after a long, hot, heavy-sweat race it may not fully replace sodium losses on its own -- pairing it with something salty helps close that gap."
+    },
+    {
+      "question": "How many bananas should I eat after a long run?",
+      "answer": "One or two bananas after a race provide a genuine potassium boost -- roughly 400-450mg each -- and are easy to digest. They're low in sodium though, so on a hot, sweaty race day pair a banana with a salty snack or electrolyte tablet rather than relying on bananas alone for full electrolyte replacement."
+    },
+    {
+      "question": "Are watermelon and dragon fruit good recovery foods?",
+      "answer": "Yes for hydration -- both are roughly 87-92% water and commonly served at Southeast Asian race finish areas. They're not a complete recovery meal on their own, since muscle repair and glycogen replenishment still need real protein and carbohydrate, so treat them as an early hydration boost alongside a proper post-race meal."
+    }
+  ],
+  "editorial_notes": "Original editorial content for the Articles section. Cited claims verified against live source URLs at time of writing.",
+  "published_at": "2026-08-11T06:30:00.000Z",
+  "last_updated": "2026-08-11",
+  "status": "active"
+}
