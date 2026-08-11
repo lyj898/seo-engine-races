@@ -294,6 +294,14 @@ export const gearArticleSchema = z.object({
   title: z.string().min(1),
   seo_title: z.string().min(1).max(70).optional(),
   meta_description: z.string().min(1).max(200).optional(),
+  // Groups articles into sections on the gear index page (e.g. "Heat &
+  // Humidity", "Local Brands", "Travel"). Named `topic` rather than
+  // `category` or `section` to avoid colliding with two other things in this
+  // schema: the site's category_id/categoriesSupported content type (which
+  // classifies entities, not gear articles, and doesn't need reusing here
+  // since a topic label doesn't need its own hub page or matchRange) and
+  // this same object's `sections` field below (the article's body prose).
+  topic: z.string().min(1),
   dek: z.string().min(1),
   sections: z.array(reviewSectionSchema).min(1),
   products: z.array(gearProductSchema).default([]),

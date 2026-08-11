@@ -20,10 +20,17 @@ export function getStaticPaths() {
 
 const { article } = Astro.props;
 
+// Same-topic articles first, then everything else, capped to a reasonable
+// footer length -- with a growing library of guides, listing every other
+// article (as this used to) stops being a useful "more like this" list and
+// just becomes a wall of links.
+const RELATED_ARTICLES_LIMIT = 6;
 const otherArticles = loadGear()
   .map(stripMeta)
   .filter(isPublished)
-  .filter((a) => a.slug !== article.slug);
+  .filter((a) => a.slug !== article.slug)
+  .sort((a, b) => (a.topic === article.topic ? -1 : 0) - (b.topic === article.topic ? -1 : 0))
+  .slice(0, RELATED_ARTICLES_LIMIT);
 
 const breadcrumbItems = [
   { label: siteConfig.siteName, href: urls.home() },
