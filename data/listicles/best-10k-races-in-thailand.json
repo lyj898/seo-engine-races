@@ -6,12 +6,12 @@
   "filters": {
     "region_id": "thailand",
     "category_id": "10k",
-    "sort_by": "date",
-    "sort_direction": "asc",
+    "sort_by": "recommend_score",
+    "sort_direction": "desc",
     "limit": 15
   },
   "manual_entity_ids": [],
-  "editorial_notes": "Entity list resolves from the filters at build time, so it stays current without edits. Sorted soonest-first to match the rest of the site.",
+  "editorial_notes": "Entity list resolves from the filters at build time, so it stays current without edits. Ranked by recommend_score (a review's own rating, falling back to a research estimate) so the order matches what 'Recommends' claims to do.",
   "faqs": [
     {
       "question": "Do any of these races fall on the same date?",
@@ -23,5 +23,6 @@
     }
   ],
   "last_updated": "2026-08-17",
-  "status": "active"
+  "status": "active",
+  "editorial_pick": "The 37th Bangkok Marathon (86/100) leads this list, starting on Sanam Chai Road beside the Grand Palace -- the longest-running, best-documented race in the set, with registration opening a full six months ahead of race day."
 }

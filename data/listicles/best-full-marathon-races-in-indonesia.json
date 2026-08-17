@@ -6,8 +6,8 @@
   "filters": {
     "region_id": "indonesia",
     "category_id": "full-marathon",
-    "sort_by": "date",
-    "sort_direction": "asc",
+    "sort_by": "recommend_score",
+    "sort_direction": "desc",
     "limit": 15
   },
   "manual_entity_ids": [],
@@ -27,5 +27,6 @@
     }
   ],
   "last_updated": "2026-08-03",
-  "status": "active"
+  "status": "active",
+  "editorial_pick": "The Maybank Marathon (84/100) in Gianyar, Bali is the standout here -- Indonesia's only World Athletics Elite Label road race and a Boston Marathon qualifier since 2013, run through rice paddies and Balinese villages at a 4:30am start."
 }

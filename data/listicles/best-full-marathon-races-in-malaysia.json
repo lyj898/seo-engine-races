@@ -6,8 +6,8 @@
   "filters": {
     "region_id": "malaysia",
     "category_id": "full-marathon",
-    "sort_by": "date",
-    "sort_direction": "asc",
+    "sort_by": "recommend_score",
+    "sort_direction": "desc",
     "limit": 15
   },
   "manual_entity_ids": [],
@@ -27,5 +27,6 @@
     }
   ],
   "last_updated": "2026-07-31",
-  "status": "active"
+  "status": "active",
+  "editorial_pick": "Our top pick is the Penang Bridge International Marathon (85/100), which edges out even KLSCM on review score. Its bridge crossing is a genuinely unusual course feature among a calendar otherwise dominated by city loops."
 }

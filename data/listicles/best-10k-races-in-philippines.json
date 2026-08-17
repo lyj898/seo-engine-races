@@ -6,12 +6,12 @@
   "filters": {
     "region_id": "philippines",
     "category_id": "10k",
-    "sort_by": "date",
-    "sort_direction": "asc",
+    "sort_by": "recommend_score",
+    "sort_direction": "desc",
     "limit": 15
   },
   "manual_entity_ids": [],
-  "editorial_notes": "Entity list resolves from the filters at build time, so it stays current without edits. Sorted soonest-first to match the rest of the site.",
+  "editorial_notes": "Entity list resolves from the filters at build time, so it stays current without edits. Ranked by recommend_score (a review's own rating, falling back to a research estimate) so the order matches what 'Recommends' claims to do.",
   "faqs": [
     {
       "question": "Why do so many 10K races fall in the same two weeks?",
@@ -23,5 +23,6 @@
     }
   ],
   "last_updated": "2026-08-17",
-  "status": "active"
+  "status": "active",
+  "editorial_pick": "Our top pick is the AIA Rock 'n' Roll Running Series Manila (80/100) -- a night marathon through Rizal Park, Fort Santiago and Manila Bay that trades the usual 4am heat-avoidance start for live bands and cooler evening air."
 }

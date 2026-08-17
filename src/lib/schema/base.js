@@ -188,6 +188,11 @@ export const listicleSchema = z.object({
   // optionally pin/exclude specific entities, they don't hand-write the list.
   manual_entity_ids: z.array(z.string()).default([]),
   editorial_notes: z.string().optional(),
+  // A short, human-written callout naming the top pick(s) from this guide's
+  // own ranked list and why -- the difference between a filtered calendar
+  // and something that actually "recommends". Optional because not every
+  // guide has been given one yet.
+  editorial_pick: z.string().optional(),
   faqs: z.array(faqSchema).default([]),
   last_updated: z.string().min(1),
   status: z.enum(STATUS_VALUES),

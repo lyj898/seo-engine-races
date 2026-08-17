@@ -6,8 +6,8 @@
   "filters": {
     "region_id": "indonesia",
     "category_id": "half-marathon",
-    "sort_by": "date",
-    "sort_direction": "asc",
+    "sort_by": "recommend_score",
+    "sort_direction": "desc",
     "limit": 15
   },
   "manual_entity_ids": [],
@@ -27,5 +27,6 @@
     }
   ],
   "last_updated": "2026-07-31",
-  "status": "active"
+  "status": "active",
+  "editorial_pick": "The Maybank Marathon (84/100) in Gianyar, Bali leads this list -- Indonesia's only World Athletics Elite Label race and a Boston Marathon qualifier, with the 21.1km option riding along a 4:30am start through rice paddies and Balinese villages."
 }

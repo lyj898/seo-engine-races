@@ -5,12 +5,12 @@
   "intro": "The half marathon is the region's default distance, and the range reflects that: everything from major-city races with tens of thousands of entrants to small municipal runs where the 21.1km is the longest thing on offer. Coverage is heaviest in the Philippines and Malaysia, with strong showings in Indonesia and Thailand. Because most events stack 21.1km alongside 10K and 5K legs at the same venue, a half marathon here is usually one option within a larger race day rather than a standalone event.",
   "filters": {
     "category_id": "half-marathon",
-    "sort_by": "date",
-    "sort_direction": "asc",
+    "sort_by": "recommend_score",
+    "sort_direction": "desc",
     "limit": 10
   },
   "manual_entity_ids": [],
-  "editorial_notes": "Entity list resolves from the filters at build time, so it stays current without edits. Sorted soonest-first to match the rest of the site.",
+  "editorial_notes": "Entity list resolves from the filters at build time, so it stays current without edits. Ranked by recommend_score (a review's own rating, falling back to a research estimate) so the order matches what 'Recommends' claims to do.",
   "faqs": [
     {
       "question": "Do I need to travel far to find a half marathon in Southeast Asia?",
@@ -22,5 +22,6 @@
     }
   ],
   "last_updated": "2026-07-31",
-  "status": "active"
+  "status": "active",
+  "editorial_pick": "The Standard Chartered Hanoi Marathon Heritage Race (88/100) is the highest-rated half marathon in this set. The Buriram Marathon (87/100) in Thailand follows close behind, run on the Chang International Circuit -- an FIA Grade 1 track that's hosted MotoGP's Thai Grand Prix since 2018."
 }

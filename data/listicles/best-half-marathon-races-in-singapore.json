@@ -6,8 +6,8 @@
   "filters": {
     "region_id": "singapore",
     "category_id": "half-marathon",
-    "sort_by": "date",
-    "sort_direction": "asc",
+    "sort_by": "recommend_score",
+    "sort_direction": "desc",
     "limit": 15
   },
   "manual_entity_ids": [],
@@ -27,5 +27,6 @@
     }
   ],
   "last_updated": "2026-08-09",
-  "status": "active"
+  "status": "active",
+  "editorial_pick": "Our top pick is the BYD Singapore International Marathon by Adidas (84/100) -- a World Athletics Gold Label race and Boston qualifier through the Marina Bay skyline, well ahead of the field on both scale and credentials."
 }

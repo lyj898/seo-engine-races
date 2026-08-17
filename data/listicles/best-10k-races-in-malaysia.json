@@ -6,8 +6,8 @@
   "filters": {
     "region_id": "malaysia",
     "category_id": "10k",
-    "sort_by": "date",
-    "sort_direction": "asc",
+    "sort_by": "recommend_score",
+    "sort_direction": "desc",
     "limit": 15
   },
   "manual_entity_ids": [],
@@ -27,5 +27,6 @@
     }
   ],
   "last_updated": "2026-08-03",
-  "status": "active"
+  "status": "active",
+  "editorial_pick": "The Penang Bridge International Marathon (85/100) tops this list, and it's the one to build a trip around -- a state-tourism-backed race whose 13.5km toll-bridge crossing is a genuinely distinctive course feature among Malaysia's mostly city-loop calendar."
 }

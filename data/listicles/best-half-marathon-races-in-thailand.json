@@ -6,8 +6,8 @@
   "filters": {
     "region_id": "thailand",
     "category_id": "half-marathon",
-    "sort_by": "date",
-    "sort_direction": "asc",
+    "sort_by": "recommend_score",
+    "sort_direction": "desc",
     "limit": 15
   },
   "manual_entity_ids": [],
@@ -27,5 +27,6 @@
     }
   ],
   "last_updated": "2026-08-03",
-  "status": "active"
+  "status": "active",
+  "editorial_pick": "The Buriram Marathon (87/100) tops this list by a clear margin -- run on the Chang International Circuit, Thailand's MotoGP venue turned marathon course."
 }

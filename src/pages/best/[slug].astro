@@ -23,18 +23,27 @@ export function getStaticPaths() {
 }
 
 const { listicle } = Astro.props;
-const allEntities = loadEntities().map(stripMeta).filter(isPublished);
 const allCategories = loadCategories().map(stripMeta);
 const allRegions = loadRegions().map(stripMeta);
 
-const rankedEntities = resolveListicleEntities(listicle, allEntities, allRegions, allCategories);
-
-// Which of these races have a published, in-depth review to link to, keyed
-// so the review's own rating -- not a separate research-time estimate -- is
-// what the entry badge shows whenever a review exists.
+// Reviews load first: recommend_score (below) reads a review's own rating
+// before falling back to the separate research-time sentiment estimate, so
+// it has to exist before entities are ranked, not just when picking which
+// entries get a "read the review" link later.
 const reviewsBySlug = new Map(
   (siteConfig.enabledFeatures?.reviews ? loadReviews().map(stripMeta).filter(isPublished) : []).map((r) => [r.slug, r])
 );
+
+// A guide named "Recommends" ranking by date rather than quality was the
+// actual bug -- every listicle's filters now sort_by this field. Entities
+// with neither a review nor a research estimate sort last rather than
+// dropping out, so a still-thin category doesn't come up empty.
+const allEntities = loadEntities()
+  .map(stripMeta)
+  .filter(isPublished)
+  .map((e) => ({ ...e, recommend_score: reviewsBySlug.get(e.slug)?.rating?.overall ?? e.sentiment_scores?.overall ?? -1 }));
+
+const rankedEntities = resolveListicleEntities(listicle, allEntities, allRegions, allCategories);
 const withReviews = rankedEntities.filter((e) => reviewsBySlug.has(e.slug)).length;
 
 // An at-a-glance line computed from the resolved set, so the guide opens with
@@ -91,10 +100,17 @@ const jsonLd = [
       </div>
     )}
 
+    {listicle.editorial_pick && (
+      <div class="mt-6 rounded-xl border border-brand-primary/40 bg-brand-primary-highlight p-4 text-sm dark:bg-brand-primary-highlight-dark">
+        <p class="text-xs font-bold uppercase tracking-wide text-brand-primary-ink dark:text-brand-primary-ink-dark">Our pick</p>
+        <p class="mt-1.5 leading-relaxed">{listicle.editorial_pick}</p>
+      </div>
+    )}
+
     {rankedEntities.length > 0 ? (
       <>
         <p class="mt-8 text-xs font-semibold uppercase tracking-wide text-brand-muted dark:text-brand-muted-dark">
-          In date order — soonest first
+          Ranked by review score — highest first
         </p>
         <ol class="mt-3 space-y-4">
           {rankedEntities.map((entity, i) => (

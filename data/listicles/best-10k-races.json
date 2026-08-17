@@ -5,12 +5,12 @@
   "intro": "The 10K almost never stands alone here — it's typically the middle option at an event built around a half marathon, with a 5K underneath it for the same crowd. Coverage skews heavily toward the Philippines, which runs a dense weekend calendar of city and provincial races nearly year-round, with Malaysia's JomRun series and scattered events across Indonesia and Thailand filling out the rest. Because so many hosts bundle the 10K in with longer distances at the same start line, picking one is less about finding a 10K specifically and more about finding a race day with the right overall lineup.",
   "filters": {
     "category_id": "10k",
-    "sort_by": "date",
-    "sort_direction": "asc",
+    "sort_by": "recommend_score",
+    "sort_direction": "desc",
     "limit": 15
   },
   "manual_entity_ids": [],
-  "editorial_notes": "Entity list resolves from the filters at build time, so it stays current without edits. Sorted soonest-first to match the rest of the site.",
+  "editorial_notes": "Entity list resolves from the filters at build time, so it stays current without edits. Ranked by recommend_score (a review's own rating, falling back to a research estimate) so the order matches what 'Recommends' claims to do.",
   "faqs": [
     {
       "question": "Is the 10K usually a stand-alone race in Southeast Asia?",
@@ -22,5 +22,6 @@
     }
   ],
   "last_updated": "2026-08-17",
-  "status": "active"
+  "status": "active",
+  "editorial_pick": "Our top pick is the Standard Chartered Hanoi Marathon Heritage Race (88/100), the highest-rated race in this set. IAAF- and AIMS-certified with a verified track record back to 2018, it carries more history than most of the newer bank-sponsored races on this list."
 }

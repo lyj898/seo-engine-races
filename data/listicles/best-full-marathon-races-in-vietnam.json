@@ -6,8 +6,8 @@
   "filters": {
     "region_id": "vietnam",
     "category_id": "full-marathon",
-    "sort_by": "date",
-    "sort_direction": "asc",
+    "sort_by": "recommend_score",
+    "sort_direction": "desc",
     "limit": 15
   },
   "manual_entity_ids": [],
@@ -27,5 +27,6 @@
     }
   ],
   "last_updated": "2026-08-03",
-  "status": "active"
+  "status": "active",
+  "editorial_pick": "Our top pick is the Standard Chartered Hanoi Marathon Heritage Race (88/100) -- the highest-rated marathon in Vietnam on this list, IAAF- and AIMS-certified with a track record stretching back to 2018."
 }

@@ -6,12 +6,12 @@
   "filters": {
     "region_id": "malaysia",
     "category_id": "5k",
-    "sort_by": "date",
-    "sort_direction": "asc",
+    "sort_by": "recommend_score",
+    "sort_direction": "desc",
     "limit": 15
   },
   "manual_entity_ids": [],
-  "editorial_notes": "Entity list resolves from the filters at build time, so it stays current without edits. Sorted soonest-first to match the rest of the site.",
+  "editorial_notes": "Entity list resolves from the filters at build time, so it stays current without edits. Ranked by recommend_score (a review's own rating, falling back to a research estimate) so the order matches what 'Recommends' claims to do.",
   "faqs": [
     {
       "question": "Which month has the most 5K options in Malaysia?",
@@ -23,5 +23,6 @@
     }
   ],
   "last_updated": "2026-08-17",
-  "status": "active"
+  "status": "active",
+  "editorial_pick": "The Kuala Lumpur Standard Chartered Marathon (82/100) tops this list -- Malaysia's largest marathon, a World Athletics-labelled race through Dataran Merdeka that outscales the JomRun circuit's smaller regional stops."
 }

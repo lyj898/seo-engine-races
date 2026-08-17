@@ -6,8 +6,8 @@
   "filters": {
     "region_id": "philippines",
     "category_id": "full-marathon",
-    "sort_by": "date",
-    "sort_direction": "asc",
+    "sort_by": "recommend_score",
+    "sort_direction": "desc",
     "limit": 15
   },
   "manual_entity_ids": [],
@@ -27,5 +27,6 @@
     }
   ],
   "last_updated": "2026-07-31",
-  "status": "active"
+  "status": "active",
+  "editorial_pick": "The National MILO Marathon's National Finals (84/100) in Clark, Pampanga tops this list -- the culmination of the 50th-anniversary Golden Run's 15 regional legs run across the Philippines all year, giving it a build-up no single-city race here can match."
 }

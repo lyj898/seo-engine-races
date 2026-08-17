@@ -6,12 +6,12 @@
   "filters": {
     "region_id": "thailand",
     "category_id": "full-marathon",
-    "sort_by": "date",
-    "sort_direction": "asc",
+    "sort_by": "recommend_score",
+    "sort_direction": "desc",
     "limit": 10
   },
   "manual_entity_ids": [],
-  "editorial_notes": "Entity list resolves from the filters at build time, so it stays current without edits. Sorted soonest-first to match the rest of the site.",
+  "editorial_notes": "Entity list resolves from the filters at build time, so it stays current without edits. Ranked by recommend_score (a review's own rating, falling back to a research estimate) so the order matches what 'Recommends' claims to do.",
   "faqs": [
     {
       "question": "When is marathon season in Thailand?",
@@ -23,5 +23,6 @@
     }
   ],
   "last_updated": "2026-07-31",
-  "status": "active"
+  "status": "active",
+  "editorial_pick": "Our top pick is the Buriram Marathon (87/100), run on the Chang International Circuit -- an FIA Grade 1 motorsport track that's hosted MotoGP's Thai Grand Prix since 2018, a genuinely unusual course among Thailand's city and temple races."
 }
