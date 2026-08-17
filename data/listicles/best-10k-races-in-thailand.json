@@ -1,0 +1,27 @@
+{
+  "listicle_id": "best-10k-races-in-thailand",
+  "slug": "best-10k-races-in-thailand",
+  "title": "10K Races in Thailand: 2026-2027 Calendar",
+  "intro": "The calendar runs from September 2026 through to the Amazing Thabo Midnight Marathon in May 2027, with Bangkok hosting four of the fifteen races -- more than any other city -- and Chiang Mai close behind with three. Two dates carry a same-day clash: December 20 pairs the Bangkok Midnight Marathon with the Muang Thai Chiang Mai Marathon, and January 10, 2027 does the same with the 37th Bangkok Marathon and the Khao Yai Marathon in Pak Chong. Beyond the two anchor cities, the set reaches into Pattaya, Nakhon Ratchasima, Nong Khai and the northern hills around Mae Moh and Lampang. Distances are consistent -- almost every race pairs the 10K with a half and full marathon -- so the choice is mostly about city, season, and which of the overlapping dates you'd rather commit to.",
+  "filters": {
+    "region_id": "thailand",
+    "category_id": "10k",
+    "sort_by": "date",
+    "sort_direction": "asc",
+    "limit": 15
+  },
+  "manual_entity_ids": [],
+  "editorial_notes": "Entity list resolves from the filters at build time, so it stays current without edits. Sorted soonest-first to match the rest of the site.",
+  "faqs": [
+    {
+      "question": "Do any of these races fall on the same date?",
+      "answer": "Yes, twice. December 20, 2026 has both the Bangkok Midnight Marathon and the Muang Thai Chiang Mai Marathon, and January 10, 2027 pairs the 37th Bangkok Marathon with the Khao Yai Marathon in Pak Chong -- so runners have to pick a city on those two weekends."
+    },
+    {
+      "question": "Which cities host the most 10K races?",
+      "answer": "Bangkok hosts the most, with four: the Amazing Thailand Marathon Bangkok, Bangkok Midnight Marathon, 37th Bangkok Marathon, and Thai Sikh Run. Chiang Mai follows with three: the Scenic Half Marathon, the Bitcoin Thailand Half Marathon, and the Muang Thai Chiang Mai Marathon."
+    }
+  ],
+  "last_updated": "2026-08-17",
+  "status": "active"
+}

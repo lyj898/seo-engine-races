@@ -29,11 +29,13 @@ const allRegions = loadRegions().map(stripMeta);
 
 const rankedEntities = resolveListicleEntities(listicle, allEntities, allRegions, allCategories);
 
-// Which of these races have a published, in-depth review to link to.
-const reviewSlugs = new Set(
-  (siteConfig.enabledFeatures?.reviews ? loadReviews().map(stripMeta).filter(isPublished) : []).map((r) => r.slug)
+// Which of these races have a published, in-depth review to link to, keyed
+// so the review's own rating -- not a separate research-time estimate -- is
+// what the entry badge shows whenever a review exists.
+const reviewsBySlug = new Map(
+  (siteConfig.enabledFeatures?.reviews ? loadReviews().map(stripMeta).filter(isPublished) : []).map((r) => [r.slug, r])
 );
-const withReviews = rankedEntities.filter((e) => reviewSlugs.has(e.slug)).length;
+const withReviews = rankedEntities.filter((e) => reviewsBySlug.has(e.slug)).length;
 
 // An at-a-glance line computed from the resolved set, so the guide opens with
 // something concrete (span of dates, distances on offer) rather than only the
@@ -50,7 +52,7 @@ const dateRange = datesSorted.length
   : null;
 const breadcrumbItems = [
   { label: siteConfig.siteName, href: urls.home() },
-  { label: 'Best Of guides', href: urls.listiclesIndex() },
+  { label: 'Recommends', href: urls.listiclesIndex() },
   { label: listicle.title, href: urls.listicle(listicle.slug) },
 ];
 
@@ -100,7 +102,8 @@ const jsonLd = [
               <ListicleEntry
                 entity={entity}
                 categories={allCategories}
-                hasReview={reviewSlugs.has(entity.slug)}
+                hasReview={reviewsBySlug.has(entity.slug)}
+                reviewRating={reviewsBySlug.get(entity.slug)?.rating?.overall}
                 rank={i + 1}
               />
             </li>

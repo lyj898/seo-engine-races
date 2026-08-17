@@ -1,0 +1,27 @@
+{
+  "listicle_id": "best-10k-races-in-philippines",
+  "slug": "best-10k-races-in-philippines",
+  "title": "10K Races in the Philippines: 2026 Calendar",
+  "intro": "Every 10K on this list falls in a single two-week window, August 15 to 30, 2026 -- a reflection of how densely the Philippines' race calendar clusters mid-month rather than any real scarcity of 10K options elsewhere in the year. The National MILO Marathon alone contributes two legs, in Dipolog City and Cagayan de Oro, while the rest spans from Davao and Iloilo in the south to Clark and Tarlac north of Manila, plus city races in Pasay and Taguig. Almost every event pairs the 10K with a half marathon and 5K at the same start line -- the PMC Kabayanihan Run in Taguig goes furthest, adding a 50km ultra option alongside the shorter distances. With this many races landing in the same fortnight, the real constraint is logistics rather than finding a race date.",
+  "filters": {
+    "region_id": "philippines",
+    "category_id": "10k",
+    "sort_by": "date",
+    "sort_direction": "asc",
+    "limit": 15
+  },
+  "manual_entity_ids": [],
+  "editorial_notes": "Entity list resolves from the filters at build time, so it stays current without edits. Sorted soonest-first to match the rest of the site.",
+  "faqs": [
+    {
+      "question": "Why do so many 10K races fall in the same two weeks?",
+      "answer": "Race organisers cluster around the August 15-30 window without obvious coordination, so on some weekends -- August 16, 23 and 30 in particular -- five or more separate 10K-inclusive races run on the same day across different cities."
+    },
+    {
+      "question": "Which race offers the widest distance range?",
+      "answer": "The PMC Kabayanihan Run in Taguig, which pairs the 10K with a 50km ultra, full marathon, half marathon, 5K, and a 3.2km option -- the broadest spread of any race in this set."
+    }
+  ],
+  "last_updated": "2026-08-17",
+  "status": "active"
+}

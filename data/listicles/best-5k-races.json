@@ -1,0 +1,26 @@
+{
+  "listicle_id": "best-5k-races",
+  "slug": "best-5k-races",
+  "title": "Best 5K Races in Southeast Asia",
+  "intro": "The 5K here is almost never a race in its own right -- it's the entry-level option bundled into a bigger event alongside a 10K and usually a half or full marathon, aimed at families, first-timers, and anyone tagging along without training for the longer distance. Coverage leans heavily toward the Philippines, which runs the densest weekend calendar of multi-distance events in the region, with Malaysia's JomRun series and individual races in Indonesia and Thailand rounding out the field. Because the 5K rides along with longer distances rather than anchoring its own event, the choice usually comes down to which race day's overall lineup and location fit best.",
+  "filters": {
+    "category_id": "5k",
+    "sort_by": "date",
+    "sort_direction": "asc",
+    "limit": 15
+  },
+  "manual_entity_ids": [],
+  "editorial_notes": "Entity list resolves from the filters at build time, so it stays current without edits. Sorted soonest-first to match the rest of the site.",
+  "faqs": [
+    {
+      "question": "Is the 5K a standalone event in Southeast Asia?",
+      "answer": "Almost never. It's typically the shortest option at a race built around a 10K and a half or full marathon, aimed at newer runners, families, and anyone joining without dedicated race training."
+    },
+    {
+      "question": "Which countries offer the most 5K options?",
+      "answer": "The Philippines leads by a wide margin, with a dense, near-weekly race calendar. Malaysia's JomRun series is the next most consistent source, with Indonesia and Thailand contributing individual multi-distance events."
+    }
+  ],
+  "last_updated": "2026-08-17",
+  "status": "active"
+}

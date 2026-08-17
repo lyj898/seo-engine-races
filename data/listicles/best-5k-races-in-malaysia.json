@@ -1,0 +1,27 @@
+{
+  "listicle_id": "best-5k-races-in-malaysia",
+  "slug": "best-5k-races-in-malaysia",
+  "title": "5K Races in Malaysia: 2026 Calendar",
+  "intro": "Fifteen races across Malaysia bundle a 5K into their lineup between mid-August and mid-November 2026, almost all of them JomRun-powered half marathons that pair 21.1km with 10km and 5km on the same morning. Kuala Lumpur alone contributes three -- the KL Half Marathon, Malaysia Marathon, and KLSCM -- while the rest spreads from Kota Kinabalu and Kuching in East Malaysia to Johor's Tebrau City, Mersing, Puchong and Kulai races in the south, and Kota Bharu, Jitra and Kuala Terengganu further north. October is the busiest month, with five races inside four weeks. As with the rest of the JomRun calendar, the 5K is consistently the entry-level option rather than a race anyone travels for on its own.",
+  "filters": {
+    "region_id": "malaysia",
+    "category_id": "5k",
+    "sort_by": "date",
+    "sort_direction": "asc",
+    "limit": 15
+  },
+  "manual_entity_ids": [],
+  "editorial_notes": "Entity list resolves from the filters at build time, so it stays current without edits. Sorted soonest-first to match the rest of the site.",
+  "faqs": [
+    {
+      "question": "Which month has the most 5K options in Malaysia?",
+      "answer": "October, with five races in the set: KLSCM on October 4, HSN Putrajaya on October 10, Mersing Half Marathon on October 18, and both the Larian Jambatan Sultan Nazrin Shah and Puchong Half Marathon on October 25."
+    },
+    {
+      "question": "Are these all part of the same series?",
+      "answer": "Most are JomRun-powered half marathons sharing the same 21.1/10/5km format, though the Malaysia Marathon, Kuching Marathon, and HSN Putrajaya run independently of that series while still offering the same distance spread."
+    }
+  ],
+  "last_updated": "2026-08-17",
+  "status": "active"
+}

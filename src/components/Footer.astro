@@ -15,7 +15,7 @@ const year = new Date().getFullYear();
       <ul class="space-y-1">
         <li><a href={urls.regionsIndex()} class="link-muted">Regions</a></li>
         {siteConfig.enabledFeatures?.listicles && (
-          <li><a href={urls.listiclesIndex()} class="link-muted">Best Of guides</a></li>
+          <li><a href={urls.listiclesIndex()} class="link-muted">Recommends</a></li>
         )}
         {siteConfig.enabledFeatures?.gear && (
           <li><a href={urls.gearIndex()} class="link-muted">Gear</a></li>

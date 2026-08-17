@@ -1,0 +1,27 @@
+{
+  "listicle_id": "best-half-marathon-races-in-vietnam",
+  "slug": "best-half-marathon-races-in-vietnam",
+  "title": "Half Marathon Races in Vietnam: 2026-2027 Calendar",
+  "intro": "Every half marathon on this list belongs to a full-distance event -- Vietnam doesn't really run standalone half marathons, it runs marathons with a 21.1km option built in, so this set overlaps heavily with the country's marathon calendar. Hanoi anchors it with four races between October and November, from the Techcombank Hanoi International Marathon through to the VnExpress Marathon Hanoi Midnight, while Ho Chi Minh City, Ha Long and Hải Phòng each contribute one. The season opens in Huế in August and runs through to the Danang International Marathon in March 2027, with three races landing in November alone. The real decision is which full-event weekend to build a trip around, since the half marathon itself is rarely the headline distance.",
+  "filters": {
+    "region_id": "vietnam",
+    "category_id": "half-marathon",
+    "sort_by": "date",
+    "sort_direction": "asc",
+    "limit": 15
+  },
+  "manual_entity_ids": [],
+  "editorial_notes": "Entity list resolves from the filters at build time, so it stays current without edits. Sorted soonest-first to match the rest of the site.",
+  "faqs": [
+    {
+      "question": "Are Vietnam's half marathons standalone races?",
+      "answer": "No. Every event on this list is built around a full marathon, with the 21.1km half marathon offered as a shorter option at the same race. Runners choosing the half are picking a distance within a larger event rather than entering a dedicated half-marathon race."
+    },
+    {
+      "question": "Which city hosts the most half marathon options?",
+      "answer": "Hanoi, with four: the Techcombank Hanoi International Marathon and VPBank Hanoi International Marathon in October, followed by the Standard Chartered Hanoi Marathon Heritage Race and VnExpress Marathon Hanoi Midnight in November."
+    }
+  ],
+  "last_updated": "2026-08-17",
+  "status": "active"
+}

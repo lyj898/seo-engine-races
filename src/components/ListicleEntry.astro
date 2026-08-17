@@ -4,7 +4,7 @@ import { resolveRegistrationState } from '../lib/text.js';
 import DateBadge from './DateBadge.astro';
 import ValuePills from './ValuePills.astro';
 
-// A rich entry for "Best Of" guide pages -- the editorial counterpart to the
+// A rich entry for "Recommends" guide pages -- the editorial counterpart to the
 // bare EntityCard. Where EntityCard answers "what is this", this answers
 // "why is it on the list": it leads with a concrete reason drawn from the
 // entity's own research (a standout pro, or the summary), shows the runner
@@ -13,18 +13,22 @@ import ValuePills from './ValuePills.astro';
 // guide's entries stay current with the directory and never need hand-editing.
 //
 // Props:
-//   entity     - the entity to render
-//   categories - for ValuePills labelling (optional)
-//   hasReview  - true if a published review exists at /reviews/<slug>
-//   rank       - 1-based position, shown as an index (not a quality ranking)
-const { entity, categories = [], hasReview = false, rank } = Astro.props;
+//   entity       - the entity to render
+//   categories   - for ValuePills labelling (optional)
+//   hasReview    - true if a published review exists at /reviews/<slug>
+//   reviewRating - that review's own rating.overall, when hasReview is true
+//   rank         - 1-based position, shown as an index (not a quality ranking)
+const { entity, categories = [], hasReview = false, reviewRating, rank } = Astro.props;
 
 const facts = entity.core_facts ?? {};
 const hasDate = typeof facts.date === 'string';
 const locationLine = [facts.city, facts.country].filter(Boolean).join(', ');
 // See EntityCard: deadline- and date-aware, not a bare status string read.
 const availability = resolveRegistrationState(facts);
-const overall = entity.sentiment_scores?.overall;
+// The badge is titled "from reviews we found" -- so when an in-depth review
+// exists, its own verdict is the score shown, not the separate research-time
+// estimate on the entity (the two are gathered independently and can drift).
+const overall = typeof reviewRating === 'number' ? reviewRating : entity.sentiment_scores?.overall;
 
 // The one-line "why it's here". Prefer a pro that actually says something
 // distinctive -- skip the boilerplate the summaries stage repeats across most

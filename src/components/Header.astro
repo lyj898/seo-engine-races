@@ -9,7 +9,7 @@ import ThemeToggle from './ThemeToggle.astro';
 // row) so the two can never drift apart.
 const navLinks = [
   { href: urls.regionsIndex(), label: siteConfig.regionLabelPlural ?? `${siteConfig.regionLabel}s` },
-  ...(siteConfig.enabledFeatures?.listicles ? [{ href: urls.listiclesIndex(), label: 'Best Of' }] : []),
+  ...(siteConfig.enabledFeatures?.listicles ? [{ href: urls.listiclesIndex(), label: 'Recommends' }] : []),
   ...(siteConfig.enabledFeatures?.reviews ? [{ href: urls.reviewsIndex(), label: 'Reviews' }] : []),
   ...(siteConfig.enabledFeatures?.gear ? [{ href: urls.gearIndex(), label: 'Gear' }] : []),
   ...(siteConfig.enabledFeatures?.articles ? [{ href: urls.articlesIndex(), label: 'Articles' }] : []),
@@ -45,7 +45,7 @@ const navLinks = [
 
   <!--
     Mobile nav. The desktop row is `hidden md:flex`, which previously left
-    phones with no way to reach Categories / Regions / Best Of / About at
+    phones with no way to reach Categories / Regions / Recommends / About at
     all. This second row carries the same links below the md breakpoint as a
     horizontally scrollable strip -- no hamburger, no JS, and the links stay
     in the markup for crawlers on every page.
