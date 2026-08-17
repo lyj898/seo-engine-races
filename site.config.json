@@ -75,7 +75,7 @@
   },
 
   "enabledFeatures": {
-    "listicles": false,
+    "listicles": true,
     "reviews": true,
     "reviewQueue": true,
     "_autoPromoteDiscovered_note": "When true, a newly-discovered race is published automatically: generate-summaries.js promotes it straight from draft to active once it has real content (never a placeholder). Set false to restore the human review gate (draft -> needs_review, still live, but flagged). Only brand-new drafts are affected; refresh's needs_review flags on existing races are untouched.",
