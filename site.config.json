@@ -113,7 +113,9 @@
     "requestDelayMs": 1500,
     "respectRobotsTxt": true,
     "userAgent": "programmatic-seo-engine/1.0 (+https://runsea.run/about)",
-    "discoveryConstraints": "Only include road races run primarily on paved or tarmac surfaces (5K/10K/half marathon/full marathon distances). Do not include trail running events, off-road ultra-trail races, obstacle course races, or duathlons/triathlons -- if a source page mixes road races with trail or multisport events, extract only the road running ones.",
+    "discoveryConstraints": "Only include road races run primarily on paved or tarmac surfaces that offer a half marathon (21.1km) or a full marathon (42.195km) distance. A race whose longest distance is 10K or shorter is OUT OF SCOPE -- skip standalone fun runs, charity 5K/10K events and kids races entirely, even when a trusted calendar lists them. Shorter 5K/10K legs ARE wanted when they sit alongside a 21.1km or 42.195km distance at the same event. Do not include trail running events, off-road ultra-trail races, obstacle course races, or duathlons/triathlons -- if a source page mixes road races with trail or multisport events, extract only the road running ones.",
+    "_discoveryRequiredCategoryIds_note": "Belt-and-braces for the distance rule stated in discoveryConstraints above: a candidate is only written if at least one of its core_facts.distance_km values falls inside one of these categories' matchRange (data/categories/*.json). Enforced in code because a model asked to extract every row of a calendar page will still hand back out-of-scope entries -- the same reason the rolling date window is checked twice. Stays vertical-agnostic: the ranges live in the category data, not in the script. Empty or absent disables the check.",
+    "discoveryRequiredCategoryIds": ["half-marathon", "full-marathon"],
     "sourcePriority": [
       "official_event_website",
       "official_registration_platform",

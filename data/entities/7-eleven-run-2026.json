@@ -55,5 +55,6 @@
   "cta_links": [],
   "related_entity_ids": [],
   "last_updated": "2026-08-18",
-  "status": "active"
+  "status": "archived",
+  "editorial_notes": "Archived 2026-08-18: out of scope. Longest distance is 10km, and this directory only lists races offering a half (21.1km) or full (42.195km) marathon -- see sourceConfig.discoveryRequiredCategoryIds. Discovered in error by the 2026-08-18 refresh before that rule existed. Archived rather than deleted so the slug stays reserved and discovery cannot re-add it."
 }

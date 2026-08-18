@@ -38,6 +38,7 @@ import { fileURLToPath } from 'node:url';
 import siteConfig from '../src/lib/config.js';
 import { getEntitySchema, getCoreFactsSchema } from '../src/lib/schema/index.js';
 import { loadEntities, loadCategories, loadRegions, stripMeta } from '../src/lib/data.js';
+import { matchCategoryByValue } from '../src/lib/categoryMatch.js';
 
 import { slugify } from './lib/slugify.js';
 import { fetchText, htmlToText, truncateForPrompt } from './lib/http.js';
@@ -105,6 +106,21 @@ async function run() {
   const existingSlugs = new Set(existingEntities.map((e) => e.slug));
   const categories = loadCategories().map(stripMeta);
   const regions = loadRegions().map(stripMeta);
+
+  // Categories a candidate must touch at least one of to be in scope (see
+  // the guard inside the loop, and _discoveryRequiredCategoryIds_note).
+  const requiredCategoryIds = sourceConfig?.discoveryRequiredCategoryIds ?? [];
+  const requiredCategories = categories.filter((c) => requiredCategoryIds.includes(c.category_id));
+  if (requiredCategoryIds.length > 0) {
+    const missing = requiredCategoryIds.filter((id) => !requiredCategories.some((c) => c.category_id === id));
+    if (missing.length > 0) {
+      console.warn(`[discover-entities] discoveryRequiredCategoryIds names unknown category id(s): ${missing.join(', ')} -- ignored.`);
+    }
+    console.log(
+      `[discover-entities] scope filter: candidate must offer a distance in ` +
+        `${requiredCategories.map((c) => `${c.label} [${c.matchRange?.join('-')}]`).join(' or ')}.`
+    );
+  }
 
   const stats = { sourcesChecked: 0, sourcesSkipped: 0, candidatesFound: 0, written: 0, skipped: 0 };
   const skipReasons = [];
@@ -223,6 +239,33 @@ async function run() {
           stats.skipped++;
           skipReasons.push(
             `${domain}: "${candidate.name}" -- date ${candidateDate} is outside the ${windowBounds.months}-month window (${windowBounds.from} to ${windowBounds.to}) -- skipped`
+          );
+          continue;
+        }
+      }
+
+      // Enforce the in-scope distance rule in code as well as in the prompt,
+      // for the same reason the date window is checked twice above: a model
+      // asked to extract every row of a running calendar hands back the
+      // charity 5K sitting next to the marathon often enough to matter. On
+      // 2026-08-18 five standalone 5K/10K fun runs were written this way,
+      // against a directory where 183 of 187 races carry a 21.1km or longer
+      // distance -- the exceptions were all from that one run.
+      //
+      // Vertical-agnostic: the acceptable ranges come from the matchRange on
+      // the category records named in sourceConfig.discoveryRequiredCategoryIds,
+      // so this script still contains no hardcoded distance logic. Skipped
+      // entirely when that config key is absent or empty, and when the
+      // vertical's core_facts has no numeric list to test.
+      if (requiredCategories.length > 0) {
+        const values = Object.values(coreFactsResult.data)
+          .flatMap((v) => (Array.isArray(v) ? v : [v]))
+          .filter((v) => typeof v === 'number' && !Number.isNaN(v));
+        if (values.length > 0 && !values.some((v) => matchCategoryByValue(v, requiredCategories))) {
+          stats.skipped++;
+          skipReasons.push(
+            `${domain}: "${candidate.name}" -- out of scope: no value in ${JSON.stringify(values)} falls in ` +
+              `${requiredCategories.map((c) => c.label).join(' / ')} -- skipped`
           );
           continue;
         }
