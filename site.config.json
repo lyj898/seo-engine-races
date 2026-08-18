@@ -78,6 +78,8 @@
     "listicles": true,
     "reviews": true,
     "reviewQueue": true,
+    "_mergedReviews_note": "When true, a race's review body is rendered ON its entity page and /reviews/<slug>/ becomes a redirect to it, instead of the two living as separate URLs. Reason: Google Search Console showed ~192 races each holding a /race/ AND a /reviews/ URL -- 69% of the sitemap covering half as many topics -- while crawl budget sat near zero and only 22 pages were indexed. Every 'Crawled - currently not indexed' URL was a /race/ page (thin: ~713 words of templated facts); the 1,500-word original reviews sat on URLs Google had never fetched at all. Merging puts the unique content on the URL Google already crawls and ranks, and halves the sitemap. Set false to restore two separate URLs -- no data changes either way, data/reviews/*.json is untouched.",
+    "mergedReviews": true,
     "_autoPromoteDiscovered_note": "When true, a newly-discovered race is published automatically: generate-summaries.js promotes it straight from draft to active once it has real content (never a placeholder). Set false to restore the human review gate (draft -> needs_review, still live, but flagged). Only brand-new drafts are affected; refresh's needs_review flags on existing races are untouched.",
     "autoPromoteDiscovered": true,
     "savedFilters": true,

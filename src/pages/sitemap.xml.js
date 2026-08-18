@@ -43,7 +43,10 @@ export async function GET({ site }) {
     ...regions.map((r) => urls.region(r.slug)),
     ...entities.map((e) => urls.entity(e.slug)),
     ...(siteConfig.enabledFeatures?.listicles ? listicles.map((l) => urls.listicle(l.slug)) : []),
-    ...reviews.map((r) => urls.review(r.slug)),
+    // Individual review URLs are omitted when mergedReviews is on: each one
+    // redirects to its entity page (already listed above), and sitemapping a
+    // redirect spends crawl budget to be told where the real page is.
+    ...(siteConfig.enabledFeatures?.mergedReviews ? [] : reviews.map((r) => urls.review(r.slug))),
     ...gearArticles.map((a) => urls.gear(a.slug)),
     ...articles.map((a) => urls.article(a.slug)),
   ];

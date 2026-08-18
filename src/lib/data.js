@@ -70,8 +70,8 @@ export function loadTravelAgencies() {
  * prose back to that race's own review, without any content author having
  * to hand-write the link. See ReviewArticle.astro's raceLinks prop.
  *
- * Deliberately returns review slugs, not built urls.review() calls -- this
- * file stays Astro-free (see the module doc comment above), so turning a
+ * Deliberately returns slugs, not built urls.review()/urls.entity() calls --
+ * this file stays Astro-free (see the module doc comment above), so turning a
  * slug into a path is left to the page importing it.
  */
 export function buildRaceLinkTargets() {
@@ -106,7 +106,10 @@ export function buildRaceLinkTargets() {
 
     for (const name of aliases) {
       if (name.length < 3) continue; // guards against a stray short bracket match becoming a link target
-      targets.push({ name, reviewSlug: review.slug });
+      // Both slugs, because the link target depends on enabledFeatures.mergedReviews:
+      // merged builds link race mentions to the entity page (which now carries the
+      // review body), unmerged builds link to the standalone review.
+      targets.push({ name, reviewSlug: review.slug, entitySlug: entity.slug });
     }
   }
   return targets;

@@ -14,17 +14,28 @@
 // Props:
 //   sections:   [{ heading, paragraphs: [string with optional [n] markers] }]
 //   sources:    [{ n, label, publisher?, url, type? }]
-//   raceLinks:  [{ name, reviewSlug }] -- from src/lib/data.js's
+//   raceLinks:  [{ name, reviewSlug, entitySlug }] -- from src/lib/data.js's
 //               buildRaceLinkTargets(). Each distinct name is linked at most
 //               once across the whole article (its first mention only) so a
 //               race repeated through the piece doesn't turn into a wall of
 //               identical links.
 //   urls:       the site's urls helper (passed in rather than imported, so
 //               this component doesn't need to know the review path shape).
+//   linkToEntity: point race mentions at the entity page rather than the
+//               standalone review. True when enabledFeatures.mergedReviews
+//               has folded review bodies into entity pages, so autolinks
+//               resolve to the real page instead of a redirect stub.
 //   currentReviewSlug: when this article IS a review, its own slug -- pass
 //               this so a review never links its own race name back to
 //               itself.
-const { sections = [], sources = [], raceLinks = [], urls, currentReviewSlug = null } = Astro.props;
+const {
+  sections = [],
+  sources = [],
+  raceLinks = [],
+  urls,
+  linkToEntity = false,
+  currentReviewSlug = null,
+} = Astro.props;
 
 const escapeHtml = (s) =>
   s
@@ -43,7 +54,10 @@ const byNumber = new Map(sources.map((s) => [s.n, s]));
 const sortedRaceLinks = [...new Map(
   raceLinks
     .filter((r) => r.reviewSlug !== currentReviewSlug)
-    .map((r) => [r.name, { name: r.name, url: urls.review(r.reviewSlug) }])
+    .map((r) => [
+      r.name,
+      { name: r.name, url: linkToEntity ? urls.entity(r.entitySlug) : urls.review(r.reviewSlug) },
+    ])
 ).values()].sort((a, b) => b.name.length - a.name.length);
 
 // Which review URLs have already been linked once across this whole

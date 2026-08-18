@@ -57,6 +57,12 @@ const countryRegions = regions
   .sort((a, b) => a.label.localeCompare(b.label))
   .map((r) => ({ label: r.label, value: r.region_id }));
 
+// With mergedReviews on, a review's body lives on its entity page and
+// /reviews/<slug>/ is only a redirect -- so this index links straight to the
+// real page rather than bouncing every reader (and crawler) through a hop.
+const reviewHref = (review, entity) =>
+  siteConfig.enabledFeatures?.mergedReviews ? urls.entity(entity.slug) : urls.review(review.slug);
+
 const breadcrumbItems = [
   { label: siteConfig.siteName, href: urls.home() },
   { label: 'Reviews', href: urls.reviewsIndex() },
@@ -154,7 +160,7 @@ const jsonLd = [buildBreadcrumbListSchema(breadcrumbItems, Astro.site)];
                 data-search={searchHaystack}
                 class="py-5"
               >
-                <a href={urls.review(review.slug)} class="group block">
+                <a href={reviewHref(review, entity)} class="group block">
                   <div class="flex flex-wrap items-center gap-2">
                     {isNew(review) && (
                       <span class="rounded-full bg-brand-primary px-2 py-0.5 text-[0.65rem] font-bold uppercase tracking-wide text-brand-primary-ink dark:text-brand-primary-ink-dark">

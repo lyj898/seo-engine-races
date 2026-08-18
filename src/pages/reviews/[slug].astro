@@ -43,6 +43,25 @@ export function getStaticPaths() {
 }
 
 const { review, entity } = Astro.props;
+
+// With mergedReviews on, this review's body now lives on the entity page, so
+// this URL redirects there rather than serving the same content twice.
+// Deliberately a redirect and not a removed route: ~199 of these URLs are
+// already known to Google (discovered via the sitemap, never crawled), and a
+// redirect consolidates them into the entity page where a 404 would just
+// strand them.
+//
+// Hand-rolled rather than Astro.redirect(): Astro's generated stub pairs the
+// canonical with <meta name="robots" content="noindex">, and a noindex sitting
+// beside a cross-URL canonical is a documented anti-pattern -- Google can carry
+// the noindex across to the canonical target, which here is the very entity
+// page this merge exists to get indexed. An instant (0-second) meta refresh
+// plus a canonical, with no robots directive, is the standard consolidation
+// signal for a static host, and Google reads a 0-second refresh as permanent.
+const mergedTarget = siteConfig.enabledFeatures?.mergedReviews
+  ? new URL(urls.entity(entity.slug), Astro.site).toString()
+  : null;
+
 const regions = loadRegions().map(stripMeta);
 const region = regions.find((r) => r.region_id === entity.region_id);
 
@@ -87,6 +106,21 @@ const jsonLd = [
 ].filter(Boolean);
 ---
 
+{mergedTarget ? (
+  <html lang="en">
+    <head>
+      <meta charset="utf-8" />
+      <meta http-equiv="refresh" content={`0;url=${mergedTarget}`} />
+      <link rel="canonical" href={mergedTarget} />
+      <title>Redirecting to {entity.name}</title>
+    </head>
+    <body>
+      <p>
+        This review now lives on the <a href={mergedTarget}>{entity.name}</a> page.
+      </p>
+    </body>
+  </html>
+) : (
 <BaseLayout title={pageTitle} description={metaDescription} canonicalPath={urls.review(review.slug)} jsonLd={jsonLd}>
   <div class="mx-auto max-w-3xl px-4 py-10 sm:px-6">
     <Breadcrumb items={breadcrumbItems} />
@@ -198,3 +232,4 @@ const jsonLd = [
     </div>
   </div>
 </BaseLayout>
+)}

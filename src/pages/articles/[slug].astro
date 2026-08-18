@@ -61,7 +61,13 @@ const jsonLd = [
       <LastUpdated date={article.last_updated} />
     </div>
 
-    <ReviewArticle sections={article.sections} sources={article.sources} raceLinks={buildRaceLinkTargets()} urls={urls} />
+    <ReviewArticle
+      sections={article.sections}
+      sources={article.sources}
+      raceLinks={buildRaceLinkTargets()}
+      urls={urls}
+      linkToEntity={siteConfig.enabledFeatures?.mergedReviews}
+    />
 
     {article.faqs?.length > 0 && (
       <div class="mt-12">

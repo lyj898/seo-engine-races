@@ -1,4 +1,5 @@
 ---
+import siteConfig from '../lib/config.js';
 import { urls } from '../lib/urls.js';
 import { resolveRegistrationState } from '../lib/text.js';
 import DateBadge from './DateBadge.astro';
@@ -19,6 +20,8 @@ import ValuePills from './ValuePills.astro';
 //   reviewRating - that review's own rating.overall, when hasReview is true
 //   rank         - 1-based position, shown as an index (not a quality ranking)
 const { entity, categories = [], hasReview = false, reviewRating, rank } = Astro.props;
+
+const merged = siteConfig.enabledFeatures?.mergedReviews;
 
 const facts = entity.core_facts ?? {};
 const hasDate = typeof facts.date === 'string';
@@ -86,10 +89,15 @@ const why = pros.find((p) => !FILLER.test(p)) || firstSentence(entity.ai_summary
       </div>
 
       <div class="mt-4 flex flex-wrap gap-x-5 gap-y-2 text-sm">
-        {hasReview && (
+        {/* Merged builds put the review and the facts on one URL, so the two
+            links below would point at the same place -- collapse them into
+            one rather than showing the reader a duplicate. */}
+        {hasReview && !merged && (
           <a href={urls.review(entity.slug)} class="font-bold link-accent">Read the full review →</a>
         )}
-        <a href={urls.entity(entity.slug)} class="link-accent">Details &amp; registration →</a>
+        <a href={urls.entity(entity.slug)} class={hasReview && merged ? 'font-bold link-accent' : 'link-accent'}>
+          {hasReview && merged ? 'Read the full review →' : 'Details & registration →'}
+        </a>
       </div>
     </div>
   </div>

@@ -7,13 +7,14 @@
 // shared file) ever containing the literal word "race".
 import siteConfig from '../../lib/config.js';
 import { urls, entityUrlSegment } from '../../lib/urls.js';
-import { loadEntities, loadCategories, loadRegions, loadListicles, loadReviews, stripMeta, isPublished } from '../../lib/data.js';
+import { loadEntities, loadCategories, loadRegions, loadListicles, loadReviews, stripMeta, isPublished, buildRaceLinkTargets } from '../../lib/data.js';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import FactsTable from '../../components/FactsTable.astro';
 import ProsCons from '../../components/ProsCons.astro';
 import SentimentBreakdown from '../../components/SentimentBreakdown.astro';
 import ExcerptQuotes from '../../components/ExcerptQuotes.astro';
+import ReviewArticle from '../../components/ReviewArticle.astro';
 import FAQSection from '../../components/FAQSection.astro';
 import CTABlock from '../../components/CTABlock.astro';
 import RelatedEntities from '../../components/RelatedEntities.astro';
@@ -23,7 +24,7 @@ import Pill from '../../components/Pill.astro';
 import { narrowFactsToCategories } from '../../lib/categoryMatch.js';
 import { withResolvedRegistration } from '../../lib/text.js';
 import { pickRelatedEntities } from '../../lib/related.js';
-import { buildEntitySchema, buildFaqPageSchema, buildBreadcrumbListSchema } from '../../lib/schema-jsonld.js';
+import { buildEntitySchema, buildFaqPageSchema, buildBreadcrumbListSchema, buildReviewSchema } from '../../lib/schema-jsonld.js';
 
 export function getStaticPaths() {
   // Same publish rule as every hub and the sitemap: a detail page exists
@@ -51,6 +52,29 @@ const region = regions.find((r) => r.region_id === entity.region_id);
 const review = siteConfig.enabledFeatures?.reviews
   ? loadReviews().map(stripMeta).filter(isPublished).find((r) => r.entity_id === entity.entity_id)
   : undefined;
+
+// With mergedReviews on, the review body renders HERE rather than at its own
+// URL (see site.config.json's _mergedReviews_note). `merged` gates every
+// review block below; with the flag off the page falls back to the previous
+// behaviour of linking out to /reviews/<slug>/.
+const merged = Boolean(review) && siteConfig.enabledFeatures?.mergedReviews;
+
+// One rating, not two. entity.sentiment_scores is a research-time estimate
+// present on only ~21 entities; review.rating is the review's own verdict and
+// exists on every review. When both exist the review wins -- showing two
+// differently-scored breakdowns of the same race on one page reads as a bug.
+const ratingToShow = merged && review.rating ? review.rating : entity.sentiment_scores;
+const ratingIsFromReview = Boolean(merged && review.rating);
+
+// Merged FAQ set, deduped by question. 18 of the 215 entity/review pairs ask
+// at least one identical question, and two FAQPage blocks on one URL (or the
+// same question twice in the accordion) is exactly the redundancy this merge
+// exists to remove.
+const mergedFaqs = merged
+  ? [...(entity.faqs ?? []), ...(review.faqs ?? [])].filter((faq, i, all) =>
+      all.findIndex((f) => f.question.trim().toLowerCase() === faq.question.trim().toLowerCase()) === i
+    )
+  : (entity.faqs ?? []);
 
 // Internal-linking mesh (shared helper in src/lib/related.js so every page
 // type -- and anything the pipeline adds later -- follows the same rule):
@@ -82,7 +106,21 @@ const canonicalUrl = new URL(urls.entity(entity.slug), Astro.site).toString();
 // can turn schema types on/off without touching this file.
 const jsonLd = [
   buildEntitySchema(entity, siteConfig, canonicalUrl),
-  ...(siteConfig.enabledFeatures?.faqSchema ? [buildFaqPageSchema(entity.faqs)] : []),
+  // When the review body lives on this page, its Review schema belongs here
+  // too -- pointing at this URL, since /reviews/<slug>/ is now a redirect.
+  ...(merged
+    ? [
+        buildReviewSchema({
+          review,
+          entity,
+          siteConfig,
+          url: canonicalUrl,
+          entityUrl: canonicalUrl,
+          site: Astro.site,
+        }),
+      ]
+    : []),
+  ...(siteConfig.enabledFeatures?.faqSchema ? [buildFaqPageSchema(mergedFaqs)] : []),
   buildBreadcrumbListSchema(breadcrumbItems, Astro.site),
 ].filter(Boolean);
 ---
@@ -106,7 +144,8 @@ const jsonLd = [
       <p>{entity.ai_summary}</p>
     </div>
 
-    {review && (
+    {/* Unmerged fallback: link out to the standalone review page. */}
+    {review && !merged && (
       <a
         href={urls.review(review.slug)}
         class="mt-6 flex items-center justify-between gap-4 rounded-xl border border-brand-primary/40 bg-brand-surface-offset p-4 transition-colors hover:border-brand-primary dark:bg-brand-surface-offset-dark"
@@ -119,22 +158,65 @@ const jsonLd = [
       </a>
     )}
 
+    {/* The bottom line, up top: readers deciding whether to enter want the
+        verdict before the detail, not after it. */}
+    {merged && (
+      <div class="mt-8 rounded-xl border border-brand-border bg-brand-surface-offset p-5 dark:border-brand-border-dark dark:bg-brand-surface-offset-dark">
+        <h2 class="mb-2 text-sm font-semibold uppercase tracking-wide text-brand-muted dark:text-brand-muted-dark">
+          The bottom line
+        </h2>
+        <p class="text-base leading-relaxed">{review.verdict}</p>
+      </div>
+    )}
+
     <div class="mt-8">
       <FactsTable facts={withResolvedRegistration(narrowFactsToCategories(entity.core_facts, categories))} />
     </div>
+
+    {/* The review body -- the reason this page exists as a merged page at
+        all. Sits above pros/cons so the long-form read comes before the
+        at-a-glance summaries of it. */}
+    {merged && (
+      <div class="mt-4">
+        <ReviewArticle
+          sections={review.sections}
+          sources={review.sources}
+          raceLinks={buildRaceLinkTargets()}
+          urls={urls}
+          linkToEntity={true}
+          currentReviewSlug={review.slug}
+        />
+      </div>
+    )}
 
     <div class="mt-8">
       <ProsCons pros={entity.pros} cons={entity.cons} />
     </div>
 
-    {entity.sentiment_scores && (
+    {ratingToShow && (
       <section class="mt-8">
-        <h2 class="mb-4 text-xl font-semibold">Sentiment breakdown</h2>
-        <SentimentBreakdown sentiment={entity.sentiment_scores} />
+        <h2 class="mb-4 text-xl font-semibold">{ratingIsFromReview ? 'How runners rate it' : 'Sentiment breakdown'}</h2>
+        <SentimentBreakdown sentiment={ratingToShow} />
+        {ratingIsFromReview && (
+          <p class="mt-3 text-xs text-brand-muted dark:text-brand-muted-dark">
+            Scores summarise sentiment from the participant reviews cited above, not an official rating.
+          </p>
+        )}
       </section>
     )}
 
-    {entity.excerpt_quotes?.length > 0 && (
+    {merged && review.pull_quotes?.length > 0 && (
+      <section class="mt-8">
+        <h2 class="mb-4 text-xl font-semibold">In their words</h2>
+        <ExcerptQuotes quotes={review.pull_quotes} />
+      </section>
+    )}
+
+    {/* Entity-level quotes are the same kind of material as the review's
+        pull quotes, so only show them when the review didn't bring its own --
+        two near-identical quote blocks on one page is the redundancy this
+        merge exists to remove. */}
+    {entity.excerpt_quotes?.length > 0 && !(merged && review.pull_quotes?.length > 0) && (
       <section class="mt-8">
         {/* "What people say", not "What sources say": these are now
             first-hand participant quotes gathered by the research stage, and
@@ -160,7 +242,7 @@ const jsonLd = [
     </div>
 
     <div class="mt-10">
-      <FAQSection faqs={entity.faqs} />
+      <FAQSection faqs={mergedFaqs} />
     </div>
 
     <div class="mt-10">

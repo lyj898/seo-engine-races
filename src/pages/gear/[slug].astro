@@ -70,7 +70,13 @@ const jsonLd = [
       </p>
     )}
 
-    <ReviewArticle sections={article.sections} sources={article.sources} raceLinks={buildRaceLinkTargets()} urls={urls} />
+    <ReviewArticle
+      sections={article.sections}
+      sources={article.sources}
+      raceLinks={buildRaceLinkTargets()}
+      urls={urls}
+      linkToEntity={siteConfig.enabledFeatures?.mergedReviews}
+    />
 
     {article.products?.length > 0 && (
       <div class="mt-10">
