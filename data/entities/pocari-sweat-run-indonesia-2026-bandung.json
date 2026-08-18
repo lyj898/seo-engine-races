@@ -26,9 +26,69 @@
   "cons": [
     "The exact venue within Bandung has not been stated"
   ],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "sentiment_scores": {
+    "overall": 55,
+    "breakdown": [
+      {
+        "label": "Weather/course scenery",
+        "score": 78
+      },
+      {
+        "label": "Event organization/traffic management",
+        "score": 35
+      },
+      {
+        "label": "Runner safety on course (vehicle interaction)",
+        "score": 40
+      },
+      {
+        "label": "Community/atmosphere for participants",
+        "score": 65
+      }
+    ]
+  },
+  "excerpt_quotes": [
+    {
+      "quote": "Para peserta, terutama bagi para pelari di nomor half marathon dan marathon harus bertarung dengan pengendara motor dan mobil.",
+      "attribution": "Detik Travel news report citing 2024 participant experiences",
+      "source_url": "https://travel.detik.com/travel-news/d-7454217/pocari-run-di-bandung-banjir-kritik-warga-dan-peserta-ini-evaluasi-sandiaga"
+    },
+    {
+      "quote": "saya sebagai pelari ngerasain emang ga nyaman di beberapa titik, bahkan sempet dikatain anj*** Ama pengendara.",
+      "attribution": "Runner comment quoted in Detik Travel report on 2024 edition",
+      "source_url": "https://travel.detik.com/travel-news/d-7454217/pocari-run-di-bandung-banjir-kritik-warga-dan-peserta-ini-evaluasi-sandiaga"
+    },
+    {
+      "quote": "Risma, salah seorang peserta dari Bandung, mengaku sempat dibentak oleh pengendara saat melintasi area Via Duct.",
+      "attribution": "Pikiran Rakyat report on 2025 edition participant account",
+      "source_url": "https://www.pikiran-rakyat.com/news/pr-019510112/pocari-sweat-run-2025-bikin-bandung-macet-warga-beri-masukan-untuk-penyelenggara"
+    },
+    {
+      "quote": "Bandung itu jalannya kecil, ditambah tiap weekend macet, ditambah event lari kaya ini bikin susah orang yang mau kerja",
+      "attribution": "Resident/netizen comment quoted in Ayo Bandung coverage of 2025 edition",
+      "source_url": "https://www.ayobandung.com/bandung-raya/7915566702/event-lari-pocari-sweat-di-bandung-timbulkan-kemacetan-netizen-mengeluh-hingga-memilih-tak-keluar-rumah"
+    },
+    {
+      "quote": "Teu belajar tahun kamari, sakitu loba komen negatif, leuheung anu larina beneran, pelari fomo hungkul jang pamer medali sosmed",
+      "attribution": "Bandung resident comment on Instagram, quoted in Ayo Bandung",
+      "source_url": "https://www.ayobandung.com/bandung-raya/7915572227/jelang-pocari-sweat-run-2025-di-kota-bandung-banyak-warganet-mengeluh-karena-bakal-bikin-macet-gak-belajar-dari-tahun-kemarin"
+    }
+  ],
+  "research_highlights": [
+    "The 2026 edition is scheduled for 19-20 September 2026 in Bandung, with 10K and Half Marathon categories (moved from the usual July date used in 2024/2025 editions).",
+    "In the 2025 edition, start/finish moved from Gedung Sate to Balai Kota Bandung, and half marathon start time was pushed earlier (4:00 AM) specifically to reduce traffic disruption and finish sooner.",
+    "Bandung's cool morning climate is repeatedly cited by organizers and past participants as a favorable running condition compared to other Indonesian cities.",
+    "Course has historically run past Bandung landmarks such as Jalan Asia Afrika, Dago, Diponegoro, and Ir. H. Juanda, giving a scenic city-tour feel.",
+    "The event is hybrid: a large offline race in Bandung plus a much larger virtual race component (in 2025, roughly 16,000 ran offline versus over 30,000 virtual participants nationwide)."
+  ],
+  "research_watchouts": [
+    "The 2024 edition drew significant criticism after half-marathon and marathon runners had to share roads with motorbikes and cars, with some runners reporting horn-honking and even verbal abuse from drivers.",
+    "The 2025 edition caused notable traffic congestion in central Bandung (e.g. Cicadas, Kiaracondong, Viaduct areas), prompting complaints from residents and criticism from a Bandung city council member.",
+    "Local officials and city planners have publicly acknowledged recurring problems with road closures/route planning and pledged evaluation and improvements for future editions, suggesting logistics around road use remain a live issue.",
+    "Some residents on social media expressed skepticism that lessons from the prior year's complaints were being applied, indicating community friction around the race is a recurring theme rather than a one-off."
+  ],
+  "research_confidence": "medium",
+  "research_last_updated": "2026-08-18",
   "faqs": [
     {
       "question": "When is the Pocari Sweat Run Indonesia 2026 – Bandung taking place?",
@@ -47,7 +107,7 @@
       "answer": "The race takes place in Bandung, Indonesia, though the exact venue within the city has not been specified in the available information. Runners interested in participating should watch for further venue details as the September 19, 2026 event date approaches."
     }
   ],
-  "reliability_score": 40,
+  "reliability_score": 35,
   "tags": [
     "half-marathon",
     "indonesia"
@@ -57,7 +117,7 @@
       "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
       "label": "kalenderlari.com",
       "type": "aggregator",
-      "last_checked": "2026-08-11"
+      "last_checked": "2026-08-18"
     },
     {
       "url": "https://kalenderlari.com/events/pocari-sweat-run-indonesia-2026---bandung/",
@@ -75,6 +135,6 @@
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-08-18",
   "status": "active"
 }

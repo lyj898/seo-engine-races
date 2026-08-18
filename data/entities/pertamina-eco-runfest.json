@@ -41,7 +41,7 @@
       "answer": "The event offers four distance options: a 1.5km fun run, a 5km, a 10km, and a half marathon at 21.0975km. This range allows casual participants, families, and more serious competitive runners to all take part in the same event on the same day."
     }
   ],
-  "reliability_score": 43,
+  "reliability_score": 46,
   "tags": [
     "World Athletics Label",
     "In the city",
@@ -52,12 +52,12 @@
       "url": "https://www.finishers.com/en/destinations/asia/indonesia",
       "label": "www.finishers.com",
       "type": "aggregator",
-      "last_checked": "2026-08-11"
+      "last_checked": "2026-08-18"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-08-18",
   "status": "active"
 }

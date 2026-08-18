@@ -30,8 +30,18 @@
     "Registration status is not yet announced, so signup details are unavailable"
   ],
   "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "research_highlights": [
+    "The Davao leg has used a consistent out-and-back course at Ayala Azuela Cove in Lanang since the series began in 2024.",
+    "Leg 3 in Davao (the September date) features 5K, 10K, 21K, and a 32K 'Afroman' distance as its centerpiece race.",
+    "Completing the progressive distances across a city's three legs (16K in Leg 1, 21K in Leg 2, 32K in Leg 3) qualifies runners for the 42K category at the November National Finals in Pasay.",
+    "The race is organized by RunRio Inc. with KinetixSports as the local Davao partner, and recent Davao legs have drawn crowds in the range of roughly 2,700 to 3,800 runners across categories."
+  ],
+  "research_watchouts": [
+    "No participant race reviews were found on race-review platforms (e.g., Let's Do This listings for both the 2025 Leg 1 and Leg 3 Davao editions explicitly show no reviews submitted), so independent, first-hand runner feedback on course conditions or organization is scarce online.",
+    "Available public coverage of this race is dominated by results-focused sports journalism (finish times and podium names) rather than descriptive race reports, so details on things like crowd support, aid stations, or heat management during the actual run are not well documented in what's publicly available."
+  ],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-18",
   "faqs": [
     {
       "question": "When is the Sante Barley Trilogy Run Asia 2026 – Davao Leg 3?",
@@ -50,7 +60,7 @@
       "answer": "As of now, the registration status for this race has not yet been announced. Interested participants will need to watch for further updates from the organizer, Runrio, regarding when and how to sign up for the Davao Leg 3 event."
     }
   ],
-  "reliability_score": 55,
+  "reliability_score": 50,
   "tags": [
     "half-marathon",
     "philippines",
@@ -61,7 +71,7 @@
       "url": "https://runrio.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-11"
+      "last_checked": "2026-08-18"
     },
     {
       "url": "https://runrio.com/race-calendar",
@@ -79,6 +89,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-08-18",
   "status": "active"
 }

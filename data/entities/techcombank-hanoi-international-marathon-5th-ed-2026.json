@@ -33,8 +33,19 @@
     "Registration status is not yet announced, so entry details are unavailable"
   ],
   "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "research_highlights": [
+    "The course runs through Hanoi's heritage and cultural landmarks, including the Ho Chi Minh Mausoleum, the National Assembly, and Long Bien Bridge.",
+    "All four distances (42.195km marathon, 21.097km half marathon, 10km, and 5km) are AIMS-certified courses, also recognized by the Vietnam Athletics Federation.",
+    "The 2025 (4th) edition drew over 13,000 runners from 51 countries and territories, up roughly 1.5x from the prior year.",
+    "Race day weather for the 2025 edition (Oct 4-5) was recorded at about 27°C with overcast skies and very high humidity (~90%), typical for early October in Hanoi.",
+    "The event is organized by Sunrise Events Vietnam (also organizers of IRONMAN Vietnam) with Techcombank as title sponsor, and includes a 'Marathon Village' with expo activities in the days before the race."
+  ],
+  "research_watchouts": [
+    "High humidity (around 90%) reported on race morning in October, which can make conditions muggy despite moderate air temperature.",
+    "As a large, fast-growing event (13,000+ participants and increasing year over year), expect crowded start corrals and busy heritage-route sections near central landmarks."
+  ],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-18",
   "faqs": [
     {
       "question": "When is the Techcombank Hanoi International Marathon taking place?",
@@ -53,7 +64,7 @@
       "answer": "The race takes place in Hanoi, Vietnam, but the exact start point within the city has not been stated in available information. Further details about the specific venue or starting location are expected to be announced closer to the event date."
     }
   ],
-  "reliability_score": 83,
+  "reliability_score": 86,
   "tags": [
     "full-marathon",
     "vietnam",
@@ -64,7 +75,7 @@
       "url": "https://marathonhn.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-11"
+      "last_checked": "2026-08-18"
     }
   ],
   "affiliate_links": [],
@@ -76,6 +87,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-08-18",
   "status": "needs_review"
 }

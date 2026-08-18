@@ -1,0 +1,59 @@
+{
+  "entity_id": "7-eleven-run-2026",
+  "slug": "7-eleven-run-2026",
+  "name": "7-Eleven Run 2026",
+  "category_id": "10k",
+  "region_id": "singapore",
+  "short_description": "A 5km and 10km road race at Marina Barrage, Singapore, on 23 August 2026.",
+  "ai_summary": "The 7-Eleven Run 2026 is a road race held at Marina Barrage in Singapore, offering runners a choice between a 5km and a 10km distance. Taking place on 23 August 2026, it gives participants the option to pick a shorter or longer route depending on their training goals and experience level.",
+  "core_facts": {
+    "date": "2026-08-23",
+    "distance_km": [
+      5,
+      10
+    ],
+    "venue": "Marina Barrage",
+    "country": "Singapore"
+  },
+  "pros": [
+    "Choice of two distances (5km and 10km) to suit different fitness levels",
+    "Scenic waterfront venue at Marina Barrage"
+  ],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "What distances are offered at the 7-Eleven Run 2026?",
+      "answer": "The 7-Eleven Run 2026 offers two distance options for participants: a 5km race and a 10km race. This gives runners the flexibility to choose a shorter route if they are newer to running or a longer one if they want more of a challenge on race day."
+    },
+    {
+      "question": "Where does the 7-Eleven Run 2026 take place?",
+      "answer": "The race is held at Marina Barrage in Singapore, a waterfront venue in the city. Runners taking part in either the 5km or 10km distance will start and finish their race at this location on the day of the event."
+    },
+    {
+      "question": "When is the 7-Eleven Run 2026 held?",
+      "answer": "The 7-Eleven Run 2026 is scheduled to take place on 23 August 2026. It is set in Singapore at Marina Barrage, giving participants a full day to complete either the 5km or 10km distance on offer."
+    }
+  ],
+  "reliability_score": 40,
+  "tags": [
+    "road race",
+    "10km",
+    "5km"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.justrunlah.com/calendar-of-running-events-singapore/",
+      "label": "www.justrunlah.com",
+      "type": "aggregator",
+      "last_checked": "2026-08-18"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-08-18",
+  "status": "active"
+}

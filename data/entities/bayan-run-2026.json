@@ -31,9 +31,63 @@
     "Registration status is not yet announced, so entry details are unavailable",
     "No pricing, course, or logistical information provided yet"
   ],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "sentiment_scores": {
+    "overall": 74,
+    "breakdown": [
+      {
+        "label": "Course/organization",
+        "score": 78
+      },
+      {
+        "label": "Atmosphere & community support",
+        "score": 82
+      },
+      {
+        "label": "Post-race logistics (food/crowding)",
+        "score": 55
+      }
+    ]
+  },
+  "excerpt_quotes": [
+    {
+      "quote": "Ini pertama kali saya mengikuti Bayan Run dan langsung ke marathon",
+      "attribution": "Noveldi Petingko, winner of 21K men's category, quoted in Tribunkaltim.co",
+      "source_url": "https://kaltim.tribunnews.com/tribun-etam/1122127/perdana-ikut-ajang-bayan-run-di-balikpapan-noveldi-jadi-pelari-tercepat-kategori-21k"
+    },
+    {
+      "quote": "Puji Tuhan, semuanya tuntas dengan baik. Panitia, volunteer, dan peserta saling mendukung, sehingga atmosfer positif terasa dari awal hingga akhir acara",
+      "attribution": "Berti, Race Director from Kepala Batu Team, quoted in Go CSR Kaltim",
+      "source_url": "https://gocsrkaltim.com/lautan-pelari-warnai-balikpapan-6-000-peserta-meriahkan-bayan-run-2025/"
+    },
+    {
+      "quote": "Tapi ketika mengikuti Bayan Run 2025, Minggu (12/10), saya agak kecewa.",
+      "attribution": "Rizal Effendi, participant column on Kaltimkita.com",
+      "source_url": "https://www.kaltimkita.com/detailpost/nasi-uduk-dan-bayan-run"
+    },
+    {
+      "quote": "Saya sukses ambil bagian di nomor 5 km, tapi gagal ikut antre mendapat nasi uduk gratis yang disediakan setelah pelari mencapai garis finish.",
+      "attribution": "Rizal Effendi, participant column on Kaltimkita.com",
+      "source_url": "https://www.kaltimkita.com/detailpost/nasi-uduk-dan-bayan-run"
+    },
+    {
+      "quote": "Ada 20-an macam lebih makan yang kita sediakan dengan jumlah ribuan porsi",
+      "attribution": "H Syahbudin Noor of PT Bayan Resources, quoted in Kaltimkita.com",
+      "source_url": "https://www.kaltimkita.com/detailpost/nasi-uduk-dan-bayan-run"
+    }
+  ],
+  "research_highlights": [
+    "The 2025 edition's Half Marathon route ran from Lapangan Merdeka out to the cargo entrance of SAMS Sepinggan Balikpapan Airport and back, described by the 21K men's winner as very steril (traffic-free/secure).",
+    "Race route passes several Balikpapan landmarks including Tugu Monpera, Plaza Balikpapan, and Tugu Beruang Madu.",
+    "In 2025, water stations were placed every 2 kilometers along the course with medical teams stationed throughout.",
+    "Participation roughly doubled in 2025 to about 6,000 runners compared to the prior year, and organizers plan an even larger field for 2026.",
+    "Post-race, organizers lay on a large free food area (nasi uduk, bakso, soto, rawon and more, in the tens of varieties) though popular items can have long queues."
+  ],
+  "research_watchouts": [
+    "Long queues formed for the most popular free post-race food items (e.g. nasi uduk), leaving some finishers disappointed even though many other food options were available.",
+    "The 2025 race director acknowledged there were some minor operational hiccups ('kendala kecil') during the event, though they were resolved quickly."
+  ],
+  "research_confidence": "medium",
+  "research_last_updated": "2026-08-18",
   "faqs": [
     {
       "question": "When is Bayan Run 2026 taking place?",
@@ -52,7 +106,7 @@
       "answer": "As of the information available, registration for Bayan Run 2026 has not yet been announced. Prospective participants will need to wait for further updates regarding sign-up dates, fees, and entry procedures before they can register for any of the offered distances."
     }
   ],
-  "reliability_score": 91,
+  "reliability_score": 94,
   "tags": [
     "half-marathon",
     "indonesia",
@@ -63,7 +117,7 @@
       "url": "https://bayanrun.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-11"
+      "last_checked": "2026-08-18"
     },
     {
       "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
@@ -87,6 +141,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-08-18",
   "status": "needs_review"
 }

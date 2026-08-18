@@ -28,9 +28,36 @@
     "Centrally located at Dataran Putrajaya, a well-known public venue in Putrajaya"
   ],
   "cons": [],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "excerpt_quotes": [
+    {
+      "quote": "Pengambilan racekit larian HSN Putrajaya yang paling paling paling paling teruk..beratur 1.50 pm ambil masa 2 jam baju 5KM tak semua smpai lagi",
+      "attribution": "Participant post on Threads (@anas_coway) about the 2025 edition race kit collection",
+      "source_url": "https://www.threads.com/@anas_coway/post/DPnwm8fAR1u/pengambilan-racekit-larian-hsn-putrajaya-yang-paling-paling-paling-paling-terukb"
+    },
+    {
+      "quote": "Lokasi Putrajaya yang terkenal dengan lanskap indah dan jalan yang terancang memberikan pengalaman larian yang sangat menyenangkan",
+      "attribution": "Runner recap on Lemon8 (@sislynna)",
+      "source_url": "https://www.lemon8-app.com/@sislynna/7561254855952581136?region=my"
+    },
+    {
+      "quote": "Selain itu, suasana kebersamaan dan sokongan antara peserta amat menggalakkan semangat untuk terus maju ke garis penamat",
+      "attribution": "Runner recap on Lemon8 (@sislynna)",
+      "source_url": "https://www.lemon8-app.com/@sislynna/7561254855952581136?region=my"
+    }
+  ],
+  "research_highlights": [
+    "The course runs through Dataran Putrajaya and the surrounding lakeside/park landscape, which participants describe as scenic and well laid out.",
+    "The event offers multiple distances (past editions had 3km/5km/10km/21km; the 2026 edition adds a 30km category alongside 3km/5km/10km/21km).",
+    "It's a two-day event: shorter categories (e.g. 3km/5km) typically run one day, with longer distances (10km/21km) on the following day at Dataran Putrajaya.",
+    "Race kit collection for past editions was held at Auditorium Tun Azizan Zainul in Kompleks Perbadanan Putrajaya in the days before the run, separate from race day.",
+    "Organisers position the event as a community-focused 'Car-Free Day' style carnival with an accompanying expo and bazaar."
+  ],
+  "research_watchouts": [
+    "A participant reported extremely long queues (around 2 hours) at race kit collection for the 2025 edition, with some event t-shirts (including 5km and 21km sizes) not available/arriving in time.",
+    "The same participant reported having to collect shirts on the morning of the race itself due to stock/logistics issues, and criticized the organiser's system as lacking proper tracking."
+  ],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-18",
   "faqs": [
     {
       "question": "When is HSN Putrajaya 2026 taking place?",
@@ -71,6 +98,6 @@
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-08-18",
   "status": "needs_review"
 }

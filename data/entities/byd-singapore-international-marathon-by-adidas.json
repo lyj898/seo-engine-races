@@ -45,7 +45,7 @@
       "answer": "The BYD Singapore International Marathon by Adidas is scheduled for December 6, 2026, and takes place in Singapore. The race is part of the Road Running category and includes multiple distance options for participants attending the event that day."
     }
   ],
-  "reliability_score": 49,
+  "reliability_score": 52,
   "tags": [
     "Road Running",
     "World Marathon Majors Qualifiers",
@@ -58,12 +58,12 @@
       "url": "https://www.finishers.com/en/destinations/asia/singapore",
       "label": "www.finishers.com",
       "type": "aggregator",
-      "last_checked": "2026-08-11"
+      "last_checked": "2026-08-18"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-08-18",
   "status": "needs_review"
 }

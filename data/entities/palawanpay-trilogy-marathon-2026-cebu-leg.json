@@ -31,8 +31,15 @@
     "Very early 3:00 AM start time may be inconvenient for some participants"
   ],
   "excerpt_quotes": [],
-  "research_highlights": [],
+  "research_highlights": [
+    "This is the inaugural PalawanPay Trilogy Marathon, with the Cebu leg being the second stop in a three-city series (Manila, Cebu, Palawan) launched in 2026.",
+    "The Cebu leg, held in Mandaue City on Sept. 27, 2026, adds a 21K half-marathon distance alongside shorter categories, described as raising the challenge compared to the Manila leg's 1K-16K lineup.",
+    "Race organizer is RUNRIO Inc., the same team behind other established Philippine races (e.g., Cebu Marathon in prior years, RUNRIO Trilogy series), so participants can expect RUNRIO's standard race-day setup of water stations, medical aid points, and marshaled course boundaries as used in their other Cebu events.",
+    "Part of the event's proceeds are earmarked for purchasing fully-equipped ambulances for Aklan and South Cotobato, a community/charity angle organizers are promoting alongside the race."
+  ],
   "research_watchouts": [],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-18",
   "faqs": [
     {
       "question": "When is the PalawanPay Trilogy Marathon 2026 – Cebu Leg?",
@@ -51,7 +58,7 @@
       "answer": "Yes, registration for the PalawanPay Trilogy Marathon 2026 – Cebu Leg is currently open. Interested runners can sign up ahead of the September 27, 2026 race date to secure a spot in one of the four available distance categories."
     }
   ],
-  "reliability_score": 71,
+  "reliability_score": 74,
   "tags": [
     "half-marathon",
     "philippines"
@@ -61,7 +68,7 @@
       "url": "https://raceroster.com/events/2026/129711/palawanpay-trilogy-marathon-cebu-2026",
       "label": "raceroster.com",
       "type": "aggregator",
-      "last_checked": "2026-08-11"
+      "last_checked": "2026-08-18"
     }
   ],
   "affiliate_links": [],
@@ -73,6 +80,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-08-18",
   "status": "active"
 }

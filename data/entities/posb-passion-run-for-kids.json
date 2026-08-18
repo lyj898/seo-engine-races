@@ -1,0 +1,57 @@
+{
+  "entity_id": "posb-passion-run-for-kids",
+  "slug": "posb-passion-run-for-kids",
+  "name": "POSB PAssion Run For Kids",
+  "category_id": "5k",
+  "region_id": "singapore",
+  "short_description": "A 5km road race at The Promontory @ Marina Bay, Singapore, taking place on October 25, 2026.",
+  "ai_summary": "POSB PAssion Run For Kids is a 5km road race held at The Promontory @ Marina Bay in Singapore. The event is scheduled for October 25, 2026. With a single distance offered, it's structured as a straightforward, accessible run at one of Singapore's well-known waterfront locations.",
+  "core_facts": {
+    "date": "2026-10-25",
+    "distance_km": [
+      5
+    ],
+    "venue": "The Promontory @ Marina Bay",
+    "country": "Singapore"
+  },
+  "pros": [
+    "Takes place at a scenic, well-known waterfront venue in Marina Bay",
+    "Single 5km distance keeps the event simple and accessible"
+  ],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "What distance is the POSB PAssion Run For Kids?",
+      "answer": "The POSB PAssion Run For Kids is a 5km road race. There is only one distance category offered for this event, making it a straightforward option for participants looking for a shorter race rather than a multi-distance event with several course length choices."
+    },
+    {
+      "question": "Where does the race take place?",
+      "answer": "The race is held at The Promontory @ Marina Bay, a well-known waterfront location in Singapore. This venue serves as the setting for the 5km road race, placing participants along one of the city's most recognizable bayside areas for the event."
+    },
+    {
+      "question": "When is the POSB PAssion Run For Kids held?",
+      "answer": "The event is scheduled to take place on October 25, 2026. This is the confirmed date for the 5km road race at The Promontory @ Marina Bay in Singapore, giving participants a clear day to plan for the run."
+    }
+  ],
+  "reliability_score": 40,
+  "tags": [
+    "road race",
+    "5km"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.justrunlah.com/calendar-of-running-events-singapore/",
+      "label": "www.justrunlah.com",
+      "type": "aggregator",
+      "last_checked": "2026-08-18"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-08-18",
+  "status": "active"
+}

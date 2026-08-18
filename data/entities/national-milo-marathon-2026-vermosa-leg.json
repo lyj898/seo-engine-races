@@ -30,9 +30,27 @@
   "cons": [
     "Registration status is not yet confirmed as open, so details on signing up are unavailable"
   ],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "excerpt_quotes": [
+    {
+      "quote": "the course was Vermosa, which has CRAZY uphill sections",
+      "attribution": "Runner post-race reflection on Threads (@uchiiisme)",
+      "source_url": "https://www.threads.com/@uchiiisme/post/DAZ8qz7zewa?hl=en"
+    }
+  ],
+  "research_highlights": [
+    "The Vermosa leg is held at Daang Hari Road corner Vermosa Blvd., Imus, Cavite, inside the Ayala Land Vermosa mixed-use development.",
+    "Race distances offered at this leg have included 21K Half Marathon, 10K, 5K, 3K and 1K Active Kids categories.",
+    "Runners qualifying at this leg who hit their age-group qualifying time can advance to the National MILO Marathon Finals.",
+    "The 2026 edition is part of the marathon's 50th-anniversary calendar, with the National Finals to be held in Clark City, Pampanga on December 6, 2026.",
+    "The event is organized by RUNRIO, INC., which requires a signed 'Fit-To-Run' medical certificate for the 21K/42K categories and enforces strict start-time and singlet/bib rules."
+  ],
+  "research_watchouts": [
+    "At least one runner who completed the 21K described the Vermosa route as having 'CRAZY uphill sections,' suggesting the course is hillier than a flat urban route.",
+    "Participants are disqualified if they do not start within 10 minutes of their category's flag-off time, so arriving late to the corral can cost you your result.",
+    "Entry fees are non-refundable and online registration platforms add processing, web and delivery fees on top of the published race fee."
+  ],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-18",
   "faqs": [
     {
       "question": "When is the National MILO Marathon 2026 – Vermosa Leg?",
@@ -51,7 +69,7 @@
       "answer": "As of the latest available information, registration for this race has not yet been confirmed as open. Prospective participants should check back for updates regarding sign-up details, since no confirmed registration window or process has been established at this time."
     }
   ],
-  "reliability_score": 35,
+  "reliability_score": 30,
   "tags": [
     "half-marathon",
     "philippines"
@@ -61,7 +79,7 @@
       "url": "https://www.milo.com.ph/national-milo-marathon",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-11"
+      "last_checked": "2026-08-18"
     },
     {
       "url": "https://pinoyfitness.com/2026/01/milo-marathon-2026-full-race-schedule-and-locations-unveiled",
@@ -79,6 +97,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-08-18",
   "status": "active"
 }

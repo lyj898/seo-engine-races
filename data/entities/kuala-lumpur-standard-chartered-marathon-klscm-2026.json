@@ -31,9 +31,69 @@
   "cons": [
     "Only limited pricing information is available (starting price only, no full breakdown by distance)"
   ],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "sentiment_scores": {
+    "overall": 78,
+    "breakdown": [
+      {
+        "label": "Atmosphere & crowd support",
+        "score": 88
+      },
+      {
+        "label": "Organisation/logistics",
+        "score": 78
+      },
+      {
+        "label": "Heat/weather conditions",
+        "score": 45
+      },
+      {
+        "label": "Course & finish experience (Stadium Merdeka)",
+        "score": 90
+      }
+    ]
+  },
+  "excerpt_quotes": [
+    {
+      "quote": "It's hard to enjoy the race carnival when the heat was so intense.",
+      "attribution": "Runner race review on Prischew.com (KLSCM 2025 half marathon)",
+      "source_url": "https://www.prischew.com/sports/running/race-review-21-1km-at-klscm-2025/"
+    },
+    {
+      "quote": "But it was definitely well put together, with everything run seamlessly and plenty of spectator areas for runners to wait around and cheer on their friends",
+      "attribution": "Runner race review on Prischew.com (KLSCM 2025 half marathon)",
+      "source_url": "https://www.prischew.com/sports/running/race-review-21-1km-at-klscm-2025/"
+    },
+    {
+      "quote": "The friendly, chill and very down-to-earth vibe here is always once that I look forward to and it never disappoints.",
+      "attribution": "Runner race review on Prischew.com (KLSCM 2025 half marathon)",
+      "source_url": "https://www.prischew.com/sports/running/race-review-21-1km-at-klscm-2025/"
+    },
+    {
+      "quote": "It was a hot and humid early morning.",
+      "attribution": "Vincent Khor, full-marathon race report blog (KLSCM 2025)",
+      "source_url": "http://vincentkhor.blogspot.com/2025/10/full-marathon-no-40-kuala-lumpur.html"
+    },
+    {
+      "quote": "The weather here is different which made the pace manageable – it's easier to manage your run when the climate is cooler.",
+      "attribution": "Elite 10km winner Sonny Wagdos, quoted in KLSCM official news release",
+      "source_url": "https://www.kl-marathon.com/news/114/"
+    }
+  ],
+  "research_highlights": [
+    "Race is held as a two-day weekend format: shorter distances (5km, 10km, Kids Dash) on Saturday, and the Full Marathon plus Half Marathon on Sunday.",
+    "The 21.1km Half Marathon has historically flagged off very early, around 4:45am, with the Full Marathon starting even earlier (around 3:30am) to beat the heat.",
+    "In 2025 the course start moved away from the traditional Dataran Merdeka (closed for renovation works) to Jalan Raja Laut, with the finish moved to a new stadium finish inside Stadium Merdeka, which many runners described as a highlight of the race experience.",
+    "The race has grown into Malaysia's largest mass-participation event, with reported turnout of over 41,000 runners across categories in the 2025 edition.",
+    "Public registration slots have sold out within hours in recent years (2025 sold out the same day registration opened), so early sign-up is advised."
+  ],
+  "research_watchouts": [
+    "Heat and humidity are frequently cited as tough, even with pre-dawn start times — one 2025 reviewer said the race carnival was hard to enjoy because 'the heat was so intense.'",
+    "Course/start-finish logistics have changed in recent years due to construction at the traditional Dataran Merdeka venue, so returning runners should double check the current-year start/finish points rather than assume it's the same as previous editions.",
+    "Early race starts (as early as 3:15–4:45am) mean runners need to plan sleep and transport/logistics carefully the night before.",
+    "Toilet queues near the start line have been reported as long in past editions, with some runners seeking alternatives at nearby hotels."
+  ],
+  "research_confidence": "high",
+  "research_last_updated": "2026-08-18",
   "faqs": [
     {
       "question": "When is the Kuala Lumpur Standard Chartered Marathon (KLSCM) taking place?",
@@ -63,7 +123,7 @@
       "url": "https://www.kl-marathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-11"
+      "last_checked": "2026-08-18"
     },
     {
       "url": "https://www.kl-marathon.com/",
@@ -93,6 +153,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-08-18",
   "status": "active"
 }

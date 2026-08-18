@@ -44,7 +44,7 @@
       "answer": "The Indonesia Women Half Marathon takes place in Indonesia, as stated in the race's core facts. No further location specifics, such as city or venue, have been provided beyond the country name at this time."
     }
   ],
-  "reliability_score": 25,
+  "reliability_score": 20,
   "tags": [
     "half-marathon",
     "indonesia"
@@ -54,12 +54,12 @@
       "url": "https://aims-worldrunning.org/calendar.html",
       "label": "aims-worldrunning.org",
       "type": "aggregator",
-      "last_checked": "2026-08-11"
+      "last_checked": "2026-08-18"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-08-18",
   "status": "active"
 }

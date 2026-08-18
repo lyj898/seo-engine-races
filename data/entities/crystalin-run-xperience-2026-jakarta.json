@@ -30,8 +30,16 @@
     "Registration status is not yet announced, so sign-up details are unavailable"
   ],
   "excerpt_quotes": [],
-  "research_highlights": [],
+  "research_highlights": [
+    "The 2026 Jakarta edition offers four distance categories: 2.5K Fun Run, 5K, 10K and Half Marathon (21K), based at Lippo Mall Nusantara in South Jakarta on Sunday, October 4, 2026.",
+    "The Half Marathon category (new since the 2025 edition) has a stated cutoff time of 4 hours, and this distance is specific to the Jakarta edition (not offered at the Surabaya leg).",
+    "The Half Marathon route is notable for crossing the Antasari flyover, described by organizers and press coverage as offering elevated views of Jakarta as a course highlight.",
+    "The race village is integrated indoor/outdoor with the mall itself, including features like an indoor garden, dancing fountain and food court themed around Betawi, Javanese and Chinese-Indonesian cuisine.",
+    "Participation has grown quickly: the inaugural 2024 edition drew about 3,600 runners, rising to over 8,000 in the 2025 edition, and organizers are targeting around 10,000 participants in Jakarta for 2026."
+  ],
   "research_watchouts": [],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-18",
   "faqs": [
     {
       "question": "When is the Crystalin Run Xperience 2026 taking place?",
@@ -50,7 +58,7 @@
       "answer": "As of now, registration status for the Crystalin Run Xperience 2026 is listed as 'Not Yet Announced.' Prospective participants interested in joining this Jakarta half-marathon event should check back for updates, as organizers have not yet released details on sign-up dates, fees, or the registration process."
     }
   ],
-  "reliability_score": 62,
+  "reliability_score": 57,
   "tags": [
     "half-marathon",
     "indonesia",
@@ -61,7 +69,7 @@
       "url": "https://crystalinrunxperience.id",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-11"
+      "last_checked": "2026-08-18"
     },
     {
       "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
@@ -85,6 +93,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-08-18",
   "status": "active"
 }

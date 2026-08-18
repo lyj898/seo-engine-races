@@ -47,7 +47,7 @@
       "answer": "Registration for HATYAi21 is currently listed as not yet announced. This means prospective participants do not yet have access to sign-up details, fees, or deadlines. Anyone interested in joining this half-marathon in Hat Yai, Songkhla, Thailand should check back later for updated registration information."
     }
   ],
-  "reliability_score": 20,
+  "reliability_score": 15,
   "tags": [
     "half-marathon",
     "thailand"
@@ -57,7 +57,7 @@
       "url": "https://www.hatyai21.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-11"
+      "last_checked": "2026-08-18"
     },
     {
       "url": "https://ahotu.com",
@@ -81,6 +81,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-08-18",
   "status": "active"
 }

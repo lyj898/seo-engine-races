@@ -28,9 +28,57 @@
   "cons": [
     "Price range is fairly wide, so exact cost depends on category chosen"
   ],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "sentiment_scores": {
+    "overall": 74,
+    "breakdown": [
+      {
+        "label": "Atmosphere/Crowd energy",
+        "score": 85
+      },
+      {
+        "label": "Course challenge (flyover climb)",
+        "score": 65
+      },
+      {
+        "label": "Route organization/traffic control",
+        "score": 60
+      },
+      {
+        "label": "Refreshment/support",
+        "score": 75
+      }
+    ]
+  },
+  "excerpt_quotes": [
+    {
+      "quote": "Seru banget. Banyak yang ikut. Acaranya seru. Rute flyover cukup menantang karena menanjak.",
+      "attribution": "Runner Nanda (Madiun), quoted in Jawa Tengah provincial government news report on Solo Run Fest 2025",
+      "source_url": "https://humas.jatengprov.go.id/detail_berita_gubernur?id=10311"
+    },
+    {
+      "quote": "Rutenya enak, ada jalan yang memiliki elevasi, ada yang datar. Harapannya ke depan untuk sterilisasi jalurnya saja agar lebih nyaman bagi pelari",
+      "attribution": "Runner Darwis (traveled from Yogyakarta), quoted in Tribun Solo advertorial coverage",
+      "source_url": "https://solo.tribunnews.com/adv/329572/gayeng-gubernur-jateng-ahmad-luthfi-berbaur-dengan-ribuan-peserta-ramaikan-solo-run-fest-2025"
+    },
+    {
+      "quote": "Acara mantap, pesertanya banyak, refreshment juga lengkap. Flyover menantang karena menanjak.",
+      "attribution": "Amikom Solo students Nanda and Juni, quoted in Kebumen Update",
+      "source_url": "https://www.kebumenupdate.com/news/6-000-pelari-ramaikan-solo-run-fest-2025/"
+    }
+  ],
+  "research_highlights": [
+    "Start at Stadion Manahan Solo, finish at Taman Balekambang; 2026 edition offers 5K, 10K, and Half Marathon categories (2025 had only 5K and 10K)",
+    "Early morning start times reported for the 2025 edition: 10K around 05:30 WIB and 5K around 05:50 WIB",
+    "Course includes a flyover (jalan layang) section that multiple runners described as challenging due to the incline, alongside flatter stretches",
+    "The 2025 edition drew about 6,000 participants including the Governor of Central Java; organizers are targeting 7,000 participants for 2026",
+    "Beyond the run itself, the event includes a UMKM (small business) bazaar, sportswear expo, and live music performances at the festival area"
+  ],
+  "research_watchouts": [
+    "A runner who traveled from Yogyakarta suggested organizers improve route sterilization (crowd/traffic control) to make the course more comfortable for participants",
+    "The flyover climb was repeatedly singled out by participants as the toughest part of the route due to its ascent"
+  ],
+  "research_confidence": "medium",
+  "research_last_updated": "2026-08-18",
   "faqs": [
     {
       "question": "When is Solo Run Fest 2026 taking place?",
@@ -60,7 +108,7 @@
       "url": "https://solorunfest.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-11"
+      "last_checked": "2026-08-18"
     },
     {
       "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
@@ -84,6 +132,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-08-18",
   "status": "needs_review"
 }

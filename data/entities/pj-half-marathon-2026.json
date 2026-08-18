@@ -104,7 +104,7 @@
       "answer": "Yes, registration for the PJ Half Marathon 2026 is currently open. Interested runners can sign up to participate in the 21.1 km half-marathon, which will be held on September 6, 2026, starting at Laman MBPJ in Petaling Jaya, Selangor, Malaysia."
     }
   ],
-  "reliability_score": 20,
+  "reliability_score": 15,
   "tags": [
     "half-marathon",
     "malaysia"
@@ -114,12 +114,12 @@
       "url": "https://www.racexasia.com/events",
       "label": "racexasia.com",
       "type": "aggregator",
-      "last_checked": "2026-08-11"
+      "last_checked": "2026-08-18"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-08-18",
   "status": "active"
 }

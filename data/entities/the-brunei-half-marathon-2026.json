@@ -57,7 +57,7 @@
       "answer": "Yes -- registration is open now directly through the event's official website, with no third-party platform required. No named race organizer is disclosed on the site, so entrants relying on organizer-specific contact details should reach out via the official website's own contact channels instead of a named body."
     }
   ],
-  "reliability_score": 66,
+  "reliability_score": 61,
   "tags": [
     "half-marathon",
     "brunei",
@@ -69,7 +69,7 @@
       "url": "https://thebruneihalfmarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-11"
+      "last_checked": "2026-08-18"
     }
   ],
   "affiliate_links": [],
@@ -84,6 +84,6 @@
     "luang-prabang-half-marathon-run-for-children-2026",
     "ijm-allianz-duo-highway-challenge-2026"
   ],
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-08-18",
   "status": "needs_review"
 }

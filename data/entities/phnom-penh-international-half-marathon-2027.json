@@ -50,7 +50,7 @@
       "answer": "The specific organizer for this event is not explicitly stated in available information. However, it is noted that the same organizer is responsible for the E19 and E68 events, suggesting some continuity in event management, though further details have not been confirmed."
     }
   ],
-  "reliability_score": 37,
+  "reliability_score": 40,
   "tags": [
     "half-marathon",
     "cambodia",
@@ -61,7 +61,7 @@
       "url": "https://www.cambodia-events.org",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-11"
+      "last_checked": "2026-08-18"
     }
   ],
   "affiliate_links": [],
@@ -73,6 +73,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-08-18",
   "status": "needs_review"
 }

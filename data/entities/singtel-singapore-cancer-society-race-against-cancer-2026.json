@@ -1,0 +1,65 @@
+{
+  "entity_id": "singtel-singapore-cancer-society-race-against-cancer-2026",
+  "slug": "singtel-singapore-cancer-society-race-against-cancer-2026",
+  "name": "Singtel – Singapore Cancer Society Race Against Cancer 2026",
+  "category_id": "10k",
+  "region_id": "singapore",
+  "short_description": "A 5km/10km charity road race at Angsana Green, East Coast Park, Singapore, held on 20 September 2026 in support of the Singapore Cancer Society.",
+  "ai_summary": "The Singtel – Singapore Cancer Society Race Against Cancer 2026 is a charity road race held at Angsana Green in East Coast Park, Singapore, on 20 September 2026. Participants can choose between a 5km or 10km distance, making it accessible to both casual runners and those looking for a slightly longer challenge. As a cancer-cause charity event, it combines a straightforward road running experience with a fundraising purpose.",
+  "core_facts": {
+    "date": "2026-09-20",
+    "distance_km": [
+      5,
+      10
+    ],
+    "venue": "Angsana Green, East Coast Park",
+    "country": "Singapore"
+  },
+  "pros": [
+    "Choice of 5km or 10km distances suits different fitness levels",
+    "Held at East Coast Park, a well-known and accessible running location in Singapore",
+    "Supports a charitable cause tied to cancer awareness and support"
+  ],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "Where is the Race Against Cancer 2026 held?",
+      "answer": "The race takes place at Angsana Green, located within East Coast Park in Singapore. This is a coastal parkland venue commonly used for outdoor running events in the city, offering a straightforward road-based setting for participants across both available race distances."
+    },
+    {
+      "question": "What distances can I run in this race?",
+      "answer": "Runners can choose between a 5km and a 10km distance, giving flexibility depending on fitness level or personal goals. Both options are part of the same event, so participants and their friends or family can select the distance that suits them best while still taking part together."
+    },
+    {
+      "question": "When is the Race Against Cancer 2026 taking place?",
+      "answer": "The event is scheduled for 20 September 2026. It is held in Singapore at Angsana Green in East Coast Park, giving participants a specific date to plan their training and travel around ahead of race day."
+    },
+    {
+      "question": "What cause does this race support?",
+      "answer": "This event is organized in partnership with the Singapore Cancer Society, with Singtel involved as part of the race name. It is structured as a charity road race, meaning participation contributes toward supporting the society's cancer-related cause alongside the running experience itself."
+    }
+  ],
+  "reliability_score": 40,
+  "tags": [
+    "road race",
+    "10km",
+    "5km",
+    "charity"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.justrunlah.com/calendar-of-running-events-singapore/",
+      "label": "www.justrunlah.com",
+      "type": "aggregator",
+      "last_checked": "2026-08-18"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-08-18",
+  "status": "active"
+}

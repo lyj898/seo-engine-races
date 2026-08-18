@@ -51,7 +51,7 @@
       "answer": "INTC Run 2026 is held at SM City Laoag, located in the city of Laoag, Ilocos Norte, in the Philippines. This venue serves as the base for the race, which includes multiple distance categories ranging from a 3km fun run up to a 21.1km half-marathon."
     }
   ],
-  "reliability_score": 49,
+  "reliability_score": 52,
   "tags": [
     "half-marathon",
     "philippines"
@@ -61,12 +61,12 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-08-11"
+      "last_checked": "2026-08-18"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-08-18",
   "status": "active"
 }

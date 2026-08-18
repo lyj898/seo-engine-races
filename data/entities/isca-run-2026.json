@@ -1,0 +1,43 @@
+{
+  "entity_id": "isca-run-2026",
+  "slug": "isca-run-2026",
+  "name": "ISCA Run 2026",
+  "category_id": "10k",
+  "region_id": "singapore",
+  "short_description": "A road race with 10 km and 5 km categories held at The Meadow, Gardens by the Bay, Singapore on 17 October 2026.",
+  "ai_summary": "(AI summary pending -- run `npm run summaries`.)",
+  "core_facts": {
+    "date": "2026-10-17",
+    "distance_km": [
+      5,
+      10
+    ],
+    "venue": "The Meadow, Gardens by the bay",
+    "country": "Singapore"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [],
+  "reliability_score": 40,
+  "tags": [
+    "road race",
+    "10km",
+    "5km"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.justrunlah.com/calendar-of-running-events-singapore/",
+      "label": "www.justrunlah.com",
+      "type": "aggregator",
+      "last_checked": "2026-08-18"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-08-18",
+  "status": "draft"
+}

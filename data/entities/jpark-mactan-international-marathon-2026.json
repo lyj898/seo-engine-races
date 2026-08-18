@@ -29,8 +29,19 @@
   ],
   "cons": [],
   "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "research_highlights": [
+    "This is the first-ever Jpark Mactan International Marathon, organized in partnership with the established Bohol International Marathon organization — the race has no prior editions, so there are no participant race reports yet as of this writing.",
+    "The race offers four distance categories: 42K, 21K, 10K, and 5K, taking place on October 11, 2026 in Lapu-Lapu City, Mactan.",
+    "The 42K course includes timing points at KM5.95 (Be Resorts Mactan), KM14.35 (near former St. Augustine School, Gen. Aviation Rd.), and KM35.92 (Roro Port of Cordova), indicating the route runs out to Cordova and back.",
+    "Registration for the early bird rate opened February 7, 2026 and ran until March 7, 2026, with sign-ups handled via the event's Facebook page.",
+    "The organizer, Bohol International Marathon, has a track record from its own events — e.g., BIM 2025 became the first edition of that race to earn World Athletics accreditation, and past editions were noted for having a very high number of hydration stations (23) — though this is about the organizer's other event, not direct evidence about how the Mactan race itself will run."
+  ],
+  "research_watchouts": [
+    "No independent participant reviews, race reports, or running-community discussion of the JPark Mactan International Marathon itself could be found — it is a brand-new event that has not yet taken place, so course conditions, crowd support, heat management, and on-the-ground organization are unverified by runners.",
+    "Most available coverage is promotional/organizational press (partnership announcements, resort marketing) rather than firsthand runner commentary."
+  ],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-18",
   "faqs": [
     {
       "question": "When is the JPARK Mactan International Marathon 2026 taking place?",
@@ -49,7 +60,7 @@
       "answer": "The race is held on Mactan Island, located in Lapu-Lapu City, within Cebu province, Philippines. This coastal island setting serves as the venue for all four race distances offered at this event, from the 5km up to the full marathon."
     }
   ],
-  "reliability_score": 37,
+  "reliability_score": 32,
   "tags": [
     "full-marathon",
     "philippines"
@@ -59,7 +70,7 @@
       "url": "https://mytv.ph",
       "label": "mytv.ph",
       "type": "aggregator",
-      "last_checked": "2026-08-11"
+      "last_checked": "2026-08-18"
     },
     {
       "url": "https://www.takbo.ph",
@@ -71,6 +82,6 @@
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-08-18",
   "status": "active"
 }

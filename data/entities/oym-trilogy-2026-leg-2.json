@@ -30,8 +30,19 @@
     "Registration status has not yet been announced, so sign-up details are unavailable"
   ],
   "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "research_highlights": [
+    "Course is based at Ayala Triangle Gardens / Legazpi Village area in Makati's central business district, with categories including 5K, 10K, 16K and a 21K half-marathon for Leg 2.",
+    "Hard course cut-off is 6:30 AM to allow road reopening, and runners arriving more than 15 minutes late to their category's flag-off are disqualified for safety.",
+    "Hydration stations are placed every 2 to 2.5 km along the route, with medical teams and ambulances stationed at start, finish and along the course.",
+    "OYM Trilogy is a three-leg progressive series where completing all three legs lets you interlock medals into one larger commemorative trophy.",
+    "OYM returned in 2026 after a pandemic-era pause, positioning itself as a community-oriented series for beginner-to-intermediate runners moving up in distance."
+  ],
+  "research_watchouts": [
+    "Early gun start and a strict 6:30 AM road-reopening cut-off mean slower runners on longer distances (16K/21K) have limited time margin.",
+    "No independent participant race reports or reviews of this specific 2026 edition were found online at the time of research; available material is largely from the organizer and race-calendar listing sites."
+  ],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-18",
   "faqs": [
     {
       "question": "When is OYM Trilogy 2026 – Leg 2 taking place?",
@@ -50,7 +61,7 @@
       "answer": "OYM Trilogy 2026 – Leg 2 is organized by OYM. The race is set to take place in Makati, Philippines, at Ayala Triangle Gardens, and forms part of the broader OYM Trilogy race series held within the country."
     }
   ],
-  "reliability_score": 25,
+  "reliability_score": 20,
   "tags": [
     "half-marathon",
     "philippines"
@@ -60,12 +71,12 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-08-11"
+      "last_checked": "2026-08-18"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-08-18",
   "status": "active"
 }

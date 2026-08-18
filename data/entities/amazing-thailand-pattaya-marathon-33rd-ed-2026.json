@@ -109,7 +109,7 @@
       "answer": "The Amazing Thailand Pattaya Marathon takes place in Pattaya, located in Chonburi, Thailand. This coastal city serves as the venue for all four race distances offered at this event, including the full marathon, half marathon, 10km, and 4.5km races, as part of the marathon's 33rd edition."
     }
   ],
-  "reliability_score": 97,
+  "reliability_score": 100,
   "tags": [
     "full-marathon",
     "thailand",
@@ -120,7 +120,7 @@
       "url": "https://www.pattayamarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-11"
+      "last_checked": "2026-08-18"
     },
     {
       "url": "https://aims-worldrunning.org/calendar.html",
@@ -162,6 +162,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-08-18",
   "status": "needs_review"
 }

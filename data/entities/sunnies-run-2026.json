@@ -29,9 +29,33 @@
   "cons": [
     "Registration status has not yet been announced, so sign-up details are unavailable"
   ],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "excerpt_quotes": [
+    {
+      "quote": "It is the one road race in the city where the social half matters as much as the running.",
+      "attribution": "Editorial write-up on What's On Manila",
+      "source_url": "https://whatsonmnl.com/event/sunnies-run-2026"
+    },
+    {
+      "quote": "Ayala Avenue and Paseo de Roxas close from the small hours, so there is effectively no parking near the start.",
+      "attribution": "Editorial write-up on What's On Manila",
+      "source_url": "https://whatsonmnl.com/event/sunnies-run-2026"
+    }
+  ],
+  "research_highlights": [
+    "12,000 slots across four categories: 1K Pet Run, 5K, 10K, and a new-for-2026 21K distance, held at Ayala Triangle Gardens, Makati",
+    "Race takes place from around 2-3am, with the course run through the Makati business district while the city is still dark",
+    "Ayala Avenue and Paseo de Roxas close to traffic from the early hours, so there is effectively no parking near the start — a ride-hail drop-off on Makati Avenue is suggested",
+    "The finish area stays open afterward as a market and coffee stop, with vendor/shopping activity well after the last runner finishes",
+    "Participants must start within 15 minutes of their category's gun start or they will not be allowed to start; an ambulance sweeps the course from 7:00 AM to pick up remaining runners"
+  ],
+  "research_watchouts": [
+    "Registration is strictly non-refundable and non-transferable, and category changes are not permitted once registered",
+    "No wheelchairs, bikes, skates, or strollers are allowed on the race course",
+    "Parking is effectively unavailable near the start due to road closures on Ayala Avenue and Paseo de Roxas",
+    "The event has previously sold out its slots, so early registration is advised"
+  ],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-18",
   "faqs": [
     {
       "question": "When is Sunnies Run 2026 taking place?",
@@ -50,7 +74,7 @@
       "answer": "As of now, the registration status for Sunnies Run 2026 has not yet been announced. Prospective participants interested in joining the half-marathon, 10km, 5km, or 1km distances should watch for further updates from the organizer, RUNRIO Inc., regarding sign-up details and deadlines."
     }
   ],
-  "reliability_score": 25,
+  "reliability_score": 20,
   "tags": [
     "half-marathon",
     "philippines"
@@ -60,12 +84,12 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-08-11"
+      "last_checked": "2026-08-18"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-08-18",
   "status": "active"
 }

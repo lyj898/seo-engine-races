@@ -30,8 +30,19 @@
     "Registration status has not yet been announced, so sign-up details are unavailable"
   ],
   "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "research_highlights": [
+    "2026 edition is the second annual running, scheduled for October 4, 2026, along Dipolog City's Sunset Boulevard, with 5K, 10K, 21K and 42K distances.",
+    "The inaugural 2025 edition (Oct 19, 2025) drew close to 3,000 registered runners from across Mindanao and the Visayas, ranging from elite marathoners to first-time joggers.",
+    "The course runs along the city's scenic waterfront/boulevard area, and the event is timed to coincide with Dipolog's Dahunog Festival, adding local color and crowd atmosphere.",
+    "Start times are heavily staggered to beat daytime heat — in 2025 the 42K began at midnight, 21K at 2:00 AM, 10K at 4:00 AM and 5K at 4:30 AM.",
+    "Local tourism and city government offices worked together on logistics such as hydration stations, medical support and traffic management for the first edition."
+  ],
+  "research_watchouts": [
+    "As a brand-new event (first held in 2025), organizers themselves acknowledged room for improvement in route signage and crowd control, and said they were collecting runner feedback to refine these for future editions.",
+    "No independently published, detailed participant race reports or reviews (e.g., on running forums or blogs) were found for this event at the time of research, so course-condition and organization details beyond official/news sources are limited."
+  ],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-18",
   "faqs": [
     {
       "question": "When is the Dipolog City Marathon 2026?",
@@ -50,7 +61,7 @@
       "answer": "The Dipolog City Marathon 2026 is organized by the Dipolog City LGU, the local government unit of Dipolog City. The event will be held at Sunset Boulevard, within Dipolog City, Zamboanga del Norte, in the Philippines."
     }
   ],
-  "reliability_score": 35,
+  "reliability_score": 30,
   "tags": [
     "full-marathon",
     "philippines"
@@ -60,12 +71,12 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-08-11"
+      "last_checked": "2026-08-18"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-08-18",
   "status": "active"
 }

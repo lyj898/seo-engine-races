@@ -29,9 +29,38 @@
   "cons": [
     "Registration is currently Sold Out, so new participants cannot sign up"
   ],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "excerpt_quotes": [
+    {
+      "quote": "Harapan saya bisa menyelesaikan, tapi kalau gak kuat jalan saja. Hanya anda sendiri yang bisa menjaga kemampuannya, sampai atau tidak.",
+      "attribution": "Sri Sultan Hamengku Buwono X (Governor of DIY) at the flag-off, quoted by DPRD DIY",
+      "source_url": "https://dprd-diy.jogjaprov.go.id/malioboro-run-2025-wujud-sinergi-olahraga-ekonomi-dan-budaya-yogyakarta/"
+    },
+    {
+      "quote": "Kemudian saat saya berlari bisa menghibur yang lain",
+      "attribution": "Made Tozan Mimba, participant from Bali in the 10K category, quoted in Harian Jogja",
+      "source_url": "https://ekbis.harianjogja.com/read/2025/10/05/502/1230720/bank-bpd-diy-malioboro-run-2025-ajang-lari-berstandar-internasional-sukses-digelar"
+    },
+    {
+      "quote": "Penanganan sampah pada Malioboro Run telah dilakukan dengan sangat baik.",
+      "attribution": "Rajwan Taufiq, Head of Yogyakarta City Environment Agency (DLH), quoted in Krjogja",
+      "source_url": "https://www.krjogja.com/peristiwa/1246666882/bank-bpd-diy-wujudkan-komitmen-malioboro-run-2025-bersih-sampah"
+    }
+  ],
+  "research_highlights": [
+    "Route passes iconic Yogyakarta landmarks including Jl. Malioboro, Benteng Vredeburg, Titik Nol Kilometer, and (in 2024/2025 editions) heritage areas like Kotabaru and Panggung Krapyak.",
+    "Early flag-off times to beat the heat: Half Marathon at 04:45 WIB, 10K at 05:15 WIB, and 5K at 05:30 WIB, with cut-off times of 3h30, 2h30 and 1h30 respectively.",
+    "The event has grown rapidly — from about 1,400 participants in an earlier edition to a 7,000-runner target in 2025, with registration selling out within two days.",
+    "Since the 2025 edition the course has received route standardisation/certification from AIMS World Running, and organisers cite World Athletics-certified routes for 2026.",
+    "A large share of runners travel from outside the region — organisers reported that 73% of 2025 participants came from outside DIY, reflecting the event's sport-tourism draw."
+  ],
+  "research_watchouts": [
+    "Governor Sri Sultan Hamengku Buwono X publicly reminded participants to be careful on the road because vehicles pass on either side of the course during the race.",
+    "Registration can sell out quickly (reported as selling out within two days for the 2025 edition), so early sign-up is advised.",
+    "The 2026 edition is stated to be open exclusively to Indonesian citizens (WNI), which foreign runners should note before planning to join.",
+    "Detailed independent participant race reports (course crowding, heat experience, aid stations) are scarce online; most available accounts are official/organiser and news coverage rather than firsthand runner reviews."
+  ],
+  "research_confidence": "medium",
+  "research_last_updated": "2026-08-18",
   "faqs": [
     {
       "question": "When is Malioboro Run 2026 taking place?",
@@ -50,7 +79,7 @@
       "answer": "Malioboro Run 2026 is organized by Bank BPD DIY. The organization is responsible for coordinating the event, which takes place in Yogyakarta, Indonesia, along the Malioboro area, and includes multiple distance categories for participants who registered before the event sold out."
     }
   ],
-  "reliability_score": 85,
+  "reliability_score": 88,
   "tags": [
     "half-marathon",
     "indonesia",
@@ -61,7 +90,7 @@
       "url": "https://maliobororun.id",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-11"
+      "last_checked": "2026-08-18"
     },
     {
       "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
@@ -85,6 +114,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-08-18",
   "status": "needs_review"
 }

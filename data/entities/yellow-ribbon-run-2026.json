@@ -1,0 +1,59 @@
+{
+  "entity_id": "yellow-ribbon-run-2026",
+  "slug": "yellow-ribbon-run-2026",
+  "name": "Yellow Ribbon Run 2026",
+  "category_id": "10k",
+  "region_id": "singapore",
+  "short_description": "A 5km and 10km road race at The Kallang in Singapore on 20 September 2026.",
+  "ai_summary": "The Yellow Ribbon Run 2026 is a road race held at The Kallang in Singapore, offering runners a choice between a 5km and a 10km distance. Taking place on 20 September 2026, it gives participants flexibility to pick a shorter or longer route depending on their fitness goals.",
+  "core_facts": {
+    "date": "2026-09-20",
+    "distance_km": [
+      5,
+      10
+    ],
+    "venue": "The Kallang",
+    "country": "Singapore"
+  },
+  "pros": [
+    "Choice of two distances, 5km or 10km, to suit different fitness levels",
+    "Held at The Kallang, a central Singapore venue"
+  ],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "What distances are offered at the Yellow Ribbon Run 2026?",
+      "answer": "The Yellow Ribbon Run 2026 offers two distance options for participants to choose from: a 5km route and a 10km route. This gives runners flexibility to select the distance that best matches their training level or personal race goals ahead of the event."
+    },
+    {
+      "question": "Where is the Yellow Ribbon Run 2026 held?",
+      "answer": "The race takes place at The Kallang, a venue located in Singapore. Runners taking part in either the 5km or 10km distance will start and finish their race at this location, making it the central hub for the event on race day."
+    },
+    {
+      "question": "When does the Yellow Ribbon Run 2026 take place?",
+      "answer": "The Yellow Ribbon Run 2026 is scheduled to take place on 20 September 2026. Participants planning to join either the 5km or 10km distance should mark this date on their calendar as they prepare for race day at The Kallang in Singapore."
+    }
+  ],
+  "reliability_score": 40,
+  "tags": [
+    "road race",
+    "10km",
+    "5km"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.justrunlah.com/calendar-of-running-events-singapore/",
+      "label": "www.justrunlah.com",
+      "type": "aggregator",
+      "last_checked": "2026-08-18"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-08-18",
+  "status": "active"
+}

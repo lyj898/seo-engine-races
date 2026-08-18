@@ -29,8 +29,20 @@
   ],
   "cons": [],
   "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "research_highlights": [
+    "This is the inaugural edition of The Kiprun Singapore — organised by MetaSport and presented by Decathlon Singapore, held for the first time on 27 September 2026, so there is no participant track record from past editions to draw on.",
+    "Four race categories are offered: a 21.1km Half Marathon, 10km Run, 5km Run, and a 670m Kids Dash.",
+    "The event village and race start/finish are based at the Decathlon Singapore Lab near the National Stadium in Kallang.",
+    "Organisers have promoted Super Early Bird pricing starting from S$78 for the Half Marathon, S$60 for the 10km, and S$10 for the Kids Dash, pitched as below typical market rates for Singapore races.",
+    "Organisers describe the course as designed with wide roads and minimal turns, structured wave starts, and 5km timing splits aimed at a fast, PB-friendly experience — though this reflects race marketing rather than participant-verified course reports."
+  ],
+  "research_watchouts": [
+    "As of the most recent checks, official certified route maps had not yet been released by organisers, so course specifics (turns, surface, exact elevation) are not independently confirmed.",
+    "Because this is a brand-new, first-year event, there are no participant race reports, reviews, or community discussion yet covering actual race-day execution, crowd support, or logistics.",
+    "Some published 'preview' articles about this race speculate on course location (e.g. Marina Bay area) based on promotional imagery rather than confirmed route details — prospective participants should treat such details as unconfirmed."
+  ],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-18",
   "faqs": [
     {
       "question": "When is The Kiprun Singapore 2026 taking place?",
@@ -49,7 +61,7 @@
       "answer": "The Kiprun Singapore 2026 is organized by MetaSport, presented by Decathlon Singapore. This partnership brings together event management expertise and a well-known sporting goods retailer to deliver the race, which includes multiple distances held at the Decathlon Singapore Lab in Kallang."
     }
   ],
-  "reliability_score": 68,
+  "reliability_score": 63,
   "tags": [
     "half-marathon",
     "singapore"
@@ -59,7 +71,7 @@
       "url": "https://www.justrunlah.com/race/the-kiprun-singapore-2026/",
       "label": "justrunlah.com",
       "type": "aggregator",
-      "last_checked": "2026-08-11"
+      "last_checked": "2026-08-18"
     },
     {
       "url": "https://in.metasport-events.com/the-kiprun-singapore-2026",
@@ -77,6 +89,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-08-18",
   "status": "needs_review"
 }
