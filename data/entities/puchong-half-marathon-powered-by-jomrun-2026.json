@@ -26,9 +26,32 @@
     "Convenient, accessible venue at AEON BiG Puchong Utama"
   ],
   "cons": [],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "excerpt_quotes": [
+    {
+      "quote": "Puchong akhirnya...Gmba banggunan kt tgh medal x define apa/mana puchong tu.. need to change.",
+      "attribution": "Commenter reacting to medal/jersey reveal on JomRun's Threads post",
+      "source_url": "https://www.threads.com/@jomrun.official/post/DW8mQz-mKZp/puchong-half-marathon-first-reveal-heres-an-early-glimpse-of-your-event-shirt/"
+    },
+    {
+      "quote": "Makin jem la puchg yg sedia ade jem tu",
+      "attribution": "Commenter on JomRun's Puchong Half Marathon reveal post, Threads",
+      "source_url": "https://www.threads.com/@jomrun.official/post/DW8mQz-mKZp/puchong-half-marathon-first-reveal-heres-an-early-glimpse-of-your-event-shirt/"
+    }
+  ],
+  "research_highlights": [
+    "This is JomRun's first-ever Puchong Half Marathon, so there are no past editions to reference for course conditions or crowd support.",
+    "Race offers three distances -- 5KM, 10KM, and 21.1KM -- with the venue at Aeon Big Puchong Utama.",
+    "Only the 21.1KM category gets an RFID timing chip and a finisher jersey; the 5KM and 10KM are fun-run categories with bib but no timing chip.",
+    "The event is organized/technical-run by JomRun as part of its wider JomRun Half Marathon Series across Malaysian cities.",
+    "Online registration was set to close the day before race day (24 October 2026, 23:59 GMT+8), and the JomRun app is required for participants."
+  ],
+  "research_watchouts": [
+    "Local community members expressed concern in early social media discussion about traffic congestion in Puchong (an area already prone to jams, particularly around the LDP highway), questioning how the route would navigate around it.",
+    "Some commenters felt the initial finisher medal design's building imagery did not clearly represent or identify Puchong, suggesting it needed revision.",
+    "As a brand-new (inaugural) route, there is no first-hand participant race-day feedback yet on course marking, water stations, heat management, or organization quality."
+  ],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-18",
   "faqs": [
     {
       "question": "When is the Puchong Half Marathon Powered by JomRun® taking place?",
@@ -47,7 +70,7 @@
       "answer": "Yes, registration for the Puchong Half Marathon Powered by JomRun® is currently open. Interested runners can sign up now to secure their spot in the 5km, 10km, or 21.1km half marathon category ahead of the October 25, 2026 race date."
     }
   ],
-  "reliability_score": 57,
+  "reliability_score": 60,
   "tags": [
     "half-marathon",
     "malaysia"

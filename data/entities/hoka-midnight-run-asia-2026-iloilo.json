@@ -28,9 +28,33 @@
   "cons": [
     "Registration status is not yet announced, so entry details are unavailable"
   ],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "excerpt_quotes": [
+    {
+      "quote": "almost 15,000 runners gathered at the SM Mall of Asia Complex for the second leg of HOKA Midnight Run Asia presented by GOMO – MANILA, following the successful opening leg in Davao last May 31",
+      "attribution": "Philstar.com news coverage of the Manila leg of the HOKA Midnight Run Asia series (Philstar is a media partner of RunRio events)",
+      "source_url": "https://www.philstar.com/sports/2026/07/22/2543914/heres-everything-happened-hoka-midnight-run-asia-presented-gomo"
+    },
+    {
+      "quote": "Malapit na mag 1 month since nung run, july 19 pa yun. Hindi narin nagrereply sa messages tong page",
+      "attribution": "Commenter on the HOKA Midnight Run Asia official Facebook page, complaining about missing Manila-leg results",
+      "source_url": "https://www.facebook.com/p/HOKA-Midnight-Run-Asia-61567311449161/"
+    }
+  ],
+  "research_highlights": [
+    "The Iloilo leg is a new addition to the series and takes place at Ayala Malls Atria, Mandurriao, Iloilo City on October 25, 2026, with distances of 21K, 10K and 5K.",
+    "First gun start is at 12:00 AM (midnight); organizers advise all runners to arrive early for assembly and check-in, with specific call times per category announced closer to race day.",
+    "Course descriptions (from race-listing sites, not yet participant-verified) describe it as a fast, flat night route along wide city roads and the Iloilo River Esplanade, suited to steady pacing.",
+    "The wider HOKA Midnight Run Asia series has been drawing large crowds elsewhere in the Philippines — the Manila leg reportedly gathered almost 15,000 runners.",
+    "The event is stated to be rain or shine, with no refund or transfer entitlement if the race is cancelled or delayed due to weather."
+  ],
+  "research_watchouts": [
+    "No participant race reports or reviews could be found yet for the Iloilo edition specifically, since it is a new/future date on the calendar as of this search.",
+    "A runner commented on the organizer's Facebook page that results from the July 2026 Manila leg of the same series were still missing almost a month later and that the page was not responding to messages, suggesting possible post-race organizational/results delays in this event series.",
+    "Race bibs are non-transferable, and selling, swapping, or running under someone else's name can lead to disqualification or suspension from future events.",
+    "Being a midnight start in a tropical city, conditions are described (for the sister Cagayan de Oro leg) as warm and humid at night, which may apply similarly in Iloilo."
+  ],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-18",
   "faqs": [
     {
       "question": "When is the HOKA Midnight Run Asia 2026 – Iloilo taking place?",
@@ -49,7 +73,7 @@
       "answer": "Registration for the HOKA Midnight Run Asia 2026 – Iloilo has not yet been announced. Details regarding sign-up dates, fees, or procedures are currently unavailable, so prospective participants will need to wait for further updates from the organizer, Runrio, regarding registration."
     }
   ],
-  "reliability_score": 50,
+  "reliability_score": 45,
   "tags": [
     "half-marathon",
     "philippines",

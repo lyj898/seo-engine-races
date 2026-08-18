@@ -29,8 +29,16 @@
     "Registration status is not yet announced, so sign-up details are unavailable"
   ],
   "excerpt_quotes": [],
-  "research_highlights": [],
+  "research_highlights": [
+    "Race day is Sunday, October 11, 2026, with categories of 5K, 10K, and Half Marathon (21.0975 km), starting and finishing at Kampus Universitas Indonesia in Depok.",
+    "Organizers describe the course as fully closed to motor vehicles and shaded by campus trees, marketed as 'The Greenest and Most Sterile Route in Indonesia.'",
+    "Cut-off times are 1.5 hours for the 5K, 2 hours for the 10K, and 3.5 hours for the Half Marathon.",
+    "Race pack collection is scheduled for October 8-10, 2026 (Thu-Sat) at Kemang Village in South Jakarta, separate from the race venue in Depok.",
+    "Entry fees are listed as IDR 399,000 (5K), 499,000 (10K), and 699,000 (Half Marathon), with Half Marathon finishers additionally receiving a finisher jersey."
+  ],
   "research_watchouts": [],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-18",
   "faqs": [
     {
       "question": "When is the UI Half Marathon 2026?",
@@ -49,7 +57,7 @@
       "answer": "Registration for the UI Half Marathon 2026 has not yet been announced. Interested participants should check back for updates regarding sign-up details, as the event organizer, ILUNI UI, has not yet released information on when registration will open for this race."
     }
   ],
-  "reliability_score": 97,
+  "reliability_score": 100,
   "tags": [
     "half-marathon",
     "indonesia",

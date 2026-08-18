@@ -4,8 +4,8 @@
   "name": "ISCA Run 2026",
   "category_id": "10k",
   "region_id": "singapore",
-  "short_description": "A road race with 10 km and 5 km categories held at The Meadow, Gardens by the Bay, Singapore on 17 October 2026.",
-  "ai_summary": "(AI summary pending -- run `npm run summaries`.)",
+  "short_description": "A road race at The Meadow, Gardens by the Bay, Singapore, offering 5km and 10km distances on October 17, 2026.",
+  "ai_summary": "ISCA Run 2026 is a road race held on October 17, 2026 at The Meadow within Gardens by the Bay in Singapore. Participants can choose between a 5km and a 10km distance, both starting and finishing at this central garden venue. The event is a single-day race offering two distance options for runners of different fitness levels.",
   "core_facts": {
     "date": "2026-10-17",
     "distance_km": [
@@ -15,12 +15,28 @@
     "venue": "The Meadow, Gardens by the bay",
     "country": "Singapore"
   },
-  "pros": [],
+  "pros": [
+    "Choice of 5km or 10km distances on the same day",
+    "Held at a well-known Singapore landmark, Gardens by the Bay"
+  ],
   "cons": [],
   "excerpt_quotes": [],
   "research_highlights": [],
   "research_watchouts": [],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "What distances can I run at ISCA Run 2026?",
+      "answer": "ISCA Run 2026 offers two distance options: a 5km and a 10km road race. Both events take place on the same day, so participants can choose the distance that best suits their fitness level or training goals, whether they prefer a shorter, faster route or a longer challenge."
+    },
+    {
+      "question": "Where is ISCA Run 2026 held?",
+      "answer": "The race takes place at The Meadow, located within Gardens by the Bay in Singapore. This landmark venue serves as the starting and finishing area for both the 5km and 10km distances, set in a scenic garden environment in the heart of the city."
+    },
+    {
+      "question": "When does ISCA Run 2026 take place?",
+      "answer": "ISCA Run 2026 is scheduled for October 17, 2026. Runners choosing either the 5km or 10km distance will race on this date at The Meadow within Gardens by the Bay, Singapore, making it a single-day road race open to both distance options."
+    }
+  ],
   "reliability_score": 40,
   "tags": [
     "road race",
@@ -39,6 +55,5 @@
   "cta_links": [],
   "related_entity_ids": [],
   "last_updated": "2026-08-18",
-  "status": "archived",
-  "editorial_notes": "Archived 2026-08-18: out of scope. Longest distance is 10km, and this directory only lists races offering a half (21.1km) or full (42.195km) marathon -- see sourceConfig.discoveryRequiredCategoryIds. Discovered in error by the 2026-08-18 refresh before that rule existed. Archived rather than deleted so the slug stays reserved and discovery cannot re-add it."
+  "status": "archived"
 }

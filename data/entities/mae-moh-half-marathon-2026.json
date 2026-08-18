@@ -28,9 +28,53 @@
   "cons": [
     "Registration status has not yet been announced, so sign-up details are unavailable"
   ],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "sentiment_scores": {
+    "overall": 78,
+    "breakdown": [
+      {
+        "label": "Course organization/professionalism",
+        "score": 85
+      },
+      {
+        "label": "Scenery/atmosphere",
+        "score": 80
+      },
+      {
+        "label": "Course difficulty (hills)",
+        "score": 70
+      },
+      {
+        "label": "Weather comfort",
+        "score": 80
+      }
+    ]
+  },
+  "excerpt_quotes": [
+    {
+      "quote": "สนามแข่งมีเนินน้อยแต่วิ่งสนุกรูปแบบงานจัดได้ดียอดเยี่ยมแบบมืออาชีพมาก เหมาะสมยิ่งที่ได้รับเป็นสนามมาตรฐานระดับโลก",
+      "attribution": "Runner (coach) quoted in EGAT hellomaemoh race recap for Mae Moh Half Marathon 32nd edition (2025)",
+      "source_url": "https://mpp.egat.co.th/hellomaemoh/index.php?option=com_content&view=article&id=1431&catid=10&Itemid=101"
+    },
+    {
+      "quote": "รู้สึกดีใจ รอมานาน ลุ้นทุกปีว่าจะจัดไหม ทีแรกคิดว่าวิ่งเส้นเดิม แต่ปีนี้เปลี่ยนเส้นทางใหม่",
+      "attribution": "Young runner quoted ahead of Mae Moh Half Marathon 29th edition, EGAT hellomaemoh site",
+      "source_url": "https://mpp.egat.co.th/hellomaemoh/index.php?option=com_content&view=article&id=919%3A2022-09-28-02-49-34&catid=44&Itemid=244"
+    }
+  ],
+  "research_highlights": [
+    "Course is World Athletics Road Race Label certified — organizers advertise it as the first World Athletics-standard race course in northern Thailand.",
+    "Roads are 100% closed to traffic for the race, and medical support is staffed with personnel trained to international standards, according to EGAT's official race announcements.",
+    "Route runs scenically around the Mae Moh power plant, the Mae Moh mine, the Huai Ped and Mae Kham reservoirs, limestone hills, and seasonal flower fields (cosmos, kaew mangkorn, sunn hemp).",
+    "Held annually in mid-to-late October (around 19–25 October in recent years), which participants describe as offering cool, comfortable weather for running.",
+    "One runner described a course with only minor hills ('เนินน้อยแต่วิ่งสนุก') and praised the professional-level organization, calling it deserving of its world-standard certification."
+  ],
+  "research_watchouts": [
+    "Route has been changed between editions in the past (a runner noted the course changed rather than repeating the same route), so returning participants shouldn't assume the exact route stays identical year to year.",
+    "The event was suspended for two years due to COVID-19 before resuming in 2022, indicating past scheduling disruptions.",
+    "Being a large regional event (thousands of participants — around 4,000 in the 2025 edition), logistics like registration, transport, and accommodation in the smaller town of Mae Moh may require early planning."
+  ],
+  "research_confidence": "medium",
+  "research_last_updated": "2026-08-18",
   "faqs": [
     {
       "question": "When is the Mae Moh Half Marathon?",
@@ -49,7 +93,7 @@
       "answer": "Registration for the Mae Moh Half Marathon has not yet been announced. Prospective participants interested in the 21.1km, 10km, or 5km distances will need to wait for further updates regarding sign-up details and availability."
     }
   ],
-  "reliability_score": 52,
+  "reliability_score": 47,
   "tags": [
     "half-marathon",
     "thailand",

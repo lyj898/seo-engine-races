@@ -31,9 +31,27 @@
   "cons": [
     "Limited public information available beyond core event details"
   ],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "excerpt_quotes": [
+    {
+      "quote": "VPHM năm nay là một ngày hội, không chỉ là giải chạy chuyên nghiệp có chứng nhận đường chạy quốc tế, cung đường chạy qua nhiều biểu tượng của Thủ đô Hà Nội, mà... sướng nhất là sẽ chạy ngang qua cửa nhà mình",
+      "attribution": "Writer/runner Trang Hạ, quoted in Thương Hiệu Công Luận",
+      "source_url": "https://thuonghieucongluan.com.vn/nhung-runer-gay-an-tuong-dac-biet-tai-vpbank-hanoi-marathon-a181254.html"
+    }
+  ],
+  "research_highlights": [
+    "The race is held in October, coinciding with Hanoi's autumn; on race day 2025 conditions were recorded around 23°C with scattered clouds, ~81% humidity and light wind (8 km/h), per SportStats weather data.",
+    "Four distances offered: 42km, 21km, 10km and 5km, all AIMS-certified; the 2025 edition drew about 11,000 athletes from 25 countries and territories.",
+    "The full marathon route weaves past four of Hanoi's lakes (Hoan Kiem, West Lake, Truc Bach, Thien Quang), three bridges (Long Bien, Nhat Tan, Dong Tru), the Ho Chi Minh Mausoleum, Ba Dinh Square and Thang Long Imperial Citadel.",
+    "Course descriptions consistently describe the route as generally level/flat and suitable for both competitive and novice runners, starting and finishing in the city center near Hoan Kiem Lake.",
+    "Race weekend includes ancillary events (bib pickup, pre-race concert, music stations along the course) contributing to a festive atmosphere reported by organizers and participants alike."
+  ],
+  "research_watchouts": [
+    "Apparel sponsor Coolmate specifically designed the 2026 race kit to cope with Vietnam's hot and humid climate, indicating heat/humidity is a real factor runners plan around.",
+    "With roughly 11,000 participants across four distances starting from the same central area, congestion at the start/on narrow old-quarter streets is plausible given the crowded course description, though no direct runner complaint about crowding was found.",
+    "Most available English-language coverage is promotional/news-style (sponsor and organizer announcements) rather than independent runner race reports, so course-specific caveats (e.g., aid station spacing, cutoff times) are not well documented in what's publicly available."
+  ],
+  "research_confidence": "medium",
+  "research_last_updated": "2026-08-18",
   "faqs": [
     {
       "question": "When is the VPBank Hanoi International Marathon 2026?",
@@ -52,7 +70,7 @@
       "answer": "During the current Early Bird period, registration prices are VND 999,000 for the 42K full marathon, VND 899,000 for the 21K half marathon, VND 699,000 for the 10K, and VND 599,000 for the 5K distance."
     }
   ],
-  "reliability_score": 93,
+  "reliability_score": 96,
   "tags": [
     "full-marathon",
     "vietnam"

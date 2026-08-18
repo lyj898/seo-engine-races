@@ -30,8 +30,17 @@
   ],
   "cons": [],
   "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "research_highlights": [
+    "This is a JomRun-organised event distinct from the BYD Singapore International Marathon; the Singapore Half Marathon listing itself states it 'is organised by JomRun Pte Ltd and is not affiliated with the BYD Singapore International Marathon 2026 organised by SG international Marathon Pte. Ltd.'",
+    "Categories on offer are 5KM and 10KM fun runs plus a 21.1KM competitive run, with only the 21.1KM category receiving a timing chip (TrackAsia RFID) while the 5KM and 10KM bibs are untimed.",
+    "As of the most recent search, the official JomRun event page still lists date, time and venue as 'To Be Confirmed', and a running calendar site notes the race 'is a different organiser at a different venue and is still ahead on the calendar' for 11 October 2026."
+  ],
+  "research_watchouts": [
+    "No participant race reports, reviews, or community discussion specific to this event were found — it appears to be a new/upcoming edition without a public track record yet, so course conditions, crowd support, and organisational quality could not be verified from first-hand accounts.",
+    "Official date, time and venue details were still marked 'To Be Confirmed' at the time of this research, so logistics could change before race day."
+  ],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-18",
   "faqs": [
     {
       "question": "When is the Singapore Half Marathon 2026 Powered By JomRun® taking place?",
@@ -50,7 +59,7 @@
       "answer": "The race is held at Marina Barrage, a venue located in Singapore. This location serves as the setting for all distance categories offered at the event, including the 5km, 10km, and the primary 21.1km half marathon distance, on the scheduled race date of 11 October 2026."
     }
   ],
-  "reliability_score": 80,
+  "reliability_score": 83,
   "tags": [
     "half-marathon",
     "singapore"

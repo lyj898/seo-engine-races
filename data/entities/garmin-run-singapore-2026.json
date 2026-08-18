@@ -29,9 +29,59 @@
     "Registration status is not yet announced, so sign-up details are unavailable",
     "Pricing is on the higher end at SGD 125 for the half-marathon and SGD 105 for the 10km"
   ],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "sentiment_scores": {
+    "overall": 62,
+    "breakdown": [
+      {
+        "label": "Race organisation/logistics",
+        "score": 58
+      },
+      {
+        "label": "Course & atmosphere",
+        "score": 75
+      },
+      {
+        "label": "Trajectory/improvement year-on-year",
+        "score": 70
+      }
+    ]
+  },
+  "excerpt_quotes": [
+    {
+      "quote": "After a rocky debut in 2024, the Garmin Run Asia Series Singapore 2025 made a remarkable comeback this morning — transforming past challenges into a celebration of community, resilience, and progress.",
+      "attribution": "SportPlus.sg race recap",
+      "source_url": "https://www.sportplus.sg/post/garmin-run-asia-series-singapore-2025-a-triumphant-return-marked-by-smiles-precision-and-top-perf"
+    },
+    {
+      "quote": "Last year's inaugural edition faced criticism over long queues for bag drop and race pack collection, leaving many participants frustrated.",
+      "attribution": "SportPlus.sg race recap, describing the 2024 debut",
+      "source_url": "https://www.sportplus.sg/post/garmin-run-asia-series-singapore-2025-a-triumphant-return-marked-by-smiles-precision-and-top-perf"
+    },
+    {
+      "quote": "While we are aware that the 2024 Garmin Run Singapore wasn't up to expectations, Garmin has reviewed all the comments and feedback of all participants.",
+      "attribution": "Garmin Run Singapore organiser, in SportPlus.sg interview",
+      "source_url": "https://www.sportplus.sg/post/shaped-by-feedback-guided-by-reviews-garmin-run-singapore-2025-looks-to-improve-and-set-a-new-stan"
+    },
+    {
+      "quote": "6,000 Runners Take on 10KM and 21KM Races at Marina Barrage in a Seamlessly Organised, Crowd-Pleasing Event",
+      "attribution": "SportPlus.sg race recap headline/summary of the 2025 edition",
+      "source_url": "https://www.sportplus.sg/post/garmin-run-asia-series-singapore-2025-a-triumphant-return-marked-by-smiles-precision-and-top-perf"
+    }
+  ],
+  "research_highlights": [
+    "Race starts and finishes at Marina Barrage, with a waterfront course blending Singapore's skyline and bay views; distances are a 10K and a 21.1K half marathon.",
+    "2026 will be the third Singapore edition of the series, held on 25 October 2026.",
+    "The 2025 edition drew about 6,000 runners and introduced a reworked start/finish layout and pen-based, staggered flag-offs after organizational problems the first year.",
+    "Competitive pens for the 10K and half marathon are used to separate runners chasing podium/prize positions from the general field.",
+    "Garmin Run is part of a 10-city Asia series (plus new US cities); finishing 10 of the 13 series races between 2022–2027 earns a gold-plated medal."
+  ],
+  "research_watchouts": [
+    "The inaugural 2024 Singapore edition drew significant complaints about long queues for bag drop and race-pack collection, and organisers themselves admitted the event 'wasn't up to expectations.'",
+    "Because the event is still young (third edition in 2026), race-day logistics and course accuracy had to be actively reworked between 2024 and 2025 — worth checking for updated runner guides closer to race day.",
+    "Independent, first-hand participant race reports (e.g. on forums or blogs) are scarce online; most available commentary comes from organiser interviews and event-recap articles rather than a broad base of runner reviews."
+  ],
+  "research_confidence": "medium",
+  "research_last_updated": "2026-08-18",
   "faqs": [
     {
       "question": "When is Garmin Run Singapore 2026?",
@@ -50,7 +100,7 @@
       "answer": "As of now, registration for Garmin Run Singapore 2026 has not yet been announced. Interested runners will need to keep checking for updates regarding when sign-ups will officially open ahead of the October 25, 2026 race date."
     }
   ],
-  "reliability_score": 73,
+  "reliability_score": 76,
   "tags": [
     "half-marathon",
     "singapore"

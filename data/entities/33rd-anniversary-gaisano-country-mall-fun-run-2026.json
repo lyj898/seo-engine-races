@@ -30,9 +30,32 @@
   "cons": [
     "Pricing information is only listed for the 21km and 12km categories, not the 6km race"
   ],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "excerpt_quotes": [
+    {
+      "quote": "their water stations are not just full of waters but they offer Banana and glasses of Gatorades",
+      "attribution": "Cebu Fitness Blog post on the 21st Anniversary Gaisano Country Mall Run",
+      "source_url": "https://www.cebufitnessblog.com/2014/10/5-reasons-why-join-gaisano-country-mall.html"
+    },
+    {
+      "quote": "dubbed by the runners as grocery run because of what we give out on our loot bags",
+      "attribution": "Store operations manager Charmine Nograles, quoted in Sun.Star Cebu on the 26th Anniversary edition",
+      "source_url": "https://www.sunstar.com.ph/cebu/sports/gaisano-country-mall-26th-anniversary-run-promises-to-give-the-runners-another-quality-run-when-the-runs-eight-edition-takes-center-stage"
+    }
+  ],
+  "research_highlights": [
+    "The race is long-running and locally nicknamed the 'grocery run' among Cebu runners because of the generous loot bags and supermarket-style giveaways it hands out.",
+    "Standard distance offerings across recent editions have been 6K, 12K and 21K, starting/finishing at Gaisano Country Mall in Banilad, Cebu City.",
+    "In the 2019 (26th Anniversary) edition, finisher medals were extended to more categories after previously only being given to 21K finishers, and the course has repeated the same route year to year according to the race director at the time.",
+    "In the 32nd Anniversary (2025) edition, medals for the shorter distance were reportedly awarded only to the first 300 finishers to arrive, a detail to note if you're aiming for a keepsake medal rather than a competitive finish.",
+    "Race-day extras historically include full water stations with bananas and Gatorade in addition to water, plus loot bags, snacks, e-certificates and chip-timed bibs."
+  ],
+  "research_watchouts": [
+    "For at least one recent edition, finisher medals in some categories were limited to the first 300 arrivals rather than guaranteed to all finishers.",
+    "Independent, first-hand participant race reports for the most recent editions (2023-2025) were scarce online; most available coverage is organizer/press-release material rather than runner reviews.",
+    "Charity beneficiaries for this fun run have changed between editions (e.g., a youth education project in 2019), so confirm the current year's designated cause rather than assuming continuity."
+  ],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-18",
   "faqs": [
     {
       "question": "When is the 33rd Anniversary Gaisano Country Mall Fun Run 2026 taking place?",
@@ -51,7 +74,7 @@
       "answer": "Registration pricing varies by distance category: the 21-kilometer race costs PHP 1,500, while the 12-kilometer race is priced at PHP 1,200. These fees allow participants to join Gaisano Country Mall's charity fun run supporting SOS Children's Village, held on Banilad Road, Cebu City on October 18, 2026."
     }
   ],
-  "reliability_score": 38,
+  "reliability_score": 33,
   "tags": [
     "half-marathon",
     "philippines"

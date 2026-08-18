@@ -112,7 +112,7 @@
       "answer": "Yes, registration for the Kuala Lumpur Standard Chartered Marathon is currently open. Runners interested in participating in any of the four distance categories, including the full marathon, half marathon, 10km, or 5km, can sign up now ahead of the event on 4 October 2026."
     }
   ],
-  "reliability_score": 100,
+  "reliability_score": 85,
   "tags": [
     "full-marathon",
     "malaysia",
@@ -154,5 +154,5 @@
   ],
   "related_entity_ids": [],
   "last_updated": "2026-08-18",
-  "status": "active"
+  "status": "needs_review"
 }

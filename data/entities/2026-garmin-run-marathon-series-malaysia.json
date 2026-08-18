@@ -30,8 +30,16 @@
     "Registration is sold out, so new participants cannot currently sign up"
   ],
   "excerpt_quotes": [],
-  "research_highlights": [],
+  "research_highlights": [
+    "The 2026 Malaysia leg (1 November 2026) takes place in front of Mahkamah Syariah Wilayah Persekutuan Putrajaya, Bangunan Annexe Istana Kehakiman, Presint 3 — a new start venue compared to previous years' Dataran Putrajaya location.",
+    "Race pack collection for the 2026 edition is scheduled for 30 and 31 October 2026, with further logistics details to be announced via Garmin Malaysia's social media.",
+    "The event offers 10KM and 21KM (half marathon) categories as its signature distances, plus a 5KM fun run option in some editions.",
+    "The 2025 edition drew over 13,000 runners to Dataran Putrajaya, up from roughly 12,000 in 2024, making it one of Malaysia's largest running events.",
+    "The course runs through Putrajaya's lakeside architectural landmarks and green avenues, an area known for open, exposed roads with little shade — relevant given the early-morning (pre-dawn/sunrise) start typical of the series."
+  ],
   "research_watchouts": [],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-18",
   "faqs": [
     {
       "question": "When is the 2026 Garmin Run Marathon Series – Malaysia taking place?",
@@ -50,7 +58,7 @@
       "answer": "The race is organized by Garmin Malaysia, with SCORE Experience serving as the technical partner responsible for supporting the event's execution. Together, they oversee the 2026 Garmin Run Marathon Series – Malaysia, which is held in Putrajaya as part of the broader race series."
     }
   ],
-  "reliability_score": 77,
+  "reliability_score": 80,
   "tags": [
     "half-marathon",
     "malaysia"

@@ -31,8 +31,19 @@
     "Registration status is not yet confirmed open, so sign-up details are unavailable"
   ],
   "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "research_highlights": [
+    "This October 18, 2026 Puerto Princesa leg is billed as the finale of a three-race trilogy (Manila Aug 9, Cebu Sept 27, Palawan Oct 18), and is the only leg offering the full 42KM marathon alongside all shorter distances.",
+    "The event has roots going back to 2015/2016 when it began as the 'Palawan Express Marathon,' the first full marathon held in Puerto Princesa and Palawan province.",
+    "The 2025 edition of the race (held June 15, 2025) drew over 2,100 runners, described as the largest turnout since the race series began in 2015, including participants from Australia and the USA.",
+    "Race proceeds are directed to a stated charitable cause: the trilogy's proceeds are earmarked for fully-equipped ambulances for underserved hospitals, with the 2025 edition's proceeds funding an ambulance for El Nido Community Hospital.",
+    "Puerto Princesa has a humid tropical climate typical of Palawan, with local weather data showing high humidity (around 88%) and 'feels like' temperatures well above 90°F even in the evening during the region's wet season, which participants should factor into race-day preparation."
+  ],
+  "research_watchouts": [
+    "No first-hand participant race reports, reviews, or running-community discussion specific to this 2026 Palawan leg (or detailed course/organization reviews of the 2025 edition) were found in available sources — most coverage is organizer press releases and promotional announcements rather than runner feedback.",
+    "Specific cut-off times, start times, and detailed course-route information for the October 2026 Palawan leg were not found in available sources."
+  ],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-18",
   "faqs": [
     {
       "question": "When is the PalawanPay Trilogy Marathon 2026 – Palawan Leg scheduled to take place?",
@@ -51,7 +62,7 @@
       "answer": "As of the latest available information, registration for the PalawanPay Trilogy Marathon 2026 – Palawan Leg has not yet been confirmed as open. Prospective participants interested in the 42.195km, 21.1km, 16km, 10km, or 5km distances should check back for updates on when sign-ups become available."
     }
   ],
-  "reliability_score": 25,
+  "reliability_score": 20,
   "tags": [
     "full-marathon",
     "philippines"

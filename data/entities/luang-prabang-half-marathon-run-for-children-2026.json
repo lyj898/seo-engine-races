@@ -27,21 +27,67 @@
     "No direct registration link published, only the general event website"
   ],
   "sentiment_scores": {
-    "overall": 82,
+    "overall": 72,
     "breakdown": [
       {
-        "label": "Source verification confidence",
-        "score": 88
+        "label": "Course scenery/atmosphere",
+        "score": 70
       },
       {
-        "label": "Information completeness",
-        "score": 74
+        "label": "Organization (water points, signage)",
+        "score": 78
+      },
+      {
+        "label": "Heat/weather conditions",
+        "score": 45
+      },
+      {
+        "label": "Charity mission/emotional impact",
+        "score": 88
       }
     ]
   },
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "excerpt_quotes": [
+    {
+      "quote": "Road signs were adequate and no complaints at all about water points serving water and isotonic drinks.",
+      "attribution": "Runner race review on JustRunLah (7th Luang Prabang Half Marathon, 2019)",
+      "source_url": "https://www.justrunlah.com/2019/10/23/race-review-7th-luang-prabang-half-marathon-laos-2019-by-alce/"
+    },
+    {
+      "quote": "My only small drawback about this run is that after you finish your first loop (about 14km), the roads gets reopened and cars are free to go about doing their daily routine.",
+      "attribution": "Runner race review on JustRunLah (7th Luang Prabang Half Marathon, 2019)",
+      "source_url": "https://www.justrunlah.com/2019/10/23/race-review-7th-luang-prabang-half-marathon-laos-2019-by-alce/"
+    },
+    {
+      "quote": "It's hot, muggy and smoky from the fires locals use to cook food and burn rubbish.",
+      "attribution": "Participant race report on Get In the Hot Spot",
+      "source_url": "https://www.getinthehotspot.com/luang-prabang-half-marathon/"
+    },
+    {
+      "quote": "Team Sofitel runners are spotted both on the course and manning water stations while Dennis, our tireless support crew and anti-morning person, has forsaken his beauty sleep to snap photos and cheer street-side in the intense heat.",
+      "attribution": "Participant race report on Travel Boating Lifestyle",
+      "source_url": "http://travelboatinglifestyle.com/running-the-luang-prabang-half-marathon/"
+    },
+    {
+      "quote": "Coming around again and again – it was very hot!",
+      "attribution": "Participant blog post, Travels with a Nubian Hound",
+      "source_url": "https://juraphotos.wordpress.com/2013/11/11/the-luang-prabang-half-marathon/"
+    }
+  ],
+  "research_highlights": [
+    "Three distance options (7km, 14km, 21km) with staggered early-morning starts (around 5:30-6:00am) to beat the heat, starting/finishing near the Royal Palace and National Museum area.",
+    "Course winds past temples, Phousi Hill, the former Royal Palace and along the Nam Khan and Mekong rivers, including crossing an old timber bridge over the Nam Khan.",
+    "One reviewer noted the half marathon route runs as a first big loop followed by a smaller loop rather than two equal loops, and that roads reopen to traffic after runners complete the first ~14km loop.",
+    "This is a charity race benefiting Lao Friends Hospital for Children; organizers state all proceeds go directly to the hospital, which provides free pediatric healthcare in Laos.",
+    "The 2026 edition (Oct 24, 2026) is being promoted by organizers as aiming to be the largest in the event's history, with a target of about 3,000 participants."
+  ],
+  "research_watchouts": [
+    "Multiple participants describe race-morning conditions as hot, muggy, and at times smoky from local cooking and rubbish fires, even with the early start.",
+    "One reviewer noted that after the first loop (~14km) roads reopen to normal traffic, leaving runners to navigate road crossings and junctions on their own for the remainder of the course.",
+    "A 2019 reviewer felt the course had comparatively fewer standout UNESCO landmark views than a similar regional race (Angkor Wat Half Marathon), though still enjoyable and not monotonous."
+  ],
+  "research_confidence": "medium",
+  "research_last_updated": "2026-08-18",
   "faqs": [
     {
       "question": "What is the Luang Prabang Half Marathon, and what cause does it support?",
@@ -52,7 +98,7 @@
       "answer": "No -- as of the last verification on 20 July 2026, this event offers only the 21.1km Half Marathon distance, with no shorter or longer category available. Runners looking for a 10km or full marathon option at the same event weekend should look elsewhere in the region."
     }
   ],
-  "reliability_score": 38,
+  "reliability_score": 23,
   "tags": [
     "half-marathon",
     "laos",

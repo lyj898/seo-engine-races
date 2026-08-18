@@ -29,9 +29,43 @@
     "Exact venue within Jakarta is not yet stated",
     "Registration is already in the 'Late Bird' stage, suggesting earlier pricing tiers have passed"
   ],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "excerpt_quotes": [
+    {
+      "quote": "Despite the heat and the sweat, I crossed the line in 3 hours 38 minutes, placing 13th in the open category.",
+      "attribution": "Josh Fothergill, race report on TaSH Harriers club site",
+      "source_url": "https://tasharriers.club/jakarta-running-festival-25-26-october-2025/"
+    },
+    {
+      "quote": "Not my fastest marathon by any means—an hour slower than London earlier this year—but definitely one of the most memorable.",
+      "attribution": "Josh Fothergill, race report on TaSH Harriers club site",
+      "source_url": "https://tasharriers.club/jakarta-running-festival-25-26-october-2025/"
+    },
+    {
+      "quote": "I was hoping for a PB, but the conditions were tough, and I decided to hold back a little to save something for the next day.",
+      "attribution": "Josh Fothergill, on running the half marathon day one of JRF 2025, TaSH Harriers club site",
+      "source_url": "https://tasharriers.club/jakarta-running-festival-25-26-october-2025/"
+    },
+    {
+      "quote": "The final stretch was packed with cheering crowds, laughter, and support",
+      "attribution": "Josh Fothergill, race report on TaSH Harriers club site",
+      "source_url": "https://tasharriers.club/jakarta-running-festival-25-26-october-2025/"
+    }
+  ],
+  "research_highlights": [
+    "The event runs across two dedicated race days: half marathon and 5K on the Saturday, with the marathon and 10K on the Sunday (or vice versa depending on the year), so runners doing multiple distances back-to-back is possible — one 2025 participant ran the half on Saturday and the full marathon on Sunday, covering 63km over the weekend per his own account on tasharriers.club.",
+    "Marathon cut-off is a strict 5 hours, deliberately shorter than many other marathons, specifically because of Jakarta's heat and humidity, according to the official event site.",
+    "Weather/tracking data for the 2025 marathon (26 Oct 2025) recorded sunny conditions, ~25.6°C actual / ~27.8°C feels-like, and 78% humidity at race time per VDOT/O2 race data.",
+    "The course starts/finishes around the Gelora Bung Karno (GBK) Sports Complex and passes Jakarta landmarks such as Monas, with early start times built in to help runners beat the heat, per the race's own description on Ahotu.",
+    "Race is a World Athletics Label event with elite fields alongside mass participation, plus an expo, cheer zones and live music as part of the festival format."
+  ],
+  "research_watchouts": [
+    "Runners consistently describe conditions as hot and humid, with one participant explicitly noting he finished 'despite the heat and the sweat' and about an hour slower than a cooler European race the same year.",
+    "The half marathon on the Saturday was also described as tough conditions-wise by a participant who deliberately held back pace rather than chase a PB.",
+    "The organizers themselves warn the marathon cut-off (5 hours) is stricter/shorter than comparable races, meaning slower runners need to be confident of finishing within that window.",
+    "Air quality in Jakarta is flagged as something participants should monitor during their visit, per race directory notes."
+  ],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-18",
   "faqs": [
     {
       "question": "When does the Jakarta Running Festival 2026 take place?",
@@ -50,7 +84,7 @@
       "answer": "The race takes place in Jakarta, Indonesia, but the exact venue or starting location within the city has not been specified in the available information. Runners planning to attend may need to check for further venue details closer to the event date."
     }
   ],
-  "reliability_score": 97,
+  "reliability_score": 100,
   "tags": [
     "full-marathon",
     "indonesia",

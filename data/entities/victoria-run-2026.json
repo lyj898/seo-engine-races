@@ -28,8 +28,18 @@
     "Registration status is not yet announced, so sign-up details are unavailable"
   ],
   "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "research_highlights": [
+    "Victoria Run 2026 is scheduled for Sunday, October 11, 2026, at Parkir Timur Gelora Bung Karno (GBK), Central Jakarta, with 5K, 10K and Half Marathon categories.",
+    "The 2025 edition moved venue from Q-Big BSD (Tangerang Selatan), its host for two previous years, to GBK in central Jakarta, a change organizers said was meant to broaden reach among Jakarta's running community and take advantage of GBK's status as a national sports landmark.",
+    "Participation has been growing year over year: news reports cite roughly 6,000 participants for the 2024 edition and figures ranging from 6,000 to 8,000 for the 2025 GBK edition.",
+    "Past editions have included a live post-race concert and DJ sets (e.g., Maliq & D'Essentials and DJ performances in 2025) alongside the main race, plus sponsor booths and doorprizes.",
+    "Standard participant benefits listed for 2026 are a race jersey, finisher medal, bib number and tote bag; registrations are non-refundable and non-transferable once paid."
+  ],
+  "research_watchouts": [
+    "No first-hand participant race reports, forum discussions, or independent reviews (e.g., course conditions, heat, crowd support, organizational quality) were found in the available search results -- coverage found was limited to event promotion and press releases from the organizer and general news outlets."
+  ],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-18",
   "faqs": [
     {
       "question": "What distances are offered at Victoria Run 2026?",
@@ -48,7 +58,7 @@
       "answer": "Victoria Run 2026 is scheduled to take place on October 11, 2026. The event will be held at GBK Senayan in Jakarta, Indonesia, and will include three distance options: a 21.1km half-marathon, a 10km race, and a 5km race."
     }
   ],
-  "reliability_score": 52,
+  "reliability_score": 47,
   "tags": [
     "half-marathon",
     "indonesia",

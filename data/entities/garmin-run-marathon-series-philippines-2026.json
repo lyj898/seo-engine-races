@@ -28,8 +28,19 @@
   ],
   "cons": [],
   "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "research_highlights": [
+    "The 2026 Manila leg moves to a new venue at SM MOA Complex, Pasay City, after the 2025 edition (Oct 26, 2025) was held at Filinvest City Events Grounds, Alabang.",
+    "Gun start is set for 2AM, with the organizer stating this is to ensure optimal race conditions given Manila's heat.",
+    "Cut-off time for the 2025 edition (all distances) was 7:00 AM; race categories are 5K, 10K and 21K priced at PHP 1,550/1,850/2,550 respectively for 2026.",
+    "The 2025 Manila edition drew a record turnout of about 7,700-8,000 runners including 238 foreign participants from over 20 countries, suggesting the series has grown quickly in its first two Philippine years.",
+    "Runner timing/results are managed by MYLAPS, and the event includes a side attraction called 'Garmin Village' with gadget displays, games and partner booths beyond the race course itself."
+  ],
+  "research_watchouts": [
+    "As of registration opening, specific race starting points for the 2026 Philippines edition had not yet been announced, per the official registration partner site.",
+    "No independent participant race reports (course conditions, crowd support, heat complaints, logistics issues) were found for this event in either its 2025 or upcoming 2026 form -- available coverage is almost entirely organizer/press-release material rather than first-hand runner commentary."
+  ],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-18",
   "faqs": [
     {
       "question": "When is the Garmin Run Marathon Series – Philippines 2026 taking place?",
@@ -48,7 +59,7 @@
       "answer": "Yes, registration for the Garmin Run Marathon Series – Philippines 2026 is currently open. Interested runners can sign up ahead of the October 25, 2026 event date, choosing from the 21.1km, 10km, or 5km distance categories held at SM Mall of Asia Complex, Pasay."
     }
   ],
-  "reliability_score": 12,
+  "reliability_score": 7,
   "tags": [
     "half-marathon",
     "philippines",

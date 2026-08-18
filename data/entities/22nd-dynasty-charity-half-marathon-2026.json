@@ -25,8 +25,20 @@
   ],
   "cons": [],
   "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "research_highlights": [
+    "The 2025 edition (21st/22nd year of the event) drew about 1,800 runners from 11 countries, up from roughly 1,400 the previous year, according to state minister Dato Sri Fatimah Abdullah.",
+    "Three race categories are offered: 21km half marathon, 10km, and 4km fun run, all starting and finishing at Dynasty Hotel Miri.",
+    "Recent editions have had very early flag-offs (around 3am-4am for the 21km) with roads closed roughly 3am-8am, covering routes like Jalan Miri-Pujut, Jalan Bintang, Jalan Sylvia, Jalan Brooke, Jalan Kubu and the Luak Esplanade area.",
+    "The event is organised by Dynasty Hotel Miri together with government departments and local NGOs, and proceeds go to charitable programmes for the underprivileged in Miri (elderly, single mothers, festive care packages).",
+    "Race pack/entry pack collection is typically held over two days (Friday and Saturday, 10am-6pm) at Dynasty Hotel before race day."
+  ],
+  "research_watchouts": [
+    "No first-hand participant race reports, reviews, or running-community discussion of course conditions, crowd support, or organisation quality were found in available sources -- coverage is almost entirely from news outlets on logistics/road closures rather than runner testimony.",
+    "Road closures affect a wide swath of central Miri (Jalan Miri-Pujut, Bintang, Kipas, Sylvia, Brooke, Kingsway, Padang, Kubu, Luak/Esplanade, Melayu), so non-participants and even runners' support crews should plan around a 3am-8am window.",
+    "Given the pre-dawn 3-4am start typical of this race, runners driving in should account for early arrival and parking near Dynasty Hotel."
+  ],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-18",
   "faqs": [
     {
       "question": "When is the 22nd Dynasty Charity Half Marathon?",
@@ -45,7 +57,7 @@
       "answer": "The race is located in Miri, Sarawak, Malaysia, with Dynasty Hotel Miri serving as the official venue. This location serves as the base for the 22nd Dynasty Charity Half Marathon, which takes place on October 25, 2026."
     }
   ],
-  "reliability_score": 60,
+  "reliability_score": 63,
   "tags": [
     "half-marathon",
     "malaysia"

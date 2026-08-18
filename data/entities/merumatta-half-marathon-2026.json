@@ -18,7 +18,7 @@
     "elevation_gain_m": 390,
     "organizer": "Merumatta Coast Trail",
     "registration_status": "Open",
-    "price_range": "Rp 350,000 - Rp 650,000",
+    "price_range": "Rp 180,000 - Rp 650,000",
     "venue": "Merumatta Hotel, Senggigi, Lombok Barat, NTB",
     "city": "Senggigi, Lombok Barat, NTB",
     "country": "Indonesia"
@@ -31,9 +31,31 @@
   "cons": [
     "Half marathon course includes 390m of elevation gain, which may be challenging for some runners"
   ],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "excerpt_quotes": [
+    {
+      "quote": "Jalur lari kami desain melintasi kawasan pesisir Senggigi yang indah, sehingga peserta dapat menikmati keindahan alam Lombok Barat sembari berolahraga",
+      "attribution": "Event organiser quoted in local government news coverage of Merumatta Half Marathon 2025",
+      "source_url": "https://dishub.lombokbaratkab.go.id/berita/merumatta-half-marathon-2025-bukti-sinergi-dunia-usaha-dan-pemerintah-bangkitkan-wisata-senggigi/"
+    },
+    {
+      "quote": "keindahan rute jalur Senggigi hingga Malimbu dengan garis pantai yang menawan yang akan dilewati peserta, termasuk track yang turun dan menanjak sehingga menambah tantangan",
+      "attribution": "Press conference coverage on InsideLombok describing the course",
+      "source_url": "https://insidelombok.id/advetorial/merumatta-half-marathon-peserta-diajak-jajal-rute-menawan-senggigi-malimbu/"
+    }
+  ],
+  "research_highlights": [
+    "The 2026 edition is a road race (5.5.30 route category set) with Kids Dash 2.5K, 5K, 10K and 21K categories starting along the Senggigi coastline, organized by Merumatta Coast Trail out of Hotel Merumatta Senggigi.",
+    "The 21K category has roughly 390m of elevation gain and a cut-off time of 4 hours, based on the 2025 edition's published race stats.",
+    "The 2025 edition (its second year) drew about 2,500 participants, including runners and communities from Bali, Jakarta, Surabaya and Makassar.",
+    "Race weekend logistics for the 2025 edition included race-pack collection at the Merumatta ballroom over two days, with early-morning starts (21K at 5:30am, 10K at 5:45am, 5K at 6:00am).",
+    "The course is promoted for its scenic Senggigi–Malimbu coastal stretch, with organisers noting sections that descend and climb, adding some challenge to the route."
+  ],
+  "research_watchouts": [
+    "No independent, first-hand participant race reports or reviews specifically about the Half Marathon (road) edition were found online -- available coverage is largely official press releases and event-listing sites, not runner commentary.",
+    "October in Lombok falls in the dry season, so runners can expect warm, tropical morning conditions typical of the region at that time of year (per general race-calendar descriptions rather than a runner's own account)."
+  ],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-18",
   "faqs": [
     {
       "question": "When is the Merumatta Half Marathon 2026?",

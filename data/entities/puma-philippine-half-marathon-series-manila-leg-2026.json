@@ -27,9 +27,27 @@
     "Organized by RUNRIO Inc., an established race organizer"
   ],
   "cons": [],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "excerpt_quotes": [
+    {
+      "quote": "Each location brings different routes and climates, so if you're unfamiliar with the area, it takes time to adjust.",
+      "attribution": "Christine Hallasgo (2019 SEA Games marathon gold medalist and PUMA-signed athlete), quoted in Mindanao Times coverage of the Manila leg",
+      "source_url": "https://www.mindanaotimes.com.ph/puma-philippine-half-marathon-series-2025-kicks-off-nationwide-at-sm-moa-in-manila/"
+    }
+  ],
+  "research_highlights": [
+    "The 2026 Manila leg is the finale of a six-city nationwide series and is held at the MOA Concert Grounds in Pasay City, with runners able to choose 5K, 10K, or 21K distances.",
+    "In the 2025 edition, the 21K category sold out across all six cities while 10K/5K slots reportedly sold quickly, so early registration is advised.",
+    "Race-day logistics include partial road closures on the course; walkers are permitted but must keep to the right to let faster runners pass, and wheelchairs, bikes, skates, and strollers are not allowed on course.",
+    "Finishers receive an official PUMA race singlet and a city-specific finisher medal, with an additional 'All-City Legacy Medal' for 21K runners who complete all six legs of the series.",
+    "The awarding ceremony for age-group and category winners is held on-site immediately after the race, and winners must be present to claim their awards."
+  ],
+  "research_watchouts": [
+    "Registration for the series is strictly non-transferable and non-refundable, and you cannot switch your event category or city leg after signing up.",
+    "An elite PUMA-signed athlete noted that switching to unfamiliar routes and local climates across the series' different cities can create adjustment pressure that affects race performance.",
+    "Results protests carry a non-refundable P5,000 fee and must be submitted in writing within one hour of results posting — verbal protests are not accepted."
+  ],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-18",
   "faqs": [
     {
       "question": "When is the PUMA Philippine Half Marathon Series — Manila Leg?",
@@ -48,7 +66,7 @@
       "answer": "Yes, registration for the PUMA Philippine Half Marathon Series — Manila Leg is currently open. Interested runners can sign up to participate in one of the three available distances: the 21.1km half marathon, the 10km race, or the 5km race at SM Mall of Asia Complex."
     }
   ],
-  "reliability_score": 65,
+  "reliability_score": 60,
   "tags": [
     "half-marathon",
     "philippines",

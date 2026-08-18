@@ -27,9 +27,30 @@
     "Located at a specific, identifiable venue: Drawbridge, Kuala Terengganu"
   ],
   "cons": [],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "excerpt_quotes": [
+    {
+      "quote": "Sepanjang larian, pemandangan di Terengganu sangat indah, memberi semangat tambahan untuk terus berlari.",
+      "attribution": "Runner recap of the 2025 edition on Lemon8 (@syakilsukeri.co)",
+      "source_url": "https://www.lemon8-app.com/@syakilsukeri.co/7568534769638670855?region=my"
+    },
+    {
+      "quote": "Meskipun kelajuan larian saya sekitar 7:02 minit per km dan masa penamat 2 jam 28 minit, saya tidak pernah rasa kecewa kerana yang paling penting adalah untuk tidak give up.",
+      "attribution": "Runner recap of the 2025 edition on Lemon8 (@syakilsukeri.co)",
+      "source_url": "https://www.lemon8-app.com/@syakilsukeri.co/7568534769638670855?region=my"
+    }
+  ],
+  "research_highlights": [
+    "Course centers on the Kuala Terengganu Drawbridge (Jambatan Angkat), with the bridge raised and lowered just before flag-off as a signature moment of the event, before runners head out along Miami Beach toward Sultan Mahmud Airport and back.",
+    "The 2025 edition's race village/bib collection was held at 'Tapak C Drawbridge, Kuala Terengganu' with an 11:00 AM–6:00 PM window, per JomRun's event page.",
+    "Entitlements for the 21.1KM category include an event jersey, finisher medal, a separate finisher jersey (for half-marathon finishers only), an RFID-timed bib, e-certificate and light refreshments, while 5KM/10KM bibs are untimed.",
+    "The race is part of JomRun's 10-city 'JomRun Half Marathon Series – Malaysia', run across the year (Kuching, Bintulu, Johor Bahru, Cybercity, Kuantan, Kota Kinabalu, Seremban, Terengganu, Rawang, Georgetown), so logistics/format closely mirror JomRun's other city half marathons."
+  ],
+  "research_watchouts": [
+    "As of mid-2026, JomRun's own listing for the 2026 edition still showed 'Date: To Be Confirmed, Time: To Be Confirmed, Venue: To Be Confirmed' for detailed race-day logistics, so participants should double-check final start time/venue closer to race day rather than relying on early registration pages.",
+    "No independent English-language race reports, forum threads, or news coverage discussing organisation quality, heat conditions, or crowd support for this specific event were found beyond one short personal recap and organizer/promotional listings — so claims about atmosphere, cut-off times, or on-course support could not be verified from participant sources."
+  ],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-18",
   "faqs": [
     {
       "question": "When is the Terengganu Half Marathon 2026 taking place?",
@@ -48,7 +69,7 @@
       "answer": "The race is held in Kuala Terengganu, Malaysia, with the starting point at the Drawbridge venue. This location serves as the hub for all three distance categories offered during the Terengganu Half Marathon 2026 Powered by JomRun®."
     }
   ],
-  "reliability_score": 15,
+  "reliability_score": 10,
   "tags": [
     "10k",
     "malaysia"
