@@ -14,3 +14,6 @@ npm-debug.log*
 # in git (i.e. the files under /data/entities, /data/regions, etc).
 /data/_raw/*
 !/data/_raw/README.md
+
+# Within-run handoff from discover-entities.js to summarize-changes.js (source health).
+.pipeline-source-report.json

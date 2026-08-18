@@ -90,8 +90,36 @@ function run() {
     }
   }
 
+  // Source health, from the report discover-entities.js drops at the repo
+  // root. Read defensively: a missing or malformed file must degrade to "no
+  // section" rather than break the notification, which is the one thing the
+  // operator actually reads.
+  //
+  // This section exists because a dead source is invisible otherwise. Four of
+  // them (three ahotu.com URLs and checkpointspot.asia) returned 403 for weeks
+  // while every notification still said "0 added" -- indistinguishable from
+  // "nothing new to find". The failure count goes in the headline so it cannot
+  // be missed without opening the issue.
+  let sourceReport = null;
+  try {
+    sourceReport = JSON.parse(fs.readFileSync('.pipeline-source-report.json', 'utf8'));
+  } catch {
+    sourceReport = null;
+  }
+  const sources = Array.isArray(sourceReport?.sources) ? sourceReport.sources : [];
+  // Two very different failures, kept apart because they need different
+  // actions. kind 'source' means the site would not give us the page (403,
+  // 404, robots) -- fix the source list. kind 'pipeline' means we got the page
+  // but our own extraction call failed -- usually a transient API problem, and
+  // reporting an API outage as "18 sources failing" would send someone off
+  // rewriting a perfectly good config.
+  const unreachable = sources.filter((s) => s && !s.ok && s.kind !== 'pipeline');
+  const extractionFailed = sources.filter((s) => s && !s.ok && s.kind === 'pipeline');
+
   const headline =
-    `Weekly refresh: ${added.length} added, ${archived.length} archived, ${newGuides.length} new guides`;
+    `Weekly refresh: ${added.length} added, ${archived.length} archived, ${newGuides.length} new guides` +
+    (unreachable.length > 0 ? `, ${unreachable.length} source(s) UNREACHABLE` : '') +
+    (extractionFailed.length > 0 ? `, ${extractionFailed.length} extraction failure(s)` : '');
 
   // GitHub rejects an issue body over 65,536 characters, and a first run or a
   // newly-added source can legitimately produce hundreds of additions. Cap
@@ -106,8 +134,39 @@ function run() {
     return `## ${title} (${items.length})\n\n${shown}${more}\n`;
   };
 
+  // Failures first: if discovery could only read half its sources, that
+  // changes how every count below should be read.
+  const sourceSection = (() => {
+    if (sources.length === 0) return '';
+    if (unreachable.length === 0 && extractionFailed.length === 0) {
+      return `## Sources\n\nAll ${sources.length} sources read OK.\n`;
+    }
+    const list = (items) => items.slice(0, MAX_LISTED).map((s) => `- \`${s.url}\` — ${s.reason}`).join('\n');
+    const out = [];
+    if (unreachable.length > 0) {
+      out.push(
+        `## ⚠️ Sources unreachable (${unreachable.length} of ${sources.length})\n\n` +
+          `${list(unreachable)}\n\n` +
+          `These sites would not serve us the page, so they contributed nothing ` +
+          `and the counts below understate what is out there. Fix or replace them ` +
+          `in \`site.config.json\` → \`sourceConfig.trustedAggregators\`.\n`
+      );
+    }
+    if (extractionFailed.length > 0) {
+      out.push(
+        `## Extraction failures (${extractionFailed.length} of ${sources.length})\n\n` +
+          `${list(extractionFailed)}\n\n` +
+          `The page loaded but our own extraction call did not return usable ` +
+          `candidates. Usually transient — if it persists across runs, check the ` +
+          `API key and rate limits before touching the source list.\n`
+      );
+    }
+    return out.join('\n');
+  })();
+
   const body = [
     `_Committed to \`main\` and deploying now._\n`,
+    sourceSection,
     section('Races added', added, (e) => `- ${describeEntity(e)}`),
     section('Races archived', archived, (e) => `- ${describeEntity(e)}`),
     section('Races un-archived', unarchived, (e) => `- ${describeEntity(e)}`),

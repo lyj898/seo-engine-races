@@ -159,6 +159,19 @@ jobs:
           else
             echo "changed=false" >> "$GITHUB_OUTPUT"
           fi
+          # How many discovery sources were unusable. Surfaced as its own
+          # output because it has to be able to trigger a notification on its
+          # own: a run where every source 403s changes no data, and gating the
+          # issue on `changed` alone meant total source failure was reported
+          # exactly like "nothing new to find" -- silence. That is how four
+          # dead sources went unnoticed for weeks.
+          # Counts only kind:'source' failures -- a site refusing to serve the
+          # page. Extraction failures (our API call) are reported in the issue
+          # body but must NOT trigger a notification on their own, or a
+          # transient 429 would open an issue every run.
+          FAILED=$(node -e "try{const r=require('./.pipeline-source-report.json');process.stdout.write(String((r.sources||[]).filter(s=>!s.ok&&s.kind!=='pipeline').length))}catch{process.stdout.write('0')}")
+          echo "sources_failing=$FAILED" >> "$GITHUB_OUTPUT"
+          echo "Discovery sources unreachable this run: $FAILED"
         # Must run BEFORE the commit: it diffs the working tree against HEAD
         # to work out which files are new and which changed status.
 
@@ -176,19 +189,31 @@ jobs:
           git push origin HEAD:main
 
       - name: Notify by email (via a GitHub issue)
-        if: steps.summary.outputs.changed == 'true'
+        if: steps.summary.outputs.changed == 'true' || steps.summary.outputs.sources_failing != '0'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          # @-mention the owner in the body as well as assigning them. These are
+          # two different GitHub notification categories ("Mentions" vs
+          # "Participating"), emailed independently, and Mentions is the one
+          # people most often have switched on -- so this is the cheapest way to
+          # make delivery more likely without anyone changing their settings.
+          printf '@%s\n\n' "${{ github.repository_owner }}" > issue-body.md
+          cat refresh-summary.md >> issue-body.md
           gh issue create \
             --title "${{ steps.summary.outputs.headline }}" \
-            --body-file refresh-summary.md \
+            --body-file issue-body.md \
             --label automated-refresh \
             --assignee "${{ github.repository_owner }}"
         # Delivered as an issue rather than SMTP on purpose: GitHub emails the
         # assignee automatically, so this needs no mail server, no app
         # password and no secret to rotate. The summary is also permanently
         # searchable in the repo, which a mailbox thread is not.
+        #
+        # WHICH ADDRESS IT REACHES is a property of the recipient's GitHub
+        # account (Settings > Emails, plus Settings > Notifications), not of
+        # anything in this repo -- there is no address to configure here. If
+        # mail is not arriving, check those two pages first.
 
       - name: No changes this run
         if: steps.summary.outputs.changed == 'false'

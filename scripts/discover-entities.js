@@ -51,6 +51,16 @@ import { PENDING_SUMMARY_MARKER, DRAFT_RELIABILITY_SCORE } from './lib/constants
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ENTITIES_DIR = path.resolve(__dirname, '../data/entities');
+// Within-run handoff to summarize-changes.js, which turns it into the "Source
+// health" section of the run notification. Deliberately at the repo root and
+// not under data/: the workflow only commits data/, so this never lands in git
+// (it is gitignored as well, for local runs).
+const SOURCE_REPORT = path.resolve(__dirname, '../.pipeline-source-report.json');
+
+// Error messages reach a GitHub issue, so keep them to the useful part: an
+// API error body carries a whole JSON envelope and a request id that mean
+// nothing to whoever reads the notification.
+const brief = (msg) => String(msg).replace(/\s+/g, ' ').split(' {')[0].slice(0, 120).trim();
 const today = () => new Date().toISOString().slice(0, 10);
 
 function findByLabel(items, label) {
@@ -123,6 +133,12 @@ async function run() {
   }
 
   const stats = { sourcesChecked: 0, sourcesSkipped: 0, candidatesFound: 0, written: 0, skipped: 0 };
+  // Per-source outcome, written to SOURCE_REPORT at the end so
+  // summarize-changes.js can report source health in the run notification.
+  // Until this existed a source could 403 for weeks while the notification
+  // still read a cheerful "0 added" -- four of them actually did (three
+  // ahotu.com URLs and checkpointspot.asia, found by hand on 2026-08-18).
+  const sourceOutcomes = [];
   const skipReasons = [];
 
   for (const source of aggregators) {
@@ -145,11 +161,13 @@ async function run() {
     } catch (err) {
       console.warn(`[discover-entities] robots.txt check failed for ${domain}, skipping this run for safety: ${err.message}`);
       stats.sourcesSkipped++;
+      sourceOutcomes.push({ url: sourceUrl, host: domain, ok: false, kind: 'source', reason: `robots.txt check failed: ${brief(err.message)}` });
       continue;
     }
     if (!allowed) {
       console.log(`[discover-entities] ${domain} disallows ${userAgent} via robots.txt -- skipping.`);
       stats.sourcesSkipped++;
+      sourceOutcomes.push({ url: sourceUrl, host: domain, ok: false, kind: 'source', reason: 'disallowed by robots.txt' });
       continue;
     }
 
@@ -161,6 +179,7 @@ async function run() {
     } catch (err) {
       console.warn(`[discover-entities] fetch failed for ${domain}: ${err.message}`);
       stats.sourcesSkipped++;
+      sourceOutcomes.push({ url: sourceUrl, host: domain, ok: false, kind: 'source', reason: `fetch failed: ${brief(err.message)}` });
       continue;
     }
 
@@ -179,14 +198,17 @@ async function run() {
       candidates = await callClaudeForJson({ system, prompt, maxTokens: 3000 });
     } catch (err) {
       console.warn(`[discover-entities] Claude call failed for ${domain}: ${err.message}`);
+      sourceOutcomes.push({ url: sourceUrl, host: domain, ok: false, kind: 'pipeline', reason: `extraction call failed: ${brief(err.message)}` });
       continue;
     }
     if (!Array.isArray(candidates)) {
       console.warn(`[discover-entities] expected a JSON array from ${domain}, got ${typeof candidates} -- skipping.`);
+      sourceOutcomes.push({ url: sourceUrl, host: domain, ok: false, kind: 'pipeline', reason: `unusable response (expected an array, got ${typeof candidates})` });
       continue;
     }
 
     stats.candidatesFound += candidates.length;
+    sourceOutcomes.push({ url: sourceUrl, host: domain, ok: true, candidates: candidates.length });
 
     for (const candidate of candidates) {
       if (!candidate || typeof candidate !== 'object' || typeof candidate.name !== 'string' || !candidate.name.trim()) {
@@ -380,10 +402,21 @@ async function run() {
     }
   }
 
+  try {
+    fs.writeFileSync(SOURCE_REPORT, JSON.stringify({ sources: sourceOutcomes }, null, 2) + '\n');
+  } catch (err) {
+    console.warn(`[discover-entities] could not write the source report: ${err.message}`);
+  }
+
   console.log(
     `\n[discover-entities] done. Sources checked: ${stats.sourcesChecked} (${stats.sourcesSkipped} skipped), ` +
       `candidates found: ${stats.candidatesFound}, written: ${stats.written}, skipped: ${stats.skipped}.`
   );
+  const failedSources = sourceOutcomes.filter((o) => !o.ok);
+  if (failedSources.length > 0) {
+    console.warn(`\n[discover-entities] ${failedSources.length} of ${stats.sourcesChecked} source(s) unusable this run:`);
+    for (const f of failedSources) console.warn(`  - ${f.url} -- ${f.reason}`);
+  }
   if (skipReasons.length > 0) {
     console.log('\nSkip reasons:');
     for (const reason of skipReasons) console.log(`  - ${reason}`);
