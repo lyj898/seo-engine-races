@@ -76,6 +76,19 @@ const mergedFaqs = merged
     )
   : (entity.faqs ?? []);
 
+// Once the review body is on this page, the review's own seo_title describes
+// it better than the bare entity name does: it leads with the searchable race
+// name (dropping sponsor prefixes readers don't type), says "Review", and
+// carries the city/country people actually search alongside a race. GSC's
+// query log for this site is all bare event names -- "kulai half marathon
+// 2026", "johor night run 2026" -- which these titles still match, plus the
+// review intent the old titles missed entirely.
+//
+// The <h1> deliberately stays entity.name: that is the race's name, and the
+// title tag is a search-surface string, not a page heading. Entity schema
+// keeps entity.name too, so structured data still carries the clean name.
+const pageTitle = merged && review.seo_title?.trim() ? review.seo_title.trim() : entity.name;
+
 // Internal-linking mesh (shared helper in src/lib/related.js so every page
 // type -- and anything the pipeline adds later -- follows the same rule):
 // editorially-pinned related_entity_ids first, then same-region/same-category
@@ -126,7 +139,7 @@ const jsonLd = [
 ---
 
 <BaseLayout
-  title={entity.name}
+  title={pageTitle}
   description={entity.short_description}
   canonicalPath={urls.entity(entity.slug)}
   jsonLd={jsonLd}
