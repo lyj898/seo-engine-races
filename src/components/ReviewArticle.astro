@@ -14,7 +14,7 @@
 // Props:
 //   sections:   [{ heading, paragraphs: [string with optional [n] markers] }]
 //   sources:    [{ n, label, publisher?, url, type? }]
-//   raceLinks:  [{ name, reviewSlug, entitySlug }] -- from src/lib/data.js's
+//   raceLinks:  [{ name, reviewSlug, entitySlug, entityHasPage }] -- from src/lib/data.js's
 //               buildRaceLinkTargets(). Each distinct name is linked at most
 //               once across the whole article (its first mention only) so a
 //               race repeated through the piece doesn't turn into a wall of
@@ -56,7 +56,13 @@ const sortedRaceLinks = [...new Map(
     .filter((r) => r.reviewSlug !== currentReviewSlug)
     .map((r) => [
       r.name,
-      { name: r.name, url: linkToEntity ? urls.entity(r.entitySlug) : urls.review(r.reviewSlug) },
+      {
+        name: r.name,
+        // entityHasPage guards the archived case: those races have a review
+        // page but no entity page, so a merged build still links their
+        // mentions to the review URL rather than to a 404.
+        url: linkToEntity && r.entityHasPage ? urls.entity(r.entitySlug) : urls.review(r.reviewSlug),
+      },
     ])
 ).values()].sort((a, b) => b.name.length - a.name.length);
 

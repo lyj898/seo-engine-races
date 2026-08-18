@@ -104,12 +104,19 @@ export function buildRaceLinkTargets() {
     const withoutBracket = entity.name.replace(/\s*\([^)]*\)\s*$/, '').trim();
     if (withoutBracket && withoutBracket !== entity.name) aliases.add(withoutBracket);
 
+    // Entity pages are built for isPublished entities only, while this pool
+    // uses the wider isReviewableEntity gate -- so an archived race has a
+    // review page but NO entity page. entityHasPage lets a merged build point
+    // autolinks at the entity page where one exists and fall back to the
+    // review URL where it doesn't, instead of linking to a 404.
+    const entityHasPage = isPublished(entity);
+
     for (const name of aliases) {
       if (name.length < 3) continue; // guards against a stray short bracket match becoming a link target
       // Both slugs, because the link target depends on enabledFeatures.mergedReviews:
       // merged builds link race mentions to the entity page (which now carries the
       // review body), unmerged builds link to the standalone review.
-      targets.push({ name, reviewSlug: review.slug, entitySlug: entity.slug });
+      targets.push({ name, reviewSlug: review.slug, entitySlug: entity.slug, entityHasPage });
     }
   }
   return targets;

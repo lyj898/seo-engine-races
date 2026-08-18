@@ -58,9 +58,19 @@ const { review, entity } = Astro.props;
 // page this merge exists to get indexed. An instant (0-second) meta refresh
 // plus a canonical, with no robots directive, is the standard consolidation
 // signal for a static host, and Google reads a 0-second refresh as permanent.
-const mergedTarget = siteConfig.enabledFeatures?.mergedReviews
-  ? new URL(urls.entity(entity.slug), Astro.site).toString()
-  : null;
+// isPublished, not just the flag: review pages are built for the WIDER
+// isReviewableEntity gate (archived races included, so a review stays a
+// valid landing page after race day -- see getStaticPaths above), but entity
+// pages are built only for isPublished ones. For the 23 reviews whose race
+// has lapsed and been archived there is no entity page to redirect to, and
+// redirecting there anyway sends readers and crawlers to a 404. Those keep
+// serving the full review below -- it is the only page that content has, and
+// it already renders the "this edition has already taken place" banner.
+const entityHasPage = isPublished(entity);
+const mergedTarget =
+  siteConfig.enabledFeatures?.mergedReviews && entityHasPage
+    ? new URL(urls.entity(entity.slug), Astro.site).toString()
+    : null;
 
 const regions = loadRegions().map(stripMeta);
 const region = regions.find((r) => r.region_id === entity.region_id);
@@ -143,7 +153,7 @@ const jsonLd = [
             {' '}
             <a href={urls.entity(successor.slug)} class="link-accent">{successor.name}</a>.
           </p>
-        ) : (
+        ) : entityHasPage ? (
           <p>
             This edition has already taken place — check the
             {' '}
@@ -151,6 +161,14 @@ const jsonLd = [
             {' '}
             for future dates.
           </p>
+        ) : region ? (
+          <p>
+            This edition has already taken place, and no future date is listed yet — see
+            {' '}
+            <a href={urls.region(region.slug)} class="link-accent">other {siteConfig.entityLabelPlural} in {region.label}</a>.
+          </p>
+        ) : (
+          <p>This edition has already taken place, and no future date is listed yet.</p>
         )}
       </div>
     )}
@@ -195,13 +213,18 @@ const jsonLd = [
       </div>
     )}
 
-    <div class="mt-12 rounded-xl border border-brand-border p-5 dark:border-brand-border-dark">
-      <p class="text-sm text-brand-muted dark:text-brand-muted-dark">
-        Planning to enter? See the full facts — dates, distances, pricing and registration — on the
-        {' '}
-        <a href={urls.entity(entity.slug)} class="link-accent">{entity.name} listing</a>.
-      </p>
-    </div>
+    {/* Only when a listing actually exists to point at. An archived race has
+        no entity page, and "planning to enter?" is the wrong question for an
+        event that has already happened anyway. */}
+    {entityHasPage && (
+      <div class="mt-12 rounded-xl border border-brand-border p-5 dark:border-brand-border-dark">
+        <p class="text-sm text-brand-muted dark:text-brand-muted-dark">
+          Planning to enter? See the full facts — dates, distances, pricing and registration — on the
+          {' '}
+          <a href={urls.entity(entity.slug)} class="link-accent">{entity.name} listing</a>.
+        </p>
+      </div>
+    )}
 
     {relatedReviews.length > 0 && (
       <section class="mt-12">

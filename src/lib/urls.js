@@ -45,7 +45,14 @@ export const urls = {
   category: (slug) => withBase(`/categories/${slug}/`),
   regionsIndex: () => withBase('/regions/'),
   region: (slug) => withBase(`/regions/${slug}/`),
-  entitiesIndex: () => withBase(`/${entitySegment}/`),
+  // Returns home, not `/${entitySegment}/`. This instance has no
+  // [entityType]/index.astro route -- the homepage IS the directory (it
+  // carries the full filterable calendar), so a separate index would be a
+  // second URL competing for the same query. Six tool pages linked here and
+  // were silently 404ing; pointing the helper at home fixes every caller at
+  // once. If an instance ever adds a real entity-index route, point this back
+  // at it.
+  entitiesIndex: () => withBase('/'),
   entity: (slug) => withBase(`/${entitySegment}/${slug}/`),
   listiclesIndex: () => withBase('/best/'),
   listicle: (slug) => withBase(`/best/${slug}/`),

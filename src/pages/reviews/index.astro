@@ -60,8 +60,15 @@ const countryRegions = regions
 // With mergedReviews on, a review's body lives on its entity page and
 // /reviews/<slug>/ is only a redirect -- so this index links straight to the
 // real page rather than bouncing every reader (and crawler) through a hop.
+//
+// Guarded on isPublished because this index lists reviews under the wider
+// isReviewableEntity gate (line 18), which includes archived races. Those have
+// no entity page, so they keep pointing at the review URL, which still serves
+// the full article.
 const reviewHref = (review, entity) =>
-  siteConfig.enabledFeatures?.mergedReviews ? urls.entity(entity.slug) : urls.review(review.slug);
+  siteConfig.enabledFeatures?.mergedReviews && isPublished(entity)
+    ? urls.entity(entity.slug)
+    : urls.review(review.slug);
 
 const breadcrumbItems = [
   { label: siteConfig.siteName, href: urls.home() },

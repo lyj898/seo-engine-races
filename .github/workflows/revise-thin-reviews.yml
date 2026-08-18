@@ -1,0 +1,131 @@
+name: Revise thin reviews
+
+# Regenerates thin review articles in place through generate-reviews.js's
+# --revise mode, then commits and deploys.
+#
+# WHY THIS IS A WORKFLOW AND NOT A LOCAL SCRIPT RUN
+# generate-reviews.js needs ANTHROPIC_API_KEY (it calls the API with web
+# search to gather and cite real sources). That key lives as a repository
+# secret, which is the right place for it -- so the generation has to happen
+# in Actions, where the secret is available, rather than on a laptop.
+#
+# WHY NOT HAND-EXPAND THE STUBS INSTEAD
+# Because that is exactly what produced every content bug this repo has had.
+# See generate-reviews.js's --revise doc comment: wrong event year, invented
+# source types, meta_description overflow, mojibake, and a UTF-8 BOM that
+# crashed validate outright all came from stubs expanded outside the
+# pipeline. Routing revisions through the script means they come out
+# schema-valid and correctly cited on the first pass.
+#
+# WHAT --revise TARGETS
+# Reviews with <=2 sections, <=1 FAQ, or <=1 source -- the shape a stub
+# tends to have. As of 2026-08-18 that is 7 of 215 reviews: six at 45-79
+# words, plus bintulu-marathon-2026 which is long enough but rests on a
+# single source. Pass `slugs` to override that selection explicitly.
+#
+# Manual-only by design. Revision overwrites existing published prose, so it
+# should be a deliberate act, not something a schedule does unattended --
+# unlike the weekly refresh, which only ever adds or flags.
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: 'Max reviews to revise in one run (keeps token spend and review effort bounded).'
+        type: string
+        required: false
+        default: '10'
+      slugs:
+        description: 'Optional comma-separated review slugs to revise instead of auto-selecting thin ones.'
+        type: string
+        required: false
+        default: ''
+      region:
+        description: 'Optional region id (e.g. malaysia) to scope the selection to one country.'
+        type: string
+        required: false
+        default: ''
+
+concurrency:
+  group: revise-thin-reviews
+  cancel-in-progress: false # never cancel a run part-way through writing data files
+
+permissions:
+  contents: write
+
+jobs:
+  revise:
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.summary.outputs.changed }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Validate data (pre-flight)
+        run: npm run validate
+        # Same guard as weekly-refresh: if data/ is already broken, stop here
+        # rather than layering generated changes on top of a known-bad state.
+
+      - name: Revise thin reviews
+        run: |
+          ARGS="--revise --limit ${{ inputs.limit }}"
+          if [ -n "${{ inputs.slugs }}" ]; then ARGS="$ARGS --slugs ${{ inputs.slugs }}"; fi
+          if [ -n "${{ inputs.region }}" ]; then ARGS="$ARGS --region ${{ inputs.region }}"; fi
+          echo "Running: npm run reviews -- $ARGS"
+          npm run reviews -- $ARGS
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      - name: Validate data (post-run)
+        run: npm run validate
+        # The gate that makes this safe to run unattended-ish: a revision that
+        # comes back schema-invalid, mojibake'd or with a broken citation fails
+        # the run and commits nothing. Red X in Actions instead of bad prose live.
+
+      - name: Summarise what changed
+        id: summary
+        run: |
+          if [ -n "$(git status --porcelain data/reviews/)" ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            git -c core.pager=cat diff --stat data/reviews/
+            echo "revised=$(git status --porcelain data/reviews/ | wc -l)" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No review files changed -- nothing thin left to revise, or the limit was already met."
+          fi
+
+      - name: Commit and push to main
+        if: steps.summary.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/reviews/
+          git commit -m "chore(reviews): revise ${{ steps.summary.outputs.revised }} thin review(s)"
+          # Rebase rather than merge: a hand edit pushed to main while this run
+          # was in flight should stay on top, not be clobbered by a stale checkout.
+          git pull --rebase --autostash origin main
+          git push origin HEAD:main
+
+  # Explicit deploy job for the same reason weekly-refresh has one: a push made
+  # with GITHUB_TOKEN does not trigger workflows, so deploy.yml's `on: push`
+  # never fires for the commit above. Calling it directly is not an event, so
+  # the restriction doesn't apply.
+  deploy:
+    needs: revise
+    if: needs.revise.outputs.changed == 'true'
+    uses: ./.github/workflows/deploy.yml
+    with:
+      ref: main # build the commit revise just pushed, not the stale triggering SHA
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
