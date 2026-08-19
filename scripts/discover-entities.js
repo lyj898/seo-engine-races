@@ -57,10 +57,13 @@ const ENTITIES_DIR = path.resolve(__dirname, '../data/entities');
 // (it is gitignored as well, for local runs).
 const SOURCE_REPORT = path.resolve(__dirname, '../.pipeline-source-report.json');
 
-// Error messages reach a GitHub issue, so keep them to the useful part: an
-// API error body carries a whole JSON envelope and a request id that mean
-// nothing to whoever reads the notification.
-const brief = (msg) => String(msg).replace(/\s+/g, ' ').split(' {')[0].slice(0, 120).trim();
+// Error messages reach a GitHub issue, so trim them -- but only by length.
+// An earlier version also cut at the first ' {', on the theory that an API
+// error body's JSON envelope was noise. It cut the useful half instead: a
+// truncated-array error quotes the response, which starts '[ {', so every
+// such failure rendered as the single character '[' and looked like an empty
+// response rather than a long one that got cut off.
+const brief = (msg) => String(msg).replace(/\s+/g, ' ').slice(0, 220).trim();
 const today = () => new Date().toISOString().slice(0, 10);
 
 function findByLabel(items, label) {
@@ -195,7 +198,14 @@ async function run() {
 
     let candidates;
     try {
-      candidates = await callClaudeForJson({ system, prompt, maxTokens: 3000 });
+      // 8000, not the old 3000. Discovery is the one call here that returns an
+      // ARRAY whose length it does not control -- one candidate carries a name,
+      // two labels and a full core_facts object, so a calendar page listing 24
+      // races (finishers.com's Thailand page says exactly that) needs well over
+      // 3000 output tokens to encode. Reviews already budget 16000 for a single
+      // article; discovery was the outlier. callClaudeForJson raises this
+      // further on its own if a response still hits max_tokens.
+      candidates = await callClaudeForJson({ system, prompt, maxTokens: 8000 });
     } catch (err) {
       console.warn(`[discover-entities] Claude call failed for ${domain}: ${err.message}`);
       sourceOutcomes.push({ url: sourceUrl, host: domain, ok: false, kind: 'pipeline', reason: `extraction call failed: ${brief(err.message)}` });
