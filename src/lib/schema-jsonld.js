@@ -148,7 +148,7 @@ export function buildEntitySchema(entity, siteConfig, url) {
  * a rating). entityUrl points back at the reviewed listing so the two nodes
  * are linked for search engines.
  */
-export function buildReviewSchema({ review, entity, siteConfig, url, entityUrl, site }) {
+export function buildReviewSchema({ review, entity, siteConfig, url, entityUrl, site, includeRating = true }) {
   const facts = entity.core_facts ?? {};
   const schema = {
     '@context': 'https://schema.org',
@@ -182,7 +182,10 @@ export function buildReviewSchema({ review, entity, siteConfig, url, entityUrl, 
     },
   };
 
-  if (review.rating && typeof review.rating.overall === 'number') {
+  // includeRating is the structured-data half of the gate in
+  // src/lib/ratings.js: a Review whose page shows no participant material
+  // must not hand a machine-readable score to a search engine either.
+  if (includeRating && review.rating && typeof review.rating.overall === 'number') {
     schema.reviewRating = {
       '@type': 'Rating',
       ratingValue: review.rating.overall,

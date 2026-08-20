@@ -1,6 +1,7 @@
 ---
 import { urls } from '../lib/urls.js';
-import { resolveRegistrationState } from '../lib/text.js';
+import { resolveRegistrationState, REGISTRATION_STATE_LABELS } from '../lib/text.js';
+import { matchedCategoryIds } from '../lib/categoryMatch.js';
 import DateBadge from './DateBadge.astro';
 import ValuePills from './ValuePills.astro';
 import Pill from './Pill.astro';
@@ -32,11 +33,18 @@ const locationLine = [facts.city, facts.country].filter(Boolean).join(', ');
 // whose entries shut in June must not still show "Open" in August.
 const availability = resolveRegistrationState(facts);
 
-// FilterBar filters on this attribute. Deliberately includes category_id
-// and region_id alongside content tags, so a hub page can filter by
-// category or region reliably without depending on those words happening
-// to also appear in entity.tags.
-const filterTags = [...(entity.tags ?? []), entity.category_id, entity.region_id].filter(Boolean).join(',');
+// FilterBar filters on this attribute. Deliberately includes every category
+// this entity belongs to and its region_id alongside content tags, so a hub
+// page can filter by category or region reliably without depending on those
+// words happening to also appear in entity.tags.
+//
+// Every matched category, not just the marquee one: the card already shows a
+// 10K pill for a marathon that offers a 10K leg (ValuePills reads the same
+// union), so a "10K" chip that then hid that card was filtering by a
+// different definition of 10K than the card was displaying.
+const filterTags = [...(entity.tags ?? []), ...matchedCategoryIds(entity, categories), entity.region_id]
+  .filter(Boolean)
+  .join(',');
 
 // SearchBox and the calendar's combined filter script both match on this.
 const searchText = `${entity.name} ${locationLine} ${entity.short_description ?? ''}`.toLowerCase();
@@ -73,7 +81,7 @@ const searchText = `${entity.name} ${locationLine} ${entity.short_description ??
     <div class="mt-3 flex items-center justify-between gap-3">
       {availability && (
         <span class="text-xs font-semibold uppercase tracking-wide text-brand-muted dark:text-brand-muted-dark">
-          {availability === 'open' ? 'Open' : 'Closed'}
+          {REGISTRATION_STATE_LABELS[availability]}
         </span>
       )}
       <a href={urls.entity(entity.slug)} class="ml-auto shrink-0 text-sm font-bold link-accent">Details &rarr;</a>

@@ -2,7 +2,8 @@
 import siteConfig from '../../lib/config.js';
 import { urls } from '../../lib/urls.js';
 import { loadEntities, loadCategories, loadRegions, loadListicles, loadReviews, stripMeta, isPublished } from '../../lib/data.js';
-import { resolveListicleEntities } from '../../lib/listicles.js';
+import { resolveListicleEntities, isListicleCopyStale } from '../../lib/listicles.js';
+import { hasParticipantEvidence, stripInlineScore } from '../../lib/ratings.js';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import ListicleEntry from '../../components/ListicleEntry.astro';
@@ -46,6 +47,24 @@ const allEntities = loadEntities()
 const rankedEntities = resolveListicleEntities(listicle, allEntities, allRegions, allCategories);
 const withReviews = rankedEntities.filter((e) => reviewsBySlug.has(e.slug)).length;
 
+// Which entries may PRINT their score. Ranking still uses recommend_score for
+// every entry -- an internal ordering signal is not a claim -- but the badge
+// is captioned as runner sentiment "from reviews we found", so it only shows
+// where the entry's review actually cites participant material. See
+// src/lib/ratings.js.
+const showScoreBySlug = new Map(
+  rankedEntities.map((e) => [e.slug, hasParticipantEvidence({ review: reviewsBySlug.get(e.slug), entity: e })])
+);
+const anyScoreShown = [...showScoreBySlug.values()].some(Boolean);
+
+// Is the stored prose still about the races on this page? (See
+// listicleFingerprint's doc comment.) When it isn't, none of the frozen copy
+// renders: the intro, the FAQs and the "Our pick" blurb all name specific
+// races, dates and windows, so a set change turns them from a summary into a
+// set of confident false statements. The list, the count line and the ranking
+// below are resolved live and are unaffected.
+const copyIsStale = isListicleCopyStale(listicle, rankedEntities);
+
 // An at-a-glance line computed from the resolved set, so the guide opens with
 // something concrete (span of dates, distances on offer) rather than only the
 // intro paragraph.
@@ -59,6 +78,38 @@ const dateRange = datesSorted.length
     ? fmtMonth(datesSorted[0])
     : `${fmtMonth(datesSorted[0])} – ${fmtMonth(datesSorted[datesSorted.length - 1])}`
   : null;
+// Stand-in intro, derived entirely from the set actually on the page, for a
+// guide whose written intro has gone stale. Deliberately says less than a
+// written one: it states what is here right now and how the list is built,
+// which is true by construction, and leaves the editorial reading of the
+// calendar to the regenerated copy when the pipeline next writes it.
+const topCities = [...new Set(rankedEntities.map((e) => e.core_facts?.city).filter(Boolean))];
+const cityPhrase =
+  topCities.length === 0
+    ? ''
+    : topCities.length <= 3
+      ? ` in ${topCities.slice(0, 3).join(', ')}`
+      : ` in ${topCities.slice(0, 3).join(', ')} and ${topCities.length - 3} other ${
+          topCities.length - 3 === 1 ? 'city' : 'cities'
+        }`;
+// The count, the date span and the review tally are already in the stat
+// strip immediately below, so the sentence doesn't repeat them.
+const derivedIntro = rankedEntities.length
+  ? `${siteConfig.entityLabelPlural[0].toUpperCase()}${siteConfig.entityLabelPlural.slice(1)}${cityPhrase}. ` +
+    `This list is rebuilt from the directory on every publish, so it shows what is open to enter now rather than a snapshot of an earlier calendar.`
+  : listicle.intro;
+
+const introToShow = copyIsStale ? derivedIntro : listicle.intro;
+const faqsToShow = copyIsStale ? [] : listicle.faqs;
+// stripInlineScore for the same reason the badge is gated: a pick blurb
+// written as "Our top pick is X (85/100)" restates the score in prose.
+const editorialPick =
+  copyIsStale || !listicle.editorial_pick
+    ? null
+    : anyScoreShown
+      ? listicle.editorial_pick
+      : stripInlineScore(listicle.editorial_pick);
+
 const breadcrumbItems = [
   { label: siteConfig.siteName, href: urls.home() },
   { label: 'Recommends', href: urls.listiclesIndex() },
@@ -69,25 +120,31 @@ const jsonLd = [
   ...(siteConfig.enabledFeatures?.itemListSchema
     ? [buildItemListSchema(rankedEntities, Astro.site, (e) => urls.entity(e.slug), (e) => e.name)]
     : []),
-  ...(siteConfig.enabledFeatures?.faqSchema ? [buildFaqPageSchema(listicle.faqs)] : []),
+  ...(siteConfig.enabledFeatures?.faqSchema && faqsToShow.length ? [buildFaqPageSchema(faqsToShow)] : []),
   buildBreadcrumbListSchema(breadcrumbItems, Astro.site),
 ].filter(Boolean);
 ---
 
 <BaseLayout
   title={listicle.title}
-  description={listicle.intro}
+  description={introToShow}
   canonicalPath={urls.listicle(listicle.slug)}
   jsonLd={jsonLd}
 >
   <div class="mx-auto max-w-3xl px-4 py-10 sm:px-6">
     <Breadcrumb items={breadcrumbItems} />
     <h1 class="mt-4 font-serif text-3xl font-semibold sm:text-4xl">{listicle.title}</h1>
-    <div class="mt-2">
-      <LastUpdated date={listicle.last_updated} />
-    </div>
+    {/* Dated only while the written copy still matches the set below it.
+        A stale guide's stored date describes prose the page is no longer
+        showing, and the derived intro says how the list is kept current, so
+        a second, older date would only contradict it. */}
+    {!copyIsStale && (
+      <div class="mt-2">
+        <LastUpdated date={listicle.copy_generated_at ?? listicle.last_updated} />
+      </div>
+    )}
     <div class="prose-content mt-4">
-      <p>{listicle.intro}</p>
+      <p>{introToShow}</p>
     </div>
 
     {rankedEntities.length > 0 && (
@@ -100,17 +157,17 @@ const jsonLd = [
       </div>
     )}
 
-    {listicle.editorial_pick && (
+    {editorialPick && (
       <div class="mt-6 rounded-xl border border-brand-primary/40 bg-brand-primary-highlight p-4 text-sm dark:bg-brand-primary-highlight-dark">
         <p class="text-xs font-bold uppercase tracking-wide text-brand-primary-ink dark:text-brand-primary-ink-dark">Our pick</p>
-        <p class="mt-1.5 leading-relaxed">{listicle.editorial_pick}</p>
+        <p class="mt-1.5 leading-relaxed">{editorialPick}</p>
       </div>
     )}
 
     {rankedEntities.length > 0 ? (
       <>
         <p class="mt-8 text-xs font-semibold uppercase tracking-wide text-brand-muted dark:text-brand-muted-dark">
-          Ranked by review score — highest first
+          {anyScoreShown ? 'Ranked by review score — highest first' : 'Ordered by how strongly each entry is reviewed and sourced'}
         </p>
         <ol class="mt-3 space-y-4">
           {rankedEntities.map((entity, i) => (
@@ -121,6 +178,7 @@ const jsonLd = [
                 hasReview={reviewsBySlug.has(entity.slug)}
                 reviewRating={reviewsBySlug.get(entity.slug)?.rating?.overall}
                 rank={i + 1}
+                showScore={showScoreBySlug.get(entity.slug)}
               />
             </li>
           ))}
@@ -133,7 +191,7 @@ const jsonLd = [
     )}
 
     <section class="mt-14">
-      <FAQSection faqs={listicle.faqs} />
+      <FAQSection faqs={faqsToShow} />
     </section>
   </div>
 </BaseLayout>

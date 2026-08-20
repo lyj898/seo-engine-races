@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "malaysia",
   "short_description": "IJM Allianz Duo Highway Challenge 2026 is a verified Half/10K/5K race on a closed highway in Subang Jaya, Malaysia, confirmed for 2 August 2026.",
-  "ai_summary": "IJM Allianz Duo Highway Challenge 2026 is a highway-closure road race on the NPE Highway in Subang Jaya, Selangor, Malaysia, confirmed for 2 August 2026. Organized by IJM Corporation and Allianz, it offers Half Marathon, 10km, and 5km distances. As of the last verification on 16 July 2026, no registration link or pricing had been published, though the event's official website, a regional race aggregator, and an active Facebook page (10.2K followers) all confirm it is going ahead.",
+  "ai_summary": "IJM Allianz Duo Highway Challenge 2026 is a highway-closure road race on the NPE Highway in Subang Jaya, Selangor, Malaysia, confirmed for 2 August 2026. Organized by IJM Corporation and Allianz, it offers Half Marathon, 10km, and 5km distances. No registration link or pricing has been published yet, though the event's official website, a regional race aggregator, and an active Facebook page (10.2K followers) all confirm it is going ahead.",
   "core_facts": {
     "date": "2026-08-02",
     "distance_km": [
@@ -24,7 +24,7 @@
     "Backed by IJM Corporation and Allianz, and verified across the official site, a regional aggregator, and an active 10.2K-follower Facebook page"
   ],
   "cons": [
-    "Registration link and pricing had not been published as of the last verification",
+    "Registration link and pricing have not been published yet",
     "No full marathon option -- distances top out at Half Marathon"
   ],
   "sentiment_scores": {
@@ -74,7 +74,7 @@
   "faqs": [
     {
       "question": "When is the IJM Allianz Duo Highway Challenge 2026?",
-      "answer": "The race is confirmed for 2 August 2026 on the NPE Highway in Subang Jaya, Selangor, Malaysia. It was verified across the official event website, a regional race aggregator, and the organizer's active Facebook page as of 16 July 2026, giving it a solid confidence rating despite registration details not yet being public."
+      "answer": "The race is confirmed for 2 August 2026 on the NPE Highway in Subang Jaya, Selangor, Malaysia. The date appears on the official event website, a regional race aggregator, and the organizer's active Facebook page, though registration details are not yet public."
     },
     {
       "question": "What makes the IJM Allianz Duo Highway Challenge different from other half marathons?",
@@ -82,7 +82,7 @@
     },
     {
       "question": "Is registration open for the IJM Allianz Duo Highway Challenge?",
-      "answer": "As of the last verification on 16 July 2026, no registration link or entry pricing had been published for this race. Runners interested in taking part should monitor the official website directly for registration announcements closer to the 2 August 2026 event date."
+      "answer": "No registration link or entry pricing has been published for this race yet. Runners interested in taking part should monitor the official website directly for registration announcements closer to the 2 August 2026 event date."
     }
   ],
   "reliability_score": 88,

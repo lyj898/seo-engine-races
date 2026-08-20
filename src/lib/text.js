@@ -111,29 +111,95 @@ export function isLikelyRegistrationOpen(status) {
 }
 
 /**
- * Collapses a free-text availability status to one of three states:
- * 'open', 'closed', or null (meaning "we don't know -- say nothing").
+ * Phrasings that mean "you cannot enter yet, but this is not closed" --
+ * registration that hasn't been announced, hasn't opened, or is described
+ * as opening on some future date.
+ *
+ * Matched against the status with underscores and hyphens flattened to
+ * spaces (see deSnake below), so a snake_case placeholder and the same
+ * thing written as a sentence land on the same rule. Flattening first is
+ * what makes \b usable here: in "ballot_opening_soon" the underscore is a
+ * word character, so \bopening never matches until it becomes a space.
+ */
+const NOT_YET_OPEN_RE =
+  /not yet (open|announced|confirmed|available|live)|\bopening soon\b|\bcoming soon\b|\bopens\b|\bwill open\b/i;
+
+const deSnake = (text) => String(text).replace(/[_-]+/g, ' ');
+
+const MONTHS = 'jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec';
+// "1 Jul 2026", "8 July 2026", "May 5, 2026" -- the two shapes source pages
+// actually use for a promised opening date.
+const DATE_IN_TEXT_RE = new RegExp(
+  `\\b(?:(\\d{1,2})\\s+(${MONTHS})[a-z]*\\s+(\\d{4})|(${MONTHS})[a-z]*\\s+(\\d{1,2}),?\\s+(\\d{4}))\\b`,
+  'gi'
+);
+const MONTH_INDEX = Object.fromEntries(MONTHS.split('|').map((m, i) => [m, i + 1]));
+
+/**
+ * Every calendar date named inside a free-text status, as ISO strings.
+ * Used to age out a promise: "Opens 8 Jul 2026" stops being an answer on
+ * 9 July, and there is no other field that knows that.
+ */
+function datesNamedIn(text) {
+  const out = [];
+  for (const m of String(text).matchAll(DATE_IN_TEXT_RE)) {
+    const [, dayFirst, monthA, yearA, monthB, dayB, yearB] = m;
+    const day = Number(dayFirst ?? dayB);
+    const month = MONTH_INDEX[(monthA ?? monthB).toLowerCase()];
+    const year = Number(yearA ?? yearB);
+    if (!day || !month || !year) continue;
+    out.push(`${year}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}`);
+  }
+  return out;
+}
+
+/**
+ * Collapses a free-text availability status to one of four states: 'open',
+ * 'closed', 'not_yet_open', or null (meaning "we don't know -- say nothing").
  *
  * Source pages write this field in dozens of shapes: "Open (Early Bird)",
  * "Pendaftaran Dibuka (Registration Open)", "Sold Out", "Opens 8 Jul 2026",
  * "Not yet confirmed open (2027)". Printing those verbatim turns a listing
- * card into a wall of inconsistent micro-copy, and the date-bearing ones go
- * stale the moment the date passes -- a card still promising "Opens 6 May
- * 2026" in August is worse than saying nothing at all.
+ * card into a wall of inconsistent micro-copy, so each one is mapped to a
+ * state and the caller renders one consistent label per state.
  *
- * So only the two states a visitor can act on survive. A promised future
- * opening date is deliberately *not* one of them: it's a claim that decays,
- * and we can't re-verify it between refreshes. Returning null lets the
- * caller omit the line entirely rather than print a non-answer.
+ * 'not_yet_open' exists because collapsing it into null was throwing away
+ * the answer to the question. 81 of 183 published races carried a status
+ * meaning "entries aren't open yet" -- "not_yet_announced" for 56 of them
+ * alone -- and every one rendered no badge at all, so nearly half the
+ * directory looked like it was missing its most decision-relevant field
+ * rather than reporting it. "You can't enter yet" is not the absence of a
+ * fact; "TBA" is, and that still falls through to null at the bottom.
+ *
+ * A status that names an opening DATE is different again, because the claim
+ * expires: a card still promising "Opens 6 May 2026" in August is worse than
+ * saying nothing. So when the date it names has passed, this returns null --
+ * we no longer know whether entries opened on time, and won't guess.
  */
-export function simplifyAvailabilityStatus(status) {
-  if (typeof status !== 'string' || isUnknownStatus(status)) return null;
+export function simplifyAvailabilityStatus(status, today = new Date().toISOString().slice(0, 10)) {
+  if (typeof status !== 'string' || !status.trim()) return null;
   const s = status.toLowerCase();
   // Closed wins over open: "Closed (pending rescheduled date)" and "Sold Out"
   // both describe a door that is shut, however they phrase it.
   if (/closed|sold out|fully booked|ended|full house/.test(s)) return 'closed';
-  return isLikelyRegistrationOpen(status) ? 'open' : null;
+  if (isLikelyRegistrationOpen(status)) return 'open';
+  if (NOT_YET_OPEN_RE.test(deSnake(status))) {
+    return datesNamedIn(status).some((d) => d < today) ? null : 'not_yet_open';
+  }
+  // "TBA"/"unknown"/"n/a" and anything else unrecognised: no answer.
+  return null;
 }
+
+/**
+ * One label per registration state, so the badge on a card, the chip in a
+ * listicle entry and the row in the facts table can't word the same state
+ * three different ways.
+ */
+export const REGISTRATION_STATE_LABELS = {
+  open: 'Open',
+  closed: 'Closed',
+  not_yet_open: 'Not open yet',
+};
 
 const ISO_DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 const isIsoDate = (v) => typeof v === 'string' && ISO_DATE_RE.test(v);
@@ -164,13 +230,13 @@ const isIsoDate = (v) => typeof v === 'string' && ISO_DATE_RE.test(v);
  *
  * @param {object} facts  an entity's core_facts
  * @param {string} [today] ISO date; injectable so tests aren't clock-dependent
- * @returns {'open'|'closed'|null} null means "we don't know -- say nothing"
+ * @returns {'open'|'closed'|'not_yet_open'|null} null means "we don't know -- say nothing"
  */
 export function resolveRegistrationState(facts, today = new Date().toISOString().slice(0, 10)) {
   if (!facts || typeof facts !== 'object') return null;
   if (isIsoDate(facts.registration_deadline) && facts.registration_deadline < today) return 'closed';
   if (isIsoDate(facts.date) && facts.date < today) return 'closed';
-  return simplifyAvailabilityStatus(facts.registration_status);
+  return simplifyAvailabilityStatus(facts.registration_status, today);
 }
 
 /**
@@ -188,11 +254,15 @@ export function resolveRegistrationState(facts, today = new Date().toISOString()
  * line at placeholder-vs-information, which is a different question from
  * whether the information has expired. This draws the second line:
  *
- *   closed -> "Closed", replacing whatever phrasing the source used
- *   open   -> the original string, so useful nuance ("Open (Early Bird)",
- *             "Open (Public: 3 Jul - 31 Oct 2026)") survives
- *   null   -> drop the field, so the row disappears instead of printing a
- *             claim we can no longer stand behind
+ *   closed       -> "Closed", replacing whatever phrasing the source used
+ *   not_yet_open -> "Not open yet", likewise: the seven ways sources write
+ *                   this ("not_yet_announced", "Coming Soon", "Not yet
+ *                   confirmed open", "ballot_opening_soon") are synonyms,
+ *                   and the row should read the same as the card's badge
+ *   open         -> the original string, so useful nuance ("Open (Early
+ *                   Bird)", "Open (Public: 3 Jul - 31 Oct 2026)") survives
+ *   null         -> drop the field, so the row disappears instead of
+ *                   printing a claim we can no longer stand behind
  */
 export function withResolvedRegistration(facts, today = new Date().toISOString().slice(0, 10)) {
   if (!facts || typeof facts !== 'object') return facts;
@@ -201,5 +271,76 @@ export function withResolvedRegistration(facts, today = new Date().toISOString()
     const { registration_status, ...rest } = facts;
     return rest;
   }
-  return state === 'closed' ? { ...facts, registration_status: 'Closed' } : facts;
+  if (state === 'open') return facts;
+  return { ...facts, registration_status: REGISTRATION_STATE_LABELS[state] };
+}
+
+/**
+ * Do two FAQ questions ask the same thing?
+ *
+ * Exact-string dedupe (what the entity/review FAQ merge used to do) only
+ * catches questions written character-for-character alike, which the two
+ * generation stages have no reason to do. The Borobudur listing ended up
+ * asking "How much does the Bank Jateng Borobudur Marathon cost?" and "How
+ * much does the Borobudur Marathon cost?" one after the other, with two
+ * near-identical answers -- a duplicate pair in the accordion, and a
+ * duplicate entry in the FAQPage schema, which suppresses rich results
+ * rather than earning them.
+ *
+ * The comparison keeps the leading interrogative and drops filler words,
+ * then asks whether one question's remaining content words are entirely
+ * contained in the other's. Keeping the interrogative is what stops "When
+ * is the race?" and "Where is the race?" -- identical once stripped -- from
+ * collapsing into one. Requiring containment rather than mere overlap
+ * keeps "How hilly is the course?" and "How hot is the course?" apart.
+ */
+const QUESTION_STOPWORDS = new Set([
+  'a', 'an', 'the', 'is', 'are', 'was', 'were', 'be', 'been', 'do', 'does', 'did', 'can', 'could',
+  'will', 'would', 'should', 'i', 'you', 'it', 'they', 'there', 'this', 'that', 'these', 'those',
+  'to', 'of', 'for', 'in', 'on', 'at', 'by', 'with', 'from', 'and', 'or', 'any', 'my', 'your',
+  'get', 'got', 'have', 'has',
+  // Deliberately NOT stopwords: "like" and "about" change what a question
+  // is asking ("what is the course like?" is not "what makes the course
+  // distinctive?"). Dropping a genuinely distinct FAQ costs more than
+  // leaving a mild overlap, so the comparison stays conservative.
+]);
+
+const INTERROGATIVES = new Set(['what', 'when', 'where', 'who', 'which', 'why', 'how', 'is', 'are', 'do', 'does', 'can', 'will', 'should']);
+
+function questionKey(question) {
+  const words = String(question ?? '')
+    .toLowerCase()
+    .replace(/[^a-z0-9\s]/g, ' ')
+    .split(/\s+/)
+    .filter(Boolean);
+  if (words.length === 0) return null;
+  const lead = INTERROGATIVES.has(words[0]) ? words[0] : '';
+  const content = new Set(words.filter((w) => !QUESTION_STOPWORDS.has(w) && w !== lead));
+  return { lead, content };
+}
+
+export function questionsAreNearDuplicates(a, b) {
+  const ka = questionKey(a);
+  const kb = questionKey(b);
+  if (!ka || !kb) return false;
+  if (ka.lead !== kb.lead) return false;
+  const [small, large] = ka.content.size <= kb.content.size ? [ka.content, kb.content] : [kb.content, ka.content];
+  // Two content words is the floor: a one-word question ("How long?") says
+  // too little for containment to mean anything.
+  if (small.size < 2) return false;
+  return [...small].every((w) => large.has(w));
+}
+
+/**
+ * FAQ list with near-duplicate questions removed, first occurrence winning.
+ * Used wherever two FAQ sets are merged onto one page.
+ */
+export function dedupeFaqs(faqs = []) {
+  const kept = [];
+  for (const faq of faqs) {
+    if (!faq?.question) continue;
+    if (kept.some((k) => questionsAreNearDuplicates(k.question, faq.question))) continue;
+    kept.push(faq);
+  }
+  return kept;
 }

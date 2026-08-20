@@ -57,6 +57,35 @@ export function entityMatchesCategory(entity, category, categories = []) {
 }
 
 /**
+ * Every category an entity belongs to, as ids: its marquee `category_id`
+ * plus every category whose matchRange contains one of its numeric core
+ * facts. Same union rule as entityMatchesCategory(), expressed the other
+ * way round -- given an entity, which categories is it in?
+ *
+ * This exists because that question was being answered independently in
+ * four places (the home calendar's filter attributes, EntityCard's
+ * data-tags, the region hub's chip list, the hub counts) and only one of
+ * them used the union. The rest compared `entity.category_id` directly, so
+ * a directory where 145 races include a 10K leg advertised "10K -- 3" and
+ * a 10K filter chip that hid almost every race carrying a 10K badge. One
+ * helper means the badge on a card, the chip that filters it, and the count
+ * on the hub can no longer disagree about what a 10K race is.
+ */
+export function matchedCategoryIds(entity, categories = []) {
+  const ids = new Set();
+  if (entity?.category_id) ids.add(entity.category_id);
+  for (const value of Object.values(entity?.core_facts ?? {})) {
+    if (!Array.isArray(value)) continue;
+    for (const item of value) {
+      if (typeof item !== 'number') continue;
+      const matched = matchCategoryByValue(item, categories);
+      if (matched) ids.add(matched.category_id);
+    }
+  }
+  return [...ids];
+}
+
+/**
  * Returns a copy of `facts` with every all-numeric array narrowed to the
  * values that fall inside some category's matchRange, sorted largest-first.
  *

@@ -1,8 +1,20 @@
 ---
 import siteConfig from '../../lib/config.js';
 import { urls } from '../../lib/urls.js';
-import { loadEntities, loadRegions, loadCategories, stripMeta, buildRegionAncestryMap, isPublished } from '../../lib/data.js';
+import {
+  loadEntities,
+  loadRegions,
+  loadCategories,
+  loadReviews,
+  stripMeta,
+  buildRegionAncestryMap,
+  buildRegionEntityCounts,
+  regionHasEntities,
+  isPublished,
+  isReviewableEntity,
+} from '../../lib/data.js';
 import { byUpcomingDate, byDistanceDesc } from '../../lib/sort.js';
+import { entityMatchesCategory, matchedCategoryIds } from '../../lib/categoryMatch.js';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import StatsSummary from '../../components/StatsSummary.astro';
@@ -33,16 +45,74 @@ const entities = allEntities
   .filter((e) => (ancestryMap.get(e.region_id) ?? [e.region_id]).includes(region.region_id))
   .sort(byUpcomingDate);
 
-const childRegions = allRegions.filter((r) => r.parent_region_id === region.region_id);
+// Same empty-region rule one level down (regionHasEntities is applied after
+// regionCounts is built, below): the Thailand hub was offering an "Explore
+// by country" card for Nong Khai reading "0", which is the same card the
+// homepage was showing for Timor-Leste, just nested.
 const parentRegion = allRegions.find((r) => r.region_id === region.parent_region_id);
 
+// A region whose listing has emptied out (every edition we covered has now
+// been run and archived) is not the same page as a covered one. Its stored
+// `intro` is written in the present tense about races that are no longer
+// listed -- Timor-Leste's promised a calendar "headlined by the Dili
+// International Marathon" above a grid showing zero -- so the marketing copy
+// and the zeroed stats give way to an honest empty state, the page is
+// noindexed, and the sitemap and every hub grid drop it (regionHasEntities).
+const regionCounts = buildRegionEntityCounts(allRegions, allEntities);
+const isEmptyRegion = !regionHasEntities(region, regionCounts);
+
+const childRegions = allRegions.filter(
+  (r) => r.parent_region_id === region.region_id && regionHasEntities(r, regionCounts)
+);
+
+// What we DID cover here, so the empty state points somewhere real rather
+// than only apologising. Reviews outlive their race (isReviewableEntity), so
+// a lapsed edition still has a page worth linking to.
+const reviewSlugsByEntityId = new Map(
+  (siteConfig.enabledFeatures?.reviews ? loadReviews().map(stripMeta).filter(isPublished) : []).map((r) => [
+    r.entity_id,
+    r.slug,
+  ])
+);
+const pastEditions = isEmptyRegion
+  ? loadEntities()
+      .map(stripMeta)
+      .filter(isReviewableEntity)
+      .filter((e) => !isPublished(e))
+      .filter((e) => (ancestryMap.get(e.region_id) ?? [e.region_id]).includes(region.region_id))
+      .filter((e) => reviewSlugsByEntityId.has(e.entity_id))
+      .sort((a, b) => String(b.core_facts?.date ?? '').localeCompare(String(a.core_facts?.date ?? '')))
+      .slice(0, 5)
+  : [];
+
+// A raw ISO date is a database value, not a date a reader wants to read.
+const formatEditionDate = (iso) =>
+  new Date(iso).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+
+// Countries that do have a calendar right now, so an empty hub is still a
+// route onward instead of a dead end.
+const siblingRegions = isEmptyRegion
+  ? allRegions
+      .filter((r) => !r.parent_region_id && r.region_id !== region.region_id && regionHasEntities(r, regionCounts))
+      .sort((a, b) => (regionCounts.get(b.region_id) ?? 0) - (regionCounts.get(a.region_id) ?? 0))
+      .slice(0, 6)
+  : [];
+
+// Both of these read the same union rule the cards and hub counts use
+// (matchedCategoryIds / entityMatchesCategory), not entity.category_id
+// alone. A race offering 42.195/21.1/10/5 km belongs to four distance
+// types, and a chip row built from marquee categories only offered
+// "Full Marathon" while every card below it showed a 10K and a 5K pill.
 const stats = [
   { label: `${siteConfig.entityLabelPlural}`, value: entities.length },
-  { label: `${siteConfig.categoryLabel}s represented`, value: new Set(entities.map((e) => e.category_id)).size },
+  {
+    label: `${siteConfig.categoryLabel}s represented`,
+    value: new Set(entities.flatMap((e) => matchedCategoryIds(e, allCategories))).size,
+  },
 ];
 
 const categoryFilterOptions = allCategories
-  .filter((c) => entities.some((e) => e.category_id === c.category_id))
+  .filter((c) => entities.some((e) => entityMatchesCategory(e, c, allCategories)))
   .sort(byDistanceDesc)
   .map((c) => ({ label: c.label, value: c.category_id }));
 
@@ -53,31 +123,45 @@ const breadcrumbItems = [
   { label: region.label, href: urls.region(region.slug) },
 ];
 
+// An empty hub emits no ItemList and no FAQPage: an ItemList of nothing is
+// a structured-data claim with no items behind it, and the stored FAQs
+// answer questions about a calendar this page is no longer showing. The
+// breadcrumb stays -- it describes where the page sits, which is still true.
 const jsonLd = [
-  ...(siteConfig.enabledFeatures?.itemListSchema
+  ...(siteConfig.enabledFeatures?.itemListSchema && !isEmptyRegion
     ? [buildItemListSchema(entities, Astro.site, (e) => urls.entity(e.slug), (e) => e.name)]
     : []),
-  ...(siteConfig.enabledFeatures?.faqSchema ? [buildFaqPageSchema(region.faqs)] : []),
+  ...(siteConfig.enabledFeatures?.faqSchema && !isEmptyRegion ? [buildFaqPageSchema(region.faqs)] : []),
   buildBreadcrumbListSchema(breadcrumbItems, Astro.site),
 ].filter(Boolean);
 ---
 
 <BaseLayout
   title={region.label}
-  description={region.short_description}
+  description={
+    isEmptyRegion
+      ? `No upcoming ${siteConfig.entityLabelPlural} are currently listed in ${region.label}.`
+      : region.short_description
+  }
   canonicalPath={urls.region(region.slug)}
   jsonLd={jsonLd}
+  noindex={isEmptyRegion}
 >
   <div class="mx-auto max-w-6xl px-4 py-10 sm:px-6">
     <Breadcrumb items={breadcrumbItems} />
     <h1 class="mt-4 font-serif text-3xl font-semibold sm:text-4xl">{region.label}</h1>
-    <div class="prose-content mt-4 max-w-2xl">
-      <p>{region.intro ?? region.short_description}</p>
-    </div>
 
-    <div class="mt-8">
-      <StatsSummary stats={stats} />
-    </div>
+    {!isEmptyRegion && (
+      <>
+        <div class="prose-content mt-4 max-w-2xl">
+          <p>{region.intro ?? region.short_description}</p>
+        </div>
+
+        <div class="mt-8">
+          <StatsSummary stats={stats} />
+        </div>
+      </>
+    )}
 
     {childRegions.length > 0 && (
       <section class="mt-10">
@@ -88,7 +172,7 @@ const jsonLd = [
               href={urls.region(child.slug)}
               label={child.label}
               description={child.short_description}
-              count={allEntities.filter((e) => (ancestryMap.get(e.region_id) ?? [e.region_id]).includes(child.region_id)).length}
+              count={regionCounts.get(child.region_id) ?? 0}
             />
           ))}
         </div>
@@ -103,13 +187,48 @@ const jsonLd = [
         </div>
       </div>
     ) : (
-      <p class="mt-10 text-brand-muted dark:text-brand-muted-dark">
-        No {siteConfig.entityLabelPlural} published in {region.label} yet -- check back soon.
-      </p>
+      <div class="mt-8 rounded-xl border border-brand-border bg-brand-surface-offset p-5 dark:border-brand-border-dark dark:bg-brand-surface-offset-dark">
+        <p class="text-base">
+          We don't currently list any upcoming {siteConfig.entityLabelPlural} in {region.label}. Every edition we've
+          covered here has already been run, and no future date has been published yet.
+        </p>
+        {pastEditions.length > 0 && (
+          <div class="mt-4">
+            <p class="text-sm font-semibold">What we covered here previously</p>
+            <ul class="mt-1.5 space-y-1 text-sm">
+              {pastEditions.map((e) => (
+                <li>
+                  <a href={urls.review(reviewSlugsByEntityId.get(e.entity_id))} class="link-accent">{e.name}</a>
+                  {e.core_facts?.date && (
+                    <span class="text-brand-muted dark:text-brand-muted-dark"> — {formatEditionDate(e.core_facts.date)}</span>
+                  )}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+        {siblingRegions.length > 0 && (
+          <div class="mt-4">
+            <p class="text-sm font-semibold">
+              {siteConfig.regionLabelPlural ?? `${siteConfig.regionLabel}s`} with a live calendar
+            </p>
+            <ul class="mt-1.5 flex flex-wrap gap-x-4 gap-y-1 text-sm">
+              {siblingRegions.map((r) => (
+                <li>
+                  <a href={urls.region(r.slug)} class="link-accent">{r.label}</a>
+                  <span class="text-brand-muted dark:text-brand-muted-dark"> ({regionCounts.get(r.region_id)})</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </div>
     )}
 
-    <section class="mt-14">
-      <FAQSection faqs={region.faqs} heading={`${region.label} FAQs`} />
-    </section>
+    {!isEmptyRegion && (
+      <section class="mt-14">
+        <FAQSection faqs={region.faqs} heading={`${region.label} FAQs`} />
+      </section>
+    )}
   </div>
 </BaseLayout>

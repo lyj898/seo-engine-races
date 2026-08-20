@@ -194,6 +194,18 @@ export const listicleSchema = z.object({
   // guide has been given one yet.
   editorial_pick: z.string().optional(),
   faqs: z.array(faqSchema).default([]),
+  // Fingerprint of the entity set this guide's PROSE was written against
+  // (listicleFingerprint in src/lib/listicles.js). The list itself resolves
+  // live from `filters` every build, so it can't go stale -- the intro,
+  // FAQs and editorial_pick can, and did, describing races that had since
+  // been run and archived. Storing what the copy was written about lets the
+  // renderer notice the drift and generate-listicles.js --refresh-stale fix
+  // it. Optional: a guide written before this existed simply reads as stale,
+  // which is the correct answer for it.
+  source_fingerprint: z.string().optional(),
+  // ISO date the prose above was last written. Distinct from last_updated,
+  // which any stage bumps.
+  copy_generated_at: z.string().optional(),
   last_updated: z.string().min(1),
   status: z.enum(STATUS_VALUES),
 });

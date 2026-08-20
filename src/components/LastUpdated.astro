@@ -1,8 +1,23 @@
 ---
-const { date } = Astro.props; // ISO date string, e.g. "2026-07-29"
+// One freshness stamp per page, and it says what it actually means.
+//
+// A listing used to print `last_updated` -- a field any pipeline stage
+// bumps -- as "Last updated <date>", while the prose beneath it carried its
+// own, older verification date from whenever the copy was written. The
+// Borobudur listing showed "Last updated August 18" and "verified as of 20
+// July" in the same view, which reads as a page that doesn't know when it
+// was checked. The baked dates are gone from the prose (see
+// scripts/lib/prompts.js, which now forbids writing one), leaving this as
+// the single signal -- so it should be anchored to the thing a reader cares
+// about: when the facts were last checked against their sources.
+//
+// `label` lets a caller name what the date refers to ("Facts last checked"
+// on a listing, plain "Last updated" on an article, which genuinely is an
+// edit date).
+const { date, label = 'Last updated' } = Astro.props; // ISO date string, e.g. "2026-07-29"
 const formatted = date
   ? new Date(date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })
   : null;
 ---
 
-{formatted && <p class="text-xs text-brand-muted dark:text-brand-muted-dark">Last updated {formatted}</p>}
+{formatted && <p class="text-xs text-brand-muted dark:text-brand-muted-dark">{`${label} ${formatted}`}</p>}

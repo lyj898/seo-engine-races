@@ -1,7 +1,7 @@
 ---
 import siteConfig from '../lib/config.js';
 import { urls } from '../lib/urls.js';
-import { resolveRegistrationState } from '../lib/text.js';
+import { resolveRegistrationState, REGISTRATION_STATE_LABELS } from '../lib/text.js';
 import DateBadge from './DateBadge.astro';
 import ValuePills from './ValuePills.astro';
 
@@ -19,7 +19,11 @@ import ValuePills from './ValuePills.astro';
 //   hasReview    - true if a published review exists at /reviews/<slug>
 //   reviewRating - that review's own rating.overall, when hasReview is true
 //   rank         - 1-based position, shown as an index (not a quality ranking)
-const { entity, categories = [], hasReview = false, reviewRating, rank } = Astro.props;
+//   showScore    - whether the score badge may be rendered at all. The guide
+//                  page decides this via src/lib/ratings.js: a score
+//                  captioned "from reviews we found" needs a review to have
+//                  been found. Ranking still uses the score either way.
+const { entity, categories = [], hasReview = false, reviewRating, rank, showScore = false } = Astro.props;
 
 const merged = siteConfig.enabledFeatures?.mergedReviews;
 
@@ -31,7 +35,8 @@ const availability = resolveRegistrationState(facts);
 // The badge is titled "from reviews we found" -- so when an in-depth review
 // exists, its own verdict is the score shown, not the separate research-time
 // estimate on the entity (the two are gathered independently and can drift).
-const overall = typeof reviewRating === 'number' ? reviewRating : entity.sentiment_scores?.overall;
+const rawOverall = typeof reviewRating === 'number' ? reviewRating : entity.sentiment_scores?.overall;
+const overall = showScore ? rawOverall : undefined;
 
 // The one-line "why it's here". Prefer a pro that actually says something
 // distinctive -- skip the boilerplate the summaries stage repeats across most
@@ -83,7 +88,7 @@ const why = pros.find((p) => !FILLER.test(p)) || firstSentence(entity.ai_summary
         {facts.price_range && <span>{facts.price_range}</span>}
         {availability && (
           <span class="font-semibold uppercase tracking-wide">
-            {availability === 'open' ? 'Registration open' : 'Registration closed'}
+            Registration {REGISTRATION_STATE_LABELS[availability].toLowerCase()}
           </span>
         )}
       </div>

@@ -98,3 +98,59 @@ function matchesCoreFactsFilter(coreFacts, cond) {
       return true;
   }
 }
+
+/**
+ * A short, stable fingerprint of the entity set a guide resolved to.
+ *
+ * WHY A GUIDE NEEDS ONE
+ * resolveListicleEntities() above re-runs every build, so the LIST in a
+ * guide is always current. Its prose is not: the intro, the FAQs and the
+ * "Our pick" blurb are written once, at generation time, against whatever
+ * the calendar looked like that day -- and then never looked at again. The
+ * results were guides confidently describing a directory that no longer
+ * exists: the Philippines 10K guide opened with "Every 10K on this list
+ * falls in a single two-week window, August 15 to 30, 2026" days before
+ * that window closed, and the Malaysia marathon guide led with Bintulu and
+ * Alor Setar, two races that had since been run and archived.
+ *
+ * Storing the fingerprint alongside the copy makes that detectable rather
+ * than invisible: if the set the copy was written about no longer matches
+ * the set on the page, the copy is stale, and both the renderer (which
+ * falls back to a description derived from live data) and
+ * generate-listicles.js --refresh-stale (which rewrites it) can act on it.
+ *
+ * Entity ids, sorted, so pure reordering -- a re-rank after one review
+ * lands -- does not by itself count as a change. Membership does.
+ *
+ * FNV-1a rather than node:crypto so this file stays importable from an
+ * Astro page and a plain script alike, with no import that only resolves in
+ * one of the two.
+ */
+export function listicleFingerprint(entities = []) {
+  const ids = entities
+    .map((e) => e?.entity_id ?? e?.slug ?? '')
+    .filter(Boolean)
+    .sort()
+    .join('|');
+  let hash = 0x811c9dc5;
+  for (let i = 0; i < ids.length; i++) {
+    hash ^= ids.charCodeAt(i);
+    hash = Math.imul(hash, 0x01000193) >>> 0;
+  }
+  // Length is part of the fingerprint too: two different sets colliding on
+  // the 32-bit hash would still have to share a size to pass as unchanged.
+  return `${entities.length}-${hash.toString(16).padStart(8, '0')}`;
+}
+
+/**
+ * Is a guide's stored copy still describing the set on the page?
+ *
+ * A guide with no stored fingerprint at all counts as stale -- it was
+ * written before this check existed, which is exactly the population the
+ * check was added for.
+ */
+export function isListicleCopyStale(listicle, resolvedEntities) {
+  const stored = listicle?.source_fingerprint;
+  if (typeof stored !== 'string' || !stored) return true;
+  return stored !== listicleFingerprint(resolvedEntities);
+}

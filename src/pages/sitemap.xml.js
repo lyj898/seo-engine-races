@@ -1,7 +1,7 @@
 import siteConfig from '../lib/config.js';
 import { urls } from '../lib/urls.js';
 import { TOOLS } from '../lib/tools.js';
-import { loadEntities, loadCategories, loadRegions, loadListicles, loadReviews, loadGear, loadArticles, stripMeta, isPublished, isReviewableEntity } from '../lib/data.js';
+import { loadEntities, loadCategories, loadRegions, loadListicles, loadReviews, loadGear, loadArticles, stripMeta, isPublished, isReviewableEntity, buildRegionEntityCounts, regionHasEntities } from '../lib/data.js';
 
 /**
  * Build-time-generated sitemap, enumerating every real route this engine
@@ -12,8 +12,15 @@ import { loadEntities, loadCategories, loadRegions, loadListicles, loadReviews, 
 export async function GET({ site }) {
   const entities = loadEntities().map(stripMeta).filter(isPublished);
   const categories = loadCategories().map(stripMeta).filter(isPublished);
-  const regions = loadRegions().map(stripMeta).filter(isPublished);
+  const allRegions = loadRegions().map(stripMeta).filter(isPublished);
   const listicles = loadListicles().map(stripMeta).filter(isPublished);
+  // A region page whose listing is empty is thin content by construction --
+  // it exists, but there is nothing on it to rank. It stays built (an
+  // already-crawled URL is better served by an honest empty state than by a
+  // new 404) and simply isn't submitted; regionHasEntities in src/lib/data.js
+  // is the same gate the hub grids and the homepage counts use.
+  const regionCounts = buildRegionEntityCounts(allRegions, entities);
+  const regions = allRegions.filter((r) => regionHasEntities(r, regionCounts));
   const entityIds = new Set(entities.map((e) => e.entity_id));
   // Wider gate: which entities have a review page built at all (reviews/[slug]
   // uses isReviewableEntity, which keeps archived races' reviews live).
