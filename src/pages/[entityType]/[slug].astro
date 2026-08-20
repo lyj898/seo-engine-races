@@ -22,7 +22,8 @@ import RelatedListicles from '../../components/RelatedListicles.astro';
 import LastUpdated from '../../components/LastUpdated.astro';
 import Pill from '../../components/Pill.astro';
 import { narrowFactsToCategories } from '../../lib/categoryMatch.js';
-import { withResolvedRegistration } from '../../lib/text.js';
+import { withResolvedRegistration, dedupeFaqs } from '../../lib/text.js';
+import { displayableRating, hasParticipantEvidence } from '../../lib/ratings.js';
 import { pickRelatedEntities } from '../../lib/related.js';
 import { buildEntitySchema, buildFaqPageSchema, buildBreadcrumbListSchema, buildReviewSchema } from '../../lib/schema-jsonld.js';
 
@@ -63,18 +64,26 @@ const merged = Boolean(review) && siteConfig.enabledFeatures?.mergedReviews;
 // present on only ~21 entities; review.rating is the review's own verdict and
 // exists on every review. When both exist the review wins -- showing two
 // differently-scored breakdowns of the same race on one page reads as a bug.
-const ratingToShow = merged && review.rating ? review.rating : entity.sentiment_scores;
+//
+// ...and then only if this page actually shows the participant material the
+// score claims to summarise. See src/lib/ratings.js: the caption under the
+// block says the scores summarise sentiment from the reviews cited above, so
+// where there are none cited, there is no block. Most listings land on that
+// side of the line today, which is the honest outcome, not a regression.
+const candidateRating = merged && review.rating ? review.rating : entity.sentiment_scores;
+const ratingToShow = displayableRating(candidateRating, { review: merged ? review : undefined, entity });
 const ratingIsFromReview = Boolean(merged && review.rating);
 
-// Merged FAQ set, deduped by question. 18 of the 215 entity/review pairs ask
-// at least one identical question, and two FAQPage blocks on one URL (or the
-// same question twice in the accordion) is exactly the redundancy this merge
-// exists to remove.
-const mergedFaqs = merged
-  ? [...(entity.faqs ?? []), ...(review.faqs ?? [])].filter((faq, i, all) =>
-      all.findIndex((f) => f.question.trim().toLowerCase() === faq.question.trim().toLowerCase()) === i
-    )
-  : (entity.faqs ?? []);
+// Merged FAQ set, deduped by what a question ASKS rather than by its exact
+// wording. 18 of the 215 entity/review pairs ask at least one identical
+// question, and two FAQPage blocks on one URL (or the same question twice in
+// the accordion) is exactly the redundancy this merge exists to remove --
+// but the two generation stages have no reason to phrase a shared question
+// identically, so exact matching caught almost none of it. Borobudur asked
+// "How much does the Bank Jateng Borobudur Marathon cost?" and "How much
+// does the Borobudur Marathon cost?" back to back, with two near-identical
+// answers. See questionsAreNearDuplicates in src/lib/text.js.
+const mergedFaqs = dedupeFaqs(merged ? [...(entity.faqs ?? []), ...(review.faqs ?? [])] : (entity.faqs ?? []));
 
 // Once the review body is on this page, the review's own seo_title describes
 // it better than the bare entity name does: it leads with the searchable race
@@ -111,6 +120,16 @@ const breadcrumbItems = [
   { label: entity.name, href: urls.entity(entity.slug) },
 ];
 
+// The one freshness date this page shows. Anchored to when the sources were
+// last checked rather than to `last_updated`, which any pipeline stage bumps
+// (a re-run of the summaries step moved it without anything having been
+// re-verified). Falls back to last_updated where a record carries no
+// per-source dates. See LastUpdated.astro.
+const lastCheckedDates = (entity.source_mix ?? [])
+  .map((s) => s.last_checked)
+  .filter((d) => typeof d === 'string' && d);
+const factsLastChecked = lastCheckedDates.length ? lastCheckedDates.slice().sort().at(-1) : entity.last_updated;
+
 const canonicalUrl = new URL(urls.entity(entity.slug), Astro.site).toString();
 
 // Built from the exact same `entity` / `breadcrumbItems` data already on
@@ -130,6 +149,11 @@ const jsonLd = [
           url: canonicalUrl,
           entityUrl: canonicalUrl,
           site: Astro.site,
+          // A reviewRating in structured data is the same claim as the
+          // on-page block, made to a machine instead of a reader -- and it
+          // is the one that can surface as a star rating in a result. It
+          // ships only when the on-page score does.
+          includeRating: hasParticipantEvidence({ review, entity }),
         }),
       ]
     : []),
@@ -149,8 +173,20 @@ const jsonLd = [
 
     <h1 class="mt-4 font-serif text-3xl font-semibold sm:text-4xl">{entity.name}</h1>
     <p class="mt-3 text-lg text-brand-muted dark:text-brand-muted-dark">{entity.short_description}</p>
-    <div class="mt-2">
-      <LastUpdated date={entity.last_updated} />
+    <div class="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1">
+      {/* A page titled "Review" with no byline invites the reader to assume a
+          participant wrote it. Nobody here ran the race, and saying so
+          plainly -- with a pointer to how the page is put together -- is both
+          more honest and less damaging than leaving the question open. The
+          Review schema has always named the site as author; this is the same
+          statement, made to the reader. */}
+      {merged && (
+        <p class="text-xs text-brand-muted dark:text-brand-muted-dark">
+          Compiled by the {siteConfig.siteName} editorial team from the sources cited below — not a first-hand race
+          report. <a href={urls.about()} class="link-accent">How we research listings</a>.
+        </p>
+      )}
+      <LastUpdated date={factsLastChecked} label="Facts last checked" />
     </div>
 
     <div class="prose-content mt-8">

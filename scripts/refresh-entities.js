@@ -30,7 +30,7 @@ import siteConfig from '../src/lib/config.js';
 import { getEntitySchema, getCoreFactsSchema } from '../src/lib/schema/index.js';
 import { loadEntities, stripMeta } from '../src/lib/data.js';
 
-import { fetchText, htmlToText, truncateForPrompt } from './lib/http.js';
+import { fetchText, htmlToText, focusForPrompt } from './lib/http.js';
 import { isAllowed } from './lib/robots.js';
 import { throttle } from './lib/rate-limit.js';
 import { callClaudeForJson } from './lib/anthropic-client.js';
@@ -118,7 +118,11 @@ async function run() {
       continue;
     }
 
-    const sourceText = truncateForPrompt(htmlToText(html));
+    // Centred on this entity's own name rather than taken from the top of
+    // the page: many source_mix entries point at a country race calendar,
+    // where the row being re-checked routinely sits well past a from-the-top
+    // budget. See focusForPrompt.
+    const sourceText = focusForPrompt(htmlToText(html), entity.name);
     const { system, prompt } = buildRefreshPrompt({
       siteConfig,
       entity,

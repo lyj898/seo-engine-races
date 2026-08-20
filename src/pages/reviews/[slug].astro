@@ -22,6 +22,7 @@ import RelatedEntities from '../../components/RelatedEntities.astro';
 import { isLapsed, findSuccessorEntity } from '../../lib/succession.js';
 import { pickRelatedEntities, pickRelatedReviews } from '../../lib/related.js';
 import { buildFaqPageSchema, buildBreadcrumbListSchema, buildReviewSchema } from '../../lib/schema-jsonld.js';
+import { displayableRating, hasParticipantEvidence } from '../../lib/ratings.js';
 
 export function getStaticPaths() {
   // A review page exists for a published review whose reviewed entity is at
@@ -109,8 +110,21 @@ const entityUrl = new URL(urls.entity(entity.slug), Astro.site).toString();
 const pageTitle = review.seo_title || `${entity.name} review`;
 const metaDescription = review.meta_description || review.dek;
 
+// Same evidence gate as the merged entity page (src/lib/ratings.js): the
+// caption promises the scores summarise the participant reviews cited below,
+// so the block only renders where such a source or quote is actually cited.
+const ratingToShow = displayableRating(review.rating, { review, entity });
+
 const jsonLd = [
-  buildReviewSchema({ review, entity, siteConfig, url: canonicalUrl, entityUrl, site: Astro.site }),
+  buildReviewSchema({
+    review,
+    entity,
+    siteConfig,
+    url: canonicalUrl,
+    entityUrl,
+    site: Astro.site,
+    includeRating: hasParticipantEvidence({ review, entity }),
+  }),
   ...(siteConfig.enabledFeatures?.faqSchema && review.faqs?.length ? [buildFaqPageSchema(review.faqs)] : []),
   buildBreadcrumbListSchema(breadcrumbItems, Astro.site),
 ].filter(Boolean);
@@ -142,6 +156,10 @@ const jsonLd = [
     <div class="mt-3 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-brand-muted dark:text-brand-muted-dark">
       {dateline && <span>{dateline}</span>}
       {dateline && <span aria-hidden="true">·</span>}
+      <p class="text-xs text-brand-muted dark:text-brand-muted-dark">
+        Compiled by the {siteConfig.siteName} editorial team from the sources cited below — not a first-hand race
+        report. <a href={urls.about()} class="link-accent">How we research listings</a>.
+      </p>
       <LastUpdated date={review.last_updated} />
     </div>
 
@@ -182,10 +200,10 @@ const jsonLd = [
       <p class="text-base leading-relaxed">{review.verdict}</p>
     </div>
 
-    {review.rating && (
+    {ratingToShow && (
       <section class="mt-8">
         <h2 class="mb-4 text-xl font-semibold">How runners rate it</h2>
-        <SentimentBreakdown sentiment={review.rating} />
+        <SentimentBreakdown sentiment={ratingToShow} />
         <p class="mt-3 text-xs text-brand-muted dark:text-brand-muted-dark">
           Scores summarise sentiment from the participant reviews cited below, not an official rating.
         </p>

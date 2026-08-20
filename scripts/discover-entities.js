@@ -41,7 +41,7 @@ import { loadEntities, loadCategories, loadRegions, stripMeta } from '../src/lib
 import { matchCategoryByValue } from '../src/lib/categoryMatch.js';
 
 import { slugify } from './lib/slugify.js';
-import { fetchText, htmlToText, truncateForPrompt } from './lib/http.js';
+import { fetchText, htmlToText, chunkForPrompt } from './lib/http.js';
 import { isAllowed } from './lib/robots.js';
 import { throttle } from './lib/rate-limit.js';
 import { callClaudeForJson } from './lib/anthropic-client.js';
@@ -186,39 +186,85 @@ async function run() {
       continue;
     }
 
-    const sourceText = truncateForPrompt(htmlToText(html));
-    const { system, prompt } = buildDiscoveryPrompt({
-      siteConfig,
-      coreFactsDescription,
-      availableCategories: categories,
-      availableRegions: regions,
-      sourceUrl,
-      sourceText,
+    // The WHOLE page, in successive chunks, not just its first 6,000
+    // characters. A country race calendar is one long list, and reading only
+    // the top of it is why the countries with the biggest calendars were the
+    // thinnest in the directory -- justrunlah's Thailand page was being cut
+    // to 31% of its rows, the AIMS world calendar to 19%. See chunkForPrompt.
+    const sourceChunks = chunkForPrompt(htmlToText(html), {
+      chunkChars: sourceConfig?.discoveryChunkChars ?? 6000,
+      maxChunks: sourceConfig?.discoveryMaxChunksPerSource ?? 8,
     });
 
-    let candidates;
-    try {
-      // 8000, not the old 3000. Discovery is the one call here that returns an
-      // ARRAY whose length it does not control -- one candidate carries a name,
-      // two labels and a full core_facts object, so a calendar page listing 24
-      // races (finishers.com's Thailand page says exactly that) needs well over
-      // 3000 output tokens to encode. Reviews already budget 16000 for a single
-      // article; discovery was the outlier. callClaudeForJson raises this
-      // further on its own if a response still hits max_tokens.
-      candidates = await callClaudeForJson({ system, prompt, maxTokens: 8000 });
-    } catch (err) {
-      console.warn(`[discover-entities] Claude call failed for ${domain}: ${err.message}`);
-      sourceOutcomes.push({ url: sourceUrl, host: domain, ok: false, kind: 'pipeline', reason: `extraction call failed: ${brief(err.message)}` });
-      continue;
+    let candidates = [];
+    let chunkFailure = null;
+    for (const [index, sourceText] of sourceChunks.entries()) {
+      const { system, prompt } = buildDiscoveryPrompt({
+        siteConfig,
+        coreFactsDescription,
+        availableCategories: categories,
+        availableRegions: regions,
+        sourceUrl,
+        sourceText,
+      });
+
+      let chunkCandidates;
+      try {
+        // 8000, not the old 3000. Discovery is the one call here that returns an
+        // ARRAY whose length it does not control -- one candidate carries a name,
+        // two labels and a full core_facts object, so a calendar page listing 24
+        // races (finishers.com's Thailand page says exactly that) needs well over
+        // 3000 output tokens to encode. Reviews already budget 16000 for a single
+        // article; discovery was the outlier. callClaudeForJson raises this
+        // further on its own if a response still hits max_tokens.
+        chunkCandidates = await callClaudeForJson({ system, prompt, maxTokens: 8000 });
+      } catch (err) {
+        // One bad chunk doesn't discard the ones that worked: a page read in
+        // eight parts shouldn't lose all eight because the fifth timed out.
+        console.warn(`[discover-entities] Claude call failed for ${domain} (chunk ${index + 1}/${sourceChunks.length}): ${err.message}`);
+        chunkFailure = chunkFailure ?? `extraction call failed on chunk ${index + 1}/${sourceChunks.length}: ${brief(err.message)}`;
+        continue;
+      }
+      if (!Array.isArray(chunkCandidates)) {
+        console.warn(
+          `[discover-entities] expected a JSON array from ${domain} (chunk ${index + 1}/${sourceChunks.length}), got ${typeof chunkCandidates} -- skipping that chunk.`
+        );
+        chunkFailure = chunkFailure ?? `unusable response on chunk ${index + 1}/${sourceChunks.length} (expected an array, got ${typeof chunkCandidates})`;
+        continue;
+      }
+      candidates.push(...chunkCandidates);
     }
-    if (!Array.isArray(candidates)) {
-      console.warn(`[discover-entities] expected a JSON array from ${domain}, got ${typeof candidates} -- skipping.`);
-      sourceOutcomes.push({ url: sourceUrl, host: domain, ok: false, kind: 'pipeline', reason: `unusable response (expected an array, got ${typeof candidates})` });
+
+    // Chunks deliberately overlap (chunkForPrompt), so an entry straddling a
+    // boundary is read twice. Collapse those here rather than letting the
+    // per-candidate loop below report each one as a duplicate skip.
+    const seenNames = new Set();
+    candidates = candidates.filter((c) => {
+      const key = typeof c?.name === 'string' ? c.name.trim().toLowerCase() : null;
+      if (!key) return true; // let the loop below report it as malformed
+      if (seenNames.has(key)) return false;
+      seenNames.add(key);
+      return true;
+    });
+
+    // Only a genuine failure is reported as one. A page that simply lists
+    // nothing new in the window is a healthy source with zero candidates,
+    // and calling that "extraction failed" in the run notification would
+    // send someone to check a source that is working fine.
+    if (candidates.length === 0 && chunkFailure) {
+      console.warn(`[discover-entities] ${domain}: ${chunkFailure}.`);
+      sourceOutcomes.push({ url: sourceUrl, host: domain, ok: false, kind: 'pipeline', reason: chunkFailure });
       continue;
     }
 
     stats.candidatesFound += candidates.length;
-    sourceOutcomes.push({ url: sourceUrl, host: domain, ok: true, candidates: candidates.length });
+    sourceOutcomes.push({
+      url: sourceUrl,
+      host: domain,
+      ok: true,
+      candidates: candidates.length,
+      chunks: sourceChunks.length,
+    });
 
     for (const candidate of candidates) {
       if (!candidate || typeof candidate !== 'object' || typeof candidate.name !== 'string' || !candidate.name.trim()) {

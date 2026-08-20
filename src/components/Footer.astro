@@ -1,7 +1,13 @@
 ---
 import siteConfig from '../lib/config.js';
 import { urls } from '../lib/urls.js';
+import { footerLinks } from '../lib/nav.js';
+
 const year = new Date().getFullYear();
+// Shared with the header (src/lib/nav.js). Hand-maintaining the two lists
+// separately is how a whole section -- Reviews -- came to be linked from the
+// top nav and from no footer on the site.
+const links = footerLinks();
 ---
 
 <footer class="mt-16 border-t border-brand-divider dark:border-brand-divider-dark">
@@ -13,20 +19,9 @@ const year = new Date().getFullYear();
     <div>
       <p class="mb-2 font-semibold">Explore</p>
       <ul class="space-y-1">
-        <li><a href={urls.regionsIndex()} class="link-muted">Regions</a></li>
-        {siteConfig.enabledFeatures?.listicles && (
-          <li><a href={urls.listiclesIndex()} class="link-muted">Recommends</a></li>
-        )}
-        {siteConfig.enabledFeatures?.gear && (
-          <li><a href={urls.gearIndex()} class="link-muted">Gear</a></li>
-        )}
-        {siteConfig.enabledFeatures?.articles && (
-          <li><a href={urls.articlesIndex()} class="link-muted">Articles</a></li>
-        )}
-        {siteConfig.enabledFeatures?.travelAgencies && (
-          <li><a href={urls.travelIndex()} class="link-muted">Travel</a></li>
-        )}
-        <li><a href={urls.toolsIndex()} class="link-muted">Lab</a></li>
+        {links.map((link) => (
+          <li><a href={link.href} class="link-muted">{link.label}</a></li>
+        ))}
       </ul>
     </div>
     <div>

@@ -2,8 +2,17 @@
 import siteConfig from '../lib/config.js';
 import { urls } from '../lib/urls.js';
 import { splitAccentWord, formatMonthLabel, monthKey } from '../lib/text.js';
-import { loadEntities, loadCategories, loadRegions, loadListicles, stripMeta, isPublished } from '../lib/data.js';
-import { matchCategoryByValue } from '../lib/categoryMatch.js';
+import {
+  loadEntities,
+  loadCategories,
+  loadRegions,
+  loadListicles,
+  stripMeta,
+  isPublished,
+  buildRegionEntityCounts,
+  regionHasEntities,
+} from '../lib/data.js';
+import { matchedCategoryIds, entityMatchesCategory } from '../lib/categoryMatch.js';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import HubCard from '../components/HubCard.astro';
 import EntityCard from '../components/EntityCard.astro';
@@ -19,8 +28,13 @@ const regions = loadRegions().map(stripMeta).filter(isPublished);
 const listicles = loadListicles().map(stripMeta).filter(isPublished);
 
 // Only top-level regions on the homepage (e.g. "Thailand", not "Nong Khai")
-// -- child regions are reached by drilling down from their parent's hub.
-const topLevelRegions = regions.filter((r) => !r.parent_region_id);
+// -- child regions are reached by drilling down from their parent's hub --
+// and only ones that actually have something to list. An empty country in
+// the grid is a card whose own count contradicts its copy, and counted in
+// the hero it inflates the site's headline coverage claim; see
+// regionHasEntities in src/lib/data.js.
+const regionCounts = buildRegionEntityCounts(regions, entities);
+const topLevelRegions = regions.filter((r) => !r.parent_region_id && regionHasEntities(r, regionCounts));
 const regionsById = new Map(regions.map((r) => [r.region_id, r]));
 
 // Resolves any region (including a child region like "Nong Khai") up to its
@@ -242,29 +256,17 @@ const jsonLd = [
           <div class="month-group mb-10" data-month-group={group.key}>
             <h2 class="mb-4 border-b border-brand-divider pb-3 text-lg font-bold dark:border-brand-divider-dark">{group.label}</h2>
             <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-              {group.entities.map((entity) => {
-                const matchedCategoryIds = [
-                  ...new Set(
-                    [
-                      entity.category_id,
-                      ...(entity.core_facts.distance_km ?? [])
-                        .map((km) => matchCategoryByValue(km, categories)?.category_id)
-                        .filter(Boolean),
-                    ]
-                  ),
-                ];
-                return (
-                  <EntityCard
-                    entity={entity}
-                    categories={categories}
-                    extraAttrs={{
-                      'data-country': topLevelCountryId(entity.region_id),
-                      'data-month': group.key,
-                      'data-distances': matchedCategoryIds.join(','),
-                    }}
-                  />
-                );
-              })}
+              {group.entities.map((entity) => (
+                <EntityCard
+                  entity={entity}
+                  categories={categories}
+                  extraAttrs={{
+                    'data-country': topLevelCountryId(entity.region_id),
+                    'data-month': group.key,
+                    'data-distances': matchedCategoryIds(entity, categories).join(','),
+                  }}
+                />
+              ))}
             </div>
           </div>
         ))}
@@ -300,7 +302,7 @@ const jsonLd = [
               href={urls.region(region.slug)}
               label={region.label}
               description={region.short_description}
-              count={entities.filter((e) => e.region_id === region.region_id).length}
+              count={regionCounts.get(region.region_id) ?? 0}
             />
           ))}
         </div>
@@ -319,7 +321,7 @@ const jsonLd = [
               href={urls.category(category.slug)}
               label={category.label}
               description={category.short_description}
-              count={entities.filter((e) => e.category_id === category.category_id).length}
+              count={entities.filter((e) => entityMatchesCategory(e, category, categories)).length}
             />
           ))}
         </div>

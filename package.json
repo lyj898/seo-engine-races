@@ -18,7 +18,8 @@
     "listicles": "node scripts/generate-listicles.js",
     "summaries": "node scripts/generate-summaries.js",
     "reviews": "node scripts/generate-reviews.js",
-    "refresh:all": "npm run validate && npm run discover && npm run refresh && npm run research && npm run summaries && npm run validate"
+    "refresh:all": "npm run validate && npm run discover && npm run refresh && npm run research && npm run summaries && npm run validate",
+    "listicles:refresh": "node scripts/generate-listicles.js --refresh-stale"
   },
   "dependencies": {
     "astro": "^4.16.0",

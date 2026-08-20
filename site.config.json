@@ -125,9 +125,12 @@
     ],
     "_trustedAggregators_note": "Each entry is fetched verbatim, so prefer a deep link to an actual country/calendar listing over a bare domain -- a homepage shows a few featured events, the calendar page shows the whole year. Country-specific entries exist because the original five sources skew heavily to Malaysia/Indonesia, leaving Vietnam, Thailand and the smaller markets underrepresented. worldathletics.org is deliberately absent: its calendar is client-rendered, so a plain fetch returns navigation and zero events, and its label road races already appear via AIMS.",
     "_trustedAggregators_note": "Verified reachable 2026-08-18 with the declared userAgent above. REMOVED that day: checkpointspot.asia and three ahotu.com/calendar/running/<country> URLs -- all returned HTTP 403 on every path including the site root, while their robots.txt explicitly allows this agent. That combination means CDN-level bot blocking, not a robots preference, and the only way past it would be to spoof a browser user agent, which this project will not do. Thailand, Vietnam and the Philippines each keep two working feeds (finishers + justrunlah), so no country lost its only source. ALSO FIXED that day: the finishers Malaysia path, which had been 404ing since it was added -- their slug is 'malaysia-2', not 'malaysia' (a collision on their end), so Malaysia had been silently down to one feed. Laos added at the same time; it works and Laos coverage was thin. Re-probe with scripts/lib/http.js fetchText before adding any source, and prefer a deep link to the country calendar over a bare domain.",
+    "_discoveryChunking_note": "A source page is read in successive chunks of discoveryChunkChars, up to discoveryMaxChunksPerSource, instead of only its first 6000 characters (scripts/lib/http.js chunkForPrompt). Measured 2026-08-20 with the declared userAgent: the old single-window read was showing the extractor 31% of justrunlah's Thailand calendar, 34% of Indonesia's, 55% of Vietnam's and 19% of the AIMS world calendar -- which is most of why Thailand (25) and Vietnam (10) were the thinnest countries in the directory while their calendars run to hundreds of events. Cost scales with chunks, so this is the knob to turn down if a run gets expensive; 8 x 6000 covers every source currently configured in full.",
+    "discoveryChunkChars": 6000,
+    "discoveryMaxChunksPerSource": 8,
     "trustedAggregators": [
       "jomrun.com",
-      "kalenderlari.com",
+      "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
       "racexasia.com",
       "https://aims-worldrunning.org/calendar.html",
       "https://www.finishers.com/en/destinations/asia/vietnam",

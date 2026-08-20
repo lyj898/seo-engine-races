@@ -15,6 +15,12 @@ const {
   // builders that produce these; this layout just serializes whatever it's
   // handed, so it never needs to change when Step 6 lands.
   jsonLd = [],
+  // Keep this page out of the index while still serving it. For pages that
+  // must stay reachable (an already-crawled URL, a link a reader may hold)
+  // but have nothing worth ranking on them right now -- e.g. a region hub
+  // with an empty listing. The sitemap drops those separately; this stops a
+  // crawler that finds one anyway from filing it as thin content.
+  noindex = false,
 } = Astro.props;
 
 const canonicalUrl = new URL(canonicalPath, Astro.site).toString();
@@ -30,6 +36,7 @@ const metaDescription = description ?? siteConfig.siteTagline;
     <meta name="color-scheme" content="light dark" />
     <link rel="icon" href={`${import.meta.env.BASE_URL}favicon.svg`} type="image/svg+xml" />
     <link rel="canonical" href={canonicalUrl} />
+    {noindex && <meta name="robots" content="noindex, follow" />}
     <title>{pageTitle}</title>
     <meta name="description" content={metaDescription} />
 

@@ -16,7 +16,8 @@
 import siteConfig from '../src/lib/config.js';
 import { getEntitySchema, categorySchema, regionSchema, listicleSchema, reviewSchema, gearArticleSchema, articleSchema, travelAgencySchema } from '../src/lib/schema/index.js';
 import { loadEntities, loadCategories, loadRegions, loadListicles, loadReviews, loadGear, loadArticles, loadTravelAgencies, stripMeta } from '../src/lib/data.js';
-import { simplifyAvailabilityStatus } from '../src/lib/text.js';
+import { simplifyAvailabilityStatus, questionsAreNearDuplicates } from '../src/lib/text.js';
+import { resolveListicleEntities, isListicleCopyStale } from '../src/lib/listicles.js';
 
 const TODAY = new Date().toISOString().slice(0, 10);
 const isIsoDate = (v) => typeof v === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(v);
@@ -88,6 +89,27 @@ const entityIds = validateList(rawEntities, entitySchema, 'entity_id', 'entities
 
 // Cross-reference checks: catch orphan pages / broken internal links before
 // they ever reach the built site (SEO requirement: "no orphan pages").
+/**
+ * Prose that a reader sees, field by field, so a copy-quality check can walk
+ * all of it without each check re-listing where prose lives.
+ */
+function prosePieces(data) {
+  const out = [];
+  if (typeof data.ai_summary === 'string') out.push(['ai_summary', data.ai_summary]);
+  if (typeof data.short_description === 'string') out.push(['short_description', data.short_description]);
+  (data.pros ?? []).forEach((p, i) => out.push([`pros[${i}]`, p]));
+  (data.cons ?? []).forEach((c, i) => out.push([`cons[${i}]`, c]));
+  (data.faqs ?? []).forEach((f, i) => out.push([`faqs[${i}].answer`, f.answer]));
+  return out.filter(([, text]) => typeof text === 'string');
+}
+
+// A verification date baked into prose, or a confidence score quoted at the
+// reader. Both are the page describing its own machinery; the freshness
+// stamp and the sources list already carry that, accurately and without
+// going stale.
+const BAKED_FRESHNESS_RE =
+  /(?:as of the last verification[^.]*|(?:last )?verified (?:as of|on|against[^.]*?as of)[^.]*?\d{4}|confidence (?:score|rating) (?:of )?\(?\d+\)?)/i;
+
 for (const item of rawEntities) {
   const data = stripMeta(item);
   if (data.category_id && !categoryIds.has(data.category_id)) {
@@ -137,6 +159,37 @@ for (const item of rawEntities) {
     );
   }
 
+  // Prose must not carry its own freshness date or expose the pipeline.
+  //
+  // A listing already shows exactly one freshness stamp, anchored to the
+  // newest source_mix.last_checked. Copy that also says "verified as of 20
+  // July 2026" gives the same page a second, older date that nothing ever
+  // updates -- the Borobudur listing read "Facts last checked August 18"
+  // above prose claiming 20 July -- and "confidence score of 92" describes
+  // the machinery rather than the race. buildSummaryPrompt forbids both;
+  // this catches a model that does it anyway, before it ships.
+  for (const [field, text] of prosePieces(data)) {
+    if (BAKED_FRESHNESS_RE.test(text)) {
+      reportWarning(item.__file, `${field} states its own verification date or confidence score -- the page's freshness stamp is the single signal for that: "${text.match(BAKED_FRESHNESS_RE)[0]}"`);
+    }
+  }
+
+  // Near-duplicate FAQs. Two questions that differ only in wording ("How
+  // much does X cost?" / "What does it cost to enter X?") produce two
+  // near-identical answers in the accordion and two entries in the FAQPage
+  // schema, which suppresses rich results rather than earning them.
+  const faqList = data.faqs ?? [];
+  for (let i = 0; i < faqList.length; i++) {
+    for (let j = i + 1; j < faqList.length; j++) {
+      if (questionsAreNearDuplicates(faqList[i].question, faqList[j].question)) {
+        reportWarning(
+          item.__file,
+          `FAQ questions ${i + 1} and ${j + 1} ask the same thing: "${faqList[i].question}" / "${faqList[j].question}"`
+        );
+      }
+    }
+  }
+
   // Atomic-answer SEO requirement: every FAQ should open with a direct
   // 40-60 word answer. Warn (don't fail the build) outside that range.
   for (const faq of data.faqs ?? []) {
@@ -167,6 +220,22 @@ for (const item of rawListicles) {
       reportError(item.__file, `manual_entity_ids references unknown entity "${id}"`);
     }
   }
+  // Has the set moved on since the copy describing it was written? The guide
+  // page falls back to a derived intro when it has, so this is not a
+  // rendering fault -- it is the queue for `npm run listicles:refresh`.
+  const resolvedForGuide = resolveListicleEntities(
+    data,
+    rawEntities.map(stripMeta),
+    rawRegions.map(stripMeta),
+    rawCategories.map(stripMeta)
+  );
+  if (isListicleCopyStale(data, resolvedForGuide)) {
+    reportWarning(
+      item.__file,
+      `guide copy was written for a different set of entries than the ${resolvedForGuide.length} it now lists ` +
+        `-- run \`npm run listicles:refresh\` to rewrite it (the page shows a derived intro until then)`
+    );
+  }
 }
 
 // Review articles: the entity they review must exist, and every inline
@@ -180,6 +249,27 @@ for (const item of rawReviews) {
   if (!entityIds.has(data.entity_id)) {
     reportError(item.__file, `entity_id "${data.entity_id}" has no matching file in data/entities`);
   }
+  // Cross-set duplicate FAQs. With mergedReviews on, a review's FAQs render
+  // on the entity page beside the entity's own, so the pair that matters is
+  // the merged one -- and that is where the duplicates actually were (the
+  // Borobudur listing asked about pricing twice, once from each side). The
+  // page dedupes at render time (dedupeFaqs), so this is a note that the
+  // stored data is generating redundant questions, not a rendering bug.
+  //
+  // One warning per review, not per pair: 127 of the 215 reviews overlap
+  // with their entity somewhere, and a line each would bury every other
+  // warning in this report.
+  const duplicatedQuestions = (data.faqs ?? []).filter((reviewFaq) =>
+    (reviewedEntity?.faqs ?? []).some((entityFaq) => questionsAreNearDuplicates(entityFaq.question, reviewFaq.question))
+  );
+  if (duplicatedQuestions.length > 0) {
+    reportWarning(
+      item.__file,
+      `${duplicatedQuestions.length} FAQ(s) duplicate a question on the reviewed entity, so the merged page ` +
+        `would ask them twice (deduped at render time): "${duplicatedQuestions[0].question}"`
+    );
+  }
+
   const sourceNumbers = new Set((data.sources ?? []).map((s) => s.n));
   const citationsUsed = new Set();
   const allProse = [];

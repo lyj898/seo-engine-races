@@ -175,6 +175,47 @@ export function isReviewableEntity(entity) {
 }
 
 /**
+ * region_id -> how many published entities that region covers, counting
+ * every descendant region (so "Thailand" includes "Nong Khai").
+ *
+ * Every region in `regions` gets an entry, including the zeroes -- callers
+ * need to be able to ask "is this one empty?" and get an answer rather than
+ * an undefined.
+ */
+export function buildRegionEntityCounts(regions, entities) {
+  const ancestry = buildRegionAncestryMap(regions);
+  const counts = new Map(regions.map((r) => [r.region_id, 0]));
+  for (const entity of entities) {
+    for (const id of ancestry.get(entity.region_id) ?? [entity.region_id]) {
+      if (counts.has(id)) counts.set(id, counts.get(id) + 1);
+    }
+  }
+  return counts;
+}
+
+/**
+ * Should this region appear in a hub grid, a count, or the sitemap?
+ *
+ * A region with nothing to list is not a smaller version of a covered
+ * region -- it is a page that answers its own question with "nothing".
+ * Timor-Leste is the case that made this necessary: its single race (the
+ * Dili International Marathon, 8 Aug 2026) lapsed and was archived, leaving
+ * a hub card still promising a calendar "headlined by the Dili
+ * International Marathon", a "0" on the count beside it, and the country
+ * still counted in the homepage's "11 Countries". Every one of those three
+ * claims came from a different line of code reading `regions` directly, so
+ * the rule lives here instead and every caller asks the same question.
+ *
+ * The region's own page is still BUILT (see regions/[slug].astro) -- a URL
+ * that has been live and crawled is better served by an honest empty state
+ * than by a new 404 -- but it is dropped from the sitemap and from every
+ * internal grid, so nothing points at it while it has nothing to say.
+ */
+export function regionHasEntities(region, counts) {
+  return (counts.get(region?.region_id) ?? 0) > 0;
+}
+
+/**
  * Builds a region_id -> [region_id, ...all ancestor region_ids] map, so a
  * "Thailand" (country) listicle/hub filter can match races whose region_id
  * is the more specific "Nong Khai" (city, parent_region_id: "thailand")

@@ -5,7 +5,7 @@
   "category_id": "full-marathon",
   "region_id": "timor-leste",
   "short_description": "Dili International Marathon 2026 is a verified Full/Half/10K/5K event in Dili, Timor-Leste, confirmed for 8 August 2026 with open registration.",
-  "ai_summary": "Dili International Marathon 2026, themed \"Love Our Forests and Wildlife,\" is organized by the Federacao de Timor-Leste de Atletismo and confirmed for 8 August 2026 in Dili. The event offers a Full Marathon, Half Marathon, Para 10K, and 5K Fun Run, with registration open via the official site. Pricing is differentiated: international entrants pay $45 (Half) or $90 (Full) in USD, while Timorese nationals run free. Verified against the official race website as of 20 July 2026 with a confidence score of 90.",
+  "ai_summary": "Dili International Marathon 2026, themed \"Love Our Forests and Wildlife,\" is organized by the Federacao de Timor-Leste de Atletismo and confirmed for 8 August 2026 in Dili. The event offers a Full Marathon, Half Marathon, Para 10K, and 5K Fun Run, with registration open via the official site. Pricing is differentiated: international entrants pay $45 (Half) or $90 (Full) in USD, while Timorese nationals run free.",
   "core_facts": {
     "date": "2026-08-08",
     "distance_km": [
@@ -26,7 +26,7 @@
     "Differential pricing makes the race free for Timorese nationals while still funding the event through international entry fees"
   ],
   "cons": [
-    "No specific registration deadline has been published as of the last verification",
+    "No specific registration deadline has been published",
     "Verification relies on a single official source domain rather than multiple independent aggregators"
   ],
   "sentiment_scores": {
@@ -76,7 +76,7 @@
   "faqs": [
     {
       "question": "When is the Dili International Marathon 2026?",
-      "answer": "The Dili International Marathon 2026 is confirmed for 8 August 2026 in Dili, Timor-Leste. Organized by the Federacao de Timor-Leste de Atletismo, it was verified against the official race website as of 20 July 2026 with a confidence score of 90, one of the more strongly confirmed events in this directory."
+      "answer": "The Dili International Marathon 2026 is confirmed for 8 August 2026 in Dili, Timor-Leste. It is organized by the Federacao de Timor-Leste de Atletismo, and the date is stated on the official race website."
     },
     {
       "question": "How much does it cost to enter the Dili International Marathon?",

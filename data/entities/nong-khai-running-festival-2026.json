@@ -5,7 +5,7 @@
   "category_id": "full-marathon",
   "region_id": "nong-khai-thailand",
   "short_description": "Nong Khai Running Festival is a verified multi-distance road race (10mi/Half/Full/100km Ultra) in Nong Khai, Thailand, confirmed for 1 August 2026.",
-  "ai_summary": "Nong Khai Running Festival is a multi-distance road race in Nong Khai, Thailand, offering a 10-mile run, a Half Marathon, a Full Marathon, and a 100km Ultra, all starting near Wat Champa Thong. The event is confirmed for 1 August 2026 and has been independently verified across the official event website, the AIMS global race calendar, and multiple regional running aggregators as of 20 July 2026. Entry pricing and a registration deadline had not yet been published at the time of that verification.",
+  "ai_summary": "Nong Khai Running Festival is a multi-distance road race in Nong Khai, Thailand, offering a 10-mile run, a Half Marathon, a Full Marathon, and a 100km Ultra, all starting near Wat Champa Thong. The event is confirmed for 1 August 2026 across the official event website, the AIMS global race calendar, and multiple regional running aggregators. Entry pricing and a registration deadline have not yet been published.",
   "core_facts": {
     "date": "2026-08-01",
     "distance_km": [
@@ -25,7 +25,7 @@
     "Four distance options (10 miles, Half Marathon, Full Marathon, 100km Ultra) suit a wide range of runner levels at one event"
   ],
   "cons": [
-    "Entry pricing and registration deadline had not been published as of the last verification check",
+    "Entry pricing and registration deadline have not been published yet",
     "Named race organizer is not disclosed on the official site"
   ],
   "sentiment_scores": {
@@ -65,7 +65,7 @@
   "faqs": [
     {
       "question": "When is the Nong Khai Running Festival?",
-      "answer": "The Nong Khai Running Festival is confirmed for 1 August 2026 in Nong Khai, Thailand, starting near Wat Champa Thong. This date has been independently verified across the official event website, the AIMS global race calendar, and multiple regional running aggregators as of 20 July 2026, giving it a high confidence rating."
+      "answer": "The Nong Khai Running Festival is confirmed for 1 August 2026 in Nong Khai, Thailand, starting near Wat Champa Thong. The date is listed consistently on the official event website, the AIMS global race calendar, and multiple regional running aggregators."
     },
     {
       "question": "What distances does the Nong Khai Running Festival offer?",
@@ -73,7 +73,7 @@
     },
     {
       "question": "Is registration open for the Nong Khai Running Festival?",
-      "answer": "As of the last verification on 20 July 2026, official entry pricing and a registration deadline had not yet been published on the race's official website. Runners interested in this event should check the official site directly for current registration status before finalizing travel plans."
+      "answer": "Official entry pricing and a registration deadline have not yet been published on the race's official website. Runners interested in this event should check the official site directly for current registration status before finalizing travel plans."
     }
   ],
   "reliability_score": 85,

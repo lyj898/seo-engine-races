@@ -4,8 +4,8 @@
   "name": "VnExpress Marathon Nha Trang",
   "category_id": "full-marathon",
   "region_id": "vietnam",
-  "short_description": "VnExpress Marathon Nha Trang is a verified Full/Half/10K/5K coastal marathon in Nha Trang, Vietnam, confirmed for 9 August 2026 with the highest confidence score in this directory.",
-  "ai_summary": "VnExpress Marathon Nha Trang 2026 is a coastal marathon in Nha Trang, Khanh Hoa, organized by VnExpress and FPT Online, confirmed for 9 August 2026. It offers Full Marathon, Half Marathon, 10km, and 5km distances, with registration open at 440,000 VND and a stated deadline of 30 July 2026. It carries the highest confidence score (93) of any race in this directory, verified directly against the official event website as of 13 July 2026.",
+  "short_description": "VnExpress Marathon Nha Trang is a Full/Half/10K/5K coastal marathon in Nha Trang, Vietnam, confirmed for 9 August 2026.",
+  "ai_summary": "VnExpress Marathon Nha Trang 2026 is a coastal marathon in Nha Trang, Khanh Hoa, organized by VnExpress and FPT Online, confirmed for 9 August 2026. It offers Full Marathon, Half Marathon, 10km, and 5km distances, with registration open at 440,000 VND and a stated deadline of 30 July 2026. The date, distances and entry fee are stated on the official event website.",
   "core_facts": {
     "date": "2026-08-09",
     "distance_km": [
@@ -22,7 +22,7 @@
     "country": "Vietnam"
   },
   "pros": [
-    "Highest confidence score (93) of any race currently verified in this directory",
+    "Organized by VnExpress and FPT Online, with the details confirmed on the official event website",
     "Clear, published registration deadline gives entrants a concrete planning date rather than an open-ended window"
   ],
   "cons": [
@@ -99,7 +99,7 @@
     },
     {
       "question": "Who organizes the VnExpress Marathon Nha Trang?",
-      "answer": "The race is organized by VnExpress, a major Vietnamese news outlet, together with FPT Online. This gives the event stronger operational backing than many independently-run races, reflected in its confidence score of 93, the highest of any race currently verified in this directory."
+      "answer": "The race is organized by VnExpress, a major Vietnamese news outlet, together with FPT Online, and the details are stated on the official event website. A media-backed organizer gives the event stronger operational footing than many independently-run races, which in practice tends to mean clearer entry information and a route that is confirmed well ahead of race day."
     },
     {
       "question": "What distances does the VnExpress Marathon Nha Trang offer?",

@@ -141,6 +141,18 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
+      - name: Create and refresh guides
+        run: npm run listicles -- --refresh-stale
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        # Runs AFTER discover/refresh/summaries so it sees this week's
+        # calendar, not last week's. The create pass adds guides for newly
+        # eligible category x country combinations; --refresh-stale rewrites
+        # the copy of existing guides whose race set has changed since that
+        # copy was written -- without it a guide's prose was written once and
+        # then described an increasingly historical directory forever (one
+        # led with two races that had been run and archived weeks earlier).
+
       - name: Validate data (post-run)
         run: npm run validate
         # If any stage produced schema-invalid, duplicate or

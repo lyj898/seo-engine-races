@@ -705,3 +705,102 @@ than writing races-specific code first and generalizing it at the end.
   lives under `/data/_raw`, which is git-ignored (see `data/_raw/README.md`).
 - Every script must respect `robots.txt`, each source's Terms of Service,
   and `sourceConfig.requestDelayMs` rate limits.
+
+## Directory-quality pass: taxonomy, empty regions, unbacked scores, stale guides
+
+An editorial review of the live races instance turned up seven things the
+engine was getting wrong, plus one that explained a chunk of the thin
+coverage. Grouped by what they actually were:
+
+**Two counts that disagreed with the data underneath them.**
+`entityMatchesCategory` has always defined category membership as the union
+of an entity's marquee `category_id` and any category whose `matchRange`
+contains one of its numeric core facts -- but only the category hub pages
+asked it. The homepage's "Browse by distance type" grid, the region hub's
+chip row and its "distance types represented" stat, and
+`generate-listicles.js`'s eligibility check each compared `category_id`
+directly. The site therefore advertised "10K -- 3" and "5K -- 0" beside
+dozens of cards carrying 10K and 5K pills, and a 10K filter chip that hid
+almost every race offering a 10K. `matchedCategoryIds()` (src/lib/
+categoryMatch.js) now answers the question once and every caller uses it;
+the same counts read 145 and 130. EntityCard's `data-tags` carries every
+matched category too, so the chip that filters a card and the badge on it
+finally mean the same thing.
+
+**A country with nothing in it.** Timor-Leste's only race lapsed and was
+archived, leaving a hub card promising a calendar "headlined by the Dili
+International Marathon" above a count of zero, and the country still in the
+homepage's "11 Countries". `regionHasEntities()` (src/lib/data.js) now gates
+every grid, count and the sitemap on the same rule. The page itself is still
+built -- an already-crawled URL is better served honestly than 404'd -- but
+it is `noindex`, drops its marketing intro and zeroed stats, and instead
+says plainly that nothing upcoming is listed, links the archived edition's
+review, and points at the countries that do have a calendar.
+
+**A missing field that was actually a missing state.** 81 of 183 listings
+rendered no Open/Closed badge because `simplifyAvailabilityStatus` collapsed
+everything that wasn't clearly open or clearly shut to null -- including the
+56 races stamped `not_yet_announced`. "You can't enter yet" is an answer,
+not the absence of one, so there is now a third `not_yet_open` state (and
+`REGISTRATION_STATE_LABELS`, so the card badge, the guide entry and the
+facts table word it identically). Statuses naming an opening date that has
+since passed still return null: that claim expires and we can't re-verify it
+between refreshes. Unbadged listings: 81 -> 5.
+
+**Scores with nothing behind them.** Every rated review printed "How runners
+rate it", captioned "scores summarise sentiment from the participant reviews
+cited above", and shipped a `reviewRating` in its Review schema. 196 of the
+213 cited no participant source at all -- the Borobudur listing's four
+sub-scores sat above the official race site, a race calendar and the AIMS
+calendar. src/lib/ratings.js gates the display and the structured-data
+rating alike on the page actually citing the material it claims to
+summarise: a `review`/`social` source, a pull quote, or an entity excerpt
+quote. Guides still *rank* by score (an internal ordering signal is not a
+claim) but only print the badge under the same rule, and `stripInlineScore`
+removes a "(85/100)" baked into pick copy. Review pages also carry a byline
+now -- compiled by the editorial team, not a first-hand race report -- and
+the About page states both rules.
+
+**Guides describing a directory that had moved on.** A listicle's entity
+list re-resolves from its filters every build, so it can't go stale; its
+intro, FAQs and pick blurb were written once and never revisited. One opened
+"Every 10K on this list falls in a single two-week window, August 15 to 30,
+2026" as that window closed; another led with two races that had been run
+and archived. Each guide now stores `source_fingerprint`, a hash of the set
+its copy was written about (`listicleFingerprint`, src/lib/listicles.js).
+`npm run listicles:refresh` (wired into the weekly workflow) rewrites the
+copy of guides whose set has drifted, and until it runs the page renders an
+intro derived from live data and suppresses the frozen FAQs and pick, so a
+guide can never *display* copy about races it isn't listing.
+
+**Two freshness dates on one page.** A listing printed `last_updated` -- a
+field any pipeline stage bumps -- while its generated prose carried its own
+older "verified as of 20 July 2026". The visible stamp is now anchored to
+the newest `source_mix.last_checked` and labelled "Facts last checked"; the
+baked dates (and the "confidence score of 92" machinery-talk alongside them)
+are gone from the eight affected records, and `validate-data.js` warns if
+generation reintroduces either.
+
+**Duplicate FAQs and a half-linked footer.** Merged entity+review FAQs were
+deduped by exact question string, which the two generation stages have no
+reason to produce -- Borobudur asked about pricing twice with two
+near-identical answers. `questionsAreNearDuplicates` (src/lib/text.js)
+compares what a question asks (leading interrogative plus content words,
+containment not overlap, so "When is the race?" and "Where is the race?"
+stay distinct); 107 of 215 reviews turned out to overlap with their entity.
+Header and footer links now come from one definition (src/lib/nav.js) --
+"Reviews" had been in the top nav and no footer on the site.
+
+**And the coverage explanation.** `truncateForPrompt` cut every source page
+to its first 6,000 characters before extraction. Measured against the
+configured feeds, that was showing the extractor 31% of justrunlah's
+Thailand calendar, 34% of Indonesia's, 55% of Vietnam's and 19% of the AIMS
+world calendar -- which is most of why Thailand (25) and Vietnam (10) were
+the thinnest countries in a directory whose sources list hundreds. Discovery
+now reads a page in successive overlapping chunks (`chunkForPrompt`, bounded
+by `discoveryMaxChunksPerSource`) and dedupes across the overlap; refresh,
+which looks for one record rather than all of them, centres its single
+window on that record's name instead (`focusForPrompt`) -- on a country
+calendar the row being re-verified was routinely past the old cutoff, so the
+page did list the race and the model could not see it. `kalenderlari.com`
+also now points at its full-year calendar rather than its homepage.
