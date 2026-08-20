@@ -348,8 +348,11 @@ export function buildSummaryPrompt({ siteConfig, entity }) {
     'Style rules: never describe the listing process itself. Do not mention verification, sources, ' +
     'aggregators, refresh schedules, confidence, or "as of the last check" -- a reader came for the ' +
     `${entityLabelSingular}, not for how the page was assembled. Never state that something is unknown, ` +
-    'unannounced or pending; simply leave it out. Lead with what is distinctive rather than restating the ' +
-    'name, date and location in order. Respond with ONLY valid JSON -- no markdown code fences, no commentary.';
+    'unannounced or pending; simply leave it out. Never state whether registration/entry is open, closed, ' +
+    'sold out or not yet announced, in any field -- that status goes stale between refreshes and the site ' +
+    'does not publish it (renderers strip it; see withoutRegistrationClaims in src/lib/text.js). Entry ' +
+    'process and prices are fine; the open/closed state is not. Lead with what is distinctive rather than ' +
+    'restating the name, date and location in order. Respond with ONLY valid JSON -- no markdown code fences, no commentary.';
 
   const quotesBlock =
     entity.excerpt_quotes?.length > 0
@@ -387,7 +390,8 @@ Using ONLY the information above, produce a JSON object with:
 - faqs (array of 2-4 objects, each {"question": string, "answer": string}): questions someone would genuinely ` +
     `search for about this ${entityLabelSingular}, each answer a direct 40-60 word response. Prefer questions ` +
     `the research material can actually answer ("Is the course hilly?", "How hot does it get?") over ones that ` +
-    `just restate the facts back.
+    `just restate the facts back. Never ask or answer whether registration is open, closed or still available ` +
+    `-- those are dropped before rendering, so one is a wasted slot out of four.
 - sentiment_scores (object {"overall": number 0-100, "breakdown": [{"label": string, "score": number 0-100}]}, ` +
     `or null): only if the quotes above actually convey opinion. Use null rather than guessing.
 

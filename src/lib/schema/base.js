@@ -132,6 +132,12 @@ export const categorySchema = z.object({
   // marquee/most-searched option), used by pill/badge rendering wherever a
   // category label is shown as a chip. Purely presentational.
   badgeVariant: z.enum(['success', 'warning', 'neutral']).default('neutral'),
+  // Whether this category is offered as a filter chip on the home calendar
+  // and hub pages. Defaults to true; set false for a category almost every
+  // entity belongs to, where a chip filters out nearly nothing and only
+  // crowds the row (see showsInFilters in src/lib/categoryMatch.js). It has
+  // no effect on membership, hub pages, pills, counts or the sitemap.
+  showInFilters: z.boolean().default(true),
   last_updated: z.string().min(1),
   status: z.enum(STATUS_VALUES),
 });

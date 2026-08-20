@@ -12,7 +12,7 @@ import {
   buildRegionEntityCounts,
   regionHasEntities,
 } from '../lib/data.js';
-import { matchedCategoryIds, entityMatchesCategory } from '../lib/categoryMatch.js';
+import { matchedCategoryIds, entityMatchesCategory, showsInFilters } from '../lib/categoryMatch.js';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import HubCard from '../components/HubCard.astro';
 import EntityCard from '../components/EntityCard.astro';
@@ -20,6 +20,7 @@ import StatsSummary from '../components/StatsSummary.astro';
 import HeroStats from '../components/HeroStats.astro';
 import SearchBox from '../components/SearchBox.astro';
 import FAQSection from '../components/FAQSection.astro';
+import MailingListSignup from '../components/MailingListSignup.astro';
 import { buildWebsiteSchema, buildFaqPageSchema } from '../lib/schema-jsonld.js';
 
 const entities = loadEntities().map(stripMeta).filter(isPublished);
@@ -96,13 +97,16 @@ const monthOptions = monthGroups.map((g) => ({ value: g.key, label: g.label }));
 // Country filter options, alphabetical for a predictable dropdown.
 const countryOptions = [...topLevelRegions].sort((a, b) => a.label.localeCompare(b.label));
 
-// Quick-toggle chips: every category that defines a matchRange gets one,
-// ordered largest range first (for races: Full -> Half -> 10K -> 5K), which
-// puts the marquee distance where the eye lands and matches the order the
-// distances are listed on each card. A category without a matchRange isn't a
-// point on that axis, so it's reachable via the hub pages instead.
+// Quick-toggle chips: every category that defines a matchRange and isn't
+// opted out of filtering gets one, ordered largest range first (for races:
+// Full -> Half), which puts the marquee distance where the eye lands and
+// matches the order the distances are listed on each card. A category
+// without a matchRange isn't a point on that axis, and one with
+// showInFilters: false is on the axis but too common to filter usefully
+// (see showsInFilters in src/lib/categoryMatch.js) -- both stay reachable
+// through their hub pages and still show as pills on the cards.
 const quickDistanceCategories = categories
-  .filter((c) => Array.isArray(c.matchRange))
+  .filter((c) => Array.isArray(c.matchRange) && showsInFilters(c))
   .sort((a, b) => b.matchRange[0] - a.matchRange[0]);
 
 const featured = [...entities].sort((a, b) => b.reliability_score - a.reliability_score).slice(0, 6);
@@ -288,6 +292,16 @@ const jsonLd = [
 
     <section class="mt-14">
       <StatsSummary stats={stats} />
+    </section>
+
+    {/* Sits directly under the calendar rather than above the footer: the
+        ask ("tell us which countries you care about") only makes sense to
+        someone who has just been scrolling those countries' listings, and
+        below three hub grids almost nobody reaches it. Countries offered
+        are the same top-level ones the grid below lists, so the form can't
+        offer to send updates for a country the site doesn't cover. */}
+    <section class="mt-14">
+      <MailingListSignup regions={topLevelRegions} />
     </section>
 
     {topLevelRegions.length > 0 && (

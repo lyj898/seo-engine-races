@@ -14,7 +14,7 @@ import {
   isReviewableEntity,
 } from '../../lib/data.js';
 import { byUpcomingDate, byDistanceDesc } from '../../lib/sort.js';
-import { entityMatchesCategory, matchedCategoryIds } from '../../lib/categoryMatch.js';
+import { entityMatchesCategory, matchedCategoryIds, showsInFilters } from '../../lib/categoryMatch.js';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import StatsSummary from '../../components/StatsSummary.astro';
@@ -111,8 +111,12 @@ const stats = [
   },
 ];
 
+// Same two gates as the home calendar's chip row: a category has to be
+// represented among these entities AND be one worth filtering by
+// (showInFilters -- see src/lib/categoryMatch.js), so the two rows can't
+// offer different chips for the same directory.
 const categoryFilterOptions = allCategories
-  .filter((c) => entities.some((e) => entityMatchesCategory(e, c, allCategories)))
+  .filter((c) => showsInFilters(c) && entities.some((e) => entityMatchesCategory(e, c, allCategories)))
   .sort(byDistanceDesc)
   .map((c) => ({ label: c.label, value: c.category_id }));
 

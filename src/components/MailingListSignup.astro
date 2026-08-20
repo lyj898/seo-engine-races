@@ -1,0 +1,214 @@
+---
+import siteConfig from '../lib/config.js';
+import { urls } from '../lib/urls.js';
+
+// Email opt-in for new listings and articles.
+//
+// Posts to FormSubmit's AJAX endpoint, exactly like ContactButton does: no
+// backend, no build-time key, no third-party script -- the only
+// configuration is the destination inbox, and submissions arrive as mail
+// that can be pasted into a real ESP list whenever there is one. That's the
+// deliberate trade: this collects subscribers today rather than waiting on
+// an ESP account, and swapping the endpoint later touches one line here.
+//
+// site.config.json.contactFormEmail is the FormSubmit-activated inbox,
+// falling back to contactEmail; with neither set the whole section renders
+// nothing rather than showing a form that would silently fail.
+//
+// `regions` is whatever list of { region_id, label } the page wants to
+// offer as interests -- this component doesn't know or care that they're
+// countries, so a vertical whose regions are states or cities gets the same
+// form with its own labels (the copy reads siteConfig.regionLabel).
+const { regions = [] } = Astro.props;
+
+const listEmail = siteConfig.contactFormEmail ?? siteConfig.contactEmail ?? '';
+const endpoint = listEmail ? `https://formsubmit.co/ajax/${listEmail}` : '';
+const subject = `New subscriber for ${siteConfig.siteName}${siteConfig.siteDomain ? ` (${siteConfig.siteDomain})` : ''}`;
+const regionLabel = siteConfig.regionLabel.toLowerCase();
+// Passed to the inline script as a data attribute: an is:inline script is
+// emitted verbatim, so it can't read Astro expressions -- same reason
+// ContactButton hands its endpoint and subject over the same way.
+const successMessage = `You're on the list. We'll email you when new ${siteConfig.entityLabelPlural} and articles go up.`;
+const regionLabelPlural = (siteConfig.regionLabelPlural ?? `${siteConfig.regionLabel}s`).toLowerCase();
+---
+
+{endpoint && (
+  <section
+    id="subscribe"
+    class="rounded-xl border border-brand-border bg-brand-surface-offset p-6 dark:border-brand-border-dark dark:bg-brand-surface-offset-dark sm:p-8"
+  >
+    <div class="grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.15fr)] lg:gap-12">
+      <div>
+        <h2 class="font-serif text-2xl font-semibold sm:text-3xl">
+          New {siteConfig.entityLabelPlural} in your inbox
+        </h2>
+        <p class="mt-3 text-sm leading-relaxed text-brand-muted dark:text-brand-muted-dark">
+          Get an email when we add {siteConfig.entityLabelPlural} or publish a new article. Pick the
+          {' '}{regionLabelPlural} you're keen on and we'll keep the rest out of it.
+        </p>
+        <p class="mt-3 text-sm leading-relaxed text-brand-muted dark:text-brand-muted-dark">
+          No spam, and you can unsubscribe any time. See our
+          {' '}<a href={urls.privacy()} class="link-accent">privacy policy</a>.
+        </p>
+      </div>
+
+      <form
+        id="subscribe-form"
+        class="space-y-5"
+        data-endpoint={endpoint}
+        data-subject={subject}
+        data-success={successMessage}
+        novalidate
+      >
+        <div>
+          <label for="subscribe-email" class="mb-1.5 block text-sm font-semibold">Your email</label>
+          <input
+            type="email"
+            id="subscribe-email"
+            name="email"
+            required
+            autocomplete="email"
+            placeholder="you@example.com"
+            class="w-full rounded-lg border-[1.5px] border-brand-border bg-brand-surface px-3.5 py-3 text-base focus:border-brand-primary focus:outline-none focus:ring-4 focus:ring-brand-primary-highlight dark:border-brand-border-dark dark:bg-brand-surface-dark dark:focus:ring-brand-primary-highlight-dark"
+          />
+        </div>
+
+        {regions.length > 0 && (
+          <fieldset>
+            <legend class="mb-2 block text-sm font-semibold">
+              {siteConfig.regionLabelPlural ?? `${siteConfig.regionLabel}s`} you're interested in
+            </legend>
+            {/*
+              The dark: variants of the checked state repeat their light
+              counterparts on purpose: dark:bg-brand-surface-dark otherwise
+              wins over has-[:checked]:bg-brand-primary, which left a checked
+              chip painting dark ink on a dark surface -- selected countries
+              were invisible in dark mode.
+
+              Checkboxes rather than a multi-select: a native <select multiple>
+              needs ctrl/cmd-click on a desktop and is close to unusable on a
+              phone, where most of this traffic is. The label wraps the input,
+              so the whole chip is the tap target (min 44px tall via py-2.5 on
+              text-sm) instead of just the 16px box.
+            */}
+            <div class="flex flex-wrap gap-2">
+              {regions.map((region) => (
+                <label
+                  class="inline-flex cursor-pointer items-center gap-2 rounded-full border border-brand-border bg-brand-surface px-3.5 py-2.5 text-sm font-semibold transition-colors hover:border-brand-faint has-[:checked]:border-brand-primary has-[:checked]:bg-brand-primary has-[:checked]:text-brand-primary-ink dark:border-brand-border-dark dark:bg-brand-surface-dark dark:hover:border-brand-faint-dark dark:has-[:checked]:border-brand-primary dark:has-[:checked]:bg-brand-primary dark:has-[:checked]:text-brand-primary-ink-dark"
+                >
+                  <input
+                    type="checkbox"
+                    name="regions"
+                    value={region.label}
+                    class="h-4 w-4 shrink-0 accent-brand-text dark:accent-brand-text-dark"
+                  />
+                  {region.label}
+                </label>
+              ))}
+            </div>
+            <p class="mt-2 text-xs text-brand-muted dark:text-brand-muted-dark">
+              Pick as many as you like -- leave them all unticked to hear about every {regionLabel}.
+            </p>
+          </fieldset>
+        )}
+
+        {/*
+          Honeypot: bots fill every field they find, people never see this
+          one, so a submission carrying a value for it is dropped below
+          instead of being posted. It still gets the same "thanks" a person
+          does -- a bot that can tell it was caught just tries again without
+          the trap.
+        */}
+        <input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" class="hidden" />
+
+        <p id="subscribe-status" class="hidden text-sm font-semibold" role="status" aria-live="polite"></p>
+
+        <button
+          type="submit"
+          id="subscribe-submit"
+          class="w-full rounded-lg bg-brand-primary px-4 py-3 font-bold text-brand-primary-ink transition-colors hover:bg-brand-primary-hover disabled:opacity-60 dark:text-brand-primary-ink-dark dark:hover:bg-brand-primary-hover-dark sm:w-auto sm:px-8"
+        >
+          Subscribe
+        </button>
+      </form>
+    </div>
+  </section>
+)}
+
+<script is:inline>
+  (function () {
+    var form = document.getElementById('subscribe-form');
+    if (!form) return;
+
+    var emailInput = document.getElementById('subscribe-email');
+    var statusEl = document.getElementById('subscribe-status');
+    var submitBtn = document.getElementById('subscribe-submit');
+    var honeypot = form.querySelector('[name="_honey"]');
+
+    function setStatus(message, ok) {
+      if (!statusEl) return;
+      statusEl.textContent = message;
+      statusEl.classList.toggle('hidden', !message);
+      statusEl.classList.toggle('text-brand-success', !!ok);
+      statusEl.classList.toggle('text-brand-error', !ok);
+    }
+
+    form.addEventListener('submit', function (event) {
+      // novalidate on the form + an explicit check here: the browser's own
+      // bubble would fire before this handler and leave the status line
+      // stale, so validity is reported in one place instead of two.
+      event.preventDefault();
+      var endpoint = form.dataset.endpoint;
+      if (!endpoint) return;
+
+      if (!emailInput || !emailInput.checkValidity() || !emailInput.value.trim()) {
+        setStatus('Enter a valid email address so we know where to send it.', false);
+        if (emailInput) emailInput.focus();
+        return;
+      }
+
+      // Honeypot filled: drop it, and say the same thing we'd say to a
+      // person (see the field's comment above).
+      if (honeypot && honeypot.value) {
+        form.reset();
+        setStatus(form.dataset.success, true);
+        return;
+      }
+
+      var checked = form.querySelectorAll('input[name="regions"]:checked');
+      var regions = Array.prototype.map.call(checked, function (input) {
+        return input.value;
+      });
+
+      setStatus('', true);
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Subscribing...';
+
+      fetch(endpoint, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify({
+          email: emailInput.value.trim(),
+          // Spelled out rather than sent as an empty string: the inbox is
+          // read by a person, and "All countries" is unambiguous where a
+          // blank row is just a field someone forgot to fill in.
+          countries: regions.length ? regions.join(', ') : 'All countries',
+          _subject: form.dataset.subject,
+          _template: 'table',
+        }),
+      })
+        .then(function (res) {
+          if (!res.ok) throw new Error('Request failed');
+          form.reset();
+          setStatus(form.dataset.success, true);
+        })
+        .catch(function () {
+          setStatus('Something went wrong. Please try again in a moment.', false);
+        })
+        .finally(function () {
+          submitBtn.disabled = false;
+          submitBtn.textContent = 'Subscribe';
+        });
+    });
+  })();
+</script>

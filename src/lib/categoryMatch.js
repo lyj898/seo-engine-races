@@ -86,6 +86,28 @@ export function matchedCategoryIds(entity, categories = []) {
 }
 
 /**
+ * Should this category be offered as a filter chip?
+ *
+ * Category membership and category FILTERING are two different questions,
+ * and conflating them made the filter row worse the more categories the
+ * directory defined. Every race in the directory carries the shortest
+ * distances -- a 5K or 10K leg is bundled into nearly every multi-distance
+ * event -- so a chip for one of them narrows a 200-race calendar to about
+ * 190 races: a control that looks like it filters and doesn't. The chips
+ * that earn their place are the ones a reader actually chooses between.
+ *
+ * `showInFilters: false` in a category's data file takes it out of every
+ * chip row without touching anything else: its hub page still builds, its
+ * pills still render on cards, entities still match it, and the sitemap is
+ * unchanged. That's the point of putting the switch on the category rather
+ * than in each page's chip-building code -- one flag, one meaning, and no
+ * page hardcodes a vertical-specific category id.
+ */
+export function showsInFilters(category) {
+  return category?.showInFilters !== false;
+}
+
+/**
  * Returns a copy of `facts` with every all-numeric array narrowed to the
  * values that fall inside some category's matchRange, sorted largest-first.
  *

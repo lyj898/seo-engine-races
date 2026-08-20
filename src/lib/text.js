@@ -95,9 +95,10 @@ export function isUnknownStatus(status) {
 
 /**
  * Heuristic: does a free-text registration_status string suggest
- * registration is currently open? Used only by the optional "open for
- * registration" filter -- a false negative just leaves a race out of a
- * narrowed filter view, never hides it from the full unfiltered listing.
+ * registration is currently open? Nothing on the site renders this -- it
+ * feeds scripts/validate-data.js, which uses it to flag a stored status
+ * that contradicts the entity's own dates, so a false negative costs a
+ * warning rather than misleading a reader.
  */
 export function isLikelyRegistrationOpen(status) {
   if (typeof status !== 'string') return false;
@@ -155,26 +156,19 @@ function datesNamedIn(text) {
 
 /**
  * Collapses a free-text availability status to one of four states: 'open',
- * 'closed', 'not_yet_open', or null (meaning "we don't know -- say nothing").
+ * 'closed', 'not_yet_open', or null (meaning "we don't know").
  *
- * Source pages write this field in dozens of shapes: "Open (Early Bird)",
- * "Pendaftaran Dibuka (Registration Open)", "Sold Out", "Opens 8 Jul 2026",
- * "Not yet confirmed open (2027)". Printing those verbatim turns a listing
- * card into a wall of inconsistent micro-copy, so each one is mapped to a
- * state and the caller renders one consistent label per state.
+ * This is a DATA-QUALITY tool, not a rendering one: the site publishes no
+ * registration status anywhere (see withoutRegistrationClaims below), and
+ * this exists so scripts/validate-data.js can normalise the dozens of
+ * shapes sources write the field in -- "Open (Early Bird)", "Pendaftaran
+ * Dibuka (Registration Open)", "Sold Out", "Opens 8 Jul 2026", "Not yet
+ * confirmed open (2027)" -- far enough to tell whether a stored status
+ * contradicts the entity's own dates.
  *
- * 'not_yet_open' exists because collapsing it into null was throwing away
- * the answer to the question. 81 of 183 published races carried a status
- * meaning "entries aren't open yet" -- "not_yet_announced" for 56 of them
- * alone -- and every one rendered no badge at all, so nearly half the
- * directory looked like it was missing its most decision-relevant field
- * rather than reporting it. "You can't enter yet" is not the absence of a
- * fact; "TBA" is, and that still falls through to null at the bottom.
- *
- * A status that names an opening DATE is different again, because the claim
- * expires: a card still promising "Opens 6 May 2026" in August is worse than
- * saying nothing. So when the date it names has passed, this returns null --
- * we no longer know whether entries opened on time, and won't guess.
+ * A status that names an opening DATE is treated as expired once that date
+ * has passed: we no longer know whether entries opened on time, and won't
+ * guess on the data's behalf.
  */
 export function simplifyAvailabilityStatus(status, today = new Date().toISOString().slice(0, 10)) {
   if (typeof status !== 'string' || !status.trim()) return null;
@@ -191,88 +185,242 @@ export function simplifyAvailabilityStatus(status, today = new Date().toISOStrin
 }
 
 /**
- * One label per registration state, so the badge on a card, the chip in a
- * listicle entry and the row in the facts table can't word the same state
- * three different ways.
+ * ---------------------------------------------------------------------------
+ * Registration status is not published.
+ * ---------------------------------------------------------------------------
+ *
+ * The stored registration_status is a snapshot with no expiry, and refresh
+ * re-verifies ~25 entities a week against a directory of 200+, so it goes
+ * stale faster than it can be corrected -- races running the next day were
+ * still being advertised as open for entry. Ageing the string out at display
+ * time bounded the damage but not the problem: the site's answer to "can I
+ * still enter?" was coming from a field nobody could keep true. Saying
+ * nothing beats saying something wrong, and every listing links out to the
+ * official page, which is the only place that fact is ever current.
+ *
+ * Removing the badge alone would not have removed the claim, because the
+ * generation stages wrote the same status into prose: 220 pros/cons bullets
+ * ("Registration is currently open, giving runners time to plan"), 176 FAQs
+ * ("Is registration open for this race?") and a closing sentence on most
+ * summaries. The helpers below take those out at render time rather than
+ * rewriting 237 data files, because the pipeline would just write them back
+ * -- buildSummaryPrompt in scripts/lib/prompts.js is told not to produce
+ * them, so the volume shrinks as entities are regenerated, and until then
+ * nothing reaches a page.
+ *
+ * What deliberately SURVIVES:
+ *   - registration_deadline: a stored date is a claim a reader can check
+ *     against today for themselves; it never inverts its meaning silently.
+ *   - "How do I register?" / "How much does registration cost?": process and
+ *     price, not status.
+ *   - anything mentioning registration without asserting whether it's open.
  */
-export const REGISTRATION_STATE_LABELS = {
-  open: 'Open',
-  closed: 'Closed',
-  not_yet_open: 'Not open yet',
-};
 
-const ISO_DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
-const isIsoDate = (v) => typeof v === 'string' && ISO_DATE_RE.test(v);
+// Who the sentence is about ("registration", "entries", "sign-ups"...).
+const REGISTRATION_SUBJECT = String.raw`(?:registration|registrations|registering|entries|entry pricing|sign[- ]?ups?)`;
+// ...and the assertion that makes it a status claim rather than a fact.
+const REGISTRATION_STATUS_RE = /\b(open|opens|opened|opening|closed?|closes|sold out|still available|not yet|unannounced|yet to be)\b/i;
+
+// A sentence whose SUBJECT is registration: optionally after a citation
+// marker a paragraph left stranded ("[1] Registration is open"), a short
+// lead-in ("As of now, registration...") and/or a couple of qualifiers
+// ("Early Bird registration..."). The allowances are narrow on purpose --
+// two words of slack, so "The race offers registration via..." (three) is a
+// sentence about the entry process and is left alone.
+const REGISTRATION_SENTENCE_RE = new RegExp(
+  `^(?:\\[\\d+\\]\\s+)?(?:[^,.]{0,30},\\s+)?(?:[A-Za-z][\\w-]*\\s+){0,2}${REGISTRATION_SUBJECT}\\b`,
+  'i'
+);
+
+// The same claim tacked onto the end of a sentence about something else
+// ("...starts at 3:00 AM, and registration is currently open.", "...on 1
+// November 2026 with open registration."). Only ever the trailing clause,
+// so the part of the sentence carrying real information survives intact.
+// The comma is optional but the conjunction isn't when there's no comma:
+// without one of the two there's no clause boundary to cut at.
+const REGISTRATION_CLAUSE_RE = new RegExp(
+  `(?:[,;]\\s+|\\s+(?=(?:and|with|while|though|although|but|so|as|since|because)\\s))\\s*(?:(?:and|with|while|though|although|but|so|as|since|because)\\s+)?(?:the\\s+|open\\s+|closed\\s+)?${REGISTRATION_SUBJECT}\\b[^.!?;]*$`,
+  'i'
+);
+
+/** Is this whole sentence/bullet just a registration-status claim? */
+function isRegistrationStatusSentence(text) {
+  const s = String(text ?? '').trim();
+  return REGISTRATION_SENTENCE_RE.test(s) && REGISTRATION_STATUS_RE.test(s);
+}
+
+// A price is the one thing worth more than the removal is: "Registration is
+// open with the 21.1K at PHP 1,500 and the 12K at PHP 1,200" is the only
+// place that answer states its prices, and half an answer is worse than a
+// stale clause in it. Dates don't count -- they're on the facts table, in
+// the date badge and in the copy either side.
+const PRICE_FIGURE_RE =
+  /(?:usd|thb|php|idr|myr|vnd|sgd|khr|lak|mmk|bnd|rm|rp|\$|฿|₱|€|£)\s*\d|\d[\d,.]*\s*(?:usd|thb|php|idr|myr|vnd|sgd|khr|lak|mmk|bnd|rm|rp|baht|dollars?|pesos?|ringgit|rupiah|dong)\b/i;
+
+// A sentence that points back at the one before it ("That makes it...",
+// "This means prospective participants..."). Dropping what such a sentence
+// refers to would leave it dangling.
+const BACK_REFERENCE_RE = /^(that|this|these|those|it|they|there|which|both|either|such)\b/i;
+// ...but a follow-on that is itself about signing up is just the same claim
+// restated ("Registration is open. This means participants can sign up
+// now."), so the pair goes together rather than the first one being spared.
+const SIGN_UP_RE = /\b(registration|registrations|register|registering|sign[- ]?ups?|entries|entrants|entry)\b/i;
 
 /**
- * Registration state for a race, with the passage of time taken into account.
+ * Prose with registration-status claims removed: whole sentences that are
+ * only that claim, plus the trailing-clause form of it
+ * ("...starts at 3am, and registration is currently open.").
  *
- * simplifyAvailabilityStatus() above reads only the free-text status string,
- * and that string is a snapshot with no expiry. An entity stamped "open" in
- * June still reports "open" in August, however long ago entries actually
- * shut -- which is precisely how the live site spent five weeks inviting
- * readers to enter the Sarawak Energy Marathon after its 30 June deadline.
- * The refresh pipeline can't be relied on to catch it either: it re-verifies
- * 25 entities a week against a directory of 200+.
- *
- * So the two dates we can check independently override the string:
- *
- *   registration_deadline in the past -> closed, whatever the status says
- *   race date in the past             -> closed (you cannot enter a race
- *                                        that has already been run)
- *
- * A missing deadline is not evidence of anything, so where there is none the
- * status string still decides -- but a stale "open" is now bounded by race
- * day instead of persisting indefinitely.
- *
- * ISO date strings compare correctly with `<`, so no Date parsing is needed
- * and no timezone can shift the answer by a day.
- *
- * @param {object} facts  an entity's core_facts
- * @param {string} [today] ISO date; injectable so tests aren't clock-dependent
- * @returns {'open'|'closed'|'not_yet_open'|null} null means "we don't know -- say nothing"
+ * Sentence splitting is on "punctuation followed by whitespace", so a
+ * decimal ("42.195 km") isn't mistaken for a sentence end. Three things are
+ * deliberately left in place: a sentence that also states a price, one the
+ * following sentence refers back to, and -- unless the caller passes
+ * allowEmpty -- text that would scrub down to nothing, since a blank summary
+ * is a worse outcome than a stale sentence and every caller treats empty as
+ * "no copy at all".
  */
-export function resolveRegistrationState(facts, today = new Date().toISOString().slice(0, 10)) {
-  if (!facts || typeof facts !== 'object') return null;
-  if (isIsoDate(facts.registration_deadline) && facts.registration_deadline < today) return 'closed';
-  if (isIsoDate(facts.date) && facts.date < today) return 'closed';
-  return simplifyAvailabilityStatus(facts.registration_status, today);
+export function scrubRegistrationClaims(text, { allowEmpty = false } = {}) {
+  if (typeof text !== 'string' || !text.trim()) return text;
+  const sentences = text.split(/(?<=[.!?])\s+/).map((s) => s.trim()).filter(Boolean);
+
+  // Marked in a first pass rather than filtered inline, because dropping a
+  // status sentence can also take the follow-on sentence that only restates
+  // it -- a decision that has to be made looking forward, not backward.
+  const dropped = sentences.map(() => false);
+  sentences.forEach((sentence, i) => {
+    if (dropped[i]) return;
+    if (!isRegistrationStatusSentence(sentence) || PRICE_FIGURE_RE.test(sentence)) return;
+    const next = sentences[i + 1];
+    if (next && BACK_REFERENCE_RE.test(next)) {
+      if (!SIGN_UP_RE.test(next)) return; // would leave the follow-on dangling
+      dropped[i + 1] = true;
+    }
+    dropped[i] = true;
+  });
+
+  const kept = [];
+  sentences.forEach((sentence, i) => {
+    if (dropped[i]) return;
+    const [, body, tail] = sentence.match(/^([\s\S]*?)([.!?]*)$/);
+    const clause = body.match(REGISTRATION_CLAUSE_RE);
+    if (clause && REGISTRATION_STATUS_RE.test(clause[0]) && !PRICE_FIGURE_RE.test(clause[0])) {
+      const trimmed = body.slice(0, clause.index).trim();
+      kept.push(trimmed ? trimmed + (tail || '.') : sentence);
+      return;
+    }
+    kept.push(sentence);
+  });
+  const out = kept.join(' ').trim();
+  // allowEmpty is for list items -- a review paragraph that was nothing but
+  // the claim should disappear from the array, where a summary field that
+  // scrubs down to nothing must keep its original text instead.
+  if (allowEmpty) return out;
+  return out || text;
 }
 
 /**
- * core_facts with registration_status reconciled against the clock, for
- * generic renderers that print the raw string.
+ * Does this FAQ question ask whether entries are open?
  *
- * FactsTable knows nothing about any vertical's field names -- it prints
- * every core fact it is handed. That is the right design, but it means the
- * entity detail page renders registration_status verbatim and so bypasses
- * every expiry rule the cards apply. The result was two different answers
- * for the same race on the same site: a card correctly saying nothing, and
- * a detail table still announcing "Opens 8 Jul 2026" in August.
- *
- * isUnknownStatus() doesn't catch those, and deliberately so -- it draws the
- * line at placeholder-vs-information, which is a different question from
- * whether the information has expired. This draws the second line:
- *
- *   closed       -> "Closed", replacing whatever phrasing the source used
- *   not_yet_open -> "Not open yet", likewise: the seven ways sources write
- *                   this ("not_yet_announced", "Coming Soon", "Not yet
- *                   confirmed open", "ballot_opening_soon") are synonyms,
- *                   and the row should read the same as the card's badge
- *   open         -> the original string, so useful nuance ("Open (Early
- *                   Bird)", "Open (Public: 3 Jul - 31 Oct 2026)") survives
- *   null         -> drop the field, so the row disappears instead of
- *                   printing a claim we can no longer stand behind
+ * "How do I register?" and "How much does registration cost?" are process
+ * and price questions -- they mention registration without asking about its
+ * status, and they stay. A question asking both at once ("How much does it
+ * cost to register, and is registration open?") goes: half of its answer
+ * would be a claim we've stopped making, and the price it asks about is on
+ * the facts table two blocks up the same page.
  */
-export function withResolvedRegistration(facts, today = new Date().toISOString().slice(0, 10)) {
-  if (!facts || typeof facts !== 'object') return facts;
-  const state = resolveRegistrationState(facts, today);
-  if (state === null) {
-    const { registration_status, ...rest } = facts;
-    return rest;
+export function isRegistrationStatusQuestion(question) {
+  const q = String(question ?? '').toLowerCase();
+  if (!/\b(registration|registrations|register|entries|entry|sign[- ]?ups?)\b/.test(q)) return false;
+  if (!/\b(open|opens|opened|closed?|closes|closing|still|sold out|available|deadline)\b/.test(q)) return false;
+  return true;
+}
+
+/**
+ * FAQ list with the registration-status entries taken out: the questions
+ * that ask it outright, and any question whose answer turns out to have
+ * been nothing but the claim once scrubbed (an answer that empties out
+ * would otherwise leave a question standing with no answer under it).
+ */
+export function dropRegistrationStatusFaqs(faqs = []) {
+  return (Array.isArray(faqs) ? faqs : [])
+    .filter((faq) => !isRegistrationStatusQuestion(faq?.question))
+    .map((faq) =>
+      typeof faq?.answer === 'string'
+        ? { ...faq, answer: scrubRegistrationClaims(faq.answer, { allowEmpty: true }) }
+        : faq
+    )
+    .filter((faq) => typeof faq?.answer !== 'string' || faq.answer.trim());
+}
+
+/**
+ * An entity with every registration-status claim removed, in one call --
+ * the core_facts field, the FAQs, the pros/cons bullets that are only that
+ * claim, and the summary/description sentences carrying it.
+ *
+ * Every component that renders entity prose runs its own entity through
+ * this (EntityCard, ListicleEntry, the detail page) rather than the pages
+ * doing it before passing entities down: a component is rendered from half
+ * a dozen pages, and one page forgetting the call is exactly how the claim
+ * would creep back onto the site.
+ *
+ * NOT applied in src/lib/data.js's loaders, deliberately: the refresh and
+ * generation scripts load through those same loaders and write entities
+ * back to disk, so scrubbing there would silently delete the stored copy on
+ * the next pipeline run.
+ */
+export function withoutRegistrationClaims(entity) {
+  if (!entity || typeof entity !== 'object') return entity;
+  const out = { ...entity };
+  if (entity.core_facts && typeof entity.core_facts === 'object') {
+    const { registration_status, ...facts } = entity.core_facts;
+    out.core_facts = facts;
   }
-  if (state === 'open') return facts;
-  return { ...facts, registration_status: REGISTRATION_STATE_LABELS[state] };
+  for (const field of ['ai_summary', 'short_description']) {
+    if (typeof entity[field] === 'string') out[field] = scrubRegistrationClaims(entity[field]);
+  }
+  for (const field of ['pros', 'cons']) {
+    if (Array.isArray(entity[field])) out[field] = entity[field].filter((item) => !isRegistrationStatusSentence(item));
+  }
+  if (Array.isArray(entity.faqs)) out.faqs = dropRegistrationStatusFaqs(entity.faqs);
+  return out;
+}
+
+/**
+ * The same treatment for a review record.
+ *
+ * A review's summary fields (dek, verdict, meta_description) are listing
+ * copy by another name -- the verdict is the "bottom line" box at the top of
+ * a merged race page -- so they're scrubbed exactly like an entity's
+ * summary. The body paragraphs are scrubbed too, but only ever a sentence at
+ * a time and never one carrying a price or one the next sentence refers back
+ * to: these are cited articles, and a mangled paragraph would be a worse
+ * outcome than the claim it removed. A paragraph that was nothing but the
+ * claim drops out of the article entirely.
+ *
+ * `sections[].heading` is left alone: "Registration, Logistics and the KLIA
+ * Factor" names a topic, it doesn't assert that entries are open.
+ */
+export function withoutRegistrationClaimsReview(review) {
+  if (!review || typeof review !== 'object') return review;
+  const out = { ...review };
+  for (const field of ['dek', 'verdict', 'meta_description']) {
+    if (typeof review[field] === 'string') out[field] = scrubRegistrationClaims(review[field]);
+  }
+  if (Array.isArray(review.sections)) {
+    out.sections = review.sections
+      .map((section) => {
+        if (!Array.isArray(section?.paragraphs)) return section;
+        const paragraphs = section.paragraphs
+          .map((p) => (typeof p === 'string' ? scrubRegistrationClaims(p, { allowEmpty: true }) : p))
+          .filter((p) => typeof p !== 'string' || p.trim());
+        return { ...section, paragraphs };
+      })
+      // A section whose every paragraph was a status claim has nothing left
+      // to say under its heading.
+      .filter((section) => !Array.isArray(section?.paragraphs) || section.paragraphs.length > 0);
+  }
+  if (Array.isArray(review.faqs)) out.faqs = dropRegistrationStatusFaqs(review.faqs);
+  return out;
 }
 
 /**

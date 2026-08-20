@@ -1,7 +1,7 @@
 ---
 import { urls } from '../lib/urls.js';
-import { resolveRegistrationState, REGISTRATION_STATE_LABELS } from '../lib/text.js';
 import { matchedCategoryIds } from '../lib/categoryMatch.js';
+import { withoutRegistrationClaims } from '../lib/text.js';
 import DateBadge from './DateBadge.astro';
 import ValuePills from './ValuePills.astro';
 import Pill from './Pill.astro';
@@ -24,14 +24,16 @@ import Pill from './Pill.astro';
 // lets a page attach its own filter data-attributes (the calendar's
 // data-country / data-month / data-distances) without this component
 // knowing what they mean.
-const { entity, categories = [], extraAttrs = {} } = Astro.props;
+const { entity: rawEntity, categories = [], extraAttrs = {} } = Astro.props;
+
+// Every card on the site is this component, so the scrub happens here
+// rather than in each page that renders one -- see
+// withoutRegistrationClaims in src/lib/text.js.
+const entity = withoutRegistrationClaims(rawEntity);
 
 const facts = entity.core_facts ?? {};
 const hasDate = typeof facts.date === 'string';
 const locationLine = [facts.city, facts.country].filter(Boolean).join(', ');
-// Reads the deadline and race date, not just the status string -- a race
-// whose entries shut in June must not still show "Open" in August.
-const availability = resolveRegistrationState(facts);
 
 // FilterBar filters on this attribute. Deliberately includes every category
 // this entity belongs to and its region_id alongside content tags, so a hub
@@ -78,13 +80,13 @@ const searchText = `${entity.name} ${locationLine} ${entity.short_description ??
       )
     )}
 
-    <div class="mt-3 flex items-center justify-between gap-3">
-      {availability && (
-        <span class="text-xs font-semibold uppercase tracking-wide text-brand-muted dark:text-brand-muted-dark">
-          {REGISTRATION_STATE_LABELS[availability]}
-        </span>
-      )}
-      <a href={urls.entity(entity.slug)} class="ml-auto shrink-0 text-sm font-bold link-accent">Details &rarr;</a>
+    {/* No registration-status badge here, deliberately -- see
+        withoutRegistrationClaims in src/lib/text.js. The stored status
+        can't be kept true between weekly refreshes, and a card telling a
+        reader entries are open for a race running tomorrow is worse than
+        a card that stays quiet and sends them to the official page. */}
+    <div class="mt-3 flex justify-end">
+      <a href={urls.entity(entity.slug)} class="shrink-0 text-sm font-bold link-accent">Details &rarr;</a>
     </div>
   </div>
 </div>
