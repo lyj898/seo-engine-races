@@ -15,6 +15,18 @@ import { urls } from '../lib/urls.js';
 // falling back to contactEmail; with neither set the whole section renders
 // nothing rather than showing a form that would silently fail.
 //
+// Laid out as a short horizontal band rather than a two-column panel: the
+// homepage renders every listing it has (currently ~237 cards across a dozen
+// month groups), so anything sitting after that calendar is tens of screens
+// down and effectively unpublished. The band is shallow enough to sit
+// directly under the hero without pushing the listings off the first screen
+// -- see the placement comment in src/pages/index.astro.
+//
+// The footer links here as /#subscribe from every page on the site, so the
+// section carries a scroll-mt: the header is sticky and two rows tall below
+// lg (110px on a phone), which would otherwise sit on top of the heading
+// someone just jumped to. lg drops to 20 because the header is one row there.
+//
 // `regions` is whatever list of { region_id, label } the page wants to
 // offer as interests -- this component doesn't know or care that they're
 // countries, so a vertical whose regions are states or cities gets the same
@@ -35,33 +47,30 @@ const regionLabelPlural = (siteConfig.regionLabelPlural ?? `${siteConfig.regionL
 {endpoint && (
   <section
     id="subscribe"
-    class="rounded-xl border border-brand-border bg-brand-surface-offset p-6 dark:border-brand-border-dark dark:bg-brand-surface-offset-dark sm:p-8"
+    class="scroll-mt-28 rounded-xl border border-brand-border bg-brand-surface-offset p-5 dark:border-brand-border-dark dark:bg-brand-surface-offset-dark sm:p-6 lg:scroll-mt-20"
   >
-    <div class="grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.15fr)] lg:gap-12">
-      <div>
-        <h2 class="font-serif text-2xl font-semibold sm:text-3xl">
+    <div class="flex flex-col gap-4 lg:flex-row lg:items-start lg:gap-10">
+      <div class="min-w-0 lg:flex-1">
+        <h2 class="font-serif text-lg font-semibold sm:text-xl">
           New {siteConfig.entityLabelPlural} in your inbox
         </h2>
-        <p class="mt-3 text-sm leading-relaxed text-brand-muted dark:text-brand-muted-dark">
-          Get an email when we add {siteConfig.entityLabelPlural} or publish a new article. Pick the
-          {' '}{regionLabelPlural} you're keen on and we'll keep the rest out of it.
-        </p>
-        <p class="mt-3 text-sm leading-relaxed text-brand-muted dark:text-brand-muted-dark">
-          No spam, and you can unsubscribe any time. See our
+        <p class="mt-1.5 text-sm leading-relaxed text-brand-muted dark:text-brand-muted-dark">
+          An email when we add {siteConfig.entityLabelPlural} or publish an article. No spam,
+          unsubscribe any time -- see our
           {' '}<a href={urls.privacy()} class="link-accent">privacy policy</a>.
         </p>
       </div>
 
       <form
         id="subscribe-form"
-        class="space-y-5"
+        class="min-w-0 lg:w-[27rem] lg:shrink-0"
         data-endpoint={endpoint}
         data-subject={subject}
         data-success={successMessage}
         novalidate
       >
-        <div>
-          <label for="subscribe-email" class="mb-1.5 block text-sm font-semibold">Your email</label>
+        <div class="flex flex-col gap-2 sm:flex-row">
+          <label for="subscribe-email" class="sr-only">Your email</label>
           <input
             type="email"
             id="subscribe-email"
@@ -69,32 +78,46 @@ const regionLabelPlural = (siteConfig.regionLabelPlural ?? `${siteConfig.regionL
             required
             autocomplete="email"
             placeholder="you@example.com"
-            class="w-full rounded-lg border-[1.5px] border-brand-border bg-brand-surface px-3.5 py-3 text-base focus:border-brand-primary focus:outline-none focus:ring-4 focus:ring-brand-primary-highlight dark:border-brand-border-dark dark:bg-brand-surface-dark dark:focus:ring-brand-primary-highlight-dark"
+            class="min-w-0 flex-1 rounded-lg border-[1.5px] border-brand-border bg-brand-surface px-3.5 py-3 text-base focus:border-brand-primary focus:outline-none focus:ring-4 focus:ring-brand-primary-highlight dark:border-brand-border-dark dark:bg-brand-surface-dark dark:focus:ring-brand-primary-highlight-dark"
           />
+          <button
+            type="submit"
+            id="subscribe-submit"
+            class="shrink-0 rounded-lg bg-brand-primary px-6 py-3 font-bold text-brand-primary-ink transition-colors hover:bg-brand-primary-hover disabled:opacity-60 dark:text-brand-primary-ink-dark dark:hover:bg-brand-primary-hover-dark"
+          >
+            Subscribe
+          </button>
         </div>
 
-        {regions.length > 0 && (
-          <fieldset>
-            <legend class="mb-2 block text-sm font-semibold">
-              {siteConfig.regionLabelPlural ?? `${siteConfig.regionLabel}s`} you're interested in
-            </legend>
-            {/*
-              The dark: variants of the checked state repeat their light
-              counterparts on purpose: dark:bg-brand-surface-dark otherwise
-              wins over has-[:checked]:bg-brand-primary, which left a checked
-              chip painting dark ink on a dark surface -- selected countries
-              were invisible in dark mode.
+        {/*
+          Interests collapsed by default so the band stays shallow in the
+          position it now occupies -- expanded, a dozen country chips wrap to
+          three rows on a phone, which is most of a screen on its own. Ticking
+          nothing is already the "tell me about everywhere" case, so the closed
+          state is a complete, valid form rather than a hidden required step.
 
-              Checkboxes rather than a multi-select: a native <select multiple>
-              needs ctrl/cmd-click on a desktop and is close to unusable on a
-              phone, where most of this traffic is. The label wraps the input,
-              so the whole chip is the tap target (min 44px tall via py-2.5 on
-              text-sm) instead of just the 16px box.
-            */}
-            <div class="flex flex-wrap gap-2">
+          The dark: variants of the chips' checked state repeat their light
+          counterparts on purpose: dark:bg-brand-surface-dark otherwise wins
+          over has-[:checked]:bg-brand-primary, which left a checked chip
+          painting dark ink on a dark surface -- selected countries were
+          invisible in dark mode.
+
+          Checkboxes rather than a multi-select: a native <select multiple>
+          needs ctrl/cmd-click on a desktop and is close to unusable on a
+          phone, where most of this traffic is. The label wraps the input, so
+          the whole chip is the tap target (min-h-11, i.e. 44px, since
+          py-2.5 on text-sm lands 2px short on its own) instead of just the
+          16px box.
+        */}
+        {regions.length > 0 && (
+          <details class="mt-3">
+            <summary class="inline-flex min-h-11 cursor-pointer items-center text-sm font-semibold underline-offset-2 hover:underline">
+              Only certain {regionLabelPlural}?
+            </summary>
+            <div class="mt-2 flex flex-wrap gap-2">
               {regions.map((region) => (
                 <label
-                  class="inline-flex cursor-pointer items-center gap-2 rounded-full border border-brand-border bg-brand-surface px-3.5 py-2.5 text-sm font-semibold transition-colors hover:border-brand-faint has-[:checked]:border-brand-primary has-[:checked]:bg-brand-primary has-[:checked]:text-brand-primary-ink dark:border-brand-border-dark dark:bg-brand-surface-dark dark:hover:border-brand-faint-dark dark:has-[:checked]:border-brand-primary dark:has-[:checked]:bg-brand-primary dark:has-[:checked]:text-brand-primary-ink-dark"
+                  class="inline-flex min-h-11 cursor-pointer items-center gap-2 rounded-full border border-brand-border bg-brand-surface px-3.5 py-2.5 text-sm font-semibold transition-colors hover:border-brand-faint has-[:checked]:border-brand-primary has-[:checked]:bg-brand-primary has-[:checked]:text-brand-primary-ink dark:border-brand-border-dark dark:bg-brand-surface-dark dark:hover:border-brand-faint-dark dark:has-[:checked]:border-brand-primary dark:has-[:checked]:bg-brand-primary dark:has-[:checked]:text-brand-primary-ink-dark"
                 >
                   <input
                     type="checkbox"
@@ -109,7 +132,7 @@ const regionLabelPlural = (siteConfig.regionLabelPlural ?? `${siteConfig.regionL
             <p class="mt-2 text-xs text-brand-muted dark:text-brand-muted-dark">
               Pick as many as you like -- leave them all unticked to hear about every {regionLabel}.
             </p>
-          </fieldset>
+          </details>
         )}
 
         {/*
@@ -121,15 +144,7 @@ const regionLabelPlural = (siteConfig.regionLabelPlural ?? `${siteConfig.regionL
         */}
         <input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" class="hidden" />
 
-        <p id="subscribe-status" class="hidden text-sm font-semibold" role="status" aria-live="polite"></p>
-
-        <button
-          type="submit"
-          id="subscribe-submit"
-          class="w-full rounded-lg bg-brand-primary px-4 py-3 font-bold text-brand-primary-ink transition-colors hover:bg-brand-primary-hover disabled:opacity-60 dark:text-brand-primary-ink-dark dark:hover:bg-brand-primary-hover-dark sm:w-auto sm:px-8"
-        >
-          Subscribe
-        </button>
+        <p id="subscribe-status" class="mt-3 hidden text-sm font-semibold" role="status" aria-live="polite"></p>
       </form>
     </div>
   </section>

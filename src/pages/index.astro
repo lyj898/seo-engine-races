@@ -199,6 +199,20 @@ const jsonLd = [
       )}
     </section>
 
+    {/* Directly under the hero, above the calendar. It used to sit after the
+        calendar on the theory that the ask ("which countries do you care
+        about?") lands best on someone who has just been scrolling those
+        countries' listings -- but this page renders every listing the site
+        has, ~237 cards over a dozen month groups, so "after the calendar"
+        is roughly 20 screens down and nobody ever saw it. The component is
+        a shallow band with its country picker collapsed precisely so it can
+        live here without pushing the first month of listings below the fold.
+        Countries offered are the same top-level ones the region grid below
+        lists, so the form can't offer updates for a country we don't cover. */}
+    <section class="mt-8">
+      <MailingListSignup regions={topLevelRegions} />
+    </section>
+
     {isDateDriven ? (
       <section class="mt-10" id="race-calendar">
         <div
@@ -289,16 +303,6 @@ const jsonLd = [
 
     <section class="mt-14">
       <StatsSummary stats={stats} />
-    </section>
-
-    {/* Sits directly under the calendar rather than above the footer: the
-        ask ("tell us which countries you care about") only makes sense to
-        someone who has just been scrolling those countries' listings, and
-        below three hub grids almost nobody reaches it. Countries offered
-        are the same top-level ones the grid below lists, so the form can't
-        offer to send updates for a country the site doesn't cover. */}
-    <section class="mt-14">
-      <MailingListSignup regions={topLevelRegions} />
     </section>
 
     {topLevelRegions.length > 0 && (

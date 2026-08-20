@@ -27,6 +27,10 @@ const links = footerLinks();
     <div>
       <p class="mb-2 font-semibold">About</p>
       <ul class="space-y-1">
+        {/* The signup form itself only exists on the homepage; this is the
+            one link to it that appears on every URL, so a reader who lands
+            on a listing or an article has a way back to it. */}
+        <li><a href={`${urls.home()}#subscribe`} class="link-muted">Email alerts</a></li>
         <li><a href={urls.about()} class="link-muted">About &amp; Methodology</a></li>
         <li><a href={urls.privacy()} class="link-muted">Privacy</a></li>
         <li><a href={urls.terms()} class="link-muted">Terms</a></li>
