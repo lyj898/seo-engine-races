@@ -20,6 +20,7 @@ import ReviewArticle from '../../components/ReviewArticle.astro';
 import FAQSection from '../../components/FAQSection.astro';
 import RelatedEntities from '../../components/RelatedEntities.astro';
 import { isLapsed, findSuccessorEntity } from '../../lib/succession.js';
+import { withoutRegistrationClaims, withoutRegistrationClaimsReview } from '../../lib/text.js';
 import { pickRelatedEntities, pickRelatedReviews } from '../../lib/related.js';
 import { buildFaqPageSchema, buildBreadcrumbListSchema, buildReviewSchema } from '../../lib/schema-jsonld.js';
 import { displayableRating, hasParticipantEvidence } from '../../lib/ratings.js';
@@ -43,7 +44,11 @@ export function getStaticPaths() {
     }));
 }
 
-const { review, entity } = Astro.props;
+// The site publishes no registration status (see the block comment above
+// withoutRegistrationClaims in src/lib/text.js), so both records are
+// scrubbed on the way in, exactly as on the entity page.
+const review = withoutRegistrationClaimsReview(Astro.props.review);
+const entity = withoutRegistrationClaims(Astro.props.entity);
 
 // With mergedReviews on, this review's body now lives on the entity page, so
 // this URL redirects there rather than serving the same content twice.

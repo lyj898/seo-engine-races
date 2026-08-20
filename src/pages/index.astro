@@ -20,6 +20,7 @@ import StatsSummary from '../components/StatsSummary.astro';
 import HeroStats from '../components/HeroStats.astro';
 import SearchBox from '../components/SearchBox.astro';
 import FAQSection from '../components/FAQSection.astro';
+import MailingListSignup from '../components/MailingListSignup.astro';
 import { buildWebsiteSchema, buildFaqPageSchema } from '../lib/schema-jsonld.js';
 
 const entities = loadEntities().map(stripMeta).filter(isPublished);
@@ -288,6 +289,16 @@ const jsonLd = [
 
     <section class="mt-14">
       <StatsSummary stats={stats} />
+    </section>
+
+    {/* Sits directly under the calendar rather than above the footer: the
+        ask ("tell us which countries you care about") only makes sense to
+        someone who has just been scrolling those countries' listings, and
+        below three hub grids almost nobody reaches it. Countries offered
+        are the same top-level ones the grid below lists, so the form can't
+        offer to send updates for a country the site doesn't cover. */}
+    <section class="mt-14">
+      <MailingListSignup regions={topLevelRegions} />
     </section>
 
     {topLevelRegions.length > 0 && (

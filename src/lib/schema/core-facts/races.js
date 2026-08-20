@@ -15,9 +15,13 @@ export const racesCoreFactsSchema = z.object({
   // The date entries actually shut. registration_status alone is a snapshot
   // with no expiry -- an entity stamped "open" in June still reads "open" in
   // August, which is how the site came to tell readers they could enter the
-  // Sarawak Energy Marathon five weeks after its 30 June deadline. Storing
-  // the deadline lets resolveRegistrationState() age the status out on its
-  // own instead of waiting for a refresh that may never re-check it.
+  // Sarawak Energy Marathon five weeks after its 30 June deadline. That is
+  // why the status itself is no longer published at all (see
+  // withoutRegistrationClaims in src/lib/text.js); the deadline is, because
+  // a stored date is a claim a reader can check against today for
+  // themselves. Both fields are still stored and still refreshed --
+  // scripts/validate-data.js compares them to flag records that contradict
+  // themselves.
   //
   // Format is enforced (unlike `date`, which predates this and carries real
   // data in looser shapes) because every value of this field is new: a

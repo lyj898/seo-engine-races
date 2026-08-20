@@ -22,7 +22,7 @@ import RelatedListicles from '../../components/RelatedListicles.astro';
 import LastUpdated from '../../components/LastUpdated.astro';
 import Pill from '../../components/Pill.astro';
 import { narrowFactsToCategories } from '../../lib/categoryMatch.js';
-import { withResolvedRegistration, dedupeFaqs } from '../../lib/text.js';
+import { withoutRegistrationClaims, withoutRegistrationClaimsReview, dedupeFaqs } from '../../lib/text.js';
 import { displayableRating, hasParticipantEvidence } from '../../lib/ratings.js';
 import { pickRelatedEntities } from '../../lib/related.js';
 import { buildEntitySchema, buildFaqPageSchema, buildBreadcrumbListSchema, buildReviewSchema } from '../../lib/schema-jsonld.js';
@@ -38,7 +38,12 @@ export function getStaticPaths() {
   }));
 }
 
-const { entity } = Astro.props;
+// Scrubbed once, here, so everything downstream on this page reads the same
+// record: the facts table, the summary, the pros/cons, the FAQ accordion and
+// the JSON-LD all build from `entity`, and none of them can reintroduce a
+// registration-status claim on their own. See withoutRegistrationClaims in
+// src/lib/text.js for why the site publishes no registration status.
+const entity = withoutRegistrationClaims(Astro.props.entity);
 const categories = loadCategories().map(stripMeta);
 const regions = loadRegions().map(stripMeta);
 const allEntities = loadEntities().map(stripMeta).filter(isPublished);
@@ -50,9 +55,13 @@ const region = regions.find((r) => r.region_id === entity.region_id);
 // If a published review article exists for this entity, surface it near the
 // top -- the long-form review is the more engaging read; the listing is the
 // facts sheet it links back to.
-const review = siteConfig.enabledFeatures?.reviews
+// Scrubbed like the entity is: with mergedReviews on, this review's body IS
+// this page, so a "registration is open now" sentence in it is the same
+// claim the badge used to make, in the same place a reader trusts.
+const rawReview = siteConfig.enabledFeatures?.reviews
   ? loadReviews().map(stripMeta).filter(isPublished).find((r) => r.entity_id === entity.entity_id)
   : undefined;
+const review = rawReview ? withoutRegistrationClaimsReview(rawReview) : undefined;
 
 // With mergedReviews on, the review body renders HERE rather than at its own
 // URL (see site.config.json's _mergedReviews_note). `merged` gates every
@@ -219,7 +228,7 @@ const jsonLd = [
     )}
 
     <div class="mt-8">
-      <FactsTable facts={withResolvedRegistration(narrowFactsToCategories(entity.core_facts, categories))} />
+      <FactsTable facts={narrowFactsToCategories(entity.core_facts, categories)} />
     </div>
 
     {/* The review body -- the reason this page exists as a merged page at

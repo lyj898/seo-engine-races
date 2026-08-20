@@ -125,10 +125,10 @@ for (const item of rawEntities) {
   }
   // Registration status is the field most likely to be quietly wrong: it is
   // a snapshot with no expiry, and refresh only re-verifies ~25 entities a
-  // week against a directory of 200+. The renderers now age it out at
-  // display time (resolveRegistrationState), but that hides the bad data
-  // rather than fixing it -- these warnings surface the entities whose
-  // stored facts actually need correcting.
+  // week against a directory of 200+. The site stopped publishing it for
+  // exactly that reason (see withoutRegistrationClaims in src/lib/text.js),
+  // but nothing renderers do fixes the stored data -- these warnings surface
+  // the entities whose facts actually need correcting.
   //
   // Warnings, not errors, on purpose: dozens of entities are affected right
   // now, and failing the build would block every unrelated change until the
