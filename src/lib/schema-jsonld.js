@@ -84,6 +84,43 @@ export function buildItemListSchema(items, site, toUrl, toName) {
 }
 
 /**
+ * The schema.org types that inherit from Event, and so are the only ones
+ * allowed to carry `eventStatus` / `eventAttendanceMode` below.
+ *
+ * Spelled out as a list rather than tested with a substring match on
+ * "Event": `EventVenue` is a Place and `EventReservation` a Reservation,
+ * so /Event/ would wrongly admit both. And schemaTypePrimary genuinely
+ * varies -- the configs in /config-examples use Hotel, Course,
+ * LocalBusiness and Service, none of which are Events. Emitting an
+ * Event-only property on a Hotel isn't a harmless extra field; it's
+ * invalid structured data for the type being declared.
+ */
+const EVENT_TYPES = new Set([
+  'Event',
+  'BusinessEvent',
+  'ChildrensEvent',
+  'ComedyEvent',
+  'CourseInstance',
+  'DanceEvent',
+  'DeliveryEvent',
+  'EducationEvent',
+  'EventSeries',
+  'ExhibitionEvent',
+  'Festival',
+  'FoodEvent',
+  'Hackathon',
+  'LiteraryEvent',
+  'MusicEvent',
+  'PublicationEvent',
+  'SaleEvent',
+  'ScreeningEvent',
+  'SocialEvent',
+  'SportsEvent',
+  'TheaterEvent',
+  'VisualArtsEvent',
+]);
+
+/**
  * Primary entity schema, typed from site.config.json.schemaTypePrimary
  * (e.g. "SportsEvent", "Hotel", "Course", "LocalBusiness", "Service") --
  * never hardcoded per vertical. Property mapping from core_facts is
@@ -99,6 +136,7 @@ export function buildItemListSchema(items, site, toUrl, toName) {
  */
 export function buildEntitySchema(entity, siteConfig, url) {
   const facts = entity.core_facts ?? {};
+  const isEvent = EVENT_TYPES.has(siteConfig.schemaTypePrimary);
   const schema = {
     '@context': 'https://schema.org',
     '@type': siteConfig.schemaTypePrimary,
@@ -108,6 +146,20 @@ export function buildEntitySchema(entity, siteConfig, url) {
   if (url) schema.url = url;
 
   if (facts.date) schema.startDate = facts.date;
+
+  // The two Event properties Google lists as recommended that are constants
+  // rather than data, which is the whole reason they can be added here at
+  // all: the others it wants (image, endDate, performer, a numeric
+  // offers.price) would have to be invented, and this builder's rule is that
+  // a property appears only when the fact behind it exists.
+  //
+  // EventScheduled asserts only "not cancelled, postponed or rescheduled",
+  // which is the honest default for anything with a listing page -- an
+  // entity is archived the moment its date lapses (refresh-entities.js), so
+  // a built page is always for an event still meant to go ahead. If a
+  // vertical ever tracks cancellations, this is the line that reads that
+  // fact instead of assuming it.
+  if (isEvent) schema.eventStatus = 'https://schema.org/EventScheduled';
 
   if (facts.venue || facts.city || facts.country) {
     schema.location = {
@@ -119,6 +171,11 @@ export function buildEntitySchema(entity, siteConfig, url) {
         ...(facts.country ? { addressCountry: facts.country } : {}),
       },
     };
+    // Gated on the physical location it sits next to, not emitted flat: a
+    // real venue/city IS the evidence that attendance is in person, so a
+    // virtual-event vertical (whose entities carry no venue) never gets
+    // told its events are offline.
+    if (isEvent) schema.eventAttendanceMode = 'https://schema.org/OfflineEventAttendanceMode';
   }
 
   if (facts.organizer) {
