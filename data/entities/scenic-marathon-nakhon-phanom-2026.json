@@ -48,7 +48,7 @@
       "answer": "The race is held in Nakhon Phanom, a city in Thailand, with the venue itself also listed as Nakhon Phanom. No further specifics about the exact course location or starting point are available in the provided source material."
     }
   ],
-  "reliability_score": 97,
+  "reliability_score": 100,
   "tags": [
     "full-marathon",
     "thailand",
@@ -59,7 +59,7 @@
       "url": "https://scenicmarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-18"
+      "last_checked": "2026-08-25"
     },
     {
       "url": "https://aims-worldrunning.org/calendar.html",
@@ -77,6 +77,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-25",
   "status": "needs_review"
 }

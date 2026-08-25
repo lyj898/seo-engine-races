@@ -52,7 +52,7 @@
       "answer": "The race is organized by the Royal Thai Government through the Ministry of Tourism and Sports, Sports Authority of Thailand, and Tourism Authority of Thailand, alongside the Bangkok Metropolitan Administration, Royal Thai Police, Metropolitan Police Bureau, World Athletics, and Thailand Tri-League, and is presented by TOYOTA."
     }
   ],
-  "reliability_score": 97,
+  "reliability_score": 100,
   "tags": [
     "full-marathon",
     "thailand",
@@ -63,7 +63,7 @@
       "url": "https://amazingthailandmarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-18"
+      "last_checked": "2026-08-25"
     },
     {
       "url": "https://www.ahotu.com/event/amazing-thailand-marathon-bangkok",
@@ -81,6 +81,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-25",
   "status": "needs_review"
 }

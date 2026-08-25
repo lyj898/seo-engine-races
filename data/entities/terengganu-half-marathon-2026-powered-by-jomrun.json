@@ -69,7 +69,7 @@
       "answer": "The race is held in Kuala Terengganu, Malaysia, with the starting point at the Drawbridge venue. This location serves as the hub for all three distance categories offered during the Terengganu Half Marathon 2026 Powered by JomRun®."
     }
   ],
-  "reliability_score": 10,
+  "reliability_score": 5,
   "tags": [
     "10k",
     "malaysia"
@@ -79,7 +79,7 @@
       "url": "https://www.jomrun.com/event/Terengganu-Half-Marathon-2026-powered-by-JomRun",
       "label": "jomrun.com",
       "type": "aggregator",
-      "last_checked": "2026-08-18"
+      "last_checked": "2026-08-25"
     }
   ],
   "affiliate_links": [],
@@ -91,6 +91,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-25",
   "status": "active"
 }

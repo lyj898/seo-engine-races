@@ -57,7 +57,7 @@
       "answer": "As of now, the registration status for LJSN26 has not yet been announced by the organizer, Majlis Perbandaran Teluk Intan (MPTI). Prospective participants should watch for further updates regarding sign-up details, fees, and deadlines ahead of the 25 October 2026 event date."
     }
   ],
-  "reliability_score": 23,
+  "reliability_score": 18,
   "tags": [
     "half-marathon",
     "malaysia"
@@ -67,7 +67,7 @@
       "url": "https://www.racexasia.com",
       "label": "racexasia.com",
       "type": "aggregator",
-      "last_checked": "2026-08-18"
+      "last_checked": "2026-08-25"
     },
     {
       "url": "https://Howei.com",
@@ -85,6 +85,6 @@
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-25",
   "status": "active"
 }

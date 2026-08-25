@@ -61,7 +61,7 @@
       "answer": "This race is organized by Runrio, operating under the Sante Barley Trilogy Run Asia brand. It is the Manila Leg 3 installment of the Sante Barley Trilogy Run Asia 2026 series, scheduled to be held on September 6, 2026, in Pasay."
     }
   ],
-  "reliability_score": 87,
+  "reliability_score": 90,
   "tags": [
     "half-marathon",
     "philippines",
@@ -72,7 +72,7 @@
       "url": "https://runrio.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-18"
+      "last_checked": "2026-08-25"
     },
     {
       "url": "https://runrio.com/race-calendar",
@@ -90,6 +90,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-25",
   "status": "needs_review"
 }

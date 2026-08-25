@@ -7,7 +7,7 @@
   "short_description": "A full-marathon event in Đồ Sơn, Hải Phòng, Vietnam, taking place on December 13, 2026, with distances ranging from 5km to 42.195km.",
   "ai_summary": "The VnExpress Marathon Hải Phòng 2026 is a full-marathon event scheduled for December 13, 2026, in Đồ Sơn, Hải Phòng, Vietnam. Organized by VnExpress and FPT Online, the race offers four distance options: 42.195km, 21.1km, 10km, and 5km, catering to a range of runner abilities. Registration details have not yet been announced.",
   "core_facts": {
-    "date": "2026-12-13",
+    "date": "2026-12-27",
     "distance_km": [
       42.195,
       21.1,
@@ -60,12 +60,12 @@
       "url": "https://bestmarathon.vn/race-info/vnexpress-marathon-hai-phong-2026",
       "label": "bestmarathon.vn",
       "type": "aggregator",
-      "last_checked": "2026-08-18"
+      "last_checked": "2026-08-25"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-08-18",
-  "status": "active"
+  "last_updated": "2026-08-25",
+  "status": "needs_review"
 }

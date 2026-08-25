@@ -30,21 +30,72 @@
     "Only two sources cited for verification (official site plus one aggregator)"
   ],
   "sentiment_scores": {
-    "overall": 80,
+    "overall": 82,
     "breakdown": [
       {
-        "label": "Source verification confidence",
+        "label": "Organisation/Logistics",
         "score": 85
       },
       {
-        "label": "Information completeness",
-        "score": 75
+        "label": "Post-race goodies & race village",
+        "score": 90
+      },
+      {
+        "label": "Weather/Heat comfort",
+        "score": 55
+      },
+      {
+        "label": "Crowd support/atmosphere",
+        "score": 85
+      },
+      {
+        "label": "Course (recent editions with new elevation)",
+        "score": 70
       }
     ]
   },
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "excerpt_quotes": [
+    {
+      "quote": "It was a super warm, humid morning and I was already sweating buckets whilst standing inside the start pen.",
+      "attribution": "Runner race review (2024 half marathon) on PrisChew Dot Com",
+      "source_url": "https://www.prischew.com/sports/running/great-eastern-womens-run-2024-21-1km-race-review/"
+    },
+    {
+      "quote": "It was a very humid morning and the air was sticky.",
+      "attribution": "Runner race review (2025 half marathon) on PrisChew Dot Com",
+      "source_url": "https://www.prischew.com/sports/running/race-review-gewr-2025-hm/"
+    },
+    {
+      "quote": "The spectator support along the route was great for Singapore standards.",
+      "attribution": "Runner race review (2025 half marathon) on PrisChew Dot Com",
+      "source_url": "https://www.prischew.com/sports/running/race-review-gewr-2025-hm/"
+    },
+    {
+      "quote": "It is definitely one of the best races in Singapore and I always enjoy it thoroughly.",
+      "attribution": "Runner race review (2023 half marathon) on PrisChew Dot Com",
+      "source_url": "https://www.prischew.com/sports/running/race-review-gewr-2023/"
+    },
+    {
+      "quote": "One of the highlights about the Great Eastern Women's Run is the generous post-race goodies.",
+      "attribution": "Runner race review (2022, 10km) on PrisChew Dot Com",
+      "source_url": "https://www.prischew.com/sports/running/race-review-gewr-2022-10km/"
+    }
+  ],
+  "research_highlights": [
+    "Route starts and finishes at Singapore Sports Hub/National Stadium; the 2025 edition's half marathon route passed the Barrage, Marina Bay and Gardens by the Bay, with an elevation section over Sheares Bridge just after the 14km mark noted as new and challenging for many runners.",
+    "Half marathon flag-off has typically been very early (around 5:15am), with runners arriving 45 minutes to an hour beforehand to enter the start pens.",
+    "Weather is consistently reported as warm and humid at race time, even in the early morning hours, based on multiple year's reviews (2024, 2025 editions).",
+    "The event is known for generous post-race and race-village perks: past editions have included free-flow oat milk, yoghurt, cheese, 100PLUS drinks, breakfast boxes, a 'powder room' for freshening up, and massage stations (though massage queues can be long).",
+    "Race has multiple categories including 21.1km (Elite/Open), 10km, 5km, a 2km Mummy & Me, and a 100m Princess Dash for young girls, and past editions sold out (fully subscribed) well ahead of race day."
+  ],
+  "research_watchouts": [
+    "Massage stations at the race village have had very long queues in past editions, making them impractical for some runners.",
+    "Humid, sticky conditions at flag-off time have been repeatedly noted by participants, even in the early morning hours before sunrise.",
+    "New elevation additions to the half-marathon course (e.g., Sheares Bridge introduced in a past edition) can catch runners off guard if they haven't trained for elevation.",
+    "Some hydration-station gels have differed in brand from what runners are used to, so those with specific nutrition needs may want to carry their own."
+  ],
+  "research_confidence": "high",
+  "research_last_updated": "2026-08-25",
   "faqs": [
     {
       "question": "Is the Great Eastern Women's Run open to men?",
@@ -59,7 +110,7 @@
       "answer": "Five categories are offered: a 21.1km women-only Half Marathon, a 10km, a 5km, a 2km \"Mummy+Me\" run, and a 100m \"Princess Dash\" for children. This spread makes the event suitable for competitive runners, casual participants, and families attending together at the same race morning."
     }
   ],
-  "reliability_score": 50,
+  "reliability_score": 45,
   "tags": [
     "half-marathon",
     "singapore",
@@ -72,7 +123,7 @@
       "url": "https://greateasternwomensrun.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-18"
+      "last_checked": "2026-08-25"
     },
     {
       "url": "https://www.justrunlah.com/calendar-of-running-events-singapore/",
@@ -93,6 +144,6 @@
     "luang-prabang-half-marathon-run-for-children-2026",
     "ijm-allianz-duo-highway-challenge-2026"
   ],
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-25",
   "status": "active"
 }

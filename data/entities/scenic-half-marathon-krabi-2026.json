@@ -106,7 +106,7 @@
       "url": "https://scenicmarathon.com/event.html?event=KSMH",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-18"
+      "last_checked": "2026-08-25"
     },
     {
       "url": "https://checkpointspot.asia/events",
@@ -124,6 +124,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-25",
   "status": "needs_review"
 }

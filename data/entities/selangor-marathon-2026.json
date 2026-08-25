@@ -27,8 +27,20 @@
   ],
   "cons": [],
   "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "research_highlights": [
+    "SELMAR 2026 offers four distances: full marathon (42km), half marathon (21km), 10km and 5km, plus a Kids Dash category.",
+    "The race takes place on Sunday, 1 November 2026 at Persiaran Flora, Cyberjaya, Selangor — a move from the 2025 edition's venue at the Sepang International Circuit.",
+    "Race pack/kit collection is scheduled for Friday 29 October (11:00am–7:00pm) and Saturday 30 October 2026 (10:00am–3:00pm), with runners required to bring a confirmation slip with QR code plus ID/passport.",
+    "Entry is restricted to participants aged 18 and above for the main race categories, with parental consent required for the Fun Run for those aged 6-17.",
+    "Pacers and external support crew are strictly prohibited, and support from friends/family is only allowed at official checkpoints."
+  ],
+  "research_watchouts": [
+    "All entry fees are stated as non-refundable and non-transferable, and race entries cannot be transferred to another runner.",
+    "The final race route was not published in advance and organizers stated it would only be released two weeks before the event.",
+    "No independent runner reviews or race reports for SELMAR (2025 or 2026 edition) were found at the time of this search — coverage is currently limited to organizer/registration listings rather than participant accounts."
+  ],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-25",
   "faqs": [
     {
       "question": "When is the Selangor Marathon 2026 taking place?",
@@ -69,6 +81,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-25",
   "status": "needs_review"
 }

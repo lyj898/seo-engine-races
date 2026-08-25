@@ -74,7 +74,7 @@
       "answer": "Registration pricing varies by distance category: the 21-kilometer race costs PHP 1,500, while the 12-kilometer race is priced at PHP 1,200. These fees allow participants to join Gaisano Country Mall's charity fun run supporting SOS Children's Village, held on Banilad Road, Cebu City on October 18, 2026."
     }
   ],
-  "reliability_score": 33,
+  "reliability_score": 28,
   "tags": [
     "half-marathon",
     "philippines"
@@ -84,12 +84,12 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-08-18"
+      "last_checked": "2026-08-25"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-25",
   "status": "active"
 }

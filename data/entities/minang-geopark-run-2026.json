@@ -27,9 +27,59 @@
     "Organized by an established event series, Geopark Run Series"
   ],
   "cons": [],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "sentiment_scores": {
+    "overall": 74,
+    "breakdown": [
+      {
+        "label": "Scenery/course atmosphere",
+        "score": 82
+      },
+      {
+        "label": "Community/crowd support",
+        "score": 80
+      },
+      {
+        "label": "Organisation/logistics reliability",
+        "score": 60
+      }
+    ]
+  },
+  "excerpt_quotes": [
+    {
+      "quote": "Minang Geopark Run adalah salah satu event lari yang paling berkesan bagi saya. Keindahan alam Sumatera Barat yang luar biasa, jalur lari yang menantang",
+      "attribution": "Runner testimonial, Geopark Run Series 'Our Journey' page",
+      "source_url": "https://geoparkrun.com/our-journey.html"
+    },
+    {
+      "quote": "Padang Trail Runners selalu hadir dan ngga pernah absen mengikuti ajang lari Minang Geopark Run tiap tahunnya",
+      "attribution": "Padang Trail Runners community testimonial, Minang Geopark Run 'Their Stories' page",
+      "source_url": "https://minang.geoparkrun.com/their-stories/"
+    },
+    {
+      "quote": "Suasana penuh semangat, canda, dan kebersamaan mewarnai sepanjang rute",
+      "attribution": "Local news report on Minang Geopark Run 2025, KotaBukittinggi.com",
+      "source_url": "https://www.kotabukittinggi.com/minang-geopark-run-2025-sumbar-bangkit/"
+    },
+    {
+      "quote": "Bukittinggi adalah kota tamu, semakin banyak orang yang datang makan semakin meningkatkan ekonomi masyarakat",
+      "attribution": "Bukittinggi Mayor Ramlan Nurmatias, quoted by ANTARA News",
+      "source_url": "https://www.antaranews.com/berita/5315860/minang-geopark-run-2025-di-bukitinggi-mengusung-tema-sumbar-bangkit"
+    }
+  ],
+  "research_highlights": [
+    "Three distance categories offered: 5K, 10K, and 21K, with cut-off times of 1.5 hours (5K), 2.5 hours (10K) and 4 hours (21K) in the 2025 edition",
+    "Course runs through the Ngarai Sianok geopark area and past the Jam Gadang clock tower landmark, mixing urban city streets with hilly geopark terrain",
+    "Draws strong turnout from running communities: the 2023 edition had roughly 1,500 runners with 92% from outside Bukittinggi and over 50 running communities joining, while the 2025 edition drew about 3,500 runners, mostly from Riau province",
+    "Race pack collection and race day are typically split over a Friday/Saturday collection window before a Sunday race morning start at Jam Gadang square",
+    "2025 entry fees were roughly Rp250,000-300,000 for 5K, Rp400,000 for 10K, and Rp450,000 for 21K"
+  ],
+  "research_watchouts": [
+    "The 2025 edition was postponed from its original date (from Nov 30, 2025) due to severe flooding and landslides affecting West Sumatra, showing the event's schedule can be weather/disaster-dependent",
+    "Local coverage describes the route as including climbs ('tanjakan') and descents typical of Bukittinggi's hilly terrain, so runners are advised to train on inclines beforehand",
+    "Venue details for race-pack collection have in some editions been listed as 'TBA' relatively close to race day"
+  ],
+  "research_confidence": "medium",
+  "research_last_updated": "2026-08-25",
   "faqs": [
     {
       "question": "What distances are offered at the Minang Geopark Run 2026?",
@@ -48,7 +98,7 @@
       "answer": "Yes, registration for the Minang Geopark Run 2026 is currently open. Interested participants can sign up for any of the three available distances -- 5km, 10km, or the 21.1km half-marathon -- ahead of the event taking place on November 1, 2026, in Bukittinggi, Indonesia."
     }
   ],
-  "reliability_score": 99,
+  "reliability_score": 100,
   "tags": [
     "half-marathon",
     "indonesia",
@@ -59,7 +109,7 @@
       "url": "https://geoparkrun.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-18"
+      "last_checked": "2026-08-25"
     },
     {
       "url": "https://geoparkrun.com/faq",
@@ -95,6 +145,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-25",
   "status": "active"
 }

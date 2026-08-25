@@ -50,7 +50,7 @@
       "answer": "The Khon Kaen International Marathon is held in Khon Kaen, Thailand, which serves as both the venue and host city for the event. This location has hosted the race across its many editions, with the 22nd edition set for January 10, 2027."
     }
   ],
-  "reliability_score": 83,
+  "reliability_score": 86,
   "tags": [
     "full-marathon",
     "thailand",
@@ -61,7 +61,7 @@
       "url": "https://khonkaenmarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-18"
+      "last_checked": "2026-08-25"
     },
     {
       "url": "https://aims-worldrunning.org/calendar.html",
@@ -79,6 +79,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-25",
   "status": "needs_review"
 }

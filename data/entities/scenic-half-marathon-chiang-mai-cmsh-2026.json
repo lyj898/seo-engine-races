@@ -28,8 +28,17 @@
   ],
   "cons": [],
   "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
+  "research_highlights": [
+    "Course runs through Royal Park Rajapruek (Royal Flora Ratchaphruek park) on flat, wide paths past the Ho Kham Luang Royal Pavilion, according to the official race description.",
+    "The race is one of six half marathons in the Scenic Marathon Series, all measured by an AIMS-accredited measurer and carrying a World Athletics Label, according to the series' official site.",
+    "Race falls in early November, which is early dry season in Chiang Mai with cooler, clearer conditions than the hot/rainy months.",
+    "As of the search date, no independent participant reviews had been published on major race-listing sites (Ahotu, World's Marathons both list \"No reviews yet\" for this Chiang Mai edition)."
+  ],
+  "research_watchouts": [
+    "No first-hand participant race reports or community discussion specific to the Chiang Mai edition were found at the time of this search, so course conditions, crowd support and organisational quality on race day are unverified by runners."
+  ],
+  "research_confidence": "low",
+  "research_last_updated": "2026-08-25",
   "faqs": [
     {
       "question": "When is the Scenic Half Marathon Chiang Mai taking place?",
@@ -48,7 +57,7 @@
       "answer": "Yes, registration for the Scenic Half Marathon Chiang Mai is currently open. Prospective participants interested in any of the four distance options—21.1km, 10km, 5km, or 3km—can sign up now ahead of the race date of November 1, 2026."
     }
   ],
-  "reliability_score": 92,
+  "reliability_score": 95,
   "tags": [
     "half-marathon",
     "thailand",
@@ -59,7 +68,7 @@
       "url": "https://scenicmarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-18"
+      "last_checked": "2026-08-25"
     }
   ],
   "affiliate_links": [],
@@ -71,6 +80,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-25",
   "status": "needs_review"
 }

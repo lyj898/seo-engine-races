@@ -50,7 +50,7 @@
       "answer": "The organizer for this particular pass of Bangsaen42 has not been confirmed based on currently available information. Once details are released, this listing can be updated to reflect the confirmed organizing body responsible for the Bangsaen Marathon event."
     }
   ],
-  "reliability_score": 47,
+  "reliability_score": 42,
   "tags": [
     "full-marathon",
     "thailand",
@@ -61,7 +61,7 @@
       "url": "https://www.bangsaen42.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-18"
+      "last_checked": "2026-08-25"
     },
     {
       "url": "https://www.bangsaen42.com/",
@@ -79,6 +79,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-25",
   "status": "active"
 }

@@ -65,7 +65,7 @@
       "answer": "The race takes place at the Indonesia Convention Exhibition (ICE), located in BSD City, Indonesia. This venue serves as the host site for the Garmin Run Asia Series 2026 – Indonesia, which includes 21.1km, 10km, and 5km distance categories for runners."
     }
   ],
-  "reliability_score": 47,
+  "reliability_score": 42,
   "tags": [
     "half-marathon",
     "indonesia",
@@ -76,7 +76,7 @@
       "url": "https://www.garmin.co.id/minisite/garmin-run/",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-18"
+      "last_checked": "2026-08-25"
     },
     {
       "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
@@ -100,6 +100,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-25",
   "status": "active"
 }

@@ -57,7 +57,7 @@
       "answer": "Registration for the Discovery Marathon 2026 has not yet been announced. Details on sign-up dates, fees, and procedures are not currently available, so prospective participants should check back later for updates from the organizer, KNC."
     }
   ],
-  "reliability_score": 15,
+  "reliability_score": 10,
   "tags": [
     "full-marathon",
     "philippines"
@@ -67,12 +67,12 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-08-18"
+      "last_checked": "2026-08-25"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-25",
   "status": "active"
 }

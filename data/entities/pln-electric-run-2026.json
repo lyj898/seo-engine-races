@@ -1,0 +1,46 @@
+{
+  "entity_id": "pln-electric-run-2026",
+  "slug": "pln-electric-run-2026",
+  "name": "PLN Electric Run 2026",
+  "category_id": "half-marathon",
+  "region_id": "indonesia",
+  "short_description": "A road running event at ICE BSD featuring 5K, 10K, and Half Marathon distances.",
+  "ai_summary": "(AI summary pending -- run `npm run summaries`.)",
+  "core_facts": {
+    "date": "2026-11-08",
+    "distance_km": [
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Indonesia Convention Exhibition (ICE) BSD",
+    "city": "BSD",
+    "country": "Indonesia"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [],
+  "reliability_score": 40,
+  "tags": [
+    "road race",
+    "half marathon",
+    "Indonesia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
+      "label": "kalenderlari.com",
+      "type": "aggregator",
+      "last_checked": "2026-08-25"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-08-25",
+  "status": "draft"
+}

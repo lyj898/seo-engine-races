@@ -69,7 +69,7 @@
       "answer": "As of the latest available information, registration for this race has not yet been confirmed as open. Prospective participants should check back for updates regarding sign-up details, since no confirmed registration window or process has been established at this time."
     }
   ],
-  "reliability_score": 25,
+  "reliability_score": 20,
   "tags": [
     "half-marathon",
     "philippines"
@@ -79,7 +79,7 @@
       "url": "https://www.milo.com.ph/national-milo-marathon",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-18"
+      "last_checked": "2026-08-25"
     },
     {
       "url": "https://pinoyfitness.com/2026/01/milo-marathon-2026-full-race-schedule-and-locations-unveiled",
@@ -97,6 +97,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-25",
   "status": "active"
 }

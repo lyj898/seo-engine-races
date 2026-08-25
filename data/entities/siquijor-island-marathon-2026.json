@@ -60,7 +60,7 @@
       "answer": "The Siquijor Island Marathon 2026 takes place on the island of Siquijor, located in the Philippines. The event's venue and city are both listed simply as Siquijor, making it a location-specific race for those looking to experience running on this particular Philippine island."
     }
   ],
-  "reliability_score": 15,
+  "reliability_score": 10,
   "tags": [
     "full-marathon",
     "philippines"
@@ -70,12 +70,12 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-08-18"
+      "last_checked": "2026-08-25"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-25",
   "status": "active"
 }

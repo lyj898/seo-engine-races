@@ -70,7 +70,7 @@
       "answer": "The Rawang Half Marathon 2026 is organized by JomRun, as indicated by the event's official title, 'Powered By JomRun.' JomRun oversees the race logistics, including registration, which is currently open for runners interested in participating in the 21.1km, 10km, or 5km distances."
     }
   ],
-  "reliability_score": 63,
+  "reliability_score": 66,
   "tags": [
     "10k",
     "malaysia"
@@ -80,7 +80,7 @@
       "url": "https://www.jomrun.com/event/Rawang-Half-Marathon-2026-Powered-By-JomRun",
       "label": "jomrun.com",
       "type": "aggregator",
-      "last_checked": "2026-08-18"
+      "last_checked": "2026-08-25"
     }
   ],
   "affiliate_links": [],
@@ -92,6 +92,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-25",
   "status": "needs_review"
 }

@@ -1,0 +1,47 @@
+{
+  "entity_id": "summarecon-bandung-run-fest-2026",
+  "slug": "summarecon-bandung-run-fest-2026",
+  "name": "Summarecon Bandung Run Fest 2026",
+  "category_id": "full-marathon",
+  "region_id": "indonesia",
+  "short_description": "A road running festival in Bandung featuring Kid Dash, 10K, Half Marathon, and Full Marathon distances.",
+  "ai_summary": "(AI summary pending -- run `npm run summaries`.)",
+  "core_facts": {
+    "date": "2026-11-22",
+    "distance_km": [
+      10,
+      21.1,
+      42.195
+    ],
+    "primary_distance_km": 42.195,
+    "venue": "Summarecon Bandung",
+    "city": "Bandung",
+    "country": "Indonesia"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [],
+  "reliability_score": 40,
+  "tags": [
+    "road race",
+    "full marathon",
+    "half marathon",
+    "Indonesia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
+      "label": "kalenderlari.com",
+      "type": "aggregator",
+      "last_checked": "2026-08-25"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-08-25",
+  "status": "draft"
+}

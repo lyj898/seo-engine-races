@@ -48,7 +48,7 @@
       "answer": "According to available information, registration for the Chombueng Marathon has not yet been announced. Prospective participants interested in the half marathon or full marathon distances at this Chom Bueng, Ratchaburi event should check back later for updates on sign-up details and timing."
     }
   ],
-  "reliability_score": 33,
+  "reliability_score": 28,
   "tags": [
     "full-marathon",
     "thailand"
@@ -58,7 +58,7 @@
       "url": "https://runningconnect.com",
       "label": "runningconnect.com",
       "type": "aggregator",
-      "last_checked": "2026-08-18"
+      "last_checked": "2026-08-25"
     },
     {
       "url": "https://timingconnect.com",
@@ -76,6 +76,6 @@
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-25",
   "status": "active"
 }

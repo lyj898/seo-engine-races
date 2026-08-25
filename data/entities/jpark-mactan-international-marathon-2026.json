@@ -60,7 +60,7 @@
       "answer": "The race is held on Mactan Island, located in Lapu-Lapu City, within Cebu province, Philippines. This coastal island setting serves as the venue for all four race distances offered at this event, from the 5km up to the full marathon."
     }
   ],
-  "reliability_score": 27,
+  "reliability_score": 22,
   "tags": [
     "full-marathon",
     "philippines"
@@ -70,7 +70,7 @@
       "url": "https://mytv.ph",
       "label": "mytv.ph",
       "type": "aggregator",
-      "last_checked": "2026-08-18"
+      "last_checked": "2026-08-25"
     },
     {
       "url": "https://www.takbo.ph",
@@ -82,6 +82,6 @@
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-25",
   "status": "active"
 }

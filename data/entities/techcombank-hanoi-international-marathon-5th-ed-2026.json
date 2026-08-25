@@ -64,7 +64,7 @@
       "answer": "The race takes place in Hanoi, Vietnam, but the exact start point within the city has not been stated in available information. Further details about the specific venue or starting location are expected to be announced closer to the event date."
     }
   ],
-  "reliability_score": 89,
+  "reliability_score": 92,
   "tags": [
     "full-marathon",
     "vietnam",
@@ -75,7 +75,7 @@
       "url": "https://marathonhn.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-18"
+      "last_checked": "2026-08-25"
     }
   ],
   "affiliate_links": [],
@@ -87,6 +87,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-25",
   "status": "needs_review"
 }

@@ -67,7 +67,7 @@
       "answer": "The race will be held in Bandar Lampung, Lampung, Indonesia, though the exact start point has not yet been announced by the organizers. Runners planning to participate should keep checking official updates from PT Kereta Api Indonesia (KAI) and RAW Organizer / Runaway Lampung for further venue details."
     }
   ],
-  "reliability_score": 27,
+  "reliability_score": 22,
   "tags": [
     "half-marathon",
     "indonesia"
@@ -77,7 +77,7 @@
       "url": "https://tiptip.id/event/4bc2013e-5ac3-4c05-9049-13fb758ce766",
       "label": "tiptip.id",
       "type": "aggregator",
-      "last_checked": "2026-08-18"
+      "last_checked": "2026-08-25"
     }
   ],
   "affiliate_links": [],
@@ -89,6 +89,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-25",
   "status": "active"
 }

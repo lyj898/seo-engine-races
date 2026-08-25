@@ -47,7 +47,7 @@
       "answer": "Yes, registration for the Mercedes BR Jaya Half Marathon & Duathlon is currently open. Interested participants can sign up ahead of the November 15, 2026 event date to secure their spot in one of the three available distances: 21.1km, 10km, or 5km."
     }
   ],
-  "reliability_score": 45,
+  "reliability_score": 48,
   "tags": [
     "half-marathon",
     "malaysia"
@@ -57,7 +57,7 @@
       "url": "https://www.jomrun.com/event/Mercedes-BR-Jaya-Half-Marathon-Duathlon",
       "label": "jomrun.com",
       "type": "aggregator",
-      "last_checked": "2026-08-18"
+      "last_checked": "2026-08-25"
     }
   ],
   "affiliate_links": [],
@@ -69,6 +69,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-25",
   "status": "needs_review"
 }

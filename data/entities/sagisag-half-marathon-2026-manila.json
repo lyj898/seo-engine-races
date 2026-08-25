@@ -56,7 +56,7 @@
       "answer": "The Sagisag Half Marathon 2026 is organized by RSRJ Events. It takes place in Pasay, Philippines, with SM Mall of Asia serving as the official venue, providing a central and accessible location for participants traveling to the race on September 19, 2026."
     }
   ],
-  "reliability_score": 20,
+  "reliability_score": 15,
   "tags": [
     "half-marathon",
     "philippines"
@@ -66,12 +66,12 @@
       "url": "https://www.pinoyfitness.com/list-of-events/",
       "label": "pinoyfitness.com",
       "type": "aggregator",
-      "last_checked": "2026-08-18"
+      "last_checked": "2026-08-25"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-25",
   "status": "active"
 }

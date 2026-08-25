@@ -79,7 +79,7 @@
       "answer": "Malioboro Run 2026 is organized by Bank BPD DIY. The organization is responsible for coordinating the event, which takes place in Yogyakarta, Indonesia, along the Malioboro area, and includes multiple distance categories for participants who registered before the event sold out."
     }
   ],
-  "reliability_score": 91,
+  "reliability_score": 94,
   "tags": [
     "half-marathon",
     "indonesia",
@@ -90,7 +90,7 @@
       "url": "https://maliobororun.id",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-18"
+      "last_checked": "2026-08-25"
     },
     {
       "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
@@ -114,6 +114,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-25",
   "status": "needs_review"
 }

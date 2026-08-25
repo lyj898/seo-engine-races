@@ -78,7 +78,7 @@
       "answer": "The race will be held in Surabaya, Indonesia, but the exact venue within the city has not yet been stated. Runners interested in the event will need to wait for further announcements to learn the precise start and finish locations."
     }
   ],
-  "reliability_score": 91,
+  "reliability_score": 94,
   "tags": [
     "full-marathon",
     "indonesia",
@@ -89,7 +89,7 @@
       "url": "https://isoplusrun.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-18"
+      "last_checked": "2026-08-25"
     },
     {
       "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
@@ -113,6 +113,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-25",
   "status": "needs_review"
 }

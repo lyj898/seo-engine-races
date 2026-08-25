@@ -74,7 +74,7 @@
       "answer": "Yes, registration for the Merumatta Half Marathon 2026 is currently open. Interested runners can sign up ahead of the race date, October 18, 2026, to secure their spot in one of the four available distance categories."
     }
   ],
-  "reliability_score": 91,
+  "reliability_score": 94,
   "tags": [
     "half-marathon",
     "indonesia",
@@ -85,7 +85,7 @@
       "url": "https://merumatta-halfmarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-18"
+      "last_checked": "2026-08-25"
     },
     {
       "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
@@ -109,6 +109,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-25",
   "status": "needs_review"
 }

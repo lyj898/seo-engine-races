@@ -70,7 +70,7 @@
       "answer": "During the current Early Bird period, registration prices are VND 999,000 for the 42K full marathon, VND 899,000 for the 21K half marathon, VND 699,000 for the 10K, and VND 599,000 for the 5K distance."
     }
   ],
-  "reliability_score": 96,
+  "reliability_score": 99,
   "tags": [
     "full-marathon",
     "vietnam"
@@ -80,7 +80,7 @@
       "url": "https://vpbankmarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-18"
+      "last_checked": "2026-08-25"
     },
     {
       "url": "https://www.worldsmarathons.com",
@@ -98,6 +98,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-25",
   "status": "active"
 }

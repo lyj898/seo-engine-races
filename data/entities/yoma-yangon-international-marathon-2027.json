@@ -16,7 +16,7 @@
     "primary_distance_km": 21.1,
     "organizer": "Yoma",
     "registration_status": "not_yet_announced",
-    "venue": "Yangon (exact start point not yet published)",
+    "venue": "The Campus, 1 Office Park, Rain Tree Drive, Pun Hlaing Estate, Hlaing Thayar Township, Yangon 11401, Myanmar",
     "city": "Yangon",
     "country": "Myanmar"
   },
@@ -60,7 +60,7 @@
       "url": "https://yomayangonmarathon.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-18"
+      "last_checked": "2026-08-25"
     }
   ],
   "affiliate_links": [],
@@ -72,6 +72,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-18",
-  "status": "active"
+  "last_updated": "2026-08-25",
+  "status": "needs_review"
 }

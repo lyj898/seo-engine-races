@@ -73,7 +73,7 @@
       "answer": "Registration for the HOKA Midnight Run Asia 2026 – Iloilo has not yet been announced. Details regarding sign-up dates, fees, or procedures are currently unavailable, so prospective participants will need to wait for further updates from the organizer, Runrio, regarding registration."
     }
   ],
-  "reliability_score": 45,
+  "reliability_score": 40,
   "tags": [
     "half-marathon",
     "philippines",
@@ -84,7 +84,7 @@
       "url": "https://runrio.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-18"
+      "last_checked": "2026-08-25"
     },
     {
       "url": "https://runrio.com/race-calendar",
@@ -102,6 +102,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-25",
   "status": "active"
 }

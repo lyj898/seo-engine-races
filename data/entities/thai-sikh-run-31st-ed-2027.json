@@ -49,7 +49,7 @@
       "answer": "As of now, registration for the 2027 edition of the Thai Sikh Run has not yet been announced. Prospective participants will need to wait for further updates from the organizing committee regarding sign-up dates, fees, and other entry requirements before they can register."
     }
   ],
-  "reliability_score": 35,
+  "reliability_score": 30,
   "tags": [
     "half-marathon",
     "thailand"
@@ -59,7 +59,7 @@
       "url": "https://aims-worldrunning.org/calendar.html",
       "label": "aims-worldrunning.org",
       "type": "aggregator",
-      "last_checked": "2026-08-18"
+      "last_checked": "2026-08-25"
     },
     {
       "url": "https://bangkokpost.com",
@@ -89,6 +89,6 @@
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-25",
   "status": "active"
 }

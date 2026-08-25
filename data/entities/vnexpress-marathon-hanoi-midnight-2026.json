@@ -50,7 +50,7 @@
       "answer": "Registration for the VnExpress Marathon Hanoi Midnight 2026 has not yet been announced. Prospective participants will need to watch for updates from the organizer, VnExpress/FPT Online, regarding when sign-ups, entry fees, and other registration details become available."
     }
   ],
-  "reliability_score": 20,
+  "reliability_score": 15,
   "tags": [
     "full-marathon",
     "vietnam"
@@ -60,12 +60,12 @@
       "url": "https://e.vnexpress.net",
       "label": "e.vnexpress.net",
       "type": "aggregator",
-      "last_checked": "2026-08-18"
+      "last_checked": "2026-08-25"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-25",
   "status": "active"
 }

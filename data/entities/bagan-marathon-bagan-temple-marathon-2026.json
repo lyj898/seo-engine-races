@@ -47,7 +47,7 @@
       "answer": "Registration for the Bagan Marathon is currently open and can be completed through a Google Form or via the event's Facebook page. Interested runners should check these channels directly for the most current registration details ahead of the race date on November 8, 2026."
     }
   ],
-  "reliability_score": 33,
+  "reliability_score": 28,
   "tags": [
     "full-marathon",
     "myanmar"
@@ -57,12 +57,12 @@
       "url": "https://worldsmarathons.com",
       "label": "worldsmarathons.com",
       "type": "aggregator",
-      "last_checked": "2026-08-18"
+      "last_checked": "2026-08-25"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-25",
   "status": "active"
 }

@@ -58,7 +58,7 @@
       "answer": "Victoria Run 2026 is scheduled to take place on October 11, 2026. The event will be held at GBK Senayan in Jakarta, Indonesia, and will include three distance options: a 21.1km half-marathon, a 10km race, and a 5km race."
     }
   ],
-  "reliability_score": 47,
+  "reliability_score": 42,
   "tags": [
     "half-marathon",
     "indonesia",
@@ -69,7 +69,7 @@
       "url": "https://www.victoriarun.id",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-18"
+      "last_checked": "2026-08-25"
     },
     {
       "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
@@ -93,6 +93,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-25",
   "status": "active"
 }
