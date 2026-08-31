@@ -1,0 +1,63 @@
+{
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "tags": [
+    "half-marathon",
+    "malaysia",
+    "night-race"
+  ],
+  "affiliate_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-08-31",
+  "status": "archived",
+  "entity_id": "johor-night-half-marathon-2026-powered-by-jomrun",
+  "slug": "johor-night-half-marathon-2026-powered-by-jomrun",
+  "name": "Johor Night Half Marathon 2026 Powered by JomRun",
+  "category_id": "half-marathon",
+  "region_id": "malaysia",
+  "short_description": "The Johor Night Half Marathon 2026 was run on the evening of 25 July 2026 from Persiaran Medini 5, Iskandar Puteri, over 5 km, 10 km and 21.1 km.",
+  "ai_summary": "The Johor Night Half Marathon 2026 Powered by JomRun took place on 25 July 2026, starting at 8.00pm from Persiaran Medini 5 in Iskandar Puteri, Johor, in front of Sunway Big Box. Unusually for the region it was run at night rather than before dawn, and offered a 5 km fun run, a 10 km fun run and a 21.1 km competitive half marathon. This edition has been run; the listing is kept as a record of it.",
+  "core_facts": {
+    "date": "2026-07-25",
+    "distance_km": [
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "organizer": "JomRun",
+    "registration_deadline": "2026-07-25",
+    "venue": "Persiaran Medini 5, Iskandar Puteri (in front of Sunway Big Box)",
+    "city": "Iskandar Puteri, Johor",
+    "country": "Malaysia"
+  },
+  "faqs": [
+    {
+      "question": "When was the Johor Night Half Marathon 2026 held?",
+      "answer": "The race was held on the evening of Saturday 25 July 2026, flagged off at 8.00pm from Persiaran Medini 5 in Iskandar Puteri. An evening start is unusual in Malaysia, where most road races set off in the small hours to avoid the daytime heat."
+    },
+    {
+      "question": "Where did the Johor Night Half Marathon 2026 start?",
+      "answer": "The start line was on Persiaran Medini 5 in Iskandar Puteri, Johor, directly in front of Sunway Big Box. All three categories -- the 5 km fun run, the 10 km fun run and the 21.1 km competitive half marathon -- set off from the same point."
+    }
+  ],
+  "reliability_score": 20,
+  "source_mix": [
+    {
+      "url": "https://www.jomrun.com/event/Johor-Night-Half-Marathon-2026-Powered-by-JomRun",
+      "label": "JomRun event page",
+      "type": "registration_platform",
+      "last_checked": "2026-08-31"
+    }
+  ],
+  "cta_links": [
+    {
+      "label": "Event page on JomRun",
+      "url": "https://www.jomrun.com/event/Johor-Night-Half-Marathon-2026-Powered-by-JomRun",
+      "type": "official_website"
+    }
+  ]
+}

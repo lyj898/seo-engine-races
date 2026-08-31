@@ -1,0 +1,62 @@
+{
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "tags": [
+    "half-marathon",
+    "malaysia"
+  ],
+  "affiliate_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-08-31",
+  "status": "archived",
+  "entity_id": "ultron-half-marathon-powered-by-caceis-putrajaya-2026",
+  "slug": "ultron-half-marathon-powered-by-caceis-putrajaya-2026",
+  "name": "Ultron Half Marathon Powered by CACEIS @ Putrajaya 2026",
+  "category_id": "half-marathon",
+  "region_id": "malaysia",
+  "short_description": "The Ultron Half Marathon Powered by CACEIS @ Putrajaya was run on 26 July 2026 from IOI City Mall, Putrajaya, over 5 km, 10 km and 21.1 km.",
+  "ai_summary": "The Ultron Half Marathon Powered by CACEIS @ Putrajaya took place on 26 July 2026, starting at 3.45am from the West Wing (Old Wing) of IOI City Mall in Putrajaya, Malaysia. The event offered three categories -- a 5 km fun run, a 10 km fun run and a 21.1 km competitive half marathon -- and was listed and managed through the JomRun platform, with entries closing the evening before the race. This edition has been run; the listing is kept as a record of it.",
+  "core_facts": {
+    "date": "2026-07-26",
+    "distance_km": [
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "organizer": "JomRun",
+    "registration_deadline": "2026-07-25",
+    "venue": "West Wing (Old Wing), IOI City Mall, Putrajaya",
+    "city": "Putrajaya",
+    "country": "Malaysia"
+  },
+  "faqs": [
+    {
+      "question": "When was the Ultron Half Marathon Powered by CACEIS @ Putrajaya 2026 held?",
+      "answer": "The race was held on Sunday 26 July 2026, with the first wave flagged off at 3.45am from IOI City Mall in Putrajaya. A pre-dawn start is standard for Malaysian road races, which schedule early to get runners off the course before the daytime heat builds."
+    },
+    {
+      "question": "What distances did the Ultron Half Marathon @ Putrajaya 2026 offer?",
+      "answer": "Three categories were offered: a 5 km fun run, a 10 km fun run and a 21.1 km competitive half marathon. The 21.1 km event was the marquee distance, and all three set off from the West Wing of IOI City Mall in Putrajaya."
+    }
+  ],
+  "reliability_score": 20,
+  "source_mix": [
+    {
+      "url": "https://www.jomrun.com/event/Ultron-Half-Marathon-Powered-by-CACEIS-Putrajaya",
+      "label": "JomRun event page",
+      "type": "registration_platform",
+      "last_checked": "2026-08-31"
+    }
+  ],
+  "cta_links": [
+    {
+      "label": "Event page on JomRun",
+      "url": "https://www.jomrun.com/event/Ultron-Half-Marathon-Powered-by-CACEIS-Putrajaya",
+      "type": "official_website"
+    }
+  ]
+}

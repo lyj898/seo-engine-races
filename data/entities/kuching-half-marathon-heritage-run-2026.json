@@ -1,0 +1,76 @@
+{
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [
+    "Drew more than 4,200 confirmed runners from 20 countries, one of the larger road races staged in Sarawak",
+    "This was the third edition of the event",
+    "Staggered flag-off: 21.1 km at 4.00am, 10 km at 6.00am and the 5 km fun run at 6.30am",
+    "The route was billed around Kuching's heritage landmarks, riverside views and cultural murals",
+    "Entries closed on 28 June 2026, almost a month before race day"
+  ],
+  "research_watchouts": [],
+  "tags": [
+    "half-marathon",
+    "malaysia"
+  ],
+  "affiliate_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-08-31",
+  "status": "archived",
+  "entity_id": "kuching-half-marathon-heritage-run-2026",
+  "slug": "kuching-half-marathon-heritage-run-2026",
+  "name": "Kuching Half Marathon Heritage Run 2026",
+  "category_id": "half-marathon",
+  "region_id": "malaysia",
+  "short_description": "The third Kuching Half Marathon Heritage Run was run on 26 July 2026 from the MBKS boulevard in Kuching, Sarawak, drawing over 4,200 runners from 20 countries.",
+  "ai_summary": "The Kuching Half Marathon Heritage Run 2026, the third edition of the event, took place on 26 July 2026 from the MBKS building boulevard in central Kuching, Sarawak. Organised by the City Jogger's Club, it drew more than 4,200 confirmed runners from 20 countries across three categories: a 21.1 km half marathon flagged off at 4.00am, a 10 km run at 6.00am and a 5 km fun run at 6.30am, on a route billed around the city's heritage landmarks and riverside. This edition has been run; the listing is kept as a record of it.",
+  "core_facts": {
+    "date": "2026-07-26",
+    "distance_km": [
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "organizer": "City Jogger's Club (CJC)",
+    "registration_deadline": "2026-06-28",
+    "venue": "MBKS building boulevard, Kuching",
+    "city": "Kuching, Sarawak",
+    "country": "Malaysia"
+  },
+  "research_confidence": "medium",
+  "research_last_updated": "2026-08-31",
+  "faqs": [
+    {
+      "question": "When was the Kuching Half Marathon Heritage Run 2026 held?",
+      "answer": "The third edition was held on Sunday 26 July 2026 from the MBKS boulevard in central Kuching, Sarawak. The 21.1 km half marathon was flagged off at 4.00am, followed by the 10 km run at 6.00am and the 5 km fun run at 6.30am."
+    },
+    {
+      "question": "How many runners took part in the Kuching Half Marathon Heritage Run 2026?",
+      "answer": "More than 4,200 runners from 20 countries were confirmed for the 2026 edition, across the 21.1 km, 10 km and 5 km categories. That made it one of the larger road running events staged in Sarawak that year, organised by the City Jogger's Club."
+    }
+  ],
+  "reliability_score": 30,
+  "source_mix": [
+    {
+      "url": "https://www.jomrun.com/event/Kuching-Half-Marathon-Heritage-Run-2026",
+      "label": "JomRun event page",
+      "type": "registration_platform",
+      "last_checked": "2026-08-31"
+    },
+    {
+      "url": "https://dayakdaily.com/4200-runners-from-20-countries-confirmed-for-kuching-half-marathon-heritage-run-2026-on-july-26/",
+      "label": "DayakDaily -- 4,200 runners from 20 countries confirmed",
+      "type": "other",
+      "last_checked": "2026-08-31"
+    }
+  ],
+  "cta_links": [
+    {
+      "label": "Event page on JomRun",
+      "url": "https://www.jomrun.com/event/Kuching-Half-Marathon-Heritage-Run-2026",
+      "type": "official_website"
+    }
+  ]
+}
