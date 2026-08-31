@@ -9,13 +9,19 @@ import {
   buildRegionEntityCounts,
   regionHasEntities,
 } from '../../lib/data.js';
+import { isLapsed } from '../../lib/succession.js';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import HubCard from '../../components/HubCard.astro';
 import { buildBreadcrumbListSchema } from '../../lib/schema-jsonld.js';
 
 const regions = loadRegions().map(stripMeta).filter(isPublished);
-const entities = loadEntities().map(stripMeta).filter(isPublished);
+// Lapse-filtered like every other listing surface (homepage, region hubs):
+// refresh-entities.js only archives a finished race weekly, so between runs
+// isPublished still admits races that have already been run. Left unfiltered,
+// this hub presents them in the grid under an upcoming-looking date badge.
+// Their own pages stay live; the region hubs list them under Past races.
+const entities = loadEntities().map(stripMeta).filter(isPublished).filter((e) => !isLapsed(e));
 const regionCounts = buildRegionEntityCounts(regions, entities);
 
 // Only top-level regions here -- child regions are reached by drilling down

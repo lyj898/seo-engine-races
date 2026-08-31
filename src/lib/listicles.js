@@ -1,4 +1,5 @@
 import { buildRegionAncestryMap, isPublished } from './data.js';
+import { isLapsed } from './succession.js';
 import { entityMatchesCategory } from './categoryMatch.js';
 
 /**
@@ -34,7 +35,13 @@ export function resolveListicleEntities(listicle, entities, regions, categories 
       const allMatch = filters.core_facts_filters.every((cond) => matchesCoreFactsFilter(entity.core_facts, cond));
       if (!allMatch) return false;
     }
-    return isPublished(entity);
+    // Lapsed as well as unpublished. A guide is a recommendation -- "the best
+    // full marathons in Malaysia" is advice about what to enter -- so an
+    // edition that has already been run is not a weaker entry in it, it is a
+    // wrong one. Dropping them here rather than at each call site also means
+    // the fingerprint below reflects the set actually shown, so a guide whose
+    // races have since run is correctly reported as having stale copy.
+    return isPublished(entity) && !isLapsed(entity);
   });
 
   // Editorial pins: include manually-listed entities even if they don't
@@ -43,7 +50,11 @@ export function resolveListicleEntities(listicle, entities, regions, categories 
   for (const id of manualIds) {
     if (resultIds.has(id)) continue;
     const pinned = entities.find((e) => e.entity_id === id);
-    if (pinned) {
+    // A pin overrides the filters, not the calendar. Editorial intent is
+    // "this one belongs in the guide", which stops being true the day the
+    // race is run -- and a pin is exactly how a finished race would persist
+    // at the top of a guide long after the filters stopped returning it.
+    if (pinned && !isLapsed(pinned)) {
       results.push(pinned);
       resultIds.add(id);
     }

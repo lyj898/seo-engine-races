@@ -4,6 +4,7 @@ import { urls } from '../../lib/urls.js';
 import { loadEntities, loadCategories, loadRegions, stripMeta, isPublished } from '../../lib/data.js';
 import { entityMatchesCategory } from '../../lib/categoryMatch.js';
 import { byUpcomingDate } from '../../lib/sort.js';
+import { isLapsed } from '../../lib/succession.js';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import StatsSummary from '../../components/StatsSummary.astro';
@@ -22,7 +23,12 @@ export function getStaticPaths() {
 }
 
 const { category } = Astro.props;
-const allEntities = loadEntities().map(stripMeta).filter(isPublished);
+// Lapse-filtered like every other listing surface (homepage, region hubs):
+// refresh-entities.js only archives a finished race weekly, so between runs
+// isPublished still admits races that have already been run. Left unfiltered,
+// this hub presents them in the grid under an upcoming-looking date badge.
+// Their own pages stay live; the region hubs list them under Past races.
+const allEntities = loadEntities().map(stripMeta).filter(isPublished).filter((e) => !isLapsed(e));
 const allCategories = loadCategories().map(stripMeta);
 const allRegions = loadRegions().map(stripMeta);
 

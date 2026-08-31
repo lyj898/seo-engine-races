@@ -2,6 +2,7 @@
 import siteConfig from '../../lib/config.js';
 import { urls } from '../../lib/urls.js';
 import { loadEntities, loadCategories, stripMeta, isPublished } from '../../lib/data.js';
+import { isLapsed } from '../../lib/succession.js';
 import { byDistanceDesc } from '../../lib/sort.js';
 import { entityMatchesCategory } from '../../lib/categoryMatch.js';
 import BaseLayout from '../../layouts/BaseLayout.astro';
@@ -10,7 +11,12 @@ import HubCard from '../../components/HubCard.astro';
 import { buildBreadcrumbListSchema } from '../../lib/schema-jsonld.js';
 
 const categories = loadCategories().map(stripMeta).filter(isPublished).sort(byDistanceDesc);
-const entities = loadEntities().map(stripMeta).filter(isPublished);
+// Lapse-filtered like every other listing surface (homepage, region hubs):
+// refresh-entities.js only archives a finished race weekly, so between runs
+// isPublished still admits races that have already been run. Left unfiltered,
+// this hub presents them in the grid under an upcoming-looking date badge.
+// Their own pages stay live; the region hubs list them under Past races.
+const entities = loadEntities().map(stripMeta).filter(isPublished).filter((e) => !isLapsed(e));
 
 const breadcrumbItems = [
   { label: siteConfig.siteName, href: urls.home() },
