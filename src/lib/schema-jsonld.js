@@ -153,12 +153,13 @@ export function buildEntitySchema(entity, siteConfig, url) {
   // offers.price) would have to be invented, and this builder's rule is that
   // a property appears only when the fact behind it exists.
   //
-  // EventScheduled asserts only "not cancelled, postponed or rescheduled",
-  // which is the honest default for anything with a listing page -- an
-  // entity is archived the moment its date lapses (refresh-entities.js), so
-  // a built page is always for an event still meant to go ahead. If a
-  // vertical ever tracks cancellations, this is the line that reads that
-  // fact instead of assuming it.
+  // EventScheduled asserts only "not cancelled, postponed or rescheduled" --
+  // it is not a claim that the date is still ahead, which matters because
+  // listings are now kept after their date passes rather than deleted, so
+  // plenty of these describe events that have already been run. Went ahead as
+  // scheduled is the honest reading for those too. If a vertical ever tracks
+  // cancellations, this is the line that reads that fact instead of assuming
+  // it.
   if (isEvent) schema.eventStatus = 'https://schema.org/EventScheduled';
 
   if (facts.venue || facts.city || facts.country) {

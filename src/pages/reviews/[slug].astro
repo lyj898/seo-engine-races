@@ -64,15 +64,18 @@ const entity = withoutRegistrationClaims(Astro.props.entity);
 // page this merge exists to get indexed. An instant (0-second) meta refresh
 // plus a canonical, with no robots directive, is the standard consolidation
 // signal for a static host, and Google reads a 0-second refresh as permanent.
-// isPublished, not just the flag: review pages are built for the WIDER
-// isReviewableEntity gate (archived races included, so a review stays a
-// valid landing page after race day -- see getStaticPaths above), but entity
-// pages are built only for isPublished ones. For the 23 reviews whose race
-// has lapsed and been archived there is no entity page to redirect to, and
-// redirecting there anyway sends readers and crawlers to a 404. Those keep
-// serving the full review below -- it is the only page that content has, and
-// it already renders the "this edition has already taken place" banner.
-const entityHasPage = isPublished(entity);
+// isReviewableEntity, matching the gate [entityType]/[slug].astro builds on,
+// so the two routes cannot disagree about whether the target exists.
+//
+// This used to read isPublished, and had to: entity pages were built only for
+// published records, so for the reviews whose race had lapsed and been
+// archived there was no listing to redirect to, and redirecting anyway would
+// have sent readers and crawlers to a 404. Those reviews served the full
+// article instead. That entire branch is now dead -- archived races keep
+// their listing -- so every merged review redirects, and the split that
+// previously put some review URLs in the sitemap as standalone content is
+// gone with it (see sitemap.xml.js).
+const entityHasPage = isReviewableEntity(entity);
 const mergedTarget =
   siteConfig.enabledFeatures?.mergedReviews && entityHasPage
     ? new URL(urls.entity(entity.slug), Astro.site).toString()

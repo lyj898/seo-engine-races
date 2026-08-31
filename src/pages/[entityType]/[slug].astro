@@ -7,7 +7,8 @@
 // shared file) ever containing the literal word "race".
 import siteConfig from '../../lib/config.js';
 import { urls, entityUrlSegment } from '../../lib/urls.js';
-import { loadEntities, loadCategories, loadRegions, loadListicles, loadReviews, stripMeta, isPublished, buildRaceLinkTargets } from '../../lib/data.js';
+import { loadEntities, loadCategories, loadRegions, loadListicles, loadReviews, stripMeta, isPublished, isReviewableEntity, buildRaceLinkTargets } from '../../lib/data.js';
+import { isLapsed, findSuccessorEntity } from '../../lib/succession.js';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import FactsTable from '../../components/FactsTable.astro';
@@ -28,10 +29,25 @@ import { pickRelatedEntities } from '../../lib/related.js';
 import { buildEntitySchema, buildFaqPageSchema, buildBreadcrumbListSchema, buildReviewSchema } from '../../lib/schema-jsonld.js';
 
 export function getStaticPaths() {
-  // Same publish rule as every hub and the sitemap: a detail page exists
-  // for exactly the records that are linked to, so nothing is orphaned and
-  // a retired record doesn't leave a stale page behind.
-  const entities = loadEntities().map(stripMeta).filter(isPublished);
+  // Wider than isPublished on purpose, and this is the one gate on the site
+  // where that matters most.
+  //
+  // refresh-entities.js archives an entity the day after its date passes.
+  // While this route used isPublished, that archiving DELETED the page --
+  // and GitHub Pages has no redirect layer, so every one of those URLs
+  // started returning a hard 404. Measured from Search Console on
+  // 2026-08-31: 27 of the site's 33 clicks in three months landed on URLs
+  // that 404 this way, at positions 6-10. A race page earns its ranking
+  // over the months before race day and then gets deleted at the exact
+  // moment demand peaks -- "<race name> photo" and "<race name> results"
+  // are real queries in that export.
+  //
+  // So a lapsed edition keeps its page and says so, via the `lapsed` banner
+  // below. Same reasoning, same helper (isReviewableEntity) and same
+  // isLapsed/findSuccessorEntity pair that reviews/[slug].astro has always
+  // used -- it just was never applied to the listing itself. "draft" stays
+  // excluded: that is the one status that means genuinely not ready.
+  const entities = loadEntities().map(stripMeta).filter(isReviewableEntity);
   return entities.map((entity) => ({
     params: { entityType: entityUrlSegment, slug: entity.slug },
     props: { entity },
@@ -113,6 +129,15 @@ const pageTitle = merged && review.seo_title?.trim() ? review.seo_title.trim() :
 // siblings, so every entity page links to its neighbours instead of being
 // reachable only from its two hubs.
 const relatedEntities = pickRelatedEntities(entity, allEntities);
+
+// This edition is done. The page stays (see getStaticPaths) but it must not
+// keep reading like an upcoming race: the banner says so at the top, the
+// "find out more" CTA block is suppressed further down -- sending someone to
+// a registration page for a race that already ran is the one thing worse
+// than the 404 this page replaces -- and the successor listing, found from
+// the data rather than hand-linked, gives the reader somewhere to go.
+const lapsed = isLapsed(entity);
+const successor = lapsed ? findSuccessorEntity(entity, allEntities) : null;
 
 // A listicle is "related" if it's explicitly pinned to this entity, or its
 // filter targets this entity's category -- covers both editorial pins and
@@ -197,6 +222,34 @@ const jsonLd = [
       )}
       <LastUpdated date={factsLastChecked} label="Facts last checked" />
     </div>
+
+    {/* Above the summary, not below it: someone arriving from a search for
+        this race by name needs to know the date has passed before they read
+        a description written in the present tense. Mirrors the banner
+        reviews/[slug].astro already shows for the same condition. */}
+    {lapsed && (
+      <div class="mt-6 rounded-xl border border-brand-primary/40 bg-brand-primary-highlight p-4 text-sm dark:bg-brand-primary-highlight-dark">
+        {successor ? (
+          <p>
+            This edition has already taken place. Looking ahead? See the
+            {' '}<a href={urls.entity(successor.slug)} class="link-accent">{successor.name}</a>.
+          </p>
+        ) : region ? (
+          <p>
+            This edition has already taken place, and no future date is listed yet — see
+            {/* Anchor content kept on one line: Astro preserves the source
+                newline and indent as text, which would put a space between
+                the link and the full stop. */}
+            {' '}<a href={urls.region(region.slug)} class="link-accent">other {siteConfig.entityLabelPlural} in {region.label}</a>.
+          </p>
+        ) : (
+          <p>
+            This edition has already taken place, and no future date is listed yet — see
+            {' '}<a href={urls.home()} class="link-accent">the full {siteConfig.entityLabelSingular} calendar</a>.
+          </p>
+        )}
+      </div>
+    )}
 
     <div class="prose-content mt-8">
       <p>{entity.ai_summary}</p>
@@ -291,13 +344,19 @@ const jsonLd = [
       </div>
     )}
 
-    <div class="mt-8">
-      <CTABlock
-        ctaLinks={entity.cta_links}
-        affiliateLinks={entity.affiliate_links}
-        heading={`Find out more about ${entity.name}`}
-      />
-    </div>
+    {/* Suppressed once the date has passed: these links go to the event's own
+        site and registration pages, and pointing a reader at "register now"
+        for a race that already ran is worse than the 404 this page replaces.
+        The banner above carries the onward link instead. */}
+    {!lapsed && (
+      <div class="mt-8">
+        <CTABlock
+          ctaLinks={entity.cta_links}
+          affiliateLinks={entity.affiliate_links}
+          heading={`Find out more about ${entity.name}`}
+        />
+      </div>
+    )}
 
     <div class="mt-10">
       <FAQSection faqs={mergedFaqs} />

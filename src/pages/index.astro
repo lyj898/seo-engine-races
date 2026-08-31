@@ -13,6 +13,7 @@ import {
   regionHasEntities,
 } from '../lib/data.js';
 import { matchedCategoryIds, entityMatchesCategory } from '../lib/categoryMatch.js';
+import { isLapsed } from '../lib/succession.js';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import HubCard from '../components/HubCard.astro';
 import EntityCard from '../components/EntityCard.astro';
@@ -23,7 +24,17 @@ import FAQSection from '../components/FAQSection.astro';
 import MailingListSignup from '../components/MailingListSignup.astro';
 import { buildWebsiteSchema, buildFaqPageSchema } from '../lib/schema-jsonld.js';
 
-const entities = loadEntities().map(stripMeta).filter(isPublished);
+const allPublished = loadEntities().map(stripMeta).filter(isPublished);
+
+// Everything on this page describes what a reader can still enter, so a
+// lapsed edition is filtered out once here rather than in each of the five
+// places below that would otherwise need to remember to. refresh-entities.js
+// archives a race the day after it runs, but that job is weekly, so between
+// runs there are always a few published-but-finished listings -- 8 of them on
+// the day this filter was added. They keep their own page and are listed
+// under "Past editions" on their region hub; they just don't belong in a
+// calendar, a count of it, or a country card's total.
+const entities = allPublished.filter((e) => !isLapsed(e));
 const categories = loadCategories().map(stripMeta).filter(isPublished);
 const regions = loadRegions().map(stripMeta).filter(isPublished);
 const listicles = loadListicles().map(stripMeta).filter(isPublished);
@@ -79,17 +90,25 @@ for (const entity of sortedByDate) {
   group.entities.push(entity);
 }
 
-// Upcoming months lead, already-past months trail -- both still rendered, so
-// nothing disappears from the directory. A handful of records inevitably
-// carry a mis-parsed date from a source page (a "Dec 2025" that should read
-// Dec 2026); left in pure chronological order a single one of those puts a
-// stale month heading at the very top of the page, which reads as a broken
-// calendar. Sorting them to the back keeps every listing reachable while the
-// page opens on what's actually ahead.
+// Upcoming months only. `entities` is already lapse-filtered above, so this
+// mostly can't fire -- it stays as the backstop for a record whose date is
+// mis-parsed from its source page ("Dec 2025" where the source meant Dec
+// 2026). One of those in pure chronological order puts a stale month heading
+// at the very top, which reads as a broken calendar.
+//
+// Past months used to be sorted to the back and still rendered, so that
+// nothing vanished from the directory. That is no longer what keeps them
+// reachable: a lapsed edition holds on to its own page (see getStaticPaths in
+// [entityType]/[slug].astro) and is listed under "Past editions" on its
+// region hub, which is both a better home for it and a real crawl path.
 const currentMonthKey = monthKey(new Date().toISOString().slice(0, 10));
-const upcomingGroups = chronologicalGroups.filter((g) => g.key >= currentMonthKey);
-const pastGroups = chronologicalGroups.filter((g) => g.key < currentMonthKey);
-const monthGroups = [...upcomingGroups, ...pastGroups];
+const monthGroups = chronologicalGroups.filter((g) => g.key >= currentMonthKey);
+
+// What the calendar below actually renders. The "N races found" line has to
+// count these and not `entities`, or the filter script starts from a number
+// the page never showed and every subsequent filter reads as if it dropped
+// listings that were never there.
+const calendarEntities = monthGroups.flatMap((g) => g.entities);
 
 // Distinct months present, for the month filter -- same order as the calendar.
 const monthOptions = monthGroups.map((g) => ({ value: g.key, label: g.label }));
@@ -127,7 +146,7 @@ const heroStats = [
   // window every week. Stating the window is both steadier and the actual
   // promise being made to a visitor.
   {
-    value: isDateDriven ? (siteConfig.sourceConfig?.discoveryWindowMonths ?? upcomingGroups.length) : categories.length,
+    value: isDateDriven ? (siteConfig.sourceConfig?.discoveryWindowMonths ?? monthGroups.length) : categories.length,
     label: isDateDriven ? 'months ahead' : `${siteConfig.categoryLabel}s`,
   },
 ];
@@ -264,7 +283,7 @@ const jsonLd = [
         </div>
 
         <p id="race-count" class="mb-6 text-sm text-brand-muted dark:text-brand-muted-dark">
-          {entities.length} {siteConfig.entityLabelPlural} found
+          {calendarEntities.length} {siteConfig.entityLabelPlural} found
         </p>
 
         {monthGroups.map((group) => (

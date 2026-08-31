@@ -22,23 +22,25 @@ export async function GET({ site }) {
   const regionCounts = buildRegionEntityCounts(allRegions, entities);
   const regions = allRegions.filter((r) => regionHasEntities(r, regionCounts));
   const entityIds = new Set(entities.map((e) => e.entity_id));
-  // Wider gate: which entities have a review page built at all (reviews/[slug]
-  // uses isReviewableEntity, which keeps archived races' reviews live).
-  const reviewableEntityIds = new Set(loadEntities().map(stripMeta).filter(isReviewableEntity).map((e) => e.entity_id));
+
+  // Editions that have already been run. [entityType]/[slug].astro builds a
+  // page for every non-draft entity, so these URLs exist and serve real
+  // content behind a "this edition has already taken place" banner.
+  //
+  // They belong in the sitemap even though they aren't the site's shop
+  // window: Google already has them -- they are, measured, where most of the
+  // site's clicks were landing before the pages were kept -- and submitting
+  // them is what asks for the recrawl that turns a remembered 404 back into a
+  // live page. Sorted newest-first so the most recently run editions, the
+  // ones still drawing "results"/"photos" traffic, lead.
+  const lapsedEntities = loadEntities()
+    .map(stripMeta)
+    .filter(isReviewableEntity)
+    .filter((e) => !entityIds.has(e.entity_id))
+    .sort((a, b) => String(b.core_facts?.date ?? '').localeCompare(String(a.core_facts?.date ?? '')));
+
   const reviews = siteConfig.enabledFeatures?.reviews
     ? loadReviews().map(stripMeta).filter(isPublished).filter((r) => entityIds.has(r.entity_id))
-    : [];
-
-  // Reviews of archived races. Their entity page isn't built (isPublished
-  // excludes archived), so with mergedReviews on these review URLs are NOT
-  // redirects -- they're the only page that content has, and they'd otherwise
-  // be the one thing the merge dropped from the sitemap entirely.
-  const standaloneReviews = siteConfig.enabledFeatures?.reviews
-    ? loadReviews()
-        .map(stripMeta)
-        .filter(isPublished)
-        .filter((r) => !entityIds.has(r.entity_id))
-        .filter((r) => reviewableEntityIds.has(r.entity_id))
     : [];
   const gearArticles = siteConfig.enabledFeatures?.gear ? loadGear().map(stripMeta).filter(isPublished) : [];
   const articles = siteConfig.enabledFeatures?.articles ? loadArticles().map(stripMeta).filter(isPublished) : [];
@@ -64,14 +66,16 @@ export async function GET({ site }) {
     ...categories.map((c) => urls.category(c.slug)),
     ...regions.map((r) => urls.region(r.slug)),
     ...entities.map((e) => urls.entity(e.slug)),
+    ...lapsedEntities.map((e) => urls.entity(e.slug)),
     ...(siteConfig.enabledFeatures?.listicles ? listicles.map((l) => urls.listicle(l.slug)) : []),
-    // Review URLs whose entity page exists are omitted when mergedReviews is
-    // on: each one redirects to that entity page (already listed above), and
-    // sitemapping a redirect spends crawl budget to be told where the real
-    // page is. The archived-race reviews below are a different case -- they
-    // serve real content, so they stay listed either way.
+    // Every review URL is omitted when mergedReviews is on, because every one
+    // of them now redirects to an entity page listed above -- and sitemapping
+    // a redirect spends crawl budget to be told where the real page is. This
+    // used to carve out reviews of archived races, whose entity page was not
+    // built and which therefore served the article rather than redirecting;
+    // lapsedEntities above is that case now, listed as the listing URL it
+    // actually resolves to.
     ...(siteConfig.enabledFeatures?.mergedReviews ? [] : reviews.map((r) => urls.review(r.slug))),
-    ...(siteConfig.enabledFeatures?.mergedReviews ? standaloneReviews.map((r) => urls.review(r.slug)) : []),
     ...gearArticles.map((a) => urls.gear(a.slug)),
     ...articles.map((a) => urls.article(a.slug)),
   ];

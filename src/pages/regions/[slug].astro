@@ -14,6 +14,7 @@ import {
   isReviewableEntity,
 } from '../../lib/data.js';
 import { byUpcomingDate, byDistanceDesc } from '../../lib/sort.js';
+import { isLapsed } from '../../lib/succession.js';
 import { entityMatchesCategory, matchedCategoryIds } from '../../lib/categoryMatch.js';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
@@ -33,7 +34,11 @@ export function getStaticPaths() {
 }
 
 const { region } = Astro.props;
-const allEntities = loadEntities().map(stripMeta).filter(isPublished);
+// Lapse-filtered for the same reason the homepage is: the grid, the counts,
+// the child-region cards and isEmptyRegion below all answer "what can I still
+// enter here", and refresh-entities.js only archives a finished race once a
+// week. Finished editions are gathered separately into pastEditions.
+const allEntities = loadEntities().map(stripMeta).filter(isPublished).filter((e) => !isLapsed(e));
 const allRegions = loadRegions().map(stripMeta);
 const allCategories = loadCategories().map(stripMeta);
 const ancestryMap = buildRegionAncestryMap(allRegions);
@@ -65,25 +70,35 @@ const childRegions = allRegions.filter(
   (r) => r.parent_region_id === region.region_id && regionHasEntities(r, regionCounts)
 );
 
-// What we DID cover here, so the empty state points somewhere real rather
-// than only apologising. Reviews outlive their race (isReviewableEntity), so
-// a lapsed edition still has a page worth linking to.
-const reviewSlugsByEntityId = new Map(
-  (siteConfig.enabledFeatures?.reviews ? loadReviews().map(stripMeta).filter(isPublished) : []).map((r) => [
-    r.entity_id,
-    r.slug,
-  ])
-);
-const pastEditions = isEmptyRegion
-  ? loadEntities()
-      .map(stripMeta)
-      .filter(isReviewableEntity)
-      .filter((e) => !isPublished(e))
-      .filter((e) => (ancestryMap.get(e.region_id) ?? [e.region_id]).includes(region.region_id))
-      .filter((e) => reviewSlugsByEntityId.has(e.entity_id))
-      .sort((a, b) => String(b.core_facts?.date ?? '').localeCompare(String(a.core_facts?.date ?? '')))
-      .slice(0, 5)
-  : [];
+// Every edition here whose date has gone, newest first.
+//
+// This list is the crawl path for lapsed races, and that is its main job.
+// Their pages are kept rather than deleted (see getStaticPaths in
+// [entityType]/[slug].astro for the 404 problem that caused), but a kept page
+// that nothing links to is one Google crawls once and drops -- it would fix
+// the 404 and still lose the ranking. Linking them from their region hub,
+// itself one click from home, keeps every one within two clicks.
+//
+// Used to be gated three ways -- empty regions only, capped at 5, and only
+// editions that happened to have a review -- because it was written purely as
+// a dead-end filler for hubs with nothing upcoming. All three gates are gone:
+// the list is now the archive, so it runs on every region and covers every
+// edition. It also links to the entity page rather than the review, since the
+// entity page now exists for these and is the URL that carries the ranking.
+//
+// isLapsed rather than !isPublished, so an edition that ran yesterday moves
+// here immediately instead of sitting in the upcoming grid until the weekly
+// refresh gets round to archiving it.
+const pastEditions = loadEntities()
+  .map(stripMeta)
+  .filter(isReviewableEntity)
+  // Wrapped, not passed by reference: isLapsed's second parameter is `today`,
+  // and Array.filter would hand it the element index -- comparing an ISO date
+  // string against 0 is false for every record, so a bare .filter(isLapsed)
+  // silently yields an empty list rather than an error.
+  .filter((e) => isLapsed(e))
+  .filter((e) => (ancestryMap.get(e.region_id) ?? [e.region_id]).includes(region.region_id))
+  .sort((a, b) => String(b.core_facts?.date ?? '').localeCompare(String(a.core_facts?.date ?? '')));
 
 // A raw ISO date is a database value, not a date a reader wants to read.
 const formatEditionDate = (iso) =>
@@ -192,21 +207,9 @@ const jsonLd = [
           We don't currently list any upcoming {siteConfig.entityLabelPlural} in {region.label}. Every edition we've
           covered here has already been run, and no future date has been published yet.
         </p>
-        {pastEditions.length > 0 && (
-          <div class="mt-4">
-            <p class="text-sm font-semibold">What we covered here previously</p>
-            <ul class="mt-1.5 space-y-1 text-sm">
-              {pastEditions.map((e) => (
-                <li>
-                  <a href={urls.review(reviewSlugsByEntityId.get(e.entity_id))} class="link-accent">{e.name}</a>
-                  {e.core_facts?.date && (
-                    <span class="text-brand-muted dark:text-brand-muted-dark"> — {formatEditionDate(e.core_facts.date)}</span>
-                  )}
-                </li>
-              ))}
-            </ul>
-          </div>
-        )}
+        {/* The list of what we covered here previously used to be inlined
+            right here. It now renders once, below, for every region rather
+            than only for empty ones -- see the "Past editions" section. */}
         {siblingRegions.length > 0 && (
           <div class="mt-4">
             <p class="text-sm font-semibold">
@@ -223,6 +226,39 @@ const jsonLd = [
           </div>
         )}
       </div>
+    )}
+
+    {/* Collapsed by default: on the largest hub this is 23 entries, which
+        would otherwise push the FAQ and the onward links off the page for
+        something most readers aren't here for. <details> keeps the links in
+        the markup either way, which is what matters for the crawl path --
+        they're rendered, not lazily fetched. */}
+    {pastEditions.length > 0 && (
+      <section class="mt-14">
+        <details class="rounded-xl border border-brand-border bg-brand-surface-offset p-5 dark:border-brand-border-dark dark:bg-brand-surface-offset-dark">
+          <summary class="inline-flex min-h-11 cursor-pointer items-center text-base font-semibold underline-offset-2 hover:underline">
+            Past {siteConfig.entityLabelPlural} in {region.label} ({pastEditions.length})
+          </summary>
+          <p class="mt-2 text-sm text-brand-muted dark:text-brand-muted-dark">
+            Editions that have already been run. Each keeps its listing, and links on to the next edition where one is
+            scheduled.
+          </p>
+          {/* min-h-11 on the anchor, not just line-height: at text-sm these
+              rows are 17px tall, and 28 of them stacked is a column of
+              targets a thumb can't hit reliably. The date sits outside the
+              link so the anchor text stays the race name alone. */}
+          <ul class="mt-3 text-sm">
+            {pastEditions.map((e) => (
+              <li class="flex flex-wrap items-center gap-x-2">
+                <a href={urls.entity(e.slug)} class="link-accent inline-flex min-h-11 items-center">{e.name}</a>
+                {e.core_facts?.date && (
+                  <span class="text-brand-muted dark:text-brand-muted-dark">— {formatEditionDate(e.core_facts.date)}</span>
+                )}
+              </li>
+            ))}
+          </ul>
+        </details>
+      </section>
     )}
 
     {!isEmptyRegion && (
