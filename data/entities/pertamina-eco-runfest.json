@@ -4,10 +4,10 @@
   "name": "Pertamina ECO Runfest",
   "category_id": "half-marathon",
   "region_id": "indonesia",
-  "short_description": "A World Athletics Label race through Jakarta, Indonesia, offering distances from 1.5km to a half marathon.",
-  "ai_summary": "Pertamina ECO Runfest is a World Athletics Label event held in Jakarta, Indonesia, taking place on November 22, 2026. It offers a range of distances from a 1.5km fun run up to a half marathon (21.0975km), making it accessible to both casual participants and competitive runners. As a city-based race in a major capital, it runs through Jakarta's urban streets.",
+  "short_description": "A World Athletics Label half marathon through central Jakarta, based at Gelora Bung Karno, with distances from 1.5 km up to 21.0975 km.",
+  "ai_summary": "Pertamina Eco RunFest is a World Athletics Label road race held in central Jakarta, Indonesia, based around the Gelora Bung Karno complex and Istora Senayan. The 2026 event is its 13th edition, themed \"Spark the Change, Leave Zero Trace\", and offers four distances: 1.5 km, 5 km, 10 km and a 21.0975 km half marathon. The organisers are targeting 14,000 runners and 10,000 visitors, and say all profit from ticket sales funds the event's environmental programme. Sources disagree on the date -- two Indonesian reports give 6 December 2026 while an international aggregator lists 22 November -- so the listing follows the better-supported December date and is flagged for review.",
   "core_facts": {
-    "date": "2026-11-22",
+    "date": "2026-12-06",
     "distance_km": [
       1.5,
       5,
@@ -16,7 +16,8 @@
     ],
     "primary_distance_km": 21.0975,
     "city": "Jakarta",
-    "country": "Indonesia"
+    "country": "Indonesia",
+    "venue": "Gelora Bung Karno and Istora Senayan, Jakarta"
   },
   "pros": [
     "Multiple distance options suit a range of runners, from beginners to half marathoners",
@@ -53,11 +54,23 @@
       "label": "www.finishers.com",
       "type": "aggregator",
       "last_checked": "2026-08-25"
+    },
+    {
+      "url": "https://www.hotfokus.com/eco-runfest-2026-makin-hijau-pertamina-siapkan-7-aksi-dan-donasi-dari-tiket/",
+      "label": "Hotfokus -- 6 December date, venue, 13th edition, participant target",
+      "type": "other",
+      "last_checked": "2026-09-09"
+    },
+    {
+      "url": "https://www.bola.com/ragam/read/8285297/pertamina-eco-runfest-2026-bawa-semangat-lari-dan-gaya-hidup-lebih-hijau",
+      "label": "Bola.com -- 6 December date and eco initiatives",
+      "type": "other",
+      "last_checked": "2026-09-09"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-08-25",
-  "status": "active"
+  "last_updated": "2026-09-09",
+  "status": "needs_review"
 }
