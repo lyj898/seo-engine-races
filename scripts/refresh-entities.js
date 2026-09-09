@@ -24,8 +24,6 @@
  *     reliability_score and flags for review rather than silently keeping
  *     stale data as if it were still fresh.
  */
-import fs from 'node:fs';
-
 import siteConfig from '../src/lib/config.js';
 import { getEntitySchema, getCoreFactsSchema } from '../src/lib/schema/index.js';
 import { loadEntities, stripMeta } from '../src/lib/data.js';
@@ -33,6 +31,8 @@ import { loadEntities, stripMeta } from '../src/lib/data.js';
 import { fetchText, htmlToText, focusForPrompt } from './lib/http.js';
 import { isAllowed } from './lib/robots.js';
 import { throttle } from './lib/rate-limit.js';
+import { isLapsed } from '../src/lib/succession.js';
+import { writeIfValid } from './lib/write-entity.js';
 import { callClaudeForJson } from './lib/anthropic-client.js';
 import { buildRefreshPrompt } from './lib/prompts.js';
 import { describeSchemaShape } from './lib/schema-describe.js';
@@ -69,11 +69,19 @@ async function run() {
 
     // Lapsed check first, before any fetch/Claude call: a race whose date
     // has already passed is done, full stop -- no source can "un-happen"
-    // it, so there's nothing to verify. Dates are ISO "YYYY-MM-DD", so a
-    // plain string comparison is correct here.
-    if (entity.core_facts?.date && entity.core_facts.date < todayStr) {
+    // it, so there's nothing to verify.
+    //
+    // isLapsed rather than the inline `date < todayStr` this used to be. The
+    // two are not the same test: isLapsed also requires the value to look
+    // like a full ISO date (length >= 10), so a malformed one -- "2025", a
+    // truncated "2026-09-0" -- was archived here while the site and
+    // archive-lapsed.js both still treated it as upcoming. The schema permits
+    // those (`date` is only z.string().min(1), and one record already carries
+    // "tbc"), so the divergence was reachable, not theoretical. One
+    // predicate, in src/lib/succession.js, shared with every listing surface.
+    if (isLapsed(entity, todayStr)) {
       const updated = { ...entity, status: 'archived', last_updated: todayStr };
-      const wrote = writeIfValid(raw.__file, updated, entitySchema);
+      const wrote = writeIfValid(raw.__file, updated, entitySchema, 'refresh-entities');
       if (wrote) stats.lapsed++;
       else stats.invalidSkipped++;
       continue;
@@ -113,7 +121,7 @@ async function run() {
         status: entity.status === 'active' ? 'needs_review' : entity.status,
         last_updated: today(),
       };
-      writeIfValid(raw.__file, updated, entitySchema);
+      writeIfValid(raw.__file, updated, entitySchema, 'refresh-entities');
       stats.fetchFailed++;
       continue;
     }
@@ -184,7 +192,7 @@ async function run() {
       last_updated: today(),
     };
 
-    const wrote = writeIfValid(raw.__file, updated, entitySchema);
+    const wrote = writeIfValid(raw.__file, updated, entitySchema, 'refresh-entities');
     if (!wrote) {
       stats.invalidSkipped++;
     } else if (newStatus !== entity.status || (result?.status_recommendation === 'archived' && entity.status !== 'archived')) {
@@ -204,21 +212,6 @@ async function run() {
   );
 }
 
-function writeIfValid(filePath, updatedEntity, entitySchema) {
-  const validation = entitySchema.safeParse(updatedEntity);
-  if (!validation.success) {
-    console.warn(
-      `[refresh-entities] ${updatedEntity.slug}: updated entity failed schema validation, NOT writing: ${validation.error.issues
-        .map((i) => `${i.path.join('.')}: ${i.message}`)
-        .join('; ')}`
-    );
-    return false;
-  }
-  // filePath is "data/entities/foo.json" (relative, from data.js's __file
-  // metadata) -- resolve it the same way data.js does, from repo root.
-  fs.writeFileSync(new URL(`../${filePath}`, import.meta.url), JSON.stringify(validation.data, null, 2) + '\n');
-  return true;
-}
 
 run().catch((err) => {
   console.error('[refresh-entities] fatal error:', err);

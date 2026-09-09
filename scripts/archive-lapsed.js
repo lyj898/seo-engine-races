@@ -19,7 +19,12 @@
  * for anyone running the full re-verification pass by hand. Both read the
  * SAME predicate (isLapsed in src/lib/succession.js -- also what every page
  * uses to decide whether to present a race as upcoming), so the pipeline and
- * the site can't disagree about what "already happened" means.
+ * the site can't disagree about what "already happened" means. That is true
+ * as of this commit and was not before it: refresh-entities.js carried its
+ * own inline `date < today`, which lacks isLapsed's "looks like a full ISO
+ * date" guard and so archived malformed dates the site still showed as
+ * upcoming. If a third caller ever needs this, import it -- do not re-derive
+ * it.
  *
  * A lapsed race is the one status change that needs no human in the loop: no
  * source can un-happen it, unlike "the organiser's page now says cancelled",
@@ -28,31 +33,13 @@
  * Flags:
  *   --dry-run  report what would be archived, write nothing.
  */
-import fs from 'node:fs';
-
 import siteConfig from '../src/lib/config.js';
 import { getEntitySchema } from '../src/lib/schema/index.js';
 import { loadEntities, stripMeta } from '../src/lib/data.js';
 import { isLapsed } from '../src/lib/succession.js';
+import { writeIfValid } from './lib/write-entity.js';
 
 const DRY_RUN = process.argv.includes('--dry-run');
-
-function writeIfValid(filePath, updatedEntity, entitySchema) {
-  const validation = entitySchema.safeParse(updatedEntity);
-  if (!validation.success) {
-    console.warn(
-      `[archive-lapsed] ${updatedEntity.slug}: updated entity failed schema validation, NOT writing: ${validation.error.issues
-        .map((i) => `${i.path.join('.')}: ${i.message}`)
-        .join('; ')}`
-    );
-    return false;
-  }
-  if (DRY_RUN) return true;
-  // filePath is "data/entities/foo.json" (relative, from data.js's __file
-  // metadata) -- resolve it the same way data.js does, from repo root.
-  fs.writeFileSync(new URL(`../${filePath}`, import.meta.url), JSON.stringify(validation.data, null, 2) + '\n');
-  return true;
-}
 
 function run() {
   const today = new Date().toISOString().slice(0, 10);
@@ -71,7 +58,7 @@ function run() {
     if (!isLapsed(entity, today)) continue;
 
     const updated = { ...entity, status: 'archived', last_updated: today };
-    if (writeIfValid(raw.__file, updated, entitySchema)) {
+    if (writeIfValid(raw.__file, updated, entitySchema, 'archive-lapsed', { dryRun: DRY_RUN })) {
       stats.archived++;
       console.log(`[archive-lapsed] ${entity.slug}: ran ${entity.core_facts.date} -> archived.`);
     } else {
