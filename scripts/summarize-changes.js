@@ -2,15 +2,22 @@
 /**
  * summarize-changes.js
  *
- * Turns the raw git diff produced by a pipeline run into a human-readable
- * report: what was added, what was retired, what guides appeared.
+ * Turns the raw git diff produced by a run into a human-readable report:
+ * what was retired, and -- for a hand-run pass that goes through this same
+ * script -- what was added and what guides appeared.
  *
  * WHY THIS EXISTS
- * The pipeline commits straight to main, so nobody reads a diff before it
- * goes live. A 200-file commit titled "weekly refresh" tells the operator
- * nothing about whether the run did something sensible or something mad.
- * This turns the commit into a message worth reading: names, dates and
- * places rather than file paths.
+ * The run commits straight to main, so nobody reads a diff before it goes
+ * live. A commit titled "weekly refresh" tells the operator nothing about
+ * whether the run did something sensible or something mad. This turns the
+ * commit into a message worth reading: names, dates and places rather than
+ * file paths.
+ *
+ * The weekly workflow now only archives lapsed races, so most of the
+ * sections below stay empty on a scheduled run. They are kept because this
+ * script is also what reports a manual discovery or summaries pass, and
+ * because a section that appears when something unexpected happened is worth
+ * more than one deleted for tidiness.
  *
  * Reads the working tree against HEAD, so it must run BEFORE the commit
  * step. Writes markdown to the path given as --out (default
@@ -91,9 +98,12 @@ function run() {
   }
 
   // Source health, from the report discover-entities.js drops at the repo
-  // root. Read defensively: a missing or malformed file must degrade to "no
-  // section" rather than break the notification, which is the one thing the
-  // operator actually reads.
+  // root. The weekly workflow no longer runs discovery, so this file is
+  // normally absent and the whole section disappears -- which is correct:
+  // reporting on sources nothing read this run would be noise. It still
+  // renders for a hand-run discovery pass. Read defensively: a missing or
+  // malformed file must degrade to "no section" rather than break the
+  // notification, which is the one thing the operator actually reads.
   //
   // This section exists because a dead source is invisible otherwise. Four of
   // them (three ahotu.com URLs and checkpointspot.asia) returned 403 for weeks
@@ -116,8 +126,17 @@ function run() {
   const unreachable = sources.filter((s) => s && !s.ok && s.kind !== 'pipeline');
   const extractionFailed = sources.filter((s) => s && !s.ok && s.kind === 'pipeline');
 
+  // Archived leads and is always stated, because archiving is the only thing
+  // the weekly workflow does now -- "0 archived" is a real result worth
+  // reading, not a placeholder. The others are stated only when non-zero:
+  // they can still happen (a hand-run discovery pass committed through this
+  // same script), but a headline permanently carrying "0 added, 0 new guides"
+  // trains the reader to skip the line that matters.
   const headline =
-    `Weekly refresh: ${added.length} added, ${archived.length} archived, ${newGuides.length} new guides` +
+    `Weekly refresh: ${archived.length} archived` +
+    (added.length > 0 ? `, ${added.length} added` : '') +
+    (unarchived.length > 0 ? `, ${unarchived.length} un-archived` : '') +
+    (newGuides.length > 0 ? `, ${newGuides.length} new guides` : '') +
     (unreachable.length > 0 ? `, ${unreachable.length} source(s) UNREACHABLE` : '') +
     (extractionFailed.length > 0 ? `, ${extractionFailed.length} extraction failure(s)` : '');
 
@@ -172,9 +191,9 @@ function run() {
     section('Races un-archived', unarchived, (e) => `- ${describeEntity(e)}`),
     section('New guides', newGuides, (l) => `- **${l.title}** — \`/best/${l.slug}/\``),
     otherEntityEdits
-      ? `## Updated\n\n${otherEntityEdits} existing ${otherEntityEdits === 1 ? 'race' : 'races'} had facts or copy refreshed.\n`
+      ? `## Also edited\n\n${otherEntityEdits} existing ${otherEntityEdits === 1 ? 'race' : 'races'} changed without changing status.\n`
       : '',
-    added.length + archived.length + newGuides.length + otherEntityEdits === 0
+    added.length + archived.length + unarchived.length + newGuides.length + otherEntityEdits === 0
       ? '_Nothing changed this run._\n'
       : '',
   ]

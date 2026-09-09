@@ -1,40 +1,50 @@
 name: Weekly data refresh
 
-# Runs the discover -> refresh -> research -> summaries pipeline on a
-# schedule (matching site.config.json's sourceConfig.refreshIntervalDays),
-# plus supports a manual on-demand run from the Actions tab. (The listicle
-# generation stage that used to run last was removed -- Best Of guides
-# aren't being maintained for now.)
+# Archives races whose date has passed, then rebuilds and deploys the site.
+# That is the whole workflow.
 #
-# This workflow commits straight to `main`, which deploys. That is a
-# deliberate choice and the guard rails moved rather than disappeared:
+# It used to be a five-stage AI pipeline -- discover -> refresh -> research ->
+# summaries -> guides -- every stage of it driven by ANTHROPIC_API_KEY. It
+# isn't any more. Everything that needed a model is now done by hand, and the
+# only stage left running unattended is the one that never needed one:
+# archiving a lapsed race is a date comparison, deterministic and free, and it
+# cannot be subtly wrong the way a generated summary can.
 #
-#   - `npm run validate` runs both before and after the pipeline. A run that
-#     ends in schema-invalid, duplicate or cross-reference-broken data fails
-#     here and commits nothing at all.
-#   - refresh-entities.js can only ever flag a listing `needs_review`; it has
-#     no path to deleting or silently rewriting one, and only a genuinely
-#     lapsed date auto-archives.
-#   - Every run opens a GitHub issue naming exactly what was added, archived
-#     and published. Review happens after the fact, on a readable summary,
-#     instead of on a 200-file diff nobody would actually read.
+# What that buys, and what it costs:
 #
-# The thing to watch is that this trades "nothing goes live unreviewed" for
-# "everything goes live and you get told about it". If a source site changes
-# shape and starts yielding plausible-but-wrong data, it will be live for as
-# long as it takes to read the notification.
+#   - This workflow uses NO secret. Nothing in it can fail on billing, a rate
+#     limit, or a model outage. The last time it could, it failed silently:
+#     every AI stage returned "credit balance is too low" for two consecutive
+#     weeks while the run still reported success.
+#   - Nothing is DISCOVERED here any more, and no facts are re-verified. The
+#     directory only shrinks on its own; new listings and refreshed copy
+#     arrive when someone adds them.
+#   - `npm run validate` still runs before and after, so a run that would
+#     leave data/ schema-invalid commits nothing at all.
+#   - Every run that changes something opens an issue naming exactly what was
+#     archived, and redeploys.
+#
+# The AI scripts (scripts/discover-entities.js and friends, `npm run
+# discover` / `refresh` / `research` / `summaries` / `listicles`) still exist
+# and still work if given a key. They are simply not run from CI any more.
 on:
   schedule:
     # Anchored to Tuesday 14:00 Singapore time (SGT is UTC+8 year-round, no
     # DST observed) -- 06:00 UTC -- because that's when every weekend (and
-    # Monday) race has fully lapsed, so refresh/archive logic has nothing
-    # left dangling. GitHub's scheduled triggers are best-effort (delayed at
-    # the top of the hour, occasionally dropped entirely), so we tick DAILY
-    # at this same time and let the `gate` job decide: it runs the heavy
-    # pipeline on Tuesday, and keeps retrying on every subsequent daily tick
-    # if Tuesday's run didn't happen or didn't complete, until one succeeds
-    # and records the marker. Net effect: lands on Tuesday almost always,
-    # never silently skips a whole week if that one tick is dropped.
+    # Monday) race has fully lapsed, so there is nothing left dangling.
+    # GitHub's scheduled triggers are best-effort (delayed at the top of the
+    # hour, occasionally dropped entirely), so we tick DAILY at this same time
+    # and let the `gate` job decide: it archives on Tuesday, and keeps
+    # retrying on every subsequent daily tick if Tuesday's run didn't happen
+    # or didn't complete, until one succeeds and records the marker. Net
+    # effect: lands on Tuesday almost always, never silently skips a week if
+    # that one tick is dropped.
+    #
+    # A race that finishes on a Wednesday therefore keeps `status: active` in
+    # the data until the following Tuesday. That is not a display bug: every
+    # listing surface filters on isLapsed (src/lib/succession.js) at build
+    # time, so it stops being presented as upcoming the moment its date
+    # passes, archived or not. Archiving is the bookkeeping that follows.
     - cron: '0 6 * * *' # daily 06:00 UTC (14:00 SGT); the gate decides whether to proceed
   workflow_dispatch: {} # manual runs always proceed (they bypass the gate)
 
@@ -51,8 +61,8 @@ jobs:
   # dispatch always runs; a scheduled tick runs only if the recorded last
   # run (marker at .github/state/last-refresh) predates this week's Tuesday.
   # That means the normal case is "runs once, on Tuesday" -- but if
-  # Tuesday's tick is dropped/delayed by GitHub, or the pipeline run itself
-  # fails before reaching the "record run timestamp" step, the marker never
+  # Tuesday's tick is dropped/delayed by GitHub, or the run itself fails
+  # before reaching the "record run timestamp" step, the marker never
   # advances past last week, so Wednesday's (and Thursday's, etc.) daily
   # tick sees the same stale marker and retries -- until one run succeeds
   # and moves the marker into this week, at which point the rest of the
@@ -89,11 +99,12 @@ jobs:
           fi
 
   refresh:
+    name: Archive lapsed races
     needs: gate
     if: needs.gate.outputs.run == 'true'
     runs-on: ubuntu-latest
     outputs:
-      # Consumed by the deploy job below, so a run that changed nothing
+      # Consumed by the deploy job below, so a week where nothing lapsed
       # doesn't spend a build.
       changed: ${{ steps.summary.outputs.changed }}
     steps:
@@ -111,55 +122,22 @@ jobs:
 
       - name: Validate data (pre-flight)
         run: npm run validate
-        # If data/ is already broken before this run even starts, stop here
-        # rather than layering AI-generated changes on top of a known-bad
-        # state. Fix the underlying data and re-run manually.
+        # If data/ is already broken before this run starts, stop here and say
+        # so, rather than letting the post-run check below report a
+        # pre-existing fault as though this run caused it.
 
-      - name: Discover new entities
-        run: npm run discover
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-
-      - name: Refresh existing entities
-        run: npm run refresh
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-
-      - name: Research entities on the web
-        run: npm run research
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        # Gathers first-hand commentary (quotes, highlights, caveats,
-        # sentiment) that the aggregator sources don't carry, so the summary
-        # step below has something to write from beyond date/distance/venue.
-        # Rate-limited by sourceConfig.researchPerRunLimit and only re-runs
-        # an entity after researchIntervalDays, so weekly cost stays flat
-        # rather than scaling with the size of the directory.
-
-      - name: Generate AI summaries
-        run: npm run summaries
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-
-      - name: Create and refresh guides
-        run: npm run listicles -- --refresh-stale
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        # Runs AFTER discover/refresh/summaries so it sees this week's
-        # calendar, not last week's. The create pass adds guides for newly
-        # eligible category x country combinations; --refresh-stale rewrites
-        # the copy of existing guides whose race set has changed since that
-        # copy was written -- without it a guide's prose was written once and
-        # then described an increasingly historical directory forever (one
-        # led with two races that had been run and archived weeks earlier).
+      - name: Archive lapsed races
+        run: npm run archive
+        # No env: this step deliberately takes no secret. It reads
+        # core_facts.date, compares it to today, and flips status to
+        # "archived" -- see scripts/archive-lapsed.js.
 
       - name: Validate data (post-run)
         run: npm run validate
-        # If any stage produced schema-invalid, duplicate or
-        # cross-reference-broken data, fail here. This is the gate that
-        # replaced the pull request: nothing is committed from a run that
-        # ends in known-bad data -- you get a red X in Actions instead,
-        # which is the correct failure mode.
+        # The gate that stands in for a pull request: nothing is committed
+        # from a run that ends in schema-invalid or cross-reference-broken
+        # data. You get a red X in Actions instead, which is the correct
+        # failure mode.
 
       - name: Summarise what changed
         id: summary
@@ -171,21 +149,8 @@ jobs:
           else
             echo "changed=false" >> "$GITHUB_OUTPUT"
           fi
-          # How many discovery sources were unusable. Surfaced as its own
-          # output because it has to be able to trigger a notification on its
-          # own: a run where every source 403s changes no data, and gating the
-          # issue on `changed` alone meant total source failure was reported
-          # exactly like "nothing new to find" -- silence. That is how four
-          # dead sources went unnoticed for weeks.
-          # Counts only kind:'source' failures -- a site refusing to serve the
-          # page. Extraction failures (our API call) are reported in the issue
-          # body but must NOT trigger a notification on their own, or a
-          # transient 429 would open an issue every run.
-          FAILED=$(node -e "try{const r=require('./.pipeline-source-report.json');process.stdout.write(String((r.sources||[]).filter(s=>!s.ok&&s.kind!=='pipeline').length))}catch{process.stdout.write('0')}")
-          echo "sources_failing=$FAILED" >> "$GITHUB_OUTPUT"
-          echo "Discovery sources unreachable this run: $FAILED"
         # Must run BEFORE the commit: it diffs the working tree against HEAD
-        # to work out which files are new and which changed status.
+        # to work out which files changed status.
 
       - name: Commit and push to main
         if: steps.summary.outputs.changed == 'true'
@@ -195,13 +160,13 @@ jobs:
           git add data/
           git commit -m "chore(data): ${{ steps.summary.outputs.headline }}"
           # Rebase rather than merge: a hand edit pushed to main while this
-          # hour-long run was in flight should stay on top, not be clobbered
-          # by a stale checkout.
+          # run was in flight should stay on top, not be clobbered by a stale
+          # checkout.
           git pull --rebase --autostash origin main
           git push origin HEAD:main
 
       - name: Notify by email (via a GitHub issue)
-        if: steps.summary.outputs.changed == 'true' || steps.summary.outputs.sources_failing != '0'
+        if: steps.summary.outputs.changed == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -229,7 +194,7 @@ jobs:
 
       - name: No changes this run
         if: steps.summary.outputs.changed == 'false'
-        run: echo "Pipeline ran; nothing changed in data/, nothing committed."
+        run: echo "Ran; nothing had lapsed, nothing committed."
 
       - name: Record run timestamp
         run: |
@@ -244,7 +209,7 @@ jobs:
         # Stamps today's date so the gate can enforce the ~weekly interval
         # across daily ticks. Kept OUT of data/ so it never trips the
         # data-changed deploy gate. No `if:`, so it runs only when every prior
-        # stage succeeded -- a failed pipeline leaves the marker stale and is
+        # stage succeeded -- a failed run leaves the marker stale and is
         # retried on the next daily tick rather than being suppressed for a week.
 
   # Deploying has to be an explicit job rather than something we leave to
@@ -261,7 +226,7 @@ jobs:
       # Build the commit the refresh job just pushed, NOT the SHA this run was
       # triggered at. Without this the deploy checks out github.sha (the tip of
       # main *before* the refresh committed), so the site publishes successfully
-      # but one commit stale -- the pipeline's whole point silently lost.
+      # but one commit stale -- the run's whole point silently lost.
       ref: main
     permissions:
       contents: read

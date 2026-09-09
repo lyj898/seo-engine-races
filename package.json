@@ -12,6 +12,7 @@
     "preview": "astro preview",
     "astro": "astro",
     "validate": "node scripts/validate-data.js",
+    "archive": "node scripts/archive-lapsed.js",
     "discover": "node scripts/discover-entities.js",
     "refresh": "node scripts/refresh-entities.js",
     "research": "node scripts/research-entities.js",
