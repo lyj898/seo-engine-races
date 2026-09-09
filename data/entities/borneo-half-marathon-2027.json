@@ -1,0 +1,64 @@
+{
+  "entity_id": "borneo-half-marathon-2027",
+  "slug": "borneo-half-marathon-2027",
+  "name": "Borneo Half Marathon 2027",
+  "category_id": "half-marathon",
+  "region_id": "malaysia",
+  "short_description": "The Borneo Half Marathon returns to Padang Merdeka in Kota Kinabalu on 31 January 2027, with a 21 km half marathon and a 10.5 km run.",
+  "ai_summary": "The Borneo Half Marathon 2027 takes place on Sunday 31 January 2027, starting from Padang Merdeka on Jalan Padang in Kota Kinabalu, Sabah. Two distances are offered: a 21 km half marathon flagged off at 4.30am and a 10.5 km run at 5.30am, each split into open, junior veteran, veteran and senior veteran age categories. It is organised by the Kinabalu Running Club together with Dewan Bandaraya Kota Kinabalu, the same club behind the Borneo International Marathon held in Kota Kinabalu each May. Race pack collection runs on 29 and 30 January, with the venue still to be confirmed.",
+  "core_facts": {
+    "date": "2027-01-31",
+    "distance_km": [
+      10.5,
+      21
+    ],
+    "primary_distance_km": 21,
+    "organizer": "Kinabalu Running Club (KRC) and Dewan Bandaraya Kota Kinabalu (DBKK)",
+    "venue": "Padang Merdeka, Jalan Padang, Kota Kinabalu",
+    "city": "Kota Kinabalu, Sabah",
+    "country": "Malaysia"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "When and where is the Borneo Half Marathon 2027?",
+      "answer": "The race is on Sunday 31 January 2027, starting from Padang Merdeka on Jalan Padang in Kota Kinabalu, Sabah. The 21 km half marathon is flagged off at 4.30am and the 10.5 km run at 5.30am, both starting and finishing at the same city-centre venue."
+    },
+    {
+      "question": "What distances does the Borneo Half Marathon 2027 offer?",
+      "answer": "Two: a 21 km half marathon and a 10.5 km run. Each is divided into open, junior veteran, veteran and senior veteran age categories, so runners are placed against others of a similar age rather than against the whole field."
+    },
+    {
+      "question": "Is the Borneo Half Marathon the same race as the Borneo International Marathon?",
+      "answer": "No. They are separate events from the same organiser, the Kinabalu Running Club. The half marathon is held in Kota Kinabalu in January or February, while the Borneo International Marathon, which includes the full 42.195 km distance, is run in the same city in May."
+    }
+  ],
+  "reliability_score": 20,
+  "tags": [
+    "half-marathon",
+    "malaysia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.ticket2u.com.my/event/51414/borneo-half-marathon-2027",
+      "label": "Ticket2u event page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-09"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Register on Ticket2u",
+      "url": "https://www.ticket2u.com.my/event/51414/borneo-half-marathon-2027",
+      "type": "official_registration"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-09",
+  "status": "needs_review"
+}
