@@ -37,16 +37,28 @@
       "answer": "No. They are separate events from the same organiser, the Kinabalu Running Club. The half marathon is held in Kota Kinabalu in January or February, while the Borneo International Marathon, which includes the full 42.195 km distance, is run in the same city in May."
     }
   ],
-  "reliability_score": 20,
+  "reliability_score": 55,
   "tags": [
     "half-marathon",
     "malaysia"
   ],
   "source_mix": [
     {
+      "url": "https://www.borneohalfmarathon.com/",
+      "label": "Borneo Half Marathon official site",
+      "type": "official",
+      "last_checked": "2026-09-09"
+    },
+    {
       "url": "https://www.ticket2u.com.my/event/51414/borneo-half-marathon-2027",
       "label": "Ticket2u event page",
       "type": "registration_platform",
+      "last_checked": "2026-09-09"
+    },
+    {
+      "url": "https://dbkk.sabah.gov.my/news/966",
+      "label": "Dewan Bandaraya Kota Kinabalu -- report on the 2026 edition",
+      "type": "other",
       "last_checked": "2026-09-09"
     }
   ],
@@ -60,5 +72,5 @@
   ],
   "related_entity_ids": [],
   "last_updated": "2026-09-09",
-  "status": "needs_review"
+  "status": "active"
 }

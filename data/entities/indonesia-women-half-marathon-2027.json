@@ -4,16 +4,16 @@
   "name": "Indonesia Women Half Marathon",
   "category_id": "half-marathon",
   "region_id": "indonesia",
-  "short_description": "The Indonesia Women Half Marathon is a 21.1 km race taking place in Indonesia on May 16, 2027.",
-  "ai_summary": "The Indonesia Women Half Marathon is scheduled for May 16, 2027, in Indonesia. The event's primary distance is a 21.1 km half marathon. Registration details have not yet been announced, so prospective participants should check back for updates on how and when to sign up.",
+  "short_description": "A women-only 21.1 km half marathon in Indonesia. No date has been confirmed for the next edition, so this listing carries none.",
+  "ai_summary": "The Indonesia Women Half Marathon is a women-only road race in Indonesia whose headline distance is the 21.1 km half marathon. The most recent edition its own listings confirm was held on 11 May 2025 at the Biomedical Campus in BSD City, alongside 5 km and 10 km options. A 2027 date appears on one international race calendar, but the organiser's own AIMS race entry still shows the 2025 event as its latest and no organiser announcement corroborates it, so no date is recorded here. The listing is kept and flagged rather than given a date nobody has published.",
   "core_facts": {
-    "date": "tbc",
     "distance_km": [
       21.1
     ],
     "primary_distance_km": 21.1,
     "registration_status": "not_yet_announced",
-    "country": "Indonesia"
+    "country": "Indonesia",
+    "date": "tbc"
   },
   "pros": [
     "Clear future race date already set (May 16, 2027)",
@@ -26,40 +26,35 @@
   "excerpt_quotes": [],
   "research_highlights": [],
   "research_watchouts": [],
-  "faqs": [
-    {
-      "question": "When is the Indonesia Women Half Marathon?",
-      "answer": "The Indonesia Women Half Marathon is scheduled to take place on May 16, 2027. This date has been confirmed as part of the race's core facts, though further event-day details have not yet been made available. Runners planning ahead can mark this date for the race in Indonesia."
-    },
-    {
-      "question": "What distance is the Indonesia Women Half Marathon?",
-      "answer": "The Indonesia Women Half Marathon covers a primary distance of 21.1 kilometers, which is the standard half marathon distance. This is the only distance listed among the race's core facts, so participants should expect the event to be organized around this single race length."
-    },
-    {
-      "question": "How do I register for the Indonesia Women Half Marathon?",
-      "answer": "Registration details for the Indonesia Women Half Marathon have not yet been announced. The current status is listed simply as 'not yet announced,' meaning no sign-up process, fees, or opening dates are currently available. Interested runners should check back later for official registration updates."
-    },
-    {
-      "question": "Where does the Indonesia Women Half Marathon take place?",
-      "answer": "The Indonesia Women Half Marathon takes place in Indonesia, as stated in the race's core facts. No further location specifics, such as city or venue, have been provided beyond the country name at this time."
-    }
-  ],
-  "reliability_score": 15,
+  "faqs": [],
+  "reliability_score": 12,
   "tags": [
     "half-marathon",
     "indonesia"
   ],
   "source_mix": [
     {
-      "url": "https://aims-worldrunning.org/calendar.html",
-      "label": "aims-worldrunning.org",
+      "url": "https://aims-worldrunning.org/races/10455.html",
+      "label": "AIMS race information -- latest edition shown is 11 May 2025",
       "type": "aggregator",
-      "last_checked": "2026-08-25"
+      "last_checked": "2026-09-09"
+    },
+    {
+      "url": "https://kalenderlari.com/events/indonesia-women-half-marathon/",
+      "label": "Kalender Lari -- 2025 edition at BSD City, 5K/10K/half",
+      "type": "aggregator",
+      "last_checked": "2026-09-09"
+    },
+    {
+      "url": "https://aims-worldrunning.org/calendar.html",
+      "label": "AIMS calendar -- carries an uncorroborated 2027 row",
+      "type": "aggregator",
+      "last_checked": "2026-09-09"
     }
   ],
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-09-09",
   "status": "needs_review"
 }

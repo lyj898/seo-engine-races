@@ -84,6 +84,21 @@ export function buildItemListSchema(items, site, toUrl, toName) {
 }
 
 /**
+ * Does this value look like a schema.org Date/DateTime rather than free text?
+ *
+ * core_facts.date is validated as z.string().min(1) and nothing stricter --
+ * the field predates the schema and carries real data in looser shapes -- so
+ * "tbc" is a legal stored value and did occur. Everywhere a date reaches
+ * structured data it has to clear this first: an out-of-range value makes the
+ * whole Event node invalid, which is a worse outcome than simply having no
+ * startDate. Deliberately permissive about what follows the day, so an
+ * ISO datetime with a time and offset still passes.
+ */
+function isIsoDate(value) {
+  return typeof value === 'string' && /^\d{4}-\d{2}-\d{2}/.test(value);
+}
+
+/**
  * The schema.org types that inherit from Event, and so are the only ones
  * allowed to carry `eventStatus` / `eventAttendanceMode` below.
  *
@@ -145,7 +160,13 @@ export function buildEntitySchema(entity, siteConfig, url) {
   };
   if (url) schema.url = url;
 
-  if (facts.date) schema.startDate = facts.date;
+  // Truthy is not enough: schema.org startDate must be a Date/DateTime, and
+  // core_facts.date is only z.string().min(1), so a record carrying "tbc" --
+  // one did -- emitted `"startDate": "tbc"` and invalidated the Event markup
+  // for that whole page. Omitting the property costs the rich result; a
+  // malformed one costs the rich result AND tells Google the page's
+  // structured data is wrong.
+  if (isIsoDate(facts.date)) schema.startDate = facts.date;
 
   // The two Event properties Google lists as recommended that are constants
   // rather than data, which is the whole reason they can be added here at
@@ -223,7 +244,7 @@ export function buildReviewSchema({ review, entity, siteConfig, url, entityUrl, 
       '@type': siteConfig.schemaTypePrimary,
       name: entity.name,
       ...(entityUrl ? { url: entityUrl } : {}),
-      ...(facts.date ? { startDate: facts.date } : {}),
+      ...(isIsoDate(facts.date) ? { startDate: facts.date } : {}),
       ...(facts.venue || facts.city || facts.country
         ? {
             location: {
