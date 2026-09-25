@@ -396,6 +396,87 @@ const jsonLd = [
     var distanceChips = root.querySelectorAll('.distance-chip');
     var activeDistance = '';
 
+    // ---- URL-driven filter state -------------------------------------
+    //
+    // `/?country=Malaysia` is not a hypothetical. It is the URL shape the
+    // site this engine replaced used, it still carries that site's equity,
+    // and on 2026-09-25 Search Console had it at position 2.7 -- the best
+    // position anything on this domain holds, against a homepage sitting at
+    // 33.9. Until now it served the unfiltered calendar: someone who asked
+    // for Malaysia got 130 races across ten countries and no indication the
+    // site had understood the question.
+    //
+    // Param values are resolved against the controls already in the DOM
+    // rather than against a second copy of the taxonomy, so this cannot
+    // drift from whatever options Astro rendered. Both forms are accepted --
+    // an option's value ("malaysia") and its visible label ("Malaysia") --
+    // because the inherited URLs carry labels while the controls carry ids,
+    // and someone hand-typing either deserves the same page. Comparison is
+    // on alphanumerics only, so "Full Marathon", "full-marathon" and
+    // "fullmarathon" are one value.
+    function normalise(value) {
+      return String(value == null ? '' : value).toLowerCase().replace(/[^a-z0-9]/g, '');
+    }
+
+    function optionValueFor(select, raw) {
+      if (!select || !raw) return '';
+      var want = normalise(raw);
+      var found = '';
+      Array.prototype.forEach.call(select.options, function (opt) {
+        // The empty-valued "All countries" option must never match, or
+        // ?country=<nonsense> would silently resolve to "no filter" and look
+        // like it worked.
+        if (found || !opt.value) return;
+        if (normalise(opt.value) === want || normalise(opt.textContent) === want) found = opt.value;
+      });
+      return found;
+    }
+
+    function chipValueFor(raw) {
+      if (!raw) return '';
+      var want = normalise(raw);
+      var found = '';
+      distanceChips.forEach(function (chip) {
+        var value = chip.dataset.distanceValue || '';
+        if (found || !value) return;
+        if (normalise(value) === want || normalise(chip.textContent) === want) found = value;
+      });
+      return found;
+    }
+
+    function readFiltersFromUrl() {
+      var params = new URLSearchParams(window.location.search);
+      var country = optionValueFor(countrySelect, params.get('country'));
+      if (country) countrySelect.value = country;
+      var month = optionValueFor(monthSelect, params.get('month'));
+      if (month) monthSelect.value = month;
+      var distance = chipValueFor(params.get('distance'));
+      if (distance) {
+        activeDistance = distance;
+        distanceChips.forEach(function (chip) {
+          chip.classList.toggle('is-active', (chip.dataset.distanceValue || '') === distance);
+        });
+      }
+      var query = params.get('q');
+      if (query && searchInput) searchInput.value = query;
+    }
+
+    // Written back on interaction only, never on the initial read: rewriting
+    // the URL somebody just arrived on would mutate a link they may be about
+    // to share. replaceState rather than pushState so filtering does not
+    // fill the back button with intermediate states.
+    function writeFiltersToUrl() {
+      if (!window.history || !window.history.replaceState) return;
+      var params = new URLSearchParams();
+      if (countrySelect && countrySelect.value) params.set('country', countrySelect.value);
+      if (monthSelect && monthSelect.value) params.set('month', monthSelect.value);
+      if (activeDistance) params.set('distance', activeDistance);
+      var query = searchInput && searchInput.value.trim();
+      if (query) params.set('q', query);
+      var qs = params.toString();
+      window.history.replaceState(null, '', qs ? window.location.pathname + '?' + qs : window.location.pathname);
+    }
+
     function apply() {
       var query = (searchInput && searchInput.value.trim().toLowerCase()) || '';
       var country = (countrySelect && countrySelect.value) || '';
@@ -432,9 +513,17 @@ const jsonLd = [
       if (emptyStateEl) emptyStateEl.classList.toggle('hidden', visibleCount !== 0);
     }
 
-    if (searchInput) searchInput.addEventListener('input', apply);
-    if (countrySelect) countrySelect.addEventListener('change', apply);
-    if (monthSelect) monthSelect.addEventListener('change', apply);
+    // apply() then writeFiltersToUrl() on every interaction, so the address
+    // bar always describes what is on screen and any filtered view is a
+    // link somebody can send.
+    function applyAndSync() {
+      apply();
+      writeFiltersToUrl();
+    }
+
+    if (searchInput) searchInput.addEventListener('input', applyAndSync);
+    if (countrySelect) countrySelect.addEventListener('change', applyAndSync);
+    if (monthSelect) monthSelect.addEventListener('change', applyAndSync);
 
     distanceChips.forEach(function (chip) {
       chip.addEventListener('click', function () {
@@ -442,7 +531,7 @@ const jsonLd = [
         distanceChips.forEach(function (c) {
           c.classList.toggle('is-active', c === chip);
         });
-        apply();
+        applyAndSync();
       });
     });
 
@@ -455,8 +544,14 @@ const jsonLd = [
         distanceChips.forEach(function (c, i) {
           c.classList.toggle('is-active', i === 0);
         });
-        apply();
+        applyAndSync();
       });
     }
+
+    // Last: seed from the URL, then render once. Doing this after the
+    // listeners are attached means a filtered arrival and a click produce
+    // exactly the same code path.
+    readFiltersFromUrl();
+    apply();
   })();
 </script>
