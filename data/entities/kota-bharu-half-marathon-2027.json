@@ -1,0 +1,53 @@
+{
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-28",
+  "status": "needs_review",
+  "reliability_score": 25,
+  "entity_id": "kota-bharu-half-marathon-2027",
+  "slug": "kota-bharu-half-marathon-2027",
+  "name": "Kota Bharu Half Marathon 2027",
+  "category_id": "half-marathon",
+  "region_id": "malaysia",
+  "short_description": "The Kota Bharu Half Marathon returns to Kelantan on Saturday 11 September 2027, over 21.1 km, 10 km and 5 km.",
+  "ai_summary": "The Kota Bharu Half Marathon is scheduled for Saturday 11 September 2027 in Kota Bharu, Kelantan. It is one of the few AIMS-sanctioned road races on Malaysia's east coast, and unusually for the region it is run on a Saturday rather than a Sunday. Distances shown are those of the most recent edition; the 2027 line-up has not been published yet. The 2026 edition started from Dewan Jubli Perak in the centre of Kota Bharu.",
+  "core_facts": {
+    "date": "2027-09-11",
+    "distance_km": [
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "city": "Kota Bharu, Kelantan",
+    "country": "Malaysia"
+  },
+  "faqs": [
+    {
+      "question": "When is the Kota Bharu Half Marathon 2027?",
+      "answer": "Saturday 11 September 2027, in Kota Bharu, Kelantan. A Saturday date is unusual for a Malaysian road race, most of which are run on Sunday mornings, so check the day carefully when booking travel to the east coast."
+    },
+    {
+      "question": "What distances does the Kota Bharu Half Marathon offer?",
+      "answer": "A 21.1 km half marathon as the headline distance, with 10 km and 5 km races alongside it. These are the distances from the most recent edition; the organisers have not yet published the 2027 categories, entry fees or start times."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "malaysia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://aims-worldrunning.org/countries/61.html",
+      "label": "AIMS Malaysia member races -- next race date Saturday 11 September 2027",
+      "type": "aggregator",
+      "last_checked": "2026-09-28"
+    }
+  ]
+}

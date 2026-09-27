@@ -1,0 +1,60 @@
+{
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-28",
+  "status": "needs_review",
+  "reliability_score": 25,
+  "entity_id": "borneo-international-marathon-2027",
+  "slug": "borneo-international-marathon-2027",
+  "name": "Borneo International Marathon 2027",
+  "category_id": "full-marathon",
+  "region_id": "malaysia",
+  "short_description": "The Borneo International Marathon returns to Kota Kinabalu on Sunday 16 May 2027, with marathon, half marathon and 10 km races.",
+  "ai_summary": "The Borneo International Marathon is scheduled for Sunday 16 May 2027 in Kota Kinabalu, Sabah. It is the largest road race in East Malaysia, run since 2008 by the Kinabalu Running Club, and is AIMS-sanctioned. The event is built around the full marathon, with half marathon and 10 km races alongside it. Distances shown are those of the most recent edition; the 2027 line-up has not been published yet. The club also runs the separate Borneo Half Marathon in Kota Kinabalu each January or February.",
+  "core_facts": {
+    "date": "2027-05-16",
+    "distance_km": [
+      10,
+      21.1,
+      42.195
+    ],
+    "primary_distance_km": 42.195,
+    "organizer": "Kinabalu Running Club",
+    "city": "Kota Kinabalu, Sabah",
+    "country": "Malaysia"
+  },
+  "faqs": [
+    {
+      "question": "When is the Borneo International Marathon 2027?",
+      "answer": "Sunday 16 May 2027, in Kota Kinabalu, Sabah. The race is held every May and is the largest road running event in East Malaysia, organised by the Kinabalu Running Club, which has staged it since the inaugural edition in October 2008."
+    },
+    {
+      "question": "What distances does the Borneo International Marathon offer?",
+      "answer": "The full marathon is the headline distance, with a half marathon and a 10 km run alongside it. The distances listed here are those of the most recent edition, as the organisers have not yet published the 2027 category line-up or entry fees."
+    }
+  ],
+  "tags": [
+    "full-marathon",
+    "malaysia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://aims-worldrunning.org/races/10055.html",
+      "label": "AIMS race information -- next race date Sunday 16 May 2027",
+      "type": "aggregator",
+      "last_checked": "2026-09-28"
+    },
+    {
+      "url": "https://aims-worldrunning.org/countries/61.html",
+      "label": "AIMS Malaysia member races",
+      "type": "aggregator",
+      "last_checked": "2026-09-28"
+    }
+  ]
+}

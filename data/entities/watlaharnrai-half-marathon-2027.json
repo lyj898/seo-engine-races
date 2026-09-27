@@ -1,0 +1,53 @@
+{
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-28",
+  "status": "needs_review",
+  "reliability_score": 25,
+  "entity_id": "watlaharnrai-half-marathon-2027",
+  "slug": "watlaharnrai-half-marathon-2027",
+  "name": "Watlaharnrai Half Marathon 2027",
+  "category_id": "half-marathon",
+  "region_id": "thailand",
+  "short_description": "The Watlaharnrai Half Marathon returns to Rayong on Sunday 5 September 2027, over 21.4 km, 10 km and 5 km.",
+  "ai_summary": "The Watlaharnrai Half Marathon is scheduled for Sunday 5 September 2027 in Rayong, on Thailand's eastern gulf coast. It is an AIMS-sanctioned road race run from Wat La Harn Rai in Ban Khai, and its headline distance is slightly over the standard half marathon at 21.4 km. Distances shown are those of the most recent edition; the 2027 line-up has not been published yet.",
+  "core_facts": {
+    "date": "2027-09-05",
+    "distance_km": [
+      5,
+      10,
+      21.4
+    ],
+    "primary_distance_km": 21.4,
+    "city": "Ban Khai, Rayong",
+    "country": "Thailand"
+  },
+  "faqs": [
+    {
+      "question": "When is the Watlaharnrai Half Marathon 2027?",
+      "answer": "Sunday 5 September 2027, in Ban Khai, Rayong. The race is run from Wat La Harn Rai, a temple in the Ban Khai district, roughly two hours south-east of Bangkok on Thailand's eastern gulf coast."
+    },
+    {
+      "question": "How long is the Watlaharnrai half marathon course?",
+      "answer": "21.4 km, slightly longer than the standard 21.0975 km half marathon distance, with 10 km and 5 km races alongside it. Times set here are therefore not directly comparable to a certified half marathon personal best."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "thailand"
+  ],
+  "source_mix": [
+    {
+      "url": "https://aims-worldrunning.org/countries/90.html",
+      "label": "AIMS Thailand member races -- next race date Sunday 5 September 2027",
+      "type": "aggregator",
+      "last_checked": "2026-09-28"
+    }
+  ]
+}

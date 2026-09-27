@@ -1,0 +1,55 @@
+{
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-28",
+  "status": "needs_review",
+  "reliability_score": 25,
+  "entity_id": "sarawak-energy-marathon-2027",
+  "slug": "sarawak-energy-marathon-2027",
+  "name": "Sarawak Energy Marathon 2027",
+  "category_id": "full-marathon",
+  "region_id": "malaysia",
+  "short_description": "The Sarawak Energy Marathon returns to Kuching on Sunday 8 August 2027, with distances from 5 km up to the full marathon.",
+  "ai_summary": "The Sarawak Energy Marathon is scheduled for Sunday 8 August 2027 in Kuching, Sarawak. It is organised by Sarawak Energy Berhad, the state power utility, and is AIMS-sanctioned. The full marathon is the headline distance, with half marathon, 10 km and 5 km races alongside it. Distances shown are those of the most recent edition; the 2027 line-up has not been published yet. The 2026 edition started from Menara Sarawak Energy.",
+  "core_facts": {
+    "date": "2027-08-08",
+    "distance_km": [
+      5,
+      10,
+      21.1,
+      42.195
+    ],
+    "primary_distance_km": 42.195,
+    "organizer": "Sarawak Energy Berhad",
+    "city": "Kuching, Sarawak",
+    "country": "Malaysia"
+  },
+  "faqs": [
+    {
+      "question": "When is the Sarawak Energy Marathon 2027?",
+      "answer": "Sunday 8 August 2027, in Kuching, Sarawak. The race is organised by Sarawak Energy Berhad, the state electricity utility, and is one of two AIMS-sanctioned marathons held in Kuching, alongside the Kuching Marathon in September."
+    },
+    {
+      "question": "What distances does the Sarawak Energy Marathon offer?",
+      "answer": "The full 42.195 km marathon is the headline event, with a half marathon, a 10 km and a 5 km run alongside it. These are the distances from the most recent edition; the 2027 categories and entry fees have not been published yet."
+    }
+  ],
+  "tags": [
+    "full-marathon",
+    "malaysia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://aims-worldrunning.org/countries/61.html",
+      "label": "AIMS Malaysia member races -- next race date Sunday 8 August 2027",
+      "type": "aggregator",
+      "last_checked": "2026-09-28"
+    }
+  ]
+}
