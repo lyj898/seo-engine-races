@@ -1,0 +1,54 @@
+{
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-28",
+  "status": "needs_review",
+  "reliability_score": 25,
+  "entity_id": "miri-marathon-march-2027",
+  "slug": "miri-marathon-march-2027",
+  "name": "Miri Marathon 2027",
+  "category_id": "full-marathon",
+  "region_id": "malaysia",
+  "short_description": "The Miri Marathon returns to Sarawak on Sunday 21 March 2027, with distances from 5 km up to the full marathon.",
+  "ai_summary": "The Miri Marathon is scheduled for Sunday 21 March 2027 in Miri, Sarawak, on the northern coast of Malaysian Borneo. It is AIMS-sanctioned and built around the full marathon, with a half marathon, 10 km and 5 km races alongside. Distances are those of the most recent edition; the 2027 line-up has not been published yet. Earlier editions have started from Jalan Merpati in the centre of Miri.",
+  "core_facts": {
+    "date": "2027-03-21",
+    "distance_km": [
+      5,
+      10,
+      21.1,
+      42.195
+    ],
+    "primary_distance_km": 42.195,
+    "city": "Miri, Sarawak",
+    "country": "Malaysia"
+  },
+  "faqs": [
+    {
+      "question": "When is the Miri Marathon 2027?",
+      "answer": "Sunday 21 March 2027, in Miri, Sarawak. Miri sits on the coast of Malaysian Borneo near the Brunei border, and the race is one of three AIMS-sanctioned marathons in Sarawak, alongside Kuching and the Sarawak Energy Marathon."
+    },
+    {
+      "question": "What distances does the Miri Marathon offer?",
+      "answer": "The full 42.195 km marathon is the headline distance, with a half marathon, a 10 km and a 5 km run alongside it. These are the distances from the most recent edition; the 2027 categories and entry fees have not been announced."
+    }
+  ],
+  "tags": [
+    "full-marathon",
+    "malaysia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://aims-worldrunning.org/countries/61.html",
+      "label": "AIMS Malaysia member races -- next race date Sunday 21 March 2027",
+      "type": "aggregator",
+      "last_checked": "2026-09-28"
+    }
+  ]
+}

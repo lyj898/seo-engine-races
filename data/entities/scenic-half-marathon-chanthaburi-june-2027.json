@@ -1,0 +1,61 @@
+{
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-28",
+  "status": "needs_review",
+  "reliability_score": 25,
+  "entity_id": "scenic-half-marathon-chanthaburi-june-2027",
+  "slug": "scenic-half-marathon-chanthaburi-june-2027",
+  "name": "Scenic Half Marathon Chanthaburi 2027",
+  "category_id": "half-marathon",
+  "region_id": "thailand",
+  "short_description": "The Scenic Half Marathon Chanthaburi returns on Sunday 6 June 2027, running the coast at Kung Wiman over 21.1 km, 10 km, 5 km and 3 km.",
+  "ai_summary": "The Scenic Half Marathon Chanthaburi is scheduled for Sunday 6 June 2027 in Chanthaburi, on Thailand's eastern gulf coast. It is one of six half marathons in the Scenic Marathon series run by Raceup Work, which also stages races at Pranburi, Rayong, Krabi, Chiang Mai and Nakhon Phanom. Distances are those of the most recent edition; the 2027 line-up has not been published yet. Earlier editions have run along the coast at Kung Wiman Beach.",
+  "core_facts": {
+    "date": "2027-06-06",
+    "distance_km": [
+      3,
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "organizer": "Scenic Marathon Series",
+    "city": "Chanthaburi",
+    "country": "Thailand"
+  },
+  "faqs": [
+    {
+      "question": "When is the Scenic Half Marathon Chanthaburi 2027?",
+      "answer": "Sunday 6 June 2027, in Chanthaburi on Thailand's eastern gulf coast, roughly four hours south-east of Bangkok. The race is part of the Scenic Marathon series, which runs six half marathons across Thailand through the year."
+    },
+    {
+      "question": "What distances does the Scenic Half Marathon Chanthaburi offer?",
+      "answer": "A 21.1 km half marathon as the headline distance, with 10 km, 5 km and 3 km races alongside it. These are the distances from the most recent edition; the organisers have not yet published the 2027 categories, start times or entry fees."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "thailand"
+  ],
+  "source_mix": [
+    {
+      "url": "https://aims-worldrunning.org/countries/90.html",
+      "label": "AIMS Thailand member races -- next race date Sunday 6 June 2027",
+      "type": "aggregator",
+      "last_checked": "2026-09-28"
+    },
+    {
+      "url": "https://scenicmarathon.com/",
+      "label": "Scenic Marathon series official site",
+      "type": "official",
+      "last_checked": "2026-09-28"
+    }
+  ]
+}

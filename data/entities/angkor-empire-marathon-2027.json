@@ -1,0 +1,54 @@
+{
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-28",
+  "status": "needs_review",
+  "reliability_score": 25,
+  "entity_id": "angkor-empire-marathon-2027",
+  "slug": "angkor-empire-marathon-2027",
+  "name": "Angkor Empire Marathon 2027",
+  "category_id": "full-marathon",
+  "region_id": "cambodia",
+  "short_description": "The Angkor Empire Marathon returns to Siem Reap on Sunday 8 August 2027, running past the temples of Angkor over distances up to the full marathon.",
+  "ai_summary": "The Angkor Empire Marathon is scheduled for Sunday 8 August 2027 in Siem Reap, Cambodia. It is run through the Angkor Archaeological Park, with earlier editions starting in front of Angkor Wat itself, and is AIMS-sanctioned. The full marathon is the headline distance, with a half marathon, 10 km and 3 km alongside it. Distances are those of the most recent edition; the 2027 line-up has not been published yet. The AIMS listing gives the organiser's address in Phnom Penh; the race itself is held at Angkor, near Siem Reap.",
+  "core_facts": {
+    "date": "2027-08-08",
+    "distance_km": [
+      3,
+      10,
+      21.0975,
+      42.195
+    ],
+    "primary_distance_km": 42.195,
+    "city": "Siem Reap",
+    "country": "Cambodia"
+  },
+  "faqs": [
+    {
+      "question": "When is the Angkor Empire Marathon 2027?",
+      "answer": "Sunday 8 August 2027, at Angkor near Siem Reap in Cambodia. It is one of two AIMS-sanctioned races held at Angkor, the other being the Angkor Wat International Half Marathon, which runs in December."
+    },
+    {
+      "question": "What distances does the Angkor Empire Marathon offer?",
+      "answer": "The full 42.195 km marathon is the headline event, with a half marathon, a 10 km and a 3 km run alongside it. These are the distances from the most recent edition; the 2027 categories, start times and entry fees are not yet published."
+    }
+  ],
+  "tags": [
+    "full-marathon",
+    "cambodia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://aims-worldrunning.org/countries/18.html",
+      "label": "AIMS Cambodia member races -- next race date Sunday 8 August 2027",
+      "type": "aggregator",
+      "last_checked": "2026-09-28"
+    }
+  ]
+}
