@@ -7,27 +7,6 @@
   "meta_description": "Sante Barley Trilogy Run Asia 2026 Cebu Leg 3 review: September 13 at SM Seaside -- the culminating leg with the signature 32K distance in Cebu City.",
   "dek": "Set for 13 September 2026 at SM Seaside, Cebu City, this is the third and final leg of the Cebu series within Sante Barley Trilogy Run Asia, featuring the signature 32K distance alongside 5K, 10K and 21K.",
   "verdict": "Cebu Leg 3 closes out the local three-race progression within the Sante Barley Trilogy Run Asia series, held at SM Seaside -- the Philippines' fifth-largest mall and Cebu's biggest waterfront commercial venue. The signature 32K distance sits alongside the standard 5K/10K/21K spread, following the same progressive structure used at the Iloilo and Manila legs in this series: shorter distances early in the calendar year, building to 32K by Leg 3, feeding into a National Finals qualification. Registration status for this specific leg isn't yet announced, and no independent participant feedback for the Cebu leg turned up in research, consistent with the pattern across this series' newer or less-publicised stops.",
-  "rating": {
-    "overall": 65,
-    "breakdown": [
-      {
-        "label": "Series structure & progression",
-        "score": 78
-      },
-      {
-        "label": "Venue (SM Seaside, waterfront)",
-        "score": 76
-      },
-      {
-        "label": "Organiser track record (RunRio)",
-        "score": 70
-      },
-      {
-        "label": "Registration clarity & reviews",
-        "score": 30
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "The Cebu Finale of a Progressive Series",
@@ -91,8 +70,8 @@
       "answer": "No independent reviews were found for the Cebu leg specifically -- available material is limited to organiser sources. This is consistent with the broader Trilogy Run Asia series, which has scale and history but limited public review coverage across most of its individual legs. [1]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. A 2025 Cebu Leg 3 was held (24 August 2025, per listings), but no report, results summary or runner account of it or of the 13 September 2026 leg could be found. The URL redirects to the race listing.",
   "published_at": "2026-08-09T07:15:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

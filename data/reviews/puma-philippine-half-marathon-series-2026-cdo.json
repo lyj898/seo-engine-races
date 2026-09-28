@@ -7,27 +7,6 @@
   "meta_description": "PUMA Philippine Half Marathon Series 2026 Cagayan de Oro leg review: September 6 at Ayala Centrio Mall, part of a six-city series with strict cutoffs.",
   "dek": "Set for 6 September 2026 at Ayala Centrio Mall, this Cagayan de Oro leg of RunRio's six-city PUMA Philippine Half Marathon Series runs a firm 7am course cutoff, with ambulance sweeps for stragglers.",
   "verdict": "The CDO leg of the PUMA Philippine Half Marathon Series follows the same structure as the other five legs in this circuit -- 5K/10K/21K distances, mall-anchored start/finish, and RunRio's standard course-marking and medical support. The Ayala Centrio Mall venue in downtown Cagayan de Oro gives it built-in parking and amenities. The firmest logistics detail is the course cutoff: in the 2025 edition it was 7:00am, after which an ambulance swept the route and picked up remaining participants, who were disqualified from official results -- a tight window worth planning your pacing around.",
-  "rating": {
-    "overall": 66,
-    "breakdown": [
-      {
-        "label": "Venue accessibility (Centrio Mall)",
-        "score": 78
-      },
-      {
-        "label": "Series structure (six-city)",
-        "score": 74
-      },
-      {
-        "label": "Race-day organisation",
-        "score": 68
-      },
-      {
-        "label": "Cutoff tightness",
-        "score": 50
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "One of Six Legs, Mall-Anchored",
@@ -91,8 +70,8 @@
       "answer": "Hydration stations with water, medical aid points, and portable toilets are placed along the route per RunRio's standard race mechanics. The course is marked with barriers and cones, and runners must stay within boundaries or risk disqualification. [1]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and already-researched entity material (research_highlights/watchouts), plus supplementary background sources. Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. No report, results summary or runner account of the 6 September 2026 CDO leg or of an earlier CDO leg could be found. The URL redirects to the race listing.",
   "published_at": "2026-08-09T07:00:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

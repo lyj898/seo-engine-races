@@ -7,27 +7,6 @@
   "meta_description": "Isla del Fuego Marathon 2026 review: September 6 on Siquijor Island -- an NGO-organized race named after the island's Spanish-era nickname.",
   "dek": "Set for 6 September 2026 along Siquijor's circumferential boulevard, this race takes its name from Isla de Fuegos, the Spanish colonial nickname for an island once known for its swarms of fireflies -- run by an NGO-linked events team with early gun starts to beat the heat.",
   "verdict": "The Isla del Fuego Marathon carries genuine local meaning in its name -- Siquijor was called Isla de Fuegos ('Island of Fires') by early Spanish explorers because of the fireflies they found there, and this race leans into that island identity. Four distances from 5K to the full marathon start on Siquijor Blvd with very early gun times (3am for the 21K) to beat tropical heat, and the event is organised by SMOKE10 Events, tied to the Heartbeat Mission Foundation NGO rather than a purely commercial promoter. Track record is thin -- limited public reviews and a history of shifting race dates across editions -- but at least one finisher described their 21K here as a genuinely proud personal milestone.",
-  "rating": {
-    "overall": 63,
-    "breakdown": [
-      {
-        "label": "Island setting & name heritage",
-        "score": 80
-      },
-      {
-        "label": "Distance range",
-        "score": 72
-      },
-      {
-        "label": "NGO/charitable backing",
-        "score": 66
-      },
-      {
-        "label": "Track record & date stability",
-        "score": 38
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "The Island of Fires",
@@ -110,8 +89,8 @@
       "answer": "Yes -- editions have run in March, November, and September across different years, so always confirm the current year's exact date before booking travel. Public participant reviews are also still limited for this event. [2]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and already-researched entity material (research_highlights/watchouts), plus supplementary background sources. Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. Earlier editions were held (results pages exist for 2025), but no report or runner account of any edition could be found, and the results pages cannot be read without a browser. The URL redirects to the race listing.",
   "published_at": "2026-08-09T07:00:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

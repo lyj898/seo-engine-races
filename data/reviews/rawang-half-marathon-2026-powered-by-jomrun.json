@@ -7,16 +7,6 @@
   "meta_description": "Rawang Half Marathon 2026 Powered by JomRun: September 13 at AEON Mall Rawang. 21K, 10K, 5K now open for registration. A convenient Klang Valley half marathon — here's our review.",
   "dek": "Set for 13 September 2026 at AEON Mall Rawang in Selangor, this JomRun-powered half marathon brings three race distances to a northern Klang Valley suburb. Registration is open, the platform is familiar, and the logistics are refreshingly straightforward.",
   "verdict": "The Rawang Half Marathon Powered by JomRun is exactly what it says on the tin: a convenient, accessible Klang Valley half marathon anchored at AEON Mall Rawang, with three distance options (21.1K, 10K, 5K) and registration open now via JomRun's familiar platform. This is not a destination race — nobody is flying into KLIA to run the Rawang Half Marathon — but that is precisely its strength. For the thousands of runners who live in the Klang Valley corridor from Kuala Lumpur up through Selangor, this is an easy-commitment event: drive up the North-South Expressway, park at a mall with abundant spaces, collect your bib, run your race, and be home for lunch. JomRun's registration infrastructure is well-established among Malaysian runners and removes much of the friction that plagues smaller events. The trade-offs are real: AEON Mall Rawang is a retail car park, not a scenic destination, and the Route 1 corridor is a working highway, not a parkland. September is the inter-monsoon period on the west coast, meaning warm, humid conditions with the ever-present possibility of afternoon thunderstorms. For Klang Valley runners looking for a well-organised, low-friction half marathon with no flights or hotel bookings required, this is a solid pick — just set your expectations for a suburban mall-anchored race rather than a scenic getaway.",
-  "rating": {
-    "overall": 66,
-    "breakdown": [
-      { "label": "Registration experience", "score": 82 },
-      { "label": "Klang Valley accessibility", "score": 78 },
-      { "label": "Distance range", "score": 68 },
-      { "label": "Scenery & course appeal", "score": 40 },
-      { "label": "Organiser track record", "score": 70 }
-    ]
-  },
   "sections": [
     {
       "heading": "Rawang: A Growing Northern Corridor Suburb",
@@ -100,8 +90,8 @@
       "answer": "The Rawang Half Marathon is designed primarily as a local Klang Valley event and is best suited to runners based in Kuala Lumpur, Selangor, and the surrounding areas. Out-of-town and international runners will find more compelling destination-race propositions elsewhere in Malaysia — this is a convenient, well-organised suburban half marathon, not a travel-worthy event. [1]"
     }
   ],
-  "editorial_notes": "Hand-revised from auto-generated stub on 2026-08-08. Expanded from 2 sections/1 FAQ/1 source to 5 sections/5 FAQs/3 sources. Prose is original synthesis.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. A 2025 edition was held (15 November 2025, per the registration platform), but no report, results summary or runner account of it or of the 13 September 2026 race could be found. The URL redirects to the race listing.",
   "published_at": "2026-08-08T18:40:00.000Z",
-  "last_updated": "2026-08-08",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

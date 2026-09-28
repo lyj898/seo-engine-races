@@ -7,27 +7,6 @@
   "meta_description": "MILO Marathon 2026 Tagbilaran Leg review: September 13, an unusual 6:05pm start, part of the 50th-anniversary Golden Run series in Bohol's capital city.",
   "dek": "Set for 13 September 2026 with an unusual 6:05pm timeslot, this Tagbilaran leg is one of 15 stops on the MILO Marathon's 50th-anniversary Golden Run series, held in Bohol's small, walkable provincial capital.",
   "verdict": "The Tagbilaran leg stands out within the MILO Marathon's 2026 Golden Run series for one specific reason: it's listed with a 6:05pm timeslot, unusual for a series that typically runs early-morning legs to beat the heat. Four distances (3K/5K/10K/21K) keep it accessible, and past editions have offered a full entitlement structure -- singlets and bibs for all, finisher shirts and medals for 10K/21K/42K finishers. Tagbilaran itself is Bohol's compact, walkable provincial capital, small enough (just 36.5 sq km, roughly 105,000 people) that logistics are simple compared to sprawling Metro Manila legs.",
-  "rating": {
-    "overall": 67,
-    "breakdown": [
-      {
-        "label": "Series heritage (50th-anniversary Golden Run)",
-        "score": 85
-      },
-      {
-        "label": "Compact, walkable destination",
-        "score": 72
-      },
-      {
-        "label": "Distance accessibility",
-        "score": 74
-      },
-      {
-        "label": "Unusual evening timeslot -- unclear conditions",
-        "score": 45
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "An Unusual Evening Timeslot",
@@ -91,8 +70,8 @@
       "answer": "Based on the 2024 edition, all entrants get a singlet and race bib, 21K/42K finishers receive finisher shirts and lootbags, and 10K/21K/42K finishers receive medals. Registration is handled online via Race Roster. [1]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and already-researched entity material (research_highlights/watchouts), plus supplementary background sources. Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. The MILO Marathon series has a long history, but no report, results summary or runner account of a Tagbilaran leg, in 2026 or earlier, could be found. The URL redirects to the race listing.",
   "published_at": "2026-08-09T07:00:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

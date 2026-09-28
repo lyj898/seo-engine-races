@@ -7,27 +7,6 @@
   "meta_description": "Pahang Marathon 2026 review: September 6 at Dataran Sayangi Kuantan -- the inaugural edition of a new full and half marathon in Pahang's state capital.",
   "dek": "Set for 6 September 2026 at Dataran Sayangi Kuantan, this is the debut edition of the Pahang Marathon -- full and half marathon distances with veteran divisions, co-organised by youth and running community groups with city council backing.",
   "verdict": "The Pahang Marathon is a brand-new event, explicitly billed as its debut in Kuantan -- Malaysia's East Coast capital and 12th-largest city -- with no prior edition to draw on for feedback. Two distances (42K full, 21K half), each split into open and veteran divisions, keep the format straightforward, and the event carries genuine official backing: co-organised by POMPKL and Kita Pelari Malaysia, with Pure Events and Persatuan Olahraga Pahang as technical organisers, supported by Kuantan City Council. A related same-organiser debut event in 2025 also launched without generating public feedback, so this is one to treat as an unknown quantity operationally, even with solid institutional support on paper.",
-  "rating": {
-    "overall": 60,
-    "breakdown": [
-      {
-        "label": "Official backing & organisation",
-        "score": 76
-      },
-      {
-        "label": "Destination (Kuantan, state capital)",
-        "score": 70
-      },
-      {
-        "label": "Eligibility & accessibility",
-        "score": 68
-      },
-      {
-        "label": "Debut event, no track record",
-        "score": 25
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "A Genuine First for Kuantan",
@@ -97,8 +76,8 @@
       "answer": "Persatuan Orang Muda Pahang KL (POMPKL) and Kita Pelari Malaysia co-organise, with Pure Events and Persatuan Olahraga Pahang as Technical Organisers, supported by Kuantan City Council (Majlis Bandaraya Kuantan). [1]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and already-researched entity material (research_highlights/watchouts), plus supplementary background sources. Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. The first edition was run on 6 September 2026 (Kuantan City Council confirms the flag-off), but nothing describing how the race went -- field size, results or runner accounts -- could be found. The URL redirects to the race listing.",
   "published_at": "2026-08-09T07:00:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }
