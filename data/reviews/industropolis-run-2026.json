@@ -1,90 +1,213 @@
 {
-  "pull_quotes": [],
-  "editorial_notes": "Written about the PREVIOUS edition, from published reporting on it, to help a reader decide on the next one. No rating: the sources are news reports and organiser statements, which describe how an event was run, not how runners rated it. A score needs participant evidence -- race reports, runner blogs, attributed quotes -- and without it would be invention.",
-  "published_at": "2026-09-28T12:00:00.000Z",
-  "last_updated": "2026-09-28",
-  "status": "active",
+  "review_id": "industropolis-run-2026",
   "slug": "industropolis-run-2026",
-  "title": "Industropolis Run 2026 Review: What the 2025 Edition Was Like",
-  "seo_title": "Industropolis Run 2026 Review | Batang, Central Java",
-  "meta_description": "Industropolis Run review: 2,525 runners in 2025, a new half marathon and an AIMS-certified course in Batang's industrial estate. What to expect in 2026.",
-  "dek": "A race inside an industrial estate that has quietly become a certified international course. It added a half marathon only in 2025, grew by a quarter in a year, and is now AIMS certified. Here is what last year was like.",
-  "verdict": "Industropolis Run is a young event on the way up. The 2025 edition on Sunday 7 December at KEK Industropolis Batang drew 2,525 runners, up from 2,000 the year before [1], and it was the first year with a half marathon -- 2024 offered only 5 km and 10 km [2]. The course is now AIMS certified [1], which means an internationally recognised measurement, and the event collected donations for disaster victims in Sumatra [1]. An industrial estate is an unusual place for a race, but it gives you wide, closed, quiet roads at dawn.",
+  "entity_id": "industropolis-run-2026",
+  "title": "Industropolis Run 2026 Review: What the 2025 Race Was Like",
+  "seo_title": "Industropolis Run Review: Batang Course, Weather, Cut-offs, Results",
+  "meta_description": "Industropolis Run review from the 2025 race: a car-free AIMS course in Batang's industrial zone, 24°C and 89% humidity at 5am, cut-offs, 308 half finishers and winning times.",
+  "dek": "What it was like to run the 2025 edition inside Batang's special economic zone: the car-free course, the humid dawn, the cut-offs and entry rules, how fast the field ran, and what changes for 2026.",
+  "verdict": "Enter if you are an Indonesian citizen who wants a small, car-free, AIMS-certified half marathon or 10 km. The 2025 race, the first with a half marathon, drew 2,525 runners by the organiser's count; 308 finished the half, all inside the 210-minute limit, the last in 3:26:36. Tenth place in the half was 1:36:32 for men and 2:23:46 for women, so a good club runner can place. The catches: in 2025 the route climbed before the finish and runners bunched up near the jetty, which the reversed 2026 route is meant to fix, and dawn was humid, with 24°C and 89% humidity at 5am at the nearest airport. Book a room early: Batang's hotels were almost full.",
+  "at_a_glance": {
+    "heading": "The 2025 race in numbers",
+    "rows": [
+      {
+        "label": "Date",
+        "value": "Sunday 7 December 2025, the second edition and the first with a half marathon. Next: Sunday 6 December 2026"
+      },
+      {
+        "label": "Field",
+        "value": "2,525 runners (organiser's figure): 1,546 in the 5 km, 629 in the 10 km, 350 in the half"
+      },
+      {
+        "label": "Finishers",
+        "value": "308 in the half (39 of them women), 595 in the 10 km, 1,322 in the 5 km"
+      },
+      {
+        "label": "Who can enter",
+        "value": "Indonesian citizens only; minimum age 17 for the 10 km and half"
+      },
+      {
+        "label": "Cut-offs",
+        "value": "Half 210 minutes, 10 km 150 minutes, 5 km 90 minutes. The last half finisher came in at 3:26:36"
+      },
+      {
+        "label": "Weather at 5am",
+        "value": "24°C, dew point 22°C, 89% humidity, wind 2 knots (Semarang airport, about 40 km east)"
+      },
+      {
+        "label": "Weather at 8.30am",
+        "value": "30°C, 66% humidity"
+      },
+      {
+        "label": "Course",
+        "value": "Inside the Batang industrial zone on roads closed to all vehicles; AIMS-certified. It climbed before the finish in 2025"
+      },
+      {
+        "label": "Aid",
+        "value": "Drinks every 2 to 3 km and at the finish"
+      },
+      {
+        "label": "Winning half marathon times",
+        "value": "1:17:59 (men), 1:36:37 (women)"
+      },
+      {
+        "label": "10th place, half marathon",
+        "value": "1:36:32 (men), 2:23:46 (women)"
+      },
+      {
+        "label": "Finisher items",
+        "value": "Medal and e-certificate; finisher jersey for the half"
+      },
+      {
+        "label": "Entry fee (2025)",
+        "value": "Half Rp450,000, 10 km Rp250,000, 5 km Rp200,000, before early-bird discounts"
+      }
+    ]
+  },
   "sections": [
     {
-      "heading": "The 2025 Edition",
+      "heading": "The Course: Car-Free Roads Through an Industrial Zone",
       "paragraphs": [
-        "The 2025 race was held on Sunday 7 December inside KEK Industropolis Batang, the special economic zone in Batang regency on Central Java's north coast [1]. It drew 2,525 participants across 5 km, 10 km and the half marathon [1].",
-        "That was a jump of around a quarter on the previous year, when the event drew about 2,000 [1] -- a meaningful rise for a race still establishing itself."
+        "The race is run entirely inside the Kawasan Industri Terpadu Batang, the special economic zone at Gringsing on Central Java's north coast [1]. Before the 2025 race the organiser said the route would pass the industrial complex, rubber plantations, the reservoir lake and the Terminal Multipurpose Batang port, on roads closed to all vehicles that it described as gently graded [2]. After the race Yoyok Riyo Sudibyo, a member of parliament who runs, said there was nowhere else in Central Java or Indonesia to run a half marathon without a single car, and praised the mix of tarmac, countryside and sea [3].",
+        "The course is AIMS-certified [3]. It was not entirely flat. Announcing the 2026 race, the organiser said the new route would have no uphill stretch just before the finish, and that the course had been reversed after an evaluation of 2025 to stop runners bunching up [4]. The changes were made at crucial points including the jetty, and in 2026 runners go to the jetty first and then into the industrial area [4][5].",
+        "No route map, elevation profile or aid-station plan was published for 2025; the Race Guide link on the official site led nowhere [1]. School children cheered along the route [6], and the organiser had planned a jiring, a traditional cheering contest, among the surrounding villages [7]."
       ]
     },
     {
-      "heading": "A Half Marathon That Is Brand New",
+      "heading": "The Weather: Humid at Dawn, 30°C by 8.30am",
       "paragraphs": [
-        "The most important thing to understand about this race's half marathon is how recent it is. The 2024 edition offered only 5 km and 10 km; the half marathon was added for 2025 [2].",
-        "That cuts both ways. A new distance often comes with teething problems in its first years. It also means a smaller, less crowded half marathon field than the event's total size suggests, since most of the 2,525 runners were in the shorter races."
+        "The nearest airport weather station is Semarang's Ahmad Yani airport, about 40 km east of the start. On race morning it recorded light rain at 3am, then 24°C at 5am, with a dew point of 22°C, 89% humidity and a 2-knot wind [8]. It warmed steadily: 25°C at 6am, 27°C at 7am, 28°C at 7.30am, 29°C at 8am and 30°C at 8.30am, by when humidity had fallen to 66% [8].",
+        "A dew point of 22°C means sweat evaporates slowly, so the early kilometres feel warmer than the thermometer suggests, and the back of the field finishes in the hottest part of the morning. The 2025 start times are not on any official page still online. For 2026 the registration page lists the half at 5am, the 10 km at 5.30am and the 5 km at 5.45am [9]; on that timetable a 2:30 half marathoner finishes at 7.30am, when Semarang was already at 28°C in 2025 [8]."
       ]
     },
     {
-      "heading": "An AIMS-Certified Course",
+      "heading": "Aid Stations, Cut-offs and Entry Rules",
       "paragraphs": [
-        "The course is now certified by AIMS, the international association of road race organisers [1]. Batang's regent put it plainly: the certification means the course is recognised internationally [1].",
-        "For a runner, certification is the difference between a time that counts and one that does not. A certified half marathon course is measured to a standard, so a personal best set here is a real one."
+        "The rules promise a drinks station every 2 to 3 km along the course and at the finish [1]. The limits are 210 minutes for the half, 150 for the 10 km and 90 for the 5 km, with intermediate cut-offs to be announced before the race; runners outside the limit are recorded as DNF and get no medal [1]. The limits were not tight in 2025: the slowest of the 308 half-marathon finishers came in at 3:26:36 on the gun clock, and 43 took more than three hours [10]. Ten half marathoners did not finish and three were disqualified [10].",
+        "Entry is open to Indonesian citizens only, and the minimum age for the 10 km and half is 17, with a parent's letter required for younger runners [1]. Fees are not refunded, bibs cannot be transferred, and race packs are neither posted nor handed out on race day [1]. In 2025 the half cost Rp450,000, the 10 km Rp250,000 and the 5 km Rp200,000, before an early-bird discount [1][2]. Every entry included a race jersey, a timing-chip bib, a tote bag, a finisher medal, an e-certificate and insurance, and half-marathon finishers also got a finisher jersey [1]."
       ]
     },
     {
-      "heading": "What to Expect in 2026",
+      "heading": "How Fast the Field Is",
       "paragraphs": [
-        "The 2026 edition is scheduled for Sunday 6 December, starting at 4.00am WIB at Kawasan Industri Terpadu Batang in Gringsing, again over 5 km, 10 km and the half marathon [3].",
-        "The organisers have published generous cut-offs: 90 minutes for the 5 km, 150 minutes for the 10 km and 210 minutes for the half [3]. A 3 hour 30 minute half marathon cut-off is forgiving by regional standards and makes this a sensible first attempt at the distance."
+        "The half marathon was close at the front and thinned quickly behind. The men's race was won in 1:17:59, with second and third in 1:18:06 and 1:18:39; fourth was more than five minutes back in 1:23:50, and tenth ran 1:36:32 [10]. The women's race was won in 1:36:37, from 1:40:26 and 1:48:58, and tenth place was 2:23:46 [10]. Only 39 of the 308 finishers were women, and the median finisher took 2:26:59 [10].",
+        "In the 10 km the men's winner ran 41:06 and tenth place 49:08; the women's winner ran 42:51 and tenth 1:05:46 [10]. The 2025 prize fund was Rp37 million, for men and women in the half and 10 km plus a best-costume prize [2]; the 5 km was a non-competitive fun run with no podium [1]. Open-category podium prizes go only to Indonesian citizens, decided on gun time [1]. A woman under 2:20 for the half or a man under 49 minutes for the 10 km would have made the top ten in 2025. For 2026 the organiser has invited national athletes and raised the prize fund to Rp100 million [4][5]."
       ]
     },
     {
-      "heading": "Should You Enter?",
+      "heading": "Race Weekend Logistics",
       "paragraphs": [
-        "Yes, especially for a first half marathon or a certified time without the crowds of a big-city race. The combination of a new, uncrowded half, an internationally certified course and a forgiving cut-off is unusual.",
-        "The trade-off is setting. Running through an industrial estate is not scenic, and Batang is some way from the region's main cities. Come for the course and the certification, not the view.",
-        "This review is compiled from published reporting on the previous edition and the organisers' own announcements. It is not a first-hand race report, and nobody from this site ran the race."
+        "Accommodation is the pinch point. The regent said hotels in Batang were almost full over the 2025 race weekend [3], and hoped there would be a hotel inside the zone by 2026 [6]. Before the race the regency said it had lined up options from hotels to village homestays [7].",
+        "Packs must be collected before race day, in person or by someone carrying your letter of authorisation, proof of registration and copies of both ID cards [1]. For 2026, collection is at the industrial estate on Friday 4 December, 1pm to 6pm, and Saturday 5 December, 10am to 6pm [9]. The 2026 field is capped at 2,626 [4], with 350 places in the half, 1,300 in the 10 km and 976 in the 5 km [5]."
+      ]
+    },
+    {
+      "heading": "Should You Enter the 2026 Race?",
+      "paragraphs": [
+        "Yes, if you are an Indonesian citizen looking for a small, certified half marathon or 10 km on roads with no traffic at all, or a first half marathon with a generous limit: everyone who finished the half in 2025 did so in under 3 hours 27.",
+        "Think twice if you are not an Indonesian citizen, since entry is limited to WNI, or if you want a scenic city course: much of the route runs through an industrial estate. Plan for humid air at the start and book a room early.",
+        "The 2026 race is on Sunday 6 December, on a reversed route [4]. A route map, aid-station plan and intermediate cut-offs had not been published when this was written.",
+        "Nobody from this site ran the race. This review draws on the organiser's rules and registration pages, the full results, airport weather records and Indonesian news reports."
       ]
     }
   ],
+  "pull_quotes": [],
   "sources": [
     {
       "n": 1,
-      "label": "Industropolis Run Batang is now AIMS certified and draws 2,525 participants",
-      "publisher": "InfoPublik",
-      "url": "https://infopublik.id/kategori/nusantara/950560/industropolis-run-batang-sudah-certified-aims-sedot-peserta-2-525-orang",
-      "type": "news"
+      "label": "Official race site as it stood for the 2025 race: categories, fees, race rules, cut-offs and FAQ (Wayback Machine copy, in Indonesian)",
+      "publisher": "Industropolis Run (organiser), via Internet Archive",
+      "url": "https://web.archive.org/web/20260117135103/https://industropolisrun.id/",
+      "type": "official"
     },
     {
       "n": 2,
-      "label": "Industropolis Run 2025 held with 2,525 participants and a humanitarian mission",
+      "label": "2025 launch: route landmarks, car-free roads, fees and prize money (in Indonesian)",
+      "publisher": "Media Indonesia",
+      "url": "https://mediaindonesia.com/nusantara/799122/kembangkan-kawasan-industri-batang-gelar-indruspolis-run-2025",
+      "type": "news"
+    },
+    {
+      "n": 3,
+      "label": "Race-day report: field size, AIMS certification, hotels and a runner-MP on the car-free route (in Indonesian)",
       "publisher": "detikJateng",
       "url": "https://www.detik.com/jateng/jawa-tengah-meriah/d-8247444/industropolis-run-2025-digelar-diikuti-2-525-peserta-usung-misi-humanis",
       "type": "news"
     },
     {
-      "n": 3,
-      "label": "Industropolis Run 2026 event listing: date, start time, venue and cut-offs",
-      "publisher": "JadwalLari.id",
-      "url": "https://jadwallari.id/events/industropolis-run/",
-      "type": "aggregator"
+      "n": 4,
+      "label": "2026 launch: date, 2,626-runner cap, fees and the reversed route (in Indonesian)",
+      "publisher": "detikJateng",
+      "url": "https://www.detik.com/jateng/jawa-tengah-meriah/d-8635767/industropolis-run-2026-digelar-6-desember-cek-infonya-di-sini",
+      "type": "news"
+    },
+    {
+      "n": 5,
+      "label": "2026 preview: route changes at the jetty, places per category and prize fund (in Indonesian)",
+      "publisher": "RRI Semarang",
+      "url": "https://rri.co.id/semarang/olimpik/2682008/sez-industropolis-run-2026-jadi-ajang-pembuktian-pelari-terbaik-indonesia",
+      "type": "news"
+    },
+    {
+      "n": 6,
+      "label": "Post-race report: runners by category, cheering school children and the regent on hotels (in Indonesian)",
+      "publisher": "Medcom.id",
+      "url": "https://www.medcom.id/olahraga/sports-lainnya/Zke14Evk-sambil-berdonasi-untuk-sumatra-ribuan-pelari-meriahkan-industropolis-run-2025",
+      "type": "news"
+    },
+    {
+      "n": 7,
+      "label": "2025 launch: village cheering contest and accommodation plans (in Indonesian)",
+      "publisher": "Batang Regency Government news",
+      "url": "https://berita.batangkab.go.id/detail/14076/industropolis-run-2025-siap-digelar-sport-tourism-kebanggaan-batang-kini-bersertifikasi-internasion",
+      "type": "news"
+    },
+    {
+      "n": 8,
+      "label": "Weather observations at Semarang Ahmad Yani Airport (WAHS), 7 December 2025",
+      "publisher": "Iowa Environmental Mesonet (airport METAR archive)",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=WAHS&data=tmpc&data=dwpc&data=relh&data=sknt&data=wxcodes&year1=2025&month1=12&day1=7&year2=2025&month2=12&day2=8&tz=Asia%2FJakarta&format=onlycomma&latlon=no&missing=M&report_type=3&report_type=4",
+      "type": "other"
+    },
+    {
+      "n": 9,
+      "label": "2026 registration page: start times, cut-offs and race-pack collection",
+      "publisher": "Lawana",
+      "url": "https://lawana.id/event/industropolis-run-2026",
+      "type": "registration_platform"
+    },
+    {
+      "n": 10,
+      "label": "Full results of the 2025 race, all categories",
+      "publisher": "SR.ID (race organiser and timer)",
+      "url": "https://sixrace.id/result/view.php?r=r2528",
+      "type": "official"
     }
   ],
   "faqs": [
     {
-      "question": "Is the Industropolis Run course certified?",
-      "answer": "Yes. The course is certified by AIMS, the international association of road race organisers, which means it is measured to an internationally recognised standard. A time set on it, including a half marathon personal best, therefore counts."
+      "question": "Can foreigners enter Industropolis Run?",
+      "answer": "No. The race rules open entry to Indonesian citizens (WNI) only, and open-category podium prizes also go only to Indonesian citizens. The minimum age for the 10 km and half marathon is 17, and younger runners need a letter from a parent. Entry fees are not refunded and bibs cannot be transferred to another runner."
     },
     {
-      "question": "How many people ran Industropolis Run in 2025?",
-      "answer": "2,525 runners took part on Sunday 7 December 2025 inside KEK Industropolis Batang, up from about 2,000 the year before. 2025 was also the first year the event offered a half marathon; the 2024 edition had only 5 km and 10 km."
+      "question": "Is the Industropolis Run course closed to traffic?",
+      "answer": "Yes. The whole course runs inside the Batang industrial zone on roads closed to all vehicles, past factories, rubber plantations, a reservoir and the port, and it is AIMS-certified. In 2025 it climbed just before the finish and runners bunched up near the jetty; the organiser has reversed the route for 2026 to fix both."
     },
     {
-      "question": "Is Industropolis Run a good first half marathon?",
-      "answer": "It is a sensible choice. The half marathon field is small because the distance is new, the course is AIMS certified, and the organisers publish a forgiving 210-minute cut-off. The setting, an industrial estate, is not scenic, but the roads are wide and closed."
+      "question": "How fast do you need to be to place at Industropolis Run?",
+      "answer": "Not very fast by national standards. In 2025 the half marathon was won in 1:17:59 by a man and 1:36:37 by a woman, and tenth place was 1:36:32 and 2:23:46. The 10 km winners ran 41:06 and 42:51. For 2026 the organiser has invited national athletes and raised the prize fund to Rp100 million."
+    },
+    {
+      "question": "How hot and humid is Industropolis Run?",
+      "answer": "Humid at the start and hot by the finish. On race morning in 2025, Semarang airport, about 40 km east, recorded 24°C with a dew point of 22°C and 89% humidity at 5am. By 8.30am it was 30°C with 66% humidity, so slower half marathoners finish in the hottest part of the morning."
+    },
+    {
+      "question": "Where should you stay for Industropolis Run?",
+      "answer": "Book early. The regent said hotels in Batang were almost full over the 2025 race weekend, and the regency arranged options from hotels to village homestays. Race packs cannot be collected on race day; in 2026 collection is at the industrial estate on Friday 4 and Saturday 5 December, so plan to arrive by Saturday."
     }
   ],
-  "review_id": "industropolis-run-2026",
-  "entity_id": "industropolis-run-2026"
+  "editorial_notes": "Rewritten 2026-09-29 to the review template, about the previous edition (7 December 2025). Weather is from Semarang airport METAR observations, about 40 km from the course, not a forecast. Full results were parsed from the SR.ID results table. The organiser's participant figure (2,525) differs from the entries listed in the results (2,690); the organiser figure is given as its own and finisher counts come from the results. The 2025 start times, route map and pack-collection details could not be found; 2026 start times are from the registration page (half at 5am), which conflicts with an aggregator's 4am. No readable runner accounts were found. No rating.",
+  "published_at": "2026-09-28T12:00:00.000Z",
+  "last_updated": "2026-09-28",
+  "status": "active"
 }

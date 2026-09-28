@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "indonesia",
   "short_description": "A World Athletics Label half marathon through central Jakarta, based at Gelora Bung Karno, with distances from 1.5 km up to 21.0975 km.",
-  "ai_summary": "Pertamina Eco RunFest is a World Athletics Label road race held in central Jakarta, Indonesia, based around the Gelora Bung Karno complex and Istora Senayan. The 2026 event is its 13th edition, themed \"Spark the Change, Leave Zero Trace\", and offers four distances: 1.5 km, 5 km, 10 km and a 21.0975 km half marathon. The organisers are targeting 14,000 runners and 10,000 visitors, and say all profit from ticket sales funds the event's environmental programme. Sources disagree on the date -- two Indonesian reports give 6 December 2026 while an international aggregator lists 22 November -- so the listing follows the better-supported December date and is flagged for review.",
+  "ai_summary": "Pertamina Eco RunFest is a World Athletics Label road race held in central Jakarta, Indonesia, based around the Gelora Bung Karno complex and Istora Senayan. The 2026 event is its 13th edition, themed \"Spark the Change, Leave Zero Trace\", and offers four distances: 1.5 km, 5 km, 10 km and a 21.0975 km half marathon. The organisers are targeting 14,000 runners and 10,000 visitors, and say all profit from ticket sales funds the event's environmental programme. The official site gives the 2026 race date as Sunday 6 December 2026.",
   "core_facts": {
     "date": "2026-12-06",
     "distance_km": [
@@ -20,18 +20,26 @@
     "venue": "Gelora Bung Karno and Istora Senayan, Jakarta"
   },
   "pros": [
-    "Multiple distance options suit a range of runners, from beginners to half marathoners",
-    "World Athletics Label status signals an internationally recognized standard of organization",
-    "Takes place in a major capital city, offering an urban race experience"
+    "World Athletics Label half marathon through central Jakarta",
+    "A real elite race at the front and 66 podium places across categories",
+    "Neatly run, with plentiful water stations according to runners' accounts",
+    "Family run and 5 km options alongside the half and 10 km",
+    "Early start, with the half flagged off at 4.45am in 2025"
   ],
-  "cons": [],
+  "cons": [
+    "Very humid: 94% humidity with a 24°C dew point at the 2025 start",
+    "Foreign runners limited to the Half Marathon Open",
+    "Places sold only through the MyPertamina app, with no refunds",
+    "Race packs must be collected in person or by proxy; missing collection counts as withdrawal",
+    "Route, elevation and water stations not yet published for 2026"
+  ],
   "excerpt_quotes": [],
   "research_highlights": [],
   "research_watchouts": [],
   "faqs": [
     {
       "question": "Where and when does the Pertamina ECO Runfest take place?",
-      "answer": "The Pertamina ECO Runfest is held in Jakarta, Indonesia, with the event scheduled for November 22, 2026. As a city-based race, the course runs through the streets of Jakarta, one of the region's major capital cities, giving participants an urban running experience."
+      "answer": "The Pertamina ECO Runfest is held in Jakarta, Indonesia, with the event scheduled for Sunday, December 6, 2026. As a city-based race, the course runs through the streets of Jakarta, one of the region's major capital cities, giving participants an urban running experience."
     },
     {
       "question": "Is the Pertamina ECO Runfest an internationally recognized race?",

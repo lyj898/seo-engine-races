@@ -4,8 +4,8 @@
   "name": "VnExpress Marathon Hải Phòng 2026",
   "category_id": "full-marathon",
   "region_id": "vietnam",
-  "short_description": "A full-marathon event in Đồ Sơn, Hải Phòng, Vietnam, taking place on December 13, 2026, with distances ranging from 5km to 42.195km.",
-  "ai_summary": "The VnExpress Marathon Hải Phòng 2026 is a full-marathon event scheduled for December 13, 2026, in Đồ Sơn, Hải Phòng, Vietnam. Organized by VnExpress and FPT Online, the race offers four distance options: 42.195km, 21.1km, 10km, and 5km, catering to a range of runner abilities. Registration details have not yet been announced.",
+  "short_description": "A full-marathon event in Đồ Sơn, Hải Phòng, Vietnam, taking place on December 27, 2026, with distances ranging from 5km to 42.195km.",
+  "ai_summary": "The VnExpress Marathon Hải Phòng 2026 is a full-marathon event scheduled for December 27, 2026, in Đồ Sơn, Hải Phòng, Vietnam. Organized by VnExpress and FPT Online, the race offers four distance options: 42.195km, 21.1km, 10km, and 5km, catering to a range of runner abilities. Registration details have not yet been announced.",
   "core_facts": {
     "date": "2026-12-27",
     "distance_km": [
@@ -22,12 +22,16 @@
     "country": "Vietnam"
   },
   "pros": [
-    "Multiple distance options (42.195km, 21.1km, 10km, 5km) suit a wide range of runners",
-    "Organized by established organizers VnExpress and FPT Online",
-    "Scenic coastal venue at Đồ Sơn, Hải Phòng"
+    "Flat, straight course with 134 sub-three-hour finishers in 2025",
+    "Early start and a December date keep it cooler than most Southeast Asian marathons",
+    "22 aid stations on the marathon, denser in the second half",
+    "Organiser buses bring marathon finishers back from Do Son"
   ],
   "cons": [
-    "Registration status is not yet announced, so sign-up details are unavailable"
+    "Six-hour marathon limit with four checkpoints needs about 8:30 per km from the gun",
+    "2025 was 19°C and 94% humidity at the start, not the cold race of its reputation",
+    "Open coast road to Do Son can be windy in late December",
+    "Coast roads use a separate lane rather than full closure"
   ],
   "excerpt_quotes": [],
   "research_highlights": [],
@@ -35,7 +39,7 @@
   "faqs": [
     {
       "question": "When is the VnExpress Marathon Hải Phòng 2026?",
-      "answer": "The VnExpress Marathon Hải Phòng 2026 is scheduled to take place on December 13, 2026. The event will be held in Đồ Sơn, a coastal area of Hải Phòng, Vietnam, and is organized by VnExpress in partnership with FPT Online, offering runners a full day of racing across multiple distances."
+      "answer": "The VnExpress Marathon Hải Phòng 2026 is scheduled to take place on December 27, 2026. The event will be held in Đồ Sơn, a coastal area of Hải Phòng, Vietnam, and is organized by VnExpress in partnership with FPT Online, offering runners a full day of racing across multiple distances."
     },
     {
       "question": "What distances are offered at this race?",
@@ -43,7 +47,7 @@
     },
     {
       "question": "Who organizes the VnExpress Marathon Hải Phòng 2026?",
-      "answer": "The race is organized jointly by VnExpress, a major Vietnamese news outlet, and FPT Online. Together they coordinate the event held in Đồ Sơn, Hải Phòng, Vietnam, bringing together runners for the full marathon, half marathon, 10km, and 5km distance categories on December 13, 2026."
+      "answer": "The race is organized jointly by VnExpress, a major Vietnamese news outlet, and FPT Online. Together they coordinate the event held in Đồ Sơn, Hải Phòng, Vietnam, bringing together runners for the full marathon, half marathon, 10km, and 5km distance categories on December 27, 2026."
     },
     {
       "question": "Is registration open for this race?",

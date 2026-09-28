@@ -2,60 +2,325 @@
   "review_id": "vnexpress-marathon-hai-phong-2026",
   "slug": "vnexpress-marathon-hai-phong-2026",
   "entity_id": "vnexpress-marathon-hai-phong-2026",
-  "title": "VnExpress Marathon Hai Phong 2026 Review: What the 2025 Edition Was Like",
-  "seo_title": "VnExpress Marathon Hai Phong 2026 Review | Vietnam",
-  "meta_description": "VnExpress Marathon Hai Phong review: a record 134 sub-3 finishers and 1,905 under four hours in December 2025, a fast course. What to expect in 2026.",
-  "dek": "Hai Phong's December marathon produced more sub-three-hour finishers than any race in Vietnam in 2025. Here is what that edition was like, ahead of 2026.",
-  "verdict": "VnExpress Marathon Hai Phong has a reputation as a fast marathon. The 2025 edition, in December, had 134 runners finish the full marathon in under three hours, up from 91 in 2024 and the most reported at any marathon in Vietnam, including eight women [1]. Another 1,905 runners finished in under four hours [1]. The organiser's own report attributes that to a course with few intersections, enough width and little traffic disruption [1]. If you want to chase a marathon time in Vietnam, it is a strong target. Note that the report comes from VnExpress, which organises the race.",
+  "title": "VnExpress Marathon Hai Phong 2026 Review: What the 2025 Race Was Like",
+  "seo_title": "VnExpress Marathon Hai Phong Review: Course, Weather, Cut-offs",
+  "meta_description": "VnExpress Marathon Hai Phong review: the flat 2025 point-to-point to Do Son, 19°C and 94% humidity at the 2.30am start, a strict 6-hour limit, 22 aid stations and 134 sub-3 finishers.",
+  "dek": "What running Hai Phong's December marathon was like in 2025: the flat city-to-coast course, a milder and wetter night than the race's reputation, the aid stations and tight checkpoints, how fast the field ran, and the logistics of finishing 20-odd kilometres from the start.",
+  "verdict": "Enter if you want a flat, fast marathon in Vietnam and can hold about 8:30 per kilometre or better from the gun. The 2025 race drew about 14,000 runners, 5,000 of them in the marathon, and 134 finished under three hours and 1,905 under four. The course runs point to point from central Hai Phong to the beach at Do Son, with 22 aid stations and long straight roads. The catch is the margin: the marathon had a six-hour limit and four checkpoints, and 2025 was not the cold race of its reputation, with 19°C and 94% humidity at the 2.30am start. Pace for damp air, and plan your ride back from Do Son.",
+  "at_a_glance": {
+    "heading": "The 2025 race in numbers",
+    "rows": [
+      {
+        "label": "Date",
+        "value": "Sunday 21 December 2025, the third edition. Next: Sunday 27 December 2026"
+      },
+      {
+        "label": "Field",
+        "value": "About 14,000 runners; about 5,000 in the marathon and about 4,500 in the half (organiser's figures)"
+      },
+      {
+        "label": "Start times",
+        "value": "Marathon 2.30am, half marathon 3.30am, 10 km 5.30am, 5 km 6.30am"
+      },
+      {
+        "label": "Cut-offs",
+        "value": "Marathon 6 hours (roads close 8.30am) with checkpoints at km 10, 19.6, 29.5 and 38; half 3 hours 30 (7am); 10 km 2 hours"
+      },
+      {
+        "label": "Weather at the 2.30am start",
+        "value": "19°C, dew point 18°C, 94% humidity, wind 3 knots (Cat Bi airport)"
+      },
+      {
+        "label": "Weather at the 8.30am close",
+        "value": "23°C, 78% humidity, after mist from 6.30am to 8am"
+      },
+      {
+        "label": "Course",
+        "value": "Marathon point to point from central Hai Phong to Do Son; half, 10 km and 5 km start and finish on Tran Hung Dao. course measurement certified (World Athletics/AIMS)"
+      },
+      {
+        "label": "Aid",
+        "value": "22 stations on the marathon, denser in the second half; 11 on the half"
+      },
+      {
+        "label": "Winning marathon times",
+        "value": "2:26:44 (men), 2:42:20 (women)"
+      },
+      {
+        "label": "10th place, marathon",
+        "value": "2:34:42 (men), 3:00:57 (women), chip time"
+      },
+      {
+        "label": "Sub-3 and sub-4",
+        "value": "134 under three hours, 8 of them women; 1,905 under four hours"
+      },
+      {
+        "label": "Finisher items",
+        "value": "Medal for every finisher inside the limit; windbreaker for marathon finishers"
+      },
+      {
+        "label": "Getting back from Do Son",
+        "value": "More than 30 organiser buses to the start area"
+      }
+    ]
+  },
   "sections": [
     {
-      "heading": "The 2025 Edition",
+      "heading": "The Course: City Streets, Then 14 km of Straight Road to the Sea",
       "paragraphs": [
-        "The 2025 race was held in Hai Phong in December 2025 [1]. 134 runners finished the marathon in under three hours, including eight women, up from 91 the year before, the highest number of sub-three finishers reported at a marathon in Vietnam [1].",
-        "A further 1,905 finished the full marathon in under four hours [1]. Runners came from abroad as well as across Vietnam [1]."
+        "Every distance starts on Tran Hung Dao at the Nguyen Du flower garden in central Hai Phong [1]. The marathon first loops through the old centre, along Quang Trung, Tam Bac and Tran Phu, past the Opera House and Tam Bac lake [1][2], then heads south-east down Le Hong Phong and Bui Vien, past Cat Bi airport, over the Rao bridge and onto Pham Van Dong [1]. After an out-and-back on road 363 it rejoins Pham Van Dong at about 26 km for more than 14 km of straight road to Do Son [1][3], finishing in front of 15/5 Square by the sea [1].",
+        "The organiser describes the course as long, straight and flat, with few sharp turns and almost no big climbs [4]. The bridges on the route include the Rao bridge on the marathon and the Nguyen Binh Khiem flyover [2]; the organiser publishes no elevation profile. The route maps carry the World Athletics and AIMS certified-course badge, and each has a QR code to a GPX file [1][5]. The organiser said all four routes were largely unchanged from 2024 [5].",
+        "The half marathon, 10 km and 5 km stay in the city. The half runs out and back along Le Hong Phong to a turn near Ngo Gia Tu, then loops back through the centre past Tam Bac and The Lu to finish at the Kim Dong flower garden on Tran Hung Dao [1]."
       ]
     },
     {
-      "heading": "Why It Is Fast",
+      "heading": "The Weather: Milder and Wetter Than Its Reputation",
       "paragraphs": [
-        "Running a sub-three-hour marathon means averaging about 4:26 per kilometre [1]. The report says that kind of pacing needs a course with limited intersections, sufficient width and minimal disruption from traffic, and presents Hai Phong's course as delivering that [1].",
-        "For most runners, the practical point is that this is a course where a good day can turn into a personal best."
+        "Hai Phong sells itself as a cold-weather race. The organiser's own outlet described the conditions as cool, no more than 15°C [6], and reported about 12°C to 13°C on race day in 2024 and a cold, dry race in 2023 [4]. The 2025 race was different.",
+        "Cat Bi airport, about 6 km south-east of the start and on the way to Do Son, recorded 19°C with a dew point of 18°C and 94% humidity at the 2.30am start, and almost no wind (1 to 4 knots all morning) [7]. It stayed at 18°C to 19°C through 6am, mist set in from 6.30am to 8am, and it was 22°C at 8am and 23°C with 78% humidity when the marathon closed at 8.30am [7].",
+        "That is still far kinder than most Southeast Asian marathons, and the results show it did not stop fast times. But a dew point of 18°C is humid enough that sweat evaporates slowly, so the air felt heavy rather than crisp. Pace for the conditions you see in the forecast, not the ones on the poster. Wind is the other variable: the organiser's preview warned that the north-east monsoon usually blows across the open coast road in late December [3], and in 2024 continuous gusts off the sea at Do Son left finishers shivering in foil blankets while volunteers lit fires to keep warm [6]."
+      ]
+    },
+    {
+      "heading": "Aid Stations and Cut-offs",
+      "paragraphs": [
+        "The marathon had 22 aid stations in 2025, two more than in 2024, with more of them in the second half near Do Son [5][3]. The route map shows water, electrolyte drink, watermelon and banana at the stations, most of the later ones with a medical post, and toilets beside the stations [1]. The half had 11 stations [1]. At every station an elite table served runners ahead of the 3:30 marathon pacer and the 1:45 half-marathon pacer; the ordinary tables served water in cups only [8].",
+        "The cut-offs are the part to plan around. In 2025 the marathon started 30 minutes earlier than in 2024 and its limit was cut from six hours 30 to six hours, with checkpoints at km 10 (3.55am), km 19.6 (5.25am), km 29.5 (6.50am) and km 38 (8.05am), and the road closing at 8.30am [5][1]. Worked out from those times, the limit and the first checkpoint both need about 8:30 per kilometre from the gun, so there is no slack for a slow start. The half had checkpoints at 5.30am and 6.40am and closed at 7am [1]. Runners who start more than 15 minutes late are not allowed to race [8], and anyone outside the limit gets no medal or finisher shirt [9]."
+      ]
+    },
+    {
+      "heading": "Roads and Organisation",
+      "paragraphs": [
+        "The organiser said many of the marathon roads are main city arteries and that it closes the course before 8.30am to give them back to traffic [5]. On the coast roads, Pham Van Dong, Nguyen Huu Cau, Ly Thanh Tong and 15/5 Square, runners had a separate lane rather than a fully closed road [2]. The marathon started in four pens, A to D, and the organiser said the whole route was lit by street lamps on race night [2].",
+        "Ranking and prizes go on gun time, not chip time [8], so a runner starting from pen D gives away the minutes spent reaching the start line."
+      ]
+    },
+    {
+      "heading": "How Fast the Field Is",
+      "paragraphs": [
+        "Very fast for Vietnam. The 2025 race drew about 14,000 runners over the weekend of 19 to 21 December, about 1.4 times as many as the year before [10][11], and for the first time the marathon outnumbered the half: about 5,000 against 4,500, with about 20% of all runners from Hai Phong [12]. In 2025, 134 runners broke three hours, eight of them women, up from 82 in 2023 and 91 in 2024 [13][4], and 1,905 ran under four hours [14]. The organiser's outlet compared that with 48 sub-3 runners among about 4,000 marathoners at the Techcombank Ho Chi Minh City race in 2025 and 69 among 8,932 at Singapore [13]. The last runner under three hours finished in 2:59:59 [13].",
+        "Hoang Viet Vi Ly won the men's race in 2:26:44 in a first marathon, overtaking Trinh Minh Tam, who had led at about 3:25 per kilometre until slowing at 35 km and finished in 2:28:42 [13][15]. Pham Thi Hong Le won the women's race in 2:42:20 [13]. On the official leaderboard, tenth place was 2:34:42 for men and 3:00:57 for women, and 50th man ran 2:52:55; in the half, tenth was 1:18:46 and 1:31:12 [16]. Luong Duc Phuoc and Bui Thi Thu Ha won the half in 1:09:54 and 1:20:29 on chip time [16][4].",
+        "Depth cuts both ways. Pham Thi My Duyen ran a personal best by almost five minutes and won the 30-39 age group, but missed three hours by two seconds in 3:00:01, which on the leaderboard was ninth woman [17][16]. Among mid-pack runners, a runner from Nigeria took more than 14 minutes off a personal best with 3:29 [18]. Prize money went five deep in the marathon, from 15 million VND for the winners to 8 million VND for fifth [19]."
+      ]
+    },
+    {
+      "heading": "Race Weekend Logistics",
+      "paragraphs": [
+        "Race kits were collected at the expo in the To Huu flower garden on Tran Hung Dao until 5pm on Saturday 20 December, and runners without a bib by then could not race [20]. There was no postal delivery, though someone else could collect for you [8]. About 7,000 runners collected on the Saturday afternoon, and at times the queue was more than 300 m long [21].",
+        "On race morning, bag drop opened at 1am for the marathon, 2am for the half and 4am for the 10 km and 5 km [10]. Marathon bags were taken to Do Son, and more than 30 organiser buses took marathon finishers back to the start area [20]. The organiser's ride-hailing partner Grab offered discount codes for runners [20], and the organiser warned that some roads would be diverted on race morning [20].",
+        "Early entries in 2025 cost 860,000 VND for the marathon, rising to 1.05 million VND in the next phase, when the half cost from 530,000 VND; groups of 20 or more got 5% to 25% off [6]. Fees are not refundable, and bibs cannot be transferred without the organiser's permission [8][9]. Every finisher got a medal with a ship's-wheel and anchor design [22], and marathon finishers a windbreaker [23]."
       ]
     },
     {
       "heading": "Should You Enter the 2026 Race?",
       "paragraphs": [
-        "Yes, if you want a fast marathon in Vietnam and a field full of runners chasing the same goal. The large sub-three and sub-four groups mean you will rarely be running alone.",
-        "December in northern Vietnam is cool compared with the rest of Southeast Asia, which helps, but check the forecast and the start time when the 2026 details are published.",
-        "This review is compiled from the organiser's published report on the 2025 edition. It is not a first-hand race report, and nobody from this site ran the race."
+        "Yes, if you are chasing a marathon time in Vietnam and are comfortably under six hours. The flat course, the early start and a field in which 1,905 runners broke four hours are the draw, and the half marathon suits anyone wanting a fast city half without the trip to Do Son.",
+        "Think twice if you need more than about six hours, if you want fully closed roads, or if you are counting on the cold. The 2025 race was 19°C and humid at the start, and in 2024 a sea wind chilled finishers at Do Son.",
+        "The 2026 race is on Sunday 27 December, with the same four distances [23][24]. Start times, cut-offs and route maps for 2026 had not been published when this was written, so check them before you book.",
+        "Nobody from this site ran the race. This review draws on the organiser's route maps, rules and results, airport weather records, and reporting and runner interviews in VnExpress, which organises the race, and VietnamPlus."
       ]
     }
   ],
-  "pull_quotes": [],
+  "pull_quotes": [
+    {
+      "quote": "the long, straight course gives a clear advantage",
+      "attribution": "Pham Thi My Duyen, 30-39 age-group winner in the 2025 marathon, to VnExpress (translated from Vietnamese)",
+      "source_url": "https://vnexpress.net/mai-tranh-thu-hang-nu-runner-hut-sub3-hai-giay-5003600.html"
+    }
+  ],
   "sources": [
     {
       "n": 1,
-      "label": "Report on the 2025 race: record 134 sub-3 finishers, 1,905 sub-4, and what makes the course fast",
-      "publisher": "VnExpress International (the race organiser)",
+      "label": "Official 2025 route maps for the 42, 21, 10 and 5 km, with start and closing times, checkpoints and aid stations",
+      "publisher": "VnExpress Marathon (organiser)",
+      "url": "https://vm.vnexpress.net/hai-phong-2025/duong-chay",
+      "type": "official"
+    },
+    {
+      "n": 2,
+      "label": "Race-night photo report: pens, lighting, bridges and the coast-road lane (in Vietnamese)",
+      "publisher": "VnExpress (organiser)",
+      "url": "https://vnexpress.net/hai-phong-ruc-sang-dem-thi-dau-vnexpress-marathon-4996596.html",
+      "type": "official"
+    },
+    {
+      "n": 3,
+      "label": "Pre-race tactics: the Pham Van Dong road, monsoon wind and aid (in Vietnamese)",
+      "publisher": "VnExpress (organiser)",
+      "url": "https://vnexpress.net/chien-thuat-chinh-phuc-pr-tai-vnexpress-marathon-hai-phong-4993721.html",
+      "type": "official"
+    },
+    {
+      "n": 4,
+      "label": "Sub-3 numbers and race-day weather in 2023 to 2025, and the 2026 date (in Vietnamese)",
+      "publisher": "VnExpress (organiser)",
+      "url": "https://vnexpress.net/ba-yeu-to-runner-sub3-vnexpress-marathon-hai-phong-5121347.html",
+      "type": "official"
+    },
+    {
+      "n": 5,
+      "label": "2025 start times, cut-off checkpoints, aid stations and route changes (in Vietnamese)",
+      "publisher": "VnExpress (organiser)",
+      "url": "https://vnexpress.net/vm-hai-phong-2025-dieu-chinh-gio-xuat-phat-va-cot-4992281.html",
+      "type": "official"
+    },
+    {
+      "n": 6,
+      "label": "2025 entry fees and the 2024 finish at Do Son (in Vietnamese)",
+      "publisher": "VnExpress (organiser)",
+      "url": "https://vnexpress.net/ky-luc-3-000-nguoi-dang-ky-42km-tai-vm-hai-phong-4912788.html",
+      "type": "official"
+    },
+    {
+      "n": 7,
+      "label": "Hourly weather observations at Cat Bi International Airport (VVCI), 21 December 2025",
+      "publisher": "Iowa Environmental Mesonet (airport METAR archive)",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=VVCI&data=tmpc&data=dwpc&data=relh&data=sknt&data=wxcodes&year1=2025&month1=12&day1=21&year2=2025&month2=12&day2=22&tz=Asia%2FHo_Chi_Minh&format=onlycomma&latlon=no&missing=M&report_type=3&report_type=4",
+      "type": "other"
+    },
+    {
+      "n": 8,
+      "label": "2025 race rules: limits, late starts, aid tables, transfers and refunds (in Vietnamese)",
+      "publisher": "VnExpress Marathon (organiser)",
+      "url": "https://vm.vnexpress.net/hai-phong-2025/thong-tin-cuoc-dua/dieu-le",
+      "type": "official"
+    },
+    {
+      "n": 9,
+      "label": "Race FAQ: finisher items and refunds (in Vietnamese)",
+      "publisher": "VnExpress Marathon (organiser)",
+      "url": "https://vm.vnexpress.net/hai-phong-2025/cau-hoi-thuong-gap",
+      "type": "official"
+    },
+    {
+      "n": 10,
+      "label": "Race-day results report: field size, bag drop times and winners (in Vietnamese)",
+      "publisher": "VnExpress (organiser)",
+      "url": "https://vnexpress.net/ket-qua-vnexpress-marathon-hai-phong-4996240.html",
+      "type": "official"
+    },
+    {
+      "n": 11,
+      "label": "Report on the 2025 race weekend (in Vietnamese)",
+      "publisher": "VietnamPlus",
+      "url": "https://www.vietnamplus.vn/marathon-vnexpress-hai-phong-2025-thu-hut-so-luong-van-dong-vien-ky-luc-post1084530.vnp",
+      "type": "news"
+    },
+    {
+      "n": 12,
+      "label": "Field by distance and share of local runners (in Vietnamese)",
+      "publisher": "VnExpress (organiser)",
+      "url": "https://vnexpress.net/vnexpress-marathon-hai-phong-so-huu-cung-duong-do-thi-hiem-co-4994723.html",
+      "type": "official"
+    },
+    {
+      "n": 13,
+      "label": "134 runners under three hours in 2025, with winners' times and comparisons (in Vietnamese)",
+      "publisher": "VnExpress (organiser)",
+      "url": "https://vnexpress.net/vm-hai-phong-2025-ky-luc-124-runner-sub3-4996541.html",
+      "type": "official"
+    },
+    {
+      "n": 14,
+      "label": "Sub-3 and sub-4 finisher numbers for 2025",
+      "publisher": "VnExpress International (organiser)",
       "url": "https://e.vnexpress.net/news/sports/vnexpress-marathon-hai-phong-2025-134-sub-3-4996440.html",
+      "type": "official"
+    },
+    {
+      "n": 15,
+      "label": "How the men's marathon was won (in Vietnamese)",
+      "publisher": "VnExpress (organiser)",
+      "url": "https://vnexpress.net/chien-thuat-vi-ly-vo-dich-vm-hai-phong-lan-dau-42km-4996441.html",
+      "type": "official"
+    },
+    {
+      "n": 16,
+      "label": "Official 2025 top-50 leaderboards for each distance",
+      "publisher": "VnExpress Marathon (organiser)",
+      "url": "https://vm.vnexpress.net/hai-phong-2025/ket-qua",
+      "type": "official"
+    },
+    {
+      "n": 17,
+      "label": "A runner who missed three hours by two seconds (in Vietnamese)",
+      "publisher": "VnExpress (organiser)",
+      "url": "https://vnexpress.net/mai-tranh-thu-hang-nu-runner-hut-sub3-hai-giay-5003600.html",
+      "type": "official"
+    },
+    {
+      "n": 18,
+      "label": "International runners at the 2025 marathon (in Vietnamese)",
+      "publisher": "VnExpress (organiser)",
+      "url": "https://vnexpress.net/runner-quoc-te-bat-ngo-42km-vm-hai-phong-4997182.html",
+      "type": "official"
+    },
+    {
+      "n": 19,
+      "label": "2025 prize money (in Vietnamese)",
+      "publisher": "VnExpress (organiser)",
+      "url": "https://vnexpress.net/vnexpress-marathon-hai-phong-2025-giai-thuong-4993944.html",
+      "type": "official"
+    },
+    {
+      "n": 20,
+      "label": "Pre-race notes: race-kit deadline, checkpoints, bag transfer and buses from Do Son (in Vietnamese)",
+      "publisher": "VnExpress (organiser)",
+      "url": "https://vnexpress.net/nhung-luu-y-truoc-vnexpress-marathon-hai-phong-2025-4993056.html",
+      "type": "official"
+    },
+    {
+      "n": 21,
+      "label": "Race-kit collection on the Saturday (in Vietnamese)",
+      "publisher": "VnExpress (organiser)",
+      "url": "https://vnexpress.net/7-000-runner-do-ve-nhan-bib-vnexpress-marathon-hai-phong-2025-4996256.html",
+      "type": "official"
+    },
+    {
+      "n": 22,
+      "label": "2025 finisher medal (in Vietnamese)",
+      "publisher": "VnExpress (organiser)",
+      "url": "https://vnexpress.net/vnexpress-marathon-hai-phong-cong-bo-huy-chuong-4963357.html",
+      "type": "official"
+    },
+    {
+      "n": 23,
+      "label": "2026 date and distances; 2025 marathon finisher windbreaker (in Vietnamese)",
+      "publisher": "VnExpress (organiser)",
+      "url": "https://vnexpress.net/1000-runner-dang-ky-42km-vnexpress-marathon-hai-phong-5118874.html",
+      "type": "official"
+    },
+    {
+      "n": 24,
+      "label": "2026 race page: race date",
+      "publisher": "VnExpress Marathon (organiser)",
+      "url": "https://vm.vnexpress.net/hai-phong-2026",
       "type": "official"
     }
   ],
   "faqs": [
     {
-      "question": "Is VnExpress Marathon Hai Phong a fast course?",
-      "answer": "By its results, yes. In 2025, 134 runners finished the marathon in under three hours, the most reported at any race in Vietnam, and 1,905 finished in under four hours. The organiser credits a course with few intersections, good width and little traffic."
+      "question": "How cold is VnExpress Marathon Hai Phong?",
+      "answer": "Cooler than most Southeast Asian marathons, but not always cold. At the 2.30am start in 2025, Cat Bi airport recorded 19°C, a dew point of 18°C and 94% humidity, rising to 23°C by the 8.30am close. The organiser reported about 12°C to 13°C in 2024, when a sea wind chilled finishers at Do Son."
     },
     {
-      "question": "How many runners break three hours at Hai Phong?",
-      "answer": "134 in 2025, including eight women, up from 91 in 2024. That was the highest number of sub-three-hour finishers reported at a marathon in Vietnam."
+      "question": "What are the cut-off times at VnExpress Marathon Hai Phong?",
+      "answer": "Tight for slower runners. In 2025 the marathon had six hours, with checkpoints at km 10 (3.55am), 19.6 (5.25am), 29.5 (6.50am) and 38 (8.05am), and roads closed at 8.30am. That needs about 8:30 per kilometre from the gun. The half had three and a half hours, closing at 7am."
     },
     {
-      "question": "Who organises VnExpress Marathon Hai Phong?",
-      "answer": "VnExpress, the Vietnamese news publisher, which runs the VnExpress Marathon series in several cities, including Nha Trang, Hanoi and Hai Phong. The Hai Phong race is held in December."
+      "question": "How do you get back from the Do Son finish?",
+      "answer": "By organiser bus. Only the marathon finishes at Do Son, on the coast south-east of the city. In 2025 marathon bags were taken to Do Son, and more than 30 buses ran finishers back to the start area on Tran Hung Dao. The half, 10 km and 5 km start and finish in central Hai Phong."
+    },
+    {
+      "question": "What time does VnExpress Marathon Hai Phong start?",
+      "answer": "Very early. In 2025 the marathon started at 2.30am, 30 minutes earlier than in 2024, the half at 3.30am, the 10 km at 5.30am and the 5 km at 6.30am, all from the Nguyen Du flower garden on Tran Hung Dao. Bag drop opened at 1am for the marathon. Times for 27 December 2026 are not yet published."
+    },
+    {
+      "question": "How fast do you need to be to place at VnExpress Marathon Hai Phong?",
+      "answer": "Fast. In 2025 tenth place in the marathon was 2:34:42 for men and 3:00:57 for women on chip time, and 134 runners broke three hours. The winners ran 2:26:44 and 2:42:20. Prize money went to the top five men and women, from 15 million VND down to 8 million VND."
     }
   ],
-  "editorial_notes": "Rewritten 2026-09-28 about the previous edition (December 2025). Replaces a pre-race preview. The source is the organiser's own publication, and the review says so. No rating.",
+  "editorial_notes": "Rewritten 2026-09-28 about the previous edition (21 December 2025). Weather is from Cat Bi airport METAR observations, not a forecast. Most reporting comes from VnExpress, which organises the race; the review attributes its claims. Only the top 50 in each category are published, so 10th-place times are from that leaderboard (displayed chip times); winners' times are as reported. The 2024 sub-3 count appears as 90 in pre-race articles and 91 in post-race ones; 91 is used. One photo report gives a 3am half-marathon start; the maps and other reports give 3.30am, which is used. No independent runner blogs were found. No rating.",
   "published_at": "2026-08-09T09:15:00.000Z",
   "last_updated": "2026-09-28",
   "status": "active"
