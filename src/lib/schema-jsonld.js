@@ -180,8 +180,16 @@ export function buildEntitySchema(entity, siteConfig, url) {
   // plenty of these describe events that have already been run. Went ahead as
   // scheduled is the honest reading for those too. If a vertical ever tracks
   // cancellations, this is the line that reads that fact instead of assuming
-  // it.
-  if (isEvent) schema.eventStatus = 'https://schema.org/EventScheduled';
+  // it -- and races now do: core_facts.event_status is set when a source
+  // reports a cancellation or postponement.
+  if (isEvent) {
+    schema.eventStatus =
+      facts.event_status === 'cancelled'
+        ? 'https://schema.org/EventCancelled'
+        : facts.event_status === 'postponed'
+          ? 'https://schema.org/EventPostponed'
+          : 'https://schema.org/EventScheduled';
+  }
 
   if (facts.venue || facts.city || facts.country) {
     schema.location = {

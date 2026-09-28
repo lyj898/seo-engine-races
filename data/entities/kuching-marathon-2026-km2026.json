@@ -4,8 +4,8 @@
   "name": "Kuching Marathon 2026 (KM2026)",
   "category_id": "full-marathon",
   "region_id": "malaysia",
-  "short_description": "KM2026 is a full marathon and multi-distance race held September 27, 2026 at Padang Merdeka, Kuching, Sarawak, Malaysia.",
-  "ai_summary": "Kuching Marathon 2026 (KM2026) is a full-marathon event scheduled for September 27, 2026, at Padang Merdeka in Kuching, Sarawak, Malaysia. Organized by the Kuching Marathon Association, the race offers four distance options: 42.195km, 21.1km, 10km, and 5km, with entry fees ranging from RM60 to RM160. Registration has not yet been announced.",
+  "short_description": "The Kuching Marathon 2026, due on Sunday 27 September 2026 at Padang Merdeka, Kuching, was cancelled at the last minute because of haze.",
+  "ai_summary": "The Kuching Marathon 2026 (KM2026) was due to be run on Sunday 27 September 2026 from Padang Merdeka in Kuching, Sarawak, over 42.195 km, 21.1 km, 10 km and 5 km. It was cancelled at the last minute because of the haze affecting Kuching and the surrounding area, with more than 13,000 runners registered, many of them travelling from outside Sarawak. The race is organised by the Kuching Marathon Association; its 2025 edition, the tenth, drew a record 14,150 participants.",
   "core_facts": {
     "date": "2026-09-27",
     "distance_km": [
@@ -16,20 +16,19 @@
     ],
     "primary_distance_km": 42.195,
     "organizer": "Kuching Marathon Association",
-    "registration_status": "not_yet_announced",
     "price_range": "RM60-RM160",
     "venue": "Padang Merdeka, Kuching, Sarawak",
     "city": "Kuching, Sarawak",
-    "country": "Malaysia"
+    "country": "Malaysia",
+    "event_status": "cancelled",
+    "event_status_note": "The organisers called it off at the last minute because of haze in Kuching, affecting more than 13,000 registered runners."
   },
   "pros": [
-    "Multiple distance options (42.195km, 21.1km, 10km, 5km) suit a range of runner abilities",
-    "Affordable entry fees ranging from RM60 to RM160",
-    "Organized by an established body, the Kuching Marathon Association",
-    "Scenic and central venue at Padang Merdeka, Kuching, Sarawak"
+    "Four distances, from 5 km to the full marathon, based at Padang Merdeka in central Kuching",
+    "A large field: the 2025 edition drew a record 14,150 participants"
   ],
   "cons": [
-    "Registration status is not yet announced, so sign-up details are unavailable"
+    "The 2026 edition was cancelled at the last minute because of haze"
   ],
   "sentiment_scores": {
     "overall": 62,
@@ -96,20 +95,16 @@
   "research_last_updated": "2026-08-11",
   "faqs": [
     {
-      "question": "When is the Kuching Marathon 2026 taking place?",
-      "answer": "The Kuching Marathon 2026, also known as KM2026, is scheduled to take place on September 27, 2026. The event will be held at Padang Merdeka in Kuching, Sarawak, Malaysia, and is organized by the Kuching Marathon Association for runners across various distance categories."
+      "question": "Did the Kuching Marathon 2026 go ahead?",
+      "answer": "No. The race, due on Sunday 27 September 2026, was cancelled at the last minute because of the haze affecting Kuching and the surrounding area. More than 13,000 runners had registered, including many from outside Sarawak who had already booked flights and accommodation."
     },
     {
-      "question": "What distances can I run at KM2026?",
-      "answer": "KM2026 offers four distance categories for participants to choose from: a full marathon of 42.195km, a half marathon of 21.1km, a 10km run, and a shorter 5km run. This range allows both experienced marathoners and casual runners to take part in the event."
+      "question": "What distances does the Kuching Marathon offer?",
+      "answer": "Four: the full marathon (42.195 km), the half marathon (21.1 km), a 10 km and a 5 km, all based at Padang Merdeka in the centre of Kuching."
     },
     {
-      "question": "How much does it cost to register for KM2026?",
-      "answer": "Registration fees for the Kuching Marathon 2026 range from RM60 to RM160, depending on the distance category chosen. Exact pricing per category and registration opening dates have not yet been announced by the organizer, the Kuching Marathon Association."
-    },
-    {
-      "question": "Who organizes the Kuching Marathon?",
-      "answer": "The Kuching Marathon 2026 is organized by the Kuching Marathon Association, based in Kuching, Sarawak, Malaysia. The association oversees the event, which takes place at Padang Merdeka and includes full marathon, half marathon, 10km, and 5km distance options for participants."
+      "question": "Who organises the Kuching Marathon?",
+      "answer": "The Kuching Marathon Association, based in Kuching, Sarawak. The 2025 edition, on 21 September 2025, was the tenth and drew a record 14,150 participants."
     }
   ],
   "reliability_score": 100,
@@ -119,6 +114,18 @@
     "verified"
   ],
   "source_mix": [
+    {
+      "url": "https://dayakdaily.com/minister-saddened-as-kuching-marathon-cancellation-affects-13000-participants/",
+      "label": "DayakDaily -- Kuching Marathon 2026 cancelled because of haze; more than 13,000 registered",
+      "type": "other",
+      "last_checked": "2026-09-28"
+    },
+    {
+      "url": "https://dayakdaily.com/kenyan-runners-dominate-kuching-marathon-as-event-attracts-14150-participants/",
+      "label": "DayakDaily -- 2025 edition: record 14,150 participants, results",
+      "type": "other",
+      "last_checked": "2026-09-28"
+    },
     {
       "url": "https://marathonkuching.com",
       "label": "Official race website",
@@ -153,6 +160,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-09-28",
   "status": "needs_review"
 }

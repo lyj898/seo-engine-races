@@ -35,6 +35,14 @@ export const racesCoreFactsSchema = z.object({
       'ISO date (YYYY-MM-DD) that entries close, e.g. "2026-06-30". Only set this when a source states the closing date explicitly; omit it entirely rather than guessing from the race date, since a wrong deadline silently marks a still-open race as closed.'
     ),
   price_range: z.string().optional(), // free-form, e.g. "THB 800-1,500"
+  // Set only when a source reports it. Absent means the edition went ahead
+  // (or is going ahead) as scheduled -- which a passed date does not prove:
+  // the Kuching Marathon 2026 was called off the day before, for haze, and
+  // until this field existed its page said the race "has already taken
+  // place" and its structured data said EventScheduled. `event_status_note`
+  // says why, in a sentence the page can show.
+  event_status: z.enum(['cancelled', 'postponed']).optional(),
+  event_status_note: z.string().min(1).optional(),
   venue: z.string().optional(),
   city: z.string().optional(),
   country: z.string().min(1),

@@ -137,7 +137,19 @@ const relatedEntities = pickRelatedEntities(entity, allEntities);
 // than the 404 this page replaces -- and the successor listing, found from
 // the data rather than hand-linked, gives the reader somewhere to go.
 const lapsed = isLapsed(entity);
-const successor = lapsed ? findSuccessorEntity(entity, allEntities) : null;
+// A cancelled or postponed edition gets the same treatment as a lapsed one
+// (banner, no CTA, pointer onwards) whether or not its date has passed --
+// but its banner must not say it "has already taken place".
+const eventStatus = entity.core_facts?.event_status;
+const halted = lapsed || Boolean(eventStatus);
+const successor = halted ? findSuccessorEntity(entity, allEntities) : null;
+const statusLead =
+  eventStatus === 'cancelled'
+    ? 'This edition was cancelled.'
+    : eventStatus === 'postponed'
+      ? 'This edition has been postponed.'
+      : 'This edition has already taken place.';
+const statusNote = eventStatus ? entity.core_facts?.event_status_note : null;
 
 // A listicle is "related" if it's explicitly pinned to this entity, or its
 // filter targets this entity's category -- covers both editorial pins and
@@ -227,16 +239,16 @@ const jsonLd = [
         this race by name needs to know the date has passed before they read
         a description written in the present tense. Mirrors the banner
         reviews/[slug].astro already shows for the same condition. */}
-    {lapsed && (
+    {halted && (
       <div class="mt-6 rounded-xl border border-brand-primary/40 bg-brand-primary-highlight p-4 text-sm dark:bg-brand-primary-highlight-dark">
         {successor ? (
           <p>
-            This edition has already taken place. Looking ahead? See the
+            {statusLead}{statusNote ? ` ${statusNote}` : ''} Looking ahead? See the
             {' '}<a href={urls.entity(successor.slug)} class="link-accent">{successor.name}</a>.
           </p>
         ) : region ? (
           <p>
-            This edition has already taken place, and no future date is listed yet — see
+            {statusLead}{statusNote ? ` ${statusNote}` : ''} No future date is listed yet — see
             {/* Anchor content kept on one line: Astro preserves the source
                 newline and indent as text, which would put a space between
                 the link and the full stop. */}
@@ -244,7 +256,7 @@ const jsonLd = [
           </p>
         ) : (
           <p>
-            This edition has already taken place, and no future date is listed yet — see
+            {statusLead}{statusNote ? ` ${statusNote}` : ''} No future date is listed yet — see
             {' '}<a href={urls.home()} class="link-accent">the full {siteConfig.entityLabelSingular} calendar</a>.
           </p>
         )}
@@ -348,7 +360,7 @@ const jsonLd = [
         site and registration pages, and pointing a reader at "register now"
         for a race that already ran is worse than the 404 this page replaces.
         The banner above carries the onward link instead. */}
-    {!lapsed && (
+    {!halted && (
       <div class="mt-8">
         <CTABlock
           ctaLinks={entity.cta_links}
