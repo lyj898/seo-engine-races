@@ -7,27 +7,6 @@
   "meta_description": "Sante Barley Trilogy Run Asia 2026 CDO Leg 3 review: September 20 at SM City CDO Uptown -- the Cagayan de Oro finale with the signature 32K distance.",
   "dek": "Set for 20 September 2026 at SM City CDO Uptown, this is the culminating third leg of the Cagayan de Oro series within Sante Barley Trilogy Run Asia, featuring the signature 32K distance.",
   "verdict": "CDO Leg 3 closes out the Cagayan de Oro progression within the Sante Barley Trilogy Run Asia series, held at SM City CDO Uptown -- a modern mall development in a city that's demonstrated it can handle major regional race fields, having hosted the MILO Marathon's Mindanao-first National Finals in 2024. Distances run 5K/10K/21K up to the signature 32K, following the same progressive structure used across the series' Iloilo, Manila and Cebu legs. Registration status wasn't yet announced at the time of this research, consistent with several of the series' newer 2026 stops.",
-  "rating": {
-    "overall": 66,
-    "breakdown": [
-      {
-        "label": "Series structure & progression",
-        "score": 78
-      },
-      {
-        "label": "City capacity (CDO hosted 2024 MILO Finals)",
-        "score": 80
-      },
-      {
-        "label": "Venue (SM CDO Uptown)",
-        "score": 72
-      },
-      {
-        "label": "Registration clarity",
-        "score": 32
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "The CDO Finale of the Trilogy Series",
@@ -91,8 +70,8 @@
       "answer": "Not yet confirmed as of this writing -- registration status for CDO Leg 3 specifically had not been announced at the time of research. Check RunRio's official race calendar for updates. [1]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. A 2025 CDO Leg 3 was held (27 July 2025, per listings), but no report, results summary or runner account of it or of the 20 September 2026 leg could be found. The URL redirects to the race listing.",
   "published_at": "2026-08-09T07:30:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

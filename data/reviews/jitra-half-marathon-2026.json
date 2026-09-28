@@ -7,27 +7,6 @@
   "meta_description": "Jitra Half Marathon 2026 review: September 19 at Darulaman Park -- a returning race in Kedah's fourth-largest town, developer-backed with tiered pricing.",
   "dek": "Set for 19 September 2026 at Darulaman Park in Jitra, Kedah, this developer-backed race markets itself as returning for another September edition -- three distances with early-bird pricing tiers running through July.",
   "verdict": "The Jitra Half Marathon is organised by BDB Leisure, part of the Bina Darulaman Berhad property group, and its own marketing explicitly frames the 2026 edition as the race 'returning' in September -- implying at least one prior edition, though specific past-year details weren't found in research. Three distances (21K/10K/5K) with tiered early-bird pricing (RM50-95 depending on distance and registration window) keep it accessible. Jitra itself is Kedah's fourth-largest town and a site of real historical significance -- one of the fiercest battles of the WWII Malayan campaign was fought there in 1941 -- giving the race a backdrop with more depth than its modest scale might suggest.",
-  "rating": {
-    "overall": 65,
-    "breakdown": [
-      {
-        "label": "Developer backing & venue (Darulaman Park)",
-        "score": 74
-      },
-      {
-        "label": "Returning event, some continuity",
-        "score": 68
-      },
-      {
-        "label": "Pricing accessibility",
-        "score": 76
-      },
-      {
-        "label": "Historical/destination appeal",
-        "score": 55
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "A Developer-Backed Race Returning to Jitra",
@@ -91,8 +70,8 @@
       "answer": "Organiser marketing explicitly bills the 2026 edition as 'returning' in September, implying at least one prior edition, though specific past-year results weren't found in research. Jitra itself is Kedah's fourth-largest town, with real WWII historical significance. [1][2]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. Earlier editions were run (from 2022, per the organiser), but no report, results summary or runner account describing any of them, or the 19 September 2026 race, could be found. The URL redirects to the race listing.",
   "published_at": "2026-08-09T07:15:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

@@ -7,31 +7,6 @@
   "meta_description": "The Discovery Marathon 2026: September 20 at City Di Mare, Cebu City. 42K, 21K, 12K, 6K from KNC at the South Road Properties — registration pending.",
   "dek": "Set for 20 September 2026 at City Di Mare in Cebu's South Road Properties, this KNC-organised marathon offers unusual distances including 12K and 6K options. Registration pending.",
   "verdict": "The Discovery Marathon arrives in Cebu with a genuinely distinctive distance spread: a full marathon (42K), half marathon (21K), 12K, and 6K. That 12K in particular — sitting between the standard 10K and the half — is a rarity in Philippine road racing and gives intermediate runners a meaningful step-up option. Organised by KNC (the team behind Dagan Cebu), the race anchors at City Di Mare, a waterfront development in Cebu's South Road Properties (SRP), which offers wide, flat roads and sea breezes along the Cebu Strait. September in Cebu is transitional — the southwest monsoon is winding down and morning temperatures, while warm, are manageable with the coastal airflow. On the downside, registration is still pending as of this review, and KNC remains a mid-tier organiser in a market where production values vary considerably. For Cebu-based runners wanting a full marathon with distinctive distance options and an SRP waterfront setting, this is one to bookmark.",
-  "rating": {
-    "overall": 64,
-    "breakdown": [
-      {
-        "label": "Distance uniqueness",
-        "score": 78
-      },
-      {
-        "label": "Waterfront venue",
-        "score": 72
-      },
-      {
-        "label": "Organiser (KNC)",
-        "score": 55
-      },
-      {
-        "label": "Registration readiness",
-        "score": 35
-      },
-      {
-        "label": "Season & climate",
-        "score": 60
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "SRP: Cebu's Waterfront Running Corridor",
@@ -111,8 +86,8 @@
       "answer": "September in Cebu is the monsoon transition: morning temperatures of 24-26°C climbing to 31-32°C by mid-morning, with moderate humidity. The SRP's coastal location provides some cooling from sea breezes. Rain typically comes as afternoon thunderstorms — an early flag-off should avoid most of it. [2] [3]"
     }
   ],
-  "editorial_notes": "Hand-revised from auto-generated stub on 2026-08-08. Expanded from 2 sections/1 FAQ/1 source to 5 sections/5 FAQs/3 sources. Prose is original synthesis.",
-  "last_updated": "2026-08-08",
-  "status": "active",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. A 2025 edition was held (21 September 2025, per listings), but no report, results summary or runner account of it or of the 2026 race could be found. The URL redirects to the race listing.",
+  "last_updated": "2026-09-28",
+  "status": "archived",
   "published_at": "2026-08-08T20:00:00.000Z"
 }

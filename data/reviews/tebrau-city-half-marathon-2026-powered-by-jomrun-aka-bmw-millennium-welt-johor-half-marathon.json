@@ -7,27 +7,6 @@
   "meta_description": "Tebrau City Half Marathon 2026 review: September 20 at Toppen Shopping Centre, Johor Bahru -- a mall-anchored race also known as BMW Millennium Welt.",
   "dek": "Set for 20 September 2026 at Toppen Shopping Centre, this Johor Bahru half marathon carries two names -- Tebrau City Half Marathon and BMW Millennium Welt Johor Half Marathon -- reflecting a rebrand in Malaysia's second-largest city by economic output.",
   "verdict": "The Tebrau City Half Marathon (also listed as the BMW Millennium Welt Johor Half Marathon) is a mall-anchored race at Toppen Shopping Centre in Johor Bahru -- Malaysia's second most economically competitive city and the country's largest state capital by population, right at the Singapore border. The dual naming suggests a rebrand or renamed continuation of a prior event, though specific history wasn't confirmed in research. Three distances (21.1K/10K/5K) and a registration deadline set for the day before race day keep the format straightforward, if the deadline itself is unusually tight.",
-  "rating": {
-    "overall": 66,
-    "breakdown": [
-      {
-        "label": "Venue accessibility (Toppen Shopping Centre)",
-        "score": 76
-      },
-      {
-        "label": "City infrastructure (Johor Bahru)",
-        "score": 82
-      },
-      {
-        "label": "Distance range",
-        "score": 72
-      },
-      {
-        "label": "Registration lead time & naming clarity",
-        "score": 42
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "Two Names, One Race",
@@ -91,8 +70,8 @@
       "answer": "Very -- it's Malaysia's largest state capital by population and its second best-performing city economically, sitting right at the Singapore border with the world's busiest land border crossing. That makes it especially convenient for Singapore-based runners. [2]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. No report, results summary or runner account of the 20 September 2026 race or of any earlier edition could be found. The URL redirects to the race listing.",
   "published_at": "2026-08-09T07:30:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

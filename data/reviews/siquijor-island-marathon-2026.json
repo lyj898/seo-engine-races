@@ -7,27 +7,6 @@
   "meta_description": "Siquijor Island Marathon 2026 review: September 26 -- a full marathon and shorter distances on Siquijor, weeks after the island's Isla del Fuego race.",
   "dek": "Set for 26 September 2026, this full marathon joins Isla del Fuego (covered elsewhere in this batch) as a second distinct race on Siquijor Island -- distances from 5K to 42.195K, roughly three weeks after the island's other September race.",
   "verdict": "The Siquijor Island Marathon is a distinct event from Isla del Fuego Marathon, held roughly three weeks apart on the same small island -- worth not confusing the two when planning travel. This one offers the full 42.195K distance alongside 21.1K, 10K and 5K, a step up from Isla del Fuego's own four-distance spread. Siquijor's genuine draw is its identity: nicknamed Isla de Fuegos by Spanish explorers for its fireflies, and historically associated (fairly or not) with folk healing and mysticism in Philippine popular culture. Registration status hasn't been announced yet, and organiser detail is thin.",
-  "rating": {
-    "overall": 60,
-    "breakdown": [
-      {
-        "label": "Island setting & destination appeal",
-        "score": 78
-      },
-      {
-        "label": "Distance range (full marathon offered)",
-        "score": 74
-      },
-      {
-        "label": "Distinct from Isla del Fuego, same island",
-        "score": 55
-      },
-      {
-        "label": "Organiser detail & registration clarity",
-        "score": 30
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "A Second Race on the Same Small Island",
@@ -91,8 +70,8 @@
       "answer": "Spanish explorers named it Isla de Fuegos ('Island of Fires') for its fireflies, and the island carries a distinct cultural identity in Philippine popular culture tied to folk healing traditions -- a genuinely different backdrop from most Southeast Asian race destinations. [2]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. The 26 September 2026 race was billed as the inaugural edition (Takbo.ph, August 2026), so there is no earlier edition, and no report on the race itself was found. The URL redirects to the race listing.",
   "published_at": "2026-08-09T07:30:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }
