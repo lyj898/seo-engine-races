@@ -7,27 +7,6 @@
   "meta_description": "Belitong Geopark Run 2027 review: April 18, part of the Geopark Run Series -- a fourth leg on Belitung, joining Ijen, Minang and Ciletuh legs.",
   "dek": "Set for 18 April 2027, this is the fourth leg of the official Geopark Run Series, extending the same organisation covered at Ijen, Minang and Ciletuh elsewhere in this research to Belitung -- Indonesia's tin and pepper island.",
   "verdict": "Belitong Geopark Run is the fourth confirmed leg of the Geopark Run Series covered extensively in this research batch -- Ijen's volcanic highlands, Minang's canyon country, Ciletuh's UNESCO-recognised coastline, and now Belitung, historically known for tin mining and pepper. That consistent multi-leg expansion across genuinely different Indonesian landscapes signals a maturing, well-organised national series. Three distances (5K/10K/21.1K) keep it in line with the series format. Venue details and registration remain 'coming soon' at the time of this research.",
-  "rating": {
-    "overall": 74,
-    "breakdown": [
-      {
-        "label": "Series maturity (4th confirmed leg)",
-        "score": 82
-      },
-      {
-        "label": "Destination distinctiveness (Belitung)",
-        "score": 80
-      },
-      {
-        "label": "Distance range",
-        "score": 76
-      },
-      {
-        "label": "Venue & registration clarity",
-        "score": 32
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "The Series' Fourth Confirmed Leg",
@@ -91,8 +70,8 @@
       "answer": "No -- both the venue and registration status are listed as 'coming soon' / 'TBA' as of this writing. Given the series' track record elsewhere, details are likely to firm up ahead of the 18 April 2027 race date. [1]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. The Geopark Run Series began in August 2026 (at Ijen), so this leg has no earlier edition. The URL redirects to the race listing.",
   "published_at": "2026-08-09T10:30:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

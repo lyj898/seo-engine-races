@@ -7,27 +7,6 @@
   "meta_description": "Amazing Thabo Midnight Marathon 2027 review: May 1 in Tha Bo, Nong Khai -- a nighttime marathon on the Mekong, near the Pho Tak Marathon's home province.",
   "dek": "Set for 1 May 2027 in Tha Bo, Nong Khai, this nighttime marathon runs in the same Mekong River province as the Pho Tak Marathon covered elsewhere in this research, adding another race to Thailand's growing roster of after-dark events.",
   "verdict": "The Amazing Thabo Midnight Marathon adds a fourth nighttime-branded race to this research batch, alongside HOKA Midnight Run Asia, VnExpress Marathon Hanoi Midnight, and the Bangkok Midnight Marathon -- confirming nighttime racing as a genuine, growing Southeast Asian format rather than an isolated experiment. It's held in Tha Bo, within Nong Khai province, the same Mekong River border region hosting the well-established Pho Tak Marathon covered elsewhere in this research. Four distances (5K to full marathon) with registration already open make this an accessible pick.",
-  "rating": {
-    "overall": 75,
-    "breakdown": [
-      {
-        "label": "Format trend (4th Midnight-branded race)",
-        "score": 78
-      },
-      {
-        "label": "Regional continuity (same province as Pho Tak)",
-        "score": 76
-      },
-      {
-        "label": "Distance range",
-        "score": 76
-      },
-      {
-        "label": "Registration clarity (already open)",
-        "score": 78
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "A Fourth Nighttime-Branded Race",
@@ -91,8 +70,8 @@
       "answer": "Yes -- registration is already open across all four distances (5K, 10K, 21.1K, and the full marathon), a meaningful advantage over several other races in this research batch still awaiting confirmation. [1]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. A 2026 edition was held (2 May 2026), but only the organiser's pages and results could be found, with no report describing the race. The URL redirects to the race listing.",
   "published_at": "2026-08-09T10:30:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

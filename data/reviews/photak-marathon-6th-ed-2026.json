@@ -7,27 +7,6 @@
   "meta_description": "Pho Tak Marathon 2026 review: December 13, the 6th edition in Nong Khai on the Mekong -- Thailand's main crossing point into Laos.",
   "dek": "Set for 13 December 2026, the 6th edition of the Pho Tak Marathon runs in Nong Khai, the Thai city on the Mekong River directly across from Vientiane, Laos, connected by the first bridge ever built across the river's lower reaches.",
   "verdict": "The Pho Tak Marathon's 6th edition carries genuine multi-year continuity in a genuinely distinctive border location: Nong Khai sits on the Mekong River, home to Thailand's main port of entry to Vientiane, Laos, via the Thai-Lao Friendship Bridge -- the first bridge ever built across the lower Mekong, opened in 1994. Four distances (5K to full marathon) with genuinely budget pricing (350-1,000 THB) make this accessible. Note that the registration deadline listed (5 August 2026) has already passed as of this writing, despite the entity data still marking status as open -- worth confirming directly with organisers whether late registration is possible.",
-  "rating": {
-    "overall": 71,
-    "breakdown": [
-      {
-        "label": "Track record (6th edition)",
-        "score": 78
-      },
-      {
-        "label": "Border location distinctiveness (Mekong/Laos)",
-        "score": 84
-      },
-      {
-        "label": "Pricing accessibility",
-        "score": 82
-      },
-      {
-        "label": "Registration deadline already passed",
-        "score": 30
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "A Sixth Edition on the Mekong",
@@ -91,8 +70,8 @@
       "answer": "The listed deadline (5 August 2026) has already passed as of this writing, though the entity's status still reads 'open.' Contact organisers directly to confirm whether late registration is still possible before planning travel. [1]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. Earlier editions were held, but only race listings could be found, with no report describing one. The URL redirects to the race listing.",
   "published_at": "2026-08-09T09:15:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

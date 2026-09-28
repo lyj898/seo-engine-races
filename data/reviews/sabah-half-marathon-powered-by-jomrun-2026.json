@@ -7,27 +7,6 @@
   "meta_description": "Sabah Half Marathon 2026 review: December 13 at Likas Stadium, Kota Kinabalu -- a 35,000-capacity venue and home of Sabah FC since 1983.",
   "dek": "Set for 13 December 2026, this JomRun-organised race starts at Likas Stadium -- Sabah's 35,000-seat multi-purpose venue, home to Sabah FC since 1983 and Malaysia's 8th-largest football stadium.",
   "verdict": "The Sabah Half Marathon starts at Likas Stadium, a genuinely major sports venue by regional standards -- 35,000 capacity, home to Sabah FC since 1983, and the 8th-largest football stadium in all of Malaysia. That gives the race real staging capacity and infrastructure, distinct from the mall- or square-anchored venues used by most races in this research batch. Three distances (5K/10K/21.1K), organised via JomRun -- the same organiser behind the KL Half Marathon, Tebrau City Half Marathon and Terengganu Half Marathon covered elsewhere in this research -- give this East Malaysia race a familiar, tested framework.",
-  "rating": {
-    "overall": 75,
-    "breakdown": [
-      {
-        "label": "Venue scale (Likas Stadium, 35,000 capacity)",
-        "score": 86
-      },
-      {
-        "label": "Organiser reliability (JomRun)",
-        "score": 76
-      },
-      {
-        "label": "Destination (Kota Kinabalu, Sabah)",
-        "score": 78
-      },
-      {
-        "label": "Registration lead time",
-        "score": 45
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "Starting at a Major Football Stadium",
@@ -91,8 +70,8 @@
       "answer": "12 December 2026 -- the day before the 13 December race date, matching the tight registration windows seen at other JomRun-organised events. Register early to avoid missing the deadline. [1]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. No earlier edition of this race could be found; it was announced as a new event in 2026. The URL redirects to the race listing.",
   "published_at": "2026-08-09T09:15:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

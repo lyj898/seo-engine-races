@@ -7,27 +7,6 @@
   "meta_description": "Ciletuh Geopark Run 2027 review: January 17 at Palangpang Beach -- Indonesia's Tourism Ministry backing a race in a UNESCO Global Geopark since 2018.",
   "dek": "Set for 17 January 2027 at Palangpang Beach, this race runs through Ciletuh-Palabuhanratu Geopark -- recognised by UNESCO as part of the Global Geoparks Network since April 2018, backed directly by Indonesia's Ministry of Tourism.",
   "verdict": "The Ciletuh Geopark Run carries the direct backing of Indonesia's Ministry of Tourism as part of the broader Geopark Run Series -- the same series covered at the Ijen and Minang legs elsewhere in this research batch, now extending to Ciletuh-Palabuhanratu, a 128,000-hectare UNESCO Global Geopark recognised nationally in 2015 and internationally in 2018. Three distances (5K/10K/21.1K) put it in line with the series' other legs. Ministry-level backing gives this race genuine institutional weight beyond typical commercial sponsorship.",
-  "rating": {
-    "overall": 78,
-    "breakdown": [
-      {
-        "label": "Institutional backing (Ministry of Tourism)",
-        "score": 84
-      },
-      {
-        "label": "UNESCO Geopark significance",
-        "score": 90
-      },
-      {
-        "label": "Series continuity (Geopark Run Series)",
-        "score": 76
-      },
-      {
-        "label": "Registration clarity",
-        "score": 45
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "A Third Geopark Run Series Leg",
@@ -91,8 +70,8 @@
       "answer": "Listed as 'coming soon' -- more specific than many other races in this research still marked simply 'not yet announced,' suggesting an imminent opening for the 17 January 2027 race date. [1]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. The Geopark Run Series began in August 2026 (at Ijen), so this leg has no earlier edition. The URL redirects to the race listing.",
   "published_at": "2026-08-09T09:30:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

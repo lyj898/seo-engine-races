@@ -7,27 +7,6 @@
   "meta_description": "Chiang Rai Marathon 2027 review: January 31, open registration in a former walled capital that once housed Thailand's revered Emerald Buddha.",
   "dek": "Set for 31 January 2027, this marathon runs through Chiang Rai -- once the walled capital of an independent principality, and former home of the Emerald Buddha before it moved to Chiang Mai in 1436.",
   "verdict": "The Chiang Rai Marathon runs through a city with genuine historical depth: once the walled capital of an independent Northern Thai principality, and the original home of the revered Emerald Buddha until it was moved to Chiang Mai in 1436 (and eventually to Bangkok). Two distances (21.1K/42.195K) with registration already open give the race a straightforward, if course-detail-light, path forward -- the exact venue wasn't confirmed in available research, worth double-checking directly with organisers.",
-  "rating": {
-    "overall": 74,
-    "breakdown": [
-      {
-        "label": "Historical depth (former Emerald Buddha home)",
-        "score": 84
-      },
-      {
-        "label": "Registration clarity (already open)",
-        "score": 78
-      },
-      {
-        "label": "City accessibility (own airport)",
-        "score": 76
-      },
-      {
-        "label": "Venue detail",
-        "score": 40
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "A Marathon in a Historic Walled Capital",
@@ -91,8 +70,8 @@
       "answer": "It has its own airport with scheduled flights, plus road connections south to Lampang and north toward Myanmar and Laos -- making it accessible while offering potential for extended regional travel. [2]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. A 2026 edition was held (8 February 2026), but only the organiser's promotional posts and listings could be found, with no report describing the race. The URL redirects to the race listing.",
   "published_at": "2026-08-09T09:45:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

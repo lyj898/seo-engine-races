@@ -7,16 +7,6 @@
   "meta_description": "KCC GenSan Marathon 2026: November 14 at Veranza Mall, General Santos City. A standalone full marathon in the Philippines' Tuna Capital. Registration pending — our full review.",
   "dek": "Set for 14 November 2026 at Veranza Mall Alfresco in General Santos City — Mindanao's tuna capital and the hometown of boxing legend Manny Pacquiao — this is a single-distance full marathon. No 10K, no 5K. Just 42.195 kilometres through the streets of GenSan.",
   "verdict": "The KCC GenSan Marathon is a rare thing in Philippine road racing: a standalone full marathon. No companion distances, no fun-run category, no kids' dash — just 42.195 kilometres from Veranza Mall Alfresco through General Santos City, the southern Mindanao hub best known to the world as Manny Pacquiao's hometown and to the Philippines as the country's tuna capital. A single-distance marathon is a statement of intent: this event is for marathoners, and it does not dilute its identity to chase participation numbers. That focus is admirable, and it makes the KCC GenSan Marathon worth tracking for serious distance runners looking for a Mindanao race on their calendar. The practical reality is more cautious: registration has not yet been announced as of early August 2026, roughly three months from race day, and the reliability score for event information is low. The November date is well-chosen — GenSan is relatively dry in November, with the southwest monsoon having retreated and the northeast monsoon not yet at full strength. Veranza Mall offers a practical race hub with parking and facilities. For marathoners who want a focused 42K in a Philippine city that rarely appears on the national racing calendar, this is one to watch — but wait for the registration page before booking your GenSan flights.",
-  "rating": {
-    "overall": 65,
-    "breakdown": [
-      { "label": "Single-distance format", "score": 78 },
-      { "label": "GenSan destination appeal", "score": 72 },
-      { "label": "November date (dry)", "score": 75 },
-      { "label": "Information maturity", "score": 30 },
-      { "label": "Registration", "score": 35 }
-    ]
-  },
   "sections": [
     {
       "heading": "General Santos City: Tuna, Boxing, and Mount Matutum",
@@ -100,8 +90,8 @@
       "answer": "Not yet. Registration has not been announced, no course map has been published, and no organiser has been publicly named beyond the 'KCC' title. Wait until a registration page goes live with a detailed race guide, confirmed entry fees, and a published start time before booking flights or accommodation. Monitor Pinoy Fitness for updates. [1]"
     }
   ],
-  "editorial_notes": "Hand-revised from auto-generated stub on 2026-08-08. Expanded from 2 sections/1 FAQ/1 source to 5 sections/5 FAQs/3 sources. Prose is original synthesis.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. A 2025 edition was held (30 August 2025), but only results pages and the organiser's social posts could be found, with no report describing the race. The URL redirects to the race listing.",
   "published_at": "2026-08-08T18:55:00.000Z",
-  "last_updated": "2026-08-08",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

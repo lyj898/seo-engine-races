@@ -7,27 +7,6 @@
   "meta_description": "Khao Yai Marathon 2027 review: January 10 in Pak Chong -- near Thailand's first national park, a UNESCO World Heritage forest complex since 2005.",
   "dek": "Set for 10 January 2027 in Pak Chong, this marathon runs near Khao Yai National Park -- Thailand's first national park, established in 1962 and a UNESCO World Heritage Site since 2005.",
   "verdict": "The B-Quik Khao Yai Marathon runs near a genuinely significant natural landmark: Khao Yai National Park, Thailand's first national park, established in 1962 and now part of the UNESCO-listed Dong Phayayen-Khao Yai Forest Complex since 2005. Five distances from 2K to the full marathon give it the widest range of any race in this batch, suiting everyone from families to serious marathoners. Organised by Race Up Work Co., Ltd. -- the same organiser behind the Scenic Marathon series covered at Krabi, Chiang Mai and Nakhon Phanom elsewhere in this research -- giving it credible operational backing.",
-  "rating": {
-    "overall": 80,
-    "breakdown": [
-      {
-        "label": "Natural landmark significance (UNESCO forest complex)",
-        "score": 92
-      },
-      {
-        "label": "Organiser experience (Race Up Work)",
-        "score": 78
-      },
-      {
-        "label": "Distance range (2K to full marathon)",
-        "score": 84
-      },
-      {
-        "label": "Registration clarity",
-        "score": 40
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "Racing Near Thailand's First National Park",
@@ -91,8 +70,8 @@
       "answer": "Race Up Work Co., Ltd., the same organiser behind the Scenic Marathon series covered at Krabi, Chiang Mai and Nakhon Phanom elsewhere in this research -- giving it credible multi-region operational experience. [1]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. A 2026 edition was held (10-11 January 2026), but only the organiser's pages and results could be found, with no report describing the race. The URL redirects to the race listing.",
   "published_at": "2026-08-09T09:30:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

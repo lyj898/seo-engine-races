@@ -7,27 +7,6 @@
   "meta_description": "Run for Freedom Bitcoin Half Marathon 2026 review: November 22 at Rot Fai Park, Chiang Mai -- a cryptocurrency-themed race with budget THB pricing.",
   "dek": "Set for 22 November 2026 at Rot Fai Park, this Chiang Mai race carries explicit Bitcoin branding -- a genuinely unusual sponsorship theme among the races in this research batch, with budget-friendly pricing from THB 400.",
   "verdict": "The Run for Freedom Bitcoin Half Marathon is a genuinely distinctive event on branding alone -- an explicit cryptocurrency theme, organised by Jog & Joy Co., Ltd. at Rot Fai Park in Chiang Mai. Three distances (21.1K/10K/5K) with clearly stated, budget-friendly pricing (THB 400-1000) make this one of the most affordable races in this research batch. Chiang Mai itself has a well-established running-event ecosystem, referenced through the Chiang Mai Marathon aggregator listing this race also appears on -- suggesting the organiser has ties to the city's broader running community rather than operating in isolation.",
-  "rating": {
-    "overall": 67,
-    "breakdown": [
-      {
-        "label": "Thematic distinctiveness (Bitcoin branding)",
-        "score": 78
-      },
-      {
-        "label": "Pricing accessibility",
-        "score": 80
-      },
-      {
-        "label": "City running ecosystem (Chiang Mai)",
-        "score": 74
-      },
-      {
-        "label": "Independent reviews",
-        "score": 40
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "A Genuinely Unusual Sponsorship Theme",
@@ -91,8 +70,8 @@
       "answer": "Yes -- it already hosts the Scenic Half Marathon at Royal Park Rajapruek, and this race is cross-listed on a dedicated Chiang Mai running-event aggregator, suggesting genuine ties to the city's established race community. [2]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. The 2025 debut was held, but only the organiser's one-line summary and a video recap could be found, with no readable report describing the race. The URL redirects to the race listing.",
   "published_at": "2026-08-09T09:00:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

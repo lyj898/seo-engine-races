@@ -7,27 +7,6 @@
   "meta_description": "Indonesia Women Half Marathon 2027 review: May 16 -- a women-only half marathon listed with AIMS World Running, exact venue not yet confirmed.",
   "dek": "A women-only half marathon somewhere in Indonesia, joining the Great Eastern Women's Run covered elsewhere in this research as a second gender-focused race in this dataset. One international calendar lists a 2027 date; the organiser's own race entry does not corroborate it, so treat the timing as unsettled.",
   "verdict": "The Indonesia Women Half Marathon joins the Great Eastern Women's Run (Singapore) covered elsewhere in this research batch as a second explicitly women-only event -- a genuinely distinct format among the otherwise general-audience races dominating this dataset. Available research is notably thin: no specific city, venue or organiser was found beyond an AIMS World Running calendar listing. Single distance (21.1K) format. This is one of the least-documented races in the entire research batch, worth treating as speculative until more details emerge.",
-  "rating": {
-    "overall": 58,
-    "breakdown": [
-      {
-        "label": "Format distinctiveness (women-only)",
-        "score": 76
-      },
-      {
-        "label": "National reach (Indonesia-wide)",
-        "score": 55
-      },
-      {
-        "label": "International listing (AIMS)",
-        "score": 62
-      },
-      {
-        "label": "Venue & organiser clarity",
-        "score": 15
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "A Women-Only Race Somewhere in Indonesia",
@@ -91,8 +70,8 @@
       "answer": "Not yet -- given the near-total absence of venue and organiser detail, treat this as a speculative listing until more concrete information emerges closer to the 16 May 2027 date. [1]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. The 2025 debut was held (11 May 2025), but only results and social posts could be found, with no report describing the race; the next date is also unconfirmed. The URL redirects to the race listing.",
   "published_at": "2026-08-09T10:30:00.000Z",
-  "last_updated": "2026-09-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

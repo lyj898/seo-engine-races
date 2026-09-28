@@ -7,27 +7,6 @@
   "meta_description": "Buriram Marathon 2027 review: January 23 at Chang International Circuit -- Thailand's FIA Grade 1, MotoGP-hosting racetrack, opened 2014.",
   "dek": "Set for 23 January 2027 at Chang International Circuit, this marathon runs on Thailand's premier motorsport venue -- an FIA Grade 1 track that has hosted MotoGP's Thai Grand Prix since 2018.",
   "verdict": "The Buriram Marathon offers a genuinely unique course experience: running on Chang International Circuit, an FIA Grade 1-rated, Hermann Tilke-designed racetrack with a 100,000-person capacity that has hosted MotoGP's Thai Grand Prix since 2018 and the World Superbike Championship since 2015. That's a level of purpose-built motorsport infrastructure unmatched by any other race in this entire research batch -- smooth asphalt, professional-grade facilities, and genuine spectator capacity. Two distances (21.1K/42.195K) with registration already open make this an easy, high-value pick for runners who want something genuinely different.",
-  "rating": {
-    "overall": 87,
-    "breakdown": [
-      {
-        "label": "Venue uniqueness (FIA Grade 1 racetrack)",
-        "score": 96
-      },
-      {
-        "label": "Infrastructure quality (100,000 capacity, Tilke-designed)",
-        "score": 90
-      },
-      {
-        "label": "Registration clarity (already open)",
-        "score": 80
-      },
-      {
-        "label": "Distance range (marathon/half only)",
-        "score": 62
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "Running on a MotoGP Racetrack",
@@ -91,8 +70,8 @@
       "answer": "Chang International Circuit has a total capacity of 100,000 (50,000 grandstand, 50,000 berm), was designed by Hermann Tilke, and opened in October 2014 at a cost of THB 2 billion -- genuinely world-class motorsport infrastructure. [2]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. A 2026 edition was held (24-25 January 2026), but only results listings could be found, with no report or runner account describing the race. The URL redirects to the race listing.",
   "published_at": "2026-08-09T09:30:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

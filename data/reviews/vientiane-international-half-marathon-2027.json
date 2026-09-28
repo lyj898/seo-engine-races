@@ -7,27 +7,6 @@
   "meta_description": "Vientiane International Half Marathon 2027 review: March 7 in Nakham -- organised by Events for Good Laos, near a golden Buddhist stupa icon.",
   "dek": "Set for 7 March 2027 in Nakham, Vientiane, this half marathon is organised by Events for Good Laos -- a charity-oriented events group -- in a capital city on the banks of the Mekong, home to the golden Pha That Luang stupa.",
   "verdict": "The Vientiane International Half Marathon joins the Luang Prabang Half Marathon covered elsewhere in this research batch as a second Laos race with a genuine charitable throughline -- organised by Events for Good Laos, an events group whose name itself signals a philanthropic mission, rather than a commercial promoter. Vientiane is Laos's capital, on the banks of the Mekong near the Thai border, home to Pha That Luang, a golden Buddhist stupa that serves as a national icon. Single-distance (21K) format keeps the race focused. Registration status wasn't yet announced at the time of this research.",
-  "rating": {
-    "overall": 76,
-    "breakdown": [
-      {
-        "label": "Charitable orientation (Events for Good Laos)",
-        "score": 78
-      },
-      {
-        "label": "Destination significance (capital, Pha That Luang)",
-        "score": 84
-      },
-      {
-        "label": "International recognition (AIMS listing)",
-        "score": 70
-      },
-      {
-        "label": "Registration clarity",
-        "score": 38
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "A Second Laos Charity Race",
@@ -91,8 +70,8 @@
       "answer": "It's the capital of Laos, on the banks of the Mekong, home to Pha That Luang -- a golden Buddhist stupa considered a national icon -- and other significant temples including Haw Phra Kaew. [2]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. A 2026 edition was held (8 March 2026), but only results listings could be found, with no report describing the race. The URL redirects to the race listing.",
   "published_at": "2026-08-09T09:45:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

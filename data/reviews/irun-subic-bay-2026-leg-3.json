@@ -7,27 +7,6 @@
   "meta_description": "iRun Subic Bay 2026 Leg 3 review: November 29 at Remy Field, Subic -- a marathon-only finale in the former US Naval Base Freeport Zone.",
   "dek": "Set for 29 November 2026 at Remy Field, this is the third and final leg of the iRun Subic Bay series -- a single-distance, 42.195K-only event in the former US Naval Base's Freeport Zone.",
   "verdict": "iRun Subic Bay Leg 3 is a genuinely focused event: the 42.195K full marathon only, no shorter categories at all, held at Remy Field within the Subic Bay Freeport Zone -- the same historically significant former US Naval Base area covered at the MILO Marathon's Subic leg elsewhere in this research batch. Organised by SMOKE10 Events, the same team behind the Isla del Fuego Marathon, Pampanga Marathon and Clark Phil-Kor Half Marathon covered elsewhere in this research, giving it credible operational backing even as a single-distance, less mainstream event.",
-  "rating": {
-    "overall": 69,
-    "breakdown": [
-      {
-        "label": "Organiser experience (SMOKE10)",
-        "score": 76
-      },
-      {
-        "label": "Venue significance (Subic Bay Freeport)",
-        "score": 82
-      },
-      {
-        "label": "Distance focus (marathon only)",
-        "score": 55
-      },
-      {
-        "label": "Registration clarity",
-        "score": 35
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "The Series Finale, Marathon Only",
@@ -91,8 +70,8 @@
       "answer": "It was formerly home to a major US Naval Base until 1992, now redeveloped into the Subic Bay Freeport Zone -- the same venue hosting the MILO Marathon's Subic leg covered elsewhere in this research. [2]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. No report describing an earlier edition could be found. The URL redirects to the race listing.",
   "published_at": "2026-08-09T09:00:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

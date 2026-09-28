@@ -7,27 +7,6 @@
   "meta_description": "Scenic Marathon Nakhon Phanom 2026 review: December 13 -- a single half marathon by the same organiser as the Krabi and Chiang Mai Scenic races.",
   "dek": "Set for 13 December 2026, this single-distance half marathon runs in Nakhon Phanom, a Mekong River commercial hub in Thailand's Isaan region facing Laos -- from the same Scenic Marathon organisers covered at their Krabi and Chiang Mai races elsewhere in this research.",
   "verdict": "Scenic Marathon Nakhon Phanom extends the same organisation's footprint -- already covered at Krabi's beach half marathon and Chiang Mai's botanical garden race in this research batch -- to a third, entirely different Thai landscape: Nakhon Phanom, a Mekong River commercial hub in the Isaan northeast, directly across from Thakhek, Laos. That range across beach, garden and river-border settings suggests a genuinely versatile multi-region operator. It's a single-distance (21.1K) event, and registration status wasn't yet announced at the time of this research.",
-  "rating": {
-    "overall": 70,
-    "breakdown": [
-      {
-        "label": "Organiser versatility (3rd Scenic Marathon location)",
-        "score": 78
-      },
-      {
-        "label": "Destination distinctiveness (Mekong/Isaan)",
-        "score": 76
-      },
-      {
-        "label": "International recognition (AIMS listing)",
-        "score": 72
-      },
-      {
-        "label": "Registration clarity",
-        "score": 32
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "The Same Organiser, a Third Landscape",
@@ -91,8 +70,8 @@
       "answer": "Not yet announced as of this writing. Only one distance is offered -- a 21.1K half marathon -- and the race is listed with AIMS World Running for international recognition. [1]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. The 2025 edition was held, but only results pages, social posts and a video could be found, with no readable report describing the race. The URL redirects to the race listing.",
   "published_at": "2026-08-09T09:15:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

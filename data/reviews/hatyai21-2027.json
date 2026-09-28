@@ -7,27 +7,6 @@
   "meta_description": "Hatyai21 2027 review: May 9 in Hat Yai -- a single-distance half marathon in Southern Thailand's largest city and a major regional trade centre.",
   "dek": "Set for 9 May 2027, Hatyai21 is a single-distance half marathon in Hat Yai, Songkhla province -- Southern Thailand's largest city and a major commercial hub near the Malaysian border.",
   "verdict": "Hatyai21 is a focused, single-distance (21.1K) half marathon in Hat Yai -- Southern Thailand's largest city and a major regional trade and transport hub, historically popular with Malaysian and Singaporean shoppers given its proximity to the border. That focused format echoes the Luang Prabang and Vientiane half marathons covered elsewhere in this research batch. The race's own dedicated domain name (hatyai21.com) suggests a purpose-built event rather than a generic listing, though registration status wasn't yet announced at the time of this research.",
-  "rating": {
-    "overall": 71,
-    "breakdown": [
-      {
-        "label": "City accessibility (major trade hub)",
-        "score": 82
-      },
-      {
-        "label": "Format focus (single half marathon)",
-        "score": 66
-      },
-      {
-        "label": "Cross-border appeal (near Malaysia)",
-        "score": 76
-      },
-      {
-        "label": "Registration clarity",
-        "score": 35
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "A Focused Half Marathon in Southern Thailand",
@@ -91,8 +70,8 @@
       "answer": "The race has its own dedicated official site, hatyai21.com, suggesting a purpose-built standalone event rather than a generic listing. Check there directly for registration updates as the 9 May 2027 race date approaches. [1]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. A 2026 edition was held (10 May 2026), but only listings, results and social posts could be found, with no report describing the race. The URL redirects to the race listing.",
   "published_at": "2026-08-09T10:30:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

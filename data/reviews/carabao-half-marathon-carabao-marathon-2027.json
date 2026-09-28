@@ -7,27 +7,6 @@
   "meta_description": "Carabao Marathon 2027 review: March 28 in Kota Batu -- energy-drink brand Carabao's race in East Java's cool hill-city tourist destination.",
   "dek": "Set for 28 March 2027, this energy-drink-branded race runs in Kota Batu, East Java -- a cool-climate hill city on the slopes of Mount Arjuno-Welirang, known as a popular tourist retreat since gaining independent city status in 2001.",
   "verdict": "The Carabao Marathon carries a fitting sponsorship logic: Carabao is an energy drink brand, and this race runs in Kota Batu, a cool-climate hill city on the southern slopes of Mount Arjuno-Welirang -- genuinely more comfortable running conditions than the humid lowland venues dominating most of this research batch. Four distances including a full marathon give it broad range. Registration is confirmed open ('Pendaftaran Dibuka'), a clear signal compared to many races in this batch still awaiting confirmation.",
-  "rating": {
-    "overall": 77,
-    "breakdown": [
-      {
-        "label": "Climate advantage (cool hill city)",
-        "score": 86
-      },
-      {
-        "label": "Brand fit (energy drink, direct organiser)",
-        "score": 76
-      },
-      {
-        "label": "Distance range",
-        "score": 76
-      },
-      {
-        "label": "Registration clarity (confirmed open)",
-        "score": 78
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "An Energy Drink Brand's Own Race",
@@ -91,8 +70,8 @@
       "answer": "Yes -- explicitly confirmed as open ('Pendaftaran Dibuka'), across four distances: 5K, 10K, 21.1K and the 42.195K full marathon, for the 28 March 2027 race date in Kota Batu, East Java. [1]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. A 2026 edition was held, but only the organiser's site and listings could be found, with no report describing the race. The URL redirects to the race listing.",
   "published_at": "2026-08-09T09:45:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

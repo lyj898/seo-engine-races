@@ -7,27 +7,6 @@
   "meta_description": "Terengganu Marathon 2027 review: April 30 at Stadium Sultan Mizan Zainal Abidin -- a second, full-distance race in Kuala Terengganu.",
   "dek": "Set for 30 April 2027 at Stadium Sultan Mizan Zainal Abidin, this full-service marathon joins the Terengganu Half Marathon covered elsewhere in this research as a second, distinct race in Kuala Terengganu.",
   "verdict": "The Terengganu Marathon is a genuinely separate event from the Terengganu Half Marathon covered elsewhere in this research batch, which starts at the city's landmark drawbridge -- this race instead starts at Stadium Sultan Mizan Zainal Abidin, a dedicated sports venue. Four distances (5K to full marathon) give it broader range than the half-marathon-only JomRun event. Having two distinct races in the same East Coast Malaysian city within roughly six months of each other speaks to Kuala Terengganu's growing profile as a running destination.",
-  "rating": {
-    "overall": 71,
-    "breakdown": [
-      {
-        "label": "Venue purpose-fit (dedicated stadium)",
-        "score": 78
-      },
-      {
-        "label": "Distance range",
-        "score": 78
-      },
-      {
-        "label": "City running-scene growth (2nd race)",
-        "score": 74
-      },
-      {
-        "label": "Registration clarity",
-        "score": 35
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "A Second Race in Kuala Terengganu",
@@ -91,8 +70,8 @@
       "answer": "Having two distinct races in the same East Coast Malaysian city within roughly six months suggests a genuinely growing local running-event scene, rather than one race simply being a rename of the other. [1][2]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. A 2026 edition was held (April 2026), but only the organiser's pages and listings could be found, with no report describing the race. The URL redirects to the race listing.",
   "published_at": "2026-08-09T10:30:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

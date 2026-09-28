@@ -7,27 +7,6 @@
   "meta_description": "MILO Marathon 2026 Urdaneta Leg review: November 8 -- part of the 50th-anniversary Golden Run series in Pangasinan's third-largest city.",
   "dek": "Set for 8 November 2026, this Urdaneta leg brings the MILO Marathon's Golden Run series to Pangasinan's third most populous city, named after the pioneering 16th-century navigator Andres de Urdaneta.",
   "verdict": "The Urdaneta leg gives the MILO Marathon's 50th-anniversary Golden Run series a stop in Pangasinan's third-largest local government unit, a city founded in 1858 and named after Andres de Urdaneta -- the Spanish navigator credited with discovering the Pacific return route from the Philippines to Mexico. Five distances from 1K to 21K keep it broadly accessible. With over 145,000 residents, Urdaneta offers genuine mid-sized city infrastructure, though registration status wasn't yet confirmed open at the time of this research.",
-  "rating": {
-    "overall": 70,
-    "breakdown": [
-      {
-        "label": "Historical namesake (Andres de Urdaneta)",
-        "score": 72
-      },
-      {
-        "label": "Series heritage (50th-anniversary)",
-        "score": 85
-      },
-      {
-        "label": "City scale (3rd-largest in Pangasinan)",
-        "score": 74
-      },
-      {
-        "label": "Registration clarity",
-        "score": 40
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "One of 15 Legs in the Golden Run",
@@ -91,8 +70,8 @@
       "answer": "Not yet confirmed as of this writing. Prospective participants should check the official MILO Marathon site directly for updates before booking travel around the 8 November 2026 race date. [1]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. No report describing an earlier Urdaneta leg could be found; only national series results pages. The URL redirects to the race listing.",
   "published_at": "2026-08-09T08:30:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

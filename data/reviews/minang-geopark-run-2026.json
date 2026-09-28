@@ -7,27 +7,6 @@
   "meta_description": "Minang Geopark Run 2026 review: November 1 near Jam Gadang and Ngarai Sianok canyon -- the second leg of the Geopark Run Series in West Sumatra.",
   "dek": "Set for 1 November 2026 around Jam Gadang and the Ngarai Sianok canyon in Bukittinggi, this is the second leg of the Geopark Run Series, following the Ijen Geopark Run's debut earlier in the calendar.",
   "verdict": "The Minang Geopark Run puts runners next to two of West Sumatra's most iconic landmarks: Jam Gadang, a 26-metre clock tower built in 1926 as a gift from Queen Wilhelmina, and Ngarai Sianok, a roughly 100-metre deep, 15-kilometre-long canyon home to rare rafflesia and medicinal plants. As the second leg of the Geopark Run Series (following the Ijen Geopark Run covered elsewhere in this research), it carries the series' established branding into a completely different, canyon-and-colonial-landmark landscape. Three distances (5K/10K/21.1K) with open registration make this an accessible pick for runners who want genuinely dramatic Sumatran scenery.",
-  "rating": {
-    "overall": 79,
-    "breakdown": [
-      {
-        "label": "Landmark scenery (Jam Gadang, Ngarai Sianok)",
-        "score": 92
-      },
-      {
-        "label": "Series continuity (2nd Geopark Run leg)",
-        "score": 76
-      },
-      {
-        "label": "Distance accessibility",
-        "score": 74
-      },
-      {
-        "label": "Track record (young series)",
-        "score": 45
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "The Series' Second Leg",
@@ -98,8 +77,8 @@
       "answer": "Yes -- Minang Geopark Run is the second leg of the same Geopark Run Series that launched with the Ijen Geopark Run, carrying the series' branding into a completely different Sumatran canyon landscape. [1]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. The Geopark Run Series began in August 2026 (at Ijen), so this leg has no earlier edition. The URL redirects to the race listing.",
   "published_at": "2026-08-09T08:30:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

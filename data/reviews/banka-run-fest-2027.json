@@ -7,27 +7,6 @@
   "meta_description": "Banka Run Fest 2027 review: January 17 on Belitung Island -- Indonesia's tin and pepper island, known for its Chinese-Malay cultural mix.",
   "dek": "Set for 17 January 2027 on Belitung Island, this race runs on an island whose name means 'sea slug' in the local language -- historically known for tin mining and pepper, with a distinct Malay-Chinese Hakka cultural mix.",
   "verdict": "Banka Run Fest puts runners on Belitung, a 4,859 sq km island off Sumatra's east coast in the Java Sea, historically known for tin mining and pepper production, with a genuinely distinct cultural mix of Malay and Chinese Hokkien/Hakka populations. Four distances (2.5K to 21K) give it broad accessibility. This is a genuinely under-documented event -- available research is limited to an Instagram account and a single schedule aggregator, suggesting either a very new or very locally-focused event without much broader promotional reach yet.",
-  "rating": {
-    "overall": 62,
-    "breakdown": [
-      {
-        "label": "Destination distinctiveness (Belitung)",
-        "score": 80
-      },
-      {
-        "label": "Cultural/historical depth (tin, pepper, Hakka heritage)",
-        "score": 74
-      },
-      {
-        "label": "Distance range",
-        "score": 70
-      },
-      {
-        "label": "Organiser detail & promotional reach",
-        "score": 25
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "Racing on Indonesia's Tin and Pepper Island",
@@ -91,8 +70,8 @@
       "answer": "No dedicated official site was found in research -- available documentation is limited to an Instagram account (@bankarunfest) and a schedule aggregator, so verify current details directly before planning travel. [1]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. A 2026 edition was held (7 June 2026), but only launch announcements could be found, with nothing describing the race. The URL redirects to the race listing.",
   "published_at": "2026-08-09T09:30:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

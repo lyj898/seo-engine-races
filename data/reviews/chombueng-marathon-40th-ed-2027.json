@@ -7,27 +7,6 @@
   "meta_description": "Chombueng Marathon 2027 review: January 31, the 40th edition at Muban Chombueng Rajabhat University -- one of few universities with a Muay Thai faculty.",
   "dek": "Set for 31 January 2027, the landmark 40th edition of the Chombueng Marathon starts at Muban Chombueng Rajabhat University in Ratchaburi -- a school with roots to 1954 and one of the few universities anywhere with a dedicated Faculty of Muay Thai Studies.",
   "verdict": "The Chombueng Marathon's 40th edition carries genuinely exceptional continuity -- among the longest track records in this entire research batch, on par with the 37-year Bangkok Marathon. The venue, Muban Chombueng Rajabhat University, traces its roots to 1954 as a village college, gaining full university status in 2004, and stands out for having one of the few dedicated Faculty of Muay Thai Studies programs anywhere in the world. Two distances (21.1K/42.195K) at a genuinely distinctive institutional venue make this a strong pick, though registration status wasn't yet announced at the time of this research.",
-  "rating": {
-    "overall": 83,
-    "breakdown": [
-      {
-        "label": "Longevity (40th edition)",
-        "score": 96
-      },
-      {
-        "label": "Venue distinctiveness (Muay Thai faculty)",
-        "score": 82
-      },
-      {
-        "label": "Destination accessibility (130km from Bangkok)",
-        "score": 74
-      },
-      {
-        "label": "Registration clarity",
-        "score": 42
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "40 Years of Continuous Racing",
@@ -91,8 +70,8 @@
       "answer": "Not yet announced as of this writing. Given the race's established 40-edition history, this is likely standard pre-season timing -- check the official aggregator listing for updates closer to race day. [1]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. The 39th edition was held on 18 January 2026, but only results listings could be found; the one runner-review page is behind bot protection. The URL redirects to the race listing.",
   "published_at": "2026-08-09T09:45:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

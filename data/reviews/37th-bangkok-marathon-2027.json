@@ -7,27 +7,6 @@
   "meta_description": "37th Bangkok Marathon 2027 review: January 10, starting on Sanam Chai Road beside the Grand Palace -- a 37-year-old race, nationwide registration opens July.",
   "dek": "Set for 10 January 2027, the 37th edition of the Bangkok Marathon starts on Sanam Chai Road directly beside the Grand Palace -- nationwide registration opens 1 July 2026, well ahead of race day.",
   "verdict": "The 37th Bangkok Marathon carries genuinely exceptional continuity: 37 consecutive editions puts it among the most established races in this entire research batch, on par with the Amazing Thailand Pattaya Marathon's 33 years. The start line sits directly beside Bangkok's Grand Palace, one of Thailand's most recognisable landmarks, on Sanam Chai Road. Three distances (10K/21.1K/42.195K) and a clearly announced nationwide registration date (1 July 2026) give this race genuine planning clarity, even though sign-up hasn't opened yet as of this research.",
-  "rating": {
-    "overall": 86,
-    "breakdown": [
-      {
-        "label": "Longevity & track record (37th edition)",
-        "score": 96
-      },
-      {
-        "label": "Course significance (Grand Palace start)",
-        "score": 92
-      },
-      {
-        "label": "Distance range",
-        "score": 76
-      },
-      {
-        "label": "Registration clarity (date announced)",
-        "score": 68
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "37 Years of Continuous Racing",
@@ -91,8 +70,8 @@
       "answer": "Nationwide registration is set to open 1 July 2026, well ahead of the 10 January 2027 race date. As of this writing it isn't open yet, but the announced date gives runners a clear planning window. [2]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. The 36th edition was held in January 2026, but only results listings could be found, with no report or runner account describing the race. The URL redirects to the race listing.",
   "published_at": "2026-08-09T09:30:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }
