@@ -7,27 +7,6 @@
   "meta_description": "MILO Marathon 2026 Vermosa Leg review: October 11 at Ayala's active-living township in Cavite -- part of the 50th-anniversary Golden Run series.",
   "dek": "Set for 11 October 2026 at Vermosa, a 770-hectare wellness-focused township straddling Imus and Dasmariñas, this leg brings the MILO Marathon's Golden Run series to the Philippines' first dedicated active-living community.",
   "verdict": "The Vermosa leg gives the MILO Marathon's 50th-anniversary Golden Run series a genuinely purpose-built venue: Vermosa is a 770-hectare Ayala Land township in Cavite, established in 2015 as the Philippines' first development explicitly built around active lifestyles and wellness, anchored by the Ayala Vermosa Sports Hub (opened 2018). That's a meaningfully different setting than most MILO legs, which typically use city plazas or malls not specifically designed for athletic events. Five distances from 1K to 21K keep it accessible. Registration status wasn't yet confirmed open at the time of this research.",
-  "rating": {
-    "overall": 73,
-    "breakdown": [
-      {
-        "label": "Venue purpose-fit (wellness township)",
-        "score": 86
-      },
-      {
-        "label": "Series heritage (50th-anniversary)",
-        "score": 85
-      },
-      {
-        "label": "Distance accessibility",
-        "score": 76
-      },
-      {
-        "label": "Registration clarity",
-        "score": 38
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "One of 15 Legs, at a Purpose-Built Sports Venue",
@@ -91,8 +70,8 @@
       "answer": "Not yet confirmed as of this writing. Prospective participants should check the official MILO Marathon site directly for updates before booking travel around the 11 October 2026 race date. [1]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. No report, results summary or runner account of an earlier edition could be found. The URL redirects to the race listing.",
   "published_at": "2026-08-09T08:00:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

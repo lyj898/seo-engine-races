@@ -7,27 +7,6 @@
   "meta_description": "Terengganu Half Marathon 2026 review: October 31 at Kuala Terengganu Drawbridge -- the first drawbridge in Malaysia and Southeast Asia.",
   "dek": "Set for 31 October 2026, this JomRun-organised race starts at the Kuala Terengganu Drawbridge -- a 638-metre bascule bridge and the first of its kind built in Malaysia and Southeast Asia.",
   "verdict": "The Terengganu Half Marathon's genuine hook is its start point: the Kuala Terengganu Drawbridge, a 638-metre bascule bridge across the Terengganu River, completed in 2019 as the first drawbridge ever built in Malaysia or Southeast Asia. That's a rare piece of modern engineering to anchor a race around, distinct from the historic squares and malls hosting most other races in this research batch. Three distances (21.1K/10K/5K) with registration already open make this a straightforward East Coast Malaysia pick, especially for runners drawn to novel infrastructure landmarks.",
-  "rating": {
-    "overall": 71,
-    "breakdown": [
-      {
-        "label": "Landmark significance (first SE Asia drawbridge)",
-        "score": 86
-      },
-      {
-        "label": "Organiser reliability (JomRun)",
-        "score": 72
-      },
-      {
-        "label": "Distance range",
-        "score": 72
-      },
-      {
-        "label": "Independent reviews",
-        "score": 40
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "A Race Anchored to a Genuine Engineering First",
@@ -91,8 +70,8 @@
       "answer": "It was the first drawbridge ever built in Malaysia and Southeast Asia, completed in 2019 at a cost of RM248 million as part of the East Coast Economic Region development initiative -- a genuine engineering landmark for the race to start beside. [2]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. A 2025 edition was held, but only listings, photo galleries and a results post could be found, with nothing describing the race. The URL redirects to the race listing.",
   "published_at": "2026-08-09T08:30:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

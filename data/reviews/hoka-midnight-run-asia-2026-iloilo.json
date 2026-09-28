@@ -7,27 +7,6 @@
   "meta_description": "HOKA Midnight Run Asia 2026 Iloilo review: October 25 -- a premium shoe brand's nighttime race format comes to historic Iloilo City.",
   "dek": "Set for 25 October 2026, this Iloilo leg brings HOKA's Midnight Run Asia nighttime race format to one of the Philippines' oldest cities, previously the country's second most important after Manila.",
   "verdict": "HOKA Midnight Run Asia's Iloilo leg pairs a premium performance-shoe brand with one of the Philippines' most historically significant cities -- Iloilo was granted the honorific 'La Muy Leal y Noble Ciudad' in 1889 and had become the country's second most important city after Manila by the late 19th century. The 'Midnight Run' nighttime format, seen also at the Cebu leg covered elsewhere in this research, is a genuine departure from the pre-dawn starts typical of most Philippine road races. Three distances (21K/10K/5K) keep it standard, though registration status wasn't yet announced at the time of this research.",
-  "rating": {
-    "overall": 68,
-    "breakdown": [
-      {
-        "label": "Brand prestige (HOKA)",
-        "score": 82
-      },
-      {
-        "label": "Format novelty (nighttime race)",
-        "score": 76
-      },
-      {
-        "label": "Destination (historic Iloilo City)",
-        "score": 78
-      },
-      {
-        "label": "Registration clarity & reviews",
-        "score": 32
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "A Premium Brand's Nighttime Race in a Historic City",
@@ -91,8 +70,8 @@
       "answer": "No independent reviews were found for this specific leg. It's likely a newer addition to RunRio's calendar of HOKA-branded events, similar to the Cebu leg of the same series covered elsewhere in this research. [1]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. The series first came to Iloilo in 2026, so there is no earlier Iloilo edition. The URL redirects to the race listing.",
   "published_at": "2026-08-09T08:15:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

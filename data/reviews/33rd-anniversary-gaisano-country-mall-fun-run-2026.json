@@ -7,16 +7,6 @@
   "meta_description": "The 33rd Anniversary Gaisano Country Mall Fun Run 2026: October 18 in Cebu City. 21K, 12K, and 6K distances benefiting SOS Children's Village with registration open from PHP 1,200.",
   "dek": "Set for 18 October 2026 along Banilad Road in Cebu City, this Gaisano Country Mall charity run celebrates 33 years of the homegrown Cebu retail brand with three distances — 21.1K, 12K, and 6K — benefitting SOS Children's Village. Registration is open from PHP 1,200.",
   "verdict": "The 33rd Anniversary Gaisano Country Mall Fun Run is a Cebu institution in the truest sense: three decades plus of a homegrown retail brand putting on a community race for charity, with proceeds directed to SOS Children's Village, one of the most respected child-welfare organisations operating in the Philippines. Three distances — 21.1K, 12K, and 6K — give runners a genuine range of options, and the 12K middle distance is a welcome departure from the standard 10K/21K binary that dominates Philippine fun runs; it sits in that sweet spot for runners who want more than a 10K but are not ready to commit to a half marathon. The Banilad Road venue in Cebu City is a central commercial corridor, not a scenic park, so expectations around the route aesthetic should be calibrated accordingly — this is a city-road race anchored at a mall, and the experience is more about community energy than waterfront views. October in Cebu falls in the transition from the southwest monsoon to the northeast monsoon, which typically means moderate temperatures and a declining probability of heavy rain, though the humidity does not disappear. At PHP 1,200–1,500, the pricing is accessible by Philippine road-race standards, and the charity component gives the registration fee a sense of purpose beyond the race kit. For Cebu runners looking for a community-grounded event with genuine heritage, open registration, and a cause worth supporting, the Gaisano Country Mall Fun Run is a solid, unpretentious pick.",
-  "rating": {
-    "overall": 65,
-    "breakdown": [
-      { "label": "Charity Purpose & Impact", "score": 82 },
-      { "label": "Heritage & Longevity", "score": 78 },
-      { "label": "Distance Options & Format", "score": 68 },
-      { "label": "Venue & Route Appeal", "score": 48 },
-      { "label": "Registration & Accessibility", "score": 72 }
-    ]
-  },
   "sections": [
     {
       "heading": "Thirty-Three Years: The Longest-Running Mall Fun Run in Cebu",
@@ -100,8 +90,8 @@
       "answer": "October in Cebu City is a transitional month between the southwest and northeast monsoons, typically bringing moderate temperatures (26–31°C) and declining rainfall probability compared to the peak wet-season months of August and September. Humidity remains around 80–85 percent. Runners should still prepare for warm, humid tropical conditions, especially in the half marathon."
     }
   ],
-  "editorial_notes": "Hand-revised from auto-generated stub on 2026-08-08. Expanded from 2 sections/1 FAQ/1 source to 5 sections/5 FAQs/3 sources. Prose is original synthesis.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. The 2025 edition was held (the mall's 32nd anniversary run), but only the mall's own promotional posts about it could be found, with nothing describing the race. The URL redirects to the race listing.",
   "published_at": "2026-08-08T19:30:00.000Z",
-  "last_updated": "2026-08-08",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

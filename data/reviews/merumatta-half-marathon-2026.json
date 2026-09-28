@@ -7,27 +7,6 @@
   "meta_description": "Merumatta Half Marathon 2026 review: October 18 at Merumatta Hotel, Senggigi -- a 390m-elevation coastal race in Lombok's original tourist strip.",
   "dek": "Set for 18 October 2026 at Merumatta Hotel in Senggigi, this hotel-backed race carries a genuine 390-metre elevation gain along Lombok's original tourist beachfront strip, north of the capital Mataram.",
   "verdict": "The Merumatta Half Marathon is hotel-backed -- organised by Merumatta Coast Trail, tied to the Merumatta Hotel in Senggigi -- and carries a real physical challenge: 390 metres of elevation gain on the half marathon distance, a genuinely hilly course by regional standards. Four distances (21.1K down to 2.5K) give it broader accessibility despite the terrain. Senggigi itself has a distinctive history: once hyped as 'the next Bali' in the late 1990s, it was set back by the 2000 communal violence and 2002 Bali bombing, and has since fallen behind newer Lombok destinations -- giving the area a quieter, less-crowded beachfront character today.",
-  "rating": {
-    "overall": 72,
-    "breakdown": [
-      {
-        "label": "Course challenge (390m elevation)",
-        "score": 80
-      },
-      {
-        "label": "Coastal setting (Senggigi)",
-        "score": 78
-      },
-      {
-        "label": "Hotel backing & amenities",
-        "score": 74
-      },
-      {
-        "label": "Independent reviews",
-        "score": 40
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "A Hotel-Backed Race With Real Elevation",
@@ -91,8 +70,8 @@
       "answer": "Merumatta Coast Trail, tied to the Merumatta Hotel in Senggigi, which hosts the start/finish for the 18 October 2026 race. Registration is currently open across all four distances, from the 2.5K up to the 21.1K half marathon. [1]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. A 2025 edition was run (19 October 2025, Senggigi), but the only report describing it could not be read. The URL redirects to the race listing.",
   "published_at": "2026-08-09T08:00:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

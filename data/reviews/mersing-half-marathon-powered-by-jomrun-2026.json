@@ -7,31 +7,6 @@
   "meta_description": "The Mersing Half Marathon Powered by JomRun 2026: October 18 at Dataran Air Papan, Mersing, Johor. 21K, 10K, 5K with registration open — Johor's east-coast beach race.",
   "dek": "Set for 18 October 2026 at Dataran Air Papan in Mersing, Johor — the gateway to Tioman Island — this JomRun-powered half marathon offers three distances with registration open.",
   "verdict": "The Mersing Half Marathon Powered by JomRun brings Malaysia's dominant race-registration platform to Johor's east coast, anchoring the event at Dataran Air Papan — a beachfront esplanade in a town better known as the mainland ferry terminal for Tioman Island. Three distances (21K, 10K, 5K) with registration open give it the standard JomRun accessibility, but the coastal setting sets it apart from the platform's typical mall-anchored races. October on Johor's east coast falls in the inter-monsoon period — generally manageable conditions with afternoon thunderstorm risk. Mersing itself is a small, unhurried coastal town of about 70,000 people, and the race infrastructure will reflect that: don't expect the production scale of a KL or JB urban half marathon. What you get instead is a beach-town vibe, sea breezes, and the option of a post-race ferry to one of Southeast Asia's best island marine parks. For runners wanting a Johor half marathon that trades urban convenience for genuine coastal character — and a Tioman Island recovery plan — this is a distinctive pick.",
-  "rating": {
-    "overall": 65,
-    "breakdown": [
-      {
-        "label": "Coastal setting",
-        "score": 78
-      },
-      {
-        "label": "Registration access",
-        "score": 82
-      },
-      {
-        "label": "Tioman proximity",
-        "score": 72
-      },
-      {
-        "label": "Event information depth",
-        "score": 40
-      },
-      {
-        "label": "Season & climate",
-        "score": 60
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "Mersing: Gateway to Tioman Island",
@@ -111,8 +86,8 @@
       "answer": "October is the inter-monsoon period: morning temperatures of 24-26°C, daytime highs of 31-32°C, with a reasonable chance of dry conditions. Sea breezes help, but the northeast monsoon can arrive early — be prepared for possible rain. [2] [3]"
     }
   ],
-  "editorial_notes": "Hand-revised from auto-generated stub on 2026-08-08. Expanded from 2 sections/1 FAQ/1 source to 5 sections/5 FAQs/3 sources. Prose is original synthesis.",
-  "last_updated": "2026-08-08",
-  "status": "active",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. No report, results summary or runner account of an earlier edition could be found. The URL redirects to the race listing.",
+  "last_updated": "2026-09-28",
+  "status": "archived",
   "published_at": "2026-08-08T22:00:00.000Z"
 }

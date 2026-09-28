@@ -7,27 +7,6 @@
   "meta_description": "PalawanPay Trilogy Marathon 2026 Palawan Leg review: October 18 in Puerto Princesa -- five distances near a UNESCO World Heritage subterranean river.",
   "dek": "Set for 18 October 2026 in Puerto Princesa, this Palawan leg of the PalawanPay Trilogy Marathon runs in the same province as the Puerto Princesa Subterranean River -- a UNESCO World Heritage Site and New7Wonders of Nature.",
   "verdict": "The PalawanPay Trilogy Marathon's Palawan leg has an obvious geographic tie-in: the title sponsor is named for the province hosting a UNESCO World Heritage Site and New7Wonders of Nature finalist -- the Puerto Princesa Subterranean River. Five distances, including an unusual 16K alongside the standard spread up to the full 42.195K, give it real range. Puerto Princesa itself has been a settlement since Spanish colonists founded it in 1872, with its own airport making the province genuinely accessible despite its island-frontier reputation. Registration status wasn't yet confirmed open at the time of this research.",
-  "rating": {
-    "overall": 76,
-    "breakdown": [
-      {
-        "label": "Destination prestige (UNESCO site nearby)",
-        "score": 90
-      },
-      {
-        "label": "Distance range (incl. 16K, full marathon)",
-        "score": 76
-      },
-      {
-        "label": "Organiser experience (RunRio)",
-        "score": 74
-      },
-      {
-        "label": "Registration clarity",
-        "score": 35
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "A Race Named for Its Province",
@@ -91,8 +70,8 @@
       "answer": "Not yet confirmed as of this writing. Given Palawan's popularity as a tourist destination generally, demand could be significant once sign-ups open -- check official channels for updates before planning travel. [1]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. The PalawanPay Trilogy Marathon was launched as a new series in 2026, so the Palawan leg on 18 October 2026 has no earlier edition. The URL redirects to the race listing.",
   "published_at": "2026-08-09T08:15:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

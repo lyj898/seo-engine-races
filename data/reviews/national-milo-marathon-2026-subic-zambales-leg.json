@@ -7,27 +7,6 @@
   "meta_description": "MILO Marathon 2026 Subic Leg review: October 18 -- part of the 50th-anniversary Golden Run series in the Subic Bay Freeport Zone, open registration.",
   "dek": "Set for 18 October 2026, this Subic leg brings the MILO Marathon's Golden Run series to the Subic Bay Freeport Zone -- a former US Navy base transformed into an industrial and tourism hub since 1992.",
   "verdict": "The Subic leg gives the MILO Marathon's 50th-anniversary Golden Run series a genuinely distinctive backdrop: Subic Bay, formerly home to a major US Naval Base until the Navy's 1992 departure, since redeveloped into the Subic Bay Freeport Zone -- a mix of industrial investment and tourism development. Four distances from 3K to 21K keep it accessible, and registration is already open, a step ahead of several other 2026 legs in this research batch that were still unconfirmed. That combination of historical character and confirmed logistics makes this one of the more straightforward legs to plan around.",
-  "rating": {
-    "overall": 74,
-    "breakdown": [
-      {
-        "label": "Historical setting (former US Naval Base)",
-        "score": 84
-      },
-      {
-        "label": "Series heritage (50th-anniversary)",
-        "score": 85
-      },
-      {
-        "label": "Distance accessibility",
-        "score": 74
-      },
-      {
-        "label": "Registration clarity (already open)",
-        "score": 78
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "One of 15 Legs, Registration Already Open",
@@ -91,8 +70,8 @@
       "answer": "Yes -- unlike several other 2026 MILO Marathon legs still awaiting confirmation, registration for the Subic leg is already open, making it easier to plan travel around the 18 October 2026 race date. [1]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. No report or runner account of a Subic leg, in 2025 or earlier, could be found. The URL redirects to the race listing.",
   "published_at": "2026-08-09T08:15:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }
