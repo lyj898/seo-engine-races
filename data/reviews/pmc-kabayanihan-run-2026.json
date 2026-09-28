@@ -7,31 +7,6 @@
   "meta_description": "PMC Kabayanihan Run 2026: August 30 at BNS Grandstand, Taguig. Organised by the Philippine Marine Corps with 42K, 21K, 10K, 5K distances.",
   "dek": "Set for 30 August 2026 at the BNS Grandstand in Taguig, this Philippine Marine Corps-organised run is arguably the most distinctive organiser in Southeast Asian road racing. Registration pending.",
   "verdict": "The PMC Kabayanihan Run is organised by the Philippine Marine Corps, quite possibly the most distinctive race organiser in Southeast Asia. Held at the BNS Grandstand in Taguig at the Marines headquarters at Fort Bonifacio, the event carries a patriotic military-themed atmosphere with the discipline and organisation expected from a military unit. Four distances from 5K to 42K cover the full spectrum. Kabayanihan means heroism in Filipino and the theme infuses the entire race experience. August in Taguig is the wet season with high humidity. Registration is not yet open. For runners wanting a uniquely Filipino race experience with Marine cadets at aid stations and a military-band finish line, this is one to track.",
-  "rating": {
-    "overall": 65,
-    "breakdown": [
-      {
-        "label": "Organiser Uniqueness",
-        "score": 92
-      },
-      {
-        "label": "Military Atmosphere",
-        "score": 78
-      },
-      {
-        "label": "Distance Range",
-        "score": 72
-      },
-      {
-        "label": "Taguig Venue",
-        "score": 60
-      },
-      {
-        "label": "Registration",
-        "score": 30
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "The Philippine Marine Corps as Race Organiser",
@@ -110,8 +85,8 @@
       "answer": "August is the peak of the southwest monsoon season in Metro Manila, with high humidity and significant rainfall probability. Runners should prepare for wet and humid conditions, though the BNS Grandstand area is paved and drains well. [3]"
     }
   ],
-  "editorial_notes": "Hand-revised from auto-generated stub on 2026-08-08. Expanded from 2 sections/1 FAQ/1 source to 5 sections/5 FAQs/3 sources. Prose is original synthesis.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. Eight earlier editions were held (2026 was the ninth), but no report, results summary or runner account of any edition could be found. The URL redirects to the race listing.",
   "published_at": "2026-08-08T22:15:00.000Z",
-  "last_updated": "2026-08-08",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

@@ -7,31 +7,6 @@
   "meta_description": "Travis Hegel Marathon du Trans Penang 2026: August 30 at Gertak Sanggul, Penang. A 41.76K marathon with 1,632m elevation gain on Penang Island's southwest coast.",
   "dek": "Set for 30 August 2026 at Gertak Sanggul on Penang Island's southwest coast, this uniquely French-named marathon covers 41.76 km with a serious 1,632 metres of climbing. Registration is open — but this is not a race for the under-prepared.",
   "verdict": "The Travis Hegel Marathon du Trans Penang is one of the most idiosyncratic events on the Southeast Asian marathon calendar — a race with a French name, held on a Malaysian island, covering a non-standard distance of 41.76 km with 1,632 metres of elevation gain that puts it firmly in the 'mountain marathon' category despite its coastal start. Gertak Sanggul, the venue, is a former fishing village on Penang's southwest coast — a quiet, less-touristed corner of an island better known for George Town's heritage streets and hawker food. The elevation profile is the defining feature: 1,632 metres of climbing across 41.76 km is more than most road marathons accumulate in their entire course, and it transforms this from a marathon into something closer to a trail race on tarmac. Registration is open, which is a meaningful point of differentiation in a market where many events have yet to announce sign-ups. August in Penang is the tail of the southwest monsoon — hot, humid, and prone to afternoon thunderstorms. For runners who want a marathon that tests more than just pacing discipline — who want genuine climbing, a distinctive brand identity, and a Penang race experience far from the usual tourist track — the Travis Hegel Marathon du Trans Penang is a distinctive and rewarding pick.",
-  "rating": {
-    "overall": 66,
-    "breakdown": [
-      {
-        "label": "Course challenge & climbing",
-        "score": 80
-      },
-      {
-        "label": "Unique branding & identity",
-        "score": 78
-      },
-      {
-        "label": "Penang coastal location",
-        "score": 72
-      },
-      {
-        "label": "Registration access",
-        "score": 80
-      },
-      {
-        "label": "Information depth",
-        "score": 35
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "The Name: Why Does a Malaysian Marathon Sound French?",
@@ -118,8 +93,8 @@
       "answer": "Gertak Sanggul is on Penang's southwest coast, roughly a 45-minute drive from George Town. Accommodation in Gertak Sanggul itself is limited; most runners should plan to stay in George Town, Bayan Lepas, or Balik Pulau and arrange private transport to the start. Penang International Airport is in Bayan Lepas, about 25 minutes from Gertak Sanggul by car."
     }
   ],
-  "editorial_notes": "Hand-revised from auto-generated stub on 2026-08-08. Expanded from 2 sections/1 FAQ/1 source to 5 sections/5 FAQs/3 sources. Prose is original synthesis.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. Earlier editions were held (a 2025 registration exists), but no report, results summary or runner account of any edition could be found. The URL redirects to the race listing.",
   "published_at": "2026-08-08T18:30:00.000Z",
-  "last_updated": "2026-08-08",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

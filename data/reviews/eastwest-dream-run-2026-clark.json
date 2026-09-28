@@ -7,27 +7,6 @@
   "meta_description": "EastWest Dream Run 2026 Clark leg review: August 30 at Filinvest Mimosa -- second edition of a bank-backed series that drew 14,000 runners nationwide in 2025.",
   "dek": "Set for 30 August 2026 at Filinvest Mimosa Plus Events Grounds in Clark, this is the second edition of the EastWest Dream Run following an inaugural 2025 series that drew around 14,000 runners nationwide -- five distances from 1K to 21K, with a rescheduled date worth double-checking.",
   "verdict": "The EastWest Dream Run's Clark leg builds on a genuinely strong debut: the inaugural 2025 series drew around 14,000 runners nationwide, backed by EastWest Bank with Quest Plus Conference Center Clark as hotel partner. Five distances from a 1K to the 21K half marathon make it one of the more accessible races in this batch, and the race village -- cooling zones, a recovery lounge, sponsor activations -- suggests a well-resourced production. The one real catch: organisers moved the Clark leg date at least once already (from a floated May 2026 date to 30 August), so registrants should verify the current schedule before locking in travel.",
-  "rating": {
-    "overall": 72,
-    "breakdown": [
-      {
-        "label": "Field scale & bank backing",
-        "score": 84
-      },
-      {
-        "label": "Distance accessibility (1K-21K)",
-        "score": 80
-      },
-      {
-        "label": "Race village amenities",
-        "score": 70
-      },
-      {
-        "label": "Schedule stability",
-        "score": 48
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "Second Edition, Following a 14,000-Runner Debut",
@@ -91,8 +70,8 @@
       "answer": "Based on the format used for the Manila leg of the same 2026 series, the race village includes cooling zones, a recovery lounge, and sponsor activations. The event is organised by RunRio in partnership with EastWest Bank, with Quest Plus Conference Center Clark as hotel partner. [1]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and already-researched entity material (research_highlights/watchouts), plus supplementary background sources. Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. The race series began in 2025, but no report, results summary or runner account of a Clark leg, in 2025 or on 30 August 2026, could be found. The URL redirects to the race listing.",
   "published_at": "2026-08-09T06:45:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

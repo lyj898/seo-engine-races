@@ -7,27 +7,6 @@
   "meta_description": "Decathlon Run 2026 review: August 30 at SM Mall of Asia, Pasay -- Decathlon Philippines' 9th Anniversary Run, expecting around 8,000 runners.",
   "dek": "Set for 30 August 2026 at the SM Mall of Asia Complex in Pasay, this is Decathlon Philippines' 9th Anniversary Run -- a 3am gun start for 5K, 10K and 21K categories, expected to draw around 8,000 runners.",
   "verdict": "The Decathlon Run is billed as Decathlon Philippines' 9th Anniversary Run, expected to pull around 8,000 runners to the SM Mall of Asia Complex -- the largest shopping mall in the Philippines and a well-known Manila Bay-side venue with straightforward access and infrastructure. A 3am gun start with an ambulance sweep from 7am is standard RunRio-series logistics, as are the strict 15-minute flag-off rule and the non-transferable, non-refundable registration terms. It's a large, reliably organised community race rather than a scenic or unusual one -- the appeal is scale and a familiar, easy-to-reach venue, not novelty.",
-  "rating": {
-    "overall": 69,
-    "breakdown": [
-      {
-        "label": "Venue accessibility (SM MOA)",
-        "score": 84
-      },
-      {
-        "label": "Field size & anniversary scale",
-        "score": 76
-      },
-      {
-        "label": "Race-day organisation (RunRio)",
-        "score": 70
-      },
-      {
-        "label": "Course novelty",
-        "score": 45
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "A 9th Anniversary Run at the Philippines' Largest Mall",
@@ -91,8 +70,8 @@
       "answer": "No -- there is no on-site registration or race-day kit claiming. Kits must be collected during the scheduled pre-race claiming period, and registration is non-transferable and non-refundable once completed. [1]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and already-researched entity material (research_highlights/watchouts), plus supplementary background sources. Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. No report or runner account of the 30 August 2026 race or of an earlier edition could be found; only a results listing exists. The URL redirects to the race listing.",
   "published_at": "2026-08-09T06:45:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }
