@@ -248,9 +248,14 @@ async function run() {
 
   // Create mode's candidates: entities with no review at all (a hand-edited
   // article must survive every non-revise run). Revise mode's candidates:
-  // entities whose *existing* review is thin -- see isThinReview.
+  // entities whose *existing* review is thin -- see isThinReview. An archived
+  // review was withdrawn on purpose (no readable report on a past edition, as
+  // of 2026-09-28) and stays archived: revising one would republish it as
+  // active. It still counts as reviewed above, so create mode skips it too.
   const missing = entities.filter((e) => !reviewedEntityIds.has(e.entity_id));
-  const thinEntityIds = new Set(existingReviews.filter(isThinReview).map((r) => r.entity_id));
+  const thinEntityIds = new Set(
+    existingReviews.filter((r) => r.status !== 'archived' && isThinReview(r)).map((r) => r.entity_id)
+  );
   const basePool = revise ? entities.filter((e) => thinEntityIds.has(e.entity_id)) : missing;
 
   let queue;
