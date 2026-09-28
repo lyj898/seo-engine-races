@@ -1,91 +1,206 @@
 {
-  "pull_quotes": [],
-  "editorial_notes": "Written about the PREVIOUS edition, from published reporting on it, to help a reader decide on the next one. No rating: the sources are news reports and organiser statements, which describe how an event was run, not how runners rated it. A score needs participant evidence -- race reports, runner blogs, attributed quotes -- and without it would be invention.",
-  "published_at": "2026-09-28T12:00:00.000Z",
-  "last_updated": "2026-09-28",
-  "status": "active",
+  "review_id": "arutmin-borneo-run-2026",
   "slug": "arutmin-borneo-run-2026",
-  "title": "Arutmin Borneo Run 2026 Review: What the 2025 Edition Was Like",
-  "seo_title": "Arutmin Borneo Run 2026 Review | Banjarbaru, South Kalimantan",
-  "meta_description": "Arutmin Borneo Run review: the 2025 edition drew 4,050 runners and sold out in five minutes. What that means for entering the 2026 race in Banjarbaru.",
-  "dek": "South Kalimantan's biggest road race sold every one of its 4,050 places in five minutes last year. Here is what the 2025 edition was like, and what it tells you about getting into the 2026 race on 1 November.",
-  "verdict": "The Arutmin Borneo Run is the race that defines road running in South Kalimantan, and the 2025 edition showed why: 4,050 runners on Sunday 23 November, up from around 3,000 the year before [1][2], with every place gone within five minutes of registration opening [2]. It is run on a PASI-certified route from the governor's office area in Banjarbaru [1][2], and it is unusually deliberate about inclusion -- student slots, a training plan for beginners, and a welcome for disabled and older runners [2]. The single most important thing to know about the 2026 race is that you will need to be ready the moment entries open.",
+  "entity_id": "arutmin-borneo-run-2026",
+  "title": "Arutmin Borneo Run 2026 Review: What the 2025 Race Was Like",
+  "seo_title": "Arutmin Borneo Run Review: Banjarbaru Course, Cut-offs, Sell-out",
+  "meta_description": "Arutmin Borneo Run review from the 2025 race: the undulating Banjarbaru loop, 25°C and 94% humidity at the start, a four-hour half limit and a five-minute sell-out.",
+  "dek": "What it was like to run South Kalimantan's biggest road race in November 2025: the loop through Banjarbaru, the humid pre-dawn air, the aid stations and cut-offs, and how hard it is to get a place.",
+  "verdict": "Enter if you want a certified, well-supported half marathon in Kalimantan and can be online the moment entries open. The 2025 race drew 4,050 runners to an undulating loop through Banjarbaru with 104 m of climbing, nine water stations and a generous four-hour limit. At the 5.30am reading it was already 25°C with 94% humidity and a thunderstorm nearby, and 27°C by 9am. The catches are access and air: the first 3,000 places went in five minutes, and prize money is for Indonesians only. Be online the moment entries open.",
+  "at_a_glance": {
+    "heading": "The 2025 race in numbers",
+    "rows": [
+      {
+        "label": "Date",
+        "value": "Sunday 23 November 2025, the 17th edition. Next: Sunday 1 November 2026"
+      },
+      {
+        "label": "Field",
+        "value": "4,050 places across the half marathon, 10 km and 5 km, expanded from a planned 3,000 (organiser's figure)"
+      },
+      {
+        "label": "Sell-out",
+        "value": "First 3,000 places in five minutes; a second batch of 1,050 in three"
+      },
+      {
+        "label": "Start times",
+        "value": "Half marathon 5.20am, 10 km 5.45am, 5 km 6.00am (race listing). 2026: half 5.15am"
+      },
+      {
+        "label": "Cut-offs",
+        "value": "Half 4 hours (checkpoint at km 15 after 2 hours 45 for 2026), 10 km 2 hours, 5 km 90 minutes"
+      },
+      {
+        "label": "Weather at the start",
+        "value": "25°C, dew point 24°C, 94% humidity, thunderstorm nearby (5.30am)"
+      },
+      {
+        "label": "Weather near the half cut-off",
+        "value": "27°C at 9am, 29°C at 9.30am"
+      },
+      {
+        "label": "Course",
+        "value": "PASI-certified loop from the governor's office complex; start 48 m, high point 59 m, 104 m of climbing"
+      },
+      {
+        "label": "Aid (half marathon)",
+        "value": "Nine water stations, two sponge points, two dousing points and sprinklers"
+      },
+      {
+        "label": "Entry fee",
+        "value": "Half Rp450,000, 10 km Rp350,000, 5 km Rp150,000 or Rp200,000"
+      },
+      {
+        "label": "Finisher items",
+        "value": "Medal for all; finisher tee for the half marathon"
+      }
+    ]
+  },
   "sections": [
     {
-      "heading": "The 2025 Edition in Numbers",
+      "heading": "The Course: An Undulating Loop Through Banjarbaru",
       "paragraphs": [
-        "The 2025 race was held on Sunday 23 November, starting and finishing in the area around the governor's office in Banjarbaru [1]. It drew 4,050 runners across three distances: 1,200 in the half marathon, 2,000 in the 10 km and about 850 in the 5 km, a figure that included 110 students from South Kalimantan [1].",
-        "That was a sharp rise from around 3,000 runners the previous year [2], and the event reported it was in its seventeenth year [2]. For a province with very little on the national running calendar, a field of that size makes this the reference race for the region rather than one option among several."
+        "The race starts and finishes at the South Kalimantan governor's office complex in Banjarbaru [1]. On the half-marathon map posted on the race website, the first 6 km wind around the roundabouts of the government complex, with two U-turns. The route then heads out along Jalan Aneka Tambang and Jalan H. Mistar Cokrokusumo, runs west along Jalan Trikora past the Al-Munawwarah grand mosque to the Trikora roundabout at km 15, and comes back along Jalan Palam Raya and Jalan Banua Praja Barat to the finish [2].",
+        "It is not flat. The map puts the start at 48 m, the high point at 59 m and the total climb at 104 m, with the highest ground around the middle of the race and the lowest a few kilometres from the end; the PASI measurement certificate describes the road as undulating [2][3]. PASI, Indonesia's athletics federation, measured the course in October 2023, and the certificate is valid until 5 November 2026, but any change to the course, however small, voids it [3]. The map is the one posted for 2026; no separate 2025 map could be found."
       ]
     },
     {
-      "heading": "Five Minutes to Sell Out",
+      "heading": "The Weather: Saturated Air and a Storm Nearby",
       "paragraphs": [
-        "The detail that should shape your plans is how fast the 2025 edition filled. According to the organisers' own reporting, every place was taken within five minutes of registration opening [2]. That is a waiting-room-and-refresh situation, not a sign-up-when-you-get-round-to-it one.",
-        "If you intend to run the 2026 edition, find out when registration opens and treat that moment as the real start of the race. Missing it probably means missing the event."
+        "Syamsudin Noor airport, in Banjarbaru about 8 km west of the start, recorded 25°C at 5am on race morning with a dew point of 25°C and 100% humidity [4]. At 5.30am it was 25°C with 94% humidity, a 5-knot wind and a thunderstorm reported in the vicinity [4]. The air stayed at 24°C to 25°C until 7.30am, then warmed to 26°C at 8am, 27°C at 9am and 29°C at 9.30am, around the time the half marathon closed [4].",
+        "A dew point of 24°C to 25°C means sweat barely evaporates, so pace for the air rather than the distance. From a 5.20am start, a two-hour half marathoner was finished by about 7.20am in 24°C to 25°C air; a runner near the four-hour limit spent the last hour at 26°C to 29°C."
       ]
     },
     {
-      "heading": "How It Is Run",
+      "heading": "Aid Stations and Cut-offs",
       "paragraphs": [
-        "The race has been managed by IdeaRun since 2023 [2]. The 2025 route was certified by PASI, Indonesia's athletics federation, and the organisers describe professional safety arrangements including hydration points, an emergency plan and medical coordination [2].",
-        "2025 was also the first time a gun start was used across every category in South Kalimantan [1][2] -- a small thing, but a sign of an event trying to run to national standard rather than as a community fun run.",
-        "Inclusion is a stated priority rather than an afterthought. The organisers reserve slots for student runners in the 5 km, offer a twelve-week training programme for beginners, and welcome disabled and older runners both as participants and as members of the team [2]. Finishers in 2025 were also handed a local street snack, with 12,000 portions of pentol distributed to support local traders [2]."
+        "The half-marathon map marks nine water stations, the first near km 2 and the last near km 17, plus sponge points near km 9 and km 14, water-dousing points near km 12 and km 16, and sprinklers on the run-in [2]. The LariKu race listing gave the same nine water stations for the half in 2025, with four on the 10 km and two on the 5 km [5]. After the finish there is water, an isotonic drink and bananas [6].",
+        "The limits are generous: four hours for the half, two for the 10 km and 90 minutes for the 5 km in 2025 [5], and the same for 2026, when the half also has one checkpoint at km 15 after 2 hours 45 minutes [7]. That checkpoint works out to 11 minutes per km. The listing gave 2025 start times of 5.20am for the half, 5.45am for the 10 km and 6am for the 5 km [5]; for 2026 the half starts at 5.15am [7]. Runners up to 10 minutes late may still start; later than that, they go off with the next race [7].",
+        "For 2026 the rules add a team of running doctors who run in every category [7]."
       ]
     },
     {
-      "heading": "What to Expect in 2026",
+      "heading": "Getting a Place",
       "paragraphs": [
-        "The 2026 edition is scheduled for Sunday 1 November, again over 5 km, 10 km and the half marathon [3]. That is three weeks earlier in the year than 2025, so do not assume last year's timing when you plan.",
-        "Nothing published so far suggests the format is changing. Expect the same three distances, the same organiser and, if demand holds, the same five-minute scramble for places."
+        "This is the hard part. For the 2025 race the first 3,000 places sold out in five minutes, and a second batch of 1,050 went in three [8]. The organiser said it had planned for 3,000 runners and expanded to 4,050 because of demand [9]. Runners came from across Kalimantan and from Java, Sumatra, Sulawesi and Papua [8].",
+        "For 2026 the organiser has raised the field to 6,500 places, more than 50% up on 2025 [10]."
       ]
     },
     {
-      "heading": "Should You Enter?",
+      "heading": "Race Weekend and the Rules",
       "paragraphs": [
-        "If you run in Kalimantan, yes. It is the largest and best-organised road race in the province, the course is federation-certified, and the half marathon field of more than a thousand is big enough to find people running your pace.",
-        "If you are travelling in for it, the harder question is logistics rather than quality: you need a place first, and on 2025's evidence that is the part most likely to go wrong.",
-        "This review is compiled from published reporting on the previous edition and the organisers' own announcements. It is not a first-hand race report, and nobody from this site ran the race."
+        "Race packs in 2025 were collected on 21 and 22 November at the Novotel ballroom in Banjarbaru [5]; for 2026 the dates are 30 and 31 October, with the venue to be confirmed [7]. The 2025 listing gave entry fees of Rp450,000 for the half, Rp350,000 for the 10 km and Rp150,000 or Rp200,000 for the 5 km; every finisher got a medal, and half-marathon finishers a finisher tee [5]. Baggage drop opens at 4am, and suitcases are not accepted [6].",
+        "Entries cannot be refunded or transferred [6]. Cash prizes go to the top five in each class and only to Indonesian citizens [7], and total prize money in 2025 was Rp385 million [8]. The FAQ says foreigners may enter [6], but the rules page describes the race as open to Indonesian citizens with Indonesian ID [7].",
+        "The race is managed by IdeaRun, which shares a 12-week training plan for beginners on social media and includes disabled and older people as runners and staff [1]. The 2025 race was streamed live on IdeaRun's YouTube channel [8]."
+      ]
+    },
+    {
+      "heading": "Should You Enter the 2026 Race?",
+      "paragraphs": [
+        "Yes, if you want a certified half marathon in Kalimantan with a generous limit and good aid, and you can be ready the moment entries open. The 10 km and 5 km suit newer runners, and many 2025 entrants were trying longer distances for the first time [9].",
+        "Think twice if you want a flat course or a fast time: the loop climbs 104 m in total [2]. If you are coming from abroad, prize money is for Indonesians only and the official pages disagree on whether foreigners may enter [7][6], so ask the organiser before you pay.",
+        "The 2026 race is on Sunday 1 November, with the half starting at 5.15am [7].",
+        "Nobody from this site ran the race. This review draws on the organiser's race information, route map and course certificate, a race listing, airport weather records and local news reports in Indonesian."
       ]
     }
   ],
+  "pull_quotes": [],
   "sources": [
     {
       "n": 1,
-      "label": "Report on the 2025 race: date, venue, gun start and participants by category",
-      "publisher": "ANTARA News Kalimantan Selatan",
-      "url": "https://kalsel.antaranews.com/berita/493721/kemeriahan-abr-2025-ditandai-gun-start-junjung-semangat-inklusi",
-      "type": "news"
-    },
-    {
-      "n": 2,
-      "label": "Arutmin Borneo Run 2025 records 4,050 participants: sell-out, organiser, certification and inclusion",
+      "label": "Pre-race report: venue, race management, training plan and inclusion (in Indonesian)",
       "publisher": "Kalimantan Post",
       "url": "https://kalimantanpost.com/2025/11/arutmin-borneo-run-2025-catat-4-050-peserta-jadi-barometer-lari-jalan-raya-di-kalimantan-selatan/",
       "type": "news"
     },
     {
+      "n": 2,
+      "label": "Half-marathon route map with aid stations and elevation (posted for 2026)",
+      "publisher": "Arutmin Borneo Run (organiser)",
+      "url": "https://arutminborneorun.com/wp-content/uploads/2026/07/Racecourse-HM.jpg.jpeg",
+      "type": "official"
+    },
+    {
       "n": 3,
-      "label": "Arutmin Borneo Run 2026 event listing",
-      "publisher": "Kalender Lari",
-      "url": "https://kalenderlari.com/events/arutmin-borneo-run-2026/",
+      "label": "PASI course measurement certificate for the half marathon (2023, valid to November 2026)",
+      "publisher": "Arutmin Borneo Run (organiser) / PB PASI",
+      "url": "https://arutminborneorun.com/wp-content/uploads/2026/07/Sertifikat-Jalur-Lomba-Arutmin-HM-2023-1_page-0001.jpg.jpeg",
+      "type": "official"
+    },
+    {
+      "n": 4,
+      "label": "Hourly weather observations at Syamsudin Noor airport (WAOO), 23 November 2025",
+      "publisher": "Iowa Environmental Mesonet (airport METAR archive)",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=WAOO&data=tmpc&data=dwpc&data=relh&data=sknt&data=wxcodes&year1=2025&month1=11&day1=23&year2=2025&month2=11&day2=24&tz=Asia%2FMakassar&format=onlycomma&latlon=no&missing=M&report_type=3&report_type=4",
+      "type": "other"
+    },
+    {
+      "n": 5,
+      "label": "2025 race listing: start times, cut-offs, water stations, fees, finisher items and pack collection",
+      "publisher": "LariKu.info",
+      "url": "https://lariku.info/arutmin-borneo-run-2025",
       "type": "aggregator"
+    },
+    {
+      "n": 6,
+      "label": "2026 FAQ: foreign runners, refunds, transfers, baggage and refreshments (in Indonesian)",
+      "publisher": "Arutmin Borneo Run (organiser)",
+      "url": "https://arutminborneorun.com/faq/",
+      "type": "official"
+    },
+    {
+      "n": 7,
+      "label": "2026 race information and rules: date, start times, cut-offs, prizes and eligibility (in Indonesian)",
+      "publisher": "Arutmin Borneo Run (organiser)",
+      "url": "https://arutminborneorun.com/informasi/",
+      "type": "official"
+    },
+    {
+      "n": 8,
+      "label": "Pre-race report: the sell-out in two batches, where runners came from, prize money and live stream (in Indonesian)",
+      "publisher": "RRI Banjarmasin",
+      "url": "https://rri.co.id/banjarmasin/olimpik/1988765/arutmin-borneo-run-2025-siap-digelar",
+      "type": "news"
+    },
+    {
+      "n": 9,
+      "label": "Post-race report: the organiser on expanding the field (in Indonesian)",
+      "publisher": "Kalimantan Post",
+      "url": "https://kalimantanpost.com/2025/11/abr-2025-disambut-ribuan-pelari-arutmin-fokus-pada-mutu-dan-inklusivitas/",
+      "type": "news"
+    },
+    {
+      "n": 10,
+      "label": "2026 race announcement: 18th edition, 6,500 places",
+      "publisher": "Arutmin Borneo Run (organiser)",
+      "url": "https://arutminborneorun.com/",
+      "type": "official"
     }
   ],
   "faqs": [
     {
-      "question": "How many people ran the Arutmin Borneo Run in 2025?",
-      "answer": "4,050 runners took part on Sunday 23 November 2025: 1,200 in the half marathon, 2,000 in the 10 km and about 850 in the 5 km, including 110 students. That was up from around 3,000 runners the previous year, making it South Kalimantan's largest road race."
+      "question": "How fast does the Arutmin Borneo Run sell out?",
+      "answer": "Within minutes. For the 2025 race the first 3,000 places went in five minutes and a second batch of 1,050 went in three. The organiser has raised the 2026 field to 6,500 places, more than 50% up, but on 2025's evidence you should be online the moment registration opens."
     },
     {
-      "question": "How quickly does the Arutmin Borneo Run sell out?",
-      "answer": "Very quickly. The organisers reported that every place for the 2025 edition was taken within five minutes of registration opening. Anyone planning to run should find out when entries open and be ready at that exact moment."
+      "question": "What are the cut-off times at the Arutmin Borneo Run?",
+      "answer": "Generous. The half marathon allows four hours from the gun, with one checkpoint at km 15 after 2 hours 45 minutes. The 10 km allows two hours and the 5 km 90 minutes. For 2026 the half starts at 5.15am, the 10 km at 5.45am and the 5 km at 6am, local time."
     },
     {
-      "question": "Is the Arutmin Borneo Run course certified?",
-      "answer": "Yes. The 2025 route was certified by PASI, Indonesia's national athletics federation. The race also used a gun start across every category for the first time in South Kalimantan, and is managed by IdeaRun."
+      "question": "Is the Arutmin Borneo Run course hilly?",
+      "answer": "Gently. The official half-marathon map shows a start at 48 m, a high point of 59 m and 104 m of climbing in total, and the PASI certificate describes the road as undulating. The loop runs from the governor's office complex through Banjarbaru along Jalan Trikora and back, and was measured by PASI in 2023."
+    },
+    {
+      "question": "How hot and humid is the Arutmin Borneo Run?",
+      "answer": "Warm and very humid. At 5.30am on race morning in 2025, Banjarbaru's airport recorded 25°C, 94% humidity and a thunderstorm nearby, with a dew point of 24°C to 25°C all morning. It stayed at 24°C to 25°C until 7.30am, then reached 27°C by 9am and 29°C by 9.30am."
+    },
+    {
+      "question": "Can foreigners run the Arutmin Borneo Run?",
+      "answer": "Possibly, but check first. The 2026 FAQ says foreign runners are welcome but cannot win prizes, which go only to Indonesian citizens, while the rules page describes the race as open to Indonesian citizens with Indonesian ID. Entries cannot be refunded or transferred, so confirm with the organiser before paying."
     }
   ],
-  "review_id": "arutmin-borneo-run-2026",
-  "entity_id": "arutmin-borneo-run-2026"
+  "editorial_notes": "Rewritten 2026-09-28 about the previous edition (Sunday 23 November 2025). Weather is from Syamsudin Noor airport METAR observations, not a forecast. The official site now shows only 2026 information; 2025 start times, cut-offs, fees and water-station counts come from the LariKu race listing (the 2025 half start is 5.20am there; an earlier official page, not readable, may have said 5.30am). The route map and PASI certificate are the ones posted for 2026; the certificate dates from 2023 and lapses on any course change, so the map is taken as the 2025 loop, and the review says this is an inference. The 5 km field is 850 in the post-race report and 740 in the chair's press-conference figure; 850 is used. The official FAQ and rules disagree on whether foreigners may enter; both are given. Results were behind a bot check and no winners' times appeared in readable reports, so the review has no field-speed section. No rating. ANTARA's reports are not cited: its terms forbid use of its pages for AI; facts only ANTARA reported (the field split by distance, the finish-line snack, the gun start, disabled runners, and September 2026 haze) are left out.",
+  "published_at": "2026-09-28T12:00:00.000Z",
+  "last_updated": "2026-09-28",
+  "status": "active"
 }
