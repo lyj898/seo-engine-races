@@ -128,7 +128,7 @@
     "_discoveryChunking_note": "A source page is read in successive chunks of discoveryChunkChars, up to discoveryMaxChunksPerSource, instead of only its first 6000 characters (scripts/lib/http.js chunkForPrompt). Measured 2026-08-20 with the declared userAgent: the old single-window read was showing the extractor 31% of justrunlah's Thailand calendar, 34% of Indonesia's, 55% of Vietnam's and 19% of the AIMS world calendar -- which is most of why Thailand (25) and Vietnam (10) were the thinnest countries in the directory while their calendars run to hundreds of events. Cost scales with chunks, so this is the knob to turn down if a run gets expensive; 8 x 6000 covers every source currently configured in full.",
     "discoveryChunkChars": 6000,
     "discoveryMaxChunksPerSource": 8,
-    "_trustedAggregators_render_note": "Re-probed 2026-09-28 with the declared userAgent, measuring EXTRACTABLE TEXT rather than HTTP status. Every finishers.com entry returns 200 with ~200KB of HTML and ZERO text after scripts are stripped -- the whole calendar is client-rendered, so scripts/lib/http.js htmlToText hands the extractor nothing. Eight of the eighteen entries had therefore never yielded a single candidate and never could, while still counting as reachable and never tripping the source-failure alarm. They are moved to renderRequiredAggregators below: still the best source for a MANUAL pass driven by a rendering fetch (that is where the 2026-09-28 candidates came from), but pointless for this script. racexasia.com was dropped outright -- 200, but 2170 characters of pure navigation and no event rows. aims-worldrunning.org/calendar.html was dropped for a different reason: it renders fine but prints NO YEAR on any row, and two fetches of it disagreed about a date, so it cannot be used to date anything. The AIMS per-country pages replace it and are the best source now available -- they print \"Sun 16 May 2027\" in full. Only four cover this region (61 Malaysia, 90 Thailand, 82 Singapore, 18 Cambodia); Brunei, Laos, Myanmar, Vietnam, Indonesia and the Philippines have no AIMS member page, so do not go looking. howei.com was evaluated and REJECTED despite working: its robots.txt asks Crawl-delay: 5 and requestDelayMs here is 1500, and fetching a site faster than it asks is not worth a thin Malaysian feed.",
+    "_trustedAggregators_render_note": "Re-probed 2026-09-28 with the declared userAgent, measuring EXTRACTABLE TEXT rather than HTTP status. Every finishers.com entry returns 200 with ~200KB of HTML and ZERO text after scripts are stripped -- the whole calendar is client-rendered, so scripts/lib/http.js htmlToText hands the extractor nothing. Eight of the eighteen entries had therefore never yielded a single candidate and never could, while still counting as reachable and never tripping the source-failure alarm. They are moved to renderRequiredAggregators below: still the best source for a MANUAL pass driven by a rendering fetch (that is where the 2026-09-28 candidates came from), but pointless for this script. racexasia.com was dropped outright -- 200, but 2170 characters of pure navigation and no event rows. aims-worldrunning.org/calendar.html was dropped for a different reason: it renders fine but prints NO YEAR on any row, and two fetches of it disagreed about a date, so it cannot be used to date anything. The AIMS per-country pages replace it and are the best source now available -- they print \"Sun 16 May 2027\" in full. Only four cover this region (61 Malaysia, 90 Thailand, 82 Singapore, 18 Cambodia); Brunei, Laos, Myanmar, Vietnam, Indonesia and the Philippines have no AIMS member page, so do not go looking. howei.com was evaluated and REJECTED despite working: its robots.txt asks Crawl-delay: 5 and requestDelayMs here is 1500, and fetching a site faster than it asks is not worth a thin Malaysian feed. INDONESIA, probed the same way 2026-09-28: indonesiamarathon.com/kalender-lari-2027 is the best 2027-specific feed found for any country (8.2k chars, 88 mentions of 2027) -- its year is in the path deliberately, since it IS the 2027 page, so add the 2028 page when it appears rather than editing this one. eventrack.id (44k), kalenderlari.net (a different site from kalenderlari.com), ruanglari.com and tias.co.id added. kalenderlari.com is kept at BOTH its root and its year-pathed 2026 page, per Alex -- the site publishes a fresh year page, so the pathed one is expected to move to 2027. kalenderlari.com/jadwal/ was checked and is byte-identical to the root, so not added twice. lelarian.com returned HTTP 402 and was rejected. lariku.info and ayolari.id are client-rendered (200, zero text) and live under renderRequiredAggregators.",
     "trustedAggregators": [
       "https://aims-worldrunning.org/countries/61.html",
       "https://aims-worldrunning.org/countries/90.html",
@@ -136,7 +136,13 @@
       "https://aims-worldrunning.org/countries/18.html",
       "https://www.jomrun.com/events",
       "https://jadwallari.id/events/",
+      "https://indonesiamarathon.com/kalender-lari-2027",
+      "https://eventrack.id/jadwal-lari",
+      "https://www.kalenderlari.net/",
+      "https://ruanglari.com/jadwal-lari",
+      "https://tias.co.id/kalender-lari",
       "https://kalenderlari.com/",
+      "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
       "https://ahboy.com/singapore-events/category/singapore-running-events/",
       "https://www.justrunlah.com/calendar-of-running-events-singapore/",
       "https://www.justrunlah.com/running-events-calendar-malaysia/",
@@ -154,7 +160,9 @@
       "https://www.finishers.com/en/destinations/asia/vietnam",
       "https://www.finishers.com/en/destinations/asia/singapore",
       "https://www.finishers.com/en/destinations/asia/cambodia",
-      "https://www.finishers.com/en/destinations/asia/laos"
+      "https://www.finishers.com/en/destinations/asia/laos",
+      "https://lariku.info/",
+      "https://ayolari.id/"
     ]
   },
 
