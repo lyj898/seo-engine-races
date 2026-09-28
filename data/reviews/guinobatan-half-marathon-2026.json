@@ -7,31 +7,6 @@
   "meta_description": "Guinobatan Half Marathon 2026: August 9 in Guinobatan, Albay. A 21.1K, 10K, and 5K from Guinobatan Runners Club — race at the foot of the Mayon Volcano.",
   "dek": "Set for 9 August 2026 in Guinobatan, Albay — a town that sits closer to the base of Mayon Volcano than any other Philippine race venue — this Guinobatan Runners Club event offers 21.1K, 10K, and 5K. Registration hasn't opened yet, but the backdrop is the draw.",
   "verdict": "The Guinobatan Half Marathon is a grassroots, community-organised event that takes place in one of the most visually arresting locations in Philippine road racing. Guinobatan sits at the foot of Mayon Volcano — the near-perfect cone that dominates the Albay skyline — and few races anywhere can claim a backdrop of this calibre. Organised by the Guinobatan Runners Club, it is a local affair rather than a big-budget production, which brings both charm and risk: expect intimate race-day energy and genuine community support, but do not expect the polished logistics of a major-city event. The course is likely to be undulating given Guinobatan's geography on the lower slopes of Mayon. August is firmly within the wet season in Albay, so runners should be prepared for rain, humidity, and potentially muddy road sections. Registration has not been announced, which is the biggest practical obstacle for anyone trying to plan around this race. For runners who value place over production — who want to run a half marathon with Mayon Volcano filling the skyline — this is a unique proposition that deserves attention once sign-up details emerge.",
-  "rating": {
-    "overall": 62,
-    "breakdown": [
-      {
-        "label": "Mayon Volcano backdrop",
-        "score": 92
-      },
-      {
-        "label": "Community character",
-        "score": 72
-      },
-      {
-        "label": "Distance range",
-        "score": 65
-      },
-      {
-        "label": "Information maturity",
-        "score": 28
-      },
-      {
-        "label": "Registration access",
-        "score": 30
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "The Location: At the Foot of the Perfect Cone",
@@ -116,8 +91,8 @@
       "answer": "The closest airport is Legazpi Airport (sometimes called Bicol International Airport), which has direct flights from Manila and Cebu. Guinobatan is roughly a 20-minute drive from Legazpi. Accommodation options in Guinobatan itself are limited; many runners may prefer to stay in Legazpi City, which has a wider range of hotels and is a short drive from the race venue."
     }
   ],
-  "editorial_notes": "Hand-revised from auto-generated stub on 2026-08-08. Expanded from 2 sections/1 FAQ/1 source to 5 sections/5 FAQs/3 sources. Prose is original synthesis.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. No report, results summary or runner account of the 9 August 2026 race or of any earlier edition could be found. The URL redirects to the race listing.",
   "published_at": "2026-08-08T18:15:00.000Z",
-  "last_updated": "2026-08-08",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

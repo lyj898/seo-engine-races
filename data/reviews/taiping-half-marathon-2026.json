@@ -7,15 +7,6 @@
   "meta_description": "An honest review of Malaysia's Taiping Half Marathon: a scenic, AIMS-certified 21K with a 4:30am start to beat the heat. Course, logistics, results and 2026 details.",
   "dek": "An AIMS-certified road race that flags off in the dark to beat Malaysia's heat, winding past Taiping's Lake Gardens and colonial streets. Here's how the 2025 edition ran — and what to expect on 9 August 2026.",
   "verdict": "The Taiping Half Marathon has quietly become one of Peninsular Malaysia's most-liked mid-size road races: scenic, well-drilled, and defined less by its terrain than by the tropical heat it starts early to dodge. Runners consistently praise its calm, on-time organisation and a route through the town's greenery and heritage streets; the recurring caveat is a humidity that can turn a comfortable pace into hard work by mid-morning. If you want a race with atmosphere and a real sense of place rather than a flat-out PB, it delivers.",
-  "rating": {
-    "overall": 78,
-    "breakdown": [
-      { "label": "Course scenery / heritage route", "score": 88 },
-      { "label": "Organisation / logistics", "score": 82 },
-      { "label": "Atmosphere / community", "score": 85 },
-      { "label": "Heat & difficulty", "score": 55 }
-    ]
-  },
   "sections": [
     {
       "heading": "The course: lake gardens, then colonial streets",
@@ -109,7 +100,7 @@
       "answer": "By runner accounts, yes. Participants describe smooth race-kit collection, an on-time and orderly flag-off, and well-stocked water stations staffed by encouraging volunteers. Finishers receive a tee, medal and post-race food, and the AIMS certification signals an accurately measured, professionally run course."
     }
   ],
-  "editorial_notes": "Proof-of-concept review article, written 2026-08-03 by synthesising cited public web sources (participant race report + event coverage + official site). Prose is original; third-party wording appears only as short attributed pull_quotes. Not affiliated with the event.",
-  "last_updated": "2026-08-03",
-  "status": "active"
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. No report, results summary or runner account of the 9 August 2026 race or of any earlier edition could be found. The URL redirects to the race listing.",
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }
