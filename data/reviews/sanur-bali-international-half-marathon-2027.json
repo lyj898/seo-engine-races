@@ -1,91 +1,254 @@
 {
-  "pull_quotes": [],
-  "editorial_notes": "Written about the PREVIOUS edition, from published reporting on it, to help a reader decide on the next one. No rating: the sources are news reports and organiser statements, which describe how an event was run, not how runners rated it. A score needs participant evidence -- race reports, runner blogs, attributed quotes -- and without it would be invention.",
-  "published_at": "2026-09-28T12:00:00.000Z",
-  "last_updated": "2026-09-28",
-  "status": "active",
+  "review_id": "sanur-bali-international-half-marathon-2027",
   "slug": "sanur-bali-international-half-marathon-2027",
-  "title": "Sanur Bali International Half Marathon 2027 Review: What the 2026 Edition Was Like",
-  "seo_title": "Sanur Bali Half Marathon 2027 Review | Beach Half, Bali",
-  "meta_description": "Sanur Bali International Half Marathon review: about 5,000 runners on the Mertasari beachfront in 2026, opened by Bali's governor. What to expect in 2027.",
-  "dek": "A beachfront half marathon on Bali's quieter east coast that drew around 5,000 runners in 2026 and was opened by the governor. Here is what the last edition was like, and what to expect from the 2027 race.",
-  "verdict": "The Sanur Bali International Half Marathon is a young event with real backing. The 2026 edition on Sunday 8 February on the beachfront at Mertasari, Sanur, drew around 5,000 runners [1] -- the organisers put it at 4,500 from 34 countries [2] -- and was formally opened by Bali's governor, Wayan Koster [1]. It is organised by RajaLARI with Prama Sanur Beach Bali and the support of the Denpasar city government [1][2], and it is being built deliberately as a sport-tourism fixture [1]. It is a half marathon with a setting most races cannot offer, and Sanur is the calmer side of Bali to stay in.",
+  "entity_id": "sanur-bali-international-half-marathon-2027",
+  "title": "Sanur Bali International Half Marathon 2027 Review: What the 2026 Race Was Like",
+  "seo_title": "Sanur Bali Half Marathon Review: Course, Heat, Cut-offs, Aid",
+  "meta_description": "Sanur Bali International Half Marathon review from the 2026 race: the Mertasari loop, 27°C at the 4.45am start, a 3h45 cut-off, nine water stations and roads cleared until 8.30am.",
+  "dek": "What it was like to run the first Sanur Bali International Half Marathon in February 2026: the coastal loop from Mertasari Beach, the pre-dawn weather, the cut-offs and aid stations, the road closures, the size of the field, and the race-weekend logistics.",
+  "verdict": "Enter if you want a well-supported half marathon by the beach in Bali with a generous time limit. The 2026 race, the first run as a half marathon, drew about 4,500 to 5,000 runners, gave the half 3 hours 45 minutes, and put nine water stations and nine medical posts on a course kept clear of traffic from 4am to 8.30am. The catch is the air and the price. Before the start Ngurah Rai airport recorded 27°C with a 25°C dew point, reaching 29°C by the cut-off, and foreigners pay Rp1,490,000 for the 2027 half. Start conservatively, use the sponges at 15 km, and enter early: two categories sold out in 2026.",
+  "at_a_glance": {
+    "heading": "The 2026 half marathon in numbers",
+    "rows": [
+      {
+        "label": "Date",
+        "value": "Sunday 8 February 2026, the first edition as a half marathon. Next: Sunday 7 February 2027"
+      },
+      {
+        "label": "Field",
+        "value": "About 4,500 to 5,000 runners from 30 to 34 countries; about 1,500 in the half marathon"
+      },
+      {
+        "label": "Start times",
+        "value": "Half marathon 4.45am, 10 km 5.15am, 5 km 5.30am; start line closed 10 minutes after the gun"
+      },
+      {
+        "label": "Cut-offs",
+        "value": "Half marathon 3 hours 45 (9.7 km by 1:55, 17.4 km by 3:05), 10 km 2 hours, 5 km 1 hour 30"
+      },
+      {
+        "label": "Weather before the start",
+        "value": "27°C, dew point 25°C, 89% humidity, wind 10 knots (4.30am)"
+      },
+      {
+        "label": "Weather at the 8.30am cut-off",
+        "value": "29°C, 79% humidity"
+      },
+      {
+        "label": "Course",
+        "value": "Loop from Mertasari Beach: out and back west towards Serangan, then out and back north along the Sanur coast"
+      },
+      {
+        "label": "Aid",
+        "value": "Nine water stations passed about 17 times; fruit and sponges at about 15 km and 17 km"
+      },
+      {
+        "label": "Medical",
+        "value": "Nine medical posts and four ambulances on the half-marathon map"
+      },
+      {
+        "label": "Roads",
+        "value": "Traffic diverted from the course roads from 4am to 8.30am"
+      },
+      {
+        "label": "Finisher items",
+        "value": "Medal for all finishers inside the limit; finisher tee for the half marathon"
+      },
+      {
+        "label": "Race packs",
+        "value": "Friday and Saturday, 6 and 7 February; no race-day collection"
+      },
+      {
+        "label": "2027 entry (normal sale)",
+        "value": "Rp1,490,000 half marathon (open international), Rp990,000 (national), Rp460,000 5 km"
+      }
+    ]
+  },
   "sections": [
     {
-      "heading": "The 2026 Edition",
+      "heading": "The Course: Out Towards Serangan, Then Up the Sanur Coast",
       "paragraphs": [
-        "The 2026 race was held on Sunday 8 February at Mertasari Beach in Sanur, over 5 km, 10 km and a 21 km half marathon [1]. Around 5,000 runners took part, from across Indonesia and abroad [1].",
-        "Reports differ slightly on the exact figure: the organisers' own account gives 4,500 runners from 34 countries [2]. Either way, it is a substantial field for an event of its age, and a notably international one."
+        "All three races started and finished at Mertasari Beach in Sanur, according to the organiser and the Denpasar city government [1][2]; detikBali named the partner hotel, Prama Sanur Beach Bali, as the start and finish [3]. The organiser said the route ran along the Sanur coast as far as Serangan and would be cleared of traffic [4].",
+        "On the organiser's 2026 half-marathon map, the first 13 km are an out-and-back heading west, with a loop at the far end about 3 km west of the start; the 3 km and 11 km markers stand on the same spot, as do the 4 km and 9 km markers [5]. The course then turns north for a second out-and-back, reaching its far point at 16 km, about 2.5 km north of the start, and comes back south to the finish [5]. The roads on the traffic notice included the Ngurah Rai Bypass, Jalan Pulau Serangan, the Pesanggaran junction, Jalan Mertasari, Jalan Cemara and Jalan Danau Poso [5].",
+        "The 10 km and 5 km stay on the Sanur side and do not go as far west as the half marathon's loop [5]. The organiser markets the 2027 race as flat, fast and a sunrise race, and calls it Bali's first half marathon with beach vibes [6]."
       ]
     },
     {
-      "heading": "Beachfront Bali, Without the Crowds",
+      "heading": "The Weather: 27°C and a Sea Breeze Before Dawn",
       "paragraphs": [
-        "The event bills itself as Bali's first half marathon with a beach setting [2], and Mertasari is the reason. Sanur, on the island's south-east coast, is the quieter, more residential alternative to Kuta and Seminyak, with a long beachfront path and calmer water.",
-        "For a travelling runner, that makes it one of the more appealing destination halves in the region: an early race by the sea, followed by a few days somewhere noticeably less hectic than the rest of southern Bali."
+        "Ngurah Rai airport, about 10 km west of the start, recorded 27°C at 4.30am on race morning, with a dew point of 25°C, 89% humidity and a 10-knot wind [7]. From 5am to 6.30am it held at 27°C with 84% humidity, while the wind eased from 9 knots to 5 [7].",
+        "Then it warmed slowly: 28°C at 7.30am and 8am, and 29°C with 79% humidity at 8.30am, when the half-marathon limit ran out [7]. No rain was reported in the observations [7].",
+        "A dew point of 24°C to 25°C is heavy air to run in: sweat evaporates slowly, so the breeze at the start helps less than it feels. A runner finishing the half in two and a half hours was done at about 7.15am, in 27°C air; a runner using the whole limit finished at 8.30am, in 29°C [8][7]."
       ]
     },
     {
-      "heading": "Who Runs It",
+      "heading": "Start Times, Cut-offs and Aid Stations",
       "paragraphs": [
-        "The organising committee was headed by I Gusti Bagus Surya, general manager of Prama Sanur Beach Bali, with the support of the Denpasar city government [1]. RajaLARI is the race organiser [2].",
-        "Official backing was visible: the 2026 race was opened by Governor Wayan Koster [1], and officials said they hoped it would become an annual international fixture and an icon of sport tourism for Denpasar [1]. That kind of civic commitment usually means road closures and logistics are taken seriously.",
-        "The finisher medal carries the theme of Tri Hita Karana, the Balinese philosophy of harmony between people, nature and the divine [2] -- a small touch, but one that gives the race a sense of place."
+        "The organiser's race-time page, first posted in January 2026, gives a 4.45am start for the half marathon, 5.15am for the 10 km and 5.30am for the 5 km fun run, with the race village open from 3.30am [8]. The launch announcement in November 2025 had given 4.30am, 5.30am and 6am [9]. The start line closed 10 minutes after the gun, or 5 minutes for the 5 km, and anyone not across it by then was recorded as a non-starter [10].",
+        "Cut-offs were 3 hours 45 minutes for the half marathon, 2 hours for the 10 km and 1 hour 30 for the 5 km, with intermediate cut-offs at 9.7 km (1:55) and 17.4 km (3:05) on the half and at 6.4 km (1:20) on the 10 km, all timed from the gun [10]. Runners who miss an intermediate cut-off are stopped and taken back to the race village, and finishers outside the limit get no medal [8][10].",
+        "The rules promise water every 2 to 3 km [10]. The half-marathon map shows nine water stations, each with medics, and most sit on stretches run in both directions, so a runner passes water about 17 times, with the longest gap about 2.4 km [5]. A fruit station and a sponge station stand together at about 15 km and are passed again at about 17 km [5]. The organiser said it aimed to cut plastic use [4]."
       ]
     },
     {
-      "heading": "What to Expect in 2027",
+      "heading": "Roads and Medical Cover",
       "paragraphs": [
-        "The 2027 edition is scheduled for Sunday 7 February, again over 5 km, 10 km and the half marathon, with entry from Rp490,000 [3].",
-        "That is one day earlier in the calendar than 2026 and keeps the event in its established early-February slot. February is inside Bali's wet season, so expect humidity and the possibility of rain rather than dry heat."
+        "The organiser's traffic notice asked drivers to avoid the roads on the course from 4am to 8.30am on race morning [5], and detikBali reported the same window [3]. Under the rules, road safety is controlled by the police and the transport department [10].",
+        "The half-marathon map marks nine medical posts, two of them in tents, and four ambulances, along with prayer rooms for men and women at the first water station [5]. Medical staff can stop a runner they judge unfit to continue, and checkpoints on the course are used to disqualify anyone who cuts it [10]."
       ]
     },
     {
-      "heading": "Should You Enter?",
+      "heading": "The Field: Bigger Than Planned",
       "paragraphs": [
-        "Yes, if you want a destination half marathon in a genuinely attractive setting. The beachfront course, the international field and Sanur's calmer character make it an easy race to build a short trip around.",
-        "It is not a race for a fast time: the event is young, the course is built for atmosphere, and February weather in Bali is unpredictable. Come for the setting and the occasion.",
-        "This review is compiled from published reporting on the previous edition and the organisers' own announcements. It is not a first-hand race report, and nobody from this site ran the race."
+        "2026 was the first edition run as a half marathon; the partner hotel's general manager, I Gusti Bagus Surya, said it grew out of the 2025 Sanur KulineRun [11]. It was bigger than planned. The organiser counted about 4,500 runners, from 34 countries in one report and about 30 in another, against an initial target of 3,000, and said two categories sold out [12][1]. Its split of about 1,500 in the half marathon, 1,500 in the 10 km and 2,000 in the fun run adds up to 5,000, the figure the city gave [12][2].",
+        "Foreign runners came mostly from Australia and Europe, with some from Africa including Kenya, according to the organiser [12]. Prizes are decided on gun time, three deep for each sex; the open international half-marathon category is open to foreigners, while the national and masters 40+ categories are for Indonesian citizens [10][13]. Bali's governor, Wayan Koster, and Denpasar's deputy mayor ran the 5 km [2], and the organiser estimated that 15,000 people came out to watch [11]."
       ]
+    },
+    {
+      "heading": "Race Weekend Logistics",
+      "paragraphs": [
+        "Race packs were collected on Friday and Saturday, 6 and 7 February, at an expo with sponsors and local stalls [1], held at the race village at Prama Sanur Beach Bali according to the launch announcement [9]. Packs could not be collected on race day or posted, except to runners who bought a room package, but a representative could collect one with a signed authorisation letter [10].",
+        "The pack held a race jersey, a bib with timing chip, a string bag and sponsor products, and half-marathon finishers also got a finisher tee [9][13]. Entry fees are non-refundable, and you cannot transfer your bib or change category [10]. Minimum ages were 16 for the half marathon, 14 for the 10 km and 12 for the 5 km [10].",
+        "The race was part of Denpasar's city anniversary [12], and the hotel's manager said it filled rooms in what is usually a low season in Sanur [4]."
+      ]
+    },
+    {
+      "heading": "Should You Enter the 2027 Race?",
+      "paragraphs": [
+        "Yes, if you want a half marathon by the beach in Bali with a generous 3 hours 45 limit, water every couple of kilometres, sponges late in the race and traffic kept off the course. The 10 km and 5 km suit first-timers and families travelling with a runner.",
+        "Think twice if you want a personal best in cool air: it was already 27°C with a 25°C dew point before the start. Foreign runners also pay more, Rp1,490,000 for the 2027 half marathon against Rp990,000 in the national category [13].",
+        "The 2027 race is on Sunday 7 February [6]. The other 2027 normal-sale prices are Rp990,000 for the open international 10 km, Rp620,000 for the national 10 km and Rp460,000 for the 5 km fun run; 2027 start times had not been published when this was written [13].",
+        "Nobody from this site ran the race. This review draws on the organiser's route maps, rules and race-day notices, airport weather records, and reporting in Indonesian and English."
+      ]
+    }
+  ],
+  "pull_quotes": [
+    {
+      "quote": "Now we’ve upgraded it to a half-marathon.",
+      "attribution": "I Gusti Bagus Surya, general manager of Prama Sanur Beach Bali, to The Bali Sun",
+      "source_url": "https://thebalisun.com/international-sports-events-attracting-more-fitness-loving-tourists-to-bali-in-2026/"
     }
   ],
   "sources": [
     {
       "n": 1,
-      "label": "Sanur Bali International Half Marathon 2026 officially held, boosting Denpasar sport tourism",
-      "publisher": "Bali Portal News",
-      "url": "https://baliportalnews.com/2026/02/sanur-bali-international-half-marathon-2026-resmi-digelar-dorong-sport-tourism-denpasar/",
-      "type": "news"
+      "label": "Post-race report: 4,500 runners from 34 countries, start and finish at Mertasari, race-pack expo (in Indonesian)",
+      "publisher": "Sanur Bali International Half Marathon (organiser)",
+      "url": "https://sanurmarathon.com/sanur-bali-international-half-marathon-2026-diikuti-4-500-pelari-dari-34-negara/",
+      "type": "official"
     },
     {
       "n": 2,
-      "label": "Sanur Bali International Half Marathon -- official site",
-      "publisher": "RajaLARI",
+      "label": "Governor and deputy mayor start about 5,000 runners at Mertasari Beach (in Indonesian)",
+      "publisher": "Denpasar City Government",
+      "url": "https://denpasarkota.go.id/berita/gubernur-bali-dan-wawali-arya-wibawa-lepas-5000-pelari-di-sanur-bali-international-half-marathon-2026-260209",
+      "type": "news"
+    },
+    {
+      "n": 3,
+      "label": "Pre-race report: start and finish, field size and traffic management from 4am to 8.30am (in Indonesian)",
+      "publisher": "detikBali",
+      "url": "https://www.detik.com/bali/berita/d-8344534/sanur-bali-international-half-marathon-2026-diikuti-4-500-pelari-dari-30-negara",
+      "type": "news"
+    },
+    {
+      "n": 4,
+      "label": "Jersey launch: route to Serangan on cleared roads, plastic reduction and early registrations (in Indonesian)",
+      "publisher": "Sanur Bali International Half Marathon (organiser), from Update Bali",
+      "url": "https://sanurmarathon.com/peluncuran-jersey-sbihm-2026-usung-filosofi-tri-hita-karana/",
+      "type": "official"
+    },
+    {
+      "n": 5,
+      "label": "2026 route maps (half marathon, 10 km, 5 km) with water, medical and ambulance points, and the race-day traffic notice",
+      "publisher": "Sanur Bali International Half Marathon (organiser)",
+      "url": "https://sanurmarathon.com/our-scenic-routes/",
+      "type": "official"
+    },
+    {
+      "n": 6,
+      "label": "Official site: 2027 race date and the organiser's description of the race",
+      "publisher": "Sanur Bali International Half Marathon (organiser)",
       "url": "https://sanurmarathon.com/",
       "type": "official"
     },
     {
-      "n": 3,
-      "label": "Sanur Bali International Half Marathon 2027 event listing",
-      "publisher": "Indonesia Marathon",
-      "url": "https://indonesiamarathon.com/event/sanur-bali-international-half-marathon-2027",
-      "type": "aggregator"
+      "n": 7,
+      "label": "Half-hourly weather observations at Ngurah Rai International Airport (WADD), 8 February 2026",
+      "publisher": "Iowa Environmental Mesonet (airport METAR archive)",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=WADD&data=tmpc&data=dwpc&data=relh&data=sknt&data=wxcodes&year1=2026&month1=2&day1=8&year2=2026&month2=2&day2=9&tz=Asia%2FMakassar&format=onlycomma&latlon=no&missing=M&report_type=3&report_type=4",
+      "type": "other"
+    },
+    {
+      "n": 8,
+      "label": "Race times: start times, start limits, cut-offs and intermediate cut-offs (page first posted January 2026)",
+      "publisher": "Sanur Bali International Half Marathon (organiser)",
+      "url": "https://sanurmarathon.com/gun-time-cop-cot/",
+      "type": "official"
+    },
+    {
+      "n": 9,
+      "label": "Launch press conference: planned start times, race pack contents and race village (in Indonesian)",
+      "publisher": "Balinetizen",
+      "url": "https://www.balinetizen.com/berlari-dalam-harmoni-sanur-bali-international-half-marathon-2026-kembali-digelar/",
+      "type": "news"
+    },
+    {
+      "n": 10,
+      "label": "2026 rules and regulations",
+      "publisher": "Sanur Bali International Half Marathon (organiser)",
+      "url": "https://sanurmarathon.com/rules-regulation/",
+      "type": "official"
+    },
+    {
+      "n": 11,
+      "label": "After the 2026 race: spectator numbers and the event's origins",
+      "publisher": "The Bali Sun",
+      "url": "https://thebalisun.com/international-sports-events-attracting-more-fitness-loving-tourists-to-bali-in-2026/",
+      "type": "news"
+    },
+    {
+      "n": 12,
+      "label": "Post-race report: field size by category, sold-out categories and where runners came from (in Indonesian)",
+      "publisher": "Sanur Bali International Half Marathon (organiser)",
+      "url": "https://sanurmarathon.com/half-marathon-sanur-sukses-digelar-optimistis-masuk-kalender-event-internasional/",
+      "type": "official"
+    },
+    {
+      "n": 13,
+      "label": "FAQ for the 2027 race: entry fees, categories, prizes and race-pack contents",
+      "publisher": "Sanur Bali International Half Marathon (organiser)",
+      "url": "https://sanurmarathon.com/faq/",
+      "type": "official"
     }
   ],
   "faqs": [
     {
-      "question": "How many runners took part in the Sanur Bali International Half Marathon in 2026?",
-      "answer": "Around 5,000 runners took part on Sunday 8 February 2026 at Mertasari Beach, Sanur. The organisers' own account gives 4,500 runners from 34 countries, so the field was large and notably international for an event of its age."
+      "question": "What time does the Sanur Bali International Half Marathon start?",
+      "answer": "Early. For the 2026 race the organiser's race-time page gave 4.45am for the half marathon, 5.15am for the 10 km and 5.30am for the 5 km, with the race village open from 3.30am. The start line closed 10 minutes after the gun. Start times for the 7 February 2027 race had not been published."
     },
     {
-      "question": "Where does the Sanur Bali International Half Marathon take place?",
-      "answer": "On the beachfront at Mertasari in Sanur, on Bali's south-east coast. Sanur is the quieter, more residential side of southern Bali compared with Kuta and Seminyak, which makes it an easy base for a short running trip."
+      "question": "What is the cut-off at the Sanur Bali International Half Marathon?",
+      "answer": "Three hours 45 minutes in 2026, timed from the gun, with intermediate cut-offs at 9.7 km (1 hour 55) and 17.4 km (3 hours 5). The 10 km limit was two hours and the 5 km 90 minutes. Runners who miss an intermediate cut-off are stopped and taken back to the race village."
     },
     {
-      "question": "Who organises the Sanur Bali International Half Marathon?",
-      "answer": "RajaLARI organises the race with Prama Sanur Beach Bali, and the 2026 organising committee was headed by the hotel's general manager, I Gusti Bagus Surya. The Denpasar city government supports it, and Governor Wayan Koster opened the 2026 edition."
+      "question": "How hot is it at the Sanur Bali International Half Marathon?",
+      "answer": "Warm and humid. At 4.30am on race morning in 2026, Ngurah Rai airport recorded 27°C with a dew point of 25°C, 89% humidity and a 10-knot wind. It stayed at 27°C until 7am and reached 29°C by 8.30am, when the half marathon closed. No rain was reported."
+    },
+    {
+      "question": "Are roads closed for the Sanur Bali International Half Marathon?",
+      "answer": "For the morning, yes. In 2026 the organiser asked drivers to avoid the roads on the course from 4am to 8.30am, including the Ngurah Rai Bypass, Jalan Pulau Serangan, Jalan Mertasari and Jalan Danau Poso, and said the route would be cleared of traffic. Police and the transport department control road safety."
+    },
+    {
+      "question": "How much does the Sanur Bali International Half Marathon cost to enter?",
+      "answer": "For 2027, normal-sale prices are Rp1,490,000 for the open international half marathon, Rp990,000 for the national half marathon and the open international 10 km, Rp620,000 for the national 10 km and Rp460,000 for the 5 km fun run. The national categories are for Indonesian citizens only."
+    },
+    {
+      "question": "When do you collect the Sanur Bali International Half Marathon race pack?",
+      "answer": "In 2026, on Friday and Saturday, 6 and 7 February, at an expo at the race village at Prama Sanur Beach Bali. Packs could not be collected on race day or posted, except to runners who bought a room package, but a representative could collect one with a signed authorisation letter."
     }
   ],
-  "review_id": "sanur-bali-international-half-marathon-2027",
-  "entity_id": "sanur-bali-international-half-marathon-2027"
+  "editorial_notes": "Rewritten 2026-09-29 to the review template, about the previous edition (8 February 2026), the first run as a half marathon. Results are hosted by the timing company behind a Cloudflare bot check, which was not bypassed, so no winning times, placings or finisher counts are given. Start times come from the organiser's race-time page, created in January 2026 and since relabelled for 2027; the November 2025 launch had announced earlier times (4.30, 5.30, 6.00), noted in the text. Cut-offs, water spacing and entry rules come from the 2026 rules page. Water, medical and ambulance positions are read from the organiser's 2026 Google My Maps (KML); distances along the route are this site's measurement from that map. Field-size figures differ (about 4,500 from 34 or about 30 countries; about 5,000 from the city and from the organiser's own category split); both are given. The governor's 'tens of thousands of participants' is not used. Weather is from airport METAR observations, not a forecast. The entity's 'from IDR 490,000' price does not match the official 2027 FAQ (5 km Rp460,000). No runner's own account of the 2026 race was found. No rating.",
+  "published_at": "2026-09-28T12:00:00.000Z",
+  "last_updated": "2026-09-28",
+  "status": "active"
 }

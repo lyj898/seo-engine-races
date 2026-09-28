@@ -1,8 +1,18 @@
 {
   "category_id": "full-marathon",
   "region_id": "indonesia",
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Seven-hour marathon cut-off; the 2026 median finish was 5:27",
+    "Water every 2.5 km and medics along the route, per the organiser",
+    "Small marathon field: only 12 women finished in 2026",
+    "Full results posted and searchable on the official site"
+  ],
+  "cons": [
+    "1am marathon start in air at 94-100% humidity",
+    "Race-pack collection was criticised as disorganised in 2026",
+    "Route is published only a week before the race",
+    "The 5 km is untimed"
+  ],
   "excerpt_quotes": [],
   "research_highlights": [],
   "research_watchouts": [],

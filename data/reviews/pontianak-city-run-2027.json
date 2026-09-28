@@ -1,83 +1,233 @@
 {
-  "pull_quotes": [],
-  "editorial_notes": "Written about the PREVIOUS edition, from published reporting on it, to help a reader decide on the next one. No rating: the sources are news reports and organiser statements, which describe how an event was run, not how runners rated it. A score needs participant evidence -- race reports, runner blogs, attributed quotes -- and without it would be invention.",
-  "published_at": "2026-09-28T12:00:00.000Z",
-  "last_updated": "2026-09-28",
-  "status": "active",
+  "review_id": "pontianak-city-run-2027",
   "slug": "pontianak-city-run-2027",
-  "title": "Pontianak City Run 2027 Review: What the 2026 Edition Was Like",
-  "seo_title": "Pontianak City Run 2027 Review | West Kalimantan Marathon",
-  "meta_description": "Pontianak City Run review: about 6,000 runners in 2026, from Kenya, the Netherlands, Japan and Kuching. What that means for the 2027 race on 31 January.",
-  "dek": "An equator-city race that drew around 6,000 runners in 2026 -- including from Kenya, the Netherlands, Japan and across the border in Kuching -- and one of very few with a full marathon on Indonesian Borneo.",
-  "verdict": "Pontianak City Run has grown into a genuine regional destination race. The 2026 edition on Sunday 15 February drew around 6,000 runners [1], not only from West Kalimantan but from Jakarta, Surabaya, Makassar, Palembang and Bali, and internationally from Kuching, Kenya, the Netherlands and Japan [1]. The mayor described it as a draw for tourism, with runners arriving early and staying overnight [1]. Its rarest quality is the long category: a full marathon is unusual anywhere in Kalimantan, which makes this one of the few chances to run the distance on Indonesian Borneo.",
+  "entity_id": "pontianak-city-run-2027",
+  "title": "Pontianak City Run 2027 Review: What the 2026 Race Was Like",
+  "seo_title": "Pontianak City Run Review: 1am Marathon, Humidity, Cut-offs",
+  "meta_description": "Pontianak City Run review from the 2026 race: a 1am marathon start in 100% humidity, the city-loop course, a 7-hour cut-off, water every 2.5 km and how fast the field ran.",
+  "dek": "What it was like to run what the organiser calls West Kalimantan's first full marathon, in February 2026: the city and suburban course, the saturated pre-dawn air, the start times and cut-offs, how thin the field is behind the winners, and the race-weekend logistics.",
+  "verdict": "Enter if you want a small, unhurried marathon or a well-filled half on Indonesian Borneo and can race in saturated air. In 2026 only 72 runners finished the marathon, the median time was 5:27, and the seven-hour cut-off leaves room for walking; 539 finished the half. The catch is the humidity. At the 1am marathon start, Supadio airport recorded 26°C with a 25°C dew point, and humidity sat between 94% and 100% until after 7am, with almost no wind. Use every water station, which the organiser places every 2.5 km, start slower than your usual pace, and collect your race pack early in the window.",
+  "at_a_glance": {
+    "heading": "The 2026 race in numbers",
+    "rows": [
+      {
+        "label": "Date",
+        "value": "Sunday 15 February 2026, the eighth edition. Next: Sunday 31 January 2027"
+      },
+      {
+        "label": "Field",
+        "value": "About 6,000 runners (city's figure); 2,676 names in the published results"
+      },
+      {
+        "label": "Start times",
+        "value": "Marathon 1.00am, half marathon 4.00am, 10 km 5.30am, 5 km 5.40am (race listing)"
+      },
+      {
+        "label": "Cut-offs",
+        "value": "Marathon 7 hours, half marathon 3 hours 30, 10 km 2 hours 30, 5 km 1 hour 15"
+      },
+      {
+        "label": "Weather at the 1am start",
+        "value": "26°C, dew point 25°C, 94% humidity, wind 1 knot"
+      },
+      {
+        "label": "Weather at the 8am marathon cut-off",
+        "value": "26°C, 94% humidity; 29°C by 9am"
+      },
+      {
+        "label": "Course",
+        "value": "Start on Jalan MT Haryono, finish at Sirkuit SSA. Half marathon in the city centre; marathon adds the southern and eastern suburbs"
+      },
+      {
+        "label": "Aid",
+        "value": "Water every 2.5 km, medics along the route (organiser's route guide)"
+      },
+      {
+        "label": "Finishers",
+        "value": "72 marathon, 539 half marathon, 637 in the open and masters 10 km; the 5 km is untimed"
+      },
+      {
+        "label": "Winning marathon times",
+        "value": "2:38:41 (men), 3:39:18 (women)"
+      },
+      {
+        "label": "10th place, marathon",
+        "value": "3:35:32 (men); only 12 women finished"
+      },
+      {
+        "label": "Finisher items",
+        "value": "Medal for finishers inside the cut-off; finisher shirt for the half and full marathon"
+      },
+      {
+        "label": "Race packs",
+        "value": "Auditorium Untan, Thursday to Saturday, 12 to 14 February"
+      }
+    ]
+  },
   "sections": [
     {
-      "heading": "The 2026 Edition",
+      "heading": "The Course: City-Centre Loops, Then the Suburbs",
       "paragraphs": [
-        "The 2026 race was held on Sunday 15 February in Pontianak, the capital of West Kalimantan, with around 6,000 runners taking part [1]. It offered 5 km, 10 km and 21 km categories alongside a long-distance category [1].",
-        "Pontianak sits almost exactly on the equator, which shapes everything about racing there: hot, humid conditions year-round and a very early start to beat the heat."
+        "All four races started on Jalan MT Haryono and finished at the SSA circuit (Sirkuit SSA Pontianak), according to the organiser's 2026 route maps [1]; the city described the start and finish as in front of GOR Terpadu Ayani [2]. The half marathon stays in the city centre. It goes out along Jalan Ahmad Yani, loops through Jalan Gajah Mada, Jalan Patimura and Jalan Sudirman, and comes back by Jalan Dr Sutomo and Jalan Sultan Abdurrahman [1]. Its northernmost point, the 10 km marker, is the closest the course comes to the Kapuas River [1].",
+        "The marathon shares the half marathon's route to about 15 km, then leaves it. From Jalan Dr Wahidin it runs out through the southern and eastern suburbs, on Jalan Danau Sentarum, Jalan Parit Demang, Jalan Padat Karya and Jalan Sungai Raya Dalam, where the satellite image on the route map shows far more open ground, before coming back in along Jalan Ahmad Yani and Jalan Prof M Yamin to the finish [1].",
+        "The route is published late: the organiser's FAQ says it is announced one week before the race [3]. Under the 2027 rules, the published route is approved by the athletics federation (PASI), the traffic police and the city transport department [4]."
       ]
     },
     {
-      "heading": "Who Came, and From Where",
+      "heading": "The Weather: Saturated Air Before Dawn",
       "paragraphs": [
-        "The field was notably wide. Beyond West Kalimantan itself, runners came from Jakarta, Surabaya, Makassar, Palembang and Bali, and from abroad -- Kuching across the Malaysian border, as well as Kenya, the Netherlands and Japan [1].",
-        "Kenyan entrants are usually a sign that a race offers prize money worth travelling for, and the Kuching contingent reflects how close Pontianak is to Malaysian Sarawak. Both suggest a front of the field that is genuinely competitive."
+        "Supadio airport, roughly 12 km south-east of the start, recorded 26°C at 1am on race morning, with a dew point of 25°C, 94% humidity and a wind of 1 knot [5]. By 1.30am humidity was 100%, and mist was reported at 2am. It stayed at 24°C to 25°C, with humidity between 94% and 100%, until 7am; every reading from 5am to 6.30am was 24°C at 100% [5].",
+        "Then it warmed: 26°C at 7.30am and 8am, 29°C at 9am and 30°C at 10am, with humidity falling to 75% [5]. No rain was recorded between midnight and 10.30am [5].",
+        "A dew point of 24°C to 25°C means sweat barely evaporates at any pace, so the cool-sounding 24°C flatters less than it looks. The half marathon's 3 hours 30 limit ran out at 7.30am, before the temperature rose [6][5]. Marathon runners who needed the full seven hours finished around 8am, still in 26°C air at 94% humidity [6][5]."
       ]
     },
     {
-      "heading": "A Tourism Event as Much as a Race",
+      "heading": "Start Times, Cut-offs and Aid Stations",
       "paragraphs": [
-        "Mayor Edi Rusdi Kamtono framed the event in economic terms: runners arriving early and staying overnight, with hotels, restaurants and small businesses benefiting [1]. He also tied it to promoting the city during the Lunar New Year and Cap Go Meh celebrations [1].",
-        "That timing matters to a visitor. Pontianak has one of Indonesia's larger Chinese-Indonesian communities, and Cap Go Meh there is a major festival. A race that coincides with it is a reason to stay longer, and a reason to book accommodation early."
+        "The marathon started at 1am, the half marathon at 4am, the 10 km at 5.30am and the 5 km at 5.40am, according to the LariKu race listing [6]. Cut-offs were 7 hours for the marathon, 3 hours 30 for the half, 2 hours 30 for the 10 km and 1 hour 15 for the 5 km [6], the same limits the organiser has posted for 2027 [7]. The listing also gives intermediate cut-offs: for the marathon, 10 km in 1:30, 21 km in 3:30 and 35 km in 5:50; for the half, 12 km in 2:15 and 15 km in 2:35 [6].",
+        "The results point to the limits not being strictly applied: the published table includes one marathon time slower than seven hours, 7:07:49, and 20 half-marathon times slower than 3 hours 30, the slowest 4:32:16 [8]. The organiser's FAQ says runners who finish inside the cut-off get a medal, and that a late starter may still run but the cut-off still applies [3].",
+        "The organiser's route guide promises a water station every 2.5 km, a medical team along the route and public toilets at several points [1]. Half and full marathon runners also get a finisher shirt [6], and 10 km, 21 km and 42 km bibs carry a timing chip [4]. The 5 km is not timed: none of the 1,398 names in the 5 km results has a time [8]."
       ]
     },
     {
-      "heading": "What to Expect in 2027",
+      "heading": "How Fast the Field Is",
       "paragraphs": [
-        "The 2027 edition moves earlier, to Sunday 31 January, and is listed with 5 km, 10 km, a 21 km half marathon and a 42 km full marathon, with entry from Rp98,000 [2].",
-        "That is roughly two weeks earlier than 2026. Because the 2026 date was chosen partly around the Lunar New Year period [1], it is worth checking how the 2027 date sits against the festival calendar before planning a trip around both."
+        "The city put the 2026 field at about 6,000 runners [9], against a target of 8,000, and counted it as the eighth edition [2]; the history the organiser publishes includes a virtual race in 2021 [10]. The published results list 2,676 names, 1,398 of them in the untimed 5 km [8]. The mayor said runners came from Kuching and Kenya, and the organiser named the Netherlands, Japan, Malaysia and Kenya among the countries represented, alongside Jakarta, Surabaya, Makassar, Palembang and Bali [9].",
+        "The marathon was fast only at the very front. Samson Karega Kamau won in 2:38:41, from Evans Kiptoo Bomer in 2:41:45 and Dennis Mulwa Isika in 2:43:58; fourth was 2:54:15 and tenth 3:35:32 [8]. Veronica Vonny won the women's race in 3:39:18, the only woman under four hours, and just 12 women finished [8]. A 4:15 marathon would have placed fifth among the women [8].",
+        "Behind the leaders it is a slow race: 72 marathon finishers, 15 of them under four hours, a median time of 5:27:43, and 23 slower than six hours [8]. Official pacers ran marathon times from 4:36 to 5:11 and half-marathon times from 2:00 to 2:44 [8].",
+        "The half marathon was won in 1:13:59 by Irmansah and in 1:26:55 by Jackline Musyawa Nzivo, whose nearest rival was 21 minutes behind. Tenth place was 1:34:28 for men and 2:10:34 for women, and 70 of the 539 finishers broke two hours [8]. The 10 km was won in 36:20 and 48:54, with 637 finishers across the open and masters races [8]. The organiser said prize money totalled Rp129.8 million, with door prizes including a motorbike [2]; under the 2027 rules, winners must hold an account at the race's partner bank to be paid [4]."
       ]
     },
     {
-      "heading": "Should You Enter?",
+      "heading": "Race Weekend: Pack Collection, Parking and the Crowd",
       "paragraphs": [
-        "Yes, if you want a full marathon on Indonesian Borneo -- there are very few -- or a well-attended race with an international front end in an under-visited city. The low entry price makes it one of the better-value events of its size.",
-        "Go in expecting equatorial conditions. The heat and humidity will cost you time, and a full marathon here is a test of pacing and hydration more than of speed.",
-        "This review is compiled from published reporting on the previous edition and the organisers' own announcements. It is not a first-hand race report, and nobody from this site ran the race."
+        "Race packs were collected at Auditorium Untan on Jalan Moh. Isja: runner communities on Thursday 12 February, 5pm to 7.30pm, and everyone else on Friday and Saturday, 13 and 14 February, 1pm to 7.30pm, with proof of registration and an ID card [1]. On race morning runners parked at Masjid Mujahidin; GOR Terpadu Pangsuma was reserved for VIPs, medics, the committee and sponsors [1].",
+        "The main complaint reported after the race was pack collection. Agus Cung, who leads the Kerja Kejarun running community, which entered more than 50 runners, asked the committee to make it tidier and more efficient next time, and asked for more prizes; some members stayed away because the race fell so close to Chinese New Year [11].",
+        "Support on the course is organised by the city. The organiser said PKK women's groups had made up most of the crowd at past editions, and for 2026 it added the city drum band and a cheering contest along the route [2]. The mayor said many runners arrived early and stayed overnight, with the race timed ahead of Chinese New Year and Cap Go Meh [9].",
+        "Entries cannot be cancelled or transferred [3]. For 2027 the marathon requires previous marathon experience and a medical check-up within three months of the race, and the half marathon also requires a medical check-up [7]."
+      ]
+    },
+    {
+      "heading": "Should You Enter the 2027 Race?",
+      "paragraphs": [
+        "Yes, if you want a marathon on Indonesian Borneo with a seven-hour cut-off, few rivals and water every 2.5 km, or a half marathon busy enough to have runners around you. The full marathon was added only in 2025, and the organiser calls it the first in West Kalimantan [10]. With so few women in the marathon, a steady club runner has a real chance of a top-ten place.",
+        "Think twice if you want a fast time or a big-city marathon crowd, or if you have not raced in the tropics: a 1am start in 25°C air at close to 100% humidity, after little or no sleep, is hard on anyone.",
+        "The 2027 race is on Sunday 31 January [12]. The posted 2027 early-bird prices were Rp638,800 for the marathon, Rp498,800 for the half marathon and Rp328,000 for the 10 km, with cheaper options without the race jersey from Rp98,000 for the student 5 km [7]. Start times and the 2027 route had not been published when this was written; the organiser says the route comes out a week before the race [3].",
+        "Nobody from this site ran the race. This review draws on the organiser's route maps, rules and results, a race listing, airport weather records, and local reporting in Indonesian."
       ]
     }
   ],
+  "pull_quotes": [],
   "sources": [
     {
       "n": 1,
-      "label": "Pontianak City Run 2026 draws 6,000 runners; mayor on tourism and the economy",
-      "publisher": "ANTARA News Kalimantan Barat",
-      "url": "https://kalbar.antaranews.com/berita/689122/pontianak-city-run-2026-diikuti-6000-pelari-wali-kota-dorong-pariwisata-dan-ekonomi",
-      "type": "news"
+      "label": "2026 route maps, route guide, race-pack collection and parking notices",
+      "publisher": "Pontianak City Run (organiser)",
+      "url": "https://pontianakcityrun.com/informasi-lomba/panduan",
+      "type": "official"
     },
     {
       "n": 2,
-      "label": "Pontianak City Run 2027 event listing",
-      "publisher": "Indonesia Marathon",
-      "url": "https://indonesiamarathon.com/event/pontianak-city-run-2027",
+      "label": "Pre-race briefing: start and finish, target field, prize money and course support (in Indonesian)",
+      "publisher": "Pontianak City Government",
+      "url": "https://www.pontianak.go.id/pontianak-hari-ini/berita/Pontianak-City-Run-2026-Siap-Jadi-Magnet-Pelari-Dunia",
+      "type": "news"
+    },
+    {
+      "n": 3,
+      "label": "FAQ: route publication, cancellations and transfers, late starts and medals",
+      "publisher": "Pontianak City Run (organiser)",
+      "url": "https://pontianakcityrun.com/faq",
+      "type": "official"
+    },
+    {
+      "n": 4,
+      "label": "2027 race rules",
+      "publisher": "Pontianak City Run (organiser)",
+      "url": "https://pontianakcityrun.com/informasi-lomba/peraturan",
+      "type": "official"
+    },
+    {
+      "n": 5,
+      "label": "Half-hourly weather observations at Supadio Airport, Pontianak (WIOO), 15 February 2026",
+      "publisher": "Iowa Environmental Mesonet (airport METAR archive)",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=WIOO&data=tmpc&data=dwpc&data=relh&data=sknt&data=wxcodes&year1=2026&month1=2&day1=15&year2=2026&month2=2&day2=16&tz=Asia%2FJakarta&format=onlycomma&latlon=no&missing=M&report_type=3&report_type=4",
+      "type": "other"
+    },
+    {
+      "n": 6,
+      "label": "2026 race listing: start times, cut-offs, intermediate cut-offs and race-pack contents",
+      "publisher": "LariKu.info",
+      "url": "https://lariku.info/pontianak-city-run-2026",
       "type": "aggregator"
+    },
+    {
+      "n": 7,
+      "label": "2027 categories: cut-offs, prices, entry requirements and finisher items",
+      "publisher": "Pontianak City Run (organiser)",
+      "url": "https://pontianakcityrun.com/informasi-lomba/kategori",
+      "type": "official"
+    },
+    {
+      "n": 8,
+      "label": "2026 results for every category (searchable table)",
+      "publisher": "Pontianak City Run (organiser)",
+      "url": "https://pontianakcityrun.com/hasil-lomba",
+      "type": "official"
+    },
+    {
+      "n": 9,
+      "label": "Post-race report: about 6,000 runners, where they came from, and the mayor on tourism (in Indonesian)",
+      "publisher": "Pontianak City Government",
+      "url": "https://www.pontianak.go.id/pontianak-hari-ini/berita/Pontianak-City-Run-2026-Diikuti-6.000-Pelari,-Wali-Kota:-Dorong-Pariwisata-dan-Ekonomi",
+      "type": "news"
+    },
+    {
+      "n": 10,
+      "label": "History of the race, 2019 to 2026",
+      "publisher": "Pontianak City Run (organiser)",
+      "url": "https://pontianakcityrun.com/tentang-kami/sejarah",
+      "type": "official"
+    },
+    {
+      "n": 11,
+      "label": "A running community's verdict on the 2026 race (in Indonesian)",
+      "publisher": "Kalbar Digital",
+      "url": "https://www.kalbardigital.com/olahraga/597198109/pontianak-city-run-2026-sukses-digelar-puluhan-pelari-dari-komunitas-kejarun-ikuti-berbagai-kategori",
+      "type": "news"
+    },
+    {
+      "n": 12,
+      "label": "Official site: 2027 race date",
+      "publisher": "Pontianak City Run (organiser)",
+      "url": "https://pontianakcityrun.com",
+      "type": "official"
     }
   ],
   "faqs": [
     {
-      "question": "How many people ran Pontianak City Run in 2026?",
-      "answer": "Around 6,000 runners took part on Sunday 15 February 2026. They came from across West Kalimantan, from cities including Jakarta, Surabaya, Makassar, Palembang and Bali, and from abroad, including Kuching, Kenya, the Netherlands and Japan."
+      "question": "What time does the Pontianak City Run marathon start?",
+      "answer": "At 1am. In 2026 the marathon started at 1am, the half marathon at 4am, the 10 km at 5.30am and the 5 km at 5.40am, according to a race listing. With a seven-hour cut-off, the marathon closed around 8am. Start times for the 31 January 2027 race had not been published yet."
     },
     {
-      "question": "Why do international runners go to Pontianak City Run?",
-      "answer": "It is one of very few races on Indonesian Borneo with a full marathon, and the presence of Kenyan and Dutch runners in 2026 points to a competitive front of the field. Kuching in Malaysian Sarawak is also close, which brings runners across the border."
+      "question": "How humid is it at Pontianak City Run?",
+      "answer": "Very. At the 1am marathon start in 2026, Supadio airport recorded 26°C with a dew point of 25°C and 94% humidity, and humidity reached 100% by 1.30am. From 5am to 6.30am it was 24°C at 100%, with almost no wind. It warmed to 29°C by 9am."
     },
     {
-      "question": "What are conditions like at Pontianak City Run?",
-      "answer": "Hot and humid. Pontianak sits almost exactly on the equator, so temperatures stay high year-round and the race starts very early to limit the heat. Expect it to cost you time, and treat the full marathon as a test of pacing and hydration."
+      "question": "What are the cut-offs at Pontianak City Run?",
+      "answer": "In 2026, seven hours for the marathon, three and a half hours for the half marathon, two and a half hours for the 10 km and 75 minutes for the 5 km, with intermediate marathon cut-offs at 10 km, 21 km and 35 km. The organiser has posted the same limits for 2027."
+    },
+    {
+      "question": "How fast do you need to run to place at Pontianak City Run?",
+      "answer": "Fast only at the front. The 2026 marathon was won in 2:38:41 and 3:39:18, but tenth among the men was 3:35:32 and only 12 women finished. In the half marathon, tenth place was 1:34:28 for men and 2:10:34 for women. The median marathon time was 5:27:43."
+    },
+    {
+      "question": "Where do you collect the Pontianak City Run race pack?",
+      "answer": "In 2026, at Auditorium Untan on Jalan Moh. Isja in Pontianak: runner communities on Thursday 12 February, everyone else on Friday and Saturday, 13 and 14 February, 1pm to 7.30pm. You needed proof of registration and an ID card. On race morning, runners parked at Masjid Mujahidin."
     }
   ],
-  "review_id": "pontianak-city-run-2027",
-  "entity_id": "pontianak-city-run-2027"
+  "editorial_notes": "Rewritten 2026-09-29 to the review template, about the previous edition (15 February 2026). ANTARA, cited by the old review, was not used; its facts were re-checked against the Pontianak city government's own report. Start times and intermediate cut-offs come from the LariKu listing only (the organiser's 2026 pages have been replaced by 2027 pages and no archive exists); the overall cut-offs match the organiser's 2027 limits. Results were read from the organiser's searchable results table (2,676 rows; the 5 km is untimed); it does not say whether times are gun or chip, and nationality is not shown, so no winner's nationality is stated. The city says the start and finish were in front of GOR Terpadu Ayani; the route maps say Sirkuit SSA. The mayor's '41 km' is given as 42 km per the organiser's maps. Weather is from airport METAR observations, not a forecast. A 13-year-old half marathoner named in one report is not named. No runner's own account of the 2026 race was found. No rating.",
+  "published_at": "2026-09-28T12:00:00.000Z",
+  "last_updated": "2026-09-28",
+  "status": "active"
 }
