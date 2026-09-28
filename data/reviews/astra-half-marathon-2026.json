@@ -1,84 +1,261 @@
 {
-  "pull_quotes": [],
-  "editorial_notes": "Written about the PREVIOUS edition, from published reporting on it, to help a reader decide on the next one. No rating: the sources are news reports and organiser statements, which describe how an event was run, not how runners rated it. A score needs participant evidence -- race reports, runner blogs, attributed quotes -- and without it would be invention.",
-  "published_at": "2026-09-28T12:00:00.000Z",
-  "last_updated": "2026-09-28",
-  "status": "active",
+  "review_id": "astra-half-marathon-2026",
   "slug": "astra-half-marathon-2026",
-  "title": "Astra Half Marathon 2026 Review: What the 2025 Edition Was Like",
-  "seo_title": "Astra Half Marathon 2026 Review | BSD, Tangerang",
-  "meta_description": "Astra Half Marathon review: more than 5,000 runners at BSD in 2025, eight hydration points, twelve ambulances and cover for injuries. What to expect in 2026.",
-  "dek": "One of the better-resourced corporate races in Greater Jakarta: more than 5,000 runners in 2025, twelve ambulances on the route, eight hydration points and insurance for every entrant. Here is what the last edition was like.",
-  "verdict": "The Astra Half Marathon is a corporate race that puts real money into the runner experience. The 2025 edition on 30 November at Astra Biz Center, BSD, drew more than 5,000 runners across 5 km, 10 km and the half [1], and its published support is unusually thorough: twelve ambulances, seven mobile medics, eight hydration points, two fruit stations, two sponging stations and nine cheering areas [1], plus hospital cover for injuries and life insurance for every participant [1]. Part of ticket revenue went to disaster relief in Sumatra [1]. For a first half marathon in the Jakarta area, it is hard to find one better supported.",
+  "entity_id": "astra-half-marathon-2026",
+  "title": "Astra Half Marathon 2026 Review: What the 2025 Race Was Like",
+  "seo_title": "Astra Half Marathon Review: BSD Course, Humidity, Cut-offs",
+  "meta_description": "Astra Half Marathon review: the 2025 race at BSD City, 26°C and a 24°C dew point at the 5am start, a 3.5-hour cut-off, eight water stations, insurance, and who can enter.",
+  "dek": "What running the Astra Half Marathon in BSD City was like in 2025: the course, the humidity at the start, the aid and medical cover, the cut-offs, the pace at the front, and the entry rules that surprise visitors.",
+  "verdict": "Enter if you are an Indonesian runner who wants a well-supported half marathon in Greater Jakarta with a generous limit. The 2025 race drew more than 5,000 runners to BSD City, gave the half marathon 3.5 hours, and put eight water stations, two fruit and two sponge stations and twelve ambulances on the route, with every entrant insured. One runner called the course relatively flat and the marshalling strict. The catches: entry is for Indonesian citizens only, race packs are collected in central Jakarta rather than BSD, and the air is humid, 26°C with a 24°C dew point at the 5am start. Pace for the humidity and plan a Jakarta trip for your pack.",
+  "at_a_glance": {
+    "heading": "The 2025 half marathon in numbers",
+    "rows": [
+      {
+        "label": "Date",
+        "value": "Sunday 30 November 2025, Astra Biz Center, BSD City. Next: Sunday 29 November 2026"
+      },
+      {
+        "label": "Field",
+        "value": "More than 5,000 runners across the 5 km, 10 km and half marathon"
+      },
+      {
+        "label": "Start",
+        "value": "5am; the event ran from 4am to noon"
+      },
+      {
+        "label": "Cut-offs",
+        "value": "Half marathon 3.5 hours, 10 km 2 hours, 5 km 1 hour"
+      },
+      {
+        "label": "Weather at the 5am start",
+        "value": "26°C, dew point 24°C, 89% humidity, wind 6 knots"
+      },
+      {
+        "label": "Weather at 8.30am",
+        "value": "30°C, 66% humidity"
+      },
+      {
+        "label": "Course",
+        "value": "Start and finish on Jl. BSD Boulevard Utara, with out-and-backs to Jl. BSD Grand Boulevard and west on Jl. BSD Boulevard Utara"
+      },
+      {
+        "label": "Aid",
+        "value": "8 water stations, 2 fruit stations, 2 sponge stations, 12 ambulances, 7 mobile medics"
+      },
+      {
+        "label": "Insurance",
+        "value": "Hospital cover up to Rp2.5 million for sports injuries; Rp25 million life cover"
+      },
+      {
+        "label": "Men's half-marathon winner",
+        "value": "Agus Prayogo, 1:18:19"
+      },
+      {
+        "label": "Entry fee (2025)",
+        "value": "Rp600,000 half marathon, Rp450,000 10 km, Rp395,000 5 km"
+      },
+      {
+        "label": "Finisher items",
+        "value": "Medal and e-certificate for all; finisher jacket for the half marathon only"
+      },
+      {
+        "label": "Who can enter",
+        "value": "Indonesian citizens only"
+      }
+    ]
+  },
   "sections": [
     {
-      "heading": "The 2025 Edition",
+      "heading": "The Course: Out-and-Backs on BSD City's Boulevards",
       "paragraphs": [
-        "The 2025 race was held on 30 November at Astra Biz Center in BSD, Tangerang, and drew more than 5,000 runners across three distances: 5 km, 10 km and the half marathon [1]. It ran under the theme \"Together in Motion\" [1].",
-        "BSD is a planned township south-west of Jakarta, and its wide, orderly roads are a large part of why it has become a popular base for road races in the region."
+        "The half marathon starts and finishes on Jl. BSD Boulevard Utara, where it meets Jl. BSD Utama, beside Astra Biz Center [1]. It loops north along Jl. Lkr. Botanika Selatan and Jl. Lkr. Botanika Utara to Jl. Bumi Botanika at about 4 km, then turns south down Jl. BSD Raya Pusat to Jl. BSD Grand Boulevard, where it turns back between 8 and 9 km [1].",
+        "The second half has a long out-and-back west along Jl. BSD Boulevard Utara, with the turn at 13 km, before returning north on Jl. BSD Raya Pusat, east along Jl. Bumi Botanika at 16 to 17 km, back down Jl. Lkr. Botanika Utara at 18 km and home through Jl. Majorie Ave at 20 km [1]. Several roads, including Jl. BSD Raya Pusat and Jl. Lkr. Botanika Utara, are run twice [1].",
+        "The official map has no elevation profile [1]. One half-marathon runner described the route as relatively flat [2]. The organiser's route file is labelled as a PASI-measured revision dated 2 October 2025 [3], and for 2026 the routes for all three distances have been certified by the national athletics federation, PB PASI [4]."
       ]
     },
     {
-      "heading": "The Support on the Course",
+      "heading": "The Weather: Humid at the Start, 30°C by 8.30am",
       "paragraphs": [
-        "What stands out is the scale of the published support. The organisers listed twelve ambulances positioned along the route and at race central, seven mobile medics, eight hydration points, two fruit stations and two sponging stations [1].",
-        "Sponging stations are worth noting specifically. In Jakarta's heat and humidity, somewhere to cool down with water is as useful as somewhere to drink it.",
-        "There were also nine cheering areas along the route [1], which matters more than it sounds on a course through a business district that would otherwise be quiet at dawn."
+        "Soekarno-Hatta airport, about 18 km north of the start, recorded 26°C at 5am on race morning, with a dew point of 24°C, 89% humidity and a 6-knot wind [5]. It held at 26°C until 6am, then climbed: 28°C at 7am, 29°C at 7.30am and 30°C, with 66% humidity, at 8.30am [5].",
+        "A dew point of 24°C means sweat evaporates slowly, so expect to run slower than on a cool morning. Even so, the reports from the day were positive: detik described the weather as friendly from the 5am start [6], the men's winner, Agus Prayogo, called it good [6], and one runner wrote that it was comfortable [2].",
+        "The race started at 5am [6]. If the half marathon set off then, its 3.5-hour cut-off fell at 8.30am, so a runner near the limit finished in 30°C air [5]."
       ]
     },
     {
-      "heading": "Insurance and Charity",
+      "heading": "Aid Stations, Cooling and Medical Cover",
       "paragraphs": [
-        "Every entrant was covered: hospital compensation of up to Rp2.5 million for sports injuries, and Rp25 million of life insurance for all participants [1]. It is the kind of detail most races leave out, and a reasonable signal of how seriously the organisers take the event.",
-        "Under a campaign called \"We Run, We Care, We Share\", part of ticket sales was donated to communities affected by disasters in Sumatra [1]. Prizes across the event were worth Rp200 million in total, including a Honda ICON e electric scooter [1]."
+        "The organiser listed eight hydration points, two fruit stations, two sponging stations, nine cheering areas, seven mobile medics and twelve ambulances on the route and at the race centre [7]. The official map shows the eight water stations spread around the course, with the fruit and sponge stations on Jl. BSD Raya Pusat near 11 km and on Jl. Lkr. Botanika Utara near 18 km [1]. detik reported water every two kilometres [6]; the organiser's 2026 FAQ gives the spacing as every 2.5 km, with an ambulance every 5 km [8].",
+        "One runner singled out the fruit and cold sponge stations and called the water stations complete [2]. Every entrant was insured through Astra Life: up to Rp2.5 million of hospital costs for sports injuries, including muscle injuries, dehydration and heat stroke, and Rp25 million of life cover [7]. Halodoc also offered participants a health screening before the race [7]."
       ]
     },
     {
-      "heading": "What to Expect in 2026",
+      "heading": "Cut-offs, Roads and Marshals",
       "paragraphs": [
-        "The 2026 edition is scheduled for Sunday 29 November, again at Astra Biz Center and again over 5 km, 10 km and the half marathon [2]. It runs under a new theme, \"Berkarya dan Tumbuh Bersama Indonesia\", as part of the Astra group's run-up to its seventieth anniversary [2].",
-        "Nothing published suggests the support model is changing, though the specifics -- number of hydration points, insurance terms -- are announced each year and worth checking once they appear."
+        "The cut-offs were 3.5 hours for the half marathon, 2 hours for the 10 km and 1 hour for the 5 km in the 2024 rules [9], and they are the same in the 2026 FAQ [8]. Finishing inside the limit mattered in 2025: only runners who met the cut-off were eligible for the prize draw, worth Rp200 million in total and including a Honda ICON e electric scooter [7].",
+        "Agus Prayogo called the route steril (sterile) and said 2025 was the third year of taking part [10]. A runner wrote that marshalling was strict and traffic was not a problem [2]. For 2026 the organiser says it is preparing traffic management for the race, and runners must stay on the official route and pass every checkpoint or risk disqualification [4][8]."
       ]
     },
     {
-      "heading": "Should You Enter?",
+      "heading": "How Fast the Field Is",
       "paragraphs": [
-        "Yes, particularly for a first half marathon. The combination of a flat planned township, generous on-course support and insurance cover makes it one of the lower-risk ways to run the distance in the Jakarta area.",
-        "Experienced runners chasing a fast time will find it a solid, well-run race rather than a destination one. It is at its best as a dependable, well-supported half on familiar roads.",
-        "This review is compiled from published reporting on the previous edition and the organisers' own announcements. It is not a first-hand race report, and nobody from this site ran the race."
+        "Agus Prayogo, a national athlete and the race's brand ambassador, won the men's half marathon [10] in 1:18:19 [11]. Further down the field, one runner who had aimed for 1:40 finished in 1:38 [12].",
+        "Prize money is paid three deep in four separate categories: men and women, each split into Astra employees and the public. In 2025 the half marathon paid Rp10 million, Rp8 million and Rp6 million; the 10 km Rp7 million, Rp6 million and Rp4 million; and the 5 km Rp4 million, Rp3 million and Rp2 million [13]. Winners are decided on gun time [8]."
       ]
+    },
+    {
+      "heading": "Race Weekend Logistics",
+      "paragraphs": [
+        "Race packs were not collected in BSD. In 2025 collection was on Friday and Saturday, 28 and 29 November, from 10am to 7pm at Catur Dharma Hall on the fifth floor of Menara Astra on Jl. Jenderal Sudirman in central Jakarta, and you needed your confirmation email and ID [13]. For 2026 the organiser says there is no race-day collection and no delivery [8].",
+        "The event ran from 4am to noon [13], and the start area was already filling at 4am [10]. For 2026 runner parking is at QBig Mall [8]. Entry cost Rp600,000 for the half marathon, Rp450,000 for the 10 km and Rp395,000 for the 5 km in 2025 [13]; the 2026 fees are Rp650,000, Rp500,000 and Rp400,000 [8]. Every finisher got a medal and an e-certificate, and half-marathon finishers also got a finisher jacket [13].",
+        "Entry is limited to Indonesian citizens: the 2024 rules said so [9], and the 2026 FAQ opens every distance only to Indonesian citizens aged 13 to 70 [8]. Entries cannot be refunded or transferred [8]."
+      ]
+    },
+    {
+      "heading": "Should You Enter the 2026 Race?",
+      "paragraphs": [
+        "Yes, if you are an Indonesian runner looking for a well-supported half marathon near Jakarta, especially a first one: the 3.5-hour limit is generous, the aid and medical cover are thorough, and official pacers are planned for sub-2:00, sub-2:30 and sub-3:00 [8].",
+        "Think twice if you are not an Indonesian citizen, because you cannot enter, or if a trip into central Jakarta to collect your pack is a problem. If you want a fast time, remember that the dew point was already 24°C at the 2025 start.",
+        "The 2026 race is on Sunday 29 November at Astra Biz Center [8]. Flag-off times for each distance will be published in the race guide [8], and the half-marathon route file on the 2026 page is still the 2025 revision [14][3], so check the final route when the guide appears.",
+        "Nobody from this site ran the race. This review draws on the organiser's race pages, rules and route maps, airport weather records, Indonesian news reports, and two runners' own accounts."
+      ]
+    }
+  ],
+  "pull_quotes": [
+    {
+      "quote": "Comfortable weather, a relatively flat route, full water stations including fruit and cold sponge stations",
+      "attribution": "A half-marathon runner at the 2025 race, on Instagram (translated from Indonesian)",
+      "source_url": "https://www.instagram.com/p/DRrq1ayEpzL/"
+    },
+    {
+      "quote": "The route was clear of traffic and the weather helped",
+      "attribution": "Agus Prayogo, men's half-marathon winner in 2025, to Investortrust (translated from Indonesian)",
+      "source_url": "https://investortrust.id/lifestyle/87058/meriah-astra-half-marathon-2025-gaungkan-gaya-hidup-sehat-dan-kepedulian-sesama"
     }
   ],
   "sources": [
     {
       "n": 1,
-      "label": "Astra Half Marathon 2025 \"Together in Motion\" draws thousands of runners -- official press release",
-      "publisher": "Astra International",
-      "url": "https://www.astra.co.id/en/press-release/astra-half-marathon-2025-together-in-motion-draws-thousands-of-runners-promoting-a-healthy-and-sustainable-lifestyle",
+      "label": "Official half-marathon route map with water, fruit, sponge and medical stations",
+      "publisher": "Astra Runners (organiser)",
+      "url": "https://be-astrarunners.astra.co.id/storage/186/Map-Image-2.png",
       "type": "official"
     },
     {
       "n": 2,
-      "label": "Astra Half Marathon 2026 event listing",
-      "publisher": "Kalender Lari",
-      "url": "https://kalenderlari.com/events/astra-half-marathon-2026/",
-      "type": "aggregator"
+      "label": "A runner's account of the 2025 half marathon (in Indonesian)",
+      "publisher": "Instagram",
+      "url": "https://www.instagram.com/p/DRrq1ayEpzL/",
+      "type": "social"
+    },
+    {
+      "n": 3,
+      "label": "Half-marathon route file (GPX), labelled as the 2 October 2025 PASI revision",
+      "publisher": "Astra Runners (organiser)",
+      "url": "https://drive.google.com/uc?export=download&id=1h9h5DK05Hq7ypQiLOVdS3kBSYXLD7-ud",
+      "type": "official"
+    },
+    {
+      "n": 4,
+      "label": "Report on the 2026 race: PB PASI route certification and traffic management (in Indonesian)",
+      "publisher": "Infobanknews",
+      "url": "https://infobanknews.com/astra-half-marathon-2026-harga-tiket-jadwal-dan-cara-daftar",
+      "type": "news"
+    },
+    {
+      "n": 5,
+      "label": "Hourly weather observations at Soekarno-Hatta International Airport (WIII), 30 November 2025",
+      "publisher": "Iowa Environmental Mesonet (airport METAR archive)",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=WIII&data=tmpc&data=dwpc&data=relh&data=sknt&data=wxcodes&year1=2025&month1=11&day1=30&year2=2025&month2=12&day2=1&tz=Asia%2FJakarta&format=onlycomma&latlon=no&missing=M&report_type=3&report_type=4",
+      "type": "other"
+    },
+    {
+      "n": 6,
+      "label": "Report on the 2025 race: start time, weather, water stations (in Indonesian)",
+      "publisher": "detik Sport",
+      "url": "https://sport.detik.com/sportstyle/d-8236558/5-000-pelari-ramaikan-astra-half-marathon-2025-di-bsd-city",
+      "type": "news"
+    },
+    {
+      "n": 7,
+      "label": "Astra press release on the 2025 race: field, facilities, insurance and prizes",
+      "publisher": "Astra International (organiser)",
+      "url": "https://www.astra.co.id/en/press-release/astra-half-marathon-2025-together-in-motion-draws-thousands-of-runners-promoting-a-healthy-and-sustainable-lifestyle",
+      "type": "official"
+    },
+    {
+      "n": 8,
+      "label": "Race FAQ for 2026: eligibility, cut-offs, aid spacing, race-pack rules, parking, fees and pacers (in Indonesian)",
+      "publisher": "Astra Runners (organiser)",
+      "url": "https://astrarunners.astra.co.id/faq",
+      "type": "official"
+    },
+    {
+      "n": 9,
+      "label": "2024 race terms and conditions: eligibility and cut-offs (in Indonesian)",
+      "publisher": "Astra Runners (organiser)",
+      "url": "https://astrahalfmarathon.race.id/syarat-ketentuan/",
+      "type": "official"
+    },
+    {
+      "n": 10,
+      "label": "Report on the 2025 race: start area, men's winner, route (in Indonesian)",
+      "publisher": "Investortrust",
+      "url": "https://investortrust.id/lifestyle/87058/meriah-astra-half-marathon-2025-gaungkan-gaya-hidup-sehat-dan-kepedulian-sesama",
+      "type": "news"
+    },
+    {
+      "n": 11,
+      "label": "Report on the 2025 race with the men's winning time (in Indonesian)",
+      "publisher": "GadgetDiva",
+      "url": "https://www.gadgetdiva.id/life/astra-half-marathon-2025-gaungkan-gerak-sehat-berkelanjutan",
+      "type": "news"
+    },
+    {
+      "n": 12,
+      "label": "A runner's account of the 2025 half marathon",
+      "publisher": "Instagram",
+      "url": "https://www.instagram.com/p/DRq7oVTD2NZ/",
+      "type": "social"
+    },
+    {
+      "n": 13,
+      "label": "2025 race page: fees, finisher items, race-pack collection, event hours and prize tables (archived copy, 7 October 2025)",
+      "publisher": "Astra Runners (organiser)",
+      "url": "https://web.archive.org/web/20251007110243/https://astrarunners.astra.co.id/half-marathon",
+      "type": "official"
+    },
+    {
+      "n": 14,
+      "label": "2026 race page with route maps and route files",
+      "publisher": "Astra Runners (organiser)",
+      "url": "https://astrarunners.astra.co.id/half-marathon",
+      "type": "official"
     }
   ],
   "faqs": [
     {
-      "question": "How many people ran the Astra Half Marathon in 2025?",
-      "answer": "More than 5,000 runners took part on 30 November 2025 at Astra Biz Center in BSD, Tangerang, across the 5 km, 10 km and half marathon. It ran under the theme \"Together in Motion\"."
+      "question": "Can foreigners run the Astra Half Marathon?",
+      "answer": "No. The race is open only to Indonesian citizens. The 2024 rules required participants to be Indonesian nationals, and the 2026 FAQ opens the half marathon, 10 km and 5 km only to Indonesian citizens aged 13 to 70. Visitors looking for a half marathon in the Jakarta area will need a different race."
     },
     {
-      "question": "What support is there on the Astra Half Marathon course?",
-      "answer": "In 2025 the organisers listed twelve ambulances, seven mobile medics, eight hydration points, two fruit stations, two sponging stations and nine cheering areas. That is unusually thorough for a race of this size and particularly useful in Jakarta's heat."
+      "question": "What is the cut-off at the Astra Half Marathon?",
+      "answer": "Three and a half hours for the half marathon, two hours for the 10 km and one hour for the 5 km. Those limits appear in both the 2024 rules and the 2026 FAQ. In 2025 only runners who finished inside the cut-off were eligible for the Rp200 million prize draw."
     },
     {
-      "question": "Are runners insured at the Astra Half Marathon?",
-      "answer": "Yes. In 2025 every participant was covered with hospital compensation of up to Rp2.5 million for sports injuries and Rp25 million of life insurance. Terms for the 2026 edition are announced separately and are worth checking once published."
+      "question": "How hot is the Astra Half Marathon?",
+      "answer": "Warm and humid at dawn. At the 5am start in 2025, Soekarno-Hatta airport recorded 26°C with a 24°C dew point and 89% humidity. It reached 28°C by 7am and 30°C by 8.30am. The winner and a runner still called the weather good, but pace for the humidity."
+    },
+    {
+      "question": "Where do you collect the Astra Half Marathon race pack?",
+      "answer": "In central Jakarta, not in BSD. In 2025 packs were collected on the Friday and Saturday before the race at Catur Dharma Hall, Menara Astra, on Jl. Jenderal Sudirman, with your confirmation email and ID. The 2026 FAQ says there is no race-day collection and no delivery."
+    },
+    {
+      "question": "Is the Astra Half Marathon course flat?",
+      "answer": "One runner described it as relatively flat. The half marathon loops through BSD City from Astra Biz Center, with out-and-backs on Jl. BSD Raya Pusat and Jl. BSD Boulevard Utara. The official map has no elevation profile. Agus Prayogo won the men's race in 1:18:19 in 2025."
     }
   ],
-  "review_id": "astra-half-marathon-2026",
-  "entity_id": "astra-half-marathon-2026"
+  "editorial_notes": "Rewritten 2026-09-28 about the previous race (Sunday 30 November 2025). Weather is from airport METAR observations, not a forecast. Full results sit on RaceTec behind a bot check, so there is no top ten, finisher count or women's winner. No per-distance flag-off times were published for 2025; detik gives a 5am start. The 2025 cut-offs are taken from the 2024 rules and the 2026 FAQ, which match. detik reported water every 2 km, the organiser's FAQ says every 2.5 km, and the official map shows eight water stations; the map figure is used. The runners quoted from Instagram are not named. No rating.",
+  "published_at": "2026-09-28T12:00:00.000Z",
+  "last_updated": "2026-09-28",
+  "status": "active"
 }

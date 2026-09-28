@@ -2,60 +2,248 @@
   "review_id": "vnexpress-marathon-hanoi-midnight-2026",
   "slug": "vnexpress-marathon-hanoi-midnight-2026",
   "entity_id": "vnexpress-marathon-hanoi-midnight-2026",
-  "title": "VnExpress Marathon Hanoi Midnight 2026 Review: What the 2025 Edition Was Like",
-  "seo_title": "VnExpress Marathon Hanoi Midnight 2026 Review",
-  "meta_description": "VnExpress Marathon Hanoi Midnight review: 10,000 runners through the night of 29-30 November 2025 in cold weather, from Thien Quang Lake through central Hanoi.",
-  "dek": "Hanoi's night marathon drew 10,000 runners through the cold night of 29 to 30 November 2025, its fifth edition. Here is what it was like, ahead of 2026.",
-  "verdict": "VnExpress Marathon Hanoi Midnight is a night race through central Hanoi. The fifth edition, run through the night of 29 to 30 November 2025, drew 10,000 runners despite the cold [1]. The atmosphere stretched from Thien Quang Lake through the central streets [1]. Kenya's Ezekiel Kipruto Kemboi won the men's marathon in 2:24:20, and Pham Thi Hong Le won the women's in about 2:56, her 17th win in the VnExpress series, while leading a pack of sub-three-hour runners [1]. If you want a marathon under Hanoi's streetlights, this is the one.",
+  "title": "VnExpress Marathon Hanoi Midnight 2026 Review: What the 2025 Race Was Like",
+  "seo_title": "VnExpress Marathon Hanoi Midnight Review: Course, Cold, Cut-offs",
+  "meta_description": "VnExpress Marathon Hanoi Midnight review: the 2025 midnight start, 14-16°C through the night, two Red River bridges on the marathon, a bridge-free half, cut-offs, aid and field depth.",
+  "dek": "What running Hanoi's midnight marathon was like in 2025: the new routes over the Red River and through the Old Quarter, the cool, misty night, the aid stations and cut-off checkpoints, how fast the field ran, and what finishers took home.",
+  "verdict": "Enter if you want a cool, well-lit city marathon or a fast half marathon, and can race through the night. The 2025 race drew about 10,000 runners, including more than 1,000 from 43 countries, and it was 14°C to 16°C at Noi Bai airport from the 12.05am marathon start to the 6.20am road closure. The half marathon stayed in central Hanoi with no bridges, and hundreds of runners set personal bests. The catch for marathoners is the Red River crossings on Vinh Tuy and Long Bien bridges, which the organiser warns bring gradients and strong wind, and a 6 hour 15 limit with four checkpoints. Plan your sleep and your pacing around them.",
+  "at_a_glance": {
+    "heading": "The 2025 race in numbers",
+    "rows": [
+      {
+        "label": "Date",
+        "value": "Night of Saturday 29 to Sunday 30 November 2025, the fifth edition. Next: race day 29 November 2026 (organiser's listing)"
+      },
+      {
+        "label": "Field",
+        "value": "About 10,000 runners, more than 1,000 of them from 43 countries"
+      },
+      {
+        "label": "Start times",
+        "value": "Marathon 12.05am, 10 km 1.00am, 5 km 1.30am, half marathon 2.00am"
+      },
+      {
+        "label": "Cut-offs",
+        "value": "Marathon 6 hours 15 (roads close 6.20am), half 3 hours 30 (5.30am), 10 km 2 hours, 5 km 1 hour 15"
+      },
+      {
+        "label": "Weather at the 12.05am start",
+        "value": "16°C, dew point 12°C, 77% humidity, wind 3 knots, mist (Noi Bai airport)"
+      },
+      {
+        "label": "Weather through the night",
+        "value": "14°C to 16°C and 82% to 88% humidity from 1.30am to 6.30am"
+      },
+      {
+        "label": "Course",
+        "value": "Marathon crosses the Red River on Vinh Tuy and Long Bien bridges; half stays in central Hanoi with no bridges"
+      },
+      {
+        "label": "Aid",
+        "value": "22 stations on the marathon, about every 2 km; 10 on the half"
+      },
+      {
+        "label": "Winning marathon times",
+        "value": "2:24:13 (men), 2:56:06 (women)"
+      },
+      {
+        "label": "10th place, marathon",
+        "value": "2:44:12 (men), 3:11:08 (women)"
+      },
+      {
+        "label": "Finisher items",
+        "value": "Windbreaker for the marathon, T-shirt for the half, medal for every finisher"
+      },
+      {
+        "label": "Entry fee (late phase)",
+        "value": "1.65 million VND for the marathon, 1.35 million VND for the half"
+      }
+    ]
+  },
   "sections": [
     {
-      "heading": "The 2025 Edition",
+      "heading": "The Course: Two Bridges for the Marathon, None for the Half",
       "paragraphs": [
-        "The race ran through the night of 29 November and the early morning of 30 November 2025, and drew 10,000 runners, despite cold weather in the capital [1]. It was the race's fifth season [1].",
-        "The race area ran from Thien Quang Lake through the central streets of Hanoi, which the report described as lively all night [1]."
+        "The fifth edition ran through the night of Saturday 29 to Sunday 30 November 2025, with about 10,000 runners [1], more than 1,000 of them from 43 countries [2]. The marathon started at 12.05am on Quang Trung street, by Thien Quang Lake, and finished on the Tran Nhan Tong walking street opposite the main gate of Thong Nhat Park [3]. The 10 km started at 1am, the 5 km at 1.30am and the half marathon at 2am [4].",
+        "The marathon heads south-east through the streets south of Hoan Kiem Lake, crosses the Red River on Vinh Tuy Bridge and loops through Long Bien district along Co Linh, Hong Tien, Nguyen Gia Bong and the Gia Thuong dyke to a turn in the north-east, then comes back along Ngoc Thuy and crosses Long Bien Bridge into the Old Quarter. From there it runs along Thanh Nien, Nguyen Dinh Thi, Van Cao and Kim Ma, then Doc Lap and Hoang Dieu, down Phan Dinh Phung, back through the Old Quarter and round Hoan Kiem Lake to the finish [3]. The map's kilometre markers put Vinh Tuy Bridge just after 4 km and Long Bien Bridge just after 24 km [3].",
+        "Both long courses changed for 2025. The marathon dropped its loop round West Lake and instead went out towards Dong Tru bridge, with a straight stretch of about 5 km beside the Duong River; the organiser still called the two bridges a big challenge, with gradients and strong wind [4]. The half marathon no longer crossed either bridge, as it had in 2024, and stayed in the city centre through the Old Quarter, Thanh Nien, Van Cao, Kim Ma and Phan Dinh Phung [4].",
+        "The route maps carry the Vietnam Athletics Federation's certification [3], and the organiser said the whole route was separated from traffic [5]. Almost the entire course was lit with white light, and many runners called 2025 the best-lit of the race's five editions [1]."
       ]
     },
     {
-      "heading": "The Front of the Race",
+      "heading": "The Weather: Cool and Misty All Night",
       "paragraphs": [
-        "Ezekiel Kipruto Kemboi and Takele Kure of Kenya ran together to about 18 km before Kemboi pulled away, leading by two minutes by 33 km and winning in 2:24:20 [1]. Trinh Minh Tam, in a first year of running marathons, was third in a personal best of 2:27 [1].",
-        "Pham Thi Hong Le set the pace for a group of runners aiming for under three hours, with dozens of men running in her pack, and won in about 2:56, 44 seconds ahead of Vu Khanh Linh [1]. Samuel Kalalei of Kenya led the men's half marathon from start to finish in 1:08:55 [1]."
+        "Noi Bai airport, about 23 km north of the start, recorded 16°C at midnight, with a dew point of 12°C, 77% humidity, a 3-knot wind and mist [6]. It fell to 14°C by 1.30am and stayed between 14°C and 16°C, at 82% to 88% humidity, until 6.30am, with mist reported all night [6]. VnExpress put the temperature on the course at about 14°C [1].",
+        "Those are good conditions for running fast: a dew point of 12°C to 13°C is dry enough that sweat evaporates easily. The winner, Ezekiel Kipruto Kemboi, said the open night course and the pleasant weather produced a better result than at earlier races [7]. Runners gathered from 10pm around Thien Quang Lake to warm up [1], so bring a layer you can throw away for the two hours of waiting in 14°C to 16°C air."
+      ]
+    },
+    {
+      "heading": "Aid Stations and Cut-offs",
+      "paragraphs": [
+        "The marathon map shows 22 support stations, about one every 2 km, many of them with a medical post, and toilets beside the stations; the half marathon had 10, eight with a medical post [3]. The organiser promised water, electrolyte drink and fruit along the whole route [5], and the electrolyte sponsor served three flavours at every station [8]. Ordinary tables served water in cups only, and elite tables were reserved for runners ahead of the 3:30 marathon pacer and the 1:45 half-marathon pacer [9].",
+        "The marathon limit was 6 hours 15, with roads closing at 6.20am [4], and four checkpoints: 1.35am at the Co Linh–Tran Dang Khoa junction in Long Bien, 3.55am at the Ngoc Thuy flower garden, 4.55am at Van Cao–Nguyen Dinh Thi and 5.55am at Phung Hung–Phan Dinh Phung [3]. The half had 3 hours 30, with checkpoints at 3.50am at Van Cao–Nguyen Dinh Thi and 5am at Phung Hung–Phan Dinh Phung [3]; the 10 km had 2 hours and the 5 km 1 hour 15 [9]. Aid stations closed with the roads, runners more than 15 minutes late to their start were not allowed to race, and anyone outside the limit was marked DNF and got no finisher items [9]."
+      ]
+    },
+    {
+      "heading": "How Fast the Field Is",
+      "paragraphs": [
+        "Kemboi won the marathon in 2:24:13 on the official results [10], reported as 2:24:20 in the press [1], after running with Ebisa Takele Kure to 18 km, passed together in 1:06:19, and leading by two minutes at 33 km [1]. Kure was second in 2:26:30 and Trinh Minh Tam third in 2:27:34 [10]. Pham Thi Hong Le won the women's race in 2:56:06, a 17th win in the VnExpress series, leading a sub-three-hour group with dozens of men in it [1]; Vu Khanh Linh was second in 2:56:51 [10].",
+        "Tenth place in the marathon was 2:44:12 for men and 3:11:08 for women, and the 50th man finished in 3:00:42 and the 50th woman in 3:54:09. In the half marathon, Samuel Kalalei won in 1:08:55 and Doan Thi Oanh in 1:19:13; tenth place was 1:18:33 and 1:29:38, and 50th was 1:29:12 and 1:51:14 [10]. The winner took 15 million VND in cash, with prizes worth 30 million VND in total [7]. Rankings and prizes go by gun time, not chip time [9].",
+        "VnExpress reported hundreds of personal bests, most of them in the half marathon now that it had no bridges [1]. Two runners who had raced the Ha Long Heritage Marathon a week earlier set personal bests at both: Pham Duc Tho went from 2:32 in Ha Long to 2:31:26 here, and Dang Anh Quyet ran 2:33:18, 26 seconds faster than in Ha Long [11]."
+      ]
+    },
+    {
+      "heading": "Race Weekend Logistics",
+      "paragraphs": [
+        "Race kits were handed out on the Tran Nhan Tong walking street on 28 and 29 November [12][5]. Kits are not posted: runners collect in person, or through someone they authorise, with photo ID and the QR code from their confirmation email [9]. The start and the finish are close together, so there is no long walk back to collect a bag [4], and the map marks a Grab pick-up and drop-off point beside them [3]. The race was over by 6.30am [1].",
+        "Early entries opened on 27 May 2025 at 420,000 to 880,000 VND depending on distance, with group discounts from 5% for 20 runners up to 25% for more than 1,000 [13]. By the late phase the marathon cost 1.65 million VND and the half 1.35 million VND [5]. Entries are not refundable and bibs cannot be passed on without the organiser's permission, though you can switch distance; marathon runners must be 18 [9]. Marathon finishers got a windbreaker, half marathoners a T-shirt, and every finisher a medal, and finishers could download race photos free [5].",
+        "International runners liked the atmosphere. Martin Zachrisson, a half marathoner from Sweden, found Hanoi at night quiet but full of energy, thanks to the light traffic and non-stop cheering, and two American teachers who ran the marathon together in 4:14 praised the lighting and the support along the route [2]."
       ]
     },
     {
       "heading": "Should You Enter the 2026 Race?",
       "paragraphs": [
-        "Yes, if you want a night marathon through the centre of Hanoi with a big field and a competitive front end.",
-        "Dress for the weather. Late November nights in Hanoi can be cold, as they were in 2025, so plan layers for the start and after the finish.",
-        "This review is compiled from a published race report on the 2025 edition. It is not a first-hand race report, and nobody from this site ran the race."
+        "Yes, if you want to race in cool air: the half marathon in particular is flat, bridge-free and well lit, and it produced the most personal bests in 2025. The marathon suits runners who are happy to trade two bridge climbs for a cool night and a fast field.",
+        "Think twice if you race badly without sleep, since the marathon starts at midnight and the half at 2am, or if you expect to need close to 6 hours 15 for the marathon, because the checkpoints and the aid stations close on schedule.",
+        "The organiser's 2026 page lists race day as 29 November 2026, with race kits on 27 and 28 November at the Tran Nhan Tong walking street [14]. Check the 2026 route and start times before you book, since both long courses changed between 2024 and 2025 [4].",
+        "Nobody from this site ran the race. This review draws on the organiser's route maps, rules and results, airport weather records, Vietnamese and English-language news reports, and runners' comments to the press."
       ]
     }
   ],
-  "pull_quotes": [],
+  "pull_quotes": [
+    {
+      "quote": "quiet but full of energy",
+      "attribution": "Martin Zachrisson, a half marathoner from Sweden, describing Hanoi at night to VnExpress (translated from Vietnamese)",
+      "source_url": "https://vnexpress.net/runner-quoc-te-tan-huong-ha-noi-dem-midnight-4987662.html"
+    }
+  ],
   "sources": [
     {
       "n": 1,
-      "label": "Race report on the 2025 race: 10,000 runners, cold night, results and race narrative",
-      "publisher": "Nhan Dan",
-      "url": "https://nhandan.vn/hong-le-vo-dich-giai-vnexpress-marathon-hanoi-midnight-2025-post926943.html",
+      "label": "Report on the 2025 race: conditions, lighting, personal bests and results (in Vietnamese)",
+      "publisher": "VnExpress",
+      "url": "https://vnexpress.net/giai-chay-dem-ha-noi-chuan-bi-khoi-tranh-4987711-tong-thuat.html",
       "type": "news"
+    },
+    {
+      "n": 2,
+      "label": "International runners at the 2025 race (in Vietnamese)",
+      "publisher": "VnExpress",
+      "url": "https://vnexpress.net/runner-quoc-te-tan-huong-ha-noi-dem-midnight-4987662.html",
+      "type": "news"
+    },
+    {
+      "n": 3,
+      "label": "2025 route maps for the marathon and half marathon: streets, start and road-closure times, checkpoints and aid stations",
+      "publisher": "VnExpress Marathon (organiser)",
+      "url": "https://vm.vnexpress.net/ha-noi-2025/duong-chay",
+      "type": "official"
+    },
+    {
+      "n": 4,
+      "label": "2025 course changes, start times and road closures (in Vietnamese)",
+      "publisher": "VnExpress",
+      "url": "https://vnexpress.net/giai-chay-dem-ha-noi-2025-dieu-chinh-duong-chay-4964496.html",
+      "type": "news"
+    },
+    {
+      "n": 5,
+      "label": "2025 late-phase entry fees, finisher items, aid and race-kit venue (in Vietnamese)",
+      "publisher": "VnExpress",
+      "url": "https://vnexpress.net/vnexpress-marathon-ha-noi-dong-dang-ky-4961066.html",
+      "type": "news"
+    },
+    {
+      "n": 6,
+      "label": "Hourly weather observations at Noi Bai International Airport (VVNB), 30 November 2025",
+      "publisher": "Iowa Environmental Mesonet (airport METAR archive)",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=VVNB&data=tmpc&data=dwpc&data=relh&data=sknt&data=wxcodes&year1=2025&month1=11&day1=30&year2=2025&month2=12&day2=1&tz=Asia%2FHo_Chi_Minh&format=onlycomma&latlon=no&missing=M&report_type=3&report_type=4",
+      "type": "other"
+    },
+    {
+      "n": 7,
+      "label": "Interview with the 2025 marathon winner, including prize money (in Vietnamese)",
+      "publisher": "VnExpress",
+      "url": "https://vnexpress.net/nha-vo-dich-chay-dem-ha-noi-dung-tien-thuong-nuoi-ga-4987661.html",
+      "type": "news"
+    },
+    {
+      "n": 8,
+      "label": "Electrolyte drinks at the 2025 aid stations (in Vietnamese)",
+      "publisher": "VnExpress",
+      "url": "https://vnexpress.net/revive-tiep-nang-luong-cho-10-000-runner-chay-dem-ha-noi-4988623.html",
+      "type": "news"
+    },
+    {
+      "n": 9,
+      "label": "2025 race rules: time limits, aid tables, race-kit collection, refunds, transfers and ages (in Vietnamese)",
+      "publisher": "VnExpress Marathon (organiser)",
+      "url": "https://vm.vnexpress.net/ha-noi-2025/thong-tin-cuoc-dua/dieu-le",
+      "type": "official"
+    },
+    {
+      "n": 10,
+      "label": "2025 results: official top-50 leaderboards for each race",
+      "publisher": "VnExpress Marathon (organiser)",
+      "url": "https://vm.vnexpress.net/ha-noi-2025/ket-qua",
+      "type": "official"
+    },
+    {
+      "n": 11,
+      "label": "Personal bests at the 2025 race (in Vietnamese)",
+      "publisher": "VnExpress",
+      "url": "https://vnexpress.net/loat-vdv-pha-ky-luc-ca-nhan-tai-giai-chay-dem-ha-noi-4988606.html",
+      "type": "news"
+    },
+    {
+      "n": 12,
+      "label": "2025 schedule: venue, race-kit dates and race day",
+      "publisher": "VnExpress Marathon (organiser)",
+      "url": "https://vm.vnexpress.net/ha-noi-2025/thong-tin-cuoc-dua/lich-trinh",
+      "type": "official"
+    },
+    {
+      "n": 13,
+      "label": "2025 early-registration prices and group discounts (in Vietnamese)",
+      "publisher": "VnExpress",
+      "url": "https://vnexpress.net/vm-hanoi-midnight-2025-mo-dang-ky-som-gia-tu-420-000-dong-4891154.html",
+      "type": "news"
+    },
+    {
+      "n": 14,
+      "label": "2026 schedule: venue, race-kit dates and race day",
+      "publisher": "VnExpress Marathon (organiser)",
+      "url": "https://vm.vnexpress.net/ha-noi-2026/thong-tin-cuoc-dua/lich-trinh",
+      "type": "official"
     }
   ],
   "faqs": [
     {
-      "question": "How many people ran VnExpress Marathon Hanoi Midnight in 2025?",
-      "answer": "10,000 runners took part through the night of 29 to 30 November 2025, the race's fifth edition, despite cold weather in Hanoi. The race area ran from Thien Quang Lake through the city's central streets."
+      "question": "What time does VnExpress Marathon Hanoi Midnight start?",
+      "answer": "Just after midnight. In 2025 the marathon started at 12.05am on Sunday 30 November from Quang Trung street by Thien Quang Lake, the 10 km at 1am, the 5 km at 1.30am and the half marathon at 2am. The race was over by 6.30am. The 2026 race day is listed as 29 November; check its start times before you book."
     },
     {
-      "question": "Who won VnExpress Marathon Hanoi Midnight 2025?",
-      "answer": "Kenya's Ezekiel Kipruto Kemboi won the men's marathon in 2:24:20, two minutes ahead of Takele Kure. Pham Thi Hong Le won the women's in about 2:56, her 17th VnExpress series win. Samuel Kalalei won the men's half marathon in 1:08:55."
+      "question": "How cold is VnExpress Marathon Hanoi Midnight?",
+      "answer": "Cool enough to need a layer before the start. In 2025 Noi Bai airport recorded 16°C at midnight and 14°C to 16°C through to 6.30am, with a dew point of 12°C to 13°C, 77% to 88% humidity and mist. Runners gathered from 10pm to warm up, so bring something to throw away."
     },
     {
-      "question": "What is the weather like at Hanoi Midnight?",
-      "answer": "Cold, by Southeast Asian standards. The 2025 race was run through a chilly late-November night, so bring layers for the start and a warm top for after the finish."
+      "question": "What are the cut-off times at VnExpress Marathon Hanoi Midnight?",
+      "answer": "In 2025 the marathon had 6 hours 15, with roads closing at 6.20am and checkpoints at 1.35am, 3.55am, 4.55am and 5.55am. The half marathon had 3 hours 30, the 10 km 2 hours and the 5 km 1 hour 15. Aid stations close with the roads, and runners outside the limit get no finisher items."
+    },
+    {
+      "question": "Is the VnExpress Marathon Hanoi Midnight course flat?",
+      "answer": "The half marathon is. In 2025 it stayed in central Hanoi with no bridges, and VnExpress said it produced the most personal bests. The marathon crosses the Red River twice, on Vinh Tuy Bridge after about 4 km and Long Bien Bridge after about 24 km, and the organiser warned of gradients and strong wind there."
+    },
+    {
+      "question": "How fast is the field at VnExpress Marathon Hanoi Midnight?",
+      "answer": "Quick at the front. In 2025 Ezekiel Kipruto Kemboi won the marathon in 2:24:13 and Pham Thi Hong Le in 2:56:06. Tenth place was 2:44:12 for men and 3:11:08 for women, and the 50th man ran 3:00:42. In the half, tenth place was 1:18:33 for men and 1:29:38 for women."
+    },
+    {
+      "question": "What do finishers get at VnExpress Marathon Hanoi Midnight?",
+      "answer": "It depends on the distance. In 2025 marathon finishers received a finisher windbreaker, half-marathon finishers a finisher T-shirt, and every finisher a medal designed for that year. Runners marked DNF for missing the time limit get no finisher items. Photos from the organiser's system could be downloaded free."
     }
   ],
-  "editorial_notes": "Rewritten 2026-09-28 about the previous edition (29-30 November 2025). Replaces a pre-race preview. No rating: nothing here is participant evidence.",
+  "editorial_notes": "Rewritten 2026-09-28 to the review template. Written about the previous edition (night of 29-30 November 2025), VnExpress's own night race, distinct from the Techcombank, VPBank and Standard Chartered Hanoi marathons. Weather is from Noi Bai airport METAR observations, about 23 km from the start, not a forecast. Only the organiser's top-50 leaderboards were available, so there are no finisher counts or medians. Press and official results differ on some times (winner 2:24:20 in the press, 2:24:13 gun time on the leaderboard; third place 2:27:00 against 2:27:34); the official results are used. No runner blogs were found; runner comments come from press interviews. No rating.",
   "published_at": "2026-08-09T09:00:00.000Z",
   "last_updated": "2026-09-28",
   "status": "active"

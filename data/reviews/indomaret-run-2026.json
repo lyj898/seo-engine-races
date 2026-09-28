@@ -1,90 +1,196 @@
 {
-  "pull_quotes": [],
-  "editorial_notes": "Written about the PREVIOUS edition, from published reporting on it, to help a reader decide on the next one. No rating: the sources are news reports and organiser statements, which describe how an event was run, not how runners rated it. A score needs participant evidence -- race reports, runner blogs, attributed quotes -- and without it would be invention.",
-  "published_at": "2026-09-28T12:00:00.000Z",
-  "last_updated": "2026-09-28",
-  "status": "active",
+  "review_id": "indomaret-run-2026",
   "slug": "indomaret-run-2026",
-  "title": "Indomaret Run 2026 Review: What the 2025 Edition Was Like",
-  "seo_title": "Indomaret Run 2026 Review | PIK 2 Half Marathon",
-  "meta_description": "Indomaret Run review: the 2025 edition at PIK 2 capped the half at 1,000 places at Rp600,000 with a 5am start. What to expect from the 2026 race.",
-  "dek": "A convenience-store chain's race that is run to a proper standard: a professional race director, a route checked by elite athletes, and a half marathon capped at a thousand places. Here is how the 2025 edition worked.",
-  "verdict": "Indomaret Run is better organised than its name might suggest. The 2025 edition on Sunday 23 November at PIK 2 was directed by IRace Indonesia with a route that professional athletes helped design [1], on wide, well-surfaced roads [1]. Places were deliberately limited -- 1,000 in the half marathon, 1,500 in the 10 km and 3,000 in the 5 km [2] -- and entry cost Rp600,000 for the half [2]. The unusual part is how you enter: through Indomaret shops, using the chain's Poinku membership [2]. If you are not already a member, sort that out before entries open.",
+  "entity_id": "indomaret-run-2026",
+  "title": "Indomaret Run 2026 Review: What the 2025 Race Was Like",
+  "seo_title": "Indomaret Run Review: PIK 2 Course, Humidity, Cut-offs",
+  "meta_description": "Indomaret Run review: the flat PIK 2 course from SPIKE Airdome, 25°C and 94% humidity at the 5am half-marathon start, the four-hour limit, capped fields and entry through Indomaret shops.",
+  "dek": "What the first Indomaret Run, in November 2025, was like: the flat PIK 2 course, the pre-dawn humidity, the start times and cut-offs, the capped fields, and how entering through Indomaret shops works.",
+  "verdict": "Enter if you want a flat, traffic-free half marathon or 10 km at PIK 2 (Pantai Indah Kapuk 2), with a generous time limit and a full race pack. The first edition, on 23 November 2025, ran on wide, smooth PIK 2 roads from SPIKE Airdome, with a 5am half-marathon start, a four-hour limit and the half capped at 1,000 places. The catch is the humidity: at the start the nearby airport recorded 25°C and 94% humidity, and it was 29°C by 9am. For 2026 the organiser says it has added water stations every 2 km and a black-flag system for extreme weather after runners' feedback, so check where the stations are before you race.",
+  "at_a_glance": {
+    "heading": "The 2025 race in numbers",
+    "rows": [
+      {
+        "label": "Date",
+        "value": "Sunday 23 November 2025, the first edition. Next: Sunday 22 November 2026"
+      },
+      {
+        "label": "Places",
+        "value": "3,000 in the 5 km, 1,500 in the 10 km, 1,000 in the half; the organiser later reported 7,500 runners"
+      },
+      {
+        "label": "Start times",
+        "value": "Half marathon 5.00am, 10 km 5.15am, 5 km 5.30am"
+      },
+      {
+        "label": "Cut-offs",
+        "value": "Half 4 hours, 10 km 2 hours, 5 km 1 hour 30 (race listing)"
+      },
+      {
+        "label": "Weather at the 5am start",
+        "value": "25°C, dew point 24°C, 94% humidity, wind 4 knots"
+      },
+      {
+        "label": "Weather at the 9am half-marathon cut-off",
+        "value": "29°C, 75% humidity"
+      },
+      {
+        "label": "Course",
+        "value": "Flat, smooth roads around PIK 2 from SPIKE Airdome, cleared of traffic"
+      },
+      {
+        "label": "Entry fee",
+        "value": "Rp400,000 (5 km), Rp500,000 (10 km), Rp600,000 (half), bought at Indomaret shops with Poinku membership"
+      },
+      {
+        "label": "Race pack",
+        "value": "Jersey, cap, soft flask, running belt, socks and a bag of shop products; medal for finishers, finisher jersey for the half"
+      },
+      {
+        "label": "Prize money",
+        "value": "Rp300 million in total"
+      }
+    ]
+  },
   "sections": [
     {
-      "heading": "The 2025 Edition",
+      "heading": "The Course: Flat, Wide and Cleared of Traffic",
       "paragraphs": [
-        "The 2025 race took place on Sunday 23 November at Pantai Indah Kapuk 2, the new district on Jakarta's northern waterfront, over 5 km, 10 km and a 21 km half marathon [1][2].",
-        "Places were capped by category: 3,000 in the 5 km, 1,500 in the 10 km and 1,000 in the half marathon [2]. The half is therefore the smallest field of the three by some distance, which makes for a less crowded race than the event's total size suggests."
+        "Indomaret Run is new: the 2025 race, on Sunday 23 November, was the first edition [1]. It started and finished at SPIKE Airdome, a 5.3-hectare venue with three domes in the PIK 2 business district [2], which a race listing places in Kosambi, Tangerang regency, Banten [3]. The organiser, the Indomaret convenience-store chain, ran it with IRace Indonesia as race director [4] and said it wanted something more serious than the fun runs it usually stages [5].",
+        "The roads are the selling point. The national runner Agus Prayogo, the race's ambassador, tested the route and described wide roads with very good, flat, smooth asphalt and little change in elevation [2]. The half marathon passed the statues of Sudirman and Soekarno-Hatta, Dragon Point and Tokyo Riverside before a loop of the Greenbelt [2]; the organiser's race-day report also names the Japanese church [4]. The organiser described the course as steril, cleared of traffic, and said it would not disturb public traffic [4][2].",
+        "The staggered starts kept the three races apart: the half marathon went at 5am, the 10 km at 5.15am and the 5 km at 5.30am [4]. A runner who travelled from Bekasi, getting up at 3am, said the traffic-free route and pleasant setting pushed runners to go faster [6]."
       ]
     },
     {
-      "heading": "Start Times and Entry Fees",
+      "heading": "The Weather and the Aid",
       "paragraphs": [
-        "The three distances started in waves: the half marathon at 5.00am WIB, the 10 km at 5.15am and the 5 km at 5.30am [2]. Staggered starts keep the shorter, larger fields off the course while the half marathon runners are getting clear.",
-        "Entry was Rp400,000 for the 5 km, Rp500,000 for the 10 km and Rp600,000 for the half marathon [2]. The total prize pool across all categories was Rp300 million [2]."
+        "Soekarno-Hatta International Airport, about 10 km south of PIK 2, recorded 25°C at 5am on race morning, with a dew point of 24°C, 94% humidity and a 4-knot wind [7]. It stayed at 25°C to 26°C and 94% humidity until 7am, then warmed: 27°C at 7.30am, 29°C at 8.30am and 29°C, with 75% humidity, at 9am, when the half marathon closed [7].",
+        "A dew point of 24°C is heavy air for running: sweat barely evaporates, so the flat course flatters less than it looks. A two-hour half marathoner finished at 7am in 26°C and 94% humidity; a runner using the full four hours finished at 29°C [7].",
+        "The organiser said water stations were placed at strategic points with mineral water, isotonic drinks and medical staff, and that volunteers, marshals and security staff were spread along the route [4]. For 2026 it says it has added water stations so there is one every 2 km, improved the medical service and brought in a black-flag safety system for extreme weather, and that these changes came from its review of 2025 and from runners' feedback [1]."
       ]
     },
     {
-      "heading": "How You Enter -- Through the Shops",
+      "heading": "Cut-offs, Fields and Race Packs",
       "paragraphs": [
-        "This is the detail that trips people up. Registration for the 2025 edition opened on 3 October 2025 and ran through Indomaret stores nationwide, using the chain's Poinku membership system [2].",
-        "In practice that means entering is closer to a retail transaction than an online form, and it means you need a Poinku account. If you are travelling from outside Indonesia, check how the 2026 registration will work well in advance, because a shop-and-membership process is harder to complete from abroad."
+        "The time limits were generous: four hours for the half marathon, two hours for the 10 km and 90 minutes for the 5 km, according to a race listing [3]. Four hours for 21 km is about 11 minutes 20 seconds per km.",
+        "Places were capped at 3,000 in the 5 km, 1,500 in the 10 km and 1,000 in the half, and the 5 km filled fastest [4]. The organiser's pre-race target was 5,500 runners [2], but its post-race video post reported 7,500 runners across the three races [8]. The half is the smallest race either way. The 5 km was family-friendly, and some runners pushed strollers [4].",
+        "Every runner got a jersey made with the local brand Tiento, a soft flask, running socks, a cap and a sports bag of household products [4], plus a running belt; finishers got a medal and half-marathon finishers a finisher jersey [3]. Total prize money was Rp300 million [4]."
       ]
     },
     {
-      "heading": "The Course and the Organisation",
+      "heading": "Entry and Race Weekend Logistics",
       "paragraphs": [
-        "The event was run by IRace Indonesia, with Veddy as race director, together with PT Indomarco Prismatama, the company behind Indomaret [1]. Professional athletes were involved in setting the route, which was described as fully closed and on very good roads within the orderly PIK 2 district [1].",
-        "Water stations and medical cover were part of the published race plan [1]. The combination of a professional race management company, a closed route and roads built for a new district is what separates this from the many brand-led fun runs on the calendar."
+        "Entry works like a shop purchase. Registration opened on 3 October 2025 at Indomaret stores: you bought the ticket at the till and showed your Poinku membership [4]. It cost Rp400,000 for the 5 km, Rp500,000 for the 10 km and Rp600,000 for the half [4], with Rp100,000 off for Poinku app users who bought at least Rp50,000 of goods including sponsor products [3]. For 2026 the listed prices are Rp500,000, Rp600,000 and Rp700,000, or Rp400,000, Rp500,000 and Rp600,000 for Poinku members [9], and the organiser says stores accept cash [1].",
+        "Race packs were collected at Menara Indomaret in PIK 2 on Friday 20 and Saturday 21 November, 10am to 8pm [10]. On race day, queues had formed at the race village by 4.30am [4]. PIK 2 has large car parks at SPIKE Airdome, Community Park and NICE that together hold more than 9,000 vehicles [2]. For 2026 the organiser has added 50 Bluebird shuttle cars and a Citytrans travel promotion to the venue [1]."
       ]
     },
     {
-      "heading": "Should You Enter in 2026?",
+      "heading": "Should You Enter the 2026 Race?",
       "paragraphs": [
-        "The 2026 edition is scheduled for Sunday 22 November, based at SPIKE Airdome in PIK 2, again over 5 km, 10 km and 21 km [3]. If the format holds, expect the same staggered early starts and a capped half marathon field.",
-        "Yes, if you want a well-run Jakarta-area half on smooth, closed roads and can manage the Poinku registration. The capped field is a strength -- it keeps the half from becoming a crush -- but it also means the places can go.",
-        "This review is compiled from published reporting on the previous edition and the organisers' own announcements. It is not a first-hand race report, and nobody from this site ran the race."
+        "Yes, if you want a flat, traffic-free half marathon or 10 km at PIK 2 with a generous limit, and you can manage entry through an Indomaret shop. The four-hour half-marathon limit suits newer runners, and the capped half keeps that race small.",
+        "Think twice if you are chasing a fast time in cool air: the 5am start was already at 25°C and 94% humidity. It is also a young event with one edition behind it. After the 2025 race the organiser promised a new route [6], and it says the 2026 route has been refined [1], so the course described here may change.",
+        "The 2026 race is on Sunday 22 November, again at PIK 2, and the organiser is aiming for 10,000 runners, with a finisher medal and jacket for the half [1]. Check the 2026 route and the water-station positions in the race guide before race day.",
+        "Nobody from this site ran the race. This review draws on the organiser's announcements and post-race reports, race listings, airport weather records and a Tempo report."
       ]
     }
   ],
+  "pull_quotes": [],
   "sources": [
     {
       "n": 1,
-      "label": "Thousands take part in Indomaret Run 2025 at PIK 2: organisers, route and course",
-      "publisher": "Tempo",
+      "label": "Organiser's 2026 announcement: date, target field, water stations, black flag, shuttles (in Indonesian)",
+      "publisher": "Indomaret (organiser)",
+      "url": "https://www.indomaret.co.id/your-choice-to-level-up-indomaret-run-2026-siap-hadirkan-pengalaman-lari-yang-lebih-profesional/",
+      "type": "official"
+    },
+    {
+      "n": 2,
+      "label": "2025 venue, route landmarks, road surface, target field and parking (in Indonesian)",
+      "publisher": "Indomaret (organiser)",
+      "url": "https://www.indomaret.co.id/indomaret-run-2025-digelar-di-spike-airdome-intip-spesifikasinya/",
+      "type": "official"
+    },
+    {
+      "n": 3,
+      "label": "2025 race listing: venue, cut-offs, fees, discount and race pack",
+      "publisher": "LariKu.info",
+      "url": "https://lariku.info/indomaret-run-2025",
+      "type": "aggregator"
+    },
+    {
+      "n": 4,
+      "label": "Organiser's post-race report on the 2025 race: start times, route, aid, entry, fees, quotas and race pack (in Indonesian)",
+      "publisher": "Indomaret (organiser)",
+      "url": "https://www.indomaret.co.id/antusiasme-tinggi-warnai-indomaret-run-2025-total-hadiah-capai-rp-300-juta/",
+      "type": "official"
+    },
+    {
+      "n": 5,
+      "label": "Organiser's launch report for the 2025 race (in Indonesian)",
+      "publisher": "Indomaret (organiser)",
+      "url": "https://www.indomaret.co.id/indomaret-run-2025-siap-digelar-hadirkan-rute-ikonik-dan-race-pack-premium/",
+      "type": "official"
+    },
+    {
+      "n": 6,
+      "label": "Post-race report with a runner's comments and the organiser's plans (in Indonesian)",
+      "publisher": "Tempo (events section)",
       "url": "https://event.tempo.co/read/2068231/ribuan-peserta-ikuti-indomaret-run-2025-di-pik-2",
       "type": "news"
     },
     {
-      "n": 2,
-      "label": "Indomaret Run 2025: schedule, registration, categories, route and prizes",
-      "publisher": "ANTARA News",
-      "url": "https://www.antaranews.com/berita/5155261/indomaret-run-2025-jadwal-pendaftaran-kategori-rute-dan-hadiahnya",
-      "type": "news"
+      "n": 7,
+      "label": "Hourly weather observations at Soekarno-Hatta International Airport (WIII), 23 November 2025",
+      "publisher": "Iowa Environmental Mesonet (airport METAR archive)",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=WIII&data=tmpc&data=dwpc&data=relh&data=sknt&data=wxcodes&year1=2025&month1=11&day1=23&year2=2025&month2=11&day2=24&tz=Asia%2FJakarta&format=onlycomma&latlon=no&missing=M&report_type=3&report_type=4",
+      "type": "other"
     },
     {
-      "n": 3,
-      "label": "Indomaret Run 2026 event listing",
+      "n": 8,
+      "label": "Organiser's post-race video post: 7,500 runners (in Indonesian)",
+      "publisher": "Indomaret (organiser)",
+      "url": "https://www.indomaret.co.id/official-after-movie-indomaret-run-2025/",
+      "type": "official"
+    },
+    {
+      "n": 9,
+      "label": "2026 race listing: entry fees",
       "publisher": "Kalender Lari",
       "url": "https://kalenderlari.com/events/indomaret-run-2026/",
+      "type": "aggregator"
+    },
+    {
+      "n": 10,
+      "label": "2025 race listing: race-pack collection",
+      "publisher": "AYOLARI.ID",
+      "url": "https://ayolari.id/events/detail/indomaret-run-2025-pik2/",
       "type": "aggregator"
     }
   ],
   "faqs": [
     {
-      "question": "How much did the Indomaret Run half marathon cost in 2025?",
-      "answer": "Rp600,000 for the half marathon, against Rp500,000 for the 10 km and Rp400,000 for the 5 km. The total prize pool across all categories was Rp300 million. Fees for the 2026 edition had not been published at the time of writing."
+      "question": "What time does Indomaret Run start?",
+      "answer": "Before dawn, in staggered waves. In 2025 the half marathon started at 5am, the 10 km at 5.15am and the 5 km at 5.30am, all from SPIKE Airdome in PIK 2, and queues had formed at the race village by 4.30am. Start times for the 22 November 2026 race should be checked in its race guide."
     },
     {
-      "question": "How do you register for Indomaret Run?",
-      "answer": "In 2025, registration opened on 3 October through Indomaret stores across Indonesia, using the chain's Poinku membership system. That makes a Poinku account effectively a requirement, which is worth arranging early, especially from outside Indonesia."
+      "question": "What is the cut-off time for the Indomaret Run half marathon?",
+      "answer": "Four hours in 2025, according to a race listing, which is about 11 minutes 20 seconds per km, generous enough for walk-run finishers. The 10 km limit was two hours and the 5 km 90 minutes. Half-marathon finishers got a finisher jersey on top of the medal every finisher received."
     },
     {
-      "question": "What time does the Indomaret Run half marathon start?",
-      "answer": "In 2025 the half marathon started at 5.00am WIB, followed by the 10 km at 5.15am and the 5 km at 5.30am. Staggered starts let the smaller half marathon field get clear before the larger shorter races set off."
+      "question": "How humid is it at Indomaret Run?",
+      "answer": "Very. At the 5am start in 2025, Soekarno-Hatta airport, about 10 km away, recorded 25°C, a dew point of 24°C and 94% humidity, with little wind. It reached 29°C by 9am, when the half marathon closed. For 2026 the organiser says water stations will be every 2 km."
+    },
+    {
+      "question": "Is the Indomaret Run course flat?",
+      "answer": "Yes. The route runs on the new roads of the PIK 2 district, which the race ambassador, national runner Agus Prayogo, described as wide, smooth and flat after testing it. The 2025 half passed Dragon Point, Tokyo Riverside and the Greenbelt, and the organiser says the 2026 route has been refined."
+    },
+    {
+      "question": "How do you enter Indomaret Run?",
+      "answer": "At an Indomaret shop. In 2025 you bought the ticket at the till and showed your Poinku membership; the half cost Rp600,000. For 2026 the listed half-marathon price is Rp700,000, or Rp600,000 for Poinku members, and the organiser says shops across Indonesia accept cash as well as other payment methods."
     }
   ],
-  "review_id": "indomaret-run-2026",
-  "entity_id": "indomaret-run-2026"
+  "editorial_notes": "Rewritten 2026-09-28 about the previous edition (23 November 2025), the race's first. ANTARA, cited by the earlier version, is no longer used. Almost all 2025 information comes from the organiser's own posts and a release-style Tempo report; no results, finisher counts or independent runner reports could be found, so there is no field-depth section. Cut-offs come from the LariKu listing only. The organiser gave both a 5,500 target (the sum of its category caps) and a later figure of 7,500 runners; both are reported. The old claim of a 'fully closed' route is replaced by the organiser's own word, steril. Weather is from Soekarno-Hatta airport METAR observations, not a forecast. No rating.",
+  "published_at": "2026-09-28T12:00:00.000Z",
+  "last_updated": "2026-09-28",
+  "status": "active"
 }
