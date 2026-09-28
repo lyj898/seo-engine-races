@@ -492,3 +492,12 @@ export function dedupeFaqs(faqs = []) {
   }
   return kept;
 }
+
+/**
+ * Removes inline `[n]` / `[n,m]` citation markers from text shown outside
+ * ReviewArticle -- the verdict box and JSON-LD reviewBody -- where nothing
+ * turns them into links and they would otherwise appear as literal brackets.
+ */
+export function stripCitationMarkers(text) {
+  return String(text ?? '').replace(/\s*\[\d+(?:\s*,\s*\d+)*\]/g, '');
+}

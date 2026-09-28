@@ -7,6 +7,7 @@
  * itemListSchema) at the call site in each page, not in here, so these
  * stay simple and reusable.
  */
+import { stripCitationMarkers } from './text.js';
 
 /** items: [{ label, href }] (same shape Breadcrumb.astro renders). */
 export function buildBreadcrumbListSchema(items, site) {
@@ -247,7 +248,7 @@ export function buildReviewSchema({ review, entity, siteConfig, url, entityUrl, 
     dateModified: review.last_updated,
     author: { '@type': 'Organization', name: siteConfig.siteName, url: site?.toString?.() ?? site },
     publisher: { '@type': 'Organization', name: siteConfig.siteName },
-    reviewBody: review.verdict,
+    reviewBody: stripCitationMarkers(review.verdict),
     itemReviewed: {
       '@type': siteConfig.schemaTypePrimary,
       name: entity.name,

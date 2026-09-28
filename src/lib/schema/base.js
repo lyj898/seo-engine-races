@@ -265,6 +265,15 @@ export const reviewSchema = z.object({
   // Optional at-a-glance scores, same shape as sentiment_scores -- typically
   // carried over from the entity's research so the two never disagree.
   rating: sentimentScoresSchema.optional(),
+  // Optional table of the reviewed edition's hard numbers (start times,
+  // cut-offs, race-day weather, winning times), rendered under the verdict.
+  // Plain text only; every value must also be stated and cited in the body.
+  at_a_glance: z
+    .object({
+      heading: z.string().min(1),
+      rows: z.array(z.object({ label: z.string().min(1), value: z.string().min(1) })).min(1),
+    })
+    .optional(),
   sections: z.array(reviewSectionSchema).min(1),
   pull_quotes: z.array(excerptQuoteSchema).default([]),
   sources: z.array(reviewSourceSchema).min(1),

@@ -23,7 +23,7 @@ import RelatedListicles from '../../components/RelatedListicles.astro';
 import LastUpdated from '../../components/LastUpdated.astro';
 import Pill from '../../components/Pill.astro';
 import { narrowFactsToCategories } from '../../lib/categoryMatch.js';
-import { withoutRegistrationClaims, withoutRegistrationClaimsReview, dedupeFaqs } from '../../lib/text.js';
+import { withoutRegistrationClaims, withoutRegistrationClaimsReview, dedupeFaqs, stripCitationMarkers } from '../../lib/text.js';
 import { displayableRating, hasParticipantEvidence } from '../../lib/ratings.js';
 import { pickRelatedEntities } from '../../lib/related.js';
 import { buildEntitySchema, buildFaqPageSchema, buildBreadcrumbListSchema, buildReviewSchema } from '../../lib/schema-jsonld.js';
@@ -288,13 +288,37 @@ const jsonLd = [
         <h2 class="mb-2 text-sm font-semibold uppercase tracking-wide text-brand-muted dark:text-brand-muted-dark">
           The bottom line
         </h2>
-        <p class="text-base leading-relaxed">{review.verdict}</p>
+        {/* The verdict renders as plain text, so [n] markers would show as
+            literal brackets; the claims are cited in the body below. */}
+        <p class="text-base leading-relaxed">{stripCitationMarkers(review.verdict)}</p>
       </div>
     )}
 
-    <div class="mt-8">
-      <FactsTable facts={narrowFactsToCategories(entity.core_facts, categories)} />
-    </div>
+    {merged && review.at_a_glance && (
+      <section class="mt-6">
+        <h2 class="mb-3 text-xl font-semibold">{review.at_a_glance.heading}</h2>
+        <table class="w-full border-collapse text-sm">
+          <tbody>
+            {review.at_a_glance.rows.map((row) => (
+              <tr class="border-b border-brand-border last:border-0 dark:border-brand-border-dark">
+                <th scope="row" class="py-2 pr-4 text-left align-top font-medium text-brand-muted dark:text-brand-muted-dark sm:whitespace-nowrap">
+                  {row.label}
+                </th>
+                <td class="py-2 text-brand-text dark:text-brand-text-dark">{row.value}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </section>
+    )}
+
+    {/* A review's own at-a-glance table covers these facts and the next
+        date, so two stacked tables would repeat each other. */}
+    {!(merged && review.at_a_glance) && (
+      <div class="mt-8">
+        <FactsTable facts={narrowFactsToCategories(entity.core_facts, categories)} />
+      </div>
+    )}
 
     {/* The review body -- the reason this page exists as a merged page at
         all. Sits above pros/cons so the long-form read comes before the
