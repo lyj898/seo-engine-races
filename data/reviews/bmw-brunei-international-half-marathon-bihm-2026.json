@@ -7,27 +7,6 @@
   "meta_description": "BMW Brunei International Half Marathon 2026 review: December 6 at Berakas -- a second, car-brand-backed race in Brunei's capital district.",
   "dek": "Set for 6 December 2026 in Berakas, this BMW-backed race joins The Brunei Half Marathon (covered elsewhere, running near the SHOAS Bridge) as a second distinct half marathon in Brunei's capital, roughly two weeks apart.",
   "verdict": "The BMW Brunei International Half Marathon (BIHM) is genuinely notable simply for existing alongside The Brunei Half Marathon covered elsewhere in this research batch -- two distinct half marathons in a country rarely represented on regional race calendars, roughly two weeks apart. It's held in Berakas, an administrative and residential area within Bandar Seri Begawan, backed by luxury car brand BMW through AKIF Media Marketing & Event. Two distances (21.098K/10K) with genuinely wide source coverage (five distinct listings, including Instagram tracking) suggest real local visibility despite Brunei's smaller running-event footprint generally.",
-  "rating": {
-    "overall": 74,
-    "breakdown": [
-      {
-        "label": "Brand backing (BMW)",
-        "score": 78
-      },
-      {
-        "label": "Destination novelty (Brunei, 2nd race)",
-        "score": 80
-      },
-      {
-        "label": "Local visibility (5 source listings)",
-        "score": 74
-      },
-      {
-        "label": "Pricing clarity",
-        "score": 68
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "A Second Half Marathon in Brunei",
@@ -91,8 +70,8 @@
       "answer": "It's an administrative and residential district within Bandar Seri Begawan with existing sports infrastructure, including the Berakas Sports Complex -- a purpose-suited setting distinct from the bridge-adjacent venue used by Brunei's other half marathon. [2]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. Earlier editions were held (2025 was the fifth), but only pre-race information and a results listing could be found, with nothing describing a race. The URL redirects to the race listing.",
   "published_at": "2026-08-09T09:00:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

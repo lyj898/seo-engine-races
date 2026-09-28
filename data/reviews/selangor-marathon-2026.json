@@ -7,27 +7,6 @@
   "meta_description": "Selangor Marathon 2026 review: November 1 at Persiaran Flora, Cyberjaya -- Tourism Selangor's marathon in Malaysia's Silicon Valley-styled tech city.",
   "dek": "Set for 1 November 2026 at Persiaran Flora, this state tourism board-backed marathon runs through Cyberjaya, a planned technology city adjacent to Putrajaya, aspiring to be Malaysia's Silicon Valley.",
   "verdict": "The Selangor Marathon (SELMAR) is organised directly by Tourism Selangor, giving it genuine state-level institutional backing rather than a purely commercial promoter -- a similar model to Bandar Lampung's railway-backed race, but here from a tourism authority rather than a transport utility. The route runs through Cyberjaya, Malaysia's purpose-built technology city established in 1997 as part of the Multimedia Super Corridor initiative, adjacent to and developed alongside Putrajaya. Two distances (42K/21K) keep it focused on serious distance runners rather than a broad family field.",
-  "rating": {
-    "overall": 74,
-    "breakdown": [
-      {
-        "label": "Institutional backing (Tourism Selangor)",
-        "score": 82
-      },
-      {
-        "label": "Venue distinctiveness (planned tech city)",
-        "score": 78
-      },
-      {
-        "label": "Distance focus (marathon/half only)",
-        "score": 68
-      },
-      {
-        "label": "Independent reviews",
-        "score": 42
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "A State Tourism Board's Marathon",
@@ -91,8 +70,8 @@
       "answer": "Malaysia's purpose-built technology city, established in 1997 as part of the Multimedia Super Corridor initiative and aspiring to be the country's Silicon Valley. It's adjacent to Putrajaya, sharing development history and infrastructure with the administrative capital. [2]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. A 2025 edition was listed, but no report or runner account describing it could be found (the Selangor Half Marathon in June is a different event). The URL redirects to the race listing.",
   "published_at": "2026-08-09T08:30:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

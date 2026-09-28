@@ -7,27 +7,6 @@
   "meta_description": "Korat Marathon 2026 review: November 8 in Nakhon Ratchasima -- the third-largest city in Thailand and gateway to the Isaan region.",
   "dek": "Set for 8 November 2026, this marathon runs through Nakhon Ratchasima -- commonly called Korat -- Thailand's third-largest city and the historic gateway between Siam and Laos.",
   "verdict": "The Korat Marathon runs through Nakhon Ratchasima, Thailand's third-largest city and the largest in the entire Northeastern (Isaan) region, with a population of over 466,000. That's genuinely substantial city infrastructure to support a large-field race, positioned at the western edge of the Korat Plateau and serving as the transportation, commercial and governmental centre for northeastern Thailand. Four distances from 5K to the full marathon give it broad accessibility, and it's listed with AIMS World Running -- a mark of international race-calendar recognition.",
-  "rating": {
-    "overall": 77,
-    "breakdown": [
-      {
-        "label": "City scale & infrastructure (3rd-largest in Thailand)",
-        "score": 86
-      },
-      {
-        "label": "Regional significance (Isaan gateway)",
-        "score": 78
-      },
-      {
-        "label": "Distance range",
-        "score": 76
-      },
-      {
-        "label": "Independent reviews",
-        "score": 45
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "Thailand's Third-Largest City",
@@ -91,8 +70,8 @@
       "answer": "Yes -- it's listed with AIMS World Running, the Association of International Marathons and Distance Races, a meaningful signal of organisational standards alongside its own official race site and growing local reputation. [1]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. A 2025 edition was held (16 November 2025), but only listings and the organiser's own description could be found, with no report or runner account of the race. The URL redirects to the race listing.",
   "published_at": "2026-08-09T08:30:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

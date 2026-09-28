@@ -2,61 +2,32 @@
   "review_id": "vnexpress-marathon-hanoi-midnight-2026",
   "slug": "vnexpress-marathon-hanoi-midnight-2026",
   "entity_id": "vnexpress-marathon-hanoi-midnight-2026",
-  "title": "VnExpress Marathon Hanoi Midnight 2026 Review: A News Site's Nighttime Marathon",
+  "title": "VnExpress Marathon Hanoi Midnight 2026 Review: What the 2025 Edition Was Like",
   "seo_title": "VnExpress Marathon Hanoi Midnight 2026 Review",
-  "meta_description": "VnExpress Marathon Hanoi Midnight 2026 review: November 29 near Tran Nhan Tong walking street -- organised by Vietnam's biggest digital newspaper.",
-  "dek": "Set for 29 November 2026 near Tran Nhan Tong walking street, this nighttime marathon is organised directly by VnExpress, Vietnam's largest digital newspaper, run by FPT Group since 2001.",
-  "verdict": "The VnExpress Marathon Hanoi Midnight brings a genuinely unusual organiser to the field: VnExpress, Vietnam's largest online newspaper, founded in 2001 as the country's first paperless publication, run by FPT Group and drawing 10 billion page views in a single year (2020). That's a media-company sponsorship model distinct from every other organiser covered in this research batch. The nighttime 'Midnight' format echoes the HOKA Midnight Run series covered elsewhere in this research, though this is an entirely separate event. Four distances from 5K to the full marathon give it broad accessibility.",
-  "rating": {
-    "overall": 73,
-    "breakdown": [
-      {
-        "label": "Organiser reach (major digital newspaper)",
-        "score": 82
-      },
-      {
-        "label": "Format novelty (nighttime marathon)",
-        "score": 76
-      },
-      {
-        "label": "Distance range",
-        "score": 76
-      },
-      {
-        "label": "Registration clarity",
-        "score": 32
-      }
-    ]
-  },
+  "meta_description": "VnExpress Marathon Hanoi Midnight review: 10,000 runners through the night of 29-30 November 2025 in cold weather, from Thien Quang Lake through central Hanoi.",
+  "dek": "Hanoi's night marathon drew 10,000 runners through the cold night of 29 to 30 November 2025, its fifth edition. Here is what it was like, ahead of 2026.",
+  "verdict": "VnExpress Marathon Hanoi Midnight is a night race through central Hanoi. The fifth edition, run through the night of 29 to 30 November 2025, drew 10,000 runners despite the cold [1]. The atmosphere stretched from Thien Quang Lake through the central streets [1]. Kenya's Ezekiel Kipruto Kemboi won the men's marathon in 2:24:20, and Pham Thi Hong Le won the women's in about 2:56, her 17th win in the VnExpress series, while leading a pack of sub-three-hour runners [1]. If you want a marathon under Hanoi's streetlights, this is the one.",
   "sections": [
     {
-      "heading": "A Newspaper's Own Marathon",
+      "heading": "The 2025 Edition",
       "paragraphs": [
-        "The race offers four distances -- 5K, 10K, 21.1K and the 42.195K full marathon -- near Tran Nhan Tong walking street, Hanoi. [1] VnExpress is organised directly by VnExpress itself, Vietnam's largest online newspaper, founded on 26 February 2001 as the country's first newspaper not produced in paper format, run by FPT Group with headquarters in Hanoi's Cau Giay District. [2] In 2020 alone, its website recorded 10 billion views -- a media reach that gives this race genuinely broad promotional backing."
+        "The race ran through the night of 29 November and the early morning of 30 November 2025, and drew 10,000 runners, despite cold weather in the capital [1]. It was the race's fifth season [1].",
+        "The race area ran from Thien Quang Lake through the central streets of Hanoi, which the report described as lively all night [1]."
       ]
     },
     {
-      "heading": "The Nighttime Format",
+      "heading": "The Front of the Race",
       "paragraphs": [
-        "The 'Midnight' branding signals a nighttime race format, similar in spirit to the HOKA Midnight Run Asia series covered elsewhere in this research batch, though this is an entirely separate event with a different organiser. [1] Running through Hanoi at night offers a genuinely different experience from the pre-dawn starts typical of most races in this dataset -- cooler temperatures and a distinct urban atmosphere."
+        "Ezekiel Kipruto Kemboi and Takele Kure of Kenya ran together to about 18 km before Kemboi pulled away, leading by two minutes by 33 km and winning in 2:24:20 [1]. Trinh Minh Tam, in a first year of running marathons, was third in a personal best of 2:27 [1].",
+        "Pham Thi Hong Le set the pace for a group of runners aiming for under three hours, with dozens of men running in her pack, and won in about 2:56, 44 seconds ahead of Vu Khanh Linh [1]. Samuel Kalalei of Kenya led the men's half marathon from start to finish in 1:08:55 [1]."
       ]
     },
     {
-      "heading": "Near Hoan Kiem's Historic Core",
+      "heading": "Should You Enter the 2026 Race?",
       "paragraphs": [
-        "Tran Nhan Tong walking street sits within the same broader historic Hanoi area as Hoan Kiem Lake, the starting point for both the VPBank and Standard Chartered Hanoi marathons covered elsewhere in this research batch. [1] Hanoi's dense concentration of international-standard marathons -- at least three separate events covered in this research -- speaks to the city's maturity as a distance-running destination."
-      ]
-    },
-    {
-      "heading": "Registration Not Yet Announced",
-      "paragraphs": [
-        "As of this writing, registration status has not been announced. [1] Given VnExpress's massive digital reach, demand could move quickly once sign-ups open."
-      ]
-    },
-    {
-      "heading": "Should You Run It?",
-      "paragraphs": [
-        "If a nighttime marathon backed by one of Vietnam's most-read media outlets appeals, the VnExpress Marathon Hanoi Midnight on 29 November 2026 offers genuine promotional scale and a distinctive after-dark format. Watch official VnExpress channels closely for registration to open."
+        "Yes, if you want a night marathon through the centre of Hanoi with a big field and a competitive front end.",
+        "Dress for the weather. Late November nights in Hanoi can be cold, as they were in 2025, so plan layers for the start and after the finish.",
+        "This review is compiled from a published race report on the 2025 edition. It is not a first-hand race report, and nobody from this site ran the race."
       ]
     }
   ],
@@ -64,35 +35,28 @@
   "sources": [
     {
       "n": 1,
-      "label": "VnExpress Marathon Hanoi Midnight — event coverage",
-      "publisher": "VnExpress",
-      "url": "https://e.vnexpress.net",
-      "type": "aggregator"
-    },
-    {
-      "n": 2,
-      "label": "VnExpress — Wikipedia",
-      "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/VnExpress",
-      "type": "other"
+      "label": "Race report on the 2025 race: 10,000 runners, cold night, results and race narrative",
+      "publisher": "Nhan Dan",
+      "url": "https://nhandan.vn/hong-le-vo-dich-giai-vnexpress-marathon-hanoi-midnight-2025-post926943.html",
+      "type": "news"
     }
   ],
   "faqs": [
     {
-      "question": "Who organises the VnExpress Marathon Hanoi Midnight?",
-      "answer": "VnExpress itself, Vietnam's largest online newspaper, founded in 2001 and run by FPT Group. It's a genuinely unusual media-company sponsorship model, distinct from every other race organiser covered in this research. [2]"
+      "question": "How many people ran VnExpress Marathon Hanoi Midnight in 2025?",
+      "answer": "10,000 runners took part through the night of 29 to 30 November 2025, the race's fifth edition, despite cold weather in Hanoi. The race area ran from Thien Quang Lake through the city's central streets."
     },
     {
-      "question": "What distances are offered?",
-      "answer": "Four: 5K, 10K, 21.1K and the 42.195K full marathon, near Tran Nhan Tong walking street, Hanoi, on 29 November 2026. Registration status has not yet been announced as of this writing. [1]"
+      "question": "Who won VnExpress Marathon Hanoi Midnight 2025?",
+      "answer": "Kenya's Ezekiel Kipruto Kemboi won the men's marathon in 2:24:20, two minutes ahead of Takele Kure. Pham Thi Hong Le won the women's in about 2:56, her 17th VnExpress series win. Samuel Kalalei won the men's half marathon in 1:08:55."
     },
     {
-      "question": "Is this the same as the HOKA Midnight Run series?",
-      "answer": "No -- while both use nighttime race formats, they're entirely separate events with different organisers. This one is run directly by VnExpress in Hanoi; HOKA Midnight Run Asia is organised by RunRio across Philippine cities. [1]"
+      "question": "What is the weather like at Hanoi Midnight?",
+      "answer": "Cold, by Southeast Asian standards. The 2025 race was run through a chilly late-November night, so bring layers for the start and a warm top for after the finish."
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Rewritten 2026-09-28 about the previous edition (29-30 November 2025). Replaces a pre-race preview. No rating: nothing here is participant evidence.",
   "published_at": "2026-08-09T09:00:00.000Z",
-  "last_updated": "2026-08-09",
+  "last_updated": "2026-09-28",
   "status": "active"
 }

@@ -7,27 +7,6 @@
   "meta_description": "The Brunei Half Marathon 2026 review: November 21 at the Sultan Haji Omar Ali Saifuddien Bridge -- Southeast Asia's longest bridge, opened 2020.",
   "dek": "Set for 21 November 2026 at the Sultan Haji Omar 'Ali Saifuddien Bridge, this race starts near Southeast Asia's longest bridge -- a 30-kilometre span connecting Brunei's mainland to its Temburong exclave, opened in 2020.",
   "verdict": "The Brunei Half Marathon starts near a genuinely remarkable piece of infrastructure: the Sultan Haji Omar 'Ali Saifuddien Bridge, a 30-kilometre dual-carriageway span across Brunei Bay -- the longest bridge in Southeast Asia, completed in 2019 at a cost of B$1.6 billion and opened in March 2020. That's a genuine engineering landmark to anchor a race around, distinct from anything else covered in this research batch. Three distances (5K/10K/21K) with open registration make this a straightforward pick for runners interested in Brunei -- a country rarely covered by races in this dataset.",
-  "rating": {
-    "overall": 76,
-    "breakdown": [
-      {
-        "label": "Landmark significance (longest bridge in SE Asia)",
-        "score": 90
-      },
-      {
-        "label": "Destination novelty (Brunei)",
-        "score": 82
-      },
-      {
-        "label": "Distance range",
-        "score": 72
-      },
-      {
-        "label": "Independent reviews",
-        "score": 40
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "Racing Near Southeast Asia's Longest Bridge",
@@ -91,8 +70,8 @@
       "answer": "No -- it appears far less frequently on Southeast Asian race calendars than the Philippines, Indonesia, Malaysia or Thailand, making this one of the more geographically distinctive races covered in this research. [1]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. The first edition was held on 30 November 2025, but only pre-race announcements could be found, with nothing describing how it went. The URL redirects to the race listing.",
   "published_at": "2026-08-09T08:45:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }
