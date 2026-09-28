@@ -7,27 +7,6 @@
   "meta_description": "KL Half Marathon 2026 review: August 16 at Padang Merbok, Kuala Lumpur, a 3:30am flag-off with 21.1K, 10K and 5K categories, organised by JomRun.",
   "dek": "Set for 16 August 2026 with a 3:30am flag-off from Padang Merbok, this JomRun-organised half marathon splits its 21.1K field into Speed and Leisure entries -- only Speed runners are eligible for podium prizes, and only the 21.1K gets an RFID-timed bib.",
   "verdict": "The KL Half Marathon, powered by JomRun, uses Padang Merbok -- a historic open field beside the National Monument and Parliament House -- as its pre-dawn start point, with a 3:30am flag-off designed to beat Kuala Lumpur's daytime heat. Three distances (5K, 10K, 21.1K) keep it broadly accessible, but the details matter here: only the 21.1K category gets a timing-chip bib and podium eligibility, and even then only if registered under '21.1KM SPEED' rather than 'Leisure.' Registration closes the day before race day, which is unusually tight. A solid, well-located community race for runners who read the fine print.",
-  "rating": {
-    "overall": 65,
-    "breakdown": [
-      {
-        "label": "Venue significance (Padang Merbok)",
-        "score": 82
-      },
-      {
-        "label": "Early flag-off, heat management",
-        "score": 78
-      },
-      {
-        "label": "Category clarity (Speed vs Leisure)",
-        "score": 55
-      },
-      {
-        "label": "Registration lead time",
-        "score": 45
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "Padang Merbok: A Field With History",
@@ -91,8 +70,8 @@
       "answer": "In the 2025 edition, kit collection was held at Decathlon @ NU Sentral over two days before race day; 2026 kit collection details will likely follow a similar pattern. Check the official JomRun event page closer to 16 August 2026 for exact dates. [1]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and already-researched entity material (research_highlights/watchouts), plus supplementary background sources. Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. No report, results summary or runner account of the 16 August 2026 race or of any earlier edition could be found. The URL redirects to the race listing.",
   "published_at": "2026-08-09T06:45:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

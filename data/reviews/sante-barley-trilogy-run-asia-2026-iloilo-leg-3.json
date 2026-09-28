@@ -7,27 +7,6 @@
   "meta_description": "Sante Barley Trilogy Run Asia 2026 Iloilo Leg 3 review: August 23 at Atria Park District -- the series finale with the signature 32K Afroman distance.",
   "dek": "Set for 23 August 2026 at Atria Park District, Iloilo City, this is the culminating third leg of the Sante Barley Trilogy Run Asia series -- complete the 16K, 21K and 32K across all three legs to qualify for the 42K National Finals in Manila.",
   "verdict": "Iloilo Leg 3 closes out RunRio's three-leg Sante Barley Trilogy Run Asia series with the signature 32K 'Afroman' distance -- the longest of the trilogy -- alongside standard 5K, 10K and 21K options. The series structure is the real draw here: finishing the 16K in Leg 1, the 21K in Leg 2, and the 32K in Leg 3, in any host city, qualifies a runner for the 42K category at the National Finals in Manila, giving the whole series a progressive, goal-oriented arc rather than three disconnected races. Iloilo's race hub has moved to Atria Park District for this edition, a change worth noting for runners who ran prior legs at the old venue.",
-  "rating": {
-    "overall": 70,
-    "breakdown": [
-      {
-        "label": "Series progression to National Finals",
-        "score": 85
-      },
-      {
-        "label": "Signature 32K Afroman distance",
-        "score": 75
-      },
-      {
-        "label": "Venue & city (Atria Park District, Iloilo)",
-        "score": 68
-      },
-      {
-        "label": "Independent race reports",
-        "score": 35
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "The Finale of a Three-Leg Series",
@@ -91,8 +70,8 @@
       "answer": "Skates, strollers and animals are prohibited on course, and runners must stay within marked boundaries. Formal result protests require a non-refundable ₱5,000 fee. All finishers within the cut-off receive a medal, with top-3 age-group awards in the 32K category for Leg 3. [1]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and already-researched entity material (research_highlights/watchouts), plus supplementary background sources. Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. No report or runner account of the 23 August 2026 Iloilo Leg 3 or of an earlier Iloilo leg could be found; the results listing cannot be read without a browser. The URL redirects to the race listing.",
   "published_at": "2026-08-09T06:45:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

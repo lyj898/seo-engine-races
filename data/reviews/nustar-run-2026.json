@@ -7,27 +7,6 @@
   "meta_description": "NUSTAR Run 2026 review: August 23 at NUSTAR Resort, Cebu City -- a debut race with six distances, led by Cebu's first female race director.",
   "dek": "Set for 23 August 2026 at NUSTAR Resort on Cebu's South Road Properties, this inaugural race spans six distances from 1KM to 21KM, led by Janice Pasculado -- Cebu's first female race director -- and folded into the resort's month-long wellness campaign.",
   "verdict": "The NUSTAR Run is a first-year event with an unusually wide distance spread -- six categories from a 1KM fun run up to a 21KM half marathon -- anchored at a resort venue on Cebu's reclaimed South Road Properties. The notable hook is Janice Pasculado, described as Cebu's first female race director, and the race's tie to the Kapwa Ko Mahal Ko Foundation gives it a charitable throughline. As a debut event folded into the resort's 'In Full Balance' Wellness Month campaign, it reads more like a resort-branded community run than a serious performance race -- fine for casual and family entries, less so for runners chasing certified times, and there's no participant history yet to judge it by.",
-  "rating": {
-    "overall": 58,
-    "breakdown": [
-      {
-        "label": "Distance range & accessibility",
-        "score": 80
-      },
-      {
-        "label": "Resort venue & amenities",
-        "score": 68
-      },
-      {
-        "label": "Community/charity angle",
-        "score": 70
-      },
-      {
-        "label": "Debut event, unclear registration",
-        "score": 28
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "A Resort Debut on Cebu's South Road Properties",
@@ -97,8 +76,8 @@
       "answer": "Yes -- NUSTAR Run benefits the Kapwa Ko Mahal Ko Foundation and is part of NUSTAR Resort's 'In Full Balance' Wellness Month 2026 campaign, which also includes yoga and sound healing sessions at the resort. [1]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and already-researched entity material (research_highlights/watchouts), plus supplementary background sources. Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. The 23 August 2026 race was billed as the first-ever NUSTAR Run, so there is no earlier edition, and no report on the race itself was found. The URL redirects to the race listing.",
   "published_at": "2026-08-09T06:30:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

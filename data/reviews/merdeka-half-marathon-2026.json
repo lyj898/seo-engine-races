@@ -7,27 +7,6 @@
   "meta_description": "Merdeka Half Marathon 2026 review: August 23 starting and finishing at Dataran Merdeka, KL's historic independence square, run by JBSKL and Kita Pelari.",
   "dek": "Set for 23 August 2026, this half marathon starts and finishes at Dataran Merdeka -- the square where Malaysia's independence was declared in 1957 -- timed for the Merdeka season and co-organised by the WPKL youth and sports department with Kita Pelari Malaysia.",
   "verdict": "The Merdeka Half Marathon's main draw is its start/finish line: Dataran Merdeka, the roughly 1,000,000 square-metre square in downtown Kuala Lumpur where the Union Jack came down and the Malayan flag went up at midnight on 31 August 1957. Running through Malaysia's most symbolically loaded public space, timed for the Merdeka independence season, gives an otherwise single-distance community race real character. It's official-backed -- co-organised by the WPKL youth and sports department and Kita Pelari Malaysia with DBKL support -- and open to non-Malaysian residents, but there's no independent participant feedback yet and the course itself, beyond the iconic start point, isn't well documented.",
-  "rating": {
-    "overall": 66,
-    "breakdown": [
-      {
-        "label": "Start/finish venue significance",
-        "score": 88
-      },
-      {
-        "label": "Official backing & organisation",
-        "score": 74
-      },
-      {
-        "label": "Accessibility (open to residents)",
-        "score": 68
-      },
-      {
-        "label": "Course detail & track record",
-        "score": 35
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "Starting at Malaysia's Independence Square",
@@ -97,8 +76,8 @@
       "answer": "Race day is 23 August 2026. Race kits (bib, T-shirt) must be picked up during a designated window before race day -- organisers state kits will not be issued once that window closes, so plan your travel to Kuala Lumpur accordingly. [1]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and already-researched entity material (research_highlights/watchouts), plus supplementary background sources. Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. No report, results summary or runner account of the 23 August 2026 race or of any earlier edition could be found. The URL redirects to the race listing.",
   "published_at": "2026-08-09T06:30:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

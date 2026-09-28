@@ -7,31 +7,6 @@
   "meta_description": "Subic Bay Freeport Zone 32KM Challenge 2026: August 16 at Boardwalk, Subic. A rare 32K distance from JCIR Events — between the half and full marathon.",
   "dek": "Set for 16 August 2026 at the Boardwalk in Subic Bay Freeport, this JCIR Events race features a rare 32K distance — the three-quarter marathon sweet spot.",
   "verdict": "The Subic Bay 32KM Challenge is built around a distance that barely exists on the Philippine racing calendar: 32 kilometres. It's the three-quarter marathon — long enough to be a genuine marathon-readiness test, short enough that you don't need the full 42K recovery window. JCIR Events, a regional organiser, anchors the race at the Boardwalk in the Subic Bay Freeport Zone, one of the country's best running environments: wide, flat, well-maintained roads with minimal traffic and a coastal setting that provides sea breezes and harbour views. Support distances (21K, 10K, 5K) make the event accessible to runners not targeting the 32K headliner. August is deep in the Philippine wet season — rain is likely, and the southwest monsoon can deliver heavy bursts — but Subic's tree-lined roads and coastal exposure take some of the edge off the humidity. For runners who want to test marathon readiness without the full commitment, or who simply want to tick off a distance they won't find anywhere else, this is one of the most distinctive events on the 2026 Philippine calendar.",
-  "rating": {
-    "overall": 67,
-    "breakdown": [
-      {
-        "label": "32K distance uniqueness",
-        "score": 92
-      },
-      {
-        "label": "Subic venue quality",
-        "score": 85
-      },
-      {
-        "label": "Distance range (4 options)",
-        "score": 72
-      },
-      {
-        "label": "Organiser track record (JCIR)",
-        "score": 55
-      },
-      {
-        "label": "Registration readiness",
-        "score": 35
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "32 Kilometres: The Three-Quarter Marathon Sweet Spot",
@@ -115,8 +90,8 @@
       "answer": "No — registration has not yet been announced. JCIR Events, the regional Philippine race organiser behind the event, has not released pricing, early-bird windows, or race-kit collection details. Given the August date, the registration-to-race-day window is likely to be compressed. Follow JCIR Events on social media and monitor Pinoy Fitness for the announcement. Early-bird pricing is recommended once registration opens. [1]"
     }
   ],
-  "editorial_notes": "Hand-revised from auto-generated stub on 2026-08-08. Expanded from 2 sections/1 FAQ/1 source to 5 sections/5 FAQs/3 sources. Prose is original synthesis.",
-  "last_updated": "2026-08-08",
-  "status": "active",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. No report, results summary or runner account of the August 2026 race or of any earlier edition could be found. The URL redirects to the race listing.",
+  "last_updated": "2026-09-28",
+  "status": "archived",
   "published_at": "2026-08-09T06:00:00.000Z"
 }

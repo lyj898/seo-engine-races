@@ -7,27 +7,6 @@
   "meta_description": "New Clark City Marathon 2026 review: August 16 in Capas, Tarlac, a hilly 42K finishing at NCC Athletics Stadium, now run by Run The North.",
   "dek": "Set for 16 August 2026 in the purpose-built New Clark City sports hub, this marathon closes out a multi-race series with a course organisers openly warn includes four hill climbs -- a change of operator from the 2024 edition adds a note of uncertainty.",
   "verdict": "The New Clark City Marathon takes runners out of Metro Manila's traffic and into a purpose-built government sports complex in Capas, Tarlac, finishing in front of the NCC Athletics Stadium after a route that organisers themselves brand as having 'four heartbreak hills' -- worth taking at face value rather than assuming a flat course. Four distances from 5K to the full marathon, with the marathon as the culminating leg of a broader 2026 New Clark City race series. The wrinkle is that 2026 is organised by Run The North, a different operator than the RUNRIO team that ran the well-regarded 2024 edition, so past participant experience may not fully carry over. No independent race reports exist yet for this new organiser.",
-  "rating": {
-    "overall": 63,
-    "breakdown": [
-      {
-        "label": "Course & venue novelty",
-        "score": 74
-      },
-      {
-        "label": "Distance range",
-        "score": 72
-      },
-      {
-        "label": "Hilly course, honestly disclosed",
-        "score": 55
-      },
-      {
-        "label": "New organiser, no track record",
-        "score": 40
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "A Purpose-Built Sports Hub North of Manila",
@@ -103,8 +82,8 @@
       "answer": "No. The 2026 edition is run by Run The North, while the well-received 2024 edition was organised by RUNRIO. Past participant feedback about course logistics may not directly reflect what to expect under the new operator, since no independent reports exist yet for 2026. [1]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and already-researched entity material (research_highlights/watchouts), plus supplementary background sources. Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. No report, results summary or runner account of the 16 August 2026 race or of any earlier edition could be found. The URL redirects to the race listing.",
   "published_at": "2026-08-09T06:30:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

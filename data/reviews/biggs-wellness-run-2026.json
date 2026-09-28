@@ -7,16 +7,6 @@
   "meta_description": "BIGGS Wellness Run 2026: August 16 at Penaranda Park, Legazpi City. Full and half marathon with the Mayon Volcano as your backdrop — a Bicol road race reviewed.",
   "dek": "Set for 16 August 2026 at Penaranda Park in Legazpi City, Albay, this BIGGS Inc.-organised wellness run offers four distances — 42.2K, 21.1K, 10K, and 5K — with the Mayon Volcano's near-perfect cone dominating the skyline. Registration details have not yet been announced.",
   "verdict": "The BIGGS Wellness Run brings a multi-distance road race to Legazpi City, the capital of Albay province and the gateway to one of the most recognisable volcanic silhouettes on the planet: Mayon Volcano, whose textbook-perfect cone rises 2,463 metres above the Bicol landscape and has been a Philippine national symbol since before the country was a country. Organised by BIGGS Inc. — a Bicol-based fast-food chain with deep regional roots and a brand identity that resonates with locals in a way that a generic corporate sponsor never could — the event offers four distances (42.2K, 21.1K, 10K, and 5K), giving everyone from marathon-distance completists to casual weekend runners a reason to show up. Penaranda Park provides a central, accessible race hub in the heart of Legazpi, though the course itself — if it follows the pattern of other Bicol road races — is likely to be an out-and-back or loop configuration on city roads rather than a scenic volcano-circumnavigation route. August in Albay is deep in the southwest monsoon: expect temperatures in the high 20s Celsius, humidity above 80 percent, and a non-trivial probability of rain, which can make the road surface slick and the atmosphere heavy. The registration situation is the biggest question mark — as of early August 2026, details have not been announced, which makes planning difficult for anyone travelling from outside the Bicol region. That said, for runners who can get to Legazpi and secure a bib, the combination of a genuine Bicol brand, a marathon-distance option, and the Mayon Volcano as a race-day backdrop makes the BIGGS Wellness Run one of the more distinctive entries on the Philippine running calendar.",
-  "rating": {
-    "overall": 64,
-    "breakdown": [
-      { "label": "Mayon Volcano Backdrop", "score": 88 },
-      { "label": "Distance Range", "score": 72 },
-      { "label": "Local Brand Character", "score": 65 },
-      { "label": "Registration Accessibility", "score": 25 },
-      { "label": "Bicol Destination Appeal", "score": 65 }
-    ]
-  },
   "sections": [
     {
       "heading": "Mayon Volcano: Nature's Perfect Cone and the Race-Day Backdrop",
@@ -100,8 +90,8 @@
       "answer": "The race is organised by BIGGS Inc., a Bicol-based fast-food chain with deep regional roots and a strong local brand identity. The event is positioned as part of BIGGS's corporate wellness initiative, which typically means well-resourced race kits, enthusiastic volunteer support from BIGGS employees, and a community-oriented atmosphere that reflects the brand's place in Bicol daily life. It is a provincial road race with local character rather than a big-city production."
     }
   ],
-  "editorial_notes": "Hand-revised from auto-generated stub on 2026-08-08. Expanded from 2 sections/1 FAQ/1 source to 5 sections/5 FAQs/3 sources. Prose is original synthesis.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. No report, results summary or runner account of the August 2026 race or of any earlier edition could be found. The URL redirects to the race listing.",
   "published_at": "2026-08-08T19:45:00.000Z",
-  "last_updated": "2026-08-08",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

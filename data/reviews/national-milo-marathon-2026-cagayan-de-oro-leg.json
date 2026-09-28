@@ -7,27 +7,6 @@
   "meta_description": "MILO Marathon 2026 Cagayan de Oro Leg review: August 23 at Centrio Mall -- a leg that drew 9,300+ runners in 2023 and hosted the 2024 National Finals.",
   "dek": "Set for 23 August 2026 at Centrio Mall, this Cagayan de Oro leg of the 50th-anniversary MILO Marathon has a genuine track record -- 9,300+ runners in 2023, and the city hosted the National Finals for the first time in Mindanao in 2024 with over 12,600 participants.",
   "verdict": "Of all the 2026 MILO Marathon legs, Cagayan de Oro has the strongest recent track record on file. The 2023 edition drew over 9,300 runners and was the first marathon to run along the city's newly opened boulevard; 2024 saw Cagayan de Oro host the National Finals for the first time ever in Mindanao, pulling more than 12,600 participants and introducing a 42K category with a course running to Tagoloan town. That's a genuine growth trajectory, not just marketing copy. Five distances from 1K to 21.1K keep the 2026 leg itself accessible, with Centrio Mall as an anchor venue offering the parking and shelter that community races benefit from.",
-  "rating": {
-    "overall": 79,
-    "breakdown": [
-      {
-        "label": "Track record & growth (2023-24 data)",
-        "score": 90
-      },
-      {
-        "label": "Venue & logistics (mall-anchored)",
-        "score": 78
-      },
-      {
-        "label": "Distance accessibility",
-        "score": 76
-      },
-      {
-        "label": "National Finals prestige (2024 host)",
-        "score": 88
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "A Leg With Real Recent History",
@@ -110,8 +89,8 @@
       "answer": "Yes -- the five-category spread from 1K to 21.1K makes it accessible for first-time racers and families as well as half-marathon runners. It's part of the MILO Marathon's 50th-anniversary 'Golden Run' series of 15 legs nationwide, organised by RUNRIO Inc. [3]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and already-researched entity material (research_highlights/watchouts), plus supplementary background sources. Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. The MILO Marathon has visited Cagayan de Oro before, but no report or runner account of the 23 August 2026 leg, or of the recent earlier ones, could be found; the results page cannot be read without a browser. The URL redirects to the race listing.",
   "published_at": "2026-08-09T06:30:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

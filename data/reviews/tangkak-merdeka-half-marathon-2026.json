@@ -7,16 +7,6 @@
   "meta_description": "Full review of Tangkak Merdeka Half Marathon 2026: inaugural Merdeka-season 21K in Johor's textile capital. Course, weather, organiser controversy, and whether you should run it.",
   "dek": "Set for 16 August 2026 at Dataran Tangkak in Johor, this inaugural Merdeka-season half marathon brings a patriotic 21K to Malaysia's textile capital. Organised by SoldOut Events — a name that has stirred runner controversy in Johor — with registration now closed. Here is what to expect from Tangkak's first Independence Day road race.",
   "verdict": "The Tangkak Merdeka Half Marathon is an inaugural Merdeka-season 21K held at Dataran Tangkak, the town square of Johor's self-styled 'Fabric Town' — a small district capital known for its textile wholesalers, cotton-goods shops, and proximity to Mount Ledang (Gunung Ledang), Johor's highest peak. Timed for Malaysia's Independence Day celebrations in mid-August, the race carries genuine patriotic character, with the red-and-white of the Jalur Gemilang likely to feature heavily in race-kit design and on-course décor. Tangkak sits roughly 2.5 hours by road from both Kuala Lumpur and Singapore, at the Johor-Melaka border, giving it a strategic position that could, in theory, draw runners from two major urban catchments. The reality, however, is complicated by the organiser: SoldOut Events, the same technical team behind the Iskandar Johor Half Marathon and Kluang Half Marathon, was the subject of a joint Tourism Johor statement amid complaints of unresponsive communication — WhatsApp messages going unanswered, phone lines disconnected — and broader runner frustration across three concurrent Johor events. This is the first edition, so there is no course or logistics track record to evaluate. For Johor runners willing to accept the organiser risk in exchange for a hometown Merdeka race, it could be a spirited morning out. For anyone travelling from further afield, the organiser's track record warrants waiting to see whether the inaugural edition delivers before committing to a future one.",
-  "rating": {
-    "overall": 58,
-    "breakdown": [
-      { "label": "Merdeka atmosphere", "score": 72 },
-      { "label": "Tangkak location", "score": 58 },
-      { "label": "Organiser reliability", "score": 25 },
-      { "label": "Registration accessibility", "score": 30 },
-      { "label": "Course potential", "score": 50 }
-    ]
-  },
   "sections": [
     {
       "heading": "Tangkak: Johor's Fabric Town and Gateway to Gunung Ledang",
@@ -106,8 +96,8 @@
       "answer": "August in Johor is the southwest monsoon season: expect temperatures from 24°C at dawn to 32°C by mid-morning, with humidity above 80 percent and a significant chance of afternoon thunderstorms. Hydrate early and often, wear light technical fabric, carry your own electrolytes, and set pacing expectations that account for the heavy equatorial humidity. [3]"
     }
   ],
-  "editorial_notes": "Hand-revised from auto-generated stub on 2026-08-08. Expanded from 2 sections/1 FAQ/1 source to 5 sections/5 FAQs/3 sources. Prose is original synthesis.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. The 16 August 2026 race was billed as Tangkak's first-ever Merdeka Half Marathon, so there is no earlier edition, and no report on the race itself was found. The URL redirects to the race listing.",
   "published_at": "2026-08-08T18:10:00.000Z",
-  "last_updated": "2026-08-08",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

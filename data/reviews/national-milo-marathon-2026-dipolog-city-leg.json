@@ -7,27 +7,6 @@
   "meta_description": "MILO Marathon 2026 Dipolog City Leg review: August 16, four distances, part of MILO's 50th-anniversary Golden Run series in the Orchid City.",
   "dek": "Set for 16 August 2026, this Dipolog City leg is one of 15 stops on the MILO Marathon's 50th-anniversary Golden Run series -- four distances, a schools-heavy field, and a return to the city two decades after it first joined the series.",
   "verdict": "The Dipolog City leg is one of 15 stops on the MILO Marathon's 50th-anniversary 'Golden Run' series, a schools-heavy grassroots circuit running since 1976 that returns to Dipolog two decades after the city first joined its Western Mindanao expansion. Four distances keep it accessible to the roughly 300,000 nationwide entrants, about seven in ten of them students. Dipolog itself -- the fishing-port 'Orchid City' and provincial capital -- is a genuine change of scenery from Manila-centric racing. Registration status is still unconfirmed, so there's a real gap between wanting to run this and actually being able to sign up.",
-  "rating": {
-    "overall": 60,
-    "breakdown": [
-      {
-        "label": "Series heritage & scale",
-        "score": 85
-      },
-      {
-        "label": "Distance accessibility",
-        "score": 78
-      },
-      {
-        "label": "Destination appeal",
-        "score": 62
-      },
-      {
-        "label": "Registration clarity",
-        "score": 25
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "MILO's Golden Run: 50 Years, 15 Legs",
@@ -104,8 +83,8 @@
       "answer": "Not yet confirmed as of this writing. Prospective participants should check the official MILO Marathon site directly for updates before making travel plans around the 16 August 2026 race date. [1]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and already-researched entity material (research_highlights/watchouts), plus supplementary background sources. Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. No report, results summary or runner account of a Dipolog leg, in 2026 or earlier, could be found. The URL redirects to the race listing.",
   "published_at": "2026-08-09T06:30:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }
