@@ -7,27 +7,6 @@
   "meta_description": "Muang Thai Chiang Mai Marathon 2026 review: December 20, starting at the historic Tha Phae Gate and finishing at King Naresuan's monument in Mae Rim.",
   "dek": "Set for 20 December 2026, this marathon starts at Tha Phae Gate -- Chiang Mai's most famous landmark, built in 1296 -- and finishes at the King Naresuan the Great Monument in Mae Rim.",
   "verdict": "The Muang Thai Chiang Mai Marathon offers a genuinely historic point-to-point course: starting at Tha Phae Gate, the eastern gateway of Chiang Mai's 13th-century old city walls (originally built in 1296, reconstructed in 1986), and finishing at the King Naresuan the Great Monument in Mae Rim. Organised by Jog & Joy Co., Ltd. -- the same team behind the Run for Freedom Bitcoin Half Marathon covered elsewhere in this research -- and presented by insurer Muang Thai. Four distances (3K to full marathon) with clear THB 1,500 pricing and open registration make this a well-defined, historically rich pick.",
-  "rating": {
-    "overall": 82,
-    "breakdown": [
-      {
-        "label": "Course historical significance (Tha Phae Gate)",
-        "score": 92
-      },
-      {
-        "label": "Organiser experience (Jog & Joy)",
-        "score": 78
-      },
-      {
-        "label": "Distance range",
-        "score": 78
-      },
-      {
-        "label": "Pricing & registration clarity",
-        "score": 76
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "Starting at Chiang Mai's Most Famous Gate",
@@ -91,8 +70,8 @@
       "answer": "THB 1,500, with registration currently open across all four distances. It's organised by Jog & Joy Co., Ltd., the same team behind Chiang Mai's Run for Freedom Bitcoin Half Marathon, presented by insurer Muang Thai. [1]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. The 20th edition was held on 21 December 2025, but only pre-race information and results listings could be found, with no report describing the race. The URL redirects to the race listing.",
   "published_at": "2026-08-09T09:15:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

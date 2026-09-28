@@ -7,27 +7,6 @@
   "meta_description": "Singlife Cagayan de Oro Marathon 2026 review: December 13 at SM City CDO Uptown -- the Singlife series' Mindanao leg, in a city with proven race capacity.",
   "dek": "Set for 13 December 2026 at SM City CDO Uptown, this is the Mindanao leg of RunRio's Singlife Marathon Majors series -- the same brand family as the Singlife Davao Marathon covered elsewhere in this research.",
   "verdict": "The Singlife Cagayan de Oro Marathon extends the Singlife Philippine Marathon Majors series -- covered at its Davao leg elsewhere in this research -- to CDO, a city with genuinely proven capacity for large-scale races, having hosted the MILO Marathon's Mindanao-first National Finals in 2024 with over 12,600 participants. Four distances (5K to full marathon), registration already open, and a modern SM Uptown venue give this leg real operational strength. As part of a multi-city series, it likely carries similar production values to Davao's debut edition.",
-  "rating": {
-    "overall": 78,
-    "breakdown": [
-      {
-        "label": "Series continuity (Singlife Marathon Majors)",
-        "score": 82
-      },
-      {
-        "label": "City capacity (CDO hosted 2024 MILO Finals)",
-        "score": 86
-      },
-      {
-        "label": "Distance range",
-        "score": 76
-      },
-      {
-        "label": "Registration clarity (already open)",
-        "score": 80
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "Part of the Singlife Marathon Majors Series",
@@ -91,8 +70,8 @@
       "answer": "Yes -- unlike several other RunRio-organised races still awaiting confirmation, registration for the Singlife Cagayan de Oro Marathon is already open, giving runners a clear path to plan travel now. [1]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. No report or runner account of an earlier Singlife Cagayan de Oro Marathon could be found. The URL redirects to the race listing.",
   "published_at": "2026-08-09T09:15:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

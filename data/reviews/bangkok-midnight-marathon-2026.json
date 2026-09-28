@@ -7,27 +7,6 @@
   "meta_description": "Bangkok Midnight Marathon 2026 review: December 20 near the Rama VIII Bridge and Sanam Luang -- a nighttime race on a landmark Chao Phraya crossing.",
   "dek": "Set for 20 December 2026 near Rama VIII Bridge and Sanam Luang, this nighttime race runs on and around one of Bangkok's most recognisable modern landmarks -- a 475-metre cable-stayed bridge over the Chao Phraya River.",
   "verdict": "The Bangkok Midnight Marathon puts runners near a genuine architectural landmark: the Rama VIII Bridge, an asymmetrical cable-stayed bridge with a striking inverted-Y pylon, opened in 2002 and named for King Ananda Mahidol. Its nighttime format echoes the HOKA Midnight Run and VnExpress Midnight races covered elsewhere in this research batch, though organised independently by Taozing Running Club. Two distances (21.098K/10K) with genuinely wide aggregator coverage -- five distinct listings -- suggest solid local visibility despite registration status not yet being confirmed.",
-  "rating": {
-    "overall": 76,
-    "breakdown": [
-      {
-        "label": "Landmark significance (Rama VIII Bridge)",
-        "score": 88
-      },
-      {
-        "label": "Format novelty (nighttime, Sanam Luang area)",
-        "score": 78
-      },
-      {
-        "label": "Aggregator visibility (5 listings)",
-        "score": 74
-      },
-      {
-        "label": "Registration clarity",
-        "score": 32
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "Racing Near an Architectural Landmark",
@@ -91,8 +70,8 @@
       "answer": "The race is listed across five aggregator sites -- AIMS World Running, Ahotu, World's Marathons, AllEvents and PaceBuilder -- but registration status has not yet been confirmed as of this writing. Check these listings for updates. [1]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. A 2025 edition was held (21 December 2025), but only pre-race listings could be found, with nothing describing how it went. The URL redirects to the race listing.",
   "published_at": "2026-08-09T09:15:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }
