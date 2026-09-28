@@ -28,8 +28,11 @@
  *   runners' own accounts exist, and only those can back a rating (see
  *   src/lib/ratings.js hasParticipantEvidence). A completed edition keeps
  *   its page and links forward to the next one, so the review still serves
- *   the reader deciding whether to enter next year. Ordering lives in
- *   scripts/lib/review-selection.js.
+ *   the reader deciding whether to enter next year. An upcoming race is
+ *   reviewed only if an earlier edition of it has already been run; one with
+ *   no past edition is SKIPPED, in every mode including --slugs, and the
+ *   skip is logged with its reason. It qualifies on its own once its first
+ *   edition has run. Selection lives in scripts/lib/review-selection.js.
  *
  * --revise MODE
  *   The one exception to "never overwrites": pass --revise to target thin
@@ -55,7 +58,7 @@
 import siteConfig from '../src/lib/config.js';
 import { reviewSchema } from '../src/lib/schema/index.js';
 import { loadEntities, loadReviews, loadRegions, stripMeta, isReviewableEntity, buildRegionAncestryMap } from '../src/lib/data.js';
-import { orderPastEditionsFirst } from './lib/review-selection.js';
+import { selectReviewCandidates, pastEditionStatus } from './lib/review-selection.js';
 import { writeIfValid } from './lib/write-entity.js';
 import { callClaudeWithWebSearchForJson } from './lib/anthropic-client.js';
 import { buildReviewArticlePrompt } from './lib/prompts.js';
@@ -215,6 +218,15 @@ function citationsResolve(review) {
   return true;
 }
 
+// Every skip is logged with its reason. A race quietly dropped for lacking a
+// past edition would be indistinguishable in the log from one with nothing
+// to review, and this rule removes a lot of candidates on purpose.
+function logSkipped(skipped, label) {
+  if (skipped.length === 0) return;
+  console.log(`[generate-reviews] ${label}: skipped ${skipped.length} with no past edition to review:`);
+  for (const { entity, reason } of skipped) console.log(`  - ${entity.slug}: ${reason}`);
+}
+
 async function run() {
   const limit = argValue('limit', siteConfig.sourceConfig?.reviewPerRunLimit ?? 1);
   const explicitSlugs = argString('slugs').split(',').map((s) => s.trim()).filter(Boolean);
@@ -251,12 +263,19 @@ async function run() {
     queue = [];
     for (const slug of explicitSlugs) {
       const entity = bySlug.get(slug);
-      if (entity) queue.push(entity);
-      else
+      if (!entity) {
         console.log(
           `[generate-reviews] target "${slug}" skipped (unknown, unpublished, or ` +
             `${revise ? 'not a thin review' : 'already reviewed'}).`
         );
+        continue;
+      }
+      // Naming a race does not exempt it from the rule: a review is about an
+      // edition that has been run. The reason is printed so a deliberate
+      // --slugs run never looks like it silently ignored its input.
+      const status = pastEditionStatus(entity, entities, today());
+      if (status.eligible) queue.push(entity);
+      else console.log(`[generate-reviews] target "${slug}" skipped: ${status.reason} -- no past edition to review.`);
     }
     console.log(`[generate-reviews] targeted mode${revise ? ' (revise)' : ''}: ${queue.length} of ${explicitSlugs.length} requested slug(s) eligible.`);
   } else if (revise) {
@@ -269,7 +288,9 @@ async function run() {
       const ancestry = buildRegionAncestryMap(loadRegions().map(stripMeta));
       pool = pool.filter((e) => (ancestry.get(e.region_id) ?? [e.region_id]).includes(regionArg));
     }
-    queue = orderPastEditionsFirst(pool, today()).slice(0, limit + RETRY_DEPTH);
+    const selected = selectReviewCandidates({ pool, allEntities: entities, today: today() });
+    queue = selected.queue.slice(0, limit + RETRY_DEPTH);
+    logSkipped(selected.skipped, 'revise mode');
 
     console.log(
       `[generate-reviews] revise mode: ${existingReviews.length} reviews, ${thinEntityIds.size} thin` +
@@ -311,8 +332,9 @@ async function run() {
     const withMaterial = pool.filter((e) => materialScore(e) >= 2);
     pool = withMaterial.length > 0 ? withMaterial : pool;
 
-    // Completed editions first, most recently run first; upcoming only once
-    // those are exhausted. See scripts/lib/review-selection.js for why.
+    // Only races with a past edition to write about, completed editions first
+    // (most recently run first), then upcoming races that have an earlier
+    // edition on file. See scripts/lib/review-selection.js.
     //
     // Queue MORE candidates than we intend to write. A draft rejected by the
     // pre-write gates below (unresolvable [n], too thin, schema-invalid) used
@@ -322,7 +344,9 @@ async function run() {
     // just falls through to the next candidate; the loop stops as soon as
     // `limit` articles are actually written, so the common case still makes
     // exactly one model call.
-    queue = orderPastEditionsFirst(pool, today()).slice(0, limit + RETRY_DEPTH);
+    const selected = selectReviewCandidates({ pool, allEntities: entities, today: today() });
+    queue = selected.queue.slice(0, limit + RETRY_DEPTH);
+    logSkipped(selected.skipped, 'auto mode');
 
     console.log(
       `[generate-reviews] ${entities.length} reviewable (incl. archived), ${reviewedEntityIds.size} already reviewed, ` +

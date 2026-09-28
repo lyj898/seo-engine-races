@@ -59,3 +59,66 @@ export function findSuccessorEntity(entity, entities) {
 
   return later.length ? later[0].e : null;
 }
+
+/**
+ * Find the most recent EARLIER edition of `entity` that has already been run
+ * -- the mirror of findSuccessorEntity, used to decide whether a race has a
+ * past edition worth reviewing (a review is about an edition that happened;
+ * see scripts/lib/review-selection.js).
+ *
+ * Deliberately NOT built on the slug's trailing year the way
+ * findSuccessorEntity is. Slug years are unreliable in this data: records such
+ * as miri-marathon-2027 and scenic-half-marathon-chanthaburi-2027 hold 2026
+ * dates. So editions are ordered by their real core_facts.date, and two
+ * records count as the same race when EITHER
+ *   - their slugs share a series key once the year and any edition ordinal
+ *     ("-5th-ed", "-11th") are stripped, or
+ *   - their names match once years, ordinals, "powered by"/"presented by"
+ *     tails and punctuation are stripped (8+ characters, so a generic name
+ *     like "Run" cannot match everything).
+ * Checked on 2026-09-28 against every record: six predecessor pairs, both
+ * name-only matches genuinely the same race, and "Kota Kinabalu Marathon"
+ * correctly NOT paired with the separate Kota Kinabalu Half Marathon.
+ *
+ * Conservative by design, and it misses some: a predecessor the data does not
+ * hold, or one whose name was recorded differently, is not found. That is the
+ * safe direction for its only caller -- a race skipped here is reviewed later,
+ * once its own edition has been run -- whereas a wrong match would send a
+ * review off to describe some other event's history.
+ *
+ * @param {object}   entity
+ * @param {object[]} entities  every record to search (archived ones included:
+ *                              predecessors are almost always archived)
+ * @param {string}   [today]   ISO date; defaults to now
+ * @returns {object|null}
+ */
+export function findPredecessorEntity(entity, entities, today) {
+  const t = today ?? new Date().toISOString().slice(0, 10);
+  const dated = (e) => typeof e?.core_facts?.date === 'string' && e.core_facts.date.length >= 10;
+  if (!dated(entity)) return null;
+
+  const slugStem = (e) =>
+    getSeriesKey(e).replace(/-(\d+(st|nd|rd|th)-ed|\d+(st|nd|rd|th))$/, '');
+  const nameStem = (e) =>
+    String(e?.name ?? '')
+      .toLowerCase()
+      .replace(/\b(powered|presented)\s+by\b.*$/, '')
+      .replace(/\b(19|20)\d\d\b/g, '')
+      .replace(/\b\d+(st|nd|rd|th)\b/g, '')
+      .replace(/[^a-z0-9]/g, '');
+
+  const mySlug = slugStem(entity);
+  const myName = nameStem(entity);
+  const earlier = entities
+    .filter(
+      (e) =>
+        e.entity_id !== entity.entity_id &&
+        dated(e) &&
+        isLapsed(e, t) &&
+        e.core_facts.date < entity.core_facts.date &&
+        (slugStem(e) === mySlug || (myName.length >= 8 && nameStem(e) === myName))
+    )
+    .sort((a, b) => b.core_facts.date.localeCompare(a.core_facts.date));
+
+  return earlier.length ? earlier[0] : null;
+}
