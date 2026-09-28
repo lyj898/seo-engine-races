@@ -1,50 +1,47 @@
 {
   "entity_id": "borneo-international-marathon-borneo-half-marathon-2027",
   "slug": "borneo-international-marathon-borneo-half-marathon-2027",
-  "name": "Borneo International Marathon / Borneo Half Marathon 2027",
+  "name": "Borneo International Marathon 2026",
   "category_id": "full-marathon",
   "region_id": "malaysia",
-  "short_description": "A sold-out full marathon (42.195 km) and half marathon (21.1 km) held 7 May 2026 in Kota Kinabalu, Sabah, Malaysia.",
-  "ai_summary": "The Borneo International Marathon / Borneo Half Marathon is scheduled for 7 May 2026 in Kota Kinabalu, Sabah, Malaysia, with the start and finish based around the Likas Stadium area. Runners can choose between a full marathon (42.195 km) and a half marathon (21.1 km), both organized by the Kinabalu Running Club. Registration for this edition is currently sold out, so those interested in participating will need to look ahead to future editions.",
+  "short_description": "The Borneo International Marathon was run on Sunday 10 May 2026 from Likas Sports Complex in Kota Kinabalu, Sabah, over the marathon, half marathon and 10 km.",
+  "ai_summary": "The 2026 Borneo International Marathon was held on Sunday 10 May 2026, starting and finishing at Likas Sports Complex in Kota Kinabalu, Sabah, within a wider race weekend that ran from 7 to 10 May. It offered three distances: the full marathon, a half marathon and a 10 km. The race is organised by the Kinabalu Running Club, which founded it in 2008, and is an AIMS member race. It is a separate event from the Borneo Half Marathon, which the same club stages in Kota Kinabalu each January or February.",
   "core_facts": {
-    "date": "2026-05-07",
+    "date": "2026-05-10",
     "distance_km": [
-      42.195,
-      21.1
+      10,
+      21.1,
+      42.195
     ],
     "primary_distance_km": 42.195,
     "organizer": "Kinabalu Running Club",
-    "registration_status": "sold_out",
-    "venue": "Likas Stadium area, Kota Kinabalu, Sabah",
+    "venue": "Likas Sports Complex, Kota Kinabalu",
     "city": "Kota Kinabalu, Sabah",
     "country": "Malaysia"
   },
   "pros": [
-    "Offers two distance options, a full marathon and a half marathon, for different runner goals",
-    "Set in Kota Kinabalu, Sabah, giving it a distinct Malaysian/Borneo destination-race identity",
-    "Organized by an established local body, the Kinabalu Running Club",
-    "Strong demand is evident since registration has already sold out"
+    "Three distances: the full marathon, a half marathon and a 10 km",
+    "Organised by the Kinabalu Running Club, which has run it since 2008",
+    "An AIMS member race, on a course starting and finishing at Likas Sports Complex"
   ],
-  "cons": [
-    "Registration is sold out, so new entrants cannot currently sign up for this edition"
-  ],
+  "cons": [],
   "excerpt_quotes": [],
   "faqs": [
     {
-      "question": "Where is the Borneo International Marathon held?",
-      "answer": "The race takes place in the Likas Stadium area of Kota Kinabalu, in the state of Sabah, Malaysia. This venue serves as the base for the event, which is organized by the Kinabalu Running Club and draws runners to this specific location on the island of Borneo."
+      "question": "When was the 2026 Borneo International Marathon?",
+      "answer": "Sunday 10 May 2026, starting and finishing at Likas Sports Complex in Kota Kinabalu, Sabah. The race sat within a wider race weekend running from 7 to 10 May. The next edition is scheduled for Sunday 16 May 2027."
     },
     {
-      "question": "What distances are offered at this event?",
-      "answer": "The event offers two distance categories: a full marathon covering 42.195 km and a half marathon covering 21.1 km. This gives participants the choice to take on either the complete marathon distance or the shorter half marathon option, depending on their training and goals."
+      "question": "What distances did the 2026 Borneo International Marathon offer?",
+      "answer": "Three: the full marathon, a half marathon and a 10 km run, all based at Likas Sports Complex in Kota Kinabalu. The full marathon is the headline distance and the reason the event carries the name Borneo International Marathon."
     },
     {
-      "question": "Can I still register for this race?",
-      "answer": "No, registration for this edition of the Borneo International Marathon / Borneo Half Marathon is currently listed as sold out. Prospective participants who missed signing up will need to wait for registration to potentially reopen for a future edition of the event."
+      "question": "Is the Borneo International Marathon the same as the Borneo Half Marathon?",
+      "answer": "No. Both are organised by the Kinabalu Running Club in Kota Kinabalu, but they are separate events. The Borneo International Marathon, with the full marathon, is held in May; the Borneo Half Marathon is held in January or February around Kota Kinabalu City Day."
     },
     {
-      "question": "Who organizes the Borneo International Marathon?",
-      "answer": "The event is organized by the Kinabalu Running Club, a local organization based in Sabah, Malaysia. They oversee the planning and execution of both the full marathon and half marathon races held around the Likas Stadium area in Kota Kinabalu."
+      "question": "Who organises the Borneo International Marathon?",
+      "answer": "The Kinabalu Running Club, a Sabah-based club that founded the race in 2008. The first edition, on 12 October that year, drew 529 runners. The race is now an AIMS member event and has moved to a May date in Kota Kinabalu."
     }
   ],
   "reliability_score": 68,
@@ -55,21 +52,21 @@
   "source_mix": [
     {
       "url": "https://borneomarathon.com",
-      "label": "Official race website",
+      "label": "Borneo International Marathon official site -- 7 to 10 May 2026 race weekend",
       "type": "official",
-      "last_checked": "2026-07-31"
+      "last_checked": "2026-09-28"
     },
     {
-      "url": "https://aims-worldrunning.org/calendar.html",
-      "label": "aims-worldrunning.org",
+      "url": "https://worldsmarathons.com/marathon/borneo-international-marathon",
+      "label": "World's Marathons -- race day Sunday 10 May 2026, Likas Sports Complex, 42/21/10 km",
       "type": "aggregator",
-      "last_checked": "2026-07-16"
+      "last_checked": "2026-09-28"
     },
     {
-      "url": "https://borneohalfmarathon.com",
-      "label": "borneohalfmarathon.com",
+      "url": "https://aims-worldrunning.org/races/10055.html",
+      "label": "AIMS race information -- organiser Kinabalu Running Club",
       "type": "aggregator",
-      "last_checked": "2026-07-16"
+      "last_checked": "2026-09-28"
     }
   ],
   "affiliate_links": [],
@@ -81,6 +78,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-09-28",
   "status": "archived"
 }
