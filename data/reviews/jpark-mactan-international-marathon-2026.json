@@ -7,27 +7,6 @@
   "meta_description": "Jpark Mactan International Marathon 2026 review: October 11 on Mactan Island -- a resort-backed marathon from the same organiser as Bohol's marathon.",
   "dek": "Set for 11 October 2026 on Mactan Island, Lapu-Lapu City, this marathon is organised by the same team behind the long-running Bohol International Marathon, partnering with Jpark Island Resort on Cebu's high-tourism, high-industry island.",
   "verdict": "The Jpark Mactan International Marathon carries a meaningful credibility signal: it's organised by the same team behind the Bohol International Marathon, a race with over a decade of continuous history covered elsewhere in this research. Partnering with Jpark Island Resort puts the race on Mactan Island -- a densely populated (526,620 residents, 2024) island that combines high-end tourism resorts with the Mactan Export Processing Zone's industrial base, connected to Cebu proper via two bridges. Four distances (5K to the full marathon) and open registration make this an accessible, resort-backed race with real organisational pedigree behind it, even without independent reviews specific to this exact event.",
-  "rating": {
-    "overall": 74,
-    "breakdown": [
-      {
-        "label": "Organiser pedigree (Bohol Marathon team)",
-        "score": 84
-      },
-      {
-        "label": "Resort backing (Jpark Island Resort)",
-        "score": 76
-      },
-      {
-        "label": "Destination appeal (Mactan Island)",
-        "score": 78
-      },
-      {
-        "label": "Independent reviews for this specific race",
-        "score": 40
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "The Bohol Marathon Team's Cebu Race",
@@ -91,8 +70,8 @@
       "answer": "Four: 5K, 10K, 21.1K, and the 42.195K full marathon, held 11 October 2026 on Mactan Island, Lapu-Lapu City. Registration is currently open, and the race is paired with resort amenities via Jpark Island Resort. [1]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. The 11 October 2026 race is the first edition, so there is no earlier one to review. The URL redirects to the race listing.",
   "published_at": "2026-08-09T08:00:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

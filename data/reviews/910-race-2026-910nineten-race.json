@@ -2,61 +2,31 @@
   "review_id": "910-race-2026-910nineten-race",
   "slug": "910-race-2026-910nineten-race",
   "entity_id": "910-race-2026-910nineten-race",
-  "title": "910 Race 2026 Review: A Shoe Brand's Own Race at ICE BSD",
-  "seo_title": "910 Race 2026 Review (Nineten Race) | Tangerang",
-  "meta_description": "910 Race 2026 review: October 11 at ICE BSD City -- Indonesian running-shoe brand 910 Nineten's own race, with distances from 5K to half marathon.",
-  "dek": "Set for 11 October 2026 at Indonesia Convention Exhibition, BSD City, this race is organised directly by 910 Nineten, an Indonesian running-shoe brand -- a genuinely rare case of a shoe maker running its own event rather than just sponsoring one.",
-  "verdict": "The 910 Race stands out for one specific reason: it's organised directly by 910 Nineten, an Indonesian running-shoe brand, rather than a shoe company merely sponsoring someone else's event. That's a meaningfully different relationship than the branded races elsewhere in this research batch (Garmin, Pocari Sweat, Isoplus) -- 910 presumably has direct incentive to showcase its own product on a course it fully controls. Three distances (21.1K/10K/5K) at ICE BSD, a major exhibition venue in Greater Jakarta, give it solid infrastructure. Pricing (IDR 379,000-679,000) is mid-range, and registration is open.",
-  "rating": {
-    "overall": 70,
-    "breakdown": [
-      {
-        "label": "Direct brand ownership (unique model)",
-        "score": 78
-      },
-      {
-        "label": "Venue infrastructure (ICE BSD)",
-        "score": 78
-      },
-      {
-        "label": "Distance range & pricing",
-        "score": 72
-      },
-      {
-        "label": "Independent reviews",
-        "score": 40
-      }
-    ]
-  },
+  "title": "910 Race 2026 Review: What the First 910Nineten Race Was Like",
+  "seo_title": "910 Race 2026 Review | 910Nineten Race, ICE BSD",
+  "meta_description": "910Nineten Race review: the first edition drew 2,000-2,500 runners to ICE BSD on 9 November 2025, on a wide, flat route with two flyovers. What to expect in 2026.",
+  "dek": "Indonesian shoe brand 910 Nineten staged its own race for the first time at ICE BSD in November 2025. Here is what that first edition was like, ahead of the second.",
+  "verdict": "The 910Nineten Race is a local brand's own race, and its first edition went well by the accounts published. It was held on Sunday 9 November 2025 at ICE BSD in Tangerang, with the 5 km, 10 km and half marathon [1][2]. Reports put the field at about 2,000 [1] to 2,500 runners [2], from beginners to national athletes [1]. The route ran through BSD City's green areas on wide, flat, well-kept roads, with two flyovers for a challenge [1]. If you want a half marathon near Jakarta on a flat, tidy course, it is worth a look.",
   "sections": [
     {
-      "heading": "A Shoe Brand Running Its Own Race",
+      "heading": "The First Edition",
       "paragraphs": [
-        "910 Race is organised by 910 Nineten, an Indonesian running-shoe brand, at ICE BSD (Indonesia Convention Exhibition) in BSD City, Tangerang. [1] That's a distinctive setup: rather than sponsoring an existing race the way Garmin, Pocari Sweat or Isoplus do at events covered elsewhere in this research batch, 910 organises and presumably designs this event itself -- giving the brand direct control over the runner experience it wants to showcase."
+        "The race was held on Sunday 9 November 2025 at the Indonesia Convention Exhibition (ICE) in BSD City, Tangerang [1][2]. Reports give the field as about 2,000 [1] or 2,500 [2], from beginners to national athletes [1].",
+        "It was the first time the Indonesian running-shoe brand 910 Nineten had organised its own race [1][2], and the brand used it to launch a new racing shoe [1]."
       ]
     },
     {
-      "heading": "Three Distances at a Major Exhibition Venue",
+      "heading": "The Route",
       "paragraphs": [
-        "The race offers 21.1K, 10K and 5K distances, with regular pricing of IDR 679,000 for the half marathon, 479,000 for the 10K, and 379,000 for the 5K. [1] ICE BSD sits within BSD City, one of Greater Jakarta's largest planned townships (roughly 6,000 hectares, home to about 500,000 people), giving the venue purpose-built infrastructure similar to how the Garmin Run Asia Series covered elsewhere in this research uses the same exhibition centre. [2]"
+        "The route passed through the green areas of BSD City [1]. Runners had wide, flat, well-kept roads, with two flyovers adding some challenge [1]."
       ]
     },
     {
-      "heading": "What a Shoe Brand's Own Race Might Mean",
+      "heading": "Should You Enter the 2026 Race?",
       "paragraphs": [
-        "Races organised directly by equipment brands often lean into product demos, fitting stations, and closer integration between the race-day experience and the sponsor's actual gear -- a reasonable expectation here given 910's direct organisational role, though available material doesn't detail the specific race-day activations planned."
-      ]
-    },
-    {
-      "heading": "Registration and Pricing",
-      "paragraphs": [
-        "Registration is currently open, with pricing in a mid-range band relative to other Indonesian races in this research batch (Solo Run Fest's Rp 200,000-650,000 range, for comparison). [1] No independent participant reviews were found for this specific event, consistent with several other newer or brand-specific races in this research."
-      ]
-    },
-    {
-      "heading": "Should You Run It?",
-      "paragraphs": [
-        "If you're curious what a running-shoe brand's own race looks like when they're not just a sponsor but the actual organiser, the 910 Race on 11 October 2026 is worth trying, especially if you already run in 910's shoes. Registration is open now across all three distances."
+        "If you want a half marathon near Jakarta on a flat, well-surfaced course, yes. The first edition was a manageable size.",
+        "It is a young event from a brand, so expect the race to be used to promote the brand's shoes. That does not affect the running, but it shapes the atmosphere.",
+        "This review is compiled from published reporting on the first edition. It is not a first-hand race report, and nobody from this site ran the race."
       ]
     }
   ],
@@ -64,35 +34,35 @@
   "sources": [
     {
       "n": 1,
-      "label": "910 Race 2026 — official site",
-      "publisher": "910 Nineten",
-      "url": "https://910.id",
-      "type": "official"
+      "label": "Report on the first 910Nineten Race: 2,000 runners, route and shoe launch",
+      "publisher": "Cerita Pelari",
+      "url": "https://ceritapelari.com/2-000-pelari-ramaikan-ajang-perdana-910nineten-race-2025-di-ice-bsd/",
+      "type": "news"
     },
     {
       "n": 2,
-      "label": "BSD City — Wikipedia",
-      "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/BSD_City",
-      "type": "other"
+      "label": "Report on the first 910Nineten Race: 2,500 participants",
+      "publisher": "Indozone",
+      "url": "https://arena.indozone.id/tribune/2486437898/bawa-misi-sehatkan-indonesia-910-nineten-race-diikuti-2500-peserta",
+      "type": "news"
     }
   ],
   "faqs": [
     {
+      "question": "How many people ran the first 910Nineten Race?",
+      "answer": "Between about 2,000 and 2,500, depending on the report, on Sunday 9 November 2025 at ICE BSD, Tangerang. The field ranged from beginners to national athletes across the 5 km, 10 km and half marathon."
+    },
+    {
+      "question": "What is the 910Nineten Race route like?",
+      "answer": "Flat and wide. In 2025 the route ran through the green areas of BSD City on wide, well-kept roads, with two flyovers adding a little climbing. It suits runners who want steady pacing."
+    },
+    {
       "question": "Who organises the 910 Race?",
-      "answer": "910 Nineten, an Indonesian running-shoe brand, organises the race directly -- rather than merely sponsoring someone else's event, as several other brand-backed races in the region do. It's held at ICE BSD City on 11 October 2026. [1]"
-    },
-    {
-      "question": "What distances and pricing are offered?",
-      "answer": "Three distances: 21.1K (IDR 679,000), 10K (IDR 479,000), and 5K (IDR 379,000) at regular pricing. Registration is currently open through the official 910 website, with the race held at ICE BSD City on 11 October 2026. [1]"
-    },
-    {
-      "question": "What is ICE BSD City?",
-      "answer": "A major exhibition and convention venue within BSD City, one of Greater Jakarta's largest planned townships, spanning roughly 6,000 hectares with about 500,000 residents -- purpose-built infrastructure well suited to large-scale events. [2]"
+      "answer": "910 Nineten, an Indonesian running-shoe brand. The 2025 race was the first time the brand had staged its own event, and it used it to launch a new racing shoe."
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Rewritten 2026-09-28 about the first edition (9 November 2025). Replaces a pre-race preview. The two reports differ on field size (2,000 or 2,500); both are given. No rating.",
   "published_at": "2026-08-09T08:00:00.000Z",
-  "last_updated": "2026-08-09",
+  "last_updated": "2026-09-28",
   "status": "active"
 }

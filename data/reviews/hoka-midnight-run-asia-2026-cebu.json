@@ -7,27 +7,6 @@
   "meta_description": "HOKA Midnight Run Asia 2026 Cebu review: October 11 -- a nighttime race format brought by premium running-shoe brand HOKA to Metro Cebu.",
   "dek": "Set for 11 October 2026, this Cebu leg brings HOKA's Midnight Run Asia format -- a nighttime race concept -- to the same city that hosts the MILO Marathon's biggest regional field.",
   "verdict": "HOKA Midnight Run Asia's Cebu leg carries the backing of HOKA, a premium performance running-shoe brand with a genuinely strong reputation among distance runners -- a different brand tier from the general sportswear sponsors seen at most other races in this research batch. The 'Midnight Run' concept implies a nighttime race format, distinct from the pre-dawn starts typical of most Philippine road races, which could mean a genuinely different runner experience (cooler temperatures, different crowd energy). Registration status wasn't yet announced at the time of this research, and no independent participant reviews were found for this specific race.",
-  "rating": {
-    "overall": 65,
-    "breakdown": [
-      {
-        "label": "Brand prestige (HOKA)",
-        "score": 82
-      },
-      {
-        "label": "Format novelty (nighttime race)",
-        "score": 76
-      },
-      {
-        "label": "City infrastructure (Cebu)",
-        "score": 74
-      },
-      {
-        "label": "Registration clarity & reviews",
-        "score": 30
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "A Premium Shoe Brand's Nighttime Race",
@@ -91,8 +70,8 @@
       "answer": "No independent participant reviews were found for this specific race in research. It's likely a newer addition to RunRio's calendar of branded events, similar to several other under-covered races in this research batch. [1]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. A 2025 Cebu edition was held (30 November 2025, per listings), but no report or runner account of it could be found. The URL redirects to the race listing.",
   "published_at": "2026-08-09T08:00:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }

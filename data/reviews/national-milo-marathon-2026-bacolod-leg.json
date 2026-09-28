@@ -7,27 +7,6 @@
   "meta_description": "MILO Marathon 2026 Bacolod Leg review: October 4 -- part of the 50th-anniversary Golden Run series in the Visayas' second most populous city.",
   "dek": "Set for 4 October 2026, this Bacolod leg is one of 15 stops on the MILO Marathon's 50th-anniversary Golden Run series, held in Negros Occidental's capital -- the second most populous city in the entire Visayas after Cebu City.",
   "verdict": "The Bacolod leg brings the MILO Marathon's Golden Run series to a genuinely major regional city -- capital of Negros Occidental, and with over 600,000 residents, the second most populous city in the entire Visayas after Cebu City. That scale gives Bacolod real capacity to host a large-field regional leg, even without the extreme historical turnout numbers seen at Cebu specifically. Five distances from 1K to 21K keep it broadly accessible, and the leg carries the same 50th-anniversary institutional weight as every other 2026 stop in the series. Registration status wasn't yet confirmed open at the time of this research.",
-  "rating": {
-    "overall": 71,
-    "breakdown": [
-      {
-        "label": "City scale (2nd-largest Visayas city)",
-        "score": 84
-      },
-      {
-        "label": "Series heritage (50th-anniversary)",
-        "score": 85
-      },
-      {
-        "label": "Distance accessibility",
-        "score": 76
-      },
-      {
-        "label": "Registration clarity",
-        "score": 40
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "One of 15 Legs in the Golden Run",
@@ -91,8 +70,8 @@
       "answer": "Not yet confirmed as of this writing. Prospective participants should check the official MILO Marathon site directly for updates before booking travel around the 4 October 2026 race date. [1]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. No report or runner account of a Bacolod leg, in 2025 or earlier, could be found. The URL redirects to the race listing.",
   "published_at": "2026-08-09T07:45:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }
