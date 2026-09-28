@@ -14,6 +14,8 @@
  * "Content safety" section of README.md.
  */
 
+import { isLapsed } from '../../src/lib/succession.js';
+
 const NO_INVENTION_RULE =
   'Critical rule: you must never invent, guess, or infer a fact that is not explicitly stated in the ' +
   'provided source material. If information is not present, omit that field entirely rather than estimate ' +
@@ -284,10 +286,28 @@ export function buildReviewArticlePrompt({ siteConfig, entity }) {
   const seedHighlights = entity.research_highlights?.length > 0 ? entity.research_highlights.map((h) => `- ${h}`).join('\n') : '(none on file)';
   const seedWatchouts = entity.research_watchouts?.length > 0 ? entity.research_watchouts.map((w) => `- ${w}`).join('\n') : '(none on file)';
 
+  // Whether THIS edition has been run. Without it the model has no way to
+  // tell a race that finished last month from one that is ten months away,
+  // and wrote both as previews -- "should you run it?" about an event that
+  // was already over. isLapsed is the site's own predicate, so the prompt
+  // and the page's "this edition has already taken place" banner agree.
+  const lapsed = isLapsed(entity);
+  const editionFraming = lapsed
+    ? `This edition has ALREADY BEEN RUN (on ${facts.date}). Write about how it went: the field, the course on ` +
+      `the day, conditions, organisation, and what runners and reports said afterwards. Use the past tense for ` +
+      `this edition. Close by helping the reader decide whether to enter the NEXT edition -- do not write as if ` +
+      `this one can still be entered.`
+    : `This edition has NOT been run yet${facts.date ? ` (it is on ${facts.date})` : ''}. Do not write a preview. ` +
+      `Ground the review in PREVIOUS editions of this event -- how they went, the field, the course, the ` +
+      `organisation, what runners said -- and use that to help the reader decide whether to enter this one. ` +
+      `Make clear which year each observation comes from. Only state facts about this edition that core_facts ` +
+      `or the official site actually give.`;
+
   const system =
     `You are a running writer producing an independent review article for ${siteName}, a ${entityLabelSingular} ` +
-    `directory. Write the way a knowledgeable enthusiast magazine would: specific, honest, useful to someone ` +
-    `deciding whether to enter. ${NO_INVENTION_RULE}\n\n` +
+    `directory. Write the way a knowledgeable enthusiast magazine would: specific, honest, and grounded in ` +
+    `editions of the event that have actually been run -- a review is about what happened, never a preview ` +
+    `of what might. ${NO_INVENTION_RULE}\n\n` +
     'COPYRIGHT AND ATTRIBUTION -- non-negotiable:\n' +
     '- All body prose must be YOUR OWN original synthesis. Never copy or lightly reword a sentence from a source ' +
     'into the article body.\n' +
@@ -311,6 +331,8 @@ export function buildReviewArticlePrompt({ siteConfig, entity }) {
 ${entityLabelSingular}: ${entity.name}
 ${location ? `Location: ${location}\n` : ''}${facts.date ? `Date: ${facts.date}\n` : ''}Known facts (core_facts, treat as authoritative for dates/distances/prices): ${JSON.stringify(facts)}
 
+${editionFraming}
+
 Seed material already gathered (verify and build on it; search the web for more recent race reports, reviews and news about this event and prior editions):
 Quotes on file:
 ${seedQuotes}
@@ -326,8 +348,8 @@ Produce a JSON object with EXACTLY these fields:
 - meta_description (string, <= 155 chars): a compelling search-result summary.
 - dek (string, 1-2 sentences): a standfirst under the headline.
 - verdict (string, 60-110 words): the bottom-line take -- what this ${entityLabelSingular} is like and who it suits.
-- rating (object {"overall": 0-100, "breakdown": [{"label","score"}]}) : 3-5 breakdown rows reflecting what people actually comment on (course, organisation, atmosphere, difficulty). Base it on the sentiment in the material; do not invent precision.
-- sections (array of 4-6 objects {"heading", "paragraphs": [string,...]}): the body. Each paragraph is plain prose containing inline [n] citation markers. Cover the course/terrain, conditions, organisation/logistics, competitiveness or atmosphere, and a "should you run it" close. Keep paragraphs tight (2-4 sentences).
+- rating (object {"overall": 0-100, "breakdown": [{"label","score"}]}) : ONLY if your sources include participant material -- a race report, a runner's blog or social post (source type review or social), or a pull_quote from a runner. Then give 3-5 breakdown rows reflecting what runners actually said (course, organisation, atmosphere, difficulty). If the only sources are news, official pages or calendars, OMIT the rating field entirely: those describe how an event was run, not how runners rated it, and a score without runners behind it is invention. The site will not display an unbacked score anyway.
+- sections (array of 4-6 objects {"heading", "paragraphs": [string,...]}): the body. Each paragraph is plain prose containing inline [n] citation markers. Cover the course/terrain, conditions, organisation/logistics, competitiveness or atmosphere, and close by helping the reader decide whether to enter the next edition. Keep paragraphs tight (2-4 sentences).
 - pull_quotes (array of 0-3 objects {"quote","attribution","source_url"}): short, attributed, real. 18 words max each.
 - sources (array of 2-6 objects {"n": integer, "label", "publisher", "url", "type": one of official|registration_platform|aggregator|review|social|news|other}): every [n] used in the body MUST appear here. Include the official site as one source.
 - faqs (array of 3-4 objects {"question","answer"}): real search questions; each answer a direct 40-60 words grounded in the material.

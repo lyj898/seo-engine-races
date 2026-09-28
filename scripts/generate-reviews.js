@@ -19,9 +19,17 @@
  * SELECTION / COST
  *   One article per run by default (sourceConfig.reviewPerRunLimit). Entities
  *   with real research material on file are preferred (a review needs
- *   substance), and upcoming events are chosen before past ones -- the review
- *   is most useful while people can still enter. Lapsed events still get
- *   reviewed eventually; the review page links forward to the next edition.
+ *   substance), and COMPLETED editions are chosen before upcoming ones, most
+ *   recently run first. This reversed on 2026-09-28. The old order picked
+ *   upcoming events first on the theory that a review is most useful while
+ *   people can still enter -- which produced 206 of the 215 reviews on file
+ *   before their race had been run, 202 of them carrying a score. A review
+ *   is about an edition that has happened: only then do race reports and
+ *   runners' own accounts exist, and only those can back a rating (see
+ *   src/lib/ratings.js hasParticipantEvidence). A completed edition keeps
+ *   its page and links forward to the next one, so the review still serves
+ *   the reader deciding whether to enter next year. Ordering lives in
+ *   scripts/lib/review-selection.js.
  *
  * --revise MODE
  *   The one exception to "never overwrites": pass --revise to target thin
@@ -46,7 +54,8 @@
  */
 import siteConfig from '../src/lib/config.js';
 import { reviewSchema } from '../src/lib/schema/index.js';
-import { loadEntities, loadReviews, loadRegions, stripMeta, isPublished, buildRegionAncestryMap } from '../src/lib/data.js';
+import { loadEntities, loadReviews, loadRegions, stripMeta, isReviewableEntity, buildRegionAncestryMap } from '../src/lib/data.js';
+import { orderPastEditionsFirst } from './lib/review-selection.js';
 import { writeIfValid } from './lib/write-entity.js';
 import { callClaudeWithWebSearchForJson } from './lib/anthropic-client.js';
 import { buildReviewArticlePrompt } from './lib/prompts.js';
@@ -214,7 +223,14 @@ async function run() {
   const revise = process.argv.includes('--revise');
   const minIntervalHours = siteConfig.sourceConfig?.reviewMinIntervalHours ?? 11;
 
-  const entities = loadEntities().map(stripMeta).filter(isPublished);
+  // isReviewableEntity, not isPublished. Every review is about an edition
+  // that has been run, and a race is archived the week after it runs -- so
+  // under isPublished the completed editions this script now prioritises
+  // were excluded from the pool before any ordering was applied. Measured on
+  // 2026-09-28: 21 completed editions had no review, all 21 archived, and
+  // exactly zero were reachable. Archived races keep their page (see
+  // [entityType]/[slug].astro), so a review of one has somewhere to render.
+  const entities = loadEntities().map(stripMeta).filter(isReviewableEntity);
   const existingReviews = loadReviews().map(stripMeta);
   const reviewedEntityIds = new Set(existingReviews.map((r) => r.entity_id));
 
@@ -253,12 +269,7 @@ async function run() {
       const ancestry = buildRegionAncestryMap(loadRegions().map(stripMeta));
       pool = pool.filter((e) => (ancestry.get(e.region_id) ?? [e.region_id]).includes(regionArg));
     }
-    const t = today();
-    const upcoming = pool
-      .filter((e) => typeof e.core_facts?.date === 'string' && e.core_facts.date >= t)
-      .sort((a, b) => a.core_facts.date.localeCompare(b.core_facts.date));
-    const rest = pool.filter((e) => !(typeof e.core_facts?.date === 'string' && e.core_facts.date >= t));
-    queue = [...upcoming, ...rest].slice(0, limit + RETRY_DEPTH);
+    queue = orderPastEditionsFirst(pool, today()).slice(0, limit + RETRY_DEPTH);
 
     console.log(
       `[generate-reviews] revise mode: ${existingReviews.length} reviews, ${thinEntityIds.size} thin` +
@@ -290,7 +301,7 @@ async function run() {
 
     // Auto mode: prefer entities we already hold material on (a review needs
     // substance), optionally scoped to one region (+ its child regions), then
-    // soonest-upcoming first. Capped at limit + RETRY_DEPTH; see below for why
+    // completed editions first. Capped at limit + RETRY_DEPTH; see below for why
     // the queue is deliberately longer than the number we intend to publish.
     let pool = missing;
     if (regionArg) {
@@ -300,11 +311,9 @@ async function run() {
     const withMaterial = pool.filter((e) => materialScore(e) >= 2);
     pool = withMaterial.length > 0 ? withMaterial : pool;
 
-    const t = today();
-    const upcoming = pool
-      .filter((e) => typeof e.core_facts?.date === 'string' && e.core_facts.date >= t)
-      .sort((a, b) => a.core_facts.date.localeCompare(b.core_facts.date));
-    const rest = pool.filter((e) => !(typeof e.core_facts?.date === 'string' && e.core_facts.date >= t));
+    // Completed editions first, most recently run first; upcoming only once
+    // those are exhausted. See scripts/lib/review-selection.js for why.
+    //
     // Queue MORE candidates than we intend to write. A draft rejected by the
     // pre-write gates below (unresolvable [n], too thin, schema-invalid) used
     // to cost the entire run's article -- with limit=1 and one bad draft, a
@@ -313,10 +322,10 @@ async function run() {
     // just falls through to the next candidate; the loop stops as soon as
     // `limit` articles are actually written, so the common case still makes
     // exactly one model call.
-    queue = [...upcoming, ...rest].slice(0, limit + RETRY_DEPTH);
+    queue = orderPastEditionsFirst(pool, today()).slice(0, limit + RETRY_DEPTH);
 
     console.log(
-      `[generate-reviews] ${entities.length} published, ${reviewedEntityIds.size} already reviewed, ` +
+      `[generate-reviews] ${entities.length} reviewable (incl. archived), ${reviewedEntityIds.size} already reviewed, ` +
         `${missing.length} without a review${regionArg ? ` (${pool.length} in region "${regionArg}")` : ''}. ` +
         `Writing up to ${limit} this run (${queue.length} candidate(s) queued for retry headroom).`
     );
