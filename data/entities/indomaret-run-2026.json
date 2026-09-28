@@ -1,0 +1,60 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "indonesia",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-28",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "indomaret-run-2026",
+  "slug": "indomaret-run-2026",
+  "name": "Indomaret Run 2026",
+  "short_description": "Indomaret Run 2026 is on Sunday 22 November 2026 from SPIKE Airdome at PIK2, over 5 km, 10 km and 21 km.",
+  "ai_summary": "Indomaret Run 2026 takes place on Sunday 22 November 2026, based at SPIKE Airdome in PIK2 on the northern edge of Greater Jakarta. It offers 5 km, 10 km and a 21 km half marathon, and is named for Indomaret, the Indonesian convenience-store chain.",
+  "core_facts": {
+    "date": "2026-11-22",
+    "distance_km": [
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "SPIKE Airdome, PIK2",
+    "city": "Tangerang, Banten",
+    "country": "Indonesia"
+  },
+  "faqs": [
+    {
+      "question": "When is Indomaret Run 2026?",
+      "answer": "Sunday 22 November 2026, in PIK2, starting from SPIKE Airdome. Indonesian road races start before dawn to avoid the heat, so expect a very early flag-off and plan transport to the start the night before rather than on the morning."
+    },
+    {
+      "question": "What distances does Indomaret Run 2026 offer?",
+      "answer": "Three: 5 km, 10 km and a 21 km half marathon. The half marathon is the headline distance, and the shorter races are aimed at newer runners and those who want a faster morning. Entry fees and cut-off times are set by the organiser, so check the official registration page before entering."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "indonesia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://kalenderlari.com/events/indomaret-run-2026/",
+      "label": "Kalender Lari event page",
+      "type": "aggregator",
+      "last_checked": "2026-09-28"
+    },
+    {
+      "url": "https://jadwallari.id/events/indomaret-run/",
+      "label": "JadwalLari.id event page",
+      "type": "aggregator",
+      "last_checked": "2026-09-28"
+    }
+  ]
+}

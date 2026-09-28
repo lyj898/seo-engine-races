@@ -1,0 +1,59 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "indonesia",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-28",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "kulon-progo-half-marathon-2026",
+  "slug": "kulon-progo-half-marathon-2026",
+  "name": "Kulon Progo Half Marathon 2026",
+  "short_description": "Kulon Progo Half Marathon 2026 runs on Sunday 29 November 2026 in Kulon Progo, Yogyakarta, over 5 km, 10 km and 21 km, from 5.00am.",
+  "ai_summary": "Kulon Progo Half Marathon 2026 is on Sunday 29 November 2026 in Kulon Progo, the regency west of Yogyakarta that is home to the city's international airport. The race starts at 5.00am WIB and offers 5 km, 10 km and a 21 km half marathon.",
+  "core_facts": {
+    "date": "2026-11-29",
+    "distance_km": [
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "city": "Kulon Progo, DI Yogyakarta",
+    "country": "Indonesia"
+  },
+  "faqs": [
+    {
+      "question": "When is Kulon Progo Half Marathon 2026?",
+      "answer": "Sunday 29 November 2026, from 5.00am WIB, in Kulon Progo, Yogyakarta. Indonesian road races start before dawn to avoid the heat, so expect a very early flag-off and plan transport to the start the night before rather than on the morning."
+    },
+    {
+      "question": "What distances does Kulon Progo Half Marathon 2026 offer?",
+      "answer": "Three: 5 km, 10 km and a 21 km half marathon. The half marathon is the headline distance, and the shorter races are aimed at newer runners and those who want a faster morning. Entry fees and cut-off times are set by the organiser, so check the official registration page before entering."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "indonesia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://jadwallari.id/events/kulon-progo-half-marathon/",
+      "label": "JadwalLari.id event page",
+      "type": "aggregator",
+      "last_checked": "2026-09-28"
+    },
+    {
+      "url": "https://eventrack.id/jadwal-lari",
+      "label": "Eventrack Indonesia running calendar",
+      "type": "aggregator",
+      "last_checked": "2026-09-28"
+    }
+  ]
+}

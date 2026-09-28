@@ -1,0 +1,61 @@
+{
+  "category_id": "full-marathon",
+  "region_id": "indonesia",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Official site",
+      "url": "https://pontianakcityrun.com",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-28",
+  "status": "needs_review",
+  "reliability_score": 25,
+  "entity_id": "pontianak-city-run-2027",
+  "slug": "pontianak-city-run-2027",
+  "name": "Pontianak City Run 2027",
+  "short_description": "Pontianak City Run 2027 is on Sunday 31 January 2027 in Pontianak, West Kalimantan, over 5 km, 10 km, 21 km and the full marathon.",
+  "ai_summary": "Pontianak City Run 2027 takes place on Sunday 31 January 2027 in Pontianak, the capital of West Kalimantan, which sits almost exactly on the equator. It offers 5 km, 10 km, a 21 km half marathon and a 42 km full marathon, with entry from Rp 98,000. A full marathon is rare in Kalimantan, which makes this one of very few chances to run the distance on Borneo's Indonesian side.",
+  "core_facts": {
+    "date": "2027-01-31",
+    "distance_km": [
+      5,
+      10,
+      21.1,
+      42.195
+    ],
+    "primary_distance_km": 42.195,
+    "price_range": "From IDR 98,000",
+    "city": "Pontianak, West Kalimantan",
+    "country": "Indonesia"
+  },
+  "faqs": [
+    {
+      "question": "When is Pontianak City Run 2027?",
+      "answer": "Sunday 31 January 2027, in Pontianak, West Kalimantan. Pontianak sits almost exactly on the equator, so conditions are hot and humid year-round and the start is very early in the morning."
+    },
+    {
+      "question": "Does Pontianak City Run 2027 have a full marathon?",
+      "answer": "Yes. It offers 5 km, 10 km, a 21 km half marathon and a 42 km full marathon. A full marathon is unusual in Kalimantan, so this is one of the few chances to run the distance on the Indonesian side of Borneo."
+    }
+  ],
+  "tags": [
+    "full-marathon",
+    "indonesia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://indonesiamarathon.com/event/pontianak-city-run-2027",
+      "label": "Indonesia Marathon event page",
+      "type": "aggregator",
+      "last_checked": "2026-09-28"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "indonesia",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-28",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "astra-half-marathon-2026",
+  "slug": "astra-half-marathon-2026",
+  "name": "Astra Half Marathon 2026",
+  "short_description": "Astra Half Marathon 2026 is on Sunday 29 November 2026 at Astra Biz Center in BSD, Tangerang, over 5 km, 10 km and the half marathon.",
+  "ai_summary": "Astra Half Marathon 2026 takes place on Sunday 29 November 2026, based at Astra Biz Center in BSD, Tangerang. It offers 5 km, 10 km and a half marathon, and is staged by the Astra group as part of its run-up to the company's seventieth anniversary, under the theme \"Berkarya dan Tumbuh Bersama Indonesia\".",
+  "core_facts": {
+    "date": "2026-11-29",
+    "distance_km": [
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Astra Biz Center, BSD",
+    "city": "Tangerang, Banten",
+    "country": "Indonesia"
+  },
+  "faqs": [
+    {
+      "question": "When is Astra Half Marathon 2026?",
+      "answer": "Sunday 29 November 2026, in BSD, Tangerang, starting from Astra Biz Center. Indonesian road races start before dawn to avoid the heat, so expect a very early flag-off and plan transport to the start the night before rather than on the morning."
+    },
+    {
+      "question": "What distances does Astra Half Marathon 2026 offer?",
+      "answer": "Three: 5 km, 10 km and a half marathon. The half marathon is the headline distance, and the shorter races are aimed at newer runners and those who want a faster morning. Entry fees and cut-off times are set by the organiser, so check the official registration page before entering."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "indonesia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://kalenderlari.com/events/astra-half-marathon-2026/",
+      "label": "Kalender Lari event page",
+      "type": "aggregator",
+      "last_checked": "2026-09-28"
+    },
+    {
+      "url": "https://eventrack.id/jadwal-lari",
+      "label": "Eventrack Indonesia running calendar",
+      "type": "aggregator",
+      "last_checked": "2026-09-28"
+    }
+  ]
+}

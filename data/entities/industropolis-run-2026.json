@@ -1,0 +1,60 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "indonesia",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-28",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "industropolis-run-2026",
+  "slug": "industropolis-run-2026",
+  "name": "Industropolis Run 2026",
+  "short_description": "Industropolis Run 2026 is on Sunday 6 December 2026 at the Batang integrated industrial estate in Central Java, over 5 km, 10 km and the half marathon.",
+  "ai_summary": "Industropolis Run 2026 takes place on Sunday 6 December 2026 at Kawasan Industri Terpadu Batang, the integrated industrial estate in Gringsing, Batang regency, on Central Java's north coast. The race starts at 4.00am WIB and offers 5 km, 10 km and a half marathon, with published cut-offs of 90 minutes for the 5 km, 150 minutes for the 10 km and 210 minutes for the half.",
+  "core_facts": {
+    "date": "2026-12-06",
+    "distance_km": [
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Kawasan Industri Terpadu Batang, Gringsing",
+    "city": "Batang, Central Java",
+    "country": "Indonesia"
+  },
+  "faqs": [
+    {
+      "question": "When is Industropolis Run 2026?",
+      "answer": "Sunday 6 December 2026, starting at 4.00am WIB at the Batang integrated industrial estate in Gringsing, Central Java. The very early start is typical for Indonesian road races and keeps most runners off the course before the heat builds."
+    },
+    {
+      "question": "What are the cut-off times at Industropolis Run 2026?",
+      "answer": "The organisers publish cut-offs of 90 minutes for the 5 km, 150 minutes for the 10 km and 210 minutes for the half marathon. A 210-minute half is generous by regional standards, making it a reasonable first half marathon."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "indonesia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://jadwallari.id/events/industropolis-run/",
+      "label": "JadwalLari.id event page",
+      "type": "aggregator",
+      "last_checked": "2026-09-28"
+    },
+    {
+      "url": "https://eventrack.id/jadwal-lari",
+      "label": "Eventrack Indonesia running calendar",
+      "type": "aggregator",
+      "last_checked": "2026-09-28"
+    }
+  ]
+}

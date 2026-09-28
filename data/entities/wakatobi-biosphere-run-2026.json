@@ -1,0 +1,60 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "indonesia",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-28",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "wakatobi-biosphere-run-2026",
+  "slug": "wakatobi-biosphere-run-2026",
+  "name": "Wakatobi Biosphere Run 2026",
+  "short_description": "Wakatobi Biosphere Run 2026 runs on Sunday 8 November 2026 in the Wakatobi islands of Southeast Sulawesi, over 5 km, 10 km and the half marathon.",
+  "ai_summary": "Wakatobi Biosphere Run 2026 is a road race on Sunday 8 November 2026 in Wakatobi, an island regency in Southeast Sulawesi and a UNESCO biosphere reserve known for its coral reefs. It is organised by the Wakatobi regency government and offers 5 km, 10 km and a half marathon. Reaching Wakatobi generally means a connecting flight or a boat from mainland Sulawesi, so it is a destination race rather than one to fit into a normal weekend.",
+  "core_facts": {
+    "date": "2026-11-08",
+    "distance_km": [
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "organizer": "Pemkab Wakatobi (Wakatobi Regency Government)",
+    "city": "Wakatobi, Southeast Sulawesi",
+    "country": "Indonesia"
+  },
+  "faqs": [
+    {
+      "question": "When is Wakatobi Biosphere Run 2026?",
+      "answer": "Sunday 8 November 2026, in Wakatobi, Southeast Sulawesi. Indonesian road races start before dawn to avoid the heat, so expect a very early flag-off and plan transport to the start the night before rather than on the morning."
+    },
+    {
+      "question": "What distances does Wakatobi Biosphere Run 2026 offer?",
+      "answer": "Three: 5 km, 10 km and a half marathon. The half marathon is the headline distance, and the shorter races are aimed at newer runners and those who want a faster morning. Entry fees and cut-off times are set by the organiser, so check the official registration page before entering."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "indonesia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://jadwallari.id/events/wakatobi-biosphere-run/",
+      "label": "JadwalLari.id event page",
+      "type": "aggregator",
+      "last_checked": "2026-09-28"
+    },
+    {
+      "url": "https://eventrack.id/jadwal-lari",
+      "label": "Eventrack Indonesia running calendar",
+      "type": "aggregator",
+      "last_checked": "2026-09-28"
+    }
+  ]
+}
