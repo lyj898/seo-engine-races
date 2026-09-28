@@ -34,7 +34,13 @@ export function getStaticPaths() {
   // hub/category/region listings.
   const entities = loadEntities().map(stripMeta).filter(isReviewableEntity);
   const entityById = new Map(entities.map((e) => [e.entity_id, e]));
-  const reviews = loadReviews().map(stripMeta).filter(isPublished);
+  // Withdrawn reviews ('archived') keep their URL as a redirect to the race
+  // page. A review is withdrawn when no edition of its race can be shown to
+  // have been run -- a review is about what happened, never a preview -- and
+  // these URLs were already published, so dropping the route would 404 them.
+  const reviews = loadReviews()
+    .map(stripMeta)
+    .filter((r) => isPublished(r) || r.status === 'archived');
 
   return reviews
     .filter((r) => entityById.has(r.entity_id))
@@ -76,8 +82,9 @@ const entity = withoutRegistrationClaims(Astro.props.entity);
 // previously put some review URLs in the sitemap as standalone content is
 // gone with it (see sitemap.xml.js).
 const entityHasPage = isReviewableEntity(entity);
+const withdrawn = review.status === 'archived';
 const mergedTarget =
-  siteConfig.enabledFeatures?.mergedReviews && entityHasPage
+  (siteConfig.enabledFeatures?.mergedReviews || withdrawn) && entityHasPage
     ? new URL(urls.entity(entity.slug), Astro.site).toString()
     : null;
 
@@ -148,7 +155,7 @@ const jsonLd = [
     </head>
     <body>
       <p>
-        This review now lives on the <a href={mergedTarget}>{entity.name}</a> page.
+        {withdrawn ? 'See the' : 'This review now lives on the'} <a href={mergedTarget}>{entity.name}</a> page.
       </p>
     </body>
   </html>

@@ -7,27 +7,6 @@
   "meta_description": "PalawanPay Trilogy Marathon 2026 Cebu Leg review: September 27 in Mandaue City -- a fintech-sponsored RunRio race with a 3am gun start.",
   "dek": "Set for 27 September 2026 in Mandaue City with a 3:00am gun start, this Cebu leg of the PalawanPay Trilogy Marathon brings fintech-brand sponsorship to metro Cebu's industrial 'Little Rich City.'",
   "verdict": "The PalawanPay Trilogy Marathon's Cebu leg is sponsored by PalawanPay, a Philippine digital wallet/fintech brand -- a distinct sponsorship angle from the sportswear and beverage brands dominating most of this research batch. Four distances (5K to 21.1K, with an unusual 16K option) start at 3:00am in Mandaue City, one of Metro Cebu's two highly urbanized cities, sitting directly across the strait from Mactan-Cebu International Airport. Registration is already open, and RunRio's organisational experience across numerous other races in this research batch is a reasonable proxy for what to expect logistically.",
-  "rating": {
-    "overall": 67,
-    "breakdown": [
-      {
-        "label": "Venue accessibility (Mandaue, near airport)",
-        "score": 78
-      },
-      {
-        "label": "Organiser experience (RunRio)",
-        "score": 74
-      },
-      {
-        "label": "Distance range (incl. unusual 16K)",
-        "score": 68
-      },
-      {
-        "label": "Independent reviews for this specific race",
-        "score": 38
-      }
-    ]
-  },
   "sections": [
     {
       "heading": "A Fintech-Sponsored Race",
@@ -91,8 +70,8 @@
       "answer": "A Philippine digital wallet and remittance brand serving as title sponsor for this race -- a distinct fintech sponsorship angle compared to the sportswear and beverage brands behind most other races covered in this research. [1]"
     }
   ],
-  "editorial_notes": "Regenerated from a thin stub on 2026-08-09 -- expanded to a full review using verified core_facts and supplementary background sources (this entity had limited existing research data on file, so background/destination context leans more heavily on outside sources than usual). Prose is original synthesis. Safe to hand-edit.",
+  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. The PalawanPay Trilogy Marathon was launched as a new series in 2026, so the Cebu leg has no earlier edition, and no report on the 27 September 2026 race was found. The URL redirects to the race listing.",
   "published_at": "2026-08-09T07:30:00.000Z",
-  "last_updated": "2026-08-09",
-  "status": "active"
+  "last_updated": "2026-09-28",
+  "status": "archived"
 }
