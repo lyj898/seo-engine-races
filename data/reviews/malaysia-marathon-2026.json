@@ -3,60 +3,215 @@
   "slug": "malaysia-marathon-2026",
   "entity_id": "malaysia-marathon-2026",
   "title": "Malaysia Marathon 2026 Review: What the First Edition Was Like",
-  "seo_title": "Malaysia Marathon 2026 Review | Pavilion to KLCC",
-  "meta_description": "Malaysia Marathon 2026 review: 25,000 runners, a 12.30am start at Pavilion KL and a KLCC finish on 30 August, run in the middle of the haze season.",
-  "dek": "Kuala Lumpur's new National Day marathon was run for the first time on 30 August 2026, from Pavilion to KLCC rather than from Dataran Merdeka. Here is what it was like, from the reporting on it.",
-  "verdict": "The Malaysia Marathon arrived at full size. Its first edition, on 30 August 2026, put 25,000 runners on the streets of central Kuala Lumpur across four distances [1]. The full marathon started at 12.30am from Pavilion Kuala Lumpur, and every category finished at KLCC instead of Dataran Merdeka [1][2]. The route took in the elevated AKLEH and SUKE highways, and the city closed a long list of roads for it [1][2]. It was also run during the haze, which had disrupted training in the weeks before [2]. If you want a big, World Athletics-recognised city marathon in KL with a night start, it is a serious new option. Watch the air quality in the final week.",
+  "seo_title": "Malaysia Marathon 2026 Review: Midnight Start, Highways, Haze",
+  "meta_description": "Malaysia Marathon 2026 review: a 12.30am start from Pavilion, the AKLEH and SUKE highway climbs, 30°C at midnight in unhealthy haze, a 7h30 cut-off and how fast the field ran.",
+  "dek": "Kuala Lumpur's new National Day marathon was run for the first time in the early hours of 30 August 2026, from Pavilion to KLCC. Here is what it was like: the highway course, the night-time heat and haze, the cut-off and aid, the results and the logistics.",
+  "verdict": "Enter if you want a night marathon in central Kuala Lumpur with a generous cut-off and can handle climbing in warm air. The first edition started at 12.30am from Pavilion, gave marathoners seven and a half hours, and 1,475 finished at KLCC. The course is the test: after 5 km in the city it goes up onto the AKLEH and SUKE highways, and the middle third sits on the highest ground. It was 30°C at midnight, and haze left the air unhealthy on race morning. Pace for heat and hills, check air-quality readings in race week, and plan transport around a midnight start.",
+  "at_a_glance": {
+    "heading": "The 2026 race in numbers",
+    "rows": [
+      {
+        "label": "Date",
+        "value": "Early hours of Sunday 30 August 2026, the first edition"
+      },
+      {
+        "label": "Field",
+        "value": "25,000 across four distances (organiser's figure); finish times for 1,475 marathoners, 4,780 half marathoners and 3,682 at 10 km"
+      },
+      {
+        "label": "Start times",
+        "value": "Marathon 12.30am, half marathon 2am, 10 km 3.30am, 5 km 7.30am"
+      },
+      {
+        "label": "Marathon cut-off",
+        "value": "7 hours 30 minutes (8am)"
+      },
+      {
+        "label": "Weather at the 12.30am start",
+        "value": "30°C at midnight and 29°C at 1am, dew point 24°C, 70% to 75% humidity (Subang airport)"
+      },
+      {
+        "label": "Weather at the 8am cut-off",
+        "value": "27°C, dew point 23°C, 79% humidity, no wind"
+      },
+      {
+        "label": "Air quality",
+        "value": "API 153 at Batu Muda and 105 at Cheras at 9am on race day, both in the unhealthy band"
+      },
+      {
+        "label": "Course",
+        "value": "Pavilion through the old city, then the AKLEH and SUKE elevated highways, finishing at KLCC; organiser says World Athletics and AIMS certified"
+      },
+      {
+        "label": "Aid",
+        "value": "14 hydration stations marked on the marathon GPX, 7 on the half"
+      },
+      {
+        "label": "Winning marathon times",
+        "value": "2:34:14 (men), 3:03:17 (women)"
+      },
+      {
+        "label": "10th place, marathon",
+        "value": "3:16:28 (men), 4:24:58 (women)"
+      },
+      {
+        "label": "Finisher medal",
+        "value": "330 g, recycled zinc, for all four distances"
+      },
+      {
+        "label": "Race pack collection",
+        "value": "Premiera Hotel, 28 and 29 August, noon to 9pm; face recognition and ID required"
+      }
+    ]
+  },
   "sections": [
     {
-      "heading": "The 2026 Edition in Numbers",
+      "heading": "The Course: Five Km of City, Then the Highways",
       "paragraphs": [
-        "The first Malaysia Marathon was run in the early hours of Sunday 30 August 2026, as part of the 69th National Day celebrations, and drew 25,000 local and international runners [1]. Bernama reported 2,000 in the full marathon, 8,000 in the half marathon, 5,000 in the 10 km and 10,000 in the 5 km fun run [1].",
-        "Tourism Minister Tiong King Sing flagged off the full marathon near Pavilion Kuala Lumpur [1]. The event has World Athletics recognition [1]."
+        "The race started on Jalan Bukit Bintang outside Pavilion and finished at KLCC, rather than at Dataran Merdeka, where Kuala Lumpur races usually start and end [1][2]. The first 5 km run through the city: Jalan Sultan Ismail, Jalan Raja Chulan, Jalan Gereja and Jalan Tun H.S. Lee in the old city, and Jalan Raja Abdullah, before turning onto the AKLEH (E12) at about 4.7 km [3].",
+        "From there the marathon stays on elevated highway almost to the finish. The route runs AKLEH, SUKE, then AKLEH again, and comes off onto Jalan Ampang for the last few hundred metres to KLCC [3][1]. At the launch, the organiser said 95% of the route used major highways [4] and warned that runners would face climbs on the AKLEH and SUKE [5]. Bernama described a 900-metre climb on the AKLEH [2].",
+        "The marathon GPX file shows where the climbing is. Its elevation data, taken from map terrain rather than a survey, stays between about 30 m and 70 m for the first 15 km, then rises to 150 m to 180 m from about 16 km to 29 km, the SUKE stretch in the middle of the route, before dropping back below 100 m by 30 km [3][1]. The half marathon is an out-and-back on the AKLEH, turning at about 13 km, and its file stays between about 25 m and 75 m [6].",
+        "The organiser says the course is a World Athletics certified measured course, in cooperation with AIMS [7]."
       ]
     },
     {
-      "heading": "A Midnight Start, and a New Finish",
+      "heading": "The Weather and the Haze",
       "paragraphs": [
-        "The start times are the first thing to plan around: the full marathon at 12.30am, the half marathon at 2am, the 10 km at 3.30am and the fun run at 7.30am [1][2]. Every distance except the fun run started at Pavilion, and all finished at KLCC [2]. Most Kuala Lumpur road races use Dataran Merdeka for both [2].",
-        "The full-marathon route ran along Jalan Bukit Bintang, Jalan Sultan Ismail, Jalan Raja Chulan, through the old city on Jalan Tun HS Lee and Jalan Tuanku Abdul Rahman, then out onto the AKLEH and SUKE elevated highways and back via Jalan Ampang and Jalan P Ramlee to KLCC [2]. Bernama said the full marathon included a 900-metre climb on the AKLEH [1]. The highway sections are likely to be the hardest part of the course."
+        "It was a warm night. Subang airport, about 18 km west of the start, recorded 30°C at midnight with a dew point of 24°C and 70% humidity, and 29°C with 75% humidity at 1am, half an hour after the marathon started [8]. It cooled slowly, to 28°C by 2am when the half marathon started and 27°C from 5am, and was still 27°C, with a dew point of 23°C, 79% humidity and no wind, at 8am, when the marathon closed [8].",
+        "A dew point of 23°C to 24°C is heavy air for running: sweat evaporates slowly, so the night start avoids the sun but not the heat. A median marathoner, finishing in just under six hours [9], ran the whole race in 27°C to 30°C air.",
+        "The race was also run in haze. Two days before, Cheras and Batu Muda in Kuala Lumpur were both in the unhealthy band, and MetMalaysia forecast high haze concentrations in Kuala Lumpur until 31 August [10]. At 10am on the Saturday Cheras read 160 and Batu Muda 155 [11]; at 9am on race day Batu Muda read 153 and Cheras 105 [12]. Readings from 101 to 200 count as unhealthy [12]. paultan.org noted before the race that the haze would have disrupted training [1]. The race went ahead; a week later the PJ Half Marathon was cancelled for haze [13]."
       ]
     },
     {
-      "heading": "Road Closures and the Haze",
+      "heading": "Start Times, Cut-off and Aid",
       "paragraphs": [
-        "Roads across the city centre were closed in phases from Friday night until Sunday afternoon, including stretches of Jalan Ampang, Jalan P Ramlee and Jalan Bukit Bintang in front of Pavilion [2]. Race pack collection was at the Premiera Hotel on 28 and 29 August [2].",
-        "The race was run during the regional haze episode. Paultan.org noted before the race that training would have been disrupted by it [2]. The race went ahead. A week later, the PJ Half Marathon was cancelled at the last minute because of the same haze [3]."
+        "The marathon started at 12.30am, the half marathon at 2am and the 10 km at 3.30am, all at Pavilion; the 5 km fun run started at 7.30am and ran around KLCC [1][2]. The organiser's president said the early starts were meant to get most runners finished before the dawn prayer and out of the heat, and that a prayer area was set up in front of KLCC [5].",
+        "The marathon cut-off was seven hours 30 minutes [5], so 8am. The results list 1,475 marathoners with finish times, the slowest in 7 hours 43 minutes on the gun, and 161 marked as not finishing [9].",
+        "The organiser's GPX files mark 14 hydration stations on the marathon and seven on the half marathon, roughly one every 3 km [3][6]. The official medal, for finishers of all four distances, weighs 330 g and is made from recycled zinc, according to the organiser [7]; e-certificates are issued through the results page [9]."
       ]
     },
     {
-      "heading": "Should You Enter Next Year?",
+      "heading": "How Fast the Field Is",
       "paragraphs": [
-        "If you want a large Kuala Lumpur marathon on a route that shows off the city centre, yes. Twenty-five thousand runners in year one, World Athletics recognition and a new Pavilion-to-KLCC route make it a real alternative to the city's established races.",
-        "Plan the night. A 12.30am start means racing through the night, not at dawn, so plan how you will get to the start and rest beforehand. And because this is a late-August race in a haze-prone season, keep your travel plans flexible.",
-        "This review is compiled from published reporting on the 2026 edition. It is not a first-hand race report, and nobody from this site ran the race."
+        "David Kipkorir won the marathon in 2:34:14, from Martin Onesmus Muasya in 2:36:56; the first Malaysian, Tay Pei Teck, was fourth in 2:46:22. The women's race was won in 3:03:17 by a runner listed only as Caroline, ahead of Dorcas Nzembi in 3:06:01 and Linh Vu in 3:14:35, with Lee Siok Chin the first Malaysian in 3:23:14 [9].",
+        "The field thins very quickly. Tenth place was 3:16:28 for men and 4:24:58 for women, only 23 runners broke 3 hours 30, and the median finisher took 5 hours 53 minutes [9]. A marathon under 3:17 made the men's top ten, and under 4:25 the women's.",
+        "In the half marathon, Sanjay M. won in 1:10:47 and a runner listed as Mercy won the women's race in 1:22:43; tenth place was 1:28:34 for men and 1:45:02 for women, and the median was 2 hours 53 minutes [9]. The 10 km was won in 33:23 [9]. More than 2,300 runners came from abroad, among them 13 from Japan and three from Nigeria [5], and the organiser offered RM50,000 to a Malaysian who broke the national record at 42 km or 21 km [5][4].",
+        "The race-night figures and the results differ. Bernama put the marathon at 2,000 runners, the half at 8,000 and the 10 km at 5,000 [2]; the results list 1,941, 6,141 and 4,736 names, with finish times for 1,475, 4,780 and 3,682 [9]."
+      ]
+    },
+    {
+      "heading": "Race Weekend Logistics",
+      "paragraphs": [
+        "Race packs were collected at the Premiera Hotel in Kuala Lumpur on Friday and Saturday, 28 and 29 August, from noon to 9pm [1]. Only the registered runner could collect, with valid ID and face recognition; nobody could collect for someone else [7].",
+        "Slots could be transferred only through the official Malaysia Marathon app, until 14 August, for a RM50 fee; otherwise bibs were not transferable, category changes were not allowed, and running on someone else's bib meant disqualification and a ban from future editions [7].",
+        "Road closures were extensive. Jalan Ampang and Jalan P. Ramlee were fully closed from Friday midnight, and Jalan Bukit Bintang in front of Pavilion from Saturday midnight until 8am on Sunday [1]; police ran phased closures from Saturday night until Sunday afternoon [2]. paultan.org advised public transport for anyone heading into the city centre that weekend [1]. With a 12.30am start, work out how you will reach Pavilion and get home from KLCC before you book a hotel."
+      ]
+    },
+    {
+      "heading": "Should You Enter the 2027 Race?",
+      "paragraphs": [
+        "Yes, if you want a night marathon in Kuala Lumpur with a seven-and-a-half-hour cut-off, a course the organiser says is certified, and a medal and finish at KLCC. In 2026 the organiser also offered Malaysian elites RM50,000 for a national record.",
+        "Think twice if you want a fast, flat marathon or a personal best. The middle of the marathon climbs onto the highest ground of the course, it was 27°C to 30°C all night, and the late-August date sits in the haze season: the air was unhealthy on race morning in 2026.",
+        "The organiser had not confirmed the 2027 date, fees or route on its race page when this was written. Check the air-quality readings in the final week and the organiser's app for any change of plan.",
+        "Nobody from this site ran the race. This review draws on the organiser's race page and GPX files, the official results, airport weather and air-quality records, and local reporting in English and Malay."
       ]
     }
   ],
-  "pull_quotes": [],
+  "pull_quotes": [
+    {
+      "quote": "Saya nak semua peserta balik sebelum Subuh",
+      "attribution": "Eddy Casmady, Malaysia Marathon president, to Harimau Malaya before the race (in Malay: 'I want all participants home before the dawn prayer')",
+      "source_url": "https://harimaumalaya.com.my/92133/rm50000-laluan-akleh-suke-robot-humanoid-warnai-malaysia-marathon-2026/"
+    }
+  ],
   "sources": [
     {
       "n": 1,
-      "label": "Race-day report: 25,000 runners, field by distance, flag-off, route and World Athletics recognition",
-      "publisher": "Bernama",
-      "url": "https://www.bernama.com/en/general/news.php?id=2600756",
-      "type": "news"
-    },
-    {
-      "n": 2,
-      "label": "Pre-race report: start times, full route, road closures and race pack collection",
+      "label": "Pre-race report: start times, full route, road closures and race-pack collection",
       "publisher": "paultan.org",
       "url": "https://paultan.org/2026/08/27/malaysia-marathon-2026-on-aug-30-road-closures-in-kl-city-centre-have-started-flag-off-at-pavilion-finish-klcc/",
       "type": "news"
     },
     {
+      "n": 2,
+      "label": "Race-night report: flag-off, field by distance, KLCC finish and road closures",
+      "publisher": "Bernama",
+      "url": "https://www.bernama.com/en/general/news.php?id=2600756",
+      "type": "news"
+    },
+    {
       "n": 3,
-      "label": "Haze puts races on hold: the PJ Half Marathon cancellation on 6 September",
+      "label": "Official marathon GPX file, 'MM 26 - FM (after route measurement)', with turn and hydration-station waypoints",
+      "publisher": "Malaysia Marathon (organiser)",
+      "url": "https://drive.google.com/drive/folders/1Kz8cfy17YNgsJ61PjMyslnlCwC7L8Uy4",
+      "type": "official"
+    },
+    {
+      "n": 4,
+      "label": "Registration launch: route on highways, Face ID and national-record incentive (in Malay)",
+      "publisher": "RTM Berita",
+      "url": "https://berita.rtm.gov.my/arena/senarai-berita-arena/senarai-artikel/malaysia-marathon-2026-sasar-25000-peserta/",
+      "type": "news"
+    },
+    {
+      "n": 5,
+      "label": "Pre-race launch: cut-off, overseas field, highway climbs, early starts and prayer area (in Malay)",
+      "publisher": "Harimau Malaya",
+      "url": "https://harimaumalaya.com.my/92133/rm50000-laluan-akleh-suke-robot-humanoid-warnai-malaysia-marathon-2026/",
+      "type": "news"
+    },
+    {
+      "n": 6,
+      "label": "Official half-marathon GPX file, 'MM 26 - HM (after route measurement)'",
+      "publisher": "Malaysia Marathon (organiser)",
+      "url": "https://drive.google.com/drive/folders/1q6k3a2XfkuhYSYyLnTJ-oIGTXqmJR-qp",
+      "type": "official"
+    },
+    {
+      "n": 7,
+      "label": "Race page: medal, bib transfers, collection rules, certified-course badge",
+      "publisher": "Malaysia Marathon (organiser)",
+      "url": "https://malaysiamarathonofficial.com/malaysia-marathon-2026",
+      "type": "official"
+    },
+    {
+      "n": 8,
+      "label": "Hourly weather observations at Subang airport (WMSA), 30 August 2026",
+      "publisher": "Iowa Environmental Mesonet (airport METAR archive)",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=WMSA&data=tmpc&data=dwpc&data=relh&data=sknt&data=wxcodes&year1=2026&month1=8&day1=30&year2=2026&month2=8&day2=31&tz=Asia%2FKuala_Lumpur&format=onlycomma&latlon=no&missing=M&report_type=3&report_type=4",
+      "type": "other"
+    },
+    {
+      "n": 9,
+      "label": "Official 2026 results for all distances",
+      "publisher": "HeyJom",
+      "url": "https://api.heyjom.com/4-1/results/malaysia-marathon-2026",
+      "type": "registration_platform"
+    },
+    {
+      "n": 10,
+      "label": "Unhealthy API in Kuala Lumpur on 28 August and MetMalaysia's haze forecast (in Malay)",
+      "publisher": "Buletin TV3",
+      "url": "https://www.buletintv3.my/nasional/kl-putrajaya-dan-shah-alam-catat-ipu-tidak-sihat/",
+      "type": "news"
+    },
+    {
+      "n": 11,
+      "label": "Air Pollutant Index readings at 10am on 29 August 2026",
+      "publisher": "The Star",
+      "url": "https://www.thestar.com.my/news/nation/2026/08/29/haze-28-areas-record-unhealthy-api-readings-sri-aman-worst-hit",
+      "type": "news"
+    },
+    {
+      "n": 12,
+      "label": "Air Pollutant Index readings at 9am on race day, 30 August 2026",
+      "publisher": "The Star",
+      "url": "https://www.thestar.com.my/news/nation/2026/08/30/17-areas-in-malaysia-record-unhealthy-to-hazardous-api-readings-as-of-9am",
+      "type": "news"
+    },
+    {
+      "n": 13,
+      "label": "Haze puts races on hold: the PJ Half Marathon cancelled on 6 September",
       "publisher": "The Star",
       "url": "https://www.thestar.com.my/news/nation/2026/09/07/haze-puts-races-on-hold",
       "type": "news"
@@ -64,19 +219,27 @@
   ],
   "faqs": [
     {
-      "question": "How many people ran the Malaysia Marathon 2026?",
-      "answer": "25,000 runners took part in the first edition on 30 August 2026: 2,000 in the full marathon, 8,000 in the half marathon, 5,000 in the 10 km and 10,000 in the 5 km fun run, according to Bernama. It was held as part of Malaysia's 69th National Day celebrations."
-    },
-    {
       "question": "What time does the Malaysia Marathon start?",
-      "answer": "Very early. In 2026 the full marathon started at 12.30am, the half marathon at 2am, the 10 km at 3.30am and the 5 km fun run at 7.30am. The longer races started near Pavilion Kuala Lumpur and all distances finished at KLCC."
+      "answer": "After midnight. In 2026 the marathon started at 12.30am and the half marathon at 2am, with the 10 km at 3.30am, all from Pavilion Kuala Lumpur. The 5 km fun run started at 7.30am around KLCC. The organiser said the early starts were meant to get most runners finished before the dawn prayer and the heat."
     },
     {
-      "question": "What is the Malaysia Marathon route like?",
-      "answer": "A city-centre course that also uses the elevated highways. In 2026 it ran from Pavilion along Bukit Bintang, Sultan Ismail and Raja Chulan, through the old city, then out on the AKLEH and SUKE highways and back via Jalan Ampang to KLCC. Bernama reported a 900-metre climb on the AKLEH."
+      "question": "Is the Malaysia Marathon course hilly?",
+      "answer": "Yes, in the middle. After about 5 km in the city the marathon runs on the AKLEH and SUKE elevated highways, and the organiser's GPX file puts the highest ground, 150 m to 180 m, between about 16 km and 29 km. The half marathon is an out-and-back on the AKLEH and is much flatter."
+    },
+    {
+      "question": "What is the cut-off time for the Malaysia Marathon?",
+      "answer": "Seven hours 30 minutes for the full marathon in 2026, which meant 8am after the 12.30am start. The results list 1,475 marathoners with finish times, the slowest in 7 hours 43 minutes on the gun, and 161 who did not finish. The median finisher took 5 hours 53 minutes."
+    },
+    {
+      "question": "How fast is the Malaysia Marathon field?",
+      "answer": "Quick at the top, slow behind. The 2026 marathon was won in 2:34:14 and 3:03:17, but tenth place was 3:16:28 for men and 4:24:58 for women, and only 23 runners broke 3 hours 30. The half marathon was won in 1:10:47 and 1:22:43, with a median of 2 hours 53 minutes."
+    },
+    {
+      "question": "Was the Malaysia Marathon affected by the haze?",
+      "answer": "It went ahead in it. At 9am on race day Batu Muda in Kuala Lumpur read 153 on the Air Pollutant Index and Cheras 105, both unhealthy, after readings of 160 and 155 the day before. A week later the PJ Half Marathon was cancelled for haze."
     }
   ],
-  "editorial_notes": "Rewritten 2026-09-28 about the first edition, run on 30 August 2026. Replaces a pre-race preview. Bernama's field-by-distance figures are published on race day and may be entry numbers, not finishers. The '900-metre climb' is Bernama's phrase and is attributed to it. No rating.",
+  "editorial_notes": "Rewritten 2026-09-29 to the review template, about the first edition, run in the early hours of 30 August 2026. Results are from the official HeyJom results pages; the CheckpointSpot results links were behind a bot check and were not used. Bernama's field-by-distance figures are entries; the results give fewer names and finish times, and both are stated. Elevation comes from the organiser's GPX files, whose heights are map terrain data, not a survey. Bernama's '900-metre climb' is attributed to Bernama. Weather is from Subang airport METAR observations, and air quality from the Department of Environment readings as reported by The Star and Buletin TV3. No runner accounts or post-race news reports on the race itself were found. Fees and the 2027 date were not verified, so not stated. No rating.",
   "published_at": "2026-08-09T06:45:00.000Z",
   "last_updated": "2026-09-28",
   "status": "active"

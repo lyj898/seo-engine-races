@@ -18,12 +18,17 @@
     "country": "Thailand"
   },
   "pros": [
-    "Scenic beachfront venue at Noppharatthara Beach, Ao Nang, Krabi",
-    "Registration is currently open",
-    "Clear standard half-marathon distance of 21.1 km",
-    "Located in a well-known Thailand destination"
+    "Point-to-point route from Ao Nang to Noppharat Thara Beach, with shuttles back",
+    "Three and a half hours for the half marathon, with water every 2 km",
+    "Four distances over two days, including 5 km and 3 km beach runs",
+    "Generous finish area: medal, food coupon, ice cream, and a finisher shirt for the half"
   ],
-  "cons": [],
+  "cons": [
+    "100% humidity and no wind at the 2026 start",
+    "182 m of climbing, concentrated between km 7 and km 16",
+    "Race packs can only be collected the day before the race",
+    "Entry fees are not refunded even if the race is cancelled"
+  ],
   "sentiment_scores": {
     "overall": 70,
     "breakdown": [

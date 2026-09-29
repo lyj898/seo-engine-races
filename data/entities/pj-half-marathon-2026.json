@@ -20,11 +20,16 @@
     "organizer": "Petaling Jaya City Council (MBPJ)"
   },
   "pros": [
-    "One of Malaysia's longest-running road races: 2025 was the 35th edition",
-    "Based at Laman MBPJ, in the centre of Petaling Jaya"
+    "Four-hour half-marathon cut-off, generous for a tropical race",
+    "Choice of 30 km, 21 km, 10 km, 5 km and a 1 km costume run",
+    "Early starts: 21 km at 3.45am, so a median half-marathon runner was done by about 6.30am",
+    "Phased road closures from 4am to 11am, with 100 traffic officers and 80 enforcement officers in 2025"
   ],
   "cons": [
-    "The 2026 edition was cancelled at the last minute because of haze, and entry fees are generally non-refundable under the event terms"
+    "The 2026 edition was cancelled for haze about five and a half hours before the start, and the rules give no refund for unavoidable cancellations",
+    "Hilly, many-turn route: one runner logged 222 m of climbing over 30 km",
+    "Humid even before dawn: 28°C with a dew point of 24°C at the 2025 half-marathon start",
+    "Entries cannot be refunded, transferred or deferred, and there is no race-day pack collection"
   ],
   "sentiment_scores": {
     "overall": 68,
@@ -67,11 +72,6 @@
       "quote": "The water points are well stocked, towards the end there were gels available too.",
       "attribution": "Runner review on JustRunLah (PJ Half Marathon 2018)",
       "source_url": "https://www.justrunlah.com/2018/08/13/review-pj-half-marathon-2018-by-healthobeing/"
-    },
-    {
-      "quote": "Better support station",
-      "attribution": "David Ong, comment on PJ Half Marathon Facebook page",
-      "source_url": "https://www.facebook.com/pjhmarathon/"
     }
   ],
   "research_highlights": [
