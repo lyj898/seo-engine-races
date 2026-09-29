@@ -16,11 +16,11 @@
     ],
     "primary_distance_km": 42.195,
     "organizer": "Kuching Marathon Association",
+    "event_status": "cancelled",
+    "event_status_note": "The organisers called it off at the last minute because of haze in Kuching, affecting more than 13,000 registered runners.",
     "venue": "Padang Merdeka, Kuching, Sarawak",
     "city": "Kuching, Sarawak",
-    "country": "Malaysia",
-    "event_status": "cancelled",
-    "event_status_note": "The organisers called it off at the last minute because of haze in Kuching, affecting more than 13,000 registered runners."
+    "country": "Malaysia"
   },
   "pros": [
     "A seven-hour marathon limit and four-hour half-marathon limit",
@@ -164,6 +164,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-28",
-  "status": "needs_review"
+  "last_updated": "2026-09-29",
+  "status": "archived"
 }
