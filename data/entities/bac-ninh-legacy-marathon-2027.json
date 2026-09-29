@@ -1,8 +1,18 @@
 {
   "category_id": "full-marathon",
   "region_id": "vietnam",
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Flat city course with water points never more than 2 km apart",
+    "Mild air: 21°C at the 2026 3.30am start",
+    "Quick field: 2:33:42 winner and a sub-four-hour median marathon",
+    "Marathon age-group prizes in four bands as well as top five overall"
+  ],
+  "cons": [
+    "The 22 km checkpoint is tighter than the overall marathon limit",
+    "Light rain and mist for much of the 2026 race morning",
+    "No refunds, even if the race is cancelled or postponed",
+    "2027 start times, route map and checkpoint times not yet published"
+  ],
   "excerpt_quotes": [],
   "research_highlights": [],
   "research_watchouts": [],
@@ -16,7 +26,7 @@
   "slug": "bac-ninh-legacy-marathon-2027",
   "name": "Bac Ninh Legacy Marathon 2027",
   "short_description": "Bac Ninh Legacy Marathon 2027 is on Sunday 10 January 2027 at the Kinh Bac Cultural Centre square in Suoi Hoa ward, Bac Ninh, over 5 km, 10 km, 21 km and 42 km.",
-  "ai_summary": "Bac Ninh Legacy Marathon 2027 is on Sunday 10 January 2027, organised by DHA Vietnam, and moves the race to early January. It is based at the central square of the Kinh Bac Cultural Centre on Kinh Duong Vuong street, Suoi Hoa ward. The organisers describe a flat, open course with no bridges or slopes, over 42 km, 21 km, 10 km and 5 km.",
+  "ai_summary": "Bac Ninh Legacy Marathon 2027 is on Sunday 10 January 2027 and moves the race to early January. It is based at the central square of the Kinh Bac Cultural Centre on Kinh Duong Vuong street, Suoi Hoa ward. The organisers describe a flat, open course with no bridges or slopes, over 42 km, 21 km, 10 km and 5 km.",
   "core_facts": {
     "date": "2027-01-10",
     "distance_km": [

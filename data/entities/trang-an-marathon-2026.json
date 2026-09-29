@@ -1,8 +1,19 @@
 {
   "category_id": "full-marathon",
   "region_id": "vietnam",
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Flat course, all distances certified by the Vietnam Athletics Federation",
+    "6 hour 30 marathon limit with evenly spaced checkpoints",
+    "Ten two-way water-and-fruit stations with medics on the marathon",
+    "Pacers from 3:30 to 5:00 in the marathon",
+    "Route through the Trang An heritage area past Bai Dinh pagoda"
+  ],
+  "cons": [
+    "Saturated air in 2025: rain before the start and 100% humidity at the nearest station",
+    "Long out-and-back legs with repeated sections",
+    "No race-day bib collection; you must be there by Saturday",
+    "Entry fees are not refundable"
+  ],
   "excerpt_quotes": [],
   "research_highlights": [],
   "research_watchouts": [],

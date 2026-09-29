@@ -1,8 +1,20 @@
 {
   "category_id": "half-marathon",
   "region_id": "vietnam",
-  "pros": [],
-  "cons": [],
+  "pros": [
+    "Mostly flat half-marathon course through Thu Thiem and along the Saigon River",
+    "Generous four-hour half-marathon limit; the 2025 median finish was 2:23",
+    "Eight aid stations on the half, all with water and toilets",
+    "Closed lanes on the main roads, with no stoplights",
+    "Free race photos and results online by late morning"
+  ],
+  "cons": [
+    "Heavy humidity: 27°C and a 25°C dew point at the 2025 start",
+    "Unlit stretches in Thu Thiem, where a runner heard others trip in 2025",
+    "Few spectators outside the aid stations",
+    "Finisher-tee sizes ran short in 2025",
+    "Crowded last kilometre where the 10 km and half marathon merge"
+  ],
   "excerpt_quotes": [],
   "research_highlights": [],
   "research_watchouts": [],
