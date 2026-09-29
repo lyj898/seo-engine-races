@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "malaysia",
   "short_description": "A road race in Putrajaya, Malaysia, offering 21.1km, 10km, 5km, and 3km distances on December 13, 2026.",
-  "ai_summary": "The CIDB Half Marathon 2026 is a road race held on December 13, 2026 at Dataran Putrajaya in Putrajaya, Malaysia. Organized by Kelab CIDB WP Kuala Lumpur under the CIDB Run banner, the event offers four distance categories: 21.1km, 10km, 5km, and 3km. Registration for the race is currently open, giving participants of varying experience levels a chance to choose a suitable distance.",
+  "ai_summary": "The CIDB Half Marathon 2026 is a road race held on December 13, 2026 at Dataran Putrajaya in Putrajaya, Malaysia. Organized by Kelab CIDB WP Kuala Lumpur under the CIDB Run banner, the event offers four distance categories: 21.1km, 10km, 5km, and 3km.",
   "core_facts": {
     "date": "2026-12-13",
     "distance_km": [
@@ -16,15 +16,13 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "Kelab CIDB WP Kuala Lumpur (\"CIDB Run\")",
-    "registration_status": "Open",
     "venue": "Dataran Putrajaya, Putrajaya",
     "city": "Putrajaya",
     "country": "Malaysia"
   },
   "pros": [
     "Multiple distance options (21.1km, 10km, 5km, 3km) suit a range of runner abilities",
-    "Scenic and well-known venue at Dataran Putrajaya, Putrajaya",
-    "Registration is currently open, allowing ample time to plan and sign up"
+    "Scenic and well-known venue at Dataran Putrajaya, Putrajaya"
   ],
   "cons": [],
   "excerpt_quotes": [],
@@ -42,10 +40,6 @@
     {
       "question": "Who organizes the CIDB Half Marathon?",
       "answer": "The CIDB Half Marathon is organized by Kelab CIDB WP Kuala Lumpur, operating under the name \"CIDB Run.\" This organizing club is responsible for coordinating the event, which takes place at Dataran Putrajaya in Putrajaya, Malaysia."
-    },
-    {
-      "question": "Is registration currently open for the 2026 race?",
-      "answer": "Yes, registration for the CIDB Half Marathon 2026 is currently open. Prospective participants can sign up ahead of the race date of December 13, 2026, for any of the four available distances: 21.1km, 10km, 5km, or 3km."
     }
   ],
   "reliability_score": 0,

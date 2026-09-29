@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "malaysia",
   "short_description": "The Taiping Half Marathon 2026 is a 21.1km half marathon held on August 9, 2026 at Dataran Warisan, Taiping, Perak, Malaysia.",
-  "ai_summary": "The Taiping Half Marathon 2026 takes place on August 9, 2026, at Dataran Warisan in Taiping, Perak, Malaysia. Runners can choose between 5km, 10km, and 21.1km distances, with the 21.1km half marathon serving as the event's primary race. Registration is currently open for participants interested in joining this Perak-based race.",
+  "ai_summary": "The Taiping Half Marathon 2026 takes place on August 9, 2026, at Dataran Warisan in Taiping, Perak, Malaysia. Runners can choose between 5km, 10km, and 21.1km distances, with the 21.1km half marathon serving as the event's primary race.",
   "core_facts": {
     "date": "2026-08-09",
     "distance_km": [
@@ -14,7 +14,6 @@
       21.1
     ],
     "primary_distance_km": 21.1,
-    "registration_status": "Closed",
     "price_range": "RM45-RM110",
     "venue": "Dataran Warisan, Perak",
     "city": "Taiping, Perak",
@@ -22,7 +21,6 @@
   },
   "pros": [
     "Multiple distance options (5km, 10km, and 21.1km) accommodate different runner levels",
-    "Registration is currently open, giving participants time to prepare",
     "Set in Dataran Warisan, a notable landmark venue in Taiping, Perak"
   ],
   "cons": [],
@@ -100,10 +98,6 @@
     {
       "question": "Where is the Taiping Half Marathon 2026 held?",
       "answer": "This race is held at Dataran Warisan, located in Taiping, Perak, Malaysia. The venue serves as the central location for the event, hosting the 5km, 10km, and 21.1km distance categories. Its location in Perak makes it accessible for both local runners and visitors traveling to Taiping for the race."
-    },
-    {
-      "question": "Is registration open for the Taiping Half Marathon 2026?",
-      "answer": "Yes, registration for the Taiping Half Marathon 2026 is currently open. Prospective participants interested in the 5km, 10km, or 21.1km distances can sign up now ahead of the race date on August 9, 2026, at Dataran Warisan in Taiping, Perak, Malaysia."
     }
   ],
   "reliability_score": 85,

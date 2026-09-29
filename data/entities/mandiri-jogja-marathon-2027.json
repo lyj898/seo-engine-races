@@ -5,7 +5,7 @@
   "category_id": "full-marathon",
   "region_id": "indonesia",
   "short_description": "A full marathon and multi-distance running event held at Kawasan Candi Prambanan, Yogyakarta, Indonesia on June 20, 2027.",
-  "ai_summary": "The Mandiri Jogja Marathon 2027 is a full marathon event scheduled for June 20, 2027, organized by Bank Mandiri. Set against the backdrop of Kawasan Candi Prambanan in Yogyakarta, Indonesia, the event offers four distance options: 42.195km, 21.1km, 10km, and 5km. Registration details have not yet been announced.",
+  "ai_summary": "The Mandiri Jogja Marathon 2027 is a full marathon event scheduled for June 20, 2027, organized by Bank Mandiri. Set against the backdrop of Kawasan Candi Prambanan in Yogyakarta, Indonesia, the event offers four distance options: 42.195km, 21.1km, 10km, and 5km.",
   "core_facts": {
     "date": "2026-06-21",
     "distance_km": [
@@ -16,7 +16,6 @@
     ],
     "primary_distance_km": 42.195,
     "organizer": "Bank Mandiri",
-    "registration_status": "Closed",
     "price_range": "Rp 450.000 - Rp 1.200.000",
     "venue": "Kawasan Candi Prambanan, Yogyakarta",
     "city": "Yogyakarta",
@@ -27,9 +26,7 @@
     "Multiple distance options (42.195km, 21.1km, 10km, and 5km) suit a range of runner abilities",
     "Organized by Bank Mandiri, a major national institution"
   ],
-  "cons": [
-    "Registration status has not yet been announced, so entry details are unavailable"
-  ],
+  "cons": [],
   "sentiment_scores": {
     "overall": 68,
     "breakdown": [
@@ -105,10 +102,6 @@
     {
       "question": "Where is the Mandiri Jogja Marathon 2027 held?",
       "answer": "The race takes place in the Kawasan Candi Prambanan area of Yogyakarta, Indonesia. This historic setting near the famous Prambanan temple complex provides the backdrop for all four race distances offered as part of this Bank Mandiri-organized running event."
-    },
-    {
-      "question": "Is registration open for the Mandiri Jogja Marathon 2027?",
-      "answer": "Registration for the Mandiri Jogja Marathon 2027 has not yet been announced. Prospective participants interested in the full marathon, half marathon, 10km, or 5km distances will need to wait for further details from organizer Bank Mandiri regarding sign-up dates and procedures."
     }
   ],
   "reliability_score": 70,

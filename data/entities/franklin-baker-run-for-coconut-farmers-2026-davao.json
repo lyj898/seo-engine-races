@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "philippines",
   "short_description": "A half-marathon event in Davao City, Philippines, held on September 20, 2026, with 21.1km, 10km, 5km, and 3km distance options.",
-  "ai_summary": "The Franklin Baker Run for Coconut Farmers 2026 is a half-marathon event scheduled for September 20, 2026, in Davao City, Philippines. Organized by Franklin Baker, it will be held at the Franklin Baker Daron Plant and offers four distance options: 21.1km, 10km, 5km, and 3km. Registration details have not yet been announced.",
+  "ai_summary": "The Franklin Baker Run for Coconut Farmers 2026 is a half-marathon event scheduled for September 20, 2026, in Davao City, Philippines. Organized by Franklin Baker, it will be held at the Franklin Baker Daron Plant and offers four distance options: 21.1km, 10km, 5km, and 3km.",
   "core_facts": {
     "date": "2026-09-20",
     "distance_km": [
@@ -16,7 +16,6 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "Franklin Baker",
-    "registration_status": "not_yet_announced",
     "venue": "Franklin Baker Daron Plant, Davao City",
     "city": "Davao City",
     "country": "Philippines"
@@ -26,9 +25,7 @@
     "Organized by Franklin Baker, giving it a clear organizational backing",
     "Set in Davao City, offering a distinct Philippine race location"
   ],
-  "cons": [
-    "Registration status is not yet announced, so entry details are unavailable"
-  ],
+  "cons": [],
   "excerpt_quotes": [],
   "research_highlights": [
     "The 2026 Davao leg takes place September 20, 2026 at the Franklin Baker Darong Plant in Sta. Cruz, Davao del Sur, with 3K, 5K, 10K and 21K distance options.",
@@ -52,10 +49,6 @@
     {
       "question": "What distances can participants choose from?",
       "answer": "Participants can choose from four distance options: a 21.1km half-marathon, a 10km race, a 5km race, and a 3km race. The 21.1km half-marathon is listed as the primary distance for this event."
-    },
-    {
-      "question": "Is registration open for this race?",
-      "answer": "As of now, the registration status for the Franklin Baker Run for Coconut Farmers 2026 has not yet been announced. Prospective participants should check back later for updates on when registration will open for this Davao City event."
     }
   ],
   "reliability_score": 10,

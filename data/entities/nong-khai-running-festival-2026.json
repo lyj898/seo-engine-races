@@ -5,7 +5,7 @@
   "category_id": "full-marathon",
   "region_id": "nong-khai-thailand",
   "short_description": "Nong Khai Running Festival is a verified multi-distance road race (10mi/Half/Full/100km Ultra) in Nong Khai, Thailand, confirmed for 1 August 2026.",
-  "ai_summary": "Nong Khai Running Festival is a multi-distance road race in Nong Khai, Thailand, offering a 10-mile run, a Half Marathon, a Full Marathon, and a 100km Ultra, all starting near Wat Champa Thong. The event is confirmed for 1 August 2026 across the official event website, the AIMS global race calendar, and multiple regional running aggregators. Entry pricing and a registration deadline have not yet been published.",
+  "ai_summary": "Nong Khai Running Festival is a multi-distance road race in Nong Khai, Thailand, offering a 10-mile run, a Half Marathon, a Full Marathon, and a 100km Ultra, all starting near Wat Champa Thong. The event is confirmed for 1 August 2026 across the official event website, the AIMS global race calendar, and multiple regional running aggregators.",
   "core_facts": {
     "date": "2026-08-01",
     "distance_km": [
@@ -15,7 +15,6 @@
       100
     ],
     "primary_distance_km": 42.195,
-    "registration_status": "opens 2026-04-09",
     "venue": "Wat Champa Thong, Nong Khai",
     "city": "Nong Khai",
     "country": "Thailand"
@@ -70,10 +69,6 @@
     {
       "question": "What distances does the Nong Khai Running Festival offer?",
       "answer": "The race offers four distances at one event: a 10-mile run, a 21.1km Half Marathon, a 42.195km Full Marathon, and a 100km Ultra. This range suits first-time 10-milers through experienced ultra-distance runners, with all distances starting from the same Nong Khai venue on race day."
-    },
-    {
-      "question": "Is registration open for the Nong Khai Running Festival?",
-      "answer": "Official entry pricing and a registration deadline have not yet been published on the race's official website. Runners interested in this event should check the official site directly for current registration status before finalizing travel plans."
     }
   ],
   "reliability_score": 85,

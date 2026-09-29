@@ -16,7 +16,6 @@
     ],
     "primary_distance_km": 42.195,
     "organizer": "Jog & Joy Co., Ltd. (presented by Muang Thai)",
-    "registration_status": "Open",
     "price_range": "THB 1500",
     "venue": "Tha Phae Gate (start); King Naresuan the Great Monument, Mae Rim (finish)",
     "city": "Chiang Mai",
@@ -24,7 +23,6 @@
   },
   "pros": [
     "Multiple distance options (42.195km, 21.1km, 10km, and 3km) suit a range of runner abilities",
-    "Registration is currently open",
     "Scenic route starting at the historic Tha Phae Gate and finishing at the King Naresuan the Great Monument",
     "Affordable entry starting at THB 1500"
   ],
@@ -35,7 +33,7 @@
   "faqs": [
     {
       "question": "When is the Muang Thai Chiang Mai Marathon held?",
-      "answer": "The Muang Thai Chiang Mai Marathon is scheduled for December 20, 2026. It takes place in Chiang Mai, Thailand, and is organized by Jog & Joy Co., Ltd., presented by Muang Thai. Registration for the event is currently open for interested runners planning to take part."
+      "answer": "The Muang Thai Chiang Mai Marathon is scheduled for December 20, 2026. It takes place in Chiang Mai, Thailand, and is organized by Jog & Joy Co., Ltd., presented by Muang Thai."
     },
     {
       "question": "What distances can I run at this event?",
@@ -43,7 +41,7 @@
     },
     {
       "question": "How much does it cost to register?",
-      "answer": "Registration for the Muang Thai Chiang Mai Marathon starts at THB 1500. This pricing applies to the event's available distances, and registration is currently open, so interested runners can sign up now to secure their spot at this listed starting price."
+      "answer": "Registration for the Muang Thai Chiang Mai Marathon starts at THB 1500. This pricing applies to the event's available distances."
     },
     {
       "question": "Where does the race start and finish?",

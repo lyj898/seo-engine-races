@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "laos",
   "short_description": "A half marathon (21.1 km) held in Nakham, Vientiane, Laos, scheduled for March 7, 2027.",
-  "ai_summary": "The Vientiane International Half Marathon is scheduled for March 7, 2027, in Nakham, Vientiane, Laos. Organized by Events for Good Laos, the event centers on a 21.1 km half marathon distance. Registration details have not yet been announced, so prospective participants should check back for updates on how to sign up.",
+  "ai_summary": "The Vientiane International Half Marathon is scheduled for March 7, 2027, in Nakham, Vientiane, Laos. Organized by Events for Good Laos, the event centers on a 21.1 km half marathon distance.",
   "core_facts": {
     "date": "2027-03-07",
     "distance_km": [
@@ -13,7 +13,6 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "Events for Good Laos",
-    "registration_status": "not_yet_announced",
     "venue": "Nakham, Vientiane",
     "city": "Vientiane",
     "country": "Laos"
@@ -24,9 +23,7 @@
     "Organized by a named organizer, Events for Good Laos",
     "Located in Vientiane, Laos, a specific and identifiable venue"
   ],
-  "cons": [
-    "Registration status is not yet announced, so signup details are unavailable"
-  ],
+  "cons": [],
   "excerpt_quotes": [],
   "research_highlights": [],
   "research_watchouts": [],
@@ -42,10 +39,6 @@
     {
       "question": "Who organizes the Vientiane International Half Marathon?",
       "answer": "The Vientiane International Half Marathon is organized by Events for Good Laos. The event takes place in Nakham, Vientiane, within the country of Laos. No additional details about the organizer's background or other events they run are included in the current facts provided."
-    },
-    {
-      "question": "Is registration open yet?",
-      "answer": "According to the available information, the registration status for the Vientiane International Half Marathon is listed as not yet announced. This means prospective runners cannot currently sign up, and further details about registration timing or process have not been shared yet by the organizer."
     }
   ],
   "reliability_score": 75,

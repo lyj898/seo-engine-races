@@ -16,7 +16,6 @@
     ],
     "primary_distance_km": 42.195,
     "organizer": "Malaysia Marathon (with SCORE Experience)",
-    "registration_status": "Registration opens 5 May 2026, 10:00 AM (MYT)",
     "price_range": "RM65–RM120 (Malaysian Open/Veteran rates)",
     "venue": "Start Pavilion Bukit Bintang, finish KLCC",
     "city": "Kuala Lumpur",
@@ -52,15 +51,11 @@
     },
     {
       "question": "How much does it cost to register?",
-      "answer": "Registration pricing for the Malaysia Marathon 2026 falls within the Malaysian Open/Veteran rate range of RM65 to RM120, depending on the distance category selected. Registration officially opens on 5 May 2026 at 10:00 AM Malaysian time, so interested runners should plan to sign up promptly."
+      "answer": "Registration pricing for the Malaysia Marathon 2026 falls within the Malaysian Open/Veteran rate range of RM65 to RM120, depending on the distance category selected."
     },
     {
       "question": "Where does the race start and finish?",
       "answer": "The Malaysia Marathon 2026 begins at Pavilion Bukit Bintang and concludes at KLCC, two well-known landmarks in Kuala Lumpur, Malaysia. This start-to-finish route takes runners through the heart of the city, offering a scenic and centrally located course for all distance categories."
-    },
-    {
-      "question": "When does registration open for the Malaysia Marathon 2026?",
-      "answer": "Registration for the Malaysia Marathon 2026 opens on 5 May 2026 at 10:00 AM Malaysian Standard Time (MYT). Runners interested in securing a place in the full marathon, half marathon, 10km, or 5km races should be ready to register at that specific date and time."
     }
   ],
   "reliability_score": 100,

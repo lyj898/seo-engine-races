@@ -5,7 +5,7 @@
   "category_id": "full-marathon",
   "region_id": "thailand",
   "short_description": "The Khon Kaen International Marathon (22nd edition) takes place January 10, 2027, in Khon Kaen, Thailand, offering marathon and half marathon distances.",
-  "ai_summary": "The Khon Kaen International Marathon is the 22nd edition of this annual road race, scheduled for January 10, 2027, in Khon Kaen, Thailand. The event offers both a full marathon distance of 42.195 km and a half marathon distance of 21.1 km, giving runners a choice based on their preferred challenge. Registration for the race is currently open, allowing participants to sign up ahead of the event date.",
+  "ai_summary": "The Khon Kaen International Marathon is the 22nd edition of this annual road race, scheduled for January 10, 2027, in Khon Kaen, Thailand. The event offers both a full marathon distance of 42.195 km and a half marathon distance of 21.1 km, giving runners a choice based on their preferred challenge.",
   "core_facts": {
     "date": "2027-01-10",
     "distance_km": [
@@ -16,7 +16,6 @@
       2.8
     ],
     "primary_distance_km": 42.195,
-    "registration_status": "open",
     "price_range": "400-2,500 THB",
     "venue": "Khon Kaen",
     "city": "Khon Kaen",
@@ -46,10 +45,6 @@
     {
       "question": "What distances are offered at this race?",
       "answer": "The Khon Kaen International Marathon offers two distances for participants to choose from: a full marathon at 42.195 km, which serves as the primary distance, and a half marathon option at 21.1 km. This gives runners flexibility depending on their fitness level and goals."
-    },
-    {
-      "question": "Is registration open for this race?",
-      "answer": "Yes, registration for the Khon Kaen International Marathon is currently listed as open. This means prospective participants are able to sign up for either the full marathon or half marathon distance ahead of the scheduled event date of January 10, 2027."
     },
     {
       "question": "Where does the race take place?",

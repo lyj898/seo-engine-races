@@ -15,7 +15,6 @@
       5
     ],
     "primary_distance_km": 42.195,
-    "registration_status": "Announced",
     "venue": "Kota Harapan Indah, Bekasi, Jawa Barat",
     "city": "Bekasi, Jawa Barat",
     "country": "Indonesia"
@@ -25,9 +24,7 @@
     "Includes a full marathon distance for serious runners",
     "Located in Bekasi, Jawa Barat, a Jakarta-area metropolitan region in Indonesia"
   ],
-  "cons": [
-    "Registration status is only 'Announced', so full registration details are not yet available"
-  ],
+  "cons": [],
   "sentiment_scores": {
     "overall": 68,
     "breakdown": [
@@ -93,10 +90,6 @@
     {
       "question": "Where is the Bekasi Marathon 2026 held?",
       "answer": "The Bekasi Marathon 2026 is held at Kota Harapan Indah, which is located in the city of Bekasi, in the Jawa Barat (West Java) province of Indonesia. This venue serves as the base for all race distances offered."
-    },
-    {
-      "question": "Is registration open for the Bekasi Marathon 2026?",
-      "answer": "As of the latest information, the registration status for the Bekasi Marathon 2026 is listed as 'Announced'. This indicates the event has been confirmed, though specific registration opening dates and details have not yet been provided."
     }
   ],
   "reliability_score": 91,

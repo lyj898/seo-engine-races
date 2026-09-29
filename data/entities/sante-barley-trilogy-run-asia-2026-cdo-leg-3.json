@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "philippines",
   "short_description": "A multi-distance run (5km to 32km) organized by Runrio, set for September 20, 2026 at SM City CDO Uptown in Cagayan de Oro, Philippines.",
-  "ai_summary": "Sante Barley Trilogy Run Asia 2026 – CDO Leg 3 is a running event scheduled for September 20, 2026, at SM City CDO Uptown in Cagayan de Oro, Philippines. Organized by Runrio under the Sante Barley Trilogy Run Asia brand, it offers multiple distance options of 32km, 21.1km (half-marathon, the primary distance), 10km, and 5km. Registration details have not yet been announced.",
+  "ai_summary": "Sante Barley Trilogy Run Asia 2026 – CDO Leg 3 is a running event scheduled for September 20, 2026, at SM City CDO Uptown in Cagayan de Oro, Philippines. Organized by Runrio under the Sante Barley Trilogy Run Asia brand, it offers multiple distance options of 32km, 21.1km (half-marathon, the primary distance), 10km, and 5km.",
   "core_facts": {
     "date": "2026-09-20",
     "distance_km": [
@@ -16,7 +16,6 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "Runrio (brand: Sante Barley Trilogy Run Asia)",
-    "registration_status": "open",
     "venue": "SM City CDO Uptown",
     "city": "Cagayan de Oro",
     "country": "Philippines"
@@ -26,9 +25,7 @@
     "Organized by Runrio, an established name behind the Sante Barley Trilogy Run Asia series",
     "Centrally located at SM City CDO Uptown, a well-known venue in Cagayan de Oro"
   ],
-  "cons": [
-    "Registration status is not yet announced, so sign-up details and pricing are unavailable"
-  ],
+  "cons": [],
   "excerpt_quotes": [
     {
       "quote": "Runners blast through the course with insane energy and pure grit.",
@@ -61,10 +58,6 @@
     {
       "question": "Who organizes this race?",
       "answer": "The race is organized by Runrio, operating under the Sante Barley Trilogy Run Asia brand. This CDO Leg 3 event is part of a broader series held across different locations under the same organizing brand."
-    },
-    {
-      "question": "Is registration open yet?",
-      "answer": "Registration status for this race has not yet been announced. No further details on sign-up dates, fees, or process are currently available based on the information provided, so interested runners should check back later."
     }
   ],
   "reliability_score": 55,

@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "philippines",
   "short_description": "The National MILO Marathon 2026 – Cagayan de Oro Leg is a half-marathon event held on August 23, 2026, at Centrio Mall in Cagayan de Oro City, Philippines.",
-  "ai_summary": "The National MILO Marathon 2026 – Cagayan de Oro Leg is scheduled for August 23, 2026, at Centrio Mall, Corrales Avenue, in Cagayan de Oro City, Philippines. Organized by RUNRIO Inc., the event is part of the long-running MILO Marathon series and offers multiple distances including 1km, 3km, 5km, 10km, and the primary 21.1km half-marathon. Registration for this leg is currently open.",
+  "ai_summary": "The National MILO Marathon 2026 – Cagayan de Oro Leg is scheduled for August 23, 2026, at Centrio Mall, Corrales Avenue, in Cagayan de Oro City, Philippines. Organized by RUNRIO Inc., the event is part of the long-running MILO Marathon series and offers multiple distances including 1km, 3km, 5km, 10km, and the primary 21.1km half-marathon.",
   "core_facts": {
     "date": "2026-08-23",
     "distance_km": [
@@ -17,7 +17,6 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "RUNRIO Inc. (MILO Marathon)",
-    "registration_status": "Open",
     "venue": "Centrio Mall, Corrales Avenue, Cagayan de Oro",
     "city": "Cagayan de Oro City",
     "country": "Philippines"
@@ -25,7 +24,6 @@
   "pros": [
     "Multiple distance options (1km, 3km, 5km, 10km, 21.1km) suit different runner levels",
     "Organized by RUNRIO Inc., the established organizer behind the MILO Marathon series",
-    "Registration is currently open, giving ample time to prepare and sign up",
     "Centrally located venue at Centrio Mall, Corrales Avenue, in Cagayan de Oro City"
   ],
   "cons": [],
@@ -62,10 +60,6 @@
     {
       "question": "Who is organizing this race and where will it be held?",
       "answer": "The race is organized by RUNRIO Inc., the group behind the MILO Marathon series. It will take place in Cagayan de Oro City, Philippines, with the venue set at Centrio Mall on Corrales Avenue, a central and accessible location in the city."
-    },
-    {
-      "question": "Is registration currently open for this event?",
-      "answer": "Yes, registration for the National MILO Marathon 2026 – Cagayan de Oro Leg is currently open. Interested participants can sign up ahead of the August 23, 2026 race date to secure their spot in one of the available distance categories."
     }
   ],
   "reliability_score": 40,

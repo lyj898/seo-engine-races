@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "philippines",
   "short_description": "A half-marathon-anchored race at Azuela Cove, Davao City, Philippines, held on September 27, 2026, organized by Runrio.",
-  "ai_summary": "Sante Barley Trilogy Run Asia 2026 – Davao Leg 3 is a road race scheduled for September 27, 2026, at Azuela Cove in Davao City, Philippines. Organized by Runrio under the Sante Barley Trilogy Run Asia brand, the event offers multiple distances including 32km, 21.1km (the primary half-marathon distance), 10km, and 5km. Registration details have not yet been announced.",
+  "ai_summary": "Sante Barley Trilogy Run Asia 2026 – Davao Leg 3 is a road race scheduled for September 27, 2026, at Azuela Cove in Davao City, Philippines. Organized by Runrio under the Sante Barley Trilogy Run Asia brand, the event offers multiple distances including 32km, 21.1km (the primary half-marathon distance), 10km, and 5km.",
   "core_facts": {
     "date": "2026-09-27",
     "distance_km": [
@@ -16,7 +16,6 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "Runrio (brand: Sante Barley Trilogy Run Asia)",
-    "registration_status": "not_yet_announced",
     "venue": "Azuela Cove, Davao",
     "city": "Davao City",
     "country": "Philippines"
@@ -58,10 +57,6 @@
     {
       "question": "Who organizes this race?",
       "answer": "The race is organized by Runrio, operating under the Sante Barley Trilogy Run Asia brand. Runrio is responsible for organizing this leg of the trilogy series, which takes place in Davao City, Philippines, as part of a broader multi-leg race event."
-    },
-    {
-      "question": "Is registration open yet?",
-      "answer": "As of now, the registration status for this race has not yet been announced. Interested participants will need to watch for further updates from the organizer, Runrio, regarding when and how to sign up for the Davao Leg 3 event."
     }
   ],
   "reliability_score": 40,

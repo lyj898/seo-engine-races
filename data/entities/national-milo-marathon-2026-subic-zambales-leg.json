@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "philippines",
   "short_description": "A half-marathon leg of the National MILO Marathon 2026 held in Subic, Zambales, Philippines on October 18, 2026.",
-  "ai_summary": "The National MILO Marathon 2026 – Subic (Zambales) Leg is a half-marathon event scheduled for October 18, 2026, in Subic, Zambales, Philippines. Organized by RUNRIO Inc. under the long-running MILO Marathon banner, the race offers four distance options: 21.1km, 10km, 5km, and 3km. Registration for this leg is currently open to interested runners.",
+  "ai_summary": "The National MILO Marathon 2026 – Subic (Zambales) Leg is a half-marathon event scheduled for October 18, 2026, in Subic, Zambales, Philippines. Organized by RUNRIO Inc. under the long-running MILO Marathon banner, the race offers four distance options: 21.1km, 10km, 5km, and 3km.",
   "core_facts": {
     "date": "2026-10-18",
     "distance_km": [
@@ -16,15 +16,13 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "RUNRIO Inc. (MILO Marathon)",
-    "registration_status": "Open",
     "venue": "Subic, Zambales",
     "city": "Subic, Zambales",
     "country": "Philippines"
   },
   "pros": [
     "Multiple distance options (21.1km, 10km, 5km, 3km) suit different runner levels",
-    "Organized by RUNRIO Inc., part of the established MILO Marathon series",
-    "Registration is currently open"
+    "Organized by RUNRIO Inc., part of the established MILO Marathon series"
   ],
   "cons": [],
   "excerpt_quotes": [],
@@ -49,10 +47,6 @@
     {
       "question": "Who organizes this race?",
       "answer": "This race is organized by RUNRIO Inc., the organization behind the National MILO Marathon series held across the Philippines. The Subic, Zambales leg forms part of the broader 2026 edition of the National MILO Marathon, coordinated under the same organizing body."
-    },
-    {
-      "question": "Is registration open for this event?",
-      "answer": "Yes, registration for the National MILO Marathon 2026 – Subic (Zambales) Leg is currently listed as open. Prospective participants can register ahead of the October 18, 2026 race date to secure their spot in one of the four available distance categories."
     }
   ],
   "reliability_score": 22,

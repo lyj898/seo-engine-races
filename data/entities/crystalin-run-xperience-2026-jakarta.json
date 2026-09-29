@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "indonesia",
   "short_description": "A half-marathon event in Jakarta, Indonesia, scheduled for October 4, 2026, offering 21.1 km, 10 km, 5 km, and 2.5 km distance options.",
-  "ai_summary": "The Crystalin Run Xperience 2026 is a half-marathon event set to take place in Jakarta, Indonesia, on October 4, 2026. Runners can choose from four distance categories: 21.1 km, 10 km, 5 km, and 2.5 km. The exact venue within Jakarta has not yet been disclosed, and registration details remain unannounced at this time.",
+  "ai_summary": "The Crystalin Run Xperience 2026 is a half-marathon event set to take place in Jakarta, Indonesia, on October 4, 2026. Runners can choose from four distance categories: 21.1 km, 10 km, 5 km, and 2.5 km. The exact venue within Jakarta has not yet been disclosed.",
   "core_facts": {
     "date": "2026-10-04",
     "distance_km": [
@@ -15,7 +15,6 @@
       2.5
     ],
     "primary_distance_km": 21.1,
-    "registration_status": "Not Yet Announced",
     "venue": "Jakarta (exact venue not stated)",
     "city": "Jakarta",
     "country": "Indonesia"
@@ -26,8 +25,7 @@
     "Takes place in a major city, Jakarta, Indonesia"
   ],
   "cons": [
-    "Exact venue within Jakarta has not been stated",
-    "Registration status is not yet announced, so sign-up details are unavailable"
+    "Exact venue within Jakarta has not been stated"
   ],
   "excerpt_quotes": [],
   "research_highlights": [
@@ -52,10 +50,6 @@
     {
       "question": "Where exactly is the race held?",
       "answer": "The race takes place in Jakarta, Indonesia, though the exact venue within the city has not been specified in available information. Participants planning to attend should watch for further announcements from organizers, which are expected to provide precise location details closer to the October 2026 event date."
-    },
-    {
-      "question": "Is registration open for this race?",
-      "answer": "As of now, registration status for the Crystalin Run Xperience 2026 is listed as 'Not Yet Announced.' Prospective participants interested in joining this Jakarta half-marathon event should check back for updates, as organizers have not yet released details on sign-up dates, fees, or the registration process."
     }
   ],
   "reliability_score": 47,

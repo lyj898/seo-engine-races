@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "philippines",
   "short_description": "A half-marathon and multi-distance run held at Sampaloc Lake Boardwalk, San Pablo City, Laguna, Philippines on September 13, 2026.",
-  "ai_summary": "The Franklin Baker Run for Coconut Farmers 2026 is a half-marathon event scheduled for September 13, 2026, in San Pablo City, Laguna, Philippines. Organized by Franklin Baker, the race takes place at Sampaloc Lake Boardwalk and offers four distance options: 21.1km, 10km, 5km, and 3km. Registration details have not yet been announced.",
+  "ai_summary": "The Franklin Baker Run for Coconut Farmers 2026 is a half-marathon event scheduled for September 13, 2026, in San Pablo City, Laguna, Philippines. Organized by Franklin Baker, the race takes place at Sampaloc Lake Boardwalk and offers four distance options: 21.1km, 10km, 5km, and 3km.",
   "core_facts": {
     "date": "2026-09-13",
     "distance_km": [
@@ -16,7 +16,6 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "Franklin Baker",
-    "registration_status": "not_yet_announced",
     "venue": "Sampaloc Lake Boardwalk, San Pablo City",
     "city": "San Pablo City, Laguna",
     "country": "Philippines"
@@ -26,9 +25,7 @@
     "Scenic venue at Sampaloc Lake Boardwalk, San Pablo City",
     "Organized by an established organizer, Franklin Baker"
   ],
-  "cons": [
-    "Registration status is not yet announced, so entry details are unavailable"
-  ],
+  "cons": [],
   "excerpt_quotes": [],
   "research_highlights": [
     "The San Pablo leg of the 2026 event is set for September 13, 2026 at Sampaloc Lake Boardwalk, San Pablo City, Laguna, with a separate Davao leg on September 20, 2026 at the Franklin Baker Darong Plant.",
@@ -55,7 +52,7 @@
     },
     {
       "question": "Can I register for the race now?",
-      "answer": "According to available information, the registration status for this race has not yet been announced. Interested runners will need to wait for further details from the organizer, Franklin Baker, regarding when and how registration will open for the 2026 event."
+      "answer": "According to available information. Interested runners will need to wait for further details from the organizer, Franklin Baker, regarding when and how registration will open for the 2026 event."
     }
   ],
   "reliability_score": 10,

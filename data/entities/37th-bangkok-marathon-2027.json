@@ -5,7 +5,7 @@
   "category_id": "full-marathon",
   "region_id": "thailand",
   "short_description": "The 37th Bangkok Marathon takes place January 10, 2027, beside the Grand Palace in Bangkok, offering full marathon, half marathon, and 10 km distances.",
-  "ai_summary": "The 37th Bangkok Marathon is scheduled for January 10, 2027, starting near Sanam Chai Road beside the Grand Palace in Bangkok, Thailand. The event offers three distances: a full marathon (42.195 km), a half marathon (21.1 km), and a 10 km race. Registration has not yet opened and is set to begin nationwide on July 1, 2026.",
+  "ai_summary": "The 37th Bangkok Marathon is scheduled for January 10, 2027, starting near Sanam Chai Road beside the Grand Palace in Bangkok, Thailand. The event offers three distances: a full marathon (42.195 km), a half marathon (21.1 km), and a 10 km race.",
   "core_facts": {
     "date": "2027-01-10",
     "distance_km": [
@@ -14,7 +14,6 @@
       10
     ],
     "primary_distance_km": 42.195,
-    "registration_status": "Not yet open (opens nationwide 1 Jul 2026)",
     "venue": "Sanam Chai Road, beside the Grand Palace, Bangkok",
     "city": "Bangkok",
     "country": "Thailand"
@@ -24,9 +23,7 @@
     "Multiple distance options (42.195 km, 21.1 km, 10 km) to suit different runners",
     "Long-running event, now in its 37th edition, suggesting established organization"
   ],
-  "cons": [
-    "Registration is not yet open, so runners must wait until July 2026 to sign up"
-  ],
+  "cons": [],
   "excerpt_quotes": [],
   "research_highlights": [],
   "research_watchouts": [],
@@ -45,7 +42,7 @@
     },
     {
       "question": "When can I register for the race?",
-      "answer": "Registration for the 37th Bangkok Marathon has not yet opened. According to the available information, nationwide registration is set to begin on July 1, 2026, so prospective participants will need to wait until that date to sign up."
+      "answer": "According to the available information, nationwide registration is set to begin on July 1, 2026, so prospective participants will need to wait until that date to sign up."
     }
   ],
   "reliability_score": 40,

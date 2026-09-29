@@ -5,7 +5,7 @@
   "category_id": "full-marathon",
   "region_id": "philippines",
   "short_description": "The Siquijor Island Marathon 2026 is a full-marathon event held in Siquijor, Philippines on September 26, 2026, with distances from 5 km to 42.195 km.",
-  "ai_summary": "The Siquijor Island Marathon 2026 is a full-marathon event scheduled for September 26, 2026, on the island of Siquijor, Philippines. Runners can choose from four distances: 42.195 km, 21.1 km, 10 km, and 5 km, making it accessible to a range of fitness levels. Registration details have not yet been announced. The race offers a scenic island setting in Siquijor for those seeking a Philippine race destination.",
+  "ai_summary": "The Siquijor Island Marathon 2026 is a full-marathon event scheduled for September 26, 2026, on the island of Siquijor, Philippines. Runners can choose from four distances: 42.195 km, 21.1 km, 10 km, and 5 km, making it accessible to a range of fitness levels. The race offers a scenic island setting in Siquijor for those seeking a Philippine race destination.",
   "core_facts": {
     "date": "2026-09-26",
     "distance_km": [
@@ -15,7 +15,6 @@
       5
     ],
     "primary_distance_km": 42.195,
-    "registration_status": "not_yet_announced",
     "venue": "Siquijor",
     "city": "Siquijor",
     "country": "Philippines"
@@ -25,9 +24,7 @@
     "Held in the scenic island location of Siquijor, Philippines",
     "Clear event date already set for September 26, 2026"
   ],
-  "cons": [
-    "Registration status is not yet announced, so sign-up details are unavailable"
-  ],
+  "cons": [],
   "excerpt_quotes": [],
   "research_highlights": [
     "This is the inaugural edition of the Siquijor Island Marathon, described by organizers as part of a 'Run for Community & Education' initiative with no prior editions to draw participant history from.",
@@ -50,10 +47,6 @@
     {
       "question": "What distances are offered at the Siquijor Island Marathon 2026?",
       "answer": "The event offers four distance options for participants: a full marathon of 42.195 km, a half marathon of 21.1 km, a 10 km race, and a shorter 5 km race, allowing runners of varying experience and fitness levels to choose a suitable challenge."
-    },
-    {
-      "question": "Is registration open for the Siquijor Island Marathon 2026?",
-      "answer": "Registration for the Siquijor Island Marathon 2026 has not yet been announced. Prospective participants will need to wait for further updates regarding sign-up dates, fees, and process details, as this information is not currently available based on the facts provided."
     },
     {
       "question": "Where is the Siquijor Island Marathon 2026 held?",

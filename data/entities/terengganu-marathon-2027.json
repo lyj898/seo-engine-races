@@ -5,7 +5,7 @@
   "category_id": "full-marathon",
   "region_id": "malaysia",
   "short_description": "A full and half marathon event taking place on April 30, 2027, in Kuala Terengganu, Terengganu, Malaysia.",
-  "ai_summary": "The Terengganu Marathon 2027 is a full marathon event scheduled for April 30, 2027, in Kuala Terengganu, Terengganu, Malaysia. Runners can choose between a full marathon of 42.195 km or a half marathon of 21.1 km, both starting at the Dataran parking area of Stadium Sultan Mizan Zainal Abidin. Registration for the event has not yet opened.",
+  "ai_summary": "The Terengganu Marathon 2027 is a full marathon event scheduled for April 30, 2027, in Kuala Terengganu, Terengganu, Malaysia. Runners can choose between a full marathon of 42.195 km or a half marathon of 21.1 km, both starting at the Dataran parking area of Stadium Sultan Mizan Zainal Abidin.",
   "core_facts": {
     "date": "2027-04-30",
     "distance_km": [
@@ -15,7 +15,6 @@
       5
     ],
     "primary_distance_km": 42.195,
-    "registration_status": "Not yet open",
     "venue": "Dataran parking Stadium Sultan Mizan Zainal Abidin, Kuala Terengganu, Terengganu, Malaysia",
     "city": "Kuala Terengganu, Terengganu",
     "country": "Malaysia"
@@ -25,9 +24,7 @@
     "Located at a well-defined venue, the Dataran parking area of Stadium Sultan Mizan Zainal Abidin",
     "Set in Kuala Terengganu, a specific and identifiable Malaysian city"
   ],
-  "cons": [
-    "Registration is not yet open, so entry details are not currently available"
-  ],
+  "cons": [],
   "excerpt_quotes": [],
   "research_highlights": [],
   "research_watchouts": [],
@@ -46,7 +43,7 @@
     },
     {
       "question": "Can I register for the Terengganu Marathon 2027 now?",
-      "answer": "No, registration for the Terengganu Marathon 2027 is not yet open according to the available information. Prospective participants will need to wait for registration to open before they can sign up for either the full marathon or half marathon distance at this Kuala Terengganu event."
+      "answer": "Prospective participants will need to wait for registration to open before they can sign up for either the full marathon or half marathon distance at this Kuala Terengganu event."
     }
   ],
   "reliability_score": 100,

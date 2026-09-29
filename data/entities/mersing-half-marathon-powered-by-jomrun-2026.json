@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "malaysia",
   "short_description": "A half marathon event held on October 18, 2026 at Dataran Air Papan in Mersing, Johor, Malaysia, offering 5km, 10km, and 21.1km distances.",
-  "ai_summary": "The Mersing Half Marathon Powered by JomRun® is scheduled for October 18, 2026, at Dataran Air Papan in Mersing, Johor, Malaysia. Runners can choose from three distances: 5km, 10km, and the primary 21.1km half marathon. Registration is currently open for participants interested in joining this event on the Malaysian racing calendar.",
+  "ai_summary": "The Mersing Half Marathon Powered by JomRun® is scheduled for October 18, 2026, at Dataran Air Papan in Mersing, Johor, Malaysia. Runners can choose from three distances: 5km, 10km, and the primary 21.1km half marathon.",
   "core_facts": {
     "date": "2026-10-18",
     "distance_km": [
@@ -14,7 +14,6 @@
       21.1
     ],
     "primary_distance_km": 21.1,
-    "registration_status": "Open",
     "registration_deadline": "2026-10-17",
     "venue": "Dataran Air Papan",
     "city": "Mersing, Johor",
@@ -22,7 +21,6 @@
   },
   "pros": [
     "Multiple distance options (5km, 10km, 21.1km) suit different fitness levels",
-    "Registration is currently open",
     "Scenic venue at Dataran Air Papan in Mersing, Johor"
   ],
   "cons": [],
@@ -38,10 +36,6 @@
     {
       "question": "What distances are offered at this race?",
       "answer": "The race offers three distance options for participants to choose from: 5km, 10km, and 21.1km. The 21.1km half marathon serves as the primary distance for the event, while the shorter 5km and 10km options provide alternatives for runners seeking less demanding distances."
-    },
-    {
-      "question": "Is registration currently open for this race?",
-      "answer": "Yes, registration for the Mersing Half Marathon Powered by JomRun® is currently open. Prospective participants interested in joining any of the three available distances—5km, 10km, or the 21.1km half marathon—can register now ahead of the October 18, 2026 event date."
     },
     {
       "question": "Where is the race venue located?",

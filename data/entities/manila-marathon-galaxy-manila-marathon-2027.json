@@ -15,7 +15,6 @@
       5
     ],
     "primary_distance_km": 42.195,
-    "registration_status": "Closed",
     "price_range": "Php 1,600.00 - Php 3,400.00",
     "venue": "SM Mall of Asia Complex, Pasay",
     "city": "Pasay",
@@ -23,8 +22,7 @@
   },
   "pros": [
     "Multiple distance options (42.195 km, 21.1 km, 10 km, and 5 km) to suit different runner levels",
-    "Centrally located at SM Mall of Asia Complex in Pasay, a well-known venue",
-    "Registration is currently open, giving participants time to plan and prepare"
+    "Centrally located at SM Mall of Asia Complex in Pasay, a well-known venue"
   ],
   "cons": [
     "Price varies significantly across distances (Php 1,600.00 - Php 3,400.00), so cost depends on which race is chosen"

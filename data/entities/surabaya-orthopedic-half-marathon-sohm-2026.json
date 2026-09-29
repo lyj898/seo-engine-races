@@ -14,7 +14,6 @@
       5
     ],
     "primary_distance_km": 21.1,
-    "registration_status": "Open",
     "price_range": "Rp 137.500 - Rp 450.000",
     "venue": "The Caribbean Grande Pakuwon City, Surabaya",
     "city": "Surabaya",
@@ -22,7 +21,6 @@
   },
   "pros": [
     "Multiple distance options (21.1km, 10km, 5km) accommodate different runner levels",
-    "Registration is currently open, giving ample time to prepare",
     "Held at a named, specific venue (The Caribbean Grande Pakuwon City, Surabaya)",
     "Price range offers flexibility depending on distance and budget"
   ],
@@ -67,7 +65,7 @@
     },
     {
       "question": "How much does it cost to register for SOHM 2026?",
-      "answer": "Registration prices for SOHM 2026 range from Rp 137.500 to Rp 450.000, depending on the distance category and registration package selected. Registration is currently open, so interested runners can sign up now within this stated price range for their preferred race distance."
+      "answer": "Registration prices for SOHM 2026 range from Rp 137.500 to Rp 450.000, depending on the distance category and registration package selected."
     }
   ],
   "reliability_score": 100,

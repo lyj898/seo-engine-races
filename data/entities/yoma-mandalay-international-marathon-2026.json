@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "myanmar",
   "short_description": "A half-marathon event in Mandalay, Myanmar, scheduled for December 6, 2026, offering 21.1km, 10km, and 5km distances.",
-  "ai_summary": "The Yoma Mandalay International Marathon is a half-marathon event scheduled for December 6, 2026, organized by Yoma in Mandalay, Myanmar. Runners can choose from three distances: 21.1km, 10km, and 5km, with the 21.1km half-marathon serving as the primary distance. The exact starting venue within Mandalay has not yet been published, and registration details have not yet been announced.",
+  "ai_summary": "The Yoma Mandalay International Marathon is a half-marathon event scheduled for December 6, 2026, organized by Yoma in Mandalay, Myanmar. Runners can choose from three distances: 21.1km, 10km, and 5km, with the 21.1km half-marathon serving as the primary distance. The exact starting venue within Mandalay has not yet been published.",
   "core_facts": {
     "date": "2026-12-06",
     "distance_km": [
@@ -15,7 +15,6 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "Yoma",
-    "registration_status": "open",
     "venue": "Mandalay (exact start point not yet published)",
     "city": "Mandalay",
     "country": "Myanmar"
@@ -26,8 +25,7 @@
     "Organized by Yoma, providing a structured event framework"
   ],
   "cons": [
-    "Exact start venue within Mandalay has not yet been published",
-    "Registration status is not yet announced, so sign-up details are unavailable"
+    "Exact start venue within Mandalay has not yet been published"
   ],
   "excerpt_quotes": [],
   "research_highlights": [],
@@ -40,10 +38,6 @@
     {
       "question": "What distances are offered?",
       "answer": "The event offers three distance options for participants: a 21.1km half-marathon, which is the primary distance, along with 10km and 5km races. This range allows runners of varying experience levels and fitness goals to select the distance that best suits them."
-    },
-    {
-      "question": "How do I register for the race?",
-      "answer": "Registration details for the Yoma Mandalay International Marathon have not yet been announced by the organizers. As of now, the registration status is listed as not yet announced, so prospective participants will need to wait for further updates before signing up for the event."
     },
     {
       "question": "Where does the race take place?",

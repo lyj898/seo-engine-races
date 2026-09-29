@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "philippines",
   "short_description": "The Guinobatan Half Marathon 2026 takes place on August 9, 2026, in Guinobatan, Albay, Philippines, offering 21.1km, 10km, and 5km distances.",
-  "ai_summary": "The Guinobatan Half Marathon 2026 is scheduled for August 9, 2026, in Guinobatan, Albay, Philippines. Organized by the Guinobatan Runners Club, the event offers three distance options: 21.1km, 10km, and 5km, catering to a range of runner experience levels. Registration details have not yet been announced.",
+  "ai_summary": "The Guinobatan Half Marathon 2026 is scheduled for August 9, 2026, in Guinobatan, Albay, Philippines. Organized by the Guinobatan Runners Club, the event offers three distance options: 21.1km, 10km, and 5km, catering to a range of runner experience levels.",
   "core_facts": {
     "date": "2026-08-09",
     "distance_km": [
@@ -15,7 +15,6 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "Guinobatan Runners Club",
-    "registration_status": "not_yet_announced",
     "venue": "Guinobatan, Albay",
     "city": "Guinobatan, Albay",
     "country": "Philippines"
@@ -26,7 +25,6 @@
     "Organized by a dedicated local group, the Guinobatan Runners Club"
   ],
   "cons": [
-    "Registration status is not yet announced, so sign-up details are unavailable",
     "No pricing, route, or logistical information currently provided"
   ],
   "excerpt_quotes": [],
@@ -45,10 +43,6 @@
     {
       "question": "Who organizes the Guinobatan Half Marathon 2026?",
       "answer": "The Guinobatan Half Marathon 2026 is organized by the Guinobatan Runners Club. This local running organization is responsible for coordinating the event, which will take place in Guinobatan, Albay, Philippines, on August 9, 2026, featuring three different race distances."
-    },
-    {
-      "question": "Is registration open for the Guinobatan Half Marathon 2026?",
-      "answer": "As of now, the registration status for the Guinobatan Half Marathon 2026 has not yet been announced. Prospective participants should check back for updates from the organizer, the Guinobatan Runners Club, regarding sign-up details, fees, and deadlines closer to the event date."
     }
   ],
   "reliability_score": 46,

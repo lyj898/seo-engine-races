@@ -4,8 +4,8 @@
   "name": "The Kiprun Singapore 2026",
   "category_id": "half-marathon",
   "region_id": "singapore",
-  "short_description": "The Kiprun Singapore 2026 is a half-marathon event on September 27, 2026, in Kallang, Singapore, with registration currently open.",
-  "ai_summary": "The Kiprun Singapore 2026 is a half-marathon event scheduled for September 27, 2026, in Kallang, Singapore. Organized by MetaSport and presented by Decathlon Singapore, the race offers four distance options: 21.1km, 10km, 5km, and a 0.67km event, based at the Decathlon Singapore Lab. Registration is currently open for participants interested in joining any of these distances.",
+  "short_description": "The Kiprun Singapore 2026 is a half-marathon event on September 27, 2026, in Kallang, Singapore.",
+  "ai_summary": "The Kiprun Singapore 2026 is a half-marathon event scheduled for September 27, 2026, in Kallang, Singapore. Organized by MetaSport and presented by Decathlon Singapore, the race offers four distance options: 21.1km, 10km, 5km, and a 0.67km event, based at the Decathlon Singapore Lab.",
   "core_facts": {
     "date": "2026-09-27",
     "distance_km": [
@@ -16,7 +16,6 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "MetaSport (presented by Decathlon Singapore)",
-    "registration_status": "Open",
     "venue": "Decathlon Singapore Lab, Kallang",
     "city": "Singapore",
     "country": "Singapore"

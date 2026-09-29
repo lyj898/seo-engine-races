@@ -5,14 +5,13 @@
   "category_id": "half-marathon",
   "region_id": "malaysia",
   "short_description": "The Kluang Half Marathon 2026 is a 21.1km half marathon held on September 20, 2026, at Kluang Stadium, Johor, Malaysia.",
-  "ai_summary": "The Kluang Half Marathon 2026 is a half marathon event scheduled for September 20, 2026, in Kluang, Johor, Malaysia. The race starts and is based at Kluang Stadium, Johor, and covers a distance of 21.1 kilometers. Registration for this event is currently closed, so entry is no longer available to prospective participants.",
+  "ai_summary": "The Kluang Half Marathon 2026 is a half marathon event scheduled for September 20, 2026, in Kluang, Johor, Malaysia. The race starts and is based at Kluang Stadium, Johor, and covers a distance of 21.1 kilometers.",
   "core_facts": {
     "date": "2026-09-20",
     "distance_km": [
       21.1
     ],
     "primary_distance_km": 21.1,
-    "registration_status": "Closed",
     "venue": "Kluang Stadium, Johor",
     "city": "Kluang, Johor",
     "country": "Malaysia"
@@ -22,9 +21,7 @@
     "Held at a dedicated venue, Kluang Stadium, Johor",
     "Set date of September 20, 2026 allows for advance scheduling"
   ],
-  "cons": [
-    "Registration status is listed as Closed, meaning entry is currently unavailable"
-  ],
+  "cons": [],
   "excerpt_quotes": [],
   "research_highlights": [
     "The 2026 edition offers three distance categories: 5km, 10km, and 21km, starting from Kluang Stadium in Kluang, Johor.",
@@ -41,10 +38,6 @@
     {
       "question": "What distance is offered at the Kluang Half Marathon 2026?",
       "answer": "The Kluang Half Marathon 2026 offers a single race distance of 21.1 kilometers, which is the standard half marathon distance. This is the primary and only distance listed for the event, meaning participants should be prepared to cover the full 21.1km course during the race."
-    },
-    {
-      "question": "Can I still register for the Kluang Half Marathon 2026?",
-      "answer": "No, registration for the Kluang Half Marathon 2026 is currently listed as Closed. This means prospective participants are unable to sign up for the event at this time. Anyone interested in future participation may need to watch for updates on whether registration reopens or check for future editions of the race."
     },
     {
       "question": "Where is the Kluang Half Marathon 2026 held?",

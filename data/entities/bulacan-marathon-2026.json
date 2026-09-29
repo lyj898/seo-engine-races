@@ -5,7 +5,7 @@
   "category_id": "full-marathon",
   "region_id": "philippines",
   "short_description": "The Bulacan Marathon 2026 is a full-marathon race held on August 9, 2026, at SM Center Pulilan in Pulilan, Bulacan, Philippines.",
-  "ai_summary": "The Bulacan Marathon 2026 is a full-marathon event scheduled for August 9, 2026, in Pulilan, Bulacan, Philippines. Hosted at SM Center Pulilan, the race offers four distance options: 42.195km, 21.1km, 10km, and 5km, catering to a range of runner abilities. It is organized by Team Malofit x Pairfect Fit, and registration is currently open.",
+  "ai_summary": "The Bulacan Marathon 2026 is a full-marathon event scheduled for August 9, 2026, in Pulilan, Bulacan, Philippines. Hosted at SM Center Pulilan, the race offers four distance options: 42.195km, 21.1km, 10km, and 5km, catering to a range of runner abilities. It is organized by Team Malofit x Pairfect Fit.",
   "core_facts": {
     "date": "2026-08-09",
     "distance_km": [
@@ -16,7 +16,6 @@
     ],
     "primary_distance_km": 42.195,
     "organizer": "Team Malofit x Pairfect Fit",
-    "registration_status": "Open",
     "venue": "SM Center Pulilan",
     "city": "Plaridel, Bulacan",
     "country": "Philippines"
@@ -48,7 +47,7 @@
   "faqs": [
     {
       "question": "When is the Bulacan Marathon 2026 taking place?",
-      "answer": "The Bulacan Marathon 2026 is scheduled to take place on August 9, 2026. This date has been confirmed for the event, which will be held in Pulilan, Bulacan, Philippines, and registration for participants is currently open ahead of race day."
+      "answer": "The Bulacan Marathon 2026 is scheduled to take place on August 9, 2026. This date has been confirmed for the event, which will be held in Pulilan, Bulacan, Philippines."
     },
     {
       "question": "What distances can participants choose from?",

@@ -16,7 +16,6 @@
     ],
     "primary_distance_km": 42.195,
     "organizer": "IM Road Runner (with Universitas Indonesia & Bank BTN)",
-    "registration_status": "Open",
     "price_range": "IDR From 350,000",
     "venue": "Universitas Indonesia campus, Depok",
     "city": "Depok, Jawa Barat",
@@ -25,8 +24,7 @@
   "pros": [
     "Multiple distance options (42.195km, 21.1km, 10km, and 5km) suit a range of runner abilities",
     "Held on the Universitas Indonesia campus, a distinct and notable venue setting",
-    "Backed by a strong organizing partnership including Universitas Indonesia and Bank BTN",
-    "Registration is open with an accessible starting price of IDR 350,000"
+    "Backed by a strong organizing partnership including Universitas Indonesia and Bank BTN"
   ],
   "cons": [
     "Only the starting price is listed, so full cost details across all distance categories are unclear",
@@ -70,10 +68,6 @@
     {
       "question": "Who organizes the BTN UI Green Marathon 2026?",
       "answer": "The event is organized by IM Road Runner in partnership with Universitas Indonesia and Bank BTN. This collaboration brings together an event organizer, an academic institution, and a bank sponsor to host the marathon on the Universitas Indonesia campus in Depok."
-    },
-    {
-      "question": "How much does it cost to register, and is registration open?",
-      "answer": "Registration for the BTN UI Green Marathon 2026 is currently open. Prices start from IDR 350,000, though this figure represents the starting point and costs may vary depending on the chosen distance category, such as the marathon, half marathon, 10km, or 5km."
     }
   ],
   "reliability_score": 48,

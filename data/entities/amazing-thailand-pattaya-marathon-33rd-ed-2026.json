@@ -5,7 +5,7 @@
   "category_id": "full-marathon",
   "region_id": "thailand",
   "short_description": "A 33rd-edition marathon event in Pattaya, Chonburi, Thailand, held September 27, 2026, offering full marathon, half marathon, 10km, and 4.5km distances.",
-  "ai_summary": "The Amazing Thailand Pattaya Marathon returns for its 33rd edition on September 27, 2026, in Pattaya, Chonburi, Thailand. Runners can choose from four distances: a full marathon (42.195km), a half marathon (21.1km), a 10km race, and a 4.5km fun run. Registration for the event is currently open, making it accessible to a wide range of participants from elite marathoners to casual runners.",
+  "ai_summary": "The Amazing Thailand Pattaya Marathon returns for its 33rd edition on September 27, 2026, in Pattaya, Chonburi, Thailand. Runners can choose from four distances: a full marathon (42.195km), a half marathon (21.1km), a 10km race, and a 4.5km fun run.",
   "core_facts": {
     "date": "2026-09-27",
     "distance_km": [
@@ -16,7 +16,6 @@
     ],
     "primary_distance_km": 42.195,
     "organizer": "Thailand Tri-League",
-    "registration_status": "open",
     "venue": "Pattaya, Chonburi",
     "city": "Pattaya, Chonburi",
     "country": "Thailand"
@@ -104,10 +103,6 @@
     {
       "question": "What distances can I run at this event?",
       "answer": "Participants can choose from four distance options at the Amazing Thailand Pattaya Marathon: a full marathon of 42.195km, a half marathon of 21.1km, a 10km race, and a shorter 4.5km fun run, making the event accessible to runners of many different experience and fitness levels."
-    },
-    {
-      "question": "Is registration open for the Pattaya Marathon?",
-      "answer": "Yes, registration for the Amazing Thailand Pattaya Marathon is currently open. Interested runners can sign up now for their preferred distance, whether it's the full marathon, half marathon, 10km, or 4.5km option, ahead of the race date on September 27, 2026, in Pattaya, Chonburi, Thailand."
     },
     {
       "question": "Where does the race take place?",

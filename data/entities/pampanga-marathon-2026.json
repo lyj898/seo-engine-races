@@ -5,7 +5,7 @@
   "category_id": "full-marathon",
   "region_id": "philippines",
   "short_description": "Pampanga Marathon 2026 is a full-marathon event held on September 13, 2026 at CDC Clark Parade Grounds, Angeles City / Clark, Pampanga, Philippines.",
-  "ai_summary": "The Pampanga Marathon 2026 is a full-marathon event scheduled for September 13, 2026, at the CDC Clark Parade Grounds in Angeles City / Clark, Pampanga, Philippines. Organized by SMOKE10 Events, it offers multiple distance options including 42.195km, 21.1km, 10km, and 5km. Registration details have not yet been announced.",
+  "ai_summary": "The Pampanga Marathon 2026 is a full-marathon event scheduled for September 13, 2026, at the CDC Clark Parade Grounds in Angeles City / Clark, Pampanga, Philippines. Organized by SMOKE10 Events, it offers multiple distance options including 42.195km, 21.1km, 10km, and 5km.",
   "core_facts": {
     "date": "2026-09-13",
     "distance_km": [
@@ -16,7 +16,6 @@
     ],
     "primary_distance_km": 42.195,
     "organizer": "SMOKE10 Events",
-    "registration_status": "not_yet_announced",
     "venue": "CDC Clark Parade Grounds",
     "city": "Angeles City / Clark, Pampanga",
     "country": "Philippines"
@@ -26,9 +25,7 @@
     "Held at a notable venue, CDC Clark Parade Grounds, in Pampanga",
     "Organized by an established events company, SMOKE10 Events"
   ],
-  "cons": [
-    "Registration status is not yet announced, so sign-up details are unavailable"
-  ],
+  "cons": [],
   "excerpt_quotes": [],
   "research_highlights": [
     "The event is organized by SMOKE10 Events Management and has run annually at Clark Parade Grounds (CDC) in the Clark Freeport Zone since at least 2022, with prior editions in 2023, 2024 and 2025 under the same organizer.",
@@ -47,7 +44,7 @@
     },
     {
       "question": "How can I register for the Pampanga Marathon 2026?",
-      "answer": "As of now, the registration status for the Pampanga Marathon 2026 has not yet been announced. Interested participants should stay tuned for updates from the organizer, SMOKE10 Events, regarding when and how registration will open for this event scheduled for September 13, 2026."
+      "answer": "Interested participants should stay tuned for updates from the organizer, SMOKE10 Events, regarding when and how registration will open for this event scheduled for September 13, 2026."
     },
     {
       "question": "What distances are offered at the Pampanga Marathon 2026?",

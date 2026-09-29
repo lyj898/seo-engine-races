@@ -15,7 +15,6 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "BDB Leisure Sdn. Bhd. (anjuran Bina Darulaman Berhad)",
-    "registration_status": "Open",
     "price_range": "RM80/65/50 (Early Bird until 31 May 2026), RM95/85/65 (1 Jun-31 Jul 2026) for 21km/10km/5km",
     "venue": "Darulaman Park, Jitra, Kedah",
     "city": "Jitra, Kedah",
@@ -23,8 +22,7 @@
   },
   "pros": [
     "Multiple distance options (21.1km, 10km, 5km) suit different runner levels",
-    "Early bird pricing available until 31 May 2026 offers savings",
-    "Registration is currently open, giving ample time to prepare"
+    "Early bird pricing available until 31 May 2026 offers savings"
   ],
   "cons": [
     "Price increases after the early bird period ends on 31 May 2026"
@@ -52,10 +50,6 @@
     {
       "question": "How much does registration cost?",
       "answer": "Early bird pricing, available until 31 May 2026, is RM80 for 21km, RM65 for 10km, and RM50 for 5km. From 1 June to 31 July 2026, prices rise to RM95, RM85, and RM65 respectively for the same distances."
-    },
-    {
-      "question": "Is registration currently open?",
-      "answer": "Yes, registration for the Jitra Half Marathon 2026 is currently open. Runners can sign up for the 21.1km, 10km, or 5km distances now, with early bird pricing available until 31 May 2026 before rates increase."
     }
   ],
   "reliability_score": 100,

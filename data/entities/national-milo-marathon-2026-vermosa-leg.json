@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "philippines",
   "short_description": "A half-marathon leg of the National MILO Marathon 2026 taking place October 11, 2026 in Vermosa, Cavite, Philippines.",
-  "ai_summary": "The National MILO Marathon 2026 – Vermosa Leg is a half-marathon event scheduled for October 11, 2026, held in Vermosa, spanning Imus and Dasmariñas, Cavite, Philippines. Organized by RUNRIO Inc. under the long-running MILO Marathon banner, it offers multiple distance options including 1km, 3km, 5km, 10km, and the primary 21.1km half-marathon. Registration status has not yet been confirmed as open.",
+  "ai_summary": "The National MILO Marathon 2026 – Vermosa Leg is a half-marathon event scheduled for October 11, 2026, held in Vermosa, spanning Imus and Dasmariñas, Cavite, Philippines. Organized by RUNRIO Inc. under the long-running MILO Marathon banner, it offers multiple distance options including 1km, 3km, 5km, 10km, and the primary 21.1km half-marathon.",
   "core_facts": {
     "date": "2026-10-11",
     "distance_km": [
@@ -17,7 +17,6 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "RUNRIO Inc. (MILO Marathon)",
-    "registration_status": "Not yet confirmed open",
     "venue": "Vermosa, Imus/Dasmariñas, Cavite",
     "city": "Vermosa, Imus/Dasmariñas, Cavite",
     "country": "Philippines"
@@ -27,9 +26,7 @@
     "Organized by RUNRIO Inc., part of the established MILO Marathon series",
     "Set in Vermosa, a defined venue across Imus/Dasmariñas, Cavite"
   ],
-  "cons": [
-    "Registration status is not yet confirmed as open, so details on signing up are unavailable"
-  ],
+  "cons": [],
   "excerpt_quotes": [
     {
       "quote": "the course was Vermosa, which has CRAZY uphill sections",
@@ -63,10 +60,6 @@
     {
       "question": "Who organizes this race?",
       "answer": "The National MILO Marathon 2026 – Vermosa Leg is organized by RUNRIO Inc., which manages events under the long-standing MILO Marathon banner. This organizer is responsible for coordinating the race across its various legs, including the Vermosa location in Cavite."
-    },
-    {
-      "question": "Is registration open yet?",
-      "answer": "As of the latest available information, registration for this race has not yet been confirmed as open. Prospective participants should check back for updates regarding sign-up details, since no confirmed registration window or process has been established at this time."
     }
   ],
   "reliability_score": 20,

@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "philippines",
   "short_description": "The National MILO Marathon 2026 – Dumaguete Leg is a half-marathon event held in Dumaguete City, Philippines, on September 20, 2026.",
-  "ai_summary": "The National MILO Marathon 2026 – Dumaguete Leg is a race organized by RUNRIO Inc. (MILO Marathon), scheduled to take place on September 20, 2026, in Dumaguete City, Philippines. It offers multiple distance options including 1km, 3km, 5km, 10km, and a 21.1km half-marathon as the primary distance. Registration status for this event is not yet confirmed as open.",
+  "ai_summary": "The National MILO Marathon 2026 – Dumaguete Leg is a race organized by RUNRIO Inc. (MILO Marathon), scheduled to take place on September 20, 2026, in Dumaguete City, Philippines. It offers multiple distance options including 1km, 3km, 5km, 10km, and a 21.1km half-marathon as the primary distance.",
   "core_facts": {
     "date": "2026-09-20",
     "distance_km": [
@@ -17,7 +17,6 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "RUNRIO Inc. (MILO Marathon)",
-    "registration_status": "Not yet confirmed open",
     "venue": "Dumaguete City",
     "city": "Dumaguete City",
     "country": "Philippines"
@@ -27,9 +26,7 @@
     "Organized by RUNRIO Inc., the established organizer behind the MILO Marathon series",
     "Half-marathon distance offers a serious challenge for experienced runners"
   ],
-  "cons": [
-    "Registration status is not yet confirmed open, so details for signing up are unavailable"
-  ],
+  "cons": [],
   "excerpt_quotes": [
     {
       "quote": "this race wasn't just another run. It was a milestone, a moment of pride.",
@@ -68,10 +65,6 @@
     {
       "question": "Who organizes the National MILO Marathon 2026 – Dumaguete Leg?",
       "answer": "The National MILO Marathon 2026 – Dumaguete Leg is organized by RUNRIO Inc., the organization behind the broader MILO Marathon series held across various locations. This particular event takes place in Dumaguete City, Philippines, as one leg of the national marathon series."
-    },
-    {
-      "question": "Is registration currently open for this race?",
-      "answer": "According to available information, the registration status for the National MILO Marathon 2026 – Dumaguete Leg has not yet been confirmed as open. Prospective participants should check back for updates regarding when registration will become available for this Dumaguete City event."
     }
   ],
   "reliability_score": 20,

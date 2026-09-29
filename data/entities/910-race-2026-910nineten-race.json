@@ -15,7 +15,6 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "910 Nineten (Indonesian running-shoe brand)",
-    "registration_status": "Open",
     "price_range": "IDR HM 679,000 / 10K 479,000 / 5K 379,000 (regular)",
     "venue": "ICE BSD (Indonesia Convention Exhibition), BSD City",
     "city": "Tangerang, Banten",
@@ -75,7 +74,7 @@
     },
     {
       "question": "Who organizes the 910 Race 2026?",
-      "answer": "The 910 Race 2026 is organized by 910 Nineten, which is an Indonesian running-shoe brand. The event takes place at ICE BSD in BSD City, located in Tangerang, Banten, Indonesia, with registration currently open for interested runners."
+      "answer": "The 910 Race 2026 is organized by 910 Nineten, which is an Indonesian running-shoe brand. The event takes place at ICE BSD in BSD City, located in Tangerang, Banten, Indonesia."
     }
   ],
   "reliability_score": 92,

@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "thailand",
   "short_description": "A half marathon and multi-distance race held at Kung Wiman Beach, Chanthaburi, Thailand on June 7, 2026.",
-  "ai_summary": "The Scenic Half Marathon Chanthaburi is scheduled for June 7, 2026, at Kung Wiman Beach in Chanthaburi, Thailand. Organized by the Scenic Marathon Series, the event offers four distance options: 21.1km, 10km, 5km, and 3km, allowing participants of varying fitness levels to take part. Registration details have not yet been announced.",
+  "ai_summary": "The Scenic Half Marathon Chanthaburi is scheduled for June 7, 2026, at Kung Wiman Beach in Chanthaburi, Thailand. Organized by the Scenic Marathon Series, the event offers four distance options: 21.1km, 10km, 5km, and 3km, allowing participants of varying fitness levels to take part.",
   "core_facts": {
     "date": "2026-06-07",
     "distance_km": [
@@ -16,7 +16,6 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "Scenic Marathon Series",
-    "registration_status": "not_yet_announced",
     "venue": "Kung Wiman Beach, Chanthaburi",
     "city": "Chanthaburi",
     "country": "Thailand"
@@ -26,9 +25,7 @@
     "Scenic beachfront venue at Kung Wiman Beach, Chanthaburi",
     "Organized by an established event organizer, the Scenic Marathon Series"
   ],
-  "cons": [
-    "Registration status is not yet announced, so sign-up details are unavailable"
-  ],
+  "cons": [],
   "excerpt_quotes": [],
   "faqs": [
     {
@@ -42,10 +39,6 @@
     {
       "question": "Who organizes the Scenic Half Marathon Chanthaburi?",
       "answer": "The Scenic Half Marathon Chanthaburi is organized by the Scenic Marathon Series. The race takes place at Kung Wiman Beach in Chanthaburi, Thailand, and is part of the organizer's broader series of scenic distance running events held across the country."
-    },
-    {
-      "question": "Is registration open for the Scenic Half Marathon Chanthaburi?",
-      "answer": "As of now, the registration status for the Scenic Half Marathon Chanthaburi has not yet been announced. Prospective participants interested in the 21.1km, 10km, 5km, or 3km distances should check back for updates on when sign-ups will officially open."
     }
   ],
   "reliability_score": 42,

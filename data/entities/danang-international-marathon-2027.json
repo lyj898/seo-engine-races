@@ -5,7 +5,7 @@
   "category_id": "full-marathon",
   "region_id": "vietnam",
   "short_description": "A multi-distance road race held in Da Nang, Vietnam on 21 March 2027, featuring full marathon, half marathon, and 10 km options.",
-  "ai_summary": "The Danang International Marathon 2027 takes place on 21 March 2027 in Da Nang, Vietnam, offering three distance options: a full marathon (42.195 km), a half marathon (21 km), and a 10 km race. Registration for this event opens on 8 July 2026. Runners of varying experience levels can choose the distance that suits them best, all set against the coastal city of Da Nang.",
+  "ai_summary": "The Danang International Marathon 2027 takes place on 21 March 2027 in Da Nang, Vietnam, offering three distance options: a full marathon (42.195 km), a half marathon (21 km), and a 10 km race. Runners of varying experience levels can choose the distance that suits them best, all set against the coastal city of Da Nang.",
   "core_facts": {
     "date": "2027-03-21",
     "distance_km": [
@@ -14,7 +14,6 @@
       10
     ],
     "primary_distance_km": 42.195,
-    "registration_status": "Opens 8 Jul 2026",
     "venue": "Da Nang, Vietnam",
     "city": "Da Nang",
     "country": "Vietnam"
@@ -42,10 +41,6 @@
     {
       "question": "What distance options are available at this race?",
       "answer": "The Danang International Marathon 2027 offers three distance options for participants to choose from: a full marathon of 42.195 km, a half marathon of 21 km, and a shorter 10 km race. This allows runners of different experience levels and goals to select the distance that best fits their training."
-    },
-    {
-      "question": "When does registration open for the Danang International Marathon 2027?",
-      "answer": "Registration for the Danang International Marathon 2027 opens on 8 July 2026. This gives prospective participants several months of lead time before the event to plan their entry, arrange travel to Da Nang, Vietnam, and prepare their training schedule ahead of the March 2027 race date."
     },
     {
       "question": "Where is the Danang International Marathon 2027 held?",

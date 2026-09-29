@@ -5,7 +5,7 @@
   "category_id": "full-marathon",
   "region_id": "philippines",
   "short_description": "A multi-distance road race (42.195/21.1/10/5 km) held in Dipolog City, Philippines, on October 4, 2026.",
-  "ai_summary": "The Dipolog City Marathon 2026 is scheduled for October 4, 2026, in Dipolog City, Zamboanga del Norte, Philippines, with the venue centered at Sunset Boulevard. The event offers four distance options: a full marathon (42.195 km), a half marathon (21.1 km), a 10K, and a 5K, catering to a range of runner abilities. It is organized by the Dipolog City LGU. Registration status has not yet been announced.",
+  "ai_summary": "The Dipolog City Marathon 2026 is scheduled for October 4, 2026, in Dipolog City, Zamboanga del Norte, Philippines, with the venue centered at Sunset Boulevard. The event offers four distance options: a full marathon (42.195 km), a half marathon (21.1 km), a 10K, and a 5K, catering to a range of runner abilities. It is organized by the Dipolog City LGU.",
   "core_facts": {
     "date": "2026-10-04",
     "distance_km": [
@@ -16,7 +16,6 @@
     ],
     "primary_distance_km": 42.195,
     "organizer": "Dipolog City LGU",
-    "registration_status": "not_yet_announced",
     "venue": "Sunset Boulevard, Dipolog City",
     "city": "Dipolog City, Zamboanga del Norte",
     "country": "Philippines"
@@ -26,9 +25,7 @@
     "Scenic venue location at Sunset Boulevard, Dipolog City",
     "Organized by the local city government (Dipolog City LGU)"
   ],
-  "cons": [
-    "Registration status has not yet been announced, so sign-up details are unavailable"
-  ],
+  "cons": [],
   "excerpt_quotes": [],
   "research_highlights": [
     "2026 edition is the second annual running, scheduled for October 4, 2026, along Dipolog City's Sunset Boulevard, with 5K, 10K, 21K and 42K distances.",
@@ -51,10 +48,6 @@
     {
       "question": "What distances are offered at the Dipolog City Marathon 2026?",
       "answer": "The event offers four distance categories for participants: a full marathon of 42.195 km, a half marathon of 21.1 km, a 10K race, and a 5K race. This range allows runners of varying experience and fitness levels to choose a suitable option."
-    },
-    {
-      "question": "Is registration open for the Dipolog City Marathon 2026?",
-      "answer": "According to the information available, the registration status for the Dipolog City Marathon 2026 has not yet been announced. Prospective participants should check back for updates on sign-up details, fees, and deadlines as the event date approaches."
     },
     {
       "question": "Who is organizing the Dipolog City Marathon 2026?",

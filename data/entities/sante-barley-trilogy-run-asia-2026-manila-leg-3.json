@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "philippines",
   "short_description": "A Runrio-organized race in Pasay, Philippines on September 6, 2026, offering 32km, 21.1km, 10km, and 5km distances.",
-  "ai_summary": "Sante Barley Trilogy Run Asia 2026 – Manila Leg 3 is a road race organized by Runrio under the Sante Barley Trilogy Run Asia brand, scheduled for September 6, 2026, at SM Mall of Asia in Pasay, Philippines. Runners can choose from four distances: 32km, 21.1km (half-marathon, the primary distance), 10km, and 5km. Registration details have not yet been announced.",
+  "ai_summary": "Sante Barley Trilogy Run Asia 2026 – Manila Leg 3 is a road race organized by Runrio under the Sante Barley Trilogy Run Asia brand, scheduled for September 6, 2026, at SM Mall of Asia in Pasay, Philippines. Runners can choose from four distances: 32km, 21.1km (half-marathon, the primary distance), 10km, and 5km.",
   "core_facts": {
     "date": "2026-09-06",
     "distance_km": [
@@ -16,7 +16,6 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "Runrio (brand: Sante Barley Trilogy Run Asia)",
-    "registration_status": "open",
     "venue": "SM Mall of Asia, Pasay",
     "city": "Pasay",
     "country": "Philippines"
@@ -55,10 +54,6 @@
     {
       "question": "Where is the race venue located?",
       "answer": "The race takes place at SM Mall of Asia, located in Pasay, in the Philippines. This venue serves as the starting point for the Sante Barley Trilogy Run Asia 2026 – Manila Leg 3 event on the scheduled race date."
-    },
-    {
-      "question": "Is registration open for this race?",
-      "answer": "According to available information, the registration status for this race has not yet been announced. Prospective participants will need to watch for further updates from the organizer, Runrio, regarding when and how registration will open for this event."
     },
     {
       "question": "Who is organizing this race?",

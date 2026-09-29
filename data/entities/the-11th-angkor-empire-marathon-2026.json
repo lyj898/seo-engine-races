@@ -5,14 +5,13 @@
   "category_id": "full-marathon",
   "region_id": "cambodia",
   "short_description": "A 42.195 km full marathon held in front of Angkor Wat Temple, Siem Reap, Cambodia, on August 2, 2026.",
-  "ai_summary": "The 11th Angkor Empire Marathon 2026 is a full marathon covering 42.195 km, scheduled for August 2, 2026, in front of Angkor Wat Temple in Siem Reap, Cambodia. This edition marks the eleventh running of the event at this historic location. Registration for the race has not yet been announced, so prospective runners should check back for updates on how to sign up.",
+  "ai_summary": "The 11th Angkor Empire Marathon 2026 is a full marathon covering 42.195 km, scheduled for August 2, 2026, in front of Angkor Wat Temple in Siem Reap, Cambodia. This edition marks the eleventh running of the event at this historic location.",
   "core_facts": {
     "date": "2026-08-02",
     "distance_km": [
       42.195
     ],
     "primary_distance_km": 42.195,
-    "registration_status": "Not Yet Announced",
     "venue": "In front of Angkor Wat Temple, Siem Reap",
     "city": "Siem Reap",
     "country": "Cambodia"
@@ -73,7 +72,7 @@
     },
     {
       "question": "Can I register for the 2026 Angkor Empire Marathon now?",
-      "answer": "According to the available information, registration for the 11th Angkor Empire Marathon 2026 has not yet been announced. This means specific sign-up dates, entry fees, and application procedures are not currently available. Interested runners should watch for future announcements regarding when and how registration will open."
+      "answer": "According to the available information. This means specific sign-up dates, entry fees, and application procedures are not currently available. Interested runners should watch for future announcements regarding when and how registration will open."
     },
     {
       "question": "Where exactly does the marathon start or take place?",

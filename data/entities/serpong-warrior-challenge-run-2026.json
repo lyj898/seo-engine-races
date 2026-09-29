@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "indonesia",
   "short_description": "A half-marathon event with 21.1km, 12km, 7km, and 5km options held September 27, 2026, at Summarecon Mall Serpong, Tangerang Selatan, Banten, Indonesia.",
-  "ai_summary": "The Serpong Warrior Challenge Run 2026 is a half-marathon event scheduled for September 27, 2026, at Summarecon Mall Serpong in Tangerang Selatan, Banten, Indonesia. Runners can choose from four distance options: 21.1km, 12km, 7km, and 5km, making the event accessible to a range of runners from beginners to experienced racers. Registration is currently open for those interested in participating.",
+  "ai_summary": "The Serpong Warrior Challenge Run 2026 is a half-marathon event scheduled for September 27, 2026, at Summarecon Mall Serpong in Tangerang Selatan, Banten, Indonesia. Runners can choose from four distance options: 21.1km, 12km, 7km, and 5km, making the event accessible to a range of runners from beginners to experienced racers.",
   "core_facts": {
     "date": "2026-09-27",
     "distance_km": [
@@ -15,7 +15,6 @@
       5
     ],
     "primary_distance_km": 21.1,
-    "registration_status": "Open",
     "venue": "Summarecon Mall Serpong, Tangerang Selatan, Banten",
     "city": "Tangerang Selatan, Banten",
     "country": "Indonesia"
@@ -71,10 +70,6 @@
     {
       "question": "Where is the race held?",
       "answer": "The race takes place at Summarecon Mall Serpong, located in Tangerang Selatan, Banten, Indonesia. This venue serves as the central point for the event, hosting all four distance categories: 21.1km, 12km, 7km, and 5km, on September 27, 2026."
-    },
-    {
-      "question": "Is registration currently open?",
-      "answer": "Yes, registration for the Serpong Warrior Challenge Run 2026 is currently open. Interested runners can sign up ahead of the September 27, 2026 event date to secure their spot in one of the four available distance categories at Summarecon Mall Serpong."
     }
   ],
   "reliability_score": 82,

@@ -4,8 +4,8 @@
   "name": "Dili International Marathon 2026",
   "category_id": "full-marathon",
   "region_id": "timor-leste",
-  "short_description": "Dili International Marathon 2026 is a verified Full/Half/10K/5K event in Dili, Timor-Leste, confirmed for 8 August 2026 with open registration.",
-  "ai_summary": "Dili International Marathon 2026, themed \"Love Our Forests and Wildlife,\" is organized by the Federacao de Timor-Leste de Atletismo and confirmed for 8 August 2026 in Dili. The event offers a Full Marathon, Half Marathon, Para 10K, and 5K Fun Run, with registration open via the official site. Pricing is differentiated: international entrants pay $45 (Half) or $90 (Full) in USD, while Timorese nationals run free.",
+  "short_description": "Dili International Marathon 2026 is a verified Full/Half/10K/5K event in Dili, Timor-Leste, confirmed for 8 August 2026.",
+  "ai_summary": "Dili International Marathon 2026, themed \"Love Our Forests and Wildlife,\" is organized by the Federacao de Timor-Leste de Atletismo and confirmed for 8 August 2026 in Dili. The event offers a Full Marathon, Half Marathon, Para 10K, and 5K Fun Run. Pricing is differentiated: international entrants pay $45 (Half) or $90 (Full) in USD, while Timorese nationals run free.",
   "core_facts": {
     "date": "2026-08-08",
     "distance_km": [
@@ -15,7 +15,6 @@
       42.195
     ],
     "primary_distance_km": 42.195,
-    "registration_status": "Closed",
     "price_range": "USD 45 (Half, international) / USD 90 (Full, international) / free for Timorese nationals",
     "venue": "Dili",
     "city": "Dili",
@@ -30,8 +29,7 @@
   "cons": [
     "Only 50 marathon finishers in 2026, so much of the second lap is run alone",
     "No cut-off or detailed entry rules were published",
-    "Very few women in the field: 16 of 50 marathon finishers",
-    "Entries closed a week before race day, and bib collection ran only in the afternoon on two of its three days"
+    "Very few women in the field: 16 of 50 marathon finishers"
   ],
   "sentiment_scores": {
     "overall": 82,
@@ -68,7 +66,7 @@
     },
     {
       "question": "How much does it cost to enter the Dili International Marathon?",
-      "answer": "International runners pay USD 45 for the Half Marathon or USD 90 for the Full Marathon. Timorese nationals can enter either distance for free. Registration is open now through the event's official website, though no specific registration deadline has been published yet."
+      "answer": "International runners pay USD 45 for the Half Marathon or USD 90 for the Full Marathon. Timorese nationals can enter either distance for free."
     },
     {
       "question": "What distances are offered at the Dili International Marathon?",

@@ -5,7 +5,7 @@
   "category_id": "full-marathon",
   "region_id": "philippines",
   "short_description": "A 42.195km full marathon in Sorsogon City, Philippines, taking place on October 18, 2026 at the Sorsogon Sports Arena.",
-  "ai_summary": "The Sorsogon Kasanggayahan Marathon 2026 is a full marathon covering 42.195 kilometers, scheduled for October 18, 2026 in Sorsogon City, Philippines. The race starts and is based at the Sorsogon Sports Arena and is organized by Off Ground Events. Registration details have not yet been announced, so prospective runners should check back for updates on sign-up.",
+  "ai_summary": "The Sorsogon Kasanggayahan Marathon 2026 is a full marathon covering 42.195 kilometers, scheduled for October 18, 2026 in Sorsogon City, Philippines. The race starts and is based at the Sorsogon Sports Arena and is organized by Off Ground Events.",
   "core_facts": {
     "date": "2026-10-18",
     "distance_km": [
@@ -13,7 +13,6 @@
     ],
     "primary_distance_km": 42.195,
     "organizer": "Off Ground Events",
-    "registration_status": "not_yet_announced",
     "venue": "Sorsogon Sports Arena, Sorsogon City",
     "city": "Sorsogon City",
     "country": "Philippines"
@@ -24,7 +23,6 @@
     "Organized by a named event organizer, Off Ground Events"
   ],
   "cons": [
-    "Registration status is not yet announced, so sign-up details are unavailable",
     "No pricing, route, or field-size information has been provided yet"
   ],
   "excerpt_quotes": [],
@@ -50,10 +48,6 @@
     {
       "question": "Where is the race held?",
       "answer": "The race is held at the Sorsogon Sports Arena in Sorsogon City, Philippines. Sorsogon City serves as the host city for the entire event, and the Sports Arena functions as the venue tied to the marathon, organized by Off Ground Events."
-    },
-    {
-      "question": "Is registration open for this race?",
-      "answer": "Registration for the Sorsogon Kasanggayahan Marathon 2026 has not yet been announced. No details are currently available regarding sign-up dates, fees, or the registration process. Interested runners will need to wait for further updates from the organizer, Off Ground Events, before they can register."
     }
   ],
   "reliability_score": 10,

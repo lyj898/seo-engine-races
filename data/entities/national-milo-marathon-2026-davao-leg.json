@@ -4,8 +4,8 @@
   "name": "National MILO Marathon 2026 – Davao Leg",
   "category_id": "full-marathon",
   "region_id": "philippines",
-  "short_description": "A full-marathon event in Davao City, Philippines, held on August 2, 2026, with distances ranging from 1km to 42.195km, and registration currently open.",
-  "ai_summary": "The National MILO Marathon 2026 – Davao Leg takes place on August 2, 2026, at Davao Global Township, Mercedes Benz St., Talomo, Davao City, Philippines. Organized by RUNRIO Inc., the race offers multiple distances of 1km, 3km, 5km, 10km, 21.1km, and a full 42.195km marathon. Registration for the event is currently open.",
+  "short_description": "A full-marathon event in Davao City, Philippines, held on August 2, 2026, with distances ranging from 1km to 42.195km.",
+  "ai_summary": "The National MILO Marathon 2026 – Davao Leg takes place on August 2, 2026, at Davao Global Township, Mercedes Benz St., Talomo, Davao City, Philippines. Organized by RUNRIO Inc., the race offers multiple distances of 1km, 3km, 5km, 10km, 21.1km, and a full 42.195km marathon.",
   "core_facts": {
     "date": "2026-08-02",
     "distance_km": [
@@ -18,7 +18,6 @@
     ],
     "primary_distance_km": 42.195,
     "organizer": "RUNRIO Inc. (MILO Marathon)",
-    "registration_status": "Closed",
     "venue": "Davao Global Township, Mercedes Benz St., Talomo, Davao City",
     "city": "Davao City",
     "country": "Philippines"
@@ -26,7 +25,6 @@
   "pros": [
     "Multiple distance options (1km, 3km, 5km, 10km, 21.1km, 42.195km) suit various runner levels",
     "Organized by RUNRIO Inc., known for the MILO Marathon series",
-    "Registration is currently open",
     "Located at a defined venue, Davao Global Township, Talomo, Davao City"
   ],
   "cons": [],
@@ -78,10 +76,6 @@
     {
       "question": "Who organizes the MILO Marathon Davao Leg?",
       "answer": "The National MILO Marathon 2026 – Davao Leg is organized by RUNRIO Inc., the official organizer behind the MILO Marathon series. RUNRIO Inc. oversees logistics and coordination for this Davao City event, part of the larger MILO Marathon national circuit held across the Philippines."
-    },
-    {
-      "question": "Is registration open for this race?",
-      "answer": "Yes, registration for the National MILO Marathon 2026 – Davao Leg is currently open. Prospective participants interested in joining any of the offered distances—from the 1km fun run up to the full 42.195km marathon—can sign up now ahead of the August 2, 2026 event date."
     }
   ],
   "reliability_score": 72,

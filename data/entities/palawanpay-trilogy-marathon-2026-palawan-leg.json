@@ -5,7 +5,7 @@
   "category_id": "full-marathon",
   "region_id": "philippines",
   "short_description": "A full-marathon event held in Puerto Princesa City, Palawan, Philippines on October 18, 2026, organized by RUNRIO Inc. with PalawanPay as title sponsor.",
-  "ai_summary": "The PalawanPay Trilogy Marathon 2026 – Palawan Leg is a full-marathon event scheduled for October 18, 2026, in Puerto Princesa City, Palawan, Philippines. Organized by RUNRIO Inc. with PalawanPay as title sponsor, the event offers multiple distances: 42.195km, 21.1km, 16km, 10km, and 5km. Registration is not yet confirmed as open, so prospective participants should check back for updates on sign-up details.",
+  "ai_summary": "The PalawanPay Trilogy Marathon 2026 – Palawan Leg is a full-marathon event scheduled for October 18, 2026, in Puerto Princesa City, Palawan, Philippines. Organized by RUNRIO Inc. with PalawanPay as title sponsor, the event offers multiple distances: 42.195km, 21.1km, 16km, 10km, and 5km.",
   "core_facts": {
     "date": "2026-10-18",
     "distance_km": [
@@ -17,7 +17,6 @@
     ],
     "primary_distance_km": 42.195,
     "organizer": "RUNRIO Inc. (title sponsor: PalawanPay)",
-    "registration_status": "Not yet confirmed open",
     "venue": "Puerto Princesa City",
     "city": "Puerto Princesa City, Palawan",
     "country": "Philippines"
@@ -27,9 +26,7 @@
     "Takes place in Puerto Princesa City, Palawan, a notable Philippine destination",
     "Organized by RUNRIO Inc., an established race organizer, with PalawanPay as title sponsor"
   ],
-  "cons": [
-    "Registration status is not yet confirmed open, so sign-up details are unavailable"
-  ],
+  "cons": [],
   "excerpt_quotes": [],
   "research_highlights": [
     "This October 18, 2026 Puerto Princesa leg is billed as the finale of a three-race trilogy (Manila Aug 9, Cebu Sept 27, Palawan Oct 18), and is the only leg offering the full 42KM marathon alongside all shorter distances.",
@@ -56,10 +53,6 @@
     {
       "question": "Who organizes the PalawanPay Trilogy Marathon?",
       "answer": "The event is organized by RUNRIO Inc., a race organizing company, with PalawanPay serving as the title sponsor. Together they are responsible for putting on this full-marathon event in Puerto Princesa City, Palawan, Philippines, scheduled to take place on October 18, 2026."
-    },
-    {
-      "question": "Is registration currently open for this race?",
-      "answer": "As of the latest available information, registration for the PalawanPay Trilogy Marathon 2026 – Palawan Leg has not yet been confirmed as open. Prospective participants interested in the 42.195km, 21.1km, 16km, 10km, or 5km distances should check back for updates on when sign-ups become available."
     }
   ],
   "reliability_score": 15,

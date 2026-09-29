@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "thailand",
   "short_description": "The Watlaharnrai Half Marathon is a 21.1km race held at Wat La Harn Rai in Ban Khai, Rayong, Thailand on September 6, 2026.",
-  "ai_summary": "The Watlaharnrai Half Marathon is a 21.1km road race set to take place on September 6, 2026, at Wat La Harn Rai in Ban Khai, Rayong, Thailand. This will be the event's 5th edition. Registration details have not yet been announced, so prospective participants will need to check back for further updates before signing up.",
+  "ai_summary": "The Watlaharnrai Half Marathon is a 21.1km road race set to take place on September 6, 2026, at Wat La Harn Rai in Ban Khai, Rayong, Thailand. This will be the event's 5th edition.",
   "core_facts": {
     "date": "2026-09-06",
     "distance_km": [
@@ -14,7 +14,6 @@
       5
     ],
     "primary_distance_km": 21.4,
-    "registration_status": "Open",
     "venue": "Wat La Harn Rai, Ban Khai, Rayong",
     "city": "Ban Khai, Rayong",
     "country": "Thailand"
@@ -24,9 +23,7 @@
     "Single clear distance option (21.1km) makes planning straightforward",
     "Set at a distinctive temple venue in Rayong, Thailand"
   ],
-  "cons": [
-    "Registration status is not yet announced, so sign-up details are unavailable"
-  ],
+  "cons": [],
   "excerpt_quotes": [],
   "research_highlights": [
     "The 21km half marathon route is described as mostly flat with long undulating hills, based on the official 2025 (4th edition) course description.",
@@ -49,10 +46,6 @@
     {
       "question": "What distance can I run at this race?",
       "answer": "The Watlaharnrai Half Marathon offers a single distance of 21.1 kilometers, the standard half marathon distance. This is listed as the primary and only distance option for the event, so participants should plan and train accordingly for a half marathon course."
-    },
-    {
-      "question": "Is registration open for the Watlaharnrai Half Marathon?",
-      "answer": "Registration for the Watlaharnrai Half Marathon has not yet been announced. Details on how and when to sign up are currently unavailable, so interested runners should keep checking for updates as more information about entry becomes available closer to the event date."
     },
     {
       "question": "Where is the Watlaharnrai Half Marathon held?",

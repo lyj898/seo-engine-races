@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "cambodia",
   "short_description": "A 12th-edition half marathon in Sihanoukville, Cambodia, taking place March 28, 2027 at Ochheuteal Beach with 21.1 km, 10.5 km, 5 km, and 3 km distance options.",
-  "ai_summary": "The Sihanoukville International Half Marathon is a 12th-edition road race scheduled for March 28, 2027, held at Ochheuteal Beach in Sihanoukville, Cambodia. It offers four distance options: 21.1 km, 10.5 km, 5 km, and 3 km, catering to a range of runner abilities. The event is organized by Cambodia Events, the same organizer behind other races (E19/E68/E91). Registration details have not yet been announced.",
+  "ai_summary": "The Sihanoukville International Half Marathon is a 12th-edition road race scheduled for March 28, 2027, held at Ochheuteal Beach in Sihanoukville, Cambodia. It offers four distance options: 21.1 km, 10.5 km, 5 km, and 3 km, catering to a range of runner abilities. The event is organized by Cambodia Events, the same organizer behind other races (E19/E68/E91).",
   "core_facts": {
     "date": "2027-03-28",
     "distance_km": [
@@ -16,7 +16,6 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "Cambodia Events (same organizer as E19/E68/E91)",
-    "registration_status": "open",
     "venue": "Ochheuteal Beach, Sihanoukville",
     "city": "Sihanoukville",
     "country": "Cambodia"
@@ -27,9 +26,7 @@
     "Long-running event now in its 12th edition, suggesting established organization",
     "Organized by Cambodia Events, which also runs other races (E19/E68/E91)"
   ],
-  "cons": [
-    "Registration status has not yet been announced, so sign-up details are unavailable"
-  ],
+  "cons": [],
   "excerpt_quotes": [],
   "research_highlights": [],
   "research_watchouts": [],
@@ -45,10 +42,6 @@
     {
       "question": "Who organizes the Sihanoukville International Half Marathon?",
       "answer": "The event is organized by Cambodia Events, the same organizer responsible for other races referred to as E19, E68, and E91. This organizer has a track record of running multiple events, and this half marathon is now in its 12th edition."
-    },
-    {
-      "question": "Is registration open for the 2027 race?",
-      "answer": "As of now, the registration status for the 2027 Sihanoukville International Half Marathon has not yet been announced. Prospective participants will need to watch for further updates from the organizer, Cambodia Events, regarding when and how to sign up."
     }
   ],
   "reliability_score": 43,

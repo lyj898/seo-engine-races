@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "philippines",
   "short_description": "The REV Quezon City Half-Marathon 2026 is a 21.1km, 10km, and 5km road race held on December 13, 2026, in Quezon City, Philippines.",
-  "ai_summary": "The REV Quezon City Half-Marathon 2026 is a road race scheduled for December 13, 2026, in Quezon City, Philippines, organized by RUNRIO Inc. The event offers three distance options: a 21.1km half-marathon, a 10km race, and a 5km race, with the half-marathon serving as the primary distance. Registration details have not yet been announced.",
+  "ai_summary": "The REV Quezon City Half-Marathon 2026 is a road race scheduled for December 13, 2026, in Quezon City, Philippines, organized by RUNRIO Inc. The event offers three distance options: a 21.1km half-marathon, a 10km race, and a 5km race, with the half-marathon serving as the primary distance.",
   "core_facts": {
     "date": "2026-12-13",
     "distance_km": [
@@ -15,7 +15,6 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "RUNRIO Inc.",
-    "registration_status": "not_yet_announced",
     "venue": "Quezon City",
     "city": "Quezon City",
     "country": "Philippines"
@@ -25,9 +24,7 @@
     "Organized by RUNRIO Inc., an established race organizer",
     "Held in Quezon City, a central and accessible Philippine location"
   ],
-  "cons": [
-    "Registration status has not yet been announced, so sign-up details are unavailable"
-  ],
+  "cons": [],
   "excerpt_quotes": [],
   "research_highlights": [],
   "research_watchouts": [],
@@ -43,10 +40,6 @@
     {
       "question": "Who organizes the REV Quezon City Half-Marathon?",
       "answer": "The REV Quezon City Half-Marathon 2026 is organized by RUNRIO Inc. The race takes place in Quezon City, located in the Philippines, and includes 21.1km, 10km, and 5km distance categories scheduled for December 13, 2026."
-    },
-    {
-      "question": "Is registration open for this race?",
-      "answer": "According to available information, the registration status for the REV Quezon City Half-Marathon 2026 has not yet been announced. Prospective participants interested in the 21.1km, 10km, or 5km distances will need to watch for further updates regarding sign-up details."
     }
   ],
   "reliability_score": 10,

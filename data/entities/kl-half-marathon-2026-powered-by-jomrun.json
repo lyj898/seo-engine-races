@@ -5,7 +5,7 @@
   "category_id": "10k",
   "region_id": "malaysia",
   "short_description": "The KL Half Marathon 2026 Powered By JomRun® is a 21.1km, 10km, and 5km race held on 16 August 2026 at Padang Merbok, Kuala Lumpur.",
-  "ai_summary": "The KL Half Marathon 2026 Powered By JomRun® is organized by JomRun and will take place on 16 August 2026 in Kuala Lumpur, Malaysia. Runners can choose from 21.1km, 10km, or 5km distances, with the race flagging off at 3:30 AM from Padang Merbok. Registration is currently open for participants interested in joining this event.",
+  "ai_summary": "The KL Half Marathon 2026 Powered By JomRun® is organized by JomRun and will take place on 16 August 2026 in Kuala Lumpur, Malaysia. Runners can choose from 21.1km, 10km, or 5km distances, with the race flagging off at 3:30 AM from Padang Merbok.",
   "core_facts": {
     "date": "2026-08-16",
     "distance_km": [
@@ -15,7 +15,6 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "JomRun",
-    "registration_status": "Open",
     "registration_deadline": "2026-08-15",
     "venue": "Padang Merbok, Kuala Lumpur (flag-off 03:30 AM)",
     "city": "Kuala Lumpur",
@@ -24,8 +23,7 @@
   "pros": [
     "Multiple distance options (21.1km, 10km, 5km) suit different runner levels",
     "Early flag-off time of 3:30 AM helps avoid daytime heat",
-    "Central Kuala Lumpur venue at Padang Merbok is accessible",
-    "Registration is currently open"
+    "Central Kuala Lumpur venue at Padang Merbok is accessible"
   ],
   "cons": [],
   "excerpt_quotes": [],
@@ -47,10 +45,6 @@
     {
       "question": "What distance options are available for this race?",
       "answer": "Participants in the KL Half Marathon 2026 Powered By JomRun® can choose from three distance categories: a 21.1km half marathon, a 10km run, and a 5km run. This range of options allows runners of different experience levels and fitness goals to take part in the event."
-    },
-    {
-      "question": "Is registration currently open for the KL Half Marathon 2026?",
-      "answer": "Yes, registration for the KL Half Marathon 2026 Powered By JomRun® is currently open. Interested runners looking to secure a spot in the 21.1km, 10km, or 5km categories can register now ahead of the race day on 16 August 2026 in Kuala Lumpur."
     },
     {
       "question": "Where does the KL Half Marathon 2026 start?",

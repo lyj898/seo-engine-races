@@ -5,7 +5,7 @@
   "category_id": "full-marathon",
   "region_id": "indonesia",
   "short_description": "Jakarta Running Festival 2026 is a World Athletics Gold Label full marathon, half marathon, 10km, and 5km event held in Jakarta, Indonesia from October 22-25, 2026.",
-  "ai_summary": "Jakarta Running Festival 2026 is a multi-distance road race held in Jakarta, Indonesia, from October 22 to 25, 2026. Runners can choose between a full marathon (42.195km), half marathon (21.1km), 10km, or 5km distance. The event holds World Athletics Gold Label status, the organization's top certification tier for road races. Registration is currently open under the Late Bird pricing tier. The exact venue within Jakarta has not yet been specified.",
+  "ai_summary": "Jakarta Running Festival 2026 is a multi-distance road race held in Jakarta, Indonesia, from October 22 to 25, 2026. Runners can choose between a full marathon (42.195km), half marathon (21.1km), 10km, or 5km distance. The event holds World Athletics Gold Label status, the organization's top certification tier for road races. The exact venue within Jakarta has not yet been specified.",
   "core_facts": {
     "date": "2026-10-22 to 2026-10-25",
     "distance_km": [
@@ -15,7 +15,6 @@
       5
     ],
     "primary_distance_km": 42.195,
-    "registration_status": "Open (Late Bird registration)",
     "venue": "Jakarta (exact venue not stated)",
     "city": "Jakarta",
     "country": "Indonesia"
@@ -74,10 +73,6 @@
     {
       "question": "When does the Jakarta Running Festival 2026 take place?",
       "answer": "The Jakarta Running Festival 2026 runs across a four-day period, from October 22 to October 25, 2026, in Jakarta, Indonesia. This span likely accommodates the different race distances offered, including the 5km, 10km, half marathon, and full marathon events, though specific day-by-day scheduling has not been detailed."
-    },
-    {
-      "question": "Is registration still open for this race?",
-      "answer": "Yes, registration is currently open for the Jakarta Running Festival 2026. The event is in its 'Late Bird' registration phase, which typically follows earlier discounted pricing tiers, so interested runners should register soon before this phase closes or pricing changes further."
     },
     {
       "question": "What race distances are available at this event?",

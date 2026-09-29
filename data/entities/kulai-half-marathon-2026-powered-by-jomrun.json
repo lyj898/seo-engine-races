@@ -4,8 +4,8 @@
   "name": "Kulai Half Marathon 2026 Powered by JomRun®",
   "category_id": "half-marathon",
   "region_id": "malaysia",
-  "short_description": "A half-marathon event in Kulai, Johor, Malaysia, offering 5km, 10km, and 21.1km distances on November 15, 2026, with registration currently open.",
-  "ai_summary": "The Kulai Half Marathon 2026 Powered by JomRun® is a half-marathon event scheduled for November 15, 2026, at AEON Mall Kulaijaya in Kulai, Johor, Malaysia. Runners can choose from three distances: 5km, 10km, and the flagship 21.1km half marathon. Registration for the event is currently open, allowing participants to sign up ahead of race day.",
+  "short_description": "A half-marathon event in Kulai, Johor, Malaysia, offering 5km, 10km, and 21.1km distances on November 15, 2026.",
+  "ai_summary": "The Kulai Half Marathon 2026 Powered by JomRun® is a half-marathon event scheduled for November 15, 2026, at AEON Mall Kulaijaya in Kulai, Johor, Malaysia. Runners can choose from three distances: 5km, 10km, and the flagship 21.1km half marathon.",
   "core_facts": {
     "date": "2026-11-15",
     "distance_km": [
@@ -14,7 +14,6 @@
       21.1
     ],
     "primary_distance_km": 21.1,
-    "registration_status": "Open",
     "registration_deadline": "2026-11-14",
     "venue": "AEON Mall Kulaijaya",
     "city": "Kulai, Johor",
@@ -22,7 +21,6 @@
   },
   "pros": [
     "Multiple distance options (5km, 10km, 21.1km) to suit different runner levels",
-    "Registration is currently open, giving ample time to prepare",
     "Convenient venue at AEON Mall Kulaijaya, a well-known local landmark"
   ],
   "cons": [],
@@ -41,10 +39,6 @@
     {
       "question": "Where is the race held?",
       "answer": "The Kulai Half Marathon 2026 is held at AEON Mall Kulaijaya, located in Kulai, Johor, Malaysia. This venue serves as the central hub for the race, making it a convenient and accessible location for participants traveling from within Johor and beyond."
-    },
-    {
-      "question": "Is registration currently open for the Kulai Half Marathon 2026?",
-      "answer": "Yes, registration for the Kulai Half Marathon 2026 Powered by JomRun® is currently open. Prospective participants can sign up now to secure their spot in one of the available distance categories ahead of the race day scheduled for November 15, 2026."
     }
   ],
   "reliability_score": 45,

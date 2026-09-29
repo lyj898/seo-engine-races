@@ -5,7 +5,7 @@
   "category_id": "full-marathon",
   "region_id": "philippines",
   "short_description": "The Bicolandia Marathon 2026 is a full marathon, half marathon, 10K, and 5K event held in Sorsogon City, Philippines on September 27, 2026.",
-  "ai_summary": "The Bicolandia Marathon 2026 is a road race scheduled for September 27, 2026, in Sorsogon City, Philippines, organized by RYLMNL. It offers four distance options: a full marathon (42.195 km), a half marathon (21.1 km), a 10K, and a 5K, giving runners of different experience levels a chance to participate. Registration details have not yet been announced.",
+  "ai_summary": "The Bicolandia Marathon 2026 is a road race scheduled for September 27, 2026, in Sorsogon City, Philippines, organized by RYLMNL. It offers four distance options: a full marathon (42.195 km), a half marathon (21.1 km), a 10K, and a 5K, giving runners of different experience levels a chance to participate.",
   "core_facts": {
     "date": "2026-09-27",
     "distance_km": [
@@ -16,7 +16,6 @@
     ],
     "primary_distance_km": 42.195,
     "organizer": "RYLMNL",
-    "registration_status": "not_yet_announced",
     "venue": "Sorsogon City",
     "city": "Sorsogon City",
     "country": "Philippines"
@@ -26,9 +25,7 @@
     "Takes place in Sorsogon City, offering a Philippine race destination",
     "Organized by RYLMNL"
   ],
-  "cons": [
-    "Registration status is not yet announced, so sign-up details are unavailable"
-  ],
+  "cons": [],
   "excerpt_quotes": [],
   "research_highlights": [],
   "research_watchouts": [],
@@ -37,10 +34,6 @@
     {
       "question": "When is the Bicolandia Marathon 2026?",
       "answer": "The Bicolandia Marathon 2026 is scheduled to take place on September 27, 2026. It is held in Sorsogon City, Philippines, and is organized by RYLMNL. The event includes a full marathon along with shorter distance options for participants who prefer a shorter race."
-    },
-    {
-      "question": "How can I register for the Bicolandia Marathon 2026?",
-      "answer": "As of now, the registration status for the Bicolandia Marathon 2026 is listed as not yet announced. This means specific sign-up details, such as opening dates, fees, or registration platforms, have not been released yet by the organizer, RYLMNL, for this Sorsogon City event."
     },
     {
       "question": "Where is the Bicolandia Marathon 2026 held?",

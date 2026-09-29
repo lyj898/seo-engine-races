@@ -5,7 +5,7 @@
   "category_id": "full-marathon",
   "region_id": "malaysia",
   "short_description": "The Sarawak Energy Marathon 2026 is a full marathon and multi-distance race held on 9 August 2026 in Kuching, Sarawak, Malaysia.",
-  "ai_summary": "The Sarawak Energy Marathon 2026 takes place on 9 August 2026 at Menara Sarawak Energy in Kuching, Sarawak, Malaysia. Organized by Sarawak Energy Berhad, the event offers four distance categories: full marathon (42.195km), half marathon (21.1km), 10km, and 5km, with entry fees ranging from RM40 to RM140 depending on the chosen distance and how early a runner registers. Registration for the 2026 edition closed on 30 June 2026.",
+  "ai_summary": "The Sarawak Energy Marathon 2026 takes place on 9 August 2026 at Menara Sarawak Energy in Kuching, Sarawak, Malaysia. Organized by Sarawak Energy Berhad, the event offers four distance categories: full marathon (42.195km), half marathon (21.1km), 10km, and 5km, with entry fees ranging from RM40 to RM140 depending on the chosen distance and how early a runner registers.",
   "core_facts": {
     "date": "2026-08-09",
     "distance_km": [
@@ -16,7 +16,6 @@
     ],
     "primary_distance_km": 42.195,
     "organizer": "Sarawak Energy Berhad",
-    "registration_status": "Open",
     "registration_deadline": "2026-06-30",
     "price_range": "RM40-RM140",
     "venue": "Menara Sarawak Energy, Kuching, Sarawak",
@@ -53,7 +52,7 @@
   "faqs": [
     {
       "question": "When is the Sarawak Energy Marathon 2026 held?",
-      "answer": "The Sarawak Energy Marathon 2026 is scheduled to take place on 9 August 2026. The event is held at Menara Sarawak Energy in Kuching, Sarawak, Malaysia. Registration for this edition closed on 30 June 2026, so runners hoping to take part should watch for the 2027 event."
+      "answer": "The Sarawak Energy Marathon 2026 is scheduled to take place on 9 August 2026. The event is held at Menara Sarawak Energy in Kuching, Sarawak, Malaysia."
     },
     {
       "question": "What distance options are available?",

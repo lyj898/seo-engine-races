@@ -4,8 +4,8 @@
   "name": "HSN Putrajaya 2026",
   "category_id": "half-marathon",
   "region_id": "malaysia",
-  "short_description": "HSN Putrajaya 2026 is a half-marathon held on October 10, 2026, at Dataran Putrajaya, Putrajaya, Malaysia, with registration currently open.",
-  "ai_summary": "HSN Putrajaya 2026 is a half-marathon event scheduled for October 10, 2026, at Dataran Putrajaya in Putrajaya, Malaysia. The race offers multiple distance options including 21.1km, 30km, 10km, 5km, and 3km, catering to a range of runner abilities. It is organized by POWP x JBSWPKL x KPM, and registration is currently open for participants interested in joining.",
+  "short_description": "HSN Putrajaya 2026 is a half-marathon held on October 10, 2026, at Dataran Putrajaya, Putrajaya, Malaysia.",
+  "ai_summary": "HSN Putrajaya 2026 is a half-marathon event scheduled for October 10, 2026, at Dataran Putrajaya in Putrajaya, Malaysia. The race offers multiple distance options including 21.1km, 30km, 10km, 5km, and 3km, catering to a range of runner abilities. It is organized by POWP x JBSWPKL x KPM.",
   "core_facts": {
     "date": "2026-10-10",
     "distance_km": [
@@ -17,7 +17,6 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "POWP x JBSWPKL x KPM",
-    "registration_status": "Open",
     "venue": "Dataran Putrajaya, Putrajaya",
     "city": "Putrajaya",
     "country": "Malaysia"
@@ -72,10 +71,6 @@
     {
       "question": "What distances can I run at HSN Putrajaya 2026?",
       "answer": "Participants at HSN Putrajaya 2026 can choose from several distance categories: 21.1km (the primary half-marathon distance), as well as 30km, 10km, 5km, and 3km options. This range allows both experienced long-distance runners and beginners or casual participants to find a suitable race distance."
-    },
-    {
-      "question": "Is registration open for HSN Putrajaya 2026?",
-      "answer": "Yes, registration for HSN Putrajaya 2026 is currently open. Interested runners can sign up ahead of the race date of October 10, 2026, to secure their spot in one of the available distance categories at Dataran Putrajaya in Putrajaya, Malaysia."
     },
     {
       "question": "Who organizes HSN Putrajaya 2026?",

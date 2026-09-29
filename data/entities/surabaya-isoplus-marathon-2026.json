@@ -5,7 +5,7 @@
   "category_id": "full-marathon",
   "region_id": "indonesia",
   "short_description": "A full-marathon event in Surabaya, Indonesia, taking place October 4, 2026, with 42.195km, 21.1km, 10km, and 5km distance options.",
-  "ai_summary": "The Surabaya ISOPLUS Marathon 2026 is a full-marathon event scheduled for October 4, 2026, in Surabaya, Indonesia. Runners can choose from four distances: 42.195km, 21.1km, 10km, and 5km, catering to a range of experience levels. The specific venue within Surabaya has not yet been disclosed, and registration has not yet opened.",
+  "ai_summary": "The Surabaya ISOPLUS Marathon 2026 is a full-marathon event scheduled for October 4, 2026, in Surabaya, Indonesia. Runners can choose from four distances: 42.195km, 21.1km, 10km, and 5km, catering to a range of experience levels. The specific venue within Surabaya has not yet been disclosed.",
   "core_facts": {
     "date": "2026-10-04",
     "distance_km": [
@@ -15,7 +15,6 @@
       5
     ],
     "primary_distance_km": 42.195,
-    "registration_status": "Open (Early Bird)",
     "venue": "Surabaya (exact venue not stated)",
     "city": "Surabaya",
     "country": "Indonesia"
@@ -61,10 +60,6 @@
     {
       "question": "What distances are offered at the Surabaya ISOPLUS Marathon 2026?",
       "answer": "The event offers four distance options for participants to choose from: a full marathon of 42.195km, a half marathon of 21.1km, a 10km race, and a shorter 5km race. This range allows runners of varying experience and fitness levels to select a suitable distance."
-    },
-    {
-      "question": "Is registration open for the Surabaya ISOPLUS Marathon 2026?",
-      "answer": "As of now, the registration status for the Surabaya ISOPLUS Marathon 2026 is listed as not yet announced. This means prospective participants should watch for future updates regarding sign-up dates, fees, and any other registration requirements before the event takes place."
     },
     {
       "question": "Where exactly will the Surabaya ISOPLUS Marathon 2026 be held?",

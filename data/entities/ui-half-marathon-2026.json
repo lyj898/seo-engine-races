@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "indonesia",
   "short_description": "The UI Half Marathon 2026 is a 21.1km, 10km, and 5km road race held at Universitas Indonesia campus in Depok on October 11, 2026.",
-  "ai_summary": "The UI Half Marathon 2026 is a road race organized by ILUNI UI, taking place on October 11, 2026, at the Universitas Indonesia campus in Depok, Jawa Barat, Indonesia. The event offers three distance options: 21.1km, 10km, and 5km, allowing participants of varying fitness levels to take part. Registration status for this race has not yet been announced.",
+  "ai_summary": "The UI Half Marathon 2026 is a road race organized by ILUNI UI, taking place on October 11, 2026, at the Universitas Indonesia campus in Depok, Jawa Barat, Indonesia. The event offers three distance options: 21.1km, 10km, and 5km, allowing participants of varying fitness levels to take part.",
   "core_facts": {
     "date": "2026-10-11",
     "distance_km": [
@@ -15,7 +15,6 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "ILUNI UI",
-    "registration_status": "Not Yet Announced",
     "venue": "Universitas Indonesia campus, Depok",
     "city": "Depok, Jawa Barat",
     "country": "Indonesia"
@@ -25,9 +24,7 @@
     "Held at a notable university campus venue in Depok",
     "Organized by ILUNI UI, a defined organizing body"
   ],
-  "cons": [
-    "Registration status is not yet announced, so sign-up details are unavailable"
-  ],
+  "cons": [],
   "excerpt_quotes": [],
   "research_highlights": [
     "Race day is Sunday, October 11, 2026, with categories of 5K, 10K, and Half Marathon (21.0975 km), starting and finishing at Kampus Universitas Indonesia in Depok.",
@@ -51,10 +48,6 @@
     {
       "question": "Who organizes the UI Half Marathon 2026?",
       "answer": "The UI Half Marathon 2026 is organized by ILUNI UI. The race takes place at the Universitas Indonesia campus in Depok, Jawa Barat, Indonesia, on October 11, 2026, featuring 21.1km, 10km, and 5km distance categories for participants to choose from."
-    },
-    {
-      "question": "Is registration open for the UI Half Marathon 2026?",
-      "answer": "Registration for the UI Half Marathon 2026 has not yet been announced. Interested participants should check back for updates regarding sign-up details, as the event organizer, ILUNI UI, has not yet released information on when registration will open for this race."
     }
   ],
   "reliability_score": 100,

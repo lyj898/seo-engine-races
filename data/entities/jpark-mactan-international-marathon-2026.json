@@ -4,8 +4,8 @@
   "name": "JPARK Mactan International Marathon 2026",
   "category_id": "full-marathon",
   "region_id": "philippines",
-  "short_description": "A multi-distance marathon event on Mactan Island, Lapu-Lapu City, Philippines, held October 11, 2026, with registration currently open.",
-  "ai_summary": "The JPARK Mactan International Marathon 2026 takes place on October 11, 2026, on Mactan Island in Lapu-Lapu City, Cebu, Philippines. Organized by the Bohol International Marathon organization in partnership with Jpark Island Resort, the event offers four distance options: full marathon (42.195km), half marathon (21.1km), 10km, and 5km. Registration is currently open for runners interested in participating.",
+  "short_description": "A multi-distance marathon event on Mactan Island, Lapu-Lapu City, Philippines, held October 11, 2026.",
+  "ai_summary": "The JPARK Mactan International Marathon 2026 takes place on October 11, 2026, on Mactan Island in Lapu-Lapu City, Cebu, Philippines. Organized by the Bohol International Marathon organization in partnership with Jpark Island Resort, the event offers four distance options: full marathon (42.195km), half marathon (21.1km), 10km, and 5km.",
   "core_facts": {
     "date": "2026-10-11",
     "distance_km": [
@@ -16,14 +16,12 @@
     ],
     "primary_distance_km": 42.195,
     "organizer": "Bohol International Marathon org. with Jpark Island Resort",
-    "registration_status": "Open",
     "venue": "Mactan Island, Lapu-Lapu City",
     "city": "Lapu-Lapu City, Cebu",
     "country": "Philippines"
   },
   "pros": [
     "Multiple distance options available: full marathon, half marathon, 10km, and 5km",
-    "Registration is currently open",
     "Scenic venue on Mactan Island, Lapu-Lapu City",
     "Backed by an experienced organizing body (Bohol International Marathon org.) with resort partnership"
   ],
@@ -45,7 +43,7 @@
   "faqs": [
     {
       "question": "When is the JPARK Mactan International Marathon 2026 taking place?",
-      "answer": "The event is scheduled for October 11, 2026. It will be held on Mactan Island, in Lapu-Lapu City, Cebu, Philippines. Runners interested in participating can register now, as registration for this event is currently open according to the available details."
+      "answer": "The event is scheduled for October 11, 2026. It will be held on Mactan Island, in Lapu-Lapu City, Cebu, Philippines. Runners interested in participating can register now."
     },
     {
       "question": "What distance options are available at this race?",

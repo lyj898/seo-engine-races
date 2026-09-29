@@ -5,7 +5,7 @@
   "category_id": "full-marathon",
   "region_id": "philippines",
   "short_description": "The Singlife One Clark International Marathon is a full-marathon event in Clark Freeport, Pampanga, Philippines, scheduled for September 20, 2026.",
-  "ai_summary": "The Singlife One Clark International Marathon is a full-marathon event organized by RUNRIO Inc., scheduled for September 20, 2026, at the Clark Parade Grounds in Clark Freeport, Pampanga, Philippines. The event offers multiple distance options, including 42.195km, 21.1km, 10km, and 5km races, catering to a range of runners from beginners to seasoned marathoners. Registration for the event is currently open, allowing participants ample time to prepare and sign up.",
+  "ai_summary": "The Singlife One Clark International Marathon is a full-marathon event organized by RUNRIO Inc., scheduled for September 20, 2026, at the Clark Parade Grounds in Clark Freeport, Pampanga, Philippines. The event offers multiple distance options, including 42.195km, 21.1km, 10km, and 5km races, catering to a range of runners from beginners to seasoned marathoners.",
   "core_facts": {
     "date": "2026-09-20",
     "distance_km": [
@@ -16,7 +16,6 @@
     ],
     "primary_distance_km": 42.195,
     "organizer": "RUNRIO Inc.",
-    "registration_status": "Open",
     "venue": "Clark Parade Grounds",
     "city": "Clark Freeport, Pampanga",
     "country": "Philippines"
@@ -53,10 +52,6 @@
     {
       "question": "Where is the race held?",
       "answer": "The race is held at the Clark Parade Grounds, located in Clark Freeport, Pampanga, Philippines. This venue provides a specific and accessible location for participants, offering a distinct backdrop for the marathon and its accompanying races."
-    },
-    {
-      "question": "Is registration currently open?",
-      "answer": "Yes, registration for the Singlife One Clark International Marathon is currently open. This allows interested runners to sign up early, secure their spot in the race, and begin their preparation for the various distance categories offered, from the full marathon to the 5km race."
     },
     {
       "question": "What distances are available for participants?",

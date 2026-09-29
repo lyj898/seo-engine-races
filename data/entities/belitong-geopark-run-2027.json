@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "indonesia",
   "short_description": "Belitong Geopark Run 2027 is a half-marathon (with 5km and 10km options) taking place April 18, 2027, on Pulau Belitung, Indonesia.",
-  "ai_summary": "Belitong Geopark Run 2027 is a half-marathon event scheduled for April 18, 2027, on Pulau Belitung (Belitong) in Kepulauan Bangka Belitung, Indonesia. Organized by the Geopark Run Series, the race offers three distance options: 5km, 10km, and 21.1km, with the half-marathon serving as the primary distance. Registration has not yet opened, and the specific venue is still to be announced.",
+  "ai_summary": "Belitong Geopark Run 2027 is a half-marathon event scheduled for April 18, 2027, on Pulau Belitung (Belitong) in Kepulauan Bangka Belitung, Indonesia. Organized by the Geopark Run Series, the race offers three distance options: 5km, 10km, and 21.1km, with the half-marathon serving as the primary distance.",
   "core_facts": {
     "date": "2027-04-18",
     "distance_km": [
@@ -15,7 +15,6 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "Geopark Run Series",
-    "registration_status": "Coming Soon",
     "venue": "TBA, Kepulauan Bangka Belitung",
     "city": "Pulau Belitung (Belitong)",
     "country": "Indonesia"
@@ -26,7 +25,6 @@
     "Organized by the established Geopark Run Series"
   ],
   "cons": [
-    "Registration is not yet open, so details on entry may be limited",
     "Venue is still TBA, leaving exact race-day logistics unconfirmed"
   ],
   "excerpt_quotes": [],
@@ -40,10 +38,6 @@
     {
       "question": "What distances can participants choose from?",
       "answer": "Participants in the Belitong Geopark Run 2027 can choose from three distance options: 5km, 10km, and 21.1km. The 21.1km half-marathon serves as the primary distance for the event, giving runners of varying experience levels a suitable option to register for."
-    },
-    {
-      "question": "Is registration open yet?",
-      "answer": "As of now, registration for the Belitong Geopark Run 2027 has not yet opened. The organizer, Geopark Run Series, has not released further details regarding when registration will begin, so prospective participants should check back for updates closer to the event date."
     },
     {
       "question": "Where exactly will the race be held?",

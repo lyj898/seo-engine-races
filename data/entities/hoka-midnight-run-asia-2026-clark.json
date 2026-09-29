@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "philippines",
   "short_description": "HOKA Midnight Run Asia 2026 – Clark is a half-marathon event held on November 15, 2026 in Clark City, Philippines.",
-  "ai_summary": "HOKA Midnight Run Asia 2026 – Clark is a half-marathon event scheduled for November 15, 2026, in Clark City, Philippines. Organized by Runrio under the HOKA Midnight Run Asia brand, the race offers three distance options: 21.1km, 10km, and 5km. Registration details have not yet been announced, so prospective participants should check back for updates on how to sign up.",
+  "ai_summary": "HOKA Midnight Run Asia 2026 – Clark is a half-marathon event scheduled for November 15, 2026, in Clark City, Philippines. Organized by Runrio under the HOKA Midnight Run Asia brand, the race offers three distance options: 21.1km, 10km, and 5km.",
   "core_facts": {
     "date": "2026-11-15",
     "distance_km": [
@@ -15,7 +15,6 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "Runrio (brand: HOKA Midnight Run Asia)",
-    "registration_status": "not_yet_announced",
     "venue": "Clark City",
     "city": "Clark",
     "country": "Philippines"
@@ -25,9 +24,7 @@
     "Organized by Runrio, an established race organizer in the Philippines",
     "Set in Clark City, a dedicated race venue"
   ],
-  "cons": [
-    "Registration status is not yet announced, so sign-up details are unavailable"
-  ],
+  "cons": [],
   "excerpt_quotes": [],
   "research_highlights": [],
   "research_watchouts": [],
@@ -43,10 +40,6 @@
     {
       "question": "Who organizes this race?",
       "answer": "The event is organized by Runrio, operating under the brand name HOKA Midnight Run Asia. Runrio is responsible for coordinating the race in Clark City, Philippines, as part of the broader HOKA Midnight Run Asia series scheduled for 2026."
-    },
-    {
-      "question": "Is registration open yet for this race?",
-      "answer": "Registration status for this race is currently listed as not yet announced. This means specific details about how, when, or where to sign up have not been released. Prospective participants should check for future updates regarding the registration process for this event."
     }
   ],
   "reliability_score": 40,

@@ -5,7 +5,7 @@
   "category_id": "full-marathon",
   "region_id": "laos",
   "short_description": "The Vientiane International Marathon takes place on December 6, 2026, at Saphangmo in Vientiane, Laos, offering 42.195km, 21km, 10km, and 5km distances.",
-  "ai_summary": "The Vientiane International Marathon is scheduled for December 6, 2026, in Vientiane, Laos, based at the Saphangmo venue. The event offers four distance options: a full marathon (42.195km), a half marathon (21km), a 10km race, and a 5km race, giving runners of different experience levels a chance to participate. Registration details have not yet been announced.",
+  "ai_summary": "The Vientiane International Marathon is scheduled for December 6, 2026, in Vientiane, Laos, based at the Saphangmo venue. The event offers four distance options: a full marathon (42.195km), a half marathon (21km), a 10km race, and a 5km race, giving runners of different experience levels a chance to participate.",
   "core_facts": {
     "date": "2026-12-06",
     "distance_km": [
@@ -15,7 +15,6 @@
       5
     ],
     "primary_distance_km": 42.195,
-    "registration_status": "not_yet_announced",
     "venue": "Saphangmo, Vientiane",
     "city": "Vientiane",
     "country": "Laos"
@@ -49,10 +48,6 @@
     {
       "question": "Where is the Vientiane International Marathon held?",
       "answer": "The race is held at Saphangmo, located in Vientiane, the capital city of Laos. Saphangmo serves as the venue for all four race distances offered, including the full marathon, half marathon, 10km, and 5km events taking place on December 6, 2026."
-    },
-    {
-      "question": "Is registration open for the Vientiane International Marathon?",
-      "answer": "Registration for the Vientiane International Marathon has not yet been announced. As of now, there is no confirmed information on sign-up dates, fees, or how to register. Prospective participants should watch for future updates regarding registration details for this Vientiane, Laos event."
     }
   ],
   "reliability_score": 0,

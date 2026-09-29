@@ -4,8 +4,8 @@
   "name": "Bohol International Marathon 2026",
   "category_id": "full-marathon",
   "region_id": "philippines",
-  "short_description": "A full marathon and multi-distance race in Panglao, Bohol, Philippines, scheduled for August 30, 2026, with registration currently open.",
-  "ai_summary": "The Bohol International Marathon 2026 is a full-marathon event scheduled for August 30, 2026, in Panglao, Bohol, Philippines. Organized by Bohol International Marathon, the race offers four distance options: 42.195km, 21.1km, 10km, and 5km, catering to a range of runners from beginners to seasoned marathoners. Registration is currently open for participants interested in joining this Philippine race.",
+  "short_description": "A full marathon and multi-distance race in Panglao, Bohol, Philippines, scheduled for August 30, 2026.",
+  "ai_summary": "The Bohol International Marathon 2026 is a full-marathon event scheduled for August 30, 2026, in Panglao, Bohol, Philippines. Organized by Bohol International Marathon, the race offers four distance options: 42.195km, 21.1km, 10km, and 5km, catering to a range of runners from beginners to seasoned marathoners.",
   "core_facts": {
     "date": "2026-08-30",
     "distance_km": [
@@ -16,7 +16,6 @@
     ],
     "primary_distance_km": 42.195,
     "organizer": "Bohol International Marathon",
-    "registration_status": "Open",
     "venue": "Panglao, Bohol",
     "city": "Panglao, Bohol",
     "country": "Philippines"
@@ -95,10 +94,6 @@
     {
       "question": "When is the Bohol International Marathon 2026 taking place?",
       "answer": "The Bohol International Marathon 2026 is scheduled to take place on August 30, 2026. The event will be held in Panglao, Bohol, Philippines, and is organized by Bohol International Marathon, offering runners the chance to plan well ahead of the race day."
-    },
-    {
-      "question": "Is registration open for the Bohol International Marathon 2026?",
-      "answer": "Yes, registration for the Bohol International Marathon 2026 is currently open. Interested runners can sign up ahead of the race date on August 30, 2026, for any of the four available distances offered at this Philippines-based running event."
     },
     {
       "question": "Where is the Bohol International Marathon 2026 held?",

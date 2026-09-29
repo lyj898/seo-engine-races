@@ -62,7 +62,9 @@
   ],
   "affiliate_links": [],
   "cta_links": [],
-  "related_entity_ids": ["jakarta-running-festival-2026"],
+  "related_entity_ids": [
+    "jakarta-running-festival-2026"
+  ],
   "last_updated": "2026-08-10",
   "status": "archived"
 }

@@ -15,7 +15,6 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "Nexus Sport Events + VPBank",
-    "registration_status": "Closed",
     "price_range": "VND 21K 1,350,000 / 10K 1,050,000 / 5K 850,000",
     "venue": "Công viên Sáng tạo (Innovation Park), An Khánh ward, Thu Thiem",
     "city": "Ho Chi Minh City",
@@ -23,7 +22,6 @@
   },
   "pros": [
     "Multiple distance options (21.1km, 10km, 5km) suit a range of runners",
-    "Registration is currently open",
     "Backed by an established organizer partnership between Nexus Sport Events and VPBank",
     "Central, notable venue at Công viên Sáng tạo (Innovation Park) in Thu Thiem"
   ],
@@ -52,7 +50,7 @@
     },
     {
       "question": "How much does it cost to register for this race?",
-      "answer": "Registration prices vary by distance: the 21.1km half marathon costs VND 1,350,000, the 10km race costs VND 1,050,000, and the 5km race costs VND 850,000. Prices are listed in Vietnamese dong and registration is currently open for all three distances."
+      "answer": "Registration prices vary by distance: the 21.1km half marathon costs VND 1,350,000, the 10km race costs VND 1,050,000, and the 5km race costs VND 850,000. Prices are listed in Vietnamese dong."
     },
     {
       "question": "Who organizes the VPBank Ho Chi Minh City Music Half Marathon 2026?",

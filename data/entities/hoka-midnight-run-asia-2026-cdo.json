@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "philippines",
   "short_description": "A half-marathon event in Cagayan de Oro, Philippines, taking place August 2, 2026, with 21.1km, 10km, and 5km distance options.",
-  "ai_summary": "The HOKA Midnight Run Asia 2026 - CDO is a half-marathon event scheduled for August 2, 2026 in Cagayan de Oro, Philippines. Organized by Runrio under the HOKA Midnight Run Asia brand, the event offers three distance options: 21.1km, 10km, and 5km, with the half-marathon serving as the primary distance. Registration details have not yet been announced.",
+  "ai_summary": "The HOKA Midnight Run Asia 2026 - CDO is a half-marathon event scheduled for August 2, 2026 in Cagayan de Oro, Philippines. Organized by Runrio under the HOKA Midnight Run Asia brand, the event offers three distance options: 21.1km, 10km, and 5km, with the half-marathon serving as the primary distance.",
   "core_facts": {
     "date": "2026-08-02",
     "distance_km": [
@@ -15,7 +15,6 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "Runrio (brand: HOKA Midnight Run Asia)",
-    "registration_status": "not_yet_announced",
     "venue": "Cagayan de Oro",
     "city": "Cagayan de Oro",
     "country": "Philippines"
@@ -25,9 +24,7 @@
     "Organized by Runrio, an established race organizer in the Philippines",
     "Held in Cagayan de Oro, offering a race destination outside typical major-city venues"
   ],
-  "cons": [
-    "Registration status is not yet announced, so sign-up details are unavailable"
-  ],
+  "cons": [],
   "excerpt_quotes": [
     {
       "quote": "almost 15,000 runners gathered at the SM Mall of Asia Complex for the second leg of HOKA Midnight Run Asia presented by GOMO – MANILA, following the successful opening leg in Davao last May 31",
@@ -71,10 +68,6 @@
     {
       "question": "Who organizes this race?",
       "answer": "This race is organized by Runrio, operating under the brand name HOKA Midnight Run Asia. Runrio is responsible for coordinating the event, which is taking place in Cagayan de Oro, Philippines, as part of the broader HOKA Midnight Run Asia series."
-    },
-    {
-      "question": "Is registration open yet?",
-      "answer": "Registration for the HOKA Midnight Run Asia 2026 - CDO has not yet been announced. Prospective participants will need to wait for further updates from the organizer, Runrio, regarding sign-up details, deadlines, and any related registration information for this event."
     }
   ],
   "reliability_score": 70,

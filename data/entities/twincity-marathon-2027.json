@@ -5,7 +5,7 @@
   "category_id": "full-marathon",
   "region_id": "malaysia",
   "short_description": "Twincity Marathon 2027 is a full-marathon event held in Cyberjaya, Sepang, Selangor, Malaysia on January 24, 2027.",
-  "ai_summary": "Twincity Marathon 2027 is a full-marathon event scheduled for January 24, 2027, in Cyberjaya, Sepang, Selangor, Malaysia. The race offers four distance options: 42.195km, 21.098km, 12km, and 5km, catering to a range of runners from beginners to marathon veterans. Registration details have not yet been announced. The event is set within the planned city of Cyberjaya, in Selangor state.",
+  "ai_summary": "Twincity Marathon 2027 is a full-marathon event scheduled for January 24, 2027, in Cyberjaya, Sepang, Selangor, Malaysia. The race offers four distance options: 42.195km, 21.098km, 12km, and 5km, catering to a range of runners from beginners to marathon veterans. The event is set within the planned city of Cyberjaya, in Selangor state.",
   "core_facts": {
     "date": "2027-01-24",
     "distance_km": [
@@ -15,7 +15,6 @@
       5
     ],
     "primary_distance_km": 42.195,
-    "registration_status": "not_yet_announced",
     "venue": "Cyberjaya, Sepang, Selangor",
     "city": "Cyberjaya, Sepang, Selangor",
     "country": "Malaysia"
@@ -49,10 +48,6 @@
     {
       "question": "Where is the Twincity Marathon 2027 held?",
       "answer": "The Twincity Marathon 2027 is held in Cyberjaya, located in Sepang, Selangor, Malaysia. Cyberjaya serves as the venue and city for this event, providing the setting for all four race distances offered to participants during the 2027 edition."
-    },
-    {
-      "question": "Is registration open for the Twincity Marathon 2027?",
-      "answer": "As of the latest available information, the registration status for the Twincity Marathon 2027 has not yet been announced. Prospective participants should check back for updates regarding sign-up details, fees, and availability closer to the event date in January 2027."
     }
   ],
   "reliability_score": 35,

@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "philippines",
   "short_description": "A Garmin-branded half-marathon event on October 25, 2026, at SM Mall of Asia Complex in Pasay, Philippines, with 21.1km, 10km, and 5km distances.",
-  "ai_summary": "The Garmin Run Marathon Series – Philippines 2026 is a half-marathon event scheduled for October 25, 2026, at the SM Mall of Asia Complex in Pasay, Philippines. Organized by HyveSports under the Garmin brand, the race offers three distance options: 21.1km, 10km, and 5km. Registration is currently open for participants interested in joining any of these distances.",
+  "ai_summary": "The Garmin Run Marathon Series – Philippines 2026 is a half-marathon event scheduled for October 25, 2026, at the SM Mall of Asia Complex in Pasay, Philippines. Organized by HyveSports under the Garmin brand, the race offers three distance options: 21.1km, 10km, and 5km.",
   "core_facts": {
     "date": "2026-10-25",
     "distance_km": [
@@ -15,7 +15,6 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "HyveSports (brand: Garmin)",
-    "registration_status": "Open",
     "venue": "SM Mall of Asia Complex, Pasay",
     "city": "Pasay",
     "country": "Philippines"
@@ -58,10 +57,6 @@
     {
       "question": "Who organizes this race?",
       "answer": "The race is organized by HyveSports, operating under the Garmin brand. This partnership brings together event management expertise with a well-known name in sports technology, giving the Garmin Run Marathon Series – Philippines 2026 credibility and structure as part of an established race series."
-    },
-    {
-      "question": "Is registration open for this event?",
-      "answer": "Yes, registration for the Garmin Run Marathon Series – Philippines 2026 is currently open. Interested runners can sign up ahead of the October 25, 2026 event date, choosing from the 21.1km, 10km, or 5km distance categories held at SM Mall of Asia Complex, Pasay."
     }
   ],
   "reliability_score": 2,

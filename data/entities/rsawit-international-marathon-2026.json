@@ -5,7 +5,7 @@
   "category_id": "full-marathon",
   "region_id": "malaysia",
   "short_description": "The RSAWIT International Marathon 2026 is a full and half marathon event held on 22 November 2026 in Sibu, Sarawak, Malaysia.",
-  "ai_summary": "The RSAWIT International Marathon 2026 takes place on 22 November 2026 in Sibu, Sarawak, Malaysia, starting and finishing at Dataran Tun Tuanku Bujang Phase 1 & 2 (Sibu Town Square). Runners can choose between a full marathon (42.195 km) and a half marathon (21.1 km). Registration is currently open for those interested in taking part.",
+  "ai_summary": "The RSAWIT International Marathon 2026 takes place on 22 November 2026 in Sibu, Sarawak, Malaysia, starting and finishing at Dataran Tun Tuanku Bujang Phase 1 & 2 (Sibu Town Square). Runners can choose between a full marathon (42.195 km) and a half marathon (21.1 km).",
   "core_facts": {
     "date": "2026-11-22",
     "distance_km": [
@@ -13,15 +13,13 @@
       21.1
     ],
     "primary_distance_km": 42.195,
-    "registration_status": "Open",
     "venue": "Dataran Tun Tuanku Bujang Phase 1 & 2 (Sibu Town Square), Sarawak",
     "city": "Sibu, Sarawak",
     "country": "Malaysia"
   },
   "pros": [
     "Offers both full marathon (42.195 km) and half marathon (21.1 km) distance options",
-    "Centrally located venue at Sibu Town Square, easy to identify for participants",
-    "Registration is currently open, giving runners time to plan and sign up"
+    "Centrally located venue at Sibu Town Square, easy to identify for participants"
   ],
   "cons": [],
   "excerpt_quotes": [],
@@ -35,10 +33,6 @@
     {
       "question": "What distances can I run at this event?",
       "answer": "Participants can choose between two distances at the RSAWIT International Marathon 2026: a full marathon covering 42.195 km, which is the primary distance for the event, and a half marathon option covering 21.1 km, suitable for runners preferring a shorter race."
-    },
-    {
-      "question": "Is registration still open for this race?",
-      "answer": "Yes, registration for the RSAWIT International Marathon 2026 is currently listed as open. This means prospective participants can still sign up to take part in either the full marathon or half marathon distance ahead of the race date in November 2026."
     },
     {
       "question": "Where does the race start and finish?",

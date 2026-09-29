@@ -4,7 +4,7 @@
   "name": "Kuala Lumpur Standard Chartered Marathon (KLSCM)",
   "category_id": "full-marathon",
   "region_id": "malaysia",
-  "short_description": "KLSCM is a full-marathon event held on 4 October 2026 at Dataran Merdeka, Kuala Lumpur, Malaysia, with registration open now.",
+  "short_description": "KLSCM is a full-marathon event held on 4 October 2026 at Dataran Merdeka, Kuala Lumpur, Malaysia.",
   "ai_summary": "The Kuala Lumpur Standard Chartered Marathon (KLSCM) is a full-marathon event taking place on 4 October 2026 at Dataran Merdeka in Kuala Lumpur, Malaysia. Organized by Dirigo Events Sdn Bhd, it offers four distance options: 42.195km, 21.1km, 10km, and 5km. Registration is currently open, with pricing starting at MYR 150.",
   "core_facts": {
     "date": "2026-10-04",
@@ -16,7 +16,6 @@
     ],
     "primary_distance_km": 42.195,
     "organizer": "Dirigo Events Sdn Bhd",
-    "registration_status": "Open",
     "price_range": "MYR 150",
     "venue": "Dataran Merdeka",
     "city": "Kuala Lumpur",
@@ -31,8 +30,7 @@
   "cons": [
     "About 20 km of the marathon is on elevated highways with rolling climbs",
     "Already 26°C with a dew point of 24°C at the 3.30am start",
-    "Congested start pens and a crowded finish where the marathon rejoins the half",
-    "Entries sold out in under four hours in 2025"
+    "Congested start pens and a crowded finish where the marathon rejoins the half"
   ],
   "sentiment_scores": {
     "overall": 78,
@@ -100,7 +98,7 @@
   "faqs": [
     {
       "question": "When is the Kuala Lumpur Standard Chartered Marathon (KLSCM) taking place?",
-      "answer": "The Kuala Lumpur Standard Chartered Marathon is scheduled to take place on 4 October 2026. The event will be held at Dataran Merdeka in Kuala Lumpur, Malaysia, and is organized by Dirigo Events Sdn Bhd. Registration for the race is currently open for interested runners."
+      "answer": "The Kuala Lumpur Standard Chartered Marathon is scheduled to take place on 4 October 2026. The event will be held at Dataran Merdeka in Kuala Lumpur, Malaysia, and is organized by Dirigo Events Sdn Bhd."
     },
     {
       "question": "What distances can I run at KLSCM?",
@@ -109,10 +107,6 @@
     {
       "question": "How much does it cost to register for KLSCM?",
       "answer": "Registration pricing for the Kuala Lumpur Standard Chartered Marathon starts at MYR 150. This price range applies to the event overall, though specific costs may vary depending on which distance category, such as the marathon, half marathon, 10km, or 5km, a runner chooses to enter."
-    },
-    {
-      "question": "Is registration currently open for KLSCM?",
-      "answer": "Yes, registration for the Kuala Lumpur Standard Chartered Marathon is currently open. Runners interested in participating in any of the four distance categories, including the full marathon, half marathon, 10km, or 5km, can sign up now ahead of the event on 4 October 2026."
     }
   ],
   "reliability_score": 88,

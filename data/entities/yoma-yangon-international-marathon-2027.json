@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "myanmar",
   "short_description": "The Yoma Yangon International Marathon is a half marathon, 10km, and 5km event set for February 21, 2027 in Yangon, Myanmar.",
-  "ai_summary": "The Yoma Yangon International Marathon is scheduled for February 21, 2027, in Yangon, Myanmar, organized by Yoma. The event offers three distance options: a half marathon (21.1 km), a 10 km race, and a 5 km race. The exact start point within Yangon has not yet been published, and registration has not yet been announced.",
+  "ai_summary": "The Yoma Yangon International Marathon is scheduled for February 21, 2027, in Yangon, Myanmar, organized by Yoma. The event offers three distance options: a half marathon (21.1 km), a 10 km race, and a 5 km race. The exact start point within Yangon has not yet been published.",
   "core_facts": {
     "date": "2027-02-21",
     "distance_km": [
@@ -15,7 +15,6 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "Yoma",
-    "registration_status": "not_yet_announced",
     "venue": "The Campus, 1 Office Park, Rain Tree Drive, Pun Hlaing Estate, Hlaing Thayar Township, Yangon 11401, Myanmar",
     "city": "Yangon",
     "country": "Myanmar"
@@ -47,10 +46,6 @@
     {
       "question": "Where does the race take place?",
       "answer": "The Yoma Yangon International Marathon takes place in Yangon, Myanmar. However, the exact start point for the race within the city has not yet been published by the organizers, so specific route and starting location details are not currently available to prospective participants."
-    },
-    {
-      "question": "Is registration open for this event?",
-      "answer": "Registration for the Yoma Yangon International Marathon has not yet been announced. Prospective participants will need to wait for the organizer, Yoma, to release further details on how and when to sign up for the half marathon, 10 km, or 5 km distances."
     }
   ],
   "reliability_score": 30,

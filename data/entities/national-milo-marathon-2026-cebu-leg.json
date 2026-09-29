@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "philippines",
   "short_description": "The National MILO Marathon 2026 – Cebu Leg is a half-marathon and multi-distance race set for September 6, 2026, in Cebu City, Philippines.",
-  "ai_summary": "The National MILO Marathon 2026 – Cebu Leg is scheduled for September 6, 2026, in Cebu City, Philippines. Organized by RUNRIO Inc., the event known for the MILO Marathon series, it offers multiple distance options including 1km, 3km, 5km, 10km, and a 21.1km half-marathon as the primary distance. Registration status has not yet been confirmed as open.",
+  "ai_summary": "The National MILO Marathon 2026 – Cebu Leg is scheduled for September 6, 2026, in Cebu City, Philippines. Organized by RUNRIO Inc., the event known for the MILO Marathon series, it offers multiple distance options including 1km, 3km, 5km, 10km, and a 21.1km half-marathon as the primary distance.",
   "core_facts": {
     "date": "2026-09-06",
     "distance_km": [
@@ -17,7 +17,6 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "RUNRIO Inc. (MILO Marathon)",
-    "registration_status": "Not yet confirmed open",
     "venue": "Cebu City",
     "city": "Cebu City",
     "country": "Philippines"
@@ -58,10 +57,6 @@
     {
       "question": "What distances can participants choose from at this race?",
       "answer": "Participants can choose from five distance options at this event: 1km, 3km, 5km, 10km, and 21.1km. The 21.1km half-marathon is listed as the primary distance for this race, making it the main featured category."
-    },
-    {
-      "question": "Is registration currently open for this race?",
-      "answer": "According to available information, registration status for the National MILO Marathon 2026 – Cebu Leg has not yet been confirmed as open. Prospective participants should check back for updates on when sign-ups will officially begin for this event."
     },
     {
       "question": "Who is organizing the National MILO Marathon 2026 – Cebu Leg?",

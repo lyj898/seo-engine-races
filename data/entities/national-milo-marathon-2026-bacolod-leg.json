@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "philippines",
   "short_description": "A half-marathon and multi-distance race event held in Bacolod City, Philippines on October 4, 2026, organized by RUNRIO Inc.",
-  "ai_summary": "The National MILO Marathon 2026 – Bacolod Leg is a race event scheduled for October 4, 2026, in Bacolod City, Philippines. Organized by RUNRIO Inc. under the MILO Marathon banner, it offers multiple distance options including 1km, 3km, 5km, 10km, and the primary half-marathon distance of 21.1km. Registration status for this leg has not yet been confirmed as open.",
+  "ai_summary": "The National MILO Marathon 2026 – Bacolod Leg is a race event scheduled for October 4, 2026, in Bacolod City, Philippines. Organized by RUNRIO Inc. under the MILO Marathon banner, it offers multiple distance options including 1km, 3km, 5km, 10km, and the primary half-marathon distance of 21.1km.",
   "core_facts": {
     "date": "2026-10-04",
     "distance_km": [
@@ -17,7 +17,6 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "RUNRIO Inc. (MILO Marathon)",
-    "registration_status": "Not yet confirmed open",
     "venue": "Bacolod City",
     "city": "Bacolod City",
     "country": "Philippines"
@@ -27,9 +26,7 @@
     "Organized by RUNRIO Inc., the established organizer behind the MILO Marathon series",
     "Held in Bacolod City, offering a specific regional leg of the national event"
   ],
-  "cons": [
-    "Registration status is not yet confirmed as open, so participation details are currently unavailable"
-  ],
+  "cons": [],
   "excerpt_quotes": [],
   "research_highlights": [
     "The 2026 Bacolod leg is scheduled for October 4, 2026, one of 15 regional qualifying races in the MILO Marathon's 50th Anniversary 'Golden Run' calendar leading to the National Finals on Dec. 6, 2026 in Clark City, Pampanga.",
@@ -49,10 +46,6 @@
     {
       "question": "What distances are offered at this race?",
       "answer": "This race offers a range of distance options for participants, including 1km, 3km, 5km, and 10km races, along with the primary distance of 21.1km, which is a half-marathon. This variety allows runners of different experience levels to take part."
-    },
-    {
-      "question": "Is registration open for this race?",
-      "answer": "As of now, registration for the National MILO Marathon 2026 – Bacolod Leg has not yet been confirmed as open. Interested participants should check back for updates regarding when registration will become available for this specific leg of the marathon."
     },
     {
       "question": "Who organizes this race?",

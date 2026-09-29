@@ -5,7 +5,7 @@
   "category_id": "full-marathon",
   "region_id": "thailand",
   "short_description": "Bangsaen42 is a full-marathon event at Bang Saen Beach, Chonburi, Thailand, scheduled for November 15, 2026.",
-  "ai_summary": "Bangsaen42 (Bangsaen Marathon) is a full-marathon event scheduled for November 15, 2026, held at Bang Saen Beach in Bang Saen, Chonburi, Thailand. The race offers three distance options: a full marathon of 42.195 km, a half marathon of 21.1 km, and a 10 km race. Registration has not yet opened, and the organizer for this edition has not been confirmed.",
+  "ai_summary": "Bangsaen42 (Bangsaen Marathon) is a full-marathon event scheduled for November 15, 2026, held at Bang Saen Beach in Bang Saen, Chonburi, Thailand. The race offers three distance options: a full marathon of 42.195 km, a half marathon of 21.1 km, and a 10 km race.",
   "core_facts": {
     "date": "2026-11-15",
     "distance_km": [
@@ -15,7 +15,6 @@
     ],
     "primary_distance_km": 42.195,
     "organizer": "Not confirmed this pass",
-    "registration_status": "Not Yet Announced",
     "venue": "Bang Saen Beach",
     "city": "Bang Saen, Chonburi",
     "country": "Thailand"
@@ -43,10 +42,6 @@
     {
       "question": "What distances can I run at Bangsaen42?",
       "answer": "Bangsaen42 offers three distance options for participants to choose from: a full marathon of 42.195 km, a half marathon of 21.1 km, and a shorter 10 km race. The primary distance for this event is the full 42.195 km marathon."
-    },
-    {
-      "question": "Is registration open for Bangsaen42?",
-      "answer": "According to available information, registration for Bangsaen42 has not yet been announced. Prospective participants will need to watch for further updates regarding when sign-ups will begin, as no registration details or opening date have been confirmed at this time."
     },
     {
       "question": "Who organizes Bangsaen42?",

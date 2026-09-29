@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "malaysia",
   "short_description": "A half-marathon event in Taman Melawati, Ampang Jaya, Selangor, Malaysia on August 1, 2026, offering 5km, 10km, and 21.1km distances.",
-  "ai_summary": "The MPAJ Ampang Jaya Half Marathon Powered by JomRun® is scheduled for August 1, 2026, in Taman Melawati, Ampang Jaya, Selangor, Malaysia. The event offers three distance options: 5km, 10km, and a 21.1km half marathon as the primary distance. Registration for this race is currently open, giving runners of varying experience levels a chance to take part.",
+  "ai_summary": "The MPAJ Ampang Jaya Half Marathon Powered by JomRun® is scheduled for August 1, 2026, in Taman Melawati, Ampang Jaya, Selangor, Malaysia. The event offers three distance options: 5km, 10km, and a 21.1km half marathon as the primary distance.",
   "core_facts": {
     "date": "2026-08-01",
     "distance_km": [
@@ -14,14 +14,12 @@
       21.1
     ],
     "primary_distance_km": 21.1,
-    "registration_status": "Closed",
     "venue": "Taman Melawati",
     "city": "Ampang Jaya, Selangor",
     "country": "Malaysia"
   },
   "pros": [
     "Multiple distance options (5km, 10km, 21.1km) suit different fitness levels",
-    "Registration is currently open",
     "Located in Taman Melawati, a specific and accessible venue in Ampang Jaya, Selangor"
   ],
   "cons": [],
@@ -41,10 +39,6 @@
     {
       "question": "Where is the race held?",
       "answer": "The race is held at Taman Melawati, which is located in Ampang Jaya, Selangor, Malaysia. This venue serves as the starting point for all three distance categories offered at this event, including the 5km, 10km, and 21.1km half marathon options."
-    },
-    {
-      "question": "Is registration still open for this race?",
-      "answer": "Yes, registration for the MPAJ Ampang Jaya Half Marathon Powered by JomRun® is currently open. Interested runners can sign up now to secure their spot in one of the three distance categories: 5km, 10km, or the 21.1km half marathon, ahead of the August 1, 2026 event date."
     }
   ],
   "reliability_score": 45,

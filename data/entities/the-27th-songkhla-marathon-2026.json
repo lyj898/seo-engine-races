@@ -5,7 +5,7 @@
   "category_id": "full-marathon",
   "region_id": "thailand",
   "short_description": "The 27th Songkhla Marathon 2026 is a full and half marathon event held on August 23, 2026, at Tinsulanonda Stadium in Songkhla, Thailand.",
-  "ai_summary": "The 27th Songkhla Marathon 2026 is a full marathon event scheduled for August 23, 2026, in Songkhla, Thailand, starting and finishing at Tinsulanonda Stadium. Participants can choose between the full marathon distance of 42.195 km or the half marathon distance of 21.1 km. Registration for this edition is currently closed.",
+  "ai_summary": "The 27th Songkhla Marathon 2026 is a full marathon event scheduled for August 23, 2026, in Songkhla, Thailand, starting and finishing at Tinsulanonda Stadium. Participants can choose between the full marathon distance of 42.195 km or the half marathon distance of 21.1 km.",
   "core_facts": {
     "date": "2026-08-23",
     "distance_km": [
@@ -13,7 +13,6 @@
       21.1
     ],
     "primary_distance_km": 42.195,
-    "registration_status": "Closed",
     "venue": "Tinsulanonda Stadium, Songkhla",
     "city": "Songkhla",
     "country": "Thailand"
@@ -71,10 +70,6 @@
     {
       "question": "What distances are offered at this race?",
       "answer": "The 27th Songkhla Marathon 2026 offers two distance options for participants: a full marathon distance of 42.195 kilometers and a half marathon distance of 21.1 kilometers, allowing runners to choose the race length that suits them."
-    },
-    {
-      "question": "Can I still register for the 27th Songkhla Marathon 2026?",
-      "answer": "No, registration for the 27th Songkhla Marathon 2026 is currently listed as closed. This means new entries are not being accepted for this event at this time, based on the available registration status information."
     },
     {
       "question": "Where is the race venue located?",

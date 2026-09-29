@@ -5,7 +5,7 @@
   "category_id": "full-marathon",
   "region_id": "philippines",
   "short_description": "The Cebu Marathon 2027 is a full marathon (plus half, 10K, and 5K options) held in Cebu City, Philippines on January 10, 2027.",
-  "ai_summary": "The Cebu Marathon 2027 is scheduled for January 10, 2027, in Cebu City, Philippines, organized by Cebu Marathon. The event offers four distance options: a full marathon of 42.195 km, a half marathon of 21.1 km, a 10 km race, and a 5 km race, catering to a range of runner abilities. As of now, registration for the 2027 edition has not yet been confirmed as open. Runners interested in participating should watch for official updates regarding sign-up details.",
+  "ai_summary": "The Cebu Marathon 2027 is scheduled for January 10, 2027, in Cebu City, Philippines, organized by Cebu Marathon. The event offers four distance options: a full marathon of 42.195 km, a half marathon of 21.1 km, a 10 km race, and a 5 km race, catering to a range of runner abilities. Runners interested in participating should watch for official updates regarding sign-up details.",
   "core_facts": {
     "date": "2027-01-10",
     "distance_km": [
@@ -16,7 +16,6 @@
     ],
     "primary_distance_km": 42.195,
     "organizer": "Cebu Marathon",
-    "registration_status": "Open",
     "price_range": "₱1,499–₱2,999",
     "venue": "Cebu City",
     "city": "Cebu City",
@@ -45,10 +44,6 @@
     {
       "question": "What distances are offered at Cebu Marathon 2027?",
       "answer": "Cebu Marathon 2027 offers four distance categories: a full marathon of 42.195 km, a half marathon of 21.1 km, a 10 km race, and a 5 km race. This range allows participants of different experience levels and training goals to select an event that suits them, all held on the same event day in Cebu City."
-    },
-    {
-      "question": "Is registration open for Cebu Marathon 2027?",
-      "answer": "As of the latest information, registration for the Cebu Marathon 2027 has not yet been confirmed as open. Prospective participants should check back for official announcements from the organizer, Cebu Marathon, regarding when sign-ups will begin and what the registration process will involve for this Cebu City event."
     },
     {
       "question": "Who organizes the Cebu Marathon 2027?",

@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "malaysia",
   "short_description": "LJSN26 is a half-marathon held on 25 October 2026 in Bagan Datuk, Perak, Malaysia, offering 21.1km, 10km, and 5km distances.",
-  "ai_summary": "Larian Jambatan Sultan Nazrin Shah 2026 (LJSN26) is a half-marathon event scheduled for 25 October 2026 in Bagan Datuk, Perak, Malaysia. Organized by Majlis Perbandaran Teluk Intan (MPTI), the race offers three distance categories: 21.1km, 10km, and 5km, starting from Tapak Pasar Malam, Bagan Datuk. Registration details have not yet been announced.",
+  "ai_summary": "Larian Jambatan Sultan Nazrin Shah 2026 (LJSN26) is a half-marathon event scheduled for 25 October 2026 in Bagan Datuk, Perak, Malaysia. Organized by Majlis Perbandaran Teluk Intan (MPTI), the race offers three distance categories: 21.1km, 10km, and 5km, starting from Tapak Pasar Malam, Bagan Datuk.",
   "core_facts": {
     "date": "2026-10-25",
     "distance_km": [
@@ -15,7 +15,6 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "Majlis Perbandaran Teluk Intan (MPTI)",
-    "registration_status": "not_yet_announced",
     "venue": "Tapak Pasar Malam, Bagan Datuk, Perak",
     "city": "Bagan Datuk, Perak",
     "country": "Malaysia"
@@ -26,7 +25,6 @@
     "Set in Bagan Datuk, Perak, offering a race location outside major city crowds"
   ],
   "cons": [
-    "Registration status is not yet announced, so entry details remain unavailable",
     "No pricing, route map, or logistical information has been released yet"
   ],
   "excerpt_quotes": [],
@@ -51,10 +49,6 @@
     {
       "question": "Who organizes this race?",
       "answer": "The race is organized by Majlis Perbandaran Teluk Intan (MPTI), a municipal council in Perak, Malaysia. MPTI oversees the planning and execution of Larian Jambatan Sultan Nazrin Shah 2026, which is set to take place in Bagan Datuk, Perak."
-    },
-    {
-      "question": "Is registration open for LJSN26?",
-      "answer": "As of now, the registration status for LJSN26 has not yet been announced by the organizer, Majlis Perbandaran Teluk Intan (MPTI). Prospective participants should watch for further updates regarding sign-up details, fees, and deadlines ahead of the 25 October 2026 event date."
     }
   ],
   "reliability_score": 18,

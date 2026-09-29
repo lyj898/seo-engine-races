@@ -5,7 +5,7 @@
   "category_id": "full-marathon",
   "region_id": "thailand",
   "short_description": "The 40th Chombueng Marathon is a full and half marathon event held on January 31, 2027, at Ratchaburi Rajabhat University in Chom Bueng, Thailand.",
-  "ai_summary": "The Chombueng Marathon (40th edition) is a full marathon event scheduled for January 31, 2027, in Chom Bueng, Ratchaburi, Thailand. Organized by the Chombueng Marathon organizing committee, it offers both a half marathon (21.1 km) and a full marathon (42.195 km) distance, with the venue based at Ratchaburi Rajabhat University. Registration details have not yet been announced.",
+  "ai_summary": "The Chombueng Marathon (40th edition) is a full marathon event scheduled for January 31, 2027, in Chom Bueng, Ratchaburi, Thailand. Organized by the Chombueng Marathon organizing committee, it offers both a half marathon (21.1 km) and a full marathon (42.195 km) distance, with the venue based at Ratchaburi Rajabhat University.",
   "core_facts": {
     "date": "2027-01-31",
     "distance_km": [
@@ -14,7 +14,6 @@
     ],
     "primary_distance_km": 42.195,
     "organizer": "Chombueng Marathon organizing committee",
-    "registration_status": "not_yet_announced",
     "venue": "Ratchaburi Rajabhat University, Chom Bueng",
     "city": "Chom Bueng, Ratchaburi",
     "country": "Thailand"
@@ -24,9 +23,7 @@
     "Offers both half marathon (21.1 km) and full marathon (42.195 km) distance options",
     "Hosted at a defined venue, Ratchaburi Rajabhat University, in Chom Bueng, Ratchaburi"
   ],
-  "cons": [
-    "Registration status is not yet announced, so entry details are currently unavailable"
-  ],
+  "cons": [],
   "excerpt_quotes": [],
   "research_highlights": [],
   "research_watchouts": [],
@@ -42,10 +39,6 @@
     {
       "question": "Where does the Chombueng Marathon take place?",
       "answer": "The race takes place at Ratchaburi Rajabhat University, located in Chom Bueng, Ratchaburi, Thailand. This venue serves as the base for the 40th edition of the Chombueng Marathon, which is organized by the Chombueng Marathon organizing committee and includes both half and full marathon distances."
-    },
-    {
-      "question": "Is registration open for the Chombueng Marathon (40th ed.)?",
-      "answer": "According to available information, registration for the Chombueng Marathon has not yet been announced. Prospective participants interested in the half marathon or full marathon distances at this Chom Bueng, Ratchaburi event should check back later for updates on sign-up details and timing."
     }
   ],
   "reliability_score": 28,

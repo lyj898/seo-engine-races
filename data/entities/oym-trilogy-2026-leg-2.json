@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "philippines",
   "short_description": "OYM Trilogy 2026 – Leg 2 is a half-marathon race set for September 27, 2026 at Ayala Triangle Gardens, Makati, Philippines.",
-  "ai_summary": "OYM Trilogy 2026 – Leg 2 is a half-marathon event scheduled for September 27, 2026, at Ayala Triangle Gardens in Makati, Philippines. Organized by OYM, the race offers four distance options: 21.1km, 16km, 10km, and 5km, catering to a range of runners from casual participants to those seeking a longer challenge. Registration for this event has not yet been announced.",
+  "ai_summary": "OYM Trilogy 2026 – Leg 2 is a half-marathon event scheduled for September 27, 2026, at Ayala Triangle Gardens in Makati, Philippines. Organized by OYM, the race offers four distance options: 21.1km, 16km, 10km, and 5km, catering to a range of runners from casual participants to those seeking a longer challenge.",
   "core_facts": {
     "date": "2026-09-27",
     "distance_km": [
@@ -16,7 +16,6 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "OYM",
-    "registration_status": "not_yet_announced",
     "venue": "Ayala Triangle Gardens, Makati",
     "city": "Makati",
     "country": "Philippines"
@@ -26,9 +25,7 @@
     "Central, accessible venue at Ayala Triangle Gardens in Makati",
     "Organized event as part of a known series, OYM Trilogy"
   ],
-  "cons": [
-    "Registration status has not yet been announced, so sign-up details are unavailable"
-  ],
+  "cons": [],
   "excerpt_quotes": [],
   "research_highlights": [
     "Course is based at Ayala Triangle Gardens / Legazpi Village area in Makati's central business district, with categories including 5K, 10K, 16K and a 21K half-marathon for Leg 2.",
@@ -51,10 +48,6 @@
     {
       "question": "What distances are offered at this event?",
       "answer": "The event offers four distance categories for participants to choose from: a 21.1km half-marathon, a 16km race, a 10km race, and a 5km race. This range allows runners of varying experience levels and fitness goals to select the distance that best suits them."
-    },
-    {
-      "question": "Is registration open for this race?",
-      "answer": "As of now, the registration status for OYM Trilogy 2026 – Leg 2 has not yet been announced. Prospective participants interested in joining should watch for further updates from the organizer, OYM, regarding when sign-ups will become available."
     },
     {
       "question": "Who is organizing OYM Trilogy 2026 – Leg 2?",

@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "philippines",
   "short_description": "A half marathon event held at SM Mall of Asia in Pasay, Philippines on September 19, 2026, offering 21.1km, 10km, and 5km distances.",
-  "ai_summary": "The Sagisag Half Marathon 2026 is scheduled for September 19, 2026, in Pasay, Philippines, with SM Mall of Asia serving as the venue. Organized by RSRJ Events, the race offers three distance options: 21.1km, 10km, and 5km, with the half marathon as the primary distance. Registration details have not yet been announced.",
+  "ai_summary": "The Sagisag Half Marathon 2026 is scheduled for September 19, 2026, in Pasay, Philippines, with SM Mall of Asia serving as the venue. Organized by RSRJ Events, the race offers three distance options: 21.1km, 10km, and 5km, with the half marathon as the primary distance.",
   "core_facts": {
     "date": "2026-09-19",
     "distance_km": [
@@ -15,7 +15,6 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "RSRJ Events",
-    "registration_status": "not_yet_announced",
     "venue": "SM Mall of Asia",
     "city": "Pasay",
     "country": "Philippines"
@@ -25,9 +24,7 @@
     "Convenient, well-known venue at SM Mall of Asia in Pasay",
     "Organized by RSRJ Events"
   ],
-  "cons": [
-    "Registration status has not yet been announced, so sign-up details are unavailable"
-  ],
+  "cons": [],
   "excerpt_quotes": [],
   "research_highlights": [
     "The Sagisag Half Marathon is organized by RSRJ Events Management and has run multiple prior editions in Pasay City, including at the CCP Complex (2022, 2024) and Mall of Asia (multiple legs in 2025).",
@@ -46,10 +43,6 @@
     {
       "question": "What distance options are available at this race?",
       "answer": "Runners can choose from three distance options at the Sagisag Half Marathon 2026: a 21.1km half marathon, a 10km race, and a 5km race. The 21.1km half marathon is the primary distance for the event, catering to a range of runner abilities and goals."
-    },
-    {
-      "question": "Is registration open for the Sagisag Half Marathon 2026?",
-      "answer": "As of now, the registration status for the Sagisag Half Marathon 2026 has not yet been announced. Prospective participants will need to watch for further updates from the organizer, RSRJ Events, regarding when and how to sign up for the race."
     },
     {
       "question": "Who organizes the Sagisag Half Marathon 2026 and where is it held?",

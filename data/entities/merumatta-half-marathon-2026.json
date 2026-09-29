@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "indonesia",
   "short_description": "The Merumatta Half Marathon 2026 is a multi-distance road race held October 18, 2026, in Senggigi, Lombok Barat, Indonesia.",
-  "ai_summary": "The Merumatta Half Marathon 2026 takes place on October 18, 2026, at Merumatta Hotel in Senggigi, Lombok Barat, NTB, Indonesia. Runners can choose from four distances: 21.1km, 10km, 5km, and 2.5km, with the half marathon featuring 390m of elevation gain. Registration is currently open for those interested in participating.",
+  "ai_summary": "The Merumatta Half Marathon 2026 takes place on October 18, 2026, at Merumatta Hotel in Senggigi, Lombok Barat, NTB, Indonesia. Runners can choose from four distances: 21.1km, 10km, 5km, and 2.5km, with the half marathon featuring 390m of elevation gain.",
   "core_facts": {
     "date": "2026-10-18",
     "distance_km": [
@@ -17,7 +17,6 @@
     "primary_distance_km": 21.1,
     "elevation_gain_m": 390,
     "organizer": "Merumatta Coast Trail",
-    "registration_status": "Open",
     "price_range": "Rp 180,000 - Rp 650,000",
     "venue": "Merumatta Hotel, Senggigi, Lombok Barat, NTB",
     "city": "Senggigi, Lombok Barat, NTB",
@@ -25,8 +24,7 @@
   },
   "pros": [
     "Multiple distance options (21.1km, 10km, 5km, 2.5km) suit a range of runner abilities",
-    "Scenic venue at Merumatta Hotel in Senggigi, Lombok Barat, NTB",
-    "Registration is currently open, giving ample time to prepare"
+    "Scenic venue at Merumatta Hotel in Senggigi, Lombok Barat, NTB"
   ],
   "cons": [
     "Half marathon course includes 390m of elevation gain, which may be challenging for some runners"
@@ -68,10 +66,6 @@
     {
       "question": "How much elevation gain is there on the half marathon course?",
       "answer": "The half marathon (21.1km) course at the Merumatta Half Marathon 2026 includes a total elevation gain of 390 meters. This is a factor runners may want to consider when preparing and training for the race."
-    },
-    {
-      "question": "Is registration still open for this race?",
-      "answer": "Yes, registration for the Merumatta Half Marathon 2026 is currently open. Interested runners can sign up ahead of the race date, October 18, 2026, to secure their spot in one of the four available distance categories."
     }
   ],
   "reliability_score": 94,

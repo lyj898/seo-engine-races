@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "philippines",
   "short_description": "The National MILO Marathon 2026 – General Santos City Leg is a half-marathon and multi-distance race set for August 9, 2026 in General Santos City, Philippines.",
-  "ai_summary": "The National MILO Marathon 2026 – General Santos City Leg is a race scheduled for August 9, 2026, held in General Santos City, Philippines. Organized by RUNRIO Inc. under the MILO Marathon banner, the event offers four distance options: 21.1km, 10km, 5km, and 3km. Registration has not yet been confirmed as open, so prospective participants should watch for further announcements.",
+  "ai_summary": "The National MILO Marathon 2026 – General Santos City Leg is a race scheduled for August 9, 2026, held in General Santos City, Philippines. Organized by RUNRIO Inc. under the MILO Marathon banner, the event offers four distance options: 21.1km, 10km, 5km, and 3km.",
   "core_facts": {
     "date": "2026-08-09",
     "distance_km": [
@@ -16,7 +16,6 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "RUNRIO Inc. (MILO Marathon)",
-    "registration_status": "Not yet confirmed open",
     "venue": "General Santos City",
     "city": "General Santos City",
     "country": "Philippines"
@@ -26,9 +25,7 @@
     "Organized by RUNRIO Inc., the established organizer behind the MILO Marathon series",
     "Set in General Santos City, giving local and traveling runners a Mindanao race option"
   ],
-  "cons": [
-    "Registration status is not yet confirmed as open, so details for signing up are unavailable"
-  ],
+  "cons": [],
   "excerpt_quotes": [
     {
       "quote": "I am very pleased with my win. The route was good. I set my pace with the male runners during the entire race",
@@ -58,10 +55,6 @@
     {
       "question": "Who organizes the National MILO Marathon 2026 General Santos City Leg?",
       "answer": "This race is organized by RUNRIO Inc., the group behind the MILO Marathon series held across the Philippines. The General Santos City Leg is one stop within this broader national race series taking place in 2026."
-    },
-    {
-      "question": "Is registration currently open for this race?",
-      "answer": "Registration for the National MILO Marathon 2026 – General Santos City Leg is not yet confirmed as open. Prospective participants should check back for updates, as no official registration opening date or process has been announced at this time."
     }
   ],
   "reliability_score": 45,

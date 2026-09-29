@@ -5,7 +5,7 @@
   "category_id": "full-marathon",
   "region_id": "malaysia",
   "short_description": "Miri Marathon 2027 is a full-marathon race set for April 12, 2026, in Miri, Sarawak, Malaysia.",
-  "ai_summary": "Miri Marathon 2027 is a full-marathon event scheduled for April 12, 2026, in Miri, Sarawak, Malaysia. The race is based at Jalan Merpati and offers multiple distance options: 42.195 km, 21.1 km, 10 km, and 5 km. Registration details have not yet been announced.",
+  "ai_summary": "Miri Marathon 2027 is a full-marathon event scheduled for April 12, 2026, in Miri, Sarawak, Malaysia. The race is based at Jalan Merpati and offers multiple distance options: 42.195 km, 21.1 km, 10 km, and 5 km.",
   "core_facts": {
     "date": "2026-04-12",
     "distance_km": [
@@ -15,7 +15,6 @@
       5
     ],
     "primary_distance_km": 42.195,
-    "registration_status": "not_yet_announced",
     "venue": "Jalan Merpati, Miri",
     "city": "Miri, Sarawak",
     "country": "Malaysia"
@@ -25,9 +24,7 @@
     "Held in Miri, Sarawak, a specific and clearly identified location",
     "Marathon distance is confirmed as the primary event"
   ],
-  "cons": [
-    "Registration status is not yet announced, so sign-up details are unavailable"
-  ],
+  "cons": [],
   "excerpt_quotes": [],
   "faqs": [
     {
@@ -37,10 +34,6 @@
     {
       "question": "When is Miri Marathon 2027 scheduled?",
       "answer": "The event is scheduled to take place on April 12, 2026. This date applies to the full race weekend, which includes the marathon, half marathon, 10 km, and 5 km distance categories held at the Jalan Merpati venue in Miri, Sarawak."
-    },
-    {
-      "question": "Is registration open for Miri Marathon 2027?",
-      "answer": "Registration status for Miri Marathon 2027 has not yet been announced. Prospective participants should check back for updates on when sign-ups will open, as no confirmed registration details, fees, or deadlines have been released for this event at this time."
     },
     {
       "question": "What distance options are available at Miri Marathon 2027?",

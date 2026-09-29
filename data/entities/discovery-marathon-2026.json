@@ -5,7 +5,7 @@
   "category_id": "full-marathon",
   "region_id": "philippines",
   "short_description": "Discovery Marathon 2026 is a full marathon and multi-distance race set for September 20, 2026, at City Di Mare, Cebu City, Philippines.",
-  "ai_summary": "Discovery Marathon 2026 is a road race scheduled for September 20, 2026, in Cebu City, Philippines, based at City Di Mare, South Road Properties. Organized by KNC, the event offers four distance options: 42.195 km (full marathon), 21.1 km, 12 km, and 6 km. Registration has not yet been announced.",
+  "ai_summary": "Discovery Marathon 2026 is a road race scheduled for September 20, 2026, in Cebu City, Philippines, based at City Di Mare, South Road Properties. Organized by KNC, the event offers four distance options: 42.195 km (full marathon), 21.1 km, 12 km, and 6 km.",
   "core_facts": {
     "date": "2026-09-20",
     "distance_km": [
@@ -16,7 +16,6 @@
     ],
     "primary_distance_km": 42.195,
     "organizer": "KNC",
-    "registration_status": "not_yet_announced",
     "venue": "City Di Mare, South Road Properties, Cebu City",
     "city": "Cebu City",
     "country": "Philippines"
@@ -27,7 +26,6 @@
     "Organized by KNC, giving the event a clear organizing body"
   ],
   "cons": [
-    "Registration status is not yet announced, so sign-up details are unavailable",
     "No pricing, route, or logistical information has been released yet"
   ],
   "excerpt_quotes": [],
@@ -51,10 +49,6 @@
     {
       "question": "What distances are offered at the Discovery Marathon 2026?",
       "answer": "Runners can choose from four distances: a full marathon of 42.195 km, a half marathon of 21.1 km, a 12 km race, and a 6 km race. This range allows participants of varying experience levels to take part in the event."
-    },
-    {
-      "question": "Is registration open for the Discovery Marathon 2026?",
-      "answer": "Registration for the Discovery Marathon 2026 has not yet been announced. Details on sign-up dates, fees, and procedures are not currently available, so prospective participants should check back later for updates from the organizer, KNC."
     }
   ],
   "reliability_score": 10,

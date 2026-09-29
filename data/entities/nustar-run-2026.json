@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "philippines",
   "short_description": "NUSTAR Run 2026 is a 21.1 km half-marathon held on August 23, 2026 at NUSTAR Resort, Cebu City, Philippines.",
-  "ai_summary": "NUSTAR Run 2026 is a half-marathon event scheduled for August 23, 2026, held in Cebu City, Philippines. The race is organized by NUSTAR Resort and starts at NUSTAR Resort, Cebu City. The event offers a 21.1 km distance for participants. Registration details have not yet been announced, so prospective runners should watch for updates.",
+  "ai_summary": "NUSTAR Run 2026 is a half-marathon event scheduled for August 23, 2026, held in Cebu City, Philippines. The race is organized by NUSTAR Resort and starts at NUSTAR Resort, Cebu City. The event offers a 21.1 km distance for participants.",
   "core_facts": {
     "date": "2026-08-23",
     "distance_km": [
@@ -13,7 +13,6 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "NUSTAR Resort",
-    "registration_status": "not_yet_announced",
     "venue": "NUSTAR Resort, Cebu City",
     "city": "Cebu City",
     "country": "Philippines"
@@ -23,9 +22,7 @@
     "Organized directly by NUSTAR Resort, ensuring a dedicated event host",
     "Offers a standard half-marathon distance of 21.1 km"
   ],
-  "cons": [
-    "Registration status has not yet been announced, so sign-up details are unavailable"
-  ],
+  "cons": [],
   "excerpt_quotes": [],
   "research_highlights": [
     "This is the first-ever edition of NUSTAR Run, scheduled for August 23, 2026, so there is no prior-year participant feedback to draw on.",
@@ -49,10 +46,6 @@
     {
       "question": "Where does the race start?",
       "answer": "The race is held at NUSTAR Resort in Cebu City, Philippines. NUSTAR Resort also serves as the event's organizer, hosting the run at its own venue. No additional route or starting line details beyond the venue location have been provided at this time."
-    },
-    {
-      "question": "Is registration open for NUSTAR Run 2026?",
-      "answer": "Registration status for NUSTAR Run 2026 has not yet been announced. Prospective participants currently have no confirmed way to sign up, and details such as fees, opening dates, or registration platforms have not been disclosed. Interested runners should check for future announcements regarding registration."
     }
   ],
   "reliability_score": 43,

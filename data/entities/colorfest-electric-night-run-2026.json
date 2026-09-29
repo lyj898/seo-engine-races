@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "philippines",
   "short_description": "Colorfest Electric Night Run 2026 is a half-marathon event on August 1, 2026 at SM Mall of Asia, Pasay, Philippines, organized by HyveSports.",
-  "ai_summary": "Colorfest Electric Night Run 2026 is a half-marathon event scheduled for August 1, 2026, at SM Mall of Asia in Pasay, Philippines. Organized by HyveSports, the race offers four distance options: 21.1km, 10km, 5km, and 3km, allowing participants of varying fitness levels to take part. Registration details have not yet been announced.",
+  "ai_summary": "Colorfest Electric Night Run 2026 is a half-marathon event scheduled for August 1, 2026, at SM Mall of Asia in Pasay, Philippines. Organized by HyveSports, the race offers four distance options: 21.1km, 10km, 5km, and 3km, allowing participants of varying fitness levels to take part.",
   "core_facts": {
     "date": "2026-08-01",
     "distance_km": [
@@ -16,7 +16,6 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "HyveSports",
-    "registration_status": "not_yet_announced",
     "venue": "SM Mall of Asia",
     "city": "Pasay",
     "country": "Philippines"
@@ -26,9 +25,7 @@
     "Convenient, accessible venue at SM Mall of Asia in Pasay",
     "Organized by an established organizer, HyveSports"
   ],
-  "cons": [
-    "Registration status is not yet announced, so sign-up details are unavailable"
-  ],
+  "cons": [],
   "excerpt_quotes": [],
   "research_highlights": [
     "The 2026 edition takes place August 1, 2026 at SM Mall of Asia Complex in Pasay, with a night-wave gun start and distance options of 3K, 5K, and 10K (15K and 21K categories were already sold out per the official registration page).",
@@ -47,10 +44,6 @@
     {
       "question": "What distances are offered at this race?",
       "answer": "The race offers four distance categories for participants to choose from: a 21.1km half-marathon, a 10km run, a 5km run, and a shorter 3km option, catering to a range of runner experience levels and fitness goals."
-    },
-    {
-      "question": "Is registration open for the Colorfest Electric Night Run 2026?",
-      "answer": "As of now, the registration status for the Colorfest Electric Night Run 2026 has not yet been announced. Interested participants will need to wait for further updates from the organizer, HyveSports, regarding sign-up details and availability."
     },
     {
       "question": "Where is the race held?",

@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "indonesia",
   "short_description": "A half marathon (21.1km, plus 10km and 5km options) held in Bandar Lampung, Indonesia on September 20, 2026.",
-  "ai_summary": "The Locomotive Half Marathon 2026 is set for September 20, 2026 in Bandar Lampung, Lampung, Indonesia, offering three distance options: 5km, 10km, and a 21.1km half marathon as the primary event. It is organized by PT Kereta Api Indonesia (KAI), with execution handled by RAW Organizer and Runaway Lampung. Registration is currently open, though the exact start point for the race has not yet been announced.",
+  "ai_summary": "The Locomotive Half Marathon 2026 is set for September 20, 2026 in Bandar Lampung, Lampung, Indonesia, offering three distance options: 5km, 10km, and a 21.1km half marathon as the primary event. It is organized by PT Kereta Api Indonesia (KAI), with execution handled by RAW Organizer and Runaway Lampung.",
   "core_facts": {
     "date": "2026-09-20",
     "distance_km": [
@@ -15,7 +15,6 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "PT Kereta Api Indonesia (KAI), executed by RAW Organizer / Runaway Lampung",
-    "registration_status": "Open",
     "venue": "Bandar Lampung (exact start point not yet announced)",
     "city": "Bandar Lampung, Lampung",
     "country": "Indonesia"
@@ -56,7 +55,7 @@
   "faqs": [
     {
       "question": "When is the Locomotive Half Marathon 2026 taking place?",
-      "answer": "The Locomotive Half Marathon 2026 is scheduled for September 20, 2026. It will take place in Bandar Lampung, Lampung, Indonesia. Registration is currently open for runners interested in taking part, giving participants time to prepare and secure their spot before the race weekend arrives."
+      "answer": "The Locomotive Half Marathon 2026 is scheduled for September 20, 2026. It will take place in Bandar Lampung, Lampung, Indonesia."
     },
     {
       "question": "What distance options are available at this race?",

@@ -4,8 +4,8 @@
   "name": "Mekong Half Marathon",
   "category_id": "half-marathon",
   "region_id": "laos",
-  "short_description": "The Mekong Half Marathon is a 21.1km race held in Vientiane, Laos, with registration currently open.",
-  "ai_summary": "The Mekong Half Marathon is a road running event scheduled for September 27, 2026, in Vientiane, Laos. Organized by Green Step, it takes place at the Xaysetha Economic Zone and offers three distance options: 21.1km, 10km, and 5km. Registration for the event is currently open to interested runners.",
+  "short_description": "The Mekong Half Marathon is a 21.1km race held in Vientiane, Laos.",
+  "ai_summary": "The Mekong Half Marathon is a road running event scheduled for September 27, 2026, in Vientiane, Laos. Organized by Green Step, it takes place at the Xaysetha Economic Zone and offers three distance options: 21.1km, 10km, and 5km.",
   "core_facts": {
     "date": "2026-09-27",
     "distance_km": [
@@ -15,14 +15,12 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "Green Step",
-    "registration_status": "Open",
     "venue": "Xaysetha Economic Zone, Vientiane",
     "city": "Vientiane",
     "country": "Laos"
   },
   "pros": [
     "Multiple distance options (21.1km, 10km, 5km) suit a range of runner abilities",
-    "Registration is currently open, giving runners time to plan and prepare",
     "Organized event with a defined venue at Xaysetha Economic Zone, Vientiane"
   ],
   "cons": [],
@@ -47,10 +45,6 @@
     {
       "question": "Where is the Mekong Half Marathon held?",
       "answer": "The Mekong Half Marathon is held at the Xaysetha Economic Zone in Vientiane, Laos. This venue serves as the location for the race, which is organized by Green Step and includes distance options of 21.1km, 10km, and 5km for participants."
-    },
-    {
-      "question": "Is registration currently open for the Mekong Half Marathon?",
-      "answer": "Yes, registration for the Mekong Half Marathon is currently open. Interested runners can sign up ahead of the race date of September 27, 2026, which will be held at the Xaysetha Economic Zone in Vientiane, Laos, organized by Green Step."
     }
   ],
   "reliability_score": 0,

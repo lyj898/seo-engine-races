@@ -5,7 +5,7 @@
   "category_id": "full-marathon",
   "region_id": "thailand",
   "short_description": "A full marathon in Pak Chong, Nakhon Ratchasima, Thailand, taking place on January 10, 2027, with 42.195km, 21.1km, and 10km distance options.",
-  "ai_summary": "The B-Quik Khao Yai Marathon 2027 is a full-marathon event scheduled for January 10, 2027, in Pak Chong, Nakhon Ratchasima, Thailand. Runners can choose from three distances: 42.195km, 21.1km, and 10km. Registration status for this race has not yet been announced, so prospective participants should check back for updates.",
+  "ai_summary": "The B-Quik Khao Yai Marathon 2027 is a full-marathon event scheduled for January 10, 2027, in Pak Chong, Nakhon Ratchasima, Thailand. Runners can choose from three distances: 42.195km, 21.1km, and 10km.",
   "core_facts": {
     "date": "2027-01-10",
     "distance_km": [
@@ -17,7 +17,6 @@
     ],
     "primary_distance_km": 42.195,
     "organizer": "Race Up Work Co., Ltd.",
-    "registration_status": "not_yet_announced",
     "venue": "Pak Chong, Nakhon Ratchasima",
     "city": "Pak Chong, Nakhon Ratchasima",
     "country": "Thailand"
@@ -27,9 +26,7 @@
     "Set in Pak Chong, Nakhon Ratchasima, a specific and identifiable Thailand location",
     "Clear, confirmed date already set for January 10, 2027"
   ],
-  "cons": [
-    "Registration status is not yet announced, so sign-up details are unavailable at this time"
-  ],
+  "cons": [],
   "excerpt_quotes": [],
   "research_highlights": [],
   "research_watchouts": [],
@@ -45,10 +42,6 @@
     {
       "question": "Where is the race held?",
       "answer": "The Khao Yai Marathon 2027 is held in Pak Chong, Nakhon Ratchasima, which is located in Thailand. This venue serves as the setting for all three race distances offered at the event, including the full marathon, half marathon, and 10km race."
-    },
-    {
-      "question": "Is registration open for the Khao Yai Marathon 2027?",
-      "answer": "According to the available information, the registration status for the Khao Yai Marathon 2027 has not yet been announced. Prospective participants interested in joining the full marathon, half marathon, or 10km race should watch for future updates regarding sign-up details and availability."
     }
   ],
   "reliability_score": 98,

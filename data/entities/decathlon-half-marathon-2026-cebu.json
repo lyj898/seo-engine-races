@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "philippines",
   "short_description": "The Decathlon Half Marathon 2026 is a multi-distance road race held on September 26, 2026 at SM City Cebu, Philippines.",
-  "ai_summary": "The Decathlon Half Marathon 2026 is a road race scheduled for September 26, 2026 at SM City Cebu in Cebu City, Philippines. Organized by Decathlon, the event offers four distance options: 21.1km, 15km, 10km, and 5km, catering to a range of runner abilities. Registration details have not yet been announced. Runners interested in this Philippines-based race can look forward to more information as it becomes available.",
+  "ai_summary": "The Decathlon Half Marathon 2026 is a road race scheduled for September 26, 2026 at SM City Cebu in Cebu City, Philippines. Organized by Decathlon, the event offers four distance options: 21.1km, 15km, 10km, and 5km, catering to a range of runner abilities. Runners interested in this Philippines-based race can look forward to more information as it becomes available.",
   "core_facts": {
     "date": "2026-09-26",
     "distance_km": [
@@ -16,7 +16,6 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "Decathlon",
-    "registration_status": "not_yet_announced",
     "venue": "SM City Cebu",
     "city": "Cebu City",
     "country": "Philippines"
@@ -26,9 +25,7 @@
     "Held at a well-known, accessible venue, SM City Cebu",
     "Backed by an established organizer, Decathlon"
   ],
-  "cons": [
-    "Registration status has not yet been announced, so sign-up details are unavailable"
-  ],
+  "cons": [],
   "excerpt_quotes": [],
   "research_highlights": [
     "The 2026 edition offers four distances: 5KM, 10KM, 15KM, and 21KM, based at SM City Cebu.",
@@ -47,10 +44,6 @@
     {
       "question": "What distances are offered at this event?",
       "answer": "The Decathlon Half Marathon 2026 offers four distance categories for participants to choose from: a 21.1km half marathon, a 15km race, a 10km race, and a 5km race. This range allows runners of different experience levels and fitness goals to take part in the event."
-    },
-    {
-      "question": "Is registration open for the Decathlon Half Marathon 2026?",
-      "answer": "As of now, the registration status for the Decathlon Half Marathon 2026 has not yet been announced. Details on how and when to sign up for this race, including the various distance categories, are expected to be released closer to the event date."
     },
     {
       "question": "Who is organizing the Decathlon Half Marathon 2026?",

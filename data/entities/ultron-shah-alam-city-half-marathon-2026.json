@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "malaysia",
   "short_description": "The Ultron Shah Alam City Half Marathon 2026 is a 5km, 10km, and 21.1km road race held on August 9, 2026 in Shah Alam, Selangor, Malaysia.",
-  "ai_summary": "The Ultron Shah Alam City Half Marathon 2026 is a road race scheduled for August 9, 2026, based at AEON MALL Shah Alam in Shah Alam, Selangor, Malaysia. Runners can choose from 5km, 10km, or 21.1km distances, with the half marathon serving as the primary event. Registration for the race is currently open.",
+  "ai_summary": "The Ultron Shah Alam City Half Marathon 2026 is a road race scheduled for August 9, 2026, based at AEON MALL Shah Alam in Shah Alam, Selangor, Malaysia. Runners can choose from 5km, 10km, or 21.1km distances, with the half marathon serving as the primary event.",
   "core_facts": {
     "date": "2026-08-09",
     "distance_km": [
@@ -14,7 +14,6 @@
       21.1
     ],
     "primary_distance_km": 21.1,
-    "registration_status": "Closed",
     "registration_deadline": "2026-08-08",
     "venue": "AEON MALL Shah Alam",
     "city": "Shah Alam, Selangor",
@@ -22,7 +21,6 @@
   },
   "pros": [
     "Multiple distance options (5km, 10km, and 21.1km) to suit different runner levels",
-    "Registration is currently open, giving participants time to plan and prepare",
     "Convenient venue at AEON MALL Shah Alam, a well-known location in the city"
   ],
   "cons": [],
@@ -48,10 +46,6 @@
     {
       "question": "What distance options are available at this race?",
       "answer": "Participants in the Ultron Shah Alam City Half Marathon 2026 can choose from three distances: 5km, 10km, and 21.1km. The 21.1km half marathon is the primary distance for this event, offering options for both casual and competitive runners."
-    },
-    {
-      "question": "Is registration currently open for this event?",
-      "answer": "Yes, registration for the Ultron Shah Alam City Half Marathon 2026 is currently open. Interested runners can sign up ahead of the race date of August 9, 2026, to secure their spot in one of the available distance categories."
     },
     {
       "question": "Where is the race held?",

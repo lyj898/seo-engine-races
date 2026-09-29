@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "thailand",
   "short_description": "The Thai Sikh Run is a 31st-edition half-marathon and 10km race held in Bangkok, Thailand, on January 31, 2027.",
-  "ai_summary": "The Thai Sikh Run is set for January 31, 2027, in Bangkok, Thailand, starting near the Old Siam Plaza area. Now in its 31st edition, the event is organized by the Thai Sikh community organizing committee and offers two distance options: a 21.098km half marathon and a 10km race. Registration details for this edition have not yet been announced.",
+  "ai_summary": "The Thai Sikh Run is set for January 31, 2027, in Bangkok, Thailand, starting near the Old Siam Plaza area. Now in its 31st edition, the event is organized by the Thai Sikh community organizing committee and offers two distance options: a 21.098km half marathon and a 10km race.",
   "core_facts": {
     "date": "2027-01-31",
     "distance_km": [
@@ -14,7 +14,6 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "Thai Sikh community organizing committee",
-    "registration_status": "not_yet_announced",
     "venue": "Old Siam Plaza area, Bangkok",
     "city": "Bangkok",
     "country": "Thailand"
@@ -47,10 +46,6 @@
     {
       "question": "Who organizes the Thai Sikh Run?",
       "answer": "The Thai Sikh Run is organized by the Thai Sikh community organizing committee. This group has run the event for over three decades, with the upcoming edition marking the 31st time the race has been held in Bangkok, Thailand."
-    },
-    {
-      "question": "Is registration open for the 2027 Thai Sikh Run?",
-      "answer": "As of now, registration for the 2027 edition of the Thai Sikh Run has not yet been announced. Prospective participants will need to wait for further updates from the organizing committee regarding sign-up dates, fees, and other entry requirements before they can register."
     }
   ],
   "reliability_score": 30,

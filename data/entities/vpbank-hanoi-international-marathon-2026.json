@@ -5,7 +5,7 @@
   "category_id": "full-marathon",
   "region_id": "vietnam",
   "short_description": "A full marathon and multi-distance race in Hanoi, Vietnam, held on October 18, 2026, organized by VPBank.",
-  "ai_summary": "The VPBank Hanoi International Marathon 2026 is a full marathon event taking place on October 18, 2026, in Hanoi, Vietnam. Organized by VPBank, the race offers four distance options: 42.195km, 21.1km, 10km, and 5km. The race starts at Hoan Kiem Lake and finishes on Tran Nhan Tong walking street. Registration is currently open at Early Bird pricing.",
+  "ai_summary": "The VPBank Hanoi International Marathon 2026 is a full marathon event taking place on October 18, 2026, in Hanoi, Vietnam. Organized by VPBank, the race offers four distance options: 42.195km, 21.1km, 10km, and 5km. The race starts at Hoan Kiem Lake and finishes on Tran Nhan Tong walking street.",
   "core_facts": {
     "date": "2026-10-18",
     "distance_km": [
@@ -16,7 +16,6 @@
     ],
     "primary_distance_km": 42.195,
     "organizer": "VPBank",
-    "registration_status": "Open (Early Bird)",
     "price_range": "VND 42K 999,000 / 21K 899,000 / 10K 699,000 / 5K 599,000 (Early Bird)",
     "venue": "Start Hoan Kiem Lake, finish Tran Nhan Tong walking street",
     "city": "Hanoi",
@@ -58,7 +57,7 @@
   "faqs": [
     {
       "question": "When is the VPBank Hanoi International Marathon 2026?",
-      "answer": "The VPBank Hanoi International Marathon 2026 is scheduled to take place on October 18, 2026, in Hanoi, Vietnam. The race is organized by VPBank and registration is currently open, with Early Bird pricing available for those who sign up ahead of the event date."
+      "answer": "The VPBank Hanoi International Marathon 2026 is scheduled to take place on October 18, 2026, in Hanoi, Vietnam. The race is organized by VPBank."
     },
     {
       "question": "What distances are offered at this race?",

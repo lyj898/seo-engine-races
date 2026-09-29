@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "cambodia",
   "short_description": "A half marathon and multi-distance road race held at the Angkor Wat temple complex in Siem Reap, Cambodia, scheduled for December 6, 2026.",
-  "ai_summary": "The Angkor Wat International Half Marathon is set to take place on December 6, 2026, at the Angkor Wat temple complex within Angkor Archaeological Park in Siem Reap, Cambodia. Organized by the National Olympic Committee of Cambodia together with the Athletics Federation of Cambodia, the event offers four distance options: 21.1km, 10km, 5km, and 3km. Registration for the race has not yet been announced.",
+  "ai_summary": "The Angkor Wat International Half Marathon is set to take place on December 6, 2026, at the Angkor Wat temple complex within Angkor Archaeological Park in Siem Reap, Cambodia. Organized by the National Olympic Committee of Cambodia together with the Athletics Federation of Cambodia, the event offers four distance options: 21.1km, 10km, 5km, and 3km.",
   "core_facts": {
     "date": "2026-12-06",
     "distance_km": [
@@ -16,7 +16,6 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "National Olympic Committee of Cambodia, with the Athletics Federation of Cambodia",
-    "registration_status": "Not Yet Announced",
     "venue": "Angkor Wat temple complex, Angkor Archaeological Park",
     "city": "Siem Reap",
     "country": "Cambodia"
@@ -50,10 +49,6 @@
     {
       "question": "Who organizes the Angkor Wat International Half Marathon?",
       "answer": "The race is organized jointly by the National Olympic Committee of Cambodia and the Athletics Federation of Cambodia. These organizations oversee the planning and execution of the event, which takes place at the historic Angkor Wat temple complex in Siem Reap, Cambodia."
-    },
-    {
-      "question": "Is registration currently open for this race?",
-      "answer": "Registration for the Angkor Wat International Half Marathon has not yet been announced. Prospective participants interested in the 21.1km, 10km, 5km, or 3km distances will need to wait for further details on how and when to sign up for the event."
     }
   ],
   "reliability_score": 100,

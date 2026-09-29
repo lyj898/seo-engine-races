@@ -5,7 +5,7 @@
   "category_id": "full-marathon",
   "region_id": "malaysia",
   "short_description": "Selangor Marathon 2026 (SELMAR 2026) is a full and half marathon event held on November 1, 2026, in Cyberjaya, Selangor, Malaysia.",
-  "ai_summary": "The Selangor Marathon 2026 (SELMAR 2026) is a full marathon organized by Tourism Selangor, scheduled for November 1, 2026. The race takes place at Persiaran Flora in Cyberjaya, Selangor, Malaysia, and offers both a full marathon (42.195 km) and a half marathon (21.1 km) distance. Registration for the event is currently open.",
+  "ai_summary": "The Selangor Marathon 2026 (SELMAR 2026) is a full marathon organized by Tourism Selangor, scheduled for November 1, 2026. The race takes place at Persiaran Flora in Cyberjaya, Selangor, Malaysia, and offers both a full marathon (42.195 km) and a half marathon (21.1 km) distance.",
   "core_facts": {
     "date": "2026-11-01",
     "distance_km": [
@@ -14,14 +14,12 @@
     ],
     "primary_distance_km": 42.195,
     "organizer": "Tourism Selangor (SELMAR 2026)",
-    "registration_status": "Open",
     "venue": "Persiaran Flora, Cyberjaya, Selangor",
     "city": "Cyberjaya, Selangor",
     "country": "Malaysia"
   },
   "pros": [
     "Offers both full marathon (42.195 km) and half marathon (21.1 km) distance options",
-    "Registration is currently open, giving runners time to plan and prepare",
     "Organized by Tourism Selangor, a recognized regional tourism body",
     "Held at a dedicated venue, Persiaran Flora in Cyberjaya, Selangor"
   ],
@@ -53,10 +51,6 @@
     {
       "question": "Where is the race held?",
       "answer": "The Selangor Marathon 2026 is held at Persiaran Flora in Cyberjaya, Selangor, Malaysia. This venue serves as the location for both the full marathon and half marathon distances offered at the event, which is organized by Tourism Selangor under the SELMAR 2026 banner."
-    },
-    {
-      "question": "Is registration open for Selangor Marathon 2026?",
-      "answer": "Yes, registration for Selangor Marathon 2026 is currently open. Runners interested in participating in either the full marathon (42.195 km) or half marathon (21.1 km) distance at the Cyberjaya, Selangor venue can sign up now through the event organizer, Tourism Selangor."
     }
   ],
   "reliability_score": 0,

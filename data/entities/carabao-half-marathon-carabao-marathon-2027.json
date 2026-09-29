@@ -4,8 +4,8 @@
   "name": "Carabao Half Marathon (Carabao Marathon)",
   "category_id": "half-marathon",
   "region_id": "indonesia",
-  "short_description": "The Carabao Half Marathon is a multi-distance running event held in Kota Batu, Jawa Timur, Indonesia, on March 28, 2027, with registration currently open.",
-  "ai_summary": "The Carabao Half Marathon is a running event scheduled for March 28, 2027, in Kota Batu, Jawa Timur, Indonesia. Organized by the Carabao energy drink brand under Carabao Hydration, it offers multiple distance options including 5km, 10km, 21.1km (half marathon), and 42km (marathon). Registration for the event is currently open, giving runners of varying experience levels a chance to participate in the scenic Kota Batu location.",
+  "short_description": "The Carabao Half Marathon is a multi-distance running event held in Kota Batu, Jawa Timur, Indonesia, on March 28, 2027.",
+  "ai_summary": "The Carabao Half Marathon is a running event scheduled for March 28, 2027, in Kota Batu, Jawa Timur, Indonesia. Organized by the Carabao energy drink brand under Carabao Hydration, it offers multiple distance options including 5km, 10km, 21.1km (half marathon), and 42km (marathon).",
   "core_facts": {
     "date": "2027-03-28",
     "distance_km": [
@@ -16,14 +16,12 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "Carabao (energy drink brand) / Carabao Hydration",
-    "registration_status": "Pendaftaran Dibuka (Registration Open)",
     "venue": "Kota Batu, Jawa Timur",
     "city": "Kota Batu, Jawa Timur",
     "country": "Indonesia"
   },
   "pros": [
     "Multiple distance options (5km, 10km, 21.1km, 42km) cater to different runner levels",
-    "Registration is currently open, allowing ample time to plan and sign up",
     "Backed by an established brand, Carabao, through its Carabao Hydration division",
     "Takes place in Kota Batu, Jawa Timur, a notable Indonesian location"
   ],
@@ -35,10 +33,6 @@
     {
       "question": "Who organizes the Carabao Half Marathon?",
       "answer": "The Carabao Half Marathon is organized by Carabao, an energy drink brand, through its Carabao Hydration division. This corporate backing supports the event's logistics and branding as it prepares to host runners across multiple distance categories in Kota Batu, Jawa Timur, Indonesia."
-    },
-    {
-      "question": "Is registration currently open for this race?",
-      "answer": "Yes, registration for the Carabao Half Marathon is currently open, as indicated by its status of 'Pendaftaran Dibuka' which translates to 'Registration Open.' Interested runners can sign up ahead of the event date of March 28, 2027."
     },
     {
       "question": "What distances can participants choose from in this race?",

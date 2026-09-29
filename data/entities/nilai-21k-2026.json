@@ -4,21 +4,19 @@
   "name": "Nilai 21K 2026",
   "category_id": "half-marathon",
   "region_id": "malaysia",
-  "short_description": "Nilai 21K 2026 is a half-marathon held on October 11, 2026 at AEON Mall Nilai, Negeri Sembilan, Malaysia, with registration currently open.",
-  "ai_summary": "Nilai 21K 2026 is a half-marathon scheduled for October 11, 2026, based at AEON Mall Nilai in Negeri Sembilan, Malaysia. The event offers a primary distance of 21.1km, and registration is currently open for runners interested in taking part. It is a straightforward half-marathon option for those in the Nilai area.",
+  "short_description": "Nilai 21K 2026 is a half-marathon held on October 11, 2026 at AEON Mall Nilai, Negeri Sembilan, Malaysia.",
+  "ai_summary": "Nilai 21K 2026 is a half-marathon scheduled for October 11, 2026, based at AEON Mall Nilai in Negeri Sembilan, Malaysia. The event offers a primary distance of 21.1km. It is a straightforward half-marathon option for those in the Nilai area.",
   "core_facts": {
     "date": "2026-10-11",
     "distance_km": [
       21
     ],
     "primary_distance_km": 21.1,
-    "registration_status": "Open",
     "venue": "AEON Mall Nilai, Negeri Sembilan",
     "city": "Nilai",
     "country": "Malaysia"
   },
   "pros": [
-    "Registration is currently open, giving runners time to plan and sign up",
     "Held at an accessible, well-known venue: AEON Mall Nilai, Negeri Sembilan",
     "Offers a standard half-marathon distance of 21.1km"
   ],
@@ -59,10 +57,6 @@
     {
       "question": "Where is Nilai 21K 2026 held?",
       "answer": "The race is held at AEON Mall Nilai, located in Negeri Sembilan, Malaysia, within the city of Nilai. This venue serves as the base for the event, making it a central and identifiable location for participants traveling to the race."
-    },
-    {
-      "question": "Is registration open for Nilai 21K 2026?",
-      "answer": "Yes, registration for Nilai 21K 2026 is currently listed as open. This means interested runners can sign up for the half-marathon ahead of the October 11, 2026 race date, allowing time to prepare for the 21.1km distance at AEON Mall Nilai."
     }
   ],
   "reliability_score": 0,

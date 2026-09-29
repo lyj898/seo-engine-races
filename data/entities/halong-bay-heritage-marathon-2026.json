@@ -5,7 +5,7 @@
   "category_id": "full-marathon",
   "region_id": "vietnam",
   "short_description": "A full marathon (42.195 km) and half marathon (21.1 km) taking place on November 22, 2026, in Ha Long, Quang Ninh, Vietnam.",
-  "ai_summary": "The Halong Bay Heritage Marathon is a full marathon and half marathon event scheduled for November 22, 2026, in Ha Long, Quang Ninh, Vietnam. Runners can choose between the 42.195 km marathon distance or the 21.1 km half marathon option. Registration for the event is currently listed as coming soon, meaning sign-ups have not yet opened. The race is set against the backdrop of Ha Long Bay in Quang Ninh province.",
+  "ai_summary": "The Halong Bay Heritage Marathon is a full marathon and half marathon event scheduled for November 22, 2026, in Ha Long, Quang Ninh, Vietnam. Runners can choose between the 42.195 km marathon distance or the 21.1 km half marathon option. The race is set against the backdrop of Ha Long Bay in Quang Ninh province.",
   "core_facts": {
     "date": "2026-11-22",
     "distance_km": [
@@ -15,7 +15,6 @@
       42.195
     ],
     "primary_distance_km": 42.195,
-    "registration_status": "Coming soon",
     "venue": "Ha Long, Quang Ninh",
     "city": "Ha Long, Quang Ninh",
     "country": "Vietnam"
@@ -44,10 +43,6 @@
     {
       "question": "What distances are offered at the Halong Bay Heritage Marathon?",
       "answer": "The Halong Bay Heritage Marathon offers two distance options for participants: a full marathon of 42.195 km, which is the primary distance for the event, and a half marathon of 21.1 km. Both distances will be run on the same date, November 22, 2026, in Ha Long, Quang Ninh, Vietnam."
-    },
-    {
-      "question": "Is registration open for the Halong Bay Heritage Marathon?",
-      "answer": "Registration for the Halong Bay Heritage Marathon is currently listed as coming soon, meaning it has not yet opened to the public. Prospective runners interested in either the 42.195 km marathon or the 21.1 km half marathon should check back for updates on when sign-ups will become available."
     },
     {
       "question": "Where is the Halong Bay Heritage Marathon held?",

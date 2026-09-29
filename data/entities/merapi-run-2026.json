@@ -16,7 +16,6 @@
     ],
     "primary_distance_km": 21.1,
     "elevation_gain_m": 493,
-    "registration_status": "Opens 6 May 2026",
     "price_range": "Rp 200.000 - Rp 500.000",
     "venue": "Griya Persada Convention Hotel & Resort, Kaliurang, Yogyakarta",
     "city": "Kaliurang, Yogyakarta",
@@ -28,8 +27,7 @@
     "Affordable registration pricing from Rp 200.000 to Rp 500.000"
   ],
   "cons": [
-    "The 21.1km course includes 493m of elevation gain, which may be demanding for some runners",
-    "Registration does not open until 6 May 2026, requiring advance planning"
+    "The 21.1km course includes 493m of elevation gain, which may be demanding for some runners"
   ],
   "excerpt_quotes": [
     {
@@ -69,10 +67,6 @@
     {
       "question": "What distances are offered at Merapi Run 2026?",
       "answer": "Merapi Run 2026 offers four distance options: 21.1km (half-marathon), 10km, 5km, and 3km. The primary distance is the 21.1km half-marathon, which includes 493m of elevation gain, making it the most challenging option among the four available race distances."
-    },
-    {
-      "question": "When does registration open for Merapi Run 2026?",
-      "answer": "Registration for Merapi Run 2026 opens on 6 May 2026. Interested runners should mark this date to ensure timely sign-up, as prices range from Rp 200.000 to Rp 500.000 depending on the chosen distance among the four options offered."
     }
   ],
   "reliability_score": 91,

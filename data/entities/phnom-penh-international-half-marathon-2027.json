@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "cambodia",
   "short_description": "A half marathon (21.1 km, plus 10 km and 5 km options) set for June 13, 2027 at Botumvatey Pagoda Park in Phnom Penh, Cambodia.",
-  "ai_summary": "The Phnom Penh International Half Marathon is scheduled for June 13, 2027, at Botumvatey Pagoda Park in Phnom Penh, Cambodia. The event offers three distance options: a 21.1 km half marathon, a 10 km race, and a 5 km race, catering to a range of runner abilities. Registration has not yet been announced, so prospective participants should watch for updates. The organizer is not explicitly named but is noted to be the same organizer behind the E19 and E68 events.",
+  "ai_summary": "The Phnom Penh International Half Marathon is scheduled for June 13, 2027, at Botumvatey Pagoda Park in Phnom Penh, Cambodia. The event offers three distance options: a 21.1 km half marathon, a 10 km race, and a 5 km race, catering to a range of runner abilities. The organizer is not explicitly named but is noted to be the same organizer behind the E19 and E68 events.",
   "core_facts": {
     "date": "2027-06-13",
     "distance_km": [
@@ -15,7 +15,6 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "Cambodia Events",
-    "registration_status": "open",
     "venue": "Botumvatey Pagoda Park, Phnom Penh",
     "city": "Phnom Penh",
     "country": "Cambodia"
@@ -43,10 +42,6 @@
     {
       "question": "What distances can participants choose from?",
       "answer": "Participants can select from three distance options: a 21.1 km half marathon, a 10 km race, and a 5 km race. This range allows runners of varying experience and fitness levels to take part in the event at Botumvatey Pagoda Park."
-    },
-    {
-      "question": "Is registration open for this race?",
-      "answer": "As of now, registration for the Phnom Penh International Half Marathon has not yet been announced. Prospective participants interested in joining the 21.1 km, 10 km, or 5 km races should check back later for updates on how to sign up."
     },
     {
       "question": "Who is organizing the Phnom Penh International Half Marathon?",

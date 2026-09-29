@@ -5,7 +5,7 @@
   "category_id": "full-marathon",
   "region_id": "vietnam",
   "short_description": "A multi-distance road race in Hanoi, Vietnam, featuring a full marathon among six distance options, scheduled for October 4, 2026.",
-  "ai_summary": "The Techcombank Hanoi International Marathon returns for its 5th edition on October 4, 2026, in Hanoi, Vietnam. The event offers six distance options, from a full marathon (42.195km) down to a short 1.5km fun run, catering to a wide range of participants. The exact start venue within Hanoi has not yet been specified, and registration has not yet opened.",
+  "ai_summary": "The Techcombank Hanoi International Marathon returns for its 5th edition on October 4, 2026, in Hanoi, Vietnam. The event offers six distance options, from a full marathon (42.195km) down to a short 1.5km fun run, catering to a wide range of participants. The exact start venue within Hanoi has not yet been specified.",
   "core_facts": {
     "date": "2026-10-04",
     "distance_km": [
@@ -17,7 +17,6 @@
       1.5
     ],
     "primary_distance_km": 42.195,
-    "registration_status": "open",
     "venue": "Hanoi (exact start point not stated)",
     "city": "Hanoi",
     "country": "Vietnam"
@@ -57,10 +56,6 @@
     {
       "question": "What distance options are available at this marathon?",
       "answer": "The race offers six distance options to accommodate different runner levels: a full marathon of 42.195km, a half marathon of 21.1km, plus 10km, 5km, 3km, and 1.5km races. The 42.195km full marathon serves as the primary featured distance of the event."
-    },
-    {
-      "question": "Is registration open for the Techcombank Hanoi International Marathon?",
-      "answer": "Registration status for this event has not yet been announced. At this time, there is no confirmed information available regarding when registration will open, associated costs, or how participants can sign up for any of the six available distances."
     },
     {
       "question": "Where exactly does the race start in Hanoi?",

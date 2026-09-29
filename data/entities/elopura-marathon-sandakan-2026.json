@@ -5,7 +5,7 @@
   "category_id": "full-marathon",
   "region_id": "malaysia",
   "short_description": "The Elopura Marathon Sandakan 2026 is a full marathon, half marathon, and 10km race held in Sandakan, Sabah, Malaysia on 22 November 2026.",
-  "ai_summary": "The Elopura Marathon Sandakan 2026 is a road race scheduled for 22 November 2026 in Sandakan, Sabah, Malaysia. Organized by the Persatuan Ortopedik Sandakan, the event offers full marathon, half marathon, and 10km distances. Pricing is set at RM140 for the half marathon and RM170 for the full marathon, per elopuramarathon.com. Registration has not yet been announced.",
+  "ai_summary": "The Elopura Marathon Sandakan 2026 is a road race scheduled for 22 November 2026 in Sandakan, Sabah, Malaysia. Organized by the Persatuan Ortopedik Sandakan, the event offers full marathon, half marathon, and 10km distances. Pricing is set at RM140 for the half marathon and RM170 for the full marathon, per elopuramarathon.com.",
   "core_facts": {
     "date": "2026-11-22",
     "distance_km": [
@@ -15,7 +15,6 @@
     ],
     "primary_distance_km": 42.195,
     "organizer": "Persatuan Ortopedik Sandakan",
-    "registration_status": "not_yet_announced",
     "price_range": "MYR HM RM140 / FM RM170 (per elopuramarathon.com)",
     "venue": "Sandakan, Sabah",
     "city": "Sandakan, Sabah",
@@ -49,10 +48,6 @@
     {
       "question": "How much does it cost to register?",
       "answer": "According to elopuramarathon.com, the half marathon entry is priced at RM140, while the full marathon entry costs RM170. Pricing for the 10km distance is not specified in the available source material, so interested participants may need to check directly with organizers for that detail."
-    },
-    {
-      "question": "Is registration open yet for the Elopura Marathon Sandakan 2026?",
-      "answer": "As of the latest available information, registration for the Elopura Marathon Sandakan 2026 has not yet been announced. Prospective participants will need to watch for updates from the organizer, Persatuan Ortopedik Sandakan, or the official race website for confirmation on when sign-ups will begin."
     }
   ],
   "reliability_score": 100,

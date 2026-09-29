@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "philippines",
   "short_description": "EastWest Dream Run 2026 - Manila is a half-marathon event on August 2, 2026, at Filinvest Alabang in Muntinlupa, Philippines.",
-  "ai_summary": "EastWest Dream Run 2026 - Manila is a half-marathon event scheduled for August 2, 2026, at Filinvest Alabang in Muntinlupa, Philippines. Organized by Runrio under the EastWest Dream Run brand, the event offers multiple distance options including 21.1km, 10km, 5km, 3km, and 1km races. Registration is currently open for participants interested in joining any of these distance categories.",
+  "ai_summary": "EastWest Dream Run 2026 - Manila is a half-marathon event scheduled for August 2, 2026, at Filinvest Alabang in Muntinlupa, Philippines. Organized by Runrio under the EastWest Dream Run brand, the event offers multiple distance options including 21.1km, 10km, 5km, 3km, and 1km races.",
   "core_facts": {
     "date": "2026-08-02",
     "distance_km": [
@@ -17,7 +17,6 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "Runrio (brand: EastWest Dream Run)",
-    "registration_status": "Closed",
     "venue": "Filinvest Alabang",
     "city": "Muntinlupa",
     "country": "Philippines"

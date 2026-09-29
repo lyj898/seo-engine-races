@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "philippines",
   "short_description": "A half-marathon event set for September 20, 2026 in Iloilo City, Philippines, organized by Runrio under the EastWest Dream Run brand.",
-  "ai_summary": "The EastWest Dream Run 2026 - Iloilo is a half-marathon event scheduled for September 20, 2026, in Iloilo City, Philippines. Organized by Runrio under the EastWest Dream Run brand, the race offers multiple distance options including 21.1km, 10km, 5km, 3km, and 1km. Registration details have not yet been announced.",
+  "ai_summary": "The EastWest Dream Run 2026 - Iloilo is a half-marathon event scheduled for September 20, 2026, in Iloilo City, Philippines. Organized by Runrio under the EastWest Dream Run brand, the race offers multiple distance options including 21.1km, 10km, 5km, 3km, and 1km.",
   "core_facts": {
     "date": "2026-09-20",
     "distance_km": [
@@ -17,7 +17,6 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "Runrio (brand: EastWest Dream Run)",
-    "registration_status": "open",
     "venue": "Iloilo City",
     "city": "Iloilo City",
     "country": "Philippines"
@@ -62,10 +61,6 @@
     {
       "question": "Who organizes the EastWest Dream Run 2026 - Iloilo?",
       "answer": "The EastWest Dream Run 2026 - Iloilo is organized by Runrio, operating under the EastWest Dream Run brand name. Runrio is responsible for coordinating the event details, including the race distances, venue, and scheduling for this Iloilo City edition of the run."
-    },
-    {
-      "question": "Is registration open for this race?",
-      "answer": "As of the latest available information, registration for the EastWest Dream Run 2026 - Iloilo has not yet been announced. Prospective participants should watch for updates from the organizer, Runrio, regarding when and how to sign up for this half-marathon event."
     }
   ],
   "reliability_score": 55,

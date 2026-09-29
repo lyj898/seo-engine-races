@@ -4,21 +4,19 @@
   "name": "Batu Kawan 21K 2026",
   "category_id": "half-marathon",
   "region_id": "malaysia",
-  "short_description": "A 21.1 km half-marathon held on September 13, 2026, at Decathlon KLIPPA, Batu Kawan, Penang, Malaysia, with registration currently open.",
-  "ai_summary": "Batu Kawan 21K 2026 is a half-marathon scheduled for September 13, 2026, in Batu Kawan, Penang, Malaysia. The race starts and is based at Decathlon KLIPPA, Batu Kawan, Pulau Pinang, and offers a single distance of 21.1 km. Registration for this event is currently open, giving runners in Malaysia and beyond the chance to sign up for this half-marathon.",
+  "short_description": "A 21.1 km half-marathon held on September 13, 2026, at Decathlon KLIPPA, Batu Kawan, Penang, Malaysia.",
+  "ai_summary": "Batu Kawan 21K 2026 is a half-marathon scheduled for September 13, 2026, in Batu Kawan, Penang, Malaysia. The race starts and is based at Decathlon KLIPPA, Batu Kawan, Pulau Pinang, and offers a single distance of 21.1 km.",
   "core_facts": {
     "date": "2026-09-13",
     "distance_km": [
       21.1
     ],
     "primary_distance_km": 21.1,
-    "registration_status": "Open",
     "venue": "Decathlon KLIPPA, Batu Kawan, Pulau Pinang",
     "city": "Batu Kawan, Penang",
     "country": "Malaysia"
   },
   "pros": [
-    "Registration is currently open, allowing runners to secure their spot ahead of time",
     "Single, clear half-marathon distance of 21.1 km simplifies race preparation",
     "Convenient venue at Decathlon KLIPPA in Batu Kawan, Penang"
   ],
@@ -41,10 +39,6 @@
     {
       "question": "What distance is offered at Batu Kawan 21K 2026?",
       "answer": "Batu Kawan 21K 2026 offers a single race distance of 21.1 km, which is the standard half-marathon distance. This is listed as the primary and only distance for this event, so runners registering should be prepared to cover the full 21.1 km course on race day."
-    },
-    {
-      "question": "Is registration open for Batu Kawan 21K 2026?",
-      "answer": "Yes, registration for Batu Kawan 21K 2026 is currently open. Runners interested in taking part in this half-marathon in Batu Kawan, Penang, Malaysia, can sign up now while spots remain available, ahead of the race date on September 13, 2026."
     },
     {
       "question": "Where is the race venue located?",

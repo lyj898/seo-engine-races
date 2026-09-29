@@ -12,7 +12,6 @@
       21.098
     ],
     "primary_distance_km": 21.1,
-    "registration_status": "not_yet_announced",
     "venue": "Bang Saen Beach",
     "city": "Bangsaen, Chonburi",
     "country": "Thailand"
@@ -48,7 +47,7 @@
     },
     {
       "question": "Can I register for Bangsaen21 now?",
-      "answer": "According to available information, the registration status for Bangsaen21 has not yet been announced. Prospective participants should check back later for updates on when and how registration will open for this half-marathon event in Thailand."
+      "answer": "According to available information. Prospective participants should check back later for updates on when and how registration will open for this half-marathon event in Thailand."
     }
   ],
   "reliability_score": 40,

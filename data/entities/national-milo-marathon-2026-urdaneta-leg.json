@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "philippines",
   "short_description": "A 2026 leg of the National MILO Marathon held in Urdaneta City, Philippines, featuring distances up to a 21.1km half marathon.",
-  "ai_summary": "The National MILO Marathon 2026 – Urdaneta Leg is a running event scheduled for November 8, 2026, in Urdaneta City, Philippines. Organized by RUNRIO Inc. as part of the MILO Marathon series, it offers multiple distance categories including 1km, 3km, 5km, 10km, and a 21.1km half marathon as the primary distance. Registration status for this leg has not yet been confirmed as open.",
+  "ai_summary": "The National MILO Marathon 2026 – Urdaneta Leg is a running event scheduled for November 8, 2026, in Urdaneta City, Philippines. Organized by RUNRIO Inc. as part of the MILO Marathon series, it offers multiple distance categories including 1km, 3km, 5km, 10km, and a 21.1km half marathon as the primary distance.",
   "core_facts": {
     "date": "2026-11-08",
     "distance_km": [
@@ -17,7 +17,6 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "RUNRIO Inc. (MILO Marathon)",
-    "registration_status": "Not yet confirmed open",
     "venue": "Urdaneta City",
     "city": "Urdaneta City",
     "country": "Philippines"
@@ -27,9 +26,7 @@
     "Organized by RUNRIO Inc., the established organizer behind the MILO Marathon series",
     "Half marathon (21.1km) offered as the primary distance for more serious runners"
   ],
-  "cons": [
-    "Registration status is not yet confirmed as open, so details may not be finalized"
-  ],
+  "cons": [],
   "excerpt_quotes": [],
   "research_highlights": [],
   "research_watchouts": [],
@@ -41,10 +38,6 @@
     {
       "question": "What distances are offered at this race?",
       "answer": "The Urdaneta Leg offers several distance categories: 1km, 3km, 5km, 10km, and 21.1km. The 21.1km half marathon is listed as the primary distance for this event, giving runners of different experience levels an option to participate."
-    },
-    {
-      "question": "Is registration currently open for this race?",
-      "answer": "As of now, the registration status for the National MILO Marathon 2026 – Urdaneta Leg has not yet been confirmed as open. Prospective participants should check back for updates on when registration will officially begin for this event."
     },
     {
       "question": "Who organizes the National MILO Marathon 2026 – Urdaneta Leg?",

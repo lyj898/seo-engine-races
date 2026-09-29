@@ -4,7 +4,7 @@
   "name": "Standard Chartered Hanoi Marathon Heritage Race",
   "category_id": "full-marathon",
   "region_id": "vietnam",
-  "short_description": "A full marathon and multi-distance race through Hanoi's Old Quarter, held November 8, 2026, with open registration.",
+  "short_description": "A full marathon and multi-distance race through Hanoi's Old Quarter, held November 8, 2026.",
   "ai_summary": "The Standard Chartered Hanoi Marathon Heritage Race is a full-marathon event scheduled for November 8, 2026, in Hanoi, Vietnam. Organized by DHA Vietnam with Standard Chartered as title sponsor, the race takes runners through a loop course in the Hanoi Old Quarter. Registration is currently open, with multiple distance options ranging from 2.1km to the full 42.195km marathon, and entry priced at VND 278,000.",
   "core_facts": {
     "date": "2026-11-08",
@@ -17,7 +17,6 @@
     ],
     "primary_distance_km": 42.195,
     "organizer": "DHA Vietnam (title sponsor: Standard Chartered)",
-    "registration_status": "Open",
     "price_range": "VND 278000",
     "venue": "Hanoi Old Quarter loop course",
     "city": "Hanoi",
@@ -47,7 +46,7 @@
     },
     {
       "question": "How much does it cost to register?",
-      "answer": "Registration for the Standard Chartered Hanoi Marathon Heritage Race is priced at VND 278,000. This price point applies to the event as listed, and registration is currently open for interested participants ahead of the November 8, 2026 race date in Hanoi."
+      "answer": "Registration for the Standard Chartered Hanoi Marathon Heritage Race is priced at VND 278,000. This price point applies to the event as listed."
     },
     {
       "question": "Where does the race take place?",

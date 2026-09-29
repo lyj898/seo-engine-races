@@ -5,7 +5,7 @@
   "category_id": "full-marathon",
   "region_id": "philippines",
   "short_description": "A full marathon and multi-distance race set for September 6, 2026, in Siquijor, Philippines, organized by SMOKE10 Events.",
-  "ai_summary": "The Isla Del Fuego Marathon 2026 is a full marathon scheduled for September 6, 2026, in Siquijor, Philippines. Organized by SMOKE10 Events, the race takes place along Siquijor Blvd and offers multiple distance options: 42.195km, 21.1km, 10km, and 5km. Registration details have not yet been announced.",
+  "ai_summary": "The Isla Del Fuego Marathon 2026 is a full marathon scheduled for September 6, 2026, in Siquijor, Philippines. Organized by SMOKE10 Events, the race takes place along Siquijor Blvd and offers multiple distance options: 42.195km, 21.1km, 10km, and 5km.",
   "core_facts": {
     "date": "2026-09-06",
     "distance_km": [
@@ -16,7 +16,6 @@
     ],
     "primary_distance_km": 42.195,
     "organizer": "SMOKE10 Events",
-    "registration_status": "not_yet_announced",
     "venue": "Siquijor Blvd, Siquijor",
     "city": "Siquijor",
     "country": "Philippines"
@@ -26,9 +25,7 @@
     "Scenic race location along Siquijor Blvd in Siquijor, Philippines",
     "Organized by an established events company, SMOKE10 Events"
   ],
-  "cons": [
-    "Registration status has not yet been announced, so sign-up details are unavailable"
-  ],
+  "cons": [],
   "excerpt_quotes": [
     {
       "quote": "It was my first official race, my longest run ever—and the most proud I had ever been of my body.",
@@ -61,7 +58,7 @@
     },
     {
       "question": "Can I register for the Isla Del Fuego Marathon 2026 now?",
-      "answer": "As of now, the registration status for the Isla Del Fuego Marathon 2026 has not yet been announced. Prospective participants will need to wait for further details from the organizer, SMOKE10 Events, regarding when and how registration will open for this race."
+      "answer": "Prospective participants will need to wait for further details from the organizer, SMOKE10 Events, regarding when and how registration will open for this race."
     },
     {
       "question": "Where is the race held?",

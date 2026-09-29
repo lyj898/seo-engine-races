@@ -5,7 +5,7 @@
   "category_id": "10k",
   "region_id": "malaysia",
   "short_description": "The Terengganu Half Marathon 2026 Powered by JomRun® is a 21.1km, 10km, and 5km race held on October 31, 2026, in Kuala Terengganu, Malaysia.",
-  "ai_summary": "The Terengganu Half Marathon 2026 Powered by JomRun® is scheduled for October 31, 2026, in Kuala Terengganu, Malaysia, starting at the Drawbridge venue. Organized by JomRun, the event offers three distance options: 21.1km, 10km, and 5km, catering to a range of runners from casual participants to half marathon enthusiasts. Registration for the race is currently open, allowing interested runners to secure their spot ahead of the event date.",
+  "ai_summary": "The Terengganu Half Marathon 2026 Powered by JomRun® is scheduled for October 31, 2026, in Kuala Terengganu, Malaysia, starting at the Drawbridge venue. Organized by JomRun, the event offers three distance options: 21.1km, 10km, and 5km, catering to a range of runners from casual participants to half marathon enthusiasts.",
   "core_facts": {
     "date": "2026-10-31",
     "distance_km": [
@@ -15,14 +15,12 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "JomRun",
-    "registration_status": "Open",
     "venue": "Drawbridge, Kuala Terengganu",
     "city": "Kuala Terengganu",
     "country": "Malaysia"
   },
   "pros": [
     "Multiple distance options (21.1km, 10km, 5km) to suit different runner levels",
-    "Registration is currently open",
     "Organized by JomRun, a named event organizer",
     "Located at a specific, identifiable venue: Drawbridge, Kuala Terengganu"
   ],
@@ -59,10 +57,6 @@
     {
       "question": "What distances can I run in this event?",
       "answer": "Participants can choose from three distance categories at this event: a 21.1km half marathon, a 10km race, and a 5km race. This range of options allows runners of different experience levels and fitness goals to take part in the same event."
-    },
-    {
-      "question": "Is registration currently available for this race?",
-      "answer": "Yes, registration for the Terengganu Half Marathon 2026 Powered by JomRun® is currently open. Interested runners can sign up now to secure their place in one of the three available distance categories before the event takes place on October 31, 2026."
     },
     {
       "question": "Where is the race located?",

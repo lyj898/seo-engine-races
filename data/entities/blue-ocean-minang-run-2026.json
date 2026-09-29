@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "indonesia",
   "short_description": "Blue Ocean Minang Run 2026 is a half-marathon held on August 9, 2026 in Kota Padang, Sumatera Barat, Indonesia, now Sold Out.",
-  "ai_summary": "Blue Ocean Minang Run 2026 is a half-marathon event scheduled for August 9, 2026, in Kota Padang, Sumatera Barat, Indonesia. The race offers three distance options: 21.1km, 10km, and 5km, allowing participants of varying experience levels to take part. Registration for this event is currently marked as Sold Out.",
+  "ai_summary": "Blue Ocean Minang Run 2026 is a half-marathon event scheduled for August 9, 2026, in Kota Padang, Sumatera Barat, Indonesia. The race offers three distance options: 21.1km, 10km, and 5km, allowing participants of varying experience levels to take part.",
   "core_facts": {
     "date": "2026-08-09",
     "distance_km": [
@@ -16,7 +16,6 @@
       1
     ],
     "primary_distance_km": 21.1,
-    "registration_status": "Sold Out",
     "venue": "Kota Padang, Sumatera Barat",
     "city": "Padang, Sumatera Barat",
     "country": "Indonesia"
@@ -26,9 +25,7 @@
     "Held in Kota Padang, Sumatera Barat, Indonesia, a specific and verified venue",
     "Verified race listing"
   ],
-  "cons": [
-    "Registration status is Sold Out, meaning new participants cannot currently sign up"
-  ],
+  "cons": [],
   "excerpt_quotes": [],
   "research_highlights": [
     "The 2026 edition runs Sunday, 9 August 2026, starting 05:00 WIB, based along Pantai Padang (Danau Cimpago area), with distance categories of 1K, 2K, 5K, 10K and 21K.",
@@ -48,10 +45,6 @@
     {
       "question": "What distances are offered at the Blue Ocean Minang Run 2026?",
       "answer": "The Blue Ocean Minang Run 2026 offers three distance categories for participants to choose from: a 21.1km half-marathon, a 10km race, and a 5km race. This range of options allows runners of different fitness levels and experience to find a suitable distance."
-    },
-    {
-      "question": "Can I still register for the Blue Ocean Minang Run 2026?",
-      "answer": "No, registration for the Blue Ocean Minang Run 2026 is currently listed as Sold Out. This means that all available spots for the event have already been filled, and prospective participants are unable to sign up at this time through standard registration."
     },
     {
       "question": "Where is the Blue Ocean Minang Run 2026 held?",

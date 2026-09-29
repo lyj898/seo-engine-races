@@ -15,7 +15,6 @@
       42.195
     ],
     "primary_distance_km": 42.195,
-    "registration_status": "open",
     "price_range": "VND 440,000 - 1,550,000",
     "venue": "Nha Trang, Khanh Hoa",
     "city": "Nha Trang",
@@ -97,10 +96,6 @@
   "research_confidence": "medium",
   "research_last_updated": "2026-08-03",
   "faqs": [
-    {
-      "question": "When is the VnExpress Marathon Nha Trang, and when does registration close?",
-      "answer": "The race is confirmed for 9 August 2026 in Nha Trang, Khanh Hoa. Registration is open now at 440,000 VND per the official site, with a stated deadline of 30 July 2026 -- check the organizer's page directly if you're reading this after that date, since deadlines can be extended or entries can sell out."
-    },
     {
       "question": "Who organizes the VnExpress Marathon Nha Trang?",
       "answer": "The race is organized by VnExpress, a major Vietnamese news outlet, together with FPT Online, and the details are stated on the official event website. A media-backed organizer gives the event stronger operational footing than many independently-run races, which in practice tends to mean clearer entry information and a route that is confirmed well ahead of race day."

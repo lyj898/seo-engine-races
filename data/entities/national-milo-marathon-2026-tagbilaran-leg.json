@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "philippines",
   "short_description": "A half-marathon-anchored race in Tagbilaran City, Philippines, set for September 13, 2026, organized by RUNRIO Inc.",
-  "ai_summary": "The National MILO Marathon 2026 – Tagbilaran Leg is scheduled for September 13, 2026, in Tagbilaran City, Philippines. Organized by RUNRIO Inc., the event offers multiple distances including 1km, 3km, 5km, 10km, and a half marathon (21.1km) as the primary distance. Registration status has not yet been confirmed as open.",
+  "ai_summary": "The National MILO Marathon 2026 – Tagbilaran Leg is scheduled for September 13, 2026, in Tagbilaran City, Philippines. Organized by RUNRIO Inc., the event offers multiple distances including 1km, 3km, 5km, 10km, and a half marathon (21.1km) as the primary distance.",
   "core_facts": {
     "date": "2026-09-13",
     "distance_km": [
@@ -17,7 +17,6 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "RUNRIO Inc. (MILO Marathon)",
-    "registration_status": "Not yet confirmed open",
     "venue": "Tagbilaran City",
     "city": "Tagbilaran City",
     "country": "Philippines"
@@ -27,9 +26,7 @@
     "Organized by RUNRIO Inc., known for the MILO Marathon series",
     "Half marathon distance offered as the primary race category"
   ],
-  "cons": [
-    "Registration status is not yet confirmed as open, so details may be limited for now"
-  ],
+  "cons": [],
   "excerpt_quotes": [],
   "research_highlights": [
     "The 2026 Tagbilaran Leg offers 3K, 5K, 10K, and 21K distances, with the event listed for a 6:05 pm timeslot on September 13, 2026.",
@@ -51,7 +48,7 @@
     },
     {
       "question": "Can I register for this race now?",
-      "answer": "Based on available information, the registration status for this race has not yet been confirmed as open. Prospective participants should check back for updates on when registration will become available for the Tagbilaran Leg event."
+      "answer": "Prospective participants should check back for updates on when registration will become available for the Tagbilaran Leg event."
     },
     {
       "question": "Who organizes this race?",

@@ -13,7 +13,6 @@
       10
     ],
     "primary_distance_km": 21.1,
-    "registration_status": "Open",
     "price_range": "IDR From 450,000",
     "venue": "Plaza Parkir Timur GBK, Senayan",
     "city": "Senayan, Jakarta",
@@ -47,7 +46,7 @@
   "faqs": [
     {
       "question": "When is the Amartha 10X Run taking place?",
-      "answer": "The Amartha 10X Run is scheduled to take place on September 6, 2026. This date has been confirmed for the event, which will be held at Plaza Parkir Timur GBK in Senayan, Jakarta, Indonesia. Registration for the race is currently open for interested participants."
+      "answer": "The Amartha 10X Run is scheduled to take place on September 6, 2026. This date has been confirmed for the event, which will be held at Plaza Parkir Timur GBK in Senayan, Jakarta, Indonesia."
     },
     {
       "question": "Where is the Amartha 10X Run held?",
@@ -59,7 +58,7 @@
     },
     {
       "question": "How much does registration cost for the Amartha 10X Run?",
-      "answer": "Registration prices for the Amartha 10X Run start from IDR 450,000. This is listed as the starting price point, though exact pricing may vary depending on the distance selected or registration category. Registration for the event is currently open."
+      "answer": "Registration prices for the Amartha 10X Run start from IDR 450,000. This is listed as the starting price point, though exact pricing may vary depending on the distance selected or registration category."
     }
   ],
   "reliability_score": 100,

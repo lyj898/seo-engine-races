@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "thailand",
   "short_description": "A half-marathon and multi-distance running event held at Paknam Pran Beach Park in Pranburi, Thailand on February 15, 2026.",
-  "ai_summary": "The Scenic Half Marathon Pranburi is scheduled for February 15, 2026, at Paknam Pran Beach Park in Pranburi, Prachuap Khiri Khan, Thailand. Organized by the Scenic Marathon Series, the event offers four distance options: 21.1km, 10km, 5km, and 3km, catering to a range of runners from casual participants to half-marathon competitors. Registration details have not yet been announced.",
+  "ai_summary": "The Scenic Half Marathon Pranburi is scheduled for February 15, 2026, at Paknam Pran Beach Park in Pranburi, Prachuap Khiri Khan, Thailand. Organized by the Scenic Marathon Series, the event offers four distance options: 21.1km, 10km, 5km, and 3km, catering to a range of runners from casual participants to half-marathon competitors.",
   "core_facts": {
     "date": "2026-02-15",
     "distance_km": [
@@ -16,7 +16,6 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "Scenic Marathon Series",
-    "registration_status": "not_yet_announced",
     "venue": "Paknam Pran Beach Park, Pranburi",
     "city": "Prachuap Khiri Khan",
     "country": "Thailand"
@@ -26,9 +25,7 @@
     "Scenic beach park venue in Pranburi",
     "Organized by an established event series, the Scenic Marathon Series"
   ],
-  "cons": [
-    "Registration status has not yet been announced, so sign-up details are unavailable"
-  ],
+  "cons": [],
   "excerpt_quotes": [],
   "faqs": [
     {
@@ -42,10 +39,6 @@
     {
       "question": "Where is the race held?",
       "answer": "The race is held at Paknam Pran Beach Park, located in Pranburi, within Prachuap Khiri Khan province, Thailand. This coastal venue serves as the setting for all distance categories offered by the Scenic Marathon Series at this event."
-    },
-    {
-      "question": "Is registration open for this race?",
-      "answer": "As of now, registration status for the Scenic Half Marathon Pranburi has not yet been announced. Prospective participants should check back for updates from the Scenic Marathon Series regarding when sign-ups will become available for this event."
     }
   ],
   "reliability_score": 40,

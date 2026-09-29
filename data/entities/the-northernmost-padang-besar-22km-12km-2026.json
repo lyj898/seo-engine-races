@@ -4,8 +4,8 @@
   "name": "The Northernmost Padang Besar 22KM & 12KM 2026",
   "category_id": "half-marathon",
   "region_id": "malaysia",
-  "short_description": "A half-marathon and 12KM race held in Padang Besar, Perlis, Malaysia on 8 August 2026, with registration currently closed.",
-  "ai_summary": "The Northernmost Padang Besar 22KM & 12KM 2026 is a half-marathon-distance race set to take place on 8 August 2026 in Padang Besar, Perlis, Malaysia. The event offers two distance options, 21.1KM and 12KM, giving participants a choice based on their fitness level. Registration for this race is currently closed, so new sign-ups are not being accepted at this time.",
+  "short_description": "A half-marathon and 12KM race held in Padang Besar, Perlis, Malaysia on 8 August 2026.",
+  "ai_summary": "The Northernmost Padang Besar 22KM & 12KM 2026 is a half-marathon-distance race set to take place on 8 August 2026 in Padang Besar, Perlis, Malaysia. The event offers two distance options, 21.1KM and 12KM, giving participants a choice based on their fitness level.",
   "core_facts": {
     "date": "2026-08-08",
     "distance_km": [
@@ -13,7 +13,6 @@
       12
     ],
     "primary_distance_km": 21.1,
-    "registration_status": "Closed",
     "venue": "Padang Besar, Perlis",
     "city": "Padang Besar, Perlis",
     "country": "Malaysia"
@@ -50,10 +49,6 @@
     {
       "question": "What distances are offered at this race?",
       "answer": "Participants can choose between two distances: a 21.1KM half-marathon and a 12KM race. This gives runners of different experience levels and fitness goals the flexibility to select the option that best suits their training and racing ambitions."
-    },
-    {
-      "question": "Can I still register for this race?",
-      "answer": "No, registration for the Northernmost Padang Besar 22KM & 12KM 2026 is currently listed as closed. Prospective participants are unable to sign up for either the 21.1KM or 12KM distance at this time based on the available information."
     },
     {
       "question": "Where is the race held?",

@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "philippines",
   "short_description": "A half marathon series race set for August 23, 2026 at Filinvest Mimosa, Clark, Philippines, with 21.1km, 10km, and 5km distance options.",
-  "ai_summary": "The PUMA Philippine Half Marathon Series 2026 - Clark is a road race scheduled for August 23, 2026, at Filinvest Mimosa in Clark, Philippines. Organized by Runrio under the PUMA Philippine Half Marathon Series brand, the event offers three distance options: 21.1km, 10km, and 5km, with the half marathon serving as the primary distance. Registration is currently open for runners interested in participating.",
+  "ai_summary": "The PUMA Philippine Half Marathon Series 2026 - Clark is a road race scheduled for August 23, 2026, at Filinvest Mimosa in Clark, Philippines. Organized by Runrio under the PUMA Philippine Half Marathon Series brand, the event offers three distance options: 21.1km, 10km, and 5km, with the half marathon serving as the primary distance.",
   "core_facts": {
     "date": "2026-08-23",
     "distance_km": [
@@ -15,7 +15,6 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "Runrio (brand: PUMA Philippine Half Marathon Series)",
-    "registration_status": "open",
     "venue": "Filinvest Mimosa, Clark",
     "city": "Clark",
     "country": "Philippines"
@@ -58,10 +57,6 @@
     {
       "question": "What distances can I run in this race?",
       "answer": "Runners can choose from three distance options at this event: a 21.1km half marathon, which is the primary distance, a 10km race, and a 5km race, allowing participants of varying experience and fitness levels to take part."
-    },
-    {
-      "question": "Is registration still open for this event?",
-      "answer": "Yes, registration for the PUMA Philippine Half Marathon Series 2026 - Clark is currently open. Interested runners can sign up now to secure their spot in the 21.1km, 10km, or 5km race categories ahead of the August 2026 event."
     },
     {
       "question": "Who organizes this race?",

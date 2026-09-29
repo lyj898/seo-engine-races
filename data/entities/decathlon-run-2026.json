@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "philippines",
   "short_description": "Decathlon Run 2026 is a half-marathon event on August 30, 2026, at SM Mall of Asia, Pasay, Philippines.",
-  "ai_summary": "Decathlon Run 2026 is a half-marathon event scheduled for August 30, 2026, at SM Mall of Asia in Pasay, Philippines. Organized by Runrio under the Decathlon Run brand, the event offers three distance options: 21.1km, 10km, and 5km, with the half-marathon serving as the primary distance. Registration details have not yet been announced.",
+  "ai_summary": "Decathlon Run 2026 is a half-marathon event scheduled for August 30, 2026, at SM Mall of Asia in Pasay, Philippines. Organized by Runrio under the Decathlon Run brand, the event offers three distance options: 21.1km, 10km, and 5km, with the half-marathon serving as the primary distance.",
   "core_facts": {
     "date": "2026-08-30",
     "distance_km": [
@@ -15,7 +15,6 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "Runrio (brand: Decathlon Run)",
-    "registration_status": "open",
     "venue": "SM Mall of Asia, Pasay",
     "city": "Pasay",
     "country": "Philippines"
@@ -26,7 +25,6 @@
     "Organized by Runrio, an established name behind the Decathlon Run brand"
   ],
   "cons": [
-    "Registration status is not yet announced, so sign-up details are unavailable",
     "No pricing or race-day logistics information currently provided"
   ],
   "excerpt_quotes": [],
@@ -57,10 +55,6 @@
     {
       "question": "When is Decathlon Run 2026 scheduled?",
       "answer": "Decathlon Run 2026 is scheduled to take place on August 30, 2026. This date marks the event day when runners across the 21.1km, 10km, and 5km distance categories will gather at SM Mall of Asia in Pasay, Philippines, to participate."
-    },
-    {
-      "question": "Is registration open for Decathlon Run 2026?",
-      "answer": "As of now, the registration status for Decathlon Run 2026 has not yet been announced by the organizer, Runrio. Prospective participants interested in joining the half-marathon, 10km, or 5km races should watch for further updates regarding sign-up details and availability closer to the event date."
     }
   ],
   "reliability_score": 85,

@@ -4,8 +4,8 @@
   "name": "Photak Marathon (6th ed.)",
   "category_id": "full-marathon",
   "region_id": "thailand",
-  "short_description": "The Photak Marathon is a verified full-marathon event held in Pho Tak, Nong Khai, Thailand on December 13, 2026, with registration currently open.",
-  "ai_summary": "The Photak Marathon is the 6th edition of this full-marathon event, scheduled for December 13, 2026 in Pho Tak, Nong Khai, Thailand. Runners can choose from four distances: a full marathon (42.195km), half marathon (21.1km), 10km, and 5km, making it accessible to a range of ability levels. Registration is currently open for prospective participants. As a verified listing, the event details have been confirmed for accuracy.",
+  "short_description": "The Photak Marathon is a verified full-marathon event held in Pho Tak, Nong Khai, Thailand on December 13, 2026.",
+  "ai_summary": "The Photak Marathon is the 6th edition of this full-marathon event, scheduled for December 13, 2026 in Pho Tak, Nong Khai, Thailand. Runners can choose from four distances: a full marathon (42.195km), half marathon (21.1km), 10km, and 5km, making it accessible to a range of ability levels. As a verified listing, the event details have been confirmed for accuracy.",
   "core_facts": {
     "date": "2026-12-13",
     "distance_km": [
@@ -15,7 +15,6 @@
       5
     ],
     "primary_distance_km": 42.195,
-    "registration_status": "open",
     "registration_deadline": "2026-08-05",
     "price_range": "350–1,000 THB",
     "venue": "Pho Tak, Nong Khai",
@@ -24,7 +23,6 @@
   },
   "pros": [
     "Offers four distance options (42.195km, 21.1km, 10km, 5km) to suit different runner levels",
-    "Registration is currently open, giving prospective participants time to plan",
     "This is the 6th edition, suggesting an established event history",
     "Listing is verified for accuracy"
   ],
@@ -40,10 +38,6 @@
     {
       "question": "What distances are offered at the Photak Marathon?",
       "answer": "The Photak Marathon offers four distance options for participants: a full marathon of 42.195km, a half marathon of 21.1km, a 10km race, and a shorter 5km race. The full marathon serves as the primary distance for this event, catering to a range of runner abilities and goals."
-    },
-    {
-      "question": "Is registration open for the Photak Marathon?",
-      "answer": "Yes, registration for the Photak Marathon is currently open. This applies to the 6th edition of the event, scheduled for December 13, 2026 in Nong Khai, Thailand. Interested runners across the full marathon, half marathon, 10km, and 5km distances can sign up ahead of race day."
     },
     {
       "question": "Where does the Photak Marathon take place?",

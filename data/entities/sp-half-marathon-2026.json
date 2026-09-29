@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "malaysia",
   "short_description": "A 21.1km half-marathon held on September 26, 2026, at Dataran Sungai Petani, Kedah, Malaysia.",
-  "ai_summary": "The SP Half Marathon 2026 is a half-marathon race scheduled for September 26, 2026, in Sungai Petani, Kedah, Malaysia. The race covers a distance of 21.1 kilometers and is organized by Generasi Athletic Club at Dataran Sungai Petani. Registration for this event is currently open, allowing runners to sign up for the single half-marathon distance offered.",
+  "ai_summary": "The SP Half Marathon 2026 is a half-marathon race scheduled for September 26, 2026, in Sungai Petani, Kedah, Malaysia. The race covers a distance of 21.1 kilometers and is organized by Generasi Athletic Club at Dataran Sungai Petani.",
   "core_facts": {
     "date": "2026-09-26",
     "distance_km": [
@@ -13,13 +13,11 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "Generasi Athletic Club",
-    "registration_status": "Open",
     "venue": "Dataran Sungai Petani, Kedah",
     "city": "Sungai Petani, Kedah",
     "country": "Malaysia"
   },
   "pros": [
-    "Registration is currently open, giving runners time to plan and sign up",
     "Held at a defined venue, Dataran Sungai Petani, Kedah, making logistics clear",
     "Organized by an established running body, Generasi Athletic Club"
   ],
@@ -40,7 +38,7 @@
   "faqs": [
     {
       "question": "When is the SP Half Marathon 2026 taking place?",
-      "answer": "The SP Half Marathon 2026 is scheduled to take place on September 26, 2026. The event will be held in Sungai Petani, Kedah, Malaysia, at the Dataran Sungai Petani venue, and registration for participants is currently open ahead of race day."
+      "answer": "The SP Half Marathon 2026 is scheduled to take place on September 26, 2026. The event will be held in Sungai Petani, Kedah, Malaysia, at the Dataran Sungai Petani venue."
     },
     {
       "question": "What distance is offered at this race?",
@@ -52,7 +50,7 @@
     },
     {
       "question": "Who organizes the SP Half Marathon 2026?",
-      "answer": "The SP Half Marathon 2026 is organized by Generasi Athletic Club. The event takes place on September 26, 2026, at Dataran Sungai Petani in Sungai Petani, Kedah, Malaysia, and features a 21.1 kilometer half-marathon distance with registration currently open."
+      "answer": "The SP Half Marathon 2026 is organized by Generasi Athletic Club. The event takes place on September 26, 2026, at Dataran Sungai Petani in Sungai Petani, Kedah, Malaysia, and features a 21.1 kilometer half-marathon distance."
     }
   ],
   "reliability_score": 0,

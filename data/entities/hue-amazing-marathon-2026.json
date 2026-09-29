@@ -5,7 +5,7 @@
   "category_id": "full-marathon",
   "region_id": "vietnam",
   "short_description": "The Huế Amazing Marathon 2026 is a full marathon event in Huế, Vietnam on 30 August 2026, with 21.1km, 10km, and 5km options also available.",
-  "ai_summary": "The Huế Amazing Marathon 2026 is a road running event taking place in Huế, Vietnam, over race weekend 29-30 August 2026, with the main marathon day on 30 August. Organized by BOLT EVENT as part of the 'Amazing Marathon Vietnam Series,' it offers four distances: 42.195km, 21.1km, 10km, and 5km. Registration is currently open, with promotional pricing available from 13-19 July.",
+  "ai_summary": "The Huế Amazing Marathon 2026 is a road running event taking place in Huế, Vietnam, over race weekend 29-30 August 2026, with the main marathon day on 30 August. Organized by BOLT EVENT as part of the 'Amazing Marathon Vietnam Series,' it offers four distances: 42.195km, 21.1km, 10km, and 5km.",
   "core_facts": {
     "date": "2026-08-30",
     "distance_km": [
@@ -16,7 +16,6 @@
     ],
     "primary_distance_km": 42.195,
     "organizer": "BOLT EVENT ('Amazing Marathon Vietnam Series')",
-    "registration_status": "Open",
     "price_range": "VND 42K 559,000 / 21K 489,000 / 5-10K 379,000 (13-19 Jul promo)",
     "venue": "Huế (race weekend 29-30 Aug)",
     "city": "Huế",

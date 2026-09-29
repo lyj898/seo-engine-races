@@ -5,7 +5,7 @@
   "category_id": "full-marathon",
   "region_id": "philippines",
   "short_description": "The AIA Rock 'n' Roll Running Series Manila 2026 is a night marathon held on November 29, 2026, in Manila, Philippines, offering full marathon, half marathon, 10K, and 5K distances.",
-  "ai_summary": "The AIA Rock 'n' Roll Running Series Manila 2026 is a night marathon event taking place on November 29, 2026, in Manila, Philippines. Organized by Sunrise Events (IRONMAN Group) with AIA Philippines as title sponsor, it offers full marathon, half marathon, 10K, and 5K distances. The course runs through Luneta/Rizal Park, passing the National Museum, Fort Santiago, Binondo, and Manila Bay. Registration is currently open.",
+  "ai_summary": "The AIA Rock 'n' Roll Running Series Manila 2026 is a night marathon event taking place on November 29, 2026, in Manila, Philippines. Organized by Sunrise Events (IRONMAN Group) with AIA Philippines as title sponsor, it offers full marathon, half marathon, 10K, and 5K distances. The course runs through Luneta/Rizal Park, passing the National Museum, Fort Santiago, Binondo, and Manila Bay.",
   "core_facts": {
     "date": "2026-11-29",
     "distance_km": [
@@ -16,7 +16,6 @@
     ],
     "primary_distance_km": 42.195,
     "organizer": "Sunrise Events (IRONMAN Group); title sponsor AIA Philippines",
-    "registration_status": "Open",
     "venue": "Luneta / Rizal Park (night run; course past National Museum, Fort Santiago, Binondo, Manila Bay)",
     "city": "Manila",
     "country": "Philippines"
@@ -24,8 +23,7 @@
   "pros": [
     "Multiple distance options (5K, 10K, half marathon, full marathon) suit a range of runners",
     "Scenic night-run course passing historic Manila landmarks like Fort Santiago and the National Museum",
-    "Organized by Sunrise Events (IRONMAN Group), an established race organizer",
-    "Registration is currently open"
+    "Organized by Sunrise Events (IRONMAN Group), an established race organizer"
   ],
   "cons": [],
   "excerpt_quotes": [],
@@ -34,7 +32,7 @@
   "faqs": [
     {
       "question": "When is the AIA Rock 'n' Roll Running Series Manila 2026?",
-      "answer": "The event is scheduled for November 29, 2026. It takes place in Manila, Philippines, and is run as a night race starting from Luneta/Rizal Park. Registration for the event is currently open, so interested runners can sign up ahead of race day."
+      "answer": "The event is scheduled for November 29, 2026. It takes place in Manila, Philippines, and is run as a night race starting from Luneta/Rizal Park."
     },
     {
       "question": "What distances are offered at this race?",

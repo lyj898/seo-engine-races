@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "philippines",
   "short_description": "A half-marathon event in Ermita, Manila, Philippines, offering 21.1km, 10km, and 5km distances on September 20, 2026.",
-  "ai_summary": "Takbo Para sa Kalikasan 2026 is a half-marathon event scheduled for September 20, 2026, in Ermita, Manila, Philippines. Organized by Green Media Events, the race offers three distance options: 21.1km, 10km, and 5km, allowing participants of varying fitness levels to take part. Registration details have not yet been announced for this race.",
+  "ai_summary": "Takbo Para sa Kalikasan 2026 is a half-marathon event scheduled for September 20, 2026, in Ermita, Manila, Philippines. Organized by Green Media Events, the race offers three distance options: 21.1km, 10km, and 5km, allowing participants of varying fitness levels to take part.",
   "core_facts": {
     "date": "2026-09-20",
     "distance_km": [
@@ -15,7 +15,6 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "Green Media Events",
-    "registration_status": "not_yet_announced",
     "venue": "Ermita, Manila",
     "city": "Manila",
     "country": "Philippines"
@@ -25,9 +24,7 @@
     "Convenient Manila location in Ermita",
     "Organized by an established events organizer, Green Media Events"
   ],
-  "cons": [
-    "Registration status has not yet been announced, so sign-up details are unavailable"
-  ],
+  "cons": [],
   "excerpt_quotes": [],
   "research_highlights": [
     "The Air Run leg of Takbo Para sa Kalikasan is the 3rd of a four-part 'element series' (Fire, Water, Air, Earth) organized by Green Media Events, with past Air Run editions held at the SM Mall of Asia Concert Grounds in Pasay offering 5K, 10K, and 21K distance options.",
@@ -50,7 +47,7 @@
     },
     {
       "question": "How do I register for this race?",
-      "answer": "As of now, the registration status for Takbo Para sa Kalikasan 2026 has not yet been announced. Prospective participants will need to wait for further updates from the organizer, Green Media Events, regarding when and how registration will open for this race."
+      "answer": "Prospective participants will need to wait for further updates from the organizer, Green Media Events, regarding when and how registration will open for this race."
     },
     {
       "question": "Who organizes Takbo Para sa Kalikasan 2026?",

@@ -4,8 +4,8 @@
   "name": "Alor Setar Marathon 2026",
   "category_id": "full-marathon",
   "region_id": "malaysia",
-  "short_description": "A full marathon (42.195 km) and half marathon (21.1 km) held on August 14, 2026 in Alor Setar, Kedah, Malaysia; registration is closed.",
-  "ai_summary": "The Alor Setar Marathon 2026 is a road race scheduled for August 14, 2026, in Alor Setar, Kedah, Malaysia. It offers two distance options: a full marathon of 42.195 km and a half marathon of 21.1 km, with the full marathon as the primary event. Registration for this edition is currently closed, so prospective participants will need to look out for future sign-up opportunities.",
+  "short_description": "A full marathon (42.195 km) and half marathon (21.1 km) held on August 14, 2026 in Alor Setar, Kedah, Malaysia.",
+  "ai_summary": "The Alor Setar Marathon 2026 is a road race scheduled for August 14, 2026, in Alor Setar, Kedah, Malaysia. It offers two distance options: a full marathon of 42.195 km and a half marathon of 21.1 km, with the full marathon as the primary event.",
   "core_facts": {
     "date": "2026-08-14",
     "distance_km": [
@@ -13,7 +13,6 @@
       21.1
     ],
     "primary_distance_km": 42.195,
-    "registration_status": "Closed",
     "venue": "Alor Setar, Kedah",
     "city": "Alor Setar, Kedah",
     "country": "Malaysia"
@@ -23,9 +22,7 @@
     "Takes place in Alor Setar, Kedah, a specific and clearly identified location in Malaysia",
     "Has a confirmed, fixed event date of August 14, 2026"
   ],
-  "cons": [
-    "Registration is already closed, so new participants cannot currently sign up"
-  ],
+  "cons": [],
   "excerpt_quotes": [],
   "research_highlights": [
     "The 2026 edition offers five distance categories: 1km, 5km, 10km, 21km and 42km, starting from Dataran Pekan Rabu in Alor Setar, Kedah.",
@@ -44,10 +41,6 @@
     {
       "question": "What distances are offered at the Alor Setar Marathon 2026?",
       "answer": "The Alor Setar Marathon 2026 offers two distance categories: a full marathon of 42.195 km, which serves as the primary distance for the event, and a half marathon covering 21.1 km, giving runners a choice depending on their preference."
-    },
-    {
-      "question": "Can I still register for the Alor Setar Marathon 2026?",
-      "answer": "No, registration for the Alor Setar Marathon 2026 is currently listed as closed. This means new sign-ups are not being accepted at this time, so anyone interested in participating would need to watch for updates on future registration availability."
     },
     {
       "question": "Where is the Alor Setar Marathon 2026 held?",
