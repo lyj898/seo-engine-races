@@ -19,12 +19,17 @@
     "country": "Malaysia"
   },
   "pros": [
-    "Offers both full marathon (42.195 km) and half marathon (21.1 km) distance options",
-    "Takes place in Bintulu, Sarawak, a specific and identifiable Malaysian location",
-    "Clearly scheduled date of August 2, 2026 allows for advance planning"
+    "Marathon and half-marathon courses certified by World Athletics through AIMS",
+    "Generous seven-hour marathon limit",
+    "Water at almost every 2.5 km on the marathon",
+    "Large, international field: 10,472 entries in 2026",
+    "Crosses the new Tun Taib Mahmud Bridge"
   ],
   "cons": [
-    "Registration status is listed as Closed, meaning new sign-ups are not currently possible"
+    "Hillier than it looks: 235 m of climbing, two climbs to about 55 m before 16 km",
+    "Humid, stormy night: dew point 25°C and thunderstorms reported from 4am in 2026",
+    "1am marathon start",
+    "Race-pack collection ran long on its busiest day in 2026"
   ],
   "sentiment_scores": {
     "overall": 76,

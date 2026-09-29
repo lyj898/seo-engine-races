@@ -18,12 +18,16 @@
     "country": "Cambodia"
   },
   "pros": [
-    "Iconic setting in front of Angkor Wat Temple, a landmark venue in Siem Reap",
-    "Standard full-marathon distance of 42.195 km for a well-established race format",
-    "Long-running event now in its 11th edition, indicating an established history"
+    "Full marathon through the Angkor park, passing Ta Prohm, Pre Rup and the Bayon",
+    "Flat single loop with water every 2 km and electrolyte drinks at about half the stations",
+    "Medical tents, first-aid tuk-tuks and an ambulance following the race",
+    "Small, slow marathon field: in 2025 a 3:36 marathon placed tenth"
   ],
   "cons": [
-    "Registration status is not yet announced, so entry details are currently unavailable"
+    "Saturated air: 25°C, dew point 25°C and 100% humidity at the 4.30am start in 2026",
+    "Marathon limit cut to 6 hours 30 in 2026, from 7 hours",
+    "Runners reported 10 km runners blocking faster runners around the Bayon",
+    "Full 2026 results had not been published by late September"
   ],
   "sentiment_scores": {
     "overall": 68,
@@ -46,23 +50,7 @@
       }
     ]
   },
-  "excerpt_quotes": [
-    {
-      "quote": "This is a small marathon run through Siem Reap and Ankor Wat. The course is flat and easy but the humidity ate me up along with a 4am arrival to start at 4:30 am. The start was really dark for the first few miles..",
-      "attribution": "Runner review on RaceRaves",
-      "source_url": "https://raceraves.com/races/angkor-empire-full-half-marathon/"
-    },
-    {
-      "quote": "Not many spectators but the local kids will break your heart as they are so excited to see the runners and try to run with you for a short distance..",
-      "attribution": "Runner review on RaceRaves",
-      "source_url": "https://raceraves.com/races/angkor-empire-full-half-marathon/"
-    },
-    {
-      "quote": "The scenic route of the Angkor Empire Marathon is proving a big drawcard for serious runners and tourists from far and wide",
-      "attribution": "South China Morning Post feature on Cambodia's Angkor marathons",
-      "source_url": "https://www.scmp.com/postmag/native/topics/marathon-wins-cambodia-tourism/article/3355833/why-cambodias-angkor-marathons-are-big-winner-runners-around-world"
-    }
-  ],
+  "excerpt_quotes": [],
   "research_highlights": [
     "Course is flat and mostly paved, running through Angkor Archaeological Park past nearly 40 ancient temples including Bayon and the South Gate of Angkor Thom",
     "Race starts at 4:30 AM in front of Angkor Wat, so the first stretch of the course is run in darkness",
