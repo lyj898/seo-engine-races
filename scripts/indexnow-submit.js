@@ -11,6 +11,10 @@
  * public/<key>.txt, whose body is the key itself. The key is not a secret;
  * it only has to match that file.
  *
+ * Posts to Bing's endpoint, which shares submissions with the other IndexNow
+ * engines. (api.indexnow.org answered 403 for a freshly published key on
+ * 2026-09-29 while Bing accepted it.)
+ *
  * Usage: npm run build && node scripts/indexnow-submit.js
  * Reads dist/sitemap.xml, so run it after a build of what is live.
  */
@@ -37,7 +41,7 @@ if (urlList.length === 0) {
   process.exit(1);
 }
 
-const res = await fetch('https://api.indexnow.org/indexnow', {
+const res = await fetch('https://www.bing.com/indexnow', {
   method: 'POST',
   headers: { 'Content-Type': 'application/json; charset=utf-8' },
   body: JSON.stringify({ host, key, keyLocation: `https://${host}/${keyFile}`, urlList }),
