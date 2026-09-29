@@ -4,8 +4,8 @@
   "name": "Serpong Warrior Challenge Run 2026",
   "category_id": "half-marathon",
   "region_id": "indonesia",
-  "short_description": "A half-marathon event with 21.1km, 12km, 7km, and 5km options held September 27, 2026, at Summarecon Mall Serpong, Tangerang Selatan, Banten, Indonesia.",
-  "ai_summary": "The Serpong Warrior Challenge Run 2026 is a half-marathon event scheduled for September 27, 2026, at Summarecon Mall Serpong in Tangerang Selatan, Banten, Indonesia. Runners can choose from four distance options: 21.1km, 12km, 7km, and 5km, making the event accessible to a range of runners from beginners to experienced racers.",
+  "short_description": "A half marathon with 12 km and 7 km obstacle runs, a 5 km and a kids' obstacle run, held on 27 September 2026 at Summarecon Mall Serpong, Tangerang Selatan, Banten, Indonesia.",
+  "ai_summary": "The Serpong Warrior Challenge Run 2026 was held on Sunday 27 September 2026 at Summarecon Mall Serpong in Tangerang Selatan, Banten, Indonesia, organised by Menaravisi Events Management. It offered a 21.1 km half marathon (5.15am start, 3 hour 30 minute cut-off), 12 km and 7 km obstacle runs, a 5 km, and a Kids Obstacle Run for ages 4 to 10 on Saturday 26 September. Road races started at Gate 1 of the mall and finished at Uptown Park.",
   "core_facts": {
     "date": "2026-09-27",
     "distance_km": [
@@ -15,7 +15,8 @@
       5
     ],
     "primary_distance_km": 21.1,
-    "venue": "Summarecon Mall Serpong, Tangerang Selatan, Banten",
+    "organizer": "Menaravisi Events Management (MEM)",
+    "venue": "Summarecon Mall Serpong (start Gate 1, finish Uptown Park), Tangerang Selatan, Banten",
     "city": "Tangerang Selatan, Banten",
     "country": "Indonesia"
   },
@@ -45,11 +46,11 @@
     }
   ],
   "research_highlights": [
-    "The event offers multiple distance categories: 5K, 8K Obstacle Run, 10K, Half Marathon (21K), and a Kids Obstacle category, all starting and finishing at Uptown Park, Summarecon Mall Serpong.",
-    "Cut-off times reported for the prior (2025) edition were roughly 1 hour for the 5K, 1h45 for the 10K, 2 hours for the 8K Obstacle Run, and 3h15 for the Half Marathon, with staggered early-morning starts between 05:15 and 06:00 WIB.",
-    "The Half Marathon route is described as World Athletics Certified, aimed at runners chasing a personal best.",
-    "The 8K Obstacle category includes multiple built obstacles such as a monkey bar, balance beams over a mud pool, a rope track, and a winding maze with an artificial rain effect near the finish.",
-    "October in the Jakarta/Serpong area is typically the start of the rainy season, so participants can expect cooler conditions and a chance of light rain rather than extreme heat."
+    "The 2026 edition offered a half marathon, 12K and 7K obstacle runs, a 5K and a Kids Obstacle Run (ages 4-10, Saturday 26 September); the road races started at Gate 1 Summarecon Mall Serpong and finished at Uptown Park, whereas in 2025 both start and finish were at Uptown Park.",
+    "Official 2026 cut-offs were 3 hours 30 minutes for the half marathon, 3 hours for the 12K obstacle run, 2 hours 15 minutes for the 7K and 1 hour 20 minutes for the 5K, with starts from 05:15 to 06:15 WIB; the 2025 half-marathon cut-off was also 3 hours 30 minutes.",
+    "The organiser describes the half-marathon route as World Athletics Certified and aimed at runners chasing a personal best; its map gives 70 m of elevation gain.",
+    "The 12K obstacle course had five obstacle zones, including ones named Warrior Jump, Warrior Labyrinth, Warrior Woods and Warrior Crawl; a 2025 runner described the final labyrinth as winding, with artificial rain overhead.",
+    "At Soekarno-Hatta airport, about 13 km north, it was 25°C with 94% humidity and haze at 5am on race morning, rising to 28°C by 8am."
   ],
   "research_watchouts": [
     "No refunds are given except where legally required, and event dates, times, or locations can be changed by the organizer at any time.",
@@ -61,15 +62,15 @@
   "faqs": [
     {
       "question": "When is the Serpong Warrior Challenge Run 2026?",
-      "answer": "The Serpong Warrior Challenge Run 2026 is scheduled to take place on September 27, 2026. The event will be held at Summarecon Mall Serpong in Tangerang Selatan, Banten, Indonesia, offering runners a chance to plan ahead for this half-marathon and its accompanying shorter distance categories."
+      "answer": "The Serpong Warrior Challenge Run 2026 was held on Sunday 27 September 2026 at Summarecon Mall Serpong in Tangerang Selatan, Banten. The half marathon started at 5.15am, followed by the 12 km obstacle run at 5.35am, the 7 km at 6am and the 5 km at 6.15am. The kids' obstacle run was on Saturday 26 September."
     },
     {
       "question": "What distance options are available?",
-      "answer": "Participants in the Serpong Warrior Challenge Run 2026 can choose from four distance categories: 21.1km, 12km, 7km, and 5km. The 21.1km half-marathon serves as the primary distance, while the shorter options provide flexibility for runners with different fitness levels and goals."
+      "answer": "Five categories: a 21.1 km half marathon, a 12 km obstacle run, a 7 km obstacle run, a 5 km road run and a Kids Obstacle Run for children aged 4 to 10. The half marathon was the competitive headline race, with national and master age-group prize money, while the obstacle runs mixed road running with built obstacle zones."
     },
     {
       "question": "Where is the race held?",
-      "answer": "The race takes place at Summarecon Mall Serpong, located in Tangerang Selatan, Banten, Indonesia. This venue serves as the central point for the event, hosting all four distance categories: 21.1km, 12km, 7km, and 5km, on September 27, 2026."
+      "answer": "At Summarecon Mall Serpong in Tangerang Selatan, Banten. In 2026 the road races started at Gate 1 of the mall and finished at Uptown Park, and the half-marathon course looped through the Summarecon Serpong estate past Gading Raya Golf. The kids' obstacle run used an area in Cluster Mozart, meeting at Uptown Park."
     }
   ],
   "reliability_score": 82,
@@ -80,10 +81,10 @@
   ],
   "source_mix": [
     {
-      "url": "https://warriorchallenge.id",
-      "label": "Official race website",
+      "url": "https://warriorchallenge.id/race/half-marathon",
+      "label": "Serpong Warrior Challenge Run official half-marathon page (2026)",
       "type": "official",
-      "last_checked": "2026-08-25"
+      "last_checked": "2026-09-29"
     },
     {
       "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
@@ -96,6 +97,18 @@
       "label": "kalenderlari.com",
       "type": "aggregator",
       "last_checked": "2026-07-13"
+    },
+    {
+      "url": "https://warriorchallenge.id/raceguide.pdf",
+      "label": "Official 2026 race guide (start times, categories, rules)",
+      "type": "official",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://warriorchallenge.id/2025/race/half-marathon",
+      "label": "Official 2025 half-marathon page (start, finish and cut-off)",
+      "type": "official",
+      "last_checked": "2026-09-29"
     }
   ],
   "affiliate_links": [],

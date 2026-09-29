@@ -4,8 +4,8 @@
   "name": "VnExpress Marathon Hanoi Midnight 2026",
   "category_id": "full-marathon",
   "region_id": "vietnam",
-  "short_description": "A multi-distance road race in Hanoi, Vietnam, held on November 29, 2026, organized by VnExpress/FPT Online.",
-  "ai_summary": "The VnExpress Marathon Hanoi Midnight 2026 is a full-marathon event scheduled for November 29, 2026, in Hanoi, Vietnam, organized by VnExpress/FPT Online. It offers four distance options -- 42.195km, 21.1km, 10km, and 5km -- centered around the Tran Nhan Tong walking street area.",
+  "short_description": "A multi-distance road race in Hanoi, Vietnam, held on November 29, 2026, organised by VnExpress/FPT Online.",
+  "ai_summary": "The VnExpress Marathon Hanoi Midnight 2026 is a night road race in Hanoi, Vietnam, organised by VnExpress/FPT Online, with Sunday 29 November 2026 listed as race day and race kits handed out on 27 and 28 November. It offers four distances: 42.195 km, 21.1 km, 10 km and 5 km. In 2025 the marathon started at 12.05am on the listed race day, so runners gathered on the Saturday night; it started on Quang Trung street by Thien Quang Lake and finished on Tran Nhan Tong walking street.",
   "core_facts": {
     "date": "2026-11-29",
     "distance_km": [
@@ -16,7 +16,7 @@
     ],
     "primary_distance_km": 42.195,
     "organizer": "VnExpress / FPT Online",
-    "venue": "Tran Nhan Tong walking street area",
+    "venue": "Tran Nhan Tong walking street (finish); 2025 start on Quang Trung street by Thien Quang Lake",
     "city": "Hanoi",
     "country": "Vietnam"
   },
@@ -39,7 +39,7 @@
   "faqs": [
     {
       "question": "When is the VnExpress Marathon Hanoi Midnight 2026 race?",
-      "answer": "The VnExpress Marathon Hanoi Midnight 2026 is scheduled to take place on November 29, 2026. It is held in Hanoi, Vietnam, and organized by VnExpress/FPT Online. No further scheduling details, such as start times for individual distances, have been provided in the available information."
+      "answer": "The organiser lists Sunday 29 November 2026 as race day, with race kit collection on 27 and 28 November. It is a night race: in 2025 the marathon started at 12.05am on the listed race day, the 10 km at 1am, the 5 km at 1.30am and the half marathon at 2am. The 2026 start times have not been published."
     },
     {
       "question": "What distances are offered at this race?",
@@ -47,7 +47,7 @@
     },
     {
       "question": "Where is the race held?",
-      "answer": "The VnExpress Marathon Hanoi Midnight 2026 takes place in Hanoi, Vietnam, with the venue centered around the Tran Nhan Tong walking street area. This central location serves as the hub for the event, though additional route or start/finish details are not specified."
+      "answer": "The race is in central Hanoi, beside Thong Nhat Park. In 2025 the start was on Quang Trung street by Thien Quang Lake and the finish on Tran Nhan Tong walking street, opposite the park's main gate; the two are close together. The organiser's 2026 page gives Tran Nhan Tong walking street as the event venue."
     }
   ],
   "reliability_score": 15,
@@ -57,10 +57,10 @@
   ],
   "source_mix": [
     {
-      "url": "https://e.vnexpress.net",
-      "label": "e.vnexpress.net",
-      "type": "aggregator",
-      "last_checked": "2026-08-25"
+      "url": "https://vm.vnexpress.net/ha-noi-2026",
+      "label": "Official race website",
+      "type": "official",
+      "last_checked": "2026-09-29"
     }
   ],
   "affiliate_links": [],

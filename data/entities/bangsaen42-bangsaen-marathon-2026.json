@@ -5,17 +5,15 @@
   "category_id": "full-marathon",
   "region_id": "thailand",
   "short_description": "Bangsaen42 is a full-marathon event at Bang Saen Beach, Chonburi, Thailand, scheduled for November 15, 2026.",
-  "ai_summary": "Bangsaen42 (Bangsaen Marathon) is a full-marathon event scheduled for November 15, 2026, held at Bang Saen Beach in Bang Saen, Chonburi, Thailand. The race offers three distance options: a full marathon of 42.195 km, a half marathon of 21.1 km, and a 10 km race.",
+  "ai_summary": "Bangsaen42 (Bangsaen Marathon) is a marathon scheduled for Sunday 15 November 2026, starting and finishing on the beach road in front of the Bangsaen Heritage Hotel in Bang Saen, Chonburi, Thailand. It is a single-distance race over 42.195 km, organised by MICE & Communication with the Chonburi Provincial Administrative Organisation and Saen Suk Municipality. The 2026 race is its tenth edition.",
   "core_facts": {
     "date": "2026-11-15",
     "distance_km": [
-      42.195,
-      21.1,
-      10
+      42.195
     ],
     "primary_distance_km": 42.195,
-    "organizer": "Not confirmed this pass",
-    "venue": "Bang Saen Beach",
+    "organizer": "MICE & Communication, with the Chonburi Provincial Administrative Organisation and Saen Suk Municipality",
+    "venue": "Bang Saen Beach, in front of the Bangsaen Heritage Hotel",
     "city": "Bang Saen, Chonburi",
     "country": "Thailand"
   },
@@ -37,15 +35,15 @@
   "faqs": [
     {
       "question": "When is Bangsaen42 (Bangsaen Marathon) taking place?",
-      "answer": "Bangsaen42, also known as the Bangsaen Marathon, is scheduled to take place on November 15, 2026. The race will be held at Bang Saen Beach, located in Bang Saen, Chonburi, Thailand, giving runners a coastal setting for the event."
+      "answer": "Bangsaen42, also known as the Bangsaen Marathon, is on Sunday 15 November 2026. It starts and finishes on the beach road in front of the Bangsaen Heritage Hotel in Bang Saen, Chonburi, Thailand, with waves starting at 2.30am, 2.45am and 3am. Bib pickup is on 13 and 14 November, not on race day."
     },
     {
       "question": "What distances can I run at Bangsaen42?",
-      "answer": "Bangsaen42 offers three distance options for participants to choose from: a full marathon of 42.195 km, a half marathon of 21.1 km, and a shorter 10 km race. The primary distance for this event is the full 42.195 km marathon."
+      "answer": "Bangsaen42 is a marathon only: the one distance is 42.195 km, and the organiser says it will always stage a single-distance marathon. There is no half marathon or 10 km on race day. Bangsaen21, a separate half marathon from the same organiser, is held in Bang Saen in December."
     },
     {
-      "question": "Who organizes Bangsaen42?",
-      "answer": "The organizer for this particular pass of Bangsaen42 has not been confirmed based on currently available information. Once details are released, this listing can be updated to reflect the confirmed organizing body responsible for the Bangsaen Marathon event."
+      "question": "Who organises Bangsaen42?",
+      "answer": "Bangsaen42 is organised by MICE & Communication, with the Chonburi Provincial Administrative Organisation and Saen Suk Municipality as hosts. The course is certified and measured in cooperation with AIMS, and the race holds a World Athletics Elite Label, which it first gained in 2021. Saen Suk Municipality closed the roads fully for the 2025 race."
     }
   ],
   "reliability_score": 42,

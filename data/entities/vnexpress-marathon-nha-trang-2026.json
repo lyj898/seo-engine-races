@@ -5,7 +5,7 @@
   "category_id": "full-marathon",
   "region_id": "vietnam",
   "short_description": "VnExpress Marathon Nha Trang is a Full/Half/10K/5K coastal marathon in Nha Trang, Vietnam, confirmed for 9 August 2026.",
-  "ai_summary": "VnExpress Marathon Nha Trang 2026 is a coastal marathon in Nha Trang, Khanh Hoa, organized by VnExpress and FPT Online, confirmed for 9 August 2026. It offers Full Marathon, Half Marathon, 10km, and 5km distances, with registration open at 440,000 VND and a stated deadline of 30 July 2026. The date, distances and entry fee are stated on the official event website.",
+  "ai_summary": "VnExpress Marathon Nha Trang 2026 is a coastal marathon in Nha Trang, Khanh Hoa, organized by VnExpress and FPT Online, confirmed for 9 August 2026. It offers Full Marathon, Half Marathon, 10km, and 5km distances, all starting and finishing at 2-4 Square on Tran Phu. Late-phase entry, which ran from 28 July to 2 August 2026, cost 850,000 VND for the 5km and 1,550,000 VND for the Full Marathon.",
   "core_facts": {
     "date": "2026-08-09",
     "distance_km": [
@@ -15,7 +15,7 @@
       42.195
     ],
     "primary_distance_km": 42.195,
-    "price_range": "VND 440,000 - 1,550,000",
+    "price_range": "VND 850,000 - 1,550,000 (Late phase, 28 Jul-2 Aug 2026)",
     "venue": "Nha Trang, Khanh Hoa",
     "city": "Nha Trang",
     "country": "Vietnam"
@@ -82,10 +82,10 @@
   ],
   "research_highlights": [
     "Course runs along Nha Trang's iconic Tran Phu and Pham Van Dong coastal roads with sunrise starts (full marathon typically starts around 3am), plus a climb over Luong Son Pass (roughly up to 60m elevation) that is the main challenge for the 21km and 42km distances.",
-    "For 2025 the route was shortened on the pass section (about a 7km climb instead of ~10km previously) and the half marathon no longer includes the pass, with a finish near Quang Truong 2/4 square.",
+    "For 2026 all distances started and finished at 2-4 Square; the 21km climbed Luong Son Pass from about km 9.5 (the pass was not in the 2025 21km), and the 42km reached the pass at about km 24.5 after inner-city roads by the Quan Truong river.",
     "The event has grown steadily — from about 8,500 runners at its 2022 debut to roughly 13,000 in 2025 — and is run as a multi-day 'race-cation' weekend with an expo, race-kit pickup and side events.",
     "Race-day weather is described as generally hot for Vietnam summer (organizers and past coverage cite temperatures commonly in the high-20s to low-30s °C around race time, though some editions reported cooler, even rainy conditions).",
-    "Aid stations, medical points and toilets are placed at regular intervals along the course, with extra lighting installed on newer sections (e.g., through the Libera Nha Trang urban area) for nighttime running."
+    "The 2026 marathon map shows 23 aid stations, 18 of them with medical points, with toilets placed beside the aid stations."
   ],
   "research_watchouts": [
     "Heat and humidity are a recurring theme — organizer and news coverage repeatedly warn that many runners lose pace or drop out around km 25-30 due to heat-related fatigue rather than lack of fitness.",
@@ -98,7 +98,7 @@
   "faqs": [
     {
       "question": "Who organizes the VnExpress Marathon Nha Trang?",
-      "answer": "The race is organized by VnExpress, a major Vietnamese news outlet, together with FPT Online, and the details are stated on the official event website. A media-backed organizer gives the event stronger operational footing than many independently-run races, which in practice tends to mean clearer entry information and a route that is confirmed well ahead of race day."
+      "answer": "The race is organised by VnExpress, a Vietnamese online newspaper, together with FPT Online. VnExpress also publishes much of the race coverage, including the route, prize and results reports. The 2026 edition, held on 9 August, was the fifth, and the organiser reported a field of 10,000 runners across four distances."
     },
     {
       "question": "What distances does the VnExpress Marathon Nha Trang offer?",

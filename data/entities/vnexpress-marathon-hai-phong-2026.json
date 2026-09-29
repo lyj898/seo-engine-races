@@ -4,8 +4,8 @@
   "name": "VnExpress Marathon Hải Phòng 2026",
   "category_id": "full-marathon",
   "region_id": "vietnam",
-  "short_description": "A full-marathon event in Đồ Sơn, Hải Phòng, Vietnam, taking place on December 27, 2026, with distances ranging from 5km to 42.195km.",
-  "ai_summary": "The VnExpress Marathon Hải Phòng 2026 is a full-marathon event scheduled for December 27, 2026, in Đồ Sơn, Hải Phòng, Vietnam. Organized by VnExpress and FPT Online, the race offers four distance options: 42.195km, 21.1km, 10km, and 5km, catering to a range of runner abilities.",
+  "short_description": "A road race in Hải Phòng, Vietnam, on 27 December 2026, over 5 km to 42.195 km, starting on Trần Hưng Đạo street in the city centre, with the marathon finishing in Đồ Sơn.",
+  "ai_summary": "The VnExpress Marathon Hải Phòng 2026 is a road race scheduled for Sunday 27 December 2026 in Hải Phòng, Vietnam, its fourth edition. Organised by VnExpress and FPT Online, it offers four distances: 42.195 km, 21.1 km, 10 km and 5 km. In 2025 all four started on Trần Hưng Đạo street in central Hải Phòng; the marathon ran out along the coast road to finish in Đồ Sơn, while the shorter races finished back on Trần Hưng Đạo.",
   "core_facts": {
     "date": "2026-12-27",
     "distance_km": [
@@ -16,7 +16,7 @@
     ],
     "primary_distance_km": 42.195,
     "organizer": "VnExpress / FPT Online",
-    "venue": "Đồ Sơn",
+    "venue": "Trần Hưng Đạo street, central Hải Phòng (start); marathon finish in Đồ Sơn",
     "city": "Hải Phòng",
     "country": "Vietnam"
   },
@@ -38,15 +38,15 @@
   "faqs": [
     {
       "question": "When is the VnExpress Marathon Hải Phòng 2026?",
-      "answer": "The VnExpress Marathon Hải Phòng 2026 is scheduled to take place on December 27, 2026. The event will be held in Đồ Sơn, a coastal area of Hải Phòng, Vietnam, and is organized by VnExpress in partnership with FPT Online, offering runners a full day of racing across multiple distances."
+      "answer": "The VnExpress Marathon Hải Phòng 2026 is on Sunday 27 December 2026 and is the race's fourth edition. In 2025 every distance started on Trần Hưng Đạo street in central Hải Phòng before dawn, with the marathon at 2.30am and the half marathon at 3.30am. The marathon finished in Đồ Sơn, and organiser buses brought runners back."
     },
     {
       "question": "What distances are offered at this race?",
       "answer": "Runners can choose from four distance options at the VnExpress Marathon Hải Phòng 2026: a full marathon of 42.195km, a half marathon of 21.1km, a 10km race, and a shorter 5km race, allowing participants of varying experience levels and fitness to take part in the event."
     },
     {
-      "question": "Who organizes the VnExpress Marathon Hải Phòng 2026?",
-      "answer": "The race is organized jointly by VnExpress, a major Vietnamese news outlet, and FPT Online. Together they coordinate the event held in Đồ Sơn, Hải Phòng, Vietnam, bringing together runners for the full marathon, half marathon, 10km, and 5km distance categories on December 27, 2026."
+      "question": "Who organises the VnExpress Marathon Hải Phòng 2026?",
+      "answer": "The race is organised by VnExpress, a Vietnamese news outlet, and FPT Online, which also run the other VnExpress Marathon races. In 2025 the Hải Phòng race was the last of that year's VnExpress Marathon series, and the organiser reported more than 14,000 runners. The 2025 route maps carried a World Athletics and AIMS certified-course badge."
     }
   ],
   "reliability_score": 62,
@@ -55,6 +55,12 @@
     "vietnam"
   ],
   "source_mix": [
+    {
+      "url": "https://vm.vnexpress.net/hai-phong-2026",
+      "label": "Official race website",
+      "type": "official",
+      "last_checked": "2026-09-29"
+    },
     {
       "url": "https://bestmarathon.vn/race-info/vnexpress-marathon-hai-phong-2026",
       "label": "bestmarathon.vn",

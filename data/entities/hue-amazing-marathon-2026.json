@@ -16,8 +16,8 @@
     ],
     "primary_distance_km": 42.195,
     "organizer": "BOLT EVENT ('Amazing Marathon Vietnam Series')",
-    "price_range": "VND 42K 559,000 / 21K 489,000 / 5-10K 379,000 (13-19 Jul promo)",
-    "venue": "Huế (race weekend 29-30 Aug)",
+    "price_range": "VND 42K 799,000-1,569,000 / 21K 699,000-1,379,000 / 10K 499,000-989,000 / 5K 399,000-789,000",
+    "venue": "Le Duan street, beside the Flag Tower (Ky Dai) and Phu Van Lau",
     "city": "Huế",
     "country": "Vietnam"
   },
@@ -42,9 +42,8 @@
   "research_highlights": [
     "Huế Amazing Marathon 2026 is scheduled for 29-30 August 2026, with race day on 30 August, offering four distances: 5km, 10km, 21km and 42km.",
     "The event is part of Bolt Event's 'Amazing Marathon Vietnam Series', the same organizer that also runs Aqua Warriors Vietnam Series (Hạ Long, Vân Đồn, Quảng Trị, Huế) since 2024 and the Quảng Trị Amazing Marathon.",
-    "Cut-off times listed for group registration: 5km – 1h15, 10km – 2h, 21km – 3h30, 42km – 6h30.",
-    "At the sister event in the same series (Quảng Trị Amazing Marathon 2026, held early August 2026), participants and media praised organization, route safety support, and scenic coastal/river scenery, suggesting a similar operational standard could apply to the Huế edition.",
-    "No participant race reports specific to the Huế Amazing Marathon exist yet, as the event has not yet taken place at the time of this research."
+    "Cut-off times on the official information image: 5km â€“ 1h15, 10km â€“ 2h, 21km â€“ 3h30, 42km â€“ 6h30.",
+    "Start and finish were on Le Duan street beside the Flag Tower; the 21km and 42km crossed the Da Vien, Truong Tien, Nguyen Hoang and Phu Xuan bridges on otherwise flat roads."
   ],
   "research_watchouts": [],
   "research_confidence": "low",
@@ -60,7 +59,7 @@
     },
     {
       "question": "How much does registration cost?",
-      "answer": "Pricing during the 13-19 July promotional period is VND 559,000 for the 42km marathon, VND 489,000 for the 21km half marathon, and VND 379,000 for the 5km or 10km distances. Prices outside this specific promotional window are not detailed in the available information."
+      "answer": "Individual entry rose over four phases from 24 April to 15 August 2026. The 42km cost VND 799,000 to 1,569,000, the 21km VND 699,000 to 1,379,000, the 10km VND 499,000 to 989,000 and the 5km VND 399,000 to 789,000, per the official price table on the Pace8 registration page."
     },
     {
       "question": "Who organizes the Huế Amazing Marathon 2026?",
@@ -86,10 +85,10 @@
       "last_checked": "2026-07-20"
     },
     {
-      "url": "https://pace8.vn",
-      "label": "pace8.vn",
+      "url": "https://pace8.vn/su-kien/hue-amazing-marathon-2026",
+      "label": "Official registration page (Pace8)",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-09-29"
     }
   ],
   "affiliate_links": [],

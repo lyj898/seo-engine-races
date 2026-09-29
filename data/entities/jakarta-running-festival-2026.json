@@ -4,10 +4,10 @@
   "name": "Jakarta Running Festival 2026",
   "category_id": "full-marathon",
   "region_id": "indonesia",
-  "short_description": "Jakarta Running Festival 2026 is a World Athletics Gold Label full marathon, half marathon, 10km, and 5km event held in Jakarta, Indonesia from October 22-25, 2026.",
-  "ai_summary": "Jakarta Running Festival 2026 is a multi-distance road race held in Jakarta, Indonesia, from October 22 to 25, 2026. Runners can choose between a full marathon (42.195km), half marathon (21.1km), 10km, or 5km distance. The event holds World Athletics Gold Label status, the organization's top certification tier for road races. The exact venue within Jakarta has not yet been specified.",
+  "short_description": "Jakarta Running Festival 2026 is a full marathon, half marathon, 10km and 5km event at Gelora Bung Karno in Jakarta, Indonesia, with the half marathon on 24 October and the marathon on 25 October 2026.",
+  "ai_summary": "Jakarta Running Festival 2026 is a multi-distance road race based at the Gelora Bung Karno (GBK) Sports Complex in Jakarta, Indonesia. The half marathon starts at 4.30am on Saturday 24 October 2026 and the marathon at 4am on Sunday 25 October 2026. Runners can choose between a full marathon (42.195km), half marathon (21.1km), 10km or 5km. In 2025 the marathon and half marathon held World Athletics Label status.",
   "core_facts": {
-    "date": "2026-10-22 to 2026-10-25",
+    "date": "2026-10-24 to 2026-10-25",
     "distance_km": [
       42.195,
       21.1,
@@ -15,7 +15,7 @@
       5
     ],
     "primary_distance_km": 42.195,
-    "venue": "Jakarta (exact venue not stated)",
+    "venue": "Gelora Bung Karno (GBK) Sports Complex, Senayan",
     "city": "Jakarta",
     "country": "Indonesia"
   },
@@ -55,14 +55,14 @@
     }
   ],
   "research_highlights": [
-    "The event runs across two dedicated race days: half marathon and 5K on the Saturday, with the marathon and 10K on the Sunday (or vice versa depending on the year), so runners doing multiple distances back-to-back is possible — one 2025 participant ran the half on Saturday and the full marathon on Sunday, covering 63km over the weekend per his own account on tasharriers.club.",
+    "The event runs across two dedicated race days: half marathon and 5K on the Saturday, with the marathon and 10K on the Sunday (or vice versa depending on the year), so runners doing multiple distances back-to-back is possible — one 2025 participant ran the half on Saturday and the full marathon on Sunday, covering 63km over the weekend per the runner's own account on tasharriers.club.",
     "Marathon cut-off is a strict 5 hours, deliberately shorter than many other marathons, specifically because of Jakarta's heat and humidity, according to the official event site.",
-    "Weather/tracking data for the 2025 marathon (26 Oct 2025) recorded sunny conditions, ~25.6°C actual / ~27.8°C feels-like, and 78% humidity at race time per VDOT/O2 race data.",
+    "At the 4am start of the 2025 marathon (26 October) Halim Perdanakusuma airport recorded 25°C and 100% humidity; by 9.30am it was 32°C.",
     "The course starts/finishes around the Gelora Bung Karno (GBK) Sports Complex and passes Jakarta landmarks such as Monas, with early start times built in to help runners beat the heat, per the race's own description on Ahotu.",
     "Race is a World Athletics Label event with elite fields alongside mass participation, plus an expo, cheer zones and live music as part of the festival format."
   ],
   "research_watchouts": [
-    "Runners consistently describe conditions as hot and humid, with one participant explicitly noting he finished 'despite the heat and the sweat' and about an hour slower than a cooler European race the same year.",
+    "Runners consistently describe conditions as hot and humid, with one participant explicitly noting they finished 'despite the heat and the sweat' and about an hour slower than a cooler European race the same year.",
     "The half marathon on the Saturday was also described as tough conditions-wise by a participant who deliberately held back pace rather than chase a PB.",
     "The organizers themselves warn the marathon cut-off (5 hours) is stricter/shorter than comparable races, meaning slower runners need to be confident of finishing within that window.",
     "Air quality in Jakarta is flagged as something participants should monitor during their visit, per race directory notes."
@@ -72,7 +72,7 @@
   "faqs": [
     {
       "question": "When does the Jakarta Running Festival 2026 take place?",
-      "answer": "The Jakarta Running Festival 2026 runs across a four-day period, from October 22 to October 25, 2026, in Jakarta, Indonesia. This span likely accommodates the different race distances offered, including the 5km, 10km, half marathon, and full marathon events, though specific day-by-day scheduling has not been detailed."
+      "answer": "The Jakarta Running Festival 2026 has two race days at the Gelora Bung Karno Sports Complex. The half marathon starts at 4.30am on Saturday 24 October 2026 and the marathon at 4.00am on Sunday 25 October 2026, according to the official event pages. In 2025 the 5K ran with the half and the 10K with the marathon."
     },
     {
       "question": "What race distances are available at this event?",
@@ -80,15 +80,14 @@
     },
     {
       "question": "Where exactly in Jakarta is the race held?",
-      "answer": "The race takes place in Jakarta, Indonesia, but the exact venue or starting location within the city has not been specified in the available information. Runners planning to attend may need to check for further venue details closer to the event date."
+      "answer": "The race is based at the Gelora Bung Karno (GBK) Sports Complex in Senayan, central Jakarta, where the marathon and half marathon start and finish. In 2025 the marathon course looped through Sudirman, Thamrin, Monas and Rasuna Said, and runners had free MRT rides to Istora Mandiri station, a six-minute walk from the venue."
     }
   ],
   "reliability_score": 100,
   "tags": [
     "full-marathon",
     "indonesia",
-    "verified",
-    "World Athletics Gold Label"
+    "verified"
   ],
   "source_mix": [
     {

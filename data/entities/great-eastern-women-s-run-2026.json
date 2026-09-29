@@ -4,8 +4,8 @@
   "name": "Great Eastern Women's Run 2026",
   "category_id": "half-marathon",
   "region_id": "singapore",
-  "short_description": "Great Eastern Women's Run 2026 is a verified women-only Half Marathon plus family-distance race in Singapore, confirmed for 1 November 2026.",
-  "ai_summary": "Great Eastern Women's Run 2026 is a women-focused road race at Singapore's National Stadium / The Kallang precinct, confirmed for 1 November 2026 with a 4:30am start. Organized by Great Eastern, it centers on a 21.1km women-only Half Marathon alongside 10km and 5km categories, plus family-oriented 2km \"Mummy+Me\" and 100m \"Princess Dash\" events.",
+  "short_description": "Great Eastern Women's Run 2026 is an all-women half marathon, 10km, 5km and family-distance race at the National Stadium in Singapore on 1 November 2026.",
+  "ai_summary": "Great Eastern Women's Run 2026 is an all-women road race at Singapore's National Stadium in The Kallang precinct on 1 November 2026. Organised by Great Eastern, it centres on a 21.1km Half Marathon alongside 10km and 5km categories, plus a 2km \"Mummy+Me\" run for mothers and daughters and a 100m \"Princess Dash\" for young girls.",
   "core_facts": {
     "date": "2026-11-01",
     "distance_km": [
@@ -16,7 +16,7 @@
       21.1
     ],
     "primary_distance_km": 21.1,
-    "venue": "Singapore National Stadium / The Kallang (4:30am start)",
+    "venue": "Singapore National Stadium, The Kallang",
     "city": "Singapore",
     "country": "Singapore"
   },
@@ -103,15 +103,15 @@
   "faqs": [
     {
       "question": "Is the Great Eastern Women's Run open to men?",
-      "answer": "The race's headline 21.1km Half Marathon category is women-only, consistent with the event's name and positioning. The event also includes 10km and 5km categories plus family-oriented 2km and 100m events, so check the official race website directly for each category's specific eligibility rules before registering."
+      "answer": "No. The Great Eastern Women's Run is an all-women event: the 21.1 km, 10 km and 5 km are for women, the 2 km Mummy and Me pairs mothers with daughters aged 5 to 12, and the 100 m Princess Dash is for girls aged 3 to 6. Men come out to cheer along the route instead."
     },
     {
       "question": "What time does the Great Eastern Women's Run start?",
-      "answer": "The race starts early, at 4:30am, from Singapore's National Stadium / The Kallang precinct, confirmed for 1 November 2026. Early starts are common for Singapore road races to avoid the heat and humidity of daytime running, so plan your travel and warm-up time accordingly."
+      "answer": "Race listings give a 4.30am start for 1 November 2026 at the National Stadium in The Kallang, but the organiser's own category schedule could not be read. In 2025 the elite half marathon started at 5.00am, the open half marathon at 5.15am, the 10 km at 6.15am and the 5 km at 7.15am."
     },
     {
       "question": "What distances can I run at the Great Eastern Women's Run?",
-      "answer": "Five categories are offered: a 21.1km women-only Half Marathon, a 10km, a 5km, a 2km \"Mummy+Me\" run, and a 100m \"Princess Dash\" for children. This spread makes the event suitable for competitive runners, casual participants, and families attending together at the same race morning."
+      "answer": "Five distances are offered, all for women and girls: a 21.1km Half Marathon, a 10km, a 5km, a 2km \"Mummy+Me\" run, and a 100m \"Princess Dash\" for young girls. This spread makes the event suitable for competitive runners, casual participants, and families attending together at the same race morning."
     }
   ],
   "reliability_score": 45,

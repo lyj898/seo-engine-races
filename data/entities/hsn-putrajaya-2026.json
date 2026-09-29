@@ -5,18 +5,18 @@
   "category_id": "half-marathon",
   "region_id": "malaysia",
   "short_description": "HSN Putrajaya 2026 is a half-marathon held on October 10, 2026, at Dataran Putrajaya, Putrajaya, Malaysia.",
-  "ai_summary": "HSN Putrajaya 2026 is a half-marathon event scheduled for October 10, 2026, at Dataran Putrajaya in Putrajaya, Malaysia. The race offers multiple distance options including 21.1km, 30km, 10km, 5km, and 3km, catering to a range of runner abilities. It is organized by POWP x JBSWPKL x KPM.",
+  "ai_summary": "HSN Putrajaya 2026 is a half-marathon event at Dataran Putrajaya in Putrajaya, Malaysia, held over 10-11 October 2026. The 30 km and 21.1 km run on Saturday 10 October, and the 10 km, 5 km and 3 km on Sunday 11 October. It is organised by The Concept Exhibition (M) Sdn Bhd with Jabatan Belia dan Sukan WPKL.",
   "core_facts": {
     "date": "2026-10-10",
     "distance_km": [
-      21,
+      21.1,
       30,
       10,
       5,
       3
     ],
     "primary_distance_km": 21.1,
-    "organizer": "POWP x JBSWPKL x KPM",
+    "organizer": "The Concept Exhibition (M) Sdn Bhd with Jabatan Belia dan Sukan WPKL (JBSWPKL)",
     "venue": "Dataran Putrajaya, Putrajaya",
     "city": "Putrajaya",
     "country": "Malaysia"
@@ -53,8 +53,8 @@
   "research_highlights": [
     "The course runs through Dataran Putrajaya and the surrounding lakeside/park landscape, which participants describe as scenic and well laid out.",
     "The event offers multiple distances (past editions had 3km/5km/10km/21km; the 2026 edition adds a 30km category alongside 3km/5km/10km/21km).",
-    "It's a two-day event: shorter categories (e.g. 3km/5km) typically run one day, with longer distances (10km/21km) on the following day at Dataran Putrajaya.",
-    "Race kit collection for past editions was held at Auditorium Tun Azizan Zainul in Kompleks Perbadanan Putrajaya in the days before the run, separate from race day.",
+    "It's a two-day event at Dataran Putrajaya: in 2026 the 30km (3.30am) and 21km (5.00am) run on Saturday 10 October, and the 10km, 5km and 3km on Sunday 11 October.",
+    "Race kit collection in 2025 was held at Auditorium Tun Azizan Zainul in Kompleks Perbadanan Putrajaya; for 2026 the 3km, 5km and 10km kits are collected a week before the run at MITEC Kuala Lumpur.",
     "Organisers position the event as a community-focused 'Car-Free Day' style carnival with an accompanying expo and bazaar."
   ],
   "research_watchouts": [
@@ -66,7 +66,7 @@
   "faqs": [
     {
       "question": "When is HSN Putrajaya 2026 taking place?",
-      "answer": "HSN Putrajaya 2026 is scheduled to take place on October 10, 2026. The event will be held at Dataran Putrajaya, located in the city of Putrajaya, Malaysia, giving participants a specific date to plan their travel, training, and race-day logistics well in advance."
+      "answer": "HSN Putrajaya 2026 takes place over two days at Dataran Putrajaya. The 30 km and the 21.1 km half marathon are on Saturday 10 October 2026, with flag-offs at 3.30am and 5.00am, and the 10 km, 5 km and 3 km are on Sunday 11 October 2026, starting from 6.30am."
     },
     {
       "question": "What distances can I run at HSN Putrajaya 2026?",
@@ -74,7 +74,7 @@
     },
     {
       "question": "Who organizes HSN Putrajaya 2026?",
-      "answer": "HSN Putrajaya 2026 is organized by a collaboration between POWP, JBSWPKL, and KPM. Together, these organizing bodies are responsible for coordinating the event, which will take place at Dataran Putrajaya in Putrajaya, Malaysia, on October 10, 2026."
+      "answer": "The 2026 edition is run by The Concept Exhibition (M) Sdn Bhd, whose name appears on the official event site, together with Jabatan Belia dan Sukan WPKL, the Federal Territories youth and sports department that organised the 2025 edition. The event marks National Sports Day (Hari Sukan Negara) and is based at Dataran Putrajaya."
     }
   ],
   "reliability_score": 0,
@@ -83,6 +83,18 @@
     "malaysia"
   ],
   "source_mix": [
+    {
+      "url": "https://www.hsnputrajaya.my/",
+      "label": "Official event website",
+      "type": "official",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://raceroster.com/events/2026/139262/hsn-putrajaya-2026",
+      "label": "Race Roster registration page",
+      "type": "official",
+      "last_checked": "2026-09-29"
+    },
     {
       "url": "https://checkpointspot.asia/event/hsn-putrajaya-2026",
       "label": "checkpointspot.asia",

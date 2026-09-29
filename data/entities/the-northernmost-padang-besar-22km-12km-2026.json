@@ -4,16 +4,18 @@
   "name": "The Northernmost Padang Besar 22KM & 12KM 2026",
   "category_id": "half-marathon",
   "region_id": "malaysia",
-  "short_description": "A half-marathon and 12KM race held in Padang Besar, Perlis, Malaysia on 8 August 2026.",
-  "ai_summary": "The Northernmost Padang Besar 22KM & 12KM 2026 is a half-marathon-distance race set to take place on 8 August 2026 in Padang Besar, Perlis, Malaysia. The event offers two distance options, 21.1KM and 12KM, giving participants a choice based on their fitness level.",
+  "short_description": "A 22km and 12km night run, with a 5km Night Fun Run, held in Padang Besar, Perlis, Malaysia on 7-8 August 2026.",
+  "ai_summary": "The Northernmost Padang Besar 22KM & 12KM 2026 is a night run in Padang Besar, Perlis, Malaysia, organised by PUTRA Trail Running Club with the Perlis State Government. A 5km Night Fun Run started at 10pm on Friday 7 August 2026, and the 22km and 12km flagged off at 12:30am and 1:15am on Saturday 8 August, from the Masjid Solahuddin Al-Ayubbi car park.",
   "core_facts": {
     "date": "2026-08-08",
     "distance_km": [
-      21.1,
-      12
+      22,
+      12,
+      5
     ],
-    "primary_distance_km": 21.1,
-    "venue": "Padang Besar, Perlis",
+    "primary_distance_km": 22,
+    "organizer": "PUTRA Trail Running Club (co-organiser: Perlis State Government)",
+    "venue": "Masjid Solahuddin Al-Ayubbi car park, Padang Besar",
     "city": "Padang Besar, Perlis",
     "country": "Malaysia"
   },
@@ -33,10 +35,10 @@
   ],
   "excerpt_quotes": [],
   "research_highlights": [
-    "This is a night run edition: the event description states it is <cite index=\"35-1,35-2,35-3\">a special program with a night run concept organized by PUTRA Trail Running Club, passing through Chuping Valley, ICQS Complex, Arked Niaga, Dataran Padang Besar, Felda Rimba Mas and Kampung Kok Mak, starting as early as 1:30 am to 6:00 am</cite>.",
+    "This is a night run: the 22km flagged off at 12:30am and the 12km at 1:15am on Saturday 8 August 2026, after a 5km Night Fun Run at 10pm on Friday; the route passes Chuping Valley, the ICQS Complex, Arked Niaga, Felda Rimba Mas and Kampung Kok Mak.",
     "The event is co-organized by Putra Trail Running Club and the Perlis State Government, per the official registration listing.",
     "Padang Besar is Malaysia's northernmost major town, a border crossing with Thailand's Songkhla province, known for its duty-free shopping complex.",
-    "The organizer notes that flag-off and cut-off times may be adjusted depending on conditions, and recommends runners carry a running/RFID chip (RC recommended)."
+    "A headlamp (minimum 100 lumens) and identification were mandatory for the 22km and 12km, with a hydration system of at least 500 ml, blinker and reflector vest recommended; the organiser noted flag-off and cut-off times could change with conditions."
   ],
   "research_watchouts": [],
   "research_confidence": "low",
@@ -44,15 +46,15 @@
   "faqs": [
     {
       "question": "When is the Northernmost Padang Besar 22KM & 12KM 2026 taking place?",
-      "answer": "The race is scheduled to take place on 8 August 2026. It is held in Padang Besar, Perlis, Malaysia, and offers runners a choice between a 21.1KM half-marathon distance and a shorter 12KM distance option on the same day."
+      "answer": "The event ran over the night of 7-8 August 2026. The 5km Night Fun Run started at 10pm on Friday 7 August, and the 22km and 12km flagged off at 12:30am and 1:15am on Saturday 8 August, with cut-offs of 5am and 4:15am. It was part of the Padang Besar Festival 2026."
     },
     {
       "question": "What distances are offered at this race?",
-      "answer": "Participants can choose between two distances: a 21.1KM half-marathon and a 12KM race. This gives runners of different experience levels and fitness goals the flexibility to select the option that best suits their training and racing ambitions."
+      "answer": "There are three distances: the 22km, measured at 21.4km on the organiser's flag-off chart, a 12km of about 11.9km, and a 5km Night Fun Run of about 4.4km. The 22km had a 4.5-hour limit and the 12km a 3-hour limit, while the fun run was untimed and open to ages five and above."
     },
     {
       "question": "Where is the race held?",
-      "answer": "The race takes place in Padang Besar, located in the state of Perlis, Malaysia. This location is highlighted as the northernmost point associated with the event, making it a distinctive setting for both the 21.1KM and 12KM race distances."
+      "answer": "The race starts and finishes at the car park of Masjid Solahuddin Al-Ayubbi in Padang Besar, Perlis, which also hosted the race village and prize giving. Race kits were collected on Padang Besar Street on the Friday afternoon, and the route runs out to Chuping Valley and Felda Rimba Mas before returning through town."
     }
   ],
   "reliability_score": 7,
@@ -62,23 +64,23 @@
   ],
   "source_mix": [
     {
-      "url": "https://checkpointspot.asia/events",
-      "label": "checkpointspot.asia",
-      "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "url": "https://www.mep21-online.com/event-info.php?eid=14946",
+      "label": "Official event page (MEP21)",
+      "type": "official",
+      "last_checked": "2026-09-29"
     },
     {
-      "url": "https://mep21-online.com",
-      "label": "mep21-online.com",
+      "url": "https://www.mep21-online.com/event-results.php?eid=14946",
+      "label": "Official results (MEP21)",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-09-29"
     }
   ],
   "affiliate_links": [],
   "cta_links": [
     {
       "label": "Register",
-      "url": "https://checkpointspot.asia/events",
+      "url": "https://www.mep21-online.com/event-info.php?eid=14946",
       "type": "official_registration"
     }
   ],

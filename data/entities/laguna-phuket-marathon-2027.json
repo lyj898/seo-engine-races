@@ -4,19 +4,19 @@
   "name": "Laguna Phuket Marathon 2027",
   "category_id": "full-marathon",
   "region_id": "thailand",
-  "short_description": "The Laguna Phuket Marathon 2027 takes place on June 12, 2027, in Ban Bang Thao, Phuket, Thailand, offering five race distances.",
-  "ai_summary": "The Laguna Phuket Marathon 2027 is scheduled for June 12, 2027, at Laguna Phuket in Ban Bang Thao, Phuket, Thailand. The event offers five distance options: a full marathon (42.195km), half marathon (21.098km), 10km, 5km, and 2km, catering to a range of runners from elite marathoners to casual participants.",
+  "short_description": "The Laguna Phuket Marathon 2027 runs the marathon and half marathon on Sunday 13 June 2027 from Laguna Grove, Laguna Phuket, Thailand, with 10 km, 5 km and 2 km races the previous afternoon.",
+  "ai_summary": "The Laguna Phuket Marathon 2027 is held at Laguna Grove, Laguna Phuket, in Cherngtalay near Bang Thao on Phuket's west coast, Thailand. The 2 km junior run, 10 km and 5 km are on the afternoon of Saturday 12 June 2027, and the marathon (42.195 km) and half marathon (21.1 km) on Sunday 13 June, with new earlier start times of 3am and 4.30am. The marathon has a 7 hour 30 minute limit; the 20th edition in June 2026 drew more than 7,000 competitors.",
   "core_facts": {
-    "date": "2027-06-12",
+    "date": "2027-06-13",
     "distance_km": [
       42.195,
-      21.098,
+      21.1,
       10,
       5,
       2
     ],
     "primary_distance_km": 42.195,
-    "venue": "Laguna Phuket, Ban Bang Thao",
+    "venue": "Laguna Grove, Laguna Phuket, Cherngtalay",
     "city": "Ban Bang Thao, Phuket",
     "country": "Thailand"
   },
@@ -38,19 +38,15 @@
   "faqs": [
     {
       "question": "When is the Laguna Phuket Marathon 2027 taking place?",
-      "answer": "The Laguna Phuket Marathon 2027 is scheduled to take place on June 12, 2027. The race will be held at the Laguna Phuket venue in Ban Bang Thao, Phuket, Thailand, drawing runners from around the world to participate in this multi-distance running event set against the backdrop of this popular resort area."
+      "answer": "The marathon and half marathon are on Sunday 13 June 2027, starting at 3am and 4.30am, which are new earlier times. The 2 km junior run, 10 km and 5 km are on Saturday 12 June from 4pm, and race-pack collection and the expo start on Friday 11 June, according to the organiser."
     },
     {
       "question": "What distance options are available at this race?",
-      "answer": "The Laguna Phuket Marathon 2027 offers five distance options for participants to choose from: a full marathon at 42.195km, a half marathon at 21.098km, a 10km race, a 5km race, and a shorter 2km distance, making it accessible to runners of varying experience levels and fitness goals."
-    },
-    {
-      "question": "How do I register for the 2027 race?",
-      "answer": "Registration for the Laguna Phuket Marathon 2027 currently offers priority access to runners who completed the 2026 edition of the race."
+      "answer": "Five: a 42.195 km marathon, a 21.1 km half marathon, a 10 km, a 5 km and a 2 km junior run. The marathon cut-off is 7 hours 30 minutes, with an intermediate cut-off at 21.1 km after 3 hours 37 minutes, and the half marathon closes four hours after its start."
     },
     {
       "question": "Where exactly is the race held?",
-      "answer": "The race is held at Laguna Phuket, located in Ban Bang Thao, in the city of Phuket, Thailand. This venue serves as the host location for all distance events, including the full marathon, half marathon, 10km, 5km, and 2km races that make up the Laguna Phuket Marathon 2027."
+      "answer": "All races start and finish at Laguna Grove in the Laguna Phuket resort area at Cherngtalay, near Bang Thao. The marathon heads north-east to Ban Don, north past Thalang to Nai Yang Beach near the airport, then back south past Layan Beach to the finish. Police and marshals control traffic along the route."
     }
   ],
   "reliability_score": 48,
@@ -61,10 +57,16 @@
   ],
   "source_mix": [
     {
-      "url": "https://phuketmarathon.com",
-      "label": "Official race website",
+      "url": "https://phuketmarathon.com/race-information/",
+      "label": "Official race information page (2027 schedule and cut-offs)",
       "type": "official",
-      "last_checked": "2026-08-25"
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.thephuketnews.com/landmark-laguna-phuket-marathon-hits-the-heights-100629.php",
+      "label": "The Phuket News report on the 20th edition, 2026",
+      "type": "other",
+      "last_checked": "2026-09-29"
     }
   ],
   "affiliate_links": [],

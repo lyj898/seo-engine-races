@@ -4,8 +4,8 @@
   "name": "Amazing Thailand Pattaya Marathon (33rd ed.)",
   "category_id": "full-marathon",
   "region_id": "thailand",
-  "short_description": "A 33rd-edition marathon event in Pattaya, Chonburi, Thailand, held September 27, 2026, offering full marathon, half marathon, 10km, and 4.5km distances.",
-  "ai_summary": "The Amazing Thailand Pattaya Marathon returns for its 33rd edition on September 27, 2026, in Pattaya, Chonburi, Thailand. Runners can choose from four distances: a full marathon (42.195km), a half marathon (21.1km), a 10km race, and a 4.5km fun run.",
+  "short_description": "The 33rd Amazing Thailand Pattaya Marathon was held in Pattaya, Chonburi, Thailand, with the 10 km and 4.5 km races on 26 September 2026 and the marathon and half marathon on 27 September.",
+  "ai_summary": "The 33rd Amazing Thailand Pattaya Marathon, organised by Thailand Tri-League, started and finished at Terminal 21 Pattaya on North Pattaya Road in Chonburi, Thailand. The 10 km, 4.5 km wheelchair race and 4.5 km family run were on Saturday 26 September 2026, and the marathon (3.30am start, seven-hour limit) and half marathon (5.10am) on Sunday 27 September. The race moved from July to September in 2026 after a procurement delay, and drew 21,727 entrants from 58 countries.",
   "core_facts": {
     "date": "2026-09-27",
     "distance_km": [
@@ -16,7 +16,7 @@
     ],
     "primary_distance_km": 42.195,
     "organizer": "Thailand Tri-League",
-    "venue": "Pattaya, Chonburi",
+    "venue": "Terminal 21 Pattaya, North Pattaya Road",
     "city": "Pattaya, Chonburi",
     "country": "Thailand"
   },
@@ -55,58 +55,37 @@
   },
   "excerpt_quotes": [
     {
-      "quote": "32C so hot and humid! It is a small event with 400 runners. Water each 2K so very well catered given the heat.",
-      "attribution": "Runner review on TripAdvisor",
-      "source_url": "https://www.tripadvisor.com/Attraction_Review-g293919-d10020569-Reviews-Pattaya_Marathon-Pattaya_Chonburi_Province.html"
-    },
-    {
-      "quote": "Not the best route but mostly flat and crowds at the start and finish. Good food choice at the end too.",
-      "attribution": "Runner review on TripAdvisor",
-      "source_url": "https://www.tripadvisor.com/Attraction_Review-g293919-d10020569-Reviews-Pattaya_Marathon-Pattaya_Chonburi_Province.html"
-    },
-    {
-      "quote": "Unfortunately for the worst. In 90s the course was pretty much flat. Now lots of up grades and especially at end a hill of 20% grade. No PR will be made here.",
-      "attribution": "Runner review on TripAdvisor",
-      "source_url": "https://www.tripadvisor.com/Attraction_Review-g293919-d10020569-Reviews-Pattaya_Marathon-Pattaya_Chonburi_Province.html"
-    },
-    {
-      "quote": "With heat &humidity it's probably the most difficult Marathon or half marathon to run.",
-      "attribution": "Runner review on TripAdvisor",
-      "source_url": "https://www.tripadvisor.com/Attraction_Review-g293919-d10020569-Reviews-Pattaya_Marathon-Pattaya_Chonburi_Province.html"
-    },
-    {
       "quote": "The weather was extremely hot. Even with wind from the beach, it was still very humid",
       "attribution": "Lodkeo Inthakoumman, half-marathon winner, quoted in Laotian Times",
       "source_url": "https://laotiantimes.com/2025/07/22/lao-runner-lodkeo-dominates-pattaya-marathon/"
     }
   ],
   "research_highlights": [
-    "Race is held in July with a very early start (around 3:30 AM for the full marathon) to beat the heat, though temperatures still reach around 32°C (84°F) with 90% humidity",
+    "The 2026 edition was moved from July (the 2025 race was on 19-20 July) to 26-27 September after Pattaya's procurement process for the organiser was delayed; the marathon started at 3.30am and rain fell through both race mornings, according to local reports.",
     "Course starts and finishes at Terminal 21 Pattaya, running through Jomtien Beach Road, Sukhumvit highway, and Pattaya Beach Front Road with a mix of flat and rolling terrain",
-    "One reviewer noted the full marathon has a hill of roughly 20% grade near the end that has slowed even professional runners by 25-35 minutes compared to earlier flatter editions",
-    "Aid stations are frequent (roughly every 2km) with water and some fruit, which reviewers described as well catered for the heat",
-    "The event has grown substantially, with 2025 edition drawing a reported 20,250 entrants across all categories including full marathon, half marathon, 10K, wheelchair 4.5km and family run"
+    "The marathon had 22 drink stations, roughly every 2km, with bananas at seven of them and a 'Hit the Wall' station near 32km; the half marathon had 12 stations.",
+    "The organisers cite 20,250 entrants in 2025, and 21,727 entrants from 58 countries were reported for 2026, about 10,964 on Saturday and 10,763 on Sunday.",
+    "The marathon, half marathon and 10km courses carried a World Athletics Road Race Label for 2026."
   ],
   "research_watchouts": [
-    "Heat and humidity are consistently cited as the toughest part of the race, with one runner reporting conditions around 32°C and high humidity even along the beach breeze",
-    "The course has become hillier over the years according to a long-time participant, making it unsuitable for chasing a personal record",
-    "A disrupted sleep schedule and unpredictable weather were noted challenges by a competitive finisher due to the pre-dawn start time",
-    "Registration can close quickly - one reviewer noted 2025 entries closed within two days of opening"
+    "Heat and humidity are a known challenge: the 2025 half-marathon winner, Lodkeo Inthakoumman, said the weather was extremely hot and very humid even with wind from the beach.",
+    "After the beach section the course turns rolling, with flat stretches alternating with gradual rises, which the organiser calls the key test of the route.",
+    "Runners starting more than 15 minutes after the gun are disqualified, and entry fees are not refunded in any case."
   ],
   "research_confidence": "medium",
   "research_last_updated": "2026-08-11",
   "faqs": [
     {
       "question": "When is the Amazing Thailand Pattaya Marathon held?",
-      "answer": "The Amazing Thailand Pattaya Marathon, now in its 33rd edition, is scheduled to take place on September 27, 2026. It will be held in Pattaya, Chonburi, Thailand, giving participants a full year in advance to prepare their training schedules and travel arrangements for this established annual running event."
+      "answer": "The 33rd edition was held over the weekend of 26 and 27 September 2026. The 10 km and both 4.5 km races were on Saturday 26 September, and the marathon and half marathon on Sunday 27 September, starting at 3.30am and 5.10am. The 2025 race had been held in July."
     },
     {
       "question": "What distances can I run at this event?",
-      "answer": "Participants can choose from four distance options at the Amazing Thailand Pattaya Marathon: a full marathon of 42.195km, a half marathon of 21.1km, a 10km race, and a shorter 4.5km fun run, making the event accessible to runners of many different experience and fitness levels."
+      "answer": "Five races over four distances: a 42.195 km marathon, a 21.1 km half marathon, a 10 km, a 4.5 km wheelchair race and a 4.5 km family run. Cut-offs were seven hours for the marathon, three and a half hours for the half and two hours for the 10 km."
     },
     {
       "question": "Where does the race take place?",
-      "answer": "The Amazing Thailand Pattaya Marathon takes place in Pattaya, located in Chonburi, Thailand. This coastal city serves as the venue for all four race distances offered at this event, including the full marathon, half marathon, 10km, and 4.5km races, as part of the marathon's 33rd edition."
+      "answer": "In Pattaya, Chonburi, about 147 km from Bangkok. All races started and finished at Terminal 21 Pattaya on North Pattaya Road. The marathon ran along Pattaya Beach Road, over Thappraya Road to Jomtien, out and back on Sukhumvit Road, then back along Jomtien Beach; roads were closed from midnight to 11am."
     }
   ],
   "reliability_score": 100,
@@ -117,10 +96,28 @@
   ],
   "source_mix": [
     {
-      "url": "https://www.pattayamarathon.com",
-      "label": "Official race website",
+      "url": "https://www.pattayamarathon.com/",
+      "label": "Official race website (2026 schedule, courses, cut-offs)",
       "type": "official",
-      "last_checked": "2026-08-25"
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.siamsport.co.th/other-sports/sports-world/109337/",
+      "label": "Siamsport report on the 2026 press conference (21,727 entrants)",
+      "type": "other",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.pattayamail.com/latestnews/news/pattaya-marathon-not-canceled-just-delayed-as-city-moves-to-restart-bidding-process-553874",
+      "label": "Pattaya Mail on the 2026 postponement",
+      "type": "other",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://my.raceresult.com/425981/",
+      "label": "2026 results (Primeworks, race|result)",
+      "type": "official",
+      "last_checked": "2026-09-29"
     },
     {
       "url": "https://aims-worldrunning.org/calendar.html",

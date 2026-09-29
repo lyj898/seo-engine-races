@@ -4,18 +4,18 @@
   "name": "Yoma Yangon International Marathon",
   "category_id": "half-marathon",
   "region_id": "myanmar",
-  "short_description": "The Yoma Yangon International Marathon is a half marathon, 10km, and 5km event set for February 21, 2027 in Yangon, Myanmar.",
-  "ai_summary": "The Yoma Yangon International Marathon is scheduled for February 21, 2027, in Yangon, Myanmar, organized by Yoma. The event offers three distance options: a half marathon (21.1 km), a 10 km race, and a 5 km race. The exact start point within Yangon has not yet been published.",
+  "short_description": "The Yoma Yangon International Marathon is a half marathon, 10 km and 5 km event in Yangon, Myanmar; the 2026 edition started and finished at Thuwunna National Indoor Stadium (1).",
+  "ai_summary": "The Yoma Yangon International Marathon is organised by Yoma in Yangon, Myanmar. Despite the name, the ninth edition on 22 February 2026 had no full marathon: it offered a 21 km half marathon, a 10 km challenge run and a 5 km fun run, starting and finishing at Thuwunna National Indoor Stadium (1) on Waizayanta Road. The organiser's site looks ahead to a 2027 edition but had not published its date when checked on 29 September 2026.",
   "core_facts": {
     "date": "2027-02-21",
     "distance_km": [
-      21,
+      21.1,
       10,
       5
     ],
     "primary_distance_km": 21.1,
     "organizer": "Yoma",
-    "venue": "The Campus, 1 Office Park, Rain Tree Drive, Pun Hlaing Estate, Hlaing Thayar Township, Yangon 11401, Myanmar",
+    "venue": "Thuwunna National Indoor Stadium (1), Waizayanta Road, Thingangyun Township (2026 start and finish)",
     "city": "Yangon",
     "country": "Myanmar"
   },
@@ -37,15 +37,15 @@
   "faqs": [
     {
       "question": "When is the Yoma Yangon International Marathon?",
-      "answer": "The Yoma Yangon International Marathon is scheduled to take place on February 21, 2027. It is held in Yangon, Myanmar, and is organized by Yoma. Further details about the exact schedule and starting location within the city have not yet been published by the organizers."
+      "answer": "The 2027 date had not been published on the organiser's site when checked on 29 September 2026; its Yangon page only looks ahead to a 2027 edition. The previous edition, the ninth, was held on Sunday 22 February 2026, the first since January 2020, with the half marathon starting at 5am."
     },
     {
       "question": "What distances are offered at this race?",
-      "answer": "The race offers three distance options for participants: a half marathon of 21.1 kilometers, a 10 kilometer race, and a 5 kilometer race. This range allows both experienced half marathon runners and those seeking shorter distances to take part in the same event in Yangon."
+      "answer": "Three: a 21 km half marathon, a 10 km challenge run and a 5 km fun run. There was no full marathon in 2026 despite the event's name, although earlier editions included 42 km. Cut-offs in 2026 were four hours for the half marathon, two hours for the 10 km and 90 minutes for the 5 km."
     },
     {
       "question": "Where does the race take place?",
-      "answer": "The Yoma Yangon International Marathon takes place in Yangon, Myanmar. However, the exact start point for the race within the city has not yet been published by the organizers, so specific route and starting location details are not currently available to prospective participants."
+      "answer": "In Yangon, Myanmar. In 2026 all three races started and finished at Thuwunna National Indoor Stadium (1) on Waizayanta Road in Thingangyun Township, and the half-marathon loop ran through central Yangon via the Strand and Shwedagon Pagoda Road. The 2027 venue had not been confirmed when checked."
     }
   ],
   "reliability_score": 30,
@@ -55,10 +55,16 @@
   ],
   "source_mix": [
     {
-      "url": "https://yomayangonmarathon.com",
-      "label": "Official race website",
+      "url": "https://yomayangonmarathon.com/race-info/",
+      "label": "Official race info page (2026 edition)",
       "type": "official",
-      "last_checked": "2026-08-25"
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.mdn.gov.mm/en/over-7000-runners-compete-2026-yoma-yangon-international-marathon",
+      "label": "Myanmar Digital News post-race report, 2026",
+      "type": "other",
+      "last_checked": "2026-09-29"
     }
   ],
   "affiliate_links": [],

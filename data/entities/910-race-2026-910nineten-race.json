@@ -5,15 +5,15 @@
   "category_id": "half-marathon",
   "region_id": "indonesia",
   "short_description": "The 910 Race 2026 is a half-marathon, 10K, and 5K event held October 11, 2026 at ICE BSD, Tangerang, Indonesia.",
-  "ai_summary": "The 910 Race 2026 is a half-marathon event organized by Indonesian running-shoe brand 910 Nineten, scheduled for October 11, 2026 at ICE BSD in BSD City, Tangerang, Banten, Indonesia. Runners can choose from three distances: 21.1km, 10km, and 5km. Registration is currently open, with regular pricing set at IDR 679,000 for the half-marathon, IDR 479,000 for the 10K, and IDR 379,000 for the 5K.",
+  "ai_summary": "The 910 Race 2026 is a half-marathon event organised by Indonesian running-shoe brand 910 Nineten, scheduled for October 11, 2026 at ICE BSD in BSD City, Tangerang, Banten, Indonesia. Runners can choose from three distances: a half marathon the organiser gives as 21.195 km, 10 km and 5 km. Regular prices are IDR 679,000 for the half marathon, IDR 479,000 for the 10K and IDR 379,000 for the 5K.",
   "core_facts": {
     "date": "2026-10-11",
     "distance_km": [
-      21.1,
+      21.195,
       10,
       5
     ],
-    "primary_distance_km": 21.1,
+    "primary_distance_km": 21.195,
     "organizer": "910 Nineten (Indonesian running-shoe brand)",
     "price_range": "IDR HM 679,000 / 10K 479,000 / 5K 379,000 (regular)",
     "venue": "ICE BSD (Indonesia Convention Exhibition), BSD City",
@@ -53,7 +53,6 @@
     "Course runs through BSD City and is described in race-day coverage as wide and flat, but includes two elevated flyover bridges that add a climbing challenge for runners.",
     "2026 event is the second edition, held at the same venue (ICE BSD, Tangerang) and using the same three-category format (5K, 10K, Half Marathon) as the 2025 debut.",
     "Cut-off times reported for the 2026 edition: 5K – 1 hour, 10K – 2 hours, Half Marathon – 3 hours 30 minutes, with early-morning flag-offs between 5:00–5:30 WIB.",
-    "Race pack/bib pickup for the 2026 edition is scheduled for 9–10 October 2026 at The Breeze, BSD City, ahead of the 11 October race day.",
     "The inaugural 2025 edition drew roughly 2,000–2,500 runners; organizers are targeting over 3,000 participants for the 2026 edition."
   ],
   "research_watchouts": [],
@@ -66,7 +65,7 @@
     },
     {
       "question": "What distances are offered at the 910 Race 2026?",
-      "answer": "The 910 Race 2026 offers three distance options for participants to choose from: a 21.1km half-marathon, a 10km race, and a shorter 5km race, allowing runners of varying experience levels to take part in the event."
+      "answer": "The 910 Race 2026 offers three distance options for participants to choose from: a half marathon that the organiser lists as 21.195 km, a 10 km race and a shorter 5 km race, allowing runners of varying experience levels to take part in the event."
     },
     {
       "question": "How much does registration cost?",

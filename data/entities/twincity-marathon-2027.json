@@ -4,19 +4,23 @@
   "name": "Twincity Marathon 2027",
   "category_id": "full-marathon",
   "region_id": "malaysia",
-  "short_description": "Twincity Marathon 2027 is a full-marathon event held in Cyberjaya, Sepang, Selangor, Malaysia on January 24, 2027.",
-  "ai_summary": "Twincity Marathon 2027 is a full-marathon event scheduled for January 24, 2027, in Cyberjaya, Sepang, Selangor, Malaysia. The race offers four distance options: 42.195km, 21.098km, 12km, and 5km, catering to a range of runners from beginners to marathon veterans. The event is set within the planned city of Cyberjaya, in Selangor state.",
+  "short_description": "Twincity Marathon 2027 is a road race weekend in Putrajaya, Malaysia, with the marathon, half marathon, 12 km and 5 km starting at Dataran Putrajaya on Sunday 24 January 2027.",
+  "ai_summary": "Twincity Marathon 2027, organised by Ten Senses (M) Sdn Bhd, is held in Putrajaya, Malaysia. On Sunday 24 January 2027 the 42.195 km marathon (2.30am start, eight-hour limit), 21.1 km half marathon, 12 km and 5 km start at Dataran Putrajaya; in 2026 the marathon and half-marathon courses also ran through neighbouring Cyberjaya. On Saturday 23 January a 10 km Friendship Run and a 3 km Kids Dash start at the Putrajaya International Convention Centre (PICC). The start moved from Cyberjaya to Putrajaya in 2026.",
   "core_facts": {
     "date": "2027-01-24",
     "distance_km": [
       42.195,
-      21.098,
+      21.1,
       12,
-      5
+      10,
+      5,
+      3
     ],
     "primary_distance_km": 42.195,
-    "venue": "Cyberjaya, Sepang, Selangor",
-    "city": "Cyberjaya, Sepang, Selangor",
+    "organizer": "Ten Senses (M) Sdn Bhd",
+    "price_range": "RM50-RM165",
+    "venue": "Dataran Putrajaya, Presint 3 (Sunday races); Putrajaya International Convention Centre (Saturday races)",
+    "city": "Putrajaya",
     "country": "Malaysia"
   },
   "pros": [
@@ -39,15 +43,15 @@
   "faqs": [
     {
       "question": "When does the Twincity Marathon 2027 take place?",
-      "answer": "The Twincity Marathon 2027 is scheduled to take place on January 24, 2027. The event will be held in Cyberjaya, Sepang, Selangor, Malaysia, offering runners a full range of distance options to choose from on that specific date."
+      "answer": "The main races are on Sunday 24 January 2027, with the marathon starting at 2.30am and the half marathon at 3.45am from Dataran Putrajaya. The 10 km Friendship Run and 3 km Kids Dash are on Saturday 23 January at PICC. Race packs are collected at PICC from 21 to 23 January."
     },
     {
       "question": "What distances are offered at the Twincity Marathon 2027?",
-      "answer": "The Twincity Marathon 2027 offers four distance categories for participants: a full marathon of 42.195km, a half marathon of 21.098km, a 12km run, and a shorter 5km option, catering to varying levels of runner experience and fitness."
+      "answer": "Six: a 42.195 km marathon, a 21.1 km half marathon, a 12 km and a 5 km on Sunday, plus a 10 km Friendship Run and a 3 km Kids Dash on Saturday. On the organiser's 2027 fee list, entry ranges from RM50 for the kids' dash to RM165 for international marathon runners."
     },
     {
       "question": "Where is the Twincity Marathon 2027 held?",
-      "answer": "The Twincity Marathon 2027 is held in Cyberjaya, located in Sepang, Selangor, Malaysia. Cyberjaya serves as the venue and city for this event, providing the setting for all four race distances offered to participants during the 2027 edition."
+      "answer": "In Putrajaya. Since 2026 the Sunday races have started and finished at Dataran Putrajaya in Presint 3, having moved from Cyberjaya to fit a larger field, and in 2026 the marathon route ran through Cyberjaya before returning. The Saturday races start at the Putrajaya International Convention Centre (PICC)."
     }
   ],
   "reliability_score": 35,
@@ -57,10 +61,22 @@
   ],
   "source_mix": [
     {
-      "url": "https://aims-worldrunning.org/calendar.html",
-      "label": "aims-worldrunning.org",
+      "url": "https://twincitymarathon.com/",
+      "label": "Twincity Marathon official site (2027 schedule, fees and race-pack details)",
+      "type": "official",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://aims-worldrunning.org/races/10441.html",
+      "label": "AIMS race page (2027 date)",
       "type": "aggregator",
-      "last_checked": "2026-08-25"
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.jomkitalari.com/twincity-marathon-2026/",
+      "label": "Jom Kita Lari report on the 2026 edition (start moved to Dataran Putrajaya)",
+      "type": "other",
+      "last_checked": "2026-09-29"
     },
     {
       "url": "https://Finishers.com",

@@ -4,18 +4,19 @@
   "name": "Vientiane International Marathon",
   "category_id": "full-marathon",
   "region_id": "laos",
-  "short_description": "The Vientiane International Marathon takes place on December 6, 2026, at Saphangmo in Vientiane, Laos, offering 42.195km, 21km, 10km, and 5km distances.",
-  "ai_summary": "The Vientiane International Marathon is scheduled for December 6, 2026, in Vientiane, Laos, based at the Saphangmo venue. The event offers four distance options: a full marathon (42.195km), a half marathon (21km), a 10km race, and a 5km race, giving runners of different experience levels a chance to participate.",
+  "short_description": "The Vientiane International Marathon takes place on Sunday 6 December 2026 from the That Luang grounds in Vientiane, Laos, offering 42.195 km, 21.1 km, 10 km and 5 km distances.",
+  "ai_summary": "The Vientiane International Marathon is scheduled for Sunday 6 December 2026 in Vientiane, Laos, starting and finishing at the That Luang grounds. Organised by Events for Good (EFG) Laos and sanctioned by the Lao Athletic Federation, it offers four distances: a full marathon (42.195 km), a half marathon (21.1 km), a 10 km race and a 5 km race. The marathon starts at 3.30am.",
   "core_facts": {
     "date": "2026-12-06",
     "distance_km": [
-      42,
-      21,
+      42.195,
+      21.1,
       10,
       5
     ],
     "primary_distance_km": 42.195,
-    "venue": "Saphangmo, Vientiane",
+    "organizer": "Events for Good (EFG) Laos, sanctioned by the Lao Athletic Federation",
+    "venue": "That Luang grounds (Thatluang Grounds), Vientiane",
     "city": "Vientiane",
     "country": "Laos"
   },
@@ -39,15 +40,15 @@
   "faqs": [
     {
       "question": "When is the Vientiane International Marathon?",
-      "answer": "The Vientiane International Marathon is scheduled to take place on December 6, 2026. This date applies to all four race distances offered at the event, which are held at the Saphangmo venue in Vientiane, Laos. No other date details have been released at this time."
+      "answer": "The Vientiane International Marathon is on Sunday 6 December 2026. The organiser's 2026 maps give start times of 3.30am for the marathon, 4.30am for the half marathon and 5am for the 10 km, with cut-offs at 10am, 8am and 7.30am. Race packs are collected at the That Luang grounds on 4 and 5 December."
     },
     {
       "question": "What distances are offered at the Vientiane International Marathon?",
-      "answer": "The Vientiane International Marathon offers four distance options for participants: a full marathon of 42.195km, a half marathon of 21km, a 10km race, and a 5km race. This range allows both competitive marathoners and casual runners to take part in the same event."
+      "answer": "The Vientiane International Marathon offers four distances: a 42.195 km full marathon, a 21.1 km half marathon, a 10 km race and a 5 km fun run or walk. The marathon and half marathon pass Patuxay and run along the Mekong, and the organiser's maps show water stations every 2 km."
     },
     {
       "question": "Where is the Vientiane International Marathon held?",
-      "answer": "The race is held at Saphangmo, located in Vientiane, the capital city of Laos. Saphangmo serves as the venue for all four race distances offered, including the full marathon, half marathon, 10km, and 5km events taking place on December 6, 2026."
+      "answer": "The race starts and finishes at the That Luang grounds in Vientiane, the capital of Laos, where race packs are also collected. The routes run south past Patuxay into the city centre and along the Mekong towards Wattay International Airport. Under the organiser's 2024 rules, runners share the roads with traffic."
     }
   ],
   "reliability_score": 0,
@@ -57,10 +58,10 @@
   ],
   "source_mix": [
     {
-      "url": "https://vientianemarathon.com",
-      "label": "Official race website",
+      "url": "https://efglaos.com/events/vientiane-international-marathon",
+      "label": "Organiser's event page (Events for Good Laos)",
       "type": "official",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-09-29"
     },
     {
       "url": "https://ahotu.com",
@@ -73,7 +74,7 @@
   "cta_links": [
     {
       "label": "Visit official site",
-      "url": "https://vientianemarathon.com",
+      "url": "https://efglaos.com/events/vientiane-international-marathon",
       "type": "official_website"
     }
   ],

@@ -4,8 +4,8 @@
   "name": "The Kiprun Singapore 2026",
   "category_id": "half-marathon",
   "region_id": "singapore",
-  "short_description": "The Kiprun Singapore 2026 is a half-marathon event on September 27, 2026, in Kallang, Singapore.",
-  "ai_summary": "The Kiprun Singapore 2026 is a half-marathon event scheduled for September 27, 2026, in Kallang, Singapore. Organized by MetaSport and presented by Decathlon Singapore, the race offers four distance options: 21.1km, 10km, 5km, and a 0.67km event, based at the Decathlon Singapore Lab.",
+  "short_description": "The Kiprun Singapore 2026 was planned as a half marathon on 27 September 2026 in Kallang, Singapore, but haze led the organisers to cut the 21.1 km to 10 km on race morning, The Straits Times reported.",
+  "ai_summary": "The Kiprun Singapore 2026, the first edition, was held on Sunday 27 September 2026, organised by MetaSport and presented by Decathlon Singapore, starting on Nicoll Highway and finishing at the Decathlon Singapore Lab in Kallang. Categories were a 21.1 km half marathon, 10 km, 5 km and a 670 m Kids Dash. The Straits Times reported that, with 24-hour PSI readings in the unhealthy range, the half marathon was shortened to 10 km, the awards ceremony was cancelled and all categories became non-competitive; the other distances were unchanged.",
   "core_facts": {
     "date": "2026-09-27",
     "distance_km": [
@@ -16,7 +16,7 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "MetaSport (presented by Decathlon Singapore)",
-    "venue": "Decathlon Singapore Lab, Kallang",
+    "venue": "Nicoll Highway (start) to Decathlon Singapore Lab, Kallang (finish)",
     "city": "Singapore",
     "country": "Singapore"
   },
@@ -36,35 +36,35 @@
   ],
   "excerpt_quotes": [],
   "research_highlights": [
-    "This is the inaugural edition of The Kiprun Singapore — organised by MetaSport and presented by Decathlon Singapore, held for the first time on 27 September 2026, so there is no participant track record from past editions to draw on.",
-    "Four race categories are offered: a 21.1km Half Marathon, 10km Run, 5km Run, and a 670m Kids Dash.",
-    "The event village and race start/finish are based at the Decathlon Singapore Lab near the National Stadium in Kallang.",
-    "Organisers have promoted Super Early Bird pricing starting from S$78 for the Half Marathon, S$60 for the 10km, and S$10 for the Kids Dash, pitched as below typical market rates for Singapore races.",
-    "Organisers describe the course as designed with wide roads and minimal turns, structured wave starts, and 5km timing splits aimed at a fast, PB-friendly experience — though this reflects race marketing rather than participant-verified course reports."
+    "This was the inaugural edition of The Kiprun Singapore, organised by MetaSport and presented by Decathlon Singapore, held on 27 September 2026; Decathlon previously organised the Decathlon Run, last held in 2022.",
+    "Four race categories were offered: a 21.1km Half Marathon, 10km Run, 5km Run and a 670m Kids Dash.",
+    "The 21.1km, 10km and 5km races started on Nicoll Highway, with a pre-start area on Mountbatten Road, and finished at the Decathlon Singapore Lab near the National Stadium in Kallang, where the festival village was.",
+    "Super Early Bird prices started from S$78 for the Half Marathon, S$60 for the 10km and S$10 for the Kids Dash, before GST.",
+    "The planned 21.1km route took in Sheares Avenue, Marina Bay Sands, Gardens by the Bay and Marina Barrage, with aid stations roughly every 2.5km; those sections were dropped when the half marathon was cut to a 10km loop because of haze."
   ],
   "research_watchouts": [
-    "As of the most recent checks, official certified route maps had not yet been released by organisers, so course specifics (turns, surface, exact elevation) are not independently confirmed.",
-    "Because this is a brand-new, first-year event, there are no participant race reports, reviews, or community discussion yet covering actual race-day execution, crowd support, or logistics.",
-    "Some published 'preview' articles about this race speculate on course location (e.g. Marina Bay area) based on promotional imagery rather than confirmed route details — prospective participants should treat such details as unconfirmed."
+    "On race morning the organisers cut the 21.1km to 10km after air-quality readings at 2am exceeded their action thresholds, and cancelled all rankings and the awards ceremony, according to The Straits Times.",
+    "The race terms, as checked by The Straits Times, say registration fees are not refunded if the event is changed or cancelled unless the organisers state otherwise; no compensation for half-marathon entrants had been announced when Mothership and SportPlus reported.",
+    "Haze was already a concern in race week: SportPlus reported that the organisers posted air-quality advisories at race-pack collection on 19 September, saying they were monitoring NEA's 24-hour PSI and 1-hour PM2.5 readings."
   ],
   "research_confidence": "low",
   "research_last_updated": "2026-08-18",
   "faqs": [
     {
       "question": "When is The Kiprun Singapore 2026 taking place?",
-      "answer": "The Kiprun Singapore 2026 is scheduled to take place on September 27, 2026. The event will be held in Kallang, Singapore, at the Decathlon Singapore Lab venue, and is organized by MetaSport in partnership with Decathlon Singapore for participants of various running distances."
+      "answer": "It was held on Sunday 27 September 2026, the first edition. Start times stayed as planned, with half-marathon waves from 5.10am, the 10 km at 6am and the 5 km from 7.25am, but the organisers announced at about 3am that the half marathon would be shortened to 10 km because of haze."
     },
     {
       "question": "What distances are offered at this event?",
-      "answer": "The Kiprun Singapore 2026 offers four distance categories for participants to choose from: a 21.1km half-marathon as the primary distance, along with 10km, 5km, and a shorter 0.67km event, catering to a range of runner experience levels and fitness goals."
+      "answer": "Four categories: a 21.1 km half marathon, a 10 km, a 5 km and a 670 m Kids Dash. In 2026 the half marathon was cut to 10 km on race morning because of haze, while the other distances were unchanged, and all categories became non-competitive with the awards ceremony cancelled."
     },
     {
       "question": "Where is the race held?",
-      "answer": "The race takes place at the Decathlon Singapore Lab, located in Kallang, Singapore. This venue serves as the central hub for The Kiprun Singapore 2026, hosting all distance categories including the 21.1km half-marathon, 10km, 5km, and the 0.67km event for participants."
+      "answer": "The 21.1 km, 10 km and 5 km started on Nicoll Highway, with runners entering the start pens from a pre-start area on Mountbatten Road, and finished at the Decathlon Singapore Lab in Kallang, where the festival village was. The Kids Dash started at Stadium Crescent. The nearest MRT station is Mountbatten."
     },
     {
       "question": "Who organizes The Kiprun Singapore 2026?",
-      "answer": "The Kiprun Singapore 2026 is organized by MetaSport, presented by Decathlon Singapore. This partnership brings together event management expertise and a well-known sporting goods retailer to deliver the race, which includes multiple distances held at the Decathlon Singapore Lab in Kallang."
+      "answer": "MetaSport organises The Kiprun Singapore, and Decathlon Singapore presents it and co-organises. The two made the call to shorten the 2026 half marathon because of haze, citing their event contingency plans and SportSG and National Environment Agency guidance, and told participants by social media, email and text message."
     }
   ],
   "reliability_score": 66,
@@ -73,6 +73,24 @@
     "singapore"
   ],
   "source_mix": [
+    {
+      "url": "https://sg.news.yahoo.com/decathlon-kiprun-half-marathon-shortened-234040576.html",
+      "label": "The Straits Times (via Yahoo News Singapore): half marathon shortened to 10km because of haze",
+      "type": "other",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://mothership.sg/2026/09/decathlon-half-marathon-shortened-haze/",
+      "label": "Mothership report on the haze-shortened race",
+      "type": "other",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.metasport.com/wp-content/uploads/2026/09/The-Kiprun-Singapore-2026-Runners-Guide-28Aug.pdf",
+      "label": "Official Runners' Guide (start, finish, routes, schedule)",
+      "type": "official",
+      "last_checked": "2026-09-29"
+    },
     {
       "url": "https://www.justrunlah.com/race/the-kiprun-singapore-2026/",
       "label": "justrunlah.com",

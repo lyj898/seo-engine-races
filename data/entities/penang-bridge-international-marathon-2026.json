@@ -4,8 +4,8 @@
   "name": "Penang Bridge International Marathon",
   "category_id": "full-marathon",
   "region_id": "malaysia",
-  "short_description": "The Penang Bridge International Marathon is a full marathon, half marathon, and 10 km race held on Penang Bridge, George Town, Malaysia on December 13, 2026.",
-  "ai_summary": "The Penang Bridge International Marathon is a road race scheduled for December 13, 2026, held on Penang Bridge in George Town, Malaysia. It offers three distance options: a full marathon (42.195 km), a half marathon (21.1 km), and a 10 km run. The event is organized by the Penang State Tourism Development office with support from PETACE.",
+  "short_description": "The Penang Bridge International Marathon is a full marathon, half marathon and 10 km race on Sunday 13 December 2026, starting at Aspen Vision City in Batu Kawan, Penang, and run over the Penang Second Bridge.",
+  "ai_summary": "The Penang Bridge International Marathon is a road race scheduled for Sunday 13 December 2026. Since 2024 it has started and finished at Aspen Vision City in Batu Kawan, on the Penang mainland, with the course run out and back over the Sultan Abdul Halim Mu'adzam Shah Bridge (the Penang Second Bridge). It offers three distances: a full marathon (42.195 km), a half marathon (21.1 km) and a 10 km run. The event is organised by the Penang State Tourism Development office with support from PETACE.",
   "core_facts": {
     "date": "2026-12-13",
     "distance_km": [
@@ -15,9 +15,8 @@
     ],
     "primary_distance_km": 42.195,
     "organizer": "Penang State Tourism Development office (supported by Penang State EXCO for Tourism and Creative Economy - PETACE)",
-    "registration_deadline": "2025-10-15",
-    "venue": "Penang Bridge",
-    "city": "George Town",
+    "venue": "Aspen Vision City, Batu Kawan (course over the Sultan Abdul Halim Mu'adzam Shah Bridge, the Penang Second Bridge)",
+    "city": "Batu Kawan, Penang",
     "country": "Malaysia"
   },
   "pros": [
@@ -40,15 +39,15 @@
   "faqs": [
     {
       "question": "When is the Penang Bridge International Marathon held?",
-      "answer": "The race is scheduled for December 13, 2026. It takes place on Penang Bridge in George Town, Malaysia, and includes full marathon, half marathon, and 10 km distance options for participants."
+      "answer": "The race is on Sunday 13 December 2026, starting and finishing at Aspen Vision City in Batu Kawan on the Penang mainland. It is a night race: the organiser gives start times of 1.30am for the full marathon, 3am for the half marathon and 6.30am for the 10 km. The final race pack collection is at Aspen Vision City."
     },
     {
       "question": "What distances can I run in this race?",
-      "answer": "Participants can choose from three distances: a full marathon of 42.195 km, a half marathon of 21.1 km, or a 10 km run, all held on the Penang Bridge course in George Town, Malaysia."
+      "answer": "Runners choose from three distances: a 42.195 km full marathon, a 21.1 km half marathon or a 10 km run. All three go out and back over the Penang Second Bridge, not the first Penang Bridge; the full marathon reaches the island end near Bayan Lepas. Qualifying times are 7 hours, 3 hours 30 minutes and 1 hour 30 minutes."
     },
     {
-      "question": "Who organizes the Penang Bridge International Marathon?",
-      "answer": "The event is organized by the Penang State Tourism Development office, with support from the Penang State EXCO for Tourism and Creative Economy (PETACE), reflecting official state involvement in Malaysia."
+      "question": "Who organises the Penang Bridge International Marathon?",
+      "answer": "The event is organised by the Penang State Tourism Development office, with support from the Penang State EXCO for Tourism and Creative Economy (PETACE), and the course is certified by AIMS. The race moved to Batu Kawan and the Second Bridge in 2024 because of light rail construction on Penang island."
     }
   ],
   "reliability_score": 70,

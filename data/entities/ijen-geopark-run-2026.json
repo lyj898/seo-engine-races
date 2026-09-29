@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "indonesia",
   "short_description": "A half-marathon event on August 23, 2026, at Paltuding Camp in the Kawasan Ijen Geopark, Banyuwangi, Indonesia.",
-  "ai_summary": "The Ijen Geopark Run 2026 is a half-marathon event scheduled for August 23, 2026, held at Paltuding Camp within the Kawasan Ijen Geopark in Banyuwangi, Jawa Timur, Indonesia. Organized by the Geopark Run Series, the race offers three distance options: 5km, 10km, and 21.1km, with the half-marathon serving as the primary distance.",
+  "ai_summary": "The Ijen Geopark Run 2026 is a half-marathon event scheduled for August 23, 2026, held at Paltuding Camp within the Kawasan Ijen Geopark in Banyuwangi, Jawa Timur, Indonesia. Organised by Gamatera with Beyond Run as race management, as the opening race of the Geopark Run Series 2026-2027, the race offers three distance options: 5km, 10km, and 21.1km, with the half-marathon serving as the primary distance.",
   "core_facts": {
     "date": "2026-08-23",
     "distance_km": [
@@ -14,7 +14,7 @@
       21.1
     ],
     "primary_distance_km": 21.1,
-    "organizer": "Geopark Run Series",
+    "organizer": "Gamatera, with Beyond Run as race management (Geopark Run Series)",
     "venue": "Paltuding Camp, Kawasan Ijen Geopark, Banyuwangi",
     "city": "Banyuwangi, Jawa Timur",
     "country": "Indonesia"
@@ -37,13 +37,12 @@
     "This is the inaugural edition of the Ijen Geopark Run brand and the opening leg of the new Geopark Run Series 2026-2027, held in the Ijen UNESCO Global Geopark area of Banyuwangi.",
     "Race day is Sunday 23 August 2026, with race pack collection (RPC) scheduled for 21-22 August 2026 in Banyuwangi city.",
     "Categories on offer are 5K, 10K and Half Marathon (21K).",
-    "Organizers describe roughly 2,000 total slots with a limited 'Super Early Bird' batch of only 100 slots, and registration ran from 22 May to 19 July 2026.",
+    "Regular entry was Rp 300,000 (5K), Rp 350,000 (10K) and Rp 400,000 (21K), with a 50% Super Early Bird rate for the first 100 registrants, per the official FAQ.",
     "The venue/start area is listed as Bumi Perkemahan Paltuding – Curah Macan, Tamansari, Licin, Banyuwangi — the same volcanic mountain area used for other Ijen sport-tourism events."
   ],
   "research_watchouts": [
-    "This is a first-year event under this new name/format, so there are no participant race reports yet for the road-race distances (5K/10K/21K) specifically.",
-    "A related but distinct trail event in the same Ijen Geopark area (Ijen Green Trail Run 2025, with 8/14/25/50km trail categories) was described by finishers as having a genuinely tough, demanding course with steep climbs and rocky, uneven terrain — worth noting since the Geopark Run road event uses the same volcanic highland region.",
-    "Because the event sits in the Ijen crater highlands, expect cool mountain conditions rather than lowland tropical heat, based on how organizers and past related events describe the terrain."
+    "The course is mixed terrain: the official race-day page describes mostly asphalt, with some trail sections on the 10K and 21K, and asks runners to watch their footing on those sections.",
+    "The organiser's race-day page, citing BMKG, expected about 5-12Â°C at 5am and 10-18Â°C at 7am at Paltuding, and advised bringing a windbreaker or jacket for before and after the race."
   ],
   "research_confidence": "low",
   "research_last_updated": "2026-08-03",
@@ -58,7 +57,7 @@
     },
     {
       "question": "Who organizes the Ijen Geopark Run 2026?",
-      "answer": "The Ijen Geopark Run 2026 is organized by the Geopark Run Series. The race takes place at Paltuding Camp within the Kawasan Ijen Geopark in Banyuwangi, Jawa Timur, Indonesia, as part of the organizer's broader series of geopark-based running events."
+      "answer": "The Ijen Geopark Run 2026 is organised by Gamatera, with Beyond Run as race management, according to the official FAQ. It was the opening race of the Geopark Run Series 2026-2027, which continues at other Indonesian geoparks, and started and finished at the Paltuding campground in Banyuwangi, East Java."
     }
   ],
   "reliability_score": 99,
@@ -75,10 +74,10 @@
       "last_checked": "2026-08-18"
     },
     {
-      "url": "https://geoparkrun.com/faq",
-      "label": "geoparkrun.com",
-      "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "url": "https://ijen.geoparkrun.com/faq",
+      "label": "Official race FAQ",
+      "type": "official",
+      "last_checked": "2026-09-29"
     },
     {
       "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",

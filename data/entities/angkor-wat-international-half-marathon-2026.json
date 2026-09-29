@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "cambodia",
   "short_description": "A half marathon and multi-distance road race held at the Angkor Wat temple complex in Siem Reap, Cambodia, scheduled for December 6, 2026.",
-  "ai_summary": "The Angkor Wat International Half Marathon is set to take place on December 6, 2026, at the Angkor Wat temple complex within Angkor Archaeological Park in Siem Reap, Cambodia. Organized by the National Olympic Committee of Cambodia together with the Athletics Federation of Cambodia, the event offers four distance options: 21.1km, 10km, 5km, and 3km.",
+  "ai_summary": "The Angkor Wat International Half Marathon is set to take place on Sunday 6 December 2026, starting and finishing in front of Angkor Wat within Angkor Archaeological Park in Siem Reap, Cambodia. It is organised by the Angkor Wat International Half Marathon Organization Executive Committee Cambodia and Japan, co-organised by the National Olympic Committee of Cambodia and sanctioned by AIMS and the Khmer Amateur Athletics Federation. The event offers four distances: 21.1 km, 10 km, 5 km and 3 km.",
   "core_facts": {
     "date": "2026-12-06",
     "distance_km": [
@@ -15,7 +15,7 @@
       3
     ],
     "primary_distance_km": 21.1,
-    "organizer": "National Olympic Committee of Cambodia, with the Athletics Federation of Cambodia",
+    "organizer": "Angkor Wat International Half Marathon Organization Executive Committee Cambodia and Japan; co-organised by the National Olympic Committee of Cambodia; sanctioned by AIMS and the Khmer Amateur Athletics Federation",
     "venue": "Angkor Wat temple complex, Angkor Archaeological Park",
     "city": "Siem Reap",
     "country": "Cambodia"
@@ -44,11 +44,11 @@
     },
     {
       "question": "What distances are offered at this race?",
-      "answer": "The event offers four distance categories for participants to choose from: a 21.1km half marathon, which is the primary distance, along with 10km, 5km, and 3km options, making the race accessible to runners of varying experience levels and fitness."
+      "answer": "The event offers four distances: a 21.1 km half marathon, which is the headline race, plus 10 km, 5 km and 3 km. The 2026 start times are 5.50am for the half marathon, 6.10am for the 5 km, 6.25am for the 3 km and 6.40am for the 10 km. The organiser says the 2026 course map may still change."
     },
     {
-      "question": "Who organizes the Angkor Wat International Half Marathon?",
-      "answer": "The race is organized jointly by the National Olympic Committee of Cambodia and the Athletics Federation of Cambodia. These organizations oversee the planning and execution of the event, which takes place at the historic Angkor Wat temple complex in Siem Reap, Cambodia."
+      "question": "Who organises the Angkor Wat International Half Marathon?",
+      "answer": "The race is organised by the Angkor Wat International Half Marathon Organization Executive Committee Cambodia and Japan, with the National Olympic Committee of Cambodia as co-organiser. It is sanctioned by AIMS and the Khmer Amateur Athletics Federation. Held every December since 1996, it raises money to support landmine victims."
     }
   ],
   "reliability_score": 100,
@@ -59,10 +59,10 @@
   ],
   "source_mix": [
     {
-      "url": "https://angkorhospital.org/angkor-wat-international-half-marathon-2026/",
-      "label": "Official race website",
-      "type": "official",
-      "last_checked": "2026-08-25"
+      "url": "https://kh.checkpointspot.asia/event/Angkor-Wat-International-HM-2026",
+      "label": "Organiser's 2026 race information and registration page (Checkpoint Spot)",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
     },
     {
       "url": "https://en.wikipedia.org/wiki/Angkor_Wat_International_Half_Marathon",
@@ -74,8 +74,8 @@
   "affiliate_links": [],
   "cta_links": [
     {
-      "label": "Visit official site",
-      "url": "https://angkorhospital.org/angkor-wat-international-half-marathon-2026/",
+      "label": "Visit race page",
+      "url": "https://kh.checkpointspot.asia/event/Angkor-Wat-International-HM-2026",
       "type": "official_website"
     }
   ],

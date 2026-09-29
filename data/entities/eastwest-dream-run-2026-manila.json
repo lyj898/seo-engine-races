@@ -5,11 +5,11 @@
   "category_id": "half-marathon",
   "region_id": "philippines",
   "short_description": "EastWest Dream Run 2026 - Manila is a half-marathon event on August 2, 2026, at Filinvest Alabang in Muntinlupa, Philippines.",
-  "ai_summary": "EastWest Dream Run 2026 - Manila is a half-marathon event scheduled for August 2, 2026, at Filinvest Alabang in Muntinlupa, Philippines. Organized by Runrio under the EastWest Dream Run brand, the event offers multiple distance options including 21.1km, 10km, 5km, 3km, and 1km races.",
+  "ai_summary": "EastWest Dream Run 2026 - Manila is a half-marathon event scheduled for August 2, 2026, at Filinvest Alabang in Muntinlupa, Philippines. Organized by Runrio under the EastWest Dream Run brand, the event offers multiple distance options including 21.1km, 10km and 5km races, a 3km team race for groups of four and a 1km dog run.",
   "core_facts": {
     "date": "2026-08-02",
     "distance_km": [
-      21,
+      21.1,
       10,
       5,
       3,
@@ -77,16 +77,16 @@
     }
   ],
   "research_highlights": [
-    "The Manila leg is held in Filinvest City, Alabang (Muntinlupa), a course described by a local blog as tree-lined and walkable with traffic-light-controlled stretches rather than open traffic.",
-    "Categories on offer are 1K Dog Run, 3K, 5K, 10K, and 21K, so the event is designed to accommodate everyone from first-timers and pet owners to more serious 21K runners.",
-    "The first edition (2025, held across Davao, Cebu and Manila/Alabang) drew a large turnout — around 14,000 runners overall, with over 6,000 at the Davao and Cebu legs combined and a strong crowd again at the Alabang finale.",
-    "After finishing, there is a race village/post-race area with live music, food (free taho and sorbetes were given out in 2025), booths, and activities like Zumba, extending the event beyond just the run.",
-    "Race organizer is RUNRIO, an established Philippine race management outfit, running courses measured to RUNRIO standards with marshaled/barricaded routes."
+    "The Manila leg runs through Filinvest City, Alabang (Muntinlupa), which the organiser describes as green and walkable with tree-lined roads; start and finish were at the Filinvest Event Grounds.",
+    "Categories on offer are the 1K Dog Run, a 3K Group of 4, 5K, 10K and 21K; the 21K started at 3am, the 5K at 5am, the 3K at 5.30am and the dog run at 6am.",
+    "The 2026 Manila leg, the first of a four-city series in its second year, drew nearly 7,000 runners, families and dogs by the organiser's count; the results list 4,674 names across the five categories.",
+    "The post-race village had sponsor activities, games and a recovery lounge with massages, and the organiser gave away over P500,000 in raffle prizes.",
+    "Race organiser is RUNRIO, which measures its courses to RUNRIO standards, with course boundaries marked by barriers, traffic cones and other markings."
   ],
   "research_watchouts": [
     "Parking near the venue can be tight even for early arrivals — one 2025 participant found designated race parking still closed on arrival and had to park at a nearby hotel instead.",
     "Race takes place in the heat of the Philippine morning sun; a 2025 participant specifically noted finishing 'under the sun' as a physical challenge.",
-    "Course/route safety rules are strict: participants who fail to keep pace are picked up by an ambulance from around 7:00am and are automatically disqualified if not finished by then.",
+    "The 2026 FAQ says an ambulance picks up all remaining runners on the route by the last cut-off time, and they are taken to the finish venue; the cut-off times themselves were not published.",
     "No wheelchairs, bikes, skates, or strollers are permitted on the race route, which may affect participants planning to bring family with those items."
   ],
   "research_confidence": "low",
@@ -94,11 +94,11 @@
   "faqs": [
     {
       "question": "When is the EastWest Dream Run 2026 - Manila?",
-      "answer": "The EastWest Dream Run 2026 - Manila is scheduled to take place on August 2, 2026. The event will be held at Filinvest Alabang in Muntinlupa, Philippines, offering participants a full day of racing across several available distance categories organized by Runrio."
+      "answer": "The EastWest Dream Run 2026 - Manila took place on Sunday 2 August 2026 at Filinvest Alabang in Muntinlupa, with the 21K and 10K starting at 3am. It was the opening leg of the 2026 series, which continued in Iloilo, while the Clark leg planned for 30 August was postponed because of the weather."
     },
     {
       "question": "What distances are offered at this race?",
-      "answer": "This race offers five distance options for participants to choose from: 21.1km (the primary half-marathon distance), 10km, 5km, 3km, and 1km. This range allows runners of different experience levels and fitness goals to participate in an event that suits them."
+      "answer": "The race offers five categories: a 21.1km half marathon, which is the headline distance, a 10km, a 5km, a 3km team race for groups of four and a 1km dog run. Age limits apply, from 18 for the 21K to seven for the 3K group, and dog-run owners must be 18."
     },
     {
       "question": "Where is the race held?",

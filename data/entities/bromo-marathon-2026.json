@@ -4,18 +4,19 @@
   "name": "Bromo Marathon 2026",
   "category_id": "full-marathon",
   "region_id": "indonesia",
-  "short_description": "Bromo Marathon 2026 is a full-marathon race held on September 6, 2026, at Plataran Bromo in Tosari, East Java, Indonesia.",
-  "ai_summary": "Bromo Marathon 2026 is a full-marathon event scheduled for September 6, 2026, at Plataran Bromo in Tosari, East Java, Indonesia. Runners can choose from five distances: 42.195km, 21.1km, 10km, 5km, and 2.5km, catering to a range of experience levels.",
+  "short_description": "Bromo Marathon 2026 was a mountain marathon with 21K, 10K, 5K and kids' races, run on 6 September 2026 from Plataran Bromo in Tosari, East Java, Indonesia.",
+  "ai_summary": "Bromo Marathon 2026, the 13th edition, was run on Sunday 6 September 2026 from Plataran Bromo in Tosari, Pasuruan Regency, East Java, Indonesia, and organised by Galanesia. It offered a 42K marathon, a 21K, a 10K, a 5K and a 2.5K kids' race on a mix of asphalt and dirt trail. The route was changed in 2026 after forest fires in the Bromo area.",
   "core_facts": {
     "date": "2026-09-06",
     "distance_km": [
-      42.195,
-      21.1,
-      10,
-      5,
-      2.5
+      42.67,
+      20.91,
+      9.91,
+      5.08,
+      2.49
     ],
-    "primary_distance_km": 42.195,
+    "primary_distance_km": 42.67,
+    "organizer": "Galanesia",
     "venue": "Plataran Bromo, Jawa Timur",
     "city": "Tosari, East Java",
     "country": "Indonesia"
@@ -40,32 +41,33 @@
     }
   ],
   "research_highlights": [
-    "The full marathon starts at 1,840m altitude and includes a demanding climb to around 2,469–2,491m near the 30km mark, making the middle section a significant uphill test.",
+    "On the organiser's published course (drawn for 2024), the full marathon starts at 1,840m altitude and climbs to around 2,469–2,491m near the 30km mark, making the middle section a significant uphill test.",
     "The 21K half marathon has a reported elevation gain of 977 meters, described by organisers as one of Southeast Asia's most challenging half marathons.",
     "Terrain is mixed: volcanic sand, rocky paths, forest trail, and paved roads, so trail running shoes are strongly recommended and sandals/barefoot running are banned.",
     "Cut-off times are 10 hours for the 42K, 7 hours for the 21K, 4 hours for the 10K, and 3 hours for the 5K.",
     "BIB collection and mandatory race briefing (for 42K/21K) happen the day before race day (Saturday) at Plataran Bromo — no same-day race packet pickup is permitted."
   ],
   "research_watchouts": [
-    "Guest house and accommodation capacity in Tosari is limited during race weekend; the 2024 edition closed registration early partly due to lodging shortages, with some runners housed as far as Probolinggo.",
+    "Accommodation in Tosari is limited during race weekend, and the organiser recommends booking early.",
     "Parking near the start/finish is limited and fills up quickly, so organisers strongly recommend using the official shuttle instead of driving.",
     "Mandatory gear (hydration pack, rain jacket, emergency blanket, whistle, headlamp for 42K, etc.) is checked at BIB collection and may be spot-checked on course, with missing gear resulting in disqualification.",
-    "Road running shoes may lack sufficient grip on the volcanic sand and rocky sections of the course."
+    "Road running shoes may lack sufficient grip on the volcanic sand and rocky sections of the course.",
+    "The 2026 route was changed after forest fires, but no 2026 route map was published; the organiser's course pages still describe the 2024 route, and its FAQ gives the 42K climb as +193m while its route file shows 1,937m of ascent."
   ],
   "research_confidence": "low",
   "research_last_updated": "2026-08-09",
   "faqs": [
     {
-      "question": "When is the Bromo Marathon 2026?",
-      "answer": "The Bromo Marathon 2026 is scheduled to take place on September 6, 2026. This date applies to the full event, which includes the primary marathon distance of 42.195km as well as several shorter distance options held at the same venue in East Java, Indonesia."
+      "question": "When was the Bromo Marathon 2026?",
+      "answer": "The Bromo Marathon 2026, the 13th edition, was run on Sunday 6 September 2026. The 42K started at 6am, followed by the 21K at 6.30am, the 10K at 7am, the 5K at 7.30am and the kids' 2.5K at 7.45am. Bibs were collected in Tosari on Saturday 5 September."
     },
     {
       "question": "Where is the Bromo Marathon 2026 held?",
-      "answer": "The race takes place at Plataran Bromo, located in Tosari, East Java, Indonesia. This venue serves as the central location for all five distance categories offered during the event, making it the starting point for runners participating in the 2026 edition."
+      "answer": "The race started and finished at Plataran Bromo in Wonopolo, Ngadiwono, Tosari, in Pasuruan Regency, East Java, at about 1,840 m above sea level. The courses ran through Tengger villages, farmland and forest on the slopes of Mount Bromo, but the 2026 route did not offer views of Bromo itself."
     },
     {
       "question": "What distances are offered at the Bromo Marathon 2026?",
-      "answer": "The event offers five distance options: a full marathon of 42.195km, a half marathon of 21.1km, plus 10km, 5km, and 2.5km races. The 42.195km full marathon is the primary distance, allowing participants to choose a distance that matches their fitness and experience."
+      "answer": "The 2026 edition offered five races: the 42K marathon, 21K, 10K, 5K and a 2.5K kids' race. The organiser's course pages give the lengths as 42.67 km, 20.91 km, 9.91 km, 5.08 km and 2.49 km, although those pages describe the 2024 route and the 2026 route was changed after forest fires."
     }
   ],
   "reliability_score": 70,

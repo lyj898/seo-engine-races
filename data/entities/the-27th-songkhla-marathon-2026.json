@@ -5,15 +5,17 @@
   "category_id": "full-marathon",
   "region_id": "thailand",
   "short_description": "The 27th Songkhla Marathon 2026 is a full and half marathon event held on August 23, 2026, at Tinsulanonda Stadium in Songkhla, Thailand.",
-  "ai_summary": "The 27th Songkhla Marathon 2026 is a full marathon event scheduled for August 23, 2026, in Songkhla, Thailand, starting and finishing at Tinsulanonda Stadium. Participants can choose between the full marathon distance of 42.195 km or the half marathon distance of 21.1 km.",
+  "ai_summary": "The 27th Songkhla Marathon 2026 is a full marathon event scheduled for August 23, 2026, in Songkhla, Thailand, starting and finishing at Tinsulanonda Stadium. Sunday's programme has the full marathon (42.195 km, 3am start), the half marathon (21.1 km, 4am) and a 10 km mini marathon (4.45am), with a 5 km fun run on the evening of Saturday 22 August.",
   "core_facts": {
     "date": "2026-08-23",
     "distance_km": [
       42.195,
-      21.1
+      21.1,
+      10,
+      5
     ],
     "primary_distance_km": 42.195,
-    "venue": "Tinsulanonda Stadium, Songkhla",
+    "venue": "Black Chair Patio, Chalatat Road, Tinsulanonda Stadium, Songkhla",
     "city": "Songkhla",
     "country": "Thailand"
   },
@@ -49,31 +51,30 @@
   },
   "excerpt_quotes": [],
   "research_highlights": [
-    "Course starts and finishes at Tinsulanonda Stadium with views of the Gulf of Thailand and Songkhla Lake.",
+    "The 2026 marathon starts and finishes at the Black Chair Patio on Chalatat Road, loops through Songkhla old town, then runs out and back along Songkhla Lake to a turn at 21 km; the official elevation profile stays within about 15 m.",
     "The race gained World Athletics Road Race Label certification in 2023, marking it as an internationally recognised course.",
-    "Distances offered are 5K, 10K, half marathon (21K) and full marathon (42K), with the marathon starting as early as 3:00am to beat the heat.",
-    "Songkhla's August climate is hot and humid, with a mean daily maximum around 33°C (92°F), consistent with a runner's account of suffering heat effects after a 36°C race.",
-    "One long-time runner described the route as scenic and point-to-point, passing fishing boats, palm trees and a long low bridge, with organisers setting up impromptu refreshment stops at residents' gates."
+    "Distances offered are a 5 km fun run on Saturday evening, and a 10 km mini marathon, half marathon and full marathon on Sunday, with the marathon starting at 3:00am.",
+    "At Hat Yai airport, about 37 km inland, it was 25-26Â°C with mist and 94-100% humidity through the early hours of the 2026 marathon, rising to 30Â°C by 9am and 32Â°C by the 10am finish close."
   ],
   "research_watchouts": [
-    "Heat is a serious factor — one participant reported the race was very hot (36°C) and that he 'suffered badly from the heat for weeks afterwards.'",
-    "Organisation has historically been described as 'good but very laid-back' with crowd support present but not large in numbers, based on an older edition review.",
-    "Available first-hand participant reviews are sparse and mostly from much earlier editions (2000s), so recent-edition specifics (2023 World Athletics label era) are not yet documented by runner reviews."
+    "The marathon has a 7-hour limit with checkpoint cut-offs from 5 km (3:50am) to 40 km (9:40am); runners who miss one are disqualified, transported back to the finish and do not receive a finisher medal or shirt.",
+    "Entry fees are not refunded under any circumstances, entries cannot be transferred, and race bibs must be collected in person, with passports required for foreign runners.",
+    "No runner accounts of the 2026 race were found; the first-hand reviews available online describe editions from the 2000s."
   ],
   "research_confidence": "low",
   "research_last_updated": "2026-08-09",
   "faqs": [
     {
       "question": "When is the 27th Songkhla Marathon 2026 taking place?",
-      "answer": "The 27th Songkhla Marathon 2026 is scheduled to take place on August 23, 2026. The race is held in Songkhla, Thailand, with Tinsulanonda Stadium serving as the venue for the event on that date."
+      "answer": "The 27th Songkhla Marathon 2026 took place on Sunday 23 August 2026, with the marathon starting at 3am, the half marathon at 4am and the 10 km at 4.45am. The 5 km fun run was held the evening before, on Saturday 22 August, starting at 6.10pm, all from Tinsulanonda Stadium in Songkhla."
     },
     {
       "question": "What distances are offered at this race?",
-      "answer": "The 27th Songkhla Marathon 2026 offers two distance options for participants: a full marathon distance of 42.195 kilometers and a half marathon distance of 21.1 kilometers, allowing runners to choose the race length that suits them."
+      "answer": "The 27th Songkhla Marathon 2026 offers four distances: a full marathon of 42.195 km, a half marathon of 21.1 km, a 10 km mini marathon and a 5 km fun run. The first three are run on Sunday morning, while the fun run takes place on Saturday evening, the day before."
     },
     {
       "question": "Where is the race venue located?",
-      "answer": "The race venue for the 27th Songkhla Marathon 2026 is Tinsulanonda Stadium, located in the city of Songkhla, Thailand. This stadium serves as the central point for the event held in this coastal Thai city."
+      "answer": "The race starts and finishes at the Black Chair Patio on Chalatat Road, within the Tinsulanonda Stadium grounds in Songkhla, Thailand. Race packs are collected in the stadium gymnasium on the Friday and Saturday before race day, and bibs must be collected in person, with passports shown by foreign runners."
     }
   ],
   "reliability_score": 91,

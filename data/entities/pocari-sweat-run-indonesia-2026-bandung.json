@@ -4,16 +4,16 @@
   "name": "Pocari Sweat Run Indonesia 2026 – Bandung",
   "category_id": "half-marathon",
   "region_id": "indonesia",
-  "short_description": "Pocari Sweat Run Indonesia 2026 – Bandung is a half-marathon and 10 km race set for September 19, 2026, in Bandung, Indonesia.",
-  "ai_summary": "Pocari Sweat Run Indonesia 2026 – Bandung is a half-marathon event scheduled for September 19, 2026, in Bandung, Indonesia. Participants can choose between a 21.1 km half-marathon and a 10 km distance, with the half-marathon serving as the primary race distance. The exact venue within Bandung has not yet been stated.",
+  "short_description": "Pocari Sweat Run Indonesia 2026 – Bandung was a half marathon and 10 km held over two days, 19 and 20 September 2026, from Balai Kota Bandung, Indonesia.",
+  "ai_summary": "Pocari Sweat Run Indonesia 2026 – Bandung was held over two days in Bandung, Indonesia: the 10 km on Saturday 19 September 2026 and the half marathon, the main race, on Sunday 20 September 2026. Both started and finished at Balai Kota Bandung, by Taman Vanda on Jalan Merdeka. The organiser reported 16,000 runners: 7,600 in the 10 km and 8,400 in the half.",
   "core_facts": {
-    "date": "2026-09-19",
+    "date": "2026-09-20",
     "distance_km": [
       21.1,
       10
     ],
     "primary_distance_km": 21.1,
-    "venue": "Bandung (exact venue not stated)",
+    "venue": "Balai Kota Bandung (Taman Vanda, Jl. Merdeka)",
     "city": "Bandung",
     "country": "Indonesia"
   },
@@ -78,7 +78,7 @@
     }
   ],
   "research_highlights": [
-    "The 2026 edition is scheduled for 19-20 September 2026 in Bandung, with 10K and Half Marathon categories (moved from the usual July date used in 2024/2025 editions).",
+    "The 2026 edition was held on 19-20 September 2026, with the 10K on Saturday and the half marathon on Sunday; the 2024 and 2025 Bandung editions were held in July.",
     "In the 2025 edition, start/finish moved from Gedung Sate to Balai Kota Bandung, and half marathon start time was pushed earlier (4:00 AM) specifically to reduce traffic disruption and finish sooner.",
     "Bandung's cool morning climate is repeatedly cited by organizers and past participants as a favorable running condition compared to other Indonesian cities.",
     "Course has historically run past Bandung landmarks such as Jalan Asia Afrika, Dago, Diponegoro, and Ir. H. Juanda, giving a scenic city-tour feel.",
@@ -94,16 +94,16 @@
   "research_last_updated": "2026-08-18",
   "faqs": [
     {
-      "question": "When is the Pocari Sweat Run Indonesia 2026 – Bandung taking place?",
-      "answer": "The race is scheduled to take place on September 19, 2026. It will be held in the city of Bandung, Indonesia. This date applies to both the 21.1 km half-marathon and the 10 km distance offered as part of the event."
+      "question": "When was the Pocari Sweat Run Indonesia 2026 – Bandung?",
+      "answer": "Pocari Sweat Run Indonesia 2026 – Bandung was held over two days. The 10 km was run on Saturday 19 September 2026 and the half marathon on Sunday 20 September 2026, with separate tickets for each day. The 2024 and 2025 Bandung editions were held in July."
     },
     {
       "question": "What distances are offered at this race?",
-      "answer": "The event offers two distances for participants to choose from: a 21.1 km half-marathon, which is the primary distance for this race, and a shorter 10 km option. Both distances are part of the same Pocari Sweat Run Indonesia 2026 – Bandung event."
+      "answer": "The Bandung event offered two races: a half marathon, the main race, and a 10 km. Local reports gave the course lengths as about 21.3 km and 10.2 km. There was no full marathon; the organiser said a 42 km route would have to loop much more of Bandung."
     },
     {
-      "question": "Where exactly does the race take place?",
-      "answer": "The race takes place in Bandung, Indonesia, though the exact venue within the city has not been specified in the available information. Runners interested in participating should watch for further venue details as the September 19, 2026 event date approaches."
+      "question": "Where does the race start and finish?",
+      "answer": "Both races started and finished at Balai Kota Bandung, the city hall, around Taman Vanda on Jalan Merdeka. The routes ran through central Bandung, including Jalan Ir. H. Juanda (Dago) and Diponegoro, with the half marathon going on to Kiaracondong and Asia Afrika. Roads were shared with traffic rather than closed."
     }
   ],
   "reliability_score": 18,

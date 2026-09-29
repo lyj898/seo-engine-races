@@ -4,15 +4,19 @@
   "name": "Scenic Half Marathon Krabi 2026",
   "category_id": "half-marathon",
   "region_id": "thailand",
-  "short_description": "A 21.1 km half-marathon held on September 13, 2026, at Noppharatthara Beach, Ao Nang, Krabi, Thailand.",
-  "ai_summary": "The Scenic Half Marathon Krabi 2026 is a half-marathon event scheduled for September 13, 2026, at Noppharatthara Beach in Ao Nang, Krabi, Thailand. The race covers a primary distance of 21.1 km.",
+  "short_description": "A half marathon with a 10 km, run on 13 September 2026 from Krabi Provincial Stadium in Ao Nang to Noppharat Thara Beach, Krabi, Thailand, with 5 km and 3 km beach runs on 12 September.",
+  "ai_summary": "The Scenic Half Marathon Krabi 2026 was held over the weekend of 12 and 13 September 2026 in Ao Nang, Krabi, Thailand. The 21.1 km half marathon and the 10 km ran point to point on Sunday 13 September from Krabi Provincial Stadium to Noppharat Thara Beach, and 5 km and 3 km beach runs were held on Saturday evening. RACEUP WORK Co., Ltd. organised it.",
   "core_facts": {
     "date": "2026-09-13",
     "distance_km": [
-      21.1
+      21.1,
+      10,
+      5,
+      3
     ],
     "primary_distance_km": 21.1,
-    "venue": "Noppharatthara Beach, Ao Nang, Krabi",
+    "organizer": "RACEUP WORK Co., Ltd. (Scenic Marathon Series)",
+    "venue": "Start Krabi Provincial Stadium, Ao Nang; finish Noppharat Thara Beach",
     "city": "Ao Nang, Krabi",
     "country": "Thailand"
   },
@@ -68,7 +72,7 @@
     }
   ],
   "research_highlights": [
-    "The half marathon (21.1km) and 10km 'Road Run' start very early, around 04:30, at Krabi Provincial Stadium in Ao Nang, finishing at Noppharat Thara Beach National Park — likely to beat the heat.",
+    "The half marathon (21.1km) started at 04:30 and the 10km 'Road Run' at 05:00, both at Krabi Provincial Stadium in Ao Nang, finishing at Noppharat Thara Beach National Park.",
     "A separate late-afternoon 'Beach Run' (5km/3km) is held the evening before along the coastal road at Noppharat Thara Beach.",
     "September in Krabi means high heat and humidity; one participant described conditions as 'crazy hot' with humidity over 80% and temperatures near 30°C.",
     "The course runs along Ao Nang's coastline with views of limestone cliffs and the Andaman Sea, and the event draws a notable international crowd (runners from the UK, Russia, and New Zealand have been reported).",
@@ -83,16 +87,16 @@
   "research_last_updated": "2026-08-11",
   "faqs": [
     {
-      "question": "When is the Scenic Half Marathon Krabi 2026 taking place?",
-      "answer": "The Scenic Half Marathon Krabi 2026 is scheduled to take place on September 13, 2026. This date has been confirmed for the event, which will be held at Noppharatthara Beach in Ao Nang, Krabi, Thailand. Runners planning to participate should mark this date on their calendars."
+      "question": "When was the Scenic Half Marathon Krabi 2026?",
+      "answer": "The Scenic Half Marathon Krabi 2026 was held on 12 and 13 September 2026. The 5 km and 3 km beach runs started at 5.30pm and 5.40pm on Saturday 12 September, and the half marathon and 10 km started at 4.30am and 5am on Sunday 13 September."
     },
     {
       "question": "Where is the race held?",
-      "answer": "The race takes place at Noppharatthara Beach in Ao Nang, Krabi, Thailand. This scenic beachfront location serves as the venue for the entire event. Ao Nang is the city associated with the race, situated within Krabi province in Thailand."
+      "answer": "The half marathon and 10 km started at Krabi Provincial Stadium in Ao Nang and finished at Noppharat Thara Beach, in the Noppharat Thara–Mu Ko Phi Phi National Park, so the course was point to point, with shuttles back. The Saturday beach runs started and finished at Noppharat Thara Beach."
     },
     {
       "question": "What distance options are available for this race?",
-      "answer": "The Scenic Half Marathon Krabi 2026 offers a primary distance of 21.1 km, the standard half-marathon distance. This is the only distance listed for the event, making it a straightforward option for runners specifically seeking a half-marathon race in Thailand."
+      "answer": "The event offered four distances over two days: a 21.1 km half marathon and a 10 km road run on Sunday, and 5 km and 3 km beach runs on Saturday evening. The half marathon was the main race, with a limit of three and a half hours and 2,500 places."
     }
   ],
   "reliability_score": 82,

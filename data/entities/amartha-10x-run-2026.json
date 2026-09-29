@@ -4,8 +4,8 @@
   "name": "Amartha 10X Run",
   "category_id": "half-marathon",
   "region_id": "indonesia",
-  "short_description": "A verified half-marathon event in Senayan, Jakarta, Indonesia, offering 21.1km and 10km distances on September 6, 2026, with registration open from IDR 450,000.",
-  "ai_summary": "The Amartha 10X Run is a half-marathon event taking place on September 6, 2026 at Plaza Parkir Timur GBK, Senayan, in Jakarta, Indonesia. Runners can choose between a 21.1km half-marathon or a 10km distance. Registration is currently open, with prices starting from IDR 450,000. This event is verified for the directory.",
+  "short_description": "A half marathon and 10 km run on 6 September 2026 from Plaza Parkir Timur, Gelora Bung Karno, Senayan, Jakarta, Indonesia, with normal entry fees of IDR 450,000 (10 km) and IDR 650,000 (half).",
+  "ai_summary": "The Amartha 10X Run was run on Sunday 6 September 2026 from Plaza Parkir Timur, Gelora Bung Karno (GBK), in Senayan, Jakarta, Indonesia. It offered a half marathon, which started at 5am with a four-hour limit, and a 10 km, which started at 5.20am with a two-hour limit. Normal entry fees were IDR 650,000 for the half and IDR 450,000 for the 10 km.",
   "core_facts": {
     "date": "2026-09-06",
     "distance_km": [
@@ -13,7 +13,8 @@
       10
     ],
     "primary_distance_km": 21.1,
-    "price_range": "IDR From 450,000",
+    "organizer": "Amartha (with Indonesia Muda Road Runner)",
+    "price_range": "IDR 450,000 (10K) - 650,000 (half marathon), normal price",
     "venue": "Plaza Parkir Timur GBK, Senayan",
     "city": "Senayan, Jakarta",
     "country": "Indonesia"
@@ -31,10 +32,10 @@
   ],
   "excerpt_quotes": [],
   "research_highlights": [
-    "The 2026 edition (3rd edition) takes place Sunday, September 6, 2026, starting and finishing at Plaza Timur/Plaza Barat Gelora Bung Karno (GBK), Senayan, with categories 10K and Half Marathon.",
+    "The 2026 edition took place on Sunday 6 September 2026, starting and finishing on Jl. Apec by Plaza Parkir Timur, Gelora Bung Karno (GBK), Senayan, with 10K and Half Marathon categories.",
     "Cut-off times are set at 2 hours for the 10K and 4 hours for the Half Marathon.",
     "The half marathon route extends beyond Sudirman/Bundaran HI into Senopati, Prapanca, and Blok M before returning to the finish, while the 10K stays within the GBK–Sudirman–Bundaran HI corridor.",
-    "Water stations for half marathon runners are placed every 2 kilometers, and the race area is kept separate from the regular Car Free Day activity in the GBK area.",
+    "Water stations for half marathon runners were placed every 2 kilometres, which the organiser described as closer than the World Athletics standard of every 5 kilometres.",
     "Start time for the 2026 race is 05:00 WIB, and the event includes a themed 'Race Village' with rural-market/UMKM booths, traditional games, and local produce for participants to explore post-race."
   ],
   "research_watchouts": [
@@ -45,20 +46,20 @@
   "research_last_updated": "2026-08-09",
   "faqs": [
     {
-      "question": "When is the Amartha 10X Run taking place?",
-      "answer": "The Amartha 10X Run is scheduled to take place on September 6, 2026. This date has been confirmed for the event, which will be held at Plaza Parkir Timur GBK in Senayan, Jakarta, Indonesia."
+      "question": "When was the Amartha 10X Run?",
+      "answer": "The Amartha 10X Run 2026 was run on Sunday 6 September 2026 at Gelora Bung Karno in Senayan, Jakarta. The half marathon was flagged off at 5am and the 10 km at 5.20am. Race packs were collected on 4 and 5 September at Lippo Mall Nusantara on Jalan Jenderal Sudirman."
     },
     {
       "question": "Where is the Amartha 10X Run held?",
-      "answer": "The race takes place at Plaza Parkir Timur GBK, located in Senayan, Jakarta, Indonesia. This venue serves as the starting point for both the 21.1km half-marathon and the 10km distance options offered as part of this event."
+      "answer": "The race started and finished on Jalan Apec beside Plaza Parkir Timur at Gelora Bung Karno (GBK), Senayan, Jakarta, according to the race book updated on 3 September. Both courses ran north up Jalan Jenderal Sudirman to Bundaran HI; the half marathon then continued south through Senopati and Prapanca Raya."
     },
     {
       "question": "What distance options are available for the Amartha 10X Run?",
-      "answer": "Participants can choose between two distances: a 21.1km half-marathon, which is the primary distance for this event, or a shorter 10km race. Both options start from the same venue, Plaza Parkir Timur GBK in Senayan, Jakarta, Indonesia."
+      "answer": "The race offered two distances: a half marathon, measured at 21.0975 km in the race book, and a 10 km. The half marathon was the main race, with a four-hour limit and a cut-off at 15.8 km by 8.12am. The 10 km had a two-hour limit. Runners had to be 17 or older."
     },
     {
       "question": "How much does registration cost for the Amartha 10X Run?",
-      "answer": "Registration prices for the Amartha 10X Run start from IDR 450,000. This is listed as the starting price point, though exact pricing may vary depending on the distance selected or registration category."
+      "answer": "Normal entry cost IDR 650,000 for the half marathon and IDR 450,000 for the 10 km, according to the official race-info page. Fees were not refundable, and registrations and bib numbers could not be transferred or sold. Finishers inside the cut-off received a medal, and half marathon finishers also received a finisher jersey."
     }
   ],
   "reliability_score": 100,

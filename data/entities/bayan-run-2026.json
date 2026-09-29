@@ -5,11 +5,11 @@
   "category_id": "half-marathon",
   "region_id": "indonesia",
   "short_description": "Bayan Run 2026 is a multi-distance road race, headlined by a half marathon, held October 11, 2026 in Balikpapan, Indonesia.",
-  "ai_summary": "Bayan Run 2026 is a road race scheduled for October 11, 2026, in Balikpapan, Kalimantan Timur, Indonesia. The event offers multiple distance options, including a half marathon of 21.1 km, as well as 10 km, 5 km, 2.5 km, and 0.8 km races. It will be based at Lapangan Merdeka 3 and BSCC Dome.",
+  "ai_summary": "Bayan Run 2026 is a road race scheduled for October 11, 2026, in Balikpapan, Kalimantan Timur, Indonesia. The event offers multiple distance options, including a half marathon of 21.1 km, as well as 10 km, 5 km, 2.5 km, and 0.8 km races. The half marathon, 10 km and 5 km start at Lapangan Merdeka 3 on Sunday 11 October; the 2.5 km and 0.8 km children's races are held at the BSCC Dome on Saturday 10 October.",
   "core_facts": {
     "date": "2026-10-11",
     "distance_km": [
-      21,
+      21.1,
       10,
       5,
       2.5,
@@ -53,11 +53,6 @@
   },
   "excerpt_quotes": [
     {
-      "quote": "Ini pertama kali saya mengikuti Bayan Run dan langsung ke marathon",
-      "attribution": "Noveldi Petingko, winner of 21K men's category, quoted in Tribunkaltim.co",
-      "source_url": "https://kaltim.tribunnews.com/tribun-etam/1122127/perdana-ikut-ajang-bayan-run-di-balikpapan-noveldi-jadi-pelari-tercepat-kategori-21k"
-    },
-    {
       "quote": "Puji Tuhan, semuanya tuntas dengan baik. Panitia, volunteer, dan peserta saling mendukung, sehingga atmosfer positif terasa dari awal hingga akhir acara",
       "attribution": "Berti, Race Director from Kepala Batu Team, quoted in Go CSR Kaltim",
       "source_url": "https://gocsrkaltim.com/lautan-pelari-warnai-balikpapan-6-000-peserta-meriahkan-bayan-run-2025/"
@@ -79,7 +74,6 @@
     }
   ],
   "research_highlights": [
-    "The 2025 edition's Half Marathon route ran from Lapangan Merdeka out to the cargo entrance of SAMS Sepinggan Balikpapan Airport and back, described by the 21K men's winner as very steril (traffic-free/secure).",
     "Race route passes several Balikpapan landmarks including Tugu Monpera, Plaza Balikpapan, and Tugu Beruang Madu.",
     "In 2025, water stations were placed every 2 kilometers along the course with medical teams stationed throughout.",
     "Participation roughly doubled in 2025 to about 6,000 runners compared to the prior year, and organizers plan an even larger field for 2026.",
@@ -94,15 +88,15 @@
   "faqs": [
     {
       "question": "When is Bayan Run 2026 taking place?",
-      "answer": "Bayan Run 2026 is scheduled to take place on October 11, 2026. This date applies to the full event, which includes the half marathon along with the other distance categories offered at the race, all held on the same day in Balikpapan, Kalimantan Timur, Indonesia."
+      "answer": "Bayan Run 2026 takes place on Sunday 11 October 2026 at Lapangan Merdeka III in Balikpapan, with the half marathon, 10 km and 5 km races. The Kids Dash races over 2.5 km and 800 m are held the day before, on Saturday 10 October 2026, at the BSCC Dome in Balikpapan."
     },
     {
       "question": "What distances are offered at Bayan Run 2026?",
-      "answer": "Bayan Run 2026 offers five distance options: 21 km (the half marathon, listed as the primary distance at 21.1 km), 10 km, 5 km, 2.5 km, and 0.8 km. This range allows participants of varying experience levels and fitness to choose a suitable distance."
+      "answer": "Bayan Run 2026 offers five distances: a 21.1 km half marathon, 10 km, 5 km, and Kids Dash races over 2.5 km and 800 m. The half marathon, 10 km and 5 km are run on Sunday 11 October, while the two children's races are held on Saturday 10 October at the BSCC Dome."
     },
     {
       "question": "Where is the race held?",
-      "answer": "The race is held in Balikpapan, Kalimantan Timur, Indonesia, with venues listed as Lapangan Merdeka 3 and the BSCC Dome, both in Balikpapan. These locations serve as the event's key sites for the various distance categories on race day."
+      "answer": "The race is held in Balikpapan, Kalimantan Timur, Indonesia. The half marathon, 10 km and 5 km start at Lapangan Merdeka III on Sunday 11 October, while the BSCC Dome hosts race-pack collection on 9-10 October and the Kids Dash races on Saturday 10 October 2026."
     }
   ],
   "reliability_score": 100,

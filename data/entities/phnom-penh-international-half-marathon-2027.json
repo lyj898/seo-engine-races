@@ -4,18 +4,19 @@
   "name": "Phnom Penh International Half Marathon",
   "category_id": "half-marathon",
   "region_id": "cambodia",
-  "short_description": "A half marathon (21.1 km, plus 10 km and 5 km options) set for June 13, 2027 at Botumvatey Pagoda Park in Phnom Penh, Cambodia.",
-  "ai_summary": "The Phnom Penh International Half Marathon is scheduled for June 13, 2027, at Botumvatey Pagoda Park in Phnom Penh, Cambodia. The event offers three distance options: a 21.1 km half marathon, a 10 km race, and a 5 km race, catering to a range of runner abilities. The organizer is not explicitly named but is noted to be the same organizer behind the E19 and E68 events.",
+  "short_description": "A half marathon, with 10 km, 5 km and 2.5 km kids' races, set for 13 June 2027 at Botum Vattey Pagoda Park (Wat Botum Park) in Phnom Penh, Cambodia.",
+  "ai_summary": "The Phnom Penh International Half Marathon is listed for Sunday 13 June 2027 at Botum Vattey Pagoda Park (Wat Botum Park), near the Royal Palace in Phnom Penh, Cambodia. It is organised by the National Olympic Committee of Cambodia, with Cambodia Events as sponsoring and travel partner, and offers a 21.1 km half marathon, a 10 km, a 5 km fun run and a 2.5 km kids' run. The 14th edition on 14 June 2026 had 5,241 participants from 43 countries.",
   "core_facts": {
     "date": "2027-06-13",
     "distance_km": [
-      21,
+      21.1,
       10,
-      5
+      5,
+      2.5
     ],
     "primary_distance_km": 21.1,
-    "organizer": "Cambodia Events",
-    "venue": "Botumvatey Pagoda Park, Phnom Penh",
+    "organizer": "National Olympic Committee of Cambodia",
+    "venue": "Botum Vattey Pagoda Park (Wat Botum Park), Phnom Penh",
     "city": "Phnom Penh",
     "country": "Cambodia"
   },
@@ -37,15 +38,15 @@
   "faqs": [
     {
       "question": "When is the Phnom Penh International Half Marathon taking place?",
-      "answer": "The race is scheduled to take place on June 13, 2027. It will be held at Botumvatey Pagoda Park in Phnom Penh, Cambodia, giving participants a specific date to plan their training and travel around well in advance of the event."
+      "answer": "The next edition is listed for Sunday 13 June 2027, at Botum Vattey Pagoda Park in Phnom Penh. The race is held each June; the 14th edition was on 14 June 2026, when the half marathon started at 5.30am with a four-hour limit, followed by the 10 km at 5.45am."
     },
     {
       "question": "What distances can participants choose from?",
-      "answer": "Participants can select from three distance options: a 21.1 km half marathon, a 10 km race, and a 5 km race. This range allows runners of varying experience and fitness levels to take part in the event at Botumvatey Pagoda Park."
+      "answer": "Four: a 21.1 km half marathon for runners aged 16 and over, a 10 km for ages 13 and over, a 5 km fun run open to adults and children, and a 2.5 km fun run for children under 12. In 2026 only the half marathon included a finisher's T-shirt; all runners received a medal."
     },
     {
       "question": "Who is organizing the Phnom Penh International Half Marathon?",
-      "answer": "The specific organizer for this event is not explicitly stated in available information. However, it is noted that the same organizer is responsible for the E19 and E68 events, suggesting some continuity in event management, though further details have not been confirmed."
+      "answer": "The National Olympic Committee of Cambodia organises the race, according to the 2026 registration page, with Cambodia Events Organization Tourism & Consultant Co., Ltd as sponsoring and travel partner. The 2026 edition celebrated the Queen Mother's 90th birthday and raised funds for Kantha Bopha Children's Hospital."
     }
   ],
   "reliability_score": 46,
@@ -56,10 +57,28 @@
   ],
   "source_mix": [
     {
-      "url": "https://www.cambodia-events.org",
-      "label": "Official race website",
+      "url": "https://kh.checkpointspot.asia/event/ppihm26",
+      "label": "2026 registration page with organiser's race information (Checkpoint Spot)",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.cambodia-events.org/blog/phnom-penh-international-half-marathon",
+      "label": "Cambodia Events (sponsoring and travel partner) race page",
       "type": "official",
-      "last_checked": "2026-08-25"
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.khmertimeskh.com/501920111/phnom-penh-half-marathon-draws-over-5000-runners/",
+      "label": "Khmer Times report on the 2026 edition",
+      "type": "other",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://worldsmarathons.com/marathon/phnom-penh-half-marathon",
+      "label": "World's Marathons listing (2027 date)",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
     }
   ],
   "affiliate_links": [],

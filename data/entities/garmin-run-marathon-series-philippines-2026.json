@@ -34,9 +34,9 @@
   "excerpt_quotes": [],
   "research_highlights": [
     "The 2026 Manila leg moves to a new venue at SM MOA Complex, Pasay City, after the 2025 edition (Oct 26, 2025) was held at Filinvest City Events Grounds, Alabang.",
-    "Gun start is set for 2AM, with the organizer stating this is to ensure optimal race conditions given Manila's heat.",
+    "Assembly for the 21K is at 2AM with the gun at 3AM (10K 4:30AM, 5K 5:00AM), according to the 2026 registration page.",
     "Cut-off time for the 2025 edition (all distances) was 7:00 AM; race categories are 5K, 10K and 21K priced at PHP 1,550/1,850/2,550 respectively for 2026.",
-    "The 2025 Manila edition drew a record turnout of about 7,700-8,000 runners including 238 foreign participants from over 20 countries, suggesting the series has grown quickly in its first two Philippine years.",
+    "The 2025 Manila edition drew a record turnout of 7,700 runners, according to the organiser's press release, including 238 foreign participants from over 20 countries, suggesting the series has grown quickly in its first two Philippine years.",
     "Runner timing/results are managed by MYLAPS, and the event includes a side attraction called 'Garmin Village' with gadget displays, games and partner booths beyond the race course itself."
   ],
   "research_watchouts": [
@@ -67,10 +67,10 @@
   ],
   "source_mix": [
     {
-      "url": "https://ph.garmin.com/2026/garmin-run/information",
-      "label": "Official race website",
+      "url": "https://hyvesport.com/2026-garmin-run-ph-1",
+      "label": "Official race page (Hyve Sports)",
       "type": "official",
-      "last_checked": "2026-08-25"
+      "last_checked": "2026-09-29"
     },
     {
       "url": "https://www.pinoyfitness.com/list-of-events/",
@@ -83,7 +83,7 @@
   "cta_links": [
     {
       "label": "Visit official site",
-      "url": "https://ph.garmin.com/2026/garmin-run/information",
+      "url": "https://hyvesport.com/2026-garmin-run-ph-1",
       "type": "official_website"
     }
   ],

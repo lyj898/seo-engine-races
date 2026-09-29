@@ -5,7 +5,7 @@
   "category_id": "full-marathon",
   "region_id": "malaysia",
   "short_description": "The Elopura Marathon Sandakan 2026 is a full marathon, half marathon, and 10km race held in Sandakan, Sabah, Malaysia on 22 November 2026.",
-  "ai_summary": "The Elopura Marathon Sandakan 2026 is a road race scheduled for 22 November 2026 in Sandakan, Sabah, Malaysia. Organized by the Persatuan Ortopedik Sandakan, the event offers full marathon, half marathon, and 10km distances. Pricing is set at RM140 for the half marathon and RM170 for the full marathon, per elopuramarathon.com.",
+  "ai_summary": "The Elopura Marathon Sandakan 2026 is a road race scheduled for 22 November 2026 in Sandakan, Sabah, Malaysia. Organized by the Persatuan Ortopedik Sandakan, the event offers full marathon, half marathon, and 10km distances. All three races start and finish at Sandakan Sports Complex on Jalan Sibuga, with the marathon flagged off at 12.30am.",
   "core_facts": {
     "date": "2026-11-22",
     "distance_km": [
@@ -15,8 +15,7 @@
     ],
     "primary_distance_km": 42.195,
     "organizer": "Persatuan Ortopedik Sandakan",
-    "price_range": "MYR HM RM140 / FM RM170 (per elopuramarathon.com)",
-    "venue": "Sandakan, Sabah",
+    "venue": "Sandakan Sports Complex, Jalan Sibuga",
     "city": "Sandakan, Sabah",
     "country": "Malaysia"
   },
@@ -39,15 +38,11 @@
   "faqs": [
     {
       "question": "When is the Elopura Marathon Sandakan 2026?",
-      "answer": "The Elopura Marathon Sandakan 2026 is scheduled to take place on 22 November 2026. The race is held in Sandakan, Sabah, Malaysia, and is organized by the Persatuan Ortopedik Sandakan. Further details about the event schedule beyond the date have not been provided in available source material."
+      "answer": "The Elopura Marathon Sandakan 2026 is on Sunday 22 November 2026, starting and finishing at Sandakan Sports Complex on Jalan Sibuga. The organiser's 2026 terms give flag-off times of 12.30am for the full marathon, 2am for the half marathon and 5.30am for the 10 km, with the race expo on 20 and 21 November."
     },
     {
       "question": "What distances are offered at this race?",
       "answer": "The Elopura Marathon Sandakan 2026 offers three distance categories: a full marathon of 42.195km, a half marathon of 21.1km, and a shorter 10km race. This gives participants of varying experience levels and fitness the option to choose a distance that suits them."
-    },
-    {
-      "question": "How much does it cost to register?",
-      "answer": "According to elopuramarathon.com, the half marathon entry is priced at RM140, while the full marathon entry costs RM170. Pricing for the 10km distance is not specified in the available source material, so interested participants may need to check directly with organizers for that detail."
     }
   ],
   "reliability_score": 100,

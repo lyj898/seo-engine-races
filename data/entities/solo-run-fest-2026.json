@@ -4,8 +4,8 @@
   "name": "Solo Run Fest 2026",
   "category_id": "half-marathon",
   "region_id": "indonesia",
-  "short_description": "Solo Run Fest 2026 is a half-marathon held on September 27, 2026 in Surakarta, Jawa Tengah, Indonesia, with 21.1km, 10km, and 5km distance options.",
-  "ai_summary": "Solo Run Fest 2026 is a half-marathon event taking place on September 27, 2026 in Surakarta, Jawa Tengah, Indonesia. Runners can choose from three distances: 21.1km, 10km, and 5km. Registration is currently open, with prices ranging from Rp 200,000 to Rp 650,000 depending on the category chosen.",
+  "short_description": "Solo Run Fest 2026 was a point-to-point half marathon, 10 km and 5 km held on 27 September 2026 in Surakarta, Central Java, Indonesia, from Stadion Manahan to Taman Balekambang.",
+  "ai_summary": "Solo Run Fest 2026 was held on Sunday 27 September 2026 in Surakarta (Solo), Central Java, Indonesia, on a point-to-point course from Stadion Manahan to Taman Balekambang. It offered a 21.1 km half marathon with a 3 hour 45 minute cut-off, a 10 km, a 5 km and a 5 km student category, with entry from Rp 200,000 (5 km student) to Rp 650,000 (half marathon). The provincial government reported about 7,000 runners, up from about 5,000 in 2025.",
   "core_facts": {
     "date": "2026-09-27",
     "distance_km": [
@@ -15,7 +15,7 @@
     ],
     "primary_distance_km": 21.1,
     "price_range": "Rp 200,000 - Rp 650,000",
-    "venue": "Surakarta, Jawa Tengah",
+    "venue": "Stadion Manahan (start) to Taman Balekambang (finish), Surakarta",
     "city": "Surakarta, Jawa Tengah",
     "country": "Indonesia"
   },
@@ -71,10 +71,10 @@
     }
   ],
   "research_highlights": [
-    "Start at Stadion Manahan Solo, finish at Taman Balekambang; 2026 edition offers 5K, 10K, and Half Marathon categories (2025 had only 5K and 10K)",
+    "Start at Stadion Manahan Solo, finish at Taman Balekambang; the 2026 edition offered a half marathon, 10K, 5K and a 5K student category",
     "Early morning start times reported for the 2025 edition: 10K around 05:30 WIB and 5K around 05:50 WIB",
     "Course includes a flyover (jalan layang) section that multiple runners described as challenging due to the incline, alongside flatter stretches",
-    "The 2025 edition drew about 6,000 participants including the Governor of Central Java; organizers are targeting 7,000 participants for 2026",
+    "The 2025 edition drew about 5,000 participants, according to the mayor and Tempo (the provincial government put it at about 6,000); about 7,000 ran in 2026",
     "Beyond the run itself, the event includes a UMKM (small business) bazaar, sportswear expo, and live music performances at the festival area"
   ],
   "research_watchouts": [
@@ -86,15 +86,15 @@
   "faqs": [
     {
       "question": "When is Solo Run Fest 2026 taking place?",
-      "answer": "Solo Run Fest 2026 is scheduled to take place on September 27, 2026. The event is held in Surakarta, Jawa Tengah, Indonesia."
+      "answer": "Solo Run Fest 2026 was held on Sunday 27 September 2026 in Surakarta, Central Java, Indonesia. The organiser did not publish flag-off times, but its cut-off points imply a 5am half-marathon start. Race packs were collected at Taman Balekambang on 25 and 26 September, not on race day."
     },
     {
       "question": "What distances are offered at Solo Run Fest 2026?",
-      "answer": "Solo Run Fest 2026 offers three distance options for participants to choose from: a half-marathon distance of 21.1km, a 10km race, and a shorter 5km race. This gives runners of different experience levels and goals a suitable category to register for."
+      "answer": "Four categories over three distances: a 21.1 km half marathon, a 10 km, a 5 km and a 5 km student category. Entry fees were Rp 200,000 for the 5 km student race, Rp 350,000 for the 5 km, Rp 450,000 for the 10 km and Rp 650,000 for the half marathon, with a 3 hour 45 minute half cut-off."
     },
     {
       "question": "Where is Solo Run Fest 2026 held?",
-      "answer": "Solo Run Fest 2026 is held in Surakarta, Jawa Tengah, Indonesia. The event takes place on September 27, 2026, and offers runners a choice of three distances: 21.1km, 10km, and 5km."
+      "answer": "In Surakarta (Solo), Central Java. The course was point to point, starting at Stadion Manahan and finishing at Taman Balekambang, and the half-marathon route used the Manahan overpass twice and passed Taman Sriwedari, Pura Mangkunegaran and Solo Balapan station. Water stations were set every 2 to 3 km."
     }
   ],
   "reliability_score": 82,
@@ -105,10 +105,10 @@
   ],
   "source_mix": [
     {
-      "url": "https://solorunfest.com",
-      "label": "Official race website",
+      "url": "https://solorunfest.com/faq/",
+      "label": "Solo Run Fest official FAQ (2026 categories, fees and cut-offs)",
       "type": "official",
-      "last_checked": "2026-08-25"
+      "last_checked": "2026-09-29"
     },
     {
       "url": "https://kalenderlari.com/jadwal-event-lari-indonesia-2026/",
@@ -121,6 +121,18 @@
       "label": "kalenderlari.com",
       "type": "aggregator",
       "last_checked": "2026-07-13"
+    },
+    {
+      "url": "https://jatengprov.go.id/publik/event-lari-di-jateng-kian-menjamur-wisata-dan-ekonomi-daerah-tumbuh-subur/",
+      "label": "Central Java provincial government report on the 2026 race",
+      "type": "other",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.tempo.co/hiburan/solo-run-fest-2025-lewati-rute-ikon-wisata-kota-solo--2074214",
+      "label": "Tempo report on the 2025 race (half marathon, 5,000 runners)",
+      "type": "other",
+      "last_checked": "2026-09-29"
     }
   ],
   "affiliate_links": [],

@@ -4,12 +4,12 @@
   "name": "EastWest Dream Run 2026 - Iloilo",
   "category_id": "half-marathon",
   "region_id": "philippines",
-  "short_description": "A half-marathon event set for September 20, 2026 in Iloilo City, Philippines, organized by Runrio under the EastWest Dream Run brand.",
-  "ai_summary": "The EastWest Dream Run 2026 - Iloilo is a half-marathon event scheduled for September 20, 2026, in Iloilo City, Philippines. Organized by Runrio under the EastWest Dream Run brand, the race offers multiple distance options including 21.1km, 10km, 5km, 3km, and 1km.",
+  "short_description": "A half marathon with 10 km, 5 km, 3 km team and 1 km dog-run races, run on 20 September 2026 at Atria Park District, Iloilo City, Philippines, and organised by RUNRIO for EastWest Bank.",
+  "ai_summary": "The EastWest Dream Run 2026 - Iloilo was run on Sunday 20 September 2026, starting and finishing at Atria Park District in Iloilo City, Philippines. RUNRIO organised it for EastWest Bank as a leg of the four-leg EastWest Dream Run 2026 series. It offered a 21.1 km half marathon, a 10 km, a 5 km, a 3 km race for groups of four and a 1 km dog run.",
   "core_facts": {
     "date": "2026-09-20",
     "distance_km": [
-      21,
+      21.1,
       10,
       5,
       3,
@@ -17,7 +17,7 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "Runrio (brand: EastWest Dream Run)",
-    "venue": "Iloilo City",
+    "venue": "Atria Park District, Iloilo City",
     "city": "Iloilo City",
     "country": "Philippines"
   },
@@ -36,31 +36,29 @@
   ],
   "excerpt_quotes": [],
   "research_highlights": [
-    "This is the first time the EastWest Dream Run has been held in Iloilo City — the 2026 series expanded from three cities in 2025 (Manila, Cebu, Davao) to four cities in 2026 by adding Clark, Iloilo, and Cagayan de Oro, so there is no prior Iloilo-specific edition to reference.",
     "Distance options are 1K (Dog Run), 3K, 5K, 10K, and 21K, organized by RUNRIO.",
     "Race entitlements reported for the series include a race bib, race singlet, dog bandana, finisher's towel, a 21K finisher's shirt, loot bag, and finisher's medal.",
-    "The event pairs the run with a race village featuring interactive booths, sponsor activities, and recovery lounges, based on descriptions of other 2026 legs.",
-    "At the Manila leg (first stop of the same 2026 series), the 21K and 5K categories sold out ahead of race day and the event drew nearly 7,000 runners, suggesting strong demand across the series."
+    "Organiser releases describe partner booths, games and giveaways at the Iloilo leg, and an EastWest Horizons Recovery Lounge with massage and yoga sessions after the finish.",
+    "The Manila leg, the first of the 2026 series, drew nearly 7,000 participants, and the Iloilo leg more than 2,000, according to the organiser."
   ],
   "research_watchouts": [
-    "No participant race reports or reviews specific to the Iloilo leg exist yet since the race has not taken place (scheduled September 20, 2026); available commentary is either promotional or about other cities in the same 2026 series.",
-    "The organizer rescheduled the Clark leg of the same 2026 series (from an earlier May date to August 30) citing 'participants' well-being and overall event experience,' indicating schedule changes have occurred within this event series and registrants should watch for official updates.",
+    "The Clark leg of the same 2026 series, set for 30 August, was postponed due to prevailing weather conditions, according to EastWest Bank, so dates within the series can change.",
     "Coverage found so far is largely press-release style content from EastWest Bank and syndicated blog posts, with limited independent or critical runner commentary."
   ],
   "research_confidence": "low",
   "research_last_updated": "2026-08-11",
   "faqs": [
     {
-      "question": "When is the EastWest Dream Run 2026 - Iloilo taking place?",
-      "answer": "The EastWest Dream Run 2026 - Iloilo is scheduled to take place on September 20, 2026. The event will be held in Iloilo City, Philippines, and is organized under the EastWest Dream Run brand by Runrio, a known organizer of running events in the country."
+      "question": "When was the EastWest Dream Run 2026 - Iloilo?",
+      "answer": "The EastWest Dream Run 2026 - Iloilo was run on Sunday 20 September 2026. It started and finished at Atria Park District in Iloilo City, and the organiser described it as the second leg of the four-leg 2026 series. More than 2,000 runners, families and friends took part, according to the organiser."
     },
     {
-      "question": "What distances are offered at this race?",
-      "answer": "This race offers a range of distance options for participants to choose from, including 21.1km, 10km, 5km, 3km, and 1km. The primary distance for the event is the 21.1km half-marathon, making it suitable for both competitive and casual runners of varying fitness levels."
+      "question": "What distances were offered at the Iloilo leg?",
+      "answer": "The Iloilo leg offered five categories: a 21.1 km half marathon, a 10 km, a 5 km, a 3 km race for groups of four, and a 1 km dog run. The half marathon was the main race. Runners in the 21 km had to be 18 or older, and 10 km runners 16 or older."
     },
     {
-      "question": "Who organizes the EastWest Dream Run 2026 - Iloilo?",
-      "answer": "The EastWest Dream Run 2026 - Iloilo is organized by Runrio, operating under the EastWest Dream Run brand name. Runrio is responsible for coordinating the event details, including the race distances, venue, and scheduling for this Iloilo City edition of the run."
+      "question": "Who organised the EastWest Dream Run 2026 - Iloilo?",
+      "answer": "RUNRIO organised the Iloilo leg for EastWest Bank, the title sponsor of the EastWest Dream Run series, in support of the Department of Tourism's Love the Philippines campaign. RUNRIO's race mechanics set the rules, including placings on gun time and disqualification for starting more than 15 minutes after a category's flag-off."
     }
   ],
   "reliability_score": 55,

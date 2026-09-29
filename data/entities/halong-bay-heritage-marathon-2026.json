@@ -4,8 +4,8 @@
   "name": "Halong Bay Heritage Marathon",
   "category_id": "full-marathon",
   "region_id": "vietnam",
-  "short_description": "A full marathon (42.195 km) and half marathon (21.1 km) taking place on November 22, 2026, in Ha Long, Quang Ninh, Vietnam.",
-  "ai_summary": "The Halong Bay Heritage Marathon is a full marathon and half marathon event scheduled for November 22, 2026, in Ha Long, Quang Ninh, Vietnam. Runners can choose between the 42.195 km marathon distance or the 21.1 km half marathon option. The race is set against the backdrop of Ha Long Bay in Quang Ninh province.",
+  "short_description": "A road race over four distances (42.195 km, 21.1 km, 10 km and 5 km) on Sunday 22 November 2026 in Ha Long, Quang Ninh, Vietnam.",
+  "ai_summary": "The Halong Bay Heritage Marathon is a road race scheduled for Sunday 22 November 2026 in Ha Long, Quang Ninh, Vietnam, with a race weekend from 20 to 22 November. Runners choose from four distances: the 42.195 km marathon, a 21.1 km half marathon, 10 km and 5 km. The races start on Tran Quoc Nghien street and finish by the Quang Ninh Planning, Fair and Exhibition Palace, with the marathon run out and back along the Ha Long - Cam Pha coast road.",
   "core_facts": {
     "date": "2026-11-22",
     "distance_km": [
@@ -15,7 +15,7 @@
       42.195
     ],
     "primary_distance_km": 42.195,
-    "venue": "Ha Long, Quang Ninh",
+    "venue": "Quang Ninh Planning, Fair and Exhibition Palace, Tran Quoc Nghien street, Ha Long ward",
     "city": "Ha Long, Quang Ninh",
     "country": "Vietnam"
   },
@@ -38,15 +38,15 @@
   "faqs": [
     {
       "question": "When is the Halong Bay Heritage Marathon?",
-      "answer": "The Halong Bay Heritage Marathon is scheduled to take place on November 22, 2026. It will be held in Ha Long, Quang Ninh, Vietnam. This date applies to both the full marathon and half marathon distances offered as part of the event, giving runners a clear target date to prepare for."
+      "answer": "The Halong Bay Heritage Marathon is on Sunday 22 November 2026 in Ha Long, Quang Ninh, Vietnam. All four races are on that morning: the marathon starts at 4am, the half marathon at 5am, the 10 km at 6am and the 5 km at 7.30am. The 2026 race is the event's eleventh edition."
     },
     {
       "question": "What distances are offered at the Halong Bay Heritage Marathon?",
-      "answer": "The Halong Bay Heritage Marathon offers two distance options for participants: a full marathon of 42.195 km, which is the primary distance for the event, and a half marathon of 21.1 km. Both distances will be run on the same date, November 22, 2026, in Ha Long, Quang Ninh, Vietnam."
+      "answer": "The race offers four distances: a 42.195 km marathon, which is the headline race, a 21.1 km half marathon, a 10 km and a 5 km. The marathon runs out and back along the Ha Long - Cam Pha coast road to a U-turn near the Km6 Quang Hanh fuel depot; the half turns after the Khe Ca junction."
     },
     {
       "question": "Where is the Halong Bay Heritage Marathon held?",
-      "answer": "The Halong Bay Heritage Marathon takes place in Ha Long, Quang Ninh, Vietnam. This venue serves as the location for both the full marathon (42.195 km) and half marathon (21.1 km) distances, with the event scheduled to occur on November 22, 2026 in this Vietnamese city."
+      "answer": "The start and finish are in Ha Long ward, Quang Ninh. Runners start on Tran Quoc Nghien street near 30 October Square and finish on 30 October street by the Quang Ninh Planning, Fair and Exhibition Palace. Hanoi's Noi Bai Airport is the usual arrival point, and the bus from Hanoi takes about three and a half hours."
     }
   ],
   "reliability_score": 70,

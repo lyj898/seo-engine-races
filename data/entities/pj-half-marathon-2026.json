@@ -9,7 +9,10 @@
   "core_facts": {
     "date": "2026-09-06",
     "distance_km": [
-      21.1
+      30,
+      21.1,
+      10,
+      5
     ],
     "primary_distance_km": 21.1,
     "venue": "Laman MBPJ, Petaling Jaya",
@@ -96,11 +99,11 @@
     },
     {
       "question": "Where does the PJ Half Marathon start?",
-      "answer": "At Laman MBPJ, the city council grounds in Petaling Jaya, Selangor."
+      "answer": "The PJ Half Marathon starts at Laman MBPJ, the Petaling Jaya City Council grounds in Petaling Jaya, Selangor, with the flag-off on Jalan Yong Shook Lin in front of the building. For the 2026 race, runners were advised to park around PJ New Town, also known as PJ State."
     },
     {
       "question": "Who organises the PJ Half Marathon?",
-      "answer": "Petaling Jaya City Council (MBPJ). The 2025 edition was organised with Puncak Ventures SRA, in collaboration with the Selangor para athletics association."
+      "answer": "The race is organised by Petaling Jaya City Council (MBPJ) with Puncak Ventures SRA Sdn Bhd. The 2025 edition, the 35th, was held in cooperation with the Selangor Para Athletes Association. The 2026 edition, the 36th, offered 30 km, 21 km, 10 km and 5 km races before it was cancelled."
     }
   ],
   "reliability_score": 13,

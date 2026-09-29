@@ -4,17 +4,18 @@
   "name": "Thai Sikh Run (31st ed.)",
   "category_id": "half-marathon",
   "region_id": "thailand",
-  "short_description": "The Thai Sikh Run is a 31st-edition half-marathon and 10km race held in Bangkok, Thailand, on January 31, 2027.",
-  "ai_summary": "The Thai Sikh Run is set for January 31, 2027, in Bangkok, Thailand, starting near the Old Siam Plaza area. Now in its 31st edition, the event is organized by the Thai Sikh community organizing committee and offers two distance options: a 21.098km half marathon and a 10km race.",
+  "short_description": "The 31st Thai Sikh Run is a half marathon, 10 km and 4 km event on Burapha Road beside The Old Siam Plaza in Bangkok, Thailand, on 31 January 2027.",
+  "ai_summary": "The 31st Thai Sikh Run is set for Sunday 31 January 2027 on Burapha Road beside The Old Siam Plaza in Bangkok, Thailand. It is organised by Sri Guru Singh Sabha, the Sikh temple community that started the race in 1992, and offers a 21.1 km half marathon, a 10 km and a non-competitive 4 km walk-run. The 30th edition on 1 February 2026 drew 4,800 runners.",
   "core_facts": {
     "date": "2027-01-31",
     "distance_km": [
-      21.098,
-      10
+      21.1,
+      10,
+      4
     ],
     "primary_distance_km": 21.1,
-    "organizer": "Thai Sikh community organizing committee",
-    "venue": "Old Siam Plaza area, Bangkok",
+    "organizer": "Sri Guru Singh Sabha",
+    "venue": "Burapha Road, The Old Siam Plaza, Bangkok",
     "city": "Bangkok",
     "country": "Thailand"
   },
@@ -37,15 +38,15 @@
   "faqs": [
     {
       "question": "When is the Thai Sikh Run taking place?",
-      "answer": "The Thai Sikh Run is scheduled to take place on January 31, 2027. This will be the 31st edition of the event, which is held in Bangkok, Thailand, starting from the Old Siam Plaza area. No further scheduling details have been provided beyond this date."
+      "answer": "Sunday 31 January 2027, on Burapha Road beside The Old Siam Plaza in Bangkok. This is the 31st edition. In 2026 the half marathon started at 3.30am, the 10 km at 4.30am and the 4 km walk-run at 5.15am, and race packs were collected the day before at the Sikh temple."
     },
     {
       "question": "What distances are offered at the Thai Sikh Run?",
-      "answer": "The Thai Sikh Run offers two race distances for participants to choose from: a 21.098km half marathon, which serves as the primary distance for the event, and a shorter 10km race. Both distances are part of the same event held in Bangkok, Thailand."
+      "answer": "Three: a 21.1 km half marathon, a 10 km and a non-competitive 4 km walk-run. In 2026 the cut-offs were three and a half hours for the half marathon, two and a half hours for the 10 km and one hour 45 minutes for the 4 km, and only the half included a finisher T-shirt."
     },
     {
       "question": "Who organizes the Thai Sikh Run?",
-      "answer": "The Thai Sikh Run is organized by the Thai Sikh community organizing committee. This group has run the event for over three decades, with the upcoming edition marking the 31st time the race has been held in Bangkok, Thailand."
+      "answer": "Sri Guru Singh Sabha, the Sikh temple community in Bangkok, organises the Thai Sikh Run. It first held the race in 1992 with a 10 km and a 5 km walk, added the half marathon on the 20th anniversary, and the 21.1 km and 10 km courses were AIMS-certified in 2020."
     }
   ],
   "reliability_score": 30,
@@ -55,16 +56,16 @@
   ],
   "source_mix": [
     {
-      "url": "https://aims-worldrunning.org/calendar.html",
-      "label": "aims-worldrunning.org",
+      "url": "https://aims-worldrunning.org/races/10312.html",
+      "label": "AIMS race page (2027 date)",
       "type": "aggregator",
-      "last_checked": "2026-08-25"
+      "last_checked": "2026-09-29"
     },
     {
-      "url": "https://bangkokpost.com",
-      "label": "bangkokpost.com",
-      "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "url": "https://www.bangkokpost.com/sports/3191390/huge-turnout-for-milestone-thai-sikh-run",
+      "label": "Bangkok Post report on the 30th edition",
+      "type": "other",
+      "last_checked": "2026-09-29"
     },
     {
       "url": "https://sportplan.es",
@@ -79,10 +80,10 @@
       "last_checked": "2026-07-20"
     },
     {
-      "url": "https://runlah.com",
-      "label": "runlah.com",
+      "url": "https://www.runlah.com/en/tsr2026",
+      "label": "RUNLAH event page, 30th Thai Sikh Run 2026 (organiser's details)",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-09-29"
     }
   ],
   "affiliate_links": [],

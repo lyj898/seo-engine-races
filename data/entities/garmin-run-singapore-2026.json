@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "singapore",
   "short_description": "Garmin Run Singapore 2026 is a half-marathon and 10km race held on October 25, 2026 at Marina Barrage, Singapore.",
-  "ai_summary": "Garmin Run Singapore 2026 is a half-marathon event organized by Garmin, taking place on October 25, 2026 at Marina Barrage in Singapore. The race offers two distance options: a 21.1km half-marathon and a 10km run, priced at SGD 125 and SGD 105 respectively.",
+  "ai_summary": "Garmin Run Singapore 2026 is a half-marathon event owned by Garmin Singapore and organised by SCORE Sports, taking place on October 25, 2026 at Marina Barrage in Singapore. The race offers two distance options: a 21.1km half-marathon and a 10km run, priced at SGD 125 and SGD 105 respectively.",
   "core_facts": {
     "date": "2026-10-25",
     "distance_km": [
@@ -13,7 +13,7 @@
       10
     ],
     "primary_distance_km": 21.1,
-    "organizer": "Garmin",
+    "organizer": "Garmin Singapore Pte. Ltd. (event owner), organised by SCORE Sports Pte. Ltd.",
     "price_range": "SGD 21K SGD 125 / 10K SGD 105",
     "venue": "Marina Barrage",
     "city": "Singapore",
@@ -95,7 +95,7 @@
     },
     {
       "question": "How much does it cost to register for Garmin Run Singapore 2026?",
-      "answer": "Registration pricing is set at SGD 125 for the 21.1km half-marathon distance and SGD 105 for the 10km distance. These prices reflect the cost structure for the two distance options offered at this Garmin-organized event in Singapore."
+      "answer": "Normal-rate entry for 2026 is SGD 125 for the 21.1 km half marathon and SGD 105 for the 10 km, including 9% GST, with an additional 8% third-party processing fee. Early-bird prices, from 25 March to 30 April 2026, were SGD 105 for the half marathon and SGD 85 for the 10 km."
     }
   ],
   "reliability_score": 79,
@@ -104,6 +104,12 @@
     "singapore"
   ],
   "source_mix": [
+    {
+      "url": "https://www.garmin.com.sg/event/2026/garmin-run/",
+      "label": "Official race website",
+      "type": "official",
+      "last_checked": "2026-09-29"
+    },
     {
       "url": "https://www.justrunlah.com/race/garmin-run-singapore-2026/",
       "label": "justrunlah.com",

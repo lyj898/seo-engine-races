@@ -4,15 +4,16 @@
   "name": "22nd Dynasty Charity Half Marathon",
   "category_id": "half-marathon",
   "region_id": "malaysia",
-  "short_description": "A 21.1 km half marathon held at Dynasty Hotel Miri in Miri, Sarawak, Malaysia on October 25, 2026.",
-  "ai_summary": "The 22nd Dynasty Charity Half Marathon is a half marathon event scheduled for October 25, 2026, based at Dynasty Hotel Miri in Miri, Sarawak, Malaysia. The race offers a primary distance of 21.1 km.",
+  "short_description": "A charity half marathon with 21.1 km, 10 km and 4 km races, starting and finishing at Dynasty Hotel Miri in Miri, Sarawak, Malaysia on October 25, 2026.",
+  "ai_summary": "The 22nd Dynasty Charity Half Marathon is a half marathon event scheduled for October 25, 2026, based at Dynasty Hotel Miri in Miri, Sarawak, Malaysia. The race offers a 21.1 km half marathon, a 10 km and a 4 km fun run, all starting and finishing at the hotel.",
   "core_facts": {
     "date": "2026-10-25",
     "distance_km": [
-      21.1
+      21.1,
+      10,
+      4
     ],
     "primary_distance_km": 21.1,
-    "registration_deadline": "2026-09-18",
     "venue": "Dynasty Hotel Miri",
     "city": "Miri, Sarawak",
     "country": "Malaysia"
@@ -31,7 +32,6 @@
   ],
   "excerpt_quotes": [],
   "research_highlights": [
-    "The 2025 edition (21st/22nd year of the event) drew about 1,800 runners from 11 countries, up from roughly 1,400 the previous year, according to state minister Dato Sri Fatimah Abdullah.",
     "Three race categories are offered: 21km half marathon, 10km, and 4km fun run, all starting and finishing at Dynasty Hotel Miri.",
     "Recent editions have had very early flag-offs (around 3am-4am for the 21km) with roads closed roughly 3am-8am, covering routes like Jalan Miri-Pujut, Jalan Bintang, Jalan Sylvia, Jalan Brooke, Jalan Kubu and the Luak Esplanade area.",
     "The event is organised by Dynasty Hotel Miri together with government departments and local NGOs, and proceeds go to charitable programmes for the underprivileged in Miri (elderly, single mothers, festive care packages).",
@@ -51,7 +51,7 @@
     },
     {
       "question": "What distance is offered at this race?",
-      "answer": "The race offers a primary distance of 21.1 kilometers, which is the standard half marathon length. This is the only distance listed for the 22nd Dynasty Charity Half Marathon, making it a straightforward event for runners specifically training for or seeking a half marathon distance."
+      "answer": "The race offers three distances: the 21.1 km half marathon, which starts at 4am, a 10 km that starts at 6.15am and a 4 km fun run that starts at 6.20am. In 2026 the half-marathon cut-off is 7.30am, and a finisher T-shirt is given to 21 km finishers only."
     },
     {
       "question": "Where is the race located?",

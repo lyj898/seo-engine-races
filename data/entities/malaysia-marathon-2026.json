@@ -4,19 +4,18 @@
   "name": "Malaysia Marathon 2026",
   "category_id": "full-marathon",
   "region_id": "malaysia",
-  "short_description": "A full marathon and multi-distance race event held 30 August 2026 in Kuala Lumpur, Malaysia, starting at Pavilion Bukit Bintang and finishing at KLCC.",
-  "ai_summary": "Malaysia Marathon 2026 takes place on 30 August 2026 in Kuala Lumpur, organized by Malaysia Marathon in partnership with SCORE Experience. Runners can choose from four distances: 42.195km, 21km, 10km, and 5km, starting at Pavilion Bukit Bintang and finishing at KLCC. Registration opens 5 May 2026 at 10:00 AM MYT, with Malaysian Open/Veteran pricing ranging from RM65 to RM120.",
+  "short_description": "A full marathon with 21.1 km, 10 km and 5 km races, run on 30 August 2026 in Kuala Lumpur, Malaysia; the longer races started at Pavilion Bukit Bintang and all races finished at KLCC.",
+  "ai_summary": "Malaysia Marathon 2026, the first edition, was run in the early hours of Sunday 30 August 2026 in Kuala Lumpur, organised by Malaysia Marathon with SCORE Experience. It offered 42.195 km, 21.1 km, 10 km and 5 km races. The marathon, half marathon and 10 km started at Pavilion Bukit Bintang and finished at KLCC; the 5 km fun run was held around KLCC.",
   "core_facts": {
     "date": "2026-08-30",
     "distance_km": [
-      42,
-      21,
+      42.195,
+      21.1,
       10,
       5
     ],
     "primary_distance_km": 42.195,
     "organizer": "Malaysia Marathon (with SCORE Experience)",
-    "price_range": "RM65–RM120 (Malaysian Open/Veteran rates)",
     "venue": "Start Pavilion Bukit Bintang, finish KLCC",
     "city": "Kuala Lumpur",
     "country": "Malaysia"
@@ -35,9 +34,9 @@
   ],
   "excerpt_quotes": [],
   "research_highlights": [
-    "The 2026 edition is a multi-distance event (5K, 10K, 21K, 42K) plus a 'Malaysia Sarong Music Run', starting at Pavilion KL and finishing at KLCC, scheduled for Sunday 30 August 2026.",
+    "The 2026 edition was a multi-distance event (5K, 10K, 21K, 42K) on Sunday 30 August 2026; the 42K, 21K and 10K started at Pavilion KL, and all categories finished at KLCC.",
     "The 10KM route starts at Pavilion and finishes at KLCC, passing Dataran Merdeka and other city landmarks, while the 5KM loops around KLCC itself, according to the organiser's official course description.",
-    "Registration for the 2026 edition was set to close on 15 May 2026, with sign-ups handled via the HeyJom app.",
+    "The marathon started at 12.30am, the half marathon at 2am, the 10K at 3.30am and the 5K at 7.30am, and the organiser said about 95% of the route used major highways, including AKLEH and SUKE.",
     "The event's finisher medal for 2026 is themed around Malaysia's 69th Independence Day, features the emblem of Tunku Abdul Rahman, and weighs 330 grams (made from recycled zinc), per the organiser.",
     "Kuala Lumpur races in general are run in a hot, humid tropical climate, which other Klang Valley marathon guides flag as a real physical test requiring heat preparation."
   ],
@@ -47,15 +46,15 @@
   "faqs": [
     {
       "question": "What distances are offered at the Malaysia Marathon 2026?",
-      "answer": "The Malaysia Marathon 2026 offers four distance categories for participants to choose from: a full marathon of 42.195km, a half marathon of 21km, a 10km race, and a shorter 5km race, catering to both competitive runners and casual participants seeking a shorter distance."
+      "answer": "Malaysia Marathon 2026 offered four races: a 42.195 km marathon, a 21.1 km half marathon, a 10 km and a 5 km fun run. The marathon had a cut-off of seven and a half hours. The organiser said its course was a certified measured course by World Athletics and AIMS."
     },
     {
-      "question": "How much does it cost to register?",
-      "answer": "Registration pricing for the Malaysia Marathon 2026 falls within the Malaysian Open/Veteran rate range of RM65 to RM120, depending on the distance category selected."
+      "question": "When was the Malaysia Marathon 2026?",
+      "answer": "Malaysia Marathon 2026 was run in the early hours of Sunday 30 August 2026, the eve of Malaysia's 69th National Day. The marathon started at 12.30am, the half marathon at 2am, the 10 km at 3.30am and the 5 km fun run at 7.30am."
     },
     {
       "question": "Where does the race start and finish?",
-      "answer": "The Malaysia Marathon 2026 begins at Pavilion Bukit Bintang and concludes at KLCC, two well-known landmarks in Kuala Lumpur, Malaysia. This start-to-finish route takes runners through the heart of the city, offering a scenic and centrally located course for all distance categories."
+      "answer": "The marathon, half marathon and 10 km started at Pavilion on Jalan Bukit Bintang and finished at KLCC; the 5 km fun run was held around KLCC. The routes used Jalan Sultan Ismail, Jalan Raja Chulan and Jalan Tuanku Abdul Rahman in the city centre before the marathon and half marathon went onto the AKLEH elevated highway."
     }
   ],
   "reliability_score": 100,

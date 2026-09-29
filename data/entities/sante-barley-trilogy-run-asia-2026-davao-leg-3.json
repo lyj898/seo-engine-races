@@ -4,19 +4,19 @@
   "name": "Sante Barley Trilogy Run Asia 2026 – Davao Leg 3",
   "category_id": "half-marathon",
   "region_id": "philippines",
-  "short_description": "A half-marathon-anchored race at Azuela Cove, Davao City, Philippines, held on September 27, 2026, organized by Runrio.",
-  "ai_summary": "Sante Barley Trilogy Run Asia 2026 – Davao Leg 3 is a road race scheduled for September 27, 2026, at Azuela Cove in Davao City, Philippines. Organized by Runrio under the Sante Barley Trilogy Run Asia brand, the event offers multiple distances including 32km, 21.1km (the primary half-marathon distance), 10km, and 5km.",
+  "short_description": "The final leg of the 2026 Davao Trilogy Run series, held on 27 September 2026 at Azuela Cove, Davao City, Philippines, with a 32 km centrepiece race plus 21.1 km, 10 km and 5 km.",
+  "ai_summary": "Sante Barley Trilogy Run Asia 2026 – Davao Leg 3 was held on Sunday 27 September 2026 at Azuela Cove in Lanang, Davao City, Philippines, with a 3am start. Organised by RunRio with KinetixSports as the local partner, it offered a 32 km 'Afroman' race as the centrepiece, plus 21.1 km, 10 km and 5 km. Finishing the 16 km in Leg 1, 21 km in Leg 2 and 32 km in Leg 3 qualifies runners for the 42 km at the National Finals on 8 November.",
   "core_facts": {
     "date": "2026-09-27",
     "distance_km": [
       32,
-      21,
+      21.1,
       10,
       5
     ],
     "primary_distance_km": 21.1,
-    "organizer": "Runrio (brand: Sante Barley Trilogy Run Asia)",
-    "venue": "Azuela Cove, Davao",
+    "organizer": "RunRio Inc. (Trilogy Run Asia), with KinetixSports as Davao partner",
+    "venue": "Azuela Cove, Lanang, Davao City",
     "city": "Davao City",
     "country": "Philippines"
   },
@@ -37,26 +37,26 @@
     "The Davao leg has used a consistent out-and-back course at Ayala Azuela Cove in Lanang since the series began in 2024.",
     "Leg 3 in Davao (the September date) features 5K, 10K, 21K, and a 32K 'Afroman' distance as its centerpiece race.",
     "Completing the progressive distances across a city's three legs (16K in Leg 1, 21K in Leg 2, 32K in Leg 3) qualifies runners for the 42K category at the November National Finals in Pasay.",
-    "The race is organized by RunRio Inc. with KinetixSports as the local Davao partner, and recent Davao legs have drawn crowds in the range of roughly 2,700 to 3,800 runners across categories."
+    "The race is organised by RunRio Inc. with KinetixSports as the local Davao partner; SunStar reported about 2,700 runners at the 2024 Leg 3 and around 4,500 at the 2025 Leg 2, and the 2026 Leg 3 results list 1,146 finishers across the four distances."
   ],
   "research_watchouts": [
-    "No participant race reviews were found on race-review platforms (e.g., Let's Do This listings for both the 2025 Leg 1 and Leg 3 Davao editions explicitly show no reviews submitted), so independent, first-hand runner feedback on course conditions or organization is scarce online.",
-    "Available public coverage of this race is dominated by results-focused sports journalism (finish times and podium names) rather than descriptive race reports, so details on things like crowd support, aid stations, or heat management during the actual run are not well documented in what's publicly available."
+    "Participants who do not start within 15 minutes of their flag-off are disqualified, and entry fees are non-refundable and cannot be deferred or transferred.",
+    "At Davao airport, about 3 km north, it was 25°C with 100% humidity at the 3am start in 2026, rising to 29°C by 8am, inside the six-hour 32 km cut-off."
   ],
   "research_confidence": "low",
   "research_last_updated": "2026-08-18",
   "faqs": [
     {
       "question": "When is the Sante Barley Trilogy Run Asia 2026 – Davao Leg 3?",
-      "answer": "The race is scheduled to take place on September 27, 2026. It will be held at Azuela Cove in Davao City, Philippines. This date marks the third leg of the Sante Barley Trilogy Run Asia series for that year."
+      "answer": "Davao Leg 3 was held on Sunday 27 September 2026 at Azuela Cove in Lanang, Davao City, with a 3am start. It was the third and final Davao leg of the 2026 series, after Leg 1 on 29 March and Leg 2 on 14 June, and the last Leg 3 of the year nationwide."
     },
     {
       "question": "What distances are offered at this race?",
-      "answer": "The event offers four distance categories: 32km, 21.1km, 10km, and 5km. The 21.1km half-marathon distance is considered the primary distance for this race, giving participants a range of options depending on their fitness level and racing goals."
+      "answer": "Four: a 32 km 'Afroman' race, which is the centrepiece of Leg 3, plus 21.1 km, 10 km and 5 km. Cut-offs were six hours for the 32 km, four hours for the 21 km, two hours for the 10 km and one hour for the 5 km, and only 21 km and 32 km finishers received a finisher's shirt."
     },
     {
       "question": "Who organizes this race?",
-      "answer": "The race is organized by Runrio, operating under the Sante Barley Trilogy Run Asia brand. Runrio is responsible for organizing this leg of the trilogy series, which takes place in Davao City, Philippines, as part of a broader multi-leg race event."
+      "answer": "RunRio Inc. organises the Trilogy Run Asia series, with KinetixSports as its local partner in Davao; the Race Roster event page lists Trilogy Run Asia Inc as the contact. The series holds three legs of increasing distance in each host city, leading to the National Finals at the SM Mall of Asia Complex."
     }
   ],
   "reliability_score": 40,
@@ -66,6 +66,24 @@
     "verified"
   ],
   "source_mix": [
+    {
+      "url": "https://raceroster.com/events/2026/117985/sante-barley-trilogy-run-asia-2026-davao-leg-3",
+      "label": "Race Roster official event page, Davao Leg 3 (date, distances, mechanics, fees)",
+      "type": "official",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://trilogyrunasia.com/philippines/",
+      "label": "Trilogy Run Asia Philippines page (Davao leg dates)",
+      "type": "official",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.sunstar.com.ph/davao/sports/32k-champs-crowned",
+      "label": "SunStar Davao report on the 2025 Leg 3 (organiser and local partner)",
+      "type": "other",
+      "last_checked": "2026-09-29"
+    },
     {
       "url": "https://runrio.com",
       "label": "Official race website",

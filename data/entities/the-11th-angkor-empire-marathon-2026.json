@@ -4,12 +4,15 @@
   "name": "The 11th Angkor Empire Marathon 2026",
   "category_id": "full-marathon",
   "region_id": "cambodia",
-  "short_description": "A 42.195 km full marathon held in front of Angkor Wat Temple, Siem Reap, Cambodia, on August 2, 2026.",
-  "ai_summary": "The 11th Angkor Empire Marathon 2026 is a full marathon covering 42.195 km, scheduled for August 2, 2026, in front of Angkor Wat Temple in Siem Reap, Cambodia. This edition marks the eleventh running of the event at this historic location.",
+  "short_description": "A full marathon, with half marathon, 10 km and 3 km races, held in front of Angkor Wat Temple, Siem Reap, Cambodia, on August 2, 2026.",
+  "ai_summary": "The 11th Angkor Empire Marathon 2026 was held on 2 August 2026, starting and finishing in front of Angkor Wat Temple in Siem Reap, Cambodia. Alongside the 42.195 km marathon, which started at 4:30am, it offered a half marathon, a 10 km race and a 3 km fun run, and the NOCC reported 6,500 runners from 51 countries.",
   "core_facts": {
     "date": "2026-08-02",
     "distance_km": [
-      42.195
+      42.195,
+      21.1,
+      10,
+      3
     ],
     "primary_distance_km": 42.195,
     "venue": "In front of Angkor Wat Temple, Siem Reap",
@@ -51,9 +54,9 @@
   },
   "excerpt_quotes": [],
   "research_highlights": [
-    "Course is flat and mostly paved, running through Angkor Archaeological Park past nearly 40 ancient temples including Bayon and the South Gate of Angkor Thom",
+    "The organiser describes a flat course through Angkor Archaeological Park; the 2026 marathon passed temples including Ta Prohm, Srah Srang, Bayon and the South Gate of Angkor Thom, with a section through Siem Reap city.",
     "Race starts at 4:30 AM in front of Angkor Wat, so the first stretch of the course is run in darkness",
-    "August timing means heat and especially humidity are a major factor; the 2025 edition drew over 4,000 runners from 51 countries and 2026 organisers expect around 4,500",
+    "August timing means heat and especially humidity are a major factor; the 2025 edition drew 4,224 runners from 47 countries, per CambodgeMag, and the 2026 edition 6,500 from 51 countries, per the NOCC.",
     "Four distance options (3km, 10km, half marathon, marathon), with the full and half marathon AIMS-recognised/certified courses",
     "Local children along the route are reported as an enthusiastic, memorable part of the atmosphere even where formal spectator crowds are thin"
   ],
@@ -68,11 +71,11 @@
   "faqs": [
     {
       "question": "What distance is the Angkor Empire Marathon?",
-      "answer": "The Angkor Empire Marathon 2026 is a full marathon with a primary distance of 42.195 km, the standard internationally recognized marathon length. This is the only distance option confirmed for this edition of the race, held in Siem Reap, Cambodia, in front of the historic Angkor Wat Temple."
+      "answer": "The Angkor Empire Marathon 2026 offers four distances: the 42.195 km full marathon, a half marathon, a 10 km race and a 3 km fun run. The full and half marathon courses carry AIMS certification, and in 2026 the marathon had a cut-off of 6 hours 30 minutes, 30 minutes shorter than in 2025."
     },
     {
-      "question": "Can I register for the 2026 Angkor Empire Marathon now?",
-      "answer": "According to the available information. This means specific sign-up dates, entry fees, and application procedures are not currently available. Interested runners should watch for future announcements regarding when and how registration will open."
+      "question": "How much did it cost to enter the 2026 Angkor Empire Marathon?",
+      "answer": "Entry for international runners cost USD 60 to 75 for the full marathon in 2026, depending on the phase, with the half marathon at USD 50 to 65, the 10 km at USD 35 to 50 and the 3 km at USD 15 to 25. Cambodian runners paid lower rates, and a 7% handling fee applied."
     },
     {
       "question": "Where exactly does the marathon start or take place?",
@@ -97,10 +100,10 @@
       "last_checked": "2026-07-13"
     },
     {
-      "url": "https://checkpointspot.asia/events",
-      "label": "checkpointspot.asia",
+      "url": "https://kh.checkpointspot.asia/event/aem2026",
+      "label": "Official race information (Checkpoint Spot)",
       "type": "aggregator",
-      "last_checked": "2026-07-13"
+      "last_checked": "2026-09-29"
     }
   ],
   "affiliate_links": [],

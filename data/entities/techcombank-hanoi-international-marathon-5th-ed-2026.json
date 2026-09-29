@@ -5,7 +5,7 @@
   "category_id": "full-marathon",
   "region_id": "vietnam",
   "short_description": "A multi-distance road race in Hanoi, Vietnam, featuring a full marathon among six distance options, scheduled for October 4, 2026.",
-  "ai_summary": "The Techcombank Hanoi International Marathon returns for its 5th edition on October 4, 2026, in Hanoi, Vietnam. The event offers six distance options, from a full marathon (42.195km) down to a short 1.5km fun run, catering to a wide range of participants. The exact start venue within Hanoi has not yet been specified.",
+  "ai_summary": "The Techcombank Hanoi International Marathon returns for its 5th edition on October 4, 2026, in Hanoi, Vietnam. The event offers six distance options, from a full marathon (42.195km) down to a short 1.5km fun run, catering to a wide range of participants. The marathon and half marathon start at the Đền Bà Kiệu garden on Đinh Tiên Hoàng Street by Hoàn Kiếm Lake, and the one-way course finishes at Vinhomes Riverside in Long Biên.",
   "core_facts": {
     "date": "2026-10-04",
     "distance_km": [
@@ -17,7 +17,7 @@
       1.5
     ],
     "primary_distance_km": 42.195,
-    "venue": "Hanoi (exact start point not stated)",
+    "venue": "Start: Đền Bà Kiệu garden, Đinh Tiên Hoàng Street, Hoàn Kiếm; finish: Vinhomes Riverside, Long Biên",
     "city": "Hanoi",
     "country": "Vietnam"
   },
@@ -38,8 +38,8 @@
   "research_highlights": [
     "The course runs through Hanoi's heritage and cultural landmarks, including the Ho Chi Minh Mausoleum, the National Assembly, and Long Bien Bridge.",
     "All four distances (42.195km marathon, 21.097km half marathon, 10km, and 5km) are AIMS-certified courses, also recognized by the Vietnam Athletics Federation.",
-    "The 2025 (4th) edition drew over 13,000 runners from 51 countries and territories, up roughly 1.5x from the prior year.",
-    "Race day weather for the 2025 edition (Oct 4-5) was recorded at about 27°C with overcast skies and very high humidity (~90%), typical for early October in Hanoi.",
+    "The 2025 (4th) edition drew over 13,000 runners from 55 countries and territories, according to Nhân Dân's post-race report, about 1.5 times the previous year's field.",
+    "On race morning in 2025 (5 October) Noi Bai airport recorded 26°C and 94% humidity with mist at the 4am start, rising to 32°C by 10am.",
     "The event is organized by Sunrise Events Vietnam (also organizers of IRONMAN Vietnam) with Techcombank as title sponsor, and includes a 'Marathon Village' with expo activities in the days before the race."
   ],
   "research_watchouts": [
@@ -51,7 +51,7 @@
   "faqs": [
     {
       "question": "When is the Techcombank Hanoi International Marathon taking place?",
-      "answer": "The 5th edition of the Techcombank Hanoi International Marathon is scheduled to take place on October 4, 2026. This date has been confirmed for the event, which is held in Hanoi, Vietnam, though further specific venue details have not yet been provided."
+      "answer": "The 5th edition of the Techcombank Hanoi International Marathon takes place on Sunday 4 October 2026, according to the official site and AIMS. The marathon starts at 4am from the Đền Bà Kiệu garden by Hoàn Kiếm Lake, with a 6 hour 30 minute limit, and finishes at Vinhomes Riverside in Long Biên."
     },
     {
       "question": "What distance options are available at this marathon?",
@@ -59,7 +59,7 @@
     },
     {
       "question": "Where exactly does the race start in Hanoi?",
-      "answer": "The race takes place in Hanoi, Vietnam, but the exact start point within the city has not been stated in available information. Further details about the specific venue or starting location are expected to be announced closer to the event date."
+      "answer": "The marathon starts at the Đền Bà Kiệu garden on Đinh Tiên Hoàng Street, beside Hoàn Kiếm Lake. The course is one-way: it runs through the Old Quarter and around West Lake, crosses Nhật Tân Bridge into Đông Anh, returns over Đông Trù Bridge and finishes at Vinhomes Riverside in Long Biên, across the river."
     }
   ],
   "reliability_score": 92,

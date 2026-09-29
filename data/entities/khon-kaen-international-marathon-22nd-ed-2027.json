@@ -4,8 +4,8 @@
   "name": "Khon Kaen International Marathon (22nd ed.)",
   "category_id": "full-marathon",
   "region_id": "thailand",
-  "short_description": "The Khon Kaen International Marathon (22nd edition) takes place January 10, 2027, in Khon Kaen, Thailand, offering marathon and half marathon distances.",
-  "ai_summary": "The Khon Kaen International Marathon is the 22nd edition of this annual road race, scheduled for January 10, 2027, in Khon Kaen, Thailand. The event offers both a full marathon distance of 42.195 km and a half marathon distance of 21.1 km, giving runners a choice based on their preferred challenge.",
+  "short_description": "The 22nd Khon Kaen International Marathon runs on 9 and 10 January 2027 at Khon Kaen University in Thailand, with the marathon, half marathon and 11.55 km mini marathon on Sunday 10 January.",
+  "ai_summary": "The 22nd Khon Kaen International Marathon (KKIM 2027) is held on 9 and 10 January 2027 in Khon Kaen, Thailand, with the start and finish on Kanlapaphruek Road in front of the Golden Jubilee Convention Hall at Khon Kaen University. On Sunday 10 January the marathon (42.195 km) starts at 3am with a seven-hour limit, the half marathon at 4am and the 11.55 km mini marathon at 4.45am; the programme also includes a 5.4 km walk-run and a 2.8 km kids' run, which were held on the Saturday in 2026.",
   "core_facts": {
     "date": "2027-01-10",
     "distance_km": [
@@ -17,7 +17,7 @@
     ],
     "primary_distance_km": 42.195,
     "price_range": "400-2,500 THB",
-    "venue": "Khon Kaen",
+    "venue": "Kanlapaphruek Road, in front of the Golden Jubilee Convention Hall, Khon Kaen University",
     "city": "Khon Kaen",
     "country": "Thailand"
   },
@@ -40,15 +40,15 @@
   "faqs": [
     {
       "question": "When is the Khon Kaen International Marathon?",
-      "answer": "The Khon Kaen International Marathon, now in its 22nd edition, is scheduled to take place on January 10, 2027. The race is held in Khon Kaen, Thailand, and this date marks the confirmed occurrence of the event for participants planning to register and attend."
+      "answer": "Sunday 10 January 2027 for the marathon, half marathon and mini marathon; the organiser lists this 22nd edition, KKIM 2027, as a 9 and 10 January weekend. In 2026 the 5.4 km walk-run and 2.8 km kids' run were on the Saturday. The marathon starts at 3am and must be finished by 10am."
     },
     {
       "question": "What distances are offered at this race?",
-      "answer": "The Khon Kaen International Marathon offers two distances for participants to choose from: a full marathon at 42.195 km, which serves as the primary distance, and a half marathon option at 21.1 km. This gives runners flexibility depending on their fitness level and goals."
+      "answer": "Five: the marathon (42.195 km), the half marathon (21.1 km) and an 11.55 km mini marathon on Sunday, plus a 5.4 km walk-run and a 2.8 km kids' run. Cut-offs are seven hours for the marathon, three and a half hours for the half and two hours for the mini marathon."
     },
     {
       "question": "Where does the race take place?",
-      "answer": "The Khon Kaen International Marathon is held in Khon Kaen, Thailand, which serves as both the venue and host city for the event. This location has hosted the race across its many editions, with the 22nd edition set for January 10, 2027."
+      "answer": "At Khon Kaen University in north-east Thailand. The start and finish are on Kanlapaphruek Road in front of the Golden Jubilee Convention Hall. In 2026 the Sunday courses ran through the university and central Khon Kaen, while the shorter Saturday races stayed inside the campus."
     }
   ],
   "reliability_score": 86,
@@ -59,10 +59,10 @@
   ],
   "source_mix": [
     {
-      "url": "https://khonkaenmarathon.com",
-      "label": "Official race website",
+      "url": "https://www.khonkaenmarathon.com/",
+      "label": "Official race website (KKIM 2027 race information)",
       "type": "official",
-      "last_checked": "2026-08-25"
+      "last_checked": "2026-09-29"
     },
     {
       "url": "https://aims-worldrunning.org/calendar.html",

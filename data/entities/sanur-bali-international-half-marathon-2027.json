@@ -37,7 +37,7 @@
   "slug": "sanur-bali-international-half-marathon-2027",
   "name": "Sanur Bali International Half Marathon 2027",
   "short_description": "The Sanur Bali International Half Marathon returns on Sunday 7 February 2027 on the beachfront at Sanur, over 5 km, 10 km and 21 km.",
-  "ai_summary": "The Sanur Bali International Half Marathon 2027 (SIHM) takes place on Sunday 7 February 2027 on the beachfront at Sanur, Denpasar, and bills itself as Bali's first half marathon with a beach setting. It is organised by RajaLARI with Prama Sanur Beach Bali, and offers 5 km, 10 km and a 21 km half marathon, with entry from Rp 490,000. The 2026 edition on 8 February drew around 4,500 runners from 34 countries on a course around Pantai Mertasari.",
+  "ai_summary": "The Sanur Bali International Half Marathon 2027 (SIHM) takes place on Sunday 7 February 2027 on the beachfront at Sanur, Denpasar, and bills itself as Bali's first half marathon with a beach setting. It is organised by RajaLARI with Prama Sanur Beach Bali, and offers 5 km, 10 km and a 21 km half marathon, with normal-sale entry from Rp 460,000 for the 5 km fun run. The 2026 edition on 8 February drew around 4,500 runners from 34 countries on a course around Pantai Mertasari.",
   "core_facts": {
     "date": "2027-02-07",
     "distance_km": [
@@ -47,7 +47,7 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "RajaLARI",
-    "price_range": "From IDR 490,000",
+    "price_range": "From IDR 460,000",
     "city": "Sanur, Denpasar, Bali",
     "country": "Indonesia"
   },
@@ -56,11 +56,11 @@
   "faqs": [
     {
       "question": "When is the Sanur Bali International Half Marathon 2027?",
-      "answer": "Sunday 7 February 2027, on the beachfront at Sanur in Denpasar, Bali. The event is held each February; the 2026 edition was on 8 February and drew around 4,500 runners from 34 countries."
+      "answer": "Sunday 7 February 2027, on the beachfront at Sanur in Denpasar, Bali, according to the organiser's home page. The event is held each February; the 2026 edition on 8 February started and finished at Pantai Mertasari and drew around 4,500 runners from 34 countries."
     },
     {
       "question": "What distances does the Sanur Bali International Half Marathon offer?",
-      "answer": "Three: 5 km, 10 km and a 21 km half marathon, with entry from Rp 490,000. There is no full marathon at this event, and the half marathon is the headline distance that gives the race its name."
+      "answer": "Three: 5 km, 10 km and a 21 km half marathon. Normal-sale entry on the official FAQ runs from Rp 460,000 for the 5 km fun run to Rp 1,490,000 for the international half marathon. There is no full marathon, and the half marathon is the headline distance."
     }
   ],
   "tags": [
@@ -91,6 +91,12 @@
       "label": "Sanur Bali International Half Marathon official site",
       "type": "official",
       "last_checked": "2026-09-28"
+    },
+    {
+      "url": "https://sanurmarathon.com/faq/",
+      "label": "Sanur Bali International Half Marathon official FAQ (2027 prices)",
+      "type": "official",
+      "last_checked": "2026-09-29"
     }
   ]
 }

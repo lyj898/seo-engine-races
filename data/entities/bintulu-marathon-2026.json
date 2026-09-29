@@ -4,16 +4,18 @@
   "name": "Bintulu Marathon 2026",
   "category_id": "full-marathon",
   "region_id": "malaysia",
-  "short_description": "Bintulu Marathon 2026 is a full and half marathon event held on August 2, 2026 in Bintulu, Sarawak, Malaysia.",
-  "ai_summary": "Bintulu Marathon 2026 is a full marathon and half marathon event scheduled for August 2, 2026, in Bintulu, Sarawak, Malaysia. The race offers two distance options: 42.195 km and 21.1 km, catering to runners seeking either a full marathon challenge or a shorter half marathon distance.",
+  "short_description": "Bintulu Marathon 2026 is a full marathon, half marathon, 10km and 6km event held on 2 August 2026 in Bintulu, Sarawak, Malaysia.",
+  "ai_summary": "Bintulu Marathon 2026 took place on 2 August 2026 in Bintulu, Sarawak, Malaysia, starting and finishing at the old Bintulu airport site on Jalan Tun Ahmad Zaidi. Run by the Bintulu Development Authority (BDA) with the Bintulu Resident's Office and Bintulu Port Holdings, it offered a 42.195km full marathon, a 21.1km half marathon, a 10km competitive run and a 6km fun run.",
   "core_facts": {
     "date": "2026-08-02",
     "distance_km": [
       42.195,
-      21.1
+      21.1,
+      10,
+      6
     ],
     "primary_distance_km": 42.195,
-    "venue": "Bintulu, Sarawak",
+    "venue": "Old Bintulu Airport site, Jalan Tun Ahmad Zaidi",
     "city": "Bintulu, Sarawak",
     "country": "Malaysia"
   },
@@ -75,30 +77,31 @@
   ],
   "research_highlights": [
     "The 2025/2026 route crosses the newly-built Tun Taib Mahmud Bridge, offering views of Sungai Kuala Kemena and the town, and organisers had a kompang group performing on the bridge for atmosphere.",
-    "Race categories are Full Marathon (42km, 7-hour cut-off), Half Marathon (21.1km, 4-hour cut-off), 10km (2h15m cut-off) and 6km Fun Run (1h30m cut-off) as run in the 2025 edition.",
+    "Race categories are Full Marathon (42.195km, 1am flag-off, 7-hour cut-off), Half Marathon (21.1km), a 10km competitive run and a 6km fun run; in 2025 the half, 10km and 6km cut-offs were 4 hours, 2h15m and 1h30m.",
     "Race Entry Pack Collection (REPC) for the 2026 edition runs 30 July–1 August 2026 at Boulevard Shopping Mall, Bintulu.",
-    "The event has grown rapidly: from 3,535 finishers in the 2023 inaugural edition, to 5,800 in 2024, to a record 8,951 from 21 countries in 2025, with organisers targeting 10,000 for 2026.",
+    "The event has grown quickly: from 3,535 participants at the 2023 inaugural edition to 5,800 in 2024, 8,951 from 21 countries in 2025 and 10,472 from 23 countries in 2026, per BDA.",
     "For 2026, the full and half marathon routes have received AIMS/World Athletics international certification, and the event starts/finishes at the Old Bintulu Airport site."
   ],
   "research_watchouts": [
     "After the 2025 race, litter including used energy gel packets and disposable cups was left scattered along the roadside and bridge despite bins being provided at every water station.",
-    "One runner's account of the 2025 half marathon described having to cope with rain during the race ('cabaran larian dalam hujan'), suggesting wet-weather conditions are possible on race day.",
-    "The Tun Taib Mahmud Bridge section, while scenic, was described by local press as a 'challenging' part of the 2025 route."
+    "Bintulu airport reported thunderstorms from 4am to 9am during the 2026 race, and BDA noted early-morning rain before the 2025 flag-off, so wet conditions are possible on race day.",
+    "The Tun Taib Mahmud Bridge section, while scenic, was described by local press as a 'challenging' part of the 2025 route.",
+    "BDA apologised for delays at race-pack collection on the busiest day before the 2026 race, caused by a technical fault in its system and traffic around the collection site."
   ],
   "research_confidence": "medium",
   "research_last_updated": "2026-07-31",
   "faqs": [
     {
       "question": "When is the Bintulu Marathon 2026 taking place?",
-      "answer": "The Bintulu Marathon 2026 is scheduled to take place on August 2, 2026. This date applies to the event overall, which includes both the full marathon distance of 42.195 km and the half marathon distance of 21.1 km, held in Bintulu, Sarawak, Malaysia."
+      "answer": "The Bintulu Marathon 2026 took place on Sunday 2 August 2026, with the full marathon flagging off at 1am. It was the fourth edition, and BDA reported 10,472 runners from 23 countries. Race packs were collected at an expo at Boulevard Shopping Mall Bintulu from 30 July to 1 August."
     },
     {
       "question": "Where is the Bintulu Marathon 2026 held?",
-      "answer": "The Bintulu Marathon 2026 is held in Bintulu, which is located in the state of Sarawak, Malaysia. This location serves as the venue and host city for both the full marathon and half marathon distances offered during the event."
+      "answer": "The race starts and finishes at the old Bintulu airport site on Jalan Tun Ahmad Zaidi, Bintulu, Sarawak. The marathon route crosses the Tun Taib Mahmud Bridge and passes the BDA Iconic Building and Tanjung Batu beach, and roads around the start were closed from 1am to 10am on race day."
     },
     {
       "question": "What distance options are available at the Bintulu Marathon 2026?",
-      "answer": "The Bintulu Marathon 2026 offers two distance options for participants: a full marathon distance of 42.195 km and a half marathon distance of 21.1 km. This allows runners to choose the option that best suits their experience and training level."
+      "answer": "The Bintulu Marathon 2026 offers four categories: a 42.195 km full marathon, a 21.1 km half marathon, a 10 km competitive run and a 6 km fun run. The full and half marathon routes were certified by World Athletics through AIMS, and the full marathon had a 7-hour cut-off."
     }
   ],
   "reliability_score": 72,
@@ -115,10 +118,10 @@
       "last_checked": "2026-07-31"
     },
     {
-      "url": "https://checkpointspot.asia/events",
-      "label": "checkpointspot.asia",
-      "type": "aggregator",
-      "last_checked": "2026-07-13"
+      "url": "https://www.bda.gov.my/web/subpage/news_view/444",
+      "label": "BDA post-race news",
+      "type": "official",
+      "last_checked": "2026-09-29"
     }
   ],
   "affiliate_links": [],

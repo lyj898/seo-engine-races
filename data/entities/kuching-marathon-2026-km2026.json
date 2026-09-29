@@ -16,7 +16,6 @@
     ],
     "primary_distance_km": 42.195,
     "organizer": "Kuching Marathon Association",
-    "price_range": "RM60-RM160",
     "venue": "Padang Merdeka, Kuching, Sarawak",
     "city": "Kuching, Sarawak",
     "country": "Malaysia",
@@ -105,11 +104,11 @@
     },
     {
       "question": "What distances does the Kuching Marathon offer?",
-      "answer": "Four: the full marathon (42.195 km), the half marathon (21.1 km), a 10 km and a 5 km, all based at Padang Merdeka in the centre of Kuching."
+      "answer": "Four: the full marathon (42.195 km), the half marathon (21.1 km), a 10 km and a 5 km, all starting and finishing at Padang Merdeka in the centre of Kuching. The marathon was due to start at 1am with a seven-hour cut-off, and the half marathon at 3am with four hours."
     },
     {
       "question": "Who organises the Kuching Marathon?",
-      "answer": "The Kuching Marathon Association, based in Kuching, Sarawak. The 2025 edition, on 21 September 2025, was the tenth and drew a record 14,150 participants."
+      "answer": "The Kuching Marathon Association, based in Kuching, Sarawak. It first held the race in 2014, and the 2025 edition on 21 September 2025 was the tenth, drawing a record 14,150 participants. The association called off the 2026 race after advice from state disaster and health authorities."
     }
   ],
   "reliability_score": 100,

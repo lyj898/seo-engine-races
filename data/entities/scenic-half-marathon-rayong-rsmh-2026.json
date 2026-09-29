@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "thailand",
   "short_description": "A half-marathon and 10km race held at Laem Charoen Public Park in Rayong, Thailand on August 2, 2026.",
-  "ai_summary": "The Scenic Half Marathon Rayong (RSMH) is a half-marathon event organized by Scenic Marathon Series, scheduled for August 2, 2026, at Laem Charoen Public Park in Rayong, Thailand. Runners can choose between a 21.1km half marathon or a 10km distance.",
+  "ai_summary": "The Scenic Half Marathon Rayong (RSMH) is a half-marathon event organised by RACEUP WORK Co., Ltd. as part of the Scenic Marathon Series, scheduled for August 2, 2026, at Laem Charoen Public Park in Rayong, Thailand. Runners can choose between a 21.1km half marathon or a 10km distance.",
   "core_facts": {
     "date": "2026-08-02",
     "distance_km": [
@@ -13,7 +13,7 @@
       10
     ],
     "primary_distance_km": 21.1,
-    "organizer": "Scenic Marathon Series",
+    "organizer": "RACEUP WORK Co., Ltd. (Scenic Marathon Series)",
     "venue": "Laem Charoen Public Park, Rayong",
     "city": "Rayong",
     "country": "Thailand"
@@ -32,11 +32,11 @@
   ],
   "excerpt_quotes": [],
   "research_highlights": [
-    "Course is a 21.1 km out-and-back along the coast, starting and finishing at Laem Charoen Public Park and passing Saeng Chan/PMY and Suchada beaches on a straight, turn-free road route curated by Thailand's Department of Rural Roads.",
-    "The 2024 edition drew about 3,000 runners, while the 2025 edition grew to over 4,500 participants, with elite East African runners winning the overall titles (men's winner finished in 1:07:50 in 2024).",
-    "Race day historically starts very early (around 04:30) to beat the tropical heat, consistent with the August timing in Rayong.",
+    "The 2026 21.1 km course starts and finishes at Laem Charoen Public Park, heads west along the coast road, makes an inland loop with a turning point from about 4 km to 14 km, and returns along the coast past Saeng Chan beach.",
+    "The 2024 edition drew over 3,000 runners and was won by Ethiopia's Ebisa Takele in 1:07:50; the 2025 and 2026 overall titles went to Thai runners, and the organiser reported over 4,500 runners in 2026.",
+    "In 2026 the 21.1 km started at 4:30am and the 10 km at 5:00am, with cut-offs of 3 hours 30 minutes and 2 hours 30 minutes respectively.",
     "The event is recognized as a World Athletics Label Road Race and is one leg of the multi-city 'Scenic Marathon Series' across Thai coastal/tourist provinces.",
-    "Entitlements typically include race bib, official race shirt, finisher medal, finisher shirt (21.1 km only), accident insurance and e-certificate, per past editions' race packages."
+    "The 2026 race pack included a bib, T-shirt and finisher medal, plus a finisher shirt for the 21.1 km; the organiser provides group accident insurance for every registered runner."
   ],
   "research_watchouts": [
     "A YouTube video covering a past edition is titled 'Scenic Half Marathon Rayong วิ่งฝ่าลมชมทะเล ไม่ง่ายอย่างที่คิด' (roughly 'running against the wind by the sea, not as easy as you'd think'), suggesting coastal wind can make the flat route tougher than expected.",
@@ -56,7 +56,7 @@
     },
     {
       "question": "Who organizes the Scenic Half Marathon Rayong?",
-      "answer": "This race is organized by the Scenic Marathon Series, which is responsible for coordinating the event held at Laem Charoen Public Park in Rayong, Thailand. The organizer oversees both the 21.1km half marathon and 10km distance options offered as part of this scheduled 2026 event."
+      "answer": "The race is organised by RACEUP WORK Co., Ltd., which runs the Scenic Marathon Series of races across Thailand. The 2026 Rayong edition, the fifth, held World Athletics Road Race Label status for a second year and was followed in the series by Krabi, Chiang Mai and Nakhon Phanom."
     },
     {
       "question": "Where is the race located?",

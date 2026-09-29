@@ -4,8 +4,8 @@
   "name": "Standard Chartered Hanoi Marathon Heritage Race",
   "category_id": "full-marathon",
   "region_id": "vietnam",
-  "short_description": "A full marathon and multi-distance race through Hanoi's Old Quarter, held November 8, 2026.",
-  "ai_summary": "The Standard Chartered Hanoi Marathon Heritage Race is a full-marathon event scheduled for November 8, 2026, in Hanoi, Vietnam. Organized by DHA Vietnam with Standard Chartered as title sponsor, the race takes runners through a loop course in the Hanoi Old Quarter. Registration is currently open, with multiple distance options ranging from 2.1km to the full 42.195km marathon, and entry priced at VND 278,000.",
+  "short_description": "A full marathon and multi-distance race in Hanoi, Vietnam, held November 8, 2026, with the event village at Thong Nhat Park.",
+  "ai_summary": "The Standard Chartered Hanoi Marathon Heritage Race is a full-marathon event scheduled for November 8, 2026, in Hanoi, Vietnam. Organized by DHA Vietnam with Standard Chartered as title sponsor, the race offers distances from a 2.1km Kid Dash to the full 42.195km marathon. The 2026 event runs from 6 to 8 November, with the event village at Thong Nhat Park; in 2025 adult entry in the Standard phase cost VND 800,000 to 2,000,000.",
   "core_facts": {
     "date": "2026-11-08",
     "distance_km": [
@@ -17,8 +17,8 @@
     ],
     "primary_distance_km": 42.195,
     "organizer": "DHA Vietnam (title sponsor: Standard Chartered)",
-    "price_range": "VND 278000",
-    "venue": "Hanoi Old Quarter loop course",
+    "price_range": "VND 800,000-2,000,000 (2025 Standard phase, adult)",
+    "venue": "Thong Nhat Park (2026 event village), Hanoi",
     "city": "Hanoi",
     "country": "Vietnam"
   },
@@ -46,11 +46,11 @@
     },
     {
       "question": "How much does it cost to register?",
-      "answer": "Registration for the Standard Chartered Hanoi Marathon Heritage Race is priced at VND 278,000. This price point applies to the event as listed."
+      "answer": "Adult fees in the 2025 Standard phase (1 July to 27 August 2025) were VND 800,000 for the 5 km, 1,200,000 for the 10 km, 1,600,000 for the 21 km and 2,000,000 for the 42 km. Groups of three or more received 35% off and Standard Chartered cardholders 20% off. Check the official site for 2026 prices."
     },
     {
       "question": "Where does the race take place?",
-      "answer": "The race takes place in Hanoi, Vietnam, along a loop course through the historic Hanoi Old Quarter. This central, culturally significant setting gives runners a route through one of the city's most iconic and recognizable districts on race day."
+      "answer": "The 2026 event runs from 6 to 8 November in Hanoi, with the main race day on 8 November and the event village at Thong Nhat Park. The organiser has promised a new route and has not yet published the start and finish; in 2025 all distances started and finished at Quan Ngua Sports Complex."
     },
     {
       "question": "Who organizes this race?",

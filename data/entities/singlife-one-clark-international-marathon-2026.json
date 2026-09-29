@@ -4,8 +4,8 @@
   "name": "Singlife One Clark International Marathon",
   "category_id": "full-marathon",
   "region_id": "philippines",
-  "short_description": "The Singlife One Clark International Marathon is a full-marathon event in Clark Freeport, Pampanga, Philippines, scheduled for September 20, 2026.",
-  "ai_summary": "The Singlife One Clark International Marathon is a full-marathon event organized by RUNRIO Inc., scheduled for September 20, 2026, at the Clark Parade Grounds in Clark Freeport, Pampanga, Philippines. The event offers multiple distance options, including 42.195km, 21.1km, 10km, and 5km races, catering to a range of runners from beginners to seasoned marathoners.",
+  "short_description": "The Singlife One Clark International Marathon was a full marathon, with 21.1 km, 10 km and 5 km races, held on 20 September 2026 at the Clark Parade Grounds in Clark Freeport, Pampanga, Philippines.",
+  "ai_summary": "The Singlife One Clark International Marathon was held on Sunday 20 September 2026 at the Clark Parade Grounds in Clark Freeport, Pampanga, Philippines, organised by RUNRIO Inc. with Go Clark as local organiser. The sixth leg of the Singlife Philippine Marathon Majors offered 42.195 km (midnight start), 21.1 km, 10 km and 5 km races on World Athletics and AIMS-certified courses. The results list 3,296 entries; Kenyans Victor Kipkemei Chepkwony (2:24:28) and Ziporah Wanjiru Kingori (2:49:20) won the marathon.",
   "core_facts": {
     "date": "2026-09-20",
     "distance_km": [
@@ -35,7 +35,7 @@
   ],
   "excerpt_quotes": [],
   "research_highlights": [
-    "This is the first edition of the Singlife One Clark International Marathon, held September 20, 2026, at the Clark Parade Grounds in Clark Freeport, Pampanga.",
+    "The race was held on 20 September 2026 at the Clark Parade Grounds in Clark Freeport, Pampanga, with the marathon starting at midnight according to the timing data.",
     "The race is the sixth leg of the newly launched Singlife Philippine Marathon Majors series organized by RUNRIO Inc. in partnership with local organizer GoRace PH/Go Clark.",
     "Four distance categories are offered: 42K, 21K, 10K, and 5K, with over P1.2 million in cash prizes.",
     "Race inclusions include a race singlet, bib, finisher medal, finisher towel, and loot bag, with 21K and 42K finishers also getting an exclusive finisher shirt.",
@@ -47,15 +47,15 @@
   "faqs": [
     {
       "question": "When is the Singlife One Clark International Marathon?",
-      "answer": "The Singlife One Clark International Marathon is scheduled to take place on September 20, 2026. This date allows participants to plan their training and travel accordingly, ensuring they are well-prepared for the race day. Mark your calendars for this exciting event in the racing calendar."
+      "answer": "It was held on Sunday 20 September 2026 at the Clark Parade Grounds in Clark Freeport, Pampanga. Timing data show the marathon started at midnight, the 21 km at 2am, the 10 km at 4am and the 5 km at 5am. Race packs were collected at SM City Clark on 18 and 19 September."
     },
     {
       "question": "Where is the race held?",
-      "answer": "The race is held at the Clark Parade Grounds, located in Clark Freeport, Pampanga, Philippines. This venue provides a specific and accessible location for participants, offering a distinct backdrop for the marathon and its accompanying races."
+      "answer": "At the Clark Parade Grounds on Clark Avenue in Clark Freeport, Pampanga, the event venue and finish area. The courses used the wide roads of the Clark Freeport Zone and are certified by World Athletics and AIMS. Clark International Airport is about 4 km east of the Parade Grounds."
     },
     {
       "question": "What distances are available for participants?",
-      "answer": "Participants can choose from several distances: a full marathon of 42.195km, a half marathon of 21.1km, a 10km race, and a 5km race. This variety accommodates a wide range of running abilities and preferences, making the event accessible to both novice and experienced runners."
+      "answer": "Four: a 42.195 km marathon, a 21.1 km half marathon, a 10 km and a 5 km. Entry fees ranged from P1,435 for an early-bird 5 km to P3,535 for a late marathon entry, and only 21 km and 42 km finishers received a finisher's shirt. Hydration stations were every 2 to 2.5 km."
     }
   ],
   "reliability_score": 56,
@@ -65,6 +65,24 @@
     "verified"
   ],
   "source_mix": [
+    {
+      "url": "https://raceroster.com/events/2026/129863/singlife-one-clark-international-marathon-2026",
+      "label": "Race Roster official event page (venue, date, course certification)",
+      "type": "official",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.philstar.com/campus/sports/2026/08/04/2546981/one-clark-international-marathon-slated-september-20",
+      "label": "Philstar launch report (organisers, prizes)",
+      "type": "other",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.sunstar.com.ph/pampanga/kenyans-dominate-singlife-one-clark-intl-marathon",
+      "label": "SunStar Pampanga race report",
+      "type": "other",
+      "last_checked": "2026-09-29"
+    },
     {
       "url": "https://runrio.com",
       "label": "Official race website",

@@ -4,18 +4,20 @@
   "name": "Locomotive Half Marathon 2026",
   "category_id": "half-marathon",
   "region_id": "indonesia",
-  "short_description": "A half marathon (21.1km, plus 10km and 5km options) held in Bandar Lampung, Indonesia on September 20, 2026.",
-  "ai_summary": "The Locomotive Half Marathon 2026 is set for September 20, 2026 in Bandar Lampung, Lampung, Indonesia, offering three distance options: 5km, 10km, and a 21.1km half marathon as the primary event. It is organized by PT Kereta Api Indonesia (KAI), with execution handled by RAW Organizer and Runaway Lampung.",
+  "short_description": "A half marathon, with 10 km, 5 km and a 3 km category for invited disabled participants, held in Bandar Lampung, Indonesia on 20 September 2026, starting and finishing at Tugu Adipura.",
+  "ai_summary": "The Locomotive Half Marathon 2026 was held on Sunday 20 September 2026 in Bandar Lampung, Lampung, Indonesia, starting and finishing at Tugu Adipura in Enggal. Organised by PT Kereta Api Indonesia (KAI) Divre IV Tanjungkarang with RAW Organizer (Runaway Lampung), it marked the 81st anniversaries of KAI and the TNI and offered a 21.1 km half marathon (5am start, four-hour cut-off), 10 km, 5 km and a 3 km category for invited disabled participants. KAI reported 3,000 runners.",
   "core_facts": {
     "date": "2026-09-20",
     "distance_km": [
       21.1,
       10,
-      5
+      5,
+      3
     ],
     "primary_distance_km": 21.1,
     "organizer": "PT Kereta Api Indonesia (KAI), executed by RAW Organizer / Runaway Lampung",
-    "venue": "Bandar Lampung (exact start point not yet announced)",
+    "price_range": "IDR 175,000 - IDR 365,000 (phase 1)",
+    "venue": "Tugu Adipura, Enggal, Bandar Lampung",
     "city": "Bandar Lampung, Lampung",
     "country": "Indonesia"
   },
@@ -55,11 +57,11 @@
   "faqs": [
     {
       "question": "When is the Locomotive Half Marathon 2026 taking place?",
-      "answer": "The Locomotive Half Marathon 2026 is scheduled for September 20, 2026. It will take place in Bandar Lampung, Lampung, Indonesia."
+      "answer": "It was held on Sunday 20 September 2026 in Bandar Lampung, Lampung. The half marathon flagged off at 5am, the 10 km at 5.30am, the 5 km at 5.45am and the 3 km for invited disabled participants at 6am, with the half-marathon course closing after four hours."
     },
     {
       "question": "What distance options are available at this race?",
-      "answer": "The event offers three distance options: a 5km, a 10km, and a 21.1km half marathon, which serves as the primary distance. This range allows both casual participants and more experienced runners to choose a distance that matches their fitness level and racing goals for the day."
+      "answer": "Four categories: a 21.1 km half marathon, a 10 km and a 5 km, plus a 3 km for invited disabled participants. Cut-offs were four hours for the half, 2 hours 45 minutes for the 10 km and 1 hour 30 minutes for the 5 km, and phase-one entry cost IDR 175,000 to IDR 365,000."
     },
     {
       "question": "Who organizes the Locomotive Half Marathon 2026?",
@@ -67,7 +69,7 @@
     },
     {
       "question": "Where exactly does the race start?",
-      "answer": "The race will be held in Bandar Lampung, Lampung, Indonesia, though the exact start point has not yet been announced by the organizers. Runners planning to participate should keep checking official updates from PT Kereta Api Indonesia (KAI) and RAW Organizer / Runaway Lampung for further venue details."
+      "answer": "The race started and finished at Tugu Adipura in Enggal, central Bandar Lampung, according to the pre-race release from Korem 043/Garuda Hitam, and the course used the city's main roads. KAI asked residents to plan journeys around road closures on race morning."
     }
   ],
   "reliability_score": 22,
@@ -76,6 +78,18 @@
     "indonesia"
   ],
   "source_mix": [
+    {
+      "url": "https://medialampung.disway.id/bandar-lampung/read/703461/3000-peserta-meriahkan-locomotive-half-marathon-2026-di-bandar-lampung",
+      "label": "Medialampung post-race report (KAI: 3,000 runners, categories, start times)",
+      "type": "other",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.pikiranlampung.com/2026/09/fun-run-hut-ke-81-kai-dan-tni-siap.html",
+      "label": "Pikiran Lampung pre-race report (Tugu Adipura start and finish)",
+      "type": "other",
+      "last_checked": "2026-09-29"
+    },
     {
       "url": "https://tiptip.id/event/4bc2013e-5ac3-4c05-9049-13fb758ce766",
       "label": "tiptip.id",

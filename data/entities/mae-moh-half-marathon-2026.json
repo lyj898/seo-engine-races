@@ -5,7 +5,7 @@
   "category_id": "half-marathon",
   "region_id": "thailand",
   "short_description": "The Mae Moh Half Marathon is a 21.1km, 10km, and 5km race held in Mae Moh, Lampang, Thailand on October 25, 2026.",
-  "ai_summary": "The Mae Moh Half Marathon is a running event scheduled for October 25, 2026, in Mae Moh, Lampang, Thailand. Organized by the Electricity Generating Authority of Thailand (EGAT), the race offers three distance options: 21.1km, 10km, and 5km, making it accessible to a range of runners.",
+  "ai_summary": "The Mae Moh Half Marathon is a running event scheduled for October 25, 2026, in Mae Moh, Lampang, Thailand. Organised by Lampang Province, the Lampang Provincial Administrative Organization, the Lampang Chamber of Commerce, the Thai Mass Participation Sports Trade Association and the Electricity Generating Authority of Thailand (EGAT), the race offers three distance options: 21.1km, 10km, and 5km, making it accessible to a range of runners.",
   "core_facts": {
     "date": "2026-10-25",
     "distance_km": [
@@ -14,7 +14,7 @@
       5
     ],
     "primary_distance_km": 21.1,
-    "organizer": "Electricity Generating Authority of Thailand (EGAT)",
+    "organizer": "Lampang Province, Lampang Provincial Administrative Organization, Lampang Chamber of Commerce, Thai Mass Participation Sports Trade Association and EGAT",
     "venue": "Mae Moh, Lampang",
     "city": "Mae Moh, Lampang",
     "country": "Thailand"
@@ -89,7 +89,7 @@
     },
     {
       "question": "Who organizes the Mae Moh Half Marathon?",
-      "answer": "The Mae Moh Half Marathon is organized by the Electricity Generating Authority of Thailand, commonly known as EGAT. The event takes place in Mae Moh, Lampang, Thailand, reflecting the organizer's connection to the local region."
+      "answer": "The Mae Moh Half Marathon has five co-organisers: Lampang Province, the Lampang Provincial Administrative Organization, the Lampang Chamber of Commerce, the Thai Mass Participation Sports Trade Association and the Electricity Generating Authority of Thailand (EGAT). The race is held at EGAT Mae Moh, in Mae Moh district of Lampang Province."
     }
   ],
   "reliability_score": 42,
@@ -100,10 +100,10 @@
   ],
   "source_mix": [
     {
-      "url": "https://www.egat.co.th",
-      "label": "Official race website",
+      "url": "https://race.thai.run/maemohhalfmarathon2026",
+      "label": "Official race page (thai.run registration)",
       "type": "official",
-      "last_checked": "2026-08-25"
+      "last_checked": "2026-09-29"
     },
     {
       "url": "https://aims-worldrunning.org/calendar.html",
@@ -122,7 +122,7 @@
   "cta_links": [
     {
       "label": "Visit official site",
-      "url": "https://www.egat.co.th",
+      "url": "https://race.thai.run/maemohhalfmarathon2026",
       "type": "official_website"
     }
   ],
