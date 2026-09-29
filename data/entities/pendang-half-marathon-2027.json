@@ -1,0 +1,62 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "malaysia",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "pendang-half-marathon-2027",
+  "slug": "pendang-half-marathon-2027",
+  "name": "Pendang Half Marathon 2027",
+  "short_description": "Pendang Half Marathon 2027 is on Saturday 24 April 2027 at Stadium Mini Pendang in Pendang, over 5 km, 10 km and 21.1 km.",
+  "ai_summary": "The Pendang Half Marathon 2027 is organised by Pelikat Batik Run from Stadium Mini Pendang, Kedah, on Saturday 24 April 2027, with the event page listing 6:30 am. It offers a 21 km half marathon, 10 km and 5 km, and the organiser describes the route as running through the paddy fields of Pendang. Finisher tees go to 21 km and 10 km finishers.",
+  "core_facts": {
+    "date": "2027-04-24",
+    "distance_km": [
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Stadium Mini Pendang",
+    "organizer": "Pelikat Batik Run",
+    "price_range": "RM 45-150",
+    "city": "Pendang, Kedah",
+    "country": "Malaysia"
+  },
+  "faqs": [
+    {
+      "question": "What day and time is the Pendang Half Marathon 2027?",
+      "answer": "It is on Saturday 24 April 2027, not a Sunday, at Stadium Mini Pendang, Kedah. The event page lists 6:30 am."
+    },
+    {
+      "question": "What do runners receive?",
+      "answer": "Entitlements include an event tee, finisher medal and e-certificate, with a finisher tee for 21 km and 10 km finishers. Cash prizes are offered in selected categories."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "malaysia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://howei.com/event_details/pendanghalfmarathon2027",
+      "label": "Howei event page (Pelikat Batik Run)",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://lesgo.my/event/pendang-half-marathon-2027/",
+      "label": "lesgo.my event listing",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

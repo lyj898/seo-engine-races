@@ -1,0 +1,62 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "thailand",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "rotary-saraburi-charity-walk-run-2027",
+  "slug": "rotary-saraburi-charity-walk-run-2027",
+  "name": "Rotary Club of Saraburi Charity Walk-Run #8 2027",
+  "short_description": "The Rotary Club of Saraburi Charity Walk-Run #8 is on Sunday 28 February 2027 in Saraburi, over 21 km, 10 km, 5 km and 3 km.",
+  "ai_summary": "The Rotary Club of Saraburi Charity Walk-Run is the club's eighth fundraising run, on Sunday 28 February 2027 in Saraburi. Proceeds go to medical equipment, school water filters, the Safe Roads Save Lives road-safety campaign and other community work in the province. It offers 21 km, 10 km, 5 km and 3 km entries, plus a family 3 km package. The entry page does not name a venue.",
+  "core_facts": {
+    "date": "2027-02-28",
+    "distance_km": [
+      3,
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "organizer": "Rotary Club of Saraburi",
+    "price_range": "THB 340-1,440",
+    "city": "Saraburi",
+    "country": "Thailand"
+  },
+  "faqs": [
+    {
+      "question": "How much is entry to the Rotary Saraburi Charity Walk-Run?",
+      "answer": "The special-price entries on race.thai.run are THB 740 for 21 km, THB 540 for 10 km, THB 440 for 5 km and THB 340 for 3 km. A VIP entry costs THB 1,440, and a family 3 km package costs THB 1,000."
+    },
+    {
+      "question": "What does the Rotary Saraburi run raise money for?",
+      "answer": "The Rotary Club of Saraburi says proceeds go to medical equipment for local agencies and water filters for schools in Saraburi province. They also fund the Safe Roads Save Lives road-safety campaign and other community service."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "thailand"
+  ],
+  "source_mix": [
+    {
+      "url": "https://race.thai.run/rotarysaraburicharityrun",
+      "label": "race.thai.run registration page (Rotary Club of Saraburi charity walk-run #8)",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://thesublist.run/event/%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b9%80%e0%b8%94%e0%b8%b4%e0%b8%99-%e0%b8%a7%e0%b8%b4%e0%b9%88%e0%b8%87-%e0%b8%81%e0%b8%b2%e0%b8%a3%e0%b8%81%e0%b8%b8%e0%b8%a8%e0%b8%a5-%e0%b8%aa%e0%b9%82%e0%b8%a1/",
+      "label": "TheSubList event listing",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

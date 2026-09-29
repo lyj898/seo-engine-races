@@ -1,0 +1,62 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "philippines",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "subic-bay-half-marathon-2026",
+  "slug": "subic-bay-half-marathon-2026",
+  "name": "Subic Bay Half Marathon 2026",
+  "short_description": "Subic Bay Half Marathon 2026 is on Sunday 8 November 2026 at Remy Field, Subic Bay Freeport Zone in Olongapo City, Zambales, over 5 km, 10 km and 21.1 km.",
+  "ai_summary": "The 1st Subic Bay Half Marathon is organised by JRUN Events Management Services and held at Remy Field in the Subic Bay Freeport Zone. It offers 21K, 10K and 5K categories, and the 21K gun start is at 4:00 AM. Every finisher receives JRUN Events' 4-inch spinning medal.",
+  "core_facts": {
+    "date": "2026-11-08",
+    "distance_km": [
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Remy Field, Subic Bay Freeport Zone",
+    "organizer": "JRUN Events Management Services",
+    "price_range": "PHP 1,300-2,100",
+    "city": "Olongapo City, Zambales",
+    "country": "Philippines"
+  },
+  "faqs": [
+    {
+      "question": "What are the start and cut-off times for the Subic Bay Half Marathon 2026?",
+      "answer": "The 21K assembles at 3:00 AM, starts at 4:00 AM and has an 8:00 AM cut-off. The 10K starts at 5:00 AM and the 5K at 5:30 AM, and both have a 7:00 AM cut-off."
+    },
+    {
+      "question": "Where is race kit claiming for the Subic Bay Half Marathon 2026?",
+      "answer": "Race kits are claimed at Ayala Malls Harbor Point in the Subic Bay Freeport Zone, Olongapo City, and the exact schedule is to be announced. The 21K entry includes an event singlet, an RFID race bib, the spinning medal and a finisher shirt."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "philippines"
+  ],
+  "source_mix": [
+    {
+      "url": "https://myruntime.com/register/subic-bay-half-marathon-2026",
+      "label": "MyRunTime registration page (JRUN Events)",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.pinoyfitness.com/event/subic-bay-half-marathon-2026/",
+      "label": "Pinoy Fitness event listing",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

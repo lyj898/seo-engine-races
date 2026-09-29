@@ -1,0 +1,62 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "philippines",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "sm-ownstyle-half-marathon-2026",
+  "slug": "sm-ownstyle-half-marathon-2026",
+  "name": "SM OwnStyle Half Marathon 2026",
+  "short_description": "SM OwnStyle Half Marathon 2026 is on Sunday 4 October 2026 at SM City Legazpi in Legazpi City, Albay, over 1 km, 5 km, 10 km and 21 km.",
+  "ai_summary": "SM OwnStyle Half Marathon 2026, promoted as Let's Run Beyond Limits, is organised by SM Legazpi and OwnStyle Legazpi, with registration through RunCoco Events Solutions. The poster gives a 4:00 AM start from the Valley Parking area of SM City Legazpi, near Starbucks. Distances are 21 km, 10 km, 5 km and 1 km.",
+  "core_facts": {
+    "date": "2026-10-04",
+    "distance_km": [
+      1,
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "SM City Legazpi (Valley Parking)",
+    "organizer": "SM Legazpi and OwnStyle Legazpi",
+    "city": "Legazpi City, Albay",
+    "country": "Philippines"
+  },
+  "faqs": [
+    {
+      "question": "What time does the SM OwnStyle Half Marathon 2026 start?",
+      "answer": "The organiser poster gives 4:00 AM on 4 October 2026. The start area is the Valley Parking at SM City Legazpi, near Starbucks."
+    },
+    {
+      "question": "Who organises the SM OwnStyle Half Marathon?",
+      "answer": "The registration page says the race is organised by SM Legazpi and OwnStyle Legazpi. RunCoco Events Solutions OPC handles registration."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "philippines"
+  ],
+  "source_mix": [
+    {
+      "url": "https://run-coco.com/smxownstylerunbeyondlimits/",
+      "label": "RunCoco registration page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.takbo.ph/list-of-events/",
+      "label": "Takbo.ph list of running events",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

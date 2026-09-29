@@ -1,0 +1,60 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "malaysia",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "klhalf-2026",
+  "slug": "klhalf-2026",
+  "name": "KLHalf 2026",
+  "short_description": "KLHalf 2026 is on Sunday 15 November 2026 at Dataran Merdeka in Kuala Lumpur, over 21.1 km.",
+  "ai_summary": "KLHalf 2026 is a single-distance 21 km race organised by Score, starting from Dataran Merdeka in Kuala Lumpur on 15 November 2026. The flag-off is at 4:30 am with a cut-off of 4 hours 30 minutes, and there is a separate High Performance start pen for elite runners chasing podium places. Race kit collection is on 13 and 14 November at The Starling Mall, Damansara Utama.",
+  "core_facts": {
+    "date": "2026-11-15",
+    "distance_km": [
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Dataran Merdeka",
+    "organizer": "Score",
+    "price_range": "RM 148",
+    "city": "Kuala Lumpur",
+    "country": "Malaysia"
+  },
+  "faqs": [
+    {
+      "question": "What time does KLHalf 2026 start and what is the cut-off?",
+      "answer": "The flag-off is at 4:30 am on Sunday 15 November 2026 at Dataran Merdeka. The cut-off is 4 hours 30 minutes, and runners who finish after it are disqualified and do not receive finisher items."
+    },
+    {
+      "question": "Who can enter KLHalf 2026?",
+      "answer": "The only distance is 21 km, and runners must be at least 16 years old on 15 November 2026. The registration fee shown on the event page is RM148, and a Quad Challenge team category is open to teams of four 21 km runners."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "malaysia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.heyjom.com/event/klhalf-2026",
+      "label": "HeyJom event page (Score)",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://lesgo.my/event/klhalf-2026/",
+      "label": "lesgo.my event listing",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

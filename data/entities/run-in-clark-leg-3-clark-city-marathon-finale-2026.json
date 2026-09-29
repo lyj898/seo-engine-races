@@ -1,0 +1,70 @@
+{
+  "category_id": "full-marathon",
+  "region_id": "philippines",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "run-in-clark-leg-3-clark-city-marathon-finale-2026",
+  "slug": "run-in-clark-leg-3-clark-city-marathon-finale-2026",
+  "name": "Run in Clark Leg 3 – Clark City Marathon Finale 2026",
+  "short_description": "Run in Clark Leg 3 – Clark City Marathon Finale 2026 is on Sunday 18 October 2026 at Filinvest Mimosa Plus Event Grounds in Clark, Pampanga, over 3 km, 5 km, 10 km, 21.1 km and 42.195 km.",
+  "ai_summary": "Run in Clark Leg 3 – Clark City Marathon Finale is the third and final leg of the Run in Clark series, organised by Speedstar Sports. It is held at the Filinvest Mimosa Plus Event Grounds on MA Roxas Highway in Clark, Pampanga, and offers a 42 km marathon plus 21 km, 10 km, 5 km and 3 km races. Pinoy Fitness gives the venue more broadly as Clark Freeport Zone.",
+  "core_facts": {
+    "date": "2026-10-18",
+    "distance_km": [
+      3,
+      5,
+      10,
+      21.1,
+      42.195
+    ],
+    "primary_distance_km": 42.195,
+    "venue": "Filinvest Mimosa Plus Event Grounds",
+    "organizer": "Speedstar Sports",
+    "price_range": "PHP 800-2,500",
+    "city": "Clark, Pampanga",
+    "country": "Philippines"
+  },
+  "faqs": [
+    {
+      "question": "How much does it cost to enter Run in Clark Leg 3 – Clark City Marathon Finale?",
+      "answer": "The ACTIVE registration page lists the 42 km marathon at PHP 2,500 and the 21 km half marathon at PHP 1,900. The 10 km costs PHP 1,400, the 5 km PHP 1,000 and the 3 km PHP 800."
+    },
+    {
+      "question": "What do I need to claim my race kit for Run in Clark Leg 3?",
+      "answer": "Bring your confirmation QR code and one valid photo ID to claim your race kit, or a copy of the other person's QR code and ID if you are claiming for someone else. Parents or guardians of participants under 18 must submit a printed and signed parental consent form."
+    }
+  ],
+  "tags": [
+    "full-marathon",
+    "philippines"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.active.com/clark-pampanga/running/distance-running-races/run-in-clark-leg-3-clark-city-marathon-finale-2026",
+      "label": "ACTIVE registration page (Speedstar Sports)",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.pinoyfitness.com/event/run-in-clark-leg-3-2026/",
+      "label": "Pinoy Fitness event listing",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://marathonguide.com/races/run/run-in-clark-leg-3-clark-city-marathon-1/2026/details/",
+      "label": "MarathonGuide listing",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

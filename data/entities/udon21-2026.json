@@ -1,0 +1,61 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "thailand",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "udon21-2026",
+  "slug": "udon21-2026",
+  "name": "UDON21 2026",
+  "short_description": "UDON21 2026 is on Sunday 25 October 2026 in Udon Thani, over 5 km, 10 km and 21.1 km.",
+  "ai_summary": "UDON21 2026 is organised by About The Race in Udon Thani, with entries on race.thai.run. The organiser pitches it as a race for personal bests. The half marathon starts at 03:30, the 10 km at 04:15 and the 5 km at 04:30. Overall winners of the 21 km receive THB 5,000, 4,000 and 3,000.",
+  "core_facts": {
+    "date": "2026-10-25",
+    "distance_km": [
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "organizer": "About The Race",
+    "price_range": "THB 600-950",
+    "city": "Udon Thani",
+    "country": "Thailand"
+  },
+  "faqs": [
+    {
+      "question": "What time does the UDON21 half marathon start?",
+      "answer": "The organiser lists a 03:30 start for the 21 km half marathon, 04:15 for the 10 km and 04:30 for the 5 km. These early starts are given on the race.thai.run registration page."
+    },
+    {
+      "question": "How much does UDON21 2026 cost?",
+      "answer": "The regular price is THB 850 for the 21 km, THB 750 for the 10 km and THB 600 for the 5 km. The last-minute price, from 1 to 10 October, is THB 950, 850 and 700."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "thailand"
+  ],
+  "source_mix": [
+    {
+      "url": "https://race.thai.run/udon21",
+      "label": "race.thai.run registration page (UDON21 2026)",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.runlah.com/en/O2BkkOoy",
+      "label": "RUNLAH event listing",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

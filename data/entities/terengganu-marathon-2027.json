@@ -4,10 +4,10 @@
   "name": "Terengganu Marathon 2027",
   "category_id": "full-marathon",
   "region_id": "malaysia",
-  "short_description": "A full and half marathon event taking place on April 30, 2027, in Kuala Terengganu, Terengganu, Malaysia.",
-  "ai_summary": "The Terengganu Marathon 2027 is a full marathon event scheduled for April 30, 2027, in Kuala Terengganu, Terengganu, Malaysia. Runners can choose between a full marathon of 42.195 km or a half marathon of 21.1 km, both starting at the Dataran parking area of Stadium Sultan Mizan Zainal Abidin.",
+  "short_description": "A full and half marathon event taking place on May 1, 2027, in Kuala Terengganu, Terengganu, Malaysia.",
+  "ai_summary": "The Terengganu Marathon 2027 is a full marathon event scheduled for May 1, 2027, in Kuala Terengganu, Terengganu, Malaysia. Runners can choose between a full marathon of 42.195 km or a half marathon of 21.1 km, both starting at the Dataran parking area of Stadium Sultan Mizan Zainal Abidin.",
   "core_facts": {
-    "date": "2027-04-30",
+    "date": "2027-05-01",
     "distance_km": [
       42.195,
       21.1,
@@ -31,11 +31,11 @@
   "faqs": [
     {
       "question": "When is the Terengganu Marathon 2027?",
-      "answer": "The Terengganu Marathon 2027 is scheduled to take place on April 30, 2027. The event will be held in Kuala Terengganu, Terengganu, Malaysia, at the Dataran parking area of Stadium Sultan Mizan Zainal Abidin. Further scheduling details beyond the date have not been provided in the available information."
+      "answer": "The Terengganu Marathon 2027 is scheduled to take place on May 1, 2027. The event will be held in Kuala Terengganu, Terengganu, Malaysia, at the Dataran parking area of Stadium Sultan Mizan Zainal Abidin. Further scheduling details beyond the date have not been provided in the available information."
     },
     {
       "question": "What distances are offered at the Terengganu Marathon 2027?",
-      "answer": "The Terengganu Marathon 2027 offers two distance options: a full marathon of 42.195 km and a half marathon of 21.1 km. The full marathon is listed as the primary distance for this event, which takes place in Kuala Terengganu, Terengganu, Malaysia, on April 30, 2027."
+      "answer": "The Terengganu Marathon 2027 offers two distance options: a full marathon of 42.195 km and a half marathon of 21.1 km. The full marathon is listed as the primary distance for this event, which takes place in Kuala Terengganu, Terengganu, Malaysia, on May 1, 2027."
     },
     {
       "question": "Where is the race held?",
@@ -75,6 +75,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-09-29",
   "status": "needs_review"
 }

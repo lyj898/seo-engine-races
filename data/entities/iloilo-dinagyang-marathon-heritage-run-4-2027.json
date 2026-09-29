@@ -1,0 +1,62 @@
+{
+  "category_id": "full-marathon",
+  "region_id": "philippines",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "iloilo-dinagyang-marathon-heritage-run-4-2027",
+  "slug": "iloilo-dinagyang-marathon-heritage-run-4-2027",
+  "name": "2027 Iloilo Dinagyang Marathon – Heritage Run 4",
+  "short_description": "2027 Iloilo Dinagyang Marathon – Heritage Run 4 is on Sunday 17 January 2027 in Iloilo City, over 5 km, 10 km, 21.1 km and 42.195 km.",
+  "ai_summary": "The 2027 Iloilo Dinagyang Marathon – Heritage Run 4 is the fourth year of the Dinagyang Festival-inspired Heritage Run, organised by Velocity 5000. The course passes Iloilo City's historic landmarks and modern attractions. It offers 42 km, 21 km, 10 km and 5 km categories, and registration runs through Veent.",
+  "core_facts": {
+    "date": "2027-01-17",
+    "distance_km": [
+      5,
+      10,
+      21.1,
+      42.195
+    ],
+    "primary_distance_km": 42.195,
+    "organizer": "Velocity 5000",
+    "price_range": "PHP 799-2,199",
+    "city": "Iloilo City",
+    "country": "Philippines"
+  },
+  "faqs": [
+    {
+      "question": "What distances are offered at the 2027 Iloilo Dinagyang Marathon – Heritage Run 4?",
+      "answer": "The race offers 42K (full marathon), 21K (half marathon), 10K and 5K categories. The organisers describe the course as a route through Iloilo City's historic landmarks and modern attractions."
+    },
+    {
+      "question": "How much does it cost to enter the 2027 Iloilo Dinagyang Marathon – Heritage Run 4?",
+      "answer": "The Veent registration page lists several packages. With singlet and finisher shirt, the 42K costs PHP 2,199 and the 21K PHP 1,899, while bib-and-medal-only packages start at PHP 1,949 for the 42K and PHP 1,649 for the 21K. Every package includes a race bib with RFID, a medal and snacks."
+    }
+  ],
+  "tags": [
+    "full-marathon",
+    "philippines"
+  ],
+  "source_mix": [
+    {
+      "url": "https://2027iloilodinagyangmarathon.veent.net/",
+      "label": "Veent registration page (Velocity 5000)",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.pinoyfitness.com/event/ioilo-dinagyang-marathon-heritage-run-4-2027/",
+      "label": "Pinoy Fitness event listing",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

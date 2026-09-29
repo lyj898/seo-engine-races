@@ -1,0 +1,61 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "thailand",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "gatorade-bkk-run-2026",
+  "slug": "gatorade-bkk-run-2026",
+  "name": "Gatorade BKK RUN 2026",
+  "short_description": "Gatorade BKK RUN 2026 is on Sunday 27 December 2026 at the Thai Smile Bus headquarters on Charoen Nakhon in Bangkok, over 21.1 km and 10 km.",
+  "ai_summary": "Gatorade BKK RUN 2026 is a road race on Sunday 27 December 2026, organised by Gatorade Thailand and based at the Thai Smile Bus headquarters (Charoen Nakhon depot) in Bangkok. It offers a 21.1 km half marathon and a 10 km race, plus an Overall Championship entry for fast half marathoners. Runners must be at least 16 years old.",
+  "core_facts": {
+    "date": "2026-12-27",
+    "distance_km": [
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Thai Smile Bus Headquarters, Charoen Nakhon depot",
+    "organizer": "Gatorade Thailand",
+    "price_range": "THB 1,100-1,500",
+    "city": "Bangkok",
+    "country": "Thailand"
+  },
+  "faqs": [
+    {
+      "question": "How much does Gatorade BKK RUN 2026 cost?",
+      "answer": "Checkrace lists the 21.1 km at THB 1,300 and the 10 km at THB 1,100. The 21.1 km Overall Championship entry costs THB 1,500 and needs a half marathon under 1:25 for men or 1:45 for women from a certified race in the past 12 months. Championship runners start about 15 metres ahead of Block A but are not eligible for age-group awards."
+    },
+    {
+      "question": "Where is race pack collection for Gatorade BKK RUN?",
+      "answer": "Race packs are collected on Saturday 26 December 2026 from 10am to 7pm at the Thai Smile Bus headquarters (Charoen Nakhon depot). A representative can collect a pack with a copy of the runner's ID and their own original ID."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "thailand"
+  ],
+  "source_mix": [
+    {
+      "url": "https://run.checkrace.com/event/GAT26",
+      "label": "Checkrace registration page (Gatorade BKK RUN 2026)",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.runlah.com/en/vjbmljhe",
+      "label": "RUNLAH event listing",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

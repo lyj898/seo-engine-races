@@ -1,0 +1,68 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "philippines",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "national-milo-marathon-2026-passi-iloilo-leg",
+  "slug": "national-milo-marathon-2026-passi-iloilo-leg",
+  "name": "National MILO Marathon 2026 – Passi Iloilo Leg",
+  "short_description": "National MILO Marathon 2026 – Passi Iloilo Leg is on Sunday 25 October 2026 in Passi City, Iloilo, over 3 km, 5 km, 10 km and 21.1 km.",
+  "ai_summary": "The Passi Iloilo leg is one of the regional qualifying races of the 2026 National MILO Marathon, the series' 50th-anniversary \"Golden Run\", organised by RUNRIO Inc. It offers a 21K half marathon plus 10K, 5K and 3K races. Qualifying times set in the 21K earn a place in the 42.195 km race at the National Finals in Clark.",
+  "core_facts": {
+    "date": "2026-10-25",
+    "distance_km": [
+      3,
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "organizer": "RUNRIO Inc. (National MILO Marathon)",
+    "price_range": "PHP 499-1,799",
+    "city": "Passi City, Iloilo",
+    "country": "Philippines"
+  },
+  "faqs": [
+    {
+      "question": "What are the cut-off times for the National MILO Marathon 2026 Passi Iloilo Leg?",
+      "answer": "The 21K half marathon has a cut-off of 2 hours 30 minutes after the official start, and 21K runners must reach 10 km within 1 hour 30 minutes. The 10K cut-off is 2 hours, and the 5K and 3K cut-offs are 1 hour each."
+    },
+    {
+      "question": "Who can run the 21K at the National MILO Marathon 2026 Passi Iloilo Leg?",
+      "answer": "Half marathon runners must be 18 or older on race day and must bring a Fit-To-Run medical certificate signed by a licensed physician within two months before the race. The standard 21K entry fee is PHP 1,799."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "philippines"
+  ],
+  "source_mix": [
+    {
+      "url": "https://raceroster.com/events/2026/140381/2026-national-milo-marathon-passi-iloilo",
+      "label": "Race Roster event page (RunRio)",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://raceroster.com/events/2026/140381/2026-national-milo-marathon-passi-iloilo/page/national-milo-marathon-rules-and-regulations-2026",
+      "label": "National MILO Marathon rules and regulations 2026 (Race Roster)",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.pinoyfitness.com/calendar-of-running-fitness-events-philippines/",
+      "label": "Pinoy Fitness running calendar",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "thailand",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "lopburi21-sunflower-half-marathon-2026",
+  "slug": "lopburi21-sunflower-half-marathon-2026",
+  "name": "Lopburi21 2026 Sunflower Half Marathon",
+  "short_description": "Lopburi21 2026 Sunflower Half Marathon is on Saturday 5 December 2026 at the Special Warfare School in Lop Buri, over 21.1 km, 10 km and a 4 km walk-run.",
+  "ai_summary": "Lopburi21 2026 Sunflower Half Marathon is a running event on Saturday 5 December 2026, based at the Special Warfare School (Rong Rian Songkhram Phiset) in Lop Buri. The organiser is listed as LOPBURI 21. The Regis.run entry page offers a 21 km half marathon, a 10 km race and a 4 km walk-run titled \"following Father's footsteps\".",
+  "core_facts": {
+    "date": "2026-12-05",
+    "distance_km": [
+      4,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Special Warfare School",
+    "organizer": "LOPBURI 21",
+    "price_range": "THB 650-950",
+    "city": "Lop Buri",
+    "country": "Thailand"
+  },
+  "faqs": [
+    {
+      "question": "How much is entry to Lopburi21?",
+      "answer": "The 21 km costs THB 950 with a shirt or THB 800 without one, and both options include a finisher shirt and a finisher medal. The 10 km costs THB 800 with a shirt or THB 650 without. The 4 km walk-run costs THB 650."
+    },
+    {
+      "question": "Is there a charity option at Lopburi21?",
+      "answer": "Yes. Regis.run lists a Charity Package alongside the general entry, with the donation going to a Huai Krathaek maintenance fund without deductions for costs. The event is on a Saturday, 5 December 2026."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "thailand"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.regis.run/event/2026lopburi21",
+      "label": "Regis.run registration page (LOPBURI 21)",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.runlah.com/en/3LRDPQ9K",
+      "label": "RUNLAH event listing",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

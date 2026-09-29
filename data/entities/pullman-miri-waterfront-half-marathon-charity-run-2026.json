@@ -1,0 +1,59 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "malaysia",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "pullman-miri-waterfront-half-marathon-charity-run-2026",
+  "slug": "pullman-miri-waterfront-half-marathon-charity-run-2026",
+  "name": "Pullman Miri Waterfront Half Marathon Charity Run 2026",
+  "short_description": "Pullman Miri Waterfront Half Marathon Charity Run 2026 is on Sunday 8 November 2026 at Pullman Miri Waterfront in Miri, over 10 km and 21.1 km.",
+  "ai_summary": "The Pullman Miri Waterfront Half Marathon Charity Run 2026 starts at Pullman Miri Waterfront in Miri, Sarawak, on 8 November 2026. The 21 km half marathon flags off at 4:00 am and the 10 km at 6:00 am, and the event offers cash prizes. Race kit collection is on 6 and 7 November at the hotel.",
+  "core_facts": {
+    "date": "2026-11-08",
+    "distance_km": [
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Pullman Miri Waterfront",
+    "city": "Miri, Sarawak",
+    "country": "Malaysia"
+  },
+  "faqs": [
+    {
+      "question": "What time does the Pullman Miri Waterfront Half Marathon Charity Run 2026 start?",
+      "answer": "The 21 km half marathon flags off at 4:00 am and the 10 km run at 6:00 am on Sunday 8 November 2026. Both start at Pullman Miri Waterfront."
+    },
+    {
+      "question": "Where is race kit collection?",
+      "answer": "Race kits are collected on 6 and 7 November 2026 from 10 am to 5 pm. The collection point is Level 6 of Pullman Miri Waterfront."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "malaysia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.jomrun.com/event/Pullman-Miri-Waterfront-Half-Marathon-Charity-Run-2026",
+      "label": "JomRun event page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.jomrun.com/events/location?location_id=11",
+      "label": "JomRun Sarawak event listing",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

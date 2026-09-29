@@ -1,0 +1,62 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "vietnam",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [
+    "Organiser not named on the page read (Sanest, Sanvinest and BKH appear as title sponsors). Prices not published as text."
+  ],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "nha-trang-night-run-2026",
+  "slug": "nha-trang-night-run-2026",
+  "name": "Nha Trang Night Run Sanest, Sanvinest – BKH 2026",
+  "short_description": "Nha Trang Night Run Sanest, Sanvinest – BKH is on Saturday 12 December 2026 at 2/4 Square in Nha Trang, over 5 km, 10 km and 21 km, with an evening start.",
+  "ai_summary": "Nha Trang Night Run Sanest, Sanvinest – BKH 2026 is the second edition of this night race, held on Saturday 12 December 2026 from 2/4 Square, 46 Tran Phu, Nha Trang, Khanh Hoa. The 21 km starts at 19:00, the 10 km at 19:30 and the 5 km at 20:00, on a road course along the Nha Trang seafront. Part of the proceeds funds eye surgery for poor patients, according to the event page.",
+  "core_facts": {
+    "date": "2026-12-12",
+    "distance_km": [
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "2/4 Square (Quang truong 2/4), 46 Tran Phu",
+    "city": "Nha Trang",
+    "country": "Vietnam"
+  },
+  "faqs": [
+    {
+      "question": "What time does Nha Trang Night Run Sanest, Sanvinest – BKH 2026 start?",
+      "answer": "The published schedule has the 21 km starting at 19:00 on Saturday 12 December 2026, the 10 km at 19:30 and the 5 km at 20:00. The 21 km course closes at 22:30, giving about 3 hours 30 minutes. The organiser notes the schedule may change."
+    },
+    {
+      "question": "When is kit collection for Nha Trang Night Run Sanest, Sanvinest – BKH 2026?",
+      "answer": "Race kits are handed out on race day itself, from 08:00 to 17:00 at 2/4 Square. The opening ceremony runs from 16:00 to 18:00 and the bag drop opens at 18:00. Awards follow after the 10 km course closes at 22:00."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "vietnam"
+  ],
+  "source_mix": [
+    {
+      "url": "https://irace.vn/su-kien/nha-trang-night-run/",
+      "label": "iRace event page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://linh.academy/kien-thuc/giai-chay/giai-chay-bo",
+      "label": "Linh Academy running calendar",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "category_id": "full-marathon",
+  "region_id": "vietnam",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [
+    "The iRace summary line lists the distances as \"2K, 5K, 10K, 12K, 42K\", an apparent typo; the organiser text on both iRace and Pace8 gives 21 km.",
+    "The iRace location field says Tri An, Dong Nai, while the organiser text gives Binh Phuoc ward. Start times and course map not yet published as text."
+  ],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "dong-nai-marathon-truong-tuoi-group-2026",
+  "slug": "dong-nai-marathon-truong-tuoi-group-2026",
+  "name": "Dong Nai Marathon – Truong Tuoi Group 2026",
+  "short_description": "Dong Nai Marathon – Truong Tuoi Group is on Sunday 29 November 2026 in Binh Phuoc ward, Dong Nai, over a 2 km kids run, 5 km, 10 km, 21 km and 42 km.",
+  "ai_summary": "Dong Nai Marathon – Truong Tuoi Group 2026, the Dong Nai Newspaper and Radio-Television Cup, is organised by Dong Nai Newspaper and Radio-Television with Truong Tuoi Group as title sponsor. Race day is 29 November 2026 in Binh Phuoc ward, Dong Nai province, with kit collection and the 2 km kids race on 28 November. Distances are 2 km (kids), 5 km, 10 km, 21 km and 42 km. iRace lists the race window as 04:00 to 10:30 and the category as road.",
+  "core_facts": {
+    "date": "2026-11-29",
+    "distance_km": [
+      2,
+      5,
+      10,
+      21.1,
+      42.195
+    ],
+    "primary_distance_km": 42.195,
+    "venue": "Binh Phuoc ward",
+    "organizer": "Dong Nai Newspaper and Radio-Television (Bao va Phat thanh, Truyen hinh Dong Nai)",
+    "city": "Dong Nai",
+    "country": "Vietnam"
+  },
+  "faqs": [
+    {
+      "question": "What are the cut-offs and age limits at Dong Nai Marathon – Truong Tuoi Group 2026?",
+      "answer": "The Pace8 page gives a 6 hour 30 minute cut-off for the 42 km (age 18 and over) and 3 hours 30 minutes for the 21 km (age 16 and over). The 10 km allows 2 hours 30 minutes for ages 12 and over, and the 5 km allows 1 hour 30 minutes for ages 10 and over. The kids 2 km is for ages 5 to 14 with a 45 minute cut-off."
+    },
+    {
+      "question": "When is kit collection for Dong Nai Marathon – Truong Tuoi Group 2026?",
+      "answer": "Race kits are handed out on 28 November 2026, the day the kids 2 km is also run. All other distances race on 29 November 2026 in Binh Phuoc ward. Both Vietnamese citizens and foreigners who meet the age and health rules may enter."
+    }
+  ],
+  "tags": [
+    "full-marathon",
+    "vietnam"
+  ],
+  "source_mix": [
+    {
+      "url": "https://pace8.vn/su-kien/dong-nai-marathon-2026",
+      "label": "Pace8 event page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://irace.vn/su-kien/dong-nai-marathon/",
+      "label": "iRace event page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://bestmarathon.vn/race-info/",
+      "label": "Vietnam's Best Marathons race list",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

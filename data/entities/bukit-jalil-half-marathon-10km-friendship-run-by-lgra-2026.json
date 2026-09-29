@@ -1,0 +1,63 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "malaysia",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "bukit-jalil-half-marathon-10km-friendship-run-by-lgra-2026",
+  "slug": "bukit-jalil-half-marathon-10km-friendship-run-by-lgra-2026",
+  "name": "Bukit Jalil Half Marathon & 10km Friendship Run by LGRA 2026",
+  "short_description": "Bukit Jalil Half Marathon & 10km Friendship Run by LGRA 2026 is on Sunday 6 December 2026 at Bukit Jalil Recreation Park in Kuala Lumpur, over 0.7 km, 3.5 km, 10 km and 21.1 km.",
+  "ai_summary": "The Bukit Jalil Half Marathon & 10km Friendship Run by LGRA 2026 is a community event at Bukit Jalil Recreation Park (Pintu C), Kuala Lumpur, on 6 December 2026, running from 4:00 am to 11:00 am. Categories are a 21 km long run challenge, a 10 km speed run challenge, a 3.5 km walk and kids fun run, and a 700 m kids dash. The page does not publish a route map, so whether the 21 km stays inside the park is not stated.",
+  "core_facts": {
+    "date": "2026-12-06",
+    "distance_km": [
+      0.7,
+      3.5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Bukit Jalil Recreation Park",
+    "organizer": "LGRA",
+    "price_range": "RM 59-119",
+    "city": "Kuala Lumpur",
+    "country": "Malaysia"
+  },
+  "faqs": [
+    {
+      "question": "What time is the Bukit Jalil Half Marathon & 10km Friendship Run by LGRA 2026?",
+      "answer": "The event runs from 4:00 am to 11:00 am on Sunday 6 December 2026 at Bukit Jalil Recreation Park. Separate flag-off times per category are not listed on the event page."
+    },
+    {
+      "question": "How much is the 21 km?",
+      "answer": "The 21 km long run challenge costs RM109 at the early bird rate and RM119 at the normal rate. The top 15 finishers receive an additional tee."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "malaysia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.ticket2u.com.my/event/52129/bukit-jalil-half-marathon-10km-friendship-run-by-lgra-2026",
+      "label": "Ticket2u event page (LGRA)",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://lesgo.my/event/bukit-jalil-half-marathon-10km-friendship-run-by-lgra-2026/",
+      "label": "lesgo.my event listing",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

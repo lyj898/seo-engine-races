@@ -1,0 +1,68 @@
+{
+  "category_id": "full-marathon",
+  "region_id": "philippines",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "matutum-marathon-2027",
+  "slug": "matutum-marathon-2027",
+  "name": "Matutum Marathon 2027",
+  "short_description": "Matutum Marathon 2027 is on Saturday 30 January 2027 in General Santos City, over 5 km, 10 km, 21 km and 42 km.",
+  "ai_summary": "Matutum Marathon 2027 is organised by Team Matutum Runners Inc. in General Santos City. It runs overnight: the 42 km full marathon starts at 11:00 PM on 30 January 2027, and the 21 km (2:30 AM), 10 km (3:00 AM) and 5 km (4:30 AM) start on 31 January. The 2027 venue is not named on the registration page.",
+  "core_facts": {
+    "date": "2027-01-30",
+    "distance_km": [
+      5,
+      10,
+      21.1,
+      42.195
+    ],
+    "primary_distance_km": 42.195,
+    "organizer": "Team Matutum Runners Inc.",
+    "price_range": "PHP 1,200-2,400",
+    "city": "General Santos City, South Cotabato",
+    "country": "Philippines"
+  },
+  "faqs": [
+    {
+      "question": "What time does the Matutum Marathon 2027 full marathon start?",
+      "answer": "Assembly for the 42 km is at 10:00 PM on 30 January 2027 and the gun goes at 11:00 PM. The cut-off is 7:00 AM on 31 January, giving eight hours."
+    },
+    {
+      "question": "What are the cut-offs for the shorter races at Matutum Marathon 2027?",
+      "answer": "The 21 km starts at 2:30 AM on 31 January with a 7:00 AM cut-off. The 10 km starts at 3:00 AM with a 5:30 AM cut-off, and the 5 km starts at 4:30 AM with a 6:00 AM cut-off."
+    }
+  ],
+  "tags": [
+    "full-marathon",
+    "philippines"
+  ],
+  "source_mix": [
+    {
+      "url": "https://teammatutum.com/matutum-marathon-2027-register/",
+      "label": "Team Matutum Runners Inc. registration page",
+      "type": "official",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.pinoyfitness.com/event/team-matutum-marathon-2027/",
+      "label": "Pinoy Fitness event page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.pinoyfitness.com/calendar-of-running-fitness-events-philippines/",
+      "label": "Pinoy Fitness running calendar",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "indonesia",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "gorontalo-half-marathon-2026",
+  "slug": "gorontalo-half-marathon-2026",
+  "name": "Gorontalo Half Marathon 2026",
+  "short_description": "Gorontalo Half Marathon 2026 is on Sunday 6 December 2026 in Gorontalo, over 5 km, 10 km and 21 km.",
+  "ai_summary": "Gorontalo Half Marathon 2026 (GoHM 2026) is organised by the Gorontalo Provincial Government through its Department of Tourism, Creative Economy, Youth and Sports, and follows editions in 2024 and 2025. The 2026 theme is \"Run with The Journey\". Categories are 5 km, 10 km and 21 km, with official timing; the organiser says route maps are coming soon.",
+  "core_facts": {
+    "date": "2026-12-06",
+    "distance_km": [
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "organizer": "Gorontalo Provincial Government (Department of Tourism, Creative Economy, Youth and Sports)",
+    "price_range": "IDR 250,000-450,000",
+    "city": "Gorontalo",
+    "country": "Indonesia"
+  },
+  "faqs": [
+    {
+      "question": "How much is entry to Gorontalo Half Marathon 2026?",
+      "answer": "The official site lists IDR 250,000 for the 5 km, IDR 350,000 for the 10 km and IDR 450,000 for the 21 km. Payment is by Bank Mandiri virtual account or QRIS, and completed registrations cannot be cancelled, refunded or transferred."
+    },
+    {
+      "question": "Can someone else collect my Gorontalo Half Marathon 2026 race pack?",
+      "answer": "Yes. The organiser allows collection by another person who presents a Racepack Power of Attorney created through the Help section of the official site. Runners otherwise collect in person with identification and proof of registration."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "indonesia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://gorontalohalfmarathon.id",
+      "label": "Gorontalo Half Marathon official site",
+      "type": "official",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://schedules.run/2026/12",
+      "label": "schedules.run December 2026 calendar",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

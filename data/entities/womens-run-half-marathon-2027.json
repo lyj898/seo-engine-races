@@ -1,0 +1,69 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "philippines",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "womens-run-half-marathon-2027",
+  "slug": "womens-run-half-marathon-2027",
+  "name": "Women's Run Half Marathon 2027",
+  "short_description": "Women's Run Half Marathon 2027 is on Saturday 13 March 2027 at SM Mall of Asia in Pasay City, over 1 km, 5 km, 10 km and 21 km.",
+  "ai_summary": "Women's Run Half Marathon 2027 is the first 21 km edition from Women's Run PH, held for International Women's Month from SM Mall of Asia on Seaside Boulevard, Pasay City. Race Roster lists a 4:00 AM start. Pinoy Fitness lists RUNRIO as organiser and categories of 21 km, 10 km (women and buddy), 5 km and a 1 km kids dash. It is a separate event from the 10 km Women's Run PH in Makati in October 2026.",
+  "core_facts": {
+    "date": "2027-03-13",
+    "distance_km": [
+      1,
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "SM Mall of Asia, Seaside Boulevard",
+    "organizer": "Women's Run PH (RUNRIO)",
+    "price_range": "PHP 1,100-4,200",
+    "city": "Pasay City, Metro Manila",
+    "country": "Philippines"
+  },
+  "faqs": [
+    {
+      "question": "What does the 21 km cost at the Women's Run Half Marathon 2027?",
+      "answer": "The 21 km is listed at three price tiers: PHP 2,000, PHP 2,200 and PHP 2,400. Additional processing fees may apply."
+    },
+    {
+      "question": "What other categories are there at the Women's Run Half Marathon 2027?",
+      "answer": "Besides the 21 km there is a 10 km women's category, a 10 km buddy category, a 5 km and a 1 km kids dash. Fees range from PHP 1,100 for the kids dash to PHP 4,200 for the top tier of the 10 km buddy entry."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "philippines"
+  ],
+  "source_mix": [
+    {
+      "url": "https://raceroster.com/events/2027/140437/2027-womens-run-half-marathon",
+      "label": "Race Roster event page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.pinoyfitness.com/event/womens-run-half-marathon-2027/",
+      "label": "Pinoy Fitness event page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.pinoyfitness.com/calendar-of-running-fitness-events-philippines/",
+      "label": "Pinoy Fitness running calendar",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "malaysia",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "eastcoast-half-marathon-2026",
+  "slug": "eastcoast-half-marathon-2026",
+  "name": "EASTCOAST Half Marathon 2026",
+  "short_description": "EASTCOAST Half Marathon 2026 is on Sunday 15 November 2026 in Kuantan, over 1.5 km, 5 km, 10 km and 21.1 km.",
+  "ai_summary": "The EASTCOAST Half Marathon 2026 is organised by Elpis Event Management in the town centre of Kuantan, Pahang, on 15 November 2026. The half marathon flags off at 4:00 am with a 4-hour cut-off and seven water stations, followed by the 10 km at 6:30 am, the 5 km at 7:15 am and a 1.5 km kids dash and fun walk at 7:45 am. The organiser describes a course through the town streets and landmarks, and its category sheet carries the World Athletics/AIMS certified-course mark.",
+  "core_facts": {
+    "date": "2026-11-15",
+    "distance_km": [
+      1.5,
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "organizer": "Elpis Event Management",
+    "price_range": "RM 45-130",
+    "city": "Kuantan, Pahang",
+    "country": "Malaysia"
+  },
+  "faqs": [
+    {
+      "question": "What time does the EASTCOAST Half Marathon 2026 start?",
+      "answer": "The half marathon flags off at 4:00 am on Sunday 15 November 2026 with a 4-hour cut-off. The 10 km starts at 6:30 am, the 5 km at 7:15 am, and the 1.5 km kids dash and fun walk at 7:45 am."
+    },
+    {
+      "question": "What are the fees and age limits?",
+      "answer": "The half marathon costs RM100-130 and the 10 km RM75-85, with portal fees included. Runners in the half marathon and 10 km must be at least 18 on race day, and the half marathon open category covers ages 18-39 with a veteran category for 40-70."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "malaysia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.ticket2u.com.my/event/49624/eastcoast-half-marathon-2026",
+      "label": "Ticket2u event page (Elpis Event Management)",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://lesgo.my/event/eastcoast-half-marathon-2026/",
+      "label": "lesgo.my event listing",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

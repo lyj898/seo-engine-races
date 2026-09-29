@@ -4,10 +4,10 @@
   "name": "Chombueng Marathon (40th ed.)",
   "category_id": "full-marathon",
   "region_id": "thailand",
-  "short_description": "The 40th Chombueng Marathon is a full and half marathon event held on January 31, 2027, at Ratchaburi Rajabhat University in Chom Bueng, Thailand.",
-  "ai_summary": "The Chombueng Marathon (40th edition) is a full marathon event scheduled for January 31, 2027, in Chom Bueng, Ratchaburi, Thailand. Organized by the Chombueng Marathon organizing committee, it offers both a half marathon (21.1 km) and a full marathon (42.195 km) distance, with the venue based at Ratchaburi Rajabhat University.",
+  "short_description": "The 40th Chombueng Marathon is a full and half marathon event held on January 17, 2027, at Ratchaburi Rajabhat University in Chom Bueng, Thailand.",
+  "ai_summary": "The Chombueng Marathon (40th edition) is a full marathon event scheduled for January 17, 2027, in Chom Bueng, Ratchaburi, Thailand. Organized by the Chombueng Marathon organizing committee, it offers both a half marathon (21.1 km) and a full marathon (42.195 km) distance, with the venue based at Ratchaburi Rajabhat University.",
   "core_facts": {
-    "date": "2027-01-31",
+    "date": "2027-01-17",
     "distance_km": [
       21.1,
       42.195
@@ -30,7 +30,7 @@
   "faqs": [
     {
       "question": "When is the Chombueng Marathon (40th ed.) held?",
-      "answer": "The Chombueng Marathon, now in its 40th edition, is scheduled to take place on January 31, 2027. It is organized by the Chombueng Marathon organizing committee and will be based at Ratchaburi Rajabhat University in Chom Bueng, Ratchaburi, Thailand, according to the currently available event details."
+      "answer": "The Chombueng Marathon, now in its 40th edition, is scheduled to take place on January 17, 2027. It is organized by the Chombueng Marathon organizing committee and will be based at Ratchaburi Rajabhat University in Chom Bueng, Ratchaburi, Thailand, according to the currently available event details."
     },
     {
       "question": "What distances are offered at this race?",
@@ -47,6 +47,12 @@
     "thailand"
   ],
   "source_mix": [
+    {
+      "url": "https://runningconnect.com/event/CBM2027",
+      "label": "Chombueng Marathon 2027 entry page (RunningConnect)",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
     {
       "url": "https://runningconnect.com",
       "label": "runningconnect.com",
@@ -69,6 +75,6 @@
   "affiliate_links": [],
   "cta_links": [],
   "related_entity_ids": [],
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-09-29",
   "status": "active"
 }

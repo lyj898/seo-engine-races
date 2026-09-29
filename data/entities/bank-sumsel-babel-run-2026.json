@@ -1,0 +1,62 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "indonesia",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "bank-sumsel-babel-run-2026",
+  "slug": "bank-sumsel-babel-run-2026",
+  "name": "Bank Sumsel Babel Run 2026",
+  "short_description": "Bank Sumsel Babel Run 2026 is on Sunday 1 November 2026 at Jakabaring Sport City in Palembang, over 5 km, 10 km and a half marathon.",
+  "ai_summary": "Bank Sumsel Babel Run 2026 (BSB Run 2026) is part of the 69th anniversary of Bank Sumsel Babel, under the theme \"Move Grow Beyond\". It is held at Jakabaring Sport City in Palembang, with 5 km, 10 km and half marathon categories; the organiser page names the category \"Half Marathon\" without stating a distance, so 21.1 km is inferred. The event starts at 04:00 WIB, and water stations are placed every 2 km. The official site is run by IM Road Runner.",
+  "core_facts": {
+    "date": "2026-11-01",
+    "distance_km": [
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Jakabaring Sport City",
+    "organizer": "Bank Sumsel Babel",
+    "price_range": "IDR 112,500-350,000",
+    "city": "Palembang, South Sumatra",
+    "country": "Indonesia"
+  },
+  "faqs": [
+    {
+      "question": "What are the cut-off times and age limits at Bank Sumsel Babel Run 2026?",
+      "answer": "The cut-offs are 1 hour 15 minutes for the 5 km, 2 hours for the 10 km and 4 hours for the half marathon. The 5 km is open from age 13, and the 10 km and half marathon to ages 17 to 70; entry is limited to Indonesian citizens."
+    },
+    {
+      "question": "When and where is race pack collection for Bank Sumsel Babel Run 2026?",
+      "answer": "Race packs are collected on Friday and Saturday, 30 and 31 October 2026, at Bank Sumsel Babel Tower in Jakabaring, Palembang. Packs are not handed out on race day, but a representative can collect with a power of attorney letter."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "indonesia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://banksumselbabelrun.id/faq_tnc/",
+      "label": "Bank Sumsel Babel Run official site (FAQ and terms)",
+      "type": "official",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://schedules.run/2026/11",
+      "label": "schedules.run November 2026 calendar",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

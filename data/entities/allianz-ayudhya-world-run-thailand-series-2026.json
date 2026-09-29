@@ -1,0 +1,62 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "thailand",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "allianz-ayudhya-world-run-thailand-series-2026",
+  "slug": "allianz-ayudhya-world-run-thailand-series-2026",
+  "name": "Allianz Ayudhya World Run Thailand Series 2026",
+  "short_description": "Allianz Ayudhya World Run Thailand Series 2026 is on Sunday 22 November 2026 at TAT Eco Park in Pak Chong, Nakhon Ratchasima, over 3 km, 5 km, 10 km and 21.1 km.",
+  "ai_summary": "Allianz Ayudhya World Run Thailand Series 2026 is a road race at TAT Eco Park in Mu Si, Pak Chong district, near Khao Yai, with the start and finish at the park. The half marathon (21.1 km) starts at 05:00 on Sunday 22 November, followed by the 10 km at 05:30 and the 5 km at 05:45. A 3 km family run is held at 17:00 on Saturday 21 November, alongside the race-weekend expo.",
+  "core_facts": {
+    "date": "2026-11-22",
+    "distance_km": [
+      3,
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "TAT Eco Park, Mu Si",
+    "price_range": "EUR 16-26",
+    "city": "Pak Chong, Nakhon Ratchasima",
+    "country": "Thailand"
+  },
+  "faqs": [
+    {
+      "question": "What time does the Allianz Ayudhya World Run half marathon start?",
+      "answer": "The 21.1 km half marathon starts at 05:00 on Sunday 22 November 2026, with the 10 km at 05:30 and the 5 km at 05:45. The 3 km family run is at 17:00 on Saturday 21 November."
+    },
+    {
+      "question": "Is there an age limit for the Allianz Ayudhya World Run Thailand Series?",
+      "answer": "The World's Marathons entry page sets a minimum age of 16 for the 5 km, 10 km and half marathon. It lists the course surface as road, with start and finish at TAT Eco Park."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "thailand"
+  ],
+  "source_mix": [
+    {
+      "url": "https://worldsmarathons.com/marathon/world-run-thailand-series",
+      "label": "World's Marathons entry page (Allianz Ayudhya World Run Thailand Series)",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.runlah.com/en/dV33C627",
+      "label": "RUNLAH event listing",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

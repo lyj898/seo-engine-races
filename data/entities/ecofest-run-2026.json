@@ -1,0 +1,69 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "philippines",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "ecofest-run-2026",
+  "slug": "ecofest-run-2026",
+  "name": "EcoFest Run 2026",
+  "short_description": "EcoFest Run 2026 is on Sunday 4 October 2026 at Central Park, Filinvest City in Muntinlupa City, over 3 km, 5 km, 10 km and 21 km.",
+  "ai_summary": "EcoFest Run 2026: Striding Towards Sustainability is the third leg of the MNL City Run 2026 Run for Real series, held at Central Park, Filinvest City, Alabang. Part of the proceeds go to Forest Foundation Philippines. The 21 km starts at 4:00 AM. Pinoy Fitness and parts of the organiser page mention a 16 km, but the organiser poster and category list give 21 km, 10 km, 5 km and 3 km.",
+  "core_facts": {
+    "date": "2026-10-04",
+    "distance_km": [
+      3,
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Central Park, Filinvest City, Alabang",
+    "organizer": "MNL City Run",
+    "price_range": "PHP 950-1,850",
+    "city": "Muntinlupa City, Metro Manila",
+    "country": "Philippines"
+  },
+  "faqs": [
+    {
+      "question": "What are the start time and cut-off for the 21 km at EcoFest Run 2026?",
+      "answer": "Assembly is at 3:30 AM and the gun goes at 4:00 AM. The cut-off is 7:30 AM, which is 3.5 hours."
+    },
+    {
+      "question": "How much is the 21 km at EcoFest Run 2026?",
+      "answer": "The 21 km is PHP 1,850, or PHP 1,750 at the early-bird rate. The kit includes a sublimated singlet, finisher medal, finisher shirt, raffle ticket, tote bag and a race bib with RFID."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "philippines"
+  ],
+  "source_mix": [
+    {
+      "url": "https://mnlcityrun.myruntime.com/register/ecofest-run-2026",
+      "label": "MNL City Run MyRunTime registration page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.pinoyfitness.com/event/ecofest-run-striding-towards-sustainability-2026/",
+      "label": "Pinoy Fitness event page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.takbo.ph/list-of-events/",
+      "label": "Takbo.ph list of running events",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

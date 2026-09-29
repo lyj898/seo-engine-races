@@ -1,0 +1,67 @@
+{
+  "category_id": "full-marathon",
+  "region_id": "philippines",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "bohol-international-marathon-2027",
+  "slug": "bohol-international-marathon-2027",
+  "name": "BE GRAND Bohol International Marathon 2027",
+  "short_description": "BE GRAND Bohol International Marathon 2027 is on Sunday 22 August 2027 in Panglao, Bohol, over 5 km, 10 km, 21 km and 42 km.",
+  "ai_summary": "BE GRAND Bohol International Marathon 2027 is the next edition of the Bohol International Marathon in Panglao, Bohol, with registration through MEGATechPH. Categories are 42 km, 21 km, 10 km and 5 km. The venue and start times for 2027 have not been published on the registration page.",
+  "core_facts": {
+    "date": "2027-08-22",
+    "distance_km": [
+      5,
+      10,
+      21.1,
+      42.195
+    ],
+    "primary_distance_km": 42.195,
+    "price_range": "PHP 1,899-3,499",
+    "city": "Panglao, Bohol",
+    "country": "Philippines"
+  },
+  "faqs": [
+    {
+      "question": "How much is the full marathon at the BE GRAND Bohol International Marathon 2027?",
+      "answer": "The 42 km costs PHP 3,499 at the regular rate, after an early-bird rate of PHP 2,999 that ran until 23 September 2026. The 21 km is PHP 3,199 regular, and the 10 km and 5 km are PHP 2,199 each."
+    },
+    {
+      "question": "What is included in the Bohol International Marathon 2027 race kit?",
+      "answer": "The 42 km, 21 km and 10 km include an event shirt, finisher shirt, finisher medal (5-inch for the 42 km), race bib with timing chip and a post-race snack. The 5 km has no medal listed and includes a post-race meal."
+    }
+  ],
+  "tags": [
+    "full-marathon",
+    "philippines"
+  ],
+  "source_mix": [
+    {
+      "url": "https://megatechph.com/events/bim-2027",
+      "label": "MEGATechPH registration page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.pinoyfitness.com/event/bohol-international-marathon-2027/",
+      "label": "Pinoy Fitness event page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.pinoyfitness.com/calendar-of-running-fitness-events-philippines/",
+      "label": "Pinoy Fitness running calendar",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

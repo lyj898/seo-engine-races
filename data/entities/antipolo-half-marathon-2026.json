@@ -1,0 +1,63 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "philippines",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "antipolo-half-marathon-2026",
+  "slug": "antipolo-half-marathon-2026",
+  "name": "Antipolo Half Marathon 2026",
+  "short_description": "Antipolo Half Marathon 2026 is on Sunday 6 December 2026 at Eastland Heights in Antipolo City, Rizal, over 3 km, 5 km, 10 km and 21.1 km.",
+  "ai_summary": "The Antipolo Half Marathon 2026 is organised by Runmark Events Management at Eastland Heights in Antipolo City, Rizal. It is dedicated to the Feast of the Immaculate Conception and raises funds for people in need. The race offers 21 km, 10 km, 5 km and 3 km categories.",
+  "core_facts": {
+    "date": "2026-12-06",
+    "distance_km": [
+      3,
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Eastland Heights",
+    "organizer": "Runmark Events Management",
+    "price_range": "PHP 900-1,950",
+    "city": "Antipolo City, Rizal",
+    "country": "Philippines"
+  },
+  "faqs": [
+    {
+      "question": "Where and when can I claim my Antipolo Half Marathon 2026 race kit?",
+      "answer": "Race kits can be claimed on 14-15, 21-22 and 28-29 November 2026, at D'Olive Eastland Heights from 6:00 AM to 9:00 AM or at Decathlon Masinag from 1:00 PM to 5:00 PM. Race-day claiming is at D'Olive Eastland Heights from 2:00 AM to 4:30 AM, or at least 30 minutes before your category's gun start."
+    },
+    {
+      "question": "How much does it cost to enter the Antipolo Half Marathon 2026?",
+      "answer": "The registration page lists the 21K at PHP 1,750-1,950, the 10K at PHP 1,300-1,500, the 5K at PHP 1,000-1,200 and the 3K at PHP 900-1,000. The 21K and 10K include a singlet, a finisher shirt, a medal, an RFID race bib and a loot bag."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "philippines"
+  ],
+  "source_mix": [
+    {
+      "url": "https://myruntime.com/register/antipolo-half-marathon-2026",
+      "label": "MyRunTime registration page (Runmark Events)",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.pinoyfitness.com/event/antipolo-half-marathon-2026/",
+      "label": "Pinoy Fitness event listing",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "thailand",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "sinsamut-run-2027",
+  "slug": "sinsamut-run-2027",
+  "name": "Sinsamut Run 2027",
+  "short_description": "Sinsamut Run 2027 is on Sunday 21 February 2027 at the HTMS Prasae Memorial in Klaeng, Rayong, over 21 km, 10 km and 5 km.",
+  "ai_summary": "Sinsamut Run 2027 is the third edition of this running event, on Sunday 21 February 2027 at the HTMS Prasae Memorial in Klaeng, Rayong. It is organised by the Tourism Authority of Thailand Rayong office and Pak Nam Prasae Subdistrict Municipality with RECRACE SPORT Co., Ltd. The 21 km starts at 4.30am, the 10 km at 5.15am and the 5 km at 5.30am.",
+  "core_facts": {
+    "date": "2027-02-21",
+    "distance_km": [
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "HTMS Prasae Memorial",
+    "organizer": "RECRACE SPORT Co., Ltd., with TAT Rayong Office and Pak Nam Prasae Subdistrict Municipality",
+    "price_range": "THB 500-800",
+    "city": "Klaeng, Rayong",
+    "country": "Thailand"
+  },
+  "faqs": [
+    {
+      "question": "What are the start times and cut-offs at Sinsamut Run 2027?",
+      "answer": "The 21 km starts at 4.30am with a 4 hour cut-off, and the 10 km starts at 5.15am with a 3 hour cut-off. The 5 km starts at 5.30am. Food is served from 6.00am and awards begin at 7.00am."
+    },
+    {
+      "question": "How much is entry, and where is kit collection?",
+      "answer": "Standard entries cost THB 800 for the 21 km, THB 700 for the 10 km and THB 600 for the 5 km, and the early-bird rate was THB 100 less. Race kits, including the timing chip, are collected on Saturday 20 February 2027 from 1pm to 6pm at the HTMS Prasae Memorial. Postal delivery begins around 15 February 2027."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "thailand"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.recracesport.com/run/sinsamutrun2027",
+      "label": "RECRACE SPORT registration page (Sinsamut Run 2027)",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://thesublist.run/event/sinsamut-run-2027/",
+      "label": "TheSubList event listing",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

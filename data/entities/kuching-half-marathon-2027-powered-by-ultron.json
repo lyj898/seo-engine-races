@@ -1,0 +1,60 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "malaysia",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "kuching-half-marathon-2027-powered-by-ultron",
+  "slug": "kuching-half-marathon-2027-powered-by-ultron",
+  "name": "Kuching Half Marathon 2027 Powered By Ultron",
+  "short_description": "Kuching Half Marathon 2027 Powered By Ultron is on Sunday 10 January 2027 at Majlis Bandaraya Kuching Selatan in Kuching, over 5 km, 10 km and 21.1 km.",
+  "ai_summary": "The Kuching Half Marathon 2027 Powered By Ultron is a JomRun event based at Majlis Bandaraya Kuching Selatan (MBKS) in Kuching, Sarawak, on 10 January 2027. It offers a 21.1 km competitive run plus 5 km and 10 km fun runs, and JomRun lists the event time as 3:30 am.",
+  "core_facts": {
+    "date": "2027-01-10",
+    "distance_km": [
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Majlis Bandaraya Kuching Selatan",
+    "city": "Kuching, Sarawak",
+    "country": "Malaysia"
+  },
+  "faqs": [
+    {
+      "question": "When is the Kuching Half Marathon 2027 Powered By Ultron?",
+      "answer": "It is on Sunday 10 January 2027 at Majlis Bandaraya Kuching Selatan. JomRun lists the event time as 3:30 am, while race kit collection and the route map are still marked to be confirmed."
+    },
+    {
+      "question": "Which distances can runners choose?",
+      "answer": "The event offers a 21.1 km competitive run and 5 km and 10 km fun runs. The 21.1 km is the timed competitive category."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "malaysia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.jomrun.com/event/Kuching-Half-Marathon-2027-Powered-By-Ultron",
+      "label": "JomRun event page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://lesgo.my/event/kuching-half-marathon/",
+      "label": "lesgo.my event listing",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

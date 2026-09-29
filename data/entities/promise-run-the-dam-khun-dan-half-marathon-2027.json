@@ -1,0 +1,63 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "thailand",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "promise-run-the-dam-khun-dan-half-marathon-2027",
+  "slug": "promise-run-the-dam-khun-dan-half-marathon-2027",
+  "name": "Promise Run The Dam 2027 – Khun Dan 1/2 Marathon",
+  "short_description": "Promise Run The Dam 2027 – Khun Dan 1/2 Marathon is on Sunday 31 January 2027 at Khun Dan Prakan Chon Dam in Nakhon Nayok, over 21.1 km, 10 km, 5 km and 3 km.",
+  "ai_summary": "Promise Run The Dam 2027 – Khun Dan 1/2 Marathon is a road race on Sunday 31 January 2027 at Khun Dan Prakan Chon Dam in Nakhon Nayok. It is organised by Promise (Thailand) Co., Ltd. and Race Up Work Co., Ltd., and offers 21.1 km, 10 km, 5 km and 3 km entries. The 21.1 km and 10 km are chip-timed under Athletics Association of Thailand rules. It is a separate event from the Khun Dan Marathon held at the same dam in October 2026.",
+  "core_facts": {
+    "date": "2027-01-31",
+    "distance_km": [
+      3,
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Khun Dan Prakan Chon Dam",
+    "organizer": "Promise (Thailand) Co., Ltd. and Race Up Work Co., Ltd.",
+    "price_range": "THB 500-850",
+    "city": "Nakhon Nayok",
+    "country": "Thailand"
+  },
+  "faqs": [
+    {
+      "question": "How much is entry, and what are the age limits?",
+      "answer": "Checkrace lists the 21.1 km at THB 850, the 10 km at THB 650, the 5 km at THB 600 and the 3 km at THB 500. Half marathon runners must be 16 or older on race day, which means born in 2011 or earlier. Age-group awards use chip time and overall awards use gun time."
+    },
+    {
+      "question": "Where is race kit collection for Promise Run The Dam?",
+      "answer": "Race kits are collected on Saturday 30 January 2027 (Expo Day) from 10.00 to 18.00 at Khun Dan Prakan Chon Dam. There is no postal delivery. A representative can collect a kit with a copy of the runner's ID card."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "thailand"
+  ],
+  "source_mix": [
+    {
+      "url": "https://run.checkrace.com/event/KDM27",
+      "label": "Checkrace registration page (PROMISE RUN THE DAM – KHUN DAN 1/2 MARATHON 2027)",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.runlah.com/en/m4FVSIRV",
+      "label": "RUNLAH event listing",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

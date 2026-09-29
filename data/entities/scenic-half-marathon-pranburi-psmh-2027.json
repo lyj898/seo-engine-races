@@ -1,0 +1,63 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "thailand",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "scenic-half-marathon-pranburi-psmh-2027",
+  "slug": "scenic-half-marathon-pranburi-psmh-2027",
+  "name": "Scenic Half Marathon Pranburi 2027",
+  "short_description": "Scenic Half Marathon Pranburi 2027 is on Sunday 14 February 2027 at Pak Nam Pran Beach Park in Pranburi, Prachuap Khiri Khan, over 21.1 km, 10 km and 5 km, with a 3 km beach run the day before.",
+  "ai_summary": "Scenic Half Marathon Pranburi 2027 is organised by RACEUP WORK, with its 21.1 km, 10 km and 5 km races on Sunday 14 February 2027 from Pak Nam Pran Beach Park in Pranburi. The organiser describes a coastal course between Pranburi and Sam Roi Yot on fully closed roads, and says the race holds a World Athletics Road Race Label. A 3 km beach run is held on Saturday 13 February at Thao Kosa Forest Park (Khao Kalok).",
+  "core_facts": {
+    "date": "2027-02-14",
+    "distance_km": [
+      3,
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Pak Nam Pran Beach Park, Pranburi",
+    "organizer": "RACEUP WORK",
+    "price_range": "THB 500-1,250",
+    "city": "Pranburi, Prachuap Khiri Khan",
+    "country": "Thailand"
+  },
+  "faqs": [
+    {
+      "question": "How much does Scenic Half Marathon Pranburi 2027 cost?",
+      "answer": "Checkrace lists the 21.1 km at THB 1,000, the 10 km at THB 800, the 5 km at THB 700 and the 3 km at THB 500. The 21.1 km Overall Championship entry costs THB 1,250 and needs a qualifying time under 1:25 for men or 1:45 for women. Half marathon and 10 km runners must be at least 16."
+    },
+    {
+      "question": "When is race pack collection in Pranburi?",
+      "answer": "Race packs are collected on Saturday 13 February 2027 (Expo Day) from 10.00 to 18.00 at Pak Nam Pran Beach Park. There is no collection on race day, but postal delivery is offered. The 3 km beach run also takes place on the Saturday."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "thailand"
+  ],
+  "source_mix": [
+    {
+      "url": "https://run.checkrace.com/event/PSMH27",
+      "label": "Checkrace registration page (Scenic Half Marathon Pranburi 2027)",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://thesublist.run/event/%e0%b8%8b%e0%b8%b5%e0%b8%99%e0%b8%b4%e0%b8%84%e0%b8%ae%e0%b8%b2%e0%b8%a5%e0%b9%8c%e0%b8%9f%e0%b8%a1%e0%b8%b2%e0%b8%a3%e0%b8%b2%e0%b8%98%e0%b8%ad%e0%b8%99%e0%b8%9b%e0%b8%a3%e0%b8%b2%e0%b8%93%e0%b8%9a/",
+      "label": "TheSubList event listing",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

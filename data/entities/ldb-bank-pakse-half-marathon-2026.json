@@ -1,0 +1,55 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "laos",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "ldb-bank-pakse-half-marathon-2026",
+  "slug": "ldb-bank-pakse-half-marathon-2026",
+  "name": "LDB Bank Pakse Half Marathon 2026",
+  "short_description": "LDB Bank Pakse Half Marathon 2026 is on Sunday 8 November 2026 at the Champasak Grand Hotel in Pakse, over 5 km, 14 km and 21.1 km.",
+  "ai_summary": "LDB Bank Pakse Half Marathon 2026 is an annual road race in Pakse, the capital of Champasak Province in southern Laos. The World's Marathons event page lists 5 km, 14 km and 21.1 km, all on Sunday 8 November 2026, starting and finishing at the Champasak Grand Hotel. The race description mentions a route through the city past Wat Luang and along the Mekong.",
+  "core_facts": {
+    "date": "2026-11-08",
+    "distance_km": [
+      5,
+      14,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Champasak Grand Hotel",
+    "price_range": "EUR 13-25",
+    "city": "Pakse, Champasak",
+    "country": "Laos"
+  },
+  "faqs": [
+    {
+      "question": "How much is entry to LDB Bank Pakse Half Marathon 2026?",
+      "answer": "The World's Marathons event page lists EUR 13 for the 5 km, EUR 19 for the 14 km and EUR 25 for the 21.1 km. Entry includes a finisher medal, event T-shirt and finisher T-shirt, with drink stations and toilets provided."
+    },
+    {
+      "question": "Where does LDB Bank Pakse Half Marathon 2026 start and finish?",
+      "answer": "All distances start and finish at the Champasak Grand Hotel in Pakse. The course surface is listed as road, and bib and race shirt collection is held in the hotel's yard."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "laos"
+  ],
+  "source_mix": [
+    {
+      "url": "https://worldsmarathons.com/marathon/pakse-half-marathon",
+      "label": "World's Marathons event and ticket page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

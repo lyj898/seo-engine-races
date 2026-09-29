@@ -1,0 +1,68 @@
+{
+  "category_id": "full-marathon",
+  "region_id": "philippines",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "boracay-island-360-marathon-2027",
+  "slug": "boracay-island-360-marathon-2027",
+  "name": "Boracay Island 360 Marathon 2027",
+  "short_description": "Boracay Island 360 Marathon 2027 is on Sunday 30 May 2027 at Bulabog Beach on Boracay Island in Malay, Aklan, over 5 km, 10 km, 21 km and 42 km.",
+  "ai_summary": "Boracay Island 360 Marathon 2027 is held on Boracay Island, Malay, Aklan, and the MyRunTime registration page names Bulabog Beach as the venue. Distances are 42 km, 21 km, 10 km and 5 km. Start times and the 2027 route have not been published on the pages checked.",
+  "core_facts": {
+    "date": "2027-05-30",
+    "distance_km": [
+      5,
+      10,
+      21.1,
+      42.195
+    ],
+    "primary_distance_km": 42.195,
+    "venue": "Bulabog Beach, Boracay Island",
+    "organizer": "Boracay 360",
+    "city": "Malay, Aklan",
+    "country": "Philippines"
+  },
+  "faqs": [
+    {
+      "question": "What distances are offered at Boracay Island 360 Marathon 2027?",
+      "answer": "The race offers 42 km, 21 km, 10 km and 5 km. These appear on the organiser banner on the MyRunTime registration page."
+    },
+    {
+      "question": "Where does Boracay Island 360 Marathon 2027 take place?",
+      "answer": "The MyRunTime registration page gives the venue as Bulabog Beach, Boracay Island, Malay, Aklan. The 2027 route map and start times had not been published when this page was checked."
+    }
+  ],
+  "tags": [
+    "full-marathon",
+    "philippines"
+  ],
+  "source_mix": [
+    {
+      "url": "https://myruntime.com/register/boracay-island-360-marathon-2027",
+      "label": "MyRunTime registration page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.pinoyfitness.com/event/boracay-island-360-marathon-2027/",
+      "label": "Pinoy Fitness event page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.pinoyfitness.com/calendar-of-running-fitness-events-philippines/",
+      "label": "Pinoy Fitness running calendar",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

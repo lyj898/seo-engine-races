@@ -1,0 +1,62 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "thailand",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "sakon-run-der-2026",
+  "slug": "sakon-run-der-2026",
+  "name": "SAKON RUN DER 2026",
+  "short_description": "SAKON RUN DER 2026 is on Sunday 20 December 2026 at the Sakon Nakhon Chamber of Commerce Office in Sakon Nakhon, over 21.1 km, 10 km and 6.5 km.",
+  "ai_summary": "SAKON RUN DER 2026 is a road race on Sunday 20 December 2026, based at the Sakon Nakhon Chamber of Commerce Office. It is organised by YEC Sakon Nakhon and offers 21.1 km, 10 km and 6.5 km races, each also sold as a VIP entry. Checkrace tags it as a road race.",
+  "core_facts": {
+    "date": "2026-12-20",
+    "distance_km": [
+      6.5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Sakon Nakhon Chamber of Commerce Office",
+    "organizer": "YEC Sakon Nakhon",
+    "price_range": "THB 550-2,000",
+    "city": "Sakon Nakhon",
+    "country": "Thailand"
+  },
+  "faqs": [
+    {
+      "question": "How much is entry to SAKON RUN DER 2026?",
+      "answer": "Checkrace lists the 21.1 km at THB 800, the 10 km at THB 650 and the 6.5 km at THB 550. VIP entries for each distance cost THB 2,000. Runners in the 21.1 km must be at least 12 years old."
+    },
+    {
+      "question": "Where is race kit collection for SAKON RUN DER?",
+      "answer": "Race kits are collected on Saturday 19 December 2026 from 10.00 to 18.00 at the Sakon Nakhon Chamber of Commerce Office. Overall awards are decided on gun time and age-group awards on chip time."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "thailand"
+  ],
+  "source_mix": [
+    {
+      "url": "https://run.checkrace.com/event/sakonrunder26",
+      "label": "Checkrace registration page (SAKON RUN DER 2026)",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.runlah.com/en/x3cvF9so",
+      "label": "RUNLAH event listing",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

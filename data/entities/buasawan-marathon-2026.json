@@ -1,0 +1,62 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "thailand",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "buasawan-marathon-2026",
+  "slug": "buasawan-marathon-2026",
+  "name": "Buasawan Marathon 2026",
+  "short_description": "Buasawan Marathon 2026 is on Sunday 25 October 2026 at Rajamangala University of Technology Thanyaburi in Pathum Thani, over 5 km, 10 km and 21.1 km.",
+  "ai_summary": "Buasawan Marathon 2026 is the second edition of the run, styled \"Buasawan Marathon 2\" by its organiser and held at Rajamangala University of Technology Thanyaburi (RMUTT) in Pathum Thani. Despite the name, the longest race is a half marathon of 21 km, alongside a 10 km and a 5 km. Entries are taken on Regis.run.",
+  "core_facts": {
+    "date": "2026-10-25",
+    "distance_km": [
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Rajamangala University of Technology Thanyaburi",
+    "organizer": "Buasawan Marathon 2",
+    "price_range": "THB 650-999",
+    "city": "Thanyaburi, Pathum Thani",
+    "country": "Thailand"
+  },
+  "faqs": [
+    {
+      "question": "Is Buasawan Marathon 2026 a full marathon?",
+      "answer": "No. Despite its name, the longest race listed on the registration page is the half marathon of 21 km. The other distances are a 10 km mini marathon and a 5 km fun run."
+    },
+    {
+      "question": "How much does Buasawan Marathon 2026 cost?",
+      "answer": "The Regis.run page lists the 5 km at THB 650, the 10 km at THB 750 and the half marathon at THB 900. VIP packages cost THB 999 for any distance."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "thailand"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.regis.run/event/buasawanmarathon2",
+      "label": "Regis.run registration page (Buasawan Marathon 2)",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.runlah.com/en/pnSixwul",
+      "label": "RUNLAH event listing",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

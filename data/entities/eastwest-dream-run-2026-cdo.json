@@ -1,0 +1,70 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "philippines",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "eastwest-dream-run-2026-cdo",
+  "slug": "eastwest-dream-run-2026-cdo",
+  "name": "EastWest Dream Run 2026 - CDO",
+  "short_description": "EastWest Dream Run 2026 - CDO is on Sunday 18 October 2026 at Limketkai Center in Cagayan de Oro City, over 1 km, 3 km, 5 km, 10 km and 21 km.",
+  "ai_summary": "EastWest Dream Run 2026 - CDO is the Cagayan de Oro leg of the EastWest Bank running series, organised by RUNRIO from Limketkai Center on the National Highway. Race Roster lists a 3:00 AM start. RUNRIO lists 21 km, 10 km, 5 km, 3 km and 1 km. Pinoy Fitness gives the top distance as 12 km, but the RUNRIO calendar, the Race Roster race mechanics and the Pinoy Fitness fee table all include a 21 km.",
+  "core_facts": {
+    "date": "2026-10-18",
+    "distance_km": [
+      1,
+      3,
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Limketkai Center, National Highway",
+    "organizer": "RUNRIO Inc.",
+    "price_range": "PHP 1,000-2,000",
+    "city": "Cagayan de Oro City, Misamis Oriental",
+    "country": "Philippines"
+  },
+  "faqs": [
+    {
+      "question": "Is there a minimum age for the 21 km at EastWest Dream Run 2026 - CDO?",
+      "answer": "Yes. The RUNRIO race mechanics say 21 km participants must be 18 years old or above."
+    },
+    {
+      "question": "How much does the 21 km cost at EastWest Dream Run 2026 - CDO?",
+      "answer": "The 21 km is listed at PHP 1,800 and PHP 2,000 across two price tiers. The 10 km is PHP 1,200 to PHP 1,400, and the 3 km group-of-four entry is PHP 4,000 to PHP 5,000."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "philippines"
+  ],
+  "source_mix": [
+    {
+      "url": "https://runrio.com/race-calendar/",
+      "label": "RUNRIO race calendar",
+      "type": "official",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://raceroster.com/events/2026/116479/eastwest-dream-run-2026-cdo",
+      "label": "Race Roster event page (RUNRIO)",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.pinoyfitness.com/calendar-of-running-fitness-events-philippines/",
+      "label": "Pinoy Fitness running calendar",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

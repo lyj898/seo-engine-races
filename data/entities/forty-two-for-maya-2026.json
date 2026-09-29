@@ -1,0 +1,59 @@
+{
+  "category_id": "full-marathon",
+  "region_id": "philippines",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "forty-two-for-maya-2026",
+  "slug": "forty-two-for-maya-2026",
+  "name": "Forty Two for Maya 2026",
+  "short_description": "Forty Two for Maya 2026 is on Sunday 18 October 2026 at Agua Vista Resort in Naga City, Camarines Sur, over 42.195 km.",
+  "ai_summary": "Forty Two for Maya is a 42 km road marathon in Naga City, Camarines Sur, that starts at 12:00 midnight on 18 October 2026. It starts and finishes at Agua Vista Resort, and the public route runs from Naga City to Calabanga and back. The organisers describe it as a personal tribute that grew into a community race, with a target capacity of 200 runners.",
+  "core_facts": {
+    "date": "2026-10-18",
+    "distance_km": [
+      42.195
+    ],
+    "primary_distance_km": 42.195,
+    "venue": "Agua Vista Resort",
+    "price_range": "PHP 1,499",
+    "city": "Naga City, Camarines Sur",
+    "country": "Philippines"
+  },
+  "faqs": [
+    {
+      "question": "What time does Forty Two for Maya 2026 start, and is there a cut-off?",
+      "answer": "The race starts at 12:00 midnight, Asia/Manila time, on 18 October 2026. The organisers set no intermediate cut-off point, but all runners must finish before breakfast."
+    },
+    {
+      "question": "Who can enter Forty Two for Maya 2026?",
+      "answer": "Entrants must be 18 or older, and first-time marathoners are welcome. Runners need medical clearance, ID, a signed waiver and mandatory gear, and pacers and support crews are not allowed."
+    }
+  ],
+  "tags": [
+    "full-marathon",
+    "philippines"
+  ],
+  "source_mix": [
+    {
+      "url": "https://42formaya.org/race",
+      "label": "Forty Two for Maya official website",
+      "type": "official",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.pinoyfitness.com/event/forty-two-for-maya-42km-marathon-in-naga-city-2026/",
+      "label": "Pinoy Fitness event listing",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

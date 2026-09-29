@@ -1,0 +1,63 @@
+{
+  "category_id": "full-marathon",
+  "region_id": "thailand",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "chaiyaphum-marathon-2026",
+  "slug": "chaiyaphum-marathon-2026",
+  "name": "Chaiyaphum Marathon 2026",
+  "short_description": "Chaiyaphum Marathon 2026 is on Sunday 11 October 2026 at Muang Chaiyaphum Municipal Stadium in Chaiyaphum, over 42 km, 21 km, 10 km and 5 km.",
+  "ai_summary": "Chaiyaphum Marathon 2026, billed as \"The First Marathon\", is organised by Runvegas Series with Chaiyaphum Province and the Sports Authority of Thailand Chaiyaphum office. The race.thai.run registration page lists 42K, 21K, 10K and 5K races, with reduced senior entries. RUNLAH gives Muang Chaiyaphum Municipal Stadium as the venue.",
+  "core_facts": {
+    "date": "2026-10-11",
+    "distance_km": [
+      5,
+      10,
+      21.1,
+      42.195
+    ],
+    "primary_distance_km": 42.195,
+    "venue": "Muang Chaiyaphum Municipal Stadium",
+    "organizer": "Runvegas Series with Chaiyaphum Province and the Sports Authority of Thailand, Chaiyaphum",
+    "price_range": "THB 375-2,050",
+    "city": "Chaiyaphum",
+    "country": "Thailand"
+  },
+  "faqs": [
+    {
+      "question": "How much is entry to Chaiyaphum Marathon 2026?",
+      "answer": "Regular entry on race.thai.run is THB 1,300 for the 42K, THB 1,100 for the 21K, THB 850 for the 10K and THB 750 for the 5K. Senior entries cost half (THB 375 to 650), and packages with merchandise run from THB 1,500 to 2,050."
+    },
+    {
+      "question": "Who organises Chaiyaphum Marathon 2026?",
+      "answer": "The race is run by Runvegas Series together with Chaiyaphum Province and the Sports Authority of Thailand office in Chaiyaphum. Updates are posted on the Runvegas Series Facebook page, according to the registration page."
+    }
+  ],
+  "tags": [
+    "full-marathon",
+    "thailand"
+  ],
+  "source_mix": [
+    {
+      "url": "https://race.thai.run/chaiyaphummarathon1st",
+      "label": "Chaiyaphum Marathon on race.thai.run",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.runlah.com/en/calendar/type/full",
+      "label": "RUNLAH full-marathon calendar (Thailand)",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

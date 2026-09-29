@@ -1,0 +1,62 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "malaysia",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "bagan-lalang-beach-half-marathon-2026",
+  "slug": "bagan-lalang-beach-half-marathon-2026",
+  "name": "Bagan Lalang Beach Half Marathon 2026",
+  "short_description": "Bagan Lalang Beach Half Marathon 2026 is on Sunday 22 November 2026 at Pantai Bagan Lalang in Sepang, over 5 km, 10 km and 21.1 km.",
+  "ai_summary": "The Bagan Lalang Beach Half Marathon 2026 is organised by Kembara ES Sdn Bhd at Pantai Bagan Lalang, Sepang, Selangor, on 22 November 2026. The 21 km flags off at 6:05 am with a 4-hour cut-off, the 10 km at 6:45 am and the 5 km fun run at 7:00 am. Prizes for the 21 km and 10 km are decided on finishing time.",
+  "core_facts": {
+    "date": "2026-11-22",
+    "distance_km": [
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Pantai Bagan Lalang",
+    "organizer": "Kembara ES Sdn Bhd",
+    "price_range": "RM 45-95",
+    "city": "Sepang, Selangor",
+    "country": "Malaysia"
+  },
+  "faqs": [
+    {
+      "question": "What are the flag-off and cut-off times?",
+      "answer": "The 21 km flags off at 6:05 am with a 4-hour cut-off, the 10 km at 6:45 am with 2.5 hours, and the 5 km at 7:00 am with 1.5 hours. The event runs from 6:00 am to 11:00 am on Sunday 22 November 2026."
+    },
+    {
+      "question": "How much does the 21 km cost and who can enter?",
+      "answer": "The 21 km is priced at RM75, RM85 and RM95 across the flash sale, early bird and normal rates, excluding online fees. The 21 km and 10 km open categories are for runners aged 18 and above, and entry is limited to Malaysians and foreigners with a Malaysian work permit or PR status."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "malaysia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.ticket2u.com.my/event/52340/bagan-lalang-beach-half-marathon-2026",
+      "label": "Ticket2u event page (Kembara ES Sdn Bhd)",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://lesgo.my/event/bagan-lalang-beach-half-marathon-2026/",
+      "label": "lesgo.my event listing",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

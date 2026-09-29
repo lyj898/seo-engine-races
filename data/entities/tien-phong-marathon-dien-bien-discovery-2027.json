@@ -1,0 +1,66 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "vietnam",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [
+    "Schedule, start times and course map are marked \"to be updated\" on Pace8.",
+    "The 48 km is an ultra distance; the listing is on the strength of the 21 km."
+  ],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "tien-phong-marathon-dien-bien-discovery-2027",
+  "slug": "tien-phong-marathon-dien-bien-discovery-2027",
+  "name": "Tien Phong Marathon – Dien Bien Discovery 2027",
+  "short_description": "Tien Phong Marathon – Dien Bien Discovery is on Saturday 2 January 2027 in Dien Bien Phu ward, Dien Bien, over 5 km, 10 km, 21 km and 48 km.",
+  "ai_summary": "Tien Phong Marathon – Dien Bien Discovery 2027 is part of the Tien Phong Newspaper national marathon and long-distance series, organised by Tien Phong Newspaper and the Dien Bien Department of Culture, Sports and Tourism under the Dien Bien provincial People's Committee. The event runs 31 December 2026 to 2 January 2027, with racing on 2 January in Dien Bien Phu ward. Distances are 5 km, 10 km, 21 km and 48 km; the longest race is beyond marathon distance. The route passes historic sites, villages and lakes, per the event page.",
+  "core_facts": {
+    "date": "2027-01-02",
+    "distance_km": [
+      5,
+      10,
+      21.1,
+      48
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Dien Bien Phu ward",
+    "organizer": "Tien Phong Newspaper and the Dien Bien Department of Culture, Sports and Tourism",
+    "price_range": "VND 486,000-886,000 (early bird)",
+    "city": "Dien Bien Phu",
+    "country": "Vietnam"
+  },
+  "faqs": [
+    {
+      "question": "How much does Tien Phong Marathon – Dien Bien Discovery 2027 cost?",
+      "answer": "Early-bird prices on Pace8 are VND 486,000 for 5 km, VND 586,000 for 10 km, VND 768,000 for 21 km and VND 886,000 for 48 km. The 21 km is for runners aged 16 and over and the 48 km for 18 and over. The 5 km and 10 km have no age limit."
+    },
+    {
+      "question": "Can I transfer or change my Tien Phong Marathon – Dien Bien Discovery 2027 entry?",
+      "answer": "Cancellations are not accepted. Transfers cost VND 100,000 per bib and distance changes cost VND 50,000 plus any price difference, both until 17:00 on 30 November 2026. The schedule, course map and prizes are still marked \"to be updated\"."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "vietnam"
+  ],
+  "source_mix": [
+    {
+      "url": "https://pace8.vn/su-kien/tien-phong-marathon-dien-bien-discovery-2026",
+      "label": "Pace8 event page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://pace8.vn/su-kien",
+      "label": "Pace8 event list",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

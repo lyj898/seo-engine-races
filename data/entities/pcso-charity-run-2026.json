@@ -1,0 +1,68 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "philippines",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "pcso-charity-run-2026",
+  "slug": "pcso-charity-run-2026",
+  "name": "PCSO Charity Run 2026",
+  "short_description": "PCSO Charity Run 2026 is on Sunday 18 October 2026 at Ayala Triangle Gardens in Makati, over 3 km, 5 km, 10 km and 21.1 km.",
+  "ai_summary": "The PCSO Charity Run 2026 is a RunRio race held with the Philippine Charity Sweepstakes Office in support of its charitable programmes. All categories start at Ayala Triangle Gardens in Makati, and the race offers 21 km, 10 km, 5 km and 3 km distances. Sections of the route are closed to traffic.",
+  "core_facts": {
+    "date": "2026-10-18",
+    "distance_km": [
+      3,
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Ayala Triangle Gardens",
+    "organizer": "Philippine Charity Sweepstakes Office with RUNRIO Inc.",
+    "city": "Makati",
+    "country": "Philippines"
+  },
+  "faqs": [
+    {
+      "question": "Is there a cut-off time at the PCSO Charity Run 2026?",
+      "answer": "All participants must start within 15 minutes of their category's gun start, and latecomers are not allowed to start. An ambulance sweeps the course from 7:00 AM, and runners it picks up are taken to the finish and removed from the official results."
+    },
+    {
+      "question": "What do finishers of the PCSO Charity Run 2026 receive?",
+      "answer": "The race FAQ lists a finisher's loot bag, hydration and a finisher's medal. 21K finishers also receive a finisher shirt, and results are released within the day."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "philippines"
+  ],
+  "source_mix": [
+    {
+      "url": "https://runrio.com/race-calendar/",
+      "label": "RunRio race calendar (organiser)",
+      "type": "official",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://raceroster.com/events/2026/139797/pcso-charity-run-2026",
+      "label": "Race Roster event page (RunRio)",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.pinoyfitness.com/event/pcso-charity-run-2026-makati/",
+      "label": "Pinoy Fitness event listing",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

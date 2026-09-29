@@ -1,0 +1,67 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "malaysia",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "kangar-city-half-marathon-2026",
+  "slug": "kangar-city-half-marathon-2026",
+  "name": "Kangar City Half Marathon 2026",
+  "short_description": "Kangar City Half Marathon 2026 is on Saturday 24 October 2026 in Kangar, over 1 km, 5 km, 10 km and 21.1 km.",
+  "ai_summary": "The Kangar City Half Marathon 2026 is organised by Northern Runners Resources in Kangar, Perlis, as a two-day event on 23 and 24 October 2026. The 1 km kids dash runs at 6:30 pm on Friday 23 October, and the 21 km half marathon flags off at 2:30 am on Saturday 24 October, followed by the 10 km city run at 4:00 am and the 5 km fun run at 7:30 am.",
+  "core_facts": {
+    "date": "2026-10-24",
+    "distance_km": [
+      1,
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "organizer": "Northern Runners Resources",
+    "city": "Kangar, Perlis",
+    "country": "Malaysia"
+  },
+  "faqs": [
+    {
+      "question": "When does the 21 km at the Kangar City Half Marathon 2026 start?",
+      "answer": "The 21 km half marathon flags off at 2:30 am on Saturday 24 October 2026, with a cut-off of 6:30 am (4 hours). The 10 km flags off at 4:00 am with a 2.5-hour cut-off and the 5 km at 7:30 am with a 1.5-hour cut-off."
+    },
+    {
+      "question": "What happens on Friday 23 October?",
+      "answer": "The 1 km kids dash is the only category on the Friday, flagging off at 6:30 pm with a 30-minute cut-off. All the longer distances run in the early hours of Saturday 24 October."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "malaysia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://kakirunning.my/event/kangar-city-half-marathon-2026/",
+      "label": "Kaki Running by Northern Runners (organiser)",
+      "type": "official",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://howei.com/event_details/kangarcityhalfmarathon2026",
+      "label": "Howei event page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://lesgo.my/event/kangar-city-half-marathon-2026-2/",
+      "label": "lesgo.my event listing",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

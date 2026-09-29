@@ -1,0 +1,67 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "philippines",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "rural-bank-of-rizal-half-marathon-2027",
+  "slug": "rural-bank-of-rizal-half-marathon-2027",
+  "name": "Rural Bank of Rizal Half Marathon 2027",
+  "short_description": "Rural Bank of Rizal Half Marathon 2027 is on Sunday 24 January 2027 in Dipolog City, over 5 km, 10 km and 21 km.",
+  "ai_summary": "The Rural Bank of Rizal Half Marathon 2027 is organised by the Rural Bank of Rizal in Dipolog City, Zamboanga del Norte. The poster on the RaceTech registration page calls it the golden anniversary celebration of the bank. Categories are 21 km, 10 km and 5 km. The venue and start times have not been published on the pages checked.",
+  "core_facts": {
+    "date": "2027-01-24",
+    "distance_km": [
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "organizer": "Rural Bank of Rizal",
+    "price_range": "PHP 1,000-1,900",
+    "city": "Dipolog City, Zamboanga del Norte",
+    "country": "Philippines"
+  },
+  "faqs": [
+    {
+      "question": "What are the entry fees for the Rural Bank of Rizal Half Marathon 2027?",
+      "answer": "The 21 km costs PHP 1,900, the 10 km PHP 1,400 and the 5 km PHP 1,000. These are the rates on the organiser poster and the Pinoy Fitness event page."
+    },
+    {
+      "question": "What do 21 km runners receive at the Rural Bank of Rizal Half Marathon?",
+      "answer": "The 21 km kit lists a finisher medal, finisher shirt, event shirt, drawstring bag, post-race meal, race bib with RFID timing and a raffle entry. The 5 km and 10 km kits include a post-race snack instead of a meal."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "philippines"
+  ],
+  "source_mix": [
+    {
+      "url": "https://racetechph.com/raceinfoview/bank-of-rizal-half-marathom",
+      "label": "RaceTech PH registration page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.pinoyfitness.com/event/rural-bank-of-rizal-half-marathon-2027/",
+      "label": "Pinoy Fitness event page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.pinoyfitness.com/calendar-of-running-fitness-events-philippines/",
+      "label": "Pinoy Fitness running calendar",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

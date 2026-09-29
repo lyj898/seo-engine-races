@@ -1,0 +1,61 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "thailand",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "sponsor-run-bangkok-2026",
+  "slug": "sponsor-run-bangkok-2026",
+  "name": "Sponsor Run Bangkok 2026",
+  "short_description": "Sponsor Run Bangkok 2026 is on Sunday 4 October 2026 at Rama VIII Bridge and park in Bangkok, over 5 km, 10 km and 21.1 km.",
+  "ai_summary": "Sponsor Run Bangkok 2026 is organised by RunRio (Thailand) Co., Ltd. and takes entries on race.thai.run. The race is based at the Rama VIII Bridge and its park in Bangkok. The organiser says 2026 is the first year it offers a 21K, alongside the 5K and 10K.",
+  "core_facts": {
+    "date": "2026-10-04",
+    "distance_km": [
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Rama VIII Bridge and park",
+    "organizer": "RunRio (Thailand) Co., Ltd.",
+    "city": "Bangkok",
+    "country": "Thailand"
+  },
+  "faqs": [
+    {
+      "question": "What distances does Sponsor Run Bangkok 2026 offer?",
+      "answer": "Sponsor Run Bangkok 2026 offers 5K, 10K and 21K races. The organiser describes the 21K as a first for the event."
+    },
+    {
+      "question": "Where does Sponsor Run Bangkok 2026 take place?",
+      "answer": "The race day is 4 October 2026 at the Rama VIII Bridge and park in Bangkok. The organiser posts updates on its Sponsor Run Facebook page and links its race rules from the registration page."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "thailand"
+  ],
+  "source_mix": [
+    {
+      "url": "https://race.thai.run/sponsorrunbangkok2026",
+      "label": "race.thai.run registration page (Sponsor Run Bangkok 2026)",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.runlah.com/en/xKVuSSQD",
+      "label": "RUNLAH event listing",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

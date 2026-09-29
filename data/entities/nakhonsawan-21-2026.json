@@ -1,0 +1,62 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "thailand",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "nakhonsawan-21-2026",
+  "slug": "nakhonsawan-21-2026",
+  "name": "Nakhonsawan 21 2026",
+  "short_description": "Nakhonsawan 21 2026 is on Sunday 4 October 2026 at Sawan Park in Nakhon Sawan, over 3.3 km, 10 km and 21.1 km.",
+  "ai_summary": "Nakhonsawan 21 2026 is organised by the Khon Mueang Prabang Running Club at Sawan Park, Nakhon Sawan, with entries taken on RUNLAH. The half marathon (21.1 km) starts at 05:00, the 10 km at 05:30 and the 3.3 km fun run at 06:00. Every 21 km finisher receives a finisher shirt, and trophies are awarded by age group for men and women.",
+  "core_facts": {
+    "date": "2026-10-04",
+    "distance_km": [
+      3.3,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Sawan Park",
+    "organizer": "Khon Mueang Prabang Running Club",
+    "price_range": "THB 500-800",
+    "city": "Nakhon Sawan",
+    "country": "Thailand"
+  },
+  "faqs": [
+    {
+      "question": "What time does the Nakhonsawan 21 half marathon start?",
+      "answer": "Check-in opens at 04:00 on Sunday 4 October 2026 at Sawan Park. The 21.1 km starts at 05:00, the 10 km at 05:30 and the 3.3 km fun run at 06:00."
+    },
+    {
+      "question": "Where do I collect my Nakhonsawan 21 race pack?",
+      "answer": "Race packs are collected at Sawan Park on Saturday 3 October 2026 from 11:00 to 19:00. Bring your registration number or barcode and an ID card or passport; a representative can collect with a copy of your ID."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "thailand"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.runlah.com/en/1n2k26",
+      "label": "RUNLAH registration page (Nakhonsawan 21)",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://thesublist.run/running-events/half-marathon/",
+      "label": "TheSubList half-marathon calendar",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

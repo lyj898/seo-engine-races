@@ -1,0 +1,62 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "thailand",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "sportsmall-half-marathon-2026",
+  "slug": "sportsmall-half-marathon-2026",
+  "name": "SportsMall Half Marathon 2026",
+  "short_description": "SportsMall Half Marathon 2026 is on Sunday 13 December 2026 at The Mall Lifestore Bangkapi in Bangkok, over 21 km, 10 km and 5 km.",
+  "ai_summary": "SportsMall Half Marathon 2026 is a running event on Sunday 13 December 2026 that starts and finishes at The Mall Lifestore Bangkapi in Bangkok. It is organised by SportsMall, part of The Mall Group, and offers a 21 km half marathon, a 10 km mini marathon and a 5 km fun run. The half marathon starts at 3.30am, the 10 km at 4.45am and the 5 km at 4.55am.",
+  "core_facts": {
+    "date": "2026-12-13",
+    "distance_km": [
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "The Mall Lifestore Bangkapi",
+    "organizer": "SportsMall (The Mall Group Co., Ltd.)",
+    "price_range": "THB 500-900",
+    "city": "Bangkok",
+    "country": "Thailand"
+  },
+  "faqs": [
+    {
+      "question": "What time does the SportsMall Half Marathon start?",
+      "answer": "The 21 km half marathon starts at 3.30am, the 10 km at 4.45am and the 5 km fun run at 4.55am. The organiser says start times may change for safety or traffic reasons. Overall prizes for the 21 km are decided on gun time."
+    },
+    {
+      "question": "Where is race pack collection for the SportsMall Half Marathon?",
+      "answer": "Race packs are collected on 11 and 12 December 2026 from 10.00 to 19.00 at M SPACE on the G floor of The Mall Lifestore Bangkapi. There is no postal delivery. Early-bird entry for the 21 km was THB 800 and the regular price is THB 900."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "thailand"
+  ],
+  "source_mix": [
+    {
+      "url": "https://race.thai.run/spmhalfmarathon",
+      "label": "race.thai.run registration page (SportsMall Half Marathon 2026)",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.runlah.com/en/smh2026",
+      "label": "RUNLAH event listing",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

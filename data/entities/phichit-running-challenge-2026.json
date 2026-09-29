@@ -1,0 +1,62 @@
+{
+  "category_id": "full-marathon",
+  "region_id": "thailand",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "phichit-running-challenge-2026",
+  "slug": "phichit-running-challenge-2026",
+  "name": "Phichit Running Challenge 2026",
+  "short_description": "Phichit Running Challenge 2026 is on Sunday 22 November 2026 at Wang Krot Old Market in Kha Mang, Phichit, over 42.2 km, 21.1 km, 10.5 km and 5 km.",
+  "ai_summary": "Phichit Running Challenge 2026 starts and finishes at Wang Krot Old Market in Kha Mang, Mueang Phichit District, on a flat, out-and-back road course, according to its World's Marathons entry page. The marathon starts at 03:00 with a 7-hour cut-off and the half marathon at 05:00 with a 4-hour cut-off. The course passes through the historic Wang Krot riverside and railway area.",
+  "core_facts": {
+    "date": "2026-11-22",
+    "distance_km": [
+      5,
+      10.5,
+      21.1,
+      42.195
+    ],
+    "primary_distance_km": 42.195,
+    "venue": "Wang Krot Old Market",
+    "price_range": "EUR 13-26",
+    "city": "Kha Mang, Phichit",
+    "country": "Thailand"
+  },
+  "faqs": [
+    {
+      "question": "What are the start times and cut-offs at Phichit Running Challenge 2026?",
+      "answer": "The marathon starts at 03:00 (7-hour cut-off), the half marathon at 05:00 (4 hours), the 10.5 km at 05:30 (3 hours) and the 5 km at 06:00 (2 hours). The marathon and half marathon are open to runners aged 18 and over."
+    },
+    {
+      "question": "Where is race-pack pickup for Phichit Running Challenge 2026?",
+      "answer": "Race packs are collected on Saturday 21 November 2026 from 10:00 to 20:00 at Wang Krot Old Market in Phichit. On World's Marathons, entries cost EUR 13 to EUR 26 and include a medal, event shirt, finisher shirt and timing chip."
+    }
+  ],
+  "tags": [
+    "full-marathon",
+    "thailand"
+  ],
+  "source_mix": [
+    {
+      "url": "https://worldsmarathons.com/marathon/phichit-running-challenge",
+      "label": "Phichit Running Challenge on World's Marathons (entry page)",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://worldsmarathons.com/c/marathon/thailand",
+      "label": "World's Marathons: Thailand marathons",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

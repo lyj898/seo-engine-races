@@ -1,0 +1,63 @@
+{
+  "category_id": "full-marathon",
+  "region_id": "thailand",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "amazing-kamphaeng-phet-marathon-2027",
+  "slug": "amazing-kamphaeng-phet-marathon-2027",
+  "name": "Amazing Kamphaeng Phet Marathon 2027",
+  "short_description": "Amazing Kamphaeng Phet Marathon 2027 is on Sunday 20 June 2027 at Muang Kamphaeng Phet District Office in Kamphaeng Phet, over 42 km, 21 km, 10 km and 5 km.",
+  "ai_summary": "Amazing Kamphaeng Phet Marathon 2027 is the fifth edition, billed as the \"World Heritage Marathon\", and is organised by Route Map Co., Ltd. The event is based at Muang Kamphaeng Phet District Office, and the park entry fee charged to 21 km and 42 km runners indicates those routes enter Kamphaeng Phet Historical Park, part of a UNESCO World Heritage site (inferred). Distances are 5, 10, 21 and 42 km.",
+  "core_facts": {
+    "date": "2027-06-20",
+    "distance_km": [
+      5,
+      10,
+      21.1,
+      42.195
+    ],
+    "primary_distance_km": 42.195,
+    "venue": "Muang Kamphaeng Phet District Office",
+    "organizer": "Route Map Co., Ltd.",
+    "price_range": "THB 500-1,400",
+    "city": "Kamphaeng Phet",
+    "country": "Thailand"
+  },
+  "faqs": [
+    {
+      "question": "Is there a park entry fee at Amazing Kamphaeng Phet Marathon 2027?",
+      "answer": "Kamphaeng Phet Historical Park charges THB 20 for Thai runners and THB 200 for foreign runners, and the fee is added automatically at checkout for the 21 km and 42 km. Those runners can visit the park free on race day by showing their bib."
+    },
+    {
+      "question": "How much does Amazing Kamphaeng Phet Marathon 2027 cost?",
+      "answer": "Regis.run lists regular prices of THB 1,200 for the 42 km, THB 900 for the 21 km and THB 600 for the 10 km and 5 km. Entries with a special \"Sub 4\", \"Sub 2\" or \"Sub 1\" finisher shirt cost THB 1,400, THB 1,100 and THB 800."
+    }
+  ],
+  "tags": [
+    "full-marathon",
+    "thailand"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.regis.run/event/kpp2027",
+      "label": "Amazing Kamphaeng Phet Marathon 2027 on Regis.run",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://worldsmarathons.com/marathon/kamphaeng-phet-marathon",
+      "label": "World's Marathons event listing",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

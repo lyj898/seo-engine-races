@@ -1,0 +1,63 @@
+{
+  "category_id": "full-marathon",
+  "region_id": "thailand",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "dok-fai-ban-marathon-2027",
+  "slug": "dok-fai-ban-marathon-2027",
+  "name": "Dok Fai Ban Marathon 2027",
+  "short_description": "Dok Fai Ban Marathon 2027 is on Sunday 7 February 2027 at Loei Provincial Stadium in Loei, over 42 km, 21 km, 10 km and 5 km.",
+  "ai_summary": "Dok Fai Ban Marathon 2027 (the Thai name means \"cotton in bloom\") is held at Loei Provincial Stadium, according to its Regis.run registration page, which names the organiser as Dok Fai Ban Marathon. The race categories are a 42K full marathon, 21K half marathon, 10K mini marathon and 5K fun run, with chip timing for the longer races. Marathon and half-marathon finishers inside the time limit receive a finisher shirt.",
+  "core_facts": {
+    "date": "2027-02-07",
+    "distance_km": [
+      5,
+      10,
+      21.1,
+      42.195
+    ],
+    "primary_distance_km": 42.195,
+    "venue": "Loei Provincial Stadium",
+    "organizer": "Dok Fai Ban Marathon",
+    "price_range": "THB 450-1,200",
+    "city": "Loei",
+    "country": "Thailand"
+  },
+  "faqs": [
+    {
+      "question": "How much does Dok Fai Ban Marathon 2027 cost?",
+      "answer": "Regis.run lists super-early-bird prices of THB 700 for the 42K, THB 600 for the 21K and THB 450 for the 10K, against regular prices of THB 1,200, THB 900 and THB 600. The 5K fun run costs THB 500."
+    },
+    {
+      "question": "What is included in a Dok Fai Ban Marathon 2027 entry?",
+      "answer": "All entries include a race shirt and bib, with chip timing for the 42K, 21K and 10K. Finishers inside the time limit receive a medal, and 42K and 21K finishers also get a finisher shirt."
+    }
+  ],
+  "tags": [
+    "full-marathon",
+    "thailand"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.regis.run/event/dokfaibanmarathon2027",
+      "label": "Dok Fai Ban Marathon 2027 on Regis.run",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.regis.run/",
+      "label": "Regis.run event list",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

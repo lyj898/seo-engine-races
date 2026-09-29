@@ -1,0 +1,62 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "malaysia",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "golden-paddy-half-marathon-2027",
+  "slug": "golden-paddy-half-marathon-2027",
+  "name": "Golden Paddy Half Marathon 2027",
+  "short_description": "Golden Paddy Half Marathon 2027 is on Sunday 3 January 2027 at Dewan Seri Bernam in Sungai Besar, over 5 km, 10 km and 21.1 km.",
+  "ai_summary": "The Golden Paddy Half Marathon 2027 is organised by SB Running Club from Dewan Seri Bernam in Sungai Besar, Selangor, on 3 January 2027. The 21 km race flags off at 4:30 am with a 4-hour cut-off, followed by the 10 km race at 6:45 am and the 5 km fun run at 7:30 am. Race kits are collected at Decathlon Setia City Mall on 20 December 2026 or at Dewan Seri Bernam on 2 January 2027.",
+  "core_facts": {
+    "date": "2027-01-03",
+    "distance_km": [
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Dewan Seri Bernam",
+    "organizer": "SB Running Club",
+    "price_range": "RM 39.90-99.90",
+    "city": "Sungai Besar, Selangor",
+    "country": "Malaysia"
+  },
+  "faqs": [
+    {
+      "question": "What are the flag-off times at the Golden Paddy Half Marathon 2027?",
+      "answer": "The 21 km flags off at 4:30 am with a 4-hour cut-off on Sunday 3 January 2027. The 10 km starts at 6:45 am with a 2-hour cut-off and the 5 km fun run at 7:30 am with 1 hour 30 minutes."
+    },
+    {
+      "question": "Where is race kit collection?",
+      "answer": "There are two collection points: Decathlon Setia City Mall, Setia Alam, on 20 December 2026 from 12 pm to 6 pm, and Dewan Seri Bernam, Sungai Besar, on 2 January 2027 from 11 am to 6 pm. The organiser states that kits are not given out after these dates."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "malaysia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://sbrcwalkrun.com/event/GPHM27",
+      "label": "SB Running Club (organiser) event page",
+      "type": "official",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://lesgo.my/event/golden-paddy-half-marathon-2027/",
+      "label": "lesgo.my event listing",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "category_id": "full-marathon",
+  "region_id": "thailand",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "my-champion-black-diamond-marathon-2026",
+  "slug": "my-champion-black-diamond-marathon-2026",
+  "name": "My Champion Black Diamond Marathon 2026",
+  "short_description": "My Champion Black Diamond Marathon 2026 is on Sunday 22 November 2026 at the Khao Kho wind-turbine field in Phetchabun, over 42.195 km, 21.1 km, 10.5 km and 5 km.",
+  "ai_summary": "My Champion Black Diamond Marathon 2026 (\"Phet Dam\" 42.195 Marathon #1) starts at the Tele Tubby & King Kong cafe by the Khao Kho wind-turbine field in Phetchabun. The event poster on the PatRunning registration page shows 22 November 2026 and distances of 42.195 km, 21.1 km, 10.5 km and 5 km. Khao Kho is a mountain district, so a hilly road course is likely (inferred).",
+  "core_facts": {
+    "date": "2026-11-22",
+    "distance_km": [
+      5,
+      10.5,
+      21.1,
+      42.195
+    ],
+    "primary_distance_km": 42.195,
+    "venue": "Tele Tubby & King Kong Cafe, Khao Kho wind-turbine field",
+    "price_range": "THB 500-1,300",
+    "city": "Khao Kho, Phetchabun",
+    "country": "Thailand"
+  },
+  "faqs": [
+    {
+      "question": "How much does My Champion Black Diamond Marathon 2026 cost?",
+      "answer": "RUNLAH lists THB 1,300 for the 42.195 km, THB 900 for the 21.1 km, THB 700 for the 10.5 km and THB 500 for the 5 km. Entry is by online form with bank-transfer payment through the PatRunning registration system."
+    },
+    {
+      "question": "How do runners register for My Champion Black Diamond Marathon 2026?",
+      "answer": "Runners fill in a three-page online form, pay by bank transfer and upload the payment slip. The system then confirms by email, and entries can be checked by national ID number about two days after registering."
+    }
+  ],
+  "tags": [
+    "full-marathon",
+    "thailand"
+  ],
+  "source_mix": [
+    {
+      "url": "https://patrunning.com/my-champion-%e0%b9%80%e0%b8%9e%e0%b8%8a%e0%b8%a3%e0%b8%94%e0%b8%b3-black-diamond-marathon/24505/",
+      "label": "My Champion Black Diamond Marathon on PatRunning registration",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.runlah.com/en/beCli6DE",
+      "label": "RUNLAH event listing",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

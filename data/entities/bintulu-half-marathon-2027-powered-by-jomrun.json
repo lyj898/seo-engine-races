@@ -1,0 +1,60 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "malaysia",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "bintulu-half-marathon-2027-powered-by-jomrun",
+  "slug": "bintulu-half-marathon-2027-powered-by-jomrun",
+  "name": "Bintulu Half Marathon 2027 Powered by JomRun",
+  "short_description": "Bintulu Half Marathon 2027 Powered by JomRun is on Sunday 24 January 2027 at Dewan Suarah Bintulu in Bintulu, over 5 km, 10 km and 21.1 km.",
+  "ai_summary": "The Bintulu Half Marathon 2027 Powered by JomRun is a JomRun event based at Dewan Suarah Bintulu in Bintulu, Sarawak, on 24 January 2027. It offers a 21.1 km competitive run plus 5 km and 10 km fun runs, and JomRun lists the event time as 3:30 am.",
+  "core_facts": {
+    "date": "2027-01-24",
+    "distance_km": [
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Dewan Suarah Bintulu",
+    "city": "Bintulu, Sarawak",
+    "country": "Malaysia"
+  },
+  "faqs": [
+    {
+      "question": "When does the Bintulu Half Marathon 2027 Powered by JomRun start?",
+      "answer": "JomRun lists the event time as 3:30 am on Sunday 24 January 2027 at Dewan Suarah Bintulu. Per-distance flag-off times are not given in the page text."
+    },
+    {
+      "question": "Which distances are offered?",
+      "answer": "There is a 21.1 km competitive run and 5 km and 10 km fun runs. Race kit collection details and the route map are still marked to be confirmed."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "malaysia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.jomrun.com/event/Bintulu-Half-Marathon-2027-Powered-by-JomRun",
+      "label": "JomRun event page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://lesgo.my/event/bintulu-half-marathon/",
+      "label": "lesgo.my event listing",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

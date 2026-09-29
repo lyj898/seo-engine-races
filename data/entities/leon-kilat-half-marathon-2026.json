@@ -1,25 +1,6 @@
 {
-  "entity_id": "leon-kilat-half-marathon-2026",
-  "slug": "leon-kilat-half-marathon-2026",
-  "name": "Leon Kilat Half Marathon 2026",
   "category_id": "half-marathon",
   "region_id": "philippines",
-  "short_description": "The Leon Kilat Half Marathon 2026 is a multi-distance road race set for August 23, 2026, in Bacong, Negros Oriental, Philippines.",
-  "ai_summary": "The Leon Kilat Half Marathon 2026 is scheduled for August 23, 2026, in Bacong, Negros Oriental, Philippines, starting at Leon Kilat Mall. Organized by SMOKE10 Events, the race offers four distance options: 21.1km, 10km, 5km, and 1km, making it accessible to a range of runners from casual participants to half marathoners.",
-  "core_facts": {
-    "date": "2026-08-23",
-    "distance_km": [
-      21.1,
-      10,
-      5,
-      1
-    ],
-    "primary_distance_km": 21.1,
-    "organizer": "SMOKE10 Events",
-    "venue": "Leon Kilat Mall, Bacong",
-    "city": "Bacong, Negros Oriental",
-    "country": "Philippines"
-  },
   "pros": [
     "Multiple distance options (21.1km, 10km, 5km, 1km) suit different fitness levels",
     "Organized by an established event organizer, SMOKE10 Events",
@@ -28,38 +9,73 @@
   "cons": [],
   "excerpt_quotes": [],
   "research_highlights": [],
-  "research_watchouts": [],
-  "research_last_updated": "2026-08-03",
+  "research_watchouts": [
+    "The race was first advertised for 23 August 2026; the organiser's registration page now gives 25 October 2026, while the poster on that page still shows the old August date."
+  ],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "leon-kilat-half-marathon-2026",
+  "slug": "leon-kilat-half-marathon-2026",
+  "name": "Leon Kilat Half Marathon 2026",
+  "short_description": "Leon Kilat Half Marathon 2026 is on Sunday 25 October 2026 at Leon Kilat Mall in Bacong, Negros Oriental, over 1 km, 5 km, 10 km and 21 km.",
+  "ai_summary": "Leon Kilat Half Marathon 2026 is organised by SMOKE10 Events from Leon Kilat Mall in Bacong, Negros Oriental. It was first set for 23 August 2026 and now runs on 25 October 2026 on the same registration page. The organiser poster lists gun starts of 4:00 AM for the 21 km, 4:30 AM for the 10 km, 4:45 AM for the 5 km and 5:15 AM for a 1 km dog run.",
+  "core_facts": {
+    "date": "2026-10-25",
+    "distance_km": [
+      1,
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Leon Kilat Mall, Bacong",
+    "organizer": "SMOKE10 Events",
+    "price_range": "PHP 699-1,799",
+    "city": "Bacong, Negros Oriental",
+    "country": "Philippines"
+  },
   "faqs": [
     {
-      "question": "When is the Leon Kilat Half Marathon 2026?",
-      "answer": "The Leon Kilat Half Marathon 2026 is scheduled to take place on August 23, 2026. The race will be held in Bacong, Negros Oriental, in the Philippines, with the starting point located at Leon Kilat Mall. Further scheduling details beyond the date have not been provided."
+      "question": "Was the Leon Kilat Half Marathon 2026 moved from August?",
+      "answer": "Yes. The race was first advertised for 23 August 2026, and the SMOKE10 Events registration page and events list now give 25 October 2026. The poster on the registration page still carries the August date, so the October date on the page itself is the current one."
     },
     {
-      "question": "What distances are offered at this race?",
-      "answer": "The event offers four distance categories for participants to choose from: a 21.1km half marathon, which serves as the primary distance, along with 10km, 5km, and 1km options. This range allows runners of varying experience and fitness levels to take part in the Leon Kilat Half Marathon 2026."
-    },
-    {
-      "question": "Who organizes the Leon Kilat Half Marathon?",
-      "answer": "The Leon Kilat Half Marathon 2026 is organized by SMOKE10 Events. The race takes place in Bacong, Negros Oriental, Philippines, with Leon Kilat Mall serving as the venue. No additional details about the organizer's background or other events have been provided in the available information."
+      "question": "What are the start times and fees for the Leon Kilat Half Marathon 2026?",
+      "answer": "The 21 km starts at 4:00 AM and costs PHP 1,799, and the 10 km starts at 4:30 AM for PHP 1,299. The 5 km starts at 4:45 AM for PHP 799, and the 1 km dog run starts at 5:15 AM for PHP 699."
     }
   ],
-  "reliability_score": 55,
   "tags": [
     "half-marathon",
     "philippines"
   ],
   "source_mix": [
     {
-      "url": "https://www.pinoyfitness.com/list-of-events/",
-      "label": "pinoyfitness.com",
+      "url": "https://smoke10events.myruntime.com/register/leon-kilat-half-marathon",
+      "label": "SMOKE10 Events MyRunTime registration page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://smoke10events.myruntime.com/events",
+      "label": "SMOKE10 Events upcoming events list",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.pinoyfitness.com/event/leon-kilat-half-marathon-2026/",
+      "label": "Pinoy Fitness event page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.pinoyfitness.com/calendar-of-running-fitness-events-philippines/",
+      "label": "Pinoy Fitness running calendar",
       "type": "aggregator",
-      "last_checked": "2026-08-18"
+      "last_checked": "2026-09-29"
     }
-  ],
-  "affiliate_links": [],
-  "cta_links": [],
-  "related_entity_ids": [],
-  "last_updated": "2026-08-25",
-  "status": "archived"
+  ]
 }

@@ -1,0 +1,62 @@
+{
+  "category_id": "full-marathon",
+  "region_id": "philippines",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "puerto-galera-international-marathon-2026",
+  "slug": "puerto-galera-international-marathon-2026",
+  "name": "Puerto Galera International Marathon 2026",
+  "short_description": "Puerto Galera International Marathon 2026 is on Sunday 6 December 2026 at Muelle Cultural Heritage Park in Puerto Galera, Oriental Mindoro, over 10 km, 21.1 km and 42.195 km.",
+  "ai_summary": "The inaugural Puerto Galera International Marathon 2026 is presented by Maharlika Trail Series with the local government to mark the municipality's 99th founding anniversary. The route follows the Calapan national road, has about 625 m of elevation gain, and offers 42 km, 21 km and 10 km categories. The 42 km starts at 2:00 AM, the 21 km at 4:00 AM and the 10 km at 6:00 AM.",
+  "core_facts": {
+    "date": "2026-12-06",
+    "distance_km": [
+      10,
+      21.1,
+      42.195
+    ],
+    "primary_distance_km": 42.195,
+    "venue": "Muelle Cultural Heritage Park",
+    "organizer": "Maharlika Trail Series with the Puerto Galera LGU",
+    "price_range": "PHP 1,800-2,900",
+    "city": "Puerto Galera, Oriental Mindoro",
+    "country": "Philippines"
+  },
+  "faqs": [
+    {
+      "question": "What are the cut-off times at the Puerto Galera International Marathon 2026?",
+      "answer": "The 42 km has a 7-hour cut-off, the 21 km 4 hours and the 10 km 2 hours. The 21 km and 10 km close at 8:00 AM, and the 42 km closes at 9:00 AM, followed by the awarding ceremony."
+    },
+    {
+      "question": "What are the entry requirements for the Puerto Galera International Marathon 2026?",
+      "answer": "Runners must be 12 or older, and those aged 12-17 need a written consent letter from a parent or guardian. 42 km entrants need an official race of at least 21 km, and all runners must carry a 500 ml hydration system and a basic first aid kit."
+    }
+  ],
+  "tags": [
+    "full-marathon",
+    "philippines"
+  ],
+  "source_mix": [
+    {
+      "url": "https://maharlikatrailseries.com/puerto-galera-international-marathon-2026/",
+      "label": "Maharlika Trail Series official event page",
+      "type": "official",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.pinoyfitness.com/event/puerto-galera-international-marathon-2026/",
+      "label": "Pinoy Fitness event listing",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

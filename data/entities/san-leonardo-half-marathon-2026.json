@@ -1,0 +1,61 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "philippines",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "san-leonardo-half-marathon-2026",
+  "slug": "san-leonardo-half-marathon-2026",
+  "name": "San Leonardo Half Marathon 2026",
+  "short_description": "San Leonardo Half Marathon 2026 is on Sunday 25 October 2026 in San Leonardo, Nueva Ecija, over 5 km, 10 km and 21 km.",
+  "ai_summary": "San Leonardo Half Marathon 2026 is held in San Leonardo, Nueva Ecija, with registration through Outdoor Statement and the San Leonardo Runners Facebook page as the organiser contact. The 21 km starts at 4:30 AM with a four-hour cut-off, followed by the 10 km at 5:00 AM and the 5 km at 5:30 AM.",
+  "core_facts": {
+    "date": "2026-10-25",
+    "distance_km": [
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "organizer": "San Leonardo Runners",
+    "price_range": "PHP 850-1,650",
+    "city": "San Leonardo, Nueva Ecija",
+    "country": "Philippines"
+  },
+  "faqs": [
+    {
+      "question": "What are the start times and cut-offs at San Leonardo Half Marathon 2026?",
+      "answer": "The 21 km assembles at 3:30 AM, starts at 4:30 AM and has a 4-hour cut-off. The 10 km starts at 5:00 AM with a 2.5-hour cut-off, and the 5 km starts at 5:30 AM with a 1.5-hour cut-off."
+    },
+    {
+      "question": "How much does the 21 km cost at San Leonardo Half Marathon 2026?",
+      "answer": "The 21 km is PHP 1,500 early bird and PHP 1,650 regular. The kit includes a race bib with RFID, singlet, finisher shirt, visor and medal."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "philippines"
+  ],
+  "source_mix": [
+    {
+      "url": "https://events.outdoorstatement.com/2026/sanleonardohalfmarathon/",
+      "label": "Outdoor Statement registration page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.takbo.ph/list-of-events/",
+      "label": "Takbo.ph list of running events",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "vietnam",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [
+    "The organiser marks the route and start times as estimated, subject to approval by the authorities."
+  ],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "salonpas-run-2026",
+  "slug": "salonpas-run-2026",
+  "name": "Salonpas Run 2026",
+  "short_description": "Salonpas Run is on Sunday 8 November 2026 at Creative Park in Ho Chi Minh City, over 5 km, 10 km and 21.1 km, with a family run the evening before.",
+  "ai_summary": "Salonpas Run 2026 is organised by Hisamitsu Vietnam Pharmaceutical, with the expo and kit collection on 7 November and the main races on 8 November 2026 at Creative Park, An Khanh ward, Ho Chi Minh City. The official race information gives the half marathon as 21.0975 km with an estimated 04:30 start, the 10 km at 05:00 and the 5 km at 05:15; a family run starts at 16:00 on 7 November. The estimated 21 km route leaves Creative Park along Mai Chi Tho and crosses Thoi Dai Bridge and Ba Son Bridge before returning.",
+  "core_facts": {
+    "date": "2026-11-08",
+    "distance_km": [
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Creative Park (Cong vien Sang Tao), An Khanh ward",
+    "organizer": "Hisamitsu Vietnam Pharmaceutical Co., Ltd.",
+    "price_range": "VND 550,000-850,000 (regular phase, 5-21 km)",
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam"
+  },
+  "faqs": [
+    {
+      "question": "What are the start times and cut-offs at Salonpas Run 2026?",
+      "answer": "The race rules give estimated starts of 04:30 for the half marathon, 05:00 for the 10 km and 05:15 for the 5 km on 8 November 2026. Cut-offs are 3 hours 30 minutes, 2 hours 30 minutes and 1 hour 30 minutes. Runners more than 10 minutes late for their start will not be allowed to race."
+    },
+    {
+      "question": "Who can enter Salonpas Run 2026?",
+      "answer": "The rules admit Vietnamese citizens, foreigners living and working legally in Vietnam, and tourists in good health. The half marathon is for runners aged 16 and over, the 10 km for 12 and over and the 5 km for 6 and over. Entry fees are not refundable."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "vietnam"
+  ],
+  "source_mix": [
+    {
+      "url": "https://salonpasrun.vn/en/race-information/",
+      "label": "Salonpas Run official race information",
+      "type": "official",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://pace8.vn/su-kien/salonpas-run-2026",
+      "label": "Pace8 event page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://linh.academy/kien-thuc/giai-chay/giai-chay-bo",
+      "label": "Linh Academy running calendar",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

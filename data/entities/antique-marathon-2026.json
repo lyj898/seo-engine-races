@@ -1,0 +1,67 @@
+{
+  "category_id": "full-marathon",
+  "region_id": "philippines",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "antique-marathon-2026",
+  "slug": "antique-marathon-2026",
+  "name": "Antique Marathon Hamtic Edition 2026",
+  "short_description": "Antique Marathon Hamtic Edition 2026 is on Sunday 4 October 2026 at Hamtic Municipal Plaza in Hamtic, Antique, over 5 km, 15 km, 21 km and 42 km.",
+  "ai_summary": "Antique Marathon Hamtic Edition 2026 is based at Hamtic Municipal Plaza in Hamtic, Antique. The BaseKM registration page lists 42 km, 21 km, 15 km and 5 km categories. Start times, fees and the organiser are not stated on that page.",
+  "core_facts": {
+    "date": "2026-10-04",
+    "distance_km": [
+      5,
+      15,
+      21.1,
+      42.195
+    ],
+    "primary_distance_km": 42.195,
+    "venue": "Hamtic Municipal Plaza",
+    "city": "Hamtic, Antique",
+    "country": "Philippines"
+  },
+  "faqs": [
+    {
+      "question": "What distances does the Antique Marathon Hamtic Edition 2026 offer?",
+      "answer": "The categories are 42 km, 21 km, 15 km and 5 km. There is no 10 km category on the BaseKM registration page."
+    },
+    {
+      "question": "Where is the Antique Marathon Hamtic Edition 2026 held?",
+      "answer": "The race is based at Hamtic Municipal Plaza in Hamtic, Antique. Registration is through the BaseKM platform."
+    }
+  ],
+  "tags": [
+    "full-marathon",
+    "philippines"
+  ],
+  "source_mix": [
+    {
+      "url": "https://basekm.com/races/2026/antique-marathon-hamtic-ed",
+      "label": "BaseKM registration page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://basekm.com/calendar",
+      "label": "BaseKM race calendar",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.takbo.ph/list-of-events/",
+      "label": "Takbo.ph list of running events",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

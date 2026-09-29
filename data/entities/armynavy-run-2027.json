@@ -1,0 +1,67 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "philippines",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "armynavy-run-2027",
+  "slug": "armynavy-run-2027",
+  "name": "ArmyNavy Run 2027",
+  "short_description": "ArmyNavy Run 2027 is on Sunday 7 February 2027 at Ayala Triangle Gardens in Makati City, over 5 km, 10 km and 21 km.",
+  "ai_summary": "ArmyNavy Run 2027 is the second edition of the race, run by RUNRIO Inc. from Ayala Triangle Gardens on Ayala Avenue, Makati City. The Race Roster event page lists a 3:00 AM start. Distances are 21 km, 10 km and 5 km.",
+  "core_facts": {
+    "date": "2027-02-07",
+    "distance_km": [
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Ayala Triangle Gardens, Ayala Avenue",
+    "organizer": "RUNRIO Inc.",
+    "city": "Makati City, Metro Manila",
+    "country": "Philippines"
+  },
+  "faqs": [
+    {
+      "question": "What are the age limits for ArmyNavy Run 2027?",
+      "answer": "The 21 km is open to runners aged 16 and above, the 10 km to those aged 13 and above, and the 5 km to those aged 5 and above. Participants under 18 need a parent or guardian to sign the entry form."
+    },
+    {
+      "question": "What happens if a runner starts late at ArmyNavy Run 2027?",
+      "answer": "The RUNRIO race mechanics say runners who do not start within 15 minutes of their flag-off time are disqualified and get no official result. Top finishers are ranked on gun time, while other results use chip time."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "philippines"
+  ],
+  "source_mix": [
+    {
+      "url": "https://raceroster.com/events/2027/141363/armynavy-run-2027",
+      "label": "Race Roster event page (RUNRIO)",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.pinoyfitness.com/event/armynavy-run-2027/",
+      "label": "Pinoy Fitness event page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.pinoyfitness.com/calendar-of-running-fitness-events-philippines/",
+      "label": "Pinoy Fitness running calendar",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

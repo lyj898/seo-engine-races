@@ -1,0 +1,63 @@
+{
+  "category_id": "full-marathon",
+  "region_id": "thailand",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "ayutthaya-marathon-2026",
+  "slug": "ayutthaya-marathon-2026",
+  "name": "Ayutthaya Marathon 2026",
+  "short_description": "Ayutthaya Marathon 2026 is on Sunday 22 November 2026 at the old City Hall beside the City Pillar Shrine in Phra Nakhon Si Ayutthaya, over 42.195 km, 21.1 km, 10.5 km and 5 km.",
+  "ai_summary": "Ayutthaya Marathon 2026 (\"Run The Heritage\") is organised by the Phra Nakhon Si Ayutthaya Tourism Business Association. The start is at the old City Hall next to the City Pillar Shrine in Ayutthaya, and the page lists a field of 4,000. Distances are 42.195 km, 21.1 km, 10.5 km and 5 km, and the previous edition was held on 23 November 2025.",
+  "core_facts": {
+    "date": "2026-11-22",
+    "distance_km": [
+      5,
+      10.5,
+      21.1,
+      42.195
+    ],
+    "primary_distance_km": 42.195,
+    "venue": "Old City Hall, beside the City Pillar Shrine",
+    "organizer": "Phra Nakhon Si Ayutthaya Tourism Business Association",
+    "price_range": "THB 520-1,220",
+    "city": "Phra Nakhon Si Ayutthaya",
+    "country": "Thailand"
+  },
+  "faqs": [
+    {
+      "question": "How much does Ayutthaya Marathon 2026 cost?",
+      "answer": "Regular entry is THB 1,220 for the marathon, THB 920 for the half marathon, THB 720 for the 10.5 km and THB 520 for the 5 km. A charity entry costs THB 3,000 and can be used for any distance, and online payment fees are extra."
+    },
+    {
+      "question": "What do Ayutthaya Marathon 2026 finishers receive?",
+      "answer": "All finishers receive a medal, and every entrant gets a race shirt. Marathon and half-marathon finishers also receive a finisher shirt, and overall and age-group trophies are awarded in the 42 km, 21 km and 10 km races."
+    }
+  ],
+  "tags": [
+    "full-marathon",
+    "thailand"
+  ],
+  "source_mix": [
+    {
+      "url": "https://thaimaster.run/V3/event-detail.php?e=750",
+      "label": "Ayutthaya Marathon 2026 on ThaiMaster registration",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.runlah.com/en/calendar/type/full",
+      "label": "RUNLAH full-marathon calendar (Thailand)",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "thailand",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "singkhuyang-4-2026",
+  "slug": "singkhuyang-4-2026",
+  "name": "Singkhuyang 4 2026",
+  "short_description": "Singkhuyang 4 2026 is on Sunday 22 November 2026 at Wat Sing Khu Yang in Khok Samrong, Lop Buri, over 2 km, 5 km, 10 km and 21.1 km.",
+  "ai_summary": "Singkhuyang 4 2026 is, going by its name, the fourth edition of the run. It starts and finishing at Wat Sing Khu Yang on Suranarai Road (Highway 205) in Khok Samrong town, Lop Buri, with entries on RUNLAH. The draft schedule has the 21 km starting at 05:00 with a four-hour cut-off, then the 10 km at 05:30, the 5 km at 06:00 and a non-competitive 2 km at 06:15. The 21 km, 10 km and 5 km are judged by chip time.",
+  "core_facts": {
+    "date": "2026-11-22",
+    "distance_km": [
+      2,
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Wat Sing Khu Yang",
+    "price_range": "THB 400-1,000",
+    "city": "Khok Samrong, Lop Buri",
+    "country": "Thailand"
+  },
+  "faqs": [
+    {
+      "question": "What is the 21 km cut-off at Singkhuyang 4?",
+      "answer": "The draft race-day schedule gives the 21 km a four-hour cut-off, with the start at 05:00 and the race closing at 09:00. The organiser notes that final times are still to be confirmed."
+    },
+    {
+      "question": "How much does Singkhuyang 4 cost?",
+      "answer": "The registration page lists the 21 km at THB 800, the 10 km at THB 600, the 5 km at THB 500 and the 2 km at THB 400. VIP entries at any distance cost THB 1,000 and include a VIP polo shirt."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "thailand"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.runlah.com/en/sky26",
+      "label": "RUNLAH registration page (Singkhuyang 4)",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.runlah.com/en/calendar/type/half",
+      "label": "RUNLAH half-marathon calendar",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "category_id": "full-marathon",
+  "region_id": "malaysia",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "royal-klang-marathon-2026",
+  "slug": "royal-klang-marathon-2026",
+  "name": "Royal Klang Marathon 2026",
+  "short_description": "Royal Klang Marathon 2026 is on Sunday 22 November 2026 at Dataran GM Klang in Klang, over 5 km, 10.55 km, 21.1 km and 42.195 km.",
+  "ai_summary": "The Royal Klang Marathon 2026 is organised by Monzo Events in conjunction with the Klang Car-Free Day of Majlis Bandaraya Diraja Klang, starting at Dataran GM Klang on 22 November 2026. The full marathon flags off at 1:30 am, the 21.0975 km half marathon at 4:00 am, the 10.55 km challenge at 6:30 am and the 5 km fun run at 7:15 am.",
+  "core_facts": {
+    "date": "2026-11-22",
+    "distance_km": [
+      5,
+      10.55,
+      21.1,
+      42.195
+    ],
+    "primary_distance_km": 42.195,
+    "venue": "Dataran GM Klang",
+    "organizer": "Monzo Events",
+    "price_range": "RM 48-270",
+    "city": "Klang, Selangor",
+    "country": "Malaysia"
+  },
+  "faqs": [
+    {
+      "question": "What are the flag-off times at the Royal Klang Marathon 2026?",
+      "answer": "The 42.195 km full marathon flags off at 1:30 am and the 21.0975 km half marathon at 4:00 am on Sunday 22 November 2026. The 10.55 km challenge starts at 6:30 am and the 5 km fun run at 7:15 am."
+    },
+    {
+      "question": "How much are entries and what are the age limits?",
+      "answer": "Malaysian entry fees run from RM118 for the half marathon to RM138 for the full marathon, with non-Malaysian fees of RM230 and RM270. The full marathon is for runners aged 18 and above, and the half marathon and 10.55 km for runners aged 16 and above."
+    }
+  ],
+  "tags": [
+    "full-marathon",
+    "malaysia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.ticket2u.com.my/event/49510/royal-klang-marathon-2026",
+      "label": "Ticket2u event page (Monzo Events)",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://lesgo.my/event/royal-klang-marathon/",
+      "label": "lesgo.my event listing",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

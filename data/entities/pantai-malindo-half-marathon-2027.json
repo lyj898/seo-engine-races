@@ -1,0 +1,61 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "malaysia",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "pantai-malindo-half-marathon-2027",
+  "slug": "pantai-malindo-half-marathon-2027",
+  "name": "Pantai Malindo Half Marathon 2027",
+  "short_description": "Pantai Malindo Half Marathon 2027 is on Sunday 31 January 2027 at SRJK(C) Yu Chye in Penang, over 10 km and 21.1 km.",
+  "ai_summary": "The Pantai Malindo Half Marathon 2027 is the first edition of this race, organised by Howei (M) Sdn Bhd from SRJK(C) Yu Chye, Penang, on 31 January 2027 at 5:00 am. It offers 21 km and 10 km distances. The organiser describes a flat, low-traffic course on fresh tarmac along the former mangrove coastline of Pantai Malindo, with a central bridge and the Balik Pulau Forest Reserve as a backdrop.",
+  "core_facts": {
+    "date": "2027-01-31",
+    "distance_km": [
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "SRJK(C) Yu Chye",
+    "organizer": "Howei (M) Sdn Bhd",
+    "price_range": "RM 65-105",
+    "city": "Penang",
+    "country": "Malaysia"
+  },
+  "faqs": [
+    {
+      "question": "When does the Pantai Malindo Half Marathon 2027 start?",
+      "answer": "The event starts at 5:00 am on Sunday 31 January 2027 at SRJK(C) Yu Chye, Penang. It offers 21 km and 10 km categories."
+    },
+    {
+      "question": "Where is race kit collection?",
+      "answer": "Race kits are collected on 30 January 2027 from 10:00 am to 5:00 pm. The collection point is Decathlon, Gurney Paragon."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "malaysia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://howei.com/event_details/pantaimalindohalfmarathon2027",
+      "label": "Howei event page (organiser)",
+      "type": "official",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://lesgo.my/event/pantai-malindo-half-marathon-2027/",
+      "label": "lesgo.my event listing",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

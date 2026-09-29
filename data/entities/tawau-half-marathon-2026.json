@@ -1,0 +1,61 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "malaysia",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "tawau-half-marathon-2026",
+  "slug": "tawau-half-marathon-2026",
+  "name": "Tawau Half Marathon 2026",
+  "short_description": "Tawau Half Marathon 2026 is on Sunday 13 December 2026 at Institute of Science & Management (ISM) in Tawau, over 5 km and 21.1 km.",
+  "ai_summary": "The Tawau Half Marathon 2026 is organised by Kelab Pelari Tawau (Tawau Runners) and starts and finishes at the Institute of Science & Management (ISM), Tawau, on 13 December 2026. It is the final round of the Sabah East Coast Half Marathon Series 2026, after Kunak and Lahad Datu. The 21 km, billed by the organiser as a hilly route with views of Bukit 3, flags off at 5:15 am with a 4 hour 30 minute cut-off, and the 5 km fun run at 6:00 am.",
+  "core_facts": {
+    "date": "2026-12-13",
+    "distance_km": [
+      5,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Institute of Science & Management (ISM)",
+    "organizer": "Kelab Pelari Tawau (Tawau Runners)",
+    "price_range": "RM 70-150",
+    "city": "Tawau, Sabah",
+    "country": "Malaysia"
+  },
+  "faqs": [
+    {
+      "question": "What are the start and cut-off times at the Tawau Half Marathon 2026?",
+      "answer": "The 21 km flags off at 5:15 am with a cut-off of 4 hours 30 minutes. The 5 km fun run starts at 6:00 am with a 1 hour 30 minute cut-off."
+    },
+    {
+      "question": "Who can run the 21 km and what does it cost?",
+      "answer": "The 21 km open category is for runners aged 16 and above, with a veteran category from 41. The 21 km costs RM130 at the early bird rate and RM150 at the normal rate, and includes a timing chip and a finisher tee for those who finish within the cut-off."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "malaysia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.ticket2u.com.my/event/51401/tawau-half-marathon-2026",
+      "label": "Ticket2u event page (Tawau Runners)",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://lesgo.my/event/tawau-half-marathon-2026/",
+      "label": "lesgo.my event listing",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

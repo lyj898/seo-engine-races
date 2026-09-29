@@ -1,0 +1,68 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "philippines",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "bulacan-half-marathon-2027",
+  "slug": "bulacan-half-marathon-2027",
+  "name": "Bulacan Half Marathon 2027",
+  "short_description": "Bulacan Half Marathon 2027 is on Sunday 21 February 2027 at SM Center Pulilan in Pulilan, Bulacan, over 5 km, 10 km and 21 km.",
+  "ai_summary": "Bulacan Half Marathon 2027 is organised by Team Malofit with Pairfect Fit and is based at SM Center Pulilan, Bulacan, the same venue as the organiser's Bulacan Marathon in August 2026. Distances are 21 km, 10 km and 5 km. Registration is through MyRunTime, with an onsite desk at Pairfect Fit in Plaridel.",
+  "core_facts": {
+    "date": "2027-02-21",
+    "distance_km": [
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "SM Center Pulilan",
+    "organizer": "Team Malofit x Pairfect Fit",
+    "price_range": "PHP 899-1,849",
+    "city": "Pulilan, Bulacan",
+    "country": "Philippines"
+  },
+  "faqs": [
+    {
+      "question": "How much does the Bulacan Half Marathon 2027 cost?",
+      "answer": "The organiser poster lists PHP 1,849 for the 21 km, PHP 1,449 for the 10 km and PHP 899 for the 5 km. All three include a race bib with timing chip, a singlet, a finisher medal and a string bag."
+    },
+    {
+      "question": "What extra items do 21 km runners get at the Bulacan Half Marathon?",
+      "answer": "The 21 km kit adds a finisher shirt and a 5.5-inch medal. The first 2,000 registered 21 km runners also receive BHM x Vamos performance socks."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "philippines"
+  ],
+  "source_mix": [
+    {
+      "url": "https://teammalofit.myruntime.com/register/bulacan-half-marathon-2027",
+      "label": "Team Malofit MyRunTime registration page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.pinoyfitness.com/event/bulacan-half-marathon-2027/",
+      "label": "Pinoy Fitness event page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.pinoyfitness.com/calendar-of-running-fitness-events-philippines/",
+      "label": "Pinoy Fitness running calendar",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

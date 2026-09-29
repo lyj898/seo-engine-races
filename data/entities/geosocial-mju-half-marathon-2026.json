@@ -1,0 +1,61 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "thailand",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "geosocial-mju-half-marathon-2026",
+  "slug": "geosocial-mju-half-marathon-2026",
+  "name": "Geosocial MJU Half Marathon 2026",
+  "short_description": "Geosocial MJU Half Marathon 2026 is on Saturday 21 November 2026 at Mae Ngat Somboon Chon Dam in Mae Taeng, Chiang Mai, over 5 km, 11 km and 21.1 km.",
+  "ai_summary": "Geosocial MJU Half Marathon 2026 is organised by the Maejo Sustainable Geosocial Development Club and the Sustainable Geosocial Development programme of Maejo University. It is held at Mae Ngat Somboon Chon Dam in Mae Taeng district, Chiang Mai, over 5 km, 11 km and 21 km. The race is contested for a royal trophy from Princess Maha Chakri Sirindhorn. It runs on a Saturday.",
+  "core_facts": {
+    "date": "2026-11-21",
+    "distance_km": [
+      5,
+      11,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Mae Ngat Somboon Chon Dam",
+    "organizer": "Maejo Sustainable Geosocial Development Club, Maejo University",
+    "city": "Mae Taeng, Chiang Mai",
+    "country": "Thailand"
+  },
+  "faqs": [
+    {
+      "question": "What distances does the Geosocial MJU Half Marathon 2026 offer?",
+      "answer": "The event poster on the registration page lists 5K, 11K and 21K races, with a VIP option at every distance. The race is on Saturday 21 November 2026."
+    },
+    {
+      "question": "Where is the Geosocial MJU Half Marathon held?",
+      "answer": "It is held at Mae Ngat Somboon Chon Dam in Mae Taeng district, Chiang Mai. The organiser describes a course among mountain views and the dam reservoir."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "thailand"
+  ],
+  "source_mix": [
+    {
+      "url": "https://race.thai.run/geosocialmjurun2026",
+      "label": "race.thai.run registration page (Geosocial MJU Half Marathon 2026)",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.runlah.com/en/x7PcEudV",
+      "label": "RUNLAH event listing",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

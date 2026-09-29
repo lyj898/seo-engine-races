@@ -1,0 +1,60 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "malaysia",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "university-city-half-marathon-2026-powered-by-jomrun",
+  "slug": "university-city-half-marathon-2026-powered-by-jomrun",
+  "name": "University City Half Marathon 2026 Powered by JomRun",
+  "short_description": "University City Half Marathon 2026 Powered by JomRun is on Sunday 11 October 2026 at Aeon Mall Taman University, Johor Bahru in Johor Bahru, over 5 km, 10 km and 21.1 km.",
+  "ai_summary": "The University City Half Marathon 2026 Powered by JomRun is a JomRun event based at Aeon Mall Taman University in Johor Bahru on 11 October 2026. It offers a 21.1 km competitive run with a TrackAsia RFID timing chip, plus 5 km and 10 km fun runs. JomRun lists the event time as 3:45 am; the race kit collection details and route map are still marked to be confirmed.",
+  "core_facts": {
+    "date": "2026-10-11",
+    "distance_km": [
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Aeon Mall Taman University, Johor Bahru",
+    "city": "Johor Bahru, Johor",
+    "country": "Malaysia"
+  },
+  "faqs": [
+    {
+      "question": "What time does the University City Half Marathon 2026 start?",
+      "answer": "JomRun lists the event time as 3:45 am on Sunday 11 October 2026 at Aeon Mall Taman University. Separate flag-off times for each distance are not given in the page text."
+    },
+    {
+      "question": "What do 21.1 km runners receive?",
+      "answer": "The 21.1 km competitive run entitlement includes an Ultron event jersey, a race bib with a TrackAsia RFID timing chip, an e-certificate and light refreshments. Finishers also receive a 21.1 km finisher medal and an Ultron finisher jersey."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "malaysia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.jomrun.com/event/University-City-Half-Marathon-2026-Powered-By-JomRun",
+      "label": "JomRun event page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://lesgo.my/event/university-city-half-marathon/",
+      "label": "lesgo.my event listing",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

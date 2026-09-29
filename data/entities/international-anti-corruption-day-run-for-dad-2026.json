@@ -1,0 +1,63 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "thailand",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "international-anti-corruption-day-run-for-dad-2026",
+  "slug": "international-anti-corruption-day-run-for-dad-2026",
+  "name": "International Anti-Corruption Day Run 2026: Run For Dad",
+  "short_description": "International Anti-Corruption Day Run 2026: Run For Dad is on Saturday 5 December 2026 at Suan Luang Rama IX Park in Bangkok, over 21.1 km, 10 km, 5 km and a 3 km VIP walk.",
+  "ai_summary": "International Anti-Corruption Day Run 2026: Run For Dad is a charity walk-run on Saturday 5 December 2026, held for International Anti-Corruption Day and Thailand's National Father's Day. It is organised by JOG&JOY, and part of the proceeds go to the Anti-Corruption Foundation's campaigns and to the Suan Luang Rama IX Foundation. The races are a 21.1 km half marathon, a 10 km mini marathon, a 5 km fun run and a 3 km VIP walk. The RUNLAH listing places it at Suan Luang Rama IX Park.",
+  "core_facts": {
+    "date": "2026-12-05",
+    "distance_km": [
+      3,
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Suan Luang Rama IX Park",
+    "organizer": "JOG&JOY",
+    "price_range": "THB 500-1,500",
+    "city": "Bangkok",
+    "country": "Thailand"
+  },
+  "faqs": [
+    {
+      "question": "How much does the Anti-Corruption Day Run cost?",
+      "answer": "The race.thai.run entry page lists the 21.1 km half marathon at THB 850, the 10 km at THB 600, the 5 km at THB 500 and the 3 km VIP walk at THB 1,500. Postal delivery of the race pack costs an extra THB 70 per runner. The 21.1 km and 10 km runners get a timing chip."
+    },
+    {
+      "question": "Where do runners collect the race pack?",
+      "answer": "Runners who did not choose postal delivery collect their pack on Thursday 4 December 2026 from 11.00 to 18.00. The collection point is the JOG&JOY counter on the third floor of Seacon Square, Srinakarin Road. Runners must show an original ID card with their order number."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "thailand"
+  ],
+  "source_mix": [
+    {
+      "url": "https://race.thai.run/internationalanti-corruptionday2026runfordad",
+      "label": "race.thai.run registration page (International Anti-Corruption Day 2026 Run For Dad)",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.runlah.com/en/LWhK4kpq",
+      "label": "RUNLAH event listing",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

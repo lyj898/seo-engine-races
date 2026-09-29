@@ -1,0 +1,62 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "thailand",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "tak-21k-thailand-2027",
+  "slug": "tak-21k-thailand-2027",
+  "name": "TAK 21K Thailand 2027",
+  "short_description": "TAK 21K Thailand 2027 is on Sunday 21 February 2027 at Taksin Stadium in Chiang Ngoen, Mueang Tak, over 21 km, 10 km and 5 km.",
+  "ai_summary": "TAK 21K Thailand 2027 is a running event on Sunday 21 February 2027 at Taksin Stadium, Tak Town Municipality, in Chiang Ngoen, Mueang Tak. The EventRunning.com entry page lists RunRunTeam as organiser and offers 21 km, 10 km and 5 km races, with Sub-2 (21 km) and Sub-1 (10 km) entry options. The race runs under Athletics Association of Thailand rules.",
+  "core_facts": {
+    "date": "2027-02-21",
+    "distance_km": [
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Taksin Stadium, Tak Town Municipality",
+    "organizer": "RunRunTeam",
+    "price_range": "THB 400-850",
+    "city": "Mueang Tak, Tak",
+    "country": "Thailand"
+  },
+  "faqs": [
+    {
+      "question": "How much is entry to TAK 21K Thailand 2027?",
+      "answer": "The super early-bird price is THB 700 for the 21 km, THB 500 for the 10 km and THB 400 for the 5 km. The 21 km Sub 2 entry costs THB 850 and the 10 km Sub 1 entry costs THB 650. These prices run to 31 October 2026."
+    },
+    {
+      "question": "What rules apply at TAK 21K?",
+      "answer": "The race follows Athletics Association of Thailand rules, and prizes are decided on gun time. Runners must collect their race kit in person and wear their bib on the front. Runners who miss a checkpoint are recorded as DNF."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "thailand"
+  ],
+  "source_mix": [
+    {
+      "url": "https://eventrunning.com/event/tak21kthailand2027",
+      "label": "EventRunning.com registration page (TAK 21K THAILAND 2027)",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://thesublist.run/event/tak-21k-thailand-2027/",
+      "label": "TheSubList event listing",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}

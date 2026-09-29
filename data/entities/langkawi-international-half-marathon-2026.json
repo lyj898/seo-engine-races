@@ -1,0 +1,65 @@
+{
+  "category_id": "half-marathon",
+  "region_id": "malaysia",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "langkawi-international-half-marathon-2026",
+  "slug": "langkawi-international-half-marathon-2026",
+  "name": "Langkawi International Half Marathon 2026",
+  "short_description": "Langkawi International Half Marathon 2026 is on Saturday 12 December 2026 at Mahsuri International Exhibition Centre (MIEC) in Langkawi, over 21.1 km.",
+  "ai_summary": "The Langkawi International Half Marathon 2026 is the fifth edition, organised by the Langkawirunners club from the Mahsuri International Exhibition Centre (MIEC), Langkawi, on Saturday 12 December 2026. It is a 21 km-only race, and the organiser describes the course as running along sunrise paddy-field roads. The event runs from 5:00 am to 11:30 am, with race kit collection at Lagenda Beach on 10 and 11 December.",
+  "core_facts": {
+    "date": "2026-12-12",
+    "distance_km": [
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Mahsuri International Exhibition Centre (MIEC)",
+    "organizer": "Langkawirunners",
+    "city": "Langkawi, Kedah",
+    "country": "Malaysia"
+  },
+  "faqs": [
+    {
+      "question": "What day and time is the Langkawi International Half Marathon 2026?",
+      "answer": "It is on Saturday 12 December 2026, not a Sunday, at the Mahsuri International Exhibition Centre (MIEC). The event window is 5:00 am to 11:30 am."
+    },
+    {
+      "question": "Where do runners collect race kits?",
+      "answer": "Race kit collection is at Lagenda Beach on 10 and 11 December 2026. Collection hours are 9:00 am to 6:30 pm on both days."
+    }
+  ],
+  "tags": [
+    "half-marathon",
+    "malaysia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://register.langkawirunners.com/event/langkawi-international-half-marathon-2026",
+      "label": "Langkawi International Half Marathon official registration site",
+      "type": "official",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.heyjom.com/event/langkawi-international-half-marathon-2026",
+      "label": "HeyJom event page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://lesgo.my/event/langkawi-international-half-marathon-2026/",
+      "label": "lesgo.my event listing",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}
