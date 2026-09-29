@@ -1,0 +1,67 @@
+{
+  "category_id": "full-marathon",
+  "region_id": "vietnam",
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "affiliate_links": [],
+  "cta_links": [],
+  "related_entity_ids": [],
+  "last_updated": "2026-09-29",
+  "status": "needs_review",
+  "reliability_score": 30,
+  "entity_id": "trang-an-marathon-2026",
+  "slug": "trang-an-marathon-2026",
+  "name": "Trang An Marathon 2026",
+  "short_description": "Trang An Marathon 2026 is on Sunday 15 November 2026 at the Hoa Lu ancient capital in Ninh Binh, over 5 km, 10 km, 21 km and 42 km.",
+  "ai_summary": "Trang An Marathon 2026 is the sixth edition of the race in the Trang An landscape complex, organised by Vu Media JSC (VRace) with the Ninh Binh Department of Culture and Sports. Race day is Sunday 15 November 2026, based at the Hoa Lu ancient capital in Tay Hoa Lu ward. All four distances pass historic sites such as the Hoa Lu ancient capital, the King Le Dai Hanh temple and Bai Dinh pagoda.",
+  "core_facts": {
+    "date": "2026-11-15",
+    "distance_km": [
+      5,
+      10,
+      21.1,
+      42.195
+    ],
+    "primary_distance_km": 42.195,
+    "venue": "Hoa Lu ancient capital, Tay Hoa Lu ward",
+    "city": "Ninh Binh",
+    "country": "Vietnam"
+  },
+  "faqs": [
+    {
+      "question": "What are the start times and cut-offs at Trang An Marathon 2026?",
+      "answer": "The expected schedule starts the 42 km at 4.30am with a 6 hour 30 minute limit and the 21 km at 5.45am with 3 hours 30 minutes. The 10 km follows at 6.15am with 2 hours 30 minutes and the 5 km at 6.35am with 90 minutes. Standard entry runs from 659,000 VND."
+    },
+    {
+      "question": "Can I collect my bib on race day at Trang An Marathon 2026?",
+      "answer": "No. Bibs are handed out at the expo on Saturday 14 November, open 8.00am to 9.00pm at the Hoa Lu ancient capital. The organisers state that no bibs will be issued on 15 November, and runners who miss the collection schedule are not eligible to take part."
+    }
+  ],
+  "tags": [
+    "full-marathon",
+    "vietnam"
+  ],
+  "source_mix": [
+    {
+      "url": "https://ticket.irace.vn/trang-an-marathon-2026",
+      "label": "Official event page on the iRace ticketing portal",
+      "type": "official",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://irace.vn/su-kien/trang-an-marathon/",
+      "label": "iRace event page for Trang An Marathon 2026",
+      "type": "aggregator",
+      "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://linh.academy/kien-thuc/giai-chay/giai-chay-bo",
+      "label": "Linh Academy race calendar (coach's calendar, cross-check only)",
+      "type": "other",
+      "last_checked": "2026-09-29"
+    }
+  ]
+}
