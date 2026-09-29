@@ -149,8 +149,11 @@
       "https://www.justrunlah.com/running-events-calendar-philippines/",
       "https://www.justrunlah.com/running-events-calendar-thailand/",
       "https://www.justrunlah.com/running-events-calendar-indonesia/",
-      "https://www.justrunlah.com/running-events-calendar-vietnam/"
+      "https://www.justrunlah.com/running-events-calendar-vietnam/",
+      "https://ticket.irace.vn/",
+      "https://linh.academy/kien-thuc/giai-chay/giai-chay-bo"
     ],
+    "_trustedAggregators_vietnam_note": "Added 2026-09-29, probed with the declared userAgent and this script's own fetchText/htmlToText/isAllowed. The directory had only 12 Vietnamese races against ~50 road and trail races listed for Oct 2026-Mar 2027. ticket.irace.vn is Vietnam's main race-entry platform: its homepage prints the ~25 events currently on sale as plain text (name, date, province, price), robots.txt allows this agent, and there is no pagination, so the root IS the listing. irace.vn/su-kien and irace.vn/ are client-rendered (1-3k chars of navigation) and must not be used. linh.academy/kien-thuc/giai-chay/giai-chay-bo is a Vietnamese running coach's calendar of ~50 races (54k chars of text), re-checked monthly against each official site; it corrects dates the aggregators get wrong (VPBank Hanoi 18 Oct not 25 Oct; Tien Phong Marathon 20-21 Mar 2027 not 28 Mar), so treat it as the better date source when the two disagree. Both list trail races and 5K/10K fun runs: discoveryConstraints and discoveryRequiredCategoryIds already keep those out.",
     "_renderRequiredAggregators_note": "Client-rendered calendars. A plain fetch returns 200 and no text, so discover-entities.js does NOT read this key and must not be pointed at them. They are kept because they are the widest SEA listing available to a manual pass using a rendering fetch, and because deleting them would lose the knowledge that they exist and what they are good for. They list roughly fifteen 2027 races for the region, but at month precision once an event is more than a few months out (\"Early May 2027\"), so treat them as a source of CANDIDATES and never of dates.",
     "renderRequiredAggregators": [
       "https://www.finishers.com/en/destinations/asia/malaysia-2",
