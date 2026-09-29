@@ -2,60 +2,270 @@
   "review_id": "vnexpress-marathon-nha-trang-2026",
   "slug": "vnexpress-marathon-nha-trang-2026",
   "entity_id": "vnexpress-marathon-nha-trang-2026",
-  "title": "VnExpress Marathon Nha Trang 2026 Review: What the Fifth Edition Was Like",
-  "seo_title": "VnExpress Marathon Nha Trang 2026 Review | Khanh Hoa",
-  "meta_description": "VnExpress Marathon Nha Trang 2026 review: 10,000 runners from 2-4 Square on 9 August, a seafront route on Tran Phu and a climb over Luong Son Pass.",
-  "dek": "The fifth VnExpress Marathon Nha Trang put 10,000 runners on the seafront on 9 August 2026. Here is what the race was like, from the report on it.",
-  "verdict": "VnExpress Marathon Nha Trang is a big seaside race that has used the same start and finish in front of 2-4 Square for years. The 2026 race, on 9 August, drew 10,000 runners across the marathon, half marathon, 10 km and 5 km, all starting and finishing at 2-4 Square [1]. The shorter races stay on Tran Phu Street along the beach, and the longer ones head north over Luong Son Pass [1]. The race ran for more than six hours, and it was part of the Khanh Hoa Sea Festival [1]. If you want a large, well-established Vietnamese race by the sea, this is a reliable one. The pass is the part to train for.",
+  "title": "VnExpress Marathon Nha Trang 2026 Review: What the 2026 Race Was Like",
+  "seo_title": "VnExpress Marathon Nha Trang Review: Luong Son Pass, Heat, Cut-offs",
+  "meta_description": "VnExpress Marathon Nha Trang 2026 review: the seafront course and Luong Son Pass, 30°C at the 3am start, 23 aid stations, a 6h30 limit and a 3:01 tenth place.",
+  "dek": "What running Nha Trang's August marathon was like in 2026: the city loop, the seafront and the pass, a hot night that never dropped below 29°C, the aid stations and checkpoints, how fast the field ran, and the race-weekend logistics.",
+  "verdict": "Enter if you want a big, well-supported seaside race in Vietnam and can handle heat more than hills. The 2026 race drew 10,000 runners, and the marathon had 23 aid stations, pacers from 3:30 to 4:30 and a six-and-a-half-hour limit. The course is flat for its first 24 km, then climbs repeatedly over Luong Son Pass to about 60 m before returning along the beach. The catch is the temperature: the nearest airport recorded 30°C at the 3am start, and it never fell below 29°C. Pace for the heat from the gun, bank time before the pass, and check each checkpoint time, starting with 9:00 per km to km 10.",
+  "at_a_glance": {
+    "heading": "The 2026 race in numbers",
+    "rows": [
+      {
+        "label": "Date",
+        "value": "Sunday 9 August 2026, the fifth edition"
+      },
+      {
+        "label": "Field",
+        "value": "10,000 runners across 42 km, 21 km, 10 km and 5 km (organiser's figure), down from about 13,000 in 2025"
+      },
+      {
+        "label": "Start times",
+        "value": "Marathon 3am, half marathon 4am, 10 km 4.15am, 5 km 6.30am"
+      },
+      {
+        "label": "Cut-offs",
+        "value": "Marathon 6 hours 30 (9.30am) with checkpoints at km 10, 22.5 and 39; half 3 hours 30 (7.30am); 10 km 2 hours; 5 km 1 hour 15"
+      },
+      {
+        "label": "Weather at the 3am start",
+        "value": "30°C, dew point 22°C, 62% humidity, wind 8 knots (Cam Ranh airport)"
+      },
+      {
+        "label": "Weather at the 9.30am close",
+        "value": "32°C, dew point 24°C, 63% humidity"
+      },
+      {
+        "label": "Course",
+        "value": "All distances start and finish at 2-4 Square on Tran Phu. Marathon: about 15 km in the city, then the seafront and about 9 km on Luong Son Pass. Certified by World Athletics and AIMS"
+      },
+      {
+        "label": "Aid",
+        "value": "23 stations on the marathon, 18 of them with medical points; water, electrolyte, watermelon and bananas"
+      },
+      {
+        "label": "Winning marathon times",
+        "value": "2:39:35 (men), 2:52:32 (women)"
+      },
+      {
+        "label": "10th place, marathon",
+        "value": "3:01:33 (men), 3:32:32 (women)"
+      },
+      {
+        "label": "Winning half-marathon times",
+        "value": "1:14:19 (men), 1:24:32 (women)"
+      },
+      {
+        "label": "Finisher items",
+        "value": "Medal and free photos for all finishers; finisher tee for the 21 km and 42 km"
+      },
+      {
+        "label": "Entry fee (last phase)",
+        "value": "850,000 VND (5 km) to 1,550,000 VND (42 km)"
+      }
+    ]
+  },
   "sections": [
     {
-      "heading": "The 2026 Edition",
+      "heading": "The Course: City Streets, the Seafront and One Pass",
       "paragraphs": [
-        "The fifth edition started at 2-4 Square in Nha Trang on 9 August 2026 and drew 10,000 runners from across Vietnam [1]. As in previous years, both start and finish were in front of the square [1].",
-        "There were four distances: 42 km, 21 km, 10 km and 5 km [1]. The race ran for more than six hours before the awards [1], and it was held as part of the Khanh Hoa Sea Festival 2026 [1]."
+        "Every distance starts and finishes on Tran Phu, the beachfront road, opposite the Tram Huong Tower at 2-4 Square [1][2]. The marathon spends about its first 15 km in the city [3]. It runs along Le Thanh Ton, Nguyen Trai, Cao Ba Quat and To Huu, follows the Quan Truong River to a turn 500 m short of Binh Tan Bridge, and comes back via Tran Hung Dao and Ly Tu Trong to Tran Phu. From there it heads north along Pham Van Dong, crosses Luong Son Pass and returns to the finish [1]. VnExpress, which organises the race, puts more than 60% of the route along the coast [4].",
+        "The pass decides the marathon. On the official elevation profile the first 24 km barely rise above 20 m; from about km 24 to km 35 the course climbs again and again to about 60 m, then drops back to sea level for the last 7 km [1]. The marathon reaches the pass at km 24.5 and spends about 9 km on it [5], turning at km 28 [6]. The organiser describes the climbs and descents as winding and continuous [3]. The men's winner called the pass quite challenging, with steep climbs that needed steady water, gels and salt [6].",
+        "The half marathon turns up the pass at about km 9.5, climbs for about 1.5 km, turns and comes back down, back on the half-marathon route after being left out in 2025 [5]. The 10 km and 5 km avoid the pass and stay on Tran Phu, running south to turns near the Vo Thi Sau junction by Vinpearl and opposite the Naval Academy [1][7]. The course was certified by World Athletics and AIMS [5].",
+        "Compared with 2025, the marathon no longer passes through the Libera urban area, using the Quan Truong riverside instead, and it started half an hour later, at 3am rather than 2.30am, with the same 9.30am close [5]."
       ]
     },
     {
-      "heading": "The Routes",
+      "heading": "The Weather: 30°C in the Middle of the Night",
       "paragraphs": [
-        "The marathon ran along Tran Phu Street, Le Thanh Ton and Nguyen Trai, beside the Quan Truong River, then out along Pham Van Dong Street and over Luong Son Pass [1]. The half marathon used Tran Phu, Pham Van Dong and Luong Son Pass [1].",
-        "The 10 km ran along Tran Phu Street, the beachfront road, and turned near the Vo Thi Sau and Vinpearl junction, and the 5 km turned opposite the Naval Academy [1]. For those distances this is a flat seafront out-and-back. For the half and full marathon, the pass is the main climb."
+        "Cam Ranh airport, about 30 km south of the start, recorded 30°C at 3am on race morning, with a dew point of 22°C, 62% humidity and an 8-knot wind [8]. It never cooled: 29°C and 70% humidity from 5am to 6am, 31°C by 7.30am, and 32°C with a dew point of 24°C at 9.30am, when the marathon closed [8].",
+        "A dew point of 22°C to 24°C is muggy but not saturated, so sweat still evaporates; the problem in 2026 was the heat itself, which stayed close to 30°C for the whole race. Clouds helped. VnExpress described the early morning as cloudy and breezy, with a few drops of rain [3], and a Swedish half marathoner said the sea breeze and light rain made the pass feel pleasant [9].",
+        "Dawn came at about 5.30am, while half and full marathoners were crossing the pass [7]. A four-hour marathoner finished at 7am in 30°C; a six-hour runner finished in 31°C air with the sun up."
       ]
     },
     {
-      "heading": "Should You Enter Next Year?",
+      "heading": "Aid Stations and Cut-offs",
       "paragraphs": [
-        "If you want a big Vietnamese race in a beach city, with 10,000 runners and a festival around it, yes. Five editions in, it is an established fixture.",
-        "Choose your distance by the pass. The 10 km and 5 km are seafront runs, while the 21 km and 42 km include Luong Son Pass, which changes how you should pace them.",
-        "This review is compiled from a published report on the 2026 edition. It is not a first-hand race report, and nobody from this site ran the race."
+        "The marathon map shows 23 aid stations, 18 of them with a medical point, serving water, electrolyte, watermelon and bananas, with toilets beside the stations [1]. The half marathon has 12 [1]. Each station has an elite table for runners ahead of the 3:30 marathon and 1:45 half-marathon pacers; ordinary tables serve drinks in cups only [10]. A Russian 10 km runner said the stations were what they remembered most, especially the watermelon [9].",
+        "The marathon limit is six and a half hours, but the checkpoints bite earlier: km 10 by 4.30am, km 22.5 by 6.25am and km 39 by 9am, with the course closing at 9.30am [1][10]. That means about 9:00 per km from the gun to reach km 10, and about 9:14 per km to reach km 39, a figure that includes the pass. The half marathon closes checkpoints at km 8 (5.20am) and km 18 (7am), about 10:00 per km, and shuts at 7.30am [1][10]. The 10 km has one checkpoint, at km 6 by 5.30am [1].",
+        "Aid stations close on the same schedule as the course, and runners more than 15 minutes late to their start are not allowed to race [10]. Anyone outside the limits is recorded as a DNF and gets no finisher items [10][11]. Pacers ran at 3:30, 4:00 and 4:30 in the marathon and at 1:45, 2:00 and 2:15 in the half [10]."
+      ]
+    },
+    {
+      "heading": "Roads and Organisation",
+      "paragraphs": [
+        "The race used two start gates, north and south of 2-4 Square, with the marathon leaving from the north gate [3]. On the southern out-and-back for the 5 km and 10 km, the organiser took half of Tran Phu's roadway for the race [7]. Nearly 1,000 student volunteers staffed the course, with water and course-security teams at their stations from midnight [3].",
+        "The international runners VnExpress spoke to were positive: the Russian 10 km runner said everything was professional and easy to follow, and the Swedish runner said running with a pacer meant always knowing the pace in the half marathon [9]."
+      ]
+    },
+    {
+      "heading": "How Fast the Field Is",
+      "paragraphs": [
+        "Several of the usual Vietnamese marathon winners stayed away, including Dan Quyet, Khoi Huynh and Truong Van Tam [3]. Vong Vanh Long won the men's marathon in 2:39:35, eight minutes ahead of Le Thanh Tai (2:47:57) and Tran Thai Son (2:50:36). Le Thi Ha defended the women's title in 2:52:32, nearly 11 minutes faster than the winning time in 2025 [4]. Vong Vanh Long ran alone from early on, handed a watch to a course cyclist at km 7 and at km 19 even turned back for a few metres to wait for company [6].",
+        "Behind the winners the marathon thins out fast. The official leaderboard puts tenth place at 3:01:33 for men and 3:32:32 for women, with nine men and one woman under three hours [12]. A three-hour marathoner was close to the top ten.",
+        "The half marathon was faster and closer: Pham Ngoc Phan won in 1:14:19, 17 seconds ahead of Nguyen Le Hoang Vu, and Doan Thu Hang won the women's race in 1:24:32 [4]. Tenth place was 1:21:29 for men and 1:38:12 for women [12]. The 10 km was won in 34:32 and the 5 km in 15:56 [4].",
+        "Rankings and prizes go on gun time, not chip time [10][11]. The marathon winners each took 15 million VND in cash, from a package worth nearly 20 million, and prizes ran five deep; the half-marathon winners took 8 million VND. There were also age-group prizes in five bands for the 21 km and 42 km [13]."
+      ]
+    },
+    {
+      "heading": "Race-Weekend Logistics",
+      "paragraphs": [
+        "Bibs and race kits were handed out at the expo at 2-4 Square on Friday 7 August from 1pm to 6pm and Saturday 8 August from 9am to 5pm [10]; in 2025 the expo had been out at Libera [14]. Kits are not posted, but you can authorise someone to collect yours [10]. On race morning the bag drop opened at 2am and closed at 10am, and the awards ran from 10am to 11.30am [10].",
+        "The last price phase, which ended on 2 August, cost 850,000 VND for the 5 km, 1,100,000 VND for the 10 km, 1,350,000 VND for the half and 1,550,000 VND for the marathon, with group discounts from 5% for 20 to 50 runners up to 25% for more than 1,000 [14]. Fees are not refunded and bibs cannot be transferred, though you can change distance by paying any difference [10][11].",
+        "Every finisher got a medal, showing the Po Klong Garai and Tram Huong towers, and free photos; 21 km and 42 km finishers also got a finisher tee [14][15]. In 2026 the race was part of the Khanh Hoa Sea Festival, and the racing lasted over six hours [2]. The field of 10,000 was down from about 13,000 in 2025 [4][15]."
+      ]
+    },
+    {
+      "heading": "Should You Enter Next Year's Race?",
+      "paragraphs": [
+        "Yes, if you want a large, well-supplied race by the sea with a beach holiday attached, and you can run in heat. The 10 km and 5 km are seafront runs that avoid the pass, suited to first-timers and families; the half now includes a short taste of the pass.",
+        "Think twice about the marathon if you need cool air for a good time, or if you are near the 9:00 per km mark early on: the first checkpoint comes before the pass, and the pass comes when you are tiring. A three-hour runner has a real chance of a top-ten place.",
+        "The date, fees and route for the next edition had not been published when this was written.",
+        "Nobody from this site ran the race. This review draws on the organiser's race guide, route maps, rules and leaderboard, reporting by VnExpress and Bao Khanh Hoa, runners quoted in that reporting, and airport weather records."
       ]
     }
   ],
-  "pull_quotes": [],
+  "pull_quotes": [
+    {
+      "quote": "I always looked forward to the next station for water and watermelon.",
+      "attribution": "Ivan Taskaev, a 10 km runner from Russia, to VnExpress (translated from Vietnamese)",
+      "source_url": "https://vnexpress.net/runner-ukraine-bo-thuoc-la-vnexpress-marathon-nha-trang-2026-5107006.html"
+    },
+    {
+      "quote": "There was a sea breeze and light rain, so it felt very pleasant.",
+      "attribution": "Vasa, a 21 km runner from Sweden, on the pass at dawn, to VnExpress (translated from Vietnamese)",
+      "source_url": "https://vnexpress.net/runner-ukraine-bo-thuoc-la-vnexpress-marathon-nha-trang-2026-5107006.html"
+    }
+  ],
   "sources": [
     {
       "n": 1,
-      "label": "Report on the 2026 race: 10,000 runners, start and finish, routes by distance and festival context",
-      "publisher": "Khanh Hoa Online (Bao Khanh Hoa)",
+      "label": "Official 2026 route maps for all four distances, with checkpoints, aid stations and the marathon elevation profile",
+      "publisher": "VnExpress Marathon (organiser)",
+      "url": "https://vm.vnexpress.net/nha-trang-2026/duong-chay",
+      "type": "official"
+    },
+    {
+      "n": 2,
+      "label": "Report on the 2026 race",
+      "publisher": "Bao Khanh Hoa",
       "url": "https://news.baokhanhhoa.vn/sports/202608/10000-runners-compete-at-vnexpress-marathon-nha-trang-2026-14b25db/",
+      "type": "news"
+    },
+    {
+      "n": 3,
+      "label": "Race-day live report and summary (in Vietnamese)",
+      "publisher": "VnExpress",
+      "url": "https://vnexpress.net/ket-qua-vnexpress-marathon-nha-trang-2026-5106856-tong-thuat.html",
+      "type": "news"
+    },
+    {
+      "n": 4,
+      "label": "2026 results and prize-giving for all distances (in Vietnamese)",
+      "publisher": "VnExpress",
+      "url": "https://vnexpress.net/ket-qua-trao-giai-vnexpress-marathon-nha-trang-2026-5107062.html",
+      "type": "news"
+    },
+    {
+      "n": 5,
+      "label": "What changed on the 2026 course (in Vietnamese)",
+      "publisher": "VnExpress",
+      "url": "https://vnexpress.net/cung-duong-vnexpress-marathon-nha-trang-2026-5105201.html",
+      "type": "news"
+    },
+    {
+      "n": 6,
+      "label": "The men's marathon winner's race (in Vietnamese)",
+      "publisher": "VnExpress",
+      "url": "https://vnexpress.net/vong-vanh-long-quay-dau-cho-doi-thu-vo-dich-42km-vnexpress-marathon-5107033.html",
+      "type": "news"
+    },
+    {
+      "n": 7,
+      "label": "Dawn on the 2026 course, and the road space given to the 5 km and 10 km (in Vietnamese)",
+      "publisher": "VnExpress",
+      "url": "https://vnexpress.net/trai-nghiem-chay-bo-don-binh-minh-ben-vinh-bien-nha-trang-5107728.html",
+      "type": "news"
+    },
+    {
+      "n": 8,
+      "label": "Hourly weather observations at Cam Ranh International Airport (VVCR), 9 August 2026",
+      "publisher": "Iowa Environmental Mesonet (airport METAR archive)",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=VVCR&data=tmpc&data=dwpc&data=relh&data=sknt&data=wxcodes&year1=2026&month1=8&day1=9&year2=2026&month2=8&day2=10&tz=Asia%2FHo_Chi_Minh&format=onlycomma&latlon=no&missing=M&report_type=3&report_type=4",
+      "type": "other"
+    },
+    {
+      "n": 9,
+      "label": "International runners on the 2026 race (in Vietnamese)",
+      "publisher": "VnExpress",
+      "url": "https://vnexpress.net/runner-ukraine-bo-thuoc-la-vnexpress-marathon-nha-trang-2026-5107006.html",
+      "type": "news"
+    },
+    {
+      "n": 10,
+      "label": "2026 Race Guide: schedule, cut-offs, pacers, aid-station and race rules",
+      "publisher": "VnExpress Marathon (organiser)",
+      "url": "https://drive.google.com/file/d/1N518dY1jWTefMDYNUN5O4JPWwCUuBDvU/view",
+      "type": "official"
+    },
+    {
+      "n": 11,
+      "label": "Official FAQ: refunds, distance changes and ranking by gun time (in Vietnamese)",
+      "publisher": "VnExpress Marathon (organiser)",
+      "url": "https://vm.vnexpress.net/nha-trang-2026/cau-hoi-thuong-gap",
+      "type": "official"
+    },
+    {
+      "n": 12,
+      "label": "Official 2026 leaderboard, top 50 in each race",
+      "publisher": "VnExpress Marathon (organiser)",
+      "url": "https://vm.vnexpress.net/nha-trang-2026",
+      "type": "official"
+    },
+    {
+      "n": 13,
+      "label": "2026 prize structure (in Vietnamese)",
+      "publisher": "VnExpress",
+      "url": "https://vnexpress.net/vnexpress-marathon-nha-trang-2026-co-cau-giai-thuong-5105908.html",
+      "type": "news"
+    },
+    {
+      "n": 14,
+      "label": "2026 late-phase fees, group discounts, expo and finisher items (in Vietnamese)",
+      "publisher": "VnExpress",
+      "url": "https://vnexpress.net/co-hoi-cuoi-vnexpress-marathon-nha-trang-2026-5104278.html",
+      "type": "news"
+    },
+    {
+      "n": 15,
+      "label": "The race's history by year, and finisher items (in Vietnamese)",
+      "publisher": "VnExpress",
+      "url": "https://vnexpress.net/vnexpress-marathon-nha-trang-qua-cac-nam-5103224.html",
       "type": "news"
     }
   ],
   "faqs": [
     {
-      "question": "How many people ran VnExpress Marathon Nha Trang in 2026?",
-      "answer": "10,000 runners from across Vietnam took part in the fifth edition on 9 August 2026, across the 42 km, 21 km, 10 km and 5 km. All distances started and finished in front of 2-4 Square in Nha Trang."
+      "question": "What time does VnExpress Marathon Nha Trang start?",
+      "answer": "In the middle of the night. In 2026 the marathon started at 3am, the half marathon at 4am, the 10 km at 4.15am and the 5 km at 6.30am, all from 2-4 Square on Tran Phu. The bag drop opened at 2am. Dawn came at about 5.30am, while many half and full marathoners were crossing Luong Son Pass."
     },
     {
-      "question": "What is the VnExpress Marathon Nha Trang route like?",
-      "answer": "The 10 km and 5 km are out-and-back runs along Tran Phu, Nha Trang's beachfront road. The half and full marathons head north along Pham Van Dong Street and over Luong Son Pass, and the marathon also runs through the city beside the Quan Truong River."
+      "question": "How hard is Luong Son Pass in the Nha Trang marathon?",
+      "answer": "It is the only real climb. On the official profile the marathon is flat for 24 km, then climbs repeatedly to about 60 m between roughly km 24 and km 35, turning at km 28. The half marathon climbs it for about 1.5 km from km 9.5. The 10 km and 5 km avoid it."
     },
     {
-      "question": "When is VnExpress Marathon Nha Trang held?",
-      "answer": "In early August. The 2026 edition was on 9 August and was part of the Khanh Hoa Sea Festival. 2026 was the fifth edition."
+      "question": "What are the cut-off times at VnExpress Marathon Nha Trang?",
+      "answer": "In 2026 the marathon had six and a half hours, with checkpoints at km 10 by 4.30am, km 22.5 by 6.25am and km 39 by 9am. The half marathon had three and a half hours, with checkpoints at km 8 and km 18. The first marathon checkpoint needs about 9:00 per km from the gun."
+    },
+    {
+      "question": "How hot is VnExpress Marathon Nha Trang?",
+      "answer": "Hot all night. At the 3am start in 2026, Cam Ranh airport recorded 30°C with a dew point of 22°C and 62% humidity. It stayed at 29°C to 30°C through dawn and reached 32°C by the 9.30am close. Cloud, a breeze and a little rain took some of the edge off."
+    },
+    {
+      "question": "How fast do you need to be to place at VnExpress Marathon Nha Trang?",
+      "answer": "Not elite-fast. In 2026 the men's marathon was won in 2:39:35 and tenth place was 3:01:33; the women's race was won in 2:52:32 and tenth was 3:32:32. The marathon paid cash to the top five, and there were age-group prizes in five bands. Rankings use gun time."
     }
   ],
-  "editorial_notes": "Rewritten 2026-09-28 about the fifth edition, run on 9 August 2026. Replaces a pre-race preview. No rating: nothing here is participant evidence.",
+  "editorial_notes": "Rewritten 2026-09-28 about the 2026 race, run on 9 August. VnExpress organises the race and published most of the reporting used; claims are attributed. Weather is from Cam Ranh airport METAR observations, not a forecast. Only the top 50 in each race shown on the official leaderboard are used; the data feed pages further but its completeness is unclear, so no finisher totals are given. The route map shows 23 aid stations; some VnExpress articles say 24. The organiser puts the pass at just over 50 m and the profile at about 60 m; one results report says 150 m, which is not used. Minor time differences between reports (2:39:35 vs 2:39:36 for the men's winner) are resolved in favour of the results report and leaderboard. No rating.",
   "published_at": "2026-09-28T12:00:00.000Z",
   "last_updated": "2026-09-28",
   "status": "active"

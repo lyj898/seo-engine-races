@@ -19,12 +19,17 @@
     "country": "Thailand"
   },
   "pros": [
-    "Offers both full marathon (42.195 km) and half marathon (21.1 km) distance options",
-    "Held at a dedicated stadium venue, Tinsulanonda Stadium in Songkhla",
-    "Long-running event now in its 27th edition"
+    "Flat course: the 2026 profile stays between about sea level and 15 m",
+    "Roads fully closed to traffic on race morning",
+    "Water about every 2 km, then almost every kilometre from 34 km",
+    "Low entry fees: 1,200 to 1,400 baht for the marathon in 2026",
+    "World Athletics road race label and AIMS membership"
   ],
   "cons": [
-    "Registration is currently closed, so new sign-ups are not possible"
+    "Saturated air before dawn: 25-26°C with a dew point of 25°C in 2026",
+    "Cut-offs appear to be applied on gun time, with six marathon checkpoints",
+    "Tight 1 hour 40 limit for the 10 km",
+    "3am marathon start means a very early night"
   ],
   "sentiment_scores": {
     "overall": 62,
@@ -43,23 +48,7 @@
       }
     ]
   },
-  "excerpt_quotes": [
-    {
-      "quote": "The organisation was good but very laid-back, onlookers were friendly (but not huge numbers)and plenty of impromtu refreshment stations at residents' gates.",
-      "attribution": "John Millar, runner review titled 'Hot, but worth making an effort for' on MarathonGuide.com",
-      "source_url": "https://www.marathonguide.com/races/racedetails.cfm?MIDD=1702070805"
-    },
-    {
-      "quote": "It was very hot (36 C) and I suffered badly from the heat for weeks afterwards.",
-      "attribution": "John Millar, runner review on MarathonGuide.com",
-      "source_url": "https://www.marathonguide.com/races/racedetails.cfm?MIDD=1702070805"
-    },
-    {
-      "quote": "I felt what I had never felt in my running life; that is why I want to repeat this race to confirm whether I was sick or the race is one of a kind.",
-      "attribution": "Elkana Ruto, runner review (finished 4th) on MarathonGuide.com",
-      "source_url": "https://www.marathonguide.com/races/racedetails.cfm?MIDD=1702070805"
-    }
-  ],
+  "excerpt_quotes": [],
   "research_highlights": [
     "Course starts and finishes at Tinsulanonda Stadium with views of the Gulf of Thailand and Songkhla Lake.",
     "The race gained World Athletics Road Race Label certification in 2023, marking it as an internationally recognised course.",

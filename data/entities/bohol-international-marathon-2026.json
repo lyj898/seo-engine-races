@@ -22,11 +22,17 @@
     "country": "Philippines"
   },
   "pros": [
-    "Multiple distance options (42.195km, 21.1km, 10km, 5km) suit a range of runner abilities",
-    "Registration is currently open, giving ample time to prepare",
-    "Held in Panglao, Bohol, a notable Philippine destination"
+    "Growing field: more than 5,600 runners in 2026, up from 3,000 in 2024",
+    "On-course DJs, enhanced hydration stations and a sari-sari store snack stop",
+    "Welcome lounges at the airport and seaport for visiting runners",
+    "Reachable podiums: third woman in the 2026 marathon ran 3:39:47",
+    "Host resort's partnership runs through 2030"
   ],
-  "cons": [],
+  "cons": [
+    "No 2026 start times, route map or time limits could be found",
+    "No local airport weather record for race morning",
+    "Race weekend fills hotels across Panglao"
+  ],
   "sentiment_scores": {
     "overall": 65,
     "breakdown": [
