@@ -22,12 +22,17 @@
     "country": "Thailand"
   },
   "pros": [
-    "Multiple distance options (42.195km, 21.1km, 10km, 4.5km) suit varying fitness levels",
-    "Long-running event history as the 33rd edition suggests established organization",
-    "Registration is currently open, allowing ample time to plan and prepare",
-    "Located in Pattaya, a well-known Thailand destination"
+    "Fully closed roads on race morning, with a finish along Pattaya Beach Road",
+    "Low entry fee: 800 to 950 baht for the marathon in 2026",
+    "Drinks about every 2 km and a seven-hour marathon limit",
+    "Shallow field: 2:54 was tenth among men in 2026, with Thai and age-group prize money"
   ],
-  "cons": [],
+  "cons": [
+    "Saturated air: 27°C and 100% humidity at the 3.30am start in 2026",
+    "Rolling roads, with Thappraya Road crossed twice and no published elevation profile",
+    "The date moved from July in 2025 to late September in 2026",
+    "Five intermediate cut-offs before the seven-hour limit, and a 3.30am start"
+  ],
   "sentiment_scores": {
     "overall": 68,
     "breakdown": [

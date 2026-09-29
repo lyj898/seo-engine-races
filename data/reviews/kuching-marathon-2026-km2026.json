@@ -2,70 +2,294 @@
   "review_id": "kuching-marathon-2026-km2026",
   "slug": "kuching-marathon-2026-km2026",
   "entity_id": "kuching-marathon-2026-km2026",
-  "title": "Kuching Marathon Review: What the 2025 Edition Was Like",
-  "seo_title": "Kuching Marathon Review: The 2025 Edition | Sarawak",
-  "meta_description": "Kuching Marathon review: the 2025 edition drew a record 14,150 runners and a Kenyan sweep. The 2026 race was cancelled for haze the day before.",
-  "dek": "The 2026 Kuching Marathon was called off at the last minute because of haze. The last edition that was actually run, in September 2025, drew a record field. Here is what it was like.",
-  "verdict": "The Kuching Marathon is one of the biggest road races in Borneo: its tenth edition, on 21 September 2025, drew a record 14,150 participants across four distances from Padang Merdeka [1]. Kenyan runners swept the open marathon and half marathon, while Malaysians won the national titles [1]. The 2026 edition, due on 27 September, never happened. It was cancelled at the last minute because of the haze over Kuching, with more than 13,000 runners registered and many of them already booked into hotels and flights [2]. If you are planning around the next edition, the lesson of 2026 is that a late-September date in Sarawak carries a real haze risk.",
+  "title": "Kuching Marathon Review: What the 2025 Race Was Like",
+  "seo_title": "Kuching Marathon Review: 2025 Course, Heat, Cut-offs, 2026 Haze",
+  "meta_description": "Kuching Marathon review: the 2025 race's 1am start at 25°C and 94% humidity, a loop over the Sarawak River, 18 water stations, a seven-hour limit, and why the 2026 race was cancelled.",
+  "dek": "The 2026 Kuching Marathon was called off two days before race day because of haze. This is what the last edition that ran, on 21 September 2025, was like: the course, the night-time weather, the aid and cut-offs, how fast the field is, and what the cancellation means for anyone entering the next one.",
+  "verdict": "Enter if you want a big, AIMS-listed city marathon in Borneo with a generous limit and you can accept the risk of haze. The 2025 race drew a record 14,150 runners, started at 1am in 25°C air with a dew point of 24°C, and had 18 water stations on the marathon course and a seven-hour cut-off. The catch is late September itself. In 2026 the race was cancelled two days out, with more than 13,000 registered, after a week of unhealthy air readings, and the rules allow no refund when haze stops the race. Book flights and rooms you can change, and keep your plans loose until race week.",
+  "at_a_glance": {
+    "heading": "The 2025 race in numbers",
+    "rows": [
+      {
+        "label": "Date",
+        "value": "Sunday 21 September 2025, the 10th edition. The 2026 race (27 September) was cancelled for haze"
+      },
+      {
+        "label": "Field",
+        "value": "A record 14,150 across four distances (DayakDaily)"
+      },
+      {
+        "label": "Start times",
+        "value": "Marathon 1am, half marathon 3am, 10 km 5am"
+      },
+      {
+        "label": "Cut-offs",
+        "value": "Marathon 7 hours, half 4 hours, 10 km 2 hours 30, 5 km 1 hour 30, with strictly enforced checkpoints"
+      },
+      {
+        "label": "Weather at the 1am start",
+        "value": "25°C, dew point 24°C, 94% humidity, no wind"
+      },
+      {
+        "label": "Weather at the 8am marathon cut-off",
+        "value": "26°C, dew point 24°C, 89% humidity"
+      },
+      {
+        "label": "Course",
+        "value": "Loops from Padang Merdeka, crossing the Sarawak River twice"
+      },
+      {
+        "label": "Aid",
+        "value": "18 water stations on the marathon map; sponges from 14.7 km; bananas at 30 km"
+      },
+      {
+        "label": "Roads",
+        "value": "Partial road closures, lifted when the cut-off passes"
+      },
+      {
+        "label": "Winning marathon times",
+        "value": "2:26:21 (men), 3:15:19 (women)"
+      },
+      {
+        "label": "Fastest Malaysians, marathon",
+        "value": "2:46:04 (men), 3:18:41 (women)"
+      },
+      {
+        "label": "Refunds",
+        "value": "None, including when haze cancels the race; no deferrals"
+      }
+    ]
+  },
   "sections": [
     {
       "heading": "The 2026 Race That Did Not Happen",
       "paragraphs": [
-        "The organisers cancelled the Kuching Marathon 2026, scheduled for Sunday 27 September, because of the haze affecting Kuching and the surrounding areas [2]. The call came at the eleventh hour: more than 13,000 runners had registered, many from outside Sarawak, and some had already paid for flights, hotels and homestays [2].",
-        "Sarawak's Minister for Youth, Sports and Entrepreneur Development, Abdul Karim Rahman Hamzah, said he had visited the race pack collection venue without being told of the cancellation, and that he believed the organisers had valid reasons, possibly on the advice of the police and the Sarawak Disaster Management Committee [2]. He also acknowledged the criticism on social media from runners who had spent money to be there [2].",
-        "Police had already announced 26 road closures and diversions around Kuching for race weekend, from noon on 26 September to 10am on 27 September [3]. Nothing in the reporting suggests the race was badly organised. It was stopped by air quality, which no organiser controls."
+        "The Kuching Marathon Association (KMA) cancelled the 2026 race on Friday 25 September, two days before its Sunday start, with more than 13,000 runners registered [1]. Kuching had recorded unhealthy air pollutant index (API) readings above 100 for a week, including 158 at 3pm that Friday [2]. KMA said it had monitored API readings, weather and wind, and decided after consulting the authorities and medical advisers [1]. Race director Liew Tang Chieh said the organiser had sought advice from the Sarawak Disaster Management Committee and the police, and had heard from the Kuching Divisional Health Office and the Sarawak Health Department [1].",
+        "Liew's main worry was time on the road. The marathon was due to start at 1am and finish by 8am, so a slow runner would breathe the haze for seven hours, and a half marathoner for about four [3]. Liew also said families could take babies in strollers on the 5 km [3]. Liew said the haze could arrive fast: 16 September was clear, but the next day, with the wind from Kalimantan, haze reached Kuching within about six to eight hours [4]. The cancellation was final [3].",
+        "The call came while race packs were being collected. Sarawak's sports minister, Abdul Karim Rahman Hamzah, had visited the collection venue shortly before the announcement without being told of it [5]. Liew said more than 13,000 participants had registered, many from outside Sarawak who had booked hotels, homestays and flights, and acknowledged the criticism on social media [6]. Some participants praised the organisers for putting health first [5]."
       ]
     },
     {
-      "heading": "The 2025 Edition in Numbers",
+      "heading": "Refunds, Deferrals and What Runners Got Instead",
       "paragraphs": [
-        "The last Kuching Marathon to be run was the tenth edition, on Sunday 21 September 2025. It drew a record 14,150 participants across four categories: 42 km, 21 km, 10 km and 5 km [1]. Prizes were presented at Padang Merdeka by the mayor of the Kuching North City Commission (DBKU) [1].",
-        "The field was on the same scale again in 2026, when more than 13,000 had signed up before the cancellation [2]. This is a big race, and race-week logistics should be planned with that in mind."
+        "KMA's statement offered medals and tees, not refunds [1]. The rules say that if the race is cancelled because of haze or hazardous air quality, no registration fees will be refunded [7], and the FAQ for 2025 already said there were no refunds for any reason and no deferrals to the next year [8].",
+        "Instead, every registered runner could collect a finisher medal, and marathon and half-marathon entrants a finisher tee, at Plaza Merdeka Shopping Centre on Saturday 26 September from 9am to 9pm and on Sunday 27 September from 8am to 1pm, on showing the physical bib [9]. KMA apologised for the disappointment [1], and Liew said the organiser hoped to hold the race again next year in safer conditions [4]."
       ]
     },
     {
-      "heading": "A Kenyan Sweep at the Front",
+      "heading": "The Course: A Night Loop Over the Sarawak River",
       "paragraphs": [
-        "Kenyan runners took both open long-distance races. David Rono won the men's marathon in 2:26:21, leading a Kenyan clean sweep ahead of Hosea Kogei and David Kipsang, and Abigael Jerop won the women's marathon in 3:15:19 [1]. In the half marathon, Job Minacho Kamonde won the men's open title in 1:09:31 [1].",
-        "Not everything went to Kenya. Malaysia's Jia Xin Cheng won the women's open half marathon in 1:41:58, Brunei's Ruzaini Mahadi won the men's open 10 km in 37:11, and Lee Siok Chin won the women's veteran marathon in 3:18:41, which also made her the top Malaysian woman [1]. Hazarullah Safri was the top Malaysian man, in 2:46:04 [1].",
-        "For most runners, the useful point is that this is a tropical race run in September. Treat it as a hot-weather marathon and pace it that way rather than chasing a time set somewhere cooler."
+        "The 2025 marathon was a loop from Padang Merdeka, with what the organisers called an improved route [10]. It crosses the Sarawak River from the old town to the northern side of the city [11], and on the 2025 map passes a water station on Jalan Merdeka at 6.2 km, passes DBKU at 14.7 km, then heads north to a turn at a roundabout on Jalan Akses FAC, between the 18.9 km and 21.3 km stations. It comes back past the State Mosque at 27.8 km and Stadium Perpaduan at 30 km, runs east along Jalan Tun Salahuddin at 34.3 km, crosses back to the south bank near Pending at 35 km, and returns through Padungan at 38 km and along Jalan Tunku Abdul Rahman at 40 km to the finish [12].",
+        "The half marathon covers the same ground in a shorter loop: over the river to Jalan Merdeka at 6.2 km, then Jalan Tun Salahuddin at 11.5 km, Pending at 13.9 km and Padungan at 16.1 km [13]. The organiser says it passes the Old State Mosque and the oldest Malay kampongs [14], and calls the courses fast, flat and historic, with villagers turning out to cheer with kompang drums [15]."
+      ]
+    },
+    {
+      "heading": "The Weather: Saturated Air, No Wind",
+      "paragraphs": [
+        "Kuching International Airport, about 10 km south of Padang Merdeka, recorded 25°C at 1am on race morning, with a dew point of 24°C, 94% humidity and no wind [16]. It hardly moved all night: 25°C and 89% humidity at the 3am half-marathon start and at the 5am 10 km start, and 24°C from 5.30am to 7am. It warmed to 26°C with 89% humidity at 8am, when the marathon closed, then climbed quickly to 29°C at 9am [16].",
+        "A dew point of 23°C to 24°C means sweat barely evaporates, so the flat course is harder than it looks. The upside of the early start is that every cut-off had passed before the temperature rose above 26°C. Pace for the humidity, and use the sponges on the second half."
+      ]
+    },
+    {
+      "heading": "Aid Stations and Cut-offs",
+      "paragraphs": [
+        "The 2025 marathon map shows 18 water stations on the course, from Jalan Muhibbah in the old town to 40 km, no more than 3.5 km apart between the numbered stations, the longest gap being from 11.2 km to 14.7 km [12]. The organiser promised stations about 2.5 to 3 km apart [8]. Sponges were at 14.7, 21.3, 27.8, 30, 34.3, 35, 38 and 40 km, and the only food on the map was bananas at 30 km [12], so carry your own gels. The half marathon had eight stations, with sponges from 11.5 km and no food station [13].",
+        "The marathon had seven hours, the half four hours and the 10 km two and a half hours [11][14][17], and the 5 km an hour and a half [18]. The rules set checkpoint cut-offs along the route that are strictly enforced; runners who miss them are disqualified and taken back to Padang Merdeka by bus. You must start within 15 minutes of your flag-off or be disqualified [18]. Finisher medals go only to those inside the limit, and must be collected on crossing the line [18]."
+      ]
+    },
+    {
+      "heading": "The Roads",
+      "paragraphs": [
+        "The roads are only partly closed. The rules say the partial closures on the marathon route are lifted seven hours after the start, and on the half marathon after four [18]. In 2025 police ran phased closures and diversions from 10pm on Friday 19 September to 10am on race day, at junctions and roundabouts including the Jalan Muhibbah/Jalan Kulas junction, the Mahkamah, Sesco, Stadium and Sri Aman roundabouts and the Jalan Sekama/Pending lights [19]. Expect traffic beside you in the dark, and wear something reflective."
+      ]
+    },
+    {
+      "heading": "How Fast the Field Is",
+      "paragraphs": [
+        "The front is Kenyan. David Rono won the 2025 marathon in 2:26:21, leading a Kenyan sweep ahead of Hosea Kogei and David Kipsang, and Abigael Jerop won the women's race in 3:15:19 [20]. Kenyans took the top six places in the men's open marathon, and Malaysians the next four [21]. Job Minacho Kamonde won the half marathon in 1:09:31 [20].",
+        "Behind them, the field is within reach of good club runners. The fastest Malaysian man in the marathon ran 2:46:04, and every man from seventh to tenth in the open race was Malaysian [20][21]. In the women's open marathon, every place from second to tenth went to a Malaysian [21], and the fastest Malaysian woman, veteran winner Lee Siok Chin, ran 3:18:41 [20]. The women's open half marathon was won in 1:41:58, slower than the 1:27:39 of the women's veteran winner [20]. The 2025 prize pool was RM125,000, paid ten deep in every category except the 5 km [10]."
       ]
     },
     {
       "heading": "Race Weekend Logistics",
       "paragraphs": [
-        "Every distance starts and finishes at Padang Merdeka, in the old centre of Kuching [1][3]. For 2026 the police closed or diverted roads from 12.01am on race morning until 10am, including routes towards Padang Merdeka and several of the city's main roundabouts [3]. That gives a rough idea of the course window: runners are expected to be off the roads by mid-morning.",
-        "Race pack collection is in the days before the race. In 2026 it had already opened when the cancellation was announced [2]. If you fly in, plan to arrive at least a day early. In a haze season, also make sure your flights and room can be changed."
+        "The race is big enough to fill the city. By late May 2025, 7,822 runners had registered, 1,103 of them from abroad, and the minister said nearly all budget accommodation in Kuching is fully booked on race weekend [10]. Book early, and in a haze season book rooms and flights you can change.",
+        "Bag deposit at the start is free [8]. Everyone who finishes inside the limit gets a finisher medal [18]. The organisers said in May 2025 that 10 km and 5 km finishers would get a finisher tee for the first time [10], but the published rules for 2025 kept the finisher tee for the marathon and half marathon only [18]. Entries cannot be transferred, refunded or deferred [8]."
       ]
     },
     {
-      "heading": "Should You Enter the Next One?",
+      "heading": "Should You Enter the Next Kuching Marathon?",
       "paragraphs": [
-        "Yes, if you want a large, well-supported city race in Borneo. The 2025 field was a record, the front of the race attracts international athletes, and there are four distances to choose from.",
-        "The caveat is the date. A race in late September in Sarawak can be caught by regional haze, and 2026 shows what that costs a travelling runner. Book refundable travel, and watch the organiser's channels and the air quality forecast in the final week.",
-        "This review is compiled from published reporting on the 2025 edition and on the cancellation of the 2026 race. It is not a first-hand race report, and nobody from this site ran the race."
+        "Yes, if you want a large, well-supported Borneo marathon with a seven-hour limit, 18 water stations and a field you can place in as a strong club runner. The half marathon and 10 km suit runners who want the city at night without the full distance.",
+        "Think twice if you are flying in and cannot afford to lose the trip. In 2026 the race was stopped two days out by haze, and the rules give no refund in that case [7]. Watch Kuching's API readings in the final week; the 2026 closures had been announced for 26 roads and junctions days before the cancellation [22], so a published traffic plan is no guarantee the race will go ahead.",
+        "The date of the next race had not been published when this was written.",
+        "Nobody from this site ran the race. This review draws on the organiser's race pages, rules and route maps, airport weather records, and local reporting in English and Chinese."
       ]
     }
   ],
-  "pull_quotes": [],
+  "pull_quotes": [
+    {
+      "quote": "We cannot take the risk of them inhaling the haze",
+      "attribution": "Liew Tang Chieh, Kuching Marathon race director, to Sarawak Tribune, on the 2026 cancellation",
+      "source_url": "https://www.sarawaktribune.com/kuching-marathon-cancelled-over-haze-concerns/"
+    },
+    {
+      "quote": "things can change from day to day",
+      "attribution": "Abdul Karim Rahman Hamzah, Sarawak sports minister, to DayakDaily",
+      "source_url": "https://dayakdaily.com/kuching-marathon-2026-on-sept-27-cancelled-as-haze-raises-health-concerns/"
+    }
+  ],
   "sources": [
     {
       "n": 1,
-      "label": "Report on the 2025 race: record 14,150 participants, categories and results",
+      "label": "Kuching Marathon 2026 cancelled: the organiser's reasons and statement",
       "publisher": "DayakDaily",
-      "url": "https://dayakdaily.com/kenyan-runners-dominate-kuching-marathon-as-event-attracts-14150-participants/",
+      "url": "https://dayakdaily.com/kuching-marathon-2026-on-sept-27-cancelled-as-haze-raises-health-concerns/",
       "type": "news"
     },
     {
       "n": 2,
-      "label": "Kuching Marathon 2026 cancelled because of haze; more than 13,000 registered",
+      "label": "Haze cancels the race; Kuching API readings",
+      "publisher": "The Star",
+      "url": "https://www.thestar.com.my/news/nation/2026/09/25/haze-kuching-marathon-cancelled",
+      "type": "news"
+    },
+    {
+      "n": 3,
+      "label": "Race director on why the 2026 race was cancelled",
+      "publisher": "Sarawak Tribune",
+      "url": "https://www.sarawaktribune.com/kuching-marathon-cancelled-over-haze-concerns/",
+      "type": "news"
+    },
+    {
+      "n": 4,
+      "label": "Race director on the haze, start times and next year (in Chinese)",
+      "publisher": "Oriental Daily",
+      "url": "https://www.orientaldaily.com.my/news/east-malaysia/2026/09/25/850473",
+      "type": "news"
+    },
+    {
+      "n": 5,
+      "label": "Sports minister on the cancellation; medal collection times",
+      "publisher": "Malay Mail (The Borneo Post)",
+      "url": "https://www.malaymail.com/news/malaysia/2026/09/25/kuching-marathon-cancellation-a-blow-to-13000-participants-who-made-travel-plans-says-sarawak-sports-minister/236530",
+      "type": "news"
+    },
+    {
+      "n": 6,
+      "label": "Minister saddened as cancellation affects 13,000 participants",
       "publisher": "DayakDaily",
       "url": "https://dayakdaily.com/minister-saddened-as-kuching-marathon-cancellation-affects-13000-participants/",
       "type": "news"
     },
     {
-      "n": 3,
-      "label": "Police road closures and diversions for Kuching Marathon 2026 race weekend",
+      "n": 7,
+      "label": "Rules and regulations, including no refund for a haze cancellation",
+      "publisher": "Kuching Marathon (organiser)",
+      "url": "https://www.marathonkuching.com/site/rules-regulation/",
+      "type": "official"
+    },
+    {
+      "n": 8,
+      "label": "2025 FAQ: refunds, deferrals, water stations, bag deposit (archived August 2025)",
+      "publisher": "Kuching Marathon (organiser), via Internet Archive",
+      "url": "http://web.archive.org/web/20250813135928/https://www.marathonkuching.com/site/faq/",
+      "type": "official"
+    },
+    {
+      "n": 9,
+      "label": "Finisher medal and tee collection after the 2026 cancellation",
+      "publisher": "Kuching Marathon (organiser)",
+      "url": "https://www.marathonkuching.com/site/",
+      "type": "official"
+    },
+    {
+      "n": 10,
+      "label": "2025 race preview: improved route, finisher tees, prize pool, registrations",
+      "publisher": "DayakDaily",
+      "url": "https://dayakdaily.com/kuching-marathon-2025-to-draw-15000-runners-worldwide-with-improved-route-enhanced-medals-finisher-tees-for-all/",
+      "type": "news"
+    },
+    {
+      "n": 11,
+      "label": "2025 marathon page: start time, cut-off, course (archived August 2025)",
+      "publisher": "Kuching Marathon (organiser), via Internet Archive",
+      "url": "http://web.archive.org/web/20250813121710/https://www.marathonkuching.com/site/42km/",
+      "type": "official"
+    },
+    {
+      "n": 12,
+      "label": "2025 marathon route map with water, sponge and food stations",
+      "publisher": "Kuching Marathon (organiser)",
+      "url": "https://www.marathonkuching.com/site/wp-content/uploads/2025/06/KM2025-42KM250625.pdf",
+      "type": "official"
+    },
+    {
+      "n": 13,
+      "label": "2025 half marathon route map",
+      "publisher": "Kuching Marathon (organiser)",
+      "url": "https://www.marathonkuching.com/site/wp-content/uploads/2025/05/KM2025-21KM-220525.pdf",
+      "type": "official"
+    },
+    {
+      "n": 14,
+      "label": "2025 half marathon page: start time, cut-off, course (archived August 2025)",
+      "publisher": "Kuching Marathon (organiser), via Internet Archive",
+      "url": "http://web.archive.org/web/20250813133423/https://www.marathonkuching.com/site/21km/",
+      "type": "official"
+    },
+    {
+      "n": 15,
+      "label": "The route: organiser's course description (archived July 2025)",
+      "publisher": "Kuching Marathon (organiser), via Internet Archive",
+      "url": "http://web.archive.org/web/20250716135741/https://www.marathonkuching.com/site/the-route/",
+      "type": "official"
+    },
+    {
+      "n": 16,
+      "label": "Half-hourly weather observations at Kuching International Airport (WBGG), 21 September 2025",
+      "publisher": "Iowa Environmental Mesonet (airport METAR archive)",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=WBGG&data=tmpc&data=dwpc&data=relh&data=sknt&data=wxcodes&year1=2025&month1=9&day1=21&year2=2025&month2=9&day2=22&tz=Asia%2FKuching&format=onlycomma&latlon=no&missing=M&report_type=3&report_type=4",
+      "type": "other"
+    },
+    {
+      "n": 17,
+      "label": "2025 10 km page: start time and cut-off (archived September 2025)",
+      "publisher": "Kuching Marathon (organiser), via Internet Archive",
+      "url": "http://web.archive.org/web/20250917202621/https://www.marathonkuching.com/site/10km/",
+      "type": "official"
+    },
+    {
+      "n": 18,
+      "label": "2025 rules and regulations: road closures, checkpoints, finisher items (archived September 2025)",
+      "publisher": "Kuching Marathon (organiser), via Internet Archive",
+      "url": "http://web.archive.org/web/20250917205137/https://www.marathonkuching.com/site/rules-regulation/",
+      "type": "official"
+    },
+    {
+      "n": 19,
+      "label": "Police road closures and diversions for the 2025 race",
+      "publisher": "DayakDaily",
+      "url": "https://dayakdaily.com/kuching-marathon-2025-temporary-road-closures-diversions-from-sept-19-21/",
+      "type": "news"
+    },
+    {
+      "n": 20,
+      "label": "2025 results: record 14,150 participants and category winners",
+      "publisher": "DayakDaily",
+      "url": "https://dayakdaily.com/kenyan-runners-dominate-kuching-marathon-as-event-attracts-14150-participants/",
+      "type": "news"
+    },
+    {
+      "n": 21,
+      "label": "2025 results: Kenyan and Malaysian places in the open marathons",
+      "publisher": "Sarawak Tribune",
+      "url": "https://www.sarawaktribune.com/kuching-marathon-2025-kenyan-dominance-balanced-by-local-breakthroughs/",
+      "type": "news"
+    },
+    {
+      "n": 22,
+      "label": "Police road closures announced for the 2026 race",
       "publisher": "DayakDaily",
       "url": "https://dayakdaily.com/26-roads-to-close-divert-for-kuching-marathon-2026-from-sept-26-27/",
       "type": "news"
@@ -73,19 +297,27 @@
   ],
   "faqs": [
     {
-      "question": "Why was the Kuching Marathon 2026 cancelled?",
-      "answer": "Because of the haze affecting Kuching and the surrounding areas. The organisers called the race off at the last minute, before its Sunday 27 September 2026 date, with more than 13,000 runners registered. Sarawak's sports minister said he believed the decision may have followed advice from the police and the state disaster management committee."
+      "question": "Did runners get a refund when the 2026 Kuching Marathon was cancelled?",
+      "answer": "No refund was offered. The organiser's rules say no registration fees are refunded if haze or hazardous air quality cancels the race, and entries cannot be deferred. Instead, registered runners could collect a finisher medal, plus a finisher tee for the marathon and half marathon, at Plaza Merdeka Shopping Centre on 26 and 27 September 2026."
     },
     {
-      "question": "How many people ran the Kuching Marathon in 2025?",
-      "answer": "A record 14,150 participants took part in the tenth edition on Sunday 21 September 2025, across the 42 km, 21 km, 10 km and 5 km categories from Padang Merdeka. The 2026 race had more than 13,000 registered before it was cancelled for haze, so the field is consistently in five figures."
+      "question": "What time does the Kuching Marathon start?",
+      "answer": "In the middle of the night. In 2025 the marathon started at 1am, the half marathon at 3am and the 10 km at 5am, all from Padang Merdeka. At the 1am start Kuching airport recorded 25°C, a dew point of 24°C and 94% humidity, and it barely changed until after 7am."
     },
     {
-      "question": "Who won the Kuching Marathon in 2025?",
-      "answer": "Kenya's David Rono won the men's marathon in 2:26:21 and Abigael Jerop the women's in 3:15:19. Job Minacho Kamonde won the men's open half marathon in 1:09:31, and Malaysia's Jia Xin Cheng the women's in 1:41:58. Hazarullah Safri and Lee Siok Chin were the top Malaysian marathoners."
+      "question": "What are the cut-off times at the Kuching Marathon?",
+      "answer": "In 2025 the marathon had seven hours, the half marathon four hours, the 10 km two and a half hours and the 5 km an hour and a half. Checkpoint cut-offs along the route are strictly enforced, and runners who miss them are disqualified and taken back to Padang Merdeka by bus."
+    },
+    {
+      "question": "How many water stations does the Kuching Marathon have?",
+      "answer": "The 2025 marathon route map shows 18 water stations on the course, about 2 to 3.5 km apart, with sponges at eight of them from 14.7 km and bananas only at 30 km. The half marathon map shows eight stations, with sponges from 11.5 km. Carry your own gels for the marathon."
+    },
+    {
+      "question": "How fast do you need to run to place at the Kuching Marathon?",
+      "answer": "Kenyans took the top six places in the 2025 men's open marathon, won in 2:26:21, and Malaysians filled seventh to tenth; the fastest Malaysian man ran 2:46:04. The women's race was won in 3:15:19, and Malaysians took second to tenth. Prize money went ten deep in each category except the 5 km."
     }
   ],
-  "editorial_notes": "Rewritten 2026-09-28 about the last edition that was actually run (21 September 2025), after the 2026 race was cancelled for haze. Replaces a pre-race preview. No rating: the sources are news reports, which describe how the event was run, not how runners rated it.",
+  "editorial_notes": "Rewritten 2026-09-28 about the last edition that ran (21 September 2025), after the 2026 race (27 September) was cancelled for haze on 25 September 2026; the cancellation, the organiser's reasons and the no-refund rule are covered. 2025 start times, cut-offs, rules and FAQ come from Internet Archive captures of the organiser's pages taken before the race; route maps are the organiser's 2025 PDFs. Weather is airport METAR data, not a forecast. Full 2025 results are behind a bot check on RaceTec, so no tenth-place times are given; field depth comes from two news reports. The Borneo Post (403) could not be read, including its story on outstation runners' losses. The 2025 finisher-tee promise for the 10 km and 5 km conflicts with the 2025 rules; both are given. No 2025 runner account was found. No rating.",
   "published_at": "2026-08-09T07:30:00.000Z",
   "last_updated": "2026-09-28",
   "status": "active"

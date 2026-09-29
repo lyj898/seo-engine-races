@@ -24,11 +24,16 @@
     "event_status_note": "The organisers called it off at the last minute because of haze in Kuching, affecting more than 13,000 registered runners."
   },
   "pros": [
-    "Four distances, from 5 km to the full marathon, based at Padang Merdeka in central Kuching",
-    "A large field: the 2025 edition drew a record 14,150 participants"
+    "A seven-hour marathon limit and four-hour half-marathon limit",
+    "18 water stations on the 2025 marathon course, with sponges through the second half",
+    "Night starts: the 2025 marathon started at 1am at 25°C, with little change until after 7am",
+    "A record 14,150 runners in 2025, with prize money ten deep and a field a strong club runner can place in"
   ],
   "cons": [
-    "The 2026 edition was cancelled at the last minute because of haze"
+    "The 2026 race was cancelled for haze two days before race day",
+    "No refunds or deferrals, even when haze cancels the race",
+    "Saturated air: a dew point of 23°C to 24°C all night in 2025",
+    "Roads are only partly closed, and the only food on the 2025 marathon map was bananas at 30 km"
   ],
   "sentiment_scores": {
     "overall": 62,
