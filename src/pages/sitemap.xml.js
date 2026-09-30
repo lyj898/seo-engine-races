@@ -1,7 +1,7 @@
 import siteConfig from '../lib/config.js';
 import { urls } from '../lib/urls.js';
 import { TOOLS } from '../lib/tools.js';
-import { loadEntities, loadCategories, loadRegions, loadListicles, loadReviews, loadGear, loadArticles, stripMeta, isPublished, isReviewableEntity, buildRegionEntityCounts, regionHasEntities } from '../lib/data.js';
+import { loadEntities, loadCategories, loadRegions, loadListicles, loadReviews, loadGear, loadArticles, loadClubCities, stripMeta, isPublished, isReviewableEntity, buildRegionEntityCounts, regionHasEntities } from '../lib/data.js';
 
 /**
  * Build-time-generated sitemap, enumerating every real route this engine
@@ -44,6 +44,7 @@ export async function GET({ site }) {
     : [];
   const gearArticles = siteConfig.enabledFeatures?.gear ? loadGear().map(stripMeta).filter(isPublished) : [];
   const articles = siteConfig.enabledFeatures?.articles ? loadArticles().map(stripMeta).filter(isPublished) : [];
+  const clubCities = siteConfig.enabledFeatures?.clubs ? loadClubCities().map(stripMeta).filter(isPublished) : [];
 
   const staticPaths = [
     urls.home(),
@@ -54,6 +55,7 @@ export async function GET({ site }) {
     ...(siteConfig.enabledFeatures?.gear ? [urls.gearIndex()] : []),
     ...(siteConfig.enabledFeatures?.articles ? [urls.articlesIndex()] : []),
     ...(siteConfig.enabledFeatures?.travelAgencies ? [urls.travelIndex()] : []),
+    ...(clubCities.length > 0 ? [urls.clubsIndex()] : []),
     urls.toolsIndex(),
     ...TOOLS.map((t) => urls.tool(t.slug)),
     urls.about(),
@@ -78,6 +80,7 @@ export async function GET({ site }) {
     ...(siteConfig.enabledFeatures?.mergedReviews ? [] : reviews.map((r) => urls.review(r.slug))),
     ...gearArticles.map((a) => urls.gear(a.slug)),
     ...articles.map((a) => urls.article(a.slug)),
+    ...clubCities.map((c) => urls.clubCity(c.slug)),
   ];
 
   const urlEntries = [...staticPaths, ...dynamicPaths]

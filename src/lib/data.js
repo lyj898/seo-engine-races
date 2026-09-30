@@ -56,6 +56,9 @@ export function loadArticles() {
 export function loadTravelAgencies() {
   return readJsonDir('travel-agencies');
 }
+export function loadClubCities() {
+  return readJsonDir('clubs');
+}
 
 /**
  * Builds { name, reviewSlug } pairs for every race that has a live review

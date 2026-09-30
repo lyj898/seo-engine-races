@@ -407,3 +407,66 @@ export const travelAgencySchema = z.object({
   last_updated: z.string().min(1),
   status: z.enum(STATUS_VALUES),
 });
+
+/**
+ * Running clubs and coaches, one file per city (data/clubs/<city>.json),
+ * rendered at /clubs/<city>/. One page per city rather than per club on
+ * purpose: a single club entry is a few lines of schedule, which as its own
+ * URL is exactly the thin page Google is already declining to index on this
+ * site; a city page that answers "where can I run with people here, and
+ * when" is a page worth indexing, and it links that city's races.
+ *
+ * `contact` is accepted but deliberately left out of the committed data: the
+ * repo is public, so outreach contacts live in a file outside it.
+ * `race_cities` lists the core_facts.city spellings (case-insensitive
+ * substrings) whose upcoming races the city page shows.
+ */
+export const clubMeetSchema = z.object({
+  when: z.string().min(1),
+  // Optional: several clubs publish the day and time but post the place
+  // with each run. Better blank than a guessed venue.
+  where: z.string().min(1).optional(),
+});
+
+export const clubListingSchema = z.object({
+  name: z.string().min(1),
+  kind: z.enum(['club', 'crew', 'hash', 'brand_club', 'university']),
+  focus: z.enum(['road', 'trail', 'track', 'mixed', 'social']),
+  url: z.string().url(),
+  url_kind: z.enum(['website', 'instagram', 'facebook', 'strava', 'meetup', 'other']),
+  meets: z.array(clubMeetSchema).default([]),
+  cost: z.string().min(1).nullable().optional(),
+  who: z.string().min(1).nullable().optional(),
+  description: z.string().min(1),
+  active_evidence: z.string().min(1),
+  source_url: z.string().url(),
+  contact: z.string().min(1).nullable().optional(),
+});
+
+export const coachListingSchema = z.object({
+  name: z.string().min(1),
+  kind: z.enum(['coach', 'coaching_business']),
+  url: z.string().url(),
+  url_kind: z.enum(['website', 'instagram', 'facebook', 'strava', 'meetup', 'other']),
+  offers: z.string().min(1),
+  where: z.string().min(1).nullable().optional(),
+  credentials: z.string().min(1).nullable().optional(),
+  description: z.string().min(1),
+  active_evidence: z.string().min(1),
+  source_url: z.string().url(),
+  contact: z.string().min(1).nullable().optional(),
+});
+
+export const clubCitySchema = z.object({
+  city_id: z.string().min(1),
+  slug: slugSchema,
+  city: z.string().min(1),
+  country: z.string().min(1),
+  area_note: z.string().min(1).optional(),
+  intro: z.string().min(1),
+  race_cities: z.array(z.string().min(1)).default([]),
+  clubs: z.array(clubListingSchema).min(1),
+  coaches: z.array(coachListingSchema).default([]),
+  last_updated: z.string().min(1),
+  status: z.enum(STATUS_VALUES),
+});

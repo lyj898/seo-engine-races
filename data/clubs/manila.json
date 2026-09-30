@@ -1,0 +1,224 @@
+{
+  "city_id": "manila",
+  "slug": "manila",
+  "city": "Manila",
+  "country": "Philippines",
+  "area_note": "Metro Manila, including Bonifacio Global City (BGC) in Taguig, Makati and Quezon City",
+  "intro": "Most Metro Manila group runs start in the business districts: the Ayala Triangle and Rockwell in Makati, the High Street and 26th Street loops in BGC (which has wide sidewalks), and UP Diliman in Quezon City. Weekday sessions usually go out between 5am and 6:30am, or after work from about 6pm, and the long runs are on weekend mornings. The scene is mostly free, show-up-and-run clubs that post their schedules on Instagram or Facebook, alongside store clubs, paid coaching teams and two long-running hash kennels.",
+  "race_cities": [
+    "Manila",
+    "Makati",
+    "Taguig",
+    "Pasig",
+    "Pasay",
+    "Quezon City",
+    "Muntinlupa",
+    "BGC",
+    "Mandaluyong",
+    "Parañaque",
+    "Paranaque"
+  ],
+  "clubs": [
+    {
+      "name": "Just Show Up Club",
+      "kind": "club",
+      "focus": "road",
+      "url": "https://justshowupclub.com/",
+      "url_kind": "website",
+      "meets": [
+        {
+          "when": "Tuesdays 6:00am (5K community run)",
+          "where": "Rockwell, Makati"
+        },
+        {
+          "when": "Wednesdays 6:00pm (5K night run)",
+          "where": "Ayala Triangle, Makati"
+        },
+        {
+          "when": "Thursdays 6:30am (5K)",
+          "where": "BGC, Taguig"
+        },
+        {
+          "when": "Fridays 5:30am (track intervals)",
+          "where": "University of Makati track"
+        },
+        {
+          "when": "Sundays 5:00am (Group A, long slow run)",
+          "where": "Rockwell, Makati"
+        },
+        {
+          "when": "Sundays 6:00am (Group B, easy run)",
+          "where": "Ayala Triangle, Makati"
+        }
+      ],
+      "who": "All paces; no tryouts, no pace requirements",
+      "description": "A Makati-based community club, set up in 2023 and formerly known as Rockwell Run Club, that runs several times a week across Makati and BGC. Its website schedule is the club's own source of truth for runs that are on, moved or cancelled.",
+      "active_evidence": "Live weekly schedule on the club website, checked Sep 2026 (site © 2026, SS26 apparel line)",
+      "source_url": "https://justshowupclub.com/"
+    },
+    {
+      "name": "RunBGC by AthLife",
+      "kind": "brand_club",
+      "focus": "road",
+      "url": "https://athlifeperformance.com/articles/category/RunBGC",
+      "url_kind": "website",
+      "meets": [
+        {
+          "when": "Saturday mornings: bag drop 6:45am, warm-up 7:00am",
+          "where": "AthLife studio, Level 19, A.T. Yuchengco Centre, 5th Ave cor 25th St, BGC"
+        }
+      ],
+      "cost": "Free (booking via the AthLife app required)",
+      "who": "Open to all; beginner-friendly, easy conversational pace",
+      "description": "The run club of the AthLife Performance gym in BGC, with weekly sessions designed by the gym's coaches. Its 2026 restart was an easy 5km loop through BGC.",
+      "active_evidence": "Club post announcing the weekly run's return on 10 Jan 2026",
+      "source_url": "https://athlifeperformance.com/articles/runbgc-by-athlife-returns-5km-community-run-in-bgc-taguig"
+    },
+    {
+      "name": "Makati Runners Club",
+      "kind": "club",
+      "focus": "road",
+      "url": "https://www.meetup.com/makati-runners-club/",
+      "url_kind": "meetup",
+      "meets": [
+        {
+          "when": "Saturdays 7:00am (10K Makati to BGC and back, then breakfast at Salcedo Market)",
+          "where": "Makati (start point shown to Meetup members)"
+        },
+        {
+          "when": "Sundays 6:30am (10K around Ayala Avenue, then breakfast at Legazpi Market)",
+          "where": "Makati (start point shown to Meetup members)"
+        }
+      ],
+      "who": "All levels welcome",
+      "description": "A Meetup group of about 1,370 members with two weekend 10km runs, each finishing at one of Makati's weekend markets. It is a private group, so meeting points are shown only after joining.",
+      "active_evidence": "Meetup events listed for 26 and 27 Sep, 3 and 4 Oct, and 10 Oct 2026",
+      "source_url": "https://www.meetup.com/makati-runners-club/"
+    },
+    {
+      "name": "Founders Running Club Manila",
+      "kind": "crew",
+      "focus": "social",
+      "url": "https://www.meetup.com/founders-running-club-manila/",
+      "url_kind": "meetup",
+      "meets": [
+        {
+          "when": "Saturdays 6:00am",
+          "where": "Single Origin, Opus Mall, Bridgetowne, Quezon City"
+        }
+      ],
+      "who": "Founders, investors, tech and creative people; any pace, with pacers; friends, family and pets welcome",
+      "description": "The Manila chapter of a networking run club that started in San Francisco in 2022. It holds an easy weekly run followed by coffee and conversation.",
+      "active_evidence": "Weekly Meetup event, next on 3 Oct 2026, recurring to Jan 2027",
+      "source_url": "https://www.meetup.com/founders-running-club-manila/events/316728705/"
+    },
+    {
+      "name": "runnr club (BGC)",
+      "kind": "brand_club",
+      "focus": "road",
+      "url": "https://runnr.com.ph/pages/runnrclub",
+      "url_kind": "website",
+      "meets": [
+        {
+          "when": "Wednesdays (run with 5AM Gang Run Club)",
+          "where": "BGC, Taguig"
+        }
+      ],
+      "who": "All fitness levels",
+      "description": "The community club of the runnr running-specialty store chain, which holds weekly group runs with partner clubs in BGC, Cebu and Cagayan de Oro. The page lists its coaching team, which includes USATF-, RRCA- and UESCA-certified coaches.",
+      "active_evidence": "Weekly-runs schedule on the club page, live Sep 2026 (same page carries Aug 2026 posts)",
+      "source_url": "https://runnr.com.ph/pages/runnrclub"
+    },
+    {
+      "name": "5AM Gang Run Club",
+      "kind": "club",
+      "focus": "road",
+      "url": "https://www.instagram.com/5amgangrunclub/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Wednesdays (with runnr club)",
+          "where": "BGC, Taguig"
+        }
+      ],
+      "who": "Open to all who show up",
+      "description": "A large community club that Tatler Asia reported holds weekly runs in Alabang, BGC and UP Diliman, and that asks runners to leave headphones at home so they can talk. Its Wednesday BGC run is co-hosted with runnr club.",
+      "active_evidence": "Listed as runnr club's Wednesday BGC run on runnr's live weekly-runs page, Sep 2026",
+      "source_url": "https://runnr.com.ph/pages/runnrclub"
+    },
+    {
+      "name": "RWP Run Club (Run with Pat)",
+      "kind": "club",
+      "focus": "mixed",
+      "url": "https://www.instagram.com/rwprunclub/",
+      "url_kind": "instagram",
+      "meets": [],
+      "who": "All levels, from beginners to marathoners and trail runners",
+      "description": "A large club with local chapters in Alabang, BGC, Makati, Pasig, Pasay and Quezon City, among others. Weekly schedules are posted in its Facebook group and on Instagram, and the club is part of the TBR Run Collective.",
+      "active_evidence": "Its Cebu chapter is listed as runnr club's Tuesday run on runnr's live weekly-runs page, Sep 2026; no dated Manila schedule seen",
+      "source_url": "https://www.tbrdream.com/community/tbr-run-collective/"
+    },
+    {
+      "name": "Makati Metro Hash House Harriers (M3H3)",
+      "kind": "hash",
+      "focus": "trail",
+      "url": "https://sites.google.com/site/makatimanilahashhouseharriers/",
+      "url_kind": "website",
+      "meets": [
+        {
+          "when": "Every other Sunday, 3:00pm start (shared transport leaves Makati at 12:30pm)",
+          "where": "Varies, often outside the city (run #2167: Sampaloc Lake, Laguna); ride pick-up at Polaris and Jupiter Streets, Makati"
+        }
+      ],
+      "cost": "Hash cash ₱350 men, ₱150 women, ₱50 kids (includes drinks)",
+      "who": "Mixed; kids welcome",
+      "description": "A long-running hash kennel that holds trail runs followed by a social 'circle', usually outside Metro Manila, with carpools from Makati. The club asks runners to bring trail shoes.",
+      "active_evidence": "Run #2167 posted for Sunday 4 Oct 2026",
+      "source_url": "https://sites.google.com/site/makatimanilahashhouseharriers/"
+    },
+    {
+      "name": "Manila Hash House Harriers (MH3)",
+      "kind": "hash",
+      "focus": "social",
+      "url": "https://sites.google.com/site/manilah3/",
+      "url_kind": "website",
+      "meets": [
+        {
+          "when": "Mondays 6:00pm",
+          "where": "Varies (run #2747: 31st Street parking, BGC)"
+        }
+      ],
+      "who": "Men only",
+      "description": "Manila's original hash kennel, whose first trail was laid in 1972. It holds a trail run every Monday evening, followed by drinks.",
+      "active_evidence": "Run #2747 posted for Monday 5 Oct 2026",
+      "source_url": "https://sites.google.com/site/manilah3/"
+    }
+  ],
+  "coaches": [
+    {
+      "name": "The Bull Runner / TBR Dream Marathon",
+      "kind": "coaching_business",
+      "url": "https://www.tbrdream.com/training/coaches/",
+      "url_kind": "website",
+      "offers": "First-marathon training programmes (TBR Basecamp, Beginner marathon programmes, TBR Dream Plus) leading to the TBR Dream Marathon, plus strength, yoga and meditation coaching",
+      "credentials": "Founder coach: USATF and RRCA running coach; lead coach: World Triathlon Level 2 coach",
+      "description": "A Manila-based marathon programme built around a race for first-time marathoners, with a published coaching team. Past participants have formed the TBR Run Collective of clubs.",
+      "active_evidence": "TBR InLife Dream Marathon 2026 held (Feb 2026); 2027 second-chance registration and policy updates posted Jun to Jul 2026",
+      "source_url": "https://www.tbrdream.com/"
+    },
+    {
+      "name": "We Ken Run",
+      "kind": "coaching_business",
+      "url": "https://wekenrun.com/",
+      "url_kind": "website",
+      "offers": "Paid group speed sessions, 6-month marathon training (₱37,500), focused training (₱22,500), remote marathon coaching (₱48,000), and a ₱1,000 trial session that counts toward a package",
+      "where": "Weekly speed sessions at BGC, Alabang or UP Diliman, 4:45am to about 7am",
+      "credentials": "Head coach: USA Track & Field Level 1",
+      "description": "A coached running team of 100+ runners with groups for different paces, beginners included. Registration is online, and walk-ins are not accepted for speed sessions.",
+      "active_evidence": "Site promotion for trial sessions in the week of 23 Feb (2026); site © 2026",
+      "source_url": "https://wekenrun.com/pages/faqs"
+    }
+  ],
+  "last_updated": "2026-09-30",
+  "status": "active"
+}

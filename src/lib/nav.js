@@ -28,6 +28,7 @@ export function buildSectionLinks() {
     ...(siteConfig.enabledFeatures?.gear ? [{ href: urls.gearIndex(), label: 'Gear' }] : []),
     ...(siteConfig.enabledFeatures?.articles ? [{ href: urls.articlesIndex(), label: 'Articles' }] : []),
     ...(siteConfig.enabledFeatures?.travelAgencies ? [{ href: urls.travelIndex(), label: 'Travel' }] : []),
+    ...(siteConfig.enabledFeatures?.clubs ? [{ href: urls.clubsIndex(), label: 'Clubs' }] : []),
     { href: urls.toolsIndex(), label: 'Lab' },
     { href: urls.about(), label: 'About', headerOnly: true },
   ];

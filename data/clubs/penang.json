@@ -1,0 +1,150 @@
+{
+  "city_id": "penang",
+  "slug": "penang",
+  "city": "Penang",
+  "country": "Malaysia",
+  "area_note": "Penang Island: George Town, Gurney, Tanjung Tokong, Tanjung Bungah and Bayan Lepas. No Seberang Perai (mainland) club could be verified with a public page.",
+  "intro": "Most Penang club runs are on weekday evenings from about 8:30pm, on the island's waterfronts at Tanjung Tokong, Q1 and Gurney Bay. Some crews also meet early on Saturday mornings. The island's hash chapters run trails in the late afternoon, from 5pm to 5:30pm. The scene is busy: a state-hosted dialogue in May 2026 drew more than 20 running clubs, and many train for the Penang Bridge International Marathon on 13 December 2026, which starts at 1:30am to avoid the heat.",
+  "race_cities": [
+    "Penang",
+    "George Town",
+    "Batu Kawan",
+    "Bayan Lepas"
+  ],
+  "clubs": [
+    {
+      "name": "Penang City Running Runners (PCRR)",
+      "kind": "crew",
+      "focus": "social",
+      "url": "https://www.instagram.com/pcrr_penang/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Wednesdays 8:30pm (about 6km)",
+          "where": "Sources differ: beside Jazz Hotel, Tanjung Tokong (URX) or Q1 Waterfront (Howei, 2025); check Instagram"
+        }
+      ],
+      "cost": "Free; no registration or membership fee",
+      "who": "All levels, from beginners to marathoners",
+      "description": "A community crew founded in 2018 with a relaxed Wednesday night social run. It also co-hosts a monthly social run with Decathlon Penang at Gurney Paragon.",
+      "active_evidence": "Listed among clubs at the Penang Running Clubs Dialogue (Buletin Mutiara / The Star, May 2026)",
+      "source_url": "http://howei.com/articles/5-active-and-welcoming-running-clubs-in-penang-you-should-know"
+    },
+    {
+      "name": "Q1 Running Club (Q1RC)",
+      "kind": "crew",
+      "focus": "road",
+      "url": "https://www.instagram.com/q1runningclub/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Thursdays 8:30pm",
+          "where": "Q1 Waterfront, Penang"
+        }
+      ],
+      "who": "Howei describes a mostly working-professional crowd",
+      "description": "A Thursday night crew that runs along the Q1 waterfront. It co-hosts the monthly Decathlon Penang social run with PCRR.",
+      "active_evidence": "Listed among clubs at the Penang Running Clubs Dialogue (Buletin Mutiara / The Star, May 2026)",
+      "source_url": "http://howei.com/articles/5-active-and-welcoming-running-clubs-in-penang-you-should-know"
+    },
+    {
+      "name": "Cendoi Run Club",
+      "kind": "crew",
+      "focus": "social",
+      "url": "https://www.instagram.com/cendoirunclub.pg/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Saturdays 7am",
+          "where": "Meeting point changes; posted on Instagram and Reclub"
+        }
+      ],
+      "who": "Casual pace; walkers welcome",
+      "description": "A relaxed Saturday-morning crew that keeps the pace easy and socialises after the run.",
+      "active_evidence": "Listed among clubs at the Penang Running Clubs Dialogue (Buletin Mutiara / The Star, May 2026)",
+      "source_url": "http://howei.com/articles/5-active-and-welcoming-running-clubs-in-penang-you-should-know"
+    },
+    {
+      "name": "Run the Howei (Howei Run Club)",
+      "kind": "brand_club",
+      "focus": "social",
+      "url": "https://www.instagram.com/run.the.howei/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Fridays 6:15pm",
+          "where": "Gurney Bay Park"
+        }
+      ],
+      "who": "Open to public runners and guide runners; the run includes participants from St. Nicholas Home and Ramakrishna Children's Home",
+      "description": "A weekly seaside run organised by the Penang event-registration company Howei. It is open to public runners and guide runners.",
+      "active_evidence": "Listed as Howei Run Club at the Penang Running Clubs Dialogue (Buletin Mutiara / The Star, May 2026)",
+      "source_url": "http://howei.com/articles/5-active-and-welcoming-running-clubs-in-penang-you-should-know"
+    },
+    {
+      "name": "Penang Forward Sports Club (PFSC)",
+      "kind": "club",
+      "focus": "road",
+      "url": "https://www.penangforwardsports.club/",
+      "url_kind": "website",
+      "meets": [],
+      "description": "A group of joggers founded the club at Bukit Dumbar Park in 1978, and it registered as a sports club in 1986. It now has running, dragon boat and lion dance divisions. Buletin Mutiara reports that Forward Sports Club organised the 2026 'Road to PBIM' social-run clinics, and more than 800 runners attended the first one.",
+      "active_evidence": "Buletin Mutiara, May 2026 (dialogue) and Jul 2026 (Road to PBIM 2026 kickoff)",
+      "source_url": "https://www.buletinmutiara.com/over-800-runners-kick-off-the-road-to-aspen-klippa-penang-bridge-international-marathon-2026/"
+    },
+    {
+      "name": "Penang Hash House Harriers",
+      "kind": "hash",
+      "focus": "trail",
+      "url": "https://www.penanghash3.org/",
+      "url_kind": "website",
+      "meets": [
+        {
+          "when": "Mondays 5:30pm",
+          "where": "Rotating run sites around the island; next site posted on the hareline"
+        }
+      ],
+      "cost": "Guests MYR 30",
+      "who": "Men only",
+      "description": "A hash chapter founded in May 1965 at Tanjung Bungah, descended directly from the Mother Hash in Kuala Lumpur. It reports more than 100 active members.",
+      "active_evidence": "Hareline lists run #3192 on 5 Oct 2026 and weekly runs to Dec 2026",
+      "source_url": "https://www.penanghash3.org/"
+    },
+    {
+      "name": "Hash House Harriets Penang",
+      "kind": "hash",
+      "focus": "trail",
+      "url": "https://www.hashhouseharrietspenang.com/",
+      "url_kind": "website",
+      "meets": [
+        {
+          "when": "Thursdays 5:30pm",
+          "where": "Rotating run sites around the island, such as Waterfall Road car park and Bukit Gambir; posted on the hareline"
+        }
+      ],
+      "who": "Mixed (men and women); runners, joggers and walkers welcome; no experience needed",
+      "description": "Started in 1972 as a women-only hash. It is now a mixed hash, still run by women.",
+      "active_evidence": "Hareline lists run #2764 on 1 Oct 2026 and weekly runs to late Nov 2026",
+      "source_url": "https://www.hashhouseharrietspenang.com/"
+    },
+    {
+      "name": "Penang International Hash Hounds",
+      "kind": "hash",
+      "focus": "trail",
+      "url": "https://www.penang-hounds.com/",
+      "url_kind": "website",
+      "meets": [
+        {
+          "when": "Saturdays 5pm",
+          "where": "Often Charlie Market; other sites posted on the hareline"
+        }
+      ],
+      "description": "A Saturday-afternoon hash chapter on Penang Island that holds occasional outstation runs, including one to Gopeng in 2026.",
+      "active_evidence": "Hareline lists anniversary run #1268 on 3 Oct 2026 and weekly runs to Dec 2026",
+      "source_url": "https://www.penang-hounds.com/hareline/upcoming"
+    }
+  ],
+  "coaches": [],
+  "last_updated": "2026-09-30",
+  "status": "active"
+}

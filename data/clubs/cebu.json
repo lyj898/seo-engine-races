@@ -1,0 +1,92 @@
+{
+  "city_id": "cebu",
+  "slug": "cebu",
+  "city": "Cebu",
+  "country": "Philippines",
+  "area_note": "Metro Cebu: Cebu City, Mandaue and Lapu-Lapu (Mactan Island)",
+  "intro": "Cebu's everyday running hub is the roughly 1.2km loop around Cebu IT Park, which is busy at 5am and 6pm on weekdays and is often combined with Cebu Business Park for longer routes. Long runs go to the flat, wide roads of the South Road Properties (SRP) near SM Seaside, hill sessions go up the road to Tops in Busay, and track work goes to the Cebu City Sports Center oval. Mandaue runners use the Mandani Bay waterfront, and Mactan runners use the Mactan Newtown area. The scene is built around free community runs and the January Cebu Marathon, which the Cebu Executive Runners Club founded.",
+  "race_cities": [
+    "Cebu",
+    "Mandaue",
+    "Lapu-Lapu",
+    "Mactan"
+  ],
+  "clubs": [
+    {
+      "name": "Cebu Executive Runners Club (CERC)",
+      "kind": "club",
+      "focus": "road",
+      "url": "https://www.facebook.com/cebuexecutiverunnersclub/",
+      "url_kind": "facebook",
+      "meets": [],
+      "description": "A club set up in 1997 by working professionals, which founded and organised the Cebu Marathon. The Freeman reported that for the 2027 edition CERC moves to a consultant role, with the Cebu City Sports Commission and DJT Events organising.",
+      "active_evidence": "Organised Cebu Marathon on 11 Jan 2026 (The Freeman, 9 Jan 2026); named as 2027 race consultant (The Freeman, 14 Aug 2026)",
+      "source_url": "https://www.philstar.com/the-freeman/cebu-sports/2026/08/14/2549221/new-organizers-better-experience-runners-cebu-marathon-2027/amp/"
+    },
+    {
+      "name": "ECYY Community Run",
+      "kind": "crew",
+      "focus": "road",
+      "url": "https://www.facebook.com/EcyySportsHubCebu/",
+      "url_kind": "facebook",
+      "meets": [],
+      "cost": "Free",
+      "who": "All fitness levels; beginners welcome",
+      "description": "A free community run of 5 to 10km through Cebu City's roads, which The Freeman describes as one of the first to restart group runs in the city after the pandemic, in 2022. The linked Facebook page belongs to ECYY Sports Hub in Cebu City.",
+      "active_evidence": "Feature in The Freeman, 22 Jun 2026",
+      "source_url": "https://www.philstar.com/the-freeman/cebu-sports/2026/06/22/2536924/community-runs-keep-thriving-cebu"
+    },
+    {
+      "name": "RWP Cebu",
+      "kind": "club",
+      "focus": "road",
+      "url": "https://www.facebook.com/people/RWP-Cebu/61565897488374/",
+      "url_kind": "facebook",
+      "meets": [
+        {
+          "when": "Tuesdays (co-hosted with runnr club)",
+          "where": "Cebu (see runnr club page)"
+        }
+      ],
+      "cost": "Free (per the chapter's Facebook description)",
+      "who": "Open to everyone",
+      "description": "The Cebu chapter of the Manila-founded RWP Run Club ('Never run alone'), which holds weekly group runs. Its Tuesday run is part of the runnr store's weekly club schedule.",
+      "active_evidence": "Listed as runnr club's Tuesday Cebu run on runnr's live weekly-runs page, Sep 2026",
+      "source_url": "https://runnr.com.ph/pages/runnrclub"
+    },
+    {
+      "name": "Cebu Hash House Harriers",
+      "kind": "hash",
+      "focus": "trail",
+      "url": "https://cebuhash.wordpress.com/",
+      "url_kind": "website",
+      "meets": [
+        {
+          "when": "Sundays, usually around 2pm",
+          "where": "Varies around Metro Cebu and nearby provinces (check the club site or Facebook group)"
+        }
+      ],
+      "cost": "₱100 registration; kids free; bring your own drinks",
+      "who": "Everyone, including children; most people walk",
+      "description": "A weekly social hash on loop trails of about 3.5 to 6.5km in and around Metro Cebu, with regular stops so slower members can catch up. A few hashers run it, but most walk.",
+      "active_evidence": "Hashes #1559 to #1561 scheduled for 4, 11 and 18 Oct 2026",
+      "source_url": "https://cebuhash.wordpress.com/"
+    }
+  ],
+  "coaches": [
+    {
+      "name": "Guild of Runners",
+      "kind": "coaching_business",
+      "url": "https://www.facebook.com/guildofrunners/",
+      "url_kind": "facebook",
+      "offers": "One-hour coach-led studio sessions that mix track and treadmill running with strength and conditioning, heart-rate-monitored training, and preparation for 5K to marathon, ultra and triathlon goals; free trial class",
+      "where": "Studio on N. Escario Street, Cebu City",
+      "credentials": "Founder: licensed physical therapist and USATF Level 1 coach",
+      "description": "A running-focused fitness studio and community in Cebu City. Its founder is also listed as a coach for runnr club.",
+      "active_evidence": "Founder listed on runnr club's coaching roster, page live Sep 2026; studio opening covered by SunStar (Dec 2023). No dated 2026 post from the studio itself seen",
+      "source_url": "https://www.sunstar.com.ph/cebu/feature/guild-of-runners-opens-in-escario-cebu-city"
+    }
+  ],
+  "last_updated": "2026-09-30",
+  "status": "active"
+}

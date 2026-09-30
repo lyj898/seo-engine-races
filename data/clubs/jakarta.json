@@ -1,0 +1,145 @@
+{
+  "city_id": "jakarta",
+  "slug": "jakarta",
+  "city": "Jakarta",
+  "country": "Indonesia",
+  "area_note": "Central and South Jakarta, mainly the Senayan (GBK) and Sudirman–SCBD areas",
+  "intro": "Jakarta's club runs centre on the Gelora Bung Karno (GBK) sports complex in Senayan and the nearby Sudirman–SCBD business district. Weekday groups meet either early in the morning or after work in the evening. On Sunday mornings, Car Free Day closes Jalan Sudirman to traffic, and community fun runs there start as early as 5:30am. Most local groups announce their sessions on Instagram rather than on websites.",
+  "race_cities": [
+    "Jakarta",
+    "BSD",
+    "Tangerang"
+  ],
+  "clubs": [
+    {
+      "name": "Indo Runners",
+      "kind": "club",
+      "focus": "road",
+      "url": "https://www.facebook.com/groups/MariLari.IndoRunners/",
+      "url_kind": "facebook",
+      "meets": [
+        {
+          "when": "Sunday mornings (Sunday AM Run)",
+          "where": "Ashta District 8, SCBD"
+        }
+      ],
+      "who": "All levels",
+      "description": "An independent running community founded in Jakarta in 2009. XSports Medal's 2026 round-up reported tens of thousands of members and more than 100,000 social-media followers. Its regular fixture is the Sunday AM Run.",
+      "active_evidence": "XSports Medal round-up of active Jakarta running communities, 27 Mar 2026",
+      "source_url": "https://xsportsmedal.id/komunitas-lari-jakarta/"
+    },
+    {
+      "name": "IR Runiversity",
+      "kind": "club",
+      "focus": "road",
+      "url": "https://www.instagram.com/runiversity.id/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Fridays (strength training)",
+          "where": "Ministry of Youth and Sports (Kemenpora) office"
+        },
+        {
+          "when": "Sunday mornings (Sunday AM Run)",
+          "where": "With Indo Runners, Ashta District 8, SCBD"
+        }
+      ],
+      "who": "Runners who want to learn technique",
+      "description": "Part of the Indo Runners community. It focuses on teaching running technique and development, and adds weekly strength training to the Sunday run.",
+      "active_evidence": "XSports Medal round-up, 27 Mar 2026",
+      "source_url": "https://xsportsmedal.id/komunitas-lari-jakarta/"
+    },
+    {
+      "name": "Jakbrunners (Jakarta Barat Runners)",
+      "kind": "club",
+      "focus": "road",
+      "url": "https://www.instagram.com/jakbrunners/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Tuesdays 6:45pm",
+          "where": "GBK, around Gate 6"
+        }
+      ],
+      "description": "Founded in May 2014 under the hashtag #YourRunningBuddies. The group also holds non-running social activities for members.",
+      "active_evidence": "XSports Medal round-up, 27 Mar 2026",
+      "source_url": "https://xsportsmedal.id/komunitas-lari-jakarta/"
+    },
+    {
+      "name": "Skolari",
+      "kind": "club",
+      "focus": "road",
+      "url": "https://www.instagram.com/skolari.id/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Thursday afternoons",
+          "where": "Plaza Barat, GBK"
+        },
+        {
+          "when": "Sunday mornings",
+          "where": "Senayan City area"
+        }
+      ],
+      "cost": "Free",
+      "who": "Open to the public; beginners and experienced runners",
+      "description": "A free community set up in January 2019 by runners who wanted a group with no barriers or exclusivity.",
+      "active_evidence": "XSports Medal round-up, 27 Mar 2026",
+      "source_url": "https://xsportsmedal.id/komunitas-lari-jakarta/"
+    },
+    {
+      "name": "Thunder Light Jakarta",
+      "kind": "crew",
+      "focus": "social",
+      "url": "https://www.instagram.com/thunderlight.jkt/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Wednesdays 7pm (Wednesday Session: themed workouts such as strength, fartlek or hills)",
+          "where": "F3, FX Sudirman"
+        },
+        {
+          "when": "Saturdays 6am",
+          "where": "Foreground, FX Sudirman"
+        }
+      ],
+      "cost": "Free",
+      "who": "Open to everyone; no requirements to join",
+      "description": "A fun-running crew formed in February 2020 by friends who ran together at night. It supports members training for half and full marathons and runs a cheering zone at races. Refreshments are provided at sessions.",
+      "active_evidence": "XSports Medal round-up, 27 Mar 2026 (schedule detail from JadwalLari profile, Oct 2025)",
+      "source_url": "https://jadwallari.id/komunitas-lari-thunder-light-jakarta/"
+    },
+    {
+      "name": "adidas Runners Jakarta",
+      "kind": "brand_club",
+      "focus": "road",
+      "url": "https://www.instagram.com/runners.jakarta/",
+      "url_kind": "instagram",
+      "meets": [],
+      "description": "The adidas brand running community in Jakarta. With Maybank Marathon it ran the public Road to Maybank Marathon 2026 training programme from 3 May to 16 August 2026, which included coaching clinics, long runs, strength, hill and heat-adaptation training.",
+      "active_evidence": "IDN Times report on the Road to Maybank Marathon 2026 programme, 30 Apr 2026",
+      "source_url": "https://www.idntimes.com/sport/arena/maybank-marathon-2026-sediakan-program-latihan-di-6-kota-00-l8swn-098hnz/amp"
+    },
+    {
+      "name": "teman kumparan Running Club",
+      "kind": "brand_club",
+      "focus": "social",
+      "url": "https://kumparan.com/teman-kumparan",
+      "url_kind": "other",
+      "meets": [
+        {
+          "when": "Periodic Sunday fun runs, 5:30am (dates announced by kumparan)",
+          "where": "Car Free Day, Sudirman / GBK"
+        }
+      ],
+      "cost": "Free",
+      "who": "All levels, from new joggers to regular runners; relaxed pace",
+      "description": "The reader community running club of the news site kumparan. Its Car Free Day fun runs have club captains and pacers, and include free refreshments. Runners join through the club's group link (kum.pr/running).",
+      "active_evidence": "Fun runs on 25 Jan 2026 and 26 Apr 2026 (kumparan, 23 Apr 2026)",
+      "source_url": "https://kumparan.com/teman-kumparan/jangan-sampai-skip-join-fun-run-teman-kumparan-running-club-di-cfd-sudirman-27GNgLuLLhu"
+    }
+  ],
+  "coaches": [],
+  "last_updated": "2026-09-30",
+  "status": "active"
+}

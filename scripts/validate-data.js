@@ -14,8 +14,8 @@
  * error so CI fails loudly instead of shipping bad data.
  */
 import siteConfig from '../src/lib/config.js';
-import { getEntitySchema, categorySchema, regionSchema, listicleSchema, reviewSchema, gearArticleSchema, articleSchema, travelAgencySchema } from '../src/lib/schema/index.js';
-import { loadEntities, loadCategories, loadRegions, loadListicles, loadReviews, loadGear, loadArticles, loadTravelAgencies, stripMeta } from '../src/lib/data.js';
+import { getEntitySchema, categorySchema, regionSchema, listicleSchema, reviewSchema, gearArticleSchema, articleSchema, travelAgencySchema, clubCitySchema } from '../src/lib/schema/index.js';
+import { loadEntities, loadCategories, loadRegions, loadListicles, loadReviews, loadGear, loadArticles, loadTravelAgencies, loadClubCities, stripMeta } from '../src/lib/data.js';
 import { simplifyAvailabilityStatus, questionsAreNearDuplicates } from '../src/lib/text.js';
 import { resolveListicleEntities, isListicleCopyStale } from '../src/lib/listicles.js';
 
@@ -77,6 +77,7 @@ const rawReviews = loadReviews();
 const rawGear = loadGear();
 const rawArticles = loadArticles();
 const rawTravelAgencies = loadTravelAgencies();
+const rawClubCities = loadClubCities();
 
 const categoryIds = validateList(rawCategories, categorySchema, 'category_id', 'categories');
 const regionIds = validateList(rawRegions, regionSchema, 'region_id', 'regions');
@@ -85,6 +86,7 @@ validateList(rawReviews, reviewSchema, 'review_id', 'reviews');
 validateList(rawGear, gearArticleSchema, 'article_id', 'gear articles');
 validateList(rawArticles, articleSchema, 'article_id', 'articles');
 validateList(rawTravelAgencies, travelAgencySchema, 'agency_id', 'travel agencies');
+validateList(rawClubCities, clubCitySchema, 'city_id', 'club cities');
 const entityIds = validateList(rawEntities, entitySchema, 'entity_id', 'entities');
 
 // Cross-reference checks: catch orphan pages / broken internal links before

@@ -1,0 +1,205 @@
+{
+  "city_id": "hanoi",
+  "slug": "hanoi",
+  "city": "Hanoi",
+  "country": "Vietnam",
+  "area_note": "Hanoi, from Hoan Kiem Lake and the old quarter out to lakeside and park neighbourhoods such as Hoang Mai, Thanh Tri and Long Bien",
+  "intro": "Hanoi's runners gather around the city's lakes and parks. At Hoan Kiem Lake (Ho Guom), Chay365 has held a Saturday dawn long run for more than 220 weeks, and ASICS Running Club meets on Sundays. Neighbourhood groups run at Den Lu Lake, Hoang Cau Lake and Hoa Binh Park. Most group runs start early, from about 5am, and some groups add evening sessions from around 6pm. The hash groups leave the city on Saturday afternoons for countryside trails. Much of the scene organises through Facebook groups and Strava clubs, often tied to one lake, park or housing area.",
+  "race_cities": [
+    "Hanoi",
+    "Ha Noi"
+  ],
+  "clubs": [
+    {
+      "name": "Chay365",
+      "kind": "club",
+      "focus": "road",
+      "url": "https://chay365.com/",
+      "url_kind": "website",
+      "meets": [
+        {
+          "when": "Saturdays 5:00–7:30am (Bình Minh Long Run)",
+          "where": "Hoan Kiem Lake (Ho Guom) pedestrian area, Hoan Kiem"
+        }
+      ],
+      "description": "A Hanoi running community and website founded in 2014. Its weekly Saturday dawn long run around Hoan Kiem Lake has a volunteer water station and pacers, and a photo diary is posted after each week. It sometimes holds joint runs with other clubs.",
+      "active_evidence": "Weekly long-run diaries on chay365.com; week 223 posted 24 Sep 2026",
+      "source_url": "https://chay365.com/nhat-ky-chay365-binh-minh-long-run-tuan-thu-223gui-chut-men-say-mua-trang-vao-tung-guong-chan-bat-tan/"
+    },
+    {
+      "name": "Hanoi Hash House Harriers (Traditional Hanoi H3)",
+      "kind": "hash",
+      "focus": "social",
+      "url": "https://hanoih3.com/",
+      "url_kind": "website",
+      "meets": [
+        {
+          "when": "Saturdays, bus leaves 2:00pm sharp in summer (1:30pm in winter)",
+          "where": "Pick-up at 08 Hai Ba Trung, Hoan Kiem; second pick-up 2:15pm at 12 Dao Tan, Ba Dinh; trails in the countryside outside Hanoi"
+        },
+        {
+          "when": "Some Thursday evenings (social drinks, 6:15pm)",
+          "where": "Quan Hoa bia hoi garden, 293 Quan Hoa, Cau Giay"
+        }
+      ],
+      "cost": "VND 200,000 for first-timers (includes transport, drinks, snacks and a patch); city runs VND 50,000–100,000; children under 5 free",
+      "who": "All ages and fitness levels; runners and walkers",
+      "description": "A hash kennel, running since 1991, that takes a bus out of the city every Saturday, rain or shine. Trails run through villages, rice fields and hills, with walking (about 6 km) and running (about 8 km) options, followed by a beer circle.",
+      "active_evidence": "Website upcoming run: No. 1835, Saturday 3 Oct 2026",
+      "source_url": "https://hanoih3.com/"
+    },
+    {
+      "name": "The Hanoi Run Club (THRC)",
+      "kind": "crew",
+      "focus": "social",
+      "url": "https://www.strava.com/clubs/thehanoirunclub",
+      "url_kind": "strava",
+      "meets": [
+        {
+          "when": "Weekly runs announced on Strava and WhatsApp (e.g. weekday night runs, Sunday social runs)",
+          "where": "Often Hoang Cau Lake, Dong Da"
+        }
+      ],
+      "description": "A social run club whose tagline is 'Thrive through miles, ends with vibe and matcha'. It has about 915 Strava members and posts announcements for night runs, tempo runs and Sunday social runs.",
+      "active_evidence": "Club announcements on Strava: night run 3 Jun 2026, 7 km tempo run at Hoang Cau Lake 10 Jun 2026, Sunday Social Run #4 (15 Jun 2026), Recovery Night Run #3 (18 Jun 2026)",
+      "source_url": "https://www.strava.com/clubs/thehanoirunclub"
+    },
+    {
+      "name": "ASICS Running Club Vietnam (Hanoi)",
+      "kind": "brand_club",
+      "focus": "road",
+      "url": "https://www.asics.com/vn/en-vn/mk/runningclub",
+      "url_kind": "website",
+      "meets": [
+        {
+          "when": "Sundays 6:30am",
+          "where": "Hanoi Post Office, 75 Dinh Tien Hoang, Hoan Kiem"
+        }
+      ],
+      "who": "All runners; inclusive community with experienced coaches and crew",
+      "description": "The Hanoi arm of ASICS Vietnam's running club, which meets beside Hoan Kiem Lake. Monthly schedules and registration go through the ASICS page and the club's Facebook group.",
+      "active_evidence": "Schedule on ASICS Vietnam's live club page (© 2026), checked 30 Sep 2026; no dated 2026 session post found",
+      "source_url": "https://www.asics.com/vn/en-vn/mk/runningclub"
+    },
+    {
+      "name": "adidas Runners Hanoi",
+      "kind": "brand_club",
+      "focus": "road",
+      "url": "https://www.strava.com/clubs/adidasrunnershanoi",
+      "url_kind": "strava",
+      "meets": [],
+      "description": "adidas's Hanoi running community, the sister group of adidas Runners Saigon. VnExpress (Nov 2024) reported that adidas Runners sessions run on Wednesdays, Saturdays and Sundays and are led by coaches, crew and pacers.",
+      "active_evidence": "Joint 'AR Saigon & AR Hanoi – Two Sub Two Challenge' post on Strava, Apr 2026; visitor post on the AR Hanoi Strava page, Jan 2026",
+      "source_url": "https://www.strava.com/clubs/adidasrunnershanoi"
+    },
+    {
+      "name": "Red River Runners",
+      "kind": "club",
+      "focus": "mixed",
+      "url": "https://www.strava.com/clubs/redriverrunners",
+      "url_kind": "strava",
+      "meets": [
+        {
+          "when": "Wednesdays (speed training)",
+          "where": "Not published on Strava"
+        },
+        {
+          "when": "Saturdays (easy-paced runs)",
+          "where": "Not published on Strava"
+        }
+      ],
+      "description": "A Hanoi-based road and trail running group with regular weekday and weekend runs. It also has a Facebook page (Red River Runners Hanoi).",
+      "active_evidence": "Member post on the Strava club page, 4 May 2026 (member-authored; little club activity visible on Strava)",
+      "source_url": "https://www.strava.com/clubs/redriverrunners"
+    },
+    {
+      "name": "Den Lu Lake Running Community (Cộng đồng chạy bộ hồ Đền Lừ)",
+      "kind": "club",
+      "focus": "road",
+      "url": "https://www.strava.com/clubs/DenLuRunners",
+      "url_kind": "strava",
+      "meets": [
+        {
+          "when": "Mornings from 5am; evenings from 6pm",
+          "where": "Den Lu Lake, Hoang Mai"
+        }
+      ],
+      "who": "Open to all ages and genders",
+      "description": "A neighbourhood running community, formed in October 2019, whose members run together at Den Lu Lake and share training experience.",
+      "active_evidence": "New-member post on the Strava club page, 23 Jul 2026; club's sixth-anniversary post, Oct 2025",
+      "source_url": "https://www.strava.com/clubs/DenLuRunners"
+    },
+    {
+      "name": "HBPR – Hoa Binh Park Runners",
+      "kind": "club",
+      "focus": "road",
+      "url": "https://www.strava.com/clubs/hbpr",
+      "url_kind": "strava",
+      "meets": [],
+      "description": "A group for people who run in Hoa Binh Park and their friends. Events, challenges and discussion happen in the club's Facebook group.",
+      "active_evidence": "Member post on the Strava club page, 12 Jun 2026 (member-authored)",
+      "source_url": "https://www.strava.com/clubs/hbpr"
+    },
+    {
+      "name": "THR – Thanh Ha Runners",
+      "kind": "club",
+      "focus": "road",
+      "url": "https://www.strava.com/clubs/thanhharunners",
+      "url_kind": "strava",
+      "meets": [],
+      "description": "The running community of the Thanh Ha urban area in Thanh Tri, with about 170 Strava members who train together and share running knowledge.",
+      "active_evidence": "Member posts on the Strava club page, Jan, Jun and 13 Sep 2026",
+      "source_url": "https://www.strava.com/clubs/thanhharunners"
+    },
+    {
+      "name": "Ecolife Runners (Tố Hữu)",
+      "kind": "club",
+      "focus": "road",
+      "url": "https://www.facebook.com/groups/973600566401937/",
+      "url_kind": "facebook",
+      "meets": [],
+      "description": "A neighbourhood running club from the Ecolife Tố Hữu area in west Hanoi. On 21 Mar 2026 it joined Chay365 and Dương Nội Runner Club for a joint long run at Thiên Văn Học Park, Dương Nội.",
+      "active_evidence": "Chay365 long-run report (week 197), 21 Mar 2026",
+      "source_url": "https://chay365.com/chay365-binh-minh-long-run-tuan-197-buoi-chay-giao-luu-cung-duong-noi-runners-va-ecolife-runners/"
+    }
+  ],
+  "coaches": [
+    {
+      "name": "Linh Academy (PBRUN Academy) – Coach Đỗ Trọng Linh",
+      "kind": "coaching_business",
+      "url": "https://linh.academy/",
+      "url_kind": "website",
+      "offers": "Free 5K–marathon training plans; online courses (running technique, knee health) with weekly group Zoom Q&A; 1:1 coaching with weekly plans, Zalo support and weekly 1:1 Zoom calls",
+      "where": "Online (Zoom and Zalo); company based at 9 Duy Tan, Cau Giay, Hanoi",
+      "credentials": "V.O2 Distance Running Coach certificate (Jack Daniels' VDOT O2)",
+      "description": "A Hanoi-registered coaching company (PBRUN Academy) run by Đỗ Trọng Linh, who also founded the Happyrun running store in Cau Giay. Coaching is delivered online and built around heart-rate and VDOT-based plans, for beginners through to marathon and trail runners.",
+      "active_evidence": "Website article dated Sep 2026 (beginner kit price guide, 'tháng 9/2026'); © 2026 footer",
+      "source_url": "https://linh.academy/lien-he"
+    },
+    {
+      "name": "VietMarathoners",
+      "kind": "coaching_business",
+      "url": "https://vietmarathoners.com/huan-luyen/",
+      "url_kind": "website",
+      "offers": "Personalised online coaching through training apps; in-person sessions with the coaches in Hanoi; free community courses for 5–10 km",
+      "where": "Saturdays 5–7am at the Starlake urban area, Hanoi (in-person sessions)",
+      "credentials": "Co-founder Hiếu Phùng holds a UESCA running coach certificate (Jun 2023)",
+      "description": "A Hanoi running knowledge site and coaching team that writes training plans for individual goals, from first 5Ks to ultramarathons. Runners based in Hanoi can join the coaches in person on Saturday mornings.",
+      "active_evidence": "New articles on vietmarathoners.com in Sep 2026",
+      "source_url": "https://vietmarathoners.com/huan-luyen/"
+    },
+    {
+      "name": "Trần Anh Tuấn running coaching",
+      "kind": "coaching_business",
+      "url": "https://trananhtuan.com/coach/",
+      "url_kind": "website",
+      "offers": "Tiered running programmes from beginner to 10K/21K/42K time goals, personalised training; Ironman/triathlon coaching also offered",
+      "where": "Coaches listed in Ba Dinh, Dong Da, Tay Ho and Ha Dong, Hanoi (others in Ho Chi Minh City)",
+      "description": "A coaching team run by Trần Anh Tuấn, who founded the 'Zone 2 – Chạy Bộ Nhịp Tim' heart-rate running group. Several of the team's coaches are based in central Hanoi. The site also keeps a directory of Vietnamese running clubs.",
+      "active_evidence": "Site's running-club directory updated 13 Apr 2026; coach page itself undated",
+      "source_url": "https://trananhtuan.com/coach/"
+    }
+  ],
+  "last_updated": "2026-09-30",
+  "status": "active"
+}

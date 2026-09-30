@@ -7,6 +7,7 @@ import {
   gearArticleSchema,
   articleSchema,
   travelAgencySchema,
+  clubCitySchema,
 } from './base.js';
 import { getCoreFactsSchema } from './core-facts/index.js';
 
@@ -26,4 +27,4 @@ export function getEntitySchema(verticalKey) {
   });
 }
 
-export { baseEntitySchema, categorySchema, regionSchema, listicleSchema, reviewSchema, gearArticleSchema, articleSchema, travelAgencySchema };
+export { baseEntitySchema, categorySchema, regionSchema, listicleSchema, reviewSchema, gearArticleSchema, articleSchema, travelAgencySchema, clubCitySchema };

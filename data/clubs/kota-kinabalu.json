@@ -1,0 +1,39 @@
+{
+  "city_id": "kota-kinabalu",
+  "slug": "kota-kinabalu",
+  "city": "Kota Kinabalu",
+  "country": "Malaysia",
+  "area_note": "Kota Kinabalu (KK), Sabah's capital, from Likas Bay and the Likas sports complex in the north of the city to Tanjung Aru in the south",
+  "intro": "KK's runners gather mostly on the flat coastal path at Likas Bay, which has views of Mount Kinabalu, and use the loop at the Likas Sports Complex for interval and tempo sessions. The Universiti Malaysia Sabah (UMS) campus, Signal Hill and the steeper Bukit Botak trail are used for longer runs and hill work. Because of the heat and humidity, group runs cluster around sunrise (about 5.30-8am) or after 6.30pm, and local runners avoid the early afternoon. Kinabalu Running Club, which organises the Borneo International Marathon, publishes races and events rather than a weekly run schedule. Informal group runs are often arranged through WhatsApp groups and Strava.",
+  "race_cities": [
+    "Kota Kinabalu"
+  ],
+  "clubs": [
+    {
+      "name": "Kinabalu Running Club (KRC)",
+      "kind": "club",
+      "focus": "road",
+      "url": "https://borneomarathon.com/sponsors/about-kinabalu",
+      "url_kind": "website",
+      "meets": [],
+      "who": "Runners of all levels",
+      "description": "A community running club founded in 2008 that organises the AIMS-sanctioned Borneo International Marathon every May and the Borneo Half Marathon, which it co-organises with Kota Kinabalu City Hall. It also holds fun runs, charity events and fitness initiatives around the city, including events at Taman Awam Teluk Likas.",
+      "active_evidence": "Organised the Borneo International Marathon, 7-10 May 2026; registration for the Borneo Half Marathon (31 Jan 2027) opened 15 Aug 2026",
+      "source_url": "https://borneohalfmarathon.com/about-us/"
+    },
+    {
+      "name": "KSRun Athletic Club (Kinabalu Sabah Run)",
+      "kind": "club",
+      "focus": "road",
+      "url": "https://www.facebook.com/KINABALUSABAHRUN/",
+      "url_kind": "facebook",
+      "meets": [],
+      "description": "A Kota Kinabalu athletics club that organises community road events in the city, such as the Harmony Run, the North Borneo Race through KK's heritage district, and the Songkran Sunset Splash Run.",
+      "active_evidence": "New Straits Times report on its Songkran Sunset Splash Run, Apr 2026",
+      "source_url": "https://www.nst.com.my/news/regional/2026/04/1421985/songkran-run-organiser-faces-action-over-water-wastage-safety"
+    }
+  ],
+  "coaches": [],
+  "last_updated": "2026-09-30",
+  "status": "draft"
+}

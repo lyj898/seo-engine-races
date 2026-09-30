@@ -89,7 +89,8 @@
     "affiliateLinks": true,
     "gear": true,
     "articles": true,
-    "travelAgencies": true
+    "travelAgencies": true,
+    "clubs": true
   },
 
   "contactEmail": "hello@runsea.run",

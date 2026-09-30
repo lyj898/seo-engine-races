@@ -1,0 +1,262 @@
+{
+  "city_id": "kuala-lumpur",
+  "slug": "kuala-lumpur",
+  "city": "Kuala Lumpur",
+  "country": "Malaysia",
+  "area_note": "Kuala Lumpur and the wider Klang Valley: Petaling Jaya, Subang Jaya, Bukit Jalil, Mont Kiara/Sri Hartamas, TTDI, and Putrajaya/Cyberjaya. Hash chapters meet at trail sites up to an hour outside the city.",
+  "intro": "Because of the heat, most Klang Valley club runs happen after dark on weeknights, usually starting between 7:30pm and 9pm, or at dawn at weekends. The regular meeting points are KLCC Park, Sri Hartamas, TTDI, Desa ParkCity, Bukit Jalil and Dataran PHB Saujana, and Bukit Kiara has forest trails close to the city. Nearly all clubs are free to join and post each week's sessions on Instagram or in a WhatsApp group, so check there before your first run.",
+  "race_cities": [
+    "Kuala Lumpur",
+    "Petaling Jaya",
+    "Putrajaya",
+    "Cyberjaya",
+    "Shah Alam",
+    "Subang",
+    "Klang",
+    "Bukit Jalil",
+    "Puchong",
+    "Sepang",
+    "Setiawangsa"
+  ],
+  "clubs": [
+    {
+      "name": "BJS Run Club",
+      "kind": "crew",
+      "focus": "road",
+      "url": "https://www.instagram.com/bjsrunclub.my/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Mondays 8:30pm (workouts such as hill repeats, fartleks, intervals)",
+          "where": "Bukit Jalil National Stadium, Keris / Astro North Visitor Entrance"
+        },
+        {
+          "when": "Wednesdays 8:30pm (faster speed sessions)",
+          "where": "Bukit Jalil National Stadium"
+        }
+      ],
+      "cost": "Free",
+      "who": "All levels on Mondays, with pace groups from about 4:30 to 7:30 min/km; Wednesdays are aimed at faster runners",
+      "description": "A large weeknight crew at Bukit Jalil. Bibz Eats reported more than 100 runners at Monday sessions, and sponsors often bring shoe trials and lucky draws.",
+      "active_evidence": "Bibz Eats round-up, Apr 2026; FirstClasse, May 2026",
+      "source_url": "https://www.bibzeats.com/blog/2026/3/31/best-run-clubs-in-kuala-lumpur-amp-petaling-jaya-schedules-locations-amp-tips"
+    },
+    {
+      "name": "Windrunners",
+      "kind": "crew",
+      "focus": "road",
+      "url": "https://www.instagram.com/wind_runners_/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Tuesdays 7:30pm (tempo runs, short intervals)",
+          "where": "Plaza Arkadia, Desa ParkCity"
+        },
+        {
+          "when": "Sunday long runs (about 100 minutes), announced close to the day",
+          "where": "Usually Dataran PHB Saujana, sometimes Padang Merbok"
+        }
+      ],
+      "cost": "Free",
+      "who": "Pace groups from about 4:30 to 7:30 min/km",
+      "description": "A weeknight workout and weekend long-run crew. The Sunday long runs suit anyone building up to a half or full marathon.",
+      "active_evidence": "Bibz Eats round-up, Apr 2026; starpublications.my round-up, Jul 2026",
+      "source_url": "https://www.bibzeats.com/blog/2026/3/31/best-run-clubs-in-kuala-lumpur-amp-petaling-jaya-schedules-locations-amp-tips"
+    },
+    {
+      "name": "Weekends Athletics",
+      "kind": "crew",
+      "focus": "social",
+      "url": "https://www.instagram.com/weekendsathletics/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Tuesdays 7:45pm",
+          "where": "Sri Hartamas Park"
+        }
+      ],
+      "cost": "Free",
+      "who": "Open to everyone; social pace of about 6:00 to 7:00 min/km",
+      "description": "A relaxed social run on Tuesday evenings. Despite the name, Bibz Eats lists the regular session on Tuesdays, and FirstClasse also describes weekend-morning runs.",
+      "active_evidence": "Bibz Eats round-up, Apr 2026; FirstClasse, May 2026",
+      "source_url": "https://www.bibzeats.com/blog/2026/3/31/best-run-clubs-in-kuala-lumpur-amp-petaling-jaya-schedules-locations-amp-tips"
+    },
+    {
+      "name": "ASICS Running Club Malaysia (ARC)",
+      "kind": "brand_club",
+      "focus": "road",
+      "url": "https://www.instagram.com/arc.msia/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Wednesdays 8:30pm",
+          "where": "Venue varies: Institut Sukan Negara (Bukit Jalil), Bukit Kiara or UM Arena; check Instagram"
+        }
+      ],
+      "cost": "Free, but you must register in advance and receive a confirmation QR code",
+      "who": "Open to all, but the structured sessions suit more serious runners; places are limited",
+      "description": "A brand-run club with structured speed sessions, including track intervals, split into pace groups. Bibz Eats reported that sessions are capped at the first 200 people to register.",
+      "active_evidence": "Bibz Eats round-up, Apr 2026; starpublications.my round-up, Jul 2026",
+      "source_url": "https://www.bibzeats.com/blog/2026/3/31/best-run-clubs-in-kuala-lumpur-amp-petaling-jaya-schedules-locations-amp-tips"
+    },
+    {
+      "name": "Puma Nitro Run Club Malaysia",
+      "kind": "brand_club",
+      "focus": "road",
+      "url": "https://www.instagram.com/pumanitrorunclub_my/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Wednesdays 8:30pm",
+          "where": "TAR UMT Arena (per Bibz Eats); other venues are also reported, so check Instagram"
+        }
+      ],
+      "cost": "Free",
+      "who": "Open to everyone; fewer pace groups than the larger clubs",
+      "description": "Puma's Malaysian run club runs structured sessions such as tempo runs and intervals, and has partnered with local gyms on Hyrox training.",
+      "active_evidence": "Bibz Eats round-up, Apr 2026; starpublications.my round-up, Jul 2026",
+      "source_url": "https://www.bibzeats.com/blog/2026/3/31/best-run-clubs-in-kuala-lumpur-amp-petaling-jaya-schedules-locations-amp-tips"
+    },
+    {
+      "name": "KJ Run Club (Kelana Jaya Run Club)",
+      "kind": "club",
+      "focus": "road",
+      "url": "https://www.facebook.com/kjrunclub/",
+      "url_kind": "facebook",
+      "meets": [
+        {
+          "when": "Tuesdays, Wednesdays, Saturdays and Sundays (times posted weekly)",
+          "where": "Mainly Stadium MBPJ (Petaling Jaya) and Dataran PHB Saujana"
+        }
+      ],
+      "cost": "Free",
+      "who": "SAYS describes it as open to walkers, beginners and experienced runners; Bibz Eats found the sessions fast and suited to runners with some experience",
+      "description": "A Petaling Jaya-based club that mixes running sessions with some strength work, at several locations around PJ and KL.",
+      "active_evidence": "Bibz Eats round-up, Apr 2026; starpublications.my round-up, Jul 2026",
+      "source_url": "https://www.bibzeats.com/blog/2026/3/31/best-run-clubs-in-kuala-lumpur-amp-petaling-jaya-schedules-locations-amp-tips"
+    },
+    {
+      "name": "Journey Run Club",
+      "kind": "crew",
+      "focus": "social",
+      "url": "https://www.instagram.com/journey.run/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Mondays 8:15pm",
+          "where": "Sri Hartamas Park"
+        }
+      ],
+      "cost": "Free; no registration needed",
+      "who": "Beginners welcome; three pace groups",
+      "description": "An easy-paced Monday night social run in Sri Hartamas where you can just turn up. It's a night run on shared paths, so bring a light or reflective gear.",
+      "active_evidence": "FirstClasse, May 2026; starpublications.my round-up, Jul 2026",
+      "source_url": "https://says.com/my/lifestyle/run-clubs-in-kl-you-can-join-for-free"
+    },
+    {
+      "name": "Brand New Waves Running Club (BNWRC)",
+      "kind": "crew",
+      "focus": "social",
+      "url": "https://www.instagram.com/bnwrc/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Tuesdays and Thursdays 9pm",
+          "where": "Tapak TTDI"
+        },
+        {
+          "when": "Sundays 7am",
+          "where": "KLCC Park"
+        }
+      ],
+      "cost": "Free",
+      "who": "All abilities; social pace of about 6:30 to 7:30 min/km over 5 to 7km",
+      "description": "Five friends started this lifestyle-oriented crew in 2019. Its partners have included New Balance, Zus Coffee and Oatside. Venues are confirmed each week in its WhatsApp community, which is linked from its Instagram.",
+      "active_evidence": "FirstClasse, May 2026; starpublications.my round-up, Jul 2026",
+      "source_url": "https://starpublications.my/spots/15-best-running-clubs-in-kl-2026/"
+    },
+    {
+      "name": "Godspeed Running Club",
+      "kind": "crew",
+      "focus": "mixed",
+      "url": "https://www.instagram.com/godspeed.rc/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Wednesday evenings",
+          "where": "Bukit Kiara Youth Centre area; meeting point rotates"
+        }
+      ],
+      "who": "Join by referral from a member, by attending one of its events, or by sending a DM",
+      "description": "A crew founded in 2020 whose sessions rotate between intervals, hill sprints, trail runs and urban routes. Its motto puts progress ahead of finishing times.",
+      "active_evidence": "FirstClasse, May 2026",
+      "source_url": "https://firstclasse.com.my/lifestyle/wellness/run-clubs-kuala-lumpur/"
+    },
+    {
+      "name": "Hash House Harriers Kuala Lumpur (Mother Hash)",
+      "kind": "hash",
+      "focus": "trail",
+      "url": "https://www.motherhash.org/",
+      "url_kind": "website",
+      "meets": [
+        {
+          "when": "Mondays 6pm",
+          "where": "Rotating trail sites, usually about an hour's drive from central KL; directions posted on the website"
+        }
+      ],
+      "cost": "Guest fee RM50 (RM80 for gazetted runs)",
+      "who": "Men only; male visitors welcome",
+      "description": "The original hash chapter, founded in Kuala Lumpur in 1938. Runs are mostly on and off trail and finish after dark, so bring trail shoes and a head torch.",
+      "active_evidence": "Website lists run #4275 on 28 Sep 2026 and #4276 on 5 Oct 2026",
+      "source_url": "https://www.motherhash.org/"
+    },
+    {
+      "name": "Petaling Hash House Harriers (PH3)",
+      "kind": "hash",
+      "focus": "trail",
+      "url": "https://www.ph3.org/",
+      "url_kind": "website",
+      "meets": [
+        {
+          "when": "Saturdays 4:30pm",
+          "where": "Rotating run sites around the Klang Valley; directions posted on the website"
+        }
+      ],
+      "description": "A hash chapter based in Petaling Jaya that has run every Saturday afternoon since 1977, with a social meal after each run.",
+      "active_evidence": "Website lists run #2504 on 3 Oct 2026 and #2505 on 10 Oct 2026",
+      "source_url": "https://www.ph3.org/"
+    },
+    {
+      "name": "KL Junior Hash House Harriers",
+      "kind": "hash",
+      "focus": "trail",
+      "url": "https://www.kljhhh.org/",
+      "url_kind": "website",
+      "meets": [
+        {
+          "when": "Monthly, usually the first Sunday (afternoon)",
+          "where": "Rotating run sites outside KL; directions posted on the website"
+        }
+      ],
+      "who": "Families with children of any age; Malaysians and expats",
+      "description": "A family hash that has run monthly since 1982, with long and short trails so children can take part.",
+      "active_evidence": "Website lists run #530 on 4 Oct 2026 and runs planned for Nov and Dec 2026",
+      "source_url": "https://www.kljhhh.org/"
+    }
+  ],
+  "coaches": [
+    {
+      "name": "SACRun.Coach (Smart Athletic Coaching)",
+      "kind": "coaching_business",
+      "url": "https://www.sacrun.coach/",
+      "url_kind": "website",
+      "offers": "Online structured training plans, a weekly group run class on Sundays (6:30am to 8am), online consultations, and two-hour running-technique workshops",
+      "where": "Workshops at Arena Sukan, Kuala Lumpur; group class at a selected location",
+      "description": "A KL running-coaching company whose training principles date from 2012. Its head coach, Edan Syah, runs the technique and breathing workshops.",
+      "active_evidence": "Workshops scheduled for 23 Aug 2026 and 13 Sep 2026, with another in Oct 2026",
+      "source_url": "https://www.sacrun.coach/workshop"
+    }
+  ],
+  "last_updated": "2026-09-30",
+  "status": "active"
+}

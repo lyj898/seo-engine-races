@@ -1,0 +1,58 @@
+---
+import siteConfig from '../../lib/config.js';
+import { urls } from '../../lib/urls.js';
+import { loadClubCities, stripMeta, isPublished } from '../../lib/data.js';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import { buildBreadcrumbListSchema } from '../../lib/schema-jsonld.js';
+
+// Hub for the per-city club pages. Grouped by country in the order
+// site.config.json lists regions, like the travel directory.
+const cities = siteConfig.enabledFeatures?.clubs
+  ? loadClubCities().map(stripMeta).filter(isPublished).sort((a, b) => a.city.localeCompare(b.city))
+  : [];
+const countryOrder = siteConfig.regionsSupported ?? [];
+const countries = [...new Set(cities.map((c) => c.country))].sort(
+  (a, b) => (countryOrder.indexOf(a) + 1 || 99) - (countryOrder.indexOf(b) + 1 || 99) || a.localeCompare(b)
+);
+
+const breadcrumbItems = [{ label: siteConfig.siteName, href: urls.home() }, { label: 'Clubs' }];
+const jsonLd = [buildBreadcrumbListSchema(breadcrumbItems, Astro.site)].filter(Boolean);
+const totalClubs = cities.reduce((n, c) => n + c.clubs.length, 0);
+const totalCoaches = cities.reduce((n, c) => n + (c.coaches?.length ?? 0), 0);
+---
+
+<BaseLayout
+  title="Running Clubs and Coaches in Southeast Asia"
+  description={`${totalClubs} running clubs and crews and ${totalCoaches} coaches across ${cities.length} Southeast Asian cities, with where and when each one runs.`}
+  canonicalPath={urls.clubsIndex()}
+  jsonLd={jsonLd}
+>
+  <div class="mx-auto max-w-3xl px-4 py-10 sm:px-6">
+    <Breadcrumb items={breadcrumbItems} />
+    <h1 class="mt-4 font-serif text-3xl font-semibold sm:text-4xl">Running clubs and coaches</h1>
+    <p class="mt-3 max-w-2xl text-brand-muted dark:text-brand-muted-dark">
+      Where to run with other people in Southeast Asia's cities: clubs, run crews and hash groups, when and where
+      they meet and whether they are free, plus the coaches who train runners there. Every listing links to the
+      club's or coach's own page.
+    </p>
+
+    {countries.map((country) => (
+      <section class="mt-10">
+        <h2 class="text-xl font-semibold">{country}</h2>
+        <div class="mt-4 grid gap-4 sm:grid-cols-2">
+          {cities.filter((c) => c.country === country).map((c) => (
+            <a href={urls.clubCity(c.slug)} class="block rounded-lg border border-brand-border bg-brand-surface p-5 shadow-sm transition-colors hover:border-brand-primary dark:border-brand-border-dark dark:bg-brand-surface-dark">
+              <p class="font-semibold">{c.city}</p>
+              <p class="mt-1 text-sm text-brand-muted dark:text-brand-muted-dark">
+                {c.clubs.length} clubs{c.coaches?.length ? ` · ${c.coaches.length} coaches` : ''}
+              </p>
+            </a>
+          ))}
+        </div>
+      </section>
+    ))}
+
+    {cities.length === 0 && <p class="mt-8 text-brand-muted dark:text-brand-muted-dark">No cities listed yet.</p>}
+  </div>
+</BaseLayout>

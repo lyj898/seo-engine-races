@@ -1,0 +1,519 @@
+{
+  "city_id": "singapore",
+  "slug": "singapore",
+  "city": "Singapore",
+  "country": "Singapore",
+  "area_note": "Island-wide: the CBD and Marina Bay, the Singapore Sports Hub at Kallang, East Coast Park, and heartland stadiums from Jurong to Punggol",
+  "intro": "Most Singapore group runs happen on weekday evenings from about 6.30pm to 7.45pm, after office hours, or early on weekend mornings between about 6am and 7.30am. Common meeting points are Raffles Place and Marina Bay in the CBD, the 100PLUS Promenade and The Kallang at the Singapore Sports Hub, Parkland Green in East Coast Park, Jurong Lake Gardens, and public stadium tracks such as Bishan, Bukit Gombak and MOE (Evans Road) for interval work. Most community clubs and brand clubs are free to join, and several hash groups run social trails on weekday evenings.",
+  "race_cities": [
+    "Singapore"
+  ],
+  "clubs": [
+    {
+      "name": "Running Department",
+      "kind": "club",
+      "focus": "road",
+      "url": "https://www.runningdept.com/",
+      "url_kind": "website",
+      "meets": [
+        {
+          "when": "Wednesdays 7.15pm",
+          "where": "UOB Plaza, Raffles Place (some weeks at The Kallang, Great Eastern Promenade)"
+        },
+        {
+          "when": "Saturdays 7.00-7.15am (women-only pop-up run)",
+          "where": "Parkland Green, East Coast Park"
+        }
+      ],
+      "cost": "Free",
+      "who": "All levels; Saturday pop-up runs are women-only",
+      "description": "A volunteer-run community founded in 2013 that holds free, no-frills weekly runs (base, tempo, strength and hill sessions over 5 km or 10 km) and publishes its schedule at the start of each month. Runners register once through its Dept. Access platform; most runs need no sign-up.",
+      "active_evidence": "Monthly schedule for September 2026 and a news post dated 8 Sep 2026 on its website",
+      "source_url": "https://www.runningdept.com/our-schedule/"
+    },
+    {
+      "name": "Lion City Road Runners (LCRR)",
+      "kind": "club",
+      "focus": "road",
+      "url": "https://singaporeinternationalmarathon.com/train/lion-city-road-runners/",
+      "url_kind": "website",
+      "meets": [
+        {
+          "when": "Saturdays, 6.00am (marathon group) or 7.00am (half marathon group)",
+          "where": "Rotates: Water Sports Centre, The Kallang; Punggol Promenade Nature Walk; PAssion Wave @ Marina Bay"
+        }
+      ],
+      "cost": "Free (registration required, opens each Monday or Tuesday)",
+      "who": "All levels training for a race; 16+ for runs up to 21 km, 18+ for longer runs",
+      "description": "A free weekly long-run programme for the BYD Singapore International Marathon, powered by Running Department. Sessions are run in loops of about 6 km, with nine pace groups from 4:59 to 7:49 min/km, and include bag drop and hydration. You don't need to belong to a club to join.",
+      "active_evidence": "Sessions listed for 3-31 Oct 2026 on the race's official site",
+      "source_url": "https://singaporeinternationalmarathon.com/train/lion-city-road-runners/"
+    },
+    {
+      "name": "Singapore Runners Club (SGRC)",
+      "kind": "club",
+      "focus": "road",
+      "url": "https://www.facebook.com/groups/singaporerunnersclub/",
+      "url_kind": "facebook",
+      "meets": [
+        {
+          "when": "Mondays 8.30pm",
+          "where": "SUTD Sports Stadium"
+        },
+        {
+          "when": "Wednesdays 7.30pm",
+          "where": "Bukit Gombak Stadium"
+        },
+        {
+          "when": "Saturdays",
+          "where": "Various locations, e.g. Upper Peirce Reservoir and Punggol"
+        }
+      ],
+      "cost": "Free",
+      "who": "All ages and abilities",
+      "description": "A volunteer-run social running club that holds free weekly group runs and track sessions across Singapore, organised through its Facebook group, where runners RSVP to event posts. The schedule above is from Shopee's March 2026 round-up, and the marathon's 2026 listing shows runs on Mondays, Wednesdays, Thursdays and Saturdays.",
+      "active_evidence": "Listed on the 2026 BYD Singapore International Marathon run-clubs page; Shopee Singapore round-up, 3 Mar 2026",
+      "source_url": "https://shopee.sg/blog/running-clubs-singapore/"
+    },
+    {
+      "name": "Fast and Free Running Club (FFRC)",
+      "kind": "crew",
+      "focus": "road",
+      "url": "https://www.fastandfree.sg/",
+      "url_kind": "website",
+      "meets": [
+        {
+          "when": "Thursdays 7pm (\"Toasted Thursday\" intervals)",
+          "where": "Gate 4, 100PLUS Promenade, Singapore Sports Hub"
+        },
+        {
+          "when": "Saturdays 6.30am (\"Kaya Run\" long run)",
+          "where": "18 Robinson Road"
+        }
+      ],
+      "cost": "Free",
+      "who": "All paces (\"never too slow to start\"); SportPlus suggests intermediate runners",
+      "description": "A run crew founded in 2022 with a kaya-toast theme: its pacers are called Toasties, and the Saturday long runs end with kaya toast and coffee. Weekly details are posted in its Telegram channel.",
+      "active_evidence": "SportPlus.sg round-up, 3 Jan 2026; listed on the 2026 Singapore International Marathon run-clubs page",
+      "source_url": "https://www.sportplus.sg/post/where-to-find-structured-running-programs-in-singapore-for-marathon-and-hyrox-training"
+    },
+    {
+      "name": "Zephyr Running Club",
+      "kind": "club",
+      "focus": "road",
+      "url": "https://zephyr.org.sg/",
+      "url_kind": "website",
+      "meets": [
+        {
+          "when": "Mondays 6.30pm (tempo, 12-14 km)",
+          "where": "Red Dot Design Museum, Marina Bay"
+        },
+        {
+          "when": "Wednesdays 6.30pm (intervals)",
+          "where": "MOE Track & Field, Botanic Gardens (S259366)"
+        },
+        {
+          "when": "Saturdays 6.00pm (long run, 20-30 km)",
+          "where": "Rotates: Parkland Green, East Coast Park, or West Coast Park"
+        }
+      ],
+      "who": "Beginners to experienced runners, with pace groups at every session; joining is by referral, and members commit to running 50 km a month",
+      "description": "A non-profit club started at West Coast Park in 2021 whose members call themselves the Coconuts. It also raises money for charity. New runners join by messaging the club on Instagram or RedNote.",
+      "active_evidence": "Listed on the 2026 Singapore International Marathon run-clubs page; club website dated 2026",
+      "source_url": "https://zephyr.org.sg/"
+    },
+    {
+      "name": "Singapore Falcons RC",
+      "kind": "club",
+      "focus": "mixed",
+      "url": "https://www.singaporefalcons.com/",
+      "url_kind": "website",
+      "meets": [
+        {
+          "when": "Tuesdays (track session)"
+        },
+        {
+          "when": "Thursdays (tempo run)"
+        },
+        {
+          "when": "Saturdays and Sundays (long run)"
+        }
+      ],
+      "cost": "Guests run free with a member; membership is S$30 a year",
+      "who": "All abilities; membership is capped at 300 active members, with a wait list",
+      "description": "A non-profit amateur club affiliated with Singapore Athletics, covering road, track, trail, ultra and triathlon. It publishes a free 12-week adaptable training plan, and newcomers are asked to try a Tuesday track session before applying to join.",
+      "active_evidence": "Annual Membership 2026-27 page on its website",
+      "source_url": "https://www.singaporefalcons.com/membership-and-club-kit"
+    },
+    {
+      "name": "Singapore Shufflers",
+      "kind": "club",
+      "focus": "track",
+      "url": "https://singaporeshufflers.com/",
+      "url_kind": "website",
+      "meets": [
+        {
+          "when": "Mondays and Wednesdays 6.55am",
+          "where": "Home of Athletics"
+        },
+        {
+          "when": "Mondays and Wednesdays 7.45pm",
+          "where": "Bishan Stadium"
+        },
+        {
+          "when": "Fridays 6.55am",
+          "where": "Bukit Brown"
+        }
+      ],
+      "cost": "Free",
+      "who": "Committed intermediate to advanced distance runners; no walk-ins, so contact the club first",
+      "description": "A performance distance-running club that began in 2008 as a Monday Meetup group and now trains about 100 active members in seven ability-based groups. Sessions are 45-60 minutes, and runners warm up on their own before the start.",
+      "active_evidence": "2026 club 5K handicap result and a privacy policy updated 15 Aug 2026 on its website",
+      "source_url": "https://singaporeshufflers.com/training"
+    },
+    {
+      "name": "The Morning Run Club (TMRC)",
+      "kind": "crew",
+      "focus": "social",
+      "url": "https://www.tmrc.sg/",
+      "url_kind": "website",
+      "meets": [
+        {
+          "when": "Saturdays 7.30am (sets off 7.45am)",
+          "where": "Clusia Cove, Jurong Lake Gardens (nearest carpark: North Carpark)"
+        }
+      ],
+      "cost": "Free",
+      "who": "All levels; the pace is 7:00-7:30 min/km, with a pacer in front and a sweeper at the back",
+      "description": "A west-side social club that has run 5-7 km around Jurong Lake Gardens every Saturday since April 2024, followed by a long breakfast together. RSVPs go through Telegram.",
+      "active_evidence": "Club website dated 2026; listed on the 2026 Singapore International Marathon run-clubs page",
+      "source_url": "https://www.tmrc.sg/"
+    },
+    {
+      "name": "ASICS Running Club Singapore",
+      "kind": "brand_club",
+      "focus": "road",
+      "url": "https://www.asics.com/sg/en-sg/mk/runningclub",
+      "url_kind": "website",
+      "meets": [
+        {
+          "when": "Tuesdays 7pm",
+          "where": "Singapore Indoor Stadium (Carpark L)"
+        }
+      ],
+      "cost": "Free (register through the OneASICS programme)",
+      "who": "Various training groups; SportPlus suggests intermediate to advanced runners",
+      "description": "The ASICS brand club runs coached weekly sessions and publishes a monthly training programme, with groups for different race goals. SportPlus reports that some sessions are run jointly with Garmin Run Club.",
+      "active_evidence": "ASICS Singapore run-club page dated 2026; SportPlus.sg round-up, 3 Jan 2026",
+      "source_url": "https://www.asics.com/sg/en-sg/mk/runningclub"
+    },
+    {
+      "name": "PUMA Nitro Run Club Singapore",
+      "kind": "brand_club",
+      "focus": "road",
+      "url": "https://www.instagram.com/pumanitrorunclub_sg/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Tuesday evenings, 7pm",
+          "where": "Varies, e.g. Singapore Sports Hub (outside Shimano) or Yio Chu Kang Stadium"
+        },
+        {
+          "when": "One Saturday a month",
+          "where": "Varies, e.g. East Coast Park"
+        }
+      ],
+      "cost": "Free (slots capped)",
+      "who": "SportPlus suggests intermediate to advanced runners; there are programmes for 5/10 km, half marathon, marathon and HYROX",
+      "description": "The PUMA brand club, led by head coach Jacky Ong, has been performance-focused since early 2025. Sign-ups go through the club's Heylo group, and venues are posted on Instagram.",
+      "active_evidence": "SportPlus.sg round-up, 3 Jan 2026; Shopee Singapore round-up, 3 Mar 2026",
+      "source_url": "https://shopee.sg/blog/running-clubs-singapore/"
+    },
+    {
+      "name": "Garmin Run Club Singapore",
+      "kind": "brand_club",
+      "focus": "road",
+      "url": "https://www.instagram.com/garminrunclubsg/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Thursdays 7pm",
+          "where": "MOE (Evans Road) Stadium"
+        }
+      ],
+      "cost": "Free (some sessions have limited slots)",
+      "who": "Beginners to advanced runners",
+      "description": "The Garmin brand club runs coach-led interval, tempo and race-preparation sessions, with paced groups and a workout briefing before each session. Sign-ups are released on Garmin Singapore's social media.",
+      "active_evidence": "Shopee Singapore round-up, 3 Mar 2026; SportPlus.sg round-up, 3 Jan 2026",
+      "source_url": "https://shopee.sg/blog/running-clubs-singapore/"
+    },
+    {
+      "name": "The Social Running Club",
+      "kind": "crew",
+      "focus": "social",
+      "url": "https://www.instagram.com/thesocialrunningclub/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Saturdays 7.30am (Thursday runs also listed)",
+          "where": "Routes vary, e.g. around Marina Bay and Keppel"
+        }
+      ],
+      "cost": "Free",
+      "who": "All levels; runs are at conversational pace",
+      "description": "A friends-first run crew with relaxed, conversational-pace runs, often followed by coffee or breakfast. Weekly routes are posted on Telegram.",
+      "active_evidence": "Shopee Singapore round-up, 3 Mar 2026; listed on the 2026 Singapore International Marathon run-clubs page",
+      "source_url": "https://shopee.sg/blog/running-clubs-singapore/"
+    },
+    {
+      "name": "Volt Runners SG",
+      "kind": "crew",
+      "focus": "mixed",
+      "url": "https://www.instagram.com/voltrunnerssg/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Tuesdays 7pm (Track Tuesday)",
+          "where": "Serangoon Stadium"
+        },
+        {
+          "when": "Thursdays 7pm (social run)",
+          "where": "Nike, VivoCity Level 1"
+        }
+      ],
+      "cost": "Free",
+      "who": "All paces; track sessions are scaled to ability",
+      "description": "A run crew mixing speed sessions on a stadium track with a weekly social run from VivoCity. Updates are shared on Telegram and Instagram.",
+      "active_evidence": "Shopee Singapore round-up, 3 Mar 2026",
+      "source_url": "https://shopee.sg/blog/running-clubs-singapore/"
+    },
+    {
+      "name": "Easy Pace Run Club (EP*RC)",
+      "kind": "crew",
+      "focus": "social",
+      "url": "https://www.instagram.com/easypaceonly/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Fortnightly; times vary",
+          "where": "Locations vary (posted on Instagram and Telegram)"
+        }
+      ],
+      "cost": "Free",
+      "who": "Beginners welcome; four pace groups, including a walking group",
+      "description": "A run club built around comfortable, conversational pace, where members are called Easy Pacers. It is organised through Telegram and also has a Strava club.",
+      "active_evidence": "Shopee Singapore round-up, 3 Mar 2026; SportPlus.sg round-up, 3 Jan 2026",
+      "source_url": "https://www.sportplus.sg/post/best-running-clubs-in-singapore-to-join-in-2026-for-motivation-community-and-fitness-consistency"
+    },
+    {
+      "name": "Happy Pace Club",
+      "kind": "crew",
+      "focus": "social",
+      "url": "https://www.instagram.com/happypaceclub/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Weekday evenings (Wednesdays per SportPlus; the marathon's 2026 listing shows Tuesdays)",
+          "where": "Funan"
+        }
+      ],
+      "cost": "Free",
+      "who": "Women only; beginners welcome",
+      "description": "An all-female run crew offering easy-paced, pressure-free runs. Newcomers check Instagram for the week's run and turn up.",
+      "active_evidence": "SportPlus.sg round-up, 3 Jan 2026; listed on the 2026 Singapore International Marathon run-clubs page",
+      "source_url": "https://www.sportplus.sg/post/best-running-clubs-in-singapore-to-join-in-2026-for-motivation-community-and-fitness-consistency"
+    },
+    {
+      "name": "Run.JPG (Jolly Pace Group)",
+      "kind": "crew",
+      "focus": "social",
+      "url": "https://www.instagram.com/run.jpg_/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Wednesday evenings and Sundays"
+        }
+      ],
+      "who": "Beginners to intermediate runners",
+      "description": "A laid-back community founded in 2019 that pairs easy social running with group trips to races such as the Gold Coast Marathon.",
+      "active_evidence": "SportPlus.sg round-up, 3 Jan 2026; listed on the 2026 Singapore International Marathon run-clubs page",
+      "source_url": "https://singaporeinternationalmarathon.com/train/run-clubs/"
+    },
+    {
+      "name": "Big Boyz Run Club (BBRC)",
+      "kind": "crew",
+      "focus": "social",
+      "url": "https://www.instagram.com/bigboyz.runclub/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Sundays",
+          "where": "Mainly around Punggol"
+        }
+      ],
+      "who": "Slower runners and beginners; open to all genders despite the name",
+      "description": "A social club for slower runners, focused on consistency rather than speed. It also offers \"Boyz Night\" circuit sessions and takes part in charity runs.",
+      "active_evidence": "SportPlus.sg round-up, 3 Jan 2026; listed on the 2026 Singapore International Marathon run-clubs page",
+      "source_url": "https://www.sportplus.sg/post/best-running-clubs-in-singapore-to-join-in-2026-for-motivation-community-and-fitness-consistency"
+    },
+    {
+      "name": "The High Panters",
+      "kind": "crew",
+      "focus": "social",
+      "url": "https://www.instagram.com/thehighpanterssg/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Tuesdays, Wednesdays, Saturdays and Sundays"
+        }
+      ],
+      "who": "Beginners to intermediate runners; no pace groups",
+      "description": "A long-standing, inclusive run crew that uses running to raise awareness of social causes and funds for communities in need.",
+      "active_evidence": "SportPlus.sg round-up, 3 Jan 2026; listed on the 2026 Singapore International Marathon run-clubs page",
+      "source_url": "https://singaporeinternationalmarathon.com/train/run-clubs/"
+    },
+    {
+      "name": "Urban Milers",
+      "kind": "crew",
+      "focus": "road",
+      "url": "https://www.instagram.com/urbanmilers/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Wednesdays (plus Saturdays)",
+          "where": "CBD"
+        }
+      ],
+      "who": "Beginner-friendly, with multiple pace groups",
+      "description": "A CBD-based run club with beginner-friendly Wednesday runs, organised into multiple pace groups.",
+      "active_evidence": "Listed on the 2026 BYD Singapore International Marathon run-clubs page",
+      "source_url": "https://singaporeinternationalmarathon.com/train/run-clubs/"
+    },
+    {
+      "name": "X-Trailblazers",
+      "kind": "club",
+      "focus": "trail",
+      "url": "https://www.instagram.com/xtrailblazers.sg/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Wednesdays and Saturdays"
+        }
+      ],
+      "description": "A trail running community led by SEA Games athletes. It holds regular training and organises overseas trail races and training trips.",
+      "active_evidence": "Listed on the 2026 BYD Singapore International Marathon run-clubs page",
+      "source_url": "https://singaporeinternationalmarathon.com/train/run-clubs/"
+    },
+    {
+      "name": "SAFRA Running Club",
+      "kind": "club",
+      "focus": "road",
+      "url": "https://www.instagram.com/srctpy/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Tuesdays, Thursdays, Saturdays and Sundays (varies by chapter)",
+          "where": "Chapters in Punggol, Tampines, Toa Payoh and Jurong"
+        }
+      ],
+      "who": "All abilities",
+      "description": "A nationwide running club under SAFRA, with neighbourhood chapters in Punggol, Tampines, Toa Payoh and Jurong, each on its own Instagram account (@srcpunggol, @srctampines, @srctpy, @srcjurong). Members get perks such as race subsidies.",
+      "active_evidence": "Listed on the 2026 BYD Singapore International Marathon run-clubs page; Shopee Singapore round-up, 3 Mar 2026",
+      "source_url": "https://singaporeinternationalmarathon.com/train/run-clubs/"
+    },
+    {
+      "name": "GULP River Runners",
+      "kind": "brand_club",
+      "focus": "social",
+      "url": "https://www.gulpbeer.co/pages/run-club",
+      "url_kind": "website",
+      "meets": [
+        {
+          "when": "Thursdays 7pm",
+          "where": "GULP taproom, 7 Rodyk Street, Robertson Quay (start and finish)"
+        }
+      ],
+      "cost": "Small fee per run (S$5, as reported by SETHLUI.com)",
+      "who": "All paces; 5 km, 6 km and 9 km routes",
+      "description": "A weekly social run from a craft-beer taproom on Robertson Quay. Runners book through GULP's app or WhatsApp community.",
+      "active_evidence": "GULP run-club page on its 2026-dated website",
+      "source_url": "https://www.gulpbeer.co/pages/run-club"
+    },
+    {
+      "name": "Hash House Harriers Singapore (Father Hash)",
+      "kind": "hash",
+      "focus": "trail",
+      "url": "https://www.hhhs.org.sg/",
+      "url_kind": "website",
+      "meets": [
+        {
+          "when": "Mondays 6pm",
+          "where": "Varies each week (e.g. Springleaf Nature Park, 28 Sep 2026)"
+        }
+      ],
+      "cost": "Visitors S$25 for drinks plus S$15 for dinner",
+      "who": "Men only",
+      "description": "Singapore's original hash, founded in 1962, holds a weekly trail run followed by an \"on-on\" dinner. Bring a change of clothes; rinsing water is provided at the site.",
+      "active_evidence": "Run #3322 listed for 28 Sep 2026 on its website",
+      "source_url": "https://www.hhhs.org.sg/"
+    },
+    {
+      "name": "Singapore Hash House Harriets",
+      "kind": "hash",
+      "focus": "trail",
+      "url": "https://www.singaporeharriets.com/",
+      "url_kind": "website",
+      "meets": [
+        {
+          "when": "Wednesdays 6pm (gather 5.50pm)",
+          "where": "Varies each week (e.g. Newton Food Centre car park, 30 Sep 2026)"
+        }
+      ],
+      "cost": "Guest fee collected at the run site (cash or PayNow)",
+      "who": "Mixed, women-led; walkers and first-timers welcome",
+      "description": "A weekly social hash in which the pack follows a trail marked by the hares, then gathers for a circle and makan afterwards. Bring shoes you don't mind getting dirty, a water bottle and a change of clothes.",
+      "active_evidence": "Run #2676 listed for 30 Sep 2026 on its website",
+      "source_url": "https://www.singaporeharriets.com/"
+    }
+  ],
+  "coaches": [
+    {
+      "name": "ActiveSG Athletics Club - Distance Running Programme",
+      "kind": "coaching_business",
+      "url": "https://www.activesgcircle.gov.sg/academies-clubs/athletics/distance-running-programme",
+      "url_kind": "website",
+      "offers": "Coached group training with a customised programme, run in seasons, for everything from IPPT 2.4 km to competitive racing",
+      "where": "Bedok Stadium (Tue and Thu 6.30pm, Sat 7.30am); Yio Chu Kang Stadium (Mon and Wed 6.30pm, Sat 7.30am); Bukit Gombak (by invitation only)",
+      "credentials": "Programme of Sport Singapore's ActiveSG Athletics Club, led by head coach Steven Quek",
+      "description": "Sport Singapore's distance running group, open to runners aged 13 to 99. The fee per season is S$180 for ActiveSG members and S$257 for non-members.",
+      "active_evidence": "Programme page last updated 3 Aug 2026 (season 3 registration closed)",
+      "source_url": "https://www.activesgcircle.gov.sg/academies-clubs/athletics/distance-running-programme"
+    },
+    {
+      "name": "SSTARfitness",
+      "kind": "coaching_business",
+      "url": "https://www.facebook.com/sstar.fitness/",
+      "url_kind": "facebook",
+      "offers": "Structured training plans, coached public group runs, and running-gait classes",
+      "where": "Group sessions in Singapore (Tuesdays, Wednesdays, Thursdays, Saturdays and Sundays)",
+      "credentials": "Described by the marathon organiser as led by certified sports science coaches",
+      "description": "An endurance coaching service offering structured training and public runs for performance-focused runners. It also has a Strava club.",
+      "active_evidence": "Listed on the 2026 BYD Singapore International Marathon run-clubs page",
+      "source_url": "https://singaporeinternationalmarathon.com/train/run-clubs/"
+    },
+    {
+      "name": "Alpine & Asphalt Performance Coaching",
+      "kind": "coaching_business",
+      "url": "https://m.facebook.com/alpineasphaltultratrailrunningcoach/",
+      "url_kind": "facebook",
+      "offers": "Endurance coaching for road, track, trail and triathlon",
+      "where": "Singapore-based; the marathon's listing shows sessions on Tuesdays, Wednesdays, Thursdays, Saturdays and Sundays",
+      "credentials": "Described by the marathon organiser as offering licensed training",
+      "description": "An endurance coaching business based in Singapore and Europe, working with road, track, trail and triathlon athletes.",
+      "active_evidence": "Listed on the 2026 BYD Singapore International Marathon run-clubs page",
+      "source_url": "https://singaporeinternationalmarathon.com/train/run-clubs/"
+    }
+  ],
+  "last_updated": "2026-09-30",
+  "status": "active"
+}

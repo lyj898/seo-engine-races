@@ -1,0 +1,133 @@
+{
+  "city_id": "ho-chi-minh-city",
+  "slug": "ho-chi-minh-city",
+  "city": "Ho Chi Minh City",
+  "country": "Vietnam",
+  "area_note": "Ho Chi Minh City (Saigon), including the Sala / Thu Thiem area of Thu Duc, District 7 (Phu My Hung) and Binh Thanh (Gia Dinh Park)",
+  "intro": "Much of Ho Chi Minh City's group running happens in the Sala urban area in Thu Thiem. Several clubs meet there, and runners add hill work on the Thu Thiem bridge. Gia Dinh Park and Phu My Hung in District 7 are other regular bases, and RUNCLUB.VN also runs over the Thu Thiem and Ba Son bridges. Club sessions start early in the morning (around 5–6am) or in the evening (6:30–7pm). The scene mixes large Vietnamese community groups that organise on Facebook and Strava, brand-backed clubs (adidas, ASICS), expat-friendly groups such as RUNCLUB.VN, and hash kennels that run trails outside the city.",
+  "race_cities": [
+    "Ho Chi Minh"
+  ],
+  "clubs": [
+    {
+      "name": "Saigon Hash House Harriers (Saigon H3)",
+      "kind": "hash",
+      "focus": "social",
+      "url": "https://saigonhashers.com/",
+      "url_kind": "website",
+      "meets": [
+        {
+          "when": "Most Sundays, meet 1:15pm (bus departs 1:30pm sharp)",
+          "where": "Caravelle Hotel, Lam Son Square, District 1; bus to trails up to about an hour out of the city"
+        }
+      ],
+      "cost": "VND 300,000 for bus trips; VND 150,000 for city runs",
+      "who": "Vietnamese, expats and tourists of all ages and abilities; runners and walkers",
+      "description": "A social hash group, running since 1990, that lays running and walking trails in the countryside around Saigon and finishes with drinks. On Dong Nai trips the bus also picks up in District 2, on the Hanoi Highway near Estella.",
+      "active_evidence": "Website run calendar lists runs #1849–#1854, 4 Oct to 8 Nov 2026",
+      "source_url": "https://saigonhashers.com/"
+    },
+    {
+      "name": "Sophisticated Sirs of Saigon Hash House Harriers (S3H3)",
+      "kind": "hash",
+      "focus": "social",
+      "url": "https://sophisticatedsirsofsaigon.com/",
+      "url_kind": "website",
+      "meets": [
+        {
+          "when": "Every other Friday, check-in 7pm, run 7:30pm",
+          "where": "Varies around the city (published on the website before each hash)"
+        }
+      ],
+      "cost": "Hash cash payable (amount not published)",
+      "who": "Men only",
+      "description": "A men-only chapter of the Hash House Harriers that runs through Saigon's alleys and lanes every other Friday, with walk (about 5 km) and run (about 8 km) options and a beer stop. It is listed as a sister kennel of Saigon H3.",
+      "active_evidence": "Website 'Next Hash' post: Hash #109, District 7, Friday 18 Sep 2026",
+      "source_url": "https://sophisticatedsirsofsaigon.com/"
+    },
+    {
+      "name": "Founders Running Club :: Ho Chi Minh City",
+      "kind": "crew",
+      "focus": "social",
+      "url": "https://www.meetup.com/founders-running-club-ho-chi-minh-city/",
+      "url_kind": "meetup",
+      "meets": [
+        {
+          "when": "Saturdays 6:00am",
+          "where": "Every Half Coffee Roasters, Sala (Tower A, 62 Hoang The Thien, An Khanh ward)"
+        }
+      ],
+      "who": "Founders, investors, tech and creative people; any pace, with pacers; pets, friends and family welcome",
+      "description": "The Ho Chi Minh City chapter of Founders Running Club, a running-and-networking group active in 35+ cities worldwide. The weekly easy run finishes with coffee and conversation. Announcements go out through a WhatsApp group.",
+      "active_evidence": "Meetup lists weekly events on 3, 10, 17 and 24 Oct 2026",
+      "source_url": "https://www.meetup.com/founders-running-club-ho-chi-minh-city/"
+    },
+    {
+      "name": "adidas Runners Saigon",
+      "kind": "brand_club",
+      "focus": "road",
+      "url": "https://www.strava.com/clubs/adidasrunnerssaigon",
+      "url_kind": "strava",
+      "meets": [],
+      "who": "Open community backed by adidas; sessions led by coaches, crew and pacers",
+      "description": "adidas's Saigon running community, which also has a large Facebook group. VnExpress (Nov 2024) reported runs combined with strength work, yoga or talks on Wednesdays, Saturdays and Sundays, following an adidas Runners marathon curriculum. The club posts its weekly calendar and recovery sessions to Strava.",
+      "active_evidence": "Strava posts: 'AR Saigon – Weekly Calendar' (20 Apr 2026), Monday recovery session (27 Apr 2026), AR Saigon & AR Hanoi 'Two Sub Two Challenge' (Apr 2026)",
+      "source_url": "https://www.strava.com/clubs/adidasrunnerssaigon"
+    },
+    {
+      "name": "ASICS Running Club Vietnam (Ho Chi Minh City)",
+      "kind": "brand_club",
+      "focus": "road",
+      "url": "https://www.asics.com/vn/en-vn/mk/runningclub",
+      "url_kind": "website",
+      "meets": [
+        {
+          "when": "Tuesday to Thursday, 6:30pm",
+          "where": "Gia Dinh Stadium, 2A Phan Chu Trinh, Binh Thanh"
+        }
+      ],
+      "who": "All runners; inclusive community with experienced coaches and crew",
+      "description": "ASICS Vietnam's running club, with sessions built around helping members reach personal bests. Registration for sessions and a monthly schedule are handled through the ASICS page and the club's Facebook group.",
+      "active_evidence": "Schedule on ASICS Vietnam's live club page (© 2026), checked 30 Sep 2026; no dated 2026 session post found",
+      "source_url": "https://www.asics.com/vn/en-vn/mk/runningclub"
+    },
+    {
+      "name": "Giadinh Runners",
+      "kind": "club",
+      "focus": "road",
+      "url": "https://www.strava.com/clubs/giadinhrunners",
+      "url_kind": "strava",
+      "meets": [],
+      "who": "Open to all regardless of age or gender",
+      "description": "A community of runners who train in and around Gia Dinh Park, with about 1,360 members on Strava. Members post Saturday-morning runs on the club page.",
+      "active_evidence": "Member posts on the Strava club page, Jun–Aug 2026 (member-authored, not club announcements)",
+      "source_url": "https://www.strava.com/clubs/giadinhrunners"
+    }
+  ],
+  "coaches": [
+    {
+      "name": "Sala Running Hub",
+      "kind": "coaching_business",
+      "url": "https://salarunninghub.com/",
+      "url_kind": "website",
+      "offers": "Coaching programmes for road running, trail running and triathlon (personalised plans, race tactics, nutrition); workshops and group events; recovery and massage services",
+      "where": "68 Nguyen Co Thach, An Khanh (Sala), Ho Chi Minh City",
+      "description": "A runners' hub in Sala, operated by the running retailer Thế Giới Chạy Bộ, that combines coaching, a shop, recovery services and a cafe. It also hosts workshops and runs.",
+      "active_evidence": "Website events: sports-stroke workshop 17 Jan 2026; Dinh Harvest Spring 2026 (28 Feb 2026)",
+      "source_url": "https://salarunninghub.com/huan-luyen/"
+    },
+    {
+      "name": "Trần Anh Tuấn running coaching",
+      "kind": "coaching_business",
+      "url": "https://trananhtuan.com/coach/",
+      "url_kind": "website",
+      "offers": "Tiered running programmes from beginner to 10K/21K/42K time goals, personalised training; Ironman/triathlon coaching also offered",
+      "where": "Coaches listed in District 7 and Thu Duc, Ho Chi Minh City (others in Hanoi)",
+      "description": "A coaching team run by Trần Anh Tuấn, who founded the 'Zone 2 – Chạy Bộ Nhịp Tim' heart-rate running group. The team's coaches are based in both Hanoi and Ho Chi Minh City. The site also keeps a directory of Vietnamese running clubs.",
+      "active_evidence": "Site's running-club directory updated 13 Apr 2026; coach page itself undated",
+      "source_url": "https://trananhtuan.com/coach/"
+    }
+  ],
+  "last_updated": "2026-09-30",
+  "status": "active"
+}
