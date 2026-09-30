@@ -1,9 +1,9 @@
 {
   "review_id": "bohol-international-marathon-2026",
   "slug": "bohol-international-marathon-2026",
-  "entity_id": "bohol-international-marathon-2026",
-  "title": "Bohol International Marathon 2026 Review: What the 2026 Race Was Like",
-  "seo_title": "Bohol International Marathon 2026 Review: Field, Aid, Times",
+  "entity_id": "bohol-international-marathon-2027",
+  "title": "Bohol International Marathon 2027 Review: What the 2026 Race Was Like",
+  "seo_title": "Bohol International Marathon Review: Field, Aid, Times",
   "meta_description": "Bohol International Marathon 2026 review: 5,600+ runners on Panglao, DJs and a sari-sari store stop on the course, winning and podium times, and what was never published.",
   "dek": "What is known about the 2026 race on Panglao on 30 August: the size of the field, the support on the course, how fast the podiums were, and what the organisers never published.",
   "verdict": "Enter if you want a destination race on Panglao with a podium within reach. The 2026 race drew more than 5,600 runners, up from 3,000 in 2024, and the organisers put their effort into the travelling runner: welcome lounges at the airport and seaport, DJs and enhanced hydration stations on the course, and a sari-sari store stop with local snacks. Third place in the women's marathon was 3:39:47. The catch is how little is published: no start times, route map or time limits for 2026 could be found, and there is no airport weather record for race morning. Ask the organiser for all three before you book, and reserve a room early.",
@@ -12,7 +12,7 @@
     "rows": [
       {
         "label": "Date",
-        "value": "Sunday 30 August 2026. Next date not yet published"
+        "value": "Sunday 30 August 2026. Next: Sunday 22 August 2027"
       },
       {
         "label": "Field",
@@ -71,7 +71,7 @@
       "paragraphs": [
         "Yes, if you want a marathon holiday on Panglao, a growing field and on-course support with local flavour. It is also a realistic podium chance for a woman around 3:40 or a man around 2:45.",
         "Think twice if you need to know the start time, the route and the time limit before you enter. None of them for 2026 could be found in any published source, and nor could the 2026 entry fees. For reference, in 2025 the marathon cost ₱3,100, the half ₱2,800 and the 10 km and 5 km ₱1,700 each; the 42 km, 21 km and 10 km included an event shirt, a medal, a finisher shirt and a post-race meal, and race kits were collected at the BE Grand Convention Center over the two days before the race [7].",
-        "The resort's hosting deal runs through 2030 [2], but no date for 2027 had been published when this was written. Book a room as soon as you enter, since the race weekend filled hotels across the island in 2026 [2].",
+        "The resort's hosting deal runs through 2030 [2], and the 2027 race is on Sunday 22 August 2027, according to its entry page. Book a room as soon as you enter, since the race weekend filled hotels across the island in 2026 [2].",
         "Nobody from this site ran the race. This review draws on a local news report of the 2026 race, reports on the 2024 race, the organiser's announcements, a race listing and the airport weather archive."
       ]
     }
@@ -149,11 +149,11 @@
     },
     {
       "question": "Who hosts the Bohol International Marathon?",
-      "answer": "BE Grand Resort Bohol in Panglao, which gives the race its name. A three-year hosting deal signed in 2024 ran to 2026, and on race day in 2026 the resort and the organisers extended the partnership through 2030. No date for the 2027 race had been published."
+      "answer": "BE Grand Resort Bohol in Panglao, which gives the race its name. A three-year hosting deal signed in 2024 ran to 2026, and on race day in 2026 the resort and the organisers extended the partnership through 2030. The 2027 race is on Sunday 22 August 2027."
     }
   ],
   "editorial_notes": "Rewritten 2026-09-29 to the template, about the race run on 30 August 2026. Thin material: one post-race report, so the review is short. The Cebu Daily News page returns a bot check to this session's fetches; its text was read from a copy the coordinating session saved from an ordinary browser page load. The report's podium lists are unlabelled; distance labels are inferred from the times, and the review says so. 'World Athletics-accredited' and 'fourth edition' are the report's words; the race itself is older (listings go back to 2012); the resort's hosting deal dates from 2024. No start times, route map, time limits or 2026 fees could be found; 2025 fees are given as last year's. No local airport weather record exists for race morning, so there is no weather section. Official results sit behind a bot check and were not used. No first-hand runner account of 2026 was found. No rating.",
   "published_at": "2026-08-09T06:45:00.000Z",
-  "last_updated": "2026-09-28",
+  "last_updated": "2026-09-30",
   "status": "active"
 }
