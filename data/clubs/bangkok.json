@@ -313,6 +313,24 @@
       "description": "A fortnightly Sunday-afternoon hash with a 2026 committee and posted run directions.",
       "active_evidence": "Run #665 on 11 Oct 2026",
       "source_url": "https://www.bangkokhash.com/siamsunday/"
+    },
+    {
+      "name": "Bangkok Sabai Saturday Hash (BSSH3)",
+      "kind": "hash",
+      "focus": "trail",
+      "url": "https://bangkoksaturdayhash.com/",
+      "url_kind": "website",
+      "meets": [
+        {
+          "when": "Selected Saturdays, meet 13:45, run starts 15:00 (dates on the website)",
+          "where": "Bus from CHARM Bistro, On Nut BTS area, to a countryside trail outside Bangkok"
+        }
+      ],
+      "cost": "Paid per run: run/walk fee plus optional return bus, booked on the website",
+      "who": "All fitness levels; run, jog or walk; family-friendly, children welcome with parents",
+      "description": "A non-profit social running and walking hash that takes a bus from central Bangkok to countryside trails, typically 5-7 km and 60-90 minutes, followed by refreshments at the run site.",
+      "active_evidence": "Website lists upcoming runs on 10 Oct and 31 Oct 2026 and a notice about the cancelled 26 Sep 2026 run",
+      "source_url": "https://bangkoksaturdayhash.com/"
     }
   ],
   "coaches": [

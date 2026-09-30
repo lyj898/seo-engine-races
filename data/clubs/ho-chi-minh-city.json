@@ -102,6 +102,28 @@
       "description": "A community of runners who train in and around Gia Dinh Park, with about 1,360 members on Strava. Members post Saturday-morning runs on the club page.",
       "active_evidence": "Member posts on the Strava club page, Jun–Aug 2026 (member-authored, not club announcements)",
       "source_url": "https://www.strava.com/clubs/giadinhrunners"
+    },
+    {
+      "name": "CrossFit Thao Dien Free Run Club",
+      "kind": "brand_club",
+      "focus": "road",
+      "url": "https://www.crossfitthaodien.com/post/free-run-club-in-thao-dien-start-your-day-strong",
+      "url_kind": "website",
+      "meets": [
+        {
+          "when": "Tuesdays 6:00am (interval session)",
+          "where": "CrossFit Thao Dien, 3-5 Le Van Mien, An Khanh ward (Thao Dien)"
+        },
+        {
+          "when": "Fridays 6:00am (easy Zone 2 5 km loop around Thao Dien)",
+          "where": "CrossFit Thao Dien, 3-5 Le Van Mien, An Khanh ward (Thao Dien)"
+        }
+      ],
+      "cost": "Free; no gym membership required",
+      "who": "Open to everyone, from first-time runners to experienced runners; coaches adapt the workout to each level",
+      "description": "A free run club hosted by the CrossFit Thao Dien gym, with a coached interval session on Tuesdays and a conversational-pace 5 km loop of Thao Dien on Fridays.",
+      "active_evidence": "Gym blog post announcing the run club, published 13 Jul 2026",
+      "source_url": "https://www.crossfitthaodien.com/post/free-run-club-in-thao-dien-start-your-day-strong"
     }
   ],
   "coaches": [

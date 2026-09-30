@@ -474,6 +474,87 @@
       "description": "A weekly social hash in which the pack follows a trail marked by the hares, then gathers for a circle and makan afterwards. Bring shoes you don't mind getting dirty, a water bottle and a change of clothes.",
       "active_evidence": "Run #2676 listed for 30 Sep 2026 on its website",
       "source_url": "https://www.singaporeharriets.com/"
+    },
+    {
+      "name": "Lion City Hash House Harriers (LCH3)",
+      "kind": "hash",
+      "focus": "social",
+      "url": "https://lioncityhhh.com/",
+      "url_kind": "website",
+      "meets": [
+        {
+          "when": "Fridays 6pm",
+          "where": "Run site changes weekly; see the hare line"
+        }
+      ],
+      "who": "Mixed hash; walkers and hikers also welcome",
+      "description": "A mixed hash that has run every Friday since 1982 and calls itself a running club with a drinking problem. Run details and a hare line are posted on the club website.",
+      "active_evidence": "Hash Run #2,220 and the 2,222 Anniversary Run posted 26 Sep 2026",
+      "source_url": "https://lioncityhhh.com/contacts/"
+    },
+    {
+      "name": "Seletar Hash House Harriers (SH3)",
+      "kind": "hash",
+      "focus": "social",
+      "url": "http://seletar.hash.org.sg/",
+      "url_kind": "website",
+      "meets": [
+        {
+          "when": "Tuesdays 6pm",
+          "where": "Run site changes weekly; see the hare line"
+        }
+      ],
+      "cost": "Guest fee S$30",
+      "who": "Men only",
+      "description": "A men's hash running on Tuesday evenings since 1980. The club posts its upcoming runs and a historical hare line from run number 1.",
+      "active_evidence": "Run #2398 listed for Tuesday 29 Sep 2026 at the URA car park, Upper East Coast Road",
+      "source_url": "http://seletar.hash.org.sg/"
+    },
+    {
+      "name": "Kampong Hash House Harriers",
+      "kind": "hash",
+      "focus": "social",
+      "url": "http://kampong.hash.org.sg/",
+      "url_kind": "website",
+      "meets": [
+        {
+          "when": "3rd Saturday of the month, 5:30pm",
+          "where": "Run site changes monthly"
+        }
+      ],
+      "who": "Mixed hash",
+      "description": "A mixed hash that runs once a month, on the third Saturday. The website lists the next run and a log of past runs back to 1999.",
+      "active_evidence": "Run 301 listed for Saturday 19 Sep 2026 at Bidadari Park carpark",
+      "source_url": "http://kampong.hash.org.sg/"
+    },
+    {
+      "name": "Singapore Hash House Horrors",
+      "kind": "hash",
+      "focus": "social",
+      "url": "http://hashhousehorrors.com/",
+      "url_kind": "website",
+      "meets": [
+        {
+          "when": "Alternate Sundays 4:30pm",
+          "where": "Run site changes; see the website"
+        }
+      ],
+      "who": "Children's hash for families",
+      "description": "A hash for children, set by member families on alternate Sunday afternoons. Recent runs have drawn 79 to 134 participants, according to the club's own run reports.",
+      "active_evidence": "Hash #1019 (National Day) and #1020 (Bukit Brown) reported 13 Sep 2026",
+      "source_url": "http://hashhousehorrors.com/"
+    },
+    {
+      "name": "Mountain Goat Running Group (MGRG)",
+      "kind": "club",
+      "focus": "trail",
+      "url": "https://utsg.info/mgrg",
+      "url_kind": "website",
+      "meets": [],
+      "who": "Trail runners",
+      "description": "A volunteer-run trail running group that organises the Ultra Trail Singapore (UTSG) races and the MG Challenge. FitnessInSingapore lists weekend sessions on roads, hills and trails.",
+      "active_evidence": "UTSG 2026 and MG Challenge 2026 pages on utsg.info; listed in FitnessInSingapore's run club directory (Mar 2026)",
+      "source_url": "https://utsg.info/mgrg-mountain-goat-running-group/who-are-we/"
     }
   ],
   "coaches": [
@@ -512,6 +593,29 @@
       "description": "An endurance coaching business based in Singapore and Europe, working with road, track, trail and triathlon athletes.",
       "active_evidence": "Listed on the 2026 BYD Singapore International Marathon run-clubs page",
       "source_url": "https://singaporeinternationalmarathon.com/train/run-clubs/"
+    },
+    {
+      "name": "Elevate Performance Coaching",
+      "kind": "coaching_business",
+      "url": "https://www.elevateperformancecoaching.com/",
+      "url_kind": "website",
+      "offers": "Weekly coached Track Squad sessions (S$30 each), 1:1 online coaching, plus swim squads and triathlon camps",
+      "where": "FitnessInSingapore lists Tuesday tempo sessions at Bedok Stadium and Thursday speed sessions at Evans Road",
+      "credentials": "IRONMAN and World Triathlon certified coaches (as published)",
+      "description": "A Singapore triathlon and endurance coaching team founded in 2019. Its Track Squad is aimed at runners working on speed and stamina.",
+      "active_evidence": "H2/2026 Triathlon Training Camp and Track Squad bookings listed on the site",
+      "source_url": "https://www.elevateperformancecoaching.com/booksquadsessions"
+    },
+    {
+      "name": "FITFAMCO",
+      "kind": "coaching_business",
+      "url": "https://www.fitfamco.com/running",
+      "url_kind": "website",
+      "offers": "1-on-1 running coaching and marathon training plans, including running form and technique",
+      "where": "Coaches listed at Kallang, Bedok, Serangoon and Yishun stadiums, and Lavender",
+      "description": "A Singapore personal training company with a 1-on-1 running coaching programme for beginners through to marathoners.",
+      "active_evidence": "Blog posts dated 1 Sep 2026 and Aug 2026 on fitfamco.com/resource",
+      "source_url": "https://www.fitfamco.com/running"
     }
   ],
   "last_updated": "2026-09-30",
