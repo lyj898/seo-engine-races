@@ -64,8 +64,14 @@
     }
   ],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://vm.vnexpress.net/ha-noi-2026",
+      "type": "official_website"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-09-30",
   "status": "active"
 }

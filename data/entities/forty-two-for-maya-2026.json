@@ -7,9 +7,20 @@
   "research_highlights": [],
   "research_watchouts": [],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://42formaya.org/race",
+      "type": "official_website"
+    },
+    {
+      "label": "Entry page on RunCoco",
+      "url": "https://run-coco.com/fortytwoformaya/",
+      "type": "registration"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-09-30",
   "status": "needs_review",
   "reliability_score": 30,
   "entity_id": "forty-two-for-maya-2026",
@@ -26,7 +37,8 @@
     "venue": "Agua Vista Resort",
     "price_range": "PHP 1,499",
     "city": "Naga City, Camarines Sur",
-    "country": "Philippines"
+    "country": "Philippines",
+    "organizer": "Forty Two for Maya"
   },
   "faqs": [
     {
@@ -54,6 +66,12 @@
       "label": "Pinoy Fitness event listing",
       "type": "aggregator",
       "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://run-coco.com/fortytwoformaya/",
+      "label": "Entry page on RunCoco",
+      "type": "registration_platform",
+      "last_checked": "2026-09-30"
     }
   ]
 }

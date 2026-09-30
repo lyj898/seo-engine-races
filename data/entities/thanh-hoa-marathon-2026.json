@@ -10,9 +10,15 @@
     "The route is described as planned; start times not published beyond the iRace 03:00-12:00 window."
   ],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Official Facebook page",
+      "url": "https://www.facebook.com/thanhhoacitytrailmarathon/",
+      "type": "official_social"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-09-30",
   "status": "needs_review",
   "reliability_score": 30,
   "entity_id": "thanh-hoa-marathon-2026",
@@ -60,6 +66,12 @@
       "label": "Linh Academy running calendar",
       "type": "aggregator",
       "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.facebook.com/thanhhoacitytrailmarathon/",
+      "label": "Official race page",
+      "type": "social",
+      "last_checked": "2026-09-30"
     }
   ]
 }

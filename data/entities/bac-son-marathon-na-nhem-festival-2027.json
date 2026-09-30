@@ -10,9 +10,15 @@
     "The 5BIB visible date range reads 20/02-21/03/2027 (apparent typo); race day 21/02 comes from its structured data and Vietnam's Best Marathons. Organiser not named on the pages read."
   ],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on 5BIB",
+      "url": "https://5bib.com/vi/events/bac-son-marathon---na-nhem-festival-2027",
+      "type": "official_website"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-09-30",
   "status": "needs_review",
   "reliability_score": 30,
   "entity_id": "bac-son-marathon-na-nhem-festival-2027",

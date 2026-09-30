@@ -7,7 +7,7 @@
   "short_description": "A multi-distance road race in Bangkok, Thailand, over two days: the half marathon on Saturday 28 November 2026 from MBK Center, and the marathon, 10 km and 4.5 km on Sunday 29 November from Sanam Luang.",
   "ai_summary": "The Amazing Thailand Marathon Bangkok (ATMB) is held over two days in Bangkok, Thailand. The half marathon starts at 4am on Saturday 28 November 2026 from MBK Center on Phaya Thai Road; the marathon (2am), 10 km and 4.5 km start on Sunday 29 November in front of the Supreme Court at Sanam Luang. Organised by the Royal Thai Government alongside the Bangkok Metropolitan Administration, Royal Thai Police, World Athletics and Thailand Tri-League, and presented by TOYOTA, it offers full marathon, half marathon, 10 km and 4.5 km distances. Marathon entry costs 1,400 to 1,800 baht.",
   "core_facts": {
-    "date": "2026-11-28 to 2026-11-29",
+    "date": "2026-11-29",
     "distance_km": [
       42.195,
       21.1,
@@ -68,6 +68,12 @@
       "label": "ahotu.com",
       "type": "aggregator",
       "last_checked": "2026-07-20"
+    },
+    {
+      "url": "https://thailandtrileagueonline.com/atmb26/registrations",
+      "label": "Entry page on Thailand Tri-League Online",
+      "type": "registration_platform",
+      "last_checked": "2026-09-30"
     }
   ],
   "affiliate_links": [],
@@ -79,6 +85,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-09-30",
   "status": "needs_review"
 }

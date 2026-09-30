@@ -19,7 +19,8 @@
     "organizer": "The Concept Exhibition (M) Sdn Bhd with Jabatan Belia dan Sukan WPKL (JBSWPKL)",
     "venue": "Dataran Putrajaya, Putrajaya",
     "city": "Putrajaya",
-    "country": "Malaysia"
+    "country": "Malaysia",
+    "price_range": "MYR 25-130"
   },
   "pros": [
     "Low entry fees: RM65 to RM90 for Malaysians in the 2025 half marathon",
@@ -109,8 +110,19 @@
     }
   ],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://www.hsnputrajaya.my/",
+      "type": "official_website"
+    },
+    {
+      "label": "Entry page on Race Roster",
+      "url": "https://raceroster.com/events/2026/139262/hsn-putrajaya-2026",
+      "type": "registration"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-08",
+  "last_updated": "2026-09-30",
   "status": "needs_review"
 }

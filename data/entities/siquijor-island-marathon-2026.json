@@ -17,7 +17,9 @@
     "primary_distance_km": 42.195,
     "venue": "Siquijor",
     "city": "Siquijor",
-    "country": "Philippines"
+    "country": "Philippines",
+    "organizer": "The Big S'Cool Walk",
+    "price_range": "PHP 949-2,400"
   },
   "pros": [
     "Multiple distance options (42.195 km, 21.1 km, 10 km, 5 km) suit different runner levels",
@@ -64,11 +66,34 @@
       "label": "pinoyfitness.com",
       "type": "aggregator",
       "last_checked": "2026-08-25"
+    },
+    {
+      "url": "https://enter.thebigscoolwalk.org/siquijormarathon2026",
+      "label": "Official race page",
+      "type": "official",
+      "last_checked": "2026-09-30"
+    },
+    {
+      "url": "https://thebigscoolwalk.myruntime.com/register/siquijor-island-marathon",
+      "label": "Entry page on MyRunTime",
+      "type": "registration_platform",
+      "last_checked": "2026-09-30"
     }
   ],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://enter.thebigscoolwalk.org/siquijormarathon2026",
+      "type": "official_website"
+    },
+    {
+      "label": "Entry page on MyRunTime",
+      "url": "https://thebigscoolwalk.myruntime.com/register/siquijor-island-marathon",
+      "type": "registration"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-09-30",
   "status": "archived"
 }

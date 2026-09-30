@@ -18,7 +18,8 @@
     "organizer": "SMOKE10 Events",
     "venue": "Clark Parade Grounds",
     "city": "Angeles City / Clark, Pampanga",
-    "country": "Philippines"
+    "country": "Philippines",
+    "price_range": "PHP 790-1,890"
   },
   "pros": [
     "Multiple distance options (21.1km, 10km, 5km, 3km) suit different runner levels",
@@ -53,6 +54,12 @@
       "label": "pinoyfitness.com",
       "type": "aggregator",
       "last_checked": "2026-08-25"
+    },
+    {
+      "url": "https://smoke10events.myruntime.com/register/clark-phil-kor-half-marathon-2026",
+      "label": "Official race page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-30"
     }
   ],
   "affiliate_links": [],
@@ -64,6 +71,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-09-30",
   "status": "active"
 }

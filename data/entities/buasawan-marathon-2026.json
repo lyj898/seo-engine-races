@@ -7,9 +7,15 @@
   "research_highlights": [],
   "research_watchouts": [],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on Regis.run",
+      "url": "https://www.regis.run/event/buasawanmarathon2",
+      "type": "official_website"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-09-30",
   "status": "needs_review",
   "reliability_score": 30,
   "entity_id": "buasawan-marathon-2026",

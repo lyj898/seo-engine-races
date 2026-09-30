@@ -7,9 +7,15 @@
   "research_highlights": [],
   "research_watchouts": [],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on MyRunTime",
+      "url": "https://jcirevents.myruntime.com/register/subic-bay-freeport-zone-42km-challenge",
+      "type": "official_website"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-09-30",
   "status": "needs_review",
   "reliability_score": 30,
   "entity_id": "subic-bay-freeport-zone-42km-challenge-2026",
@@ -28,7 +34,7 @@
     "primary_distance_km": 42.195,
     "venue": "Subic Bay Boardwalk",
     "organizer": "JCIR Events Management",
-    "price_range": "PHP 1,050-3,050",
+    "price_range": "PHP 1,450-3,050",
     "city": "Subic Bay Freeport Zone / Olongapo City",
     "country": "Philippines"
   },

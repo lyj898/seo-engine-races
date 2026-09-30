@@ -7,9 +7,15 @@
   "research_highlights": [],
   "research_watchouts": [],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on MyRunTime",
+      "url": "https://myruntime.com/register/boracay-island-360-marathon-2027",
+      "type": "official_website"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-09-30",
   "status": "needs_review",
   "reliability_score": 30,
   "entity_id": "boracay-island-360-marathon-2027",
@@ -27,9 +33,10 @@
     ],
     "primary_distance_km": 42.195,
     "venue": "Bulabog Beach, Boracay Island",
-    "organizer": "Boracay 360",
+    "organizer": "Ultramarathon Sports Events",
     "city": "Malay, Aklan",
-    "country": "Philippines"
+    "country": "Philippines",
+    "price_range": "PHP 1,500-3,200"
   },
   "faqs": [
     {

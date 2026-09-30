@@ -7,9 +7,20 @@
   "research_highlights": [],
   "research_watchouts": [],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://www.kalasinmarathon.com/",
+      "type": "official_website"
+    },
+    {
+      "label": "Entry page on racethai.com",
+      "url": "https://racethai.com/event/detail/12/Kalasin%20Marathon%202026",
+      "type": "registration"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-09-30",
   "status": "needs_review",
   "reliability_score": 30,
   "entity_id": "kalasin-marathon-2026",
@@ -63,6 +74,12 @@
       "label": "RUNLAH full-marathon calendar (Thailand)",
       "type": "aggregator",
       "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://racethai.com/event/detail/12/Kalasin%20Marathon%202026",
+      "label": "Entry page on racethai.com",
+      "type": "registration_platform",
+      "last_checked": "2026-09-30"
     }
   ]
 }

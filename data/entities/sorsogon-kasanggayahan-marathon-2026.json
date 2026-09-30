@@ -4,8 +4,8 @@
   "name": "Sorsogon Kasanggayahan Marathon 2026",
   "category_id": "full-marathon",
   "region_id": "philippines",
-  "short_description": "A 42.195km full marathon in Sorsogon City, Philippines, taking place on October 18, 2026 at the Sorsogon Sports Arena.",
-  "ai_summary": "The Sorsogon Kasanggayahan Marathon 2026 is a full marathon covering 42.195 kilometers, scheduled for October 18, 2026 in Sorsogon City, Philippines. The race starts and is based at the Sorsogon Sports Arena and is organized by Off Ground Events.",
+  "short_description": "A 42.195km full marathon in Sorsogon City, Philippines, taking place on October 18, 2026 at the Sorsogon Sports Complex.",
+  "ai_summary": "The Sorsogon Kasanggayahan Marathon 2026 is a full marathon covering 42.195 kilometers, scheduled for October 18, 2026 in Sorsogon City, Philippines. The race starts and is based at the Sorsogon Sports Complex and is organized by Off Ground Events.",
   "core_facts": {
     "date": "2026-10-18",
     "distance_km": [
@@ -13,13 +13,14 @@
     ],
     "primary_distance_km": 42.195,
     "organizer": "Off Ground Events",
-    "venue": "Sorsogon Sports Arena, Sorsogon City",
+    "venue": "Sorsogon Sports Complex, Sorsogon City",
     "city": "Sorsogon City",
-    "country": "Philippines"
+    "country": "Philippines",
+    "price_range": "PHP 950-2,400"
   },
   "pros": [
     "Standard full marathon distance of 42.195km for serious distance runners",
-    "Held at a dedicated venue, the Sorsogon Sports Arena, in Sorsogon City",
+    "Held at a dedicated venue, the Sorsogon Sports Complex, in Sorsogon City",
     "Organized by a named event organizer, Off Ground Events"
   ],
   "cons": [
@@ -27,11 +28,11 @@
   ],
   "excerpt_quotes": [],
   "research_highlights": [
-    "The 2026 edition offers four distances: 42KM, 21KM, 10KM, and 5KM, based at Sorsogon Sports Arena.",
+    "The 2026 edition offers four distances: 42KM, 21KM, 10KM, and 5KM, based at Sorsogon Sports Complex.",
     "Registration fees are listed as ₱2,400 (42K), ₱1,800 (21K), ₱1,000 (10K), and ₱950 (5K).",
     "The race is timed to coincide with the Kasanggayahan Festival, described by the organizer as \"a festival running experience celebrating health, fitness, sports tourism, and the culture of Sorsogon\".",
     "The Kasanggayahan Festival period (mid-to-late October) in Sorsogon includes parades, concerts, and cultural performances happening around the same dates as the race, so runners can expect a festival atmosphere and possible road/event congestion in the city during race week.",
-    "This is a newer event on the Off Ground Events calendar; the Sorsogon Sports Arena venue has also hosted other local races such as the Ciudad De Sorsogon Marathon and the National Milo Marathon's Sorsogon leg, which has drawn around 10,000 runners in recent years."
+    "This is a newer event on the Off Ground Events calendar; the Sorsogon Sports Complex venue has also hosted other local races such as the Ciudad De Sorsogon Marathon and the National Milo Marathon's Sorsogon leg, which has drawn around 10,000 runners in recent years."
   ],
   "research_watchouts": [],
   "research_confidence": "low",
@@ -47,7 +48,7 @@
     },
     {
       "question": "Where is the race held?",
-      "answer": "The race is held at the Sorsogon Sports Arena in Sorsogon City, Philippines. Sorsogon City serves as the host city for the entire event, and the Sports Arena functions as the venue tied to the marathon, organized by Off Ground Events."
+      "answer": "The race is held at the Sorsogon Sports Complex in Sorsogon City, Philippines. Sorsogon City serves as the host city for the entire event, and the Sports Complex functions as the venue tied to the marathon, organized by Off Ground Events."
     }
   ],
   "reliability_score": 10,
@@ -61,11 +62,23 @@
       "label": "pinoyfitness.com",
       "type": "aggregator",
       "last_checked": "2026-08-25"
+    },
+    {
+      "url": "https://offgroundevents.com/sorsogon-kasanggayahan-marathon-2026",
+      "label": "Official race page",
+      "type": "official",
+      "last_checked": "2026-09-30"
     }
   ],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://offgroundevents.com/sorsogon-kasanggayahan-marathon-2026",
+      "type": "official_website"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-09-30",
   "status": "active"
 }

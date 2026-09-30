@@ -25,7 +25,7 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-28",
+  "last_updated": "2026-09-30",
   "status": "needs_review",
   "reliability_score": 25,
   "entity_id": "pontianak-city-run-2027",
@@ -44,7 +44,8 @@
     "primary_distance_km": 42.195,
     "price_range": "From IDR 98,000",
     "city": "Pontianak, West Kalimantan",
-    "country": "Indonesia"
+    "country": "Indonesia",
+    "organizer": "PT Sporta Indonesia"
   },
   "faqs": [
     {
@@ -66,6 +67,12 @@
       "label": "Indonesia Marathon event page",
       "type": "aggregator",
       "last_checked": "2026-09-28"
+    },
+    {
+      "url": "https://pontianakcityrun.com",
+      "label": "Official race page",
+      "type": "official",
+      "last_checked": "2026-09-30"
     }
   ]
 }

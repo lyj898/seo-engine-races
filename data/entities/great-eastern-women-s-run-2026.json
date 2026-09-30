@@ -18,7 +18,8 @@
     "primary_distance_km": 21.1,
     "venue": "Singapore National Stadium, The Kallang",
     "city": "Singapore",
-    "country": "Singapore"
+    "country": "Singapore",
+    "organizer": "Great Eastern (Great Eastern Life Singapore)"
   },
   "pros": [
     "Women-only race with more than 12,000 runners in 2025",
@@ -148,6 +149,6 @@
     "luang-prabang-half-marathon-run-for-children-2026",
     "ijm-allianz-duo-highway-challenge-2026"
   ],
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-09-30",
   "status": "active"
 }

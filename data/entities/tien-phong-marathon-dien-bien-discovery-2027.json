@@ -10,9 +10,15 @@
     "The 48 km is an ultra distance; the listing is on the strength of the 21 km."
   ],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on Pace8",
+      "url": "https://pace8.vn/su-kien/tien-phong-marathon-dien-bien-discovery-2026",
+      "type": "official_website"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-09-30",
   "status": "needs_review",
   "reliability_score": 30,
   "entity_id": "tien-phong-marathon-dien-bien-discovery-2027",

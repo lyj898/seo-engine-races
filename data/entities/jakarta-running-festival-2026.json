@@ -7,7 +7,7 @@
   "short_description": "Jakarta Running Festival 2026 is a full marathon, half marathon, 10km and 5km event at Gelora Bung Karno in Jakarta, Indonesia, with the half marathon on 24 October and the marathon on 25 October 2026.",
   "ai_summary": "Jakarta Running Festival 2026 is a multi-distance road race based at the Gelora Bung Karno (GBK) Sports Complex in Jakarta, Indonesia. The half marathon starts at 4.30am on Saturday 24 October 2026 and the marathon at 4am on Sunday 25 October 2026. Runners can choose between a full marathon (42.195km), half marathon (21.1km), 10km or 5km. In 2025 the marathon and half marathon held World Athletics Label status.",
   "core_facts": {
-    "date": "2026-10-24 to 2026-10-25",
+    "date": "2026-10-25",
     "distance_km": [
       42.195,
       21.1,
@@ -118,6 +118,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-09-30",
   "status": "needs_review"
 }

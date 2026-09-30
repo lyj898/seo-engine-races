@@ -12,12 +12,14 @@
       42.195,
       21.1,
       10,
-      5
+      5.5
     ],
     "primary_distance_km": 42.195,
     "venue": "Balai Kota (City Hall), Surabaya",
     "city": "Surabaya",
-    "country": "Indonesia"
+    "country": "Indonesia",
+    "organizer": "ISOPLUS (Wings Group); race management IdeaRun",
+    "price_range": "IDR 300,000-850,000"
   },
   "pros": [
     "Big field of nearly 9,000 runners with the city government behind it",
@@ -90,6 +92,12 @@
       "label": "kalenderlari.com",
       "type": "aggregator",
       "last_checked": "2026-07-13"
+    },
+    {
+      "url": "https://isoplusrun.com/isoplus-run-marathon-surabaya-2026/",
+      "label": "Official race page",
+      "type": "official",
+      "last_checked": "2026-09-30"
     }
   ],
   "affiliate_links": [],
@@ -101,6 +109,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-09-30",
   "status": "needs_review"
 }

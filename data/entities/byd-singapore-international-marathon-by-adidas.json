@@ -17,7 +17,9 @@
     "primary_distance_km": 42.195,
     "organizer": "SG International Marathon Pte Ltd",
     "city": "Singapore",
-    "country": "Singapore"
+    "country": "Singapore",
+    "venue": "Start: F1 Pit Building; Finish: National Stadium",
+    "price_range": "SGD 98-208"
   },
   "pros": [
     "World Athletics Gold Label (the organiser says it is Southeast Asia's only one), with US$50,000 for the winners",
@@ -73,11 +75,28 @@
       "label": "Mothership: BYD title sponsor and 2026 format",
       "type": "other",
       "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://register.singaporeinternationalmarathon.com/",
+      "label": "Entry page on SGIM registration (own)",
+      "type": "registration_platform",
+      "last_checked": "2026-09-30"
     }
   ],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://singaporeinternationalmarathon.com/",
+      "type": "official_website"
+    },
+    {
+      "label": "Entry page on SGIM registration (own)",
+      "url": "https://register.singaporeinternationalmarathon.com/",
+      "type": "registration"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-09-30",
   "status": "needs_review"
 }

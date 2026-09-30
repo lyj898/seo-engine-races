@@ -7,9 +7,20 @@
   "research_highlights": [],
   "research_watchouts": [],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on MyEndura",
+      "url": "https://kphm.myendura.id/",
+      "type": "official_website"
+    },
+    {
+      "label": "Entry page on MyEndura",
+      "url": "https://myendura.id/events/kphm",
+      "type": "registration"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-28",
+  "last_updated": "2026-09-30",
   "status": "needs_review",
   "reliability_score": 30,
   "entity_id": "kulon-progo-half-marathon-2026",
@@ -26,7 +37,9 @@
     ],
     "primary_distance_km": 21.1,
     "city": "Kulon Progo, DI Yogyakarta",
-    "country": "Indonesia"
+    "country": "Indonesia",
+    "venue": "Alun-Alun Wates, Kulon Progo",
+    "price_range": "IDR 250,000-550,000"
   },
   "faqs": [
     {
@@ -54,6 +67,18 @@
       "label": "Eventrack Indonesia running calendar",
       "type": "aggregator",
       "last_checked": "2026-09-28"
+    },
+    {
+      "url": "https://kphm.myendura.id/",
+      "label": "Official race page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-30"
+    },
+    {
+      "url": "https://myendura.id/events/kphm",
+      "label": "Entry page on MyEndura",
+      "type": "registration_platform",
+      "last_checked": "2026-09-30"
     }
   ]
 }

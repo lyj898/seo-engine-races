@@ -9,13 +9,16 @@
   "core_facts": {
     "date": "2027-01-31",
     "distance_km": [
-      42.195,
-      21.1
+      5,
+      10,
+      21.1,
+      42.195
     ],
     "primary_distance_km": 42.195,
     "venue": "Not confirmed this pass",
     "city": "Chiang Rai",
-    "country": "Thailand"
+    "country": "Thailand",
+    "organizer": "Route Map Co., Ltd."
   },
   "pros": [
     "Offers a choice of two distances: full marathon (42.195 km) and half marathon (21.1 km)",
@@ -52,17 +55,23 @@
       "label": "ahotu.com",
       "type": "aggregator",
       "last_checked": "2026-08-25"
+    },
+    {
+      "url": "https://www.regis.run/event/chiangraimarathon2027",
+      "label": "Official race page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-30"
     }
   ],
   "affiliate_links": [],
   "cta_links": [
     {
-      "label": "Register",
-      "url": "https://regis.run",
-      "type": "official_registration"
+      "label": "Official race page on Regis.run",
+      "url": "https://www.regis.run/event/chiangraimarathon2027",
+      "type": "official_website"
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-09-30",
   "status": "active"
 }

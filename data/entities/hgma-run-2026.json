@@ -16,7 +16,8 @@
     "primary_distance_km": 21.1,
     "venue": "Stadion Brawijaya, Surabaya, Jawa Timur",
     "city": "Surabaya, Jawa Timur",
-    "country": "Indonesia"
+    "country": "Indonesia",
+    "organizer": "IHGMA (Indonesian Hotel General Manager Association)"
   },
   "pros": [
     "Multiple distance options (21.1 km, 10 km, 5 km) suit a range of runner abilities",
@@ -74,6 +75,12 @@
       "label": "ihgma.org",
       "type": "aggregator",
       "last_checked": "2026-07-20"
+    },
+    {
+      "url": "https://rm.amasol.co.id/register/v2/ihgma-run-2026",
+      "label": "Official race page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-30"
     }
   ],
   "affiliate_links": [],
@@ -85,6 +92,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-09-30",
   "status": "needs_review"
 }

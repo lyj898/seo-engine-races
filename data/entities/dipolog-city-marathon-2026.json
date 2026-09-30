@@ -18,7 +18,8 @@
     "organizer": "Dipolog City LGU",
     "venue": "Sunset Boulevard, Dipolog City",
     "city": "Dipolog City, Zamboanga del Norte",
-    "country": "Philippines"
+    "country": "Philippines",
+    "price_range": "PHP 1,700-2,700"
   },
   "pros": [
     "Multiple distance options (5K, 10K, half marathon, full marathon) suit different runner levels",
@@ -65,11 +66,23 @@
       "label": "pinoyfitness.com",
       "type": "aggregator",
       "last_checked": "2026-08-25"
+    },
+    {
+      "url": "https://megatechph.com/events/dipolog-city-marathon-2026",
+      "label": "Official race page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-30"
     }
   ],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on MEGATechPH",
+      "url": "https://megatechph.com/events/dipolog-city-marathon-2026",
+      "type": "official_website"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-09-30",
   "status": "active"
 }

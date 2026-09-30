@@ -7,9 +7,15 @@
   "research_highlights": [],
   "research_watchouts": [],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on race.thai.run",
+      "url": "https://race.thai.run/udon21",
+      "type": "official_website"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-09-30",
   "status": "needs_review",
   "reliability_score": 30,
   "entity_id": "udon21-2026",
@@ -25,10 +31,11 @@
       21.1
     ],
     "primary_distance_km": 21.1,
-    "organizer": "About The Race",
+    "organizer": "Udon Running Project",
     "price_range": "THB 600-950",
     "city": "Udon Thani",
-    "country": "Thailand"
+    "country": "Thailand",
+    "venue": "Ban Chiang Plaza, Central Udon Thani"
   },
   "faqs": [
     {

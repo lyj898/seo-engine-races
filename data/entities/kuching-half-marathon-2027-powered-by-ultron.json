@@ -7,9 +7,15 @@
   "research_highlights": [],
   "research_watchouts": [],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on JomRun",
+      "url": "https://www.jomrun.com/event/Kuching-Half-Marathon-2027-Powered-By-Ultron",
+      "type": "official_website"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-09-30",
   "status": "needs_review",
   "reliability_score": 30,
   "entity_id": "kuching-half-marathon-2027-powered-by-ultron",

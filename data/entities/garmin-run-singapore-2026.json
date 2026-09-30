@@ -115,11 +115,28 @@
       "label": "justrunlah.com",
       "type": "aggregator",
       "last_checked": "2026-08-25"
+    },
+    {
+      "url": "https://raceroster.com/events/2026/114802/garmin-run-marathon-series-2026-singapore",
+      "label": "Entry page on Race Roster",
+      "type": "registration_platform",
+      "last_checked": "2026-09-30"
     }
   ],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://www.garmin.com.sg/event/2026/garmin-run/",
+      "type": "official_website"
+    },
+    {
+      "label": "Entry page on Race Roster",
+      "url": "https://raceroster.com/events/2026/114802/garmin-run-marathon-series-2026-singapore",
+      "type": "registration"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-09-30",
   "status": "active"
 }

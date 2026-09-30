@@ -54,12 +54,6 @@
   ],
   "source_mix": [
     {
-      "url": "https://Facebook",
-      "label": "Facebook",
-      "type": "aggregator",
-      "last_checked": "2026-07-23"
-    },
-    {
       "url": "https://www.patrunning.com",
       "label": "patrunning.com",
       "type": "aggregator",
@@ -76,17 +70,23 @@
       "label": "ahotu.com",
       "type": "aggregator",
       "last_checked": "2026-07-23"
+    },
+    {
+      "url": "https://www.facebook.com/greensteplaos",
+      "label": "Official race page",
+      "type": "social",
+      "last_checked": "2026-09-30"
     }
   ],
   "affiliate_links": [],
   "cta_links": [
     {
-      "label": "Register",
-      "url": "https://runlaos.com",
-      "type": "official_registration"
+      "label": "Official Facebook page",
+      "url": "https://www.facebook.com/greensteplaos",
+      "type": "official_social"
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-09-30",
   "status": "archived"
 }

@@ -18,7 +18,8 @@
     "organizer": "KNC",
     "venue": "Gatewalk, Mandaue City",
     "city": "Mandaue City, Cebu",
-    "country": "Philippines"
+    "country": "Philippines",
+    "price_range": "PHP 950-1,750"
   },
   "pros": [
     "Multiple distance options (21.1km, 16km, 12km, 6km) suit different runner levels",
@@ -54,11 +55,23 @@
       "label": "pinoyfitness.com",
       "type": "aggregator",
       "last_checked": "2026-08-25"
+    },
+    {
+      "url": "https://kncentertainmentproduction.myruntime.com/register/dagan-cebu-2026",
+      "label": "Official race page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-30"
     }
   ],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on MyRunTime",
+      "url": "https://kncentertainmentproduction.myruntime.com/register/dagan-cebu-2026",
+      "type": "official_website"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-09-30",
   "status": "active"
 }

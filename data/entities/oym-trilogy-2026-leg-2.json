@@ -18,7 +18,8 @@
     "organizer": "OYM",
     "venue": "Ayala Triangle Gardens, Makati",
     "city": "Makati",
-    "country": "Philippines"
+    "country": "Philippines",
+    "price_range": "PHP 1,550-2,150"
   },
   "pros": [
     "Multiple distance options (21.1km, 16km, 10km, 5km) suit different runner levels",
@@ -65,11 +66,23 @@
       "label": "pinoyfitness.com",
       "type": "aggregator",
       "last_checked": "2026-08-25"
+    },
+    {
+      "url": "https://myruntime.com/register/oym-trilogy-leg2-2026",
+      "label": "Official race page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-30"
     }
   ],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on MyRunTime",
+      "url": "https://myruntime.com/register/oym-trilogy-leg2-2026",
+      "type": "official_website"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-09-30",
   "status": "archived"
 }

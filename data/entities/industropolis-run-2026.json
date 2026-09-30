@@ -19,9 +19,20 @@
   "research_highlights": [],
   "research_watchouts": [],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://www.industropolisrun.id",
+      "type": "official_website"
+    },
+    {
+      "label": "Entry page on Lawana.id",
+      "url": "https://lawana.id/event/industropolis-run-2026",
+      "type": "registration"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-28",
+  "last_updated": "2026-09-30",
   "status": "needs_review",
   "reliability_score": 30,
   "entity_id": "industropolis-run-2026",
@@ -39,7 +50,8 @@
     "primary_distance_km": 21.1,
     "venue": "Kawasan Industri Terpadu Batang, Gringsing",
     "city": "Batang, Central Java",
-    "country": "Indonesia"
+    "country": "Indonesia",
+    "price_range": "IDR 200,000-500,000"
   },
   "faqs": [
     {
@@ -73,6 +85,12 @@
       "label": "Eventrack Indonesia running calendar",
       "type": "aggregator",
       "last_checked": "2026-09-28"
+    },
+    {
+      "url": "https://www.industropolisrun.id",
+      "label": "Official race page",
+      "type": "official",
+      "last_checked": "2026-09-30"
     }
   ]
 }

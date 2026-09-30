@@ -5,9 +5,15 @@
   "research_highlights": [],
   "research_watchouts": [],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://www.marathonmiri.com/",
+      "type": "official_website"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-28",
+  "last_updated": "2026-09-30",
   "status": "needs_review",
   "reliability_score": 25,
   "entity_id": "miri-marathon-march-2027",
@@ -27,7 +33,9 @@
     ],
     "primary_distance_km": 42.195,
     "city": "Miri, Sarawak",
-    "country": "Malaysia"
+    "country": "Malaysia",
+    "venue": "Miri Outdoor Stadium",
+    "price_range": "RM 60-160"
   },
   "faqs": [
     {
@@ -49,6 +57,12 @@
       "label": "AIMS Malaysia member races -- next race date Sunday 21 March 2027",
       "type": "aggregator",
       "last_checked": "2026-09-28"
+    },
+    {
+      "url": "https://www.marathonmiri.com/",
+      "label": "Official race page",
+      "type": "official",
+      "last_checked": "2026-09-30"
     }
   ]
 }

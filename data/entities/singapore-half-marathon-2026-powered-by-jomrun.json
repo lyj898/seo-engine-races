@@ -66,8 +66,8 @@
     {
       "url": "https://www.jomrun.com/event/Singapore-Half-Marathon-2026-Powered-By-JomRun",
       "label": "jomrun.com",
-      "type": "aggregator",
-      "last_checked": "2026-08-25"
+      "type": "registration_platform",
+      "last_checked": "2026-09-30"
     }
   ],
   "affiliate_links": [],
@@ -79,6 +79,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-09-30",
   "status": "needs_review"
 }

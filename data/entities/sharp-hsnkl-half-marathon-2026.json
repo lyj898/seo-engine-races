@@ -9,12 +9,17 @@
   "core_facts": {
     "date": "2026-10-25",
     "distance_km": [
+      3,
+      5,
+      10,
       21.1
     ],
     "primary_distance_km": 21.1,
     "venue": "Dataran Merdeka, Kuala Lumpur",
     "city": "Kuala Lumpur",
-    "country": "Malaysia"
+    "country": "Malaysia",
+    "organizer": "KPM x JBSKL x Sharp",
+    "price_range": "RM 30-135"
   },
   "pros": [
     "Iconic starting location at Dataran Merdeka in the heart of Kuala Lumpur",
@@ -57,17 +62,23 @@
       "label": "checkpointspot.asia",
       "type": "aggregator",
       "last_checked": "2026-07-13"
+    },
+    {
+      "url": "https://www.racexasia.com/event/sharp-hsnkl-half-marathon-2026-hsnm26",
+      "label": "Official race page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-30"
     }
   ],
   "affiliate_links": [],
   "cta_links": [
     {
-      "label": "Register",
-      "url": "https://checkpointspot.asia/events",
-      "type": "official_registration"
+      "label": "Official race page on RaceXasia",
+      "url": "https://www.racexasia.com/event/sharp-hsnkl-half-marathon-2026-hsnm26",
+      "type": "official_website"
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-08",
+  "last_updated": "2026-09-30",
   "status": "needs_review"
 }

@@ -15,7 +15,8 @@
     "organizer": "Generasi Athletic Club",
     "venue": "Dataran Sungai Petani, Kedah",
     "city": "Sungai Petani, Kedah",
-    "country": "Malaysia"
+    "country": "Malaysia",
+    "price_range": "RM 35-85"
   },
   "pros": [
     "Held at a defined venue, Dataran Sungai Petani, Kedah, making logistics clear",
@@ -64,17 +65,23 @@
       "label": "checkpointspot.asia",
       "type": "aggregator",
       "last_checked": "2026-07-20"
+    },
+    {
+      "url": "https://www.racexasia.com/event/sp-half-marathon-2026-sphm26",
+      "label": "Official race page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-30"
     }
   ],
   "affiliate_links": [],
   "cta_links": [
     {
-      "label": "Register",
-      "url": "https://raceroster.com/events/sp-half-marathon-2026",
-      "type": "official_registration"
+      "label": "Official race page on RaceXasia",
+      "url": "https://www.racexasia.com/event/sp-half-marathon-2026-sphm26",
+      "type": "official_website"
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-09-30",
   "status": "archived"
 }

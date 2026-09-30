@@ -17,7 +17,8 @@
     "price_range": "IDR 650,000 (10K) / 850,000 (Half) / 950,000 (Full)",
     "venue": "Taman Lumbini (Lumbini Park Complex), Borobudur Temple",
     "city": "Magelang",
-    "country": "Indonesia"
+    "country": "Indonesia",
+    "organizer": "Yayasan Borobudur Marathon (host), managed by Harian Kompas"
   },
   "pros": [
     "Closed roads, cleared of traffic from 4am, with 1,250 security staff in 2025",
@@ -87,6 +88,12 @@
       "label": "AIMS World Running calendar",
       "type": "aggregator",
       "last_checked": "2026-07-20"
+    },
+    {
+      "url": "https://borobudurmarathon.com",
+      "label": "Official race page",
+      "type": "official",
+      "last_checked": "2026-09-30"
     }
   ],
   "affiliate_links": [],
@@ -106,6 +113,6 @@
     "dili-international-marathon-2026-love-our-forests-and-wildlife",
     "vnexpress-marathon-nha-trang-2026"
   ],
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-09-30",
   "status": "active"
 }

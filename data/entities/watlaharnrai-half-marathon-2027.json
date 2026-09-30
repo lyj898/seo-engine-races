@@ -5,9 +5,15 @@
   "research_highlights": [],
   "research_watchouts": [],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Official Facebook page",
+      "url": "https://www.facebook.com/Watlaharnraihalfmarathon/",
+      "type": "official_social"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-28",
+  "last_updated": "2026-09-30",
   "status": "needs_review",
   "reliability_score": 25,
   "entity_id": "watlaharnrai-half-marathon-2027",
@@ -26,7 +32,9 @@
     ],
     "primary_distance_km": 21.4,
     "city": "Ban Khai, Rayong",
-    "country": "Thailand"
+    "country": "Thailand",
+    "organizer": "Yim Yok Yai Co., Ltd.",
+    "venue": "Wat La Harn Rai, Nong Lalok, Ban Khai, Rayong"
   },
   "faqs": [
     {
@@ -48,6 +56,12 @@
       "label": "AIMS Thailand member races -- next race date Sunday 5 September 2027",
       "type": "aggregator",
       "last_checked": "2026-09-28"
+    },
+    {
+      "url": "https://www.facebook.com/Watlaharnraihalfmarathon/",
+      "label": "Official race page",
+      "type": "social",
+      "last_checked": "2026-09-30"
     }
   ]
 }

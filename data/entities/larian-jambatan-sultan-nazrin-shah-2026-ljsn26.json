@@ -17,7 +17,8 @@
     "organizer": "Majlis Perbandaran Teluk Intan (MPTI)",
     "venue": "Tapak Pasar Malam, Bagan Datuk, Perak",
     "city": "Bagan Datuk, Perak",
-    "country": "Malaysia"
+    "country": "Malaysia",
+    "price_range": "RM 39-90"
   },
   "pros": [
     "Multiple distance options (21.1km, 10km, 5km) suit a range of runner abilities",
@@ -70,15 +71,32 @@
       "last_checked": "2026-07-16"
     },
     {
-      "url": "https://Facebook/Instagram (Majlis Perbandaran Teluk Intan)",
-      "label": "Facebook",
-      "type": "aggregator",
-      "last_checked": "2026-07-16"
+      "url": "https://howei.com/event_details/larianjambatansultannazrinshah2026",
+      "label": "Official race page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-30"
+    },
+    {
+      "url": "https://raceroster.com/events/2026/130621/larian-jambatan-sultan-nazrin-shah-2026",
+      "label": "Entry page on Race Roster (via RaceXasia)",
+      "type": "registration_platform",
+      "last_checked": "2026-09-30"
     }
   ],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on Howei",
+      "url": "https://howei.com/event_details/larianjambatansultannazrinshah2026",
+      "type": "official_website"
+    },
+    {
+      "label": "Entry page on Race Roster (via RaceXasia)",
+      "url": "https://raceroster.com/events/2026/130621/larian-jambatan-sultan-nazrin-shah-2026",
+      "type": "registration"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-09-30",
   "status": "active"
 }

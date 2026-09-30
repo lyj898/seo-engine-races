@@ -9,6 +9,8 @@
   "core_facts": {
     "date": "2026-10-25",
     "distance_km": [
+      5,
+      11,
       21.1
     ],
     "primary_distance_km": 21.1,
@@ -57,17 +59,23 @@
       "label": "checkpointspot.asia",
       "type": "aggregator",
       "last_checked": "2026-07-13"
+    },
+    {
+      "url": "https://checkpointspot.asia/event/twin-bridges-half-marathon-muar26",
+      "label": "Official race page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-30"
     }
   ],
   "affiliate_links": [],
   "cta_links": [
     {
-      "label": "Register",
-      "url": "https://checkpointspot.asia/events",
-      "type": "official_registration"
+      "label": "Official race page on Checkpointspot",
+      "url": "https://checkpointspot.asia/event/twin-bridges-half-marathon-muar26",
+      "type": "official_website"
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-08",
+  "last_updated": "2026-09-30",
   "status": "needs_review"
 }

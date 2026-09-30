@@ -5,9 +5,15 @@
   "research_highlights": [],
   "research_watchouts": [],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://kbhalf.com/",
+      "type": "official_website"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-28",
+  "last_updated": "2026-09-30",
   "status": "needs_review",
   "reliability_score": 25,
   "entity_id": "kota-bharu-half-marathon-2027",
@@ -26,7 +32,9 @@
     ],
     "primary_distance_km": 21.1,
     "city": "Kota Bharu, Kelantan",
-    "country": "Malaysia"
+    "country": "Malaysia",
+    "organizer": "Yayasan KB Care (in partnership with Kerajaan Negeri Kelantan)",
+    "venue": "Dewan Jubli Perak, Kota Bharu, Kelantan"
   },
   "faqs": [
     {
@@ -48,6 +56,12 @@
       "label": "AIMS Malaysia member races -- next race date Saturday 11 September 2027",
       "type": "aggregator",
       "last_checked": "2026-09-28"
+    },
+    {
+      "url": "https://kbhalf.com/",
+      "label": "Official race page",
+      "type": "official",
+      "last_checked": "2026-09-30"
     }
   ]
 }

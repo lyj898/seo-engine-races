@@ -14,7 +14,8 @@
     "primary_distance_km": 21.1,
     "venue": "Kota Belud, Sabah",
     "city": "Kota Belud, Sabah",
-    "country": "Malaysia"
+    "country": "Malaysia",
+    "organizer": "KAR Ultra X"
   },
   "pros": [
     "Standard half-marathon distance of 21.1km",
@@ -49,17 +50,23 @@
       "label": "checkpointspot.asia",
       "type": "aggregator",
       "last_checked": "2026-07-13"
+    },
+    {
+      "url": "https://checkpointspot.asia/event/Kota-Belud-HM-26",
+      "label": "Official race page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-30"
     }
   ],
   "affiliate_links": [],
   "cta_links": [
     {
-      "label": "Register",
-      "url": "https://checkpointspot.asia/events",
-      "type": "official_registration"
+      "label": "Official race page on CheckPointSpot",
+      "url": "https://checkpointspot.asia/event/Kota-Belud-HM-26",
+      "type": "official_website"
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-08",
+  "last_updated": "2026-09-30",
   "status": "needs_review"
 }

@@ -2,26 +2,28 @@
   "entity_id": "fit-to-run-2026-leg-3",
   "slug": "fit-to-run-2026-leg-3",
   "name": "FIT TO RUN 2026 – Leg 3",
-  "category_id": "full-marathon",
+  "category_id": "half-marathon",
   "region_id": "philippines",
-  "short_description": "A full marathon and multi-distance race set for November 8, 2026, at Clark Parade Grounds in Angeles City, Pampanga, Philippines.",
-  "ai_summary": "FIT TO RUN 2026 – Leg 3 is a full marathon event scheduled for November 8, 2026, at the Clark Parade Grounds in Angeles City, Pampanga, Philippines. The race offers four distance options: 42.195 km, 21.1 km, 10 km, and 5 km, catering to a range of runner abilities. It is organized by SMOKE10 Events.",
+  "short_description": "FIT TO RUN 2026 – Leg 3 is on Sunday 8 November 2026 at Clark Parade Grounds in Angeles City, Pampanga, over 5 km, 10 km, 16 km, 21 km and 32 km.",
+  "ai_summary": "FIT TO RUN 2026 – Leg 3 is on 8 November 2026 at the Clark Parade Grounds in Angeles City, Pampanga, and is organised by SMOKE10 Events. The organiser lists five distances: 32 km, 21 km, 16 km, 10 km and 5 km. There is no full marathon at this leg.",
   "core_facts": {
     "date": "2026-11-08",
     "distance_km": [
-      42.195,
-      21.1,
+      5,
       10,
-      5
+      16,
+      21.1,
+      32
     ],
-    "primary_distance_km": 42.195,
+    "primary_distance_km": 21.1,
     "organizer": "SMOKE10 Events",
     "venue": "Clark Parade Grounds",
     "city": "Angeles City, Pampanga",
-    "country": "Philippines"
+    "country": "Philippines",
+    "price_range": "PHP 999-2,299"
   },
   "pros": [
-    "Multiple distance options (42.195 km, 21.1 km, 10 km, 5 km) suit different runner levels",
+    "Multiple distance options (32 km, 21 km, 16 km, 10 km, 5 km) suit different runner levels",
     "Held at a dedicated venue, Clark Parade Grounds, in Angeles City, Pampanga",
     "Organized by an established event organizer, SMOKE10 Events"
   ],
@@ -36,7 +38,7 @@
     },
     {
       "question": "What distances are offered at this race?",
-      "answer": "This race offers four distance categories for participants to choose from: a full marathon distance of 42.195 km, a half marathon distance of 21.1 km, a 10 km race, and a shorter 5 km race, accommodating a variety of runner experience levels."
+      "answer": "The organiser, SMOKE10 Events, lists five distances for Leg 3: 32 km, 21 km, 16 km, 10 km and 5 km. The 21 km is the half marathon; there is no full marathon at this leg, and the 32 km is the longest race on the day."
     },
     {
       "question": "Who is organizing FIT TO RUN 2026 – Leg 3?",
@@ -45,7 +47,7 @@
   ],
   "reliability_score": 10,
   "tags": [
-    "full-marathon",
+    "half-marathon",
     "philippines"
   ],
   "source_mix": [
@@ -54,11 +56,23 @@
       "label": "pinoyfitness.com",
       "type": "aggregator",
       "last_checked": "2026-08-25"
+    },
+    {
+      "url": "https://smoke10events.myruntime.com/register/fit-to-run-2026-leg-3-clark",
+      "label": "Official race page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-30"
     }
   ],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on MyRunTime",
+      "url": "https://smoke10events.myruntime.com/register/fit-to-run-2026-leg-3-clark",
+      "type": "official_website"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-09-30",
   "status": "active"
 }

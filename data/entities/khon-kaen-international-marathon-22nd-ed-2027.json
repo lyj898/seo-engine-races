@@ -19,7 +19,8 @@
     "price_range": "400-2,500 THB",
     "venue": "Kanlapaphruek Road, in front of the Golden Jubilee Convention Hall, Khon Kaen University",
     "city": "Khon Kaen",
-    "country": "Thailand"
+    "country": "Thailand",
+    "organizer": "Khon Kaen International Marathon Project, Khon Kaen University (Sports Division)"
   },
   "pros": [
     "Cool, dry January air: 16°C with an 11°C dew point at the 2026 marathon start",
@@ -69,6 +70,12 @@
       "label": "aims-worldrunning.org",
       "type": "aggregator",
       "last_checked": "2026-07-16"
+    },
+    {
+      "url": "https://registration.khonkaenmarathon.com/",
+      "label": "Entry page on KKIM own registration",
+      "type": "registration_platform",
+      "last_checked": "2026-09-30"
     }
   ],
   "affiliate_links": [],
@@ -80,6 +87,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-09-30",
   "status": "needs_review"
 }

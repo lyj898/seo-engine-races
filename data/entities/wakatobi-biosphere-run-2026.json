@@ -7,9 +7,20 @@
   "research_highlights": [],
   "research_watchouts": [],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://wakatobibiosphererun.com/",
+      "type": "official_website"
+    },
+    {
+      "label": "Entry page on Tokotix",
+      "url": "https://tokotix.id/event/wakatobi-biosphere-run-2026/144",
+      "type": "registration"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-28",
+  "last_updated": "2026-09-30",
   "status": "needs_review",
   "reliability_score": 30,
   "entity_id": "wakatobi-biosphere-run-2026",
@@ -27,7 +38,9 @@
     "primary_distance_km": 21.1,
     "organizer": "Pemkab Wakatobi (Wakatobi Regency Government)",
     "city": "Wakatobi, Southeast Sulawesi",
-    "country": "Indonesia"
+    "country": "Indonesia",
+    "venue": "Wakatobi Maritime Center, beside Marina Togo Mowondu, Wangi-Wangi",
+    "price_range": "IDR 189,000-399,000"
   },
   "faqs": [
     {
@@ -55,6 +68,18 @@
       "label": "Eventrack Indonesia running calendar",
       "type": "aggregator",
       "last_checked": "2026-09-28"
+    },
+    {
+      "url": "https://wakatobibiosphererun.com/",
+      "label": "Official race page",
+      "type": "official",
+      "last_checked": "2026-09-30"
+    },
+    {
+      "url": "https://tokotix.id/event/wakatobi-biosphere-run-2026/144",
+      "label": "Entry page on Tokotix",
+      "type": "registration_platform",
+      "last_checked": "2026-09-30"
     }
   ]
 }

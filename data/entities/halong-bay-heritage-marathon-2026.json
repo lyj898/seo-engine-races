@@ -17,7 +17,8 @@
     "primary_distance_km": 42.195,
     "venue": "Quang Ninh Planning, Fair and Exhibition Palace, Tran Quoc Nghien street, Ha Long ward",
     "city": "Ha Long, Quang Ninh",
-    "country": "Vietnam"
+    "country": "Vietnam",
+    "organizer": "DHA Vietnam (Duc Huong Anh Co., Ltd.), co-organised with the Quang Ninh Department of Culture and Sports"
   },
   "pros": [
     "Fast, fully closed out-and-back course on the Ha Long coast road; 2:13:57 race record in 2025",
@@ -72,6 +73,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-09-30",
   "status": "needs_review"
 }

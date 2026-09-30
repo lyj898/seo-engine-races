@@ -9,6 +9,7 @@
   "core_facts": {
     "date": "2027-01-17",
     "distance_km": [
+      10,
       21.1,
       42.195
     ],
@@ -16,7 +17,8 @@
     "organizer": "Chombueng Marathon organizing committee",
     "venue": "Ratchaburi Rajabhat University, Chom Bueng",
     "city": "Chom Bueng, Ratchaburi",
-    "country": "Thailand"
+    "country": "Thailand",
+    "price_range": "THB 600-1,000"
   },
   "pros": [
     "Long-running event now in its 40th edition, suggesting an established history",
@@ -73,8 +75,14 @@
     }
   ],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on RunningConnect",
+      "url": "https://runningconnect.com/event/CBM2027",
+      "type": "official_website"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-09-30",
   "status": "active"
 }

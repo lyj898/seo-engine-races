@@ -9,13 +9,16 @@
   "core_facts": {
     "date": "2027-01-23",
     "distance_km": [
-      42.195,
-      21.1
+      4.554,
+      10,
+      21.1,
+      42.195
     ],
     "primary_distance_km": 42.195,
     "venue": "Chang International Circuit, Buriram",
     "city": "Buriram",
-    "country": "Thailand"
+    "country": "Thailand",
+    "organizer": "Buriram United International Circuit Co., Ltd."
   },
   "pros": [
     "Offers a choice of two distances: full marathon (42.195 km) and half marathon (21.1 km)",
@@ -68,6 +71,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-09-30",
   "status": "needs_review"
 }

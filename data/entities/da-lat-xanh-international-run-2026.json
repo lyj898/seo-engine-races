@@ -7,9 +7,15 @@
   "research_highlights": [],
   "research_watchouts": [],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on iRace",
+      "url": "https://ticket.irace.vn/quoc-te-vi-da-lat-xanh-2026",
+      "type": "official_website"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-09-30",
   "status": "needs_review",
   "reliability_score": 30,
   "entity_id": "da-lat-xanh-international-run-2026",
@@ -27,7 +33,10 @@
     ],
     "primary_distance_km": 21.1,
     "city": "Da Lat, Lam Dong",
-    "country": "Vietnam"
+    "country": "Vietnam",
+    "organizer": "Belove Mountain and DA HAE International Co., Ltd",
+    "venue": "Lam Vien Square, beside Xuan Huong Lake, Da Lat",
+    "price_range": "VND 200,000-720,000"
   },
   "faqs": [
     {

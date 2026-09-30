@@ -9,12 +9,16 @@
   "core_facts": {
     "date": "2026-10-18",
     "distance_km": [
-      21
+      5,
+      10,
+      21.1
     ],
     "primary_distance_km": 21.1,
     "venue": "AEON Mall AU2 Setiawangsa, Kuala Lumpur",
     "city": "Kuala Lumpur",
-    "country": "Malaysia"
+    "country": "Malaysia",
+    "organizer": "Tetrad Event Empire",
+    "price_range": "RM 55-105"
   },
   "pros": [
     "Convenient venue at AEON Mall AU2 Setiawangsa in Kuala Lumpur",
@@ -56,17 +60,23 @@
       "label": "checkpointspot.asia",
       "type": "aggregator",
       "last_checked": "2026-07-23"
+    },
+    {
+      "url": "https://howei.com/event_details/setiawangsahalfmarathon2026",
+      "label": "Official race page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-30"
     }
   ],
   "affiliate_links": [],
   "cta_links": [
     {
-      "label": "Register",
-      "url": "https://checkpointspot.asia/event/setiawangsa-half-marathon-2026",
-      "type": "official_registration"
+      "label": "Official race page on Howei",
+      "url": "https://howei.com/event_details/setiawangsahalfmarathon2026",
+      "type": "official_website"
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-08",
+  "last_updated": "2026-09-30",
   "status": "needs_review"
 }

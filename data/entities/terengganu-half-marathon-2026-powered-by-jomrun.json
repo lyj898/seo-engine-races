@@ -74,17 +74,23 @@
       "label": "jomrun.com",
       "type": "aggregator",
       "last_checked": "2026-08-25"
+    },
+    {
+      "url": "https://www.jomrun.com/event/Terengganu-Half-Marathon-2026-Powered-by-JomRun",
+      "label": "Official race page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-30"
     }
   ],
   "affiliate_links": [],
   "cta_links": [
     {
-      "label": "Register",
-      "url": "https://tinyurl.com/TerengganuHalfMarathon2026",
-      "type": "official_registration"
+      "label": "Official race page on JomRun",
+      "url": "https://www.jomrun.com/event/Terengganu-Half-Marathon-2026-Powered-by-JomRun",
+      "type": "official_website"
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-09-30",
   "status": "active"
 }

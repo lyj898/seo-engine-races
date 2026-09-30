@@ -17,9 +17,15 @@
   "research_highlights": [],
   "research_watchouts": [],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://arutminborneorun.com/",
+      "type": "official_website"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-28",
+  "last_updated": "2026-09-30",
   "status": "needs_review",
   "reliability_score": 30,
   "entity_id": "arutmin-borneo-run-2026",
@@ -37,7 +43,8 @@
     "primary_distance_km": 21.1,
     "organizer": "IdeaRun",
     "city": "Banjarbaru, South Kalimantan",
-    "country": "Indonesia"
+    "country": "Indonesia",
+    "venue": "Halaman Kantor Gubernur Kalimantan Selatan (South Kalimantan Governor's Office grounds), Banjarbaru"
   },
   "faqs": [
     {
@@ -65,6 +72,12 @@
       "label": "Eventrack Indonesia running calendar",
       "type": "aggregator",
       "last_checked": "2026-09-28"
+    },
+    {
+      "url": "https://arutminborneorun.com/",
+      "label": "Official race page",
+      "type": "official",
+      "last_checked": "2026-09-30"
     }
   ]
 }

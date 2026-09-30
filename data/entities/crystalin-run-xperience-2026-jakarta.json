@@ -17,7 +17,9 @@
     "primary_distance_km": 21.1,
     "venue": "Jakarta (exact venue not stated)",
     "city": "Jakarta",
-    "country": "Indonesia"
+    "country": "Indonesia",
+    "organizer": "Crystalin (OT Group); race management Indonesia Muda Road Runner (IMRR)",
+    "price_range": "IDR 250,000-600,000"
   },
   "pros": [
     "Multiple distance options (21.1 km, 10 km, 5 km, 2.5 km) suit a range of runner abilities",
@@ -76,6 +78,12 @@
       "label": "kalenderlari.com",
       "type": "aggregator",
       "last_checked": "2026-07-13"
+    },
+    {
+      "url": "https://sporticx.com/event/dtl/crystalin-runxperience-2026-jakarta",
+      "label": "Entry page on Sporticx",
+      "type": "registration_platform",
+      "last_checked": "2026-09-30"
     }
   ],
   "affiliate_links": [],
@@ -87,6 +95,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-09-30",
   "status": "active"
 }

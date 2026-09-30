@@ -7,9 +7,20 @@
   "research_highlights": [],
   "research_watchouts": [],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on BaseKM",
+      "url": "https://basekm.com/races/2026/antique-marathon-hamtic-ed",
+      "type": "official_website"
+    },
+    {
+      "label": "Entry page on MyRunTime",
+      "url": "https://takboph.myruntime.com/register/antique-marathon-hamtic-ed",
+      "type": "registration"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-09-30",
   "status": "needs_review",
   "reliability_score": 30,
   "entity_id": "antique-marathon-2026",
@@ -28,7 +39,9 @@
     "primary_distance_km": 42.195,
     "venue": "Hamtic Municipal Plaza",
     "city": "Hamtic, Antique",
-    "country": "Philippines"
+    "country": "Philippines",
+    "organizer": "ANTQ Events",
+    "price_range": "PHP 800-2,350"
   },
   "faqs": [
     {
@@ -62,6 +75,12 @@
       "label": "Takbo.ph list of running events",
       "type": "aggregator",
       "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://takboph.myruntime.com/register/antique-marathon-hamtic-ed",
+      "label": "Entry page on MyRunTime",
+      "type": "registration_platform",
+      "last_checked": "2026-09-30"
     }
   ]
 }

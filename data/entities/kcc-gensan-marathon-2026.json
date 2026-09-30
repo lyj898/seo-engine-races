@@ -9,12 +9,18 @@
   "core_facts": {
     "date": "2026-11-14",
     "distance_km": [
+      5,
+      10,
+      21.1,
+      32,
       42.195
     ],
     "primary_distance_km": 42.195,
     "venue": "Veranza Mall Alfresco, General Santos City",
     "city": "General Santos City",
-    "country": "Philippines"
+    "country": "Philippines",
+    "organizer": "KCC Gensan Marathon (KCC Foundation)",
+    "price_range": "PHP 1,000-2,400"
   },
   "pros": [
     "Standard full marathon distance of 42.195 km, appealing to marathon runners",
@@ -50,11 +56,23 @@
       "label": "pinoyfitness.com",
       "type": "aggregator",
       "last_checked": "2026-08-25"
+    },
+    {
+      "url": "https://kccgensanmarathon.myruntime.com/register",
+      "label": "Official race page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-30"
     }
   ],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on MyRunTime",
+      "url": "https://kccgensanmarathon.myruntime.com/register",
+      "type": "official_website"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-09-30",
   "status": "active"
 }

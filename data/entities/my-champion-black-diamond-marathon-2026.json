@@ -7,9 +7,15 @@
   "research_highlights": [],
   "research_watchouts": [],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on PatRunning",
+      "url": "https://patrunning.com/my-champion-%e0%b9%80%e0%b8%9e%e0%b8%8a%e0%b8%a3%e0%b8%94%e0%b8%b3-black-diamond-marathon/24505/",
+      "type": "official_website"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-09-30",
   "status": "needs_review",
   "reliability_score": 30,
   "entity_id": "my-champion-black-diamond-marathon-2026",

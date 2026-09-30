@@ -7,9 +7,20 @@
   "research_highlights": [],
   "research_watchouts": [],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://kakirunning.my/event/kangar-city-half-marathon-2026/",
+      "type": "official_website"
+    },
+    {
+      "label": "Entry page on Howei",
+      "url": "https://howei.com/event_details/kangarcityhalfmarathon2026",
+      "type": "registration"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-09-30",
   "status": "needs_review",
   "reliability_score": 30,
   "entity_id": "kangar-city-half-marathon-2026",
@@ -28,7 +39,8 @@
     "primary_distance_km": 21.1,
     "organizer": "Northern Runners Resources",
     "city": "Kangar, Perlis",
-    "country": "Malaysia"
+    "country": "Malaysia",
+    "price_range": "RM 35-99"
   },
   "faqs": [
     {

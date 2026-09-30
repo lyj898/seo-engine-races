@@ -17,7 +17,9 @@
     "primary_distance_km": 42.195,
     "venue": "Dataran parking Stadium Sultan Mizan Zainal Abidin, Kuala Terengganu, Terengganu, Malaysia",
     "city": "Kuala Terengganu, Terengganu",
-    "country": "Malaysia"
+    "country": "Malaysia",
+    "organizer": "Kelab Olahraga Alam Sinergi",
+    "price_range": "RM 59-159"
   },
   "pros": [
     "Offers both a full marathon (42.195 km) and a half marathon (21.1 km) distance option",
@@ -75,6 +77,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-09-30",
   "status": "needs_review"
 }

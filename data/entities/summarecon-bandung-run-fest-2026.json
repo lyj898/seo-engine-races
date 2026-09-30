@@ -16,7 +16,8 @@
     "primary_distance_km": 42.195,
     "venue": "Summarecon Bandung",
     "city": "Bandung",
-    "country": "Indonesia"
+    "country": "Indonesia",
+    "organizer": "Pandara (race organizer), managed by Menara Visi, in partnership with Summarecon"
   },
   "pros": [],
   "cons": [],
@@ -37,11 +38,34 @@
       "label": "kalenderlari.com",
       "type": "aggregator",
       "last_checked": "2026-08-25"
+    },
+    {
+      "url": "https://summareconbandungrunfest.com/",
+      "label": "Official race page",
+      "type": "official",
+      "last_checked": "2026-09-30"
+    },
+    {
+      "url": "https://summareconbandungrunfest.com/registration",
+      "label": "Entry page on Menaravisi registration",
+      "type": "registration_platform",
+      "last_checked": "2026-09-30"
     }
   ],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://summareconbandungrunfest.com/",
+      "type": "official_website"
+    },
+    {
+      "label": "Entry page on Menaravisi registration",
+      "url": "https://summareconbandungrunfest.com/registration",
+      "type": "registration"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-09-30",
   "status": "draft"
 }

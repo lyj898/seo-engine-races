@@ -18,7 +18,8 @@
     "registration_deadline": "2026-10-08",
     "venue": "Nakhon Ratchasima",
     "city": "Nakhon Ratchasima",
-    "country": "Thailand"
+    "country": "Thailand",
+    "organizer": "Nakhon Ratchasima Province with The Mall Group"
   },
   "pros": [
     "Multiple distance options (42.195km, 21.1km, 10km, 5km) suit a range of runner abilities",
@@ -60,6 +61,12 @@
       "label": "aims-worldrunning.org",
       "type": "aggregator",
       "last_checked": "2026-07-16"
+    },
+    {
+      "url": "https://run.checkrace.com/event/krm26",
+      "label": "Entry page on Checkrace",
+      "type": "registration_platform",
+      "last_checked": "2026-09-30"
     }
   ],
   "affiliate_links": [],
@@ -71,6 +78,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-09-30",
   "status": "needs_review"
 }

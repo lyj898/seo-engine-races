@@ -1,5 +1,5 @@
 {
-  "category_id": "full-marathon",
+  "category_id": "half-marathon",
   "region_id": "vietnam",
   "pros": [],
   "cons": [],
@@ -7,28 +7,39 @@
   "research_highlights": [],
   "research_watchouts": [],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://halongbaymarathon.com/",
+      "type": "official_website"
+    },
+    {
+      "label": "Entry page on iRace",
+      "url": "https://ticket.irace.vn/global-gate-ha-long-esg-marathon-2026",
+      "type": "registration"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-09-30",
   "status": "needs_review",
   "reliability_score": 30,
   "entity_id": "global-gate-halong-esg-marathon-2026",
   "slug": "global-gate-halong-esg-marathon-2026",
   "name": "Global Gate Halong ESG++ Marathon 2026",
-  "short_description": "Global Gate Halong ESG++ Marathon 2026 is on Sunday 11 October 2026 at Vinhomes Global Gate in Ha Long, Quang Ninh, over 3 km, 10 km, 21 km and 42 km.",
-  "ai_summary": "Global Gate Halong ESG++ Marathon 2026 takes place on Sunday 11 October 2026 at Global Gate Ha Long, a Vingroup development in Quang Ninh, with the expo on 10 October. DHA Vietnam is the organiser named on the event page. The race offers 42 km, 21 km, 10 km and 3 km under a Net Zero theme, and the organisers are aiming for 24,000 runners.",
+  "short_description": "Global Gate Halong ESG++ Marathon 2026 is on Sunday 11 October 2026 at Vinhomes Global Gate in Ha Long, Quang Ninh, over 3 km, 10 km and 21 km.",
+  "ai_summary": "Global Gate Halong ESG++ Marathon 2026 takes place on Sunday 11 October 2026 at Global Gate Ha Long, a Vingroup development in Quang Ninh, with the expo on 10 October. DHA Vietnam is the organiser named on the event page. The official site lists three distances, 21 km, 10 km and 3 km, under a Net Zero theme; the iRace ticket page also shows a 42 km, which the organiser's own site and press coverage do not mention.",
   "core_facts": {
     "date": "2026-10-11",
     "distance_km": [
       3,
       10,
-      21.1,
-      42.195
+      21.1
     ],
-    "primary_distance_km": 42.195,
+    "primary_distance_km": 21.1,
     "venue": "Vinhomes Global Gate Ha Long",
     "city": "Ha Long, Quang Ninh",
-    "country": "Vietnam"
+    "country": "Vietnam",
+    "organizer": "DHA Vietnam (Duc Huong Anh Co., Ltd.)"
   },
   "faqs": [
     {
@@ -41,7 +52,7 @@
     }
   ],
   "tags": [
-    "full-marathon",
+    "half-marathon",
     "vietnam"
   ],
   "source_mix": [
@@ -56,6 +67,12 @@
       "label": "Linh Academy race calendar (coach's calendar, cross-check only)",
       "type": "other",
       "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://halongbaymarathon.com/",
+      "label": "Official race page",
+      "type": "official",
+      "last_checked": "2026-09-30"
     }
   ]
 }

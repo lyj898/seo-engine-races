@@ -7,9 +7,15 @@
   "research_highlights": [],
   "research_watchouts": [],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on ACTIVE",
+      "url": "https://www.active.com/clark-pampanga/running/distance-running-races/run-in-clark-leg-3-clark-city-marathon-finale-2026",
+      "type": "official_website"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-09-30",
   "status": "needs_review",
   "reliability_score": 30,
   "entity_id": "run-in-clark-leg-3-clark-city-marathon-finale-2026",

@@ -17,7 +17,8 @@
     "primary_distance_km": 42.195,
     "venue": "Citraland Surabaya",
     "city": "Surabaya",
-    "country": "Indonesia"
+    "country": "Indonesia",
+    "organizer": "CitraLand Surabaya"
   },
   "pros": [],
   "cons": [],
@@ -38,11 +39,23 @@
       "label": "kalenderlari.com",
       "type": "aggregator",
       "last_checked": "2026-08-25"
+    },
+    {
+      "url": "https://citralandmarathon.com/",
+      "label": "Official race page",
+      "type": "official",
+      "last_checked": "2026-09-30"
     }
   ],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://citralandmarathon.com/",
+      "type": "official_website"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-09-30",
   "status": "draft"
 }

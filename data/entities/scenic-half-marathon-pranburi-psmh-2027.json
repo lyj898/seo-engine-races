@@ -7,9 +7,20 @@
   "research_highlights": [],
   "research_watchouts": [],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://scenicmarathon.com/event.html?event=PSMH",
+      "type": "official_website"
+    },
+    {
+      "label": "Entry page on Checkrace",
+      "url": "https://run.checkrace.com/event/PSMH27",
+      "type": "registration"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-09-30",
   "status": "needs_review",
   "reliability_score": 30,
   "entity_id": "scenic-half-marathon-pranburi-psmh-2027",
@@ -28,7 +39,7 @@
     "primary_distance_km": 21.1,
     "venue": "Pak Nam Pran Beach Park, Pranburi",
     "organizer": "RACEUP WORK",
-    "price_range": "THB 500-1,250",
+    "price_range": "THB 800-1,200",
     "city": "Pranburi, Prachuap Khiri Khan",
     "country": "Thailand"
   },
@@ -58,6 +69,12 @@
       "label": "TheSubList event listing",
       "type": "aggregator",
       "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://scenicmarathon.com/event.html?event=PSMH",
+      "label": "Official race page",
+      "type": "official",
+      "last_checked": "2026-09-30"
     }
   ]
 }

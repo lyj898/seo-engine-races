@@ -7,9 +7,15 @@
   "research_highlights": [],
   "research_watchouts": [],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on World's Marathons",
+      "url": "https://worldsmarathons.com/marathon/phichit-running-challenge",
+      "type": "official_website"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-09-30",
   "status": "needs_review",
   "reliability_score": 30,
   "entity_id": "phichit-running-challenge-2026",
@@ -27,7 +33,6 @@
     ],
     "primary_distance_km": 42.195,
     "venue": "Wang Krot Old Market",
-    "price_range": "EUR 13-26",
     "city": "Kha Mang, Phichit",
     "country": "Thailand"
   },

@@ -110,6 +110,12 @@ function prosePieces(data) {
 const BAKED_FRESHNESS_RE =
   /(?:as of the last verification[^.]*|(?:last )?verified (?:as of|on|against[^.]*?as of)[^.]*?\d{4}|confidence (?:score|rating) (?:of )?\(?\d+\)?)/i;
 
+// Hosts that list a race without being it (see the listing-template check
+// below). Platform *index* pages are caught by their path, since the same
+// platforms' per-event pages are exactly what the template wants.
+const NOT_AN_OFFICIAL_LINK_RE =
+  /(?:pinoyfitness\.com\/(?:list-of-events|calendar)|lesgo\.my|justrunlah\.com|kalenderlari\.(?:com|net)|jadwallari\.id|eventrack\.id|schedules\.run|aims-worldrunning\.org|finishers\.com|ahotu\.com|takbo\.ph|checkpointspot\.asia\/events\/?$|runrio\.com\/race-calendar|tinyurl\.com|bit\.ly|linktr\.ee)/i;
+
 for (const item of rawEntities) {
   const data = stripMeta(item);
   if (data.category_id && !categoryIds.has(data.category_id)) {
@@ -171,6 +177,39 @@ for (const item of rawEntities) {
   for (const [field, text] of prosePieces(data)) {
     if (BAKED_FRESHNESS_RE.test(text)) {
       reportWarning(item.__file, `${field} states its own verification date or confidence score -- the page's freshness stamp is the single signal for that: "${text.match(BAKED_FRESHNESS_RE)[0]}"`);
+    }
+  }
+
+  // The listing template. A live listing's page must send the reader to the
+  // thing itself: the only outbound link a detail page renders is
+  // cta_links (source_mix is never shown), so a listing without one is a
+  // dead end -- which is what 174 of 277 live race pages were on 2026-09-30.
+  // The first link must be the organiser's own site, or failing that the
+  // listing's own page on the entry platform or the organiser's social page;
+  // never a calendar that merely lists it, a generic platform index, or a
+  // URL shortener that could be repointed. Warnings rather than errors so a
+  // gap never blocks an unrelated deploy, but every one is a page to fix.
+  // Published listings only (active / needs_review, as src/lib/data.js
+  // isPublished) -- a draft or archived record has no live page to fix.
+  if (data.status === 'active' || data.status === 'needs_review') {
+    const cta = data.cta_links ?? [];
+    if (cta.length === 0) {
+      reportWarning(item.__file, 'template: no official link (cta_links is empty) -- the page has nowhere to send the reader');
+    }
+    for (const link of cta) {
+      if (NOT_AN_OFFICIAL_LINK_RE.test(link.url)) {
+        reportWarning(item.__file, `template: cta_links points at a calendar, index or shortener, not the listing itself: ${link.url}`);
+      }
+    }
+    if (!(data.source_mix ?? []).some((s) => s.type === 'official' || s.type === 'registration_platform' || s.type === 'social')) {
+      reportWarning(item.__file, 'template: no official, registration_platform or organiser social source -- every fact rests on third-party listings');
+    }
+    if (siteConfig.verticalKey === 'races') {
+      const facts = data.core_facts ?? {};
+      if (!isIsoDate(facts.date)) reportWarning(item.__file, `template: core_facts.date must be one ISO race day, not "${facts.date}"`);
+      if (!facts.organizer) reportWarning(item.__file, 'template: core_facts.organizer is missing');
+      if (!facts.venue) reportWarning(item.__file, 'template: core_facts.venue is missing');
+      if ((data.faqs ?? []).length < 2) reportWarning(item.__file, 'template: fewer than two FAQs');
     }
   }
 

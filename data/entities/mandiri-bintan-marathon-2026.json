@@ -7,9 +7,20 @@
   "research_highlights": [],
   "research_watchouts": [],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://bintan-marathon.com/",
+      "type": "official_website"
+    },
+    {
+      "label": "Entry page on BinTix (Bintan Resorts)",
+      "url": "https://tix.bintan-resorts.com/events/mbm2026",
+      "type": "registration"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-09-30",
   "status": "needs_review",
   "reliability_score": 30,
   "entity_id": "mandiri-bintan-marathon-2026",
@@ -64,6 +75,18 @@
       "label": "schedules.run November 2026 calendar",
       "type": "aggregator",
       "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://bintan-marathon.com/",
+      "label": "Official race page",
+      "type": "official",
+      "last_checked": "2026-09-30"
+    },
+    {
+      "url": "https://tix.bintan-resorts.com/events/mbm2026",
+      "label": "Entry page on BinTix (Bintan Resorts)",
+      "type": "registration_platform",
+      "last_checked": "2026-09-30"
     }
   ]
 }

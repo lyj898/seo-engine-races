@@ -15,7 +15,8 @@
     "primary_distance_km": 42.195,
     "venue": "Dataran Tun Tuanku Bujang Phase 1 & 2 (Sibu Town Square), Sarawak",
     "city": "Sibu, Sarawak",
-    "country": "Malaysia"
+    "country": "Malaysia",
+    "organizer": "Rimbunan Sawit Berhad (RSB), co-organised by the Sibu Tourism Action Council"
   },
   "pros": [
     "Offers both full marathon (42.195 km) and half marathon (21.1 km) distance options",
@@ -50,17 +51,23 @@
       "label": "checkpointspot.asia",
       "type": "aggregator",
       "last_checked": "2026-07-13"
+    },
+    {
+      "url": "https://checkpointspot.asia/event/rsawit-international-marathon2026",
+      "label": "Official race page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-30"
     }
   ],
   "affiliate_links": [],
   "cta_links": [
     {
-      "label": "Register",
-      "url": "https://checkpointspot.asia/events",
-      "type": "official_registration"
+      "label": "Official race page on Checkpointspot",
+      "url": "https://checkpointspot.asia/event/rsawit-international-marathon2026",
+      "type": "official_website"
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-08",
+  "last_updated": "2026-09-30",
   "status": "needs_review"
 }

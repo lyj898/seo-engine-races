@@ -10,9 +10,20 @@
     "Start times were not published as text on the page read."
   ],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://uprace.org/",
+      "type": "official_website"
+    },
+    {
+      "label": "Entry page on Pace8",
+      "url": "https://pace8.vn/su-kien/uprace-day-2026",
+      "type": "registration"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-09-30",
   "status": "needs_review",
   "reliability_score": 30,
   "entity_id": "uprace-day-2026",
@@ -60,6 +71,12 @@
       "label": "Pace8 event list",
       "type": "aggregator",
       "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://uprace.org/",
+      "label": "Official race page",
+      "type": "official",
+      "last_checked": "2026-09-30"
     }
   ]
 }

@@ -18,7 +18,9 @@
     "primary_distance_km": 42.195,
     "venue": "Laguna Grove, Laguna Phuket, Cherngtalay",
     "city": "Ban Bang Thao, Phuket",
-    "country": "Thailand"
+    "country": "Thailand",
+    "organizer": "GAA Events",
+    "price_range": "THB 375-1,700"
   },
   "pros": [
     "Seven and a half hour marathon limit with water every 2 to 2.5 km",
@@ -67,6 +69,18 @@
       "label": "The Phuket News report on the 20th edition, 2026",
       "type": "other",
       "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://phuketmarathon.com",
+      "label": "Official race page",
+      "type": "official",
+      "last_checked": "2026-09-30"
+    },
+    {
+      "url": "https://my.raceresult.com/403846/",
+      "label": "Entry page on RaceResult (my.raceresult.com)",
+      "type": "registration_platform",
+      "last_checked": "2026-09-30"
     }
   ],
   "affiliate_links": [],
@@ -78,6 +92,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-09-30",
   "status": "active"
 }

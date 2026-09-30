@@ -17,7 +17,8 @@
     "organizer": "Sri Guru Singh Sabha",
     "venue": "Burapha Road, The Old Siam Plaza, Bangkok",
     "city": "Bangkok",
-    "country": "Thailand"
+    "country": "Thailand",
+    "price_range": "THB 450-750"
   },
   "pros": [
     "Cheap entry: 700 baht for the 2026 half marathon, 600 for the 10 km",
@@ -84,11 +85,23 @@
       "label": "RUNLAH event page, 30th Thai Sikh Run 2026 (organiser's details)",
       "type": "aggregator",
       "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.runlah.com/en/tsr2027",
+      "label": "Official race page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-30"
     }
   ],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on RUNLAH",
+      "url": "https://www.runlah.com/en/tsr2027",
+      "type": "official_website"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-09-30",
   "status": "active"
 }

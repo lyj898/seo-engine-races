@@ -18,9 +18,20 @@
   "research_highlights": [],
   "research_watchouts": [],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://tranganmarathon.com/",
+      "type": "official_website"
+    },
+    {
+      "label": "Entry page on iRace",
+      "url": "https://ticket.irace.vn/trang-an-marathon-2026",
+      "type": "registration"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-09-30",
   "status": "needs_review",
   "reliability_score": 30,
   "entity_id": "trang-an-marathon-2026",
@@ -39,7 +50,9 @@
     "primary_distance_km": 42.195,
     "venue": "Hoa Lu ancient capital, Tay Hoa Lu ward",
     "city": "Ninh Binh",
-    "country": "Vietnam"
+    "country": "Vietnam",
+    "organizer": "Vu Media JSC (VRace), with the Ninh Binh Department of Culture and Sports",
+    "price_range": "VND 659,000-1,159,000"
   },
   "faqs": [
     {
@@ -73,6 +86,12 @@
       "label": "Linh Academy race calendar (coach's calendar, cross-check only)",
       "type": "other",
       "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://tranganmarathon.com/",
+      "label": "Official race page",
+      "type": "official",
+      "last_checked": "2026-09-30"
     }
   ]
 }

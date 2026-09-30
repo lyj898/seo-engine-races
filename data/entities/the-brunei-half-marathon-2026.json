@@ -11,12 +11,14 @@
     "distance_km": [
       5,
       10,
-      21
+      21.1
     ],
-    "primary_distance_km": 21,
+    "primary_distance_km": 21.1,
     "venue": "Sultan Haji Omar 'Ali Saifuddien (SHOAS) Bridge, Bandar Seri Begawan",
     "city": "Bandar Seri Begawan",
-    "country": "Brunei"
+    "country": "Brunei",
+    "organizer": "Arrowtech Sports (ATS) and Royal Brunei Airlines Sdn. Bhd.",
+    "price_range": "BND 70-100"
   },
   "pros": [
     "Routes across the Sultan Haji Omar 'Ali Saifuddien Bridge, a recognizable Bandar Seri Begawan landmark"
@@ -78,6 +80,6 @@
     "luang-prabang-half-marathon-run-for-children-2026",
     "ijm-allianz-duo-highway-challenge-2026"
   ],
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-09-30",
   "status": "needs_review"
 }

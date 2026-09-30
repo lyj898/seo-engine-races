@@ -7,9 +7,20 @@
   "research_highlights": [],
   "research_watchouts": [],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://jogandjoy.run/project/detail/173",
+      "type": "official_website"
+    },
+    {
+      "label": "Entry page on Thai.Run",
+      "url": "https://race.thai.run/internationalanti-corruptionday2026runfordad",
+      "type": "registration"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-09-30",
   "status": "needs_review",
   "reliability_score": 30,
   "entity_id": "international-anti-corruption-day-run-for-dad-2026",
@@ -58,6 +69,12 @@
       "label": "RUNLAH event listing",
       "type": "aggregator",
       "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://jogandjoy.run/project/detail/173",
+      "label": "Official race page",
+      "type": "official",
+      "last_checked": "2026-09-30"
     }
   ]
 }

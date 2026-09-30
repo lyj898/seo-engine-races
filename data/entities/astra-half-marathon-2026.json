@@ -17,9 +17,20 @@
   "research_highlights": [],
   "research_watchouts": [],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://astrarunners.astra.co.id/half-marathon",
+      "type": "official_website"
+    },
+    {
+      "label": "Entry page on race.id",
+      "url": "https://astrahm.race.id/",
+      "type": "registration"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-28",
+  "last_updated": "2026-09-30",
   "status": "needs_review",
   "reliability_score": 30,
   "entity_id": "astra-half-marathon-2026",
@@ -37,7 +48,9 @@
     "primary_distance_km": 21.1,
     "venue": "Astra Biz Center, BSD",
     "city": "Tangerang, Banten",
-    "country": "Indonesia"
+    "country": "Indonesia",
+    "organizer": "Astra (PT Astra International Tbk) through the Astra Runners community",
+    "price_range": "IDR 400,000-650,000"
   },
   "faqs": [
     {
@@ -71,6 +84,18 @@
       "label": "Organiser FAQ (2026 edition)",
       "type": "official",
       "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://astrarunners.astra.co.id/half-marathon",
+      "label": "Official race page",
+      "type": "official",
+      "last_checked": "2026-09-30"
+    },
+    {
+      "url": "https://astrahm.race.id/",
+      "label": "Entry page on race.id",
+      "type": "registration_platform",
+      "last_checked": "2026-09-30"
     }
   ]
 }

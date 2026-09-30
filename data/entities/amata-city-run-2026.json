@@ -7,9 +7,20 @@
   "research_highlights": [],
   "research_watchouts": [],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://www.afswecare.com/en/content/29891/join-us-at-amata-city-run-2026",
+      "type": "official_website"
+    },
+    {
+      "label": "Entry page on Thai.Run",
+      "url": "https://race.thai.run/amatacityrun2026",
+      "type": "registration"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-09-30",
   "status": "needs_review",
   "reliability_score": 30,
   "entity_id": "amata-city-run-2026",
@@ -58,6 +69,12 @@
       "label": "RUNLAH event listing",
       "type": "aggregator",
       "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://www.afswecare.com/en/content/29891/join-us-at-amata-city-run-2026",
+      "label": "Official race page",
+      "type": "official",
+      "last_checked": "2026-09-30"
     }
   ]
 }

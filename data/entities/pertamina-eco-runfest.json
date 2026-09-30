@@ -17,7 +17,9 @@
     "primary_distance_km": 21.0975,
     "city": "Jakarta",
     "country": "Indonesia",
-    "venue": "Gelora Bung Karno and Istora Senayan, Jakarta"
+    "venue": "Gelora Bung Karno and Istora Senayan, Jakarta",
+    "organizer": "PT Pertamina (Persero)",
+    "price_range": "IDR 450,000-700,000"
   },
   "pros": [
     "World Athletics Label half marathon through central Jakarta",
@@ -74,11 +76,23 @@
       "label": "Bola.com -- 6 December date and eco initiatives",
       "type": "other",
       "last_checked": "2026-09-09"
+    },
+    {
+      "url": "https://pertaminaecorunfest.com/en",
+      "label": "Official race page",
+      "type": "official",
+      "last_checked": "2026-09-30"
     }
   ],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://pertaminaecorunfest.com/en",
+      "type": "official_website"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-09",
+  "last_updated": "2026-09-30",
   "status": "needs_review"
 }

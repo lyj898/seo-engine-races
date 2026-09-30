@@ -18,7 +18,8 @@
     "organizer": "Kelab CIDB WP Kuala Lumpur (\"CIDB Run\")",
     "venue": "Dataran Putrajaya, Putrajaya",
     "city": "Putrajaya",
-    "country": "Malaysia"
+    "country": "Malaysia",
+    "price_range": "RM 35-120"
   },
   "pros": [
     "Multiple distance options (21.1km, 10km, 5km, 3km) suit a range of runner abilities",
@@ -61,21 +62,21 @@
       "last_checked": "2026-07-20"
     },
     {
-      "url": "https://raceroster.com",
-      "label": "raceroster.com",
-      "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "url": "https://raceroster.com/events/2026/139615/cidb-half-marathon-2026",
+      "label": "Official race page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-30"
     }
   ],
   "affiliate_links": [],
   "cta_links": [
     {
-      "label": "Register",
-      "url": "https://checkpointspot.asia/event/cidb-half-marathon-2026",
-      "type": "official_registration"
+      "label": "Official race page on Race Roster",
+      "url": "https://raceroster.com/events/2026/139615/cidb-half-marathon-2026",
+      "type": "official_website"
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-08",
+  "last_updated": "2026-09-30",
   "status": "needs_review"
 }

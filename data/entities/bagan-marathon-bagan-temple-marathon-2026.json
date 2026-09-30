@@ -59,8 +59,14 @@
     }
   ],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on World's Marathons",
+      "url": "https://worldsmarathons.com/marathon/bagan-marathon",
+      "type": "official_website"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-09-30",
   "status": "active"
 }

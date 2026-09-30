@@ -17,7 +17,8 @@
     "organizer": "JCIR Events",
     "venue": "Tayug, Pangasinan",
     "city": "Tayug, Pangasinan",
-    "country": "Philippines"
+    "country": "Philippines",
+    "price_range": "PHP 750-1,900"
   },
   "pros": [
     "Multiple distance options (21.1km, 10km, 5km) suit different runner levels",
@@ -53,11 +54,23 @@
       "label": "pinoyfitness.com",
       "type": "aggregator",
       "last_checked": "2026-08-25"
+    },
+    {
+      "url": "https://jcirevents.myruntime.com/register/tayug-family-hospital-run-at-28",
+      "label": "Official race page",
+      "type": "registration_platform",
+      "last_checked": "2026-09-30"
     }
   ],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on MyRunTime",
+      "url": "https://jcirevents.myruntime.com/register/tayug-family-hospital-run-at-28",
+      "type": "official_website"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-09-30",
   "status": "active"
 }

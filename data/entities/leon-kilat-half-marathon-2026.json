@@ -13,9 +13,15 @@
     "The race was first advertised for 23 August 2026; the organiser's registration page now gives 25 October 2026, while the poster on that page still shows the old August date."
   ],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on MyRunTime",
+      "url": "https://smoke10events.myruntime.com/register/leon-kilat-half-marathon",
+      "type": "official_website"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-09-30",
   "status": "needs_review",
   "reliability_score": 30,
   "entity_id": "leon-kilat-half-marathon-2026",

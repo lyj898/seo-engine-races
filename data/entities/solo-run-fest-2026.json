@@ -17,7 +17,8 @@
     "price_range": "Rp 200,000 - Rp 650,000",
     "venue": "Stadion Manahan (start) to Taman Balekambang (finish), Surakarta",
     "city": "Surakarta, Jawa Tengah",
-    "country": "Indonesia"
+    "country": "Indonesia",
+    "organizer": "PT SHA Solo, with Pemerintah Kota Surakarta"
   },
   "pros": [
     "Generous half-marathon limit of 3 hours 45 minutes",
@@ -133,6 +134,18 @@
       "label": "Tempo report on the 2025 race (half marathon, 5,000 runners)",
       "type": "other",
       "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://solorunfest.com",
+      "label": "Official race page",
+      "type": "official",
+      "last_checked": "2026-09-30"
+    },
+    {
+      "url": "http://registration.solorunfest.com/",
+      "label": "Entry page on Solo Run Fest registration (own)",
+      "type": "registration_platform",
+      "last_checked": "2026-09-30"
     }
   ],
   "affiliate_links": [],
@@ -144,6 +157,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-09-30",
   "status": "archived"
 }

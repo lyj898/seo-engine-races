@@ -18,9 +18,20 @@
   "research_highlights": [],
   "research_watchouts": [],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://datsenhongmarathon.com/",
+      "type": "official_website"
+    },
+    {
+      "label": "Entry page on iRace",
+      "url": "https://ticket.irace.vn/vpbank-dat-sen-hong-music-marathon-2026",
+      "type": "registration"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-09-30",
   "status": "needs_review",
   "reliability_score": 30,
   "entity_id": "vpbank-dat-sen-hong-music-marathon-2026",
@@ -39,7 +50,8 @@
     "primary_distance_km": 42.195,
     "venue": "Van Mieu Square, Cao Lanh ward",
     "city": "Cao Lanh, Dong Thap",
-    "country": "Vietnam"
+    "country": "Vietnam",
+    "organizer": "Nexus Sport Events, with the Dong Thap provincial authorities and VPBank"
   },
   "faqs": [
     {
@@ -67,6 +79,12 @@
       "label": "Linh Academy race calendar (coach's calendar, cross-check only)",
       "type": "other",
       "last_checked": "2026-09-29"
+    },
+    {
+      "url": "https://datsenhongmarathon.com/",
+      "label": "Official race page",
+      "type": "official",
+      "last_checked": "2026-09-30"
     }
   ]
 }
