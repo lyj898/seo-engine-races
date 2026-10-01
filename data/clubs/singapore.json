@@ -44,9 +44,9 @@
         }
       ],
       "cost": "Free (registration required, opens each Monday or Tuesday)",
-      "who": "All levels training for a race; 16+ for runs up to 21 km, 18+ for longer runs",
-      "description": "A free weekly long-run programme for the BYD Singapore International Marathon, powered by Running Department. Sessions are run in loops of about 6 km, with nine pace groups from 4:59 to 7:49 min/km, and include bag drop and hydration. You don't need to belong to a club to join.",
-      "active_evidence": "Sessions listed for 3-31 Oct 2026 on the race's official site",
+      "who": "Runners entered in the BYD Singapore International Marathon or adidas Half Marathon; 16+ for runs up to 21 km, 18+ for longer runs",
+      "description": "A free structured training programme for runners entered in the BYD Singapore International Marathon or the adidas Half Marathon, powered by Running Department, running until the end of November. Sessions are run in loops of about 6 km, with nine pace groups from 4:59 to 7:49 min/km, and include bag drop and hydration. You do not need to belong to a club to join.",
+      "active_evidence": "Sessions listed for 3-31 Oct 2026 on the race's official site; details confirmed by the race organiser by email, 1 Oct 2026",
       "source_url": "https://singaporeinternationalmarathon.com/train/lion-city-road-runners/"
     },
     {
@@ -618,6 +618,6 @@
       "source_url": "https://www.fitfamco.com/running"
     }
   ],
-  "last_updated": "2026-09-30",
+  "last_updated": "2026-10-01",
   "status": "active"
 }

@@ -15,7 +15,7 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-30",
+  "last_updated": "2026-10-01",
   "status": "needs_review",
   "reliability_score": 30,
   "entity_id": "sagisag-half-marathon-2026-cebu",
@@ -35,7 +35,9 @@
     "organizer": "RSRJ Events Management",
     "price_range": "PHP 1,150-1,800",
     "city": "Cebu City",
-    "country": "Philippines"
+    "country": "Philippines",
+    "event_status": "cancelled",
+    "event_status_note": "The organiser, RSRJ Events Management, told runsea.run on 30 September 2026 that the Cebu leg has been cancelled due to unforeseen circumstances."
   },
   "faqs": [
     {
