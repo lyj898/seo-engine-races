@@ -148,27 +148,27 @@
     {
       "name": "Singapore Shufflers",
       "kind": "club",
-      "focus": "track",
+      "focus": "road",
       "url": "https://singaporeshufflers.com/",
       "url_kind": "website",
       "meets": [
         {
-          "when": "Mondays and Wednesdays 6.55am",
+          "when": "Mondays and Wednesdays, 6.55am",
           "where": "Home of Athletics"
         },
         {
-          "when": "Mondays and Wednesdays 7.45pm",
-          "where": "Bishan Stadium"
+          "when": "Mondays and Wednesdays, 7.45pm",
+          "where": "MOE Evans Road Track or Bishan Stadium"
         },
         {
-          "when": "Fridays 6.55am",
+          "when": "Fridays, 6.55am",
           "where": "Bukit Brown"
         }
       ],
       "cost": "Free",
-      "who": "Committed intermediate to advanced distance runners; no walk-ins, so contact the club first",
-      "description": "A performance distance-running club that began in 2008 as a Monday Meetup group and now trains about 100 active members in seven ability-based groups. Sessions are 45-60 minutes, and runners warm up on their own before the start.",
-      "active_evidence": "2026 club 5K handicap result and a privacy policy updated 15 Aug 2026 on its website",
+      "who": "Committed intermediate to advanced runners looking for structured, performance-based training. Spaces are limited, so email the club about joining first",
+      "description": "A performance road-running club whose sessions are led by World Athletics certified coaches. Runners are split into ability-based groups and follow periodised programmes aimed at major races and key periods of the year. The club says it is the top-ranked road running club in Singapore, with age-category wins and podium places in Berlin, Valencia, Gold Coast, Wuxi, Melbourne, Seoul and more.",
+      "active_evidence": "2026 club 5K handicap result and a privacy policy updated 15 Aug 2026 on its website; schedule and description confirmed by the club by email, 2 Oct 2026",
       "source_url": "https://singaporeshufflers.com/training"
     },
     {
@@ -618,6 +618,6 @@
       "source_url": "https://www.fitfamco.com/running"
     }
   ],
-  "last_updated": "2026-10-01",
+  "last_updated": "2026-10-02",
   "status": "active"
 }
