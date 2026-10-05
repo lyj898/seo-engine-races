@@ -42,5 +42,12 @@ on each gap with a `template:` message; fix those before adding more races.
    `ai_summary` of 2–4 factual sentences, and at least two FAQs. Never state
    registration status (open/closed/sold out).
 
+6. **Results, once it has run** — `results: { url, publisher, last_checked }`
+   (top level, not in core_facts), pointing at a page you have seen list this
+   edition's finishers: the timing company's results page or the organiser's.
+   The page then titles itself "<race> <year> Results" and leads with the
+   link. `npm run results:due` lists races from the last 21 days still
+   missing one. Never on a cancelled or postponed edition.
+
 Check every link loads before deploying. A 403 from a bot wall is fine to
 keep only after confirming the page loads in a normal browser.

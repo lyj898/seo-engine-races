@@ -215,6 +215,21 @@ for (const item of rawEntities) {
     }
   }
 
+  // Results belong to an edition that has run. On a future or halted race
+  // the page would never show them, so a value there is a mistake in data
+  // entry (usually last year's results pasted onto the new edition).
+  if (data.results) {
+    const facts = data.core_facts ?? {};
+    const today = new Date().toISOString().slice(0, 10);
+    if (isIsoDate(facts.date) && facts.date >= today) {
+      reportWarning(item.__file, `results: set on a race that hasn't run yet (${facts.date}) -- is this last year's results page?`);
+    }
+    if (facts.event_status) reportWarning(item.__file, `results: set on a ${facts.event_status} edition`);
+    if (NOT_AN_OFFICIAL_LINK_RE.test(data.results.url)) {
+      reportWarning(item.__file, `results: url is a calendar, index or shortener: ${data.results.url}`);
+    }
+  }
+
   // Near-duplicate FAQs. Two questions that differ only in wording ("How
   // much does X cost?" / "What does it cost to enter X?") produce two
   // near-identical answers in the accordion and two entries in the FAQPage

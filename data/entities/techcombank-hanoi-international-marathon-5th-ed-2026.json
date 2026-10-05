@@ -85,6 +85,11 @@
       "type": "official_website"
     }
   ],
+  "results": {
+    "url": "https://sportstats.one/vi/event/ha-noi-marathon",
+    "publisher": "SportStats",
+    "last_checked": "2026-10-05"
+  },
   "related_entity_ids": [],
   "last_updated": "2026-09-30",
   "status": "needs_review"

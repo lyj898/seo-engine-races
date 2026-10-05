@@ -53,6 +53,11 @@
   ],
   "affiliate_links": [],
   "cta_links": [],
+  "results": {
+    "url": "https://results.racetime.sg/cgi-bin/common/results/yrr2026/search.pl",
+    "publisher": "RaceTime",
+    "last_checked": "2026-10-05"
+  },
   "related_entity_ids": [],
   "last_updated": "2026-08-18",
   "status": "archived",

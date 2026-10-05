@@ -158,6 +158,11 @@
       "type": "official_website"
     }
   ],
+  "results": {
+    "url": "https://my.raceresult.com/425981/results",
+    "publisher": "RACE RESULT",
+    "last_checked": "2026-10-05"
+  },
   "related_entity_ids": [],
   "last_updated": "2026-09-29",
   "status": "archived"

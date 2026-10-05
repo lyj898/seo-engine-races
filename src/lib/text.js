@@ -38,6 +38,17 @@ export function formatDayMonth(isoDate) {
   return { day: String(Number(dayNum)), month: MONTH_NAMES[monthIndex].slice(0, 3).toUpperCase() };
 }
 
+/** "2026-10-04" -> "4 October 2026". Returns null if the string isn't a full ISO date. */
+export function formatLongDate(isoDate) {
+  if (typeof isoDate !== 'string') return null;
+  const match = /^(\d{4})-(\d{2})-(\d{2})/.exec(isoDate);
+  if (!match) return null;
+  const [, year, monthNum, dayNum] = match;
+  const monthIndex = Number(monthNum) - 1;
+  if (monthIndex < 0 || monthIndex > 11) return null;
+  return `${Number(dayNum)} ${MONTH_NAMES[monthIndex]} ${year}`;
+}
+
 /** "2026-08-01" -> "August 2026". Used to group entities by month. Returns null if unparseable. */
 export function formatMonthLabel(isoDate) {
   if (typeof isoDate !== 'string') return null;

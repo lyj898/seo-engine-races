@@ -106,6 +106,21 @@ export const baseEntitySchema = z.object({
   source_mix: z.array(sourceRefSchema).default([]),
   affiliate_links: z.array(affiliateLinkSchema).default([]),
   cta_links: z.array(ctaLinkSchema).default([]),
+  // Where a finished edition's official results are published (the timing
+  // company's results page, or the organiser's). Once the date passes, a race
+  // page's search demand turns from "<race> 2026" into "<race> 2026 results";
+  // with this set the page leads with the results link and says "Results" in
+  // its title. Kept out of core_facts because FactsTable prints every
+  // core_facts key, and out of cta_links because those are hidden once the
+  // race has run. Set it only from a page you have seen list this edition's
+  // finishers -- scripts/results-due.js lists the races still missing one.
+  results: z
+    .object({
+      url: z.string().url(),
+      publisher: z.string().min(1), // who hosts the results, e.g. "RaceTime" or "the organiser"
+      last_checked: z.string().regex(/^\d{4}-\d{2}-\d{2}$/, 'must be an ISO date'),
+    })
+    .optional(),
   related_entity_ids: z.array(z.string().min(1)).default([]),
   last_updated: z.string().min(1), // ISO date, e.g. "2026-07-29"
   status: z.enum(STATUS_VALUES),

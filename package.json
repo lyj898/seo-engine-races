@@ -20,7 +20,8 @@
     "summaries": "node scripts/generate-summaries.js",
     "reviews": "node scripts/generate-reviews.js",
     "refresh:all": "npm run validate && npm run discover && npm run refresh && npm run research && npm run summaries && npm run validate",
-    "listicles:refresh": "node scripts/generate-listicles.js --refresh-stale"
+    "listicles:refresh": "node scripts/generate-listicles.js --refresh-stale",
+    "results:due": "node scripts/results-due.js"
   },
   "dependencies": {
     "astro": "^4.16.0",

@@ -88,6 +88,11 @@
       "type": "official_website"
     }
   ],
+  "results": {
+    "url": "https://results.raceroster.com/v2/en-US/results/c2m7xuktarwhcsbt/results",
+    "publisher": "RaceRoster",
+    "last_checked": "2026-10-05"
+  },
   "related_entity_ids": [],
   "last_updated": "2026-09-22",
   "status": "archived"
