@@ -79,6 +79,11 @@
       "type": "official_website"
     }
   ],
+  "results": {
+    "url": "https://results.raceroster.com/v3/events/34tvtsapjudr93m7",
+    "publisher": "RaceRoster",
+    "last_checked": "2026-10-06"
+  },
   "related_entity_ids": [],
   "last_updated": "2026-08-25",
   "status": "active"
