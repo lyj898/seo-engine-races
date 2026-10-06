@@ -4,7 +4,7 @@
   "name": "Cerita Lari",
   "country": "Indonesia",
   "website": "https://ceritalari.com/",
-  "description": "An Indonesian marathon-tour specialist, founded in 2017, describing itself as the official travel partner for four World Marathon Majors (Tokyo, London, Berlin, and New York) and recently appointed an official International Travel Agency for the TCS Sydney Marathon.",
+  "description": "An Indonesian marathon-tour specialist, founded in 2017, named as an official travel partner by the Tokyo, London and Cape Town marathons, and describing itself as a travel partner for the Berlin, Chicago and New York City marathons and the TCS Sydney Marathon. Its Explorun brand covers races outside the World Marathon Majors.",
   "certifications": [
     {
       "race_name": "TCS London Marathon",
@@ -29,9 +29,21 @@
       "evidence": "Cerita Lari's own official event page states \"we have been elected to become official International Tour Operator for TCS New York City Marathon 2026\", though we could not independently confirm it on NYRR's own tour-operator page (it sits behind a Cloudflare waiting-room queue we couldn't get past).",
       "source_label": "Cerita Lari -- TCS New York City Marathon 2026",
       "source_url": "https://ceritalari.com/marathon/tcs-new-york-city-marathon"
+    },
+    {
+      "race_name": "Tokyo Marathon",
+      "evidence": "Listed as \"Cerita Lari\" under Indonesia in the Tokyo Marathon Foundation's own list of Tokyo Marathon 2027 travel agencies for Asia.",
+      "source_label": "Tokyo Marathon Foundation -- Tokyo Marathon 2027 travel agencies (Asia)",
+      "source_url": "https://www.marathon.tokyo/en/participants/service/pdf/TM27_Asia.pdf"
+    },
+    {
+      "race_name": "Sanlam Cape Town Marathon",
+      "evidence": "Listed as \"Cerita Lari\" under Indonesia on the Sanlam Cape Town Marathon's own International Travel Program page.",
+      "source_label": "Sanlam Cape Town Marathon -- International Travel Program",
+      "source_url": "https://capetownmarathon.com/international-travel-program/"
     }
   ],
-  "editorial_notes": "London Marathon certification verified directly against London Marathon Events' own official tour-operator listing on 2026-08-11. Berlin, Chicago, and New York City certifications are sourced from Cerita Lari's own event-specific pages, which make specific dated/repeated-appointment claims rather than generic marketing copy -- but these are the agency's own claims, not confirmed against the three races' own official operator pages (each uses a dynamic map, a gated PDF, or a queue system we could not get past). Cerita Lari's own site separately claims Tokyo Marathon involvement, but its Tokyo page clarifies it sells packages through Kintetsu International (KNT), the actual official Tokyo Marathon travel partner, rather than holding certification itself -- so Tokyo is deliberately excluded here.",
-  "last_updated": "2026-08-11",
+  "editorial_notes": "London Marathon certification verified directly against London Marathon Events' own official tour-operator listing on 2026-08-11. Berlin, Chicago, and New York City certifications are sourced from Cerita Lari's own event-specific pages, which make specific dated/repeated-appointment claims rather than generic marketing copy -- but these are the agency's own claims, not confirmed against the three races' own official operator pages (each uses a dynamic map, a gated PDF, or a queue system we could not get past). Tokyo Marathon was left out in August because Cerita Lari's own page described selling packages through Kintetsu International; the Tokyo Marathon Foundation's own Tokyo Marathon 2027 Asia list now names Cerita Lari directly, so it is included (checked 2026-10-06, after Cerita Lari sent the list).",
+  "last_updated": "2026-10-06",
   "status": "active"
 }

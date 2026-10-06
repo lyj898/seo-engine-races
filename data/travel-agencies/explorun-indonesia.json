@@ -1,0 +1,19 @@
+{
+  "agency_id": "explorun-indonesia",
+  "slug": "explorun-indonesia",
+  "name": "Explorun",
+  "country": "Indonesia",
+  "website": "https://explorun.id/",
+  "description": "Cerita Lari's brand for race-travel packages outside the World Marathon Majors, starting with the SuperHalfs: six half marathons in Lisbon, Prague, Berlin, Copenhagen, Cardiff and Valencia.",
+  "certifications": [
+    {
+      "race_name": "SuperHalfs",
+      "evidence": "Listed as \"Cerita Lari Explorun\" under Indonesia on the SuperHalfs' own official travel partners page.",
+      "source_label": "SuperHalfs -- Travel",
+      "source_url": "https://www.superhalfs.com/en/travel/"
+    }
+  ],
+  "editorial_notes": "Added 2026-10-06 at Cerita Lari's request (Faisal, by email). SuperHalfs appointment checked against the SuperHalfs' own travel page the same day.",
+  "last_updated": "2026-10-06",
+  "status": "active"
+}

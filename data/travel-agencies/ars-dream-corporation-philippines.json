@@ -11,9 +11,15 @@
       "evidence": "Listed as \"ARS Dream Corporation\" under Philippines on London Marathon Events' own official tour operators page.",
       "source_label": "London Marathon Events -- International Participants",
       "source_url": "https://www.londonmarathonevents.co.uk/london-marathon/international-participants"
+    },
+    {
+      "race_name": "Tokyo Marathon",
+      "evidence": "Listed as \"ARS DREAM\" in the Tokyo Marathon Foundation's own list of Tokyo Marathon 2027 travel agencies for Asia.",
+      "source_label": "Tokyo Marathon Foundation -- Tokyo Marathon 2027 travel agencies (Asia)",
+      "source_url": "https://www.marathon.tokyo/en/participants/service/pdf/TM27_Asia.pdf"
     }
   ],
-  "editorial_notes": "Verified directly against London Marathon Events' own official tour-operator listing on 2026-08-11. The agency's own site additionally claims sole-ITP status in the Philippines across the full World Marathon Majors, which we have not independently verified against every individual race's own organizer page.",
-  "last_updated": "2026-08-11",
+  "editorial_notes": "Verified directly against London Marathon Events' own official tour-operator listing on 2026-08-11. The agency's own site additionally claims sole-ITP status in the Philippines across the full World Marathon Majors, which we have not independently verified against every individual race's own organizer page. Tokyo Marathon and Sanlam Cape Town Marathon listings (where present) checked against those races' own official travel-agency lists on 2026-10-06.",
+  "last_updated": "2026-10-06",
   "status": "active"
 }

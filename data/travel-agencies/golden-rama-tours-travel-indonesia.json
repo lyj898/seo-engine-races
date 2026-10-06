@@ -11,9 +11,21 @@
       "evidence": "Listed as \"Golden Rama Tours & Travel\" under Indonesia on London Marathon Events' own official tour operators page.",
       "source_label": "London Marathon Events -- International Participants",
       "source_url": "https://www.londonmarathonevents.co.uk/london-marathon/international-participants"
+    },
+    {
+      "race_name": "Tokyo Marathon",
+      "evidence": "Listed as \"Golden Rama Tours & Travel\" under Indonesia in the Tokyo Marathon Foundation's own list of Tokyo Marathon 2027 travel agencies for Asia.",
+      "source_label": "Tokyo Marathon Foundation -- Tokyo Marathon 2027 travel agencies (Asia)",
+      "source_url": "https://www.marathon.tokyo/en/participants/service/pdf/TM27_Asia.pdf"
+    },
+    {
+      "race_name": "Sanlam Cape Town Marathon",
+      "evidence": "Listed as \"Golden Rama\" under Indonesia on the Sanlam Cape Town Marathon's own International Travel Program page.",
+      "source_label": "Sanlam Cape Town Marathon -- International Travel Program",
+      "source_url": "https://capetownmarathon.com/international-travel-program/"
     }
   ],
-  "editorial_notes": "Verified directly against London Marathon Events' own official tour-operator listing on 2026-08-11.",
-  "last_updated": "2026-08-11",
+  "editorial_notes": "Verified directly against London Marathon Events' own official tour-operator listing on 2026-08-11. Tokyo Marathon and Sanlam Cape Town Marathon listings (where present) checked against those races' own official travel-agency lists on 2026-10-06.",
+  "last_updated": "2026-10-06",
   "status": "active"
 }
