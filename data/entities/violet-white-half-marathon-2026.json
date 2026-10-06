@@ -1,26 +1,9 @@
 {
-  "category_id": "half-marathon",
-  "region_id": "thailand",
-  "pros": [],
-  "cons": [],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
-  "affiliate_links": [],
-  "cta_links": [
-    {
-      "label": "Official race page on RUNLAH",
-      "url": "https://www.runlah.com/en/violet26",
-      "type": "official_website"
-    }
-  ],
-  "related_entity_ids": [],
-  "last_updated": "2026-09-30",
-  "status": "needs_review",
-  "reliability_score": 30,
   "entity_id": "violet-white-half-marathon-2026",
   "slug": "violet-white-half-marathon-2026",
   "name": "VIOLET-WHITE Half Marathon 2026",
+  "category_id": "half-marathon",
+  "region_id": "thailand",
   "short_description": "VIOLET-WHITE Half Marathon 2026 is on Sunday 4 October 2026 at Wat Muang Khao Kaeo Phikun in Si Mahosot, Prachin Buri, over 5 km, 10.5 km and 21.1 km.",
   "ai_summary": "VIOLET-WHITE Half Marathon 2026 is the third edition of the race, organised by Pre-Running and based at Wat Muang Khao Kaeo Phikun in Khok Pip, Si Mahosot district, Prachin Buri. The 21 km starts at 05:00, the 10.5 km at 05:30 and the 5 km at 05:45. Overall winners of the 21 km receive prize money of THB 3,000, 2,000 and 1,000, and 21 km finishers receive a finisher shirt.",
   "core_facts": {
@@ -31,12 +14,17 @@
       21.1
     ],
     "primary_distance_km": 21.1,
-    "venue": "Wat Muang Khao Kaeo Phikun, Khok Pip",
     "organizer": "Pre-Running",
     "price_range": "THB 500-2,000",
+    "venue": "Wat Muang Khao Kaeo Phikun, Khok Pip",
     "city": "Si Mahosot, Prachin Buri",
     "country": "Thailand"
   },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
   "faqs": [
     {
       "question": "How much does the VIOLET-WHITE Half Marathon 2026 cost?",
@@ -47,6 +35,7 @@
       "answer": "Race packs are collected on Saturday 3 October 2026 from 10:00 to 21:00 at Wat Muang Khao Kaeo Phikun. Postal delivery within Thailand can be chosen at registration for THB 60 per runner."
     }
   ],
+  "reliability_score": 30,
   "tags": [
     "half-marathon",
     "thailand"
@@ -64,5 +53,16 @@
       "type": "aggregator",
       "last_checked": "2026-09-29"
     }
-  ]
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on RUNLAH",
+      "url": "https://www.runlah.com/en/violet26",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-10-06",
+  "status": "archived"
 }

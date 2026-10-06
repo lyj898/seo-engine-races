@@ -1,26 +1,9 @@
 {
-  "category_id": "half-marathon",
-  "region_id": "thailand",
-  "pros": [],
-  "cons": [],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
-  "affiliate_links": [],
-  "cta_links": [
-    {
-      "label": "Official race page on race.thai.run",
-      "url": "https://race.thai.run/sponsorrunbangkok2026",
-      "type": "official_website"
-    }
-  ],
-  "related_entity_ids": [],
-  "last_updated": "2026-09-30",
-  "status": "needs_review",
-  "reliability_score": 30,
   "entity_id": "sponsor-run-bangkok-2026",
   "slug": "sponsor-run-bangkok-2026",
   "name": "Sponsor Run Bangkok 2026",
+  "category_id": "half-marathon",
+  "region_id": "thailand",
   "short_description": "Sponsor Run Bangkok 2026 is on Sunday 4 October 2026 at Rama VIII Bridge and park in Bangkok, over 5 km, 10 km and 21.1 km.",
   "ai_summary": "Sponsor Run Bangkok 2026 is organised by RunRio (Thailand) Co., Ltd. and takes entries on race.thai.run. The race is based at the Rama VIII Bridge and its park in Bangkok. The organiser says 2026 is the first year it offers a 21K, alongside the 5K and 10K.",
   "core_facts": {
@@ -31,11 +14,16 @@
       21.1
     ],
     "primary_distance_km": 21.1,
-    "venue": "Rama VIII Bridge and park",
     "organizer": "RunRio (Thailand) Co., Ltd.",
+    "venue": "Rama VIII Bridge and park",
     "city": "Bangkok",
     "country": "Thailand"
   },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
   "faqs": [
     {
       "question": "What distances does Sponsor Run Bangkok 2026 offer?",
@@ -46,6 +34,7 @@
       "answer": "The race day is 4 October 2026 at the Rama VIII Bridge and park in Bangkok. The organiser posts updates on its Sponsor Run Facebook page and links its race rules from the registration page."
     }
   ],
+  "reliability_score": 30,
   "tags": [
     "half-marathon",
     "thailand"
@@ -63,5 +52,16 @@
       "type": "aggregator",
       "last_checked": "2026-09-29"
     }
-  ]
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on race.thai.run",
+      "url": "https://race.thai.run/sponsorrunbangkok2026",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-10-06",
+  "status": "archived"
 }

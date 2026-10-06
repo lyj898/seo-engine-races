@@ -17,10 +17,10 @@
       1.5
     ],
     "primary_distance_km": 42.195,
+    "organizer": "Sunrise Events Vietnam",
     "venue": "Start: Đền Bà Kiệu garden, Đinh Tiên Hoàng Street, Hoàn Kiếm; finish: Vinhomes Riverside, Long Biên",
     "city": "Hanoi",
-    "country": "Vietnam",
-    "organizer": "Sunrise Events Vietnam"
+    "country": "Vietnam"
   },
   "pros": [
     "AIMS-certified one-way course from Hoàn Kiếm through the Old Quarter and around West Lake, over Nhật Tân and Đông Trù bridges",
@@ -91,6 +91,6 @@
     "last_checked": "2026-10-05"
   },
   "related_entity_ids": [],
-  "last_updated": "2026-09-30",
-  "status": "needs_review"
+  "last_updated": "2026-10-06",
+  "status": "archived"
 }

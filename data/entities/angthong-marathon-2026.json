@@ -1,26 +1,9 @@
 {
-  "category_id": "full-marathon",
-  "region_id": "thailand",
-  "pros": [],
-  "cons": [],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
-  "affiliate_links": [],
-  "cta_links": [
-    {
-      "label": "Official race page on ThaiMTB / ThaiMaster",
-      "url": "https://event.thaimtb.com/V3/event-detail.php?e=747",
-      "type": "official_website"
-    }
-  ],
-  "related_entity_ids": [],
-  "last_updated": "2026-09-30",
-  "status": "needs_review",
-  "reliability_score": 30,
   "entity_id": "angthong-marathon-2026",
   "slug": "angthong-marathon-2026",
   "name": "Angthong Marathon 2026",
+  "category_id": "full-marathon",
+  "region_id": "thailand",
   "short_description": "Angthong Marathon 2026 is on Sunday 4 October 2026 at Sawan Park (Nong Chet Sen) in Ang Thong, over 42.195 km, 21.1 km, 10 km and 5 km.",
   "ai_summary": "Angthong Marathon 2026 is organised by the Ang Thong Provincial Tourism Promotion Association, with the start at Sawan Park (Nong Chet Sen) in Ang Thong. It offers a marathon (42.195 km), half marathon (21.1 km), 10 km mini marathon and 5 km fun run. The registration page states a field of 2,000 runners, and marathon and half-marathon finishers receive a finisher shirt in addition to the medal.",
   "core_facts": {
@@ -32,12 +15,17 @@
       42.195
     ],
     "primary_distance_km": 42.195,
-    "venue": "Sawan Park Ang Thong (Nong Chet Sen)",
     "organizer": "Ang Thong Provincial Tourism Promotion Association",
     "price_range": "THB 570-1,220",
+    "venue": "Sawan Park Ang Thong (Nong Chet Sen)",
     "city": "Ang Thong",
     "country": "Thailand"
   },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
   "faqs": [
     {
       "question": "How much does it cost to enter Angthong Marathon 2026?",
@@ -48,6 +36,7 @@
       "answer": "Every finisher receives a commemorative medal, and all entrants get a race shirt. Marathon and half-marathon runners also receive a finisher shirt when they cross the line, and race packs could be posted in advance for an extra fee."
     }
   ],
+  "reliability_score": 30,
   "tags": [
     "full-marathon",
     "thailand"
@@ -65,5 +54,16 @@
       "type": "aggregator",
       "last_checked": "2026-09-29"
     }
-  ]
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on ThaiMTB / ThaiMaster",
+      "url": "https://event.thaimtb.com/V3/event-detail.php?e=747",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-10-06",
+  "status": "archived"
 }

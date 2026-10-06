@@ -1,26 +1,9 @@
 {
-  "category_id": "full-marathon",
-  "region_id": "philippines",
-  "pros": [],
-  "cons": [],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
-  "affiliate_links": [],
-  "cta_links": [
-    {
-      "label": "Official race page on MyRunTime",
-      "url": "https://jcirevents.myruntime.com/register/subic-bay-freeport-zone-42km-challenge",
-      "type": "official_website"
-    }
-  ],
-  "related_entity_ids": [],
-  "last_updated": "2026-09-30",
-  "status": "needs_review",
-  "reliability_score": 30,
   "entity_id": "subic-bay-freeport-zone-42km-challenge-2026",
   "slug": "subic-bay-freeport-zone-42km-challenge-2026",
   "name": "Subic Bay Freeport Zone 42KM Challenge 2026",
+  "category_id": "full-marathon",
+  "region_id": "philippines",
   "short_description": "Subic Bay Freeport Zone 42KM Challenge 2026 is on Sunday 4 October 2026 at the Subic Bay Boardwalk in Olongapo City, over 5 km, 10 km, 21 km and 42 km.",
   "ai_summary": "Subic Bay Freeport Zone 42KM Challenge 2026 is organised by JCIR Events Management from the Boardwalk in Subic Bay Freeport Zone, Olongapo City. It follows the organiser's SBFZ 32KM Challenge in August 2026. The 42 km has two categories, an open wave and a 42KM Challenge wave, alongside 21 km, 10 km and 5 km.",
   "core_facts": {
@@ -32,12 +15,17 @@
       42.195
     ],
     "primary_distance_km": 42.195,
-    "venue": "Subic Bay Boardwalk",
     "organizer": "JCIR Events Management",
     "price_range": "PHP 1,450-3,050",
+    "venue": "Subic Bay Boardwalk",
     "city": "Subic Bay Freeport Zone / Olongapo City",
     "country": "Philippines"
   },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
   "faqs": [
     {
       "question": "What is the difference between the two 42 km categories at the Subic Bay Freeport Zone 42KM Challenge?",
@@ -48,6 +36,7 @@
       "answer": "The 21 km runs from PHP 1,950 early bird to PHP 2,350 late registration. The 10 km is PHP 1,450 to PHP 1,850 and the 5 km is PHP 1,050 to PHP 1,450."
     }
   ],
+  "reliability_score": 30,
   "tags": [
     "full-marathon",
     "philippines"
@@ -65,5 +54,16 @@
       "type": "aggregator",
       "last_checked": "2026-09-29"
     }
-  ]
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on MyRunTime",
+      "url": "https://jcirevents.myruntime.com/register/subic-bay-freeport-zone-42km-challenge",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-10-06",
+  "status": "archived"
 }

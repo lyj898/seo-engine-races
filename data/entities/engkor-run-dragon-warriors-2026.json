@@ -1,31 +1,9 @@
 {
-  "category_id": "half-marathon",
-  "region_id": "thailand",
-  "pros": [],
-  "cons": [],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
-  "affiliate_links": [],
-  "cta_links": [
-    {
-      "label": "Official race page on Thai.Run",
-      "url": "https://race.thai.run/engkorrun2026",
-      "type": "official_website"
-    }
-  ],
-  "results": {
-    "url": "https://my.raceresult.com/427293/results",
-    "publisher": "RACE RESULT",
-    "last_checked": "2026-10-06"
-  },
-  "related_entity_ids": [],
-  "last_updated": "2026-09-30",
-  "status": "needs_review",
-  "reliability_score": 30,
   "entity_id": "engkor-run-dragon-warriors-2026",
   "slug": "engkor-run-dragon-warriors-2026",
   "name": "Engkor Run: Dragon Warriors 2026",
+  "category_id": "half-marathon",
+  "region_id": "thailand",
   "short_description": "Engkor Run: Dragon Warriors 2026 is on Sunday 4 October 2026 at the Chao Pu-Ya Shrine in Udon Thani, over 2 km, 5 km, 10 km and 21.1 km.",
   "ai_summary": "Engkor Run: Dragon Warriors 2026 is organised by the Chao Pu-Ya Shrine in Udon Thani and is held at the shrine. It offers 21 km, 10 km and 5 km races plus a 2 km entry for groups of three. The event poster lists overall prize money for the 21 km and 10 km and a lucky draw that includes gold, motorcycles and phones.",
   "core_facts": {
@@ -37,12 +15,17 @@
       21.1
     ],
     "primary_distance_km": 21.1,
-    "venue": "Chao Pu-Ya Shrine",
     "organizer": "Chao Pu-Ya Shrine, Udon Thani",
     "price_range": "THB 550-850",
+    "venue": "Chao Pu-Ya Shrine",
     "city": "Udon Thani",
     "country": "Thailand"
   },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
   "faqs": [
     {
       "question": "How much is the Engkor Run 2026 entry fee?",
@@ -53,6 +36,7 @@
       "answer": "The poster lists overall prize money of THB 4,000 for the 21 km and THB 3,000 for the 10 km. There is also a lucky draw with more than 50 prizes, including gold, motorcycles and phones."
     }
   ],
+  "reliability_score": 30,
   "tags": [
     "half-marathon",
     "thailand"
@@ -70,5 +54,21 @@
       "type": "aggregator",
       "last_checked": "2026-09-29"
     }
-  ]
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on Thai.Run",
+      "url": "https://race.thai.run/engkorrun2026",
+      "type": "official_website"
+    }
+  ],
+  "results": {
+    "url": "https://my.raceresult.com/427293/results",
+    "publisher": "RACE RESULT",
+    "last_checked": "2026-10-06"
+  },
+  "related_entity_ids": [],
+  "last_updated": "2026-10-06",
+  "status": "archived"
 }

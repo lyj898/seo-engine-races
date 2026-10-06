@@ -1,26 +1,9 @@
 {
-  "category_id": "half-marathon",
-  "region_id": "philippines",
-  "pros": [],
-  "cons": [],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
-  "affiliate_links": [],
-  "cta_links": [
-    {
-      "label": "Official race page on MyRunTime",
-      "url": "https://rsrjevents.myruntime.com/register/sagisag-half-marathon-2026-cebu-leg",
-      "type": "official_website"
-    }
-  ],
-  "related_entity_ids": [],
-  "last_updated": "2026-10-01",
-  "status": "needs_review",
-  "reliability_score": 30,
   "entity_id": "sagisag-half-marathon-2026-cebu",
   "slug": "sagisag-half-marathon-2026-cebu",
   "name": "Sagisag Half Marathon 2026 Cebu Leg",
+  "category_id": "half-marathon",
+  "region_id": "philippines",
   "short_description": "Sagisag Half Marathon 2026 Cebu Leg is on Sunday 4 October 2026 at SM Seaside Cebu in Cebu City, over 5 km, 10 km and 21.1 km.",
   "ai_summary": "The Sagisag Half Marathon 2026 Cebu Leg is organised by RSRJ Events Management and is held at SM Seaside Cebu in Cebu City, per the Pinoy Fitness listing. It offers 5 km, 10 km and 21 km categories. The registration form asks entrants about the Davao and Manila legs of the same series, so the Cebu race is one leg of a multi-city Sagisag series.",
   "core_facts": {
@@ -31,14 +14,19 @@
       21.1
     ],
     "primary_distance_km": 21.1,
-    "venue": "SM Seaside Cebu",
     "organizer": "RSRJ Events Management",
     "price_range": "PHP 1,150-1,800",
-    "city": "Cebu City",
-    "country": "Philippines",
     "event_status": "cancelled",
-    "event_status_note": "The organiser, RSRJ Events Management, told runsea.run on 30 September 2026 that the Cebu leg has been cancelled due to unforeseen circumstances."
+    "event_status_note": "The organiser, RSRJ Events Management, told runsea.run on 30 September 2026 that the Cebu leg has been cancelled due to unforeseen circumstances.",
+    "venue": "SM Seaside Cebu",
+    "city": "Cebu City",
+    "country": "Philippines"
   },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
   "faqs": [
     {
       "question": "When and where is race kit claiming for the Sagisag Half Marathon 2026 Cebu Leg?",
@@ -49,6 +37,7 @@
       "answer": "The registration page lists the 21K at PHP 1,700-1,800, the 10K at PHP 1,400-1,500 and the 5K at PHP 1,150-1,250, with a web admin fee on top. All categories include a singlet, an RFID race bib, a finisher medal and a finisher towel, and the 10K and 21K also include a finisher shirt."
     }
   ],
+  "reliability_score": 30,
   "tags": [
     "half-marathon",
     "philippines"
@@ -66,5 +55,16 @@
       "type": "aggregator",
       "last_checked": "2026-09-29"
     }
-  ]
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on MyRunTime",
+      "url": "https://rsrjevents.myruntime.com/register/sagisag-half-marathon-2026-cebu-leg",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-10-06",
+  "status": "archived"
 }

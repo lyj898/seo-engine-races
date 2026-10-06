@@ -1,31 +1,9 @@
 {
-  "category_id": "full-marathon",
-  "region_id": "thailand",
-  "pros": [],
-  "cons": [],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
-  "affiliate_links": [],
-  "cta_links": [
-    {
-      "label": "Visit official site",
-      "url": "https://www.kalasinmarathon.com/",
-      "type": "official_website"
-    },
-    {
-      "label": "Entry page on racethai.com",
-      "url": "https://racethai.com/event/detail/12/Kalasin%20Marathon%202026",
-      "type": "registration"
-    }
-  ],
-  "related_entity_ids": [],
-  "last_updated": "2026-09-30",
-  "status": "needs_review",
-  "reliability_score": 30,
   "entity_id": "kalasin-marathon-2026",
   "slug": "kalasin-marathon-2026",
   "name": "Kalasin Marathon 2026",
+  "category_id": "full-marathon",
+  "region_id": "thailand",
   "short_description": "Kalasin Marathon 2026 is on Sunday 4 October 2026 at Mueang Kalasin District Office in Kalasin, over 42.195 km, 21.1 km, 10 km and 5 km.",
   "ai_summary": "Kalasin Marathon 2026, themed \"Jurassic Isan\", is the first edition of the Kalasin Marathon, according to the organiser. The start and finish are at Mueang Kalasin District Office, with a 42.195 km marathon, 21.1 km half marathon, 10 km mini marathon and 5 km fun run and family run. The marathon starts at 03:30 and the half marathon at 04:30.",
   "core_facts": {
@@ -37,11 +15,16 @@
       42.195
     ],
     "primary_distance_km": 42.195,
-    "venue": "Mueang Kalasin District Office",
     "price_range": "THB 350-900",
+    "venue": "Mueang Kalasin District Office",
     "city": "Kalasin",
     "country": "Thailand"
   },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
   "faqs": [
     {
       "question": "What are the start times and cut-offs at Kalasin Marathon 2026?",
@@ -52,6 +35,7 @@
       "answer": "Race packs are collected on Saturday 3 October 2026, the day before the race. The organiser states that there is no on-site registration, and finisher shirts are given only to the 21.1 km and 42.195 km runners."
     }
   ],
+  "reliability_score": 30,
   "tags": [
     "full-marathon",
     "thailand"
@@ -81,5 +65,21 @@
       "type": "registration_platform",
       "last_checked": "2026-09-30"
     }
-  ]
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://www.kalasinmarathon.com/",
+      "type": "official_website"
+    },
+    {
+      "label": "Entry page on racethai.com",
+      "url": "https://racethai.com/event/detail/12/Kalasin%20Marathon%202026",
+      "type": "registration"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-10-06",
+  "status": "archived"
 }
