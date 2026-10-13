@@ -17,10 +17,10 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "The Concept Exhibition (M) Sdn Bhd with Jabatan Belia dan Sukan WPKL (JBSWPKL)",
+    "price_range": "MYR 25-130",
     "venue": "Dataran Putrajaya, Putrajaya",
     "city": "Putrajaya",
-    "country": "Malaysia",
-    "price_range": "MYR 25-130"
+    "country": "Malaysia"
   },
   "pros": [
     "Low entry fees: RM65 to RM90 for Malaysians in the 2025 half marathon",
@@ -123,6 +123,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-30",
-  "status": "needs_review"
+  "last_updated": "2026-10-13",
+  "status": "archived"
 }

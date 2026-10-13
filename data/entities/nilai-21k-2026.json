@@ -14,11 +14,11 @@
       21.1
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Tetrad Event Empire",
+    "price_range": "RM 55-105",
     "venue": "AEON Mall Nilai, Negeri Sembilan",
     "city": "Nilai",
-    "country": "Malaysia",
-    "organizer": "Tetrad Event Empire",
-    "price_range": "RM 55-105"
+    "country": "Malaysia"
   },
   "pros": [
     "Held at an accessible, well-known venue: AEON Mall Nilai, Negeri Sembilan",
@@ -97,6 +97,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-30",
-  "status": "needs_review"
+  "last_updated": "2026-10-13",
+  "status": "archived"
 }

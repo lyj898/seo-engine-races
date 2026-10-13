@@ -1,26 +1,9 @@
 {
-  "category_id": "half-marathon",
-  "region_id": "malaysia",
-  "pros": [],
-  "cons": [],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
-  "affiliate_links": [],
-  "cta_links": [
-    {
-      "label": "Official race page on JomRun",
-      "url": "https://www.jomrun.com/event/University-City-Half-Marathon-2026-Powered-By-JomRun",
-      "type": "official_website"
-    }
-  ],
-  "related_entity_ids": [],
-  "last_updated": "2026-09-30",
-  "status": "needs_review",
-  "reliability_score": 30,
   "entity_id": "university-city-half-marathon-2026-powered-by-jomrun",
   "slug": "university-city-half-marathon-2026-powered-by-jomrun",
   "name": "University City Half Marathon 2026 Powered by JomRun",
+  "category_id": "half-marathon",
+  "region_id": "malaysia",
   "short_description": "University City Half Marathon 2026 Powered by JomRun is on Sunday 11 October 2026 at Aeon Mall Taman University, Johor Bahru in Johor Bahru, over 5 km, 10 km and 21.1 km.",
   "ai_summary": "The University City Half Marathon 2026 Powered by JomRun is a JomRun event based at Aeon Mall Taman University in Johor Bahru on 11 October 2026. It offers a 21.1 km competitive run with a TrackAsia RFID timing chip, plus 5 km and 10 km fun runs. JomRun lists the event time as 3:45 am; the race kit collection details and route map are still marked to be confirmed.",
   "core_facts": {
@@ -31,11 +14,16 @@
       21.1
     ],
     "primary_distance_km": 21.1,
+    "organizer": "JomRun",
     "venue": "Aeon Mall Taman University, Johor Bahru",
     "city": "Johor Bahru, Johor",
-    "country": "Malaysia",
-    "organizer": "JomRun"
+    "country": "Malaysia"
   },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
   "faqs": [
     {
       "question": "What time does the University City Half Marathon 2026 start?",
@@ -46,6 +34,7 @@
       "answer": "The 21.1 km competitive run entitlement includes an Ultron event jersey, a race bib with a TrackAsia RFID timing chip, an e-certificate and light refreshments. Finishers also receive a 21.1 km finisher medal and an Ultron finisher jersey."
     }
   ],
+  "reliability_score": 30,
   "tags": [
     "half-marathon",
     "malaysia"
@@ -63,5 +52,16 @@
       "type": "aggregator",
       "last_checked": "2026-09-29"
     }
-  ]
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on JomRun",
+      "url": "https://www.jomrun.com/event/University-City-Half-Marathon-2026-Powered-By-JomRun",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-10-13",
+  "status": "archived"
 }

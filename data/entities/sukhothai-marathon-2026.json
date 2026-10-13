@@ -1,31 +1,9 @@
 {
-  "category_id": "full-marathon",
-  "region_id": "thailand",
-  "pros": [],
-  "cons": [],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
-  "affiliate_links": [],
-  "cta_links": [
-    {
-      "label": "Visit official site",
-      "url": "https://sukhothaimarathon.com/",
-      "type": "official_website"
-    },
-    {
-      "label": "Entry page on Checkrace",
-      "url": "https://run.checkrace.com/events/skt26",
-      "type": "registration"
-    }
-  ],
-  "related_entity_ids": [],
-  "last_updated": "2026-09-30",
-  "status": "needs_review",
-  "reliability_score": 30,
   "entity_id": "sukhothai-marathon-2026",
   "slug": "sukhothai-marathon-2026",
   "name": "Sukhothai Marathon 2026",
+  "category_id": "full-marathon",
+  "region_id": "thailand",
   "short_description": "Sukhothai Marathon 2026 is on Sunday 11 October 2026 at Sukhothai Historical Park in Sukhothai, over 42.195 km, 21.2 km, 10 km and 5 km.",
   "ai_summary": "Sukhothai Marathon 2026 is the fourth edition (\"Chapter 4 - Spirit of the Dawn\"), with every distance starting and finishing in Sukhothai Historical Park, a UNESCO World Heritage site. The organiser lists the Tourism Council of Sukhothai as organiser and Sukhothai Treasure Resort & Spa as presenter. The marathon starts at 03:00 and the 21.2 km half marathon at 05:00; RUNLAH lists the half as 21.5 km, but the organiser site says 21.2 km.",
   "core_facts": {
@@ -37,12 +15,17 @@
       42.195
     ],
     "primary_distance_km": 42.195,
-    "venue": "Sukhothai Historical Park",
     "organizer": "Tourism Council of Sukhothai",
     "price_range": "THB 600-1,200",
+    "venue": "Sukhothai Historical Park",
     "city": "Sukhothai",
     "country": "Thailand"
   },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
   "faqs": [
     {
       "question": "What are the start times and cut-offs at Sukhothai Marathon 2026?",
@@ -53,6 +36,7 @@
       "answer": "The organiser lists THB 1,200 for the marathon, THB 1,000 for the 21.2 km, THB 800 for the 10 km and THB 600 for the 5 km. Registration runs through Checkrace, and system and payment fees are extra."
     }
   ],
+  "reliability_score": 30,
   "tags": [
     "full-marathon",
     "thailand"
@@ -82,5 +66,21 @@
       "type": "registration_platform",
       "last_checked": "2026-09-30"
     }
-  ]
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://sukhothaimarathon.com/",
+      "type": "official_website"
+    },
+    {
+      "label": "Entry page on Checkrace",
+      "url": "https://run.checkrace.com/events/skt26",
+      "type": "registration"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-10-13",
+  "status": "archived"
 }

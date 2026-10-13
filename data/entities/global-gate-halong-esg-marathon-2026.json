@@ -1,31 +1,9 @@
 {
-  "category_id": "half-marathon",
-  "region_id": "vietnam",
-  "pros": [],
-  "cons": [],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
-  "affiliate_links": [],
-  "cta_links": [
-    {
-      "label": "Visit official site",
-      "url": "https://halongbaymarathon.com/",
-      "type": "official_website"
-    },
-    {
-      "label": "Entry page on iRace",
-      "url": "https://ticket.irace.vn/global-gate-ha-long-esg-marathon-2026",
-      "type": "registration"
-    }
-  ],
-  "related_entity_ids": [],
-  "last_updated": "2026-09-30",
-  "status": "needs_review",
-  "reliability_score": 30,
   "entity_id": "global-gate-halong-esg-marathon-2026",
   "slug": "global-gate-halong-esg-marathon-2026",
   "name": "Global Gate Halong ESG++ Marathon 2026",
+  "category_id": "half-marathon",
+  "region_id": "vietnam",
   "short_description": "Global Gate Halong ESG++ Marathon 2026 is on Sunday 11 October 2026 at Vinhomes Global Gate in Ha Long, Quang Ninh, over 3 km, 10 km and 21 km.",
   "ai_summary": "Global Gate Halong ESG++ Marathon 2026 takes place on Sunday 11 October 2026 at Global Gate Ha Long, a Vingroup development in Quang Ninh, with the expo on 10 October. DHA Vietnam is the organiser named on the event page. The official site lists three distances, 21 km, 10 km and 3 km, under a Net Zero theme; the iRace ticket page also shows a 42 km, which the organiser's own site and press coverage do not mention.",
   "core_facts": {
@@ -36,11 +14,16 @@
       21.1
     ],
     "primary_distance_km": 21.1,
+    "organizer": "DHA Vietnam (Duc Huong Anh Co., Ltd.)",
     "venue": "Vinhomes Global Gate Ha Long",
     "city": "Ha Long, Quang Ninh",
-    "country": "Vietnam",
-    "organizer": "DHA Vietnam (Duc Huong Anh Co., Ltd.)"
+    "country": "Vietnam"
   },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
   "faqs": [
     {
       "question": "What are the age limits for each distance at Global Gate Halong ESG++ Marathon 2026?",
@@ -51,6 +34,7 @@
       "answer": "Transfers cost 300,000 VND and personal-detail changes are free. Moving up a distance has no change fee, only the price difference at the time of the change, and moving down is free but the difference is not refunded. Entry fees are not refunded if you cannot take part."
     }
   ],
+  "reliability_score": 30,
   "tags": [
     "half-marathon",
     "vietnam"
@@ -74,5 +58,21 @@
       "type": "official",
       "last_checked": "2026-09-30"
     }
-  ]
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://halongbaymarathon.com/",
+      "type": "official_website"
+    },
+    {
+      "label": "Entry page on iRace",
+      "url": "https://ticket.irace.vn/global-gate-ha-long-esg-marathon-2026",
+      "type": "registration"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-10-13",
+  "status": "archived"
 }
