@@ -17,9 +17,21 @@
       "evidence": "Listed as \"Lertsiri\" under Thailand on the Sanlam Cape Town Marathon's own International Travel Program page.",
       "source_label": "Sanlam Cape Town Marathon -- International Travel Program",
       "source_url": "https://capetownmarathon.com/international-travel-program/"
+    },
+    {
+      "race_name": "Berlin Marathon",
+      "evidence": "Listed as \"Lertsiri Travel\" under Thailand on the GENERALI BERLIN-MARATHON's own tour-operator list (SCC EVENTS).",
+      "source_label": "GENERALI BERLIN-MARATHON (SCC EVENTS) -- Tour operators",
+      "source_url": "https://www.generali-berlin-marathon.com/en/registration/tour-operators"
+    },
+    {
+      "race_name": "Bank of America Chicago Marathon",
+      "evidence": "Listed as \"Lertsiri Travel\" under Thailand on the Bank of America Chicago Marathon's own 2026 international partners page.",
+      "source_label": "Bank of America Chicago Marathon -- International partners (2026)",
+      "source_url": "https://events.hakuapp.com/events/da09463653ddb8eeea57/partners?source=international"
     }
   ],
-  "editorial_notes": "Verified directly against London Marathon Events' own official tour-operator listing on 2026-08-11. The agency's own site additionally describes itself as a Five World Marathon Majors travel partner (covering Berlin, Chicago, and New York alongside Boston and London), which we have not independently verified against each of those races' own organizer pages. Tokyo Marathon and Sanlam Cape Town Marathon listings (where present) checked against those races' own official travel-agency lists on 2026-10-06.",
-  "last_updated": "2026-10-06",
+  "editorial_notes": "Verified directly against London Marathon Events' own official tour-operator listing on 2026-08-11. The agency's own site additionally describes itself as a Five World Marathon Majors travel partner (covering Berlin, Chicago, and New York alongside Boston and London), which we have not independently verified against each of those races' own organizer pages. Tokyo Marathon and Sanlam Cape Town Marathon listings (where present) checked against those races' own official travel-agency lists on 2026-10-06. Berlin and Chicago listings (where present) checked against those races' own official tour-operator lists on 2026-10-16.",
+  "last_updated": "2026-10-16",
   "status": "active"
 }

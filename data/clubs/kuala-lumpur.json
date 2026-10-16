@@ -242,6 +242,26 @@
       "description": "A family hash that has run monthly since 1982, with long and short trails so children can take part.",
       "active_evidence": "Website lists run #530 on 4 Oct 2026 and runs planned for Nov and Dec 2026",
       "source_url": "https://www.kljhhh.org/"
+    },
+    {
+      "name": "Pacemakers Malaysia",
+      "kind": "club",
+      "focus": "road",
+      "url": "https://www.instagram.com/pacemakers.my",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Saturdays, about 6am (Friendship Run)",
+          "where": "Quill City Mall"
+        },
+        {
+          "when": "Thursdays, 6.45pm (interval training)"
+        }
+      ],
+      "who": "All levels: slow, medium and fast groups over 8 to 15 km, led by volunteer pacers",
+      "description": "One of the biggest community running groups in Kuala Lumpur. Its Saturday Friendship Run draws 300 to 400 runners to Quill City Mall, split into pace groups with about 40 volunteer pacers. The club also holds Thursday evening interval sessions and puts on its own Pacemakers Anniversary Run.",
+      "active_evidence": "ToughASIA feature, 23 Mar 2026; Strava interval session, 16 Jul 2026; Pacemakers Anniversary Run, 31 May 2026; club confirmed by email, 8 Oct 2026",
+      "source_url": "https://toughasia.com/from-park-runs-to-urban-clubhouses-how-pacemakers-malaysia-turned-a-kl-mall-into-a-400-strong-running-hub/"
     }
   ],
   "coaches": [
@@ -257,6 +277,6 @@
       "source_url": "https://www.sacrun.coach/workshop"
     }
   ],
-  "last_updated": "2026-09-30",
+  "last_updated": "2026-10-16",
   "status": "active"
 }
