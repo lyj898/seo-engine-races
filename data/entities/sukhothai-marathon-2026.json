@@ -80,7 +80,12 @@
       "type": "registration"
     }
   ],
+  "results": {
+    "url": "https://my.raceresult.com/421971/results",
+    "publisher": "RACE RESULT",
+    "last_checked": "2026-10-16"
+  },
   "related_entity_ids": [],
-  "last_updated": "2026-10-13",
+  "last_updated": "2026-10-16",
   "status": "archived"
 }

@@ -95,7 +95,12 @@
       "type": "official_website"
     }
   ],
+  "results": {
+    "url": "https://results.raceroster.com/v3/events/x7vsdfsrd6fdpx6m",
+    "publisher": "RaceRoster",
+    "last_checked": "2026-10-16"
+  },
   "related_entity_ids": [],
-  "last_updated": "2026-10-13",
+  "last_updated": "2026-10-16",
   "status": "archived"
 }

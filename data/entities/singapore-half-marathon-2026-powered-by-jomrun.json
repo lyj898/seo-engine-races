@@ -19,7 +19,9 @@
     "price_range": "SGD 88.88",
     "venue": "Marina Barrage, Singapore",
     "city": "Singapore",
-    "country": "Singapore"
+    "country": "Singapore",
+    "event_status": "cancelled",
+    "event_status_note": "The organiser, JomRun, cancelled the race because of worsening haze in Singapore."
   },
   "pros": [
     "Multiple distance options (5km, 10km, 21.1km) suit different fitness levels",
@@ -79,6 +81,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-10-13",
+  "last_updated": "2026-10-16",
   "status": "archived"
 }

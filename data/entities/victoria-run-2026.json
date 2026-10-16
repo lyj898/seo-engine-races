@@ -93,7 +93,12 @@
       "type": "official_website"
     }
   ],
+  "results": {
+    "url": "https://www.sportsplits.com/races/victoria-run-2026",
+    "publisher": "SportSplits",
+    "last_checked": "2026-10-16"
+  },
   "related_entity_ids": [],
-  "last_updated": "2026-10-13",
+  "last_updated": "2026-10-16",
   "status": "archived"
 }
