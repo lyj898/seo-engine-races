@@ -20,6 +20,9 @@ import EntityCard from '../components/EntityCard.astro';
 import StatsSummary from '../components/StatsSummary.astro';
 import HeroStats from '../components/HeroStats.astro';
 import SearchBox from '../components/SearchBox.astro';
+import HeroMap from '../components/HeroMap.astro';
+import HeroBib from '../components/HeroBib.astro';
+import HeroSkyline from '../components/HeroSkyline.astro';
 import FAQSection from '../components/FAQSection.astro';
 import MailingListSignup from '../components/MailingListSignup.astro';
 import { buildWebsiteSchema, buildFaqPageSchema } from '../lib/schema-jsonld.js';
@@ -135,6 +138,10 @@ const { before: headlineBefore, accent: headlineAccent, after: headlineAfter } =
   siteConfig.heroHeadline ?? siteConfig.siteName
 );
 
+// Region-specific hero artwork (map, bib, skyline); off unless the vertical
+// turns it on, so other instances of the engine keep the plain hero.
+const heroArt = Boolean(siteConfig.enabledFeatures?.heroArt);
+
 const heroStats = [
   { value: entities.length, label: `${siteConfig.entityLabelPlural} tracked` },
   { value: topLevelRegions.length, label: siteConfig.regionLabelPlural ?? `${siteConfig.regionLabel}s` },
@@ -170,8 +177,14 @@ const jsonLd = [
 
 <BaseLayout description={siteConfig.siteTagline} canonicalPath={urls.home()} jsonLd={jsonLd}>
   <div class="mx-auto max-w-6xl px-4 py-10 sm:px-6 sm:py-14">
-    <section class="mx-auto max-w-3xl border-b border-brand-divider pb-10 dark:border-brand-divider-dark sm:pb-14">
-      <h1 class="text-[clamp(2.1rem,1rem+4.5vw,4.2rem)] font-black leading-[1.05]">
+    {/* Hero: headline, stats and search on the left; the static region map
+        with the Run SEA bib pinned to its corner on the right (stacked
+        below on phones); a landmark skyline along the bottom. The artwork
+        is deliberately data-free so it never needs a weekly update. */}
+    <section>
+      <div class={heroArt ? "grid items-center gap-10 lg:grid-cols-[minmax(0,1fr)_460px] xl:grid-cols-[minmax(0,1fr)_540px]" : "mx-auto max-w-3xl"}>
+      <div class="min-w-0">
+      <h1 class={`text-[clamp(2.1rem,1rem+4.5vw,4.2rem)] font-black leading-[1.05] ${heroArt ? "lg:text-[3rem] xl:text-[3.4rem]" : ""}`}>
         {headlineBefore}
         {headlineAccent && (
           <em class="not-italic text-transparent [-webkit-text-stroke:2px_theme(colors.brand.text)] dark:[-webkit-text-stroke:2px_theme(colors.brand.text-dark)]">
@@ -216,6 +229,20 @@ const jsonLd = [
       ) : (
         <SearchBox targetSelector="#featured-grid [data-filterable]" placeholder={`Search by ${siteConfig.entityLabelSingular} name...`} />
       )}
+      </div>
+
+      {/* The bib hangs off the map's bottom-right corner, over open sea and
+          eastern Indonesia where there are no city labels. On phones it
+          tucks inside the corner so nothing overflows the screen. */}
+      {heroArt && (
+      <div class="relative mx-auto w-full max-w-[440px] lg:mx-0 lg:max-w-[380px] xl:max-w-[440px]">
+        <HeroMap />
+        <HeroBib class="absolute -bottom-6 right-1 w-[100px] sm:-bottom-5 sm:right-0 sm:w-[150px] lg:bottom-auto lg:right-[-72px] lg:top-[60%] lg:w-[150px] xl:right-[-100px] xl:w-[172px]" />
+      </div>
+      )}
+      </div>
+
+      {heroArt && <HeroSkyline class="mt-12 sm:mt-10" />}
     </section>
 
     {/* Directly under the hero, above the calendar. It used to sit after the

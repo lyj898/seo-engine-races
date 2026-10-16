@@ -1,0 +1,29 @@
+---
+// The race bib pinned to the hero map's corner. Static on purpose: it is a
+// Run SEA bib, not a real race, so nothing on it ever goes out of date.
+// Decorative, so hidden from assistive tech; the hero's text says it all.
+const { class: className = '' } = Astro.props;
+---
+
+<div
+  aria-hidden="true"
+  class={`rotate-6 rounded-[14px] bg-brand-primary px-2.5 pb-2 pt-2.5 text-[#15170f] shadow-[0_20px_40px_rgba(21,23,15,0.22)] sm:rounded-[18px] sm:px-3.5 sm:pb-3 sm:pt-3.5 ${className}`}
+>
+  <div class="flex items-center justify-between">
+    <span class="h-2.5 w-2.5 rounded-full bg-brand-bg shadow-[inset_0_1px_2px_rgba(0,0,0,0.25)] dark:bg-brand-bg-dark"></span>
+    <span class="text-[10px] font-black tracking-[0.16em]">RUN SEA</span>
+    <span class="h-2.5 w-2.5 rounded-full bg-brand-bg shadow-[inset_0_1px_2px_rgba(0,0,0,0.25)] dark:bg-brand-bg-dark"></span>
+  </div>
+  <div class="mt-1 text-center font-serif text-[1.45rem] font-black leading-[0.95] tracking-[-0.05em] sm:mt-1.5 sm:text-[2.1rem] lg:text-[2.9rem]">42.195</div>
+  <div class="mt-1 text-center text-[8px] font-black tracking-[0.1em] sm:mt-1.5 sm:text-[10px] lg:text-[11px]">SOUTHEAST ASIA</div>
+  <div class="mt-1.5 flex items-center justify-between border-t-2 border-dashed border-[#15170f]/35 pt-1.5 text-[7px] font-extrabold sm:mt-2 sm:pt-2 sm:text-[8px] lg:text-[9px]">
+    <span class="whitespace-nowrap">FULL · HALF · 10K · 5K</span>
+    <span class="hidden h-3.5 gap-0.5 sm:flex">
+      <span class="w-0.5 bg-[#15170f]"></span><span class="w-[3px] bg-[#15170f]"></span><span class="w-0.5 bg-[#15170f]"></span><span class="w-[3px] bg-[#15170f]"></span><span class="w-0.5 bg-[#15170f]"></span>
+    </span>
+  </div>
+  <div class="mt-2 flex justify-between">
+    <span class="h-2.5 w-2.5 rounded-full bg-brand-bg shadow-[inset_0_1px_2px_rgba(0,0,0,0.25)] dark:bg-brand-bg-dark"></span>
+    <span class="h-2.5 w-2.5 rounded-full bg-brand-bg shadow-[inset_0_1px_2px_rgba(0,0,0,0.25)] dark:bg-brand-bg-dark"></span>
+  </div>
+</div>

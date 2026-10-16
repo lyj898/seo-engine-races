@@ -1,0 +1,82 @@
+---
+// Homepage hero illustration: a simplified map of Southeast Asia with a
+// dashed "running route" linking eleven capitals. Deliberately static --
+// no race counts or weekly data -- so the hero never needs updating.
+// Coastlines are hand-simplified (lon/lat projected to a 640x560 box:
+// x = (lon - 92) * 17.78, y = (22 - lat) * 17.5), recognisable rather than exact.
+// Colours come from the brand tokens so dark mode follows automatically.
+const land = [
+  'M5.3 8.8 L35.6 52.5 L40.9 105.0 L62.2 108.5 L88.9 96.3 L101.3 122.5 L110.2 157.5 L115.6 210.0 L112.0 236.3 L135.1 271.3 L147.6 290.5 L163.6 334.3 L204.5 362.3 L216.9 358.8 L202.7 315.0 L197.4 290.5 L181.4 276.5 L165.4 264.3 L147.6 238.0 L129.8 203.0 L128.0 162.8 L142.2 150.5 L158.2 152.3 L167.1 162.8 L183.1 171.5 L195.6 192.5 L204.5 199.5 L222.3 203.0 L227.6 234.5 L254.3 217.0 L263.1 203.0 L282.7 192.5 L305.8 182.0 L305.8 161.0 L307.6 143.5 L298.7 115.5 L288.0 103.2 L268.5 85.7 L248.9 57.8 L243.6 43.8 L259.6 29.7 L275.6 14.0 L284.5 7.0 L289.8 -5.3 L0.0 -5.3 L0.0 8.8 Z',
+  'M58.7 287.0 L97.8 294.0 L119.1 318.5 L149.4 346.5 L167.1 355.3 L200.9 371.0 L220.5 402.5 L248.9 437.5 L247.1 486.5 L224.0 488.3 L202.7 469.0 L183.1 453.3 L158.2 416.5 L147.6 400.8 L124.5 362.3 L103.1 346.5 L76.5 320.3 Z',
+  'M234.7 504.0 L263.1 491.8 L293.4 497.0 L327.2 505.8 L368.0 505.8 L398.3 519.8 L398.3 535.5 L364.5 532.0 L327.2 526.8 L293.4 521.5 L256.0 514.5 Z',
+  'M400.1 528.5 L421.4 532.0 L412.5 539.0 L401.8 533.8 Z',
+  'M426.7 530.3 L439.2 532.0 L435.6 540.8 L426.7 539.0 Z',
+  'M442.7 532.0 L480.1 528.5 L476.5 539.0 L444.5 540.8 Z',
+  'M494.3 532.0 L549.4 526.8 L544.1 539.0 L496.1 539.0 Z',
+  'M444.5 262.5 L464.1 283.5 L485.4 295.8 L465.8 311.5 L460.5 365.8 L478.3 371.0 L453.4 393.8 L440.9 407.8 L432.1 446.3 L401.8 456.8 L373.4 441.0 L350.3 435.8 L323.6 435.8 L320.0 407.8 L302.3 385.0 L312.9 351.8 L325.4 357.0 L346.7 343.0 L373.4 329.0 L391.2 308.0 L408.9 297.5 L419.6 287.0 L428.5 280.0 Z',
+  'M487.2 474.3 L490.7 446.3 L485.4 411.3 L494.3 381.5 L512.1 364.0 L556.5 369.3 L583.2 358.8 L590.3 357.0 L574.3 378.0 L524.5 376.3 L506.7 400.8 L526.3 406.0 L556.5 402.5 L547.6 427.0 L533.4 446.3 L551.2 465.5 L526.3 469.0 L515.6 437.5 L505.0 434.0 L505.0 483.0 Z',
+  'M508.5 61.3 L537.0 61.3 L535.2 87.5 L526.3 108.5 L528.1 136.5 L547.6 140.0 L570.7 164.5 L556.5 157.5 L544.1 154.0 L529.8 141.8 L513.8 143.5 L508.5 133.0 L505.0 124.3 L496.1 106.8 L503.2 94.5 Z',
+  'M533.4 262.5 L549.4 252.0 L563.6 243.3 L581.4 229.3 L595.6 213.5 L613.4 252.0 L608.1 274.8 L593.9 287.0 L572.5 276.5 L572.5 257.3 L560.1 252.0 L540.5 255.5 Z',
+  'M574.3 166.3 L599.2 189.0 L586.7 210.0 L576.1 199.5 Z',
+  'M531.6 178.5 L553.0 183.8 L542.3 201.3 L531.6 199.5 Z',
+  'M549.4 194.3 L558.3 211.8 L554.7 225.8 L540.5 211.8 Z',
+  'M567.2 189.0 L570.7 204.8 L558.3 218.8 L563.6 203.0 Z',
+  'M505.0 148.8 L524.5 154.0 L519.2 171.5 L506.7 164.5 Z',
+  'M448.1 238.0 L490.7 185.5 L494.3 194.3 L455.2 245.0 Z',
+  'M295.1 49.0 L328.9 35.0 L337.8 42.0 L312.9 66.5 L295.1 57.8 Z',
+  'M569.0 547.8 L622.3 532.0 L613.4 540.8 L574.3 561.8 Z',
+  'M631.2 351.8 L640.1 358.8 L633.0 376.3 L645.4 395.5 L629.4 388.5 L627.6 364.0 Z',
+];
+
+// In route order; label offsets keep names off the route and each other.
+const cities = [
+  { name: 'Yangon', x: 74, y: 91, lx: 20, ly: 72 },
+  { name: 'Bangkok', x: 151, y: 144, lx: 164, ly: 150 },
+  { name: 'Vientiane', x: 188, y: 70, lx: 200, ly: 66 },
+  { name: 'Hanoi', x: 246, y: 17, lx: 260, ly: 24 },
+  { name: 'Phnom Penh', x: 230, y: 183, lx: 138, ly: 200 },
+  { name: 'Ho Chi Minh City', x: 260, y: 196, lx: 274, ly: 214 },
+  { name: 'Kuala Lumpur', x: 172, y: 330, lx: 52, ly: 326 },
+  { name: 'Singapore', x: 210, y: 361, lx: 224, ly: 380 },
+  { name: 'Jakarta', x: 264, y: 494, lx: 278, ly: 482 },
+  { name: 'Bandar Seri Begawan', x: 408, y: 299, lx: 350, ly: 284 },
+  { name: 'Manila', x: 515, y: 130, lx: 530, ly: 128 },
+];
+const route = cities.map((c) => `${c.x},${c.y}`).join(' ');
+---
+
+<figure class="m-0 rounded-[22px] border border-brand-border bg-brand-surface p-2.5 dark:border-brand-border-dark dark:bg-brand-surface-dark">
+  <svg
+    viewBox="0 0 640 560"
+    role="img"
+    aria-label="Map of Southeast Asia with a running route linking Yangon, Bangkok, Vientiane, Hanoi, Phnom Penh, Ho Chi Minh City, Kuala Lumpur, Singapore, Jakarta, Bandar Seri Begawan and Manila"
+    class="block h-auto w-full rounded-[14px] bg-brand-surface-offset dark:bg-brand-surface-offset-dark"
+  >
+    <g class="fill-brand-surface stroke-brand-border dark:fill-brand-surface-dark dark:stroke-brand-border-dark" stroke-width="1.2" stroke-linejoin="round">
+      {land.map((d) => <path d={d} />)}
+    </g>
+    <polyline
+      points={route}
+      fill="none"
+      class="stroke-brand-text dark:stroke-brand-text-dark"
+      stroke-width="3"
+      stroke-dasharray="2 9"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <g class="fill-brand-primary" stroke="#15170f" stroke-width="2.5">
+      {cities.map((c) => <circle cx={c.x} cy={c.y} r="8" />)}
+    </g>
+    <g
+      class="fill-brand-text stroke-brand-surface-offset dark:fill-brand-text-dark dark:stroke-brand-surface-offset-dark"
+      font-size="16"
+      font-weight="800"
+      stroke-width="5"
+      paint-order="stroke"
+      stroke-linejoin="round"
+      style="font-family: inherit"
+    >
+      {cities.map((c) => <text x={c.lx} y={c.ly}>{c.name}</text>)}
+    </g>
+  </svg>
+</figure>

@@ -1,0 +1,53 @@
+---
+// Homepage hero skyline: flat silhouettes of landmarks from across the
+// region standing on a lime "race road". Static, decorative artwork.
+// On phones the drawing is cropped to its middle (preserveAspectRatio
+// slice) rather than shrunk until the landmarks turn to specks, and the
+// city labels, which would be unreadably small, are hidden.
+const { class: className = '' } = Astro.props;
+const labels = [
+  ['Yangon', 100], ['Bangkok', 230], ['Kuala Lumpur', 410], ['Jakarta', 560], ['Singapore', 692],
+  ['Ho Chi Minh City', 870], ['Manila', 955], ['Siem Reap', 1080], ['Bandar Seri Begawan', 1240], ['Vientiane', 1350],
+];
+---
+
+<svg
+  viewBox="0 0 1440 215"
+  preserveAspectRatio="xMidYMax slice"
+  role="img"
+  aria-label="Skyline of Southeast Asian landmarks: Shwedagon Pagoda, Wat Arun, the Petronas Towers and KL Tower, Monas, Marina Bay Sands, Landmark 81, Manila towers, Angkor Wat, the Omar Ali Saifuddien Mosque and Pha That Luang"
+  class={`block h-[130px] w-full sm:h-auto ${className}`}
+>
+  <g class="fill-brand-text dark:fill-brand-text-dark">
+    <rect x="0" y="150" width="40" height="30" /><rect x="40" y="132" width="24" height="48" />
+    <rect x="70" y="165" width="60" height="15" /><rect x="78" y="152" width="44" height="13" /><path d="M80 152 Q100 100 120 152 Z" /><polygon points="95,114 105,114 100,52" />
+    <rect x="140" y="140" width="24" height="40" /><rect x="166" y="155" width="16" height="25" />
+    <polygon points="176,180 196,180 190,165 186,148 182,165" /><polygon points="190,180 270,180 258,160 248,160 242,135 238,135 233,95 230,58 227,95 222,135 218,135 212,160 202,160" /><polygon points="264,180 284,180 278,165 274,148 270,165" />
+    <rect x="292" y="148" width="22" height="32" /><rect x="316" y="160" width="16" height="20" />
+    <polygon points="345,180 375,180 375,70 368,40 360,22 352,40 345,70" /><polygon points="403,180 433,180 433,70 426,40 418,22 410,40 403,70" /><rect x="375" y="96" width="28" height="5" />
+    <rect x="459" y="62" width="6" height="118" /><ellipse cx="462" cy="62" rx="16" ry="9" /><ellipse cx="462" cy="51" rx="8" ry="5" />
+    <rect x="485" y="150" width="20" height="30" /><rect x="507" y="138" width="18" height="42" />
+    <polygon points="530,180 590,180 580,164 540,164" /><rect x="545" y="156" width="30" height="8" /><polygon points="555,156 565,156 562,72 558,72" />
+    <polygon points="640,180 666,180 664,78 642,78" /><polygon points="678,180 704,180 702,78 680,78" /><polygon points="716,180 742,180 740,78 718,78" /><path d="M630 72 L752 67 L762 73 L630 79 Z" />
+    <rect x="770" y="146" width="20" height="34" /><rect x="792" y="128" width="24" height="52" /><rect x="818" y="152" width="16" height="28" />
+    <rect x="850" y="70" width="40" height="110" /><rect x="856" y="46" width="28" height="24" /><rect x="862" y="28" width="16" height="18" />
+    <rect x="912" y="110" width="26" height="70" /><polygon points="942,180 968,180 968,95 955,78 942,95" /><rect x="972" y="125" width="22" height="55" />
+    <rect x="1008" y="160" width="144" height="20" /><polygon points="1066,160 1094,160 1088,120 1084,120 1080,60 1076,120 1072,120" /><polygon points="1030,160 1050,160 1046,130 1040,92 1034,130" /><polygon points="1110,160 1130,160 1126,130 1120,92 1114,130" /><polygon points="1012,160 1026,160 1023,140 1019,114 1015,140" /><polygon points="1134,160 1148,160 1145,140 1141,114 1137,140" />
+    <rect x="1160" y="150" width="18" height="30" />
+    <rect x="1195" y="150" width="70" height="30" /><rect x="1212" y="132" width="36" height="18" /><rect x="1280" y="90" width="7" height="90" /><polygon points="1277,90 1290,90 1283.5,72" />
+    <rect x="1315" y="165" width="70" height="15" /><rect x="1325" y="150" width="50" height="15" /><polygon points="1335,150 1365,150 1358,120 1352,100 1350,68 1348,100 1342,120" />
+    <rect x="1398" y="146" width="42" height="34" />
+  </g>
+  <g class="stroke-brand-text dark:stroke-brand-text-dark" stroke-width="2" fill="none">
+    <line x1="360" y1="22" x2="360" y2="2" /><line x1="418" y1="22" x2="418" y2="2" /><path d="M375 104 L389 118 L403 104" /><line x1="462" y1="46" x2="462" y2="12" /><line x1="870" y1="28" x2="870" y2="6" /><line x1="1230" y1="98" x2="1230" y2="82" />
+  </g>
+  <g class="fill-brand-primary stroke-brand-text dark:stroke-brand-text-dark" stroke-width="2">
+    <ellipse cx="560" cy="64" rx="6" ry="10" /><path d="M1210 133 Q1230 88 1250 133 Z" />
+  </g>
+  <rect x="0" y="180" width="1440" height="14" class="fill-brand-primary" />
+  <line x1="0" y1="187" x2="1440" y2="187" stroke="#15170f" stroke-width="2" stroke-dasharray="18 14" />
+  <rect x="0" y="180" width="1440" height="2" class="fill-brand-text dark:fill-brand-text-dark" />
+  <g class="hidden fill-brand-muted dark:fill-brand-muted-dark sm:inline" font-size="11" font-weight="700" text-anchor="middle" style="font-family: inherit">
+    {labels.map(([name, x]) => <text x={x} y="210">{name}</text>)}
+  </g>
+</svg>

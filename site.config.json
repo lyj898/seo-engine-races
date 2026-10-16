@@ -90,7 +90,8 @@
     "gear": true,
     "articles": true,
     "travelAgencies": true,
-    "clubs": true
+    "clubs": true,
+    "heroArt": true
   },
 
   "contactEmail": "hello@runsea.run",
