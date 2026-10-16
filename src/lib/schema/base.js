@@ -482,6 +482,11 @@ export const clubCitySchema = z.object({
   race_cities: z.array(z.string().min(1)).default([]),
   clubs: z.array(clubListingSchema).min(1),
   coaches: z.array(coachListingSchema).default([]),
+  // Route guides for running in the city on your own (where to run, as
+  // opposed to who to run with). Shown as a short "Where to run" list.
+  route_guides: z
+    .array(z.object({ publisher: z.string().min(1), label: z.string().min(1), url: z.string().url() }))
+    .default([]),
   last_updated: z.string().min(1),
   status: z.enum(STATUS_VALUES),
 });

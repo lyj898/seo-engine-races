@@ -122,6 +122,21 @@ const description = `${clubs.length} running clubs and crews${coaches.length ? `
       </section>
     )}
 
+    {city.route_guides?.length > 0 && (
+      <section id="routes" class="mt-12 scroll-mt-20">
+        <h2 class="text-xl font-semibold">Where to run in {city.city}</h2>
+        <p class="mt-2 text-sm text-brand-muted dark:text-brand-muted-dark">Running on your own? These guides map the best routes in the city.</p>
+        <ul class="mt-4 space-y-2">
+          {city.route_guides.map((g) => (
+            <li>
+              <a href={g.url} rel="noopener" target="_blank" class="link-accent inline-block py-1 font-medium">{g.label} ↗</a>
+              <span class="text-sm text-brand-muted dark:text-brand-muted-dark"> · {g.publisher}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
     <p class="mt-12 rounded-lg border border-brand-border bg-brand-surface-offset p-4 text-sm text-brand-muted dark:border-brand-border-dark dark:bg-brand-surface-offset-dark dark:text-brand-muted-dark">
       Schedules change, so check a club's own page before you turn up. Run a club or coach in {city.city} and want
       to be listed, or spotted something out of date? <a href={urls.contact()} class="link-accent">Get in touch</a>.

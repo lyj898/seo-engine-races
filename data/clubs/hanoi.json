@@ -200,6 +200,13 @@
       "source_url": "https://trananhtuan.com/coach/"
     }
   ],
+  "route_guides": [
+    {
+      "publisher": "Great Runs",
+      "label": "Best routes and places to run in Hanoi",
+      "url": "https://greatruns.com/location/hanoi-vietnam/"
+    }
+  ],
   "last_updated": "2026-09-30",
   "status": "active"
 }

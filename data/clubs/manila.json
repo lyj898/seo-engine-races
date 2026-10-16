@@ -219,6 +219,13 @@
       "source_url": "https://wekenrun.com/pages/faqs"
     }
   ],
+  "route_guides": [
+    {
+      "publisher": "Great Runs",
+      "label": "Best routes and places to run in Manila",
+      "url": "https://greatruns.com/location/manila-philippines/"
+    }
+  ],
   "last_updated": "2026-09-30",
   "status": "active"
 }

@@ -618,6 +618,13 @@
       "source_url": "https://www.fitfamco.com/running"
     }
   ],
+  "route_guides": [
+    {
+      "publisher": "Great Runs",
+      "label": "Best routes and places to run in Singapore",
+      "url": "https://greatruns.com/location/singapore/"
+    }
+  ],
   "last_updated": "2026-10-02",
   "status": "active"
 }

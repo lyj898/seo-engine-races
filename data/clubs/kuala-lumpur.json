@@ -277,6 +277,13 @@
       "source_url": "https://www.sacrun.coach/workshop"
     }
   ],
+  "route_guides": [
+    {
+      "publisher": "Great Runs",
+      "label": "Best routes and places to run in Kuala Lumpur",
+      "url": "https://greatruns.com/location/kuala-lumpur/"
+    }
+  ],
   "last_updated": "2026-10-16",
   "status": "active"
 }

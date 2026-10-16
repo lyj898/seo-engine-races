@@ -347,6 +347,13 @@
       "source_url": "https://www.ironguides.net/local_squads/bangkok/"
     }
   ],
+  "route_guides": [
+    {
+      "publisher": "Great Runs",
+      "label": "Best routes and places to run in Bangkok",
+      "url": "https://greatruns.com/location/bangkok-thailand/"
+    }
+  ],
   "last_updated": "2026-09-30",
   "status": "active"
 }

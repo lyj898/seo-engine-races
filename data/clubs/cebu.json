@@ -87,6 +87,13 @@
       "source_url": "https://www.sunstar.com.ph/cebu/feature/guild-of-runners-opens-in-escario-cebu-city"
     }
   ],
+  "route_guides": [
+    {
+      "publisher": "Great Runs",
+      "label": "Best routes and places to run in Cebu",
+      "url": "https://greatruns.com/location/cebu-philippines/"
+    }
+  ],
   "last_updated": "2026-09-30",
   "status": "active"
 }

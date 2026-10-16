@@ -150,6 +150,13 @@
       "source_url": "https://trananhtuan.com/coach/"
     }
   ],
+  "route_guides": [
+    {
+      "publisher": "Great Runs",
+      "label": "Best routes and places to run in Ho Chi Minh City",
+      "url": "https://greatruns.com/location/ho-chi-minh-city-vietnam/"
+    }
+  ],
   "last_updated": "2026-09-30",
   "status": "active"
 }
