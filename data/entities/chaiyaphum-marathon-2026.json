@@ -19,7 +19,9 @@
     "price_range": "THB 375-2,050",
     "venue": "Muang Chaiyaphum Municipal Stadium",
     "city": "Chaiyaphum",
-    "country": "Thailand"
+    "country": "Thailand",
+    "event_status": "postponed",
+    "event_status_note": "Floods on 26 and 27 September damaged the organiser's office and the race packs, so the race has moved to 21 February 2027 at Chaiyaphum Municipal Stadium, renamed Chaiyaphum Marathon 2027."
   },
   "pros": [],
   "cons": [],
@@ -64,6 +66,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-10-13",
+  "last_updated": "2026-10-19",
   "status": "archived"
 }
