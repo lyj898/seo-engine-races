@@ -125,7 +125,8 @@ const description = `${clubs.length} running clubs and crews${coaches.length ? `
     {city.route_guides?.length > 0 && (
       <section id="routes" class="mt-12 scroll-mt-20">
         <h2 class="text-xl font-semibold">Where to run in {city.city}</h2>
-        <p class="mt-2 text-sm text-brand-muted dark:text-brand-muted-dark">Running on your own? These guides map the best routes in the city.</p>
+        {/* Publisher named in the sentence at Great Runs' request (Oct 2026). */}
+        <p class="mt-2 text-sm text-brand-muted dark:text-brand-muted-dark">Running on your own? These curated guides from {[...new Set(city.route_guides.map((g) => g.publisher))].join(' and ')} map the best routes in the city.</p>
         <ul class="mt-4 space-y-2">
           {city.route_guides.map((g) => (
             <li>
