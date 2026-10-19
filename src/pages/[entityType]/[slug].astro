@@ -150,6 +150,9 @@ const statusLead =
       ? 'This edition has been postponed.'
       : 'This edition has already taken place.';
 const statusNote = eventStatus ? entity.core_facts?.event_status_note : null;
+// A postponed edition's note usually gives the new date, so the fallback
+// line must not then claim no future date is known.
+const noSuccessorLead = eventStatus === 'postponed' ? 'In the meantime' : 'No future date is listed yet';
 
 // A finished edition with official results: what people search for now is
 // "<race> <year> results", so the title says so and the results link sits
@@ -262,7 +265,7 @@ const jsonLd = [
           </p>
         ) : region ? (
           <p>
-            {statusLead}{statusNote ? ` ${statusNote}` : ''} No future date is listed yet — see
+            {statusLead}{statusNote ? ` ${statusNote}` : ''} {noSuccessorLead} — see
             {/* Anchor content kept on one line: Astro preserves the source
                 newline and indent as text, which would put a space between
                 the link and the full stop. */}
@@ -270,7 +273,7 @@ const jsonLd = [
           </p>
         ) : (
           <p>
-            {statusLead}{statusNote ? ` ${statusNote}` : ''} No future date is listed yet — see
+            {statusLead}{statusNote ? ` ${statusNote}` : ''} {noSuccessorLead} — see
             {' '}<a href={urls.home()} class="link-accent">the full {siteConfig.entityLabelSingular} calendar</a>.
           </p>
         )}
