@@ -277,6 +277,9 @@ const jsonLd = [
             {' '}<a href={urls.home()} class="link-accent">the full {siteConfig.entityLabelSingular} calendar</a>.
           </p>
         )}
+        {eventStatus && siteConfig.enabledFeatures?.cancellations && (
+          <p class="mt-2"><a href={urls.cancellations()} class="link-accent">Every race called off this year</a></p>
+        )}
       </div>
     )}
 

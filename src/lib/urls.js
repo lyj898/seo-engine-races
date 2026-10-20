@@ -65,6 +65,7 @@ export const urls = {
   travelIndex: () => withBase('/travel/'),
   clubsIndex: () => withBase('/clubs/'),
   clubCity: (slug) => withBase(`/clubs/${slug}/`),
+  cancellations: () => withBase('/race-cancellations/'),
   toolsIndex: () => withBase('/tools/'),
   tool: (slug) => withBase(`/tools/${slug}/`),
   about: () => withBase('/about/'),
