@@ -1,26 +1,9 @@
 {
-  "category_id": "full-marathon",
-  "region_id": "thailand",
-  "pros": [],
-  "cons": [],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
-  "affiliate_links": [],
-  "cta_links": [
-    {
-      "label": "Visit official site",
-      "url": "https://recracesport.com/run/khundanmarathon2026",
-      "type": "official_website"
-    }
-  ],
-  "related_entity_ids": [],
-  "last_updated": "2026-09-30",
-  "status": "needs_review",
-  "reliability_score": 30,
   "entity_id": "khun-dan-marathon-2026",
   "slug": "khun-dan-marathon-2026",
   "name": "Khun Dan Marathon 2026",
+  "category_id": "full-marathon",
+  "region_id": "thailand",
   "short_description": "Khun Dan Marathon 2026 is on Sunday 18 October 2026 at Khun Dan Prakan Chon Dam in Nakhon Nayok, over 42.195 km, 21.1 km, 10 km and 5 km.",
   "ai_summary": "Khun Dan Marathon 2026 is the seventh edition (\"Season 7 - Every Step Has A Story\"), held at Khun Dan Prakan Chon Dam in Nakhon Nayok, and the registration page describes a smooth road course. The marathon starts at 03:30 and the half marathon at 05:00; the page gives climbs of about 400 m for the marathon and 390 m for the half. RECRACE SPORT Co., Ltd. handles registration and is the organiser contact.",
   "core_facts": {
@@ -32,12 +15,17 @@
       42.195
     ],
     "primary_distance_km": 42.195,
-    "venue": "Khun Dan Prakan Chon Dam",
     "organizer": "RECRACE SPORT Co., Ltd.",
     "price_range": "THB 500-1,200",
+    "venue": "Khun Dan Prakan Chon Dam",
     "city": "Nakhon Nayok",
     "country": "Thailand"
   },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
   "faqs": [
     {
       "question": "What are the start times and cut-offs at Khun Dan Marathon 2026?",
@@ -48,6 +36,7 @@
       "answer": "Runners under 18 may not enter the marathon. Overall prize money runs to THB 6,000 for first place in the marathon and THB 4,000 in the half marathon, plus age-group trophies."
     }
   ],
+  "reliability_score": 30,
   "tags": [
     "full-marathon",
     "thailand"
@@ -65,5 +54,16 @@
       "type": "aggregator",
       "last_checked": "2026-09-29"
     }
-  ]
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://recracesport.com/run/khundanmarathon2026",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-10-20",
+  "status": "archived"
 }

@@ -14,11 +14,11 @@
       21.1
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Tetrad Event Empire",
+    "price_range": "RM 55-105",
     "venue": "AEON Mall AU2 Setiawangsa, Kuala Lumpur",
     "city": "Kuala Lumpur",
-    "country": "Malaysia",
-    "organizer": "Tetrad Event Empire",
-    "price_range": "RM 55-105"
+    "country": "Malaysia"
   },
   "pros": [
     "Convenient venue at AEON Mall AU2 Setiawangsa in Kuala Lumpur",
@@ -77,6 +77,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-30",
-  "status": "needs_review"
+  "last_updated": "2026-10-20",
+  "status": "archived"
 }

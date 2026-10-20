@@ -1,6 +1,24 @@
 {
+  "entity_id": "garmin-run-vietnam-2026",
+  "slug": "garmin-run-vietnam-2026",
+  "name": "Garmin Run Vietnam 2026",
   "category_id": "half-marathon",
   "region_id": "vietnam",
+  "short_description": "Garmin Run Vietnam 2026 is on Sunday 18 October 2026 at Saigon Riverside Park in An Khanh ward, Ho Chi Minh City, over 5 km, 10 km and the half marathon.",
+  "ai_summary": "Garmin Run Vietnam 2026 is the Vietnam leg of the Garmin Run Marathon Series, held on Sunday 18 October 2026 with the expo on 17 October. The venue moved to Saigon Riverside Park (Cong vien Bo song Sai Gon) in An Khanh ward, about 2 km from the previous Sala site. Races are 21 km, 10 km and 5 km, plus 10 km and 5 km couple categories.",
+  "core_facts": {
+    "date": "2026-10-18",
+    "distance_km": [
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "organizer": "Garmin Vietnam",
+    "venue": "Saigon Riverside Park (Cong vien Bo song Sai Gon), An Khanh ward",
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam"
+  },
   "pros": [
     "Mostly flat half-marathon course through Thu Thiem and along the Saigon River",
     "Generous four-hour half-marathon limit; the 2025 median finish was 2:23",
@@ -18,41 +36,6 @@
   "excerpt_quotes": [],
   "research_highlights": [],
   "research_watchouts": [],
-  "affiliate_links": [],
-  "cta_links": [
-    {
-      "label": "Visit official site",
-      "url": "https://discover.garmin.com/vi-VN/event/2026/garmin-run/",
-      "type": "official_website"
-    },
-    {
-      "label": "Entry page on Njuko",
-      "url": "https://in.njuko.com/garmin-run-20261776154522957?currentPage=select-competition",
-      "type": "registration"
-    }
-  ],
-  "related_entity_ids": [],
-  "last_updated": "2026-09-30",
-  "status": "needs_review",
-  "reliability_score": 30,
-  "entity_id": "garmin-run-vietnam-2026",
-  "slug": "garmin-run-vietnam-2026",
-  "name": "Garmin Run Vietnam 2026",
-  "short_description": "Garmin Run Vietnam 2026 is on Sunday 18 October 2026 at Saigon Riverside Park in An Khanh ward, Ho Chi Minh City, over 5 km, 10 km and the half marathon.",
-  "ai_summary": "Garmin Run Vietnam 2026 is the Vietnam leg of the Garmin Run Marathon Series, held on Sunday 18 October 2026 with the expo on 17 October. The venue moved to Saigon Riverside Park (Cong vien Bo song Sai Gon) in An Khanh ward, about 2 km from the previous Sala site. Races are 21 km, 10 km and 5 km, plus 10 km and 5 km couple categories.",
-  "core_facts": {
-    "date": "2026-10-18",
-    "distance_km": [
-      5,
-      10,
-      21.1
-    ],
-    "primary_distance_km": 21.1,
-    "venue": "Saigon Riverside Park (Cong vien Bo song Sai Gon), An Khanh ward",
-    "city": "Ho Chi Minh City",
-    "country": "Vietnam",
-    "organizer": "Garmin Vietnam"
-  },
   "faqs": [
     {
       "question": "What are the start times and cut-offs at Garmin Run Vietnam 2026?",
@@ -63,6 +46,7 @@
       "answer": "Couples register together and share one bib for the 5 km or 10 km. A team's result is the gun time of its second runner to finish. Runners must be at least 16 for the 21 km, 10 km and couple 10 km, and at least 12 for the 5 km and couple 5 km."
     }
   ],
+  "reliability_score": 30,
   "tags": [
     "half-marathon",
     "vietnam"
@@ -92,5 +76,21 @@
       "type": "registration_platform",
       "last_checked": "2026-09-30"
     }
-  ]
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://discover.garmin.com/vi-VN/event/2026/garmin-run/",
+      "type": "official_website"
+    },
+    {
+      "label": "Entry page on Njuko",
+      "url": "https://in.njuko.com/garmin-run-20261776154522957?currentPage=select-competition",
+      "type": "registration"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-10-20",
+  "status": "archived"
 }

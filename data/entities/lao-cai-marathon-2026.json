@@ -1,26 +1,9 @@
 {
-  "category_id": "half-marathon",
-  "region_id": "vietnam",
-  "pros": [],
-  "cons": [],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
-  "affiliate_links": [],
-  "cta_links": [
-    {
-      "label": "Official race page on iRace",
-      "url": "https://ticket.irace.vn/lao-cai-marathon-2026",
-      "type": "official_website"
-    }
-  ],
-  "related_entity_ids": [],
-  "last_updated": "2026-09-30",
-  "status": "needs_review",
-  "reliability_score": 30,
   "entity_id": "lao-cai-marathon-2026",
   "slug": "lao-cai-marathon-2026",
   "name": "Lao Cai Marathon 2026",
+  "category_id": "half-marathon",
+  "region_id": "vietnam",
   "short_description": "Lao Cai Marathon 2026 is on Sunday 18 October 2026 in Lao Cai ward, Lao Cai province, over 5.5 km, 10.5 km and 21 km.",
   "ai_summary": "Lao Cai Marathon 2026, subtitled \"Dong Chay Bien Cuong\", is on Sunday 18 October 2026 and is organised by Viet Jungle Co., Ltd. The event page lists Trang A Pao Square in Lao Cai ward as the venue, with the start line on An Duong Vuong street. Despite the name there is no full marathon: the distances are 5.5 km, 10.5 km and 21 km, along the Red River where it enters Vietnam.",
   "core_facts": {
@@ -31,12 +14,17 @@
       21.1
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Viet Jungle Co., Ltd. (Cong ty TNHH Viet Jungle)",
+    "price_range": "VND 850,000-1,250,000",
     "venue": "Trang A Pao Square, Lao Cai ward (start on An Duong Vuong street)",
     "city": "Lao Cai",
-    "country": "Vietnam",
-    "organizer": "Viet Jungle Co., Ltd. (Cong ty TNHH Viet Jungle)",
-    "price_range": "VND 850,000-1,250,000"
+    "country": "Vietnam"
   },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
   "faqs": [
     {
       "question": "Does Lao Cai Marathon 2026 include a full marathon?",
@@ -47,6 +35,7 @@
       "answer": "The late-tier prices shown on the event page are 850,000 VND for the 5.5 km and 1,250,000 VND for the 21 km. That price table does not show a figure for the 10.5 km, so runners interested in that distance should confirm the price directly with the organiser, Viet Jungle Co., Ltd."
     }
   ],
+  "reliability_score": 30,
   "tags": [
     "half-marathon",
     "vietnam"
@@ -64,5 +53,16 @@
       "type": "other",
       "last_checked": "2026-09-29"
     }
-  ]
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on iRace",
+      "url": "https://ticket.irace.vn/lao-cai-marathon-2026",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-10-20",
+  "status": "archived"
 }

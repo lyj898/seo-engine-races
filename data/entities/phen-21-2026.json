@@ -1,26 +1,9 @@
 {
-  "category_id": "half-marathon",
-  "region_id": "thailand",
-  "pros": [],
-  "cons": [],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
-  "affiliate_links": [],
-  "cta_links": [
-    {
-      "label": "Official race page on ThaiPhotoRun",
-      "url": "https://www.thaiphotorun.com/race/phen21",
-      "type": "official_website"
-    }
-  ],
-  "related_entity_ids": [],
-  "last_updated": "2026-09-30",
-  "status": "needs_review",
-  "reliability_score": 30,
   "entity_id": "phen-21-2026",
   "slug": "phen-21-2026",
   "name": "PHEN 21 2026",
+  "category_id": "half-marathon",
+  "region_id": "thailand",
   "short_description": "PHEN 21 2026 is on Sunday 18 October 2026 at the Phen District Office in Phen, Udon Thani, over 5 km, 10 km and 21.1 km.",
   "ai_summary": "PHEN 21 2026 is organised by PHEN Running with TK SPORT Organizer, starting in front of the Phen District Office in Udon Thani, with entries on ThaiPhotoRun. The organiser says income goes to Phen district for public benefit. Trophies go to the top five in each age group for men and women over 5 km, 10 km and 21 km. RUNLAH and PatRunning list 4 October; the organiser registration page gives 18 October, which this record uses.",
   "core_facts": {
@@ -31,12 +14,17 @@
       21.1
     ],
     "primary_distance_km": 21.1,
-    "venue": "Phen District Office",
     "organizer": "PHEN Running with TK SPORT Organizer",
     "price_range": "THB 450-1,500",
+    "venue": "Phen District Office",
     "city": "Phen, Udon Thani",
     "country": "Thailand"
   },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
   "faqs": [
     {
       "question": "How much does PHEN 21 cost to enter?",
@@ -47,6 +35,7 @@
       "answer": "Each distance has men’s and women’s age groups from 19 and under up to 70 and over, in ten-year bands from 20. Trophies go to the top five in each group."
     }
   ],
+  "reliability_score": 30,
   "tags": [
     "half-marathon",
     "thailand"
@@ -64,5 +53,16 @@
       "type": "aggregator",
       "last_checked": "2026-09-29"
     }
-  ]
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on ThaiPhotoRun",
+      "url": "https://www.thaiphotorun.com/race/phen21",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-10-20",
+  "status": "archived"
 }

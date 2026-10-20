@@ -1,31 +1,9 @@
 {
-  "category_id": "half-marathon",
-  "region_id": "philippines",
-  "pros": [],
-  "cons": [],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
-  "affiliate_links": [],
-  "cta_links": [
-    {
-      "label": "Official race page on Race Roster",
-      "url": "https://raceroster.com/events/2026/139797/pcso-charity-run-2026",
-      "type": "official_website"
-    }
-  ],
-  "results": {
-    "url": "https://results.raceroster.com/v3/events/59qtfbpjatx2ag7t",
-    "publisher": "RaceRoster",
-    "last_checked": "2026-10-19"
-  },
-  "related_entity_ids": [],
-  "last_updated": "2026-10-19",
-  "status": "needs_review",
-  "reliability_score": 30,
   "entity_id": "pcso-charity-run-2026",
   "slug": "pcso-charity-run-2026",
   "name": "PCSO Charity Run 2026",
+  "category_id": "half-marathon",
+  "region_id": "philippines",
   "short_description": "PCSO Charity Run 2026 is on Sunday 18 October 2026 at Ayala Triangle Gardens in Makati, over 3 km, 5 km, 10 km and 21.1 km.",
   "ai_summary": "The PCSO Charity Run 2026 is a RunRio race held with the Philippine Charity Sweepstakes Office in support of its charitable programmes. All categories start at Ayala Triangle Gardens in Makati, and the race offers 21 km, 10 km, 5 km and 3 km distances. Sections of the route are closed to traffic.",
   "core_facts": {
@@ -37,11 +15,16 @@
       21.1
     ],
     "primary_distance_km": 21.1,
-    "venue": "Ayala Triangle Gardens",
     "organizer": "Philippine Charity Sweepstakes Office with RUNRIO Inc.",
+    "venue": "Ayala Triangle Gardens",
     "city": "Makati",
     "country": "Philippines"
   },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
   "faqs": [
     {
       "question": "Is there a cut-off time at the PCSO Charity Run 2026?",
@@ -52,6 +35,7 @@
       "answer": "The race FAQ lists a finisher's loot bag, hydration and a finisher's medal. 21K finishers also receive a finisher shirt, and results are released within the day."
     }
   ],
+  "reliability_score": 30,
   "tags": [
     "half-marathon",
     "philippines"
@@ -75,5 +59,21 @@
       "type": "aggregator",
       "last_checked": "2026-09-29"
     }
-  ]
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on Race Roster",
+      "url": "https://raceroster.com/events/2026/139797/pcso-charity-run-2026",
+      "type": "official_website"
+    }
+  ],
+  "results": {
+    "url": "https://results.raceroster.com/v3/events/59qtfbpjatx2ag7t",
+    "publisher": "RaceRoster",
+    "last_checked": "2026-10-19"
+  },
+  "related_entity_ids": [],
+  "last_updated": "2026-10-20",
+  "status": "archived"
 }

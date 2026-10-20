@@ -14,13 +14,13 @@
       21.1
     ],
     "primary_distance_km": 21.1,
+    "organizer": "JomRun",
     "registration_deadline": "2026-10-17",
+    "event_status": "cancelled",
+    "event_status_note": "The organiser cancelled the race, citing unstable air quality, and turned it into a virtual run from 18 October to 6 November 2026.",
     "venue": "Dataran Air Papan",
     "city": "Mersing, Johor",
-    "country": "Malaysia",
-    "organizer": "JomRun",
-    "event_status": "cancelled",
-    "event_status_note": "The organiser cancelled the race, citing unstable air quality, and turned it into a virtual run from 18 October to 6 November 2026."
+    "country": "Malaysia"
   },
   "pros": [
     "Multiple distance options (5km, 10km, 21.1km) suit different fitness levels",
@@ -67,6 +67,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-10-19",
-  "status": "needs_review"
+  "last_updated": "2026-10-20",
+  "status": "archived"
 }
