@@ -625,6 +625,13 @@
       "url": "https://greatruns.com/location/singapore/"
     }
   ],
-  "last_updated": "2026-10-02",
+  "beginner_guides": [
+    {
+      "publisher": "The Wellness Insider",
+      "label": "Running in Singapore: where to start, who to run with and which races to join",
+      "url": "https://thewellnessinsider.asia/2026/10/running-in-singapore-beginners-clubs-races/"
+    }
+  ],
+  "last_updated": "2026-10-21",
   "status": "active"
 }

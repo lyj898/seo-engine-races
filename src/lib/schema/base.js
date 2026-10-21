@@ -487,6 +487,11 @@ export const clubCitySchema = z.object({
   route_guides: z
     .array(z.object({ publisher: z.string().min(1), label: z.string().min(1), url: z.string().url() }))
     .default([]),
+  // Beginner guides to running in the city (clubs, races, getting started).
+  // Kept apart from route_guides so Great Runs' route sentence stays accurate.
+  beginner_guides: z
+    .array(z.object({ publisher: z.string().min(1), label: z.string().min(1), url: z.string().url() }))
+    .default([]),
   last_updated: z.string().min(1),
   status: z.enum(STATUS_VALUES),
 });
