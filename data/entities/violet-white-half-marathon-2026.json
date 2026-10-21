@@ -18,7 +18,9 @@
     "price_range": "THB 500-2,000",
     "venue": "Wat Muang Khao Kaeo Phikun, Khok Pip",
     "city": "Si Mahosot, Prachin Buri",
-    "country": "Thailand"
+    "country": "Thailand",
+    "event_status": "postponed",
+    "event_status_note": "The organiser has postponed the race to 17 January 2027 at the same temple venue; RUNLAH lists the new date and links the announcement."
   },
   "pros": [],
   "cons": [],
@@ -42,6 +44,12 @@
   ],
   "source_mix": [
     {
+      "url": "https://www.facebook.com/share/p/19hSd3Boze/",
+      "label": "Organiser's postponement announcement",
+      "type": "social",
+      "last_checked": "2026-10-21"
+    },
+    {
       "url": "https://www.runlah.com/en/violet26",
       "label": "RUNLAH registration page (VIOLET-WHITE Half Marathon 2026)",
       "type": "registration_platform",
@@ -63,6 +71,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-10-06",
+  "last_updated": "2026-10-21",
   "status": "archived"
 }

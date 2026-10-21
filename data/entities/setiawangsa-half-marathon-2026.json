@@ -18,7 +18,9 @@
     "price_range": "RM 55-105",
     "venue": "AEON Mall AU2 Setiawangsa, Kuala Lumpur",
     "city": "Kuala Lumpur",
-    "country": "Malaysia"
+    "country": "Malaysia",
+    "event_status": "cancelled",
+    "event_status_note": "AEON Mall AU2 Setiawangsa, the host venue, announced that the race was cancelled because of unhealthy air quality (haze)."
   },
   "pros": [
     "Convenient venue at AEON Mall AU2 Setiawangsa in Kuala Lumpur",
@@ -50,6 +52,12 @@
   ],
   "source_mix": [
     {
+      "url": "https://www.instagram.com/p/DegpIXozOeP/",
+      "label": "AEON Mall AU2 Setiawangsa announcement",
+      "type": "other",
+      "last_checked": "2026-10-21"
+    },
+    {
       "url": "https://checkpointspot.asia/events",
       "label": "checkpointspot.asia",
       "type": "aggregator",
@@ -77,6 +85,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-10-20",
+  "last_updated": "2026-10-21",
   "status": "archived"
 }
