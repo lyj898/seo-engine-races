@@ -65,12 +65,26 @@ export async function GET({ site }) {
     urls.contact(),
   ];
 
+  // <lastmod> is the main hint Google uses to decide what to recrawl, so each
+  // record-backed page carries the newest date that changes what it shows:
+  // the record itself, plus for a race page its merged review and its results
+  // check. Hub and static pages get none rather than a guessed date -- a
+  // lastmod that moves on every build teaches Google to ignore it.
+  const ISO_DATE = /^\d{4}-\d{2}-\d{2}$/;
+  const newest = (...dates) => dates.filter((d) => ISO_DATE.test(String(d ?? ''))).sort().at(-1);
+  const mergedReviewDate = new Map(
+    siteConfig.enabledFeatures?.mergedReviews
+      ? loadReviews().map(stripMeta).filter(isPublished).map((r) => [r.entity_id, r.last_updated])
+      : [],
+  );
+  const entityLastmod = (e) => newest(e.last_updated, mergedReviewDate.get(e.entity_id), e.results?.last_checked);
+
   const dynamicPaths = [
     ...categories.map((c) => urls.category(c.slug)),
     ...regions.map((r) => urls.region(r.slug)),
-    ...entities.map((e) => urls.entity(e.slug)),
-    ...lapsedEntities.map((e) => urls.entity(e.slug)),
-    ...(siteConfig.enabledFeatures?.listicles ? listicles.map((l) => urls.listicle(l.slug)) : []),
+    ...entities.map((e) => [urls.entity(e.slug), entityLastmod(e)]),
+    ...lapsedEntities.map((e) => [urls.entity(e.slug), entityLastmod(e)]),
+    ...(siteConfig.enabledFeatures?.listicles ? listicles.map((l) => [urls.listicle(l.slug), newest(l.last_updated)]) : []),
     // Every review URL is omitted when mergedReviews is on, because every one
     // of them now redirects to an entity page listed above -- and sitemapping
     // a redirect spends crawl budget to be told where the real page is. This
@@ -79,13 +93,17 @@ export async function GET({ site }) {
     // lapsedEntities above is that case now, listed as the listing URL it
     // actually resolves to.
     ...(siteConfig.enabledFeatures?.mergedReviews ? [] : reviews.map((r) => urls.review(r.slug))),
-    ...gearArticles.map((a) => urls.gear(a.slug)),
-    ...articles.map((a) => urls.article(a.slug)),
-    ...clubCities.map((c) => urls.clubCity(c.slug)),
+    ...gearArticles.map((a) => [urls.gear(a.slug), newest(a.last_updated)]),
+    ...articles.map((a) => [urls.article(a.slug), newest(a.last_updated)]),
+    ...clubCities.map((c) => [urls.clubCity(c.slug), newest(c.last_updated)]),
   ];
 
   const urlEntries = [...staticPaths, ...dynamicPaths]
-    .map((path) => `  <url><loc>${new URL(path, site).toString()}</loc></url>`)
+    .map((entry) => {
+      const [path, lastmod] = Array.isArray(entry) ? entry : [entry];
+      const mod = lastmod ? `<lastmod>${lastmod}</lastmod>` : '';
+      return `  <url><loc>${new URL(path, site).toString()}</loc>${mod}</url>`;
+    })
     .join('\n');
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urlEntries}\n</urlset>\n`;
