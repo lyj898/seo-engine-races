@@ -94,8 +94,8 @@ const showCountry = ft.allCountries.length > 0 && ft.allCountries.every((c) => f
         </div>
         <h3 class="mt-8 text-base font-semibold">How you compare</h3>
         <ul id="ft-rows" class="mt-3 divide-y divide-brand-divider rounded-lg border border-brand-border dark:divide-brand-divider-dark dark:border-brand-border-dark"></ul>
-        <h3 class="mt-8 text-base font-semibold">Where you'd have ranked at the biggest races</h3>
-        <p class="mt-1 text-sm text-brand-muted dark:text-brand-muted-dark">The same time against each race's own field.</p>
+        <h3 class="mt-8 text-base font-semibold">The races where you'd have ranked best</h3>
+        <p class="mt-1 text-sm text-brand-muted dark:text-brand-muted-dark">The same time against each race's own field, best ranking first.</p>
         <ul id="ft-races" class="mt-3 space-y-1 text-sm"></ul>
         <details id="ft-races-more" class="mt-2 text-sm">
           <summary class="inline-flex min-h-[44px] cursor-pointer items-center font-semibold text-brand-muted dark:text-brand-muted-dark">See all races</summary>
@@ -190,23 +190,24 @@ const showCountry = ft.allCountries.length > 0 && ft.allCountries.every((c) => f
         + notes.map((x) => `<li class="px-4 py-3 text-sm text-brand-muted dark:text-brand-muted-dark">${x}</li>`).join('');
       const score = g && age != null && BEST[g]?.[d] ? (BEST[g][d] / (t * ageFactor(age))) * 100 : null;
 
-      // The five biggest fields up front (the races most readers ran or know);
-      // every other race behind "See all races".
+      // Every race at this distance, best ranking first: the top five up front,
+      // the rest (same order) behind "See the other N races".
       const raceList = (data.races as { slug: string; name: string; distance: string; n: number; q: Q }[])
         .filter((r) => r.distance === d)
-        .map((r) => ({ ...r, b: beats(r.q, t) }));
+        .map((r) => ({ ...r, b: beats(r.q, t) }))
+        .sort((a, b) => b.b - a.b || b.n - a.n);
       const li = (r: { slug: string; name: string; n: number; b: number }) =>
         `<li class="flex items-baseline justify-between gap-3 border-b border-brand-divider py-1.5 last:border-0 dark:border-brand-divider-dark"><span><a class="link-accent" href="/race/${r.slug}/">${r.name}</a> <span class="text-xs text-brand-muted dark:text-brand-muted-dark">${r.n.toLocaleString('en-US')} finishers</span></span><span class="shrink-0 tabular-nums">Top ${pct(100 - r.b)}%</span></li>`;
-      const biggest = [...raceList].sort((a, b) => b.n - a.n).slice(0, 5);
-      document.getElementById('ft-races')!.innerHTML = biggest.map(li).join('');
-      const rest = raceList.filter((r) => !biggest.includes(r)).sort((a, b) => a.name.localeCompare(b.name));
+      const best5 = raceList.slice(0, 5);
+      document.getElementById('ft-races')!.innerHTML = best5.map(li).join('');
+      const rest = raceList.slice(5);
       document.getElementById('ft-races-all')!.innerHTML = rest.map(li).join('');
       document.getElementById('ft-races-more')!.classList.toggle('hidden', rest.length === 0);
       document.querySelector('#ft-races-more summary')!.textContent = `See the other ${rest.length} races`;
       (document.getElementById('ft-races-more') as HTMLDetailsElement).open = false;
 
-      // Best showing among the big fields (1,000+ finishers): the brag line.
-      const bigRace = raceList.filter((r) => r.n >= 1000).sort((a, b) => b.b - a.b)[0];
+      // Best race ranking (the top of the list above): the brag line.
+      const bigRace = raceList[0];
       const raceName = (n: string) => n.replace(/\s*\(.*?\)/g, '').replace(/\s+presented by.*$/i, '').replace(/\s+20\d\d\b/g, '').trim();
       renderCard({ d, t, peer, overall, score, bigRace: bigRace && { name: raceName(bigRace.name), b: bigRace.b } });
       shareUrl = `${location.origin}${location.pathname}?${new URLSearchParams({ d, t: String(t), ...(g ? { g } : {}), ...(age != null ? { a: String(age) } : {}) })}`;
@@ -265,10 +266,10 @@ const showCountry = ft.allCountries.length > 0 && ft.allCountries.every((c) => f
 
       const tile = (big: string, small: string) => `<div class="flex flex-col rounded-lg bg-white/5 px-4 py-3"><dt class="text-xs leading-snug text-[#a2a493]">${small}</dt><dd class="order-first font-serif text-2xl font-black text-[#eceee2]">${big}</dd></div>`;
       const tiles = [tile(`Top ${pct(100 - overall)}%`, 'of every finisher in Southeast Asia')];
-      if (bigRace) tiles.push(tile(`Top ${pct(100 - bigRace.b)}%`, `at ${bigRace.name}, your best big-race ranking`));
+      if (bigRace) tiles.push(tile(`Top ${pct(100 - bigRace.b)}%`, `at ${bigRace.name}, your best race ranking`));
       tiles.push(score != null ? tile(`${score.toFixed(1)}%`, 'age-graded score (approximate)') : tile(short(peer.med), `typical time for ${groupLower}`));
       document.getElementById('fc-stats')!.innerHTML = tiles.join('');
-      set('fc-basis', `Based on ${(data.counts[d]?.all?.all?.all ?? 0).toLocaleString('en-US')} ${data.labels[d].toLowerCase()} finishes in the past 12 months`);
+      set('fc-basis', `Based on ${(data.counts[d]?.all?.all?.all ?? 0).toLocaleString('en-US')} ${data.labels[d].toLowerCase()} finishes, latest edition of each race`);
     }
 
     let shareUrl = location.origin + location.pathname;

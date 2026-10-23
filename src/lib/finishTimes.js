@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { loadEntities, stripMeta } from './data.js';
+import { getSeriesKey } from './succession.js';
 
 /**
  * Finish-time benchmarks, built from data/finish-times/<slug>.json (written by
@@ -10,7 +11,9 @@ import { loadEntities, stripMeta } from './data.js';
  *  - standard distances only (10K, half, full), chip time where published;
  *  - at least MIN_FINISHERS finishers in that distance at that race;
  *  - the race record still links an official results page and wasn't halted;
- *  - finished within the last WINDOW_DAYS;
+ *  - each race's most recent edition we hold, if it ran within the last
+ *    WINDOW_DAYS (two years: a race whose newest edition isn't published yet,
+ *    or isn't readable, still counts once through its previous one);
  *  - no events with an entry standard or a disrupted race day (EXCLUDED_SLUGS:
  *    qualifier finals, elite-only races, a haze-shortened fun run -- open legs
  *    of a series stay in).
@@ -23,7 +26,7 @@ export const AGE_BANDS = ['U20', '20-29', '30-39', '40-49', '50-59', '60+'];
 const MIN_FINISHERS = 200;
 const MIN_SLICE = 100; // smallest group we'll quote a percentile against
 const MIN_COUNTRY_RACES = 3; // a country needs this many races at a distance before it's shown for that distance
-const WINDOW_DAYS = 366;
+const WINDOW_DAYS = 731;
 // Events with an entry standard, or whose times aren't a fair benchmark.
 // Kept by slug so the list is explicit.
 const EXCLUDED_SLUGS = new Set([
@@ -58,6 +61,8 @@ export function loadFinishTimes() {
   const cutoff = new Date(Date.now() - WINDOW_DAYS * 864e5).toISOString().slice(0, 10);
   const races = [];
   let dataUpdated = null;
+  // Newest usable edition per race series (slug without its year).
+  const latest = new Map();
   if (fs.existsSync(DIR)) {
     for (const f of fs.readdirSync(DIR).filter((x) => x.endsWith('.json'))) {
       const rec = JSON.parse(fs.readFileSync(path.join(DIR, f), 'utf8'));
@@ -65,6 +70,10 @@ export function loadFinishTimes() {
       if (rec.fetched && (!dataUpdated || rec.fetched > dataUpdated)) dataUpdated = rec.fetched;
       if (!e || e.status === 'draft' || !e.results?.url || e.core_facts?.event_status) continue;
       if (EXCLUDED_SLUGS.has(e.slug) || (e.core_facts?.date ?? '') < cutoff) continue;
+      const key = getSeriesKey(e);
+      if (!latest.has(key) || latest.get(key).e.core_facts.date < e.core_facts.date) latest.set(key, { rec, e });
+    }
+    for (const { rec, e } of latest.values()) {
       // The race's main event is its longest standard distance, whether or
       // not it clears the minimum -- a race isn't re-ranked on a side event.
       const main = ['Full', 'Half', '10K'].find((k) => rec.distances?.[k]);

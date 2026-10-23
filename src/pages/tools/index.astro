@@ -90,7 +90,7 @@ const card = 'rounded-2xl border border-brand-border bg-brand-surface p-5 sm:p-6
         <section class="mt-16">
           <p class={eyebrow}>Insights</p>
           <h2 class="mt-1 font-serif text-3xl font-black">What {n(half.finishes)} half marathon finishes tell us</h2>
-          <p class="mt-1 text-brand-muted dark:text-brand-muted-dark">From {half.races} races across Southeast Asia in the past 12 months.</p>
+          <p class="mt-1 text-brand-muted dark:text-brand-muted-dark">From the latest edition of {half.races} races across Southeast Asia.</p>
 
           <div class="mt-6 flex flex-wrap gap-4">
             <figure class={`min-w-0 flex-[1.6_1_520px] ${card}`}>
@@ -193,7 +193,7 @@ const card = 'rounded-2xl border border-brand-border bg-brand-surface p-5 sm:p-6
         <ul class="mt-3 list-disc space-y-2 pl-5 text-sm">
           <li>Times come from each race's official results page, published by the timing company or organiser. We keep only the finish time, distance, gender and age group; we never store names or bib numbers.</li>
           <li>Chip time where the results publish it, otherwise gun time. Standard distances only (10K, half marathon, marathon), and only where at least {ft.rules.MIN_FINISHERS} runners finished that distance at that race.</li>
-          <li>Races from the last 12 months. Events with an entry standard, such as qualifier finals, are left out; open races in the same series stay in. We count finishes, not runners.</li>
+          <li>The latest edition of each race, as long as it ran in the last two years, so no race counts twice. Events with an entry standard, such as qualifier finals, are left out; open races in the same series stay in. We count finishes, not runners.</li>
           <li>Every race counts towards the region-wide figures. Country-by-country comparisons will follow once we hold at least {ft.rules.MIN_COUNTRY_RACES} races from every country.</li>
           <li>The age-graded score is an approximate estimate from our <a href={urls.tool('age-graded-calculator')} class="link-accent">age-graded calculator</a>, not the official World Masters Athletics tables.</li>
         </ul>
