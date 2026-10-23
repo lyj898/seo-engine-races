@@ -109,6 +109,12 @@ const showCountry = ft.allCountries.length > 0 && ft.allCountries.every((c) => f
   <script id="ft-data" type="application/json" set:html={JSON.stringify(payload)} />
   <script>
     type Q = number[];
+    // GA4 events (gtag is set up in BaseLayout): how many people rank a time,
+    // and how they share it. Only the distance, tier and peer-group type are
+    // sent -- never the time, age or gender themselves.
+    const track = (name: string, params: Record<string, string>) => (window as any).gtag?.('event', name, params);
+    let shareItem = '';
+    const trackShare = (method: string) => track('share', { method, content_type: 'lab_result', item_id: shareItem });
     const data = JSON.parse(document.getElementById('ft-data')!.textContent || '{}');
     const $ = (id: string) => document.getElementById(id) as HTMLInputElement;
     const form = document.getElementById('ft-form') as HTMLFormElement;
@@ -208,6 +214,14 @@ const showCountry = ft.allCountries.length > 0 && ft.allCountries.every((c) => f
       const bigRace = raceList[0];
       const raceName = (n: string) => n.replace(/\s*\(.*?\)/g, '').replace(/\s+presented by.*$/i, '').replace(/\s+20\d\d\b/g, '').trim();
       renderCard({ d, t, peer, overall, score, bigRace: bigRace && { name: raceName(bigRace.name), b: bigRace.b } });
+      shareItem = `${data.dslug[d]}-${TIERS[tierIndex(peer.b)].slug}`;
+      track('lab_rank', {
+        distance: data.dslug[d],
+        tier: TIERS[tierIndex(peer.b)].slug,
+        peer_group: peer.key,
+        source: fromLink ? 'shared_link' : 'form',
+        page_type: location.pathname.includes('/rank/') ? 'tier_page' : 'lab',
+      });
       // Shared links open the page for this distance and tier, so WhatsApp and
       // friends show that tier's preview card, with the full result on it.
       shareUrl = `${location.origin}${data.rankBase}${data.dslug[d]}/${TIERS[tierIndex(peer.b)].slug}/?${new URLSearchParams({ d, t: String(t), ...(g ? { g } : {}), ...(age != null ? { a: String(age) } : {}) })}`;
@@ -275,14 +289,19 @@ const showCountry = ft.allCountries.length > 0 && ft.allCountries.every((c) => f
     const shareBtn = document.getElementById('ft-share')!;
     if ('share' in navigator) { shareBtn.classList.remove('hidden'); shareBtn.classList.add('inline-flex'); }
     shareBtn.addEventListener('click', async () => {
-      try { await navigator.share({ text: lastShare, url: shareUrl }); } catch { /* cancelled */ }
+      try { await navigator.share({ text: lastShare, url: shareUrl }); trackShare('native'); } catch { /* cancelled */ }
     });
     document.getElementById('ft-copy')!.addEventListener('click', async () => {
       const note = document.getElementById('ft-copied')!;
       try { await navigator.clipboard.writeText(`${lastShare} ${shareUrl}`); note.textContent = 'Copied'; } catch { note.textContent = shareUrl; }
+      trackShare('copy');
     });
 
     // A shared link (?d=Half&t=7500&g=M&a=46) opens with that result showing.
+    for (const [id, method] of [['ft-wa', 'whatsapp'], ['ft-x', 'x'], ['ft-fb', 'facebook']]) {
+      document.getElementById(id)!.addEventListener('click', () => trackShare(method));
+    }
+
     let fromLink = false;
     const params = new URLSearchParams(location.search);
     const st = Number(params.get('t'));
