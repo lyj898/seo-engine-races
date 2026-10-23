@@ -1,13 +1,15 @@
 ---
 import { urls } from '../../lib/urls.js';
 import { loadFinishTimes, DISTANCES, DISTANCE_LABEL } from '../../lib/finishTimes.js';
+import { TIERS, DISTANCE_SLUG } from '../../lib/labTiers.js';
 import { numFieldClass, selectClass, labelClass, subLabelClass, cardClass, calculateButtonClass } from '../../lib/tool-styles.js';
 
 // The "how do you stack up?" calculator: a time against every finish we hold
 // (region, country, gender, age group), tiered against the runner's own
 // peer group. Only percentile tables reach the page, never individual times.
 const ft = loadFinishTimes();
-const payload = { tables: ft.tables, counts: ft.counts, races: ft.raceQuantiles, labels: DISTANCE_LABEL };
+const { defaultDistance = 'Half' } = Astro.props;
+const payload = { tables: ft.tables, counts: ft.counts, races: ft.raceQuantiles, labels: DISTANCE_LABEL, tiers: TIERS, dslug: DISTANCE_SLUG, rankBase: urls.labRank('D', 'T').replace('D/T/', '') };
 // The country picker appears only once every country we hold results for has
 // at least 3 races (Alex, Oct 2026); until then everyone is compared region-wide.
 const showCountry = ft.allCountries.length > 0 && ft.allCountries.every((c) => ft.countryList.includes(c));
@@ -20,7 +22,7 @@ const showCountry = ft.allCountries.length > 0 && ft.allCountries.every((c) => f
           <div>
             <label for="ft-distance" class={labelClass}>Distance</label>
             <select id="ft-distance" class={`${selectClass} w-full`}>
-              {DISTANCES.filter((k) => ft.tables[k]).map((k) => <option value={k}>{DISTANCE_LABEL[k]}</option>)}
+              {DISTANCES.filter((k) => ft.tables[k]).map((k) => <option value={k} selected={k === defaultDistance}>{DISTANCE_LABEL[k]}</option>)}
             </select>
           </div>
           <div>
@@ -128,14 +130,10 @@ const showCountry = ft.allCountries.length > 0 && ft.allCountries.every((c) => f
       return 0;
     }
     const pct = (x: number) => (x >= 99.5 ? '>99' : x < 0.5 ? '<1' : String(Math.round(x)));
-    function tier(b: number) {
-      if (b >= 99) return 'Elite';
-      if (b >= 95) return 'Podium';
-      if (b >= 90) return 'Front pack';
-      if (b >= 75) return 'Strong';
-      if (b >= 50) return 'Steady';
-      return 'Finisher';
-    }
+    // Tiers come from src/lib/labTiers.js (shared with the share pages and cards).
+    const TIERS = data.tiers as { name: string; slug: string; p: number }[];
+    const tierIndex = (b: number) => TIERS.filter((x) => b >= x.p).length - 1;
+    const tier = (b: number) => TIERS[tierIndex(b)].name;
     // Approximate age grade -- same model as /tools/age-graded-calculator/.
     const BEST: Record<string, Record<string, number>> = { M: { '10K': 1571, Half: 3451, Full: 7235 }, F: { '10K': 1741, Half: 3772, Full: 7796 } };
     function ageFactor(age: number) {
@@ -197,7 +195,7 @@ const showCountry = ft.allCountries.length > 0 && ft.allCountries.every((c) => f
         .map((r) => ({ ...r, b: beats(r.q, t) }))
         .sort((a, b) => b.b - a.b || b.n - a.n);
       const li = (r: { slug: string; name: string; n: number; b: number }) =>
-        `<li class="flex items-baseline justify-between gap-3 border-b border-brand-divider py-1.5 last:border-0 dark:border-brand-divider-dark"><span><a class="link-accent" href="/race/${r.slug}/">${r.name}</a> <span class="text-xs text-brand-muted dark:text-brand-muted-dark">${r.n.toLocaleString('en-US')} finishers</span></span><span class="shrink-0 tabular-nums">Top ${pct(100 - r.b)}%</span></li>`;
+        `<li class="flex items-baseline justify-between gap-3 border-b border-brand-divider py-1 last:border-0 dark:border-brand-divider-dark"><span><a class="link-accent inline-block py-1.5" href="/race/${r.slug}/">${r.name}</a> <span class="text-xs text-brand-muted dark:text-brand-muted-dark">${r.n.toLocaleString('en-US')} finishers</span></span><span class="shrink-0 tabular-nums">Top ${pct(100 - r.b)}%</span></li>`;
       const best5 = raceList.slice(0, 5);
       document.getElementById('ft-races')!.innerHTML = best5.map(li).join('');
       const rest = raceList.slice(5);
@@ -210,7 +208,9 @@ const showCountry = ft.allCountries.length > 0 && ft.allCountries.every((c) => f
       const bigRace = raceList[0];
       const raceName = (n: string) => n.replace(/\s*\(.*?\)/g, '').replace(/\s+presented by.*$/i, '').replace(/\s+20\d\d\b/g, '').trim();
       renderCard({ d, t, peer, overall, score, bigRace: bigRace && { name: raceName(bigRace.name), b: bigRace.b } });
-      shareUrl = `${location.origin}${location.pathname}?${new URLSearchParams({ d, t: String(t), ...(g ? { g } : {}), ...(age != null ? { a: String(age) } : {}) })}`;
+      // Shared links open the page for this distance and tier, so WhatsApp and
+      // friends show that tier's preview card, with the full result on it.
+      shareUrl = `${location.origin}${data.rankBase}${data.dslug[d]}/${TIERS[tierIndex(peer.b)].slug}/?${new URLSearchParams({ d, t: String(t), ...(g ? { g } : {}), ...(age != null ? { a: String(age) } : {}) })}`;
       const peerText = peer.key === 'all' ? 'all finishers in Southeast Asia' : `${who(peer.label)} in Southeast Asia`;
       lastShare = `My ${short(t)} ${data.labels[d].toLowerCase()} is faster than ${pct(peer.b)}% of ${peerText}: ${tier(peer.b)} tier.`
         + (bigRace ? ` I'd have been top ${pct(100 - bigRace.b)}% at ${raceName(bigRace.name)}.` : '') + ' How do you stack up?';
@@ -224,7 +224,6 @@ const showCountry = ft.allCountries.length > 0 && ft.allCountries.every((c) => f
     });
 
     type Row = { label: string; b: number; n: number; med: number; key: string; q: Q };
-    const TIERS: [string, number][] = [['Finisher', 0], ['Steady', 50], ['Strong', 75], ['Front pack', 90], ['Podium', 95], ['Elite', 99]];
     function renderCard({ d, t, peer, overall, score, bigRace }: { d: string; t: number; peer: Row; overall: number; score: number | null; bigRace?: { name: string; b: number } }) {
       const q = peer.q;
       const set = (id: string, v: string) => { document.getElementById(id)!.textContent = v; };
@@ -253,15 +252,15 @@ const showCountry = ft.allCountries.length > 0 && ft.allCountries.every((c) => f
       }).join('') + `<line x1="${xYou}" x2="${xYou}" y1="4" y2="100" stroke="#eceee2" stroke-width="2" vector-effect="non-scaling-stroke"/>`;
 
       // Tier ladder, and how far it is to the next rung.
-      const cur = TIERS.filter(([, p]) => peer.b >= p).length - 1;
-      document.getElementById('fc-ladder')!.innerHTML = TIERS.map(([name, p], i) => {
+      const cur = tierIndex(peer.b);
+      document.getElementById('fc-ladder')!.innerHTML = TIERS.map(({ name, p }, i) => {
         const cls = i === cur ? 'bg-[#c8ff33] text-[#15170f]' : i < cur ? 'border border-[#c8ff33]/50 text-[#c8ff33]' : 'border border-white/10 text-[#6d6f5f]';
         return `<li class="rounded-md px-1 py-2 ${cls}">${name}<span class="block text-[9px] font-semibold normal-case tracking-normal opacity-80">${p ? `top ${100 - p}%` : 'everyone'}</span></li>`;
       }).join('');
       const next = TIERS[cur + 1];
       if (next) {
-        const need = Math.max(1, Math.round(t - q[100 - next[1]]));
-        set('fc-next', `${short(need)} faster and you're ${next[0]}: the top ${100 - next[1]}% of ${groupLower}.`);
+        const need = Math.max(1, Math.round(t - q[100 - next.p]));
+        set('fc-next', `${short(need)} faster and you're ${next.name}: the top ${100 - next.p}% of ${groupLower}.`);
       } else set('fc-next', `The top 1% of ${groupLower} in Southeast Asia.`);
 
       const tile = (big: string, small: string) => `<div class="flex flex-col rounded-lg bg-white/5 px-4 py-3"><dt class="text-xs leading-snug text-[#a2a493]">${small}</dt><dd class="order-first font-serif text-2xl font-black text-[#eceee2]">${big}</dd></div>`;

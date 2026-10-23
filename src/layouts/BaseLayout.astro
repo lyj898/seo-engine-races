@@ -21,6 +21,9 @@ const {
   // with an empty listing. The sitemap drops those separately; this stops a
   // crawler that finds one anyway from filing it as thin content.
   noindex = false,
+  // Site-relative path of a 1200x630 link-preview image (WhatsApp, Facebook,
+  // X). Pages without one share as a plain text card.
+  ogImage = null,
 } = Astro.props;
 
 const canonicalUrl = new URL(canonicalPath, Astro.site).toString();
@@ -57,7 +60,16 @@ const metaDescription = description ?? siteConfig.siteTagline;
     <meta property="og:description" content={metaDescription} />
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonicalUrl} />
-    <meta name="twitter:card" content="summary" />
+    {ogImage ? (
+      <>
+        <meta property="og:image" content={new URL(ogImage, Astro.site).toString()} />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta name="twitter:card" content="summary_large_image" />
+      </>
+    ) : (
+      <meta name="twitter:card" content="summary" />
+    )}
 
     <!--
       Font loading is the one place that isn't purely token-driven: which

@@ -1,0 +1,118 @@
+---
+import siteConfig from '../../../../lib/config.js';
+import { urls } from '../../../../lib/urls.js';
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../../../components/Breadcrumb.astro';
+import RankTool from '../../../../components/lab/RankTool.astro';
+import { buildBreadcrumbListSchema } from '../../../../lib/schema-jsonld.js';
+import { loadFinishTimes, DISTANCES, DISTANCE_LABEL, AGE_BANDS } from '../../../../lib/finishTimes.js';
+import { TIERS, DISTANCE_SLUG, tierCeiling, tierBandText } from '../../../../lib/labTiers.js';
+
+// One page per distance and tier ("Strong half marathon times"): the time
+// range that tier covers for each gender and age group, with the calculator
+// under it. Shared results link here, so a WhatsApp or Facebook preview shows
+// that tier's card (public/og/lab/, drawn by scripts/lab-share-cards.js) and
+// the link still opens the sharer's full result (?d=&t=&g=&a=).
+export function getStaticPaths() {
+  if (!siteConfig.enabledFeatures?.finishTimes) return [];
+  const ft = loadFinishTimes();
+  return DISTANCES.filter((d) => ft.tables[d]).flatMap((d) =>
+    TIERS.map((t, i) => ({ params: { distance: DISTANCE_SLUG[d], tier: t.slug }, props: { d, i } }))
+  );
+}
+
+const { d, i } = Astro.props;
+const ft = loadFinishTimes();
+const t = TIERS[i];
+const ceil = tierCeiling(i);
+const dl = DISTANCE_LABEL[d];
+const dlLower = dl === '10K' ? '10K' : dl.toLowerCase();
+const band = tierBandText(i);
+
+// Clock times on the scale runners talk about: h:mm for the half and full,
+// m:ss for the 10K.
+const clock = (s) =>
+  d === '10K' ? `${Math.floor(s / 60)}:${String(Math.round(s % 60)).padStart(2, '0')}` : `${Math.floor(s / 3600)}:${String(Math.round(s / 60) % 60).padStart(2, '0')}`;
+// The tier's time range from a 101-point quantile table (q[k] = the time
+// that k% of the group beat).
+function range(q) {
+  if (!q) return null;
+  if (t.p === 0) return `slower than ${clock(q[50])}`;
+  if (ceil === 100) return `under ${clock(q[100 - t.p])}`;
+  return `${clock(q[100 - ceil])} – ${clock(q[100 - t.p])}`;
+}
+const T = ft.tables[d]?.all ?? {};
+const C = ft.counts[d]?.all ?? {};
+const rows = [
+  { label: 'All ages', men: range(T.M?.all), women: range(T.F?.all) },
+  ...AGE_BANDS.map((a) => ({ label: a === 'U20' ? 'Under 20' : a === '60+' ? '60 and over' : a, men: range(T.M?.[a]), women: range(T.F?.[a]) })),
+].filter((r) => r.men || r.women);
+const finishes = C.all?.all ?? 0;
+
+const title = `${t.name} ${dlLower} times in Southeast Asia, by age and gender`;
+const description = t.p
+  ? `A ${t.name} ${dlLower} puts you in ${band} of runners of the same gender and age in Southeast Asia. See the time it takes at every age, and where your own time ranks.`
+  : `The ${dlLower} times that make up most of the field in Southeast Asia, and how much faster each tier takes at every age. See where your time ranks.`;
+const lead = t.p
+  ? `${t.name} means finishing ahead of ${t.p}%${ceil < 100 ? ` (but not ${ceil}%)` : ''} of the runners of your gender and age: ${band} across Southeast Asia.`
+  : `Finisher covers ${band}: every finish counts, and this is where most runners start. Steady, the next tier, means beating half your gender and age group.`;
+const breadcrumbItems = [
+  { label: siteConfig.siteName, href: urls.home() },
+  { label: 'Lab', href: urls.toolsIndex() },
+  { label: `${t.name} ${dlLower}` },
+];
+const jsonLd = [buildBreadcrumbListSchema(breadcrumbItems, Astro.site)].filter(Boolean);
+const chip = 'inline-flex min-h-[40px] items-center rounded-full border px-4 text-sm font-semibold transition-colors';
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  canonicalPath={urls.labRank(DISTANCE_SLUG[d], t.slug)}
+  jsonLd={jsonLd}
+  ogImage={`/og/lab/${DISTANCE_SLUG[d]}-${t.slug}.png`}
+>
+  <div class="mx-auto max-w-6xl px-4 py-10 sm:px-6">
+    <Breadcrumb items={breadcrumbItems} />
+    <div class="mt-4 flex flex-wrap items-start gap-8">
+      <div class="min-w-0 flex-[1_1_320px]">
+        <p class="text-xs font-extrabold uppercase tracking-[0.08em] text-brand-muted dark:text-brand-muted-dark">Run SEA Lab · {dl}</p>
+        <h1 class="mt-2 font-serif text-4xl font-black leading-[1.05] sm:text-5xl">{t.name} {dlLower} times</h1>
+        <p class="mt-4 text-lg">{lead}</p>
+
+        <h2 class="mt-8 text-lg font-bold">The {t.name} range at every age</h2>
+        <div class="mt-3 overflow-hidden rounded-xl border border-brand-border dark:border-brand-border-dark">
+          <table class="w-full text-sm">
+            <thead class="bg-brand-surface-offset text-left dark:bg-brand-surface-offset-dark">
+              <tr><th class="px-3 py-2 font-semibold">Age</th><th class="px-3 py-2 font-semibold">Men</th><th class="px-3 py-2 font-semibold">Women</th></tr>
+            </thead>
+            <tbody class="divide-y divide-brand-divider dark:divide-brand-divider-dark">
+              {rows.map((r) => (
+                <tr><td class="px-3 py-2">{r.label}</td><td class="px-3 py-2 tabular-nums">{r.men ?? '–'}</td><td class="px-3 py-2 tabular-nums">{r.women ?? '–'}</td></tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p class="mt-2 text-xs text-brand-muted dark:text-brand-muted-dark">
+          From {finishes.toLocaleString('en-US')} {dlLower} finishes (the latest edition of each race we hold). A dash means too few runners in that group to say.
+        </p>
+
+        <h2 class="mt-8 text-lg font-bold">Other {dlLower} tiers</h2>
+        <nav aria-label={`${dl} tiers`} class="mt-3 flex flex-wrap gap-2">
+          {TIERS.map((x) => (
+            x.slug === t.slug
+              ? <span class={`${chip} border-brand-primary bg-brand-primary text-brand-primary-ink`} aria-current="page">{x.name}</span>
+              : <a href={urls.labRank(DISTANCE_SLUG[d], x.slug)} class={`${chip} border-brand-border hover:border-brand-primary dark:border-brand-border-dark`}>{x.name}</a>
+          ))}
+        </nav>
+        <p class="mt-4 flex flex-wrap items-center gap-2 text-sm">
+          <span>{t.name} at other distances:</span>
+          {DISTANCES.filter((x) => x !== d && ft.tables[x]).map((x) => (
+            <a href={urls.labRank(DISTANCE_SLUG[x], t.slug)} class={`${chip} border-brand-border hover:border-brand-primary dark:border-brand-border-dark`}>{DISTANCE_LABEL[x]}</a>
+          ))}
+        </p>
+      </div>
+      <div class="min-w-0 flex-[1.4_1_440px]"><RankTool defaultDistance={d} /></div>
+    </div>
+  </div>
+</BaseLayout>

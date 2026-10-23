@@ -68,6 +68,7 @@ export const urls = {
   cancellations: () => withBase('/race-cancellations/'),
   toolsIndex: () => withBase('/tools/'),
   tool: (slug) => withBase(`/tools/${slug}/`),
+  labRank: (distance, tier) => withBase(`/tools/rank/${distance}/${tier}/`),
   about: () => withBase('/about/'),
   privacy: () => withBase('/privacy/'),
   terms: () => withBase('/terms/'),

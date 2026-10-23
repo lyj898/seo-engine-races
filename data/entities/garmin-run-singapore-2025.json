@@ -1,0 +1,71 @@
+{
+  "entity_id": "garmin-run-singapore-2025",
+  "slug": "garmin-run-singapore-2025",
+  "name": "Garmin Run Singapore 2025",
+  "category_id": "half-marathon",
+  "region_id": "singapore",
+  "short_description": "Garmin Run Singapore 2025, the Singapore leg of the Garmin Run Asia Series, was held on Sunday 12 October 2025 at Marina Barrage over 21 km and 10 km.",
+  "ai_summary": "Garmin Run Singapore 2025 was the Singapore leg of the Garmin Run Asia Series and its second edition, held on 12 October 2025 at Marina Barrage. It offered a 21 km half marathon and a 10 km, each with a competitive start pen for runners who met the timing standards and an open category. Entries were taken on Race Roster, and the full results were published on HeyJom.",
+  "core_facts": {
+    "date": "2025-10-12",
+    "distance_km": [
+      21.1,
+      10
+    ],
+    "primary_distance_km": 21.1,
+    "organizer": "Garmin Singapore Pte. Ltd. (Garmin Run Asia Series)",
+    "venue": "Marina Barrage",
+    "city": "Singapore",
+    "country": "Singapore"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "When and where was Garmin Run Singapore 2025?",
+      "answer": "Garmin Run Singapore 2025 took place on Sunday 12 October 2025 at Marina Barrage, as the Singapore leg of the Garmin Run Asia Series. It was the race's second edition, after the 2024 debut, and offered a 21 km half marathon and a 10 km with competitive and open categories."
+    },
+    {
+      "question": "Where are the Garmin Run Singapore 2025 results?",
+      "answer": "The full 2025 results are on HeyJom, linked from the race's Race Roster entry page. They list every finisher in the 21 km and 10 km with gun and chip times, category and gender, and can be filtered by distance and category or searched by name or bib."
+    }
+  ],
+  "reliability_score": 40,
+  "tags": [
+    "half-marathon",
+    "singapore"
+  ],
+  "source_mix": [
+    {
+      "url": "https://raceroster.com/events/2025/103835/garmin-run-asia-series-2025-singapore",
+      "label": "Official race page on Race Roster (Garmin Run Asia Series 2025 - Singapore)",
+      "type": "registration_platform",
+      "last_checked": "2026-10-23"
+    },
+    {
+      "url": "https://api.heyjom.com/4-1/results/Garmin-Run-Asia-Series-Singapore-2025",
+      "label": "Official results on HeyJom (linked from the Race Roster page)",
+      "type": "other",
+      "last_checked": "2026-10-23"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on Race Roster",
+      "url": "https://raceroster.com/events/2025/103835/garmin-run-asia-series-2025-singapore",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-10-23",
+  "status": "archived",
+  "results": {
+    "url": "https://api.heyjom.com/4-1/results/Garmin-Run-Asia-Series-Singapore-2025",
+    "publisher": "HeyJom (linked from the Race Roster entry page)",
+    "last_checked": "2026-10-23"
+  }
+}

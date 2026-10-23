@@ -1,6 +1,8 @@
 import siteConfig from '../lib/config.js';
 import { urls } from '../lib/urls.js';
 import { TOOLS } from '../lib/tools.js';
+import { TIERS, DISTANCE_SLUG } from '../lib/labTiers.js';
+import { loadFinishTimes, DISTANCES } from '../lib/finishTimes.js';
 import { loadEntities, loadCategories, loadRegions, loadListicles, loadReviews, loadGear, loadArticles, loadClubCities, stripMeta, isPublished, isReviewableEntity, buildRegionEntityCounts, regionHasEntities } from '../lib/data.js';
 
 /**
@@ -59,6 +61,10 @@ export async function GET({ site }) {
     ...(siteConfig.enabledFeatures?.cancellations ? [urls.cancellations()] : []),
     urls.toolsIndex(),
     ...TOOLS.map((t) => urls.tool(t.slug)),
+    // Lab tier pages (one per distance and tier), the same list the route builds.
+    ...(siteConfig.enabledFeatures?.finishTimes
+      ? DISTANCES.filter((d) => loadFinishTimes().tables[d]).flatMap((d) => TIERS.map((t) => urls.labRank(DISTANCE_SLUG[d], t.slug)))
+      : []),
     urls.about(),
     urls.privacy(),
     urls.terms(),

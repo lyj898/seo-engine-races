@@ -67,7 +67,7 @@ const eyebrow = 'text-xs font-extrabold uppercase tracking-[0.08em] text-brand-m
 const card = 'rounded-2xl border border-brand-border bg-brand-surface p-5 sm:p-6 dark:border-brand-border-dark dark:bg-brand-surface-dark';
 ---
 
-<BaseLayout title={title} description={description} canonicalPath={urls.toolsIndex()} jsonLd={jsonLd}>
+<BaseLayout title={title} description={description} canonicalPath={urls.toolsIndex()} jsonLd={jsonLd} ogImage={hasLab ? '/og/lab/lab.png' : null}>
   <div class="mx-auto max-w-6xl px-4 py-10 sm:px-6">
     <Breadcrumb items={breadcrumbItems} />
 

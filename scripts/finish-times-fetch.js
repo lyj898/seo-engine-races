@@ -426,6 +426,41 @@ async function readBomRun(url) {
   return out;
 }
 
+// --- HeyJom results (api.heyjom.com/4-1/results/<code>; Garmin Run Asia
+// Series Singapore 2025) -----------------------------------------------------
+// Server-rendered, 1,000 rows a page, one distance at a time (?category=).
+// We read only the Gender, Chip Time (else Gun Time) and Status columns and
+// skip rows marked DNF/DNS. Categories are "21KM Men Open" etc.: no age group.
+async function readHeyJom(url) {
+  const base = url.split('?')[0];
+  const first = await get(base, 'html');
+  const sel = (first.match(/<select id="category_filter"[\s\S]*?<\/select>/) || [])[0] || '';
+  const cats = [...sel.matchAll(/<option value="([^"]+)"/g)].map((m) => m[1]).filter((v) => v !== 'All');
+  const text = (s) => s.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
+  const out = {};
+  for (const cat of cats) {
+    const meters = metersFromLabel(cat);
+    const key = distanceKey(meters);
+    if (!key) continue;
+    const times = (out[key] ??= { meters, times: [] }).times;
+    for (let p = 1; p < 100; p++) {
+      const html = await get(`${base}?category=${encodeURIComponent(cat)}&gender=All&cat_gender=All&search_input=&page=${p}`, 'html');
+      const head = [...((html.match(/<thead[\s\S]*?<\/thead>/) || [])[0] || '').matchAll(/<th[^>]*>([\s\S]*?)<\/th>/g)].map((m) => text(m[1]));
+      const [iGen, iChip, iGun, iStatus] = ['Gender', 'Chip Time', 'Gun Time', 'Status'].map((h) => head.indexOf(h));
+      const body = (html.match(/<tbody[\s\S]*?<\/tbody>/) || [])[0] || '';
+      const rows = body.split(/<tr[\s>]/).slice(1).map((r) => [...r.matchAll(/<td[^>]*>([\s\S]*?)<\/td>/g)].map((m) => text(m[1]))).filter((r) => r.length >= head.length - 1);
+      if (iGen < 0 || !rows.length) break;
+      for (const c of rows) {
+        if (iStatus >= 0 && c[iStatus]) continue; // DNF / DNS / DQ
+        const t = clock(c[iChip]) ?? clock(c[iGun]);
+        if (t) times.push([t, genderOf(c[iGen]), null]);
+      }
+      if (rows.length < 1000) break;
+    }
+  }
+  return out;
+}
+
 const READERS = [
   { name: 'RaceRoster', test: /results\.raceroster\.com/, read: readRaceRoster },
   { name: 'SportStats', test: /sportstats\.one/, read: readSportStats },
@@ -439,6 +474,7 @@ const READERS = [
   { name: 'blueChip', test: /bluechipresults\.com\.au\/results\.aspx/i, read: readBlueChip },
   { name: 'Sixtime', test: /result\.sixtime\.id\/event\//, read: readSixtime },
   { name: 'BOM Run', test: /bomrun\.id\/timeresult/, read: readBomRun },
+  { name: 'HeyJom', test: /api\.heyjom\.com\/4-1\/results\//, read: readHeyJom },
 ];
 
 fs.mkdirSync(OUT, { recursive: true });
