@@ -15,6 +15,7 @@ import { isLapsed } from '../../lib/succession.js';
 import { formatLongDate } from '../../lib/text.js';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
+import LastUpdated from '../../components/LastUpdated.astro';
 import { buildBreadcrumbListSchema } from '../../lib/schema-jsonld.js';
 
 // "Races" in the main menu: every country with races (one card each), then
@@ -34,6 +35,8 @@ const reviewed = new Set(
   siteConfig.enabledFeatures?.reviews ? loadReviews().map(stripMeta).filter(isPublished).map((r) => r.entity_id) : []
 );
 const reviewedIn = (label) => entities.filter((e) => e.core_facts?.country === label && reviewed.has(e.entity_id)).length;
+const newestDate = (...lists) => lists.flat().filter((d) => /^\d{4}-\d{2}-\d{2}$/.test(String(d ?? ''))).sort().at(-1);
+const updated = newestDate(entities.map((e) => e.last_updated));
 const totalUpcoming = entities.length;
 const totalReviewed = entities.filter((e) => reviewed.has(e.entity_id)).length;
 
@@ -77,6 +80,7 @@ const pill = 'self-start rounded-full bg-brand-primary-highlight px-2.5 py-0.5 t
           {totalUpcoming} upcoming races in {topLevelRegions.length} countries. {totalReviewed} of them have an in-depth review of the
           last edition: course, heat, cut-offs and logistics.
         </p>
+        <div class="mt-2"><LastUpdated date={updated} label="Calendar updated" /></div>
       </div>
       <a href={urls.home()} class="inline-flex min-h-[48px] items-center rounded-lg bg-brand-text px-5 font-bold text-brand-bg hover:opacity-90 dark:bg-brand-text-dark dark:text-brand-bg-dark">Open the full calendar →</a>
     </div>
@@ -138,7 +142,7 @@ const pill = 'self-start rounded-full bg-brand-primary-highlight px-2.5 py-0.5 t
       <section class="mt-12 flex flex-wrap items-center justify-between gap-4 rounded-3xl bg-brand-text p-7 text-brand-bg dark:bg-brand-surface-offset-dark dark:text-brand-text-dark">
         <div class="min-w-0 flex-[1_1_360px]">
           <h2 class="font-serif text-2xl font-extrabold">Ran one of these? See how you stack up.</h2>
-          <p class="mt-1 opacity-80">Your time against every finish we hold across the region, by country, gender and age.</p>
+          <p class="mt-1 opacity-80">Your time against every finish we hold across the region, by gender and age.</p>
         </div>
         <a href={urls.toolsIndex()} class="inline-flex min-h-[48px] items-center rounded-lg bg-brand-primary px-5 font-extrabold text-brand-primary-ink">Open the Lab →</a>
       </section>

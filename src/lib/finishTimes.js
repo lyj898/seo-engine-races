@@ -51,10 +51,12 @@ export function loadFinishTimes() {
   const entities = new Map(loadEntities().map(stripMeta).map((e) => [e.slug, e]));
   const cutoff = new Date(Date.now() - WINDOW_DAYS * 864e5).toISOString().slice(0, 10);
   const races = [];
+  let dataUpdated = null;
   if (fs.existsSync(DIR)) {
     for (const f of fs.readdirSync(DIR).filter((x) => x.endsWith('.json'))) {
       const rec = JSON.parse(fs.readFileSync(path.join(DIR, f), 'utf8'));
       const e = entities.get(rec.slug);
+      if (rec.fetched && (!dataUpdated || rec.fetched > dataUpdated)) dataUpdated = rec.fetched;
       if (!e || e.status === 'draft' || !e.results?.url || e.core_facts?.event_status) continue;
       if (EXCLUDED_SLUGS.has(e.slug) || (e.core_facts?.date ?? '') < cutoff) continue;
       // The race's main event is its longest standard distance, whether or
@@ -112,7 +114,7 @@ export function loadFinishTimes() {
   });
 
   // Per-race tables for "where you'd rank at other races" (any qualifying distance).
-  const raceQuantiles = races.map((r) => ({ slug: r.slug, name: r.name, country: r.country, distance: r.distance, q: quantiles(r.times.map(([t]) => t)) }));
+  const raceQuantiles = races.map((r) => ({ slug: r.slug, name: r.name, country: r.country, distance: r.distance, n: r.times.length, q: quantiles(r.times.map(([t]) => t)) }));
 
   // Headline insights per distance, region-wide, for the Lab page. Everything
   // here is recomputed from the data at build time, so the page's numbers
@@ -163,6 +165,7 @@ export function loadFinishTimes() {
     allCountries: [...new Set(races.map((r) => r.country))].sort(),
     countryList: [...new Set(Object.values(countries).flat().map((c) => c.country))].sort(),
     rules: { MIN_FINISHERS, MIN_SLICE, WINDOW_DAYS, MIN_COUNTRY_RACES },
+    dataUpdated,
   };
   return cache;
 }

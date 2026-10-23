@@ -8,6 +8,9 @@ import { numFieldClass, selectClass, labelClass, subLabelClass, cardClass, calcu
 // peer group. Only percentile tables reach the page, never individual times.
 const ft = loadFinishTimes();
 const payload = { tables: ft.tables, counts: ft.counts, races: ft.raceQuantiles, labels: DISTANCE_LABEL };
+// The country picker appears only once every country we hold results for has
+// at least 3 races (Alex, Oct 2026); until then everyone is compared region-wide.
+const showCountry = ft.allCountries.length > 0 && ft.allCountries.every((c) => ft.countryList.includes(c));
 ---
 
     <section id="calculator" class={cardClass}>
@@ -40,13 +43,15 @@ const payload = { tables: ft.tables, counts: ft.counts, races: ft.raceQuantiles,
             <label for="ft-age" class={labelClass}>Age <span class="font-normal text-brand-muted dark:text-brand-muted-dark">(optional)</span></label>
             <input id="ft-age" type="number" inputmode="numeric" min="10" max="99" value="46" placeholder="e.g. 46" class={numFieldClass} />
           </div>
-          <div class="sm:col-span-2">
-            <label for="ft-country" class={labelClass}>Country <span class="font-normal text-brand-muted dark:text-brand-muted-dark">(optional)</span></label>
-            <select id="ft-country" class={`${selectClass} w-full`}>
-              <option value="">Southeast Asia only</option>
-              {ft.countryList.map((c) => <option value={c}>{c}</option>)}
-            </select>
-          </div>
+          {showCountry && (
+            <div class="sm:col-span-2">
+              <label for="ft-country" class={labelClass}>Country <span class="font-normal text-brand-muted dark:text-brand-muted-dark">(optional)</span></label>
+              <select id="ft-country" class={`${selectClass} w-full`}>
+                <option value="">Southeast Asia only</option>
+                {ft.countryList.map((c) => <option value={c}>{c}</option>)}
+              </select>
+            </div>
+          )}
         </div>
         <p id="ft-error" class="text-sm text-brand-error dark:text-brand-error-dark" role="alert"></p>
         <button type="submit" class={calculateButtonClass}>See where I rank</button>
@@ -65,9 +70,13 @@ const payload = { tables: ft.tables, counts: ft.counts, races: ft.raceQuantiles,
           <button type="button" id="ft-card" class="inline-flex min-h-[44px] items-center rounded-md border border-brand-border px-4 text-sm font-semibold hover:bg-brand-surface-offset dark:border-brand-border-dark dark:hover:bg-brand-surface-offset-dark">Download share card</button>
           <span id="ft-copied" class="self-center text-sm text-brand-muted dark:text-brand-muted-dark"></span>
         </div>
-        <h3 class="mt-8 text-base font-semibold">Where you'd have ranked at each race</h3>
-        <p class="mt-1 text-sm text-brand-muted dark:text-brand-muted-dark">The same time against each race's own field, fastest field first.</p>
+        <h3 class="mt-8 text-base font-semibold">Where you'd have ranked at the biggest races</h3>
+        <p class="mt-1 text-sm text-brand-muted dark:text-brand-muted-dark">The same time against each race's own field.</p>
         <ul id="ft-races" class="mt-3 space-y-1 text-sm"></ul>
+        <details id="ft-races-more" class="mt-2 text-sm">
+          <summary class="inline-flex min-h-[44px] cursor-pointer items-center font-semibold text-brand-muted dark:text-brand-muted-dark">See all races</summary>
+          <ul id="ft-races-all" class="mt-1 space-y-1"></ul>
+        </details>
       </div>
     </section>
 
@@ -125,7 +134,7 @@ const payload = { tables: ft.tables, counts: ft.counts, races: ft.raceQuantiles,
       const g = $('ft-gender').value;
       const ageRaw = $('ft-age').value;
       const age = ageRaw ? Number(ageRaw) : null;
-      const c = $('ft-country').value;
+      const c = ($('ft-country') as HTMLSelectElement | null)?.value || '';
       if (!t || t < 600) { err.textContent = 'Enter your finish time (hours, minutes and seconds).'; result.classList.add('hidden'); return; }
       if (age != null && (age < 10 || age > 99)) { err.textContent = 'Enter an age between 10 and 99, or leave it blank.'; result.classList.add('hidden'); return; }
       err.textContent = '';
@@ -169,12 +178,20 @@ const payload = { tables: ft.tables, counts: ft.counts, races: ft.raceQuantiles,
         agEl.classList.remove('hidden');
       } else agEl.classList.add('hidden');
 
-      const raceList = (data.races as { slug: string; name: string; distance: string; q: Q }[])
+      // The five biggest fields up front (the races most readers ran or know);
+      // every other race behind "See all races".
+      const raceList = (data.races as { slug: string; name: string; distance: string; n: number; q: Q }[])
         .filter((r) => r.distance === d)
-        .map((r) => ({ ...r, b: beats(r.q, t), med: r.q[50] }))
-        .sort((a, b) => a.med - b.med);
-      document.getElementById('ft-races')!.innerHTML = raceList.map((r) =>
-        `<li class="flex items-baseline justify-between gap-3 border-b border-brand-divider py-1.5 last:border-0 dark:border-brand-divider-dark"><a class="link-accent" href="/race/${r.slug}/">${r.name}</a><span class="shrink-0 tabular-nums">Top ${pct(100 - r.b)}%</span></li>`).join('');
+        .map((r) => ({ ...r, b: beats(r.q, t) }));
+      const li = (r: { slug: string; name: string; n: number; b: number }) =>
+        `<li class="flex items-baseline justify-between gap-3 border-b border-brand-divider py-1.5 last:border-0 dark:border-brand-divider-dark"><span><a class="link-accent" href="/race/${r.slug}/">${r.name}</a> <span class="text-xs text-brand-muted dark:text-brand-muted-dark">${r.n.toLocaleString('en-US')} finishers</span></span><span class="shrink-0 tabular-nums">Top ${pct(100 - r.b)}%</span></li>`;
+      const biggest = [...raceList].sort((a, b) => b.n - a.n).slice(0, 5);
+      document.getElementById('ft-races')!.innerHTML = biggest.map(li).join('');
+      const rest = raceList.filter((r) => !biggest.includes(r)).sort((a, b) => a.name.localeCompare(b.name));
+      document.getElementById('ft-races-all')!.innerHTML = rest.map(li).join('');
+      document.getElementById('ft-races-more')!.classList.toggle('hidden', rest.length === 0);
+      document.querySelector('#ft-races-more summary')!.textContent = `See the other ${rest.length} races`;
+      (document.getElementById('ft-races-more') as HTMLDetailsElement).open = false;
 
       lastShare = `My ${short(t)} ${data.labels[d].toLowerCase()} is faster than ${pct(best.b)}% of ${who(best.label)}: ${tier(best.b)} tier. How do you stack up?`;
       (window as any).__ftCard = { tier: tier(best.b), time: short(t), dist: data.labels[d], line: `Faster than ${pct(best.b)}% of ${who(best.label)}`, overall: `Top ${pct(100 - overall)}% of all finishers in Southeast Asia` };

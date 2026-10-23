@@ -4,6 +4,7 @@ import { urls } from '../../lib/urls.js';
 import { loadClubCities, loadArticles, loadGear, stripMeta, isPublished } from '../../lib/data.js';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
+import LastUpdated from '../../components/LastUpdated.astro';
 import { buildBreadcrumbListSchema } from '../../lib/schema-jsonld.js';
 import { TRAINING_TOPICS } from '../../lib/articleTopics.js';
 
@@ -30,6 +31,8 @@ const referencedBy = [
   { name: 'The Wellness Insider', what: 'cites our Singapore club directory in its beginner’s guide to running in Singapore', href: 'https://thewellnessinsider.asia/2026/10/running-in-singapore-beginners-clubs-races/' },
 ];
 
+const newestDate = (...lists) => lists.flat().filter((d) => /^\d{4}-\d{2}-\d{2}$/.test(String(d ?? ''))).sort().at(-1);
+const updated = newestDate(cities.map((c) => c.last_updated), training.map((a) => a.last_updated), gear.map((g) => g.last_updated));
 const breadcrumbItems = [{ label: siteConfig.siteName, href: urls.home() }, { label: 'Training' }];
 const jsonLd = [buildBreadcrumbListSchema(breadcrumbItems, Astro.site)].filter(Boolean);
 const box = 'rounded-2xl border border-brand-border bg-brand-surface p-5 sm:p-6 dark:border-brand-border-dark dark:bg-brand-surface-dark';
@@ -48,6 +51,7 @@ const box = 'rounded-2xl border border-brand-border bg-brand-surface p-5 sm:p-6 
       Find people to run with, then train smarter for the heat: running clubs and coaches in {cities.length} cities,
       training guides, and gear for humid long runs.
     </p>
+    <div class="mt-2"><LastUpdated date={updated} label="Updated" /></div>
 
     <section class="mt-10">
       <h2 class="font-serif text-2xl font-extrabold">Find a running club</h2>

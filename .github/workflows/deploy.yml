@@ -17,6 +17,14 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
+  # Daily rebuild with no commit. Pages are generated at build time, so
+  # everything dated -- upcoming vs past races, "plan ahead" and "just raced"
+  # lists, counts, the Lab's 12-month window -- is only as fresh as the last
+  # build. Without this, a race run on Sunday kept showing as upcoming until
+  # the next push (often the Tuesday refresh). 21:00 UTC = 05:00 SGT, so the
+  # site is current by morning across the region.
+  schedule:
+    - cron: '0 21 * * *'
   workflow_dispatch: {}
   workflow_call:
     inputs:
