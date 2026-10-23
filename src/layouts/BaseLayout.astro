@@ -48,7 +48,9 @@ const metaDescription = description ?? siteConfig.siteTagline;
         <script async src={`https://www.googletagmanager.com/gtag/js?id=${siteConfig.googleAnalyticsId}`}></script>
         <script is:inline define:vars={{ gaId: siteConfig.googleAnalyticsId }}>
           window.dataLayer = window.dataLayer || [];
-          function gtag() { dataLayer.push(arguments); }
+          // On window: define:vars wraps this script in a function, and page
+          // scripts (the Lab's events) need to reach gtag.
+          window.gtag = function gtag() { dataLayer.push(arguments); };
           gtag('js', new Date());
           gtag('config', gaId);
         </script>
