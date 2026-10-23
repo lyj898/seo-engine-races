@@ -57,19 +57,43 @@ const showCountry = ft.allCountries.length > 0 && ft.allCountries.every((c) => f
         <button type="submit" class={calculateButtonClass}>See where I rank</button>
       </form>
 
-      <div id="ft-result" class="mt-6 hidden" aria-live="polite">
-        <div class="rounded-lg bg-brand-primary-highlight p-5 dark:bg-brand-primary-highlight-dark">
-          <p class="text-xs font-semibold uppercase tracking-wide text-brand-muted dark:text-brand-muted-dark" id="ft-tier-label">Your tier</p>
-          <p class="mt-1 font-serif text-3xl font-black" id="ft-tier"></p>
-          <p class="mt-1 text-sm" id="ft-headline"></p>
+      <div id="ft-result" class="mt-6 hidden scroll-mt-24" aria-live="polite">
+        <p id="ft-shared" class="mb-3 hidden rounded-lg bg-brand-primary-highlight px-4 py-3 text-sm font-semibold dark:bg-brand-primary-highlight-dark">Someone shared their result with you. Put in your own time above to see where you rank.</p>
+        <!-- The result card: made to be screenshotted and shared, so it keeps
+             the same dark ink-and-lime look in light and dark mode. -->
+        <figure id="ft-card" class="overflow-hidden rounded-2xl bg-[#15170f] p-5 text-[#eceee2] shadow-lg sm:p-8">
+          <div class="flex items-center justify-between gap-3 text-[11px] font-bold uppercase tracking-[0.16em]">
+            <span>Run SEA Lab</span><span id="fc-dist" class="text-[#c8ff33]"></span>
+          </div>
+          <div class="mt-5 flex flex-wrap items-end justify-between gap-x-6 gap-y-4">
+            <div class="min-w-0">
+              <p id="fc-time" class="font-serif text-6xl font-black leading-none tabular-nums sm:text-7xl"></p>
+              <p id="fc-who" class="mt-2 text-sm text-[#a2a493]"></p>
+            </div>
+            <div class="sm:text-right">
+              <p class="text-[11px] font-bold uppercase tracking-wide text-[#a2a493]">Faster than</p>
+              <p id="fc-pct" class="font-serif text-5xl font-black leading-none text-[#c8ff33] tabular-nums"></p>
+            </div>
+          </div>
+          <svg id="fc-chart" viewBox="0 0 400 100" preserveAspectRatio="none" class="mt-6 block h-24 w-full sm:h-28" role="img"></svg>
+          <div class="mt-1 flex justify-between text-[11px] text-[#a2a493]"><span>&larr; faster</span><span>slower &rarr;</span></div>
+          <ol id="fc-ladder" class="mt-6 grid grid-cols-3 gap-1.5 text-center text-[10px] font-bold uppercase tracking-wide sm:grid-cols-6 sm:text-[11px]"></ol>
+          <p id="fc-next" class="mt-3 text-sm"></p>
+          <dl id="fc-stats" class="mt-6 grid gap-2 sm:grid-cols-3"></dl>
+          <figcaption class="mt-6 flex flex-wrap justify-between gap-2 border-t border-white/15 pt-4 text-[11px] text-[#a2a493]">
+            <span id="fc-basis"></span><span class="font-bold text-[#eceee2]">runsea.run/tools</span>
+          </figcaption>
+        </figure>
+        <div class="mt-4 flex flex-wrap items-center gap-2">
+          <button type="button" id="ft-share" class="hidden min-h-[44px] items-center rounded-md bg-brand-text px-4 text-sm font-bold text-brand-bg dark:bg-brand-text-dark dark:text-brand-bg-dark">Share</button>
+          <a id="ft-wa" target="_blank" rel="noopener" class="inline-flex min-h-[44px] items-center gap-2 rounded-md border border-brand-border px-4 text-sm font-semibold hover:bg-brand-surface-offset dark:border-brand-border-dark dark:hover:bg-brand-surface-offset-dark">WhatsApp</a>
+          <a id="ft-x" target="_blank" rel="noopener" class="inline-flex min-h-[44px] items-center gap-2 rounded-md border border-brand-border px-4 text-sm font-semibold hover:bg-brand-surface-offset dark:border-brand-border-dark dark:hover:bg-brand-surface-offset-dark">X</a>
+          <a id="ft-fb" target="_blank" rel="noopener" class="inline-flex min-h-[44px] items-center gap-2 rounded-md border border-brand-border px-4 text-sm font-semibold hover:bg-brand-surface-offset dark:border-brand-border-dark dark:hover:bg-brand-surface-offset-dark">Facebook</a>
+          <button type="button" id="ft-copy" class="inline-flex min-h-[44px] items-center gap-2 rounded-md border border-brand-border px-4 text-sm font-semibold hover:bg-brand-surface-offset dark:border-brand-border-dark dark:hover:bg-brand-surface-offset-dark">Copy link</button>
+          <span id="ft-copied" class="text-sm text-brand-muted dark:text-brand-muted-dark"></span>
         </div>
-        <ul id="ft-rows" class="mt-4 divide-y divide-brand-divider rounded-lg border border-brand-border dark:divide-brand-divider-dark dark:border-brand-border-dark"></ul>
-        <p id="ft-agegrade" class="mt-3 hidden text-sm"></p>
-        <div class="mt-5 flex flex-wrap gap-2">
-          <button type="button" id="ft-share" class="inline-flex min-h-[44px] items-center rounded-md border border-brand-border px-4 text-sm font-semibold hover:bg-brand-surface-offset dark:border-brand-border-dark dark:hover:bg-brand-surface-offset-dark">Share my result</button>
-          <button type="button" id="ft-card" class="inline-flex min-h-[44px] items-center rounded-md border border-brand-border px-4 text-sm font-semibold hover:bg-brand-surface-offset dark:border-brand-border-dark dark:hover:bg-brand-surface-offset-dark">Download share card</button>
-          <span id="ft-copied" class="self-center text-sm text-brand-muted dark:text-brand-muted-dark"></span>
-        </div>
+        <h3 class="mt-8 text-base font-semibold">How you compare</h3>
+        <ul id="ft-rows" class="mt-3 divide-y divide-brand-divider rounded-lg border border-brand-border dark:divide-brand-divider-dark dark:border-brand-border-dark"></ul>
         <h3 class="mt-8 text-base font-semibold">Where you'd have ranked at the biggest races</h3>
         <p class="mt-1 text-sm text-brand-muted dark:text-brand-muted-dark">The same time against each race's own field.</p>
         <ul id="ft-races" class="mt-3 space-y-1 text-sm"></ul>
@@ -140,11 +164,11 @@ const showCountry = ft.allCountries.length > 0 && ft.allCountries.every((c) => f
       err.textContent = '';
       const T = data.tables[d] || {};
       const C = data.counts[d] || {};
-      const rows: { label: string; b: number; n: number; med: number; key: string }[] = [];
+      const rows: Row[] = [];
       const cap = (w: string) => w[0].toUpperCase() + w.slice(1);
       const add = (label: string, scope: string, gg: string, aa: string, key: string) => {
         const q = T[scope]?.[gg]?.[aa];
-        if (q) rows.push({ label, b: beats(q, t), n: C[scope][gg][aa], med: q[50], key });
+        if (q) rows.push({ label, b: beats(q, t), n: C[scope][gg][aa], med: q[50], key, q });
         return !!q;
       };
       const notes: string[] = [];
@@ -161,22 +185,10 @@ const showCountry = ft.allCountries.length > 0 && ft.allCountries.every((c) => f
       const peer = order.map((k) => rows.find((r) => r.key === k)).find(Boolean) || rows[0];
       const overall = rows[0]?.b ?? 0;
       const who = (label: string) => label.replace(/^All /, '').replace(/^(Men|Women|Runners)/, (w) => w.toLowerCase());
-      document.getElementById('ft-tier-label')!.textContent = `Your tier among ${who(peer.label)}`;
-      document.getElementById('ft-tier')!.textContent = tier(peer.b);
-      const gap = Math.round((peer.med - t) / 60);
-      const gapText = gap > 0 ? `${gap} min faster than their typical time of ${short(peer.med)}` : gap < 0 ? `${-gap} min slower than their typical time of ${short(peer.med)}` : `right on their typical time of ${short(peer.med)}`;
-      document.getElementById('ft-headline')!.textContent = `A ${short(t)} ${data.labels[d].toLowerCase()} is faster than ${pct(peer.b)}% of ${who(peer.label)} (top ${pct(100 - peer.b)}%), ${gapText}.`;
       document.getElementById('ft-rows')!.innerHTML = rows.map((r) =>
         `<li class="flex items-baseline justify-between gap-3 px-4 py-3 text-sm"><span>${r.label} <span class="text-brand-muted dark:text-brand-muted-dark">(${r.n.toLocaleString('en-US')} finishes, typical ${short(r.med)})</span></span><span class="shrink-0 font-semibold tabular-nums">Faster than ${pct(r.b)}%</span></li>`).join('')
         + notes.map((x) => `<li class="px-4 py-3 text-sm text-brand-muted dark:text-brand-muted-dark">${x}</li>`).join('');
-      const best = peer;
-
-      const agEl = document.getElementById('ft-agegrade')!;
-      if (g && age != null && BEST[g]?.[d]) {
-        const score = (BEST[g][d] / (t * ageFactor(age))) * 100;
-        agEl.textContent = `Age-graded score (approximate): ${score.toFixed(1)}%.`;
-        agEl.classList.remove('hidden');
-      } else agEl.classList.add('hidden');
+      const score = g && age != null && BEST[g]?.[d] ? (BEST[g][d] / (t * ageFactor(age))) * 100 : null;
 
       // The five biggest fields up front (the races most readers ran or know);
       // every other race behind "See all races".
@@ -193,43 +205,101 @@ const showCountry = ft.allCountries.length > 0 && ft.allCountries.every((c) => f
       document.querySelector('#ft-races-more summary')!.textContent = `See the other ${rest.length} races`;
       (document.getElementById('ft-races-more') as HTMLDetailsElement).open = false;
 
-      lastShare = `My ${short(t)} ${data.labels[d].toLowerCase()} is faster than ${pct(best.b)}% of ${who(best.label)}: ${tier(best.b)} tier. How do you stack up?`;
-      (window as any).__ftCard = { tier: tier(best.b), time: short(t), dist: data.labels[d], line: `Faster than ${pct(best.b)}% of ${who(best.label)}`, overall: `Top ${pct(100 - overall)}% of all finishers in Southeast Asia` };
+      // Best showing among the big fields (1,000+ finishers): the brag line.
+      const bigRace = raceList.filter((r) => r.n >= 1000).sort((a, b) => b.b - a.b)[0];
+      const raceName = (n: string) => n.replace(/\s*\(.*?\)/g, '').replace(/\s+presented by.*$/i, '').replace(/\s+20\d\d\b/g, '').trim();
+      renderCard({ d, t, peer, overall, score, bigRace: bigRace && { name: raceName(bigRace.name), b: bigRace.b } });
+      shareUrl = `${location.origin}${location.pathname}?${new URLSearchParams({ d, t: String(t), ...(g ? { g } : {}), ...(age != null ? { a: String(age) } : {}) })}`;
+      const peerText = peer.key === 'all' ? 'all finishers in Southeast Asia' : `${who(peer.label)} in Southeast Asia`;
+      lastShare = `My ${short(t)} ${data.labels[d].toLowerCase()} is faster than ${pct(peer.b)}% of ${peerText}: ${tier(peer.b)} tier.`
+        + (bigRace ? ` I'd have been top ${pct(100 - bigRace.b)}% at ${raceName(bigRace.name)}.` : '') + ' How do you stack up?';
+      const enc = encodeURIComponent;
+      (document.getElementById('ft-wa') as HTMLAnchorElement).href = `https://wa.me/?text=${enc(`${lastShare} ${shareUrl}`)}`;
+      (document.getElementById('ft-x') as HTMLAnchorElement).href = `https://x.com/intent/post?text=${enc(lastShare)}&url=${enc(shareUrl)}`;
+      (document.getElementById('ft-fb') as HTMLAnchorElement).href = `https://www.facebook.com/sharer/sharer.php?u=${enc(shareUrl)}`;
+      document.getElementById('ft-copied')!.textContent = '';
       result.classList.remove('hidden');
-      result.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      result.scrollIntoView({ behavior: fromLink ? 'auto' : 'smooth', block: 'start' });
     });
 
-    const pageUrl = location.origin + location.pathname;
-    document.getElementById('ft-share')!.addEventListener('click', async () => {
+    type Row = { label: string; b: number; n: number; med: number; key: string; q: Q };
+    const TIERS: [string, number][] = [['Finisher', 0], ['Steady', 50], ['Strong', 75], ['Front pack', 90], ['Podium', 95], ['Elite', 99]];
+    function renderCard({ d, t, peer, overall, score, bigRace }: { d: string; t: number; peer: Row; overall: number; score: number | null; bigRace?: { name: string; b: number } }) {
+      const q = peer.q;
+      const set = (id: string, v: string) => { document.getElementById(id)!.textContent = v; };
+      const group = peer.key === 'all' ? 'All finishers' : peer.label.replace(/^All /, '').replace(/^\w/, (w) => w.toUpperCase());
+      const groupLower = peer.key === 'all' ? 'all finishers' : group.replace(/^\w/, (w) => w.toLowerCase());
+      set('fc-dist', data.labels[d]);
+      set('fc-time', short(t));
+      set('fc-who', `${group} · Southeast Asia`);
+      set('fc-pct', `${pct(peer.b)}%`);
+
+      // The peer group's spread of finish times, drawn from its quantiles:
+      // each bar is the share of runners in that time slice, lime where they
+      // finished behind you.
+      const lo = q[1], hi = q[97], N = 44, w = 400 / N;
+      const slices = Array.from({ length: N }, (_, i) => {
+        const a = lo + ((hi - lo) * i) / N, b = lo + ((hi - lo) * (i + 1)) / N;
+        return { a, v: beats(q, a) - beats(q, b) };
+      });
+      const top = Math.max(...slices.map((x) => x.v));
+      const xYou = Math.min(398, Math.max(2, ((t - lo) / (hi - lo)) * 400));
+      const svg = document.getElementById('fc-chart')!;
+      svg.setAttribute('aria-label', `Finish times of ${groupLower}, with your time marked: faster than ${pct(peer.b)}% of them.`);
+      svg.innerHTML = slices.map((x, i) => {
+        const h = Math.max(1.5, (x.v / top) * 84);
+        return `<rect x="${(i * w + 0.8).toFixed(1)}" y="${(100 - h).toFixed(1)}" width="${(w - 1.6).toFixed(1)}" height="${h.toFixed(1)}" rx="1.5" fill="${x.a >= t ? '#c8ff33' : '#3a3c2c'}"/>`;
+      }).join('') + `<line x1="${xYou}" x2="${xYou}" y1="4" y2="100" stroke="#eceee2" stroke-width="2" vector-effect="non-scaling-stroke"/>`;
+
+      // Tier ladder, and how far it is to the next rung.
+      const cur = TIERS.filter(([, p]) => peer.b >= p).length - 1;
+      document.getElementById('fc-ladder')!.innerHTML = TIERS.map(([name, p], i) => {
+        const cls = i === cur ? 'bg-[#c8ff33] text-[#15170f]' : i < cur ? 'border border-[#c8ff33]/50 text-[#c8ff33]' : 'border border-white/10 text-[#6d6f5f]';
+        return `<li class="rounded-md px-1 py-2 ${cls}">${name}<span class="block text-[9px] font-semibold normal-case tracking-normal opacity-80">${p ? `top ${100 - p}%` : 'everyone'}</span></li>`;
+      }).join('');
+      const next = TIERS[cur + 1];
+      if (next) {
+        const need = Math.max(1, Math.round(t - q[100 - next[1]]));
+        set('fc-next', `${short(need)} faster and you're ${next[0]}: the top ${100 - next[1]}% of ${groupLower}.`);
+      } else set('fc-next', `The top 1% of ${groupLower} in Southeast Asia.`);
+
+      const tile = (big: string, small: string) => `<div class="flex flex-col rounded-lg bg-white/5 px-4 py-3"><dt class="text-xs leading-snug text-[#a2a493]">${small}</dt><dd class="order-first font-serif text-2xl font-black text-[#eceee2]">${big}</dd></div>`;
+      const tiles = [tile(`Top ${pct(100 - overall)}%`, 'of every finisher in Southeast Asia')];
+      if (bigRace) tiles.push(tile(`Top ${pct(100 - bigRace.b)}%`, `at ${bigRace.name}, your best big-race ranking`));
+      tiles.push(score != null ? tile(`${score.toFixed(1)}%`, 'age-graded score (approximate)') : tile(short(peer.med), `typical time for ${groupLower}`));
+      document.getElementById('fc-stats')!.innerHTML = tiles.join('');
+      set('fc-basis', `Based on ${(data.counts[d]?.all?.all?.all ?? 0).toLocaleString('en-US')} ${data.labels[d].toLowerCase()} finishes in the past 12 months`);
+    }
+
+    let shareUrl = location.origin + location.pathname;
+    const shareBtn = document.getElementById('ft-share')!;
+    if ('share' in navigator) { shareBtn.classList.remove('hidden'); shareBtn.classList.add('inline-flex'); }
+    shareBtn.addEventListener('click', async () => {
+      try { await navigator.share({ text: lastShare, url: shareUrl }); } catch { /* cancelled */ }
+    });
+    document.getElementById('ft-copy')!.addEventListener('click', async () => {
       const note = document.getElementById('ft-copied')!;
-      try {
-        if (navigator.share) await navigator.share({ text: lastShare, url: pageUrl });
-        else { await navigator.clipboard.writeText(`${lastShare} ${pageUrl}`); note.textContent = 'Copied to clipboard'; }
-      } catch { /* user cancelled */ }
+      try { await navigator.clipboard.writeText(`${lastShare} ${shareUrl}`); note.textContent = 'Copied'; } catch { note.textContent = shareUrl; }
     });
 
-    // Share card: a 1080x1080 image drawn on a canvas, saved by the browser.
-    document.getElementById('ft-card')!.addEventListener('click', () => {
-      const c = (window as any).__ftCard;
-      if (!c) return;
-      const cv = document.createElement('canvas');
-      cv.width = 1080; cv.height = 1080;
-      const x = cv.getContext('2d')!;
-      x.fillStyle = '#0f3d3e'; x.fillRect(0, 0, 1080, 1080);
-      x.fillStyle = '#f5c542'; x.fillRect(80, 80, 12, 920);
-      x.fillStyle = '#ffffff';
-      x.font = '600 44px system-ui, sans-serif'; x.fillText(c.dist.toUpperCase(), 140, 190);
-      x.font = '900 180px system-ui, sans-serif'; x.fillText(c.time, 140, 400);
-      x.fillStyle = '#f5c542'; x.font = '800 96px system-ui, sans-serif'; x.fillText(c.tier, 140, 560);
-      x.fillStyle = '#ffffff'; x.font = '500 46px system-ui, sans-serif';
-      const words = c.line.split(' '); let line = ''; let y = 660;
-      for (const w of words) { if (x.measureText(line + w).width > 820) { x.fillText(line, 140, y); line = ''; y += 60; } line += w + ' '; }
-      x.fillText(line, 140, y);
-      x.font = '500 40px system-ui, sans-serif'; x.fillStyle = '#cfe3e0'; x.fillText(c.overall, 140, y + 80);
-      x.font = '700 44px system-ui, sans-serif'; x.fillStyle = '#ffffff'; x.fillText('runsea.run/finish-times', 140, 980);
-      const a = document.createElement('a');
-      a.download = 'runsea-finish-time.png';
-      a.href = cv.toDataURL('image/png');
-      a.click();
-    });
+    // A shared link (?d=Half&t=7500&g=M&a=46) opens with that result showing.
+    let fromLink = false;
+    const params = new URLSearchParams(location.search);
+    const st = Number(params.get('t'));
+    const sd = params.get('d') || '';
+    if (data.tables[sd] && st >= 600 && st < 43200) {
+      $('ft-distance').value = sd;
+      $('ft-h').value = String(Math.floor(st / 3600));
+      $('ft-m').value = String(Math.floor(st / 60) % 60).padStart(2, '0');
+      $('ft-s').value = String(st % 60).padStart(2, '0');
+      $('ft-gender').value = ['M', 'F'].includes(params.get('g') || '') ? params.get('g')! : '';
+      $('ft-age').value = /^\d{2}$/.test(params.get('a') || '') ? params.get('a')! : '';
+      fromLink = true;
+      form.requestSubmit();
+      fromLink = false;
+      document.getElementById('ft-shared')!.classList.remove('hidden');
+      // After load, or the browser's own scroll restoration undoes it.
+      const toCard = () => setTimeout(() => result.scrollIntoView({ block: 'start' }), 50);
+      if (document.readyState === 'complete') toCard(); else window.addEventListener('load', toCard);
+    }
   </script>

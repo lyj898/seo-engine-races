@@ -1,66 +1,76 @@
 ---
 import siteConfig from '../../lib/config.js';
 import { urls } from '../../lib/urls.js';
-import { loadArticles, loadListicles, stripMeta, isPublished } from '../../lib/data.js';
-import { TRAINING_TOPICS } from '../../lib/articleTopics.js';
+import { loadArticles, loadListicles, loadRegions, stripMeta, isPublished } from '../../lib/data.js';
+import { articleShelf, isTrainingArticle } from '../../lib/articleTopics.js';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
-import HubCard from '../../components/HubCard.astro';
 import { buildBreadcrumbListSchema, buildItemListSchema } from '../../lib/schema-jsonld.js';
-
-// Local, page-scoped kebab-case slug for topic anchor ids -- deliberately not
-// scripts/lib/slugify.js, which is for the data pipeline (/scripts), not
-// page rendering (/src). This never needs to satisfy slugSchema, just be a
-// valid, stable URL fragment.
-const slugifyTopic = (topic) =>
-  topic
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '');
 
 // "Guides" in the main menu: choosing a race and getting there. Training and
 // health articles live on the Training page (src/lib/articleTopics.js), so an
-// article is listed on exactly one hub.
+// article is listed on exactly one hub. Every section uses the same heading,
+// intro line and card, in reading order: where (country), what (best-of
+// lists, race picks), how to get there (travel), then the running scene.
 const allArticles = loadArticles()
   .map(stripMeta)
   .filter(isPublished)
-  .filter((a) => !TRAINING_TOPICS.includes(a.topic))
+  .filter((a) => !isTrainingArticle(a))
   .sort((a, b) => (b.published_at ?? b.last_updated).localeCompare(a.published_at ?? a.last_updated));
-// Country race guides lead the page; the rest are grouped by topic below.
-const isCountryGuide = (a) => /worth the trip|race calendar$/i.test(a.title);
-const countryGuides = allArticles.filter(isCountryGuide).sort((a, b) => a.title.localeCompare(b.title));
-const articles = allArticles.filter((a) => !isCountryGuide(a));
 const lists = siteConfig.enabledFeatures?.listicles ? loadListicles().map(stripMeta).filter(isPublished) : [];
+const countries = loadRegions().map(stripMeta).filter(isPublished).filter((r) => !r.parent_region_id);
 
-// Grouped by topic (falling back to a single "More Articles" bucket for any
-// article without one, so a missing topic never silently drops an article
-// from the index) so a growing library of articles stays scannable instead
-// of becoming one long undifferentiated grid. Topic order follows the order
-// topics first appear in the newest-first sort above, which keeps the page
-// self-maintaining -- no hardcoded topic list to update by hand as new
-// topics are added.
-const UNTITLED_TOPIC = 'More Articles';
-const topicOrder = [];
-const articlesByTopic = new Map();
-for (const article of articles) {
-  const topic = article.topic || UNTITLED_TOPIC;
-  if (!articlesByTopic.has(topic)) {
-    topicOrder.push(topic);
-    articlesByTopic.set(topic, []);
-  }
-  articlesByTopic.get(topic).push(article);
-}
-const sections = topicOrder.map((topic) => ({ topic, articles: articlesByTopic.get(topic) }));
+// One card per country: its "worth the trip" guide plus its race calendars.
+const countryKey = (label) => label.toLowerCase().replace(/[^a-z]+/g, '-');
+const isCountryGuide = (a) => /^best-marathons-half-marathons-|^singapore-small-mighty-race-calendar$/.test(a.slug);
+const DISTANCES = [
+  { re: /half/, label: 'Half marathons' },
+  { re: /full/, label: 'Marathons' },
+  { re: /10k/, label: '10K' },
+  { re: /5k/, label: '5K' },
+];
+const distanceOf = (slug) => DISTANCES.findIndex((d) => d.re.test(slug));
+const countryCards = countries
+  .map((c) => {
+    const key = countryKey(c.label);
+    const guide = allArticles.find((a) => isCountryGuide(a) && a.slug.includes(key));
+    const calendars = lists
+      .filter((l) => l.slug.includes(key))
+      .sort((a, b) => distanceOf(a.slug) - distanceOf(b.slug))
+      .map((l) => ({ href: urls.listicle(l.slug), label: DISTANCES[distanceOf(l.slug)]?.label ?? l.title }));
+    return { label: c.label, href: urls.region(c.slug), guide, calendars };
+  })
+  .filter((c) => c.guide || c.calendars.length);
+// Region-wide lists (no country in the slug), half first.
+const regionLists = lists
+  .filter((l) => !countries.some((c) => l.slug.includes(countryKey(c.label))))
+  .sort((a, b) => distanceOf(a.slug) - distanceOf(b.slug));
+
+const shelf = (name) => allArticles.filter((a) => !isCountryGuide(a) && articleShelf(a) === name);
+// Beginner-friendly picks lead; the rest stay newest first.
+const LEAD = ['beginners-guide-southeast-asia-race-calendar', 'best-races-first-marathon-half-marathon-southeast-asia', 'southeast-asia-biggest-flagship-marathons-ranked'];
+const lead = (a) => (LEAD.includes(a.slug) ? LEAD.indexOf(a.slug) : LEAD.length);
+const choosing = shelf('choosing').sort((a, b) => lead(a) - lead(b));
+const travel = shelf('travel');
+const scene = shelf('scene');
 
 const breadcrumbItems = [
   { label: siteConfig.siteName, href: urls.home() },
   { label: 'Guides' },
 ];
-
 const jsonLd = [
   buildBreadcrumbListSchema(breadcrumbItems, Astro.site),
   buildItemListSchema(allArticles, Astro.site, (a) => urls.article(a.slug), (a) => a.title),
 ].filter(Boolean);
+
+const card = 'flex flex-col gap-1 rounded-2xl border border-brand-border bg-brand-surface p-5 transition-colors hover:border-brand-primary dark:border-brand-border-dark dark:bg-brand-surface-dark';
+const muted = 'text-sm text-brand-muted dark:text-brand-muted-dark';
+const grid = 'mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3';
+const sections = [
+  { id: 'choosing', title: 'Choosing a race', intro: 'Shortlists by what you want from a race: a first marathon, a view, a night start, a series to chase.', items: choosing },
+  { id: 'travel', title: 'Racing abroad', intro: 'Planning the trip: visas, costs, the expo, and bringing the family.', extra: siteConfig.enabledFeatures?.travelAgencies, items: travel },
+  { id: 'scene', title: 'Running in Southeast Asia', intro: 'Why races here start before dawn, why the medals matter, and running through the haze, the monsoon and Ramadan.', items: scene },
+].filter((s) => s.items.length);
 ---
 
 <BaseLayout
@@ -69,78 +79,81 @@ const jsonLd = [
   canonicalPath={urls.articlesIndex()}
   jsonLd={jsonLd}
 >
-  <div class="mx-auto max-w-5xl px-4 py-10 sm:px-6">
+  <div class="mx-auto max-w-6xl px-4 py-10 sm:px-6">
     <Breadcrumb items={breadcrumbItems} />
     <h1 class="mt-4 font-serif text-4xl font-black leading-[1.05] sm:text-5xl">Guides</h1>
-    <p class="mt-3 max-w-2xl text-lg">
-      Choosing a race and getting there: guides by country, best-of lists, race travel and the running scene across Southeast Asia.
+    <p class="mt-3 max-w-3xl text-lg">
+      Choosing a race and getting there: guides and race calendars for each country, best-of lists, and advice for racing abroad.
     </p>
+    <nav aria-label="On this page" class="mt-5 flex flex-wrap gap-2">
+      {[{ id: 'countries', title: 'By country' }, ...(regionLists.length ? [{ id: 'best', title: 'Best of the region' }] : []), ...sections].map((s) => (
+        <a href={`#${s.id}`} class="inline-flex min-h-[40px] items-center rounded-full border border-brand-border px-4 text-sm font-semibold transition-colors hover:border-brand-primary dark:border-brand-border-dark">{s.title}</a>
+      ))}
+    </nav>
 
-    {countryGuides.length > 0 && (
-      <section class="mt-10">
-        <h2 class="font-serif text-2xl font-extrabold">Race guides by country</h2>
-        <div class="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-          {countryGuides.map((a) => (
-            <a href={urls.article(a.slug)} class="rounded-2xl border border-brand-border bg-brand-surface p-5 font-bold transition-colors hover:border-brand-primary dark:border-brand-border-dark dark:bg-brand-surface-dark">{a.title}</a>
+    <section id="countries" class="mt-10 scroll-mt-20">
+      <h2 class="font-serif text-2xl font-extrabold">By country</h2>
+      <p class={`mt-1 ${muted}`}>The races worth travelling for in each country, and its full calendar by distance.</p>
+      <div class={grid}>
+        {countryCards.map((c) => (
+          <div class={card}>
+            <a href={c.href} class="inline-block self-start py-1.5 font-serif text-xl font-extrabold hover:underline">{c.label}</a>
+            {c.guide && <a href={urls.article(c.guide.slug)} class="link-accent inline-block py-1 font-semibold" title={c.guide.title}>The races worth the trip →</a>}
+            {c.calendars.length > 0 && (
+              <div class="mt-1 flex flex-wrap gap-1.5">
+                {c.calendars.map((l) => (
+                  <a href={l.href} class="inline-flex min-h-[36px] items-center rounded-full bg-brand-primary-highlight px-3 text-xs font-bold text-brand-text hover:opacity-80 dark:bg-brand-primary-highlight-dark dark:text-brand-text-dark">{l.label}</a>
+                ))}
+              </div>
+            )}
+          </div>
+        ))}
+      </div>
+    </section>
+
+    {regionLists.length > 0 && (
+      <section id="best" class="mt-12 scroll-mt-20">
+        <div class="flex flex-wrap items-baseline justify-between gap-2">
+          <h2 class="font-serif text-2xl font-extrabold">Best of the region</h2>
+          <a href={urls.listiclesIndex()} class="link-accent text-sm font-semibold">All {lists.length} race lists →</a>
+        </div>
+        <p class={`mt-1 ${muted}`}>Our pick of the races across Southeast Asia at each distance.</p>
+        <div class="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+          {regionLists.map((l) => (
+            <a href={urls.listicle(l.slug)} class={card}>
+              <span class="text-xs font-bold uppercase tracking-wide text-brand-muted dark:text-brand-muted-dark">{DISTANCES[distanceOf(l.slug)]?.label ?? 'Races'}</span>
+              <span class="font-bold">{l.title}</span>
+            </a>
           ))}
         </div>
       </section>
     )}
 
-    {lists.length > 0 && (
-      <section class="mt-10">
-        <div class="flex flex-wrap items-baseline justify-between gap-2">
-          <h2 class="font-serif text-2xl font-extrabold">Best-of lists</h2>
-          <a href={urls.listiclesIndex()} class="link-accent text-sm font-semibold">All {lists.length} lists →</a>
-        </div>
-        <ul class="mt-3 grid gap-x-6 sm:grid-cols-2">
-          {lists.map((l) => <li><a href={urls.listicle(l.slug)} class="inline-block py-1.5 font-semibold hover:underline">{l.title}</a></li>)}
-        </ul>
-      </section>
-    )}
-
-    <section class="mt-10 grid gap-4 md:grid-cols-3">
-      {siteConfig.enabledFeatures?.travelAgencies && (
-        <a href={urls.travelIndex()} class="rounded-2xl border border-brand-border bg-brand-surface p-5 transition-colors hover:border-brand-primary md:col-span-2 dark:border-brand-border-dark dark:bg-brand-surface-dark">
-          <span class="block font-serif text-xl font-extrabold">Race travel</span>
-          <span class="mt-1 block text-sm">Agencies that package entries, hotels and transfers for races abroad, with the races each is certified for.</span>
-        </a>
-      )}
-      {siteConfig.enabledFeatures?.cancellations && (
-        <div class="rounded-2xl border border-brand-border bg-brand-surface p-5 dark:border-brand-border-dark dark:bg-brand-surface-dark">
-          <span class="block text-base font-extrabold">Also on {siteConfig.siteName}</span>
-          <a href={urls.cancellations()} class="mt-1 inline-block py-1 text-sm font-semibold hover:underline">Races cancelled or postponed this year</a>
-        </div>
-      )}
-    </section>
-
-    <h2 class="mt-12 font-serif text-2xl font-extrabold">More guides and articles</h2>
-    {sections.length > 1 && (
-      <nav aria-label="Jump to an article topic" class="mt-6 flex flex-wrap gap-2">
-        {sections.map(({ topic }) => (
-          <a
-            href={`#${slugifyTopic(topic)}`}
-            class="rounded-full border border-brand-border px-3 py-1 text-sm text-brand-muted transition-colors duration-200 ease-interactive hover:border-brand-primary hover:text-brand-text dark:border-brand-border-dark dark:text-brand-muted-dark dark:hover:text-brand-text-dark"
-          >
-            {topic}
-          </a>
-        ))}
-      </nav>
-    )}
-
-    {sections.map(({ topic, articles: topicArticles }) => (
-      <section id={slugifyTopic(topic)} class="mt-10 scroll-mt-20">
-        <h3 class="text-lg font-bold">{topic}</h3>
-        <div class="mt-4 grid gap-4 sm:grid-cols-2">
-          {topicArticles.map((article) => (
-            <HubCard href={urls.article(article.slug)} label={article.title} description={article.dek} />
+    {sections.map((s) => (
+      <section id={s.id} class="mt-12 scroll-mt-20">
+        <h2 class="font-serif text-2xl font-extrabold">{s.title}</h2>
+        <p class={`mt-1 ${muted}`}>{s.intro}</p>
+        <div class={grid}>
+          {s.extra && (
+            <a href={urls.travelIndex()} class={`${card} border-brand-primary bg-brand-primary-highlight dark:bg-brand-primary-highlight-dark`}>
+              <span class="font-bold">Race travel agencies</span>
+              <span class={muted}>Agencies that package entries, hotels and transfers for races abroad.</span>
+            </a>
+          )}
+          {s.items.map((a) => (
+            <a href={urls.article(a.slug)} class={card}>
+              <span class="font-bold">{a.title}</span>
+              {a.dek && <span class={`line-clamp-2 ${muted}`}>{a.dek}</span>}
+            </a>
           ))}
         </div>
       </section>
     ))}
 
-    {articles.length === 0 && (
-      <p class="mt-8 text-brand-muted dark:text-brand-muted-dark">No articles published yet -- check back soon.</p>
+    {siteConfig.enabledFeatures?.cancellations && (
+      <p class={`mt-12 border-t border-brand-divider pt-6 dark:border-brand-divider-dark ${muted}`}>
+        Also: <a href={urls.cancellations()} class="link-accent font-semibold">races cancelled or postponed this year</a>.
+      </p>
     )}
   </div>
 </BaseLayout>

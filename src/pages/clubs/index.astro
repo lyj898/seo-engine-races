@@ -6,7 +6,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import LastUpdated from '../../components/LastUpdated.astro';
 import { buildBreadcrumbListSchema } from '../../lib/schema-jsonld.js';
-import { TRAINING_TOPICS } from '../../lib/articleTopics.js';
+import { articleShelf } from '../../lib/articleTopics.js';
 
 // "Training" in the main menu: running clubs and coaches by city (the
 // directory this page has always been), plus the training and health
@@ -19,9 +19,9 @@ const totalClubs = cities.reduce((n, c) => n + c.clubs.length, 0);
 const totalCoaches = cities.reduce((n, c) => n + (c.coaches?.length ?? 0), 0);
 
 const newest = (a, b) => (b.published_at ?? b.last_updated ?? '').localeCompare(a.published_at ?? a.last_updated ?? '');
-const training = siteConfig.enabledFeatures?.articles
-  ? loadArticles().map(stripMeta).filter(isPublished).filter((a) => TRAINING_TOPICS.includes(a.topic)).sort(newest)
-  : [];
+const coaching = siteConfig.enabledFeatures?.articles ? loadArticles().map(stripMeta).filter(isPublished).sort(newest) : [];
+const training = coaching.filter((a) => articleShelf(a) === 'training');
+const health = coaching.filter((a) => articleShelf(a) === 'health');
 const gear = siteConfig.enabledFeatures?.gear ? loadGear().map(stripMeta).filter(isPublished).sort(newest) : [];
 
 // Sites that reference our club pages (both link to them). Kept here by hand:
@@ -32,7 +32,7 @@ const referencedBy = [
 ];
 
 const newestDate = (...lists) => lists.flat().filter((d) => /^\d{4}-\d{2}-\d{2}$/.test(String(d ?? ''))).sort().at(-1);
-const updated = newestDate(cities.map((c) => c.last_updated), training.map((a) => a.last_updated), gear.map((g) => g.last_updated));
+const updated = newestDate(cities.map((c) => c.last_updated), training.map((a) => a.last_updated), health.map((a) => a.last_updated), gear.map((g) => g.last_updated));
 const breadcrumbItems = [{ label: siteConfig.siteName, href: urls.home() }, { label: 'Training' }];
 const jsonLd = [buildBreadcrumbListSchema(breadcrumbItems, Astro.site)].filter(Boolean);
 const box = 'rounded-2xl border border-brand-border bg-brand-surface p-5 sm:p-6 dark:border-brand-border-dark dark:bg-brand-surface-dark';
@@ -69,13 +69,21 @@ const box = 'rounded-2xl border border-brand-border bg-brand-surface p-5 sm:p-6 
       </div>
     </section>
 
-    {(training.length > 0 || gear.length > 0) && (
-      <section class="mt-12 grid gap-4 lg:grid-cols-2">
+    {(training.length > 0 || health.length > 0 || gear.length > 0) && (
+      <section class="mt-12 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
         {training.length > 0 && (
           <div class={box}>
             <h2 class="font-serif text-xl font-extrabold">Training guides</h2>
             <ul class="mt-3 space-y-1">
               {training.map((a) => <li><a href={urls.article(a.slug)} class="inline-block py-1 font-semibold hover:underline">{a.title}</a></li>)}
+            </ul>
+          </div>
+        )}
+        {health.length > 0 && (
+          <div class={box}>
+            <h2 class="font-serif text-xl font-extrabold">Heat, health and recovery</h2>
+            <ul class="mt-3 space-y-1">
+              {health.map((a) => <li><a href={urls.article(a.slug)} class="inline-block py-1 font-semibold hover:underline">{a.title}</a></li>)}
             </ul>
           </div>
         )}
