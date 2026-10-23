@@ -28,7 +28,10 @@ const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 async function get(url, as = 'json') {
   await sleep(1000);
-  const res = await fetch(url, { headers: { 'User-Agent': UA, Accept: as === 'json' ? 'application/json' : 'text/html' } });
+  const opts = { headers: { 'User-Agent': UA, Accept: as === 'json' ? 'application/json' : 'text/html' } };
+  // One retry after a pause on a dropped connection, so a long paged read
+  // (blueChip: 130+ pages) isn't lost to a single network blip.
+  const res = await fetch(url, opts).catch(async () => { await sleep(5000); return fetch(url, opts); });
   if (!res.ok) throw new Error(`${res.status} ${url}`);
   return as === 'json' ? res.json() : res.text();
 }
@@ -338,6 +341,91 @@ async function readSporticx(url) {
   return out;
 }
 
+// --- blueChip Timing (bluechipresults.com.au, RaceTec; The KIPRUN Singapore) --
+// Server-rendered tables, 50 rows a page (&PageNo=N). The first row holds
+// the column labels; we read only the Net Time, Category and Gender columns.
+// Categories are age groups ("35-39", "60+") except the open "Under 35",
+// which spans two of our bands and is left without one.
+async function readBlueChip(url) {
+  const u = new URL(url);
+  const cid = u.searchParams.get('CId');
+  const rid = u.searchParams.get('RId');
+  if (!cid || !rid) throw new Error('no blueChip CId/RId in ' + url);
+  const base = `${u.origin}/results.aspx?CId=${cid}&RId=${rid}`;
+  const html = await get(base, 'html');
+  const events = [...new Map([...html.matchAll(/[?&]EId=(\d+)">([^<]+)</g)].map((m) => [m[1], m[2].trim()])).entries()];
+  const text = (s) => s.replace(/<[^>]*>/g, '').replace(/&nbsp;?/g, ' ').trim();
+  const out = {};
+  for (const [eid, lbl] of events) {
+    const meters = metersFromLabel(lbl);
+    const key = distanceKey(meters);
+    if (!key) continue;
+    const times = (out[key] ??= { meters, times: [] }).times;
+    for (let p = 1, pages = 1; p <= pages && p < 400; p++) {
+      const page = await get(`${base}&EId=${eid}&dt=0&PageNo=${p}`, 'html');
+      pages = Number((page.match(/page \d+ of (\d+)/) || [])[1] || 1);
+      const table = (page.match(/<table[^>]*tblResults[\s\S]*?<\/table>/) || [])[0] || '';
+      const rows = table.split(/<tr[\s>]/).slice(1).map((r) => [...r.matchAll(/<td[^>]*>([\s\S]*?)<\/td>/g)].map((m) => text(m[1])));
+      const head = rows.shift() || [];
+      const iNet = head.indexOf('Net Time');
+      const iCat = head.indexOf('Category');
+      const iGen = head.indexOf('Gender');
+      if (iNet < 0 || iGen < 0) break;
+      for (const c of rows) {
+        const t = clock(c[iNet]);
+        if (!t) continue;
+        const cat = c[iCat] || '';
+        times.push([t, genderOf(c[iGen]), /under|open/i.test(cat) ? null : ageBand(cat)]);
+      }
+    }
+  }
+  return out;
+}
+
+// --- Sixtime (result.sixtime.id, Indonesia) -------------------------------
+// The results page names its JSON endpoint (BASE_API). Rows also carry phone,
+// email and ID-card fields, so only category, sex, finisher flag and the net
+// (else gun) time are read. Categories are "HM OPEN" / "10K MASTER" etc.; the
+// open/master split isn't a ten-year band, so no age group.
+async function readSixtime(url) {
+  const html = await get(url, 'html');
+  const api = (html.match(/BASE_API\s*=\s*'(https:\/\/result\.sixtime\.id\/api\/race\/results\/\d+)\/?'/) || [])[1];
+  if (!api) throw new Error('no Sixtime results endpoint at ' + url);
+  const out = {};
+  for (let page = 1, total = Infinity; (page - 1) * 1000 < total && page < 100; page++) {
+    const j = await get(`${api}?page=${page}&limit=1000&search=&sortBy=item_total_ranking&sortDir=asc`);
+    total = j.total ?? 0;
+    const rows = j.data || [];
+    if (!rows.length) break;
+    for (const { category, sex, finisher, net_score, total_score } of rows) {
+      if (String(finisher) !== '1') continue;
+      const meters = metersFromLabel(category);
+      const key = distanceKey(meters);
+      const t = clock(net_score) ?? clock(total_score);
+      if (key && t) (out[key] ??= { meters, times: [] }).times.push([t, genderOf(sex), null]);
+    }
+  }
+  return out;
+}
+
+// --- BOM Run time-result plugin (bomrun.id, Blue Ocean Minang Run) --------
+// The organiser's WordPress page embeds the whole field as
+// window.BOMRUN_TIME_RESULT. Category ("21K Umum Putra") gives the distance;
+// "Timing Result" is gun time. No age group.
+async function readBomRun(url) {
+  const html = await get(url, 'html');
+  const json = (html.match(/BOMRUN_TIME_RESULT\s*=\s*(\[[\s\S]*?\]);/) || [])[1];
+  if (!json) throw new Error('no BOM Run result data at ' + url);
+  const out = {};
+  for (const { category, gender, time } of JSON.parse(json)) {
+    const meters = metersFromLabel(category);
+    const key = distanceKey(meters);
+    const t = clock(time);
+    if (key && t) (out[key] ??= { meters, times: [] }).times.push([t, genderOf(gender), null]);
+  }
+  return out;
+}
+
 const READERS = [
   { name: 'RaceRoster', test: /results\.raceroster\.com/, read: readRaceRoster },
   { name: 'SportStats', test: /sportstats\.one/, read: readSportStats },
@@ -348,6 +436,9 @@ const READERS = [
   { name: 'VnExpress', test: /vpbankmarathon\.com|vm\.vnexpress\.net\/vpbank/, read: readVnExpressSupabase },
   { name: 'run.id', test: /results\.run\.id/, read: readRunId },
   { name: 'Sporticx', test: /result\.sporticx\.com/, read: readSporticx },
+  { name: 'blueChip', test: /bluechipresults\.com\.au\/results\.aspx/i, read: readBlueChip },
+  { name: 'Sixtime', test: /result\.sixtime\.id\/event\//, read: readSixtime },
+  { name: 'BOM Run', test: /bomrun\.id\/timeresult/, read: readBomRun },
 ];
 
 fs.mkdirSync(OUT, { recursive: true });

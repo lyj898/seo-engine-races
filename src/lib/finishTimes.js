@@ -11,8 +11,9 @@ import { loadEntities, stripMeta } from './data.js';
  *  - at least MIN_FINISHERS finishers in that distance at that race;
  *  - the race record still links an official results page and wasn't halted;
  *  - finished within the last WINDOW_DAYS;
- *  - no events with an entry standard (EXCLUDED_SLUGS: qualifier finals and
- *    elite-only races -- open legs of a series stay in).
+ *  - no events with an entry standard or a disrupted race day (EXCLUDED_SLUGS:
+ *    qualifier finals, elite-only races, a haze-shortened fun run -- open legs
+ *    of a series stay in).
  * We count finishes, not runners: without names, one person running three
  * races counts three times.
  */
@@ -23,8 +24,13 @@ const MIN_FINISHERS = 200;
 const MIN_SLICE = 100; // smallest group we'll quote a percentile against
 const MIN_COUNTRY_RACES = 3; // a country needs this many races at a distance before it's shown for that distance
 const WINDOW_DAYS = 366;
-// Events with an entry standard. Kept by slug so the list is explicit.
-const EXCLUDED_SLUGS = new Set(['national-milo-marathon-2026-national-finals']);
+// Events with an entry standard, or whose times aren't a fair benchmark.
+// Kept by slug so the list is explicit.
+const EXCLUDED_SLUGS = new Set([
+  'national-milo-marathon-2026-national-finals',
+  // Half cut to 10 km on the day for haze and run as non-competitive.
+  'the-kiprun-singapore-2026',
+]);
 
 const DIR = path.join(process.cwd(), 'data', 'finish-times');
 

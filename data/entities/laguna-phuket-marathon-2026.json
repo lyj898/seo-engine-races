@@ -1,0 +1,74 @@
+{
+  "entity_id": "laguna-phuket-marathon-2026",
+  "slug": "laguna-phuket-marathon-2026",
+  "name": "Laguna Phuket Marathon 2026",
+  "category_id": "full-marathon",
+  "region_id": "thailand",
+  "short_description": "The Laguna Phuket Marathon 2026, the race's 20th edition, ran its marathon and half marathon on Sunday 14 June 2026 from Laguna Grove, Laguna Phuket, Thailand.",
+  "ai_summary": "The Laguna Phuket Marathon 2026 was the race's 20th edition, held at Laguna Grove in the Laguna Phuket resort area at Cherngtalay on Phuket's west coast. The marathon and half marathon ran on Sunday 14 June 2026, with the 10 km, 5 km and 2 km junior run the afternoon before. The organiser's results page links the official results on SportStats.",
+  "core_facts": {
+    "date": "2026-06-14",
+    "distance_km": [
+      42.195,
+      21.1,
+      10,
+      5,
+      2
+    ],
+    "primary_distance_km": 42.195,
+    "venue": "Laguna Grove, Laguna Phuket, Cherngtalay",
+    "city": "Ban Bang Thao, Phuket",
+    "country": "Thailand",
+    "organizer": "GAA Events"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "When did the Laguna Phuket Marathon 2026 take place?",
+      "answer": "The marathon and half marathon ran on Sunday 14 June 2026, starting and finishing at Laguna Grove in Laguna Phuket. The 10 km, 5 km and 2 km junior run were held the previous afternoon. It was the 20th edition of the race; the 2027 edition is set for 13 June 2027."
+    },
+    {
+      "question": "Where are the Laguna Phuket Marathon 2026 results?",
+      "answer": "The organiser's Race Results page at phuketmarathon.com links the official 2026 results, which are hosted by the timing company SportStats. Each distance (marathon, half marathon, 10 km, 5 km and the junior run) has its own leaderboard, searchable by name or bib number."
+    }
+  ],
+  "reliability_score": 40,
+  "tags": [
+    "full-marathon",
+    "thailand"
+  ],
+  "source_mix": [
+    {
+      "url": "https://phuketmarathon.com/race-results/",
+      "label": "Official Race Results page (links the 2026 SportStats leaderboards)",
+      "type": "official",
+      "last_checked": "2026-10-23"
+    },
+    {
+      "url": "https://phuketmarathon.com",
+      "label": "Official race site",
+      "type": "official",
+      "last_checked": "2026-10-23"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://phuketmarathon.com",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-10-23",
+  "status": "archived",
+  "results": {
+    "url": "https://sportstats.one/event/laguna-phuket-marathon",
+    "publisher": "SportStats (linked from the organiser's Race Results page)",
+    "last_checked": "2026-10-23"
+  }
+}
