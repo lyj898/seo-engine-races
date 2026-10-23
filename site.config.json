@@ -92,7 +92,8 @@
     "travelAgencies": true,
     "clubs": true,
     "heroArt": true,
-    "cancellations": true
+    "cancellations": true,
+    "finishTimes": true
   },
 
   "contactEmail": "hello@runsea.run",

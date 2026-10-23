@@ -4,67 +4,144 @@ import { urls } from '../../lib/urls.js';
 import {
   loadEntities,
   loadRegions,
+  loadReviews,
   stripMeta,
   isPublished,
+  isReviewableEntity,
   buildRegionEntityCounts,
   regionHasEntities,
 } from '../../lib/data.js';
 import { isLapsed } from '../../lib/succession.js';
+import { formatLongDate } from '../../lib/text.js';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
-import HubCard from '../../components/HubCard.astro';
 import { buildBreadcrumbListSchema } from '../../lib/schema-jsonld.js';
 
+// "Races" in the main menu: every country with races (one card each), then
+// two timely lists -- reviewed races far enough out to still train for and
+// enter, and official results for races just run. The calendar itself is the
+// homepage.
 const regions = loadRegions().map(stripMeta).filter(isPublished);
-// Lapse-filtered like every other listing surface (homepage, region hubs):
-// refresh-entities.js only archives a finished race weekly, so between runs
-// isPublished still admits races that have already been run. Left unfiltered,
-// this hub presents them in the grid under an upcoming-looking date badge.
-// Their own pages stay live; the region hubs list them under Past races.
+// Lapse-filtered like every other listing surface: a finished race waits for
+// the weekly refresh to be archived, so isPublished alone still admits it.
 const entities = loadEntities().map(stripMeta).filter(isPublished).filter((e) => !isLapsed(e));
 const regionCounts = buildRegionEntityCounts(regions, entities);
+const topLevelRegions = regions
+  .filter((r) => !r.parent_region_id && regionHasEntities(r, regionCounts))
+  .sort((a, b) => (regionCounts.get(b.region_id) ?? 0) - (regionCounts.get(a.region_id) ?? 0) || a.label.localeCompare(b.label));
 
-// Only top-level regions here -- child regions are reached by drilling down
-// from their parent's hub page, keeping this index page uncluttered -- and
-// only ones with something to list (regionHasEntities, src/lib/data.js).
-const topLevelRegions = regions.filter((r) => !r.parent_region_id && regionHasEntities(r, regionCounts));
+const reviewed = new Set(
+  siteConfig.enabledFeatures?.reviews ? loadReviews().map(stripMeta).filter(isPublished).map((r) => r.entity_id) : []
+);
+const reviewedIn = (label) => entities.filter((e) => e.core_facts?.country === label && reviewed.has(e.entity_id)).length;
+const totalUpcoming = entities.length;
+const totalReviewed = entities.filter((e) => reviewed.has(e.entity_id)).length;
 
-const regionLabelPlural = siteConfig.regionLabelPlural ?? `${siteConfig.regionLabel}s`;
+const today = new Date();
+const iso = (d) => d.toISOString().slice(0, 10);
+const addDays = (n) => iso(new Date(today.getTime() + n * 864e5));
+// Far enough out that you can still train for it and enter -- a race next
+// weekend was entered months ago, and its review is too late to help.
+const planAhead = entities
+  .filter((e) => reviewed.has(e.entity_id) && e.core_facts?.date >= addDays(60) && e.core_facts?.date <= addDays(180))
+  .sort((a, b) => a.core_facts.date.localeCompare(b.core_facts.date))
+  .slice(0, 8);
+const planAheadCount = entities.filter((e) => reviewed.has(e.entity_id) && e.core_facts?.date >= addDays(60) && e.core_facts?.date <= addDays(180)).length;
+// Races run in the last 30 days that link an official results page.
+const justRaced = loadEntities()
+  .map(stripMeta)
+  .filter(isReviewableEntity)
+  .filter((e) => e.results?.url && !e.core_facts?.event_status && e.core_facts?.date < iso(today) && e.core_facts?.date >= addDays(-30))
+  .sort((a, b) => b.core_facts.date.localeCompare(a.core_facts.date))
+  .slice(0, 10);
 
-const breadcrumbItems = [
-  { label: siteConfig.siteName, href: urls.home() },
-  { label: `All ${regionLabelPlural}`, href: urls.regionsIndex() },
-];
-
+const km = (e) => (e.core_facts?.distance_km ?? []).map(Number).sort((a, b) => b - a).map((d) => (d % 1 ? d.toFixed(1) : d)).join(' / ');
+const breadcrumbItems = [{ label: siteConfig.siteName, href: urls.home() }, { label: 'Races' }];
 const jsonLd = [buildBreadcrumbListSchema(breadcrumbItems, Astro.site)].filter(Boolean);
+const card = 'flex flex-col gap-1.5 rounded-2xl border border-brand-border bg-brand-surface p-5 transition-colors hover:border-brand-primary dark:border-brand-border-dark dark:bg-brand-surface-dark';
+const pill = 'self-start rounded-full bg-brand-primary-highlight px-2.5 py-0.5 text-xs font-bold text-brand-text dark:bg-brand-primary-highlight-dark dark:text-brand-text-dark';
 ---
 
 <BaseLayout
-  title={`All ${regionLabelPlural}`}
-  description={`Every ${siteConfig.regionLabel.toLowerCase()} covered by ${siteConfig.siteName}.`}
+  title="Races in Southeast Asia by country"
+  description={`${totalUpcoming} upcoming half and full marathons across ${topLevelRegions.length} Southeast Asian countries, ${totalReviewed} of them with an in-depth review of the last edition.`}
   canonicalPath={urls.regionsIndex()}
   jsonLd={jsonLd}
 >
   <div class="mx-auto max-w-6xl px-4 py-10 sm:px-6">
     <Breadcrumb items={breadcrumbItems} />
-    <h1 class="mt-4 font-serif text-3xl font-semibold sm:text-4xl">All {regionLabelPlural}</h1>
-    <p class="mt-3 max-w-2xl text-brand-muted dark:text-brand-muted-dark">
-      Browse every {siteConfig.entityLabelSingular} on {siteConfig.siteName} grouped by {siteConfig.regionLabel.toLowerCase()}.
-    </p>
-
-    {topLevelRegions.length > 0 ? (
-      <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        {topLevelRegions.map((region) => (
-          <HubCard
-            href={urls.region(region.slug)}
-            label={region.label}
-            description={region.short_description}
-            count={regionCounts.get(region.region_id) ?? 0}
-          />
-        ))}
+    <div class="mt-4 flex flex-wrap items-end justify-between gap-4">
+      <div class="min-w-0 flex-[1_1_480px]">
+        <h1 class="font-serif text-4xl font-black leading-[1.05] sm:text-5xl">Races across Southeast Asia</h1>
+        <p class="mt-3 text-lg">
+          {totalUpcoming} upcoming races in {topLevelRegions.length} countries. {totalReviewed} of them have an in-depth review of the
+          last edition: course, heat, cut-offs and logistics.
+        </p>
       </div>
-    ) : (
-      <p class="mt-8 text-brand-muted dark:text-brand-muted-dark">No regions published yet.</p>
+      <a href={urls.home()} class="inline-flex min-h-[48px] items-center rounded-lg bg-brand-text px-5 font-bold text-brand-bg hover:opacity-90 dark:bg-brand-text-dark dark:text-brand-bg-dark">Open the full calendar →</a>
+    </div>
+
+    <section class="mt-10">
+      <h2 class="font-serif text-2xl font-extrabold">Pick a country</h2>
+      <div class="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        {topLevelRegions.map((region) => {
+          const count = regionCounts.get(region.region_id) ?? 0;
+          const rev = reviewedIn(region.label);
+          return (
+            <a href={urls.region(region.slug)} class={card}>
+              <span class="font-serif text-xl font-extrabold">{region.label}</span>
+              <span class="text-sm">{count} upcoming {count === 1 ? 'race' : 'races'}</span>
+              {rev > 0 && <span class={pill}>{rev === count ? 'all reviewed' : `${rev} reviewed`}</span>}
+            </a>
+          );
+        })}
+      </div>
+    </section>
+
+    {planAhead.length > 0 && (
+      <section class="mt-12">
+        <div class="flex flex-wrap items-baseline justify-between gap-2">
+          <h2 class="font-serif text-2xl font-extrabold">Plan ahead: reviewed races</h2>
+          {siteConfig.enabledFeatures?.reviews && <a href={urls.reviewsIndex()} class="link-accent text-sm font-semibold">All reviews →</a>}
+        </div>
+        <p class="mt-1 text-sm text-brand-muted dark:text-brand-muted-dark">
+          {planAheadCount} reviewed races two to six months away, still far enough out to train for and enter.
+        </p>
+        <div class="mt-4 grid gap-3 md:grid-cols-2">
+          {planAhead.map((e) => (
+            <a href={urls.entity(e.slug)} class={card}>
+              <span class="text-sm text-brand-muted dark:text-brand-muted-dark">{formatLongDate(e.core_facts.date)} · {[e.core_facts.city, e.core_facts.country].filter(Boolean).join(', ')}{km(e) ? ` · ${km(e)} km` : ''}</span>
+              <span class="font-serif text-lg font-extrabold">{e.name}</span>
+              <span class={pill}>Reviewed: course, heat, cut-offs</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {justRaced.length > 0 && (
+      <section class="mt-12">
+        <h2 class="font-serif text-2xl font-extrabold">Just raced? Official results</h2>
+        <p class="mt-1 text-sm text-brand-muted dark:text-brand-muted-dark">Results from the timing company or organiser, for races run in the last month.</p>
+        <ul class="mt-3">
+          {justRaced.map((e) => (
+            <li class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 border-t border-brand-divider py-3 dark:border-brand-divider-dark">
+              <span><a href={urls.entity(e.slug)} class="font-bold hover:underline">{e.name}</a> <span class="text-sm text-brand-muted dark:text-brand-muted-dark">· {e.core_facts.country} · {formatLongDate(e.core_facts.date)}</span></span>
+              <a href={e.results.url} rel="noopener" target="_blank" class="link-accent inline-block py-1 text-sm font-semibold">Official results ({e.results.publisher}) ↗</a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {siteConfig.enabledFeatures?.finishTimes && (
+      <section class="mt-12 flex flex-wrap items-center justify-between gap-4 rounded-3xl bg-brand-text p-7 text-brand-bg dark:bg-brand-surface-offset-dark dark:text-brand-text-dark">
+        <div class="min-w-0 flex-[1_1_360px]">
+          <h2 class="font-serif text-2xl font-extrabold">Ran one of these? See how you stack up.</h2>
+          <p class="mt-1 opacity-80">Your time against every finish we hold across the region, by country, gender and age.</p>
+        </div>
+        <a href={urls.toolsIndex()} class="inline-flex min-h-[48px] items-center rounded-lg bg-brand-primary px-5 font-extrabold text-brand-primary-ink">Open the Lab →</a>
+      </section>
     )}
   </div>
 </BaseLayout>

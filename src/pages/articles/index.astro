@@ -1,7 +1,8 @@
 ---
 import siteConfig from '../../lib/config.js';
 import { urls } from '../../lib/urls.js';
-import { loadArticles, stripMeta, isPublished } from '../../lib/data.js';
+import { loadArticles, loadListicles, stripMeta, isPublished } from '../../lib/data.js';
+import { TRAINING_TOPICS } from '../../lib/articleTopics.js';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import HubCard from '../../components/HubCard.astro';
@@ -17,10 +18,19 @@ const slugifyTopic = (topic) =>
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-+|-+$/g, '');
 
-const articles = loadArticles()
+// "Guides" in the main menu: choosing a race and getting there. Training and
+// health articles live on the Training page (src/lib/articleTopics.js), so an
+// article is listed on exactly one hub.
+const allArticles = loadArticles()
   .map(stripMeta)
   .filter(isPublished)
+  .filter((a) => !TRAINING_TOPICS.includes(a.topic))
   .sort((a, b) => (b.published_at ?? b.last_updated).localeCompare(a.published_at ?? a.last_updated));
+// Country race guides lead the page; the rest are grouped by topic below.
+const isCountryGuide = (a) => /worth the trip|race calendar$/i.test(a.title);
+const countryGuides = allArticles.filter(isCountryGuide).sort((a, b) => a.title.localeCompare(b.title));
+const articles = allArticles.filter((a) => !isCountryGuide(a));
+const lists = siteConfig.enabledFeatures?.listicles ? loadListicles().map(stripMeta).filter(isPublished) : [];
 
 // Grouped by topic (falling back to a single "More Articles" bucket for any
 // article without one, so a missing topic never silently drops an article
@@ -44,29 +54,67 @@ const sections = topicOrder.map((topic) => ({ topic, articles: articlesByTopic.g
 
 const breadcrumbItems = [
   { label: siteConfig.siteName, href: urls.home() },
-  { label: 'Articles' },
+  { label: 'Guides' },
 ];
 
 const jsonLd = [
   buildBreadcrumbListSchema(breadcrumbItems, Astro.site),
-  buildItemListSchema(articles, Astro.site, (a) => urls.article(a.slug), (a) => a.title),
+  buildItemListSchema(allArticles, Astro.site, (a) => urls.article(a.slug), (a) => a.title),
 ].filter(Boolean);
 ---
 
 <BaseLayout
-  title="Articles -- Running & Racing Guides for Southeast Asia"
-  description={`In-depth guides and articles on training, racing, and running culture across Southeast Asia, from ${siteConfig.siteName}.`}
+  title="Guides -- Choosing and Travelling to Races in Southeast Asia"
+  description={`Race guides by country, best-of race lists and race-travel advice for Southeast Asia, from ${siteConfig.siteName}.`}
   canonicalPath={urls.articlesIndex()}
   jsonLd={jsonLd}
 >
-  <div class="mx-auto max-w-3xl px-4 py-10 sm:px-6">
+  <div class="mx-auto max-w-5xl px-4 py-10 sm:px-6">
     <Breadcrumb items={breadcrumbItems} />
-    <h1 class="mt-4 font-serif text-3xl font-semibold sm:text-4xl">Articles</h1>
-    <p class="mt-3 max-w-2xl text-brand-muted dark:text-brand-muted-dark">
-      In-depth guides and articles on training, racing, and running culture across Southeast Asia --
-      from race-day fundamentals to the region's running scene.
+    <h1 class="mt-4 font-serif text-4xl font-black leading-[1.05] sm:text-5xl">Guides</h1>
+    <p class="mt-3 max-w-2xl text-lg">
+      Choosing a race and getting there: guides by country, best-of lists, race travel and the running scene across Southeast Asia.
     </p>
 
+    {countryGuides.length > 0 && (
+      <section class="mt-10">
+        <h2 class="font-serif text-2xl font-extrabold">Race guides by country</h2>
+        <div class="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          {countryGuides.map((a) => (
+            <a href={urls.article(a.slug)} class="rounded-2xl border border-brand-border bg-brand-surface p-5 font-bold transition-colors hover:border-brand-primary dark:border-brand-border-dark dark:bg-brand-surface-dark">{a.title}</a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {lists.length > 0 && (
+      <section class="mt-10">
+        <div class="flex flex-wrap items-baseline justify-between gap-2">
+          <h2 class="font-serif text-2xl font-extrabold">Best-of lists</h2>
+          <a href={urls.listiclesIndex()} class="link-accent text-sm font-semibold">All {lists.length} lists →</a>
+        </div>
+        <ul class="mt-3 grid gap-x-6 sm:grid-cols-2">
+          {lists.map((l) => <li><a href={urls.listicle(l.slug)} class="inline-block py-1.5 font-semibold hover:underline">{l.title}</a></li>)}
+        </ul>
+      </section>
+    )}
+
+    <section class="mt-10 grid gap-4 md:grid-cols-3">
+      {siteConfig.enabledFeatures?.travelAgencies && (
+        <a href={urls.travelIndex()} class="rounded-2xl border border-brand-border bg-brand-surface p-5 transition-colors hover:border-brand-primary md:col-span-2 dark:border-brand-border-dark dark:bg-brand-surface-dark">
+          <span class="block font-serif text-xl font-extrabold">Race travel</span>
+          <span class="mt-1 block text-sm">Agencies that package entries, hotels and transfers for races abroad, with the races each is certified for.</span>
+        </a>
+      )}
+      {siteConfig.enabledFeatures?.cancellations && (
+        <div class="rounded-2xl border border-brand-border bg-brand-surface p-5 dark:border-brand-border-dark dark:bg-brand-surface-dark">
+          <span class="block text-base font-extrabold">Also on {siteConfig.siteName}</span>
+          <a href={urls.cancellations()} class="mt-1 inline-block py-1 text-sm font-semibold hover:underline">Races cancelled or postponed this year</a>
+        </div>
+      )}
+    </section>
+
+    <h2 class="mt-12 font-serif text-2xl font-extrabold">More guides and articles</h2>
     {sections.length > 1 && (
       <nav aria-label="Jump to an article topic" class="mt-6 flex flex-wrap gap-2">
         {sections.map(({ topic }) => (
@@ -82,7 +130,7 @@ const jsonLd = [
 
     {sections.map(({ topic, articles: topicArticles }) => (
       <section id={slugifyTopic(topic)} class="mt-10 scroll-mt-20">
-        <h2 class="text-xl font-semibold">{topic}</h2>
+        <h3 class="text-lg font-bold">{topic}</h3>
         <div class="mt-4 grid gap-4 sm:grid-cols-2">
           {topicArticles.map((article) => (
             <HubCard href={urls.article(article.slug)} label={article.title} description={article.dek} />

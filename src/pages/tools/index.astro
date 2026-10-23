@@ -3,44 +3,203 @@ import siteConfig from '../../lib/config.js';
 import { urls } from '../../lib/urls.js';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
-import HubCard from '../../components/HubCard.astro';
+import RankTool from '../../components/lab/RankTool.astro';
 import { buildBreadcrumbListSchema, buildItemListSchema } from '../../lib/schema-jsonld.js';
 import { TOOLS } from '../../lib/tools.js';
+import { loadFinishTimes, DISTANCE_LABEL } from '../../lib/finishTimes.js';
 
-// Each calculator now lives on its own real, indexable page (see
-// src/pages/tools/*-calculator.astro etc.) instead of one JS-tabbed panel
-// set -- this page is the hub that links out to all of them, so it needs
-// unique content of its own (this intro copy) rather than just being a
-// bare directory listing.
-const breadcrumbItems = [
-  { label: siteConfig.siteName, href: urls.home() },
-  { label: 'Lab' },
-];
+// Lab: the finish-time ranking tool is the headline ("how do you stack up?"),
+// followed by insights computed from every finish we hold and, smaller, the
+// other calculators (each still on its own page under /tools/<slug>/).
+// Every number below comes from src/lib/finishTimes.js at build time.
+const ft = loadFinishTimes();
+const ins = ft.insights;
+const hasLab = Boolean(siteConfig.enabledFeatures?.finishTimes && ins.Half);
 
+const hm = (s) => (s == null ? '–' : `${Math.floor(s / 3600)}:${String(Math.floor(s / 60) % 60).padStart(2, '0')}`);
+const hms = (s) => (s == null ? '–' : s >= 3600 ? `${hm(s)}:${String(s % 60).padStart(2, '0')}` : `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`);
+const n = (x) => x.toLocaleString('en-US');
+const pct = (x) => `${Math.round(x * 100)}%`;
+const place = (c) => (c === 'Philippines' ? 'the Philippines' : c);
+const countriesText = ft.allCountries.length > 1 ? `${ft.allCountries.slice(0, -1).map(place).join(', ')} and ${place(ft.allCountries.at(-1))}` : place(ft.allCountries[0] ?? '');
+
+const half = ins.Half;
+const peak = half ? half.bins.reduce((m, b) => (b.n > m.n ? b : m), half.bins[0]) : null;
+const maxBin = (d) => Math.max(...d.bins.map((b) => b.n));
+const binLabel = (b, d) => (b.open ? `${hm(b.lo)}+` : hm(b.lo));
+const milestoneLabel = { Half: 'two hours', Full: 'four hours', '10K': 'an hour' };
+
+// Age chart: dots on a shared time axis (no truncated bars).
+const ageRows = half?.ages ?? [];
+const ageVals = ageRows.flatMap((a) => [a.men, a.women]).filter(Boolean);
+const axisLo = Math.floor((Math.min(...ageVals) - 300) / 300) * 300;
+const axisHi = Math.ceil((Math.max(...ageVals) + 300) / 300) * 300;
+const xPos = (t) => `${(((t - axisLo) / (axisHi - axisLo)) * 100).toFixed(1)}%`;
+const fastestAge = ageRows.filter((a) => a.men).reduce((m, a) => (a.men < m.men ? a : m), ageRows.find((a) => a.men) ?? {});
+// Every band within a minute of the fastest men's time, as words: "40s and 50s".
+const decade = (b) => (b === 'U20' ? 'teens' : `${b.slice(0, 2)}s`);
+const fastBands = ageRows.filter((a) => a.men && a.men - fastestAge.men <= 60).map((a) => decade(a.band));
+const fastText = fastBands.length > 1 ? `${fastBands.slice(0, -1).join(', ')} and ${fastBands.at(-1)}` : fastBands[0];
+
+const breadcrumbItems = [{ label: siteConfig.siteName, href: urls.home() }, { label: 'Lab' }];
+const title = hasLab ? 'How do you stack up? Race finish times in Southeast Asia | Lab' : 'Lab -- Free Running Calculators';
+const description = hasLab
+  ? `Where does your half marathon, marathon or 10K time rank? Compare it with ${n(ft.totalFinishes)} finishes at ${ft.raceCount} races in ${countriesText}, by gender and age. Plus free running calculators.`
+  : `Free running calculators from ${siteConfig.siteName}: pace, race time predictor, split charts, race countdown, and calories burned. No sign-up, nothing saved.`;
 const jsonLd = [
   buildBreadcrumbListSchema(breadcrumbItems, Astro.site),
   buildItemListSchema(TOOLS, Astro.site, (t) => urls.tool(t.slug), (t) => t.navLabel),
+  hasLab && {
+    '@context': 'https://schema.org',
+    '@type': 'Dataset',
+    name: 'Race finish times in Southeast Asia',
+    description,
+    url: new URL(urls.toolsIndex(), Astro.site).toString(),
+    creator: { '@type': 'Organization', name: siteConfig.siteName, url: Astro.site?.toString() },
+    spatialCoverage: ft.allCountries.join(', '),
+    variableMeasured: 'Finish time (chip time where published), by distance, gender and age group',
+    isAccessibleForFree: true,
+  },
 ].filter(Boolean);
+
+const eyebrow = 'text-xs font-extrabold uppercase tracking-[0.08em] text-brand-muted dark:text-brand-muted-dark';
+const card = 'rounded-2xl border border-brand-border bg-brand-surface p-5 sm:p-6 dark:border-brand-border-dark dark:bg-brand-surface-dark';
 ---
 
-<BaseLayout
-  title="Lab -- Free Running Calculators"
-  description={`Free running calculators from ${siteConfig.siteName}: pace, race time predictor, split charts, race countdown, and calories burned. No sign-up, nothing saved.`}
-  canonicalPath={urls.toolsIndex()}
-  jsonLd={jsonLd}
->
-  <div class="mx-auto max-w-3xl px-4 py-10 sm:px-6">
+<BaseLayout title={title} description={description} canonicalPath={urls.toolsIndex()} jsonLd={jsonLd}>
+  <div class="mx-auto max-w-6xl px-4 py-10 sm:px-6">
     <Breadcrumb items={breadcrumbItems} />
-    <h1 class="mt-4 font-serif text-3xl font-semibold sm:text-4xl">Lab</h1>
-    <p class="mt-3 max-w-2xl text-brand-muted dark:text-brand-muted-dark">
-      Small, fast running calculators -- no sign-up, nothing saved. Pick a tool below.
-    </p>
 
-    <div class="mt-8 grid gap-4 sm:grid-cols-2">
-      {TOOLS.map((tool) => (
-        <HubCard href={urls.tool(tool.slug)} label={tool.navLabel} description={tool.hubDescription} />
-      ))}
-    </div>
+    {hasLab && (
+      <>
+        <div class="mt-4 flex flex-wrap items-start gap-8">
+          <div class="min-w-0 flex-[1_1_320px]">
+            <p class={eyebrow}>Run SEA Lab</p>
+            <h1 class="mt-2 font-serif text-4xl font-black leading-[1.05] sm:text-5xl">How do you stack up?</h1>
+            <p class="mt-4 text-lg">
+              Your race time against {n(ft.totalFinishes)} finishes at {ft.raceCount} races in {countriesText}: across the
+              region, against your country, and against runners of your gender and age.
+            </p>
+            <p class="mt-3 text-sm text-brand-muted dark:text-brand-muted-dark">Built from each race's official results. We keep finish times only, never names.</p>
+          </div>
+          <div class="min-w-0 flex-[1.4_1_440px]"><RankTool /></div>
+        </div>
+
+        <section class="mt-16">
+          <p class={eyebrow}>Insights</p>
+          <h2 class="mt-1 font-serif text-3xl font-black">What {n(half.finishes)} half marathons tell us</h2>
+
+          <div class="mt-6 flex flex-wrap gap-4">
+            <figure class={`min-w-0 flex-[1.6_1_520px] ${card}`}>
+              <p class="font-serif text-xl font-extrabold">Only {pct(half.underMilestone)} break two hours</p>
+              <p class="mt-1 text-sm text-brand-muted dark:text-brand-muted-dark">
+                Half marathon finishes by time, in 10-minute bands. The busiest band is {hm(peak.lo)} to {hm(peak.lo + 600)}.
+              </p>
+              <div class="mt-5 flex h-48 items-end gap-[3px]" role="img" aria-label={`Histogram of ${n(half.finishes)} half marathon finish times. ${pct(half.underMilestone)} finish under two hours.`}>
+                {half.bins.map((b) => (
+                  <div class="flex min-w-0 flex-1 flex-col items-center justify-end gap-1">
+                    <div class={`w-full rounded-t ${b.lo < half.milestone ? 'bg-brand-primary' : 'bg-brand-text dark:bg-brand-text-dark'}`} style={`height:${Math.max(2, Math.round((b.n / maxBin(half)) * 170))}px`} title={`${binLabel(b, half)}: ${n(b.n)}`}></div>
+                  </div>
+                ))}
+              </div>
+              <div class="mt-1 flex justify-between text-[11px] text-brand-muted dark:text-brand-muted-dark"><span>{hm(half.bins[0].lo)}</span><span>2:00</span><span>3:00</span><span>{binLabel(half.bins.at(-1), half)}</span></div>
+              <p class="mt-3 text-xs text-brand-muted dark:text-brand-muted-dark"><span class="mr-1.5 inline-block h-2.5 w-2.5 rounded-sm bg-brand-primary align-[-1px]"></span>Under two hours</p>
+            </figure>
+
+            <div class={`min-w-0 flex-[1_1_300px] rounded-2xl bg-brand-text p-5 text-brand-bg sm:p-6 dark:bg-brand-surface-offset-dark dark:text-brand-text-dark`}>
+              <p class="font-serif text-xl font-extrabold">What it takes</p>
+              <p class="mt-1 text-sm opacity-80">The half marathon time you'd need to finish in the fastest tenth, or the fastest 1 in 100.</p>
+              <table class="mt-4 w-full text-sm tabular-nums">
+                <thead><tr class="text-left text-xs uppercase tracking-wide opacity-70"><th class="py-1 font-semibold"></th><th class="py-1 font-semibold">Men</th><th class="py-1 font-semibold">Women</th></tr></thead>
+                <tbody>
+                  <tr class="border-t border-white/15"><td class="py-2">Top 1%</td><td class="py-2 font-bold text-brand-primary">{hm(half.men.top1)}</td><td class="py-2 font-bold text-brand-primary">{hm(half.women.top1)}</td></tr>
+                  <tr class="border-t border-white/15"><td class="py-2">Top 10%</td><td class="py-2 font-bold">{hm(half.men.top10)}</td><td class="py-2 font-bold">{hm(half.women.top10)}</td></tr>
+                  <tr class="border-t border-white/15"><td class="py-2">Typical</td><td class="py-2">{hm(half.men.median)}</td><td class="py-2">{hm(half.women.median)}</td></tr>
+                </tbody>
+              </table>
+              <p class="mt-3 text-sm opacity-80">Women are {pct(half.womenShare)} of half marathon finishers.</p>
+            </div>
+          </div>
+
+          {ageRows.length > 0 && (
+            <figure class={`mt-4 ${card}`}>
+              <p class="font-serif text-xl font-extrabold">Runners in their {fastText} run the fastest halves</p>
+              <p class="mt-1 text-sm text-brand-muted dark:text-brand-muted-dark">
+                Typical half marathon time by age. Older runners who still race tend to be the committed ones; younger fields include more first-timers.
+              </p>
+              <div class="mt-4 flex flex-wrap gap-4 text-xs">
+                <span><span class="mr-1.5 inline-block h-3 w-3 rounded-full bg-brand-text align-[-2px] dark:bg-brand-text-dark"></span>Men</span>
+                <span><span class="mr-1.5 inline-block h-3 w-3 rounded-sm bg-brand-success align-[-2px] dark:bg-brand-success-dark"></span>Women</span>
+                <span class="text-brand-muted dark:text-brand-muted-dark">Further left is faster · axis {hm(axisLo)} to {hm(axisHi)}</span>
+              </div>
+              <div class="mt-4 space-y-2.5" role="img" aria-label={`Typical half marathon time by age group for men and women. Fastest: men aged ${fastestAge.band}, ${hm(fastestAge.men)}.`}>
+                {ageRows.map((a) => (
+                  <div class="flex items-center gap-3">
+                    <span class="w-16 shrink-0 text-sm font-semibold">{a.band === 'U20' ? 'Under 20' : a.band}</span>
+                    <div class="relative h-7 min-w-0 flex-1 border-b border-brand-divider dark:border-brand-divider-dark">
+                      {a.men && <span class="absolute top-1.5 h-4 w-4 -translate-x-1/2 rounded-full bg-brand-text dark:bg-brand-text-dark" style={`left:${xPos(a.men)}`} title={`Men ${hm(a.men)}`}></span>}
+                      {a.women && <span class="absolute top-1.5 h-4 w-4 -translate-x-1/2 rounded bg-brand-success dark:bg-brand-success-dark" style={`left:${xPos(a.women)}`} title={`Women ${hm(a.women)}`}></span>}
+                    </div>
+                    <span class="w-28 shrink-0 text-right text-xs tabular-nums sm:text-sm">M {hm(a.men)} · W {hm(a.women)}</span>
+                  </div>
+                ))}
+              </div>
+            </figure>
+          )}
+
+          <div class="mt-4 grid gap-4 md:grid-cols-2">
+            {['Full', '10K'].filter((k) => ins[k]).map((k) => {
+              const d = ins[k];
+              const mx = maxBin(d);
+              return (
+                <figure class={card}>
+                  <p class="font-serif text-xl font-extrabold">{DISTANCE_LABEL[k]}: {pct(d.underMilestone)} finish under {milestoneLabel[k]}</p>
+                  <p class="mt-1 text-sm text-brand-muted dark:text-brand-muted-dark">{n(d.finishes)} finishes at {d.races} races. Typical time {hm(d.median)}; women are {pct(d.womenShare)} of finishers.</p>
+                  <div class="mt-4 flex h-28 items-end gap-[3px]" role="img" aria-label={`Histogram of ${DISTANCE_LABEL[k].toLowerCase()} finish times`}>
+                    {d.bins.map((b) => (
+                      <div class="flex min-w-0 flex-1 flex-col justify-end"><div class={`w-full rounded-t ${b.lo < d.milestone ? 'bg-brand-primary' : 'bg-brand-text dark:bg-brand-text-dark'}`} style={`height:${Math.max(2, Math.round((b.n / mx) * 100))}px`} title={`${binLabel(b, d)}: ${n(b.n)}`}></div></div>
+                    ))}
+                  </div>
+                  <div class="mt-1 flex justify-between text-[11px] text-brand-muted dark:text-brand-muted-dark"><span>{hm(d.bins[0].lo)}</span><span>{binLabel(d.bins.at(-1), d)}</span></div>
+                  <dl class="mt-4 grid grid-cols-2 gap-3 text-sm">
+                    <div class="rounded-lg bg-brand-surface-offset p-3 dark:bg-brand-surface-offset-dark"><dt class="text-xs text-brand-muted dark:text-brand-muted-dark">Top 10%, men</dt><dd class="font-serif text-lg font-black">{hms(d.men.top10)}</dd></div>
+                    <div class="rounded-lg bg-brand-surface-offset p-3 dark:bg-brand-surface-offset-dark"><dt class="text-xs text-brand-muted dark:text-brand-muted-dark">Top 10%, women</dt><dd class="font-serif text-lg font-black">{hms(d.women.top10)}</dd></div>
+                  </dl>
+                </figure>
+              );
+            })}
+          </div>
+        </section>
+      </>
+    )}
+
+    {!hasLab && <h1 class="mt-4 font-serif text-3xl font-semibold sm:text-4xl">Lab</h1>}
+
+    <section class={hasLab ? 'mt-16 border-t border-brand-divider pt-8 dark:border-brand-divider-dark' : 'mt-6'}>
+      <h2 class={hasLab ? 'text-base font-bold text-brand-muted dark:text-brand-muted-dark' : 'sr-only'}>More running tools</h2>
+      <div class="mt-3 grid gap-2.5 sm:grid-cols-2 lg:grid-cols-4">
+        {TOOLS.map((tool) => (
+          <a href={urls.tool(tool.slug)} class="flex min-h-[44px] items-center rounded-lg border border-brand-border bg-brand-surface px-4 py-3 text-sm font-semibold hover:border-brand-primary dark:border-brand-border-dark dark:bg-brand-surface-dark">{tool.navLabel}</a>
+        ))}
+      </div>
+    </section>
+
+    {hasLab && (
+      <section class="mt-12 max-w-3xl">
+        <h2 class="text-lg font-bold">How we measure it</h2>
+        <ul class="mt-3 list-disc space-y-2 pl-5 text-sm">
+          <li>Times come from each race's official results page, published by the timing company or organiser. We keep only the finish time, distance, gender and age group; we never store names or bib numbers.</li>
+          <li>Chip time where the results publish it, otherwise gun time. Standard distances only (10K, half marathon, marathon), and only where at least {ft.rules.MIN_FINISHERS} runners finished that distance at that race.</li>
+          <li>Races from the last 12 months. Events with an entry standard, such as qualifier finals, are left out; open races in the same series stay in. We count finishes, not runners.</li>
+          <li>A country is compared separately once we hold at least {ft.rules.MIN_COUNTRY_RACES} of its races at that distance; every race counts towards the region-wide figures.</li>
+          <li>The age-graded score is an approximate estimate from our <a href={urls.tool('age-graded-calculator')} class="link-accent">age-graded calculator</a>, not the official World Masters Athletics tables.</li>
+        </ul>
+        <p class="mt-4 text-sm text-brand-muted dark:text-brand-muted-dark">
+          Journalists and bloggers are welcome to use these figures; please credit {siteConfig.siteName} and link to this page.
+          Run a timing company or race and want your results included? <a href={urls.contact()} class="link-accent">Get in touch</a>.
+        </p>
+      </section>
+    )}
   </div>
 </BaseLayout>
 
