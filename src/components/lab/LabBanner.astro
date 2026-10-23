@@ -1,0 +1,39 @@
+---
+import siteConfig from '../../lib/config.js';
+import { urls } from '../../lib/urls.js';
+import { loadFinishTimes } from '../../lib/finishTimes.js';
+
+// Homepage pointer to the Lab's ranking tool: a slim dark band in the share
+// card's ink-and-lime look, so the two read as one feature. The bars are a
+// decorative finish-time curve (lime = the runners you finished ahead of).
+const ft = siteConfig.enabledFeatures?.finishTimes ? loadFinishTimes() : null;
+const bars = Array.from({ length: 22 }, (_, i) => {
+  const x = (i + 0.5) / 22;
+  return Math.pow(x, 1.6) * Math.exp(-x * 4.4);
+});
+const top = Math.max(...bars);
+---
+
+{ft && ft.totalFinishes > 0 && (
+  <a
+    href={urls.toolsIndex()}
+    class="group flex flex-wrap items-center gap-x-8 gap-y-4 overflow-hidden rounded-2xl bg-[#15170f] px-5 py-5 text-[#eceee2] sm:px-7"
+  >
+    <div class="min-w-0 flex-[1_1_300px]">
+      <p class="text-[11px] font-bold uppercase tracking-[0.16em] text-[#c8ff33]">New · Run SEA Lab</p>
+      <p class="mt-1.5 font-serif text-2xl font-black leading-tight sm:text-[1.7rem]">How does your race time stack up?</p>
+      <p class="mt-1 text-sm text-[#a2a493]">
+        Rank your half, marathon or 10K against {ft.totalFinishes.toLocaleString('en-US')} finishes across Southeast Asia, by gender and age.
+      </p>
+    </div>
+    <svg viewBox="0 0 132 48" class="hidden h-12 w-32 shrink-0 sm:block" aria-hidden="true">
+      {bars.map((v, i) => {
+        const h = Math.max(2, (v / top) * 46);
+        return <rect x={i * 6} y={48 - h} width="4.2" height={h} rx="1" fill={i >= 9 ? '#c8ff33' : '#3a3c2c'} />;
+      })}
+    </svg>
+    <span class="inline-flex min-h-[44px] shrink-0 items-center rounded-lg bg-[#c8ff33] px-5 text-sm font-extrabold text-[#15170f] transition-transform group-hover:translate-x-0.5">
+      Rank my time →
+    </span>
+  </a>
+)}

@@ -47,17 +47,16 @@ const regionLabelPlural = (siteConfig.regionLabelPlural ?? `${siteConfig.regionL
 {endpoint && (
   <section
     id="subscribe"
-    class="scroll-mt-28 rounded-xl border border-brand-border bg-brand-surface-offset p-5 dark:border-brand-border-dark dark:bg-brand-surface-offset-dark sm:p-6 lg:scroll-mt-20"
+    class="scroll-mt-28 rounded-xl border border-brand-border bg-brand-surface-offset px-4 py-3.5 dark:border-brand-border-dark dark:bg-brand-surface-offset-dark sm:px-5 lg:scroll-mt-20"
   >
-    <div class="flex flex-col gap-4 lg:flex-row lg:items-start lg:gap-10">
+    <div class="flex flex-col gap-3 lg:flex-row lg:items-center lg:gap-8">
       <div class="min-w-0 lg:flex-1">
-        <h2 class="font-serif text-lg font-semibold sm:text-xl">
+        <h2 class="text-base font-bold">
           New {siteConfig.entityLabelPlural} in your inbox
         </h2>
-        <p class="mt-1.5 text-sm leading-relaxed text-brand-muted dark:text-brand-muted-dark">
-          An email when we add {siteConfig.entityLabelPlural} or publish an article. No spam,
-          unsubscribe any time -- see our
-          {' '}<a href={urls.privacy()} class="link-accent">privacy policy</a>.
+        <p class="mt-0.5 text-xs leading-relaxed text-brand-muted dark:text-brand-muted-dark">
+          An email when we add {siteConfig.entityLabelPlural} or articles. No spam, unsubscribe any time
+          (<a href={urls.privacy()} class="link-accent">privacy</a>).
         </p>
       </div>
 
@@ -78,12 +77,12 @@ const regionLabelPlural = (siteConfig.regionLabelPlural ?? `${siteConfig.regionL
             required
             autocomplete="email"
             placeholder="you@example.com"
-            class="min-w-0 flex-1 rounded-lg border-[1.5px] border-brand-border bg-brand-surface px-3.5 py-3 text-base focus:border-brand-primary focus:outline-none focus:ring-4 focus:ring-brand-primary-highlight dark:border-brand-border-dark dark:bg-brand-surface-dark dark:focus:ring-brand-primary-highlight-dark"
+            class="min-h-[44px] min-w-0 flex-1 rounded-lg border-[1.5px] border-brand-border bg-brand-surface px-3.5 py-2 text-base focus:border-brand-primary focus:outline-none focus:ring-4 focus:ring-brand-primary-highlight dark:border-brand-border-dark dark:bg-brand-surface-dark dark:focus:ring-brand-primary-highlight-dark"
           />
           <button
             type="submit"
             id="subscribe-submit"
-            class="shrink-0 rounded-lg bg-brand-primary px-6 py-3 font-bold text-brand-primary-ink transition-colors hover:bg-brand-primary-hover disabled:opacity-60 dark:text-brand-primary-ink-dark dark:hover:bg-brand-primary-hover-dark"
+            class="min-h-[44px] shrink-0 rounded-lg bg-brand-primary px-5 py-2 font-bold text-brand-primary-ink transition-colors hover:bg-brand-primary-hover disabled:opacity-60 dark:text-brand-primary-ink-dark dark:hover:bg-brand-primary-hover-dark"
           >
             Subscribe
           </button>
@@ -110,7 +109,7 @@ const regionLabelPlural = (siteConfig.regionLabelPlural ?? `${siteConfig.regionL
           16px box.
         */}
         {regions.length > 0 && (
-          <details class="mt-3">
+          <details class="mt-1">
             <summary class="inline-flex min-h-11 cursor-pointer items-center text-sm font-semibold underline-offset-2 hover:underline">
               Only certain {regionLabelPlural}?
             </summary>

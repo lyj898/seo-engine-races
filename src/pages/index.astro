@@ -26,6 +26,7 @@ import HeroBib from '../components/HeroBib.astro';
 import HeroSkyline from '../components/HeroSkyline.astro';
 import FAQSection from '../components/FAQSection.astro';
 import MailingListSignup from '../components/MailingListSignup.astro';
+import LabBanner from '../components/lab/LabBanner.astro';
 import { buildWebsiteSchema, buildFaqPageSchema } from '../lib/schema-jsonld.js';
 
 const allPublished = loadEntities().map(stripMeta).filter(isPublished);
@@ -261,6 +262,9 @@ const jsonLd = [
         Countries offered are the same top-level ones the region grid below
         lists, so the form can't offer updates for a country we don't cover. */}
     <section class="mt-8">
+      <LabBanner />
+    </section>
+    <section class="mt-4">
       <MailingListSignup regions={topLevelRegions} />
     </section>
 

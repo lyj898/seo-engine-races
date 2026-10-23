@@ -8,6 +8,7 @@ import LastUpdated from '../../components/LastUpdated.astro';
 import { buildBreadcrumbListSchema, buildItemListSchema } from '../../lib/schema-jsonld.js';
 import { TOOLS } from '../../lib/tools.js';
 import { loadFinishTimes, DISTANCE_LABEL } from '../../lib/finishTimes.js';
+import { DISTANCE_SLUG } from '../../lib/labTiers.js';
 
 // Lab: the finish-time ranking tool is the headline ("how do you stack up?"),
 // followed by insights computed from every finish we hold and, smaller, the
@@ -24,23 +25,41 @@ const pct = (x) => `${Math.round(x * 100)}%`;
 const place = (c) => (c === 'Philippines' ? 'the Philippines' : c);
 const countriesText = ft.allCountries.length > 1 ? `${ft.allCountries.slice(0, -1).map(place).join(', ')} and ${place(ft.allCountries.at(-1))}` : place(ft.allCountries[0] ?? '');
 
-const half = ins.Half;
-const peak = half ? half.bins.reduce((m, b) => (b.n > m.n ? b : m), half.bins[0]) : null;
-const maxBin = (d) => Math.max(...d.bins.map((b) => b.n));
-const binLabel = (b, d) => (b.open ? `${hm(b.lo)}+` : hm(b.lo));
+// One insights panel per distance (tabs: half, marathon, 10K), each built the
+// same way from ft.insights[k].
 const milestoneLabel = { Half: 'two hours', Full: 'four hours', '10K': 'an hour' };
-
-// Age chart: dots on a shared time axis (no truncated bars).
-const ageRows = half?.ages ?? [];
-const ageVals = ageRows.flatMap((a) => [a.men, a.women]).filter(Boolean);
-const axisLo = Math.floor((Math.min(...ageVals) - 300) / 300) * 300;
-const axisHi = Math.ceil((Math.max(...ageVals) + 300) / 300) * 300;
-const xPos = (t) => `${(((t - axisLo) / (axisHi - axisLo)) * 100).toFixed(1)}%`;
-const fastestAge = ageRows.filter((a) => a.men).reduce((m, a) => (a.men < m.men ? a : m), ageRows.find((a) => a.men) ?? {});
-// Every band within a minute of the fastest men's time, as words: "40s and 50s".
+const plural = { Half: 'halves', Full: 'marathons', '10K': '10Ks' };
 const decade = (b) => (b === 'U20' ? 'teens' : `${b.slice(0, 2)}s`);
-const fastBands = ageRows.filter((a) => a.men && a.men - fastestAge.men <= 60).map((a) => decade(a.band));
-const fastText = fastBands.length > 1 ? `${fastBands.slice(0, -1).join(', ')} and ${fastBands.at(-1)}` : fastBands[0];
+const listWords = (xs) => (xs.length > 1 ? `${xs.slice(0, -1).join(', ')} and ${xs.at(-1)}` : xs[0] ?? '');
+const views = ['Half', 'Full', '10K'].filter((k) => ins[k]).map((k) => {
+  const d = ins[k];
+  // Clock: h:mm for the half and full, m:ss for the 10K.
+  const t = (s) => (s == null ? '–' : k === '10K' ? hms(Math.round(s)) : hm(s));
+  const peak = d.bins.reduce((m, b) => (b.n > m.n ? b : m), d.bins[0]);
+  const step = d.bins[1].lo - d.bins[0].lo;
+  const max = Math.max(...d.bins.map((b) => b.n));
+  const under = d.underMilestone;
+  const headline = under < 0.5 ? `Only ${pct(under)} break ${milestoneLabel[k]}` : `${pct(under)} finish under ${milestoneLabel[k]}`;
+  const ages = d.ages ?? [];
+  const vals = ages.flatMap((a) => [a.men, a.women]).filter(Boolean);
+  const pad = k === '10K' ? 120 : 300;
+  const lo = Math.floor((Math.min(...vals) - pad) / pad) * pad;
+  const hi = Math.ceil((Math.max(...vals) + pad) / pad) * pad;
+  const fastest = ages.filter((a) => a.men).reduce((m, a) => (a.men < m.men ? a : m), ages.find((a) => a.men) ?? {});
+  const fastBands = ages.filter((a) => a.men && a.men - fastest.men <= (k === '10K' ? 30 : 60)).map((a) => decade(a.band));
+  const gap = d.women.median - d.men.median;
+  return {
+    k, d, t, peak, step, max, headline, ages,
+    xPos: (s) => `${(((s - lo) / (hi - lo)) * 100).toFixed(1)}%`,
+    axis: [t(lo), t(hi)],
+    ageHeadline: fastBands.length ? `Runners in their ${listWords(fastBands)} run the fastest ${plural[k]}` : `${DISTANCE_LABEL[k]} times by age`,
+    gapText: `${Math.round(Math.abs(gap) / 60)} min`,
+    womenFaster: gap < 0,
+    label: DISTANCE_LABEL[k],
+    lower: k === '10K' ? '10K' : DISTANCE_LABEL[k].toLowerCase(),
+  };
+});
+const totalInsightFinishes = views.reduce((s, v) => s + v.d.finishes, 0);
 
 const breadcrumbItems = [{ label: siteConfig.siteName, href: urls.home() }, { label: 'Lab' }];
 const title = hasLab ? 'How do you stack up? Race finish times in Southeast Asia | Lab' : 'Lab -- Free Running Calculators';
@@ -87,92 +106,107 @@ const card = 'rounded-2xl border border-brand-border bg-brand-surface p-5 sm:p-6
           <div class="min-w-0 flex-[1.4_1_440px]"><RankTool /></div>
         </div>
 
-        <section class="mt-16">
+        <section class="mt-16" id="insights">
           <p class={eyebrow}>Insights</p>
-          <h2 class="mt-1 font-serif text-3xl font-black">What {n(half.finishes)} half marathon finishes tell us</h2>
-          <p class="mt-1 text-brand-muted dark:text-brand-muted-dark">From the latest edition of {half.races} races across Southeast Asia.</p>
+          <h2 class="mt-1 font-serif text-3xl font-black">What {n(totalInsightFinishes)} race finishes tell us</h2>
+          <p class="mt-1 text-brand-muted dark:text-brand-muted-dark">From the latest edition of each race we hold across Southeast Asia. Pick a distance.</p>
 
-          <div class="mt-6 flex flex-wrap gap-4">
-            <figure class={`min-w-0 flex-[1.6_1_520px] ${card}`}>
-              <p class="font-serif text-xl font-extrabold">Only {pct(half.underMilestone)} break two hours</p>
-              <p class="mt-1 text-sm text-brand-muted dark:text-brand-muted-dark">
-                Half marathon finishes by time, in 10-minute bands. The busiest band is {hm(peak.lo)} to {hm(peak.lo + 600)}.
-              </p>
-              <div class="mt-5 flex h-48 items-end gap-[3px]" role="img" aria-label={`Histogram of ${n(half.finishes)} half marathon finish times. ${pct(half.underMilestone)} finish under two hours.`}>
-                {half.bins.map((b) => (
-                  <div class="flex min-w-0 flex-1 flex-col items-center justify-end gap-1">
-                    <div class={`w-full rounded-t ${b.lo < half.milestone ? 'bg-brand-primary' : 'bg-brand-text dark:bg-brand-text-dark'}`} style={`height:${Math.max(2, Math.round((b.n / maxBin(half)) * 170))}px`} title={`${binLabel(b, half)}: ${n(b.n)}`}></div>
-                  </div>
-                ))}
-              </div>
-              <div class="mt-1 flex justify-between text-[11px] text-brand-muted dark:text-brand-muted-dark"><span>{hm(half.bins[0].lo)}</span><span>2:00</span><span>3:00</span><span>{binLabel(half.bins.at(-1), half)}</span></div>
-              <p class="mt-3 text-xs text-brand-muted dark:text-brand-muted-dark"><span class="mr-1.5 inline-block h-2.5 w-2.5 rounded-sm bg-brand-primary align-[-1px]"></span>Under two hours</p>
-            </figure>
-
-            <div class={`min-w-0 flex-[1_1_300px] rounded-2xl bg-brand-text p-5 text-brand-bg sm:p-6 dark:bg-brand-surface-offset-dark dark:text-brand-text-dark`}>
-              <p class="font-serif text-xl font-extrabold">What it takes</p>
-              <p class="mt-1 text-sm opacity-80">The half marathon time you'd need to finish in the fastest tenth, or the fastest 1 in 100.</p>
-              <table class="mt-4 w-full text-sm tabular-nums">
-                <thead><tr class="text-left text-xs uppercase tracking-wide opacity-70"><th class="py-1 font-semibold"></th><th class="py-1 font-semibold">Men</th><th class="py-1 font-semibold">Women</th></tr></thead>
-                <tbody>
-                  <tr class="border-t border-white/15"><td class="py-2">Top 1%</td><td class="py-2 font-bold text-brand-primary">{hm(half.men.top1)}</td><td class="py-2 font-bold text-brand-primary">{hm(half.women.top1)}</td></tr>
-                  <tr class="border-t border-white/15"><td class="py-2">Top 10%</td><td class="py-2 font-bold">{hm(half.men.top10)}</td><td class="py-2 font-bold">{hm(half.women.top10)}</td></tr>
-                  <tr class="border-t border-white/15"><td class="py-2">Typical</td><td class="py-2">{hm(half.men.median)}</td><td class="py-2">{hm(half.women.median)}</td></tr>
-                </tbody>
-              </table>
-              <p class="mt-3 text-sm opacity-80">Women are {pct(half.womenShare)} of half marathon finishers.</p>
-            </div>
+          <div class="mt-5 flex flex-wrap gap-2" role="tablist" aria-label="Distance">
+            {views.map((v, i) => (
+              <button type="button" role="tab" id={`ins-tab-${v.k}`} aria-controls={`ins-${v.k}`} aria-selected={i === 0 ? 'true' : 'false'} data-ins-tab={v.k}
+                class="inline-flex min-h-[44px] items-center rounded-full border border-brand-border px-5 text-sm font-bold transition-colors aria-selected:border-brand-text aria-selected:bg-brand-text aria-selected:text-brand-bg dark:border-brand-border-dark dark:aria-selected:border-brand-text-dark dark:aria-selected:bg-brand-text-dark dark:aria-selected:text-brand-bg-dark">
+                {v.label}
+              </button>
+            ))}
           </div>
 
-          {ageRows.length > 0 && (
-            <figure class={`mt-4 ${card}`}>
-              <p class="font-serif text-xl font-extrabold">Runners in their {fastText} run the fastest halves</p>
-              <p class="mt-1 text-sm text-brand-muted dark:text-brand-muted-dark">
-                Typical half marathon time by age. Older runners who still race tend to be the committed ones; younger fields include more first-timers.
-              </p>
-              <div class="mt-4 flex flex-wrap gap-4 text-xs">
-                <span><span class="mr-1.5 inline-block h-3 w-3 rounded-full bg-brand-text align-[-2px] dark:bg-brand-text-dark"></span>Men</span>
-                <span><span class="mr-1.5 inline-block h-3 w-3 rounded-sm bg-brand-success align-[-2px] dark:bg-brand-success-dark"></span>Women</span>
-                <span class="text-brand-muted dark:text-brand-muted-dark">Further left is faster · axis {hm(axisLo)} to {hm(axisHi)}</span>
-              </div>
-              <div class="mt-4 space-y-2.5" role="img" aria-label={`Typical half marathon time by age group for men and women. Fastest: men aged ${fastestAge.band}, ${hm(fastestAge.men)}.`}>
-                {ageRows.map((a) => (
-                  <div class="flex items-center gap-3">
-                    <span class="w-16 shrink-0 text-sm font-semibold">{a.band === 'U20' ? 'Under 20' : a.band}</span>
-                    <div class="relative h-7 min-w-0 flex-1 border-b border-brand-divider dark:border-brand-divider-dark">
-                      {a.men && <span class="absolute top-1.5 h-4 w-4 -translate-x-1/2 rounded-full bg-brand-text dark:bg-brand-text-dark" style={`left:${xPos(a.men)}`} title={`Men ${hm(a.men)}`}></span>}
-                      {a.women && <span class="absolute top-1.5 h-4 w-4 -translate-x-1/2 rounded bg-brand-success dark:bg-brand-success-dark" style={`left:${xPos(a.women)}`} title={`Women ${hm(a.women)}`}></span>}
-                    </div>
-                    <span class="w-28 shrink-0 text-right text-xs tabular-nums sm:text-sm">M {hm(a.men)} · W {hm(a.women)}</span>
-                  </div>
-                ))}
-              </div>
-            </figure>
-          )}
-
-          <div class="mt-4 grid gap-4 md:grid-cols-2">
-            {['Full', '10K'].filter((k) => ins[k]).map((k) => {
-              const d = ins[k];
-              const mx = maxBin(d);
-              return (
-                <figure class={card}>
-                  <p class="font-serif text-xl font-extrabold">{DISTANCE_LABEL[k]}: {pct(d.underMilestone)} finish under {milestoneLabel[k]}</p>
-                  <p class="mt-1 text-sm text-brand-muted dark:text-brand-muted-dark">{n(d.finishes)} finishes at {d.races} races. Typical time {hm(d.median)}; women are {pct(d.womenShare)} of finishers.</p>
-                  <div class="mt-4 flex h-28 items-end gap-[3px]" role="img" aria-label={`Histogram of ${DISTANCE_LABEL[k].toLowerCase()} finish times`}>
-                    {d.bins.map((b) => (
-                      <div class="flex min-w-0 flex-1 flex-col justify-end"><div class={`w-full rounded-t ${b.lo < d.milestone ? 'bg-brand-primary' : 'bg-brand-text dark:bg-brand-text-dark'}`} style={`height:${Math.max(2, Math.round((b.n / mx) * 100))}px`} title={`${binLabel(b, d)}: ${n(b.n)}`}></div></div>
+          {views.map((v, i) => (
+            <div id={`ins-${v.k}`} role="tabpanel" aria-labelledby={`ins-tab-${v.k}`} data-ins-panel={v.k} class={i === 0 ? '' : 'hidden'}>
+              <p class="mt-5 text-sm text-brand-muted dark:text-brand-muted-dark">{n(v.d.finishes)} {v.lower} finishes at {v.d.races} races.</p>
+              <div class="mt-3 flex flex-wrap gap-4">
+                <figure class={`min-w-0 flex-[1.6_1_520px] ${card}`}>
+                  <p class="font-serif text-xl font-extrabold">{v.headline}</p>
+                  <p class="mt-1 text-sm text-brand-muted dark:text-brand-muted-dark">
+                    {v.label} finishes by time, in {v.step / 60}-minute bands. The busiest band is {v.t(v.peak.lo)} to {v.t(v.peak.lo + v.step)}.
+                  </p>
+                  <div class="mt-5 flex h-44 items-end gap-[3px]" role="img" aria-label={`Histogram of ${n(v.d.finishes)} ${v.lower} finish times. ${v.headline}.`}>
+                    {v.d.bins.map((b) => (
+                      <div class="flex min-w-0 flex-1 flex-col justify-end">
+                        <div class={`w-full rounded-t ${b.lo < v.d.milestone ? 'bg-brand-primary' : 'bg-brand-text dark:bg-brand-text-dark'}`} style={`height:${Math.max(2, Math.round((b.n / v.max) * 160))}px`} title={`${v.t(b.lo)}${b.open ? '+' : ''}: ${n(b.n)}`}></div>
+                      </div>
                     ))}
                   </div>
-                  <div class="mt-1 flex justify-between text-[11px] text-brand-muted dark:text-brand-muted-dark"><span>{hm(d.bins[0].lo)}</span><span>{binLabel(d.bins.at(-1), d)}</span></div>
-                  <dl class="mt-4 grid grid-cols-2 gap-3 text-sm">
-                    <div class="rounded-lg bg-brand-surface-offset p-3 dark:bg-brand-surface-offset-dark"><dt class="text-xs text-brand-muted dark:text-brand-muted-dark">Top 10%, men</dt><dd class="font-serif text-lg font-black">{hms(d.men.top10)}</dd></div>
-                    <div class="rounded-lg bg-brand-surface-offset p-3 dark:bg-brand-surface-offset-dark"><dt class="text-xs text-brand-muted dark:text-brand-muted-dark">Top 10%, women</dt><dd class="font-serif text-lg font-black">{hms(d.women.top10)}</dd></div>
-                  </dl>
+                  <div class="mt-1 flex justify-between text-[11px] text-brand-muted dark:text-brand-muted-dark"><span>{v.t(v.d.bins[0].lo)}</span><span>{v.t(v.d.milestone)}</span><span>{v.t(v.d.bins.at(-1).lo)}+</span></div>
+                  <p class="mt-3 text-xs text-brand-muted dark:text-brand-muted-dark"><span class="mr-1.5 inline-block h-2.5 w-2.5 rounded-sm bg-brand-primary align-[-1px]"></span>Under {v.k === '10K' ? 'an hour' : milestoneLabel[v.k]}</p>
                 </figure>
-              );
-            })}
-          </div>
+
+                <div class="min-w-0 flex-[1_1_300px] rounded-2xl bg-brand-text p-5 text-brand-bg sm:p-6 dark:bg-brand-surface-offset-dark dark:text-brand-text-dark">
+                  <p class="font-serif text-xl font-extrabold">What it takes</p>
+                  <p class="mt-1 text-sm opacity-80">The {v.lower} time you'd need to finish in the fastest tenth, or the fastest 1 in 100.</p>
+                  <table class="mt-4 w-full text-sm tabular-nums">
+                    <thead><tr class="text-left text-xs uppercase tracking-wide opacity-70"><th class="py-1 font-semibold"></th><th class="py-1 font-semibold">Men</th><th class="py-1 font-semibold">Women</th></tr></thead>
+                    <tbody>
+                      <tr class="border-t border-white/15"><td class="py-2">Top 1%</td><td class="py-2 font-bold text-brand-primary">{v.t(v.d.men.top1)}</td><td class="py-2 font-bold text-brand-primary">{v.t(v.d.women.top1)}</td></tr>
+                      <tr class="border-t border-white/15"><td class="py-2">Top 10%</td><td class="py-2 font-bold">{v.t(v.d.men.top10)}</td><td class="py-2 font-bold">{v.t(v.d.women.top10)}</td></tr>
+                      <tr class="border-t border-white/15"><td class="py-2">Typical</td><td class="py-2">{v.t(v.d.men.median)}</td><td class="py-2">{v.t(v.d.women.median)}</td></tr>
+                    </tbody>
+                  </table>
+                  <dl class="mt-4 grid grid-cols-2 gap-3 border-t border-white/15 pt-4">
+                    <div><dt class="text-xs opacity-70">Women in the field</dt><dd class="font-serif text-2xl font-black">{pct(v.d.womenShare)}</dd></div>
+                    <div><dt class="text-xs opacity-70">Typical gap, {v.womenFaster ? 'women faster' : 'men faster'}</dt><dd class="font-serif text-2xl font-black">{v.gapText}</dd></div>
+                  </dl>
+                </div>
+              </div>
+
+              {v.ages.length > 0 && (
+                <figure class={`mt-4 ${card}`}>
+                  <p class="font-serif text-xl font-extrabold">{v.ageHeadline}</p>
+                  <p class="mt-1 text-sm text-brand-muted dark:text-brand-muted-dark">
+                    Typical {v.lower} time by age. Older runners who still race tend to be the committed ones; younger fields include more first-timers.
+                  </p>
+                  <div class="mt-4 flex flex-wrap gap-4 text-xs">
+                    <span><span class="mr-1.5 inline-block h-3 w-3 rounded-full bg-brand-text align-[-2px] dark:bg-brand-text-dark"></span>Men</span>
+                    <span><span class="mr-1.5 inline-block h-3 w-3 rounded-sm bg-brand-success align-[-2px] dark:bg-brand-success-dark"></span>Women</span>
+                    <span class="text-brand-muted dark:text-brand-muted-dark">Further left is faster · axis {v.axis[0]} to {v.axis[1]}</span>
+                  </div>
+                  <div class="mt-4 space-y-2.5" role="img" aria-label={`Typical ${v.lower} time by age group for men and women.`}>
+                    {v.ages.map((a) => (
+                      <div class="flex items-center gap-3">
+                        <span class="w-16 shrink-0 text-sm font-semibold">{a.band === 'U20' ? 'Under 20' : a.band}</span>
+                        <div class="relative h-7 min-w-0 flex-1 border-b border-brand-divider dark:border-brand-divider-dark">
+                          {a.men && <span class="absolute top-1.5 h-4 w-4 -translate-x-1/2 rounded-full bg-brand-text dark:bg-brand-text-dark" style={`left:${v.xPos(a.men)}`} title={`Men ${v.t(a.men)}`}></span>}
+                          {a.women && <span class="absolute top-1.5 h-4 w-4 -translate-x-1/2 rounded bg-brand-success dark:bg-brand-success-dark" style={`left:${v.xPos(a.women)}`} title={`Women ${v.t(a.women)}`}></span>}
+                        </div>
+                        <span class="w-28 shrink-0 text-right text-xs tabular-nums sm:text-sm">M {v.t(a.men)} · W {v.t(a.women)}</span>
+                      </div>
+                    ))}
+                  </div>
+                </figure>
+              )}
+
+              <p class="mt-4 text-sm">
+                What counts as good?
+                {' '}<a href={urls.labRank(DISTANCE_SLUG[v.k], 'strong')} class="link-accent font-semibold">See every {v.lower} tier by age →</a>
+              </p>
+            </div>
+          ))}
         </section>
+        <script is:inline>
+          // Distance tabs for the insights: every panel is in the page (and
+          // indexable); this only toggles which one shows. Plain JS: a script
+          // inside an expression is emitted as-is, not compiled.
+          (function () {
+            var tabs = Array.prototype.slice.call(document.querySelectorAll('[data-ins-tab]'));
+            tabs.forEach(function (tab) {
+              tab.addEventListener('click', function () {
+                tabs.forEach(function (x) { x.setAttribute('aria-selected', String(x === tab)); });
+                document.querySelectorAll('[data-ins-panel]').forEach(function (p) {
+                  p.classList.toggle('hidden', p.getAttribute('data-ins-panel') !== tab.getAttribute('data-ins-tab'));
+                });
+              });
+            });
+          })();
+        </script>
       </>
     )}
 
