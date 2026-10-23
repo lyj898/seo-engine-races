@@ -154,5 +154,10 @@
   ],
   "related_entity_ids": [],
   "last_updated": "2026-08-25",
-  "status": "archived"
+  "status": "archived",
+  "results": {
+    "url": "https://mm2026-results.run.id/",
+    "publisher": "Maybank Marathon / run.id",
+    "last_checked": "2026-10-23"
+  }
 }

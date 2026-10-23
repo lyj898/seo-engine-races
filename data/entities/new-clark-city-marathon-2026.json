@@ -74,5 +74,10 @@
   "cta_links": [],
   "related_entity_ids": [],
   "last_updated": "2026-08-18",
-  "status": "archived"
+  "status": "archived",
+  "results": {
+    "url": "https://runthenorth.myruntime.com/results/ncc-marathon-2026",
+    "publisher": "MyRunTime",
+    "last_checked": "2026-10-23"
+  }
 }

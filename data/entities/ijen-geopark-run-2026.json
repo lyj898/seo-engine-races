@@ -108,5 +108,10 @@
   ],
   "related_entity_ids": [],
   "last_updated": "2026-08-25",
-  "status": "archived"
+  "status": "archived",
+  "results": {
+    "url": "https://app.nci.co.id/timingrace/race-result/7",
+    "publisher": "NCI",
+    "last_checked": "2026-10-23"
+  }
 }

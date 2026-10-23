@@ -87,5 +87,10 @@
   ],
   "related_entity_ids": [],
   "last_updated": "2026-09-01",
-  "status": "archived"
+  "status": "archived",
+  "results": {
+    "url": "https://results.raceroster.com/v3/events/esbd72u9rqay3ur3",
+    "publisher": "RUNRIO",
+    "last_checked": "2026-10-23"
+  }
 }

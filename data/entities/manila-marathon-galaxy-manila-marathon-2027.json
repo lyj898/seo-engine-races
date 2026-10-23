@@ -75,5 +75,10 @@
   ],
   "related_entity_ids": [],
   "last_updated": "2026-07-31",
-  "status": "archived"
+  "status": "archived",
+  "results": {
+    "url": "https://results.raceroster.com/v3/events/nhm6zm2wjwcy4ajk",
+    "publisher": "Galaxy Manila Marathon",
+    "last_checked": "2026-10-23"
+  }
 }

@@ -105,5 +105,10 @@
   ],
   "related_entity_ids": [],
   "last_updated": "2026-08-03",
-  "status": "archived"
+  "status": "archived",
+  "results": {
+    "url": "https://my.raceresult.com/412125/results",
+    "publisher": "CheckRace",
+    "last_checked": "2026-10-23"
+  }
 }
