@@ -43,6 +43,18 @@ export const racesCoreFactsSchema = z.object({
   // says why, in a sentence the page can show.
   event_status: z.enum(['cancelled', 'postponed']).optional(),
   event_status_note: z.string().min(1).optional(),
+  // The race went ahead but not as planned: a distance cut short or dropped on
+  // the day (haze, Sept-Oct 2026). Separate from event_status because the
+  // edition did run -- it keeps its results and stays a "past race" -- but
+  // the cancellations tracker lists it and the race page says what changed.
+  // `note` is a sentence the page can show; `source` is the report or
+  // organiser post that says so.
+  race_day_change: z
+    .object({
+      note: z.string().min(1),
+      source: z.string().url(),
+    })
+    .optional(),
   venue: z.string().optional(),
   city: z.string().optional(),
   country: z.string().min(1),

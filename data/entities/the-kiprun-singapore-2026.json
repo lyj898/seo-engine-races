@@ -18,7 +18,11 @@
     "organizer": "MetaSport (presented by Decathlon Singapore)",
     "venue": "Nicoll Highway (start) to Decathlon Singapore Lab, Kallang (finish)",
     "city": "Singapore",
-    "country": "Singapore"
+    "country": "Singapore",
+    "race_day_change": {
+      "note": "The half marathon was cut to 10 km on race day because of haze, and every category was run as non-competitive, with no official rankings.",
+      "source": "https://mothership.sg/2026/09/decathlon-half-marathon-shortened-haze/"
+    }
   },
   "pros": [
     "Written haze plan with thresholds set in advance; runners told of changes by about 3am",
@@ -118,6 +122,6 @@
     "last_checked": "2026-10-05"
   },
   "related_entity_ids": [],
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-10-26",
   "status": "archived"
 }

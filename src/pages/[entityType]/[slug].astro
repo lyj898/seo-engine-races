@@ -149,7 +149,9 @@ const statusLead =
     : eventStatus === 'postponed'
       ? 'This edition has been postponed.'
       : 'This edition has already taken place.';
-const statusNote = eventStatus ? entity.core_facts?.event_status_note : null;
+// A race that went ahead but was cut short says so in the same banner.
+const raceDayChange = entity.core_facts?.race_day_change;
+const statusNote = eventStatus ? entity.core_facts?.event_status_note : lapsed ? raceDayChange?.note ?? null : null;
 // A postponed edition's note usually gives the new date, so the fallback
 // line must not then claim no future date is known.
 const noSuccessorLead = eventStatus === 'postponed' ? 'In the meantime' : 'No future date is listed yet';
@@ -277,8 +279,8 @@ const jsonLd = [
             {' '}<a href={urls.home()} class="link-accent">the full {siteConfig.entityLabelSingular} calendar</a>.
           </p>
         )}
-        {eventStatus && siteConfig.enabledFeatures?.cancellations && (
-          <p class="mt-2"><a href={urls.cancellations()} class="link-accent">Every race called off this year</a></p>
+        {(eventStatus || (lapsed && raceDayChange)) && siteConfig.enabledFeatures?.cancellations && (
+          <p class="mt-2"><a href={urls.cancellations()} class="link-accent">{eventStatus ? 'Every race called off this year' : 'Every race called off or shortened this year'}</a></p>
         )}
       </div>
     )}

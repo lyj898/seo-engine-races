@@ -32,6 +32,26 @@ const sourceOf = (e) => {
   return s?.url ?? e.cta_links?.[0]?.url ?? null;
 };
 
+// Races that went ahead but were cut short on the day (core_facts.race_day_change):
+// listed in their own section, since they did run and have results.
+const shortened = enabled
+  ? loadEntities()
+      .map(stripMeta)
+      .filter(isReviewableEntity)
+      .filter((e) => e.core_facts?.race_day_change && !e.core_facts?.event_status && /^\d{4}-\d{2}-\d{2}$/.test(e.core_facts?.date ?? ''))
+      .sort((a, b) => b.core_facts.date.localeCompare(a.core_facts.date))
+      .map((e) => ({
+        slug: e.slug,
+        name: e.name,
+        dateLabel: formatLongDate(e.core_facts.date),
+        place: [e.core_facts.city, e.core_facts.country].filter(Boolean).join(', '),
+        cause: causeOf(e.core_facts.race_day_change.note),
+        note: e.core_facts.race_day_change.note,
+        source: e.core_facts.race_day_change.source,
+        updated: e.last_updated,
+      }))
+  : [];
+
 const rows = halted.map((e) => ({
   slug: e.slug,
   name: e.name,
@@ -50,11 +70,11 @@ const rows = halted.map((e) => ({
 const byCause = rows.reduce((m, r) => ((m[r.cause] = (m[r.cause] ?? 0) + 1), m), {});
 const byCountry = Object.entries(rows.reduce((m, r) => ((m[r.country] = (m[r.country] ?? 0) + 1), m), {})).sort((a, b) => b[1] - a[1]);
 const months = [...new Set(rows.map((r) => r.date.slice(0, 7)))];
-const lastUpdated = rows.map((r) => r.updated).filter(Boolean).sort().at(-1);
+const lastUpdated = [...rows, ...shortened].map((r) => r.updated).filter(Boolean).sort().at(-1);
 const year = rows[0]?.date.slice(0, 4) ?? '';
 
 const title = `Races cancelled or postponed in Southeast Asia, ${year}`;
-const description = `${rows.length} half and full marathons in Southeast Asia called off in ${year}, ${byCause['Haze or poor air quality'] ?? 0} of them because of haze or poor air quality, with each organiser's reason and a source.`;
+const description = `${rows.length} half and full marathons in Southeast Asia called off in ${year}, ${byCause['Haze or poor air quality'] ?? 0} of them because of haze or poor air quality${shortened.length ? `, and ${shortened.length} more shortened on the day` : ''}, with each organiser's reason and a source.`;
 const breadcrumbItems = [{ label: siteConfig.siteName, href: urls.home() }, { label: 'Race cancellations' }];
 const jsonLd = [buildBreadcrumbListSchema(breadcrumbItems, Astro.site)].filter(Boolean);
 const pill = 'rounded-full px-2.5 py-0.5 text-xs font-semibold';
@@ -66,12 +86,13 @@ const pill = 'rounded-full px-2.5 py-0.5 text-xs font-semibold';
     <h1 class="mt-4 font-serif text-3xl font-semibold sm:text-4xl">{title}</h1>
     <p class="mt-4 max-w-2xl">
       Every half and full marathon on our calendar that was called off this year, with the organiser's reason and a
-      source for each. Haze from regional fires caused most of them. The list updates whenever we learn a race won't run.
+      source for each, plus the races that went ahead but were cut short on the day. Haze from regional fires caused
+      most of them. The list updates whenever we learn a race won't run.
     </p>
     <div class="mt-3"><LastUpdated date={lastUpdated} label="Last updated" /></div>
 
     {rows.length > 0 && (
-      <dl class="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-4">
+      <dl class="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3">
         <div class="rounded-lg border border-brand-border bg-brand-surface p-4 dark:border-brand-border-dark dark:bg-brand-surface-dark">
           <dt class="text-xs font-semibold uppercase tracking-wide text-brand-muted dark:text-brand-muted-dark">Races called off</dt>
           <dd class="mt-1 font-serif text-3xl font-black">{rows.length}</dd>
@@ -88,6 +109,12 @@ const pill = 'rounded-full px-2.5 py-0.5 text-xs font-semibold';
           <dt class="text-xs font-semibold uppercase tracking-wide text-brand-muted dark:text-brand-muted-dark">Postponed</dt>
           <dd class="mt-1 font-serif text-3xl font-black">{rows.filter((r) => r.status === 'Postponed').length}</dd>
         </div>
+        {shortened.length > 0 && (
+          <div class="rounded-lg border border-brand-border bg-brand-surface p-4 dark:border-brand-border-dark dark:bg-brand-surface-dark">
+            <dt class="text-xs font-semibold uppercase tracking-wide text-brand-muted dark:text-brand-muted-dark">Shortened on the day</dt>
+            <dd class="mt-1 font-serif text-3xl font-black"><a href="#shortened" class="hover:underline">{shortened.length}</a></dd>
+          </div>
+        )}
       </dl>
     )}
 
@@ -124,6 +151,30 @@ const pill = 'rounded-full px-2.5 py-0.5 text-xs font-semibold';
     ))}
 
     {rows.length === 0 && <p class="mt-8 text-brand-muted dark:text-brand-muted-dark">No cancellations recorded.</p>}
+
+    {shortened.length > 0 && (
+      <section id="shortened" class="mt-12 scroll-mt-24">
+        <h2 class="border-b border-brand-divider pb-2 text-lg font-bold dark:border-brand-divider-dark">Went ahead, but shortened</h2>
+        <p class="mt-2 text-sm text-brand-muted dark:text-brand-muted-dark">Races that still ran, with a distance cut short or dropped on the day.</p>
+        <ul class="mt-4 space-y-4">
+          {shortened.map((r) => (
+            <li class="rounded-lg border border-brand-border bg-brand-surface p-5 dark:border-brand-border-dark dark:bg-brand-surface-dark">
+              <div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
+                <h3 class="font-semibold"><a href={urls.entity(r.slug)} class="link-accent">{r.name}</a></h3>
+                <span class="text-sm text-brand-muted dark:text-brand-muted-dark">{r.dateLabel}</span>
+              </div>
+              <p class="mt-1 text-sm text-brand-muted dark:text-brand-muted-dark">{r.place}</p>
+              <div class="mt-3 flex flex-wrap gap-1.5">
+                <span class={`${pill} bg-brand-warning-highlight text-brand-warning dark:bg-brand-warning-highlight-dark dark:text-brand-warning-dark`}>Shortened</span>
+                <span class={`${pill} bg-brand-surface-offset text-brand-muted dark:bg-brand-surface-offset-dark dark:text-brand-muted-dark`}>{r.cause}</span>
+              </div>
+              <p class="mt-3 text-sm">{r.note}</p>
+              <p class="mt-2 text-sm"><a href={r.source} rel="noopener" target="_blank" class="link-accent inline-block py-1">Source ↗</a></p>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
 
     <p class="mt-12 rounded-lg border border-brand-border bg-brand-surface-offset p-4 text-sm text-brand-muted dark:border-brand-border-dark dark:bg-brand-surface-offset-dark dark:text-brand-muted-dark">
       Journalists are welcome to use these figures; please credit {siteConfig.siteName} and link to this page.
