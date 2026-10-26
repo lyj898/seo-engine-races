@@ -10,6 +10,7 @@ import path from 'node:path';
 import { loadEntities, stripMeta, isReviewableEntity } from '../../src/lib/data.js';
 import { loadFinishTimes } from '../../src/lib/finishTimes.js';
 import { W, H, INK, LIME, PAPER, CREAM, MUTED, ORANGE, GREY, F, HV, esc, T, bib, pill, area, smooth, skyline, slide, renderPost } from './kit.js';
+import { seaMap, placeOf, runner, stopwatch, stars, moon, thermometer, hourglass, stupa, bridge, volcano, palm, waves, hazeSun } from './art.js';
 
 const OUT = path.join(process.env.USERPROFILE ?? '.', 'OneDrive', 'Documents', 'runsea-social', 'ideas-preview');
 fs.rmSync(OUT, { recursive: true, force: true });
@@ -34,6 +35,11 @@ const glance = (label) => reviews.flatMap((r) => r.at_a_glance.rows.filter((row)
 const density = (q, lo, hi, N = 40) => smooth(Array.from({ length: N }, (_, i) => { const a = lo + ((hi - lo) * i) / N, b = lo + ((hi - lo) * (i + 1)) / N; return Math.max(0, beats(q, a) - beats(q, b)); }));
 
 const posts = [];
+// Draw extra art over a finished slide (just under the grain layer).
+const GRAIN = `<rect width="${W}" height="${H}" filter="url(#grain)"/>`;
+const withArt = (svg, art) => svg.replace(GRAIN, art + GRAIN);
+const MAP_PAPER = { land: '#d9d4c2', stroke: '#bfb9a2', labelFill: INK, halo: PAPER };
+const pinOf = (e, color, label) => { const pl = e && placeOf(e); return pl && { ...pl, color, label: typeof label === 'function' ? label(pl) : label }; };
 const add = (name, title, theme, slides, caption) => posts.push({ name, title, theme, slides, caption });
 const TAGS = '#running #halfmarathon #marathon #runsea #southeastasia #runningsingapore #runningmalaysia #larimalaysia #runnersph #thailandrunning #vietnamrunners #lariindonesia';
 
@@ -41,7 +47,7 @@ const TAGS = '#running #halfmarathon #marathon #runsea #southeastasia #runningsi
 {
   const big = ft.raceQuantiles.filter((r) => r.distance === 'Half' && r.n >= 500).map((r) => ({ ...r, b: beats(r.q, 7200) }));
   const best = [...big].sort((a, b) => b.b - a.b)[0], worst = [...big].sort((a, b) => a.b - b.b)[0];
-  const P = 4, tag = 'The Lab';
+  const P = 5, tag = 'The Lab';
   const s1 = slide('paper', `
     ${T('Same time.', { y: 290, size: 100, weight: 'heavy', fill: INK, maxWidth: 960 }).svg}
     ${T('Different race.', { y: 400, size: 100, weight: 'heavy', fill: INK, opacity: 0.35, maxWidth: 960 }).svg}
@@ -54,16 +60,18 @@ const TAGS = '#running #halfmarathon #marathon #runsea #southeastasia #runningsi
     <text x="80" y="720" font-family="${HV}" font-weight="900" font-size="170" fill="${INK}">${hm(worst.q[50])}</text>
     ${T(`at ${clean(worst.name)}, ${worst.country}`, { y: 800, size: 40, weight: 700, fill: INK }).svg}
     <text x="80" y="1020" font-family="${HV}" font-weight="900" font-size="170" fill="${INK}" opacity="0.35">${hm(best.q[50])}</text>
-    ${T(`at ${clean(best.name)}, ${best.country}`, { y: 1100, size: 40, weight: 700, fill: INK, opacity: 0.6 }).svg}`, { tag, page: 2, pages: P });
+    ${T(`at ${clean(best.name)}, ${best.country}`, { y: 1100, size: 40, weight: 700, fill: INK, opacity: 0.6 }).svg}`, { tag, page: 3, pages: P });
   const top5 = [...big].sort((a, b) => b.n - a.n).slice(0, 5).sort((a, b) => b.b - a.b);
   let y = 470;
   const rows = top5.map((r) => { const s = `${T(clean(r.name), { y, size: 40, weight: 700, fill: INK, maxWidth: 640 }).svg}<text x="${W - 80}" y="${y}" text-anchor="end" font-family="${HV}" font-weight="900" font-size="56" fill="${INK}">Top ${Math.round(100 - r.b)}%</text><line x1="80" x2="${W - 80}" y1="${y + 50}" y2="${y + 50}" stroke="${INK}" stroke-opacity="0.15" stroke-width="3"/>`; y += 130; return s; }).join('');
-  const s3 = slide('paper', `${T('A 2:00 half at the five biggest races', { y: 260, size: 64, weight: 'heavy', fill: INK }).svg}${rows}`, { tag, page: 3, pages: P });
+  const s3 = slide('paper', `${T('A 2:00 half at the five biggest races', { y: 260, size: 64, weight: 'heavy', fill: INK }).svg}${rows}`, { tag, page: 4, pages: P });
   const s4 = slide('paper', `
     ${T('Where does your time rank?', { y: 330, size: 100, weight: 'heavy', fill: INK }).svg}
     ${T('Put in your time. See your rank at every race, by gender and age.', { y: 720, size: 44, fill: INK }).svg}
-    ${pill({ x: 80, y: 980, w: 620, h: 120, label: 'runsea.run/tools', size: 52 })}`, { tag, page: 4, pages: P });
-  add('01-same-time-different-race', 'Same 2:00 half: top ' + Math.round(100 - best.b) + '% vs top ' + Math.round(100 - worst.b) + '%', 'paper', [s1, s2, s3, s4],
+    ${pill({ x: 80, y: 980, w: 620, h: 120, label: 'runsea.run/tools', size: 52 })}`, { tag, page: 5, pages: P });
+  const sMap = slide('paper', `${T('Same time, opposite ends of the region', { y: 250, size: 62, weight: 'heavy', fill: INK }).svg}
+    ${seaMap({ x: 120, y: 400, s: 1.32, ...MAP_PAPER, pins: [pinOf(bySlug(best.slug), INK, (pl) => `${pl.name}: top ${Math.round(100 - best.b)}%`), pinOf(bySlug(worst.slug), ORANGE, (pl) => `${pl.name}: top ${Math.round(100 - worst.b)}%`)].filter(Boolean) })}`, { tag, page: 2, pages: P });
+  add('01-same-time-different-race', 'Same 2:00 half: top ' + Math.round(100 - best.b) + '% vs top ' + Math.round(100 - worst.b) + '%', 'paper', [s1, sMap, s2, s3, s4],
     `The same 2:00 half marathon puts you in the top ${Math.round(100 - best.b)}% at ${clean(best.name)} and only the top ${Math.round(100 - worst.b)}% at ${clean(worst.name)}.\n\nSome fields are simply faster: half of the runners at ${clean(worst.name)} finished under ${hm(worst.q[50])}, against ${hm(best.q[50])} at ${clean(best.name)}.\n\nWhere does YOUR time rank? Put it in at runsea.run/tools (link in bio) and see your rank at every race.\n\n${TAGS}`);
 }
 
@@ -77,7 +85,7 @@ const TAGS = '#running #halfmarathon #marathon #runsea #southeastasia #runningsi
     <text x="70" y="470" font-family="${HV}" font-weight="900" font-size="230" letter-spacing="-8" fill="${INK}">IN YOUR</text>
     <text x="70" y="640" font-family="${HV}" font-weight="900" font-size="190" letter-spacing="-6" fill="${INK}">40s: ${hm(g('40-49').men)}</text>
     <text x="70" y="900" font-family="${HV}" font-weight="900" font-size="190" letter-spacing="-6" fill="${LIME}">20s: ${hm(g('20-29').men)}</text>
-    ${T('Men, typical finish time by age. Older is faster.', { y: 1010, size: 40, weight: 600, fill: CREAM }).svg}`, { tag, page: 1, pages: P, split: 700 });
+    ${T('Typical men’s finish, by age.', { y: 1010, size: 40, weight: 600, fill: CREAM }).svg}`, { tag, page: 1, pages: P, split: 700 });
   let y = 480;
   const rows = ages.map((a) => { const fast = a.men && a.men - Math.min(...ages.filter((x) => x.men).map((x) => x.men)) <= 60; const s = `<text x="80" y="${y}" font-family="${F}" font-weight="800" font-size="52" fill="${fast ? LIME : CREAM}">${a.band === 'U20' ? 'Under 20' : a.band}</text><text x="640" y="${y}" text-anchor="middle" font-family="${HV}" font-weight="900" font-size="60" fill="${fast ? LIME : CREAM}">${a.men ? hm(a.men) : '–'}</text><text x="900" y="${y}" text-anchor="middle" font-family="${HV}" font-weight="900" font-size="60" fill="${fast ? LIME : CREAM}">${a.women ? hm(a.women) : '–'}</text>`; y += 110; return s; }).join('');
   const s2 = slide('ink', `${T('Typical half marathon time by age', { y: 250, size: 64, weight: 'heavy' }).svg}
@@ -88,7 +96,7 @@ const TAGS = '#running #halfmarathon #marathon #runsea #southeastasia #runningsi
   const s4 = slide('poster', `${T('How do you compare with your age group?', { y: 330, size: 90, weight: 'heavy', fill: INK }).svg}
     <text x="80" y="960" font-family="${HV}" font-weight="900" font-size="88" fill="${LIME}">runsea.run/tools</text>
     ${T(`Based on ${n(h.finishes)} half marathon finishes.`, { y: 1060, size: 36, fill: CREAM }).svg}`, { tag, page: 4, pages: P, split: 700 });
-  add('02-your-40s-beat-your-20s', 'Your 40s beat your 20s', 'poster', [s1, s2, s3, s4],
+  add('02-your-40s-beat-your-20s', 'Your 40s beat your 20s', 'poster', [withArt(s1, `${runner({ x: 900, y: 1225, s: 1.25, color: LIME })}${runner({ x: 690, y: 1225, s: 1.05, color: CREAM })}`), s2, s3, s4],
     `Runners in their 40s run faster half marathons than runners in their 20s. Typical men's finish: ${hm(g('40-49').men)} in your 40s, ${hm(g('20-29').men)} in your 20s (${hm(g('50-59').men)} in your 50s).\n\nWhy? The runners still racing in their 40s and 50s are the committed ones. Younger fields have far more first-timers.\n\nFrom ${n(h.finishes)} half marathon finishes across Southeast Asia. Compare yourself with your age group at runsea.run/tools (link in bio)\n\nTag the friend who says they're too old to get faster.\n\n${TAGS}`);
 }
 
@@ -120,7 +128,7 @@ const TAGS = '#running #halfmarathon #marathon #runsea #southeastasia #runningsi
   const seen = new Set(); const early = starts.filter((x) => { const k = clean(x.e.name); if (seen.has(k)) return false; seen.add(k); return true; }).slice(0, 6);
   const label = (t) => (t === 0 ? 'Midnight' : `${Math.floor(t / 60) || 12}${t % 60 ? `.${String(t % 60).padStart(2, '0')}` : ''}am`);
   const midnight = early.filter((x) => x.t < 60).length;
-  const P = 3, tag = 'Race o’clock';
+  const P = 4, tag = 'Race o’clock';
   const s1 = slide('glow', `
     <circle cx="780" cy="420" r="150" fill="${CREAM}" opacity="0.92" filter="url(#glow)"/><circle cx="840" cy="380" r="150" fill="#1b2210"/>
     ${T('Would you start a marathon at midnight?', { y: 700, size: 96, weight: 'heavy' }).svg}
@@ -132,8 +140,10 @@ const TAGS = '#running #halfmarathon #marathon #runsea #southeastasia #runningsi
   const s3 = slide('glow', `${T('Midnight or 5am?', { y: 380, size: 110, weight: 'heavy' }).svg}
     ${T('Tell us in the comments: would you run a marathon through the night to beat the heat?', { y: 640, size: 46 }).svg}
     ${T('Start times, cut-offs and race-morning weather in every race review:', { y: 980, size: 34, fill: MUTED }).svg}
-    <text x="80" y="1110" font-family="${HV}" font-weight="900" font-size="72" fill="${LIME}">runsea.run</text>`, { tag, page: 3, pages: P });
-  add('04-midnight-marathons', 'Would you start a marathon at midnight?', 'glow', [s1, s2, s3],
+    <text x="80" y="1110" font-family="${HV}" font-weight="900" font-size="72" fill="${LIME}">runsea.run</text>`, { tag, page: 4, pages: P });
+  const sMap = slide('glow', `${T('Racing through the night', { y: 250, size: 68, weight: 'heavy' }).svg}
+    ${seaMap({ x: 80, y: 360, s: 1.45, pins: early.map((x) => pinOf(x.e, LIME, (pl) => `${pl.name} · ${label(x.t)}`)).filter(Boolean) })}`, { tag, page: 3, pages: P });
+  add('04-midnight-marathons', 'Would you start a marathon at midnight?', 'glow', [withArt(s1, `${stars([[160, 300, 16], [330, 210, 10], [520, 330, 12], [980, 640, 14], [120, 560, 9], [600, 190, 8]])}${runner({ x: 900, y: 1150, s: 1.1, color: CREAM })}`), s2, sMap, s3],
     `Would you start a marathon at midnight?\n\n${early.map((x) => `${label(x.t)}: ${clean(x.e.name)} (${x.e.core_facts.country})`).join('\n')}\n\nIn the tropics, the only way to beat the heat is to race through the night. Midnight or 5am? Tell us below.\n\n${TAGS}`);
 }
 
@@ -163,7 +173,7 @@ const TAGS = '#running #halfmarathon #marathon #runsea #southeastasia #runningsi
     ${row(620, 'Top 1%', hm(f.men.top1), hm(f.women.top1), true)}${row(780, 'Top 10%', hm(f.men.top10), hm(f.women.top10))}${row(940, 'Typical', hm(f.men.median), hm(f.women.median))}`, { tag, page: 3, pages: P });
   const s4 = slide('glow', `${T('Sub-4 or not, how does your marathon rank?', { y: 380, size: 84, weight: 'heavy' }).svg}
     <text x="80" y="960" font-family="${HV}" font-weight="900" font-size="80" fill="${LIME}">runsea.run/tools</text>${skyline(0.9, 0.5)}`, { tag, page: 4, pages: P });
-  add('05-sub-4-marathon', `Only ${pct(f.underMilestone)} break four hours`, 'glow', [s1, s2, s3, s4],
+  add('05-sub-4-marathon', `Only ${pct(f.underMilestone)} break four hours`, 'glow', [withArt(s1, stopwatch({ x: 900, y: 330, r: 105, color: LIME, face: '#15170f', angle: 0, label: '4:00' })), s2, s3, s4],
     `Only ${pct(f.underMilestone)} of marathoners in Southeast Asia finish under four hours.\n\nThe typical finish is ${hm(f.median)}. Top 10% takes ${hm(f.men.top10)} for men and ${hm(f.women.top10)} for women. So if you're chasing sub-4 in this heat, you're already chasing something rare.\n\nFrom ${n(f.finishes)} marathon finishes. Rank your marathon at runsea.run/tools (link in bio)\n\n${TAGS} #sub4`);
 }
 
@@ -177,22 +187,25 @@ const TAGS = '#running #halfmarathon #marathon #runsea #southeastasia #runningsi
     ['penang-bridge-international-marathon-2026', 'Across a 24 km sea bridge'],
     ['lake-toba-cross-island-run-2026', 'Round the lake in a supervolcano crater'],
   ].map(([s, line]) => ({ e: bySlug(s), line })).filter((x) => x.e);
-  const P = 4, tag = 'Bucket list';
+  const P = 5, tag = 'Bucket list';
   const s1 = slide('paper', `
     ${T('Run past a temple.', { y: 290, size: 82, weight: 'heavy', fill: INK, maxWidth: 980 }).svg}
     ${T('Across a sea bridge.', { y: 395, size: 82, weight: 'heavy', fill: INK, opacity: 0.6, maxWidth: 980 }).svg}
     ${T('Round a volcano.', { y: 500, size: 82, weight: 'heavy', fill: INK, opacity: 0.35, maxWidth: 980 }).svg}
-    ${bib({ cx: 540, cy: 900, w: 720, h: 420, top: 'Bucket list', big: `${picks.length} races`, bigSize: 150, bottom: 'Southeast Asia', rot: -4 })}`, { tag, page: 1, pages: P });
+    ${stupa({ x: 230, y: 1010, s: 0.95 })}${bridge({ x: 560, y: 1010, s: 0.8 })}${volcano({ x: 870, y: 1010, s: 0.85 })}
+    ${T(`${picks.length} bucket-list races in Southeast Asia`, { y: 1140, size: 40, weight: 700, fill: INK }).svg}`, { tag, page: 1, pages: P });
   const card = (x, y, { e, line }) => `<rect x="${x}" y="${y}" width="920" height="270" rx="30" fill="#ffffff" filter="url(#sh)"/>
     <rect x="${x}" y="${y}" width="22" height="270" rx="11" fill="${LIME}"/>
     <text x="${x + 60}" y="${y + 70}" font-family="${F}" font-weight="800" font-size="30" letter-spacing="3" fill="${INK}" opacity="0.6">${esc(day(e.core_facts.date).toUpperCase())} · ${esc(e.core_facts.country.toUpperCase())}</text>
     ${(() => { const nm = T(clean(e.name), { x: x + 60, y: y + 130, size: 46, weight: 'heavy', fill: INK, maxWidth: 820 }); return `${nm.svg}<text x="${x + 60}" y="${(nm.bottom + 48).toFixed(0)}" font-family="${F}" font-weight="600" font-size="32" fill="${INK}">${esc(line)}</text>`; })()}`;
-  const s2 = slide('paper', picks.slice(0, 3).map((p, i) => card(80, 230 + i * 320, p)).join(''), { tag, page: 2, pages: P });
-  const s3 = slide('paper', picks.slice(3, 6).map((p, i) => card(80, 230 + i * 320, p)).join(''), { tag, page: 3, pages: P });
+  const s2 = slide('paper', picks.slice(0, 3).map((p, i) => card(80, 230 + i * 320, p)).join(''), { tag, page: 3, pages: P });
+  const s3 = slide('paper', picks.slice(3, 6).map((p, i) => card(80, 230 + i * 320, p)).join(''), { tag, page: 4, pages: P });
   const s4 = slide('paper', `${T('Which one’s on your list?', { y: 360, size: 100, weight: 'heavy', fill: INK }).svg}
     ${T('Save this, tag your travel buddy, and find dates and official links for every race at runsea.run.', { y: 720, size: 44, fill: INK }).svg}
-    ${pill({ x: 80, y: 1000, w: 520, h: 120, label: 'runsea.run', size: 56 })}`, { tag, page: 4, pages: P });
-  add('06-bucket-list-races', 'Bucket-list races: temples, bridges, a volcano', 'paper', [s1, s2, s3, s4],
+    ${pill({ x: 80, y: 1000, w: 520, h: 120, label: 'runsea.run', size: 56 })}`, { tag, page: 5, pages: P });
+  const sMap = slide('paper', `${T('Where to find them', { y: 250, size: 72, weight: 'heavy', fill: INK }).svg}
+    ${seaMap({ x: 70, y: 360, s: 1.45, ...MAP_PAPER, pins: picks.map((p) => pinOf(p.e, INK, (pl) => pl.name)).filter(Boolean) })}`, { tag, page: 2, pages: P });
+  add('06-bucket-list-races', 'Bucket-list races: temples, bridges, a volcano', 'paper', [s1, sMap, s2, s3, s4],
     `Run past a temple. Across a sea bridge. Round a volcano.\n\n${picks.map((p) => `${clean(p.e.name)}, ${p.e.core_facts.country} (${day(p.e.core_facts.date)}): ${p.line.toLowerCase()}`).join('\n')}\n\nWhich one's on your list? Save this and tag your travel buddy. Dates and official links at runsea.run (link in bio)\n\n${TAGS} #racecation #runtravel`);
 }
 
@@ -221,21 +234,23 @@ const TAGS = '#running #halfmarathon #marathon #runsea #southeastasia #runningsi
   const seen = new Set(); const uniq = w.filter((x) => { const k = clean(x.e.name); if (seen.has(k)) return false; seen.add(k); return true; });
   const hot = [...uniq].sort((a, b) => b.dp - a.dp || b.t - a.t).slice(0, 5), cool = [...uniq].sort((a, b) => a.dp - b.dp || a.t - b.t).slice(0, 5);
   const startOf = (x) => x.label.replace(/^Weather at the /i, '').replace(/ start$/i, '');
-  const P = 4, tag = 'Race weather';
+  const P = 5, tag = 'Race weather';
   const s1 = slide('glow', `
     ${T('Same region. Same hour.', { y: 270, size: 80, weight: 'heavy' }).svg}
     <text x="80" y="620" font-family="${HV}" font-weight="900" font-size="240" fill="${ORANGE}" filter="url(#glow)">${hot[0].t}°C</text>
-    ${T(`${clean(hot[0].e.name)}, ${startOf(hot[0])}, ${hot[0].h}% humidity`, { y: 700, size: 38, weight: 600 }).svg}
+    ${T(`${clean(hot[0].e.name)}, ${startOf(hot[0])}, ${hot[0].h}% humidity`, { y: 700, size: 38, weight: 600, maxWidth: 720 }).svg}
     <text x="80" y="1000" font-family="${HV}" font-weight="900" font-size="240" fill="${LIME}" filter="url(#glow)">${cool[0].t}°C</text>
-    ${T(`${clean(cool[0].e.name)}, ${startOf(cool[0])}`, { y: 1080, size: 38, weight: 600 }).svg}`, { tag, page: 1, pages: P });
+    ${T(`${clean(cool[0].e.name)}, ${startOf(cool[0])}`, { y: 1080, size: 38, weight: 600, maxWidth: 720 }).svg}`, { tag, page: 1, pages: P });
   const list = (title, arr, color) => { let y = 430; return `${T(title, { y: 250, size: 72, weight: 'heavy' }).svg}${arr.map((x) => { const s = `<text x="80" y="${y}" font-family="${HV}" font-weight="900" font-size="64" fill="${color}">${x.t}°C</text>${T(clean(x.e.name), { x: 330, y: y - 10, size: 38, weight: 700, maxWidth: 680 }).svg}<text x="330" y="${y + 36}" font-family="${F}" font-size="28" fill="${MUTED}">${esc(`${x.e.core_facts.country} · ${startOf(x)} · dew point ${x.dp}°C · ${x.h}%`)}</text>`; y += 150; return s; }).join('')}`; };
   const s2 = slide('glow', list('The stickiest starts', hot, ORANGE), { tag, page: 2, pages: P });
   const s3 = slide('glow', list('The coolest starts', cool, LIME), { tag, page: 3, pages: P });
   const s4 = slide('glow', `${T('Watch the dew point, not the temperature', { y: 330, size: 80, weight: 'heavy' }).svg}
     ${T('Above about 24°C, sweat barely evaporates and every kilometre feels harder. Below 18°C, you can race.', { y: 680, size: 44 }).svg}
     ${T('Race-morning weather for every race we review:', { y: 980, size: 34, fill: MUTED }).svg}
-    <text x="80" y="1100" font-family="${HV}" font-weight="900" font-size="72" fill="${LIME}">runsea.run</text>`, { tag, page: 4, pages: P });
-  add('08-hottest-coolest-mornings', `${hot[0].t}°C vs ${cool[0].t}°C race mornings`, 'glow', [s1, s2, s3, s4],
+    <text x="80" y="1100" font-family="${HV}" font-weight="900" font-size="72" fill="${LIME}">runsea.run</text>`, { tag, page: 5, pages: P });
+  const sMap = slide('glow', `${T('Where the mornings were', { y: 250, size: 68, weight: 'heavy' }).svg}
+    ${seaMap({ x: 80, y: 360, s: 1.45, pins: [...hot.map((x) => pinOf(x.e, ORANGE, (pl) => `${pl.name} ${x.t}°C`)), ...cool.map((x) => pinOf(x.e, LIME, (pl) => `${pl.name} ${x.t}°C`))].filter(Boolean) })}`, { tag, page: 4, pages: P });
+  add('08-hottest-coolest-mornings', `${hot[0].t}°C vs ${cool[0].t}°C race mornings`, 'glow', [withArt(s1, `${thermometer({ x: 940, y: 640, h: 330, level: 0.95, color: ORANGE })}${thermometer({ x: 940, y: 1080, h: 260, level: 0.3, color: LIME })}`), s2, s3, sMap, s4],
     `Same region, same pre-dawn hour, very different races.\n\nStickiest starts: ${hot.map((x) => `${clean(x.e.name)} (${x.t}°C, ${x.h}% humidity)`).join('; ')}.\n\nCoolest starts: ${cool.map((x) => `${clean(x.e.name)} (${x.t}°C)`).join('; ')}.\n\nWatch the dew point: above about 24°C sweat barely evaporates. Race-morning weather from airport records, for every race we review at runsea.run (link in bio)\n\n${TAGS}`);
 }
 
@@ -256,7 +271,7 @@ const TAGS = '#running #halfmarathon #marathon #runsea #southeastasia #runningsi
   const s3 = slide('poster', `${T('Stepping up to your first half or full?', { y: 330, size: 86, weight: 'heavy', fill: INK }).svg}
     ${T('Tag a friend to do it with you.', { y: 900, size: 56, weight: 'heavy', fill: LIME }).svg}
     ${T('Race calendar and beginner-friendly races at runsea.run', { y: 1020, size: 36, fill: CREAM }).svg}`, { tag, page: 3, pages: P, split: 700 });
-  add('09-women-in-the-field', `Women: ${pct(ins['10K'].womenShare)} of 10K, ${pct(ins.Full.womenShare)} of marathon`, 'poster', [s1, s2, s3],
+  add('09-women-in-the-field', `Women: ${pct(ins['10K'].womenShare)} of 10K, ${pct(ins.Full.womenShare)} of marathon`, 'poster', [withArt(s1, `${runner({ x: 900, y: 640, s: 1.55, color: INK, ponytail: true })}${runner({ x: 900, y: 1235, s: 1.2, color: LIME, ponytail: true })}`), s2, s3],
     `Women make up ${pct(ins['10K'].womenShare)} of 10K finishers in Southeast Asia, ${pct(ins.Half.womenShare)} of half marathon finishers and just ${pct(ins.Full.womenShare)} of marathon finishers.\n\nThe longer the race, the fewer women on the start line. Thinking about stepping up? Tag the friend you'd do it with.\n\n${TAGS} #womenwhorun`);
 }
 
@@ -268,7 +283,7 @@ const TAGS = '#running #halfmarathon #marathon #runsea #southeastasia #runningsi
     ${T('THE FASTEST 10K RUNNERS ARE…', { y: 200, size: 36, weight: 800, fill: INK, ls: 3 }).svg}
     <text x="60" y="560" font-family="${HV}" font-weight="900" font-size="200" letter-spacing="-8" fill="${INK}">UNDER 20</text>
     <text x="60" y="960" font-family="${HV}" font-weight="900" font-size="230" letter-spacing="-8" fill="${LIME}">${ms(g('U20').men)}</text>
-    ${T(`Typical 10K for men under 20. Runners in their 20s: ${ms(g('20-29').men)}.`, { y: 1060, size: 38, weight: 600, fill: CREAM }).svg}`, { tag, page: 1, pages: P, split: 700 });
+    ${T(`Typical 10K for men under 20. Runners in their 20s: ${ms(g('20-29').men)}.`, { y: 1060, size: 38, weight: 600, fill: CREAM, maxWidth: 680 }).svg}`, { tag, page: 1, pages: P, split: 700 });
   let y = 480;
   const rows = a.map((x) => { const fast = x.band === 'U20'; const s = `<text x="80" y="${y}" font-family="${F}" font-weight="800" font-size="52" fill="${fast ? LIME : CREAM}">${x.band === 'U20' ? 'Under 20' : x.band}</text><text x="640" y="${y}" text-anchor="middle" font-family="${HV}" font-weight="900" font-size="60" fill="${fast ? LIME : CREAM}">${x.men ? ms(x.men) : '–'}</text><text x="900" y="${y}" text-anchor="middle" font-family="${HV}" font-weight="900" font-size="60" fill="${fast ? LIME : CREAM}">${x.women ? ms(x.women) : '–'}</text>`; y += 110; return s; }).join('');
   const s2 = slide('ink', `${T('Typical 10K time by age', { y: 250, size: 70, weight: 'heavy' }).svg}
@@ -276,7 +291,7 @@ const TAGS = '#running #halfmarathon #marathon #runsea #southeastasia #runningsi
     ${T('Many under-20s race 10Ks with school and club teams.', { y: 1180, size: 32, fill: MUTED }).svg}`, { tag, page: 2, pages: P });
   const s3 = slide('poster', `${T('Can you outrun a teenager?', { y: 330, size: 100, weight: 'heavy', fill: INK }).svg}
     <text x="80" y="960" font-family="${HV}" font-weight="900" font-size="88" fill="${LIME}">runsea.run/tools</text>`, { tag, page: 3, pages: P, split: 700 });
-  add('10-teens-fastest-10k', 'Teens run the fastest 10Ks', 'poster', [s1, s2, s3],
+  add('10-teens-fastest-10k', 'Teens run the fastest 10Ks', 'poster', [withArt(s1, runner({ x: 900, y: 1235, s: 1.4, color: LIME })), s2, s3],
     `The fastest 10K runners in Southeast Asia? Teenagers. The typical 10K for men under 20 is ${ms(g('U20').men)}, against ${ms(g('20-29').men)} for men in their 20s.\n\nCan you outrun a teenager? Check your 10K at runsea.run/tools (link in bio)\n\n${TAGS} #10k`);
 }
 
@@ -289,14 +304,14 @@ const TAGS = '#running #halfmarathon #marathon #runsea #southeastasia #runningsi
   const s1 = slide('paper', `
     ${T('Worried about the cut-off?', { y: 300, size: 96, weight: 'heavy', fill: INK }).svg}
     ${bib({ cx: 540, cy: 800, top: 'Marathon cut-off', big: fmt(top[0].hrs).replace('h', ' HRS'), bigSize: 170, bottom: clean(top[0].e.name), rot: -5 })}
-    ${T('The most generous marathons in Southeast Asia.', { y: 1150, size: 44, weight: 700, fill: INK }).svg}`, { tag, page: 1, pages: P });
+    ${T('The most generous marathons in Southeast Asia.', { y: 1150, size: 44, weight: 700, fill: INK, maxWidth: 720 }).svg}`, { tag, page: 1, pages: P });
   let y = 420;
   const rows = top.map((x) => { const nm = T(clean(x.e.name), { x: 340, y: y - 10, size: 40, weight: 700, fill: INK, maxWidth: 660 }); const s = `<text x="80" y="${y}" font-family="${HV}" font-weight="900" font-size="66" fill="${INK}">${fmt(x.hrs)}</text>${nm.svg}<text x="340" y="${(nm.bottom + 30).toFixed(0)}" font-family="${F}" font-size="28" fill="${INK}" opacity="0.6">${esc(`${x.e.core_facts.country} · ${day(x.e.core_facts.date)}`)}</text>`; y = Math.max(y + 130, nm.bottom + 110); return s; }).join('');
   const s2 = slide('paper', `${T('Longest marathon cut-offs', { y: 250, size: 70, weight: 'heavy', fill: INK }).svg}${rows}`, { tag, page: 2, pages: P });
   const s3 = slide('paper', `${T('Save this for your first marathon.', { y: 360, size: 96, weight: 'heavy', fill: INK }).svg}
     ${T('Cut-offs, start times and aid stations for every race we review, with dates and official links.', { y: 760, size: 44, fill: INK }).svg}
     ${pill({ x: 80, y: 1000, w: 520, h: 120, label: 'runsea.run', size: 56 })}`, { tag, page: 3, pages: P });
-  add('11-generous-cut-offs', 'The most generous marathon cut-offs', 'paper', [s1, s2, s3],
+  add('11-generous-cut-offs', 'The most generous marathon cut-offs', 'paper', [withArt(s1, hourglass({ x: 940, y: 1160, s: 0.36 })), s2, s3],
     `Worried about the cut-off for your first marathon? These give you the most time:\n\n${top.map((x) => `${fmt(x.hrs)}: ${clean(x.e.name)} (${x.e.core_facts.country})`).join('\n')}\n\nSave this, and check each race's latest rules before you enter. Cut-offs for every race we review at runsea.run (link in bio)\n\n${TAGS} #firstmarathon`);
 }
 
@@ -306,46 +321,47 @@ const TAGS = '#running #halfmarathon #marathon #runsea #southeastasia #runningsi
   const s1 = slide('poster', `
     ${T('HE STARTED RUNNING AT', { y: 200, size: 40, weight: 800, fill: INK, ls: 4 }).svg}
     <text x="60" y="560" font-family="${HV}" font-weight="900" font-size="380" letter-spacing="-14" fill="${INK}">71</text>
-    ${T('HE’S 82 NOW, AND STILL RACING', { y: 820, size: 40, weight: 800, fill: CREAM, ls: 3 }).svg}
-    ${T('Lim Thiam Leng, oldest runner at the 2026 Kuching Half Marathon Heritage Run.', { y: 950, size: 40, weight: 600, fill: CREAM }).svg}`, { tag, page: 1, pages: P, split: 700 });
+    ${T('HE’S 82 NOW, AND STILL RACING', { y: 820, size: 40, weight: 800, fill: CREAM, ls: 3, maxWidth: 700 }).svg}
+    ${T('The oldest runner at the 2026 Kuching Half Marathon Heritage Run.', { y: 950, size: 40, weight: 600, fill: CREAM, maxWidth: 640 }).svg}`, { tag, page: 1, pages: P, split: 700 });
   const s2 = slide('ink', `
     <text x="60" y="380" font-family="${HV}" font-weight="900" font-size="260" fill="${LIME}">“</text>
     ${T('After retiring, I did not have much to do, so I started joining marathons when I was 71.', { y: 520, size: 64, weight: 'heavy' }).svg}
-    ${T('Lim Thiam Leng, 82, to The Borneo Post', { y: 1060, size: 36, fill: MUTED }).svg}`, { tag, page: 2, pages: P });
+    ${T('An 82-year-old runner at the Kuching Half Marathon Heritage Run, to The Borneo Post', { y: 1060, size: 36, fill: MUTED }).svg}`, { tag, page: 2, pages: P });
   const s3 = slide('poster', `${T('What’s your excuse?', { y: 330, size: 110, weight: 'heavy', fill: INK }).svg}
     ${T('Tag someone who says they’re too old to start.', { y: 880, size: 52, weight: 'heavy', fill: LIME }).svg}
     ${T('Find your first race at runsea.run', { y: 1040, size: 38, fill: CREAM }).svg}`, { tag, page: 3, pages: P, split: 700 });
-  add('12-started-at-71', 'He started running at 71', 'poster', [s1, s2, s3],
-    `He started running at 71. He's 82 now, and still racing.\n\nLim Thiam Leng was the oldest runner at this year's Kuching Half Marathon Heritage Run. "After retiring, I did not have much to do, so I started joining marathons when I was 71," he told The Borneo Post.\n\nTag someone who says they're too old to start. Find your first race at runsea.run (link in bio)\n\n${TAGS} #nevertoolate #kuching`);
+  add('12-started-at-71', 'He started running at 71', 'poster', [withArt(s1, runner({ x: 900, y: 1235, s: 1.45, color: LIME, stoop: 8 })), s2, s3],
+    `He started running at 71. He's 82 now, and still racing.\n\nThe oldest runner at this year's Kuching Half Marathon Heritage Run is 82. "After retiring, I did not have much to do, so I started joining marathons when I was 71," he told The Borneo Post.\n\nTag someone who says they're too old to start. Find your first race at runsea.run (link in bio)\n\n${TAGS} #nevertoolate #kuching`);
 }
 
 // ---- 13 Race, then beach (paper) --------------------------------------------
 {
   const picks = ['langkawi-international-half-marathon-2026', 'kathu-marathon-2026', 'sanur-bali-international-half-marathon-2027', 'danang-international-marathon-2027', 'boracay-island-360-marathon-2027', 'laguna-phuket-marathon-2027'].map(bySlug).filter((e) => e && !e.core_facts.event_status);
-  const P = 4, tag = 'Race-cation';
+  const P = 5, tag = 'Race-cation';
   const s1 = slide('paper', `
     ${T('Race on Sunday.', { y: 300, size: 100, weight: 'heavy', fill: INK }).svg}
     ${T('Beach by lunch.', { y: 415, size: 100, weight: 'heavy', fill: INK, opacity: 0.4 }).svg}
-    <circle cx="540" cy="830" r="230" fill="${LIME}"/>
-    <rect x="80" y="900" width="920" height="180" fill="${PAPER}"/>
-    ${[0, 1, 2, 3].map((i) => `<path d="M80 ${930 + i * 38} Q 310 ${900 + i * 38} 540 ${930 + i * 38} T 1000 ${930 + i * 38}" stroke="${INK}" stroke-width="10" fill="none" stroke-linecap="round" opacity="${0.9 - i * 0.2}"/>`).join('')}
+    <circle cx="470" cy="900" r="220" fill="${LIME}"/><rect x="0" y="920" width="${W}" height="200" fill="${PAPER}"/>
+    ${waves({ x: 80, y: 950, w: 920 })}${palm({ x: 870, y: 1000, s: 0.95 })}
     ${T(`${picks.length} half and full marathons by the sea`, { y: 1170, size: 44, weight: 700, fill: INK }).svg}`, { tag, page: 1, pages: P });
   const card = (x, y, e) => `<rect x="${x}" y="${y}" width="920" height="250" rx="30" fill="#ffffff" filter="url(#sh)"/><rect x="${x}" y="${y}" width="22" height="250" rx="11" fill="${LIME}"/>
     <text x="${x + 60}" y="${y + 70}" font-family="${F}" font-weight="800" font-size="30" letter-spacing="3" fill="${INK}" opacity="0.6">${esc(day(e.core_facts.date).toUpperCase())}</text>
     ${(() => { const nm = T(clean(e.name), { x: x + 60, y: y + 130, size: 46, weight: 'heavy', fill: INK, maxWidth: 820 }); return `${nm.svg}<text x="${x + 60}" y="${(nm.bottom + 46).toFixed(0)}" font-family="${F}" font-weight="600" font-size="32" fill="${INK}">${esc(`${e.core_facts.city.split(',')[0]}, ${e.core_facts.country}`)}</text>`; })()}`;
-  const s2 = slide('paper', picks.slice(0, 3).map((e, i) => card(80, 230 + i * 300, e)).join(''), { tag, page: 2, pages: P });
-  const s3 = slide('paper', picks.slice(3, 6).map((e, i) => card(80, 230 + i * 300, e)).join(''), { tag, page: 3, pages: P });
+  const s2 = slide('paper', picks.slice(0, 3).map((e, i) => card(80, 230 + i * 300, e)).join(''), { tag, page: 3, pages: P });
+  const s3 = slide('paper', picks.slice(3, 6).map((e, i) => card(80, 230 + i * 300, e)).join(''), { tag, page: 4, pages: P });
   const s4 = slide('paper', `${T('Which beach are you racing to?', { y: 360, size: 96, weight: 'heavy', fill: INK }).svg}
     ${T('Save this for your next holiday. Dates, distances and official links at runsea.run.', { y: 760, size: 44, fill: INK }).svg}
-    ${pill({ x: 80, y: 1000, w: 520, h: 120, label: 'runsea.run', size: 56 })}`, { tag, page: 4, pages: P });
-  add('13-race-then-beach', 'Race on Sunday, beach by lunch', 'paper', [s1, s2, s3, s4],
+    ${pill({ x: 80, y: 1000, w: 520, h: 120, label: 'runsea.run', size: 56 })}`, { tag, page: 5, pages: P });
+  const sMap = slide('paper', `${T('Six races by the sea', { y: 250, size: 72, weight: 'heavy', fill: INK }).svg}
+    ${seaMap({ x: 70, y: 360, s: 1.45, ...MAP_PAPER, pins: [...new Map(picks.map((e) => pinOf(e, INK, (pl) => pl.name)).filter(Boolean).map((q) => [q.name, q])).values()] })}`, { tag, page: 2, pages: P });
+  add('13-race-then-beach', 'Race on Sunday, beach by lunch', 'paper', [s1, sMap, s2, s3, s4],
     `Race on Sunday. Beach by lunch.\n\n${picks.map((e) => `${day(e.core_facts.date)}: ${clean(e.name)} (${e.core_facts.city.split(',')[0]}, ${e.core_facts.country})`).join('\n')}\n\nSave this for your next holiday and tag who you're going with. Dates and official links at runsea.run (link in bio)\n\n${TAGS} #racecation #beach`);
 }
 
 // ---- 14 The fastest fields (glow) -------------------------------------------
 {
   const fields = ft.raceQuantiles.filter((r) => r.distance === 'Half' && r.n >= 500).sort((a, b) => a.q[50] - b.q[50]).slice(0, 5);
-  const P = 3, tag = 'Fastest fields';
+  const P = 4, tag = 'Fastest fields';
   const s1 = slide('glow', `
     ${T('The fastest half marathon crowd in Southeast Asia', { y: 280, size: 84, weight: 'heavy' }).svg}
     <text x="80" y="820" font-family="${HV}" font-weight="900" font-size="230" fill="${LIME}" filter="url(#glow)">${hm(fields[0].q[50])}</text>
@@ -356,8 +372,10 @@ const TAGS = '#running #halfmarathon #marathon #runsea #southeastasia #runningsi
   const s2 = slide('glow', `${T('Fastest fields: typical half marathon finish', { y: 250, size: 62, weight: 'heavy' }).svg}${rows}
     ${T('Races with 500+ half marathon finishers in the past two years.', { y: 1200, size: 30, fill: MUTED }).svg}`, { tag, page: 2, pages: P });
   const s3 = slide('glow', `${T('How would you rank in the fastest crowd?', { y: 380, size: 90, weight: 'heavy' }).svg}
-    <text x="80" y="960" font-family="${HV}" font-weight="900" font-size="80" fill="${LIME}">runsea.run/tools</text>${skyline(0.9, 0.5)}`, { tag, page: 3, pages: P });
-  add('14-fastest-fields', 'The fastest half marathon fields', 'glow', [s1, s2, s3],
+    <text x="80" y="960" font-family="${HV}" font-weight="900" font-size="80" fill="${LIME}">runsea.run/tools</text>${skyline(0.9, 0.5)}`, { tag, page: 4, pages: P });
+  const sMap = slide('glow', `${T('Where the fast crowds race', { y: 250, size: 68, weight: 'heavy' }).svg}
+    ${seaMap({ x: 80, y: 360, s: 1.45, pins: fields.map((r, k) => pinOf(bySlug(r.slug), k === 0 ? LIME : CREAM, (pl) => `${pl.name} ${hm(r.q[50])}`)).filter(Boolean) })}`, { tag, page: 3, pages: P });
+  add('14-fastest-fields', 'The fastest half marathon fields', 'glow', [s1, s2, sMap, s3],
     `The fastest half marathon crowds in Southeast Asia, by typical finish time:\n\n${fields.map((r, i) => `${i + 1}. ${clean(r.name)}, ${r.country}: ${hm(r.q[50])}`).join('\n')}\n\nHow would you rank against them? runsea.run/tools (link in bio)\n\n${TAGS}`);
 }
 
@@ -366,7 +384,7 @@ const TAGS = '#running #halfmarathon #marathon #runsea #southeastasia #runningsi
   const rev = all.filter(isReviewableEntity);
   const halted = rev.filter((e) => e.core_facts?.event_status && /^\d{4}-\d{2}-\d{2}$/.test(e.core_facts.date));
   const haze = halted.filter((e) => /haze|air quality|air pollutant|jerebu/i.test(e.core_facts.event_status_note ?? ''));
-  const P = 3, tag = 'Haze season';
+  const P = 4, tag = 'Haze season';
   const s1 = slide('poster', `
     ${T('SINCE SEPTEMBER, HAZE HAS CALLED OFF', { y: 200, size: 36, weight: 800, fill: INK, ls: 3, maxWidth: 900 }).svg}
     <text x="60" y="600" font-family="${HV}" font-weight="900" font-size="420" letter-spacing="-16" fill="${INK}">${haze.length}</text>
@@ -376,11 +394,14 @@ const TAGS = '#running #halfmarathon #marathon #runsea #southeastasia #runningsi
   const hh = T('Racing in haze season?', { y: 260, size: 76, weight: 'heavy', maxWidth: 960 });
   let y = hh.bottom + 170;
   const tipSvg = tips.map(([h, b]) => { const s = `<text x="80" y="${y}" font-family="${HV}" font-weight="900" font-size="54" fill="${LIME}">${esc(h)}</text>${T(b, { y: y + 66, size: 40 }).svg}`; y += 230; return s; }).join('');
-  const s2 = slide('ink', `${hh.svg}${tipSvg}`, { tag, page: 2, pages: P });
+  const s2 = slide('ink', `${hh.svg}${tipSvg}`, { tag, page: 3, pages: P });
   const s3 = slide('poster', `${T('Every race called off this year', { y: 330, size: 96, weight: 'heavy', fill: INK }).svg}
     <text x="80" y="900" font-family="${HV}" font-weight="900" font-size="64" fill="${LIME}">runsea.run/</text><text x="80" y="980" font-family="${HV}" font-weight="900" font-size="64" fill="${LIME}">race-cancellations</text>
-    ${T('With the organiser’s reason and a source for each.', { y: 1080, size: 36, fill: CREAM }).svg}`, { tag, page: 3, pages: P, split: 700 });
-  add('15-haze-season', `${haze.length} races called off for haze`, 'poster', [s1, s2, s3],
+    ${T('With the organiser’s reason and a source for each.', { y: 1080, size: 36, fill: CREAM }).svg}`, { tag, page: 4, pages: P, split: 700 });
+  const sMap = slide('ink', `${T(`${haze.length} races called off for haze`, { y: 250, size: 68, weight: 'heavy' }).svg}
+    ${seaMap({ x: 60 - 120 * 2.7, y: 360 - 255 * 2.7, s: 2.7, clip: [80, 330, 920, 860], pins: [...new Map(haze.map((e) => pinOf(e, ORANGE, (pl) => pl.name)).filter(Boolean).map((p) => [p.name, p])).values()] })}
+    ${T('September to November 2026.', { y: 1235, size: 30, fill: MUTED }).svg}`, { tag, page: 2, pages: P });
+  add('15-haze-season', `${haze.length} races called off for haze`, 'poster', [s1, sMap, s2, s3],
     `Since September, haze has called off ${haze.length} half and full marathons in Malaysia and Singapore, and ${halted.length} races have been called off in all.\n\nRacing in the dry season? Watch your organiser's page the night before, check the API or PSI yourself, and book flexible travel.\n\nEvery race called off this year, with the reason and a source: runsea.run/race-cancellations (link in bio)\n\n${TAGS} #haze #jerebu`);
 }
 
