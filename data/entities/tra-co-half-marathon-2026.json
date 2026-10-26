@@ -1,0 +1,76 @@
+{
+  "entity_id": "tra-co-half-marathon-2026",
+  "slug": "tra-co-half-marathon-2026",
+  "name": "Tra Co Half Marathon 2026",
+  "category_id": "half-marathon",
+  "region_id": "vietnam",
+  "short_description": "Tra Co Half Marathon 2026 is on Saturday 19 December 2026 at Sa Vi and Tra Co in Mong Cai, Quang Ninh, at Vietnam's north-eastern tip, over 5 km, 10 km and 21 km.",
+  "ai_summary": "Tra Co Half Marathon 2026, subtitled 'Striding at the Nation's Frontier', is on Saturday 19 December 2026 around Sa Vi and Tra Co in Mong Cai 1 ward, Quang Ninh province. It is organised by Great Race Solution, the company behind Yen Tu Heritage Marathon, and offers 21 km, 10 km and 5 km. Entry for the 21 km rises through four tiers from 399,000 to 899,000 VND.",
+  "core_facts": {
+    "date": "2026-12-19",
+    "distance_km": [
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Sa Vi - Tra Co, Mong Cai 1 ward",
+    "city": "Mong Cai, Quang Ninh",
+    "country": "Vietnam",
+    "organizer": "Great Race Solution (GRVN)",
+    "price_range": "VND 299,000-899,000"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "When is Tra Co Half Marathon 2026 taking place?",
+      "answer": "On Saturday 19 December 2026, according to the race's own page on the iRace ticketing portal. Unusually for a Vietnamese road race it falls on a Saturday rather than a Sunday. Start times, the race-kit collection schedule and a course map had not yet been published on that page."
+    },
+    {
+      "question": "What distances does Tra Co Half Marathon 2026 offer?",
+      "answer": "Three: a 21 km half marathon, a 10 km and a 5 km. Age limits are counted in the competition year, so half marathon runners must be at least 16, 10 km runners at least 14 and 5 km runners at least eight. Changing distance costs 100,000 VND per change until 3 December."
+    },
+    {
+      "question": "Where is Tra Co Half Marathon 2026 held?",
+      "answer": "The organiser gives the location as Sa Vi and Tra Co in Mong Cai 1 ward, Quang Ninh province. Sa Vi cape and Tra Co beach lie at the north-eastern end of Vietnam's coastline, beside the border with China, which is where the race's subtitle about the nation's frontier comes from."
+    },
+    {
+      "question": "How much does it cost to enter Tra Co Half Marathon 2026?",
+      "answer": "Fees rise through four tiers between 25 October and 12 December. The 21 km goes from 399,000 to 899,000 VND, the 10 km from 349,000 to 699,000 VND and the 5 km from 299,000 to 599,000 VND. Groups of 15 or more runners receive a five percent discount on entries."
+    }
+  ],
+  "reliability_score": 40,
+  "tags": [
+    "half-marathon",
+    "vietnam"
+  ],
+  "source_mix": [
+    {
+      "url": "https://ticket.irace.vn/tra-co-half-marathon-sai-buoc-noi-dia-dau-to-quoc",
+      "label": "Race page on the iRace ticketing portal (organiser listing)",
+      "type": "registration_platform",
+      "last_checked": "2026-10-26"
+    },
+    {
+      "url": "https://ticket.irace.vn/",
+      "label": "iRace ticketing portal event list",
+      "type": "aggregator",
+      "last_checked": "2026-10-26"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on iRace",
+      "url": "https://ticket.irace.vn/tra-co-half-marathon-sai-buoc-noi-dia-dau-to-quoc",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-10-26",
+  "status": "needs_review"
+}

@@ -1,0 +1,73 @@
+{
+  "entity_id": "pangasinan-marathon-32km-beyond-21-2026",
+  "slug": "pangasinan-marathon-32km-beyond-21-2026",
+  "name": "Pangasinan Marathon 32KM Beyond 21 2026",
+  "category_id": "half-marathon",
+  "region_id": "philippines",
+  "short_description": "Pangasinan Marathon 32KM Beyond 21 is on Sunday 13 December 2026 at the Capitol Compound in Lingayen, Pangasinan, with 32 km, 21 km, 10 km and 5 km races.",
+  "ai_summary": "Pangasinan Marathon 32KM Beyond 21 is held on Sunday 13 December 2026 at the Capitol Compound, Barangay Poblacion, in Lingayen, Pangasinan, with the start listed at 4:00 am. Its headline race is 32 km, with 21 km, 10 km and 5 km options priced from PHP 1,099 to PHP 2,299. The organiser is UR Events Management.",
+  "core_facts": {
+    "date": "2026-12-13",
+    "distance_km": [
+      32,
+      21.1,
+      10,
+      5
+    ],
+    "primary_distance_km": 32,
+    "venue": "Capitol Compound, Barangay Poblacion",
+    "city": "Lingayen, Pangasinan",
+    "country": "Philippines",
+    "organizer": "UR Events Management",
+    "price_range": "PHP 1,099-2,299"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "When is Pangasinan Marathon 32KM Beyond 21?",
+      "answer": "The race is on Sunday 13 December 2026, with the start listed at 4:00 am Philippine time on the MyRunTime entry page. Online registration for every category closes on 5 December 2026. Gun times for each distance and cut-off times have not been published yet."
+    },
+    {
+      "question": "What distances are offered?",
+      "answer": "As the name says, the main race goes beyond the half marathon to 32 km, aimed at runners building towards a full marathon. There are also 21 km, 10 km and 5 km races. Fees are PHP 2,299 for 32 km, PHP 1,999 for 21 km, PHP 1,499 for 10 km and PHP 1,099 for 5 km."
+    },
+    {
+      "question": "Where is it held?",
+      "answer": "Start and finish are at the Provincial Capitol Compound in Barangay Poblacion, Lingayen, the provincial capital of Pangasinan on the Lingayen Gulf coast. It is a different event from the Pangasinan Half Marathon, which was held in Lingayen in September 2026."
+    }
+  ],
+  "reliability_score": 40,
+  "tags": [
+    "half-marathon",
+    "philippines"
+  ],
+  "source_mix": [
+    {
+      "url": "https://myruntime.com/register/pangasinan-marathon-32km-beyond-21",
+      "label": "MyRunTime entry page (date, venue, categories, fees, organiser)",
+      "type": "registration_platform",
+      "last_checked": "2026-10-26"
+    },
+    {
+      "url": "https://www.pinoyfitness.com/event/pangasinan-marathon-32km-beyond-21-2026/",
+      "label": "Pinoy Fitness listing",
+      "type": "aggregator",
+      "last_checked": "2026-10-26"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on MyRunTime",
+      "url": "https://myruntime.com/register/pangasinan-marathon-32km-beyond-21",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-10-26",
+  "status": "needs_review"
+}

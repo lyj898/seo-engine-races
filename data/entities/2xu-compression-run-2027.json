@@ -1,0 +1,88 @@
+{
+  "entity_id": "2xu-compression-run-2027",
+  "slug": "2xu-compression-run-2027",
+  "name": "2XU Compression Run 2027",
+  "category_id": "half-marathon",
+  "region_id": "singapore",
+  "short_description": "The 2XU Compression Run 2027 flags off its 21.1 km half marathon at 4.15am on Sunday 21 March 2027 from the F1 Pit Building in Marina Bay, Singapore, with 10 km and 5 km races later that morning.",
+  "ai_summary": "The 2XU Singapore Compression Run 2027 is on Sunday 21 March 2027, starting from the F1 track beside the Pit Building at Marina Bay. The 21.1 km half marathon flags off at 4.15am with a 4 hour cut-off, followed by the 10 km at 6.30am and the 5 km at 8am. The race is organised by Pink Apple Pte Ltd, and the nearest station is Promenade on the Circle Line.",
+  "core_facts": {
+    "date": "2027-03-21",
+    "distance_km": [
+      21.1,
+      10,
+      5
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "F1 Pit Building, Marina Bay",
+    "city": "Singapore",
+    "country": "Singapore",
+    "organizer": "Pink Apple Pte Ltd"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "When is the 2XU Compression Run 2027 taking place?",
+      "answer": "The race is on Sunday 21 March 2027. The race village opens for check-in and baggage at 2.30am, the 21.1 km half marathon flags off at 4.15am, the 10 km at 6.30am and the 5 km at 8am. The organiser notes these programme timings may still change before race day."
+    },
+    {
+      "question": "What distances does the 2XU Compression Run offer?",
+      "answer": "Three distances: a 21.1 km half marathon, a 10 km and a 5 km. The half marathon has a 4 hour cut-off, and runners who fall behind the checkpoint timings may be moved onto footpaths when roads reopen. Half marathon starters are placed in pens A to E, and podium prizes go by gun time."
+    },
+    {
+      "question": "Where does the race start and how do I get there?",
+      "answer": "All races start at the F1 track beside the Pit Building in Marina Bay, near the Singapore Flyer. The nearest MRT is Promenade on the Circle Line, about five minutes on foot from Exit A. The Pit Building coach park is closed on race day, and shuttle buses run from selected MRT stations."
+    }
+  ],
+  "reliability_score": 62,
+  "tags": [
+    "half-marathon",
+    "singapore"
+  ],
+  "source_mix": [
+    {
+      "url": "https://2xurun.com/",
+      "label": "Official race site (2027 date and venue)",
+      "type": "official",
+      "last_checked": "2026-10-26"
+    },
+    {
+      "url": "https://2xurun.com/race-day/",
+      "label": "Official race-day programme and getting to the start",
+      "type": "official",
+      "last_checked": "2026-10-26"
+    },
+    {
+      "url": "https://2xurun.com/rules-regulation/",
+      "label": "Official rules naming Pink Apple Pte Ltd as organiser",
+      "type": "official",
+      "last_checked": "2026-10-26"
+    },
+    {
+      "url": "https://2xu.events-sign-up.com/cgi-bin/registration/2xu2027/prereg.cgi",
+      "label": "Entry page on Events Sign Up",
+      "type": "registration_platform",
+      "last_checked": "2026-10-26"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://2xurun.com/",
+      "type": "official_website"
+    },
+    {
+      "label": "Entry page on Events Sign Up",
+      "url": "https://2xu.events-sign-up.com/cgi-bin/registration/2xu2027/prereg.cgi",
+      "type": "registration"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-10-26",
+  "status": "active"
+}

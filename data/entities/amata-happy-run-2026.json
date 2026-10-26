@@ -1,0 +1,77 @@
+{
+  "entity_id": "amata-happy-run-2026",
+  "slug": "amata-happy-run-2026",
+  "name": "Amata Happy Run 2026",
+  "category_id": "half-marathon",
+  "region_id": "vietnam",
+  "short_description": "Amata Happy Run 2026 is a charity road race on Sunday 13 December 2026 at the Amata industrial park in Long Binh ward, Dong Nai, over 3 km, 5 km, 10 km and 21 km.",
+  "ai_summary": "Amata Happy Run 2026 is on Sunday 13 December 2026 at the Amata industrial park in Long Binh ward, Dong Nai, organised by Amata City Bien Hoa JSC. It offers 21 km, 10 km, 5 km and 3 km, with cut-offs of three and a half hours for the 21 km and two hours for the 10 km. The organiser says proceeds help improve facilities at local schools.",
+  "core_facts": {
+    "date": "2026-12-13",
+    "distance_km": [
+      3,
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Amata industrial park (KCN Amata), Long Binh ward",
+    "city": "Bien Hoa, Dong Nai",
+    "country": "Vietnam",
+    "organizer": "Amata City Bien Hoa JSC (Cong ty Co phan Do thi Amata Bien Hoa)",
+    "price_range": "VND 285,000-485,000 (early bird)"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "When is Amata Happy Run 2026 taking place?",
+      "answer": "On Sunday 13 December 2026, according to the organiser's page on the Pace8 entry platform. The event schedule, including start times and race-kit collection, was marked as to be announced later. Transfers and changes to runner details are accepted until 11.59pm on 20 November 2026 for a 100,000 VND fee."
+    },
+    {
+      "question": "What distances and cut-offs does Amata Happy Run 2026 have?",
+      "answer": "Four distances: a 21 km half marathon with a three-and-a-half-hour cut-off, a 10 km with two hours, a 5 km with one hour and a 3 km with 45 minutes. Runners must be at least 16 for the 21 km and 12 for the 10 km, while the 5 km and 3 km are open from age five."
+    },
+    {
+      "question": "Where is Amata Happy Run 2026 held?",
+      "answer": "Inside the Amata industrial park in Long Binh ward, Dong Nai province, on the edge of Bien Hoa and about 30 km from central Ho Chi Minh City. The park's developer, Amata City Bien Hoa, organises the race as a community project and says it supports upgrades to buildings, infrastructure and learning conditions at local schools."
+    },
+    {
+      "question": "How much does Amata Happy Run 2026 cost?",
+      "answer": "Early-bird entry, listed from 13 October to 15 November, costs 485,000 VND for the 21 km, 385,000 VND for the 10 km, 335,000 VND for the 5 km and 285,000 VND for the 3 km. Fees are not refundable once paid, and both individual and group entries are offered through Pace8."
+    }
+  ],
+  "reliability_score": 40,
+  "tags": [
+    "half-marathon",
+    "vietnam"
+  ],
+  "source_mix": [
+    {
+      "url": "https://pace8.vn/su-kien/amata-happy-run-2026",
+      "label": "Race page on the Pace8 entry platform (organiser listing)",
+      "type": "registration_platform",
+      "last_checked": "2026-10-26"
+    },
+    {
+      "url": "https://pace8.vn/su-kien",
+      "label": "Pace8 event list",
+      "type": "aggregator",
+      "last_checked": "2026-10-26"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on Pace8",
+      "url": "https://pace8.vn/su-kien/amata-happy-run-2026",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-10-26",
+  "status": "needs_review"
+}

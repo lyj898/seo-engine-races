@@ -1,0 +1,71 @@
+{
+  "entity_id": "siak-half-marathon-2026",
+  "slug": "siak-half-marathon-2026",
+  "name": "Siak Half Marathon 2026",
+  "category_id": "half-marathon",
+  "region_id": "indonesia",
+  "short_description": "The Siak Half Marathon 2026 runs 21 km, 10 km and 5 km races on Sunday 6 December 2026 from the field in front of Siak Palace in Siak Sri Indrapura, Riau, Indonesia.",
+  "ai_summary": "The Siak Half Marathon 2026 takes place on Sunday 6 December 2026 in Siak Sri Indrapura, Riau, starting and finishing at the field in front of the Siak Sri Indrapura Palace. Billed as The Royal Green Heritage, the route links the history of the Siak Sultanate, Malay culture and the Siak River. Categories are a 21 km half marathon, 10 km, and 5 km for the public and for students, with cut-offs of 4 hours, 2 hours and 1 hour. The event is staged by the Siak Regency government and, under its rules, is open only to Indonesian citizens.",
+  "core_facts": {
+    "date": "2026-12-06",
+    "distance_km": [
+      21.1,
+      10,
+      5
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Lapangan Depan Istana Siak Sri Indrapura (field in front of Siak Palace)",
+    "city": "Siak Sri Indrapura, Riau",
+    "country": "Indonesia",
+    "organizer": "Siak Regency Government (Pemkab Siak)"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "When is the Siak Half Marathon 2026 taking place?",
+      "answer": "The race is on Sunday 6 December 2026 in Siak Sri Indrapura, the capital of Siak Regency in Riau province. Billed as The Royal Green Heritage, it is a sport-tourism event run by the regency, and all three distances are held on that one morning."
+    },
+    {
+      "question": "What distances can runners choose from?",
+      "answer": "There are three distances: a 21 km half marathon, a 10 km and a 5 km, with the 5 km split into a public category and a student category. Cut-off times are 4 hours for the half marathon, 2 hours for the 10 km and 1 hour for the 5 km. Half marathon runners must be at least 16."
+    },
+    {
+      "question": "Where does the race start and can foreign runners enter?",
+      "answer": "Start and finish are on the field in front of the Siak Sri Indrapura Palace, the old seat of the Siak Sultanate, beside the Siak River. The organiser's rules state the 2026 race is open only to Indonesian citizens, and foreign nationals who enter can be disqualified, so overseas visitors cannot take part."
+    }
+  ],
+  "reliability_score": 40,
+  "tags": [
+    "half-marathon",
+    "indonesia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://booking.tribunnews.com/running/siak-half-marathon-2026",
+      "label": "Official race page on Tribun Booking (date, categories, rules, venue)",
+      "type": "registration_platform",
+      "last_checked": "2026-10-26"
+    },
+    {
+      "url": "https://jadwallari.id/events/siak-half-marathon/",
+      "label": "JadwalLari.id listing",
+      "type": "aggregator",
+      "last_checked": "2026-10-26"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on Tribun Booking",
+      "url": "https://booking.tribunnews.com/running/siak-half-marathon-2026",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-10-26",
+  "status": "needs_review"
+}

@@ -1,0 +1,71 @@
+{
+  "entity_id": "iskandar-city-half-marathon-2027-powered-by-jomrun",
+  "slug": "iskandar-city-half-marathon-2027-powered-by-jomrun",
+  "name": "Iskandar City Half Marathon 2027 Powered by JomRun",
+  "category_id": "half-marathon",
+  "region_id": "malaysia",
+  "short_description": "Iskandar City Half Marathon 2027 Powered by JomRun is on Sunday 18 April 2027 on Persiaran Medini 5 in Iskandar Puteri, Johor, in front of Sunway Big Box, over 21.1 km, 10 km and 5 km.",
+  "ai_summary": "The Iskandar City Half Marathon 2027 Powered by JomRun is held on Sunday 18 April 2027 on Persiaran Medini 5 in Iskandar Puteri, Johor, in front of the Sunway Big Box retail park. It has a 21.1 km competitive run plus 10 km and 5 km fun runs, with the event start listed at 3:45 am. Race kits are collected at Sunway Big Box on Saturday 17 April, and 21.1 km runners who also finish the Johor Bahru City Half Marathon in January earn a Johor Duo Challenge medal.",
+  "core_facts": {
+    "date": "2027-04-18",
+    "distance_km": [
+      21.1,
+      10,
+      5
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Persiaran Medini 5, in front of Sunway Big Box, Iskandar Puteri",
+    "city": "Iskandar Puteri, Johor",
+    "country": "Malaysia",
+    "organizer": "JomRun"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "When is the Iskandar City Half Marathon 2027?",
+      "answer": "Race day is Sunday 18 April 2027, with the event start listed at 3:45 am. Race kits are collected the day before, on Saturday 17 April from 11 am to 6 pm at Sunway Big Box Retail Park. Some calendars show 17 April, but that is the kit-collection day, not the race."
+    },
+    {
+      "question": "Which categories are offered?",
+      "answer": "Runners can enter a 21.1 km competitive run, a 10 km fun run or a 5 km fun run. All finishers receive a medal, and 21.1 km finishers also get an Ultron finisher jersey. Podium placings are decided on gun time, and the route map has not been published yet."
+    },
+    {
+      "question": "What is the Johor Duo Challenge?",
+      "answer": "It is a bonus medal for runners who complete the 21.1 km at both the Johor Bahru City Half Marathon on 10 January 2027 and this race. Eligible runners verify their results at the Johor Duo Challenge booth at the Iskandar City event site to collect the extra medal."
+    }
+  ],
+  "reliability_score": 35,
+  "tags": [
+    "half-marathon",
+    "malaysia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.jomrun.com/event/Iskandar-City-Half-Marathon-2027-Powered-by-JomRun",
+      "label": "JomRun event page (date, venue, categories, kit collection)",
+      "type": "registration_platform",
+      "last_checked": "2026-10-26"
+    },
+    {
+      "url": "https://lesgo.my/event/iskandar-city-half-marathon-2027-powered-by-jomrun/",
+      "label": "Lesgo.my listing (shows 17 April, the kit-collection day)",
+      "type": "aggregator",
+      "last_checked": "2026-10-26"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on JomRun",
+      "url": "https://www.jomrun.com/event/Iskandar-City-Half-Marathon-2027-Powered-by-JomRun",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-10-26",
+  "status": "needs_review"
+}

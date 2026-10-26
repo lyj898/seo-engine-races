@@ -1,0 +1,71 @@
+{
+  "entity_id": "lake-toba-cross-island-run-2026",
+  "slug": "lake-toba-cross-island-run-2026",
+  "name": "Lake Toba Cross Island Run 2026",
+  "category_id": "half-marathon",
+  "region_id": "indonesia",
+  "short_description": "The Lake Toba Cross Island Run 2026 is a cross-country race from Parapat towards Samosir on Sunday 20 December 2026, with a 21 km Cross Marathon plus 10 km, 5 km and family runs.",
+  "ai_summary": "The Lake Toba Cross Island Run 2026 takes place on Sunday 20 December 2026 at Lake Toba in North Sumatra, based in Parapat, Simalungun Regency, on a cross-country route that links Parapat and Samosir. The longest race is the 21 km Cross Marathon, alongside a 10 km, a 5 km open, a 5 km student race and a family fun run. All racing categories are chip-timed, and the organiser is Toba Collective.",
+  "core_facts": {
+    "date": "2026-12-20",
+    "distance_km": [
+      21.1,
+      10,
+      5
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Parapat, Lake Toba (Parapat-Samosir route)",
+    "city": "Parapat, Simalungun, North Sumatra",
+    "country": "Indonesia",
+    "organizer": "Toba Collective"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "When is the Lake Toba Cross Island Run 2026 taking place?",
+      "answer": "The race is on Sunday 20 December 2026, with the event day running from 5am at Parapat on the eastern shore of Lake Toba in North Sumatra. The 21 km Cross Marathon is the headline race, and the shorter categories and family run follow on the same morning."
+    },
+    {
+      "question": "What distances are on offer?",
+      "answer": "The longest race is the 21 km Cross Marathon, a half-marathon-length run over mixed cross-country terrain. There is also a 10 km, a 5 km open race, a 5 km race for students with a valid student card, and a family fun run. The racing categories use official chip timing, and prizes include cash, shoes and bicycles."
+    },
+    {
+      "question": "Where is the race held and what is the course like?",
+      "answer": "Racing is based in Parapat in Simalungun Regency, the main ferry town on the eastern side of Lake Toba, with a route described as linking Parapat and Samosir. The organiser calls it a cross-country run with lake, mountain and island views, so expect hills and varied surfaces rather than flat city roads."
+    }
+  ],
+  "reliability_score": 35,
+  "tags": [
+    "half-marathon",
+    "indonesia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://artatix.co.id/event/lake_toba_cross_island_run_2026",
+      "label": "Official race page on Artatix (date, venue, categories, organiser)",
+      "type": "registration_platform",
+      "last_checked": "2026-10-26"
+    },
+    {
+      "url": "https://jadwallari.id/events/lake-toba-cross-island-run/",
+      "label": "JadwalLari.id listing",
+      "type": "aggregator",
+      "last_checked": "2026-10-26"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on Artatix",
+      "url": "https://artatix.co.id/event/lake_toba_cross_island_run_2026",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-10-26",
+  "status": "needs_review"
+}

@@ -1,0 +1,72 @@
+{
+  "entity_id": "kebumen-half-marathon-2026",
+  "slug": "kebumen-half-marathon-2026",
+  "name": "Kebumen Half Marathon 2026",
+  "category_id": "half-marathon",
+  "region_id": "indonesia",
+  "short_description": "The Kebumen Half Marathon 2026 is a road race on Sunday 20 December 2026 from Alun-Alun Pancasila in Kebumen, Central Java, Indonesia, with 21 km, 10 km and 5 km categories.",
+  "ai_summary": "The Kebumen Half Marathon 2026 is held on Sunday 20 December 2026 in Kebumen, Central Java, starting from Alun-Alun Pancasila, the town square. It offers a 21 km half marathon, a 10 km and a 5 km, each with Open and Master categories. Entry fees are IDR 175,000 for the 5 km, IDR 225,000 for the 10 km and IDR 335,000 for the half marathon, before handling and bank fees. The organiser is listed on its entry page as Kebumen Run.",
+  "core_facts": {
+    "date": "2026-12-20",
+    "distance_km": [
+      21.1,
+      10,
+      5
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Alun-Alun Pancasila Kebumen",
+    "city": "Kebumen, Central Java",
+    "country": "Indonesia",
+    "organizer": "Kebumen Run",
+    "price_range": "IDR 175,000-335,000"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "When is the Kebumen Half Marathon 2026 taking place?",
+      "answer": "The race is on Sunday 20 December 2026 in Kebumen, a regency town on the southern side of Central Java between Purwokerto and Yogyakarta. All three distances are run on that single day, and the event page on the TIAS entry platform lists the date and the full set of categories."
+    },
+    {
+      "question": "Which race categories are offered?",
+      "answer": "Three distances are on offer: a 21 km half marathon, a 10 km and a 5 km. Each distance has an Open category and a Master category, both at the same price. Fees are IDR 175,000, IDR 225,000 and IDR 335,000 respectively, with handling and bank charges added at checkout."
+    },
+    {
+      "question": "Where do the races start and finish?",
+      "answer": "Everything is based at Alun-Alun Pancasila, the main town square in central Kebumen, which serves as the start and finish area. Kebumen is on the main southern Java rail line, so runners from Yogyakarta, Purwokerto or Jakarta can reach the town by train the day before the race."
+    }
+  ],
+  "reliability_score": 40,
+  "tags": [
+    "half-marathon",
+    "indonesia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://tias.co.id/event/kebumen-half-marathon-2026",
+      "label": "Official race page on TIAS (date, venue, categories, fees)",
+      "type": "registration_platform",
+      "last_checked": "2026-10-26"
+    },
+    {
+      "url": "https://jadwallari.id/events/kebumen-half-marathon/",
+      "label": "JadwalLari.id listing",
+      "type": "aggregator",
+      "last_checked": "2026-10-26"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on TIAS",
+      "url": "https://tias.co.id/event/kebumen-half-marathon-2026",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-10-26",
+  "status": "needs_review"
+}

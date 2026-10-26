@@ -1,0 +1,72 @@
+{
+  "entity_id": "tagaytay-uphill-challenge-2026",
+  "slug": "tagaytay-uphill-challenge-2026",
+  "name": "Tagaytay Uphill Challenge 2026 (4th Edition)",
+  "category_id": "half-marathon",
+  "region_id": "philippines",
+  "short_description": "The fourth Tagaytay Uphill Challenge is on Sunday 13 December 2026 from Woodside Farm and Waterparks in Cabuyao, Laguna, with 21 km, 10 km and 5 km races.",
+  "ai_summary": "The Tagaytay Uphill Challenge 4th Edition is on Sunday 13 December 2026, based at Woodside Farm and Waterparks in Barangay Casile, Cabuyao, Laguna, with the start listed at 4:00 am. It offers 21 km, 10 km and 5 km races, priced from PHP 699 to PHP 1,799 depending on entry period. The organiser is DGB Events Management Services.",
+  "core_facts": {
+    "date": "2026-12-13",
+    "distance_km": [
+      21.1,
+      10,
+      5
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Woodside Farm and Waterparks, Purok 6, Brgy Casile",
+    "city": "Cabuyao, Laguna",
+    "country": "Philippines",
+    "organizer": "DGB Events Management Services",
+    "price_range": "PHP 699-1,799"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "When is the Tagaytay Uphill Challenge 2026?",
+      "answer": "The fourth edition is on Sunday 13 December 2026, with the start listed at 4:00 am Philippine time on the MyRunTime entry page. Separate gun times for each distance and cut-off times have not been published yet, so check the organiser's race-day advisory before travelling to Cabuyao."
+    },
+    {
+      "question": "What distances and fees are offered?",
+      "answer": "There are three races: 21 km, 10 km and 5 km. Regular fees are PHP 1,799 for 21 km, PHP 1,299 for 10 km and PHP 799 for 5 km; early-bird entries until 10 November cost PHP 1,599, PHP 1,149 and PHP 699. Courier and platform fees are extra."
+    },
+    {
+      "question": "Where is the race held?",
+      "answer": "The race is based at Woodside Farm and Waterparks in Barangay Casile, Cabuyao, Laguna, in the uplands below the Tagaytay ridge. The event's name signals a hilly course climbing towards the Tagaytay ridge rather than a flat road race, though the route map has not been released yet."
+    }
+  ],
+  "reliability_score": 40,
+  "tags": [
+    "half-marathon",
+    "philippines"
+  ],
+  "source_mix": [
+    {
+      "url": "https://myruntime.com/register/tagaytay-uphill-challenge-4th-edition",
+      "label": "MyRunTime entry page (date, venue, categories, fees, organiser)",
+      "type": "registration_platform",
+      "last_checked": "2026-10-26"
+    },
+    {
+      "url": "https://www.pinoyfitness.com/event/tagaytay-uphill-challenge-4th-edition-2026/",
+      "label": "Pinoy Fitness listing",
+      "type": "aggregator",
+      "last_checked": "2026-10-26"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on MyRunTime",
+      "url": "https://myruntime.com/register/tagaytay-uphill-challenge-4th-edition",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-10-26",
+  "status": "needs_review"
+}

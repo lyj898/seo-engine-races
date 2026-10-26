@@ -1,0 +1,73 @@
+{
+  "entity_id": "chaiyaphum-marathon-2027",
+  "slug": "chaiyaphum-marathon-2027",
+  "name": "Chaiyaphum Marathon 2027",
+  "category_id": "full-marathon",
+  "region_id": "thailand",
+  "short_description": "Chaiyaphum Marathon 2027 runs on Sunday 21 February 2027 from Muang Chaiyaphum Municipal Stadium, north-east Thailand, with a marathon, half marathon, 10 km and 5 km.",
+  "ai_summary": "Chaiyaphum Marathon 2027 is billed as the first marathon in Chaiyaphum and is organised by Runvegas Series with Chaiyaphum Province. It was first set for 11 October 2026, then moved to Sunday 21 February 2027 after floods damaged the organiser's office and race packs. The race.thai.run entry page lists 42 km, 21 km, 10 km and 5 km races, with regular entry from THB 750 to 1,300 and half-price senior entries.",
+  "core_facts": {
+    "date": "2027-02-21",
+    "distance_km": [
+      42.195,
+      21.1,
+      10,
+      5
+    ],
+    "primary_distance_km": 42.195,
+    "venue": "Muang Chaiyaphum Municipal Stadium",
+    "city": "Chaiyaphum",
+    "country": "Thailand",
+    "organizer": "Runvegas Series with Chaiyaphum Province and the Sports Authority of Thailand, Chaiyaphum",
+    "price_range": "THB 300-2,050"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "When is Chaiyaphum Marathon 2027 taking place?",
+      "answer": "The race is on Sunday 21 February 2027. It was originally scheduled for Sunday 11 October 2026, but floods in late September 2026 damaged the organiser's office and the race packs, so Runvegas Series moved it to February. The race.thai.run entry page now carries the new date."
+    },
+    {
+      "question": "What distances can runners choose at Chaiyaphum Marathon?",
+      "answer": "Four: a full marathon (42.195 km), a half marathon (21.1 km), a 10 km and a 5 km. Regular entry is THB 1,300, 1,100, 850 and 750 respectively, senior entries cost about half, and larger shirt sizes and merchandise bundles cost more."
+    },
+    {
+      "question": "Where does the Chaiyaphum race start and finish?",
+      "answer": "All four races are based at Muang Chaiyaphum Municipal Stadium in the provincial capital of Chaiyaphum, in north-east Thailand. The organiser has not yet published course maps or start times for the rescheduled February date, so check the race.thai.run entry page before travelling."
+    }
+  ],
+  "reliability_score": 35,
+  "tags": [
+    "full-marathon",
+    "thailand"
+  ],
+  "source_mix": [
+    {
+      "url": "https://race.thai.run/chaiyaphummarathon1st",
+      "label": "Chaiyaphum Marathon entry page on race.thai.run (event date 21 Feb 2027, distances and prices)",
+      "type": "registration_platform",
+      "last_checked": "2026-10-26"
+    },
+    {
+      "url": "https://thesublist.run/event/chaiyaphum-marathon-2027/",
+      "label": "TheSubList listing, Chaiyaphum Marathon 2027",
+      "type": "aggregator",
+      "last_checked": "2026-10-26"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on race.thai.run",
+      "url": "https://race.thai.run/chaiyaphummarathon1st",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-10-26",
+  "status": "needs_review"
+}

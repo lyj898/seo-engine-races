@@ -1,0 +1,66 @@
+{
+  "entity_id": "pekan-rabu-half-marathon-2027",
+  "slug": "pekan-rabu-half-marathon-2027",
+  "name": "Pekan Rabu Half Marathon 2027",
+  "category_id": "half-marathon",
+  "region_id": "malaysia",
+  "short_description": "Pekan Rabu Half Marathon 2027 is on Saturday 9 January 2027 at Pekan Rabu in Alor Setar, Kedah, with a 3am start and 21 km, 10 km and 5 km categories.",
+  "ai_summary": "The Pekan Rabu Half Marathon 2027 is held on Saturday 9 January 2027 at Pekan Rabu, the market complex in central Alor Setar, Kedah, with a 3:00 am start. It offers 21 km, 10 km and 5 km categories, with fees from RM 45 to RM 150. The organiser is Pelikat Batik Run, which also stages the Pendang Half Marathon, and entries are taken on Howei.",
+  "core_facts": {
+    "date": "2027-01-09",
+    "distance_km": [
+      21.1,
+      10,
+      5
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Pekan Rabu, Alor Setar",
+    "city": "Alor Setar, Kedah",
+    "country": "Malaysia",
+    "organizer": "Pelikat Batik Run",
+    "price_range": "MYR 45-150"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "When is the Pekan Rabu Half Marathon 2027?",
+      "answer": "It is on Saturday 9 January 2027, a Saturday rather than the usual Sunday, with the start set for 3:00 am. Registration on the Howei platform closes on 31 December 2026, more than a week before the race. Category start times and cut-offs have not been published yet."
+    },
+    {
+      "question": "What distances are on offer?",
+      "answer": "There are three distances: a 21 km half marathon, a 10 km and a 5 km. Entry fees range from RM 45 to RM 150 across the categories, according to the Howei event page, which does not yet break the price down for each distance or list cut-off times."
+    },
+    {
+      "question": "Where is the race held?",
+      "answer": "The event is based at Pekan Rabu, the well-known traditional market and shopping complex in the centre of Alor Setar, the state capital of Kedah. It is run by Pelikat Batik Run, the same organiser behind the Pendang Half Marathon in April 2027."
+    }
+  ],
+  "reliability_score": 40,
+  "tags": [
+    "half-marathon",
+    "malaysia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://howei.com/event_details/pekanrabuhalfmarathon2027",
+      "label": "Howei event page (date, time, venue, distances, fees, organiser)",
+      "type": "registration_platform",
+      "last_checked": "2026-10-26"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on Howei",
+      "url": "https://howei.com/event_details/pekanrabuhalfmarathon2027",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-10-26",
+  "status": "needs_review"
+}

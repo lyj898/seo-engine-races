@@ -1,0 +1,66 @@
+{
+  "entity_id": "pocari-sweat-run-carnival-2027",
+  "slug": "pocari-sweat-run-carnival-2027",
+  "name": "POCARI SWEAT RUN Carnival 2027",
+  "category_id": "half-marathon",
+  "region_id": "thailand",
+  "short_description": "POCARI SWEAT RUN Carnival 2027 has a 21.1 km half marathon, 10 km and 5 km on Sunday 17 January 2027 from the Indoor Stadium Huamark in Bangkok, with race-pack pickup the day before.",
+  "ai_summary": "POCARI SWEAT RUN Carnival 2027 is a road race weekend at the Indoor Stadium Huamark in Bangkok's Hua Mak sports complex. Race packs are collected at the stadium plaza on Saturday 16 January 2027, with no pickup on race day, and the 21.1 km half marathon, 10 km and 5 km run on Sunday 17 January. The 21 km includes an elite overall-championship category, and entries on Checkrace run from THB 750 to 3,090.",
+  "core_facts": {
+    "date": "2027-01-17",
+    "distance_km": [
+      21.1,
+      10,
+      5
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Plaza, Indoor Stadium Huamark",
+    "city": "Bangkok",
+    "country": "Thailand",
+    "organizer": "POCARI SWEAT Thailand",
+    "price_range": "THB 750-3,090"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "When is POCARI SWEAT RUN Carnival 2027 taking place?",
+      "answer": "The races are on Sunday 17 January 2027. The event is billed as a two-day carnival on 16 and 17 January: race packs are collected at the Indoor Stadium Huamark plaza on Saturday 16 January from 10am to 6pm, and there is no pickup on race day itself."
+    },
+    {
+      "question": "Which distances does the POCARI SWEAT run offer?",
+      "answer": "Three: a 21.1 km half marathon, a 10 km and a 5 km. The half marathon also has an elite overall-championship entry. Standard entries on the Checkrace page cost THB 1,150, 890 and 750, and special packs with extra merchandise cost between THB 2,690 and 3,090."
+    },
+    {
+      "question": "Where is the Bangkok race held?",
+      "answer": "The start, finish and race-pack collection are at the plaza of the Indoor Stadium Huamark, inside the Hua Mak sports complex on Ramkhamhaeng Road in eastern Bangkok. The previous edition, POCARI SWEAT RUN Thailand 2026, used the same plaza in January 2026."
+    }
+  ],
+  "reliability_score": 50,
+  "tags": [
+    "half-marathon",
+    "thailand"
+  ],
+  "source_mix": [
+    {
+      "url": "https://run.checkrace.com/event/POCARI2027",
+      "label": "POCARI SWEAT RUN Carnival 2027 entry page on Checkrace",
+      "type": "registration_platform",
+      "last_checked": "2026-10-26"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on Checkrace",
+      "url": "https://run.checkrace.com/event/POCARI2027",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-10-26",
+  "status": "needs_review"
+}

@@ -1,0 +1,84 @@
+{
+  "entity_id": "pse-bull-run-2027",
+  "slug": "pse-bull-run-2027",
+  "name": "PSE Bull Run 2027",
+  "category_id": "half-marathon",
+  "region_id": "philippines",
+  "short_description": "The PSE Bull Run 2027 marks 100 years of the Philippine Stock Exchange on Sunday 24 January 2027 at Ayala Triangle Gardens, Makati, with 21 km, 10 km, 5 km and 3 km races.",
+  "ai_summary": "The PSE Bull Run 2027 celebrates the centenary of the Philippine Stock Exchange on Sunday 24 January 2027, starting at Ayala Triangle Gardens on Ayala Avenue in Makati City. Races are 21 km, 10 km, 5 km and 3 km, with the event start listed at 3:00 am. It is organised by RUNRIO; all categories close their start 15 minutes after the gun, and course sweeping begins at 7:00 am.",
+  "core_facts": {
+    "date": "2027-01-24",
+    "distance_km": [
+      21.1,
+      10,
+      5,
+      3
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Ayala Triangle Gardens, Ayala Avenue",
+    "city": "Makati City, Metro Manila",
+    "country": "Philippines",
+    "organizer": "RUNRIO Inc."
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "When is the PSE Bull Run 2027?",
+      "answer": "The race is on Sunday 24 January 2027, with the event start listed at 3:00 am. Runners in every category must start within 15 minutes of their gun time, and from 7:00 am an ambulance sweeps the course, picking up anyone still running so the roads can reopen to traffic."
+    },
+    {
+      "question": "What distances are offered and who can enter?",
+      "answer": "There are four categories: 21 km for runners aged 16 and above, 10 km for ages 13 and up, and 5 km and 3 km for ages five and up. Half-marathon finishers receive a finisher medal and shirt; 10 km, 5 km and 3 km finishers receive a medal."
+    },
+    {
+      "question": "Where does the race start?",
+      "answer": "All categories start at Ayala Triangle Gardens on Ayala Avenue in the Makati central business district. Baggage deposit tents are provided at the venue for each distance, first-aid stations are placed along the route, and finishers receive loot bags and drinks after crossing the line."
+    }
+  ],
+  "reliability_score": 45,
+  "tags": [
+    "half-marathon",
+    "philippines"
+  ],
+  "source_mix": [
+    {
+      "url": "https://raceroster.com/events/2027/165285/pse-bull-run-2027",
+      "label": "RaceRoster event page (date, venue, organiser)",
+      "type": "registration_platform",
+      "last_checked": "2026-10-26"
+    },
+    {
+      "url": "https://raceroster.com/events/2027/165285/pse-bull-run-2027/page/faqs",
+      "label": "RaceRoster FAQ page (categories, start cut-off, sweep time)",
+      "type": "registration_platform",
+      "last_checked": "2026-10-26"
+    },
+    {
+      "url": "https://www.runrio.com/race-calendar/",
+      "label": "RUNRIO race calendar (organiser)",
+      "type": "official",
+      "last_checked": "2026-10-26"
+    },
+    {
+      "url": "https://www.pinoyfitness.com/event/pse-bull-run-2027/",
+      "label": "Pinoy Fitness listing",
+      "type": "aggregator",
+      "last_checked": "2026-10-26"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on RaceRoster",
+      "url": "https://raceroster.com/events/2027/165285/pse-bull-run-2027",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-10-26",
+  "status": "needs_review"
+}

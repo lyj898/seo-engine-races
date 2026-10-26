@@ -1,0 +1,66 @@
+{
+  "entity_id": "zero-co2-chachoengsao-run-2026",
+  "slug": "zero-co2-chachoengsao-run-2026",
+  "name": "Zero CO2 Chachoengsao Run 2026",
+  "category_id": "half-marathon",
+  "region_id": "thailand",
+  "short_description": "Zero CO2 Chachoengsao Run 2026, the fifth edition, has a 21 km half marathon, 10 km and 5 km on Sunday 6 December 2026 from the Sri Sothon Camp shooting range in Chachoengsao.",
+  "ai_summary": "Zero CO2 Chachoengsao Run 2026 is the fifth edition of the race, organised by the Chachoengsao Chamber of Commerce with the Tourism Authority of Thailand. It takes place on Sunday 6 December 2026 at the Sri Sothon Camp shooting range, behind Rajanagarindra Rajabhat University in Mueang Chachoengsao. The regis.run entry page lists a 21 km (THB 900, with a finisher shirt), a 10 km (THB 700) and a 5 km (THB 600), with chip timing on the two longer races.",
+  "core_facts": {
+    "date": "2026-12-06",
+    "distance_km": [
+      21.1,
+      10,
+      5
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Sri Sothon Camp shooting range (behind Rajanagarindra Rajabhat University)",
+    "city": "Mueang Chachoengsao, Chachoengsao",
+    "country": "Thailand",
+    "organizer": "Chachoengsao Chamber of Commerce with the Tourism Authority of Thailand",
+    "price_range": "THB 600-900"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "When is Zero CO2 Chachoengsao Run 2026 taking place?",
+      "answer": "The fifth edition is on Sunday 6 December 2026. Race kits cannot be collected on race day, and runners who have taken over another person's entry can change the registered name only on Saturday 5 December, according to the rules on the regis.run entry page. Start times have not been published there."
+    },
+    {
+      "question": "What distances and prices are available at this run?",
+      "answer": "Three distances are offered: a 21 km half marathon at THB 900, a 10 km at THB 700 and a 5 km at THB 600. Every entry includes a race shirt, bib and finisher medal; the 21 km and 10 km are chip-timed, and half marathon finishers also receive a finisher shirt."
+    },
+    {
+      "question": "Where is the Chachoengsao race based?",
+      "answer": "The start and finish area is the shooting range at Sri Sothon Camp, an army base behind Rajanagarindra Rajabhat University in Mueang Chachoengsao, east of Bangkok. The race is organised by the Chachoengsao Chamber of Commerce together with the Tourism Authority of Thailand, and updates appear on its official Facebook page."
+    }
+  ],
+  "reliability_score": 50,
+  "tags": [
+    "half-marathon",
+    "thailand"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.regis.run/event/zeroco2cco2026",
+      "label": "Zero CO2 Chachoengsao Run 2026 entry page on regis.run",
+      "type": "registration_platform",
+      "last_checked": "2026-10-26"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on regis.run",
+      "url": "https://www.regis.run/event/zeroco2cco2026",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-10-26",
+  "status": "needs_review"
+}

@@ -1,0 +1,71 @@
+{
+  "entity_id": "cybercity-half-marathon-2027-powered-by-jomrun",
+  "slug": "cybercity-half-marathon-2027-powered-by-jomrun",
+  "name": "Cybercity Half Marathon 2027 Powered by JomRun",
+  "category_id": "half-marathon",
+  "region_id": "malaysia",
+  "short_description": "Cybercity Half Marathon 2027 Powered by JomRun is on Sunday 4 April 2027 on Persiaran Flora in Cyberjaya, Selangor, with a 21.1 km competitive run plus 10 km and 5 km fun runs.",
+  "ai_summary": "The Cybercity Half Marathon 2027 Powered by JomRun takes place on Sunday 4 April 2027 at Persiaran Flora, Cyberjaya, in Selangor. It offers a 21.1 km competitive run and 10 km and 5 km fun runs, and JomRun lists the event start as 4:00 am. Half-marathon finishers receive a medal and an Ultron finisher jersey; the route map has not been published yet.",
+  "core_facts": {
+    "date": "2027-04-04",
+    "distance_km": [
+      21.1,
+      10,
+      5
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Persiaran Flora, Cyberjaya",
+    "city": "Cyberjaya, Selangor",
+    "country": "Malaysia",
+    "organizer": "JomRun"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "When is the Cybercity Half Marathon 2027 taking place?",
+      "answer": "The race is on Sunday 4 April 2027. JomRun, which runs the event and its entry page, lists a 4:00 am start, so the half marathon sets off well before sunrise. Separate flag-off times for each distance, cut-off times and race-kit collection details have not been published on the event page yet."
+    },
+    {
+      "question": "What distances can runners choose from?",
+      "answer": "There are three categories: a 21.1 km competitive run, a 10 km fun run and a 5 km fun run. Every finisher receives a medal, and runners who complete the 21.1 km also receive an Ultron finisher jersey. Special edition Ultron and Puma jerseys are offered as add-ons on the entry page."
+    },
+    {
+      "question": "Where in Cyberjaya is the race held?",
+      "answer": "The event is based on Persiaran Flora, the main boulevard through Cyberjaya in Selangor, south of Kuala Lumpur and next to Putrajaya. The organiser has not yet released the route map or parking plan, so the exact start and finish layout is still to be announced."
+    }
+  ],
+  "reliability_score": 35,
+  "tags": [
+    "half-marathon",
+    "malaysia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.jomrun.com/event/Cybercity-Half-Marathon-2027-Powered-by-JomRun",
+      "label": "JomRun event page (date, venue, categories)",
+      "type": "registration_platform",
+      "last_checked": "2026-10-26"
+    },
+    {
+      "url": "https://lesgo.my/running-events-2027/",
+      "label": "Lesgo.my Malaysia 2027 running calendar",
+      "type": "aggregator",
+      "last_checked": "2026-10-26"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on JomRun",
+      "url": "https://www.jomrun.com/event/Cybercity-Half-Marathon-2027-Powered-by-JomRun",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-10-26",
+  "status": "needs_review"
+}

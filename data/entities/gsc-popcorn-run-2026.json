@@ -1,0 +1,77 @@
+{
+  "entity_id": "gsc-popcorn-run-2026",
+  "slug": "gsc-popcorn-run-2026",
+  "name": "GSC Popcorn Run 2026",
+  "category_id": "half-marathon",
+  "region_id": "malaysia",
+  "short_description": "The GSC x Alliance Bank Popcorn Run is on Sunday 6 December 2026 at Mitsui Outlet Park KLIA in Sepang, Selangor, a movie-themed race with 21 km, 10 km and 5 km categories.",
+  "ai_summary": "The GSC x Alliance Bank Popcorn Run is a cinema-themed race on Sunday 6 December 2026 at Mitsui Outlet Park KLIA in Sepang, Selangor, with the event start listed at 5:00 am. It offers a 21 km half marathon with a four-hour cut-off, a 10 km competitive race (2 hours 30 minutes) and a 5 km fun run. The event is run by RUNRIO's Malaysian team under its Unrivaled Run banner, and race packs are collected on 4 and 5 December.",
+  "core_facts": {
+    "date": "2026-12-06",
+    "distance_km": [
+      21.1,
+      10,
+      5
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Mitsui Outlet Park KLIA, Persiaran Komersial",
+    "city": "Sepang, Selangor",
+    "country": "Malaysia",
+    "organizer": "RUNRIO (The Unrivaled Run Malaysia)"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "When is the GSC Popcorn Run taking place?",
+      "answer": "The race is on Sunday 6 December 2026, with the start listed at 5:00 am. Race-pack collection runs on Friday 4 and Saturday 5 December from 10 am to 8 pm, and the organiser says there is no pack collection on race day, so runners need to collect beforehand."
+    },
+    {
+      "question": "What race categories are offered?",
+      "answer": "There are three: a 21 km half marathon with a four-hour cut-off and a minimum age of 16, a 10 km competitive race with a 2 hour 30 minute cut-off, and a 5 km fun run open to ages five and up. Every category includes a movie ticket promo code."
+    },
+    {
+      "question": "Where is the race held?",
+      "answer": "Start and finish are at Mitsui Outlet Park KLIA on Persiaran Komersial in Sepang, Selangor, the outlet mall a few minutes from Kuala Lumpur International Airport. With a 5:00 am start, runners coming from the Klang Valley should plan transport the night before, as public transport will not be running yet."
+    }
+  ],
+  "reliability_score": 40,
+  "tags": [
+    "half-marathon",
+    "malaysia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://raceroster.com/events/2026/140008/gsc-popcorn-run",
+      "label": "RaceRoster event page (date, venue, start time)",
+      "type": "registration_platform",
+      "last_checked": "2026-10-26"
+    },
+    {
+      "url": "https://raceroster.com/events/2026/140008/gsc-popcorn-run/page/faqs",
+      "label": "RaceRoster FAQ page (categories, cut-offs, pack collection)",
+      "type": "registration_platform",
+      "last_checked": "2026-10-26"
+    },
+    {
+      "url": "https://www.runrio.com/race-calendar/",
+      "label": "RUNRIO race calendar",
+      "type": "official",
+      "last_checked": "2026-10-26"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on RaceRoster",
+      "url": "https://raceroster.com/events/2026/140008/gsc-popcorn-run",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-10-26",
+  "status": "needs_review"
+}

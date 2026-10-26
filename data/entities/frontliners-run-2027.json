@@ -1,0 +1,73 @@
+{
+  "entity_id": "frontliners-run-2027",
+  "slug": "frontliners-run-2027",
+  "name": "Frontliners' Run 2027",
+  "category_id": "half-marathon",
+  "region_id": "philippines",
+  "short_description": "Frontliners' Run 2027 is on Sunday 31 January 2027 at Clark Parade Grounds in Clark, Pampanga, with 21 km, 10 km, 5 km and 3 km races from Smoke 10 Events Management.",
+  "ai_summary": "Frontliners' Run 2027 takes place on Sunday 31 January 2027 at Clark Parade Grounds in Clark, Pampanga, with the event start listed at 3:00 am. It has 21 km, 10 km, 5 km and 3 km categories priced from PHP 999 to PHP 1,999. The organiser is Smoke 10 Events Management, and 21 km finishers receive a medal, finisher shirt and towel.",
+  "core_facts": {
+    "date": "2027-01-31",
+    "distance_km": [
+      21.1,
+      10,
+      5,
+      3
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Clark Parade Grounds",
+    "city": "Clark, Pampanga",
+    "country": "Philippines",
+    "organizer": "Smoke 10 Events Management",
+    "price_range": "PHP 999-1,999"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "When is Frontliners' Run 2027?",
+      "answer": "The race is on Sunday 31 January 2027, with the event start listed for 3:00 am Philippine time on the MyRunTime entry page. Online registration for all four categories closes on 25 January 2027. Separate gun times for each distance and cut-off times have not been posted yet."
+    },
+    {
+      "question": "What distances and prices are there?",
+      "answer": "Four distances are offered: 21 km at PHP 1,999, 10 km at PHP 1,499, 5 km at PHP 1,199 and 3 km at PHP 999. The 21 km package includes a race singlet, bib, medal, finisher shirt and towel. Prices exclude MyRunTime's web admin and delivery fees."
+    },
+    {
+      "question": "Where is the race held?",
+      "answer": "Start and finish are at Clark Parade Grounds inside Clark Freeport Zone, Pampanga, about 80 km north of Manila and near Clark International Airport. The wide, low-traffic roads of the freeport make Clark a regular venue for road races in Central Luzon."
+    }
+  ],
+  "reliability_score": 45,
+  "tags": [
+    "half-marathon",
+    "philippines"
+  ],
+  "source_mix": [
+    {
+      "url": "https://smoke10events.myruntime.com/register/frontliners-run-2027",
+      "label": "MyRunTime entry page (date, venue, categories, fees, organiser)",
+      "type": "registration_platform",
+      "last_checked": "2026-10-26"
+    },
+    {
+      "url": "https://www.pinoyfitness.com/event/frontliners-run-2027/",
+      "label": "Pinoy Fitness listing",
+      "type": "aggregator",
+      "last_checked": "2026-10-26"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on MyRunTime",
+      "url": "https://smoke10events.myruntime.com/register/frontliners-run-2027",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-10-26",
+  "status": "needs_review"
+}

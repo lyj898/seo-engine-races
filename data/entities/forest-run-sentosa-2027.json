@@ -1,0 +1,83 @@
+{
+  "entity_id": "forest-run-sentosa-2027",
+  "slug": "forest-run-sentosa-2027",
+  "name": "Forest Run @ Sentosa 2027",
+  "category_id": "half-marathon",
+  "region_id": "singapore",
+  "short_description": "Forest Run @ Sentosa 2027 runs its 21 km race on Sunday 25 April 2027 from Palawan Green on Sentosa, Singapore, after 7 km and 14 km races on Saturday 24 April, on mostly paved park connector loops.",
+  "ai_summary": "Forest Run @ Sentosa 2027 is a two-day race weekend at Palawan Green on Sentosa Island, Singapore, organised by King Trail Events. The 7 km and 14 km run on Saturday 24 April 2027, and the 21 km on Sunday 25 April with a 7.30am flag-off. Each lap is a 7 km loop of mostly paved park connector with about 600 m of trail, and the organiser says it is not a trail race. Entry costs SGD 65-95 for single races, or up to SGD 175 for a dual 14 km plus 21 km entry.",
+  "core_facts": {
+    "date": "2027-04-25",
+    "distance_km": [
+      21.1,
+      14,
+      7
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Palawan Green, Sentosa Island",
+    "city": "Singapore",
+    "country": "Singapore",
+    "organizer": "King Trail Events",
+    "price_range": "SGD 65-175"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "When is Forest Run @ Sentosa 2027 taking place?",
+      "answer": "The event runs over the weekend of 24 and 25 April 2027. The 7 km and 14 km races are on Saturday 24 April, starting at 7.30am and 8.35am, and the 21 km is on Sunday 25 April with a 7.30am flag-off. The organiser says start times may change closer to race day."
+    },
+    {
+      "question": "What distances and entry options are available?",
+      "answer": "Single entries are 7 km, 14 km and 21 km. Runners can also take a 7 km plus 21 km or 14 km plus 21 km dual entry across both days. Early bird fees run to 31 December 2026, from SGD 65 for the 7 km to SGD 85 for the 21 km, then rise by SGD 10."
+    },
+    {
+      "question": "What is the course like on Sentosa?",
+      "answer": "Every distance uses the same 7 km loop from Palawan Green: about 6.4 km of tarmac and concrete park connector plus 600 m of trail, so the 21 km is three laps. The organiser stresses it is not a trail race, which makes it a scenic, mostly paved half-marathon-length option on Sentosa."
+    }
+  ],
+  "reliability_score": 58,
+  "tags": [
+    "half-marathon",
+    "singapore"
+  ],
+  "source_mix": [
+    {
+      "url": "https://kingtrailevents.online/events/forest-run-sentosa",
+      "label": "Official event page (dates by distance, course, fees)",
+      "type": "official",
+      "last_checked": "2026-10-26"
+    },
+    {
+      "url": "https://in.njuko.com/forest-run-sentosa-2027",
+      "label": "Entry page on njuko",
+      "type": "registration_platform",
+      "last_checked": "2026-10-26"
+    },
+    {
+      "url": "https://hkjogging.com/races/singapore/",
+      "label": "HKJogging Singapore race calendar",
+      "type": "aggregator",
+      "last_checked": "2026-10-26"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://kingtrailevents.online/events/forest-run-sentosa",
+      "type": "official_website"
+    },
+    {
+      "label": "Entry page on njuko",
+      "url": "https://in.njuko.com/forest-run-sentosa-2027",
+      "type": "registration"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-10-26",
+  "status": "active"
+}

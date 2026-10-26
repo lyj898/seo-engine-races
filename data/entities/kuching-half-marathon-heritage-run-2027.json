@@ -1,0 +1,77 @@
+{
+  "entity_id": "kuching-half-marathon-heritage-run-2027",
+  "slug": "kuching-half-marathon-heritage-run-2027",
+  "name": "Kuching Half Marathon Heritage Run 2027",
+  "category_id": "half-marathon",
+  "region_id": "malaysia",
+  "short_description": "Kuching Half Marathon Heritage Run 2027 is on Sunday 18 April 2027 from Dewan Masyarakat on Jalan Padungan, Kuching, Sarawak, with a 21.1 km and 10 km competitive run and a 5 km fun run.",
+  "ai_summary": "The Kuching Half Marathon Heritage Run 2027 is on Sunday 18 April 2027, based at Dewan Masyarakat on Jalan Padungan in Kuching, Sarawak, moving from the late-July date of earlier editions. The 21.1 km flags off at 4:00 am with a four-hour cut-off, the 10 km competitive run at 6:00 am (two hours) and the 5 km fun run at 6:30 am (one hour). The race is organised annually by the City Jogger's Club (CJC), with entries through JomRun.",
+  "core_facts": {
+    "date": "2027-04-18",
+    "distance_km": [
+      21.1,
+      10,
+      5
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Dewan Masyarakat, Jalan Padungan",
+    "city": "Kuching, Sarawak",
+    "country": "Malaysia",
+    "organizer": "City Jogger's Club (CJC)"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "When is the Kuching Half Marathon Heritage Run 2027?",
+      "answer": "It is on Sunday 18 April 2027, earlier in the year than the 2025 and 2026 editions, which were run in late July. The 21.1 km starts at 4:00 am, the 10 km at 6:00 am and the 5 km fun run at 6:30 am, according to the JomRun event page."
+    },
+    {
+      "question": "What distances and cut-off times apply?",
+      "answer": "There are three categories: a 21.1 km competitive run with a four-hour cut-off, a 10 km competitive run with a two-hour cut-off and a 5 km fun run with a one-hour limit. The first 100 half-marathon finishers inside the cut-off receive a special Top 100 finisher jersey."
+    },
+    {
+      "question": "Where does the race start?",
+      "answer": "The event is based at Dewan Masyarakat on Jalan Padungan in central Kuching, close to Kuching's older streets near the Sarawak River waterfront. Race-kit collection details, the jersey design and the route have not yet been published on the entry page."
+    }
+  ],
+  "reliability_score": 40,
+  "tags": [
+    "half-marathon",
+    "malaysia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.jomrun.com/event/Kuching-Half-Marathon-Heritage-Run-2027",
+      "label": "JomRun event page (date, venue, flag-off and cut-off times)",
+      "type": "registration_platform",
+      "last_checked": "2026-10-26"
+    },
+    {
+      "url": "https://dayakdaily.com/4200-runners-from-20-countries-confirmed-for-kuching-half-marathon-heritage-run-2026-on-july-26/",
+      "label": "DayakDaily on the 2026 edition (organised annually by CJC)",
+      "type": "other",
+      "last_checked": "2026-10-26"
+    },
+    {
+      "url": "https://lesgo.my/event/kuching-half-marathon-heritage-run-2027/",
+      "label": "Lesgo.my listing",
+      "type": "aggregator",
+      "last_checked": "2026-10-26"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on JomRun",
+      "url": "https://www.jomrun.com/event/Kuching-Half-Marathon-Heritage-Run-2027",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-10-26",
+  "status": "needs_review"
+}
