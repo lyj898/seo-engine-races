@@ -35,6 +35,7 @@ const links = footerLinks();
         <li><a href={urls.privacy()} class="link-muted">Privacy</a></li>
         <li><a href={urls.terms()} class="link-muted">Terms</a></li>
         <li><a href={urls.contact()} class="link-muted">Contact</a></li>
+        {siteConfig.instagramUrl && <li><a href={siteConfig.instagramUrl} class="link-muted" rel="me noopener" target="_blank">Instagram</a></li>}
       </ul>
     </div>
   </div>

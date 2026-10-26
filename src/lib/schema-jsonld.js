@@ -315,5 +315,6 @@ export function buildWebsiteSchema(siteConfig, site) {
     name: siteConfig.siteName,
     description: siteConfig.siteTagline,
     url: site,
+    ...(siteConfig.instagramUrl && { publisher: { '@type': 'Organization', name: siteConfig.siteName, url: site?.toString?.() ?? site, sameAs: [siteConfig.instagramUrl] } }),
   };
 }
