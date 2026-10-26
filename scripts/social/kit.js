@@ -105,6 +105,8 @@ export async function renderPost(dir, name, slides) {
   for (const [i, svg] of slides.entries()) {
     const file = path.join(dir, `${name}-${String(i + 1).padStart(2, '0')}.png`);
     await sharp(Buffer.from(svg)).png({ compressionLevel: 9 }).toFile(file);
+    // JPG copy for uploading: Business Suite rejects multi-file PNG uploads.
+    await sharp(file).flatten({ background: INK }).jpeg({ quality: 92, mozjpeg: true }).toFile(file.replace(/\.png$/, '.jpg'));
     files.push(file);
   }
   return files;

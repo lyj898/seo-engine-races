@@ -214,7 +214,7 @@ const TAGS = '#running #halfmarathon #marathon #runsea #southeastasia #runningsi
   const sMap = slide('paper', `${T('Where to find them', { y: 250, size: 72, weight: 'heavy', fill: INK }).svg}
     ${seaMap({ x: 70, y: 360, s: 1.45, ...MAP_PAPER, pins: picks.map((p) => pinOf(p.e, INK, (pl) => pl.name)).filter(Boolean) })}`, { tag, page: 2, pages: P });
   add('06-bucket-list-races', 'Bucket-list races: temples, bridges, a volcano', 'paper', [s1, sMap, s2, s3, s4],
-    `Run past a temple. Across a sea bridge. Round a volcano.\n\n${picks.map((p) => `${clean(p.e.name)}, ${p.e.core_facts.country} (${day(p.e.core_facts.date)}): ${p.line.toLowerCase()}`).join('\n')}\n\nWhich one's on your list? Save this and tag your travel buddy. Dates and official links at runsea.run (link in bio)\n\n${TAGS} #racecation #runtravel`);
+    `Run past a temple. Across a sea bridge. Round a volcano.\n\n${picks.map((p) => `${clean(p.e.name)}, ${p.e.core_facts.country} (${day(p.e.core_facts.date)}): ${p.line.charAt(0).toLowerCase() + p.line.slice(1)}`).join('\n')}\n\nWhich one's on your list? Save this and tag your travel buddy. Dates and official links at runsea.run (link in bio)\n\n${TAGS} #racecation #runtravel`);
 }
 
 // ---- 07 What it takes to be top 10% (paper) -----------------------------------
