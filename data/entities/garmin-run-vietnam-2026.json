@@ -92,5 +92,10 @@
   ],
   "related_entity_ids": [],
   "last_updated": "2026-10-20",
-  "status": "archived"
+  "status": "archived",
+  "results": {
+    "url": "https://sportstats.one/vi/event/garmin-run-vietnam/leaderboard/148111",
+    "publisher": "SportStats (linked from the organiser's results page)",
+    "last_checked": "2026-10-26"
+  }
 }

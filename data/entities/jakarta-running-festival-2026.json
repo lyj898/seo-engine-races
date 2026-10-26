@@ -119,5 +119,10 @@
   ],
   "related_entity_ids": [],
   "last_updated": "2026-09-30",
-  "status": "needs_review"
+  "status": "needs_review",
+  "results": {
+    "url": "https://results.scorenow.co.id/results.aspx?CId=19723&RId=338",
+    "publisher": "ScoreNow (linked from the organiser's site)",
+    "last_checked": "2026-10-26"
+  }
 }

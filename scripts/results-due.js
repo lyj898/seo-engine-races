@@ -20,8 +20,11 @@ const DIR = path.join(ROOT, 'data', 'entities');
 
 const daysArg = process.argv.indexOf('--days');
 const days = daysArg > -1 ? Number(process.argv[daysArg + 1]) : 21;
-const today = new Date().toISOString().slice(0, 10);
-const since = new Date(Date.now() - days * 864e5).toISOString().slice(0, 10);
+// Dates in Singapore time (UTC+8), where the races are: in UTC a race run
+// this morning still looks like "today" and was left off the list.
+const sgt = (ms) => new Date(ms + 8 * 3600e3).toISOString().slice(0, 10);
+const today = sgt(Date.now());
+const since = sgt(Date.now() - days * 864e5);
 
 const due = [];
 let done = 0;
