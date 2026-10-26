@@ -15,13 +15,13 @@ import { seaMap, placeOf, runner, stopwatch, stars, moon, thermometer, hourglass
 const ROOT = path.join(process.env.USERPROFILE ?? '.', 'OneDrive', 'Documents', 'runsea-social');
 // Posting plan: [post number, date, slot].
 const PLAN = [
-  [1, '2026-10-27', 'Tue 8pm'], [15, '2026-10-29', 'Thu 8pm'], [6, '2026-10-31', 'Sat 9am'],
-  [2, '2026-11-03', 'Tue 8pm'], [5, '2026-11-05', 'Thu 8pm'], [12, '2026-11-07', 'Sat 9am'],
-  [4, '2026-11-10', 'Tue 8pm'], [8, '2026-11-12', 'Thu 8pm'], [13, '2026-11-14', 'Sat 9am'],
-  [3, '2026-11-17', 'Tue 8pm'], [9, '2026-11-19', 'Thu 8pm'], [7, '2026-11-21', 'Sat 9am'],
-  [10, '2026-11-24', 'Tue 8pm'], [11, '2026-11-26', 'Thu 8pm'], [14, '2026-11-28', 'Sat 9am'],
+  // Daily for the launch fortnight (changed 26 Oct); weekdays 8pm, weekends 9am SGT.
+  [1, '2026-10-26', 'Mon (live)'], [15, '2026-10-27', 'Tue 8pm'], [6, '2026-10-28', 'Wed 8pm'], [2, '2026-10-29', 'Thu 8pm'],
+  [5, '2026-10-30', 'Fri 8pm'], [12, '2026-10-31', 'Sat 9am'], [4, '2026-11-01', 'Sun 9am'], [8, '2026-11-02', 'Mon 8pm'],
+  [13, '2026-11-03', 'Tue 8pm'], [3, '2026-11-04', 'Wed 8pm'], [9, '2026-11-05', 'Thu 8pm'], [7, '2026-11-06', 'Fri 8pm'],
+  [10, '2026-11-07', 'Sat 9am'], [11, '2026-11-08', 'Sun 9am'], [14, '2026-11-09', 'Mon 8pm'],
 ];
-const weekOf = (d) => { const t = new Date(`${d}T00:00:00Z`); t.setUTCDate(t.getUTCDate() - ((t.getUTCDay() + 5) % 7)); return t.toISOString().slice(0, 10); };
+const weekOf = () => 'launch-2026-10-26';
 
 // ---- data ------------------------------------------------------------------
 const ft = loadFinishTimes();
@@ -49,7 +49,8 @@ const withArt = (svg, art) => svg.replace(GRAIN, art + GRAIN);
 const MAP_PAPER = { land: '#d9d4c2', stroke: '#bfb9a2', labelFill: INK, halo: PAPER };
 const pinOf = (e, color, label) => { const pl = e && placeOf(e); return pl && { ...pl, color, label: typeof label === 'function' ? label(pl) : label }; };
 const add = (name, title, theme, slides, caption) => posts.push({ name, title, theme, slides, caption });
-const TAGS = '#running #halfmarathon #marathon #runsea #southeastasia #runningsingapore #runningmalaysia #larimalaysia #runnersph #thailandrunning #vietnamrunners #lariindonesia';
+// Seven or eight hashtags per post: Instagram favours a few relevant ones.
+const TAGS = '#running #halfmarathon #marathon #southeastasia #runningsingapore #larimalaysia #runnersph #runsea';
 
 // ---- 01 Same time, different race (paper) -----------------------------------
 {
@@ -244,7 +245,7 @@ const TAGS = '#running #halfmarathon #marathon #runsea #southeastasia #runningsi
   const startOf = (x) => x.label.replace(/^Weather at the /i, '').replace(/ start$/i, '');
   const P = 4, tag = 'Race weather';
   const s1 = slide('glow', `
-    ${T('Same region. Same hour.', { y: 270, size: 80, weight: 'heavy' }).svg}
+    ${T('Same region. Both before dawn.', { y: 270, size: 80, weight: 'heavy' }).svg}
     <text x="80" y="620" font-family="${HV}" font-weight="900" font-size="240" fill="${ORANGE}" filter="url(#glow)">${hot[0].t}°C</text>
     ${T(`${clean(hot[0].e.name)}, ${startOf(hot[0])}, ${hot[0].h}% humidity`, { y: 700, size: 38, weight: 600, maxWidth: 720 }).svg}
     <text x="80" y="1000" font-family="${HV}" font-weight="900" font-size="240" fill="${LIME}" filter="url(#glow)">${cool[0].t}°C</text>
@@ -259,7 +260,7 @@ const TAGS = '#running #halfmarathon #marathon #runsea #southeastasia #runningsi
   const sMap = slide('glow', `${T('Where the mornings were', { y: 250, size: 68, weight: 'heavy' }).svg}
     ${seaMap({ x: 80, y: 360, s: 1.45, pins: [...hot.map((x) => pinOf(x.e, ORANGE, (pl) => `${pl.name} ${x.t}°C`)), ...cool.map((x) => pinOf(x.e, LIME, (pl) => `${pl.name} ${x.t}°C`))].filter(Boolean) })}`, { tag, page: 4, pages: P });
   add('08-hottest-coolest-mornings', `${hot[0].t}°C vs ${cool[0].t}°C race mornings`, 'glow', [withArt(s1, `${thermometer({ x: 940, y: 640, h: 330, level: 0.95, color: ORANGE })}${thermometer({ x: 940, y: 1080, h: 260, level: 0.3, color: LIME })}`), s2, s3, sMap],
-    `Same region, same pre-dawn hour, very different races.\n\nStickiest starts: ${hot.map((x) => `${clean(x.e.name)} (${x.t}°C, ${x.h}% humidity)`).join('; ')}.\n\nCoolest starts: ${cool.map((x) => `${clean(x.e.name)} (${x.t}°C)`).join('; ')}.\n\nWatch the dew point: above about 24°C sweat barely evaporates. Race-morning weather from airport records, for every race we review at runsea.run (link in bio)\n\n${TAGS}`);
+    `Same region, both before dawn, very different races.\n\nStickiest starts: ${hot.map((x) => `${clean(x.e.name)} (${x.t}°C, ${x.h}% humidity)`).join('; ')}.\n\nCoolest starts: ${cool.map((x) => `${clean(x.e.name)} (${x.t}°C)`).join('; ')}.\n\nWatch the dew point: above about 24°C sweat barely evaporates. Race-morning weather from airport records, for every race we review at runsea.run (link in bio)\n\n${TAGS}`);
 }
 
 // ---- 09 Women in the field (poster) -----------------------------------------
@@ -354,7 +355,7 @@ const TAGS = '#running #halfmarathon #marathon #runsea #southeastasia #runningsi
     ${T(`${picks.length} half and full marathons by the sea`, { y: 1170, size: 44, weight: 700, fill: INK }).svg}`, { tag, page: 1, pages: P });
   const card = (x, y, e) => `<rect x="${x}" y="${y}" width="920" height="250" rx="30" fill="#ffffff" filter="url(#sh)"/><rect x="${x}" y="${y}" width="22" height="250" rx="11" fill="${LIME}"/>
     <text x="${x + 60}" y="${y + 70}" font-family="${F}" font-weight="800" font-size="30" letter-spacing="3" fill="${INK}" opacity="0.6">${esc(day(e.core_facts.date).toUpperCase())}</text>
-    ${(() => { const nm = T(clean(e.name), { x: x + 60, y: y + 130, size: 46, weight: 'heavy', fill: INK, maxWidth: 820 }); return `${nm.svg}<text x="${x + 60}" y="${(nm.bottom + 46).toFixed(0)}" font-family="${F}" font-weight="600" font-size="32" fill="${INK}">${esc(`${e.core_facts.city.split(',')[0]}, ${e.core_facts.country}`)}</text>`; })()}`;
+    ${(() => { const nm = T(clean(e.name), { x: x + 60, y: y + 130, size: 46, weight: 'heavy', fill: INK, maxWidth: 820 }); return `${nm.svg}<text x="${x + 60}" y="${(nm.bottom + 46).toFixed(0)}" font-family="${F}" font-weight="600" font-size="32" fill="${INK}">${esc(`${placeOf(e)?.name ?? e.core_facts.city.split(',')[0]}, ${e.core_facts.country}`)}</text>`; })()}`;
   const s2 = slide('paper', picks.slice(0, 3).map((e, i) => card(80, 230 + i * 300, e)).join(''), { tag, page: 3, pages: P });
   const s3 = slide('paper', picks.slice(3, 6).map((e, i) => card(80, 230 + i * 300, e)).join(''), { tag, page: 4, pages: P });
   const s4 = slide('paper', `${T('Which beach are you racing to?', { y: 360, size: 96, weight: 'heavy', fill: INK }).svg}
@@ -363,7 +364,7 @@ const TAGS = '#running #halfmarathon #marathon #runsea #southeastasia #runningsi
   const sMap = slide('paper', `${T('Six races by the sea', { y: 250, size: 72, weight: 'heavy', fill: INK }).svg}
     ${seaMap({ x: 70, y: 360, s: 1.45, ...MAP_PAPER, pins: [...new Map(picks.map((e) => pinOf(e, INK, (pl) => pl.name)).filter(Boolean).map((q) => [q.name, q])).values()] })}`, { tag, page: 2, pages: P });
   add('13-race-then-beach', 'Race on Sunday, beach by lunch', 'paper', [s1, sMap, s2, s3, s4],
-    `Race on Sunday. Beach by lunch.\n\n${picks.map((e) => `${day(e.core_facts.date)}: ${clean(e.name)} (${e.core_facts.city.split(',')[0]}, ${e.core_facts.country})`).join('\n')}\n\nSave this for your next holiday and tag who you're going with. Dates and official links at runsea.run (link in bio)\n\n${TAGS} #racecation #beach`);
+    `Race on Sunday. Beach by lunch.\n\n${picks.map((e) => `${day(e.core_facts.date)}: ${clean(e.name)} (${placeOf(e)?.name ?? e.core_facts.city.split(',')[0]}, ${e.core_facts.country})`).join('\n')}\n\nSave this for your next holiday and tag who you're going with. Dates and official links at runsea.run (link in bio)\n\n${TAGS} #racecation #beach`);
 }
 
 // ---- 14 The fastest fields (glow) -------------------------------------------
