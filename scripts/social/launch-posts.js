@@ -12,8 +12,16 @@ import { loadFinishTimes } from '../../src/lib/finishTimes.js';
 import { W, H, INK, LIME, PAPER, CREAM, MUTED, ORANGE, GREY, F, HV, esc, T, bib, pill, area, smooth, skyline, slide, renderPost } from './kit.js';
 import { seaMap, placeOf, runner, stopwatch, stars, moon, thermometer, hourglass, stupa, bridge, volcano, palm, waves, hazeSun } from './art.js';
 
-const OUT = path.join(process.env.USERPROFILE ?? '.', 'OneDrive', 'Documents', 'runsea-social', 'ideas-preview');
-fs.rmSync(OUT, { recursive: true, force: true });
+const ROOT = path.join(process.env.USERPROFILE ?? '.', 'OneDrive', 'Documents', 'runsea-social');
+// Posting plan: [post number, date, slot].
+const PLAN = [
+  [1, '2026-10-27', 'Tue 8pm'], [15, '2026-10-29', 'Thu 8pm'], [6, '2026-10-31', 'Sat 9am'],
+  [2, '2026-11-03', 'Tue 8pm'], [5, '2026-11-05', 'Thu 8pm'], [12, '2026-11-07', 'Sat 9am'],
+  [4, '2026-11-10', 'Tue 8pm'], [8, '2026-11-12', 'Thu 8pm'], [13, '2026-11-14', 'Sat 9am'],
+  [3, '2026-11-17', 'Tue 8pm'], [9, '2026-11-19', 'Thu 8pm'], [7, '2026-11-21', 'Sat 9am'],
+  [10, '2026-11-24', 'Tue 8pm'], [11, '2026-11-26', 'Thu 8pm'], [14, '2026-11-28', 'Sat 9am'],
+];
+const weekOf = (d) => { const t = new Date(`${d}T00:00:00Z`); t.setUTCDate(t.getUTCDate() - ((t.getUTCDay() + 5) % 7)); return t.toISOString().slice(0, 10); };
 
 // ---- data ------------------------------------------------------------------
 const ft = loadFinishTimes();
@@ -79,7 +87,7 @@ const TAGS = '#running #halfmarathon #marathon #runsea #southeastasia #runningsi
 {
   const h = ins.Half; const ages = h.ages;
   const g = (b) => ages.find((a) => a.band === b);
-  const P = 4, tag = 'The Lab';
+  const P = 3, tag = 'The Lab';
   const s1 = slide('poster', `
     ${T('THE TYPICAL HALF MARATHON', { y: 200, size: 34, weight: 800, fill: INK, ls: 4 }).svg}
     <text x="70" y="470" font-family="${HV}" font-weight="900" font-size="230" letter-spacing="-8" fill="${INK}">IN YOUR</text>
@@ -95,8 +103,8 @@ const TAGS = '#running #halfmarathon #marathon #runsea #southeastasia #runningsi
     ${T('Younger fields include far more first-timers, and that pulls the typical time down.', { y: 900, size: 46, fill: MUTED }).svg}`, { tag, page: 3, pages: P });
   const s4 = slide('poster', `${T('How do you compare with your age group?', { y: 330, size: 90, weight: 'heavy', fill: INK }).svg}
     <text x="80" y="960" font-family="${HV}" font-weight="900" font-size="88" fill="${LIME}">runsea.run/tools</text>
-    ${T(`Based on ${n(h.finishes)} half marathon finishes.`, { y: 1060, size: 36, fill: CREAM }).svg}`, { tag, page: 4, pages: P, split: 700 });
-  add('02-your-40s-beat-your-20s', 'Your 40s beat your 20s', 'poster', [withArt(s1, `${runner({ x: 900, y: 1225, s: 1.25, color: LIME })}${runner({ x: 690, y: 1225, s: 1.05, color: CREAM })}`), s2, s3, s4],
+    ${T(`Based on ${n(h.finishes)} half marathon finishes.`, { y: 1060, size: 36, fill: CREAM }).svg}`, { tag, page: 3, pages: P, split: 700 });
+  add('02-your-40s-beat-your-20s', 'Your 40s beat your 20s', 'poster', [withArt(s1, `${runner({ x: 900, y: 1225, s: 1.25, color: LIME })}${runner({ x: 690, y: 1225, s: 1.05, color: CREAM })}`), s2, s4],
     `Runners in their 40s run faster half marathons than runners in their 20s. Typical men's finish: ${hm(g('40-49').men)} in your 40s, ${hm(g('20-29').men)} in your 20s (${hm(g('50-59').men)} in your 50s).\n\nWhy? The runners still racing in their 40s and 50s are the committed ones. Younger fields have far more first-timers.\n\nFrom ${n(h.finishes)} half marathon finishes across Southeast Asia. Compare yourself with your age group at runsea.run/tools (link in bio)\n\nTag the friend who says they're too old to get faster.\n\n${TAGS}`);
 }
 
@@ -234,7 +242,7 @@ const TAGS = '#running #halfmarathon #marathon #runsea #southeastasia #runningsi
   const seen = new Set(); const uniq = w.filter((x) => { const k = clean(x.e.name); if (seen.has(k)) return false; seen.add(k); return true; });
   const hot = [...uniq].sort((a, b) => b.dp - a.dp || b.t - a.t).slice(0, 5), cool = [...uniq].sort((a, b) => a.dp - b.dp || a.t - b.t).slice(0, 5);
   const startOf = (x) => x.label.replace(/^Weather at the /i, '').replace(/ start$/i, '');
-  const P = 5, tag = 'Race weather';
+  const P = 4, tag = 'Race weather';
   const s1 = slide('glow', `
     ${T('Same region. Same hour.', { y: 270, size: 80, weight: 'heavy' }).svg}
     <text x="80" y="620" font-family="${HV}" font-weight="900" font-size="240" fill="${ORANGE}" filter="url(#glow)">${hot[0].t}°C</text>
@@ -250,7 +258,7 @@ const TAGS = '#running #halfmarathon #marathon #runsea #southeastasia #runningsi
     <text x="80" y="1100" font-family="${HV}" font-weight="900" font-size="72" fill="${LIME}">runsea.run</text>`, { tag, page: 5, pages: P });
   const sMap = slide('glow', `${T('Where the mornings were', { y: 250, size: 68, weight: 'heavy' }).svg}
     ${seaMap({ x: 80, y: 360, s: 1.45, pins: [...hot.map((x) => pinOf(x.e, ORANGE, (pl) => `${pl.name} ${x.t}°C`)), ...cool.map((x) => pinOf(x.e, LIME, (pl) => `${pl.name} ${x.t}°C`))].filter(Boolean) })}`, { tag, page: 4, pages: P });
-  add('08-hottest-coolest-mornings', `${hot[0].t}°C vs ${cool[0].t}°C race mornings`, 'glow', [withArt(s1, `${thermometer({ x: 940, y: 640, h: 330, level: 0.95, color: ORANGE })}${thermometer({ x: 940, y: 1080, h: 260, level: 0.3, color: LIME })}`), s2, s3, sMap, s4],
+  add('08-hottest-coolest-mornings', `${hot[0].t}°C vs ${cool[0].t}°C race mornings`, 'glow', [withArt(s1, `${thermometer({ x: 940, y: 640, h: 330, level: 0.95, color: ORANGE })}${thermometer({ x: 940, y: 1080, h: 260, level: 0.3, color: LIME })}`), s2, s3, sMap],
     `Same region, same pre-dawn hour, very different races.\n\nStickiest starts: ${hot.map((x) => `${clean(x.e.name)} (${x.t}°C, ${x.h}% humidity)`).join('; ')}.\n\nCoolest starts: ${cool.map((x) => `${clean(x.e.name)} (${x.t}°C)`).join('; ')}.\n\nWatch the dew point: above about 24°C sweat barely evaporates. Race-morning weather from airport records, for every race we review at runsea.run (link in bio)\n\n${TAGS}`);
 }
 
@@ -384,7 +392,7 @@ const TAGS = '#running #halfmarathon #marathon #runsea #southeastasia #runningsi
   const rev = all.filter(isReviewableEntity);
   const halted = rev.filter((e) => e.core_facts?.event_status && /^\d{4}-\d{2}-\d{2}$/.test(e.core_facts.date));
   const haze = halted.filter((e) => /haze|air quality|air pollutant|jerebu/i.test(e.core_facts.event_status_note ?? ''));
-  const P = 4, tag = 'Haze season';
+  const P = 3, tag = 'Haze season';
   const s1 = slide('poster', `
     ${T('SINCE SEPTEMBER, HAZE HAS CALLED OFF', { y: 200, size: 36, weight: 800, fill: INK, ls: 3, maxWidth: 900 }).svg}
     <text x="60" y="600" font-family="${HV}" font-weight="900" font-size="420" letter-spacing="-16" fill="${INK}">${haze.length}</text>
@@ -397,19 +405,31 @@ const TAGS = '#running #halfmarathon #marathon #runsea #southeastasia #runningsi
   const s2 = slide('ink', `${hh.svg}${tipSvg}`, { tag, page: 3, pages: P });
   const s3 = slide('poster', `${T('Every race called off this year', { y: 330, size: 96, weight: 'heavy', fill: INK }).svg}
     <text x="80" y="900" font-family="${HV}" font-weight="900" font-size="64" fill="${LIME}">runsea.run/</text><text x="80" y="980" font-family="${HV}" font-weight="900" font-size="64" fill="${LIME}">race-cancellations</text>
-    ${T('With the organiser’s reason and a source for each.', { y: 1080, size: 36, fill: CREAM }).svg}`, { tag, page: 4, pages: P, split: 700 });
+    ${T('With the organiser’s reason and a source for each.', { y: 1080, size: 36, fill: CREAM }).svg}`, { tag, page: 3, pages: P, split: 700 });
   const sMap = slide('ink', `${T(`${haze.length} races called off for haze`, { y: 250, size: 68, weight: 'heavy' }).svg}
     ${seaMap({ x: 60 - 120 * 2.7, y: 360 - 255 * 2.7, s: 2.7, clip: [80, 330, 920, 860], pins: [...new Map(haze.map((e) => pinOf(e, ORANGE, (pl) => pl.name)).filter(Boolean).map((p) => [p.name, p])).values()] })}
     ${T('September to November 2026.', { y: 1235, size: 30, fill: MUTED }).svg}`, { tag, page: 2, pages: P });
-  add('15-haze-season', `${haze.length} races called off for haze`, 'poster', [s1, sMap, s2, s3],
+  add('15-haze-season', `${haze.length} races called off for haze`, 'poster', [s1, sMap, s3],
     `Since September, haze has called off ${haze.length} half and full marathons in Malaysia and Singapore, and ${halted.length} races have been called off in all.\n\nRacing in the dry season? Watch your organiser's page the night before, check the API or PSI yourself, and book flexible travel.\n\nEvery race called off this year, with the reason and a source: runsea.run/race-cancellations (link in bio)\n\n${TAGS} #haze #jerebu`);
 }
 
-// ---- render -----------------------------------------------------------------
-const md = [];
-for (const p of posts) {
-  const files = await renderPost(OUT, p.name, p.slides);
-  md.push(`## ${p.name}: ${p.title}\n\nDesign: ${p.theme} · ${files.length} slides\n\n${p.caption}\n`);
+// ---- render: one folder per week ---------------------------------------
+const byNum = new Map(posts.map((p) => [Number(p.name.slice(0, 2)), p]));
+const weeks = new Map();
+for (const [num, date, slot] of PLAN) {
+  const p = byNum.get(num);
+  const wk = weekOf(date);
+  const dayTag = new Date(`${date}T00:00:00Z`).toLocaleDateString('en-GB', { weekday: 'short', day: 'numeric', month: 'short', timeZone: 'UTC' });
+  const name = `${date}-${p.name.slice(3)}`;
+  const files = await renderPost(path.join(ROOT, wk), name, p.slides);
+  (weeks.get(wk) ?? weeks.set(wk, []).get(wk)).push(`## ${dayTag}, ${slot} SGT: ${p.title}
+
+Slides (${files.length}, in order): ${files.map((f) => path.basename(f)).join(', ')}
+
+${p.caption}
+`);
 }
-fs.writeFileSync(path.join(OUT, '00-captions.md'), `# Run SEA post ideas: preview\n\nFiles are named in posting order (01 to ${String(posts.length).padStart(2, '0')}), slides in swipe order.\n\n${md.join('\n---\n\n')}`);
-console.log(`wrote ${posts.length} posts, ${posts.reduce((s, p) => s + p.slides.length, 0)} slides to ${OUT}`);
+for (const [wk, md] of weeks) fs.writeFileSync(path.join(ROOT, wk, 'captions.md'), `# Run SEA Instagram, week of ${wk}
+
+${md.join('\n---\n\n')}`);
+console.log(`wrote ${PLAN.length} posts into ${weeks.size} week folders under ${ROOT}`);
