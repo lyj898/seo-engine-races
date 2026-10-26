@@ -1,13 +1,13 @@
 #!/usr/bin/env node
-// Social posts for the week of 27 Oct 2026: a Lab stat carousel, this
-// weekend's races, and newly announced 2027 races. Numbers come from the
+// Social posts for the week of 27 Oct 2026: a Lab stat carousel, the haze
+// season in numbers, and newly announced 2027 races. Numbers come from the
 // site's own data at run time. Output (PNGs + captions.md) goes to
 // OneDrive Documents\runsea-social\2026-10-27, outside the repo.
 //
 //   node scripts/social/week-2026-10-27.js
 import fs from 'node:fs';
 import path from 'node:path';
-import { loadEntities, stripMeta } from '../../src/lib/data.js';
+import { loadEntities, stripMeta, isReviewableEntity } from '../../src/lib/data.js';
 import { loadFinishTimes } from '../../src/lib/finishTimes.js';
 import { W, LIME, TEXT, MUTED, LINE, FONT, HEAVY, esc, text, frame, curve, render } from './cards.js';
 
@@ -81,37 +81,63 @@ const captions = [];
   });
 }
 
-// ---- Post 2 (Thu): this weekend's races -----------------------------------
+// ---- Post 2 (Thu): haze season by numbers (from /race-cancellations/) -----
 {
-  const from = '2026-10-31', to = '2026-11-01';
-  const races = entities.filter((e) => e.core_facts.date >= from && e.core_facts.date <= to).sort((a, b) => a.core_facts.country.localeCompare(b.core_facts.country) || a.core_facts.date.localeCompare(b.core_facts.date));
-  const byCountry = [...new Set(races.map((e) => e.core_facts.country))].map((c) => [c, races.filter((e) => e.core_facts.country === c)]);
-  const P = byCountry.length + 2;
-  const slides = [frame(`
-    <text x="80" y="560" font-family="${HEAVY}" font-weight="900" font-size="300" fill="${LIME}">${races.length}</text>
-    ${text('half and full marathons this weekend', { y: 690, size: 72, weight: 'heavy' }).svg}
-    ${text(`${dayLabel(from)} – ${dayLabel(to)} · ${byCountry.map(([c]) => c).join(', ')}`, { y: 960, size: 36, color: MUTED }).svg}`, { tag: 'This weekend', page: 1, pages: P })];
-  byCountry.forEach(([country, list], i) => {
-    let y = 400;
-    const items = list.map((e) => {
-      const name = text(short(e.name), { y, size: 50, weight: 'heavy' });
-      const meta = `<text x="80" y="${(y + name.height + 4).toFixed(0)}" font-family="${FONT}" font-size="34" fill="${MUTED}">${esc(`${dayLabel(e.core_facts.date)} · ${e.core_facts.city.split(',')[0]} · ${dist(e.core_facts.distance_km)}`)}</text>`;
-      const block = name.svg + meta;
-      y += name.height + 110;
-      return block;
-    }).join('');
-    slides.push(frame(`<text x="80" y="290" font-family="${HEAVY}" font-weight="900" font-size="88" fill="${LIME}">${esc(country)}</text>${items}`, { tag: 'This weekend', page: i + 2, pages: P }));
-  });
-  slides.push(frame(`
-    ${text('Racing this weekend?', { y: 420, size: 90, weight: 'heavy' }).svg}
-    ${text('It is still haze season. Check your organiser’s page the night before you travel.', { y: 660, size: 42 }).svg}
-    ${text('Every half and full marathon in Southeast Asia, with dates and official links:', { y: 880, size: 36, color: MUTED }).svg}
-    <text x="80" y="1060" font-family="${HEAVY}" font-weight="900" font-size="84" fill="${LIME}">runsea.run</text>`, { tag: 'This weekend', page: P, pages: P }));
-  const files = await render(slides, OUT, '2-this-weekend');
+  const all = loadEntities().map(stripMeta).filter(isReviewableEntity);
+  const halted = all.filter((e) => e.core_facts?.event_status && /^\d{4}-\d{2}-\d{2}$/.test(e.core_facts.date)).sort((a, b) => a.core_facts.date.localeCompare(b.core_facts.date));
+  const isHaze = (note = '') => /haze|air quality|air pollutant|jerebu/i.test(note);
+  const haze = halted.filter((e) => isHaze(e.core_facts.event_status_note));
+  const virtual = halted.filter((e) => /virtual run/i.test(e.core_facts.event_status_note ?? '')).length;
+  const postponed = halted.filter((e) => e.core_facts.event_status === 'postponed').length;
+  const shortened = all.filter((e) => e.core_facts?.race_day_change && !e.core_facts.event_status).length;
+  const P = 5;
+  const tile = (x, y, big, label) => `<rect x="${x}" y="${y}" width="440" height="250" rx="28" fill="#ffffff0d"/>
+    <text x="${x + 40}" y="${y + 130}" font-family="${HEAVY}" font-weight="900" font-size="110" fill="${LIME}">${big}</text>
+    <text x="${x + 40}" y="${y + 200}" font-family="${FONT}" font-weight="600" font-size="34" fill="${TEXT}">${esc(label)}</text>`;
+  const s1 = frame(`
+    <text x="80" y="560" font-family="${HEAVY}" font-weight="900" font-size="300" fill="${LIME}">${halted.length}</text>
+    ${text('races called off in Southeast Asia since September', { y: 690, size: 72, weight: 'heavy' }).svg}
+    ${text(`${haze.length} of them because of haze or unhealthy air.`, { y: 1000, size: 40, color: MUTED }).svg}`, { tag: 'Haze season', page: 1, pages: P });
+  const s2 = frame(`
+    ${text('The 2026 haze season in numbers', { y: 260, size: 66, weight: 'heavy' }).svg}
+    ${tile(80, 440, halted.length, 'races called off')}
+    ${tile(560, 440, haze.length, 'for haze or air quality')}
+    ${tile(80, 730, virtual, 'turned into virtual runs')}
+    ${tile(560, 730, postponed, 'postponed')}
+    ${text(`Plus ${shortened} race shortened on the day. Half and full marathons on our calendar only.`, { y: 1080, size: 32, color: MUTED }).svg}`, { tag: 'Haze season', page: 2, pages: P });
+  let y = 300;
+  const rows = haze.map((e) => {
+    const r = `<text x="80" y="${y}" font-family="${FONT}" font-weight="700" font-size="30" letter-spacing="2" fill="${LIME}">${esc(dayLabel(e.core_facts.date).toUpperCase())}</text>
+      <text x="330" y="${y}" font-family="${FONT}" font-weight="700" font-size="34" fill="${TEXT}">${esc(short(e.name.replace(/\s*\(.*\)\s*$/, '')))}</text>`;
+    y += 86;
+    return r;
+  }).join('');
+  const s3 = frame(`${text('Called off for haze', { y: 220, size: 60, weight: 'heavy' }).svg}${rows}`, { tag: 'Haze season', page: 3, pages: P });
+  const tips = [
+    ['Watch the night before', 'Most calls came late, some the evening before. Follow the organiser’s page in race week.'],
+    ['Know the reading', 'API in Malaysia, PSI and PM2.5 in Singapore. Check it yourself on race morning.'],
+    ['Book flexible', 'Refundable flights and hotels if you are travelling to race in the dry season.'],
+    ['Read the small print', 'Refund, transfer and virtual-run rules differ. Check them before you enter.'],
+  ];
+  let ty = 360;
+  const tipSvg = tips.map(([h, b]) => {
+    const head = `<text x="80" y="${ty}" font-family="${HEAVY}" font-weight="900" font-size="46" fill="${LIME}">${esc(h)}</text>`;
+    const body = text(b, { y: ty + 60, size: 34 });
+    ty += 60 + body.height + 70;
+    return head + body.svg;
+  }).join('');
+  const s4 = frame(`${text('Racing in haze season?', { y: 230, size: 66, weight: 'heavy' }).svg}${tipSvg}`, { tag: 'Haze season', page: 4, pages: P });
+  const h5 = text('Every race called off this year', { y: 380, size: 88, weight: 'heavy' });
+  const s5 = frame(`
+    ${h5.svg}
+    ${text('With the organiser’s reason and a source for each. Updated as it happens.', { y: 380 + h5.height + 50, size: 42 }).svg}
+    <text x="80" y="980" font-family="${HEAVY}" font-weight="900" font-size="60" fill="${LIME}">runsea.run/</text>
+    <text x="80" y="1060" font-family="${HEAVY}" font-weight="900" font-size="60" fill="${LIME}">race-cancellations</text>`, { tag: 'Haze season', page: 5, pages: P });
+  const files = await render([s1, s2, s3, s4, s5], OUT, '2-haze-season');
   captions.push({
-    title: `Post 2 (Thu 29 Oct): ${races.length} races this weekend`,
+    title: `Post 2 (Thu 29 Oct): ${halted.length} races called off this haze season`,
     files,
-    caption: `${races.length} half and full marathons across Southeast Asia this weekend (${dayLabel(from)} – ${dayLabel(to)}):\n\n${byCountry.map(([c, l]) => `${c}: ${l.map((e) => short(e.name)).join(', ')}`).join('\n')}\n\nStill haze season, so check your organiser's page before you travel. Full calendar with official links at runsea.run (link in bio)\n\n#halfmarathon #marathon #raceweekend #running #runningmalaysia #larimalaysia #thailandrunning #vietnamrunners #lariindonesia #runsea`,
+    caption: `${halted.length} half and full marathons in Southeast Asia have been called off since September, ${haze.length} of them because of haze or unhealthy air. ${virtual} became virtual runs, ${postponed} were postponed, and ${shortened} went ahead shortened.\n\nIf you're racing in the dry season: follow your organiser in race week, check the API or PSI yourself, and book refundable travel.\n\nEvery cancellation, with the reason and a source: runsea.run/race-cancellations (link in bio)\n\n#haze #jerebu #running #halfmarathon #runningmalaysia #larimalaysia #runningsingapore #sghaze #runsea`,
   });
 }
 
