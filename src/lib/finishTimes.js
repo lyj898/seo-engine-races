@@ -33,6 +33,9 @@ const EXCLUDED_SLUGS = new Set([
   'national-milo-marathon-2026-national-finals',
   // Half cut to 10 km on the day for haze and run as non-competitive.
   'the-kiprun-singapore-2026',
+  // 21 km cancelled for haze on the day (25 Oct 2026); excluding the edition
+  // keeps the full 2025 race as the series' latest in the benchmarks.
+  'garmin-run-singapore-2026',
 ]);
 
 const DIR = path.join(process.cwd(), 'data', 'finish-times');
