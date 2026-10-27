@@ -17,7 +17,11 @@
     "price_range": "SGD 21K SGD 125 / 10K SGD 105",
     "venue": "Marina Barrage",
     "city": "Singapore",
-    "country": "Singapore"
+    "country": "Singapore",
+    "race_day_change": {
+      "note": "Because of haze, the 21 km was cut to 10 km on race day and every category was run as a non-competitive 10 km fun run, with no official rankings.",
+      "source": "https://sportplus.sg/blogs/news/garmin-run-singapore-2026-concludes-with-unbroken-spirit-at-marina-barrage-amid-regional-haze-challenge"
+    }
   },
   "pros": [
     "Four-hour cut-off for the half marathon",
@@ -137,6 +141,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-30",
+  "last_updated": "2026-10-27",
   "status": "active"
 }

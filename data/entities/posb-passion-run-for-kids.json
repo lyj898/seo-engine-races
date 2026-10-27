@@ -12,7 +12,9 @@
       5
     ],
     "venue": "The Promontory @ Marina Bay",
-    "country": "Singapore"
+    "country": "Singapore",
+    "event_status": "cancelled",
+    "event_status_note": "The organiser cancelled the event; entry fees are refunded automatically and commemorative medals are posted to runners who opted for one."
   },
   "pros": [
     "Takes place at a scenic, well-known waterfront venue in Marina Bay",
@@ -43,6 +45,12 @@
   ],
   "source_mix": [
     {
+      "url": "https://www.posbpassionrunforkids.com/faqs/",
+      "label": "Official FAQ: event cancellation",
+      "type": "official",
+      "last_checked": "2026-10-27"
+    },
+    {
       "url": "https://www.justrunlah.com/calendar-of-running-events-singapore/",
       "label": "www.justrunlah.com",
       "type": "aggregator",
@@ -50,9 +58,15 @@
     }
   ],
   "affiliate_links": [],
-  "cta_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://www.posbpassionrunforkids.com/",
+      "type": "official_website"
+    }
+  ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-10-27",
   "status": "archived",
   "editorial_notes": "Archived 2026-08-18: out of scope. Longest distance is 5km, and this directory only lists races offering a half (21.1km) or full (42.195km) marathon -- see sourceConfig.discoveryRequiredCategoryIds. Discovered in error by the 2026-08-18 refresh before that rule existed. Archived rather than deleted so the slug stays reserved and discovery cannot re-add it."
 }

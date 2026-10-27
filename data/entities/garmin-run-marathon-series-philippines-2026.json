@@ -67,10 +67,16 @@
   ],
   "source_mix": [
     {
-      "url": "https://hyvesport.com/2026-garmin-run-ph-1",
-      "label": "Official race page (Hyve Sports)",
+      "url": "https://ph.garmin.com/event/2026/garmin-run/",
+      "label": "Garmin Run Philippines (official)",
       "type": "official",
-      "last_checked": "2026-09-29"
+      "last_checked": "2026-10-27"
+    },
+    {
+      "url": "https://registration.hyvesport.com/register/2026-garmin-run-marathon-series-philippines",
+      "label": "Entry page (Hyve Sports)",
+      "type": "registration_platform",
+      "last_checked": "2026-10-27"
     },
     {
       "url": "https://www.pinoyfitness.com/list-of-events/",
@@ -83,11 +89,16 @@
   "cta_links": [
     {
       "label": "Visit official site",
-      "url": "https://hyvesport.com/2026-garmin-run-ph-1",
+      "url": "https://ph.garmin.com/event/2026/garmin-run/",
       "type": "official_website"
+    },
+    {
+      "label": "Entry page on Hyve Sports",
+      "url": "https://registration.hyvesport.com/register/2026-garmin-run-marathon-series-philippines",
+      "type": "registration"
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-10-27",
   "status": "needs_review"
 }
