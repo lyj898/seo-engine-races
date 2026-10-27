@@ -23,6 +23,8 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const ENTITIES = path.join(ROOT, 'data', 'entities');
 const OUT = path.join(ROOT, 'data', 'finish-times');
 const REFRESH = process.argv.includes('--refresh');
+// --only=slug-a,slug-b re-fetches just those races (overwriting what's saved).
+const ONLY = (process.argv.find((a) => a.startsWith('--only=')) ?? '').slice(7).split(',').filter(Boolean);
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0 Safari/537.36';
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -84,7 +86,9 @@ async function readRaceRoster(url) {
       const t = clock(r.chipTime) ?? clock(r.gunTime);
       if (!t) continue;
       const label = r.division || '';
-      times.push([t, r.gender ? genderOf(r.gender) : genderOf(label), ageBand(label)]);
+      // Some sub-events name the field genderSexId instead of gender.
+      const sex = r.gender || r.genderSexId;
+      times.push([t, sex ? genderOf(sex) : genderOf(label), ageBand(label)]);
     }
     out[key] = { meters, times };
   }
@@ -483,10 +487,11 @@ let saved = 0;
 for (const file of fs.readdirSync(ENTITIES).filter((f) => f.endsWith('.json'))) {
   const e = JSON.parse(fs.readFileSync(path.join(ENTITIES, file), 'utf8'));
   if (!e.results?.url || e.status === 'draft' || e.core_facts?.event_status) continue;
+  if (ONLY.length && !ONLY.includes(e.slug)) continue;
   const reader = READERS.find((r) => r.test.test(e.results.url));
   if (!reader) { skipped.push(`${e.slug} (${new URL(e.results.url).hostname})`); continue; }
   const dest = path.join(OUT, `${e.slug}.json`);
-  if (fs.existsSync(dest) && !REFRESH) continue;
+  if (fs.existsSync(dest) && !REFRESH && !ONLY.length) continue;
   try {
     const distances = await reader.read(e.results.url);
     for (const d of Object.values(distances)) {
