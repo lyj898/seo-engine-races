@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { loadEntities, stripMeta } from './data.js';
-import { getSeriesKey } from './succession.js';
+import { getSeriesKey, findSuccessorEntity } from './succession.js';
 
 /**
  * Finish-time benchmarks, built from data/finish-times/<slug>.json (written by
@@ -134,6 +134,29 @@ export function loadFinishTimes() {
   // Per-race tables for "where you'd rank at other races" (any qualifying distance).
   const raceQuantiles = races.map((r) => ({ slug: r.slug, name: r.name, country: r.country, distance: r.distance, n: r.times.length, q: quantiles(r.times.map(([t]) => t)) }));
 
+  // "Where would you place?": each race's field split by gender and age group,
+  // so a time can be placed among the runners you'd actually line up with.
+  // Per group only its size, 21 quantiles and the 3rd/10th-place cut-offs
+  // reach the page. Age groups only where the race publishes them for most
+  // finishers. `next` is the race's next dated edition, if one is coming up.
+  const PLACE_MIN = 30;
+  const published = [...entities.values()].filter((x) => x.status !== 'draft');
+  const today = new Date().toISOString().slice(0, 10);
+  const placeTables = races.map((r) => {
+    const hasAge = r.times.filter(([, , a]) => a).length >= 0.8 * r.times.length;
+    const groups = {};
+    for (const g of ['all', 'M', 'F']) {
+      for (const a of ['all', ...(hasAge ? AGE_BANDS : [])]) {
+        const s = r.times.filter(([, gg, aa]) => (g === 'all' || gg === g) && (a === 'all' || aa === a)).map(([t]) => t).sort((x, y) => x - y);
+        if (s.length < PLACE_MIN) continue;
+        groups[`${g}|${a}`] = { n: s.length, q: Array.from({ length: 21 }, (_, i) => s[Math.round((i / 20) * (s.length - 1))]), p3: s[2], p10: s[9] };
+      }
+    }
+    const next = findSuccessorEntity(entities.get(r.slug), published);
+    const upcoming = next && next.core_facts?.date >= today && !next.core_facts?.event_status;
+    return { slug: r.slug, name: r.name, country: r.country, date: r.date, distance: r.distance, groups, ...(upcoming && { next: { slug: next.slug, date: next.core_facts.date } }) };
+  });
+
   // Headline insights per distance, region-wide, for the Lab page. Everything
   // here is recomputed from the data at build time, so the page's numbers
   // move as races are added -- nothing is typed in by hand.
@@ -177,7 +200,7 @@ export function loadFinishTimes() {
 
   const totalFinishes = races.reduce((n, r) => n + r.times.length, 0);
   cache = {
-    tables, counts, countries, raceTable, raceQuantiles, insights, races: races.map(({ times, ...r }) => ({ ...r, finishers: times.length })),
+    tables, counts, countries, raceTable, raceQuantiles, placeTables, insights, races: races.map(({ times, ...r }) => ({ ...r, finishers: times.length })),
     totalFinishes, raceCount: new Set(races.map((r) => r.slug)).size,
     // Every country with any race (for the intro), and those that qualify for at least one distance (for the picker).
     allCountries: [...new Set(races.map((r) => r.country))].sort(),

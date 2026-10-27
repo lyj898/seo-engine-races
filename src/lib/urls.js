@@ -69,6 +69,8 @@ export const urls = {
   toolsIndex: () => withBase('/tools/'),
   tool: (slug) => withBase(`/tools/${slug}/`),
   labRank: (distance, tier) => withBase(`/tools/rank/${distance}/${tier}/`),
+  // JSON for the Lab's "Where would you place?" (fetched on demand, not a page).
+  labPlaceData: () => withBase('/tools/rank/place-data.json'),
   about: () => withBase('/about/'),
   privacy: () => withBase('/privacy/'),
   terms: () => withBase('/terms/'),

@@ -10,7 +10,7 @@ import { numFieldClass, selectClass, labelClass, subLabelClass, cardClass, calcu
 // peer group. Only percentile tables reach the page, never individual times.
 const ft = loadFinishTimes();
 const { defaultDistance = 'Half' } = Astro.props;
-const payload = { tables: ft.tables, counts: ft.counts, races: ft.raceQuantiles, labels: DISTANCE_LABEL, tiers: TIERS, dslug: DISTANCE_SLUG, rankBase: urls.labRank('D', 'T').replace('D/T/', '') };
+const payload = { tables: ft.tables, counts: ft.counts, placeUrl: urls.labPlaceData(), labels: DISTANCE_LABEL, tiers: TIERS, dslug: DISTANCE_SLUG, rankBase: urls.labRank('D', 'T').replace('D/T/', '') };
 // The country picker appears only once every country we hold results for has
 // at least 3 races (Alex, Oct 2026); until then everyone is compared region-wide.
 const showCountry = ft.allCountries.length > 0 && ft.allCountries.every((c) => ft.countryList.includes(c));
@@ -100,13 +100,21 @@ const showCountry = ft.allCountries.length > 0 && ft.allCountries.every((c) => f
         )}
         <h3 class="mt-8 text-base font-semibold">How you compare</h3>
         <ul id="ft-rows" class="mt-3 divide-y divide-brand-divider rounded-lg border border-brand-border dark:divide-brand-divider-dark dark:border-brand-border-dark"></ul>
-        <h3 class="mt-8 text-base font-semibold">The races where you'd have ranked best</h3>
-        <p class="mt-1 text-sm text-brand-muted dark:text-brand-muted-dark">The same time against each race's own field, best ranking first.</p>
-        <ul id="ft-races" class="mt-3 space-y-1 text-sm"></ul>
-        <details id="ft-races-more" class="mt-2 text-sm">
-          <summary class="inline-flex min-h-[44px] cursor-pointer items-center font-semibold text-brand-muted dark:text-brand-muted-dark">See all races</summary>
-          <ul id="ft-races-all" class="mt-1 space-y-1"></ul>
-        </details>
+        <section id="wp" class="mt-10">
+          <h3 class="text-lg font-semibold">Where would you place?</h3>
+          <p id="wp-sub" class="mt-1 text-sm text-brand-muted dark:text-brand-muted-dark"></p>
+          <p id="wp-summary" class="mt-4 rounded-lg bg-brand-primary-highlight px-4 py-3 text-sm font-semibold dark:bg-brand-primary-highlight-dark"></p>
+          <div class="mt-4 flex flex-wrap items-center gap-2" role="group" aria-label="Sort races">
+            <button type="button" data-sort="best" class="inline-flex min-h-[44px] items-center rounded-full border border-brand-border px-4 text-sm font-semibold hover:bg-brand-surface-offset aria-pressed:border-brand-primary aria-pressed:bg-brand-primary aria-pressed:text-brand-primary-ink dark:border-brand-border-dark dark:hover:bg-brand-surface-offset-dark dark:aria-pressed:border-brand-primary-dark dark:aria-pressed:bg-brand-primary-dark dark:aria-pressed:text-brand-primary-ink-dark">Best placing</button>
+            <button type="button" data-sort="soon" class="inline-flex min-h-[44px] items-center rounded-full border border-brand-border px-4 text-sm font-semibold hover:bg-brand-surface-offset aria-pressed:border-brand-primary aria-pressed:bg-brand-primary aria-pressed:text-brand-primary-ink dark:border-brand-border-dark dark:hover:bg-brand-surface-offset-dark dark:aria-pressed:border-brand-primary-dark dark:aria-pressed:bg-brand-primary-dark dark:aria-pressed:text-brand-primary-ink-dark">Coming up next</button>
+            <button type="button" data-sort="field" class="inline-flex min-h-[44px] items-center rounded-full border border-brand-border px-4 text-sm font-semibold hover:bg-brand-surface-offset aria-pressed:border-brand-primary aria-pressed:bg-brand-primary aria-pressed:text-brand-primary-ink dark:border-brand-border-dark dark:hover:bg-brand-surface-offset-dark dark:aria-pressed:border-brand-primary-dark dark:aria-pressed:bg-brand-primary-dark dark:aria-pressed:text-brand-primary-ink-dark">Biggest fields</button>
+            <label class="ml-auto inline-flex min-h-[44px] items-center gap-2 text-sm"><input id="wp-upcoming" type="checkbox" class="h-4 w-4" /> Only races with a date coming up</label>
+          </div>
+          <div id="wp-countries" class="mt-2 flex flex-wrap gap-2" role="group" aria-label="Filter by country"></div>
+          <ol id="wp-list" class="mt-4 grid gap-3"></ol>
+          <button type="button" id="wp-more" class="mt-3 inline-flex min-h-[44px] items-center text-sm font-semibold text-brand-muted dark:text-brand-muted-dark"></button>
+          <p class="mt-3 text-xs text-brand-muted dark:text-brand-muted-dark">Places are estimated from each race's latest results we hold, against finishers of your gender and age group where the race publishes age groups (otherwise your gender). We count finishes, not names.</p>
+        </section>
       </div>
     </section>
 
@@ -158,9 +166,15 @@ const showCountry = ft.allCountries.length > 0 && ft.allCountries.every((c) => f
       return Math.max(g, 0.1);
     }
 
+    // The per-race place tables load on first use of the form, not with the page.
+    let placeData: Promise<P[]> | null = null;
+    const loadPlace = () => (placeData ??= fetch(data.placeUrl).then((r) => (r.ok ? r.json() : [])).catch(() => []));
+    form.addEventListener('focusin', () => loadPlace(), { once: true });
+
     let lastShare = '';
-    form.addEventListener('submit', (ev) => {
+    form.addEventListener('submit', async (ev) => {
       ev.preventDefault();
+      const viaLink = fromLink;
       const d = $('ft-distance').value;
       const t = (Number($('ft-h').value) || 0) * 3600 + (Number($('ft-m').value) || 0) * 60 + (Number($('ft-s').value) || 0);
       const g = $('ft-gender').value;
@@ -198,32 +212,17 @@ const showCountry = ft.allCountries.length > 0 && ft.allCountries.every((c) => f
         + notes.map((x) => `<li class="px-4 py-3 text-sm text-brand-muted dark:text-brand-muted-dark">${x}</li>`).join('');
       const score = g && age != null && BEST[g]?.[d] ? (BEST[g][d] / (t * ageFactor(age))) * 100 : null;
 
-      // Every race at this distance, best ranking first: the top five up front,
-      // the rest (same order) behind "See the other N races".
-      const raceList = (data.races as { slug: string; name: string; distance: string; n: number; q: Q }[])
-        .filter((r) => r.distance === d)
-        .map((r) => ({ ...r, b: beats(r.q, t) }))
-        .sort((a, b) => b.b - a.b || b.n - a.n);
-      const li = (r: { slug: string; name: string; n: number; b: number }) =>
-        `<li class="flex items-baseline justify-between gap-3 border-b border-brand-divider py-1 last:border-0 dark:border-brand-divider-dark"><span><a class="link-accent inline-block py-1.5" href="/race/${r.slug}/">${r.name}</a> <span class="text-xs text-brand-muted dark:text-brand-muted-dark">${r.n.toLocaleString('en-US')} finishers</span></span><span class="shrink-0 tabular-nums">Top ${pct(100 - r.b)}%</span></li>`;
-      const best5 = raceList.slice(0, 5);
-      document.getElementById('ft-races')!.innerHTML = best5.map(li).join('');
-      const rest = raceList.slice(5);
-      document.getElementById('ft-races-all')!.innerHTML = rest.map(li).join('');
-      document.getElementById('ft-races-more')!.classList.toggle('hidden', rest.length === 0);
-      document.querySelector('#ft-races-more summary')!.textContent = `See the other ${rest.length} races`;
-      (document.getElementById('ft-races-more') as HTMLDetailsElement).open = false;
-
-      // Best race ranking (the top of the list above): the brag line.
-      const bigRace = raceList[0];
+      // Best placing at any race (the top of "Where would you place?"): the brag line.
+      const best = renderPlaces(d, t, g, age, await loadPlace());
       const raceName = (n: string) => n.replace(/\s*\(.*?\)/g, '').replace(/\s+presented by.*$/i, '').replace(/\s+20\d\d\b/g, '').trim();
-      renderCard({ d, t, peer, overall, score, bigRace: bigRace && { name: raceName(bigRace.name), b: bigRace.b } });
+      const bigRace = best && { name: raceName(best.name), pos: best.pos, n: best.n, who: groupWord(best.key) };
+      renderCard({ d, t, peer, overall, score, bigRace });
       shareItem = `${data.dslug[d]}-${TIERS[tierIndex(peer.b)].slug}`;
       track('lab_rank', {
         distance: data.dslug[d],
         tier: TIERS[tierIndex(peer.b)].slug,
         peer_group: peer.key,
-        source: fromLink ? 'shared_link' : 'form',
+        source: viaLink ? 'shared_link' : 'form',
         page_type: location.pathname.includes('/rank/') ? 'tier_page' : 'lab',
       });
       // Shared links open the page for this distance and tier, so WhatsApp and
@@ -231,18 +230,124 @@ const showCountry = ft.allCountries.length > 0 && ft.allCountries.every((c) => f
       shareUrl = `${location.origin}${data.rankBase}${data.dslug[d]}/${TIERS[tierIndex(peer.b)].slug}/?${new URLSearchParams({ d, t: String(t), ...(g ? { g } : {}), ...(age != null ? { a: String(age) } : {}) })}`;
       const peerText = peer.key === 'all' ? 'all finishers in Southeast Asia' : `${who(peer.label)} in Southeast Asia`;
       lastShare = `My ${short(t)} ${data.labels[d].toLowerCase()} is faster than ${pct(peer.b)}% of ${peerText}: ${tier(peer.b)} tier.`
-        + (bigRace ? ` I'd have been top ${pct(100 - bigRace.b)}% at ${raceName(bigRace.name)}.` : '') + ' How do you stack up?';
+        + (bigRace ? ` I'd have placed about ${ord(bigRace.pos)} of ${bigRace.n.toLocaleString('en-US')} ${bigRace.who} at ${bigRace.name}.` : '') + ' How do you stack up?';
       const enc = encodeURIComponent;
       (document.getElementById('ft-wa') as HTMLAnchorElement).href = `https://wa.me/?text=${enc(`${lastShare} ${shareUrl}`)}`;
       (document.getElementById('ft-x') as HTMLAnchorElement).href = `https://x.com/intent/post?text=${enc(lastShare)}&url=${enc(shareUrl)}`;
       (document.getElementById('ft-fb') as HTMLAnchorElement).href = `https://www.facebook.com/sharer/sharer.php?u=${enc(shareUrl)}`;
       document.getElementById('ft-copied')!.textContent = '';
       result.classList.remove('hidden');
-      result.scrollIntoView({ behavior: fromLink ? 'auto' : 'smooth', block: 'start' });
+      result.scrollIntoView({ behavior: viaLink ? 'auto' : 'smooth', block: 'start' });
     });
 
+    // "Where would you place?": the time against each race's own field of
+    // runners like you (gender + age group where published), as a likely
+    // finishing position, with the race's next edition to aim for.
+    type G = { n: number; q: Q; p3: number; p10: number };
+    type P = { slug: string; name: string; country: string; date: string; distance: string; groups: Record<string, G>; next?: { slug: string; date: string } };
+    type PlaceRow = P & { key: string; n: number; pos: number; share: number; fellBack: boolean };
+    const day = (iso: string) => new Date(`${iso}T00:00:00`).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+    const ord = (n: number) => `${n}${[11, 12, 13].includes(n % 100) ? 'th' : ({ 1: 'st', 2: 'nd', 3: 'rd' } as Record<number, string>)[n % 10] || 'th'}`;
+    // Share of a group slower than t, from evenly spaced quantiles of any length.
+    function beatsK(q: Q, t: number) {
+      const k = q.length - 1;
+      if (t <= q[0]) return 100;
+      if (t >= q[k]) return 0;
+      for (let i = 0; i < k; i++) if (t < q[i + 1]) return 100 - ((i + (t - q[i]) / Math.max(1, q[i + 1] - q[i])) * 100) / k;
+      return 0;
+    }
+    const groupWord = (key: string) => {
+      const [g, a] = key.split('|');
+      const who = g === 'M' ? 'men' : g === 'F' ? 'women' : a === 'all' ? 'finishers' : 'runners';
+      return a === 'all' ? who : `${who} aged ${a.replace('-', '–')}`;
+    };
+    const wp = { sort: 'best', upcoming: false, country: '', shown: 6, rows: [] as PlaceRow[] };
+    function renderPlaces(d: string, t: number, g: string, age: number | null, place: P[]) {
+      const b = age != null ? band(age) : 'all';
+      const tryKeys = [g && `${g}|${b}`, g && `${g}|all`, `all|${b}`, 'all|all'].filter(Boolean) as string[];
+      const races = place.filter((r) => r.distance === d);
+      // If the tables didn't load, the rest of the result still shows.
+      document.getElementById('wp')!.classList.toggle('hidden', races.length === 0);
+      if (!races.length) return undefined;
+      wp.rows = races.map((r) => {
+        const key = tryKeys.find((k) => r.groups[k])!;
+        const G = r.groups[key];
+        // Position from the quantiles, kept consistent with the exact 3rd- and
+        // 10th-place cut-offs.
+        let pos = Math.min(G.n, Math.max(1, Math.round(((100 - beatsK(G.q, t)) / 100) * G.n) + 1));
+        pos = t < G.p3 ? Math.min(pos, 3) : Math.max(pos, Math.min(4, G.n));
+        if (t >= G.p3) pos = t < G.p10 ? Math.min(pos, 10) : Math.max(pos, Math.min(11, G.n));
+        return { ...r, key, n: G.n, pos, share: (pos / G.n) * 100, fellBack: key !== tryKeys[0] };
+      });
+      wp.shown = 6;
+      const ideal = tryKeys[0];
+      document.getElementById('wp-sub')!.textContent = `Your ${short(t)} against each race's own field of ${groupWord(ideal)}, from the latest results we hold.`;
+      const pod = wp.rows.filter((r) => r.pos <= 3 && !r.fellBack);
+      const top10 = wp.rows.filter((r) => r.pos > 3 && r.pos <= 10 && !r.fellBack);
+      const rung = (r: PlaceRow) => (r.pos <= 3 ? 0 : r.pos <= 10 ? 1 : 2);
+      const best = [...wp.rows].sort((x, y) => rung(x) - rung(y) || x.share - y.share)[0];
+      document.getElementById('wp-summary')!.textContent = pod.length || top10.length
+        ? `You'd have made the podium among ${groupWord(ideal)} at ${pod.length} race${pod.length === 1 ? '' : 's'}${top10.length ? `, and the top 10 at ${top10.length} more` : ''}.`
+        : `Your best placing: about ${ord(best.pos)} of ${best.n.toLocaleString('en-US')} ${groupWord(best.key)} at ${best.name}.`;
+      // "Coming up" sorting and filtering only once enough races have a dated next edition.
+      const dated = wp.rows.filter((r) => r.next).length >= 5;
+      if (!dated && wp.sort === 'soon') wp.sort = 'best';
+      if (!dated) wp.upcoming = false;
+      document.querySelector('[data-sort="soon"]')!.classList.toggle('hidden', !dated);
+      document.getElementById('wp-upcoming')!.closest('label')!.classList.toggle('hidden', !dated);
+      const cs = [...new Set(wp.rows.map((r) => r.country))].sort();
+      document.getElementById('wp-countries')!.innerHTML = ['', ...cs].map((c) => `<button type="button" data-country="${c}" class="inline-flex min-h-[44px] items-center rounded-full border border-brand-border px-3 text-xs font-semibold hover:bg-brand-surface-offset aria-pressed:border-brand-text aria-pressed:bg-brand-text aria-pressed:text-brand-bg dark:border-brand-border-dark dark:hover:bg-brand-surface-offset-dark dark:aria-pressed:bg-brand-text-dark dark:aria-pressed:text-brand-bg-dark">${c || 'All countries'}</button>`).join('');
+      drawPlaces();
+      return best;
+    }
+    function drawPlaces() {
+      const rows = wp.rows.filter((r) => (!wp.upcoming || r.next) && (!wp.country || r.country === wp.country));
+      // Best placing: podiums, then top 10s, then by share of the field.
+      const rung = (r: PlaceRow) => (r.pos <= 3 ? 0 : r.pos <= 10 ? 1 : 2);
+      rows.sort(wp.sort === 'field' ? (x, y) => y.n - x.n
+        : wp.sort === 'soon' ? (x, y) => (x.next?.date ?? '9999').localeCompare(y.next?.date ?? '9999') || x.share - y.share
+        : (x, y) => rung(x) - rung(y) || x.share - y.share || y.n - x.n);
+      document.querySelectorAll<HTMLButtonElement>('[data-sort]').forEach((el) => el.setAttribute('aria-pressed', String(el.dataset.sort === wp.sort)));
+      document.querySelectorAll<HTMLButtonElement>('[data-country]').forEach((el) => el.setAttribute('aria-pressed', String((el.dataset.country || '') === wp.country)));
+      const badge = (r: PlaceRow) => (r.pos <= 3 ? ['Podium', 'bg-[#c8ff33] text-[#15170f]']
+        : r.pos <= 10 ? ['Top 10', 'bg-[#15170f] text-[#c8ff33]']
+        : r.share <= 10 ? ['Top 10%', 'bg-brand-primary-highlight dark:bg-brand-primary-highlight-dark']
+        : r.share <= 25 ? ['Top quarter', 'bg-brand-surface-offset dark:bg-brand-surface-offset-dark'] : null);
+      const card = (r: PlaceRow) => {
+        const bd = badge(r);
+        const x = Math.min(98, Math.max(2, r.share));
+        return `<li class="rounded-xl border border-brand-border px-4 py-3 dark:border-brand-border-dark">
+          <div class="flex items-start justify-between gap-4">
+            <div class="min-w-0">
+              <a class="link-accent font-semibold leading-snug" href="/race/${r.slug}/">${r.name}</a>
+              <p class="mt-0.5 text-xs text-brand-muted dark:text-brand-muted-dark">${r.country} · results from ${day(r.date)}${r.fellBack && r.key.endsWith('|all') && r.key !== 'all|all' ? ' · no age groups published' : ''}</p>
+            </div>
+            <div class="shrink-0 text-right">
+              <p class="font-serif text-3xl font-black leading-none tabular-nums">~${ord(r.pos)}</p>
+              ${bd ? `<span class="mt-1.5 inline-block rounded-full px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wide ${bd[1]}">${bd[0]}</span>` : ''}
+            </div>
+          </div>
+          <p class="mt-2 text-sm text-brand-muted dark:text-brand-muted-dark">of ${r.n.toLocaleString('en-US')} ${groupWord(r.key)}</p>
+          <div class="relative mt-2 h-1.5 rounded-full bg-brand-surface-offset dark:bg-brand-surface-offset-dark" aria-hidden="true"><span class="absolute top-1/2 h-3 w-3 -translate-x-1/2 -translate-y-1/2 rounded-full border-2 border-brand-bg bg-brand-primary dark:border-brand-bg-dark dark:bg-brand-primary-dark" style="left:${x}%"></span></div>
+          <div class="mt-1 flex justify-between text-[11px] text-brand-muted dark:text-brand-muted-dark"><span>1st</span><span>last</span></div>
+          ${r.next ? `<p class="mt-2 text-sm">Next edition: <a class="link-accent inline-block py-1 font-semibold" href="/race/${r.next.slug}/">${day(r.next.date)} &rarr;</a></p>` : ''}
+        </li>`;
+      };
+      document.getElementById('wp-list')!.innerHTML = rows.slice(0, wp.shown).map(card).join('') || '<li class="text-sm text-brand-muted dark:text-brand-muted-dark">No races match these filters yet.</li>';
+      const more = document.getElementById('wp-more')!;
+      more.textContent = `Show all ${rows.length} races`;
+      more.classList.toggle('hidden', rows.length <= wp.shown);
+    }
+    document.querySelectorAll<HTMLButtonElement>('[data-sort]').forEach((el) => el.addEventListener('click', () => { wp.sort = el.dataset.sort!; drawPlaces(); }));
+    document.getElementById('wp-countries')!.addEventListener('click', (ev) => {
+      const el = (ev.target as HTMLElement).closest<HTMLButtonElement>('[data-country]');
+      if (el) { wp.country = el.dataset.country || ''; drawPlaces(); }
+    });
+    document.getElementById('wp-upcoming')!.addEventListener('change', (ev) => { wp.upcoming = (ev.target as HTMLInputElement).checked; drawPlaces(); });
+    document.getElementById('wp-more')!.addEventListener('click', () => { wp.shown = 999; drawPlaces(); });
+
     type Row = { label: string; b: number; n: number; med: number; key: string; q: Q };
-    function renderCard({ d, t, peer, overall, score, bigRace }: { d: string; t: number; peer: Row; overall: number; score: number | null; bigRace?: { name: string; b: number } }) {
+    function renderCard({ d, t, peer, overall, score, bigRace }: { d: string; t: number; peer: Row; overall: number; score: number | null; bigRace?: { name: string; pos: number; n: number; who: string } }) {
       const q = peer.q;
       const set = (id: string, v: string) => { document.getElementById(id)!.textContent = v; };
       const group = peer.key === 'all' ? 'All finishers' : peer.label.replace(/^All /, '').replace(/^\w/, (w) => w.toUpperCase());
@@ -283,7 +388,7 @@ const showCountry = ft.allCountries.length > 0 && ft.allCountries.every((c) => f
 
       const tile = (big: string, small: string) => `<div class="flex flex-col rounded-lg bg-white/5 px-4 py-3"><dt class="text-xs leading-snug text-[#a2a493]">${small}</dt><dd class="order-first font-serif text-2xl font-black text-[#eceee2]">${big}</dd></div>`;
       const tiles = [tile(`Top ${pct(100 - overall)}%`, 'of every finisher in Southeast Asia')];
-      if (bigRace) tiles.push(tile(`Top ${pct(100 - bigRace.b)}%`, `at ${bigRace.name}, your best race ranking`));
+      if (bigRace) tiles.push(tile(`~${ord(bigRace.pos)}`, `of ${bigRace.n.toLocaleString('en-US')} ${bigRace.who} at ${bigRace.name}, your best placing`));
       tiles.push(score != null ? tile(`${score.toFixed(1)}%`, 'age-graded score (approximate)') : tile(short(peer.med), `typical time for ${groupLower}`));
       document.getElementById('fc-stats')!.innerHTML = tiles.join('');
       set('fc-basis', `Based on ${(data.counts[d]?.all?.all?.all ?? 0).toLocaleString('en-US')} ${data.labels[d].toLowerCase()} finishes, latest edition of each race`);
