@@ -1,26 +1,9 @@
 {
-  "category_id": "half-marathon",
-  "region_id": "philippines",
-  "pros": [],
-  "cons": [],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
-  "affiliate_links": [],
-  "cta_links": [
-    {
-      "label": "Official race page on MyRunTime",
-      "url": "https://racerecord.myruntime.com/register/baganga-half-marathon-2026",
-      "type": "official_website"
-    }
-  ],
-  "related_entity_ids": [],
-  "last_updated": "2026-09-30",
-  "status": "needs_review",
-  "reliability_score": 30,
   "entity_id": "baganga-half-marathon-2026",
   "slug": "baganga-half-marathon-2026",
   "name": "Baganga Half Marathon 2026",
+  "category_id": "half-marathon",
+  "region_id": "philippines",
   "short_description": "Baganga Half Marathon 2026 is on Sunday 25 October 2026 in Baganga, Davao Oriental, over 3 km, 5 km, 10 km and 21.1 km.",
   "ai_summary": "The Baganga Half Marathon 2026 is a coastal road race in Baganga, Davao Oriental, billed as \"Run the Coast. Feel the Sunrise.\" It offers 21 km, 10 km, 5 km and 3 km categories, and registration runs through Race Record's MyRunTime page. Every category includes a race medal with free personalised engraving and an RFID race bib.",
   "core_facts": {
@@ -37,6 +20,11 @@
     "city": "Baganga, Davao Oriental",
     "country": "Philippines"
   },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
   "faqs": [
     {
       "question": "How much does it cost to enter the Baganga Half Marathon 2026?",
@@ -47,6 +35,7 @@
       "answer": "The 21K entry includes an event shirt, a race medal with free personalised engraving, a race breakfast meal, aid stations, an RFID race bib and a race towel. The race kit claiming schedule and venue are to be posted on the event's Facebook page."
     }
   ],
+  "reliability_score": 30,
   "tags": [
     "half-marathon",
     "philippines"
@@ -64,5 +53,16 @@
       "type": "aggregator",
       "last_checked": "2026-09-29"
     }
-  ]
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on MyRunTime",
+      "url": "https://racerecord.myruntime.com/register/baganga-half-marathon-2026",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-10-27",
+  "status": "archived"
 }

@@ -1,26 +1,9 @@
 {
-  "category_id": "half-marathon",
-  "region_id": "thailand",
-  "pros": [],
-  "cons": [],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
-  "affiliate_links": [],
-  "cta_links": [
-    {
-      "label": "Official race page on Regis.run",
-      "url": "https://www.regis.run/event/plaengyao35k2026",
-      "type": "official_website"
-    }
-  ],
-  "related_entity_ids": [],
-  "last_updated": "2026-09-30",
-  "status": "needs_review",
-  "reliability_score": 30,
   "entity_id": "plaengyao-35k-super-half-marathon-2026",
   "slug": "plaengyao-35k-super-half-marathon-2026",
   "name": "PLAENGYAO 35K Super Half Marathon 2026",
+  "category_id": "half-marathon",
+  "region_id": "thailand",
   "short_description": "PLAENGYAO 35K Super Half Marathon 2026 is on Sunday 25 October 2026 at Wang Yen Subdistrict Municipality in Plaeng Yao, Chachoengsao, over 5 km, 10 km, 21.1 km and 35 km.",
   "ai_summary": "PLAENGYAO 35K Super Half Marathon 2026 is organised by Run Yao and based at the Wang Yen Subdistrict Municipality office in Plaeng Yao district, Chachoengsao, with entries on Regis.run. Alongside the 35 km it offers 21 km, 10 km and 5 km races. The 35 km, 21 km and 10 km are chip-timed.",
   "core_facts": {
@@ -32,12 +15,17 @@
       35
     ],
     "primary_distance_km": 21.1,
-    "venue": "Wang Yen Subdistrict Municipality",
     "organizer": "Run Yao",
     "price_range": "THB 500-900",
+    "venue": "Wang Yen Subdistrict Municipality",
     "city": "Plaeng Yao, Chachoengsao",
     "country": "Thailand"
   },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
   "faqs": [
     {
       "question": "How much does the PLAENGYAO 35K Super Half Marathon cost?",
@@ -48,6 +36,7 @@
       "answer": "The 35 km, 21 km and 10 km are listed with chip timing. The 5 km entry does not mention a chip."
     }
   ],
+  "reliability_score": 30,
   "tags": [
     "half-marathon",
     "thailand"
@@ -65,5 +54,16 @@
       "type": "aggregator",
       "last_checked": "2026-09-29"
     }
-  ]
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on Regis.run",
+      "url": "https://www.regis.run/event/plaengyao35k2026",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-10-27",
+  "status": "archived"
 }

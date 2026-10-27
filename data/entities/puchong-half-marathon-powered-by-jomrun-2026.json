@@ -14,13 +14,13 @@
       21.1
     ],
     "primary_distance_km": 21.1,
+    "organizer": "JomRun",
     "registration_deadline": "2026-10-24",
+    "event_status": "cancelled",
+    "event_status_note": "The organiser, JomRun, lists the race on 25 October as cancelled on its event page.",
     "venue": "AEON BiG Puchong Utama",
     "city": "Puchong, Selangor",
-    "country": "Malaysia",
-    "organizer": "JomRun",
-    "event_status": "cancelled",
-    "event_status_note": "The organiser, JomRun, lists the race on 25 October as cancelled on its event page."
+    "country": "Malaysia"
   },
   "pros": [
     "Multiple distance options (5km, 10km, 21.1km) suit different fitness levels",
@@ -89,6 +89,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-10-20",
-  "status": "needs_review"
+  "last_updated": "2026-10-27",
+  "status": "archived"
 }

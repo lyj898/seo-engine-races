@@ -15,11 +15,11 @@
       21.1
     ],
     "primary_distance_km": 21.1,
+    "organizer": "KPM x JBSKL x Sharp",
+    "price_range": "RM 30-135",
     "venue": "Dataran Merdeka, Kuala Lumpur",
     "city": "Kuala Lumpur",
-    "country": "Malaysia",
-    "organizer": "KPM x JBSKL x Sharp",
-    "price_range": "RM 30-135"
+    "country": "Malaysia"
   },
   "pros": [
     "Iconic starting location at Dataran Merdeka in the heart of Kuala Lumpur",
@@ -79,6 +79,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-30",
-  "status": "needs_review"
+  "last_updated": "2026-10-27",
+  "status": "archived"
 }

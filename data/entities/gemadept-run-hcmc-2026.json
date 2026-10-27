@@ -1,6 +1,24 @@
 {
+  "entity_id": "gemadept-run-hcmc-2026",
+  "slug": "gemadept-run-hcmc-2026",
+  "name": "Gemadept Run HCMC 2026",
   "category_id": "half-marathon",
   "region_id": "vietnam",
+  "short_description": "Gemadept Run HCMC 2026 is on Sunday 25 October 2026 at the Sala urban area in Ho Chi Minh City, over 5 km, 10 km and 21 km.",
+  "ai_summary": "Gemadept Run HCMC 2026 is the second of two races in the fifth Gemadept Run season, organised by port and logistics company Gemadept, after a 5 km and 10 km race in Hai Phong on 10 October. Race day is Sunday 25 October 2026, with the expo on Saturday 24 October, at the Sala urban area. This is the first season in which the 5 km, 10 km and 21 km are all offered together.",
+  "core_facts": {
+    "date": "2026-10-25",
+    "distance_km": [
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "organizer": "Gemadept Corporation (Cong ty Co phan Gemadept)",
+    "venue": "Sala urban area, An Loi Dong ward",
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam"
+  },
   "pros": [
     "Generous limit: the 2025 course stayed open until 8.15am",
     "Short loops through Sala with water stations passed in both directions",
@@ -16,41 +34,6 @@
   "excerpt_quotes": [],
   "research_highlights": [],
   "research_watchouts": [],
-  "affiliate_links": [],
-  "cta_links": [
-    {
-      "label": "Visit official site",
-      "url": "https://gmdrun.gemadept.com.vn/",
-      "type": "official_website"
-    },
-    {
-      "label": "Entry page on ActiUp",
-      "url": "https://actiup.net/vi/event/gemadept-run-the-way-forward-2026",
-      "type": "registration"
-    }
-  ],
-  "related_entity_ids": [],
-  "last_updated": "2026-09-30",
-  "status": "needs_review",
-  "reliability_score": 30,
-  "entity_id": "gemadept-run-hcmc-2026",
-  "slug": "gemadept-run-hcmc-2026",
-  "name": "Gemadept Run HCMC 2026",
-  "short_description": "Gemadept Run HCMC 2026 is on Sunday 25 October 2026 at the Sala urban area in Ho Chi Minh City, over 5 km, 10 km and 21 km.",
-  "ai_summary": "Gemadept Run HCMC 2026 is the second of two races in the fifth Gemadept Run season, organised by port and logistics company Gemadept, after a 5 km and 10 km race in Hai Phong on 10 October. Race day is Sunday 25 October 2026, with the expo on Saturday 24 October, at the Sala urban area. This is the first season in which the 5 km, 10 km and 21 km are all offered together.",
-  "core_facts": {
-    "date": "2026-10-25",
-    "distance_km": [
-      5,
-      10,
-      21.1
-    ],
-    "primary_distance_km": 21.1,
-    "venue": "Sala urban area, An Loi Dong ward",
-    "city": "Ho Chi Minh City",
-    "country": "Vietnam",
-    "organizer": "Gemadept Corporation (Cong ty Co phan Gemadept)"
-  },
   "faqs": [
     {
       "question": "What time does the 21 km start at Gemadept Run HCMC 2026?",
@@ -61,6 +44,7 @@
       "answer": "The iRace event page lists the Sala urban area in An Loi Dong ward, Thu Duc, Ho Chi Minh City. Race kits are collected on Saturday 24 October, the expo day before the race. Gemadept's own race site gives the location only as Ho Chi Minh City."
     }
   ],
+  "reliability_score": 30,
   "tags": [
     "half-marathon",
     "vietnam"
@@ -91,9 +75,25 @@
       "last_checked": "2026-09-30"
     }
   ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://gmdrun.gemadept.com.vn/",
+      "type": "official_website"
+    },
+    {
+      "label": "Entry page on ActiUp",
+      "url": "https://actiup.net/vi/event/gemadept-run-the-way-forward-2026",
+      "type": "registration"
+    }
+  ],
   "results": {
     "url": "https://sportstats.one/event/gemadept-run",
     "publisher": "SportStats",
     "last_checked": "2026-10-26"
-  }
+  },
+  "related_entity_ids": [],
+  "last_updated": "2026-10-27",
+  "status": "archived"
 }

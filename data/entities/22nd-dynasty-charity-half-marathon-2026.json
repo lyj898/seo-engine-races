@@ -14,10 +14,10 @@
       4
     ],
     "primary_distance_km": 21.1,
+    "organizer": "Dynasty Hotel Miri",
     "venue": "Dynasty Hotel Miri",
     "city": "Miri, Sarawak",
-    "country": "Malaysia",
-    "organizer": "Dynasty Hotel Miri"
+    "country": "Malaysia"
   },
   "pros": [
     "Cash prizes ten deep in the 21 km open and veteran categories",
@@ -81,6 +81,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-30",
-  "status": "needs_review"
+  "last_updated": "2026-10-27",
+  "status": "archived"
 }

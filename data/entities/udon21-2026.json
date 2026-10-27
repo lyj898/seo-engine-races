@@ -1,26 +1,9 @@
 {
-  "category_id": "half-marathon",
-  "region_id": "thailand",
-  "pros": [],
-  "cons": [],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
-  "affiliate_links": [],
-  "cta_links": [
-    {
-      "label": "Official race page on race.thai.run",
-      "url": "https://race.thai.run/udon21",
-      "type": "official_website"
-    }
-  ],
-  "related_entity_ids": [],
-  "last_updated": "2026-09-30",
-  "status": "needs_review",
-  "reliability_score": 30,
   "entity_id": "udon21-2026",
   "slug": "udon21-2026",
   "name": "UDON21 2026",
+  "category_id": "half-marathon",
+  "region_id": "thailand",
   "short_description": "UDON21 2026 is on Sunday 25 October 2026 in Udon Thani, over 5 km, 10 km and 21.1 km.",
   "ai_summary": "UDON21 2026 is organised by About The Race in Udon Thani, with entries on race.thai.run. The organiser pitches it as a race for personal bests. The half marathon starts at 03:30, the 10 km at 04:15 and the 5 km at 04:30. Overall winners of the 21 km receive THB 5,000, 4,000 and 3,000.",
   "core_facts": {
@@ -33,10 +16,15 @@
     "primary_distance_km": 21.1,
     "organizer": "Udon Running Project",
     "price_range": "THB 600-950",
+    "venue": "Ban Chiang Plaza, Central Udon Thani",
     "city": "Udon Thani",
-    "country": "Thailand",
-    "venue": "Ban Chiang Plaza, Central Udon Thani"
+    "country": "Thailand"
   },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
   "faqs": [
     {
       "question": "What time does the UDON21 half marathon start?",
@@ -47,6 +35,7 @@
       "answer": "The regular price is THB 850 for the 21 km, THB 750 for the 10 km and THB 600 for the 5 km. The last-minute price, from 1 to 10 October, is THB 950, 850 and 700."
     }
   ],
+  "reliability_score": 30,
   "tags": [
     "half-marathon",
     "thailand"
@@ -64,5 +53,16 @@
       "type": "aggregator",
       "last_checked": "2026-09-29"
     }
-  ]
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on race.thai.run",
+      "url": "https://race.thai.run/udon21",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-10-27",
+  "status": "archived"
 }

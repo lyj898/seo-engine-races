@@ -1,26 +1,9 @@
 {
-  "category_id": "half-marathon",
-  "region_id": "thailand",
-  "pros": [],
-  "cons": [],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
-  "affiliate_links": [],
-  "cta_links": [
-    {
-      "label": "Official race page on Regis.run",
-      "url": "https://www.regis.run/event/buasawanmarathon2",
-      "type": "official_website"
-    }
-  ],
-  "related_entity_ids": [],
-  "last_updated": "2026-09-30",
-  "status": "needs_review",
-  "reliability_score": 30,
   "entity_id": "buasawan-marathon-2026",
   "slug": "buasawan-marathon-2026",
   "name": "Buasawan Marathon 2026",
+  "category_id": "half-marathon",
+  "region_id": "thailand",
   "short_description": "Buasawan Marathon 2026 is on Sunday 25 October 2026 at Rajamangala University of Technology Thanyaburi in Pathum Thani, over 5 km, 10 km and 21.1 km.",
   "ai_summary": "Buasawan Marathon 2026 is the second edition of the run, styled \"Buasawan Marathon 2\" by its organiser and held at Rajamangala University of Technology Thanyaburi (RMUTT) in Pathum Thani. Despite the name, the longest race is a half marathon of 21 km, alongside a 10 km and a 5 km. Entries are taken on Regis.run.",
   "core_facts": {
@@ -31,12 +14,17 @@
       21.1
     ],
     "primary_distance_km": 21.1,
-    "venue": "Rajamangala University of Technology Thanyaburi",
     "organizer": "Buasawan Marathon 2",
     "price_range": "THB 650-999",
+    "venue": "Rajamangala University of Technology Thanyaburi",
     "city": "Thanyaburi, Pathum Thani",
     "country": "Thailand"
   },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
   "faqs": [
     {
       "question": "Is Buasawan Marathon 2026 a full marathon?",
@@ -47,6 +35,7 @@
       "answer": "The Regis.run page lists the 5 km at THB 650, the 10 km at THB 750 and the half marathon at THB 900. VIP packages cost THB 999 for any distance."
     }
   ],
+  "reliability_score": 30,
   "tags": [
     "half-marathon",
     "thailand"
@@ -65,9 +54,20 @@
       "last_checked": "2026-09-29"
     }
   ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on Regis.run",
+      "url": "https://www.regis.run/event/buasawanmarathon2",
+      "type": "official_website"
+    }
+  ],
   "results": {
     "url": "https://sportstats.one/event/buasawan-marathon",
     "publisher": "SportStats",
     "last_checked": "2026-10-26"
-  }
+  },
+  "related_entity_ids": [],
+  "last_updated": "2026-10-27",
+  "status": "archived"
 }

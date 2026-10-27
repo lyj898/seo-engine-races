@@ -15,10 +15,10 @@
     ],
     "primary_distance_km": 21.1,
     "organizer": "Majlis Perbandaran Teluk Intan (MPTI)",
+    "price_range": "RM 39-90",
     "venue": "Tapak Pasar Malam, Bagan Datuk, Perak",
     "city": "Bagan Datuk, Perak",
-    "country": "Malaysia",
-    "price_range": "RM 39-90"
+    "country": "Malaysia"
   },
   "pros": [
     "Multiple distance options (21.1km, 10km, 5km) suit a range of runner abilities",
@@ -97,6 +97,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-09-30",
-  "status": "active"
+  "last_updated": "2026-10-27",
+  "status": "archived"
 }
