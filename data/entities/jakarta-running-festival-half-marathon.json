@@ -65,6 +65,11 @@
   "related_entity_ids": [
     "jakarta-running-festival-2026"
   ],
-  "last_updated": "2026-08-10",
-  "status": "archived"
+  "last_updated": "2026-10-30",
+  "status": "archived",
+  "results": {
+    "url": "https://results.scorenow.co.id/results.aspx?CId=19723&RId=337&EId=1",
+    "publisher": "ScoreNow",
+    "last_checked": "2026-10-30"
+  }
 }

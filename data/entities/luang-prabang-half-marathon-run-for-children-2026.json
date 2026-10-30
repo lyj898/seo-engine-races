@@ -132,6 +132,11 @@
     "the-brunei-half-marathon-2026",
     "great-eastern-women-s-run-2026"
   ],
-  "last_updated": "2026-10-27",
-  "status": "archived"
+  "last_updated": "2026-10-30",
+  "status": "archived",
+  "results": {
+    "url": "https://results.checkpointspot.asia/results.aspx?CId=17036&RId=10911",
+    "publisher": "CheckPointSpot",
+    "last_checked": "2026-10-30"
+  }
 }
