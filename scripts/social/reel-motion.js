@@ -187,7 +187,7 @@ const STORIES = {
     return story('gender', [
       [2.6, 'hook', { kicker: 'HALF MARATHON', lines: [['The gap between', false], ['men and women', false], ['is smallest at 60+.', true]] }],
       [5.8, 'bars', { title: "Women's gap to men", sub: "How much slower the typical women's half is, by age", rows: rows.map(([a, g], i) => ({ label: a === 'U20' ? 'Under 20' : a, value: g / max, show: `${Math.round(g * 100)}%`, hi: i === rows.length - 1 })), foot: 'Biggest under 20, smallest at 60+.' }],
-    ], `The gap between men and women is smallest at 60+.\n\nHow much slower the typical women's half marathon is than the men's, by age:\n${rows.map(([a, g, m, w]) => `${a === 'U20' ? 'Under 20' : a}: ${Math.round(g * 100)}% (${hm(m)} vs ${hm(w)})`).join('\n')}\n\nBy their 60s, women are within ${Math.round(rows.at(-1)[1] * 100)}% of the men. Tag a runner who's getting faster with age.\n\nFrom ${n(pool.Half.length)} half marathon finishes. ${FOLLOW}\n\n${TAGS} #womenwhorun`);
+    ], `The gap between men and women is smallest at 60+.\n\nHow much slower the typical women's half marathon is than the men's, by age:\n${rows.map(([a, g, m, w]) => `${a === 'U20' ? 'Under 20' : a}: ${Math.round(g * 100)}% (${hm(m)} vs ${hm(w)})`).join('\n')}\n\nBy their 60s, women are within ${Math.round(rows.at(-1)[1] * 100)}% of the men. Tag a runner in their 60s who's still racing.\n\nFrom ${n(pool.Half.length)} half marathon finishes. ${FOLLOW}\n\n${TAGS} #womenwhorun`);
   })(),
   'sunday-races': (() => {
     const sun = ents.filter((e) => new Date(e.core_facts.date + 'T00:00:00').getDay() === 0).length;
