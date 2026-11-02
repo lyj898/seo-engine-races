@@ -284,6 +284,17 @@ const STORIES = {
     ], `Six hours for a marathon? You're in good company.\n\nAcross Southeast Asia, ${pct(atLeast(21600))} of marathoners take six hours or more, almost one in three. And ${pct(atLeast(25200))}, one in twelve, are still out there after seven hours.\n\nEvery finish counts. What was yours? Rank your time at runsea.run\n\nFrom ${n(v.length)} marathon finishes. Footage and voice are AI-generated; the numbers are real. ${FOLLOW}\n\n#running #marathon #firstmarathon #southeastasia #runsea`,
     'footage', true, { clips: [{ file: 'g-six-2.mp4', crop: '648:1152:36:0' }], slow: 1, len: 20, vo: 'vo-six.mp3', tempo: 1.15, delay: 0.3 });
   })(),
+  // Gemini footage (one 10 s clip; the 20 s extension hit Gemini's daily limit) + voice
+  // (folder gemini-2026-11-02). vo-country.mp3 reads the five medians as "two twenty-one"
+  // ... "two fifty-one"; each row appears as its country is named.
+  'fastest-country-half-ai': (() => {
+    const cs = ft.countries.Half;
+    return story('country rivalry', [
+      [4.3, 'hook', { kicker: 'HALF MARATHON, SOUTHEAST ASIA', lines: [['Which country', false], ['runs the', false], ['fastest half?', true]] }],
+      [15.9, 'list', { title: 'Typical half marathon finish', sub: 'Each race counts equally', items: cs.map((c, i) => [c.country, hm(c.median), i === 0, `${c.races} races`]), foot: "Does your country's spot surprise you?", step: 2.55 }],
+    ], `Which country runs the fastest half marathon in Southeast Asia?\n\n${cs.map((c, i) => `${i + 1}. ${c.country}: ${hm(c.median)}`).join('\n')}\n\nTypical finish time, with each race counted equally so one giant race can't decide a country (${cs.reduce((a, c) => a + c.races, 0)} races, ${n(cs.reduce((a, c) => a + c.finishes, 0))} finishes; Singapore needs a third race in the data to be ranked). Does your country's spot surprise you? Rank your own time at runsea.run\n\nFootage and voice are AI-generated; the numbers are real. ${FOLLOW}\n\n#running #halfmarathon #southeastasia #thailandrunning #vietnamrunners #runnersph #larimalaysia #runsea`,
+    'footage', true, { clips: ['g-country-0.mp4'], slow: 1.5, len: 10, vo: 'vo-country.mp3', tempo: 1.15, delay: 0.3 });
+  })(),
   'fastest-country-half': (() => {
     const cs = ft.countries.Half, sc = timeScale(cs.map((c) => c.median));
     return story('country rivalry', [
