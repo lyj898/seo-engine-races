@@ -2,7 +2,7 @@
 # example Gemini's "Download video", which asks where to save), so a clip can be
 # saved while driving the browser remotely.
 #
-#   powershell -File scripts/social/save-as.ps1 -Path "G:\My Drive\runsea-social\gemini\clip.mp4"
+#   powershell -File scripts/social/save-as.ps1 -Path "G:\My Drive\runsea\runsea-social\gemini\clip.mp4"
 #
 # Click the page's download button first; this waits up to -Wait seconds for the
 # dialog, types the full path into its File name box and presses Save.
