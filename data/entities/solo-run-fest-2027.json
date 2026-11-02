@@ -1,0 +1,83 @@
+{
+  "entity_id": "solo-run-fest-2027",
+  "slug": "solo-run-fest-2027",
+  "name": "Solo Run Fest 2027",
+  "category_id": "half-marathon",
+  "region_id": "indonesia",
+  "short_description": "Solo Run Fest 2027 is on Sunday 26 September 2027 in Surakarta, with a half marathon from Stadion Manahan to Taman Balekambang, a 10K and a 5K.",
+  "ai_summary": "Solo Run Fest 2027 is the next edition of Surakarta's city road race, on Sunday 26 September 2027, with the start at Stadion Manahan and the finish at Taman Balekambang. It offers a half marathon with a cut-off of 3 hours 45 minutes, a 10K with two hours and a 5K with 80 minutes, plus a 5K student category. Flag-off times and race-pack dates had not been announced.",
+  "core_facts": {
+    "date": "2027-09-26",
+    "distance_km": [
+      21.1,
+      10,
+      5
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Start Stadion Manahan, finish Taman Balekambang",
+    "city": "Surakarta (Solo), Central Java",
+    "country": "Indonesia",
+    "organizer": "PT SHA Solo, with the Surakarta city government"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "When is Solo Run Fest 2027?",
+      "answer": "Sunday 26 September 2027. The start is at Stadion Manahan and the finish at Taman Balekambang park in Surakarta (Solo), Central Java. Flag-off times and race-pack collection dates are still to be announced on the official site, so check it before booking travel. The 2026 edition was held on 27 September 2026."
+    },
+    {
+      "question": "What are the cut-offs and age limits?",
+      "answer": "Cut-offs are 3 hours 45 minutes for the half marathon, two hours for the 10K and 1 hour 20 minutes for the 5K. Minimum ages are 16 for the half, 14 for the 10K and 13 for the 5K, and a separate 5K student category covers ages 13 to 16."
+    },
+    {
+      "question": "Who organises Solo Run Fest?",
+      "answer": "In 2026 the race was run by PT SHA Solo with the Surakarta city government, according to local press; the 2027 site does not name an organiser. Entries are taken on the race's own registration site. Winners in every category are decided on gun time, and every runner wears a bib with a timing tag."
+    }
+  ],
+  "reliability_score": 50,
+  "tags": [
+    "half-marathon",
+    "indonesia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://solorunfest.com/",
+      "label": "Official site: Solo Run Fest 2027, half marathon/10K/5K, 26 September 2027",
+      "type": "official",
+      "last_checked": "2026-11-02"
+    },
+    {
+      "url": "https://solorunfest.com/id/race/",
+      "label": "Official race page: race day 26 September 2027, start Stadion Manahan, finish Taman Balekambang, cut-offs",
+      "type": "official",
+      "last_checked": "2026-11-02"
+    },
+    {
+      "url": "https://solorunfest.com/id/terms-conditions/",
+      "label": "Official 2027 terms: categories, minimum ages, prize eligibility",
+      "type": "official",
+      "last_checked": "2026-11-02"
+    },
+    {
+      "url": "https://solopos.espos.id/usung-konsep-pelari-kalcer-solo-run-fest-2026-siap-ramaikan-sport-tourism-solo-2221013",
+      "label": "Solopos report on the 2026 edition: organised by PT SHA Solo with the city government",
+      "type": "other",
+      "last_checked": "2026-11-02"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://solorunfest.com/",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-11-02",
+  "status": "needs_review"
+}

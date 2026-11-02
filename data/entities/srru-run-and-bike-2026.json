@@ -1,0 +1,72 @@
+{
+  "entity_id": "srru-run-and-bike-2026",
+  "slug": "srru-run-and-bike-2026",
+  "name": "SRRU Run & Bike 2026",
+  "category_id": "half-marathon",
+  "region_id": "thailand",
+  "short_description": "SRRU Run & Bike 2026 is held on Sunday 10 January 2027 at Surindra Rajabhat University in Surin, with a 21.1 km half marathon, a 10.5 km and a 5 km run.",
+  "ai_summary": "Despite its name, SRRU Run & Bike 2026 takes place on Sunday 10 January 2027 at Surindra Rajabhat University in Surin, north-east Thailand. The running programme is a 21.1 km half marathon, a 10.5 km mini marathon and a 5 km fun run, alongside a leisure bike ride, and the event raises money for a scholarship fund for the university's students. Half-marathon entry is THB 600 at the early-bird rate and THB 800 from 21 November.",
+  "core_facts": {
+    "date": "2027-01-10",
+    "distance_km": [
+      21.1,
+      10.5,
+      5
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Surindra Rajabhat University",
+    "city": "Surin",
+    "country": "Thailand",
+    "organizer": "Doodeerunbyheart for Surindra Rajabhat University",
+    "price_range": "THB 300-1,000"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "When is SRRU Run & Bike 2026?",
+      "answer": "On Sunday 10 January 2027, even though the event is named for 2026. It is held at Surindra Rajabhat University in the city of Surin and organised for the university by Doodeerunbyheart. The ThaiPhotoRun entry page had not published start times, so check it and the event's Facebook page nearer the date."
+    },
+    {
+      "question": "What distances and fees are offered?",
+      "answer": "The running races are a 21.1 km half marathon, a 10.5 km mini marathon and a 5 km fun run, with a tourist bike ride the same day. Early-bird fees, to 20 November 2026, are THB 600, 400 and 300; after that they rise to THB 800, 600 and 500. A VIP entry costs THB 1,000."
+    },
+    {
+      "question": "What prizes are there?",
+      "answer": "Half-marathon prize money is THB 3,000, 2,000 and 1,000 for the first three men and women overall, and age-group trophies go five deep. Half-marathon finishers also receive a finisher shirt. The event raises money for a scholarship fund for Surindra Rajabhat University students, according to its stated objectives."
+    }
+  ],
+  "reliability_score": 40,
+  "tags": [
+    "half-marathon",
+    "thailand"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.thaiphotorun.com/race/srru2026",
+      "label": "Entry page on ThaiPhotoRun: Sunday 10 Jan 2570 (2027), Surindra Rajabhat University, 21.1 / 10.5 / 5 km, fees and prizes",
+      "type": "registration_platform",
+      "last_checked": "2026-11-02"
+    },
+    {
+      "url": "https://www.facebook.com/SRRURunBike",
+      "label": "Organiser Facebook page linked from the entry page",
+      "type": "social",
+      "last_checked": "2026-11-02"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on ThaiPhotoRun",
+      "url": "https://www.thaiphotorun.com/race/srru2026",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-11-02",
+  "status": "needs_review"
+}

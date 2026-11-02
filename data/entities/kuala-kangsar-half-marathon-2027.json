@@ -1,0 +1,83 @@
+{
+  "entity_id": "kuala-kangsar-half-marathon-2027",
+  "slug": "kuala-kangsar-half-marathon-2027",
+  "name": "Kuala Kangsar Half Marathon 2027",
+  "category_id": "half-marathon",
+  "region_id": "malaysia",
+  "short_description": "Kuala Kangsar Half Marathon 2027, the fifth edition, is on Sunday 2 May 2027 from PPD Kuala Kangsar, Perak, with a 21 km starting at 2am, a 10 km and a 5 km.",
+  "ai_summary": "The Kuala Kangsar Half Marathon 2027 is the fifth national-level edition of the race, held on Sunday 2 May 2027 from the district education office (PPD) in the royal town of Kuala Kangsar, Perak. The 21 km starts at 2am with a four-hour cut-off, the 10 km at 3am and the 5 km at 7am. It is organised by Generasi Athletics Club with support from Majlis Perbandaran Kuala Kangsar, and fees range from RM35 to RM95.",
+  "core_facts": {
+    "date": "2027-05-02",
+    "distance_km": [
+      21.1,
+      10,
+      5
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "PPD Kuala Kangsar",
+    "city": "Kuala Kangsar, Perak",
+    "country": "Malaysia",
+    "organizer": "Generasi Athletics Club (event management: Ashkhu Glow Event Management; supported by Majlis Perbandaran Kuala Kangsar)",
+    "price_range": "MYR 35-95"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "When is Kuala Kangsar Half Marathon 2027?",
+      "answer": "Sunday 2 May 2027. According to the organiser's flag-off poster, the 21 km starts at 2am with a four-hour cut-off, the 10 km at 3am with two hours, and the 5 km at 7am with 90 minutes. Some listings show different headline times, so follow the poster and check again in race week."
+    },
+    {
+      "question": "How much does the Kuala Kangsar Half Marathon cost?",
+      "answer": "For the 21 km, RM69 at the early-bird rate to 30 November 2026, RM79 normal to 31 January 2027 and RM95 late, plus an admin fee and RM3 insurance. The 10 km costs RM55 to RM80 and the 5 km RM35 to RM60. Half-marathon finishers receive a finisher shirt, and there is a lucky draw."
+    },
+    {
+      "question": "Who can enter and who organises it?",
+      "answer": "The 21 km has an open category from age 17 and a veteran category for 40 and over, with prizes in all three distances. The race is organised by Generasi Athletics Club, managed by Ashkhu Glow Event Management and supported by Majlis Perbandaran Kuala Kangsar. Entries are sold on RaceXasia, Howei and Race Roster."
+    }
+  ],
+  "reliability_score": 45,
+  "tags": [
+    "half-marathon",
+    "malaysia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://racexasia.com/event/kuala-kangsar-half-marathon-2027-kkhm27",
+      "label": "RaceXasia race page: 2 May 2027, PPD Kuala Kangsar; 21 km 2am (4h cut-off), 10 km 3am, 5 km 7am; fees; organiser",
+      "type": "registration_platform",
+      "last_checked": "2026-11-02"
+    },
+    {
+      "url": "https://howei.com/event_details/kualakangsarhalfmarathon2027",
+      "label": "Howei race page: Sunday 2 May 2027, 21/10/5 km, RM35-95, fifth edition, flag-off poster",
+      "type": "registration_platform",
+      "last_checked": "2026-11-02"
+    },
+    {
+      "url": "https://raceroster.com/events/2027/166263/kuala-kangsar-half-marathon-2027",
+      "label": "Race Roster listing (2 May 2027, 21/10/5 km)",
+      "type": "registration_platform",
+      "last_checked": "2026-11-02"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on RaceXasia",
+      "url": "https://racexasia.com/event/kuala-kangsar-half-marathon-2027-kkhm27",
+      "type": "official_website"
+    },
+    {
+      "label": "Entry page on Howei",
+      "url": "https://howei.com/event_details/kualakangsarhalfmarathon2027",
+      "type": "registration"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-11-02",
+  "status": "needs_review"
+}

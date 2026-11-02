@@ -1,0 +1,73 @@
+{
+  "entity_id": "palawanpay-trilogy-marathon-2026-manila-leg",
+  "slug": "palawanpay-trilogy-marathon-2026-manila-leg",
+  "name": "PalawanPay Trilogy Marathon 2026 – Manila Leg",
+  "category_id": "half-marathon",
+  "region_id": "philippines",
+  "short_description": "The PalawanPay Trilogy Marathon Manila leg is on Saturday 28 November 2026 at the MOA Concert Grounds in Pasay, with 21 km, 16 km, 10 km, 5 km and 3 km races by RUNRIO.",
+  "ai_summary": "The Manila leg of the PalawanPay Trilogy Marathon 2026 is held on Saturday 28 November 2026 from the MOA Concert Grounds at the SM Mall of Asia complex in Pasay City, starting at 3am. Organised by RUNRIO, it follows the series' Cebu and Palawan legs and offers 21 km, 16 km, 10 km, 5 km and 3 km categories. The 21 km is open to runners aged 18 and over, and results are chip-timed.",
+  "core_facts": {
+    "date": "2026-11-28",
+    "distance_km": [
+      21.1,
+      16,
+      10,
+      5,
+      3
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "MOA Concert Grounds, SM Mall of Asia Complex",
+    "city": "Pasay City, Metro Manila",
+    "country": "Philippines",
+    "organizer": "RUNRIO"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "When is the PalawanPay Trilogy Marathon Manila leg?",
+      "answer": "Saturday 28 November 2026, a Saturday rather than a Sunday, with the event starting at 3am at the MOA Concert Grounds in the SM Mall of Asia complex, Pasay City. It is the Manila leg of the 2026 series, after the Cebu leg on 27 September and the Palawan leg on 18 October."
+    },
+    {
+      "question": "What distances are offered in Manila?",
+      "answer": "Five: 21 km, 16 km, 10 km, 5 km and 3 km. The 21 km is for runners aged 18 and over, the 16 km and 10 km for 16 and over, the 5 km for 13 and over and the 3 km for children from age five, according to RUNRIO's race mechanics on Race Roster."
+    },
+    {
+      "question": "What are the race rules?",
+      "answer": "Timing chips are on the bib. The top finishers are ranked on gun time and everyone else on chip time. Runners who fail to start within 15 minutes of their flag-off are disqualified, and result protests must be made in writing within an hour of the official posting, with a PHP 5,000 fee."
+    }
+  ],
+  "reliability_score": 45,
+  "tags": [
+    "half-marathon",
+    "philippines"
+  ],
+  "source_mix": [
+    {
+      "url": "https://raceroster.com/events/2026/125539/palawanpay-trilogy-marathon-manila-2026",
+      "label": "Race Roster event page: Sat 28 Nov 2026, 3am, MOA Concert Grounds, Pasay; RUNRIO contact",
+      "type": "registration_platform",
+      "last_checked": "2026-11-02"
+    },
+    {
+      "url": "https://raceroster.com/events/2026/125539/palawanpay-trilogy-marathon-manila-2026/page/race-mechanics",
+      "label": "Race mechanics: categories 21/16/10/5/3 km with age limits, timing and protest rules",
+      "type": "registration_platform",
+      "last_checked": "2026-11-02"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on Race Roster",
+      "url": "https://raceroster.com/events/2026/125539/palawanpay-trilogy-marathon-manila-2026",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-11-02",
+  "status": "needs_review"
+}

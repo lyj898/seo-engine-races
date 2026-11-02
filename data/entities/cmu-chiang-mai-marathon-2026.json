@@ -1,0 +1,89 @@
+{
+  "entity_id": "cmu-chiang-mai-marathon-2026",
+  "slug": "cmu-chiang-mai-marathon-2026",
+  "name": "CMU Chiang Mai Marathon 2026",
+  "category_id": "full-marathon",
+  "region_id": "thailand",
+  "short_description": "CMU Chiang Mai Marathon 2026, the 10th edition, is on Sunday 8 November 2026 at Chiang Mai University, with a marathon, half marathon, 10.5 km and 5.5 km.",
+  "ai_summary": "The CMU Chiang Mai Marathon 2026 is the 10th edition of Chiang Mai University's charity race, held with its alumni association on Sunday 8 November 2026. It offers a 42.195 km marathon, a 21.1 km half marathon, a 10.5 km mini marathon and a 5.5 km fun run, with race packs collected at Sala Ang Kaew on the campus the day before. The organiser has capped the onsite field at 7,000 runners.",
+  "core_facts": {
+    "date": "2026-11-08",
+    "distance_km": [
+      42.195,
+      21.1,
+      10.5,
+      5.5
+    ],
+    "primary_distance_km": 42.195,
+    "venue": "Chiang Mai University (Sala Ang Kaew)",
+    "city": "Chiang Mai",
+    "country": "Thailand",
+    "organizer": "Chiang Mai University with the Chiang Mai University Alumni Association"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "When is CMU Chiang Mai Marathon 2026?",
+      "answer": "It is on Sunday 8 November 2026, the race's 10th edition; the previous one was held on 1 February 2026. Race packs are collected on Saturday 7 November from 9am to 8pm at Sala Ang Kaew, Chiang Mai University. Runners who start more than 15 minutes after their wave is released are disqualified."
+    },
+    {
+      "question": "What distances and entry fees does the CMU Chiang Mai Marathon offer?",
+      "answer": "Four distances: a 42.195 km marathon, a 21.1 km half marathon, a 10.5 km mini marathon and a 5.5 km fun run. In its announcement the organiser put onsite entry at THB 1,100 for the marathon and THB 950 for the half, with a VIP entry at THB 2,000, and capped the onsite field at 7,000 runners."
+    },
+    {
+      "question": "Who can enter each category?",
+      "answer": "Marathon and half-marathon age groups start at 20-29 for Thai runners, while foreign marathon runners race in a single category without age groups. The mini marathon's age groups start at 16-19, and runners under 18 need a guardian's permission. A virtual-run version is offered alongside the race through the same 42one95 entry platform."
+    }
+  ],
+  "reliability_score": 45,
+  "tags": [
+    "full-marathon",
+    "thailand"
+  ],
+  "source_mix": [
+    {
+      "url": "https://main.42one95.com/v1/forwardstridecmu/event",
+      "label": "Entry page on 42one95: race date 8 Nov 2569 (2026), 42.195 / 21.1 / 10.5 / 5.5 km, age groups, race-pack collection, wave rules",
+      "type": "registration_platform",
+      "last_checked": "2026-11-02"
+    },
+    {
+      "url": "https://www.cmu-marathon.com/",
+      "label": "Organiser site, CMU Chiang Mai Marathon 2026",
+      "type": "official",
+      "last_checked": "2026-11-02"
+    },
+    {
+      "url": "https://main.42one95.com/v1/event/all",
+      "label": "42one95 event list: 10th edition 8 Nov 2026; 9th edition 1 Feb 2026 with results",
+      "type": "registration_platform",
+      "last_checked": "2026-11-02"
+    },
+    {
+      "url": "https://www.dailynews.co.th/news/6082161/",
+      "label": "Organiser announcement reported by Daily News: onsite fees and 7,000-runner cap",
+      "type": "other",
+      "last_checked": "2026-11-02"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://www.cmu-marathon.com/",
+      "type": "official_website"
+    },
+    {
+      "label": "Entry page on 42one95",
+      "url": "https://main.42one95.com/v1/forwardstridecmu/event",
+      "type": "registration"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-11-02",
+  "status": "needs_review"
+}

@@ -1,0 +1,64 @@
+{
+  "entity_id": "jesselton-half-marathon-2027",
+  "slug": "jesselton-half-marathon-2027",
+  "name": "Jesselton Half Marathon 2027",
+  "category_id": "half-marathon",
+  "region_id": "malaysia",
+  "short_description": "Jesselton Half Marathon 2027 is on Sunday 24 January 2027, starting at 4am from the hockey stadium at Likas Sports Complex, Kota Kinabalu, with a half marathon and 5 km.",
+  "ai_summary": "Jesselton Half Marathon 2027 is a road race in Kota Kinabalu, Sabah, on Sunday 24 January 2027, starting at 4am from the hockey stadium at Likas Sports Complex. It offers a competitive half marathon for runners aged 17 and over and a 5 km fun run open from age seven, on a route the organiser describes as passing city streets, historic landmarks and the coast. Entries are sold on Ticket2u by MS Sports & Event Management.",
+  "core_facts": {
+    "date": "2027-01-24",
+    "distance_km": [
+      21.1,
+      5
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Hockey Stadium, Likas Sports Complex",
+    "city": "Kota Kinabalu, Sabah",
+    "country": "Malaysia",
+    "organizer": "MS Sports & Event Management"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "When is Jesselton Half Marathon 2027?",
+      "answer": "Sunday 24 January 2027, with a 4am start from the hockey stadium at Likas Sports Complex, Kota Kinabalu. Race packs cannot be collected on race day, so plan to arrive in time for the published collection days. Changes to a registration or bib transfers after entry cost RM50 under the Ticket2u rules."
+    },
+    {
+      "question": "What distances does the Jesselton Half Marathon offer?",
+      "answer": "Two: a competitive half marathon with a minimum age of 17, and a 5 km fun run with a minimum age of seven, where strollers are allowed. The organiser describes the half-marathon route as running through Kota Kinabalu's city streets, past historic landmarks and with coastal views along the way."
+    },
+    {
+      "question": "Is it the same race as the Borneo Half Marathon?",
+      "answer": "No. The Borneo Half Marathon, run by the Kinabalu Running Club, is a separate race also held in Kota Kinabalu, on 31 January 2027. The Jesselton Half Marathon is organised by MS Sports & Event Management and sold on Ticket2u; Jesselton is the old colonial name of Kota Kinabalu."
+    }
+  ],
+  "reliability_score": 40,
+  "tags": [
+    "half-marathon",
+    "malaysia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.ticket2u.com.my/event/51688/jesselton-half-marathon-2027",
+      "label": "Ticket2u event page: 24 Jan 2027, 4am, Hockey Stadium Likas Sports Complex; rules naming the half marathon and 5 km fun run; organiser",
+      "type": "registration_platform",
+      "last_checked": "2026-11-02"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on Ticket2u",
+      "url": "https://www.ticket2u.com.my/event/51688/jesselton-half-marathon-2027",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-11-02",
+  "status": "needs_review"
+}

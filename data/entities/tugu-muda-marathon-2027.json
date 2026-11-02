@@ -1,0 +1,67 @@
+{
+  "entity_id": "tugu-muda-marathon-2027",
+  "slug": "tugu-muda-marathon-2027",
+  "name": "Tugu Muda Marathon 2027",
+  "category_id": "full-marathon",
+  "region_id": "indonesia",
+  "short_description": "Tugu Muda Marathon 2027 is on Sunday 25 April 2027 from the Tugu Muda monument in central Semarang, with a full marathon, half marathon, 10 km and 5 km.",
+  "ai_summary": "Tugu Muda Marathon 2027 starts and finishes at the Tugu Muda monument on Jalan Pandanaran in central Semarang, Central Java, on Sunday 25 April 2027. It offers a 42 km marathon with a seven-hour cut-off, a 21 km half marathon with a separate master category and a cut-off of 3 hours 30 minutes, a 10 km and a 5 km. It is organised by Dunia Atmadhira Indonesia, and fees for Indonesian citizens range from IDR 150,000 to 550,000.",
+  "core_facts": {
+    "date": "2027-04-25",
+    "distance_km": [
+      42.195,
+      21.1,
+      10,
+      5
+    ],
+    "primary_distance_km": 42.195,
+    "venue": "Tugu Muda, Jalan Pandanaran",
+    "city": "Semarang, Central Java",
+    "country": "Indonesia",
+    "organizer": "Dunia Atmadhira Indonesia",
+    "price_range": "IDR 150,000-550,000"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "When is Tugu Muda Marathon 2027?",
+      "answer": "The organiser's event page, its ticket listings and its countdown all give Sunday 25 April 2027, although the poster image on the same page reads 24 April and some running calendars copied the 24th. We list the 25th; check the organiser's page in race week. The 2026 edition was scheduled for Sunday 26 April."
+    },
+    {
+      "question": "What distances and cut-offs does Tugu Muda Marathon have?",
+      "answer": "Five categories: a 42 km marathon, a 21 km half marathon, a 21 km master category, a 10 km and a 5 km. Cut-offs are seven hours for the marathon, three and a half hours for the half, two hours for the 10 km and 90 minutes for the 5 km."
+    },
+    {
+      "question": "How much does it cost to enter?",
+      "answer": "For Indonesian citizens, the 5 km costs IDR 150,000, the 10 km IDR 175,000, the 21 km IDR 400,000, the 21 km master IDR 350,000 and the 42 km IDR 550,000. International runners have a separate price list on the organiser's page, which also takes the entries directly."
+    }
+  ],
+  "reliability_score": 40,
+  "tags": [
+    "full-marathon",
+    "indonesia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://duniaatmadhiraindonesia.com/id/events/01kwnxg04y5tkxbh0zaqsxrxrd",
+      "label": "Organiser's event and entry page: Sunday 25 Apr 2027, Tugu Muda Semarang, 5/10/21/21 master/42 km tickets, prices and cut-offs",
+      "type": "official",
+      "last_checked": "2026-11-02"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://duniaatmadhiraindonesia.com/id/events/01kwnxg04y5tkxbh0zaqsxrxrd",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-11-02",
+  "status": "needs_review"
+}

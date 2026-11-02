@@ -1,0 +1,68 @@
+{
+  "entity_id": "alor-setar-marathon-2027",
+  "slug": "alor-setar-marathon-2027",
+  "name": "Alor Setar Marathon 2027",
+  "category_id": "full-marathon",
+  "region_id": "malaysia",
+  "short_description": "Alor Setar Marathon 2027 is a night race: the marathon starts at midnight going into Saturday 4 September 2027 from Medan Bandar Alor Setar, with a half, 10 km and 5 km.",
+  "ai_summary": "Alor Setar Marathon 2027 is the second edition of the Kedah capital's night marathon, run by Northern Runners Resources from Medan Bandar Alor Setar. The marathon flags off at midnight going into Saturday 4 September 2027 with an eight-hour cut-off, the half marathon at 2am with four hours, the 10 km at 3.30am and the 5 km at 7.30am, and a 1 km kids' dash runs on the Friday evening. Fees range from RM25 to RM130.",
+  "core_facts": {
+    "date": "2027-09-04",
+    "distance_km": [
+      42.195,
+      21.1,
+      10,
+      5,
+      1
+    ],
+    "primary_distance_km": 42.195,
+    "venue": "Medan Bandar Alor Setar",
+    "city": "Alor Setar, Kedah",
+    "country": "Malaysia",
+    "organizer": "Northern Runners Resources",
+    "price_range": "MYR 25-130"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "When is Alor Setar Marathon 2027?",
+      "answer": "The marathon flags off at midnight at the start of Saturday 4 September 2027, the half marathon at 2am, the 10 km at 3.30am and the 5 km at 7.30am, all from Medan Bandar Alor Setar. A 1 km kids' dash runs at 6.30pm on Friday 3 September, which is why some calendars list the 3rd."
+    },
+    {
+      "question": "What are the cut-offs and fees?",
+      "answer": "Cut-offs are eight hours for the marathon, four hours for the half, two and a half hours for the 10 km and 90 minutes for the 5 km. Across four price tiers, the marathon costs RM80 to RM130, the half RM65 to RM100, the 10 km RM50 to RM85 and the 5 km RM30 to RM55."
+    },
+    {
+      "question": "Where are race kits collected?",
+      "answer": "Race kits are collected on 2 and 3 September 2027, from 10am to 7pm, at Balai Seni Negeri Kedah, the state art gallery in central Alor Setar. The event is billed as the race's second edition, under the tagline 'One City, One Run, One Spirit'; the first was held in August 2026."
+    }
+  ],
+  "reliability_score": 45,
+  "tags": [
+    "full-marathon",
+    "malaysia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://howei.com/event_details/alorsetarmarathon2027",
+      "label": "Howei race page: 3-4 Sep 2027, Medan Bandar Alor Setar; 42/21/10/5/1 km; RM25-130; organiser; flag-off and fee posters; kit collection",
+      "type": "registration_platform",
+      "last_checked": "2026-11-02"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on Howei",
+      "url": "https://howei.com/event_details/alorsetarmarathon2027",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-11-02",
+  "status": "needs_review"
+}

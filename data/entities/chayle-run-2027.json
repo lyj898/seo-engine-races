@@ -1,0 +1,72 @@
+{
+  "entity_id": "chayle-run-2027",
+  "slug": "chayle-run-2027",
+  "name": "Chayle Run 2027 Season 2",
+  "category_id": "half-marathon",
+  "region_id": "thailand",
+  "short_description": "Chayle Run 2027 Season 2 is a 21 km half marathon, 10 km and 5 km on Sunday 14 February 2027, starting at 5am from the Samut Sakhon Aquarium.",
+  "ai_summary": "Chayle Run 2027 Season 2 is the second edition of a road race in Samut Sakhon, south-west of Bangkok, on Sunday 14 February 2027. The 21 km half marathon starts at 5am from the Samut Sakhon Aquarium, followed by the 10 km at 5.30am and the 5 km at 5.45am, and the half has a four-hour cut-off. It is organised and timed by RecRace Sport, with entries from THB 500 to 800.",
+  "core_facts": {
+    "date": "2027-02-14",
+    "distance_km": [
+      21.1,
+      10,
+      5
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Samut Sakhon Aquarium",
+    "city": "Samut Sakhon",
+    "country": "Thailand",
+    "organizer": "RecRace Sport Co., Ltd.",
+    "price_range": "THB 500-800"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "When is Chayle Run 2027?",
+      "answer": "Sunday 14 February 2027. The 21 km half marathon starts at 5am, the 10 km at 5.30am and the 5 km at 5.45am, all from the Samut Sakhon Aquarium. Race kits are collected at the aquarium on Saturday 13 February from 1pm to 6pm, and a postal delivery option is offered until 31 December 2026."
+    },
+    {
+      "question": "How much does Chayle Run 2027 cost?",
+      "answer": "Early-bird fees, from 23 October to 10 November 2026, are THB 700 for the 21 km, THB 600 for the 10 km and THB 500 for the 5 km. Standard fees from 11 November to 31 December 2026 are THB 800, 700 and 600. The 21 km and 10 km are chip-timed."
+    },
+    {
+      "question": "What are the cut-offs at Chayle Run?",
+      "answer": "The half marathon has a four-hour cut-off, and only 21 km finishers inside it receive the finisher shirt. The entry page gives the 10 km cut-off as 2 hours 30 minutes in Thai but 3 hours in English, so plan for the shorter one. Trophies go to the overall winners and five deep in each age group."
+    }
+  ],
+  "reliability_score": 40,
+  "tags": [
+    "half-marathon",
+    "thailand"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.recracesport.com/run/chaylerun2",
+      "label": "Entry page on RecRace Sport: Sunday 14 Feb 2570 (2027), Samut Sakhon Aquarium, 21 / 10 / 5 km, start times, cut-offs, fees, awards",
+      "type": "registration_platform",
+      "last_checked": "2026-11-02"
+    },
+    {
+      "url": "https://www.facebook.com/chaylerun/",
+      "label": "Organiser Facebook page linked from the entry page",
+      "type": "social",
+      "last_checked": "2026-11-02"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on RecRace Sport",
+      "url": "https://www.recracesport.com/run/chaylerun2",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-11-02",
+  "status": "needs_review"
+}

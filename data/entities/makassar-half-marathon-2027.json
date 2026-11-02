@@ -1,0 +1,70 @@
+{
+  "entity_id": "makassar-half-marathon-2027",
+  "slug": "makassar-half-marathon-2027",
+  "name": "Makassar Half Marathon 2027",
+  "category_id": "half-marathon",
+  "region_id": "indonesia",
+  "short_description": "Makassar Half Marathon 2027 is on Sunday 30 May 2027 from Anjungan Pantai Losari, Makassar, at 5.30am, with a 10K the day before and a Kid Dash on 28 May.",
+  "ai_summary": "Makassar Half Marathon 2027 is the sixth edition since the race returned in 2022, run over three days from 28 to 30 May 2027 under the tagline 'One City. One Pulse.' The half marathon flags off at 5.30am on Sunday 30 May from Anjungan Pantai Losari on the Makassar waterfront, with a 10K there on Saturday 29 May and a Kid Dash at Centre Point of Indonesia on Friday 28 May. It is organised by DEE Management in partnership with the Makassar city government's youth and sports office.",
+  "core_facts": {
+    "date": "2027-05-30",
+    "distance_km": [
+      21.1,
+      10
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Anjungan Pantai Losari",
+    "city": "Makassar, South Sulawesi",
+    "country": "Indonesia",
+    "organizer": "DEE Management, with the Makassar City Government (Dinas Pemuda dan Olahraga)"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "When is Makassar Half Marathon 2027?",
+      "answer": "The half marathon is on Sunday 30 May 2027, flagging off at 5.30am from Anjungan Pantai Losari with a four-hour cut-off. The 10K runs on Saturday 29 May from the same place and the Kid Dash on Friday 28 May at Centre Point of Indonesia. Race packs are collected at Anjungan Pantai Losari from 27 to 29 May."
+    },
+    {
+      "question": "Does Makassar Half Marathon have a full marathon?",
+      "answer": "No. The organiser lists a half marathon, a 10K and a Kid Dash only, although some calendars show a 42K. Runners may enter both the Saturday 10K and the Sunday half. Classes are Open, National and National Master 40+ and 50+, plus a 10K student class for ages 15 to 18."
+    },
+    {
+      "question": "How are entry fees set for Makassar Half Marathon?",
+      "answer": "The organiser sets two price tiers: an early-bird tier at 15% off from 1 November 2026, and regular pricing from 2 January 2027. The amounts are not given in the text of its site. It is also pursuing World Athletics course measurement and national federation sanctioning, with a World Athletics label as a later goal."
+    }
+  ],
+  "reliability_score": 45,
+  "tags": [
+    "half-marathon",
+    "indonesia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://makassarhalfmarathon.id/",
+      "label": "Official site: 28-30 May 2027, half marathon 30 May at Anjungan Pantai Losari; organiser DEE Management with the city government",
+      "type": "official",
+      "last_checked": "2026-11-02"
+    },
+    {
+      "url": "https://makassarhalfmarathon.id/tentang/",
+      "label": "Official race information: price tiers, categories and classes, venues, 5.30am flag-offs, cut-offs, race pack collection 27-29 May",
+      "type": "official",
+      "last_checked": "2026-11-02"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://makassarhalfmarathon.id/",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-11-02",
+  "status": "needs_review"
+}

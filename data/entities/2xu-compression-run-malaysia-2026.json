@@ -1,0 +1,65 @@
+{
+  "entity_id": "2xu-compression-run-malaysia-2026",
+  "slug": "2xu-compression-run-malaysia-2026",
+  "name": "2XU Compression Run Malaysia 2026",
+  "category_id": "half-marathon",
+  "region_id": "malaysia",
+  "short_description": "2XU Compression Run Malaysia 2026 is on Sunday 20 December 2026 at Persiaran Flora, Cyberjaya, with a 21.1 km and a 10 km competitive run from a 4.30am start.",
+  "ai_summary": "2XU Compression Run Malaysia 2026 is the Malaysian race in the 2XU series, held on Sunday 20 December 2026 at Persiaran Flora in Cyberjaya, Selangor. It has two competitive distances only, 21.1 km for runners aged 16 and over and 10 km for 13 and over, each with open and veteran divisions, and starts at 4.30am. Malaysian residents pay RM90 to RM150, while non-residents pay RM260 to RM340.",
+  "core_facts": {
+    "date": "2026-12-20",
+    "distance_km": [
+      21.1,
+      10
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Persiaran Flora",
+    "city": "Cyberjaya, Selangor",
+    "country": "Malaysia",
+    "organizer": "Infinitus Productions Pte Ltd",
+    "price_range": "MYR 90-340"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "When is 2XU Compression Run Malaysia 2026?",
+      "answer": "Sunday 20 December 2026, with a 4.30am start at Persiaran Flora in Cyberjaya, Selangor. The event is listed on Race Roster, where the event contact is Infinitus Productions Pte Ltd. Residents must show a MyKad or passport, and foreign residents a work pass as well, when they collect their race pack."
+    },
+    {
+      "question": "What distances does 2XU Compression Run Malaysia offer?",
+      "answer": "Just two: a 21.1 km competitive run for runners aged 16 and over and a 10 km competitive run for those aged 13 and over. Both have an open division and a veteran division for runners aged 40 and over. There is no 5 km or fun-run category at this edition of the race."
+    },
+    {
+      "question": "How much does it cost to enter?",
+      "answer": "Pricing is split by residency. Malaysian residents, including foreigners living in Malaysia, pay between RM90 and RM150 depending on the distance and price tier, while non-residents pay between RM260 and RM340. Residency is checked at race-pack collection with a MyKad, passport or work pass, so bring the right document."
+    }
+  ],
+  "reliability_score": 40,
+  "tags": [
+    "half-marathon",
+    "malaysia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://raceroster.com/events/2026/140899/2xu-compression-run-malaysia-2026",
+      "label": "Race Roster event page: Sun 20 Dec 2026, 4.30am, Persiaran Flora Cyberjaya; 21.1 km and 10 km fees; event contact Infinitus Productions Pte Ltd",
+      "type": "registration_platform",
+      "last_checked": "2026-11-02"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on Race Roster",
+      "url": "https://raceroster.com/events/2026/140899/2xu-compression-run-malaysia-2026",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-11-02",
+  "status": "needs_review"
+}

@@ -1,8 +1,8 @@
 {
   "review_id": "solo-run-fest-2026",
   "slug": "solo-run-fest-2026",
-  "entity_id": "solo-run-fest-2026",
-  "title": "Solo Run Fest 2026 Review: What the 2026 Race Was Like",
+  "entity_id": "solo-run-fest-2027",
+  "title": "Solo Run Fest 2027 Review: What the 2026 Race Was Like",
   "seo_title": "Solo Run Fest Review: Surakarta Route, Cut-offs, Aid Stations",
   "meta_description": "Solo Run Fest 2026 review: about 7,000 runners, a point-to-point route from Stadion Manahan to Taman Balekambang, a 3h45 half-marathon limit, checkpoints and water every 2-3 km.",
   "dek": "What it was like to run Surakarta's city half marathon on 27 September 2026: the route through old Solo and over the Manahan overpass, the start times and checkpoints, the aid, the car-free-day roads and the logistics.",
@@ -233,8 +233,8 @@
       "answer": "At Bale Bojana in Taman Balekambang, the finish area. In 2026 collection ran on Friday from 1pm to 8pm and Saturday from 10am to 8pm. There is no race-day collection and no posting, but a representative with a signed authorisation letter can collect up to three packs."
     }
   ],
-  "editorial_notes": "Rewritten 2026-09-29 about the 27 September 2026 edition, two days after the race. The official results page (RaceTec) was behind a bot check and no report gave winning times, so there is no field-depth section. No race-morning weather is given: the Solo airport stations in the IEM METAR archive have no data after 2021, and the nearest active stations are about 90 km away. Flag-off times were never published; the start times given are inferred from the official cut-off points and labelled as such. Sources differ on the 2025 field (about 5,000 from the mayor and Tempo, about 6,000 from the provincial government); both are given. Runner comments come from government and local news reports. No rating.",
+  "editorial_notes": "Rewritten 2026-09-29 about the 27 September 2026 edition, two days after the race. The official results page (RaceTec) was behind a bot check and no report gave winning times, so there is no field-depth section. No race-morning weather is given: the Solo airport stations in the IEM METAR archive have no data after 2021, and the nearest active stations are about 90 km away. Flag-off times were never published; the start times given are inferred from the official cut-off points and labelled as such. Sources differ on the 2025 field (about 5,000 from the mayor and Tempo, about 6,000 from the provincial government); both are given. Runner comments come from government and local news reports. No rating. Moved 2026-11-02 onto the 2027 record (26 September 2027) when that edition was listed.",
   "published_at": "2026-08-09T07:45:00.000Z",
-  "last_updated": "2026-09-28",
+  "last_updated": "2026-11-02",
   "status": "active"
 }

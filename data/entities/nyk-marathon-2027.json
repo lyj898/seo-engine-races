@@ -1,0 +1,85 @@
+{
+  "entity_id": "nyk-marathon-2027",
+  "slug": "nyk-marathon-2027",
+  "name": "NYK Marathon 2027",
+  "category_id": "full-marathon",
+  "region_id": "thailand",
+  "short_description": "NYK Marathon 2027 is on Sunday 7 February 2027 from Wangree Resort & Spa in Nakhon Nayok, with a marathon, half marathon, 10 km and 5 km.",
+  "ai_summary": "NYK Marathon 2027 is organised by Run Happy Series on Sunday 7 February 2027, starting and finishing at Wangree Resort & Spa in Nakhon Nayok, north-east of Bangkok. It offers a 42.195 km marathon, a 21 km half marathon, a 10 km and a 5 km, with a 5.30am start listed on race.thai.run. Entry on Race Roster costs THB 450 to 1,000 at the early-bird rate and THB 500 to 1,300 from 26 December.",
+  "core_facts": {
+    "date": "2027-02-07",
+    "distance_km": [
+      42.195,
+      21.1,
+      10,
+      5
+    ],
+    "primary_distance_km": 42.195,
+    "venue": "Wangree Resort & Spa",
+    "city": "Nakhon Nayok",
+    "country": "Thailand",
+    "organizer": "Run Happy Series",
+    "price_range": "THB 450-1,300"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "When and where is NYK Marathon 2027?",
+      "answer": "Sunday 7 February 2027, starting and finishing at Wangree Resort & Spa in Nakhon Nayok province, north-east of Bangkok. The race.thai.run listing gives a 5.30am start. The organiser, Run Happy Series, also held the previous edition there on 8 February 2026, and entries for 2027 are taken on Race Roster."
+    },
+    {
+      "question": "How much does NYK Marathon 2027 cost?",
+      "answer": "On Race Roster, early-bird entry to 25 December 2026 costs THB 1,000 for the marathon, THB 800 for the half, THB 600 for the 10 km and THB 450 for the 5 km. From 26 December to 31 January the fees rise to THB 1,300, 1,000, 800 and 500."
+    },
+    {
+      "question": "What is the NYK Marathon course like?",
+      "answer": "The organiser had not posted the 2027 route. In 2026 the marathon and half marathon ran on paved roads past villages, orchards and rice fields, crossed the dam of the Huai Prue reservoir and included a section at Khao Thurian. Check the 2027 route once it is published, as it may change."
+    }
+  ],
+  "reliability_score": 45,
+  "tags": [
+    "full-marathon",
+    "thailand"
+  ],
+  "source_mix": [
+    {
+      "url": "https://raceroster.com/events/2027/166139/nyk-marathon-2027",
+      "label": "Race Roster entry page: Sun 7 Feb 2027, Wangree Resort & Spa, 5K/10K/21K/42K fees, organiser Run Happy Series",
+      "type": "registration_platform",
+      "last_checked": "2026-11-02"
+    },
+    {
+      "url": "https://race.thai.run/event/nykmarathon2027",
+      "label": "race.thai.run listing: start 7 Feb 2027 5.30am, 42.195 / 21 / 10 / 5 km",
+      "type": "registration_platform",
+      "last_checked": "2026-11-02"
+    },
+    {
+      "url": "https://race.thai.run/event/nykmarathon2026",
+      "label": "race.thai.run page for the 2026 edition (8 Feb 2026): course description",
+      "type": "registration_platform",
+      "last_checked": "2026-11-02"
+    },
+    {
+      "url": "https://www.facebook.com/nykmarathon",
+      "label": "Race Facebook page linked from Race Roster",
+      "type": "social",
+      "last_checked": "2026-11-02"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on Race Roster",
+      "url": "https://raceroster.com/events/2027/166139/nyk-marathon-2027",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-11-02",
+  "status": "needs_review"
+}

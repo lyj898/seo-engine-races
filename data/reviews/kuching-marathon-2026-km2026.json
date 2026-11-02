@@ -1,8 +1,8 @@
 {
   "review_id": "kuching-marathon-2026-km2026",
   "slug": "kuching-marathon-2026-km2026",
-  "entity_id": "kuching-marathon-2026-km2026",
-  "title": "Kuching Marathon Review: What the 2025 Race Was Like",
+  "entity_id": "kuching-marathon-2027",
+  "title": "Kuching Marathon 2027 Review: What the 2025 Race Was Like",
   "seo_title": "Kuching Marathon Review: 2025 Course, Heat, Cut-offs, 2026 Haze",
   "meta_description": "Kuching Marathon review: the 2025 race's 1am start at 25°C and 94% humidity, a loop over the Sarawak River, 18 water stations, a seven-hour limit, and why the 2026 race was cancelled.",
   "dek": "The 2026 Kuching Marathon was called off two days before race day because of haze. This is what the last edition that ran, on 21 September 2025, was like: the course, the night-time weather, the aid and cut-offs, how fast the field is, and what the cancellation means for anyone entering the next one.",
@@ -12,7 +12,7 @@
     "rows": [
       {
         "label": "Date",
-        "value": "Sunday 21 September 2025, the 10th edition. The 2026 race (27 September) was cancelled for haze"
+        "value": "Sunday 21 September 2025, the 10th edition. The 2026 race (27 September) was cancelled for haze. Next: Sunday 17 October 2027"
       },
       {
         "label": "Field",
@@ -118,11 +118,11 @@
       ]
     },
     {
-      "heading": "Should You Enter the Next Kuching Marathon?",
+      "heading": "Should You Enter the 2027 Race?",
       "paragraphs": [
         "Yes, if you want a large, well-supported Borneo marathon with a seven-hour limit, 18 water stations and a field you can place in as a strong club runner. The half marathon and 10 km suit runners who want the city at night without the full distance.",
         "Think twice if you are flying in and cannot afford to lose the trip. In 2026 the race was stopped two days out by haze, and the rules give no refund in that case [7]. Watch Kuching's API readings in the final week; the 2026 closures had been announced for 26 roads and junctions days before the cancellation [22], so a published traffic plan is no guarantee the race will go ahead.",
-        "The date of the next race had not been published when this was written.",
+        "The 2027 race is on Sunday 17 October at Padang Merdeka, later in the year than recent editions, which were held in late September [23]. Start times and entry fees had not been published when this was written.",
         "Nobody from this site ran the race. This review draws on the organiser's race pages, rules and route maps, airport weather records, and local reporting in English and Chinese."
       ]
     }
@@ -293,6 +293,13 @@
       "publisher": "DayakDaily",
       "url": "https://dayakdaily.com/26-roads-to-close-divert-for-kuching-marathon-2026-from-sept-26-27/",
       "type": "news"
+    },
+    {
+      "n": 23,
+      "label": "Official site: next race Sunday 17 October 2027 at Padang Merdeka",
+      "publisher": "Kuching Marathon Association (organiser)",
+      "url": "https://www.marathonkuching.com/",
+      "type": "official"
     }
   ],
   "faqs": [
@@ -317,8 +324,8 @@
       "answer": "Kenyans took the top six places in the 2025 men's open marathon, won in 2:26:21, and Malaysians filled seventh to tenth; the fastest Malaysian man ran 2:46:04. The women's race was won in 3:15:19, and Malaysians took second to tenth. Prize money went ten deep in each category except the 5 km."
     }
   ],
-  "editorial_notes": "Rewritten 2026-09-28 about the last edition that ran (21 September 2025), after the 2026 race (27 September) was cancelled for haze on 25 September 2026; the cancellation, the organiser's reasons and the no-refund rule are covered. 2025 start times, cut-offs, rules and FAQ come from Internet Archive captures of the organiser's pages taken before the race; route maps are the organiser's 2025 PDFs. Weather is airport METAR data, not a forecast. Full 2025 results are behind a bot check on RaceTec, so no tenth-place times are given; field depth comes from two news reports. The Borneo Post (403) could not be read, including its story on outstation runners' losses. The 2025 finisher-tee promise for the 10 km and 5 km conflicts with the 2025 rules; both are given. No 2025 runner account was found. No rating.",
+  "editorial_notes": "Rewritten 2026-09-28 about the last edition that ran (21 September 2025), after the 2026 race (27 September) was cancelled for haze on 25 September 2026; the cancellation, the organiser's reasons and the no-refund rule are covered. 2025 start times, cut-offs, rules and FAQ come from Internet Archive captures of the organiser's pages taken before the race; route maps are the organiser's 2025 PDFs. Weather is airport METAR data, not a forecast. Full 2025 results are behind a bot check on RaceTec, so no tenth-place times are given; field depth comes from two news reports. The Borneo Post (403) could not be read, including its story on outstation runners' losses. The 2025 finisher-tee promise for the 10 km and 5 km conflicts with the 2025 rules; both are given. No 2025 runner account was found. No rating. Moved 2026-11-02 onto the 2027 record (17 October 2027) when that edition was listed; the closing section now gives the 2027 date.",
   "published_at": "2026-08-09T07:30:00.000Z",
-  "last_updated": "2026-09-28",
+  "last_updated": "2026-11-02",
   "status": "active"
 }

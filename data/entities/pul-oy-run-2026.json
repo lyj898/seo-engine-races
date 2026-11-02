@@ -1,0 +1,63 @@
+{
+  "entity_id": "pul-oy-run-2026",
+  "slug": "pul-oy-run-2026",
+  "name": "Pul-oy Run 2026",
+  "category_id": "half-marathon",
+  "region_id": "philippines",
+  "short_description": "Pul-oy Run 2026 is on Sunday 6 December 2026 from Burgos Municipal Hall in Ilocos Norte, with a 21 km half marathon, 10 km, 5 km and 3 km.",
+  "ai_summary": "Pul-oy Run 2026 is a road race on Sunday 6 December 2026 in Burgos, Ilocos Norte, starting and finishing in front of the municipal hall. It is organised by Anytime Fitness San Nicolas and offers 21 km, 10 km, 5 km and 3 km categories, with the event listed to start at 3am. Entry costs PHP 800 to 1,699, and half-marathon entries include a finisher shirt, medal and towel.",
+  "core_facts": {
+    "date": "2026-12-06",
+    "distance_km": [
+      21.1,
+      10,
+      5,
+      3
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Burgos Municipal Hall",
+    "city": "Burgos, Ilocos Norte",
+    "country": "Philippines",
+    "organizer": "Anytime Fitness San Nicolas, Ilocos Norte",
+    "price_range": "PHP 800-1,699"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "When is Pul-oy Run 2026?",
+      "answer": "Sunday 6 December 2026, with the event listed on MyRunTime to start at 3am. Runners start and finish in front of the Burgos Municipal Hall in Burgos, Ilocos Norte. Race kits are picked up at Anytime Fitness San Nicolas or at the Burgos Municipal Hall; check MyRunTime for the pick-up dates."
+    },
+    {
+      "question": "How much does Pul-oy Run cost and what is included?",
+      "answer": "The 21 km costs PHP 1,699, the 10 km PHP 1,549, the 5 km PHP 999 and the 3 km PHP 800, plus a PHP 50 web admin fee. The 21 km and 10 km include a singlet, finisher shirt, medal, e-certificate, loot bag, bandana, socks, finisher towel and post-race snacks."
+    }
+  ],
+  "reliability_score": 40,
+  "tags": [
+    "half-marathon",
+    "philippines"
+  ],
+  "source_mix": [
+    {
+      "url": "https://myruntime.com/register/pul-oy-run-2026",
+      "label": "MyRunTime event page: 6 Dec 2026, 3am, Burgos Municipal Hall, 21/10/5/3 km fees and inclusions, organiser",
+      "type": "registration_platform",
+      "last_checked": "2026-11-02"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on MyRunTime",
+      "url": "https://myruntime.com/register/pul-oy-run-2026",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-11-02",
+  "status": "needs_review"
+}

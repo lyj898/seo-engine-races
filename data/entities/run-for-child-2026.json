@@ -1,0 +1,72 @@
+{
+  "entity_id": "run-for-child-2026",
+  "slug": "run-for-child-2026",
+  "name": "Run for Child 2026",
+  "category_id": "half-marathon",
+  "region_id": "thailand",
+  "short_description": "Run for Child 2026 is a 21 km half marathon, 10 km and 5 km charity run on Sunday 15 November 2026 around Bueng Si Than lake at Khon Kaen University.",
+  "ai_summary": "Run for Child 2026 is a road race on Sunday 15 November 2026 at Bueng Si Than, the lake on the Khon Kaen University campus, organised by K SPORT. It offers a 21 km half marathon, a 10 km and a 5 km, with entries from THB 300 to 600 and a THB 1,000 VIP option. Half-marathon prize money goes three deep overall, with age-group trophies in five-year bands.",
+  "core_facts": {
+    "date": "2026-11-15",
+    "distance_km": [
+      21.1,
+      10,
+      5
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Bueng Si Than, Khon Kaen University",
+    "city": "Khon Kaen",
+    "country": "Thailand",
+    "organizer": "K SPORT",
+    "price_range": "THB 200-1,000"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "When and where is Run for Child 2026?",
+      "answer": "It is on Sunday 15 November 2026 at Bueng Si Than, the lake on the Khon Kaen University campus in north-east Thailand. The organiser is K SPORT, and entries are taken on the ThaiPhotoRun platform. Start times had not been published on the entry page, so check it and the organiser's Facebook page before race week."
+    },
+    {
+      "question": "What distances does Run for Child offer and what do they cost?",
+      "answer": "Three distances: a 21 km half marathon at THB 600, a 10 km at THB 400 and a 5 km fun run at THB 300, or THB 200 for runners under 19. A VIP entry for any distance costs THB 1,000. Finishers inside the time limit in the 10 km and 21 km receive a medal."
+    },
+    {
+      "question": "What prizes are there for the half marathon?",
+      "answer": "Overall prize money is THB 2,000, 1,500 and 1,000 for the first three men and women. Age-group trophies go five deep in five-year bands from 19-24 up to 70 and over, with cash awards of THB 1,000, 800 and 500 for the top three in each age group, according to the entry page."
+    }
+  ],
+  "reliability_score": 40,
+  "tags": [
+    "half-marathon",
+    "thailand"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.thaiphotorun.com/race/runforchild2026",
+      "label": "Entry page on ThaiPhotoRun: Sunday 15 Nov 2569 (2026), Bueng Si Than KKU, 21 / 10 / 5 km, fees, prizes, organiser K SPORT",
+      "type": "registration_platform",
+      "last_checked": "2026-11-02"
+    },
+    {
+      "url": "https://web.facebook.com/runforchild2026",
+      "label": "Organiser Facebook page linked from the entry page",
+      "type": "social",
+      "last_checked": "2026-11-02"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on ThaiPhotoRun",
+      "url": "https://www.thaiphotorun.com/race/runforchild2026",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-11-02",
+  "status": "needs_review"
+}

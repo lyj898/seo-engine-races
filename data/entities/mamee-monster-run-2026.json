@@ -1,0 +1,79 @@
+{
+  "entity_id": "mamee-monster-run-2026",
+  "slug": "mamee-monster-run-2026",
+  "name": "Mamee Monster Run 2026",
+  "category_id": "half-marathon",
+  "region_id": "malaysia",
+  "short_description": "Mamee Monster Run 2026 is held on Sunday 10 January 2027 at Dataran Putrajaya, adding a 21 km half marathon for the first time to its 10 km, 5 km and 3 km.",
+  "ai_summary": "Mamee Monster Run 2026 is a themed run in its third year, held on Sunday 10 January 2027 at Dataran Putrajaya despite the 2026 in its name. This edition adds a 21 km half marathon to its 10 km, 5 km and 3 km, and the event starts at 5am. It is co-organised by Putrajaya Car-Free Morning, Kita Pelari Malaysia and Mamee Double-Decker Malaysia, which say the previous edition drew 20,000 participants.",
+  "core_facts": {
+    "date": "2027-01-10",
+    "distance_km": [
+      21.1,
+      10,
+      5,
+      3
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Dataran Putrajaya, Persiaran Perdana, Presint 3",
+    "city": "Putrajaya",
+    "country": "Malaysia",
+    "organizer": "Putrajaya Car-Free Morning, Kita Pelari Malaysia and Mamee Double-Decker Malaysia",
+    "price_range": "MYR 20-100"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "When is Mamee Monster Run 2026?",
+      "answer": "On Sunday 10 January 2027, at Dataran Putrajaya on Persiaran Perdana, Presint 3, with the event starting at 5am. The race keeps the name Mamee Monster Run 2026 although it is held in January 2027. Run-kit collection dates and venue are to be announced on the official Race Roster page."
+    },
+    {
+      "question": "Does Mamee Monster Run have a half marathon?",
+      "answer": "Yes, for the first time. This edition adds a 21 km half marathon, with open (17 to 39) and veteran (40 and over) divisions, to the 10 km, 5 km and 3 km of earlier years. Fees range from RM20 to RM100, and cheaper entries with a shirt and bib only are offered."
+    },
+    {
+      "question": "What kind of event is Mamee Monster Run?",
+      "answer": "A family-friendly themed run in its third year, built around the Mamee Monster snack brand. Cosplay is encouraged and the brand's characters appear on the course. The organisers say the previous edition drew 20,000 participants and are aiming for 25,000, so expect a busy start area at Dataran Putrajaya."
+    }
+  ],
+  "reliability_score": 40,
+  "tags": [
+    "half-marathon",
+    "malaysia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://raceroster.com/events/2027/164725/mamee-monster-run-2026",
+      "label": "Race Roster event page: Sun 10 Jan 2027, 5am, Dataran Putrajaya; new 21 km half marathon plus 10 km/5 km/3 km",
+      "type": "registration_platform",
+      "last_checked": "2026-11-02"
+    },
+    {
+      "url": "https://raceroster.com/events/2027/164725/mamee-monster-run-2026/page/rules-and-regulations",
+      "label": "Race Roster rules: co-organisers Putrajaya Car-Free Morning, Kita Pelari Malaysia and Mamee Double-Decker Malaysia",
+      "type": "registration_platform",
+      "last_checked": "2026-11-02"
+    },
+    {
+      "url": "https://racexasia.com/event/mamee-monster-run-2026-mamr26",
+      "label": "RaceXasia listing (10 Jan 2027, Dataran Putrajaya)",
+      "type": "registration_platform",
+      "last_checked": "2026-11-02"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on Race Roster",
+      "url": "https://raceroster.com/events/2027/164725/mamee-monster-run-2026",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-11-02",
+  "status": "needs_review"
+}

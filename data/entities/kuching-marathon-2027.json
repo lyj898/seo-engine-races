@@ -1,0 +1,78 @@
+{
+  "entity_id": "kuching-marathon-2027",
+  "slug": "kuching-marathon-2027",
+  "name": "Kuching Marathon 2027",
+  "category_id": "full-marathon",
+  "region_id": "malaysia",
+  "short_description": "Kuching Marathon 2027 is on Sunday 17 October 2027 at Padang Merdeka, Kuching, with a full marathon, half marathon, 10 km and 5 km, after the 2026 race was cancelled for haze.",
+  "ai_summary": "The Kuching Marathon 2027 is scheduled for Sunday 17 October 2027 at Padang Merdeka in Kuching, Sarawak, organised by the Kuching Marathon Association. It offers a 42.195 km full marathon, a 21 km half marathon and 10 km and 5 km runs. The 2026 edition, due on 27 September 2026, was cancelled shortly before race day because of haze, so the last race held was the 10th edition in September 2025, which drew more than 14,000 runners.",
+  "core_facts": {
+    "date": "2027-10-17",
+    "distance_km": [
+      42.195,
+      21.1,
+      10,
+      5
+    ],
+    "primary_distance_km": 42.195,
+    "venue": "Padang Merdeka",
+    "city": "Kuching, Sarawak",
+    "country": "Malaysia",
+    "organizer": "Kuching Marathon Association"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "When is the Kuching Marathon 2027?",
+      "answer": "Sunday 17 October 2027, at Padang Merdeka in central Kuching. That is later in the year than recent editions, which were held in late September. Start times and entry fees for 2027 had not been published on the official site, so check it before booking flights or a hotel."
+    },
+    {
+      "question": "What distances does the Kuching Marathon offer?",
+      "answer": "Four: the 42.195 km Kuching Full Marathon, the 21 km Kuching Half Marathon, and 10 km and 5 km Kuching Run categories, according to the official site. The race is listed by AIMS, the international association of road races, and is organised by the Kuching Marathon Association."
+    },
+    {
+      "question": "Where is the Kuching Marathon held?",
+      "answer": "All four races are based at Padang Merdeka, the open field in the centre of Kuching, Sarawak's capital, according to the official site. The organiser is the Kuching Marathon Association. The last race held, the 10th edition on 21 September 2025, drew more than 14,000 runners; the 2026 race was called off because of haze."
+    }
+  ],
+  "reliability_score": 50,
+  "tags": [
+    "full-marathon",
+    "malaysia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.marathonkuching.com/",
+      "label": "Official site: 17 October 2027, Padang Merdeka Kuching; 42.195 km full, 21 km half, 10 km and 5 km; 2026 cancellation notice",
+      "type": "official",
+      "last_checked": "2026-11-02"
+    },
+    {
+      "url": "https://aims-worldrunning.org/races/10127.html",
+      "label": "AIMS race page: Sun 17 October 2027; organiser Kuching Marathon Association",
+      "type": "aggregator",
+      "last_checked": "2026-11-02"
+    },
+    {
+      "url": "https://www.marathonkuching.com/site/lebih-14000-pelari-sertai-kuching-marathon-2025/",
+      "label": "Organiser news item: more than 14,000 runners at the 2025 edition",
+      "type": "official",
+      "last_checked": "2026-11-02"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://www.marathonkuching.com/",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-11-02",
+  "status": "needs_review"
+}

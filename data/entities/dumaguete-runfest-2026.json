@@ -1,0 +1,68 @@
+{
+  "entity_id": "dumaguete-runfest-2026",
+  "slug": "dumaguete-runfest-2026",
+  "name": "Dumaguete Runfest 2026",
+  "category_id": "half-marathon",
+  "region_id": "philippines",
+  "short_description": "Dumaguete Runfest 2026 is on Sunday 13 December 2026 from Robinsons Place Dumaguete in Negros Oriental, with a 21 km half marathon, 10 km and 5 km from a 4am start.",
+  "ai_summary": "Dumaguete Runfest 2026 is a road race on Sunday 13 December 2026, starting and finishing at Robinsons Place Dumaguete in Negros Oriental and organised by Happy Feet Events. It offers 21 km, 10 km and 5 km categories, with a 4am start listed on its Planout entry page. The 21 km costs PHP 1,750 and includes a finisher shirt, singlet, medal, RFID timing, insurance and a post-race meal.",
+  "core_facts": {
+    "date": "2026-12-13",
+    "distance_km": [
+      21.1,
+      10,
+      5
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Robinsons Place Dumaguete",
+    "city": "Dumaguete City, Negros Oriental",
+    "country": "Philippines",
+    "organizer": "Happy Feet Events",
+    "price_range": "PHP 1,150-1,750"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "When is Dumaguete Runfest 2026?",
+      "answer": "Sunday 13 December 2026. The Planout entry page lists a 4am start and the event ending at 7.30am, at Robinsons Place Dumaguete. Check-in uses a QR code from the runner's Planout order. It is a different event from the Smoke 10 half marathon held from the same mall in December 2025."
+    },
+    {
+      "question": "How much does Dumaguete Runfest cost?",
+      "answer": "On the Planout page the 21 km costs PHP 1,750 and the 10 km PHP 1,350; a listing on Takbo.ph gives the 5 km as PHP 1,150. The 21 km entry includes a finisher shirt, event singlet, medal, race bib, RFID timing, insurance and a post-race meal with refreshments."
+    }
+  ],
+  "reliability_score": 40,
+  "tags": [
+    "half-marathon",
+    "philippines"
+  ],
+  "source_mix": [
+    {
+      "url": "https://planout.io/event/dumaguete-runfest-2026",
+      "label": "Planout event page: 13 Dec 2026, 4am, Robinsons Place Dumaguete, organiser Happy Feet Events, 21/10/5 km, fees and inclusions",
+      "type": "registration_platform",
+      "last_checked": "2026-11-02"
+    },
+    {
+      "url": "https://www.takbo.ph/2026/10/dumaguete-runfest-2026/",
+      "label": "Takbo.ph listing: 13 Dec 2026, 21/10/5 km and fees",
+      "type": "aggregator",
+      "last_checked": "2026-11-02"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on Planout",
+      "url": "https://planout.io/event/dumaguete-runfest-2026",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-11-02",
+  "status": "needs_review"
+}

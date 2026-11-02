@@ -1,0 +1,66 @@
+{
+  "entity_id": "tva-charity-running-2026",
+  "slug": "tva-charity-running-2026",
+  "name": "TVA Charity Running 2026",
+  "category_id": "half-marathon",
+  "region_id": "thailand",
+  "short_description": "TVA Charity Running 2026 is a 21 km half marathon, 10 km and 5 km charity run on Sunday 20 December 2026 at the Chalerm Phrakiat Stadium in Thanyaburi, Pathum Thani.",
+  "ai_summary": "TVA Charity Running 2026 is organised by the Thai Valuers Association to mark its 30th anniversary, with proceeds after costs donated to a foundation that shelters disabled animals. It is held on Sunday 20 December 2026 at the Chalerm Phrakiat Stadium in the Department of Physical Education training centre at Thanyaburi, Pathum Thani, north of Bangkok. Entry costs THB 850 for the 21 km, THB 650 for the 10 km and THB 550 for the 5 km.",
+  "core_facts": {
+    "date": "2026-12-20",
+    "distance_km": [
+      21.1,
+      10,
+      5
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Chalerm Phrakiat Stadium, Department of Physical Education Training Centre",
+    "city": "Thanyaburi, Pathum Thani",
+    "country": "Thailand",
+    "organizer": "Thai Valuers Association",
+    "price_range": "THB 550-1,999"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "When and where is TVA Charity Running 2026?",
+      "answer": "On Sunday 20 December 2026, at the Chalerm Phrakiat Stadium inside the Department of Physical Education training centre at Thanyaburi, in Pathum Thani province just north of Bangkok. The race is listed on race.thai.run with a 5am event start; separate start times for each distance had not been published there."
+    },
+    {
+      "question": "What distances and entry fees are there?",
+      "answer": "Three: a 21 km half marathon at THB 850, a 10 km mini marathon at THB 650 and a 5 km fun run at THB 550. A VIP entry for any distance costs THB 1,999. Each 5 km entry includes a running shirt and a finisher medal, and the 5 km awards trophies to the top three overall."
+    },
+    {
+      "question": "Who organises the run and who benefits?",
+      "answer": "The Thai Valuers Association, the professional body for independent property valuers, organises the run for its 30th anniversary under the theme 'run from the heart, a new life for four-legged friends'. Proceeds after costs go to a foundation that shelters disabled animals, under the patronage of Luang Ta Maha Bua."
+    }
+  ],
+  "reliability_score": 40,
+  "tags": [
+    "half-marathon",
+    "thailand"
+  ],
+  "source_mix": [
+    {
+      "url": "https://race.thai.run/event/tvacharityrunning2026",
+      "label": "Race page on race.thai.run: start 20 Dec 2026 5am, Pathum Thani, 21 / 10 / 5 km tickets, organiser poster with venue and fees",
+      "type": "registration_platform",
+      "last_checked": "2026-11-02"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on race.thai.run",
+      "url": "https://race.thai.run/event/tvacharityrunning2026",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-11-02",
+  "status": "needs_review"
+}

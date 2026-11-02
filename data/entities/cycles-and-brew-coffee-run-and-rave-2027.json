@@ -1,0 +1,79 @@
+{
+  "entity_id": "cycles-and-brew-coffee-run-and-rave-2027",
+  "slug": "cycles-and-brew-coffee-run-and-rave-2027",
+  "name": "Cycles & Brew Coffee Run & Rave 2027",
+  "category_id": "half-marathon",
+  "region_id": "philippines",
+  "short_description": "Cycles & Brew Coffee Run & Rave 2027 is on Sunday 24 January 2027 at Filinvest Mimosa+ in Clark, with a 21 km half marathon at 5am, 10 km, 5 km, 3 km and a dog run.",
+  "ai_summary": "The Cycles & Brew Coffee Run & Rave 2027 is a coffee-themed road race on Sunday 24 January 2027 at Filinvest Mimosa+ Leisure City in the Clark Freeport Zone, Pampanga. Its distances are named after coffees, from the 21 km Long Black half marathon, which starts at 5am with a cut-off of 3 hours 30 minutes, to a 1 km Dogoccino dog run, and a post-race rave follows. It is run by GoRacePH, with entries on Race Roster from PHP 899 to 1,899.",
+  "core_facts": {
+    "date": "2027-01-24",
+    "distance_km": [
+      21.1,
+      10,
+      5,
+      3,
+      1
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Filinvest Mimosa+ Leisure City, Clark Freeport Zone",
+    "city": "Clark, Pampanga",
+    "country": "Philippines",
+    "organizer": "GoRacePH (Cycles & Brew)",
+    "price_range": "PHP 899-1,899"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "When is the Cycles & Brew Coffee Run & Rave 2027?",
+      "answer": "Sunday 24 January 2027. The 21 km assembles at 4.30am and starts at 5am with a cut-off of 3 hours 30 minutes; the 10 km starts at 6.15am (two hours), the 5 km at 6.45am (one hour), the 3 km at 7am and the dog run at 7.30am. The organiser expects sunrise at 6.25am."
+    },
+    {
+      "question": "What distances are there and what do they cost?",
+      "answer": "Five, named after coffees: Long Black 21 km (PHP 1,899), Latte 10 km (PHP 1,699), Cortado 5 km (PHP 999), Espresso 3 km (PHP 899) and the Dogoccino 1 km dog run (PHP 1,199), which needs a vaccination certificate. Race Roster fees are added. The 21 km and 10 km include a finisher medal, finisher shirt and coffee vouchers."
+    },
+    {
+      "question": "Are there age-group awards?",
+      "answer": "Yes. Overall champions are recognised, and the 21 km awards top-three medals by gender in the 18-29, 30-39, 40-49, 50-59 and 60-and-over age groups, with age counted as 2027 minus birth year. The 2026 edition was held at the same Filinvest Mimosa venue in January 2026."
+    }
+  ],
+  "reliability_score": 45,
+  "tags": [
+    "half-marathon",
+    "philippines"
+  ],
+  "source_mix": [
+    {
+      "url": "https://goraceph.com/coffeerunrave/",
+      "label": "Official GoRacePH race page: Sun 24 Jan 2027, gun times, cut-offs, award categories, Race Roster entry link",
+      "type": "official",
+      "last_checked": "2026-11-02"
+    },
+    {
+      "url": "https://raceroster.com/events/2027/141019/2027-cycles-and-brew-coffee-run-and-rave",
+      "label": "Race Roster entry page: Sun 24 Jan 2027, Clark Freeport; 21/10/5/3 km and 1 km dog run fees and inclusions",
+      "type": "registration_platform",
+      "last_checked": "2026-11-02"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://goraceph.com/coffeerunrave/",
+      "type": "official_website"
+    },
+    {
+      "label": "Entry page on Race Roster",
+      "url": "https://raceroster.com/events/2027/141019/2027-cycles-and-brew-coffee-run-and-rave",
+      "type": "registration"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-11-02",
+  "status": "needs_review"
+}

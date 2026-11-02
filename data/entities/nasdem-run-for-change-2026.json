@@ -1,0 +1,73 @@
+{
+  "entity_id": "nasdem-run-for-change-2026",
+  "slug": "nasdem-run-for-change-2026",
+  "name": "NasDem Run for Change 2026",
+  "category_id": "half-marathon",
+  "region_id": "indonesia",
+  "short_description": "NasDem Run for Change 2026 is on Sunday 8 November 2026 at Lapangan Singaperbangsa, Karawang, with a 21K starting at 5am, a 10K and a fun run.",
+  "ai_summary": "NasDem Run for Change 2026 is a road race held under the NasDem party's banner on Sunday 8 November 2026 from Lapangan Singaperbangsa in Karawang, West Java. The 21K starts at 5am with a four-hour cut-off, followed by the 10K at 5.30am and a fun run of about 4 km at 5.45am. The 21K costs IDR 100,000 while the 10K and fun run are free, and the prize pool totals more than IDR 100 million.",
+  "core_facts": {
+    "date": "2026-11-08",
+    "distance_km": [
+      21.1,
+      10,
+      4
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Lapangan Singaperbangsa",
+    "city": "Karawang, West Java",
+    "country": "Indonesia",
+    "organizer": "Partai NasDem",
+    "price_range": "IDR 0-100,000"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "When is NasDem Run for Change 2026?",
+      "answer": "Sunday 8 November 2026 at Lapangan Singaperbangsa, Karawang. The 21K starts at 5am, the 10K at 5.30am and the fun run at 5.45am. Cut-offs are four hours for the 21K, two and a half hours for the 10K and 90 minutes for the fun run. Race packs are collected at GOR Karawang on 5 and 6 November."
+    },
+    {
+      "question": "How much does it cost and what are the prizes?",
+      "answer": "The 21K costs IDR 100,000 through the Dtiketin entry page, while the 10K and the fun run are free. The prize pool totals more than IDR 100 million: the 21K open winners receive IDR 7.5 million and the 21K master (over 40) winners IDR 5.5 million. The 10K adds a student category for ages 13 to 17."
+    }
+  ],
+  "reliability_score": 45,
+  "tags": [
+    "half-marathon",
+    "indonesia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.nasdemrunforchange.com",
+      "label": "Official site: Sunday 8 Nov 2026, Lapangan Singaperbangsa, fun run/10K/21K, start times, cut-offs, prizes, pack collection",
+      "type": "official",
+      "last_checked": "2026-11-02"
+    },
+    {
+      "url": "https://dtiketin.com/events/nasdem-run-for-change",
+      "label": "Dtiketin entry page: 8 November 2026, 21K open and master IDR 100,000",
+      "type": "registration_platform",
+      "last_checked": "2026-11-02"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://www.nasdemrunforchange.com",
+      "type": "official_website"
+    },
+    {
+      "label": "Entry page on Dtiketin",
+      "url": "https://dtiketin.com/events/nasdem-run-for-change",
+      "type": "registration"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-11-02",
+  "status": "needs_review"
+}

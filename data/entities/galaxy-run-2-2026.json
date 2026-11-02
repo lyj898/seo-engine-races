@@ -1,0 +1,89 @@
+{
+  "entity_id": "galaxy-run-2-2026",
+  "slug": "galaxy-run-2-2026",
+  "name": "Galaxy Run 2 2026",
+  "category_id": "half-marathon",
+  "region_id": "vietnam",
+  "short_description": "Galaxy Run 2 2026 is on Sunday 22 November 2026 in Ho Chi Minh City, starting and finishing on Tan Trao Street in Tan My ward, with 21 km, 10 km and 5 km races.",
+  "ai_summary": "Galaxy Run 2 2026 is the second race in VnExpress Marathon's Galaxy Run series, held on Sunday 22 November 2026 in Ho Chi Minh City. Runners start and finish on Tan Trao Street in Tan My ward, while race kits are collected on 21 November and awards presented at the Saigon Exhibition and Convention Center in Phu My Hung. It offers 21 km, 10 km and 5 km races at VND 399,000, 299,000 and 199,000, and the organisers expect about 8,000 runners.",
+  "core_facts": {
+    "date": "2026-11-22",
+    "distance_km": [
+      21.1,
+      10,
+      5
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Tan Trao Street, Tan My ward (expo at SECC, Phu My Hung)",
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "organizer": "VnExpress Marathon",
+    "price_range": "VND 199,000-399,000"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "When is Galaxy Run 2 2026?",
+      "answer": "Sunday 22 November 2026. Race kits are collected on Saturday 21 November at the expo in the Saigon Exhibition and Convention Center (SECC), Phu My Hung, where awards are also presented. The start and finish are on Tan Trao Street in Tan My ward. Rankings and prizes are decided on gun time."
+    },
+    {
+      "question": "How much does Galaxy Run 2 cost?",
+      "answer": "The 21 km costs VND 399,000, the 10 km VND 299,000 and the 5 km VND 199,000, with group discounts of 5% to 25%. Minimum ages are 16 for the 21 km and 12 for the 10 km. Every distance includes a finisher tee, and the race shirt is a T-shirt rather than a singlet."
+    },
+    {
+      "question": "Why does the race have several names?",
+      "answer": "The official VnExpress Marathon page calls it Galaxy Run 2 2026, while it is sold as Samsung Galaxy Run 2026 on iRace and as Galaxy Run 2026 on Pace8. It follows the first Galaxy Run, which was scheduled for 21 June 2026 on Tran Bach Dang Street in An Khanh ward."
+    }
+  ],
+  "reliability_score": 50,
+  "tags": [
+    "half-marathon",
+    "vietnam"
+  ],
+  "source_mix": [
+    {
+      "url": "https://vm.vnexpress.net/galaxy-run-2-2026",
+      "label": "Official page: race day 22/11/2026, race kit 21/11/2026, Tan Trao Street, 5/10/21 km prices",
+      "type": "official",
+      "last_checked": "2026-11-02"
+    },
+    {
+      "url": "https://vm.vnexpress.net/galaxy-run-2-2026/thong-tin-cuoc-dua",
+      "label": "Official race information: start and finish on Tan Trao Street, expo and awards at SECC",
+      "type": "official",
+      "last_checked": "2026-11-02"
+    },
+    {
+      "url": "https://ticket.irace.vn/samsung-galaxy-run-2026",
+      "label": "iRace ticket page, Samsung Galaxy Run 2026: 22/11/2026, 21 km fee, age limits, race kit",
+      "type": "registration_platform",
+      "last_checked": "2026-11-02"
+    },
+    {
+      "url": "https://pace8.vn/su-kien/galaxy-run-2026",
+      "label": "Pace8 page: Sunday 22 Nov 2026, 5/10/21 km, 8,000 runners expected",
+      "type": "registration_platform",
+      "last_checked": "2026-11-02"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://vm.vnexpress.net/galaxy-run-2-2026",
+      "type": "official_website"
+    },
+    {
+      "label": "Entry page on iRace",
+      "url": "https://ticket.irace.vn/samsung-galaxy-run-2026",
+      "type": "registration"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-11-02",
+  "status": "needs_review"
+}
