@@ -19,9 +19,26 @@
       "url": "https://www.facebook.com/cebuexecutiverunnersclub/",
       "url_kind": "facebook",
       "meets": [],
-      "description": "A club set up in 1997 by working professionals, which founded and organised the Cebu Marathon. The Freeman reported that for the 2027 edition CERC moves to a consultant role, with the Cebu City Sports Commission and DJT Events organising.",
+      "description": "A club set up in 1997 by working professionals, which founded and organised the Cebu Marathon. The Freeman reported that for the 10 Jan 2027 edition CERC moves to a consultant role, with the Cebu City Sports Commission and DJT Events organising.",
       "active_evidence": "Organised Cebu Marathon on 11 Jan 2026 (The Freeman, 9 Jan 2026); named as 2027 race consultant (The Freeman, 14 Aug 2026)",
       "source_url": "https://www.philstar.com/the-freeman/cebu-sports/2026/08/14/2549221/new-organizers-better-experience-runners-cebu-marathon-2027/amp/"
+    },
+    {
+      "name": "Just Show Up Club Cebu",
+      "kind": "club",
+      "focus": "road",
+      "url": "https://www.instagram.com/justshowupcebu/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Saturdays 6:00am (warm-up from 5:30am)",
+          "where": "Mandani Bay, Mandaue City (meet by LK Bakery on The Boardwalk)"
+        }
+      ],
+      "who": "All paces; no tryouts, no pace requirements",
+      "description": "The Cebu chapter of the Makati-based Just Show Up Club, with one weekly group run on the Mandani Bay waterfront. The club's website lists the Cebu schedule alongside Manila's.",
+      "active_evidence": "Instagram posts dated 17 and 29 Oct 2026; Saturday run listed on the club website, checked 2 Nov 2026",
+      "source_url": "https://www.instagram.com/justshowupcebu/"
     },
     {
       "name": "ECYY Community Run",
@@ -32,7 +49,7 @@
       "meets": [],
       "cost": "Free",
       "who": "All fitness levels; beginners welcome",
-      "description": "A free community run of 5 to 10km through Cebu City's roads, which The Freeman describes as one of the first to restart group runs in the city after the pandemic, in 2022. The linked Facebook page belongs to ECYY Sports Hub in Cebu City.",
+      "description": "A free community run of 5 to 10km through Cebu City's roads, which The Freeman describes as one of the first to restart group runs in the city after the pandemic, in 2022. The linked Facebook page belongs to ECYY Sports Hub, a running store in Lahug, Cebu City.",
       "active_evidence": "Feature in The Freeman, 22 Jun 2026",
       "source_url": "https://www.philstar.com/the-freeman/cebu-sports/2026/06/22/2536924/community-runs-keep-thriving-cebu"
     },
@@ -40,19 +57,18 @@
       "name": "RWP Cebu",
       "kind": "club",
       "focus": "road",
-      "url": "https://www.facebook.com/people/RWP-Cebu/61565897488374/",
-      "url_kind": "facebook",
+      "url": "https://www.instagram.com/rwp_cebu/",
+      "url_kind": "instagram",
       "meets": [
         {
-          "when": "Tuesdays (co-hosted with runnr club)",
-          "where": "Cebu (see runnr club page)"
+          "when": "Tuesday evenings (co-hosted with runnr club)"
         }
       ],
-      "cost": "Free (per the chapter's Facebook description)",
+      "cost": "Free (per the chapter's Facebook and Instagram descriptions)",
       "who": "Open to everyone",
-      "description": "The Cebu chapter of the Manila-founded RWP Run Club ('Never run alone'), which holds weekly group runs. Its Tuesday run is part of the runnr store's weekly club schedule.",
-      "active_evidence": "Listed as runnr club's Tuesday Cebu run on runnr's live weekly-runs page, Sep 2026",
-      "source_url": "https://runnr.com.ph/pages/runnrclub"
+      "description": "The Cebu chapter of the Manila-founded RWP Run Club ('Never run alone'), which holds free weekly group runs. Its Tuesday run is part of the runnr store's weekly club schedule; the 27 Oct 2026 edition started at 6:30pm from the Ayala Center Cebu amphitheatre at The Terraces.",
+      "active_evidence": "Instagram post of 24 Oct 2026 announcing its Tuesday 27 Oct 2026 run with runnr club; further posts to 30 Oct 2026",
+      "source_url": "https://www.instagram.com/rwp_cebu/p/De3OYpiGujX/"
     },
     {
       "name": "Cebu Hash House Harriers",
@@ -69,7 +85,7 @@
       "cost": "₱100 registration; kids free; bring your own drinks",
       "who": "Everyone, including children; most people walk",
       "description": "A weekly social hash on loop trails of about 3.5 to 6.5km in and around Metro Cebu, with regular stops so slower members can catch up. A few hashers run it, but most walk.",
-      "active_evidence": "Hashes #1559 to #1561 scheduled for 4, 11 and 18 Oct 2026",
+      "active_evidence": "Hash #1563 posted 27 Oct 2026; hashes #1564 to #1566 scheduled for 8, 15 and 22 Nov 2026",
       "source_url": "https://cebuhash.wordpress.com/"
     }
   ],
@@ -77,14 +93,14 @@
     {
       "name": "Guild of Runners",
       "kind": "coaching_business",
-      "url": "https://www.facebook.com/guildofrunners/",
-      "url_kind": "facebook",
-      "offers": "One-hour coach-led studio sessions that mix track and treadmill running with strength and conditioning, heart-rate-monitored training, and preparation for 5K to marathon, ultra and triathlon goals; free trial class",
+      "url": "https://www.instagram.com/guildofrunners/",
+      "url_kind": "instagram",
+      "offers": "One-hour coach-led studio sessions that mix track and treadmill running with strength and conditioning, coaching from 5K to marathon, HYROX running, and an online running programme; free trial class",
       "where": "Studio on N. Escario Street, Cebu City",
       "credentials": "Founder: licensed physical therapist and USATF Level 1 coach",
       "description": "A running-focused fitness studio and community in Cebu City. Its founder is also listed as a coach for runnr club.",
-      "active_evidence": "Founder listed on runnr club's coaching roster, page live Sep 2026; studio opening covered by SunStar (Dec 2023). No dated 2026 post from the studio itself seen",
-      "source_url": "https://www.sunstar.com.ph/cebu/feature/guild-of-runners-opens-in-escario-cebu-city"
+      "active_evidence": "Instagram posts dated 24 Sep to 30 Oct 2026; studio covered in a Keeta guide to Cebu's running community, 30 Jul 2026",
+      "source_url": "https://www.instagram.com/guildofrunners/"
     }
   ],
   "route_guides": [
@@ -94,6 +110,6 @@
       "url": "https://greatruns.com/location/cebu-philippines/"
     }
   ],
-  "last_updated": "2026-09-30",
+  "last_updated": "2026-11-02",
   "status": "active"
 }

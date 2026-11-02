@@ -1,0 +1,124 @@
+{
+  "city_id": "bali",
+  "slug": "bali",
+  "city": "Bali",
+  "country": "Indonesia",
+  "area_note": "South Bali (Sanur, Renon in Denpasar, Canggu, Seseh and Uluwatu) and Ubud",
+  "intro": "Bali's group runs are spread across the island rather than centred on one park. In Denpasar and Sanur, the local IndoRunners chapter meets at the Bajra Sandhi monument in Renon and at Mertasari in Sanur. On the west coast, most Canggu and Seseh run clubs start from cafés and gyms, and Ubud has its own club that runs from coffee roasteries. Runs start early, mostly between 6am and 7am, to beat the heat. Clubs post their schedules and start points on Instagram, and several of them take no sign-ups: runners just turn up.",
+  "race_cities": [
+    "Denpasar",
+    "Gianyar",
+    "Badung",
+    "Ubud"
+  ],
+  "clubs": [
+    {
+      "name": "IndoRunners Bali",
+      "kind": "club",
+      "focus": "road",
+      "url": "https://www.instagram.com/indorunnersbali/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Wednesdays 6am (WorkOut Wednesday)",
+          "where": "Bajra Sandhi monument, Renon"
+        },
+        {
+          "when": "Barong Morning Run, 6am",
+          "where": "Mertasari, Sanur"
+        }
+      ],
+      "who": "All levels",
+      "description": "The Bali chapter of the national Indo Runners community, running in Bali since 2012. Its Linktree links to the two meeting points and to a short guide on how to join.",
+      "active_evidence": "Instagram posts, 13–30 Oct 2026",
+      "source_url": "https://www.instagram.com/indorunnersbali/"
+    },
+    {
+      "name": "Rise Run Bali",
+      "kind": "crew",
+      "focus": "social",
+      "url": "https://www.instagram.com/riserunbali/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Thursdays"
+        },
+        {
+          "when": "Sundays (Ulu Sundays)",
+          "where": "Uluwatu; the start point rotates"
+        }
+      ],
+      "cost": "Free",
+      "who": "All paces; no sign-up needed",
+      "description": "A large community run club whose Instagram account has about 45,000 followers. Bali Buddies listed Canggu start points including The Goat Father, The Body Factory, The Dog House and Just Oats, and Uluwatu start points including Local Expats, Kanu and Ulu Active. Check the club's Instagram highlights for the current week before going; some days on its website are marked on hold.",
+      "active_evidence": "Instagram posts, 26–31 Oct 2026",
+      "source_url": "https://www.instagram.com/riserunbali/"
+    },
+    {
+      "name": "Flowerboy Run Club",
+      "kind": "crew",
+      "focus": "road",
+      "url": "https://www.instagram.com/flowerboy.studio/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Wednesdays and Saturdays 6am (5 km or 10 km)",
+          "where": "Flowerboy café, Seseh"
+        }
+      ],
+      "description": "A run club based at a coffee and flower shop in Seseh, near Canggu, with a choice of 5 km or 10 km routes.",
+      "active_evidence": "Instagram posts, 8–30 Oct 2026",
+      "source_url": "https://www.instagram.com/flowerboy.studio/"
+    },
+    {
+      "name": "FAR Ubud Run Club",
+      "kind": "crew",
+      "focus": "mixed",
+      "url": "https://www.instagram.com/far.ubud/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Wednesdays and Fridays 6:15am",
+          "where": "Ubud Coffee Roastery, Sayan"
+        },
+        {
+          "when": "Sundays",
+          "where": "Ubud Coffee Roastery, Downtown"
+        }
+      ],
+      "who": "All welcome; no registration",
+      "description": "Ubud's run club, which runs from Wednesday to Sunday and posts the week's schedule in a pinned Instagram post. Routes range from short rice-field loops to longer runs, and the club is linked to the Ubud Running Festival.",
+      "active_evidence": "Instagram posts, 28 Oct to 1 Nov 2026",
+      "source_url": "https://www.instagram.com/far.ubud/"
+    },
+    {
+      "name": "Continuum Athletics",
+      "kind": "club",
+      "focus": "road",
+      "url": "https://www.instagram.com/continuum.athletics/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Tuesdays 6:30am (speed session)"
+        },
+        {
+          "when": "Thursdays 6:30am (threshold session)"
+        }
+      ],
+      "who": "Runners who want structured training",
+      "description": "A Canggu-based performance training group that holds weekly speed and threshold sessions. Start points are posted on Instagram.",
+      "active_evidence": "Instagram post, 21 Oct 2026",
+      "source_url": "https://www.instagram.com/continuum.athletics/"
+    }
+  ],
+  "coaches": [],
+  "route_guides": [
+    {
+      "publisher": "Great Runs",
+      "label": "Best routes and places to run in Bali",
+      "url": "https://greatruns.com/location/bali-indonesia/"
+    }
+  ],
+  "last_updated": "2026-11-02",
+  "status": "active"
+}

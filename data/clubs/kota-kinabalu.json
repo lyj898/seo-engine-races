@@ -18,22 +18,22 @@
       "meets": [],
       "who": "Runners of all levels",
       "description": "A community running club founded in 2008 that organises the AIMS-sanctioned Borneo International Marathon every May and the Borneo Half Marathon, which it co-organises with Kota Kinabalu City Hall. It also holds fun runs, charity events and fitness initiatives around the city, including events at Taman Awam Teluk Likas.",
-      "active_evidence": "Organised the Borneo International Marathon, 7-10 May 2026; registration for the Borneo Half Marathon (31 Jan 2027) opened 15 Aug 2026",
-      "source_url": "https://borneohalfmarathon.com/about-us/"
+      "active_evidence": "The club's marathon site lists the Borneo International Marathon it organises for 7-10 May 2026",
+      "source_url": "https://borneomarathon.com/sponsors/about-kinabalu"
     },
     {
       "name": "KSRun Athletic Club (Kinabalu Sabah Run)",
       "kind": "club",
       "focus": "road",
-      "url": "https://www.facebook.com/KINABALUSABAHRUN/",
-      "url_kind": "facebook",
+      "url": "https://ksrun.my/",
+      "url_kind": "website",
       "meets": [],
-      "description": "A Kota Kinabalu athletics club that organises community road events in the city, such as the Harmony Run, the North Borneo Race through KK's heritage district, and the Songkran Sunset Splash Run.",
-      "active_evidence": "New Straits Times report on its Songkran Sunset Splash Run, Apr 2026",
-      "source_url": "https://www.nst.com.my/news/regional/2026/04/1421985/songkran-run-organiser-faces-action-over-water-wastage-safety"
+      "description": "A Kota Kinabalu athletics club that organises community road events in the city, including the Songkran Sunset Splash Run in April, the Ohana Run at the Likas sports complex in August and the North Borneo United Harmony Run, a 5km and 10km route past places of worship around the city, in November. It also posts on Facebook as Kinabalu Sabah Run.",
+      "active_evidence": "Ohana Run held at Likas Complex, 2 Aug 2026; Harmony Run listed for 22 Nov 2026 at Padang Merdeka",
+      "source_url": "https://ksrun.my/world"
     }
   ],
   "coaches": [],
-  "last_updated": "2026-09-30",
+  "last_updated": "2026-11-02",
   "status": "draft"
 }

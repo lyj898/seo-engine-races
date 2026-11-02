@@ -1,0 +1,189 @@
+{
+  "city_id": "chiang-mai",
+  "slug": "chiang-mai",
+  "city": "Chiang Mai",
+  "country": "Thailand",
+  "area_note": "Chiang Mai city, with run crews meeting at cafés and Chiang Mai University, trail sessions on Doi Suthep, and hash runs at sites outside the city",
+  "intro": "Chiang Mai's group runs fall into two groups. Newer run crews post each session on Instagram, often only a few days ahead: easy city runs of 5–6 km from cafés such as TANN Nimman, track sessions at the Chiang Mai University main stadium, and trail training on Doi Suthep, including the Pilgrims trail below the temple. Most of their morning runs start between 6:30 and 7am, and some special runs take a limited number of runners chosen from an online form. The city's Hash House Harrier chapters run on different days of the week at changing sites outside the city, with a shared songthaew leaving from near the McDonald's at Tha Phae Gate in the mid-afternoon. An unofficial guide website lists each hash run's date, run number and directions.",
+  "race_cities": [
+    "Chiang Mai"
+  ],
+  "clubs": [
+    {
+      "name": "Faburuns",
+      "kind": "crew",
+      "focus": "mixed",
+      "url": "https://www.instagram.com/faburunsclub/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "City runs posted weekly on Instagram; recent ones on Saturdays at 6:45am",
+          "where": "TANN Nimman café"
+        },
+        {
+          "when": "'Trail Cult' trail sessions on dates announced to members"
+        }
+      ],
+      "cost": "City runs free, no sign-up needed",
+      "who": "All paces; walk-ins welcome on city runs",
+      "description": "A Chiang Mai run club that marked its second anniversary with a 5 km community run in August 2026. Its 'Crew Muang' city runs cover about 6 km and need no registration. Its 'Trail Cult' sessions are longer, harder trail outings for which runners submit a form through the club's Instagram broadcast channel and receive the meeting point and briefing by message.",
+      "active_evidence": "Instagram post for a 6 km 'Crew Muang' city run on 5 Sep 2026; 'Trail Cult 003' session posted 29 Sep 2026",
+      "source_url": "https://www.instagram.com/faburunsclub/p/Dc2wKsuRoAX/"
+    },
+    {
+      "name": "Dude Run Club",
+      "kind": "crew",
+      "focus": "mixed",
+      "url": "https://www.instagram.com/duderunclub/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Track sessions on dates posted on Instagram (e.g. Wednesday 4 Nov 2026, 6:30–8:15am)",
+          "where": "Chiang Mai University (CMU) main stadium"
+        },
+        {
+          "when": "Social 5 km runs on dates posted on Instagram"
+        }
+      ],
+      "who": "All levels welcome on track sessions; some partner runs limited to selected applicants",
+      "description": "A Chiang Mai-based run club that holds coached-style track workouts, such as 10 × 400 m repeats before a race, and social 5 km runs with local partners, some capped at 50 runners with places allocated through an online form. It ran a joint Halloween run with EZRUN Club on 31 October 2026 and posts group recaps from regional races.",
+      "active_evidence": "Instagram post (1 Nov 2026) announcing a track session at the CMU main stadium on 4 Nov 2026",
+      "source_url": "https://www.instagram.com/duderunclub/p/DfM6ZUNH7FS/"
+    },
+    {
+      "name": "Doi Trail Research",
+      "kind": "crew",
+      "focus": "trail",
+      "url": "https://www.instagram.com/doitrailresearch/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Midweek easy 5 km run, 7am (dates posted on Instagram; rain update at 6am)",
+          "where": "TANN Nimman café, running through a nearby park"
+        },
+        {
+          "when": "Trail training runs, dates posted on Instagram",
+          "where": "Doi Suthep trails"
+        }
+      ],
+      "cost": "Midweek run free, no registration",
+      "who": "Road and trail runners; midweek runs are easy-paced",
+      "description": "A Chiang Mai trail-running group that trains on Doi Suthep, for example tempo runs up the Pilgrims trail and down the Galae trail, and holds an easy midweek 5 km road run with coffee afterwards. In September and October 2026 it ran a three-week climbing 'Elevation Challenge', and it publishes race recaps in English and Thai on its website.",
+      "active_evidence": "Instagram post for an easy 5 km midweek run at 7am on 28 Oct 2026",
+      "source_url": "https://www.instagram.com/doitrailresearch/p/De_eY8RB4Fu/"
+    },
+    {
+      "name": "EZRUN Club",
+      "kind": "crew",
+      "focus": "social",
+      "url": "https://www.instagram.com/ezrun.cm/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Easy runs on dates posted on Instagram, recently on Saturday mornings"
+        }
+      ],
+      "who": "Runners who want an easy pace; the club runs at about 7–8 min/km and says no one is left behind",
+      "description": "A Chiang Mai social run club that keeps to a conversational pace of around 7–8 min/km. Recent runs were an easy 5.5 km on a Saturday morning in October 2026 and a 5 km Halloween evening run with Dude Run Club from Early Bird CNX to Ang Kaew reservoir on 31 October 2026.",
+      "active_evidence": "Instagram post (26 Oct 2026) for a 5 km run on 31 Oct 2026",
+      "source_url": "https://www.instagram.com/ezrun.cm/p/De88-mLmBal/"
+    },
+    {
+      "name": "Chiang Mai Saturday Hash House Harriers (CSH3)",
+      "kind": "hash",
+      "focus": "social",
+      "url": "http://www.chiangmaihhh.com/",
+      "url_kind": "website",
+      "meets": [
+        {
+          "when": "Saturdays, run 4:30pm; bus pickup 3:20pm",
+          "where": "Bus from in front of McDonald's at Tha Phae Gate to a changing run site"
+        }
+      ],
+      "cost": "Run and bus fee between 150 and 300 baht",
+      "who": "Mixed hash",
+      "description": "A weekly Saturday-afternoon hash run followed by the traditional circle. Run dates, run numbers and hares are listed on an unofficial guide website to the Chiang Mai hashes, which also points to the Chiang Mai Hashing Facebook page.",
+      "active_evidence": "Run #1838 listed for 7 Nov 2026, with weekly runs listed to Feb 2027",
+      "source_url": "http://www.chiangmaihhh.com/"
+    },
+    {
+      "name": "Chiang Mai Happy Hash House Harriers (CH4)",
+      "kind": "hash",
+      "focus": "social",
+      "url": "http://www.chiangmaihhh.com/",
+      "url_kind": "website",
+      "meets": [
+        {
+          "when": "Thursdays, run 4:30pm; bus pickup 3:20pm",
+          "where": "Bus from in front of McDonald's at Tha Phae Gate to a changing run site"
+        }
+      ],
+      "cost": "Run and bus fee between 150 and 300 baht",
+      "description": "A weekly Thursday-afternoon hash. It sometimes holds out-of-town runs, such as a Hua Hin outstation listed for late November 2026.",
+      "active_evidence": "Run #1131 listed for 5 Nov 2026, with weekly runs listed through Dec 2026",
+      "source_url": "http://www.chiangmaihhh.com/"
+    },
+    {
+      "name": "Chiang Mai Hash House Harriers (CH3)",
+      "kind": "hash",
+      "focus": "social",
+      "url": "http://www.chiangmaihhh.com/",
+      "url_kind": "website",
+      "meets": [
+        {
+          "when": "Mondays, afternoon (run time and bus pickup given with each run listing)",
+          "where": "Bus from in front of McDonald's at Tha Phae Gate to a changing run site"
+        }
+      ],
+      "cost": "Run and bus fee between 150 and 300 baht",
+      "who": "Men only",
+      "description": "A men-only Monday hash. Each run listing gives the site, GPS coordinates and driving directions, for example run #1663 at Nam Bo Luang in San Pa Tong district, south-west of the city.",
+      "active_evidence": "Run #1663 listed for 2 Nov 2026 at Nam Bo Luang, San Pa Tong",
+      "source_url": "http://www.chiangmaihhh.com/"
+    },
+    {
+      "name": "Chiang Mai Gentlemen's Hash House Harriers (CGH3)",
+      "kind": "hash",
+      "focus": "social",
+      "url": "http://www.chiangmaihhh.com/",
+      "url_kind": "website",
+      "meets": [
+        {
+          "when": "Mondays, run 4:30pm; songthaew leaves 3:20pm (dates listed on the website)",
+          "where": "Songthaew from Loi Kroh Soi 3, outside the Monta Hotel"
+        }
+      ],
+      "cost": "No run fee; bus cost shared between passengers (normally around 100 baht)",
+      "who": "Men only",
+      "description": "A men-only Monday hash where runners bring their own drinks and chairs. There is no run fee, and the shared songthaew to the run site costs around 100 baht each.",
+      "active_evidence": "Run #270 listed for 2 Nov 2026, with runs listed to Feb 2027",
+      "source_url": "http://www.chiangmaihhh.com/"
+    },
+    {
+      "name": "Chiang Mai Bunny Hash House Harriers (CBH3)",
+      "kind": "hash",
+      "focus": "social",
+      "url": "http://www.chiangmaihhh.com/",
+      "url_kind": "website",
+      "meets": [
+        {
+          "when": "Last Sunday of the month"
+        }
+      ],
+      "who": "A women's hash; visitors welcome",
+      "description": "A monthly ladies' hash founded in 2001, with food, a raffle and a circle after the run. The guide website says visitors, men included, are welcome. Chiang Mai also has a women-only Diamond Hash on the second Tuesday of the month and a monthly Full Moon hash.",
+      "active_evidence": "Run #288 listed for 22 Nov 2026",
+      "source_url": "http://www.chiangmaihhh.com/"
+    }
+  ],
+  "coaches": [],
+  "route_guides": [
+    {
+      "publisher": "Great Runs",
+      "label": "Best routes and places to run in Chiang Mai",
+      "url": "https://greatruns.com/location/chiang-mai-thailand/"
+    }
+  ],
+  "last_updated": "2026-11-02",
+  "status": "active"
+}

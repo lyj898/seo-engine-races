@@ -1,0 +1,84 @@
+{
+  "city_id": "kuching",
+  "slug": "kuching",
+  "city": "Kuching",
+  "country": "Malaysia",
+  "area_note": "Kuching city, Sarawak, and the Kota Padawan area to its south",
+  "intro": "Kuching's longest-running groups are its hash clubs, which run trails through the jungle and forest around the city at weekends: Kuching City Hash Club on Saturdays at 4:30pm and Kota Padawan Hash on Sundays. Kuching City Hash Club also leads the organising committee for Interhash 2028, the worldwide hash gathering, which Kuching hosts on 14-16 July 2028. On the roads, the City Jogger's Club organises the Kuching Half Marathon Heritage Run, whose 2026 edition on 26 July had more than 4,200 confirmed runners from 20 countries. Kuching Happy Runners Club and NRG Athletics Club, founded in 2024, post their runs and race trips on Facebook and Instagram.",
+  "race_cities": [
+    "Kuching"
+  ],
+  "clubs": [
+    {
+      "name": "Kuching City Hash Club",
+      "kind": "hash",
+      "focus": "trail",
+      "url": "https://www.flickr.com/people/kchc/",
+      "url_kind": "other",
+      "meets": [
+        {
+          "when": "Saturdays 4:30pm",
+          "where": "Jungle and forest run sites near Kuching; the site is announced in advance"
+        }
+      ],
+      "who": "Mixed (men and women); about 200 members",
+      "description": "A mixed hash club that runs through the jungle and forest near the city every Saturday and usually has dinner together afterwards. It leads the organising committee for Interhash 2028, the worldwide hash gathering, which Kuching hosts on 14-16 July 2028.",
+      "active_evidence": "Leads the organising committee for Interhash 2028 in Kuching (The Star, 25 Jun 2026)",
+      "source_url": "https://www.thestar.com.my/news/nation/2026/06/25/up-to-4000-runners-to-converge-on-kuching-for-interhash-2028"
+    },
+    {
+      "name": "Kota Padawan Hash House Harriers & Harriettes",
+      "kind": "hash",
+      "focus": "trail",
+      "url": "https://www.facebook.com/kph.kuching/",
+      "url_kind": "facebook",
+      "meets": [
+        {
+          "when": "Sundays; the run site is posted on Facebook"
+        }
+      ],
+      "cost": "RM12 for members, RM20 for non-members",
+      "who": "Open to everyone aged 18 or over",
+      "description": "A mixed hash (men and women) established in 2002 and based in Kota Padawan, south of Kuching city.",
+      "active_evidence": "Facebook post for run 1147 on 1 Nov 2026, posted late Oct 2026",
+      "source_url": "https://www.facebook.com/kph.kuching/"
+    },
+    {
+      "name": "City Jogger's Club (CJC)",
+      "kind": "club",
+      "focus": "road",
+      "url": "https://www.jomrun.com/event/Kuching-Half-Marathon-Heritage-Run-2027",
+      "url_kind": "other",
+      "meets": [],
+      "description": "A Kuching running club that organises the annual Kuching Half Marathon Heritage Run, a 21.1km, 10km and 5km road race starting in the city centre on a route past heritage landmarks and the riverside. The 2027 edition is on 18 April 2027 at Dewan Masyarakat, Jalan Padungan, earlier in the year than the late-July date of previous editions.",
+      "active_evidence": "Organised the Kuching Half Marathon Heritage Run, 26 Jul 2026, with more than 4,200 runners confirmed (DayakDaily, 10 Jul 2026)",
+      "source_url": "https://dayakdaily.com/4200-runners-from-20-countries-confirmed-for-kuching-half-marathon-heritage-run-2026-on-july-26/"
+    },
+    {
+      "name": "Kuching Happy Runners Club (KHRC)",
+      "kind": "club",
+      "focus": "social",
+      "url": "https://www.facebook.com/p/Kuching-Happy-Runners-Club-100057107543573/",
+      "url_kind": "facebook",
+      "meets": [],
+      "description": "A Kuching running club with about 11,000 Facebook followers. Its Instagram account (@kuchinghappyrunners) describes its activities as night runs, events and community, and both pages share upcoming Sarawak races.",
+      "active_evidence": "Facebook post on the Serian Eco Run 2026 race-pack collection, 1 Nov 2026; Instagram posts on the SKS Serian Fun Run (22 Nov 2026)",
+      "source_url": "https://www.facebook.com/p/Kuching-Happy-Runners-Club-100057107543573/"
+    },
+    {
+      "name": "NRG Athletics Club",
+      "kind": "crew",
+      "focus": "road",
+      "url": "https://www.instagram.com/nrgathleticsclub/",
+      "url_kind": "instagram",
+      "meets": [],
+      "description": "A running group founded in 2024 by Kuching runners. Its Instagram covers training, trail and hike outings and marathons, and members travel to races elsewhere, such as the Standard Chartered KL Marathon and Jakarta Running Fest.",
+      "active_evidence": "Instagram posts on members at the Standard Chartered KL Marathon (3-4 Oct 2026) and Jakarta Running Fest 2026",
+      "source_url": "https://www.instagram.com/nrgathleticsclub/"
+    }
+  ],
+  "coaches": [],
+  "route_guides": [],
+  "last_updated": "2026-11-02",
+  "status": "active"
+}

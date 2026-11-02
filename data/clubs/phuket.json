@@ -1,0 +1,111 @@
+{
+  "city_id": "phuket",
+  "slug": "phuket",
+  "city": "Phuket",
+  "country": "Thailand",
+  "area_note": "Phuket island, with hash runs at changing sites from Kathu and Kamala to Chalong and Rawai",
+  "intro": "The Phuket groups with the most complete public run schedules are its Hash House Harrier chapters, which share one website and a combined hareline listing each run's date, start time and site. The main Phuket Hash runs every Saturday afternoon, and several smaller hashes run once a month: a men's hash and a women's hash on Wednesdays, a family picnic hash on a Sunday and a mixed hash in Kamala on the last Tuesday. Runs start between 3pm and 4pm at changing sites around the island, and many runs further ahead show the site as 'to be confirmed'. Several of the monthly hashes run point-to-point and include a bus in the fee, so runners are asked to take the bus rather than drive. The same website also lists a monthly mountain-bike hash.",
+  "race_cities": [
+    "Phuket"
+  ],
+  "clubs": [
+    {
+      "name": "Phuket Hash House Harriers",
+      "kind": "hash",
+      "focus": "social",
+      "url": "https://www.phuket-hhh.com/",
+      "url_kind": "website",
+      "meets": [
+        {
+          "when": "Saturdays, 3:30pm from November to mid-February and 4pm from late February (times on the hareline)",
+          "where": "Changing sites around the island (directions on the hareline)"
+        }
+      ],
+      "cost": "100 baht for first-timers and non-members, 80 baht for members, children 20 baht; food and drinks extra",
+      "who": "Anyone; walkers welcome, children allowed, dogs allowed if under control",
+      "description": "The island's main weekly hash. The run is about 6–7 km and the walk 3–4 km, both taking 45 minutes to an hour, followed by the circle. The FAQ says runners do not need to be very fit and non-drinkers are welcome.",
+      "active_evidence": "Hareline lists run #2091 on 7 Nov 2026 (Kathu, Red Mountain Golf area) and weekly runs to May 2027",
+      "source_url": "https://www.phuket-hhh.com/hareline.php"
+    },
+    {
+      "name": "Phuket Tinmen Hash House Harriers",
+      "kind": "hash",
+      "focus": "social",
+      "url": "https://www.phuket-hhh.com/tinmen-hhh.php",
+      "url_kind": "website",
+      "meets": [
+        {
+          "when": "First Wednesday of the month, 3pm or 4pm (time on the hareline)"
+        }
+      ],
+      "cost": "600 baht, including bus, snacks and a meal at a local restaurant",
+      "who": "Men only",
+      "description": "A monthly men's hash with an extra run near its anniversary on 21 May. Runs go from point A to B and then B to C, so participants take the bus; walkers usually do the second leg.",
+      "active_evidence": "Hareline lists run #458 on 4 Nov 2026 at Manik",
+      "source_url": "https://www.phuket-hhh.com/hareline.php"
+    },
+    {
+      "name": "Iron Pussy Hash House Harriers Phuket",
+      "kind": "hash",
+      "focus": "social",
+      "url": "https://www.phuket-hhh.com/ironpussy-hhh.php",
+      "url_kind": "website",
+      "meets": [
+        {
+          "when": "Second Wednesday of the month, 4pm",
+          "where": "Bus pickups at Black Cat's Bar in Kamala, the Expat Hotel in Patong and the Little Expat in Kathu (times on the hareline)"
+        }
+      ],
+      "cost": "500 baht, including bus and food",
+      "who": "Women only, Thai and expat; no men or children",
+      "description": "A monthly women-only hash. Runs are point-to-point, so participants take the bus, which normally starts its return trip at 9pm.",
+      "active_evidence": "Hareline lists run #270 on 11 Nov 2026",
+      "source_url": "https://www.phuket-hhh.com/hareline.php"
+    },
+    {
+      "name": "Phuket Pooying Picnic Hash",
+      "kind": "hash",
+      "focus": "social",
+      "url": "https://www.phuket-hhh.com/pooying-hhh.php",
+      "url_kind": "website",
+      "meets": [
+        {
+          "when": "Middle Sunday of the month; registration 2:30pm, run 3pm, buffet 4pm"
+        }
+      ],
+      "cost": "300 baht with food, 160 baht for the bring-your-own BBQ option, children 14 and under 20 baht",
+      "who": "Families; children and dogs welcome",
+      "description": "A monthly family hash with a buffet or barbecue after the run, then the circle. There is no bus, so participants make their own way to the site.",
+      "active_evidence": "Hareline lists run #421 on 15 Nov 2026 and run #422 on 13 Dec 2026 in the Rawai area",
+      "source_url": "https://www.phuket-hhh.com/hareline.php"
+    },
+    {
+      "name": "Kamala Koma Hash House Harriers",
+      "kind": "hash",
+      "focus": "social",
+      "url": "https://www.phuket-hhh.com/kamalakoma-hhh.php",
+      "url_kind": "website",
+      "meets": [
+        {
+          "when": "Last Tuesday of the month, 4pm",
+          "where": "Registration normally at the Aussie Pub in Kamala, then a bus to an undisclosed start"
+        }
+      ],
+      "cost": "700 baht, including bus, food, drinks and a chair at the circle",
+      "who": "Mixed, adults",
+      "description": "A monthly mixed hash based in Kamala. Runs are point-to-point from a start that is usually kept secret, so participants are asked to take the bus rather than drive.",
+      "active_evidence": "Hareline lists run #283 on 24 Nov 2026",
+      "source_url": "https://www.phuket-hhh.com/hareline.php"
+    }
+  ],
+  "coaches": [],
+  "route_guides": [
+    {
+      "publisher": "Great Runs",
+      "label": "Best routes and places to run in Phuket",
+      "url": "https://greatruns.com/location/phuket-thailand/"
+    }
+  ],
+  "last_updated": "2026-11-02",
+  "status": "active"
+}

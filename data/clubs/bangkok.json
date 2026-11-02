@@ -17,19 +17,15 @@
       "url_kind": "website",
       "meets": [
         {
-          "when": "Fridays around 8pm",
-          "where": "Benjakitti Park (meeting point posted weekly on Instagram)"
-        },
-        {
-          "when": "Sunday mornings",
-          "where": "Benjakitti Park"
+          "when": "Sundays 7:15am",
+          "where": "Benjakitti Park, Gate 9"
         }
       ],
       "cost": "Free",
       "who": "All levels; Thai locals, expats and visitors",
-      "description": "A social run club whose motto is 'we run a little and socialise a lot'. Runs are short, sometimes 18 to 30 minutes. Time Out Bangkok reported around 400 runners on Sunday mornings and over 1,000 on Friday nights. The club posts each week's meeting point on Instagram (@sabairunclub.bkk).",
-      "active_evidence": "Time Out Bangkok feature, 23 Feb 2026; Maitria Hotels guide, 6 Aug 2026",
-      "source_url": "https://www.timeout.com/bangkok/sports-and-fitness/bangkoks-top-run-clubs"
+      "description": "A social run club whose motto is 'we run a little and socialise a lot'. The Sunday run is short and is followed by coffee. Time Out Bangkok reported around 400 runners on Sunday mornings in February 2026. The club also holds themed and brand runs, which it announces on Instagram (@sabairunclub.bkk).",
+      "active_evidence": "Instagram posts dated 13–31 Oct 2026; bio and website schedule list every Sunday at 7:15am",
+      "source_url": "https://www.instagram.com/sabairunclub.bkk/"
     },
     {
       "name": "Bangkok Runners",
@@ -44,8 +40,8 @@
         }
       ],
       "who": "Mixed abilities and nationalities; newcomers asked to try 2–3 runs before signing up",
-      "description": "A Meetup group that has run together since June 2012. The weekly 'Easy Peasy' run covers 5–7 km at 6.5–8 min/km and sometimes crosses the GreenMile walkway to Lumpini Park. The run is postponed in heavy rain, run as a walk when PM2.5 is 100–120, and cancelled when PM2.5 is above 120.",
-      "active_evidence": "Meetup events titled '2026 Easy Peasy Benjakitti / Lumpini Park Run', scheduled weekly through Oct 2026",
+      "description": "A Meetup group that has run together since June 2012. The weekly 'Easy Peasy' run covers about 5–7 km at 6.5–8 min/km and sometimes crosses the walkway to Lumpini Park. The run may be postponed in morning rain, is run as a walk when PM2.5 is 100–120, and is cancelled when PM2.5 is above 120.",
+      "active_evidence": "Meetup run held 27 Oct 2026; weekly runs scheduled to 24 Nov 2026",
       "source_url": "https://www.meetup.com/bangkok-runners/"
     },
     {
@@ -62,8 +58,8 @@
       ],
       "cost": "Free",
       "who": "All levels, locals and visitors",
-      "description": "Evening runs in Lumpini Park where most people do 2–3 laps at their own pace. The group sometimes has dinner together afterwards. Runs are cancelled if it rains. Free lockers (bring your own padlock) and showers are in the nearby restroom.",
-      "active_evidence": "Meetup events scheduled for 1, 6 and 8 Oct 2026",
+      "description": "Evening runs in Lumpini Park where most people do 2–3 laps at their own pace after the 6pm national anthem. The group sometimes has dinner together afterwards. Runs are cancelled if it rains. Free lockers (bring your own padlock) and showers are in the nearby restroom.",
+      "active_evidence": "Meetup runs held 27 and 29 Oct 2026; runs scheduled through Nov 2026",
       "source_url": "https://www.meetup.com/lumpini-running-club/"
     },
     {
@@ -74,15 +70,15 @@
       "url_kind": "instagram",
       "meets": [
         {
-          "when": "Most mornings around 6:30am",
-          "where": "Benjakitti Park, Gate 3, by the stretching zone"
+          "when": "Weekday mornings 6:30am ('Ugly Week Days')",
+          "where": "Benjakitti Park, Gate 3"
         }
       ],
       "cost": "Free",
       "who": "All levels; no pace or PB questions",
-      "description": "A punk-styled crew that has no coach, no membership and no sign-up. Time Out Bangkok described it as more about style and fun than lap times. The crew announces occasional events on Instagram.",
-      "active_evidence": "Time Out Bangkok feature, 23 Feb 2026",
-      "source_url": "https://www.timeout.com/bangkok/sports-and-fitness/bangkoks-top-run-clubs"
+      "description": "A punk-styled Bangkok crew with no coach and no membership. Time Out Bangkok described it as more about style and fun than lap times. Besides the weekday morning runs, it posts weekend sessions, trail outings and brand runs on Instagram.",
+      "active_evidence": "Instagram post for an 'Ugly Week Days' 6:30am run, 20 Oct 2026; brand run with PUMA, 31 Oct 2026",
+      "source_url": "https://www.instagram.com/ugly_running_training_club/p/DeuXBWFyMhg/"
     },
     {
       "name": "SarDine Run Club",
@@ -98,9 +94,9 @@
       ],
       "cost": "Free",
       "who": "Beginners to experienced runners; no sign-up",
-      "description": "A Bangkok-born crew whose Saturday runs move between parks, plus pop-up city events that are sometimes run with venues and other clubs. The club also has a Facebook page (facebook.com/sardinerun.th).",
-      "active_evidence": "Time Out Bangkok feature, 23 Feb 2026; Maitria Hotels guide, 6 Aug 2026",
-      "source_url": "https://www.timeout.com/bangkok/sports-and-fitness/bangkoks-top-run-clubs"
+      "description": "A Bangkok-born crew whose Saturday runs move between parks, plus pop-up city runs held with cafés, brands and other clubs; some of these take sign-ups through a link in the Instagram bio. The club also has a Facebook page (facebook.com/sardinerun.th).",
+      "active_evidence": "Instagram posts dated 28–30 Oct 2026, including a 'Run & Smile' run on 8 Nov 2026 at Matcha People, Erawan",
+      "source_url": "https://www.instagram.com/sardinerunclub/p/DfJgEjKn-tz/"
     },
     {
       "name": "Cruise Control Run Club",
@@ -110,14 +106,15 @@
       "url_kind": "instagram",
       "meets": [
         {
-          "when": "Weekly social run (day and time posted on Instagram)",
-          "where": "Benjakitti Park"
+          "when": "Saturday long-run sessions, 6–8am (dates in the monthly schedule post on Instagram)",
+          "where": "CCRC meeting point at Benjakitti Park (map link in the Instagram bio)"
         }
       ],
+      "cost": "Open long-run sessions need no registration; brand and city runs are limited to confirmed participants",
       "who": "First-time runners to marathoners and ultra runners",
-      "description": "A run club built around streetwear and sneaker culture that runs social, city and long runs. The founders say they are not coaches or experts. The club also has a Strava club (strava.com/clubs/cruisecontrolrunclub).",
-      "active_evidence": "Time Out Bangkok feature, 23 Feb 2026; Maitria Hotels guide, 6 Aug 2026",
-      "source_url": "https://www.timeout.com/bangkok/sports-and-fitness/bangkoks-top-run-clubs"
+      "description": "A run club built around streetwear and sneaker culture. It posts a monthly schedule that mixes open Saturday long runs with brand collaborations, city runs and crew race days such as the Amazing Thailand Marathon. The founders say they are not coaches or experts. The club also has a Strava club (strava.com/clubs/cruisecontrolrunclub).",
+      "active_evidence": "Instagram schedule post for November 2026 runs, 29 Oct 2026",
+      "source_url": "https://www.instagram.com/cruisecontrolrunclub/p/DfG4hxgTGyE/"
     },
     {
       "name": "Meep Meep Run Club (MMRC)",
@@ -127,15 +124,15 @@
       "url_kind": "instagram",
       "meets": [
         {
-          "when": "Saturday mornings around 6:30–7am (check Instagram)",
+          "when": "Saturday mornings ('Saturday Ritual'; time posted on Instagram)",
           "where": "theCOMMONS or Bo BKK, rotating"
         }
       ],
       "cost": "Free for most runs; some special city routes need pre-booking",
       "who": "All fitness levels; first-timers welcome",
-      "description": "An inclusive crew that runs morning sessions with theCOMMONS, starting with a short briefing, then coffee and socialising. It has also held Pride Month runs. Time Out suggests arriving 15 minutes early for the briefing.",
-      "active_evidence": "Time Out Bangkok feature, 23 Feb 2026",
-      "source_url": "https://www.timeout.com/bangkok/sports-and-fitness/bangkoks-top-run-clubs"
+      "description": "An inclusive crew whose Saturday morning runs start with a short briefing and end with coffee and socialising. It runs sessions with theCOMMONS and with running brands, and has held Pride Month runs. Time Out suggests arriving 15 minutes early for the briefing.",
+      "active_evidence": "Instagram posts dated 6 Oct–1 Nov 2026, including a 29 Oct post on its 'Saturday Ritual' run kit",
+      "source_url": "https://www.instagram.com/meepmeeprunclub/"
     },
     {
       "name": "Brew Run Club",
@@ -146,9 +143,9 @@
       "meets": [],
       "cost": "Regular park runs free; some themed and brand events ticketed (e.g. via Ticketmelon)",
       "who": "All levels",
-      "description": "The running club of Brew Yoga Thailand, with the motto 'Sip, Stride and Socialise'. Runs are followed by coffee, tea, cocktails or smoothies at partner venues. Its themed events have included vertical building runs.",
-      "active_evidence": "Time Out Bangkok feature, 23 Feb 2026; Maitria Hotels guide, 6 Aug 2026",
-      "source_url": "https://www.maitriahotels.com/blogs/bangkok-run-clubs-for-expats"
+      "description": "The running club of Brew Yoga Thailand, with the motto 'Sip, Stride and Socialise'. Runs are followed by coffee, tea, cocktails or smoothies at partner venues, and it also holds hybrid run-and-strength sessions in parks. Its themed events have included vertical building runs. Dates and venues are posted on Instagram.",
+      "active_evidence": "Instagram post on a hybrid training session at Prem Prachawanarak Park, 28 Oct 2026",
+      "source_url": "https://www.instagram.com/brewrunclub_/p/DfB7sqKkvNS/"
     },
     {
       "name": "CNX-BKK Brotherhood",
@@ -158,9 +155,9 @@
       "url_kind": "instagram",
       "meets": [],
       "who": "Open to all; started by Chiang Mai natives living in Bangkok",
-      "description": "A self-described 'Daydrinker & Runner Club' that has run 5K, 10K and 15K challenges with theCOMMONS. To find the next run, message the club on Instagram.",
-      "active_evidence": "Time Out Bangkok feature, 23 Feb 2026; Maitria Hotels guide, 6 Aug 2026",
-      "source_url": "https://www.timeout.com/bangkok/sports-and-fitness/bangkoks-top-run-clubs"
+      "description": "A self-described 'Daydrinker & Runner Club' that has run 5K, 10K and 15K challenges with theCOMMONS and track challenges with other clubs. To find the next run, message the club on Instagram.",
+      "active_evidence": "Instagram posts dated 26 Oct–1 Nov 2026, including a track challenge with Moston, 31 Oct 2026",
+      "source_url": "https://www.instagram.com/cnx_bkk.brotherhood/"
     },
     {
       "name": "Run Now Fab Later Crew (RNFL)",
@@ -170,8 +167,8 @@
       "url_kind": "instagram",
       "meets": [],
       "description": "A style-led crew that holds regular runs, trail camps and brand collaborations, and turns up as a group at events such as the Amazing Thailand Marathon. The crew posts run announcements on Instagram.",
-      "active_evidence": "Time Out Bangkok feature, 23 Feb 2026",
-      "source_url": "https://www.timeout.com/bangkok/sports-and-fitness/bangkoks-top-run-clubs"
+      "active_evidence": "Instagram posts from a welcome run at One Bangkok, 28 Oct 2026, and a road race, 1 Nov 2026",
+      "source_url": "https://www.instagram.com/runnowfablater/"
     },
     {
       "name": "Mikkeller Running Club Bangkok",
@@ -181,36 +178,32 @@
       "url_kind": "instagram",
       "meets": [
         {
-          "when": "First Saturday of each month, 5:30pm",
+          "when": "First Saturday of each month (start time posted on Instagram)",
           "where": "Mikkeller Bangkok, 26 Ekkamai 10 Alley"
-        },
-        {
-          "when": "Wednesdays (casual run)",
-          "where": "Lumpini Park"
         }
       ],
-      "cost": "Free to run; buying the official MRC shirt gives global membership",
+      "cost": "Free to run; buying the official club shirt makes you a member",
       "who": "Beginners welcome",
-      "description": "The Bangkok chapter of the Copenhagen brewery's worldwide running club. The monthly 5.6 km neighbourhood loop ends with a complimentary house beer. No sign-up is needed, and the shirt also gives 10% off at Mikkeller venues.",
-      "active_evidence": "Time Out Bangkok feature, 23 Feb 2026",
-      "source_url": "https://www.timeout.com/bangkok/sports-and-fitness/bangkoks-top-run-clubs"
+      "description": "The Bangkok chapter of the Copenhagen brewery's worldwide running club. The monthly run covers a few kilometres around the neighbourhood and ends with a drink together at the bar. No sign-up is needed to run.",
+      "active_evidence": "Instagram post for the monthly run, 3 Oct 2026",
+      "source_url": "https://www.instagram.com/mikkellerbkk/p/DeBxZpwE-LD/"
     },
     {
-      "name": "HOKA Run Club Thailand",
-      "kind": "brand_club",
-      "focus": "road",
-      "url": "https://www.strava.com/clubs/HOKA_TH",
-      "url_kind": "strava",
+      "name": "Silver Run Club",
+      "kind": "club",
+      "focus": "social",
+      "url": "https://www.eventbrite.com/o/78157931403",
+      "url_kind": "other",
       "meets": [
         {
-          "when": "Weekly training sessions on Wednesdays",
-          "where": "Announced on Facebook / Instagram @hoka_th"
+          "when": "About once a month, mostly early mornings from 6:45am (dates on Eventbrite)",
+          "where": "Changing venues, such as Chulalongkorn University Centenary Park"
         }
       ],
-      "who": "Registered runners (sign-up via the official form)",
-      "description": "The HOKA Thailand brand club, which runs weekly Wednesday training, monthly social activities and shoe try-ons. It held a coach-led training programme at Thephasadin Stadium on 21 February 2026 for runners who had registered.",
-      "active_evidence": "HOKA Thailand post on a training programme, 21 Feb 2026",
-      "source_url": "https://hoka.co.th/en/blogs/news/hoka-run-club-training-program-1"
+      "who": "Aimed at people aged 40 and over, office workers new to exercise, families walking with older relatives, and wheelchair users",
+      "description": "A gentle run/walk club organised by Joy Ride Thailand, a companion service for older people. Each session covers about 3 km in two or three run/walk rounds, with a warm-up, stretching and social time afterwards, and the organiser stresses relaxed pacing. Places are booked through Eventbrite, and runners bring the QR code from their confirmation email.",
+      "active_evidence": "Eventbrite listings for Silver Run Club 13 on 7 Nov 2026 and Silver Run Club 14 on 10 Dec 2026",
+      "source_url": "https://www.eventbrite.com/e/silver-run-club-13-tickets-1989190422100"
     },
     {
       "name": "Bangkok Hash House Harriers (BH3)",
@@ -226,8 +219,8 @@
       ],
       "cost": "Visitor run fee 350 baht",
       "who": "Men only, except announced open outstation runs",
-      "description": "Bangkok's gentlemen's hash, which has run every Saturday since 1977. A hare lays a trail and the group follows it, then socialises afterwards. An open outstation weekend in Buriram, open to everyone, is set for 27–29 November 2026.",
-      "active_evidence": "Website lists run 2531 on 3 Oct and 2532 on 10 Oct 2026, and a 2026/27 hareline",
+      "description": "Bangkok's gentlemen's hash, which has run every Saturday since 1977. A hare lays a trail and the group follows it for 1 to 1.5 hours, then socialises with drinks and snacks. An open outstation weekend in Buriram, open to everyone, is set for 27–29 November 2026.",
+      "active_evidence": "Website lists run 2536 on 7 Nov and run 2537 on 14 Nov 2026, and a 2026/27 hareline",
       "source_url": "https://www.bangkokhhh.org/visitors"
     },
     {
@@ -238,13 +231,13 @@
       "url_kind": "website",
       "meets": [
         {
-          "when": "Mondays 5:30pm",
+          "when": "Mondays, early evening (5:15pm for the 2 Nov 2026 run; check the hareline)",
           "where": "Changing sites around Bangkok (published on the hareline)"
         }
       ],
       "who": "Everyone welcome: Thai, foreign, residents and visitors",
-      "description": "A mixed hash that runs every Monday evening, then drinks and socialises. It has a visitors' page with advice on taxis. The club says to bring a torch now that evenings get dark earlier.",
-      "active_evidence": "Hareline lists run 2232 on 5 Oct 2026; page last updated 29 Sep 2026",
+      "description": "A mixed hash that runs every Monday evening, then drinks and socialises. It has a visitors' guide with advice on taxis, and shared taxis are sometimes arranged from Phetchaburi MRT station.",
+      "active_evidence": "Hareline lists runs 2233–2236 from 12 Oct to 2 Nov 2026 and hares to 28 Dec 2026; page updated 1 Nov 2026",
       "source_url": "https://bangkokmondayhhh.com/"
     },
     {
@@ -255,13 +248,13 @@
       "url_kind": "website",
       "meets": [
         {
-          "when": "Wednesdays 5:30pm",
+          "when": "Wednesdays, 5:15pm (time posted with each run)",
           "where": "Changing sites around Bangkok (published on the hareline)"
         }
       ],
       "who": "All welcome",
-      "description": "A Wednesday-evening hash founded in 1982. Shared taxis are sometimes arranged from MRT stations.",
-      "active_evidence": "Run 2283 on 30 Sep 2026; hareline to Nov 2026",
+      "description": "A mixed Wednesday-evening hash founded in 1982. Shared taxis are sometimes arranged from Phetchaburi MRT station.",
+      "active_evidence": "Run 2288 posted for 4 Nov 2026; hareline to 30 Dec 2026",
       "source_url": "https://bangkokharriettes.wordpress.com/"
     },
     {
@@ -272,13 +265,13 @@
       "url_kind": "website",
       "meets": [
         {
-          "when": "Thursdays 6:30pm",
+          "when": "Thursdays 6:30pm, except in full-moon week",
           "where": "Changing sites, usually near a BTS station (directions posted per run)"
         }
       ],
       "cost": "50 baht run fee",
       "description": "An evening hash that posts station-based directions for each run. Runners are asked to bring a torch.",
-      "active_evidence": "Run #537 on 1 Oct 2026 from BTS Phra Khanong",
+      "active_evidence": "Run #541 posted for 5 Nov 2026 (6:30pm)",
       "source_url": "https://www.bangkokhash.com/thursday/"
     },
     {
@@ -289,13 +282,13 @@
       "url_kind": "website",
       "meets": [
         {
-          "when": "Once a month on a Friday evening, 6:30pm",
+          "when": "Friday nearest the full moon, 6:30pm",
           "where": "Changing sites (directions posted per run)"
         }
       ],
       "cost": "60 baht run fee",
       "description": "A monthly Friday-night hash, now in its 23rd year. Runners are asked to bring a torch.",
-      "active_evidence": "Run #261 on 23 Oct 2026",
+      "active_evidence": "Run #262 posted for 27 Nov 2026 (6:30pm)",
       "source_url": "https://www.bangkokhash.com/fullmoon/"
     },
     {
@@ -307,11 +300,11 @@
       "meets": [
         {
           "when": "2nd and 4th Sundays of the month, 4:30pm",
-          "where": "Changing sites (Google Maps link posted per run)"
+          "where": "Changing sites (Google Maps link and public-transport directions posted per run)"
         }
       ],
-      "description": "A fortnightly Sunday-afternoon hash with a 2026 committee and posted run directions.",
-      "active_evidence": "Run #665 on 11 Oct 2026",
+      "description": "A fortnightly, mixed Sunday-afternoon hash that posts directions for each run, including the nearest BTS station.",
+      "active_evidence": "Run #667 posted for 8 Nov 2026 at Bang Pu (from BTS Kheha)",
       "source_url": "https://www.bangkokhash.com/siamsunday/"
     },
     {
@@ -322,31 +315,18 @@
       "url_kind": "website",
       "meets": [
         {
-          "when": "Selected Saturdays, meet 13:45, run starts 15:00 (dates on the website)",
+          "when": "About one Saturday a month, meet 13:45, run starts 15:00 (dates on the website)",
           "where": "Bus from CHARM Bistro, On Nut BTS area, to a countryside trail outside Bangkok"
         }
       ],
       "cost": "Paid per run: run/walk fee plus optional return bus, booked on the website",
       "who": "All fitness levels; run, jog or walk; family-friendly, children welcome with parents",
-      "description": "A non-profit social running and walking hash that takes a bus from central Bangkok to countryside trails, typically 5-7 km and 60-90 minutes, followed by refreshments at the run site.",
-      "active_evidence": "Website lists upcoming runs on 10 Oct and 31 Oct 2026 and a notice about the cancelled 26 Sep 2026 run",
+      "description": "A non-profit social running and walking hash that takes a bus from central Bangkok to countryside trails within about an hour of the city, typically 5–7 km and 60–90 minutes, followed by refreshments at the run site. It also lists its runs on Meetup as the Bangkok Weekend Walk and Run Adventure Group.",
+      "active_evidence": "Website lists Run 28 on 28 Nov and Run 29 on 12 Dec 2026; Meetup shows the 27th run held on 31 Oct 2026",
       "source_url": "https://bangkoksaturdayhash.com/"
     }
   ],
-  "coaches": [
-    {
-      "name": "ironguides Bangkok (The Method Triathlon Club)",
-      "kind": "coaching_business",
-      "url": "https://www.ironguides.net/local_squads/bangkok/",
-      "url_kind": "website",
-      "offers": "Drop-in coached running class on Wednesdays at 6:30pm (400 THB); 30-day (1,000 THB) and 90-day (2,000 THB) run-session packages; group training plans; personalised coaching from 6,900 THB a month",
-      "where": "Track sessions at Thephasadin Stadium",
-      "credentials": "Head coach Vinnie Santana holds an ITU (World Triathlon) Level 1 coaching certification",
-      "description": "The Bangkok squad of the ironguides coaching company, offering coached sessions for runners, triathletes and swimmers of all abilities, from drop-ins up to custom plans with coach feedback.",
-      "active_evidence": "Live booking page with session prices; site footer © 2026 (no dated 2026 post found)",
-      "source_url": "https://www.ironguides.net/local_squads/bangkok/"
-    }
-  ],
+  "coaches": [],
   "route_guides": [
     {
       "publisher": "Great Runs",
@@ -354,6 +334,6 @@
       "url": "https://greatruns.com/location/bangkok-thailand/"
     }
   ],
-  "last_updated": "2026-09-30",
+  "last_updated": "2026-11-02",
   "status": "active"
 }

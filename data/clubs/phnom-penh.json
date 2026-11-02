@@ -1,0 +1,130 @@
+{
+  "city_id": "phnom-penh",
+  "slug": "phnom-penh",
+  "city": "Phnom Penh",
+  "country": "Cambodia",
+  "area_note": "Phnom Penh, from the National Olympic Stadium and Independence Monument to Koh Pich (Diamond Island) and Koh Norea",
+  "intro": "Phnom Penh's group runs gather in a few fixed places. Training clubs use the National Olympic Stadium track on Tuesday and Thursday mornings from 5:45am and set off on weekend long runs from Independence Monument soon after 5am. Koh Pich (Diamond Island) hosts several social clubs, with evening runs from around 6:30pm and Saturday-morning runs. The Hash House Harriers leave the city on weekend afternoons. Most clubs announce their sessions and meeting points on Instagram and Telegram, and the Phnom Penh Athletics Club holds regular club races open to other clubs.",
+  "race_cities": [
+    "Phnom Penh"
+  ],
+  "clubs": [
+    {
+      "name": "Phnom Penh Athletics Club (PPAC)",
+      "kind": "club",
+      "focus": "mixed",
+      "url": "https://ppathleticsclub.blogspot.com/",
+      "url_kind": "website",
+      "meets": [
+        {
+          "when": "Tuesdays and Thursdays 5:45am (track sessions)",
+          "where": "National Olympic Stadium, Charles de Gaulle Boulevard"
+        },
+        {
+          "when": "Saturdays and Sundays 5:15am (long runs)",
+          "where": "Independence Monument, Norodom Boulevard"
+        }
+      ],
+      "cost": "First session free; US$2.50 a session; annual membership US$10 (training only) or US$30 (training plus club races)",
+      "who": "Open to all, from first-timers to runners chasing personal bests",
+      "description": "A training club founded in December 2019 that combines track sessions with weekend long runs. It also holds its own numbered club races, mostly 5 km road races plus track races and relays, and posts a report of each on its blog. Sessions and races are announced on the club's Telegram channel.",
+      "active_evidence": "Race report on the club blog: PPAC-158 Club Showdown 5 km, 4 Oct 2026 (14 clubs entered)",
+      "source_url": "https://ppathleticsclub.blogspot.com/2026/10/ppac-158-club-showdown-5km-road-race-4.html"
+    },
+    {
+      "name": "Phnom Penh Hash House Harriers (P2H3)",
+      "kind": "hash",
+      "focus": "social",
+      "url": "https://p2h3.com/",
+      "url_kind": "website",
+      "meets": [
+        {
+          "when": "Weekly, usually Sunday afternoons (some Saturdays); meeting point and time are posted on the hare line"
+        }
+      ],
+      "description": "Phnom Penh's hash kennel, whose numbered runs reached No. 1860 in October 2026. Each week's run is set by volunteer hares, usually outside the city, and the website's hare line lists upcoming dates, meeting points and special runs such as boat hashes.",
+      "active_evidence": "Hare line on p2h3.com: run 1860 on 31 Oct 2026 (13:45 meet at the Naga ferry), runs 1861–1865 listed to 6 Dec 2026",
+      "source_url": "https://p2h3.com/"
+    },
+    {
+      "name": "Night Runners Club",
+      "kind": "crew",
+      "focus": "social",
+      "url": "https://www.instagram.com/nightrunnerskh/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Tuesdays 6:30pm (social run); the Instagram bio also lists Thursdays 6:30pm"
+        }
+      ],
+      "who": "All levels; easy-paced short and medium runs",
+      "description": "A free social running club founded in October 2025, with evening runs of about 5–7 km through the city followed by food and drinks. The club is building its own headquarters, and it announces the meeting point on Instagram.",
+      "active_evidence": "Instagram post, 26 Oct 2026: 'See you every Tuesday 6:30pm for our social run'",
+      "source_url": "https://www.instagram.com/nightrunnerskh/p/De8v0Gljs2C/"
+    },
+    {
+      "name": "Castor Run Club",
+      "kind": "crew",
+      "focus": "social",
+      "url": "https://www.instagram.com/castorrunclub/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Weekly; recently Friday evenings (5 km)",
+          "where": "Often The Elysée, Koh Pich; sometimes Boeung Kak"
+        }
+      ],
+      "who": "Beginners and experienced runners",
+      "description": "A brand-sponsored social run club that holds one 3–5 km run a week, on a Friday or Saturday evening or a Sunday morning, at a venue that varies. It also holds themed runs, such as night, yoga and Pilates runs.",
+      "active_evidence": "Instagram posts for the Castor Friday Night Run, 22 and 23 Oct 2026",
+      "source_url": "https://www.instagram.com/castorrunclub/p/De1llYqE1Vg/"
+    },
+    {
+      "name": "NEAK Run Club",
+      "kind": "crew",
+      "focus": "road",
+      "url": "https://www.instagram.com/neak.club/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Saturdays, early morning (usually 7 or 10 km)",
+          "where": "The Elysée, Koh Pich"
+        }
+      ],
+      "who": "Aimed at experienced runners who want to improve their performance",
+      "description": "A Phnom Penh run club with the motto 'Better than yesterday', whose Saturday-morning runs are usually 7 or 10 km. It also organises the NEAK Grand Prix and entered a team in the PPAC Club Showdown 5 km in October 2026.",
+      "active_evidence": "Instagram post on its Saturday run, 31 Oct 2026 ('See you next Saturday')",
+      "source_url": "https://www.instagram.com/neak.club/p/DfL3OcJExjx/"
+    },
+    {
+      "name": "SUSU Running Team",
+      "kind": "club",
+      "focus": "road",
+      "url": "https://www.facebook.com/susunevergiveup",
+      "url_kind": "facebook",
+      "meets": [
+        {
+          "when": "Tuesdays and Thursdays 5:45am (interval and threshold sessions)",
+          "where": "National Olympic Stadium"
+        },
+        {
+          "when": "Sundays 5:30am (long run)",
+          "where": "Eden Garden Mall"
+        }
+      ],
+      "description": "A Cambodian running team formed in 2019 that trains for half marathons and marathons, with two weekday-morning sessions and a Sunday long run. Session times are as listed on the RunningCrews directory; confirm with the team before a first visit.",
+      "active_evidence": "Third women's team at the PPAC Club Showdown 5 km, 4 Oct 2026",
+      "source_url": "https://ppathleticsclub.blogspot.com/2026/10/ppac-158-club-showdown-5km-road-race-4.html"
+    }
+  ],
+  "coaches": [],
+  "route_guides": [
+    {
+      "publisher": "Great Runs",
+      "label": "Best routes and places to run in Phnom Penh",
+      "url": "https://greatruns.com/location/phnom-penh-cambodia/"
+    }
+  ],
+  "last_updated": "2026-11-02",
+  "status": "active"
+}

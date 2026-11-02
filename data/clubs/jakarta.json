@@ -4,7 +4,7 @@
   "city": "Jakarta",
   "country": "Indonesia",
   "area_note": "Central and South Jakarta, mainly the Senayan (GBK) and Sudirman–SCBD areas",
-  "intro": "Jakarta's club runs centre on the Gelora Bung Karno (GBK) sports complex in Senayan and the nearby Sudirman–SCBD business district. Weekday groups meet either early in the morning or after work in the evening. On Sunday mornings, Car Free Day closes Jalan Sudirman to traffic, and community fun runs there start as early as 5:30am. Most local groups announce their sessions on Instagram rather than on websites.",
+  "intro": "Jakarta's club runs centre on the Gelora Bung Karno (GBK) sports complex in Senayan and the nearby Sudirman–SCBD business district. Weekday groups meet either early in the morning or after work in the evening, and several crews start from buildings and cafés in SCBD, Senopati and Kuningan. On Sunday mornings, Car Free Day closes Jalan Sudirman to traffic, and community fun runs there start as early as 5:30am. Most local groups announce their sessions on Instagram rather than on websites.",
   "race_cities": [
     "Jakarta",
     "BSD",
@@ -15,18 +15,13 @@
       "name": "Indo Runners",
       "kind": "club",
       "focus": "road",
-      "url": "https://www.facebook.com/groups/MariLari.IndoRunners/",
-      "url_kind": "facebook",
-      "meets": [
-        {
-          "when": "Sunday mornings (Sunday AM Run)",
-          "where": "Ashta District 8, SCBD"
-        }
-      ],
+      "url": "https://www.instagram.com/indorunners/",
+      "url_kind": "instagram",
+      "meets": [],
       "who": "All levels",
-      "description": "An independent running community founded in Jakarta in 2009. XSports Medal's 2026 round-up reported tens of thousands of members and more than 100,000 social-media followers. Its regular fixture is the Sunday AM Run.",
-      "active_evidence": "XSports Medal round-up of active Jakarta running communities, 27 Mar 2026",
-      "source_url": "https://xsportsmedal.id/komunitas-lari-jakarta/"
+      "description": "An independent running community founded in Jakarta in 2009, with chapters in other Indonesian cities, including Bali. Its Instagram account has about 122,000 followers. Its technique and training group, IR Runiversity (listed below), holds a Sunday morning social run from FX Sudirman.",
+      "active_evidence": "Instagram posts, Oct 2026",
+      "source_url": "https://www.instagram.com/indorunners/"
     },
     {
       "name": "IR Runiversity",
@@ -36,18 +31,17 @@
       "url_kind": "instagram",
       "meets": [
         {
-          "when": "Fridays (strength training)",
-          "where": "Ministry of Youth and Sports (Kemenpora) office"
+          "when": "Sundays 5:30am (Sunday Morning Social Run)",
+          "where": "FX Sudirman"
         },
         {
-          "when": "Sunday mornings (Sunday AM Run)",
-          "where": "With Indo Runners, Ashta District 8, SCBD"
+          "when": "Fridays 7pm (strength training)"
         }
       ],
       "who": "Runners who want to learn technique",
-      "description": "Part of the Indo Runners community. It focuses on teaching running technique and development, and adds weekly strength training to the Sunday run.",
-      "active_evidence": "XSports Medal round-up, 27 Mar 2026",
-      "source_url": "https://xsportsmedal.id/komunitas-lari-jakarta/"
+      "description": "Part of the Indo Runners community. It focuses on teaching running technique and development, and adds weekly strength training to its Sunday social run.",
+      "active_evidence": "Instagram post, 28 Oct 2026",
+      "source_url": "https://www.instagram.com/runiversity.id/"
     },
     {
       "name": "Jakbrunners (Jakarta Barat Runners)",
@@ -58,12 +52,15 @@
       "meets": [
         {
           "when": "Tuesdays 6:45pm",
-          "where": "GBK, around Gate 6"
+          "where": "Moja Museum"
+        },
+        {
+          "when": "Some Sunday mornings (5K/10K fun runs, announced in Instagram stories)"
         }
       ],
       "description": "Founded in May 2014 under the hashtag #YourRunningBuddies. The group also holds non-running social activities for members.",
-      "active_evidence": "XSports Medal round-up, 27 Mar 2026",
-      "source_url": "https://xsportsmedal.id/komunitas-lari-jakarta/"
+      "active_evidence": "Instagram posts, Oct 2026 (latest 31 Oct 2026)",
+      "source_url": "https://www.instagram.com/jakbrunners/"
     },
     {
       "name": "Skolari",
@@ -73,19 +70,18 @@
       "url_kind": "instagram",
       "meets": [
         {
-          "when": "Thursday afternoons",
-          "where": "Plaza Barat, GBK"
+          "when": "Thursdays 6:30pm (Thursday Training)",
+          "where": "East side of Wisma Serbaguna, Senayan"
         },
         {
-          "when": "Sunday mornings",
-          "where": "Senayan City area"
+          "when": "Sundays 5:30am (Sunday long run)"
         }
       ],
       "cost": "Free",
       "who": "Open to the public; beginners and experienced runners",
-      "description": "A free community set up in January 2019 by runners who wanted a group with no barriers or exclusivity.",
-      "active_evidence": "XSports Medal round-up, 27 Mar 2026",
-      "source_url": "https://xsportsmedal.id/komunitas-lari-jakarta/"
+      "description": "A free community set up in January 2019 by runners who wanted a group with no barriers or exclusivity. It also runs a kids' training programme and speed sessions, which take sign-ups through its Linktree.",
+      "active_evidence": "Instagram posts, 29 Oct to 1 Nov 2026",
+      "source_url": "https://www.instagram.com/skolari.id/"
     },
     {
       "name": "Thunder Light Jakarta",
@@ -95,19 +91,18 @@
       "url_kind": "instagram",
       "meets": [
         {
-          "when": "Wednesdays 7pm (Wednesday Session: themed workouts such as strength, fartlek or hills)",
+          "when": "Wednesdays 7pm (Wednesday Session: coached workouts such as cardio or strength)",
           "where": "F3, FX Sudirman"
         },
         {
-          "when": "Saturdays 6am",
-          "where": "Foreground, FX Sudirman"
+          "when": "Saturdays"
         }
       ],
       "cost": "Free",
       "who": "Open to everyone; no requirements to join",
-      "description": "A fun-running crew formed in February 2020 by friends who ran together at night. It supports members training for half and full marathons and runs a cheering zone at races. Refreshments are provided at sessions.",
-      "active_evidence": "XSports Medal round-up, 27 Mar 2026 (schedule detail from JadwalLari profile, Oct 2025)",
-      "source_url": "https://jadwallari.id/komunitas-lari-thunder-light-jakarta/"
+      "description": "A fun-running crew formed in February 2020 by friends who ran together at night. It supports members training for half and full marathons and runs a cheering zone at races, including the 2026 Jakarta Running Festival.",
+      "active_evidence": "Instagram posts, 19–25 Oct 2026",
+      "source_url": "https://www.instagram.com/thunderlight.jkt/"
     },
     {
       "name": "adidas Runners Jakarta",
@@ -117,8 +112,8 @@
       "url_kind": "instagram",
       "meets": [],
       "description": "The adidas brand running community in Jakarta. With Maybank Marathon it ran the public Road to Maybank Marathon 2026 training programme from 3 May to 16 August 2026, which included coaching clinics, long runs, strength, hill and heat-adaptation training.",
-      "active_evidence": "IDN Times report on the Road to Maybank Marathon 2026 programme, 30 Apr 2026",
-      "source_url": "https://www.idntimes.com/sport/arena/maybank-marathon-2026-sediakan-program-latihan-di-6-kota-00-l8swn-098hnz/amp"
+      "active_evidence": "Instagram posts, 1 Jun and 6 Oct 2026",
+      "source_url": "https://www.instagram.com/runners.jakarta/"
     },
     {
       "name": "teman kumparan Running Club",
@@ -128,15 +123,138 @@
       "url_kind": "other",
       "meets": [
         {
-          "when": "Periodic Sunday fun runs, 5:30am (dates announced by kumparan)",
-          "where": "Car Free Day, Sudirman / GBK"
+          "when": "Periodic Sunday fun runs, gathering from 5:30am (dates announced by kumparan)",
+          "where": "Car Free Day, Sudirman; recent runs started from GBK Gate 6"
         }
       ],
       "cost": "Free",
-      "who": "All levels, from new joggers to regular runners; relaxed pace",
-      "description": "The reader community running club of the news site kumparan. Its Car Free Day fun runs have club captains and pacers, and include free refreshments. Runners join through the club's group link (kum.pr/running).",
-      "active_evidence": "Fun runs on 25 Jan 2026 and 26 Apr 2026 (kumparan, 23 Apr 2026)",
-      "source_url": "https://kumparan.com/teman-kumparan/jangan-sampai-skip-join-fun-run-teman-kumparan-running-club-di-cfd-sudirman-27GNgLuLLhu"
+      "who": "All levels, from beginners to experienced runners",
+      "description": "The reader community running club of the news site kumparan. Its Car Free Day fun runs have pacers and include free refreshments. Runners join through the club's group link (kum.pr/running).",
+      "active_evidence": "Fun runs on 28 Jun 2026 and 18 Oct 2026 (kumparan, 19 Oct 2026)",
+      "source_url": "https://kumparan.com/teman-kumparan/serunya-fun-run-teman-kumparan-running-club-di-cfd-sudirman-28PDbxWQRbV"
+    },
+    {
+      "name": "Running Rage",
+      "kind": "crew",
+      "focus": "road",
+      "url": "https://www.instagram.com/runningrage/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Tuesdays and Thursdays 6:30pm",
+          "where": "Senayan area"
+        },
+        {
+          "when": "Sundays 6:45am",
+          "where": "FX Senayan"
+        }
+      ],
+      "description": "One of Jakarta's longest-running crews, founded in 2011. It describes itself as covering running, lifestyle and the outdoors.",
+      "active_evidence": "Instagram posts, 22 and 23 Oct 2026",
+      "source_url": "https://www.instagram.com/runningrage/"
+    },
+    {
+      "name": "Manifest",
+      "kind": "crew",
+      "focus": "social",
+      "url": "https://www.instagram.com/manifest___world/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Sundays 6am (easy pace, medium distance)",
+          "where": "KNOTS Senopati, Jl. Senopati No. 79"
+        },
+        {
+          "when": "Tuesdays 6am (moderate pace, short distance, with a tempo option)",
+          "where": "East Senayan parking area"
+        }
+      ],
+      "who": "Easy-pace Sunday runs suit most runners; Tuesdays are aimed at intermediate runners",
+      "description": "A social run club founded in December 2024 and supported by Nike Running. Its Sunday runs have a water station at about 5–7 km.",
+      "active_evidence": "Instagram posts, 6–28 Oct 2026",
+      "source_url": "https://www.instagram.com/manifest___world/"
+    },
+    {
+      "name": "Selari",
+      "kind": "crew",
+      "focus": "road",
+      "url": "https://www.instagram.com/selari.id/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Sundays 5:45am",
+          "where": "GBK Gate 5 (Pintu 5), by the Soekarno statue"
+        }
+      ],
+      "description": "A Jakarta running community built around a weekly Sunday run at GBK. It takes new members through a sign-up form linked from its Instagram profile.",
+      "active_evidence": "Instagram posts, 22–30 Oct 2026",
+      "source_url": "https://www.instagram.com/selari.id/"
+    },
+    {
+      "name": "One Eighty Run",
+      "kind": "crew",
+      "focus": "road",
+      "url": "https://www.instagram.com/oneeightyrun/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Tuesdays 7pm",
+          "where": "One Satrio, Kuningan"
+        },
+        {
+          "when": "Thursdays 6pm",
+          "where": "Indomilk Arena stadium"
+        },
+        {
+          "when": "Fridays 6am",
+          "where": "SCBD Lot 6"
+        }
+      ],
+      "who": "Open to all runners",
+      "description": "A running community whose motto is \"We Run With You\". Its Strava club, which lists the weekly sessions, has about 500 members.",
+      "active_evidence": "Instagram posts, Sep–Oct 2026 (latest 29 Oct 2026)",
+      "source_url": "https://www.instagram.com/oneeightyrun/"
+    },
+    {
+      "name": "MAEM Running Club",
+      "kind": "crew",
+      "focus": "social",
+      "url": "https://www.instagram.com/maemrunningclub/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Thursdays 7pm",
+          "where": "Gelora Bung Karno (GBK)"
+        },
+        {
+          "when": "Sundays 6:30am",
+          "where": "The Energy Building, SCBD"
+        }
+      ],
+      "who": "Beginners and experienced runners",
+      "description": "An urban running crew founded in 2015 whose motto is \"Run – Eat – Joy\"; maem is a colloquial word for eating, and runs are followed by a meal together.",
+      "active_evidence": "Instagram posts, 25 and 27 Oct 2026",
+      "source_url": "https://www.instagram.com/maemrunningclub/"
+    },
+    {
+      "name": "Running with Rhyme and Peace (RWRP)",
+      "kind": "crew",
+      "focus": "social",
+      "url": "https://www.instagram.com/running.rwrp/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Sundays 5am (Sunday Sunrise, easy to medium pace)",
+          "where": "GBK Main Stadium"
+        },
+        {
+          "when": "Thursdays 7pm (Night Run, easy pace, short distance)",
+          "where": "Kopiapi Coffee Roasters, Cikini"
+        }
+      ],
+      "description": "A small crew that runs year-round, with a Sunday sunrise run at GBK and a Thursday night run from a café in Cikini. It also has a Strava club.",
+      "active_evidence": "Instagram posts, 4, 20 and 21 Oct 2026",
+      "source_url": "https://www.instagram.com/running.rwrp/"
     }
   ],
   "coaches": [],
@@ -147,6 +265,6 @@
       "url": "https://greatruns.com/location/jakarta-indonesia/"
     }
   ],
-  "last_updated": "2026-09-30",
+  "last_updated": "2026-11-02",
   "status": "active"
 }
