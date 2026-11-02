@@ -69,5 +69,10 @@
   "cta_links": [],
   "related_entity_ids": [],
   "last_updated": "2026-09-01",
-  "status": "archived"
+  "status": "archived",
+  "results": {
+    "url": "https://myruntime.com/results/pmc-kabayanihan-run-2026-taguig",
+    "publisher": "MyRunTime",
+    "last_checked": "2026-11-02"
+  }
 }
