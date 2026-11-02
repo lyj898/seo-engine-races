@@ -4,10 +4,10 @@
   "name": "Sante Barley Trilogy Run Asia 2026 – National Finals",
   "category_id": "full-marathon",
   "region_id": "philippines",
-  "short_description": "A multi-distance race (5K to full marathon) organized by Runrio, set for November 8, 2026 at SM Mall of Asia, Pasay, Philippines.",
-  "ai_summary": "The Sante Barley Trilogy Run Asia 2026 – National Finals is a road race organized by Runrio, scheduled for November 8, 2026, at SM Mall of Asia in Pasay, Philippines. It offers four distance options: a full marathon (42.195 km), 21 km, 10 km, and 5 km.",
+  "short_description": "A multi-distance race (5K to full marathon) organized by Runrio, set for November 22, 2026 at SM Mall of Asia, Pasay, Philippines.",
+  "ai_summary": "The Sante Barley Trilogy Run Asia 2026 – National Finals is a road race organized by Runrio, scheduled for November 22, 2026, at SM Mall of Asia in Pasay, Philippines. It offers four distance options: a full marathon (42.195 km), 21 km, 10 km, and 5 km.",
   "core_facts": {
-    "date": "2026-11-08",
+    "date": "2026-11-22",
     "distance_km": [
       42,
       21,
@@ -39,7 +39,7 @@
   "faqs": [
     {
       "question": "When is the Sante Barley Trilogy Run Asia 2026 – National Finals?",
-      "answer": "The race is scheduled to take place on November 8, 2026. This date marks the National Finals event of the Sante Barley Trilogy Run Asia series, organized by Runrio, and will be held at SM Mall of Asia in Pasay, Philippines."
+      "answer": "The race is scheduled to take place on November 22, 2026. This date marks the National Finals event of the Sante Barley Trilogy Run Asia series, organized by Runrio, and will be held at SM Mall of Asia in Pasay, Philippines."
     },
     {
       "question": "What distances are offered at this race?",
@@ -61,13 +61,19 @@
       "url": "https://runrio.com",
       "label": "Official race website",
       "type": "official",
-      "last_checked": "2026-08-25"
+      "last_checked": "2026-11-02"
     },
     {
       "url": "https://runrio.com/race-calendar",
       "label": "runrio.com",
       "type": "aggregator",
-      "last_checked": "2026-07-20"
+      "last_checked": "2026-11-02"
+    },
+    {
+      "url": "https://raceroster.com/events/2026/117986/sante-barley-trilogy-run-asia-2026-national-finals-2026",
+      "label": "Race Roster event page (National Finals, Sun 22 Nov 2026)",
+      "type": "registration_platform",
+      "last_checked": "2026-11-02"
     }
   ],
   "affiliate_links": [],
@@ -76,9 +82,14 @@
       "label": "Visit official site",
       "url": "https://runrio.com",
       "type": "official_website"
+    },
+    {
+      "label": "Entry page on Race Roster",
+      "url": "https://raceroster.com/events/2026/117986/sante-barley-trilogy-run-asia-2026-national-finals-2026",
+      "type": "registration"
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-11-02",
   "status": "active"
 }
