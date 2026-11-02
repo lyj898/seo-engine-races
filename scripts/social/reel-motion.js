@@ -141,7 +141,8 @@ const KINDS = {
 /**
  * Story from [duration, kind, props] steps; the follow card is appended.
  * `footage` (optional) lays the graphics over video instead of a palette:
- * { clips: [file | { file, crop }, ...], slow, vo, tempo, delay } -- clips (in the output folder;
+ * { clips: [file | { file, crop }, ...], slow, vo, tempo, delay, len } -- clips (in the output folder,
+ * each `len` seconds long: 5 for Wan, 10 or 20 for Gemini;
  * crop is an ffmpeg w:h:x:y box, e.g. to keep a branded pair of shorts out of frame)
  * are slowed by `slow` and joined, the last frame is held blurred to the end,
  * and the voiceover file plays at `tempo` after `delay` seconds.
@@ -271,6 +272,17 @@ const STORIES = {
       [2.8, 'hook', { lines: [["What's your", false], ['10K time?', true]] }],
     ], `Run a 10K in under an hour and you're in the top ${Math.ceil(share(3600) * 100)}% in Southeast Asia.\n\nThe typical 10K finish is ${hm(q(v, 0.5))}. Under 50 minutes puts you in the top ${Math.ceil(share(3000) * 100)}%.\n\nWhat's your 10K time? Rank it at runsea.run\n\nFrom ${n(v.length)} 10K finishes. Footage and voice are AI-generated; the numbers are real. ${FOLLOW}\n\n#running #10k #southeastasia #runsea`,
     'footage', true, { clips: [{ file: 'e-10k-1.mp4', crop: '600:1066:60:0' }, 'e-10k-2.mp4'], slow: 1.5, vo: 'vo-10k.mp3', tempo: 1.15, delay: 0.3 });
+  })(),
+  // Gemini footage (one 20 s clip: a 10 s run extended by a 10 s finish) + voice
+  // (folder gemini-2026-11-02). vo-six.mp3 says "almost one in three" (31%) and "one in twelve" (8%).
+  'six-hours-ai': (() => {
+    const v = pool.Full.map((x) => x[0]), atLeast = (t) => v.filter((x) => x >= t).length / v.length;
+    return story('everyone\'s race', [
+      [4.5, 'hook', { kicker: 'MARATHON, SOUTHEAST ASIA', lines: [['Six hours?', false], ["You're in good", false], ['company.', true]] }],
+      [9.9, 'pair', { title: 'Marathon finishers', a: { label: 'Take 6 hours or more', value: atLeast(21600) * 100, fmt: (x) => `${Math.round(x)}%`, hi: true }, b: { label: 'Still out there after 7 hours', value: atLeast(25200) * 100, fmt: (x) => `${Math.round(x)}%` }, foot: 'Almost 1 in 3, and 1 in 12.', times: [1.6, 6.2, 8.6] }],
+      [2.9, 'hook', { lines: [['Every finish counts.', false], ['What was yours?', true]] }],
+    ], `Six hours for a marathon? You're in good company.\n\nAcross Southeast Asia, ${pct(atLeast(21600))} of marathoners take six hours or more, almost one in three. And ${pct(atLeast(25200))}, one in twelve, are still out there after seven hours.\n\nEvery finish counts. What was yours? Rank your time at runsea.run\n\nFrom ${n(v.length)} marathon finishes. Footage and voice are AI-generated; the numbers are real. ${FOLLOW}\n\n#running #marathon #firstmarathon #southeastasia #runsea`,
+    'footage', true, { clips: [{ file: 'g-six-2.mp4', crop: '648:1152:36:0' }], slow: 1, len: 20, vo: 'vo-six.mp3', tempo: 1.15, delay: 0.3 });
   })(),
   'fastest-country-half': (() => {
     const cs = ft.countries.Half, sc = timeScale(cs.map((c) => c.median));
@@ -468,10 +480,10 @@ for (const name of names) {
   const enc = ['-c:v', 'libx264', '-preset', 'medium', '-crf', '20', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '128k', '-movflags', '+faststart'];
   if (st.footage) {
     // Footage under the (transparent) graphics, voiceover as the soundtrack.
-    const { clips, slow = 1.5, vo, tempo = 1, delay = 0.2 } = st.footage;
+    const { clips, slow = 1.5, vo, tempo = 1, delay = 0.2, len = 5 } = st.footage;
     const fill = 'scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30';
     const joined = clips.map((c, i) => `[${i}:v]${c.crop ? `crop=${c.crop},` : ''}${fill},setpts=${slow}*PTS[c${i}]`).join(';') + `;${clips.map((_, i) => `[c${i}]`).join('')}concat=n=${clips.length}:v=1:a=0,tpad=stop_mode=clone:stop_duration=${st.dur}[bg0]`;
-    const held = clips.length * 5 * slow; // seconds of moving footage (clips are 5 s)
+    const held = clips.length * len * slow; // seconds of moving footage (each clip is `len` s)
     const g = clips.length, a = clips.length + 1, ms = Math.round(delay * 1000);
     execFileSync(FFMPEG, ['-y', ...clips.flatMap((c) => ['-i', path.join(OUT, c.file ?? c)]), '-framerate', String(FPS), '-i', path.join(tmp, '%04d.png'), '-i', path.join(OUT, vo),
       '-filter_complex', `${joined};[bg0]boxblur=18:enable='gte(t,${held})'[bg];[bg][${g}:v]overlay=0:0[v];[${a}:a]atempo=${tempo},adelay=${ms}|${ms},apad[au]`,
