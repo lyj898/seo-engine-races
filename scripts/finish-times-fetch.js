@@ -17,8 +17,10 @@
  *   node scripts/finish-times-fetch.js --history  # fetch past editions
  *
  * --history reads data/finish-times-history/sources.json (a list of
- * { series_slug, edition_year, edition_date, results_url }) and writes each
- * edition to data/finish-times-history/<series_slug>/<edition_year>.json.
+ * { series_slug, edition_year, edition_date, results_url, edition? }) and
+ * writes each to data/finish-times-history/<series_slug>/<edition>.json, where
+ * edition defaults to the year (set it to name a leg, e.g. "2025-leg-2", when a
+ * series ran several in one year).
  * It's an archive of older editions, kept before timing companies take their
  * pages down; the site doesn't read it yet.
  */
@@ -107,7 +109,10 @@ async function readRaceRoster(url) {
 async function readSportStats(url) {
   const slug = (url.match(/\/event\/([^/?#]+)/) || [])[1];
   if (!slug) throw new Error('no SportStats slug in ' + url);
-  const html = (await get(`https://sportstats.one/event/${slug}`, 'html')).replace(/\\"/g, '"');
+  // /event/<slug> always shows the current edition; a past edition is only
+  // reachable through its /event/<slug>/leaderboard/<rid> page.
+  const listUrl = /\/leaderboard\/\d+/.test(url) ? url.split(/[?#]/)[0] : `https://sportstats.one/event/${slug}`;
+  const html = (await get(listUrl, 'html')).replace(/\\"/g, '"');
   const races = [...html.matchAll(/\{"rid":(\d+),"lbl":"([^"]+)"\}/g)].map((m) => ({ rid: m[1], lbl: m[2] }));
   const out = {};
   for (const { rid, lbl } of races) {
@@ -498,8 +503,8 @@ if (process.argv.includes('--history')) {
     jobs.push({
       label: `${s.series_slug} ${s.edition_year}`,
       url: s.results_url,
-      dest: path.join(HISTORY, s.series_slug, `${s.edition_year}.json`),
-      head: { series_slug: s.series_slug, edition_year: s.edition_year, edition_date: s.edition_date ?? null },
+      dest: path.join(HISTORY, s.series_slug, `${s.edition ?? s.edition_year}.json`),
+      head: { series_slug: s.series_slug, edition_year: s.edition_year, ...(s.edition && { edition: s.edition }), edition_date: s.edition_date ?? null },
     });
   }
 } else {
