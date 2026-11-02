@@ -74,6 +74,9 @@ const frame = (body) => `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" he
   ${body}
   <text x="90" y="${H - 120}" font-family="${F}" font-weight="800" font-size="34" fill="${C.fg}" opacity="0.85">@runsea.run</text>
 </svg>`;
+// For 'finish under X' claims: round the cut-off UP to the minute, so a
+// 2:13:48 cut-off reads 'under 2:14' and stays true.
+const under = (s) => hm(Math.ceil(s / 60) * 60);
 const hm = (s) => { s = Math.round(s); const h = Math.floor(s / 3600), m = Math.floor((s % 3600) / 60), x = s % 60; return h ? `${h}:${String(m).padStart(2, '0')}` : `${m}:${String(x).padStart(2, '0')}`; };
 const n = (x) => Math.round(x).toLocaleString('en-US');
 // Bar length for times: measured from 70% of the fastest, so real gaps show.
@@ -138,7 +141,8 @@ const KINDS = {
 /**
  * Story from [duration, kind, props] steps; the follow card is appended.
  * `footage` (optional) lays the graphics over video instead of a palette:
- * { clips: [file, ...], slow, vo, tempo, delay } -- clips (in the output folder)
+ * { clips: [file | { file, crop }, ...], slow, vo, tempo, delay } -- clips (in the output folder;
+ * crop is an ffmpeg w:h:x:y box, e.g. to keep a branded pair of shorts out of frame)
  * are slowed by `slow` and joined, the last frame is held blurred to the end,
  * and the voiceover file plays at `tempo` after `delay` seconds.
  */
@@ -213,6 +217,30 @@ const STORIES = {
       [2.2, 'hook', { lines: [['Which side', false], ['were you on?', true]] }],
     ], `The 2-hour wall is real.\n\n${n(u)} half marathoners in Southeast Asia finished in 1:59-something. Only ${n(o)} finished a minute later, in 2:00-something. That's ${Math.round((u / o - 1) * 100)}% more, one minute apart.\n\nWhich side of the wall were you? Rank your own time at runsea.run\n\nFrom ${n(pool.Half.length)} half marathon finishes across Southeast Asia. Footage and voice are AI-generated; the numbers are real. ${FOLLOW}\n\n#running #halfmarathon #sub2 #southeastasia #runsea`,
     'footage', true, { clips: ['wan-runner-2.mp4', 'kling-runner.mp4'], slow: 1.5, vo: 'vo.mp3', tempo: 1.15, delay: 0.3 });
+  })(),
+  // AI footage + voice. vo-women.mp3 says "under two hours fourteen", 74% and 83%.
+  'women-beat-men-ai': (() => {
+    const sorted = (k, g) => pool[k].filter((x) => x[1] === g).map((x) => x[0]).sort((a, b) => a - b);
+    const beat = (k, t) => { const m = sorted(k, 'M'); return m.filter((x) => x > t).length / m.length; };
+    const fh = q(sorted('Half', 'F'), 0.1), ff = q(sorted('Full', 'F'), 0.1);
+    return story('gender', [
+      [2.9, 'hook', { kicker: 'HALF MARATHON, SOUTHEAST ASIA', lines: [['Top 10% of women', false], [`beat ${pct(beat('Half', fh))} of men.`, true]] }],
+      [13.5, 'pair', { title: 'Half marathon finishers', a: { label: 'Top 10% of women finish under', value: Math.ceil(fh / 60) * 60, fmt: hm, hi: true }, b: { label: 'That is faster than', value: beat('Half', fh) * 100, fmt: (x) => `${Math.round(x)}% of men` }, foot: `Full marathon: faster than ${pct(beat('Full', ff))} of men.`, times: [2.3, 6.3, 11.1] }],
+      [2.0, 'hook', { lines: [['Tag the woman', false], ['who passed you.', true]] }],
+    ], `The top 10% of women beat ${pct(beat('Half', fh))} of men.\n\nIn Southeast Asian half marathons, the fastest 10% of women finish under ${under(fh)}. That's faster than ${pct(beat('Half', fh))} of men. In the full marathon, the top 10% of women (under ${under(ff)}) beat ${pct(beat('Full', ff))} of men.\n\nTag the woman who passed you in the last kilometre. Rank your own time at runsea.run\n\nFrom ${n(pool.Half.length + pool.Full.length)} half and full marathon finishes. Footage and voice are AI-generated; the numbers are real. ${FOLLOW}\n\n#running #halfmarathon #womenwhorun #southeastasia #runsea`,
+    'footage', true, { clips: ['a-women-1.mp4', { file: 'a-women-2.mp4', crop: '480:853:180:0' }], slow: 1.5, vo: 'vo-women.mp3', tempo: 1.15, delay: 0.3 });
+  })(),
+  // AI footage + voice. vo-age.mp3 says "two thirty" and "two thirty-seven" (men's medians).
+  'forties-beat-twenties-ai': (() => {
+    const med = (g, a) => q(pool.Half.filter((x) => x[1] === g && x[2] === a).map((x) => x[0]).sort((p, r) => p - r), 0.5);
+    const m40 = med('M', '40-49'), m20 = med('M', '20-29'), f40 = med('F', '40-49'), f20 = med('F', '20-29');
+    const withAge = pool.Half.filter((x) => x[2]).length;
+    return story('age', [
+      [3.6, 'hook', { kicker: 'HALF MARATHON, SOUTHEAST ASIA', lines: [['Your 40s', false], ['beat your 20s.', true]] }],
+      [14.1, 'pair', { title: "Typical men's finish", a: { label: 'Men in their 40s', value: m40, fmt: hm, hi: true }, b: { label: 'Men in their 20s', value: m20, fmt: hm }, foot: `Women: ${hm(f40)} in their 40s, ${hm(f20)} in their 20s.`, times: [2.4, 7.9, 10.4] }],
+      [2.2, 'hook', { lines: [['Which age group', false], ['are you?', true]] }],
+    ], `Your 40s beat your 20s.\n\nThe typical man in his 40s finishes a Southeast Asian half marathon in ${hm(m40)}; in his 20s, ${hm(m20)}. Women: ${hm(f40)} in their 40s, ${hm(f20)} in their 20s.\n\nWhich age group are you? Compare yourself with your age group at runsea.run\n\nFrom ${n(withAge)} half marathon finishes with a published age group. Footage and voice are AI-generated; the numbers are real. ${FOLLOW}\n\n#running #halfmarathon #over40 #southeastasia #runsea`,
+    'footage', true, { clips: [{ file: 'b-forties-1.mp4', crop: '480:853:170:0' }, 'b-forties-2.mp4'], slow: 1.5, vo: 'vo-age.mp3', tempo: 1.15, delay: 0.3 });
   })(),
   'fastest-country-half': (() => {
     const cs = ft.countries.Half, sc = timeScale(cs.map((c) => c.median));
@@ -289,8 +317,8 @@ const STORIES = {
     const v = pool.Half.map((x) => x[0]).sort((a, b) => a - b), f1 = q(v, 0.01), l1 = q(v, 0.99);
     return story('everyone\'s race', [
       [2.6, 'hook', { kicker: 'SAME DISTANCE, SAME HEAT', lines: [['21.1 km.', false], ['Two very', false], ['different races.', true]] }],
-      [4.8, 'pair', { title: 'Half marathon, Southeast Asia', a: { label: 'The fastest 1% finish under', value: f1, fmt: hm, hi: true }, b: { label: 'The last 1% finish after', value: l1, fmt: hm }, foot: 'Every one of them gets the medal.' }],
-    ], `21.1 km. Two very different races.\n\nThe fastest 1% of half marathoners in Southeast Asia finish under ${hm(f1)}. The last 1% are still out there after ${hm(l1)}, more than ${(l1 / f1).toFixed(1)} times as long on their feet.\n\nSame distance, same medal. Respect to the back of the pack.\n\nFrom ${n(v.length)} half marathon finishes. ${FOLLOW}\n\n${TAGS}`);
+      [4.8, 'pair', { title: 'Half marathon, Southeast Asia', a: { label: 'The fastest 1% finish under', value: Math.ceil(f1 / 60) * 60, fmt: hm, hi: true }, b: { label: 'The last 1% finish after', value: l1, fmt: hm }, foot: 'Every one of them gets the medal.' }],
+    ], `21.1 km. Two very different races.\n\nThe fastest 1% of half marathoners in Southeast Asia finish under ${under(f1)}. The last 1% are still out there after ${hm(l1)}, more than ${(l1 / f1).toFixed(1)} times as long on their feet.\n\nSame distance, same medal. Respect to the back of the pack.\n\nFrom ${n(v.length)} half marathon finishes. ${FOLLOW}\n\n${TAGS}`);
   })(),
   'women-in-the-field': (() => {
     const rows = [['10K', ft.insights['10K'].womenShare], ['Half', ft.insights.Half.womenShare], ['Marathon', ft.insights.Full.womenShare]];
@@ -331,8 +359,8 @@ const STORIES = {
     const tiers = [['Elite', 1], ['Podium', 5], ['Front pack', 10], ['Strong', 25], ['Steady', 50]];
     return story('challenge', [
       [2.6, 'hook', { kicker: 'HALF MARATHON', lines: [['What tier', false], ['is your time?', true]], sub: 'Comment your time below.' }],
-      [6.0, 'list', { title: 'Finish under this to make the tier', sub: 'Men / women, all ages, Southeast Asia', items: tiers.map(([nm, p], i) => [nm, `${hm(tq('M')[p])} / ${hm(tq('F')[p])}`, i === 2, `Top ${p}%`]), foot: 'Drop your time and tier in the comments.', step: 0.5 }],
-    ], `What tier is your half marathon time?\n\nFinish under this (men / women, all ages, Southeast Asia):\n${tiers.map(([nm, p]) => `${nm} (top ${p}%): ${hm(tq('M')[p])} / ${hm(tq('F')[p])}`).join('\n')}\n\nDrop your time and your tier in the comments. Want it for your age group? runsea.run/tools (link in bio)\n\n${FOLLOW}\n\n${TAGS}`, 'neon');
+      [6.0, 'list', { title: 'Finish under this to make the tier', sub: 'Men / women, all ages, Southeast Asia', items: tiers.map(([nm, p], i) => [nm, `${under(tq('M')[p])} / ${under(tq('F')[p])}`, i === 2, `Top ${p}%`]), foot: 'Drop your time and tier in the comments.', step: 0.5 }],
+    ], `What tier is your half marathon time?\n\nFinish under this (men / women, all ages, Southeast Asia):\n${tiers.map(([nm, p]) => `${nm} (top ${p}%): ${under(tq('M')[p])} / ${under(tq('F')[p])}`).join('\n')}\n\nDrop your time and your tier in the comments. Want it for your age group? runsea.run/tools (link in bio)\n\n${FOLLOW}\n\n${TAGS}`, 'neon');
   })(),
   'generous-cutoffs': (() => {
     const cuts = glance(/^Cut-offs/i).map((x) => { const yr = [...x.value.matchAll(/20\d\d:\s*(\d+)\s*hours?(?:\s*(\d+))?/g)].at(-1); const m = yr ?? x.value.match(/[Mm]arathon[^,;.]*?(\d+(?:\.\d+)?)\s*hours?(?:\s*(\d+))?/); return { ...x, hrs: m ? +m[1] + (m[2] ? +m[2] / 60 : 0) : null }; }).filter((x) => x.hrs && !/half/i.test(x.value.slice(0, x.value.search(/\d/))));
@@ -362,7 +390,7 @@ const STORIES = {
     return story('gender', [
       [2.6, 'hook', { kicker: 'HALF MARATHON', lines: [['The top 10%', false], ['of women beat', false], ['3 in 4 men.', true]] }],
       [5.6, 'bars', { title: 'Men beaten by the top 10% of women', sub: 'Southeast Asia, by distance', rows: rows.map(([l, v], i) => ({ label: l, value: v, show: pct(v), hi: i === 1 })), foot: 'Tag the woman who passed you.' }],
-    ], `The top 10% of women beat ${pct(rows[0][1])} of men in Southeast Asian half marathons.\n\n${rows.map(([l, v, t]) => `${l}: top-10% women finish under ${hm(t)}, ahead of ${pct(v)} of men`).join('\n')}\n\nTag the woman who passed you in the last kilometre.\n\nFrom ${n(pool.Half.length + pool.Full.length + pool['10K'].length)} finishes. ${FOLLOW}\n\n${TAGS} #womenwhorun`, 'grape');
+    ], `The top 10% of women beat ${pct(rows[0][1])} of men in Southeast Asian half marathons.\n\n${rows.map(([l, v, t]) => `${l}: top-10% women finish under ${under(t)}, ahead of ${pct(v)} of men`).join('\n')}\n\nTag the woman who passed you in the last kilometre.\n\nFrom ${n(pool.Half.length + pool.Full.length + pool['10K'].length)} finishes. ${FOLLOW}\n\n${TAGS} #womenwhorun`, 'grape');
   })(),
   'biggest-races': (() => {
     const tot = {};
@@ -412,10 +440,10 @@ for (const name of names) {
     // Footage under the (transparent) graphics, voiceover as the soundtrack.
     const { clips, slow = 1.5, vo, tempo = 1, delay = 0.2 } = st.footage;
     const fill = 'scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30';
-    const joined = clips.map((_, i) => `[${i}:v]${fill},setpts=${slow}*PTS[c${i}]`).join(';') + `;${clips.map((_, i) => `[c${i}]`).join('')}concat=n=${clips.length}:v=1:a=0,tpad=stop_mode=clone:stop_duration=${st.dur}[bg0]`;
+    const joined = clips.map((c, i) => `[${i}:v]${c.crop ? `crop=${c.crop},` : ''}${fill},setpts=${slow}*PTS[c${i}]`).join(';') + `;${clips.map((_, i) => `[c${i}]`).join('')}concat=n=${clips.length}:v=1:a=0,tpad=stop_mode=clone:stop_duration=${st.dur}[bg0]`;
     const held = clips.length * 5 * slow; // seconds of moving footage (clips are 5 s)
     const g = clips.length, a = clips.length + 1, ms = Math.round(delay * 1000);
-    execFileSync(FFMPEG, ['-y', ...clips.flatMap((c) => ['-i', path.join(OUT, c)]), '-framerate', String(FPS), '-i', path.join(tmp, '%04d.png'), '-i', path.join(OUT, vo),
+    execFileSync(FFMPEG, ['-y', ...clips.flatMap((c) => ['-i', path.join(OUT, c.file ?? c)]), '-framerate', String(FPS), '-i', path.join(tmp, '%04d.png'), '-i', path.join(OUT, vo),
       '-filter_complex', `${joined};[bg0]boxblur=18:enable='gte(t,${held})'[bg];[bg][${g}:v]overlay=0:0[v];[${a}:a]atempo=${tempo},adelay=${ms}|${ms},apad[au]`,
       '-map', '[v]', '-map', '[au]', '-t', st.dur.toFixed(2), ...enc, out], { stdio: ['ignore', 'ignore', 'pipe'] });
   } else {
