@@ -92,5 +92,10 @@
   ],
   "related_entity_ids": [],
   "last_updated": "2026-09-30",
-  "status": "active"
+  "status": "active",
+  "results": {
+    "url": "https://nc.racetigertiming.com/track3/index?id=9a88ff63b71f4e5d85f5c535e25c23b0&partner=000001",
+    "publisher": "RaceTiger",
+    "last_checked": "2026-11-02"
+  }
 }

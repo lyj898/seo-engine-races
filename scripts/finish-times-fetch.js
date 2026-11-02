@@ -14,6 +14,13 @@
  *
  *   node scripts/finish-times-fetch.js            # fetch races not yet saved
  *   node scripts/finish-times-fetch.js --refresh  # refetch everything
+ *   node scripts/finish-times-fetch.js --history  # fetch past editions
+ *
+ * --history reads data/finish-times-history/sources.json (a list of
+ * { series_slug, edition_year, edition_date, results_url }) and writes each
+ * edition to data/finish-times-history/<series_slug>/<edition_year>.json.
+ * It's an archive of older editions, kept before timing companies take their
+ * pages down; the site doesn't read it yet.
  */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -22,6 +29,7 @@ import { fileURLToPath } from 'node:url';
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const ENTITIES = path.join(ROOT, 'data', 'entities');
 const OUT = path.join(ROOT, 'data', 'finish-times');
+const HISTORY = path.join(ROOT, 'data', 'finish-times-history');
 const REFRESH = process.argv.includes('--refresh');
 // --only=slug-a,slug-b re-fetches just those races (overwriting what's saved).
 const ONLY = (process.argv.find((a) => a.startsWith('--only=')) ?? '').slice(7).split(',').filter(Boolean);
@@ -481,29 +489,47 @@ const READERS = [
   { name: 'HeyJom', test: /api\.heyjom\.com\/4-1\/results\//, read: readHeyJom },
 ];
 
-fs.mkdirSync(OUT, { recursive: true });
+// Each job is one results page to read: the latest edition of a race we list,
+// or (with --history) a past edition from the archive's source list.
+const jobs = [];
+if (process.argv.includes('--history')) {
+  for (const s of JSON.parse(fs.readFileSync(path.join(HISTORY, 'sources.json'), 'utf8'))) {
+    if (ONLY.length && !ONLY.includes(s.series_slug)) continue;
+    jobs.push({
+      label: `${s.series_slug} ${s.edition_year}`,
+      url: s.results_url,
+      dest: path.join(HISTORY, s.series_slug, `${s.edition_year}.json`),
+      head: { series_slug: s.series_slug, edition_year: s.edition_year, edition_date: s.edition_date ?? null },
+    });
+  }
+} else {
+  for (const file of fs.readdirSync(ENTITIES).filter((f) => f.endsWith('.json'))) {
+    const e = JSON.parse(fs.readFileSync(path.join(ENTITIES, file), 'utf8'));
+    if (!e.results?.url || e.status === 'draft' || e.core_facts?.event_status) continue;
+    if (ONLY.length && !ONLY.includes(e.slug)) continue;
+    jobs.push({ label: e.slug, url: e.results.url, dest: path.join(OUT, `${e.slug}.json`), head: { slug: e.slug } });
+  }
+}
+
 const skipped = [];
 let saved = 0;
-for (const file of fs.readdirSync(ENTITIES).filter((f) => f.endsWith('.json'))) {
-  const e = JSON.parse(fs.readFileSync(path.join(ENTITIES, file), 'utf8'));
-  if (!e.results?.url || e.status === 'draft' || e.core_facts?.event_status) continue;
-  if (ONLY.length && !ONLY.includes(e.slug)) continue;
-  const reader = READERS.find((r) => r.test.test(e.results.url));
-  if (!reader) { skipped.push(`${e.slug} (${new URL(e.results.url).hostname})`); continue; }
-  const dest = path.join(OUT, `${e.slug}.json`);
-  if (fs.existsSync(dest) && !REFRESH && !ONLY.length) continue;
+for (const job of jobs) {
+  const reader = READERS.find((r) => r.test.test(job.url));
+  if (!reader) { skipped.push(`${job.label} (${new URL(job.url).hostname})`); continue; }
+  if (fs.existsSync(job.dest) && !REFRESH && !ONLY.length) continue;
   try {
-    const distances = await reader.read(e.results.url);
+    const distances = await reader.read(job.url);
     for (const d of Object.values(distances)) {
       d.times = d.times.filter(([t]) => t >= 600 && t <= 12 * 3600).sort((a, b) => a[0] - b[0]);
       d.finishers = d.times.length;
     }
-    if (!Object.keys(distances).length) { skipped.push(`${e.slug} (no standard distances)`); continue; }
-    fs.writeFileSync(dest, JSON.stringify({ slug: e.slug, source: reader.name, results_url: e.results.url, fetched: new Date().toISOString().slice(0, 10), distances }) + '\n');
+    if (!Object.keys(distances).length) { skipped.push(`${job.label} (no standard distances)`); continue; }
+    fs.mkdirSync(path.dirname(job.dest), { recursive: true });
+    fs.writeFileSync(job.dest, JSON.stringify({ ...job.head, source: reader.name, results_url: job.url, fetched: new Date().toISOString().slice(0, 10), distances }) + '\n');
     saved++;
-    console.log(`saved ${e.slug}: ${Object.entries(distances).map(([k, d]) => `${k} ${d.finishers}`).join(', ')}`);
+    console.log(`saved ${job.label}: ${Object.entries(distances).map(([k, d]) => `${k} ${d.finishers}`).join(', ')}`);
   } catch (err) {
-    skipped.push(`${e.slug} (error: ${err.message})`);
+    skipped.push(`${job.label} (error: ${err.message})`);
   }
 }
 console.log(`\n${saved} race(s) saved. ${skipped.length} skipped (no reader yet or error):`);
