@@ -8,6 +8,8 @@ import fs from 'node:fs';
 import path from 'node:path';
 import sharp from 'sharp';
 
+// Where the social media folders live (Google Drive since 2 Nov 2026).
+export const SOCIAL = process.env.RUNSEA_SOCIAL ?? 'G:/My Drive/runsea-social';
 export const W = 1080, H = 1350;
 export const INK = '#15170f', LIME = '#c8ff33', PAPER = '#f3f1e8', CREAM = '#eceee2', MUTED = '#a2a493', ORANGE = '#ff7a3d', GREY = '#77786c';
 export const F = "'Segoe UI', Arial, sans-serif";

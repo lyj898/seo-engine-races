@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Preview batch: the 15 post ideas from 26 Oct 2026, each as a short carousel
 // in one of the three looks (paper / poster / glow), numbered in posting
-// order in OneDrive Documents\runsea-social\ideas-preview, with captions.md.
+// order in runsea-social\ideas-preview on Google Drive, with captions.md.
 // Every number is computed from the site's own data when the script runs.
 //
 //   node scripts/social/ideas-preview.js
@@ -9,10 +9,10 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { loadEntities, stripMeta, isReviewableEntity } from '../../src/lib/data.js';
 import { loadFinishTimes } from '../../src/lib/finishTimes.js';
-import { W, H, INK, LIME, PAPER, CREAM, MUTED, ORANGE, GREY, F, HV, esc, T, bib, pill, area, smooth, skyline, slide, renderPost } from './kit.js';
+import { SOCIAL, W, H, INK, LIME, PAPER, CREAM, MUTED, ORANGE, GREY, F, HV, esc, T, bib, pill, area, smooth, skyline, slide, renderPost } from './kit.js';
 import { seaMap, placeOf, runner, stopwatch, stars, moon, thermometer, hourglass, stupa, bridge, volcano, palm, waves, hazeSun } from './art.js';
 
-const ROOT = path.join(process.env.USERPROFILE ?? '.', 'OneDrive', 'Documents', 'runsea-social');
+const ROOT = SOCIAL;
 // Posting plan: [post number, date, slot].
 const PLAN = [
   // Daily for the launch fortnight (changed 26 Oct); weekdays 8pm, weekends 9am SGT.

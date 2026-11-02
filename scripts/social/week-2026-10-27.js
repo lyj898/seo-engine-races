@@ -2,7 +2,7 @@
 // Social posts for the week of 27 Oct 2026: a Lab stat carousel, the haze
 // season in numbers, and newly announced 2027 races. Numbers come from the
 // site's own data at run time. Output (PNGs + captions.md) goes to
-// OneDrive Documents\runsea-social\2026-10-27, outside the repo.
+// runsea-social\2026-10-27 on Google Drive, outside the repo.
 //
 //   node scripts/social/week-2026-10-27.js
 import fs from 'node:fs';
@@ -11,7 +11,7 @@ import { loadEntities, stripMeta, isReviewableEntity } from '../../src/lib/data.
 import { loadFinishTimes } from '../../src/lib/finishTimes.js';
 import { W, LIME, TEXT, MUTED, LINE, FONT, HEAVY, esc, text, frame, curve, render } from './cards.js';
 
-const OUT = path.join(process.env.USERPROFILE ?? '.', 'OneDrive', 'Documents', 'runsea-social', '2026-10-27');
+const OUT = path.join(process.env.RUNSEA_SOCIAL ?? 'G:/My Drive/runsea-social', '2026-10-27');
 const hm = (s) => `${Math.floor(s / 3600)}:${String(Math.floor(s / 60) % 60).padStart(2, '0')}`;
 const n = (x) => x.toLocaleString('en-US');
 const short = (name) => name.replace(/\s*(Powered by JomRun®?|presented by.*)$/i, '').replace(/\b20(26|27)\b/g, '').replace(/\s+–\s+Malaysia$/, ' Malaysia').replace(/^\s*2026\s*/, '').replace(/\s{2,}/g, ' ').trim();

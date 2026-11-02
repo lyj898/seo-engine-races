@@ -5,7 +5,7 @@
 //
 //   FFMPEG=path/to/ffmpeg node scripts/social/reel-motion.js <folder-name> <story> [<story> ...]
 //
-// Output: OneDrive/Documents/runsea-social/<folder-name>/<story>.mp4 plus
+// Output: runsea-social/<folder-name>/<story>.mp4 on Google Drive, plus
 // captions.md (videos are silent; music is added in Business Suite).
 import fs from 'node:fs';
 import os from 'node:os';
@@ -14,12 +14,12 @@ import { execFileSync } from 'node:child_process';
 import sharp from 'sharp';
 import { loadFinishTimes } from '../../src/lib/finishTimes.js';
 import { loadEntities, stripMeta } from '../../src/lib/data.js';
-import { INK, LIME, CREAM, MUTED, F, esc } from './kit.js';
+import { SOCIAL, INK, LIME, CREAM, MUTED, F, esc } from './kit.js';
 
 const [folder, ...names] = process.argv.slice(2);
 const FFMPEG = process.env.FFMPEG;
 if (!folder || !names.length || !FFMPEG) { console.error('usage: FFMPEG=path node scripts/social/reel-motion.js <folder-name> <story> [...]'); process.exit(1); }
-const OUT = path.join(process.env.USERPROFILE ?? '.', 'OneDrive', 'Documents', 'runsea-social', folder);
+const OUT = path.join(SOCIAL, folder);
 const W = 1080, H = 1920, FPS = 30;
 const HVY = "'Segoe UI Black', 'Arial Black', sans-serif";
 const TAGS = '#running #halfmarathon #marathon #southeastasia #runningsingapore #larimalaysia #runnersph #runsea';

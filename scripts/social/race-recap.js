@@ -5,17 +5,17 @@
 //
 //   node scripts/social/race-recap.js <folder-name> <slug> [<slug> ...]
 //
-// Writes slides and captions.md to OneDrive/Documents/runsea-social/<folder-name>/;
+// Writes slides and captions.md to runsea-social/<folder-name>/ on Google Drive;
 // turn them into Reels with scripts/social/reels.js.
 import fs from 'node:fs';
 import path from 'node:path';
 import { loadEntities, stripMeta } from '../../src/lib/data.js';
 import { loadFinishTimes, DISTANCE_LABEL } from '../../src/lib/finishTimes.js';
-import { W, H, INK, LIME, CREAM, MUTED, F, HV, esc, T, pill, area, smooth, skyline, slide, renderPost } from './kit.js';
+import { SOCIAL, W, H, INK, LIME, CREAM, MUTED, F, HV, esc, T, pill, area, smooth, skyline, slide, renderPost } from './kit.js';
 
 const [folder, ...slugs] = process.argv.slice(2);
 if (!folder || !slugs.length) { console.error('usage: node scripts/social/race-recap.js <folder-name> <slug> [...]'); process.exit(1); }
-const ROOT = path.join(process.env.USERPROFILE ?? '.', 'OneDrive', 'Documents', 'runsea-social', folder);
+const ROOT = path.join(SOCIAL, folder);
 
 // Display names and hashtags, where the record's name is too long for a slide.
 const SHORT = {
