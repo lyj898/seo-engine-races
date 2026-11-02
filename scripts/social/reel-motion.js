@@ -39,6 +39,8 @@ const PALETTES = {
   peach: { bg1: '#ffd6a5', bg2: '#ff8fa3', fg: '#2b1220', accent: '#7b1fa2', muted: '#5a2a3a', bars: ['#ffffff', '#ffe5ec'], ink: '#2b1220', track: '#ffffff', trackOp: 0.35, blob: '#ffffff', blobOp: 0.45 },
   citrus: { bg1: '#f7971e', bg2: '#ffcf1f', fg: '#2a1600', accent: '#c4004b', muted: '#5c3a00', bars: ['#ffffff', '#fff1c1'], ink: '#2a1600', track: '#ffffff', trackOp: 0.35, blob: '#ffffff', blobOp: 0.4 },
   lagoon: { bg1: '#0f9b8e', bg2: '#1b4f9c', fg: '#ffffff', accent: '#ffd23f', muted: '#d6fff6', bars: ['#9ef0e1', '#a9c8ff'], ink: '#062b3a', track: '#ffffff', trackOp: 0.18, blob: '#9ef0e1', blobOp: 0.3 },
+  // Drawn over video footage: no background, only a dark scrim behind the type.
+  footage: { clear: true, fg: '#ffffff', accent: LIME, muted: '#e6e6e6', bars: ['#e8e8e8'], ink: INK, track: '#ffffff', trackOp: 0.25 },
 };
 let C = PALETTES.brand, NOW = 0;
 
@@ -55,14 +57,19 @@ const text = (str, { x = 90, y, size: want = 64, fill = C.fg, weight = 800, heav
   const size = fit(str, want, maxW, heavy, ls);
   return `<text x="${x}" y="${(y + (1 - p) * 40).toFixed(1)}" text-anchor="${anchor}" opacity="${p.toFixed(3)}" font-family="${heavy ? HVY : F}" font-weight="${heavy ? 900 : weight}" font-size="${size}" letter-spacing="${ls}" fill="${fill}">${esc(str)}</text>`;
 };
-// Background: the palette's gradient with two soft colour blobs drifting slowly.
-const frame = (body) => `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">
-  <defs><filter id="glow"><feGaussianBlur stdDeviation="12" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-  <linearGradient id="bg" x1="0" y1="0" x2="0.35" y2="1"><stop offset="0" stop-color="${C.bg1}"/><stop offset="1" stop-color="${C.bg2}"/></linearGradient>
+// Background: the palette's gradient with two soft colour blobs drifting slowly,
+// or (footage palette) a transparent frame with a dark scrim so type stays legible.
+const backdrop = () => (C.clear
+  ? `<linearGradient id="scrim" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#000" stop-opacity="0.55"/><stop offset="0.25" stop-color="#000" stop-opacity="0.3"/><stop offset="0.6" stop-color="#000" stop-opacity="0.45"/><stop offset="1" stop-color="#000" stop-opacity="0.7"/></linearGradient></defs>
+  <rect width="${W}" height="${H}" fill="url(#scrim)"/>`
+  : `<linearGradient id="bg" x1="0" y1="0" x2="0.35" y2="1"><stop offset="0" stop-color="${C.bg1}"/><stop offset="1" stop-color="${C.bg2}"/></linearGradient>
   <radialGradient id="blob"><stop offset="0" stop-color="${C.blob}" stop-opacity="${C.blobOp}"/><stop offset="1" stop-color="${C.blob}" stop-opacity="0"/></radialGradient></defs>
   <rect width="${W}" height="${H}" fill="url(#bg)"/>
   <circle cx="${(820 + 160 * Math.sin(NOW * 0.5)).toFixed(1)}" cy="${(330 + 120 * Math.cos(NOW * 0.4)).toFixed(1)}" r="560" fill="url(#blob)"/>
-  <circle cx="${(220 + 180 * Math.cos(NOW * 0.35)).toFixed(1)}" cy="${(1550 + 140 * Math.sin(NOW * 0.45)).toFixed(1)}" r="520" fill="url(#blob)"/>
+  <circle cx="${(220 + 180 * Math.cos(NOW * 0.35)).toFixed(1)}" cy="${(1550 + 140 * Math.sin(NOW * 0.45)).toFixed(1)}" r="520" fill="url(#blob)"/>`);
+const frame = (body) => `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">
+  <defs><filter id="glow"><feGaussianBlur stdDeviation="12" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  ${backdrop()}
   <text x="90" y="170" font-family="${F}" font-weight="800" font-size="32" letter-spacing="7" fill="${C.accent}">RUN SEA</text>
   ${body}
   <text x="90" y="${H - 120}" font-family="${F}" font-weight="800" font-size="34" fill="${C.fg}" opacity="0.85">@runsea.run</text>
@@ -100,16 +107,17 @@ const KINDS = {
       }).join('')}
       ${foot ? text(foot, { y: 1700, size: 46, weight: 700, fill: C.accent, p: at(s, 0.6 + rows.length * 0.45) }) : ''}`;
   },
-  // Two big numbers that count up, one above the other.
-  pair: (s, { title, a, b, foot }) => {
-    const row = (r, y, i) => {
-      const p = at(s, 0.4 + i * 0.9, 1.1);
-      return `${text(r.label, { y, size: 56, weight: 800, fill: r.hi ? C.accent : C.fg, p: at(s, 0.2 + i * 0.9) })}
+  // Two big numbers that count up, one above the other. `times` sets when each
+  // number and the footnote appear (to match a voiceover).
+  pair: (s, { title, a, b, foot, times = [0.2, 1.1, 2.4] }) => {
+    const row = (r, y, t) => {
+      const p = at(s, t + 0.2, 1.1);
+      return `${text(r.label, { y, size: 56, weight: 800, fill: r.hi ? C.accent : C.fg, p: at(s, t) })}
         ${text(r.fmt ? r.fmt(r.value * p) : n(r.value * p), { y: y + 190, size: 200, heavy: true, fill: r.hi ? C.accent : C.fg, p: Math.min(1, p * 3) })}
-        ${r.unit ? text(r.unit, { y: y + 260, size: 42, weight: 600, fill: C.muted, p: at(s, 0.6 + i * 0.9) }) : ''}`;
+        ${r.unit ? text(r.unit, { y: y + 260, size: 42, weight: 600, fill: C.muted, p: at(s, t + 0.4) }) : ''}`;
     };
-    return `${text(title, { y: 380, size: 66, heavy: true, p: at(s, 0) })}${row(a, 620, 0)}${row(b, 1060, 1)}
-      ${foot ? text(foot, { y: 1560, size: 48, weight: 700, fill: C.accent, p: at(s, 2.4) }) : ''}`;
+    return `${text(title, { y: 380, size: 66, heavy: true, p: at(s, 0) })}${row(a, 620, times[0])}${row(b, 1060, times[1])}
+      ${foot ? text(foot, { y: 1560, size: 48, weight: 700, fill: C.accent, p: at(s, times[2]) }) : ''}`;
   },
   // A ranked list that appears line by line.
   // items: [label, value, highlight?, sub-line?]; rows share the space available.
@@ -127,11 +135,17 @@ const KINDS = {
     ${text(line, { y: 1060, size: 54, weight: 600, p: at(s, 0.35) })}
     ${text('Rank your own time: runsea.run/tools', { y: 1170, size: 42, weight: 600, fill: C.muted, p: at(s, 0.7) })}`,
 };
-/** Story from [duration, kind, props] steps; the follow card is appended. */
-const story = (topic, steps, caption, pal = 'brand', cover = pal !== 'brand') => {
+/**
+ * Story from [duration, kind, props] steps; the follow card is appended.
+ * `footage` (optional) lays the graphics over video instead of a palette:
+ * { clips: [file, ...], slow, vo, tempo, delay } -- clips (in the output folder)
+ * are slowed by `slow` and joined, the last frame is held blurred to the end,
+ * and the voiceover file plays at `tempo` after `delay` seconds.
+ */
+const story = (topic, steps, caption, pal = 'brand', cover = pal !== 'brand', footage = null) => {
   const scenes = []; let t = 0;
   for (const [dur, kind, props] of [...steps, [2.6, 'follow', {}]]) { scenes.push({ t0: t, t1: t + dur, kind, props }); t += dur; }
-  return { topic, dur: t, scenes, caption, draw(time) {
+  return { topic, dur: t, scenes, caption, footage, draw(time) {
     C = PALETTES[pal]; NOW = time;
     const sc = scenes.find((x) => time < x.t1) ?? scenes.at(-1);
     // The first scene starts already drawn, so the Reel's cover frame isn't empty.
@@ -187,6 +201,18 @@ const STORIES = {
       [4.6, 'pair', { title: 'Half marathon finishers', a: { label: 'Finished in 1:59:xx', value: u, hi: true }, b: { label: 'Finished in 2:00:xx', value: o }, foot: `${Math.round((u / o - 1) * 100)}% more, one minute apart.` }],
       [3.4, 'hook', { kicker: 'MARATHON, AT 4:00', lines: [[`${n(fu)} vs ${n(fo)}`, true]], sub: 'Twice as many squeeze in under four hours.' }],
     ], `The 2-hour wall is real.\n\n${n(u)} half marathoners in Southeast Asia finished in 1:59-something. Only ${n(o)} finished a minute later, in 2:00-something. That's ${Math.round((u / o - 1) * 100)}% more, one minute apart. In the marathon it's even starker at four hours: ${n(fu)} against ${n(fo)}.\n\nRunners find a sprint when a round number is on the clock. Which side of the wall were you?\n\nFrom ${n(pool.Half.length)} half and ${n(pool.Full.length)} marathon finishes across Southeast Asia. ${FOLLOW}\n\n${TAGS} #sub2 #sub4`);
+  })(),
+  // The same insight over AI-generated footage with an AI voiceover (pilot, 2 Nov
+  // 2026). The voiceover says the counts aloud, so it must be regenerated
+  // whenever they change; vo.txt in the output folder holds its script.
+  'two-hour-wall-ai': (() => {
+    const u = inMinute('Half', 7140), o = inMinute('Half', 7200);
+    return story('pacing psychology', [
+      [2.8, 'hook', { kicker: 'HALF MARATHON FINISH TIMES', lines: [['The 2-hour', false], ['wall is real.', true]] }],
+      [11.5, 'pair', { title: 'Half marathon finishers', a: { label: 'Finished in 1:59:xx', value: u, hi: true }, b: { label: 'Finished in 2:00:xx', value: o }, foot: `${Math.round((u / o - 1) * 100)}% more, one minute apart.`, times: [1.7, 7.4, 10.6] }],
+      [2.2, 'hook', { lines: [['Which side', false], ['were you on?', true]] }],
+    ], `The 2-hour wall is real.\n\n${n(u)} half marathoners in Southeast Asia finished in 1:59-something. Only ${n(o)} finished a minute later, in 2:00-something. That's ${Math.round((u / o - 1) * 100)}% more, one minute apart.\n\nWhich side of the wall were you? Rank your own time at runsea.run\n\nFrom ${n(pool.Half.length)} half marathon finishes across Southeast Asia. Footage and voice are AI-generated; the numbers are real. ${FOLLOW}\n\n#running #halfmarathon #sub2 #southeastasia #runsea`,
+    'footage', true, { clips: ['wan-runner-2.mp4', 'kling-runner.mp4'], slow: 1.5, vo: 'vo.mp3', tempo: 1.15, delay: 0.3 });
   })(),
   'fastest-country-half': (() => {
     const cs = ft.countries.Half, sc = timeScale(cs.map((c) => c.median));
@@ -381,8 +407,21 @@ for (const name of names) {
   const frames = Math.round(st.dur * FPS);
   for (let i = 0; i < frames; i++) await sharp(Buffer.from(st.draw(i / FPS))).png({ compressionLevel: 1 }).toFile(path.join(tmp, `${String(i).padStart(4, '0')}.png`));
   const out = path.join(OUT, `${name}.mp4`);
-  execFileSync(FFMPEG, ['-y', '-framerate', String(FPS), '-i', path.join(tmp, '%04d.png'), '-f', 'lavfi', '-i', 'anullsrc=channel_layout=stereo:sample_rate=44100',
-    '-shortest', '-c:v', 'libx264', '-preset', 'medium', '-crf', '20', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '128k', '-movflags', '+faststart', out], { stdio: ['ignore', 'ignore', 'pipe'] });
+  const enc = ['-c:v', 'libx264', '-preset', 'medium', '-crf', '20', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '128k', '-movflags', '+faststart'];
+  if (st.footage) {
+    // Footage under the (transparent) graphics, voiceover as the soundtrack.
+    const { clips, slow = 1.5, vo, tempo = 1, delay = 0.2 } = st.footage;
+    const fill = 'scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30';
+    const joined = clips.map((_, i) => `[${i}:v]${fill},setpts=${slow}*PTS[c${i}]`).join(';') + `;${clips.map((_, i) => `[c${i}]`).join('')}concat=n=${clips.length}:v=1:a=0,tpad=stop_mode=clone:stop_duration=${st.dur}[bg0]`;
+    const held = clips.length * 5 * slow; // seconds of moving footage (clips are 5 s)
+    const g = clips.length, a = clips.length + 1, ms = Math.round(delay * 1000);
+    execFileSync(FFMPEG, ['-y', ...clips.flatMap((c) => ['-i', path.join(OUT, c)]), '-framerate', String(FPS), '-i', path.join(tmp, '%04d.png'), '-i', path.join(OUT, vo),
+      '-filter_complex', `${joined};[bg0]boxblur=18:enable='gte(t,${held})'[bg];[bg][${g}:v]overlay=0:0[v];[${a}:a]atempo=${tempo},adelay=${ms}|${ms},apad[au]`,
+      '-map', '[v]', '-map', '[au]', '-t', st.dur.toFixed(2), ...enc, out], { stdio: ['ignore', 'ignore', 'pipe'] });
+  } else {
+    execFileSync(FFMPEG, ['-y', '-framerate', String(FPS), '-i', path.join(tmp, '%04d.png'), '-f', 'lavfi', '-i', 'anullsrc=channel_layout=stereo:sample_rate=44100',
+      '-shortest', ...enc, out], { stdio: ['ignore', 'ignore', 'pipe'] });
+  }
   fs.rmSync(tmp, { recursive: true, force: true });
   caps.push(`## ${name} (topic: ${st.topic}, ${st.dur.toFixed(1)}s)\n\n${st.caption}\n`);
   console.log(`${name}: ${st.dur.toFixed(1)}s -> ${out}`);
