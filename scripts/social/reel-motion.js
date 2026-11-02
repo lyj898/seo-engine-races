@@ -242,6 +242,36 @@ const STORIES = {
     ], `Your 40s beat your 20s.\n\nThe typical man in his 40s finishes a Southeast Asian half marathon in ${hm(m40)}; in his 20s, ${hm(m20)}. Women: ${hm(f40)} in their 40s, ${hm(f20)} in their 20s.\n\nWhich age group are you? Compare yourself with your age group at runsea.run\n\nFrom ${n(withAge)} half marathon finishes with a published age group. Footage and voice are AI-generated; the numbers are real. ${FOLLOW}\n\n#running #halfmarathon #over40 #southeastasia #runsea`,
     'footage', true, { clips: [{ file: 'b-forties-1.mp4', crop: '480:853:170:0' }, 'b-forties-2.mp4'], slow: 1.5, vo: 'vo-age.mp3', tempo: 1.15, delay: 0.3 });
   })(),
+  // AI footage + voice (folder ai-2026-11-02b). vo-sub4.mp3 says "about one in nine" (11%) and "five hours twenty-five".
+  'sub4-rare-ai': (() => {
+    const v = pool.Full.map((x) => x[0]).sort((a, b) => a - b), share = (t) => v.filter((x) => x < t).length / v.length;
+    return story('milestones', [
+      [3.2, 'hook', { kicker: 'MARATHON, SOUTHEAST ASIA', lines: [['Sub-4 is rarer', false], ['than you think.', true]] }],
+      [9.6, 'pair', { title: 'Marathon finishers', a: { label: 'Finish under 4 hours', value: share(14400) * 100, fmt: (x) => `${Math.round(x)}%`, hi: true }, b: { label: 'Typical marathon finish', value: q(v, 0.5), fmt: hm }, foot: `Under 5 hours: top ${Math.ceil(share(18000) * 100)}%.`, times: [1.6, 5.8, 8.5] }],
+      [2.3, 'hook', { lines: [["What's your", false], ['marathon time?', true]] }],
+    ], `Sub-4 is rarer than you think.\n\nOnly ${pct(share(14400))} of marathoners in Southeast Asia finish under four hours, about one in nine. The typical marathon takes ${hm(q(v, 0.5))}, and finishing under five hours puts you in the top ${Math.ceil(share(18000) * 100)}%.\n\nWhat's your marathon time? Rank it at runsea.run\n\nFrom ${n(v.length)} marathon finishes. Footage and voice are AI-generated; the numbers are real. ${FOLLOW}\n\n#running #marathon #sub4 #southeastasia #runsea`,
+    'footage', true, { clips: [{ file: 'c-sub4-1.mp4', crop: '648:1152:36:0' }, 'c-sub4-2.mp4'], slow: 1.5, vo: 'vo-sub4.mp3', tempo: 1.15, delay: 0.3 });
+  })(),
+  // vo-half.mp3 says "two hours forty-two" and "under two thirty ... faster than six in ten".
+  'half-better-ai': (() => {
+    const v = pool.Half.map((x) => x[0]).sort((a, b) => a - b), share = (t) => v.filter((x) => x < t).length / v.length;
+    return story('am I average', [
+      [3.7, 'hook', { kicker: 'HALF MARATHON, SOUTHEAST ASIA', lines: [['Your half is', false], ['better than', false], ['you think.', true]] }],
+      [9.0, 'pair', { title: 'Half marathon finishers', a: { label: 'Typical finish', value: q(v, 0.5), fmt: hm }, b: { label: 'Finish under 2:30 and you beat', value: (1 - share(9000)) * 100, fmt: (x) => `${Math.floor(x)}% of runners`, hi: true }, foot: `Under 2 hours: top ${Math.ceil(share(7200) * 100)}%.`, times: [0.2, 4.3, 8.1] }],
+      [2.2, 'hook', { lines: [['Where does', false], ['your time land?', true]] }],
+    ], `Your half marathon is better than you think.\n\nThe typical half marathon in Southeast Asia takes ${hm(q(v, 0.5))}. Finish under 2:30 and you're faster than ${Math.floor((1 - share(9000)) * 100)}% of runners. Under two hours puts you in the top ${Math.ceil(share(7200) * 100)}%.\n\nWhere does your time land? Rank it at runsea.run\n\nFrom ${n(v.length)} half marathon finishes. Footage and voice are AI-generated; the numbers are real. ${FOLLOW}\n\n#running #halfmarathon #southeastasia #runsea`,
+    'footage', true, { clips: ['d-half-1.mp4', { file: 'd-half-2.mp4', crop: '440:782:150:0' }], slow: 1.5, vo: 'vo-half.mp3', tempo: 1.15, delay: 0.3 });
+  })(),
+  // vo-10k.mp3 says "top ten percent" for under an hour and "one hour twenty-five".
+  'sub60-10k-ai': (() => {
+    const v = pool['10K'].map((x) => x[0]).sort((a, b) => a - b), share = (t) => v.filter((x) => x < t).length / v.length;
+    return story('milestones', [
+      [2.4, 'hook', { kicker: '10K, SOUTHEAST ASIA', lines: [['Sub-1 hour', false], ['10K?', true]] }],
+      [9.2, 'pair', { title: '10K finishers', a: { label: 'Finish under 1 hour', value: 1, fmt: () => `Top ${Math.ceil(share(3600) * 100)}%`, hi: true }, b: { label: 'Typical 10K finish', value: q(v, 0.5), fmt: hm }, foot: `Under 50 minutes: top ${Math.ceil(share(3000) * 100)}%.`, times: [1.3, 3.3, 8.0] }],
+      [2.8, 'hook', { lines: [["What's your", false], ['10K time?', true]] }],
+    ], `Run a 10K in under an hour and you're in the top ${Math.ceil(share(3600) * 100)}% in Southeast Asia.\n\nThe typical 10K finish is ${hm(q(v, 0.5))}. Under 50 minutes puts you in the top ${Math.ceil(share(3000) * 100)}%.\n\nWhat's your 10K time? Rank it at runsea.run\n\nFrom ${n(v.length)} 10K finishes. Footage and voice are AI-generated; the numbers are real. ${FOLLOW}\n\n#running #10k #southeastasia #runsea`,
+    'footage', true, { clips: [{ file: 'e-10k-1.mp4', crop: '600:1066:60:0' }, 'e-10k-2.mp4'], slow: 1.5, vo: 'vo-10k.mp3', tempo: 1.15, delay: 0.3 });
+  })(),
   'fastest-country-half': (() => {
     const cs = ft.countries.Half, sc = timeScale(cs.map((c) => c.median));
     return story('country rivalry', [
