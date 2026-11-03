@@ -92,6 +92,15 @@ const KINDS = {
     ${lines.map(([str, hi], i) => text(str, { y: 900 + i * size * 1.15, size, heavy: true, fill: hi ? C.accent : C.fg, p: at(s, 0.35 + i * 0.35) })).join('')}
     ${sub ? text(sub, { y: 900 + lines.length * size * 1.15 + 30, size: 46, weight: 600, fill: C.muted, p: at(s, 0.5 + lines.length * 0.35) }) : ''}`;
   },
+  // Hook-first opener (3 Nov 2026): one huge number from the first frame, then short
+  // lines under it. lines: [text, highlight?, seconds it appears (to match a voiceover)].
+  // `y` sets where the block starts; over footage it sits low (1000) so faces stay clear.
+  big: (s, { kicker, num, lines = [], y = 560 }) => {
+    const size = fit(num, 400, W - 160, true, 0), top = y + size * 0.95;
+    return `${kicker ? text(kicker, { y, size: 50, ls: 4, p: at(s, 0) }) : ''}
+    ${text(num, { y: top, size, heavy: true, fill: C.accent, p: at(s, 0, 0.3) })}
+    ${lines.map(([str, hi, t], i) => text(str, { y: top + 130 + i * 95, size: 76, heavy: true, fill: hi ? C.accent : C.fg, p: at(s, t ?? 0.4 + i * 0.4) })).join('')}`;
+  },
   // Horizontal bars that grow; `rows`: { label, value (0-1 of the bar), show (final text), hi }.
   bars: (s, { title, sub, rows, foot }) => {
     // Rows share the space between the subtitle and the closing line.
@@ -124,14 +133,16 @@ const KINDS = {
   },
   // A ranked list that appears line by line.
   // items: [label, value, highlight?, sub-line?]; rows share the space available.
-  list: (s, { title, sub, items, foot, step = 0.4 }) => {
+  // `times` (optional): when each item, then the footnote, appears (to match a voiceover).
+  list: (s, { title, sub, items, foot, step = 0.4, times }) => {
     const gap = Math.min(190, 1000 / items.length);
+    const t = (i) => (times ? times[i] - 0.3 : i * step); // offset of item i (i = items.length: the footnote)
     return `${text(title, { y: 380, size: 66, heavy: true, p: at(s, 0) })}
     ${sub ? text(sub, { y: 455, size: 40, weight: 600, fill: C.muted, p: at(s, 0.2) }) : ''}
-    ${items.map(([l, r, hi, sl], i) => `${text(l, { y: 640 + i * gap, size: Math.min(60, gap * 0.34), weight: 800, fill: hi ? C.accent : C.fg, p: at(s, 0.3 + i * step), maxW: 560 })}
-      ${sl ? text(sl, { y: 640 + i * gap + Math.min(46, gap * 0.27), size: Math.min(36, gap * 0.2), weight: 600, fill: C.muted, p: at(s, 0.35 + i * step), maxW: 560 }) : ''}
-      ${text(r, { x: W - 90, anchor: 'end', y: 640 + i * gap, size: Math.min(96, gap * 0.5), heavy: true, fill: hi ? C.accent : C.fg, p: at(s, 0.45 + i * step), maxW: 250 })}`).join('')}
-    ${foot ? text(foot, { y: 1700, size: 46, weight: 700, fill: C.accent, p: at(s, 0.6 + items.length * step) }) : ''}`;
+    ${items.map(([l, r, hi, sl], i) => `${text(l, { y: 640 + i * gap, size: Math.min(60, gap * 0.34), weight: 800, fill: hi ? C.accent : C.fg, p: at(s, 0.3 + t(i)), maxW: 560 })}
+      ${sl ? text(sl, { y: 640 + i * gap + Math.min(46, gap * 0.27), size: Math.min(36, gap * 0.2), weight: 600, fill: C.muted, p: at(s, 0.35 + t(i)), maxW: 560 }) : ''}
+      ${text(r, { x: W - 90, anchor: 'end', y: 640 + i * gap, size: Math.min(96, gap * 0.5), heavy: true, fill: hi ? C.accent : C.fg, p: at(s, 0.45 + t(i)), maxW: 250 })}`).join('')}
+    ${foot ? text(foot, { y: 1700, size: 46, weight: 700, fill: C.accent, p: at(s, 0.6 + t(items.length)) }) : ''}`;
   },
   follow: (s, { line = 'A new race stat every day.' }) => `${text('Follow', { y: 760, size: 150, heavy: true, fill: C.accent, p: at(s, 0) })}
     ${text('@runsea.run', { y: 900, size: 96, heavy: true, p: at(s, 0) })}
@@ -149,7 +160,8 @@ const KINDS = {
  */
 const story = (topic, steps, caption, pal = 'brand', cover = pal !== 'brand', footage = null) => {
   const scenes = []; let t = 0;
-  for (const [dur, kind, props] of [...steps, [2.6, 'follow', {}]]) { scenes.push({ t0: t, t1: t + dur, kind, props }); t += dur; }
+  // Hook-first Reels (footage.follow false) end on the last scene: the follow line lives in the caption.
+  for (const [dur, kind, props] of [...steps, ...(footage?.follow === false ? [] : [[2.6, 'follow', {}]])]) { scenes.push({ t0: t, t1: t + dur, kind, props }); t += dur; }
   return { topic, dur: t, scenes, caption, footage, draw(time) {
     C = PALETTES[pal]; NOW = time;
     const sc = scenes.find((x) => time < x.t1) ?? scenes.at(-1);
@@ -324,6 +336,34 @@ const STORIES = {
       [14.0, 'pair', { title: 'Typical half marathon finish', a: { label: 'Races under 500 finishers', value: small, fmt: hm, hi: true }, b: { label: 'Races over 4,000 finishers', value: big, fmt: hm }, foot: 'Want to finish higher up? Go small.', times: [2.5, 8.2, 12.3] }],
     ], `Bigger race, slower field.\n\nIn Southeast Asian half marathons with under 500 finishers, the typical finish is ${hm(small)}. In races with over 4,000, it's ${hm(big)}.\n\nWant to finish further up the field? Go small. Find a smaller race near you at runsea.run\n\nFrom ${fields.length} half marathons (each race's typical finish). Footage and voice are AI-generated; the numbers are real. ${FOLLOW}\n\n#running #halfmarathon #southeastasia #runsea`,
     'footage', true, { clips: ['g-size.mp4'], slow: 1.5, len: 10, vo: 'vo-size.mp3', tempo: 1.15, delay: 0.3 });
+  })(),
+  // Hook-first Reels (3 Nov 2026, after 1,000+ views and no interactions): the number in
+  // the first frame, 9-13 s, no follow card (it's in the caption), footage where something
+  // happens. Folder hook-2026-11-03; vo.txt there holds the scripts. In the first scene the
+  // cover lead (1.6 s) is added to the clock, so line times there are voiceover time + 1.6.
+  'median-half-hook': (() => {
+    const v = pool.Half.map((x) => x[0]).sort((a, b) => a - b);
+    return story('am I average', [
+      [9.0, 'big', { y: 1000, kicker: 'HALF MARATHON, SOUTHEAST ASIA', num: hm(q(v, 0.5)), lines: [['The typical finish.', false, 3.7], ['Under it?', false, 7.2], ['You beat half the field.', true, 8.6]] }],
+    ], `${hm(q(v, 0.5))} is the typical half marathon in Southeast Asia. Under it? You beat half the field.\n\nWhat's your half time? Drop it below. Rank it exactly at runsea.run\n\nFrom ${n(v.length)} half marathon finishes. Footage and voice are AI-generated; the numbers are real. ${FOLLOW}\n\n#running #halfmarathon #southeastasia #runsea`,
+    'footage', true, { clips: [{ file: 'h-sprint.mp4', crop: '600:1066:60:0' }], slow: 1, len: 10, vo: 'vo-median.mp3', tempo: 1.15, delay: 0.3, follow: false });
+  })(),
+  // Footage: h-sprint (Gemini; cropped above shorts with a logo-like mark), h-rank and h-last (Wan, 5 s).
+  // vo-rank.mp3: "Under one forty-five? Top four percent. Under two hours? Top twelve. Under two thirty? Top thirty-eight."
+  'rank-half-hook': (() => {
+    const v = pool.Half.map((x) => x[0]).filter((x) => x > 0), top = (t) => `Top ${Math.ceil((100 * v.filter((x) => x < t).length) / v.length)}%`;
+    return story('challenge / comments', [
+      [12.9, 'list', { title: 'Drop your half time.', sub: 'Half marathon, Southeast Asia', items: [['Under 1:45', top(6300), false], ['Under 2:00', top(7200), true], ['Under 2:30', top(9000), false]], foot: 'Comment yours. Where are you?', times: [3.6, 7.0, 9.7, 13.1] }],
+    ], `Drop your half marathon time below 👇\n\nUnder 1:45: ${top(6300).toLowerCase()}\nUnder 2:00: ${top(7200).toLowerCase()}\nUnder 2:30: ${top(9000).toLowerCase()}\nUnder 3:00: ${top(10800).toLowerCase()}\n\nWhere are you? Find your exact rank at runsea.run\n\nFrom ${n(v.length)} half marathon finishes in Southeast Asia. Footage and voice are AI-generated; the numbers are real. ${FOLLOW}\n\n#running #halfmarathon #southeastasia #runsea`,
+    'footage', true, { clips: ['h-rank.mp4'], slow: 1.5, len: 5, vo: 'vo-rank.mp3', tempo: 1.15, delay: 0.3, follow: false });
+  })(),
+  // vo-last.mp3: "Four hours on their feet. That's the last one percent ..." (the last 1% finish after 4:02).
+  'last-one-percent-hook': (() => {
+    const v = pool.Half.map((x) => x[0]).sort((a, b) => a - b), p99 = q(v, 0.99);
+    return story("everyone's race", [
+      [10.4, 'big', { y: 960, kicker: 'HALF MARATHON, SOUTHEAST ASIA', num: `${hm(p99)}+`, lines: [['The last 1% are still', false, 3.9], ['out there after this.', false, 4.4], ['Same distance. Same medal.', false, 8.3], ['Respect.', true, 10.8]] }],
+    ], `The last 1% of half marathoners in Southeast Asia are still out on the course after ${hm(p99)}. More than four hours on their feet.\n\nSame distance. Same medal. Respect to the back of the pack. Tag someone who never gives up.\n\nFrom ${n(v.length)} half marathon finishes. Footage and voice are AI-generated; the numbers are real. ${FOLLOW}\n\n#running #halfmarathon #southeastasia #runsea`,
+    'footage', true, { clips: ['h-last.mp4'], slow: 1.5, len: 5, vo: 'vo-last.mp3', tempo: 1.15, delay: 0.3, follow: false });
   })(),
   'fastest-country-half': (() => {
     const cs = ft.countries.Half, sc = timeScale(cs.map((c) => c.median));
