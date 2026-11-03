@@ -1,34 +1,9 @@
 {
-  "category_id": "half-marathon",
-  "region_id": "vietnam",
-  "pros": [],
-  "cons": [],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [
-    "First edition: no past results or course reports yet.",
-    "Course map and start times were not published as text on the pages read; iRace gives only a 03:30-10:30 window on 1 November."
-  ],
-  "affiliate_links": [],
-  "cta_links": [
-    {
-      "label": "Visit official site",
-      "url": "https://fvrun.com.vn/",
-      "type": "official_website"
-    },
-    {
-      "label": "Entry page on ActiUp",
-      "url": "https://actiup.net/vi/event/fv-run",
-      "type": "registration"
-    }
-  ],
-  "related_entity_ids": [],
-  "last_updated": "2026-09-30",
-  "status": "needs_review",
-  "reliability_score": 30,
   "entity_id": "fv-run-run-with-heart-run-for-hope-2026",
   "slug": "fv-run-run-with-heart-run-for-hope-2026",
   "name": "FV RUN – Run with Heart, Run for Hope 2026",
+  "category_id": "half-marathon",
+  "region_id": "vietnam",
   "short_description": "FV RUN – Run with Heart, Run for Hope is on Sunday 1 November 2026 at Phu My Hung urban area in Ho Chi Minh City, over 5 km, 10 km and 21 km, plus a 3 x 1 km family relay.",
   "ai_summary": "FV RUN – Run with Heart, Run for Hope 2026 is the first edition of a community charity run organised by FV Hospital with the Nang Buoc Tuoi Tho charity fund. The event runs 31 October to 1 November 2026, and iRace lists the races on 1 November in the Phu My Hung urban area, Tan Hung ward, with a 03:30 to 10:30 window. Distances are 5 km, 10 km and 21 km, plus a family relay of 3 x 1 km. The organiser states that 100% of ticket revenue goes to the fund to pay for surgery for children from poor families.",
   "core_facts": {
@@ -39,12 +14,20 @@
       21.1
     ],
     "primary_distance_km": 21.1,
-    "venue": "Phu My Hung urban area, Tan Hung ward",
     "organizer": "FV Hospital, co-organised with the Nang Buoc Tuoi Tho charity fund",
     "price_range": "VND 650,000-1,050,000 (regular phase)",
+    "venue": "Phu My Hung urban area, Tan Hung ward",
     "city": "Ho Chi Minh City",
     "country": "Vietnam"
   },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [
+    "First edition: no past results or course reports yet.",
+    "Course map and start times were not published as text on the pages read; iRace gives only a 03:30-10:30 window on 1 November."
+  ],
   "faqs": [
     {
       "question": "What are the age limits and cut-offs at FV RUN – Run with Heart, Run for Hope 2026?",
@@ -55,6 +38,7 @@
       "answer": "In the regular phase listed on Pace8 the 21 km costs VND 1,050,000, the 10 km VND 850,000 and the 5 km VND 650,000. The 3 x 1 km family relay costs VND 980,000 per team. The 21 km entry includes a finisher shirt."
     }
   ],
+  "reliability_score": 30,
   "tags": [
     "half-marathon",
     "vietnam"
@@ -91,9 +75,25 @@
       "last_checked": "2026-09-30"
     }
   ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://fvrun.com.vn/",
+      "type": "official_website"
+    },
+    {
+      "label": "Entry page on ActiUp",
+      "url": "https://actiup.net/vi/event/fv-run",
+      "type": "registration"
+    }
+  ],
   "results": {
     "url": "https://sportstats.one/event/fv-run-run-with-heart-run-for-hope",
     "publisher": "SportStats",
     "last_checked": "2026-11-02"
-  }
+  },
+  "related_entity_ids": [],
+  "last_updated": "2026-11-03",
+  "status": "archived"
 }

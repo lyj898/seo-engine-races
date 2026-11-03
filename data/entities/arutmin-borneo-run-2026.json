@@ -1,6 +1,24 @@
 {
+  "entity_id": "arutmin-borneo-run-2026",
+  "slug": "arutmin-borneo-run-2026",
+  "name": "Arutmin Borneo Run 2026",
   "category_id": "half-marathon",
   "region_id": "indonesia",
+  "short_description": "Arutmin Borneo Run 2026 is a road race in Banjarbaru, South Kalimantan, on Sunday 1 November 2026, over 5 km, 10 km and the half marathon.",
+  "ai_summary": "Arutmin Borneo Run 2026 is a road race held in Banjarbaru, South Kalimantan, on Sunday 1 November 2026. It offers three distances -- 5 km, 10 km and a half marathon -- and is organised by IdeaRun. It is one of the few races of any size in South Kalimantan, a province with little on the national running calendar.",
+  "core_facts": {
+    "date": "2026-11-01",
+    "distance_km": [
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "organizer": "IdeaRun",
+    "venue": "Halaman Kantor Gubernur Kalimantan Selatan (South Kalimantan Governor's Office grounds), Banjarbaru",
+    "city": "Banjarbaru, South Kalimantan",
+    "country": "Indonesia"
+  },
   "pros": [
     "PASI-certified half-marathon course, measured in 2023",
     "Generous limits: four hours for the half, 90 minutes for the 5 km",
@@ -16,36 +34,6 @@
   "excerpt_quotes": [],
   "research_highlights": [],
   "research_watchouts": [],
-  "affiliate_links": [],
-  "cta_links": [
-    {
-      "label": "Visit official site",
-      "url": "https://arutminborneorun.com/",
-      "type": "official_website"
-    }
-  ],
-  "related_entity_ids": [],
-  "last_updated": "2026-09-30",
-  "status": "needs_review",
-  "reliability_score": 30,
-  "entity_id": "arutmin-borneo-run-2026",
-  "slug": "arutmin-borneo-run-2026",
-  "name": "Arutmin Borneo Run 2026",
-  "short_description": "Arutmin Borneo Run 2026 is a road race in Banjarbaru, South Kalimantan, on Sunday 1 November 2026, over 5 km, 10 km and the half marathon.",
-  "ai_summary": "Arutmin Borneo Run 2026 is a road race held in Banjarbaru, South Kalimantan, on Sunday 1 November 2026. It offers three distances -- 5 km, 10 km and a half marathon -- and is organised by IdeaRun. It is one of the few races of any size in South Kalimantan, a province with little on the national running calendar.",
-  "core_facts": {
-    "date": "2026-11-01",
-    "distance_km": [
-      5,
-      10,
-      21.1
-    ],
-    "primary_distance_km": 21.1,
-    "organizer": "IdeaRun",
-    "city": "Banjarbaru, South Kalimantan",
-    "country": "Indonesia",
-    "venue": "Halaman Kantor Gubernur Kalimantan Selatan (South Kalimantan Governor's Office grounds), Banjarbaru"
-  },
   "faqs": [
     {
       "question": "When is Arutmin Borneo Run 2026?",
@@ -56,6 +44,7 @@
       "answer": "Three: 5 km, 10 km and a half marathon. The half marathon is the headline distance, and the shorter races are aimed at newer runners and those who want a faster morning. Entry fees and cut-off times are set by the organiser, so check the official registration page before entering."
     }
   ],
+  "reliability_score": 30,
   "tags": [
     "half-marathon",
     "indonesia"
@@ -79,5 +68,16 @@
       "type": "official",
       "last_checked": "2026-09-30"
     }
-  ]
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://arutminborneorun.com/",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-11-03",
+  "status": "archived"
 }

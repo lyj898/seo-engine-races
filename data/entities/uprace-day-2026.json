@@ -1,34 +1,9 @@
 {
-  "category_id": "half-marathon",
-  "region_id": "vietnam",
-  "pros": [],
-  "cons": [],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [
-    "Course not verified: the route map is an image on Pace8 and the start is at a corporate campus, so it may be local loops.",
-    "Start times were not published as text on the page read."
-  ],
-  "affiliate_links": [],
-  "cta_links": [
-    {
-      "label": "Visit official site",
-      "url": "https://uprace.org/",
-      "type": "official_website"
-    },
-    {
-      "label": "Entry page on Pace8",
-      "url": "https://pace8.vn/su-kien/uprace-day-2026",
-      "type": "registration"
-    }
-  ],
-  "related_entity_ids": [],
-  "last_updated": "2026-09-30",
-  "status": "needs_review",
-  "reliability_score": 30,
   "entity_id": "uprace-day-2026",
   "slug": "uprace-day-2026",
   "name": "UPRACE DAY 2026",
+  "category_id": "half-marathon",
+  "region_id": "vietnam",
   "short_description": "UPRACE DAY is on Sunday 1 November 2026 at VNG Campus in Ho Chi Minh City, over 5 km, 10 km and 21 km.",
   "ai_summary": "UPRACE DAY 2026 is the in-person race day of UpRace, the free community running project VNG Corporation has run since 2018. It takes place on 1 November 2026 at VNG Campus, Z06 Street 13, Tan Thuan ward, Ho Chi Minh City, with Delta Advertising and Trading Co., Ltd. as operator. Distances are 5 km, 10 km and 21 km. The course was not published as text on the Pace8 page; that page labels the event a road race.",
   "core_facts": {
@@ -39,12 +14,20 @@
       21.1
     ],
     "primary_distance_km": 21.1,
-    "venue": "VNG Campus, Z06 Street 13, Tan Thuan ward",
     "organizer": "VNG Corporation (operated by Delta Advertising and Trading Co., Ltd.)",
     "price_range": "VND 650,000-850,000 (regular phase)",
+    "venue": "VNG Campus, Z06 Street 13, Tan Thuan ward",
     "city": "Ho Chi Minh City",
     "country": "Vietnam"
   },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [
+    "Course not verified: the route map is an image on Pace8 and the start is at a corporate campus, so it may be local loops.",
+    "Start times were not published as text on the page read."
+  ],
   "faqs": [
     {
       "question": "What are the age limits and cut-offs at UPRACE DAY 2026?",
@@ -55,6 +38,7 @@
       "answer": "In the regular phase the 21 km costs VND 850,000, the 10 km VND 750,000 and the 5 km VND 650,000. The 21 km includes a finisher shirt. Entries cannot be refunded; changes and transfers are accepted until 23:59 on 15 October 2026."
     }
   ],
+  "reliability_score": 30,
   "tags": [
     "half-marathon",
     "vietnam"
@@ -78,5 +62,21 @@
       "type": "official",
       "last_checked": "2026-09-30"
     }
-  ]
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://uprace.org/",
+      "type": "official_website"
+    },
+    {
+      "label": "Entry page on Pace8",
+      "url": "https://pace8.vn/su-kien/uprace-day-2026",
+      "type": "registration"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-11-03",
+  "status": "archived"
 }

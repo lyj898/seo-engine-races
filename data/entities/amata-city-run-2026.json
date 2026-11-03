@@ -1,31 +1,9 @@
 {
-  "category_id": "half-marathon",
-  "region_id": "thailand",
-  "pros": [],
-  "cons": [],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
-  "affiliate_links": [],
-  "cta_links": [
-    {
-      "label": "Visit official site",
-      "url": "https://www.afswecare.com/en/content/29891/join-us-at-amata-city-run-2026",
-      "type": "official_website"
-    },
-    {
-      "label": "Entry page on Thai.Run",
-      "url": "https://race.thai.run/amatacityrun2026",
-      "type": "registration"
-    }
-  ],
-  "related_entity_ids": [],
-  "last_updated": "2026-09-30",
-  "status": "needs_review",
-  "reliability_score": 30,
   "entity_id": "amata-city-run-2026",
   "slug": "amata-city-run-2026",
   "name": "Amata City Run 2026",
+  "category_id": "half-marathon",
+  "region_id": "thailand",
   "short_description": "Amata City Run 2026 is on Sunday 1 November 2026 at Amata City Industrial Estate in Chon Buri, over 3 km, 5 km, 10 km, 15 km and 21.1 km.",
   "ai_summary": "Amata City Run 2026 is organised by Amata Facility Services Co., Ltd. on the Tree Tunnel Road (Soi 1 Phitsuwan) beside the Amata Service Center in Amata City Industrial Estate, Chon Buri. The 21 km starts at 04:45 with a 2 hour 45 minute cut-off, followed by the 15 km, 10 km, 5 km and 3 km. Part of the income after costs goes to public-benefit organisations, and there are no age-group trophies.",
   "core_facts": {
@@ -38,11 +16,16 @@
       21.1
     ],
     "primary_distance_km": 21.1,
-    "venue": "Tree Tunnel Road (Soi 1 Phitsuwan), Amata City Industrial Estate",
     "organizer": "Amata Facility Services Co., Ltd.",
+    "venue": "Tree Tunnel Road (Soi 1 Phitsuwan), Amata City Industrial Estate",
     "city": "Chon Buri",
     "country": "Thailand"
   },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
   "faqs": [
     {
       "question": "What are the start times and cut-offs at Amata City Run 2026?",
@@ -53,6 +36,7 @@
       "answer": "Race kits are collected on Friday 16 and Saturday 17 October 2026 from 09:30 to 17:00 on the ground floor of the Amata Service Center. Bring your registration confirmation and ID card; there is no kit collection on race day except for postal delivery errors."
     }
   ],
+  "reliability_score": 30,
   "tags": [
     "half-marathon",
     "thailand"
@@ -76,5 +60,21 @@
       "type": "official",
       "last_checked": "2026-09-30"
     }
-  ]
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://www.afswecare.com/en/content/29891/join-us-at-amata-city-run-2026",
+      "type": "official_website"
+    },
+    {
+      "label": "Entry page on Thai.Run",
+      "url": "https://race.thai.run/amatacityrun2026",
+      "type": "registration"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-11-03",
+  "status": "archived"
 }

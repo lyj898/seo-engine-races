@@ -1,26 +1,9 @@
 {
-  "category_id": "full-marathon",
-  "region_id": "thailand",
-  "pros": [],
-  "cons": [],
-  "excerpt_quotes": [],
-  "research_highlights": [],
-  "research_watchouts": [],
-  "affiliate_links": [],
-  "cta_links": [
-    {
-      "label": "Official race page on Regis.run",
-      "url": "https://www.regis.run/event/nanmarathon2026",
-      "type": "official_website"
-    }
-  ],
-  "related_entity_ids": [],
-  "last_updated": "2026-09-30",
-  "status": "needs_review",
-  "reliability_score": 30,
   "entity_id": "amazing-nan-marathon-2026",
   "slug": "amazing-nan-marathon-2026",
   "name": "Amazing NAN Marathon 2026",
+  "category_id": "full-marathon",
+  "region_id": "thailand",
   "short_description": "Amazing NAN Marathon 2026 is on Sunday 1 November 2026 at Wat Phumin and Khuang Muang Nan in Nan, over 42 km, 21 km, 10 km and 5 km.",
   "ai_summary": "Amazing NAN Marathon 2026 is organised by Route Map Co., Ltd., with the event at Wat Phumin and Khuang Muang Nan in Mueang Nan District. The Regis.run page lists 42 km, 21 km, 10 km and 5 km races, including options with special \"Sub 4\", \"Sub 2\" and \"Sub 1\" finisher shirts. Bib collection is on Saturday 31 October 2026, and packs are not handed out on race day.",
   "core_facts": {
@@ -32,12 +15,17 @@
       42.195
     ],
     "primary_distance_km": 42.195,
-    "venue": "Wat Phumin and Khuang Muang Nan",
     "organizer": "Route Map Co., Ltd.",
     "price_range": "THB 600-1,400",
+    "venue": "Wat Phumin and Khuang Muang Nan",
     "city": "Nan",
     "country": "Thailand"
   },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
   "faqs": [
     {
       "question": "When is bib collection for Amazing NAN Marathon 2026?",
@@ -48,6 +36,7 @@
       "answer": "Regis.run lists THB 1,200 for the 42 km, THB 900 for the 21 km and THB 600 for the 10 km and 5 km. The versions with a special finisher shirt cost more: THB 1,400, THB 1,100 and THB 799 respectively."
     }
   ],
+  "reliability_score": 30,
   "tags": [
     "full-marathon",
     "thailand"
@@ -65,5 +54,16 @@
       "type": "aggregator",
       "last_checked": "2026-09-29"
     }
-  ]
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Official race page on Regis.run",
+      "url": "https://www.regis.run/event/nanmarathon2026",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-11-03",
+  "status": "archived"
 }
