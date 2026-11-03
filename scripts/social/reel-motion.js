@@ -365,6 +365,23 @@ const STORIES = {
     ], `The last 1% of half marathoners in Southeast Asia are still out on the course after ${hm(p99)}. More than four hours on their feet.\n\nSame distance. Same medal. Respect to the back of the pack. Tag someone who never gives up.\n\nFrom ${n(v.length)} half marathon finishes. Footage and voice are AI-generated; the numbers are real. ${FOLLOW}\n\n#running #halfmarathon #southeastasia #runsea`,
     'footage', true, { clips: ['h-last.mp4'], slow: 1.5, len: 5, vo: 'vo-last.mp3', tempo: 1.15, delay: 0.3, follow: false });
   })(),
+  // vo-walk.mp3: "You could walk a half marathon and still beat one in ten runners ... about three and a
+  // half hours." A brisk 6 km/h walk takes 3:30; 10.1% of half finishers take longer (3 Nov 2026 data).
+  'walk-it-hook': (() => {
+    const v = pool.Half.map((x) => x[0]).filter((x) => x > 0), walk = 21.0975 / 6 * 3600, behind = v.filter((x) => x > walk).length / v.length;
+    return story('everyone / first half', [
+      [13.6, 'big', { y: 980, kicker: `WALK A HALF MARATHON IN ${hm(walk)}`, num: `1 in ${Math.round(1 / behind)}`, lines: [['runners finish behind you.', true, 1.0], ['That is a brisk 6 km/h walk.', false, 7.0], ["Who's your walking buddy?", true, 13.0]] }],
+    ], `You could WALK a half marathon and still beat 1 in ${Math.round(1 / behind)} runners.
+
+A brisk walk (6 km/h) gets you round 21.1 km in about ${hm(walk)}. Across Southeast Asia, ${pct(behind)} of half marathon finishers take longer than that.
+
+Tag the friend who says they could never do a half marathon. Then check the cut-off before you enter: some races close the course earlier. Every race and its cut-off at runsea.run
+
+From ${n(v.length)} half marathon finishes. Footage and voice are AI-generated; the numbers are real. ${FOLLOW}
+
+#running #halfmarathon #walking #firsthalfmarathon #southeastasia #runsea`,
+    'footage', true, { clips: ['h-walk.mp4'], slow: 1.5, len: 8, vo: 'vo-walk.mp3', tempo: 1.15, delay: 0.3, follow: false });
+  })(),
   'fastest-country-half': (() => {
     const cs = ft.countries.Half, sc = timeScale(cs.map((c) => c.median));
     return story('country rivalry', [
