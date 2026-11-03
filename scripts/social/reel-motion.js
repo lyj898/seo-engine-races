@@ -295,6 +295,36 @@ const STORIES = {
     ], `Which country runs the fastest half marathon in Southeast Asia?\n\n${cs.map((c, i) => `${i + 1}. ${c.country}: ${hm(c.median)}`).join('\n')}\n\nTypical finish time, with each race counted equally so one giant race can't decide a country (${cs.reduce((a, c) => a + c.races, 0)} races, ${n(cs.reduce((a, c) => a + c.finishes, 0))} finishes; Singapore needs a third race in the data to be ranked). Does your country's spot surprise you? Rank your own time at runsea.run\n\nFootage and voice are AI-generated; the numbers are real. ${FOLLOW}\n\n#running #halfmarathon #southeastasia #thailandrunning #vietnamrunners #runnersph #larimalaysia #runsea`,
     'footage', true, { clips: ['g-country-0.mp4'], slow: 1.5, len: 10, vo: 'vo-country.mp3', tempo: 1.15, delay: 0.3 });
   })(),
+  // Gemini footage + voice (folder gemini-2026-11-03, one 10 s clip each; vo.txt there
+  // holds the scripts). vo-common.mp3 says "one twenty-three", "two twenty-eight", "four fifty-six".
+  'common-times-ai': (() => {
+    const h = modeMinute('Half'), f = modeMinute('Full'), k = modeMinute('10K');
+    return story('am I average', [
+      [4.0, 'hook', { kicker: 'SOUTHEAST ASIA', lines: [['The most', false], ['common', false], ['finish time.', true]] }],
+      [12.6, 'list', { title: 'The most common finish', sub: 'More runners cross the line in this minute than any other', items: [['10K', hm(k), false], ['Half marathon', hm(h), true], ['Marathon', hm(f), false]], foot: 'Faster or slower than the crowd?', step: 2.8 }],
+    ], `The most common finish times in Southeast Asia, the minute more runners cross the line in than any other:\n\n10K: ${hm(k)}\nHalf marathon: ${hm(h)}\nMarathon: ${hm(f)}\n\nAre you faster or slower than the crowd? Rank your own time at runsea.run\n\nFrom ${n(pool['10K'].length + pool.Half.length + pool.Full.length)} finishes. Footage and voice are AI-generated; the numbers are real. ${FOLLOW}\n\n#running #halfmarathon #marathon #10k #southeastasia #runsea`,
+    'footage', true, { clips: ['g-common.mp4'], slow: 1.5, len: 10, vo: 'vo-common.mp3', tempo: 1.15, delay: 0.3 });
+  })(),
+  // vo-gap.mp3 says "sixteen percent" (under 20) and "nine percent" (60 and over).
+  'gender-gap-60-ai': (() => {
+    const gap = (a) => { const m = median(pool.Half.filter((x) => x[1] === 'M' && x[2] === a).map((x) => x[0])), w = median(pool.Half.filter((x) => x[1] === 'F' && x[2] === a).map((x) => x[0])); return w / m - 1; };
+    const young = gap('U20'), old = gap('60+');
+    return story('gender', [
+      [5.0, 'hook', { kicker: 'HALF MARATHON, SOUTHEAST ASIA', lines: [['The gender gap', false], ['is smallest', false], ['at 60+.', true]] }],
+      [10.6, 'pair', { title: "Women's gap to men", a: { label: 'Under 20: typical woman behind by', value: young * 100, fmt: (x) => `${Math.round(x)}%` }, b: { label: '60 and over: just', value: old * 100, fmt: (x) => `${Math.round(x)}%`, hi: true }, foot: 'Know a runner in their 60s still racing?', times: [0.3, 5.1, 8.5] }],
+    ], `In the half marathon, the gap between men and women is smallest at 60 and over.\n\nUnder 20, the typical woman finishes ${pct(young)} behind the typical man. At 60 and over, the gap is just ${pct(old)}.\n\nKnow a runner in their 60s who's still racing? Tag them. Compare yourself with your age group at runsea.run\n\nFrom ${n(pool.Half.filter((x) => x[2]).length)} half marathon finishes with a published age group. Footage and voice are AI-generated; the numbers are real. ${FOLLOW}\n\n#running #halfmarathon #womenwhorun #over60 #southeastasia #runsea`,
+    'footage', true, { clips: [{ file: 'g-gap.mp4', crop: '585:1040:68:0' }], slow: 1.5, len: 10, vo: 'vo-gap.mp3', tempo: 1.15, delay: 0.3 });
+  })(),
+  // vo-size.mp3 says "two thirty-six" (under 500 finishers) and "two forty-seven" (over 4,000).
+  'bigger-races-ai': (() => {
+    const band = (lo, hi) => median(fields.filter((r) => r.n >= lo && r.n < hi).map((r) => r.med));
+    const small = band(0, 500), big = band(4000, 1e9);
+    return story('race choice', [
+      [2.6, 'hook', { kicker: 'HALF MARATHON, SOUTHEAST ASIA', lines: [['Bigger race,', false], ['slower field.', true]] }],
+      [14.0, 'pair', { title: 'Typical half marathon finish', a: { label: 'Races under 500 finishers', value: small, fmt: hm, hi: true }, b: { label: 'Races over 4,000 finishers', value: big, fmt: hm }, foot: 'Want to finish higher up? Go small.', times: [2.5, 8.2, 12.3] }],
+    ], `Bigger race, slower field.\n\nIn Southeast Asian half marathons with under 500 finishers, the typical finish is ${hm(small)}. In races with over 4,000, it's ${hm(big)}.\n\nWant to finish further up the field? Go small. Find a smaller race near you at runsea.run\n\nFrom ${fields.length} half marathons (each race's typical finish). Footage and voice are AI-generated; the numbers are real. ${FOLLOW}\n\n#running #halfmarathon #southeastasia #runsea`,
+    'footage', true, { clips: ['g-size.mp4'], slow: 1.5, len: 10, vo: 'vo-size.mp3', tempo: 1.15, delay: 0.3 });
+  })(),
   'fastest-country-half': (() => {
     const cs = ft.countries.Half, sc = timeScale(cs.map((c) => c.median));
     return story('country rivalry', [
