@@ -21,8 +21,9 @@ name: Weekly data refresh
 #     arrive when someone adds them.
 #   - `npm run validate` still runs before and after, so a run that would
 #     leave data/ schema-invalid commits nothing at all.
-#   - Every run that changes something opens an issue naming exactly what was
-#     archived, and redeploys.
+#   - Every run that changes something commits with a headline naming what
+#     was archived (full list on the run's summary page), and redeploys.
+#     No issue or email is sent.
 #
 # The AI scripts (scripts/discover-entities.js and friends, `npm run
 # discover` / `refresh` / `research` / `summaries` / `listicles`) still exist
@@ -54,7 +55,6 @@ concurrency:
 
 permissions:
   contents: write
-  issues: write # the run summary is delivered as an issue (see below)
 
 jobs:
   # Turns a daily tick into a Tuesday-anchored weekly cadence: a manual
@@ -165,32 +165,12 @@ jobs:
           git pull --rebase --autostash origin main
           git push origin HEAD:main
 
-      - name: Notify by email (via a GitHub issue)
+      - name: Show the summary in the run log
         if: steps.summary.outputs.changed == 'true'
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          # @-mention the owner in the body as well as assigning them. These are
-          # two different GitHub notification categories ("Mentions" vs
-          # "Participating"), emailed independently, and Mentions is the one
-          # people most often have switched on -- so this is the cheapest way to
-          # make delivery more likely without anyone changing their settings.
-          printf '@%s\n\n' "${{ github.repository_owner }}" > issue-body.md
-          cat refresh-summary.md >> issue-body.md
-          gh issue create \
-            --title "${{ steps.summary.outputs.headline }}" \
-            --body-file issue-body.md \
-            --label automated-refresh \
-            --assignee "${{ github.repository_owner }}"
-        # Delivered as an issue rather than SMTP on purpose: GitHub emails the
-        # assignee automatically, so this needs no mail server, no app
-        # password and no secret to rotate. The summary is also permanently
-        # searchable in the repo, which a mailbox thread is not.
-        #
-        # WHICH ADDRESS IT REACHES is a property of the recipient's GitHub
-        # account (Settings > Emails, plus Settings > Notifications), not of
-        # anything in this repo -- there is no address to configure here. If
-        # mail is not arriving, check those two pages first.
+        run: cat refresh-summary.md >> "$GITHUB_STEP_SUMMARY"
+        # The summary used to be opened as an issue assigned to the owner,
+        # which GitHub emailed every Tuesday. Removed 4 Nov 2026 at Alex's
+        # request: the run's summary page and the commit message carry it now.
 
       - name: No changes this run
         if: steps.summary.outputs.changed == 'false'
