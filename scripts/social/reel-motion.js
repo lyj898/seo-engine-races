@@ -402,6 +402,40 @@ From ${n(v.length)} half marathon finishes. Footage and voice are AI-generated; 
     ], `Worried about a three-hour half marathon? Don't be.\n\nAcross Southeast Asia, ${pct(over)} of half marathon finishers take longer than 3 hours: 1 in ${Math.round(1 / over)}. Same distance, same medal.\n\nWhat's stopping you? Tag the friend who keeps saying "next year". Find a half with a generous cut-off at runsea.run\n\nFrom ${n(v.length)} half marathon finishes. Jess is RunSea's AI host: her face, voice and footage are AI-generated; the numbers are real. ${FOLLOW}\n\n#running #halfmarathon #firsthalfmarathon #beginnerrunner #southeastasia #runsea`,
     'footage', true, { clips: [{ file: 'jess-three-hours.mp4', crop: '704:1252:0:14' }], slow: 1, len: 10, vo: 'jess-three-hours.mp4', tempo: 1, delay: 0, follow: false });
   })(),
+  // Jess, one new look per Reel (Alex 3 Nov: new hairstyle, outfit AND background every time; the
+  // log is in host/jess/notes.txt). Folder jess-2026-11-03b; each clip is her lip-synced walk, used as
+  // footage and soundtrack. Line times in this first scene are voiceover time + 1.6.
+  // Low bun, navy singlet, waterfront promenade. vo-women-half.mp3: "... under two-thirty ... top
+  // quarter ... Under two hours [6.9 s]? Top five percent. Where do you land [9.1 s]?"
+  'women-half-jess': (() => {
+    const w = pool.Half.filter((x) => x[1] === 'F' && x[0] > 0).map((x) => x[0]), top = (t) => Math.ceil((100 * w.filter((x) => x < t).length) / w.length);
+    return story('women / benchmarks', [
+      [9.95, 'big', { y: 980, kicker: "WOMEN'S HALF MARATHON, SEA", num: `Top ${top(9000)}%`, lines: [['if you finish under 2:30.', false, 0.3], [`Under 2:00? Top ${top(7200)}%.`, false, 8.4], ['Where do you land?', true, 10.6]] }],
+    ], `Ladies, here's your half marathon benchmark.\n\nAcross Southeast Asia, finishing under 2:30 puts you in the top ${top(9000)}% of women. Under 2:00? Top ${top(7200)}%. Under 3:00: top ${top(10800)}%.\n\nWhere do you land? Drop your time below, then rank it exactly at runsea.run\n\nFrom ${n(w.length)} women's half marathon finishes. Jess is RunSea's AI host: her face, voice and footage are AI-generated; the numbers are real. ${FOLLOW}\n\n#running #halfmarathon #womenwhorun #southeastasia #runsea`,
+    'footage', true, { clips: [{ file: 'jess-women-half.mp4', crop: '704:1252:0:14' }], slow: 1, len: 9.95, vo: 'jess-women-half.mp4', tempo: 1, delay: 0, follow: false });
+  })(),
+  // French braid, coral long-sleeve, park trail. vo-10k-pace.mp3: "... slower per kilometre than the
+  // typical marathoner. Eight thirty-one [5.0 s], versus seven forty-two [6.5 s]. Which one are you [9.1 s]?"
+  '10k-pace-jess': (() => {
+    const pace = (k, km) => { const v = pool[k].map((x) => x[0]).filter((x) => x > 0); const s = median(v) / km; return `${Math.floor(s / 60)}:${String(Math.round(s % 60)).padStart(2, '0')}`; };
+    const p10 = pace('10K', 10), pf = pace('Full', 42.195), ph = pace('Half', 21.0975);
+    return story('pace / surprise', [
+      [9.9, 'big', { y: 980, kicker: 'TYPICAL 10K PACE, SEA', num: `${p10}/km`, lines: [['slower than the typical', false, 0.3], [`marathoner: ${pf}/km.`, false, 8.1], ['Which one are you?', true, 10.6]] }],
+    ], `Here's a weird one: the typical 10K runner in Southeast Asia is slower per kilometre than the typical marathoner.\n\nTypical pace: 10K ${p10}/km, half marathon ${ph}/km, marathon ${pf}/km.\n\nWhich one are you? Check where your pace ranks at runsea.run\n\nTypical (median) finish times from ${n(pool['10K'].length + pool.Half.length + pool.Full.length)} finishes. Jess is RunSea's AI host: her face, voice and footage are AI-generated; the numbers are real. ${FOLLOW}\n\n#running #10k #marathon #pace #southeastasia #runsea`,
+    'footage', true, { clips: [{ file: 'jess-10k-pace.mp4', crop: '704:1252:0:14' }], slow: 1, len: 9.9, vo: 'jess-10k-pace.mp4', tempo: 1, delay: 0, follow: false });
+  })(),
+  // Half-up knot, white tee + teal shorts, rooftop track at dusk. vo-forties-men.mp3: "Which age group
+  // runs the fastest marathon ... Not the twenty-somethings. Men in their forties [5.1 s]! Four fifty-nine
+  // [6.6 s], the only group under five hours [7.9 s]."
+  'forties-men-jess': (() => {
+    const med = (g, a) => median(pool.Full.filter((x) => x[1] === g && x[2] === a).map((x) => x[0]));
+    const ages = ['U20', '20-29', '30-39', '40-49', '50-59', '60+'], m40 = med('M', '40-49');
+    const under5 = ages.flatMap((a) => ['M', 'F'].map((g) => med(g, a))).filter((x) => x < 18000).length;
+    return story('age', [
+      [9.82, 'big', { y: 980, kicker: 'FASTEST MARATHON AGE GROUP', num: hm(m40), lines: [['typical finish:', false, 0.3], ['men in their 40s.', true, 6.7], [under5 === 1 ? 'The only group under 5 hours.' : `${under5} groups under 5 hours.`, false, 9.5]] }],
+    ], `Which age group runs the fastest marathon in Southeast Asia? Not the twenty-somethings.\n\nMen in their 40s: a typical finish of ${hm(m40)}${under5 === 1 ? ', the only age group under five hours' : ''}. Men in their 20s: ${hm(med('M', '20-29'))}. 30s: ${hm(med('M', '30-39'))}. 50s: ${hm(med('M', '50-59'))}.\n\nTag the 40-something who keeps getting faster. Compare yourself with your age group at runsea.run\n\nFrom ${n(pool.Full.filter((x) => x[2]).length)} marathon finishes with a published age group. Jess is RunSea's AI host: her face, voice and footage are AI-generated; the numbers are real. ${FOLLOW}\n\n#running #marathon #over40 #southeastasia #runsea`,
+    'footage', true, { clips: [{ file: 'jess-forties-men.mp4', crop: '704:1252:0:14' }], slow: 1, len: 9.82, vo: 'jess-forties-men.mp4', tempo: 1, delay: 0, follow: false });
+  })(),
   // AI version of RunSea's founder (his own photos and OK, 3 Nov 2026; host/alex/notes.txt), in his real
   // Chicago Marathon kit. Same pipeline as Jess. vo-alex-40s.mp3 (ElevenLabs "Will", pauses tightened):
   // "I just ran the Chicago Marathon! ... almost four in ten marathoners are over forty. And they finish
