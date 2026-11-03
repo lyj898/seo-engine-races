@@ -393,6 +393,28 @@ From ${n(v.length)} half marathon finishes. Footage and voice are AI-generated; 
     ], `Almost half of 10K runners in Southeast Asia are women (${pct(share('10K'))}). In the marathon? Fewer than 1 in 5 (${pct(share('Full'))}).\n\nHalf marathon: ${pct(share('Half'))}.\n\nLadies, who's moving up a distance next year? Tag your running buddy. Find your next race at runsea.run\n\nFrom ${n(pool['10K'].length + pool.Half.length + pool.Full.length)} finishes across Southeast Asia. Jess is RunSea's AI host: her face, voice and footage are AI-generated; the numbers are real. ${FOLLOW}\n\n#running #marathon #womenwhorun #10k #southeastasia #runsea`,
     'footage', true, { clips: [{ file: 'jess-women.mp4', crop: '704:1252:0:14' }], slow: 1, len: 9.9, vo: 'jess-women.mp4', tempo: 1, delay: 0, follow: false });
   })(),
+  // Jess, hair down (host/jess/jess-walk-raw-waves.mp4). vo-jess-three-hours.mp3: "... Worried about a
+  // three-hour half marathon? Don't be. One in three [4.6 s] ... So... what's stopping you [9.1 s]?"
+  'three-hours-jess': (() => {
+    const v = pool.Half.map((x) => x[0]).filter((x) => x > 0), over = v.filter((x) => x > 10800).length / v.length;
+    return story('everyone / first half', [
+      [10.0, 'big', { y: 980, kicker: 'HALF MARATHON, SOUTHEAST ASIA', num: `1 in ${Math.round(1 / over)}`, lines: [['take longer than 3 hours.', false, 0.3], ["You're in good company.", false, 6.2], ["What's stopping you?", true, 10.6]] }],
+    ], `Worried about a three-hour half marathon? Don't be.\n\nAcross Southeast Asia, ${pct(over)} of half marathon finishers take longer than 3 hours: 1 in ${Math.round(1 / over)}. Same distance, same medal.\n\nWhat's stopping you? Tag the friend who keeps saying "next year". Find a half with a generous cut-off at runsea.run\n\nFrom ${n(v.length)} half marathon finishes. Jess is RunSea's AI host: her face, voice and footage are AI-generated; the numbers are real. ${FOLLOW}\n\n#running #halfmarathon #firsthalfmarathon #beginnerrunner #southeastasia #runsea`,
+    'footage', true, { clips: [{ file: 'jess-three-hours.mp4', crop: '704:1252:0:14' }], slow: 1, len: 10, vo: 'jess-three-hours.mp4', tempo: 1, delay: 0, follow: false });
+  })(),
+  // AI version of RunSea's founder (his own photos and OK, 3 Nov 2026; host/alex/notes.txt), in his real
+  // Chicago Marathon kit. Same pipeline as Jess. vo-alex-40s.mp3 (ElevenLabs "Will", pauses tightened):
+  // "I just ran the Chicago Marathon! ... almost four in ten marathoners are over forty. And they finish
+  // faster [6.2 s] ... Too old [8.3 s]? Not a chance."
+  'over-40-founder': (() => {
+    const a = pool.Full.filter((x) => x[2]), old = ['40-49', '50-59', '60+'];
+    const o = a.filter((x) => old.includes(x[2])), y = a.filter((x) => !old.includes(x[2]));
+    const mo = median(o.map((x) => x[0])), my = median(y.map((x) => x[0]));
+    return story('age', [
+      [9.9, 'big', { y: 1000, kicker: 'MARATHON, SOUTHEAST ASIA', num: pct(o.length / a.length), lines: [['of finishers are 40 or older.', false, 0.3], [`And faster: ${hm(mo)} vs ${hm(my)}.`, false, 7.8], ['Too old? Not a chance.', true, 9.9]] }],
+    ], `I just ran the Chicago Marathon. Back home, ${pct(o.length / a.length)} of Southeast Asia's marathoners are 40 or older, and they're faster: the typical 40+ finish is ${hm(mo)}, against ${hm(my)} for under-40s.\n\nToo old for a marathon? Not a chance. Tag the 40+ runner who inspires you. Find your next race at runsea.run\n\nFrom ${n(a.length)} marathon finishes with a published age group. This is an AI-generated version of RunSea's founder, made from his own photos, with an AI voice. The Chicago finish was real, and so are the numbers. ${FOLLOW}\n\n#running #marathon #over40 #chicagomarathon #southeastasia #runsea`,
+    'footage', true, { clips: [{ file: 'alex-40s.mp4', crop: '704:1252:0:14' }], slow: 1, len: 9.9, vo: 'alex-40s.mp4', tempo: 1, delay: 0, follow: false });
+  })(),
   'fastest-country-half': (() => {
     const cs = ft.countries.Half, sc = timeScale(cs.map((c) => c.median));
     return story('country rivalry', [
