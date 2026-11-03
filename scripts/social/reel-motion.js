@@ -382,6 +382,17 @@ From ${n(v.length)} half marathon finishes. Footage and voice are AI-generated; 
 #running #halfmarathon #walking #firsthalfmarathon #southeastasia #runsea`,
     'footage', true, { clips: ['h-walk.mp4'], slow: 1.5, len: 8, vo: 'vo-walk.mp3', tempo: 1.15, delay: 0.3, follow: false });
   })(),
+  // Jess, RunSea's AI host (3 Nov 2026; host/jess/notes.txt has how she's made). The clip is
+  // her lip-synced walk (Wan i2v + InfiniteTalk), so its own audio is the soundtrack (vo = the clip,
+  // delay 0) and lips stay in sync. vo-jess-women.mp3: "... Almost half of all 10K runners in
+  // Southeast Asia are women [2.0 s]. But the marathon? Fewer than one in five. So, ladies [8.0 s]..."
+  'women-share-jess': (() => {
+    const share = (k) => { const g = pool[k].filter((x) => x[1] === 'M' || x[1] === 'F'); return g.filter((x) => x[1] === 'F').length / g.length; };
+    return story('gender / participation', [
+      [9.9, 'big', { y: 980, kicker: 'MARATHON, SOUTHEAST ASIA', num: pct(share('Full')), lines: [['of finishers are women.', false, 0.3], [`In the 10K: ${pct(share('10K'))}.`, false, 3.6], ["Ladies, who's moving up?", true, 9.6]] }],
+    ], `Almost half of 10K runners in Southeast Asia are women (${pct(share('10K'))}). In the marathon? Fewer than 1 in 5 (${pct(share('Full'))}).\n\nHalf marathon: ${pct(share('Half'))}.\n\nLadies, who's moving up a distance next year? Tag your running buddy. Find your next race at runsea.run\n\nFrom ${n(pool['10K'].length + pool.Half.length + pool.Full.length)} finishes across Southeast Asia. Jess is RunSea's AI host: her face, voice and footage are AI-generated; the numbers are real. ${FOLLOW}\n\n#running #marathon #womenwhorun #10k #southeastasia #runsea`,
+    'footage', true, { clips: [{ file: 'jess-women.mp4', crop: '704:1252:0:14' }], slow: 1, len: 9.9, vo: 'jess-women.mp4', tempo: 1, delay: 0, follow: false });
+  })(),
   'fastest-country-half': (() => {
     const cs = ft.countries.Half, sc = timeScale(cs.map((c) => c.median));
     return story('country rivalry', [
