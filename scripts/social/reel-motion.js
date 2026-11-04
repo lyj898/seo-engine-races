@@ -450,15 +450,15 @@ From ${n(v.length)} half marathon finishes. Footage and voice are AI-generated; 
     ], `Running the Singapore Marathon on 6 December? Here's what last year's field ran.\n\nMarathon: typical finish ${hm(q(full, 0.5))}. Under 4:00 = top ${Math.ceil(share(full, 14400) * 100)}% (about 1 in ${Math.round(1 / share(full, 14400))}). Under 5:00 = top ${Math.ceil(share(full, 18000) * 100)}%.\nHalf marathon: typical finish ${hm(q(half, 0.5))}. Under 2:00 = top ${Math.ceil(share(half, 7200) * 100)}%.\n\nWhat's your goal time? Drop it below 👇 Then see where it would have placed last year at runsea.run\n\nFrom ${n(full.length + half.length)} marathon and half marathon finishes at last year's race. Jess is RunSea's AI host: her face, voice and footage are AI-generated; the numbers are real. ${FOLLOW}\n\n#singaporemarathon #runningsg #marathon #halfmarathon #singapore #runsea`,
     'footage', true, { clips: [{ file: 'jess-sg-marathon.mp4', crop: '704:1252:0:14' }], slow: 1, len: 9.9, vo: 'jess-sg-marathon.mp4', tempo: 1, delay: 0, follow: false });
   })(),
-  // Trial for Cynthia, a second AI host (Alex, 4 Nov 2026; on hold behind Jess, not posted). Gemini
-  // photo-to-video walk + InfiniteTalk lip-sync, ElevenLabs "Laura". vo-cynthia-trial.mp3: "Hi, I'm
-  // Cynthia from RunSea! Which country runs the fastest half [2.0 s] ... Thailand [5.7 s]! A typical
-  // finish of two twenty-one [6.6 s]. Think you can beat it [8.9 s]?"
+  // Cynthia, RunSea's second AI host: her first reel (made as a trial 4 Nov 2026, Alex approved it and
+  // said post it). Gemini photo-to-video walk + InfiniteTalk lip-sync, ElevenLabs "Laura".
+  // vo-cynthia-trial.mp3: "Hi, I'm Cynthia from RunSea! Which country runs the fastest half [2.0 s] ...
+  // Thailand [5.7 s]! A typical finish of two twenty-one [6.6 s]. Think you can beat it [8.9 s]?"
   'cynthia-trial': (() => {
-    const c = ft.countries.Half[0];
+    const cs = ft.countries.Half, c = cs[0];
     return story('country rivalry', [
       [9.9, 'big', { y: 1040, kicker: 'FASTEST HALF MARATHON COUNTRY', num: hm(c.median), lines: [[`${c.country}: typical finish.`, false, 7.3], ['Think you can beat it?', true, 10.5]] }],
-    ], `Trial only (not posted). ${c.country} runs the fastest half marathon in Southeast Asia: typical finish ${hm(c.median)}. Cynthia is an AI host: face, voice and footage are AI-generated; the numbers are real.`,
+    ], `Which country runs the fastest half marathon in Southeast Asia? ${c.country}: a typical finish of ${hm(c.median)}.\n\n${cs.map((x, i) => `${i + 1}. ${x.country} ${hm(x.median)}`).join('\n')}\n\nThink you can beat ${hm(c.median)}? Drop your half time below 👇 and rank it at runsea.run\n\nTypical finish, with each race counted equally (${cs.reduce((a, x) => a + x.races, 0)} races). Meet Cynthia, RunSea's newest AI host: her face, voice and footage are AI-generated; the numbers are real. ${FOLLOW}\n\n#running #halfmarathon #thailandrunning #southeastasia #runsea`,
     'footage', true, { clips: [{ file: 'cynthia-trial-talk.mp4', crop: '704:1252:0:14' }], slow: 1, len: 9.9, vo: 'cynthia-trial-talk.mp4', tempo: 1, delay: 0, follow: false });
   })(),
   // AI version of RunSea's founder (his own photos and OK, 3 Nov 2026; host/alex/notes.txt), in his real
