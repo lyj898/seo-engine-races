@@ -450,6 +450,22 @@ From ${n(v.length)} half marathon finishes. Footage and voice are AI-generated; 
     ], `Running the Singapore Marathon on 6 December? Here's what last year's field ran.\n\nMarathon: typical finish ${hm(q(full, 0.5))}. Under 4:00 = top ${Math.ceil(share(full, 14400) * 100)}% (about 1 in ${Math.round(1 / share(full, 14400))}). Under 5:00 = top ${Math.ceil(share(full, 18000) * 100)}%.\nHalf marathon: typical finish ${hm(q(half, 0.5))}. Under 2:00 = top ${Math.ceil(share(half, 7200) * 100)}%.\n\nWhat's your goal time? Drop it below 👇 Then see where it would have placed last year at runsea.run\n\nFrom ${n(full.length + half.length)} marathon and half marathon finishes at last year's race. Jess is RunSea's AI host: her face, voice and footage are AI-generated; the numbers are real. ${FOLLOW}\n\n#singaporemarathon #runningsg #marathon #halfmarathon #singapore #runsea`,
     'footage', true, { clips: [{ file: 'jess-sg-marathon.mp4', crop: '704:1252:0:14' }], slow: 1, len: 9.9, vo: 'jess-sg-marathon.mp4', tempo: 1, delay: 0, follow: false });
   })(),
+  // First "results" reel (Alex 4 Nov: give runners a reason to follow): a race that has just run, and
+  // where each finish time ranks in it. Jess, down waves + sky-blue tee, east-coast beach road.
+  // vo.mp3 (Matilda): "Ran the Terengganu Half Marathon on Saturday? [2.5 s] Under two-thirty puts you
+  // in the top third. [4.9 s] Under two hours? Top nine percent! [7.6 s] Drop your time below."
+  'terengganu-results-jess': (() => {
+    const d = JSON.parse(fs.readFileSync(path.join('data', 'finish-times', 'terengganu-half-marathon-2026-powered-by-jomrun.json'), 'utf8'));
+    const all = d.distances.Half.times.filter((x) => x[0] > 0);
+    const t = all.map((x) => x[0]).sort((a, b) => a - b);
+    const top = (c) => Math.ceil((t.filter((x) => x < c).length / t.length) * 100);
+    const med = (g) => q(all.filter((x) => x[1] === g).map((x) => x[0]).sort((a, b) => a - b), 0.5);
+    const tiers = [[6300, '1:45'], [7200, '2:00'], [8100, '2:15'], [9000, '2:30'], [9900, '2:45'], [10800, '3:00']].map(([c, l]) => `Under ${l}: top ${top(c)}%`).join('\n');
+    return story('race results / rank your time', [
+      [8.85, 'big', { y: 920, kicker: 'TERENGGANU HALF MARATHON, 31 OCT', num: hm(q(t, 0.5)), lines: [['typical finish.', false, 0.3], ['Under 2:30: top third.', false, 4.1], [`Under 2:00: top ${top(7200)}%.`, false, 6.5], ['Drop your time below.', true, 9.2]] }],
+    ], `Ran the Terengganu Half Marathon on Saturday (31 Oct)? Here's how your time ranks among ${n(t.length)} finishers:\n\n${tiers}\n\nTypical finish: ${hm(q(t, 0.5))} (men ${hm(med('M'))}, women ${hm(med('F'))}).\n\nComment your finish time and we'll tell you exactly where you landed 👇 Or rank any race time at runsea.run/tools\n\nFrom the official results (RaceTiger). Jess is RunSea's AI host: her face, voice and footage are AI-generated; the numbers are real. ${FOLLOW}\n\n#terengganuhalfmarathon #kualaterengganu #halfmarathon #larian #runmalaysia #running #runsea`,
+    'footage', true, { clips: [{ file: 'jess-terengganu-talk.mp4', crop: '704:1252:8:14' }], slow: 1, len: 8.85, vo: 'jess-terengganu-talk.mp4', tempo: 1, delay: 0, follow: false });
+  })(),
   // Cynthia, RunSea's second AI host: her first reel (made as a trial 4 Nov 2026, Alex approved it and
   // said post it). Gemini photo-to-video walk + InfiniteTalk lip-sync, ElevenLabs "Laura".
   // vo-cynthia-trial.mp3: "Hi, I'm Cynthia from RunSea! Which country runs the fastest half [2.0 s] ...
