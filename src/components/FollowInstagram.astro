@@ -1,0 +1,19 @@
+---
+// A short "follow us on Instagram" line for pages people land on from search
+// and ChatGPT (club city pages, race pages). Renders nothing when
+// site.config.json has no instagramUrl. Outbound clicks show up in GA4's
+// enhanced-measurement "click" event (link_domain instagram.com).
+import siteConfig from '../lib/config.js';
+
+interface Props {
+  text: string;
+}
+const { text } = Astro.props;
+const handle = '@' + (siteConfig.instagramUrl ?? '').replace(/\/+$/, '').split('/').pop();
+---
+{siteConfig.instagramUrl && (
+  <p class="flex flex-wrap items-center gap-x-2 gap-y-1 rounded-lg border border-brand-border bg-brand-surface p-4 text-sm dark:border-brand-border-dark dark:bg-brand-surface-dark">
+    <span>{text}</span>
+    <a href={siteConfig.instagramUrl} target="_blank" rel="noopener" class="link-accent inline-flex min-h-[44px] items-center font-semibold">Follow {handle} on Instagram ↗</a>
+  </p>
+)}

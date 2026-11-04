@@ -8,6 +8,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import EntityCard from '../../components/EntityCard.astro';
 import Pill from '../../components/Pill.astro';
+import FollowInstagram from '../../components/FollowInstagram.astro';
 import { buildBreadcrumbListSchema } from '../../lib/schema-jsonld.js';
 
 // One page per city: its running clubs, its coaches, and the races run
@@ -153,7 +154,11 @@ const description = `${clubs.length} running clubs and crews${coaches.length ? `
       </section>
     )}
 
-    <p class="mt-12 rounded-lg border border-brand-border bg-brand-surface-offset p-4 text-sm text-brand-muted dark:border-brand-border-dark dark:bg-brand-surface-offset-dark dark:text-brand-muted-dark">
+    <div class="mt-12">
+      <FollowInstagram text="Race calendars and finish-time stats for Southeast Asia, every day." />
+    </div>
+
+    <p class="mt-6 rounded-lg border border-brand-border bg-brand-surface-offset p-4 text-sm text-brand-muted dark:border-brand-border-dark dark:bg-brand-surface-offset-dark dark:text-brand-muted-dark">
       Schedules change, so check a club's own page before you turn up. Run a club or coach in {city.city} and want
       to be listed, or spotted something out of date? <a href={urls.contact()} class="link-accent">Get in touch</a>.
       Listings were last checked on {city.last_updated}.

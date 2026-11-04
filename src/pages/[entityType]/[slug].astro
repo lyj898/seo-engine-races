@@ -17,6 +17,7 @@ import SentimentBreakdown from '../../components/SentimentBreakdown.astro';
 import ExcerptQuotes from '../../components/ExcerptQuotes.astro';
 import ReviewArticle from '../../components/ReviewArticle.astro';
 import FAQSection from '../../components/FAQSection.astro';
+import FollowInstagram from '../../components/FollowInstagram.astro';
 import CTABlock from '../../components/CTABlock.astro';
 import RelatedEntities from '../../components/RelatedEntities.astro';
 import RelatedListicles from '../../components/RelatedListicles.astro';
@@ -434,6 +435,12 @@ const jsonLd = [
         />
       </div>
     )}
+
+    <div class="mt-10">
+      <FollowInstagram text={results
+        ? `Ran ${entity.name}? We post how finish times stack up after races across Southeast Asia.`
+        : 'Race calendars and finish-time stats for Southeast Asia, every day.'} />
+    </div>
 
     <div class="mt-10">
       <FAQSection faqs={mergedFaqs} />
