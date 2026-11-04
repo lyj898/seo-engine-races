@@ -461,6 +461,19 @@ From ${n(v.length)} half marathon finishes. Footage and voice are AI-generated; 
     ], `Which country runs the fastest half marathon in Southeast Asia? ${c.country}: a typical finish of ${hm(c.median)}.\n\n${cs.map((x, i) => `${i + 1}. ${x.country} ${hm(x.median)}`).join('\n')}\n\nThink you can beat ${hm(c.median)}? Drop your half time below 👇 and rank it at runsea.run\n\nTypical finish, with each race counted equally (${cs.reduce((a, x) => a + x.races, 0)} races). Meet Cynthia, RunSea's newest AI host: her face, voice and footage are AI-generated; the numbers are real. ${FOLLOW}\n\n#running #halfmarathon #thailandrunning #southeastasia #runsea`,
     'footage', true, { clips: [{ file: 'cynthia-trial-talk.mp4', crop: '704:1252:0:14' }], slow: 1, len: 9.9, vo: 'cynthia-trial-talk.mp4', tempo: 1, delay: 0, follow: false });
   })(),
+  // Both hosts (4 Nov 2026): Jess (left, Matilda) asks, Cynthia (right, Laura) answers. One Gemini
+  // two-shot walk, lip-synced with InfiniteTalk Multi (left audio, then right). Jess: "Cynthia! Who runs a
+  // faster half marathon: people in their forties, or their fifties?" (0-4.6 s). Cynthia: "No way! The men
+  // are just seven seconds apart [5.5 s]. And women in their fifties [7.8 s] are actually faster!"
+  'forties-fifties-duo': (() => {
+    const med = (g, a) => median(pool.Half.filter((x) => x[1] === g && x[2] === a && x[0] > 0).map((x) => x[0]));
+    const m4 = med('M', '40-49'), m5 = med('M', '50-59'), f4 = med('F', '40-49'), f5 = med('F', '50-59');
+    const hms = (s) => `${hm(s)}:${String(s % 60).padStart(2, '0')}`;
+    return story('age', [
+      [10.6, 'big', { y: 1050, kicker: 'HALF MARATHON, SOUTHEAST ASIA', num: '40s vs 50s', lines: [['Who runs faster?', false, 0.3], [`Men: ${Math.abs(m5 - m4)} seconds apart.`, false, 7.1], ['Women in their 50s: faster.', true, 9.4]] }],
+    ], `Who runs a faster half marathon: people in their 40s or their 50s?\n\nMen in their 40s: ${hms(m4)}. Men in their 50s: ${hms(m5)}. Just ${Math.abs(m5 - m4)} seconds apart.\nWomen in their 40s: ${hms(f4)}. Women in their 50s: ${hms(f5)}${f5 < f4 ? ', faster' : ''}.\n\nTypical (median) finish times across Southeast Asia. Tag the 50-something who still beats you 👇 Compare yourself with your age group at runsea.run\n\nFrom ${n(pool.Half.filter((x) => ['40-49', '50-59'].includes(x[2])).length)} half marathon finishes in their 40s and 50s. Jess and Cynthia are RunSea's AI hosts: their faces, voices and footage are AI-generated; the numbers are real. ${FOLLOW}\n\n#running #halfmarathon #over40 #over50 #southeastasia #runsea`,
+    'footage', true, { clips: [{ file: 'duo-forties-fifties-talk.mp4', crop: '704:1252:0:14' }], slow: 1, len: 10.6, vo: 'duo-forties-fifties-talk.mp4', tempo: 1, delay: 0, follow: false });
+  })(),
   // AI version of RunSea's founder (his own photos and OK, 3 Nov 2026; host/alex/notes.txt), in his real
   // Chicago Marathon kit. Same pipeline as Jess. vo-alex-40s.mp3 (ElevenLabs "Will", pauses tightened):
   // "I just ran the Chicago Marathon! ... almost four in ten marathoners are over forty. And they finish
