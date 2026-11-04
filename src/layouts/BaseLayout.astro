@@ -47,6 +47,15 @@ const metaDescription = description ?? siteConfig.siteTagline;
       <>
         <script async src={`https://www.googletagmanager.com/gtag/js?id=${siteConfig.googleAnalyticsId}`}></script>
         <script is:inline define:vars={{ gaId: siteConfig.googleAnalyticsId }}>
+          // Our own visits (checks, link tests) shouldn't count. Opening any
+          // page with ?notrack=1 marks this browser for good; ?notrack=0 undoes
+          // it. ga-disable-<id> is GA's own switch: gtag then sends nothing.
+          try {
+            var q = new URLSearchParams(location.search).get('notrack');
+            if (q === '1') localStorage.setItem('runsea-notrack', '1');
+            if (q === '0') localStorage.removeItem('runsea-notrack');
+            if (localStorage.getItem('runsea-notrack') === '1') window['ga-disable-' + gaId] = true;
+          } catch (e) {}
           window.dataLayer = window.dataLayer || [];
           // On window: define:vars wraps this script in a function, and page
           // scripts (the Lab's events) need to reach gtag.
