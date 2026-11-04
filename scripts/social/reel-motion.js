@@ -436,6 +436,20 @@ From ${n(v.length)} half marathon finishes. Footage and voice are AI-generated; 
     ], `Which age group runs the fastest marathon in Southeast Asia? Not the twenty-somethings.\n\nMen in their 40s: a typical finish of ${hm(m40)}${under5 === 1 ? ', the only age group under five hours' : ''}. Men in their 20s: ${hm(med('M', '20-29'))}. 30s: ${hm(med('M', '30-39'))}. 50s: ${hm(med('M', '50-59'))}.\n\nTag the 40-something who keeps getting faster. Compare yourself with your age group at runsea.run\n\nFrom ${n(pool.Full.filter((x) => x[2]).length)} marathon finishes with a published age group. Jess is RunSea's AI host: her face, voice and footage are AI-generated; the numbers are real. ${FOLLOW}\n\n#running #marathon #over40 #southeastasia #runsea`,
     'footage', true, { clips: [{ file: 'jess-forties-men.mp4', crop: '704:1252:0:14' }], slow: 1, len: 9.82, vo: 'jess-forties-men.mp4', tempo: 1, delay: 0, follow: false });
   })(),
+  // Race-specific (4 Nov 2026): Singapore Marathon, 6 Dec. Jess, hair down straight, black tank + red
+  // shorts, Marina Bay at dawn; walk made in Gemini (photo-to-video). Data = last December's edition.
+  // vo-sg-marathon-10.mp3: "Running the Singapore Marathon on December sixth? Last year [2.4 s], half the
+  // field took longer than five fifteen. Under four hours [5.7 s]? That's one in eight. What's your goal
+  // time [8.0 s]? Drop it below!"
+  'sg-marathon-jess': (() => {
+    const d = JSON.parse(fs.readFileSync(path.join('data', 'finish-times', 'byd-singapore-international-marathon-presented-by-adidas-formerly-standard-chartered-singapore-marathon-2026.json'), 'utf8'));
+    const t = (k) => d.distances[k].times.map((x) => x[0]).filter((x) => x > 0).sort((a, b) => a - b);
+    const full = t('Full'), half = t('Half'), share = (v, c) => v.filter((x) => x < c).length / v.length;
+    return story('race-specific / goal times', [
+      [9.9, 'big', { y: 980, kicker: 'SINGAPORE MARATHON, 6 DEC', num: hm(q(full, 0.5)), lines: [['typical marathon finish last year.', false, 0.3], [`Under 4:00? 1 in ${Math.round(1 / share(full, 14400))}.`, false, 7.3], ['Drop your goal time below.', true, 9.6]] }],
+    ], `Running the Singapore Marathon on 6 December? Here's what last year's field ran.\n\nMarathon: typical finish ${hm(q(full, 0.5))}. Under 4:00 = top ${Math.ceil(share(full, 14400) * 100)}% (about 1 in ${Math.round(1 / share(full, 14400))}). Under 5:00 = top ${Math.ceil(share(full, 18000) * 100)}%.\nHalf marathon: typical finish ${hm(q(half, 0.5))}. Under 2:00 = top ${Math.ceil(share(half, 7200) * 100)}%.\n\nWhat's your goal time? Drop it below 👇 Then see where it would have placed last year at runsea.run\n\nFrom ${n(full.length + half.length)} marathon and half marathon finishes at last year's race. Jess is RunSea's AI host: her face, voice and footage are AI-generated; the numbers are real. ${FOLLOW}\n\n#singaporemarathon #runningsg #marathon #halfmarathon #singapore #runsea`,
+    'footage', true, { clips: [{ file: 'jess-sg-marathon.mp4', crop: '704:1252:0:14' }], slow: 1, len: 9.9, vo: 'jess-sg-marathon.mp4', tempo: 1, delay: 0, follow: false });
+  })(),
   // AI version of RunSea's founder (his own photos and OK, 3 Nov 2026; host/alex/notes.txt), in his real
   // Chicago Marathon kit. Same pipeline as Jess. vo-alex-40s.mp3 (ElevenLabs "Will", pauses tightened):
   // "I just ran the Chicago Marathon! ... almost four in ten marathoners are over forty. And they finish
