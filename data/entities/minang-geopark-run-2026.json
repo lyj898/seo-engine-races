@@ -140,5 +140,10 @@
   ],
   "related_entity_ids": [],
   "last_updated": "2026-11-03",
-  "status": "archived"
+  "status": "archived",
+  "results": {
+    "url": "https://app.nci.co.id/timingrace/race-result/10",
+    "publisher": "NCI timing",
+    "last_checked": "2026-11-06"
+  }
 }

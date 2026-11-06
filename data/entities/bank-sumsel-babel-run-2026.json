@@ -4,10 +4,10 @@
   "name": "Bank Sumsel Babel Run 2026",
   "category_id": "half-marathon",
   "region_id": "indonesia",
-  "short_description": "Bank Sumsel Babel Run 2026 is on Sunday 1 November 2026 at Jakabaring Sport City in Palembang, over 5 km, 10 km and a half marathon.",
-  "ai_summary": "Bank Sumsel Babel Run 2026 (BSB Run 2026) is part of the 69th anniversary of Bank Sumsel Babel, under the theme \"Move Grow Beyond\". It is held at Jakabaring Sport City in Palembang, with 5 km, 10 km and half marathon categories; the organiser page names the category \"Half Marathon\" without stating a distance, so 21.1 km is inferred. The event starts at 04:00 WIB, and water stations are placed every 2 km. The official site is run by IM Road Runner.",
+  "short_description": "Bank Sumsel Babel Run 2026 is on Sunday 6 December 2026 at Jakabaring Sport City in Palembang, over 5 km, 10 km and a half marathon.",
+  "ai_summary": "Bank Sumsel Babel Run 2026 (BSB Run 2026) marks the 69th anniversary of Bank Sumsel Babel, under the theme \"Move Grow Beyond\". It is held at Jakabaring Sport City in Palembang on Sunday 6 December 2026, with 5 km, 10 km and half marathon categories; the organiser names the category \"Half Marathon\" without stating a distance, so 21.1 km is inferred. The official site is run by IM Road Runner.",
   "core_facts": {
-    "date": "2026-11-01",
+    "date": "2026-12-06",
     "distance_km": [
       5,
       10,
@@ -31,8 +31,8 @@
       "answer": "The cut-offs are 1 hour 15 minutes for the 5 km, 2 hours for the 10 km and 4 hours for the half marathon. The 5 km is open from age 13, and the 10 km and half marathon to ages 17 to 70; entry is limited to Indonesian citizens."
     },
     {
-      "question": "When and where is race pack collection for Bank Sumsel Babel Run 2026?",
-      "answer": "Race packs are collected on Friday and Saturday, 30 and 31 October 2026, at Bank Sumsel Babel Tower in Jakabaring, Palembang. Packs are not handed out on race day, but a representative can collect with a power of attorney letter."
+      "question": "Has the date of Bank Sumsel Babel Run 2026 changed?",
+      "answer": "Yes. It was listed for Sunday 1 November 2026, but the official site now counts down to Sunday 6 December 2026 at 06:00 WIB. Check the organiser's channels for the updated race-pack collection dates before you travel."
     }
   ],
   "reliability_score": 30,
@@ -45,7 +45,7 @@
       "url": "https://banksumselbabelrun.id/faq_tnc/",
       "label": "Bank Sumsel Babel Run official site (FAQ and terms)",
       "type": "official",
-      "last_checked": "2026-09-29"
+      "last_checked": "2026-11-06"
     },
     {
       "url": "https://schedules.run/2026/11",
@@ -57,7 +57,7 @@
       "url": "https://banksumselbabelrun.id/",
       "label": "Official race page",
       "type": "official",
-      "last_checked": "2026-09-30"
+      "last_checked": "2026-11-06"
     }
   ],
   "affiliate_links": [],
@@ -69,6 +69,6 @@
     }
   ],
   "related_entity_ids": [],
-  "last_updated": "2026-11-03",
-  "status": "archived"
+  "last_updated": "2026-11-06",
+  "status": "needs_review"
 }

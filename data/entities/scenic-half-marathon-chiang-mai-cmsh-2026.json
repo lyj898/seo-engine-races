@@ -75,5 +75,10 @@
   ],
   "related_entity_ids": [],
   "last_updated": "2026-11-03",
-  "status": "archived"
+  "status": "archived",
+  "results": {
+    "url": "https://my.raceresult.com/421960/results",
+    "publisher": "raceresult (Checkrace)",
+    "last_checked": "2026-11-06"
+  }
 }
