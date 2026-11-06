@@ -22,7 +22,9 @@
  * edition defaults to the year (set it to name a leg, e.g. "2025-leg-2", when a
  * series ran several in one year).
  * It's an archive of older editions, kept before timing companies take their
- * pages down; the site doesn't read it yet.
+ * pages down. An upcoming race's page reads its own folder (keyed by the
+ * upcoming record's slug) to show last year's field: see lastEditionField()
+ * in src/lib/finishTimes.js.
  */
 import fs from 'node:fs';
 import path from 'node:path';

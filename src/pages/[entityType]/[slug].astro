@@ -22,6 +22,8 @@ import CTABlock from '../../components/CTABlock.astro';
 import RelatedEntities from '../../components/RelatedEntities.astro';
 import RelatedListicles from '../../components/RelatedListicles.astro';
 import LastUpdated from '../../components/LastUpdated.astro';
+import LastEditionPlace from '../../components/lab/LastEditionPlace.astro';
+import { lastEditionField } from '../../lib/finishTimes.js';
 import Pill from '../../components/Pill.astro';
 import { narrowFactsToCategories } from '../../lib/categoryMatch.js';
 import { withoutRegistrationClaims, withoutRegistrationClaimsReview, dedupeFaqs, stripCitationMarkers, formatLongDate } from '../../lib/text.js';
@@ -163,6 +165,9 @@ const noSuccessorLead = eventStatus === 'postponed' ? 'In the meantime' : 'No fu
 // there are no results to find.
 const results = lapsed && !eventStatus ? entity.results : null;
 const raceYear = String(entity.core_facts?.date ?? '').slice(0, 4);
+// An upcoming edition with last year's field on file: let a runner place a
+// time in it (see lastEditionField). Never once this edition is done or off.
+const lastField = !halted && siteConfig.enabledFeatures?.finishTimes ? lastEditionField(entity) : null;
 const resultsTitle = results
   ? `${entity.name}${/\b(19|20)\d\d\b/.test(entity.name) ? '' : ` ${raceYear}`} Results`
   : null;
@@ -308,6 +313,8 @@ const jsonLd = [
     <div class="prose-content mt-8">
       <p>{entity.ai_summary}</p>
     </div>
+
+    {lastField && <LastEditionPlace field={lastField} raceName={entity.name} />}
 
     {/* Unmerged fallback: link out to the standalone review page. */}
     {review && !merged && (

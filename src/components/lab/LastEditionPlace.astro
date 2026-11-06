@@ -1,0 +1,124 @@
+---
+import { urls } from '../../lib/urls.js';
+import { DISTANCE_LABEL } from '../../lib/finishTimes.js';
+import { numFieldClass, selectClass, labelClass, subLabelClass, cardClass, calculateButtonClass } from '../../lib/tool-styles.js';
+
+// "How would you have placed last year?" on an upcoming race's page: a time
+// against the previous edition's field (lastEditionField in finishTimes.js).
+// Only per-group sizes and percentile tables reach the page, never a time.
+const { field, raceName } = Astro.props;
+// Rounded to the nearest minute, so a 1:25:54 median reads 1:26.
+const fmt = (s) => {
+  const mins = Math.round(s / 60);
+  const h = Math.floor(mins / 60);
+  return h ? `${h}:${String(mins % 60).padStart(2, '0')}` : `${mins} min`;
+};
+const summary = (d) =>
+  [`${d.groups.all.n.toLocaleString('en')} finishers, median ${fmt(d.median)}, fastest 10% under ${fmt(d.top10)}`, d.shares.map((s) => `${pct(s.share)} under ${fmt(s.t)}`).join(', ')]
+    .filter(Boolean)
+    .join('; ') + '.';
+const pct = (x) => `${Math.round(x * 100)}%`;
+const payload = { order: field.order, distances: field.distances, labels: DISTANCE_LABEL, year: field.year };
+const first = field.order[0];
+---
+
+<section id="last-year" aria-labelledby="last-year-heading" class={`mt-8 ${cardClass}`}>
+  <h2 id="last-year-heading" class="text-xl font-semibold">How would you have placed in {field.year}?</h2>
+  <p class="mt-2 text-sm text-brand-muted dark:text-brand-muted-dark">
+    Put in a finish time to see where it would have landed among last year's finishers at {raceName}.
+  </p>
+
+  <ul class="mt-4 space-y-1.5 text-sm">
+    {field.order.map((k) => {
+      return (
+        <li>
+          <span class="font-semibold">{DISTANCE_LABEL[k]}:</span> {summary(field.distances[k])}
+        </li>
+      );
+    })}
+  </ul>
+
+  <form id="ly-form" class="mt-5 space-y-5" novalidate>
+    <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+      {field.order.length > 1 ? (
+        <div>
+          <label for="ly-distance" class={labelClass}>Distance</label>
+          <select id="ly-distance" class={`${selectClass} min-h-11 w-full`}>
+            {field.order.map((k) => <option value={k} selected={k === first}>{DISTANCE_LABEL[k]}</option>)}
+          </select>
+        </div>
+      ) : (
+        <input type="hidden" id="ly-distance" value={first} />
+      )}
+      <div>
+        <label for="ly-gender" class={labelClass}>Compare with</label>
+        <select id="ly-gender" class={`${selectClass} min-h-11 w-full`}>
+          <option value="all">All finishers</option>
+          <option value="M">Men</option>
+          <option value="F">Women</option>
+        </select>
+      </div>
+      <div class="sm:col-span-2">
+        <span class={labelClass}>Finish time</span>
+        <div class="grid grid-cols-3 gap-2 sm:max-w-sm">
+          <div><input id="ly-h" type="number" inputmode="numeric" min="0" max="11" placeholder="h" aria-label="Hours" class={`${numFieldClass} min-h-11`} /><p class={subLabelClass}>hours</p></div>
+          <div><input id="ly-m" type="number" inputmode="numeric" min="0" max="59" placeholder="mm" aria-label="Minutes" class={`${numFieldClass} min-h-11`} /><p class={subLabelClass}>minutes</p></div>
+          <div><input id="ly-s" type="number" inputmode="numeric" min="0" max="59" placeholder="ss" aria-label="Seconds" class={`${numFieldClass} min-h-11`} /><p class={subLabelClass}>seconds</p></div>
+        </div>
+      </div>
+    </div>
+    <p id="ly-error" class="text-sm text-brand-error dark:text-brand-error-dark" role="alert"></p>
+    <button type="submit" class={calculateButtonClass}>See where I'd have placed</button>
+  </form>
+
+  <p id="ly-result" class="mt-5 hidden rounded-lg bg-brand-primary-highlight px-4 py-3 text-base font-semibold dark:bg-brand-primary-highlight-dark" aria-live="polite"></p>
+
+  <p class="mt-5 text-xs text-brand-muted dark:text-brand-muted-dark">
+    From the official {field.year} results{field.source ? ` (${field.source})` : ''}{field.resultsUrl && <>: <a href={field.resultsUrl} rel="noopener" target="_blank" class="link-accent">see them ↗</a></>}. Positions are estimates, from finish times only. Course, weather and field change from year to year.
+    {' '}<a href={`${urls.toolsIndex()}#calculator`} class="link-accent">Compare your time across more races in the Lab</a>.
+  </p>
+</section>
+
+<script define:vars={{ payload }}>
+  const $ = (id) => document.getElementById(id);
+  const fmtFull = (s) => {
+    const h = Math.floor(s / 3600);
+    const m = String(Math.floor(s / 60) % 60).padStart(2, '0');
+    const sec = String(Math.round(s % 60)).padStart(2, '0');
+    return h ? `${h}:${m}:${sec}` : `${Math.floor(s / 60)}:${sec}`;
+  };
+  // Share of the group faster than t, interpolated between the 101 quantiles.
+  const fasterShare = (q, t) => {
+    if (t <= q[0]) return 0;
+    if (t >= q[100]) return 1;
+    let i = 0;
+    while (q[i + 1] < t) i++;
+    const span = q[i + 1] - q[i];
+    return (i + (span ? (t - q[i]) / span : 0)) / 100;
+  };
+  $('ly-form').addEventListener('submit', (ev) => {
+    ev.preventDefault();
+    const t = (Number($('ly-h').value) || 0) * 3600 + (Number($('ly-m').value) || 0) * 60 + (Number($('ly-s').value) || 0);
+    const d = payload.distances[$('ly-distance').value];
+    const g = $('ly-gender').value;
+    const grp = d.groups[g] ?? d.groups.all;
+    if (!t) {
+      $('ly-error').textContent = 'Put in a finish time first.';
+      return;
+    }
+    $('ly-error').textContent = '';
+    const f = fasterShare(grp.q, t);
+    const place = Math.max(1, Math.round(f * grp.n) + 1);
+    const who = g === 'M' && d.groups.M ? 'men' : g === 'F' && d.groups.F ? 'women' : 'finishers';
+    const ahead = Math.round((1 - f) * 100);
+    const out = $('ly-result');
+    const dl = payload.labels[$('ly-distance').value].toLowerCase();
+    out.textContent =
+      f >= 1
+        ? `${fmtFull(t)} would have been slower than every ${dl} finisher in ${payload.year}.`
+        : f <= 0
+          ? `${fmtFull(t)} would have been faster than every ${dl} finisher in ${payload.year}.`
+          : `${fmtFull(t)} would have placed about ${place.toLocaleString('en')} of ${grp.n.toLocaleString('en')} ${who} in ${payload.year}: faster than about ${ahead}% of them.`;
+    out.classList.remove('hidden');
+  });
+</script>

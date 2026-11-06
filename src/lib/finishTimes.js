@@ -210,3 +210,49 @@ export function loadFinishTimes() {
   };
   return cache;
 }
+
+// --- Last edition's field, for an upcoming race's page ----------------------
+// data/finish-times-history/<slug>/<edition>.json holds a past edition of the
+// race whose record is <slug> (written by finish-times-fetch.js --history, or
+// by hand from a timing site the fetcher can't read). An upcoming race's page
+// uses the newest such edition before its own year so a runner can see where
+// a time would have placed last year. Same rules as the Lab: per finisher only
+// [seconds, gender, age band], standard distances, at least MIN_FINISHERS.
+const HISTORY_DIR = path.join(process.cwd(), 'data', 'finish-times-history');
+const LAST_MILESTONES = { Full: [4 * 3600, 4.5 * 3600, 5 * 3600], Half: [7200, 9000], '10K': [3600, 4200] };
+
+export function lastEditionField(entity) {
+  const dir = path.join(HISTORY_DIR, entity?.slug ?? '');
+  if (!entity?.slug || !fs.existsSync(dir)) return null;
+  const year = String(entity.core_facts?.date ?? '').slice(0, 4);
+  const files = fs.readdirSync(dir).filter((f) => f.endsWith('.json') && f.slice(0, 4) < year).sort();
+  if (!files.length) return null;
+  const rec = JSON.parse(fs.readFileSync(path.join(dir, files.at(-1)), 'utf8'));
+  const distances = {};
+  for (const key of DISTANCES) {
+    const times = rec.distances?.[key]?.times;
+    if (!times || times.length < MIN_FINISHERS) continue;
+    const groups = {};
+    for (const g of ['all', 'M', 'F']) {
+      const s = times.filter(([, gg]) => g === 'all' || gg === g).map(([t]) => t).sort((x, y) => x - y);
+      if (s.length >= 30) groups[g] = { n: s.length, q: quantiles(s) };
+    }
+    const all = groups.all.q;
+    const n = groups.all.n;
+    const sorted = times.map(([t]) => t).sort((x, y) => x - y);
+    distances[key] = {
+      groups,
+      median: all[50],
+      top10: all[10],
+      shares: LAST_MILESTONES[key].map((t) => ({ t, share: sorted.filter((x) => x < t).length / n })),
+    };
+  }
+  if (!Object.keys(distances).length) return null;
+  return {
+    year: String(rec.edition_year ?? files.at(-1).slice(0, 4)),
+    source: rec.source,
+    resultsUrl: rec.results_url,
+    order: ['Full', 'Half', '10K'].filter((k) => distances[k]),
+    distances,
+  };
+}
