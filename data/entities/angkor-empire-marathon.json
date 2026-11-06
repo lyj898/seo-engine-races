@@ -64,5 +64,10 @@
   "cta_links": [],
   "related_entity_ids": [],
   "last_updated": "2026-08-03",
-  "status": "archived"
+  "status": "archived",
+  "results": {
+    "url": "https://cambodia-events.org/result?event=11",
+    "publisher": "Cambodia Events Organizer",
+    "last_checked": "2026-11-06"
+  }
 }

@@ -64,5 +64,10 @@
     "maybank-marathon-2026"
   ],
   "last_updated": "2026-08-10",
-  "status": "archived"
+  "status": "archived",
+  "results": {
+    "url": "https://mm2026-results.run.id/",
+    "publisher": "Maybank Marathon / run.id",
+    "last_checked": "2026-11-06"
+  }
 }

@@ -508,6 +508,453 @@ async function readRaceResultAsia(url) {
   return out;
 }
 
+// Shared by the readers below: an age range with known ends -> ten-year band,
+// or null when it spans two bands (e.g. "25-39", "19-39"). As in ageBand(),
+// an open range straddling 20 ("18-29", "01-30") counts as 20-29.
+function rangeBand(lo, hi) {
+  if (lo == null && hi == null) return null;
+  if (lo != null && lo >= 60) return '60+';
+  if (hi != null && hi < 20) return 'U20';
+  if (lo == null || hi == null) return null;
+  if (lo < 20 && hi >= 25 && hi <= 30) return '20-29';
+  return lo >= 20 && Math.floor(lo / 10) === Math.floor(hi / 10) ? ageBand(String(lo) + '-') : null;
+}
+const cellText = (s) => s.replace(/<[^>]*>/g, ' ').replace(/&nbsp;?/g, ' ').replace(/\s+/g, ' ').trim();
+const tableRows = (table) => table.split(/<tr[\s>]/).slice(1).map((r) => [...r.matchAll(/<t[dh][^>]*>([\s\S]*?)<\/t[dh]>/g)].map((m) => cellText(m[1])));
+
+// --- Royal MNL (royalmnl.com/results/<slug>, Philippines) -------------------
+// The page carries the category list; the public API pages through each
+// category 50 rows at a time. Rows hold the runner's birthday, which is
+// turned into a ten-year band (age on race day) and dropped at once.
+async function readRoyalMnl(url) {
+  const slug = (url.match(/\/results\/([^/?#]+)/) || [])[1];
+  if (!slug) throw new Error('no Royal MNL event slug in ' + url);
+  const html = (await get(`https://www.royalmnl.com/results/${slug}`, 'html')).replace(/\\"/g, '"');
+  const list = (html.match(/"categories":\[(.*?)\]/) || [])[1] || '';
+  const cats = [...list.matchAll(/\{"id":"(\d+)","name":"([^"]+)"/g)].map((m) => ({ id: m[1], lbl: m[2] }));
+  const out = {};
+  for (const { id, lbl } of cats) {
+    const meters = metersFromLabel(lbl);
+    const key = distanceKey(meters);
+    if (!key) continue;
+    const times = (out[key] ??= { meters, times: [] }).times;
+    for (let page = 1; page < 200; page++) {
+      const j = await get(`https://www.royalmnl.com/api/public/results/${slug}/categories/${id}?page=${page}&pageSize=50`);
+      for (const r of j.results || []) {
+        if (r.status !== 'finished') continue;
+        const t = Math.round(Number(r.netTimeMs || r.gunTimeMs) / 1000);
+        if (!t) continue;
+        const born = r.birthday ? new Date(r.birthday) : null;
+        const day = new Date(r.finishAt || Date.now());
+        const age = born ? Math.floor((day - born) / (365.25 * 864e5)) : null;
+        times.push([t, genderOf(r.gender), age >= 10 && age <= 90 ? ageBand(String(age) + '-') : null]);
+      }
+      if (j.isLastPage !== false || !(j.results || []).length) break;
+    }
+  }
+  return out;
+}
+
+// --- NCI timing (app.nci.co.id/timingrace/race-result/<eventId>, Indonesia) -
+// One public call returns the whole field: category ("Kategori 21K"), gender
+// (Pria/Wanita) and gun and chip durations in seconds. A chip start that is
+// missing, or that makes chip time longer than gun time or 15+ minutes
+// shorter (a late or misread start mat), falls back to gun time. No age group.
+async function readNci(url) {
+  const id = (url.match(/race-result\/(\d+)/) || [])[1];
+  if (!id) throw new Error('no NCI event id in ' + url);
+  const j = await get(`https://app.nci.co.id/base_funrun/api/Process/GetDataResultPublic?eventId=${id}`);
+  const out = {};
+  for (const r of j.data || []) {
+    const meters = metersFromLabel(r.catName);
+    const key = distanceKey(meters);
+    const gun = r.durationGunChipTime;
+    const chip = r.durationChipTime;
+    const t = chip > 0 && gun > 0 && chip <= gun && gun - chip < 900 ? chip : gun;
+    if (!key || !t) continue;
+    const sex = /^pria|^laki/i.test(r.parsGender || '') ? 'M' : /^wanita|^perempuan/i.test(r.parsGender || '') ? 'F' : genderOf(r.parsGender);
+    (out[key] ??= { meters, times: [] }).times.push([t, sex, null]);
+  }
+  return out;
+}
+
+// --- RaceTech PH (racetechph.com/uploadedresult/<slug>, Philippines) --------
+// The event page links one server-rendered table per category and gender
+// (/resultbycategory/<slug>/<cat>/<cat>/<Male|Female>). Rows are rank, name,
+// gender rank, time; a time of 00:00:00 is a DNF. One time column, no age.
+async function readRaceTechPh(url) {
+  const html = await get(url, 'html');
+  const links = [...new Set([...html.matchAll(/href='(\/resultbycategory\/[^']+\/(Male|Female))'/g)].map((m) => m[1]))];
+  const out = {};
+  for (const link of links) {
+    const parts = link.split('/');
+    const meters = metersFromLabel(decodeURIComponent(parts[3]));
+    const key = distanceKey(meters);
+    if (!key) continue;
+    const page = await get(`https://racetechph.com${link}`, 'html');
+    const table = (page.match(/<table[\s\S]*?<\/table>/) || [])[0] || '';
+    const sex = genderOf(parts.at(-1));
+    for (const c of tableRows(table).slice(1)) {
+      const t = clock(c.at(-1));
+      if (t) (out[key] ??= { meters, times: [] }).times.push([t, sex, null]);
+    }
+  }
+  return out;
+}
+
+// --- runresults3.online (Thailand) -----------------------------------------
+// The page's `Category` string lists each distance with its genders and age
+// groups (label, min and max age); "getdata" returns a distance's rows,
+// whose "Category" field is the distance,gender,age-group position in that
+// string. We read only that, the status and the net (else finish) time.
+async function readRunResults3(url) {
+  const u = new URL(url);
+  const ev = (u.pathname.match(/\/results\/([^/]+)/) || [])[1];
+  if (!ev) throw new Error('no runresults3 event in ' + url);
+  const base = `${u.origin}/results/${ev}`;
+  const html = await get(`${base}/main`, 'html');
+  const cat = (html.match(/const Category = '([^']*)'/) || [])[1];
+  if (!cat) throw new Error('no category list at ' + url);
+  const out = {};
+  const dists = cat.split('<').slice(1).map((d, i) => ({
+    index: i + 1,
+    lbl: d.split('>')[0],
+    genders: d.split('[').slice(1).map((g) => ({
+      sex: /ชาย|^male|^men/i.test(g.split(']')[0]) ? 'M' : /หญิง|^female|^women/i.test(g.split(']')[0]) ? 'F' : 'U',
+      bands: g.split('{').slice(1).map((a) => { const [, lo, hi] = a.split('}'); return rangeBand(/^\d+$/.test(lo) ? Number(lo) : null, /^\d+$/.test(hi) ? Number(hi) : null); }),
+    })),
+  }));
+  for (const d of dists) {
+    const meters = metersFromLabel(d.lbl);
+    const key = distanceKey(meters);
+    if (!key) continue;
+    const times = (out[key] ??= { meters, times: [] }).times;
+    for (let start = 0, total = Infinity; start < total; start += 500) {
+      await sleep(1000);
+      const res = await fetch(`${base}/getdata`, {
+        method: 'POST',
+        headers: { 'User-Agent': UA, 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: `Job=GetScoreData&Event=${ev}&Cond=${d.index},0,0&value=&Start=${start}&LiveModeIn=false&NumberOfData=500`,
+      });
+      const j = await res.json();
+      total = j.total ?? 0;
+      const rows = j.data || [];
+      if (!rows.length) break;
+      for (const r of rows) {
+        if (!/FINISHED/i.test(r.Status) || /DISQUALIFIED|DNF/i.test(r.Status)) continue;
+        // A net time missed at a mat is shown as "03 : 36 : 00.637 (Estimated)".
+        const t = [r.NetTime, r.FinishTime].map((x) => clock(String(x || '').replace(/\(.*?\)|\s/g, ''))).find(Boolean);
+        const [, g, a] = String(r.Category).split(',').map(Number);
+        const gender = d.genders[g - 1];
+        if (t) times.push([t, gender?.sex ?? 'U', gender?.bands[a - 1] ?? null]);
+      }
+    }
+  }
+  return out;
+}
+
+// --- The Timing Guys (thetimingguysresults.com/<Event>/<year>/) -------------
+// ASP.NET pages: the event page links a list per race (/list/<Event>/<year>/
+// <code>/), 100 rows a page, the next page reached by posting the form back.
+// Columns: #, bib, name, country, finish gun time, gender, ..., division
+// ("M19-39", "F40-49"). Para events are skipped.
+async function readTimingGuys(url) {
+  const u = new URL(url);
+  const html = await get(url, 'html');
+  const races = [...new Map([...html.matchAll(/<a href="(?:\.\.\/)*\/?(list\/[^"]+\/)">\s*([^<]+?)\s*</g)].map((m) => [m[1], m[2]])).entries()];
+  const out = {};
+  for (const [path, lbl] of races) {
+    if (/para/i.test(lbl)) continue;
+    const meters = metersFromLabel(lbl);
+    const key = distanceKey(meters);
+    if (!key) continue;
+    const times = (out[key] ??= { meters, times: [] }).times;
+    const listUrl = `${u.origin}/${path}`;
+    let page = await get(listUrl, 'html');
+    for (let n = 0; n < 200; n++) {
+      const rows = tableRows((page.match(/<table[\s\S]*?<\/table>/) || [])[0] || '');
+      const head = rows.shift() || [];
+      const iTime = head.findIndex((h) => /time/i.test(h));
+      const iGen = head.indexOf('Gender');
+      const iDiv = head.indexOf('Division');
+      if (iTime < 0 || !rows.length) break;
+      for (const c of rows) {
+        const t = clock(c[iTime]);
+        if (!t) continue;
+        const ages = (c[iDiv] || '').match(/(\d{1,2})\s*-\s*(\d{1,2})|(\d{2})\+/);
+        const band = !ages ? null : ages[3] ? rangeBand(Number(ages[3]), null) : rangeBand(Number(ages[1]), Number(ages[2]));
+        times.push([t, genderOf(c[iGen]), band]);
+      }
+      if (!/btnNextT/.test(page)) break;
+      const form = new URLSearchParams();
+      for (const m of page.matchAll(/<input type="hidden" name="([^"]+)" id="[^"]*" value="([^"]*)"/g)) form.set(m[1], m[2].replace(/&amp;/g, '&'));
+      form.set('__EVENTTARGET', 'ctl00$pagePlaceHolder$btnNextT');
+      form.set('__EVENTARGUMENT', '');
+      await sleep(1000);
+      const res = await fetch(listUrl, { method: 'POST', headers: { 'User-Agent': UA, 'Content-Type': 'application/x-www-form-urlencoded' }, body: form.toString() });
+      const next = await res.text();
+      const firstRow = (s) => (s.match(/SHOWING ROWS:\s*(\d+)/) || [])[1];
+      if (!res.ok || firstRow(next) === firstRow(page)) break;
+      page = next;
+    }
+  }
+  return out;
+}
+
+// --- Sada Raga (raceresult.sadaraga.co.id/<event>, Indonesia) ---------------
+// Server-rendered: one page per distance (/<event>/42k), ?limit=100&page=N.
+// We read only the Chip Time, Gun Time, Position Cat and Gender columns; a
+// row with no category position (cut-off or disqualified) isn't a finish.
+// Categories are Open/Closed/Master: no age group.
+async function readSadaRaga(url) {
+  const u = new URL(url);
+  const ev = u.pathname.split('/').filter(Boolean)[0];
+  if (!ev) throw new Error('no Sada Raga event in ' + url);
+  const html = await get(`${u.origin}/${ev}`, 'html');
+  const dists = [...new Set([...html.matchAll(new RegExp(`href="${u.origin}/${ev}/([a-z0-9.]+)"`, 'gi'))].map((m) => m[1]))];
+  const out = {};
+  for (const d of dists) {
+    const meters = metersFromLabel(d);
+    const key = distanceKey(meters);
+    if (!key) continue;
+    const times = (out[key] ??= { meters, times: [] }).times;
+    for (let p = 1; p < 300; p++) {
+      const page = await get(`${u.origin}/${ev}/${d}?limit=100&page=${p}`, 'html');
+      const rows = tableRows((page.match(/<table[\s\S]*?<\/table>/g) || []).at(-1) || '');
+      const head = rows.find((r) => r.includes('Chip Time')) || [];
+      const [iChip, iGun, iPos, iGen] = ['Chip Time', 'Gun Time (Chip Time)', 'Position Cat', 'Gender'].map((h) => head.indexOf(h));
+      const body = rows.filter((r) => r.length === head.length && r !== head && !r.includes('Chip Time'));
+      if (iChip < 0 || !body.length) break;
+      for (const c of body) {
+        if (!/^\d+$/.test(c[iPos])) continue;
+        const t = clock(c[iChip]) ?? clock((c[iGun] || '').split(' ')[0]);
+        if (t) times.push([t, genderOf(c[iGen]), null]);
+      }
+    }
+  }
+  return out;
+}
+
+// --- PickMyRace (pickmyrace.id/result/<type>/<id>, Indonesia) ---------------
+// The event record names one JSON feed per category (on
+// pickmyrace.frizacahya.com); each returns the category's whole field. We
+// read only gender, status and finish time. Categories are Open: no age group.
+async function readPickMyRace(url) {
+  const id = (url.match(/\/result\/\d+\/([A-Za-z0-9]+)/) || [])[1];
+  if (!id) throw new Error('no PickMyRace event id in ' + url);
+  const ev = await get(`https://pickmyrace.id/api/events/detail/${id}`);
+  const out = {};
+  for (const c of ev.categories || []) {
+    const meters = metersFromLabel(c.name);
+    const key = distanceKey(meters);
+    if (!key || !/^https:\/\/pickmyrace\.frizacahya\.com\//.test(c.api || '')) continue;
+    const rows = await get(c.api);
+    for (const r of Array.isArray(rows) ? rows : []) {
+      if (!/FINISH/i.test(r.STATUS || '')) continue;
+      const t = clock(r.FINISHTIME);
+      if (t) (out[key] ??= { meters, times: [] }).times.push([t, genderOf(r.GENDER), null]);
+    }
+  }
+  return out;
+}
+
+// --- Outdoor Statement (results.outdoorstatement.com/?race=<name>, PH) ------
+// Server-rendered: ?race=&distance=<21KM>&per_page=100&page=N. We read the
+// Status and Time columns and the gender letter in the participant cell
+// ("..., M Age Category"). The age shown is 0 for everyone: no age group.
+async function readOutdoorStatement(url) {
+  const u = new URL(url);
+  const race = u.searchParams.get('race');
+  if (!race) throw new Error('no Outdoor Statement race in ' + url);
+  const base = `${u.origin}/?race=${encodeURIComponent(race)}`;
+  const html = await get(base, 'html');
+  const sel = (html.match(/<select name="distance"[\s\S]*?<\/select>/) || [])[0] || '';
+  const dists = [...sel.matchAll(/<option value="([^"]+)"/g)].map((m) => m[1]);
+  const out = {};
+  for (const d of dists) {
+    const meters = metersFromLabel(d);
+    const key = distanceKey(meters);
+    if (!key) continue;
+    const times = (out[key] ??= { meters, times: [] }).times;
+    for (let p = 1, pages = 1; p <= pages && p < 200; p++) {
+      const page = await get(`${base}&distance=${encodeURIComponent(d)}&per_page=100&page=${p}`, 'html');
+      pages = Math.max(1, ...[...page.matchAll(/[?&]page=(\d+)/g)].map((m) => Number(m[1])));
+      const rows = tableRows((page.match(/<table[\s\S]*?<\/table>/) || [])[0] || '');
+      const head = rows.shift() || [];
+      const [iWho, iStatus, iTime] = ['Participant', 'Status', 'Time'].map((h) => head.indexOf(h));
+      if (iTime < 0) break;
+      for (const c of rows) {
+        if (!/FINISH/i.test(c[iStatus] || '')) continue;
+        const t = clock(c[iTime]);
+        const sex = ((c[iWho] || '').match(/,\s*([MF])\s+Age/) || [])[1];
+        if (t) times.push([t, sex || 'U', null]);
+      }
+    }
+  }
+  return out;
+}
+
+// --- VnExpress Marathon ranking (vm.vnexpress.net/<race>, other than VPBank) -
+// The race page carries its match id and a range id per distance; the
+// /bang-xep-hang endpoint returns a distance's finishers by gender. That JSON
+// also carries runners' names and email addresses: only gender, age range and
+// the net (else gun) time are read, and the rest is dropped unread. Pacers
+// (age range "Pacer") run to set times and are left out.
+async function readVnExpressRanking(url) {
+  const html = await get(url.split(/[?#]/)[0], 'html');
+  const match = (html.match(/name="iph_match" value="(\d+)"/) || [])[1];
+  const ranges = [...html.matchAll(/id="range-(\d+)km"\s+range="(\d+)"/g)].map((m) => ({ km: Number(m[1]), id: m[2] }));
+  if (!match || !ranges.length) throw new Error('no VnExpress ranking data at ' + url);
+  const out = {};
+  for (const { km, id } of ranges) {
+    const meters = km === 21 ? 21097 : km === 42 ? 42195 : km * 1000;
+    const key = distanceKey(meters);
+    if (!key) continue;
+    const times = (out[key] ??= { meters, times: [] }).times;
+    for (const g of ['male', 'female']) {
+      for (let offset = 0; offset < 50000;) {
+        const j = await get(`https://vm.vnexpress.net/bang-xep-hang?race_id=${match}&range=${id}&gender=${g}&offset=${offset}&limit=500`);
+        const rows = j.data?.list_runners || [];
+        if (!rows.length) break;
+        for (const { age_range: ag, time_finish: chip, guntime: gun } of rows) {
+          if (/pacer/i.test(ag || '')) continue;
+          // Despite the names, "guntime" is the net (chip) time and
+          // "time_finish" the gun time: the first is never the larger, and
+          // the ranking and the 3:30 half cut-off follow it.
+          const both = [clock(chip), clock(gun)].filter(Boolean);
+          const t = both.length ? Math.min(...both) : null;
+          const m = String(ag || '').match(/(\d{1,2})\s*-\s*(\d{1,2})|(\d{2})\+/);
+          const band = !m ? null : m[3] ? rangeBand(Number(m[3]), null) : rangeBand(Number(m[1]), Number(m[2]));
+          if (t) times.push([t, g === 'male' ? 'M' : 'F', band]);
+        }
+        offset += rows.length;
+      }
+    }
+  }
+  return out;
+}
+
+// --- Cambodia Events (cambodia-events.org/result?event=<id>) -----------------
+// Server-rendered, 50 rows a page, filtered by &distance=<42KM>. Columns: bib,
+// name, distance, gender, status, overall, category (a rank), time. We read
+// only gender, status and time. No age group.
+async function readCambodiaEvents(url) {
+  const u = new URL(url);
+  const ev = u.searchParams.get('event');
+  if (!ev) throw new Error('no Cambodia Events event id in ' + url);
+  const base = `${u.origin}/result?event=${encodeURIComponent(ev)}`;
+  const html = await get(base, 'html');
+  const sel = (html.match(/<select name=["']?distance[\s\S]*?<\/select>/) || [])[0] || '';
+  const dists = [...sel.matchAll(/<option value="([^"]+)"/g)].map((m) => m[1]);
+  const out = {};
+  for (const d of dists) {
+    const meters = metersFromLabel(d);
+    const key = distanceKey(meters);
+    if (!key) continue;
+    const times = (out[key] ??= { meters, times: [] }).times;
+    for (let p = 1, pages = 1; p <= pages && p < 300; p++) {
+      const page = await get(`${base}&distance=${encodeURIComponent(d)}&page=${p}`, 'html');
+      pages = Math.max(1, ...[...page.matchAll(/[?&;]page=(\d+)/g)].map((m) => Number(m[1])));
+      const rows = tableRows((page.match(/<table[\s\S]*?<\/table>/) || [])[0] || '');
+      const head = rows.shift() || [];
+      const [iGen, iStatus, iTime] = ['Gender', 'Status', 'Time'].map((h) => head.indexOf(h));
+      if (iTime < 0 || !rows.length) break;
+      for (const c of rows) {
+        if (!/finish/i.test(c[iStatus] || '')) continue;
+        const t = clock(c[iTime]);
+        if (t) times.push([t, genderOf(c[iGen]), null]);
+      }
+    }
+  }
+  return out;
+}
+
+// --- ThaiMTB Chip / LiveRaceMAP (chip.thaimtb.com/?view=result&raceid=<id>) --
+// The race's config.jsonc names its events (42K, 21K, ...); the leaderboard
+// API returns an event's whole field. We read only status, gender, category
+// ("M 30-39", or "Overall Male" for the podium) and the net (else gun) time.
+async function readThaiMtb(url) {
+  const u = new URL(url);
+  const race = u.searchParams.get('raceid');
+  if (!race) throw new Error('no ThaiMTB race id in ' + url);
+  const cfg = JSON.parse((await get(`${u.origin}/racemap/config/${race}/config.jsonc`, 'html')).replace(/\/\*[\s\S]*?\*\//g, '').replace(/(^|[^:])\/\/.*$/gm, '$1').replace(/,(\s*[}\]])/g, '$1'));
+  const out = {};
+  for (const [ev, def] of Object.entries(cfg.Event || {})) {
+    if (def?.NOTRACE) continue;
+    const meters = metersFromLabel(ev);
+    const key = distanceKey(meters);
+    if (!key) continue;
+    const j = await get(`${u.origin}/backend-api/api/leaderboard?raceID=${race}&event=${encodeURIComponent(ev)}&view=field&limit=100000`);
+    for (const r of j.runners || []) {
+      if (!/^finish/i.test(r.status || '')) continue;
+      const t = clock(r.net_time) ?? clock(r.time);
+      if (t) (out[key] ??= { meters, times: [] }).times.push([t, genderOf(r.gender), ageBand(r.category)]);
+    }
+  }
+  return out;
+}
+
+// Pages through a public Supabase table (read with the anon key the results
+// page itself ships), asking only for the named columns.
+async function supabaseRows(base, key, table, query) {
+  const rows = [];
+  for (let offset = 0; offset < 100000; offset += 1000) {
+    await sleep(1000);
+    const res = await fetch(`${base}/rest/v1/${table}?${query}&order=id.asc&offset=${offset}&limit=1000`, { headers: { 'User-Agent': UA, apikey: key, Authorization: `Bearer ${key}` } });
+    if (!res.ok) throw new Error(`${res.status} ${table}`);
+    const page = await res.json();
+    rows.push(...page);
+    if (page.length < 1000) break;
+  }
+  return rows;
+}
+
+// --- Lariterus (result.lariterus.info/<slug>, Indonesia) ---------------------
+// A Flutter app over Supabase: the result_routes row for the slug names the
+// event's table. We request only category ("FM Umum", "10K Master"), gender
+// and gun time -- never the name or bib. Umum/Master isn't an age group.
+async function readLariterus(url) {
+  const u = new URL(url);
+  const slug = u.pathname.split('/').filter(Boolean)[0];
+  if (!slug) throw new Error('no Lariterus slug in ' + url);
+  const bundle = await get(`${u.origin}/main.dart.js`, 'html');
+  const base = (bundle.match(/https:\/\/[a-z0-9]+\.supabase\.co/) || [])[0];
+  const key = (bundle.match(/eyJ[A-Za-z0-9_-]+\.[A-Za-z0-9_-]+\.[A-Za-z0-9_-]+/) || [])[0];
+  if (!base || !key) throw new Error('could not read the Lariterus data source');
+  const [route] = await supabaseRows(base, key, 'result_routes', `select=id,table_name&slug=eq.${encodeURIComponent(slug)}`);
+  if (!/^[a-z0-9_]+$/i.test(route?.table_name || '')) throw new Error('no Lariterus results table for ' + slug);
+  const out = {};
+  for (const r of await supabaseRows(base, key, route.table_name, 'select=category,gender,gun_time')) {
+    const meters = metersFromLabel(r.category);
+    const k = distanceKey(meters);
+    const t = clock(r.gun_time);
+    if (k && t) (out[k] ??= { meters, times: [] }).times.push([t, genderOf(r.gender), null]);
+  }
+  return out;
+}
+
+// --- Bromo Marathon (bromomarathon.com/past-results[?year=YYYY]) -------------
+// The archive page carries its Supabase table's public read key; rows are
+// keyed by year. The edition is the URL's ?year=, else the page's default
+// (the latest edition). We request only category, gender, status and the
+// net/finish times. Podium rows have status "Winner N". No age group.
+async function readBromo(url) {
+  const html = await get(url.split('#')[0], 'html');
+  const base = (html.match(/https:\/\/[a-z0-9]+\.supabase\.co/) || [])[0];
+  const key = (html.match(/eyJ[A-Za-z0-9_-]+\.[A-Za-z0-9_-]+\.[A-Za-z0-9_-]+/) || [])[0];
+  const year = new URL(url).searchParams.get('year') || (html.match(/let currentYear = (\d{4})/) || [])[1];
+  if (!base || !key || !/^\d{4}$/.test(year || '')) throw new Error('could not read the Bromo results source');
+  const out = {};
+  for (const r of await supabaseRows(base, key, 'bromar_race_results', `select=category,gender,status,net_time,finish_time&year=eq.${year}`)) {
+    if (!/finish|winner/i.test(r.status || '')) continue;
+    const meters = metersFromLabel(r.category);
+    const k = distanceKey(meters);
+    const t = clock(r.net_time) ?? clock(r.finish_time);
+    if (k && t) (out[k] ??= { meters, times: [] }).times.push([t, genderOf(r.gender), null]);
+  }
+  return out;
+}
+
 const READERS = [
   { name: 'RaceRoster', test: /results\.raceroster\.com/, read: readRaceRoster },
   { name: 'SportStats', test: /sportstats\.one/, read: readSportStats },
@@ -523,6 +970,21 @@ const READERS = [
   { name: 'BOM Run', test: /bomrun\.id\/timeresult/, read: readBomRun },
   { name: 'HeyJom', test: /api\.heyjom\.com\/4-1\/results\//, read: readHeyJom },
   { name: 'race-result.asia', test: /check\.race-result\.asia\//, read: readRaceResultAsia },
+  { name: 'Royal MNL', test: /royalmnl\.com\/results\//, read: readRoyalMnl },
+  { name: 'NCI', test: /app\.nci\.co\.id\/timingrace\/race-result\/\d+/, read: readNci },
+  { name: 'RaceTech PH', test: /racetechph\.com\/uploadedresult\//, read: readRaceTechPh },
+  { name: 'runresults3', test: /runresults3\.online\/results\//, read: readRunResults3 },
+  { name: 'The Timing Guys', test: /thetimingguysresults\.com\/[^/]+\/\d{4}/, read: readTimingGuys },
+  { name: 'Sada Raga', test: /raceresult\.sadaraga\.co\.id\/[^/?#]+/, read: readSadaRaga },
+  { name: 'PickMyRace', test: /pickmyrace\.id\/result\//, read: readPickMyRace },
+  { name: 'Outdoor Statement', test: /results\.outdoorstatement\.com\/\?race=/, read: readOutdoorStatement },
+  // Other VnExpress races (not VPBank, which is read above) use the
+  // /bang-xep-hang ranking feed.
+  { name: 'VnExpress', test: /vm\.vnexpress\.net\/(?!vpbank)[a-z0-9-]+-\d{4}/, read: readVnExpressRanking },
+  { name: 'Cambodia Events', test: /cambodia-events\.org\/result\?(?:.*&)?event=\d+/, read: readCambodiaEvents },
+  { name: 'ThaiMTB Chip', test: /chip\.thaimtb\.com\/\?(?:.*&)?raceid=\d+/, read: readThaiMtb },
+  { name: 'Lariterus', test: /result\.lariterus\.info\/[^/?#]+/, read: readLariterus },
+  { name: 'Bromo Marathon', test: /bromomarathon\.com\/past-results/, read: readBromo },
 ];
 
 // Each job is one results page to read: the latest edition of a race we list,

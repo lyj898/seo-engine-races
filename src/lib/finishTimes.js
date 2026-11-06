@@ -36,6 +36,7 @@ const EXCLUDED_SLUGS = new Set([
   // 21 km cancelled for haze on the day (25 Oct 2026); excluding the edition
   // keeps the full 2025 race as the series' latest in the benchmarks.
   'garmin-run-singapore-2026',
+  'bromo-marathon-2026', // mountain trail course (42.67/20.91/9.91 km), not a road benchmark
 ]);
 
 const DIR = path.join(process.cwd(), 'data', 'finish-times');
@@ -56,6 +57,13 @@ function equalWeightMedian(groups) {
   for (const [t, w] of pts) { acc += w; if (acc >= half) return t; }
   return pts.at(-1)?.[0] ?? null;
 }
+
+// Timing pages sometimes list split or DNF rows with a time (e.g. a 0:19
+// "marathon" at the 2025 Singapore Marathon). Anything faster than a floor
+// near the world record for its distance can't be a finish, so it is dropped
+// wherever results are read (Nov 2026).
+const FLOOR = { Full: 2 * 3600, Half: 57 * 60, '10K': 26 * 60 };
+export const plausibleTimes = (key, times) => (times ?? []).filter(([t]) => t >= (FLOOR[key] ?? 0));
 
 let cache;
 export function loadFinishTimes() {
@@ -81,9 +89,9 @@ export function loadFinishTimes() {
       // not it clears the minimum -- a race isn't re-ranked on a side event.
       const main = ['Full', 'Half', '10K'].find((k) => rec.distances?.[k]);
       for (const key of DISTANCES) {
-        const d = rec.distances?.[key];
-        if (!d || d.times.length < MIN_FINISHERS) continue;
-        races.push({ slug: e.slug, name: e.name, country: e.core_facts.country, date: e.core_facts.date, distance: key, isMain: key === main, source: rec.source, times: d.times });
+        const times = plausibleTimes(key, rec.distances?.[key]?.times);
+        if (times.length < MIN_FINISHERS) continue;
+        races.push({ slug: e.slug, name: e.name, country: e.core_facts.country, date: e.core_facts.date, distance: key, isMain: key === main, source: rec.source, times });
       }
     }
   }
@@ -230,8 +238,8 @@ export function lastEditionField(entity) {
   const rec = JSON.parse(fs.readFileSync(path.join(dir, files.at(-1)), 'utf8'));
   const distances = {};
   for (const key of DISTANCES) {
-    const times = rec.distances?.[key]?.times;
-    if (!times || times.length < MIN_FINISHERS) continue;
+    const times = plausibleTimes(key, rec.distances?.[key]?.times);
+    if (times.length < MIN_FINISHERS) continue;
     const groups = {};
     for (const g of ['all', 'M', 'F']) {
       const s = times.filter(([, gg]) => g === 'all' || gg === g).map(([t]) => t).sort((x, y) => x - y);

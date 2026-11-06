@@ -302,5 +302,389 @@
     "edition_year": 2025,
     "edition_date": "2025-11-29",
     "results_url": "https://sportstats.one/event/rock-n-roll-running-series-manila/leaderboard/145501"
+  },
+  {
+    "series_slug": "national-milo-marathon-2026-tagbilaran-leg",
+    "edition_year": 2024,
+    "edition_date": "2024-09-29",
+    "results_url": "https://results.raceroster.com/v3/events/nm54qhsdv27my5hs"
+  },
+  {
+    "series_slug": "national-milo-marathon-2026-general-santos-city-leg",
+    "edition_year": 2024,
+    "edition_date": "2024-11-10",
+    "results_url": "https://results.raceroster.com/v3/events/utbtuqx6nbwksuu6"
+  },
+  {
+    "series_slug": "national-milo-marathon-2026-national-finals",
+    "edition_year": 2024,
+    "edition_date": "2024-12-01",
+    "results_url": "https://results.raceroster.com/v3/events/5cfc3hfuenahjmw7"
+  },
+  {
+    "series_slug": "national-milo-marathon-2026-national-finals",
+    "edition_year": 2025,
+    "edition_date": "2025-12-07",
+    "results_url": "https://results.raceroster.com/v3/events/hcwmd6fpwn6k55ce"
+  },
+  {
+    "series_slug": "sante-barley-trilogy-run-asia-2026-national-finals",
+    "edition_year": 2025,
+    "edition_date": "2025-12-06",
+    "results_url": "https://results.raceroster.com/v3/events/cb6shdt2zmjp3f6g"
+  },
+  {
+    "series_slug": "run-ortigas-2026",
+    "edition_year": 2025,
+    "edition_date": "2025-11-16",
+    "results_url": "https://results.raceroster.com/v3/events/bbv2yuctszhyc5a6"
+  },
+  {
+    "series_slug": "run-ortigas-2026",
+    "edition_year": 2024,
+    "edition_date": "2024-10-27",
+    "results_url": "https://results.raceroster.com/v3/events/q444dfq3wkz7kjnr"
+  },
+  {
+    "series_slug": "garmin-run-singapore-2026",
+    "edition_year": 2025,
+    "edition_date": "2025-10-12",
+    "results_url": "https://api.heyjom.com/4-1/results/Garmin-Run-Asia-Series-Singapore-2025"
+  },
+  {
+    "series_slug": "techcombank-ho-chi-minh-city-international-marathon-9th-ed-2026",
+    "edition_year": 2025,
+    "edition_date": "2025-12-07",
+    "results_url": "https://sportstats.one/event/techcombank-ho-chi-minh-city-international-marathon/leaderboard/145647"
+  },
+  {
+    "series_slug": "techcombank-ho-chi-minh-city-international-marathon-9th-ed-2026",
+    "edition_year": 2024,
+    "edition_date": "2024-12-08",
+    "results_url": "https://sportstats.one/event/techcombank-ho-chi-minh-city-international-marathon/leaderboard/142806"
+  },
+  {
+    "series_slug": "hcmc-marathon-ho-chi-minh-city-marathon-2027",
+    "edition_year": 2025,
+    "edition_date": "2025-01-12",
+    "results_url": "https://sportstats.one/event/hcmc-marathon/leaderboard/143046"
+  },
+  {
+    "series_slug": "hcmc-marathon-ho-chi-minh-city-marathon-2027",
+    "edition_year": 2024,
+    "edition_date": "2024-01-14",
+    "results_url": "https://sportstats.one/event/hcmc-marathon/leaderboard/130228"
+  },
+  {
+    "series_slug": "hcmc-marathon-ho-chi-minh-city-marathon-2027",
+    "edition_year": 2023,
+    "edition_date": "2023-01-08",
+    "results_url": "https://sportstats.one/event/hcmc-marathon/leaderboard/118083"
+  },
+  {
+    "series_slug": "danang-international-marathon-2027",
+    "edition_year": 2025,
+    "edition_date": "2025-03-23",
+    "results_url": "https://sportstats.one/event/danang-international-marathon/leaderboard/143284"
+  },
+  {
+    "series_slug": "danang-international-marathon-2027",
+    "edition_year": 2024,
+    "edition_date": "2024-03-24",
+    "results_url": "https://sportstats.one/event/danang-international-marathon/leaderboard/140065"
+  },
+  {
+    "series_slug": "danang-international-marathon-2027",
+    "edition_year": 2023,
+    "edition_date": "2023-08-06",
+    "results_url": "https://sportstats.one/event/danang-international-marathon/leaderboard/129402"
+  },
+  {
+    "series_slug": "danang-international-marathon-2027",
+    "edition_year": 2022,
+    "edition_date": "2022-03-20",
+    "results_url": "https://sportstats.one/event/danang-international-marathon/leaderboard/115741"
+  },
+  {
+    "series_slug": "standard-chartered-hanoi-marathon-heritage-race-2026",
+    "edition_year": 2025,
+    "edition_date": "2025-11-09",
+    "results_url": "https://sportstats.one/event/hanoi-heritage-marathon/leaderboard/145420"
+  },
+  {
+    "series_slug": "standard-chartered-hanoi-marathon-heritage-race-2026",
+    "edition_year": 2024,
+    "edition_date": "2024-11-03",
+    "results_url": "https://sportstats.one/event/hanoi-heritage-marathon/leaderboard/142665"
+  },
+  {
+    "series_slug": "vpbank-hanoi-international-marathon-2026",
+    "edition_year": 2025,
+    "edition_date": "2025-10-26",
+    "results_url": "https://sportstats.one/event/vpbank-international-marathon/leaderboard/145280"
+  },
+  {
+    "series_slug": "vpbank-hanoi-international-marathon-2026",
+    "edition_year": 2024,
+    "edition_date": "2024-10-13",
+    "results_url": "https://sportstats.one/event/vpbank-international-marathon/leaderboard/142538"
+  },
+  {
+    "series_slug": "vpbank-hanoi-international-marathon-2026",
+    "edition_year": 2023,
+    "edition_date": "2023-10-08",
+    "results_url": "https://sportstats.one/event/vpbank-international-marathon/leaderboard/129763"
+  },
+  {
+    "series_slug": "halong-bay-heritage-marathon-2026",
+    "edition_year": 2024,
+    "edition_date": "2024-11-17",
+    "results_url": "https://sportstats.one/event/halong-bay-heritage-marathon/leaderboard/142740"
+  },
+  {
+    "series_slug": "halong-bay-heritage-marathon-2026",
+    "edition_year": 2023,
+    "edition_date": "2023-11-19",
+    "results_url": "https://sportstats.one/event/halong-bay-heritage-marathon/leaderboard/130016"
+  },
+  {
+    "series_slug": "halong-bay-heritage-marathon-2026",
+    "edition_year": 2022,
+    "edition_date": "2022-11-13",
+    "results_url": "https://sportstats.one/event/halong-bay-heritage-marathon/leaderboard/117751"
+  },
+  {
+    "series_slug": "can-tho-heritage-marathon-2026",
+    "edition_year": 2025,
+    "edition_date": "2025-12-21",
+    "results_url": "https://sportstats.one/event/can-tho-heritage-marathon/leaderboard/145679"
+  },
+  {
+    "series_slug": "can-tho-heritage-marathon-2026",
+    "edition_year": 2024,
+    "edition_date": "2024-12-22",
+    "results_url": "https://sportstats.one/event/can-tho-heritage-marathon/leaderboard/142893"
+  },
+  {
+    "series_slug": "can-tho-heritage-marathon-2026",
+    "edition_year": 2023,
+    "edition_date": "2023-12-03",
+    "results_url": "https://sportstats.one/event/can-tho-heritage-marathon/leaderboard/130102"
+  },
+  {
+    "series_slug": "vnexpress-marathon-hanoi-midnight-2026",
+    "edition_year": 2023,
+    "edition_date": "2023-11-26",
+    "results_url": "https://sportstats.one/event/vnexpress-marathon-hanoi-midnight/leaderboard/130029"
+  },
+  {
+    "series_slug": "vnexpress-marathon-hanoi-midnight-2026",
+    "edition_year": 2022,
+    "edition_date": "2022-11-27",
+    "results_url": "https://sportstats.one/event/vnexpress-marathon-hanoi-midnight/leaderboard/130033"
+  },
+  {
+    "series_slug": "vnexpress-marathon-hai-phong-2026",
+    "edition_year": 2023,
+    "edition_date": "2023-12-17",
+    "results_url": "https://sportstats.one/event/vnexpress-marathon-hai-phong/leaderboard/130160"
+  },
+  {
+    "series_slug": "vnexpress-marathon-nha-trang-2026",
+    "edition_year": 2023,
+    "edition_date": "2023-08-13",
+    "results_url": "https://sportstats.one/event/vnexpress-nha-trang/leaderboard/129398"
+  },
+  {
+    "series_slug": "vnexpress-marathon-nha-trang-2026",
+    "edition_year": 2022,
+    "edition_date": "2022-08-28",
+    "results_url": "https://sportstats.one/event/vnexpress-nha-trang/leaderboard/117027"
+  },
+  {
+    "series_slug": "tet-run-mien-nam-2027",
+    "edition_year": 2025,
+    "edition_date": "2025-01-19",
+    "results_url": "https://sportstats.one/event/tet-run-mien-nam/leaderboard/142902"
+  },
+  {
+    "series_slug": "trang-an-marathon-2026",
+    "edition_year": 2022,
+    "edition_date": "2022-11-13",
+    "results_url": "https://sportstats.one/event/trang-an-marathon/leaderboard/117747"
+  },
+  {
+    "series_slug": "amata-happy-run-2026",
+    "edition_year": 2023,
+    "edition_date": "2023-12-17",
+    "results_url": "https://sportstats.one/event/amata-happy-run/leaderboard/130165"
+  },
+  {
+    "series_slug": "37th-bangkok-marathon-2027",
+    "edition_year": 2025,
+    "edition_date": "2025-11-16",
+    "results_url": "https://sportstats.one/event/bdms-bangkok-marathon/leaderboard/144940"
+  },
+  {
+    "series_slug": "37th-bangkok-marathon-2027",
+    "edition_year": 2024,
+    "edition_date": "2024-11-17",
+    "results_url": "https://sportstats.one/event/bdms-bangkok-marathon/leaderboard/141995"
+  },
+  {
+    "series_slug": "37th-bangkok-marathon-2027",
+    "edition_year": 2023,
+    "edition_date": "2023-11-19",
+    "results_url": "https://sportstats.one/event/bdms-bangkok-marathon/leaderboard/129863"
+  },
+  {
+    "series_slug": "37th-bangkok-marathon-2027",
+    "edition_year": 2022,
+    "edition_date": "2022-11-20",
+    "results_url": "https://sportstats.one/event/bdms-bangkok-marathon/leaderboard/117552"
+  },
+  {
+    "series_slug": "muang-thai-chiang-mai-marathon-2026",
+    "edition_year": 2023,
+    "edition_date": "2023-12-17",
+    "results_url": "https://sportstats.one/event/chiang-mai-marathon/leaderboard/130096"
+  },
+  {
+    "series_slug": "muang-thai-chiang-mai-marathon-2026",
+    "edition_year": 2022,
+    "edition_date": "2022-12-18",
+    "results_url": "https://sportstats.one/event/chiang-mai-marathon/leaderboard/117920"
+  },
+  {
+    "series_slug": "khon-kaen-international-marathon-22nd-ed-2027",
+    "edition_year": 2023,
+    "edition_date": "2023-01-29",
+    "results_url": "https://sportstats.one/event/khon-kaen-marathon/leaderboard/118147"
+  },
+  {
+    "series_slug": "kathu-marathon-2026",
+    "edition_year": 2022,
+    "edition_date": "2022-12-11",
+    "results_url": "https://sportstats.one/event/the-kathu-half-marathon/leaderboard/117852"
+  },
+  {
+    "series_slug": "plaengyao-35k-super-half-marathon-2026",
+    "edition_year": 2025,
+    "edition_date": "2025-10-12",
+    "results_url": "https://sportstats.one/event/plaengyao-33k-super-half-marathon/leaderboard/144950"
+  },
+  {
+    "series_slug": "vientiane-international-marathon-2026",
+    "edition_year": 2023,
+    "edition_date": "2023-12-10",
+    "results_url": "https://sportstats.one/event/vientiane-international-marathon/leaderboard/130091"
+  },
+  {
+    "series_slug": "vientiane-international-marathon-2026",
+    "edition_year": 2022,
+    "edition_date": "2022-12-25",
+    "results_url": "https://sportstats.one/event/vientiane-international-half-marathon/leaderboard/118032"
+  },
+  {
+    "series_slug": "vientiane-international-half-marathon-2027",
+    "edition_year": 2025,
+    "edition_date": "2025-03-09",
+    "results_url": "https://sportstats.one/event/vientiane-international-half-marathon/leaderboard/143233"
+  },
+  {
+    "series_slug": "vientiane-international-half-marathon-2027",
+    "edition_year": 2023,
+    "edition_date": "2023-03-26",
+    "results_url": "https://sportstats.one/event/vientiane-international-half-marathon/leaderboard/128389"
+  },
+  {
+    "series_slug": "luang-prabang-half-marathon-run-for-children-2026",
+    "edition_year": 2023,
+    "edition_date": "2023-10-28",
+    "results_url": "https://sportstats.one/event/run-for-children-luang-prabang-half-marathon/leaderboard/129681"
+  },
+  {
+    "series_slug": "luang-prabang-half-marathon-run-for-children-2026",
+    "edition_year": 2022,
+    "edition_date": "2022-10-30",
+    "results_url": "https://sportstats.one/event/run-for-children-luang-prabang-half-marathon/leaderboard/117543"
+  },
+  {
+    "series_slug": "aia-rock-n-roll-running-series-manila-2026",
+    "edition_year": 2024,
+    "edition_date": "2024-11-23",
+    "results_url": "https://sportstats.one/event/rock-n-roll-running-series-manila/leaderboard/142788"
+  },
+  {
+    "series_slug": "aia-rock-n-roll-running-series-manila-2026",
+    "edition_year": 2023,
+    "edition_date": "2023-11-26",
+    "results_url": "https://sportstats.one/event/rock-n-roll-running-series-manila/leaderboard/130037"
+  },
+  {
+    "series_slug": "aia-rock-n-roll-running-series-manila-2026",
+    "edition_year": 2022,
+    "edition_date": "2022-06-19",
+    "results_url": "https://sportstats.one/event/rock-n-roll-running-series-manila/leaderboard/116423"
+  },
+  {
+    "series_slug": "fit-to-run-2026-leg-3",
+    "edition_year": 2025,
+    "edition_date": "2025-12-21",
+    "results_url": "https://smoke10events.myruntime.com/results/fit-to-run-2025-leg-3"
+  },
+  {
+    "series_slug": "fit-to-run-2026-leg-3",
+    "edition_year": 2024,
+    "edition_date": "2024-11-10",
+    "results_url": "https://smoke10events.myruntime.com/results/fit-to-run-2024-leg-3"
+  },
+  {
+    "series_slug": "the-gift-of-running-2026",
+    "edition_year": 2025,
+    "edition_date": "2025-12-07",
+    "results_url": "https://mnlcityrun.myruntime.com/results/the-gift-of-running-2025"
+  },
+  {
+    "series_slug": "kcc-gensan-marathon-2026",
+    "edition_year": 2025,
+    "edition_date": "2025-08-30",
+    "results_url": "https://kccgensanmarathon.myruntime.com/results/kcc-gensan-marathon-2025"
+  },
+  {
+    "series_slug": "blaze-the-passion-run-2027",
+    "edition_year": 2025,
+    "edition_date": "2025-11-23",
+    "results_url": "https://jcirevents.myruntime.com/results/great-run-clark-blaze-the-passion-run"
+  },
+  {
+    "series_slug": "trailblaze-nueva-ecija-marathon-2026",
+    "edition_year": 2025,
+    "edition_date": "2025-09-07",
+    "results_url": "https://myruntime.com/results/NER-Trailblaze-2025-half-marathon"
+  },
+  {
+    "series_slug": "bulacan-half-marathon-2027",
+    "edition_year": 2026,
+    "edition_date": "2026-02-22",
+    "results_url": "https://teammalofit.myruntime.com/results/bhm2026"
+  },
+  {
+    "series_slug": "bulacan-half-marathon-2027",
+    "edition_year": 2025,
+    "edition_date": "2025-02-16",
+    "results_url": "https://teammalofit.myruntime.com/results/isuzu-bulacan-half-marathon-2025"
+  },
+  {
+    "series_slug": "cebu-marathon-2027",
+    "edition_year": 2026,
+    "edition_date": "2026-01-11",
+    "results_url": "https://cebumarathon.myruntime.com/results/cebu-marathon-2026"
+  },
+  {
+    "series_slug": "cebu-marathon-2027",
+    "edition_year": 2025,
+    "edition_date": "2025-01-12",
+    "results_url": "https://cebumarathon.myruntime.com/results/cebu-marathon-2025"
   }
 ]

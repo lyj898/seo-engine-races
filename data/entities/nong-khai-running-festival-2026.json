@@ -112,5 +112,10 @@
     "vnexpress-marathon-nha-trang-2026"
   ],
   "last_updated": "2026-08-03",
-  "status": "archived"
+  "status": "archived",
+  "results": {
+    "url": "https://nongkhaimarathon.com/results/",
+    "publisher": "Nongkhai Running Festival (organiser)",
+    "last_checked": "2026-11-06"
+  }
 }
