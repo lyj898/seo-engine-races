@@ -111,7 +111,32 @@
       "source_url": "https://www.instagram.com/continuum.athletics/"
     }
   ],
-  "coaches": [],
+  "coaches": [
+    {
+      "name": "Rise Run Bali coaching (Rise Plan)",
+      "kind": "coaching_business",
+      "url": "https://www.riserunbali.com/plans",
+      "url_kind": "website",
+      "offers": "Rise Plan online coaching at AUD 35 per week: pre-screening form and video review, an 8-week tailored run and/or strength plan delivered in a training app, and weekly online check-ins. The site also advertises a week-long running retreat in Canggu (dates and prices not published)",
+      "where": "Online; the club itself meets in Canggu",
+      "credentials": "Founder Sinead MacCana is a UESCA-certified running coach (UESCA directory)",
+      "description": "The paid coaching arm of the free Rise Run Bali community club. The plan is delivered remotely by its founder, who is no longer based in Bali.",
+      "active_evidence": "Plans page checked 6 Nov 2026; club Instagram posts, 31 Oct to 6 Nov 2026",
+      "source_url": "https://www.riserunbali.com/plans"
+    },
+    {
+      "name": "Anastasia Perwanti",
+      "kind": "coach",
+      "url": "https://www.instagram.com/callmenas/",
+      "url_kind": "instagram",
+      "offers": "In-person and online coaching, mainly for beginners and recreational runners, combining structured running with strength, recovery and mindset work (per her UESCA directory profile; no prices published)",
+      "where": "Badung, Bali; online",
+      "credentials": "UESCA-certified running coach",
+      "description": "A Bali-based coach who also works as an event and race planner. Her coaching focuses on building sustainable running habits and avoiding injury.",
+      "active_evidence": "Instagram posts, 31 Jul to 1 Nov 2026; UESCA directory profile checked 6 Nov 2026",
+      "source_url": "https://uesca.com/coach-directory/entry/13671/"
+    }
+  ],
   "route_guides": [
     {
       "publisher": "Great Runs",
@@ -119,6 +144,6 @@
       "url": "https://greatruns.com/location/bali-indonesia/"
     }
   ],
-  "last_updated": "2026-11-02",
+  "last_updated": "2026-11-06",
   "status": "active"
 }

@@ -1,0 +1,116 @@
+{
+  "city_id": "medan",
+  "slug": "medan",
+  "city": "Medan",
+  "country": "Indonesia",
+  "area_note": "Central Medan (Lapangan Benteng, Lapangan Merdeka and Kesawan), the former Polonia airport area and Citraland Bagya",
+  "intro": "Lapangan Benteng in Medan Petisah is the city's main running hub, used for weekend morning runs and weekday evening sessions alike. Other group runs start from the former Polonia airport area and Citraland Bagya, and on Sunday mornings Car Free Day around Lapangan Merdeka is open to runners from 6am. Weekend runs usually start at 6 to 6:30am and weekday runs between 5pm and 7pm. Several Medan clubs post only occasionally and take new members through WhatsApp groups linked from their Instagram profiles, so message the club before a first run.",
+  "race_cities": [
+    "Medan"
+  ],
+  "clubs": [
+    {
+      "name": "RUNMDN",
+      "kind": "crew",
+      "focus": "road",
+      "url": "https://www.instagram.com/runmdn/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Tuesdays 5pm (speed session)",
+          "where": "Lapangan Benteng"
+        },
+        {
+          "when": "Thursdays 5:15pm (easy run)",
+          "where": "Sangrai Coffeeshop"
+        },
+        {
+          "when": "Sundays 6:30am (long run)",
+          "where": "Sangrai Coffeeshop"
+        }
+      ],
+      "who": "Open to newcomers and experienced runners",
+      "description": "An urban running crew founded in December 2012, with Sangrai Coffeeshop as its base and city routes through areas such as the old Polonia airport, Kesawan and Lapangan Benteng. Runs end back at the coffee shop.",
+      "active_evidence": "Instagram posts, 2 Mar to 18 Aug 2026; crew profile on runningcrews.com dated 15 Apr 2026",
+      "source_url": "https://www.instagram.com/runmdn/"
+    },
+    {
+      "name": "Medan Merdeka Runners (#anakmedanberlari)",
+      "kind": "club",
+      "focus": "road",
+      "url": "https://www.instagram.com/medanmerdekarunners/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Sundays 6:30am",
+          "where": "Lapangan Benteng"
+        },
+        {
+          "when": "Tuesdays and Thursdays 7pm",
+          "where": "Lapangan Benteng"
+        }
+      ],
+      "description": "A community set up in 2015 by Gunawan Utomo, who is listed as the contact in the bio. Besides its three weekly runs, it puts emphasis on strength and general fitness training.",
+      "active_evidence": "Own Instagram posts 20 Mar, 9 May and 6 Jun 2026; tagged posts to 20 Aug 2026",
+      "source_url": "https://www.instagram.com/medanmerdekarunners/"
+    },
+    {
+      "name": "iRun Medan",
+      "kind": "club",
+      "focus": "road",
+      "url": "https://www.instagram.com/irun.medan/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Saturdays 6am",
+          "where": "Citraland Bagya"
+        },
+        {
+          "when": "Sundays 6am (easy and long run)",
+          "where": "Former Polonia air base (Lanud ex-Polonia)"
+        }
+      ],
+      "description": "The Medan branch of the iRun community, set up in February 2017, with the motto #BetterYourBest. Members also travel to national and international races.",
+      "active_evidence": "Instagram posts 15 Jan, 25 Jan and 15 Jul 2026",
+      "source_url": "https://www.instagram.com/irun.medan/"
+    },
+    {
+      "name": "Medan Runners",
+      "kind": "club",
+      "focus": "road",
+      "url": "https://www.instagram.com/medanrunners_/",
+      "url_kind": "instagram",
+      "meets": [],
+      "description": "A Medan runners' community that also organises races. New members join through a WhatsApp group linked from its Instagram bio. Its Instagram highlights cover group outings to local races in 2026.",
+      "active_evidence": "Own Instagram posts 6-31 Aug 2026; tagged posts to 27 Oct 2026",
+      "source_url": "https://www.instagram.com/medanrunners_/"
+    },
+    {
+      "name": "BanBan Running Club",
+      "kind": "crew",
+      "focus": "social",
+      "url": "https://www.instagram.com/banbanrunningclub/",
+      "url_kind": "instagram",
+      "meets": [],
+      "who": "All paces welcome",
+      "description": "A Medan running crew whose motto is to run at your own pace with no pressure. Its Instagram links to a group chat for joining runs. Local media identified it as a Medan-based community in May 2026.",
+      "active_evidence": "Instagram reel 1 Nov 2026 and tagged posts 24 Oct to 1 Nov 2026; news coverage 30 May 2026 (detik.com, IDN Times)",
+      "source_url": "https://www.instagram.com/banbanrunningclub/"
+    },
+    {
+      "name": "RUNKTL",
+      "kind": "crew",
+      "focus": "trail",
+      "url": "https://www.instagram.com/runktl/",
+      "url_kind": "instagram",
+      "meets": [],
+      "description": "A small Medan-area group formed in May 2020, whose name comes from \"kurang tambah lagi\". It organises trail runs through forests and along rivers.",
+      "active_evidence": "Instagram posts 6 and 26 Jun 2026; tagged post 24 Oct 2026",
+      "source_url": "https://www.instagram.com/runktl/"
+    }
+  ],
+  "coaches": [],
+  "route_guides": [],
+  "last_updated": "2026-11-06",
+  "status": "active"
+}

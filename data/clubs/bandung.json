@@ -1,0 +1,202 @@
+{
+  "city_id": "bandung",
+  "slug": "bandung",
+  "city": "Bandung",
+  "country": "Indonesia",
+  "area_note": "Bandung city, including Dago, Gasibu and Gedung Sate, the IBCC area, Laswi, Pajajaran and Gatot Subroto",
+  "intro": "Bandung's running groups meet mostly on Saturday and Sunday mornings between 6am and 7am, and many add a weekday night run, usually on Tuesday or Thursday, plus a strength or speed session. Lapangan Gasibu, the field with a jogging track in front of Gedung Sate, is busy with runners on weekday evenings, and Indo Runners Bandung starts its runs from the IBCC area. Several newer crews start from a different coffee shop or store each week, so check that week's post before going. Most clubs announce runs on Instagram and take sign-ups through WhatsApp or Google Forms.",
+  "race_cities": [
+    "Bandung"
+  ],
+  "clubs": [
+    {
+      "name": "Indo Runners Bandung",
+      "kind": "club",
+      "focus": "road",
+      "url": "https://www.instagram.com/indorunnersbdg/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Tuesdays 6:30pm (Tuesday Night Run)",
+          "where": "IBCC (Istana Building Commodities Center) area"
+        },
+        {
+          "when": "Sundays 6:15am (Sunday Morning Run)",
+          "where": "IBCC (Istana Building Commodities Center) area"
+        }
+      ],
+      "cost": "Free",
+      "who": "All levels",
+      "description": "The Bandung chapter of the national Indo Runners community and one of the city's longest-running groups; a Telkom University study dates it to 2011. The Sunday run is roughly 10 km, and the Tuesday run is shorter.",
+      "active_evidence": "Instagram collaboration posts to 24 Oct 2026; own post 22 May 2026",
+      "source_url": "https://www.instagram.com/indorunnersbdg/"
+    },
+    {
+      "name": "Fakerunners Bandung",
+      "kind": "crew",
+      "focus": "road",
+      "url": "https://www.instagram.com/fakerunnersbandung/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Tuesday nights (Lelarian Selasa Malam)"
+        },
+        {
+          "when": "Wednesdays (speed workout)"
+        },
+        {
+          "when": "Thursdays (strength training)"
+        },
+        {
+          "when": "Saturday mornings"
+        }
+      ],
+      "cost": "Free",
+      "who": "Open to anyone",
+      "description": "The Bandung chapter, started in 2017, of the Fakerunners community that formed in Jakarta in 2014. Joining is free: follow the Instagram account and turn up to the regular sessions. Its Linktree lists WhatsApp contacts for questions.",
+      "active_evidence": "Instagram posts, 4-6 Nov 2026",
+      "source_url": "https://www.instagram.com/fakerunnersbandung/"
+    },
+    {
+      "name": "Sobat Sabtu",
+      "kind": "crew",
+      "focus": "social",
+      "url": "https://www.instagram.com/sobatsabtu/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Saturdays 6:30am (Another Saturday Morning Run)",
+          "where": "Changes weekly, often a coffee shop or store; announced in advance"
+        },
+        {
+          "when": "Some Thursdays 7pm (night run)"
+        },
+        {
+          "when": "Some Tuesdays 6pm (strength training)"
+        }
+      ],
+      "who": "Young adults; beginners welcome",
+      "description": "A running and sports community founded in Bandung in 2019 that also runs a Jakarta Saturday series. Each week's start point is posted on its events page, with sign-up via WhatsApp.",
+      "active_evidence": "Instagram posts, 8 Oct to 2 Nov 2026; Bandung events listed for 29 Sep to 31 Oct 2026",
+      "source_url": "https://www.sobatsabtu.runminders.com"
+    },
+    {
+      "name": "Keluarga Cemara Run (Kece Run)",
+      "kind": "crew",
+      "focus": "mixed",
+      "url": "https://www.instagram.com/kecerun/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Saturday morning runs, posted on Instagram with a Google Form sign-up (e.g. Saturday 7 Nov 2026, 6:30am, 5 km)",
+          "where": "Varies; 7 Nov 2026 run from Expat Roaster, Jl. Gatot Subroto"
+        }
+      ],
+      "who": "All levels, beginners included",
+      "description": "A Bandung running community founded on 17 January 2020. It organises fun runs, long runs, trail runs and hikes. Runs are paced, and runners register in advance through a Google Form.",
+      "active_evidence": "Instagram posts, 1-5 Nov 2026; sign-up form for 7 Nov 2026 run",
+      "source_url": "https://www.instagram.com/kecerun/"
+    },
+    {
+      "name": "PMS Running Club",
+      "kind": "crew",
+      "focus": "social",
+      "url": "https://www.instagram.com/pmsrunningclub/",
+      "url_kind": "instagram",
+      "meets": [],
+      "who": "Young adults",
+      "description": "A Bandung running club with the motto \"Run, Chill, Coffee & Celebrate\" that holds Sunday group runs. It runs the annual RunMadhan charity series in Ramadan and has posted strength and conditioning sessions.",
+      "active_evidence": "Instagram posts, 25 Jul to 5 Oct 2026",
+      "source_url": "https://www.instagram.com/pmsrunningclub/"
+    },
+    {
+      "name": "BR20",
+      "kind": "crew",
+      "focus": "road",
+      "url": "https://www.instagram.com/br20runners/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Thursdays 7pm",
+          "where": "Bahureksa 20, Jl. Bahureksa"
+        },
+        {
+          "when": "Saturdays 7am",
+          "where": "Bahureksa 20, Jl. Bahureksa"
+        }
+      ],
+      "description": "An urban running crew started in early 2013 from a house on Jl. Bahureksa, now with members in Bandung and Jakarta. The directory listing advises contacting the crew before a first run, as times can change.",
+      "active_evidence": "Instagram posts, 9 Oct to 3 Nov 2026; schedule from runningcrews.com listing (updated 2026)",
+      "source_url": "https://www.instagram.com/br20runners/"
+    },
+    {
+      "name": "Strong Manis",
+      "kind": "crew",
+      "focus": "road",
+      "url": "https://www.instagram.com/strongmanis/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Sundays 6:30am"
+        }
+      ],
+      "cost": "Free",
+      "who": "Open to all; no registration",
+      "description": "A Bandung running club whose Instagram bio invites anyone to join its Sunday 6:30am run. A city guide dates it to 2014 and describes Saturday long runs as well as relaxed, shorter Sunday runs.",
+      "active_evidence": "Instagram posts, 27 Sep to 2 Nov 2026",
+      "source_url": "https://www.instagram.com/strongmanis/"
+    },
+    {
+      "name": "Freerunners Bandung",
+      "kind": "crew",
+      "focus": "road",
+      "url": "https://www.instagram.com/freerunners_bdg/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Saturday and Sunday mornings (routes change each time); e.g. Sunday 6 Sep 2026, 6:30am"
+        }
+      ],
+      "description": "A Bandung running community formed in October 2017 whose regular sessions are Saturday and Sunday morning runs of at least 5 km on changing routes. Schedules are posted on Instagram.",
+      "active_evidence": "Instagram posts, 3 Sep to 10 Oct 2026",
+      "source_url": "https://www.instagram.com/freerunners_bdg/"
+    },
+    {
+      "name": "Duraking Run Club (DKRC) Bandung",
+      "kind": "brand_club",
+      "focus": "road",
+      "url": "https://dkrc.club/",
+      "url_kind": "website",
+      "meets": [
+        {
+          "when": "Saturdays and Sundays 6am (weekend long run, pace groups)"
+        },
+        {
+          "when": "Wednesdays 6:30pm (strength and mobility)"
+        }
+      ],
+      "cost": "Free",
+      "who": "Beginners to marathon runners",
+      "description": "The free run club of the Duraking brand, which started in Bandung on 3 July 2024 and now also runs in Jakarta and Semarang. Session locations are announced in its app and on Instagram (@durakingrunclub), and Bandung sessions are led by named coaches and captains.",
+      "active_evidence": "Instagram posts, 29 Oct to 5 Nov 2026; website lists an event on 14 Nov 2026",
+      "source_url": "https://dkrc.club/"
+    }
+  ],
+  "coaches": [
+    {
+      "name": "Holspec Runners",
+      "kind": "coaching_business",
+      "url": "https://www.instagram.com/holspec.running.club/",
+      "url_kind": "instagram",
+      "offers": "Coached club training: Tuesday and Wednesday sessions with a running coach plus a Saturday group session; in April 2025 it charged Rp100,000 to register and Rp250,000 a month (a training jersey included)",
+      "where": "Saturday 6am sessions at GOR Pajajaran, Bandung",
+      "credentials": "Coach Handi Elang, who lists himself as Holspec's coach, describes himself on Instagram as a World Athletics-certified coach with a coaching education background at UPI",
+      "description": "A Bandung running club formed in 2022 that focuses on developing teenage runners and racing for podiums and personal bests, and also takes adults from beginner to masters level. Sign-up is through Instagram and a registration form.",
+      "active_evidence": "Instagram posts, 12 Oct to 4 Nov 2026; coach Handi Elang's Instagram posts, 6-26 Oct 2026; fees from jadwallari.id article dated 22 Apr 2025",
+      "source_url": "https://jadwallari.id/klub-lari-holspec-runners/"
+    }
+  ],
+  "route_guides": [],
+  "last_updated": "2026-11-06",
+  "status": "active"
+}

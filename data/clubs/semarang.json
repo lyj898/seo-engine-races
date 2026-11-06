@@ -1,0 +1,72 @@
+{
+  "city_id": "semarang",
+  "slug": "semarang",
+  "city": "Semarang",
+  "country": "Indonesia",
+  "area_note": "Semarang city, mainly Simpang Lima, Jalan Pahlawan, Kota Lama and Mugassari (GOR Tri Lomba Juang)",
+  "intro": "Semarang's running scene leans towards night runs: Simpang Lima, with its lit loop around Lapangan Pancasila, the Kota Lama old town and the track at Stadion Diponegoro are all used after dark. On Sunday mornings, Car Free Day closes the roads around Simpang Lima and Jalan Pahlawan from about 6am. GOR Tri Lomba Juang in Mugassari has a public track and is a regular weekend start point. Clubs post their runs and meeting points on Instagram.",
+  "race_cities": [
+    "Semarang"
+  ],
+  "clubs": [
+    {
+      "name": "Semarang Runners",
+      "kind": "club",
+      "focus": "road",
+      "url": "https://www.instagram.com/semarangrunners/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Thursdays 7pm (regular training)"
+        }
+      ],
+      "cost": "Free",
+      "who": "Open to the public",
+      "description": "One of Semarang's longest-running communities; its Instagram bio describes its regular Thursday training as free and open to the public. In September 2026 it marked its 13th anniversary, and Katadata (Sep 2026) describes its weeknight runs, Playon Selasa Bengi and Playon Kamis Bengi (Tuesday and Thursday nights). It also organises events such as the Heposphor Run and has related accounts, Semarang Sisterhood and Kiddos Runners.",
+      "active_evidence": "Instagram posts, 28 Oct to 4 Nov 2026 (anniversary post 11 Sep 2026)",
+      "source_url": "https://www.instagram.com/semarangrunners/"
+    },
+    {
+      "name": "FakeRunners Semarang",
+      "kind": "crew",
+      "focus": "road",
+      "url": "https://www.instagram.com/fakerunners_semarang/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Saturdays 5:25am",
+          "where": "Main gate of GOR Tri Lomba Juang, Mugassari"
+        }
+      ],
+      "cost": "Free",
+      "who": "All levels",
+      "description": "The Semarang chapter of FakeRunners, a community that started in Jakarta in 2014; the Semarang group was set up in November 2015. It promotes running for fun rather than for pace or podiums, and also organises fun runs and shake-out runs.",
+      "active_evidence": "Instagram reels, 17 and 23 Oct 2026; bio with Saturday schedule checked 6 Nov 2026",
+      "source_url": "https://www.instagram.com/fakerunners_semarang/"
+    },
+    {
+      "name": "Duraking Run Club (DKRC) Semarang",
+      "kind": "brand_club",
+      "focus": "road",
+      "url": "https://dkrc.club/semarang",
+      "url_kind": "website",
+      "meets": [
+        {
+          "when": "Saturdays and Sundays 6am (Weekend Long Run, easy runs and speed training in pace groups)"
+        },
+        {
+          "when": "Wednesdays 6pm (Strength & Mobility)"
+        }
+      ],
+      "cost": "Free",
+      "who": "Beginners to marathon runners",
+      "description": "A free run club started by the Duraking brand in Bandung in July 2024, now also running in Jakarta and Semarang. Runners register at dkrc.club, reserve sessions in its app and check in by QR code; session locations are announced in the app and on Instagram (@durakingrunclub). The Semarang sessions are led by named coaches and a captain.",
+      "active_evidence": "Semarang schedule on dkrc.club checked 6 Nov 2026; @durakingrunclub Instagram (bio lists Semarang) posts 29 Oct to 5 Nov 2026; Semarang coach Erwin Sebastian's Instagram (bio: DKRC Semarang) posts 25 Oct to 1 Nov 2026",
+      "source_url": "https://dkrc.club/semarang"
+    }
+  ],
+  "coaches": [],
+  "route_guides": [],
+  "last_updated": "2026-11-06",
+  "status": "active"
+}

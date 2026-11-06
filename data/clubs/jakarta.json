@@ -257,7 +257,56 @@
       "source_url": "https://www.instagram.com/running.rwrp/"
     }
   ],
-  "coaches": [],
+  "coaches": [
+    {
+      "name": "Runners Lab",
+      "kind": "coaching_business",
+      "url": "https://runnerslab.id/",
+      "url_kind": "website",
+      "offers": "Customised training programmes for all levels that combine running, strength, mobility and recovery; payment in full or by instalments (prices not published on the site)",
+      "where": "Sessions at GBK Stadium, Mid Plaza and Pacific Place, per its website",
+      "credentials": "Head coach Donny Tj; the site says its coaches are certified but does not name the bodies",
+      "description": "A paid running programme with a head coach and a team of strength and conditioning coaches, who tailor plans to each runner's goal and experience. Enquiries go through WhatsApp or Instagram.",
+      "active_evidence": "Instagram posts, 2-5 Nov 2026; website checked 6 Nov 2026",
+      "source_url": "https://www.instagram.com/runnerslab.id/"
+    },
+    {
+      "name": "Andriyanto (TrackTeam)",
+      "kind": "coach",
+      "url": "https://www.instagram.com/andriyanto.run/",
+      "url_kind": "instagram",
+      "offers": "Online training for runners of all levels, arranged by Instagram DM; he also coaches TrackTeam (@trackteam.id), a selective club of performance-focused runners who train together on the track",
+      "where": "Online; TrackTeam trains in Jakarta (a 2022 Warta Kota profile described weekly Wednesday sessions at Stadion Soemantri Brodjonegoro, Kuningan)",
+      "credentials": "UESCA and Revo2lution Running coaching certificates (Warta Kota, 2022); his bio cites two US running-coach certifications",
+      "description": "A former Reuters journalist who now coaches full time. TrackTeam members prepare for big-city marathons, some chasing Boston qualifying times.",
+      "active_evidence": "Instagram posts, 30 Sep to 3 Nov 2026; TrackTeam Instagram posts to 3 Nov 2026",
+      "source_url": "https://www.instagram.com/andriyanto.run/"
+    },
+    {
+      "name": "Yehezkiel L (Yeskiversity)",
+      "kind": "coach",
+      "url": "https://www.instagram.com/yehezkielesar/",
+      "url_kind": "instagram",
+      "offers": "1:1 online coaching, enquiries by Instagram DM; his story highlights also cover corporate coaching and strength training for runners (prices not published)",
+      "where": "Online; based in Jakarta",
+      "credentials": "Describes himself as a certified running coach and a 3:15 marathoner",
+      "description": "A Jakarta-based running coach who also runs @yeskiversity, an account for his coaching content and athlete testimonials.",
+      "active_evidence": "Instagram posts, 3 Oct to 2 Nov 2026; Jakarta location from his Threads bio",
+      "source_url": "https://www.instagram.com/yehezkielesar/"
+    },
+    {
+      "name": "Harris Silaban (Kelas Bersama Silaban)",
+      "kind": "coach",
+      "url": "https://www.instagram.com/harris_silaban/",
+      "url_kind": "instagram",
+      "offers": "Coaching through his Kelas Bersama Silaban group (@kelasbersamasilaban), whose runners raced the Jakarta Running Festival in October 2026; enquiries through Instagram (prices not published)",
+      "where": "Jakarta; online",
+      "credentials": "World Athletics CECS Level 1 coach; UESCA certified running coach; ICCA strength and conditioning",
+      "description": "A certified running coach based in Jakarta who coaches his own group and, in recent posts, Ardiles Running Club.",
+      "active_evidence": "Instagram posts, 17 Oct to 3 Nov 2026; Kelas Bersama Silaban posts, 13 Sep to 27 Oct 2026",
+      "source_url": "https://www.instagram.com/harris_silaban/"
+    }
+  ],
   "route_guides": [
     {
       "publisher": "Great Runs",
@@ -265,6 +314,6 @@
       "url": "https://greatruns.com/location/jakarta-indonesia/"
     }
   ],
-  "last_updated": "2026-11-02",
+  "last_updated": "2026-11-06",
   "status": "active"
 }

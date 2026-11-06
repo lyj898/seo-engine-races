@@ -1,0 +1,178 @@
+{
+  "city_id": "yogyakarta",
+  "slug": "yogyakarta",
+  "city": "Yogyakarta",
+  "country": "Indonesia",
+  "area_note": "Kota Yogyakarta, Sleman (the UGM area and Kaliurang on Merapi's slopes) and Bantul, plus Magelang and Muntilan to the north",
+  "intro": "Yogyakarta's largest group, Indorunners Yogyakarta (Playon Jogja), runs on Thursday nights and Sunday mornings from a venue that changes each week, and Wednesday night is the other main club night, with runs starting from cafés. Universitas Gadjah Mada (UGM) has its own staff and alumni running groups, and trail runners head for the southern slopes of Merapi around Kaliurang, where the UGM Trail Run is held. This page also covers Magelang, about an hour north and home of the Borobudur Marathon, which has a small club scene of its own. Clubs announce runs mainly on Instagram, with Strava clubs and WhatsApp groups for details.",
+  "race_cities": [
+    "Yogyakarta",
+    "Sleman",
+    "Bantul",
+    "Magelang"
+  ],
+  "clubs": [
+    {
+      "name": "Indorunners Yogyakarta (Playon Jogja)",
+      "kind": "club",
+      "focus": "road",
+      "url": "https://www.instagram.com/playon_jogja/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Thursday nights (Thursday Night Run, TNR)",
+          "where": "Venue changes weekly; posted in the Instagram bio"
+        },
+        {
+          "when": "Sunday mornings (Sunday Morning Run, SMTR)",
+          "where": "Venue changes weekly; often starts at GIK UGM"
+        }
+      ],
+      "cost": "Free",
+      "who": "Open to anyone; pace groups from about 5 to 8 min/km",
+      "description": "The Yogyakarta chapter of IndoRunners, started in 2012 by Thea Rizkia with four runners. It has no membership system, registration or dues, and its Thursday run uses pace groups with pacers and marshals. Its Runiversity division (@irruniversity.jogja) runs training and education programmes, including preparation for the Borobudur Marathon.",
+      "active_evidence": "Instagram posts 12 Sep to 2 Nov 2026; bio listing runs on 5 and 8 Nov 2026 (checked 6 Nov 2026)",
+      "source_url": "https://www.instagram.com/playon_jogja/"
+    },
+    {
+      "name": "Jogja Unity Runners (JUR)",
+      "kind": "crew",
+      "focus": "road",
+      "url": "https://www.instagram.com/jogjarunners/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Wednesday nights (Wednesday Night Run, about 5 km)",
+          "where": "Rotating cafes around the city; meeting point announced two days ahead"
+        }
+      ],
+      "cost": "Free",
+      "who": "Open to the public; all paces, run and run-walk options",
+      "description": "A community that grew out of a group of friends running together in 2024. It has no registration or membership fees and also holds occasional weekend trail runs and partner fun runs. Members coordinate through a Strava club and a WhatsApp community.",
+      "active_evidence": "Instagram posts 27 Oct to 1 Nov 2026",
+      "source_url": "https://www.instagram.com/jogjarunners/"
+    },
+    {
+      "name": "Selow Runners (Recreational Athletics Club)",
+      "kind": "crew",
+      "focus": "social",
+      "url": "https://www.instagram.com/selowrunners/",
+      "url_kind": "instagram",
+      "meets": [],
+      "who": "Runners of all paces",
+      "description": "A Yogyakarta crew running since 2021 that runs from coffee shop to coffee shop around the city. It has also held women-only runs, such as a free 5K 'Sister Stride' on 12 Sep 2026.",
+      "active_evidence": "Instagram posts 14 Sep to 28 Oct 2026",
+      "source_url": "https://www.instagram.com/selowrunners/"
+    },
+    {
+      "name": "Musang Running Team",
+      "kind": "crew",
+      "focus": "road",
+      "url": "https://www.instagram.com/musangrunningteam/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Tuesdays (Tuesdash speed session)"
+        }
+      ],
+      "description": "A Jogja crew aimed at runners preparing for races from 5K to the marathon. According to KabarJawa (Aug 2026), its weekly Tuesdash session covers intervals, sprints, fartlek and threshold work and is open to runners from other communities.",
+      "active_evidence": "Instagram posts 24 Sep and 18 Oct 2026, plus collaboration posts to 29 Oct 2026",
+      "source_url": "https://www.instagram.com/musangrunningteam/"
+    },
+    {
+      "name": "Indies Road RC",
+      "kind": "crew",
+      "focus": "road",
+      "url": "https://www.instagram.com/indiesroad/",
+      "url_kind": "instagram",
+      "meets": [],
+      "description": "A weekend running collective on the roads of Yogyakarta, set up in 2020. It does not publish a fixed meeting point. Runs are posted on Instagram.",
+      "active_evidence": "Instagram posts 6 Oct to 24 Oct 2026",
+      "source_url": "https://www.instagram.com/indiesroad/"
+    },
+    {
+      "name": "Temu Gank Running Collective (TGRC)",
+      "kind": "crew",
+      "focus": "mixed",
+      "url": "https://www.instagram.com/temu.gank/",
+      "url_kind": "instagram",
+      "meets": [],
+      "description": "A small Yogyakarta-based running collective with a Strava club. Its highlights cover road runs, sprint and strength sessions and trail races.",
+      "active_evidence": "Instagram posts to 18 Jul 2026; collaboration posts with members 1-15 Oct 2026",
+      "source_url": "https://www.instagram.com/temu.gank/"
+    },
+    {
+      "name": "Gadjah Playon",
+      "kind": "university",
+      "focus": "road",
+      "url": "https://www.instagram.com/gadjahplayon/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Tuesdays and Wednesdays 4:30pm",
+          "where": "East side of GSP (Grha Sabha Pramana), in front of the MSi FEB UGM building"
+        }
+      ],
+      "who": "UGM staff, lecturers, students, alumni and partners; membership by invitation",
+      "description": "An unofficial running community for people affiliated with Universitas Gadjah Mada. Its Strava club lists the routine sessions and says membership is invitation-only.",
+      "active_evidence": "Instagram posts 25 Sep and 3 Oct 2026; schedule from its Strava club page, checked 6 Nov 2026",
+      "source_url": "https://www.strava.com/clubs/GadjahPlayOn"
+    },
+    {
+      "name": "KAGAMA Lari untuk Berbagi (KLUB)",
+      "kind": "club",
+      "focus": "trail",
+      "url": "https://www.instagram.com/klubrunnersugm/",
+      "url_kind": "instagram",
+      "meets": [],
+      "who": "UGM alumni",
+      "description": "A running community for UGM alumni under the KAGAMA alumni association, set up in 2018. It co-organises the UGM Trail Run on Merapi's slopes (26-27 Sep 2026) and the UGM Ultra Charity Run, and has a Strava club (KLUB Runners UGM).",
+      "active_evidence": "Instagram posts 10 and 23 Oct 2026, plus UGM Ultra posts to 1 Nov 2026",
+      "source_url": "https://www.instagram.com/klubrunnersugm/"
+    },
+    {
+      "name": "Trail Runners Yogyakarta",
+      "kind": "club",
+      "focus": "trail",
+      "url": "https://www.instagram.com/trailrunners.yogyakarta/",
+      "url_kind": "instagram",
+      "meets": [],
+      "description": "A trail running community set up in 2013, which also works as a race organiser. It co-organises the UGM Trail Run with KLUB, and its feed carries Merapi-area trail events such as Lari Lingkar Merapi and the Coast to Coast Night Trail Ultra.",
+      "active_evidence": "Collaboration posts on its Instagram 7 Oct to 1 Nov 2026; named co-organiser of UGM Trail Run, 26-27 Sep 2026",
+      "source_url": "https://www.instagram.com/trailrunners.yogyakarta/"
+    },
+    {
+      "name": "Magelang Runners",
+      "kind": "club",
+      "focus": "road",
+      "url": "https://www.instagram.com/magelangrunners/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Wednesdays 4pm ('Rabu Akademia' run)"
+        },
+        {
+          "when": "Fridays 7pm (Friday Night Run)"
+        }
+      ],
+      "description": "The main running community in Magelang city, about an hour north of Yogyakarta and the home of the Borobudur Marathon. Its Instagram bio lists two weekly group runs and links to its Strava club.",
+      "active_evidence": "Instagram posts 24 Oct to 6 Nov 2026",
+      "source_url": "https://www.instagram.com/magelangrunners/"
+    },
+    {
+      "name": "Muntilan Runners",
+      "kind": "crew",
+      "focus": "road",
+      "url": "https://www.instagram.com/muntirun/",
+      "url_kind": "instagram",
+      "meets": [],
+      "description": "A running crew from Muntilan in Magelang Regency, on the road between Yogyakarta and Magelang. Its Instagram bio tags the 910 shoe brand and its 910 Runners community.",
+      "active_evidence": "Instagram posts 13 to 27 Sep 2026",
+      "source_url": "https://www.instagram.com/muntirun/"
+    }
+  ],
+  "coaches": [],
+  "route_guides": [],
+  "last_updated": "2026-11-06",
+  "status": "active"
+}

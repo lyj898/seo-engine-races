@@ -50,7 +50,7 @@ const breadcrumbItems = [
 const jsonLd = [buildBreadcrumbListSchema(breadcrumbItems, Astro.site)].filter(Boolean);
 
 const title = `Running Clubs and Coaches in ${city.city}`;
-const description = `${clubs.length} running clubs and crews${coaches.length ? ` and ${coaches.length} coaches` : ''} in ${city.city}: where and when they run, what they cost, and the races coming up in the city.`;
+const description = `${clubs.length} running clubs and crews${coaches.length ? ` and ${coaches.length} ${coaches.length === 1 ? 'coach' : 'coaches'}` : ''} in ${city.city}: where and when they run, what they cost, and the races coming up in the city.`;
 ---
 
 <BaseLayout title={title} description={description} canonicalPath={urls.clubCity(city.slug)} jsonLd={jsonLd}>

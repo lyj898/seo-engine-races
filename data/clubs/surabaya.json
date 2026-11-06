@@ -1,0 +1,105 @@
+{
+  "city_id": "surabaya",
+  "slug": "surabaya",
+  "city": "Surabaya",
+  "country": "Indonesia",
+  "area_note": "Central Surabaya (Balai Kota, Jalan Basuki Rahmat, Delta Plaza and Jalan Raya Darmo)",
+  "intro": "Surabaya's group runs start early in the morning, from about 5am, or after 7pm, to avoid the heat. Central Surabaya is the hub: IndoRunners Surabaya holds its weeknight runs from Delta Plaza, and Kendos Running Crew starts from City Hall (Balai Kota), which is also the start of several of the city's big road races. On Sunday mornings the Car Free Day on Jalan Raya Darmo keeps its main lane clear for walking and running. Clubs announce runs on Instagram, Threads and WhatsApp groups.",
+  "race_cities": [
+    "Surabaya"
+  ],
+  "clubs": [
+    {
+      "name": "IndoRunners Surabaya",
+      "kind": "club",
+      "focus": "road",
+      "url": "https://www.instagram.com/indorunnerssurabaya/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Tuesdays and Thursdays 7pm (Thursday/Tuesday Night Run)",
+          "where": "East car park, Delta Plaza (Plaza Surabaya)"
+        },
+        {
+          "when": "Sundays (Sunday Morning Run)"
+        }
+      ],
+      "cost": "Free",
+      "who": "Open to all runners",
+      "description": "The Surabaya chapter of IndoRunners, running since 2012 and describing itself as the city's biggest running community. Besides the weekly group runs it organises themed runs such as culture runs, sahur runs during Ramadan and New Year runs, and posts updates on Instagram and Threads.",
+      "active_evidence": "Instagram posts, 21 Oct to 6 Nov 2026; Threads posts announcing night runs, 19 and 26 Oct 2026",
+      "source_url": "https://www.instagram.com/indorunnerssurabaya/"
+    },
+    {
+      "name": "Kendos Running Crew",
+      "kind": "crew",
+      "focus": "road",
+      "url": "https://www.instagram.com/kendosrunningcrew/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Wednesdays 7pm",
+          "where": "Surabaya City Hall (Balai Kota)"
+        },
+        {
+          "when": "Saturdays 5:30am",
+          "where": "Surabaya City Hall (Balai Kota)"
+        },
+        {
+          "when": "Sundays 5am",
+          "where": "McDonald's Basuki Rahmat (\"McD Basra\")"
+        }
+      ],
+      "cost": "Free",
+      "who": "All ages and levels",
+      "description": "A crew founded in April 2014 by six runners outside Surabaya City Hall; the name comes from a Javanese phrase about bursting calves. Runs are easy-paced through the city centre, often followed by coffee, and the crew collaborates with local shops and brands.",
+      "active_evidence": "Instagram posts by the crew, 17 Oct to 1 Nov 2026",
+      "source_url": "https://www.instagram.com/kendosrunningcrew/"
+    },
+    {
+      "name": "Galau Running Club",
+      "kind": "club",
+      "focus": "road",
+      "url": "https://www.instagram.com/galaurunclub/",
+      "url_kind": "instagram",
+      "meets": [],
+      "cost": "Free",
+      "who": "Open to all; friendly fun runs",
+      "description": "A Surabaya club whose bio reads \"We run together! Join us for friendly fun run\". It runs a Strava club with members listed in Surabaya, and acted as race organiser for the PKB Run Festival Jatim in July 2026. Run times are posted on Instagram and Strava rather than in a fixed public schedule.",
+      "active_evidence": "Instagram posts, 16 Oct to 2 Nov 2026",
+      "source_url": "https://www.instagram.com/galaurunclub/"
+    },
+    {
+      "name": "Suroboyo Mlayu",
+      "kind": "crew",
+      "focus": "road",
+      "url": "https://www.instagram.com/suroboyomlayubanter/",
+      "url_kind": "instagram",
+      "meets": [
+        {
+          "when": "Saturday mornings (weekly run)"
+        }
+      ],
+      "cost": "Free",
+      "who": "Everyone welcome (#semuabisagabung, \"anyone can join\")",
+      "description": "A Surabaya crew whose name is Javanese for \"Surabaya runs\". It holds a weekly Saturday-morning run and links a WhatsApp group from its Instagram bio for run details.",
+      "active_evidence": "Instagram posts, 23 Oct to 4 Nov 2026",
+      "source_url": "https://www.instagram.com/suroboyomlayubanter/"
+    },
+    {
+      "name": "GSC Running Club",
+      "kind": "club",
+      "focus": "mixed",
+      "url": "https://www.instagram.com/gsc.rc/",
+      "url_kind": "instagram",
+      "meets": [],
+      "description": "A Surabaya running club that describes itself as a running and trail association, covering both road and trail running. It does not publish a fixed run schedule on its profile.",
+      "active_evidence": "Instagram posts by the club, 30 and 31 Oct 2026",
+      "source_url": "https://www.instagram.com/gsc.rc/"
+    }
+  ],
+  "coaches": [],
+  "route_guides": [],
+  "last_updated": "2026-11-06",
+  "status": "active"
+}
