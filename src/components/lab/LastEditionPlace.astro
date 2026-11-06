@@ -6,7 +6,7 @@ import { numFieldClass, selectClass, labelClass, subLabelClass, cardClass, calcu
 // "How would you have placed last year?" on an upcoming race's page: a time
 // against the previous edition's field (lastEditionField in finishTimes.js).
 // Only per-group sizes and percentile tables reach the page, never a time.
-const { field, raceName } = Astro.props;
+const { field, raceName, raceSlug } = Astro.props;
 // Rounded to the nearest minute, so a 1:25:54 median reads 1:26.
 const fmt = (s) => {
   const mins = Math.round(s / 60);
@@ -18,7 +18,7 @@ const summary = (d) =>
     .filter(Boolean)
     .join('; ') + '.';
 const pct = (x) => `${Math.round(x * 100)}%`;
-const payload = { order: field.order, distances: field.distances, labels: DISTANCE_LABEL, year: field.year };
+const payload = { order: field.order, distances: field.distances, labels: DISTANCE_LABEL, year: field.year, race: raceSlug ?? '' };
 const first = field.order[0];
 ---
 
@@ -120,5 +120,13 @@ const first = field.order[0];
           ? `${fmtFull(t)} would have been faster than every ${dl} finisher in ${payload.year}.`
           : `${fmtFull(t)} would have placed about ${place.toLocaleString('en')} of ${grp.n.toLocaleString('en')} ${who} in ${payload.year}: faster than about ${ahead}% of them.`;
     out.classList.remove('hidden');
+    // GA4 (gtag is set up in BaseLayout): how often the box is used, on which
+    // race, distance and comparison group. The time itself is never sent.
+    window.gtag?.('event', 'last_year_place', {
+      race: payload.race,
+      distance: $('ly-distance').value,
+      compare: g,
+      edition_year: payload.year,
+    });
   });
 </script>

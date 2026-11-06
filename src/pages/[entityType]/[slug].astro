@@ -314,7 +314,7 @@ const jsonLd = [
       <p>{entity.ai_summary}</p>
     </div>
 
-    {lastField && <LastEditionPlace field={lastField} raceName={entity.name} />}
+    {lastField && <LastEditionPlace field={lastField} raceName={entity.name} raceSlug={entity.slug} />}
 
     {/* Unmerged fallback: link out to the standalone review page. */}
     {review && !merged && (
