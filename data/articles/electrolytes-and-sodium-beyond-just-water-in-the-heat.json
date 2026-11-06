@@ -1,73 +1,178 @@
 {
   "article_id": "electrolytes-and-sodium-beyond-just-water-in-the-heat",
   "slug": "electrolytes-and-sodium-beyond-just-water-in-the-heat",
-  "title": "Electrolytes and Sodium: Beyond Just Water in the Heat",
-  "seo_title": "Electrolytes and Sodium: Beyond Just Water in the Heat",
-  "meta_description": "Why water alone isn't enough for long, hot efforts, the overhydration and hyponatremia risk, and practical guidance on when electrolyte replacement matters.",
+  "title": "Fuelling in the Tropics: Water, Sodium and Food for Hot-Weather Racing",
+  "seo_title": "Fuelling in the Tropics: Water, Sodium and Food for Hot Races",
+  "meta_description": "How much runners sweat, why overdrinking is the bigger danger, the sodium and carbohydrate numbers that matter, and what the region's isotonic drinks, gels and local food actually offer.",
   "topic": "Running Health & Recovery",
-  "dek": "On a long, hot run, plain water solves only half the fluid-balance problem -- and past a certain point, drinking more of it can create a different problem entirely. Here's what sweat actually takes with it, and when to replace it.",
+  "dek": "In humid heat a runner can lose a litre or two of sweat an hour, and the salt in it varies several-fold from one person to the next. What the sports-medicine evidence says about replacing it, and how to use what is actually on the shelf and at the aid stations here.",
   "sections": [
     {
-      "heading": "Why Water Alone Isn't Enough on Long, Hot Efforts",
+      "heading": "How Much You Sweat, and What Is in It",
       "paragraphs": [
-        "Sweat isn't pure water -- it carries dissolved sodium out with it, and the hotter and more humid the conditions, the more a runner sweats to manage the same core temperature, which means more sodium lost alongside the fluid. In Southeast Asia's heat and humidity, sweat rates during a long run or race can run well above what most runners would produce for the same effort in a temperate climate, and replacing only the fluid half of that loss with plain water leaves the sodium side of the ledger increasingly out of balance as the run goes on.",
-        "That imbalance doesn't announce itself the way dehydration does. A runner who feels thirsty and simply drinks more water to match is addressing fluid volume, not sodium concentration -- and on a long enough effort, that combination is exactly the setup for the more serious problem covered below, rather than a fix for it."
+        "A review of sweat testing in athletes found whole-body sweat rates typically between about 0.5 and 2.0 litres an hour, and sodium concentrations in sweat of roughly 10 to 70 mmol per litre across the whole body [3]. That is a sevenfold spread in salt alone, which is why no single drink suits everyone. Heat acclimatisation helps: as the body adapts, sweat glands reabsorb more sodium and sweat gets less salty [3].",
+        "The American College of Sports Medicine's fluid guidance follows from that variability. Its goal for drinking during exercise is to avoid losing more than 2% of body weight to a water deficit, and because sweat rates differ so much, it recommends an individual plan built on weighing yourself before and after training [2]. A runner who weighs 60 kg before an hour-long run in the heat and 59 kg after has sweated roughly a litre more than they drank. The heat consensus statement adds that drinking to thirst may not keep up when sweat rates are high [1], so a heavy sweater on a long run needs a rough plan, not just instinct."
       ]
     },
     {
-      "heading": "The Overhydration Risk: Hyponatremia",
+      "heading": "The Opposite Danger: Drinking Too Much",
       "paragraphs": [
-        "Exercise-associated hyponatremia is a drop in blood sodium concentration that can occur during or after prolonged exercise, and updated guidelines from the Wilderness Medical Society identify its main driver as overdrinking -- specifically, taking in more hypotonic fluid (plain water or standard sports drink) than the body is losing through sweat, urine, and other routes, which dilutes existing sodium levels rather than the more intuitive-sounding cause of simply losing too much sodium[1]. It's a genuinely serious condition in its more severe form, and the risk rises specifically with exercise duration beyond roughly two hours, hot conditions, and a tendency to drink more than thirst calls for.",
-        "This is worth stating plainly because it cuts against the instinct many runners have in the heat: more water is not automatically the safer choice on a long, hot effort. The Wilderness Medical Society guidance is explicit that inadequate sodium intake before or during an event isn't itself well-supported as a cause of hyponatremia -- the core issue is fluid volume outpacing what the body needs, not a sodium deficit on its own[1]. Drinking to thirst, rather than to a fixed volume target or out of heat-driven anxiety, is the more defensible default for most runners on most long runs."
+        "More water is not automatically safer. Exercise-associated hyponatraemia, a dangerous fall in blood sodium, is usually caused by drinking too much plain water or sports drink, according to the Wilderness Medical Society's guidelines as summarised by the American Academy of Family Physicians. The society's advice is to limit drinking to what thirst calls for, and it notes that no fixed drinking volume has been shown to prevent the condition [4].",
+        "Salt does not cancel out overdrinking. The same guidance says salty food is reasonable to have on long efforts in the heat, but it will not prevent hyponatraemia if a runner drinks too much [4]. The heat consensus puts the two risks together neatly: minimise the water you lose, but never finish heavier than you started [1]. Weight gain over a long run or race is the warning sign."
       ]
     },
     {
-      "heading": "When Electrolyte Replacement Actually Matters",
+      "heading": "Sodium and Carbohydrate: The Numbers That Matter",
       "paragraphs": [
-        "For runs under roughly 60-90 minutes, plain water is generally sufficient regardless of conditions -- sweat sodium losses over that timeframe are rarely large enough to matter, and there's little practical benefit to electrolyte replacement on a short easy run. Past that duration, a carbohydrate-electrolyte beverage becomes more useful, and sodium specifically becomes a relevant variable once an effort passes about two hours, or any time sweat rate is unusually high due to heat, intensity, or simply being a naturally salty sweater (visible white residue on dried kit is a reasonably reliable sign of the latter)[2].",
-        "In practice, that means a 45-minute recovery jog and a four-hour long run in Southeast Asian heat call for genuinely different fueling plans, not the same bottle scaled up. The four-hour effort is squarely in the window where sodium replacement -- via electrolyte tablets, capsules, or a sports drink taken alongside plain water rather than instead of it -- has a real physiological rationale behind it; the 45-minute jog mostly doesn't."
+        "For exercise lasting more than an hour in the heat, the consensus statement suggests drinks carrying 0.5 to 0.7 grams of sodium per litre and 30 to 60 grams of carbohydrate an hour [1]. Under an hour, water is enough for most runners. Over two hours, which covers every marathon and most half marathons in this region, both numbers matter. Before a long run or race, it suggests about 6 ml of fluid per kilogram of body weight every two to three hours to start properly hydrated, and after it, replacing 100% to 150% of the weight lost [1].",
+        "Carbohydrate works best taken early and steadily: start in the first 30 to 45 minutes and keep going at regular intervals rather than waiting for the first sign of fading. Heat blunts appetite, which makes a timer more reliable than hunger. Take gels with water rather than with a sports drink, so you do not stack two sugary doses at once.",
+        "Aid stations here are close together. Of the 41 races in our calendar whose records state the spacing, the median was a station every 2 km, and 40 of the 41 had stations 2.5 km apart or closer [14]. That makes it easy to drink little and often, and easy to overdrink. Find out what your race hands out (water only, or an isotonic drink as well) and train with that product."
       ]
     },
     {
-      "heading": "How This Connects to (and Differs From) Race-Day Fueling Timing",
+      "heading": "The Local Shelf: Isotonic Drinks and Gels",
       "paragraphs": [
-        "This site's race-day nutrition and fueling timing guide covers when and how much carbohydrate to take in during a long run or race -- a separate question from the one this article covers, even though the two plans often execute through the same bottles and gels on race day. Carbohydrate timing is about sustaining energy availability and blood glucose; electrolyte and sodium planning is about fluid and mineral balance. They interact (some electrolyte products also carry carbohydrate, and dehydration can worsen how a stomach tolerates carb intake) but solving one doesn't automatically solve the other.",
-        "The practical takeaway is to build both plans, not just one and assume it covers the other -- know your carbohydrate-per-hour target from the fueling article, and separately know your approximate sweat rate and sodium needs from this one, then test the combined plan in training rather than improvising it for the first time on race morning. Long, hot Southeast Asian courses are exactly the conditions where getting either half wrong shows up fastest."
+        "The drink at the aid station is often a regional brand. 100PLUS was launched in Malaysia under the F&N group in 1983 [8]. Pocari Sweat, launched by Japan's Otsuka in 1980, is sold in the Philippines, Malaysia, Singapore, Indonesia and Thailand among other markets [9]. TCP Group calls Sponsor Thailand's number one sports drink, and in 2024 it launched a separate, less sweet Sponsor Isotonic [10]. Several brands put their names on races in our calendar: Pocari Sweat Run in Bandung and a Pocari Sweat Run Carnival in Thailand, Sponsor Run Bangkok, the Surabaya Isoplus Marathon and the Gatorade BKK Run, alongside 13 legs of the National MILO Marathon in the Philippines [14].",
+        "Check the label rather than the marketing. Some isotonic drinks are fairly salty and others are mostly sugar water; compare the sodium per litre with the 0.5 to 0.7 g guide above. Carbonated versions are better saved for after the finish.",
+        "Locally made gels are rarer. Thailand's Dever started in 2011, developed by a team of dietitians, food technologists and sports scientists, and sells 40 ml and 100 ml packs; it launched in Malaysia at the Kuala Lumpur marathon expo in 2022 [11]. For daily training, electrolyte tablets and powder sachets are the cheaper route: they turn the water bottle you already carry into a sports drink and let you make it stronger on hotter days. Whatever you use, test it on long runs first."
+      ]
+    },
+    {
+      "heading": "Coconut Water, Bananas and Other Local Food",
+      "paragraphs": [
+        "Coconut water holds up better than most natural sports-drink claims. In a controlled study, 12 trained men were dehydrated by about 2% of body weight on a treadmill and then rehydrated with coconut water, a sports drink or plain water. All of them rehydrated similarly and performed similarly afterwards, but the men reported more bloating and stomach upset after coconut water [5]. It is better as a post-race drink than a mid-race one.",
+        "Its composition varies. The US Department of Agriculture lists 250 mg of potassium, 105 mg of sodium and 3.7 g of carbohydrate per 100 g of coconut water [6], but packaged brands and individual coconuts differ, so read the label if you are counting sodium. It is low in carbohydrate compared with a sports drink, so it does not fuel a race.",
+        "Bananas, sold at most finish lines, are a carbohydrate and potassium food, not a salt food: about 23 g of carbohydrate, 358 mg of potassium and 1 mg of sodium per 100 g [7]. Watermelon and other cut fruit add fluid. After a long, sweaty race, pair the fruit with something salty, then eat a proper meal with protein and starch within a couple of hours."
+      ]
+    },
+    {
+      "heading": "Halal Sports Nutrition",
+      "paragraphs": [
+        "For many runners in Malaysia, Indonesia and Brunei, halal status is a deciding factor. Ingredients to check in sports products include gelatin, which is common in chews and some gels, and alcohol-based flavourings. A certification mark is a stronger signal than a line saying the product contains no pork.",
+        "Indonesia has made halal certification compulsory for food and drink sold by medium and large businesses since 18 October 2024, with micro and small businesses and imported food and drink given until 17 October 2026 [12]. In Malaysia, JAKIM recognises foreign halal certification bodies to certify products entering the market; in 2024 the religious affairs minister put their number at 88, covering 49 countries [13]. Imported gels can therefore carry a valid halal certificate even if they are not made in the region. Fasting runners can find timing advice for training and racing in Ramadan at runsea.run/articles/running-through-ramadan-guide-for-muslim-runners/."
       ]
     }
   ],
   "sources": [
     {
       "n": 1,
+      "label": "Consensus recommendations on training and competing in the heat (Racinais et al., Br J Sports Med 2015)",
+      "publisher": "British Journal of Sports Medicine (PMC)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4602249/",
+      "type": "other"
+    },
+    {
+      "n": 2,
+      "label": "American College of Sports Medicine position stand: Exercise and fluid replacement (Sawka et al., 2007)",
+      "publisher": "Medicine & Science in Sports & Exercise (PubMed)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17277604/",
+      "type": "other"
+    },
+    {
+      "n": 3,
+      "label": "Sweating rate and sweat sodium concentration in athletes: a review of methodology and intra/interindividual variability (Baker, 2017)",
+      "publisher": "Sports Medicine (PMC)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5371639/",
+      "type": "other"
+    },
+    {
+      "n": 4,
       "label": "Exercise-Associated Hyponatremia: Updated Guidelines from the Wilderness Medical Society",
       "publisher": "American Academy of Family Physicians (AAFP)",
       "url": "https://www.aafp.org/pubs/afp/issues/2021/0215/p252.html",
       "type": "other"
     },
     {
-      "n": 2,
-      "label": "Water and electrolyte requirements for exercise",
-      "publisher": "PubMed",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/10410838/",
+      "n": 5,
+      "label": "Comparison of coconut water and a carbohydrate-electrolyte sport drink on measures of hydration and physical performance in exercise-trained men (Kalman et al., 2012)",
+      "publisher": "Journal of the International Society of Sports Nutrition (PMC)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3293068/",
       "type": "other"
+    },
+    {
+      "n": 6,
+      "label": "Nuts, coconut water (liquid from coconuts), SR Legacy 170174",
+      "publisher": "USDA FoodData Central (API record)",
+      "url": "https://fdc.nal.usda.gov/food-details/170174/nutrients",
+      "type": "official"
+    },
+    {
+      "n": 7,
+      "label": "Bananas, raw, SR Legacy 173944",
+      "publisher": "USDA FoodData Central (API record)",
+      "url": "https://fdc.nal.usda.gov/food-details/173944/nutrients",
+      "type": "official"
+    },
+    {
+      "n": 8,
+      "label": "Eyeing a bigger goal: already famous brand not resting on its laurels (100PLUS)",
+      "publisher": "The Star",
+      "url": "https://www.thestar.com.my/business/sme/2013/11/16/eyeing-a-bigger-goal-already-famous-brand-not-resting-on-its-laurels-regional-aspirations-the-bigge",
+      "type": "news"
+    },
+    {
+      "n": 9,
+      "label": "Otsuka: company history and Pocari Sweat markets",
+      "publisher": "Otsuka (Pocari Sweat)",
+      "url": "https://pocarisweat.com.mx/en/otsuka",
+      "type": "official"
+    },
+    {
+      "n": 10,
+      "label": "Sponsor launches Thailand's first-ever Sponsor Isotonic",
+      "publisher": "TCP Group",
+      "url": "https://www.tcp.com/en/updates/tcp-updates/tcp-updates/286/sponsor-launches-thailands-first-ever-sponsor-isotonic-proactively-expanding-the-market-with-a-new-less-sweet-quickly-refreshing-formula-to-serve-the-new-gen-lifestyle",
+      "type": "official"
+    },
+    {
+      "n": 11,
+      "label": "Dever Energy set to launch at KLSCM expo",
+      "publisher": "Tough Asia",
+      "url": "https://toughasia.com/dever-energy-set-to-launch-at-klscm-expo/",
+      "type": "news"
+    },
+    {
+      "n": 12,
+      "label": "Masa penahapan usai, kewajiban sertifikasi halal berlaku mulai 18 Oktober 2024",
+      "publisher": "BPJPH (Halal Product Assurance Agency, Indonesia)",
+      "url": "https://bpjph.halal.go.id/read/masa-penahapan-usai-kewajiban-sertifikasi-halal-berlaku-mulai-18-oktober-2024",
+      "type": "official"
+    },
+    {
+      "n": 13,
+      "label": "88 foreign halal certification bodies receive Jakim accreditation",
+      "publisher": "The Star",
+      "url": "https://www.thestar.com.my/news/nation/2024/10/05/88-foreign-halal-certification-bodies-receive-jakim-accreditation",
+      "type": "news"
+    },
+    {
+      "n": 14,
+      "label": "Run SEA analysis of race records (446 races; aid-station spacing stated for 41)",
+      "publisher": "Run SEA",
+      "url": "https://runsea.run/",
+      "type": "official"
     }
   ],
   "faqs": [
     {
       "question": "Is plain water enough on a long, hot run?",
-      "answer": "Not for efforts beyond roughly 60-90 minutes. Sweat carries sodium out along with fluid, and replacing only the fluid with plain water leaves sodium increasingly out of balance as a long, hot run continues, which is a different and separate problem from simple dehydration."
+      "answer": "Under about an hour, yes for most runners. Beyond that, the heat consensus statement suggests drinks with 0.5 to 0.7 g of sodium per litre and 30 to 60 g of carbohydrate an hour. Plain water alone, drunk in large amounts over several hours, is the classic route to low blood sodium."
     },
     {
-      "question": "Can drinking too much water on a run actually be dangerous?",
-      "answer": "Yes -- exercise-associated hyponatremia, a drop in blood sodium, is driven mainly by overdrinking hypotonic fluid relative to what's being lost, per Wilderness Medical Society guidelines, not primarily by inadequate sodium intake. Risk rises with efforts beyond about two hours and drinking beyond thirst."
+      "question": "Can drinking too much water on a run be dangerous?",
+      "answer": "Yes. Exercise-associated hyponatraemia, a dangerous fall in blood sodium, is usually caused by drinking more water or sports drink than you lose. The Wilderness Medical Society advises drinking to thirst, and salt tablets do not protect a runner who overdrinks. Finishing a long run heavier than you started is the warning sign."
     },
     {
-      "question": "When do I actually need electrolytes instead of just water?",
-      "answer": "Water alone is generally sufficient under 60-90 minutes. Past that, a carbohydrate-electrolyte drink helps, and sodium specifically matters once an effort passes about two hours or sweat rate is unusually high from heat, intensity, or being a naturally salty sweater."
+      "question": "Is coconut water as good as a sports drink?",
+      "answer": "For rehydrating after exercise, roughly yes: in a controlled study it rehydrated as well as a sports drink and plain water, though it caused more bloating. It carries little carbohydrate and its sodium varies by brand, so it is a recovery drink rather than race fuel."
+    },
+    {
+      "question": "How do I know if a gel or drink is halal?",
+      "answer": "Look for a certification mark, not just a 'no pork' claim. Indonesia has required halal certification for food and drink from medium and large businesses since October 2024, and Malaysia's JAKIM recognises dozens of foreign certification bodies, so imported products can carry a valid halal certificate."
     }
   ],
-  "editorial_notes": "Original editorial content for the Articles section. Cited claims verified against live source URLs at time of writing.",
+  "editorial_notes": "Rewritten Nov 2026 as 'Fuelling in the Tropics'; absorbs race-day-nutrition-fueling-timing-guide, local-fruits-foods-actually-work-recovery and the gear guides local-isotonic-drinks-southeast-asia-runners, local-race-nutrition-gel-brands-southeast-asia, electrolyte-tablets-powders-southeast-asia-runners and halal-certified-sports-nutrition-southeast-asia. Sources checked 2026-11-06 (PubMed abstracts read via NCBI E-utilities; USDA values read via the FoodData Central API). Corrections from the merged pieces: the coconut-water study rehydrated men after treadmill exercise (not cyclists during exercise) and found plain water performed as well; the old claim that aid stations more than 5 km apart are common is not borne out by our records (median 2 km). Dropped as unverifiable today: Strive (Indonesia) gel history, Hutan Ration origin and certification, a halal SIS gel SKU, Isoplus maker details, Dever founder name, 'outsells imported drinks' and '7-ion' claims, product prices and retailer links. Aid-station figure comes from pros/cons/research notes in 41 race records that state a spacing.",
   "published_at": "2026-08-11T05:40:00.000Z",
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-11-06",
   "status": "active"
 }

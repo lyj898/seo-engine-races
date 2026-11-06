@@ -1,50 +1,8 @@
 ---
-import siteConfig from '../../lib/config.js';
+import RedirectStub from '../../components/RedirectStub.astro';
 import { urls } from '../../lib/urls.js';
-import { loadListicles, stripMeta, isPublished } from '../../lib/data.js';
-import BaseLayout from '../../layouts/BaseLayout.astro';
-import Breadcrumb from '../../components/Breadcrumb.astro';
-import HubCard from '../../components/HubCard.astro';
-import { buildBreadcrumbListSchema } from '../../lib/schema-jsonld.js';
-
-// Section is feature-flagged off for now -- send the index home rather than
-// serve an empty guides page. Flip enabledFeatures.listicles to restore it.
-if (!siteConfig.enabledFeatures?.listicles) {
-  return Astro.redirect(urls.home());
-}
-
-const listicles = loadListicles().map(stripMeta).filter(isPublished);
-
-const breadcrumbItems = [
-  { label: siteConfig.siteName, href: urls.home() },
-  { label: 'Recommends', href: urls.listiclesIndex() },
-];
-
-const jsonLd = [buildBreadcrumbListSchema(breadcrumbItems, Astro.site)].filter(Boolean);
+// The best-of lists hub (/best/). Retired in the Nov 2026 clean-up (Alex): the content now lives in
+// Articles, so this URL redirects there.
 ---
 
-<BaseLayout
-  title="Recommends"
-  description={`Curated, filter-driven guides to the best ${siteConfig.entityLabelPlural} on ${siteConfig.siteName}.`}
-  canonicalPath={urls.listiclesIndex()}
-  jsonLd={jsonLd}
->
-  <div class="mx-auto max-w-6xl px-4 py-10 sm:px-6">
-    <Breadcrumb items={breadcrumbItems} />
-    <h1 class="mt-4 font-serif text-3xl font-semibold sm:text-4xl">Recommends</h1>
-    <p class="mt-3 max-w-2xl text-brand-muted dark:text-brand-muted-dark">
-      Shortlists of the {siteConfig.entityLabelPlural} worth knowing about, grouped by distance and country —
-      what's on the calendar, what each one is like, and where to start.
-    </p>
-
-    {listicles.length > 0 ? (
-      <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        {listicles.map((listicle) => (
-          <HubCard href={urls.listicle(listicle.slug)} label={listicle.title} description={listicle.intro} />
-        ))}
-      </div>
-    ) : (
-      <p class="mt-8 text-brand-muted dark:text-brand-muted-dark">No guides published yet.</p>
-    )}
-  </div>
-</BaseLayout>
+<RedirectStub to={urls.articlesIndex()} label="Run SEA articles" />

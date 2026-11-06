@@ -234,6 +234,9 @@ export const listicleSchema = z.object({
   // which any stage bumps.
   copy_generated_at: z.string().optional(),
   last_updated: z.string().min(1),
+  // Retired in the Nov 2026 clean-up: with status 'archived', the page builds
+  // as a redirect (components/RedirectStub.astro) to this site path.
+  redirect_to: z.string().startsWith('/').optional(),
   status: z.enum(STATUS_VALUES),
 });
 
@@ -363,6 +366,9 @@ export const gearArticleSchema = z.object({
   editorial_notes: z.string().optional(),
   published_at: z.string().optional(),
   last_updated: z.string().min(1),
+  // Retired in the Nov 2026 clean-up: with status 'archived', the page builds
+  // as a redirect (components/RedirectStub.astro) to this site path.
+  redirect_to: z.string().startsWith('/').optional(),
   status: z.enum(STATUS_VALUES),
 });
 
@@ -395,9 +401,20 @@ export const articleSchema = z.object({
   // Optional listing rendered under the article body by articles/[slug].astro.
   // 'travel-agencies' = the data/travel-agencies directory (was /travel/).
   embed: z.enum(['travel-agencies']).optional(),
+  // Optional live list of upcoming races under the article (components/UpcomingRaces.astro).
+  upcoming: z
+    .object({
+      country: z.string().optional(),
+      distances: z.array(z.enum(['full', 'half', '10k', '5k'])).optional(),
+      limit: z.number().int().min(1).max(30).optional(),
+    })
+    .optional(),
   editorial_notes: z.string().optional(),
   published_at: z.string().optional(),
   last_updated: z.string().min(1),
+  // Retired in the Nov 2026 clean-up: with status 'archived', the page builds
+  // as a redirect (components/RedirectStub.astro) to this site path.
+  redirect_to: z.string().startsWith('/').optional(),
   status: z.enum(STATUS_VALUES),
 });
 

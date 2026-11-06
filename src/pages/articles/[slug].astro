@@ -8,10 +8,15 @@ import LastUpdated from '../../components/LastUpdated.astro';
 import ReviewArticle from '../../components/ReviewArticle.astro';
 import FAQSection from '../../components/FAQSection.astro';
 import TravelAgencyDirectory from '../../components/TravelAgencyDirectory.astro';
+import UpcomingRaces from '../../components/UpcomingRaces.astro';
+import RedirectStub from '../../components/RedirectStub.astro';
 import { buildFaqPageSchema, buildBreadcrumbListSchema, buildArticleSchema } from '../../lib/schema-jsonld.js';
 
 export function getStaticPaths() {
-  const articles = loadArticles().map(stripMeta).filter(isPublished);
+  // Retired articles (archived + redirect_to) keep their URL as a redirect.
+  const articles = loadArticles()
+    .map(stripMeta)
+    .filter((a) => isPublished(a) || (a.status === 'archived' && a.redirect_to));
   return articles.map((article) => ({
     params: { slug: article.slug },
     props: { article },
@@ -19,6 +24,10 @@ export function getStaticPaths() {
 }
 
 const { article } = Astro.props;
+const redirectTo = article.status === 'archived' ? article.redirect_to : null;
+const redirectLabel = redirectTo
+  ? (loadArticles().map(stripMeta).find((a) => redirectTo.startsWith(urls.article(a.slug)))?.title ?? 'Run SEA articles')
+  : null;
 
 // Same-topic articles first, then everything else, capped to a reasonable
 // footer length -- with a growing library of articles, listing every other
@@ -50,6 +59,7 @@ const jsonLd = [
 ].filter(Boolean);
 ---
 
+{redirectTo ? <RedirectStub to={redirectTo} label={redirectLabel} /> : (
 <BaseLayout title={pageTitle} description={metaDescription} canonicalPath={urls.article(article.slug)} jsonLd={jsonLd}>
   <div class="mx-auto max-w-3xl px-4 py-10 sm:px-6">
     <Breadcrumb items={breadcrumbItems} />
@@ -72,6 +82,7 @@ const jsonLd = [
 
     {/* Optional directory under the article body, chosen by the article's `embed` field. */}
     {article.embed === 'travel-agencies' && siteConfig.enabledFeatures?.travelAgencies && <TravelAgencyDirectory />}
+    {article.upcoming && <UpcomingRaces filter={article.upcoming} />}
 
     {article.faqs?.length > 0 && (
       <div class="mt-12">
@@ -97,3 +108,4 @@ const jsonLd = [
     </div>
   </div>
 </BaseLayout>
+)}

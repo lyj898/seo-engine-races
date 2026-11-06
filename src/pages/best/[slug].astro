@@ -8,6 +8,8 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import ListicleEntry from '../../components/ListicleEntry.astro';
 import FAQSection from '../../components/FAQSection.astro';
+import RedirectStub from '../../components/RedirectStub.astro';
+import { loadArticles } from '../../lib/data.js';
 import LastUpdated from '../../components/LastUpdated.astro';
 import { buildItemListSchema, buildFaqPageSchema, buildBreadcrumbListSchema } from '../../lib/schema-jsonld.js';
 
@@ -24,6 +26,11 @@ export function getStaticPaths() {
 }
 
 const { listicle } = Astro.props;
+// Retired lists (archived + redirect_to, Nov 2026) build as a redirect to the article that replaced them.
+const redirectTo = listicle.status === 'archived' ? listicle.redirect_to : null;
+const redirectLabel = redirectTo
+  ? (loadArticles().map(stripMeta).find((a) => redirectTo.startsWith(urls.article(a.slug)))?.title ?? 'Run SEA articles')
+  : null;
 const allCategories = loadCategories().map(stripMeta);
 const allRegions = loadRegions().map(stripMeta);
 
@@ -125,6 +132,7 @@ const jsonLd = [
 ].filter(Boolean);
 ---
 
+{redirectTo ? <RedirectStub to={redirectTo} label={redirectLabel} /> : (
 <BaseLayout
   title={listicle.title}
   description={introToShow}
@@ -195,3 +203,4 @@ const jsonLd = [
     </section>
   </div>
 </BaseLayout>
+)}

@@ -1,15 +1,16 @@
 ---
 import siteConfig from '../../lib/config.js';
 import { urls } from '../../lib/urls.js';
-import { loadArticles, loadListicles, loadRegions, loadGear, stripMeta, isPublished } from '../../lib/data.js';
+import { loadArticles, loadListicles, loadRegions, stripMeta, isPublished } from '../../lib/data.js';
 import { articleShelf } from '../../lib/articleTopics.js';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import { buildBreadcrumbListSchema, buildItemListSchema } from '../../lib/schema-jsonld.js';
 
 // "Articles" in the main menu (was "Guides", renamed Nov 2026). Three parts:
-//  1. Our articles: race guides by country, best-of lists, choosing a race,
-//     racing abroad, the running scene, training, heat and health, and gear.
+//  1. Our articles: 23 data-led pieces after the Nov 2026 clean-up (the
+//     best-of lists and gear guides were folded in): country guides, choosing
+//     a race, race data, racing in the heat, the running scene, racing abroad.
 //  2. Written by us: pieces we wrote for other publications.
 //  3. Featured in: other sites' articles that cite Run SEA.
 // Parts 2 and 3 are kept by hand below; add a row when a new piece runs.
@@ -48,16 +49,13 @@ const regionLists = lists
 
 const shelf = (name) => allArticles.filter((a) => !isCountryGuide(a) && articleShelf(a) === name);
 // Beginner-friendly picks lead; the rest stay newest first.
-const LEAD = ['beginners-guide-southeast-asia-race-calendar', 'best-races-first-marathon-half-marathon-southeast-asia', 'southeast-asia-biggest-flagship-marathons-ranked'];
+const LEAD = ['southeast-asia-biggest-flagship-marathons-ranked', 'best-races-first-marathon-half-marathon-southeast-asia', 'realistic-marathon-finish-time-first-timers', 'beginners-guide-southeast-asia-race-calendar', 'rise-of-women-only-races-southeast-asia', 'training-marathon-heat-humidity-southeast-asia'];
 const lead = (a) => (LEAD.includes(a.slug) ? LEAD.indexOf(a.slug) : LEAD.length);
 const choosing = shelf('choosing').sort((a, b) => lead(a) - lead(b));
+const dataShelf = shelf('data').sort((a, b) => lead(a) - lead(b));
 const travel = shelf('travel');
 const scene = shelf('scene');
-const trainingShelf = shelf('training');
-const healthShelf = shelf('health');
-const gear = siteConfig.enabledFeatures?.gear
-  ? loadGear().map(stripMeta).filter(isPublished).sort((a, b) => (b.published_at ?? b.last_updated ?? '').localeCompare(a.published_at ?? a.last_updated ?? ''))
-  : [];
+const trainingShelf = shelf('training').sort((a, b) => lead(a) - lead(b));
 
 // Part 2: articles we wrote for other publications. Part 3: other sites'
 // articles that cite us.
@@ -85,17 +83,17 @@ const card = 'flex flex-col gap-1 rounded-2xl border border-brand-border bg-bran
 const muted = 'text-sm text-brand-muted dark:text-brand-muted-dark';
 const grid = 'mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3';
 const sections = [
-  { id: 'choosing', title: 'Choosing a race', intro: 'Shortlists by what you want from a race: a first marathon, a view, a night start, a series to chase.', items: choosing },
-  { id: 'travel', title: 'Racing abroad', intro: 'Planning the trip: visas, costs, the expo, travel agencies, and bringing the family.', items: travel },
-  { id: 'scene', title: 'Running in Southeast Asia', intro: 'Why races here start before dawn, why the medals matter, and running through the haze, the monsoon and Ramadan.', items: scene },
-  { id: 'training', title: 'Training', intro: 'How to train for a race in the tropics.', items: trainingShelf },
-  { id: 'health', title: 'Heat, health and recovery', intro: 'Running safely in heat and humidity, and recovering well.', items: healthShelf },
+  { id: 'choosing', title: 'Choosing a race', intro: 'The region’s best marathons and halves, and where to run your first race of any distance.', items: choosing },
+  { id: 'data', title: 'Race data', intro: 'What official results and our race calendar show: finish times, the season, women in the field, entry fees and which races are growing.', items: dataShelf },
+  { id: 'training', title: 'Racing in the heat', intro: 'Training, fuelling, kit and start times for races in the tropics, and running through Ramadan.', items: trainingShelf },
+  { id: 'scene', title: 'Running in Southeast Asia', intro: 'Fun runs, finisher medals, run clubs and the region’s own running brands.', items: scene },
+  { id: 'travel', title: 'Racing abroad', intro: 'Planning a race trip: visas, costs, packet pickup and travel agencies.', items: travel },
 ].filter((s) => s.items.length);
 ---
 
 <BaseLayout
-  title="Articles -- Races, Training and Gear for Running in Southeast Asia"
-  description={`Articles from ${siteConfig.siteName}: race guides by country, best-of lists, training and heat advice and gear, plus the pieces we have written for other publications and the sites that cite us.`}
+  title="Articles -- Race Data, Guides and Running in Southeast Asia"
+  description={`Articles from ${siteConfig.siteName} built on official results and our race calendar: the best races by country, finish-time data, racing in the heat, plus pieces we have written for other publications and the sites that cite us.`}
   canonicalPath={urls.articlesIndex()}
   jsonLd={jsonLd}
 >
@@ -165,24 +163,6 @@ const sections = [
         </div>
       </section>
     ))}
-
-    {gear.length > 0 && (
-      <section id="gear" class="mt-12 scroll-mt-20">
-        <div class="flex flex-wrap items-baseline justify-between gap-2">
-          <h3 class="font-serif text-2xl font-extrabold">Gear for the heat</h3>
-          <a href={urls.gearIndex()} class="link-accent text-sm font-semibold">All {gear.length} gear guides &rarr;</a>
-        </div>
-        <p class={`mt-1 ${muted}`}>Shoes, hydration and kit for humid long runs and race mornings.</p>
-        <div class={grid}>
-          {gear.slice(0, 6).map((g) => (
-            <a href={urls.gear(g.slug)} class={card}>
-              <span class="font-bold">{g.title}</span>
-              {g.dek && <span class={`line-clamp-2 ${muted}`}>{g.dek}</span>}
-            </a>
-          ))}
-        </div>
-      </section>
-    )}
 
     <section id="written-by-us" class="mt-16 scroll-mt-20">
       <h2 class="font-serif text-3xl font-black">Written by us</h2>

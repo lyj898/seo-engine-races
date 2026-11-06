@@ -1,0 +1,64 @@
+---
+// Live list of upcoming races under an article, from the article's optional
+// `upcoming` field ({ country?, distances?: ['full','half','10k','5k'], limit? }).
+// Replaces the dated race lists of the old best-of pages (Nov 2026): the prose
+// stays evergreen and this block is recomputed on every daily build.
+import { urls } from '../lib/urls.js';
+import { loadEntities, stripMeta, isPublished } from '../lib/data.js';
+
+const { filter = {} } = Astro.props;
+const { country, distances = [], limit = 12 } = filter;
+
+const KM = { full: 42.195, half: 21.1, '10k': 10, '5k': 5 };
+const near = (v, k) => Math.abs(Number(v) - k) < (k > 20 ? 1 : 0.6);
+const hasDistance = (e) => {
+  if (!distances.length) return true;
+  const list = [].concat(e.core_facts?.distance_km ?? []);
+  return distances.some((d) => list.some((v) => near(v, KM[d])));
+};
+
+const today = new Date().toISOString().slice(0, 10);
+const races = loadEntities()
+  .map(stripMeta)
+  .filter(isPublished)
+  .filter((e) => !e.core_facts?.event_status)
+  .filter((e) => (e.core_facts?.date ?? '') >= today)
+  .filter((e) => !country || e.core_facts?.country === country)
+  .filter(hasDistance)
+  .sort((a, b) => a.core_facts.date.localeCompare(b.core_facts.date))
+  .slice(0, limit);
+
+const fmtDate = (iso) => new Date(`${iso}T00:00:00Z`).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC' });
+const fmtKm = (v) => (near(v, 42.195) ? 'Full' : near(v, 21.1) ? 'Half' : `${Number(v)}K`);
+const where = country ? `in ${country}` : 'in Southeast Asia';
+const label = distances.length
+  ? distances.map((d) => ({ full: 'marathons', half: 'half marathons', '10k': '10Ks', '5k': '5Ks' })[d]).join(' and ')
+  : 'races';
+---
+
+{races.length > 0 && (
+  <section class="mt-12" id="upcoming">
+    <h2 class="text-xl font-semibold">Upcoming {label} {where}</h2>
+    <p class="mt-1 text-sm text-brand-muted dark:text-brand-muted-dark">
+      The next {races.length} on our calendar, updated daily. Always confirm details on the race's official page.
+    </p>
+    <ul class="mt-4 divide-y divide-brand-border rounded-2xl border border-brand-border dark:divide-brand-border-dark dark:border-brand-border-dark">
+      {races.map((e) => (
+        <li>
+          <a href={urls.entity(e.slug)} class="flex flex-col gap-0.5 px-4 py-3 transition-colors hover:bg-brand-surface-offset sm:flex-row sm:items-baseline sm:gap-4 dark:hover:bg-brand-surface-offset-dark">
+            <span class="shrink-0 text-sm font-semibold tabular-nums sm:w-32">{fmtDate(e.core_facts.date)}</span>
+            <span class="font-semibold">{e.name}</span>
+            <span class="text-sm text-brand-muted dark:text-brand-muted-dark">
+              {[e.core_facts.city, country ? null : e.core_facts.country].filter(Boolean).join(', ')}
+              {' · '}
+              {[...new Set([].concat(e.core_facts.distance_km ?? []).filter((v) => Number(v) >= 5).sort((a, b) => b - a).map(fmtKm))].join(', ')}
+            </span>
+          </a>
+        </li>
+      ))}
+    </ul>
+    <p class="mt-3 text-sm">
+      <a href={urls.home()} class="link-accent">See the full race calendar →</a>
+    </p>
+  </section>
+)}

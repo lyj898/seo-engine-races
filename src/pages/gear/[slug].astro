@@ -8,10 +8,13 @@ import LastUpdated from '../../components/LastUpdated.astro';
 import ReviewArticle from '../../components/ReviewArticle.astro';
 import ProductCard from '../../components/ProductCard.astro';
 import FAQSection from '../../components/FAQSection.astro';
+import RedirectStub from '../../components/RedirectStub.astro';
+import { loadArticles } from '../../lib/data.js';
 import { buildFaqPageSchema, buildBreadcrumbListSchema, buildArticleSchema } from '../../lib/schema-jsonld.js';
 
 export function getStaticPaths() {
-  const articles = loadGear().map(stripMeta).filter(isPublished);
+  // Retired guides (archived + redirect_to) keep their URL as a redirect.
+  const articles = loadGear().map(stripMeta).filter((a) => isPublished(a) || (a.status === 'archived' && a.redirect_to));
   return articles.map((article) => ({
     params: { slug: article.slug },
     props: { article },
@@ -19,6 +22,10 @@ export function getStaticPaths() {
 }
 
 const { article } = Astro.props;
+const redirectTo = article.status === 'archived' ? article.redirect_to : null;
+const redirectLabel = redirectTo
+  ? (loadArticles().map(stripMeta).find((a) => redirectTo.startsWith(urls.article(a.slug)))?.title ?? 'Run SEA articles')
+  : null;
 
 // Same-topic articles first, then everything else, capped to a reasonable
 // footer length -- with a growing library of guides, listing every other
@@ -52,6 +59,7 @@ const jsonLd = [
 ].filter(Boolean);
 ---
 
+{redirectTo ? <RedirectStub to={redirectTo} label={redirectLabel} /> : (
 <BaseLayout title={pageTitle} description={metaDescription} canonicalPath={urls.gear(article.slug)} jsonLd={jsonLd}>
   <div class="mx-auto max-w-3xl px-4 py-10 sm:px-6">
     <Breadcrumb items={breadcrumbItems} />
@@ -108,3 +116,4 @@ const jsonLd = [
     </div>
   </div>
 </BaseLayout>
+)}

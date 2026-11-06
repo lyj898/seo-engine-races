@@ -14,6 +14,12 @@ const cities = siteConfig.enabledFeatures?.clubs
   ? loadClubCities().map(stripMeta).filter(isPublished).sort((a, b) => b.clubs.length - a.clubs.length || a.city.localeCompare(b.city))
   : [];
 const totalClubs = cities.reduce((n, c) => n + c.clubs.length, 0);
+// Grouped by country (Alex, Nov 2026: "org into countries then cities"), the
+// countries with the most clubs first, cities within each as before.
+const countryKey = (c) => c.toLowerCase().replace(/[^a-z]+/g, '-');
+const byCountry = [...cities.reduce((m, c) => m.set(c.country, [...(m.get(c.country) ?? []), c]), new Map())]
+  .map(([country, list]) => ({ country, id: `country-${countryKey(country)}`, cities: list, clubs: list.reduce((n, c) => n + c.clubs.length, 0) }))
+  .sort((a, b) => b.clubs - a.clubs || a.country.localeCompare(b.country));
 const totalCoaches = cities.reduce((n, c) => n + (c.coaches?.length ?? 0), 0);
 
 const updated = cities.map((c) => c.last_updated).filter((d) => /^\d{4}-\d{2}-\d{2}$/.test(String(d ?? ''))).sort().at(-1);
@@ -41,15 +47,24 @@ const jsonLd = [buildBreadcrumbListSchema(breadcrumbItems, Astro.site)].filter(B
       <p class="mt-1 text-sm text-brand-muted dark:text-brand-muted-dark">
         {totalClubs} clubs, run crews and hash groups and {totalCoaches} coaches, with when and where each meets and what it costs. Many are free.
       </p>
-      <div class="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
-        {cities.map((c) => (
-          <a href={urls.clubCity(c.slug)} class="flex flex-col gap-1 rounded-2xl border border-brand-border bg-brand-surface p-5 transition-colors hover:border-brand-primary dark:border-brand-border-dark dark:bg-brand-surface-dark">
-            <span class="font-serif text-xl font-extrabold">{c.city}</span>
-            <span class="text-sm">{c.clubs.length} clubs{c.coaches?.length ? ` · ${c.coaches.length} ${c.coaches.length === 1 ? 'coach' : 'coaches'}` : ''}</span>
-            <span class="text-xs text-brand-muted dark:text-brand-muted-dark">{c.country}</span>
-          </a>
+      <nav aria-label="Countries" class="mt-4 flex flex-wrap gap-2">
+        {byCountry.map((g) => (
+          <a href={`#${g.id}`} class="inline-flex min-h-[40px] items-center rounded-full border border-brand-border px-4 text-sm font-semibold transition-colors hover:border-brand-primary dark:border-brand-border-dark">{g.country}</a>
         ))}
-      </div>
+      </nav>
+      {byCountry.map((g) => (
+        <div id={g.id} class="mt-8 scroll-mt-20">
+          <h3 class="font-serif text-xl font-extrabold">{g.country} <span class="text-sm font-normal text-brand-muted dark:text-brand-muted-dark">{g.clubs} clubs in {g.cities.length} {g.cities.length === 1 ? 'city' : 'cities'}</span></h3>
+          <div class="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            {g.cities.map((c) => (
+              <a href={urls.clubCity(c.slug)} class="flex flex-col gap-1 rounded-2xl border border-brand-border bg-brand-surface p-5 transition-colors hover:border-brand-primary dark:border-brand-border-dark dark:bg-brand-surface-dark">
+                <span class="font-serif text-xl font-extrabold">{c.city}</span>
+                <span class="text-sm">{c.clubs.length} clubs{c.coaches?.length ? ` · ${c.coaches.length} ${c.coaches.length === 1 ? 'coach' : 'coaches'}` : ''}</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      ))}
     </section>
 
     <section class="mt-10">

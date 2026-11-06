@@ -1,58 +1,117 @@
 {
   "article_id": "why-southeast-asia-races-start-before-dawn",
   "slug": "why-southeast-asia-races-start-before-dawn",
-  "title": "Why Southeast Asian Races Start Before Dawn",
-  "seo_title": "Why Do Southeast Asia Marathons Start So Early?",
-  "meta_description": "A 4am gun time isn't a scheduling quirk -- it's the direct result of the region's climate, city logistics, and a genuinely shared running culture. Here's why.",
+  "title": "Before Dawn or After Dark: Why Southeast Asia's Races Start When They Do",
+  "seo_title": "Why Southeast Asia's Races Start Before Dawn (or After Dark)",
+  "meta_description": "Four in five races in our calendar that state a start time flag off before 5am. What hourly weather data shows about why, how night races compare, and how to handle a 2am alarm.",
   "topic": "Running Culture & Travel",
-  "dek": "Anyone who's registered for their first Southeast Asian race and seen a 4am or 5am gun time has probably wondered if it's a typo. It isn't -- the early start is a deliberate response to the region's climate, city logistics, and a running culture built around it.",
+  "dek": "A 3am gun time is not a typo. Across 171 races whose start time we hold, the typical marathon starts at 3am and the typical half at 4am. The reason is the sun, not the dark, and the night races show why.",
   "sections": [
     {
-      "heading": "The Climate Reason: Racing Ahead of the Heat",
+      "heading": "When the Gun Actually Goes",
       "paragraphs": [
-        "Southeast Asia sits close to the equator, which means daily temperature swings are smaller than in temperate climates but humidity stays consistently high year-round -- the air rarely 'cools off' the way it does overnight further from the equator. Starting a marathon at 4am or 5am instead of a more conventional 7am or 8am buys runners two to three extra hours of relative cool before direct sun and rising temperatures compound the humidity into genuinely difficult racing conditions.",
-        "For a race that takes four to six hours for a large share of the field, that early gun time is often the difference between finishing in daylight heat and finishing while it's still comparatively bearable -- the gap between a 4am start and a 7am start is felt most by the runners furthest back in the field, who are still out on course when the sun is highest."
+        "Of the 446 races in our calendar, 171 have a start time stated in their records. For each we took the earliest flag-off, which is almost always the longest distance. 136 of them (80%) start before 5am and 84 (49%) before 4am. Twenty-six go between midnight and 3am, 32 start at 5am or later, and 3 are evening races [1].",
+        "Distance drives it. Across 49 marathons with a stated start, the median flag-off is 3am and 39 start before 4am; across 119 half marathons the median is 4am [1]. Country matters too. The median earliest start is 3am in the Philippines (41 races) and Vietnam (10), 3:30am in Thailand (33) and 3:45am in Malaysia (60), but 5am in Indonesia (22), where none of the races we hold start before 4am [1]."
       ]
     },
     {
-      "heading": "The Practical Reason: Sharing the Road With a Living City",
+      "heading": "Why So Early: It's the Sun, Not the Dark",
       "paragraphs": [
-        "Road closures are the other major constraint. Most Southeast Asian marathons run through active city centers rather than closed courses built for the event, and cities across the region are dense, busy, and don't stop for a race the way some Western marathon host cities might. Closing major roads for four to six hours starting at 4am, when traffic is at its lowest, causes far less disruption than the same closure would starting mid-morning.",
-        "This is also why so many races finish by mid-morning rather than running into the afternoon -- organizers are working backward from when roads genuinely need to reopen for the city's normal day, not just forward from a convenient start time."
+        "Night barely cools the air here. In Kuala Lumpur in 2025, the Open-Meteo weather model averaged 26.0°C at midnight, 25.0°C at 3am and 24.0°C at 7am, the coolest hour of the day, while the dew point stayed close to 23°C around the clock [2]. Starting at 3am rather than 5am buys almost no cooler air. What changes everything is sunrise: the same model averaged 26.6°C at 9am, 28.2°C at 10am and 30.7°C at noon. Manila and Bangkok follow the same curve, coolest around 6am and above 28°C by 9am [2].",
+        "So the start time is really set by the finish. A marathon with a seven-hour cut-off that starts at 3am has its last runners finishing at 10am, already into the steep part of the curve. Those back-of-field runners matter most: a study of seven North American marathons found that slower runners lost more time than the leaders as conditions warmed [4]. The consensus statement on competing in the heat asks organisers to set start times from local weather patterns to minimise health risks, with particular care at mass-participation events [3].",
+        "Roads are the other constraint. Race records in our calendar note closures such as 3am to 8am on the route of Miri's Dynasty charity half marathon in 2025, and roads cleared of traffic from 4am at the Borobudur Marathon [1]. An early start fits the closure into the quietest hours and gives the city its roads back by mid-morning."
       ]
     },
     {
-      "heading": "The Cultural Reason: A Shared Morning Ritual",
+      "heading": "Why Malaysia Starts Hours Earlier Than Indonesia",
       "paragraphs": [
-        "Over years of races consistently starting before sunrise, the pre-dawn gathering has become part of the region's running identity rather than just a logistical workaround -- the queue for the start pen in the dark, the shared coffee or kopi beforehand, and the finish-line sunrise have become recognizable fixtures of the region's race culture in their own right.",
-        "That culture also shapes race-day infrastructure: many Southeast Asian race villages open two to three hours before gun time specifically to accommodate runners arriving in the dark, with well-lit bag drop and warm-up areas that would be less necessary for a race starting in daylight."
+        "The clock hides how far apart the region's mornings are. In 2025 the sun rose in Kuala Lumpur between 6:56am and 7:27am, and in Singapore between 6:46am and 7:16am. In Jakarta it rose between 5:25am and 6:04am, and in Manila between 5:25am and 6:25am [2].",
+        "Set against those sunrises, the start times make more sense. Malaysia's median 3:45am start comes more than three hours before sunrise; Indonesia's median 5am start comes about half an hour to an hour before sunrise in Jakarta [1][2]. Both leave the bulk of a half-marathon field finishing within a couple of hours of sunrise. Visitors should read a start time against the local sunrise, not against home."
       ]
     },
     {
-      "heading": "What This Means If You're Racing Here for the First Time",
+      "heading": "After Dark: The Night Races",
       "paragraphs": [
-        "Sleep and travel logistics need to be planned around the early start, not around it as an afterthought -- a 4am gun time usually means a 2am-2:30am wake-up, which is a genuinely difficult adjustment for travelers still on a different time zone or anyone who hasn't practiced an equally early wake-up on a training run beforehand.",
-        "Practicing at least one or two early-morning long runs in the weeks before a Southeast Asian race -- waking at the actual planned race-day time, not just running early in general -- helps the body's hunger, alertness, and warm-up routine adjust before it matters on race morning."
+        "A minority of races go the other way. The HOKA Midnight Run series starts at midnight in Philippine cities including Iloilo, Cagayan de Oro and Cebu. Johor's Night Half Marathon started at 8pm in July 2026, and the Nha Trang Night Run starts its 21 km at 7pm. Several marathons are night races in all but name: the Malaysia Marathon sent its marathon off at 12:30am in 2026, and the VnExpress Marathon Hanoi Midnight started its marathon at 12:05am in 2025 [1].",
+        "An evening start trades a 2am alarm for warmer air at the gun. Kuala Lumpur averaged 27.7°C at 8pm in 2025, more than 3°C warmer than at 5am, although it cools through the night rather than heating up behind the runners [2].",
+        "In our results, the night races are neither clearly faster nor slower than morning races nearby. HOKA Midnight's Iloilo half marathon had a median of 2:36, against 2:37 and 2:43 for two morning halves in Iloilo the same season; its Cagayan de Oro race (2:43) sat between morning races at 2:30 and 2:52, and its Cebu race (2:50) inside the 2:25 to 2:56 range of morning halves in Metro Cebu. Johor's Night Half median of 2:45 matched the Putrajaya half run the next morning (2:45) and was a little quicker than five other Malaysian morning halves (2:50 to 3:01) [5]. The comparison covers 19 races and about 26,000 half-marathon finishers, and field differences between races are larger than any day-or-night effect we can see."
+      ]
+    },
+    {
+      "heading": "Getting Through a 2am Alarm",
+      "paragraphs": [
+        "A 3am gun usually means waking between 1am and 2am. Shift bedtime earlier over the two or three nights before rather than trying to sleep at 8pm on race eve alone, and lay out bib, chip, kit and fuel the evening before. Plan the trip to the start in detail: roads close early, ride-hailing is thin at that hour, and some races run shuttles at night. Borobudur Marathon shuttles from Yogyakarta left at about 2am in 2025 [1].",
+        "Rehearse the morning on a long run: wake at race-day time, eat what you will eat, and run at the hour you will race. Near the equator, the start is warm (around 24°C to 26°C on an average morning) and no extra layer is needed [2]. In the northern cool season it can be genuinely cold: the Halong Bay Heritage Marathon recorded 18°C at 4am in 2025 [1], so a throwaway top earns its place."
+      ]
+    },
+    {
+      "heading": "Being Seen in the Dark",
+      "paragraphs": [
+        "The walk from a hotel or car park to the start, and any stretch of course still open to traffic, puts runners on dark roads with early-morning vehicles and scooters. A review of research on pedestrian visibility at night found that drivers recognise a person far better when reflective markings sit on the moving parts of the body, the wrists and ankles, than when the reflective material is on the torso, as with a vest. It also found that most road users, drivers and pedestrians alike, are not aware of how limited night vision is [6].",
+        "In practice: reflective bands on ankles and wrists, reflective detailing on shoes, and a small clip-on light for unlit stretches, since reflective material only works when a headlight hits it. A head torch helps in an unlit start village and at bag drop. Most of it can come off once the sun is up."
       ]
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "n": 1,
+      "label": "Run SEA race calendar (446 races; start times stated in 171 race records)",
+      "publisher": "Run SEA",
+      "url": "https://runsea.run/",
+      "type": "official"
+    },
+    {
+      "n": 2,
+      "label": "Historical Weather API (ERA5 reanalysis): 2025 hourly temperature, dew point and sunrise for Kuala Lumpur, Singapore, Manila, Bangkok and Jakarta, analysed by Run SEA",
+      "publisher": "Open-Meteo",
+      "url": "https://open-meteo.com/en/docs/historical-weather-api",
+      "type": "other"
+    },
+    {
+      "n": 3,
+      "label": "Consensus recommendations on training and competing in the heat (Racinais et al., Br J Sports Med 2015)",
+      "publisher": "British Journal of Sports Medicine (PMC)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4602249/",
+      "type": "other"
+    },
+    {
+      "n": 4,
+      "label": "Impact of weather on marathon-running performance (Ely et al., 2007)",
+      "publisher": "Medicine & Science in Sports & Exercise (PubMed)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17473775/",
+      "type": "other"
+    },
+    {
+      "n": 5,
+      "label": "Run SEA analysis of official results (about 26,000 half-marathon finishers, 19 races, night and morning races in Iloilo, Cagayan de Oro, Metro Cebu and Malaysia)",
+      "publisher": "Run SEA",
+      "url": "https://runsea.run/tools/",
+      "type": "official"
+    },
+    {
+      "n": 6,
+      "label": "The conspicuity of pedestrians at night: a review (Tyrrell et al., 2016)",
+      "publisher": "Clinical and Experimental Optometry (PubMed)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27523959/",
+      "type": "other"
+    }
+  ],
   "faqs": [
     {
-      "question": "Why do marathons in Southeast Asia start so early, like 4am or 5am?",
-      "answer": "Early starts let runners cover as much of the course as possible before rising heat and humidity make conditions genuinely difficult, and they minimize disruption to road traffic in dense city centers where races typically run through active streets rather than closed purpose-built courses. Both the climate and city-logistics reasons point to the same early gun time."
+      "question": "Why do marathons in Southeast Asia start so early?",
+      "answer": "Because the heat comes with the sun, not the clock. Air temperature barely falls overnight, but it climbs steeply after sunrise, so organisers start early enough for the slowest runners to finish by mid-morning. Road closures also fit more easily into the quietest hours. Across 49 marathons in our calendar with a stated start, the median flag-off is 3am."
     },
     {
-      "question": "How should I adjust my sleep schedule for a pre-dawn race start?",
-      "answer": "A 4am gun time usually means a 2am-2:30am wake-up, which is a significant adjustment worth practicing before race day. Doing one or two training long runs at the actual planned race-day wake-up time in the weeks beforehand helps hunger, alertness, and warm-up routines adjust before it matters."
+      "question": "Are night races cooler than pre-dawn races?",
+      "answer": "Not at the start. In Kuala Lumpur, 8pm averaged 27.7°C in 2025, more than 3°C warmer than 5am, although the air cools as the night goes on. In our results, night half marathons such as HOKA Midnight and Johor Night Half finished in about the same median times as morning races nearby."
     },
     {
-      "question": "Do all races in Southeast Asia start before sunrise?",
-      "answer": "Most road marathons and half marathons do, since the same heat and road-closure pressures apply broadly across the region's cities, but shorter races like 5Ks sometimes start later since less total course time is needed. Checking each race's specific start time and race-village opening time is worth doing individually rather than assuming a default."
+      "question": "How should I prepare for a 2am wake-up?",
+      "answer": "Move bedtime earlier over two or three nights rather than just on race eve, lay everything out the evening before, plan transport to the start in detail because roads close early, and rehearse the race-morning meal and wake-up on a long run beforehand."
     }
   ],
-  "editorial_notes": "Original editorial content for the Articles section, distinct from this site's Gear-section guide on packing/preparing for pre-dawn race starts -- this piece explains the climate/logistics/culture reasons behind the early start time itself.",
+  "editorial_notes": "Rewritten Nov 2026 as the start-times piece; absorbs southeast-asia-night-owl-races and the gear guides pre-dawn-race-start-preparation and reflective-high-visibility-gear-pre-dawn-runners. Start times: extracted from short_description, ai_summary, pros, cons and research_highlights of each race record (core_facts has no start-time field); earliest stated flag-off per race, hand-checked. Excluded as unclear: Indomaret Run (a runner's wake-up time, not a start time), Halong Bay Heritage (temperature line only), Alor Setar Marathon 2026 (ambiguous evening listing), and two MILO legs whose 6:05pm starts come from a single calendar listing. Added by hand from text: midnight starts for Alor Setar Marathon 2027, Cebu Marathon 2027 and Singlife Davao 2026. Weather: ERA5 at about 25 km resolution, so city centres run warmer; sunrise ranges are the 2025 minimum and maximum. Night-race comparisons use this edition's results and include no adjustment for field differences. Dropped: brand-specific gear claims (3M Scotchlite, product picks) and the generic 'shared morning ritual' culture section, which had no source. Sources checked 2026-11-06.",
   "published_at": "2026-08-11T02:25:00.000Z",
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-11-06",
   "status": "active"
 }

@@ -2,72 +2,156 @@
   "article_id": "training-marathon-heat-humidity-southeast-asia",
   "slug": "training-marathon-heat-humidity-southeast-asia",
   "title": "How to Train for a Marathon in Southeast Asia's Heat and Humidity",
-  "seo_title": "Marathon Training in Heat and Humidity: A SEA Guide",
-  "meta_description": "Most marathon plans are written for temperate climates. Here's how heat acclimatization actually works, and how to build it into a training block in Southeast Asia.",
+  "seo_title": "Marathon Training in Southeast Asia's Heat, Humidity and Rain",
+  "meta_description": "Heat acclimatisation, long runs, chafing and wet-season training, plus what 125 race editions and their race-morning weather show about how much heat really costs.",
   "topic": "Training & Racing",
-  "dek": "Most marathon training plans are written by and for runners in temperate climates -- they assume you can hold marathon pace on a cool morning without your body fighting the air itself. Training in Southeast Asia means building heat tolerance on purpose, not hoping it shows up on race day.",
+  "dek": "Most training plans assume a cool morning. Here the coolest hour is often 24°C in air close to saturation, and the storms arrive in the afternoon. What the research says about training in it, and what our own results show about how much it costs on race day.",
   "sections": [
     {
-      "heading": "Why Heat Acclimatization Matters More Than Most Plans Admit",
+      "heading": "Why Humid Heat Costs More Than the Thermometer Suggests",
       "paragraphs": [
-        "A body that has never trained in heat responds to it the same way it responds to any other unfamiliar stress: heart rate climbs faster than the pace justifies, sweat comes late and unevenly, and perceived effort spikes well before the legs are actually tired. None of that is a fitness problem -- it's an adaptation problem, and adaptation only happens with repeated, deliberate exposure.",
-        "This is the gap that catches visiting runners and even long-time residents who train mostly indoors: a marathon plan built around a target pace from a cooler climate, run without any heat-specific preparation, tends to fall apart in the second half of a hot race even when the runner's fitness on paper says otherwise."
+        "Running makes heat, and the body sheds most of it by sweating. Sweat only cools when it evaporates, and in air that is already close to saturated it evaporates slowly. The international consensus statement on training and competing in the heat warns that the standard heat-stress index, the wet-bulb globe temperature (WBGT), may even underestimate the strain when high humidity or still air restricts evaporation [1].",
+        "The cost on race day is well documented. A study of seven North American marathons, some with 36 years of results, found that finishing times slowed progressively as WBGT rose from 5°C to 25°C, and that slower runners lost more time than the leaders [3]. Southeast Asian races barely touch the cool end of that range. In 2025 the average temperature at 5am in Kuala Lumpur was 24.4°C with a dew point of 23.0°C, according to the Open-Meteo historical weather model, and Manila, Bangkok, Jakarta and Ho Chi Minh City were all within 1.5°C of that [5].",
+        "Near the equator there is no cool season to wait for. Kuala Lumpur's average 5am temperature moved only between 23.5°C and 25.6°C from month to month in 2025, and Singapore's between 23.2°C and 25.2°C. The north is different: Hanoi averaged 14.1°C at 5am in January and 26.1°C in July, and Chiang Mai 16.5°C in January [5]."
       ]
     },
     {
-      "heading": "How Long Real Heat Adaptation Takes",
+      "heading": "What Our Race Results Show, and What They Don't",
       "paragraphs": [
-        "The Gatorade Sports Science Institute's review of heat acclimatization research describes the adaptation as \"generally complete by 10-14 days\" of consistent heat exposure, with the body responding by sweating earlier and more efficiently, expanding blood plasma volume, and running at a lower core temperature and heart rate for the same effort[1]. The CDC's occupational heat-safety guidance for workers describes a similar window, recommending a gradual 7-14 day heat-exposure schedule that builds up duration and intensity rather than jumping straight into a hard effort[2].",
-        "The practical takeaway is the same from both: heat tolerance is trainable on a fairly short and predictable timeline, but it has to be built specifically, not assumed to come along for free with general marathon fitness."
+        "To see how much this shows up in real fields, we matched race-morning weather (the 4am to 9am average from the same model) to 125 editions of 79 races in our results archive, about 430,000 finishers in all [4][5].",
+        "The coolest race morning in the set did produce the fastest marathon field: the Halong Bay Heritage Marathon in November 2025 averaged 17.8°C with a dew point of 11°C, and its median finish was 4:08 across 2,579 finishers. But Vietnam's marathons are quick in warm air too. Hue's marathon in late August 2026 averaged 28.5°C and still had a median of 4:38 (350 finishers), faster than every marathon we hold from the Philippines, Malaysia, Indonesia, Singapore and Thailand [4]. Across 38 marathon editions, warmer mornings went with slightly slower medians, but country and field explain far more of the spread than temperature does.",
+        "The half marathons, where we have much more data, show no heat effect at all. Ninety-nine of the 104 half-marathon editions with at least 150 finishers were run on mornings averaging 24°C to 29°C. Within that band the typical median barely moved: 2:41 on mornings averaging 24°C to 25.5°C, 2:36 at 25.5°C to 27°C, and 2:40 above 27°C [4].",
+        "Comparing a race with itself from one year to the next is a fairer test, because the course and the kind of runner it attracts stay similar. In the 30 pairs of consecutive editions where race-morning temperature differed by 1.5°C or more, the warmer edition had the slower median 17 times, little better than a coin toss. Changes in field size tracked changes in median time more closely than the weather did. The clearest single case is Manila's Sagisag Half Marathon: its February 2025 leg (25.5°C) had a median of 2:35, and its June 2025 leg (27.5°C) a median of 2:49 [4].",
+        "The honest reading is that a degree or two on race morning is lost in the noise of who enters, course changes and how the day is paced. That does not make heat harmless. It means almost every race in the region is run in the same narrow, warm and humid band, so the useful question is not which race is cooler but whether you have trained for that band."
       ]
     },
     {
-      "heading": "Building a Heat Block Into an Existing Training Plan",
+      "heading": "Acclimatisation: What One to Two Weeks Buys",
       "paragraphs": [
-        "For runners already based in Southeast Asia, the acclimatization mostly happens by default -- but only if easy runs and long runs are actually run outdoors in the heat rather than on an indoor treadmill in air conditioning, which removes the exact stimulus the body needs to adapt. Two to three outdoor sessions a week, even at an easy, conversational pace, is enough to maintain heat tolerance once it's built.",
-        "For runners traveling in from a cooler climate for a race, the same 10-14 day window applies as a rough minimum arrival buffer: landing three or four days before race day gives almost no time to adapt and usually means racing in a body that's still fighting the heat rather than working with it. Arriving one to two weeks early, and getting outdoor runs in immediately rather than resting jet lag away indoors, makes far better use of that window."
+        "The consensus statement calls heat acclimatisation the most important thing an athlete can do to reduce strain and protect performance: repeated exercise in the heat over one to two weeks, in sessions of at least 60 minutes that raise core and skin temperature and make you sweat. Most of the heart-rate and sweating adaptations arrive within about 6 to 10 days, and around two weeks is needed for the full benefit to aerobic performance [1].",
+        "The changes are measurable: earlier and heavier sweating, more blood flow to the skin, a lower body temperature and less cardiovascular strain at the same effort, and better fluid balance. A review by the same research group adds that acclimatising outdoors, in the conditions you will race in, may give more specific adaptations than a laboratory protocol [2]. Humid heat produces somewhat different adaptations from dry heat [1], which is one reason a runner used to a hot, dry climate can still struggle in Kuala Lumpur or Manila.",
+        "Residents acclimatise by living here, but only if the training happens outdoors. Easy runs on an air-conditioned treadmill keep the fitness and lose the stimulus. Most of the benefit lasts two to four weeks without heat exposure and comes back faster the second time [1], so a fortnight of mostly indoor running before a race is worth correcting with outdoor sessions.",
+        "Visitors from a cooler climate should plan around the same arithmetic. Landing three days before the race gives the body almost none of those 6 to 10 days. Arriving 10 to 14 days early, or training in a hot room at home in the weeks before, closes the gap, and the consensus suggests a trial acclimatisation months ahead to learn how quickly you adapt [1]."
       ]
     },
     {
-      "heading": "Signs You're Adapting -- and Signs You're Not",
+      "heading": "Long Runs: Run by Effort, and Avoid Big Jumps",
       "paragraphs": [
-        "Early signs of adaptation are consistent across both sources: sweating that starts sooner into a run, a heart rate that settles faster at an easy pace, and a session that used to feel brutal starting to feel merely uncomfortable. These usually show up within the first week of consistent outdoor training.",
-        "The absence of those signs after a week or two of genuine outdoor exposure -- heart rate still spiking early, sweat still arriving late, every run still feeling like the first one -- is worth treating as a signal to dial back intensity rather than push through, since heat illness risk climbs faster than fitness does when adaptation isn't keeping pace with training load."
+        "Heat raises heart rate and perceived effort at any given pace, so a long run held to a cool-weather pace target becomes a harder session than planned. Let effort or heart rate set the pace, start as early as the race you are training for will start, and plan a loop past a shop or a car with drinks. A long run that finishes several minutes slower than the plan because of the weather is usually the correctly paced one.",
+        "Build distance gradually. A cohort study that followed 5,205 runners through their GPS watches for 18 months found that the overuse-injury rate rose when a single run was more than 10% longer than the longest run of the previous 30 days: 64% higher for a 10% to 30% jump, and more than double for a jump of over 100%. Week-to-week changes in total mileage showed no such link [7]. In practice, that means stepping the long run up in small increments rather than making one leap after a missed week.",
+        "Fluid, sodium and carbohydrate for these runs are covered in detail at runsea.run/articles/electrolytes-and-sodium-beyond-just-water-in-the-heat/. Rehearse the race-day plan on the long runs rather than inventing it at the first aid station."
+      ]
+    },
+    {
+      "heading": "Chafing: The Humidity Tax",
+      "paragraphs": [
+        "In dry air, sweat partly dries between strides and the skin gets a break. In humid air, shirts and shorts stay soaked for the whole run, and wet fabric carrying salt rubs harder than dry fabric. The usual problem spots are the inner thighs, underarms, nipples, waistbands and sports-bra lines.",
+        "The American Academy of Dermatology's advice covers most of it: wear loose, moisture-wicking clothing rather than cotton, which soaks up sweat and leads to friction and chafing; put petroleum jelly or powder on problem areas; cover hot spots securely with moleskin or a soft bandage; and stop as soon as the skin turns red or hurts [8]. On runs over two hours, reapply halfway. Test every piece of race kit on a long run in the same humidity, because a seam that is harmless for an hour can open the skin by the third."
+      ]
+    },
+    {
+      "heading": "Training Through the Wet Season",
+      "paragraphs": [
+        "The rain has a timetable. Across five years of hourly data (2021 to 2025) from the Open-Meteo model, only 8% to 12% of the year's rain in Kuala Lumpur, Singapore, Manila, Bangkok, Jakarta and Ho Chi Minh City fell between 3am and 8am, against 38% to 62% between noon and 6pm. Hanoi is the exception, with 23% falling in the early morning [5]. Moving key sessions to the early morning dodges most storms, and it is the same window most races use.",
+        "Lightning is the hazard worth taking seriously. The US National Weather Service says the only completely safe place is inside a building or a hard-topped vehicle, that open-sided shelters are not safe, and that you should wait 30 minutes after the last thunder before going back out [9]. Bus stops and covered walkways do not count. Treat flooded underpasses as a reroute, never a wade, and take care on painted road markings, tiles and metal drain covers, which get slippery long before asphalt does.",
+        "When a storm wipes out a session, move the easy runs indoors or drop them, and protect the long run and the one quality session of the week by shifting them to the next clear morning. A plan with one flexible day a week survives a wet month far better than a rigid one."
+      ]
+    },
+    {
+      "heading": "Know When to Stop",
+      "paragraphs": [
+        "Exertional heat stroke can affect fit, healthy runners. The American College of Sports Medicine's consensus statement stresses that recognising it early, stopping exercise and cooling the whole body fast are what decide the outcome, and that most exertional heat illness can be prevented by recognising and modifying known risk factors [6]. The college's earlier position stand lists the runners most likely to collapse in the heat: those who are not acclimatised, are dehydrated, have been recently ill or take certain medications [10]. Confusion, stumbling or odd behaviour in a runner on a hot morning is a medical emergency, not a bad patch to push through."
       ]
     }
   ],
   "sources": [
     {
       "n": 1,
-      "label": "Heat Acclimatization to Improve Athletic Performance in Warm/Hot Environments",
-      "publisher": "Gatorade Sports Science Institute",
-      "url": "https://www.gssiweb.org/sports-science-exchange/article/sse-153-heat-acclimatization-to-improve-athletic-performance-in-warm-hot-environments",
+      "label": "Consensus recommendations on training and competing in the heat (Racinais et al., Br J Sports Med 2015)",
+      "publisher": "British Journal of Sports Medicine (PMC)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4602249/",
       "type": "other"
     },
     {
       "n": 2,
-      "label": "Acclimatization Recommendations",
-      "publisher": "CDC / NIOSH",
-      "url": "https://www.cdc.gov/niosh/heat-stress/recommendations/acclimatization.html",
+      "label": "Adaptations and mechanisms of human heat acclimation: applications for competitive athletes and sports (Périard, Racinais & Sawka, 2015)",
+      "publisher": "Scandinavian Journal of Medicine & Science in Sports (PubMed)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25943654/",
+      "type": "other"
+    },
+    {
+      "n": 3,
+      "label": "Impact of weather on marathon-running performance (Ely et al., 2007)",
+      "publisher": "Medicine & Science in Sports & Exercise (PubMed)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17473775/",
+      "type": "other"
+    },
+    {
+      "n": 4,
+      "label": "Run SEA analysis of official results (about 430,000 finishers, 125 editions of 79 races, matched to race-morning weather)",
+      "publisher": "Run SEA",
+      "url": "https://runsea.run/tools/",
       "type": "official"
+    },
+    {
+      "n": 5,
+      "label": "Historical Weather API (ERA5 reanalysis): hourly temperature, dew point and precipitation, analysed by Run SEA",
+      "publisher": "Open-Meteo",
+      "url": "https://open-meteo.com/en/docs/historical-weather-api",
+      "type": "other"
+    },
+    {
+      "n": 6,
+      "label": "ACSM Expert Consensus Statement on Exertional Heat Illness: Recognition, Management, and Return to Activity (2023)",
+      "publisher": "Current Sports Medicine Reports (PubMed)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37036463/",
+      "type": "other"
+    },
+    {
+      "n": 7,
+      "label": "How much running is too much? Identifying high-risk running sessions in a 5200-person cohort study (Frandsen et al., 2025)",
+      "publisher": "British Journal of Sports Medicine (PMC)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12421110/",
+      "type": "other"
+    },
+    {
+      "n": 8,
+      "label": "How to prevent and treat blisters (includes chafing prevention)",
+      "publisher": "American Academy of Dermatology",
+      "url": "https://www.aad.org/public/skin-hair-nails/injured-skin/blisters",
+      "type": "other"
+    },
+    {
+      "n": 9,
+      "label": "Lightning Safety Tips and Resources",
+      "publisher": "National Weather Service (NOAA)",
+      "url": "https://www.weather.gov/safety/lightning-outdoors",
+      "type": "official"
+    },
+    {
+      "n": 10,
+      "label": "American College of Sports Medicine position stand: Exertional heat illness during training and competition (2007)",
+      "publisher": "Medicine & Science in Sports & Exercise (PubMed)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17473783/",
+      "type": "other"
     }
   ],
   "faqs": [
     {
-      "question": "How many days does it take to acclimatize to heat before a race in Southeast Asia?",
-      "answer": "Sports science research puts full heat acclimatization at roughly 10-14 days of consistent exposure, with the body sweating earlier, expanding blood plasma volume, and running at a lower heart rate for the same effort by the end of that window. Visiting runners should treat arriving less than a week before race day as a real handicap, not a minor inconvenience."
+      "question": "How many days does it take to acclimatise to heat before a race in Southeast Asia?",
+      "answer": "The international consensus on training in the heat puts it at one to two weeks of daily exercise in the heat, in sessions of at least an hour. Most heart-rate and sweating adaptations arrive in about 6 to 10 days, and the full benefit to aerobic performance takes around two weeks. Visitors who land three days before a race get almost none of it."
     },
     {
-      "question": "Can I train indoors in air conditioning and still race well in Southeast Asia's heat?",
-      "answer": "Air-conditioned indoor training removes the exact stimulus your body needs to adapt to heat, so it will not build heat tolerance no matter how fit it makes you otherwise. At least two to three outdoor sessions a week, even easy ones, are needed to build and then maintain real heat acclimatization ahead of a hot race."
+      "question": "Is it worth choosing a cooler race to run faster?",
+      "answer": "Near the equator there is little to choose: race mornings in Kuala Lumpur, Singapore, Jakarta and Manila average about 23°C to 27°C at 5am in every month of the year. Northern Vietnam and northern Thailand are genuinely cooler from about November to February. In our results, the coolest race morning did produce the fastest marathon field, but runner fields differ so much by country that we can't put a reliable number on how much the cooler air itself was worth."
     },
     {
-      "question": "What are the first signs that my body is adapting to hot-weather training?",
-      "answer": "The earliest signs are sweating that starts sooner into a run, a heart rate that settles faster at an easy pace, and sessions that used to feel brutal starting to feel merely uncomfortable. These typically appear within the first week of consistent outdoor training and build further over the following one to two weeks."
+      "question": "Should I train at the same time of day my race starts?",
+      "answer": "For long runs, yes where possible. Most road races in the region start before 5am, which is also when the least rain falls in most of the big cities. Running long at that hour practises the early wake-up and the race-morning meal, and avoids the noon-to-6pm window when most storms arrive."
     }
   ],
-  "editorial_notes": "Original editorial content for the Articles section. Cited claims verified against live source URLs at time of writing.",
+  "editorial_notes": "Rewritten Nov 2026 as the single training pillar; absorbs chafing-prevention-for-long-humid-runs, how-to-structure-your-long-run and training-through-monsoon-season-without-losing-your-base. Race-weather analysis: race-morning weather is the mean of hourly ERA5 values from 4am to 9am local time at the race city's grid cell (about 25 km), so city centres will run warmer than these figures. Night races (HOKA Midnight legs, Johor Night Half, AIA Rock 'n' Roll Manila) were excluded from the heat comparison. Half-marathon comparison uses editions with at least 150 finishers; same-race pairs use consecutive editions with at least 100 finishers per distance. City climate figures are 2025 hourly averages; rainfall shares are 2021-2025. Sources checked 2026-11-06. Dropped from earlier versions: the CDC occupational acclimatisation page and the Gatorade-funded GSSI review (replaced by the peer-reviewed consensus), and the claim that a single systematic review identified long-run spikes as a consistent injury predictor (that review found the evidence conflicting; the 2025 cohort study is cited instead).",
   "published_at": "2026-08-11T02:00:00.000Z",
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-11-06",
   "status": "active"
 }

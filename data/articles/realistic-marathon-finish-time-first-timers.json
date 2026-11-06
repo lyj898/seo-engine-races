@@ -1,66 +1,115 @@
 {
   "article_id": "realistic-marathon-finish-time-first-timers",
   "slug": "realistic-marathon-finish-time-first-timers",
-  "title": "What's a Realistic Marathon Finish Time for a First-Timer?",
-  "seo_title": "Realistic First Marathon Finish Time: What the Data Shows",
-  "meta_description": "Movie-marathon finish times set unrealistic expectations. Here's what actual race-result data shows about average finish times, and how heat and humidity change the target.",
+  "title": "How Fast Does Southeast Asia Actually Run a Marathon?",
+  "seo_title": "Southeast Asia Marathon Finish Times: What 30,000 Results Show",
+  "meta_description": "Median marathon and half-marathon times by sex, race and country from 142,000 Southeast Asian finishers, how they compare with the US, and a realistic first-marathon target.",
   "topic": "Training & Racing",
-  "dek": "Sub-4-hour marathons get talked about online far more often than they actually happen. Here's what large-scale race-result data says a realistic finish time actually looks like -- and why that number should shift further for a first marathon run in Southeast Asia's heat.",
+  "dek": "The typical marathon finisher in Southeast Asia crosses the line in about five and a half hours, nearly an hour after the US average that most online advice is built on. Here is what 30,732 marathon results and 111,805 half-marathon results from the region say about a realistic target.",
   "sections": [
     {
-      "heading": "Why Finish-Time Expectations Get Set Too High",
+      "heading": "The middle of the field is five hours 25 minutes",
       "paragraphs": [
-        "Marathon culture online skews heavily toward faster, more experienced runners -- training accounts, race-recap posts, and PR celebrations are disproportionately from people already well under the average, which quietly resets what 'normal' looks like for someone about to run their first one. A first-timer comparing themselves to that visible slice of the sport is comparing themselves to a skewed sample, not the actual field.",
-        "This gap between perceived-normal and actual-normal is where a lot of unnecessary race-day disappointment comes from -- not from running a bad race, but from measuring a solid first marathon against a number that was never realistic to begin with."
+        "Run SEA holds the official results of 25 marathons held in the region between December 2025 and October 2026: 30,732 finishers in Singapore, Vietnam, Thailand, Malaysia, Indonesia and the Philippines [1]. Line them all up and the runner in the middle finishes in 5 hours 25 minutes. The median man finishes in 5:21 and the median woman in 5:43.",
+        "The spread is wide. The middle half of all finishers come home between 4:37 and 6:14. The fastest tenth are inside 3:58, and the slowest tenth take longer than 6:54 [1].",
+        "Sub-four, the number online training culture treats as a baseline, is a minority result here. Only 11% of marathon finishers broke four hours. About 38% broke five hours, and 69% broke six [1]. A runner who finishes a first marathon in five and a half hours has run a median time for the region, not a slow one."
       ]
     },
     {
-      "heading": "What the Data Actually Shows",
+      "heading": "How that compares with the US benchmark",
       "paragraphs": [
-        "RunRepeat's \"State of US Marathons 2025\" analysis, built on over 10 million race results spanning 1984-2025, put the 2024 average marathon finish time at 4 hours 34 minutes overall, breaking down to roughly 4:24 for men and 4:51 for women[1]. That's an average across the entire field -- experienced and first-time runners alike -- not a first-timer-specific benchmark, and it sits well outside the sub-4-hour mark that's often treated online as a baseline expectation.",
-        "The practical read: finishing anywhere close to that average time, or even comfortably above it, is a genuinely solid result for a first marathon, not a disappointing one. A first-timer targeting 4:30-5:30 depending on their training background is targeting a realistic, well-supported range, not a modest one."
+        "The figure usually quoted as 'the average marathon time' comes from RunRepeat's State of US Marathons, which is built on about 10.5 million results from US races between 1984 and 2025. It puts the 2024 US average at 4:34 overall, 4:24 for men and 4:51 for women [2]. It is a US figure, covering about 97% of US marathon results, and not a global one.",
+        "RunRepeat reports averages (means), so the fair comparison is our mean: 5:25 overall, 5:22 for men and 5:41 for women [1]. Southeast Asian marathon fields finish about 50 minutes behind US fields on average, and the gap is similar for men and women.",
+        "The results alone cannot say why. Race-morning heat and humidity, course profiles, generous cut-offs that keep walkers in the results, and how many first-timers a field holds all differ between the two datasets. What the gap does say is that a target borrowed from US data will be too ambitious for most runners here."
       ]
     },
     {
-      "heading": "Setting a Goal Based on Training, Not Aspiration",
+      "heading": "Race by race: Vietnam fast, Manila and Kuala Lumpur slow",
       "paragraphs": [
-        "A more reliable way to set a first-marathon target than picking a round number is to base it on recent long-run pace: take the pace held comfortably on a 25-30km training run and add a realistic buffer for the final 10-12km, where even well-trained first-timers typically slow down. That buffer is worth building into the goal explicitly rather than treating it as a failure if it happens.",
-        "A negative-split or even-effort strategy -- running the first half slightly conservative relative to goal pace -- tends to produce a better result and a better experience for first-timers than an ambitious even-pace target that requires everything to go right from the start."
+        "Among the 20 marathons with at least 100 finishers, Vietnam's are the quickest. VPBank Hanoi International Marathon had a median of 4:35, with 28% of its 1,844 finishers under four hours. Hue's median was 4:39 (26% sub-four), Techcombank Hanoi's 4:43 (25%) and VPBank Dat Sen Hong in Dong Thap 4:50 (23%) [1]. Pooled, Vietnam's four marathons have a median of 4:41 and 26% sub-four.",
+        "At the other end, the Manila Marathon (5,744 finishers), the Malaysia Marathon in Kuala Lumpur (1,370) and New Clark City Marathon (252) all had medians of 5:58. Only 2.9% of Manila finishers, 5.5% in Kuala Lumpur and 3.6% at New Clark City ran under four hours [1]. The Philippines' 15 marathons pooled have a median of 5:49 and 4.9% sub-four.",
+        "The big middle-of-the-road fields sit between. The Singapore Marathon's 9,294 finishers had a median of 5:16 (12% sub-four), Laguna Phuket's 603 a median of 5:14 (15%), and Maybank Marathon Bali's 3,578 a median of 5:26 (8%) [1].",
+        "Cut-offs shape these medians. Techcombank Hanoi's marathon closes at 6 hours 30, Singapore's at 7 hours in its 2026 edition and the Malaysia Marathon's at 7 hours 30 [3]. A longer limit lets more walkers finish, which pulls the median later. The share running under four or five hours is not affected by the cut-off, and on that measure Vietnam's fields still lead clearly."
       ]
     },
     {
-      "heading": "Why the Target Should Shift Further for a Race in Southeast Asia",
+      "heading": "The half marathon: 2 hours 42 is the middle",
       "paragraphs": [
-        "The RunRepeat data reflects a global (mostly temperate-climate) dataset, not races run in tropical heat and humidity -- heat measurably slows marathon finish times across the field, not just for underprepared runners, because the cardiovascular system has to divert effort to managing heat load that would otherwise go toward pace. A first marathon run in Southeast Asia's typical race-morning conditions should reasonably target a slower time than the same runner might expect from an equivalent temperate-climate race.",
-        "This isn't a fitness problem to train away entirely -- heat acclimatization (see this site's guide on training for heat and humidity) narrows the gap but doesn't erase it. Building a heat-adjusted buffer into a first-marathon goal, rather than importing a target from cooler-climate race data, sets an expectation that matches the actual conditions on the day."
+        "Half marathons are the region's main distance, and the sample is larger: 111,805 finishers in 74 races. The median finisher takes 2:42, the median man 2:36 and the median woman 2:55. Just under 12% break two hours and 68% break three [1].",
+        "The fastest-looking halves are the National MILO Marathon legs in the Philippines, where medians run from 1:51 to 2:18 and up to 59% of finishers break two hours. That is mostly a cut-off effect: MILO's 21K closes at 2 hours 30, with a check at 10 km [3], so slower runners enter shorter races or are not in the results. Leave MILO out and the quickest halves are in Thailand, with Udon21 at 2:10 and Naew Ubon Run at 2:15. Pooled, Thailand's halves have a median of 2:23 and Vietnam's 2:29, against 2:54 in Malaysia [1].",
+        "The slowest large field is the Kota Kinabalu Half Marathon, where the median among 6,321 finishers is 3:02 and 49% finish under three hours [1]."
+      ]
+    },
+    {
+      "heading": "A realistic target for a first marathon here",
+      "paragraphs": [
+        "The results do not mark who is running a first marathon, so they cannot give a first-timer average. They do show where a first-timer will sit. A finish between five and six hours lands in the middle third of a typical field here, and anything under five hours is faster than about 60% of finishers [1].",
+        "Base the actual number on training rather than on a round figure. Take the pace held comfortably on a long run of 25 to 30 km and allow for slowing over the last 10 to 12 km, where most first-timers lose time. Then check the race's cut-off against a bad-day version of that estimate, not the good-day one: about 18% of finishers in our data took longer than 6 hours 30 [1], and that alone is outside the limit at races like Techcombank Hanoi. A runner expecting 6:15 or slower should pick a race with a cut-off of seven hours or more."
+      ]
+    },
+    {
+      "heading": "Pacing: start slower than feels right",
+      "paragraphs": [
+        "How the first half is run matters more than the target. A 2026 study of 78,912 Boston Marathon finishers sorted runners by finishing time and pacing pattern. Even pacing was the norm among those under three hours (82% of them) and the exception among those slower than 4:30 (19.6%). Over a third (37.1%) of the slower group slowed sharply in the second half, and in that group the even pacers finished about 13.6 minutes faster than the runners who faded [4].",
+        "A review of negative-split pacing sets out why a conservative start helps. A fast start burns glycogen faster and leaves less for the final stages. It also produces more heat early, which matters in warm, humid conditions, and it adds to cardiovascular drift, the slow rise in heart rate at a steady pace. The review is clear that holding back has a psychological cost: it takes patience to let others go early, and negative splits are not the best plan for every runner or course [5].",
+        "In practice, aim for a first half a few seconds per kilometre slower than your goal pace and a second half that is no slower than your goal pace. For a 5:30 goal (an average of about 7:49 per km), that means going through halfway at around 7:55 to 8:00 per km, or about 2:47 to 2:49. Decide this before race morning and check the watch every few kilometres early on, when the crowd and fresh legs make goal pace feel too easy. In the heat, judge the first half by effort and heart rate as well as by pace.",
+        "The Boston data comes from a cool-weather race, and our own results do not include split times, so they cannot show how Southeast Asian fields pace. The physiology in the review, especially the point about early heat build-up, suggests a cautious start matters at least as much in a tropical race as in Boston."
       ]
     }
   ],
   "sources": [
     {
       "n": 1,
+      "label": "Run SEA analysis of official results (30,732 marathon and 111,805 half-marathon finishers, 74 races, Dec 2025 to Oct 2026)",
+      "publisher": "Run SEA",
+      "url": "https://runsea.run/tools/",
+      "type": "other"
+    },
+    {
+      "n": 2,
       "label": "The State of US Marathons 2025",
       "publisher": "RunRepeat",
       "url": "https://runrepeat.com/the-state-of-us-marathons-2025",
+      "type": "other"
+    },
+    {
+      "n": 3,
+      "label": "Run SEA race calendar: cut-off times recorded for each race",
+      "publisher": "Run SEA",
+      "url": "https://runsea.run/",
+      "type": "other"
+    },
+    {
+      "n": 4,
+      "label": "Pacing strategy patterns and performance outcomes in marathon running: A large-scale analysis of split time data",
+      "publisher": "PLOS One",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0352808",
+      "type": "other"
+    },
+    {
+      "n": 5,
+      "label": "The physiology and psychology of negative splits: insights into optimal marathon pacing strategies",
+      "publisher": "Frontiers in Physiology (PMC)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12307312/",
       "type": "other"
     }
   ],
   "faqs": [
     {
-      "question": "What is a realistic finish time for a first marathon?",
-      "answer": "Large-scale race-result data (RunRepeat's analysis of over 10 million results) puts the overall average marathon finish time at 4:34, roughly 4:24 for men and 4:51 for women. A first-timer finishing anywhere near that range, or comfortably above it, is achieving a genuinely solid result -- not an underwhelming one."
+      "question": "What is the average marathon finish time in Southeast Asia?",
+      "answer": "Across 30,732 finishers of 25 marathons in Run SEA's results data, the median finish is 5:25 (5:21 for men, 5:43 for women) and the mean is also 5:25. Only 11% of finishers broke four hours, and the middle half finished between 4:37 and 6:14."
     },
     {
-      "question": "Is sub-4-hours a normal marathon finish time?",
-      "answer": "No -- it sits well above the actual field average of around 4:34, even though it's frequently treated online as a baseline expectation. That perception comes from marathon social media skewing toward faster, more experienced runners, not from what most finishers actually run."
+      "question": "What is a realistic first marathon time in Southeast Asia?",
+      "answer": "A finish between five and six hours puts a first-timer in the middle third of a typical field here, and under five hours beats about 60% of finishers. Set the actual target from long-run pace in training, and choose a race whose cut-off covers a slow day, not just a good one."
     },
     {
-      "question": "Should I expect to run slower in a Southeast Asia marathon than elsewhere?",
-      "answer": "Yes -- heat measurably slows marathon finish times across the whole field, not just for underprepared runners, because the body has to divert effort to managing heat load. A first marathon run in the region's typical race-morning heat and humidity should reasonably target a slower time than the same runner might expect in a cooler climate."
+      "question": "Why are Southeast Asian marathon times slower than US times?",
+      "answer": "US marathons averaged 4:34 in 2024, against a 5:25 mean in our Southeast Asian data. Heat and humidity, courses, generous cut-offs that keep walkers in the results and the share of new runners all differ, and results alone cannot separate them. Vietnam's fields are the region's quickest, with about a quarter under four hours."
     }
   ],
-  "editorial_notes": "Original editorial content for the Articles section. Cited claims verified against live source URLs at time of writing.",
+  "editorial_notes": "Rewritten 6 Nov 2026 as a data piece; absorbs negative-split-pacing-strategy-guide. Figures computed from data/finish-times (75 races, 238,642 finishers; marathon and half subsets as stated; per-race figures only for fields of 100+). Medians are pooled across all finishers unless a race is named. Cut-offs from the race records in data/entities (Techcombank Hanoi 6:30, Singapore 2026 7:00, Malaysia Marathon 7:30, MILO 21K 2:30). RunRepeat, PLOS One and Frontiers sources opened and checked 2026-11-06. The old piece wrongly called the RunRepeat data global; it covers US races only.",
   "published_at": "2026-08-11T02:15:00.000Z",
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-11-06",
   "status": "active"
 }

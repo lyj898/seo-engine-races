@@ -1,73 +1,105 @@
 {
   "article_id": "what-race-weekend-actually-costs-southeast-asia",
   "slug": "what-race-weekend-actually-costs-southeast-asia",
-  "title": "What a Race Weekend Actually Costs Across Southeast Asia's Big Cities",
-  "seo_title": "What a Race Weekend Costs in Southeast Asia's Big Cities",
-  "meta_description": "A practical look at what really drives race-weekend costs in Southeast Asia -- entry fees, flights, accommodation -- plus real strategies experienced racers use to spend less.",
+  "title": "What a Race Entry Actually Costs Across Southeast Asia",
+  "seo_title": "Race Entry Fees in Southeast Asia: 219 Races Compared in USD",
+  "meta_description": "Entry fees for 219 Southeast Asian road races converted to US dollars: typical prices by country and distance, the cheapest and most expensive races, and how early-bird tiers work.",
   "topic": "Southeast Asia Running Life",
-  "dek": "Race entry fees, flights, and hotel nights in Southeast Asia's big race cities can range enormously depending on the event and the trip -- here's what actually drives that range, and how experienced race travelers keep costs down.",
+  "dek": "Most road races in Southeast Asia charge between about US$27 and US$41 for their headline distance, and many cost less. Singapore is in a different bracket. Here are the entry fees of 219 races, converted to one currency and compared by country and distance.",
   "sections": [
     {
-      "heading": "Entry Fees Aren't One Price -- They're a Tier System",
+      "heading": "What the numbers cover",
       "paragraphs": [
-        "The single biggest driver of what a race weekend costs is which tier of race you've signed up for, and Southeast Asia's calendar spans an unusually wide range within that tier system. The flagship international races profiled in this site's own roundup, Southeast Asia's Biggest Flagship Marathons, Ranked, run large-scale road closures, elite athlete fields, multi-day expos, and international media coverage -- all of which cost real money to produce, and that cost is reflected in entry fees that sit well above what a smaller event charges.",
-        "At the other end, the events covered in Best Small, Local Races in Southeast Asia for a Quieter Race Day, and the country-specific guides like The Best Marathons and Half Marathons in Vietnam or The Best Marathons and Half Marathons in the Philippines, include plenty of community-organized races with modest infrastructure and correspondingly modest entry fees. Neither tier is 'the' Southeast Asia race price -- the honest answer to 'how much does entry cost' is 'which race, exactly,' and checking the specific event's own registration page is the only way to get a real number."
+        "Run SEA's race calendar records an entry-fee range for 219 of its 446 races, as each organiser published it. They span race dates from June 2026 to September 2027, and 149 of the races were still to come on 6 November 2026 [1]. The fees are in nine currencies, led by Thai baht (59 races), Philippine pesos (51), ringgit (44), rupiah (31) and dong (25).",
+        "To compare them, every fee here is converted to US dollars at the European Central Bank's euro reference rates of 5 November 2026: US$1 = SGD 1.277, MYR 4.046, PHP 63.0, THB 33.44 and IDR 18,069 [2]. The dong is not in the ECB set, so it uses 25,692 dong to the dollar from ExchangeRate-API on 6 November 2026 [3]. The Brunei dollar is exchanged at par with the Singapore dollar [4].",
+        "A range usually runs from the cheapest distance to the dearest, so its bottom is roughly the cheapest way into the race (often a 5K or fun run) and its top is usually the headline distance. Some ranges instead span early-bird and regular prices, or local and international entries. Three races list only a 'from' price and are left out of the top-of-range figures."
       ]
     },
     {
-      "heading": "Flights and Accommodation: Where the Real Swing Happens",
+      "heading": "The typical fee: about US$33 at the top of the range",
       "paragraphs": [
-        "For most travelers, flights and accommodation move the total trip cost far more than the entry fee does. Southeast Asia is consistently cited by budget-travel researchers as one of the more affordable regions in the world to travel through, with daily budget-traveler costs commonly estimated in the range of roughly $25-40 a day for accommodation, food, and local transport combined once you're on the ground[1][2] -- though that figure moves a lot by country and by how far above hostel-and-street-food travel you're willing to go.",
-        "Within-region flights on budget carriers are often the cheapest single line item relative to what an intercontinental flight into the region costs, which is part of why chaining multiple races into one regional trip works so well financially -- the expensive long-haul flight gets amortized across several events instead of paid once per race. Timing also swings accommodation costs meaningfully: race weekends that land during regional holiday periods or major events elsewhere in the host city routinely push hotel rates up well beyond a normal weekend."
+        "Across all 219 races, the median bottom of the range is US$15 and the median top is US$33. Half of all races top out between US$27 and US$41 [1].",
+        "Distance moves the price, but less than you might expect. At the 69 races whose headline distance is the marathon (and which publish a top price), the median top of the range is US$40. At the 147 races built around the half marathon it is US$30 [1].",
+        "Where organisers list a price for each distance, the steps are visible. VPBank Hanoi International Marathon's standard prices were 1,668,000 dong (about US$65) for the 42K, 1,268,000 (US$49) for the 21K, 988,000 (US$38) for the 10K and 668,000 (US$26) for the 5K. Borobudur Marathon lists IDR 950,000 (US$53) for the full, 850,000 (US$47) for the half and 650,000 (US$36) for the 10K. Amazing Thailand Marathon Bangkok lists THB 1,400 to 1,800 (US$42 to US$54) for the marathon and 1,200 to 1,600 for the half [1]. In all three, the marathon is the cheapest distance per kilometre."
       ]
     },
     {
-      "heading": "Money-Saving Strategies Race Travelers Actually Use",
+      "heading": "Country by country",
       "paragraphs": [
-        "Early registration is the most reliable lever within your control. Southeast Asian races commonly run tiered early-bird pricing that increases in steps as the event approaches and sells out closer to race day, so locking in a spot months out rather than weeks out is a real, repeatable saving rather than a marketing gimmick. Choosing a smaller race over a flagship one, per Best Small, Local Races in Southeast Asia for a Quieter Race Day, is the second lever, trading some expo polish and elite-field prestige for a materially lower entry fee and often a less crowded, more relaxed race-day experience.",
-        "The third lever is trip structure rather than any single purchase: planning a multi-race trip the way this site's Planning a Race-Cation in Southeast Asia: A Practical Travel Guide describes -- one regional flight, several race weekends -- spreads the fixed cost of travel across multiple events and typically works out cheaper per race than flying in and out for a single event each time. None of these strategies require finding a secret discount; they're structural choices about which races and how many trips you book."
+        "Singapore is the outlier. Its four races with fees have a median top of about US$117, and the BYD Singapore International Marathon lists SGD 98 to 208, or US$77 to US$163 [1].",
+        "Elsewhere the medians sit close together. The median top of the range is US$37 in Vietnam (959,000 dong, 25 races), US$35 in Thailand (THB 1,175, 60 races), US$32 in the Philippines (PHP 2,000, 51 races), US$30 in Indonesia (IDR 550,000, 31 races) and US$28 in Malaysia (RM 114, 44 races) [1].",
+        "The marathon-led races show more difference. Their median top is US$59 in Indonesia (6 races), US$44 in Vietnam (10), US$40 in the Philippines (17), US$37 in Malaysia (9) and US$36 in Thailand (25) [1]. Thailand has the most marathons on the calendar and some of the cheapest: Chombueng Marathon tops out at THB 1,000 (US$30) and the Bangkok Marathon at THB 1,250 (US$37).",
+        "Malaysia has the cheapest way in. Its median bottom of range is about US$11 (RM 45), because many Malaysian races add a short distance priced from RM 25 to RM 45 [1]."
       ]
     },
     {
-      "heading": "Building Your Own Realistic Budget Instead of Trusting a Single Number",
+      "heading": "The most and least expensive",
       "paragraphs": [
-        "Because entry fees, flights, and accommodation all vary this much by event, city, and season, the most useful thing this article can hand you isn't a specific dollar figure -- it's a structure. Budget separately for entry fee (checked against the specific race's own registration page), flights (checked against current fares for your actual dates), accommodation (checked against your actual chosen neighborhood and hotel tier), and a buffer for race-day extras like transport to the start, race-village food, and post-race meals.",
-        "Cross-reference the specific races you're considering against this site's country guides and Best Of roundups to understand which tier they sit in before you build that budget, rather than assuming a Southeast Asia race trip has one standard cost. A flagship-race, five-star-hotel trip and a small-local-race, budget-hostel trip can differ by a large multiple in total cost while both being genuinely good Southeast Asia race experiences -- the right budget is the one that matches the trip you're actually planning."
+        "The highest tops in the data are the Singapore Marathon (US$163), Forest Run at Sentosa (SGD 175, US$137), the Jakarta International Marathon (IDR 1,814,900, about US$100), Garmin Run Singapore (SGD 125, US$98 for the 21K) and Thailand's POCARI SWEAT Run Carnival (THB 3,090, US$92). The Dili International Marathon in Timor-Leste charges international runners US$90 for the full and US$45 for the half, and is free for Timorese nationals [1].",
+        "At the cheap end, Cyberjaya 21K charged a flat RM 60 (US$15) and Kathu Marathon in Phuket THB 200 to 700 (US$6 to US$21). Sarawak Energy Marathon's early-bird price for the 42 km was RM 90 (US$22). A few community runs are cheaper still: NasDem Run for Change in Indonesia listed entries from free to IDR 100,000 (US$6) [1]."
+      ]
+    },
+    {
+      "heading": "Early-bird tiers are worth it",
+      "paragraphs": [
+        "Many organisers raise prices in steps as race day approaches. Jitra Half Marathon in Kedah charged RM 80, 65 and 50 for its 21 km, 10 km and 5 km until 31 May 2026, then RM 95, 85 and 65 from June to July, so the 21 km rose by RM 15 (19%). Pink Run: The Half Marathon in Cavite lists its 21K at PHP 1,450 until 20 December 2026 and PHP 1,600 after. Hue Amazing Marathon's 42K ran from 799,000 to 1,569,000 dong across its price phases [1].",
+        "In these examples, entering early saves from about 10% to nearly half on the same distance. Check, too, whether the published price is the final one: Larian Kita Jubli Perak in Malaysia, for one, lists its fees plus an admin fee [1]."
+      ]
+    },
+    {
+      "heading": "Using these numbers",
+      "paragraphs": [
+        "Treat these figures as a guide to what is normal, not as a price list. Organisers change fees between editions and between phases, and the range a race publishes may be early-bird only, regular only or both. The entry page for each race has its current price.",
+        "For a race abroad, compare the whole trip rather than the entry alone: travel and a night or two near the start come on top of every fee here. Choose the race first, then enter in its cheapest tier. Runners weighing an organised trip can read the guide to race-travel packages at runsea.run/articles/using-a-race-travel-agency-when-a-package-is-worth-it/."
       ]
     }
   ],
   "sources": [
     {
       "n": 1,
-      "label": "How Much Does It Really Cost to Travel in Southeast Asia?",
-      "publisher": "Southeast Asia Backpacker",
-      "url": "https://southeastasiabackpacker.com/cost-of-travel/",
+      "label": "Run SEA race calendar: entry-fee ranges for 219 races (as published by each organiser, checked up to 6 Nov 2026)",
+      "publisher": "Run SEA",
+      "url": "https://runsea.run/",
       "type": "other"
     },
     {
       "n": 2,
-      "label": "Southeast Asia Backpacking Costs -- How to Budget",
-      "publisher": "Indie Traveller",
-      "url": "https://www.indietraveller.co/southeast-asia-cost-of-travel/",
+      "label": "Euro foreign exchange reference rates, 5 November 2026",
+      "publisher": "European Central Bank",
+      "url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml",
+      "type": "official"
+    },
+    {
+      "n": 3,
+      "label": "Open exchange rates, US dollar base (VND), 6 November 2026",
+      "publisher": "ExchangeRate-API",
+      "url": "https://open.er-api.com/v6/latest/USD",
       "type": "other"
+    },
+    {
+      "n": 4,
+      "label": "Brunei-Singapore Currency Interchangeability Agreement",
+      "publisher": "Monetary Authority of Singapore",
+      "url": "https://www.mas.gov.sg/currency/brunei-singapore-currency-interchangeability-agreement",
+      "type": "official"
     }
   ],
   "faqs": [
     {
-      "question": "How much does a typical race weekend cost in Southeast Asia?",
-      "answer": "It depends heavily on which race and trip style -- entry fees alone range from modest for small local races to significantly more for flagship international events, and flights plus accommodation usually outweigh the entry fee itself. Check the specific race's registration page and your actual travel dates rather than assuming one regional price."
+      "question": "How much does a race entry cost in Southeast Asia?",
+      "answer": "Across 219 races in Run SEA's calendar, the median top of each race's fee range is about US$33 and half of races top out between US$27 and US$41. Marathon-led races have a median top of about US$40 and half-marathon races about US$30. Singapore is far higher, with a median top near US$117."
     },
     {
-      "question": "Are flagship international races worth the higher entry fee?",
-      "answer": "That depends on what you value -- flagship races deliver large-scale production, elite fields, and expo polish that smaller races don't attempt, while small local races trade that for a lower fee and a quieter race day. Neither is objectively better; they're genuinely different experiences at different price points."
+      "question": "Which Southeast Asian country has the cheapest race entries?",
+      "answer": "Malaysia has the lowest typical prices, with a median top of range of about US$28 (RM 114) and short distances from RM 25 to RM 45. Indonesia, the Philippines and Thailand are close behind, between about US$30 and US$35. Singapore is the most expensive."
     },
     {
-      "question": "What's the best way to save money on a Southeast Asia race trip?",
-      "answer": "Register early to catch lower-tier pricing before fees step up, consider smaller local races over flagship events, and structure your trip around multiple races so one regional flight covers several race weekends instead of one. These are structural choices, not one-time discount codes."
+      "question": "How much is a marathon entry in Southeast Asia?",
+      "answer": "At races led by the marathon, the median top of the fee range is about US$40, from around US$36 in Thailand to US$59 in Indonesia. Examples include the Bangkok Marathon at up to THB 1,250 (US$37), VPBank Hanoi at 1,668,000 dong (US$65) and Singapore at up to SGD 208 (US$163)."
     }
   ],
-  "editorial_notes": "Original editorial content for the Articles section. Cost figures are kept general and directional rather than asserting precise prices for specific races, which change too often to verify reliably -- readers are pointed to this site's own race-specific guides and each event's official registration page for current numbers. General regional budget-travel context verified against live source URLs at time of writing.",
+  "editorial_notes": "Rewritten 6 Nov 2026 as a data piece on the price_range field of data/entities (219 races). Ranges were parsed to a low and high per race (3 'from' prices have no high) and converted to USD: ECB reference rates of 5 Nov 2026 (USD 1.1224, SGD 1.4336, MYR 4.5412, PHP 70.706, THB 37.533, IDR 20,281.15 per EUR), VND 25,692.44 per USD from ExchangeRate-API (6 Nov 2026), BND at par with SGD (MAS). Category (marathon vs half) is the race's headline distance. Backpacker-blog travel budgets from the old version dropped; no travel-cost figures are given because none could be sourced.",
   "published_at": "2026-08-11T08:35:00.000Z",
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-11-06",
   "status": "active"
 }

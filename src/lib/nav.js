@@ -37,11 +37,9 @@ export function buildSectionLinks() {
     { href: urls.regionsIndex(), label: 'Races by country', footerOnly: true },
     { href: urls.categoriesIndex(), label: `Races by ${siteConfig.categoryLabel.toLowerCase()}`, footerOnly: true },
     ...(f.reviews ? [{ href: urls.reviewsIndex(), label: 'Race reviews', footerOnly: true }] : []),
-    ...(f.listicles ? [{ href: urls.listiclesIndex(), label: 'Best-of lists', footerOnly: true }] : []),
     { href: urls.toolsIndex(), label: 'Lab: how do you stack up?', footerOnly: true },
     ...(f.clubs ? [{ href: urls.clubsIndex(), label: 'Running clubs and coaches', footerOnly: true }] : []),
     ...(f.articles ? [{ href: urls.articlesIndex(), label: 'Articles', footerOnly: true }] : []),
-    ...(f.gear ? [{ href: urls.gearIndex(), label: 'Gear', footerOnly: true }] : []),
     ...(f.cancellations ? [{ href: urls.cancellations(), label: 'Race cancellations', footerOnly: true }] : []),
   ];
 }

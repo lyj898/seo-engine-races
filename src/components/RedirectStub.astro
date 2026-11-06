@@ -1,0 +1,28 @@
+---
+// A retired URL's stand-in: a 0-second meta refresh plus a canonical and no
+// robots directive, which Google reads as a permanent redirect on a static
+// host. Same hand-rolled form as reviews/[slug].astro and travel/index.astro
+// (Astro.redirect's stub puts a noindex beside the canonical, which can carry
+// over to the target). Used for the articles, gear guides and best-of lists
+// retired in the Nov 2026 clean-up: their JSON keeps status "archived" plus a
+// redirect_to path.
+interface Props {
+  to: string; // site path, e.g. /articles/foo/ (may carry a #fragment)
+  label: string; // link text for the fallback paragraph
+}
+const { to, label } = Astro.props;
+const target = new URL(to, Astro.site).toString();
+const canonical = new URL(to.split('#')[0], Astro.site).toString();
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content={`0;url=${target}`} />
+    <link rel="canonical" href={canonical} />
+    <title>{`Redirecting to ${label}`}</title>
+  </head>
+  <body>
+    <p>This page has moved to <a href={target}>{label}</a>.</p>
+  </body>
+</html>
