@@ -1,0 +1,83 @@
+{
+  "entity_id": "pwi-half-marathon-2026",
+  "slug": "pwi-half-marathon-2026",
+  "name": "PWI Half Marathon 2026",
+  "category_id": "half-marathon",
+  "region_id": "indonesia",
+  "short_description": "PWI Half Marathon 2026 is a road race on Sunday 29 November 2026 from Lapangan Saburai in Bandar Lampung, Indonesia, with 21K, 10K and 5K categories.",
+  "ai_summary": "PWI Half Marathon 2026 is held on Sunday 29 November 2026 at Lapangan Saburai in Enggal, central Bandar Lampung, with a 5am start. It offers a 21K half marathon, a 10K and a 5K, priced at IDR 300,000, IDR 170,000 and IDR 150,000. The race is staged by the Lampung branch of PWI, the Indonesian journalists' association, as a lead-in to the National Press Day (HPN) 2027 events hosted in Lampung.",
+  "core_facts": {
+    "date": "2026-11-29",
+    "distance_km": [
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Lapangan Saburai, Enggal",
+    "city": "Bandar Lampung, Lampung",
+    "country": "Indonesia",
+    "organizer": "PWI Lampung (Indonesian Journalists Association, Lampung branch)",
+    "price_range": "IDR 150,000-300,000"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "When and where is PWI Half Marathon 2026?",
+      "answer": "Sunday 29 November 2026, starting at 5am WIB from Lapangan Saburai, the field in Enggal in central Bandar Lampung. Bandar Lampung is a short flight from Jakarta, or a ferry crossing from Merak to Bakauheni followed by the toll road north."
+    },
+    {
+      "question": "What categories and fees does PWI Half Marathon 2026 have?",
+      "answer": "Three: a 21K half marathon at IDR 300,000, a 10K at IDR 170,000 and a 5K at IDR 150,000, according to the organiser's poster. Entries are taken through a Bank Lampung registration form, which is paid by QRIS."
+    },
+    {
+      "question": "Who organises PWI Half Marathon 2026?",
+      "answer": "PWI Lampung, the Lampung branch of Persatuan Wartawan Indonesia (the Indonesian Journalists Association), with Bank Lampung handling entries. The race is part of the build-up to National Press Day (Hari Pers Nasional) 2027, which Lampung is hosting."
+    }
+  ],
+  "reliability_score": 40,
+  "tags": [
+    "half-marathon",
+    "indonesia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.instagram.com/pwi_lampung/",
+      "label": "PWI Lampung official Instagram (race poster: date, venue, categories, fees)",
+      "type": "social",
+      "last_checked": "2026-11-07"
+    },
+    {
+      "url": "https://www.banklampung.co.id/event-running",
+      "label": "Entry form on Bank Lampung (5K, 10K, 21K categories)",
+      "type": "registration_platform",
+      "last_checked": "2026-11-07"
+    },
+    {
+      "url": "https://indonesiamarathon.com/event/pwi-half-marathon-2026",
+      "label": "Indonesia Marathon listing",
+      "type": "aggregator",
+      "last_checked": "2026-11-07"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Official Instagram page",
+      "url": "https://www.instagram.com/pwi_lampung/",
+      "type": "official_social"
+    },
+    {
+      "label": "Entry page on Bank Lampung",
+      "url": "https://www.banklampung.co.id/event-running",
+      "type": "registration"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-11-07",
+  "status": "needs_review"
+}

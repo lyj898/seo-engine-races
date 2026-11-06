@@ -1,0 +1,71 @@
+{
+  "entity_id": "tanbu-beraksi-run-2026",
+  "slug": "tanbu-beraksi-run-2026",
+  "name": "Tanbu Beraksi Run 2026",
+  "category_id": "half-marathon",
+  "region_id": "indonesia",
+  "short_description": "Tanbu Beraksi Run 2026 is a road race on Sunday 29 November 2026 in Batulicin, Tanah Bumbu, South Kalimantan, Indonesia, with a half marathon, 10K and 5K.",
+  "ai_summary": "Tanbu Beraksi Run 2026 takes place on Sunday 29 November 2026 in Batulicin, the capital of Tanah Bumbu Regency in South Kalimantan. The programme is a half marathon, a 10K and a 5K, with the half marathon added for the 2026 edition. It is a regency-backed event; local reports put the 2025 field at about 1,450 runners and the 2026 target at 3,000.",
+  "core_facts": {
+    "date": "2026-11-29",
+    "distance_km": [
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "city": "Batulicin, Tanah Bumbu, South Kalimantan",
+    "country": "Indonesia"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "When is Tanbu Beraksi Run 2026?",
+      "answer": "Sunday 29 November 2026, in Batulicin, Tanah Bumbu Regency, on the south-east coast of South Kalimantan. The nearest airport is Batulicin (Bersujud) Airport, or runners can fly to Banjarmasin and travel on by road."
+    },
+    {
+      "question": "What distances does Tanbu Beraksi Run 2026 offer?",
+      "answer": "A half marathon, a 10K and a 5K, according to the race's official Instagram account. The half marathon is new for 2026; earlier editions topped out at 10K."
+    }
+  ],
+  "reliability_score": 40,
+  "tags": [
+    "half-marathon",
+    "indonesia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://www.instagram.com/tanbuberaksirun/",
+      "label": "Official Instagram (date, place, HM/10K/5K)",
+      "type": "social",
+      "last_checked": "2026-11-07"
+    },
+    {
+      "url": "https://kalsel.antaranews.com/berita/530179/koni-tanah-bumbu-targetkan-3000-pelarih-hadir-pada-tanbu-beraksi-run-2026",
+      "label": "ANTARA Kalsel report (field target, organisers)",
+      "type": "other",
+      "last_checked": "2026-11-07"
+    },
+    {
+      "url": "https://indonesiamarathon.com/event/tanbu-beraksi-run-2026-kabupaten-tanah-bumbu",
+      "label": "Indonesia Marathon listing",
+      "type": "aggregator",
+      "last_checked": "2026-11-07"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Official Instagram page",
+      "url": "https://www.instagram.com/tanbuberaksirun/",
+      "type": "official_social"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-11-07",
+  "status": "needs_review"
+}

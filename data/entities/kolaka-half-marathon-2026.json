@@ -1,0 +1,67 @@
+{
+  "entity_id": "kolaka-half-marathon-2026",
+  "slug": "kolaka-half-marathon-2026",
+  "name": "Kolaka Half Marathon 2026",
+  "category_id": "half-marathon",
+  "region_id": "indonesia",
+  "short_description": "Kolaka Half Marathon 2026 is a road race on Sunday 15 November 2026 in Kolaka, Southeast Sulawesi, Indonesia, with 21K, 10K and 5K categories.",
+  "ai_summary": "Kolaka Half Marathon 2026 takes place on Sunday 15 November 2026 in Kolaka Regency, Southeast Sulawesi, with racing between 4am and 10am local time (WITA). The organiser describes it as a mass road race run in its current format since 2022, with a 21K half marathon, 10K Open and Master races, and 5K races for the public and for school students. Entry fees range from IDR 179,000 to IDR 400,000 depending on category and price period.",
+  "core_facts": {
+    "date": "2026-11-15",
+    "distance_km": [
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "city": "Kolaka, Southeast Sulawesi",
+    "country": "Indonesia",
+    "organizer": "Kolaka Half Marathon",
+    "price_range": "IDR 179,000-400,000"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "When is Kolaka Half Marathon 2026?",
+      "answer": "Sunday 15 November 2026, in Kolaka Regency on the west coast of Southeast Sulawesi. The organiser gives a race-day window of 4am to 10am WITA (Central Indonesia Time), and race packs are exchanged on 13 and 14 November, so plan to arrive in Kolaka by the Friday or Saturday."
+    },
+    {
+      "question": "What distances does Kolaka Half Marathon 2026 offer?",
+      "answer": "A 21K half marathon, a 10K with Open and Master categories, a 5K for the general public and a 5K for school students. Early-bird fees ran from IDR 179,000 for the student 5K to IDR 329,000 for the 21K, with normal fees of IDR 230,000 to IDR 400,000. Half-marathon entrants also receive a finisher tee."
+    }
+  ],
+  "reliability_score": 40,
+  "tags": [
+    "half-marathon",
+    "indonesia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://kolakahalfmarathon.com/",
+      "label": "Official race site (date, categories, fees)",
+      "type": "official",
+      "last_checked": "2026-11-07"
+    },
+    {
+      "url": "https://jadwallari.id/events/kolaka-half-marathon/",
+      "label": "JadwalLari.id listing",
+      "type": "aggregator",
+      "last_checked": "2026-11-07"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://kolakahalfmarathon.com/",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-11-07",
+  "status": "needs_review"
+}

@@ -1,0 +1,78 @@
+{
+  "entity_id": "rawapening-run-heritage-2026",
+  "slug": "rawapening-run-heritage-2026",
+  "name": "Rawapening Run Heritage 2026",
+  "category_id": "half-marathon",
+  "region_id": "indonesia",
+  "short_description": "Rawapening Run Heritage 2026 is a road race on Sunday 29 November 2026 from Fort Willem I in Ambarawa, Central Java, Indonesia, with 21K, 10K and 5K categories.",
+  "ai_summary": "Rawapening Run Heritage 2026 is held on Sunday 29 November 2026, starting and finishing at Fort Willem I, a 19th-century Dutch fort in Ambarawa, Semarang Regency, near Lake Rawa Pening. It offers a 21K, a 10K and a 5K, each with Open and Master categories, with flag-offs at 5am, 5.30am and 5.45am. The 21K has a 3.5-hour cut-off and seven water stations, and normal entry fees run from IDR 150,000 to IDR 300,000.",
+  "core_facts": {
+    "date": "2026-11-29",
+    "distance_km": [
+      5,
+      10,
+      21.1
+    ],
+    "primary_distance_km": 21.1,
+    "venue": "Benteng Fort Willem I, Ambarawa",
+    "city": "Ambarawa, Semarang Regency, Central Java",
+    "country": "Indonesia",
+    "price_range": "IDR 150,000-300,000"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "When and where is Rawapening Run Heritage 2026?",
+      "answer": "Sunday 29 November 2026. All three races start and finish at Benteng Fort Willem I in Ambarawa, Semarang Regency, about an hour south of Semarang city. The 21K flags off at 5am WIB, the 10K at 5.30am and the 5K at 5.45am."
+    },
+    {
+      "question": "What are the distances and cut-offs?",
+      "answer": "A 21K with a 3.5-hour cut-off, seven water stations and about 80 m of climbing; a 10K with a 2.5-hour cut-off; and a 5K with a 2-hour cut-off. Minimum ages are 17 for the 21K, 14 for the 10K and 10 for the 5K (with a parent or guardian). 21K finishers receive a separate finisher jersey."
+    }
+  ],
+  "reliability_score": 40,
+  "tags": [
+    "half-marathon",
+    "indonesia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://runheritage.id/",
+      "label": "Official race site (date, venue, categories, cut-offs, fees)",
+      "type": "official",
+      "last_checked": "2026-11-07"
+    },
+    {
+      "url": "https://www.protix.id/rawapeningrunheritage/",
+      "label": "Entry page on Protix",
+      "type": "registration_platform",
+      "last_checked": "2026-11-07"
+    },
+    {
+      "url": "https://www.asiaruncalendar.com/events/indonesia/java/rawapening-run-heritage-ambarawa-2026",
+      "label": "Asia Run Calendar listing",
+      "type": "aggregator",
+      "last_checked": "2026-11-07"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://runheritage.id/",
+      "type": "official_website"
+    },
+    {
+      "label": "Entry page on Protix",
+      "url": "https://www.protix.id/rawapeningrunheritage/",
+      "type": "registration"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-11-07",
+  "status": "needs_review"
+}

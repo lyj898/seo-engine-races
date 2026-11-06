@@ -1,0 +1,74 @@
+{
+  "entity_id": "ui-ultra-2026",
+  "slug": "ui-ultra-2026",
+  "name": "UI Ultra Marathon 2026",
+  "category_id": "full-marathon",
+  "region_id": "indonesia",
+  "short_description": "UI Ultra Marathon 2026 is a night road race on Saturday 5 December 2026 on a 7 km loop at Universitas Indonesia, Depok, with a marathon, half marathon, 70 km and 7 km.",
+  "ai_summary": "UI Ultra Marathon 2026 is a night race on Saturday 5 December 2026 on a 7 km loop around the Universitas Indonesia campus in Depok, West Java. The marathon (six loops, 7-hour cut-off), half marathon (three loops, 3.5-hour cut-off), 70 km ultra and 7 km all flag off from 7.30pm, with a 7 km team race at sunrise on Sunday 6 December. Individual entries cost IDR 300,000 to IDR 1,400,000, and entrants can add a donation to Dana Abadi UI, the university endowment that funds scholarships.",
+  "core_facts": {
+    "date": "2026-12-05",
+    "distance_km": [
+      7,
+      21.1,
+      42.195,
+      70
+    ],
+    "primary_distance_km": 42.195,
+    "venue": "Universitas Indonesia campus, Depok (7 km loop)",
+    "city": "Depok, West Java",
+    "country": "Indonesia",
+    "organizer": "UI Ultra, supported by ILUNI FEB UI (Universitas Indonesia economics and business alumni)",
+    "price_range": "IDR 300,000-1,400,000 (individual entries)"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "When do the marathon and half marathon run at UI Ultra Marathon 2026?",
+      "answer": "Both run on the night of Saturday 5 December 2026, flagging off at 7.30pm WIB with the 70 km ultra. The 7 km individual race starts at 7.45pm, and a 7 km team race for groups of ten runs at 6.30am on Sunday 6 December."
+    },
+    {
+      "question": "What is the course?",
+      "answer": "A 7 km loop on the Universitas Indonesia campus in Depok, just south of Jakarta. The half marathon is three loops with a 3.5-hour cut-off, the marathon six loops with a 7-hour cut-off and the 70 km ultra ten loops with a 12-hour cut-off. The campus is next to the Universitas Indonesia and Pondok Cina commuter-rail stations."
+    },
+    {
+      "question": "How much does it cost to enter?",
+      "answer": "Individual fees are IDR 700,000 for the half marathon, IDR 1,000,000 for the marathon, IDR 1,400,000 for the 70 km and IDR 300,000 for the 7 km. A five-person 70 km relay and the ten-person sunrise team race cost IDR 3,000,000 per team."
+    }
+  ],
+  "reliability_score": 40,
+  "tags": [
+    "full-marathon",
+    "half-marathon",
+    "indonesia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://uiultra.com/",
+      "label": "Official race site (dates, loops, cut-offs, fees)",
+      "type": "official",
+      "last_checked": "2026-11-07"
+    },
+    {
+      "url": "https://lariku.info/ui-ultra-2026",
+      "label": "LariKu.info listing",
+      "type": "aggregator",
+      "last_checked": "2026-11-07"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://uiultra.com/",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-11-07",
+  "status": "needs_review"
+}

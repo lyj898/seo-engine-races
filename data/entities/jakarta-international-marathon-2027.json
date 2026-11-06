@@ -1,0 +1,86 @@
+{
+  "entity_id": "jakarta-international-marathon-2027",
+  "slug": "jakarta-international-marathon-2027",
+  "name": "Jakarta International Marathon 2027 (JAKIM)",
+  "category_id": "full-marathon",
+  "region_id": "indonesia",
+  "short_description": "Jakarta International Marathon 2027 runs its marathon and half marathon on Sunday 13 June 2027 from Monas to Gelora Bung Karno, with 5K and 10K on Saturday 12 June.",
+  "ai_summary": "Jakarta International Marathon (JAKIM) 2027 takes place on 12-13 June 2027 in Jakarta, with the 5K and 10K on Saturday and the half marathon and marathon on Sunday 13 June. Races start at the north-west corner of Monas (the National Monument) and finish in the Gelora Bung Karno Main Stadium, with cut-offs of 3.5 hours for the half and 7 hours for the marathon. National entries for Indonesian citizens and Open entries for foreign runners are priced separately, from IDR 375,000 to IDR 1,814,900. The organiser reports more than 45,000 runners in 2026.",
+  "core_facts": {
+    "date": "2027-06-13",
+    "distance_km": [
+      5,
+      10,
+      21.1,
+      42.195
+    ],
+    "primary_distance_km": 42.195,
+    "venue": "Start Monas (north-west cross), finish Gelora Bung Karno Main Stadium",
+    "city": "Jakarta",
+    "country": "Indonesia",
+    "organizer": "IMRR",
+    "price_range": "IDR 375,000-1,814,900"
+  },
+  "pros": [],
+  "cons": [],
+  "excerpt_quotes": [],
+  "research_highlights": [],
+  "research_watchouts": [],
+  "faqs": [
+    {
+      "question": "When is Jakarta International Marathon 2027?",
+      "answer": "Saturday 12 and Sunday 13 June 2027. The 5K and 10K run on Saturday 12 June, and the half marathon and marathon on Sunday 13 June. The event starts at 4am WIB, and runners may enter one category per day."
+    },
+    {
+      "question": "Where do JAKIM 2027 races start and finish?",
+      "answer": "They start at the north-west corner of Monas, the National Monument in central Jakarta, and finish inside the Gelora Bung Karno (GBK) Main Stadium in Senayan. The organiser had not published route details or race-expo times when this page was checked."
+    },
+    {
+      "question": "Can foreign runners enter, and what does it cost?",
+      "answer": "Yes, in the Open half marathon (IDR 1,270,430) and Open marathon (IDR 1,814,900). National categories for Indonesian citizens cost IDR 850,000 for the half and IDR 1,000,000 for the marathon at general rates, with lower early-bird prices. Half and full entrants must be 17 or older; cut-offs are 3.5 hours and 7 hours."
+    }
+  ],
+  "reliability_score": 40,
+  "tags": [
+    "full-marathon",
+    "half-marathon",
+    "indonesia"
+  ],
+  "source_mix": [
+    {
+      "url": "https://jakim.id/",
+      "label": "Official site (2027 dates, venue, distances, fees)",
+      "type": "official",
+      "last_checked": "2026-11-07"
+    },
+    {
+      "url": "https://jakim.id/race",
+      "label": "Official race page (race day per category)",
+      "type": "official",
+      "last_checked": "2026-11-07"
+    },
+    {
+      "url": "https://jakim.id/pre-race",
+      "label": "Official FAQ and terms (start/finish, cut-offs, eligibility)",
+      "type": "official",
+      "last_checked": "2026-11-07"
+    },
+    {
+      "url": "https://lariku.info/jakarta-international-marathon-2027",
+      "label": "LariKu.info listing",
+      "type": "aggregator",
+      "last_checked": "2026-11-07"
+    }
+  ],
+  "affiliate_links": [],
+  "cta_links": [
+    {
+      "label": "Visit official site",
+      "url": "https://jakim.id/",
+      "type": "official_website"
+    }
+  ],
+  "related_entity_ids": [],
+  "last_updated": "2026-11-07",
+  "status": "needs_review"
+}
