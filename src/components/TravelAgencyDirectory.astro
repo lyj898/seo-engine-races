@@ -1,0 +1,97 @@
+---
+// The race-travel agency listings (data/travel-agencies/*.json), grouped by
+// country. Used to be its own /travel/ page; since Nov 2026 it renders under
+// the article that sets `"embed": "travel-agencies"` (see
+// src/pages/articles/[slug].astro), and /travel/ redirects there.
+import siteConfig from '../lib/config.js';
+import { loadTravelAgencies, stripMeta, isPublished } from '../lib/data.js';
+
+const slugifyCountry = (country) =>
+  country
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+
+const agencies = loadTravelAgencies()
+  .map(stripMeta)
+  .filter(isPublished)
+  .sort((a, b) => a.name.localeCompare(b.name));
+
+// Countries in site.config.json's regionsSupported order, then any others
+// alphabetically, so section order never depends on data insertion order.
+const countryOrder = siteConfig.regionsSupported ?? [];
+const agenciesByCountry = new Map();
+for (const agency of agencies) {
+  if (!agenciesByCountry.has(agency.country)) agenciesByCountry.set(agency.country, []);
+  agenciesByCountry.get(agency.country).push(agency);
+}
+const presentCountries = [...agenciesByCountry.keys()];
+const orderedCountries = [
+  ...countryOrder.filter((c) => agenciesByCountry.has(c)),
+  ...presentCountries.filter((c) => !countryOrder.includes(c)).sort(),
+];
+const sections = orderedCountries.map((country) => ({ country, agencies: agenciesByCountry.get(country) }));
+const muted = 'text-brand-muted dark:text-brand-muted-dark';
+---
+
+<section id="agencies" class="mt-12 scroll-mt-20 border-t border-brand-border pt-8 dark:border-brand-border-dark" aria-labelledby="agencies-heading">
+  <h2 id="agencies-heading" class="font-serif text-2xl font-semibold">Agencies the races list as partners</h2>
+  <p class={`mt-3 ${muted}`}>
+    Southeast Asia-based agencies that a major race's own website lists as an official tour operator or travel
+    partner -- not just agencies that say so themselves. Each race below links to the page where the listing was
+    checked.
+  </p>
+  <p class={`mt-3 rounded-lg border border-brand-border bg-brand-surface-offset p-3 text-xs ${muted} dark:border-brand-border-dark dark:bg-brand-surface-offset-dark`}>
+    This is an informational directory, not an affiliate listing -- we don't currently have referral
+    relationships with any agency below, and a listing here isn't a booking recommendation. Verify current
+    details directly with the agency before paying for a package.
+  </p>
+
+  {sections.length > 1 && (
+    <nav aria-label="Jump to a country" class="mt-6 flex flex-wrap gap-2">
+      {sections.map(({ country }) => (
+        <a
+          href={`#agencies-${slugifyCountry(country)}`}
+          class={`inline-flex min-h-[36px] items-center rounded-full border border-brand-border px-3 text-sm ${muted} transition-colors duration-200 ease-interactive hover:border-brand-primary hover:text-brand-text dark:border-brand-border-dark dark:hover:text-brand-text-dark`}
+        >
+          {country}
+        </a>
+      ))}
+    </nav>
+  )}
+
+  {sections.map(({ country, agencies: countryAgencies }) => (
+    <section id={`agencies-${slugifyCountry(country)}`} class="mt-8 scroll-mt-20">
+      <h3 class="text-xl font-semibold">{country}</h3>
+      <div class="mt-4 space-y-4">
+        {countryAgencies.map((agency) => (
+          <div class="rounded-lg border border-brand-border bg-brand-surface p-5 shadow-sm dark:border-brand-border-dark dark:bg-brand-surface-dark">
+            <div class="flex flex-wrap items-baseline justify-between gap-2">
+              <h4 class="font-semibold">{agency.name}</h4>
+              <a href={agency.website} rel="nofollow noopener" target="_blank" class="link-accent text-sm">
+                Visit website &#8599;
+              </a>
+            </div>
+            <p class={`mt-2 text-sm ${muted}`}>{agency.description}</p>
+            <div class="mt-3">
+              <p class={`text-xs font-semibold uppercase tracking-wide ${muted}`}>Listed as a partner by</p>
+              <ul class="mt-2 space-y-1.5">
+                {agency.certifications.map((cert) => (
+                  <li class="text-sm">
+                    <span class="font-medium">{cert.race_name}</span>
+                    <span class={muted}> -- {cert.evidence} </span>
+                    <a href={cert.source_url} rel="nofollow noopener" target="_blank" class="link-accent text-xs">
+                      (verify)
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  ))}
+
+  {agencies.length === 0 && <p class={`mt-8 ${muted}`}>No agencies listed yet -- check back soon.</p>}
+</section>

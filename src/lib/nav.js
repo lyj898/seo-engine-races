@@ -42,7 +42,6 @@ export function buildSectionLinks() {
     ...(f.clubs ? [{ href: urls.clubsIndex(), label: 'Running clubs and coaches', footerOnly: true }] : []),
     ...(f.articles ? [{ href: urls.articlesIndex(), label: 'Articles', footerOnly: true }] : []),
     ...(f.gear ? [{ href: urls.gearIndex(), label: 'Gear', footerOnly: true }] : []),
-    ...(f.travelAgencies ? [{ href: urls.travelIndex(), label: 'Race travel', footerOnly: true }] : []),
     ...(f.cancellations ? [{ href: urls.cancellations(), label: 'Race cancellations', footerOnly: true }] : []),
   ];
 }

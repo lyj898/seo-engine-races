@@ -7,6 +7,7 @@ import Breadcrumb from '../../components/Breadcrumb.astro';
 import LastUpdated from '../../components/LastUpdated.astro';
 import ReviewArticle from '../../components/ReviewArticle.astro';
 import FAQSection from '../../components/FAQSection.astro';
+import TravelAgencyDirectory from '../../components/TravelAgencyDirectory.astro';
 import { buildFaqPageSchema, buildBreadcrumbListSchema, buildArticleSchema } from '../../lib/schema-jsonld.js';
 
 export function getStaticPaths() {
@@ -68,6 +69,9 @@ const jsonLd = [
       urls={urls}
       linkToEntity={siteConfig.enabledFeatures?.mergedReviews}
     />
+
+    {/* Optional directory under the article body, chosen by the article's `embed` field. */}
+    {article.embed === 'travel-agencies' && siteConfig.enabledFeatures?.travelAgencies && <TravelAgencyDirectory />}
 
     {article.faqs?.length > 0 && (
       <div class="mt-12">

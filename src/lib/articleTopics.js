@@ -24,6 +24,7 @@ const TRAVEL_SLUGS = new Set([
   'what-to-expect-southeast-asia-race-expo',
   'visa-free-racing-across-asean',
   'what-race-weekend-actually-costs-southeast-asia',
+  'using-a-race-travel-agency-when-a-package-is-worth-it',
 ]);
 const CHOOSING_SLUGS = new Set(['beginners-guide-southeast-asia-race-calendar']);
 

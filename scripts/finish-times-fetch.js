@@ -484,6 +484,30 @@ async function readHeyJom(url) {
   return out;
 }
 
+// --- race-result.asia (check.race-result.asia/<no>/<code>/results; Thai
+// timer, not RaceResult GmbH) ---------------------------------------------
+// One public JSON call returns the whole field. Keep status "Finished" rows
+// only; read contest, gender, age group and chip (else gun) time. Age groups
+// are "M30-39", "F60+", "M-U20" and the open "M-U30", which is counted as
+// 20-29 (as "<30" is elsewhere).
+async function readRaceResultAsia(url) {
+  const code = (new URL(url).pathname.match(/^\/[^/]+\/([^/]+)/) || [])[1];
+  if (!code) throw new Error('no race-result.asia event code in ' + url);
+  const rows = await get(`https://check.race-result.asia/public/v1/events/${encodeURIComponent(code)}/results`);
+  const out = {};
+  for (const r of Array.isArray(rows) ? rows : []) {
+    if (r.status !== 'Finished') continue;
+    const meters = metersFromLabel(r.contest);
+    const key = distanceKey(meters);
+    const t = clock(r.chip_time) ?? clock(r.gun_time);
+    if (!key || !t) continue;
+    const ag = String(r.age_group || '').replace(/^[MF]-?/i, '');
+    const band = /^U30$/i.test(ag) ? '20-29' : /^U20$/i.test(ag) ? 'U20' : /\d/.test(ag) ? ageBand(ag) : null;
+    (out[key] ??= { meters, times: [] }).times.push([t, genderOf(r.gender), band]);
+  }
+  return out;
+}
+
 const READERS = [
   { name: 'RaceRoster', test: /results\.raceroster\.com/, read: readRaceRoster },
   { name: 'SportStats', test: /sportstats\.one/, read: readSportStats },
@@ -498,6 +522,7 @@ const READERS = [
   { name: 'Sixtime', test: /result\.sixtime\.id\/event\//, read: readSixtime },
   { name: 'BOM Run', test: /bomrun\.id\/timeresult/, read: readBomRun },
   { name: 'HeyJom', test: /api\.heyjom\.com\/4-1\/results\//, read: readHeyJom },
+  { name: 'race-result.asia', test: /check\.race-result\.asia\//, read: readRaceResultAsia },
 ];
 
 // Each job is one results page to read: the latest edition of a race we list,

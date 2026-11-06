@@ -392,6 +392,9 @@ export const articleSchema = z.object({
   sections: z.array(reviewSectionSchema).min(1),
   sources: z.array(reviewSourceSchema).default([]),
   faqs: z.array(faqSchema).default([]),
+  // Optional listing rendered under the article body by articles/[slug].astro.
+  // 'travel-agencies' = the data/travel-agencies directory (was /travel/).
+  embed: z.enum(['travel-agencies']).optional(),
   editorial_notes: z.string().optional(),
   published_at: z.string().optional(),
   last_updated: z.string().min(1),

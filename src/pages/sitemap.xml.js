@@ -56,7 +56,6 @@ export async function GET({ site }) {
     ...(siteConfig.enabledFeatures?.reviews ? [urls.reviewsIndex()] : []),
     ...(siteConfig.enabledFeatures?.gear ? [urls.gearIndex()] : []),
     ...(siteConfig.enabledFeatures?.articles ? [urls.articlesIndex()] : []),
-    ...(siteConfig.enabledFeatures?.travelAgencies ? [urls.travelIndex()] : []),
     ...(clubCities.length > 0 ? [urls.clubsIndex()] : []),
     ...(siteConfig.enabledFeatures?.cancellations ? [urls.cancellations()] : []),
     urls.toolsIndex(),

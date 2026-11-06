@@ -86,7 +86,7 @@ const muted = 'text-sm text-brand-muted dark:text-brand-muted-dark';
 const grid = 'mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3';
 const sections = [
   { id: 'choosing', title: 'Choosing a race', intro: 'Shortlists by what you want from a race: a first marathon, a view, a night start, a series to chase.', items: choosing },
-  { id: 'travel', title: 'Racing abroad', intro: 'Planning the trip: visas, costs, the expo, and bringing the family.', extra: siteConfig.enabledFeatures?.travelAgencies, items: travel },
+  { id: 'travel', title: 'Racing abroad', intro: 'Planning the trip: visas, costs, the expo, travel agencies, and bringing the family.', items: travel },
   { id: 'scene', title: 'Running in Southeast Asia', intro: 'Why races here start before dawn, why the medals matter, and running through the haze, the monsoon and Ramadan.', items: scene },
   { id: 'training', title: 'Training', intro: 'How to train for a race in the tropics.', items: trainingShelf },
   { id: 'health', title: 'Heat, health and recovery', intro: 'Running safely in heat and humidity, and recovering well.', items: healthShelf },
@@ -156,12 +156,6 @@ const sections = [
         <h3 class="font-serif text-2xl font-extrabold">{s.title}</h3>
         <p class={`mt-1 ${muted}`}>{s.intro}</p>
         <div class={grid}>
-          {s.extra && (
-            <a href={urls.travelIndex()} class={`${card} border-brand-primary bg-brand-primary-highlight dark:bg-brand-primary-highlight-dark`}>
-              <span class="font-bold">Race travel agencies</span>
-              <span class={muted}>Agencies that package entries, hotels and transfers for races abroad.</span>
-            </a>
-          )}
           {s.items.map((a) => (
             <a href={urls.article(a.slug)} class={card}>
               <span class="font-bold">{a.title}</span>

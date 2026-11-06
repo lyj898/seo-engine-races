@@ -62,7 +62,6 @@ export const urls = {
   gear: (slug) => withBase(`/gear/${slug}/`),
   articlesIndex: () => withBase('/articles/'),
   article: (slug) => withBase(`/articles/${slug}/`),
-  travelIndex: () => withBase('/travel/'),
   clubsIndex: () => withBase('/clubs/'),
   clubCity: (slug) => withBase(`/clubs/${slug}/`),
   cancellations: () => withBase('/race-cancellations/'),
