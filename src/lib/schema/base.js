@@ -165,6 +165,18 @@ export const regionSchema = z.object({
   short_description: z.string().min(1),
   intro: z.string().min(1).optional(),
   faqs: z.array(faqSchema).default([]),
+  // Local guides for runners visiting the region (where to run, eat, stay).
+  // Outbound links, so keep them few and genuinely useful; race pages still
+  // link only to the organiser.
+  resources: z
+    .array(
+      z.object({
+        label: z.string().min(1),
+        url: z.string().url(),
+        description: z.string().min(1),
+      })
+    )
+    .default([]),
   last_updated: z.string().min(1),
   status: z.enum(STATUS_VALUES),
 });

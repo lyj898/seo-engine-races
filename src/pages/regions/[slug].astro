@@ -261,6 +261,20 @@ const jsonLd = [
       </section>
     )}
 
+    {region.resources?.length > 0 && (
+      <section class="mt-14">
+        <h2 class="mb-3 text-xl font-semibold">Local guides for visiting runners</h2>
+        <ul class="max-w-2xl space-y-3 text-sm">
+          {region.resources.map((r) => (
+            <li>
+              <a href={r.url} class="link-accent inline-flex min-h-11 items-center font-semibold" rel="noopener" target="_blank">{r.label}</a>
+              <p class="text-brand-muted dark:text-brand-muted-dark">{r.description}</p>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
     {!isEmptyRegion && (
       <section class="mt-14">
         <FAQSection faqs={region.faqs} heading={`${region.label} FAQs`} />

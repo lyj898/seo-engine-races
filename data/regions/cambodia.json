@@ -7,6 +7,13 @@
   "short_description": "Road races across Cambodia, including the well-known Angkor Wat International Half Marathon.",
   "intro": "Cambodia's race calendar includes internationally known events like the Angkor Wat International Half Marathon, alongside smaller city and regional races. Many events combine road running with visits to the country's historic temple sites.",
   "faqs": [],
-  "last_updated": "2026-07-29",
+  "resources": [
+    {
+      "label": "Best of Phnom Penh: where to run in Phnom Penh",
+      "url": "https://www.bestofpp.com/en/post-14/The-ultimate-guide-to-the-best-clubs-and-places-to-run-in-Phnom-Penh",
+      "description": "A local guide to running clubs and places to run in the city, plus where to eat and get coffee after a race."
+    }
+  ],
+  "last_updated": "2026-11-06",
   "status": "active"
 }
