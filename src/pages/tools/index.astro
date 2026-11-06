@@ -25,13 +25,13 @@ const pct = (x) => `${Math.round(x * 100)}%`;
 const place = (c) => (c === 'Philippines' ? 'the Philippines' : c);
 const countriesText = ft.allCountries.length > 1 ? `${ft.allCountries.slice(0, -1).map(place).join(', ')} and ${place(ft.allCountries.at(-1))}` : place(ft.allCountries[0] ?? '');
 
-// One insights panel per distance (tabs: half, marathon, 10K), each built the
+// One insights panel per distance (tabs: marathon, half, 10K -- Alex, Nov 2026), each built the
 // same way from ft.insights[k].
 const milestoneLabel = { Half: 'two hours', Full: 'four hours', '10K': 'an hour' };
 const plural = { Half: 'halves', Full: 'marathons', '10K': '10Ks' };
 const decade = (b) => (b === 'U20' ? 'teens' : `${b.slice(0, 2)}s`);
 const listWords = (xs) => (xs.length > 1 ? `${xs.slice(0, -1).join(', ')} and ${xs.at(-1)}` : xs[0] ?? '');
-const views = ['Half', 'Full', '10K'].filter((k) => ins[k]).map((k) => {
+const views = ['Full', 'Half', '10K'].filter((k) => ins[k]).map((k) => {
   const d = ins[k];
   // Clock: h:mm for the half and full, m:ss for the 10K.
   const t = (s) => (s == null ? '–' : k === '10K' ? hms(Math.round(s)) : hm(s));
