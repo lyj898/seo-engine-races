@@ -3,6 +3,7 @@ import siteConfig from '../lib/config.js';
 import { urls } from '../lib/urls.js';
 import { headerLinks } from '../lib/nav.js';
 import Logo from './Logo.astro';
+import ContactButton from './ContactButton.astro';
 import ThemeToggle from './ThemeToggle.astro';
 
 // One nav definition, rendered twice here (desktop inline row, mobile scroll
@@ -31,8 +32,8 @@ const navLinks = headerLinks();
     </nav>
 
     <div class="flex shrink-0 items-center gap-2">
-      {/* Instagram in the top right (Alex, Nov 2026), where the contact (mail)
-          button used to be; Contact stays in the footer and at /contact/. */}
+      {/* Top right (Alex, Nov 2026): Instagram, then the contact (mail)
+          button, then the theme toggle. */}
       {siteConfig.instagramUrl && (
         <a
           href={siteConfig.instagramUrl}
@@ -49,6 +50,7 @@ const navLinks = headerLinks();
           </svg>
         </a>
       )}
+      <ContactButton />
       <ThemeToggle />
     </div>
   </div>
