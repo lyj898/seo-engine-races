@@ -1,7 +1,5 @@
-// Which menu hub an article is listed on. Training (with the clubs directory)
-// takes the training and health articles; Guides takes everything about
-// choosing a race, getting there and the running scene. Both hub pages read
-// this, so an article always appears on exactly one of them.
+// Which shelf an article sits on in the Articles hub (training, health,
+// choosing a race, getting there, the running scene...).
 export const TRAINING_TOPICS = ['Training & Racing', 'Running Health & Recovery'];
 
 // Articles filed under a culture/travel topic that are really training or

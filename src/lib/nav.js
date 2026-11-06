@@ -24,12 +24,13 @@ export function buildSectionLinks() {
   return [
     // The header carries four sections: Races (countries + reviews; the
     // calendar itself is the homepage), Lab (the finish-time ranking tool plus
-    // the calculators), Training (running clubs and coaches) and Articles (our
+    // the calculators), Clubs (running clubs and coaches) and Articles (our
     // articles incl. gear and best-of lists, pieces we wrote for other
-    // publications, and sites that cite us). Renamed/refocused Nov 2026.
+    // publications, and sites that cite us). Renamed/refocused Nov 2026; Training
+    // became Clubs (Alex, 6 Nov 2026) so all four labels are short nouns.
     { href: urls.regionsIndex(), label: 'Races', headerOnly: true },
     { href: urls.toolsIndex(), label: 'Lab', headerOnly: true },
-    ...(f.clubs ? [{ href: urls.clubsIndex(), label: 'Training', headerOnly: true }] : []),
+    ...(f.clubs ? [{ href: urls.clubsIndex(), label: 'Clubs', headerOnly: true }] : []),
     ...(f.articles ? [{ href: urls.articlesIndex(), label: 'Articles', headerOnly: true }] : []),
     // The footer keeps a link to every section -- it is the one link block on
     // every URL, which is what lets crawlers reach all of them.

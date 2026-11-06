@@ -7,7 +7,7 @@ import Breadcrumb from '../../components/Breadcrumb.astro';
 import LastUpdated from '../../components/LastUpdated.astro';
 import { buildBreadcrumbListSchema } from '../../lib/schema-jsonld.js';
 
-// "Training" in the main menu: running clubs and coaches by city. The
+// "Clubs" in the main menu (was "Training" until 6 Nov 2026): running clubs and coaches by city. The
 // training, health and gear articles moved to Articles (Alex, Nov 2026), and
 // the "Referenced by" list moved there too, with the pieces that cite us.
 const cities = siteConfig.enabledFeatures?.clubs
@@ -17,7 +17,7 @@ const totalClubs = cities.reduce((n, c) => n + c.clubs.length, 0);
 const totalCoaches = cities.reduce((n, c) => n + (c.coaches?.length ?? 0), 0);
 
 const updated = cities.map((c) => c.last_updated).filter((d) => /^\d{4}-\d{2}-\d{2}$/.test(String(d ?? ''))).sort().at(-1);
-const breadcrumbItems = [{ label: siteConfig.siteName, href: urls.home() }, { label: 'Training' }];
+const breadcrumbItems = [{ label: siteConfig.siteName, href: urls.home() }, { label: 'Clubs' }];
 const jsonLd = [buildBreadcrumbListSchema(breadcrumbItems, Astro.site)].filter(Boolean);
 ---
 
@@ -29,7 +29,7 @@ const jsonLd = [buildBreadcrumbListSchema(breadcrumbItems, Astro.site)].filter(B
 >
   <div class="mx-auto max-w-6xl px-4 py-10 sm:px-6">
     <Breadcrumb items={breadcrumbItems} />
-    <h1 class="mt-4 font-serif text-4xl font-black leading-[1.05] sm:text-5xl">Training</h1>
+    <h1 class="mt-4 font-serif text-4xl font-black leading-[1.05] sm:text-5xl">Clubs and coaches</h1>
     <p class="mt-3 max-w-3xl text-lg">
       Find people to run with and someone to coach you: running clubs and coaches in {cities.length} cities, with
       where and when each one meets.
