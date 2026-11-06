@@ -22,14 +22,15 @@ import { urls } from './urls.js';
 export function buildSectionLinks() {
   const f = siteConfig.enabledFeatures ?? {};
   return [
-    // The header carries four sections (Alex, Oct 2026): Races (countries +
-    // reviews; the calendar itself is the homepage), Lab (the finish-time
-    // ranking tool plus the calculators), Training (clubs, training articles,
-    // gear) and Guides (race guides, best-of lists, race travel).
+    // The header carries four sections: Races (countries + reviews; the
+    // calendar itself is the homepage), Lab (the finish-time ranking tool plus
+    // the calculators), Training (running clubs and coaches) and Articles (our
+    // articles incl. gear and best-of lists, pieces we wrote for other
+    // publications, and sites that cite us). Renamed/refocused Nov 2026.
     { href: urls.regionsIndex(), label: 'Races', headerOnly: true },
     { href: urls.toolsIndex(), label: 'Lab', headerOnly: true },
     ...(f.clubs ? [{ href: urls.clubsIndex(), label: 'Training', headerOnly: true }] : []),
-    ...(f.articles ? [{ href: urls.articlesIndex(), label: 'Guides', headerOnly: true }] : []),
+    ...(f.articles ? [{ href: urls.articlesIndex(), label: 'Articles', headerOnly: true }] : []),
     // The footer keeps a link to every section -- it is the one link block on
     // every URL, which is what lets crawlers reach all of them.
     { href: urls.regionsIndex(), label: 'Races by country', footerOnly: true },
@@ -37,8 +38,8 @@ export function buildSectionLinks() {
     ...(f.reviews ? [{ href: urls.reviewsIndex(), label: 'Race reviews', footerOnly: true }] : []),
     ...(f.listicles ? [{ href: urls.listiclesIndex(), label: 'Best-of lists', footerOnly: true }] : []),
     { href: urls.toolsIndex(), label: 'Lab: how do you stack up?', footerOnly: true },
-    ...(f.clubs ? [{ href: urls.clubsIndex(), label: 'Running clubs and training', footerOnly: true }] : []),
-    ...(f.articles ? [{ href: urls.articlesIndex(), label: 'Guides and articles', footerOnly: true }] : []),
+    ...(f.clubs ? [{ href: urls.clubsIndex(), label: 'Running clubs and coaches', footerOnly: true }] : []),
+    ...(f.articles ? [{ href: urls.articlesIndex(), label: 'Articles', footerOnly: true }] : []),
     ...(f.gear ? [{ href: urls.gearIndex(), label: 'Gear', footerOnly: true }] : []),
     ...(f.travelAgencies ? [{ href: urls.travelIndex(), label: 'Race travel', footerOnly: true }] : []),
     ...(f.cancellations ? [{ href: urls.cancellations(), label: 'Race cancellations', footerOnly: true }] : []),

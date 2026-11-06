@@ -1,21 +1,21 @@
 ---
 import siteConfig from '../../lib/config.js';
 import { urls } from '../../lib/urls.js';
-import { loadArticles, loadListicles, loadRegions, stripMeta, isPublished } from '../../lib/data.js';
-import { articleShelf, isTrainingArticle } from '../../lib/articleTopics.js';
+import { loadArticles, loadListicles, loadRegions, loadGear, stripMeta, isPublished } from '../../lib/data.js';
+import { articleShelf } from '../../lib/articleTopics.js';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import { buildBreadcrumbListSchema, buildItemListSchema } from '../../lib/schema-jsonld.js';
 
-// "Guides" in the main menu: choosing a race and getting there. Training and
-// health articles live on the Training page (src/lib/articleTopics.js), so an
-// article is listed on exactly one hub. Every section uses the same heading,
-// intro line and card, in reading order: where (country), what (best-of
-// lists, race picks), how to get there (travel), then the running scene.
+// "Articles" in the main menu (was "Guides", renamed Nov 2026). Three parts:
+//  1. Our articles: race guides by country, best-of lists, choosing a race,
+//     racing abroad, the running scene, training, heat and health, and gear.
+//  2. Written by us: pieces we wrote for other publications.
+//  3. Featured in: other sites' articles that cite Run SEA.
+// Parts 2 and 3 are kept by hand below; add a row when a new piece runs.
 const allArticles = loadArticles()
   .map(stripMeta)
   .filter(isPublished)
-  .filter((a) => !isTrainingArticle(a))
   .sort((a, b) => (b.published_at ?? b.last_updated).localeCompare(a.published_at ?? a.last_updated));
 const lists = siteConfig.enabledFeatures?.listicles ? loadListicles().map(stripMeta).filter(isPublished) : [];
 const countries = loadRegions().map(stripMeta).filter(isPublished).filter((r) => !r.parent_region_id);
@@ -53,10 +53,28 @@ const lead = (a) => (LEAD.includes(a.slug) ? LEAD.indexOf(a.slug) : LEAD.length)
 const choosing = shelf('choosing').sort((a, b) => lead(a) - lead(b));
 const travel = shelf('travel');
 const scene = shelf('scene');
+const trainingShelf = shelf('training');
+const healthShelf = shelf('health');
+const gear = siteConfig.enabledFeatures?.gear
+  ? loadGear().map(stripMeta).filter(isPublished).sort((a, b) => (b.published_at ?? b.last_updated ?? '').localeCompare(a.published_at ?? a.last_updated ?? ''))
+  : [];
+
+// Part 2: articles we wrote for other publications. Part 3: other sites'
+// articles that cite us.
+const writtenByUs = [
+  { outlet: 'Athletics Illustrated', title: 'The haze season that called off Southeast Asia’s races', date: 'October 2026', href: 'https://athleticsillustrated.com/the-haze-season-that-called-off-southeast-asias-races/' },
+  { outlet: 'Great Runs', title: 'Asia road races worth traveling to', date: 'October 2026', href: 'https://greatruns.com/story/asia-road-races-worth-traveling-to/' },
+  { outlet: 'The Southeast Asia Desk', title: 'Running on haze: the monthly Southeast Asia race dispatch, with RunSea', date: 'November 2026', href: 'https://www.thesoutheastasiadesk.com/p/southeast-asia-marathon-season-haze-climate-disruptions' },
+];
+const featuredIn = [
+  { outlet: 'The Wellness Insider', what: 'cites our Singapore club directory in its beginner’s guide to running in Singapore', href: 'https://thewellnessinsider.asia/2026/10/running-in-singapore-beginners-clubs-races/' },
+  { outlet: 'Great Runs', what: 'links our club pages from its route guides for nine cities', href: 'https://greatruns.com/location/singapore/' },
+  { outlet: 'Best of Phnom Penh', what: 'links our Cambodia race calendar from its guide to running in Phnom Penh', href: 'https://www.bestofpp.com/en/post-14/The-ultimate-guide-to-the-best-clubs-and-places-to-run-in-Phnom-Penh' },
+];
 
 const breadcrumbItems = [
   { label: siteConfig.siteName, href: urls.home() },
-  { label: 'Guides' },
+  { label: 'Articles' },
 ];
 const jsonLd = [
   buildBreadcrumbListSchema(breadcrumbItems, Astro.site),
@@ -70,29 +88,33 @@ const sections = [
   { id: 'choosing', title: 'Choosing a race', intro: 'Shortlists by what you want from a race: a first marathon, a view, a night start, a series to chase.', items: choosing },
   { id: 'travel', title: 'Racing abroad', intro: 'Planning the trip: visas, costs, the expo, and bringing the family.', extra: siteConfig.enabledFeatures?.travelAgencies, items: travel },
   { id: 'scene', title: 'Running in Southeast Asia', intro: 'Why races here start before dawn, why the medals matter, and running through the haze, the monsoon and Ramadan.', items: scene },
+  { id: 'training', title: 'Training', intro: 'How to train for a race in the tropics.', items: trainingShelf },
+  { id: 'health', title: 'Heat, health and recovery', intro: 'Running safely in heat and humidity, and recovering well.', items: healthShelf },
 ].filter((s) => s.items.length);
 ---
 
 <BaseLayout
-  title="Guides -- Choosing and Travelling to Races in Southeast Asia"
-  description={`Race guides by country, best-of race lists and race-travel advice for Southeast Asia, from ${siteConfig.siteName}.`}
+  title="Articles -- Races, Training and Gear for Running in Southeast Asia"
+  description={`Articles from ${siteConfig.siteName}: race guides by country, best-of lists, training and heat advice and gear, plus the pieces we have written for other publications and the sites that cite us.`}
   canonicalPath={urls.articlesIndex()}
   jsonLd={jsonLd}
 >
   <div class="mx-auto max-w-6xl px-4 py-10 sm:px-6">
     <Breadcrumb items={breadcrumbItems} />
-    <h1 class="mt-4 font-serif text-4xl font-black leading-[1.05] sm:text-5xl">Guides</h1>
+    <h1 class="mt-4 font-serif text-4xl font-black leading-[1.05] sm:text-5xl">Articles</h1>
     <p class="mt-3 max-w-3xl text-lg">
-      Choosing a race and getting there: guides and race calendars for each country, best-of lists, and advice for racing abroad.
+      Our own articles on choosing, training for and travelling to races in Southeast Asia, the pieces we have written for
+      other publications, and the sites that cite our data.
     </p>
     <nav aria-label="On this page" class="mt-5 flex flex-wrap gap-2">
-      {[{ id: 'countries', title: 'By country' }, ...(regionLists.length ? [{ id: 'best', title: 'Best of the region' }] : []), ...sections].map((s) => (
+      {[{ id: 'ours', title: 'Our articles' }, { id: 'written-by-us', title: 'Written by us' }, { id: 'featured-in', title: 'Featured in' }].map((s) => (
         <a href={`#${s.id}`} class="inline-flex min-h-[40px] items-center rounded-full border border-brand-border px-4 text-sm font-semibold transition-colors hover:border-brand-primary dark:border-brand-border-dark">{s.title}</a>
       ))}
     </nav>
 
-    <section id="countries" class="mt-10 scroll-mt-20">
-      <h2 class="font-serif text-2xl font-extrabold">By country</h2>
+    <h2 id="ours" class="mt-12 scroll-mt-20 font-serif text-3xl font-black">Our articles</h2>
+    <section id="countries" class="mt-6 scroll-mt-20">
+      <h3 class="font-serif text-2xl font-extrabold">By country</h3>
       <p class={`mt-1 ${muted}`}>The races worth travelling for in each country, and its full calendar by distance.</p>
       <div class={grid}>
         {countryCards.map((c) => (
@@ -114,7 +136,7 @@ const sections = [
     {regionLists.length > 0 && (
       <section id="best" class="mt-12 scroll-mt-20">
         <div class="flex flex-wrap items-baseline justify-between gap-2">
-          <h2 class="font-serif text-2xl font-extrabold">Best of the region</h2>
+          <h3 class="font-serif text-2xl font-extrabold">Best of the region</h3>
           <a href={urls.listiclesIndex()} class="link-accent text-sm font-semibold">All {lists.length} race lists →</a>
         </div>
         <p class={`mt-1 ${muted}`}>Our pick of the races across Southeast Asia at each distance.</p>
@@ -131,7 +153,7 @@ const sections = [
 
     {sections.map((s) => (
       <section id={s.id} class="mt-12 scroll-mt-20">
-        <h2 class="font-serif text-2xl font-extrabold">{s.title}</h2>
+        <h3 class="font-serif text-2xl font-extrabold">{s.title}</h3>
         <p class={`mt-1 ${muted}`}>{s.intro}</p>
         <div class={grid}>
           {s.extra && (
@@ -149,6 +171,50 @@ const sections = [
         </div>
       </section>
     ))}
+
+    {gear.length > 0 && (
+      <section id="gear" class="mt-12 scroll-mt-20">
+        <div class="flex flex-wrap items-baseline justify-between gap-2">
+          <h3 class="font-serif text-2xl font-extrabold">Gear for the heat</h3>
+          <a href={urls.gearIndex()} class="link-accent text-sm font-semibold">All {gear.length} gear guides &rarr;</a>
+        </div>
+        <p class={`mt-1 ${muted}`}>Shoes, hydration and kit for humid long runs and race mornings.</p>
+        <div class={grid}>
+          {gear.slice(0, 6).map((g) => (
+            <a href={urls.gear(g.slug)} class={card}>
+              <span class="font-bold">{g.title}</span>
+              {g.dek && <span class={`line-clamp-2 ${muted}`}>{g.dek}</span>}
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <section id="written-by-us" class="mt-16 scroll-mt-20">
+      <h2 class="font-serif text-3xl font-black">Written by us</h2>
+      <p class={`mt-1 ${muted}`}>Articles we have written for other publications, built on our race data.</p>
+      <div class={grid}>
+        {writtenByUs.map((w) => (
+          <a href={w.href} rel="noopener" target="_blank" class={card}>
+            <span class="text-xs font-bold uppercase tracking-wide text-brand-muted dark:text-brand-muted-dark">{w.outlet} &middot; {w.date}</span>
+            <span class="font-bold">{w.title} &#8599;</span>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <section id="featured-in" class="mt-16 scroll-mt-20">
+      <h2 class="font-serif text-3xl font-black">Featured in</h2>
+      <p class={`mt-1 ${muted}`}>Other sites that cite our race data and directories.</p>
+      <div class={grid}>
+        {featuredIn.map((f) => (
+          <a href={f.href} rel="noopener" target="_blank" class={card}>
+            <span class="font-bold">{f.outlet} &#8599;</span>
+            <span class={muted}>{f.what}.</span>
+          </a>
+        ))}
+      </div>
+    </section>
 
     {siteConfig.enabledFeatures?.cancellations && (
       <p class={`mt-12 border-t border-brand-divider pt-6 dark:border-brand-divider-dark ${muted}`}>

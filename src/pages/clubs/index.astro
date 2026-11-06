@@ -1,46 +1,29 @@
 ---
 import siteConfig from '../../lib/config.js';
 import { urls } from '../../lib/urls.js';
-import { loadClubCities, loadArticles, loadGear, stripMeta, isPublished } from '../../lib/data.js';
+import { loadClubCities, stripMeta, isPublished } from '../../lib/data.js';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import LastUpdated from '../../components/LastUpdated.astro';
 import { buildBreadcrumbListSchema } from '../../lib/schema-jsonld.js';
-import { articleShelf } from '../../lib/articleTopics.js';
 
-// "Training" in the main menu: running clubs and coaches by city (the
-// directory this page has always been), plus the training and health
-// articles and the gear guides -- people to run with, then how to train and
-// what to wear for the heat.
+// "Training" in the main menu: running clubs and coaches by city. The
+// training, health and gear articles moved to Articles (Alex, Nov 2026), and
+// the "Referenced by" list moved there too, with the pieces that cite us.
 const cities = siteConfig.enabledFeatures?.clubs
   ? loadClubCities().map(stripMeta).filter(isPublished).sort((a, b) => b.clubs.length - a.clubs.length || a.city.localeCompare(b.city))
   : [];
 const totalClubs = cities.reduce((n, c) => n + c.clubs.length, 0);
 const totalCoaches = cities.reduce((n, c) => n + (c.coaches?.length ?? 0), 0);
 
-const newest = (a, b) => (b.published_at ?? b.last_updated ?? '').localeCompare(a.published_at ?? a.last_updated ?? '');
-const coaching = siteConfig.enabledFeatures?.articles ? loadArticles().map(stripMeta).filter(isPublished).sort(newest) : [];
-const training = coaching.filter((a) => articleShelf(a) === 'training');
-const health = coaching.filter((a) => articleShelf(a) === 'health');
-const gear = siteConfig.enabledFeatures?.gear ? loadGear().map(stripMeta).filter(isPublished).sort(newest) : [];
-
-// Sites that reference our club pages (both link to them). Kept here by hand:
-// add a row when a new site cites the directory.
-const referencedBy = [
-  { name: 'Great Runs', what: 'links our club pages from its route guides for nine cities', href: 'https://greatruns.com/location/singapore/' },
-  { name: 'The Wellness Insider', what: 'cites our Singapore club directory in its beginner’s guide to running in Singapore', href: 'https://thewellnessinsider.asia/2026/10/running-in-singapore-beginners-clubs-races/' },
-];
-
-const newestDate = (...lists) => lists.flat().filter((d) => /^\d{4}-\d{2}-\d{2}$/.test(String(d ?? ''))).sort().at(-1);
-const updated = newestDate(cities.map((c) => c.last_updated), training.map((a) => a.last_updated), health.map((a) => a.last_updated), gear.map((g) => g.last_updated));
+const updated = cities.map((c) => c.last_updated).filter((d) => /^\d{4}-\d{2}-\d{2}$/.test(String(d ?? ''))).sort().at(-1);
 const breadcrumbItems = [{ label: siteConfig.siteName, href: urls.home() }, { label: 'Training' }];
 const jsonLd = [buildBreadcrumbListSchema(breadcrumbItems, Astro.site)].filter(Boolean);
-const box = 'rounded-2xl border border-brand-border bg-brand-surface p-5 sm:p-6 dark:border-brand-border-dark dark:bg-brand-surface-dark';
 ---
 
 <BaseLayout
-  title="Running clubs, coaches and training for Southeast Asia"
-  description={`${totalClubs} running clubs and ${totalCoaches} coaches across ${cities.length} Southeast Asian cities, with where and when each one runs, plus training guides and gear for running in the heat.`}
+  title="Running clubs and coaches in Southeast Asia"
+  description={`${totalClubs} running clubs and ${totalCoaches} coaches across ${cities.length} Southeast Asian cities, with where and when each one runs and what it costs.`}
   canonicalPath={urls.clubsIndex()}
   jsonLd={jsonLd}
 >
@@ -48,8 +31,8 @@ const box = 'rounded-2xl border border-brand-border bg-brand-surface p-5 sm:p-6 
     <Breadcrumb items={breadcrumbItems} />
     <h1 class="mt-4 font-serif text-4xl font-black leading-[1.05] sm:text-5xl">Training</h1>
     <p class="mt-3 max-w-3xl text-lg">
-      Find people to run with, then train smarter for the heat: running clubs and coaches in {cities.length} cities,
-      training guides, and gear for humid long runs.
+      Find people to run with and someone to coach you: running clubs and coaches in {cities.length} cities, with
+      where and when each one meets.
     </p>
     <div class="mt-2"><LastUpdated date={updated} label="Updated" /></div>
 
@@ -69,45 +52,7 @@ const box = 'rounded-2xl border border-brand-border bg-brand-surface p-5 sm:p-6 
       </div>
     </section>
 
-    {(training.length > 0 || health.length > 0 || gear.length > 0) && (
-      <section class="mt-12 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-        {training.length > 0 && (
-          <div class={box}>
-            <h2 class="font-serif text-xl font-extrabold">Training guides</h2>
-            <ul class="mt-3 space-y-1">
-              {training.map((a) => <li><a href={urls.article(a.slug)} class="inline-block py-1 font-semibold hover:underline">{a.title}</a></li>)}
-            </ul>
-          </div>
-        )}
-        {health.length > 0 && (
-          <div class={box}>
-            <h2 class="font-serif text-xl font-extrabold">Heat, health and recovery</h2>
-            <ul class="mt-3 space-y-1">
-              {health.map((a) => <li><a href={urls.article(a.slug)} class="inline-block py-1 font-semibold hover:underline">{a.title}</a></li>)}
-            </ul>
-          </div>
-        )}
-        {gear.length > 0 && (
-          <div class={box}>
-            <h2 class="font-serif text-xl font-extrabold">Gear for the heat</h2>
-            <ul class="mt-3 space-y-1">
-              {gear.slice(0, 10).map((g) => <li><a href={urls.gear(g.slug)} class="inline-block py-1 font-semibold hover:underline">{g.title}</a></li>)}
-            </ul>
-            <a href={urls.gearIndex()} class="link-accent mt-3 inline-block py-1 text-sm font-semibold">All {gear.length} gear guides →</a>
-          </div>
-        )}
-      </section>
-    )}
-
-    <section class="mt-4 grid gap-4 lg:grid-cols-2">
-      <div class={box}>
-        <h2 class="font-serif text-xl font-extrabold">Referenced by</h2>
-        <ul class="mt-3 space-y-2 text-sm">
-          {referencedBy.map((r) => (
-            <li><a href={r.href} rel="noopener" target="_blank" class="font-bold hover:underline">{r.name} ↗</a> <span class="text-brand-muted dark:text-brand-muted-dark">{r.what}.</span></li>
-          ))}
-        </ul>
-      </div>
+    <section class="mt-10">
       <div class="rounded-2xl bg-brand-primary-highlight p-5 sm:p-6 dark:bg-brand-primary-highlight-dark">
         <h2 class="font-serif text-xl font-extrabold">Run a club or coach?</h2>
         <p class="mt-1 text-sm">Get listed for free, or tell us if something is out of date.</p>
