@@ -55,6 +55,10 @@
         "value": "183; 10th place 1:41:53 (men), 2:03:16 (women)"
       },
       {
+        "label": "Earlier 21 km fields",
+        "value": "119 finishers in 2022, 179 in 2023; 2023 median 2:14, slowest tenth over 2:54, 27% women"
+      },
+      {
         "label": "Prizes",
         "value": "Trophies for the top three in each age category; no prize money"
       },
@@ -106,6 +110,7 @@
       "heading": "How Fast the Field Is",
       "paragraphs": [
         "No results for 2025 could be found. In 2024, the most recent results published, the 21 km had 183 finishers, 136 men and 47 women [8]. Issei Kunihiro won in 1:24:14, leading a Japanese top three, and Liu Ye won the women's race in 1:39:06, ninth overall; tenth place was 1:41:53 for men and 2:03:16 for women [8]. Lao runners were the largest group of 21 km finishers, followed by Thai and Japanese runners [8].",
+        "The 21 km field has stayed small. It had 119 finishers in 2022 and 179 in 2023 [16][15], before the 183 of 2024 [8]. The 2023 results show what the middle and back of the field look like: the first ten ran between 1:22:48 and 1:41:21, the median finisher took 2:14 and the slowest tenth more than 2:54. Twenty-seven per cent broke two hours and 70% broke 2:30, and 27% of finishers were women, close to the 26% of 2024 [15][8].",
         "The shorter races are where the numbers are: 232 finished the 14 km and 1,583 the 7 km in 2024, most of them Lao [8]. A sub-1:40 half marathon would have put you in the top ten overall. Trophies go to the top three in each age category, and there is no prize money [7]."
       ]
     },
@@ -120,7 +125,7 @@
       "heading": "Should You Enter the 2026 Race?",
       "paragraphs": [
         "Yes, if you want a charity race in a small heritage town, run at dawn past temples and the alms procession, with a choice of one, two or three laps. It suits first-timers and families on the 7 km, and runners who want a relaxed half marathon with a place in their age group within reach.",
-        "Think twice if you want a fast, fully closed course or a big half-marathon field. Plan to finish well inside three and a half hours, and stay alert to traffic once the roads reopen.",
+        "Think twice if you want a fast, fully closed course or a big half-marathon field. Plan to finish well inside three and a half hours, and stay alert to traffic once the roads reopen. In 2023 nine in ten 21 km finishers were home inside 2:54.",
         "The 2026 race is on Saturday 24 October [14]. The 2025 results and the 2025 route map have not been published anywhere found, and the 2026 map and registration page disagree on the 14 km start (5.30am or 5.45am) [9][14], so confirm start times with the organiser.",
         "Nobody from this site ran the race. This review draws on the organiser's FAQ, rules, route maps and registration pages, news reports in English and Chinese, a tour operator's race listing, airport weather records, the 2024 results and three runners' accounts of earlier editions."
       ]
@@ -236,6 +241,20 @@
       "publisher": "Run for Children Luang Prabang (organiser)",
       "url": "https://luangprabangmarathon.com/international-registration/",
       "type": "official"
+    },
+    {
+      "n": 15,
+      "label": "Run SEA analysis of official results (SportStats), 2023 race",
+      "publisher": "Run SEA",
+      "url": "https://sportstats.one/event/run-for-children-luang-prabang-half-marathon/leaderboard/129681",
+      "type": "other"
+    },
+    {
+      "n": 16,
+      "label": "Run SEA analysis of official results (SportStats), 2022 race",
+      "publisher": "Run SEA",
+      "url": "https://sportstats.one/event/run-for-children-luang-prabang-half-marathon/leaderboard/117543",
+      "type": "other"
     }
   ],
   "faqs": [
@@ -260,8 +279,8 @@
       "answer": "Fewer than 200. The 2025 event drew more than 3,000 participants, but in 2024, the latest published results, only 183 finished the 21 km, against 232 on the 14 km and 1,583 on the 7 km. A sub-1:40 half marathon was a top-ten finish."
     }
   ],
-  "editorial_notes": "Rewritten 2026-09-28 to the race-review template. Written about the previous edition (25 October 2025). No 2025 results or 2025 route map could be found, and the Wayback Machine was offline; the 2024 results are used for field depth, labelled as 2024, and the route is described from the organiser's FAQ, the 2024 timing points and the maps posted for 2026. Weather is from airport METAR observations, which start at 7am; not a forecast. Field size: more than 3,000 (China Daily, Laotian Times) versus more than 2,800 (Chinese consulate); both given. The 2026 map and registration page disagree on the 14 km start time. Runner accounts are from 2019 and 2016; none of the 2025 race was found. Facebook and Instagram could not be read. No rating.",
+  "editorial_notes": "Rewritten 2026-09-28 to the race-review template. Written about the previous edition (25 October 2025). No 2025 results or 2025 route map could be found, and the Wayback Machine was offline; the 2024 results are used for field depth, labelled as 2024, and the route is described from the organiser's FAQ, the 2024 timing points and the maps posted for 2026. Weather is from airport METAR observations, which start at 7am; not a forecast. Field size: more than 3,000 (China Daily, Laotian Times) versus more than 2,800 (Chinese consulate); both given. The 2026 map and registration page disagree on the 14 km start time. Runner accounts are from 2019 and 2016; none of the 2025 race was found. Facebook and Instagram could not be read. No rating. Updated 2026-11-06 with Run SEA analysis of the 2023 and 2022 Sportstats 21 km results, the only editions held; no 2025 results were held, so the 2025 field is still not described from results.",
   "published_at": "2026-08-09T08:15:00.000Z",
-  "last_updated": "2026-09-28",
+  "last_updated": "2026-11-06",
   "status": "active"
 }

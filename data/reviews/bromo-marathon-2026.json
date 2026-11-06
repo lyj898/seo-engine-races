@@ -16,7 +16,7 @@
       },
       {
         "label": "Field",
-        "value": "About 3,000 registered (organiser's figure); 1,638 runners in the published results, 149 of them in the 42K"
+        "value": "About 3,000 registered (organiser's figure); 1,638 runners in the published results, with 131 42K, 556 21K and 590 10K finish times"
       },
       {
         "label": "Start",
@@ -49,6 +49,14 @@
       {
         "label": "Median finish",
         "value": "42K 8:43:48, 21K 4:26:09, 10K 2:15:40"
+      },
+      {
+        "label": "Back of the field",
+        "value": "42K: slowest tenth over 9:55, and 54 of 131 finishers took more than nine hours. 21K: slowest tenth over 5:50"
+      },
+      {
+        "label": "Women finishers",
+        "value": "42K 17%, 21K 26%, 10K 45%"
       },
       {
         "label": "Entry fee",
@@ -91,6 +99,7 @@
         "The published results list 1,638 runners: 149 in the 42K, 564 in the 21K, 594 in the 10K, 264 in the 5K and 67 in the kids' race, from 19 nationalities, 1,577 of them Indonesian [16]. The organiser's figure was about 3,000 registered, with the 10K and 21K the most popular [5]. Reports put the number of countries at 22 [1] or 26 [5][6].",
         "Wildan Yusuf Furqoni won the 42K in 4:18:55, 23 minutes ahead of Dedy Yusuf in 4:41:56 [16], who had won in 2025 in 4:11:55 [17]. Only two men broke five hours and 21 runners broke seven. Tenth man was Russia's Nikolay Kurenkov in 6:46:15, and the median finisher took 8:43:48 [16]. Sri Wahyuni won the women's race in 6:12:22 [16], having also won it in 2025 in 6:15:49 [17]; tenth of the 26 women in the 42K was 8:59:54 [16].",
         "Musayyin Hunter won the 21K in 1:51:50 and Nur Ispriyatiningsih the women's race in 2:53:58, ahead of Germany's Emily Mettger in 2:55:07. Tenth places were 2:31:39 and 3:24:04, and the median finisher took 4:26:09 [16]. The 10K, 9.91 km with 426 m of climbing on the published course [18], was won in 57:18 and 1:13:58, and the median finisher took 2:15:40 [16]. Plan by these times, not by your road times.",
+        "Most of the field spends a long day on the mountain. The 42K results hold 131 finish times: the first ten home ran between 4:18:55 and 6:33:19, and the slowest tenth took more than 9:55. Forty-five finishers came in between nine and ten hours, and nine more are listed after the 10-hour limit, so four in ten 42K finishers were out for more than nine hours. Women made up 17% of 42K finishers [23]. The 21K has 556 finish times, with the first ten between 1:51:50 and 2:31:39, the slowest tenth over 5:50 and 26% women; the 10K has 590, with the first ten between 57:18 and 1:16:18, the slowest tenth over 3:05 and 45% women [23].",
         "Prize money is modest: Rp3,000,000 to the 42K winners and Rp2,500,000 to the 21K winners, down to third place [19]. Every finisher gets a medal [19], and the finisher tee is for the full marathon only [2]."
       ]
     },
@@ -114,6 +123,7 @@
       "paragraphs": [
         "Yes, if you want a mountain race with generous limits, are comfortable on dirt and rock at altitude, and are happy to race with a vest, water and a jacket. The 5K and 10K let newer trail runners try the altitude without committing to a long day.",
         "Think twice if you want a road marathon, a fast time, or views of Bromo, which the 2026 route did not offer [5].",
+        "Plan for a long day whichever distance you choose. In 2026 half the 42K finishers took longer than 8:43, four in ten were out for more than nine hours, and the slowest tenth of the 21K took more than 5:50, so the 10-hour and seven-hour limits are used in full.",
         "The fire risk did not end with the race. A new fire started on 10 September at Savana Pengol, and the national park closed all Bromo tourism from 12 September [22]. The 2026 race showed the organisers will reroute around fire damage [1][4], so wait for the 2027 route before booking. No date or route for 2027 had been published when this was written.",
         "Nobody from this site ran the race. This review draws on the organiser's race pages, route files and results, local news reports in Indonesian, fire reporting and airport weather records."
       ]
@@ -280,6 +290,13 @@
       "publisher": "CNN Indonesia",
       "url": "https://www.cnnindonesia.com/nasional/20260912182507-20-1403207/karhutla-meluas-wisata-gunung-bromo-kembali-ditutup-total",
       "type": "news"
+    },
+    {
+      "n": 23,
+      "label": "Run SEA analysis of official results (Bromo Marathon)",
+      "publisher": "Run SEA",
+      "url": "https://www.bromomarathon.com/past-results?year=2026",
+      "type": "other"
     }
   ],
   "faqs": [
@@ -304,8 +321,8 @@
       "answer": "Cool. The organiser tells runners to expect 5°C to 15°C at the 1,840 m start, and no readings from the course were published for 2026. The nearest airport with records, Surabaya's Juanda, sits near sea level about 58 km away and says little about the mountain. A waterproof jacket is on the mandatory kit list."
     }
   ],
-  "editorial_notes": "Rewritten 2026-09-29 about the 2026 edition (13th), run on 6 September. The route changed after the August forest fires and no 2026 course map was published; the official course pages and route files describe an older (2024) route, so their figures are given as that course's. The FAQ's 42K climbing figure (193 m) contradicts the route file (1,937 m). Reports give 22 or 26 countries; both are given. Results were read from the organiser's results page; 10th places are ranked by net time within gender. No on-course weather readings exist; the only airport with records (Juanda) is near sea level and is flagged as unrepresentative. The FAQ and rules disagree on headphones; both are stated. The founder's name is spelled Dedik or Dedy in different reports. No runner accounts of the 2026 race could be found. No rating.",
+  "editorial_notes": "Rewritten 2026-09-29 about the 2026 edition (13th), run on 6 September. The route changed after the August forest fires and no 2026 course map was published; the official course pages and route files describe an older (2024) route, so their figures are given as that course's. The FAQ's 42K climbing figure (193 m) contradicts the route file (1,937 m). Reports give 22 or 26 countries; both are given. Results were read from the organiser's results page; 10th places are ranked by net time within gender. No on-course weather readings exist; the only airport with records (Juanda) is near sea level and is flagged as unrepresentative. The FAQ and rules disagree on headphones; both are stated. The founder's name is spelled Dedik or Dedy in different reports. No runner accounts of the 2026 race could be found. No rating. Updated 2026-11-06 with Run SEA analysis of the 2026 results: 131 42K, 556 21K and 590 10K finish times (fewer than the runners listed, which include non-finishers), the first-ten range, 90th-percentile times and share of women. Nine 42K, five 21K and three 10K times in the results exceed the published limits; they are reported as listed. The course is a mountain trail race, so no road-time milestones are used.",
   "published_at": "2026-08-09T07:00:00.000Z",
-  "last_updated": "2026-09-28",
+  "last_updated": "2026-11-06",
   "status": "active"
 }

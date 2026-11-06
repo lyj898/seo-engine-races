@@ -47,6 +47,18 @@
         "value": "2:51:21 (men), 3:41:25 (women)"
       },
       {
+        "label": "Marathon median and back of the pack",
+        "value": "Median 4:02; 49% under four hours; nine in ten inside 4:57; 15% of finishers women"
+      },
+      {
+        "label": "Half marathon and 10 km",
+        "value": "134 and 381 finishers; medians 2:14:33 and 1:15:27; 25 half marathoners outside the 2:30 limit"
+      },
+      {
+        "label": "Change on 2024",
+        "value": "Marathon finishers up from 320 to 366; half down from 208, 10 km down from 657"
+      },
+      {
         "label": "Marathon entry",
         "value": "By age-group qualifying time at a regional leg; qualifiers' entry is free"
       },
@@ -95,7 +107,9 @@
       "heading": "How Fast the Field Is",
       "paragraphs": [
         "Eduardo Flores, 27, from General Santos City, won the marathon in 2:27:58 to become the MILO Marathon King [9][2]. Second place took 2:31:08 and third 2:32:19 [7]. Myrel Benignos, 22, from Negros, won the women's race in 3:15:21 and became the youngest MILO Marathon Queen [9][2], only 47 seconds ahead of second place (3:16:08), with third in 3:17:50 [7]. They succeeded Richard Salaño and Christine Hallasgo, the 2024 champions, who went on to represent the Philippines at the Southeast Asian Games in Thailand [9].",
-        "Behind the podium the field spreads out quickly. Tenth place in the marathon was 2:51:21 for men and 3:41:25 for women [7]. Of 366 marathon finishers in the results, 15 ran under three hours and 178 under four; the median finisher took 4:03:04 on gun time [7]. The published results list 134 half-marathon and 382 10 km finishers. The half was won in 1:14:20 by a man and 1:52:26 by a woman, and the 10 km in 33:37 and 45:08 [7].",
+        "Behind the podium the field spreads out quickly. Tenth place in the marathon was 2:51:21 for men and 3:41:25 for women on gun time [7]. Of 366 marathon finishers, 15% of them women, 15 ran under three hours and 178, just under half, under four; the median finisher took 4:02, nine in ten were home inside 4:57, and only four took longer than the six-hour limit [12]. The half marathon had 134 finishers and the 10 km 381. The half was won in 1:14:20 by a man and 1:52:26 by a woman, and the 10 km in 33:37 and 45:08 [7].",
+        "The shorter races are smaller and slower. In the half marathon the top ten ran between 1:14:20 and 1:39:26 and the median was 2:14:33, but 25 of the 134 finishers, almost one in five, came in after the 2:30 limit; 27% were women. In the 10 km the top ten ran between 33:36 and 39:38, the median was 1:15:27, only 16% broke an hour, and 44% of finishers were women [12].",
+        "Against the 2024 finals, the marathon grew from 320 to 366 finishers and slowed slightly, its median moving from 3:58 to 4:02, while the half shrank from 208 to 134 finishers and the 10 km from 657 to 381 [12][13].",
         "Prize money goes to the top three: P50,000, P30,000 and P20,000 for the first three men and women in the finals marathon, with medals from fourth to tenth [6].",
         "One marathoner who set a personal best wrote that they started slowly, at heart-rate zone 3, so as not to overheat later, ran the second half at tempo pace and still struggled over the last 5 km, but finished with a negative split [10]."
       ]
@@ -104,9 +118,9 @@
       "heading": "Should You Enter the 2026 Finals?",
       "paragraphs": [
         "Yes, if you can hit a qualifying time at one of the regional legs and want to race the season's final against the series' fastest qualifiers, or if you want a well-supported half marathon or 10 km with a big crowd. In 2025 the women's half marathon was won in 1:52:26, so a strong club runner can finish high up in the shorter races.",
-        "Think twice if you are a slower marathoner: the six-hour limit and the checks at 21 km and 32 km are enforced, and a place depends on qualifying earlier in the year. Overseas runners can take part but cannot win prizes.",
+        "Think twice if you are a slower marathoner: the six-hour limit and the checks at 21 km and 32 km are enforced, and a place depends on qualifying earlier in the year. This is a quick field: in 2025 the median marathoner took 4:02 and only four of 366 finishers needed more than six hours [12]. In the half marathon, almost one finisher in five came in after 2:30 and missed the medal [12][6]. Overseas runners can take part but cannot win prizes.",
         "The 2026 finals are scheduled for Sunday 6 December in Clark City, Pampanga, at the end of the series' 50th-anniversary season of 15 races, and the organiser says dates may change [8][11]. Clark hosted one of the regional legs on 3 August 2025 [1]. The 2026 start times, routes, cut-offs and qualifying standards for the finals had not been published when this was written.",
-        "Nobody from this site ran the race. This review draws on the organiser's rules and registration pages, the published results, local and national reporting before and after the race, and one runner's own account."
+        "Nobody from this site ran the race. This review draws on the organiser's rules and registration pages, the published results for 2024 and 2025, local and national reporting before and after the race, and one runner's own account."
       ]
     }
   ],
@@ -194,6 +208,20 @@
       "publisher": "MILO Philippines",
       "url": "https://www.milo.com.ph/national-milo-marathon",
       "type": "official"
+    },
+    {
+      "n": 12,
+      "label": "Run SEA analysis of official results (Race Roster): 2025 finals, all finishers",
+      "publisher": "Run SEA",
+      "url": "https://results.raceroster.com/v3/events/hcwmd6fpwn6k55ce",
+      "type": "other"
+    },
+    {
+      "n": 13,
+      "label": "Run SEA analysis of official results (Race Roster): 2024 finals, all finishers",
+      "publisher": "Run SEA",
+      "url": "https://results.raceroster.com/v3/events/5cfc3hfuenahjmw7",
+      "type": "other"
     }
   ],
   "faqs": [
@@ -218,8 +246,8 @@
       "answer": "It depends on the distance. In 2025 marathon finishers inside the cut-off got a medal, a loot bag and a finisher's shirt. Every half-marathon finisher got the loot bag and shirt, but only those inside two and a half hours got the medal. 10 km finishers inside the limit got a medal and loot bag."
     }
   ],
-  "editorial_notes": "Rewritten 2026-09-28 as a template review of the previous finals (Iloilo City, 7 December 2025). Replaces a version based on one blog's copy of the organiser's release. No airport weather record near Iloilo is archived for race morning (the nearest, Kalibo, is about 110 km away), so the review has no race-day weather figures. The organisers gave both 24,000 and 25,000 for the field; both are given as a range. The results spell the men's winner Eduard Flores; press reports say Eduardo, which is used. One news report gave 8 December for the 2026 finals; the organiser's calendar says 6 December, which is used. The course figures come from a user-posted MapMyRun route, not an official map. No rating.",
+  "editorial_notes": "Rewritten 2026-09-28 as a template review of the previous finals (Iloilo City, 7 December 2025). Replaces a version based on one blog's copy of the organiser's release. No airport weather record near Iloilo is archived for race morning (the nearest, Kalibo, is about 110 km away), so the review has no race-day weather figures. The organisers gave both 24,000 and 25,000 for the field; both are given as a range. The results spell the men's winner Eduard Flores; press reports say Eduardo, which is used. One news report gave 8 December for the 2026 finals; the organiser's calendar says 6 December, which is used. The course figures come from a user-posted MapMyRun route, not an official map. No rating. Updated 2026-11-06: field depth (finishers, medians, 90th percentile, milestone shares, % women, change on 2024) added from a Run SEA analysis of the full Race Roster results for the 2024 and 2025 finals. The analysed times appear to be chip times (the women's winner 3:15:19 against 3:15:21 gun; tenth woman 3:37:47 against 3:41:25 gun), so the gun-time places already quoted are kept and the median is now 4:02 rather than the 4:03:04 gun-time figure. The 10 km count is 381, not 382. Gender is missing for 435 of the 2024 10 km finishers, so no 2024 share of women is given.",
   "published_at": "2026-08-09T09:00:00.000Z",
-  "last_updated": "2026-09-28",
+  "last_updated": "2026-11-06",
   "status": "active"
 }

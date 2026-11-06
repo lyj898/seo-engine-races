@@ -47,8 +47,16 @@
         "value": "5:40:52"
       },
       {
+        "label": "42K back of the pack",
+        "value": "One finisher in ten took longer than 7:05; 29% broke five hours; 25% of finishers women"
+      },
+      {
         "label": "Winning 21K times",
         "value": "1:09:14 (men), 1:29:32 (women)"
+      },
+      {
+        "label": "21K and 10K finishers",
+        "value": "1,845 (median 2:41:41) and 1,485 (median 1:26:00)"
       },
       {
         "label": "Entry fee (2025)",
@@ -93,8 +101,8 @@
       "heading": "How Fast the Field Is",
       "paragraphs": [
         "Edsel Moral won the 42K wire to wire in 2:27:31 [8], more than 20 minutes ahead of Welfred Esporma (2:48:11) and Edgardo Panopio Jr (2:58:12) [5]. Maricar Camacho won the women's race in 3:18:56, ninth overall, from Rocel Maestro (3:30:00) and Jennelyn Isibido (3:33:41) [5]. Press reports named Amelyn Broqueza second in 3:29:44 [8], but that name does not appear in the published results [5]. Both winners also took the 2024 finals, in 2:46:43 and 3:25:38 [9].",
-        "Behind the leaders the times spread out quickly. Only four marathoners broke three hours and 87 broke four; tenth place was 3:23:05 for men and 4:04:26 for women, and the median finish was 5:40:52 [5]. Of the 1,399 finishers, 344 were women [5].",
-        "The 21K was won by Kenya's David Kipsang in 1:09:14 and by Eloisa Cusi in 1:29:32 [8][5]. The fourth man was already more than ten minutes behind, at 1:22:01; tenth place was 1:30:52 for men and 1:47:59 for women, and the median was 2:41:41 [5]. The 10K was won in 34:44 by Ritchie Estampador and 46:33 by Jo Punay [5]."
+        "Behind the leaders the times spread out quickly. Only four marathoners broke three hours, 87 (6%) broke four and 404 (29%) broke five; tenth place was 3:23:05 for men and 4:04:26 for women, and the median finish was 5:40:52 [5][13]. The top ten overall finished between 2:27:30 and 3:21:16 on chip time, and one finisher in ten took longer than 7:05 [13]. Of the 1,399 finishers, 344, about a quarter, were women [5].",
+        "The 21K was won by Kenya's David Kipsang in 1:09:14 and by Eloisa Cusi in 1:29:32 [8][5]. The fourth man was already more than ten minutes behind, at 1:22:01; tenth place was 1:30:52 for men and 1:47:59 for women, and the median was 2:41:41 [5]. Of 1,845 21K finishers, 36% were women; one in ten broke two hours and one in ten took longer than 3:30 [13]. The 10K was won in 34:44 by Ritchie Estampador and 46:33 by Jo Punay [5]. Its 1,485 finishers, almost half of them women, had a median of 1:26:00, and only 7.5% broke an hour [13]."
       ]
     },
     {
@@ -107,7 +115,7 @@
     {
       "heading": "Should You Enter the 2026 Finals?",
       "paragraphs": [
-        "Yes, if you are running the series and want your first marathon: the organiser describes it as a progressive journey from 5K to 42K [11], and the eight-hour limit gives slower runners room. The 21K is open to anyone who wants a big end-of-season half in Pasay [1].",
+        "Yes, if you are running the series and want your first marathon: the organiser describes it as a progressive journey from 5K to 42K [11], and the eight-hour limit gives slower runners room. In 2025 the median marathoner took 5:40:52 and one finisher in eight needed more than seven hours, so a slow first marathon puts you in the middle of this field, not at the back [13]. The 21K is open to anyone who wants a big end-of-season half in Pasay [1].",
         "Think twice if you have not registered for all three long legs, because the 42K is closed to you [10], or if you need a fixed date: the 2025 finals moved by four weeks.",
         "The 2026 finals are on Sunday 22 November at the SM Mall of Asia Complex (first announced for 8 November), over 42K, 21K, 10K and 5K [12], listed with a 3am start [11]. The 2026 Leg 3 races run in September: Manila on 6 September, Cebu on 13 September, Cagayan de Oro on 20 September and Davao on 27 September [12]. The 2026 race page has no route map yet [11].",
         "Nobody from this site ran the race. This review draws on the organiser's race pages and rules, the full published results, airport weather records, and Philippine news reports."
@@ -205,6 +213,13 @@
       "publisher": "RUNRIO (organiser)",
       "url": "https://runrio.com/race-calendar",
       "type": "official"
+    },
+    {
+      "n": 13,
+      "label": "Run SEA analysis of official results (Race Roster): 2025 National Finals, all finishers",
+      "publisher": "Run SEA",
+      "url": "https://results.raceroster.com/v3/events/cb6shdt2zmjp3f6g",
+      "type": "other"
     }
   ],
   "faqs": [
@@ -229,8 +244,8 @@
       "answer": "Warm but fairly dry. Manila's airport, about 5 km away, recorded 25°C to 26°C from midnight to 8am on 6 December 2025, with a dew point of 19°C to 20°C and 65% to 70% humidity. It warmed to 29°C by 10am, so slower marathoners finished in warmer air."
     }
   ],
-  "editorial_notes": "Rewritten 2026-09-28 about the previous finals, which were cancelled on 9 November 2025 for weather and run on Saturday 6 December 2025. Weather is from airport METAR observations, not a forecast; no start times for the rerun were published on the pages read, so the whole night is given. Results were read in full from Race Roster's public results pages. The press reports name Amelyn Broqueza second in the women's 42K in 3:29:44, but the published results do not list that runner; the results are used, and the press version is mentioned. The organiser's figure of 11,300 runners is higher than the 5,626 timed finishers plus 1,188 virtual entries in the results; both are given. No route map or runner accounts of the 2025 finals were found. The entity's date (11 November 2026) is wrong: RUNRIO and Race Roster give Sunday 8 November 2026. No rating. Updated 2026-11-02: RUNRIO's calendar and the Race Roster event page now give Sunday 22 November 2026.",
+  "editorial_notes": "Rewritten 2026-09-28 about the previous finals, which were cancelled on 9 November 2025 for weather and run on Saturday 6 December 2025. Weather is from airport METAR observations, not a forecast; no start times for the rerun were published on the pages read, so the whole night is given. Results were read in full from Race Roster's public results pages. The press reports name Amelyn Broqueza second in the women's 42K in 3:29:44, but the published results do not list that runner; the results are used, and the press version is mentioned. The organiser's figure of 11,300 runners is higher than the 5,626 timed finishers plus 1,188 virtual entries in the results; both are given. No route map or runner accounts of the 2025 finals were found. The entity's date (11 November 2026) is wrong: RUNRIO and Race Roster give Sunday 8 November 2026. No rating. Updated 2026-11-02: RUNRIO's calendar and the Race Roster event page now give Sunday 22 November 2026. Updated 2026-11-06: field-depth figures (shares under milestones, 90th percentile, % women, 21K and 10K medians) added from a Run SEA analysis of the full Race Roster results. Those times are chip times; the gun-time places already quoted are kept.",
   "published_at": "2026-08-09T08:45:00.000Z",
-  "last_updated": "2026-09-28",
+  "last_updated": "2026-11-06",
   "status": "active"
 }

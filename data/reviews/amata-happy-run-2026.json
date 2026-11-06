@@ -1,0 +1,74 @@
+{
+  "review_id": "amata-happy-run-2026",
+  "slug": "amata-happy-run-2026",
+  "entity_id": "amata-happy-run-2026",
+  "title": "Amata Happy Run 2026 Review: What the 2023 Race Was Like",
+  "seo_title": "Amata Happy Run Bien Hoa Review: The 2023 Race and 10 km Results",
+  "meta_description": "Amata Happy Run review from the first race in 2023 at the Amata industrial park in Bien Hoa: 750 runners, a mild 23°C dawn, 182 10 km finishers with a 1:09 median, and the new 21 km for 2026.",
+  "dek": "What the Amata industrial park's charity run in Dong Nai was like at its first edition in December 2023, when it offered only 10 km and 5 km: the weather, the field and how it has grown for 2026.",
+  "verdict": "Enter if you want a small, community charity run inside an industrial park near Bien Hoa. The first race, in December 2023, had 750 runners over 10 km and 5 km, and its 182 10 km finishers ran a median of 1:09 in mild dawn air of about 23°C. The 2026 edition, the next one on record, adds a 21 km and 3 km, so the half marathon has no history yet.",
+  "at_a_glance": {
+    "heading": "The 2023 race in numbers",
+    "rows": [
+      { "label": "Date", "value": "Sunday 17 December 2023, the first edition. Next: Sunday 13 December 2026" },
+      { "label": "Venue", "value": "Amata industrial park, Long Binh ward, Bien Hoa, Dong Nai" },
+      { "label": "Distances in 2023", "value": "10 km and 5 km; 21 km and 3 km added in 2026" },
+      { "label": "Field", "value": "750 runners across both races (organiser's figure)" },
+      { "label": "Weather, 5am to 7am", "value": "About 23°C to 24°C, dew point 22°C, 86% to 97% humidity, light wind (Open-Meteo reanalysis)" },
+      { "label": "10 km", "value": "182 finishers; won in 37:15 (men) and 46:16 (women); median 1:09:01; 28% under 1 hour; 23% women" },
+      { "label": "2026 cut-offs", "value": "21 km 3 hours 30, 10 km 2 hours, 5 km 1 hour, 3 km 45 minutes" }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "The 2023 Race",
+      "paragraphs": [
+        "Amata City Bien Hoa, the developer of the Amata industrial park in Long Binh ward, held its first Happy Run on the morning of Sunday 17 December 2023 for businesses and residents in and around the park [1]. It offered a 10 km and a 5 km [2]. The organiser said 750 runners took part, and proceeds went to a programme that buys bicycles for disadvantaged students in Dong Nai; 50 bicycles were handed over at the ceremony [1]. No start time, route map or cut-offs were published for 2023."
+      ]
+    },
+    {
+      "heading": "The Weather: Mild and Damp Before Sunrise",
+      "paragraphs": [
+        "Open-Meteo's reanalysis for the grid point at Long Binh shows about 23°C, a 22°C dew point and 96% to 97% humidity at 5am and 6am, with a light breeze, then 24°C at 7am, 27°C at 8am and 29°C at 9am [4]. The air was mild but close to saturated before sunrise. Runners who finished by 7am had the best of it."
+      ]
+    },
+    {
+      "heading": "How Fast the Field Is",
+      "paragraphs": [
+        "The 10 km had 182 finishers. It was won in 37:15 by a man, and the fastest woman, in 46:16, finished in the top ten; tenth place was 46:27 [5]. The median finisher took 1:09:01 and the slowest tenth more than 1:36, with the last finisher at 1:45 [5]. Just over a quarter broke an hour, and 23% of finishers were women [5].",
+        "Every 2023 10 km finisher would have made the two-hour limit set for 2026 [3][5]."
+      ]
+    },
+    {
+      "heading": "Should You Enter the 2026 Race?",
+      "paragraphs": [
+        "Yes, for the 10 km or 5 km, if you want a low-cost, low-pressure community run with a charity purpose, near Ho Chi Minh City.",
+        "Think twice about the new 21 km if you want a proven half marathon: no earlier edition had one, and its limit is three and a half hours [3].",
+        "The 2026 race is on Sunday 13 December at the Amata industrial park, with a 21 km, 10 km, 5 km and 3 km, and start times still to be announced [3]. Early-bird fees run from VND 285,000 for the 3 km to VND 485,000 for the 21 km, and part of the proceeds goes to local schools [3].",
+        "Nobody from this site ran the race. This review draws on the organiser's report, the 2026 entry page, the 2023 10 km results and modelled weather data."
+      ]
+    }
+  ],
+  "pull_quotes": [],
+  "sources": [
+    { "n": 1, "label": "Organiser's report on the 2023 race: field, charity and ceremony", "publisher": "AMATA (organiser)", "url": "https://amata.com/news-media-vietnam/87-csr-news-activities/1119-amata-happy-run-2023-uniting-for-health-joy-and-community-support", "type": "official" },
+    { "n": 2, "label": "2023 event page: date, location and categories", "publisher": "SportStats", "url": "https://sportstats.one/event/amata-happy-run", "type": "aggregator" },
+    { "n": 3, "label": "2026 entry page: date, distances, cut-offs, fees and charity (in Vietnamese)", "publisher": "Pace8", "url": "https://pace8.vn/su-kien/amata-happy-run-2026", "type": "registration_platform" },
+    { "n": 4, "label": "Hourly modelled weather for Long Binh, Bien Hoa, 17 December 2023", "publisher": "Open-Meteo historical weather API", "url": "https://archive-api.open-meteo.com/v1/archive?latitude=10.93&longitude=106.88&start_date=2023-12-17&end_date=2023-12-17&hourly=temperature_2m,dew_point_2m,relative_humidity_2m,wind_speed_10m,precipitation,cloud_cover&timezone=Asia%2FHo_Chi_Minh", "type": "other" },
+    { "n": 5, "label": "Run SEA analysis of official results (SportStats), 2023 race", "publisher": "Run SEA", "url": "https://sportstats.one/event/amata-happy-run/leaderboard/130165", "type": "other" }
+  ],
+  "faqs": [
+    {
+      "question": "Did the Amata Happy Run have a half marathon before 2026?",
+      "answer": "No. The first race, on 17 December 2023, offered only a 10 km and a 5 km, and no 2024 or 2025 edition is on record. The 21 km and 3 km are new for the 13 December 2026 race, with a three-and-a-half-hour limit for the 21 km."
+    },
+    {
+      "question": "How fast is the Amata Happy Run 10 km?",
+      "answer": "Relaxed. In 2023 the 10 km had 182 finishers with a median of 1:09:01, and just over a quarter broke an hour. It was won in 37:15 by a man and 46:16 by a woman, and the slowest finisher took 1:45, inside the two-hour limit set for 2026."
+    }
+  ],
+  "editorial_notes": "Written 2026-11-06 about the 2023 edition (Sunday 17 December 2023, the first), the only one for which we hold results; no 2024 or 2025 edition was found, though a small one could have gone unreported. The 2023 race had only 10 km and 5 km, so this short review covers a 10 km and says nothing about the 2026 half marathon. Evidence beyond the results is very thin: the organiser's own report and the SportStats event page; no start time, route, aid plan, news report or runner account was found. AMATA's 2024 run in Quang Ninh is a different event. Finish-time figures are Run SEA's analysis of the official SportStats 10 km results. Weather is Open-Meteo modelled reanalysis for the grid point at Long Binh, not a station observation, given for 5am to 7am because the start time is unknown. No rating.",
+  "published_at": "2026-11-06T10:55:00.000Z",
+  "last_updated": "2026-11-06",
+  "status": "active"
+}

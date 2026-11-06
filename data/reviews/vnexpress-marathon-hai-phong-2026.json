@@ -55,6 +55,10 @@
         "value": "134 under three hours, 8 of them women; 1,905 under four hours"
       },
       {
+        "label": "Marathon depth (2023, latest full results)",
+        "value": "1,936 finishers; median 4:09:20; 45% under four hours; 5% over six hours"
+      },
+      {
         "label": "Finisher items",
         "value": "Medal for every finisher inside the limit; windbreaker for marathon finishers"
       },
@@ -100,6 +104,7 @@
       "paragraphs": [
         "Very fast for Vietnam. The 2025 race drew about 14,000 runners over the weekend of 19 to 21 December, about 1.4 times as many as the year before [10][11], and for the first time the marathon outnumbered the half: about 5,000 against 4,500, with about 20% of all runners from Hai Phong [12]. In 2025, 134 runners broke three hours, eight of them women, up from 82 in 2023 and 91 in 2024 [13][4], and 1,905 ran under four hours [14]. The organiser's outlet compared that with 48 sub-3 runners among about 4,000 marathoners at the Techcombank Ho Chi Minh City race in 2025 and 69 among 8,932 at Singapore [13]. The last runner under three hours finished in 2:59:59 [13].",
         "Hoang Viet Vi Ly won the men's race in 2:26:44 in a first marathon, overtaking Trinh Minh Tam, who had led at about 3:25 per kilometre until slowing at 35 km and finished in 2:28:42 [13][15]. Pham Thi Hong Le won the women's race in 2:42:20 [13]. On the official leaderboard, tenth place was 2:34:42 for men and 3:00:57 for women, and 50th man ran 2:52:55; in the half, tenth was 1:18:46 and 1:31:12 [16]. Luong Duc Phuoc and Bui Thi Thu Ha won the half in 1:09:54 and 1:20:29 on chip time [16][4].",
+        "The latest full finisher list is from the first edition, on 17 December 2023 [25]. That year 1,936 runners finished the marathon, 14% of them women. The top ten ran between 2:34:29 and 2:46:42, 870 (45%) broke four hours, the median was 4:09:20 and nine in ten were home inside 5:37 [25]. Under the six-hour limit of 2025, 92 of those 2023 finishers, about one in twenty, would have been too slow [25][5]. The half marathon had 3,592 finishers, with a top ten between 1:10:49 and 1:20:28, a median of 2:21:18 and a quarter under two hours; the 10 km had 1,753, half of them women [25].",
         "Depth cuts both ways. Pham Thi My Duyen ran a personal best by almost five minutes and won the 30-39 age group, but missed three hours by two seconds in 3:00:01, which on the leaderboard was ninth woman [17][16]. Among mid-pack runners, a runner from Nigeria took more than 14 minutes off a personal best with 3:29 [18]. Prize money went five deep in the marathon, from 15 million VND for the winners to 8 million VND for fifth [19]."
       ]
     },
@@ -114,10 +119,10 @@
     {
       "heading": "Should You Enter the 2026 Race?",
       "paragraphs": [
-        "Yes, if you are chasing a marathon time in Vietnam and are comfortably under six hours. The flat course, the early start and a field in which 1,905 runners broke four hours are the draw, and the half marathon suits anyone wanting a fast city half without the trip to Do Son.",
+        "Yes, if you are chasing a marathon time in Vietnam and are comfortably under six hours. The flat course, the early start and a field in which 1,905 runners broke four hours are the draw, and the half marathon suits anyone wanting a fast city half without the trip to Do Son. In 2023, the last year with a full finisher list, the median marathoner took 4:09 and only about one finisher in twenty needed more than six hours [25].",
         "Think twice if you need more than about six hours, if you want fully closed roads, or if you are counting on the cold. The 2025 race was 19°C and humid at the start, and in 2024 a sea wind chilled finishers at Do Son.",
         "The 2026 race is on Sunday 27 December, with the same four distances [23][24]. Start times, cut-offs and route maps for 2026 had not been published when this was written, so check them before you book.",
-        "Nobody from this site ran the race. This review draws on the organiser's route maps, rules and results, airport weather records, and reporting and runner interviews in VnExpress, which organises the race, and VietnamPlus."
+        "Nobody from this site ran the race. This review draws on the organiser's route maps, rules and results, the full 2023 results, airport weather records, and reporting and runner interviews in VnExpress, which organises the race, and VietnamPlus."
       ]
     }
   ],
@@ -296,6 +301,13 @@
       "publisher": "VnExpress Marathon (organiser)",
       "url": "https://vm.vnexpress.net/hai-phong-2026",
       "type": "official"
+    },
+    {
+      "n": 25,
+      "label": "Run SEA analysis of official results (Sportstats): 2023 race, all finishers",
+      "publisher": "Run SEA",
+      "url": "https://sportstats.one/event/vnexpress-marathon-hai-phong/leaderboard/130160",
+      "type": "other"
     }
   ],
   "faqs": [
@@ -320,8 +332,8 @@
       "answer": "Fast. In 2025 tenth place in the marathon was 2:34:42 for men and 3:00:57 for women on chip time, and 134 runners broke three hours. The winners ran 2:26:44 and 2:42:20. Prize money went to the top five men and women, from 15 million VND down to 8 million VND."
     }
   ],
-  "editorial_notes": "Rewritten 2026-09-28 about the previous edition (21 December 2025). Weather is from Cat Bi airport METAR observations, not a forecast. Most reporting comes from VnExpress, which organises the race; the review attributes its claims. Only the top 50 in each category are published, so 10th-place times are from that leaderboard (displayed chip times); winners' times are as reported. The 2024 sub-3 count appears as 90 in pre-race articles and 91 in post-race ones; 91 is used. One photo report gives a 3am half-marathon start; the maps and other reports give 3.30am, which is used. No independent runner blogs were found. No rating.",
+  "editorial_notes": "Rewritten 2026-09-28 about the previous edition (21 December 2025). Weather is from Cat Bi airport METAR observations, not a forecast. Most reporting comes from VnExpress, which organises the race; the review attributes its claims. Only the top 50 in each category are published, so 10th-place times are from that leaderboard (displayed chip times); winners' times are as reported. The 2024 sub-3 count appears as 90 in pre-race articles and 91 in post-race ones; 91 is used. One photo report gives a 3am half-marathon start; the maps and other reports give 3.30am, which is used. No independent runner blogs were found. No rating. Updated 2026-11-06: field depth from a Run SEA analysis of the full Sportstats results for the 2023 race added; full 2024 and 2025 lists are not on file. The analysis counts 81 sub-3 finishers in 2023 against VnExpress's 82; the organiser's figure is kept where it is cited.",
   "published_at": "2026-08-09T09:15:00.000Z",
-  "last_updated": "2026-09-28",
+  "last_updated": "2026-11-06",
   "status": "active"
 }

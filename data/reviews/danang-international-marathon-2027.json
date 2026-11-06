@@ -55,6 +55,14 @@
         "value": "4:42:30"
       },
       {
+        "label": "Change from 2025",
+        "value": "Marathon finishers up 26% (1,010 to 1,269), median 8 minutes slower (4:34 to 4:42); half marathon up 16%"
+      },
+      {
+        "label": "Back of the field (2025)",
+        "value": "Slowest tenth of marathon finishers over 5:54, against a 7-hour limit; women 17% of marathon and 28% of half-marathon finishers"
+      },
+      {
         "label": "Finisher items",
         "value": "Medal and finisher T-shirt for marathon and half finishers inside the cut-off"
       },
@@ -93,6 +101,7 @@
       "paragraphs": [
         "Edsel Moral of the Philippines won the marathon in 2:30:42, ahead of Tomoki Tezuka of Japan in 2:36:18 and Cronie Melliza of the Philippines in 2:38:50. Vu Khanh Linh of Vietnam won the women's race in 3:01:20, from Nomoto Yukiko of Japan in 3:02:59 and Aleksandra Simakova in 3:07:37 [7]. Moral, a 29-year-old factory worker, averaged 3:34 per kilometre [9]; Vu Khanh Linh, 30, from Ho Chi Minh City, only took up the marathon in 2023 [10].",
         "Behind the podium the field thins fast. Tenth place was 2:57:25 for men and 3:28:12 for women, and only 12 runners broke three hours [7]. Of 1,269 finishers, 293 ran under four hours, and the median finish was 4:42:30 [7]. The half marathon was won in 1:12:09 by Takemaru Yamasaki and in 1:22:56 by Trieu Thi Binh; tenth place was 1:17:52 and 1:35:46, and the median of 2,731 finishers was 2:25:35 [8]. The men's 5 km was won by less than a second [10], in 15:31 [11].",
+        "The marathon keeps growing, and 2026 was slower than 2025. Finishers rose from 942 in 2024 to 1,010 in 2025 and 1,269 in 2026, a rise of 26% in a year [20][19][7]. In 2025 the median marathon finisher took 4:34, the slowest tenth more than 5:54, and 30% broke four hours; in 2026 the median was eight minutes slower and only 23% broke four hours [19][7]. The half marathon grew by 16%, from 2,354 finishers in 2025 to 2,731, and its median slipped by a minute, from 2:24:36 to 2:25:35 [19][8]. Women made up 17% of marathon finishers and 28% of half-marathon finishers in 2025 [19].",
         "About 80 professional athletes took part, according to local newspapers [12][13]. Prize money goes three deep: 20,000,000 VND for the marathon winners and 10,000,000 VND for the half-marathon winners, with age-group awards and a \"Ronny Dragon\" award for the top 15 in each distance [14].",
         "The field is genuinely international. Of the 1,349 marathon runners in the results, 430 are listed as Vietnamese, 181 as Japanese and 129 as Korean, with Malaysia, the Philippines, Singapore and China next [7]. Người Lao Động reported nearly 3,200 international entries, 18% up on 2025 and the most in the race's history [13]."
       ]
@@ -108,7 +117,7 @@
     {
       "heading": "Should You Enter the 2027 Race?",
       "paragraphs": [
-        "Yes, if you want a certified, well-supported marathon with a large international field, water every 2 km and a seven-hour limit, in a beach city worth a holiday. The half marathon gives you the bridges and the river in a shorter race.",
+        "Yes, if you want a certified, well-supported marathon with a large international field, water every 2 km and a seven-hour limit, in a beach city worth a holiday. Half the 2026 marathon field finished after 4:42, and in 2025 nine in ten were home inside 5:54, so the final limit is rarely what stops runners; the intermediate checkpoints matter more. The half marathon gives you the bridges and the river in a shorter race.",
         "Think twice if you need cool air for a personal best, if you cannot hold about 10 minutes per kilometre, the pace the marathon checkpoints require, or if you want a small field to yourself at the front: in 2026 a 2:57 was tenth.",
         "The 2027 race is on Sunday 21 March, from East Sea Park [18]. The organiser's 2027 schedule keeps the 3am marathon and 4.30am half-marathon starts and replaces the 5 km with a 10 km at 5.30am, with an 8am cut-off [18]. Check the intermediate cut-offs on the 2027 maps when they appear.",
         "Nobody from this site ran the race. This review draws on the organiser's race information, rules and route maps, the full results, airport weather records, Vietnamese and Filipino news reports, and two runners' own reviews."
@@ -253,6 +262,20 @@
       "publisher": "Danang International Marathon (organiser)",
       "url": "https://rundanang.com/en/race-info/",
       "type": "official"
+    },
+    {
+      "n": 19,
+      "label": "Run SEA analysis of official results (SportStats), 2025 race",
+      "publisher": "Run SEA",
+      "url": "https://sportstats.one/event/danang-international-marathon/leaderboard/143284",
+      "type": "other"
+    },
+    {
+      "n": 20,
+      "label": "Run SEA analysis of official results (SportStats), 2024 race",
+      "publisher": "Run SEA",
+      "url": "https://sportstats.one/event/danang-international-marathon/leaderboard/140065",
+      "type": "other"
     }
   ],
   "faqs": [
@@ -277,8 +300,8 @@
       "answer": "Fast, but not elite. In 2026 the marathon was won in 2:30:42 and 3:01:20, and tenth place was 2:57:25 for men and 3:28:12 for women. The median finish was 4:42:30, and 293 of 1,269 finishers ran under four hours. Prize money goes to the top three."
     }
   ],
-  "editorial_notes": "Rewritten 2026-09-29 to the review template. Written about the previous edition (22 March 2026). Weather is from airport METAR observations, not a forecast; the organiser's own weather text is a forecast and is attributed only. Results figures are computed from the full SportStats lists linked from the official results page, excluding DNF and DSQ entries; times are chip times, while the press quotes gun times one second slower. Field size differs between reports (nearly 9,000 in most, 8,550 in one); nearly 9,000 includes kids' races. The organiser's rules say all 42 km and 21 km starters who finish get a T-shirt, but its entry pages say only finishers inside the cut-off; the entry-page rule is used. The 5 km start moved from 6.30am (entry page) to 6am (final schedule and results). The disqualified runner is not named. RaceRaves returned 403. No rating.",
+  "editorial_notes": "Rewritten 2026-09-29 to the review template. Written about the previous edition (22 March 2026). Weather is from airport METAR observations, not a forecast; the organiser's own weather text is a forecast and is attributed only. Results figures are computed from the full SportStats lists linked from the official results page, excluding DNF and DSQ entries; times are chip times, while the press quotes gun times one second slower. Field size differs between reports (nearly 9,000 in most, 8,550 in one); nearly 9,000 includes kids' races. The organiser's rules say all 42 km and 21 km starters who finish get a T-shirt, but its entry pages say only finishers inside the cut-off; the entry-page rule is used. The 5 km start moved from 6.30am (entry page) to 6am (final schedule and results). The disqualified runner is not named. RaceRaves returned 403. No rating. Updated 2026-11-06 with Run SEA analysis of the 2025 and 2024 Sportstats results (ranked finishers, chip times) for year-on-year change. No 2026 results file was held for analysis, so the 2026 90th-percentile time and share of women are not given; the 2026 figures remain those computed from the 2026 lists.",
   "published_at": "2026-08-09T09:45:00.000Z",
-  "last_updated": "2026-09-28",
+  "last_updated": "2026-11-06",
   "status": "active"
 }

@@ -51,6 +51,18 @@
         "value": "Marathon 5:37, half marathon 2:42, 10 km 1:27"
       },
       {
+        "label": "Back of the field",
+        "value": "One marathoner in ten took longer than 6:58, half an hour inside the limit; slowest tenth of the half marathon over 3:36"
+      },
+      {
+        "label": "Women finishers",
+        "value": "Marathon 22%, half marathon 39%, 10 km 49%"
+      },
+      {
+        "label": "Change from 2024",
+        "value": "Marathon finishers up 13% (1,127 to 1,275), median 8 minutes slower; half marathon down 6%"
+      },
+      {
         "label": "Entry fee",
         "value": "PHP 4,266 for the marathon, including tax and processing fees (2025)"
       }
@@ -86,7 +98,8 @@
       "heading": "How Fast the Field Is",
       "paragraphs": [
         "The fastest ranked marathon times were 3:01:29 for men and 3:15:34 for women, and tenth place was 3:35:05 for men and 3:58:28 for women. Four faster times, from 2:40:33 to 2:50:19, appear in the results without an overall place [1]. In the half marathon the winners ran 1:14:45 and 1:33:18, with tenth place at 1:29:18 and 1:45:10; the 10 km winners ran 37:44 and 44:46 [1].",
-        "This is a recreational field. The median ranked marathon finisher took 5:37; 7% of the 1,275 ranked finishers broke four hours, 15% broke 4:30, 31% broke five hours and 62% broke six [1]. In the half marathon the median was 2:42, with 11% under two hours and 38% under 2:30; the median 10 km finisher took 1:27 [1]. A sub-four-hour marathon here puts you in the top 7%."
+        "This is a recreational field. The median ranked marathon finisher took 5:37, and the slowest tenth of the field took longer than 6:58. Of the 1,275 ranked finishers, 7% broke four hours, 15% broke 4:30, 31% broke five hours and 62% broke six, and 22% were women [14]. In the half marathon the median was 2:42 and the slowest tenth took more than 3:36, with 11% under two hours and 38% under 2:30; 39% of half-marathon finishers were women. The median 10 km finisher took 1:27, 9% ran under an hour, and 49% of 10 km finishers were women [14]. A sub-four-hour marathon here puts you in the top 7%.",
+        "The marathon grew in 2025 and got slower. Ranked marathon finishers rose by 13%, from 1,127 in 2024 to 1,275, and the median slipped by eight minutes, from 5:29 to 5:37. The half marathon shrank by 6%, from 2,640 to 2,471 finishers, with its median unchanged at 2:42, and the 10 km grew by 8%, from 1,958 to 2,114, with a median about a minute slower [14][15]."
       ]
     },
     {
@@ -100,7 +113,7 @@
     {
       "heading": "Should You Enter the 2026 Race?",
       "paragraphs": [
-        "Yes, if you want a night marathon through Manila's old centre, with music along the course, a 7 hour 30 limit and a field in which the median finisher takes five and a half hours.",
+        "Yes, if you want a night marathon through Manila's old centre, with music along the course and a 7 hour 30 limit that few runners test: in 2025 half the marathon field finished after 5:37, but nine in ten were home by 6:58, more than half an hour before the course closed. A sub-five-hour marathon puts you in the top third.",
         "Think twice if you dislike laps, because the marathon covers the same loop three times and shares it with the half-marathon field from 2am, or if you struggle in humid air: in 2025 it was 25-27°C with a dew point of 23-25°C all night. Carry your own electrolytes and gels, as the 2025 course had gels at only one station per lap.",
         "The 2026 race, the fifth edition, is on 29 November [11][12], so the marathon starts at 12:01am on Sunday, late on Saturday night. The organiser's course page lists the same start times and time limits as in 2025 [3]. Its race-week page gives expo dates of 24 to 27 November, 11am to 7pm, a gear-bag drop from 9pm on Saturday 28 November and a 7.30am finish cut-off for all distances, but it names two different expo venues and says the 2026 runner guide is not yet available, so check the guide before you travel [4]. The 2026 theme is Filipino music, with medals designed with National Artist Ryan Cayabyab [12].",
         "Nobody from this site ran the race. This review draws on the organiser's 2025 runner guide and course pages, the full results, modelled and airport weather records, Philippine news reports, and one runner's published column."
@@ -210,6 +223,20 @@
       "publisher": "The Manila Times",
       "url": "https://www.manilatimes.net/2025/11/26/sports/manila-lights-up-for-record-aia-rock-n-roll-night-run/2231850",
       "type": "news"
+    },
+    {
+      "n": 14,
+      "label": "Run SEA analysis of official results (SportStats)",
+      "publisher": "Run SEA",
+      "url": "https://sportstats.one/event/rock-n-roll-running-series-manila/leaderboard/145501",
+      "type": "other"
+    },
+    {
+      "n": 15,
+      "label": "Run SEA analysis of official results (SportStats), 2024 race",
+      "publisher": "Run SEA",
+      "url": "https://sportstats.one/event/rock-n-roll-running-series-manila/leaderboard/142788",
+      "type": "other"
     }
   ],
   "faqs": [
@@ -231,14 +258,14 @@
     },
     {
       "question": "How fast is the field at Rock 'n' Roll Manila?",
-      "answer": "Mostly recreational. In 2025 the median marathon finisher took 5:37, and only 7% of the 1,275 ranked finishers broke four hours. The fastest ranked times were 3:01:29 for men and 3:15:34 for women. In the half marathon the median was 2:42, and 11% of finishers ran under two hours."
+      "answer": "Mostly recreational. In 2025 the median marathon finisher took 5:37, one in ten took longer than 6:58, and only 7% of the 1,275 ranked finishers broke four hours. The fastest ranked times were 3:01:29 for men and 3:15:34 for women. In the half marathon the median was 2:42, and 11% of finishers ran under two hours."
     },
     {
       "question": "Where do you collect your race kit for Rock 'n' Roll Manila?",
       "answer": "At the race expo, before race weekend. In 2025 kits were handed out at Robinsons Place Manila in Malate from Monday to Thursday, 11am to 7pm, with none on the Friday or race day. Bring photo ID and your confirmation QR code. For 2026 the organiser gives expo dates of 24 to 27 November."
     }
   ],
-  "editorial_notes": "Written 2026-11-06 about the previous edition (Saturday 29 November 2025, organised by Sunrise Events for the Rock 'n' Roll Running Series). Results are the full Sportstats lists. The marathon list has 1,286 runners with a finish time, but 11 of them, including the four fastest (2:40:33 to 2:50:19), carry no overall place, so the winning times, top-ten times, median and percentages use the 1,275 ranked finishers; 84 listed marathoners have no time. Winners are given by time, not name. Sportstats displays times rounded up to the second. Weather is from the Open-Meteo historical model for the Rizal Park grid point and from Manila airport METAR reports, about 9 km away, not a forecast. The course description comes from the organiser's course page, which now carries 2026 dates and warns that some maps may show the previous year's course; the three-lap layout matches the 2025 guide's lap bands at km 14 and km 28. The guide lists only 'Intermediate Cut off 2' (km 28) for the marathon; no first cut-off was found. The 2026 race-week page names two expo venues; neither is stated as fact here. Road-closure details for 2025 were reported by the Manila Bulletin, but the page could not be opened, so they are left out. The only first-hand runner account found is a Daily Tribune column by a half-marathon runner; no blogs, Reddit threads or vlogs from runners were found. No rating.",
+  "editorial_notes": "Written 2026-11-06 about the previous edition (Saturday 29 November 2025, organised by Sunrise Events for the Rock 'n' Roll Running Series). Results are the full Sportstats lists. The marathon list has 1,286 runners with a finish time, but 11 of them, including the four fastest (2:40:33 to 2:50:19), carry no overall place, so the winning times, top-ten times, median and percentages use the 1,275 ranked finishers; 84 listed marathoners have no time. Winners are given by time, not name. Sportstats displays times rounded up to the second. Weather is from the Open-Meteo historical model for the Rizal Park grid point and from Manila airport METAR reports, about 9 km away, not a forecast. The course description comes from the organiser's course page, which now carries 2026 dates and warns that some maps may show the previous year's course; the three-lap layout matches the 2025 guide's lap bands at km 14 and km 28. The guide lists only 'Intermediate Cut off 2' (km 28) for the marathon; no first cut-off was found. The 2026 race-week page names two expo venues; neither is stated as fact here. Road-closure details for 2025 were reported by the Manila Bulletin, but the page could not be opened, so they are left out. The only first-hand runner account found is a Daily Tribune column by a half-marathon runner; no blogs, Reddit threads or vlogs from runners were found. No rating. Updated 2026-11-06 with Run SEA analysis of the 2025 and 2024 Sportstats results (ranked finishers only): 90th-percentile times, share of women, and change from 2024.",
   "published_at": "2026-11-06T04:35:00.000Z",
   "last_updated": "2026-11-06",
   "status": "active"

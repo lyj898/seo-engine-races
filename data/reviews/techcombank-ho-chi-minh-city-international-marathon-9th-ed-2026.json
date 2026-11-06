@@ -55,6 +55,18 @@
         "value": "2:33:02 (men), 3:05:20 (women)"
       },
       {
+        "label": "Marathon median and back of the pack",
+        "value": "Median 4:42:03; 24% under four hours; one in ten over 6:03; 423 finished after six hours"
+      },
+      {
+        "label": "Half marathon",
+        "value": "6,427 finishers; median 2:36:00; 15% under two hours"
+      },
+      {
+        "label": "Change on 2024",
+        "value": "Marathon finishers up 44% (2,590 to 3,742), half up 39%; marathon median three minutes slower"
+      },
+      {
         "label": "Finisher items",
         "value": "Medal for all finishers inside the limit; finisher shirt for the marathon only"
       },
@@ -97,10 +109,10 @@
     {
       "heading": "How Fast the Field Is",
       "paragraphs": [
-        "The 2025 race had more than 23,000 runners from 81 countries, up more than 30% on 2024 [7]. The official results list 3,742 marathon finishers, 614 of them women, 6,427 in the half, 6,125 in the 10 km and 3,341 in the 5 km [6].",
+        "The 2025 race had more than 23,000 runners from 81 countries, up more than 30% on 2024 [7]. The official results list 3,742 marathon finishers, 614 (16%) of them women, 6,427 in the half, 6,125 in the 10 km and 3,341 in the 5 km [6]. The marathon field grew by 44% on 2024's 2,590 finishers and the half by 39% on 4,628, but the medians barely moved: 4:42:03 in the marathon, three minutes slower than in 2024, and 2:36:00 in the half, six minutes slower [14][15].",
         "Ethiopian runners took the first four places in the men's marathon. Ayalew Seleshi Simaneh won in 2:23:13 after a surge in the second half, ahead of Wondale Melsew Baye (2:23:25) and Kebede Leta Girma (2:23:34) [7]; Damte Wendwesen Tilahun was fourth and Kogei Hosea of Kenya fifth [8]. Pham Thi Hong Le won the women's race in 2:48:10, ahead of three Ethiopians, with Doan Oanh fifth [7][8]. Tenth place was 2:33:02 for men and 3:05:20 for women, and 50th man ran 3:04:35 [6].",
-        "Behind the elites the field is a mass-participation one. Only 48 runners broke three hours, 8 of them women; 242 ran under 3:30 and 896 under four hours, about one in four finishers [6]. VnExpress, comparing races, counted the same 48 sub-3 runners among about 4,000 marathoners, against 134 at Hai Phong two weeks later [9]. A 120 million VND bonus for a Vietnamese record, under 2:18:42 for men or 2:39:49 for women [1], was far out of reach: the fastest Vietnamese man ran 2:27:25 [6]. The marathon winners each took 70 million VND [1].",
-        "The half was closer. Duong Minh Hung beat Pham Ngoc Phan by less than a second, both in 1:09:25 [7][8], and Hoang Thi Ngoc Anh won the women's race in 1:23:00.5 [6]. Tenth place in the half was 1:18:25 for men and 1:38:55 for women [6]."
+        "Behind the elites the field is a mass-participation one. Only 48 runners broke three hours, 8 of them women; 242 ran under 3:30 and 896 under four hours, about one in four finishers [6]. The median finisher took 4:42:03, one in ten took longer than 6:03, and 423 finished after six hours, all but seven of them inside the 6:30 limit [14]. VnExpress, comparing races, counted the same 48 sub-3 runners among about 4,000 marathoners, against 134 at Hai Phong two weeks later [9]. A 120 million VND bonus for a Vietnamese record, under 2:18:42 for men or 2:39:49 for women [1], was far out of reach: the fastest Vietnamese man ran 2:27:25 [6]. The marathon winners each took 70 million VND [1].",
+        "The half was closer. Duong Minh Hung beat Pham Ngoc Phan by less than a second, both in 1:09:25 [7][8], and Hoang Thi Ngoc Anh won the women's race in 1:23:00.5 [6]. Tenth place in the half was 1:18:25 for men and 1:38:55 for women [6]. Behind them, the median half marathoner took 2:36:00, 15% broke two hours and one in ten took longer than 3:30; 30% of finishers were women [14]. In the 10 km half the finishers were women, and the median was 1:34:43 [14]."
       ]
     },
     {
@@ -114,10 +126,10 @@
     {
       "heading": "Should You Enter the 2026 Race?",
       "paragraphs": [
-        "Yes, if you want a big, well-supplied city marathon with limits that suit run-walkers and first-timers, or a fast half marathon with a deep local field. The aid, the ice and the six-hour-30 limit are the strengths.",
+        "Yes, if you want a big, well-supplied city marathon with limits that suit run-walkers and first-timers, or a fast half marathon with a deep local field. The aid, the ice and the six-hour-30 limit are the strengths. In 2025 half the marathon field finished after 4:42, and 423 finishers came home after six hours, all but seven of them inside the limit, so a run-walk plan is normal here [14].",
         "Think twice if you want a personal best in cool air, a fully closed course, or a simple start-to-finish morning. The 2025 race started in 100% humidity, the roads were only partly closed, and the finish was across the river from the start.",
         "The organiser gives a tentative date of Sunday 6 December 2026 [12], and from 2026 the 5 km moves to its own day, Saturday 5 December [13]. The 2026 course and start times had not been published when this was written; the organiser still points runners to the 2025 course maps [3][12].",
-        "Nobody from this site ran the race. This review draws on the organiser's 2025 programme booklet, course maps and rules, the official results, airport weather records, the traffic police route notice and Vietnamese news reports."
+        "Nobody from this site ran the race. This review draws on the organiser's 2025 programme booklet, course maps and rules, the official 2024 and 2025 results, airport weather records, the traffic police route notice and Vietnamese news reports."
       ]
     }
   ],
@@ -213,6 +225,20 @@
       "publisher": "Techcombank Ho Chi Minh City International Marathon (organiser)",
       "url": "https://marathonhcmc.com/en/blog/get-ready-for-a-memorable-5km-experience-on-its-new-race-date/",
       "type": "official"
+    },
+    {
+      "n": 14,
+      "label": "Run SEA analysis of official results (Sportstats): 2025 race, all finishers",
+      "publisher": "Run SEA",
+      "url": "https://sportstats.one/event/techcombank-ho-chi-minh-city-international-marathon/leaderboard/145647",
+      "type": "other"
+    },
+    {
+      "n": 15,
+      "label": "Run SEA analysis of official results (Sportstats): 2024 race, all finishers",
+      "publisher": "Run SEA",
+      "url": "https://sportstats.one/event/techcombank-ho-chi-minh-city-international-marathon/leaderboard/142806",
+      "type": "other"
     }
   ],
   "faqs": [
@@ -241,8 +267,8 @@
       "answer": "No. In 2025 every finisher inside the time limit received a medal, but only marathon finishers received a finisher shirt, handed out in sizes by finishing order under the organiser's rules. Half marathon, 10 km and 5 km runners had the standard event shirt from their race kit."
     }
   ],
-  "editorial_notes": "Rewritten 2026-09-28 about the previous edition (7 December 2025), replacing a review built on a sponsor press release. Weather is from Tan Son Nhat airport METAR observations, not a forecast. Results are the official Sportstats results, counting ranked finishers only; 55 marathon finish reads without a ranking are excluded, and winners' times are as reported in the press. The organiser's 2026 website text says the 2025 marathon crossed Ba Son Bridge and finished at Bach Dang Wharf; the 2025 booklet, course map and police route notice put the marathon over Thu Thiem Bridge to Empire City, which is used. Registration growth is given as more than 30% (VnExpress) rather than the 28% in the sponsor release. No runner blogs could be read; RaceRaves blocked access. This is a different race from the HCMC Marathon held in January. No rating.",
+  "editorial_notes": "Rewritten 2026-09-28 about the previous edition (7 December 2025), replacing a review built on a sponsor press release. Weather is from Tan Son Nhat airport METAR observations, not a forecast. Results are the official Sportstats results, counting ranked finishers only; 55 marathon finish reads without a ranking are excluded, and winners' times are as reported in the press. The organiser's 2026 website text says the 2025 marathon crossed Ba Son Bridge and finished at Bach Dang Wharf; the 2025 booklet, course map and police route notice put the marathon over Thu Thiem Bridge to Empire City, which is used. Registration growth is given as more than 30% (VnExpress) rather than the 28% in the sponsor release. No runner blogs could be read; RaceRaves blocked access. This is a different race from the HCMC Marathon held in January. No rating. Updated 2026-11-06: medians, 90th percentile, milestone shares, % women and the change on 2024 added from a Run SEA analysis of the full Sportstats results for 2024 and 2025; its finisher counts match the ranked counts already used.",
   "published_at": "2026-08-05T13:05:00.000Z",
-  "last_updated": "2026-09-28",
+  "last_updated": "2026-11-06",
   "status": "active"
 }

@@ -6,7 +6,7 @@
   "seo_title": "Ijen Geopark Run Review: Course, Climb, Cold and Cut-offs",
   "meta_description": "Ijen Geopark Run 2026 review: 839 runners at Paltuding, a 21K that drops 440 m and climbs back, 5°C to 12°C expected at the start, cut-offs, aid, results and logistics.",
   "dek": "What the first Ijen Geopark Run was like on 23 August 2026: the downhill-then-uphill routes from Paltuding, the mountain cold, the cut-offs and aid, how fast the field ran, and getting to the start at 3am.",
-  "verdict": "Enter if you want a small, scenic highland race and are ready for a hard climb to the finish, not a fast half marathon. The first Ijen Geopark Run drew 839 runners to Paltuding, about 1,870 m up Mount Ijen, on 23 August 2026, with 5K, 10K and 21K routes that are mostly paved with some trail. Every route runs downhill first and climbs back: the 21K drops about 440 m by 8.4 km and climbs about 430 m in its last 8 km. Only 7 of 149 half-marathon finishers broke two hours. The start is cold, with 5°C to 12°C forecast by the organiser. Bring a jacket, and run the descent gently.",
+  "verdict": "Enter if you want a small, scenic highland race and are ready for a hard climb to the finish, not a fast half marathon. The first Ijen Geopark Run drew 839 runners to Paltuding, about 1,870 m up Mount Ijen, on 23 August 2026, with 5K, 10K and 21K routes that are mostly paved with some trail. Every route runs downhill first and climbs back: the 21K drops about 440 m by 8.4 km and climbs about 430 m in its last 8 km. Half the 149 half-marathon finishers took longer than 3 hours 21. The start is cold, with 5°C to 12°C forecast by the organiser. Bring a jacket, and run the descent gently.",
   "at_a_glance": {
     "heading": "The 2026 race in numbers",
     "rows": [
@@ -48,7 +48,11 @@
       },
       {
         "label": "21K field",
-        "value": "7 of 149 finishers under 2 hours; median 3:22"
+        "value": "149 finishers; first ten 1:37:58 to 2:24:53, median 3:21, slowest tenth over 4:18 (chip times); 14% women"
+      },
+      {
+        "label": "10K field",
+        "value": "221 finishers; median 1:35, slowest tenth over 1:57; 29% women"
       },
       {
         "label": "Entry fee (regular)",
@@ -92,7 +96,7 @@
       "heading": "How Fast the Field Was",
       "paragraphs": [
         "The 21K was won by Umar Ali Sofyan in 1:37:59, from Wildan Yusuf Furqoni in 1:39:23 and Martinus Ngongo in 1:40:50. Erica Balqis Zahra won the women's 21K in 2:25:21, from Aura Nazwa Rizkyka M in 2:36:26 and Dina Purwati in 3:07:00. Ivon Sholihin (46:57) and Fathiah Zahra Pramudya (52:39) won the 10K, and Azriel Wahyu (22:39) and Nadhifatul Ayda (28:01) the 5K [14].",
-        "Behind the winners the times are slow, as the climbing would suggest. Tenth man in the 21K ran 2:24:58. Only 7 of the 149 half-marathon finishers broke two hours, and the median was 3 hours 22 minutes; the 10K median was 1 hour 36 [11]. In 2026 a run under 2 hours 30 would have won the women's 21K.",
+        "Behind the winners the field spreads out over the climb. On chip time, the first ten of the 149 half-marathon finishers ran between 1:37:58 and 2:24:53, the median finisher took 3 hours 21, and the slowest tenth took more than 4 hours 18, close to the limit; eight chip times are slower than 4:30. Women made up 14% of 21K finishers, 21 runners [18]. In the 10K, the 221 finishers had a median of 1 hour 35 and a slowest tenth over 1 hour 57, with the first ten between 46:56 and 1:03:40; 29% were women [18]. In 2026 a run under 2 hours 30 would have won the women's 21K.",
         "Prize money went to the top three men and women in each race: Rp8 million to the 21K winners, Rp6 million in the 10K and Rp4 million in the 5K [15]. The published results list 620 finishers, 250 in the 5K, 221 in the 10K and 149 in the 21K [11], against 839 runners reported on the day [1]; the organiser's own results page gives 739 finishers [14]."
       ]
     },
@@ -109,7 +113,7 @@
       "heading": "Should You Enter the Next Ijen Geopark Run?",
       "paragraphs": [
         "Yes, if you want a small, scenic highland race and a reason to visit Ijen. The 5K suits families: a 24-year-old 5K runner from Banjarmasin brought their extended family on holiday and said a running route this beautiful is hard to find [1].",
-        "Think twice if you want a fast or flat half marathon. Every route finishes uphill, the 21K ends with about 430 m of climbing, and the start is cold and high. If you have not raced at altitude or on long climbs, the 10K is the safer choice.",
+        "Think twice if you want a fast or flat half marathon. Every route finishes uphill, the 21K ends with about 430 m of climbing, and the start is cold and high. Plan for a long morning: in 2026 the slowest tenth of 21K finishers took more than 4 hours 18, against a limit of four or four and a half hours. If you have not raced at altitude or on long climbs, the 10K is the safer choice.",
         "No date for a second Ijen edition had been announced by late September 2026. The series moves on to Minang on 1 November 2026, Ciletuh on 17 January 2027 and Belitong on 18 April 2027 [5].",
         "Nobody from this site ran the race. This review draws on the organiser's race information and route files, the published timing results, airport weather records, and Indonesian news reports, including runners' comments to reporters."
       ]
@@ -241,6 +245,13 @@
       "publisher": "Ijen Geopark Run (organiser)",
       "url": "https://ijen.geoparkrun.com/our-journey",
       "type": "official"
+    },
+    {
+      "n": 18,
+      "label": "Run SEA analysis of official results (NCI)",
+      "publisher": "Run SEA",
+      "url": "https://app.nci.co.id/timingrace/race-result/7",
+      "type": "other"
     }
   ],
   "faqs": [
@@ -254,7 +265,7 @@
     },
     {
       "question": "What are the cut-off times at the Ijen Geopark Run?",
-      "answer": "In 2026 the race page gave 1.5 hours for the 5K, 2.5 hours for the 10K and 4.5 hours for the 21K, while the FAQ gave the 21K four hours. The published results list ten 21K finishers slower than 4:30, so check which limit applies before entering."
+      "answer": "In 2026 the race page gave 1.5 hours for the 5K, 2.5 hours for the 10K and 4.5 hours for the 21K, while the FAQ gave the 21K four hours. The published results list eight 21K finishers slower than 4:30 on chip time, so check which limit applies before entering."
     },
     {
       "question": "Is the Ijen Geopark Run a road race or a trail race?",
@@ -262,15 +273,15 @@
     },
     {
       "question": "How fast were the winners at the Ijen Geopark Run?",
-      "answer": "Not very fast, because of the climbing. In 2026 the men's 21K was won in 1:37:59 and the women's in 2:25:21, and only 7 of 149 half-marathon finishers broke two hours; the median was 3 hours 22. The 10K winners ran 46:57 and 52:39."
+      "answer": "Not very fast, because of the climbing. In 2026 the men's 21K was won in 1:37:59 and the women's in 2:25:21, and tenth man ran 2:24:58. The median 21K finisher took 3 hours 21 and the slowest tenth more than 4 hours 18. The 10K winners ran 46:57 and 52:39, and the 10K median was 1 hour 35."
     },
     {
       "question": "How do you get to the start of the Ijen Geopark Run?",
       "answer": "By the official shuttle, or your own transport to Paltuding, where parking is limited. In 2026 the shuttle cost Rp90,000 return and left at 3am from the geopark information centre in Banyuwangi and from Bondowoso. Race packs must be collected before race day."
     }
   ],
-  "editorial_notes": "Rewritten 2026-09-29 about the first edition, run on 23 August 2026; replaces the 2026-09-28 version. There is no weather station near Paltuding; the Banyuwangi airport METAR is given only to show the coast is not the start, and the start temperatures are the organiser's pre-race BMKG-based forecast, labelled as such. Elevation figures come from the terrain data behind the organiser's Plotaroute route files, not from an organiser profile. Field statistics are computed from the full public timing results (620 finishers); the organiser's results page gives 739 finishers and averages that do not match the timing data, so its averages are not used. News reports give a 5am flag-off; the timing data records 5.30am to 5.50am gun times; both are given. The race page and FAQ disagree on the 21K cut-off (4.5 vs 4 hours); both are given. Runners quoted in the press are described, not named. ANTARA was not used. No rating.",
+  "editorial_notes": "Rewritten 2026-09-29 about the first edition, run on 23 August 2026; replaces the 2026-09-28 version. There is no weather station near Paltuding; the Banyuwangi airport METAR is given only to show the coast is not the start, and the start temperatures are the organiser's pre-race BMKG-based forecast, labelled as such. Elevation figures come from the terrain data behind the organiser's Plotaroute route files, not from an organiser profile. Field statistics are computed from the full public timing results (620 finishers); the organiser's results page gives 739 finishers and averages that do not match the timing data, so its averages are not used. News reports give a 5am flag-off; the timing data records 5.30am to 5.50am gun times; both are given. The race page and FAQ disagree on the 21K cut-off (4.5 vs 4 hours); both are given. Runners quoted in the press are described, not named. ANTARA was not used. No rating. Updated 2026-11-06 with Run SEA analysis of the NCI results using chip times (gun time where the chip start is missing or implausible), which replaces the earlier gun-time figures: 21K median 3:21 (was 3:22), 10K median 1:35 (was 1:36), eight 21K chip times over 4:30 (ten on gun time). The course is a mountain course, so road-time milestones are not used.",
   "published_at": "2026-08-09T06:30:00.000Z",
-  "last_updated": "2026-09-28",
+  "last_updated": "2026-11-06",
   "status": "active"
 }

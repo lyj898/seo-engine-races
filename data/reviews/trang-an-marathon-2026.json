@@ -59,6 +59,10 @@
         "value": "1:16:33 (men), 1:33:45 (women)"
       },
       {
+        "label": "Marathon depth (2022, latest full results)",
+        "value": "179 finishers; top ten 2:58:13 to 3:26:29; median 5:00:02; 16% under four hours"
+      },
+      {
         "label": "Finisher items",
         "value": "Medal for every distance; finisher tee for the marathon only"
       },
@@ -97,7 +101,8 @@
       "paragraphs": [
         "Ho Quang Binh won the marathon in 2:38:38, from Kenya's Hillary Kipchumba Kimutai in 2:39:21 and Nguyen Mai Trung in 2:40:54 [10][7]. That was 30 seconds outside the men's course record of 2:38:08 listed in the athlete booklet, and breaking a course record paid a 5,000,000 VND bonus [1].",
         "The women's race was closer: Pham Thi My Duyen won in 3:13:37, one second ahead of Hoang Huong Thuy, with Nguyen Thi Hai Yen third in 3:18:36 [10][7]. The women's course record is 2:57:14 [1]. Nguyen Thi Oanh, a past winner, missed the 2025 race to prepare for the SEA Games [5]. The half marathon went to Le Van Thao in 1:16:33 and Bui Thi Binh in 1:33:45 [7].",
-        "Prize money ran to 15,000,000 VND for the marathon winners, 8,000,000 for second and 6,000,000 for third, and 10,000,000 VND for the half-marathon winners [1]. From 2025 the marathon also paid age-group prizes in five bands, from under 30 to over 60, with 2,000,000 VND for each band winner [8]."
+        "Prize money ran to 15,000,000 VND for the marathon winners, 8,000,000 for second and 6,000,000 for third, and 10,000,000 VND for the half-marathon winners [1]. From 2025 the marathon also paid age-group prizes in five bands, from under 30 to over 60, with 2,000,000 VND for each band winner [8].",
+        "The latest full results are from the much smaller 2022 race [15]. That year 179 runners finished the marathon, 13% of them women. The top ten ran between 2:58:13 and 3:26:29, only 29 broke four hours, the median was 5:00:02 and one in ten took longer than 6:05; nobody finished outside 6:30 [15]. The half marathon had 701 finishers, with a top ten between 1:21:24 and 1:28:34, a median of 2:27:38 and one in five under two hours; 23 came in after 3:30. The 10 km had 436 finishers and a median of 1:23:36 [15]. The 2025 field was many times larger, so treat these as a guide to the pace of the race rather than its size."
       ]
     },
     {
@@ -110,10 +115,10 @@
     {
       "heading": "Should You Enter the 2026 Race?",
       "paragraphs": [
-        "Yes, if you want a flat, certified marathon with a limit that suits walk-run finishers, pacers down to five hours, and a route through the Trang An heritage area and past its pagodas rather than city streets. The half marathon and 10 km use the same heritage roads with less time on your feet.",
+        "Yes, if you want a flat, certified marathon with a limit that suits walk-run finishers, pacers down to five hours, and a route through the Trang An heritage area and past its pagodas rather than city streets. In 2022, the last year with full results, half the marathon field took longer than five hours and nobody finished outside the limit [15]. The half marathon and 10 km use the same heritage roads with less time on your feet.",
         "Think twice if you need cool, dry air for a personal best, if long out-and-back legs wear on you, or if you cannot get to Ninh Binh on the Friday or Saturday to collect your bib.",
         "The 2026 race is on Sunday 15 November [13]. The standard 2026 fees on iRace run from 659,000 VND for the 5 km to 1,159,000 VND for the marathon [14]. The organiser's site still lists 2026 start times, time limits and route maps as to be updated, and the 5 km minimum age rises from 6 to 10 [13], so check the maps before you plan your pacing.",
-        "Nobody from this site ran the race. This review draws on the organiser's route maps, athlete booklet, schedule and rules, national and provincial reporting in Vietnamese and English, and airport weather records."
+        "Nobody from this site ran the race. This review draws on the organiser's route maps, athlete booklet, schedule and rules, national and provincial reporting in Vietnamese and English, the 2022 results and airport weather records."
       ]
     }
   ],
@@ -216,6 +221,13 @@
       "publisher": "iRace",
       "url": "https://ticket.irace.vn/trang-an-marathon-2026",
       "type": "registration_platform"
+    },
+    {
+      "n": 15,
+      "label": "Run SEA analysis of official results (Sportstats): 2022 race, all finishers",
+      "publisher": "Run SEA",
+      "url": "https://sportstats.one/event/trang-an-marathon/leaderboard/117747",
+      "type": "other"
     }
   ],
   "faqs": [
@@ -244,8 +256,8 @@
       "answer": "It depended on when you entered. The marathon cost 849,000 VND at the early price, 1,149,000 VND standard and 1,399,000 VND late; the 5 km ran from 569,000 to 799,000 VND. Fees were not refundable. The standard 2026 fees listed on iRace are 659,000 VND to 1,159,000 VND."
     }
   ],
-  "editorial_notes": "Written 2026-09-29 about the fifth edition (9 November 2025). Weather is from Noi Bai airport METAR observations, roughly 110 km from the course; no nearer station reports. Viet Nam News dates the race 10 November; the organiser and other papers say 9 November, which is used. The organiser's archived rules page carried a stale 2023 schedule and different 10 km/5 km limits and transfer terms; the race-week schedule, route maps and athlete booklet are used for times and limits, and no transfer fee is stated. No full results or runner accounts were found, so only podium times are given. No rating.",
+  "editorial_notes": "Written 2026-09-29 about the fifth edition (9 November 2025). Weather is from Noi Bai airport METAR observations, roughly 110 km from the course; no nearer station reports. Viet Nam News dates the race 10 November; the organiser and other papers say 9 November, which is used. The organiser's archived rules page carried a stale 2023 schedule and different 10 km/5 km limits and transfer terms; the race-week schedule, route maps and athlete booklet are used for times and limits, and no transfer fee is stated. No full results or runner accounts were found, so only podium times are given. No rating. Updated 2026-11-06: no full 2025 results are on file; field depth from a Run SEA analysis of the full 2022 Sportstats results is added as the latest available, labelled as such. The 2022 10 km gender labels look unreliable (the fastest listed woman beat every listed man by six minutes), so no gender split is given for the 10 km.",
   "published_at": "2026-09-29T12:00:00.000Z",
-  "last_updated": "2026-09-28",
+  "last_updated": "2026-11-06",
   "status": "active"
 }

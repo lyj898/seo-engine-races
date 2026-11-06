@@ -2,83 +2,170 @@
   "review_id": "minang-geopark-run-2026",
   "slug": "minang-geopark-run-2026",
   "entity_id": "minang-geopark-run-2026",
-  "title": "Minang Geopark Run 2026 Review: Racing Past Sumatra's Iconic Clock Tower",
-  "seo_title": "Minang Geopark Run 2026 Review | Bukittinggi, Sumatra",
-  "meta_description": "Minang Geopark Run 2026 review: November 1 near Jam Gadang and Ngarai Sianok canyon -- the second leg of the Geopark Run Series in West Sumatra.",
-  "dek": "Set for 1 November 2026 around Jam Gadang and the Ngarai Sianok canyon in Bukittinggi, this is the second leg of the Geopark Run Series, following the Ijen Geopark Run's debut earlier in the calendar.",
-  "verdict": "The Minang Geopark Run puts runners next to two of West Sumatra's most iconic landmarks: Jam Gadang, a 26-metre clock tower built in 1926 as a gift from Queen Wilhelmina, and Ngarai Sianok, a roughly 100-metre deep, 15-kilometre-long canyon home to rare rafflesia and medicinal plants. As the second leg of the Geopark Run Series (following the Ijen Geopark Run covered elsewhere in this research), it carries the series' established branding into a completely different, canyon-and-colonial-landmark landscape. Three distances (5K/10K/21.1K) with open registration make this an accessible pick for runners who want genuinely dramatic Sumatran scenery.",
+  "title": "Minang Geopark Run 2026 Review: What the 2026 Race Was Like",
+  "seo_title": "Minang Geopark Run 2026 Review: Bukittinggi Course, Cut-offs, Times",
+  "meta_description": "Minang Geopark Run 2026 review: roads and trail sections from Jam Gadang, 19°C at the 6am start, a four-hour half-marathon cut-off and a slow field: median 3:05.",
+  "dek": "What the 1 November 2026 race in Bukittinggi was like: the mixed road and trail course, the cool, wet air at 930 m, aid stations and cut-offs, and how the half-marathon and 10 km fields ran against them.",
+  "verdict": "Enter if you want a scenic, hilly race in the West Sumatra highlands and are happy to run slowly. The 2026 race started beside Jam Gadang in Bukittinggi, at about 930 m, with several trail sections on the half marathon. It was 19°C with 98% humidity at the 6am start, and a little rain fell in the second hour. The field of 723 half-marathon and 916 10 km finishers was slow: the median half marathoner took 3:05, and one in eight finished in the last quarter of an hour before the four-hour cut-off. Only 4% of half marathoners broke two hours.",
+  "at_a_glance": {
+    "heading": "The 2026 race in numbers",
+    "rows": [
+      { "label": "Date", "value": "Sunday 1 November 2026, the race's eighth year" },
+      { "label": "Start and finish", "value": "Jalan Perintis Kemerdekaan, beside the Jam Gadang race village, Bukittinggi" },
+      { "label": "Start times (official results)", "value": "Half marathon 6.00am, 10 km 6.30am, 5 km 6.45am" },
+      { "label": "Cut-offs", "value": "Half marathon 4 hours, 10 km 2 hours 30, 5 km 1 hour 30" },
+      { "label": "Weather at the 6am start", "value": "19°C, dew point 19°C, 98% humidity, almost no wind (modelled, Open-Meteo)" },
+      { "label": "Weather at the 10am half-marathon cut-off", "value": "24°C, 85% humidity, light rain from about 7am (modelled)" },
+      { "label": "Course", "value": "Half marathon and 10 km mostly paved with trail sections; 5 km on roads" },
+      { "label": "Aid", "value": "Water about every 2.5 km" },
+      { "label": "Finishers", "value": "Half marathon 723, 10 km 916" },
+      { "label": "Half-marathon times", "value": "Top ten 1:24 to 1:49; median 3:05; 90% done by 3:48; 4% under 2:00, 19% under 2:30" },
+      { "label": "10 km times", "value": "Top ten 38:37 to 51:31; median 1:40; 2% under 1:00" },
+      { "label": "Women in the field", "value": "Half marathon 15%, 10 km 31%" },
+      { "label": "Prize money", "value": "Top three men and women; Rp13 million for first in the half marathon" }
+    ]
+  },
   "sections": [
     {
-      "heading": "The Series' Second Leg",
+      "heading": "The Course: Highland Roads With Trail Sections",
       "paragraphs": [
-        "Minang Geopark Run offers 5K, 10K and 21.1K distances around the Jam Gadang / Ngarai Sianok area of Bukittinggi, West Sumatra. [1] It's the second leg of the Geopark Run Series, following the inaugural Ijen Geopark Run covered elsewhere in this research batch -- giving this event the benefit of a proven organisational template even though Bukittinggi's landscape is entirely different from Ijen's volcanic highlands."
+        "The race starts and finishes on Jalan Perintis Kemerdekaan in Bukittinggi, beside the race village at Jam Gadang, the city's clock tower [1]. The race is part of the Geopark Run Series and is set in the Sianok–Maninjau geopark of the West Sumatra highlands; 2026 was its eighth year and the second race of the 2026–2027 series, after Ijen [2].",
+        "The half marathon and 10 km are mostly on paved roads but include trail sections where the surface changes; the 5 km stays on roads [1]. Running clubs quoted by the organiser call the course challenging but beautiful, with geopark scenery along the way [3]. Train on hills and on uneven ground, and use shoes you trust off the tarmac."
       ]
     },
     {
-      "heading": "Racing Past a Colonial-Era Clock Tower",
+      "heading": "The Weather: Cool, Saturated and Showery",
       "paragraphs": [
-        "Jam Gadang -- Minangkabau for 'Big Clock' -- is a 26-metre clock tower and Bukittinggi's most recognisable landmark, built in 1926 during the Dutch colonial era as a gift from Queen Wilhelmina to the city's controleur. [2] Running past a structure this historically loaded gives the course genuine local character beyond a generic city-street race."
+        "Open-Meteo's historical model for central Bukittinggi, at 935 m, gives 19°C at 6am on race morning, with a dew point of 19°C, 98% humidity and almost no wind [4]. It warmed slowly, to 21°C at 7am, 22°C at 9am and 24°C with 85% humidity at 10am, when the half marathon closed. The model has light rain between about 7am and 10am, under a millimetre an hour [4].",
+        "These are modelled figures, used because the nearest airport, Padang, is at sea level and much hotter. The air is cooler than on the coast but almost fully saturated, so sweat barely evaporates. Expect wet surfaces on the trail sections if the showers come again."
       ]
     },
     {
-      "heading": "Alongside a Dramatic Canyon",
+      "heading": "Aid Stations and Cut-offs",
       "paragraphs": [
-        "Ngarai Sianok is a steep valley roughly 100 metres deep and 15 kilometres long, running from south of Koto Gadang to Sianok Anam Suku village. [3] The canyon is home to rare rafflesia and medicinal plants along its edges, and can be navigated by canoe or kayak via the Batang Sianok river running through it -- a genuinely dramatic natural backdrop for a road race."
+        "The organiser promised water about every 2.5 km, and the race centre opened at 5.30am, with a bag drop for runners wearing a bib [5]. The official results show the half marathon starting at 6am, the 10 km at 6.30am and the 5 km at 6.45am [6].",
+        "The cut-offs were four hours for the half marathon, two and a half hours for the 10 km and an hour and a half for the 5 km [7]. For this field they bite. In the half marathon, 92 of the 723 finishers, or 13%, came in during the last 15 minutes before the four-hour limit, and three were outside it. In the 10 km, 68 finished in the last 15 minutes and 14 (1.5%) after the limit [6].",
+        "Finishers received a medal, an e-certificate and refreshments; half marathoners also got a finisher jersey [5]."
       ]
     },
     {
-      "heading": "A Young Series With Real Ambition",
+      "heading": "How Fast the Field Is",
       "paragraphs": [
-        "As only the second leg of a multi-year Geopark Run Series, there's limited independent track record yet, similar to the situation with the Ijen leg covered elsewhere in this research. [1] But the series' consistent branding and organisational approach across genuinely different Indonesian landscapes (volcanic highlands, then canyon country) suggests real ambition to establish a recognisable regional race brand."
+        "The official results list 723 half-marathon and 916 10 km finishers; the 5 km is not included [6].",
+        "The half marathon was won in 1:24:12, and the top ten finished between 1:24 and 1:49. The median finisher took 3:05:12; only 4% broke two hours, 19% broke two and a half, and 90% were done by 3:47:54. Women were 15% of finishers, and the fastest woman ran 1:41:48 [6].",
+        "In the 10 km the top ten ran 38:37 to 51:31, the median was 1:39:41, only 2% broke an hour and 90% were done by 2:13:12. Women were 31% of 10 km finishers [6].",
+        "Those are slow times, which reflects the hills, the trail sections and a field of mostly recreational runners. Prize money goes to the top three men and women in each distance, from Rp13 million for the half-marathon winner down to Rp2 million for third in the 5 km [8]; the top ten in the half marathon all ran under 1:49."
       ]
     },
     {
-      "heading": "Should You Run It?",
+      "heading": "Race Weekend Logistics",
       "paragraphs": [
-        "If you want a race through some of West Sumatra's most photogenic landmarks -- a colonial clock tower and a dramatic canyon -- the Minang Geopark Run on 1 November 2026 is a genuinely scenic pick. Registration is open now across all three distances."
+        "Race packs were collected on Friday 30 October, 2pm to 7pm, and Saturday 31 October, 9am to 7pm. There was no collection on race day and no posting of packs; a friend could collect with a signed authorisation and a copy of your ID [5]. Parking near the start was limited [5].",
+        "For runners flying in, the organiser arranged a DAMRI bus from Minangkabau International Airport and from the Masjid Raya Sumatera Barat in Padang to Pasa Ateh in Bukittinggi, at 11am and 4pm on the Friday and Saturday, for Rp45,000 a person [9].",
+        "Entry fees cannot be refunded, and categories and jersey sizes cannot be changed after payment [5]."
+      ]
+    },
+    {
+      "heading": "Should You Enter the Next Minang Geopark Run?",
+      "paragraphs": [
+        "Yes, if you want a highland race with scenery, cooler air than the coast and a big turnout of running clubs. A runner who can go under two hours for a road half marathon is near the front here.",
+        "Think twice if you are not used to hills or trail surfaces and expect to be close to three and a half hours: one in eight half-marathon finishers in 2026 was racing the four-hour clock at the end. Check the next date with the organiser before booking travel.",
+        "This review draws on the organiser's race information, modelled weather data and the official results."
       ]
     }
   ],
-  "pull_quotes": [],
+  "pull_quotes": [
+    {
+      "quote": "a challenging but beautiful running route",
+      "attribution": "Karambia Runners, a running club, on the organiser's site (translated from Indonesian)",
+      "source_url": "https://minang.geoparkrun.com/their-stories.html"
+    }
+  ],
   "sources": [
     {
       "n": 1,
-      "label": "Geopark Run Series — official site",
-      "publisher": "Geopark Run Series",
-      "url": "https://geoparkrun.com",
+      "label": "Race-day information: date, start and finish, and course surfaces",
+      "publisher": "Minang Geopark Run (organiser)",
+      "url": "https://minang.geoparkrun.com/race-day.html",
       "type": "official"
     },
     {
       "n": 2,
-      "label": "Jam Gadang — Wikipedia",
-      "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Jam_Gadang",
-      "type": "other"
+      "label": "Official Minang Geopark Run 2026 site: date, edition, series and organisers",
+      "publisher": "Minang Geopark Run (organiser)",
+      "url": "https://minang.geoparkrun.com/",
+      "type": "official"
     },
     {
       "n": 3,
-      "label": "Ngarai Sianok — Wikipedia bahasa Indonesia",
-      "publisher": "Wikipedia",
-      "url": "https://id.wikipedia.org/wiki/Ngarai_Sianok",
+      "label": "Runners' and running clubs' comments on the race (in Indonesian)",
+      "publisher": "Minang Geopark Run (organiser)",
+      "url": "https://minang.geoparkrun.com/their-stories.html",
+      "type": "official"
+    },
+    {
+      "n": 4,
+      "label": "Modelled hourly weather for Bukittinggi (935 m), 1 November 2026",
+      "publisher": "Open-Meteo historical weather API",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=-0.305&longitude=100.369&start_date=2026-11-01&end_date=2026-11-01&hourly=temperature_2m,relative_humidity_2m,dew_point_2m,wind_speed_10m,precipitation&timezone=Asia%2FJakarta",
       "type": "other"
+    },
+    {
+      "n": 5,
+      "label": "2026 FAQ: race-pack collection, water stations, bag drop, finisher items, parking and refunds (in Indonesian)",
+      "publisher": "Minang Geopark Run (organiser)",
+      "url": "https://minang.geoparkrun.com/faq.html",
+      "type": "official"
+    },
+    {
+      "n": 6,
+      "label": "Run SEA analysis of official results (NCI)",
+      "publisher": "NCI timing",
+      "url": "https://app.nci.co.id/timingrace/race-result/10",
+      "type": "other"
+    },
+    {
+      "n": 7,
+      "label": "2026 categories and cut-off times",
+      "publisher": "Minang Geopark Run (organiser)",
+      "url": "https://minang.geoparkrun.com/running-categories.html",
+      "type": "official"
+    },
+    {
+      "n": 8,
+      "label": "2026 prize money",
+      "publisher": "Minang Geopark Run (organiser)",
+      "url": "https://minang.geoparkrun.com/race-reward.html",
+      "type": "official"
+    },
+    {
+      "n": 9,
+      "label": "2026 DAMRI shuttle from the airport and Padang to Bukittinggi",
+      "publisher": "Minang Geopark Run (organiser)",
+      "url": "https://minang.geoparkrun.com/shuttle.html",
+      "type": "official"
     }
   ],
   "faqs": [
     {
-      "question": "When and where is the Minang Geopark Run 2026?",
-      "answer": "1 November 2026, around the Jam Gadang / Ngarai Sianok area of Bukittinggi, West Sumatra. Three distances are offered: 5K, 10K and 21.1K. Registration is currently open through the official Geopark Run Series website. [1]"
+      "question": "What are the cut-off times at the Minang Geopark Run?",
+      "answer": "In 2026 the limits were four hours for the half marathon, two and a half hours for the 10 km and an hour and a half for the 5 km. They are tighter than they look for this field: 13% of half-marathon finishers came in during the last 15 minutes before four hours, and 1.5% of 10 km finishers were outside the limit."
     },
     {
-      "question": "What is Jam Gadang?",
-      "answer": "A 26-metre clock tower and Bukittinggi's most iconic landmark, built in 1926 during the Dutch colonial era as a gift from Queen Wilhelmina. The race route passes near this and the Ngarai Sianok canyon. [2]"
+      "question": "Is the Minang Geopark Run course hilly or off-road?",
+      "answer": "Both, in part. The half marathon and 10 km run mostly on paved roads around Bukittinggi but include trail sections where the surface changes; the 5 km stays on roads. The city sits at about 930 m in the West Sumatra highlands, and the median half marathoner took 3:05 in 2026, a sign of a demanding course."
     },
     {
-      "question": "Is this related to the Ijen Geopark Run?",
-      "answer": "Yes -- Minang Geopark Run is the second leg of the same Geopark Run Series that launched with the Ijen Geopark Run, carrying the series' branding into a completely different Sumatran canyon landscape. [1]"
+      "question": "What is the weather like at the Minang Geopark Run?",
+      "answer": "Cool and very humid. At the 6am start on 1 November 2026, Open-Meteo's historical model for Bukittinggi gives 19°C with 98% humidity and almost no wind, rising to 24°C by the 10am half-marathon cut-off, with light rain from about 7am. It is cooler than the coast, but sweat barely evaporates in air that wet."
+    },
+    {
+      "question": "How do you get to Bukittinggi for the Minang Geopark Run?",
+      "answer": "In 2026 the organiser ran a DAMRI bus from Minangkabau International Airport and from the Masjid Raya Sumatera Barat in Padang to Pasa Ateh in Bukittinggi, at 11am and 4pm on the Friday and Saturday before the race, for Rp45,000 a person. Race packs had to be collected in person or by a friend before race day."
     }
   ],
-  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. The Geopark Run Series began in August 2026 (at Ijen), so this leg has no earlier edition. The URL redirects to the race listing.",
+  "editorial_notes": "Reinstated 2026-11-06: withdrawn 2026-09-28 because there was no earlier edition to review; official results for the 1 November 2026 race (NCI data dated 1 November 2026) now confirm it ran, and this review covers that edition. Field numbers are a Run SEA analysis of the NCI results (723 half-marathon and 916 10 km finishers; 5 km not included); start times are the gun times in those results. No earlier edition's results are held, so no year-on-year comparison. Weather is Open-Meteo historical model data for central Bukittinggi (grid elevation 935 m), used instead of airport METAR because Padang airport is at sea level. An Indonesia.travel listing gave 25 October 2026 as race day; the organiser's site and the results both say 1 November, which is used. The organiser's FAQ places the start at Jam Gadang and its race-day page on Jalan Perintis Kemerdekaan beside the race village; both are given. No route map or report of the 2026 race was found. Runners are not named. No rating.",
   "published_at": "2026-08-09T08:30:00.000Z",
-  "last_updated": "2026-09-28",
-  "status": "archived"
+  "last_updated": "2026-11-06",
+  "status": "active"
 }

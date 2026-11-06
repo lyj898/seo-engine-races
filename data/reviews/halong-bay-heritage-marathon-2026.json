@@ -16,7 +16,7 @@
       },
       {
         "label": "Field",
-        "value": "Over 14,000 runners, more than 3,000 from abroad (organiser's figure); 2,579 marathon and 3,425 half-marathon finishers"
+        "value": "Over 14,000 runners, more than 3,000 from abroad (organiser's figure); 2,579 marathon, 3,424 half-marathon and 2,069 10 km finishers"
       },
       {
         "label": "Start times",
@@ -51,6 +51,18 @@
         "value": "2:32:35 (men), 3:09:02 (women)"
       },
       {
+        "label": "Marathon spread",
+        "value": "Median 4:08, slowest tenth over 5:30; 46% under four hours, 81% under five; 20% women"
+      },
+      {
+        "label": "Half-marathon spread",
+        "value": "Median 2:20, slowest tenth over 3:05; 26% under two hours; 35% women"
+      },
+      {
+        "label": "Change from 2024",
+        "value": "Marathon finishers down 18% (3,135 to 2,579), median 12 minutes faster; half marathon down 7%"
+      },
+      {
         "label": "Entry fee",
         "value": "650,000 VND for the marathon at the April–May 2025 promotional price"
       },
@@ -64,7 +76,7 @@
     {
       "heading": "The Course: Out and Back Along the Coast Road",
       "paragraphs": [
-        "The 2025 race was on Sunday 23 November [1], in the race's tenth anniversary year [2], and the organiser put the field at over 14,000 runners, more than 3,000 of them from abroad [3]. The marathon started at 4am, the half marathon at 5am, the 10 km at 6am and the 5 km at 7.30am [1]. The results list 2,579 marathon and 3,425 half-marathon finishers [4].",
+        "The 2025 race was on Sunday 23 November [1], in the race's tenth anniversary year [2], and the organiser put the field at over 14,000 runners, more than 3,000 of them from abroad [3]. The marathon started at 4am, the half marathon at 5am, the 10 km at 6am and the 5 km at 7.30am [1]. The results list 2,579 marathon, 3,424 half-marathon and 2,069 10 km finishers [22].",
         "The marathon starts on Tran Quoc Nghien street by 30/10 Square in Ha Long, runs east along Tran Quoc Nghien onto the Ha Long–Cam Pha coast road, turns just before the road into the KM6 Quang Hanh fuel depot, and comes back the same way to finish on 30/10 street beside the provincial exhibition centre [3]. The shorter races use the western part of the same road: the half marathon turns on a bridge past the Khe Ca interchange, the 10 km turns at the Tran Thai Tong–Ngo Thi Nham junction, and the 5 km turns near Bai Tho bridge 2 [3].",
         "Marathon runners go through a tunnel on the coast road [5]. The organiser warned that the course includes a mountain tunnel and other complex traffic zones, and asked runners not to train through those sections before or after race day [6]. The marathon's checkpoints at 16.5 km and 26 km sit on the stretch from the tunnel exit to the Quang Hanh roundabout [7], so the tunnel comes before 16.5 km on the way out and after 26 km on the way back.",
         "The organiser says the 2025 course had fewer sharp turns than before and was fully closed to traffic [6], in both directions [8]. AIMS describes it as a straight and flat course [9]. The 2026 route map, published in January 2026, shows the same course, U-turn and station layout as 2025 [10]."
@@ -89,7 +101,8 @@
       "heading": "How Fast the Field Is",
       "paragraphs": [
         "Kennedy Kiprop Chelimo won the marathon in 2:13:57, a race record [8], which Nguoi Lao Dong called a record for a marathon held in Vietnam [2]. Five men broke 2:19, and the first Vietnamese man, Huynh Anh Khoi, was sixth in 2:23:33. Caroline Jepkemei Kimosop won the women's race in 2:43:26, from Naomi Jepkogei Maiyo in 2:44:15 and Pham Thi Hong Le in 2:48:05 [4].",
-        "Tenth place in the marathon was 2:32:35 for men and 3:09:02 for women. In the half marathon, Edwin Yebei Kiptoo won in 1:11:24 and Doan Thi Oanh in 1:19:53, and tenth place was 1:18:06 and 1:29:39 [4]. Behind the front, this is a big, fairly quick field: the median marathon finisher took 4:08:12, 86 of the 2,579 finishers broke three hours and 1,182 broke four [4].",
+        "Tenth place in the marathon was 2:32:35 for men and 3:09:02 for women. In the half marathon, Edwin Yebei Kiptoo won in 1:11:24 and Doan Thi Oanh in 1:19:53, and tenth place was 1:18:06 and 1:29:39 [4]. Behind the front, this is a big, fairly quick field. The median marathon finisher took 4:08 and the slowest tenth more than 5:30; 86 of the 2,579 finishers broke three hours, 46% broke four and 81% broke five, and 20% were women [22]. In the half marathon the 3,424 finishers had a median of 2:20 and a slowest tenth over 3:05, 26% broke two hours, and 35% were women. The 10 km had 2,069 finishers, a median of 1:20, and as many women as men [22].",
+        "The marathon field was smaller in 2025 than in 2024 but much faster. Marathon finishers fell by 18%, from 3,135 to 2,579, while the median improved by 12 minutes, from 4:21 to 4:08, and the share under four hours rose from 39% to 46%. The half marathon shrank by 7%, from 3,679 to 3,424 finishers, with a median five minutes faster; the 10 km grew by 11%, to 2,069 [22][23].",
         "The organiser offered a 300 million VND bonus to the first man under 2:05 and the first woman under 2:30, and 20 million VND each to the first Vietnamese man and woman [3]."
       ]
     },
@@ -104,8 +117,8 @@
     {
       "heading": "Should You Enter the 2026 Race?",
       "paragraphs": [
-        "Yes, if you want a fast, closed-road marathon in cool air, or a first marathon on a course with water every couple of kilometres. The front of the race is quick, but the median finish time is a realistic target for a trained club runner.",
-        "Think twice if you expect to take more than about six hours, because the 26 km checkpoint comes early, or if you do not want a three-and-a-half-hour transfer from Hanoi on either side of the race.",
+        "Yes, if you want a fast, closed-road marathon in cool air, or a first marathon on a course with water every couple of kilometres. The front of the race is quick, but the median finish of 4:08 is a realistic target for a trained club runner, and nine in ten 2025 finishers were home inside 5:30.",
+        "Think twice if you expect to take more than about six hours, because the 26 km checkpoint comes early: in 2025 only the slowest tenth of finishers took longer than 5:30, so a six-hour pace leaves you near the back with little margin. Think twice, too, if you do not want a three-and-a-half-hour transfer from Hanoi on either side of the race.",
         "The 2026 race is on Sunday 22 November, the 11th edition, with the race weekend running from 20 November [8]. The organiser has published the same start times as in 2025 [20] and the same course [10]. In 2025 the cut-off table came out three days before the race [7], so check it before you settle on a pace plan. In August 2026 Quang Ninh police warned about fake social-media pages selling bibs and discounts for the race, and advised registering only through official channels [21].",
         "Nobody from this site ran the race. This review draws on the organiser's guidebook, notices and maps, the full results, airport weather records, Vietnamese and English-language news reports, and runners' comments to the press."
       ]
@@ -265,6 +278,20 @@
       "publisher": "Dan Tri",
       "url": "https://dantri.com.vn/phap-luat/fanpage-gia-mao-giai-chay-marathon-quoc-te-di-san-ha-long-de-lua-dao-20260819084709242.htm",
       "type": "news"
+    },
+    {
+      "n": 22,
+      "label": "Run SEA analysis of official results (SportStats)",
+      "publisher": "Run SEA",
+      "url": "https://sportstats.one/event/halong-bay-heritage-marathon/leaderboard/145485",
+      "type": "other"
+    },
+    {
+      "n": 23,
+      "label": "Run SEA analysis of official results (SportStats), 2024 race",
+      "publisher": "Run SEA",
+      "url": "https://sportstats.one/event/halong-bay-heritage-marathon/leaderboard/142740",
+      "type": "other"
     }
   ],
   "faqs": [
@@ -286,15 +313,15 @@
     },
     {
       "question": "How fast do you need to be to place at the Halong Bay Heritage Marathon?",
-      "answer": "Faster than most club runners. In 2025 tenth place in the marathon was 2:32:35 for men and 3:09:02 for women, and in the half marathon 1:18:06 and 1:29:39. The median marathon finisher took 4:08:12, and 1,182 of the 2,579 finishers broke four hours."
+      "answer": "Faster than most club runners. In 2025 tenth place in the marathon was 2:32:35 for men and 3:09:02 for women, and in the half marathon 1:18:06 and 1:29:39. The median marathon finisher took 4:08, and 46% of the 2,579 finishers broke four hours."
     },
     {
       "question": "How do you get to the Halong Bay Heritage Marathon from Hanoi?",
       "answer": "Fly into Noi Bai airport and go on by road. The organiser suggests a bus from Hanoi's My Dinh bus station, which costs 260,000 to 300,000 VND, leaves every 30 minutes and takes about three and a half hours. Foreign runners outside the official hotels must give the organiser their hotel address in advance."
     }
   ],
-  "editorial_notes": "Rewritten 2026-09-28 to the review template. Written about the previous edition (Sunday 23 November 2025, DHA Vietnam). Weather is from Van Don airport METAR observations, about 40 km from the start, not a forecast. Results are the full Sportstats lists; finish-rate figures are not given because the marathon DNF labels look unreliable. The organiser's text gives aid every 3 to 4 km while its route map shows stations about every 1.5 to 2 km; both are stated. Field-size figures in the press range from 14,000 to nearly 15,000; the organiser's figure is used. No runner blogs were found; runner comments are from press interviews. No rating.",
+  "editorial_notes": "Rewritten 2026-09-28 to the review template. Written about the previous edition (Sunday 23 November 2025, DHA Vietnam). Weather is from Van Don airport METAR observations, about 40 km from the start, not a forecast. Results are the full Sportstats lists; finish-rate figures are not given because the marathon DNF labels look unreliable. The organiser's text gives aid every 3 to 4 km while its route map shows stations about every 1.5 to 2 km; both are stated. Field-size figures in the press range from 14,000 to nearly 15,000; the organiser's figure is used. No runner blogs were found; runner comments are from press interviews. No rating. Updated 2026-11-06 with Run SEA analysis of the 2025 and 2024 Sportstats results (ranked finishers, chip times): 90th-percentile times, percentages, share of women and change from 2024. The analysis counts 3,424 ranked half-marathon finishers, one fewer than the 3,425 given earlier.",
   "published_at": "2026-08-07T08:32:00.000Z",
-  "last_updated": "2026-09-28",
+  "last_updated": "2026-11-06",
   "status": "active"
 }

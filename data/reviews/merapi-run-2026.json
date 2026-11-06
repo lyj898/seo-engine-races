@@ -2,128 +2,155 @@
   "review_id": "merapi-run-2026",
   "slug": "merapi-run-2026",
   "entity_id": "merapi-run-2026",
-  "title": "Merapi Run 2026: A Sunrise Half Marathon Up the Slopes of Kaliurang",
-  "seo_title": "Merapi Run 2026 Review: Kaliurang Half Marathon Guide",
-  "meta_description": "Honest review of Merapi Run 2026 in Kaliurang, Yogyakarta: a hilly asphalt course on Merapi's slopes, race-day logistics, and who should sign up.",
-  "dek": "A road race that borrows the drama of Mount Merapi without the mud — expect six unbroken kilometers of climbing, a fast downhill finish, and a hotel-run event that's grown into one of Yogyakarta's bigger sport-tourism dates.",
-  "verdict": "Merapi Run suits runners who want scenery and a genuine hill workout without technical trail footing — it's asphalt throughout, but don't be fooled into thinking that makes it easy. The early climbing on the 10K and 21K is relentless, rewarded by a fast downhill finish and cool mountain air. Logistics are handled by an experienced hotel-and-zoo partnership with on-site pack pickup, medical support, and insurance. First-timers to Merapi's lower slopes, road runners chasing a scenic PB attempt on the shorter distances, and Jogja-based community runners will get the most out of it; those craving technical trail terrain should look elsewhere.",
+  "title": "Merapi Run 2026 Review: What the 2026 Race Was Like",
+  "seo_title": "Merapi Run 2026 Review: Kaliurang Hills, Cool Air, Finish Times",
+  "meta_description": "Merapi Run 2026 review: a 493 m-climb half marathon from Kaliurang, 15°C at the 5am start, eight water stations, a four-hour cut-off and how fast the field ran.",
+  "dek": "What the 9 August 2026 race on Merapi's lower slopes was like: the climbs, the cool air at the 5am start, aid stations and cut-offs, roads shared with traffic, and how fast the half-marathon and 10 km fields ran.",
+  "verdict": "Enter if you want a hilly half marathon or 10 km in cool mountain air rather than a fast time. The 2026 race started and finished at a hotel in Kaliurang, about 900 m up the slopes of Mount Merapi, with 493 m of climbing on the half and 238 m on the 10 km. It was about 15°C at the 5am start, cold by Indonesian standards, and still only about 21°C at the 9am half-marathon cut-off. The limits are generous: four hours for the half and three for the 10 km, and no timed finisher was outside them. Expect slow times: the median half marathoner took 2:36, and the roads are open to traffic.",
+  "at_a_glance": {
+    "heading": "The 2026 race in numbers",
+    "rows": [
+      { "label": "Date", "value": "Sunday 9 August 2026, Griya Persada Convention Hotel & Resort, Kaliurang" },
+      { "label": "Start times", "value": "Half marathon 5.00am, 10 km 5.30am, 5 km 5.45am, 3 km 6.00am" },
+      { "label": "Cut-offs", "value": "Half marathon 4 hours, 10 km 3 hours, 5 km 2 hours, 3 km 1 hour 30" },
+      { "label": "Climbing", "value": "Half marathon 493 m, 10 km 238 m, 5 km 142 m (organiser's figures)" },
+      { "label": "Weather at the 5am start", "value": "15°C, dew point 15°C, 99% humidity, wind 8 km/h (modelled, Open-Meteo)" },
+      { "label": "Weather at the 9am half-marathon cut-off", "value": "21°C, 77% humidity (modelled)" },
+      { "label": "Aid", "value": "Half marathon: 8 water stations and 3 fruit stations. 10 km: 3 water and 1 fruit" },
+      { "label": "Finishers", "value": "Half marathon 183, 10 km 264" },
+      { "label": "Half-marathon times", "value": "Top ten 1:18 to 1:47; median 2:36; 90% done by 3:14; 9% under 2:00, 42% under 2:30" },
+      { "label": "10 km times", "value": "Top ten 36:16 to 52:08; median 1:20; 8% under 1:00" },
+      { "label": "Women in the field", "value": "Half marathon 20%, 10 km 29%" },
+      { "label": "Finisher items", "value": "Medal and e-certificate; finisher jersey for the half marathon" }
+    ]
+  },
   "sections": [
     {
-      "heading": "The Course: Asphalt, But Don't Underestimate It",
+      "heading": "The Course: Up and Down Merapi's Lower Slopes",
       "paragraphs": [
-        "Merapi Run 2026 takes place on Sunday, 9 August 2026, based out of Griya Persada Convention Hotel & Resort in Kaliurang, Yogyakarta, with four distances on offer: a 21.1km half marathon, 10K, 5K, and a 3K fun run [1,3]. Despite the volcano-slope setting and marketing imagery, this is explicitly a road event — organizers describe the route as fully paved and recommend road shoes over trail shoes, which is a detail worth internalizing before you pack your bag [1]. The half marathon carries roughly 493m of elevation gain across its 21.1km, and the profile is front-loaded: a first-hand account of the 10K course from a past edition describes close to 6km of near-continuous uphill before any relief arrives [4].",
-        "That relief, when it comes, is real. The same participant account describes the final stretch easing into about 2km of downhill running into the finish, with a timing checkpoint at Kaliurang's well-known Telogo Putri spot along the way [4]. One runner summed up the grind in blunt terms after that long uphill slog, and the payoff of the downhill finish felt like a gift after the climb."
+        "All four distances start and finish at the Griya Persada Convention Hotel & Resort in Kaliurang, the hill resort north of Yogyakarta on the southern slope of Mount Merapi [1][2]. The organiser puts the climbing at 493 m for the half marathon, 238 m for the 10 km, 142 m for the 5 km and 98 m for the 3 km family run [1]. Because the start and finish are the same point, every metre climbed is also descended.",
+        "The roads are a mix of asphalt and concrete, and GPX files of each route were published for download [2]. The half marathon is still new: it was added in 2025, with a new route from Griya Persada, for what was then the race's fifth edition since 2019 [3].",
+        "The race used to start elsewhere in Kaliurang. In 2022, when the 10 km started and finished at Suraloka Zoo, one runner described a steep 2 km descent at the start, about 6 km of climbing, and a 2 km descent to the finish, with a timing checkpoint at Telogo Putri [4]. The route has changed since, but the pattern of long climbs on Merapi's foothills, at roughly 600 m to 1,000 m, has not."
       ]
     },
     {
-      "heading": "Conditions on Race Morning",
+      "heading": "The Weather: Cool, Damp Mountain Air",
       "paragraphs": [
-        "Flag-off times for 2026 are staggered early to beat the heat and give slower categories more daylight: the 21K goes off at 05:00, 10K at 05:30, 5K at 05:45, and the 3K fun run at 06:00 WIB, with cut-off times of 4, 3, 2, and 1.5 hours respectively [1]. Kaliurang sits on Merapi's lower slopes and is genuinely cooler than downtown Yogyakarta, and past coverage of the event has repeatedly leaned on that cool mountain air and panoramic backdrop as part of the sell [5,6]. Even so, the road surface itself has drawn comment in past editions — official materials for the region's asphalt routes note that they mix genuine climbs and descents typical of the Kaliurang contour, so runners should expect a workout rather than a flat scenic jog [6].",
-        "Registration terms make clear that runners take on their own risk around weather, terrain, and course conditions, and that entry fees are non-refundable regardless of circumstance — standard language, but worth reading before you commit your slot [2]."
+        "Open-Meteo's historical model for the start area, at 899 m, gives 15°C at 5am on race morning, with a dew point of 15°C, 99% humidity and an 8 km/h breeze [5]. The air was saturated but cool. It warmed slowly: 16°C at 6am, 18°C at 7am, 19°C at 8am and 21°C with 77% humidity at 9am, when the half marathon closed [5]. No rain fell in the model during the race.",
+        "These are modelled figures for the hillside, not airport readings; the nearest airports are in the lowlands, where it is much warmer. For lowland Java runners this is one of the few races where heat is not the main problem. The climbing is."
       ]
     },
     {
-      "heading": "Organisation and Race-Week Logistics",
+      "heading": "Aid Stations and Cut-offs",
       "paragraphs": [
-        "The event is run by Griya Persada Convention Hotel & Resort together with Suraloka Zoo, with Unicones Creativa Indonesia handling event organisation, and registration opens on 6 May 2026 with entry fees spanning roughly Rp200,000 to Rp500,000 depending on category [1,2]. Race pack collection for 2026 runs Friday–Saturday, 7–8 August, from 10:00 to 18:00 WIB, at the same Griya Persada venue that hosts the start and finish, which keeps logistics simple for anyone staying nearby [3]. Runner benefits listed for the 2026 edition include a timed bib, race pack, participant jersey, water stations, medical and physio support, a finisher medal, and a half-marathon finisher jersey, alongside post-race entertainment and a local UMKM vendor expo [3].",
-        "For the 2025 edition, organizers also spoke publicly about insurance coverage and adequate medical facilities as a stated priority, and a similar standard of participant protection appears to carry into the current edition's messaging [6]. A drop-bag baggage service is available at the Race Village for the day, and there is a mosque roughly 300m north of the hotel for runners who need it before the early flag-off [1]."
+        "The half marathon had eight water stations and three fruit stations, the 10 km three water stations and one fruit station, and the 5 km one water station, serving mineral water and an isotonic drink; food was at the finish only [2]. The 3 km family run had no water station [2].",
+        "Start times in 2026 were 5am for the half marathon, 5.30am for the 10 km, 5.45am for the 5 km and 6am for the 3 km, with cut-offs of four hours, three hours, two hours and an hour and a half [2]. Runners were asked to be at the start 30 minutes early, and anyone more than five minutes late was moved to the next category's start [2].",
+        "The limits are loose for the field. The slowest timed half-marathon finisher took 3:57:44 and the slowest 10 km finisher 2:27:28, both inside the limit [6]."
       ]
     },
     {
-      "heading": "Field, Atmosphere, and Growth of the Event",
+      "heading": "The Roads: Open to Traffic",
       "paragraphs": [
-        "Merapi Run has been staged by Griya Persada since 2019, and the 2025 running marked its fifth edition, with organizers targeting around 2,500 runners across the four distances that year [5]. The half marathon category itself is a relatively recent addition — added in 2025 specifically in response to participant demand for a longer distance, according to race director Ronny Yuliananto of Unicones [6]. That growth trajectory suggests an event that's scaling up rather than treading water, with local cultural performances along the route and community-oriented touches like a family-run category built into recent editions [6].",
-        "The tone leans toward sport tourism rather than elite competition — past editions have carried thematic branding tied to Kaliurang's history with the 2010 Merapi eruption, with the event positioning itself as much around scenery, local culture, and remembrance as around racing hard [6]. If you're after PB chasing on a fast, flat course, this isn't it; if you want a well-supported reason to visit Kaliurang and push through a proper hill session with a crowd, it fits the bill."
+        "The course is not closed. The organiser's terms say the route is shared with other road users, with marshals posted along it, and that the route can change with notice on the website or social media [2]. Entrants accept the accident risk of a road race, and the organiser said it had arranged insurance [2]. On the steep descents, stay alert for vehicles coming up behind you as well as ahead."
       ]
     },
     {
-      "heading": "Should You Run It?",
+      "heading": "How Fast the Field Is",
       "paragraphs": [
-        "Sign up for Merapi Run 2026 if you want a scenic, cooler-air alternative to Yogyakarta's flatter city races and don't mind that the mountain setting comes via asphalt rather than singletrack — road shoes are the right call here, not trail shoes [1]. The 10K and 21K in particular reward runners who can grind through sustained early climbing, since the course profile is genuinely hilly rather than an easy scenic outing [4]. Given the non-refundable entry policy and the runner's-own-risk terms around weather and terrain, it's worth registering with clear eyes about what a mountain-slope road race actually demands [2]. For those seeking a shorter, lower-commitment day out, the 5K and 3K options offer the same views and event infrastructure with far less climbing to contend with [3]."
+        "The official results list 183 half-marathon and 264 10 km finishers; the 5 km and 3 km are not included [6].",
+        "The half marathon was won in 1:18:15, and the top ten ran between 1:18 and 1:47. The median finisher took 2:36:25; only 9% broke two hours, 42% broke two and a half, and 90% were done by 3:14:24. Women made up 20% of finishers, and the fastest woman ran 1:35:32 [6].",
+        "In the 10 km the top ten ran 36:16 to 52:08, the median was 1:20:14, 8% broke an hour and 90% were done by 1:44:01. Women were 29% of 10 km finishers [6].",
+        "Those times are slow for the distances, which is the climbing showing through: a runner who goes under two hours here would be inside the top 10% of the half-marathon field. With a field this size, a top-ten place needs a sub-1:47 half or a 52-minute 10 km."
+      ]
+    },
+    {
+      "heading": "Race Weekend Logistics",
+      "paragraphs": [
+        "Race packs were collected on Saturday 8 August, 10am to 9pm, at the Pendopo Maliawan in the Griya Persada hotel, with the confirmation email and original ID; one person could collect for up to five runners with a signed authorisation [2]. Every finisher got a medal and an e-certificate, and half marathoners also got a finisher jersey [2].",
+        "Entry cost Rp500,000 for the half marathon, Rp350,000 for the 10 km, Rp250,000 for the 5 km and Rp200,000 for the 3 km [1]. Entries cannot be refunded or transferred to another runner, even if the race is cancelled for reasons beyond the organiser's control [2].",
+        "For a 5am start on a hillside north of Yogyakarta, staying at the race hotel or elsewhere in Kaliurang the night before is the simplest option."
+      ]
+    },
+    {
+      "heading": "Should You Enter the Next Merapi Run?",
+      "paragraphs": [
+        "Yes, if you enjoy hills, want to race in cool air for once, or want a first half marathon with a generous four-hour limit: the slowest finisher in 2026 still made it inside the cut-off. It suits a holiday in Yogyakarta, with the race hotel as the race centre.",
+        "Think twice if you want a fast time or closed roads. The median half took 2:36, and the course is shared with traffic.",
+        "This review draws on the organiser's race information and terms, local reporting on the 2025 race, one runner's account of the 2022 race, modelled weather data and the official results."
       ]
     }
   ],
   "pull_quotes": [
     {
-      "quote": "Saya sendiri sungguh merasa sangat lega setelah kurang lebih 6 KM dihajar dengan tanjakan-tanjakan yang tidak ada habisnya.",
-      "attribution": "Participant race review, Jarwadi's blog",
+      "quote": "truly relieved after roughly 6 km of being battered by endless climbs",
+      "attribution": "A 10 km runner at the 2022 race, on his blog (translated from Indonesian)",
       "source_url": "https://jarwadi.me/2022/04/04/race-review-menikmati-lari-di-merapi-run-2022/"
-    },
-    {
-      "quote": "2 KM turunan merupakan berkah bagi siapapun, termasuk kami, yang ingin tampil manis di garis finish.",
-      "attribution": "Participant race review, Jarwadi's blog",
-      "source_url": "https://jarwadi.me/2022/04/04/race-review-menikmati-lari-di-merapi-run-2022/"
-    },
-    {
-      "quote": "Ini adalah jawaban atas tantangan dari para pelari untuk menghadirkan jarak yang lebih jauh",
-      "attribution": "Ronny Yuliananto, Race Director (Unicones), via jogjainfo.id",
-      "source_url": "https://jogjainfo.id/merapi-run-2025-usung-semangat-hanuman-hadirkan-rute-baru-dan-kategori-half-marathon/"
     }
   ],
   "sources": [
     {
       "n": 1,
-      "label": "Merapi Run official event page",
-      "publisher": "Griya Persada Convention Hotel & Resort",
-      "url": "https://griyapersadahotel.com/griya-persada-hotel-kaliurang/kaliurang/merapirun/",
+      "label": "Official Merapi Run 2026 site: date, venue, climbing per distance, fees and finisher items",
+      "publisher": "Merapi Run (organiser)",
+      "url": "https://merapirun.space-z.ai",
       "type": "official"
     },
     {
       "n": 2,
-      "label": "Merapi Run 2026 terms and registration info",
-      "publisher": "Unicones (The UNICONES)",
+      "label": "Merapi Run 2026 race information and terms: start times, cut-offs, water stations, route surface, traffic and race-pack collection (in Indonesian)",
+      "publisher": "Unicones (race organiser)",
       "url": "https://unicones.id/merapirun2026/",
       "type": "registration_platform"
     },
     {
       "n": 3,
-      "label": "Merapi Run 2026 event listing",
-      "publisher": "JadwalLari.id",
-      "url": "https://jadwallari.id/events/merapi-run/",
-      "type": "aggregator"
+      "label": "Merapi Run 2025 adds a half marathon and a new route (in Indonesian)",
+      "publisher": "jogjainfo.id",
+      "url": "https://jogjainfo.id/merapi-run-2025-usung-semangat-hanuman-hadirkan-rute-baru-dan-kategori-half-marathon/",
+      "type": "news"
     },
     {
       "n": 4,
-      "label": "Race Review: Menikmati Lari di Merapi Run 2022",
+      "label": "A runner's account of the 2022 10 km (in Indonesian)",
       "publisher": "Jarwadi.me",
       "url": "https://jarwadi.me/2022/04/04/race-review-menikmati-lari-di-merapi-run-2022/",
       "type": "review"
     },
     {
       "n": 5,
-      "label": "Merapi Run 2025 'Kickoff', Ajak 2500 Pelari Jelajahi Kaliurang hingga 21 Kilometer",
-      "publisher": "KRJogja",
-      "url": "https://www.krjogja.com/sleman/1245929075/merapi-run-2025-kickoff-ajak-2500-pelari-jelajahi-kaliurang-hingga-21-kilometer",
-      "type": "news"
+      "label": "Modelled hourly weather for Kaliurang (899 m), 9 August 2026",
+      "publisher": "Open-Meteo historical weather API",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=-7.597&longitude=110.425&start_date=2026-08-09&end_date=2026-08-09&hourly=temperature_2m,relative_humidity_2m,dew_point_2m,wind_speed_10m,precipitation&timezone=Asia%2FJakarta",
+      "type": "other"
     },
     {
       "n": 6,
-      "label": "Merapi Run 2025 Usung Semangat Hanuman, Hadirkan Rute Baru dan Kategori Half Marathon",
-      "publisher": "jogjainfo.id",
-      "url": "https://jogjainfo.id/merapi-run-2025-usung-semangat-hanuman-hadirkan-rute-baru-dan-kategori-half-marathon/",
-      "type": "news"
+      "label": "Run SEA analysis of official results (PickMyRace)",
+      "publisher": "PickMyRace",
+      "url": "https://pickmyrace.id/result/1/YUJSTHZ421LGWFC",
+      "type": "other"
     }
   ],
   "faqs": [
     {
-      "question": "Is Merapi Run 2026 a trail race or a road race?",
-      "answer": "It's a road race despite the mountain and forest imagery in its promotion. The route is fully paved, so organizers advise road shoes rather than trail shoes for all four distances on offer [1]."
+      "question": "How hilly is the Merapi Run?",
+      "answer": "Very. The organiser puts the climbing at 493 m for the half marathon and 238 m for the 10 km, on roads around Kaliurang at roughly 900 m on Mount Merapi's southern slope. Start and finish are at the same hotel, so you descend as much as you climb. The median half marathoner took 2:36 in 2026."
     },
     {
-      "question": "What distances can I run at Merapi Run 2026?",
-      "answer": "There are four categories: a 21.1km half marathon, a 10K, a 5K, and a 3K fun run, all starting and finishing at Griya Persada Convention Hotel & Resort in Kaliurang [1,3]."
+      "question": "What are the cut-off times at the Merapi Run?",
+      "answer": "In 2026 the limits were four hours for the half marathon, three hours for the 10 km, two hours for the 5 km and an hour and a half for the 3 km family run. They are generous: the slowest timed half-marathon finisher took 3:57 and the slowest 10 km finisher 2:27, both inside the limit."
     },
     {
-      "question": "When does registration open and how much does it cost?",
-      "answer": "Registration for the 2026 edition opens on 6 May 2026, with entry fees ranging roughly from Rp200,000 to Rp500,000 depending on the category chosen [2]. It offers 21.1K, 10K, 5K, and 3K. It's held at Griya Persada Convention Hotel & Resort, Kaliurang, Yogyakarta."
+      "question": "What is the weather like at the Merapi Run?",
+      "answer": "Cool for Indonesia. At the 5am start on 9 August 2026, Open-Meteo's historical model for Kaliurang gives 15°C with 99% humidity and a light breeze, rising to about 21°C by the 9am half-marathon cut-off. Expect cool, saturated air rather than heat; no rain fell during the race."
     },
     {
-      "question": "How hilly is the Merapi Run course?",
-      "answer": "Genuinely hilly. A past 10K participant described nearly 6km of continuous uphill before the course eased into about 2km of downhill running toward the finish near Telogo Putri [4]. Registration is listed as opens 6 may 2026."
+      "question": "What time does the Merapi Run start?",
+      "answer": "In 2026 the half marathon started at 5am, the 10 km at 5.30am, the 5 km at 5.45am and the 3 km family run at 6am, all from the Griya Persada hotel in Kaliurang. Runners had to be at the start 30 minutes early; anyone more than five minutes late was moved to the next category's start."
     }
   ],
-  "editorial_notes": "Withdrawn 2026-09-28: this was a preview written before the race, and a review has to be about an edition that has actually been run. No report, results summary or runner account of the 9 August 2026 race or of any earlier edition could be found. The URL redirects to the race listing.",
+  "editorial_notes": "Reinstated 2026-11-06: withdrawn 2026-09-28 because no report of any edition could be found; official results for the 9 August 2026 race (PickMyRace event record dated 9 August 2026) now confirm it ran, and this review covers that edition. Field numbers are a Run SEA analysis of the PickMyRace results (183 half-marathon and 264 10 km finishers; 5 km and 3 km not in the results); no earlier edition's results are held, so no year-on-year comparison. Weather is Open-Meteo historical model data for the start area (grid elevation 899 m), used instead of airport METAR because the nearest airports are in the lowlands. The 2022 runner's account describes an earlier course from Suraloka Zoo and is labelled as such. No report of the 2026 race was found. Runners are not named. No rating.",
   "published_at": "2026-08-04T16:23:46.575Z",
-  "last_updated": "2026-09-28",
-  "status": "archived"
+  "last_updated": "2026-11-06",
+  "status": "active"
 }

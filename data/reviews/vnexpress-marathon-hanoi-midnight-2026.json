@@ -51,6 +51,10 @@
         "value": "2:44:12 (men), 3:11:08 (women)"
       },
       {
+        "label": "Field depth (2023, latest full results)",
+        "value": "Marathon 1,899 finishers, median 4:23:49, 37% under four hours; half 4,202, median 2:21:21"
+      },
+      {
         "label": "Finisher items",
         "value": "Windbreaker for the marathon, T-shirt for the half, medal for every finisher"
       },
@@ -89,6 +93,8 @@
       "paragraphs": [
         "Kemboi won the marathon in 2:24:13 on the official results [10], reported as 2:24:20 in the press [1], after running with Ebisa Takele Kure to 18 km, passed together in 1:06:19, and leading by two minutes at 33 km [1]. Kure was second in 2:26:30 and Trinh Minh Tam third in 2:27:34 [10]. Pham Thi Hong Le won the women's race in 2:56:06, a 17th win in the VnExpress series, leading a sub-three-hour group with dozens of men in it [1]; Vu Khanh Linh was second in 2:56:51 [10].",
         "Tenth place in the marathon was 2:44:12 for men and 3:11:08 for women, and the 50th man finished in 3:00:42 and the 50th woman in 3:54:09. In the half marathon, Samuel Kalalei won in 1:08:55 and Doan Thi Oanh in 1:19:13; tenth place was 1:18:33 and 1:29:38, and 50th was 1:29:12 and 1:51:14 [10]. The winner took 15 million VND in cash, with prizes worth 30 million VND in total [7]. Rankings and prizes go by gun time, not chip time [9].",
+        "The latest full finisher lists are from 2023, on the courses used before the 2025 changes [15]. That year 1,899 runners finished the marathon, 14% of them women. The top ten ran between 2:25:04 and 2:47:47, 702 (37%) broke four hours, the median was 4:23:49 and nine in ten were home inside 5:47; only 58, 3%, took longer than 6 hours 15 [15]. The half marathon was the bigger race, with 4,202 finishers, a median of 2:21:21 and a quarter under two hours; the 10 km had 1,659 finishers and a median of 1:19:51 [15].",
+        "Both long races were faster in 2023 than in 2022, when the marathon median was 4:47:37 and the half 2:29:50, and both grew: marathon finishers from 1,693 to 1,899 and half-marathon finishers from 2,887 to 4,202 [15][16].",
         "VnExpress reported hundreds of personal bests, most of them in the half marathon now that it had no bridges [1]. Two runners who had raced the Ha Long Heritage Marathon a week earlier set personal bests at both: Pham Duc Tho went from 2:32 in Ha Long to 2:31:26 here, and Dang Anh Quyet ran 2:33:18, 26 seconds faster than in Ha Long [11]."
       ]
     },
@@ -104,9 +110,9 @@
       "heading": "Should You Enter the 2026 Race?",
       "paragraphs": [
         "Yes, if you want to race in cool air: the half marathon in particular is flat, bridge-free and well lit, and it produced the most personal bests in 2025. The marathon suits runners who are happy to trade two bridge climbs for a cool night and a fast field.",
-        "Think twice if you race badly without sleep, since the marathon starts at midnight and the half at 2am, or if you expect to need close to 6 hours 15 for the marathon, because the checkpoints and the aid stations close on schedule.",
+        "Think twice if you race badly without sleep, since the marathon starts at midnight and the half at 2am, or if you expect to need close to 6 hours 15 for the marathon, because the checkpoints and the aid stations close on schedule. In 2023 only 3% of marathon finishers took that long, and the median was 4:24 [15].",
         "The organiser's 2026 page lists race day as 29 November 2026, with race kits on 27 and 28 November at the Tran Nhan Tong walking street [14]. Check the 2026 route and start times before you book, since both long courses changed between 2024 and 2025 [4].",
-        "Nobody from this site ran the race. This review draws on the organiser's route maps, rules and results, airport weather records, Vietnamese and English-language news reports, and runners' comments to the press."
+        "Nobody from this site ran the race. This review draws on the organiser's route maps, rules and results, the full 2022 and 2023 results, airport weather records, Vietnamese and English-language news reports, and runners' comments to the press."
       ]
     }
   ],
@@ -215,6 +221,20 @@
       "publisher": "VnExpress Marathon (organiser)",
       "url": "https://vm.vnexpress.net/ha-noi-2026/thong-tin-cuoc-dua/lich-trinh",
       "type": "official"
+    },
+    {
+      "n": 15,
+      "label": "Run SEA analysis of official results (Sportstats): 2023 race, all finishers",
+      "publisher": "Run SEA",
+      "url": "https://sportstats.one/event/vnexpress-marathon-hanoi-midnight/leaderboard/130029",
+      "type": "other"
+    },
+    {
+      "n": 16,
+      "label": "Run SEA analysis of official results (Sportstats): 2022 race, all finishers",
+      "publisher": "Run SEA",
+      "url": "https://sportstats.one/event/vnexpress-marathon-hanoi-midnight/leaderboard/130033",
+      "type": "other"
     }
   ],
   "faqs": [
@@ -243,8 +263,8 @@
       "answer": "It depends on the distance. In 2025 marathon finishers received a finisher windbreaker, half-marathon finishers a finisher T-shirt, and every finisher a medal designed for that year. Runners marked DNF for missing the time limit get no finisher items. Photos from the organiser's system could be downloaded free."
     }
   ],
-  "editorial_notes": "Rewritten 2026-09-28 to the review template. Written about the previous edition (night of 29-30 November 2025), VnExpress's own night race, distinct from the Techcombank, VPBank and Standard Chartered Hanoi marathons. Weather is from Noi Bai airport METAR observations, about 23 km from the start, not a forecast. Only the organiser's top-50 leaderboards were available, so there are no finisher counts or medians. Press and official results differ on some times (winner 2:24:20 in the press, 2:24:13 gun time on the leaderboard; third place 2:27:00 against 2:27:34); the official results are used. No runner blogs were found; runner comments come from press interviews. No rating.",
+  "editorial_notes": "Rewritten 2026-09-28 to the review template. Written about the previous edition (night of 29-30 November 2025), VnExpress's own night race, distinct from the Techcombank, VPBank and Standard Chartered Hanoi marathons. Weather is from Noi Bai airport METAR observations, about 23 km from the start, not a forecast. Only the organiser's top-50 leaderboards were available, so there are no finisher counts or medians. Press and official results differ on some times (winner 2:24:20 in the press, 2:24:13 gun time on the leaderboard; third place 2:27:00 against 2:27:34); the official results are used. No runner blogs were found; runner comments come from press interviews. No rating. Updated 2026-11-06: field depth from a Run SEA analysis of the full Sportstats results for 2022 and 2023 added (labelled by year, on the pre-2025 courses); 2025 is still covered only by the top-50 leaderboards.",
   "published_at": "2026-08-09T09:00:00.000Z",
-  "last_updated": "2026-09-28",
+  "last_updated": "2026-11-06",
   "status": "active"
 }

@@ -55,6 +55,18 @@
         "value": "2:46:37 (men), 3:31:30 (women)"
       },
       {
+        "label": "Median finish",
+        "value": "Marathon 4:29 (2026), the same as in 2025; half marathon 2:26"
+      },
+      {
+        "label": "Over six hours",
+        "value": "118 marathon finishers in 2026; 179 in 2025, when the slowest tenth took more than 5:59"
+      },
+      {
+        "label": "Change from 2025",
+        "value": "Marathon finishers up 1% (1,814 to 1,829); half marathon up 18% (2,901 to 3,410)"
+      },
+      {
         "label": "Finisher items",
         "value": "Medal for finishers inside the limit; finisher shirt for the marathon"
       }
@@ -94,7 +106,8 @@
       "paragraphs": [
         "Huynh Anh Khoi won the marathon in 2:25:44, Khoi's first marathon win at the race after three straight years of taking part, ahead of Cambodia's Vann Pheara in 2:27:24 and Le Van Tuan in 2:34:18 [12][8]. Pham Thi Hong Le won the women's race in 2:46:18, from Le Thi Ha (2:57:28) and Nguyen Thi Ngoc Lan (2:58:39) [12][8].",
         "The field thins fast behind them. Tenth place was 2:46:37 for men and 3:31:30 for women, and only 36 runners broke three hours. Of 1,829 official finishers, 171 ran under 3:30 and 572 under four hours, and the median was 4:29:01 [6]. The marathon is mostly Vietnamese: 1,476 finishers were listed as Vietnamese, followed by Japan (53), China (49) and South Korea (42) [6].",
-        "The half marathon was won by Hoang Nguyen Thanh in 1:08:31 and Hoang Thi Ngoc Hoa in 1:20:56 [8]. Tenth place was 1:19:26 for men and 1:37:11 for women, and the median of 3,410 finishers was 2:26:14 [6]. The SEA Games gold medallist Nguyen Trung Cuong won the 10 km on a first appearance at the race [8], in 31:18 [6]."
+        "The half marathon was won by Hoang Nguyen Thanh in 1:08:31 and Hoang Thi Ngoc Hoa in 1:20:56 [8]. Tenth place was 1:19:26 for men and 1:37:11 for women, and the median of 3,410 finishers was 2:26:14 [6]. The SEA Games gold medallist Nguyen Trung Cuong won the 10 km on a first appearance at the race [8], in 31:18 [6].",
+        "The marathon field has levelled off after fast growth. Finishers rose from 1,504 in January 2024 to 1,814 in January 2025, then only to 1,829 in 2026, and the median barely moved: 4:29:42 in 2025 against 4:29:01 in 2026 [18][17][6]. The half marathon grew by 18%, from 2,901 finishers in 2025 to 3,410, with its median steady at about 2:26 [17][6]. The back of the field is where the new limit bites. In 2025 the slowest tenth of marathon finishers took more than 5:59, and 179 finishers, one in ten, took longer than six hours; in 2024 it was 129. Women made up 14% of marathon finishers and 30% of half-marathon finishers in 2025 [18][17]."
       ]
     },
     {
@@ -108,7 +121,7 @@
       "heading": "Should You Enter the 2027 Race?",
       "paragraphs": [
         "Yes, if you want a big January marathon in Vietnam with a central start and finish, air that was 21°C to 22°C for most of the 2026 race, and a field where a sub-3:30 marathon puts you in roughly the top 170.",
-        "Think twice if you need fully closed roads, or if you need more than six hours: in 2026, 118 finishers took longer, and the organiser's 2027 rules say no one may continue past a checkpoint after its cut-off.",
+        "Think twice if you need fully closed roads, or if you need more than six hours: in 2026, 118 finishers took longer, in 2025 it was 179, about one finisher in ten [17], and the organiser's 2027 rules say no one may continue past a checkpoint after its cut-off.",
         "The 2027 race is on Sunday 17 January, from 30/4 Park, with the marathon starting at 3am and a six-hour limit (9am); the half marathon has three and a half hours and the 10 km two [10][14][15]. It is a different race from the Techcombank Ho Chi Minh City International Marathon, which Sunrise Events Vietnam holds in December, next on 6 December 2026 [16]; the HCMC Marathon is run by Pulse Active [15].",
         "Nobody from this site ran the race. This review draws on the organiser's race information and route map, the 2026 rules, the full results, the police road notice, airport weather records and Vietnamese press reports."
       ]
@@ -233,6 +246,20 @@
       "publisher": "AIMS",
       "url": "https://aims-worldrunning.org/countries/123.html",
       "type": "aggregator"
+    },
+    {
+      "n": 17,
+      "label": "Run SEA analysis of official results (SportStats), 2025 race",
+      "publisher": "Run SEA",
+      "url": "https://sportstats.one/event/hcmc-marathon/leaderboard/143046",
+      "type": "other"
+    },
+    {
+      "n": 18,
+      "label": "Run SEA analysis of official results (SportStats), 2024 race",
+      "publisher": "Run SEA",
+      "url": "https://sportstats.one/event/hcmc-marathon/leaderboard/130228",
+      "type": "other"
     }
   ],
   "faqs": [
@@ -257,8 +284,8 @@
       "answer": "No. The HCMC Marathon is held in January by Pulse Active, from 30/4 Park, and its 2027 race is on 17 January. The Techcombank Ho Chi Minh City International Marathon is a separate race organised by Sunrise Events Vietnam, held in December; its next edition is on 6 December 2026."
     }
   ],
-  "editorial_notes": "Rewritten 2026-09-29 about the previous edition (11 January 2026). This is the January HCMC Marathon, not the December Techcombank race. Weather is from Tan Son Nhat airport METAR observations, not a forecast. Field-depth figures come from the full official Sportstats results, counting only finishers without a status. The 2026 rules set a six-hour limit, but the police notice kept the course open until 9.30am and the results include finishers up to 6:30:42; both are given. The posted route map is not clearly dated, so it is described as the map on the official site. No first-hand runner account of the 2026 race was found. No rating.",
+  "editorial_notes": "Rewritten 2026-09-29 about the previous edition (11 January 2026). This is the January HCMC Marathon, not the December Techcombank race. Weather is from Tan Son Nhat airport METAR observations, not a forecast. Field-depth figures come from the full official Sportstats results, counting only finishers without a status. The 2026 rules set a six-hour limit, but the police notice kept the course open until 9.30am and the results include finishers up to 6:30:42; both are given. The posted route map is not clearly dated, so it is described as the map on the official site. No first-hand runner account of the 2026 race was found. No rating. Updated 2026-11-06 with Run SEA analysis of the 2025 and 2024 Sportstats results (ranked finishers, chip times) for year-on-year change, the back of the field and share of women. No 2026 results file was held for analysis, so the 2026 90th-percentile time and share of women are not given.",
   "published_at": "2026-08-09T09:30:00.000Z",
-  "last_updated": "2026-09-28",
+  "last_updated": "2026-11-06",
   "status": "active"
 }

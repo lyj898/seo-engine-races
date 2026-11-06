@@ -51,6 +51,14 @@
         "value": "3:01:33 (men), 3:32:32 (women)"
       },
       {
+        "label": "Finishers",
+        "value": "284 marathon, 1,319 half marathon, 1,365 10 km"
+      },
+      {
+        "label": "Marathon median and back of the pack",
+        "value": "Median 4:48:25; 25% under four hours; one in seven over six hours"
+      },
+      {
         "label": "Winning half-marathon times",
         "value": "1:14:19 (men), 1:24:32 (women)"
       },
@@ -102,7 +110,9 @@
       "paragraphs": [
         "Several of the usual Vietnamese marathon winners stayed away, including Dan Quyet, Khoi Huynh and Truong Van Tam [3]. Vong Vanh Long won the men's marathon in 2:39:35, eight minutes ahead of Le Thanh Tai (2:47:57) and Tran Thai Son (2:50:36). Le Thi Ha defended the women's title in 2:52:32, nearly 11 minutes faster than the winning time in 2025 [4]. Vong Vanh Long ran alone from early on, handed a watch to a course cyclist at km 7 and at km 19 even turned back for a few metres to wait for company [6].",
         "Behind the winners the marathon thins out fast. The official leaderboard puts tenth place at 3:01:33 for men and 3:32:32 for women, with nine men and one woman under three hours [12]. A three-hour marathoner was close to the top ten.",
+        "The full results list 284 marathon finishers, 19% of them women, far fewer than the 1,287 of 2023 [16][17]. A quarter broke four hours, the median took 4:48:25 and one in seven needed more than six hours; the slowest official finisher came in at 6:28:27, just inside the limit [16].",
         "The half marathon was faster and closer: Pham Ngoc Phan won in 1:14:19, 17 seconds ahead of Nguyen Le Hoang Vu, and Doan Thu Hang won the women's race in 1:24:32 [4]. Tenth place was 1:21:29 for men and 1:38:12 for women [12]. The 10 km was won in 34:32 and the 5 km in 15:56 [4].",
+        "The half marathon had 1,319 finishers, a quarter of them women, with a median of 2:35:44 and 15% under two hours; the 10 km had 1,365, with a median of 1:27:57 [16]. The pace of the field barely changes from year to year: the marathon median was 4:49:21 in 2022 and 4:48:50 in 2023, and the half-marathon median 2:36:55 in 2023 [18][17].",
         "Rankings and prizes go on gun time, not chip time [10][11]. The marathon winners each took 15 million VND in cash, from a package worth nearly 20 million, and prizes ran five deep; the half-marathon winners took 8 million VND. There were also age-group prizes in five bands for the 21 km and 42 km [13]."
       ]
     },
@@ -118,9 +128,9 @@
       "heading": "Should You Enter Next Year's Race?",
       "paragraphs": [
         "Yes, if you want a large, well-supplied race by the sea with a beach holiday attached, and you can run in heat. The 10 km and 5 km are seafront runs that avoid the pass, suited to first-timers and families; the half now includes a short taste of the pass.",
-        "Think twice about the marathon if you need cool air for a good time, or if you are near the 9:00 per km mark early on: the first checkpoint comes before the pass, and the pass comes when you are tiring. A three-hour runner has a real chance of a top-ten place.",
+        "Think twice about the marathon if you need cool air for a good time, or if you are near the 9:00 per km mark early on: the first checkpoint comes before the pass, and the pass comes when you are tiring. In 2026 the median marathoner took 4:48 and one finisher in seven needed more than six hours, so most of the field was on the pass after dawn [16]. A three-hour runner has a real chance of a top-ten place.",
         "The date, fees and route for the next edition had not been published when this was written.",
-        "Nobody from this site ran the race. This review draws on the organiser's race guide, route maps, rules and leaderboard, reporting by VnExpress and Bao Khanh Hoa, runners quoted in that reporting, and airport weather records."
+        "Nobody from this site ran the race. This review draws on the organiser's race guide, route maps, rules, leaderboard and full results, reporting by VnExpress and Bao Khanh Hoa, runners quoted in that reporting, and airport weather records."
       ]
     }
   ],
@@ -241,6 +251,27 @@
       "publisher": "VnExpress",
       "url": "https://vnexpress.net/vnexpress-marathon-nha-trang-qua-cac-nam-5103224.html",
       "type": "news"
+    },
+    {
+      "n": 16,
+      "label": "Run SEA analysis of official results (VnExpress Marathon): 2026 race, all finishers",
+      "publisher": "Run SEA",
+      "url": "https://vm.vnexpress.net/nha-trang-2026",
+      "type": "other"
+    },
+    {
+      "n": 17,
+      "label": "Run SEA analysis of official results (Sportstats): 2023 race, all finishers",
+      "publisher": "Run SEA",
+      "url": "https://sportstats.one/event/vnexpress-nha-trang/leaderboard/129398",
+      "type": "other"
+    },
+    {
+      "n": 18,
+      "label": "Run SEA analysis of official results (Sportstats): 2022 race, all finishers",
+      "publisher": "Run SEA",
+      "url": "https://sportstats.one/event/vnexpress-nha-trang/leaderboard/117027",
+      "type": "other"
     }
   ],
   "faqs": [
@@ -265,8 +296,8 @@
       "answer": "Not elite-fast. In 2026 the men's marathon was won in 2:39:35 and tenth place was 3:01:33; the women's race was won in 2:52:32 and tenth was 3:32:32. The marathon paid cash to the top five, and there were age-group prizes in five bands. Rankings use gun time."
     }
   ],
-  "editorial_notes": "Rewritten 2026-09-28 about the 2026 race, run on 9 August. VnExpress organises the race and published most of the reporting used; claims are attributed. Weather is from Cam Ranh airport METAR observations, not a forecast. Only the top 50 in each race shown on the official leaderboard are used; the data feed pages further but its completeness is unclear, so no finisher totals are given. The route map shows 23 aid stations; some VnExpress articles say 24. The organiser puts the pass at just over 50 m and the profile at about 60 m; one results report says 150 m, which is not used. Minor time differences between reports (2:39:35 vs 2:39:36 for the men's winner) are resolved in favour of the results report and leaderboard. No rating.",
+  "editorial_notes": "Rewritten 2026-09-28 about the 2026 race, run on 9 August. VnExpress organises the race and published most of the reporting used; claims are attributed. Weather is from Cam Ranh airport METAR observations, not a forecast. When first written only the top 50 in each race on the official leaderboard were used. The route map shows 23 aid stations; some VnExpress articles say 24. The organiser puts the pass at just over 50 m and the profile at about 60 m; one results report says 150 m, which is not used. Minor time differences between reports (2:39:35 vs 2:39:36 for the men's winner) are resolved in favour of the results report and leaderboard. No rating. Updated 2026-11-06: finisher counts, medians and shares added from a Run SEA analysis of the full 2026 results on the organiser's results page, with the 2022 and 2023 Sportstats results for comparison (2024 and 2025 are not on file). The full list matches the leaderboard at the front (ten runners under three hours; tenth man 3:01:33, tenth woman 3:32:32), but its 284 marathon finishers are a steep fall from 1,287 in 2023 while the organiser's total field fell only from about 13,000 to 10,000; the count is as listed.",
   "published_at": "2026-09-28T12:00:00.000Z",
-  "last_updated": "2026-09-28",
+  "last_updated": "2026-11-06",
   "status": "active"
 }

@@ -16,7 +16,7 @@
       },
       {
         "label": "Field",
-        "value": "More than 6,000 runners, up from 5,000 at the 2024 debut"
+        "value": "More than 6,000 runners, up from 5,000 at the 2024 debut; 3,082 half-marathon and 1,964 10 km finishers in the results"
       },
       {
         "label": "Start times",
@@ -53,6 +53,14 @@
       {
         "label": "Winning 10 km times",
         "value": "31:48 (men), 41:01 (women)"
+      },
+      {
+        "label": "Half-marathon spread",
+        "value": "Median 2:25, slowest tenth over 3:07; 19% under two hours, 57% under 2:30; 22% women"
+      },
+      {
+        "label": "10 km spread",
+        "value": "Median 1:13, slowest tenth over 1:35; 23% under an hour; 39% women"
       },
       {
         "label": "Finisher items",
@@ -98,6 +106,7 @@
       "heading": "How Fast the Field Is",
       "paragraphs": [
         "The 2025 race had a competitive pen for runners chasing prizes [7], and only runners who start in it can win [10]. In 2025 the half marathon was won by Joseph Mwangi Ngare in 1:13:11, three seconds ahead of Subas Gurung, and by Rachel See in 1:24:34 for women. Fifth place was 1:18:27 for men and 1:30:26 for women [9]. The 10 km went to Shaun Goh in 31:48 and to Vanessa Lee in 41:01, one second ahead of Nicole Low; fifth was 37:53 and 44:28 [9]. The top five in each race won cash [11].",
+        "Behind the prize-winners it is a mixed field. The 2025 results list 3,082 half-marathon finishers: the first ten ran between 1:13:10 and 1:20:31, the median took 2:25, and the slowest tenth took more than 3:07, well inside the four-hour limit. Nineteen per cent broke two hours and 57% broke 2:30, and 22% of finishers were women [15]. The 10 km had 1,964 finishers, with the first ten between 31:47 and 37:58, a median of 1:13, the slowest tenth over 1:35 and 23% under an hour; 39% were women [15].",
         "For 2026 the competitive pen needs a qualifying time under 1:30 for men and 1:50 for women in the half, or under 40 and 50 minutes in the 10 km [12]. Prize money runs from S$1,000 for first in the half to S$200 for fifth, and from S$500 to S$100 in the 10 km [12]. A half marathoner who can run in the low 1:20s (women) or high 1:10s (men) was in the prizes in 2025."
       ]
     },
@@ -111,7 +120,7 @@
     {
       "heading": "Should You Enter the 2026 Race?",
       "paragraphs": [
-        "Yes, if you want a half marathon or 10 km of manageable size on Singapore's waterfront, a four-hour half-marathon limit that suits walkers and first-timers, or a realistic chance of prize money if you run in the competitive pen.",
+        "Yes, if you want a half marathon or 10 km of manageable size on Singapore's waterfront, a four-hour half-marathon limit that suits walkers and first-timers, or a realistic chance of prize money if you run in the competitive pen. In 2025 half the half-marathon field finished after 2:25 and nine in ten inside 3:07, so the limit leaves room to spare; a sub-two-hour half put you in the top fifth.",
         "Think twice if you race badly in humidity or rely on frequent aid, since the air at the start was already saturated and two stretches of the half go more than 3.5 km between stations on the posted map [3][4].",
         "The 2026 race is on Sunday 25 October at Marina Barrage [12]. The organiser says flag-off times will be announced once the authorities approve them [12], so check the start times and the final route before you plan how to get there before dawn.",
         "Nobody from this site ran the race. This review draws on the organiser's race pages and route files, published results, airport weather records and SportPlus's reporting before and after the 2025 race."
@@ -223,6 +232,13 @@
       "publisher": "Garmin Singapore (organiser)",
       "url": "https://www.garmin.com.sg/event/2026/garmin-run/information.html",
       "type": "official"
+    },
+    {
+      "n": 15,
+      "label": "Run SEA analysis of official results (HeyJom)",
+      "publisher": "Run SEA",
+      "url": "https://api.heyjom.com/4-1/results/Garmin-Run-Asia-Series-Singapore-2025",
+      "type": "other"
     }
   ],
   "faqs": [
@@ -251,8 +267,8 @@
       "answer": "In 2025, fifth place in the half marathon was 1:18:27 for men and 1:30:26 for women, and the top five won cash. Only competitive-pen runners are eligible; for 2026 the pen needs under 1:30 (men) or 1:50 (women) in the half marathon."
     }
   ],
-  "editorial_notes": "Rewritten 2026-09-28 about the previous edition (Sunday 12 October 2025). Weather is from Changi Airport METAR observations, not a forecast. The 2025 route maps and traffic advisory are no longer online; the course is described from the organiser's archived 2025 GPX file and the route map posted for 2026, which follows the same line. Aid-station positions come from that 2026 map. Full results are not public, so only the published top five in each competitive category is used. No runner's own account of the 2025 race could be found. No rating.",
+  "editorial_notes": "Rewritten 2026-09-28 about the previous edition (Sunday 12 October 2025). Weather is from Changi Airport METAR observations, not a forecast. The 2025 route maps and traffic advisory are no longer online; the course is described from the organiser's archived 2025 GPX file and the route map posted for 2026, which follows the same line. Aid-station positions come from that 2026 map. Winners and fifth places are from the published top five in each competitive category; the field figures (medians, 90th-percentile times, percentages, first-ten range) are Run SEA analysis of the full 2025 HeyJom results, added 2026-11-06. No 2024 results were held, so there is no year-on-year comparison. No runner's own account of the 2025 race could be found. No rating.",
   "published_at": "2026-08-09T08:15:00.000Z",
-  "last_updated": "2026-09-28",
+  "last_updated": "2026-11-06",
   "status": "active"
 }

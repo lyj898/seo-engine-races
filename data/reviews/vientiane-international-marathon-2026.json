@@ -57,6 +57,10 @@
       {
         "label": "Marathon winners",
         "value": "Dariusz Bemben (Poland) and Napatsorn Panthatawewit (Thailand)"
+      },
+      {
+        "label": "Field depth (2023, latest full results)",
+        "value": "Marathon 149 finishers, median 4:57:00, top ten 2:49:56 to 3:28:53; half 439, median 2:30:45; 10 km 1,901, median 1:31:20"
       }
     ]
   },
@@ -91,6 +95,14 @@
       ]
     },
     {
+      "heading": "How Fast the Field Is",
+      "paragraphs": [
+        "The latest full results are from the race of 10 December 2023 [11]. The marathon is small: 149 finishers that year, 11% of them women, against 1,901 in the 10 km. The top ten ran between 2:49:56 and 3:28:53, 27 broke four hours, the median finisher took 4:57:00 and one in ten took longer than 6:17; seven are listed outside the 6:30 limit [11].",
+        "The half marathon had 439 finishers in 2023, a quarter of them women. Its top ten ran between 1:16:22 and 1:37:40, the median was 2:30:45 and one in five broke two hours [11]. The 10 km is the race most people run: 1,901 finishers, almost half of them women, up 43% on 2022, with a median of 1:31:20 [11][12].",
+        "Against December 2022, the marathon held steady at about 150 finishers but its median slowed by 14 minutes, from 4:42:31, while the half grew from 347 to 439 finishers [11][12]."
+      ]
+    },
+    {
       "heading": "Race Weekend Logistics",
       "paragraphs": [
         "In 2025, race packs were collected at the That Luang grounds on 12 and 13 December, 10am to 6pm [2]; the 2024 rules did not allow anyone to collect a pack on another runner's behalf [3]. Entries are non-refundable [2], and in 2024 they could not be transferred [3].",
@@ -100,10 +112,10 @@
     {
       "heading": "Should You Enter the 2026 Race?",
       "paragraphs": [
-        "Yes, if you want an unhurried capital-city marathon in cool December air, and you are comfortable finishing on open roads.",
-        "Think twice if you need closed roads, or will be out on the course long after 6.30am: under the 2024 rules, a five-hour marathoner runs the last two hours with traffic fully back [3]. The 3.30am start also means an early night.",
+        "Yes, if you want an unhurried capital-city marathon in cool December air, and you are comfortable finishing on open roads. The marathon field is small, about 150 finishers in 2023 with a median just under five hours, so it spreads out thinly [11].",
+        "Think twice if you need closed roads, or will be out on the course long after 6.30am: under the 2024 rules, a five-hour marathoner runs the last two hours with traffic fully back [3], and in 2023 more than four in ten marathon finishers took longer than five hours [11]. The 3.30am start also means an early night.",
         "The 2026 race is on Sunday 6 December [10]. The organiser's 2026 map keeps the 3.30am marathon start with a 10am cut-off, the half marathon at 4.30am with an 8am cut-off and the 10 km at 5am with a 7.30am cut-off [5], and packs are collected at the That Luang grounds on 4 and 5 December [9]. Check the road arrangements for 2026 before you book.",
-        "Nobody from this site ran the race. This review draws on a news report, the organiser's race information, rules and course maps, a race listing, airport weather records and one runner's account."
+        "Nobody from this site ran the race. This review draws on a news report, the organiser's race information, rules and course maps, a race listing, the 2022 and 2023 results, airport weather records and one runner's account."
       ]
     }
   ],
@@ -184,6 +196,20 @@
       "publisher": "Events for Good Laos (organiser)",
       "url": "https://efglaos.com/events/vientiane-international-marathon",
       "type": "official"
+    },
+    {
+      "n": 11,
+      "label": "Run SEA analysis of official results (Sportstats): 2023 race, all finishers",
+      "publisher": "Run SEA",
+      "url": "https://sportstats.one/event/vientiane-international-marathon/leaderboard/130091",
+      "type": "other"
+    },
+    {
+      "n": 12,
+      "label": "Run SEA analysis of official results (Sportstats): 2022 race, all finishers",
+      "publisher": "Run SEA",
+      "url": "https://sportstats.one/event/vientiane-international-half-marathon/leaderboard/118032",
+      "type": "other"
     }
   ],
   "faqs": [
@@ -208,8 +234,8 @@
       "answer": "In 2025, entries through World's Marathons cost €60 for the marathon, €52 for the half marathon, €35 for the 10 km and €13 for the 5 km. Entry included a finisher medal, event T-shirt, timing chip and photo service. Registration is non-refundable, and the 2024 rules did not allow transfers."
     }
   ],
-  "editorial_notes": "Rewritten 2026-09-28 about the previous edition (14 December 2025). Material is thin: one news report on the 2025 race, an archived 2025 race listing, the organiser's 2024 rules and maps, the 2026 maps and airport weather. The 2025 results (Checkpoint Spot results site) returned HTTP 403 and were not read, so no finishing times or field depth are given. No 2025 course map is posted; the 2024 and 2026 maps show the same routes. Road reopening, cut-offs, transfer and prize rules are from the 2024 rules and are labelled as such. Weather is from airport METAR observations; the airport has no readings between midnight and 6am. The runner's account is from the 2022 race. No rating.",
+  "editorial_notes": "Rewritten 2026-09-28 about the previous edition (14 December 2025). Material is thin: one news report on the 2025 race, an archived 2025 race listing, the organiser's 2024 rules and maps, the 2026 maps and airport weather. The 2025 results (Checkpoint Spot results site) returned HTTP 403 and were not read, so no finishing times or field depth are given. No 2025 course map is posted; the 2024 and 2026 maps show the same routes. Road reopening, cut-offs, transfer and prize rules are from the 2024 rules and are labelled as such. Weather is from airport METAR observations; the airport has no readings between midnight and 6am. The runner's account is from the 2022 race. No rating. Updated 2026-11-06: a field-depth section added from a Run SEA analysis of the full Sportstats results for December 2022 and December 2023, the latest on file; 2025 results are still not on file. The 2022 results are filed on Sportstats under the event name Vientiane International Half Marathon but include the marathon.",
   "published_at": "2026-08-08T15:30:00.000Z",
-  "last_updated": "2026-09-28",
+  "last_updated": "2026-11-06",
   "status": "active"
 }

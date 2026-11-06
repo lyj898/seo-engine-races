@@ -1,0 +1,78 @@
+{
+  "review_id": "blaze-the-passion-run-2027",
+  "slug": "blaze-the-passion-run-2027",
+  "entity_id": "blaze-the-passion-run-2027",
+  "title": "Blaze: The Passion Run 2027 Review: What the 2025 Race Was Like",
+  "seo_title": "Blaze: The Passion Run Clark Review: 2025 Results and Weather",
+  "meta_description": "Blaze: The Passion Run review from the 2025 race at Filinvest Mimosa+ in Clark: 25°C and 83% humidity before dawn, 146 half-marathon finishers with a 2:23 median, and what the 2027 entry includes.",
+  "dek": "What JCIR Events' Clark race was like in November 2025, then run as Great Run Clark: the pre-dawn weather and how fast its small half-marathon and 10 km fields ran.",
+  "verdict": "Enter if you want a small, low-key half marathon in Clark where nobody will rush you. The 2025 race had 146 half-marathon finishers and 203 in the 10 km, and half of the half marathoners took longer than 2:23. Clark airport recorded a mild 25°C and 83% humidity through the early morning, warming to 27°C by 8am. Almost nothing was published about the course or the cut-offs, so ask the organiser before you sign up.",
+  "at_a_glance": {
+    "heading": "The 2025 race in numbers",
+    "rows": [
+      { "label": "Date", "value": "Sunday 23 November 2025, as Great Run Clark: Blaze: The Passion Run. Next: listed for Sunday 10 January 2027" },
+      { "label": "Start and finish", "value": "Filinvest Mimosa+, Clark, Pampanga" },
+      { "label": "Distances", "value": "21 km, 10 km and 5 km" },
+      { "label": "Weather from 4am to 6am", "value": "25°C, dew point 22°C, 83% humidity, wind 4 knots (Clark airport)" },
+      { "label": "Weather at 8am", "value": "27°C, 74% humidity" },
+      { "label": "Half marathon", "value": "146 finishers; won in 1:19:20 (men) and 1:43:32 (women); median 2:23:24; 25% under 2 hours" },
+      { "label": "10 km", "value": "203 finishers; won in 39:09; median 1:24:14; 18% under 1 hour" },
+      { "label": "Next-edition fees", "value": "21 km PHP 1,750 to 2,200; 10 km PHP 1,200 to 1,600; 5 km PHP 1,000 to 1,400" }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "The 2025 Race",
+      "paragraphs": [
+        "JCIR Events Management ran the 2025 edition on Sunday 23 November as Great Run Clark: Blaze: The Passion Run, at Filinvest Mimosa+ in Clark, with a 21 km, a 10 km and a 5 km [1]. No route map, gun times or cut-offs were published for it; the results system records the event at 4am [1]."
+      ]
+    },
+    {
+      "heading": "The Weather: Mild Until Sunrise",
+      "paragraphs": [
+        "Clark International Airport, a short drive from Mimosa+, recorded 25°C, a 22°C dew point, 83% humidity and a 4-knot wind every hour from 2am to 6am on race morning [3]. It warmed to 26°C at 7am, 27°C at 8am and 28°C at 9am [3]. For the Philippines that is kind running air: a median half marathoner starting before 5am would have finished before it passed 27°C."
+      ]
+    },
+    {
+      "heading": "How Fast the Field Is",
+      "paragraphs": [
+        "Small and mixed. The half marathon had 146 finishers. It was won in 1:19:20 by a man and 1:43:32 by a woman; tenth place was 1:41:31, the median 2:23:24 and the slowest tenth took more than 3:04 [4]. A quarter broke two hours and 57% broke 2:30, and 34% of finishers were women [4].",
+        "The 10 km had 203 finishers, won in 39:09 and 53:12, with tenth place at 48:33, a median of 1:24:14, 18% under an hour and 47% women [4]. With fields this size, a two-hour half marathoner finishes in the top quarter."
+      ]
+    },
+    {
+      "heading": "Should You Enter the 2027 Race?",
+      "paragraphs": [
+        "Yes, if you want a quiet half marathon at Clark with mild pre-dawn air and a slow, friendly field.",
+        "Think twice if you need a published route, cut-offs and aid plan before you commit: for 2025 there were none.",
+        "The next race is listed for Sunday 10 January 2027 at Filinvest Mimosa+, with a 21 km, 10 km and 5 km [2]. The same listing also mentions a 22 November date, so confirm it with the organiser. Fees rise from PHP 1,750 to PHP 2,200 for the 21 km across three price tiers, and every entry includes a singlet, medal, string bag and chip-timed bib, with a finisher shirt for the 10 km and 21 km [2].",
+        "Nobody from this site ran the race. This review draws on the results, an event listing and airport weather records."
+      ]
+    }
+  ],
+  "pull_quotes": [],
+  "sources": [
+    { "n": 1, "label": "2025 results listing: event name, date, venue and categories", "publisher": "MyRunTime (JCIR Events Management)", "url": "https://jcirevents.myruntime.com/raceDetailsService/api/getRaceWinners?raceNick=great-run-clark-blaze-the-passion-run", "type": "official" },
+    { "n": 2, "label": "Next-edition listing: date, venue, fees and inclusions", "publisher": "Pinoy Fitness", "url": "https://www.pinoyfitness.com/event/blaze-the-passion-run-2026/", "type": "aggregator" },
+    { "n": 3, "label": "Hourly weather observations at Clark International Airport (RPLC), 23 November 2025", "publisher": "Iowa Environmental Mesonet (airport METAR archive)", "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=RPLC&data=tmpc&data=dwpc&data=relh&data=sknt&data=wxcodes&year1=2025&month1=11&day1=23&year2=2025&month2=11&day2=24&tz=Asia%2FManila&format=onlycomma&latlon=no&missing=M&report_type=3&report_type=4", "type": "other" },
+    { "n": 4, "label": "Run SEA analysis of official results (MyRunTime), 2025 race", "publisher": "Run SEA", "url": "https://jcirevents.myruntime.com/results/great-run-clark-blaze-the-passion-run", "type": "other" }
+  ],
+  "faqs": [
+    {
+      "question": "How fast is the Blaze: The Passion Run half marathon?",
+      "answer": "Relaxed. At the 2025 race, 146 runners finished the 21 km with a median of 2:23:24; a quarter broke two hours and the slowest tenth took more than 3:04. It was won in 1:19:20 by a man and 1:43:32 by a woman, and tenth place was 1:41:31."
+    },
+    {
+      "question": "What is the weather like at Blaze: The Passion Run in Clark?",
+      "answer": "Mild before sunrise. On race morning in 2025 Clark airport recorded 25°C, 83% humidity and a light wind from 2am to 6am. It reached 26°C at 7am, 27°C at 8am and 28°C at 9am, so most half marathoners finished before the heat built."
+    },
+    {
+      "question": "When is the next Blaze: The Passion Run?",
+      "answer": "The event listing gives Sunday 10 January 2027 at Filinvest Mimosa+ in Clark, with 21 km, 10 km and 5 km races, although the same page also mentions a 22 November date. Confirm the date with JCIR Events before booking travel. The 2025 edition was held on 23 November."
+    }
+  ],
+  "editorial_notes": "Written 2026-11-06 about the 2025 edition (Great Run Clark: Blaze: The Passion Run, Sunday 23 November 2025), the only edition for which we hold results. Evidence beyond the results is very thin: the MyRunTime results and registration pages render only in a browser, so the event name, venue and categories are from the results page's own data feed; no route, gun times, cut-offs, aid plan, news report or runner account was found, and the organiser's Facebook page could not be read. The 2025 race also had a 5 km, which is not in our finish-time data. Finish-time figures are Run SEA's analysis of the official results. Weather is from Clark airport METAR; the 4am event time in the results system is not labelled a gun time. The next-edition listing contradicts itself on the date (10 January 2027 and 22 November); both are given. An unverified 7am cut-off on the entity record was not confirmed by any page opened and is not used. No rating.",
+  "published_at": "2026-11-06T10:30:00.000Z",
+  "last_updated": "2026-11-06",
+  "status": "active"
+}

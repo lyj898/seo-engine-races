@@ -1,0 +1,80 @@
+{
+  "review_id": "the-gift-of-running-2026",
+  "slug": "the-gift-of-running-2026",
+  "entity_id": "the-gift-of-running-2026",
+  "title": "The Gift of Running 2026 Review: What the 2025 Race Was Like",
+  "seo_title": "The Gift of Running Alabang Review: 2025 10 km Results, Weather",
+  "meta_description": "The Gift of Running review from the 2025 race at Filinvest City, Alabang: a 5am 10 km start in 26°C air with a breeze, 943 finishers with a 1:20 median, and the new 21 km for 2026.",
+  "dek": "What MNL City Run's December charity race at Filinvest City was like in 2025, when its longest distance was 10 km: the start, a breezy dry-season morning and how fast the field ran.",
+  "verdict": "Enter if you want a relaxed December charity run in Alabang with a breeze and a slow, friendly field. The 2025 race topped out at 10 km, which started at 5am from Central Park, Filinvest City, in 26°C air with an 8-knot breeze and a dew point of 20°C, mild for Manila. Its 943 finishers ran a median of 1:20, and fewer than one in six broke an hour. The 2026 edition adds a 21 km, so the half marathon is untested.",
+  "at_a_glance": {
+    "heading": "The 2025 race in numbers",
+    "rows": [
+      { "label": "Date", "value": "Sunday 7 December 2025. Next: Sunday 6 December 2026" },
+      { "label": "Start and finish", "value": "Central Park, Filinvest City, Alabang, Muntinlupa" },
+      { "label": "Distances in 2025", "value": "10 km, 5 km, 3 km and a 1 km dog run; 21 km added in 2026" },
+      { "label": "Gun times", "value": "10 km 5am, 5 km 6am, 3 km 6.15am, dog run 6.20am" },
+      { "label": "Weather, 5am to 7am", "value": "26°C, dew point 20°C, 70% humidity, wind 6 to 8 knots (Manila airport)" },
+      { "label": "10 km", "value": "943 finishers; won in 34:29 (men) and 46:53 (women); median 1:20:37; 16% under 1 hour; 43% women" },
+      { "label": "Entry fees", "value": "10 km PHP 1,350, 5 km PHP 1,050, 3 km PHP 950, dog run PHP 800" },
+      { "label": "Beneficiary", "value": "Child Haus Foundation (2025); CRIBS Foundation (2026)" }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "The 2025 Race",
+      "paragraphs": [
+        "The Gift of Running 2025, subtitled With Purpose and Hope, was organised by Rule and Rich Events Management Services and presented by MNL City Run, for the Child Haus Foundation, which supports children having cancer treatment [1]. It started and finished at Central Park in Filinvest City, Alabang, with a 10 km at 5am, a 5 km at 6am, a 3 km at 6.15am and a 1 km dog run at 6.20am [1][2]. No route map, cut-offs or aid-station plan were published."
+      ]
+    },
+    {
+      "heading": "The Weather: A Breezy December Morning",
+      "paragraphs": [
+        "Manila's Ninoy Aquino airport, about 15 km north of Filinvest City, recorded 26°C with a dew point of 20°C, 70% humidity and a 6- to 8-knot north wind every hour from 5am to 7am on race morning, under broken cloud [4]. It was 27°C at 8am, with the wind up to 11 knots [4].",
+        "A 20°C dew point with a steady breeze is about as comfortable as Metro Manila gets. A median 10 km runner finished at about 6.20am, well before the warming."
+      ]
+    },
+    {
+      "heading": "How Fast the Field Is",
+      "paragraphs": [
+        "The 10 km had 943 finishers. It was won in 34:29 by a man and 46:53 by a woman; tenth place was 41:16 and tenth woman 56:05 [5]. The median finisher took 1:20:37 and the slowest tenth more than 1:46. Only 16% broke an hour, and 43% of finishers were women [5].",
+        "That is a walk-and-run field: a 55-minute 10 km runner finishes in the top tenth, and nobody is out of place at 1:30."
+      ]
+    },
+    {
+      "heading": "Should You Enter the 2026 Race?",
+      "paragraphs": [
+        "Yes, for the 10 km or shorter, if you want an early, breezy charity run in Alabang with a relaxed field.",
+        "Think twice about the new 21 km if you want a proven half marathon: 2025 had no race longer than 10 km, so its route, aid and limits are unknown.",
+        "The 2026 race, the final leg of the MNL City Run 2026 series, is on Sunday 6 December at Central Park, Filinvest City, with a 21 km, 10 km, 5 km, 3 km and dog run, for the CRIBS Foundation [3]. Fees run from PHP 850 for the dog run to PHP 1,850 for the 21 km [3].",
+        "Nobody from this site ran the race. This review draws on event listings, the full 10 km results and airport weather records."
+      ]
+    }
+  ],
+  "pull_quotes": [],
+  "sources": [
+    { "n": 1, "label": "2025 event listing: organiser, beneficiary, venue, gun times and fees", "publisher": "Pinoy Fitness", "url": "https://www.pinoyfitness.com/?p=82626", "type": "aggregator" },
+    { "n": 2, "label": "2025 results listing: event name, date, venue and categories", "publisher": "MyRunTime (MNL City Run)", "url": "https://mnlcityrun.myruntime.com/raceDetailsService/api/getRaceWinners?raceNick=the-gift-of-running-2025", "type": "official" },
+    { "n": 3, "label": "2026 event listing: date, distances, beneficiary and fees", "publisher": "Pinoy Fitness", "url": "https://www.pinoyfitness.com/event/the-gift-of-running-2026/", "type": "aggregator" },
+    { "n": 4, "label": "Hourly weather observations at Ninoy Aquino International Airport (RPLL), 7 December 2025", "publisher": "Iowa Environmental Mesonet (airport METAR archive)", "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=RPLL&data=tmpc&data=dwpc&data=relh&data=sknt&data=wxcodes&data=metar&year1=2025&month1=12&day1=7&year2=2025&month2=12&day2=8&tz=Asia%2FManila&format=onlycomma&latlon=no&missing=M&report_type=3&report_type=4", "type": "other" },
+    { "n": 5, "label": "Run SEA analysis of official results (MyRunTime), 2025 race", "publisher": "Run SEA", "url": "https://mnlcityrun.myruntime.com/results/the-gift-of-running-2025", "type": "other" }
+  ],
+  "faqs": [
+    {
+      "question": "Did The Gift of Running have a half marathon in 2025?",
+      "answer": "No. The 7 December 2025 race offered a 10 km, 5 km, 3 km and a 1 km dog run, with the 10 km starting at 5am. The 21 km is new for the 6 December 2026 race at Central Park, Filinvest City, so there is no past half marathon to judge it by."
+    },
+    {
+      "question": "How fast is The Gift of Running 10 km?",
+      "answer": "Relaxed. In 2025 the 10 km had 943 finishers with a median of 1:20:37, and only 16% broke an hour. It was won in 34:29 by a man and 46:53 by a woman, tenth place was 41:16, and 43% of finishers were women."
+    },
+    {
+      "question": "What is the weather like at The Gift of Running?",
+      "answer": "Comfortable for Manila. On race morning in 2025 Manila airport recorded 26°C with a dew point of 20°C, 70% humidity and a 6- to 8-knot breeze from 5am to 7am. It was 27°C by 8am, so the 10 km was run before it warmed."
+    }
+  ],
+  "editorial_notes": "Written 2026-11-06 about the 2025 edition (Sunday 7 December 2025), which appears to have been the first; this is not confirmed. The 2025 race's longest distance was 10 km, so this short review covers a 10 km only and says nothing about the 2026 half marathon. Evidence beyond the results and listings is very thin: no route, cut-offs, aid plan, news report or runner account was found, and the MyRunTime pages render only in a browser, so venue and categories are from the results page's data feed. Finish-time figures are Run SEA's analysis of the official MyRunTime 10 km results. Weather is from Manila airport METAR, about 15 km north of Filinvest City. No rating.",
+  "published_at": "2026-11-06T10:50:00.000Z",
+  "last_updated": "2026-11-06",
+  "status": "active"
+}
