@@ -209,6 +209,14 @@ for (const f of fs.readdirSync(path.join('data', 'finish-times'))) {
 const ageShare = (k, bands) => { const v = pool[k].filter((x) => x[2]); return v.filter((x) => bands.includes(x[2])).length / v.length; };
 const pct = (x) => `${Math.round(x * 100)}%`;
 const ents = loadEntities().map(stripMeta).filter((e) => ['active', 'needs_review'].includes(e.status) && !e.core_facts?.event_status && (e.core_facts?.date ?? '') >= new Date().toISOString().slice(0, 10));
+// Kling 4.0 clips: crop to 9:16 and the per-reel timings (clip length; when each spoken line starts,
+// + 1.6 s for the cover lead, as in every first scene).
+const KLING_CROP = '716:1272:0:4';
+const KLING_T = {
+  'midnight-clark-jess-kling': { len: 10.04, l1: 0.3, l2: 7.3, l3: 9.5 },
+  'khun-dan-results-cynthia-kling': { len: 10.04, l1: 0.3, l2: 7.65, l3: 10.1 },
+  'borobudur-nurul-kling': { len: 11.04, l1: 0.3, l2: 9.1, l3: 10.85 },
+};
 
 const STORIES = {
   'two-hour-wall': (() => {
@@ -465,6 +473,62 @@ From ${n(v.length)} half marathon finishes. Footage and voice are AI-generated; 
       [8.85, 'big', { y: 920, kicker: 'TERENGGANU HALF MARATHON, 31 OCT', num: hm(q(t, 0.5)), lines: [['typical finish.', false, 0.3], ['Under 2:30: top third.', false, 4.1], [`Under 2:00: top ${top(7200)}%.`, false, 6.5], ['Drop your time below.', true, 9.2]] }],
     ], `Ran the Terengganu Half Marathon on Saturday (31 Oct)? Here's how your time ranks among ${n(t.length)} finishers:\n\n${tiers}\n\nTypical finish: ${hm(q(t, 0.5))} (men ${hm(med('M'))}, women ${hm(med('F'))}).\n\nComment your finish time and we'll tell you exactly where you landed 👇 Or rank any race time at runsea.run/tools\n\nFrom the official results (RaceTiger). Jess is RunSea's AI host: her face, voice and footage are AI-generated; the numbers are real. ${FOLLOW}\n\n#terengganuhalfmarathon #kualaterengganu #halfmarathon #larian #runmalaysia #running #runsea`,
     'footage', true, { clips: [{ file: 'jess-terengganu-talk.mp4', crop: '704:1252:8:14' }], slow: 1, len: 8.85, vo: 'jess-terengganu-talk.mp4', tempo: 1, delay: 0, follow: false });
+  })(),
+  // Kling 4.0 trials (Alex 4 Nov: "use kling to do one new reel for both jess and cynthia for me to
+  // see"). Kling makes the walk, the voice and the lip-sync in one pass from a still, with the line
+  // quoted in the prompt ($1.256 per 10 s), so the clip's own audio is the soundtrack. Not posted.
+  // Jess: French braid / mint singlet / palm-lined avenue at night. Data: this year's three Midnight Run
+  // legs (CDO, Cebu, Iloilo) ahead of the Clark leg on 15 Nov. "Running the Midnight Run in Clark on the
+  // fifteenth? This year's typical half took two forty-one. Under two hours? Top eleven percent! What's
+  // your goal? Drop it below!"
+  'midnight-clark-jess-kling': (() => {
+    const legs = ['cdo', 'cebu', 'iloilo'].map((l) => JSON.parse(fs.readFileSync(path.join('data', 'finish-times', `hoka-midnight-run-asia-2026-${l}.json`), 'utf8')));
+    const t = (k) => legs.flatMap((d) => d.distances[k].times.map((x) => x[0])).filter((x) => x > 0).sort((a, b) => a - b);
+    const half = t('Half'), ten = t('10K'), top = (v, c) => Math.round((v.filter((x) => x < c).length / v.length) * 100);
+    const T = KLING_T['midnight-clark-jess-kling'];
+    return story('race-specific / goal times', [
+      [T.len, 'big', { y: 920, kicker: 'MIDNIGHT RUN CLARK, 15 NOV', num: hm(q(half, 0.5)), lines: [['typical half finish this year.', false, T.l1], [`Under 2:00: top ${top(half, 7200)}%.`, false, T.l2], ['Drop your goal time below.', true, T.l3]] }],
+    ], `Running the Midnight Run in Clark on 15 November? Here's how this year's other three legs (Cagayan de Oro, Cebu, Iloilo) finished.\n\nHalf marathon: typical finish ${hm(q(half, 0.5))}. Under 2:00 = top ${top(half, 7200)}%. Under 2:30 = top ${top(half, 9000)}%.\n10K: typical finish ${hm(q(ten, 0.5))}. Under 1:00 = top ${top(ten, 3600)}%. Under 1:15 = top ${top(ten, 4500)}%.\n\nWhat's your goal time? Drop it below 👇 Then see where it would have placed at runsea.run\n\nFrom ${n(half.length + ten.length)} half marathon and 10K finishes at this year's earlier legs. Jess is RunSea's AI host: her face, voice and footage are AI-generated; the numbers are real. ${FOLLOW}\n\n#midnightrun #clark #pampanga #halfmarathon #10k #runningph #runsea`,
+      'footage', true, { clips: [{ file: 'jess-midnight-clark-kling.mp4', crop: KLING_CROP }], slow: 1, len: T.len, vo: 'jess-midnight-clark-kling.mp4', tempo: 1, delay: 0, follow: false });
+  })(),
+  // Ploy (named Cynthia until 4 Nov): low bun / teal singlet / rural road between rice fields, misty mountains (Nakhon Nayok).
+  // "Ran the Khun Dan Marathon last month? The typical half took two twenty-three. Under two hours?
+  // You're in the top quarter! Drop your time below!"
+  'khun-dan-results-cynthia-kling': (() => {
+    const d = JSON.parse(fs.readFileSync(path.join('data', 'finish-times', 'khun-dan-marathon-2026.json'), 'utf8'));
+    const t = (k) => d.distances[k].times.map((x) => x[0]).filter((x) => x > 0).sort((a, b) => a - b);
+    const half = t('Half'), ten = t('10K'), full = t('Full'), top = (v, c) => Math.ceil((v.filter((x) => x < c).length / v.length) * 100);
+    const tiers = [[6300, '1:45'], [7200, '2:00'], [8100, '2:15'], [9000, '2:30'], [10800, '3:00']].map(([c, l]) => `Under ${l}: top ${top(half, c)}%`).join('\n');
+    const T = KLING_T['khun-dan-results-cynthia-kling'];
+    return story('race results / rank your time', [
+      [T.len, 'big', { y: 1020, kicker: 'KHUN DAN MARATHON, 18 OCT', num: hm(q(half, 0.5)), lines: [['typical half finish.', false, T.l1], [`Under 2:00: top ${top(half, 7200)}%.`, false, T.l2], ['Drop your time below.', true, T.l3]] }],
+    ], `Ran the Khun Dan Marathon in Nakhon Nayok on 18 October? Here's how your half marathon time ranks among ${n(half.length)} finishers:\n\n${tiers}\n\nTypical finish: half ${hm(q(half, 0.5))}, 10K ${hm(q(ten, 0.5))}, marathon ${hm(q(full, 0.5))}.\n\nComment your finish time and we'll tell you where you landed 👇 Or rank any race time at runsea.run/tools\n\nFrom the official results. Ploy is RunSea's AI host: her face, voice and footage are AI-generated; the numbers are real. ${FOLLOW}\n\n#khundanmarathon #nakhonnayok #halfmarathon #วิ่ง #thailandrunning #running #runsea`,
+      'footage', true, { clips: [{ file: 'cynthia-khun-dan-kling.mp4', crop: KLING_CROP }], slow: 1, len: T.len, vo: 'cynthia-khun-dan-kling.mp4', tempo: 1, delay: 0, follow: false });
+  })(),
+  // Nurul, RunSea's Indonesian host (named by Alex 4 Nov 2026), first Bahasa reel. Side braid / lilac tee /
+  // Central Java rice terraces with a volcano. Kling 4.0, 11 s. Data: this year's Indonesian marathons
+  // ahead of Borobudur Marathon (15 Nov). "Halo! Ikut Borobudur Marathon tanggal lima belas? Separuh pelari
+  // maraton di Indonesia finis lebih dari lima jam dua puluh lima menit. Di bawah empat jam? Kamu masuk
+  // delapan persen tercepat! Tulis targetmu di komentar ya!"
+  'borobudur-nurul-kling': (() => {
+    const ids = ['blue-ocean-minang-run-2026', 'btn-ui-green-marathon-2026', 'maybank-marathon-2026', 'amartha-10x-run-2026', 'crystalin-run-xperience-2026-jakarta', 'malioboro-run-2026'].map((f) => JSON.parse(fs.readFileSync(path.join('data', 'finish-times', `${f}.json`), 'utf8')));
+    const t = (k) => ids.flatMap((d) => d.distances[k]?.times ?? []).map((x) => x[0]).filter((x) => x > 0).sort((a, b) => a - b);
+    const full = t('Full'), half = t('Half'), top = (v, c) => Math.round((v.filter((x) => x < c).length / v.length) * 100);
+    const dot = (x) => x.toLocaleString('de-DE');
+    const T = KLING_T['borobudur-nurul-kling'];
+    return story('race-specific / goal times (Bahasa)', [
+      [T.len, 'big', { y: 1020, kicker: 'BOROBUDUR MARATHON, 15 NOV', num: hm(q(full, 0.5)), lines: [['Separuh pelari finis di atas ini.', false, T.l1], [`Di bawah 4:00: ${top(full, 14400)}% tercepat.`, false, T.l2], ['Tulis targetmu di komentar.', true, T.l3]] }],
+    ], `Ikut Borobudur Marathon tanggal 15 November? Ini waktu finis pelari di Indonesia tahun ini:
+
+Maraton: separuh pelari finis lebih dari ${hm(q(full, 0.5))}. Di bawah 4:00 = ${top(full, 14400)}% tercepat. Di bawah 4:30 = ${top(full, 16200)}% tercepat. Di bawah 5:00 = ${top(full, 18000)}% tercepat.
+Half marathon: separuh pelari finis lebih dari ${hm(q(half, 0.5))}. Di bawah 2:00 = ${top(half, 7200)}% tercepat.
+
+Berapa target waktumu? Tulis di komentar 👇 Cek peringkat waktumu di runsea.run
+
+Dari ${dot(full.length)} finis maraton dan ${dot(half.length)} finis half marathon di lomba lari Indonesia tahun ini. Nurul adalah host AI RunSea: wajah, suara, dan videonya dibuat dengan AI; angkanya nyata. Follow @runsea.run untuk statistik lari setiap hari.
+
+#borobudurmarathon #maraton #halfmarathon #lari #pelari #indonesia #runsea`,
+      'footage', true, { clips: [{ file: 'nurul-borobudur-kling.mp4', crop: KLING_CROP }], slow: 1, len: T.len, vo: 'nurul-borobudur-kling.mp4', tempo: 1, delay: 0, follow: false });
   })(),
   // Cynthia, RunSea's second AI host: her first reel (made as a trial 4 Nov 2026, Alex approved it and
   // said post it). Gemini photo-to-video walk + InfiniteTalk lip-sync, ElevenLabs "Laura".
