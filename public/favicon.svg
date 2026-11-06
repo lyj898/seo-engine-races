@@ -1,6 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <!-- Exact favicon from runsea.run's live design system (Races/design.html):
-       graphite ring + lime "pulse line" mark. Swap per vertical instance. -->
-  <circle cx="16" cy="16" r="15" stroke="#15170f" stroke-width="2" fill="none" />
-  <path d="M9 21 L14 13 L18 17 L23 9" stroke="#c8ff33" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  <!-- Same mark as the Instagram profile logo: lime disc, near-black pulse line. -->
+  <circle cx="16" cy="16" r="16" fill="#c8ff33" />
+  <path d="M8.4 20.9 L13.4 12.6 L18 17.2 L23.7 8.7" stroke="#15170f" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round" fill="none" />
 </svg>
