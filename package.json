@@ -11,7 +11,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "validate": "node scripts/validate-data.js",
+    "validate": "node scripts/validate-data.js && node scripts/check-brand.js",
     "archive": "node scripts/archive-lapsed.js",
     "discover": "node scripts/discover-entities.js",
     "refresh": "node scripts/refresh-entities.js",

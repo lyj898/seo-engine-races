@@ -38,6 +38,11 @@ const metaDescription = description ?? siteConfig.siteTagline;
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="color-scheme" content="light dark" />
     <link rel="icon" href={`${import.meta.env.BASE_URL}favicon.svg`} type="image/svg+xml" />
+    {/* Same mark as the Instagram profile logo (the brand standard): a PNG
+        fallback for browsers and search results that don't use SVG icons,
+        and the iPhone home-screen icon. Made from runsea-social/brand/profile.png. */}
+    <link rel="icon" href={`${import.meta.env.BASE_URL}favicon-48.png`} type="image/png" sizes="48x48" />
+    <link rel="apple-touch-icon" href={`${import.meta.env.BASE_URL}apple-touch-icon.png`} />
     <link rel="canonical" href={canonicalUrl} />
     {noindex && <meta name="robots" content="noindex, follow" />}
     <title>{pageTitle}</title>
