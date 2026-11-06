@@ -109,7 +109,20 @@
       "source_url": "https://www.instagram.com/runktl/"
     }
   ],
-  "coaches": [],
+  "coaches": [
+    {
+      "name": "Jasmani Medan (Coach Tan Sri Simamora)",
+      "kind": "coaching_business",
+      "url": "https://www.instagram.com/jasmani_medan/",
+      "url_kind": "instagram",
+      "offers": "Paid physical-training classes (bimbel jasmani) for TNI, Polri and state-academy entrance tests, built around running sessions such as long runs, tempo runs and 45-minute jogs; its bio also lists running training (prices not published)",
+      "where": "Medan",
+      "credentials": "Coach Tan Sri Simamora lists an IAAF coaches course, and the group's bio cites a national-level IAAF athletics coaching licence; he also works as a running race director",
+      "description": "A Medan training group running since 2018, mainly preparing applicants for the physical tests for police, military and state-academy entry. Most of its posts concern entrance-test preparation rather than road racing.",
+      "active_evidence": "Instagram posts, 28 Jun to 23 Oct 2026",
+      "source_url": "https://www.instagram.com/jasmani_medan/"
+    }
+  ],
   "route_guides": [],
   "last_updated": "2026-11-06",
   "status": "active"

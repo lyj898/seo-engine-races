@@ -98,7 +98,20 @@
       "source_url": "https://www.instagram.com/gsc.rc/"
     }
   ],
-  "coaches": [],
+  "coaches": [
+    {
+      "name": "Lari Bareng Kevin (LBK Squad)",
+      "kind": "coach",
+      "url": "https://www.instagram.com/laribarengkevin/",
+      "url_kind": "instagram",
+      "offers": "Coaching for runners from beginner to full marathon, starting with a free consultation by Instagram DM; group sessions that include strength training and running drills; a 12-week half-marathon training guide sold for IDR 49,000",
+      "where": "Surabaya",
+      "credentials": "No coaching certification stated; he also paces races from 5K to the marathon",
+      "description": "A Surabaya running coach, Kevin, whose runners train and race together as the LBK Squad. One of his runners posted a sub-4-hour marathon in October 2026.",
+      "active_evidence": "Instagram posts, 28 Jul to 3 Oct 2026; a runner's post tagging the group, 8 Oct 2026; training guide on sale, checked 6 Nov 2026",
+      "source_url": "https://www.instagram.com/laribarengkevin/"
+    }
+  ],
   "route_guides": [],
   "last_updated": "2026-11-06",
   "status": "active"

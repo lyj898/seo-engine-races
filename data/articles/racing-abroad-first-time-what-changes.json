@@ -20,7 +20,9 @@
       "paragraphs": [
         "Citizens of ASEAN countries have the easiest time. The ASEAN Framework Agreement on Visa Exemption sets a baseline of up to 14 days visa-free for citizens of other member states visiting with a valid national passport, put into effect through agreements between pairs of member states[2].",
         "Thailand changed its rules on 15 September 2026. Its 60-day visa exemption ended, and the foreign ministry's new list gives citizens of 60 countries and territories, including Malaysia, Singapore, Indonesia, the Philippines, Brunei, the UK, the US, Australia and Japan, visa-free entry for tourism of up to 30 days[3][4]. The new exemption covers tourism only. Visa-exempt travellers entering Thailand by land are limited to two entries a calendar year, but Malaysian, Singaporean, Indonesian and Bruneian citizens are exempt from that cap, which matters for runners driving to races in southern Thailand[4].",
-        "Visa-free doesn't mean no paperwork. Thailand requires every non-Thai visitor to submit the Thailand Digital Arrival Card online, free, within three days before arrival[5]. Singapore requires the SG Arrival Card from all travellers except residents crossing at the land checkpoints, also free and within three days before arrival, counting the arrival day[6]. Malaysia runs its own Malaysia Digital Arrival Card, and the Philippines its free eTravel registration[7][8]. Use only the government portals, since agent sites charge for forms that are free, and check the rules for your own passport on the destination government's site before you book anything you can't refund."
+        "Indonesia gives citizens of ASEAN countries, including Malaysia, Singapore, the Philippines, Thailand, Brunei and Vietnam, a visa exemption of up to 30 days with no fee, which cannot be extended[9]. Visitors from countries such as the UK, US, Australia and Japan need a visa on arrival instead: Rp500,000 for 30 days, extendable once for another 30, and available online in advance as an e-VOA[9][10]. Either way, bring a passport valid for at least six months and an onward ticket[9].",
+        "Vietnam's visa-free stay depends on the passport. Singapore passport holders can generally stay up to 30 days per entry[13], and Vietnam's national tourism authority lists 30 days for Malaysians and Thais, 21 days for Filipinos, and 45 days for citizens of 25 mostly European countries, including the UK, Germany, France, Japan and South Korea[14]. Other visitors, including Americans and Australians, need a visa: the e-visa from the official portal evisa.gov.vn is valid for up to 90 days, single or multiple entry, and costs US$25 or US$50[15]. For any other passport, including Indonesian and Bruneian, check the official site, evisa.gov.vn, before booking[15].",
+        "Visa-free doesn't mean no paperwork. Thailand requires every non-Thai visitor to submit the Thailand Digital Arrival Card online, free, within three days before arrival[5]. Singapore requires the SG Arrival Card from all travellers except residents crossing at the land checkpoints, also free and within three days before arrival, counting the arrival day[6]. Malaysia runs its own Malaysia Digital Arrival Card, and the Philippines its free eTravel registration[7][8]. Indonesia requires every arriving passenger to complete the All Indonesia arrival card, which combines the immigration, customs, health and quarantine declarations, is free, and can be submitted within three days before arrival[10][11][12]. Vietnam's online pre-arrival declaration is so far compulsory only for foreigners flying into Tan Son Nhat airport in Ho Chi Minh City, but the Immigration Department recommends it for all visitors, at prearrival.immigration.gov.vn[13][15]. Use only the government portals, since agent sites charge for forms that are free, and check the rules for your own passport on the destination government's site before you book anything you can't refund."
       ]
     },
     {
@@ -109,6 +111,55 @@
       "publisher": "Government of the Philippines",
       "url": "https://etravel.gov.ph/",
       "type": "official"
+    },
+    {
+      "n": 9,
+      "label": "Indonesia e-Visa: visa selection (A1 Visa Exemption Tourism and B1 Visa on Arrival terms)",
+      "publisher": "Directorate General of Immigration, Indonesia",
+      "url": "https://evisa.imigrasi.go.id/web/visa-selection",
+      "type": "official"
+    },
+    {
+      "n": 10,
+      "label": "The Official e-Visa Website for Indonesia (e-VOA and arrival card notice)",
+      "publisher": "Directorate General of Immigration, Indonesia",
+      "url": "https://evisa.imigrasi.go.id/",
+      "type": "official"
+    },
+    {
+      "n": 11,
+      "label": "Mulai 1 Oktober, deklarasi kedatangan penumpang wajib dilakukan di aplikasi All Indonesia (press release, 1 Oct 2025)",
+      "publisher": "Directorate General of Immigration, Indonesia",
+      "url": "https://imigrasi.go.id/siaran_pers/2025/10/02/mulai-1-oktober-deklarasi-kedatangan-penumpang-wajib-dilakukan-di-aplikasi-all-indonesia",
+      "type": "official"
+    },
+    {
+      "n": 12,
+      "label": "Arrival passengers at three international airports and ports in Batam are required to declare their arrival through the All Indonesia application (Sep 2025)",
+      "publisher": "Batam Immigration Office, Indonesia",
+      "url": "https://batam.imigrasi.go.id/berita/2025/09/arrival-passengers-at-three-international-airports-and-ports-in-batam-are-required-to-declare-their-arrival-through-the-all-indonesia-application",
+      "type": "official"
+    },
+    {
+      "n": 13,
+      "label": "Vietnam travel page (updated 6 Nov 2026)",
+      "publisher": "Ministry of Foreign Affairs, Singapore",
+      "url": "https://www.mfa.gov.sg/travelling-overseas/travel-advisories-notices-and-visa-information/vietnam/",
+      "type": "official"
+    },
+    {
+      "n": 14,
+      "label": "Vietnam visa requirements (last updated 2026)",
+      "publisher": "Vietnam National Authority of Tourism",
+      "url": "https://vietnam.travel/plan-your-trip/visa-requirements/",
+      "type": "official"
+    },
+    {
+      "n": 15,
+      "label": "Viet Nam e-Visa website",
+      "publisher": "Immigration Department, Ministry of Public Security of Viet Nam",
+      "url": "https://evisa.gov.vn/",
+      "type": "official"
     }
   ],
   "faqs": [
@@ -125,7 +176,7 @@
       "answer": "At some races, yes. The Phnom Penh International Half Marathon charged US$28 for Cambodians and US$45 for foreigners in 2026, and Bali's Maybank Marathon charges foreigners more. A few races are open only to citizens or residents, and some restrict prize money to locals, so read the entry rules before you book travel."
     }
   ],
-  "editorial_notes": "Rewritten 6 Nov 2026 as the site's single first-trip travel guide, absorbing the race-cation, family-trip, visa-free, race-expo, packing-checklist and spectator-gear pieces. Fee ranges are the top of each published range for races with a full marathon in Run SEA's entity records (some are late-registration prices). Pack-collection facts come from the race records, which cite organiser pages; '15 races' counts records stating there is no race-day collection. Visa and arrival-card rules were checked on official government pages on 2026-11-06: the Thai MFA 30-day list is dated 15 Sep 2026 and the ICA page was updated 28 Oct 2026; the end of Thailand's 60-day scheme and the land-entry cap are from TTG Asia's report on the Royal Gazette notices. Indonesia's and Vietnam's entry rules are not described because no official 2026 page could be read to confirm them.",
+  "editorial_notes": "Rewritten 6 Nov 2026 as the site's single first-trip travel guide, absorbing the race-cation, family-trip, visa-free, race-expo, packing-checklist and spectator-gear pieces. Fee ranges are the top of each published range for races with a full marathon in Run SEA's entity records (some are late-registration prices). Pack-collection facts come from the race records, which cite organiser pages; '15 races' counts records stating there is no race-day collection. Visa and arrival-card rules were checked on official government pages on 2026-11-06: the Thai MFA 30-day list is dated 15 Sep 2026 and the ICA page was updated 28 Oct 2026; the end of Thailand's 60-day scheme and the land-entry cap are from TTG Asia's report on the Royal Gazette notices. Indonesia's and Vietnam's rules were added on 2026-11-06. Indonesia: A1 visa-exemption and B1 visa-on-arrival terms were read in the evisa.imigrasi.go.id visa-selection tool (tourism purpose) for Malaysian, Singaporean, Philippine, Thai, Vietnamese and Bruneian passports (A1 offered) and Australian, US, UK and Japanese passports (B1 only); the three-day arrival-card notice is on the e-Visa home page; All Indonesia's nationwide scope and merged declarations are from the immigration directorate's 1 Oct 2025 press release, and its free status from the Batam immigration office's Sep 2025 notice. Vietnam: e-visa length and fees and the pre-arrival recommendation are from evisa.gov.vn; the Singapore 30-day stay and the Tan Son Nhat-only pre-arrival requirement are from Singapore MFA's Vietnam page (updated 6 Nov 2026); other visa-free periods are from the Vietnam National Authority of Tourism page marked 2026. Vietnam's stays for Indonesian, Bruneian and other ASEAN passports are deliberately not given: the tourism authority lists Indonesia at 14 days, which other reports contradict (30 days), and the Immigration Department's own exemption list, linked from evisa.gov.vn through a t.ly short link, could not be opened.",
   "published_at": "2026-08-11T07:10:00.000Z",
   "last_updated": "2026-11-06",
   "status": "active"

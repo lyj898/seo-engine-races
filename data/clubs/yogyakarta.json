@@ -171,7 +171,32 @@
       "source_url": "https://www.instagram.com/muntirun/"
     }
   ],
-  "coaches": [],
+  "coaches": [
+    {
+      "name": "Cross Limit",
+      "kind": "coaching_business",
+      "url": "https://www.instagram.com/crosslimittraining/",
+      "url_kind": "instagram",
+      "offers": "Personal and group coaching for beginners and racers. A 2023 profile described twice-weekly supervised sessions, home programmes with reporting and evaluation, one- to two-month race-preparation packages and a free trial (prices not published)",
+      "where": "Yogyakarta",
+      "credentials": "World Athletics and LANKOR (Indonesia's national sports accreditation body) certified, per its Instagram bio; founder Nurul Qomar studied sports coaching at Universitas Negeri Yogyakarta",
+      "description": "A running coaching business founded in 2021 by former athlete Nurul Qomar and Datu Agung. Its October 2026 posts congratulate members on half and full marathons and share advice on pacing, drills and cadence.",
+      "active_evidence": "Instagram posts, 30 Sep to 4 Nov 2026; founding details from a Joglo Jateng article dated 18 Jan 2023",
+      "source_url": "https://joglojateng.com/2023/01/18/ciptakan-cross-limit-jadi-wadah-para-pelari/"
+    },
+    {
+      "name": "Coach Hengky (Ultrapro Trail Running School)",
+      "kind": "coach",
+      "url": "https://www.instagram.com/hengkytrailrunning/",
+      "url_kind": "instagram",
+      "offers": "Private trail running coaching and consultations, online and in person, for runners from beginners to ultra finishers, through his Ultrapro Trail Running School (@ultraprorunning.id); enquiries through the link in his Instagram bio (prices not published)",
+      "where": "Yogyakarta; trail sessions on Merapi, including the Kalitalang trail",
+      "credentials": "Trail running coach certified by Kemenpora (the sports ministry) and ALTI (the Indonesian trail running association); he has also completed ALTI's trail race director course",
+      "description": "A Jogja-based trail running coach who focuses on technique, safety and downhill skills. He founded and leads the Ultrapro trail running school.",
+      "active_evidence": "Instagram posts, 2 Mar to 22 Oct 2026",
+      "source_url": "https://www.instagram.com/hengkytrailrunning/"
+    }
+  ],
   "route_guides": [],
   "last_updated": "2026-11-06",
   "status": "active"
