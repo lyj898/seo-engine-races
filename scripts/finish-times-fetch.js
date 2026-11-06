@@ -128,6 +128,10 @@ async function readSportStats(url) {
       for (const r of rows) {
         const ms = r.ot || r.otg;
         if (!ms) continue; // rows with no finish time are DNF/DNS (ldo/ldg are gaps to the leader, not status)
+        // A finish time with no chip or gun rank is listed but not placed by
+        // the timer (disqualified or unofficial: at RnR Manila 2025 four of
+        // them were faster than the 3:01 winner), so it isn't a finish.
+        if (r.ranks && r.ranks.chip?.ro == null && r.ranks.gun?.ro == null) continue;
         times.push([Math.round(ms / 1000), genderOf(r.pg), ageBand(r.pc)]);
       }
       if (rows.length < 1000 || offset + 1000 >= (page.info?.total ?? 0)) break;
